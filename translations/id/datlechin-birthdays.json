@@ -23,18 +23,18 @@
             },
             "change_dob": {
                 "title": "Edit Tanggal Lahir",
-                "date_of_birth_text": "Tanggal Lahir",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
                 "change_dob_label": "Ganti Tanggal Lahir",
-                "dob_heading": "Tanggal Lahir",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "Tampilkan hari dan bulan kelahiran",
                 "show_dob_year_label": "Tampilkan tahun kelahiran",
                 "show_dob_year_help": "Hal ini akan memungkinkan orang melihat usia Anda."
             },
             "edit_user": {
-                "dob_heading": "Tanggal Lahir"
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
                 "nav_item": "Hari ini Ulang Tahun"
@@ -43,8 +43,11 @@
                 "discussion_count": "{count, plural, one {Diskusi: #} other {Diskusi: #}}",
                 "post_count": "{count, plural, one {Post: #} other {Post: #}}",
                 "sign_up": {
-                    "dob_placeholder": ""
+                    "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
                 }
+            },
+            "sign_up": {
+                "dob_placeholder": ""
             },
             "header": {
                 "edit_dob_button": "Edit Tanggal Lahir"
@@ -55,7 +58,7 @@
             "invalid_age_message": "Anda harus berusia minimal {minAge} tahun."
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Tanggal Lahir"
         }
     }
 }

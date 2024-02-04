@@ -2,108 +2,108 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "",
-                "request_nickname": "",
-                "request_username": ""
+                "moderate_requests": "Aprovar les peticions de canvi de nom/sobrenom",
+                "request_nickname": "Sol·licitar canvi de sobrenom",
+                "request_username": "Sol·licitar canvi de nom"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Si us plau, assegura't que el sobrenom sol·licitat compleix les normes del fòrum.",
+                    "decision_title": "Decisió",
+                    "approval_label": "Aprovar",
+                    "rejected_label": "Rebutjar",
+                    "submit_button": "Enviar",
+                    "reason_title": "Motiu per rebutjar la petició",
+                    "success": "Decisió enviada.",
+                    "name": "{name} ha sol·licitat el canvi del seu sobrenom a \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Petició de canvi de sobrenom",
+                    "approved": "S'ha aprovat la teva petició de canvi de sobrenom",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "El teu sobrenom s'ha canviat correctament per {name}",
+                    "rejected": "S'ha rebutjat la teva petició de canvi de sobrenom",
+                    "reason": "Motiu del rebuig: <i>\"{reason}\"</i>.",
+                    "resubmit": "Si vols, ara pots enviar una nova petició de canvi de sobrenom des de la configuració del teu compte."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Petició de canvi de sobrenom",
+                    "current_request": "Ja havies demanat el canvi de sobrenom a \"{name}\". Pots actualitzar la petició o esborrar-la.",
+                    "submit_button": "Enviar petició",
+                    "delete_button": "Esborrar petició",
+                    "confirmation_message": "La teva petició de canvi de sobrenom ha estat enviada i està pendent d'aprovació.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Petició de sobrenom esborrada."
                 }
             },
             "username_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Si us plau, assegura't que aquest canvi de nom d'usuari compleix les normes del fòrum.",
+                    "decision_title": "Decisió",
+                    "approval_label": "Aprovar",
+                    "rejected_label": "Rebutjar",
+                    "submit_button": "Enviar",
+                    "reason_title": "Motiu per rebutjar la petició",
+                    "success": "Decisió enviada.",
+                    "name": "{name} a sol·licitat canviar el seu nom d'usuari per \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Petició de canvi de nom d'usuari",
+                    "approved": "La teva petició de canvi de nom d'usuari ha estat aprovada",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "El teu nom d'usuari ha estat correctament canviat a {name}",
+                    "rejected": "La teva petició de canvi de nom d'usuari ha estat rebutjada",
+                    "reason": "Motiu per rebutjar la petició <i>\"{reason}\"</i>.",
+                    "resubmit": "Ara pots enviar una nova petició de canvi de nom d'usuari des de la configuració del teu compte si decideixes fer-ho."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Demanar canvi de nom d'usuari",
+                    "current_request": "Ja havies demanat el canvi de nom d'usuari a \"{name}\". Pots actualitzar la petició o esborrar-la.",
+                    "submit_button": "Enviar petició",
+                    "delete_button": "Esborrar petició",
+                    "confirmation_message": "La teva petició de canvi de nom d'usuari ha estat enviada i està pendent d'aprovació.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Petició de canvi de nom d'usuari esborrada."
                 }
             },
             "pending_requests": {
-                "empty_text": "",
-                "nickname_item_text": "",
-                "nickname_exerpt": "",
-                "tooltip": "",
-                "title": "",
-                "username_item_text": "",
-                "username_exerpt": ""
+                "empty_text": "No hi ha peticions de canvi de nom.",
+                "nickname_item_text": "{name} ha demanat un canvi de sobrenom",
+                "nickname_exerpt": "Sobrenom demanat: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} ha demanat un canvi de nom d'usuari",
+                "username_exerpt": "Nom d'usuari demanat: {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "",
-                "username_request_button": ""
+                "nickname_request_button": "Canviar sobrenom",
+                "username_request_button": "Canviar nom d'usuari"
             },
             "user": {
-                "name_history_link": ""
+                "name_history_link": "Històric de noms"
             }
         },
         "ref": {
-            "name_change_request": "",
-            "name_change_requests": "",
-            "nickname_change_request": "",
-            "nickname_change_requests": "",
-            "username_change_request": "",
-            "username_change_requests": ""
+            "name_change_request": "Petició de canvi de nom",
+            "name_change_requests": "Peticions de canvi de nom",
+            "nickname_change_request": "Petició de canvi de sobrenom",
+            "nickname_change_requests": "Peticions de canvi de sobrenom",
+            "username_change_request": "Petició de canvi de nom d'usuari",
+            "username_change_requests": "Peticions de canvi de nom d'usuari"
         },
         "email": {
             "body": {
-                "noReasonProvided": "",
-                "approved": "",
-                "rejected": ""
+                "noReasonProvided": "No s'ha especificat cap motiu.",
+                "approved": "Hola, {recipient_display_name}:\n\n{actor_display_name} ha aprovat la teva sol·licitud per canviar el teu nom d'usuari a \"{new_username}\".\n\nAra pots iniciar sessió amb el nou nom d'usuari: {login_url}\n",
+                "rejected": "Hola, {recipient_display_name}:\n\n{actor_display_name} ha rebutjat la teva sol·licitud per canviar el teu nom d'usuari de \"{old_username}\" a \"{requested_username}\".\n\nMotiu: {reason}\n"
             },
             "subject": {
-                "approved": "",
-                "rejected": ""
+                "approved": "{display_name} ha aprovat el teu canvi de nom d'usuari a {requested_username}",
+                "rejected": "{display_name} ha rebutjat el teu canvi de nom d'usuari a {requested_username}"
             }
         }
     }

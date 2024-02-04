@@ -171,7 +171,7 @@
                     "authentication": "Аутентификация",
                     "core": "Настройки форума",
                     "discussion": "Общение",
-                    "feature": "Особенности",
+                    "feature": "Возможности",
                     "formatting": "Форматирование",
                     "language": "Языки",
                     "moderation": "Модерация",
@@ -224,7 +224,7 @@
             "permissions_controls": {
                 "allow_indefinitely_button": "Неограниченно",
                 "allow_never_button": "=> core.ref.never",
-                "allow_some_minutes_button": "{count, plural, one {На # минуты} other {На # минут}}",
+                "allow_some_minutes_button": "{count, plural, one {На # минуту} few {На # минуты} other {На # минут}}",
                 "allow_ten_minutes_button": "На 10 минут",
                 "allow_until_reply_button": "До ответа",
                 "everyone_button": "Все",
@@ -332,7 +332,7 @@
             },
             "discussion_controls": {
                 "cannot_reply_button": "Нельзя ответить",
-                "cannot_reply_text": "У Вас нет прав доступа для публикации ответа в этой дискуссии.",
+                "cannot_reply_text": "У Вас нет разрешения для публикации ответа в этой дискуссии.",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Вы уверены, что хотите удалить дискуссию?",
                 "delete_forever_button": "=> core.ref.delete_forever",
@@ -347,8 +347,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} ответил(а) {ago}",
                 "started_text": "{username} создал(а) {ago}",
-                "total_replies_a11y_label": "{count, plural, one {# ответ} other {# ответов}}",
-                "unread_replies_a11y_label": "{count, plural, one {# непрочитанный ответ} other {# непрочитанных ответов}}. Отметить {count, plural, one {ответ} other {ответы}} как прочитано.",
+                "total_replies_a11y_label": "{count, plural, one {# ответ} few {# ответа} other {# ответов}}",
+                "unread_replies_a11y_label": "{count, plural, one {# непрочитанный ответ} few {# непрочитанных ответа} other {# непрочитанных ответов}}. Отметить {count, plural, one {ответ} few {ответа} other {ответов}} как прочитано.",
                 "mark_as_read_tooltip": "Отметить как прочитанное"
             },
             "forgot_password": {
@@ -445,7 +445,7 @@
                 "title": "Изменение названия"
             },
             "search": {
-                "all_discussions_button": "Поиск по запросу: \"{query}\"",
+                "all_discussions_button": "Искать все дискуссии: \"{query}\"",
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
@@ -473,7 +473,7 @@
                 "revoke_access_token": "Отозвать",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Активные сеансы",
-                "session_terminated": "{count, plural, one {Сеанс завершён} other {# сеансов завершено}}.",
+                "session_terminated": "{count, plural, one {Сеанс завершён} few {# сеанса завершено} other {# сеансов завершено}}.",
                 "session_termination_failed": "Произошла ошибка при завершении Ваших сеансов.",
                 "show_access_token": "Смотреть токен",
                 "terminate_all_other_sessions": "Завершить все остальные сеансы",
@@ -738,7 +738,7 @@
             "security": "Безопасность",
             "settings": "Настройки",
             "sign_up": "Регистрация",
-            "some_others": "{count, plural, one {# другому} other {# других}}",
+            "some_others": "{count, plural, one {# другому} other {# другим}}",
             "start_a_discussion": "Создать дискуссию",
             "username": "Имя пользователя",
             "users": "Пользователи",

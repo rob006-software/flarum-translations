@@ -6,14 +6,18 @@
             "showFlagsOnPosts_text": "Show Flags (Text) on Posts",
             "set_on_registration_label": "Allow setting country on registration",
             "required_label": "Required entering country",
-            "required_help": "You need enable Set on country option to make this option work"
+            "required_help": "You need enable Set on country option to make this option work",
+            "bind_label": "Bind Required entering country",
+            "bind_help": "Force country to account that has not registered country after login"
         },
         "forum": {
             "inputCountryCode": "Country Code",
             "saveButton": "Save",
             "clickToSelectCountry": "Select your country",
             "countrySaved": "Country successfully saved!",
-            "field_placeholder": "Confirm Country Flags"
+            "field_placeholder": "Confirm Country Flags",
+            "binding_country": "We discovered that you have not bound your whereabouts. Please link your country first. You can only post and leave messages after linking your country.",
+            "binding_country_click": "Click Now"
         }
     }
 }

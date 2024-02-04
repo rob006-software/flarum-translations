@@ -7,12 +7,12 @@
                 "tag_activity": "A(z) {tag} új tevékenységei",
                 "tag_new_discussions": "A(z) {tag} új témái",
                 "discussion_last_posts": "Ez a téma",
-                "user_last_posts": ""
+                "user_last_posts": "E felhasználó bejegyzései és hozzászólásai"
             },
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": ""
+                        "title_reply": "Válasz ebben: {discussion}"
                     }
                 },
                 "titles": {
@@ -26,8 +26,8 @@
                     "tag_d_subtitle": "A(z) {tag} legújabb témái",
                     "discussion_title": "{discussion_name}",
                     "discussion_subtitle": "A téma legutóbbi üzenetei",
-                    "user_title": "",
-                    "user_subtitle": ""
+                    "user_title": "{username}",
+                    "user_subtitle": "E felhasználó legfrissebb bejegyzései és hozzászólásai."
                 }
             },
             "discussion": {

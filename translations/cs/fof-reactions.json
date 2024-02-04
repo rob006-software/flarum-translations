@@ -10,7 +10,8 @@
             "reacting-own-post": "Nemůžete reagovat na svůj vlastní příspěvek",
             "modal": {
                 "title": "Reakce",
-                "anonymous_count": "{count, plural, one {# anonymní uživatel} few {# anonymní uživatelé} other {# anonymních uživatelů}}"
+                "anonymous_count": "{count, plural, one {# anonymní uživatel} few {# anonymní uživatelé} other {# anonymních uživatelů}}",
+                "no_reactions": ""
             },
             "mod_item": "Zobrazit reakce",
             "react_button_label": "Reagovat"
@@ -18,7 +19,8 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Reagovat na příspěvky",
-                "see_reactions_label": "Zobrazit, kdo reagoval na příspěvky"
+                "see_reactions_label": "Zobrazit, kdo reagoval na příspěvky",
+                "delete_post_reactions_label": ""
             },
             "page": {
                 "cdn": {

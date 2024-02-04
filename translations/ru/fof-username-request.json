@@ -97,13 +97,13 @@
         },
         "email": {
             "body": {
-                "noReasonProvided": "",
-                "approved": "",
-                "rejected": ""
+                "noReasonProvided": "Не указана причина.",
+                "approved": "Привет {recipient_display_name},\n\nВаш запрос на изменение вашего имени пользователя на \"{new_username}\" был одобрен {actor_display_name}.\n\nТеперь вы можете заходить на форум под новым именем : {login_url}\n",
+                "rejected": "Привет {recipient_display_name},\n\nВаш запрос на изменение вашего имени пользователя с \"{old_username}\" на \"{requested_username}\" был отклонен {actor_display_name}.\n\nПричина: {reason}\n"
             },
             "subject": {
-                "approved": "",
-                "rejected": ""
+                "approved": "{display_name} одобрил изменение вашего имени пользователя на {requested_username}",
+                "rejected": "{display_name} отклонил изменение вашего имени пользователя на {requested_username}"
             }
         }
     }

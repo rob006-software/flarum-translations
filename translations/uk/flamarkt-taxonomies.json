@@ -2,171 +2,171 @@
     "flamarkt-taxonomies": {
         "admin": {
             "menu": {
-                "title": "",
-                "discussions": "",
-                "users": "",
-                "products": ""
+                "title": "Таксономії",
+                "discussions": "Таксономії дискусій",
+                "users": "Таксономії користувачів",
+                "products": "Таксономії продуктів"
             },
             "page": {
-                "title": "",
+                "title": "Таксономії",
                 "create": {
-                    "taxonomy": "",
-                    "term": ""
+                    "taxonomy": "Створити таксономію",
+                    "term": "Створити термін"
                 },
-                "reset-term-order": ""
+                "reset-term-order": "Відновити список термінів в алфавітному порядку"
             },
             "edit-taxonomy": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Створити таксономію",
+                    "edit": "Редагувати таксономію"
                 },
                 "section": {
-                    "info": "",
-                    "filling": "",
-                    "browsing": "",
-                    "scope": ""
+                    "info": "Інформація",
+                    "filling": "Заповнення",
+                    "browsing": "Перегляд",
+                    "scope": "Область застосування"
                 },
                 "field": {
-                    "type": "",
-                    "typeDescription": "",
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": "",
-                    "showLabel": "",
-                    "showLabelDescription": "",
-                    "enableFilter": "",
-                    "enableFilterDescription": "",
-                    "showFilter": "",
-                    "showFilterDescription": "",
-                    "enableFulltextSearch": "",
-                    "enableFulltextSearchDescription": "",
-                    "enableFulltextSearchWarning": "",
-                    "allowCustomValues": "",
-                    "customValueValidation": "",
-                    "customValueSlugger": "",
-                    "customValueSluggerDescription": "",
-                    "countRequired": "",
-                    "countRequiredDescription": "",
-                    "rangeSeparatorText": "",
-                    "tagScope": "",
-                    "tagScopeDescription": "",
-                    "tagScopePlaceholder": ""
+                    "type": "Тип",
+                    "typeDescription": "Таксономії можна використовувати на декількох ресурсах Flarum. Тип не може бути змінений після створення. Ви можете використовувати однакові імена та адреси для таксономій різних типів.\n",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
+                    "showLabel": "Показати мітку таксономії разом з терміном",
+                    "showLabelDescription": "Стиль відображення списку обговорень та героя. Наразі не використовується для інших типів ресурсів.\n",
+                    "enableFilter": "Увімкнення фільтрів рядка запиту/API",
+                    "enableFilterDescription": "Дозволяє глибоко пов'язувати фільтри таксономії з обговореннями, користувачами і продуктами для користувачів з дозволом \"бачити все\" для даного типу таксономії. Це також дозволяє тим самим користувачам використовувати фільтри пошуку за допомогою REST API. Без налаштування \"Показувати фільтри\" користувачі не мають очевидного способу отримати ці посилання для користувачів і продуктів. Для обговорень глибоке посилання можна знайти в герої, навіть якщо \"Показувати фільтри\" вимкнено.\n",
+                    "showFilter": "Показати фільтри на сторінках списку/каталогу",
+                    "showFilterDescription": "Показувати фільтри постійним відвідувачам у списку обговорень, каталозі користувачів або індексі магазину. Працює тільки якщо увімкнено \"Увімкнути фільтри\". Адміністратори магазину завжди можуть фільтрувати за будь-якою таксономією в бек-офісі.\n",
+                    "enableFulltextSearch": "Індексовані терміни для повнотекстового пошуку",
+                    "enableFulltextSearchDescription": "Впливає лише тоді, коли активна інтеграція Scout. Назви термінів стануть частиною даних, доступних у повнотекстовому пошуку для звичайних користувачів. Дані будуть доступні для пошуку будь-якому користувачеві, який має дозвіл на розміщення ресурсу (\"Переглянути форум\" для обговорень, \"Шукати користувачів\" для користувачів і всі для продуктів), але не користувачам, які мають дозвіл на перегляд таксономії! Після зміни цього налаштування для існуючих таксономій ви маєте вручну перестворити пошуковий індекс Scout для ресурсу, так само, якщо ви видалите таксономію, коли терміни все ще призначені.\n",
+                    "enableFulltextSearchWarning": "Ваші дозволи для пошуку на ресурсі (\"Перегляд форуму\" для обговорень, \"Пошук користувачів\" для користувачів) відрізняються від дозволів для таксономій \"бачити все\". Перш ніж увімкнути цю опцію, переконайтеся, що ви впевнені в тому, що ці користувачі зможуть шукати дані, навіть якщо вони зазвичай не можуть бачити таксономії!\n",
+                    "allowCustomValues": "Дозволити користувацькі значення",
+                    "customValueValidation": "Перевірка для користувацьких значень",
+                    "customValueSlugger": "Псевдоніми адрес для користувацьких значень",
+                    "customValueSluggerDescription": "Виберіть, як ви хочете, щоб псевдонім адреси був створений. Якщо мітка вже існує, до неї буде автоматично додано числовий префікс. Якщо ви використовуєте опцію Транслітератор, вам потрібно заздалегідь встановити та налаштувати це розширення.\n",
+                    "countRequired": "Необхідна кількість термінів",
+                    "countRequiredDescription": "Введіть мінімальну та максимальну кількість термінів з цієї таксономії, які можуть бути застосовані до ресурсу.\n",
+                    "rangeSeparatorText": "до",
+                    "tagScope": "Тільки у вказаних тегах",
+                    "tagScopeDescription": "Таксономія буде доступна лише у вибраних тегах. Якщо ви виберете один тег, фільтр домашньої сторінки буде видно лише для цього тегу.\n",
+                    "tagScopePlaceholder": "Введіть, щоб знайти тег..."
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Ви дійсно хочете видалити таксономію {name}? Всі терміни під цією таксономією буде видалено. Обговорення з використанням таксономії НЕ будуть видалені.\n",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 },
                 "type-options": {
-                    "products": "",
-                    "discussions": "",
-                    "users": ""
+                    "products": "Продукти",
+                    "discussions": "Дискусії",
+                    "users": "Користувачі"
                 },
                 "validation-options": {
-                    "default": "",
-                    "alpha_num": "",
-                    "alpha_dash": "",
-                    "regex": ""
+                    "default": "Будь-яке текстове значення",
+                    "alpha_num": "Алфавітно-цифрові значення",
+                    "alpha_dash": "Алфавітно-цифрові значення та тире/підкреслення",
+                    "regex": "Регулярний вираз"
                 },
                 "slugger-options": {
-                    "random": "",
-                    "alpha_dash": "",
-                    "transliterator": ""
+                    "random": "Випадковий ідентифікатор",
+                    "alpha_dash": "ASCII-алфавітно-чтсловий псевдонім адреси",
+                    "transliterator": "Використовуйте розширення FoF Transliterator"
                 }
             },
             "edit-term": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Створити термін",
+                    "edit": "Редагувати термін"
                 },
                 "field": {
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": ""
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Ви дійсно хочете видалити термін {name}? Обговорення, що використовують цей термін, НЕ будуть видалені.\n",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 }
             },
             "permissions": {
-                "heading": "",
-                "moderate": "",
-                "bypassTermCounts": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "ownDisabledEveryone": "",
-                "ownDisabledMembers": ""
+                "heading": "Таксономії",
+                "moderate": "Налаштування доступних таксономій",
+                "bypassTermCounts": "Вимоги до підрахунку термінів",
+                "seeOwnDiscussion": "Дивіться таксономії у власних дискусіях",
+                "seeAnyDiscussion": "Дивіться таксономії всіх дискусій",
+                "editOwnDiscussion": "Редагувати таксономії у власних дискусіях",
+                "editAnyDiscussion": "Редагувати таксономії в будь-якій дискусії",
+                "seeOwnUser": "Дивіться таксономії на власному користувачі",
+                "seeAnyUser": "Переглянути таксономії для будь-якого користувача",
+                "editOwnUser": "Редагувати таксономії для власного користувача",
+                "editAnyUser": "Редагувати таксономії для будь-якого користувача",
+                "ownDisabledEveryone": "Неактивні та призупинені члени",
+                "ownDisabledMembers": "Активовані учасники"
             },
             "settings": {
-                "goToPage": ""
+                "goToPage": "Перейдіть на сторінку конфігурації"
             }
         },
         "forum": {
             "composer": {
-                "choose": ""
+                "choose": "Обрати {taxonomy}"
             },
             "discussion": {
-                "edit": ""
+                "edit": "Редагувати {taxonomy}"
             },
             "user": {
-                "nav": "",
-                "edit": ""
+                "nav": "Таксономії",
+                "edit": "Редагувати {taxonomy}"
             },
             "blog": {
                 "widget": {
-                    "title": ""
+                    "title": "Таксономії"
                 }
             }
         },
         "lib": {
             "modal": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Обрати {taxonomy} для вашої дискусії",
+                    "edit": "Редагувати {taxonomy} для {title}"
                 },
-                "placeholder": "",
-                "placeholderOptional": "",
-                "custom": "",
-                "bypassTermCounts": "",
-                "submit": ""
+                "placeholder": "{count, plural, one {Обрати термін...} other {Обрати # терміни...}}",
+                "placeholderOptional": "Обрати...",
+                "custom": "Використовувати {value}",
+                "bypassTermCounts": "Термін обходу враховується",
+                "submit": "Гаразд"
             }
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": "",
-                "discussion_taxonomy_not_in_scope": "",
-                "cannot_use_taxonomies_on_model": ""
+                "invalid_filter_taxonomy": "Невірний ключ \"{slug}\" таксономічного фільтра \"{type}\"",
+                "discussion_taxonomy_not_in_scope": "Таксономія \"{slug}\" недоступна у поточній комбінації тегів",
+                "cannot_use_taxonomies_on_model": "Вам не дозволяється використовувати таксономії в цьому контексті"
             }
         },
         "ref": {
             "field": {
-                "name": "",
-                "slug": "",
-                "description": "",
-                "color": "",
-                "icon": "",
-                "iconDescription": ""
+                "name": "Назва",
+                "slug": "Псевдонім",
+                "description": "Опис",
+                "color": "Колір",
+                "icon": "Іконка",
+                "iconDescription": "Введіть назву будь-якого класу значків <a>FontAwesome</a>, <em>включаючи</em> префікс <code>fas fa-</code>."
             },
-            "delete": "",
+            "delete": "Видалити",
             "submit": {
-                "new": "",
-                "edit": ""
+                "new": "Створити",
+                "edit": "Зберегти"
             }
         }
     }

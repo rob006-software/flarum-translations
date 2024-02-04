@@ -2,17 +2,17 @@
     "clarkwinkelmann-username-blacklist": {
         "admin": {
             "settings": {
-                "regex": "",
-                "regexHelp": "",
-                "message": "",
-                "blacklist": "",
-                "blacklistHelp": "",
-                "whitelist": "",
-                "whitelistHelp": ""
+                "regex": "Reguláris kifejezés",
+                "regexHelp": "Domainlista helyett reguláris kifejezést használó ellenőrzésre váltás. Minden sornak érvényes reguláris kifejezésnek kell lennie, elválasztókkal.\n",
+                "message": "Egyéni hibaüzenet",
+                "blacklist": "Feketelista",
+                "blacklistHelp": "Soronként egy kifejezés. Ha nincs feketelista megadva, akkor minden el lesz utasítva, amely nem szerepel a fehérlistán.\n",
+                "whitelist": "Fehérlista",
+                "whitelistHelp": "Soronként egy kifejezés. Elsőbbséget élvez a feketelistához képest.\n"
             }
         },
         "api": {
-            "fallbackMessage": ""
+            "fallbackMessage": "A felhasználónév nem szerepel a fehérlistán."
         }
     }
 }

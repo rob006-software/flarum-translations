@@ -10,7 +10,8 @@
             "reacting-own-post": "你不能回應自己的貼文",
             "modal": {
                 "title": "心情",
-                "anonymous_count": "{count, plural, one {# 匿名用戶} other {# 匿名用戶}}"
+                "anonymous_count": "{count, plural, one {# 匿名用戶} other {# 匿名用戶}}",
+                "no_reactions": ""
             },
             "mod_item": "查看心情",
             "react_button_label": "表達心情"
@@ -18,7 +19,8 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "回應帖文",
-                "see_reactions_label": "查看戳心情的人"
+                "see_reactions_label": "查看戳心情的人",
+                "delete_post_reactions_label": ""
             },
             "page": {
                 "cdn": {

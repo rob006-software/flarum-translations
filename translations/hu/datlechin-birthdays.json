@@ -23,28 +23,28 @@
             },
             "change_dob": {
                 "title": "Születési dátum szerkesztése",
-                "date_of_birth_text": "Születési dátum",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
                 "change_dob_label": "Születési dátum szerkesztése",
-                "dob_heading": "Születési dátum",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "A nap és hónap megjelenítése",
                 "show_dob_year_label": "Az év megjelenítése",
                 "show_dob_year_help": "Ez megengedi a felhasználóknak, hogy láthassák hány éves."
             },
             "edit_user": {
-                "dob_heading": "Születési dátum"
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
                 "nav_item": "Mai születésnapok"
             },
             "page": {
                 "discussion_count": "{count, plural, one {Téma: #} other {Téma: #}}",
-                "post_count": "{count, plural, one {Bejegyzés: #} other {Bejegyzés: #}}",
-                "sign_up": {
-                    "dob_placeholder": ""
-                }
+                "post_count": "{count, plural, one {Bejegyzés: #} other {Bejegyzés: #}}"
+            },
+            "sign_up": {
+                "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "header": {
                 "edit_dob_button": "Születési dátum szerkesztése"
@@ -55,7 +55,7 @@
             "invalid_age_message": "Legalább {minAge} évesnek kell lennie."
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Születési dátum"
         }
     }
 }

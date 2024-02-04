@@ -2,18 +2,18 @@
     "ianm-boring-avatars": {
         "admin": {
             "settings": {
-                "color1": "",
-                "color2": "",
-                "color3": "",
-                "color4": "",
-                "color5": "",
-                "identifier": "",
-                "identifier_help": "",
-                "identifier_id": "",
-                "identifier_display_name": "",
-                "identifier_email": "",
-                "theme": "",
-                "theme_help": ""
+                "color1": "Warna 1",
+                "color2": "Warna 2",
+                "color3": "Warna 3",
+                "color4": "Warna 4",
+                "color5": "Warna 5",
+                "identifier": "Pengidentifikasi",
+                "identifier_help": "Digunakan untuk menghasilkan avatar unik untuk setiap pengguna.\n",
+                "identifier_id": "ID Pengguna",
+                "identifier_display_name": "Nama tampilan",
+                "identifier_email": "Email",
+                "theme": "Tema",
+                "theme_help": "Tema yang digunakan untuk boring avatar.\n"
             }
         }
     },
@@ -21,9 +21,9 @@
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Menambahkan boring avatar ke export zip.",
+                    "anonymize_description": "Menghapus boring avatar, dan membuat ulang avatar baru secara acak.",
+                    "delete_description": "Hapus boring avatar."
                 }
             }
         }

@@ -10,7 +10,8 @@
             "reacting-own-post": "您不能对自己的帖子戳表情",
             "modal": {
                 "title": "表情",
-                "anonymous_count": ""
+                "anonymous_count": "{count} 位匿名用户",
+                "no_reactions": "还没有任何反应"
             },
             "mod_item": "查看表情",
             "react_button_label": "戳表情"
@@ -18,14 +19,15 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "戳表情",
-                "see_reactions_label": "查看戳表情的人"
+                "see_reactions_label": "查看戳表情的人",
+                "delete_post_reactions_label": "删除帖子的反应"
             },
             "page": {
                 "cdn": {
                     "title": "",
                     "help": "",
                     "label": "",
-                    "default-url": ""
+                    "default-url": "默认：{url}"
                 },
                 "reactions": {
                     "title": "自定义表情",

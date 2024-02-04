@@ -2,16 +2,16 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": "Добавить изображение (URL ссылки) для каждого пункта опроса",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": ""
+                "allow_option_image": "Разрешить изображение (URL) для каждого варианта опроса",
+                "max_options": "Максимальное количество вариантов опроса",
+                "options_color_blend": "Цветной текст в вариантах опроса",
+                "options_color_blend_help": "Параметр позволяет улучшить читабельность вариантов опроса. Отключите, если эта функция вызывает проблемы с внешнем видом Вашего форума и ухудшает читабельность."
             },
             "permissions": {
                 "view_results_without_voting": "Смотреть результаты без голосования",
                 "start": "Создавать опросы",
-                "self_edit": "Редактировать свои опросы",
-                "self_post_edit": "",
+                "self_edit": "Редактировать свои опросы (требуется разрешение на редактирование сообщений)",
+                "self_post_edit": "Редактировать *все* опросы в своих сообщениях (требуется разрешение на редактирование сообщений)",
                 "vote": "Голосовать в опросах",
                 "change_vote": "Изменять голос",
                 "moderate": "Редактировать / удалять опросы"
@@ -19,18 +19,18 @@
         },
         "forum": {
             "days_remaining": "Опрос завершится: {time}.",
-            "no_permission": "У Вас нет прав доступа на голосование в опросе",
+            "no_permission": "У Вас нет разрешения для голосования в опросе",
             "poll_ended": "Опрос завершён.",
             "public_poll": "Посмотреть голоса",
-            "max_votes_allowed": "",
+            "max_votes_allowed": "Опрос позволяет голосовать за {max, plural, one {# вариант} other {# вариантов}}.",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": ""
+                "cannot_change_vote": "Вы не можете поменять свой голос после голосования.",
+                "submit_button": "Голосовать"
             },
             "composer_discussion": {
-                "add_poll": "Добавить опрос",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "У Вас нет разрешения на создание опроса."
             },
             "modal": {
                 "add_title": "Добавить опрос",
@@ -42,19 +42,19 @@
                 "min": "Вы должны добавить минимум 2 варианта",
                 "no_voters": "Голоса отсутствуют",
                 "option_placeholder": "Вариант",
-                "image_option_placeholder": "URL ссылка на изображение (опционально)",
+                "image_option_placeholder": "URL изображения (опционально)",
                 "options_label": "Варианты ответа",
                 "public_poll_label": "Публичный опрос",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "allow_change_vote_label": "",
+                "allow_multiple_votes_label": "Разрешить выбор нескольких вариантов",
+                "max_votes_label": "Максимально голосов на участника",
+                "max_votes_help": "Установите значение 0, чтобы разрешить участнику голосовать за все варианты.",
+                "hide_votes_label": "Скрыть голоса до завершения опроса",
+                "allow_change_vote_label": "Разрешить участникам изменять свой голос",
                 "question_placeholder": "Вопрос",
                 "submit": "Сохранить"
             },
             "moderation": {
-                "add": "",
+                "add": "Добавить опрос",
                 "delete": "Удалить опрос",
                 "delete_confirm": "Вы уверены, что хотите удалить этот опрос?",
                 "edit": "Изменить опрос"

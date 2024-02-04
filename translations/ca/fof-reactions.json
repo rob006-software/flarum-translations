@@ -10,7 +10,8 @@
             "reacting-own-post": "No pots reaccionar a la teva pròpia publicació",
             "modal": {
                 "title": "Reaccions",
-                "anonymous_count": "{count, plural, one {# usuari anònim} other {# usuaris anònims}}"
+                "anonymous_count": "{count, plural, one {# usuari anònim} other {# usuaris anònims}}",
+                "no_reactions": ""
             },
             "mod_item": "Veure reaccions",
             "react_button_label": "Reaccionar"
@@ -18,14 +19,15 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Reaccionar a publicacions",
-                "see_reactions_label": "Veure qui ha reaccionat a publicacions"
+                "see_reactions_label": "Veure qui ha reaccionat a publicacions",
+                "delete_post_reactions_label": ""
             },
             "page": {
                 "cdn": {
-                    "title": "",
-                    "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "title": "CDN",
+                    "help": "Per defecte, servim les imatges de les reaccions des del servei CDN (=Content Delivery Network) de Cloudflare. També tens l'opció d'especificar qualsevol altra adreça CDN si ho consideres necessari.\n<code>[codepoint]</code> es substituirà pel punt de codi de l'emoji.\n\nPer exemple, per canviar a Noto Emoji mitjançant jsdelivr, introdueix <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >. Aquest camp MAI s'ha de deixar buit.\n",
+                    "label": "Adreça web",
+                    "default-url": "Per defecte: {url}"
                 },
                 "reactions": {
                     "title": "Reaccions personalitzades",

@@ -1,0 +1,37 @@
+{
+    "nodeloc-dislikes": {
+        "admin": {
+            "permissions": {
+                "dislike_posts_label": "Gönderileri beğenme"
+            },
+            "settings": {
+                "dislike_own_posts_help": "Etkinleştirildiğinde, izne bağlı olarak kullanıcılar forumdaki kendi gönderilerini 'beğenmeyebilir'. Kullanıcıların kendi gönderilerine 'beğenmeme' işareti koymasını önlemek için bu ayarı devre dışı bırakın.",
+                "dislike_own_posts_label": "Kullanıcılar kendi gönderilerini beğenmeyebilir"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_disliked_text": "{username} gönderini beğenmedi"
+            },
+            "post": {
+                "dislike_link": "Beğenme",
+                "disliked_by_self_text": "{users} bunu beğenmedi.",
+                "disliked_by_text": "{count, plural, one {{users} bunu beğenmedi} other {{users} bunu beğenmedi}}.",
+                "others_link": "=> core.ref.some_others",
+                "undislike_link": "Beğenmemekten vazgeç",
+                "you_text": "=> core.ref.you"
+            },
+            "post_dislikes": {
+                "title": "Bu Gönderiyi Kimler Beğenmedi",
+                "load_more_button": "=> core.ref.load_more"
+            },
+            "settings": {
+                "notify_post_disliked_label": "Birisi gönderilerimden birini beğenmedi"
+            },
+            "user": {
+                "dislikes_link": "Beğenmemeler"
+            }
+        }
+    }
+}

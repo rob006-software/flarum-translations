@@ -2,16 +2,16 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Grûpan behs bikin"
             },
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Destûrê bide behskirina bi navê bikarhêner (@Bikarhêner)",
+                "allow_username_format_text": "Forma heyî ya ji bo behskirina bikarhêner @\"Navê Nîşandanê\"#ID e.\nVê mîhengê dihêle ku formata @Bikarhêner kevn were bikar anîn, lê piştî tomarkirinê dê dîsa jî veguherîne forma nû.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
+                "mention_tooltip": "Bikarhêner, kom an postek binav bikin",
                 "reply_to_post_text": ""
             },
             "mentioned_by": {
@@ -28,10 +28,10 @@
                 "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "",
                 "mentioned_by_text": "",
-                "others_text": "",
+                "others_text": "=> core.ref.some_others",
                 "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
                 "notify_post_mentioned_label": "",

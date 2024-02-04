@@ -1,0 +1,37 @@
+{
+    "nodeloc-dislikes": {
+        "admin": {
+            "permissions": {
+                "dislike_posts_label": "Dislike posts"
+            },
+            "settings": {
+                "dislike_own_posts_help": "When enabled, subject to permission, users may 'dislike' their own posts on the forum. To prevent users placing a 'dislike' on their own posts, disable this setting.",
+                "dislike_own_posts_label": "Users may dislike their own posts"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_disliked_text": "{username} disliked your post"
+            },
+            "post": {
+                "dislike_link": "Dislike",
+                "disliked_by_self_text": "{users} dislike this.",
+                "disliked_by_text": "{count, plural, one {{users} dislikes this} other {{users} dislike this}}.",
+                "others_link": "=> core.ref.some_others",
+                "undislike_link": "Undislike",
+                "you_text": "=> core.ref.you"
+            },
+            "post_dislikes": {
+                "title": "Users Who Dislike This",
+                "load_more_button": "=> core.ref.load_more"
+            },
+            "settings": {
+                "notify_post_disliked_label": "Someone dislikes one of my posts"
+            },
+            "user": {
+                "dislikes_link": "Dislikes"
+            }
+        }
+    }
+}

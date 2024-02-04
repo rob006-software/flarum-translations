@@ -10,7 +10,8 @@
             "reacting-own-post": "Anda tidak dapat memberikan reaksi terhadap post Anda sendiri",
             "modal": {
                 "title": "Bereaksi",
-                "anonymous_count": "{count, plural, one {# pengguna anonim} other {# pengguna anonim}}"
+                "anonymous_count": "{count, plural, one {# pengguna anonim} other {# pengguna anonim}}",
+                "no_reactions": ""
             },
             "mod_item": "Lihat Reaksi",
             "react_button_label": "Bereaksi"
@@ -18,7 +19,8 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Memberikan reaksi terhadap postingan",
-                "see_reactions_label": "Melihat siapa yang memberikan reaksi pada postingan"
+                "see_reactions_label": "Melihat siapa yang memberikan reaksi pada postingan",
+                "delete_post_reactions_label": ""
             },
             "page": {
                 "cdn": {

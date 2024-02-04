@@ -4,7 +4,7 @@
             "buttons": {
                 "signature": "Aláírás",
                 "save": "Aláírás mentése",
-                "edit": ""
+                "edit": "Aláírás szerkesztése"
             },
             "errors": {
                 "max_char_limit_exceed": "Maximális karakterkorlát túllépve.",
@@ -13,7 +13,7 @@
                 "max_image_height_exceed": "Maximális képmagassági korlát túllépve."
             },
             "profile": {
-                "click": ""
+                "click": "Kattintson az aláírása megírásához"
             },
             "modal": {
                 "loading": {
@@ -28,23 +28,23 @@
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Más felhasználók aláírásának szerkesztése",
+                "allow_signature": "Lehet aláírása"
             },
             "settings": {
                 "maximum_image_count": {
                     "description": "A beillesztett képek legnagyobb száma.",
-                    "help": "",
+                    "help": "Ha egy felhasználó túllépi az aláírásában szereplő képek legnagyobb számát, akkor a mentés addig meg lesz akadályozva, amíg ki nem javítja.",
                     "placeholder": "5 (alapértelmezett)"
                 },
                 "maximum_char_limit": {
-                    "description": "Az aláírás legnagyobb karakterkorlátja (karakterek száma, nem veszi figyelembe a HTML-címkéket)",
-                    "help": "",
+                    "description": "Az aláírás karakterszámkorlátja.",
+                    "help": "Ha egy felhasználó túllépi az aláírásában a karakterkorlátot, akkor a mentés addig meg lesz akadályozva, amíg ki nem javítja.",
                     "placeholder": "1000 (alapértelmezett)"
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Aláírás helyi szerkesztése.",
+                    "help": "Ha be van kapcsolva, akkor a felhasználók szerkeszthetik az aláírásuk egy bejegyzésük megtekintésekor."
                 },
                 "maximum_image_width": {
                     "description": "A képek legnagyobb szélessége a szerkesztőben.",

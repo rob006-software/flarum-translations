@@ -21,8 +21,8 @@
                 "empty_text": "Пользователи, соответствующие Вашему запросу, не найдены.",
                 "filter_button": "Фильтр групп",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} дискуссия} other {{count} дискуссий}}",
+                    "post-count": "{count, plural, one { {count} сообщение} other {{count} сообщений}}"
                 }
             }
         },
@@ -35,7 +35,7 @@
                 "default-sort": "Сортировка по умолчанию",
                 "use-small-cards": "Маленькие карточки участников",
                 "disable-global-search-source": "Не добавлять каталог участников в поле глобального поиска",
-                "link-group-mentions": ""
+                "link-group-mentions": "Ссылка на упоминания группы в сообщениях в Пользовательском каталоге"
             }
         },
         "lib": {

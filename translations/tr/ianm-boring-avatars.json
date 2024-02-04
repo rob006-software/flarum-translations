@@ -2,18 +2,18 @@
     "ianm-boring-avatars": {
         "admin": {
             "settings": {
-                "color1": "",
-                "color2": "",
-                "color3": "",
-                "color4": "",
-                "color5": "",
-                "identifier": "",
-                "identifier_help": "",
-                "identifier_id": "",
-                "identifier_display_name": "",
-                "identifier_email": "",
-                "theme": "",
-                "theme_help": ""
+                "color1": "Renk 1",
+                "color2": "Renk 2",
+                "color3": "Renk 3",
+                "color4": "Renk 4",
+                "color5": "Renk 5",
+                "identifier": "Tanımlayıcı",
+                "identifier_help": "Her kullanıcı için benzersiz bir avatar oluşturmak için kullanılır.\n",
+                "identifier_id": "Kullanıcı Kimliği",
+                "identifier_display_name": "Görünen ismi",
+                "identifier_email": "E-Posta",
+                "theme": "Tema",
+                "theme_help": "Sıkıcı avatarlar için kullanılacak tema.\n"
             }
         }
     },
@@ -21,9 +21,9 @@
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Dışa aktarma zip dosyasına sıkıcı avatarı ekler.",
+                    "anonymize_description": "Sıkıcı avatarı siler ve yeni, rastgele bir avatar oluşturur.",
+                    "delete_description": "Sıkıcı avatarı siler."
                 }
             }
         }

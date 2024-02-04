@@ -2,48 +2,48 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "Скарга на допис",
-                "view_flags_label": "Перегляд повідомлень на модерації"
+                "flag_posts_label": "Позначені дописи",
+                "view_flags_label": "Переглянути позначені дописи"
             },
             "settings": {
-                "flag_own_posts_label": "Дозволити користувачам позначати свої дописи",
-                "guidelines_url_label": "Правила спільноти (URL)",
-                "title": "Налаштування прапорів"
+                "flag_own_posts_label": "Дозвольте користувачам позначати власні дописи",
+                "guidelines_url_label": "URL-адреса керівних принципів спільноти",
+                "title": "Налаштування для позначень"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "Дякуємо, що відмітили цей допис. Наші модератори перевірять його.",
+                "confirmation_message": "Дякуємо, що пощначили цей допис. Наші модератори перевірять його.",
                 "dismiss_button": "=> core.ref.okay",
                 "reason_details_placeholder": "Додаткова інформація (необов'язково)",
                 "reason_inappropriate_label": "Неприпустимо",
-                "reason_inappropriate_text": "Допис має образливий характер або порушує <a>правила спільноти</a>.",
+                "reason_inappropriate_text": "Цей допис є образливим, нецензурним або порушує наші <a>правила спільноти</a>.",
                 "reason_missing_message": "Будь ласка, надайте інформацію для наших модераторів.",
                 "reason_off_topic_label": "Не по темі",
                 "reason_off_topic_text": "Допис не має відношення до дискусії і має бути переміщено в інше місце.",
-                "reason_other_label": "Інше",
+                "reason_other_label": "Інше (будь ласка, вкажіть)",
                 "reason_spam_label": "Спам",
                 "reason_spam_text": "Допис має рекламний характер.",
                 "submit_button": "=> flarum-flags.ref.flag_post",
                 "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "Прапори відсутні",
-                "item_text": "{username} у <em>{discussion}</em>",
+                "empty_text": "Без позначень",
+                "item_text": "Користувач {username} у <em>{discussion}</em>",
                 "title": "=> flarum-flags.ref.flagged_posts",
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "Відхилити прапор",
-                "flagged_by_text": "{username} позначили прапором",
-                "flagged_by_with_reason_text": "{username} позначили прапором як «{reason}»"
+                "dismiss_flag_button": "Відхилити позгачення",
+                "flagged_by_text": "Позначено користувачем {username}",
+                "flagged_by_with_reason_text": "Позначено користувачем {username} як {reason}"
             },
             "post_controls": {
-                "flag_button": "Прапор"
+                "flag_button": "Позначення"
             }
         },
         "ref": {
-            "flag_post": "Прапор допису",
+            "flag_post": "Позначений допис",
             "flagged_posts": "Позначені дописи"
         }
     }

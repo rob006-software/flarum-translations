@@ -23,18 +23,18 @@
             },
             "change_dob": {
                 "title": "Editar data de naixement",
-                "date_of_birth_text": "Data de naixement",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
                 "change_dob_label": "Canviar data de naixement",
-                "dob_heading": "Data de naixement",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "Mostrar dia i mes de naixement",
                 "show_dob_year_label": "Mostrar any de naixement",
                 "show_dob_year_help": "Això permetrà que la gent vegi la teva edat."
             },
             "edit_user": {
-                "dob_heading": "Data de naixement"
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
                 "nav_item": "Aniversaris d'avui"
@@ -43,8 +43,11 @@
                 "discussion_count": "{count, plural, one {Debat: #} other {Debats: #}}",
                 "post_count": "{count, plural, one {Publicació: #} other {Publicacions: #}}",
                 "sign_up": {
-                    "dob_placeholder": ""
+                    "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
                 }
+            },
+            "sign_up": {
+                "dob_placeholder": ""
             },
             "header": {
                 "edit_dob_button": "Editar data de naixement"
@@ -55,7 +58,7 @@
             "invalid_age_message": "Almenys has de tenir {minAge} anys per inscriure't."
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Data de naixement"
         }
     }
 }

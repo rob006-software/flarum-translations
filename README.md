@@ -541,7 +541,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/russian">Russian</a></td>
-		<td><a href="https://github.com/z17cx">z17cx</a>, <a href="https://github.com/uidbox20">uidbox20</a></td>
+		<td><a href="https://github.com/KaiKimera">KaiKimera</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ru.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ru/svg-badge.svg" alt="detailed translation status" />
@@ -1119,10 +1119,13 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`nearata-embed-video`](https://weblate.rob006.net/projects/flarum/nearata-embed-video) | [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video) |
 | [`nearata-maintenance-mode`](https://weblate.rob006.net/projects/flarum/nearata-maintenance-mode) | [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode) |
 | [`nearata-minecraft-avatars`](https://weblate.rob006.net/projects/flarum/nearata-minecraft-avatars) | [`nearata/flarum-ext-minecraft-avatars`](https://github.com/Nearata/flarum-ext-minecraft-avatars) |
+| [`nearata-password-strength-enforcer`](https://weblate.rob006.net/projects/flarum/nearata-password-strength-enforcer) | [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer) |
 | [`nearata-related-discussions`](https://weblate.rob006.net/projects/flarum/nearata-related-discussions) | [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions) |
 | [`nearata-signup-confirm-password`](https://weblate.rob006.net/projects/flarum/nearata-signup-confirm-password) | [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password) |
 | [`nearata-tags-color-generator`](https://weblate.rob006.net/projects/flarum/nearata-tags-color-generator) | [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator) |
 | [`nearata-twofactor`](https://weblate.rob006.net/projects/flarum/nearata-twofactor) | [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor) |
+| [`nodeloc-dislikes`](https://weblate.rob006.net/projects/flarum/nodeloc-dislikes) | [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes) |
+| [`nodeloc-ignore-hidden-tags`](https://weblate.rob006.net/projects/flarum/nodeloc-ignore-hidden-tags) | [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags) |
 | [`nomiscz-auth-steam`](https://weblate.rob006.net/projects/flarum/nomiscz-auth-steam) | [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam) |
 | [`nomiscz-auth-wechat`](https://weblate.rob006.net/projects/flarum/nomiscz-auth-wechat) | [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat) |
 | [`nosun-reply-to-see`](https://weblate.rob006.net/projects/flarum/nosun-reply-to-see) | [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see) |

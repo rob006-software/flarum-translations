@@ -2,13 +2,13 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "API Key",
+                "api_key_label": "APİ açarı",
                 "title": "Akismet Ayarları",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "Aşkar spamları avtomatik silin",
+                "delete_blatant_spam_help": "Əgər Akismet şərhin açıq-aşkar spam olduğunu müəyyən edibsə, işarələmək əvəzinə postu avtomatik silin"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Akismet dolama yolu"
             }
         },
         "forum": {
