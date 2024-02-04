@@ -719,7 +719,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-oauth-center/v1.0.4/locale/en.yml',
 	],
 	'ganuonglachanh-sonic' => [
-		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.8/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
 	'gbcl-userip' => [
 		'tag' => 'https://raw.githubusercontent.com/GBCLStudio/userip/1.0.4/resources/locale/en.yml',
