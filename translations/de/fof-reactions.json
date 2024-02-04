@@ -10,7 +10,8 @@
             "reacting-own-post": "Du kannst nicht auf deinen eigenen Beitrag reagieren",
             "modal": {
                 "title": "Reaktionen",
-                "anonymous_count": "{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}"
+                "anonymous_count": "{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}",
+                "no_reactions": ""
             },
             "mod_item": "Reaktionen ansehen",
             "react_button_label": "Reagieren"
@@ -18,7 +19,8 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Auf Beiträge reagieren",
-                "see_reactions_label": "Sehen, wer auf Beiträge reagiert hat"
+                "see_reactions_label": "Sehen, wer auf Beiträge reagiert hat",
+                "delete_post_reactions_label": ""
             },
             "page": {
                 "cdn": {

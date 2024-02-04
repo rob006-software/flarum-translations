@@ -2,13 +2,13 @@
     "blomstra-s3-assets": {
         "admin": {
             "settings": {
-                "configured_by_environment": "",
-                "aws-section": "",
-                "s3-compatible-section": "",
-                "s3-compatible-section-help": "",
+                "configured_by_environment": "A tároló beállításai előre be lettek állítva, nincs mit megjeleníteni.",
+                "aws-section": "Ezek a beállítások szükségesek mind az AWS S3-hez, mind az S3-mal kompatibilis tárolókhoz",
+                "s3-compatible-section": "Ezek a beállítások csak az S3-mal kompatibilis tárolók esetén szükségesek",
+                "s3-compatible-section-help": "Hagyja üresen ezeket a beállításokat, ha AWS S3-at használ",
                 "s3key": {
-                    "label": "",
-                    "help": ""
+                    "label": "Kulcs",
+                    "help": "súgó"
                 }
             }
         }

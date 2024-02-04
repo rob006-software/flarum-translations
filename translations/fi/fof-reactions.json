@@ -10,7 +10,8 @@
             "reacting-own-post": "Et voi reagoida omaan viestiin",
             "modal": {
                 "title": "Reaktiot",
-                "anonymous_count": "{count, plural, one {# tuntematon käyttäjä} other {# tuntematonta käyttäjää}}"
+                "anonymous_count": "{count, plural, one {# tuntematon käyttäjä} other {# tuntematonta käyttäjää}}",
+                "no_reactions": ""
             },
             "mod_item": "Näytä reaktiot",
             "react_button_label": "Reagoi"
@@ -18,7 +19,8 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Reagoida viesteihin",
-                "see_reactions_label": "Nähdä kuka reagoi viesteihin"
+                "see_reactions_label": "Nähdä kuka reagoi viesteihin",
+                "delete_post_reactions_label": ""
             },
             "page": {
                 "cdn": {

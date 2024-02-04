@@ -2,90 +2,90 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Yeni autentifikasiya üsulu",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Host",
+                    "host_placeholder": "misal: extiverse.com",
+                    "submit_button": "Təqdim",
+                    "token_label": "Token",
+                    "type_label": "Növ",
+                    "unchanged_token_placeholder": "(dəyişməz)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Bu doğrulama metodunu silmək istədiyinizə əminsiniz?",
+                "delete_label": "Doğrulama metodunu silin",
+                "edit_label": "Doğrulama metodunu redaktə edin",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Host",
+                    "token": "Dəyər"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Heç bir identifikasiya metodu konfiqurasiya edilməyib. Bu, şəxsi depolardan quraşdırmaya icazə verən əlavə inkişaf etmiş xüsusiyyətdir.",
+                "remove_button_label": "Doğrulama metodunu silin",
+                "title": "Doğrulama üsulları",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub O Auth",
+                    "gitlab-oauth": "GitLab O Auth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP daşıyıcısı"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Repozitor əlavə edin",
+                "delete_repository_confirmation": "Bu deponu silmək istədiyinizə əminsiniz? Bu depodan quraşdırılmış bütün genişləndirmələr silinəcək.",
+                "delete_repository_label": "Anbarı silin",
+                "edit_repository_label": "Anbarı redaktə edin",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Minimum Sabitlik",
+                    "help": "Quraşdırılmasına icazə verilən paketlərin növü.\nNə etdiyinizi bilmədən bunu dəyişməyin.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stabil (tövsiyə olunur)",
+                        "rc": "Namizədi azad edin",
+                        "beta": "Beta",
+                        "alpha": "Alfa",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Anbarlar",
+                    "help": "Paketləri quraşdırmaq üçün əlavə depolar əlavə edin.Bu inkişaf etmiş bir xüsusiyyətdir, etibarsız depoları əlavə etməyin, çünki onlar serverinizdə zərərli kodu icra etmək üçün istifadə edilə bilər.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "komposer",
+                        "vcs": "vcs.",
+                        "path": "yol"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Ad",
+                        "type_label": "Növ",
+                        "url": "Keçid",
+                        "submit_button": "Təqdim"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "İcra etmək alınmadı. composer girişlərini yoxlayın storage/logs/composer",
+                "extension_already_installed": "Artırma artıq quraşdırılıb.",
+                "extension_not_directly_dependency": "Artırma başqa bir uzantıdan asılı olaraq quraşdırılıb, onu birbaşa silmək mümkün deyil.",
+                "extension_not_installed": "Artırma tapılmadı.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "Genişlənmə çox güman ki, cari Flarum instansiyanızla uyğun gəlmir.",
+                    "extension_not_found": "Artırma tapılmadı və ya mövcud deyil.",
+                    "extensions_incompatible_with_new_major": "Bəzi quraşdırılmış genişləndirmələr ən yeni əsas buraxılışla uyğun gəlmir. Lütfən, artırmaların müəlliflər tərəfindən uyğun olması üçün yenilənməsini gözləyin və ya davam etməzdən əvvəl onları silin\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "Niyə ən son versiyaya yenilənmədiyini göstərin.",
+                "install": "Yeni bir uzantı quraşdırın",
+                "install_help": "Davam etmək üçün genişləndirmə paketinin adını daxil edin. Siz <code>vendor/package-name:version</code> formatından istifadə edərək <semantic_link>semantik versiya</semantic_link> təyin edə bilərsiniz. Artırmalara baxmaq üçün {extiverse} saytına daxil olun\n",
+                "proceed": "Davam et",
+                "remove": "Silin",
+                "successful_install": "{extension} uğurla quraşdırıldı, yönləndirilir..",
+                "successful_remove": "Artırma uğurla silindi.",
+                "successful_update": "{extension} uğurla yeniləndi, yönləndirilir..",
+                "update": "Yeniləyin",
+                "update_soft_label": "Yumşaq yeniləmə",
+                "update_hard_label": "Çətin yeniləmə"
             },
-            "file_permissions": "",
+            "file_permissions": "Artırma meneceri aşağıdakı fayl və qovluqlarda oxumaq və yazma icazələrini tələb edir: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
                 "description": "",
                 "dry_run": "",

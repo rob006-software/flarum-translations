@@ -10,7 +10,8 @@
             "reacting-own-post": "Не може да реагирате на ваша публикация",
             "modal": {
                 "title": "Реакции",
-                "anonymous_count": "{count, plural, one {# анонимен потребител} other {# анонимни потребители}}"
+                "anonymous_count": "{count, plural, one {# анонимен потребител} other {# анонимни потребители}}",
+                "no_reactions": ""
             },
             "mod_item": "Виж Реакции",
             "react_button_label": "Реагирай"
@@ -18,7 +19,8 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Реагирай на публикации",
-                "see_reactions_label": "Виж кой реагира на публикации"
+                "see_reactions_label": "Виж кой реагира на публикации",
+                "delete_post_reactions_label": ""
             },
             "page": {
                 "cdn": {

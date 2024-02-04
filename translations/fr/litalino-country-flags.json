@@ -6,14 +6,18 @@
             "showFlagsOnPosts_text": "Afficher les drapeaux (texte) sur les messages",
             "set_on_registration_label": "Permettre de définir le pays lors de l'inscription",
             "required_label": "Obliger la saisie du pays",
-            "required_help": "Pour que cette option fonctionne, vous devez activer l'option « Définir le pays »"
+            "required_help": "Pour que cette option fonctionne, vous devez activer l'option « Définir le pays »",
+            "bind_label": "Liaison obligatoire avec le pays d'entrée",
+            "bind_help": "Forcer le pays pour les comptes qui n'ont pas enregistré de pays après la connexion"
         },
         "forum": {
             "inputCountryCode": "Code pays",
             "saveButton": "Enregistrer",
             "clickToSelectCountry": "Sélectionnez votre pays",
             "countrySaved": "Le pays a été sauvegardé !",
-            "field_placeholder": "Confirmer les drapeaux des pays"
+            "field_placeholder": "Confirmer les drapeaux des pays",
+            "binding_country": "Nous avons découvert que vous n'aviez pas indiqué où vous vous trouviez. Veuillez d'abord lier votre pays. Vous ne pourrez publier des messages qu'après avoir lié votre pays.",
+            "binding_country_click": "Cliquez ici"
         }
     }
 }

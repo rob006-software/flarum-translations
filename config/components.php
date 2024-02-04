@@ -23,10 +23,10 @@ return [
 	],
 	/* extensions list begin */
 	'acpl-lscache' => [
-		'tag' => 'https://raw.githubusercontent.com/android-com-pl/flarum-lscache/v2.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/android-com-pl/flarum-lscache/v2.3.1/locale/en.yml',
 	],
 	'acpl-mobile-tab' => [
-		'tag' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/1.4.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/1.4.2/locale/en.yml',
 	],
 	'acpl-my-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.2.2/locale/en.yml',
@@ -488,7 +488,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v1.8.0/locale/en.yml',
 	],
 	'flarum-extension-manager' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/extension-manager/v1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/extension-manager/v1.0.2/locale/en.yml',
 	],
 	'flarum-flags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/flags/v1.8.0/locale/en.yml',
@@ -662,7 +662,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/1.1.1/locale/en.yml',
 	],
 	'fof-reactions' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/1.3.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/1.4.0/resources/locale/en.yml',
 	],
 	'fof-recaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/1.3.2/resources/locale/en.yml',
@@ -674,7 +674,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/1.3.2/resources/locale/en.yml',
 	],
 	'fof-share-social' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/1.1.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/1.2.0/resources/locale/en.yml',
 	],
 	'fof-sitemap' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/2.2.1/resources/locale/en.yml',
@@ -719,7 +719,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-oauth-center/v1.0.4/locale/en.yml',
 	],
 	'ganuonglachanh-sonic' => [
-		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.8/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
 	'gbcl-userip' => [
 		'tag' => 'https://raw.githubusercontent.com/GBCLStudio/userip/1.0.4/resources/locale/en.yml',
@@ -731,7 +731,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/4.0.0/locale/en.yml',
 	],
 	'glowingblue-redis-setup' => [
-		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.2/resources/locale/en.yml',
 	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
@@ -743,7 +743,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/1.0.0/locale/en.yml',
 	],
 	'ianm-follow-users' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/1.4.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/1.4.5/resources/locale/en.yml',
 	],
 	'ianm-gravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/gravatar/0.2.1/resources/locale/en.yml',
@@ -1022,7 +1022,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-blog-article-series/1.2.0/locale/en.yml',
 	],
 	'litalino-country-flags' => [
-		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-country-flags/1.5.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-country-flags/1.6.0/locale/en.yml',
 	],
 	'litalino-geo-weather-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-geo-weather-widget/1.1.0/resources/locale/en.yml',
@@ -1135,6 +1135,9 @@ return [
 	'nodeloc-ignore-hidden-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ignore-hidden-tags/1.0/locale/en.yml',
 	],
+	'nodeloc-telegram' => [
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/telegram/0.3/resources/locale/en.yml',
+	],
 	'nodeloc-whisper' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/whisper/0.0.4/resources/locale/en.yml',
 	],
@@ -1193,7 +1196,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-move-posts/v0.1.7/locale/en.yml',
 	],
 	'sycho-private-facade' => [
-		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-private-facade/v0.1.15/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-private-facade/v0.1.16/locale/en.yml',
 	],
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.5/resources/locale/en.yml',

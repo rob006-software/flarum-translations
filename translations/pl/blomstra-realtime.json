@@ -3,19 +3,19 @@
         "forum": {
             "push": {
                 "discussion-list-new-activity": "{count, plural, one {Pokaż # zaktualizowaną dyskusję} few {Pokaż # zaktualizowane dyskusje} other {Pokaż # zaktualizowanych dyskusji}}",
-                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# dyskusja posiada nową aktywność i zostanie ponownie wczytana} few {# dyskusje posiadają nową aktywność i zostaną ponownie wczytane}} other {# dyskusji posiada nową aktywność i zostaną ponownie wczytane}}} za {releaseTimeout, plural, one {# sekundę} few {# sekundy} other {# sekund}}. Kliknij, aby wczytać od razu."
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# dyskusja posiada nową aktywność i zostanie ponownie wczytana} few {# dyskusje posiadają nową aktywność i zostaną ponownie wczytane} other {# dyskusji posiada nową aktywność i zostaną ponownie wczytane}} za {releaseTimeout, plural, one {# sekundę} few {# sekundy} other {# sekund}}. Kliknij, aby wczytać od razu."
             },
             "typing-indicator": {
                 "anonymous-user": "[Anonimowy]",
                 "people-are-typing": "{number, plural, one {# osoba pisze} few {# osoby piszą} other {# osób pisze}}",
-                "users-are-typing": "",
+                "users-are-typing": "{users} pisze",
                 "no-activity": "Nikt nie pisze"
             },
             "user": {
                 "settings": {
                     "heading": "Realtime",
                     "typing-indicator-type": {
-                        "help": "",
+                        "help": "Jeśli włączone, wskaźnik pisania będzie wyświetlał użytkowników, którzy aktualnie piszą. Wyłącz tę opcję, aby wyświetlać tylko liczbę użytkowników aktualnie piszących.",
                         "label": "Pokazuj kto pisze"
                     }
                 }
