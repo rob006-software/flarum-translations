@@ -22,7 +22,7 @@
                 "authorizationHeader": "自定義授權頭值",
                 "authorizationHeaderHelp": "如果此字段留空，<code>Authorization</code> 標頭將包含 <code>Token <JWT token></code>。",
                 "hiddenIframe": "隱藏的 iframe 網址",
-                "hiddenIframeHelp": "這個 iframe 將在 Flarum 單頁應用程序的所有頁面上離屏載入。它可用於定期刷新 cookie，並可使用瀏覽器消息傳遞來觸發頁面刷新以實現自動登入或自動註銷。有關文檔，請參閱自述文件。\n",
+                "hiddenIframeHelp": "這個 iframe 將在 Flarum 單頁應用程式的所有頁面上背景載入。它可用於定期重整 cookie，並可使用瀏覽器訊息傳遞來觸發頁面重整以實現自動登入或自動註銷。有關資訊，請參閱 README 文件。\n",
                 "autoLoginDelay": "隱藏 iframe 的自動登入延遲（毫秒）",
                 "autoLoginDelayHelp": "如果隱藏的 iframe 返回登入狀態，在沒有用戶交互的情況下允許頁面刷新的秒數。超過該延遲後，用戶將收到一條警報，詢問他們是否要刷新頁面。\n",
                 "logoutRedirect": "註銷重定向 URL",
