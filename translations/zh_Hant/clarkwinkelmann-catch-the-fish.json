@@ -2,7 +2,7 @@
     "clarkwinkelmann-catch-the-fish": {
         "forum": {
             "moderate": {
-                "add": "添加",
+                "add": "增加",
                 "edit": "編輯",
                 "delete": "刪除",
                 "fishes": "魚",
@@ -72,7 +72,7 @@
             },
             "basket": {
                 "title": "魚簍",
-                "drag-help": "將魚拖放到主題貼、回覆貼或用戶主頁中",
+                "drag-help": "將魚拖曳到主題貼、回覆貼或用戶主頁中",
                 "time": "放置倒計時：{time}"
             },
             "table-round": {
@@ -125,17 +125,17 @@
                 "user-age": "用戶必須活躍多久才能放置魚（天）",
                 "user-probability": "出現在用戶個人主頁的概率（%）",
                 "discussion": "主題",
-                "discussion-age": "一條魚能放置在主題帖中幾天",
+                "discussion-age": "一條魚能放置在主題貼中幾天",
                 "discussion-tags": "標籤白名單",
                 "discussion-tags-unavailable": "目前設置不可用：標籤擴展已禁用。",
-                "discussion-tags-help": "如不指定標籤，即可選擇符合時間範圍內的任意主題帖。若指定了標籤，則僅可選擇此標籤下的主題帖。概率用於設置其他選擇都用了之後的被選中幾率。白名單中最後一個標籤將作為備用標籤，請確保此標籤下至少有一個有效的主題帖。\n",
+                "discussion-tags-help": "如不指定標籤，即可選擇符合時間範圍內的任意主題貼。若指定了標籤，則僅可選擇此標籤下的主題貼。概率用於設置其他選擇都用了之後的被選中幾率。白名單中最後一個標籤將作為備用標籤，請確保此標籤下至少有一個有效的主題貼。\n",
                 "tags-header": {
                     "tag": "標籤",
                     "probability": "概率"
                 },
                 "tags-control": {
                     "choose": "選擇標籤",
-                    "add": "添加到白名單",
+                    "add": "增加到白名單",
                     "down": "下移",
                     "up": "上移",
                     "delete": "移出白名單"
@@ -145,8 +145,8 @@
                     "single-line": "至少需要兩個標籤"
                 },
                 "post": "貼文",
-                "post-age": "一條魚能放置在回覆帖中幾天",
-                "post-probability": "出現在回覆帖而非主題的概率（%）",
+                "post-age": "一條魚能放置在回覆貼中幾天",
+                "post-probability": "出現在回覆貼而非主題的概率（%）",
                 "general": "一般",
                 "time-to-place": "隨機放置魚之前允許放置的時間（分鐘）",
                 "alert-round": "在首頁上顯示回合和持續時間提醒",
@@ -174,7 +174,7 @@
             "inactive-discussion": "閒置超過 {days} 天後，不能將魚置於討論中",
             "inactive-post": "不能將魚放置在 {days} 前創建的主題中",
             "inactive-user": "不能將魚放在超過 {days} 天沒上線的用戶這里",
-            "non-comment-post": "您只能把魚放在回覆帖中",
+            "non-comment-post": "您只能把魚放在回覆貼中",
             "user-suspended": "不能將魚放在被封鎖的用戶這裡",
             "random-error": "無法隨機生成放置魚的位置",
             "cannot-catch-own-fish": "你不能補抓自己放置的魚",
