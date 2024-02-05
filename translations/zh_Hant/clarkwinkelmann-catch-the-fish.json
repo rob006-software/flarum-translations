@@ -32,11 +32,11 @@
                 "name": "魚的名字",
                 "name-help": "您可以根據需要重命名魚兒，不過名稱要遵守論壇守則。",
                 "placement-help": "您可以把魚藏在最新的主題和活動用戶的個人主頁。不過您不能捕捉您自己放置的魚。",
-                "submit-name-place-later": "保存名字並選擇藏身之處",
-                "submit-name": "保存名字",
+                "submit-name-place-later": "儲存名字並選擇藏身之處",
+                "submit-name": "儲存名字",
                 "submit-place-later": "好的，我會選個藏身之地",
                 "submit-continue": "繼續",
-                "submit-name-place-random": "保存名字並讓魚兒自己藏起來",
+                "submit-name-place-random": "儲存名字並讓魚兒自己藏起來",
                 "submit-place-random": "讓魚兒自己藏起來"
             },
             "edit-round": {
@@ -47,7 +47,7 @@
                 "starting-pack": "初始包",
                 "starting-pack-help": "初始包包含幾條魚，無需自行設計即可馬上開始遊戲",
                 "create": "創建回合",
-                "save": "保存回合",
+                "save": "儲存回合",
                 "delete": "刪除回合",
                 "delete-confirmation": "確定要刪除回合\"{name}\"嗎？"
             },
@@ -55,12 +55,12 @@
                 "name": "名字",
                 "name-help": "這條魚的名字。如果玩家有權限，就可以編輯魚的名字",
                 "create": "造魚",
-                "save": "保存魚",
+                "save": "儲存魚",
                 "delete": "刪除魚",
                 "delete-confirmation": "確定要刪除魚「{name}」嗎？"
             },
             "moving-fish": {
-                "login": "登錄後可抓魚"
+                "login": "登入後可抓魚"
             },
             "fish-image": {
                 "alt": "魚「{name}」的圖像",
@@ -76,7 +76,7 @@
                 "time": "放置倒計時：{time}"
             },
             "table-round": {
-                "loading": "正在加載…",
+                "loading": "正在載入…",
                 "title": "回合",
                 "new": "新回合",
                 "name": "名稱",
@@ -87,14 +87,14 @@
                 "fishes": "魚"
             },
             "table-fish": {
-                "loading": "正在加載…",
+                "loading": "正在載入…",
                 "title": "回合 {name} 的魚",
                 "new": "新魚",
                 "image": "圖像",
                 "name": "名字",
                 "user-name": "最後命名人：",
                 "user-place": "最後放置人：",
-                "placement": "當前位置",
+                "placement": "目前位置",
                 "actions": "動作",
                 "edit": "編輯",
                 "no-user-name": "不重新命名",
@@ -103,7 +103,7 @@
                 "new-from-image": "批量導入圖像並創建新魚"
             },
             "table-ranking": {
-                "loading": "正在加載…",
+                "loading": "正在載入…",
                 "title": "回合 {name} 排行榜",
                 "rank": "名字",
                 "count": "捕獲數",
@@ -127,8 +127,8 @@
                 "discussion": "主題",
                 "discussion-age": "一條魚能放置在主題帖中幾天",
                 "discussion-tags": "標籤白名單",
-                "discussion-tags-unavailable": "當前設置不可用：標簽擴展已禁用。",
-                "discussion-tags-help": "如不指定標簽，即可選擇符合時間範圍內的任意主題帖。若指定了標簽，則僅可選擇此標簽下的主題帖。概率用於設置其他選擇都用了之後的被選中幾率。白名單中最後一個標簽將作為備用標簽，請確保此標簽下至少有一個有效的主題帖。\n",
+                "discussion-tags-unavailable": "目前設置不可用：標籤擴展已禁用。",
+                "discussion-tags-help": "如不指定標籤，即可選擇符合時間範圍內的任意主題帖。若指定了標籤，則僅可選擇此標籤下的主題帖。概率用於設置其他選擇都用了之後的被選中幾率。白名單中最後一個標籤將作為備用標籤，請確保此標籤下至少有一個有效的主題帖。\n",
                 "tags-header": {
                     "tag": "標籤",
                     "probability": "概率"
@@ -142,7 +142,7 @@
                 },
                 "tags-fallback": {
                     "last-line": "撒銷",
-                    "single-line": "至少需要兩個標簽"
+                    "single-line": "至少需要兩個標籤"
                 },
                 "post": "貼文",
                 "post-age": "一條魚能放置在回覆帖中幾天",
@@ -175,7 +175,7 @@
             "inactive-post": "不能將魚放置在 {days} 前創建的主題中",
             "inactive-user": "不能將魚放在超過 {days} 天沒上線的用戶這里",
             "non-comment-post": "您只能把魚放在回覆帖中",
-            "user-suspended": "不能將魚放在被封禁的用戶這裡",
+            "user-suspended": "不能將魚放在被封鎖的用戶這裡",
             "random-error": "無法隨機生成放置魚的位置",
             "cannot-catch-own-fish": "你不能補抓自己放置的魚",
             "cannot-catch-hold-fish": "先前的捕手將魚釋放後你才能捕抓它",
