@@ -98,7 +98,7 @@
                 "request-error": "無法執行健康檢查。"
             },
             "wizard": {
-                "intro": "感謝您購買我的 WordPress 高級擴展！ 請在下方填寫您的註冊碼，以自動連接您的 Flarum 和 WordPress。\n",
+                "intro": "感謝您購買我的 WordPress 進階擴充套件！ 請在下方填寫您的註冊碼，以自動連接您的 Flarum 和 WordPress。\n",
                 "wordpress_url": "WordPress URL",
                 "wordpress_url_help": "您的 WordPress 首頁地址",
                 "wordpress_username": "WordPress 管理員用戶名",
@@ -150,17 +150,17 @@
                 "email_change": "此帳號已與WordPress綁定，請前往主站個人資料頁面修改郵箱。"
             },
             "health": {
-                "suspend-extension-required": "必須啟用暫停擴展才能使用“用戶刪除操作”的“暫停”選項",
+                "suspend-extension-required": "必須啟用暫停擴充套件才能使用「用戶刪除操作」的「暫停」選項",
                 "cookie-domain-format": "cookie 域似乎不是有效域。 檢查它是否只是一個沒有任何協議或路徑的域",
                 "login-only-signup-open": "您需要在 Flarum 權限下禁用註冊才能使“僅允許 WordPress 登入”設置完全生效",
-                "lock-extension-required": "必須啟用 Lock 擴展才能使用 Comments 集成",
-                "tags-extension-required": "如需要增加標籤請啟用標籤擴展",
+                "lock-extension-required": "必須啟用 Lock 擴充套件才能使用 Comments 集成",
+                "tags-extension-required": "如需要增加標籤請啟用標籤擴充套件",
                 "tag-not-exist": "為“新評論主題的標籤 ID”選項選擇的標籤 ID {id} 不存在",
                 "debug-mode": "除錯模式已啟用如果完成後請關閉",
                 "config-url-trailing-slash": "config.php 中定義的 Flarum URL 不應有尾部斜線（目前值：“{url}”）",
                 "config-url-https": "config.php 中定義的 Flarum URL 應該是 HTTPS（目前值：“{url}”）",
                 "wordpress-username-missing": "必須填寫“WordPress 管理員用戶名”設置",
-                "api-key-missing": "“Flarum API 密鑰”丟失。 嘗試刷新管理面板並檢查日誌文件是否存在可能的錯誤",
+                "api-key-missing": "“Flarum API 密鑰”丟失。 嘗試刷新管理面板並檢查日誌檔案是否存在可能的錯誤",
                 "wordpress-url-missing": "必須填寫“WordPress URL”設置",
                 "wordpress-url-invalid": "“WordPress URL”設置似乎不是有效的 URL（目前值：“{url}”）",
                 "wordpress-url-index-php": "“WordPress URL”設置不得包含“/index.php”（目前值：“{url}”）",
@@ -186,7 +186,7 @@
                 "api_error_get": "對 WordPress 設置執行 GET 請求時出錯（{exception}）。",
                 "api_error_post": "對 WordPress 設置執行 POST 請求時出錯（{exception}）。",
                 "invalid_wordpress_url": "WordPress 中的“WordPress 地址 (URL)”設置似乎不是有效的 URL ({actual})。",
-                "plugin_not_installed": "該 WordPress 站點上似乎沒有安裝或啟用 WordPress 插件。 確保您至少安裝了 1.2.0 版。\n"
+                "plugin_not_installed": "該 WordPress 網站上似乎沒有安裝或啟用 WordPress 插件。 確保您至少安裝了 1.2.0 版。\n"
             }
         },
         "views": {
