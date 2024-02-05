@@ -28,7 +28,7 @@
                 },
                 "field": {
                     "type": "類別",
-                    "typeDescription": "分類信息可以被用在論壇的多個方面。創建分類信息後，類別無法改變。你可以創建同名分類名和英語短語應用到不同的類別。\n",
+                    "typeDescription": "分類資訊可以被用在論壇的多個方面。創建分類資訊後，類別無法改變。你可以創建同名分類名和英語短語應用到不同的類別。\n",
                     "name": "=> flamarkt-taxonomies.ref.field.name",
                     "slug": "=> flamarkt-taxonomies.ref.field.slug",
                     "description": "=> flamarkt-taxonomies.ref.field.description",
@@ -38,14 +38,14 @@
                     "showLabel": "分類標籤與條目一起顯示",
                     "showLabelDescription": "討論列表和英雄的顯示樣式。目前不用於其他資源類型。\n",
                     "enableFilter": "啟用查詢字符串/API 過濾器",
-                    "enableFilterDescription": "允許將分類過濾器深度連結到討論、用戶和產品，以便有權“查看所有”分類類型的用戶使用。這也允許相同的用戶通過 REST API 使用搜尋過濾器。如果沒有“顯示過濾器”設置，用戶就沒有任何明顯的方式來獲取用戶和產品的連結。對於討論，即使禁用“顯示過濾器”，也可以在英雄中找到深層連結。\n",
+                    "enableFilterDescription": "允許將分類過濾器深度連結到討論、用戶和產品，以便有權「查看所有」分類類型的用戶使用。這也允許相同的用戶透過 REST API 使用搜尋過濾器。如果沒有「顯示過濾器」設置，用戶就沒有任何明顯的方式來取得用戶和產品的連結。對於討論，即使禁用「顯示過濾器」，也可以在英雄中找到深層連結。\n",
                     "showFilter": "在列表/目錄頁面上顯示過濾器",
                     "showFilterDescription": "在討論列表、用戶目錄或商店索引中向常客顯示過濾器。僅在啟用“啟用過濾器”時才有效。商店管理員始終可以在後台按任何分類法進行過濾。\n",
                     "enableFulltextSearch": "全文搜尋的索引詞",
                     "enableFulltextSearchDescription": "僅在 Scout 集成處於活動狀態時有效。術語名稱將成為普通用戶在全文搜尋中可用的數據的一部分。數據將可供任何有權列出資源的用戶搜尋（“查看論壇”用於討論，“搜尋用戶”用於用戶，“所有人”用於產品），而不是有權查看分類的用戶！在為現有分類法更改此設置後，您必須手動重新構建資源的 Scout 搜尋索引，如果您在仍分配術語時刪除分類法，情況也是如此。\n",
                     "enableFulltextSearchWarning": "您搜尋資源的權限（“查看論壇”用於討論，“搜尋用戶”用於用戶）不同於分類法的“查看所有”權限。 在啟用此選項之前，請確保您願意讓這些用戶可以搜尋數據，即使他們通常可能無法看到分類法！\n",
                     "allowCustomValues": "允許隨機變量名",
-                    "customValueValidation": "隨機變量名校驗",
+                    "customValueValidation": "隨機變量名檢查",
                     "customValueSlugger": "自定義值的 Slugger",
                     "customValueSluggerDescription": "選擇您希望如何生成 slug。 如果 slug 已經存在，則會自動附加一個數字前綴。 對於 Transliterator 選項，您需要提前安裝和配置其他擴展。\n",
                     "countRequired": "需要的條目數量",
@@ -69,8 +69,8 @@
                 "validation-options": {
                     "default": "任何值",
                     "alpha_num": "字母數字值",
-                    "alpha_dash": "字母數字值和破折號/下劃線",
-                    "regex": "正則表達式"
+                    "alpha_dash": "字母數字值和破折號/底線",
+                    "regex": "正規表示式"
                 },
                 "slugger-options": {
                     "random": "隨機標識符",
