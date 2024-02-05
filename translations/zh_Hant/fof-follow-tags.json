@@ -4,7 +4,7 @@
             "settings": {
                 "notify_new_discussion_label": "有人中我關注的節點發帖",
                 "notify_new_post_label": "有人在我關注的節點回覆",
-                "notify_new_discussion_tag_label": "有人將主題添加到我關注的標籤"
+                "notify_new_discussion_tag_label": "有人將主題增加到我關注的標籤"
             },
             "index": {
                 "follow_tag_button": "關注",
@@ -62,9 +62,9 @@
                 "newDiscussionTag": "【標籤變更】{title}"
             },
             "body": {
-                "newDiscussionInTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 發布新主題於你關注的標籤：{discussion_title}\n\n點擊下方連結查看主題帖：\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newDiscussionInTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 發布新主題於你關注的標籤：{discussion_title}\n\n點擊下方連結查看主題貼：\n{discussion_url}\n\n---\n\n{post_content}\n",
                 "newPostInTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 發表回覆於你關注的標籤：{discussion_title}\n\n點擊下方連結查看主題新動態：\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n在您已讀前，您不會再收到有關此主題的更多通知。\n",
-                "newDiscussionTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛將 {author_display_name} 的主題標籤變更為你關注的標籤：{discussion_title}\n\n點擊下方連結查看主題帖：\n{discussion_url}\n"
+                "newDiscussionTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛將 {author_display_name} 的主題標籤變更為你關注的標籤：{discussion_title}\n\n點擊下方連結查看主題貼：\n{discussion_url}\n"
             }
         },
         "ref": {
