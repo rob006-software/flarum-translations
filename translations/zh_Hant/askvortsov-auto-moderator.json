@@ -3,13 +3,13 @@
         "admin": {
             "action_drivers": {
                 "activate_email": "啟用郵箱",
-                "add_to_group": "添加用戶組",
+                "add_to_group": "增加用戶組",
                 "remove_from_group": "移除用戶組",
                 "suspend": "封鎖",
                 "unsuspend": "解除封鎖"
             },
             "metric_drivers": {
-                "discussions_entered": "瀏覽主題帖",
+                "discussions_entered": "瀏覽主題貼",
                 "discussions_participated": "參與主題",
                 "discussions_started": "發布主題",
                 "posts_made": "發帖",
@@ -57,15 +57,15 @@
                 "metrics_and_requirements_help": "在此處定義用戶滿足評判標準的條件。判定指標可以是區間值/上限/下限值，附加要求是某個Boolean條件。",
                 "metrics_heading": "判定指標",
                 "requirements_heading": "附加要求",
-                "add_metric": "添加指標",
+                "add_metric": "增加指標",
                 "actions_label": "行為動作",
                 "actions_help": "在此指定當用戶滿足、或不再滿足評判標準時，要執行的動作。",
                 "actions_on_gain_heading": "達成動作",
                 "actions_on_loss_heading": "失去動作",
-                "add_action": "添加動作"
+                "add_action": "增加動作"
             },
             "undefined_driver_item": {
-                "text": "錯誤，未定義的 <strong>{driverName}</strong> 驅動！此驅動可能是由一個尚未安裝的擴展添加的。重新啟用該擴展或刪除該驅動後，評判標準方可有效。"
+                "text": "錯誤，未定義的 <strong>{driverName}</strong> 驅動！此驅動可能是由一個尚未安裝的擴展增加的。重新啟用該擴展或刪除該驅動後，評判標準方可有效。"
             },
             "automoderator_page": {
                 "criterion_invalid": "此評判標準無效，點擊查看詳情資訊",
