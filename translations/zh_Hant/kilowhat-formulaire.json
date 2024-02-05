@@ -28,10 +28,10 @@
                 "checkbox-style": "複選框樣式",
                 "radio-style": "收音機樣式",
                 "style-options": {
-                    "far-square": "FontAwesome 正方形圖標",
-                    "fas-square": "FontAwesome 實心方形圖標",
-                    "far-circle": "FontAwesome 常規圓形圖標",
-                    "fas-circle": "FontAwesome 實心圓圈圖標",
+                    "far-square": "FontAwesome 正方形圖示",
+                    "fas-square": "FontAwesome 實心方形圖示",
+                    "far-circle": "FontAwesome 常規圓形圖示",
+                    "fas-circle": "FontAwesome 實心圓圈圖示",
                     "switch": "Flarum 開關",
                     "native": "本機瀏覽器控件"
                 },
@@ -49,7 +49,7 @@
                 "uniformComposerLayout": "統一的討論作曲家佈局",
                 "uniformComposerLayoutHelp": "更改標籤、標題和內容字段的樣式以與 Formulaire 相匹配。 此佈局將佔用更多空間，因此建議您安裝並啟用 <a>Composer Page</a> 擴展。\n",
                 "noByobuFields": "不要將討論字段與 Byobu 擴展的私人討論相結合",
-                "noByobuFieldsHelp": "默認情況下，非標籤範圍的討論字段將應用於所有討論，包括私人討論。"
+                "noByobuFieldsHelp": "預設情況下，非標籤範圍的討論字段將應用於所有討論，包括私人討論。"
             }
         },
         "forum": {
@@ -134,7 +134,7 @@
                 "enable-expert-mode": "啟用專家模式",
                 "disable-expert-mode": "關閉專家模式",
                 "restore": "復原",
-                "hide": "删除",
+                "hide": "刪除",
                 "delete": "永久刪除",
                 "delete-confirmation": "表單“{title}”將被永久刪除",
                 "fields": {
@@ -186,13 +186,13 @@
                 "auto-discussion-options": "新主題的選項",
                 "email-confirmation-options": "確認郵件的模板",
                 "email-notification-options": "通知電子郵件模板",
-                "exiting-with-unsaved-data": "您有未保存的更改。您真的要退出該頁面嗎？",
+                "exiting-with-unsaved-data": "您有未儲存的更改。您真的要退出該頁面嗎？",
                 "preview": "在新標籤頁中預覽",
-                "save-for-preview": "保存預覽"
+                "save-for-preview": "儲存預覽"
             },
             "auto-discussion-options-modal": {
                 "title": "自動討論選項",
-                "introduction": "這些設置將應用於通過提交標籤連接表單自動創建的新討論。您可以使用帶有字段 slug 的大括號語法來使用表單提交中的值。默認情況下，將分別使用 { title } 和 { content }。\n",
+                "introduction": "這些設置將應用於通過提交標籤連接表單自動創建的新討論。您可以使用帶有字段 slug 的大括號語法來使用表單提交中的值。預設情況下，將分別使用 { title } 和 { content }。\n",
                 "submit": "驗證更改",
                 "field": {
                     "title": "文章標題",
@@ -211,17 +211,17 @@
             },
             "save-controls": {
                 "validation-errors": "您提交的內容有誤",
-                "unsaved-changes": "有未保存的更改",
-                "saved-at": "{ago} 已保存",
+                "unsaved-changes": "有未儲存的更改",
+                "saved-at": "{ago} 已儲存",
                 "undo": "復原",
                 "redo": "重複",
-                "save": "保存"
+                "save": "儲存"
             },
             "permission-controls": {
                 "inherit": "使用預設",
                 "everyone_button": "=> core.admin.permissions_controls.everyone_button",
-                "disabled_members_button": "未激活和暫停的成員",
-                "members_button": "激活會員"
+                "disabled_members_button": "未啟用和暫停的成員",
+                "members_button": "啟用會員"
             },
             "template-editor": {
                 "add-field": "添加字段",
@@ -291,7 +291,7 @@
                 "unlock": "解鎖",
                 "lock": "鎖定",
                 "restore": "復原",
-                "hide": "删除",
+                "hide": "刪除",
                 "delete": "永久刪除",
                 "delete-confirmation": "{date} 之後的提交將被永久刪除"
             },
@@ -302,7 +302,7 @@
                 "guest": "訪客",
                 "load-more": "載入更多",
                 "empty": "沒有提交",
-                "search": "搜索提交...",
+                "search": "搜尋提交...",
                 "export": "導出",
                 "columns": {
                     "date": "日期",
@@ -316,7 +316,7 @@
             },
             "error-page": {
                 "denied-title": "沒有權限",
-                "denied-description": "您似乎無權訪問此內容。嘗試登錄。",
+                "denied-description": "您似乎無權訪問此內容。嘗試登入。",
                 "notfound-title": "找不到",
                 "notfound-description": "此內容不存在，或者您無權訪問它。"
             },
@@ -389,7 +389,7 @@
             "cannot-change-form-type": "您不能更改已提交的表單的類型",
             "unknown-form": "無法識別的表單 ID {id}",
             "unauthorized-form": "您沒有必要的權限來填寫表單 ID {id}",
-            "unauthorized-scoped-form": "您不能使用當前標籤組合填寫表單 ID {id}",
+            "unauthorized-scoped-form": "您不能使用目前標籤組合填寫表單 ID {id}",
             "unsupported-discussion-form": "您無法在此類討論中填寫表單 ID {id}",
             "file-already-belongs-form": "文件 {id} 屬於另一個表單",
             "file-already-belongs-submission": "文件 {id} 屬於另一個提交",
@@ -441,8 +441,8 @@
                 "user_username": "用戶名",
                 "user_displayname": "用戶顯示名",
                 "user_email": "用戶郵箱",
-                "user_activated": "激活帳戶",
-                "link_id": "鏈接資源 ID",
+                "user_activated": "啟用帳戶",
+                "link_id": "連結資源 ID",
                 "locked_at": "鎖定日期",
                 "created_at": "創建日期",
                 "updated_at": "更新日期",
