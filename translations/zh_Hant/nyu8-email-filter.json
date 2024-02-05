@@ -1,9 +1,9 @@
 {
     "nyu8-email-filter": {
         "admin": {
-            "general": "常規",
-            "custom_failure_message_label": "自定義提示信息",
-            "custom_failure_message_hint": "自定義郵箱地址不可用時的提示信息，留空使用預設信息。",
+            "general": "一般",
+            "custom_failure_message_label": "自定義提示資訊",
+            "custom_failure_message_hint": "自定義郵箱地址不可用時的提示資訊，留空使用預設資訊。",
             "rule_settings": "規則設置",
             "name_placeholder": "規則名",
             "invalid_regular_expression": "無效的正則式表達",
@@ -14,8 +14,8 @@
             },
             "whitelist_regex": {
                 "label": "白名單正則式表達",
-                "description": "白名單郵箱正則表達式",
-                "placeholder": "輸入正則表達式……"
+                "description": "白名單郵箱正規表示式",
+                "placeholder": "輸入正規表示式……"
             },
             "blacklist_literal": {
                 "label": "黑名單",
@@ -23,9 +23,9 @@
                 "placeholder": "輸入郵箱地址…"
             },
             "blacklist_regex": {
-                "label": "黑名單正則表達式",
-                "description": "黑名單郵箱正則表達式",
-                "placeholder": "輸入正則表達式……"
+                "label": "黑名單正規表示式",
+                "description": "黑名單郵箱正規表示式",
+                "placeholder": "輸入正規表示式……"
             }
         },
         "forum": {
