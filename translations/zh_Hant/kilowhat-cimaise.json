@@ -24,7 +24,7 @@
                 "empty": "沒有相片",
                 "loading": "=> kilowhat-cimaise.ref.loading",
                 "personal": "<a>{username}</a>的個人相冊",
-                "community": "社區相冊",
+                "community": "論壇相冊",
                 "discussion": "前往討論"
             },
             "picture-show": {
@@ -49,7 +49,7 @@
                 "publishSilently": "安靜的發佈",
                 "submit": "提交",
                 "submitInComposer": "繼續",
-                "reload": "重新加載草稿列表"
+                "reload": "重新載入草稿列表"
             },
             "new-album-modal": {
                 "title": "新相冊"
@@ -61,7 +61,7 @@
                 "title": "將相冊附加到“{title}”",
                 "selected": "選擇：",
                 "none-selected": "無",
-                "search": "搜索",
+                "search": "搜尋",
                 "no-results": "沒有結果",
                 "select": "選擇",
                 "unselect": "取消選擇",
@@ -70,7 +70,7 @@
             "edit-album": {
                 "title": "標題",
                 "description": "詳情",
-                "isCommunity": "社區相冊（開放空間）",
+                "isCommunity": "論壇相冊（開放空間）",
                 "create": "創建相冊",
                 "save": "儲存相冊"
             },
@@ -137,12 +137,12 @@
                 "view": "查看",
                 "viewExif": "查看 Exif 數據（包括地理位置）",
                 "createPersonalAlbums": "創建個人相冊",
-                "createCommunityAlbums": "創建社區相冊",
+                "createCommunityAlbums": "創建論壇相冊",
                 "editOwnAlbum": "更改自己相冊的標題和描述",
                 "hideOwnAlbum": "隱藏個人相冊",
                 "uploadPictures": "上傳圖片",
                 "uploadPersonalPicturesWithoutApproval": "上傳個人相冊中未經批准的圖片",
-                "uploadCommunityPicturesWithoutApproval": "在社區相冊中上傳未經批准的圖片",
+                "uploadCommunityPicturesWithoutApproval": "在論壇相冊中上傳未經批准的圖片",
                 "editOwnImage": "在自己的照片上使用圖像編輯器（裁剪、遮罩和貼紙）",
                 "editOwnPublishedImage": "發布後對自己的圖片使用圖像編輯器",
                 "licenseOwnPublishedPicture": "發布後更改自己圖片的許可證",
@@ -165,13 +165,13 @@
                 "autoCreateDiscussionAlbum": "為每個新討論自動創建相冊",
                 "autoCreateDiscussionAlbumHelp": "自動創建一個新相冊，標題與討論相同，作者與所有者相同。 此功能繞過相冊創建權限並適用於所有標籤。\n",
                 "neverSyncDiscussionAlbumTitles": "從不同步討論和相冊名稱",
-                "neverSyncDiscussionAlbumTitlesHelp": "默認情況下，與討論標題完全相同的相冊將在討論標題更改時重命名。 如果相冊被手動重命名，同步命名功能將失效。\n",
+                "neverSyncDiscussionAlbumTitlesHelp": "預設情況下，與討論標題完全相同的相冊將在討論標題更改時重命名。 如果相冊被手動重命名，同步命名功能將失效。\n",
                 "columnTheme": "專欄主題",
                 "columnThemeHelp": "顯示圖片時使用側面板樣式而不是底部面板。",
                 "mapboxToken": "Mapbox Token",
                 "mapboxTokenHelp": "填寫一個有效的token以在圖片下顯示地理位置圖。",
                 "requireLicense": "需要從下面的列表中選擇一個許可證",
-                "requireLicenseHelp": "默認情況下，用戶可以跳過設置許可證。 確保您的網站使用條款涵蓋了在未指定許可證的情況下可以對媒體執行的操作。\n",
+                "requireLicenseHelp": "預設情況下，用戶可以跳過設置許可證。 確保您的網站使用條款涵蓋了在未指定許可證的情況下可以對媒體執行的操作。\n",
                 "licenses": "許可證",
                 "license-key": "金鑰",
                 "license-label": "標籤",
@@ -194,13 +194,13 @@
                     "conversions": "轉化次數：{size}"
                 },
                 "refresh": "刷新",
-                "loading": "加載中…"
+                "loading": "載入中…"
             }
         },
         "api": {
             "post-edit": {
-                "cannotAttachToNonComment": "圖片不能手動附加到非評論帖子",
-                "cannotFindPicturesFromRelation": "無法在數據庫中找到所有請求的圖片",
+                "cannotAttachToNonComment": "圖片不能手動附加到非評論貼文",
+                "cannotFindPicturesFromRelation": "無法在資料庫中找到所有請求的圖片",
                 "cannotAttachHasNoAlbum": "討論沒有附加相冊",
                 "cannotAttachAlreadySubmitted": "無法附加圖片 {id}，因為它已經提交",
                 "cannotAttachFromExternalAlbum": "無法附加圖片 {id}，因為它屬於外部相冊",
