@@ -25,7 +25,7 @@
                 "maintenance": {
                     "heading": "維護",
                     "debug_label": "Debug模式？",
-                    "debug_text": "開啟此項，在 `storage/logs` 中會打印通知日志。日常應當關閉，防止無效資訊儲存到日志中。",
+                    "debug_text": "這將把關於通知的資訊記錄到 `storage/logs` 中。通常應該禁用此功能，以避免不必要地填滿日誌。",
                     "reset_vapid_text": "這將重新生成 VAPID 秘鑰，並使用目前 VAPID 秘鑰刪除現有訂閱。",
                     "reset_vapid_confirm": "重置 VAPID 密鑰將刪除使用現有密鑰的訂閱，在用戶下次訪問網站前，將無法收到任何通知。您應當僅在首次設置推送通知、推送通知完全不工作，或出現 VAPID 密鑰缺失警告時進行重置。",
                     "reset_vapid_success": "VAPID 密鑰重置成功，已重置 {count} 個訂閱。刷新頁面以查看最新狀態檢查報告。"
