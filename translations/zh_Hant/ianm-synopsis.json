@@ -3,16 +3,16 @@
         "admin": {
             "settings": {
                 "disable-when-searching": {
-                    "label": "搜索時禁用概要",
-                    "help": "啟用後，將使用默認的最相關的帖子摘錄而不是概要"
+                    "label": "搜尋時禁用概要",
+                    "help": "啟用後，將使用預設的最相關的貼文摘錄而不是概要"
                 },
                 "excerpt-length": {
                     "label": "摘要字元長度上限",
-                    "help": "要展示的帖子摘要字元數量。"
+                    "help": "要展示的貼文摘要字元數量。"
                 },
                 "rich-excerpts": {
                     "label": "展示富文本摘要",
-                    "help": "啟用后，摘要中可包含圖片和嵌入式媒體等非本文內容。"
+                    "help": "啟用後，摘要中可包含圖片和嵌入式媒體等非本文內容。"
                 },
                 "excerpt-type": {
                     "label": "摘要內容來源",
