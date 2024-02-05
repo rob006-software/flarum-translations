@@ -2,7 +2,7 @@
     "extiverse-mercury": {
         "admin": {
             "extension-updates-page": {
-                "extension-name": "擴展",
+                "extension-name": "擴充套件",
                 "extension-is-up-to-date": "已是最新",
                 "highest-version": "最新發布",
                 "installed-version": "安裝版本"
@@ -19,7 +19,7 @@
         "email": {
             "new-extension-update": {
                 "subject": "{count, plural, one {1 個可用更新} other {# 個可用更新}}",
-                "body": "嘿{recipient_display_name}！\n\n在您的 Flarum 論壇中發現了 {count} 個更新。 強烈建議\n盡快更新。\n\n更新包括以下擴展 {extensions}。\n\n請訪問您的論壇了解更多資訊：{url}。\n"
+                "body": "嘿{recipient_display_name}！\n\n在您的 Flarum 論壇中發現了 {count} 個更新。 強烈建議\n盡快更新。\n\n更新包括以下擴充套件 {extensions}。\n\n請訪問您的論壇了解更多資訊：{url}。\n"
             }
         }
     }
