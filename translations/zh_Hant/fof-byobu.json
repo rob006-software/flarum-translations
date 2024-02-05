@@ -83,7 +83,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "創建私密貼文並可新增參與者",
-                "add_more_than_two_user_recipients": "將 2 個以上的用戶收件人添加到私人討論",
+                "add_more_than_two_user_recipients": "將 2 個以上的用戶收件人增加到私人討論",
                 "create_private_discussions_with_groups": "創建私密貼文並可新增群組",
                 "create_private_discussions_with_blocking_users": "允許新增已阻止私密貼文的會員",
                 "edit_user_recipients": "編輯參與私密討論的參與者",
@@ -92,7 +92,7 @@
                 "view_private_discussions-when-flagged": "若有旗標則允許查看其他人的私密貼文"
             },
             "settings": {
-                "badge-icon": "Byobu 主題帖徽章",
+                "badge-icon": "Byobu 主題貼徽章",
                 "enable-make-public-option": "啟用「私密轉公開」功能",
                 "enable-make-public-option-help": "轉公開時，所有參與者自動退出私密主題，私密主題轉為普通公開主題。",
                 "post-event-icon": "Byobu 發帖事件",
@@ -112,7 +112,7 @@
             "body": {
                 "private_discussion_created": "{recipient_display_name}，你好！\n\n{actor_display_name} 與您創建了一個私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{discussion_url}\n\n您需要登入方可訪問連結。\n",
                 "private_discussion_replied": "{recipient_display_name}，你好！\n\n{actor_display_name} 發表新內容於您參與的私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{post_url}\n\n您需要登入方可訪問連結。\n",
-                "recipient_removed": "{recipient_display_name}，你好！\n\n{actor_display_name} 離開了您參與的私密主題《{discussion_title}》，他們將無法再查看此主題的任何內容。\n\n點此查看主題帖：\n{discussion_url}\n\n您需要登入方可訪問連結。\n",
+                "recipient_removed": "{recipient_display_name}，你好！\n\n{actor_display_name} 離開了您參與的私密主題《{discussion_title}》，他們將無法再查看此主題的任何內容。\n\n點此查看主題貼：\n{discussion_url}\n\n您需要登入方可訪問連結。\n",
                 "private_discussion_added": "{recipient_display_name}，你好！\n\n{actor_display_name} 將您加入私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{discussion_url}\n\n您需要登入方可訪問連結。\n"
             }
         }
