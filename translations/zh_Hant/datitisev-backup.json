@@ -33,7 +33,7 @@
             },
             "required-package-modal": {
                 "title": "{adapter} 所需的軟件包",
-                "content": "為了使用這個驅動程序，您需要安裝一個特定的軟件包。您可以通過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
+                "content": "為了使用這個驅動程序，您需要安裝一個特定的軟件包。您可以透過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
             },
             "adapter-settings-modal": {
                 "title": "配置{adapter}",
@@ -117,11 +117,11 @@
                         "description": "生成新令牌。 有關說明，請參閱 https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually。"
                     },
                     "help": {
-                        "obtain-access-code-label": "獲取訪問碼（需要app key）",
+                        "obtain-access-code-label": "取得訪問碼（需要app key）",
                         "obtain-access-code-button": "開啟 Dropbox",
-                        "obtain-refresh-token-label": "使用訪問代碼獲取刷新令牌（需要app key & secret）",
+                        "obtain-refresh-token-label": "使用訪問代碼取得刷新令牌（需要app key & secret）",
                         "obtain-refresh-token-button": "使用代碼",
-                        "obtain-refresh-token-success": "刷新令牌已成功獲取並更新！ 請儲存。"
+                        "obtain-refresh-token-success": "刷新令牌已成功取得並更新！ 請儲存。"
                     },
                     "access-token": {
                         "label": "訪問令牌",
