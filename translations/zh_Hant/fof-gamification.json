@@ -111,13 +111,13 @@
                 },
                 "groups": {
                     "title": "自動分配用戶組",
-                    "help": "當用戶的點數發生變化時，將自動添加或刪除組。修改設置後，請運行 <code>php flarum fof:gamification:assign-groups</code> 命令更新現有用戶。如果您希望刪除規則並從組中刪除所有用戶，請將最低最高點數均設為空，儲存設置並執行命令後，在設置中刪除規則。\n",
+                    "help": "當用戶的點數發生變化時，將自動增加或刪除組。修改設置後，請運行 <code>php flarum fof:gamification:assign-groups</code> 命令更新現有用戶。如果您希望刪除規則並從組中刪除所有用戶，請將最低最高點數均設為空，儲存設置並執行命令後，在設置中刪除規則。\n",
                     "column": {
                         "group": "用戶組",
                         "minPoints": "最低點數(含)",
                         "maxPoints": "最高點數(含)"
                     },
-                    "add": "添加規則",
+                    "add": "增加規則",
                     "delete": "刪除規則"
                 }
             }
