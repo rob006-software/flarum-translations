@@ -11,7 +11,7 @@
             "modal": {
                 "title": "心情",
                 "anonymous_count": "{count, plural, one {# 匿名用戶} other {# 匿名用戶}}",
-                "no_reactions": ""
+                "no_reactions": "還沒有任何反應"
             },
             "mod_item": "查看心情",
             "react_button_label": "表達心情"
@@ -20,12 +20,12 @@
             "permissions": {
                 "react_posts_label": "回應帖文",
                 "see_reactions_label": "查看戳心情的人",
-                "delete_post_reactions_label": ""
+                "delete_post_reactions_label": "刪除貼文的反應"
             },
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "預設情況下，我們透過 Cloudflare 的 CDN 提供反應資產。 您也可以選擇指定任何其他 CDN 位址\n按要求。 <code>[codepoint]</code> 將替換為表情符號的代碼點。\n\n例如，要透過 jsdelivr 切換到 Noto 表情符號，您需要輸入 <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >。 該字段絕不能留空。\n",
+                    "help": "預設情況下，我們透過 Cloudflare 的 CDN 提供反應圖示。 您也可以選擇指定任何其他 CDN 位址\n按要求。 <code>[codepoint]</code> 將替換為表情符號的代碼點。\n\n例如，要透過 jsdelivr 切換到 Noto 表情符號，您需要輸入 <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >。 該字段絕不能留空。\n",
                     "label": "URL",
                     "default-url": "預設值：{url}"
                 },
