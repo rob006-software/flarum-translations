@@ -47,7 +47,7 @@
                 "select-file": "選擇檔案",
                 "drop-file": "或拖曳至此處",
                 "publishSilently": "安靜的發佈",
-                "submit": "提交",
+                "submit": "送出",
                 "submitInComposer": "繼續",
                 "reload": "重新載入草稿列表"
             },
@@ -65,7 +65,7 @@
                 "no-results": "沒有結果",
                 "select": "選擇",
                 "unselect": "取消選擇",
-                "submit": "提交"
+                "submit": "送出"
             },
             "edit-album": {
                 "title": "標題",
@@ -165,7 +165,7 @@
                 "autoCreateDiscussionAlbum": "為每個新討論自動創建相簿",
                 "autoCreateDiscussionAlbumHelp": "自動創建一個新相簿，標題與討論相同，作者與所有者相同。 此功能繞過相簿創建權限並適用於所有標籤。\n",
                 "neverSyncDiscussionAlbumTitles": "從不同步討論和相簿名稱",
-                "neverSyncDiscussionAlbumTitlesHelp": "預設情況下，與討論標題完全相同的相簿將在討論標題更改時重命名。 如果相簿被手動重命名，同步命名功能將失效。\n",
+                "neverSyncDiscussionAlbumTitlesHelp": "預設情況下，與討論標題完全相同的相簿將在討論標題更改時重新命名。 如果相簿被手動重新命名，同步命名功能將失效。\n",
                 "columnTheme": "專欄主題",
                 "columnThemeHelp": "顯示圖片時使用側面板樣式而不是底部面板。",
                 "mapboxToken": "Mapbox Token",
@@ -202,7 +202,7 @@
                 "cannotAttachToNonComment": "圖片不能手動附加到非評論貼文",
                 "cannotFindPicturesFromRelation": "無法在資料庫中找到所有請求的圖片",
                 "cannotAttachHasNoAlbum": "討論沒有附加相簿",
-                "cannotAttachAlreadySubmitted": "無法附加圖片 {id}，因為它已經提交",
+                "cannotAttachAlreadySubmitted": "無法附加圖片 {id}，因為它已經送出",
                 "cannotAttachFromExternalAlbum": "無法附加圖片 {id}，因為它屬於外部相簿",
                 "cannotAttachUnauthorized": "無法附加圖片 {id}，因為它不屬於您"
             },
@@ -213,8 +213,8 @@
                     "license": "許可證無效，未授權編輯",
                     "author": "作者無效，未經授權編輯",
                     "takenAt": "拍攝日期無效，未經授權編輯",
-                    "isDraftUnSubmit": "草稿狀態無效，不允許取消提交",
-                    "isDraftSubmit": "草稿狀態無效，不允許提交",
+                    "isDraftUnSubmit": "草稿狀態無效，不允許取消送出",
+                    "isDraftSubmit": "草稿狀態無效，不允許送出",
                     "isApprovedUnApprove": "審批狀態無效，不允許取消審批",
                     "isApprovedApprove": "審批狀態無效，不允許審批",
                     "isHiddenRestore": "隱藏狀態無效，不允許恢復",
