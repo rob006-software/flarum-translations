@@ -27,7 +27,7 @@
                     "frequency_label": "臨界點",
                     "frequency_help": "所有啟用的檢查之間垃圾郵件報告的數量將觸發垃圾郵件過濾器。\n例如：如果電子郵件有 1 次點擊，而 ip 有 2 次點擊，總共將有 3 次點擊。 如果閾值設定為 3 或更少，我們將阻止註冊。\n",
                     "api_key_label": "API Key",
-                    "api_key_text": "您可以選擇向 StopForumSpam 舉報垃圾郵件發送者，以確保更大的論壇社區沒有垃圾郵件。",
+                    "api_key_text": "您可以選擇向 StopForumSpam 檢舉垃圾郵件發送者，以確保更大的論壇沒有垃圾郵件。",
                     "api_key_instructions_text": "<register>註冊 StopForumSpam</register> 。 然後您需要<key>取得 API 金鑰</key>。",
                     "regional_endpoint_label": "地理訪問",
                     "regional_endpoint_help": "預設情況下，我們會將查找定向到最近的區域伺服器，以提供最快的回應。 如果您希望限制特定區域的流量，例如為了遵守公司或國家/地區的隱私法規，則可以強制連接到特定區域。",
@@ -77,7 +77,7 @@
                 "move_discussions_tag_help": "這會將該使用者發起的所有討論移至您在論壇設定中指定的標籤。 禁用後，討論將保留在目前標籤中。",
                 "process_button": "執行",
                 "title": "將 {username} 標記為垃圾郵件發送者",
-                "report_to_sfs_label": "向 StopForumSpam 舉報",
+                "report_to_sfs_label": "向 StopForumSpam 檢舉",
                 "report_to_sfs_help": "這將向 StopForumSpam 報告使用者的基本詳細資訊（使用者名稱、電子郵件、IP 位址）。 這將有助於防止用戶在使用 StopForumSpam 服務的其他論壇上註冊。"
             },
             "user_controls": {
