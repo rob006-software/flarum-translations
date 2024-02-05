@@ -25,7 +25,7 @@
                 "approved": "`{1}` 中的批准帖子"
             },
             "user": {
-                "registered": "新注冊會員",
+                "registered": "新註冊會員",
                 "renamed": {
                     "title": "`{1}` 變更用戶名",
                     "description": "新用戶名：{1}"
@@ -42,7 +42,7 @@
             "errors": {
                 "service_not_found": "\"{service}\"服務未找到或不存在。",
                 "url_invalid": "所選服務的 URL 無效。",
-                "tag_invalid": "此 Webhook 被限制於無效的標簽上。該限制將不可用。請確保這是您有意所為。",
+                "tag_invalid": "此 Webhook 被限制於無效的標籤上。該限制將不可用。請確保這是您有意所為。",
                 "tag_disabled": "此 Webhook 配置了標籤限制。 標籤擴展被禁用。 該限制將不適用。 確保這是有意的。"
             },
             "nav": {
@@ -103,7 +103,7 @@
                         },
                         "user": {
                             "title": "Flarum 用戶",
-                            "registered": "注冊",
+                            "registered": "註冊",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
