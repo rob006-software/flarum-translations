@@ -6,18 +6,18 @@
                 "secret_key_label": "密钥",
                 "site_key_label": "网站密钥",
                 "type_label": "reCAPTCHA 类型",
-                "type_help": "",
+                "type_help": "这个扩展只支持 reCAPTCHA v2。所选的类型必须符合你的 reCAPTCHA 凭据。",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "测试 reCAPTCHA",
+                "help_text": "这个测试会使用上面填写的数据。确保在修改设置后重新加载测试，不要忘了在测试通过后保存！\n以下测试并不能反映已保存的设置。\n",
+                "success_message": "成功！reCAPTCHA 已正确配置。",
+                "load_test_button": "加载",
+                "submit_button": "保存",
+                "reload_button": "重新加载"
             },
             "permissions": {
                 "post_without_captcha": "发帖不需要验证码"
@@ -25,11 +25,11 @@
         },
         "forum": {
             "error": "提交 reCAPTCHA 时出错，请重试。",
-            "unknown_error": ""
+            "unknown_error": "发生了一个未知的错误。检查设置并再试一次。"
         }
     },
     "validation": {
         "recaptcha": "reCAPTCHA 验证失败。",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "在校验 reCAPTCHA 时发生了一个未知错误（{errors}）。"
     }
 }
