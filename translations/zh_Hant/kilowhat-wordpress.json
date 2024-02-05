@@ -32,7 +32,7 @@
                     "suspend": "永久封鎖 Flarum 用戶（必須已經啟用 Suspend 插件）"
                 },
                 "user_delete_desc": "如果選擇「刪除」，則只刪除用戶，不刪除 Flarum 中已發表的內容。",
-                "section_comments_intro": "此功能使用 Flarum 框架替換 WordPress 評論模塊。 這會使未登入訪客無法發表評論。 只有在 WordPress 中啟用了評論功能的貼文才會創建對應的主題帖。 啟用或禁用評論功能時，Flarum 會同步鎖定主題。 如果您啟用此功能時，您的博客已經有文章存在，您需要在每篇文章上手動禁用並重新啟用評論功能以創建 Flarum 主題帖。\n",
+                "section_comments_intro": "此功能使用 Flarum 框架替換 WordPress 評論模塊。 這會使未登入訪客無法發表評論。 只有在 WordPress 中啟用了評論功能的貼文才會創建對應的主題貼。 啟用或禁用評論功能時，Flarum 會同步鎖定主題。 如果您啟用此功能時，您的博客已經有文章存在，您需要在每篇文章上手動禁用並重新啟用評論功能以創建 Flarum 主題貼。\n",
                 "enable_comments": "啟用評論集成",
                 "excerpt_html_whitelist": "要保留在摘錄中的 HTML 標籤白名單（半角逗號分隔）",
                 "excerpt_html_nodes": "內容摘錄的長度（以 HTML 節點數為單位）",
@@ -46,22 +46,22 @@
                 "comment_tag_custom": "自定義值",
                 "comment_tag_custom_help": "標籤 ID（半角逗號分隔）",
                 "summary_as_last_post": "將摘要帖設置為新主題的末帖",
-                "summary_as_last_post_help": "這將使得發布 WordPress 文章後，新的評論主題帖立即浮動到 Flarum 主題列表的頂部。 預設情況下，只有在用戶發表第一個評論後，主題帖才會上浮至頂部。\n",
-                "use_post_date": "使用 WordPress 文章的發布日期作為主題帖的創建日期",
-                "use_post_date_help": "預設情況下，Flarum 主題帖將使用目前時間作為其創建日期。 如果 WordPress 文章屬於過去的日期，開啟此選項將允許主題帖使用過去的日期作為創建時間。\n",
+                "summary_as_last_post_help": "這將使得發布 WordPress 文章後，新的評論主題貼立即浮動到 Flarum 主題列表的頂部。 預設情況下，只有在用戶發表第一個評論後，主題貼才會上浮至頂部。\n",
+                "use_post_date": "使用 WordPress 文章的發布日期作為主題貼的創建日期",
+                "use_post_date_help": "預設情況下，Flarum 主題貼將使用目前時間作為其創建日期。 如果 WordPress 文章屬於過去的日期，開啟此選項將允許主題貼使用過去的日期作為創建時間。\n",
                 "post_hide": "WordPress 文章被隱藏（丟棄或移至草稿）後的操作",
                 "post_hide_options": {
-                    "ignore": "無視（根據允許評論鎖定主題帖）",
-                    "lock": "鎖定 Flarum 主題帖",
-                    "hide": "隱藏 Flarum 主題帖",
-                    "delete": "永久刪除 Flarum 主題帖"
+                    "ignore": "無視（根據允許評論鎖定主題貼）",
+                    "lock": "鎖定 Flarum 主題貼",
+                    "hide": "隱藏 Flarum 主題貼",
+                    "delete": "永久刪除 Flarum 主題貼"
                 },
                 "post_delete": "永久刪除 WordPress 文章後的操作",
                 "post_delete_options": {
-                    "ignore": "無視（保持 Flarum 主題帖的現狀）",
-                    "lock": "保留並鎖定 Flarum 主題帖",
-                    "hide": "隱藏 Flarum 主題帖",
-                    "delete": "永久刪除 Flarum 主題帖"
+                    "ignore": "無視（保持 Flarum 主題貼的現狀）",
+                    "lock": "保留並鎖定 Flarum 主題貼",
+                    "hide": "隱藏 Flarum 主題貼",
+                    "delete": "永久刪除 Flarum 主題貼"
                 }
             },
             "tabs": {
@@ -154,7 +154,7 @@
                 "cookie-domain-format": "cookie 域似乎不是有效域。 檢查它是否只是一個沒有任何協議或路徑的域",
                 "login-only-signup-open": "您需要在 Flarum 權限下禁用註冊才能使“僅允許 WordPress 登入”設置完全生效",
                 "lock-extension-required": "必須啟用 Lock 擴展才能使用 Comments 集成",
-                "tags-extension-required": "如需要添加標籤請啟用標籤擴展",
+                "tags-extension-required": "如需要增加標籤請啟用標籤擴展",
                 "tag-not-exist": "為“新評論主題的標籤 ID”選項選擇的標籤 ID {id} 不存在",
                 "debug-mode": "除錯模式已啟用如果完成後請關閉",
                 "config-url-trailing-slash": "config.php 中定義的 Flarum URL 不應有尾部斜線（目前值：“{url}”）",
