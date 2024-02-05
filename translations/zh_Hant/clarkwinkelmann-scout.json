@@ -12,12 +12,12 @@
                 "prefix": "索引名稱前綴（可選）",
                 "queue": "處理隊列中的索引更新",
                 "queueHelp": "只有在 Flarum 中配置了 asynchronous queue 驅動程序時，此設置才有效。",
-                "limit": "默認結果限制",
+                "limit": "預設結果限制",
                 "limitPlaceholder": "自動",
-                "limitHelp": "這將覆蓋向搜索引擎請求的結果數，並影響可以生成的結果頁數（該限制還包括用戶將無法看到的內容）。一些引擎可能需要額外的配置來更改允許的最大值。\n",
-                "queryMinLength": "搜索建議的最小字元限制",
+                "limitHelp": "這將覆蓋向搜尋引擎請求的結果數，並影響可以生成的結果頁數（該限制還包括用戶將無法看到的內容）。一些引擎可能需要額外的配置來更改允許的最大值。\n",
+                "queryMinLength": "搜尋建議的最小字元限制",
                 "queryMinLengthPlaceholder": "自動",
-                "queryMinLengthHelp": "此設置僅影響搜索欄的搜尋建議結果顯示。 Flarum 默認建議搜尋的觸發機制為 3 個字符，您可以使用此設置覆蓋它。完整的搜索結果輸出並不會被影響。更改此值後必須清除緩存。\n",
+                "queryMinLengthHelp": "此設置僅影響搜尋欄的搜尋建議結果顯示。 Flarum 預設建議搜尋的觸發機制為 3 個字符，您可以使用此設置覆蓋它。完整的搜尋結果輸出並不會被影響。更改此值後必須清除緩存。\n",
                 "algoliaId": "Algolia ID",
                 "algoliaSecret": "Algolia Secret",
                 "algoliaConnectTimeout": "Algolia Connect Timeout (可選)",
@@ -26,10 +26,10 @@
                 "meilisearchHost": "Meilisearch Host",
                 "meilisearchKey": "Meilisearch Key",
                 "tntsearchMaxDocs": "TNT Search Max Docs (optional, maximum number of results)",
-                "tntsearchFuzziness": "TNT 搜索模糊性（拼寫錯誤/變體匹配）",
-                "tntsearchFuzzyDistance": "TNT 搜索模糊編輯距離（可選）",
-                "tntsearchFuzzyPrefixLength": "TNT 搜索模糊前綴長度（可選）",
-                "tntsearchFuzzyMaxExpansions": "TNT 搜索模糊度最大擴展（可選）"
+                "tntsearchFuzziness": "TNT 搜尋模糊性（拼寫錯誤/變體匹配）",
+                "tntsearchFuzzyDistance": "TNT 搜尋模糊編輯距離（可選）",
+                "tntsearchFuzzyPrefixLength": "TNT 搜尋模糊前綴長度（可選）",
+                "tntsearchFuzzyMaxExpansions": "TNT 搜尋模糊度最大擴展（可選）"
             }
         }
     }
