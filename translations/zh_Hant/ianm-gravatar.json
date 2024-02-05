@@ -4,7 +4,7 @@
             "settings": {
                 "proxy": {
                     "title": "Gravatars 頭像代理",
-                    "helptext": "預設情況下，Gravatar 頭像的 URL 直接從 gravatar.com 獲取。代理可以允許站點自己提供 Gravatar 請求服務。"
+                    "helptext": "預設情況下，Gravatar 頭像的 URL 直接從 gravatar.com 取得。代理可以允許站點自己提供 Gravatar 請求服務。"
                 },
                 "replace-flarum-custom": {
                     "title": "替換上傳到論壇的自定義頭像",
@@ -12,7 +12,7 @@
                 },
                 "defaults": {
                     "title": "預設",
-                    "helptext": "如果用戶的郵箱地址沒有匹配的 Gravatar 頭像時會發生什麽？Gravatar 有幾種預設頭像類型可選，無匹配頭像時，通過郵箱地址的哈希值來生成獨一無二的頭像。",
+                    "helptext": "如果用戶的郵箱地址沒有匹配的 Gravatar 頭像時會發生什麽？Gravatar 有幾種預設頭像類型可選，無匹配頭像時，透過郵箱地址的哈希值來生成獨一無二的頭像。",
                     "mp_label": "mp：神秘人士，通用二維人像剪影",
                     "identicon_label": "identicon：抽象圖形，基於郵箱地址哈希值自動生成",
                     "monsterid_label": "monsterid：小怪物，自動生成不同的膚色、面孔等",
