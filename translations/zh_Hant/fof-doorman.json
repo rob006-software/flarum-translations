@@ -3,7 +3,7 @@
         "forum": {
             "email": {
                 "subject": "邀請加入",
-                "body": "您好，\n\n您被邀請注冊 {forum}。\n\n當您準備好創建帳戶時，只需點擊下方鏈接並在注冊時輸入邀請碼即可。\n\n網址：{url}\n邀請碼：{code}\n\n如果您錯誤地收到了這封郵件，請忽略郵件內容。\n"
+                "body": "您好，\n\n您被邀請註冊 {forum}。\n\n當您準備好創建帳戶時，只需點擊下方連結並在註冊時輸入邀請碼即可。\n\n網址：{url}\n邀請碼：{code}\n\n如果您錯誤地收到了這封郵件，請忽略郵件內容。\n"
             },
             "sign_up": {
                 "invalid_doorkey": "邀請碼無效。",
@@ -26,7 +26,7 @@
             "invalid_doorkey": "邀請碼無效。",
             "doorkey_required": "您必須輸入邀請碼",
             "nav": {
-                "desc": "創建注冊邀請碼並自動分配用戶組"
+                "desc": "創建註冊邀請碼並自動分配用戶組"
             },
             "page": {
                 "title": "看門人",
@@ -35,10 +35,10 @@
                     "total_uses": "{totalUses, plural, one {Used {totalUses} time} other {Used {totalUses} times}}",
                     "title": "邀請碼",
                     "help": {
-                        "key": "邀請碼：用戶在注冊時輸入的邀請碼。",
-                        "group": "用戶組：用戶在注冊後自動分配的用戶組。",
+                        "key": "邀請碼：用戶在註冊時輸入的邀請碼。",
+                        "group": "用戶組：用戶在註冊後自動分配的用戶組。",
                         "max": "最大可用次數：一個邀請碼最多可以被使用幾次，0 表示不限制",
-                        "activates": "自動激活：通過邀請碼注冊後，自動激活用戶賬號。"
+                        "activates": "自動啟用：通過邀請碼註冊後，自動啟用用戶帳號。"
                     },
                     "warning": "此邀請碼已達最大可用次數。",
                     "key": "邀請碼",
@@ -46,11 +46,11 @@
                     "heading": {
                         "key": "邀請碼",
                         "group": "用戶組",
-                        "activate": "自動激活",
+                        "activate": "自動啟用",
                         "max_uses": "最大可用次數"
                     },
                     "allow-public": {
-                        "title": "允許公開注冊",
+                        "title": "允許公開註冊",
                         "switch-label": "設置邀請碼為可選項"
                     }
                 }
