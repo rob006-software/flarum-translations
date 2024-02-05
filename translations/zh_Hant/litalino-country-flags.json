@@ -7,8 +7,8 @@
             "set_on_registration_label": "允許註冊時設置國籍",
             "required_label": "要求輸入國籍",
             "required_help": "您需要啟用“設定國家/地區”選項才能使該選項起作用",
-            "bind_label": "",
-            "bind_help": ""
+            "bind_label": "綁定 需要輸入的國家",
+            "bind_help": "登入後強制要求帳戶註冊國家"
         },
         "forum": {
             "inputCountryCode": "國家代碼",
@@ -16,8 +16,8 @@
             "clickToSelectCountry": "選擇你的國籍",
             "countrySaved": "國籍成功保存",
             "field_placeholder": "確認國旗",
-            "binding_country": "",
-            "binding_country_click": ""
+            "binding_country": "我們發現你沒有綁定你的所在地。 請先連結您所在的國家。 您只能在連結您的國家/地區後才能發佈和留言。",
+            "binding_country_click": "現在點擊"
         }
     }
 }
