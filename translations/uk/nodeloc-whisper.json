@@ -2,38 +2,38 @@
     "nodeloc-whisper": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "title": ""
+                "return_key": "Клавіша повернення надсилає повідомлення",
+                "title": "Налаштування Whisper"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "Почати приватні розмови"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Розмови"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Надіслати повідомлення",
+                "help": "Почніть вводити ім'я користувача, щоб розпочати чат.",
+                "help_start": "Надіслати повідомлення {username}.",
+                "search_recipients": "Введіть ім'я користувача...",
+                "submit": "Надіслати",
+                "copied": "Ваше повідомлення скопійовано до буфера обміну.",
+                "more_users": "Якщо ви не бачите користувача, якого шукаєте, це означає, що у нього не налаштовані приватні повідомлення.",
+                "already": "Ви вже маєте розмову з {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "send_success": ""
+                "messages_single": "Нова розмова",
+                "messages_multiple": "кількість повідомлень {count}",
+                "chat_with": "Надіслати повідомлення",
+                "start": "Почати розмову",
+                "start_of_conversation": "Початок розмови",
+                "read": "Читати",
+                "cant_start": "Не вдається розпочати розмову",
+                "text_placeholder": "Введіть своє повідомлення",
+                "send": "Надіслати повідомлення",
+                "send_success": "Повідомлення відправлено успішно"
             }
         }
     }
