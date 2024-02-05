@@ -4,7 +4,7 @@
             "data": {
                 "uploads": {
                     "export_description": "用戶上傳的所有檔案。",
-                    "anonymize_description": "從上傳的檔案中刪除使用者資訊。 這些文件本身仍然可以在預匿名狀態下查看它們的使用者存取。",
+                    "anonymize_description": "從上傳的檔案中刪除使用者資訊。 這些檔案本身仍然可以在預匿名狀態下查看它們的使用者存取。",
                     "delete_description": "刪除用戶上傳的所有檔案。"
                 }
             }
@@ -28,11 +28,11 @@
             },
             "help_texts": {
                 "disable-download-logging": "開啟此設定可查看下載量及未來可能的統計數據。\n",
-                "disable-hotlink-protection": "熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及貼文 ID。\n",
+                "disable-hotlink-protection": "熱鏈保護可防止從其他網站下載。目前的方式需求 csrf token 及貼文 ID。\n",
                 "download_templates": "下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：\n",
                 "mime_types": "請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上載接口處理。\n",
                 "resize": "您可以選擇是否在上載圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例。\n",
-                "client_extension": "預設情況下，上傳器將根據 MIME 類型選擇一個安全的文件擴展名。\n對於某些基於 ZIP 或二進制數據的文件類型，這可能導致使用不正確的通用擴展名。\n在這裡，您可以輸入一個逗號分隔的文件擴展名列表，該列表將被逐字保留。\n",
+                "client_extension": "預設情況下，上傳器將根據 MIME 類型選擇一個安全的檔案擴充套件名。\n對於某些基於 ZIP 或二進制數據的檔案類型，這可能導致使用不正確的通用擴充套件名。\n在這裡，您可以輸入一個逗號分隔的檔案擴充套件名列表，該列表將被逐字保留。\n",
                 "watermark": "在圖片上載時新增水印，僅支援非 gif 圖片。\n",
                 "s3_compatible_storage": "僅在使用 S3 兼容存儲時才需要以下設置。 如果您使用 AWS，您可以將它們留空。\n",
                 "s3_acl": "應用於上傳對象的 ACL（預設：私有）。 有關可能的值，請參閱 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -46,7 +46,7 @@
                     "region": "區域",
                     "secret": "Secret",
                     "title": "AWS S3 存儲設定",
-                    "advanced_title": "高級 S3 存儲設置",
+                    "advanced_title": "進階 S3 存儲設置",
                     "endpoint": "訪問域名（Endpoint）",
                     "use_path_style_endpoint": "使用 path-style 訪問域名",
                     "acl": "訪問控制列表（ACL）"
@@ -86,7 +86,7 @@
                     "toggle": "縮放圖片"
                 },
                 "client_extension": {
-                    "title": "用戶自定義文件擴展名"
+                    "title": "用戶自定義檔案擴充套件名"
                 },
                 "watermark": {
                     "file": "上載水印圖片",
@@ -102,15 +102,15 @@
                         "media-btn": "僅媒體管理按鈕"
                     }
                 },
-                "inspect-mime": "測試文件 MIME 類型"
+                "inspect-mime": "測試檔案 MIME 類型"
             },
             "permissions": {
                 "download_label": "下載檔案",
                 "upload_label": "上載檔案",
-                "view_user_uploads_label": "查看用戶上傳的文件",
-                "delete_uploads_of_others_label": "刪除用戶上傳的文件",
-                "upload_shared_label": "上傳共享文件",
-                "access_shared_label": "在媒體管理員中存取共用文件"
+                "view_user_uploads_label": "查看用戶上傳的檔案",
+                "delete_uploads_of_others_label": "刪除用戶上傳的檔案",
+                "upload_shared_label": "上傳共享檔案",
+                "access_shared_label": "在媒體管理員中存取共用檔案"
             },
             "templates": {
                 "file": "預設檔案下載模板",
@@ -137,15 +137,15 @@
             },
             "inspect-mime": {
                 "title": "檢查 MIME",
-                "description": "由於 PHP Fileinfo 擴展在不同伺服器上返回的文件類型會有所不同，因此 FoF Upload 僅將其作為備用選項。\n一般情況下，均使用 <a>PHP Mime Detector</a> 庫檢測 MIME 類型。\n",
-                "select": "選擇一個文件，並檢測類型。您選擇的文件不會被儲存。",
-                "laravel-validation": "Laravel 文件驗證消息",
-                "no-file-selected": "請選擇文件",
+                "description": "由於 PHP Fileinfo 擴充套件在不同伺服器上返回的檔案類型會有所不同，因此 FoF Upload 僅將其作為備用選項。\n一般情況下，均使用 <a>PHP Mime Detector</a> 庫檢測 MIME 類型。\n",
+                "select": "選擇一個檔案，並檢測類型。您選擇的檔案不會被儲存。",
+                "laravel-validation": "Laravel 檔案驗證消息",
+                "no-file-selected": "請選擇檔案",
                 "validation-passed": "通過",
                 "validation-failed": "失敗：{error}",
                 "mime-detector": "Mime 檢測器（主）",
                 "mime-fileinfo": "PHP Fileinfo（備）",
-                "guessed-extension": "預設文件擴展名",
+                "guessed-extension": "預設檔案擴充套件名",
                 "not-available": "暫無結果"
             }
         },
@@ -157,7 +157,7 @@
                 "upload_shared": "已分享",
                 "user_uploads": "用戶上傳",
                 "cancel": "取消",
-                "media": "我的文件",
+                "media": "我的檔案",
                 "shared_media": "已分享的媒體"
             },
             "states": {
@@ -166,12 +166,12 @@
                 "unauthorized": "您未被允許下載檔案"
             },
             "validation": {
-                "max_size": "文件需小於 {max} KB。"
+                "max_size": "檔案需小於 {max} KB。"
             },
             "text_preview": {
                 "expand": "展開全文",
                 "collapse": "收起全文",
-                "error": "文件預覽無法載入。此文件可能已被刪除，或文件 ID已失效。\n",
+                "error": "檔案預覽無法載入。此檔案可能已被刪除，或檔案 ID已失效。\n",
                 "no_snippet_preview": "<本文的預覽將會在此處展示>",
                 "no_snippet": "<暫無可用的預覽代碼片段>"
             },
@@ -198,20 +198,20 @@
                 "forbidden_type": "不允許上載這個類型的檔案。",
                 "unsupported_type": "上載適配器不支援這個 MIME 類型： {mime}。",
                 "could_not_detect_mime": "無法偵測這個檔案的 MIME 類型，請重新嘗試。",
-                "max_upload_file_size_ini": "已達到 php.ini 上傳最大文件大小限制。",
-                "max_upload_file_size_form": "上傳表單已達到最大文件大小限制。",
+                "max_upload_file_size_ini": "已達到 php.ini 上傳最大檔案大小限制。",
+                "max_upload_file_size_form": "上傳表單已達到最大檔案大小限制。",
                 "partial_upload": "部分上傳。",
-                "no_file_uploaded": "沒有上傳文件。",
-                "no_upload_tmp_folder": "沒有用於上傳文件的 tmp 文件夾。",
+                "no_file_uploaded": "沒有上傳檔案。",
+                "no_upload_tmp_folder": "沒有用於上傳文件的 tmp 資料夾。",
                 "cannot_write_to_disk": "無法寫入磁盤。",
-                "upload_blocked_by_php_extension": "php 擴展阻止了上傳。",
-                "no_files_made_it_to_upload": "請上傳不超過 {max} kb 的文件。"
+                "upload_blocked_by_php_extension": "php 擴充套件阻止了上傳。",
+                "no_files_made_it_to_upload": "請上傳不超過 {max} kb 的檔案。"
             }
         },
         "lib": {
             "upload-shared-file-modal": {
                 "title": "新分享的檔案",
-                "dropzone": "將文件拖曳到此處或點擊瀏覽",
+                "dropzone": "將檔案拖曳到此處或點擊瀏覽",
                 "hide-from-media-gallery": "從使用者的媒體庫中隱藏",
                 "upload": "上傳"
             },
@@ -219,8 +219,8 @@
                 "loading": "載入檔案…",
                 "empty": "沒有檔案可顯示",
                 "release_to_upload": "發布上傳",
-                "modal_empty_desktop": "您的文件清單為空。 按一下按鈕或將檔案拖曳至此處進行上傳。",
-                "modal_empty_phone": "您的文件清單為空。 點擊上面的按鈕上傳檔案。",
+                "modal_empty_desktop": "您的檔案清單為空。 按一下按鈕或將檔案拖曳至此處進行上傳。",
+                "modal_empty_phone": "您的檔案清單為空。 點擊上面的按鈕上傳檔案。",
                 "select_file_a11y_label": "選擇檔案“{fileName}”",
                 "confirm_selection_btn": "{fileCount, plural, =0 {未選擇} one {選擇檔案} other {選擇檔案}}",
                 "load_more_files_btn": "載入更多檔案",
@@ -230,9 +230,9 @@
                     "btn_a11y_label_hide": "從媒體管理器中隱藏“{fileName}”",
                     "btn_a11y_label_show": "在媒體管理器中顯示“{fileName}”",
                     "hide_confirmation": "您確定要隱藏「{fileName}」嗎？ 隱藏檔案只會將其從媒體管理員中刪除，不會影響現有貼文。",
-                    "hide_success": "文件隱藏",
+                    "hide_success": "檔案隱藏",
                     "show_confirmation": "您確定要顯示“{fileName}”嗎？ 顯示檔案將使其在媒體管理員中可見。",
-                    "show_success": "顯示文件",
+                    "show_success": "顯示檔案",
                     "hide_fail": "無法隱藏檔案“{fileName}”",
                     "show_fail": "無法顯示檔案“{fileName}”",
                     "loading": "隱藏檔案..."
@@ -242,8 +242,8 @@
                     "btn_a11y_label_show": "公開「{fileName}」（使用公用 URL）",
                     "hide_confirmation": "您確定要將「{fileName}」設為私有嗎？ 將檔案設為私人將刪除其公用 URL，但不會影響現有貼文。 未經授權的用戶也將不再在媒體管理員中看到它。",
                     "hide_success": "檔案設為私有",
-                    "show_confirmation": "您確定要公開「{fileName}」嗎？ 公開文件將使任何擁有公共 URL 的人都可以存取該文件，並且任何人都可以使用媒體管理員共用該文件。",
-                    "show_success": "文件公開",
+                    "show_confirmation": "您確定要公開「{fileName}」嗎？ 公開檔案將使任何擁有公共 URL 的人都可以存取該檔案，並且任何人都可以使用媒體管理員共用該檔案。",
+                    "show_success": "檔案公開",
                     "hide_fail": "無法將檔案「{fileName}」設為私有",
                     "show_fail": "無法公開檔案“{fileName}”",
                     "loading": "將檔案設為私有..."
