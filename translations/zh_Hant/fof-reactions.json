@@ -32,7 +32,7 @@
                 "reactions": {
                     "title": "自定義回應",
                     "reactions": "現有回應",
-                    "Helptext": "鍵入 emoji 或 font-awesome 的名稱並選擇你喜歡的類型。",
+                    "Helptext": "輸入 emoji 或 font-awesome 的名稱並選擇你喜歡的類型。",
                     "help": {
                         "display": "描述",
                         "identifier": "標識"
@@ -45,10 +45,10 @@
                     "converted": "成功轉換全部 {number} 個讚"
                 },
                 "settings": {
-                    "react_own_posts_help": "啟用此項，添加一個權限，允許用戶對自己的帖子表達心情。如需禁止，請禁用此項。",
+                    "react_own_posts_help": "啟用此項，添加一個權限，允許用戶對自己的貼文表達心情。如需禁止，請禁用此項。",
                     "react_own_posts_label": "允許用戶對自已的貼子表達心情",
                     "allow-anonymous": "允許匿名（來賓）反應",
-                    "allow-anonymous-help": "如果啟用，訪客和匿名用戶將能夠對帖子做出反應。 請注意，匿名反應不會鏈接到用戶個人資料，而是會聚合在反應列表中。",
+                    "allow-anonymous-help": "如果啟用，訪客和匿名用戶將能夠對帖子做出反應。 請注意，匿名反應不會連結到用戶個人資料，而是會聚合在反應列表中。",
                     "save_settings": "儲存設定",
                     "integrations": {
                         "legend": "融合",
@@ -56,14 +56,14 @@
                         "gamification": {
                             "legend": "遊戲化",
                             "upvoteLabel": "轉換回應為「頂」",
-                            "upvoteHelptext": "鍵入你想要自動轉換為「頂」的回應的標識",
+                            "upvoteHelptext": "輸入你想要自動轉換為「頂」的回應的標識",
                             "downvoteLabel": "轉換回應為「踩」",
-                            "downvoteHelptext": "鍵入你想要自動轉換為「踩」的回應的標識"
+                            "downvoteHelptext": "輸入你想要自動轉換為「踩」的回應的標識"
                         },
                         "likes": {
                             "legend": "喜歡",
                             "Label": "轉換回應為「喜歡」",
-                            "Helptext": "鍵入你想要自動轉換為「喜歡」的回應的標識"
+                            "Helptext": "輸入你想要自動轉換為「喜歡」的回應的標識"
                         }
                     }
                 }
