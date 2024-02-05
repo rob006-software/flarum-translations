@@ -86,15 +86,15 @@
                     "title": "讚",
                     "vote_color": "點讚貼顏色",
                     "icon_name": "讚/踩小圖示",
-                    "icon_help": "輸入任何 Font-Awesome 圖標，後綴為 -up 和 -down。 示例：箭頭，拇指，人字紋",
+                    "icon_help": "輸入任何 Font-Awesome 圖示，後綴為 -up 和 -down。 示例：箭頭，拇指，人字紋",
                     "upvotes_only": "禁用反對",
                     "first_post_only": "僅首帖開放投票功能",
-                    "allow_self_votes": "允許用戶投票自己的帖子"
+                    "allow_self_votes": "允許用戶投票自己的貼文"
                 },
                 "save_settings": "儲存設定",
                 "convert": {
                     "button": "轉換「喜歡」為「讚」",
-                    "help": "將 flarum-ext-like 產生的「喜歡」轉換成「讚」，並計算所有當前討論的熱度。",
+                    "help": "將 flarum-ext-like 產生的「喜歡」轉換成「讚」，並計算所有目前討論的熱度。",
                     "converting": "您的喜好正在被轉換，稍後幾分鐘刷新頁面查看轉換結果。（轉換可能需要一段時間，具體取決於您的論壇）",
                     "converted": "成功轉換 {number} 個喜歡"
                 },
@@ -104,14 +104,14 @@
                     "number_title": "要顯示多少個徽章？",
                     "help": {
                         "color": "#ffffff",
-                        "help": "輸入所需數量的點贊數，級別名稱，以及等級顏色",
+                        "help": "輸入所需數量的按讚數，級別名稱，以及等級顏色",
                         "points": "👍",
                         "name": "名稱"
                     }
                 },
                 "groups": {
                     "title": "自動分配用戶組",
-                    "help": "當用戶的點數發生變化時，將自動添加或刪除組。修改設置後，請運行 <code>php flarum fof:gamification:assign-groups</code> 命令更新現有用戶。如果您希望刪除規則並從組中刪除所有用戶，請將最低最高點數均設為空，保存設置並執行命令後，在設置中刪除規則。\n",
+                    "help": "當用戶的點數發生變化時，將自動添加或刪除組。修改設置後，請運行 <code>php flarum fof:gamification:assign-groups</code> 命令更新現有用戶。如果您希望刪除規則並從組中刪除所有用戶，請將最低最高點數均設為空，儲存設置並執行命令後，在設置中刪除規則。\n",
                     "column": {
                         "group": "用戶組",
                         "minPoints": "最低點數(含)",
@@ -127,7 +127,7 @@
                 "postVoted": "{recipient_display_name} 你好！\n\n{actor_display_name} 剛剛投票了你的主題「{discussion_title}」。\n\n查看詳情：{discussion_url}\n"
             },
             "subject": {
-                "postVoted": "{display_name} 投票了你的帖子"
+                "postVoted": "{display_name} 投票了你的貼文"
             }
         }
     }
