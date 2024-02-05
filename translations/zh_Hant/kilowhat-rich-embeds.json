@@ -23,7 +23,7 @@
                 "maxImageCountHelp": "將顯示多少張來自 Opengraph 或後備解析器的圖像。 所有圖像 URL 始終會儲存，以便您稍後變更此設定。\n",
                 "maxImageCountPlaceholder": "留空則無限制",
                 "imageProxy": "OpenGraph Image Proxy",
-                "imageProxyHelp": "所有 OpenGraph 和網站圖標圖像都將通過 Flarum 代理，而不是由訪問者瀏覽器檢索",
+                "imageProxyHelp": "所有 OpenGraph 和網站圖示圖像都將通過 Flarum 代理，而不是由訪問者瀏覽器檢索",
                 "cacheProxy": "緩存代理圖片",
                 "cacheProxyHelp": "客戶端將緩存圖片到本地",
                 "withoutOpengraph": "為無OpenGraph數據的頁面生成富文本容器",
@@ -33,7 +33,7 @@
                 "whitelist": "URL 白名單",
                 "whitelistHelp": "檢查文檔的格式。如果設置了一個值，所有其他 URL 將被視為列入黑名單",
                 "imageEmbeds": "豐富圖像嵌入",
-                "imageEmbedsHelp": "此功能檢索並顯示有關插入到帶有 bbcode 或 markdown 的帖子中的外部圖像的附加信息。此時它重新使用與富鏈接相同的黑名單/白名單和權限。這些圖像不通過 OpenGraph 圖像代理進行代理。更改此設置後，您必須清除 Flarum 緩存。\n",
+                "imageEmbedsHelp": "此功能檢索並顯示有關插入到帶有 bbcode 或 markdown 的貼文中的外部圖像的附加信息。此時它重新使用與富連結相同的黑名單/白名單和權限。這些圖像不通過 OpenGraph 圖像代理進行代理。更改此設置後，您必須清除 Flarum 緩存。\n",
                 "flarumApiPreviews": "啟用高級 Flarum 預覽",
                 "flarumApiPreviewsHelp": "此功能解析已由所有 Flarum 支持的論壇包含在 HTML 中的其他 JSON 數據。它適用於任何運行 Flarum 1.4+ 並宣傳 <code>X-Powered-By</code> Flarum 標頭的論壇。\n",
                 "githubApiKey": "GitHub API Key",
@@ -45,7 +45,7 @@
                 "googleApiKey": "Google SDK API key",
                 "googleApiKeyHelp": "此設置與下面的 YouTube 和 Google 雲端硬盤設置結合使用。 如果留空，Google API SDK 將通過環境變量自動發現 API 密鑰或服務帳戶。\n",
                 "youtubePlayer": "允許從預覽中播放 YouTube 視頻",
-                "youtubePlayerHelp": "當用戶單擊預覽中的播放按鈕時，將按需加載 iframe 播放器。 您必須配置 CSP 和幀標頭以允許來自 YouTube 域名的幀。 無需 API 訪問即可使用此功能。\n",
+                "youtubePlayerHelp": "當用戶單擊預覽中的播放按鈕時，將按需載入 iframe 播放器。 您必須配置 CSP 和幀標頭以允許來自 YouTube 域名的幀。 無需 API 訪問即可使用此功能。\n",
                 "youtubeNoCookie": "使用 YouTube no-cookie iframe 域",
                 "youtubeNoCookieHelp": "切換到 YouTube 提供的備用無 cookie 域。 啟用此選項後，某些視頻可能無法在 iframe 中播放。 無需 API 訪問即可使用此功能。\n",
                 "youtubeApiPreviews": "啟用高級 API 支持的豐富 YouTube 預覽",
@@ -63,16 +63,16 @@
             },
             "permissions": {
                 "viewGoogleDriveThumbnails": "查看 API 支持的 Google 雲端硬盤略圖",
-                "useOnOwnPost": "在自己的帖子中使用嵌入",
-                "disableOnOwnPost": "禁止在自己的帖子中使用嵌入",
-                "refreshOnOwnPost": "在自己的帖子上刷新嵌入",
-                "disableOnAnyPost": "禁止在任何的帖子中使用嵌入",
-                "refreshOnAnyPost": "在任何的帖子上刷新嵌入"
+                "useOnOwnPost": "在自己的貼文中使用嵌入",
+                "disableOnOwnPost": "禁止在自己的貼文中使用嵌入",
+                "refreshOnOwnPost": "在自己的貼文上刷新嵌入",
+                "disableOnAnyPost": "禁止在任何的貼文中使用嵌入",
+                "refreshOnAnyPost": "在任何的貼文上刷新嵌入"
             },
             "preview": {
                 "title": "預覽",
                 "refresh": "重新載入",
-                "loading": "正在加載…"
+                "loading": "正在載入…"
             }
         },
         "lib": {
@@ -82,12 +82,12 @@
                 "altAvatar": "用戶頭像",
                 "missing": {
                     "retrieving": "正在檢索...",
-                    "other": "無法為此鏈接生成預覽"
+                    "other": "無法為此連結生成預覽"
                 }
             },
             "controls": {
                 "refresh": "刷新頁面",
-                "disable": "禁止在這個帖子中使用嵌入",
+                "disable": "禁止在這個貼文中使用嵌入",
                 "disableConfirmation": "所有嵌入將從這篇文章中刪除。繼續？",
                 "imgCopy": "複制圖像綱址",
                 "imgCopied": "已復制！",
