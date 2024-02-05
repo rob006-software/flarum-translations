@@ -2,7 +2,7 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "{tier}：達成 {from} 至 {to} 次回帖",
+                "tier": "{tier}：達成 {from} 至 {to} 次回覆",
                 "icon-manager": {
                     "title": "圖示管理",
                     "help_text": "=> core.ref.icon_text"
@@ -34,7 +34,7 @@
             "less300post": "活躍",
             "less600post": "嘮叨",
             "less1000post": "傳說",
-            "hasWritten": "{count, plural, one {# 次回帖} other {# 次回帖}}"
+            "hasWritten": "{count, plural, one {# 次回覆} other {# 次回覆}}"
         }
     }
 }
