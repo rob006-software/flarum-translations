@@ -58,7 +58,7 @@
                         }
                     },
                     "search": {
-                        "placeholder": "搜索用戶",
+                        "placeholder": "搜尋用戶",
                         "failed": "找不到此用戶",
                         "invited": "已經邀請"
                     },
@@ -99,7 +99,7 @@
                             "users": "已選擇用戶"
                         },
                         "search": {
-                            "placeholder": "搜索用戶",
+                            "placeholder": "搜尋用戶",
                             "failed": "找不到此用戶",
                             "invited": "已經邀請",
                             "more_results": "顯示「{more_results}」的更多結果……"
@@ -135,7 +135,7 @@
                             "edited": "{editorname} 將聊天 {old} 重命名為 {new}"
                         },
                         "icon": {
-                            "edited": "{editorname} 將聊天圖標 {old} 修改為 {new}"
+                            "edited": "{editorname} 將聊天圖示 {old} 修改為 {new}"
                         },
                         "color": {
                             "edited": "{editorname} 將聊天顏色 {old} 修改為 {new}"
@@ -153,7 +153,7 @@
                 }
             },
             "errors": {
-                "unauthenticated": "此聊天僅限注冊用戶加入",
+                "unauthenticated": "此聊天僅限註冊用戶加入",
                 "chatdenied": "你的用戶組無權限發送消息",
                 "removed": "你被移出聊天"
             }
