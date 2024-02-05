@@ -11,9 +11,9 @@
             "purge_on_discussion_update_label": "主題或貼文更新時清除 URL 或標籤緩存",
             "purge_on_discussion_update_help": "每行指定一個 URL 或標籤。URL 應以 <code>/</code> 開頭，例如 <code>/rankings</code>，緩存標籤應以 <code>tag=</code> 開頭，例如 <code>tag=rankings</code>。此擴充套件將給每個路由打上標籤。如果您需要清除多個路由，請在 .htaccess 中增加規則，使用正規表示式標記路由。<a>了解更多</a>。預設情況下，主頁和有更新的討論的緩存都會被清除。",
             "cache_exclude_label": "禁用路徑緩存",
-            "cache_exclude_help": "一行一個關鍵詞，匹配的路徑將不會被緩存。如不想緩存 <code>/mypath/mypage?aa=bb</code>，可以使用 <code>mypage?aa=</code> 匹配。要匹配字符串開頭，請以 <code>^</code> 作為前綴。要進行完全匹配，請以 <code>$</code> 作為 URL 後綴。",
-            "drop_qs_label": "刪除查詢字符串",
-            "drop_qs_help": "使用此功能可以在緩存時刪除特定的查詢字符串，例如 <code>fbclid</code> 或 <code>utm*</code>。 這可以防止對帶有「垃圾」查詢字符串（例如 UTM 代碼）的頁面進行冗餘緩存，這些字符串用於追蹤但不會影響頁面內容。 這需要 LSWS v5.2.3 或更新版本。 列出要刪除的查詢字符串，每行一個。 <a>了解有關刪除查詢字符串的更多資訊</a>。<br></br>\n⚠️ 此設置將修改 .htaccess 檔案。\n",
+            "cache_exclude_help": "一行一個關鍵詞，匹配的路徑將不會被緩存。如不想緩存 <code>/mypath/mypage?aa=bb</code>，可以使用 <code>mypage?aa=</code> 匹配。要匹配字串開頭，請以 <code>^</code> 作為前綴。要進行完全匹配，請以 <code>$</code> 作為 URL 後綴。",
+            "drop_qs_label": "刪除查詢字串",
+            "drop_qs_help": "使用此功能可以在緩存時刪除特定的查詢字串，例如 <code>fbclid</code> 或 <code>utm*</code>。 這可以防止對帶有「垃圾」查詢字串（例如 UTM 代碼）的頁面進行冗餘緩存，這些字串用於追蹤但不會影響頁面內容。 這需要 LSWS v5.2.3 或更新版本。 列出要刪除的查詢字串，每行一個。 <a>了解有關刪除查詢字串的更多資訊</a>。<br></br>\n⚠️ 此設置將修改 .htaccess 檔案。\n",
             "purge_all": "清除全部 LSCache",
             "purge_all_success": "通知 LiteSpeed Web 伺服器清除所有 LSCache"
         }
