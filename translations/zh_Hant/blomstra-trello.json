@@ -4,7 +4,7 @@
             "modals": {
                 "fields": {
                     "board": "選擇一個Trello板塊",
-                    "trello_label": "選擇一個Trello標簽",
+                    "trello_label": "選擇一個Trello標籤",
                     "forum_tags": "選擇一個論壇標籤來映射"
                 },
                 "no_available_labels_label": "沒有可用標籤",
@@ -23,12 +23,12 @@
                     "add": "添加",
                     "remove": "移除"
                 },
-                "default_board_help": "選定的默認板塊將是論壇中發送至Trello模式中預選的板塊。",
-                "default_board_label": "默認板塊",
+                "default_board_help": "選定的預設板塊將是論壇中發送至Trello模式中預選的板塊。",
+                "default_board_label": "預設板塊",
                 "guest_workspace": "訪客工作區",
                 "in_trello": "在Trello中",
-                "include_secondary_tags_help": "當禁用時，只有主要討論標簽將被發送到Trello。當啟用時，所有標簽將被發送到Trello。",
-                "include_secondary_tags_label": "包括次要標簽",
+                "include_secondary_tags_help": "當禁用時，只有主要討論標籤將被發送到Trello。當啟用時，所有標籤將被發送到Trello。",
+                "include_secondary_tags_label": "包括次要標籤",
                 "label": {
                     "general": "一般",
                     "boards": "看板設置",
@@ -37,17 +37,17 @@
                 "mapping": {
                     "add_new": "添加映射",
                     "mapping_description": "會變成",
-                    "modal_title": "新建標簽映射",
-                    "no_mappings_for_board": "此看板尚未建立標簽映射"
+                    "modal_title": "新建標籤映射",
+                    "no_mappings_for_board": "此看板尚未建立標籤映射"
                 },
-                "mappings_label": "論壇標簽到 Trello 標簽映射",
+                "mappings_label": "論壇標籤到 Trello 標籤映射",
                 "member_id_help": "輸入用於獲取機構看板的 Trello 成員 ID（https://trello.com/你的-trello-面板）",
                 "member_id_label": "成員 ID",
                 "no_available_boards_label": "無可用看板",
-                "no_label_name": "無標簽名",
+                "no_label_name": "無標籤名",
                 "no_selected_boards_label": "請選擇看板",
                 "selected_boards_label": "已選擇看板",
-                "save": "保存設置",
+                "save": "儲存設置",
                 "tag": "標籤",
                 "unmapped_warning_label": "警告未映射的標籤",
                 "unmapped_warning_help": "如果論壇標籤未映射到 Trello 標籤，則在向 Trello 發送討論時顯示警告"
@@ -78,7 +78,7 @@
             }
         },
         "lib": {
-            "original_post": "原始帖子"
+            "original_post": "原始貼文"
         }
     }
 }
