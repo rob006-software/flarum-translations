@@ -3,7 +3,7 @@
         "admin": {
             "permission": {
                 "refresh-translation": "強制重新翻譯緩存的翻譯",
-                "translate-to-locale": "查看當前語言環境的翻譯",
+                "translate-to-locale": "查看目前語言環境的翻譯",
                 "translate-to-all-locales": "在任何論壇語言環境中查看翻譯"
             },
             "settings": {
@@ -41,7 +41,7 @@
                 "bind-browser-language": "添加瀏覽器語言",
                 "bind-browser-language-help": "啟用後，使用者的瀏覽器語言將被添加到可用於翻譯的語言清單中。",
                 "use-native-locale-names": "使用本機區域設置名稱",
-                "use-native-locale-names-help": "啟用后，將使用本機區域設置名稱，而不是名稱的當前區域設置版本。",
+                "use-native-locale-names-help": "啟用後，將使用本機區域設置名稱，而不是名稱的目前區域設置版本。",
                 "provider": "翻譯提供商",
                 "readme-info": "有關擴展信息，請參閱 README 文檔。",
                 "readme-none": "該驅動程序不需要額外的設置。"
@@ -65,7 +65,7 @@
                 "settings": {
                     "heading": "翻譯",
                     "source-language": {
-                        "help": "禁用後，只會標記以當前論壇語言以外的語言編寫的可翻譯內容。 要使用檢測到的語言標記所有內容，請啟用此設置。",
+                        "help": "禁用後，只會標記以目前論壇語言以外的語言編寫的可翻譯內容。 要使用檢測到的語言標記所有內容，請啟用此設置。",
                         "label": "總是顯示使用語言"
                     }
                 }
