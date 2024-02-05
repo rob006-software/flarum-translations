@@ -6,7 +6,7 @@
                 "add_modal": {
                     "host_label": "主機",
                     "host_placeholder": "範例： extiverse.com",
-                    "submit_button": "提交",
+                    "submit_button": "送出",
                     "token_label": "金鑰",
                     "type_label": "類型",
                     "unchanged_token_placeholder": "（沒有變動）"
@@ -18,7 +18,7 @@
                     "host": "主機",
                     "token": "金鑰"
                 },
-                "no_auth_methods_configured": "未配置身份驗證方法。 這是一項可選的高級功能，允許從私人存儲庫進行安裝。",
+                "no_auth_methods_configured": "未配置身份驗證方法。 這是一項可選的進階功能，允許從私人存儲庫進行安裝。",
                 "remove_button_label": "刪除身份驗證方法",
                 "title": "認證方式",
                 "types": {
@@ -57,7 +57,7 @@
                         "name_label": "名稱",
                         "type_label": "類型",
                         "url": "URL",
-                        "submit_button": "提交"
+                        "submit_button": "送出"
                     }
                 }
             },
@@ -65,17 +65,17 @@
                 "composer_command_failure": "執行失敗。 檢查 storage/logs/composer 中的 Composer 日誌。",
                 "extension_already_installed": "擴充已安裝。",
                 "extension_not_directly_dependency": "擴充功能作為另一個擴充功能的依賴項安裝，無法直接刪除。",
-                "extension_not_installed": "未找到擴展名。",
+                "extension_not_installed": "未找到擴充套件名。",
                 "guessed_cause": {
                     "extension_incompatible_with_instance": "該擴充很可能與您目前的 Flarum 實例不相容。",
-                    "extension_not_found": "擴展名未找到或不存在。",
+                    "extension_not_found": "擴充套件名未找到或不存在。",
                     "extensions_incompatible_with_new_major": "某些已安裝的擴充功能與最新的主要版本不相容。 請等待作者將擴充功能更新為相容，或在繼續之前將其刪除。\n"
                 }
             },
             "extensions": {
                 "check_why_it_failed_updating": "說明為什麼沒有更新到最新版本。",
-                "install": "安裝新擴展",
-                "install_help": "填寫擴展名稱以繼續。你可以指定 <semantic_link>semantic version</semantic_link> 使用以下格式<code>vendor/package-name:version</code>。造訪 {extiverse} 瀏覽擴充功能。\n",
+                "install": "安裝新擴充套件",
+                "install_help": "填寫擴充套件名稱以繼續。你可以指定 <semantic_link>semantic version</semantic_link> 使用以下格式<code>vendor/package-name:version</code>。造訪 {extiverse} 瀏覽擴充功能。\n",
                 "proceed": "繼續",
                 "remove": "解除安裝",
                 "successful_install": "{extension} 已成功安裝，正在重定向..",
@@ -110,16 +110,16 @@
                         "elapsed_time": "完成於",
                         "peak_memory_used": "記憶體使用峰值",
                         "operation": "操作",
-                        "package": "擴展包",
+                        "package": "擴充套件包",
                         "status": "狀態"
                     },
                     "none": "還沒有任務。",
                     "operations": {
-                        "extension_install": "安裝擴展",
-                        "extension_remove": "移除擴展",
-                        "extension_update": "更新擴展",
+                        "extension_install": "安裝擴充套件",
+                        "extension_remove": "移除擴充套件",
+                        "extension_update": "更新擴充套件",
                         "update_check": "檢查更新",
-                        "update_global": "更新所有擴展",
+                        "update_global": "更新所有擴充套件",
                         "update_major": "主要更新",
                         "update_minor": "小更新",
                         "why_not": "分析軟體包無法更新的原因"
@@ -146,7 +146,7 @@
                 "access_warning": "請小心您授予管理區域存取權限的人員，擴充管理員可能會被不良行為者濫用來安裝可能導致安全漏洞的軟體包。",
                 "debug_mode_warning": "您正在調試模式下運行，擴充功能管理器無法正確安裝和更新本機開發套件。 為此，請改用命令列介面。",
                 "queue_jobs": "在後台佇列中運行操作",
-                "queue_jobs_help": "您可以閱讀<a href='{basic_impl_link}'>基本佇列</a>實作或<a href='{adv_impl_link}'>高級設置</a>實作。 確保用於佇列的 PHP 版本是 {php_version}。 確保<a href='{folder_perms_link}'>資料夾權限</a>配置正確。\n",
+                "queue_jobs_help": "您可以閱讀<a href='{basic_impl_link}'>基本佇列</a>實作或<a href='{adv_impl_link}'>進階設置</a>實作。 確保用於佇列的 PHP 版本是 {php_version}。 確保<a href='{folder_perms_link}'>資料夾權限</a>配置正確。\n",
                 "task_retention_days": "任務保留天數",
                 "task_retention_days_help": "在資料庫中保留已完成任務的天數。 早於此的任務將被刪除。 設定為 0 以保留所有任務。\n"
             },
