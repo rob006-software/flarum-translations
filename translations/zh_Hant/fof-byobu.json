@@ -92,7 +92,7 @@
                 "view_private_discussions-when-flagged": "若有旗標則允許查看其他人的私密貼文"
             },
             "settings": {
-                "badge-icon": "Byobu 主題貼徽章",
+                "badge-icon": "Byobu 主題徽章",
                 "enable-make-public-option": "啟用「私密轉公開」功能",
                 "enable-make-public-option-help": "轉公開時，所有參與者自動退出私密主題，私密主題轉為普通公開主題。",
                 "post-event-icon": "Byobu 發帖事件",
@@ -112,7 +112,7 @@
             "body": {
                 "private_discussion_created": "{recipient_display_name}，你好！\n\n{actor_display_name} 與您創建了一個私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{discussion_url}\n\n您需要登入方可訪問連結。\n",
                 "private_discussion_replied": "{recipient_display_name}，你好！\n\n{actor_display_name} 發表新內容於您參與的私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{post_url}\n\n您需要登入方可訪問連結。\n",
-                "recipient_removed": "{recipient_display_name}，你好！\n\n{actor_display_name} 離開了您參與的私密主題《{discussion_title}》，他們將無法再查看此主題的任何內容。\n\n點此查看主題貼：\n{discussion_url}\n\n您需要登入方可訪問連結。\n",
+                "recipient_removed": "{recipient_display_name}，你好！\n\n{actor_display_name} 離開了您參與的私密主題《{discussion_title}》，他們將無法再查看此主題的任何內容。\n\n點此查看主題：\n{discussion_url}\n\n您需要登入方可訪問連結。\n",
                 "private_discussion_added": "{recipient_display_name}，你好！\n\n{actor_display_name} 將您加入私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{discussion_url}\n\n您需要登入方可訪問連結。\n"
             }
         }
