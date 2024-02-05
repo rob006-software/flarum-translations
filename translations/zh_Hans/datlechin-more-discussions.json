@@ -6,8 +6,8 @@
                 "block_name_help": "主题列表的标题（默认 <code>最新主题</code>)）",
                 "discussion_limit_label": "主题数量上限",
                 "discussion_limit_help": "列表主题帖数量（默认 <code>5</code>）",
-                "discussion_related_label": "",
-                "discussion_related_help": "",
+                "discussion_related_label": "相关结果",
+                "discussion_related_help": "通过讨论标题搜索相关结果。<b>警告：</b>这个可能对你的站点性能产生巨大影响，尤其是大型站点。要解决这个可以将此选项与 <b>clarkwinkelmann/flarum-ext-scout</b> 扩展结合使用。",
                 "filter_by_label": "排序方式",
                 "filter_by_help": "列表排序方式（默认 <code>最新回复</code>）",
                 "filter_dropdown": {
