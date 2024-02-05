@@ -7,11 +7,11 @@
             },
             "enable_short_references": {
                 "label": "啟用簡短參考",
-                "help": "將訊息中的#<ID>文本（例如#42）轉換為相應討論的鏈接。"
+                "help": "將訊息中的#<ID>文本（例如#42）轉換為相應討論的連結。"
             },
             "retrofit_links_in_frontend": {
                 "label": "於前端變更連結",
-                "help": "<p>在未啟用此擴展程序時，在發送的消息中顯示討論鏈接的標題。這是在前端完成的，因此可能會導致糟糕的用戶體驗。</p>\n<p><strong>已棄用</strong>（將在 <code>v1.2.0</code> 中移除）請考慮使用 <code>club-1/flarum-ext-chore-commands 的 <code>chore:reparse</code> 命令 </code>。 請參閱：<code>https://github.com/club-1/flarum-ext-chore-commands</code></p>\n"
+                "help": "<p>在未啟用此擴充套件時，在發送的消息中顯示討論連結的標題。這是在前端完成的，因此可能會導致糟糕的用戶體驗。</p>\n<p><strong>已棄用</strong>（將在 <code>v1.2.0</code> 中移除）請考慮使用 <code>club-1/flarum-ext-chore-commands 的 <code>chore:reparse</code> 命令 </code>。 請參閱：<code>https://github.com/club-1/flarum-ext-chore-commands</code></p>\n"
             }
         },
         "forum": {
