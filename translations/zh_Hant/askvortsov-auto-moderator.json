@@ -2,26 +2,26 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "激活郵箱",
+                "activate_email": "啟用郵箱",
                 "add_to_group": "添加用戶組",
                 "remove_from_group": "移除用戶組",
-                "suspend": "封禁",
-                "unsuspend": "解除封禁"
+                "suspend": "封鎖",
+                "unsuspend": "解除封鎖"
             },
             "metric_drivers": {
                 "discussions_entered": "瀏覽主題帖",
                 "discussions_participated": "參與主題",
                 "discussions_started": "發布主題",
                 "posts_made": "發帖",
-                "likes_given": "點贊",
-                "likes_received": "獲贊",
+                "likes_given": "按讚",
+                "likes_received": "獲讚",
                 "best_answers": "最佳答案",
                 "moderator_strikes": "版主警告記分"
             },
             "requirement_drivers": {
                 "email_confirmed": "郵箱已驗證",
                 "in_group": "位於用戶組",
-                "suspended": "被封禁",
+                "suspended": "被封鎖",
                 "email_matches_regex": "郵箱地址匹配正則"
             },
             "in_group_settings": {
@@ -31,12 +31,12 @@
                 "placeholder": "請選擇用戶組"
             },
             "suspend_selector": {
-                "days": "封禁天數",
+                "days": "封鎖天數",
                 "indefinitely": "無期徒刑？"
             },
             "criterion_status": {
-                "heading": "當前狀態",
-                "invalid": "當前評判標準無效，請檢查下方出錯的條件。",
+                "heading": "目前狀態",
+                "invalid": "目前評判標準無效，請檢查下方出錯的條件。",
                 "no_actions": "尚未指定行為動作。當用戶滿族或不再滿足評判標準時，將無事發生。",
                 "no_metrics_or_reqs": "尚未設定任何指標或附加要求。這意味著所有用戶都滿足此評判標準。",
                 "valid": "評判標準有效！",
@@ -47,7 +47,7 @@
                 "driver_missing_ext": "此驅動的依賴擴展未啟用。",
                 "back": "返回評判標準列表",
                 "name_label": "標準名稱",
-                "icon_label": "圖標",
+                "icon_label": "圖示",
                 "description_label": "描述",
                 "new_criterion": "創建評判標準",
                 "negated": "否？",
@@ -74,7 +74,7 @@
             },
             "automoderator_instructions": {
                 "header": "使用說明",
-                "text": "<li>太長不看：用戶滿足 X 條件時，執行 Y。用戶不再滿足 X 條件時，執行 Z。 </li>\n<li><strong>評判標準：</strong>此擴展的核心思想。評判標準是多個判定指標和附加要求的集合。當一個用戶滿足或不滿足一個標準時，執行相應的動作。 </li>\n<ul>\n  <li><strong>判定指標：</strong>一個數值範圍。例如，發帖數量或獲贊數量。你可以設置指標為一個區間值/上限/下限值。 </li>\n  <li><strong>附加要求：</strong>一個布爾條件。例如，是否被封禁、郵箱是否成功匹配正則表達式。 </li>\n</ul>\n<li><strong>行為動作：</strong>當滿足或不再滿足評判標準時自動發生的事情。例如，移入/移出用戶組、發送電子郵件、封禁用戶等。 </li>\n<li><strong>觸發器：</strong>導致開始評判用戶標準的事件，是判定指標和附加要求定義的一部分。如「通用觸發器」，用戶登錄時會觸發評判用戶是否滿足標準。 </li>\n<li>「不滿足動作」永遠執行在「達成動作」之前。只要用戶滿足至少一個評判標準，就會執行相應的動作。 </li>\n<li>❗行為動作只會在 「不滿足」和「達成」時執行。當用戶滿足標準時，手動編輯將不會觸發執行「達成動作」。 </li>\n<li>❗刪除一個評判標準，不會執行該標準的「不滿足動作」。 </li>\n<li>❗使用評判標準來管理用戶組時，強烈建議您另建用戶組，不要和平常的用戶組共用。因為由此擴展管理的用戶組，不允許手動移入/移出用戶的。 </li>\n"
+                "text": "<li>太長不看：用戶滿足 X 條件時，執行 Y。用戶不再滿足 X 條件時，執行 Z。 </li>\n<li><strong>評判標準：</strong>此擴展的核心思想。評判標準是多個判定指標和附加要求的集合。當一個用戶滿足或不滿足一個標準時，執行相應的動作。 </li>\n<ul>\n  <li><strong>判定指標：</strong>一個數值範圍。例如，發帖數量或獲讚數量。你可以設置指標為一個區間值/上限/下限值。 </li>\n  <li><strong>附加要求：</strong>一個布爾條件。例如，是否被封鎖、郵箱是否成功匹配正則表達式。 </li>\n</ul>\n<li><strong>行為動作：</strong>當滿足或不再滿足評判標準時自動發生的事情。例如，移入/移出用戶組、發送電子郵件、封鎖用戶等。 </li>\n<li><strong>觸發器：</strong>導致開始評判用戶標準的事件，是判定指標和附加要求定義的一部分。如「通用觸發器」，用戶登入時會觸發評判用戶是否滿足標準。 </li>\n<li>「不滿足動作」永遠執行在「達成動作」之前。只要用戶滿足至少一個評判標準，就會執行相應的動作。 </li>\n<li>❗行為動作只會在 「不滿足」和「達成」時執行。當用戶滿足標準時，手動編輯將不會觸發執行「達成動作」。 </li>\n<li>❗刪除一個評判標準，不會執行該標準的「不滿足動作」。 </li>\n<li>❗使用評判標準來管理用戶組時，強烈建議您另建用戶組，不要和平常的用戶組共用。因為由此擴展管理的用戶組，不允許手動移入/移出用戶的。 </li>\n"
             }
         },
         "lib": {
