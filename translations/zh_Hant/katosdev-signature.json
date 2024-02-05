@@ -3,7 +3,7 @@
         "forum": {
             "buttons": {
                 "signature": "簽名",
-                "save": "保存",
+                "save": "儲存",
                 "edit": "編輯簽名"
             },
             "errors": {
@@ -34,12 +34,12 @@
             "settings": {
                 "maximum_image_count": {
                     "description": "最大圖片數量.",
-                    "help": "當使用者超過其簽名中的最大圖像計數時，將阻止他們保存，直到圖像計數相應為止。",
+                    "help": "當使用者超過其簽名中的最大圖像計數時，將阻止他們儲存，直到圖像計數相應為止。",
                     "placeholder": "5 (默認)"
                 },
                 "maximum_char_limit": {
                     "description": "最大簽名字符數量。",
-                    "help": "當使用者超過其簽名中的最大字元數限制時，將阻止他們保存，直到字元數相應為止。",
+                    "help": "當使用者超過其簽名中的最大字元數限制時，將阻止他們儲存，直到字元數相應為止。",
                     "placeholder": "1000 (默認)"
                 },
                 "allow_inline_editing": {
