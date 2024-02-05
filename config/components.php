@@ -185,7 +185,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-clippy/1.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-collapsible-posts' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-collapsible-posts/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-collapsible-posts/1.0.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-colorful-borders' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-colorful-borders/1.0.0/resources/locale/en.yml',
