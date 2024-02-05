@@ -8,8 +8,8 @@
             },
             "album-list": {
                 "title": "=> kilowhat-cimaise.ref.albums",
-                "new": "創建新相冊",
-                "empty": "沒有相冊",
+                "new": "創建新相簿",
+                "empty": "沒有相簿",
                 "loading": "=> kilowhat-cimaise.ref.loading",
                 "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
@@ -23,13 +23,13 @@
                 "upload": "上傳相片",
                 "empty": "沒有相片",
                 "loading": "=> kilowhat-cimaise.ref.loading",
-                "personal": "<a>{username}</a>的個人相冊",
-                "community": "論壇相冊",
+                "personal": "<a>{username}</a>的個人相簿",
+                "community": "論壇相簿",
                 "discussion": "前往討論"
             },
             "picture-show": {
                 "loading": "=> kilowhat-cimaise.ref.loading",
-                "back-album": "返回相冊",
+                "back-album": "返回相簿",
                 "download": "下載",
                 "previous": "上一張圖片",
                 "next": "下一張圖片",
@@ -40,7 +40,7 @@
                 "published-at": "{ago}前發佈"
             },
             "upload-modal": {
-                "title": "上傳相冊“{title}”中的圖片",
+                "title": "上傳相簿“{title}”中的圖片",
                 "titleInComposer": "編輯圖片",
                 "uploading": "上傳中",
                 "processing": "處理中",
@@ -52,13 +52,13 @@
                 "reload": "重新載入草稿列表"
             },
             "new-album-modal": {
-                "title": "新相冊"
+                "title": "新相簿"
             },
             "edit-album-modal": {
                 "title": "編輯\"{title}\""
             },
             "attach-album-modal": {
-                "title": "將相冊附加到“{title}”",
+                "title": "將相簿附加到“{title}”",
                 "selected": "選擇：",
                 "none-selected": "無",
                 "search": "搜尋",
@@ -70,9 +70,9 @@
             "edit-album": {
                 "title": "標題",
                 "description": "詳情",
-                "isCommunity": "論壇相冊（開放空間）",
-                "create": "創建相冊",
-                "save": "儲存相冊"
+                "isCommunity": "論壇相簿（開放空間）",
+                "create": "創建相簿",
+                "save": "儲存相簿"
             },
             "edit-picture": {
                 "title": "標題",
@@ -84,7 +84,7 @@
                 "restore": "=> kilowhat-cimaise.ref.restore",
                 "hide": "=> kilowhat-cimaise.ref.hide",
                 "delete": "=> kilowhat-cimaise.ref.delete",
-                "delete-confirmation": "刪除相冊\"{title}\"?",
+                "delete-confirmation": "刪除相簿\"{title}\"?",
                 "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
@@ -125,7 +125,7 @@
                 "uploaded": "{username}上傳了{count}張照片"
             },
             "discussion-controls": {
-                "attach-album": "附加或分離相冊"
+                "attach-album": "附加或分離相簿"
             },
             "license-label": {
                 "not-specified": "未標註",
@@ -136,20 +136,20 @@
             "permissions": {
                 "view": "查看",
                 "viewExif": "查看 Exif 數據（包括地理位置）",
-                "createPersonalAlbums": "創建個人相冊",
-                "createCommunityAlbums": "創建論壇相冊",
-                "editOwnAlbum": "更改自己相冊的標題和描述",
-                "hideOwnAlbum": "隱藏個人相冊",
+                "createPersonalAlbums": "創建個人相簿",
+                "createCommunityAlbums": "創建論壇相簿",
+                "editOwnAlbum": "更改自己相簿的標題和描述",
+                "hideOwnAlbum": "隱藏個人相簿",
                 "uploadPictures": "上傳圖片",
-                "uploadPersonalPicturesWithoutApproval": "上傳個人相冊中未經批准的圖片",
-                "uploadCommunityPicturesWithoutApproval": "在論壇相冊中上傳未經批准的圖片",
+                "uploadPersonalPicturesWithoutApproval": "上傳個人相簿中未經批准的圖片",
+                "uploadCommunityPicturesWithoutApproval": "在論壇相簿中上傳未經批准的圖片",
                 "editOwnImage": "在自己的照片上使用圖像編輯器（裁剪、遮罩和貼紙）",
                 "editOwnPublishedImage": "發布後對自己的圖片使用圖像編輯器",
                 "licenseOwnPublishedPicture": "發布後更改自己圖片的許可證",
                 "renameOwnPublishedPicture": "發布後更改自己圖片的標題和描述",
                 "hideOwnPicture": "隱藏自己的照片",
                 "publishSilently": "靜默發布圖片（無需貼文）",
-                "attachCimaiseAlbum": "手動將相冊附加到討論",
+                "attachCimaiseAlbum": "手動將相簿附加到討論",
                 "moderate": "中等"
             },
             "settings": {
@@ -162,10 +162,10 @@
                     "topRight": "右上方",
                     "bottomRight": "右下方"
                 },
-                "autoCreateDiscussionAlbum": "為每個新討論自動創建相冊",
-                "autoCreateDiscussionAlbumHelp": "自動創建一個新相冊，標題與討論相同，作者與所有者相同。 此功能繞過相冊創建權限並適用於所有標籤。\n",
-                "neverSyncDiscussionAlbumTitles": "從不同步討論和相冊名稱",
-                "neverSyncDiscussionAlbumTitlesHelp": "預設情況下，與討論標題完全相同的相冊將在討論標題更改時重命名。 如果相冊被手動重命名，同步命名功能將失效。\n",
+                "autoCreateDiscussionAlbum": "為每個新討論自動創建相簿",
+                "autoCreateDiscussionAlbumHelp": "自動創建一個新相簿，標題與討論相同，作者與所有者相同。 此功能繞過相簿創建權限並適用於所有標籤。\n",
+                "neverSyncDiscussionAlbumTitles": "從不同步討論和相簿名稱",
+                "neverSyncDiscussionAlbumTitlesHelp": "預設情況下，與討論標題完全相同的相簿將在討論標題更改時重命名。 如果相簿被手動重命名，同步命名功能將失效。\n",
                 "columnTheme": "專欄主題",
                 "columnThemeHelp": "顯示圖片時使用側面板樣式而不是底部面板。",
                 "mapboxToken": "Mapbox Token",
@@ -201,9 +201,9 @@
             "post-edit": {
                 "cannotAttachToNonComment": "圖片不能手動附加到非評論貼文",
                 "cannotFindPicturesFromRelation": "無法在資料庫中找到所有請求的圖片",
-                "cannotAttachHasNoAlbum": "討論沒有附加相冊",
+                "cannotAttachHasNoAlbum": "討論沒有附加相簿",
                 "cannotAttachAlreadySubmitted": "無法附加圖片 {id}，因為它已經提交",
-                "cannotAttachFromExternalAlbum": "無法附加圖片 {id}，因為它屬於外部相冊",
+                "cannotAttachFromExternalAlbum": "無法附加圖片 {id}，因為它屬於外部相簿",
                 "cannotAttachUnauthorized": "無法附加圖片 {id}，因為它不屬於您"
             },
             "picture-edit": {
@@ -226,7 +226,7 @@
             }
         },
         "ref": {
-            "albums": "相冊",
+            "albums": "相簿",
             "pictures": "相片",
             "loading": "載入中…",
             "load-more": "載入更多",
