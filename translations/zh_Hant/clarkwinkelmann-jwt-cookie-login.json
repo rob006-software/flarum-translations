@@ -24,14 +24,14 @@
                 "hiddenIframe": "隱藏的 iframe 網址",
                 "hiddenIframeHelp": "這個 iframe 將在 Flarum 單頁應用程式的所有頁面上背景載入。它可用於定期重整 cookie，並可使用瀏覽器訊息傳遞來觸發頁面重整以實現自動登入或自動註銷。有關資訊，請參閱 README 檔案。\n",
                 "autoLoginDelay": "隱藏 iframe 的自動登入延遲（毫秒）",
-                "autoLoginDelayHelp": "如果隱藏的 iframe 返回登入狀態，在沒有用戶交互的情況下允許頁面刷新的秒數。超過該延遲後，用戶將收到一條警報，詢問他們是否要刷新頁面。\n",
+                "autoLoginDelayHelp": "如果隱藏的 iframe 返回登入狀態，在沒有用戶交互的情況下允許頁面重整的秒數。超過該延遲後，用戶將收到一條警報，詢問他們是否要重整頁面。\n",
                 "logoutRedirect": "註銷重定向 URL",
                 "logoutRedirectHelp": "在 JWT 無狀態會話期間，Flarum 註銷連結將被替換為指向此 URL 的連結。如果沒有設置值，註銷按鈕將被隱藏。\n"
             }
         },
         "forum": {
             "alert": {
-                "refresh": "刷新頁面",
+                "refresh": "重整頁面",
                 "login": "已自動連接。",
                 "logout": "您的登入資訊已過期。"
             }
