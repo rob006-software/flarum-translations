@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "舉報貼文",
-                "view_flags_label": "查看被舉報的貼文"
+                "flag_posts_label": "檢舉貼文",
+                "view_flags_label": "查看被檢舉的貼文"
             },
             "settings": {
-                "flag_own_posts_label": "允許使用者舉報自己的貼文",
+                "flag_own_posts_label": "允許使用者檢舉自己的貼文",
                 "guidelines_url_label": "論壇守則連結",
-                "title": "舉報設定"
+                "title": "檢舉設定"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "感謝舉報，管理員稍後會審閱此帖。",
+                "confirmation_message": "感謝您的檢舉，板主稍後將會進行確認。",
                 "dismiss_button": "=> core.ref.okay",
                 "reason_details_placeholder": "更多資訊（可選）",
                 "reason_inappropriate_label": "不雅",
-                "reason_inappropriate_text": "此帖包含攻擊性、侮辱性詞句或違反了<a>論壇守則</a>",
-                "reason_missing_message": "請為管理員提供更多資訊。",
+                "reason_inappropriate_text": "此貼文包含攻擊性、侮辱性詞彙或違反了<a>論壇守則</a>",
+                "reason_missing_message": "請為板主提供更多資訊。",
                 "reason_off_topic_label": "離題",
-                "reason_off_topic_text": "此帖與當前討論主題無關。",
+                "reason_off_topic_text": "此貼文與目前討論主題無關。",
                 "reason_other_label": "其他（請予以說明）",
-                "reason_spam_label": "垃圾",
-                "reason_spam_text": "這是廣告貼。",
-                "submit_button": "舉報貼文",
-                "title": "舉報貼文"
+                "reason_spam_label": "垃圾內容",
+                "reason_spam_text": "這是廣告文。",
+                "submit_button": "檢舉貼文",
+                "title": "檢舉貼文"
             },
             "flagged_posts": {
-                "empty_text": "無舉報",
+                "empty_text": "無檢舉",
                 "item_text": "{username} 在 <em>{discussion}</em>",
-                "title": "被舉報的貼文",
-                "tooltip": "被舉報的貼文"
+                "title": "被檢舉的貼文",
+                "tooltip": "被檢舉的貼文"
             },
             "post": {
-                "dismiss_flag_button": "撤銷舉報",
-                "flagged_by_text": "已被 {username} 舉報",
-                "flagged_by_with_reason_text": "因 {reason} 被 {username} 舉報"
+                "dismiss_flag_button": "撤銷檢舉",
+                "flagged_by_text": "已被 {username} 檢舉",
+                "flagged_by_with_reason_text": "因 {reason} 被 {username} 檢舉"
             },
             "post_controls": {
-                "flag_button": "舉報"
+                "flag_button": "檢舉"
             }
         },
         "ref": {
-            "flag_post": "舉報貼文",
-            "flagged_posts": "被舉報的貼文"
+            "flag_post": "檢舉貼文",
+            "flagged_posts": "被檢舉的貼文"
         }
     }
 }
