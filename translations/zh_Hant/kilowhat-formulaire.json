@@ -30,7 +30,7 @@
                 "style-options": {
                     "far-square": "FontAwesome 正方形圖示",
                     "fas-square": "FontAwesome 實心方形圖示",
-                    "far-circle": "FontAwesome 常規圓形圖示",
+                    "far-circle": "FontAwesome 一般圓形圖示",
                     "fas-circle": "FontAwesome 實心圓圈圖示",
                     "switch": "Flarum 開關",
                     "native": "本機瀏覽器控件"
@@ -192,7 +192,7 @@
             },
             "auto-discussion-options-modal": {
                 "title": "自動討論選項",
-                "introduction": "這些設置將應用於通過提交標籤連接表單自動創建的新討論。您可以使用帶有字段 slug 的大括號語法來使用表單提交中的值。預設情況下，將分別使用 { title } 和 { content }。\n",
+                "introduction": "這些設置將應用於透過提交標籤連接表單自動創建的新討論。您可以使用帶有字段 slug 的大括號語法來使用表單提交中的值。預設情況下，將分別使用 { title } 和 { content }。\n",
                 "submit": "驗證更改",
                 "field": {
                     "title": "文章標題",
@@ -230,12 +230,12 @@
                 "key": "（專家）提交負載中的 JSON 鍵",
                 "fill-permission": "（專家）填寫權限",
                 "required": "必填",
-                "rich": "富文本 (TextFormatter)",
+                "rich": "富文字 (TextFormatter)",
                 "min": "最小值",
                 "max": "最大值",
                 "integer": "整數",
                 "email": "郵箱",
-                "regex": "正則表達式",
+                "regex": "正規表示式",
                 "mime": "MIME 類型（逗號分隔，接受通配符作為第二部分）",
                 "other": "允許“其他”用戶值",
                 "duplicate": "重複字段",
