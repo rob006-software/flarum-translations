@@ -11,12 +11,12 @@
         "admin": {
             "settings": {
                 "allow_username_format_label": "允許@用戶名",
-                "allow_username_format_text": "用戶提及的當前格式是@\"顯示名稱\"#ID。\n此設置允許使用舊格式的@Username，但在保存時仍會轉換為新格式。\n"
+                "allow_username_format_text": "用戶提及的目前格式是@\"顯示名稱\"#ID。\n此設置允許使用舊格式的@Username，但在儲存時仍會轉換為新格式。\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "提及用戶或帖子",
+                "mention_tooltip": "提及用戶或貼文",
                 "reply_to_post_text": "回覆#{number}"
             },
             "notifications": {
@@ -34,7 +34,7 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "有人回覆了我",
-                "notify_user_mentioned_label": "有人在帖子中提到我"
+                "notify_user_mentioned_label": "有人在貼文中提到我"
             },
             "user": {
                 "mentions_link": "提到"
