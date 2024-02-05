@@ -3,7 +3,7 @@
         "admin": {
             "general": "常規",
             "custom_failure_message_label": "自定義提示信息",
-            "custom_failure_message_hint": "自定義郵箱地址不可用時的提示信息，留空使用默認信息。",
+            "custom_failure_message_hint": "自定義郵箱地址不可用時的提示信息，留空使用預設信息。",
             "rule_settings": "規則設置",
             "name_placeholder": "規則名",
             "invalid_regular_expression": "無效的正則式表達",
@@ -30,8 +30,8 @@
         },
         "forum": {
             "generic_exception": "出了點問題，請聯系論壇管理員。",
-            "blacklist_exception": "禁止使用此郵箱或域名注冊。",
-            "whitelist_exception": "禁止使用此郵箱或域名注冊。"
+            "blacklist_exception": "禁止使用此郵箱或域名註冊。",
+            "whitelist_exception": "禁止使用此郵箱或域名註冊。"
         }
     }
 }
