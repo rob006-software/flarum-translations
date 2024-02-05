@@ -2,7 +2,7 @@
     "nearata-dsts": {
         "admin": {
             "permissions": {
-                "can_bypass_like": "無需點讚即可查看首貼",
+                "can_bypass_like": "無需按讚即可查看首貼",
                 "can_bypass_reply": "無需回覆即可查看首貼",
                 "can_bypass_login": "無需登入",
                 "can_use_bbcode": "可以使用BBCode"
@@ -10,13 +10,13 @@
             "settings": {
                 "enabled": "啟用",
                 "hide_only_first_post": "僅隱藏第一篇文章",
-                "require_like": "需要點讚",
+                "require_like": "需要按讚",
                 "require_reply": "需要回覆",
                 "fof_upload": {
                     "enabled": "啟用",
                     "section_title": "FoF Upload",
                     "require_reply": "需要回覆",
-                    "require_like": "需要點讚",
+                    "require_like": "需要按讚",
                     "require_like_help": "需要 <strong>flarum/likes</strong> 擴展。"
                 },
                 "hide_only_first_post_help": "該選項被 BBCode 覆蓋。",
@@ -29,17 +29,17 @@
             "post": {
                 "login_tooltip": "登入以查看內容",
                 "reply_tooltip": "回覆以解鎖內容",
-                "like_tooltip": "點讚以解鎖內容",
+                "like_tooltip": "按讚以解鎖內容",
                 "fof_upload": {
                     "login_text": "登入以查看檔案",
                     "reply_text": "回覆主題以解鎖內容",
-                    "like_text": "點讚以查看檔案"
+                    "like_text": "按讚以查看檔案"
                 },
                 "bbcode": {
                     "hidden_content": "隱藏內容",
                     "login_text": "登入以查看內容",
                     "reply_text": "回覆主題以解鎖內容",
-                    "like_text": "點讚以解鎖內容"
+                    "like_text": "按讚以解鎖內容"
                 }
             },
             "composer": {
