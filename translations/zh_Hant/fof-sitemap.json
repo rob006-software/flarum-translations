@@ -7,19 +7,19 @@
                 "mode_label": "運行模式",
                 "mode_help": "根據您的論壇規模選擇正確的模式極為重要。",
                 "mode_help_runtime_label": "運行時模式",
-                "mode_help_runtime": "適用於小型論壇，比如在共享主機環境下，主題數、用戶數、標籤數和頁面數的總和小於 1 萬（最終生成的對應連結數小於 1 萬）。此模式下，站點地圖是在每次請求時即時生成的。",
+                "mode_help_runtime": "適用於小型論壇，比如在共享主機環境下，主題數、用戶數、標籤數和頁面數的總和小於 1 萬（最終生成的對應連結數小於 1 萬）。此模式下，網站地圖是在每次請求時即時生成的。",
                 "mode_help_schedule": "以下模式會將相應的計劃任務增加到 Flarum 調度器。",
                 "mode_help_schedule_setup": "如果沒有正確設置 Flarum Scheduler，以下模式將無法運行。 <a>點擊這裡</a>了解更多資訊。",
-                "mode_help_large": "技術限制，一個站點地圖文件最多含有 5 萬條連結。如果您有更多條目存儲的需求，請使用以下選項！",
-                "mode_help_multi_label": "多文件模式",
-                "mode_help_multi": "適用於大型論壇，最低有 5 萬條目。生成的多個壓縮站點地圖文件將會存儲在 /public 文件夾中",
-                "advanced_options_label": "高級選項",
-                "frequency_label": "Scheduler 多久重構一次緩存或磁盤站點地圖？",
+                "mode_help_large": "技術限制，一個網站地圖檔案最多含有 5 萬條連結。如果您有更多條目儲存的需求，請使用以下選項！",
+                "mode_help_multi_label": "多個檔案模式",
+                "mode_help_multi": "適用於大型論壇，最低有 1 萬條目。生成的多個壓縮網站地圖檔案將會儲存在 /public 資料夾中",
+                "advanced_options_label": "進階選項",
+                "frequency_label": "Scheduler 多久重構一次緩存或磁盤網站地圖？",
                 "risky_performance_improvements": "改善性能(風險)",
                 "risky_performance_improvements_help": "改善定時任務在數據量達到百萬行時的運行速度，可能不兼容某些擴充套件。",
                 "modes": {
                     "runtime": "運行時",
-                    "multi_file": "多文件"
+                    "multi_file": "多個檔案"
                 },
                 "frequency": {
                     "hourly": "每小時一次",
@@ -32,13 +32,13 @@
                     "user": {
                         "comments": {
                             "minimum_item_threshold_label": "用戶：評論/帖子的最少數量",
-                            "minimum_item_threshold_help": "要將用戶的個人資料包含在站點地圖中，用戶必須擁有的最少評論/帖子數。"
+                            "minimum_item_threshold_help": "要將用戶的個人資料包含在網站地圖中，用戶必須擁有的最少評論/帖子數。"
                         }
                     },
                     "tags": {
                         "discussion": {
                             "minimum_item_threshold_label": "標籤：最少討論數",
-                            "minimum_item_threshold_help": "標籤必須包含在站點地圖中的最小討論數。"
+                            "minimum_item_threshold_help": "標籤必須包含在網站地圖中的最小討論數。"
                         }
                     }
                 }
