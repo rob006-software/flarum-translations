@@ -5,19 +5,19 @@
                 "warning": {
                     "title": "過期內容",
                     "description": "此貼文已過期。",
-                    "error": "主題貼已過期。"
+                    "error": "主題已過期。"
                 }
             }
         },
         "admin": {
             "settings": {
                 "days_label": "時效",
-                "days_help": "距最新回覆日期超過一定天數，仍未收到回覆的主題貼會被標記為過期。輸入 <code>0</code> 禁用此功能。",
+                "days_help": "距最新回覆日期超過一定天數，仍未收到回覆的主題會被標記為過期。輸入 <code>0</code> 禁用此功能。",
                 "message_title_label": "自定義訊息標題",
                 "message_title_help": "使用插值 <code>[time]</code> 表示時間，如「已經無回覆 [time] 之久了」。",
                 "message_description_label": "自定義訊息說明",
                 "tags_title": "標籤",
-                "tags_help": "為每個標籤單獨設置判斷主題貼過期的天數，留空表示使用預設天數。如果一個主題增加了多個標籤，則取標籤中最短的天數作為判斷標準。"
+                "tags_help": "為每個標籤單獨設置判斷主題過期的天數，留空表示使用預設天數。如果一個主題增加了多個標籤，則取標籤中最短的天數作為判斷標準。"
             }
         }
     }
