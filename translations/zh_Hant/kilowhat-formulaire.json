@@ -3,7 +3,7 @@
         "admin": {
             "permissions": {
                 "heading": "方程式",
-                "heading-advanced": "Formulaire（第三方擴展選項）",
+                "heading-advanced": "Formulaire（第三方擴充套件選項）",
                 "fill": "=> kilowhat-formulaire.ref.permissions.fill",
                 "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
                 "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
@@ -23,7 +23,7 @@
             "settings": {
                 "title": "論譠全局設置",
                 "max-file-size": "最大檔案限制 (kB)",
-                "history-controls": "在提交頁面上顯示撤消/重做開關",
+                "history-controls": "在提交頁面上顯示撤銷/重做開關",
                 "side-nav-on-submission": "在提交頁面上顯示側面導航",
                 "checkbox-style": "複選框樣式",
                 "radio-style": "收音機樣式",
@@ -47,8 +47,8 @@
                     "discussionComposer": "討論作曲家"
                 },
                 "uniformComposerLayout": "統一的討論作曲家佈局",
-                "uniformComposerLayoutHelp": "更改標籤、標題和內容字段的樣式以與 Formulaire 相匹配。 此佈局將佔用更多空間，因此建議您安裝並啟用 <a>Composer Page</a> 擴展。\n",
-                "noByobuFields": "不要將討論字段與 Byobu 擴展的私人討論相結合",
+                "uniformComposerLayoutHelp": "更改標籤、標題和內容字段的樣式以與 Formulaire 相匹配。 此佈局將佔用更多空間，因此建議您安裝並啟用 <a>Composer Page</a> 擴充套件。\n",
+                "noByobuFields": "不要將討論字段與 Byobu 擴充套件的私人討論相結合",
                 "noByobuFieldsHelp": "預設情況下，非標籤範圍的討論字段將應用於所有討論，包括私人討論。"
             }
         },
@@ -159,7 +159,7 @@
                     "title": "公開標題",
                     "show-on-creation": {
                         "discussion": "在討論編輯器顯示",
-                        "discussionHelp": "Flarum 討論編輯器不適合包含很多字段。 您應該安裝並啟用 <a>Composer Page</a> 擴展，以確保所有字段在所有設備上都可以訪問。\n",
+                        "discussionHelp": "Flarum 討論編輯器不適合包含很多字段。 您應該安裝並啟用 <a>Composer Page</a> 擴充套件，以確保所有字段在所有設備上都可以訪問。\n",
                         "user": "於註冊時顯示"
                     },
                     "automatic-discussion": "從表單提交自動創建討論",
@@ -391,8 +391,8 @@
             "unauthorized-form": "您沒有必要的權限來填寫表單 ID {id}",
             "unauthorized-scoped-form": "您不能使用目前標籤組合填寫表單 ID {id}",
             "unsupported-discussion-form": "您無法在此類討論中填寫表單 ID {id}",
-            "file-already-belongs-form": "文件 {id} 屬於另一個表單",
-            "file-already-belongs-submission": "文件 {id} 屬於另一個提交",
+            "file-already-belongs-form": "檔案 {id} 屬於另一個表單",
+            "file-already-belongs-submission": "檔案 {id} 屬於另一個提交",
             "export": {
                 "meta": {
                     "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
