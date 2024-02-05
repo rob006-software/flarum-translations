@@ -9,7 +9,7 @@
             "serve_stale_label": "Serve Stale 緩服務",
             "serve_stale_help": "啟用後，在新緩存副本可用前，系統將使用舊緩存頁面響應給用戶，以減小後續訪問產生的伺服器負載。如果關閉此項，頁面將在訪客等待期間動態生成。根據 Serve Stale 的設計，此功能可能會響應陳舊的內容給用戶，你可以選擇關閉它。",
             "purge_on_discussion_update_label": "主題或貼文更新時清除 URL 或標籤緩存",
-            "purge_on_discussion_update_help": "每行指定一個 URL 或標籤。URL 應以 <code>/</code> 開頭，例如 <code>/rankings</code>，緩存標籤應以 <code>tag=</code> 開頭，例如 <code>tag=rankings</code>。此擴展將給每個路由打上標籤。如果您需要清除多個路由，請在 .htaccess 中添加規則，使用正規表示式標記路由。<a>了解更多</a>。預設情況下，主頁和有更新的討論的緩存都會被清除。",
+            "purge_on_discussion_update_help": "每行指定一個 URL 或標籤。URL 應以 <code>/</code> 開頭，例如 <code>/rankings</code>，緩存標籤應以 <code>tag=</code> 開頭，例如 <code>tag=rankings</code>。此擴展將給每個路由打上標籤。如果您需要清除多個路由，請在 .htaccess 中增加規則，使用正規表示式標記路由。<a>了解更多</a>。預設情況下，主頁和有更新的討論的緩存都會被清除。",
             "cache_exclude_label": "禁用路徑緩存",
             "cache_exclude_help": "一行一個關鍵詞，匹配的路徑將不會被緩存。如不想緩存 <code>/mypath/mypage?aa=bb</code>，可以使用 <code>mypage?aa=</code> 匹配。要匹配字符串開頭，請以 <code>^</code> 作為前綴。要進行完全匹配，請以 <code>$</code> 作為 URL 後綴。",
             "drop_qs_label": "刪除查詢字符串",
