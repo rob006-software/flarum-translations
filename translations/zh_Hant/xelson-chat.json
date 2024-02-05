@@ -132,7 +132,7 @@
                             "created": "{creatorname} 創建頻道 {chatname}"
                         },
                         "title": {
-                            "edited": "{editorname} 將聊天 {old} 重命名為 {new}"
+                            "edited": "{editorname} 將聊天 {old} 重新命名為 {new}"
                         },
                         "icon": {
                             "edited": "{editorname} 將聊天圖示 {old} 修改為 {new}"
@@ -154,7 +154,7 @@
             },
             "errors": {
                 "unauthenticated": "此聊天僅限註冊用戶加入",
-                "chatdenied": "你的用戶組無權限發送消息",
+                "chatdenied": "你的群組無權限發送消息",
                 "removed": "你被移出聊天"
             }
         },
