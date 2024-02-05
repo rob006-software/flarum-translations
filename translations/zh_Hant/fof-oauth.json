@@ -9,9 +9,9 @@
                     "log-oauth-errors-label": "記錄 OAuth 錯誤",
                     "log-oauth-errors-help": "如果啟用，OAuth 錯誤將記錄到 Flarum 日誌中。 這可能有助於調試 OAuth 問題，但也可能包含敏感資訊。"
                 },
-                "only_icons_label": "僅顯示登錄按鈕圖標（可選佈置）",
+                "only_icons_label": "僅顯示登入按鈕圖示（可選佈置）",
                 "update_email_from_provider_label": "更新提供商的電子郵件地址",
-                "update_email_from_provider_help": "如果啟用，用戶的電子郵件地址將更新以匹配 OAuth 提供商在每次登錄論壇時提供的地址。 並非所有提供商都提供更新的電子郵件，在這種情況下，此設置不會對這些提供商產生任何影響。",
+                "update_email_from_provider_help": "如果啟用，用戶的電子郵件地址將更新以匹配 OAuth 提供商在每次登入論壇時提供的地址。 並非所有提供商都提供更新的電子郵件，在這種情況下，此設置不會對這些提供商產生任何影響。",
                 "fullscreen_popup_label": "全螢幕提示視窗",
                 "fullscreen_popup_help": "啟用後，OAuth 登入將在全螢幕彈出視窗中開啟。 如果啟用此功能，寬度和高度設定將被忽略。",
                 "popup_width_label": "OAuth 提示框寬度",
@@ -62,7 +62,7 @@
         },
         "forum": {
             "log_in": {
-                "with_button": "{provider} 帳號登錄",
+                "with_button": "{provider} 帳號登入",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_github_button": "=> fof-oauth.forum.log_in.with_button",
@@ -74,13 +74,13 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "第三方登錄",
+                        "label": "第三方登入",
                         "last-used-label": "上次使用",
                         "link-created-label": "已綁定",
-                        "orphaned-account": "您以前已通過此賬號登錄，但是目前論壇已關閉此登錄方式。",
-                        "help": "綁定第三方帳戶，啟用登錄捷徑。",
+                        "orphaned-account": "您以前已通過此帳號登入，但是目前論壇已關閉此登入方式。",
+                        "help": "綁定第三方帳戶，啟用登入捷徑。",
                         "identifier-label": "{provider} ID",
-                        "unlink-confirm": "確定要解除綁定 {provider} 賬號嗎？您將無法使用此賬號登錄。"
+                        "unlink-confirm": "確定要解除綁定 {provider} 帳號嗎？您將無法使用此帳號登入。"
                     }
                 }
             },
