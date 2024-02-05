@@ -30,9 +30,9 @@
             },
             "pay-to-view": {
                 "purchase-control": "付費觀看",
-                "purchase-log-in": "登錄並付費瀏覽",
+                "purchase-log-in": "登入並付費瀏覽",
                 "purchase-completed": "解鎖",
-                "description": "帖子被鎖定在付費專區，您可以通過我們的支付提供商 Stripe 完成支付來解鎖它們。\n"
+                "description": "貼文被鎖定在付費專區，您可以通過我們的支付提供商 Stripe 完成支付來解鎖它們。\n"
             },
             "pay-to-post": {
                 "purchase-control": "付費發佈",
@@ -42,7 +42,7 @@
             "pay-to-bump": {
                 "description": "{count, plural, one {This discussion was bumped} other {{count} people bumped this discussion}}.",
                 "purchase-control": "快捷支付",
-                "purchase-log-in": "登錄並快捷支付"
+                "purchase-log-in": "登入並快捷支付"
             },
             "bounties": {
                 "purchase-control": "添加賞金",
@@ -85,11 +85,11 @@
         "admin": {
             "edit-tag": {
                 "select-ptp-product": "收費計劃（PTP 付費發表）",
-                "select-ptp-product-description": "為標籤選擇收費計劃，標籤下主題帖的發表將需要支付相應的費用。按帖子收費，可適用於廣告貼。前往 Stripe 儀錶板創建「一次性」付費計劃，並將 <code>prod_</code> 開頭的ID粘貼到這裡。\n",
+                "select-ptp-product-description": "為標籤選擇收費計劃，標籤下主題帖的發表將需要支付相應的費用。按貼文收費，可適用於廣告貼。前往 Stripe 儀錶板創建「一次性」付費計劃，並將 <code>prod_</code> 開頭的ID粘貼到這裡。\n",
                 "select-ptv-product": "收費計劃（PTV 付費流覽）",
-                "select-ptv-product-description": "選擇一個收費計劃，以永久解鎖限界帖子的瀏覽許可權。前往 Stripe 儀錶板創建付費計劃，並將 <code>prod_</code>開頭的ID粘貼到這裡。\n",
+                "select-ptv-product-description": "選擇一個收費計劃，以永久解鎖限界貼文的瀏覽許可權。前往 Stripe 儀錶板創建付費計劃，並將 <code>prod_</code>開頭的ID粘貼到這裡。\n",
                 "visible-from": "隱藏限界",
-                "visible-from-description": "指定付費才能解鎖的帖子。0 表示所有帖子，1 表示首貼后的帖子。\n",
+                "visible-from-description": "指定付費才能解鎖的貼文。0 表示所有貼文，1 表示首貼後的貼文。\n",
                 "select-ptb-product": "（PTB）所需產品",
                 "select-ptb-product-description": "選擇產品需要支付該產品的費用，然後才能進行討論。\n",
                 "bump-others": "（PTB）允許其他人討論",
