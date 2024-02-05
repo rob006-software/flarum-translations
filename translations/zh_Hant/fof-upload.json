@@ -32,12 +32,12 @@
                 "download_templates": "下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：\n",
                 "mime_types": "請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上載接口處理。\n",
                 "resize": "您可以選擇是否在上載圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例。\n",
-                "client_extension": "默認情況下，上傳器將根據 MIME 類型選擇一個安全的文件擴展名。\n對於某些基於 ZIP 或二進制數據的文件類型，這可能導致使用不正確的通用擴展名。\n在這裡，您可以輸入一個逗號分隔的文件擴展名列表，該列表將被逐字保留。\n",
+                "client_extension": "預設情況下，上傳器將根據 MIME 類型選擇一個安全的文件擴展名。\n對於某些基於 ZIP 或二進制數據的文件類型，這可能導致使用不正確的通用擴展名。\n在這裡，您可以輸入一個逗號分隔的文件擴展名列表，該列表將被逐字保留。\n",
                 "watermark": "在圖片上載時新增水印，僅支援非 gif 圖片。\n",
                 "s3_compatible_storage": "僅在使用 S3 兼容存儲時才需要以下設置。 如果您使用 AWS，您可以將它們留空。\n",
-                "s3_acl": "應用於上傳對象的 ACL（默認：私有）。 有關可能的值，請參閱 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl": "應用於上傳對象的 ACL（預設：私有）。 有關可能的值，請參閱 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "s3_instance_profile": "公鑰和秘鑰留空時，可為實例單獨配置。\n",
-                "composer_buttons": "默認情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n"
+                "composer_buttons": "預設情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n"
             },
             "labels": {
                 "aws-s3": {
@@ -78,7 +78,7 @@
                     "max_file_size": "最大檔案大小 (單位 KB)",
                     "mime_types": "設定 MIME 類型以及上載接口",
                     "title": "偏好設定",
-                    "php_ini_values": "當前服務器 <code>php.ini</code> 配置上限為 <code>post_max_size={post}</code>，<code>upload_max_filesize={upload}</code>。請確保上方設置的值小於上限，否則請提高上限。若您使用 <code>Nginx</code> 服務器，請確保 <code>client_max_body_size</code> 高於當前設置的值。"
+                    "php_ini_values": "目前伺服器 <code>php.ini</code> 配置上限為 <code>post_max_size={post}</code>，<code>upload_max_filesize={upload}</code>。請確保上方設置的值小於上限，否則請提高上限。若您使用 <code>Nginx</code> 伺服器，請確保 <code>client_max_body_size</code> 高於目前設置的值。"
                 },
                 "resize": {
                     "max_width": "最大圖片寬度",
@@ -120,11 +120,11 @@
                 "image-preview": "完整圖片預覽模板",
                 "image-preview_description": "於行內顯示完整圖片。不支援下載、統計及熱鏈保護。\n",
                 "markdown-image": "Markdown 圖片預覽模板",
-                "markdown-image_description": "使用 Markdown 格式在行內完整顯示圖片。<strong>此模板依賴於 flarum/markdown 擴展程序。</strong>無下載、統計和熱鏈保護功能。\n",
+                "markdown-image_description": "使用 Markdown 格式在行內完整顯示圖片。<strong>此模板依賴於 flarum/markdown 擴充套件。</strong>無下載、統計和熱鏈保護功能。\n",
                 "bbcode-image": "BBCode 圖片預覽模板",
-                "bbcode-image_description": "使用 BBCode 在行內完整顯示圖片。<strong>此模板依賴於 flarum/bbcode 擴展程序。</strong>無下載、統計和熱鏈保護功能。\n",
-                "just-url": "僅鏈接",
-                "just-url_description": "僅插入 URL。渲染可以由具有自動鏈接功能的其他插件處理。沒有下載功能，沒有統計功能，且沒有熱鏈保護。\n",
+                "bbcode-image_description": "使用 BBCode 在行內完整顯示圖片。<strong>此模板依賴於 flarum/bbcode 擴充套件。</strong>無下載、統計和熱鏈保護功能。\n",
+                "just-url": "僅連結",
+                "just-url_description": "僅插入 URL。渲染可以由具有自動連結功能的其他插件處理。沒有下載功能，沒有統計功能，且沒有熱鏈保護。\n",
                 "text-preview": "本文預覽",
                 "text-preview_description": "顯示本文的前 5 行預覽，附帶展開全文按鈕。\n"
             },
@@ -137,15 +137,15 @@
             },
             "inspect-mime": {
                 "title": "檢查 MIME",
-                "description": "由於 PHP Fileinfo 擴展在不同服務器上返回的文件類型會有所不同，因此 FoF Upload 僅將其作為備用選項。\n一般情況下，均使用 <a>PHP Mime Detector</a> 庫檢測 MIME 類型。\n",
-                "select": "選擇一個文件，並檢測類型。您選擇的文件不會被保存。",
+                "description": "由於 PHP Fileinfo 擴展在不同伺服器上返回的文件類型會有所不同，因此 FoF Upload 僅將其作為備用選項。\n一般情況下，均使用 <a>PHP Mime Detector</a> 庫檢測 MIME 類型。\n",
+                "select": "選擇一個文件，並檢測類型。您選擇的文件不會被儲存。",
                 "laravel-validation": "Laravel 文件驗證消息",
                 "no-file-selected": "請選擇文件",
                 "validation-passed": "通過",
                 "validation-failed": "失敗：{error}",
                 "mime-detector": "Mime 檢測器（主）",
                 "mime-fileinfo": "PHP Fileinfo（備）",
-                "guessed-extension": "默認文件擴展名",
+                "guessed-extension": "預設文件擴展名",
                 "not-available": "暫無結果"
             }
         },
@@ -171,7 +171,7 @@
             "text_preview": {
                 "expand": "展開全文",
                 "collapse": "收起全文",
-                "error": "文件預覽無法加載。此文件可能已被刪除，或文件 ID已失效。\n",
+                "error": "文件預覽無法載入。此文件可能已被刪除，或文件 ID已失效。\n",
                 "no_snippet_preview": "<本文的預覽將會在此處展示>",
                 "no_snippet": "<暫無可用的預覽代碼片段>"
             },
