@@ -2,7 +2,7 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "introduction": "根據 <a>StopForumSpam</a> 資料庫檢查新用戶。如果<code>寬容度</code>超標或 <code>信譽分</code>不達標，則該用戶無法完成註冊。\n\n支援 <code>fof/oauth</code> 和 <code>fof/passport</code> 的 SSO 擴充套件。其他的 SSO 提供程序應該也支援，但尚未測試過。\n",
+                "introduction": "根據 <a>StopForumSpam</a> 資料庫檢查新用戶。如果<code>寬容度</code>超標或 <code>信譽分</code>不達標，則該用戶無法完成註冊。\n\n支援 <code>fof/oauth</code> 和 <code>fof/passport</code> 的 SSO 擴充套件。其他的 SSO 提供程式應該也支援，但尚未測試過。\n",
                 "username_label": "使用者名稱檢查",
                 "ip_label": "IP 地址檢查",
                 "email_label": "郵箱地址檢查",
