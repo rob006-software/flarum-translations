@@ -3,37 +3,37 @@
         "admin": {
             "settings": {
                 "return_key": "返回鍵發送訊息",
-                "title": ""
+                "title": "耳語設定"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "開始私人對話"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "對話"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "傳訊息",
+                "help": "開始輸入使用者名稱來開始聊天。",
+                "help_start": "發送訊息至{username}。",
+                "search_recipients": "輸入使用者名稱...",
+                "submit": "發送",
+                "copied": "您的訊息已複製到剪貼簿。",
+                "more_users": "如果您沒有看到您要尋找的用戶，則他們沒有私人訊息設定。",
+                "already": "您已經與 {username} 進行了對話。"
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "send_success": ""
+                "messages_single": "新的對話",
+                "messages_multiple": "總共 {count} 訊息",
+                "chat_with": "發送訊息",
+                "start": "開始對話",
+                "start_of_conversation": "對話開始",
+                "read": "讀取",
+                "cant_start": "無法開始對話",
+                "text_placeholder": "輸入您的訊息",
+                "send": "發送訊息",
+                "send_success": "訊息發送成功"
             }
         }
     }
