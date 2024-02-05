@@ -39,7 +39,7 @@
                     "user_max_subscriptions_text": "每個用戶一次應該有多少個推送訂閱？ 當用戶收到推送通知時，每個訂閱都會導致一次的 API 調用。 每個訂閱對應於用戶使用過的瀏覽器。"
                 },
                 "heading": "PWA 設定",
-                "text": "將您的 Flarum 論壇配置為 PWA！請注意，這不會將您的站點提交到應用程式商店，而是增加一個「新增至主螢幕」的選項。",
+                "text": "將您的 Flarum 論壇配置為 PWA！請注意，這不會將您的網站提交到應用程式商店，而是增加一個「新增至主螢幕」的選項。",
                 "status_check_heading": "狀態檢查",
                 "logo_heading": "標誌及圖示",
                 "logo_text": "您至少需要上傳一個標誌以安裝 PWA。請注意全部標誌都必須是正方形，如果不是請裁切調整。\n\n可用大小如下，強烈建議上傳多種尺寸：這將可以適配更多裝置。\n\n請注意您可以為較小的標誌上傳一張較大的圖片，比如您可以為所有大小上傳 1000x1000px 的圖片，但如果您想要上傳 50x50px 的圖片作為 512x512px 大小的標誌，圖片將被拉伸。\n",
@@ -49,12 +49,12 @@
             },
             "status": {
                 "config_no_https": "config.php 檔中的連結未使用 HTTPS。PWA 必須使用 HTTPS。",
-                "possible_https_disabled": "您的站點可能未運行於 HTTPS 上，如果是 HTTPS，請忽略；如果不是，請啟用 HTTPS，PWA 必須使用 HTTPS。",
+                "possible_https_disabled": "您的網站可能未運行於 HTTPS 上，如果是 HTTPS，請忽略；如果不是，請啟用 HTTPS，PWA 必須使用 HTTPS。",
                 "no_logo": "您至少需要上傳一個標誌(>144x144)。",
                 "no_name": "您必須提供全名。",
                 "no_vapid_keys": "VAPID 密鑰缺失，發送推送通知需要此秘鑰。請在下方重置 VAPID 密鑰。",
                 "key_gen_failed": "推送通知所需的密鑰生成失敗。錯誤資訊：{error}",
-                "suggest_gmp": "你的伺服器似乎沒有啟用 gmp PHP 擴展。此擴展非必需，但可提高應用性能，建議使用。不過有些共享主機可能不支持安裝。",
+                "suggest_gmp": "你的伺服器似乎沒有啟用 gmp PHP 擴充套件。此擴充套件非必需，但可提高應用性能，建議使用。不過有些共享主機可能不支援安裝。",
                 "success": "未發現潛在問題！"
             }
         },
@@ -82,15 +82,15 @@
                     "access_default_button": "同意",
                     "access_denied": "您必須調整您的瀏覽器設置才能在此設備上接收推送通知。",
                     "access_denied_button": "如何設置",
-                    "no_browser_support": "抱歉，該瀏覽器不支持漸進式 Web 應用程序的推送通知。",
+                    "no_browser_support": "抱歉，該瀏覽器不支援漸進式 Web 應用程序的推送通知。",
                     "no_browser_support_button": "了解更多"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "網絡連接錯誤",
-                "text": "您正在訪問應用程序不支持離線使用，請檢查網絡連接。"
+                "header": "網路連線錯誤",
+                "text": "您正在訪問應用程序不支援離線使用，請檢查網路連線。"
             }
         }
     }
