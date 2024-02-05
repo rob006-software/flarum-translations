@@ -117,7 +117,7 @@
                 "mail_mailgun_region_label": "區域",
                 "mail_mailgun_secret_label": "Secret key",
                 "mail_password_label": "密碼",
-                "mail_port_label": "連接埠",
+                "mail_port_label": "通訊埠",
                 "mail_username_label": "用戶名 (部分服務商要求使用完整郵件地址)",
                 "mailgun_heading": "Mailgun 設定",
                 "not_sending_message": "Flarum 目前無法傳送郵件，請檢查郵件驅動及配置。",
@@ -130,27 +130,27 @@
             },
             "extension": {
                 "configure_scopes": "設置範圍",
-                "confirm_purge": "重置操作會清除資料庫中所有該擴展相關的記錄和資源。如要卸載擴展，請透過 Composer 操作。確定要重置擴展嗎？",
+                "confirm_purge": "重置操作會清除資料庫中所有該擴充套件相關的記錄和資源。如要卸載擴充套件，請透過 Composer 操作。確定要重置擴充套件嗎？",
                 "disabled": "關閉",
-                "enable_to_see": "開啟擴展程式以查看或修改設置。",
+                "enable_to_see": "開啟擴充套件程式以查看或修改設置。",
                 "enabled": "開啟",
                 "info_links": {
                     "discuss": "討論區",
-                    "documentation": "文件",
+                    "documentation": "檔案",
                     "donate": "贊助",
                     "source": "原始碼",
-                    "support": "支持",
+                    "support": "支援",
                     "website": "網站"
                 },
-                "no_permissions": "此擴展無新增權限。",
-                "no_settings": "此擴展無設置項。",
+                "no_permissions": "此擴充套件無新增權限。",
+                "no_settings": "此擴充套件無設置項。",
                 "open_modal": "打開設置",
                 "permissions_title": "權限",
                 "purge_button": "重置",
                 "readme": {
                     "button_label": "說明檔",
-                    "no_readme": "此擴展未提供說明檔",
-                    "title": "{extName} 文件"
+                    "no_readme": "此擴充套件未提供說明檔",
+                    "title": "{extName} 檔案"
                 }
             },
             "header": {
@@ -181,7 +181,7 @@
                 "email_button": "郵箱",
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "權限設定",
-                "permissions_title": "設置各用戶組訪問及操作權限",
+                "permissions_title": "設置各群組訪問及操作權限",
                 "userlist_button": "用戶",
                 "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "搜尋擴充套件"
@@ -196,11 +196,11 @@
                 "delete_discussions_label": "刪除貼文",
                 "delete_posts_forever_label": "永久刪除回覆",
                 "delete_posts_label": "刪除回覆",
-                "description": "設置各用戶組訪問及操作權限。",
+                "description": "設置各群組訪問及操作權限。",
                 "edit_posts_label": "編輯回覆",
                 "edit_users_label": "編輯會員",
                 "edit_users_credentials_label": "編輯用戶身份標識",
-                "edit_users_groups_label": "編輯用戶組",
+                "edit_users_groups_label": "編輯群組",
                 "global_heading": "全站",
                 "moderate_heading": "管理",
                 "moderate_access_tokens_label": "適度的訪問令牌",
@@ -258,7 +258,7 @@
                         },
                         "group_badges": {
                             "no_badges": "無",
-                            "title": "用戶組"
+                            "title": "群組"
                         },
                         "join_time": {
                             "title": "註冊時間"
@@ -554,7 +554,7 @@
                 "activate_button": "啟用用戶",
                 "email_heading": "電子郵件",
                 "email_label": "電子郵件",
-                "groups_heading": "用戶組",
+                "groups_heading": "群組",
                 "password_heading": "密碼",
                 "password_label": "密碼",
                 "set_password_label": "修改密碼",
@@ -565,7 +565,7 @@
                 "nothing_available": "您無權編輯此用戶。"
             },
             "error": {
-                "circular_dependencies_message": "檢測到循環依賴項：{extensions}。 中止。 請禁用其中一個擴展，然後重試。",
+                "circular_dependencies_message": "檢測到循環依賴項：{extensions}。 中止。 請禁用其中一個擴充套件，然後重試。",
                 "dependent_extensions_message": "無法停用「{extension}」，請先停用依賴擴充套件「{extensions}」",
                 "extension_initialiation_failed_message": "初始化「{extension}」失敗，詳細資訊請查看瀏覽器控制台。",
                 "generic_message": "糟糕，出錯啦！請重新整理頁面再試一次。",
@@ -705,7 +705,7 @@
             "edit_user": "編輯用戶",
             "email": "電子郵件",
             "extensions": "擴充套件",
-            "generic_confirmation_message": "您確定要繼續嗎？ 此操作無法撤消。",
+            "generic_confirmation_message": "您確定要繼續嗎？ 此操作無法撤銷。",
             "icon": "圖示",
             "icon_text": "輸入任意一個 <a>FontAwesome</a> 圖示名稱，<em>需要包含</em>前綴 ，例如 <code>fas fa-</code>。",
             "load_more": "載入更多",
