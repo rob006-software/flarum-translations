@@ -1,9 +1,9 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "您暫時不能表達心情，請刷新後重試。",
+            "disabled-reaction": "您暫時不能表達心情，請重整頁面後重試。",
             "warning": "你的回應將被覆蓋",
-            "notification": "{username} 使用{reaction}回應了你的帖文",
+            "notification": "{username} 使用{reaction}回應了你的貼文",
             "settings": {
                 "notify_post_reacted_label": "某人回應了你的貼文"
             },
@@ -18,7 +18,7 @@
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "回應帖文",
+                "react_posts_label": "回應貼文",
                 "see_reactions_label": "查看戳心情的人",
                 "delete_post_reactions_label": "刪除貼文的反應"
             },
@@ -46,19 +46,19 @@
                 },
                 "settings": {
                     "react_own_posts_help": "啟用此項，添加一個權限，允許用戶對自己的貼文表達心情。如需禁止，請禁用此項。",
-                    "react_own_posts_label": "允許用戶對自已的貼子表達心情",
-                    "allow-anonymous": "允許匿名（來賓）反應",
-                    "allow-anonymous-help": "如果啟用，訪客和匿名用戶將能夠對帖子做出反應。 請注意，匿名反應不會連結到用戶個人資料，而是會聚合在反應列表中。",
+                    "react_own_posts_label": "允許用戶對自已的貼文表達心情",
+                    "allow-anonymous": "允許匿名（訪客）反應",
+                    "allow-anonymous-help": "如果啟用，訪客和匿名用戶將能夠對貼文做出反應。 請注意，匿名反應不會連結到用戶個人資料，而是會聚合在反應列表中。",
                     "save_settings": "儲存設定",
                     "integrations": {
                         "legend": "融合",
-                        "warning": "相同的回應<strong>不會</strong>轉換為「讚」<strong>或</strong>「頂」",
+                        "warning": "相同的回應<strong>不會</strong>轉換為「讚」<strong>或</strong>「推」",
                         "gamification": {
                             "legend": "遊戲化",
-                            "upvoteLabel": "轉換回應為「頂」",
-                            "upvoteHelptext": "輸入你想要自動轉換為「頂」的回應的標識",
-                            "downvoteLabel": "轉換回應為「踩」",
-                            "downvoteHelptext": "輸入你想要自動轉換為「踩」的回應的標識"
+                            "upvoteLabel": "轉換回應為「推」",
+                            "upvoteHelptext": "輸入你想要自動轉換為「推」的回應的標識",
+                            "downvoteLabel": "轉換回應為「噓」",
+                            "downvoteHelptext": "輸入你想要自動轉換為「噓」的回應的標識"
                         },
                         "likes": {
                             "legend": "喜歡",
