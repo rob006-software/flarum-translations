@@ -17,7 +17,7 @@
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "你的主題 <b>{oldTitle}</b> 被 {username} 合併到了這里。",
+                "discussion_merged": "你的主題 <b>{oldTitle}</b> 被 {username} 合併到了這裡。",
                 "preferences": {
                     "discussion_merged": "有人將你的主題進行了合併"
                 }
@@ -52,7 +52,7 @@
         },
         "email": {
             "merged": {
-                "body": "你好 {recipient_display_name}\n\n你的主題， {merged_discussion_title}， 已經被 {actor_display_name} 合併到了 {discussion_title}。\n\n請查看這里 {discussion_url} 。\n",
+                "body": "你好 {recipient_display_name}\n\n你的主題， {merged_discussion_title}， 已經被 {actor_display_name} 合併到了 {discussion_title}。\n\n請查看這裡 {discussion_url} 。\n",
                 "subject": "你的主題 \"{merged_discussion_title}\" 已被合併"
             }
         }
