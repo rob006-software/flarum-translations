@@ -2,18 +2,18 @@
     "sycho-private-facade": {
         "admin": {
             "settings": {
-                "force_redirect": "未登錄時強制跳轉到注冊登錄頁",
+                "force_redirect": "未登入時強制跳轉到註冊登入頁",
                 "header_layout": {
                     "options": {
                         "show_header": "展示橫幅",
                         "show_only_logo": "僅顯示 Logo",
-                        "hide_secondary_items": "隱藏次級元素（搜索、登錄注冊按鈕）"
+                        "hide_secondary_items": "隱藏次級元素（搜尋、登入註冊按鈕）"
                     },
                     "title": "橫幅樣式"
                 },
                 "illustration_path": "壁紙",
                 "primary_color_bg": "使用主色調背景",
-                "route_exclusions": "登錄注冊頁重定向的排除路由。",
+                "route_exclusions": "登入註冊頁重定向的排除路由。",
                 "url_exclusions": "從重定向到登入/註冊頁面時排除的 URL。",
                 "screen_banner_description": "屏幕消息",
                 "screen_banner_heading": "瑩幕橫幅",
