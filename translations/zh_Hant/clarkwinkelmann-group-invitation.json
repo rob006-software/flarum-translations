@@ -4,10 +4,10 @@
             "title": "您被邀请加入「{group}」用户组！",
             "generic-title": "用戶組邀請",
             "user": {
-                "already-connected": "用戶「{username}」將加入「{group}」用戶組。用戶不對？<a>登錄到另一個帳號</a>。\n",
-                "not-connected": "<a>登錄</a> 以接受邀請。",
-                "not-authorized": "當前用戶「{username}」沒有加入用戶組的權限。<a>登錄到另一個帳戶</a>。",
-                "already-member": "好消息，您的賬號「{username}」已經是「{group}」用戶組的成員了！想和其他用戶一起加入用戶組？<a>登錄到另一個帳戶</a>。\n"
+                "already-connected": "用戶「{username}」將加入「{group}」用戶組。用戶不對？<a>登入到另一個帳號</a>。\n",
+                "not-connected": "<a>登入</a> 以接受邀請。",
+                "not-authorized": "目前用戶「{username}」沒有加入用戶組的權限。<a>登入到另一個帳戶</a>。",
+                "already-member": "好消息，您的帳號「{username}」已經是「{group}」用戶組的成員了！想和其他用戶一起加入用戶組？<a>登入到另一個帳戶</a>。\n"
             },
             "invitation": {
                 "not-found": "很抱歉，這個用戶的邀請不存在。",
@@ -18,7 +18,7 @@
         },
         "admin": {
             "permissions": {
-                "use": "使用用戶組邀請鏈接"
+                "use": "使用用戶組邀請連結"
             },
             "settings": {
                 "head": {
@@ -31,10 +31,10 @@
                     "group": "選擇…",
                     "usage": "留空表示無限制"
                 },
-                "empty": "目前還沒有創建任何邀請鏈接。",
+                "empty": "目前還沒有建立任何邀請連結。",
                 "unlimited": "無限制",
                 "create": "創建",
-                "delete": "删除"
+                "delete": "刪除"
             }
         },
         "api": {
