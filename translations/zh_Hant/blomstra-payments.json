@@ -32,12 +32,12 @@
                 "purchase-control": "付費觀看",
                 "purchase-log-in": "登入並付費瀏覽",
                 "purchase-completed": "解鎖",
-                "description": "貼文被鎖定在付費專區，您可以通過我們的支付提供商 Stripe 完成支付來解鎖它們。\n"
+                "description": "貼文被鎖定在付費專區，您可以透過我們的支付提供商 Stripe 完成支付來解鎖它們。\n"
             },
             "pay-to-post": {
                 "purchase-control": "付費發佈",
                 "purchase": "付款",
-                "purchase_required": "通過第三方支付平台 Stripe 完成付款後，您的主題即可發布。點擊付款，查看費用並選擇付款方式。\n"
+                "purchase_required": "透過第三方支付平台 Stripe 完成付款後，您的主題即可發布。點擊付款，查看費用並選擇付款方式。\n"
             },
             "pay-to-bump": {
                 "description": "{count, plural, one {This discussion was bumped} other {{count} people bumped this discussion}}.",
@@ -85,21 +85,21 @@
         "admin": {
             "edit-tag": {
                 "select-ptp-product": "收費計劃（PTP 付費發表）",
-                "select-ptp-product-description": "為標籤選擇收費計劃，標籤下主題帖的發表將需要支付相應的費用。按貼文收費，可適用於廣告貼。前往 Stripe 儀錶板創建「一次性」付費計劃，並將 <code>prod_</code> 開頭的ID粘貼到這裡。\n",
-                "select-ptv-product": "收費計劃（PTV 付費流覽）",
-                "select-ptv-product-description": "選擇一個收費計劃，以永久解鎖限界貼文的瀏覽許可權。前往 Stripe 儀錶板創建付費計劃，並將 <code>prod_</code>開頭的ID粘貼到這裡。\n",
+                "select-ptp-product-description": "為標籤選擇收費計劃，標籤下主題帖的發表將需要支付相應的費用。按貼文收費，可適用於廣告文。前往 Stripe 儀錶板創建「一次性」付費計劃，並將 <code>prod_</code> 開頭的ID貼到這裡。\n",
+                "select-ptv-product": "收費計劃（PTV 付費瀏覽）",
+                "select-ptv-product-description": "選擇一個收費計劃，以永久解鎖限界貼文的瀏覽許可權。前往 Stripe 儀錶板創建付費計劃，並將 <code>prod_</code>開頭的ID貼到這裡。\n",
                 "visible-from": "隱藏限界",
                 "visible-from-description": "指定付費才能解鎖的貼文。0 表示所有貼文，1 表示首貼後的貼文。\n",
                 "select-ptb-product": "（PTB）所需產品",
                 "select-ptb-product-description": "選擇產品需要支付該產品的費用，然後才能進行討論。\n",
                 "bump-others": "（PTB）允許其他人討論",
-                "bump-others-description": "如果啟用，不僅討論作者可以通過付款來增加討論。\n",
+                "bump-others-description": "如果啟用，不僅討論作者可以透過付款來增加討論。\n",
                 "select-bounty-product": "（賞金）需要產品",
                 "select-bounty-product-description": "選擇一個產品將它設置賞金。產品只能有一個價格：「自訂選擇價格」。複製產品ID並在開頭加入<code>prod_</code> 代碼。\n"
             },
             "edit-group": {
                 "select-pta-product": "收費計劃（PTA 付費加入）",
-                "select-pta-product-description": "選擇解鎖用戶組許可權的收費計劃。如果是訂閱制，則訪問權跟隨訂閱期限。前往 Stripe 儀錶板創建付費計劃，並將<code>prod_</code> 開頭的ID粘貼到這裡。\n"
+                "select-pta-product-description": "選擇解鎖用戶組許可權的收費計劃。如果是訂閱制，則訪問權跟隨訂閱期限。前往 Stripe 儀錶板創建付費計劃，並將<code>prod_</code> 開頭的ID貼到這裡。\n"
             },
             "settings": {
                 "assign-bounty-tag-id": "在首次提交賞金後分配給討論的標記",
