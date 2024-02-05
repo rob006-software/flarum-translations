@@ -4,7 +4,7 @@
             "settings": {
                 "notify_new_discussion_label": "有人中我關注的節點發帖",
                 "notify_new_post_label": "有人在我關注的節點回覆",
-                "notify_new_discussion_tag_label": "有人將主題添加到我關注的標簽"
+                "notify_new_discussion_tag_label": "有人將主題添加到我關注的標籤"
             },
             "index": {
                 "follow_tag_button": "關注",
@@ -39,32 +39,32 @@
             "notifications": {
                 "new_discussion_text": "{username} 發佈了新貼文",
                 "new_post_text": "{username} 發佈了新回覆",
-                "new_discussion_tag_text": "{username} 修改了標簽"
+                "new_discussion_tag_text": "{username} 修改了標籤"
             },
             "user": {
                 "settings": {
                     "heading": "關注標",
-                    "filter_label": "在「我的關注」中默認顯示的內容"
+                    "filter_label": "在「我的關注」中預設顯示的內容"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "「我的關注」默認內容",
+                "following_page_default_label": "「我的關注」預設內容",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "【標簽新主題】{title}",
-                "newPostInTag": "【標簽新回覆】{title}",
+                "newDiscussionInTag": "【標籤新主題】{title}",
+                "newPostInTag": "【標籤新回覆】{title}",
                 "newDiscussionTag": "【標籤變更】{title}"
             },
             "body": {
-                "newDiscussionInTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 發布新主題於你關注的標簽：{discussion_title}\n\n點擊下方鏈結查看主題帖：\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 發表回覆於你關注的標簽：{discussion_title}\n\n點擊下方鏈接查看主題新動態：\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n在您已讀前，您不會再收到有關此主題的更多通知。\n",
-                "newDiscussionTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛將 {author_display_name} 的主題標簽變更為你關注的標簽：{discussion_title}\n\n點擊下方鏈結查看主題帖：\n{discussion_url}\n"
+                "newDiscussionInTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 發布新主題於你關注的標籤：{discussion_title}\n\n點擊下方連結查看主題帖：\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 發表回覆於你關注的標籤：{discussion_title}\n\n點擊下方連結查看主題新動態：\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n在您已讀前，您不會再收到有關此主題的更多通知。\n",
+                "newDiscussionTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛將 {author_display_name} 的主題標籤變更為你關注的標籤：{discussion_title}\n\n點擊下方連結查看主題帖：\n{discussion_url}\n"
             }
         },
         "ref": {
