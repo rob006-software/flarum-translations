@@ -28,7 +28,7 @@
             },
             "help_texts": {
                 "disable-download-logging": "開啟此設定可查看下載量及未來可能的統計數據。\n",
-                "disable-hotlink-protection": "熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及帖文 ID。\n",
+                "disable-hotlink-protection": "熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及貼文 ID。\n",
                 "download_templates": "下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：\n",
                 "mime_types": "請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上載接口處理。\n",
                 "resize": "您可以選擇是否在上載圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例。\n",
@@ -114,7 +114,7 @@
             },
             "templates": {
                 "file": "預設檔案下載模板",
-                "file_description": "顯示檔案名稱及基本信息，經由 php 代理下載，支援統計及熱鏈保護。\n",
+                "file_description": "顯示檔案名稱及基本資訊，經由 php 代理下載，支援統計及熱鏈保護。\n",
                 "image": "預設圖片下載模板",
                 "image_description": "顯示圖片縮略圖並經由 php 代理下載，支援統計及熱鏈保護。\n",
                 "image-preview": "完整圖片預覽模板",
