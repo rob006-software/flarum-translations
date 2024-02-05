@@ -27,7 +27,7 @@
                 "wordpress_login_only_help": "禁止使用 Flarum 登入，當需要登入時直接打開 WordPress 登入模塊。這將自動關閉 Flarum 的「註冊」權限。\n",
                 "user_delete": "在 WordPress 刪除用戶後的操作",
                 "user_delete_options": {
-                    "ignore": "無視（保留 Flarum 用戶）",
+                    "ignore": "忽略（保留 Flarum 用戶）",
                     "delete": "刪除 Flarum 用戶",
                     "suspend": "永久封鎖 Flarum 用戶（必須已經啟用 Suspend 插件）"
                 },
@@ -51,14 +51,14 @@
                 "use_post_date_help": "預設情況下，Flarum 主題將使用目前時間作為其創建日期。 如果 WordPress 文章屬於過去的日期，開啟此選項將允許主題使用過去的日期作為創建時間。\n",
                 "post_hide": "WordPress 文章被隱藏（丟棄或移至草稿）後的操作",
                 "post_hide_options": {
-                    "ignore": "無視（根據允許評論鎖定主題）",
+                    "ignore": "忽略（根據允許評論鎖定主題）",
                     "lock": "鎖定 Flarum 主題",
                     "hide": "隱藏 Flarum 主題",
                     "delete": "永久刪除 Flarum 主題"
                 },
                 "post_delete": "永久刪除 WordPress 文章後的操作",
                 "post_delete_options": {
-                    "ignore": "無視（保持 Flarum 主題的現狀）",
+                    "ignore": "忽略（保持 Flarum 主題的現狀）",
                     "lock": "保留並鎖定 Flarum 主題",
                     "hide": "隱藏 Flarum 主題",
                     "delete": "永久刪除 Flarum 主題"
