@@ -22,7 +22,7 @@
                 "back_to": "返回 {category}",
                 "back_to_overview": "返回知識庫概覽",
                 "back_to_main_categories": "返回主分類目錄",
-                "loading_articles": "正在加載文章",
+                "loading_articles": "正在載入文章",
                 "no_categories_found": "抱歉，暫無分類目錄…",
                 "category_not_found": "分類目錄不存在",
                 "no_articles_found": "此分類目錄下暫無文章",
@@ -30,7 +30,7 @@
                     "new_article": "撰寫文章",
                     "rename_category": "重命名分類目錄",
                     "edit_description": "編輯描述",
-                    "change_icon": "更換圖標",
+                    "change_icon": "更換圖示",
                     "recount_articles": "修正文章數"
                 }
             },
@@ -40,19 +40,19 @@
                 "article_modified": "{username} 編輯了這篇文章。"
             },
             "search": {
-                "title": "搜索",
-                "back_to_search_results": "返回搜索結果",
-                "search_knowledge_base": "搜索我們的知識庫",
-                "searching": "正在搜索",
-                "searching_for": "搜索 {searchterm}",
-                "searched_for": "您搜索了 {searchterm}，有 {results} 個結果。",
-                "use_searchbox_below": "使用以下的搜索框搜尋我們的智慧庫。",
+                "title": "搜尋",
+                "back_to_search_results": "返回搜尋結果",
+                "search_knowledge_base": "搜尋我們的知識庫",
+                "searching": "正在搜尋",
+                "searching_for": "搜尋 {searchterm}",
+                "searched_for": "您搜尋了 {searchterm}，有 {results} 個結果。",
+                "use_searchbox_below": "使用以下的搜尋框搜尋我們的智慧庫。",
                 "no_results": "我們找不到 {searchterm} 的任何內容。"
             },
             "not_found": {
                 "title": "未找到項目",
                 "description": "抱歉，此文章或類別不再存在於此位置。",
-                "solution": "您可以使用上面的搜索框搜尋要找的內容。"
+                "solution": "您可以使用上方的搜尋框尋找要找的內容。"
             },
             "article": {
                 "article": "文章",
@@ -85,10 +85,10 @@
                 "feedback": "感謝您的評價，還有其他要反饋的嗎？",
                 "feedback_not_helpful": "很抱歉這篇文章沒有幫助到您，您在尋找什麽呢？",
                 "enter_feedback": "在此填寫內容",
-                "finished": "感謝！您的反饋已保存。",
+                "finished": "感謝！您的反饋已儲存。",
                 "validation": {
                     "invalid_discussion": "糟糕，出了點問題。您無法評價這篇文章/服務記錄。",
-                    "guest": "請登錄後再評價。",
+                    "guest": "請登入後再評價。",
                     "invalid_points": "無效評價，請重試。",
                     "cannot_rate_article": "您無法評價這篇文章。",
                     "neutral_emoji_disabled": "中性表情符號已被禁用。",
@@ -104,12 +104,12 @@
                     "title": "文章審計日誌",
                     "article_created": "文章已發佈",
                     "no_more_events": "未發現更多事件",
-                    "loading_auditlog": "正在加載審計日誌"
+                    "loading_auditlog": "正在載入審計日誌"
                 },
                 "article_ratings": {
                     "title": "文章評價",
-                    "loading_ratings": "正在加載評價",
-                    "no_ratings_found": "找不到符合您搜索條件的評價",
+                    "loading_ratings": "正在載入評價",
+                    "no_ratings_found": "找不到符合您搜尋條件的評價",
                     "article_not_rated": "這篇文章尚未被評價。",
                     "confirm_delete_rating": "確定要刪除這條評價嗎？",
                     "feedback": "意見",
@@ -135,8 +135,8 @@
                 "write": "寫文章",
                 "view": "預覽",
                 "nothing_to_preview": "什麼都還沒寫呢",
-                "warning_save_changes": "警告：您即將離開此頁面，系統不會保存您所做的更改。是否保存更改然後離開？\n\n[OK] = 保存並離開 [CANCEL] = 不保存\n",
-                "article_saved": "文章已保存"
+                "warning_save_changes": "警告：您即將離開此頁面，系統不會儲存您所做的更改。是否儲存更改然後離開？\n\n[OK] = 儲存並離開 [CANCEL] = 不儲存\n",
+                "article_saved": "文章已儲存"
             },
             "tickets": {
                 "ticket": "工單",
@@ -235,17 +235,17 @@
                         "title": "個人備註",
                         "info": "備注僅對其他客服可見，客戶不可見。",
                         "tip": "提示：如果一個工單有多個客服處理，請在備注時加上你的姓名和日期。",
-                        "placeholder": "例如：2022.1.1 - 處理：刪除數據庫",
+                        "placeholder": "例如：2022.1.1 - 處理：刪除資料庫",
                         "edit_button": "編輯備註"
                     }
                 },
                 "compose_ticket": {
                     "title": "發表新工單",
                     "private_support": "若需要一對一支持，您可以使用此表單在我們的客服平台上創建一個新的工單。對於非一對一支持，請參見<a>我們的公共論壇</a>。",
-                    "not_allowed": "您當前無法創建新客服工單"
+                    "not_allowed": "您目前無法創建新客服工單"
                 },
                 "load_more": {
-                    "title": "加載更多工單"
+                    "title": "載入更多工單"
                 },
                 "my_tickets": {
                     "title": "我的工單",
@@ -271,7 +271,7 @@
                         },
                         "assignees": {
                             "title": "負責人",
-                            "search": "搜索負責人",
+                            "search": "搜尋負責人",
                             "unassigned": "未指派"
                         }
                     },
@@ -297,19 +297,19 @@
         "emails": {
             "replied_to_ticket": {
                 "subject": "{replier_display_name} 回覆了你的工單 #{ticket_id}",
-                "body": "尊敬的用戶 {recipient_display_name},\n\n{replier_display_name} 回覆了您的工單 #{ticket_id}《{subject}》。\n\n請點擊下方鏈接查看回覆：\n{url}\n\n我們正在等待您的回覆，若問題已解決，請將工單標記為已解決。\n"
+                "body": "尊敬的用戶 {recipient_display_name},\n\n{replier_display_name} 回覆了您的工單 #{ticket_id}《{subject}》。\n\n請點擊下方連結查看回覆：\n{url}\n\n我們正在等待您的回覆，若問題已解決，請將工單標記為已解決。\n"
             },
             "ticket_status_update": {
                 "subject": "工單 #{ticket_id} 被標記為 {new_status}",
-                "body": "尊敬的用戶 {recipient_display_name}，\n\n您的工單 #{ticket_id} 狀態變更為 {new_status}。\n\n您的工單鏈接：\n{url}\n"
+                "body": "尊敬的用戶 {recipient_display_name}，\n\n您的工單 #{ticket_id} 狀態變更為 {new_status}。\n\n您的工單連結：\n{url}\n"
             },
             "ticket_resolved": {
                 "subject": "工單 #{ticket_id} 被標記為已解決",
-                "body": "尊敬的用戶 {recipient_display_name}，\n\n您的工單 #{ticket_id} 被標記為已解決，並已關閉。\n\n您的工單鏈接：\n{url}\n\n如果您對此標記有異議，請回覆工單以重新打開。\n"
+                "body": "尊敬的用戶 {recipient_display_name}，\n\n您的工單 #{ticket_id} 被標記為已解決，並已關閉。\n\n您的工單連結：\n{url}\n\n如果您對此標記有異議，請回覆工單以重新打開。\n"
             },
             "ticket_pending_reply": {
                 "subject": "工單 #{ticket_id} 需要您的回覆",
-                "body": "尊敬的用戶 {recipient_display_name}，\n\n近期 {replier_display_name} 於 {replied_date} 回覆了您的工單 #{ticket_id}，我們正在等候您的回覆。\n\n您的工單鏈接：\n{url}\n\n如果此問題已解決，請將工單標記為已解決。\n"
+                "body": "尊敬的用戶 {recipient_display_name}，\n\n近期 {replier_display_name} 於 {replied_date} 回覆了您的工單 #{ticket_id}，我們正在等候您的回覆。\n\n您的工單連結：\n{url}\n\n如果此問題已解決，請將工單標記為已解決。\n"
             },
             "ticket_pending_reply_closed": {
                 "subject": "工單 #{ticket_id} 由於沒有活動現已關閉",
