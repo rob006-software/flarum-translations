@@ -32,7 +32,7 @@
                     "suspend": "永久封鎖 Flarum 用戶（必須已經啟用 Suspend 插件）"
                 },
                 "user_delete_desc": "如果選擇「刪除」，則只刪除用戶，不刪除 Flarum 中已發表的內容。",
-                "section_comments_intro": "此功能使用 Flarum 框架替換 WordPress 評論模塊。 這會使未登入訪客無法發表評論。 只有在 WordPress 中啟用了評論功能的貼文才會創建對應的主題貼。 啟用或禁用評論功能時，Flarum 會同步鎖定主題。 如果您啟用此功能時，您的博客已經有文章存在，您需要在每篇文章上手動禁用並重新啟用評論功能以創建 Flarum 主題貼。\n",
+                "section_comments_intro": "此功能使用 Flarum 框架替換 WordPress 評論模塊。 這會使未登入訪客無法發表評論。 只有在 WordPress 中啟用了評論功能的貼文才會創建對應的主題。 啟用或禁用評論功能時，Flarum 會同步鎖定主題。 如果您啟用此功能時，您的博客已經有文章存在，您需要在每篇文章上手動禁用並重新啟用評論功能以創建 Flarum 主題。\n",
                 "enable_comments": "啟用評論集成",
                 "excerpt_html_whitelist": "要保留在摘錄中的 HTML 標籤白名單（半角逗號分隔）",
                 "excerpt_html_nodes": "內容摘錄的長度（以 HTML 節點數為單位）",
@@ -41,27 +41,27 @@
                 "post_thumbnail_list": "在 Flarum 討論列表中顯示 WordPress 貼文縮圖",
                 "comment_author_sync": "從 SSO 分配討論作者",
                 "comment_author_sync_help": "如果 Wordpress 作者透過 SSO 創建了一個 Flarum 帳戶，該 Flarum 帳戶將被設置為評論所有者。",
-                "comment_tag": "新評論主題貼的標籤",
+                "comment_tag": "新評論主題的標籤",
                 "comment_tag_none": "不分配標籤",
                 "comment_tag_custom": "自定義值",
                 "comment_tag_custom_help": "標籤 ID（半角逗號分隔）",
                 "summary_as_last_post": "將摘要帖設置為新主題的末帖",
-                "summary_as_last_post_help": "這將使得發布 WordPress 文章後，新的評論主題貼立即浮動到 Flarum 主題列表的頂部。 預設情況下，只有在用戶發表第一個評論後，主題貼才會上浮至頂部。\n",
-                "use_post_date": "使用 WordPress 文章的發布日期作為主題貼的創建日期",
-                "use_post_date_help": "預設情況下，Flarum 主題貼將使用目前時間作為其創建日期。 如果 WordPress 文章屬於過去的日期，開啟此選項將允許主題貼使用過去的日期作為創建時間。\n",
+                "summary_as_last_post_help": "這將使得發布 WordPress 文章後，新的評論主題立即浮動到 Flarum 主題列表的頂部。 預設情況下，只有在用戶發表第一個評論後，主題才會上浮至頂部。\n",
+                "use_post_date": "使用 WordPress 文章的發布日期作為主題的創建日期",
+                "use_post_date_help": "預設情況下，Flarum 主題將使用目前時間作為其創建日期。 如果 WordPress 文章屬於過去的日期，開啟此選項將允許主題使用過去的日期作為創建時間。\n",
                 "post_hide": "WordPress 文章被隱藏（丟棄或移至草稿）後的操作",
                 "post_hide_options": {
-                    "ignore": "無視（根據允許評論鎖定主題貼）",
-                    "lock": "鎖定 Flarum 主題貼",
-                    "hide": "隱藏 Flarum 主題貼",
-                    "delete": "永久刪除 Flarum 主題貼"
+                    "ignore": "無視（根據允許評論鎖定主題）",
+                    "lock": "鎖定 Flarum 主題",
+                    "hide": "隱藏 Flarum 主題",
+                    "delete": "永久刪除 Flarum 主題"
                 },
                 "post_delete": "永久刪除 WordPress 文章後的操作",
                 "post_delete_options": {
-                    "ignore": "無視（保持 Flarum 主題貼的現狀）",
-                    "lock": "保留並鎖定 Flarum 主題貼",
-                    "hide": "隱藏 Flarum 主題貼",
-                    "delete": "永久刪除 Flarum 主題貼"
+                    "ignore": "無視（保持 Flarum 主題的現狀）",
+                    "lock": "保留並鎖定 Flarum 主題",
+                    "hide": "隱藏 Flarum 主題",
+                    "delete": "永久刪除 Flarum 主題"
                 }
             },
             "tabs": {
