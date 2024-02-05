@@ -44,7 +44,7 @@
                 "withoutActor": "=> core.group.guest",
                 "deletedResource": {
                     "discussion": "主題 #{id}",
-                    "group": "用戶組 #{id}",
+                    "group": "群組 #{id}",
                     "post": "回覆#{id}",
                     "tag": "標籤 {id}#",
                     "user": "用戶 #{id}"
@@ -86,7 +86,7 @@
                     "locked": "鎖定主題{discussion}",
                     "merged_away": "將 {discussion} 合併到 {new_discussion}",
                     "merged_into": "已將 {original_discussion_ids_count} 個討論中的 {post_count} 個帖子合併到 {discussion} 中",
-                    "renamed": "重命名主題 {old_title} 為 {new_title}",
+                    "renamed": "重新命名主題 {old_title} 為 {new_title}",
                     "restored": "恢復主題 {discussion}",
                     "split_away": "從 {discussion}中拆分出 {post_count} 條回覆到{new_discussion}",
                     "split_into": "拆分 {post_count} 條回覆至 {discussion}",
@@ -97,8 +97,8 @@
                     "user_changed": "變更 {discussion} 的作者 {old_user} 為 {new_user}"
                 },
                 "extension": {
-                    "disabled": "禁用擴展 {package}",
-                    "enabled": "啟用擴展 {package}"
+                    "disabled": "禁用擴充套件 {package}",
+                    "enabled": "啟用擴充套件 {package}"
                 },
                 "fof_ban_ips": {
                     "banned": "拉黑 IP {ip}",
@@ -135,7 +135,7 @@
                     "deleted": "刪除用戶{username}",
                     "email_changed": "變更 {username} 的郵箱 {old_email} 為 {new_email}",
                     "email_change_requested": "請求變更 {username} 的郵箱為 {new_email}",
-                    "groups_changed": "變更 {username} 的用戶組 {old_groups} 為 {new_groups}",
+                    "groups_changed": "變更 {username} 的群組 {old_groups} 為 {new_groups}",
                     "impersonated": "以 {username} 身份扮演登入",
                     "logged_in": "登入 {username} 帳戶",
                     "logged_in_with_provider": "使用 {provider} 登入到 {username} 帳戶",
