@@ -11,10 +11,10 @@
         },
         "admin": {
             "settings": {
-                "cache_duration_label": "",
-                "cache_duration_help": "",
-                "flush_cache_on_new_registration_label": "",
-                "flush_cache_on_new_registration_help": "",
+                "cache_duration_label": "缓存时长",
+                "cache_duration_help": "指定挂件的数据应该缓存多久（以秒为单位）。设置为<code>0</code>来禁用缓存（不推荐）。",
+                "flush_cache_on_new_registration_label": "在有新用户时刷新数据缓存",
+                "flush_cache_on_new_registration_help": "如果启用了，在论坛有新用户注册时数据缓存将会被刷新。",
                 "widget_ignore_private_discussions_label": "不统计私密主题",
                 "widget_order_label": "控件顺序",
                 "widget_helper_text": "更改此设置来调整统计控件在论坛侧边栏上的位置。 值越大位置位置越高（此值可为负数）。"
