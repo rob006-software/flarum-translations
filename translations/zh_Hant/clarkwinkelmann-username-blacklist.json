@@ -2,13 +2,13 @@
     "clarkwinkelmann-username-blacklist": {
         "admin": {
             "settings": {
-                "regex": "正則表達式",
-                "regexHelp": "從域列表切換到正則表達式檢查。列表的每一行都必須是帶分隔符的有效正則表達式。\n",
+                "regex": "正規表示式",
+                "regexHelp": "從域列表切換到正規表示式檢查。列表的每一行都必須是帶分隔符的有效正規表示式。\n",
                 "message": "自定義錯誤消息",
                 "blacklist": "黑名單",
-                "blacklistHelp": "每行一個正則表達式。如果黑名單為空，所有非白名單的內容都會被拒絕。\n",
+                "blacklistHelp": "每行一個正規表示式。如果黑名單為空，所有非白名單的內容都會被拒絕。\n",
                 "whitelist": "白名單",
-                "whitelistHelp": "每行一個正則表達式。白名單優先級高於黑名單。\n"
+                "whitelistHelp": "每行一個正規表示式。白名單優先級高於黑名單。\n"
             }
         },
         "api": {
