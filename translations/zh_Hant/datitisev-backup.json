@@ -33,7 +33,7 @@
             },
             "required-package-modal": {
                 "title": "{adapter} 所需的軟件包",
-                "content": "為了使用這個驅動程序，您需要安裝一個特定的軟件包。您可以透過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
+                "content": "為了使用這個驅動程式，您需要安裝一個特定的軟件包。您可以透過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
             },
             "adapter-settings-modal": {
                 "title": "配置{adapter}",
@@ -141,7 +141,7 @@
                     },
                     "refresh-token": {
                         "label": "刷新令牌",
-                        "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 應用程序刷新令牌。\n"
+                        "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 應用程式刷新令牌。\n"
                     },
                     "folder": {
                         "label": "Folder ID",
