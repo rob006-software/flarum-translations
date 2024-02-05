@@ -42,7 +42,7 @@
                 "secret": "Pusher App Secret - 如果使用內置 WebSocket 伺服器，請保持預設值。",
                 "secure": "強制 WebSocket 使用安全協議 - 如果您使用的是安全的 WebSocket 伺服器而非網站，請啟用此功能。",
                 "host": "您的 WebSocket 伺服器主機 - 如果伺服器和管理員位於同一主機，請保持預設值。",
-                "reverse_proxy": "啟用此功能後，WebSocket 將通過 443 端口連接 - 如果您從端口 443 反向代理到 WebSocket 伺服器，請使用此功能。",
+                "reverse_proxy": "啟用此功能後，WebSocket 將透過 443 端口連接 - 如果您從端口 443 反向代理到 WebSocket 伺服器，請使用此功能。",
                 "port": "WebSocket 伺服器端口 - 如果您沒有修改伺服器內置端口，請保持預設值。",
                 "cert_path": "僅在使用 SSL 而非反代理時啟動。您伺服器上的 SSL (HTTPS) 證書路徑 - 通常是一個 .crt 或 .pem 文件。",
                 "pk_path": "僅在使用 SSL 而非反代理時啟動。您伺服器上的 SSL (HTTPS) 私鑰路徑 - 通常是一個 .key 或 .pem 文件。",
