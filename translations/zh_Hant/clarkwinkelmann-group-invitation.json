@@ -1,29 +1,29 @@
 {
     "clarkwinkelmann-group-invitation": {
         "forum": {
-            "title": "您被邀请加入「{group}」用户组！",
-            "generic-title": "用戶組邀請",
+            "title": "您被邀請加入「{group}」群組！",
+            "generic-title": "群組邀請",
             "user": {
-                "already-connected": "用戶「{username}」將加入「{group}」用戶組。用戶不對？<a>登入到另一個帳號</a>。\n",
+                "already-connected": "用戶「{username}」將加入「{group}」群組。不是正確的用戶？<a>登入另一個帳號</a>。\n",
                 "not-connected": "<a>登入</a> 以接受邀請。",
-                "not-authorized": "目前用戶「{username}」沒有加入用戶組的權限。<a>登入到另一個帳戶</a>。",
-                "already-member": "好消息，您的帳號「{username}」已經是「{group}」用戶組的成員了！想和其他用戶一起加入用戶組？<a>登入到另一個帳戶</a>。\n"
+                "not-authorized": "目前用戶「{username}」沒有加入群組的權限。<a>登入到另一個帳戶</a>。",
+                "already-member": "好消息，您的帳號「{username}」已經是「{group}」群組的成員了！想和其他用戶一起加入群組？<a>登入到另一個帳戶</a>。\n"
             },
             "invitation": {
                 "not-found": "很抱歉，這個用戶的邀請不存在。",
-                "no-usages-left": "很抱歉，這個用戶組的邀請失效了。"
+                "no-usages-left": "很抱歉，這個群組的邀請失效了。"
             },
-            "apply": "加入用戶組",
-            "success-alert": "您已經成功加入了這個用戶組！"
+            "apply": "加入群組",
+            "success-alert": "您已經成功加入了這個群組！"
         },
         "admin": {
             "permissions": {
-                "use": "使用用戶組邀請連結"
+                "use": "使用群組邀請連結"
             },
             "settings": {
                 "head": {
                     "code": "代碼",
-                    "group": "用戶組",
+                    "group": "群組",
                     "usage": "使用"
                 },
                 "placeholder": {
