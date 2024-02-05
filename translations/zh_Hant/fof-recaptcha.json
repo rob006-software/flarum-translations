@@ -6,7 +6,7 @@
                 "secret_key_label": "金鑰",
                 "site_key_label": "網站金鑰",
                 "type_label": "reCAPTCHA 類型",
-                "type_help": "此擴展僅支持 reCAPTCHA v2。 所選類型必須與您的 reCAPTCHA 憑據類型匹配。",
+                "type_help": "此擴充套件僅支援 reCAPTCHA v2。 所選類型必須與您的 reCAPTCHA 憑據類型匹配。",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
@@ -16,7 +16,7 @@
                 "help_text": "此測試將使用上面輸入的目前值。 確保修改設置後重新載入測試，並且測試通過後不要忘記儲存！\n以下可能不會反映已儲存的設置。\n",
                 "success_message": "成功！ reCAPTCHA 配置正確。",
                 "load_test_button": "載入",
-                "submit_button": "提交",
+                "submit_button": "送出",
                 "reload_button": "重新載入"
             },
             "permissions": {
@@ -24,7 +24,7 @@
             }
         },
         "forum": {
-            "error": "提交 reCAPTCHA 時出錯，請重試。",
+            "error": "送出 reCAPTCHA 時出錯，請重試。",
             "unknown_error": "出現未知錯誤。 檢查驗證碼並重試。"
         }
     },
