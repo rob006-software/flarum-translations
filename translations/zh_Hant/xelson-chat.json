@@ -106,13 +106,13 @@
                         }
                     }
                 },
-                "placeholder": "輸入消息...",
+                "placeholder": "輸入訊息...",
                 "message": {
                     "actions": {
                         "hide": "隱藏",
                         "resend": "重試"
                     },
-                    "censored": "登入以查看消息！",
+                    "censored": "登入以查看訊息！",
                     "deleted": "已刪除",
                     "deleted_forever": "永久刪除",
                     "you": "你",
@@ -162,20 +162,20 @@
             "permissions": {
                 "post": "發送聊天消息",
                 "edit": "編輯聊天消息",
-                "delete": "删除聊天消息",
+                "delete": "刪除聊天消息",
                 "enabled": "啟用聊天",
                 "create": {
                     "chat": "發起聊天",
                     "channel": "發起聊天頻道"
                 },
                 "moderate": {
-                    "delete": "删除聊天消息",
-                    "vision": "查看删除的消息"
+                    "delete": "刪除聊天消息",
+                    "vision": "查看刪除的消息"
                 }
             },
             "settings": {
                 "title": "聊天設置",
-                "charlimit": "最大消息字元数",
+                "charlimit": "最大消息字元數",
                 "floodgate": {
                     "title": "防刷屏",
                     "number": "連續發送消息數",
