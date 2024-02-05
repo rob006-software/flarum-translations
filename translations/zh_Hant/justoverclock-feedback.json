@@ -1,52 +1,52 @@
 {
     "justoverclock-feedback": {
         "admin": {
-            "contactmail": "反饋接收郵箱地址",
-            "feedback1-title": "反饋類型 1",
-            "feedback1-title-help": "自定義反饋類型 1 名稱",
-            "feedback1-icon": "反饋圖示 類型 1",
+            "contactmail": "回饋接收郵箱地址",
+            "feedback1-title": "回饋類型 1",
+            "feedback1-title-help": "自定義回饋類型 1 名稱",
+            "feedback1-icon": "回饋圖示 類型 1",
             "feedback1-icon-help": "輸入一個表情符號（如 ⚠️，☎️，✏️」。Windows 按下 Win + 句點(.) 鍵可打開表情符號窗口。MacOS 按 🌐",
-            "feedback2-title": "反饋類型 2",
-            "feedback2-title-help": "自定義反饋類型2名稱",
-            "feedback2-icon": "反饋圖示 類型 2",
+            "feedback2-title": "回饋類型 2",
+            "feedback2-title-help": "自定義回饋類型2名稱",
+            "feedback2-icon": "回饋圖示 類型 2",
             "feedback2-icon-help": "輸入一個表情符號（如 ⚠️，☎️，✏️」。Windows 按下 Win + 句點(.) 鍵可打開表情符號窗口。MacOS 按 🌐",
-            "feedback3-title": "反饋類型 3",
-            "feedback3-title-help": "自定義反饋類型3名稱",
-            "feedback3-icon": "反饋圖示 類型 3",
+            "feedback3-title": "回饋類型 3",
+            "feedback3-title-help": "自定義回饋類型3名稱",
+            "feedback3-icon": "回饋圖示 類型 3",
             "feedback3-icon-help": "輸入一個表情符號（如 ⚠️，☎️，✏️」。Windows 按下 Win + 句點(.) 鍵可打開表情符號窗口。MacOS 按 🌐",
-            "contactdesc": "請完整輸入郵箱地址以啟用反饋按鈕",
+            "contactdesc": "請完整輸入郵箱地址以啟用回饋按鈕",
             "collect-email": "（可選）允許用戶填寫郵箱",
-            "collect-email-help": "啟動後，用戶在反饋時可填寫自己的郵箱地址",
+            "collect-email-help": "啟動後，用戶在回饋時可填寫自己的郵箱地址",
             "position": "部件位置",
-            "position-help": "反饋按鈕的顯示位置",
+            "position-help": "回饋按鈕的顯示位置",
             "right_label": "右側",
             "left_label": "左側",
             "background-color": "按鈕背景色",
             "background-color-help": "填寫十六進制顏色代碼，如 #fff",
             "font-color": "部件字型顏色",
             "font-color-help": "填寫十六進制顏色代碼，如 #fff",
-            "box-title": "反饋彈窗標題",
-            "box-title-help": "設置反饋彈窗的標題"
+            "box-title": "回饋彈窗標題",
+            "box-title-help": "設置回饋彈窗的標題"
         },
         "api": {
-            "validation_error": "反饋內容為空"
+            "validation_error": "回饋內容為空"
         },
         "forum": {
             "button-title": "意見",
             "feedback-widget": {
-                "title": "Flarum 意見反饋",
+                "title": "Flarum 意見回饋",
                 "placeholder": "在此填寫內容",
                 "email-placeholder": "郵箱(可選)",
                 "submit": "提交",
                 "back": "返回",
                 "contact-text": "或發送一個郵件！",
-                "type-message": "你想反饋什麼內容？",
+                "type-message": "你想回饋什麼內容？",
                 "success": "非常感謝！👊",
                 "failed-title": "發生錯鋘",
                 "failed-message": "請再試一次。 如果這種情況持續發生，請嘗試發送電子郵件。",
                 "email-field-placeholder": "郵箱(可選)",
                 "types": {
-                    "general": "一般反饋",
+                    "general": "一般回饋",
                     "idea": "新點子",
                     "bug": "Bug 報告"
                 }
@@ -54,7 +54,7 @@
             "email": {
                 "guest": "一位匿名用戶",
                 "subject": "意見",
-                "body": "來自用戶 {user} 的新 {type} 意見反饋！\n\n{message}\n\n回信郵箱：{email}\n連結：{url}\n"
+                "body": "來自用戶 {user} 的新 {type} 意見回饋！\n\n{message}\n\n回信郵箱：{email}\n連結：{url}\n"
             }
         }
     }
