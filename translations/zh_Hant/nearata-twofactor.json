@@ -15,23 +15,23 @@
                 "configured": "已配置",
                 "not_configured": "未配置",
                 "app": {
-                    "button_label": "驗證應用程序",
-                    "button_help": "您將透過身份驗證應用程序收到訪問代碼。",
+                    "button_label": "驗證應用程式",
+                    "button_help": "您將透過身份驗證應用程式收到訪問代碼。",
                     "setup": {
-                        "title": "設置身份驗證應用程序",
+                        "title": "設置身份驗證應用程式",
                         "password_placeholder": "密碼",
                         "passcode_placeholder": "6 位密碼",
                         "close_button_label": "關閉",
                         "invalid_passcode": "密碼或通行碼無效。",
                         "disable": {
-                            "enter_code_disable": "輸入代碼以禁用兩步驟身份驗證應用程序。",
+                            "enter_code_disable": "輸入代碼以禁用兩步驟身份驗證應用程式。",
                             "button_label": "禁用",
-                            "success": "身份驗證應用程序已禁用。"
+                            "success": "身份驗證應用程式已禁用。"
                         },
                         "enable": {
                             "button_label": "啟用",
                             "success": "啟用身份驗證APP。",
-                            "scan_qr": "使用身份驗證設備掃描此二維碼以設置您的帳戶。",
+                            "scan_qr": "使用身份驗證設備掃描此QR碼以設置您的帳戶。",
                             "enter_code_manually": "改為手動輸入密鑰",
                             "backups": {
                                 "message": "將這些恢復代碼儲存在安全的地方。 如果您丟失了支援兩步驟驗證的設備，可以按照列出的順序使用這些一次性使用代碼來登入您的帳戶。\n",
@@ -48,7 +48,7 @@
                 "placeholder_label": "選擇身份驗證方法...",
                 "submit_button_label": "登入",
                 "auth_buttons": {
-                    "app": "身份驗證應用程序"
+                    "app": "身份驗證應用程式"
                 },
                 "app": {
                     "invalid_passcode": "通行碼無效。",
@@ -91,7 +91,7 @@
                 "disable_confirmation": "你確定嗎？ 您將要為用戶禁用此身份驗證方法。",
                 "placeholder_text": "沒有什麼可以禁用的",
                 "app": {
-                    "label": "身份驗證應用程序"
+                    "label": "身份驗證應用程式"
                 }
             }
         }
