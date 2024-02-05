@@ -6,7 +6,7 @@
             },
             "answers-modal": {
                 "edit-title": "編輯{title}的字段",
-                "save": "保存字段"
+                "save": "儲存字段"
             },
             "post-answers": {
                 "no-answer": "無答案"
@@ -24,11 +24,11 @@
             "buttons": {
                 "new-field": "添加字段",
                 "add-field": "添加字段",
-                "save-field": "保存字段",
+                "save-field": "儲存字段",
                 "delete-field": "刪除字段",
                 "edit-field": "點擊以編輯字段",
                 "add-answer": "添加答案",
-                "save-answer": "保存答案",
+                "save-answer": "儲存答案",
                 "delete-answer": "刪除答案",
                 "edit-answer": "編輯答案",
                 "edit-answer-prompt": "編輯所有使用的內容",
@@ -50,12 +50,12 @@
                 "validation-help": "查看支持的 <a>Laravel 驗證規則</a>，例：\"string|min:5\" 或 \"url\"。\n",
                 "enable-user-values-for-validation": "啟用「用戶自定義值」以配置表單驗證規則",
                 "icon": "圖示",
-                "icon-help": "顯示在這個字段前的圖標。可用的圖標請查看 <a>FontAwesome 網站</a>，請使用完整圖標名，包括前綴，例如「fas fa-bolt」。\n",
+                "icon-help": "顯示在這個字段前的圖示。可用的圖示請查看 <a>FontAwesome 網站</a>，請使用完整圖示名，包括前綴，例如「fas fa-bolt」。\n",
                 "icon-preview": "預覽：{preview}",
-                "save-field-for-answers": "保存此字段以添加選項答案",
+                "save-field-for-answers": "儲存此字段以添加選項答案",
                 "is_suggested": "推薦答案",
                 "new-answer": "新建答案",
-                "new-answer-placeholder": "在此鍵入本文"
+                "new-answer-placeholder": "在此輸入本文"
             },
             "messages": {
                 "delete-answer-confirmation": "確定要刪除答案「{content}」？ 這將從所有使用它的主題中移除該答案，如果您想要保留現有答案請停用答案建議。 刪除答案？\n",
@@ -63,17 +63,17 @@
             },
             "settings": {
                 "fields-section-title": "自定義字段標題",
-                "fields-section-title-placeholder": "默認為空標題且不顯示",
+                "fields-section-title-placeholder": "預設為空標題且不顯示",
                 "fields-section-title-help": "用戶將在文本編輯器和主題中看到這個文本。\n",
                 "column-count": "表單欄數",
                 "n-columns": "{count} 欄",
                 "labels-as-placeholders": "在表單的占位符中顯示字段名",
-                "labels-as-placeholders-help": "表單將占用更少的縱向空間，字段圖標將不再顯示。請注意，這可能會影響可用性，尤其是在編輯現有字段時。\n",
+                "labels-as-placeholders-help": "表單將占用更少的縱向空間，字段圖示將不再顯示。請注意，這可能會影響可用性，尤其是在編輯現有字段時。\n",
                 "fields-in-hero": "在主題頂部橫幅中顯示表單（而非首貼中）",
                 "hide-empty-fields-section": "當所有字段為空且隱藏時，隱藏標題和控件。",
-                "hide-empty-fields-section-help": "默認情況下，如果用戶可以編輯字段或設置標題，則即使所有字段都被隱藏，也會始終顯示該部分。啟用此選項後，該部分將被隱藏，並且當所有字段均為空白時，「編輯字段」按鈕僅在「回覆」下拉菜單中可用。\n",
-                "tags-as-field": "將標簽選擇器作為一個字段顯示",
-                "tags-as-field-help": "這將隱藏默認的標簽選擇器，並顯示一個自定義的下拉框。只有當您在標簽設置中最多允許單個主體選擇一個主標簽和一個次標簽時，此功能才會生效！\n",
+                "hide-empty-fields-section-help": "預設情況下，如果用戶可以編輯字段或設置標題，則即使所有字段都被隱藏，也會始終顯示該部分。啟用此選項後，該部分將被隱藏，並且當所有字段均為空白時，「編輯字段」按鈕僅在「回覆」下拉菜單中可用。\n",
+                "tags-as-field": "將標籤選擇器作為一個字段顯示",
+                "tags-as-field-help": "這將隱藏預設的標籤選擇器，並顯示一個自定義的下拉框。只有當您在標籤設置中最多允許單個主體選擇一個主標籤和一個次標籤時，此功能才會生效！\n",
                 "tags-field-name": "標籤字段名",
                 "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
