@@ -4,7 +4,7 @@
             "discussion": {
                 "started": "發佈主題 `{1}`",
                 "renamed": {
-                    "title": "重命名主題 `{1}`",
+                    "title": "重新命名主題 `{1}`",
                     "description": "新標題：{1}"
                 },
                 "hidden": "隱藏主題 `{1}`",
@@ -12,9 +12,9 @@
                 "deleted": "刪除主題 `{1}`"
             },
             "group": {
-                "created": "創建用戶組 `{1}`",
-                "renamed": "重命名用戶組為 `{1}`",
-                "deleted": "刪除用戶組`{1}`"
+                "created": "創建群組 `{1}`",
+                "renamed": "重新命名群組為 `{1}`",
+                "deleted": "刪除群組`{1}`"
             },
             "post": {
                 "posted": "新回覆於 `{1}`",
@@ -43,7 +43,7 @@
                 "service_not_found": "\"{service}\"服務未找到或不存在。",
                 "url_invalid": "所選服務的 URL 無效。",
                 "tag_invalid": "此 Webhook 被限制於無效的標籤上。該限制將不可用。請確保這是您有意所為。",
-                "tag_disabled": "此 Webhook 配置了標籤限制。 標籤擴展被禁用。 該限制將不適用。 確保這是有意的。"
+                "tag_disabled": "此 Webhook 配置了標籤限制。 標籤擴充套件被禁用。 該限制將不適用。 確保這是有意的。"
             },
             "nav": {
                 "desc": "為您的論壇設置自定義 Outgoing Webhooks。"
@@ -68,8 +68,8 @@
                     "max_post_content_length_help": "設置所有與貼文相關事件的最大貼文內容長度。 0 或不填表示無限制。",
                     "extra_text_label": "附加文字",
                     "extra_text_help": "附加文字到發送的 Webhook 中。",
-                    "group_label": "組群",
-                    "group_help": "發送該組群可見的資源",
+                    "group_label": "群組",
+                    "group_help": "發送該群組可見的資源",
                     "events_label": "事件"
                 },
                 "services": {
@@ -88,7 +88,7 @@
                             "deleted": "=> fof-webhooks.ref.delete"
                         },
                         "group": {
-                            "title": "Flarum 用戶組",
+                            "title": "Flarum 群組",
                             "created": "創建",
                             "renamed": "=> fof-webhooks.ref.rename",
                             "deleted": "=> fof-webhooks.ref.delete"
