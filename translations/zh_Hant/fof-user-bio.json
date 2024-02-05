@@ -2,12 +2,12 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "查看個性簽名",
-                "editOwn": "編輯自己的個性簽名",
-                "editAny": "編輯所有人的個性簽名"
+                "view": "查看簽名檔",
+                "editOwn": "編輯自己的簽名檔",
+                "editAny": "編輯所有人的簽名檔"
             },
             "setting": {
-                "bioLimit": "個性簽名字數上限",
+                "bioLimit": "簽名檔字數上限",
                 "maxLines": "最大顯示行數",
                 "allowFormatting": "允許使用格式化簽名",
                 "allowFormatting_help": "根據設計，此格式與文章格式是分開的。 如果啟用 BBCode 或 Markdown 擴充套件，將可用於格式化簡介。 不允許使用圖像或嵌入。 新增至 Flarum 格式化程式的擴充功能必須「明確」新增對 bio 格式化程式的支援。"
@@ -15,7 +15,7 @@
         },
         "forum": {
             "userbioPlaceholder": "寫一些關於你自己的介紹…",
-            "userbioPlaceholderOtherUser": "為 {username} 設置個性簽名"
+            "userbioPlaceholderOtherUser": "為 {username} 設置簽名檔"
         }
     }
 }
