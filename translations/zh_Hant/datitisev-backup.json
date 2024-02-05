@@ -62,7 +62,7 @@
                     },
                     "path-prefix": {
                         "label": "路徑前綴",
-                        "description": "可選擇的默認文件路徑前綴。"
+                        "description": "可選擇的預設文件路徑前綴。"
                     }
                 },
                 "azure": {
@@ -100,7 +100,7 @@
                     },
                     "path-prefix": {
                         "label": "路徑前綴",
-                        "description": "可選擇的默認文件路徑前綴。"
+                        "description": "可選擇的預設文件路徑前綴。"
                     }
                 },
                 "dropbox": {
@@ -121,7 +121,7 @@
                         "obtain-access-code-button": "開啟 Dropbox",
                         "obtain-refresh-token-label": "使用訪問代碼獲取刷新令牌（需要app key & secret）",
                         "obtain-refresh-token-button": "使用代碼",
-                        "obtain-refresh-token-success": "刷新令牌已成功獲取並更新！ 請保存。"
+                        "obtain-refresh-token-success": "刷新令牌已成功獲取並更新！ 請儲存。"
                     },
                     "access-token": {
                         "label": "訪問令牌",
@@ -155,11 +155,11 @@
                     },
                     "username": {
                         "label": "用戶名",
-                        "description": "要在 FTP 服務器上進行身份驗證的用戶名。"
+                        "description": "要在 FTP 伺服器上進行身份驗證的用戶名。"
                     },
                     "password": {
                         "label": "請輸入帳號密碼",
-                        "description": "要在 FTP 服務器上進行身份驗證的密碼。"
+                        "description": "要在 FTP 伺服器上進行身份驗證的密碼。"
                     },
                     "private-key": {
                         "label": "私鑰",
@@ -167,7 +167,7 @@
                     },
                     "port": {
                         "label": "端口",
-                        "description": "FTP 端口（默認 21）。"
+                        "description": "FTP 端口（預設 21）。"
                     },
                     "root": {
                         "label": "根路徑",
@@ -175,15 +175,15 @@
                     },
                     "passive": {
                         "toggle": "被動連結",
-                        "description": "是否使用被動 FTP 連接到服務器。"
+                        "description": "是否使用被動 FTP 連接到伺服器。"
                     },
                     "ssl": {
                         "toggle": "SSL",
-                        "description": "是否使用加密 SSL 連接到服務器。"
+                        "description": "是否使用加密 SSL 連接到伺服器。"
                     },
                     "timeout": {
                         "label": "時間超時",
-                        "description": "等待與 FTP 服務器連接的秒數。"
+                        "description": "等待與 FTP 伺服器連接的秒數。"
                     }
                 }
             },
