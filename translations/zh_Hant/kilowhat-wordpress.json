@@ -6,8 +6,8 @@
                 "api_key": "Flarum API Key",
                 "wordpress_url": "WordPress URL",
                 "wordpress_username": "WordPress 管理員用戶名",
-                "section_sso_intro": "此功能將無縫綁定 WordPress 和 Flarum 賬號。系統將自動為他們創建賬號並與 WordPress 保持同步。如果您在 Flarum 中已有賬號，系統將自動通過郵箱綁定重覆的賬號。如果您通過 Flarum 刪除了一個用戶，那麽下次該用戶仍然可以使用 WordPress 賬號登錄恢複賬號。要封禁一個 Flarum 用戶，請在 Flarum 中封禁該賬戶。\n",
-                "enable_sso": "啟用SSO登錄集成",
+                "section_sso_intro": "此功能將無縫綁定 WordPress 和 Flarum 帳號。系統將自動為他們創建帳號並與 WordPress 保持同步。如果您在 Flarum 中已有帳號，系統將自動通過郵箱綁定重覆的帳號。如果您通過 Flarum 刪除了一個用戶，那麽下次該用戶仍然可以使用 WordPress 帳號登入恢復帳號。要封鎖一個 Flarum 用戶，請在 Flarum 中封鎖該帳戶。\n",
+                "enable_sso": "啟用SSO登入集成",
                 "cookie_domain": "Cookie域名",
                 "cookie_domain_help": "只當與 Flarum 域名不同時才需填寫",
                 "wordpress_login_path": "WordPress登入路徑",
@@ -20,25 +20,25 @@
                 },
                 "username_strategy_help": "如果用戶名已被Flarum其他用戶佔用, 則在用戶名後附加隨機數字",
                 "force_username_choice": "讓用戶在首次訪問時選擇自己的用戶名",
-                "force_username_choice_help": "上面選擇的規則會提供一個默認值。",
+                "force_username_choice_help": "上面選擇的規則會提供一個預設值。",
                 "welcome_message": "介紹訊息",
                 "welcome_message_help": "該信息將在用戶首次訪問論壇時顯示，同時還將顯示用戶名選擇（如果啟用）。",
-                "wordpress_login_only": "只允許 WordPress 登錄",
-                "wordpress_login_only_help": "禁止使用 Flarum 登錄，當需要登錄時直接打開 WordPress 登錄模塊。這將自動關閉 Flarum 的「註冊」權限。\n",
+                "wordpress_login_only": "只允許 WordPress 登入",
+                "wordpress_login_only_help": "禁止使用 Flarum 登入，當需要登入時直接打開 WordPress 登入模塊。這將自動關閉 Flarum 的「註冊」權限。\n",
                 "user_delete": "在 WordPress 刪除用戶後的操作",
                 "user_delete_options": {
                     "ignore": "無視（保留 Flarum 用戶）",
                     "delete": "刪除 Flarum 用戶",
-                    "suspend": "永久封禁 Flarum 用戶（必須已經啟用 Suspend 插件）"
+                    "suspend": "永久封鎖 Flarum 用戶（必須已經啟用 Suspend 插件）"
                 },
                 "user_delete_desc": "如果選擇「刪除」，則只刪除用戶，不刪除 Flarum 中已發表的內容。",
-                "section_comments_intro": "此功能使用 Flarum 框架替換 WordPress 評論模塊。 這會使未登錄訪客無法發表評論。 只有在 WordPress 中啟用了評論功能的帖子才會創建對應的主題帖。 啟用或禁用評論功能時，Flarum 會同步鎖定主題。 如果您啟用此功能時，您的博客已經有文章存在，您需要在每篇文章上手動禁用並重新啟用評論功能以創建 Flarum 主題帖。\n",
+                "section_comments_intro": "此功能使用 Flarum 框架替換 WordPress 評論模塊。 這會使未登入訪客無法發表評論。 只有在 WordPress 中啟用了評論功能的貼文才會創建對應的主題帖。 啟用或禁用評論功能時，Flarum 會同步鎖定主題。 如果您啟用此功能時，您的博客已經有文章存在，您需要在每篇文章上手動禁用並重新啟用評論功能以創建 Flarum 主題帖。\n",
                 "enable_comments": "啟用評論集成",
                 "excerpt_html_whitelist": "要保留在摘錄中的 HTML 標籤白名單（半角逗號分隔）",
                 "excerpt_html_nodes": "內容摘錄的長度（以 HTML 節點數為單位）",
                 "excerpt_length": "內容摘錄的長度（以字符為單位）",
-                "post_thumbnail_summary": "在摘錄上方顯示 WordPress 帖子縮圖",
-                "post_thumbnail_list": "在 Flarum 討論列表中顯示 WordPress 帖子縮圖",
+                "post_thumbnail_summary": "在摘錄上方顯示 WordPress 貼文縮圖",
+                "post_thumbnail_list": "在 Flarum 討論列表中顯示 WordPress 貼文縮圖",
                 "comment_author_sync": "從 SSO 分配討論作者",
                 "comment_author_sync_help": "如果 Wordpress 作者通過 SSO 創建了一個 Flarum 帳戶，該 Flarum 帳戶將被設置為評論所有者。",
                 "comment_tag": "新評論主題貼的標籤",
@@ -46,9 +46,9 @@
                 "comment_tag_custom": "自定義值",
                 "comment_tag_custom_help": "標籤 ID（半角逗號分隔）",
                 "summary_as_last_post": "將摘要帖設置為新主題的末帖",
-                "summary_as_last_post_help": "這將使得發布 WordPress 文章後，新的評論主題帖立即浮動到 Flarum 主題列表的頂部。 默認情況下，只有在用戶發表第一個評論後，主題帖才會上浮至頂部。\n",
+                "summary_as_last_post_help": "這將使得發布 WordPress 文章後，新的評論主題帖立即浮動到 Flarum 主題列表的頂部。 預設情況下，只有在用戶發表第一個評論後，主題帖才會上浮至頂部。\n",
                 "use_post_date": "使用 WordPress 文章的發布日期作為主題帖的創建日期",
-                "use_post_date_help": "默認情況下，Flarum 主題帖將使用當前時間作為其創建日期。 如果 WordPress 文章屬於過去的日期，開啟此選項將允許主題帖使用過去的日期作為創建時間。\n",
+                "use_post_date_help": "預設情況下，Flarum 主題帖將使用目前時間作為其創建日期。 如果 WordPress 文章屬於過去的日期，開啟此選項將允許主題帖使用過去的日期作為創建時間。\n",
                 "post_hide": "WordPress 文章被隱藏（丟棄或移至草稿）後的操作",
                 "post_hide_options": {
                     "ignore": "無視（根據允許評論鎖定主題帖）",
@@ -67,7 +67,7 @@
             "tabs": {
                 "wizard": "安裝指引",
                 "general": "常規設置",
-                "sso": "SSO 登錄集成",
+                "sso": "SSO 登入集成",
                 "comments": "評論集成",
                 "enabled": "啟用",
                 "disabled": "停用"
@@ -77,17 +77,17 @@
             },
             "edit_css": {
                 "title": "編輯自定義嵌入 CSS",
-                "customize_text": "您的 LESS/CSS 將僅覆蓋 WordPress 框架內的 Flarum <a>默認樣式</a>。"
+                "customize_text": "您的 LESS/CSS 將僅覆蓋 WordPress 框架內的 Flarum <a>預設樣式</a>。"
             },
             "permissions": {
                 "gambits": "WordPress 第三方策略（詳見說明）"
             },
             "save-controls": {
                 "validation-errors": "您提交的內容有誤",
-                "unsaved-changes": "有未保存的更改",
-                "saved-at": "{ago} 已保存",
-                "no-unsaved-changes": "所有內容已保存",
-                "save": "保存"
+                "unsaved-changes": "有未儲存的更改",
+                "saved-at": "{ago} 已儲存",
+                "no-unsaved-changes": "所有內容已儲存",
+                "save": "儲存"
             },
             "health": {
                 "title": "健康檢查",
@@ -112,15 +112,15 @@
                 "title": "歡迎光臨！",
                 "default_message": "歡迎訪問論壇。 一切都已準備就緒，請選擇一個用戶名！",
                 "username": "選擇用戶名",
-                "submit": "啟用論壇賬戶",
+                "submit": "啟用論壇帳戶",
                 "not_now": "暫且跳過並以訪客身份瀏覽"
             },
             "edit-user-modal": {
                 "warning": "該用戶與 WordPress 保持同步，請從 WordPress 中修改電子郵件和密碼。\n",
                 "edit_in_wordpress": "在 WordPress 中編輯",
                 "should_not_edit_email": "您應該在 WordPress 中修改電子郵件。 <a>仍要修改</a>",
-                "unlink": "解除此用戶與 WordPress 賬號的鏈接",
-                "unlink_help": "如果郵箱與 WordPress 賬號匹配，則該用戶下次使用 WordPress 登錄時，將再次鏈接。"
+                "unlink": "解除此用戶與 WordPress 帳號的連結",
+                "unlink_help": "如果郵箱與 WordPress 帳號匹配，則該用戶下次使用 WordPress 登入時，將再次連結。"
             },
             "settings": {
                 "edit_on_wordpress": "在主站修改郵箱和密碼"
@@ -141,36 +141,36 @@
                 "message": "這個頁面將帶您前往{href}",
                 "open": "打開連結"
             },
-            "thumbnail_alt_fallback": "WordPress 帖子縮圖"
+            "thumbnail_alt_fallback": "WordPress 貼文縮圖"
         },
         "api": {
             "blocked_actions": {
-                "login": "這個帳號連結到WordPress，請前往主頁登錄。",
-                "password_reset": "這個帳號已與WordPress帳號綁定，請使用主站登錄表單重置密碼。",
-                "email_change": "此賬號已與WordPress綁定，請前往主站個人資料頁面修改郵箱。"
+                "login": "這個帳號連結到WordPress，請前往主頁登入。",
+                "password_reset": "這個帳號已與WordPress帳號綁定，請使用主站登入表單重置密碼。",
+                "email_change": "此帳號已與WordPress綁定，請前往主站個人資料頁面修改郵箱。"
             },
             "health": {
                 "suspend-extension-required": "必須啟用暫停擴展才能使用“用戶刪除操作”的“暫停”選項",
                 "cookie-domain-format": "cookie 域似乎不是有效域。 檢查它是否只是一個沒有任何協議或路徑的域",
-                "login-only-signup-open": "您需要在 Flarum 權限下禁用註冊才能使“僅允許 WordPress 登錄”設置完全生效",
+                "login-only-signup-open": "您需要在 Flarum 權限下禁用註冊才能使“僅允許 WordPress 登入”設置完全生效",
                 "lock-extension-required": "必須啟用 Lock 擴展才能使用 Comments 集成",
                 "tags-extension-required": "如需要添加標籤請啟用標籤擴展",
                 "tag-not-exist": "為“新評論主題的標籤 ID”選項選擇的標籤 ID {id} 不存在",
                 "debug-mode": "除錯模式已啟用如果完成後請關閉",
-                "config-url-trailing-slash": "config.php 中定義的 Flarum URL 不應有尾部斜杠（當前值：“{url}”）",
-                "config-url-https": "config.php 中定義的 Flarum URL 應該是 HTTPS（當前值：“{url}”）",
+                "config-url-trailing-slash": "config.php 中定義的 Flarum URL 不應有尾部斜杠（目前值：“{url}”）",
+                "config-url-https": "config.php 中定義的 Flarum URL 應該是 HTTPS（目前值：“{url}”）",
                 "wordpress-username-missing": "必須填寫“WordPress 管理員用戶名”設置",
                 "api-key-missing": "“Flarum API 密鑰”丟失。 嘗試刷新管理面板並檢查日誌文件是否存在可能的錯誤",
                 "wordpress-url-missing": "必須填寫“WordPress URL”設置",
-                "wordpress-url-invalid": "“WordPress URL”設置似乎不是有效的 URL（當前值：“{url}”）",
-                "wordpress-url-index-php": "“WordPress URL”設置不得包含“/index.php”（當前值：“{url}”）",
-                "wordpress-url-trailing-slash": "“WordPress URL”設置不得包含尾部斜杠（當前值：“{url}”）",
-                "wordpress-url-https": "“WordPress URL”設置應為 HTTPS（當前值：“{url}”）",
+                "wordpress-url-invalid": "“WordPress URL”設置似乎不是有效的 URL（目前值：“{url}”）",
+                "wordpress-url-index-php": "“WordPress URL”設置不得包含“/index.php”（目前值：“{url}”）",
+                "wordpress-url-trailing-slash": "“WordPress URL”設置不得包含尾部斜杠（目前值：“{url}”）",
+                "wordpress-url-https": "“WordPress URL”設置應為 HTTPS（目前值：“{url}”）",
                 "wordpress-url-mismatch": "Flarum 中的“WordPress URL”設置與 WordPress 中的“WordPress 地址 (URL)”設置不匹配（預期：“{expected}”，實際：“{actual}”）",
                 "flarum-url-mismatch": "WordPress 中的“Flarum URL”設置與 Flarum config.php 中配置的 URL 不匹配（預期：“{expected}”，實際：“{actual}”）",
                 "api-key-mismatch": "WordPress 中的“Flarum API 密鑰”設置與 Flarum 中的“Flarum API 密鑰”設置不匹配（預期：“{expected}”，實際：“{actual}”）",
-                "user-id-not-found": "WordPress 中的“Flarum 用戶 ID”設置與任何已知的 Flarum 用戶都不匹配（當前值：“{actual}”）。 要使用當前登錄的用戶，您可以使用 ID“{suggested}”\n",
-                "user-id-not-admin": "WordPress 中的“Flarum 用戶 ID”設置與 Flarum 管理員不匹配（當前值：“{actual}”）。 要使用當前登錄的用戶，您可以使用 ID“{suggested}”\n",
+                "user-id-not-found": "WordPress 中的“Flarum 用戶 ID”設置與任何已知的 Flarum 用戶都不匹配（目前值：“{actual}”）。 要使用目前登入的用戶，您可以使用 ID“{suggested}”\n",
+                "user-id-not-admin": "WordPress 中的“Flarum 用戶 ID”設置與 Flarum 管理員不匹配（目前值：“{actual}”）。 要使用目前登入的用戶，您可以使用 ID“{suggested}”\n",
                 "sso-mismatch-flarum": "SSO 集成在 Flarum 中啟用，但在 WordPress 中未啟用",
                 "sso-mismatch-wordpress": "SSO 集成在 WordPress 中啟用，但在 Flarum 中未啟用",
                 "cookie-domain-mismatch": "WordPress 中的“Cookie 域”設置與 Flarum 中的“Cookie 域”設置不匹配（WordPress 值為“{wordpress}”，Flarum 值為“{flarum}”）",
@@ -191,7 +191,7 @@
         },
         "views": {
             "error": {
-                "missing_wordpress_embed": "這篇文章還沒有評論線程。 如果您是Blog管理員，請發布帖子，或禁用並重新啟用評論以啟動話題。\n"
+                "missing_wordpress_embed": "這篇文章還沒有評論線程。 如果您是Blog管理員，請發布貼文，或禁用並重新啟用評論以啟動話題。\n"
             }
         }
     }
