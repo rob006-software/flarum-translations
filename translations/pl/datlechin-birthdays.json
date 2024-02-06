@@ -2,42 +2,42 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Zmień swoją datę urodzin",
+                "view_birthday_label": "Wyświetl urodziny"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Zezwól na ustawianie daty urodzin przy rejestracji",
+                "required_label": "Wymagane wprowadzenie daty urodzin",
+                "required_help": "Aby ta opcja działała, należy włączyć opcję Wymagaj przy rejestracji",
+                "min_age_label": "Minimalny wiek",
+                "min_age_help": "Minimalny wiek do rejestracji",
+                "date_format_label": "Format daty",
+                "date_format_help": "Użyj formatu daty <a>dayjs</a>. Pozostaw puste, aby użyć domyślnego formatu.",
+                "date_none_year_label": "Format daty bez roku"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Urodziny: {date}",
+                "age_text": "Wiek: {age}"
             },
             "change_dob": {
-                "title": "",
+                "title": "Zmień datę urodzin",
                 "date_of_birth_text": "",
                 "submit_button": ""
             },
             "settings": {
-                "change_dob_label": "",
+                "change_dob_label": "Zmień datę urodzin",
                 "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "show_dob_date_label": "Pokaż dzień i miesiąc urodzin",
+                "show_dob_year_label": "Pokaż rok urodzenia",
+                "show_dob_year_help": "Pozwoli to ludziom zobaczyć Twój wiek."
             },
             "edit_user": {
                 "dob_heading": ""
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Dzisiejsze urodziny"
             },
             "page": {
                 "discussion_count": "",
@@ -48,11 +48,11 @@
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Nieprawidłowa data urodzenia",
+            "invalid_age_message": "Twój wiek musi wynosić co najmniej {minAge} lat."
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Data urodzin"
         }
     }
 }
