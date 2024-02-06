@@ -748,6 +748,9 @@ return [
 	'ianm-gravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/gravatar/0.2.1/resources/locale/en.yml',
 	],
+	'ianm-horizon' => [
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-horizon/1.0.0/resources/locale/en.yml',
+	],
 	'ianm-html-head' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/html-head/1.2.3/resources/locale/en.yml',
 	],
