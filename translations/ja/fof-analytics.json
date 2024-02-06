@@ -4,15 +4,15 @@
             "popup": {
                 "section": {
                     "googleAnalytics": "Google Analytics",
-                    "piwik": "Piwik"
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "Google Analytics を有効にする",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "Tracking Code ID",
-                    "googleGTMCode": "",
-                    "statusPiwik": "Piwik を有効にする",
-                    "piwikUrl": "Piwik ドメイン名またはリンク",
+                    "statusGoogle": "Google Analytics を有効にする (UA/GA4)",
+                    "optTrackingCode": "トラッキングコードの最適化（任意）",
+                    "googleTrackingCode": "トラッキングコード ID",
+                    "googleGTMCode": "GTMコードID（任意）",
+                    "statusPiwik": "Matomo を有効にする",
+                    "piwikUrl": "Matomoドメイン名またはリンク",
                     "piwikSiteId": "Site ID",
                     "piwikTrackSubdomain": "すべての Flarum サブドメイン訪問者を追跡する",
                     "piwikPrependDomain": "追跡するときに、ページタイトルの先頭に Web サイトのドメイン名を配置します",
@@ -22,7 +22,7 @@
                     "piwikAuthToken": "認証 Token"
                 },
                 "placeholder": {
-                    "piwikAuthToken": "この token を入力して、管理パネルの Piwik 統計タブを有効にします。\n設定 > 個人 > API 認証Token にあります。\n"
+                    "piwikAuthToken": "管理画面でMatomo統計ウィジェットを有効にするには、このトークンを入力してください。\n設定 > 個人 > API 認証Token にあります。\n"
                 },
                 "trackAccounts": {
                     "none": "追跡しません",
@@ -31,7 +31,7 @@
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }
