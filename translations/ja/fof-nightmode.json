@@ -1,19 +1,19 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "自動（ブラウザまたはデバイスのオプションに基づく）",
+            "light": "通常モード",
+            "dark": "ナイトモード"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
-                    "default_theme": "",
-                    "default_theme_helper": "",
-                    "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "always_show_theme_toggle_on_header": "フォーラムのヘッダーに常にテーマ切り替えボタンを表示する",
+                    "default_theme": "デフォルトテーマ",
+                    "default_theme_helper": "デフォルトのテーマは、新規ユーザー、ゲスト、およびプリファレンスを設定していないユーザーに対して自動的に設定されます。",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
                 }
             }
         },
@@ -21,25 +21,25 @@
             "day": "デイモード",
             "night": "ナイトモード",
             "header": {
-                "nightmode_button": ""
+                "nightmode_button": "フォーラムテーマの切り替え"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
-                    "auto_unsupported": "",
+                    "heading": "テーマ",
+                    "description": "フォーラムで使用するカラーテーマを選択してください。",
+                    "description2": "このテーマはあなたのアカウントにリンクされ、以下のデバイスごとの設定スイッチをオンにしない限り、すべてのデバイスに適用されます。",
+                    "device_specific_setting_checkbox": "デバイスごとに設定",
+                    "device_specific_setting_checkbox_tooltip": "選択したテーマは、デバイスごとに個別に保存されます。",
+                    "auto_unsupported": "お使いのブラウザは自動ダークモードをサポートしていません。",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "テーマはブラウザやデバイスの設定に基づいて自動的に選択されます。例えば、iOSでダークモードを有効にしている場合、フォーラムもダークになります。",
+                        "day": "慣れ親しんだクラシックな体験。",
+                        "night": "あなたは夜更かしが好きなようです。鳥が眠り、キツネが狩りをしている間、あなたは夜のフォーラムを見守る。あるいは、ただ暗い色が好きなだけ！"
                     }
                 }
             }
@@ -48,10 +48,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "",
-                "fofNightMode-help": "",
-                "fofNightMode_perDevice": "",
-                "fofNightMode_perDevice-help": ""
+                "fofNightMode": "FoF Nightmode: デフォルトで使用するカラーテーマ",
+                "fofNightMode-help": "0 - 自動, 1 - 通常モード, 2 - ダークモード",
+                "fofNightMode_perDevice": "FoF Nightmode: デバイスごとに設定",
+                "fofNightMode_perDevice-help": "ナイトモードの設定には、デバイスごとの環境設定を使用する"
             }
         }
     }
