@@ -2,27 +2,27 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": "カスタム HTML メールテンプレート"
+                "desc": "HTML メールテンプレートをカスタマイズする。"
             },
             "settings": {
                 "attributes": {
-                    "body": "",
-                    "forumStyle": "",
-                    "url": "",
-                    "settings": "",
-                    "link": ""
+                    "body": "メールの実際の内容を含む",
+                    "forumStyle": "<strong>フォーラム全体のCSS</strong>を含む",
+                    "url": "Flarum's <code>UrlGenerator</code>",
+                    "settings": "SettingsRepositoryInterface とのやり取りを許可",
+                    "link": "メール内のリンクを含む"
                 },
-                "attributes_label": "",
+                "attributes_label": "使用可能な属性",
                 "label": "メールテンプレート",
                 "reset": "デフォルトに戻す",
-                "confirm": "メールテンプレートを次のように復元しますか？",
+                "confirm": "メールテンプレートを次のように復元しますか",
                 "default": "デフォルトのテンプレート",
                 "newPost": "Flarum/subscriptions 新しい投稿通知メール",
                 "userMentioned": "Flarum/mentions 言及されたユーザー",
                 "postMentioned": "Flarum/mentions 投稿に言及",
                 "notifications": "通知テンプレート",
                 "notificationHelp": "これらのメッセージには、 \"$forumStyle\"をお勧めします。BBCODE これらのメッセージは、 \"$user\" を使用して、受信者の完全なユーザープロファイルを参照できます。",
-                "template_help": ""
+                "template_help": "各属性の使い方については、各テンプレートを参照してください。"
             },
             "css_settings": {
                 "label": "CSS 設定",
