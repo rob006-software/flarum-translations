@@ -5,10 +5,10 @@
                 "title": "FriendsOfFlarum GeoIP",
                 "service_label": "Usługa",
                 "service_ipdata_label": "IPData",
-                "service_ipdata_description": "Użyj <b>https://ipdata.co</b>, aby sprawdzić do 1 500 IP dziennie, całkiem za darmo.",
+                "service_ipdata_description": "Użyj <b>https://ipdata.co</b>, aby sprawdzić do 1 500 IP dziennie, całkiem za darmo. Dostępne są również płatne plany z wyższymi limitami użytkowania.",
                 "service_ipapi_label": "IP-API",
                 "service_ipapi_description": "Użyj <b>http://ip-api.com</b>, aby sprawdzić do 45 IP na minutę, całkiem za darmo. Jeśli wykonasz więcej zapytań, Twoje IP może zostać zablokowane. Możesz je odblokować na <b>http://ip-api.com/docs/unban</b>.",
-                "service_ipapi-pro_label": "",
+                "service_ipapi-pro_label": "IP Api Pro",
                 "service_ipapi-pro_description": "",
                 "service_iplocation_label": "IP Location",
                 "service_iplocation_description": "Użyj <b>https://www.iplocation.net/</b>, aby pobrać informacje o kraju i ISP. Limity dotyczące częstotliwości odwołań do API nie są znane.",
@@ -25,10 +25,10 @@
             "alerts": {
                 "ip_copied": "Skopiowano adres IP"
             },
-            "map_button_label": "",
+            "map_button_label": "Informacje o IP",
             "map_modal": {
                 "title": "",
-                "ip_address": "",
+                "ip_address": "Adres IP",
                 "country_code": "",
                 "zip_code": "",
                 "isp": "",
