@@ -2,35 +2,35 @@
     "nodeloc-dislikes": {
         "admin": {
             "permissions": {
-                "dislike_posts_label": "给文章差评"
+                "dislike_posts_label": "点踩"
             },
             "settings": {
-                "dislike_own_posts_help": "",
-                "dislike_own_posts_label": ""
+                "dislike_own_posts_help": "启用此项，以允许用户踩自己的帖子。",
+                "dislike_own_posts_label": "给自己点踩"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_disliked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_disliked_text": "{username} 踩了你的帖子"
             },
             "post": {
-                "dislike_link": "",
-                "disliked_by_self_text": "",
-                "disliked_by_text": "",
-                "others_link": "",
-                "undislike_link": "",
-                "you_text": ""
+                "dislike_link": "踩",
+                "disliked_by_self_text": "{users} 踩了一下。",
+                "disliked_by_text": "{users} 踩了一下。",
+                "others_link": "=> core.ref.some_others",
+                "undislike_link": "取消踩",
+                "you_text": "=> core.ref.you"
             },
             "post_dislikes": {
-                "title": "",
-                "load_more_button": ""
+                "title": "到此一踩",
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
-                "notify_post_disliked_label": ""
+                "notify_post_disliked_label": "有人踩了我的帖子"
             },
             "user": {
-                "dislikes_link": ""
+                "dislikes_link": "我的踩"
             }
         }
     }
