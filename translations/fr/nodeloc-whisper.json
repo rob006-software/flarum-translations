@@ -2,38 +2,38 @@
     "nodeloc-whisper": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "title": ""
+                "return_key": "La touche retour envoie un message",
+                "title": "Paramètres de Whisper"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "Démarrer des conversations privées"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Conversations"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Envoyer un message",
+                "help": "Commencez à saisir un nom d'utilisateur pour démarrer une conversation.",
+                "help_start": "Envoyer un message à {username}.",
+                "search_recipients": "Saisir le nom d'utilisateur…",
+                "submit": "Envoyer",
+                "copied": "Votre message a été copié dans le presse-papiers.",
+                "more_users": "Si vous ne voyez pas l'utilisateur que vous recherchez, cela signifie que sa messagerie privée n'a pas été configurée.",
+                "already": "Vous avez déjà une conversation avec {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "send_success": ""
+                "messages_single": "Nouvelle conversation",
+                "messages_multiple": "{count} messages au total",
+                "chat_with": "Envoyer un message",
+                "start": "Démarrer une conversation",
+                "start_of_conversation": "Début de la conversation",
+                "read": "Lu",
+                "cant_start": "Impossible de démarrer la conversation",
+                "text_placeholder": "Saisissez votre message",
+                "send": "Envoyer le message",
+                "send_success": "Le message a été envoyé"
             }
         }
     }
