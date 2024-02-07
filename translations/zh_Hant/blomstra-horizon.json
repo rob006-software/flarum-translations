@@ -1,12 +1,33 @@
 {
     "blomstra-horizon": {
         "admin": {
+            "settings": {
+                "trim_title": "",
+                "trim_help": "",
+                "trim_recent": "",
+                "trim_recent_help": "",
+                "trim_pending": "",
+                "trim_pending_help": "",
+                "trim_completed": "",
+                "trim_completed_help": "",
+                "trim_recent_failed": "",
+                "trim_recent_failed_help": "",
+                "trim_failed": "",
+                "trim_failed_help": "",
+                "trim_monitored": "",
+                "trim_monitored_help": ""
+            },
             "stats": {
                 "auto_refresh": "自動重新整理",
                 "heading": "隊列概覽",
                 "full_dashboard": "Horizon 儀表板",
                 "refresh": "重整",
                 "data": {
+                    "redis-used-memory": "",
+                    "redis-peak-memory": "",
+                    "redis-max-memory": "",
+                    "redis-cpu-user": "",
+                    "redis-cpu-sys": "",
                     "jobs-per-minute": "每分鐘作業數",
                     "jobs-past-hour": "過去一小時的工作",
                     "failed-last-seconds": "過去幾秒鐘失敗的作業",

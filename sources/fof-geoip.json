@@ -12,6 +12,8 @@
                 "service_ipapi-pro_description": "Use <b>https://members.ip-api.com/#pricing</b>. Pro plan has unlimited usage.",
                 "service_iplocation_label": "IP Location",
                 "service_iplocation_description": "Use <b>https://www.iplocation.net/</b> to retrieve country and ISP data. Lookup rate limits are unknown.",
+                "service_ipsevenex_label": "7x Geolocation API",
+                "service_ipsevenex_description": "Use <b>https://7x.ax</b> to get a free API key for up to 20 requests per minute. Paid plans for higher usage limits are also available.",
                 "access_key_label": "Access Key",
                 "quota_label": "Lookup quota"
             }
@@ -32,7 +34,8 @@
                 "organization": "Organization",
                 "threat_level": "Threat Level",
                 "threat_types": "Threat Types",
-                "error": "Error"
+                "error": "Error",
+                "not_enough_data": "Not enough data to draw a map"
             }
         }
     }

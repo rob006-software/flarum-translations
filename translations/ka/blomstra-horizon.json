@@ -1,12 +1,33 @@
 {
     "blomstra-horizon": {
         "admin": {
+            "settings": {
+                "trim_title": "",
+                "trim_help": "",
+                "trim_recent": "",
+                "trim_recent_help": "",
+                "trim_pending": "",
+                "trim_pending_help": "",
+                "trim_completed": "",
+                "trim_completed_help": "",
+                "trim_recent_failed": "",
+                "trim_recent_failed_help": "",
+                "trim_failed": "",
+                "trim_failed_help": "",
+                "trim_monitored": "",
+                "trim_monitored_help": ""
+            },
             "stats": {
                 "auto_refresh": "",
                 "heading": "",
                 "full_dashboard": "",
                 "refresh": "",
                 "data": {
+                    "redis-used-memory": "",
+                    "redis-peak-memory": "",
+                    "redis-max-memory": "",
+                    "redis-cpu-user": "",
+                    "redis-cpu-sys": "",
                     "jobs-per-minute": "",
                     "jobs-past-hour": "",
                     "failed-last-seconds": "",

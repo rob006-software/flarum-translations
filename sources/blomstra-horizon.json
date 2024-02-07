@@ -1,12 +1,33 @@
 {
     "blomstra-horizon": {
         "admin": {
+            "settings": {
+                "trim_title": "Trim Settings",
+                "trim_help": "Here you can configure for how long (in minutes) you desire Horizon to\npersist the recent and failed jobs. Typically, recent jobs are kept\nfor one hour while all failed jobs are stored for an entire week.\n",
+                "trim_recent": "Trim Recent Jobs",
+                "trim_recent_help": "This table is used to display recent jobs in the Horizon dashboard.\n",
+                "trim_pending": "Trim Pending Jobs",
+                "trim_pending_help": "This table is used to display pending jobs in the Horizon dashboard.\n",
+                "trim_completed": "Trim Completed Jobs",
+                "trim_completed_help": "This table is used to display completed jobs in the Horizon dashboard.\n",
+                "trim_recent_failed": "Trim Recent Failed Jobs",
+                "trim_recent_failed_help": "This table is used to display recent failed jobs in the Horizon dashboard.\n",
+                "trim_failed": "Trim Failed Jobs",
+                "trim_failed_help": "This table is used to display failed jobs in the Horizon dashboard.\n",
+                "trim_monitored": "Trim Monitored Jobs",
+                "trim_monitored_help": "This table is used to display monitored jobs in the Horizon dashboard.\n"
+            },
             "stats": {
                 "auto_refresh": "Auto Refresh",
                 "heading": "Queue Overview",
                 "full_dashboard": "Horizon Dashboard",
                 "refresh": "Refresh",
                 "data": {
+                    "redis-used-memory": "Redis Used Memory",
+                    "redis-peak-memory": "Redis Peak Memory",
+                    "redis-max-memory": "Redis Max Memory",
+                    "redis-cpu-user": "Redis CPU User",
+                    "redis-cpu-sys": "Redis CPU Sys",
                     "jobs-per-minute": "Jobs Per Minute",
                     "jobs-past-hour": "Jobs Past Hour",
                     "failed-last-seconds": "Failed Jobs Past Few Seconds",
