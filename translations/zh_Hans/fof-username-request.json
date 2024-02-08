@@ -97,13 +97,13 @@
         },
         "email": {
             "body": {
-                "noReasonProvided": "",
-                "approved": "",
-                "rejected": ""
+                "noReasonProvided": "未提供原因。",
+                "approved": "你好，{recipient_display_name}\n\n你将用户名变更为“{new_username}”的申请已被 {actor_display_name} 通过。\n\n你现在可以通过你的新用户名登录：{login_url}\n",
+                "rejected": "你好，{recipient_display_name}\n\n你将用户名从“{old_username}”变更为“{requested_username}”的请求已被 {actor_display_name} 拒绝。\n\n原因：{reason}\n"
             },
             "subject": {
-                "approved": "",
-                "rejected": ""
+                "approved": "{display_name} 同意你将用户名变更为 {requested_username}",
+                "rejected": "{display_name} 拒绝了你将用户名变更为 {requested_username}"
             }
         }
     }
