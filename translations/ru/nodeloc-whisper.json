@@ -2,38 +2,38 @@
     "nodeloc-whisper": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "title": ""
+                "return_key": "Нажмите кнопку ввода для отправки сообщения",
+                "title": "Настройки Whisper"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "Начать частные переписки"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Переписки"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Отправить сообщение",
+                "help": "Начните набирать имя пользователя для открытия чата.",
+                "help_start": "Отправить сообщение для {username}.",
+                "search_recipients": "Введите имя пользователя...",
+                "submit": "Отправить",
+                "copied": "Ваше сообщение скопировано в буфер обмена.",
+                "more_users": "Если вы не видите интересующее имя пользователя, вероятно, он не настроил разрешение частной переписки.",
+                "already": "У вас уже установлена переписка с {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "send_success": ""
+                "messages_single": "Новая переписка",
+                "messages_multiple": "{count} всего сообщений",
+                "chat_with": "Отправить сообщение",
+                "start": "Начать переписку",
+                "start_of_conversation": "Начало переписки",
+                "read": "Прочесть",
+                "cant_start": "Невозможно начать переписку",
+                "text_placeholder": "Наберите ваше сообщение",
+                "send": "Отправить сообщение",
+                "send_success": "Сообщение успешно отправлено"
             }
         }
     }
