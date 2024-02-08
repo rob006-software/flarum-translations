@@ -79,7 +79,7 @@
                 "two_factor_token_label": "Token uwierzytelniania dwuskładnikowego"
             },
             "two_factor_token": {
-                "title": "",
+                "title": "Uwierzytelnianie dwuskładnikowe",
                 "submit_button": "Prześlij token"
             }
         }
@@ -88,8 +88,8 @@
         "lib": {
             "data": {
                 "twofactordata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Eksportuje status 2FA oraz zaszyfrowane kody zapasowe.",
+                    "delete_description": "Usuwa wszystkie dane powiązane z 2FA."
                 }
             }
         }
