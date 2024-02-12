@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Wyeksportuj wszystkie dane dotyczące obserwowanych i obserwujących użytkownikach.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Usuń wszystkie dane dotyczące obserwowanych użytkowników."
                 }
             }
         }
@@ -29,8 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
-                "change_button": ""
+                "unfollow_button": "=> ianm-follow-users.lib.unfollow",
+                "change_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
                 "notify_new_follower_label": "Ktoś zaczął mnie obserwować",
@@ -83,7 +83,7 @@
             "following_link": "Obserwowani użytkownicy",
             "follow": "Obserwuj",
             "change_follow_type": "Ustawienia obserwowania",
-            "unfollow": "",
+            "unfollow": "Przestań obserwować",
             "follow_levels": {
                 "unfollow": {
                     "name": "Nie obserwuj",
