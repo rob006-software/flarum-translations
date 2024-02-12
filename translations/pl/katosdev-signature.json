@@ -4,7 +4,7 @@
             "buttons": {
                 "signature": "Sygnaturka",
                 "save": "Zapisz sygnaturkę",
-                "edit": "Zmień sygnaturę"
+                "edit": "Edytuj sygnaturkę"
             },
             "errors": {
                 "max_char_limit_exceed": "Przekroczono limit znaków.",
@@ -13,7 +13,7 @@
                 "max_image_height_exceed": "Przekroczono maksymalną wysokość obrazka."
             },
             "profile": {
-                "click": "Kliknij by pisać sygnaturę"
+                "click": "Kliknij by wpisać sygnaturkę"
             },
             "modal": {
                 "loading": {
@@ -28,8 +28,8 @@
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "Edytowanie sygnatur użytkowników",
-                "allow_signature": "Posiadanie sygnatury"
+                "edit_signature_others": "Edytowanie sygnaturek innych użytkowników",
+                "allow_signature": "Posiadanie sygnaturki"
             },
             "settings": {
                 "maximum_image_count": {
@@ -38,7 +38,7 @@
                     "placeholder": "5 (domyślne)"
                 },
                 "maximum_char_limit": {
-                    "description": "Maksymalna liczba znaków w sygnaturce (zliczane są znaki, nie brane są pod uwagę tagi HTML)",
+                    "description": "Maksymalna liczba znaków w sygnaturce.",
                     "help": "",
                     "placeholder": "1000 (domyślne)"
                 },
