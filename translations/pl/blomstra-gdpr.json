@@ -2,58 +2,58 @@
     "blomstra-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "Przegląd danych GDPR",
+                "description": "Status różnych działań i integracji GDPR",
                 "data_types": {
-                    "title": "",
-                    "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "title": "Typy danych",
+                    "help_text": "To są obecnie zarejestrowane typy danych. Każdy typ jest wymieniony razem z jego przypisanymi akcjami eksportu, anonimizacji i usuwania. Jeśli rozszerzenie obsługuje jakiekolwiek dane, które podlegają przepisom GDPR, powinno zarejestrować swoje typy danych za pomocą <code>blomstra/gdpr</code>.\nDane przechowywane w tabeli <code>user</code> są obsługiwane oddzielnie, zobacz poniżej dane tabeli użytkowników.\n",
+                    "type": "Typ",
+                    "export_description": "Akcja eksportu",
+                    "anonymize_description": "Akcja anonimizacji",
+                    "delete_description": "Akcja usuwania",
+                    "extension": "Rozszerzenie"
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
-                    "extension_settings_button": ""
+                    "heading": "Ustawienia GDPR",
+                    "help_text": "Szukasz ustawień GDPR? Znajdziesz je na stronie rozszerzenia.",
+                    "extension_settings_button": "Ustawienia GDPR"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Dane tabeli użytkowników",
+                    "help_text": "W większości przypadków każda kolumna dodana do tabeli <code>user</code> będzie obsługiwana automatycznie, zarówno pod kątem eksportowania danych, jak i usuwania.\nIstnieją jednak pewne specjalne przypadki, które są wymienione poniżej.\n"
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "Integracje GDPR"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "process_erasure": "Przetwarzanie żądań usunięcia",
+                "process_export_for_others": "Żądanie i odbieranie eksportu danych dla innych użytkowników",
+                "see_anonymized_user_badges": "Wyświetlanie zanonimizowanych odznak użytkowników"
             },
             "settings": {
-                "allow_anonymization": "",
-                "allow_anonymization_help": "",
-                "allow_deletion": "",
-                "allow_deletion_help": "",
-                "default_anonymous_username": "",
-                "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "",
+                "allow_anonymization": "Zezwalaj na anonimizację dla żądań usunięcia",
+                "allow_anonymization_help": "Domyślna opcja, zalecana dla większości społeczności. W tym trybie posty/komentarze są zachowywane tak bardzo, jak to możliwe zgodnie z GDPR, ale wszelkie informacje identyfikujące użytkownika są usuwane.",
+                "allow_deletion": "Zezwalaj na usunięcie dla żądań usunięcia",
+                "allow_deletion_help": "Opcja znacznie bardziej restrykcyjna. W tym trybie wszystkie posty/komentarze zostaną usunięte i użytkownik zostanie usunięty z bazy danych. Używaj z ostrożnością.",
+                "default_anonymous_username": "Domyślna nazwa użytkownika dla zanonimizowanych użytkowników",
+                "default_anonymous_username_help": "Gdy użytkownik zostanie zanonimizowany, jego nazwa użytkownika zostanie zastąpiona tą wartością, plus ID żądania anonimizacji, na przykład <code>Anonim123</code>.",
+                "default_erasure": "Domyślna akcja dla żądań usunięcia",
+                "default_erasure_help": "Jaka powinna być domyślna akcja dla żądań usunięcia?",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "Anonimizacja",
+                    "deletion": "Usunięcie"
                 },
                 "gdpr_page": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Integracja danych i akcje",
+                    "help_text": "Przed podjęciem decyzji o wyborze akcji na swoim forum, istotne jest zrozumienie, które dane są zintegrowane i jak są one obsługiwane zarówno w przypadku anonimizacji, jak i usuwania. Odwiedź przegląd GDPR, aby zrozumieć, jak dane są obsługiwane i które opcjonalne rozszerzenia zarejestrowały swoje dane do obsługi przez to rozszerzenie."
                 }
             },
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "title": "",
-                        "export": ""
+                        "title": "Akcje GDPR",
+                        "export": "Eksportuj dane dla {username}"
                     }
                 }
             }
@@ -61,112 +61,112 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Usuwa awatar użytkownika z systemu plików.",
+                    "export_description": "Pobiera awatar użytkownika z systemu plików i dołącza go do eksportu."
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "Eksportuje wszystkie dyskusje rozpoczęte przez użytkownika. Dane ograniczone do tytułu i daty utworzenia."
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "Eksportuje tytuł forum, URL, nazwę użytkownika, e-mail i bieżącą datę."
                 },
-                "no_action": "",
+                "no_action": "Brak podjętych działań.",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Usuwa adres IP ze wszystkich postów stworzonych przez użytkownika.",
+                    "delete_description": "Usuwa wszystkie posty stworzone przez użytkownika.",
+                    "export_description": "Eksportuje wszystkie posty stworzone przez użytkownika. Dane ograniczone do treści, daty utworzenia, adresu IP i ID dyskusji."
                 },
                 "tokens": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Usuwa wszystkie tokeny stworzone przez użytkownika.",
+                    "export_description": "Eksportuje wszystkie tokeny stworzone przez użytkownika. Dane ograniczone do daty utworzenia i typu tokenu."
                 },
                 "user": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Ustawia wszystkie kolumny w tabeli użytkownika na null. Kolumny, które nie mogą być puste, są ustawiane na ich domyślne wartości lub specjalne wartości. Hasło jest zmieniane, preferencje są resetowane, a wszystkie grupy są usuwane.",
+                    "delete_description": "Usuwa użytkownika z bazy danych.",
+                    "export_description": "Eksportuje dane z tabeli użytkownika. Wszystkie kolumny oprócz id, hasła."
                 }
             },
             "request_data": {
-                "title": "",
-                "text": "",
-                "request_button": ""
+                "title": "Zażądaj danych dla {username}",
+                "text": "Przygotujemy dla Ciebie archiwum zip. Gdy będzie gotowe, otrzymasz powiadomienie z linkiem do pobrania. Link będzie aktywny przez jeden dzień.\n",
+                "request_button": "Zażądaj archiwum"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
-                "body": ""
+                "subject": "Potwierdź swoje żądanie usunięcia konta",
+                "body": "Cześć {display_name}!\n\nKtoś (mamy nadzieję, że Ty) właśnie zażądał usunięcia konta `{display_name}`.\n\nAby potwierdzić tę akcję, proszę kliknąć poniższy link, po czym Twoje żądanie zostanie przetworzone przez nasz zespół.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Usuwanie konta zakończone",
+                    "body": "Cześć {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało usunięte.\n"
                 },
                 "anonymization": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Anonimizacja konta zakończona",
+                    "body": "Cześć {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało zanonimizowane.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
-                "body": ""
+                "subject": "Żądanie usunięcia konta anulowane",
+                "body": "Cześć {display_name}!\n\nTo jest automatyczne powiadomienie, że Twoje żądanie anulowania usunięcia konta zostało przetworzone.\n\nTwoje konto nie zostanie usunięte.\n"
             },
             "export_available": {
-                "subject": "",
-                "body": ""
+                "subject": "Eksport danych dostępny",
+                "body": "Cześć {display_name}!\n\nZażądałeś eksportu danych konta dla {username}. Ten eksport został pomyślnie wygenerowany i jest teraz dostępny:\n\n{url}\n\nTen eksport będzie dostępny do {destroys_at}.\n"
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Anonimowy Użytkownik"
             },
             "delete_user": {
-                "title": "",
-                "text": "",
-                "modal_delete_button": "",
-                "delete_button": ""
+                "title": "Usuń konto {username}",
+                "text": "Czy na pewno chcesz usunąć konto {username}?\n\nTa akcja jest nieodwracalna.\n",
+                "modal_delete_button": "Usuń przy użyciu domyślnej akcji",
+                "delete_button": "Usuń"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Brak oczekujących żądań usunięcia konta",
+                "item_text": "{name} zażądał usunięcia konta",
+                "tooltip": "Żądania usunięcia konta",
+                "title": "Żądania usunięcia konta"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Potwierdziłeś swoje żądanie usunięcia konta. Działanie zostanie podjęte w ciągu 30 dni, zgodnie z wymogami GDPR.",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Dane osobowe"
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "Eksport danych",
+                "export_data_help": "Żądanie eksportu danych zapewni Ci możliwość pobrania kopii wszystkich informacji związanych z Twoim kontem. Obejmuje to posty, komentarze i szczegóły profilu.",
+                "request_erasure_button": "Usuń konto",
+                "request_erasure_help": "Żądanie usunięcia spowoduje trwałe usunięcie Twojego konta i wszystkich powiązanych danych. Ta akcja jest nieodwracalna. Przed kontynuowaniem upewnij się, że zapisałeś wszelkie treści, które chcesz zachować."
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "confirm": "Czy na pewno chcesz usunąć konto {name} w trybie {mode}?",
+                "title": "Przetwarzanie żądania usunięcia",
+                "text": "{name} zażądał usunięcia konta.",
+                "comments_label": "Komentarze (opcjonalnie)",
+                "anonymization_button": "Anonimizuj użytkownika",
+                "deletion_button": "Usuń użytkownika"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Zażądaj usunięcia konta",
+                "reason": "Podano następujący powód: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Powinieneś otrzymać e-mail, aby potwierdzić żądanie usunięcia konta.\n",
+                    "user_confirmed": "Potwierdziłeś swoje żądanie usunięcia konta. Działanie zostanie podjęte w ciągu 30 dni, zgodnie z wymogami GDPR.\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "Po otrzymaniu i potwierdzeniu administrator przejrzy Twoje żądanie w ciągu 30 dni, zgodnie z wymogami GDPR.",
+                "password_label": "Potwierdź hasło",
+                "reason_label": "Powód (opcjonalnie)",
+                "cancel_button": "Anuluj żądanie",
+                "request_button": "Zażądaj usunięcia"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "Twój eksport danych dla {username} jest teraz gotowy do pobrania."
             },
-            "export_file": ""
+            "export_file": "Eksport danych użytkownika dla {username} ({email}) przygotowany {date} z {forumTitle} ({url})"
         }
     }
 }
