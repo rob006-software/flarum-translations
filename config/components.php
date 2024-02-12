@@ -112,6 +112,9 @@ return [
 	'blomstra-fontawesome' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-fontawesome/0.1.5/locale/en.yml',
 	],
+	'blomstra-gdpr' => [
+		'beta' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-gdpr/0.1.0-beta.20/resources/locale/en.yml',
+	],
 	'blomstra-horizon' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-horizon/0.4.2/resources/locale/en.yml',
 	],
