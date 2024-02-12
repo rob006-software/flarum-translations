@@ -2,13 +2,13 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "Zmiana swojej daty urodzin",
-                "view_birthday_label": "Wyświetl urodziny"
+                "edit_own_birthday_label": "Zmiana swojej daty urodzenia",
+                "view_birthday_label": "Wyświetlanie urodzin"
             },
             "settings": {
-                "set_on_registration_label": "Zezwól na ustawianie daty urodzin przy rejestracji",
-                "required_label": "Wymagane wprowadzenie daty urodzin",
-                "required_help": "Aby ta opcja działała, należy włączyć opcję Wymagaj przy rejestracji",
+                "set_on_registration_label": "Zezwól na ustawianie daty urodzenia podczas rejestracji",
+                "required_label": "Wymagaj podania daty urodzenia",
+                "required_help": "Aby ta opcja działała, musisz pozwolić na ustawianie daty urodzenia podczas rejestracji",
                 "min_age_label": "Minimalny wiek",
                 "min_age_help": "Minimalny wiek do rejestracji",
                 "date_format_label": "Format daty",
@@ -22,37 +22,37 @@
                 "age_text": "Wiek: {age}"
             },
             "change_dob": {
-                "title": "Zmień datę urodzin",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "Edytuj datę urodzenia",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "Zmień datę urodzin",
-                "dob_heading": "",
+                "change_dob_label": "Zmień datę urodzenia",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "Pokaż dzień i miesiąc urodzin",
                 "show_dob_year_label": "Pokaż rok urodzenia",
                 "show_dob_year_help": "Pozwoli to ludziom zobaczyć Twój wiek."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
                 "nav_item": "Dzisiejsze urodziny"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Dyskusje: #} other {Dyskusje: #}}",
+                "post_count": "{count, plural, one {Posty: #} other {Posty: #}}"
             },
             "sign_up": {
-                "dob_placeholder": ""
+                "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
             }
         },
         "api": {
             "invalid_dob_message": "Nieprawidłowa data urodzenia",
-            "invalid_age_message": "Twój wiek musi wynosić co najmniej {minAge} lat."
+            "invalid_age_message": "Twój wiek musi wynosić co najmniej {minAge, plural, one {1 rok} few {# lata} other {# lat}}."
         },
         "ref": {
-            "date_of_birth": "Data urodzin"
+            "date_of_birth": "Data urodzenia"
         }
     }
 }
