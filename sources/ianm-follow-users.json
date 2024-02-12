@@ -29,7 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
+                "unfollow_button": "=> ianm-follow-users.lib.unfollow",
+                "change_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
                 "notify_new_follower_label": "Someone follows me",
@@ -82,6 +83,7 @@
             "following_link": "Followed Users",
             "follow": "Follow",
             "change_follow_type": "Change follow type",
+            "unfollow": "Unfollow",
             "follow_levels": {
                 "unfollow": {
                     "name": "Don't follow",

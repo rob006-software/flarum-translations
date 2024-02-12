@@ -30,6 +30,7 @@
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
                 "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
+                "change_button": "",
                 "follow_confirmation": "确定要关注这个用户吗？",
                 "unfollow_confirmation": "确定要取消关注这个用户吗？"
             },
@@ -84,6 +85,7 @@
             "following_link": "我的关注",
             "follow": "关注",
             "change_follow_type": "修改关注类型",
+            "unfollow": "",
             "follow_levels": {
                 "unfollow": {
                     "name": "取消关注",

@@ -29,7 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
+                "change_button": ""
             },
             "settings": {
                 "notify_new_follower_label": "Seseorang mengikuti Saya",
@@ -82,6 +83,7 @@
             "following_link": "Pengguna Yang Diikuti",
             "follow": "Ikuti",
             "change_follow_type": "Ganti tipe follow (ikuti)",
+            "unfollow": "",
             "follow_levels": {
                 "unfollow": {
                     "name": "Jangan ikuti",

@@ -29,7 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
+                "change_button": ""
             },
             "settings": {
                 "notify_new_follower_label": "Joku seuraa minua",
@@ -82,6 +83,7 @@
             "following_link": "Seuratut käyttäjät",
             "follow": "Seuraa",
             "change_follow_type": "Vaihda seuraamisen tyyppiä",
+            "unfollow": "",
             "follow_levels": {
                 "unfollow": {
                     "name": "Älä seuraa",
