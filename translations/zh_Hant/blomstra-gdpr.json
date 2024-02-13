@@ -2,20 +2,20 @@
     "blomstra-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "GDPR 數據概述",
+                "description": "各種 GDPR 行動和整合的狀態",
                 "data_types": {
-                    "title": "",
-                    "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "title": "資料類型",
+                    "help_text": "這些是目前註冊的資料類型。 列出了每種類型及其關聯的匯出、匿名化和刪除操作。 如果擴充程式處理任何屬於 GDPR 法規的數據，則應使用 <code>blomstra/gdpr</code> 註冊其資料類型。\n<code>user</code> 表中儲存的資料是單獨處理的，請參閱下面的使用者表資料。\n",
+                    "type": "類型",
+                    "export_description": "出口行動",
+                    "anonymize_description": "匿名操作",
+                    "delete_description": "刪除操作",
+                    "extension": "擴展"
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
+                    "heading": "GDPR 設定",
+                    "help_text": "正在尋找 GDPR 設定？ 它們可以在擴展頁面上找到。",
                     "extension_settings_button": ""
                 },
                 "user_table_data": {
