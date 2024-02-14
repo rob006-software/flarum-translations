@@ -1156,6 +1156,9 @@ return [
 	'nyu8-email-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-email-filter/v1.0.7/locale/en.yml',
 	],
+	'ordinaryjellyfish-automod' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/ordinaryjellyfish-automod.yml',
+	],
 	'peruguitar-user-portrait' => [
 		'tag' => 'https://raw.githubusercontent.com/Anexsoft/peruguitar-flarum-ext-user-portrait/1.0.4/locale/en.yml',
 	],
