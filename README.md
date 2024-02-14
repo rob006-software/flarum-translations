@@ -1228,6 +1228,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`kilowhat-rich-embeds`](https://weblate.rob006.net/projects/flarum/kilowhat-rich-embeds) | [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds) |
 | [`kilowhat-wordpress`](https://weblate.rob006.net/projects/flarum/kilowhat-wordpress) | [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress) |
 | [`maicol07-oidc-client`](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client) | [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client) |
+| [`ordinaryjellyfish-automod`](https://weblate.rob006.net/projects/flarum/ordinaryjellyfish-automod) | [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod) |
 | [`v17development-support`](https://weblate.rob006.net/projects/flarum/v17development-support) | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) |
 | [`ziiven-decoration-store`](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store) | [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store) |
 | [`ziiven-pay-to-see`](https://weblate.rob006.net/projects/flarum/ziiven-pay-to-see) | [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see) |
