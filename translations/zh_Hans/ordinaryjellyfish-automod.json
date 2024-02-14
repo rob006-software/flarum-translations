@@ -1,0 +1,62 @@
+{
+    "ordinaryjellyfish-automod": {
+        "admin": {
+            "settings": {
+                "threshold": "",
+                "threshold_help": "",
+                "moderate_categories_label": "",
+                "moderate_categories_label_help": "",
+                "moderate_categories_enable": "",
+                "service_account": "",
+                "filter_label": "",
+                "filter_help": "",
+                "filter_enable": "",
+                "filters": {
+                    "doxxing": "",
+                    "doxxing_help": "",
+                    "flag_unsafe_images": "",
+                    "flag_unsafe_images_help": ""
+                }
+            }
+        },
+        "lib": {
+            "moderate_categories": {
+                "toxic": "",
+                "toxic_help": "",
+                "derogatory": "",
+                "derogatory_help": "",
+                "violent": "",
+                "violent_help": "",
+                "sexual": "",
+                "sexual_help": "",
+                "insult": "",
+                "insult_help": "",
+                "profanity": "",
+                "profanity_help": "",
+                "death": "",
+                "death_help": "",
+                "weapons": "",
+                "weapons_help": "",
+                "public_safety": "",
+                "public_safety_help": "",
+                "health": "",
+                "health_help": "",
+                "religion": "",
+                "religion_help": "",
+                "drugs": "",
+                "drugs_help": "",
+                "war": "",
+                "war_help": "",
+                "finance": "",
+                "finance_help": "",
+                "politics": "",
+                "politics_help": "",
+                "legal": "",
+                "legal_help": ""
+            }
+        },
+        "forum": {
+            "flag_reason": ""
+        }
+    }
+}

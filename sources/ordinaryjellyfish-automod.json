@@ -1,0 +1,62 @@
+{
+    "ordinaryjellyfish-automod": {
+        "admin": {
+            "settings": {
+                "threshold": "Confidence Threshold",
+                "threshold_help": "The confidence threshold is between 0.00 and 1.00, reflecting the likelihood of the input or response belonging to a given category. A lower threshold will result in fewer false positives, but may also result in more false negatives. A higher threshold will result in more false positives, but may also result in fewer false negatives.",
+                "moderate_categories_label": "Moderation Categories",
+                "moderate_categories_label_help": "Categories that will auto-flag content for moderation when enabled and met by confidence rules.",
+                "moderate_categories_enable": "Enable Moderation Categories",
+                "service_account": "Service Account",
+                "filter_label": "Pre-built Filters",
+                "filter_help": "These are filters that I personally made to help keep your forum safe. Enabled filters will auto-flag just like moderation categories.",
+                "filter_enable": "Enable Pre-built Filters",
+                "filters": {
+                    "doxxing": "Doxxing",
+                    "doxxing_help": "The act of publicly revealing previously private personal information about an individual or organization, usually with malicious intent.",
+                    "flag_unsafe_images": "Unsafe Images",
+                    "flag_unsafe_images_help": "Runs Google Safe Search detection and flags images that are unsafe. Be aware that this might add some latency when posting your comment."
+                }
+            }
+        },
+        "lib": {
+            "moderate_categories": {
+                "toxic": "Toxic",
+                "toxic_help": "Content that is rude, disrespectful, or unreasonable.",
+                "derogatory": "Derogatory",
+                "derogatory_help": "Negative or harmful comments targeting identity and/or protected attributes.",
+                "violent": "Violent",
+                "violent_help": "Describes scenarios depicting violence against an individual or group, or general descriptions of gore.",
+                "sexual": "Sexual",
+                "sexual_help": "Contains references to sexual acts or other lewd content.",
+                "insult": "Insult",
+                "insult_help": "Insulting, inflammatory, or negative comment towards a person or a group of people.",
+                "profanity": "Profanity",
+                "profanity_help": "Obscene or vulgar language such as cursing.",
+                "death": "Death, Harm & Tragedy",
+                "death_help": "Human deaths, tragedies, accidents, disasters, and self-harm.",
+                "weapons": "Firearms & Weapons",
+                "weapons_help": "Content that mentions knives, guns, personal weapons, and accessories such as ammunition, holsters, etc.",
+                "public_safety": "Public Safety",
+                "public_safety_help": "Services and organizations that provide relief and ensure public safety.",
+                "health": "Health",
+                "health_help": "Human health, including: Health conditions, diseases, and disorders Medical therapies, medication, vaccination, medical practices, and resources for healing, including support groups.",
+                "religion": "Religion & Belief",
+                "religion_help": "Belief systems that deal with the possibility of supernatural laws and beings; religion, faith, belief, spiritual practice, churches, and places of worship. Includes astrology and the occult.",
+                "drugs": "Illicit Drugs",
+                "drugs_help": "Recreational and illicit drugs; drug paraphernalia and cultivation, headshops, etc. Includes medicinal use of drugs typically used recreationally (e.g. marijuana).",
+                "war": "War & Conflict",
+                "war_help": "War, military conflicts, and major physical conflicts involving large numbers of people. Includes discussion of military services, even if not directly related to a war or conflict.",
+                "finance": "Finance",
+                "finance_help": "Consumer and business financial services, such as banking, loans, credit, investing, and insurance.",
+                "politics": "Politics",
+                "politics_help": "Political news and media; discussions of social, governmental, and public policy.",
+                "legal": "Legal",
+                "legal_help": "Law-related content, including law firms, legal information, primary legal materials, paralegal services, legal publications and technology, expert witnesses, litigation consultants, and other legal service providers."
+            }
+        },
+        "forum": {
+            "flag_reason": "Automod flagged this post for {reason}"
+        }
+    }
+}
