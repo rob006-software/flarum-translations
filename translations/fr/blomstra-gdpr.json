@@ -100,73 +100,73 @@
             "erasure_completed": {
                 "deletion": {
                     "subject": "Suppression du compte terminée",
-                    "body": "Bonjour {display_name} !\n\nCeci est une notification automatique et définitive vous confirmant la bonne suppression de votre compte.\n"
+                    "body": "Bonjour {display_name} !\n\nCeci est une notification automatique et définitive indiquant que votre compte a été supprimé.\n"
                 },
                 "anonymization": {
-                    "subject": "L'anonymisation des comptes est terminée",
-                    "body": ""
+                    "subject": "L'anonymisation du compte est terminée",
+                    "body": "Bonjour {display_name} !\n\nCeci est une notification automatique et définitive indiquant que votre compte a été rendu anonyme.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
-                "body": ""
+                "subject": "Demande d'effacement de compte annulée",
+                "body": "Bonjour {display_name} !\n\nCeci est une notification automatique indiquant que votre demande d'annulation de la suppression de votre compte a été traitée.\n\nVotre compte ne sera plus supprimé.\n"
             },
             "export_available": {
-                "subject": "",
-                "body": ""
+                "subject": "Exportation de données disponible",
+                "body": "Bonjour {display_name} !\n\nVous avez demandé une exportation des données du compte de {username}. Cette exportation a été générée avec succès et est maintenant disponible :\n\n{url}\n\nCette exportation restera disponible jusqu'au {destroys_at}.\n"
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Utilisateur anonymisé"
             },
             "delete_user": {
-                "title": "",
-                "text": "",
-                "modal_delete_button": "",
-                "delete_button": ""
+                "title": "Effacer le compte de {username}",
+                "text": "Êtes-vous sûr de vouloir effacer le compte de {username} ?\n\nCette action est irréversible.\n",
+                "modal_delete_button": "Effacer en utilisant l'action par défaut",
+                "delete_button": "Effacer"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Aucune demande d'effacement de compte en attente",
+                "item_text": "{name} a demandé l'effacement de son compte",
+                "tooltip": "Demandes d'effacement de compte",
+                "title": "Demandes d'effacement de compte"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Vous avez confirmé votre demande d'effacement de compte. Une action sera entreprise dans les 30 jours comme l'exige le RGPD.",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Données personnelles"
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "Exporter les données",
+                "export_data_help": "En demandant l'exportation des données, vous obtiendrez une copie téléchargeable de toutes les informations associées à votre compte. Cela comprend les messages, les commentaires et les informations de votre profil.",
+                "request_erasure_button": "Effacer le compte",
+                "request_erasure_help": "Demander l'effacement supprimera définitivement votre compte et toutes les données qui y sont associées. Cette action est irréversible. Avant de procéder, assurez-vous d'avoir sauvegardé tout contenu que vous souhaitez conserver."
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "confirm": "Êtes-vous sûr de vouloir effacer le compte de {name} en mode {mode} ?",
+                "title": "Traiter la demande d'effacement",
+                "text": "{name} a demandé l'effacement de son compte.",
+                "comments_label": "Commentaires (facultatif)",
+                "anonymization_button": "Anonymiser l'utilisateur",
+                "deletion_button": "Supprimer l'utilisateur"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Demander l'effacement du compte",
+                "reason": "Vous avez indiqué le motif suivant : {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Vous devriez recevoir un courriel confirmant votre demande d'effacement du compte.\n",
+                    "user_confirmed": "Vous avez confirmé votre demande d'effacement du compte. Une action sera entreprise dans les 30 jours comme l'exige le RGPD.\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "Une fois la demande reçue et confirmée, un administrateur l'examinera dans les 30 jours comme l'exige le RGPD.",
+                "password_label": "Confirmer le mot de passe",
+                "reason_label": "Motif (facultatif)",
+                "cancel_button": "Annuler la demande",
+                "request_button": "Demander un effacement"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "Votre exportation de données concernant {username} est maintenant prête à être téléchargée."
             },
-            "export_file": ""
+            "export_file": "Exportation des données de l'utilisateur pour {username} ({email}) préparée à {date} à partir de {forumTitle} ({url})"
         }
     }
 }
