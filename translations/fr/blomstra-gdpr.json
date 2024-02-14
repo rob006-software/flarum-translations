@@ -95,11 +95,11 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Confirmer la demande d'effacement de votre compte",
-                "body": ""
+                "body": "Bonjour {display_name} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à effacer le compte `{display_name}`.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre demande d'effacement :\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
+                    "subject": "Suppression du compte terminée",
                     "body": ""
                 },
                 "anonymization": {
