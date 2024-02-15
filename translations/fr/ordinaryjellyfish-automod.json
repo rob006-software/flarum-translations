@@ -6,10 +6,10 @@
                 "threshold_help": "Le seuil de confiance se situe entre 0,00 et 1,00 et reflète la probabilité que l'entrée ou la réponse appartienne à une catégorie donnée. Un seuil plus bas entraînera moins de faux positifs, mais aussi plus de faux négatifs. Un seuil plus élevé entraînera plus de faux positifs, mais aussi moins de faux négatifs.",
                 "moderate_categories_label": "Catégories de modération",
                 "moderate_categories_label_help": "Catégories qui signalent automatiquement les contenus à modérer lorsqu'ils sont activés et qu'ils répondent à des règles de confiance.",
-                "moderate_categories_enable": "",
-                "service_account": "",
-                "filter_label": "",
-                "filter_help": "",
+                "moderate_categories_enable": "Activer les catégories de modération",
+                "service_account": "Compte de service",
+                "filter_label": "Filtres prédéfinis",
+                "filter_help": "Il s'agit de filtres que j'ai personnellement créés pour contribuer à la sécurité de votre forum. Les filtres activés seront signalés automatiquement, tout comme les catégories de modération.",
                 "filter_enable": "Activer les filtres prédéfinis",
                 "filters": {
                     "doxxing": "Diffusion d'informations personnelles",
@@ -38,25 +38,25 @@
                 "weapons": "Armes à feu et armes",
                 "weapons_help": "Contenu mentionnant des couteaux, des fusils, des armes personnelles et des accessoires tels que des munitions, des étuis, etc.",
                 "public_safety": "Sécurité publique",
-                "public_safety_help": "",
-                "health": "",
-                "health_help": "",
-                "religion": "",
-                "religion_help": "",
-                "drugs": "",
-                "drugs_help": "",
-                "war": "",
-                "war_help": "",
-                "finance": "",
-                "finance_help": "",
-                "politics": "",
-                "politics_help": "",
-                "legal": "",
-                "legal_help": ""
+                "public_safety_help": "Services et organisations qui fournissent des secours et assurent la sécurité publique.",
+                "health": "Santé",
+                "health_help": "Domaines de la santé, comprenant : les états de santé, les maladies et les troubles, les thérapies médicales, les médicaments, les vaccinations, les pratiques médicales et les ressources de guérison, y compris les groupes de soutien.",
+                "religion": "Religion et croyance",
+                "religion_help": "Systèmes de croyances qui traitent de la possibilité de lois et d'êtres surnaturels ; religion, foi, croyance, pratique spirituelle, églises et lieux de culte. Inclut l'astrologie et l'occultisme.",
+                "drugs": "Drogues illicites",
+                "drugs_help": "Drogues récréatives et illicites ; attirail et culture de drogues, magasins de vente de drogues, etc. Comprend l'usage médical de drogues généralement utilisées à des fins récréatives (par exemple, la marijuana).",
+                "war": "Guerre et conflits",
+                "war_help": "Guerres, conflits militaires et conflits majeurs impliquant un grand nombre de personnes. Inclut la discussion sur les services militaires, même s'ils ne sont pas directement liés à une guerre ou à un conflit.",
+                "finance": "Finances",
+                "finance_help": "Services financiers aux consommateurs et aux entreprises, tels que les banques, les prêts, les crédits, les investissements et les assurances.",
+                "politics": "Politique",
+                "politics_help": "Actualités et médias politiques ; discussions sur les politiques sociales, gouvernementales et publiques.",
+                "legal": "Juridique",
+                "legal_help": "Contenu lié au droit, y compris les cabinets d'avocats, les informations juridiques, les documents juridiques de base, les services parajuridiques, les publications et technologies juridiques, les témoins experts, les consultants en matière de litiges et les autres prestataires de services juridiques."
             }
         },
         "forum": {
-            "flag_reason": ""
+            "flag_reason": "Automod a signalé ce message pour {reason}"
         }
     }
 }
