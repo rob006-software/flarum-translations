@@ -16,44 +16,44 @@
                 "settings": {
                     "heading": "GDPR 設定",
                     "help_text": "正在尋找 GDPR 設定？ 它們可以在擴展頁面上找到。",
-                    "extension_settings_button": ""
+                    "extension_settings_button": "GDPR 設置"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "使用者表數據",
+                    "help_text": "大多數情況下，新增至 <code>user</code> 表中的任何欄位都會自動處理，以匯出資料和刪除資料。\n但是，也有一些特殊情況，如下圖所示。\n"
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "GDPR 集成"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "process_erasure": "處理刪除請求",
+                "process_export_for_others": "請求並接收其他使用者的資料匯出",
+                "see_anonymized_user_badges": "查看匿名用戶徽章"
             },
             "settings": {
-                "allow_anonymization": "",
-                "allow_anonymization_help": "",
-                "allow_deletion": "",
-                "allow_deletion_help": "",
-                "default_anonymous_username": "",
-                "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "",
+                "allow_anonymization": "允許對刪除請求進行匿名處理",
+                "allow_anonymization_help": "預設選項，推薦大多數社區使用。 在此模式下，貼文/留言將在 GDPR 允許的範圍內盡可能保留，但任何使用者識別資訊都會被刪除。",
+                "allow_deletion": "允許刪除請求",
+                "allow_deletion_help": "一個更嚴格的選擇。 在此模式下，所有貼文/評論都將被刪除，並且使用者將從資料庫中刪除。 謹慎使用。",
+                "default_anonymous_username": "匿名用戶的預設用戶名",
+                "default_anonymous_username_help": "當使用者被匿名化時，他們的使用者名稱將被替換為該值，加上匿名化請求的 ID，例如 <code>Anonymous123</code>。",
+                "default_erasure": "擦除請求的預設操作",
+                "default_erasure_help": "對於擦除請求，預設操作應該是什麼？",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "匿名化",
+                    "deletion": "刪除"
                 },
                 "gdpr_page": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "數據整合與行動",
+                    "help_text": "在決定在論壇上使用哪些操作之前，了解整合了哪些資料以及如何處理匿名和刪除資料至關重要。 請造訪 GDPR 概述，了解資料的處理方式，以及哪些可選擴充已註冊其資料以供此擴充處理。"
                 }
             },
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "title": "",
-                        "export": ""
+                        "title": "GDPR 行動",
+                        "export": "導出{username}的數據"
                     }
                 }
             }
@@ -61,112 +61,112 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "從檔案系統中刪除使用者的頭像。",
+                    "export_description": "從檔案系統檢索使用者的頭像並將其包含在匯出中。"
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "匯出用戶已開始的所有討論。 資料僅限於標題和建立日期。"
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "匯出論壇標題、網址、使用者名稱、電子郵件和目前日期。"
                 },
-                "no_action": "",
+                "no_action": "不採取行動。",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "從用戶發布的所有貼文中刪除 IP 位址。",
+                    "delete_description": "刪除用戶發表的所有貼文。",
+                    "export_description": "匯出用戶發表的所有貼文。 資料僅限於內容、建立日期、IP 位址和討論 ID。"
                 },
                 "tokens": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "刪除使用者建立的所有令牌。",
+                    "export_description": "匯出用戶創建的所有令牌。數據僅限於創建日期和令牌類型。"
                 },
                 "user": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "將用戶表上的所有列設置為 null。不可為 null 的列設置為其預設值或特殊值。更改密碼，將首選項設置為預設值，並刪除所有組。",
+                    "delete_description": "從資料庫中刪除使用者。",
+                    "export_description": "從使用者表中匯出數據。除 id、password 之外的所有列。"
                 }
             },
             "request_data": {
-                "title": "",
-                "text": "",
-                "request_button": ""
+                "title": "請求數據{username}",
+                "text": "我們將為您準備一個zip存檔。準備就緒后，您將收到帶有下載連結的通知。該連結將保持活動狀態一天。\n",
+                "request_button": "請求存檔"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
-                "body": ""
+                "subject": "確認您的帳戶刪除請求",
+                "body": "嘿{display_name}!\n\n有人（希望您）剛剛要求刪除該帳戶”{display_name}`.\n\n要確認此操作，請點擊以下鏈接，之後我們的團隊將處理您的請求。\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "帳戶刪除已完成",
+                    "body": "嘿{display_name}!\n\n這是一條自動的最終通知，表明您的帳戶已被刪除。\n"
                 },
                 "anonymization": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "帳戶匿名化完成",
+                    "body": "嘿{display_name}!\n\n這是自動的最終通知，表明您的帳戶已被匿名化。\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
-                "body": ""
+                "subject": "帳戶刪除請求已取消",
+                "body": "嘿{display_name}!\n\n這是一條自動通知，表明您取消帳戶刪除的請求已得到處理。\n\n您的帳戶將不再被刪除。\n"
             },
             "export_available": {
-                "subject": "",
-                "body": ""
+                "subject": "支援數據匯出",
+                "body": "嘿{display_name}!\n\n您請求匯出以下項的帳戶數據{username}.此匯出已成功產生，現在可用：\n\n{url}\n\n此匯出將一直可用，直到{destroys_at}.\n"
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "匿名使用者"
             },
             "delete_user": {
-                "title": "",
-                "text": "",
-                "modal_delete_button": "",
-                "delete_button": ""
+                "title": "擦除{username}的帳戶",
+                "text": "您確定要擦除嗎{username}的帳戶？\n\n此操作是不可逆的。\n",
+                "modal_delete_button": "使用預設操作擦除",
+                "delete_button": "擦 除"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "沒有待處理的帳戶擦除請求",
+                "item_text": "{name}請求的帳戶刪除",
+                "tooltip": "帳戶擦除請求",
+                "title": "帳戶擦除請求"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "您已確認帳戶刪除請求。根據GDPR的要求，將在30天內採取行動。",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "個人數據"
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "匯出數據",
+                "export_data_help": "請求數據匯出將為您提供與您的帳戶關聯的所有資訊的可下載副本。這包括帖子、評論和個人資料詳細資訊。",
+                "request_erasure_button": "抹掉帳戶",
+                "request_erasure_help": "請求刪除將永久刪除您的帳戶和所有相關數據。此操作是不可逆的。在繼續之前，請確保您已保存要保留的任何內容。"
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "confirm": "您確定要在 {mode} 模式下刪除 {name} 的帳戶嗎？",
+                "title": "處理擦除請求",
+                "text": "{name} 已要求刪除帳號。",
+                "comments_label": "評論（可選）",
+                "anonymization_button": "匿名用戶",
+                "deletion_button": "刪除用戶"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "請求刪除帳戶",
+                "reason": "您提供了以下原因：{reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "您應該已收到一封電子郵件來確認您的帳戶刪除請求。\n",
+                    "user_confirmed": "您已確認您的帳戶刪除請求。 根據 GDPR 的要求，我們將在 30 天內採取行動。\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "收到並確認後，管理員將按照 GDPR 的要求在 30 天內審核您的請求。",
+                "password_label": "確認密碼",
+                "reason_label": "原因（可選）",
+                "cancel_button": "取消請求",
+                "request_button": "請求刪除"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "您為 {username} 匯出的資料現已可供下載。"
             },
-            "export_file": ""
+            "export_file": "匯出於 {date} 從 {forumTitle} ({url}) 準備的 {username} ({email}) 的使用者數據"
         }
     }
 }
