@@ -12,10 +12,10 @@
                 "trim_completed_help": "此表用於在 Horizon 儀表板中顯示已完成的作業。\n",
                 "trim_recent_failed": "修剪最近失敗的作業",
                 "trim_recent_failed_help": "此表用於在 Horizon 儀表板中顯示最近失敗的作業。\n",
-                "trim_failed": "",
-                "trim_failed_help": "",
-                "trim_monitored": "",
-                "trim_monitored_help": ""
+                "trim_failed": "修剪失敗的作業",
+                "trim_failed_help": "此表用於在 Horizon 儀表板中顯示失敗的作業。\n",
+                "trim_monitored": "修剪受監控的作業",
+                "trim_monitored_help": "此表用於在 Horizon 儀表板中顯示受監控的作業。\n"
             },
             "stats": {
                 "auto_refresh": "自動重新整理",
@@ -23,11 +23,11 @@
                 "full_dashboard": "Horizon 儀表板",
                 "refresh": "重整",
                 "data": {
-                    "redis-used-memory": "",
-                    "redis-peak-memory": "",
-                    "redis-max-memory": "",
-                    "redis-cpu-user": "",
-                    "redis-cpu-sys": "",
+                    "redis-used-memory": "Redis 使用記憶體",
+                    "redis-peak-memory": "Redis 峰值內存",
+                    "redis-max-memory": "Redis 最大內存",
+                    "redis-cpu-user": "Redis CPU 用戶",
+                    "redis-cpu-sys": "Redis CPU系統",
                     "jobs-per-minute": "每分鐘作業數",
                     "jobs-past-hour": "過去一小時的工作",
                     "failed-last-seconds": "過去幾秒鐘失敗的作業",

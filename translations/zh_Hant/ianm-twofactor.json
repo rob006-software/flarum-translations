@@ -49,7 +49,7 @@
                 "ok_button": "Ok",
                 "confirm_disable_2fa_title": "確認禁用兩步驟驗證",
                 "confirm_disable_2fa_text": "您確定要停用兩步驟驗證?",
-                "confirm_disable_2fa_text_other_user": "",
+                "confirm_disable_2fa_text_other_user": "您確定要停用 {username} 的雙重認證嗎？ 這將刪除所有備份代碼並為其帳戶停用 2FA。",
                 "cannot_disable": "目前配置指示您無法禁用兩步驟驗證 。",
                 "cannot_disable_tooltip": "無法停用兩步驟驗證",
                 "cancel_button": "取消",
@@ -80,7 +80,7 @@
                 "two_factor_token_label": "2FA 令牌"
             },
             "two_factor_token": {
-                "title": "",
+                "title": "雙因素身份驗證",
                 "submit_button": "送出令牌"
             }
         }
