@@ -556,7 +556,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/clockwork/1.0.4/resources/locale/en.yml',
 	],
 	'fof-cookie-consent' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/cookie-consent/1.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/cookie-consent/1.1.3/resources/locale/en.yml',
 	],
 	'fof-custom-footer' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/1.1.2/resources/locale/en.yml',
