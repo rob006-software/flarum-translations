@@ -4782,5 +4782,15 @@
 		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-job-cards/uz/"><img src="https://weblate.rob006.net/widgets/flarum/uz/justoverclock-job-cards/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://extiverse.com/extension/ordinaryjellyfish/automod" title="ordinaryjellyfish/automod"><code>ordinaryjellyfish/automod</code></a>
+		</td>
+		<td align="center">36</td>
+		<td align="center">0</td>
+		<td align="center">0</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/ordinaryjellyfish-automod/uz/"><img src="https://weblate.rob006.net/widgets/flarum/uz/ordinaryjellyfish-automod/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
