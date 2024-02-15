@@ -2,10 +2,10 @@
     "ordinaryjellyfish-automod": {
         "admin": {
             "settings": {
-                "threshold": "",
-                "threshold_help": "",
-                "moderate_categories_label": "",
-                "moderate_categories_label_help": "",
+                "threshold": "Seuil de confiance",
+                "threshold_help": "Le seuil de confiance se situe entre 0,00 et 1,00 et reflète la probabilité que l'entrée ou la réponse appartienne à une catégorie donnée. Un seuil plus bas entraînera moins de faux positifs, mais aussi plus de faux négatifs. Un seuil plus élevé entraînera plus de faux positifs, mais aussi moins de faux négatifs.",
+                "moderate_categories_label": "Catégories de modération",
+                "moderate_categories_label_help": "Catégories qui signalent automatiquement les contenus à modérer lorsqu'ils sont activés et qu'ils répondent à des règles de confiance.",
                 "moderate_categories_enable": "",
                 "service_account": "",
                 "filter_label": "",
