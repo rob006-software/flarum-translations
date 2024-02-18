@@ -1111,6 +1111,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`miniflar-admin-notepad-widget`](https://weblate.rob006.net/projects/flarum/miniflar-admin-notepad-widget) | [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget) |
 | [`miniflar-sidenav-download-button`](https://weblate.rob006.net/projects/flarum/miniflar-sidenav-download-button) | [`miniflar/sidenav-download-button`](https://github.com/miniflar/sidenav-download-button) |
 | [`miniflar-top-like-givers-widget`](https://weblate.rob006.net/projects/flarum/miniflar-top-like-givers-widget) | [`miniflar/top-like-givers-widget`](https://github.com/miniflar/top-like-givers-widget) |
+| [`muhammedsaidckr-gemini`](https://weblate.rob006.net/projects/flarum/muhammedsaidckr-gemini) | [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini) |
 | [`nearata-auth-minecraft`](https://weblate.rob006.net/projects/flarum/nearata-auth-minecraft) | [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft) |
 | [`nearata-cakeday`](https://weblate.rob006.net/projects/flarum/nearata-cakeday) | [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday) |
 | [`nearata-cloudflare`](https://weblate.rob006.net/projects/flarum/nearata-cloudflare) | [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare) |
