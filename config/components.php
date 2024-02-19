@@ -463,6 +463,9 @@ return [
 	'dem13n-topic-starter-label' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.8/locale/en.yml',
 	],
+	'eclickhu-webhooks' => [
+		'tag' => 'https://raw.githubusercontent.com/eclickhu/webhooks/1.0/resources/locale/en.yml',
+	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.2.0/resources/locale/en.yml',
 	],
