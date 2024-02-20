@@ -10,6 +10,7 @@
                     "tags": "",
                     "general": "General",
                     "reminders": "Recordatorios",
+                    "search": "",
                     "advanced": "Avanzado",
                     "reminders_notice": "Para que los recordatorios funcionen, el planificador de Flarum debe estar configurado correctamente."
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
                 "enable_all_tags_button": "Activar mejor respuesta para todas las etiquetas",
                 "enable_all_tags_reminder_button": "Activar recordatorios en todas las etiquetas",
                 "introduction": "Puedes activar cuáles etiquetas permiten Mejor Respuesta en <code><a>flarum/tags</a></code> y así también las que aceptan recordatorios opcionales cuando se encuentren sin resolver. Cuando una etiqueta admite Mejor Respuesta, se deben asignar permisos a cada grupo de usuarios quienes podrán establecer una respuesta (tanto para discusiones propias o cualquier otra discusión). \n\nPuedes asignar los permisos de manera global (para cualquier etiqueta que admita Mejor Respuesta), o de manera individual.\n"
@@ -81,6 +84,10 @@
             },
             "user": {
                 "best-answer-count": ""
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {

@@ -10,6 +10,7 @@
                     "tags": "",
                     "general": "Obecné",
                     "reminders": "Připomínky",
+                    "search": "",
                     "advanced": "Pokročilé",
                     "reminders_notice": "Aby připomínky fungovaly, je třeba správně nastavit plánovač (scheduler) Flarum."
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
                 "enable_all_tags_button": "Povolit všechny štítky pro Nejlepší odpovědi",
                 "enable_all_tags_reminder_button": "Povolit všechny štítky pro připomenutí Nejlepší odpovědi",
                 "introduction": "V nastavení <code><a>flarum/tags</a></code> vyberte, které štítky mají podporovat Nejlepší odpovědi, a případně, které štítky mají podporovat připomínky. Pokud je u štítku povolena funkce Nejlepší odpověď, přiřaďte oprávnění každé skupině uživatelů, která může nastavovat odpovědi (vlastní diskuze, libovolná diskuze). Oprávnění lze přidělit globálně (pro každý štítek s povolenou Nejlepší odpovědí) nebo pro každý štítek zvlášť.\n"
@@ -81,6 +84,10 @@
             },
             "user": {
                 "best-answer-count": "{count, plural, one {{count} nejlepší odpověď} few {{count} nejlepší odpovědi} other {{count} nejlepších odpovědí}}"
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {

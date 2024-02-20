@@ -10,6 +10,7 @@
                     "tags": "",
                     "general": "ทั่วไป",
                     "reminders": "เตือนความจำ",
+                    "search": "",
                     "advanced": "ขั้นสูง",
                     "reminders_notice": "สำหรับเตือนความจำเพื่อให้สามารถใช้งานได้คุณต้องตั้งค่าตรางเวลาของ Flarum ให้ถูกต้อง"
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
                 "introduction": "เปิดใช้แท็กที่อนุญาติให้ใช้คำตอบที่ดีที่สุดใน <code>flarum/tags</code> และเลือกว่าแท็กใดอนุญาติการเตือนความจำ เมื่อแท็กเปิดใช้งานคำตอบที่ดีที่สุด ให้กำหนดสิทธิ์ให้กับแต่ละกลุ่มผู้ใช้ที่อาจกำหนดคำตอบ (การสนทนาของตัวเอง การสนทนาใดๆ) สิทธิ์อาจกำหนดได้ทุกคน (สำหรับแท็กที่มีคำตอบที่ดีที่สุด) หรือตามแต่ละแท็ก\n"
             },
             "edit_tag": {
@@ -79,6 +82,10 @@
             },
             "user": {
                 "best-answer-count": ""
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {

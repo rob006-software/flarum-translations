@@ -10,6 +10,7 @@
                     "tags": "",
                     "general": "Geral",
                     "reminders": "Lembretes",
+                    "search": "",
                     "advanced": "Avançado",
                     "reminders_notice": "Para que os lembretes funcionem, você deve ter configurado o agendador do Flarum corretamente."
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
                 "enable_all_tags_button": "Ativar todas as tags para Melhores Respostas",
                 "enable_all_tags_reminder_button": "Habilitar todas as tags para lembretes de Melhor Resposta",
                 "introduction": "Habilite quais tags devem suportar as Melhores Respostas em <code><a>flarum/tags</a></code> e, opcionalmente, quais tags devem suportar lembretes. Quando uma tag estiver habilitada como Melhor Resposta, atribua permissões a cada grupo de usuários que pode definir respostas (própria discussão, qualquer discussão). As permissões podem ser atribuídas globalmente (para qualquer tag habilitada como Melhor Resposta) ou por tag.\n"
@@ -81,6 +84,10 @@
             },
             "user": {
                 "best-answer-count": "{count, plural, one { {count} melhor resposta} other {{count} melhores respostas}}"
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {

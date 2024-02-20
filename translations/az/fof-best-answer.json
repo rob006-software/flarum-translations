@@ -10,6 +10,7 @@
                     "tags": "",
                     "general": "Ümumi",
                     "reminders": "Xatırlatmalar",
+                    "search": "",
                     "advanced": "Qabaqcıl",
                     "reminders_notice": "Xatırlatmaların işləməsi üçün Flarum planlayıcısını düzgün qurmalısınız."
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
                 "introduction": "<code> flarum/tags </code> -də Ən Yaxşı Cavabları dəstəkləmək üçün hansı etiketləri aktivləşdirin və isteğe bağlı olaraq hansı etiketlərin xatırlatıcıları dəstəkləməsi lazımdır. Bir etiket Ən Yaxşı Cavab aktiv olduqda, cavabları təyin edə biləcək hər bir istifadəçi qrupuna icazə verin (öz müzakirəsi, hər hansı bir müzakirə). İcazələr qlobal olaraq təyin edilə bilər (hər hansı bir Ən Yaxşı Cavab verilə bilən etiket üçün) və ya hər etiketə görə.\n"
             },
             "edit_tag": {
@@ -79,6 +82,10 @@
             },
             "user": {
                 "best-answer-count": ""
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {

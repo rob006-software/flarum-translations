@@ -10,6 +10,7 @@
                     "tags": "",
                     "general": "Algemeen",
                     "reminders": "Herinneringen",
+                    "search": "",
                     "advanced": "Geavanceerd",
                     "reminders_notice": "Herinneringen werken pas wanneer je de Flarum scheduler goed ingesteld hebt."
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
                 "enable_all_tags_button": "Beste antwoorden op alle tags inschakelen",
                 "enable_all_tags_reminder_button": "Herinneringen voor beste antwoorden op alle tags inschakelen",
                 "introduction": "Schakel in welke tags de beste antwoorden in <code><a>flarum/tags</a></code> moeten ondersteunen, en optioneel welke tag(s) herinneringen moeten ondersteunen. Wanneer een tag is ingeschakeld voor Beste antwoord, wijst u machtigingen toe aan elke gebruikersgroep die antwoorden mag instellen (eigen discussie, elke discussie). Machtigingen kunnen globaal worden toegewezen (voor elke tag die voor het beste antwoord is ingeschakeld), of per tag.\n"
@@ -81,6 +84,10 @@
             },
             "user": {
                 "best-answer-count": "{count, plural, one { {count} best antwoord} other {{count} beste antwoorden}}"
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {

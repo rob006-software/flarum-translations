@@ -10,6 +10,7 @@
                     "tags": "",
                     "general": "基本設定",
                     "reminders": "リマインダー",
+                    "search": "",
                     "advanced": "詳細設定",
                     "reminders_notice": "リマインダーが正しく動作するためには、Flarumのスケジューラを正しく設定する必要があります。"
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
                 "enable_all_tags_button": "ベストアンサーを全てのタグで有効にする",
                 "enable_all_tags_reminder_button": "ベストアンサーリマインダーを全てのタグで有効にする"
             },
@@ -80,6 +83,10 @@
             },
             "user": {
                 "best-answer-count": ""
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {

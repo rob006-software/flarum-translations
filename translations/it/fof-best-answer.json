@@ -10,6 +10,7 @@
                     "tags": "",
                     "general": "Generale",
                     "reminders": "Promemoria",
+                    "search": "",
                     "advanced": "Avanzate",
                     "reminders_notice": "Affinché i promemoria funzionino correttamente, è necessario aver impostato correttamente lo scheduler di Flarum."
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
                 "enable_all_tags_button": "Abilita tutti i tag per Risposta Migliore",
                 "enable_all_tags_reminder_button": "Abilita tutti i tag per i promemoria di Risposta Migliore",
                 "introduction": "Abilita quali tag devono supportare le risposte migliore in <code><a>flarum/tags</a></code> e, facoltativamente, quali tag devono supportare i promemoria. Quando un tag è abilitato per la risposta migliore, assegna le autorizzazioni a ciascun gruppo di utenti che può impostare le risposte (discussione personale, qualsiasi discussione). Le autorizzazioni possono essere assegnate globalmente (per qualsiasi tag abilitato Best Answer) o in base al tag.\n",
@@ -82,6 +85,10 @@
             },
             "user": {
                 "best-answer-count": "{count, plural, one { {count} risposta migliore} other {{count} risposte migliori}}"
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {

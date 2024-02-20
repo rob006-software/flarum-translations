@@ -10,6 +10,7 @@
                     "tags": "",
                     "general": "Umumiy",
                     "reminders": "Eslatmalar",
+                    "search": "",
                     "advanced": "Murakkab",
                     "reminders_notice": "Eslatmalar ishlashi uchun siz Flarum rejalashtiruvchisini to'g'ri sozlagan bo'lishingiz kerak."
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
                 "enable_all_tags_button": "Eng yaxshi javoblar uchun barcha teglarni yoqing",
                 "enable_all_tags_reminder_button": "Eng yaxshi javob eslatmalari uchun barcha teglarni yoqing",
                 "introduction": "Qaysi teglar <code><a>flarum/tags</a></code> ichida eng yaxshi javoblarni qo‘llab-quvvatlashi va ixtiyoriy ravishda qaysi teg(lar) eslatmalarni qo‘llab-quvvatlashi kerakligini yoqing. Teg \"Eng yaxshi javob\" yoqilgan bo'lsa, har bir foydalanuvchi guruhiga javoblarni belgilashi mumkin bo'lgan ruxsatlarni tayinlang (o'z muhokamasi, har qanday muhokama). Ruxsatlar global miqyosda (har qanday eng yaxshi javob qo'shilgan teg uchun) yoki har bir teg asosida tayinlanishi mumkin.\n"
@@ -81,6 +84,10 @@
             },
             "user": {
                 "best-answer-count": ""
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {

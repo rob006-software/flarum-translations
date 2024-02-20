@@ -10,6 +10,7 @@
                     "tags": "Parhaan vastauksen avainsanat",
                     "general": "Yleinen",
                     "reminders": "Muistutukset",
+                    "search": "",
                     "advanced": "Lisäasetukset",
                     "reminders_notice": "Muistutuksia käyttääksesi sinun on täytynyt asettaa Flarumin ajastukset oikein."
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "Muistutettavat avainsanat",
                 "remind_tags_help": "Valitse mistä avainsanoista, jos mistään, lähetetään muistutuksia. Muistutukset lähetetään vain näistä avainsanoista.",
                 "tags_info": "Kun avainsanalla on Parhaat vastaukset käytössä, aseta oikeudet joka ryhmälle, jotka voivat asettaa parhaita vastauksia (omat keskustelut, mitkä tahansa keskustelut). Oikeudet voidaan asettaa yleisesti (mille tahansa Parhaat vastaukset avainsanalle) tai avainsanakohtaisesti.\n",
+                "solution_search": "",
+                "solution_search_help": "",
                 "enable_all_tags_button": "Ota käyttöön Parhaat vastaukset kaikille avainsanoille",
                 "enable_all_tags_reminder_button": "Ota käyttöön Parhaiden vastausten muistutukset kaikille avainsanoille",
                 "introduction": "Valitse mitkä avainsanat tukee parhaita vastauksia <code><a>flarum/tags</a></code> osiossa, sekä vaihtoehtoisesti mitkä avainsanat tukeavat muistutuksia. Kun paras vastaus on käytössä, aseta oikeudet ryhmille kuka voi asettaa vastauksen parhaaksi (oma keskustelu, mikä tahansa keskustelu. Oikeudet voi määrittää globaalisti (mihin tahansa parhaan vastauksen hyväksyvään avainsanaan) tai avainsanakohtaisesti.\n"
@@ -81,6 +84,10 @@
             },
             "user": {
                 "best-answer-count": "{count, plural, one { {count} paras vastaus} other {{count} parasta vastausta}}"
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {

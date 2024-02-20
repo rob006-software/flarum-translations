@@ -10,6 +10,7 @@
                     "tags": "Legjobb választ engedélyező címkék",
                     "general": "Általános",
                     "reminders": "Emlékeztetők",
+                    "search": "",
                     "advanced": "Speciális",
                     "reminders_notice": "Ahhoz, hogy az emlékeztető működjön, a Flarum ütemezőjét jól kell beállítani."
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "Emlékeztető címkék",
                 "remind_tags_help": "Válassza ki, hogy mely címkéknél legyenek értesítések küldve. Csak az ilyen címkéjű témák fognak értesítéseket küldeni.",
                 "tags_info": "Ha egy címkénél engedélyezve van a legjobb válasz, akkor állítsa be az engedélyeket, hogy mely felhasználói csoportok állíthassák be a válaszokat (saját témák, tetszőleges téma). Az engedélyek kioszthatók globálisan (az összes legjobb választ engedélyező címkénél), vagy címkénként is.\n",
+                "solution_search": "",
+                "solution_search_help": "",
                 "enable_all_tags_button": "A legjobb válasz bekapcsolása az összes címkénél",
                 "enable_all_tags_reminder_button": "A legjobb válasz emlékeztető bekapcsolása az összes címkénél",
                 "introduction": "Állítsa be a <code><a>flarum/tags</a></code> lapon, hogy mely címkék támogassák a legjobb válaszokat, és mely címkék támogassák az emlékeztetőket. Ha egy címkénél engedélyezettek a legjobb válaszok, akkor állítson be engedélyeket, hogy mely felhasználói csoportok állíthassák be a válaszokat (saját téma, bármely téma). A jogosultságok megadhatók globálisan (bármely olyan címkénél, amely engedélyezi a legjobb választ), vagy címkénként.\n",
@@ -82,6 +85,10 @@
             },
             "user": {
                 "best-answer-count": "{count, plural, one { {count} legjobb válasz} other {{count} legjobb válasz}}"
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {

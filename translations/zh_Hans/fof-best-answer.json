@@ -10,6 +10,7 @@
                     "tags": "最佳回答标签",
                     "general": "常规",
                     "reminders": "提醒事项",
+                    "search": "",
                     "advanced": "高级",
                     "reminders_notice": "要运行提醒功能，你必须正确配置 Flarum 调度器。"
                 },
@@ -36,6 +37,8 @@
                 "remind_tags_label": "提醒标签",
                 "remind_tags_help": "选择需要发送提醒的标签（如果有）。提醒只会被发送到有这些标签的帖子中。",
                 "tags_info": "当一个标签启用了最佳答案后，为每一个可以设置答案的用户组分配权限（自己的帖子，任何人的帖子）。权限可以全局设置（给所有启用了最佳答案的标签），或按标签设置。\n",
+                "solution_search": "",
+                "solution_search_help": "",
                 "enable_all_tags_button": "为所有标签启用最佳回复",
                 "enable_all_tags_reminder_button": "为所有标签启用提醒功能",
                 "introduction": "你需要前往 <code><a>flarum/tags</a></code> 为特定标签开启最佳回复和提醒功能。你可以在「权限」页面为全局或特定标签设置最佳回复的操作权限。\n",
@@ -82,6 +85,10 @@
             },
             "user": {
                 "best-answer-count": "{count} 次助人"
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
             }
         },
         "email": {
