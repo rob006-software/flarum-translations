@@ -736,6 +736,9 @@ return [
 	'glowingblue-redis-setup' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.2/resources/locale/en.yml',
 	],
+	'gtdxyz-hcaptcha' => [
+		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-hcaptcha/1.0/resources/locale/en.yml',
+	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
