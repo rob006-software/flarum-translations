@@ -14,17 +14,17 @@
                 "delete_step_confirmation": "是否确定要删除此步骤？"
             },
             "title": "标题",
-            "title_placeholder": "",
-            "description": "",
-            "description_placeholder": "",
-            "target": "",
-            "target_placeholder": ""
+            "title_placeholder": "步骤的标题。",
+            "description": "描述",
+            "description_placeholder": "步骤的描述。",
+            "target": "目标",
+            "target_placeholder": "步骤的目标元素  (e.g. #element-id)."
         },
         "forum": {
-            "progress_text": "",
-            "next_btn_text": "",
-            "prev_btn_text": "",
-            "done_btn_text": ""
+            "progress_text": "{current} of {total}",
+            "next_btn_text": "下一项",
+            "prev_btn_text": "上一项",
+            "done_btn_text": "完成"
         }
     }
 }
