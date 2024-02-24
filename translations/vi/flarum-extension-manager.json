@@ -2,167 +2,167 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Phương thức xác thực mới",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Máy chủ",
+                    "host_placeholder": "ví dụ: extiverse.com",
+                    "submit_button": "Gửi",
+                    "token_label": "Mã token",
+                    "type_label": "Kiểu",
+                    "unchanged_token_placeholder": "(không thay đổi)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Bạn có chắc chắn muốn xoá phương thức xác thực này?",
+                "delete_label": "Xoá phương thức xác thực",
+                "edit_label": "Chỉnh sửa phương thức xác thực",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Máy chủ",
+                    "token": "Mã token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Không có phương thức xác thực nào được cấu hình. Đây là một tính năng nâng cao tùy chọn để cho phép cài đặt từ các kho lưu trữ riêng tư.",
+                "remove_button_label": "Xoá phương thức xác thực",
+                "title": "Phương thức xác thực",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "Mã token GitLab",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Thêm kho lưu trữ",
+                "delete_repository_confirmation": "Bạn có chắc chắn muốn xóa kho lưu trữ này không? Tất cả các tiện ích mở rộng được cài đặt từ kho lưu trữ này sẽ bị xóa.",
+                "delete_repository_label": "Xoá kho lưu trữ",
+                "edit_repository_label": "Chỉnh sửa kho lưu trữ",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Độ ổn định tối thiểu",
+                    "help": "Loại gói được phép cài đặt. Đừng thay đổi tuỳ chọn này trừ khi bạn biết bạn đang làm gì.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stable - Khuyến nghị",
+                        "rc": "Release Candidate",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Kho lưu trữ",
+                    "help": "Thêm kho lữu trư bổ sung để cài đặt các gói từ đó. Đây là tính năng nâng cao, không thêm các kho lưu trữ không đáng tin cậy vì chúng có thể được sử dụng để thực thi mã độc trên máy chủ của bạn.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "đường dẫn"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Tên",
+                        "type_label": "Kiểu",
+                        "url": "URL",
+                        "submit_button": "Gửi"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Không thực hiện được. Kiểm tra nhật ký của composer trong storage/logs/composer.",
+                "extension_already_installed": "Tiện ích mở rộng đã được cài đặt.",
+                "extension_not_directly_dependency": "Tiện ích mở rộng được cài đặt dưới dạng phần phụ thuộc của tiện ích mở rộng khác, không thể xóa trực tiếp tiện ích này.",
+                "extension_not_installed": "Không tìm thấy tiện ích mở rộng.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "Tiện ích mở rộng này rất có thể không tương thích với phiên bản Flarum hiện tại của bạn.",
+                    "extension_not_found": "Không tìm thấy tiện ích mở rộng hoặc không tồn tại.",
+                    "extensions_incompatible_with_new_major": "Một số tiện ích mở rộng đã cài đặt không tương thích với bản phát hành chính mới nhất. Vui lòng đợi cho đến khi các tiện ích mở rộng được tác giả cập nhật để tương thích hoặc xóa chúng trước khi tiếp tục.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "Xem lý do tại sao nó không cập nhật lên phiên bản mới nhất.",
+                "install": "Cài tiện ích mở rộng mới",
+                "install_help": "Điền tên gói tiện ích mở rộng để tiếp tục. Bạn có thể nhập <semantic_link>semantic version</semantic_link> bằng định dạng <code>vendor/package-name:version</code>. Truy cập {extiverse} để xem các tiện ích mở rộng.\n",
+                "proceed": "Thực hiện",
+                "remove": "Gỡ cài đặt",
+                "successful_install": "{extension} đã được cài đặt thành công, đang chuyển hướng..",
+                "successful_remove": "Đã xóa thành công tiện ích mở rộng.",
+                "successful_update": "{extension} đã được cập nhật thành công, đang chuyển hướng..",
+                "update": "Cập nhật",
+                "update_soft_label": "Cập nhật mềm",
+                "update_hard_label": "Cập nhật cứng"
             },
-            "file_permissions": "",
+            "file_permissions": "Trình quản lý tiện ích mở rộng yêu cầu quyền đọc và ghi trên các tệp và thư mục sau: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "Các bản cập nhật chính của Flarum không tương thích ngược, nghĩa là một số tiện ích mở rộng hiện được cài đặt của bạn và các sửa đổi được thực hiện thủ công có thể không hoạt động với phiên bản mới này. Vui lòng đảm bảo tạo bản sao lưu cơ sở dữ liệu và tệp của bạn trước khi tiếp tục.\n",
+                "dry_run": "Chạy khô",
+                "dry_run_help": "Chạy thử mô phỏng bản cập nhật để xem liệu thiết lập hiện tại của bạn có thể cập nhật an toàn hay không, điều này không có nghĩa là các sửa đổi tùy chỉnh được thực hiện thủ công của bạn sẽ hoạt động trong phiên bản mới hơn.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "Bản cập nhật lớn gần đây nhất không thành công, một số tiện ích mở rộng đã cài đặt không tương thích với bản phát hành chính mới.",
+                    "why": "Tìm hiểu thêm"
                 },
-                "title": "",
-                "update": ""
+                "title": "Đã có bản cập nhật chính của Flarum {version}",
+                "update": "Cập nhật"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Điều này cũng sẽ cập nhật mọi tiện ích mở rộng/gói khác có bản cập nhật sẵn có."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Trình quản lý"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Chi tiết",
+                        "elapsed_time": "Đã hoàn thành trong",
+                        "peak_memory_used": "Mức sử dụng bộ nhớ cao nhất",
+                        "operation": "Hành động",
+                        "package": "Gói",
+                        "status": "Trạng thái"
                     },
-                    "none": "",
+                    "none": "Chưa có nhiệm vụ nào.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Cài tiện ích mở rộng",
+                        "extension_remove": "Xoá tiện ích mở rộng",
+                        "extension_update": "Cập nhật tiện ích mở rộng",
+                        "update_check": "Kiểm tra cập nhật",
+                        "update_global": "Cập nhật tất cả các gói phần mềm",
+                        "update_major": "Cập nhật lớn",
+                        "update_minor": "Cập nhật nhỏ",
+                        "why_not": "Phân tích lý do tại sao một gói không thể được cập nhật"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Không xác định",
+                        "command": "Lệnh Composer",
+                        "guessed_cause": "Lý do",
+                        "output": "Đầu ra"
                     },
-                    "refresh": "",
+                    "refresh": "Tải lại danh sách nhiệm vụ",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Thành công",
+                        "failure": "Thất bại",
+                        "pending": "Đang chờ",
+                        "running": "Đang chạy"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Nhiệm vụ vừa được bắt đầu",
+                    "title": "Hàng đợi"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "Hãy cẩn thận với người mà bạn cấp quyền truy cập vào khu vực quản trị, trình quản lý tiện ích mở rộng có thể bị kẻ xấu lạm dụng để cài đặt các gói có thể dẫn đến vi phạm bảo mật.",
+                "debug_mode_warning": "Bạn đang chạy ở chế độ gỡ lỗi, trình quản lý tiện ích mở rộng không thể cài đặt và cập nhật các gói phát triển cục bộ đúng cách. Vui lòng sử dụng giao diện dòng lệnh thay thế cho các mục đích như vậy.",
+                "queue_jobs": "Chạy các hành động trong hàng đợi nền",
+                "queue_jobs_help": "Bạn có thể đọc về cách triển khai <a href='{basic_impl_link}'>hàng đợi cơ bản</a> hoặc cách triển khai <a href='{adv_impl_link}'>nâng cao hơn</a>. Đảm bảo phiên bản PHP được sử dụng cho hàng đợi là {php_version}. Đảm bảo <a href='{folder_perms_link}'>quyền đối với thư mục</a> được định cấu hình chính xác.\n",
+                "task_retention_days": "Số ngày lưu giữ nhiệm vụ",
+                "task_retention_days_help": "Số ngày lưu giữ các nhiệm vụ đã hoàn thành trong cơ sở dữ liệu. Nhiệm vụ cũ hơn này sẽ bị xóa. Đặt thành 0 để giữ tất cả các nhiệm vụ.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "Mọi thứ đều đã được cập nhật!",
+                "check_for_updates": "Kiểm tra cập nhật",
+                "flarum": "Flarum Core",
+                "global_update_successful": "Đã cập nhật thành công tất cả các gói.",
+                "last_update_checked_at": "Lần cuối kiểm tra cập nhật: ",
+                "run_global_update": "Chạy cập nhật toàn cục",
+                "updater_title": "Cập nhật",
+                "updater_help": "Chạy kiểm tra các bản cập nhật cho các tiện ích mở rộng và Flarum mới."
             },
-            "update_successful": "",
+            "update_successful": "Cập nhật Flarum thành công.",
             "why_not_modal": {
-                "title": ""
+                "title": "Tại sao nó không cập nhật"
             }
         }
     }
