@@ -10,10 +10,12 @@
                 "scopes": "权限管理"
             },
             "settings": {
+                "display_mode": "",
                 "access_lifetime": "访问令牌有效期（秒）",
                 "allow_implicit": "允许隐式授权（response_type=token）",
                 "enforce_state": "强制状态验证（state 参数）",
-                "require_exact_redirect_uri": "需要精确的重定向 URI"
+                "require_exact_redirect_uri": "需要精确的重定向 URI",
+                "authorization_method_fetch": ""
             },
             "clients": {
                 "client_id": "应用 ID",
@@ -25,7 +27,8 @@
                 "client_desc": "描述",
                 "client_icon": "图标",
                 "client_home": "主页",
-                "add_button": "添加应用"
+                "add_button": "添加应用",
+                "edit_client": ""
             },
             "scopes": {
                 "scope": "权限标识",
@@ -35,7 +38,8 @@
                 "scope_name": "名称",
                 "scope_icon": "图标",
                 "scope_desc": "描述",
-                "add_button": "添加权限"
+                "add_button": "添加权限",
+                "edit_scope": ""
             }
         },
         "forum": {
@@ -48,9 +52,14 @@
                 }
             },
             "authorize": {
+                "require_these_scopes": "",
                 "access": "授权访问",
                 "agree": "授权",
                 "deny": "拒绝"
+            },
+            "authorized": {
+                "no_more_records": "",
+                "load_more": ""
             }
         }
     }

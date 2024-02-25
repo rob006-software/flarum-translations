@@ -10,10 +10,12 @@
                 "scopes": "Manage Scopes"
             },
             "settings": {
+                "display_mode": "Display Mode",
                 "access_lifetime": "Access Token Lifetime (seconds)",
                 "allow_implicit": "Allow Implicit Grant (response_type=token)",
                 "enforce_state": "Enforce State Validation (state parameter)",
-                "require_exact_redirect_uri": "Require Exact Redirect URI"
+                "require_exact_redirect_uri": "Require Exact Redirect URI",
+                "authorization_method_fetch": "Authorization Method Fetch (Not directly redirecting to)"
             },
             "clients": {
                 "client_id": "Client ID",
@@ -25,7 +27,8 @@
                 "client_desc": "Description",
                 "client_icon": "Icon",
                 "client_home": "HomePage",
-                "add_button": "Add Client"
+                "add_button": "Add Client",
+                "edit_client": "Edit Client"
             },
             "scopes": {
                 "scope": "Scope",
@@ -35,7 +38,8 @@
                 "scope_name": "Name",
                 "scope_icon": "Icon",
                 "scope_desc": "Description",
-                "add_button": "Add Scope"
+                "add_button": "Add Scope",
+                "edit_scope": "Edit Scope"
             }
         },
         "forum": {
@@ -48,9 +52,14 @@
                 }
             },
             "authorize": {
+                "require_these_scopes": "Require these scopes",
                 "access": "Access to",
                 "agree": "Agree",
                 "deny": "Deny"
+            },
+            "authorized": {
+                "no_more_records": "No more records",
+                "load_more": "Load More"
             }
         }
     }

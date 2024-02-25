@@ -10,10 +10,12 @@
                 "scopes": ""
             },
             "settings": {
+                "display_mode": "",
                 "access_lifetime": "",
                 "allow_implicit": "",
                 "enforce_state": "",
-                "require_exact_redirect_uri": ""
+                "require_exact_redirect_uri": "",
+                "authorization_method_fetch": ""
             },
             "clients": {
                 "client_id": "",
@@ -25,7 +27,8 @@
                 "client_desc": "",
                 "client_icon": "",
                 "client_home": "",
-                "add_button": ""
+                "add_button": "",
+                "edit_client": ""
             },
             "scopes": {
                 "scope": "",
@@ -35,7 +38,8 @@
                 "scope_name": "",
                 "scope_icon": "",
                 "scope_desc": "",
-                "add_button": ""
+                "add_button": "",
+                "edit_scope": ""
             }
         },
         "forum": {
@@ -48,9 +52,14 @@
                 }
             },
             "authorize": {
+                "require_these_scopes": "",
                 "access": "",
                 "agree": "",
                 "deny": ""
+            },
+            "authorized": {
+                "no_more_records": "",
+                "load_more": ""
             }
         }
     }

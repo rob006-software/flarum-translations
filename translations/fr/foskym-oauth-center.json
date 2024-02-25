@@ -10,10 +10,12 @@
                 "scopes": "Gérer les champs d'application"
             },
             "settings": {
+                "display_mode": "",
                 "access_lifetime": "Durée de vie du jeton d'accès (en secondes)",
                 "allow_implicit": "Autoriser l'octroi implicite (response_type=token)",
                 "enforce_state": "Renforcer la validation de l'état (paramètre d'état)",
-                "require_exact_redirect_uri": "Exiger un URI de redirection exact"
+                "require_exact_redirect_uri": "Exiger un URI de redirection exact",
+                "authorization_method_fetch": ""
             },
             "clients": {
                 "client_id": "Identifiant du client",
@@ -25,7 +27,8 @@
                 "client_desc": "Description",
                 "client_icon": "Icône",
                 "client_home": "Page d'accueil",
-                "add_button": "Ajouter un client"
+                "add_button": "Ajouter un client",
+                "edit_client": ""
             },
             "scopes": {
                 "scope": "Champ d'application",
@@ -35,7 +38,8 @@
                 "scope_name": "Nom",
                 "scope_icon": "Icône",
                 "scope_desc": "Description",
-                "add_button": "Ajouter un champ d'application"
+                "add_button": "Ajouter un champ d'application",
+                "edit_scope": ""
             }
         },
         "forum": {
@@ -48,9 +52,14 @@
                 }
             },
             "authorize": {
+                "require_these_scopes": "",
                 "access": "Accès à",
                 "agree": "Accorder",
                 "deny": "Refuser"
+            },
+            "authorized": {
+                "no_more_records": "",
+                "load_more": ""
             }
         }
     }

@@ -10,10 +10,12 @@
                 "scopes": "Керування діапазонами"
             },
             "settings": {
+                "display_mode": "",
                 "access_lifetime": "Час життя токену доступу (секунди)",
                 "allow_implicit": "Дозволити неявний грант (response_type=token)",
                 "enforce_state": "Увімкнути перевірку стану (параметр стану)",
-                "require_exact_redirect_uri": "Вимагати точний URI перенаправлення"
+                "require_exact_redirect_uri": "Вимагати точний URI перенаправлення",
+                "authorization_method_fetch": ""
             },
             "clients": {
                 "client_id": "Client ID",
@@ -25,7 +27,8 @@
                 "client_desc": "Опис",
                 "client_icon": "Іконка",
                 "client_home": "Головна",
-                "add_button": "Додати клієнт"
+                "add_button": "Додати клієнт",
+                "edit_client": ""
             },
             "scopes": {
                 "scope": "Область застосування",
@@ -35,7 +38,8 @@
                 "scope_name": "Назва",
                 "scope_icon": "Іконка",
                 "scope_desc": "Опис",
-                "add_button": "Додати область застосування"
+                "add_button": "Додати область застосування",
+                "edit_scope": ""
             }
         },
         "forum": {
@@ -48,9 +52,14 @@
                 }
             },
             "authorize": {
+                "require_these_scopes": "",
                 "access": "Доступ до",
                 "agree": "Дозволено",
                 "deny": "Заборонено"
+            },
+            "authorized": {
+                "no_more_records": "",
+                "load_more": ""
             }
         }
     }
