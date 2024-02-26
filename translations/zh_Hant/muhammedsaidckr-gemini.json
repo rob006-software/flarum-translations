@@ -2,21 +2,21 @@
     "muhammedsaidckr-gemini": {
         "admin": {
             "settings": {
-                "api_key_label": "",
-                "api_key_help": "",
-                "model_label": "",
-                "model_help": "",
-                "user_prompt_label": "",
-                "user_prompt_help": "",
-                "user_prompt_badge_label": "",
-                "user_prompt_badge_help": "",
-                "enable_on_discussion_started_label": "",
-                "enable_on_discussion_started_help": "",
-                "enabled_tags_label": "",
-                "enabled_tags_help": ""
+                "api_key_label": "API 密鑰",
+                "api_key_help": "從 <a>google.gemini.com</a> 取得 Gemini API 金鑰。",
+                "model_label": "模型",
+                "model_help": "選擇要使用的型號。",
+                "user_prompt_label": "使用者提示",
+                "user_prompt_help": "輸入將用於產生答案的使用者 ID。 預設是討論發起者。",
+                "user_prompt_badge_label": "使用者提示徽章",
+                "user_prompt_badge_help": "將顯示在使用者提示旁邊的文字。",
+                "enable_on_discussion_started_label": "在討論開始時啟用",
+                "enable_on_discussion_started_help": "討論開始時，討論將根據第一篇文章的內容收到答案。",
+                "enabled_tags_label": "啟用的標籤",
+                "enabled_tags_help": "選擇將用於生成答案的標籤。"
             },
             "permissions": {
-                "use_gemini_assistant_label": ""
+                "use_gemini_assistant_label": "使用 Gemini 助手"
             }
         }
     }
