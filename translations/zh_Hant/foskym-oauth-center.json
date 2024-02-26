@@ -10,12 +10,12 @@
                 "scopes": "管理範圍"
             },
             "settings": {
-                "display_mode": "",
+                "display_mode": "顯示模式",
                 "access_lifetime": "訪問令牌生命週期（秒）",
                 "allow_implicit": "允許隱式授予（response_type=token）",
                 "enforce_state": "強制狀態驗證（狀態參數）",
                 "require_exact_redirect_uri": "需要精確的重定向 URI",
-                "authorization_method_fetch": ""
+                "authorization_method_fetch": "授權方法提取（不直接重定向到）"
             },
             "clients": {
                 "client_id": "客戶ID",
@@ -28,7 +28,7 @@
                 "client_icon": "圖示",
                 "client_home": "主頁",
                 "add_button": "新增客戶端",
-                "edit_client": ""
+                "edit_client": "編輯用戶端"
             },
             "scopes": {
                 "scope": "範圍",
@@ -39,7 +39,7 @@
                 "scope_icon": "圖示",
                 "scope_desc": "描述",
                 "add_button": "增加範圍",
-                "edit_scope": ""
+                "edit_scope": "編輯範圍"
             }
         },
         "forum": {
@@ -52,14 +52,14 @@
                 }
             },
             "authorize": {
-                "require_these_scopes": "",
+                "require_these_scopes": "需要這些範圍",
                 "access": "進入",
                 "agree": "同意",
                 "deny": "否定"
             },
             "authorized": {
-                "no_more_records": "",
-                "load_more": ""
+                "no_more_records": "暫無相關記錄",
+                "load_more": "載入更多"
             }
         }
     }
