@@ -87,8 +87,8 @@
             },
             "file_permissions": "Artırma meneceri aşağıdakı fayl və qovluqlarda oxumaq və yazma icazələrini tələb edir: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
+                "description": "Əsas Flarum yeniləmələri geriyə uyğun deyil, yəni hazırda quraşdırılmış genişləndirmələrdən bəziləri və əl ilə edilən dəyişikliklər bu yeni versiya ilə işləməyə bilər. Davam etməzdən əvvəl verilənlər bazanızın və fayllarınızın ehtiyat nüsxəsini çıxardığınızdan əmin olun.\n",
+                "dry_run": "Quru çalışdırma",
                 "dry_run_help": "",
                 "failure": {
                     "desc": "",
