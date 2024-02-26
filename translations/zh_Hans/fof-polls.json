@@ -4,8 +4,8 @@
             "settings": {
                 "allow_option_image": "允许图片选项",
                 "max_options": "每次投票的最大选项数",
-                "options_color_blend": "",
-                "options_color_blend_help": ""
+                "options_color_blend": "在投票选项中使用颜色混合文字",
+                "options_color_blend_help": "使用该选项来用颜色混合使投票选项更加具有可读性。如果这个功能和你的论坛样式存在冲突，禁用它，但会降低可读性。"
             },
             "permissions": {
                 "view_results_without_voting": "无需参与投票即可查看结果",
@@ -22,7 +22,7 @@
             "no_permission": "您没有投票权限",
             "poll_ended": "投票已结束。",
             "public_poll": "查看投票详情",
-            "max_votes_allowed": "允许投票给 {max, plural, one {# option} other {# options}}.",
+            "max_votes_allowed": "允许投票给 {max} 个选项。",
             "poll": {
                 "cannot_change_vote": "投票后不能再次更改。",
                 "submit_button": "投票"
