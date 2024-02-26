@@ -2,32 +2,32 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Moderator duýduryşlary döretmek we aýyrmak",
+                "view_warnings": "Moderator duýduryşlary görmek",
+                "delete_warnings": "Moderator duýduryşlary hemişelik boz"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} ulanyjy sizi {strikes, plural, one {# straýk} other {# straýklar}} bilen {discussion_title} gürrüňde duýduryş berdi",
+                "body": "Salam {warnee_display_name}!\n\n{warner_display_name} ulanyjy sizi {strikes, plural, one {# straýk} other {# straýklar}} bilen {discussion_title} gürrüňde duýduryş berdi\n\nDuýduryşyň sebäbi:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} ulanyjy sizi {strikes, plural, one {# straýk} other {# straýklar}} bilen duýduryş berdi",
+                "body": "Salam {warnee_display_name}!\n\n{warner_display_name} ulanyjy sizi {strikes, plural, one {# straýk} other {# straýklar}} bilen duýduryş berdi\n\nDuýduryşyň sebäbi:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{strikes, plural, one {{mod_username} Sizi # straýk bilen duýduryş berdi} other {{mod_username} Sizi # straýklar bilen duýduryş berdi}}",
+                "warning_no_strikes_text": "{mod_username} Size duýduryş berdi (straýksyz)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{strikes, plural, one {# straýk bilen {mod_username} tarapyndan duýduryş berildi} other {# straýklar bilen {mod_username} tarapyndan duýduryş berildi}}",
+                "warning_no_strikes": "{mod_username} straýksyz duýduryş berdi"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Duýduryş ber"
             },
             "user": {
                 "warnings": ""
