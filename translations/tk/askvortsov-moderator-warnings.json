@@ -30,40 +30,40 @@
                 "warning_button": "Duýduryş ber"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Moderator duýduryşlary"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Moderator duýduryş berdi"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Hökman açyk kommentariýa bermeli.",
+                "invalid_strike_count": "Straýklaryň sany 0 we 5 aralygynda bitewi san bolmaly."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Aýyr",
+                "restore_button": "Dikelt",
+                "delete_forever_button": "Hemişelik Boz"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Täze Duýduryş",
+                "no_warnings": "Hiç hili duýduryş ýok.",
+                "warnings": "{strikes, plural, one {Moderator Duýduryşlary: # Straýk berilen} other {Moderator Duýduryşlary: # Straýklar berilen}}",
+                "warnings_no_strikes": "Moderator Duýduryşlary: Hiç hili straýk berilmedik"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> straýk, {time}} other {<strong>#</strong> straýklar, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> straýk, {time} <strong>(bozulan)</strong>} other {<strong>#</strong> straýklar, {time} <strong>(bozulan)</strong>}}",
+                "public_comment": "Duýduryş",
+                "private_comment": "Diňe Moderatora görünýän teswir",
+                "linked_post": "Agzalan Post"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "Siziň duýduryşyňyz ýatda saklandy. Sahypany täzelemek mümkin gerek bolar.",
+                "heading": "<strong>{username}</strong> duýdyr",
+                "strikes_heading": "Näçe sany straýk hasap edilmeli?",
+                "public_comment_heading": "Näme üçin <strong>{username}</strong> bu duýduryşy alýar? Bu teswirler ulanyja we moderatorlara görüner.",
+                "private_comment_heading": "Näme üçin <strong>{username}</strong> bu duýduryşy alýar? Bu teswirler DIŇE moderatorlara görüner.",
+                "submit_button": "Duýduryşy ýatda sakla"
             }
         }
     }
