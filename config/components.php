@@ -620,7 +620,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/1.1.2/resources/locale/en.yml',
 	],
 	'fof-links' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/1.2.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/1.2.3/locale/en.yml',
 	],
 	'fof-mason' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mason/1.2.1/resources/locale/en.yml',
