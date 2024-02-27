@@ -8,40 +8,40 @@
                 "range_separator_text": " a ",
                 "range_seconds_text": " segons",
                 "loading_delay_label": "Alentiment de càrrega",
-                "loading_delay_text": "",
-                "broken_page_chance_label": "",
-                "broken_page_chance_text": "",
-                "flood_time_multiplier_label": "",
-                "flood_time_multiplier_text": "",
-                "redirection_chance_label": "",
-                "redirection_chance_text": "",
-                "redirection_page_url_label": "",
-                "redirection_page_url_text": "",
-                "log_out_chance_label": "",
-                "log_out_chance_text": "",
-                "shuffle_post_chance_label": "",
-                "shuffle_post_chance_text": ""
+                "loading_delay_text": "Els usuaris infeliços tindran un retard en la càrrega de pàgines de durada aleatòria entre els dos valors especificats aquí.",
+                "broken_page_chance_label": "Probabilitat de pàgina trencada",
+                "broken_page_chance_text": "Pots mostrar una pàgina trencada als usuaris infeliços cada cert temps. Entra el tant per cent de probabilitat que se li mostri.",
+                "flood_time_multiplier_label": "Multiplicador de temps d'espera",
+                "flood_time_multiplier_text": "El temps mínim estàndard (que és de 10 segons) entre missatges es pot multiplicar per fer que els usuaris infeliços esperin més entre publicacions.",
+                "redirection_chance_label": "Probabilitat de redirecció",
+                "redirection_chance_text": "Entrar el tant per cent de probabilitat que un usuari infeliç sigui redirigit a l'adreça de la pàgina de redirecció.",
+                "redirection_page_url_label": "Adreça web de la pàgina de redirecció",
+                "redirection_page_url_text": "Pots redirigir aleatòriament els usuaris infeliços a una pàgina diferent. Si es deixa en blanc, se'ls redirigirà a la pàgina principal del fòrum.",
+                "log_out_chance_label": "Probabilitat de tancament de sessió",
+                "log_out_chance_text": "Introdueix el tant per cent de probabilitat que es tanqui la sessió d'un usuari infeliç i se'l redirigeixi novament a la pàgina d'inici. <b>Recorda!</b> Un cop tancada la sessió, ja no se'ls apliquen les restriccions d'usuari infeliç.",
+                "shuffle_post_chance_label": "Probabilitat de publicació barrejada",
+                "shuffle_post_chance_text": "Pots barrejar aleatòriament la publicació d'un usuari miserable. Introdueix el tant per cent de probabilitat que això passi."
             }
         },
         "forum": {
             "user_badge": {
-                "miserable_user_tooltip": ""
+                "miserable_user_tooltip": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "user_controls": {
-                "miserable_user_button": ""
+                "miserable_user_button": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "miserable_user": {
-                "title": "",
-                "status_heading": "",
-                "not_miserable_label": "",
-                "indefinitely_label": "",
-                "limited_time_label": "",
-                "limited_time_days_text": "",
-                "submit_button": ""
+                "title": "Infeliç {username}",
+                "status_heading": "Estat d'infelicitat",
+                "not_miserable_label": "Normal (no infeliç)",
+                "indefinitely_label": "Infeliç indefinidament",
+                "limited_time_label": "Infeliç per temps limitat...",
+                "limited_time_days_text": " dies",
+                "submit_button": "=> core.ref.save_changes"
             }
         },
         "ref": {
-            "miserable_user": ""
+            "miserable_user": "Usuari infeliç"
         }
     }
 }
