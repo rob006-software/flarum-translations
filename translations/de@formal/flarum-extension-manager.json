@@ -11,7 +11,7 @@
                     "type_label": "",
                     "unchanged_token_placeholder": ""
                 },
-                "delete_confirmation": "",
+                "delete_confirmation": "Sind sie sicher, dass sie diese Authentifizierungsmethode löschen möchten?",
                 "delete_label": "",
                 "edit_label": "",
                 "fields": {
@@ -30,13 +30,13 @@
             },
             "composer": {
                 "add_repository_label": "",
-                "delete_repository_confirmation": "",
+                "delete_repository_confirmation": "Sind sie sicher, dass sie dieses Repository löschen wollen? Alle daraus installierten Erweiterungen werden entfernt.",
                 "delete_repository_label": "",
                 "edit_repository_label": "",
                 "title": "",
                 "minimum_stability": {
                     "label": "",
-                    "help": "",
+                    "help": "Die Art von Paketen, die installiert werden dürfen. Ändern sie dies nur, wenn sie wissen, was sie tun.",
                     "options": {
                         "stable": "",
                         "rc": "",
@@ -47,7 +47,7 @@
                 },
                 "repositories": {
                     "label": "",
-                    "help": "",
+                    "help": "Fügen sie zusätzliche Repositories hinzu, um Pakete daraus zu installieren. Dies ist eine fortgeschrittene Funktion, fügen sie keine Repositories hinzu, denen sie nicht vertrauen, da sie genutzt werden können, um schädlichen Code auf ihrem Server auszuführen.\n",
                     "types": {
                         "composer": "",
                         "vcs": "",
@@ -62,7 +62,7 @@
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
+                "composer_command_failure": "Ausführung fehlgeschlagen. Überprüfen sie die Composer-Logs in storage/logs/composer.",
                 "extension_already_installed": "",
                 "extension_not_directly_dependency": "",
                 "extension_not_installed": "",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "",
                 "install": "",
-                "install_help": "",
+                "install_help": "Geben sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können mithilfe des Formats <code>vendor/package-name:version</code> eine <semantic_link>semantische Version</semantic_link> angeben. Besuchen sie {extiverse}, um Erweiterungen zu durchsuchen.\n",
                 "proceed": "",
                 "remove": "",
                 "successful_install": "",
@@ -87,9 +87,9 @@
             },
             "file_permissions": "",
             "major_updater": {
-                "description": "",
+                "description": "Große Flarum-Updates sind nicht rückwärtskompatibel, was bedeutet, dass einige ihrer derzeit installierten Erweiterungen und manuell durchgeführten Änderungen möglicherweise nicht mit dieser neuen Version funktionieren. Bitte stellen sie sicher, dass sie ein Backup Ihrer Datenbank und Dateien erstellen, bevor sie fortfahren.\n",
                 "dry_run": "",
-                "dry_run_help": "",
+                "dry_run_help": "Ein Testlauf simuliert das Update, um zu sehen, ob ihr aktuelles Setup sicher aktualisiert werden kann. Das bedeutet nicht, dass ihre manuell vorgenommenen Anpassungen in der neueren Version funktionieren.",
                 "failure": {
                     "desc": "",
                     "why": ""
@@ -143,10 +143,10 @@
             },
             "settings": {
                 "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
+                "access_warning": "Bitte seien sie vorsichtig, wem sie Zugang zum Admin-Bereich geben, der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.",
+                "debug_mode_warning": "Sie sind im Debug-Modus, der Erweiterungs-Manager kann lokale Entwicklungs-Pakete nicht richtig installieren und aktualisieren. Bitte benutzen sie für solche Zwecke stattdessen die Kommandozeilen-Schnittstelle.",
                 "queue_jobs": "",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "Sie können sich über eine <a href='{basic_impl_link}'>einfache Warteschlangen-Implementierung</a> oder eine <a href='{adv_impl_link}'>fortgeschrittenere</a> informieren. Stellen sie sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Stellen sie außerdem sicher, dass die <a href='{folder_perms_link}'>Ordnerberechtigungen</a> richtig konfiguriert sind.\n",
                 "task_retention_days": "",
                 "task_retention_days_help": ""
             },
