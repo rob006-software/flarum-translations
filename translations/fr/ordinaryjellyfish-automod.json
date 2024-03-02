@@ -1,6 +1,9 @@
 {
     "ordinaryjellyfish-automod": {
         "admin": {
+            "permissions": {
+                "bypass": ""
+            },
             "settings": {
                 "threshold": "Seuil de confiance",
                 "threshold_help": "Le seuil de confiance se situe entre 0,00 et 1,00 et reflète la probabilité que l'entrée ou la réponse appartienne à une catégorie donnée. Un seuil plus bas entraînera moins de faux positifs, mais aussi plus de faux négatifs. Un seuil plus élevé entraînera plus de faux positifs, mais aussi moins de faux négatifs.",

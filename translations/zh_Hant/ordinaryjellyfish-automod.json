@@ -1,6 +1,9 @@
 {
     "ordinaryjellyfish-automod": {
         "admin": {
+            "permissions": {
+                "bypass": ""
+            },
             "settings": {
                 "threshold": "置信度閾值",
                 "threshold_help": "置信度閾值介於0.00和1.00之間，反映了輸入或回應屬於給定類別的可能性。較低的閾值將導致更少的誤報，但也可能導致更多的誤報。閾值越高，誤報次數越多，誤報次數也就越少。",
