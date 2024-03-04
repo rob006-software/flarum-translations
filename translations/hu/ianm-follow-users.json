@@ -29,8 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
-                "change_button": ""
+                "unfollow_button": "=> ianm-follow-users.lib.unfollow",
+                "change_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
                 "notify_new_follower_label": "Valaki követ engem",
@@ -83,7 +83,7 @@
             "following_link": "Követett felhasználók",
             "follow": "Követés",
             "change_follow_type": "Követés típusának megváltoztatása",
-            "unfollow": "",
+            "unfollow": "Követés megszüntetése",
             "follow_levels": {
                 "unfollow": {
                     "name": "Nem követem",
