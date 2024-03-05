@@ -19,7 +19,7 @@
                 "lurking_tag_tooltip": "吃瓜中"
             },
             "sub_controls": {
-                "header": "",
+                "header": "关注 {tagName}",
                 "subscription_label": "选择你对{tagName}的关注等级",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
@@ -83,8 +83,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": "移除用户对标签的关注"
+                    "export_description": "导出标签关注程度细节。",
+                    "anonymize_description": "移除用户对标签的关注。"
                 }
             }
         }
