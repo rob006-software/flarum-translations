@@ -5,7 +5,9 @@
                 "allow_option_image": "Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél",
                 "max_options": "A lehetőségek legnagyobb száma szavazásonként",
                 "options_color_blend": "Színkeverés használata a szavazási lehetőségek szövegénél",
-                "options_color_blend_help": "Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot."
+                "options_color_blend_help": "Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.",
+                "enable_global_polls": "",
+                "enable_global_polls_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
@@ -14,7 +16,8 @@
                 "self_post_edit": "Az *összes* saját bejegyzésben lévő szavazás szerkesztése (bejegyzésszerkesztési engedély szükséges)",
                 "vote": "Részvétel a szavazásokban",
                 "change_vote": "Szavazat módosítása",
-                "moderate": "Szavazások szerkesztése és törlése"
+                "moderate": "Szavazások szerkesztése és törlése",
+                "start_global": ""
             }
         },
         "forum": {
@@ -25,7 +28,9 @@
             "max_votes_allowed": "A szavazásban legfeljebb {max} lehetőség választható.",
             "poll": {
                 "cannot_change_vote": "A szavazat leadása után nem módosíthatja a szavazatát.",
-                "submit_button": "Szavazás"
+                "submit_button": "Szavazás",
+                "start_poll_button": "",
+                "cannot_start_poll_button": ""
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -51,7 +56,20 @@
                 "hide_votes_label": "Szavazatok elrejtése a szavazás végéig",
                 "allow_change_vote_label": "Engedélyezés, hogy a felhasználók módosítsák a szavazatukat",
                 "question_placeholder": "Kérdés",
-                "submit": "Beküldés"
+                "submit": "Beküldés",
+                "subtitle_placeholder": "",
+                "delete": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
             },
             "moderation": {
                 "add": "Szavazás hozzáadása",
@@ -65,6 +83,47 @@
             },
             "votes_modal": {
                 "title": "Szavazók"
+            },
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
+            },
+            "page": {
+                "nav": "",
+                "nav-all": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             }
         }
     }

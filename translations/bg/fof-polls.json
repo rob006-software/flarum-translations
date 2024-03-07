@@ -5,7 +5,9 @@
                 "allow_option_image": "Разрешете на URL изображението да се предоставя за всяка анкетна опция",
                 "max_options": "Максимален брой опции за анкета",
                 "options_color_blend": "Текст за преливане на цветове в опциите за анкета",
-                "options_color_blend_help": "Използвайте това, за да използвате смесване на цветове, за да направите опциите за анкета по-четими. Деактивирайте, ако тази функция създава проблеми с външния вид на вашия форум, намалявайки четливостта."
+                "options_color_blend_help": "Използвайте това, за да използвате смесване на цветове, за да направите опциите за анкета по-четими. Деактивирайте, ако тази функция създава проблеми с външния вид на вашия форум, намалявайки четливостта.",
+                "enable_global_polls": "",
+                "enable_global_polls_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Вижте резултатите без гласуване",
@@ -14,7 +16,8 @@
                 "self_post_edit": "Редактиране на *всички* анкети на собствени публикации (изисква разрешение за редактиране на публикации)",
                 "vote": "Гласувайте в анкети",
                 "change_vote": "Промяна на вота",
-                "moderate": "Редактиране и премахване на анкети"
+                "moderate": "Редактиране и премахване на анкети",
+                "start_global": ""
             }
         },
         "forum": {
@@ -25,7 +28,9 @@
             "max_votes_allowed": "Анкетата позволява гласуване за {max, plural, one {# опция} other {# опции}}.",
             "poll": {
                 "cannot_change_vote": "Не можете да промените гласа си след гласуване.",
-                "submit_button": "Гласувай"
+                "submit_button": "Гласувай",
+                "start_poll_button": "",
+                "cannot_start_poll_button": ""
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -51,7 +56,20 @@
                 "hide_votes_label": "Скриване на гласовете до края на анкетата",
                 "allow_change_vote_label": "Позволете на потребителите да променят вота си",
                 "question_placeholder": "Въпрос",
-                "submit": "Изпращане"
+                "submit": "Изпращане",
+                "subtitle_placeholder": "",
+                "delete": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
             },
             "moderation": {
                 "add": "Добавяне на анкета",
@@ -65,6 +83,47 @@
             },
             "votes_modal": {
                 "title": "Гласуващи"
+            },
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
+            },
+            "page": {
+                "nav": "",
+                "nav-all": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             }
         }
     }

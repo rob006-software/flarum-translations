@@ -5,7 +5,9 @@
                 "allow_option_image": "Permet que es proporcioni l'adreça web d'una imatge per a cada opció de l'enquesta",
                 "max_options": "Màxim nombre d'opcions per enquesta",
                 "options_color_blend": "Combina colors a les opcions de l'enquesta",
-                "options_color_blend_help": "Activa aquesta funció per permetre la barreja de colors per fer que les opcions de l'enquesta siguin més llegibles. Desactiva-la si causa problemes amb l'aparença del teu fòrum, reduint-ne la llegibilitat."
+                "options_color_blend_help": "Activa aquesta funció per permetre la barreja de colors per fer que les opcions de l'enquesta siguin més llegibles. Desactiva-la si causa problemes amb l'aparença del teu fòrum, reduint-ne la llegibilitat.",
+                "enable_global_polls": "",
+                "enable_global_polls_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Veure resultats sense votar",
@@ -14,7 +16,8 @@
                 "self_post_edit": "Editar *totes* les enquestes a les publicacions pròpies (requereix permís d'edició de publicacions)",
                 "vote": "Votar a les enquestes",
                 "change_vote": "Canviar vot",
-                "moderate": "Editar i esborrar enquestes"
+                "moderate": "Editar i esborrar enquestes",
+                "start_global": ""
             }
         },
         "forum": {
@@ -25,7 +28,9 @@
             "max_votes_allowed": "L'enquesta permet votar {max, plural, one {# opció} other {# opcions}}.",
             "poll": {
                 "cannot_change_vote": "No pots canviar el teu vot un cop emès.",
-                "submit_button": "Votar"
+                "submit_button": "Votar",
+                "start_poll_button": "",
+                "cannot_start_poll_button": ""
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -51,7 +56,20 @@
                 "hide_votes_label": "Amagar els vots fins que acabi l'enquesta",
                 "allow_change_vote_label": "Permetre que els usuaris canviïn el seu vot",
                 "question_placeholder": "Pregunta",
-                "submit": "Enviar"
+                "submit": "Enviar",
+                "subtitle_placeholder": "",
+                "delete": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
             },
             "moderation": {
                 "add": "Afegir enquesta",
@@ -65,6 +83,47 @@
             },
             "votes_modal": {
                 "title": "Votants"
+            },
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
+            },
+            "page": {
+                "nav": "",
+                "nav-all": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             }
         }
     }

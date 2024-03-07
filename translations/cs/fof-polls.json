@@ -5,7 +5,9 @@
                 "allow_option_image": "Umožnit zadat adresu URL obrázku pro každou možnost ankety",
                 "max_options": "Maximální počet možností v jedné anketě",
                 "options_color_blend": "Prolínání barev textu ve volbách hlasování",
-                "options_color_blend_help": "Tuto volbu použijte k míchání barev, zlepšíte tím čitelnost možností hlasování. Pokud tato volba způsobuje problémy se vzhledem fóra a snižuje jeho čitelnost, zakažte ji."
+                "options_color_blend_help": "Tuto volbu použijte k míchání barev, zlepšíte tím čitelnost možností hlasování. Pokud tato volba způsobuje problémy se vzhledem fóra a snižuje jeho čitelnost, zakažte ji.",
+                "enable_global_polls": "",
+                "enable_global_polls_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Zobrazit výsledky bez hlasování",
@@ -14,7 +16,8 @@
                 "self_post_edit": "Upravit *všechny* ankety ve vlastních příspěvcích (vyžaduje oprávnění k úpravám příspěvků)",
                 "vote": "Hlasování v anketách",
                 "change_vote": "Změnit hlasování",
-                "moderate": "Upravit a mazat ankety"
+                "moderate": "Upravit a mazat ankety",
+                "start_global": ""
             }
         },
         "forum": {
@@ -25,7 +28,9 @@
             "max_votes_allowed": "V anketě můžete hlasovat pro {max, plural, one {# možnost} few {# možnosti} other {# možností}}.",
             "poll": {
                 "cannot_change_vote": "Po hlasování nemůžete svůj hlas změnit.",
-                "submit_button": "Hlasovat"
+                "submit_button": "Hlasovat",
+                "start_poll_button": "",
+                "cannot_start_poll_button": ""
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -51,7 +56,20 @@
                 "hide_votes_label": "Skrýt hlasy, dokud anketa neskončí",
                 "allow_change_vote_label": "Umožnit uživatelům změnit svůj hlas",
                 "question_placeholder": "Otázka",
-                "submit": "Odeslat"
+                "submit": "Odeslat",
+                "subtitle_placeholder": "",
+                "delete": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
             },
             "moderation": {
                 "add": "Přidat anketu",
@@ -65,6 +83,47 @@
             },
             "votes_modal": {
                 "title": "Hlasující"
+            },
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
+            },
+            "page": {
+                "nav": "",
+                "nav-all": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             }
         }
     }

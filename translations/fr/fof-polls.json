@@ -5,7 +5,9 @@
                 "allow_option_image": "Permettre de fournir l'URL d'une image pour chaque option de sondage",
                 "max_options": "Nombre maximum d'options par sondage",
                 "options_color_blend": "Mélange de couleurs du texte dans les options de sondage",
-                "options_color_blend_help": "Utilisez cette option pour mélanger les couleurs afin de rendre les options du sondage plus lisibles. Désactivez cette fonction si elle provoque des problèmes d'apparence à votre forum qui pourraient réduire sa lisibilité."
+                "options_color_blend_help": "Utilisez cette option pour mélanger les couleurs afin de rendre les options du sondage plus lisibles. Désactivez cette fonction si elle provoque des problèmes d'apparence à votre forum qui pourraient réduire sa lisibilité.",
+                "enable_global_polls": "",
+                "enable_global_polls_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Afficher les résultats sans voter",
@@ -14,7 +16,8 @@
                 "self_post_edit": "Modifier *tous* les sondages sur ses propres messages (nécessite l'autorisation de modifier les messages)",
                 "vote": "Voter sur les sondages",
                 "change_vote": "Modifier le vote",
-                "moderate": "Modifier et supprimer les sondages"
+                "moderate": "Modifier et supprimer les sondages",
+                "start_global": ""
             }
         },
         "forum": {
@@ -25,7 +28,9 @@
             "max_votes_allowed": "Le sondage permet de voter pour {max, plural, one {# option} other {# options}}.",
             "poll": {
                 "cannot_change_vote": "Vous ne pouvez pas modifier votre vote après avoir voté.",
-                "submit_button": "Voter"
+                "submit_button": "Voter",
+                "start_poll_button": "",
+                "cannot_start_poll_button": ""
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -51,7 +56,20 @@
                 "hide_votes_label": "Masquer les votes jusqu'à la fin du sondage",
                 "allow_change_vote_label": "Permettre aux utilisateurs de modifier leur vote",
                 "question_placeholder": "Question",
-                "submit": "Envoyer"
+                "submit": "Envoyer",
+                "subtitle_placeholder": "",
+                "delete": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
             },
             "moderation": {
                 "add": "Ajouter un sondage",
@@ -65,6 +83,47 @@
             },
             "votes_modal": {
                 "title": "Votants"
+            },
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
+            },
+            "page": {
+                "nav": "",
+                "nav-all": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             }
         }
     }

@@ -5,7 +5,9 @@
                 "allow_option_image": "Permitir que a URL de uma imagem seja fornecida para cada opção da enquete",
                 "max_options": "",
                 "options_color_blend": "",
-                "options_color_blend_help": ""
+                "options_color_blend_help": "",
+                "enable_global_polls": "",
+                "enable_global_polls_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Ver resultados sem votar",
@@ -14,7 +16,8 @@
                 "self_post_edit": "",
                 "vote": "Vote nas enquetes",
                 "change_vote": "Mudar voto",
-                "moderate": "Editar e remover enquetes"
+                "moderate": "Editar e remover enquetes",
+                "start_global": ""
             }
         },
         "forum": {
@@ -25,7 +28,9 @@
             "max_votes_allowed": "",
             "poll": {
                 "cannot_change_vote": "",
-                "submit_button": ""
+                "submit_button": "",
+                "start_poll_button": "",
+                "cannot_start_poll_button": ""
             },
             "composer_discussion": {
                 "add_poll": "Adicionar enquete",
@@ -51,7 +56,20 @@
                 "hide_votes_label": "",
                 "allow_change_vote_label": "",
                 "question_placeholder": "Pergunta",
-                "submit": "Enviar"
+                "submit": "Enviar",
+                "subtitle_placeholder": "",
+                "delete": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
             },
             "moderation": {
                 "add": "",
@@ -65,6 +83,47 @@
             },
             "votes_modal": {
                 "title": "Veja quem votou"
+            },
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
+            },
+            "page": {
+                "nav": "",
+                "nav-all": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             }
         }
     }

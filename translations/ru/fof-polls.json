@@ -5,7 +5,9 @@
                 "allow_option_image": "Разрешить изображение (URL) для каждого варианта опроса",
                 "max_options": "Максимальное количество вариантов опроса",
                 "options_color_blend": "Цветной текст в вариантах опроса",
-                "options_color_blend_help": "Параметр позволяет улучшить читабельность вариантов опроса. Отключите, если эта функция вызывает проблемы с внешнем видом Вашего форума и ухудшает читабельность."
+                "options_color_blend_help": "Параметр позволяет улучшить читабельность вариантов опроса. Отключите, если эта функция вызывает проблемы с внешнем видом Вашего форума и ухудшает читабельность.",
+                "enable_global_polls": "",
+                "enable_global_polls_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Смотреть результаты без голосования",
@@ -14,7 +16,8 @@
                 "self_post_edit": "Редактировать *все* опросы в своих сообщениях (требуется разрешение на редактирование сообщений)",
                 "vote": "Голосовать в опросах",
                 "change_vote": "Изменять голос",
-                "moderate": "Редактировать / удалять опросы"
+                "moderate": "Редактировать / удалять опросы",
+                "start_global": ""
             }
         },
         "forum": {
@@ -25,7 +28,9 @@
             "max_votes_allowed": "Опрос позволяет голосовать за {max, plural, one {# вариант} other {# вариантов}}.",
             "poll": {
                 "cannot_change_vote": "Вы не можете поменять свой голос после голосования.",
-                "submit_button": "Голосовать"
+                "submit_button": "Голосовать",
+                "start_poll_button": "",
+                "cannot_start_poll_button": ""
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -51,7 +56,20 @@
                 "hide_votes_label": "Скрыть голоса до завершения опроса",
                 "allow_change_vote_label": "Разрешить участникам изменять свой голос",
                 "question_placeholder": "Вопрос",
-                "submit": "Сохранить"
+                "submit": "Сохранить",
+                "subtitle_placeholder": "",
+                "delete": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
             },
             "moderation": {
                 "add": "Добавить опрос",
@@ -65,6 +83,47 @@
             },
             "votes_modal": {
                 "title": "Участники опроса"
+            },
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
+            },
+            "page": {
+                "nav": "",
+                "nav-all": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             }
         }
     }

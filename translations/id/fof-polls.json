@@ -5,7 +5,9 @@
                 "allow_option_image": "Izinkan URL gambar disediakan untuk setiap opsi polling",
                 "max_options": "Jumlah opsi maksimum per polling",
                 "options_color_blend": "Perpaduan warna teks dalam opsi polling",
-                "options_color_blend_help": "Gunakan ini untuk menggunakan pencampuran warna untuk membuat opsi polling lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan."
+                "options_color_blend_help": "Gunakan ini untuk menggunakan pencampuran warna untuk membuat opsi polling lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan.",
+                "enable_global_polls": "",
+                "enable_global_polls_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Melihat hasil tanpa melakukan voting",
@@ -14,7 +16,8 @@
                 "self_post_edit": "Mengedit *semua* polling pada postingan Anda sendiri (memerlukan izin edit postingan)",
                 "vote": "Memberikan vote pada polling",
                 "change_vote": "Mengganti vote",
-                "moderate": "Mengedit & menghapus polling"
+                "moderate": "Mengedit & menghapus polling",
+                "start_global": ""
             }
         },
         "forum": {
@@ -25,7 +28,9 @@
             "max_votes_allowed": "Polling memungkinkan melakukan voting untuk {max, plural, one {# pilihan} other {# pilihan}}.",
             "poll": {
                 "cannot_change_vote": "Anda tidak dapat mengubah vote Anda setelah melakukan voting.",
-                "submit_button": "Vote"
+                "submit_button": "Vote",
+                "start_poll_button": "",
+                "cannot_start_poll_button": ""
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -51,7 +56,20 @@
                 "hide_votes_label": "Sembunyikan vote hingga polling berakhir",
                 "allow_change_vote_label": "Izinkan pengguna untuk mengubah vote mereka",
                 "question_placeholder": "Pertanyaan",
-                "submit": "Submit"
+                "submit": "Submit",
+                "subtitle_placeholder": "",
+                "delete": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
             },
             "moderation": {
                 "add": "Tambah Polling",
@@ -65,6 +83,47 @@
             },
             "votes_modal": {
                 "title": "Para voter"
+            },
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
+            },
+            "page": {
+                "nav": "",
+                "nav-all": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             }
         }
     }

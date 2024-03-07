@@ -5,7 +5,9 @@
                 "allow_option_image": "Her anket seçeneği için bir resim URL'sinin sağlanmasına izin ver",
                 "max_options": "Anket başına maksimum seçenek sayısı",
                 "options_color_blend": "Anket seçeneklerinde renk karışımı metni",
-                "options_color_blend_help": "Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın."
+                "options_color_blend_help": "Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın.",
+                "enable_global_polls": "",
+                "enable_global_polls_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
@@ -14,7 +16,8 @@
                 "self_post_edit": "Kendi gönderilerindeki *tüm* anketleri düzenleyin (düzenleme sonrası izin gerektirir)",
                 "vote": "Ankete oy ver",
                 "change_vote": "Oyu değiştir",
-                "moderate": "Anketi düzenle veya sil"
+                "moderate": "Anketi düzenle veya sil",
+                "start_global": ""
             }
         },
         "forum": {
@@ -25,7 +28,9 @@
             "max_votes_allowed": "Anket {max, plural, one {# şık} other {# şık}} seçmeye izin veriyor.",
             "poll": {
                 "cannot_change_vote": "Oy kullandıktan sonra oyunuzu değiştiremezsiniz.",
-                "submit_button": "Oyla"
+                "submit_button": "Oyla",
+                "start_poll_button": "",
+                "cannot_start_poll_button": ""
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -51,7 +56,20 @@
                 "hide_votes_label": "Anket bitene kadar oyları gizle",
                 "allow_change_vote_label": "Kullanıcıların oylarını değiştirmesine izin ver",
                 "question_placeholder": "Soru",
-                "submit": "Gönder"
+                "submit": "Gönder",
+                "subtitle_placeholder": "",
+                "delete": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
             },
             "moderation": {
                 "add": "Anket Ekle",
@@ -65,6 +83,47 @@
             },
             "votes_modal": {
                 "title": "Oy Verenler"
+            },
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
+            },
+            "page": {
+                "nav": "",
+                "nav-all": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             }
         }
     }
