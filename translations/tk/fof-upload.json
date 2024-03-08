@@ -157,7 +157,7 @@
                 "upload_shared": "Paýlaşylan",
                 "user_uploads": "Ulanyjy ýüklemeleri",
                 "cancel": "Ýatyr",
-                "media": "Meniň mediýalarym",
+                "media": "Mediýalarym",
                 "shared_media": "Paýlaşylan mediýa"
             },
             "states": {
@@ -211,7 +211,7 @@
         "lib": {
             "upload-shared-file-modal": {
                 "title": "Täze paýlaşylan faýl",
-                "dropzone": "Faýllary şu ýere süýräň ýa-da göz aýlamak üçin basyň",
+                "dropzone": "Faýllary şu ýere geçiriň ýa-da göz aýlamak üçin basyň",
                 "hide-from-media-gallery": "Ulanyjynyň media galereýasyndan gizle",
                 "upload": "Ýükle"
             },
@@ -219,7 +219,7 @@
                 "loading": "Faýllar ýüklenilýär...",
                 "empty": "Görkeziljek faýllar ýok.",
                 "release_to_upload": "Ýüklemek üçin goýber",
-                "modal_empty_desktop": "Faýl sanawyňyz boş. Ýüklemek üçin düwmä basyň ýa-da şu ýere faýly süýre.",
+                "modal_empty_desktop": "Faýl sanawyňyz boş. Ýüklemek üçin düwmä basyň ýa-da şu ýere faýly geçiriň.",
                 "modal_empty_phone": "Faýl sanawyňyz boş. Faýl ýüklemek üçin ýokardaky düwmä basyň.",
                 "select_file_a11y_label": "Faýly saýla \"{fileName}\"",
                 "confirm_selection_btn": "{fileCount, plural, =0 {Hiç zat saýlanylmadyk} one {Faýly saýla} other {Faýllary saýla}}",
@@ -229,9 +229,9 @@
                 "hide_file": {
                     "btn_a11y_label_hide": "Mediýa dolandyryjysyndan \"{fileName}\" faýly gizle",
                     "btn_a11y_label_show": "Media dolandyryjysynda \"{fileName}\" görkez",
-                    "hide_confirmation": "\"{fileName}\" gizlemek isleýändigiňize ynamlymysyňyz? Faýly gizlemek ony diňe media dolandyryjyňyzdan aýyrar we bar bolan ýazgylara täsir etmez.",
+                    "hide_confirmation": "\"{fileName}\" gizlemek isleýändigiňize ynamlymy? Faýly gizlemek ony diňe media dolandyryjydan aýyrar we bar bolan ýazgylara täsir etmez.",
                     "hide_success": "Faýl gizlenen",
-                    "show_confirmation": "\"{fileName}\" görkezmek isleýändigiňize ynamlymysyňyz? Faýl media dolandyryjyňyzda görüner.",
+                    "show_confirmation": "\"{fileName}\" görkezmek isleýändigiňize ynamlymy? Faýl media dolandyryjyzda görüner.",
                     "show_success": "Faýl görkezilen",
                     "hide_fail": "\"{fileName}\" faýly gizläp bolmady",
                     "show_fail": "\"{fileName}\" faýly görkezip bolmady",
@@ -240,9 +240,9 @@
                 "hide_shared_file": {
                     "btn_a11y_label_hide": "\"{fileName}\" şahsy ediň (açyk URL ýok)",
                     "btn_a11y_label_show": "\"{fileName}\" köpçülige ýetiriň (açyk URL bar)",
-                    "hide_confirmation": "\"{fileName}\" şahsy etmek isleýändigiňize ynamlymysyňyz? Faýly şahsylaşdyrmak, açyk URL-ni aýyrar, ýöne bar bolan ýazgylara täsir etmez. Mundan başga-da, media dolandyryjysynda rugsatsyz ulanyjylara görünmez.",
+                    "hide_confirmation": "\"{fileName}\" şahsy etmek isleýändigiňize ynamlymy? Faýly şahsylaşdyrmak, açyk URL-ni aýyrar, ýöne bar bolan ýazgylara täsir etmez. Mundan başga-da, media dolandyryjysynda rugsatsyz ulanyjylara görünmez.",
                     "hide_success": "Faýl şahsylaşdyryldy",
-                    "show_confirmation": "\"{fileName}\" köpçülige ýetirmek isleýändigiňize ynamlymysyňyz? Faýly köpçülige açmak, köpçülige açyk URL bolan islendik adam üçin elýeterli bolar we islendik adam media dolandyryjysy arkaly paýlaşyp biler.",
+                    "show_confirmation": "\"{fileName}\" köpçülige ýetirmek isleýändigiňize ynamlymy? Faýly köpçülige açmak, köpçülige açyk URL bolan islendik adam üçin elýeterli bolar we islendik adam media dolandyryjysy arkaly paýlaşyp biler.",
                     "show_success": "Faýl köpçülige ýetirildi",
                     "hide_fail": "\"{fileName}\" faýly şahsy edip bolmady",
                     "show_fail": "\"{fileName}\" faýly köpçülige ýetirip bolmady",
