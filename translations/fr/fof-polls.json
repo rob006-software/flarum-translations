@@ -6,8 +6,8 @@
                 "max_options": "Nombre maximum d'options par sondage",
                 "options_color_blend": "Mélange de couleurs du texte dans les options de sondage",
                 "options_color_blend_help": "Utilisez cette option pour mélanger les couleurs afin de rendre les options du sondage plus lisibles. Désactivez cette fonction si elle provoque des problèmes d'apparence à votre forum qui pourraient réduire sa lisibilité.",
-                "enable_global_polls": "",
-                "enable_global_polls_help": ""
+                "enable_global_polls": "Activer les sondages globaux",
+                "enable_global_polls_help": "Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d'une page dédiée aux sondages."
             },
             "permissions": {
                 "view_results_without_voting": "Afficher les résultats sans voter",
@@ -17,7 +17,7 @@
                 "vote": "Voter sur les sondages",
                 "change_vote": "Modifier le vote",
                 "moderate": "Modifier et supprimer les sondages",
-                "start_global": ""
+                "start_global": "Démarrer un sondage global"
             }
         },
         "forum": {
@@ -29,8 +29,8 @@
             "poll": {
                 "cannot_change_vote": "Vous ne pouvez pas modifier votre vote après avoir voté.",
                 "submit_button": "Voter",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "start_poll_button": "Démarrer un sondage global",
+                "cannot_start_poll_button": "Impossible de démarrer le sondage"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -57,17 +57,17 @@
                 "allow_change_vote_label": "Permettre aux utilisateurs de modifier leur vote",
                 "question_placeholder": "Question",
                 "submit": "Envoyer",
-                "subtitle_placeholder": "",
-                "delete": "",
+                "subtitle_placeholder": "Sous-titre ou description (facultatif)",
+                "delete": "Supprimer",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": ""
+                    "label": "Image du sondage",
+                    "help": "Transférez une image à afficher à côté du sondage (facultatif).",
+                    "alt_label": "Texte d'accompagnement de l'image",
+                    "alt_help_text": "Ce texte est requis lorsqu'une image est définie ; il sera affiché si l'image ne parvient pas à se charger."
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Ajouter une réponse"
                     }
                 }
             },
@@ -84,14 +84,14 @@
             "votes_modal": {
                 "title": "Votants"
             },
-            "polls_count": "",
+            "polls_count": "{count, plural, one { {count} vote} other {{count} votes}}",
             "poll_never_ends": "",
-            "answers": "",
+            "answers": "Réponses",
             "poll_controls": {
-                "edit_label": "",
+                "edit_label": "Modifier",
                 "delete_label": "",
                 "view_label": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce sondage ?",
                 "delete_success_message": "",
                 "delete_error_message": ""
             },
@@ -106,24 +106,24 @@
             "compose": {
                 "add_title": "",
                 "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "polls_manager": "Gestionnaire de sondages",
+                "polls_preview": "Voir le sondage",
+                "continue_editing": "Continuer la modification",
+                "success": "Le sondage a été enregistré."
             },
             "page": {
-                "nav": "",
-                "nav-all": ""
+                "nav": "Sondages",
+                "nav-all": "Tous les sondages globaux"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Sondages actifs",
+                "ended-polls": "Sondages terminés",
+                "no-active-polls": "Il n'y a aucun sondage actif pour le moment.",
+                "no-recent-polls": "Il n'y a aucun sondage récemment terminé pour le moment."
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Supprimer l'image",
+                "upload_button": "Sélectionner une image"
             }
         }
     }
