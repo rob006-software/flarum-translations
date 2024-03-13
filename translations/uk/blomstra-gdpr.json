@@ -2,21 +2,21 @@
     "blomstra-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "Огляд даних GDPR",
+                "description": "Статус різних дій та інтеграцій GDPR",
                 "data_types": {
-                    "title": "",
+                    "title": "Типи даних",
                     "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "type": "Тип",
+                    "export_description": "Експорт дії",
+                    "anonymize_description": "Анонімізувати дію",
+                    "delete_description": "Видалити дію",
+                    "extension": "Розширення"
                 },
                 "settings": {
-                    "heading": "",
+                    "heading": "Налаштування GDPR",
                     "help_text": "",
-                    "extension_settings_button": ""
+                    "extension_settings_button": "Налаштування GDPR"
                 },
                 "user_table_data": {
                     "title": "",
@@ -24,7 +24,7 @@
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "Інтеграції з GDPR"
             },
             "permissions": {
                 "process_erasure": "",
@@ -32,7 +32,7 @@
                 "see_anonymized_user_badges": ""
             },
             "settings": {
-                "allow_anonymization": "",
+                "allow_anonymization": "Дозволити анонімізацію запитів на видалення",
                 "allow_anonymization_help": "",
                 "allow_deletion": "",
                 "allow_deletion_help": "",
