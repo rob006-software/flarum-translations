@@ -1182,7 +1182,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/1.2.4/locale/en.yml',
 	],
 	'sas_sam-regrole' => [
-		'tag' => 'https://raw.githubusercontent.com/SasSam/flarum-regrole/1.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/SasSam/flarum-regrole/1.0.5/locale/en.yml',
 	],
 	'serakoi-flarumstaffbadge' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarumstaffbadge/1.2.1/resources/locale/en.yml',
