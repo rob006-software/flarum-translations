@@ -61,7 +61,7 @@
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "admin, user1, user2",
+                        "placeholder": "admin, usuari1, usuari2",
                         "title": "Usuaris ignorats",
                         "help": "Aquests usuaris no es mostraran a la pàgina de classificació. Els noms d'usuari s'han de separar amb una coma seguida d'un espai."
                     },
@@ -84,17 +84,17 @@
                     "alternate_layout": "Utilitza un disseny de votació alternatiu a la llista de debats",
                     "alternate_post_layout": "Utilitza un disseny de votació alternatiu a les publicacions",
                     "title": "Vots",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
-                    "upvotes_only": "",
-                    "first_post_only": "",
-                    "allow_self_votes": ""
+                    "vote_color": "Color votat",
+                    "icon_name": "Icona de vot positiu o negatiu",
+                    "icon_help": "Entrar qualsevol icona de Font-Awesome que acabi amb -up o -down. Per exemple: arrow, thumbs, chevron...",
+                    "upvotes_only": "Només permetre vots positius",
+                    "first_post_only": "Només permetre vots positius o negatius en la primera publicació de cada debat",
+                    "allow_self_votes": "Els usuaris poden votar les seves pròpies publicacions"
                 },
-                "save_settings": "",
+                "save_settings": "Desar configuració",
                 "convert": {
-                    "button": "",
-                    "help": "",
+                    "button": "Convertir els \"m'agrada\" en vots positius",
+                    "help": "Convertir els \"m'agrada\" de flarum-ext-likes en vots positius, calculant a més com agraden tots els debats actuals.",
                     "converting": "",
                     "converted": ""
                 },
