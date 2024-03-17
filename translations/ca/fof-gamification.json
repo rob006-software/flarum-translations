@@ -95,39 +95,39 @@
                 "convert": {
                     "button": "Convertir els \"m'agrada\" en vots positius",
                     "help": "Convertir els \"m'agrada\" de flarum-ext-likes en vots positius, calculant a més com agraden tots els debats actuals.",
-                    "converting": "",
-                    "converted": ""
+                    "converting": "Els \"m'agrada\" s'estan convertint. Refresca el fòrum d'aquí a uns minuts per veure el procés acabat. El temps de conversió pot allargar-se si hi ha molts \"m'agrada\" al fòrum",
+                    "converted": "\"M'agrada\" convertits correctament: {number}"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Rangs",
+                    "ranks": "Rangs personalitzats",
+                    "number_title": "Quantes insígnies de rang cal mostrar?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "Entra el nombre requerit de vots positius, el nom del rang i el codi hexadecimal del color del rang",
+                        "points": "Punts",
+                        "name": "Nom"
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Grups assignats automàticament",
+                    "help": "Els grups seleccionats s'afegiran o s'eliminaran automàticament segons calgui quan canviï el nombre de punts d'un usuari. Si has fet canvis a la configuració, hauries d'executar l'ordre <code>php flarum fof:gamification:assign-groups</code> per actualitzar els usuaris existents. Si vols suprimir una regla i eliminar tots els usuaris del grup, escriu una cadena buida com a valors mínim i màxim, desa la configuració i executa l'ordre de la línia d'ordres. Finalment, pots suprimir la regla completament de la configuració.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Grup",
+                        "minPoints": "Punts mínims (inclosos)",
+                        "maxPoints": "Punts màxims (inclosos)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Afegir nova regla",
+                    "delete": "Esborrar regla"
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Hola {recipient_display_name},\n\n{actor_display_name} acaba de votar la teva publicació al debat {discussion_title}.\n\nPots veure-ho aquí: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "{display_name} ha votat la teva publicació"
             }
         }
     }
