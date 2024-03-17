@@ -135,106 +135,106 @@
         "admin": {
             "permissions": {
                 "view": "Veure",
-                "viewExif": "",
-                "createPersonalAlbums": "",
-                "createCommunityAlbums": "",
-                "editOwnAlbum": "",
-                "hideOwnAlbum": "",
-                "uploadPictures": "",
-                "uploadPersonalPicturesWithoutApproval": "",
-                "uploadCommunityPicturesWithoutApproval": "",
-                "editOwnImage": "",
-                "editOwnPublishedImage": "",
-                "licenseOwnPublishedPicture": "",
-                "renameOwnPublishedPicture": "",
-                "hideOwnPicture": "",
-                "publishSilently": "",
-                "attachCimaiseAlbum": "",
-                "moderate": ""
+                "viewExif": "Veure dades EXIF (inclosa la geolocalització)",
+                "createPersonalAlbums": "Crear àlbums personals",
+                "createCommunityAlbums": "Crear àlbums comunitaris",
+                "editOwnAlbum": "Canviar el títol i la descripció de l'àlbum propi",
+                "hideOwnAlbum": "Amagar l'àlbum propi",
+                "uploadPictures": "Pujar fotos",
+                "uploadPersonalPicturesWithoutApproval": "Pujar fotos sense necessitar aprovació als àlbums personals",
+                "uploadCommunityPicturesWithoutApproval": "Pujar fotos sense necessitar aprovació als àlbums comunitaris",
+                "editOwnImage": "Utilitzar l'editor d'imatges a la foto pròpia (retalls, màscares i adhesius)",
+                "editOwnPublishedImage": "Utilitzar l'editor d'imatges a la foto pròpia un cop publicada",
+                "licenseOwnPublishedPicture": "Canviar la llicència de la foto pròpia un cop publicada",
+                "renameOwnPublishedPicture": "Canviar el títol i la descripció de la foto pròpia un cop publicada",
+                "hideOwnPicture": "Amagar la foto pròpia",
+                "publishSilently": "Publicar fotos en mode silenciós (sense crear cap publicació)",
+                "attachCimaiseAlbum": "Annexar manualment àlbums als debats",
+                "moderate": "Moderar"
             },
             "settings": {
-                "watermarkFile": "",
-                "watermarkFileHelp": "",
-                "watermarkPlacement": "",
+                "watermarkFile": "Imatge de marca d'aigua",
+                "watermarkFileHelp": "La imatge proporcionada s'aplicarà 1:1 sobre cada imatge pujada, excepte les previsualitzacions més petites.",
+                "watermarkPlacement": "Posicionament de la marca d'aigua",
                 "watermarkPlacementOptions": {
-                    "topLeft": "",
-                    "bottomLeft": "",
-                    "topRight": "",
-                    "bottomRight": ""
+                    "topLeft": "Superior esquerre",
+                    "bottomLeft": "Inferior esquerre",
+                    "topRight": "Superior dret",
+                    "bottomRight": "Inferior dret"
                 },
-                "autoCreateDiscussionAlbum": "",
-                "autoCreateDiscussionAlbumHelp": "",
-                "neverSyncDiscussionAlbumTitles": "",
-                "neverSyncDiscussionAlbumTitlesHelp": "",
-                "columnTheme": "",
-                "columnThemeHelp": "",
-                "mapboxToken": "",
-                "mapboxTokenHelp": "",
-                "requireLicense": "",
-                "requireLicenseHelp": "",
-                "licenses": "",
-                "license-key": "",
-                "license-label": "",
-                "license-description": "",
-                "license-add": "",
-                "stickers": "",
-                "sticker-key": "",
-                "sticker-label": "",
-                "sticker-url": "",
-                "sticker-add": ""
+                "autoCreateDiscussionAlbum": "Automàticament, crear un àlbum per a cada nou debat",
+                "autoCreateDiscussionAlbumHelp": "Crea automàticament un àlbum nou amb el mateix títol que el debat i amb l'autor com a propietari. Aquesta funció s'aplica inclús quan no es disposa de permís de creació d'àlbums i s'aplica a totes les etiquetes.\n",
+                "neverSyncDiscussionAlbumTitles": "No sincronitzar mai els títols del debat i l'àlbum",
+                "neverSyncDiscussionAlbumTitlesHelp": "Per defecte, els àlbums enllaçats que tinguin el mateix títol que el debat es canviaran de nom quan canviï el títol del debat. Si l'àlbum es canvia de nom manualment, mai es tornarà a sincronitzar amb els debats.\n",
+                "columnTheme": "Tema de columna",
+                "columnThemeHelp": "Utilitza l'estil del panell lateral quan es mostren fotos, en lloc del panell inferior.",
+                "mapboxToken": "Identificador de mapa",
+                "mapboxTokenHelp": "Introdueix un identificador (=token) vàlid per mostrar el mapa de geolocalització sota les metadades de la foto.",
+                "requireLicense": "Cal triar una llicència de la llista inferior",
+                "requireLicenseHelp": "Per defecte, els usuaris poden ometre la configuració d'una llicència per a les fotos. Confirma que els termes del teu lloc web cobreixen què pot fer-se amb les fotografies quan no s'especifica cap llicència.\n",
+                "licenses": "Llicències",
+                "license-key": "Clau",
+                "license-label": "Etiqueta",
+                "license-description": "Descripció",
+                "license-add": "Afegir llicència",
+                "stickers": "Adhesius",
+                "sticker-key": "Clau",
+                "sticker-label": "Etiqueta",
+                "sticker-url": "Adreça web",
+                "sticker-add": "Afegir adhesiu"
             },
             "status": {
                 "pictures": {
-                    "section": "",
-                    "drafts": ""
+                    "section": "Fotos",
+                    "drafts": "({count} esborranys)"
                 },
                 "storage": {
-                    "section": "",
-                    "originals": "",
-                    "conversions": ""
+                    "section": "Emmagatzematge (estimat)",
+                    "originals": "Originals: {size}",
+                    "conversions": "Conversions: {size}"
                 },
-                "refresh": "",
-                "loading": ""
+                "refresh": "Refrescar",
+                "loading": "Carregant..."
             }
         },
         "api": {
             "post-edit": {
-                "cannotAttachToNonComment": "",
-                "cannotFindPicturesFromRelation": "",
-                "cannotAttachHasNoAlbum": "",
-                "cannotAttachAlreadySubmitted": "",
-                "cannotAttachFromExternalAlbum": "",
-                "cannotAttachUnauthorized": ""
+                "cannotAttachToNonComment": "Les imatges no es poden adjuntar manualment a publicacions sense comentaris",
+                "cannotFindPicturesFromRelation": "No s'han trobat totes les fotos demanades a la base de dades",
+                "cannotAttachHasNoAlbum": "Aquest debat no té cap àlbum annex",
+                "cannotAttachAlreadySubmitted": "No es pot annexar la foto {id} perquè ja s'ha enviat",
+                "cannotAttachFromExternalAlbum": "No es pot annexar la foto {id} perquè pertany a un àlbum extern",
+                "cannotAttachUnauthorized": "No es pot annexar la foto {id} perquè no et pertany"
             },
             "picture-edit": {
                 "unauthorized": {
-                    "title": "",
-                    "description": "",
-                    "license": "",
-                    "author": "",
-                    "takenAt": "",
-                    "isDraftUnSubmit": "",
-                    "isDraftSubmit": "",
-                    "isApprovedUnApprove": "",
-                    "isApprovedApprove": "",
-                    "isHiddenRestore": "",
-                    "isHiddenHide": "",
-                    "isFavorite": "",
-                    "stickers": "",
-                    "crop": ""
+                    "title": "Títol invàlid. Edició no autoritzada",
+                    "description": "Descripció invàlida. Edició no autoritzada",
+                    "license": "Llicència invàlida. Edició no autoritzada",
+                    "author": "Autor invàlid. Edició no autoritzada",
+                    "takenAt": "Data de presa de foto invàlida. Edició no autoritzada",
+                    "isDraftUnSubmit": "Estat de l'esborrany invàlid. No es pot anul·lar l'enviament",
+                    "isDraftSubmit": "Estat de l'esborrany invàlid. No es permet l'enviament",
+                    "isApprovedUnApprove": "Estat d'aprovació invàlid. No es pot revocar l'aprovació",
+                    "isApprovedApprove": "Estat d'aprovació invàlid. No es permet l'aprovació",
+                    "isHiddenRestore": "Estat d'ocultació invàlid. No es pot restaurar",
+                    "isHiddenHide": "Estat d'ocultació invàlid. No es pot amagar",
+                    "isFavorite": "Marca de foto favorita invàlida. Edició no autoritzada",
+                    "stickers": "Adhesius invàlids. Edició no autoritzada",
+                    "crop": "Retall invàlid. Edició no autoritzada"
                 }
             }
         },
         "ref": {
-            "albums": "",
-            "pictures": "",
-            "loading": "",
-            "load-more": "",
-            "controls": "",
-            "restore": "",
-            "hide": "",
-            "delete": "",
-            "by-user": ""
+            "albums": "Àlbums",
+            "pictures": "Fotos",
+            "loading": "Carregant...",
+            "load-more": "Carregar més",
+            "controls": "Controls",
+            "restore": "Restaurar",
+            "hide": "Amagar",
+            "delete": "Esborrar",
+            "by-user": "Per"
         }
     }
 }
