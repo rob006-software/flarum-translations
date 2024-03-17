@@ -2,139 +2,139 @@
     "kilowhat-cimaise": {
         "forum": {
             "nav": {
-                "albums": "",
-                "pictures": "",
-                "user-pictures": ""
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
             },
             "album-list": {
-                "title": "",
-                "new": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "=> kilowhat-cimaise.ref.albums",
+                "new": "Crear nou àlbum",
+                "empty": "No hi ha cap àlbum",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "picture-list": {
-                "title": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "Totes les fotos",
+                "empty": "No hi ha cap foto",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
-                "loading": "",
-                "personal": "",
-                "community": "",
-                "discussion": ""
+                "upload": "Pujar foto",
+                "empty": "No hi ha cap foto",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "Àlbum personal de l'usuari(a) <a>{username}</a>",
+                "community": "Àlbum comunitari",
+                "discussion": "Anar al debat"
             },
             "picture-show": {
-                "loading": "",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
-                "download-cropped": "",
-                "download-original": "",
-                "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "Tornar a l'àlbum",
+                "download": "Descarregar",
+                "previous": "Foto anterior",
+                "next": "Foto següent",
+                "download-cropped": "Retallada {size}",
+                "download-original": "Descarregar original",
+                "show-exif": "Totes les dades EXIF",
+                "taken-at": "Foto presa: {ago}",
+                "published-at": "Foto publicada: {ago}"
             },
             "upload-modal": {
-                "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
-                "drop-file": "",
-                "publishSilently": "",
-                "submit": "",
-                "submitInComposer": "",
-                "reload": ""
+                "title": "Fotos pujades a l'àlbum \"{title}\"",
+                "titleInComposer": "Editar fotos",
+                "uploading": "Pujant",
+                "processing": "Processant",
+                "select-file": "Escull un fitxer",
+                "drop-file": "o arrossega i deixa anar aquí",
+                "publishSilently": "Publicar en mode silenciós",
+                "submit": "Enviar",
+                "submitInComposer": "Continuar",
+                "reload": "Tornar a carregar llista d'esborranys"
             },
             "new-album-modal": {
-                "title": ""
+                "title": "Nou àlbum"
             },
             "edit-album-modal": {
-                "title": ""
+                "title": "Editar àlbum \"{title}\""
             },
             "attach-album-modal": {
-                "title": "",
-                "selected": "",
-                "none-selected": "",
-                "search": "",
-                "no-results": "",
-                "select": "",
-                "unselect": "",
-                "submit": ""
+                "title": "Annexar àlbum a \"{title}\"",
+                "selected": "Seleccionades:",
+                "none-selected": "Cap",
+                "search": "Cercar",
+                "no-results": "Cap resultat",
+                "select": "Seleccionar",
+                "unselect": "Desseleccionar",
+                "submit": "Enviar"
             },
             "edit-album": {
-                "title": "",
-                "description": "",
-                "isCommunity": "",
-                "create": "",
-                "save": ""
+                "title": "Títol",
+                "description": "Descripció",
+                "isCommunity": "Àlbum comunitari (tothom hi pot contribuir)",
+                "create": "Crear àlbum",
+                "save": "Guardar àlbum"
             },
             "edit-picture": {
-                "title": "",
-                "description": ""
+                "title": "Títol",
+                "description": "Descripció"
             },
             "album-thumbnail": {
-                "controls": "",
-                "edit": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "by-user": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "edit": "Editar",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Esborrar àlbum \"{title}\"?",
+                "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
-                "by-user": "",
-                "in-album": ""
+                "by-user": "=> kilowhat-cimaise.ref.by-user",
+                "in-album": "En"
             },
             "picture-controls": {
-                "controls": "",
-                "editor": "",
-                "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "editor": "Retallar màscara de la foto",
+                "approve": "Aprovar",
+                "remove-favorite": "Esborrar marca de foto favorita",
+                "set-favorite": "Afegir com a foto favorita",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Esborrar foto \"{title}\"?"
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
-                "author": ""
+                "title": "Clicar per afegir títol",
+                "description": "Clicar per afegir descripció",
+                "author": "Clicar per afegir autor"
             },
             "badge": {
-                "hidden": "",
-                "awaiting-approval": "",
-                "favorite": ""
+                "hidden": "Oculta",
+                "awaiting-approval": "Esperant aprovació",
+                "favorite": "Favorita"
             },
             "picture-sort": {
-                "latest": "",
-                "oldest": "",
-                "latestTake": "",
-                "oldestTake": ""
+                "latest": "Darrera pujada de foto",
+                "oldest": "Pujada inicial",
+                "latestTake": "Darrera presa",
+                "oldestTake": "Primera presa"
             },
             "album-search": {
-                "title": ""
+                "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
-                "uploaded": ""
+                "uploaded": "L'usuari(a) {username} ha pujat {count} fotos"
             },
             "discussion-controls": {
-                "attach-album": ""
+                "attach-album": "Annexar o treure àlbum"
             },
             "license-label": {
-                "not-specified": "",
-                "not-specified-help": ""
+                "not-specified": "Sense especificar",
+                "not-specified-help": "Comprovar les condicions d'ús del lloc web per entendre la política de copyright per defecte"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
+                "view": "Veure",
                 "viewExif": "",
                 "createPersonalAlbums": "",
                 "createCommunityAlbums": "",
