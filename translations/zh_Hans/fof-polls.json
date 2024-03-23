@@ -6,8 +6,8 @@
                 "max_options": "每次投票的最大选项数",
                 "options_color_blend": "在投票选项中使用颜色混合文字",
                 "options_color_blend_help": "使用该选项来用颜色混合使投票选项更加具有可读性。如果这个功能和你的论坛样式存在冲突，禁用它，但会降低可读性。",
-                "enable_global_polls": "",
-                "enable_global_polls_help": ""
+                "enable_global_polls": "开启全局投票",
+                "enable_global_polls_help": "全局投票没有与任何帖子绑定，可以从专门的投票页面进行访问。"
             },
             "permissions": {
                 "view_results_without_voting": "无需参与投票即可查看结果",
@@ -17,7 +17,7 @@
                 "vote": "参与投票",
                 "change_vote": "修改投票",
                 "moderate": "编辑或删除投票",
-                "start_global": ""
+                "start_global": "创建一个全局投票"
             }
         },
         "forum": {
@@ -29,8 +29,8 @@
             "poll": {
                 "cannot_change_vote": "投票后不能再次更改。",
                 "submit_button": "投票",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "start_poll_button": "创建全局投票",
+                "cannot_start_poll_button": "无法开启投票"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
