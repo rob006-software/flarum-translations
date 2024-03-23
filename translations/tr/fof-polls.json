@@ -6,8 +6,8 @@
                 "max_options": "Anket başına maksimum seçenek sayısı",
                 "options_color_blend": "Anket seçeneklerinde renk karışımı metni",
                 "options_color_blend_help": "Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın.",
-                "enable_global_polls": "",
-                "enable_global_polls_help": ""
+                "enable_global_polls": "Genel anketleri etkinleştir",
+                "enable_global_polls_help": "Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir."
             },
             "permissions": {
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
@@ -17,7 +17,7 @@
                 "vote": "Ankete oy ver",
                 "change_vote": "Oyu değiştir",
                 "moderate": "Anketi düzenle veya sil",
-                "start_global": ""
+                "start_global": "Genel bir anket başlat"
             }
         },
         "forum": {
@@ -29,8 +29,8 @@
             "poll": {
                 "cannot_change_vote": "Oy kullandıktan sonra oyunuzu değiştiremezsiniz.",
                 "submit_button": "Oyla",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "start_poll_button": "Genel Anket Başlat",
+                "cannot_start_poll_button": "Genel Anket Başlatılamıyor"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -57,17 +57,17 @@
                 "allow_change_vote_label": "Kullanıcıların oylarını değiştirmesine izin ver",
                 "question_placeholder": "Soru",
                 "submit": "Gönder",
-                "subtitle_placeholder": "",
-                "delete": "",
+                "subtitle_placeholder": "Alt başlık/Açıklama (İsteğe bağlı)",
+                "delete": "Sil",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": ""
+                    "label": "Anket Görseli",
+                    "help": "Anketin yanında görüntülenecek bir resim yükleyin (isteğe bağlı).",
+                    "alt_label": "Görsel Alternatif Metni",
+                    "alt_help_text": "Bu metin bir resim ayarlandığında gereklidir; resim düzgünce yüklenemezse görüntülenecektir."
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Yanıt Ekle"
                     }
                 }
             },
@@ -84,31 +84,31 @@
             "votes_modal": {
                 "title": "Oy Verenler"
             },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "polls_count": "{count, plural, one { {count} oy} other {{count} oy}}",
+            "poll_never_ends": "Anket sona ermez",
+            "answers": "Yanıtlar",
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "Düzenle",
+                "delete_label": "Sil",
+                "view_label": "Görüntüle",
+                "delete_confirmation": "Bu anketi silmek istediğinize emin misiniz?",
+                "delete_success_message": "Anket başarıyla silindi.",
+                "delete_error_message": "Anket silinirken bir şeyler ters gitti."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Anketi Sil",
+                "error": "Anket kaydedilirken bir hata oluştu. Lütfen herhangi bir yöneticiyle iletişime geçin."
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
+                "empty_text": "Görünüşe göre burada topluluk çapında bir anket yok.",
+                "load_more_button": "Daha Fazla Yükle"
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
+                "add_title": "Anket Ekle",
+                "edit_title": "Anketi Düzenle",
+                "polls_manager": "Anket Yöneticisi",
+                "polls_preview": "Anketi Görüntüle",
+                "continue_editing": "Düzenlemeye Devam Et",
                 "success": ""
             },
             "page": {
