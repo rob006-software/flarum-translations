@@ -986,6 +986,9 @@ return [
 	'justoverclock-youtube-video-feed' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/youtube-video-feed/0.1.2/locale/en.yml',
 	],
+	'kater-community-core' => [
+		'tag' => 'https://raw.githubusercontent.com/Ziiven/kater-community-core/v1.3.8/locale/en.yml',
+	],
 	'katosdev-signature' => [
 		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/1.6/locale/en.yml',
 	],
