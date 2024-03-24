@@ -154,19 +154,19 @@
                 "title": "申请帐号擦除",
                 "reason": "你提供了以下原因：{reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "你应该已经收到了一封电子邮件来确认你的账号擦除请求。\n",
+                    "user_confirmed": "你已经确认了你的账号擦除请求。将会按照 GDPR 的要求在 30 天内采取行动。\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "当收到并确认后，一个管理员会按照 GDPR 的要求在 30 天内审核你的请求。",
+                "password_label": "确认密码",
+                "reason_label": "原因（可选）",
+                "cancel_button": "取消请求",
+                "request_button": "请求擦除"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "{username} 的导出数据现在已经可以下载。"
             },
-            "export_file": ""
+            "export_file": "于 {date} 准备的 {username}（{email}）的在 {forumTitle}（{url}）的导出数据"
         }
     }
 }
