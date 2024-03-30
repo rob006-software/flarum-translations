@@ -11,10 +11,10 @@
         },
         "admin": {
             "settings": {
-                "cache_duration_label": "",
-                "cache_duration_help": "",
-                "flush_cache_on_new_registration_label": "",
-                "flush_cache_on_new_registration_help": "",
+                "cache_duration_label": "Thời lượng bộ nhớ đệm",
+                "cache_duration_help": "Chỉ định thời gian lưu trữ thống kê cho tiện ích (trong giây). <code>0</code> để vô hiệu hóa lưu trữ cache (không khuyến khích).",
+                "flush_cache_on_new_registration_label": "Xóa Bộ nhớ đệm Thống kê khi Đăng ký Mới",
+                "flush_cache_on_new_registration_help": "Nếu được kích hoạt, bộ nhớ đệm thống kê sẽ được xóa khi một người dùng mới đăng ký trên diễn đàn.",
                 "widget_ignore_private_discussions_label": "Bỏ qua các cuộc thảo luận riêng tư",
                 "widget_order_label": "Thứ tự Widget",
                 "widget_helper_text": "Chỉnh sửa cài đặt này để điều chỉnh vị trí của tiện ích này trên phần sidenav của diễn đàn Flarum của bạn. Số càng cao, tiện ích này sẽ càng cao trong danh sách mục sidenav (giá trị này có thể là dương hoặc âm)."
