@@ -20,7 +20,7 @@
                 "switch": {
                     "email": "Gửi email cho người dùng khi bài đăng được lọc",
                     "merge": "Tự động hợp nhất các bài đăng kép",
-                    "delete": ""
+                    "delete": "Tự động xóa bài viết đã lọc"
                 },
                 "email_subject": "Tiêu đề",
                 "email_body": "Nội dung"
@@ -34,7 +34,7 @@
             },
             "email": {
                 "default_subject": "Về bài đăng gần đây của bạn",
-                "default_text": "Cảm ơn đã đăng bài viết! Rất tiếc, bài đăng của bạn đã bị xóa vì nó chứa nội dung nào đó mà chúng tôi không muốn thấy trên diễn đàn của chúng tôi.\n\nNếu bạn tin rằng đây là một lỗi, bạn thật may mắn, mỗi bài đăng bị xóa đều được người kiểm duyệt của chúng tôi xem xét. Nếu họ thấy rằng điều này đã bị xóa sai, họ sẽ khôi phục lại nó.\n\nCảm ơn bạn cho sự hiểu biết của bạn."
+                "default_text": "Cảm ơn bạn đã đăng bài! Thật không may, bài viết của bạn đã bị gỡ bỏ vì chứa nội dung mà chúng tôi không muốn thấy trên diễn đàn của chúng tôi.\n\nNếu bạn tin rằng đây là một lỗi, bạn may mắn, mỗi bài viết bị gỡ bỏ sẽ được kiểm tra lại bởi các quản trị viên của chúng tôi. Nếu họ thấy rằng việc loại bỏ này là không đúng, họ sẽ khôi phục nó.\n\nCảm ơn bạn đã hiểu.\n"
             },
             "help": "Nhập văn bản hoặc từ cần lọc, được phân tách bằng dấu phẩy + khoảng trắng. Nếu nội dung bài đăng của người dùng chứa chuỗi bạn muốn lọc, thì chuỗi đó sẽ được gắn cờ để phê duyệt. Có khả năng chống chọi 133t."
         }
