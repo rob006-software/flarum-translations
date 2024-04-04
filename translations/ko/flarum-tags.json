@@ -77,10 +77,10 @@
                 "untagged_link": "태그되지 않음"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username}님이 {tagsAdded}를 추가하고 {tagsRemoved}를 삭제했습니다.",
-                "added_tags_text": "{username}님이 {tagsAdded}를 추가했습니다.",
-                "removed_tags_text": "{username}님이 {tagsRemoved}를 삭제했습니다.",
-                "tags_text": "{tags} 태그|{tags} 태그들"
+                "added_and_removed_tags_text": "{username}님이 {tagsAdded}을(를) 추가하고 {tagsRemoved}을(를) 제거했습니다. {time}.",
+                "added_tags_text": "{username}님이 {tagsAdded}을(를) 추가했습니다. {time}.",
+                "removed_tags_text": "{username}님이 {tagsRemoved}을(를) 제거했습니다. {time}.",
+                "tags_text": "{count, plural, one {{tags} 태그} other {{tags} 태그}}"
             },
             "tag": {
                 "meta_description_text": "{tag} 태그를 사용한 모든 게시물"
