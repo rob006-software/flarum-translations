@@ -6,8 +6,10 @@
                 "max_options": "Màxim nombre d'opcions per enquesta",
                 "options_color_blend": "Combina colors a les opcions de l'enquesta",
                 "options_color_blend_help": "Activa aquesta funció per permetre la barreja de colors per fer que les opcions de l'enquesta siguin més llegibles. Desactiva-la si causa problemes amb l'aparença del teu fòrum, reduint-ne la llegibilitat.",
-                "enable_global_polls": "",
-                "enable_global_polls_help": ""
+                "enable_global_polls": "Permetre enquestes globals",
+                "enable_global_polls_help": "Les enquestes globals no estan vinculades a cap publicació concreta sinó que són accessibles des d'una pàgina dedicada exclusivament a enquestes.",
+                "image_height": "",
+                "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Veure resultats sense votar",
@@ -17,7 +19,7 @@
                 "vote": "Votar a les enquestes",
                 "change_vote": "Canviar vot",
                 "moderate": "Editar i esborrar enquestes",
-                "start_global": ""
+                "start_global": "Començar una enquesta global"
             }
         },
         "forum": {
@@ -29,8 +31,8 @@
             "poll": {
                 "cannot_change_vote": "No pots canviar el teu vot un cop emès.",
                 "submit_button": "Votar",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "start_poll_button": "Començar enquesta global",
+                "cannot_start_poll_button": "No es pot començar l'enquesta"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -57,17 +59,21 @@
                 "allow_change_vote_label": "Permetre que els usuaris canviïn el seu vot",
                 "question_placeholder": "Pregunta",
                 "submit": "Enviar",
-                "subtitle_placeholder": "",
-                "delete": "",
+                "subtitle_placeholder": "Subtítol/Descripció (opcional)",
+                "delete": "Esborrar",
                 "poll_image": {
+                    "label": "Imatge per a l'enquesta",
+                    "help": "Puja una imatge per mostrar al costat de l'enquesta (opcional).",
+                    "alt_label": "Text alternatiu per a la imatge",
+                    "alt_help_text": "Aquest text és necessari quan s'activa una imatge, i es mostrarà en cas que no es pugui carregar."
+                },
+                "poll_option_image": {
                     "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": ""
+                    "help": ""
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Afegir resposta"
                     }
                 }
             },
@@ -84,46 +90,49 @@
             "votes_modal": {
                 "title": "Votants"
             },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "polls_count": "{count, plural, one { {count} vot} other {{count} vots}}",
+            "poll_never_ends": "L'enquesta no acaba mai",
+            "answers": "Respostes",
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "Editar",
+                "delete_label": "Esborrar",
+                "view_label": "Veure",
+                "delete_confirmation": "Segur que vols esborrar aquesta enquesta?",
+                "delete_success_message": "Enquesta esborrada satisfactòriament.",
+                "delete_error_message": "Hi ha hagut algun problema quan s'ha esborrat l'enquesta."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Esborrar enquesta",
+                "error": "Hi ha hagut algun error gravant l'enquesta. Si us plau, contacta l'administrador."
+            },
+            "polls_page": {
+                "title": ""
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
+                "empty_text": "Sembla que no hi ha cap enquesta per a tota la comunitat aquí.",
+                "load_more_button": "Carregar més"
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Afegir una enquesta",
+                "edit_title": "Editar enquesta",
+                "polls_manager": "Gestor d'enquestes",
+                "polls_preview": "Veure enquesta",
+                "continue_editing": "Seguir editant",
+                "success": "Enquesta gravada satisfactòriament."
             },
             "page": {
-                "nav": "",
-                "nav-all": ""
+                "nav": "Enquestes",
+                "nav-all": "Afegir enquestes globals"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Activar enquestes",
+                "ended-polls": "Enquestes acabades",
+                "no-active-polls": "No hi ha cap enquesta activa en aquests moments.",
+                "no-recent-polls": "No hi ha cap enquesta acabada recentment."
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Esborrar imatge",
+                "upload_button": "Escollir imatge"
             }
         }
     }

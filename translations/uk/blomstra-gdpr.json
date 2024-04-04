@@ -2,58 +2,58 @@
     "blomstra-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "Огляд даних GDPR",
+                "description": "Статус різних дій та інтеграцій GDPR",
                 "data_types": {
-                    "title": "",
+                    "title": "Типи даних",
                     "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "type": "Тип",
+                    "export_description": "Експорт дії",
+                    "anonymize_description": "Анонімізувати дію",
+                    "delete_description": "Видалити дію",
+                    "extension": "Розширення"
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
-                    "extension_settings_button": ""
+                    "heading": "Налаштування GDPR",
+                    "help_text": "Шукаєте налаштування GDPR? Вони знаходяться на сторінці розширення.",
+                    "extension_settings_button": "Налаштування GDPR"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Дані таблиці користувачів",
+                    "help_text": "Здебільшого будь-які стовпці, додані до таблиці <code>user</code>, будуть оброблятися автоматично, як для експорту даних, так і для видалення.\nОднак існують деякі особливі випадки, які перераховані нижче.\n"
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "Інтеграції з GDPR"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "process_erasure": "Опрацювати запити на видалення",
+                "process_export_for_others": "Запитуйте та отримуйте експорт даних для інших користувачів",
+                "see_anonymized_user_badges": "Переглянути бейджики анонімних користувачів"
             },
             "settings": {
-                "allow_anonymization": "",
-                "allow_anonymization_help": "",
-                "allow_deletion": "",
-                "allow_deletion_help": "",
-                "default_anonymous_username": "",
-                "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "",
+                "allow_anonymization": "Дозволити анонімізацію запитів на видалення",
+                "allow_anonymization_help": "Опція за налаштуванням, рекомендована для більшості спільнот. У цьому режимі дописи/коментарі будуть збережені настільки, наскільки це дозволено GDPR, але будь-яка інформація, що дозволяє ідентифікувати користувача, буде видалена.",
+                "allow_deletion": "Дозволити видалення для запитів на видалення",
+                "allow_deletion_help": "Набагато суворіший варіант. У цьому режимі всі дописи/коментарі будуть видалені, а користувач буде видалений з бази даних. Використовуйте з обережністю.",
+                "default_anonymous_username": "Ім'я користувача за налаштуванням для анонімних користувачів",
+                "default_anonymous_username_help": "Коли користувача буде анонімізовано, його ім'я користувача буде замінено на це значення плюс ідентифікатор запиту на анонімізацію, наприклад, <code>Anonymous123</code>.",
+                "default_erasure": "Дія за налаштуванням для запитів на видалення",
+                "default_erasure_help": "Якою має бути дія за налаштуванням для запитів на видалення?",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "Анонімізація",
+                    "deletion": "Видалення"
                 },
                 "gdpr_page": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Інтеграція даних та дії",
+                    "help_text": "Перш ніж вирішити, які дії використовувати на вашому форумі, дуже важливо зрозуміти, які дані інтегруються і як вони обробляються для анонімізації та видалення. Ознайомтеся з оглядом GDPR, щоб зрозуміти, як обробляються дані, і які додаткові розширення зареєстрували свої дані для обробки цим розширенням."
                 }
             },
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "title": "",
-                        "export": ""
+                        "title": "Дії в рамках GDPR",
+                        "export": "Експорт даних для {username}"
                     }
                 }
             }

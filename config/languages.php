@@ -176,6 +176,8 @@ return [
 	]),
 	'zh_Hans' => getComponents([
 		// translations included in extension
+		'!dalez-msemoji',
+		'!dalez-twemoji',
 		'!gbcl-userip',
 		'!imdong-spam-alert',
 		'!imdong-visible-to-op-only',

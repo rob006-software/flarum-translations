@@ -10,7 +10,7 @@
                     "tags": "En İyi Yanıt Etiketi",
                     "general": "Genel",
                     "reminders": "Hatırlatıcılar",
-                    "search": "",
+                    "search": "Ara",
                     "advanced": "Gelişmiş",
                     "reminders_notice": "Hatırlatıcıların çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir."
                 },
@@ -37,8 +37,8 @@
                 "remind_tags_label": "Hatırlatma Etiketleri",
                 "remind_tags_help": "Varsa hangi etiketler için hatırlatıcı gönderileceğini seçin. Hatırlatıcılar yalnızca bu etiketlerle yapılan tartışmalar için gönderilecektir.",
                 "tags_info": "Bir etiket En İyi Yanıt etkinleştirildiğinde, her kullanıcı grubuna yanıtları (kendi tartışması, herhangi bir tartışma) ayarlayabilecek izinler atayın. İzinler genel olarak (En İyi Yanıt özellikli etiketler için) veya etiket bazında atanabilir.\n",
-                "solution_search": "",
-                "solution_search_help": "",
+                "solution_search": "Çözüm arama",
+                "solution_search_help": "En İyi Yanıtlarla tartışmaları arama özelliğini etkinleştirin",
                 "enable_all_tags_button": "Tüm etiketlerde En İyi Yanıtı etkinleştir",
                 "enable_all_tags_reminder_button": "En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir",
                 "introduction": "<code><a>flarum/tags</a></code> içinde hangi etiketlerin En İyi Yanıtları destekleyeceğini ve isteğe bağlı olarak hangi etiketlerin hatırlatıcıları desteklemesi gerektiğini etkinleştirin. Bir etiket için En İyi Yanıt etkinleştirildiğinde, yanıtları ayarlayabilen her kullanıcı grubuna (kendi tartışması, herhangi bir tartışma) izinler atayın. İzinler genel olarak (En İyi Yanıtın etkinleştirildiği herhangi bir etiket için) veya etiket bazında atanabilir.\n",
@@ -87,8 +87,8 @@
                 "best-answer-count": "{count, plural, one { {count} en iyi yanıt} other {{count} en iyi yanıt}}"
             },
             "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
+                "discussions_solutions_heading": "Çözümlü tartışmalar",
+                "all_discussions_solutions_button": "\"{query}\" çözümü içeren tüm tartışmaları arayın"
             }
         },
         "email": {

@@ -7,7 +7,9 @@
                 "options_color_blend": "",
                 "options_color_blend_help": "",
                 "enable_global_polls": "",
-                "enable_global_polls_help": ""
+                "enable_global_polls_help": "",
+                "image_height": "",
+                "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "",
@@ -21,109 +23,116 @@
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
-            "max_votes_allowed": "",
+            "days_remaining": "Saýlaw {time} soň tamamlanýar.",
+            "no_permission": "Ses bermäge rugsadyňyz ýok",
+            "poll_ended": "Saýlaw tamamlandy.",
+            "public_poll": "Saýlawçylary gör",
+            "max_votes_allowed": "Saýlawda {max, plural, one {# warianta} other {# warianta}} ses berip bolýar.",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": "",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "cannot_change_vote": "Ses bereniňizden soň sesiňizi üýtgedip bilmersiňiz.",
+                "submit_button": "Ses ber",
+                "start_poll_button": "Global saýlaw başla",
+                "cannot_start_poll_button": "Saýlaw başlap bolmady"
             },
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": "",
-                "no_permission_alert": ""
+                "add_poll": "=> fof-polls.forum.moderation.add",
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": "Saýlaw başlamaga rugsadyňyz ýok."
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "image_option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "allow_change_vote_label": "",
-                "question_placeholder": "",
-                "submit": "",
-                "subtitle_placeholder": "",
-                "delete": "",
+                "add_title": "Saýlaw başla",
+                "add_option_label": "Wariant goş",
+                "date_placeholder": "Saýlawyň soňky güni (islege görä)",
+                "edit_title": "Saýlawy düzet",
+                "include_question": "Sorag hökman bolmaly",
+                "max": "Maksimum {max} jogap berip bilersiňiz",
+                "min": "Azyndan 2 jogap goşmaly",
+                "no_voters": "Ses ýok",
+                "option_placeholder": "Jogap",
+                "image_option_placeholder": "Suratyň URL-y (islege görä)",
+                "options_label": "Jogaplar",
+                "public_poll_label": "Kim ses berenini hemmeler görsün",
+                "allow_multiple_votes_label": "Birnäçe jogap berip bolar",
+                "max_votes_label": "Her ulanyjy üçin iň köp ses sany",
+                "max_votes_help": "Ähli wariantlary saýlap bolar ýaly etmek üçin 0 giriz.",
+                "hide_votes_label": "Saýlawyň soňuna çenli sesleri gizle",
+                "allow_change_vote_label": "Ulanyjylar sesini üýtgedip biler",
+                "question_placeholder": "Sorag",
+                "submit": "Başla",
+                "subtitle_placeholder": "Subtitr/Düşündiriş (islege görä)",
+                "delete": "Poz",
                 "poll_image": {
+                    "label": "Saýlaw suraty",
+                    "help": "Saýlaw bilen görüner ýaly surat ýükle (islege görä).",
+                    "alt_label": "Suratyň alternatiw ýazgysy",
+                    "alt_help_text": "Bu ýazgy suratly saýlawda hökman, ol surat ýüklenmese görkeziler."
+                },
+                "poll_option_image": {
                     "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": ""
+                    "help": ""
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Jogap goş"
                     }
                 }
             },
             "moderation": {
-                "add": "",
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "add": "Saýlaw başla",
+                "delete": "Saýlawy aýyr",
+                "delete_confirm": "Bu saýlawy aýyrmaga ynamlymy?",
+                "edit": "Saýlawy düzet"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Saýlaw",
+                "votes": "{count, plural, one {# ses} other {# sesler}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Saýlawçylar"
             },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "polls_count": "{count, plural, one { {count} ses} other {{count} sesler}}",
+            "poll_never_ends": "Saýlaw hemişelik",
+            "answers": "Jogaplar",
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "Düzet",
+                "delete_label": "Aýyr",
+                "view_label": "Syn et",
+                "delete_confirmation": "Saýlawy aýyrmaga ynamlymy?",
+                "delete_success_message": "Saýlaw aýyryldy.",
+                "delete_error_message": "Saýlaw aýyrylanda ýalňyzşyl ýüze çykdy."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Saýlawy aýyr",
+                "error": "Saýlaw ýatda saklananda ýalňyşlyk ýüze çykdy, haýyş, administratora ýüz tutuň."
+            },
+            "polls_page": {
+                "title": ""
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
+                "empty_text": "Global saýlaw ýok ýaly.",
+                "load_more_button": "Köpräk ýükle"
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Saýlaw başla",
+                "edit_title": "Saýlawy düzet",
+                "polls_manager": "Saýlawlar menejeri",
+                "polls_preview": "Saýlawy gör",
+                "continue_editing": "Düzetmegi dowam et",
+                "success": "Saýlaw ýatda saklandy."
             },
             "page": {
-                "nav": "",
-                "nav-all": ""
+                "nav": "Saýlawlar",
+                "nav-all": "Ähli global saýlawlar"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Işjeň saýlawlar",
+                "ended-polls": "Tamamlanan saýlawlar",
+                "no-active-polls": "Häzir işjeň saýlaw ýok.",
+                "no-recent-polls": "Ýakynda tamamlanan saýlaw ýok."
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Suraty aýyr",
+                "upload_button": "Surat saýla"
             }
         }
     }

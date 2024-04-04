@@ -1,17 +1,17 @@
 {
     "validation": {
-        "accepted": "",
-        "active_url": "",
-        "after": "",
-        "after_or_equal": "",
-        "alpha": "",
-        "alpha_dash": "",
-        "alpha_num": "",
-        "array": "",
-        "before": "",
-        "before_or_equal": "",
+        "accepted": ":attribute은(는) 승인되어야 합니다.",
+        "active_url": ":attribute은 유효한 URL이 아닙니다.",
+        "after": ":attribute은 :date 이후의 날짜여야 합니다.",
+        "after_or_equal": ":attribute은 :date 이후이거나 동일한 날짜여야 합니다.",
+        "alpha": ":attribute은 문자만 포함해야 합니다.",
+        "alpha_dash": ":attribute은 문자, 숫자, 대시 및 밑줄만 포함해야 합니다.",
+        "alpha_num": ":attribute은 문자와 숫자만 포함해야 합니다.",
+        "array": ":attribute은 배열이어야 합니다.",
+        "before": ":attribute은 :date 이전의 날짜여야 합니다.",
+        "before_or_equal": ":attribute은 :date 이전이거나 같은 날짜여야 합니다.",
         "between": {
-            "numeric": "",
+            "numeric": ":attribute은 :min과 :max 사이여야 합니다.",
             "file": "",
             "string": "",
             "array": ""
