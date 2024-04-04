@@ -1148,6 +1148,9 @@ return [
 	'nodeloc-lottery' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/lottery/0.0.2/resources/locale/en.yml',
 	],
+	'nodeloc-my-emoji' => [
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-my-emoji/1.0.1/locale/en.yml',
+	],
 	'nodeloc-telegram' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/telegram/0.3/resources/locale/en.yml',
 	],
