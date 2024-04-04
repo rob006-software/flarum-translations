@@ -2,22 +2,22 @@
     "core": {
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "Email"
             }
         }
     },
     "gtdxyz-login": {
         "admin": {
-            "login_identification": "",
-            "login_email": "",
-            "login_username": "",
-            "login_default": ""
+            "login_identification": "Логин",
+            "login_email": "Email",
+            "login_username": "Имя пользователя",
+            "login_default": "По умолчанию"
         },
         "forum": {
             "error": {
-                "failed": "",
-                "email_failed": "",
-                "useranem_failed": ""
+                "failed": "проверка неудачна",
+                "email_failed": "Проверка адреса эл.почты неудачна",
+                "useranem_failed": "Проверка имени пользователя неудачна"
             }
         }
     }
