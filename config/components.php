@@ -341,7 +341,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/club-1/flarum-ext-server-side-highlight/v1.4.0/locale/en.yml',
 	],
 	'convo-extensions-guest-posting' => [
-		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/convo-extensions-guest-posting.yml',
+		'tag' => 'https://raw.githubusercontent.com/convo-extensions/flarum-ext-guest-posting/1.1.1/resources/locale/en.yml',
 	],
 	'convo-extensions-quick-reply' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/convo-extensions-quick-reply.yml',
