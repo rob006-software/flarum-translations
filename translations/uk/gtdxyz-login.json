@@ -2,22 +2,22 @@
     "core": {
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "Email"
             }
         }
     },
     "gtdxyz-login": {
         "admin": {
-            "login_identification": "",
-            "login_email": "",
-            "login_username": "",
-            "login_default": ""
+            "login_identification": "Логін",
+            "login_email": "Email",
+            "login_username": "Ім'я користувача",
+            "login_default": "За налаштуванням"
         },
         "forum": {
             "error": {
-                "failed": "",
-                "email_failed": "",
-                "useranem_failed": ""
+                "failed": "перевірка не пройшла",
+                "email_failed": "Не вдалося підтвердити електронну адресу",
+                "useranem_failed": "Не вдалося перевірити ім'я користувача"
             }
         }
     }
