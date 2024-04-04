@@ -1144,6 +1144,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ramesh-dada-realtime`](https://weblate.rob006.net/projects/flarum/ramesh-dada-realtime) | [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime) |
 | [`rehiy-reply-to-see`](https://weblate.rob006.net/projects/flarum/rehiy-reply-to-see) | [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see) |
 | [`rob006-last-post-avatar`](https://weblate.rob006.net/projects/flarum/rob006-last-post-avatar) | [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar) |
+| [`sas_sam-regrole`](https://weblate.rob006.net/projects/flarum/sas_sam-regrole) | [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole) |
 | [`serakoi-hideprofile`](https://weblate.rob006.net/projects/flarum/serakoi-hideprofile) | [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile) |
 | [`serakoi-flarumstaffbadge`](https://weblate.rob006.net/projects/flarum/serakoi-flarumstaffbadge) | [`serakoi/flarumstaffbadge`](https://github.com/Serakoi/flarumstaffbadge) |
 | [`spookygames-auth-keycloak`](https://weblate.rob006.net/projects/flarum/spookygames-auth-keycloak) | [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak) |
@@ -1161,7 +1162,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`the-turk-nodp`](https://weblate.rob006.net/projects/flarum/the-turk-nodp) | [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp) |
 | [`the-turk-pallet-theme`](https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme) | [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme) |
 | [`the-turk-quiet-edits`](https://weblate.rob006.net/projects/flarum/the-turk-quiet-edits) | [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits) |
-| [`sas_sam-regrole`](https://weblate.rob006.net/projects/flarum/sas_sam-regrole) | [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole) |
 | [`the-turk-stickiest`](https://weblate.rob006.net/projects/flarum/the-turk-stickiest) | [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest) |
 | [`therealsujitk-gifs`](https://weblate.rob006.net/projects/flarum/therealsujitk-gifs) | [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs) |
 | [`tituspijean-auth-ldap`](https://weblate.rob006.net/projects/flarum/tituspijean-auth-ldap) | [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap) |
