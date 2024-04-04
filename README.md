@@ -1157,7 +1157,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`the-turk-nodp`](https://weblate.rob006.net/projects/flarum/the-turk-nodp) | [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp) |
 | [`the-turk-pallet-theme`](https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme) | [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme) |
 | [`the-turk-quiet-edits`](https://weblate.rob006.net/projects/flarum/the-turk-quiet-edits) | [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits) |
-| [`the-turk-regrole`](https://weblate.rob006.net/projects/flarum/the-turk-regrole) | [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole) |
+| [`sas_sam-regrole`](https://weblate.rob006.net/projects/flarum/sas_sam-regrole) | [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole) |
 | [`the-turk-stickiest`](https://weblate.rob006.net/projects/flarum/the-turk-stickiest) | [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest) |
 | [`therealsujitk-gifs`](https://weblate.rob006.net/projects/flarum/therealsujitk-gifs) | [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs) |
 | [`tituspijean-auth-ldap`](https://weblate.rob006.net/projects/flarum/tituspijean-auth-ldap) | [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap) |

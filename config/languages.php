@@ -159,7 +159,6 @@ return [
 		'!the-turk-mathren',
 		'!the-turk-pallet-theme',
 		'!the-turk-quiet-edits',
-		'!the-turk-regrole',
 	]),
 	'ug' => getComponents(),
 	'uk' => getComponents(),

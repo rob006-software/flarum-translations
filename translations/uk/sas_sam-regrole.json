@@ -1,0 +1,30 @@
+{
+    "sas_sam-regrole": {
+        "admin": {
+            "settings": {
+                "allowed_roles_label": "Дозволені ролі",
+                "allowed_roles_text": "Оберіть ролі, які користувачі можуть призначати собі самі.",
+                "other_options_heading": "Інші опції",
+                "allow_multiple_roles_label": "Дозвольте користувачам призначати кілька ролей",
+                "force_users_label": "Змусити користувачів призначити собі принаймні одну роль",
+                "force_users_text": "Якщо цю опцію увімкнено, користувачі, які не мають жодної з обраних вище ролей, будуть призупинені і не зможуть користуватися форумом, поки не призначать собі роль (користувачі, які мають дозвіл на редагування груп користувачів, будуть виключені)."
+            }
+        },
+        "forum": {
+            "suspended_temporarily_message": "Ми тимчасово призупинили дію вашого облікового запису, поки ви не оберете роль.",
+            "choose_role_button_label": "=> sas_sam-regrole.ref.choose_a_role",
+            "required_role_message": "Ви повинні обрати роль.",
+            "choose_role_modal": {
+                "choose_role_heading": "=> sas_sam-regrole.ref.choose_a_role",
+                "choose_role_text": "Будь ласка, оберіть роль, щоб продовжити користуватися нашим форумом.",
+                "save_button": "=> core.ref.save_changes"
+            },
+            "sign_up_modal": {
+                "choose_role_heading": "=> sas_sam-regrole.ref.choose_a_role"
+            }
+        },
+        "ref": {
+            "choose_a_role": "Оберіть роль"
+        }
+    }
+}
