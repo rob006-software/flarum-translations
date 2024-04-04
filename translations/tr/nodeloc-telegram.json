@@ -2,20 +2,20 @@
     "nodeloc-telegram": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "TelegramProvide Ayarları",
                 "field": {
-                    "botUsername": "",
-                    "botToken": "",
-                    "enableNotifications": ""
+                    "botUsername": "Bot Kullanıcı Adı",
+                    "botToken": "Bot Anahtarı",
+                    "enableNotifications": "Bildirimleri Etkinleştir"
                 }
             }
         },
         "forum": {
-            "log_in_with_telegram_button": "",
-            "link_telegram_button": "",
+            "log_in_with_telegram_button": "Telegram ile giriş yapın",
+            "link_telegram_button": "Telegram Bağlantısı",
             "settings": {
-                "notify_by_telegram_heading": "",
-                "unblock_telegram_bot": ""
+                "notify_by_telegram_heading": "Telegram",
+                "unblock_telegram_bot": "TelegramProvide botuna yetki vermediğiniz anlaşılıyor. Bildirimleri yeniden etkinleştirmek için TelegramProvide'da <a>{username}</a> adresine bir mesaj gönderin"
             }
         }
     }
