@@ -398,7 +398,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-landing-page/0.1.0/locale/en.yml',
 	],
 	'datlechin-link-preview' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v1.4.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v1.5.0/locale/en.yml',
 	],
 	'datlechin-more-discussions' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-more-discussions/v0.3.0/locale/en.yml',
@@ -651,7 +651,7 @@ return [
 	],
 	'fof-polls' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/2.1.2/resources/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/2.2.0-beta.1/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/2.2.0-beta.13/resources/locale/en.yml',
 	],
 	'fof-pretty-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/1.1.2/resources/locale/en.yml',
@@ -736,6 +736,9 @@ return [
 	],
 	'glowingblue-redis-setup' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.2/resources/locale/en.yml',
+	],
+	'gtdxyz-login' => [
+		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-login/1.0.1/locale/en.yml',
 	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
@@ -1141,6 +1144,9 @@ return [
 	],
 	'nodeloc-ignore-hidden-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ignore-hidden-tags/1.0/locale/en.yml',
+	],
+	'nodeloc-lottery' => [
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/lottery/0.0.2/resources/locale/en.yml',
 	],
 	'nodeloc-my-emoji' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-my-emoji/1.0.1/locale/en.yml',

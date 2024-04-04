@@ -2,92 +2,92 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "새로운 인증 방법",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "호스트",
+                    "host_placeholder": "예시: extiverse.com",
+                    "submit_button": "제출",
+                    "token_label": "토큰",
+                    "type_label": "유형",
+                    "unchanged_token_placeholder": "(변경되지 않음)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "이 인증 방법을 삭제하시겠습니까?",
+                "delete_label": "인증 방법 삭제",
+                "edit_label": "인증 방법 편집",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "호스트",
+                    "token": "토큰"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "인증 방법이 구성되지 않았습니다. 이는 개인 저장소에서 설치를 허용하는 선택적인 고급 기능입니다.",
+                "remove_button_label": "인증 방법 제거",
+                "title": "인증 방법",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "저장소 추가",
+                "delete_repository_confirmation": "이 저장소를 삭제하시겠습니까? 이 저장소에서 설치된 모든 확장이 제거됩니다.",
+                "delete_repository_label": "저장소 삭제",
+                "edit_repository_label": "저장소 편집",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "최소 안정성",
+                    "help": "설치할 수 있는 패키지 유형입니다. 알지 못하는 경우 변경하지 마세요.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "안정 버전 (권장됨)",
+                        "rc": "릴리스 후보",
+                        "beta": "베타",
+                        "alpha": "알파",
+                        "dev": "개발"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "저장소",
+                    "help": "패키지를 설치할 추가 저장소를 추가하세요. 이것은 고급 기능이므로 신뢰할 수 없는 저장소를 추가하지 마세요. 저장소는 서버에서 악의적인 코드를 실행하는 데 사용될 수 있습니다.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "path"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "이름",
+                        "type_label": "유형",
+                        "url": "URL",
+                        "submit_button": "제출"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "실행하지 못했습니다. storage/logs/composer의 composer 로그를 확인하세요.",
+                "extension_already_installed": "확장이 이미 설치되어 있습니다.",
+                "extension_not_directly_dependency": "확장은 다른 확장의 종속성으로 설치되어 있으므로 직접 제거할 수 없습니다.",
+                "extension_not_installed": "확장을 찾을 수 없습니다.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "확장은 현재 사용 중인 Flarum 인스턴스와 호환되지 않을 가능성이 높습니다.",
+                    "extension_not_found": "확장을 찾을 수 없거나 존재하지 않습니다.",
+                    "extensions_incompatible_with_new_major": "새로운 주요 릴리스와 호환되지 않는 일부 설치된 확장이 있습니다. 확장이 저자에 의해 호환되도록 업데이트될 때까지 기다리거나 계속 진행하기 전에 해당 확장을 제거하십시오.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "최신 버전으로 업데이트되지 않은 이유를 보여주세요.",
+                "install": "새로운 확장을 설치합니다",
+                "install_help": "계속하려면 확장 패키지 이름을 입력하세요. <semantic_link>시맨틱 버전</semantic_link>을 지정할 수 있으며, 형식은 <code>vendor/package-name:version</code>입니다. 확장을 둘러보려면 {extiverse}를 방문하세요.\n",
+                "proceed": "계속하기",
+                "remove": "제거",
+                "successful_install": "{extension}이(가) 성공적으로 설치되었습니다. 리디렉션 중..",
+                "successful_remove": "확장이 성공적으로 제거되었습니다.",
+                "successful_update": "{extension}이(가) 성공적으로 업데이트되었습니다. 리디렉션 중..",
+                "update": "업데이트",
+                "update_soft_label": "소프트 업데이트",
+                "update_hard_label": "하드 업데이트"
             },
-            "file_permissions": "",
+            "file_permissions": "확장 관리자는 다음 파일 및 디렉토리에 대한 읽기 및 쓰기 권한이 필요합니다: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
+                "description": "주요 Flarum 업데이트는 역방향 호환되지 않습니다. 즉, 현재 설치된 일부 확장 프로그램 및 수동으로 수행한 수정 사항이 이 새 버전과 호환되지 않을 수 있습니다. 계속 진행하기 전에 데이터베이스와 파일의 백업을 만드는 것이 좋습니다.\n",
                 "dry_run": "",
                 "dry_run_help": "",
                 "failure": {

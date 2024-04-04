@@ -7,7 +7,9 @@
                 "options_color_blend": "Textfarbe in Umfrageoptionen für bessere Lesbarkeit anpassen",
                 "options_color_blend_help": "Mit dieser Funktion kannst du durch Farbmischen die Umfrageoptionen besser lesbar machen. Deaktiviere diese Funktion wenn sie dein Forum seltsam aussehen lässt und die Lesbarkeit verringert.",
                 "enable_global_polls": "",
-                "enable_global_polls_help": ""
+                "enable_global_polls_help": "",
+                "image_height": "",
+                "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Ergebnisse anzeigen ohne abzustimmen",
@@ -65,6 +67,10 @@
                     "alt_label": "",
                     "alt_help_text": ""
                 },
+                "poll_option_image": {
+                    "label": "",
+                    "help": ""
+                },
                 "tooltip": {
                     "options": {
                         "add-button": ""
@@ -98,6 +104,9 @@
             "poll_form": {
                 "delete": "",
                 "error": ""
+            },
+            "polls_page": {
+                "title": ""
             },
             "polls_list": {
                 "empty_text": "",

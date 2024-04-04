@@ -1014,6 +1014,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`gbcl-userip`](https://weblate.rob006.net/projects/flarum/gbcl-userip) | [`gbcl/userip`](https://github.com/GBCLStudio/userip) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`glowingblue-redis-setup`](https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup) | [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup) |
+| [`gtdxyz-login`](https://weblate.rob006.net/projects/flarum/gtdxyz-login) | [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login) |
 | [`hehongyuanlove-auth-qq`](https://weblate.rob006.net/projects/flarum/hehongyuanlove-auth-qq) | [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq) |
 | [`hikarilan-passkey-login`](https://weblate.rob006.net/projects/flarum/hikarilan-passkey-login) | [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login) |
 | [`ianm-boring-avatars`](https://weblate.rob006.net/projects/flarum/ianm-boring-avatars) | [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars) |

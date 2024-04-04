@@ -7,7 +7,9 @@
                 "options_color_blend": "",
                 "options_color_blend_help": "",
                 "enable_global_polls": "",
-                "enable_global_polls_help": ""
+                "enable_global_polls_help": "",
+                "image_height": "",
+                "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Podglądanie wyników bez zagłosowania",
@@ -65,6 +67,10 @@
                     "alt_label": "",
                     "alt_help_text": ""
                 },
+                "poll_option_image": {
+                    "label": "",
+                    "help": ""
+                },
                 "tooltip": {
                     "options": {
                         "add-button": ""
@@ -98,6 +104,9 @@
             "poll_form": {
                 "delete": "",
                 "error": ""
+            },
+            "polls_page": {
+                "title": ""
             },
             "polls_list": {
                 "empty_text": "",

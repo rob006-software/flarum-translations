@@ -31,8 +31,8 @@
             "page": {
                 "title": "Người gác cửa",
                 "doorkey": {
-                    "used_times": "{remaining, plural, one {còn {remaining} lượt sử dụng} other {còn {remaining} lượt sử dụng}}",
-                    "total_uses": "",
+                    "used_times": "{remaining, plural, =0 {Không giới hạn lượt sử dụng} one {{remaining} lượt sử dụng còn lại} other {{remaining} lượt sử dụng còn lại}}\"",
+                    "total_uses": "{totalUses, plural, one {Đã sử dụng {totalUses} lần} other {Đã sử dụng {totalUses} lần}}",
                     "title": "Mã mời",
                     "help": {
                         "key": "Mã khóa: Mã người dùng sẽ nhập khi đăng ký.",

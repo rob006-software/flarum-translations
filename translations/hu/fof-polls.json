@@ -7,7 +7,9 @@
                 "options_color_blend": "Színkeverés használata a szavazási lehetőségek szövegénél",
                 "options_color_blend_help": "Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.",
                 "enable_global_polls": "",
-                "enable_global_polls_help": ""
+                "enable_global_polls_help": "",
+                "image_height": "",
+                "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
@@ -65,6 +67,10 @@
                     "alt_label": "",
                     "alt_help_text": ""
                 },
+                "poll_option_image": {
+                    "label": "",
+                    "help": ""
+                },
                 "tooltip": {
                     "options": {
                         "add-button": ""
@@ -98,6 +104,9 @@
             "poll_form": {
                 "delete": "",
                 "error": ""
+            },
+            "polls_page": {
+                "title": ""
             },
             "polls_list": {
                 "empty_text": "",

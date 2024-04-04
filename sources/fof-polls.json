@@ -7,7 +7,9 @@
                 "options_color_blend": "Color blend text in poll options",
                 "options_color_blend_help": "Use this to use color mixing to make the poll options more readable. Disable if this feature causes issues with your forum's appearance, reducing readability.",
                 "enable_global_polls": "Enable global polls",
-                "enable_global_polls_help": "Global polls are not tied to a specific post, and may be accessed from a dedicated polls page."
+                "enable_global_polls_help": "Global polls are not tied to a specific post, and may be accessed from a dedicated polls page.",
+                "image_height": "Resize image height",
+                "image_width": "Resize image width"
             },
             "permissions": {
                 "view_results_without_voting": "View results without voting",
@@ -65,6 +67,10 @@
                     "alt_label": "Image Alt Text",
                     "alt_help_text": "This text is required when an image is set, it will be displayed if the image fails to load."
                 },
+                "poll_option_image": {
+                    "label": "Poll Answer Image",
+                    "help": "Upload an image to be displayed alongside the poll answer (optional)."
+                },
                 "tooltip": {
                     "options": {
                         "add-button": "Add Answer"
@@ -98,6 +104,9 @@
             "poll_form": {
                 "delete": "Delete Poll",
                 "error": "There was an error saving the poll, please contact any administrator."
+            },
+            "polls_page": {
+                "title": "Polls"
             },
             "polls_list": {
                 "empty_text": "It looks as though there are no community wide polls here.",

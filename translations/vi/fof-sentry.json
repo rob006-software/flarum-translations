@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
-                "dsn_help": "",
-                "dsn_backend_label": "",
-                "dsn_backend_help": "",
+                "dsn_help": "Nếu bạn sử dụng DSN chuyển tiếp làm DSN chính, đừng chọn \"Phản hồi của người dùng\" vì nó sẽ không hoạt động.",
+                "dsn_backend_label": "Sentry DSN (Chỉ backend)",
+                "dsn_backend_help": "DSN này sẽ chỉ được sử dụng cho các lỗi backend. Điều này hữu ích nếu bạn muốn sử dụng một dự án khác cho các lỗi backend hoặc muốn sử dụng Relay để gửi các lỗi backend đến Sentry (ví dụ: để cải thiện hiệu suất).",
                 "environment_label": "Môi trường Sentry",
                 "user_feedback_label": "Phản hồi của người dùng",
                 "send_user_emails_label": "Gửi địa chỉ email của người dùng với báo cáo Sentry?",
                 "monitor_performance_label": "Tỷ lệ giám sát hiệu suất back-end (0 - 100)",
-                "profile_rate_label": "",
-                "profile_rate_help": "",
+                "profile_rate_label": "Tỷ lệ Profiling backend (0 - 100)",
+                "profile_rate_help": "Tùy thuộc vào tỷ lệ giám sát hiệu suất. Giám sát hiệu suất phải được bật để tính năng này hoạt động.\n\n{br}✱ Bật tính năng này sẽ ảnh hưởng đến thời gian phản hồi do chi phí hoạt động của việc tạo hồ sơ và các yêu cầu được gửi đến Sentry. Tìm hiểu cách khắc phục điều này @ https://docs.sentry.io/platforms/php/profiling/.\n{br}{icon} <bold>Tính năng này yêu cầu Excimer, công cụ tạo mẫu lấy mẫu của Wikipedia, chỉ khả dụng trên Linux.</bold>\n",
                 "javascript_label": "Báo lỗi JavaScript",
                 "javascript_console_label": "Ảnh chụp Console JavaScript",
                 "javascript_trace_sample_rate": "Tỷ lệ giám sát hiệu suất Front-end (0 - 100)",
-                "javascript_trace_sample_rate_help": "",
-                "javascript_replays_session_sample_rate": "",
-                "javascript_replays_session_sample_rate_help": "",
-                "javascript_replays_error_sample_rate": "",
-                "javascript_replays_error_sample_rate_help": ""
+                "javascript_trace_sample_rate_help": "Mẫu trích xuất cho tất cả các giao dịch. {br}✱ Bật tính năng này sẽ làm tăng kích thước gói tin lên khoảng 30 KB.",
+                "javascript_replays_session_sample_rate": "Tỷ lệ Ghi lại Phiên Giao diện Người dùng (0 - 100)",
+                "javascript_replays_session_sample_rate_help": "Mẫu trích xuất cho các bản ghi lại bắt đầu ghi ngay lập tức và kéo dài toàn bộ phiên của người dùng. {br}✱ Bật bất kỳ tùy chọn ghi lại nào cũng sẽ làm tăng kích thước gói tin lên khoảng 150 KB.",
+                "javascript_replays_error_sample_rate": "Tỷ lệ Ghi lại Lỗi Giao diện Người dùng (0 - 100)",
+                "javascript_replays_error_sample_rate_help": "Tốc độ mẫu cho các bản phát lại được ghi lại khi xảy ra lỗi. Tối đa 1 phút trước khi lỗi sẽ được ghi lại và tiếp tục cho đến khi phiên kết thúc. {br}✱ Việc bật bất kỳ tùy chọn phát lại nào sẽ tăng kích thước gói lên ~150 KB."
             }
         }
     }

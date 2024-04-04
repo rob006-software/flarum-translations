@@ -7,7 +7,9 @@
                 "options_color_blend": "Змішування кольорів тексту в опціях опитування",
                 "options_color_blend_help": "Використовуйте цю опцію для змішування кольорів, щоб зробити варіанти опитування більш читабельними. Вимкніть, якщо ця функція спричиняє проблеми із зовнішнім виглядом вашого форуму, погіршуючи його читабельність.",
                 "enable_global_polls": "Увімкнути глобальні опитування",
-                "enable_global_polls_help": "Глобальні опитування не прив'язані до конкретного допису, і до них можна отримати доступ зі спеціальної сторінки опитувань."
+                "enable_global_polls_help": "Глобальні опитування не прив'язані до конкретного допису, і до них можна отримати доступ зі спеціальної сторінки опитувань.",
+                "image_height": "",
+                "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Перегляд результатів без голосування",
@@ -65,6 +67,10 @@
                     "alt_label": "Альтернативний текст зображення",
                     "alt_help_text": "Цей текст є обов'язковим при встановленні зображення, він буде показаний, якщо зображення не завантажиться."
                 },
+                "poll_option_image": {
+                    "label": "",
+                    "help": ""
+                },
                 "tooltip": {
                     "options": {
                         "add-button": "Додати відповідь"
@@ -84,46 +90,49 @@
             "votes_modal": {
                 "title": "Хто проголосував"
             },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "polls_count": "{count, plural, one { {count} голос} other {{count} голосів}}",
+            "poll_never_ends": "Опитування ніколи не закінчується",
+            "answers": "Відповіді",
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "Редагувати",
+                "delete_label": "Видалити",
+                "view_label": "Переглянути",
+                "delete_confirmation": "Ви дійсно хочете видалити це опитування?",
+                "delete_success_message": "Опитування успішно видалено.",
+                "delete_error_message": "Під час видалення опитування щось пішло не так."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Видалити опитування",
+                "error": "Виникла помилка при збереженні опитування, будь ласка, зверніться до будь-якого адміністратора."
+            },
+            "polls_page": {
+                "title": ""
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
+                "empty_text": "Схоже, що тут не проводяться опитування думки спільноти.",
+                "load_more_button": "Завантажити більше"
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Додати опитування",
+                "edit_title": "Редагувати опитування",
+                "polls_manager": "Менеджер опитувань",
+                "polls_preview": "Переглянути опитування",
+                "continue_editing": "Продовжити редагування",
+                "success": "Опитування успішно збережено."
             },
             "page": {
-                "nav": "",
-                "nav-all": ""
+                "nav": "Опитування",
+                "nav-all": "Всі глобальні опитування"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Активні опитування",
+                "ended-polls": "Підсумкові опитування",
+                "no-active-polls": "Наразі активних опитувань немає.",
+                "no-recent-polls": "Наразі немає нещодавно завершених опитувань."
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Видалити зображення",
+                "upload_button": "Оберіть зображення"
             }
         }
     }
