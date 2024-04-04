@@ -613,11 +613,11 @@
                 "nothing_available": "이 사용자를 편집할 권한이 없습니다."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "순환 종속성이 감지되었습니다: {extensions}. 작업을 중단합니다. 하나의 확장을 비활성화하고 다시 시도하세요.",
                 "dependent_extensions_message": "{extension}을 다음 종속 확장들이 모두 비활성화 되기 전까지 비활성화 할 수 없습니다. 종속 확장들: {extensions}",
-                "extension_initialiation_failed_message": "",
+                "extension_initialiation_failed_message": "{extension}이(가) 초기화되지 못했습니다. 자세한 정보는 브라우저 콘솔을 확인하세요.",
                 "generic_message": "이런! 뭔가 잘못되었습니다. 페이지를 다시 로드하고 다시 시도하십시오.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "이런! 교차 출처 요청 중에 문제가 발생했습니다. 페이지를 새로 고쳐서 다시 시도해주세요.",
                 "missing_dependencies_message": "{extension}을 다음 상속 확장들이 모두 활성화 되기 전까지 활성화 할 수 없습니다. 상속 확장들: {extensions}",
                 "not_found_message": "요청한 리소스를 찾을 수 없습니다.",
                 "payload_too_large_message": "요청의 크기가 너무 컸습니다.",
@@ -711,9 +711,9 @@
         "api": {
             "invalid_username_message": "사용자명에는 문자, 숫자 및 대시만 포함될 수 있습니다.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "{filter} 필터는 숫자여야 합니다.",
+                "must_not_be_array_message": "{filter} 필터는 배열이 아니어야 합니다.",
+                "must_not_be_multidimensional_array_message": "{filter} 필터는 다차원 배열이 아니어야 합니다."
             }
         },
         "email": {
@@ -753,7 +753,7 @@
             "edit_user": "사용자 편집",
             "email": "이메일",
             "extensions": "확장",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "진행하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
             "icon": "아이콘",
             "icon_text": "아무 <a>FontAwesome</a> 아이콘 클래스를 입력해주세요. <em>접두사 </em> <code>fas fa-</code>를 포함해야합니다.",
             "load_more": "더 보기",
@@ -761,8 +761,8 @@
             "log_in": "로그인",
             "log_out": "로그아웃",
             "mark_all_as_read": "모두 읽음으로 표시",
-            "never": "",
-            "new_token": "",
+            "never": "결코",
+            "new_token": "새로운 토큰",
             "next_page": "다음 페이지",
             "notifications": "알림",
             "okay": "확인",
@@ -775,8 +775,8 @@
             "reset_your_password": "비밀번호 재설정",
             "restore": "복구",
             "save_changes": "변경사항 저장",
-            "search_users": "",
-            "security": "",
+            "search_users": "사용자 검색",
+            "security": "보안",
             "settings": "설정",
             "sign_up": "가입",
             "some_others": "{count, plural, one {# 개의 기타} other {# 개의 기타들}}",
