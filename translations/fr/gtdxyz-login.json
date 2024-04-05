@@ -2,22 +2,22 @@
     "core": {
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "Adresse de courriel"
             }
         }
     },
     "gtdxyz-login": {
         "admin": {
-            "login_identification": "",
-            "login_email": "",
-            "login_username": "",
-            "login_default": ""
+            "login_identification": "Connexion",
+            "login_email": "Adresse de courriel",
+            "login_username": "Nom d'utilisateur",
+            "login_default": "Par défaut"
         },
         "forum": {
             "error": {
-                "failed": "",
-                "email_failed": "",
-                "useranem_failed": ""
+                "failed": "échec de la vérification",
+                "email_failed": "La vérification de l'adresse de courriel a échoué",
+                "useranem_failed": "La vérification du nom d'utilisateur a échoué"
             }
         }
     }
