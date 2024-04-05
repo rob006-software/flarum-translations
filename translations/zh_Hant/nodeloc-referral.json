@@ -2,19 +2,19 @@
     "nodeloc-referral": {
         "admin": {
             "settings": {
-                "price": "",
-                "reward": "",
-                "max_number": "",
-                "expires": ""
+                "price": "價格",
+                "reward": "報酬",
+                "max_number": "最大數量",
+                "expires": "過期"
             },
             "permissions": {
-                "referral_key": ""
+                "referral_key": "誰可以邀請"
             }
         },
         "forum": {
-            "referral": "",
-            "purchase_invite_code": "",
-            "purchase_help_tip": "",
+            "referral": "推薦",
+            "purchase_invite_code": "購買邀請碼",
+            "purchase_help_tip": "每個邀請碼消耗 {invite_code_price} 能量。 對於每位成功邀請的用戶，您都將獲得 {invite_code_reward} 能量獎勵。",
             "purchase_max_tip": "",
             "purchase_expire_tip": "",
             "create_time": "",
