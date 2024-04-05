@@ -8,8 +8,8 @@
                 "options_color_blend_help": "Utilisez cette option pour mélanger les couleurs afin de rendre les options du sondage plus lisibles. Désactivez cette fonction si elle provoque des problèmes d'apparence à votre forum qui pourraient réduire sa lisibilité.",
                 "enable_global_polls": "Activer les sondages globaux",
                 "enable_global_polls_help": "Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d'une page dédiée aux sondages.",
-                "image_height": "",
-                "image_width": ""
+                "image_height": "Redimensionner la hauteur de l'image",
+                "image_width": "Redimensionner la largeur de l'image"
             },
             "permissions": {
                 "view_results_without_voting": "Afficher les résultats sans voter",
@@ -68,8 +68,8 @@
                     "alt_help_text": "Ce texte est requis lorsqu'une image est définie ; il sera affiché si l'image ne parvient pas à se charger."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Image de la réponse au sondage",
+                    "help": "Transférer une image qui sera affichée à côté de la réponse au sondage (facultatif)."
                 },
                 "tooltip": {
                     "options": {
@@ -106,7 +106,7 @@
                 "error": "Une erreur est survenue lors de l'enregistrement du sondage, veuillez contacter un administrateur."
             },
             "polls_page": {
-                "title": ""
+                "title": "Sondages"
             },
             "polls_list": {
                 "empty_text": "Il semble qu'il n'y ait pas de sondage communautaire ici.",
