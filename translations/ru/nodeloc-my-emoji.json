@@ -2,98 +2,98 @@
     "nodeloc-emoji": {
         "admin": {
             "settings": {
-                "emoji_settings_heading": "",
-                "category_settings_heading": "",
-                "general_ui_settings_heading": "",
-                "show_variants_label": "",
-                "show_variants_text": "",
-                "auto_hide_label": "",
-                "auto_hide_text": "",
-                "show_preview_label": "",
-                "show_category_buttons_label": "",
-                "show_search_label": "",
-                "show_recents_label": "",
-                "recents_count_label": "",
-                "recents_count_text": "",
-                "emoji_style_label": "",
-                "emoji_version_label": "",
-                "emoji_version_text": "",
-                "initial_category_label": "",
-                "initial_category_text": "",
-                "specify_categories_label": "",
-                "specify_categories_text": "",
-                "emoji_data_label": "",
-                "emoji_data_text": "",
-                "emoji_style_native_option": "",
+                "emoji_settings_heading": "Настройки эмодзи",
+                "category_settings_heading": "Настройки категорий",
+                "general_ui_settings_heading": "Общие настройки пользовательского интерфейса",
+                "show_variants_label": "Показать варианты",
+                "show_variants_text": "Некоторые мои-эмодзи имеют варианты оттенков. Когда выбран такой эмодзи, появляется всплывающее окно, позволяющее выбрать нужный вариант.",
+                "auto_hide_label": "Скрыть автоматически",
+                "auto_hide_text": "Скрыть указатель, когда эмодзи выбран.",
+                "show_preview_label": "Показать выбор предпросмотра",
+                "show_category_buttons_label": "Показать кнопки категорий",
+                "show_search_label": "Показать поле поиска",
+                "show_recents_label": "Показать (и сохранить) часто используемые мои-эмодзи",
+                "recents_count_label": "Число часто используемых эмодзи",
+                "recents_count_text": "Сохраняемое число последних использованных моих-эмодзи.",
+                "emoji_style_label": "Стиль эмодзи",
+                "emoji_version_label": "Версия эмодзи",
+                "emoji_version_text": "Какую версию спецификации эмодзи использовать.",
+                "initial_category_label": "Начальная категория",
+                "initial_category_text": "По умолчанию указатель сначала показывает категорию Смайлики и Эмодзи.",
+                "specify_categories_label": "Укажите категории",
+                "specify_categories_text": "Вы можете перечислить здесь список категорий, и указатель отобразит только эти категории.",
+                "emoji_data_label": "Сведения об эмодзи",
+                "emoji_data_text": "Это в основном используется для указания переведенных имен эмодзи.",
+                "emoji_style_native_option": "Оригинал",
                 "emoji_categories": {
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": ""
+                    "smileys": "=> nodeloc-emoji.ref.emoji_categories.smileys",
+                    "people": "=> nodeloc-emoji.ref.emoji_categories.people",
+                    "animals": "=> nodeloc-emoji.ref.emoji_categories.animals",
+                    "food": "=> nodeloc-emoji.ref.emoji_categories.food",
+                    "travel": "=> nodeloc-emoji.ref.emoji_categories.travel",
+                    "activities": "=> nodeloc-emoji.ref.emoji_categories.activities",
+                    "objects": "=> nodeloc-emoji.ref.emoji_categories.objects",
+                    "symbols": "=> nodeloc-emoji.ref.emoji_categories.symbols",
+                    "flags": "=> nodeloc-emoji.ref.emoji_categories.flags"
                 }
             },
             "my_emoji_section": {
-                "heading_title": "",
-                "import_json_button": "",
-                "export_json_button": "",
-                "import_myemoji_message": "",
+                "heading_title": "Пользовательские эмодзи",
+                "import_json_button": "Импорт JSON",
+                "export_json_button": "Экспорт JSON",
+                "import_myemoji_message": "Это импортирует только конфигурацию эмодзи. Изображения эмодзи нужно загружать вручную.",
                 "edit_emoji": {
-                    "emoji_category_label": "",
-                    "text_to_category_name_label": "",
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "submit_button": "",
-                    "delete_emoji_button": "",
-                    "saved_message": ""
+                    "emoji_category_label": "Код категории",
+                    "text_to_category_name_label": "Имя категории",
+                    "modal_title": "Добавить эмодзи",
+                    "emoji_title_label": "Имя эмодзи",
+                    "delete_emoji_confirmation": "Вы уверены, что хотите удалить этот эмодзи?",
+                    "text_to_replace_label": "Заменяемый текст",
+                    "path_or_url_label": "Путь или URL",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Удалить эмодзи",
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "Вставить эмодзи"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_myemoji_found_message": "",
+                "search_placeholder": "Поиск эмодзи",
+                "no_myemoji_found_message": "Мои-эмодзи не найдено",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "recents": "=> nodeloc-emoji.ref.emoji_categories.recents",
+                    "smileys": "=> nodeloc-emoji.ref.emoji_categories.smileys",
+                    "people": "=> nodeloc-emoji.ref.emoji_categories.people",
+                    "animals": "=> nodeloc-emoji.ref.emoji_categories.animals",
+                    "food": "=> nodeloc-emoji.ref.emoji_categories.food",
+                    "travel": "=> nodeloc-emoji.ref.emoji_categories.travel",
+                    "activities": "=> nodeloc-emoji.ref.emoji_categories.activities",
+                    "objects": "=> nodeloc-emoji.ref.emoji_categories.objects",
+                    "symbols": "=> nodeloc-emoji.ref.emoji_categories.symbols",
+                    "flags": "=> nodeloc-emoji.ref.emoji_categories.flags",
+                    "custom": "=> nodeloc-emoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "recents": "",
-                "smileys": "",
-                "people": "",
-                "animals": "",
-                "food": "",
-                "travel": "",
-                "activities": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
-                "custom": ""
+                "recents": "Последние эмодзи",
+                "smileys": "Смайлики и Эмодзи",
+                "people": "Люди и Организации",
+                "animals": "Животные и Природа",
+                "food": "Еда и Напитки",
+                "travel": "Путешествия и Места",
+                "activities": "Активности",
+                "objects": "Объекты",
+                "symbols": "Символы",
+                "flags": "Флаги",
+                "custom": "Пользовательские"
             }
         }
     }
