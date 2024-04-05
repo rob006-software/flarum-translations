@@ -1,13 +1,13 @@
 {
     "acpl-mobile-tab": {
         "forum": {
-            "home": "",
-            "all_discussions": "",
-            "tags": "",
-            "categories": "",
-            "notifications": "",
-            "log_in": "",
-            "profile": ""
+            "home": "홈",
+            "all_discussions": "토론",
+            "tags": "=> flarum-tags.forum.index.tags_link",
+            "categories": "=> askvortsov-categories.forum.index.categories_link",
+            "notifications": "=> core.forum.notifications.title",
+            "log_in": "=> core.forum.header.log_in_link",
+            "profile": "=> core.forum.header.profile_button"
         }
     }
 }
