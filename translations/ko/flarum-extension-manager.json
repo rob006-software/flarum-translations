@@ -88,26 +88,26 @@
             "file_permissions": "확장 관리자는 다음 파일 및 디렉토리에 대한 읽기 및 쓰기 권한이 필요합니다: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
                 "description": "주요 Flarum 업데이트는 역방향 호환되지 않습니다. 즉, 현재 설치된 일부 확장 프로그램 및 수동으로 수행한 수정 사항이 이 새 버전과 호환되지 않을 수 있습니다. 계속 진행하기 전에 데이터베이스와 파일의 백업을 만드는 것이 좋습니다.\n",
-                "dry_run": "",
-                "dry_run_help": "",
+                "dry_run": "실행 테스트",
+                "dry_run_help": "실행 테스트는 현재 설정이 안전하게 업데이트될 수 있는지를 검증하기 위해 업데이트를 에뮬레이트하는 것입니다. 이는 수동으로 만든 사용자 지정 수정이 새 버전에서 작동할 것이라는 것을 의미하지 않습니다.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "마지막 주요 업데이트가 실패했습니다. 일부 설치된 확장 기능이 새로운 주요 릴리스와 호환되지 않습니다.",
+                    "why": "자세한 정보 찾기"
                 },
-                "title": "",
-                "update": ""
+                "title": "Flarum {version}의 주요 업데이트 가능",
+                "update": "업데이트"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "이는 사용 가능한 업데이트가 있는 다른 확장 기능/패키지도 업데이트합니다."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "관리자"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
+                        "details": "세부 정보",
+                        "elapsed_time": "완료됨",
                         "peak_memory_used": "",
                         "operation": "",
                         "package": "",
