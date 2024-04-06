@@ -24,12 +24,12 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "태그 편집 사용",
-                "bypass_tag_counts_label": "",
+                "bypass_tag_counts_label": "태그 요구 사항 우회",
                 "restrict_by_tag_heading": "태그 제한",
                 "tag_discussions_label": "게시물 태그 설정"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " 으로 ",
@@ -41,11 +41,11 @@
             },
             "tags": {
                 "about_tags_text": "태그는 게시물을 분류하는 데 사용됩니다. 기본 태그는 기존 포럼 카테고리와 유사하며 2단계 계층 구조로 정렬할 수 있습니다. 보조 태그에는 계층 또는 순서가 없으며 미세 분류에 유용합니다.",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
+                "create_primary_tag_button": "기본 태그 생성",
+                "create_secondary_tag_button": "보조 태그 생성",
                 "primary_heading": "기본 태그",
                 "secondary_heading": "보조 태그",
-                "settings_heading": "",
+                "settings_heading": "설정",
                 "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "설정"
             }
@@ -63,7 +63,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "태그 선택"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "태그 편집"
@@ -89,17 +89,17 @@
         "lib": {
             "deleted_tag_text": "삭제됨",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "태그 요구 사항 우회",
+                "choose_primary_placeholder": "{count, plural, one {기본 태그를 선택하세요} other {기본 태그 #개를 선택하세요}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "태그 선택",
+            "choose_tags_placeholder": "{count, plural, one {1개의 태그를 더 선택하세요} other {#개의 태그를 더 선택하세요}}",
             "name": "이름",
             "tags": "태그",
             "create_tag": "태그 생성"
