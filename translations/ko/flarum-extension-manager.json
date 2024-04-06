@@ -51,7 +51,7 @@
                     "types": {
                         "composer": "composer",
                         "vcs": "vcs",
-                        "path": "path"
+                        "path": "경로"
                     },
                     "add_modal": {
                         "name_label": "이름",
@@ -108,44 +108,44 @@
                     "columns": {
                         "details": "세부 정보",
                         "elapsed_time": "완료됨",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "peak_memory_used": "최대 메모리 사용량",
+                        "operation": "작업",
+                        "package": "패키지",
+                        "status": "상태"
                     },
-                    "none": "",
+                    "none": "아직 작업이 없습니다.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "확장 기능 설치",
+                        "extension_remove": "확장 기능 제거",
+                        "extension_update": "확장 기능 업데이트",
+                        "update_check": "업데이트 확인",
+                        "update_global": "모든 소프트웨어 패키지 업데이트",
+                        "update_major": "주요 업데이트",
+                        "update_minor": "소규모 업데이트",
+                        "why_not": "패키지가 업데이트되지 못하는 이유를 분석하기"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "알 수 없음",
+                        "command": "Composer 명령",
+                        "guessed_cause": "원인",
+                        "output": "출력"
                     },
-                    "refresh": "",
+                    "refresh": "작업 목록 새로 고침",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "성공",
+                        "failure": "실패",
+                        "pending": "보류",
+                        "running": "실행 중"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "작업이 시작됨",
+                    "title": "큐(Queue)"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
+                "title": "=> core.ref.settings",
+                "access_warning": "관리자 영역에 액세스를 부여할 때 주의하십시오. 악의적인 사용자들이 확장 관리자를 오용하여 보안 위협을 초래할 수 있는 패키지를 설치할 수 있습니다.",
+                "debug_mode_warning": "디버그 모드에서 실행 중이므로 확장 관리자는 로컬 개발 패키지를 올바르게 설치하고 업데이트할 수 없습니다. 이러한 경우에는 대신 명령 줄 인터페이스를 사용하십시오.",
+                "queue_jobs": "백그라운드 큐에서 작업 실행",
                 "queue_jobs_help": "",
                 "task_retention_days": "",
                 "task_retention_days_help": ""
