@@ -4,11 +4,11 @@
             "akismet_settings": {
                 "api_key_label": "API 키",
                 "title": "Akismet 설정",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "명백한 스팸을 자동으로 삭제",
+                "delete_blatant_spam_help": "Akismet이 댓글이 명백한 스팸임을 확인하면, 깃발을 대신하여 자동으로 게시물을 삭제"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Akismet 우회"
             }
         },
         "forum": {
