@@ -11,7 +11,7 @@
                 "unignore_button": "무시하지 않음"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
                 "following_link": "팔로우 중인 토의"
@@ -21,7 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "답장한 게시물을 자동으로 팔로우",
-                "notify_for_all_posts_label": "",
+                "notify_for_all_posts_label": "토론에서 모든 새로운 게시물에 대해 알림을 받도록 설정",
                 "notify_new_post_label": "누군가 내가 팔로우 중인 게시물에 답장했을 때"
             },
             "sub_controls": {
@@ -38,8 +38,8 @@
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[새로운 게시물] {title}",
+                "body": "안녕하세요 {recipient_display_name}님!\n\n{poster_display_name}님이 팔로우 중인 토론에서 게시물을 작성했습니다: {title}.\n\n새로운 활동을 보려면 다음 링크를 확인하세요:\n{url}\n\n---\n\n{content}\n\n---\n\n최신 상태가 될 때까지 이 토론에 대한 추가 알림을 받지 않습니다.\n"
             }
         },
         "ref": {
