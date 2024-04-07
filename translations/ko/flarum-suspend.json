@@ -8,13 +8,13 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "{timeReadable} 동안 정지되었습니다",
-                "user_suspended_indefinite_text": "",
+                "user_suspended_indefinite_text": "당신은 무기한 정지되었습니다",
                 "user_unsuspended_text": "정지가 해제되었습니다"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
+                "dismiss_button": "무시",
+                "indefinite": "무기한 정지입니다",
+                "limited": "이 정지는 {date}까지 유지됩니다",
                 "title": ""
             },
             "suspend_user": {
