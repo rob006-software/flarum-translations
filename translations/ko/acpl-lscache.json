@@ -1,11 +1,11 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
+            "cache_enabled_label": "LSCache 활성화",
+            "cache_enabled_help": "캐시 테스트 방법에 대한 <a>정보 페이지</a>를 확인하세요. 참고: 캐시를 비활성화하면, 이 사이트의 모든 캐시된 항목이 제거됩니다.",
+            "public_cache_ttl_label": "기본 공용 캐시 TTL",
+            "public_cache_ttl_help": "공용 페이지를 캐시할 시간을 초 단위로 정의하세요. 기본값은 604800초 (일주일)입니다.",
+            "clearing_cache_listener_label": "Flarum 캐시가 지워질 때 LSCache 초기화",
             "serve_stale_label": "",
             "serve_stale_help": "",
             "purge_on_discussion_update_label": "",
