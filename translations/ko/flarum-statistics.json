@@ -2,7 +2,7 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "통계를 표시할 사용자 정의 날짜 범위를 선택하세요. 활동이 많은 포럼의 경우 데이터 로드에 여러 분이 걸릴 수 있습니다.\n",
+                "description": "통계를 표시할 사용자 정의 날짜 범위를 선택하세요. 활동이 많은 포럼의 경우 \n데이터 로드에 몇 분이 걸릴 수 있습니다.\n",
                 "end_date": "종료 날짜 (포함)",
                 "errors": {
                     "end_before_start": "종료 날짜는 시작 날짜 이후여야 합니다."
@@ -17,12 +17,12 @@
                 "last_12_months_label": "지난 12개월",
                 "last_28_days_label": "지난 28일",
                 "last_7_days_label": "지난 7일",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
+                "mini_heading": "포럼 통계",
+                "previous_28_days_label": "이전 28일",
+                "previous_7_days_label": "이전 7일",
+                "custom_label": "사용자 정의 범위 선택...",
+                "custom_label_specified": "{fromDate}부터 {toDate}까지",
+                "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "오늘",
                 "total_label": "합계",
