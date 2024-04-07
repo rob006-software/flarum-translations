@@ -2,27 +2,27 @@
     "nodeloc-referral": {
         "admin": {
             "settings": {
-                "price": "",
-                "reward": "",
-                "max_number": "",
-                "expires": ""
+                "price": "Ціна",
+                "reward": "Винагорода",
+                "max_number": "Максимальна кількість",
+                "expires": "Закінчується"
             },
             "permissions": {
-                "referral_key": ""
+                "referral_key": "Хто може запросити"
             }
         },
         "forum": {
-            "referral": "",
-            "purchase_invite_code": "",
-            "purchase_help_tip": "",
-            "purchase_max_tip": "",
-            "purchase_expire_tip": "",
-            "create_time": "",
-            "invite_code": "",
-            "count": "",
-            "cost": "",
-            "actives": "",
-            "is_expire": ""
+            "referral": "Реферал",
+            "purchase_invite_code": "Код запрошення на покупку",
+            "purchase_help_tip": "Кожен код запрошення коштує {invite_code_price} енергії. За кожного успішно запрошеного користувача ви отримаєте {invite_code_reward} енергії.",
+            "purchase_max_tip": "Кількість покупок (до {invite_code_max_number} за раз)",
+            "purchase_expire_tip": "Термін дії коду-запрошення закінчується через {invite_code_expires} днів",
+            "create_time": "Створити час",
+            "invite_code": "Код запрошення",
+            "count": "Перерахунок",
+            "cost": "Вартість",
+            "actives": "Активи",
+            "is_expire": "Прострочений?"
         }
     }
 }
