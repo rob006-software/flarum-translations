@@ -11,11 +11,11 @@
             "purge_on_discussion_update_label": "",
             "purge_on_discussion_update_help": "",
             "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "drop_qs_label": "",
-            "drop_qs_help": "",
-            "purge_all": "",
-            "purge_all_success": ""
+            "cache_exclude_help": "이러한 문자열을 포함하는 경로는 캐시되지 않습니다. 예를 들어 <code>/mypath/mypage?aa=bb</code>의 경우 <code>mypage?aa=</code>를 사용할 수 있습니다. 시작 부분을 일치시키려면 시작 부분에 <code>^</code>를 추가하십시오. 정확한 일치를 위해 URL 끝에 <code>$</code>를 추가하십시오. 한 줄에 하나씩입니다.",
+            "drop_qs_label": "쿼리 문자열 제거",
+            "drop_qs_help": "이 기능을 사용하여 캐시할 때 <code>fbclid</code> 또는 <code>utm*</code>과 같은 특정 쿼리 문자열을 제거할 수 있습니다. 이를 통해 추적용으로 사용되지만 페이지 콘텐츠에 영향을 미치지 않는 UTM 코드와 같은 \"잡다한\" 쿼리 문자열이 있는 페이지를 중복 캐싱하는 것을 방지할 수 있습니다. 이 기능을 사용하려면 LSWS v5.2.3 이상이 필요합니다. 제거할 쿼리 문자열을 한 줄에 하나씩 나열하세요. <a>쿼리 문자열 삭제에 대해 자세히 알아보기</a>.<br></br>\n⚠️ 이 설정은 .htaccess 파일을 수정합니다.\n",
+            "purge_all": "모든 LSCache 초기화",
+            "purge_all_success": "LiteSpeed 웹 서버에 모든 LSCache 항목을 초기화하도록 알림"
         }
     }
 }
