@@ -13,34 +13,34 @@
                 "self_edit": "編輯創建的彩票（需要帖子編輯權限）",
                 "self_post_edit": "在自己的貼文上編輯*所有*彩票（需要貼文編輯權限）",
                 "enter": "可以參加抽獎",
-                "canCancelEnter": "",
-                "moderate": ""
+                "canCancelEnter": "可以更改輸入",
+                "moderate": "編輯和刪除彩票"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "lottery_ended": "",
-            "public_lottery": "",
-            "max_votes_allowed": "",
-            "widget-title": "",
-            "days": "",
-            "hours": "",
-            "minutes": "",
-            "seconds": "",
-            "endDateText": "",
-            "hurry_up": "",
-            "had_enter": "",
-            "too_many_participants": "",
+            "days_remaining": "抽獎結束於 {time}。",
+            "no_permission": "您無權進入",
+            "lottery_ended": "本次抽獎活動已結束。",
+            "public_lottery": "查看參與者",
+            "max_votes_allowed": "抽籤允許投票給 {max, plural, one {# option} other {# options}}.",
+            "widget-title": "即將舉行的活動開始於...",
+            "days": "天",
+            "hours": "小時",
+            "minutes": "分鐘",
+            "seconds": "秒",
+            "endDateText": "抽獎結束了！",
+            "hurry_up": "新的「活動」即將來臨！ 我們開始於...",
+            "had_enter": "你已經參加抽獎了。",
+            "too_many_participants": "參與者太多",
             "lottery": {
-                "cannot_cancel_lottery": "",
-                "submit_button": ""
+                "cannot_cancel_lottery": "用戶無法取消參與",
+                "submit_button": "點擊參與"
             },
             "composer_discussion": {
-                "add_lottery": "",
-                "edit_lottery": "",
-                "no_permission_alert": "",
-                "in_queue_alert": ""
+                "add_lottery": "=> nodeloc-lottery.forum.moderation.add",
+                "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
+                "no_permission_alert": "您無權開始抽獎。",
+                "in_queue_alert": "你已經參加抽獎了。"
             },
             "modal": {
                 "add_title": "",
