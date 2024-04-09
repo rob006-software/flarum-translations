@@ -60,8 +60,8 @@
                 "question_placeholder": "Question",
                 "submit": "Submit",
                 "subtitle_placeholder": "Subtitle/Description (Optional)",
-                "delete": "Delete",
-                "error": "Oops! Something went wrong. Please reload the page and try again.",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "Poll Image",
                     "help": "Upload an image to be displayed alongside the poll (optional).",
@@ -95,9 +95,9 @@
             "poll_never_ends": "Poll never ends",
             "answers": "Answers",
             "poll_controls": {
-                "edit_label": "Edit",
-                "delete_label": "Delete",
-                "view_label": "View",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
                 "delete_confirmation": "Are you sure you want to delete this poll?",
                 "delete_success_message": "Poll deleted successfully.",
                 "delete_error_message": "There went something wrong while deleting the poll."
@@ -111,7 +111,7 @@
             },
             "polls_list": {
                 "empty_text": "It looks as though there are no community wide polls here.",
-                "load_more_button": "Load More"
+                "load_more_button": "=> core.ref.load_more"
             },
             "compose": {
                 "add_title": "Add a Poll",
