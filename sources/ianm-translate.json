@@ -4,7 +4,8 @@
             "permission": {
                 "refresh-translation": "Force a re-translate of a cached translation",
                 "translate-to-locale": "View translation in current locale",
-                "translate-to-all-locales": "View translation in any forum locale"
+                "translate-to-all-locales": "View translation in any forum locale",
+                "edit-translation": "Manually edit a translation"
             },
             "settings": {
                 "deepl": {
@@ -42,6 +43,8 @@
                 "bind-browser-language-help": "When enabled, the user's browser language(s) will be added to the list of languages available for translation.",
                 "use-native-locale-names": "Use native locale names",
                 "use-native-locale-names-help": "When enabled, the native locale name will be used instead of the current locale version of the name.",
+                "translate-polls": "Translate polls",
+                "translate-polls-help": "When enabled, polls titles, subtitle, image alt text and answer options will be translated automatically when a poll is created or edited.",
                 "provider": "Translation provider",
                 "readme-info": "See the README documention for extended information.",
                 "readme-none": "No additional settings are required for this driver."
