@@ -2,27 +2,27 @@
     "nodeloc-referral": {
         "admin": {
             "settings": {
-                "price": "",
-                "reward": "",
-                "max_number": "",
-                "expires": ""
+                "price": "Prix",
+                "reward": "Récompense",
+                "max_number": "Nombre maximum",
+                "expires": "Expiration"
             },
             "permissions": {
-                "referral_key": ""
+                "referral_key": "Qui peut inviter"
             }
         },
         "forum": {
-            "referral": "",
-            "purchase_invite_code": "",
-            "purchase_help_tip": "",
-            "purchase_max_tip": "",
-            "purchase_expire_tip": "",
-            "create_time": "",
-            "invite_code": "",
-            "count": "",
-            "cost": "",
-            "actives": "",
-            "is_expire": ""
+            "referral": "Référence",
+            "purchase_invite_code": "Acheter un code d'invitation",
+            "purchase_help_tip": "Chaque code d'invitation coûte {invite_code_price} énergie(s). Pour chaque utilisateur invité avec succès, vous recevrez {invite_code_reward} énergie(s).",
+            "purchase_max_tip": "Acheter en quantité (jusqu'à {invite_code_max_number} à la fois)",
+            "purchase_expire_tip": "Le code d'invitation expirera dans {invite_code_expires} jour(s)",
+            "create_time": "Créer du temps",
+            "invite_code": "Code d'invitation",
+            "count": "Compte à rebours",
+            "cost": "Coût",
+            "actives": "Actifs",
+            "is_expire": "Expiré ?"
         }
     }
 }
