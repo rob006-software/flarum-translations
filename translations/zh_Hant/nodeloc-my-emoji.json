@@ -34,66 +34,66 @@
                     "activities": "=> nodeloc-emoji.ref.emoji_categories.activities",
                     "objects": "=> nodeloc-emoji.ref.emoji_categories.objects",
                     "symbols": "=> nodeloc-emoji.ref.emoji_categories.symbols",
-                    "flags": ""
+                    "flags": "=> nodeloc-emoji.ref.emoji_categories.flags"
                 }
             },
             "my_emoji_section": {
-                "heading_title": "",
-                "import_json_button": "",
-                "export_json_button": "",
-                "import_myemoji_message": "",
+                "heading_title": "自訂表情符號",
+                "import_json_button": "導入 JSON",
+                "export_json_button": "導出 JSON",
+                "import_myemoji_message": "這將僅導入表情符號配置。 您需要手動上傳表情符號圖像。",
                 "edit_emoji": {
-                    "emoji_category_label": "",
-                    "text_to_category_name_label": "",
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "submit_button": "",
-                    "delete_emoji_button": "",
-                    "saved_message": ""
+                    "emoji_category_label": "類別代碼",
+                    "text_to_category_name_label": "分類名稱",
+                    "modal_title": "加入表情符號",
+                    "emoji_title_label": "表情符號標題",
+                    "delete_emoji_confirmation": "您確定要刪除此表情符號嗎？",
+                    "text_to_replace_label": "要替換的文字",
+                    "path_or_url_label": "路徑或網址",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "刪除表情符號",
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "插入表情符號"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_myemoji_found_message": "",
+                "search_placeholder": "搜尋表情符號",
+                "no_myemoji_found_message": "未找到表情符號",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "recents": "=> nodeloc-emoji.ref.emoji_categories.recents",
+                    "smileys": "=> nodeloc-emoji.ref.emoji_categories.smileys",
+                    "people": "=> nodeloc-emoji.ref.emoji_categories.people",
+                    "animals": "=> nodeloc-emoji.ref.emoji_categories.animals",
+                    "food": "=> nodeloc-emoji.ref.emoji_categories.food",
+                    "travel": "=> nodeloc-emoji.ref.emoji_categories.travel",
+                    "activities": "=> nodeloc-emoji.ref.emoji_categories.activities",
+                    "objects": "=> nodeloc-emoji.ref.emoji_categories.objects",
+                    "symbols": "=> nodeloc-emoji.ref.emoji_categories.symbols",
+                    "flags": "=> nodeloc-emoji.ref.emoji_categories.flags",
+                    "custom": "=> nodeloc-emoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "recents": "",
-                "smileys": "",
-                "people": "",
-                "animals": "",
-                "food": "",
-                "travel": "",
-                "activities": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
-                "custom": ""
+                "recents": "最近的表情符號",
+                "smileys": "表情與情感",
+                "people": "人與身體",
+                "animals": "動物與自然",
+                "food": "食物和飲料",
+                "travel": "旅行與地點",
+                "activities": "活動",
+                "objects": "物件",
+                "symbols": "符號",
+                "flags": "旗幟",
+                "custom": "風俗"
             }
         }
     }
