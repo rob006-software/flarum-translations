@@ -5,7 +5,7 @@
                 "refresh-translation": "強制重新翻譯緩存的翻譯",
                 "translate-to-locale": "查看目前語言環境的翻譯",
                 "translate-to-all-locales": "在任何論壇語言環境中查看翻譯",
-                "edit-translation": ""
+                "edit-translation": "手動編輯翻譯"
             },
             "settings": {
                 "deepl": {
@@ -43,8 +43,8 @@
                 "bind-browser-language-help": "啟用後，使用者的瀏覽器語言將被增加到可用於翻譯的語言清單中。",
                 "use-native-locale-names": "使用本機區域設置名稱",
                 "use-native-locale-names-help": "啟用後，將使用本機區域設置名稱，而不是名稱的目前區域設置版本。",
-                "translate-polls": "",
-                "translate-polls-help": "",
+                "translate-polls": "翻譯民意調查",
+                "translate-polls-help": "啟用後，建立或編輯投票時，投票標題、副標題、圖像替代文字和答案選項將自動翻譯。",
                 "provider": "翻譯提供商",
                 "readme-info": "有關擴充套件資訊，請參閱 README 檔案。",
                 "readme-none": "該驅動程式不需要額外的設置。"
@@ -59,14 +59,14 @@
                 "translations-label": "翻譯",
                 "button-label": "管理翻譯",
                 "poll": {
-                    "image-alt": "",
-                    "option": "",
-                    "original-title": "",
-                    "subtitle": "",
-                    "title": "",
-                    "question": ""
+                    "image-alt": "投票圖像 ALT 文字（如果有）",
+                    "option": "投票選項 {number}",
+                    "original-title": "原始語言",
+                    "subtitle": "投票字幕",
+                    "title": "管理投票翻譯",
+                    "question": "投票問題"
                 },
-                "save-changes": ""
+                "save-changes": "=> core.ref.save_changes"
             },
             "discussion": {
                 "post": {
