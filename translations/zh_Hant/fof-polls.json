@@ -60,8 +60,8 @@
                 "question_placeholder": "問題",
                 "submit": "送出",
                 "subtitle_placeholder": "副標題/描述（可選）",
-                "delete": "刪除",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "投票圖片",
                     "help": "上傳要在投票旁邊顯示的圖像（可選）。",
@@ -69,8 +69,8 @@
                     "alt_help_text": "設定圖像時需要此文本，如果圖像載入失敗，則會顯示該文字。"
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "投票答案圖片",
+                    "help": "上傳要與投票答案一起顯示的圖像（可選）。"
                 },
                 "tooltip": {
                     "options": {
@@ -95,9 +95,9 @@
             "poll_never_ends": "民調永遠不會結束",
             "answers": "答案",
             "poll_controls": {
-                "edit_label": "編輯",
-                "delete_label": "刪除",
-                "view_label": "看法",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
                 "delete_confirmation": "您確定要刪除此投票嗎？",
                 "delete_success_message": "投票刪除成功。",
                 "delete_error_message": "刪除投票時出現問題。"
@@ -107,11 +107,11 @@
                 "error": "儲存投票時出錯，請聯絡管理員。"
             },
             "polls_page": {
-                "title": ""
+                "title": "民調"
             },
             "polls_list": {
                 "empty_text": "看起來這裡好像沒有社區範圍內的民調。",
-                "load_more_button": "加載更多"
+                "load_more_button": "=> core.ref.load_more"
             },
             "compose": {
                 "add_title": "新增投票",
