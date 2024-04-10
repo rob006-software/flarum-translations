@@ -43,59 +43,59 @@
                 "in_queue_alert": "你已經參加抽獎了。"
             },
             "modal": {
-                "add_title": "",
-                "lottery_placeholder": "",
-                "price": "",
-                "amount": "",
-                "min_participants": "",
-                "max_participants": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_prizes": "",
-                "include_price": "",
-                "include_amount": "",
-                "include_end_date": "",
-                "max": "",
-                "min": "",
-                "no_participants": "",
-                "option_placeholder": "",
-                "image_option_placeholder": "",
-                "options_label": "",
-                "public_lottery_label": "",
-                "allow_multiple_votes_label": "",
-                "participants_label": "",
-                "participants_help": "",
-                "hide_votes_label": "",
-                "allow_cancel_enter_label": "",
-                "submit": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": "",
-                "money": "",
-                "lotteries_made": "",
-                "not_enough": ""
+                "add_title": "添加抽獎",
+                "lottery_placeholder": "獎品",
+                "price": "價格",
+                "amount": "數量",
+                "min_participants": "最少參與者",
+                "max_participants": "最大參與者數",
+                "add_option_label": "新增一個選項",
+                "date_placeholder": "開獎時間",
+                "edit_title": "編輯彩票",
+                "include_prizes": "您必須包含獎品",
+                "include_price": "您必須包含價格",
+                "include_amount": "您必須填寫金額",
+                "include_end_date": "您必須包含結束日期",
+                "max": "您最多可以有 {max} 個答案",
+                "min": "您必須至少包含 2 個答案",
+                "no_participants": "沒有參加者",
+                "option_placeholder": "臨界點",
+                "image_option_placeholder": "圖片網址（可選）",
+                "options_label": "限制條件",
+                "public_lottery_label": "允許人們查看誰投票了",
+                "allow_multiple_votes_label": "允許人們輸入多個選項",
+                "participants_label": "參加者",
+                "participants_help": "參加人數太少則取消，超過最大人數則禁止參加。",
+                "hide_votes_label": "隱藏選票至抽籤結束",
+                "allow_cancel_enter_label": "允許用戶取消參與",
+                "submit": "提交",
+                "discussions_started": "討論開始",
+                "posts_made": "發表的帖子",
+                "likes_given": "給予喜歡",
+                "likes_received": "收到的按讚數",
+                "best_answers": "最佳答案",
+                "moderator_strikes": "主持人罷工",
+                "money": "錢",
+                "lotteries_made": "抽獎開始了",
+                "not_enough": "不夠"
             },
             "moderation": {
-                "add": "",
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "add": "添加抽獎",
+                "delete": "刪除彩券",
+                "delete_confirm": "您確定要刪除此彩券嗎？",
+                "edit": "編輯彩票"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "抽籤",
+                "votes": "{count, plural, one {# enter} other {# votes}}"
             },
             "participants_modal": {
-                "title": ""
+                "title": "參加者"
             }
         },
         "email": {
             "subject": {
-                "drawLottery": ""
+                "drawLottery": "抽獎通知"
             }
         }
     }
