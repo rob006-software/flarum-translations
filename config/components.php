@@ -173,7 +173,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
 	],
 	'clamours-music-link-preview' => [
-		'tag' => 'https://raw.githubusercontent.com/Clamours/flarum-music-link-preview/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Clamours/flarum-music-link-preview/master/locale/en.yml',
 	],
 	'clarkwinkelmann-anonymous-posting' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-anonymous-posting/1.1.1/locale/en.yml',
