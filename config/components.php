@@ -1152,7 +1152,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-my-emoji/1.0.1/locale/en.yml',
 	],
 	'nodeloc-read-permission' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-read-permission/0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-read-permission/0.4/locale/en.yml',
 	],
 	'nodeloc-referral' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-referral/0.0.1/locale/en.yml',
