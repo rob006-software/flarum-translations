@@ -30,6 +30,13 @@
                     "reset_vapid_confirm": "La réinitialisation des clés VAPID supprimera tous les abonnements utilisant les clés existantes, de sorte que les utilisateurs ne recevront aucune notification avant leur prochaine visite sur votre site. Cela ne doit être fait que lors de la configuration des notifications push pour la première fois, ou si les notifications push ne fonctionnent pas du tout et qu'il y a un avertissement concernant les clés VAPID manquantes ci-dessus.",
                     "reset_vapid_success": "Les clés VAPID ont été réinitialisées avec succès. {count} abonnements ont été réinitialisés. Veuillez recharger la page pour voir un rapport de contrôle d'état mis à jour."
                 },
+                "firebase_config": {
+                    "heading": "",
+                    "help_text": "",
+                    "see_documentation_here": "",
+                    "upload_successful": "",
+                    "upload_file": ""
+                },
                 "other": {
                     "heading": "Autre",
                     "force_portrait_text": "Forcer l'orientation en mode portrait ?",

@@ -30,6 +30,13 @@
                     "reset_vapid_confirm": "A VAPID-kulcsok visszaállítása eltávolítja a meglévő kulcsokat használó feliratkozásokat, így a felhasználók nem kapnak értesítést a webhely következő látogatásáig. Ezt csak a leküldéses értesítések első beállításakor szabad megtenni, vagy ha a leküldéses értesítések egyáltalán nem működnek, és fent figyelmeztetés jelenik meg a hiányzó VAPID-kulcsokról.",
                     "reset_vapid_success": "Sikeresen visszaállította a VAPID-kulcsokat. {count} feliratkozás visszaállítva. Töltse be újra az oldalt a frissített állapotellenőrzési jelentés megtekintéséhez."
                 },
+                "firebase_config": {
+                    "heading": "",
+                    "help_text": "",
+                    "see_documentation_here": "",
+                    "upload_successful": "",
+                    "upload_file": ""
+                },
                 "other": {
                     "heading": "Egyéb",
                     "force_portrait_text": "Fekvő elrendezés kényszerítése?",

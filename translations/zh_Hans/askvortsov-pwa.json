@@ -30,6 +30,13 @@
                     "reset_vapid_confirm": "重置 VAPID 密钥将删除使用现有密钥的订阅，在用户下次访问网站前，将无法收到任何通知。您应当仅在首次设置推送通知、推送通知完全不工作，或出现 VAPID 密钥缺失警告时进行重置。",
                     "reset_vapid_success": "VAPID 密钥重置成功，已重置 {count} 个订阅。刷新页面以查看最新状态检查报告。"
                 },
+                "firebase_config": {
+                    "heading": "",
+                    "help_text": "",
+                    "see_documentation_here": "",
+                    "upload_successful": "",
+                    "upload_file": ""
+                },
                 "other": {
                     "heading": "其他",
                     "force_portrait_text": "强制重定向?",

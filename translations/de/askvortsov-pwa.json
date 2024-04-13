@@ -31,6 +31,13 @@
                     "reset_vapid_confirm": "Durch das Zurücksetzen von VAPID-Schlüsseln werden alle Abonnements entfernt, die die vorhandenen Schlüssel verwenden, sodass Benutzer keine Benachrichtigungen erhalten, bis sie Deine Website das nächste Mal besuchen. Dies sollte nur beim erstmaligen Einrichten von Push-Benachrichtigungen erfolgen oder wenn Push-Benachrichtigungen überhaupt nicht funktionieren und oben eine Warnung zu fehlenden VAPID-Schlüsseln angezeigt wird.",
                     "reset_vapid_success": "VAPID-Schlüssel erfolgreich zurückgesetzt. {count} Abonnements wurden zurückgesetzt. Lade die Seite neu, um einen aktualisierten Statusprüfbericht anzuzeigen."
                 },
+                "firebase_config": {
+                    "heading": "",
+                    "help_text": "",
+                    "see_documentation_here": "",
+                    "upload_successful": "",
+                    "upload_file": ""
+                },
                 "other": {
                     "heading": "Anderes",
                     "force_portrait_text": "Porträt-Orientierung erzwingen",

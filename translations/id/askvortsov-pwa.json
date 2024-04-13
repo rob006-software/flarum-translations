@@ -30,6 +30,13 @@
                     "reset_vapid_confirm": "Mengatur ulang VAPID key akan menghapus semua subscription yang menggunakan key yang ada, sehingga pengguna tidak akan menerima notifikasi apa pun hingga saat mereka mengunjungi situs Anda lagi. Hal ini hanya boleh dilakukan saat menyiapkan push notification untuk pertama kalinya, atau jika push notification tidak berfungsi sama sekali dan terdapat peringatan tentang hilangnya VAPID key di atas.",
                     "reset_vapid_success": "VAPID key berhasil diatur ulang. {count} subscription telah diatur ulang. Muat ulang halaman untuk melihat laporan pemeriksaan status yang diperbarui."
                 },
+                "firebase_config": {
+                    "heading": "",
+                    "help_text": "",
+                    "see_documentation_here": "",
+                    "upload_successful": "",
+                    "upload_file": ""
+                },
                 "other": {
                     "heading": "Lainnya",
                     "force_portrait_text": "",
