@@ -1185,6 +1185,8 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`xelson-chat`](https://weblate.rob006.net/projects/flarum/xelson-chat) | [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) |
 | [`xrh0905-oauth-microsoft`](https://weblate.rob006.net/projects/flarum/xrh0905-oauth-microsoft) | [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft) |
 | [`xsoft-ict-mason-tag`](https://weblate.rob006.net/projects/flarum/xsoft-ict-mason-tag) | [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag) |
+| [`yippy-auth-ldap`](https://weblate.rob006.net/projects/flarum/yippy-auth-ldap) | [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap) |
+| [`yippy-tag-with-themes`](https://weblate.rob006.net/projects/flarum/yippy-tag-with-themes) | [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes) |
 | [`ziiven-daily-check-in`](https://weblate.rob006.net/projects/flarum/ziiven-daily-check-in) | [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in) |
 | [`ziiven-fireworks`](https://weblate.rob006.net/projects/flarum/ziiven-fireworks) | [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks) |
 | [`ziiven-money-leaderboard`](https://weblate.rob006.net/projects/flarum/ziiven-money-leaderboard) | [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard) |
