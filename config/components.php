@@ -1313,6 +1313,9 @@ return [
 	'xsoft-ict-mason-tag' => [
 		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',
 	],
+	'yippy-auth-ldap' => [
+		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v0.0.2/locale/en.yml',
+	],
 	'ziiven-daily-check-in' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.7/locale/en.yml',
 	],
