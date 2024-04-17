@@ -60,8 +60,8 @@
                 "question_placeholder": "Question",
                 "submit": "Envoyer",
                 "subtitle_placeholder": "Sous-titre ou description (facultatif)",
-                "delete": "Supprimer",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "Image du sondage",
                     "help": "Transférez une image à afficher à côté du sondage (facultatif).",
@@ -95,9 +95,9 @@
             "poll_never_ends": "Le sondage ne se termine jamais",
             "answers": "Réponses",
             "poll_controls": {
-                "edit_label": "Modifier",
-                "delete_label": "Supprimer",
-                "view_label": "Voir",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
                 "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce sondage ?",
                 "delete_success_message": "Le sondage a été supprimé.",
                 "delete_error_message": "Un problème est survenu lors de la suppression du sondage."
@@ -111,7 +111,7 @@
             },
             "polls_list": {
                 "empty_text": "Il semble qu'il n'y ait pas de sondage communautaire ici.",
-                "load_more_button": "Charger plus"
+                "load_more_button": "=> core.ref.load_more"
             },
             "compose": {
                 "add_title": "Ajouter un sondage",

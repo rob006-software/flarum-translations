@@ -60,8 +60,8 @@
                 "question_placeholder": "Питання",
                 "submit": "Відправити",
                 "subtitle_placeholder": "Субтитри/опис (необов'язково)",
-                "delete": "Видалити",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "Зображення опитування",
                     "help": "Завантажте зображення, яке буде відображатися поряд з опитуванням (необов'язково).",
@@ -95,9 +95,9 @@
             "poll_never_ends": "Опитування ніколи не закінчується",
             "answers": "Відповіді",
             "poll_controls": {
-                "edit_label": "Редагувати",
-                "delete_label": "Видалити",
-                "view_label": "Переглянути",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
                 "delete_confirmation": "Ви дійсно хочете видалити це опитування?",
                 "delete_success_message": "Опитування успішно видалено.",
                 "delete_error_message": "Під час видалення опитування щось пішло не так."
@@ -111,7 +111,7 @@
             },
             "polls_list": {
                 "empty_text": "Схоже, що тут не проводяться опитування думки спільноти.",
-                "load_more_button": "Завантажити більше"
+                "load_more_button": "=> core.ref.load_more"
             },
             "compose": {
                 "add_title": "Додати опитування",
