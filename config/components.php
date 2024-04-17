@@ -1314,7 +1314,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',
 	],
 	'yippy-tag-with-themes' => [
-		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v1.0.2/locale/en.yml',
 	],
 	'ziiven-daily-check-in' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.7/locale/en.yml',
