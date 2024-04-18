@@ -7,7 +7,8 @@
             "page": {
                 "index": "home",
                 "clients": "Manage Clients",
-                "scopes": "Manage Scopes"
+                "scopes": "Manage Scopes",
+                "tokens": "Manage Tokens"
             },
             "settings": {
                 "display_mode": "Display Mode",
@@ -38,8 +39,13 @@
                 "scope_name": "Name",
                 "scope_icon": "Icon",
                 "scope_desc": "Description",
+                "visible_fields": "Visible Fields",
                 "add_button": "Add Scope",
                 "edit_scope": "Edit Scope"
+            },
+            "tokens": {
+                "add_token": "Add Token",
+                "delete_token": "Delete Token"
             }
         },
         "forum": {

@@ -7,7 +7,8 @@
             "page": {
                 "index": "accueil",
                 "clients": "Gérer les clients",
-                "scopes": "Gérer les champs d'application"
+                "scopes": "Gérer les champs d'application",
+                "tokens": ""
             },
             "settings": {
                 "display_mode": "Mode d'affichage",
@@ -38,8 +39,13 @@
                 "scope_name": "Nom",
                 "scope_icon": "Icône",
                 "scope_desc": "Description",
+                "visible_fields": "",
                 "add_button": "Ajouter un champ d'application",
                 "edit_scope": "Modifier le champ d'application"
+            },
+            "tokens": {
+                "add_token": "",
+                "delete_token": ""
             }
         },
         "forum": {

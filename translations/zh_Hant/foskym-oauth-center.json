@@ -7,7 +7,8 @@
             "page": {
                 "index": "家園",
                 "clients": "管理客戶",
-                "scopes": "管理範圍"
+                "scopes": "管理範圍",
+                "tokens": ""
             },
             "settings": {
                 "display_mode": "顯示模式",
@@ -38,8 +39,13 @@
                 "scope_name": "名稱",
                 "scope_icon": "圖示",
                 "scope_desc": "描述",
+                "visible_fields": "",
                 "add_button": "增加範圍",
                 "edit_scope": "編輯範圍"
+            },
+            "tokens": {
+                "add_token": "",
+                "delete_token": ""
             }
         },
         "forum": {
