@@ -1,57 +1,57 @@
 {
     "yippy-auth-ldap": {
         "forum": {
-            "account_found": "",
-            "log_in_with": "",
-            "log_out": "",
+            "account_found": "Compte trouvé dans {server}",
+            "log_in_with": "Se connecter avec {server}",
+            "log_out": "=> core.ref.log_out",
             "errors": {
-                "core_csrf_token_mismatch": "",
-                "search_filter_is_invalid": "",
-                "not_authenticated": "",
-                "csrf_token_mismatch": "",
+                "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
+                "search_filter_is_invalid": "Impossible de rechercher le filtre pour {server} en raison de `champs de recherche LDAP` non valides, veuillez modifier les paramètres de l'extension.",
+                "not_authenticated": "Impossible de lier {server} en raison d'un identifiant non valide, veuillez modifier les paramètres de l'extension.",
+                "csrf_token_mismatch": "Vous avez été inactif pendant trop longtemps, veuillez rafraîchir la page et réessayer",
                 "domains": {
-                    "no_domains": "",
-                    "empty_host": "",
-                    "empty_base_dn": "",
-                    "empty_user_username": "",
-                    "empty_search_field": "",
-                    "username_field_does_not_exist": "",
-                    "mail_field_does_not_exist": ""
+                    "no_domains": "Les paramètres d'administration n'ont pas de domaines définis, veuillez modifier les paramètres d'extension.",
+                    "empty_host": "Le domaine {domain_index} n'a pas de domaines ou d'adresses IP de serveur définis, veuillez modifier les paramètres d'extension.",
+                    "empty_base_dn": "Le domaine {domain_index} n'a pas de DN de base défini, veuillez modifier les paramètres d'extension.",
+                    "empty_user_username": "Le domaine {domain_index} a un profil d'utilisateur Flarum - 'champ nom d'utilisateur' vide, veuillez modifier les paramètres de l'extension.",
+                    "empty_search_field": "Le domaine {domain_index} a une recherche de compte LDAP - 'champ de recherche' vide, veuillez modifier les paramètres de l'extension.",
+                    "username_field_does_not_exist": "Le domaine {domain_index} ne trouve pas le nom d'utilisateur pour le profil utilisateur Flarum - `champ nom d'utilisateur` avec `{data}`, veuillez modifier les paramètres de l'extension.",
+                    "mail_field_does_not_exist": "Le domaine {domain_index} ne trouve pas de courrier pour le profil utilisateur Flarum - `champ adresse de courriel` avec `{data}`, veuillez modifier les paramètres de l'extension."
                 },
                 "account": {
-                    "invalid_inputs": "",
-                    "not_found": "",
-                    "incorrect_details": "",
-                    "password_expired": "",
-                    "disabled": "",
-                    "expired": "",
-                    "locked": ""
+                    "invalid_inputs": "Les champs de saisie ne peuvent pas être vides",
+                    "not_found": "Impossible de trouver votre compte dans {server}.",
+                    "incorrect_details": "Mot de passe incorrect.",
+                    "password_expired": "Votre mot de passe a expiré.",
+                    "disabled": "Votre compte est désactivé, veuillez contacter l'administration de votre {server}.",
+                    "expired": "Votre compte a expiré, veuillez contacter l'administration de votre {server}.",
+                    "locked": "Votre compte est verrouillé, veuillez contacter l'administration de votre {server}."
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "method_name": "",
+                "title": "Paramètres LDAP",
+                "method_name": "Nom du serveur LDAP (apparaîtra après « Se connecter avec »)",
                 "domains": {
-                    "title": "",
-                    "description": "",
-                    "add": "",
-                    "banner": "",
+                    "title": "Domaines LDAP",
+                    "description": "Saisissez tous les domaines LDAP disponibles que Flarum doit utiliser pour se connecter",
+                    "add": "Ajouter un domaine",
+                    "banner": "Domaine {index}",
                     "header": {
-                        "server": "",
-                        "admin": "",
-                        "search_fields": "",
-                        "search_fields_description": "",
-                        "flarum": "",
-                        "flarum_description": ""
+                        "server": "Paramètres du serveur LDAP",
+                        "admin": "Administrateur LDAP",
+                        "search_fields": "Recherche de compte LDAP",
+                        "search_fields_description": "Créer une liste de champs LDAP à comparer avec le nom d'utilisateur fourni par l'utilisateur.",
+                        "flarum": "Profil de l'utilisateur Flarum",
+                        "flarum_description": "Lorsque le compte LDAP a été trouvé, vous pouvez attribuer les champs correspondants au profil d'utilisateur Flarum lors de l'enregistrement."
                     },
                     "data": {
-                        "host": "",
-                        "host_help": "",
-                        "base_dn": "",
-                        "base_dn_help": "",
-                        "filter": "",
+                        "host": "Domaines ou adresses IP des serveurs",
+                        "host_help": "Séparés par une virgule",
+                        "base_dn": "Noms de domaine de la base",
+                        "base_dn_help": "Séparés par un point-virgule",
+                        "filter": "Filtre à appliquer",
                         "filter_help": "",
                         "port": "",
                         "port_help": "",
