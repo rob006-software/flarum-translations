@@ -2,100 +2,100 @@
     "nodeloc-lottery": {
         "admin": {
             "settings": {
-                "allow_option_image": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": ""
+                "allow_option_image": "Autoriser la fourniture d'une URL d'image pour chaque option de loterie",
+                "max_options": "Nombre maximum d'options par loterie",
+                "options_color_blend": "Mélange de couleurs du texte dans les options de loterie",
+                "options_color_blend_help": "Utilisez cette option pour mélanger les couleurs afin de rendre les options de la loterie plus lisibles. Désactivez cette option si elle provoque des problèmes d'apparence sur votre forum, en réduisant la lisibilité."
             },
             "permissions": {
-                "view_results_without_Enter": "",
-                "start": "",
-                "self_edit": "",
-                "self_post_edit": "",
-                "enter": "",
-                "canCancelEnter": "",
-                "moderate": ""
+                "view_results_without_Enter": "Voir les résultats sans voter",
+                "start": "Démarrer une loterie",
+                "self_edit": "Modifier les loteries créées (nécessite l'autorisation de modifier les messages)",
+                "self_post_edit": "Modifier *toutes* les loteries sur ses propres messages (nécessite l'autorisation de modifier les messages)",
+                "enter": "Peut participer à une loterie",
+                "canCancelEnter": "Peut changer d'entrée",
+                "moderate": "Modifier et supprimer les loteries"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "lottery_ended": "",
-            "public_lottery": "",
-            "max_votes_allowed": "",
-            "widget-title": "",
-            "days": "",
-            "hours": "",
-            "minutes": "",
-            "seconds": "",
-            "endDateText": "",
-            "hurry_up": "",
-            "had_enter": "",
-            "too_many_participants": "",
+            "days_remaining": "la loterie se termine à {time}.",
+            "no_permission": "Vous n'avez pas l'autorisation d'entrer",
+            "lottery_ended": "Cette loterie est terminée.",
+            "public_lottery": "Voir les participants",
+            "max_votes_allowed": "la loterie vous permet de voter pour {max, plural, one {# option} other {# options}}.",
+            "widget-title": "Les événements à venir commencent…",
+            "days": "Jours",
+            "hours": "Heures",
+            "minutes": "Minutes",
+            "seconds": "Secondes",
+            "endDateText": "La loterie est terminée !",
+            "hurry_up": "Le nouvel « événement » est proche ! Nous commençons dans…",
+            "had_enter": "Vous devez participer à la loterie.",
+            "too_many_participants": "Trop de participants",
             "lottery": {
-                "cannot_cancel_lottery": "",
-                "submit_button": ""
+                "cannot_cancel_lottery": "Les utilisateurs ne peuvent pas annuler leur participation",
+                "submit_button": "Cliquez pour participer"
             },
             "composer_discussion": {
-                "add_lottery": "",
-                "edit_lottery": "",
-                "no_permission_alert": "",
-                "in_queue_alert": ""
+                "add_lottery": "=> nodeloc-lottery.forum.moderation.add",
+                "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
+                "no_permission_alert": "Vous n'avez pas l'autorisation de démarrer une loterie.",
+                "in_queue_alert": "Vous devez participer à la loterie."
             },
             "modal": {
-                "add_title": "",
-                "lottery_placeholder": "",
-                "price": "",
-                "amount": "",
-                "min_participants": "",
-                "max_participants": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_prizes": "",
-                "include_price": "",
-                "include_amount": "",
-                "include_end_date": "",
-                "max": "",
-                "min": "",
-                "no_participants": "",
-                "option_placeholder": "",
-                "image_option_placeholder": "",
-                "options_label": "",
-                "public_lottery_label": "",
-                "allow_multiple_votes_label": "",
-                "participants_label": "",
-                "participants_help": "",
-                "hide_votes_label": "",
-                "allow_cancel_enter_label": "",
-                "submit": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": "",
-                "money": "",
-                "lotteries_made": "",
-                "not_enough": ""
+                "add_title": "Ajouter une loterie",
+                "lottery_placeholder": "Prix",
+                "price": "Prix",
+                "amount": "Montant",
+                "min_participants": "Nombre minimum de participants",
+                "max_participants": "Nombre maximum de participants",
+                "add_option_label": "Ajouter une option",
+                "date_placeholder": "Durée du tirage au sort",
+                "edit_title": "Modifier la loterie",
+                "include_prizes": "Vous devez inclure un prix",
+                "include_price": "Vous devez inclure un prix",
+                "include_amount": "Vous devez inclure un montant",
+                "include_end_date": "Vous devez inclure une date de fin",
+                "max": "Vous pouvez avoir un maximum de {max} réponses",
+                "min": "Vous devez inclure un minimum de 2 réponses",
+                "no_participants": "Aucun participant",
+                "option_placeholder": "Seuil",
+                "image_option_placeholder": "URL de l'image (facultatif)",
+                "options_label": "Conditions restrictives",
+                "public_lottery_label": "Permettre de voir qui a voté",
+                "allow_multiple_votes_label": "Permettre d'entrer pour des options multiples",
+                "participants_label": "Participants",
+                "participants_help": "Annuler si le nombre de participants est insuffisant, et interdire la participation si le nombre maximum est dépassé.",
+                "hide_votes_label": "Masquer les votes jusqu'à la fin de la loterie",
+                "allow_cancel_enter_label": "Permettre aux utilisateurs d'annuler leur participation",
+                "submit": "Envoyer",
+                "discussions_started": "Discussions démarrées",
+                "posts_made": "Messages créés",
+                "likes_given": "« J'aime » donnés",
+                "likes_received": "« J'aime » reçus",
+                "best_answers": "Meilleures réponses",
+                "moderator_strikes": "Frappes des modérateurs",
+                "money": "Argent",
+                "lotteries_made": "Les loteries ont démarré",
+                "not_enough": "Insuffisant"
             },
             "moderation": {
-                "add": "",
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "add": "Ajouter une loterie",
+                "delete": "Supprimer la loterie",
+                "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette loterie ?",
+                "edit": "Modifier la loterie"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "loterie",
+                "votes": "{count, plural, one {# vote} other {# votes}}"
             },
             "participants_modal": {
-                "title": ""
+                "title": "Participants"
             }
         },
         "email": {
             "subject": {
-                "drawLottery": ""
+                "drawLottery": "Notification du tirage au sort"
             }
         }
     }
