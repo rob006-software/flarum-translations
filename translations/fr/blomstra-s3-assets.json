@@ -8,35 +8,35 @@
                 "s3-compatible-section-help": "Laissez ces paramètres vides si vous utilisez AWS S3",
                 "s3key": {
                     "label": "Clé",
-                    "help": "aide"
+                    "help": "Clé d'accès S3"
                 },
                 "s3secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "Clé secrète",
+                    "help": "Clé secrète d'accès S3"
                 },
                 "s3region": {
-                    "label": "",
-                    "help": ""
+                    "label": "Région",
+                    "help": "Région S3"
                 },
                 "s3bucket": {
-                    "label": "",
-                    "help": ""
+                    "label": "Espace de stockage mémoire",
+                    "help": "Espace de stockage mémoire S3"
                 },
                 "s3acl": {
-                    "label": "",
-                    "help": ""
+                    "label": "ACL",
+                    "help": "Spécifier l'ACL pour cet espace de stockage mémoire"
                 },
                 "s3url": {
-                    "label": "",
-                    "help": ""
+                    "label": "URL",
+                    "help": "URL S3"
                 },
                 "s3endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "Point d'accès",
+                    "help": "Point d'accès S3"
                 },
                 "s3path-style-endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "Chemin du point d'accès de style S3",
+                    "help": "Passer au chemin de stockage du style"
                 }
             }
         }
