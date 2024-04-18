@@ -31,11 +31,11 @@
                     "reset_vapid_success": "VAPID 密钥重置成功，已重置 {count} 个订阅。刷新页面以查看最新状态检查报告。"
                 },
                 "firebase_config": {
-                    "heading": "",
-                    "help_text": "",
-                    "see_documentation_here": "",
-                    "upload_successful": "",
-                    "upload_file": ""
+                    "heading": "Firebase",
+                    "help_text": "为了使您的应用在发布到 Apple App Store 时支持 Push 消息推送，您需要使用 Firebase 添加 Push 消息推送到您的应用。请生成您的 Firebase Service Config 并上传到此处。",
+                    "see_documentation_here": "在此查看文档",
+                    "upload_successful": "您的 Firebase Config 已成功上传",
+                    "upload_file": "上传文件"
                 },
                 "other": {
                     "heading": "其他",
