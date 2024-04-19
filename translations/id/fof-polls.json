@@ -59,14 +59,14 @@
                 "allow_change_vote_label": "Izinkan pengguna untuk mengubah vote mereka",
                 "question_placeholder": "Pertanyaan",
                 "submit": "Submit",
-                "subtitle_placeholder": "",
-                "delete": "",
-                "error": "",
+                "subtitle_placeholder": "Teks/Deskripsi (Opsional)",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "",
                     "help": "",
                     "alt_label": "",
-                    "alt_help_text": ""
+                    "alt_help_text": "Teks ini diperlukan apabila gambar diatur, dan akan ditampilkan jika gambar gagal dimuat."
                 },
                 "poll_option_image": {
                     "label": "",
@@ -95,9 +95,9 @@
             "poll_never_ends": "",
             "answers": "",
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
                 "delete_confirmation": "",
                 "delete_success_message": "",
                 "delete_error_message": ""
@@ -111,14 +111,14 @@
             },
             "polls_list": {
                 "empty_text": "",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "compose": {
                 "add_title": "",
                 "edit_title": "",
                 "polls_manager": "",
                 "polls_preview": "",
-                "continue_editing": "",
+                "continue_editing": "Lanjutkan Pengeditan",
                 "success": ""
             },
             "page": {
@@ -132,8 +132,8 @@
                 "no-recent-polls": ""
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Hapus gambar",
+                "upload_button": "Pilih gambar"
             }
         }
     }
