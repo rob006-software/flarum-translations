@@ -39,7 +39,7 @@
                     "help": "Jenis paket yang diizinkan untuk diinstal. Jangan ubah ini kecuali Anda tahu apa yang Anda lakukan.",
                     "options": {
                         "stable": "Stabil (Direkomendasikan)",
-                        "rc": "Kandidat Rilis",
+                        "rc": "RC (Kandidat Rilis)",
                         "beta": "Beta",
                         "alpha": "Alpha",
                         "dev": "Dev"
@@ -76,7 +76,7 @@
                 "check_why_it_failed_updating": "Tunjukkan mengapa tidak memperbarui ke versi terbaru.",
                 "install": "Pasang ekstensi baru",
                 "install_help": "",
-                "proceed": "Lanjutkan",
+                "proceed": "Proses",
                 "remove": "Copot pemasangan",
                 "successful_install": "{extension} berhasil dipasang, mengalihkan..",
                 "successful_remove": "Ekstensi berhasil dihapus.",
@@ -91,14 +91,14 @@
                 "dry_run": "",
                 "dry_run_help": "",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "Pembaruan besar terakhir gagal, beberapa ekstensi yang terinstal tidak kompatibel dengan rilis besar yang baru.",
+                    "why": "Ketahui lebih lanjut"
                 },
-                "title": "",
+                "title": "Pembaruan Utama Flarum {version} Telah Tersedia",
                 "update": ""
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Ini juga akan memperbarui ekstensi/paket lain dengan pembaruan yang tersedia."
             },
             "sections": {
                 "control": {
@@ -119,9 +119,9 @@
                         "extension_remove": "Hapus ekstensi",
                         "extension_update": "Perbarui ekstensi",
                         "update_check": "Periksa pembaruan",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
+                        "update_global": "Memperbarui semua paket software",
+                        "update_major": "Pembaruan besar",
+                        "update_minor": "Pembaruan kecil",
                         "why_not": "Menganalisa mengapa sebuah paket tidak dapat diperbarui"
                     },
                     "output_modal": {
@@ -138,7 +138,7 @@
                         "running": ""
                     },
                     "task_just_started": "Tugas baru saja dimulai",
-                    "title": ""
+                    "title": "Antrean"
                 }
             },
             "settings": {
@@ -151,13 +151,13 @@
                 "task_retention_days_help": ""
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Semuanya sudah diperbarui!",
                 "check_for_updates": "Periksa pembaruan",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Berhasil memperbarui semua paket.",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
+                "last_update_checked_at": "Pemeriksaan Pembaruan Terakhir: ",
+                "run_global_update": "Jalankan Pembaruan Global",
+                "updater_title": "Pembaruan",
                 "updater_help": "Menjalankan pemeriksaan ekstensi baru dan pembaruan Flarum."
             },
             "update_successful": "Flarum berhasil diperbarui.",
