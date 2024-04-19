@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Tunjukkan mengapa tidak memperbarui ke versi terbaru.",
                 "install": "Pasang ekstensi baru",
-                "install_help": "",
+                "install_help": "Isi nama paket ekstensi untuk melanjutkan. Anda dapat menentukan <semantic_link>versi semantik</semantic_link> menggunakan format <code>vendor/package-name:version</code>. Kunjungi {extiverse} untuk melihat-lihat ekstensi.\n",
                 "proceed": "Proses",
                 "remove": "Copot pemasangan",
                 "successful_install": "{extension} berhasil dipasang, mengalihkan..",
@@ -109,7 +109,7 @@
                         "details": "Detail",
                         "elapsed_time": "Selesai dalam",
                         "peak_memory_used": "",
-                        "operation": "",
+                        "operation": "Operasi",
                         "package": "Paket",
                         "status": "Status"
                     },
@@ -135,7 +135,7 @@
                         "success": "Berhasil",
                         "failure": "Gagal",
                         "pending": "Tertunda",
-                        "running": ""
+                        "running": "Berjalan"
                     },
                     "task_just_started": "Tugas baru saja dimulai",
                     "title": "Antrean"
@@ -145,10 +145,10 @@
                 "title": "=> core.ref.settings",
                 "access_warning": "Harap berhati-hati terhadap siapa yang Anda berikan akses ke area admin, manajer ekstensi dapat disalahgunakan oleh oknum jahat untuk menginstal paket yang dapat menyebabkan pelanggaran keamanan.",
                 "debug_mode_warning": "Anda sedang menjalankan mode debug, manajer ekstensi tidak dapat menginstal dan memperbarui paket local development dengan benar. Silakan gunakan command line interface untuk tujuan tersebut.",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "queue_jobs": "Menjalankan operasi di antrean latar belakang (background queue)",
+                "queue_jobs_help": "Anda dapat membaca tentang implementasi <a href='{basic_impl_link}'>antrean dasar</a> atau yang <a href='{adv_impl_link}'>lebih canggih</a>. Pastikan versi PHP yang digunakan untuk antrean adalah {php_version}. Pastikan <a href='{folder_perms_link}'>izin folder (folder permission)</a> telah dikonfigurasi dengan benar.\n",
+                "task_retention_days": "Hari retensi tugas",
+                "task_retention_days_help": "Jumlah hari untuk menyimpan tugas yang sudah selesai di dalam database. Tugas yang lebih lama dari ini akan dihapus. Atur ke 0 untuk menyimpan semua tugas.\n"
             },
             "updater": {
                 "up_to_date": "Semuanya sudah diperbarui!",
