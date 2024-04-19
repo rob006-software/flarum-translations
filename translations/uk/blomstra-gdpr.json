@@ -61,24 +61,24 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Видалення аватар користувача з файлової системи.",
+                    "export_description": "Отримання аватару користувача з файлової системи і додавання його до експорту."
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "Експортувати всі дискусії, які розпочав користувач. Дані обмежені назвою та датою створення."
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "Експорт назви форуму, URL, ім'я користувача, електронну пошту та поточну дату."
                 },
-                "no_action": "",
+                "no_action": "Ніяких дій не вжито.",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Видалити IP-адресу з усіх дописів, зроблених користувачем.",
+                    "delete_description": "Видалити всі дописи, зроблені користувачем.",
+                    "export_description": "Експортувати всі дописи, які зробив користувач. Дані обмежені вмістом, датою створення, IP-адресою та ідентифікатором дискусії."
                 },
                 "tokens": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Видалити всі створені користувачем токени.",
+                    "export_description": "Експортувати всі створені користувачем токени. Дані обмежені датою створення і типом токена."
                 },
                 "user": {
                     "anonymize_description": "",
