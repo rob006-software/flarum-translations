@@ -3,11 +3,11 @@
         "forum": {
             "home": "Beranda",
             "all_discussions": "Diskusi",
-            "tags": "",
-            "categories": "",
-            "notifications": "",
-            "log_in": "",
-            "profile": ""
+            "tags": "=> flarum-tags.forum.index.tags_link",
+            "categories": "=> askvortsov-categories.forum.index.categories_link",
+            "notifications": "=> core.forum.notifications.title",
+            "log_in": "=> core.forum.header.log_in_link",
+            "profile": "=> core.forum.header.profile_button"
         }
     }
 }
