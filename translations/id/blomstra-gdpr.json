@@ -87,9 +87,9 @@
                 }
             },
             "request_data": {
-                "title": "",
-                "text": "",
-                "request_button": ""
+                "title": "Meminta data untuk {username}",
+                "text": "Arsip zip akan disiapkan untuk Anda. Setelah siap, Anda akan menerima notifikasi dengan link download. Link tersebut akan tetap aktif selama satu hari.\n",
+                "request_button": "Meminta arsip"
             }
         },
         "email": {
@@ -123,16 +123,16 @@
             "delete_user": {
                 "title": "",
                 "text": "",
-                "modal_delete_button": "",
-                "delete_button": ""
+                "modal_delete_button": "Menghapus dengan menggunakan tindakan default",
+                "delete_button": "Hapus"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Tidak ada permintaan penghapusan akun yang tertunda",
+                "item_text": "{name} meminta penghapusan akun",
+                "tooltip": "Permintaan Penghapusan Akun",
+                "title": "Permintaan Penghapusan Akun"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Anda telah mengonfirmasi permintaan penghapusan akun Anda. Tindakan akan dilakukan dalam waktu 30 hari, seperti yang disyaratkan oleh GDPR.",
             "settings": {
                 "data": {
                     "heading": ""
@@ -151,22 +151,22 @@
                 "deletion_button": ""
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Meminta penghapusan akun",
+                "reason": "Anda memberikan alasan berikut: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Anda seharusnya telah menerima email untuk mengonfirmasi permintaan penghapusan akun Anda.\n",
+                    "user_confirmed": "Anda telah mengonfirmasi permintaan penghapusan akun Anda. Tindakan akan dilakukan dalam waktu 30 hari, seperti yang disyaratkan oleh GDPR.\n"
                 },
-                "text": "",
+                "text": "Setelah diterima dan dikonfirmasi, admin akan meninjau permintaan Anda dalam waktu 30 hari, seperti yang disyaratkan oleh GDPR.",
                 "password_label": "",
                 "reason_label": "",
                 "cancel_button": "",
                 "request_button": ""
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "Ekspor data Anda untuk {username} sekarang siap untuk di-download."
             },
-            "export_file": ""
+            "export_file": "Ekspor data pengguna untuk {username} ({email}) yang disiapkan pada {date} dari {forumTitle} ({url})"
         }
     }
 }
