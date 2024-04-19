@@ -2,11 +2,11 @@
     "blomstra-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "Gambaran Umum Data GDPR",
+                "description": "Status berbagai tindakan dan integrasi GDPR",
                 "data_types": {
-                    "title": "",
-                    "help_text": "",
+                    "title": "Tipe Data",
+                    "help_text": "Ini adalah tipe data yang saat ini terdaftar. Setiap tipe terdaftar bersama dengan tindakan ekspor, anonimisasi, dan penghapusan data yang terkait. Jika sebuah ekstensi menangani data apa pun yang termasuk dalam peraturan GDPR, ekstensi tersebut harus mendaftarkan tipe datanya ke <code>blomstra/gdpr</code>. \nData yang disimpan di tabel pengguna ditangani secara terpisah, lihat data tabel <code>user</code> di bawah ini.\n",
                     "type": "",
                     "export_description": "",
                     "anonymize_description": "",
@@ -14,39 +14,39 @@
                     "extension": ""
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
-                    "extension_settings_button": ""
+                    "heading": "Pengaturan GDPR",
+                    "help_text": "Mencari pengaturan GDPR? Pengaturan ini dapat ditemukan di halaman ekstensi.",
+                    "extension_settings_button": "Pengaturan GDPR"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Data Tabel User",
+                    "help_text": "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. Namun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n"
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "Integrasi GDPR"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
+                "process_erasure": "Memproses permintaan penghapusan",
+                "process_export_for_others": "Meminta dan menerima ekspor data untuk pengguna lain",
                 "see_anonymized_user_badges": ""
             },
             "settings": {
-                "allow_anonymization": "",
-                "allow_anonymization_help": "",
-                "allow_deletion": "",
-                "allow_deletion_help": "",
-                "default_anonymous_username": "",
-                "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "",
+                "allow_anonymization": "Izinkan anonimisasi untuk permintaan penghapusan",
+                "allow_anonymization_help": "Opsi default, dan direkomendasikan untuk sebagian besar komunitas. Dalam mode ini, postingan/komentar akan dipertahankan semaksimal mungkin seperti yang diizinkan oleh GDPR, tetapi semua informasi yang dapat diidentifikasi pengguna akan dihapus.",
+                "allow_deletion": "Izinkan penghapusan untuk permintaan penghapusan",
+                "allow_deletion_help": "Opsi yang jauh lebih ketat. Dalam mode ini, semua postingan/komentar akan dihapus, dan pengguna akan dihapus dari database. Gunakan dengan hati-hati.",
+                "default_anonymous_username": "Username default untuk pengguna yang dianonimkan",
+                "default_anonymous_username_help": "Ketika pengguna dianonimkan, username mereka akan diganti dengan nilai ini, ditambah dengan ID permintaan anonimisasi, misalnya <code>Anonymous123</code>.",
+                "default_erasure": "Tindakan default untuk permintaan penghapusan",
+                "default_erasure_help": "Apa yang seharusnya menjadi tindakan default untuk permintaan penghapusan?",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "Anonimisasi",
+                    "deletion": "Penghapusan"
                 },
                 "gdpr_page": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Integrasi data dan tindakan",
+                    "help_text": "Sebelum memutuskan tindakan mana yang akan digunakan di forum Anda, sangat penting untuk memahami data mana yang diintegrasikan, dan bagaimana data tersebut ditangani baik untuk anonimisasi maupun penghapusan. Kunjungi gambaran umum GDPR untuk memahami bagaimana data ditangani, dan ekstensi opsional mana yang telah mendaftarkan data mereka untuk ditangani oleh ekstensi ini."
                 }
             },
             "userlist": {
@@ -61,29 +61,29 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Menghapus avatar pengguna dari sistem file.",
+                    "export_description": "Mengambil avatar pengguna dari sistem file dan menyertakannya dalam ekspor."
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "Mengekspor semua diskusi yang telah dimulai oleh pengguna. Data dibatasi pada judul dan tanggal pembuatan."
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "Mengekspor judul forum, url, username, email, dan tanggal saat ini."
                 },
-                "no_action": "",
+                "no_action": "Tidak ada tindakan yang diambil.",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Menghapus alamat IP dari semua postingan yang telah dibuat oleh pengguna.",
+                    "delete_description": "Menghapus semua post yang telah dibuat oleh pengguna.",
+                    "export_description": "Mengekspor semua post yang telah dibuat oleh pengguna. Data dibatasi pada konten, tanggal pembuatan, alamat IP, dan ID diskusi."
                 },
                 "tokens": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Menghapus semua token yang telah dibuat oleh pengguna.",
+                    "export_description": "Mengekspor semua token yang telah dibuat oleh pengguna. Data dibatasi pada tanggal pembuatan dan jenis token."
                 },
                 "user": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Mengatur semua kolom pada tabel user menjadi null. Kolom yang tidak dapat diatur ke dalam nilai null akan diatur ke nilai default atau nilai khusus. Kata sandi diubah, preferensi diatur ke default dan semua grup dihapus.",
+                    "delete_description": "Menghapus pengguna dari database.",
+                    "export_description": "Mengekspor data dari tabel user. Semua kolom kecuali id, kata sandi."
                 }
             },
             "request_data": {
@@ -137,13 +137,13 @@
                 "data": {
                     "heading": ""
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "Ekspor Data",
+                "export_data_help": "Meminta ekspor data akan memberi Anda salinan yang dapat di-download dari semua informasi yang terkait dengan akun Anda. Ini termasuk postingan, komentar, dan detail profil.",
+                "request_erasure_button": "Hapus Akun",
+                "request_erasure_help": "Meminta penghapusan akan menghapus akun Anda dan semua data terkait secara permanen. Tindakan ini tidak dapat dibatalkan. Sebelum melanjutkan, pastikan Anda telah menyimpan konten apa pun yang ingin Anda simpan."
             },
             "process_erasure": {
-                "confirm": "",
+                "confirm": "Apakah Anda yakin ingin menghapus akun {name} dalam mode {mode}?",
                 "title": "",
                 "text": "",
                 "comments_label": "",
