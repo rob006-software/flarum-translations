@@ -13,14 +13,14 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Unggahan bersama"
             },
             "shared-uploads": {
                 "description": "Upload file yang dapat digunakan oleh semua pengguna forum Anda.",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "introduction": "Unggahan bersama adalah file yang dapat digunakan oleh semua pengguna forum Anda. Unggahan ini tidak dilampirkan pada postingan apa pun, tetapi dapat disisipkan ke dalam postingan dengan menggunakan pengelola media. \n\n<strong>Peringatan:</strong> Unggahan bersama tidak dilindungi oleh izin apa pun. Siapapun yang memiliki URL dapat melihatnya.\n",
+                "no-files": "Belum ada file bersama yang diupload.",
+                "title": "Unggahan bersama",
+                "upload-new-button": "Upload file baru"
             },
             "pane": {
                 "title": "Upload",
@@ -109,8 +109,8 @@
                 "upload_label": "Meng-upload file",
                 "view_user_uploads_label": "Melihat data upload pengguna",
                 "delete_uploads_of_others_label": "Menghapus data upload pengguna",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "Upload file bersama",
+                "access_shared_label": "Mengakses file bersama di Pengelola Media"
             },
             "templates": {
                 "file": "Template download file default",
@@ -154,11 +154,11 @@
             "buttons": {
                 "attach": "Lampirkan",
                 "upload": "Upload",
-                "upload_shared": "",
+                "upload_shared": "Bersama",
                 "user_uploads": "Unggahan pengguna",
                 "cancel": "Batal",
                 "media": "Media Saya",
-                "shared_media": ""
+                "shared_media": "Media bersama"
             },
             "states": {
                 "error": "Error",
@@ -210,43 +210,43 @@
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "File bersama baru",
+                "dropzone": "Seret dan letakkan file di sini atau klik untuk menelusuri",
+                "hide-from-media-gallery": "Sembunyikan dari galeri media pengguna",
+                "upload": "Upload"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
+                "loading": "Memuat file...",
+                "empty": "Tidak ada file untuk ditampilkan.",
                 "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "modal_empty_desktop": "Daftar file Anda kosong. Klik tombol atau seret file ke sini untuk mengunggah.",
+                "modal_empty_phone": "Daftar file Anda kosong. Ketuk tombol di atas untuk mengunggah file.",
+                "select_file_a11y_label": "Pilih file \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Tidak ada yang dipilih} one {Pilih file} other {Pilih file}}",
+                "load_more_files_btn": "Muat lebih banyak file",
+                "delete_file_a11y_label": "Hapus file \"{fileName}\"",
+                "delete_confirmation": "Apakah Anda yakin ingin menghapus \"{fileName}\"?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Sembunyikan \"{fileName}\" dari pengelola media",
+                    "btn_a11y_label_show": "Tampilkan \"{fileName}\" di pengelola media",
+                    "hide_confirmation": "Apakah Anda yakin ingin menyembunyikan \"{fileName}\"? Menyembunyikan file hanya akan menghapus file tersebut dari pengelola media Anda dan tidak akan memengaruhi postingan yang ada.",
+                    "hide_success": "File disembunyikan",
+                    "show_confirmation": "Apakah Anda yakin ingin menampilkan \"{fileName}\"? Menampilkan file akan membuatnya terlihat di pengelola media Anda.",
+                    "show_success": "File ditampilkan",
+                    "hide_fail": "Tidak dapat menyembunyikan file \"{fileName}\"",
+                    "show_fail": "Tidak dapat menampilkan file \"{fileName}\"",
+                    "loading": "Menyembunyikan file..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Jadikan \"{fileName}\" privat (tidak ada URL publik)",
+                    "btn_a11y_label_show": "Jadikan \"{fileName}\" publik (dengan URL publik)",
+                    "hide_confirmation": "Apakah Anda yakin ingin menjadikan \"{fileName}\" privat? Menjadikan file privat akan menghapus URL publiknya, tetapi tidak akan memengaruhi postingan yang ada. File tersebut juga tidak akan terlihat lagi di pengelola media oleh pengguna yang tidak memiliki izin.",
+                    "hide_success": "File dijadikan privat",
+                    "show_confirmation": "Apakah Anda yakin ingin menjadikan \"{fileName}\" publik? Menjadikan file publik akan membuatnya dapat diakses oleh siapa saja yang memiliki URL publik dan siapa saja dapat membagikannya menggunakan pengelola media.",
+                    "show_success": "File tersedia untuk umum",
+                    "hide_fail": "Tidak dapat membuat file \"{fileName}\" menjadi privat",
+                    "show_fail": "Tidak dapat membuat file \"{fileName}\" menjadi publik",
+                    "loading": "Membuat file menjadi privat..."
                 }
             }
         }
