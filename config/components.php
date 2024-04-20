@@ -737,6 +737,9 @@ return [
 	'glowingblue-redis-setup' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.2/resources/locale/en.yml',
 	],
+	'gm-fire-nicknames' => [
+		'tag' => 'https://raw.githubusercontent.com/gm-fire/nicknames/v1.8.1/locale/en.yml',
+	],
 	'gtdxyz-login' => [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-login/1.0.2/locale/en.yml',
 	],
