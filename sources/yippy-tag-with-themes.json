@@ -34,6 +34,26 @@
                     "flat_border_tab": "Flat Border (Primary Tab)",
                     "flat_border_banner": "Flat Border (Primary Banner)"
                 }
+            },
+            "designs": {
+                "title": "Customised Design Theme for Tags",
+                "description": "Provide a list of rules for displaying different themes for specific tags",
+                "add": "Add Design for Tags",
+                "banner": "Design Theme {index}",
+                "header": {
+                    "theme": "Custom Theme",
+                    "color_theme": "Customise Default Color Scheme"
+                },
+                "data": {
+                    "themeName": "Select Theme",
+                    "tags": "Selected Primary Tags",
+                    "tags_help": "Choose one or more tag for this customised design theme",
+                    "primary_background_color": "Edit Primary Background Color",
+                    "child_background_color": "Edit Child Background Color",
+                    "outline_background_color": "Edit Outline Color",
+                    "unread_color": "Edit Unread Background Color",
+                    "is_enabled": "Enable Design Theme"
+                }
             }
         }
     }
