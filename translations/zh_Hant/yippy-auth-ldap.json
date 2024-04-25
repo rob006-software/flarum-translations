@@ -1,11 +1,11 @@
 {
     "yippy-auth-ldap": {
         "forum": {
-            "account_found": "",
-            "log_in_with": "",
-            "log_out": "",
+            "account_found": "找到帳戶 {server}",
+            "log_in_with": "登錄方式 {server}",
+            "log_out": "=> core.ref.log_out",
             "errors": {
-                "core_csrf_token_mismatch": "",
+                "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
                 "search_filter_is_invalid": "",
                 "not_authenticated": "",
                 "csrf_token_mismatch": "",
