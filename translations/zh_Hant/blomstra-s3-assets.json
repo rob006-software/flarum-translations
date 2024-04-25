@@ -8,35 +8,35 @@
                 "s3-compatible-section-help": "以下設置在使用 AWS S3 時請留空",
                 "s3key": {
                     "label": "Key",
-                    "help": "幫助"
+                    "help": "S3 存取密鑰"
                 },
                 "s3secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "秘密",
+                    "help": "S3 訪問秘令"
                 },
                 "s3region": {
-                    "label": "",
-                    "help": ""
+                    "label": "地區",
+                    "help": "S3區域"
                 },
                 "s3bucket": {
-                    "label": "",
-                    "help": ""
+                    "label": "Bucket",
+                    "help": "S3 bucket"
                 },
                 "s3acl": {
-                    "label": "",
-                    "help": ""
+                    "label": "ACL",
+                    "help": "指定該儲存桶的 ACL"
                 },
                 "s3url": {
-                    "label": "",
-                    "help": ""
+                    "label": "URL",
+                    "help": "S3 URL"
                 },
                 "s3endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "端點",
+                    "help": "S3端點"
                 },
                 "s3path-style-endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "S3路徑樣式端點",
+                    "help": "切換到路徑式存儲"
                 }
             }
         }
