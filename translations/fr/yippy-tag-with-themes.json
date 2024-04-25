@@ -25,34 +25,34 @@
                     "basic_outline_tag": "Schéma de base (étiquette primaire)",
                     "basic_outline_tab": "Schéma de base (onglet primaire)",
                     "basic_outline_banner": "Schéma de base (bannière primaire)",
-                    "flat": "",
-                    "flat_tag": "",
-                    "flat_tab": "",
-                    "flat_banner": "",
-                    "flat_border": "",
-                    "flat_border_tag": "",
-                    "flat_border_tab": "",
-                    "flat_border_banner": ""
+                    "flat": "Plat",
+                    "flat_tag": "Plat (étiquette primaire)",
+                    "flat_tab": "Plat (onglet primaire)",
+                    "flat_banner": "Plat (bannière primaire)",
+                    "flat_border": "Bordure plate",
+                    "flat_border_tag": "Bordure plate (étiquette primaire)",
+                    "flat_border_tab": "Bordure plate (onglet primaire)",
+                    "flat_border_banner": "Bordure plate (bannière primaire)"
                 }
             },
             "designs": {
-                "title": "",
-                "description": "",
-                "add": "",
-                "banner": "",
+                "title": "Thème personnalisé pour les étiquettes",
+                "description": "Permet de définir une liste de règles pour l'affichage de différents thèmes pour des étiquettes spécifiques",
+                "add": "Ajouter une conception pour les étiquettes",
+                "banner": "Thème de conception {index}",
                 "header": {
-                    "theme": "",
-                    "color_theme": ""
+                    "theme": "Thème personnalisé",
+                    "color_theme": "Personnalisation de la palette de couleurs par défaut"
                 },
                 "data": {
-                    "themeName": "",
-                    "tags": "",
-                    "tags_help": "",
-                    "primary_background_color": "",
-                    "child_background_color": "",
-                    "outline_background_color": "",
-                    "unread_color": "",
-                    "is_enabled": ""
+                    "themeName": "Sélectionner un thème",
+                    "tags": "Étiquettes primaires sélectionnées",
+                    "tags_help": "Sélectionnez une ou plusieurs étiquettes pour ce thème de conception personnalisé",
+                    "primary_background_color": "Modifier la couleur d'arrière-plan primaire",
+                    "child_background_color": "Modifier la couleur d'arrière-plan de l'enfant",
+                    "outline_background_color": "Modifier la couleur du contour",
+                    "unread_color": "Modifier la couleur d'arrière-plan des messages non lus",
+                    "is_enabled": "Activer le thème de conception"
                 }
             }
         }
