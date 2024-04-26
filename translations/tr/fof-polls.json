@@ -8,8 +8,8 @@
                 "options_color_blend_help": "Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın.",
                 "enable_global_polls": "Genel anketleri etkinleştir",
                 "enable_global_polls_help": "Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.",
-                "image_height": "",
-                "image_width": ""
+                "image_height": "Resim yüksekliğini yeniden boyutlandır",
+                "image_width": "Resim genişliğini yeniden boyutlandır"
             },
             "permissions": {
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
@@ -60,8 +60,8 @@
                 "question_placeholder": "Soru",
                 "submit": "Gönder",
                 "subtitle_placeholder": "Alt başlık/Açıklama (İsteğe bağlı)",
-                "delete": "Sil",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "Anket Görseli",
                     "help": "Anketin yanında görüntülenecek bir resim yükleyin (isteğe bağlı).",
@@ -69,8 +69,8 @@
                     "alt_help_text": "Bu metin bir resim ayarlandığında gereklidir; resim düzgünce yüklenemezse görüntülenecektir."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Anket Yanıtı Resmi",
+                    "help": "Anket yanıtının yanında görüntülenecek bir resim yükleyin (isteğe bağlı)."
                 },
                 "tooltip": {
                     "options": {
@@ -95,9 +95,9 @@
             "poll_never_ends": "Anket sona ermez",
             "answers": "Yanıtlar",
             "poll_controls": {
-                "edit_label": "Düzenle",
-                "delete_label": "Sil",
-                "view_label": "Görüntüle",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
                 "delete_confirmation": "Bu anketi silmek istediğinize emin misiniz?",
                 "delete_success_message": "Anket başarıyla silindi.",
                 "delete_error_message": "Anket silinirken bir şeyler ters gitti."
@@ -107,11 +107,11 @@
                 "error": "Anket kaydedilirken bir hata oluştu. Lütfen herhangi bir yöneticiyle iletişime geçin."
             },
             "polls_page": {
-                "title": ""
+                "title": "Anketler"
             },
             "polls_list": {
                 "empty_text": "Görünüşe göre burada topluluk çapında bir anket yok.",
-                "load_more_button": "Daha Fazla Yükle"
+                "load_more_button": "=> core.ref.load_more"
             },
             "compose": {
                 "add_title": "Anket Ekle",
@@ -119,21 +119,21 @@
                 "polls_manager": "Anket Yöneticisi",
                 "polls_preview": "Anketi Görüntüle",
                 "continue_editing": "Düzenlemeye Devam Et",
-                "success": ""
+                "success": "Anket başarıyla kaydedildi."
             },
             "page": {
-                "nav": "",
-                "nav-all": ""
+                "nav": "Anketler",
+                "nav-all": "Tüm Genel Anketler"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Aktif Anketler",
+                "ended-polls": "Sonuçlanan Anketler",
+                "no-active-polls": "Şu anda aktif anket yok.",
+                "no-recent-polls": "Şu anda yakın zamanda sona eren bir anket yok."
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Görseli Kaldır",
+                "upload_button": "Görsel Seç"
             }
         }
     }
