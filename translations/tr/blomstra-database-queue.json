@@ -3,15 +3,15 @@
         "admin": {
             "settings": {
                 "backoff_label": "Geri Al",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_help": "Gerçekleştirilememiş bir özel durumla karşılaşan bir işi yeniden denemeden önce beklenecek saniye sayısı.\n",
+                "memory_label": "Bellek",
+                "memory_help": "Megabayt cinsinden bellek sınırı.\n",
+                "rest_label": "Bekleme",
+                "rest_help": "İşler arasında beklenilecek saniye sayısı.\n",
+                "retries_label": "Yeniden denemeler",
+                "retries_help": "Bir işi günlüğe kaydetmeden önce başarısız olabilecek deneme sayısı.\n",
+                "timeout_label": "Zaman Aşımı",
+                "timeout_help": "Bir işlemin zaman aşımına uğrayana kadar çalıştırılabileceği saniye sayısı.\n"
             },
             "stats": {
                 "auto_refresh": "Otomatik Yenile",
