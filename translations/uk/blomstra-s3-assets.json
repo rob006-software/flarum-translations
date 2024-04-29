@@ -8,35 +8,35 @@
                 "s3-compatible-section-help": "Залиште ці налаштування порожніми, якщо ви використовуєте AWS S3",
                 "s3key": {
                     "label": "Ключ",
-                    "help": "допомога"
+                    "help": "S3 access key"
                 },
                 "s3secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "Secret",
+                    "help": "S3 access secret"
                 },
                 "s3region": {
-                    "label": "",
-                    "help": ""
+                    "label": "Регіон",
+                    "help": "Регіон S3"
                 },
                 "s3bucket": {
-                    "label": "",
-                    "help": ""
+                    "label": "Bucket",
+                    "help": "S3 bucket"
                 },
                 "s3acl": {
-                    "label": "",
-                    "help": ""
+                    "label": "ACL",
+                    "help": "Вкажіть ACL для цього bucket"
                 },
                 "s3url": {
-                    "label": "",
-                    "help": ""
+                    "label": "URL-адреса",
+                    "help": "URL-адрема S3"
                 },
                 "s3endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "Кінцева точка",
+                    "help": "Кінцева точка S3"
                 },
                 "s3path-style-endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "Кінцева точка в стилі шляху S3",
+                    "help": "Перемкнути на стиль шляху стораджа"
                 }
             }
         }
