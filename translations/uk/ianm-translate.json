@@ -8,6 +8,8 @@
                 "edit-translation": "Ручне редагування перекладу"
             },
             "settings": {
+                "seemless": "",
+                "seemless-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "Зареєструйтеся за посиланням {link}. Драйвер автоматично визначить тип ключа free/pro.",
@@ -37,6 +39,20 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "port": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
                 "translate-all-enabled": "Увімкніть усі мови перекладу",
                 "translate-all-help": "Якщо цю опцію увімкнено, користувачі-адміністратори та інші користувачі з відповідними правами можуть перекладати вміст на будь-яку встановлену мову форуму.",
                 "bind-browser-language": "Додати мову браузера",
@@ -51,10 +67,17 @@
             }
         },
         "forum": {
+            "composer": {
+                "multi-languages": ""
+            },
             "unknown-language": "[не виявлено]",
             "detected-language": "Ця публікація знаходиться на {postLang}",
             "translate-button-label": "Переклад",
             "refresh-translation": "Оновити переклад",
+            "original-content": {
+                "title": "",
+                "view": ""
+            },
             "manage-translations": {
                 "translations-label": "Переклади",
                 "button-label": "Керування перекладами",
@@ -92,7 +115,8 @@
             "providers": {
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
-                "google-cloud": "Google Cloud Translate"
+                "google-cloud": "Google Cloud Translate",
+                "libre": ""
             },
             "settings": {
                 "api-key": "Ключ API"

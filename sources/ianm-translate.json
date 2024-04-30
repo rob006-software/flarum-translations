@@ -8,6 +8,8 @@
                 "edit-translation": "Manually edit a translation"
             },
             "settings": {
+                "seemless": "Seamless Translation",
+                "seemless-help": "Beta feature. When enabled, all user content will be translated automatically to all other available forum languages. When a user views multi-language content, translations will be displayed automaticlly.",
                 "deepl": {
                     "api_key": {
                         "help": "Register at {link}. Driver will auto detect free/pro key type.",
@@ -37,6 +39,20 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "The URL of the LibreTranslate server. If you are running your own instance, enter the URL here. The schema should be `http` or `https`.",
+                        "label": "Server URL"
+                    },
+                    "port": {
+                        "help": "The port of the LibreTranslate server. If you are running your own instance, enter the port here.",
+                        "label": "Server Port"
+                    },
+                    "api_key": {
+                        "help": "(optional) If your LibreTranslate server requires an API key, enter it here.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                },
                 "translate-all-enabled": "Enable all translation languages",
                 "translate-all-help": "When enabled, admin users and others with permission may translate content to any installed forum language.",
                 "bind-browser-language": "Add browser language",
@@ -51,10 +67,17 @@
             }
         },
         "forum": {
+            "composer": {
+                "multi-languages": "Hint: you may type in your choice of language, the forum will translate it for you."
+            },
             "unknown-language": "[not detected]",
             "detected-language": "This post is in {postLang}",
             "translate-button-label": "Translate",
             "refresh-translation": "Refresh translation",
+            "original-content": {
+                "title": "Original content",
+                "view": "View original content"
+            },
             "manage-translations": {
                 "translations-label": "Translations",
                 "button-label": "Manage translations",
@@ -92,7 +115,8 @@
             "providers": {
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
-                "google-cloud": "Google Cloud Translate"
+                "google-cloud": "Google Cloud Translate",
+                "libre": "Libre Translate"
             },
             "settings": {
                 "api-key": "API Key"

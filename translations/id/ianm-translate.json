@@ -8,6 +8,8 @@
                 "edit-translation": ""
             },
             "settings": {
+                "seemless": "",
+                "seemless-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "Daftar di {link}. Driver akan secara otomatis mendeteksi jenis key free/pro.",
@@ -37,6 +39,20 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "port": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
                 "translate-all-enabled": "Aktifkan semua bahasa terjemahan",
                 "translate-all-help": "Jika diaktifkan, pengguna admin dan orang lain yang memiliki izin dapat menerjemahkan konten ke bahasa forum yang diinstal.",
                 "bind-browser-language": "Tambahkan bahasa browser",
@@ -51,10 +67,17 @@
             }
         },
         "forum": {
+            "composer": {
+                "multi-languages": ""
+            },
             "unknown-language": "[tidak terdeteksi]",
             "detected-language": "Post ini dalam bahasa {postLang}",
             "translate-button-label": "Terjemahan",
             "refresh-translation": "",
+            "original-content": {
+                "title": "",
+                "view": ""
+            },
             "manage-translations": {
                 "translations-label": "",
                 "button-label": "",
@@ -92,7 +115,8 @@
             "providers": {
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
-                "google-cloud": "Google Cloud Translate"
+                "google-cloud": "Google Cloud Translate",
+                "libre": ""
             },
             "settings": {
                 "api-key": "API Key"

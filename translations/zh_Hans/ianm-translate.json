@@ -9,6 +9,8 @@
                 "translate": "查看翻译"
             },
             "settings": {
+                "seemless": "",
+                "seemless-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "在 {link}注册。驱动将自动检测免费/Pro类型。",
@@ -38,6 +40,20 @@
                         "label": ""
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "port": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
                 "translate-all-enabled": "启用所有翻译语言",
                 "translate-all-help": "当启用后，管理员和其它有权限的人可以翻译内容为任何一个论坛的已安装语言。",
                 "bind-browser-language": "添加浏览器语言",
@@ -54,10 +70,17 @@
             }
         },
         "forum": {
+            "composer": {
+                "multi-languages": ""
+            },
             "unknown-language": "（未检测到）",
             "detected-language": "本帖使用了{postLang}",
             "translate-button-label": "翻译",
             "refresh-translation": "",
+            "original-content": {
+                "title": "",
+                "view": ""
+            },
             "manage-translations": {
                 "translations-label": "",
                 "button-label": "",
@@ -95,7 +118,8 @@
             "providers": {
                 "deepl": "DeepL",
                 "google-free": "Google 翻译",
-                "google-cloud": "Google Cloud 翻译"
+                "google-cloud": "Google Cloud 翻译",
+                "libre": ""
             },
             "settings": {
                 "api-key": "API 密钥"

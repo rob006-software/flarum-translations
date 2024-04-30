@@ -9,6 +9,8 @@
                 "translate": "Guarda traduzioni"
             },
             "settings": {
+                "seemless": "",
+                "seemless-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "",
@@ -38,6 +40,20 @@
                         "label": ""
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "port": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
                 "translate-all-enabled": "",
                 "translate-all-help": "",
                 "bind-browser-language": "",
@@ -54,10 +70,17 @@
             }
         },
         "forum": {
+            "composer": {
+                "multi-languages": ""
+            },
             "unknown-language": "[non rilevato]",
             "detected-language": "Questo post è in {postLang}",
             "translate-button-label": "",
             "refresh-translation": "",
+            "original-content": {
+                "title": "",
+                "view": ""
+            },
             "manage-translations": {
                 "translations-label": "",
                 "button-label": "",
@@ -95,7 +118,8 @@
             "providers": {
                 "deepl": "",
                 "google-free": "",
-                "google-cloud": ""
+                "google-cloud": "",
+                "libre": ""
             },
             "settings": {
                 "api-key": ""

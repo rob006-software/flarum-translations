@@ -8,6 +8,8 @@
                 "edit-translation": "手動編輯翻譯"
             },
             "settings": {
+                "seemless": "",
+                "seemless-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "在{link}註冊。驅動程式將自動檢測免費/專業密鑰類型。",
@@ -37,6 +39,20 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "port": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
                 "translate-all-enabled": "啟用所有翻譯語言",
                 "translate-all-help": "啟用後，管理員使用者和其他獲得許可的人可以將內容翻譯為任何已安裝的論壇語言。",
                 "bind-browser-language": "增加瀏覽器語言",
@@ -51,10 +67,17 @@
             }
         },
         "forum": {
+            "composer": {
+                "multi-languages": ""
+            },
             "unknown-language": "（未檢測到）",
             "detected-language": "本帖使用了{postLang}",
             "translate-button-label": "翻譯",
             "refresh-translation": "重新整理翻譯",
+            "original-content": {
+                "title": "",
+                "view": ""
+            },
             "manage-translations": {
                 "translations-label": "翻譯",
                 "button-label": "管理翻譯",
@@ -92,7 +115,8 @@
             "providers": {
                 "deepl": "DeepL",
                 "google-free": "Google 翻譯",
-                "google-cloud": "Google Cloud 翻譯"
+                "google-cloud": "Google Cloud 翻譯",
+                "libre": ""
             },
             "settings": {
                 "api-key": "API Key"

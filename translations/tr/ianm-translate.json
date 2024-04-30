@@ -8,6 +8,8 @@
                 "edit-translation": ""
             },
             "settings": {
+                "seemless": "",
+                "seemless-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "{link} adresinden kaydolun. Sürücü, ücretsiz/pro anahtar tipini otomatik olarak algılayacaktır.",
@@ -37,6 +39,20 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "port": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
                 "translate-all-enabled": "Tüm çeviri dillerini etkinleştir",
                 "translate-all-help": "Etkinleştirildiğinde yönetici kullanıcılar ve izne sahip diğer kişiler, içeriği kurulu herhangi bir forum diline çevirebilir.",
                 "bind-browser-language": "Tarayıcı dili ekle",
@@ -51,10 +67,17 @@
             }
         },
         "forum": {
+            "composer": {
+                "multi-languages": ""
+            },
             "unknown-language": "[algılanmadı]",
             "detected-language": "Bu yayın {postLang} içinde",
             "translate-button-label": "Çeviri",
             "refresh-translation": "",
+            "original-content": {
+                "title": "",
+                "view": ""
+            },
             "manage-translations": {
                 "translations-label": "",
                 "button-label": "",
@@ -92,7 +115,8 @@
             "providers": {
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
-                "google-cloud": "Google Cloud Translate"
+                "google-cloud": "Google Cloud Translate",
+                "libre": ""
             },
             "settings": {
                 "api-key": "API Anahtarı"
