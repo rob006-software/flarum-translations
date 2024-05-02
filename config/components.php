@@ -434,7 +434,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-simple-tour-guide/v0.0.1/locale/en.yml',
 	],
 	'datlechin-tag-passwords' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-tag-passwords/v0.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-tag-passwords/v0.3.0/locale/en.yml',
 	],
 	'datlechin-title-length' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-title-length/v0.1.1/locale/en.yml',
