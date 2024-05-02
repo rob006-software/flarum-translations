@@ -8,8 +8,8 @@
                 "edit-translation": "手動編輯翻譯"
             },
             "settings": {
-                "seemless": "",
-                "seemless-help": "",
+                "seemless": "無縫翻譯",
+                "seemless-help": "測試版功能。 啟用後，所有使用者內容將自動翻譯為所有其他可用的論壇語言。 當使用者查看多語言內容時，會自動顯示翻譯。",
                 "deepl": {
                     "api_key": {
                         "help": "在{link}註冊。驅動程式將自動檢測免費/專業密鑰類型。",
@@ -41,16 +41,16 @@
                 },
                 "libre": {
                     "url": {
-                        "help": "",
-                        "label": ""
+                        "help": "LibreTranslate 伺服器的 URL。 如果您正在運行自己的實例，請在此輸入 URL。 架構應該是“http”或“https”。",
+                        "label": "伺服器位址"
                     },
                     "port": {
-                        "help": "",
-                        "label": ""
+                        "help": "LibreTranslate 伺服器的連接埠。 如果您正在運行自己的實例，請在此輸入連接埠。",
+                        "label": "伺服器連接埠"
                     },
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "（可選）如果您的 LibreTranslate 伺服器需要 API 金鑰，請在此輸入。",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "translate-all-enabled": "啟用所有翻譯語言",
@@ -68,15 +68,15 @@
         },
         "forum": {
             "composer": {
-                "multi-languages": ""
+                "multi-languages": "提示：您可以輸入您選擇的語言，論壇將為您翻譯。"
             },
             "unknown-language": "（未檢測到）",
             "detected-language": "本帖使用了{postLang}",
             "translate-button-label": "翻譯",
             "refresh-translation": "重新整理翻譯",
             "original-content": {
-                "title": "",
-                "view": ""
+                "title": "原創內容",
+                "view": "看原始內容"
             },
             "manage-translations": {
                 "translations-label": "翻譯",
@@ -116,7 +116,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google 翻譯",
                 "google-cloud": "Google Cloud 翻譯",
-                "libre": ""
+                "libre": "自由翻譯"
             },
             "settings": {
                 "api-key": "API Key"
