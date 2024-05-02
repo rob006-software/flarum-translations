@@ -1070,7 +1070,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/miniflar/top-like-givers-widget/0.1.0/resources/locale/en.yml',
 	],
 	'muhammedsaidckr-chatgpt' => [
-		'tag' => 'https://raw.githubusercontent.com/muhammedsaidckr/flarum-chatgpt/v1.0.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/muhammedsaidckr/flarum-chatgpt/v1.1.1/locale/en.yml',
 	],
 	'nearata-auth-minecraft' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-auth-minecraft/v3.0.1/locale/en.yml',
