@@ -2,22 +2,22 @@
     "core": {
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "Email"
             }
         }
     },
     "gtdxyz-login": {
         "admin": {
-            "login_identification": "",
-            "login_email": "",
-            "login_username": "",
-            "login_default": ""
+            "login_identification": "Login",
+            "login_email": "Email",
+            "login_username": "Username",
+            "login_default": "Default"
         },
         "forum": {
             "error": {
-                "failed": "",
-                "email_failed": "",
-                "useranem_failed": ""
+                "failed": "verifikasi gagal",
+                "email_failed": "Verifikasi email gagal",
+                "useranem_failed": "Verifikasi username gagal"
             }
         }
     }
