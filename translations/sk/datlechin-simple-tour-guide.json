@@ -2,29 +2,29 @@
     "datlechin-simple-tour-guide": {
         "admin": {
             "settings": {
-                "show_progress_label": "",
-                "show_progress_help": "",
-                "allow_close_label": "",
-                "allow_close_help": ""
+                "show_progress_label": "Ukázať progres",
+                "show_progress_help": "Toto ukáže aktuálny krok a totálny počet krokov hore.",
+                "allow_close_label": "Povoliť zatvorenie",
+                "allow_close_help": "Povoliť používateľom zatvoriť okno kliknutím mimo."
             },
             "edit_modal": {
-                "edit_step": "",
-                "create_step": "",
-                "delete_step": "",
-                "delete_step_confirmation": ""
+                "edit_step": "Upraviť {title}",
+                "create_step": "Vytvoriť nový krok",
+                "delete_step": "Zmazať krok",
+                "delete_step_confirmation": "Vážne si praješ zmazať tento krok?"
             },
-            "title": "",
-            "title_placeholder": "",
-            "description": "",
-            "description_placeholder": "",
-            "target": "",
-            "target_placeholder": ""
+            "title": "Názov",
+            "title_placeholder": "Názov kroku.",
+            "description": "Popisok",
+            "description_placeholder": "Popisok kroku.",
+            "target": "Cieľ",
+            "target_placeholder": "Cieľ kroku (napr. #id-prvku)."
         },
         "forum": {
-            "progress_text": "",
-            "next_btn_text": "",
-            "prev_btn_text": "",
-            "done_btn_text": ""
+            "progress_text": "{current} of {total}",
+            "next_btn_text": "Ďalej",
+            "prev_btn_text": "Späť",
+            "done_btn_text": "Ukončiť"
         }
     }
 }
