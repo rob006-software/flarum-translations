@@ -2,82 +2,82 @@
     "nodeloc-emoji": {
         "admin": {
             "settings": {
-                "emoji_settings_heading": "",
-                "category_settings_heading": "",
-                "general_ui_settings_heading": "",
-                "show_variants_label": "",
-                "show_variants_text": "",
-                "auto_hide_label": "",
-                "auto_hide_text": "",
+                "emoji_settings_heading": "Pengaturan Emoji",
+                "category_settings_heading": "Pengaturan Kategori",
+                "general_ui_settings_heading": "Pengaturan Umum UI",
+                "show_variants_label": "Tampilkan varian",
+                "show_variants_text": "Beberapa myemoji memiliki varian warna kulit. Ketika emoji dipilih pada pemilih emoji yang memiliki varian, maka akan muncul popup varian sehingga pengguna dapat memilih varian yang diinginkan.",
+                "auto_hide_label": "Sembunyi otomatis",
+                "auto_hide_text": "Menyembunyikan pemilih emoji saat emoji dipilih.",
                 "show_preview_label": "",
                 "show_category_buttons_label": "",
                 "show_search_label": "",
-                "show_recents_label": "",
-                "recents_count_label": "",
-                "recents_count_text": "",
+                "show_recents_label": "Tampilkan (dan simpan) emoji yang terakhir digunakan",
+                "recents_count_label": "Jumlah emoji yang baru saja digunakan",
+                "recents_count_text": "Jumlah emoji terbaru yang akan disimpan.",
                 "emoji_style_label": "",
-                "emoji_version_label": "",
-                "emoji_version_text": "",
+                "emoji_version_label": "Versi emoji",
+                "emoji_version_text": "Versi spesifikasi Emoji yang akan digunakan.",
                 "initial_category_label": "",
                 "initial_category_text": "",
                 "specify_categories_label": "",
-                "specify_categories_text": "",
+                "specify_categories_text": "Anda dapat menentukan daftar kategori di sini, dan pemilih emoji hanya akan menampilkan kategori tersebut.",
                 "emoji_data_label": "",
                 "emoji_data_text": "",
                 "emoji_style_native_option": "",
                 "emoji_categories": {
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": ""
+                    "smileys": "=> nodeloc-emoji.ref.emoji_categories.smileys",
+                    "people": "=> nodeloc-emoji.ref.emoji_categories.people",
+                    "animals": "=> nodeloc-emoji.ref.emoji_categories.animals",
+                    "food": "=> nodeloc-emoji.ref.emoji_categories.food",
+                    "travel": "=> nodeloc-emoji.ref.emoji_categories.travel",
+                    "activities": "=> nodeloc-emoji.ref.emoji_categories.activities",
+                    "objects": "=> nodeloc-emoji.ref.emoji_categories.objects",
+                    "symbols": "=> nodeloc-emoji.ref.emoji_categories.symbols",
+                    "flags": "=> nodeloc-emoji.ref.emoji_categories.flags"
                 }
             },
             "my_emoji_section": {
                 "heading_title": "",
                 "import_json_button": "",
                 "export_json_button": "",
-                "import_myemoji_message": "",
+                "import_myemoji_message": "Ini hanya akan mengimpor konfigurasi emoji. Anda perlu mengunggah gambar emoji secara manual.",
                 "edit_emoji": {
-                    "emoji_category_label": "",
-                    "text_to_category_name_label": "",
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
+                    "emoji_category_label": "Kode kategori",
+                    "text_to_category_name_label": "Nama kategori",
+                    "modal_title": "Tambah Emoji",
+                    "emoji_title_label": "Judul Emoji",
+                    "delete_emoji_confirmation": "Apakah Anda yakin ingin menghapus emoji ini?",
                     "text_to_replace_label": "",
                     "path_or_url_label": "",
-                    "submit_button": "",
-                    "delete_emoji_button": "",
-                    "saved_message": ""
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Hapus emoji",
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "Memasukkan emoji"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_myemoji_found_message": "",
+                "search_placeholder": "Cari Emoji",
+                "no_myemoji_found_message": "Myemoji tidak ditemukan",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "recents": "=> nodeloc-emoji.ref.emoji_categories.recents",
+                    "smileys": "=> nodeloc-emoji.ref.emoji_categories.smileys",
+                    "people": "=> nodeloc-emoji.ref.emoji_categories.people",
+                    "animals": "=> nodeloc-emoji.ref.emoji_categories.animals",
+                    "food": "=> nodeloc-emoji.ref.emoji_categories.food",
+                    "travel": "=> nodeloc-emoji.ref.emoji_categories.travel",
+                    "activities": "=> nodeloc-emoji.ref.emoji_categories.activities",
+                    "objects": "=> nodeloc-emoji.ref.emoji_categories.objects",
+                    "symbols": "=> nodeloc-emoji.ref.emoji_categories.symbols",
+                    "flags": "=> nodeloc-emoji.ref.emoji_categories.flags",
+                    "custom": "=> nodeloc-emoji.ref.emoji_categories.custom"
                 }
             }
         },
