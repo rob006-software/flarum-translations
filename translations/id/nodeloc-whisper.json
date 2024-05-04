@@ -2,38 +2,38 @@
     "nodeloc-whisper": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "title": ""
+                "return_key": "Tombol return untuk mengirim pesan",
+                "title": "Pengaturan Whisper"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "Memulai percakapan pribadi"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Percakapan"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Kirim pesan",
+                "help": "Ketik username untuk memulai obrolan.",
+                "help_start": "Kirim peasn ke {username}.",
+                "search_recipients": "Ketik username...",
+                "submit": "Kirim",
+                "copied": "Pesan Anda telah disalin ke clipboard.",
+                "more_users": "Jika Anda tidak melihat pengguna yang Anda cari, artinya mereka tidak memiliki pengaturan pesan pribadi.",
+                "already": "Anda sudah memiliki percakapan dengan {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "send_success": ""
+                "messages_single": "Percakapan baru",
+                "messages_multiple": "{count} total pesan",
+                "chat_with": "Kirim pesan",
+                "start": "Mulai Percakapan",
+                "start_of_conversation": "Mulai Percakapan",
+                "read": "Baca",
+                "cant_start": "Tidak Dapat Memulai Percakapan",
+                "text_placeholder": "Ketik pesan Anda",
+                "send": "Kirim Pesan",
+                "send_success": "Pesan berhasil terkirim"
             }
         }
     }
