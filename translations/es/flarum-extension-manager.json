@@ -2,29 +2,29 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Nuevo método de autenticación",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Host",
+                    "host_placeholder": "Ejemplo: extiverse.com",
+                    "submit_button": "Enviar",
+                    "token_label": "Token",
+                    "type_label": "Tipo",
+                    "unchanged_token_placeholder": "(sin cambios)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "¿Está seguro de que desea eliminar este método de autenticación?",
+                "delete_label": "Borrar método de autenticación",
+                "edit_label": "Editar método de autenticación",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Host",
+                    "token": "Token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "No hay métodos de autenticación configurados. Esta es una característica avanzada opcional para permitir la instalación desde repositorios privados.",
+                "remove_button_label": "Eliminar método de autenticación",
+                "title": "Métodos de autenticación",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
                     "bearer": ""
                 }
             },
