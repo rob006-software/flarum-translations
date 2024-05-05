@@ -9,8 +9,8 @@
                 "translate": "Voir les traductions"
             },
             "settings": {
-                "seemless": "",
-                "seemless-help": "",
+                "seemless": "Traduction en continu",
+                "seemless-help": "Fonctionnalité bêta. Lorsqu'elle est activée, tout le contenu des utilisateurs est traduit automatiquement dans toutes les autres langues disponibles sur le forum. Lorsqu'un utilisateur consulte un contenu multilingue, les traductions s'affichent automatiquement.",
                 "deepl": {
                     "api_key": {
                         "help": "Enregistrez-vous sur {link}. Le pilote détectera automatiquement le type de clé, gratuite ou professionnelle.",
@@ -42,16 +42,16 @@
                 },
                 "libre": {
                     "url": {
-                        "help": "",
-                        "label": ""
+                        "help": "L'URL du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez l'URL ici. Le schéma doit être `http` ou `https`.",
+                        "label": "URL du serveur"
                     },
                     "port": {
-                        "help": "",
-                        "label": ""
+                        "help": "Le port du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez le port ici.",
+                        "label": "Port du serveur"
                     },
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "(facultatif) Si votre serveur LibreTranslate a besoin d'une clé API, saisissez-la ici.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "translate-all-enabled": "Activer toutes les langues de traduction",
@@ -71,15 +71,15 @@
         },
         "forum": {
             "composer": {
-                "multi-languages": ""
+                "multi-languages": "Astuce : vous pouvez écrire avec la langue de votre choix, le forum la traduira pour vous."
             },
             "unknown-language": "[non détecté]",
             "detected-language": "Ce message est en {postLang}",
             "translate-button-label": "Traduire",
             "refresh-translation": "Actualiser la traduction",
             "original-content": {
-                "title": "",
-                "view": ""
+                "title": "Contenu original",
+                "view": "Voir le contenu original"
             },
             "manage-translations": {
                 "translations-label": "Traductions",
@@ -119,7 +119,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google Traduction",
                 "google-cloud": "Google Cloud Translate",
-                "libre": ""
+                "libre": "Libre Translate"
             },
             "settings": {
                 "api-key": "Clé API"
