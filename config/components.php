@@ -1151,6 +1151,9 @@ return [
 	'nodeloc-my-emoji' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-my-emoji/1.0.1/locale/en.yml',
 	],
+	'nodeloc-process-graph' => [
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-process-graph/0.01/locale/en.yml',
+	],
 	'nodeloc-referral' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-referral/0.0.1/locale/en.yml',
 	],
