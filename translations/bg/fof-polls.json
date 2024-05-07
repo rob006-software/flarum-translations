@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Разрешете на URL изображението да се предоставя за всяка анкетна опция",
+                "enable_global_polls": "",
+                "enable_global_polls_help": "",
                 "max_options": "Максимален брой опции за анкета",
                 "options_color_blend": "Текст за преливане на цветове в опциите за анкета",
                 "options_color_blend_help": "Използвайте това, за да използвате смесване на цветове, за да направите опциите за анкета по-четими. Деактивирайте, ако тази функция създава проблеми с външния вид на вашия форум, намалявайки четливостта.",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
                 "image_height": "",
                 "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Вижте резултатите без гласуване",
                 "start": "Стартирайте анкета",
+                "start_global": "",
                 "self_edit": "Редактиране на създадени анкети (изисква разрешение за редактиране на публикации)",
                 "self_post_edit": "Редактиране на *всички* анкети на собствени публикации (изисква разрешение за редактиране на публикации)",
                 "vote": "Гласувайте в анкети",
                 "change_vote": "Промяна на вота",
-                "moderate": "Редактиране и премахване на анкети",
-                "start_global": ""
+                "moderate": "Редактиране и премахване на анкети"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "Тази анкета приключи.",
             "public_poll": "Вижте гласувалите",
             "max_votes_allowed": "Анкетата позволява гласуване за {max, plural, one {# опция} other {# опции}}.",
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
             "poll": {
                 "cannot_change_vote": "Не можете да промените гласа си след гласуване.",
                 "submit_button": "Гласувай",
                 "start_poll_button": "",
                 "cannot_start_poll_button": ""
             },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "Нямате разрешение да започнете анкета."
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
             },
             "modal": {
                 "add_title": "Добавяне на анкета",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "Скриване на гласовете до края на анкетата",
                 "allow_change_vote_label": "Позволете на потребителите да променят вота си",
                 "question_placeholder": "Въпрос",
-                "submit": "Изпращане",
                 "subtitle_placeholder": "",
+                "submit": "Изпращане",
                 "delete": "",
                 "error": "",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "Сигурни ли сте, че искате да изтриете тази анкета?",
                 "edit": "Редактиране на анкетата"
             },
-            "tooltip": {
-                "badge": "Анкета",
-                "votes": "{count, plural, one {# глас} other {# гласа}}"
-            },
-            "votes_modal": {
-                "title": "Гласуващи"
-            },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
-            "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
-            },
-            "poll_form": {
-                "delete": "",
-                "error": ""
-            },
-            "polls_page": {
-                "title": ""
-            },
-            "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
-            },
-            "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
-            },
             "page": {
                 "nav": "",
                 "nav-all": ""
@@ -130,6 +123,13 @@
                 "ended-polls": "",
                 "no-active-polls": "",
                 "no-recent-polls": ""
+            },
+            "tooltip": {
+                "badge": "Анкета",
+                "votes": "{count, plural, one {# глас} other {# гласа}}"
+            },
+            "votes_modal": {
+                "title": "Гласуващи"
             },
             "upload_image": {
                 "remove_button": "",

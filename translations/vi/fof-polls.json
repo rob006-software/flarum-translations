@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Cho phép URL ảnh cho mỗi tuỳ chọn thăm do ý kiến",
+                "enable_global_polls": "",
+                "enable_global_polls_help": "",
                 "max_options": "",
                 "options_color_blend": "",
                 "options_color_blend_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
                 "image_height": "",
                 "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Xem kết quả mà không cần bỏ phiếu",
                 "start": "Tạo cuộc thăm dò",
+                "start_global": "",
                 "self_edit": "Cho phép chỉnh sửa cuộc thăm dò của họ",
                 "self_post_edit": "",
                 "vote": "Bình chọn cuộc thăm dò",
                 "change_vote": "Thay đổi bình chọn",
-                "moderate": "Chỉnh sửa và xóa cuộc thăm dò",
-                "start_global": ""
+                "moderate": "Chỉnh sửa và xóa cuộc thăm dò"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "Cuộc thăm dò này đã kết thúc.",
             "public_poll": "Xem người bình chọn",
             "max_votes_allowed": "",
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
             "poll": {
                 "cannot_change_vote": "",
                 "submit_button": "",
                 "start_poll_button": "",
                 "cannot_start_poll_button": ""
             },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "Thêm cuộc thăm dò",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
             },
             "modal": {
                 "add_title": "Thêm cuộc thăm dò",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "",
                 "allow_change_vote_label": "",
                 "question_placeholder": "Câu hỏi",
-                "submit": "Đồng ý",
                 "subtitle_placeholder": "",
+                "submit": "Đồng ý",
                 "delete": "",
                 "error": "",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "Bạn có chắc chắn muốn xoá cuộc thăm dò ý kiến này?",
                 "edit": "Chỉnh sửa cuộc thăm dò"
             },
-            "tooltip": {
-                "badge": "Thăm dò ý kiến",
-                "votes": "{count, plural, one {# bình chọn} other {# bình chọn}}"
-            },
-            "votes_modal": {
-                "title": "Người bình chọn"
-            },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
-            "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
-            },
-            "poll_form": {
-                "delete": "",
-                "error": ""
-            },
-            "polls_page": {
-                "title": ""
-            },
-            "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
-            },
-            "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
-            },
             "page": {
                 "nav": "",
                 "nav-all": ""
@@ -130,6 +123,13 @@
                 "ended-polls": "",
                 "no-active-polls": "",
                 "no-recent-polls": ""
+            },
+            "tooltip": {
+                "badge": "Thăm dò ý kiến",
+                "votes": "{count, plural, one {# bình chọn} other {# bình chọn}}"
+            },
+            "votes_modal": {
+                "title": "Người bình chọn"
             },
             "upload_image": {
                 "remove_button": "",

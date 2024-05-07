@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Permet que es proporcioni l'adreça web d'una imatge per a cada opció de l'enquesta",
+                "enable_global_polls": "Permetre enquestes globals",
+                "enable_global_polls_help": "Les enquestes globals no estan vinculades a cap publicació concreta sinó que són accessibles des d'una pàgina dedicada exclusivament a enquestes.",
                 "max_options": "Màxim nombre d'opcions per enquesta",
                 "options_color_blend": "Combina colors a les opcions de l'enquesta",
                 "options_color_blend_help": "Activa aquesta funció per permetre la barreja de colors per fer que les opcions de l'enquesta siguin més llegibles. Desactiva-la si causa problemes amb l'aparença del teu fòrum, reduint-ne la llegibilitat.",
-                "enable_global_polls": "Permetre enquestes globals",
-                "enable_global_polls_help": "Les enquestes globals no estan vinculades a cap publicació concreta sinó que són accessibles des d'una pàgina dedicada exclusivament a enquestes.",
                 "image_height": "",
                 "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Veure resultats sense votar",
                 "start": "Començar una enquesta",
+                "start_global": "Començar una enquesta global",
                 "self_edit": "Editar enquestes ja creades (requereix permís d'edició de publicacions)",
                 "self_post_edit": "Editar *totes* les enquestes a les publicacions pròpies (requereix permís d'edició de publicacions)",
                 "vote": "Votar a les enquestes",
                 "change_vote": "Canviar vot",
-                "moderate": "Editar i esborrar enquestes",
-                "start_global": "Començar una enquesta global"
+                "moderate": "Editar i esborrar enquestes"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "L'enquesta ha acabat.",
             "public_poll": "Veure votants",
             "max_votes_allowed": "L'enquesta permet votar {max, plural, one {# opció} other {# opcions}}.",
+            "polls_count": "{count, plural, one { {count} vot} other {{count} vots}}",
+            "poll_never_ends": "L'enquesta no acaba mai",
+            "answers": "Respostes",
             "poll": {
                 "cannot_change_vote": "No pots canviar el teu vot un cop emès.",
                 "submit_button": "Votar",
                 "start_poll_button": "Començar enquesta global",
                 "cannot_start_poll_button": "No es pot començar l'enquesta"
             },
+            "poll_controls": {
+                "edit_label": "Editar",
+                "delete_label": "Esborrar",
+                "view_label": "Veure",
+                "delete_confirmation": "Segur que vols esborrar aquesta enquesta?",
+                "delete_success_message": "Enquesta esborrada satisfactòriament.",
+                "delete_error_message": "Hi ha hagut algun problema quan s'ha esborrat l'enquesta."
+            },
+            "poll_form": {
+                "delete": "Esborrar enquesta",
+                "error": "Hi ha hagut algun error gravant l'enquesta. Si us plau, contacta l'administrador."
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "Sembla que no hi ha cap enquesta per a tota la comunitat aquí.",
+                "load_more_button": "Carregar més"
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "No tens permisos per començar una enquesta."
+            },
+            "compose": {
+                "add_title": "Afegir una enquesta",
+                "edit_title": "Editar enquesta",
+                "polls_manager": "Gestor d'enquestes",
+                "polls_preview": "Veure enquesta",
+                "continue_editing": "Seguir editant",
+                "success": "Enquesta gravada satisfactòriament."
             },
             "modal": {
                 "add_title": "Afegir una enquesta",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "Amagar els vots fins que acabi l'enquesta",
                 "allow_change_vote_label": "Permetre que els usuaris canviïn el seu vot",
                 "question_placeholder": "Pregunta",
-                "submit": "Enviar",
                 "subtitle_placeholder": "Subtítol/Descripció (opcional)",
+                "submit": "Enviar",
                 "delete": "Esborrar",
                 "error": "",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "Segur que vols esborrar aquesta enquesta?",
                 "edit": "Editar enquesta"
             },
-            "tooltip": {
-                "badge": "Enquesta",
-                "votes": "{count, plural, one {# vot} other {# vots}}"
-            },
-            "votes_modal": {
-                "title": "Votants"
-            },
-            "polls_count": "{count, plural, one { {count} vot} other {{count} vots}}",
-            "poll_never_ends": "L'enquesta no acaba mai",
-            "answers": "Respostes",
-            "poll_controls": {
-                "edit_label": "Editar",
-                "delete_label": "Esborrar",
-                "view_label": "Veure",
-                "delete_confirmation": "Segur que vols esborrar aquesta enquesta?",
-                "delete_success_message": "Enquesta esborrada satisfactòriament.",
-                "delete_error_message": "Hi ha hagut algun problema quan s'ha esborrat l'enquesta."
-            },
-            "poll_form": {
-                "delete": "Esborrar enquesta",
-                "error": "Hi ha hagut algun error gravant l'enquesta. Si us plau, contacta l'administrador."
-            },
-            "polls_page": {
-                "title": ""
-            },
-            "polls_list": {
-                "empty_text": "Sembla que no hi ha cap enquesta per a tota la comunitat aquí.",
-                "load_more_button": "Carregar més"
-            },
-            "compose": {
-                "add_title": "Afegir una enquesta",
-                "edit_title": "Editar enquesta",
-                "polls_manager": "Gestor d'enquestes",
-                "polls_preview": "Veure enquesta",
-                "continue_editing": "Seguir editant",
-                "success": "Enquesta gravada satisfactòriament."
-            },
             "page": {
                 "nav": "Enquestes",
                 "nav-all": "Afegir enquestes globals"
@@ -130,6 +123,13 @@
                 "ended-polls": "Enquestes acabades",
                 "no-active-polls": "No hi ha cap enquesta activa en aquests moments.",
                 "no-recent-polls": "No hi ha cap enquesta acabada recentment."
+            },
+            "tooltip": {
+                "badge": "Enquesta",
+                "votes": "{count, plural, one {# vot} other {# vots}}"
+            },
+            "votes_modal": {
+                "title": "Votants"
             },
             "upload_image": {
                 "remove_button": "Esborrar imatge",

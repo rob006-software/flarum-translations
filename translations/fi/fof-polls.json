@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Salli kuvan osoitteen asettaminen jokaiseen kyselyn vaihtoehtoon",
+                "enable_global_polls": "",
+                "enable_global_polls_help": "",
                 "max_options": "Maksimi määrä vaihtoehtoja per kysely",
                 "options_color_blend": "Värimuunnos teksti viestin vaihtoehdoista",
                 "options_color_blend_help": "Käytä tätä tehdäksesi kyselyn vaihtoehdoista luettavampia. Ota pois käytöstä jos tämä tuottaa ongelmia foorumin ulkoasun kanssa.",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
                 "image_height": "",
                 "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Näytä tulokset ilman vastaamista",
                 "start": "Aloita kysely",
+                "start_global": "",
                 "self_edit": "Muokkaa luotuja kyselyitä (vaatii viestin muokkaus oikeuden)",
                 "self_post_edit": "Muokkaa *kaikkia* kyselyitä omissa viesteissä (vaatii viestin muokkaus oikeuden)",
                 "vote": "Vastata kyselyissä",
                 "change_vote": "Vaihtaa vastausta",
-                "moderate": "Muokata & poistaa kyselyitä",
-                "start_global": ""
+                "moderate": "Muokata & poistaa kyselyitä"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "Kysely on loppunut.",
             "public_poll": "Näytä vastaajat",
             "max_votes_allowed": "Kyselyt sallivat äänestyksen {max, plural, one {# vaihtoehdon} other {# vaihtoehtoon}}.",
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
             "poll": {
                 "cannot_change_vote": "Et voi vaihtaa ääntäsi äänestämisen jälkeen.",
                 "submit_button": "Äänestä",
                 "start_poll_button": "",
                 "cannot_start_poll_button": ""
             },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "Sinulla ei ole oikeuksia aloittaa kyselyä."
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
             },
             "modal": {
                 "add_title": "Lisää kysely",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "Piilota äänet kunnes kysely päättyy",
                 "allow_change_vote_label": "Salli käyttäjän vaihtaa ääntään",
                 "question_placeholder": "Kysymys",
-                "submit": "Lähetä",
                 "subtitle_placeholder": "",
+                "submit": "Lähetä",
                 "delete": "",
                 "error": "",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "Haluatko varmasti poistaa tämän kyselyn?",
                 "edit": "Muokkaa kyselyä"
             },
-            "tooltip": {
-                "badge": "Kysely",
-                "votes": "{count, plural, one {# vastaus} other {# vastausta}}"
-            },
-            "votes_modal": {
-                "title": "Vastaajat"
-            },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
-            "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
-            },
-            "poll_form": {
-                "delete": "",
-                "error": ""
-            },
-            "polls_page": {
-                "title": ""
-            },
-            "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
-            },
-            "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
-            },
             "page": {
                 "nav": "",
                 "nav-all": ""
@@ -130,6 +123,13 @@
                 "ended-polls": "",
                 "no-active-polls": "",
                 "no-recent-polls": ""
+            },
+            "tooltip": {
+                "badge": "Kysely",
+                "votes": "{count, plural, one {# vastaus} other {# vastausta}}"
+            },
+            "votes_modal": {
+                "title": "Vastaajat"
             },
             "upload_image": {
                 "remove_button": "",

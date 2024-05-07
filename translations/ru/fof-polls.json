@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Разрешить изображение (URL) для каждого варианта опроса",
+                "enable_global_polls": "",
+                "enable_global_polls_help": "",
                 "max_options": "Максимальное количество вариантов опроса",
                 "options_color_blend": "Цветной текст в вариантах опроса",
                 "options_color_blend_help": "Параметр позволяет улучшить читабельность вариантов опроса. Отключите, если эта функция вызывает проблемы с внешнем видом Вашего форума и ухудшает читабельность.",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
                 "image_height": "",
                 "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Смотреть результаты без голосования",
                 "start": "Создавать опросы",
+                "start_global": "",
                 "self_edit": "Редактировать свои опросы (требуется разрешение на редактирование сообщений)",
                 "self_post_edit": "Редактировать *все* опросы в своих сообщениях (требуется разрешение на редактирование сообщений)",
                 "vote": "Голосовать в опросах",
                 "change_vote": "Изменять голос",
-                "moderate": "Редактировать / удалять опросы",
-                "start_global": ""
+                "moderate": "Редактировать / удалять опросы"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "Опрос завершён.",
             "public_poll": "Посмотреть голоса",
             "max_votes_allowed": "Опрос позволяет голосовать за {max, plural, one {# вариант} other {# вариантов}}.",
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
             "poll": {
                 "cannot_change_vote": "Вы не можете поменять свой голос после голосования.",
                 "submit_button": "Голосовать",
                 "start_poll_button": "",
                 "cannot_start_poll_button": ""
             },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "У Вас нет разрешения на создание опроса."
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
             },
             "modal": {
                 "add_title": "Добавить опрос",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "Скрыть голоса до завершения опроса",
                 "allow_change_vote_label": "Разрешить участникам изменять свой голос",
                 "question_placeholder": "Вопрос",
-                "submit": "Сохранить",
                 "subtitle_placeholder": "",
+                "submit": "Сохранить",
                 "delete": "",
                 "error": "",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "Вы уверены, что хотите удалить этот опрос?",
                 "edit": "Изменить опрос"
             },
-            "tooltip": {
-                "badge": "Опрос",
-                "votes": "{count, plural, one {# голос} other {# голосов}}"
-            },
-            "votes_modal": {
-                "title": "Участники опроса"
-            },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
-            "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
-            },
-            "poll_form": {
-                "delete": "",
-                "error": ""
-            },
-            "polls_page": {
-                "title": ""
-            },
-            "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
-            },
-            "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
-            },
             "page": {
                 "nav": "",
                 "nav-all": ""
@@ -130,6 +123,13 @@
                 "ended-polls": "",
                 "no-active-polls": "",
                 "no-recent-polls": ""
+            },
+            "tooltip": {
+                "badge": "Опрос",
+                "votes": "{count, plural, one {# голос} other {# голосов}}"
+            },
+            "votes_modal": {
+                "title": "Участники опроса"
             },
             "upload_image": {
                 "remove_button": "",

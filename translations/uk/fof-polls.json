@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Дозволити вказувати URL-адресу зображення для кожного варіанту опитування",
+                "enable_global_polls": "Увімкнути глобальні опитування",
+                "enable_global_polls_help": "Глобальні опитування не прив'язані до конкретного допису, і до них можна отримати доступ зі спеціальної сторінки опитувань.",
                 "max_options": "Максимальна кількість варіантів в одному опитуванні",
                 "options_color_blend": "Змішування кольорів тексту в опціях опитування",
                 "options_color_blend_help": "Використовуйте цю опцію для змішування кольорів, щоб зробити варіанти опитування більш читабельними. Вимкніть, якщо ця функція спричиняє проблеми із зовнішнім виглядом вашого форуму, погіршуючи його читабельність.",
-                "enable_global_polls": "Увімкнути глобальні опитування",
-                "enable_global_polls_help": "Глобальні опитування не прив'язані до конкретного допису, і до них можна отримати доступ зі спеціальної сторінки опитувань.",
                 "image_height": "Змінити висоту зображення",
                 "image_width": "Змінити ширину зображення"
             },
             "permissions": {
                 "view_results_without_voting": "Перегляд результатів без голосування",
                 "start": "Почніть опитування",
+                "start_global": "Розпочати глобальне опитування",
                 "self_edit": "Редагування створених опитувань (вимагає дозволу на редагування)",
                 "self_post_edit": "Редагувати *всі* опитування у власних дописах (вимагає дозволу на редагування допису)",
                 "vote": "Голосування в опитуваннях",
                 "change_vote": "Змінити голос",
-                "moderate": "Редагувати та видаляти опитування",
-                "start_global": "Розпочати глобальне опитування"
+                "moderate": "Редагувати та видаляти опитування"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "Опитування завершено.",
             "public_poll": "Переглянути тих хто проголосував",
             "max_votes_allowed": "В опитуванні можна проголосувати за {max, plural, one {# варіант} other {# варіанти}}.",
+            "polls_count": "{count, plural, one { {count} голос} other {{count} голосів}}",
+            "poll_never_ends": "Опитування ніколи не закінчується",
+            "answers": "Відповіді",
             "poll": {
                 "cannot_change_vote": "Ви не можете змінити свій голос після голосування.",
                 "submit_button": "Проголосувати",
                 "start_poll_button": "Розпочати глобальне опитування",
                 "cannot_start_poll_button": "Неможливо розпочати опитування"
             },
+            "poll_controls": {
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Ви дійсно хочете видалити це опитування?",
+                "delete_success_message": "Опитування успішно видалено.",
+                "delete_error_message": "Під час видалення опитування щось пішло не так."
+            },
+            "poll_form": {
+                "delete": "Видалити опитування",
+                "error": "Виникла помилка при збереженні опитування, будь ласка, зверніться до будь-якого адміністратора."
+            },
+            "polls_page": {
+                "title": "Опитування"
+            },
+            "polls_list": {
+                "empty_text": "Схоже, що тут не проводяться опитування думки спільноти.",
+                "load_more_button": "=> core.ref.load_more"
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "Ви не маєте дозволу на початок опитування."
+            },
+            "compose": {
+                "add_title": "Додати опитування",
+                "edit_title": "Редагувати опитування",
+                "polls_manager": "Менеджер опитувань",
+                "polls_preview": "Переглянути опитування",
+                "continue_editing": "Продовжити редагування",
+                "success": "Опитування успішно збережено."
             },
             "modal": {
                 "add_title": "Додати опитування",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "Приховувати голоси до завершення голосування",
                 "allow_change_vote_label": "Дозволити користувачам змінювати свій голос",
                 "question_placeholder": "Питання",
-                "submit": "Відправити",
                 "subtitle_placeholder": "Субтитри/опис (необов'язково)",
+                "submit": "Відправити",
                 "delete": "=> core.ref.delete",
                 "error": "=> core.lib.error.generic_message",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "Ви дійсно бажаєте видалити це опитування?",
                 "edit": "Редагувати опитування"
             },
-            "tooltip": {
-                "badge": "Опитування",
-                "votes": "{count, plural, one {# голос} other {# голосів}}"
-            },
-            "votes_modal": {
-                "title": "Хто проголосував"
-            },
-            "polls_count": "{count, plural, one { {count} голос} other {{count} голосів}}",
-            "poll_never_ends": "Опитування ніколи не закінчується",
-            "answers": "Відповіді",
-            "poll_controls": {
-                "edit_label": "=> core.ref.edit",
-                "delete_label": "=> core.ref.delete",
-                "view_label": "=> core.ref.view",
-                "delete_confirmation": "Ви дійсно хочете видалити це опитування?",
-                "delete_success_message": "Опитування успішно видалено.",
-                "delete_error_message": "Під час видалення опитування щось пішло не так."
-            },
-            "poll_form": {
-                "delete": "Видалити опитування",
-                "error": "Виникла помилка при збереженні опитування, будь ласка, зверніться до будь-якого адміністратора."
-            },
-            "polls_page": {
-                "title": "Опитування"
-            },
-            "polls_list": {
-                "empty_text": "Схоже, що тут не проводяться опитування думки спільноти.",
-                "load_more_button": "=> core.ref.load_more"
-            },
-            "compose": {
-                "add_title": "Додати опитування",
-                "edit_title": "Редагувати опитування",
-                "polls_manager": "Менеджер опитувань",
-                "polls_preview": "Переглянути опитування",
-                "continue_editing": "Продовжити редагування",
-                "success": "Опитування успішно збережено."
-            },
             "page": {
                 "nav": "Опитування",
                 "nav-all": "Всі глобальні опитування"
@@ -130,6 +123,13 @@
                 "ended-polls": "Підсумкові опитування",
                 "no-active-polls": "Наразі активних опитувань немає.",
                 "no-recent-polls": "Наразі немає нещодавно завершених опитувань."
+            },
+            "tooltip": {
+                "badge": "Опитування",
+                "votes": "{count, plural, one {# голос} other {# голосів}}"
+            },
+            "votes_modal": {
+                "title": "Хто проголосував"
             },
             "upload_image": {
                 "remove_button": "Видалити зображення",

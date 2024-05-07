@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "",
+                "enable_global_polls": "",
+                "enable_global_polls_help": "",
                 "max_options": "",
                 "options_color_blend": "",
                 "options_color_blend_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
                 "image_height": "",
                 "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "",
                 "start": "Ξεκινήστε μια δημοσκόπηση",
+                "start_global": "",
                 "self_edit": "Επιτρέψτε στους χρήστες να επεξεργάζονται τις δικές τους δημοσκοπήσεις",
                 "self_post_edit": "",
                 "vote": "Ψηφίστε στις δημοσκοπήσεις",
                 "change_vote": "",
-                "moderate": "Επεξεργασία και κατάργηση δημοσκοπήσεων",
-                "start_global": ""
+                "moderate": "Επεξεργασία και κατάργηση δημοσκοπήσεων"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "Αυτή η δημοσκόπηση έχει τελειώσει.",
             "public_poll": "Προβολή ψηφοφόρων",
             "max_votes_allowed": "",
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
             "poll": {
                 "cannot_change_vote": "",
                 "submit_button": "",
                 "start_poll_button": "",
                 "cannot_start_poll_button": ""
             },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "Προσθήκη δημοσκόπησης",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
             },
             "modal": {
                 "add_title": "Προσθήκη δημοσκόπησης",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "",
                 "allow_change_vote_label": "",
                 "question_placeholder": "Ερώτηση",
-                "submit": "Υποβολή",
                 "subtitle_placeholder": "",
+                "submit": "Υποβολή",
                 "delete": "",
                 "error": "",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν τη δημοσκόπηση;",
                 "edit": "Επεξεργασία δημοσκόπησης"
             },
-            "tooltip": {
-                "badge": "Δημοσκόπηση",
-                "votes": "1 ΄ψήφος|{count} ψήφοι"
-            },
-            "votes_modal": {
-                "title": "Ψηφοφόροι"
-            },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
-            "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
-            },
-            "poll_form": {
-                "delete": "",
-                "error": ""
-            },
-            "polls_page": {
-                "title": ""
-            },
-            "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
-            },
-            "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
-            },
             "page": {
                 "nav": "",
                 "nav-all": ""
@@ -130,6 +123,13 @@
                 "ended-polls": "",
                 "no-active-polls": "",
                 "no-recent-polls": ""
+            },
+            "tooltip": {
+                "badge": "Δημοσκόπηση",
+                "votes": "1 ΄ψήφος|{count} ψήφοι"
+            },
+            "votes_modal": {
+                "title": "Ψηφοφόροι"
             },
             "upload_image": {
                 "remove_button": "",

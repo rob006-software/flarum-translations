@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie",
+                "enable_global_polls": "",
+                "enable_global_polls_help": "",
                 "max_options": "Maksymalna liczba opcji w ankiecie",
                 "options_color_blend": "",
                 "options_color_blend_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
                 "image_height": "",
                 "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Podglądanie wyników bez zagłosowania",
                 "start": "Tworzenie ankiet",
+                "start_global": "",
                 "self_edit": "Edytowanie utworzonych ankiet (wymaga uprawnień do edycji posta)",
                 "self_post_edit": "Edytowanie *wszystkich* ankiet we własnych postach (wymaga uprawnień do edycji posta)",
                 "vote": "Głosowanie w ankietach",
                 "change_vote": "Zmiana głosu",
-                "moderate": "Edytowanie i usuwanie ankiet",
-                "start_global": ""
+                "moderate": "Edytowanie i usuwanie ankiet"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "Ta ankieta zakończyła się.",
             "public_poll": "Zobacz głosujących",
             "max_votes_allowed": "Ankieta umożliwia głosowanie na {max, plural, one {# opcję} few {# opcje} other {# opcji}}.",
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
             "poll": {
                 "cannot_change_vote": "Nie możesz zmienić swojego głosu po zagłosowaniu.",
                 "submit_button": "Głosuj",
                 "start_poll_button": "",
                 "cannot_start_poll_button": ""
             },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "Nie masz uprawnień, aby utworzyć ankietę."
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
             },
             "modal": {
                 "add_title": "Dodaj ankietę",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "Ukryj głosy do czasu zakończenia ankiety",
                 "allow_change_vote_label": "Pozwól użytkownikom zmienić swój głos",
                 "question_placeholder": "Pytanie",
-                "submit": "Zatwierdź",
                 "subtitle_placeholder": "",
+                "submit": "Zatwierdź",
                 "delete": "",
                 "error": "",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "Czy jesteś pewien, że chcesz usunąć tę ankietę?",
                 "edit": "Edytuj ankietę"
             },
-            "tooltip": {
-                "badge": "Ankieta",
-                "votes": "{count, plural, one {# głos} few {# głosy} other {# głosów}}"
-            },
-            "votes_modal": {
-                "title": "Głosujący użytkownicy"
-            },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
-            "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
-            },
-            "poll_form": {
-                "delete": "",
-                "error": ""
-            },
-            "polls_page": {
-                "title": ""
-            },
-            "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
-            },
-            "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
-            },
             "page": {
                 "nav": "",
                 "nav-all": ""
@@ -130,6 +123,13 @@
                 "ended-polls": "",
                 "no-active-polls": "",
                 "no-recent-polls": ""
+            },
+            "tooltip": {
+                "badge": "Ankieta",
+                "votes": "{count, plural, one {# głos} few {# głosy} other {# głosów}}"
+            },
+            "votes_modal": {
+                "title": "Głosujący użytkownicy"
             },
             "upload_image": {
                 "remove_button": "",

@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "允许图片选项",
+                "enable_global_polls": "开启全局投票",
+                "enable_global_polls_help": "全局投票没有与任何帖子绑定，可以从专门的投票页面进行访问。",
                 "max_options": "每次投票的最大选项数",
                 "options_color_blend": "在投票选项中使用颜色混合文字",
                 "options_color_blend_help": "使用该选项来用颜色混合使投票选项更加具有可读性。如果这个功能和你的论坛样式存在冲突，禁用它，但会降低可读性。",
-                "enable_global_polls": "开启全局投票",
-                "enable_global_polls_help": "全局投票没有与任何帖子绑定，可以从专门的投票页面进行访问。",
                 "image_height": "",
                 "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "无需参与投票即可查看结果",
                 "start": "发起投票",
+                "start_global": "创建一个全局投票",
                 "self_edit": "编辑已创建的投票（需要帖子编辑权限）",
                 "self_post_edit": "编辑*所有*自己帖子上的投票（需要帖子编辑权限）",
                 "vote": "参与投票",
                 "change_vote": "修改投票",
-                "moderate": "编辑或删除投票",
-                "start_global": "创建一个全局投票"
+                "moderate": "编辑或删除投票"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "投票已结束。",
             "public_poll": "查看投票详情",
             "max_votes_allowed": "允许投票给 {max} 个选项。",
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
             "poll": {
                 "cannot_change_vote": "投票后不能再次更改。",
                 "submit_button": "投票",
                 "start_poll_button": "创建全局投票",
                 "cannot_start_poll_button": "无法开启投票"
             },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "你没有权限添加投票。"
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
             },
             "modal": {
                 "add_title": "发起投票",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "隐藏投票直到投票结束",
                 "allow_change_vote_label": "允许用户更改其投票",
                 "question_placeholder": "问题",
-                "submit": "提交",
                 "subtitle_placeholder": "",
+                "submit": "提交",
                 "delete": "",
                 "error": "",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "确定要删除这个投票吗？",
                 "edit": "编辑投票"
             },
-            "tooltip": {
-                "badge": "投票",
-                "votes": "{count, plural, one {#} other {#}} 人投票"
-            },
-            "votes_modal": {
-                "title": "投票详情"
-            },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
-            "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
-            },
-            "poll_form": {
-                "delete": "",
-                "error": ""
-            },
-            "polls_page": {
-                "title": ""
-            },
-            "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
-            },
-            "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
-            },
             "page": {
                 "nav": "",
                 "nav-all": ""
@@ -130,6 +123,13 @@
                 "ended-polls": "",
                 "no-active-polls": "",
                 "no-recent-polls": ""
+            },
+            "tooltip": {
+                "badge": "投票",
+                "votes": "{count, plural, one {#} other {#}} 人投票"
+            },
+            "votes_modal": {
+                "title": "投票详情"
             },
             "upload_image": {
                 "remove_button": "",

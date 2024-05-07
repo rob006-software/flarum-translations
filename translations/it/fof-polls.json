@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "",
+                "enable_global_polls": "",
+                "enable_global_polls_help": "",
                 "max_options": "",
                 "options_color_blend": "",
                 "options_color_blend_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
                 "image_height": "",
                 "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Vedi risultati senza votare",
                 "start": "Avviare un sondaggio",
+                "start_global": "",
                 "self_edit": "Consenti agli utenti di modificare i propri sondaggi",
                 "self_post_edit": "",
                 "vote": "Votare nei Sondaggi",
                 "change_vote": "Cambia voto",
-                "moderate": "Modifica e rimozione sondaggi",
-                "start_global": ""
+                "moderate": "Modifica e rimozione sondaggi"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "Questo sondaggio è terminato.",
             "public_poll": "Visualizza votanti",
             "max_votes_allowed": "",
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
             "poll": {
                 "cannot_change_vote": "",
                 "submit_button": "",
                 "start_poll_button": "",
                 "cannot_start_poll_button": ""
             },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
             "composer_discussion": {
                 "add_poll": "Sondaggio",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
             },
             "modal": {
                 "add_title": "Aggiungi Sondaggio",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "",
                 "allow_change_vote_label": "",
                 "question_placeholder": "Domanda",
-                "submit": "Invia",
                 "subtitle_placeholder": "",
+                "submit": "Invia",
                 "delete": "",
                 "error": "",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "Sei sicuro di voler eliminare questo sondaggio?",
                 "edit": "Modifica sondaggio"
             },
-            "tooltip": {
-                "badge": "Sondaggio",
-                "votes": "{count, plural, one {# voto} other {# voti}}"
-            },
-            "votes_modal": {
-                "title": "Votanti"
-            },
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
-            "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
-            },
-            "poll_form": {
-                "delete": "",
-                "error": ""
-            },
-            "polls_page": {
-                "title": ""
-            },
-            "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
-            },
-            "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
-            },
             "page": {
                 "nav": "",
                 "nav-all": ""
@@ -130,6 +123,13 @@
                 "ended-polls": "",
                 "no-active-polls": "",
                 "no-recent-polls": ""
+            },
+            "tooltip": {
+                "badge": "Sondaggio",
+                "votes": "{count, plural, one {# voto} other {# voti}}"
+            },
+            "votes_modal": {
+                "title": "Votanti"
             },
             "upload_image": {
                 "remove_button": "",

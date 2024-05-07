@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "允許圖片選項",
+                "enable_global_polls": "啟用全局民意調查",
+                "enable_global_polls_help": "全局民意調查不與特定帖子綁定，可以從專門的民意調查頁面訪問。",
                 "max_options": "每次投票的最大選項數",
                 "options_color_blend": "投票選項中的顏色混合文字",
                 "options_color_blend_help": "使用此功能可以使用顏色混合來使投票選項更具可讀性。 如果此功能導致論壇外觀出現問題，從而降低可讀性，請禁用。",
-                "enable_global_polls": "啟用全局民意調查",
-                "enable_global_polls_help": "全局民意調查不與特定帖子綁定，可以從專門的民意調查頁面訪問。",
                 "image_height": "調整影像高度",
                 "image_width": "調整影像寬度"
             },
             "permissions": {
                 "view_results_without_voting": "無需參與投票直接查看結果",
                 "start": "發起投票",
+                "start_global": "開啟全局民意調查",
                 "self_edit": "編輯已創建的投票（需要貼文編輯權限）",
                 "self_post_edit": "編輯*所有*自己帖子上的投票（需要帖子編輯權限）",
                 "vote": "參與投票",
                 "change_vote": "修改投票",
-                "moderate": "編輯及移除投票",
-                "start_global": "開啟全局民意調查"
+                "moderate": "編輯及移除投票"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "該投票已結束。",
             "public_poll": "查看投票人",
             "max_votes_allowed": "允許投票給 {max, plural, one {# option} other {# options}}。",
+            "polls_count": "{count, plural, one { {count} vote} other {{count} votes}}",
+            "poll_never_ends": "民調永遠不會結束",
+            "answers": "答案",
             "poll": {
                 "cannot_change_vote": "投票後您無法更改投票。",
                 "submit_button": "投票",
                 "start_poll_button": "開始民意調查",
                 "cannot_start_poll_button": "無法開始投票"
             },
+            "poll_controls": {
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "您確定要刪除此投票嗎？",
+                "delete_success_message": "投票刪除成功。",
+                "delete_error_message": "刪除投票時出現問題。"
+            },
+            "poll_form": {
+                "delete": "刪除投票",
+                "error": "儲存投票時出錯，請聯絡管理員。"
+            },
+            "polls_page": {
+                "title": "民調"
+            },
+            "polls_list": {
+                "empty_text": "看起來這裡好像沒有社區範圍內的民調。",
+                "load_more_button": "=> core.ref.load_more"
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "編輯投票",
                 "no_permission_alert": "你沒有權限增加投票。"
+            },
+            "compose": {
+                "add_title": "新增投票",
+                "edit_title": "編輯投票",
+                "polls_manager": "民調管理員",
+                "polls_preview": "查看投票",
+                "continue_editing": "繼續編輯",
+                "success": "投票保存成功。"
             },
             "modal": {
                 "add_title": "新增投票",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "隱藏投票直到投票結束",
                 "allow_change_vote_label": "允許用戶更改投票",
                 "question_placeholder": "問題",
-                "submit": "送出",
                 "subtitle_placeholder": "副標題/描述（可選）",
+                "submit": "送出",
                 "delete": "=> core.ref.delete",
                 "error": "=> core.lib.error.generic_message",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "你確定要移除這個投票嗎？",
                 "edit": "編輯投票"
             },
-            "tooltip": {
-                "badge": "投票",
-                "votes": "{count, plural, one {#} other {#}} 人投票"
-            },
-            "votes_modal": {
-                "title": "投票人"
-            },
-            "polls_count": "{count, plural, one { {count} vote} other {{count} votes}}",
-            "poll_never_ends": "民調永遠不會結束",
-            "answers": "答案",
-            "poll_controls": {
-                "edit_label": "=> core.ref.edit",
-                "delete_label": "=> core.ref.delete",
-                "view_label": "=> core.ref.view",
-                "delete_confirmation": "您確定要刪除此投票嗎？",
-                "delete_success_message": "投票刪除成功。",
-                "delete_error_message": "刪除投票時出現問題。"
-            },
-            "poll_form": {
-                "delete": "刪除投票",
-                "error": "儲存投票時出錯，請聯絡管理員。"
-            },
-            "polls_page": {
-                "title": "民調"
-            },
-            "polls_list": {
-                "empty_text": "看起來這裡好像沒有社區範圍內的民調。",
-                "load_more_button": "=> core.ref.load_more"
-            },
-            "compose": {
-                "add_title": "新增投票",
-                "edit_title": "編輯投票",
-                "polls_manager": "民調管理員",
-                "polls_preview": "查看投票",
-                "continue_editing": "繼續編輯",
-                "success": "投票保存成功。"
-            },
             "page": {
                 "nav": "民調",
                 "nav-all": "所有全局民意調查"
@@ -130,6 +123,13 @@
                 "ended-polls": "民調結束",
                 "no-active-polls": "目前沒有正在進行的民意調查。",
                 "no-recent-polls": "目前沒有最近結束的民意調查。"
+            },
+            "tooltip": {
+                "badge": "投票",
+                "votes": "{count, plural, one {#} other {#}} 人投票"
+            },
+            "votes_modal": {
+                "title": "投票人"
             },
             "upload_image": {
                 "remove_button": "刪除影像",

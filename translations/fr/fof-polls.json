@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Permettre de fournir l'URL d'une image pour chaque option de sondage",
+                "enable_global_polls": "Activer les sondages globaux",
+                "enable_global_polls_help": "Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d'une page dédiée aux sondages.",
                 "max_options": "Nombre maximum d'options par sondage",
                 "options_color_blend": "Mélange de couleurs du texte dans les options de sondage",
                 "options_color_blend_help": "Utilisez cette option pour mélanger les couleurs afin de rendre les options du sondage plus lisibles. Désactivez cette fonction si elle provoque des problèmes d'apparence à votre forum qui pourraient réduire sa lisibilité.",
-                "enable_global_polls": "Activer les sondages globaux",
-                "enable_global_polls_help": "Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d'une page dédiée aux sondages.",
                 "image_height": "Redimensionner la hauteur de l'image",
                 "image_width": "Redimensionner la largeur de l'image"
             },
             "permissions": {
                 "view_results_without_voting": "Afficher les résultats sans voter",
                 "start": "Démarrer un sondage",
+                "start_global": "Démarrer un sondage global",
                 "self_edit": "Modifier les sondages créés (nécessite l'autorisation de modifier les messages)",
                 "self_post_edit": "Modifier *tous* les sondages sur ses propres messages (nécessite l'autorisation de modifier les messages)",
                 "vote": "Voter sur les sondages",
                 "change_vote": "Modifier le vote",
-                "moderate": "Modifier et supprimer les sondages",
-                "start_global": "Démarrer un sondage global"
+                "moderate": "Modifier et supprimer les sondages"
             }
         },
         "forum": {
@@ -28,16 +28,46 @@
             "poll_ended": "Ce sondage est terminé.",
             "public_poll": "Voir les votants",
             "max_votes_allowed": "Le sondage permet de voter pour {max, plural, one {# option} other {# options}}.",
+            "polls_count": "{count, plural, one { {count} vote} other {{count} votes}}",
+            "poll_never_ends": "Le sondage ne se termine jamais",
+            "answers": "Réponses",
             "poll": {
                 "cannot_change_vote": "Vous ne pouvez pas modifier votre vote après avoir voté.",
                 "submit_button": "Voter",
                 "start_poll_button": "Démarrer un sondage global",
                 "cannot_start_poll_button": "Impossible de démarrer le sondage"
             },
+            "poll_controls": {
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce sondage ?",
+                "delete_success_message": "Le sondage a été supprimé.",
+                "delete_error_message": "Un problème est survenu lors de la suppression du sondage."
+            },
+            "poll_form": {
+                "delete": "Supprimer le sondage",
+                "error": "Une erreur est survenue lors de l'enregistrement du sondage, veuillez contacter un administrateur."
+            },
+            "polls_page": {
+                "title": "Sondages"
+            },
+            "polls_list": {
+                "empty_text": "Il semble qu'il n'y ait pas de sondage communautaire ici.",
+                "load_more_button": "=> core.ref.load_more"
+            },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "Vous n'avez pas l'autorisation de démarrer un sondage."
+            },
+            "compose": {
+                "add_title": "Ajouter un sondage",
+                "edit_title": "Modifier le sondage",
+                "polls_manager": "Gestionnaire de sondages",
+                "polls_preview": "Voir le sondage",
+                "continue_editing": "Continuer la modification",
+                "success": "Le sondage a été enregistré."
             },
             "modal": {
                 "add_title": "Ajouter un sondage",
@@ -58,8 +88,8 @@
                 "hide_votes_label": "Masquer les votes jusqu'à la fin du sondage",
                 "allow_change_vote_label": "Permettre aux utilisateurs de modifier leur vote",
                 "question_placeholder": "Question",
-                "submit": "Envoyer",
                 "subtitle_placeholder": "Sous-titre ou description (facultatif)",
+                "submit": "Envoyer",
                 "delete": "=> core.ref.delete",
                 "error": "=> core.lib.error.generic_message",
                 "poll_image": {
@@ -84,43 +114,6 @@
                 "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce sondage ?",
                 "edit": "Modifier le sondage"
             },
-            "tooltip": {
-                "badge": "Sondage",
-                "votes": "{count, plural, one {# vote} other {# votes}}"
-            },
-            "votes_modal": {
-                "title": "Votants"
-            },
-            "polls_count": "{count, plural, one { {count} vote} other {{count} votes}}",
-            "poll_never_ends": "Le sondage ne se termine jamais",
-            "answers": "Réponses",
-            "poll_controls": {
-                "edit_label": "=> core.ref.edit",
-                "delete_label": "=> core.ref.delete",
-                "view_label": "=> core.ref.view",
-                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce sondage ?",
-                "delete_success_message": "Le sondage a été supprimé.",
-                "delete_error_message": "Un problème est survenu lors de la suppression du sondage."
-            },
-            "poll_form": {
-                "delete": "Supprimer le sondage",
-                "error": "Une erreur est survenue lors de l'enregistrement du sondage, veuillez contacter un administrateur."
-            },
-            "polls_page": {
-                "title": "Sondages"
-            },
-            "polls_list": {
-                "empty_text": "Il semble qu'il n'y ait pas de sondage communautaire ici.",
-                "load_more_button": "=> core.ref.load_more"
-            },
-            "compose": {
-                "add_title": "Ajouter un sondage",
-                "edit_title": "Modifier le sondage",
-                "polls_manager": "Gestionnaire de sondages",
-                "polls_preview": "Voir le sondage",
-                "continue_editing": "Continuer la modification",
-                "success": "Le sondage a été enregistré."
-            },
             "page": {
                 "nav": "Sondages",
                 "nav-all": "Tous les sondages globaux"
@@ -130,6 +123,13 @@
                 "ended-polls": "Sondages terminés",
                 "no-active-polls": "Il n'y a aucun sondage actif pour le moment.",
                 "no-recent-polls": "Il n'y a aucun sondage récemment terminé pour le moment."
+            },
+            "tooltip": {
+                "badge": "Sondage",
+                "votes": "{count, plural, one {# vote} other {# votes}}"
+            },
+            "votes_modal": {
+                "title": "Votants"
             },
             "upload_image": {
                 "remove_button": "Supprimer l'image",
