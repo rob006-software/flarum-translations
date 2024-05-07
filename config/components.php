@@ -1284,7 +1284,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-user-badges/v1.1.0/locale/en.yaml',
 	],
 	'vlssu-cravatar' => [
-		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.2.1/resources/locale/en.yml',
 	],
 	'webbinaro-affiliator' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-affiliator/0.0.5/locale/en.yml',
