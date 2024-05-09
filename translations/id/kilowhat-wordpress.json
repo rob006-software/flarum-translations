@@ -4,14 +4,32 @@
             "settings": {
                 "section_general_intro": "Pengaturan dasar yang dibutuhkan agar ekstensi dapat berfungsi.",
                 "api_key": "Flarum API Key",
+                "api_key_reset": "",
+                "api_key_reset_confirm": "",
                 "wordpress_url": "URL WordPress",
-                "wordpress_username": "Username admin WordPress",
+                "default_actor": "",
+                "default_actor_placeholder_invalid": "",
+                "default_actor_placeholder_search": "",
+                "default_actor_help": "",
+                "report_http_errors": "",
+                "report_http_errors_help": "",
                 "section_sso_intro": "Fitur ini akan menghubungkan pengguna WordPress dengan Flarum secara mulus. Sebuah akun akan secara otomatis dibuat untuk mereka dan disinkronkan dengan WordPress. Jika Anda memiliki akun yang sudah ada di Flarum, akun tersebut akan secara otomatis dicocokkan dengan email mereka. Jika Anda menghapus pengguna di Flarum, pengguna tersebut akan dibuat lagi saat akun WordPress melakukan login. Untuk memblokir pengguna Flarum, tangguhkan akun di Flarum.\n",
                 "enable_sso": "Aktifkan integrasi SSO",
+                "login_method": "",
+                "login_method_help": "",
+                "login_method_options": {
+                    "cookie": "",
+                    "redirect": "",
+                    "iframe": ""
+                },
                 "cookie_domain": "Domain Cookie",
                 "cookie_domain_help": "Hanya diperlukan jika berbeda dari domain Flarum",
+                "iframe_redirect_delay": "",
+                "iframe_redirect_delay_help": "",
                 "wordpress_login_path": "",
                 "wordpress_login_path_help": "Hanya diperlukan jika Anda mengganti nama login endpoint secara manual atau melalui plugin",
+                "wordpress_login_full_page": "",
+                "wordpress_login_full_page_help": "",
                 "username_strategy": "Username untuk pengguna baru",
                 "username_strategy_options": {
                     "user_login": "Username dari WordPress",
@@ -32,6 +50,8 @@
                     "suspend": "Tangguhkan pengguna Flarum tanpa batas waktu (Ekstensi Suspend harus diaktifkan)"
                 },
                 "user_delete_desc": "Jika Anda memilih \"hapus\", hanya pengguna yang akan dihapus, bukan konten mereka di Flarum.",
+                "role_group_sync": "",
+                "role_group_sync_help": "",
                 "section_comments_intro": "Fitur ini menggantikan komentar WordPress dengan iframe Flarum. Postingan dari tamu tidak lagi dapat dilakukan. Diskusi hanya dibuat untuk post dengan komentar yang diaktifkan di WordPress. Mengaktifkan atau menonaktifkan komentar disinkronkan dengan Flarum's discussion lock. Jika blog Anda sudah berisi postingan ketika Anda mengaktifkan fitur ini, Anda perlu mengaktifkan dan menonaktifkan komentar lagi pada setiap artikel agar diskusi Flarum dapat dibuat.\n",
                 "enable_comments": "Aktifkan integrasi komentar",
                 "excerpt_html_whitelist": "Daftar putih tag HTML yang akan disimpan di dalam kutipan (dipisahkan dengan koma)",
@@ -62,7 +82,8 @@
                     "lock": "Pertahankan dan kunci diskusi Flarum",
                     "hide": "Sembunyikan diskusi di Flarum",
                     "delete": "Menghapus secara permanen diskusi dari Flarum"
-                }
+                },
+                "wordpress_username": "Username admin WordPress"
             },
             "tabs": {
                 "wizard": "",
@@ -105,6 +126,26 @@
                 "wordpress_password": "Password admin WordPress",
                 "wordpress_password_help": "Password hanya digunakan untuk konfigurasi awal dan tidak akan disimpan.",
                 "install": "Install"
+            },
+            "role-group-sync": {
+                "head": {
+                    "role": "",
+                    "group": ""
+                },
+                "choose": {
+                    "role": "",
+                    "group": ""
+                },
+                "custom": {
+                    "role": "",
+                    "group": ""
+                },
+                "selected-custom-group": "",
+                "delete": "",
+                "role-loader": {
+                    "loading": "",
+                    "error": ""
+                }
             }
         },
         "forum": {
@@ -114,6 +155,13 @@
                 "username": "Pilih username",
                 "submit": "Aktifkan akun forum",
                 "not_now": "Lewati dan baca sebagai tamu untuk saat ini"
+            },
+            "instant-login": {
+                "welcome_known_user": "",
+                "welcome_unknown_user": "",
+                "avatar_alt_text": "",
+                "message": "",
+                "button": ""
             },
             "edit-user-modal": {
                 "warning": "Pengguna ini akan tetap tersinkronisasi dengan WordPress. Anda harus mengedit email dan password dari WordPress.\n",
@@ -153,13 +201,18 @@
                 "suspend-extension-required": "Ekstensi Suspend harus diaktifkan untuk menggunakan opsi \"Tangguhkan\" dari \"Tindakan pada penghapusan pengguna\"",
                 "cookie-domain-format": "Domain cookie tampaknya bukan domain yang valid. Periksa apakah itu hanya sebuah domain tanpa protokol atau path",
                 "login-only-signup-open": "Anda perlu menonaktifkan Pendaftaran di bawah izin Flarum agar pengaturan \"Hanya izinkan login dengan WordPress\" dapat sepenuhnya diterapkan",
+                "role-group-sync-syntax": "",
+                "role-group-sync-incomplete": "",
+                "role-group-sync-invalid-group": "",
+                "role-group-sync-invalid-role": "",
                 "lock-extension-required": "Ekstensi Lock harus diaktifkan untuk menggunakan integrasi Komentar",
                 "tags-extension-required": "",
                 "tag-not-exist": "",
                 "debug-mode": "Mode debug Flarum diaktifkan. Nonaktifkan setelah Anda selesai melakukan debug",
                 "config-url-trailing-slash": "URL Flarum yang didefinisikan di config.php tidak boleh memiliki garis miring (nilai saat ini: \"{url}\")",
                 "config-url-https": "URL Flarum yang didefinisikan di config.php haruslah HTTPS (nilai saat ini: \"{url}\")",
-                "wordpress-username-missing": "Pengaturan \"Username admin WordPress\" harus diisi",
+                "default-actor-not-set": "",
+                "default-actor-not-found": "",
                 "api-key-missing": "",
                 "wordpress-url-missing": "Pengaturan \"URL WordPress\" harus diisi",
                 "wordpress-url-invalid": "Pengaturan \"URL WordPress\" tampaknya bukan merupakan URL yang valid (nilai saat ini: \"{url}\")",
@@ -173,21 +226,24 @@
                 "user-id-not-admin": "Pengaturan \"ID Pengguna Flarum\" di WordPress tidak cocok dengan administrator Flarum (nilai saat ini: \"{actual}\"). Untuk menggunakan pengguna yang saat ini masuk, Anda dapat menggunakan ID \"{suggested}\"\n",
                 "sso-mismatch-flarum": "Integrasi SSO diaktifkan di Flarum, tetapi tidak di WordPress",
                 "sso-mismatch-wordpress": "Integrasi SSO diaktifkan di WordPress, tetapi tidak di Flarum",
-                "cookie-domain-mismatch": "Pengaturan \"Domain cookie\" di WordPress tidak sesuai dengan pengaturan \"Domain Cookie\" di Flarum (nilai WordPress adalah \"{wordpress}\", nilai Flarum adalah \"{flarum}\")",
                 "comments-mismatch-flarum": "Integrasi Komentar diaktifkan di Flarum, tetapi tidak di WordPress",
                 "comments-mismatch-wordpress": "Integrasi Komentar diaktifkan di WordPress, tetapi tidak di Flarum",
                 "api-error-json": "",
                 "api-error-401": "Mencoba mengakses API WordPress menghasilkan kesalahan 401. Periksa kembali \"username admin WordPress\" di Flarum dan \"Flarum API Key\" di WordPress",
-                "api-error-other": ""
+                "api-error-other": "",
+                "wordpress-username-missing": "Pengaturan \"Username admin WordPress\" harus diisi",
+                "cookie-domain-mismatch": "Pengaturan \"Domain cookie\" di WordPress tidak sesuai dengan pengaturan \"Domain Cookie\" di Flarum (nilai WordPress adalah \"{wordpress}\", nilai Flarum adalah \"{flarum}\")"
             },
             "wizard": {
                 "already_installed": "",
                 "api_unauthorized": "Kami tidak dapat mengautentikasi dengan kredensial yang diberikan. Periksa ulang URL, username, dan password. Periksa dokumentasi untuk mengetahui langkah-langkah pemecahan masalah lebih lanjut.\n",
+                "api_error_generic": "",
+                "invalid_wordpress_url": "Pengaturan \"Alamat WordPress (URL)\" pada WordPress tampaknya bukan merupakan URL yang valid ({actual}).",
                 "api_error_get": "Terjadi kesalahan saat melakukan GET request ke pengaturan WordPress ({exception}).",
                 "api_error_post": "Terjadi kesalahan saat melakukan POST request ke pengaturan WordPress ({exception}).",
-                "invalid_wordpress_url": "Pengaturan \"Alamat WordPress (URL)\" pada WordPress tampaknya bukan merupakan URL yang valid ({actual}).",
                 "plugin_not_installed": "Plugin WordPress tampaknya tidak diinstal atau diaktifkan pada situs WordPress tersebut. Pastikan Anda telah menginstal setidaknya versi 1.2.0.\n"
-            }
+            },
+            "sync_setting_error": ""
         },
         "views": {
             "error": {

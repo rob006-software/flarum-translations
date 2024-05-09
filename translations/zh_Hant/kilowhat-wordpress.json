@@ -4,14 +4,32 @@
             "settings": {
                 "section_general_intro": "本插件工作所需的基本設置。",
                 "api_key": "Flarum API Key",
+                "api_key_reset": "",
+                "api_key_reset_confirm": "",
                 "wordpress_url": "WordPress URL",
-                "wordpress_username": "WordPress 管理員用戶名",
+                "default_actor": "",
+                "default_actor_placeholder_invalid": "",
+                "default_actor_placeholder_search": "",
+                "default_actor_help": "",
+                "report_http_errors": "",
+                "report_http_errors_help": "",
                 "section_sso_intro": "此功能將無縫綁定 WordPress 和 Flarum 帳號。系統將自動為他們創建帳號並與 WordPress 保持同步。如果您在 Flarum 中已有帳號，系統將自動透過郵箱綁定重覆的帳號。如果您透過 Flarum 刪除了一個用戶，那麽下次該用戶仍然可以使用 WordPress 帳號登入恢復帳號。要封鎖一個 Flarum 用戶，請在 Flarum 中封鎖該帳戶。\n",
                 "enable_sso": "啟用SSO登入集成",
+                "login_method": "",
+                "login_method_help": "",
+                "login_method_options": {
+                    "cookie": "",
+                    "redirect": "",
+                    "iframe": ""
+                },
                 "cookie_domain": "Cookie域名",
                 "cookie_domain_help": "只當與 Flarum 域名不同時才需填寫",
+                "iframe_redirect_delay": "",
+                "iframe_redirect_delay_help": "",
                 "wordpress_login_path": "WordPress登入路徑",
                 "wordpress_login_path_help": "只當您手動或透過插件修改端點名稱時才須填寫",
+                "wordpress_login_full_page": "",
+                "wordpress_login_full_page_help": "",
                 "username_strategy": "新用戶的用戶名",
                 "username_strategy_options": {
                     "user_login": "WordPress的用戶名",
@@ -32,6 +50,8 @@
                     "suspend": "永久封鎖 Flarum 用戶（必須已經啟用 Suspend 插件）"
                 },
                 "user_delete_desc": "如果選擇「刪除」，則只刪除用戶，不刪除 Flarum 中已發表的內容。",
+                "role_group_sync": "",
+                "role_group_sync_help": "",
                 "section_comments_intro": "此功能使用 Flarum 框架替換 WordPress 評論模塊。 這會使未登入訪客無法發表評論。 只有在 WordPress 中啟用了評論功能的貼文才會創建對應的主題。 啟用或禁用評論功能時，Flarum 會同步鎖定主題。 如果您啟用此功能時，您的博客已經有文章存在，您需要在每篇文章上手動禁用並重新啟用評論功能以創建 Flarum 主題。\n",
                 "enable_comments": "啟用評論集成",
                 "excerpt_html_whitelist": "要保留在摘錄中的 HTML 標籤白名單（半角逗號分隔）",
@@ -62,7 +82,8 @@
                     "lock": "保留並鎖定 Flarum 主題",
                     "hide": "隱藏 Flarum 主題",
                     "delete": "永久刪除 Flarum 主題"
-                }
+                },
+                "wordpress_username": "WordPress 管理員用戶名"
             },
             "tabs": {
                 "wizard": "安裝指引",
@@ -105,6 +126,26 @@
                 "wordpress_password": "WordPress 管理員密碼",
                 "wordpress_password_help": "該密碼僅用於初始化配置，不被任何形式存儲。",
                 "install": "安裝"
+            },
+            "role-group-sync": {
+                "head": {
+                    "role": "",
+                    "group": ""
+                },
+                "choose": {
+                    "role": "",
+                    "group": ""
+                },
+                "custom": {
+                    "role": "",
+                    "group": ""
+                },
+                "selected-custom-group": "",
+                "delete": "",
+                "role-loader": {
+                    "loading": "",
+                    "error": ""
+                }
             }
         },
         "forum": {
@@ -114,6 +155,13 @@
                 "username": "選擇用戶名",
                 "submit": "啟用論壇帳戶",
                 "not_now": "暫且跳過並以訪客身份瀏覽"
+            },
+            "instant-login": {
+                "welcome_known_user": "",
+                "welcome_unknown_user": "",
+                "avatar_alt_text": "",
+                "message": "",
+                "button": ""
             },
             "edit-user-modal": {
                 "warning": "該用戶與 WordPress 保持同步，請從 WordPress 中修改電子郵件和密碼。\n",
@@ -153,13 +201,18 @@
                 "suspend-extension-required": "必須啟用暫停擴充套件才能使用「用戶刪除操作」的「暫停」選項",
                 "cookie-domain-format": "cookie 域似乎不是有效域。 檢查它是否只是一個沒有任何協議或路徑的域",
                 "login-only-signup-open": "您需要在 Flarum 權限下禁用註冊才能使“僅允許 WordPress 登入”設置完全生效",
+                "role-group-sync-syntax": "",
+                "role-group-sync-incomplete": "",
+                "role-group-sync-invalid-group": "",
+                "role-group-sync-invalid-role": "",
                 "lock-extension-required": "必須啟用 Lock 擴充套件才能使用 Comments 集成",
                 "tags-extension-required": "如需要增加標籤請啟用標籤擴充套件",
                 "tag-not-exist": "為“新評論主題的標籤 ID”選項選擇的標籤 ID {id} 不存在",
                 "debug-mode": "除錯模式已啟用如果完成後請關閉",
                 "config-url-trailing-slash": "config.php 中定義的 Flarum URL 不應有尾部斜線（目前值：“{url}”）",
                 "config-url-https": "config.php 中定義的 Flarum URL 應該是 HTTPS（目前值：“{url}”）",
-                "wordpress-username-missing": "必須填寫“WordPress 管理員用戶名”設置",
+                "default-actor-not-set": "",
+                "default-actor-not-found": "",
                 "api-key-missing": "“Flarum API 密鑰”丟失。 嘗試重整管理面板並檢查日誌檔案是否存在可能的錯誤",
                 "wordpress-url-missing": "必須填寫“WordPress URL”設置",
                 "wordpress-url-invalid": "“WordPress URL”設置似乎不是有效的 URL（目前值：“{url}”）",
@@ -173,21 +226,24 @@
                 "user-id-not-admin": "WordPress 中的“Flarum 用戶 ID”設置與 Flarum 管理員不匹配（目前值：“{actual}”）。 要使用目前登入的用戶，您可以使用 ID“{suggested}”\n",
                 "sso-mismatch-flarum": "SSO 集成在 Flarum 中啟用，但在 WordPress 中未啟用",
                 "sso-mismatch-wordpress": "SSO 集成在 WordPress 中啟用，但在 Flarum 中未啟用",
-                "cookie-domain-mismatch": "WordPress 中的“Cookie 域”設置與 Flarum 中的“Cookie 域”設置不匹配（WordPress 值為“{wordpress}”，Flarum 值為“{flarum}”）",
                 "comments-mismatch-flarum": "評論集成在 Flarum 中啟用，但在 WordPress 中未啟用",
                 "comments-mismatch-wordpress": "Comments 集成在 WordPress 中啟用，但在 Flarum 中未啟用",
                 "api-error-json": "嘗試訪問 WordPress API 時出現錯誤：{message} - Body: {body}",
                 "api-error-401": "嘗試訪問 WordPress API 時出現 401 錯誤。 仔細檢查 Flarum 中的“Wordpress 管理員用戶名”和 Wordpress 中的“Flarum API 密鑰”",
-                "api-error-other": "嘗試訪問 WordPress API 時出現錯誤：{message}"
+                "api-error-other": "嘗試訪問 WordPress API 時出現錯誤：{message}",
+                "wordpress-username-missing": "必須填寫“WordPress 管理員用戶名”設置",
+                "cookie-domain-mismatch": "WordPress 中的“Cookie 域”設置與 Flarum 中的“Cookie 域”設置不匹配（WordPress 值為“{wordpress}”，Flarum 值為“{flarum}”）"
             },
             "wizard": {
                 "already_installed": "Flarum 已經與 WordPress 連接。 要再次運行該嚮導，請刪除 Flarum 中的“WordPress URL”設置和 WordPress 中的“Flarum API 密鑰”設置。\n",
                 "api_unauthorized": "我們無法使用提供的憑據進行身份驗證。 仔細檢查 URL、用戶名和密碼。 查看文檔以了解更多故障排除步驟。\n",
+                "api_error_generic": "",
+                "invalid_wordpress_url": "WordPress 中的“WordPress 地址 (URL)”設置似乎不是有效的 URL ({actual})。",
                 "api_error_get": "對 WordPress 設置執行 GET 請求時出錯（{exception}）。",
                 "api_error_post": "對 WordPress 設置執行 POST 請求時出錯（{exception}）。",
-                "invalid_wordpress_url": "WordPress 中的“WordPress 地址 (URL)”設置似乎不是有效的 URL ({actual})。",
                 "plugin_not_installed": "該 WordPress 網站上似乎沒有安裝或啟用 WordPress 插件。 確保您至少安裝了 1.2.0 版。\n"
-            }
+            },
+            "sync_setting_error": ""
         },
         "views": {
             "error": {
