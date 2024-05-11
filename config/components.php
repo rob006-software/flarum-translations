@@ -1259,7 +1259,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tohsakrat/save-and-load-draft-automatically/v1.10/resources/locale/en.yml',
 	],
 	'tohsakarat-tags-filter' => [
-		'tag' => 'https://raw.githubusercontent.com/tohsakrat/flarum-tags-filter/v1.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/tohsakrat/flarum-tags-filter/v1.0.6/locale/en.yml',
 	],
 	'tokenjenny-web3' => [
 		'tag' => 'https://raw.githubusercontent.com/tokenjenny/flarum-ext-web3/v0.0.2/resources/locale/en.yml',
