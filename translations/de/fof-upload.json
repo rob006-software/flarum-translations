@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Alle Dateien, die der Benutzer hochgeladen hat.",
+                    "anonymize_description": "Entfernt den Benutzerbezug aus den hochgeladenen Dateien. Die Dateien selbst bleiben für Benutzer zugänglich, die sie vor der Anonymisierung ansehen konnten.",
+                    "delete_description": "Löscht alle vom Benutzer hochgeladenen Dateien."
                 }
             }
         }
@@ -13,14 +13,14 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Gemeinsame Dateien"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Dateien hochladen, die von allen Benutzern des Forums verwendet werden können.",
+                "introduction": "Gemeinsame Uploads sind Dateien, die von allen Benutzern des Forums genutzt werden können. Sie sind nicht an einen Beitrag angehängt, können aber mit Hilfe des Medienmanagers in Beiträge eingefügt werden.\n\n<strong>Warnung:</strong> Gemeinsame Uploads sind nicht durch irgendwelche Rechte geschützt. Jeder, der die URL hat, kann sie sehen.\n",
+                "no-files": "Es sind noch keine gemeinsamen Dateien hochgeladen worden.",
+                "title": "Gemeinsame Dateien",
+                "upload-new-button": "Neue Datei hochladen"
             },
             "pane": {
                 "title": "Hochladen",
@@ -109,8 +109,8 @@
                 "upload_label": "Dateien hochladen",
                 "view_user_uploads_label": "Benutzer-Uploads anzeigen",
                 "delete_uploads_of_others_label": "Benutzer-Uploads löschen",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "Gemeinsame Dateien hochladen",
+                "access_shared_label": "Zugriff auf freigegebene Dateien in Media Manager"
             },
             "templates": {
                 "file": "Standard Datei-Downloadvorlage",
