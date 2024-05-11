@@ -26,7 +26,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "{count, plural, one {<b>#</b>gönderisi {titles} tartışmasından birleştirildi.} other {<b>#</b> gönderisi {titles} tartışmasından birleştirildi.}}"
+                "merged": "{count, plural, one {<b>#</b> gönderi {titles} tartışmasından birleştirildi.} other {<b>#</b> gönderi {titles} tartışmasından birleştirildi.}}"
             }
         },
         "admin": {
