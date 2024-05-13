@@ -11,7 +11,7 @@
             "modal": {
                 "title": "表情",
                 "anonymous_count": "{count} 位匿名用户",
-                "no_reactions": "还没有任何反应"
+                "no_reactions": "暂无反应"
             },
             "mod_item": "查看表情",
             "react_button_label": "戳表情"
@@ -25,7 +25,7 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "默认情况下，我们从 Cloudflare 的 CDN 获取反应的图片资源。因有需求，你也可以指定其它的 CDN 地址。\n<code>[codepoint]</code>将会被表情的码位取代。\n\n例如，要切换到 jsDelivr 上的 Noto Emoji，你会输入<code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>。这个字段无论如何都不能够留空。\n",
+                    "help": "默认情况下，我们从 Cloudflare 的 CDN 获取反应的图片资源。如有需要，您也可以指定其它的 CDN 地址。\n<code>[codepoint]</code>为表情代码的占位符。\n\n例如，要使用 jsDelivr 上的 Noto Emoji，请输入<code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>。此设置不得为空。\n",
                     "label": "URL",
                     "default-url": "默认：{url}"
                 },
@@ -37,7 +37,7 @@
                         "display": "描述",
                         "identifier": "标识名"
                     },
-                    "delete_confirmation": "你确定要删除此反应吗？此操作无法撤销。"
+                    "delete_confirmation": "确定要删除此反应吗？此操作无法撤销。"
                 },
                 "convert": {
                     "help": "如果您刚刚更新本扩展，此操作将转换所有帖子的戳一戳表情。如果您刚刚安装本插件，请忽略本条消息。",
@@ -47,9 +47,9 @@
                 },
                 "settings": {
                     "react_own_posts_help": "启用此项，添加一个权限，允许用户戳自己的帖子。如需禁止，请禁用此项。",
-                    "react_own_posts_label": "允许用户在自己的帖子作出反应，",
-                    "allow-anonymous": "允许匿名（游客）作出反应",
-                    "allow-anonymous-help": "如果启用了，游客和匿名用户将可以对帖子作出反应。请注意匿名翻译不会被关联到一个用户资料且其不会出现在反应列表。",
+                    "react_own_posts_label": "允许用户对自己的帖子作出反应，",
+                    "allow-anonymous": "允许匿名（游客）反应",
+                    "allow-anonymous-help": "启用此项，允许游客和匿名用户对帖子作出反应。请注意匿名反应不与任何用户关联，仅出现在反应清单中。",
                     "save_settings": "保存设置",
                     "integrations": {
                         "legend": "整合",
