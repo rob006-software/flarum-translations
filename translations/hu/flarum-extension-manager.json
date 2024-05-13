@@ -73,9 +73,9 @@
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "Mutassa meg, miért nem frissült a legújabb verzióra.",
+                "check_why_it_failed_updating": "Megjelenítés, hogy miért nem frissült a legújabb verzióra.",
                 "install": "Új bővítmény telepítése",
-                "install_help": "A folytatáshoz adja meg a bővítmény csomagjának nevét. Megadhat <semantic_link>szemantikus verziót</semantic_link> a következő formátumban<code>vendor/package-name:version</code>. Látogassa meg az {extiverse} oldalt a bővítmények böngészéséhez.\n",
+                "install_help": "A folytatáshoz adja meg a bővítmény csomagjának nevét. Megadhat egy <semantic_link>szemantikus verziót</semantic_link> a következő formátumban: <code>vendor/package-name:version</code>. Látogassa meg az {extiverse} oldalt a bővítmények böngészéséhez.\n",
                 "proceed": "Tovább",
                 "remove": "Eltávolítás",
                 "successful_install": "{extension} sikeresen telepítve, átirányítás..",
@@ -87,14 +87,14 @@
             },
             "file_permissions": "A bővítménykezelő a következő fájlok és könyvtárak olvasási és írási jogosultságait igényli: composer.json, composer.lock, vendor, storage, storage/.composer.\n",
             "major_updater": {
-                "description": "A nagyobb Flarum-frissítések nem kompatibilisek visszafelé, ami azt jelenti, hogy a jelenleg telepített bővítmények és kézzel végzett módosítások egy része nem feltétlenül működik az új verzióval. Kérjük, a folytatás előtt készítsen biztonsági mentést az adatbázisáról és a fájljairól.\n",
+                "description": "A nagyobb Flarum-frissítések nem kompatibilisek visszafelé, ami azt jelenti, hogy a jelenleg telepített bővítmények és kézzel végzett módosítások egy része nem feltétlenül működik az új verzióval. A folytatás előtt készítsen biztonsági mentést az adatbázisáról és a fájljairól.\n",
                 "dry_run": "Próbaüzem",
-                "dry_run_help": "A próbaüzem emulálja a frissítést, hogy lássa a jelenlegi beállítások biztonságosan frissíthetők-e. Ez nem jelenti azt, hogy a kézzel készített egyéni módosítások működni fognak az újabb verzióban.",
+                "dry_run_help": "A próbaüzem emulálja a frissítést, hogy lássa, hogy a jelenlegi beállítások biztonságosan frissíthetők-e. Ez nem jelenti azt, hogy a kézzel készített egyéni módosítások működni fognak az újabb verzióban.",
                 "failure": {
-                    "desc": "A legutóbbi nagy frissítés nem sikerült, néhány telepített bővítmény nem kompatibilis az új nagy kiadással.",
+                    "desc": "A legutóbbi főverzió-frissítés nem sikerült, néhány telepített bővítmény nem kompatibilis az új főverzióval.",
                     "why": "Tudjon meg többet"
                 },
-                "title": "Flarum {version} főverzió frissítés elérhető",
+                "title": "Flarum {version} főverzió-frissítés érhető el",
                 "update": "Frissítés"
             },
             "minor_update_confirmation": {
@@ -107,7 +107,7 @@
                 "queue": {
                     "columns": {
                         "details": "Részletek",
-                        "elapsed_time": "Befejeződött",
+                        "elapsed_time": "Befejeződött:",
                         "peak_memory_used": "Csúcs memóriahasználat",
                         "operation": "Művelet",
                         "package": "Csomag",
