@@ -2,79 +2,79 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Új hitelesítési módszer",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Host",
+                    "host_placeholder": "például: extiverse.com",
+                    "submit_button": "Beküldés",
+                    "token_label": "Token",
+                    "type_label": "Típus",
+                    "unchanged_token_placeholder": "(változatlan)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Biztos hogy törölni szeretné ezt a hitelesítési módszert?",
+                "delete_label": "Hitelesítési módszer törlése",
+                "edit_label": "Hitelesítési módszer szerkesztése",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Host",
+                    "token": "Token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Nincs megerősítési módszer beállítva. Ez egy opcionális lehetőség, amely lehetővé teszi a telepítést privát tárolókból.",
+                "remove_button_label": "Hitelesítési módszer törlése",
+                "title": "Megerősítési módszerek",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Tároló hozzáadása",
+                "delete_repository_confirmation": "Biztos benne, hogy törölni szeretné ezt a tárolót? Minden bővítmény ami ebből a tárolóból volt telepítve, törlésre kerül.",
+                "delete_repository_label": "Tároló törlése",
+                "edit_repository_label": "Tároló szerkesztése",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Minimum stabilitás",
+                    "help": "Telepíthető csomagok típusa. Ne változtassa meg, hacsak nem tudja mit csinál.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stabil (Ajánlott)",
+                        "rc": "Kiadásra Jelölt (RC)",
+                        "beta": "Béta",
+                        "alpha": "Alfa",
+                        "dev": "Fejlesztői verzió"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Tárolók",
+                    "help": "További tárolók hozzáadása a csomagok telepítéséhez. Ez egy haladó funkció, ne adjon hozzá olyan tárolókat, amelyek nem megbízhatóak, mivel rosszindulatú kódok futtatására használhatják a szerveren.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "útvonal"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Név",
+                        "type_label": "Típus",
+                        "url": "Link",
+                        "submit_button": "Beküldés"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "A végrehajtás sikertelen. Ellenőrizze a composer naplóit a storage/logs/composer könyvtárban.",
+                "extension_already_installed": "A bővítmény már telepítve van.",
+                "extension_not_directly_dependency": "A bővítmény egy másik bővítmény függőségeként van telepítve, nem lehet közvetlenül eltávolítani.",
+                "extension_not_installed": "Bővítmény nem található.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "A bővítmény valószínűleg nem kompatibilis az ön által használt Flarum verziójával.",
+                    "extension_not_found": "A bővítmény nem található vagy nem létezik.",
+                    "extensions_incompatible_with_new_major": "Néhány telepített bővítmény nem kompatibilis a legújabb főverzióval. Kérjük, várja meg amíg a bővítményeket a szerzők kompatibilissé frissítik, vagy távolítsa el őket a folytatás előtt.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
+                "check_why_it_failed_updating": "Mutassa meg, miért nem frissült a legújabb verzióra.",
+                "install": "Új bővítmény telepítése",
                 "install_help": "",
                 "proceed": "",
                 "remove": "",
