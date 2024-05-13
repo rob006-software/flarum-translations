@@ -2,44 +2,44 @@
     "blomstra-horizon": {
         "admin": {
             "settings": {
-                "trim_title": "Trim设置",
-                "trim_help": "你可以在这里配置你期望保存近期任务和失败任务\n的时间（分钟）。默认情况下，最近任务将保存一小时，\n全部的失败任务将保存一周。\n",
-                "trim_recent": "Trim最近任务",
-                "trim_recent_help": "",
-                "trim_pending": "",
-                "trim_pending_help": "",
-                "trim_completed": "",
-                "trim_completed_help": "",
-                "trim_recent_failed": "",
-                "trim_recent_failed_help": "",
-                "trim_failed": "",
-                "trim_failed_help": "",
-                "trim_monitored": "",
-                "trim_monitored_help": ""
+                "trim_title": "保留设置",
+                "trim_help": "您可以配置 Horizon 保留最近和失败任务的时间（以分钟为单位）。\n通常，最近的任务保留一个小时，失败的任务保留一周。\n",
+                "trim_recent": "最近任务",
+                "trim_recent_help": "在 Horizon 面板中展示最近任务。\n",
+                "trim_pending": "待办任务",
+                "trim_pending_help": "在 Horizon 面板中展示待办任务。\n",
+                "trim_completed": "已完成任务",
+                "trim_completed_help": "在 Horizon 面板中展示已完成任务。\n",
+                "trim_recent_failed": "最近失败任务",
+                "trim_recent_failed_help": "在 Horizon 面板中展示最近失败的任务。\n",
+                "trim_failed": "失败任务",
+                "trim_failed_help": "在 Horizon 面板中展示失败的任务。\n",
+                "trim_monitored": "监控任务",
+                "trim_monitored_help": "在 Horizon 面板中展示监控的任务。\n"
             },
             "stats": {
                 "auto_refresh": "自动刷新",
                 "heading": "队列概览",
-                "full_dashboard": "",
-                "refresh": "",
+                "full_dashboard": "Horizon 面板",
+                "refresh": "刷新",
                 "data": {
-                    "redis-used-memory": "",
-                    "redis-peak-memory": "",
-                    "redis-max-memory": "",
-                    "redis-cpu-user": "",
-                    "redis-cpu-sys": "",
-                    "jobs-per-minute": "",
-                    "jobs-past-hour": "",
-                    "failed-last-seconds": "",
+                    "redis-used-memory": "Redis 已用内存",
+                    "redis-peak-memory": "Redis 峰值内存",
+                    "redis-max-memory": "Redis 最大内存",
+                    "redis-cpu-user": "Redis CPU 用户态消耗",
+                    "redis-cpu-sys": "Redis CPU 主进程消耗",
+                    "jobs-per-minute": "每分钟任务数",
+                    "jobs-past-hour": "每小时任务数",
+                    "failed-last-seconds": "最近失败任务",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "状态",
+                        "running": "正在执行",
+                        "inactive": "未激活"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-runtime": "",
-                    "max-throughput": ""
+                    "total-processes": "执行总数",
+                    "max-wait-time": "最长等待时间",
+                    "max-runtime": "最长执行时间",
+                    "max-throughput": "最大吞吐量"
                 }
             }
         }
