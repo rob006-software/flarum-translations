@@ -2,18 +2,18 @@
     "fof-geoip": {
         "admin": {
             "settings": {
-                "title": "FoF GeoIP",
+                "title": "FriendsOfFlarum GeoIP",
                 "service_label": "服务",
                 "service_ipdata_label": "IPData",
-                "service_ipdata_description": "<b>https://ipdata.co</b>，每日可免费查询 1,500 次。",
+                "service_ipdata_description": "<b>https://ipdata.co</b> 每日可免费查询 1500 次，付费计划可提升使用上限。",
                 "service_ipapi_label": "IP Api",
-                "service_ipapi_description": "<b>http://ip-api.com</b> 每分钟可免费查询 45 次。请求数超额时，您的请求将会放入队列，等待查询次数重置后再查询。",
+                "service_ipapi_description": "<b>http://ip-api.com</b> 每分钟可免费查询 45 次。请求数超额时，您的请求将会放入队列，等待查询次数重置后再处理。",
                 "service_ipapi-pro_label": "IP Api Pro",
-                "service_ipapi-pro_description": "在 <b>https://members.ip-api.com/#pricing</b> 购买专业版本可升级为无限制使用。",
-                "service_iplocation_label": "IP 属地",
-                "service_iplocation_description": "使用 <b>https://www.iplocation.net/</b> 检索国家及 ISP 数据。查询速率限制位置。",
-                "service_ipsevenex_label": "7x 地理位置定位 API",
-                "service_ipsevenex_description": "使用 <b>https://7x.ax</b> 获取 API Key，并获得每分钟 20 次的免费查询额度。付费计划可获得更高的使用额度。",
+                "service_ipapi-pro_description": "<b>https://members.ip-api.com/#pricing</b> 服务。购买专业版本可无限制使用。",
+                "service_iplocation_label": "IP Location",
+                "service_iplocation_description": "<b>https://www.iplocation.net/</b> 可以获取国家/地区和运营商数据，查询限制未知。",
+                "service_ipsevenex_label": "7x API",
+                "service_ipsevenex_description": "<b>https://7x.ax</b> 每分钟可免费查询 20 次，付费计划可提升使用上限。",
                 "access_key_label": "Access Key",
                 "quota_label": "查询额度",
                 "service_ipstack_label": "IPStack",
@@ -31,16 +31,16 @@
             "map_modal": {
                 "title": "IP 信息",
                 "ip_address": "IP 地址",
-                "country_code": "国家缩写",
-                "zip_code": "",
+                "country_code": "国家/地区代码",
+                "zip_code": "邮政编码",
                 "isp": "运营商",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "as": "AS 号",
+                "mobile": "蜂窝网络",
+                "organization": "组织机构",
+                "threat_level": "威胁等级",
+                "threat_types": "威胁类型",
+                "error": "错误",
+                "not_enough_data": "数据不足，无法绘制地图"
             }
         }
     }
