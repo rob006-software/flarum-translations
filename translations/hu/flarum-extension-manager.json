@@ -4,42 +4,42 @@
             "auth_config": {
                 "add_label": "Új hitelesítési módszer",
                 "add_modal": {
-                    "host_label": "Host",
+                    "host_label": "Kiszolgáló",
                     "host_placeholder": "például: extiverse.com",
                     "submit_button": "Beküldés",
                     "token_label": "Token",
                     "type_label": "Típus",
                     "unchanged_token_placeholder": "(változatlan)"
                 },
-                "delete_confirmation": "Biztos hogy törölni szeretné ezt a hitelesítési módszert?",
+                "delete_confirmation": "Biztos, hogy törli ezt a hitelesítési módszert?",
                 "delete_label": "Hitelesítési módszer törlése",
                 "edit_label": "Hitelesítési módszer szerkesztése",
                 "fields": {
-                    "host": "Host",
+                    "host": "Kiszolgáló",
                     "token": "Token"
                 },
-                "no_auth_methods_configured": "Nincs megerősítési módszer beállítva. Ez egy opcionális lehetőség, amely lehetővé teszi a telepítést privát tárolókból.",
+                "no_auth_methods_configured": "Nincs hitelesítési módszer beállítva. Ez egy választható lehetőség, amely lehetővé teszi a privát tárolókból való telepítést.",
                 "remove_button_label": "Hitelesítési módszer törlése",
-                "title": "Megerősítési módszerek",
+                "title": "Hitelesítési módszerek",
                 "types": {
                     "github-oauth": "GitHub OAuth",
                     "gitlab-oauth": "GitLab OAuth",
-                    "gitlab-token": "GitLab Token",
+                    "gitlab-token": "GitLab token",
                     "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
                 "add_repository_label": "Tároló hozzáadása",
-                "delete_repository_confirmation": "Biztos benne, hogy törölni szeretné ezt a tárolót? Minden bővítmény ami ebből a tárolóból volt telepítve, törlésre kerül.",
+                "delete_repository_confirmation": "Biztos, hogy törli ezt a tárolót? Az összes ebből a tárolóból telepített bővítmény törlésre kerül.",
                 "delete_repository_label": "Tároló törlése",
                 "edit_repository_label": "Tároló szerkesztése",
                 "title": "Composer",
                 "minimum_stability": {
-                    "label": "Minimum stabilitás",
+                    "label": "Minimális stabilitás",
                     "help": "Telepíthető csomagok típusa. Ne változtassa meg, hacsak nem tudja mit csinál.",
                     "options": {
-                        "stable": "Stabil (Ajánlott)",
-                        "rc": "Kiadásra Jelölt (RC)",
+                        "stable": "Stabil (ajánlott)",
+                        "rc": "Kiadásra jelölt (RC)",
                         "beta": "Béta",
                         "alpha": "Alfa",
                         "dev": "Fejlesztői verzió"
@@ -47,7 +47,7 @@
                 },
                 "repositories": {
                     "label": "Tárolók",
-                    "help": "További tárolók hozzáadása a csomagok telepítéséhez. Ez egy haladó funkció, ne adjon hozzá olyan tárolókat, amelyek nem megbízhatóak, mivel rosszindulatú kódok futtatására használhatják a szerveren.\n",
+                    "help": "További tárolók hozzáadása, hogy csomagokat telepítéssen. Ez egy haladó felhasználóknak szánt funkció, ne adjon hozzá olyan tárolókat, amelyek nem megbízhatóak, mivel arra használhatják őket, hogy rosszindulatú kódokat futtassanak a kiszolgálón.\n",
                     "types": {
                         "composer": "composer",
                         "vcs": "vcs",
@@ -56,7 +56,7 @@
                     "add_modal": {
                         "name_label": "Név",
                         "type_label": "Típus",
-                        "url": "Link",
+                        "url": "Webcím",
                         "submit_button": "Beküldés"
                     }
                 }
@@ -65,11 +65,11 @@
                 "composer_command_failure": "A végrehajtás sikertelen. Ellenőrizze a composer naplóit a storage/logs/composer könyvtárban.",
                 "extension_already_installed": "A bővítmény már telepítve van.",
                 "extension_not_directly_dependency": "A bővítmény egy másik bővítmény függőségeként van telepítve, nem lehet közvetlenül eltávolítani.",
-                "extension_not_installed": "Bővítmény nem található.",
+                "extension_not_installed": "A bővítmény nem található.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "A bővítmény valószínűleg nem kompatibilis az ön által használt Flarum verziójával.",
+                    "extension_incompatible_with_instance": "A bővítmény valószínűleg nem kompatibilis a jelenlegi Flarum példányával.",
                     "extension_not_found": "A bővítmény nem található vagy nem létezik.",
-                    "extensions_incompatible_with_new_major": "Néhány telepített bővítmény nem kompatibilis a legújabb főverzióval. Kérjük, várja meg amíg a bővítményeket a szerzők kompatibilissé frissítik, vagy távolítsa el őket a folytatás előtt.\n"
+                    "extensions_incompatible_with_new_major": "Néhány telepített bővítmény nem kompatibilis a legújabb főverzióval. Várja meg amíg a szerzők kompatibilissé frissítik a bővítnényeket, vagy távolítsa el őket a folytatás előtt.\n"
                 }
             },
             "extensions": {
