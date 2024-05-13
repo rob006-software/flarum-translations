@@ -19,8 +19,8 @@
                 "lurking_tag_tooltip": "吃瓜中"
             },
             "sub_controls": {
-                "header": "关注 {tagName}",
-                "subscription_label": "选择你对{tagName}的关注等级",
+                "header": "订阅 {tagName}",
+                "subscription_label": "选择订阅 {tagName} 级别",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "有新主题时提醒。",
@@ -34,7 +34,7 @@
                 "not_following_text": "仅当有人提及我时提醒。",
                 "notify_alert_tooltip": "有新主题或新回复时推送论坛提醒",
                 "notify_email_tooltip": "有新主题或新回复时发送邮件提醒",
-                "submit_button": "确认关注"
+                "submit_button": "确认订阅"
             },
             "notifications": {
                 "new_discussion_text": "{username} 发布了新主题",
@@ -83,8 +83,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "导出标签关注程度细节。",
-                    "anonymize_description": "移除用户对标签的关注。"
+                    "export_description": "导出标签的订阅级别（如果存在）。",
+                    "anonymize_description": "移除用户对所有标签的订阅。"
                 }
             }
         }
