@@ -2,7 +2,7 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "exclude_users": "Sitemap 去除所有用户页面",
+                "exclude_users": "不收录用户个人主页",
                 "exclude_users_help": "默认情况下，任何游客可见的用户都将被索引",
                 "mode_label": "运行模式",
                 "mode_help": "根据您的论坛规模选择正确的模式极为重要。",
@@ -34,13 +34,13 @@
                     "user": {
                         "comments": {
                             "minimum_item_threshold_label": "用户：最低评论/帖子数量",
-                            "minimum_item_threshold_help": "在 Sitemap 中包含用户个人资料所需的最少评论/帖子数量。"
+                            "minimum_item_threshold_help": "一个用户至少要发表多少条评论/帖子，才能在站点地图中索引其个人主页。"
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "标签: 最少主题数量",
-                            "minimum_item_threshold_help": "标签在 Sitemap 中包含的最少主题次数。"
+                            "minimum_item_threshold_label": "标签：最少主题数量",
+                            "minimum_item_threshold_help": "一个标签旗下至少要有多少个主题帖，才能在站点地图中被索引。"
                         }
                     }
                 },
