@@ -2,18 +2,18 @@
     "ianm-boring-avatars": {
         "admin": {
             "settings": {
-                "color1": "颜色 1",
-                "color2": "颜色 2",
-                "color3": "颜色3",
-                "color4": "",
-                "color5": "",
-                "identifier": "",
-                "identifier_help": "",
-                "identifier_id": "",
-                "identifier_display_name": "",
-                "identifier_email": "",
+                "color1": "基本色 1",
+                "color2": "基本色 2",
+                "color3": "基本色 3",
+                "color4": "基本色 4",
+                "color5": "基本色 5",
+                "identifier": "种子",
+                "identifier_help": "基于指定类型的值生成头像。\n",
+                "identifier_id": "用户 ID",
+                "identifier_display_name": "外显昵称",
+                "identifier_email": "电子邮箱",
                 "theme": "风格",
-                "theme_help": ""
+                "theme_help": "选择要生成的头像风格。\n"
             }
         }
     },
@@ -21,9 +21,9 @@
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "在导出文件中包含生成的 Boring 头像。",
+                    "anonymize_description": "生成新的随机头像替换并删除原始 Boring 头像。",
+                    "delete_description": "删除 Boring 头像。"
                 }
             }
         }
