@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "导出关注用户列表及详细信息。",
+                    "export_description": "导出正在关注和粉丝的信息。",
                     "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "删除全部关注用户的信息。"
+                    "delete_description": "删除正在关注和粉丝相关的数据。"
                 }
             }
         }
@@ -22,15 +22,15 @@
         },
         "forum": {
             "followed": "追随",
-            "followers": "{count, plural, one {粉丝} other {粉丝}}",
+            "followers": "粉丝",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "您还没有关注任何人。"
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
-                "change_button": "",
+                "unfollow_button": "=> ianm-follow-users.lib.unfollow",
+                "change_button": "=> ianm-follow-users.lib.change_follow_type",
                 "follow_confirmation": "确定要关注这个用户吗？",
                 "unfollow_confirmation": "确定要取消关注这个用户吗？"
             },
@@ -85,7 +85,7 @@
             "following_link": "我的关注",
             "follow": "关注",
             "change_follow_type": "修改关注类型",
-            "unfollow": "",
+            "unfollow": "取消关注",
             "follow_levels": {
                 "unfollow": {
                     "name": "取消关注",
