@@ -7,14 +7,14 @@
                     "options": {
                         "show_header": "展示横幅",
                         "show_only_logo": "仅展示 Logo",
-                        "hide_secondary_items": "隐藏次级元素（搜索、登录注册按钮）"
+                        "hide_secondary_items": "隐藏次要元素（搜索、登录注册按钮）"
                     },
                     "title": "横幅样式"
                 },
                 "illustration_path": "壁纸",
                 "primary_color_bg": "使用主色调背景",
-                "route_exclusions": "登录注册页重定向的排除路由。",
-                "url_exclusions": "",
+                "route_exclusions": "禁止重定向到登录注册页的路由。",
+                "url_exclusions": "禁止重定向到登录注册页的 URL。",
                 "screen_banner_description": "屏幕消息",
                 "screen_banner_heading": "屏幕横幅",
                 "screen_banner_title": "屏幕标题",
