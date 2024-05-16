@@ -3,28 +3,28 @@
         "admin": {
             "dashboard": {
                 "maintenance_widget": {
-                    "title": "维护模式激活",
-                    "detail": "在维护期间，只有授权的用户才能查看论坛。"
+                    "title": "维护模式已激活",
+                    "detail": "维护期间，只有授权用户才能访问论坛。"
                 }
             },
             "permissions": {
-                "bypass": "可以绕过维护模式"
+                "bypass": "无视维护模式"
             },
             "settings": {
                 "maintenance_mode_enabled": {
-                    "label": ""
+                    "label": "维护模式"
                 }
             }
         },
         "views": {
             "default": {
-                "title": "",
-                "header": "",
-                "body": ""
+                "title": "正在维护",
+                "header": "正在维护",
+                "body": "<p>正在停机维护，请稍后访问。</p>\n"
             }
         },
         "api": {
-            "title": ""
+            "title": "正在停机维护，请稍后再试。"
         }
     }
 }
