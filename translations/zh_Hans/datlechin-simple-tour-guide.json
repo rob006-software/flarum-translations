@@ -5,23 +5,23 @@
                 "show_progress_label": "显示进度",
                 "show_progress_help": "在弹出框顶部展示当前步数和步骤总数。",
                 "allow_close_label": "允许关闭",
-                "allow_close_help": "允许用户通过单击背景关闭弹出窗口。"
+                "allow_close_help": "允许用户通过点击背景遮罩关闭引导。"
             },
             "edit_modal": {
                 "edit_step": "编辑 {title}",
                 "create_step": "创建新步骤",
                 "delete_step": "删除步骤",
-                "delete_step_confirmation": "是否确定要删除此步骤？"
+                "delete_step_confirmation": "确定要删除此步骤？"
             },
             "title": "标题",
             "title_placeholder": "步骤的标题。",
             "description": "描述",
             "description_placeholder": "步骤的描述。",
             "target": "目标",
-            "target_placeholder": "步骤的目标元素 (e.g. #element-id)."
+            "target_placeholder": "步骤的目标元素（例如 #element-id）。"
         },
         "forum": {
-            "progress_text": "{current} of {total}",
+            "progress_text": "{current} / {total}",
             "next_btn_text": "下一项",
             "prev_btn_text": "上一项",
             "done_btn_text": "完成"
