@@ -1141,6 +1141,9 @@ return [
 	'nodeloc-dislikes' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/Dislikes/1.0.1/locale/en.yml',
 	],
+	'nodeloc-exchange' => [
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-exchange/0.0.2/locale/en.yml',
+	],
 	'nodeloc-ignore-hidden-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ignore-hidden-tags/1.0/locale/en.yml',
 	],
