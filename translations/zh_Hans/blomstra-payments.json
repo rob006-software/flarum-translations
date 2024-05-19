@@ -2,7 +2,7 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": "最推荐的方式"
+                "mostBacked_button": "推荐使用"
             }
         }
     },
@@ -14,22 +14,22 @@
                 "title": "接受条款"
             },
             "stripe": {
-                "interval_once": "一次"
+                "interval_once": "仅一次"
             },
             "subscription-card": {
                 "bounty": "赏金",
-                "ptv": "付费观看",
+                "ptv": "付费查看",
                 "pta": "付费访问",
                 "ptb": "快捷支付",
                 "ptp": "付费发布",
                 "cancel-control": "取消",
-                "none": "无付款或有效订阅"
+                "none": "无付款方式或有效订阅"
             },
             "post_stream": {
-                "bounty_added_text": "{username} 添加了 {amount} 的赏金。"
+                "bounty_added_text": "{username} 添加了 {amount} 赏金。"
             },
             "pay-to-view": {
-                "purchase-control": "付费浏览",
+                "purchase-control": "付费查看",
                 "purchase-log-in": "登录并付费浏览",
                 "purchase-completed": "已解锁",
                 "description": "此贴需要您通过第三方支付平台 Stripe 完成付款来解锁内容。\n"
