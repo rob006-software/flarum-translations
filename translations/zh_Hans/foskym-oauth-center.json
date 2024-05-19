@@ -8,15 +8,15 @@
                 "index": "首页",
                 "clients": "应用管理",
                 "scopes": "权限管理",
-                "tokens": ""
+                "tokens": "令牌管理"
             },
             "settings": {
                 "display_mode": "显示模式",
                 "access_lifetime": "访问令牌有效期（秒）",
                 "allow_implicit": "允许隐式授权（response_type=token）",
                 "enforce_state": "强制状态验证（state 参数）",
-                "require_exact_redirect_uri": "需要精确的重定向 URI",
-                "authorization_method_fetch": "授权使用 Fetch 方式请求（非直接转向页面）"
+                "require_exact_redirect_uri": "需要确切的回调地址",
+                "authorization_method_fetch": "授权使用 Fetch 方式请求（非直接重定向）"
             },
             "clients": {
                 "client_id": "应用 ID",
@@ -39,13 +39,13 @@
                 "scope_name": "名称",
                 "scope_icon": "图标",
                 "scope_desc": "描述",
-                "visible_fields": "",
+                "visible_fields": "可见字段",
                 "add_button": "添加权限",
                 "edit_scope": "编辑权限"
             },
             "tokens": {
-                "add_token": "",
-                "delete_token": ""
+                "add_token": "添加令牌",
+                "delete_token": "删除令牌"
             }
         },
         "forum": {

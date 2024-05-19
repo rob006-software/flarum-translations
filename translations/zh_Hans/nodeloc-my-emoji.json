@@ -2,98 +2,98 @@
     "nodeloc-emoji": {
         "admin": {
             "settings": {
-                "emoji_settings_heading": "表情设置",
+                "emoji_settings_heading": "表情符号设置",
                 "category_settings_heading": "分类设置",
-                "general_ui_settings_heading": "全局UI设置",
-                "show_variants_label": "",
-                "show_variants_text": "",
-                "auto_hide_label": "",
-                "auto_hide_text": "",
-                "show_preview_label": "",
-                "show_category_buttons_label": "",
-                "show_search_label": "",
-                "show_recents_label": "",
-                "recents_count_label": "",
-                "recents_count_text": "",
-                "emoji_style_label": "",
-                "emoji_version_label": "",
-                "emoji_version_text": "",
-                "initial_category_label": "",
-                "initial_category_text": "",
-                "specify_categories_label": "",
-                "specify_categories_text": "",
-                "emoji_data_label": "",
-                "emoji_data_text": "",
-                "emoji_style_native_option": "",
+                "general_ui_settings_heading": "全局界面设置",
+                "show_variants_label": "显示变体",
+                "show_variants_text": "允许长按表情符号选择肤色变体。",
+                "auto_hide_label": "自动隐藏",
+                "auto_hide_text": "选择表情符号后隐藏面板。",
+                "show_preview_label": "显示预览区域",
+                "show_category_buttons_label": "显示分类",
+                "show_search_label": "显示搜索框",
+                "show_recents_label": "显示最常使用",
+                "recents_count_label": "最常使用数量",
+                "recents_count_text": "要显示的最常使用表情符号数量。",
+                "emoji_style_label": "表情符号样式",
+                "emoji_version_label": "表情符号版本",
+                "emoji_version_text": "要使用的表情符号版本。",
+                "initial_category_label": "初始分类",
+                "initial_category_text": "表情符号面板打开时，默认展示「笑脸与表情」分类。",
+                "specify_categories_label": "自定义分类",
+                "specify_categories_text": "自定义表情符号分类。",
+                "emoji_data_label": "表情符号数据",
+                "emoji_data_text": "通常用于提供表情符号的翻译名称。",
+                "emoji_style_native_option": "原始",
                 "emoji_categories": {
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": ""
+                    "smileys": "=> nodeloc-emoji.ref.emoji_categories.smileys",
+                    "people": "=> nodeloc-emoji.ref.emoji_categories.people",
+                    "animals": "=> nodeloc-emoji.ref.emoji_categories.animals",
+                    "food": "=> nodeloc-emoji.ref.emoji_categories.food",
+                    "travel": "=> nodeloc-emoji.ref.emoji_categories.travel",
+                    "activities": "=> nodeloc-emoji.ref.emoji_categories.activities",
+                    "objects": "=> nodeloc-emoji.ref.emoji_categories.objects",
+                    "symbols": "=> nodeloc-emoji.ref.emoji_categories.symbols",
+                    "flags": "=> nodeloc-emoji.ref.emoji_categories.flags"
                 }
             },
             "my_emoji_section": {
-                "heading_title": "",
-                "import_json_button": "",
-                "export_json_button": "",
-                "import_myemoji_message": "",
+                "heading_title": "自定义表情符号",
+                "import_json_button": "导入 JSON",
+                "export_json_button": "导出 JSON",
+                "import_myemoji_message": "仅导入表情符号配置，表情符号图片仍需手动上传。",
                 "edit_emoji": {
-                    "emoji_category_label": "",
-                    "text_to_category_name_label": "",
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "submit_button": "",
-                    "delete_emoji_button": "",
-                    "saved_message": ""
+                    "emoji_category_label": "分类代码",
+                    "text_to_category_name_label": "分类名称",
+                    "modal_title": "添加符号",
+                    "emoji_title_label": "表情标题",
+                    "delete_emoji_confirmation": "确定要删除此表情符号吗？",
+                    "text_to_replace_label": "文本",
+                    "path_or_url_label": "路径或 URL",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "删除表情",
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "插入表情符号"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_myemoji_found_message": "",
+                "search_placeholder": "搜索表情符号",
+                "no_myemoji_found_message": "未找到表情符号",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "recents": "=> nodeloc-emoji.ref.emoji_categories.recents",
+                    "smileys": "=> nodeloc-emoji.ref.emoji_categories.smileys",
+                    "people": "=> nodeloc-emoji.ref.emoji_categories.people",
+                    "animals": "=> nodeloc-emoji.ref.emoji_categories.animals",
+                    "food": "=> nodeloc-emoji.ref.emoji_categories.food",
+                    "travel": "=> nodeloc-emoji.ref.emoji_categories.travel",
+                    "activities": "=> nodeloc-emoji.ref.emoji_categories.activities",
+                    "objects": "=> nodeloc-emoji.ref.emoji_categories.objects",
+                    "symbols": "=> nodeloc-emoji.ref.emoji_categories.symbols",
+                    "flags": "=> nodeloc-emoji.ref.emoji_categories.flags",
+                    "custom": "=> nodeloc-emoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "recents": "",
-                "smileys": "",
-                "people": "",
-                "animals": "",
-                "food": "",
-                "travel": "",
-                "activities": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
-                "custom": ""
+                "recents": "常用",
+                "smileys": "笑脸与表情",
+                "people": "人物与身体",
+                "animals": "动物与自然",
+                "food": "食物与饮料",
+                "travel": "旅行与地点",
+                "activities": "活动",
+                "objects": "物体",
+                "symbols": "符号",
+                "flags": "旗帜",
+                "custom": "自定义"
             }
         }
     }

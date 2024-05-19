@@ -8,35 +8,35 @@
                 "s3-compatible-section-help": "以下设置在使用 AWS S3 时请留空",
                 "s3key": {
                     "label": "Key",
-                    "help": "帮助"
+                    "help": "S3 访问秘钥"
                 },
                 "s3secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "秘钥",
+                    "help": "S3 通行秘钥"
                 },
                 "s3region": {
-                    "label": "",
-                    "help": ""
+                    "label": "地域",
+                    "help": "S3 地域"
                 },
                 "s3bucket": {
-                    "label": "",
-                    "help": ""
+                    "label": "存储桶",
+                    "help": "S3 存储桶"
                 },
                 "s3acl": {
-                    "label": "",
-                    "help": ""
+                    "label": "访问控制",
+                    "help": "存储桶访问控制"
                 },
                 "s3url": {
-                    "label": "",
-                    "help": ""
+                    "label": "URL",
+                    "help": "S3 URL"
                 },
                 "s3endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "Endpoint",
+                    "help": "S3 Endpoint"
                 },
                 "s3path-style-endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "S3 路径访问类型",
+                    "help": "切换到路径访问类型"
                 }
             }
         }

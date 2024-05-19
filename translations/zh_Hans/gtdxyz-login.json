@@ -2,22 +2,22 @@
     "core": {
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": "邮件"
+                "username_or_email_placeholder": "邮箱"
             }
         }
     },
     "gtdxyz-login": {
         "admin": {
             "login_identification": "登录",
-            "login_email": "邮件",
-            "login_username": "",
-            "login_default": ""
+            "login_email": "邮箱",
+            "login_username": "用户名",
+            "login_default": "默认"
         },
         "forum": {
             "error": {
-                "failed": "",
-                "email_failed": "",
-                "useranem_failed": ""
+                "failed": "验证失败",
+                "email_failed": "邮箱验证失败",
+                "useranem_failed": "用户名验证失败"
             }
         }
     }

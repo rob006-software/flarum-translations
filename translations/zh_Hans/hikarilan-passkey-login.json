@@ -5,38 +5,38 @@
                 "relying_party": {
                     "name": {
                         "label": "依赖方名称",
-                        "help": "依赖方名称是您的网站的一个可读名称。如果保持为空，将使用论坛标题。"
+                        "help": "依赖方名称是您网站的一个可读名称。留空以使用论坛标题。"
                     },
                     "id": {
-                        "label": "",
-                        "help": ""
+                        "label": "依赖方 ID",
+                        "help": "请使用不含协议的域名作为当前网站的唯一标识符。例如，您的网站是 https://example.com，依赖方 ID 则是 example.com。留空以使用当前域名。"
                     }
                 },
                 "timeout": {
-                    "label": "",
-                    "help": ""
+                    "label": "超时时间",
+                    "help": "密码验证的超时时间（秒），默认 60 秒。"
                 }
             }
         },
         "forum": {
             "login": {
-                "with-passkey": ""
+                "with-passkey": "通过通行秘钥登录"
             },
             "user": {
                 "settings": {
                     "passkeys": {
-                        "title": "",
-                        "label": "",
-                        "add-new-passkey": "",
-                        "error": ""
+                        "title": "通行秘钥",
+                        "label": "密码是一种替代密码的验证方式，可以使用指纹、面部识别、设备密码或 PIN 码来确认您的身份。",
+                        "add-new-passkey": "添加通行秘钥",
+                        "error": "发生了内部错误，请稍后再试。"
                     },
                     "alias-modal": {
-                        "title": "",
-                        "label": ""
+                        "title": "通行秘钥已注册！",
+                        "label": "现在，请给通行密钥起个别名。"
                     },
                     "item": {
-                        "revoke": "",
-                        "revoke_success": ""
+                        "revoke": "=> core.forum.security.revoke_access_token",
+                        "revoke_success": "通行秘钥已撤销。"
                     }
                 }
             }
