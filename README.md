@@ -1098,6 +1098,8 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`litalino-more-bbcode`](https://weblate.rob006.net/projects/flarum/litalino-more-bbcode) | [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode) |
 | [`litalino-top-bar`](https://weblate.rob006.net/projects/flarum/litalino-top-bar) | [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar) |
 | [`littlecxm-reply-to-see`](https://weblate.rob006.net/projects/flarum/littlecxm-reply-to-see) | [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see) |
+| [`madeyedeer-avatar-tools`](https://weblate.rob006.net/projects/flarum/madeyedeer-avatar-tools) | [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools) |
+| [`madeyedeer-pallet-theme`](https://weblate.rob006.net/projects/flarum/madeyedeer-pallet-theme) | [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme) |
 | [`maicol07-sso`](https://weblate.rob006.net/projects/flarum/maicol07-sso) | [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) |
 | [`malago-achievements`](https://weblate.rob006.net/projects/flarum/malago-achievements) | [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements) |
 | [`malago-ads`](https://weblate.rob006.net/projects/flarum/malago-ads) | [`malago/flarum-ads`](https://github.com/malago86/flarum-ads) |
