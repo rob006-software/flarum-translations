@@ -1045,6 +1045,9 @@ return [
 	'madeyedeer-avatar-tools' => [
 		'tag' => 'https://raw.githubusercontent.com/MadEyeDeer/avatar-tools/v0.1.1/locale/en.yml',
 	],
+	'madeyedeer-pallet-theme' => [
+		'tag' => 'https://raw.githubusercontent.com/MadEyeDeer/flarum-pallet-theme/v0.2.1/locale/en.yml',
+	],
 	'maicol07-oidc-client' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/maicol07-oidc-client.yml',
 	],
