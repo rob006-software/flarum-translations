@@ -83,7 +83,7 @@
                 "successful_update": "{extension} sikeresen frissítve, átirányítás..",
                 "update": "Frissítés",
                 "update_soft_label": "Frissítés",
-                "update_hard_label": "Frissítés"
+                "update_hard_label": "Kényszerített frissítés"
             },
             "file_permissions": "A bővítménykezelő a következő fájlok és könyvtárak olvasási és írási jogosultságait igényli: composer.json, composer.lock, vendor, storage, storage/.composer.\n",
             "major_updater": {
@@ -108,26 +108,26 @@
                     "columns": {
                         "details": "Részletek",
                         "elapsed_time": "Befejeződött:",
-                        "peak_memory_used": "Csúcs memóriahasználat",
+                        "peak_memory_used": "Memóriahasználat csúcsa",
                         "operation": "Művelet",
                         "package": "Csomag",
                         "status": "Állapot"
                     },
                     "none": "Még nincsenek feladatok.",
                     "operations": {
-                        "extension_install": "Bővítmény telepítés",
-                        "extension_remove": "Bővítmény törlés",
-                        "extension_update": "Bővítmény frissítés",
+                        "extension_install": "Bővítmény telepítése",
+                        "extension_remove": "Bővítmény törlése",
+                        "extension_update": "Bővítmény frissítése",
                         "update_check": "Frissítés keresése",
-                        "update_global": "Minden csomag frissítése",
-                        "update_major": "Főverzió frissítés",
-                        "update_minor": "Kisebb frissítés",
-                        "why_not": "Elemezze, hogy a csomag miért nem frissíthető"
+                        "update_global": "Az összes csomag frissítése",
+                        "update_major": "Főverzió-frissítés",
+                        "update_minor": "Alverzió-frissítés",
+                        "why_not": "Elemzés, hogy a csomag miért nem frissíthető"
                     },
                     "output_modal": {
                         "cause_unknown": "Ismeretlen",
                         "command": "Composer parancs",
-                        "guessed_cause": "Okozat",
+                        "guessed_cause": "Ok",
                         "output": "Kimenet"
                     },
                     "refresh": "Feladatok listájának frissítése",
@@ -137,17 +137,17 @@
                         "pending": "Függőben",
                         "running": "Folyamatban"
                     },
-                    "task_just_started": "A feladat csak most indult el",
+                    "task_just_started": "A feladat épp most indult el",
                     "title": "Várólista"
                 }
             },
             "settings": {
                 "title": "=> core.ref.settings",
-                "access_warning": "Kérjük, legyen óvatos azzal, hogy kinek ad hozzáférést az admin területhez, a kiterjesztéskezelővel a rossz emberek visszaélhetnek, hogy olyan csomagokat telepítsenek, amelyek a biztonság megsértéséhez vezethetnek.",
-                "debug_mode_warning": "Ön hibakeresési módban fut, a bővítménykezelő nem tudja megfelelően telepíteni és frissíteni a helyi fejlesztői csomagokat. Kérjük, használja inkább a parancssori felületet ilyen célokra.",
+                "access_warning": "Legyen óvatos, hogy kinek ad hozzáférést az admin területhez, a bővítménykezelővel visszaélhetnek, és olyan csomagokat telepíthetnek, melyek biztonsági incidensekhez vezethetnek.",
+                "debug_mode_warning": "Hibakeresési módban futtatja, a bővítménykezelő nem tudja megfelelően telepíteni és frissíteni a helyi fejlesztői csomagokat. Ilyen célokra használja inkább a parancssoros felületet.",
                 "queue_jobs": "Műveletek futtatása a háttérben lévő várólistán",
-                "queue_jobs_help": "Olvassa el a <a href='{basic_impl_link}'>várólista alapok</a> implementációt vagy a <a href='{adv_impl_link}'>haladóknak</a> doksit. Győződjön meg róla, hogy a várólistához használt PHP verziója {php_version}, illetve a <a href='{folder_perms_link}'>mappa jogosultságok</a> megfelelően vannak konfigurálva.\n",
-                "task_retention_days": "Feladatmegőrzési napok",
+                "queue_jobs_help": "Olvashat egy <a href='{basic_impl_link}'>alapvető várólista-megvalósításról</a>, vagy egy <a href='{adv_impl_link}'>speciálisabbról</a>. Győződjön meg róla, hogy a várólistához a PHP {php_version} verziót használja, illetve a <a href='{folder_perms_link}'>mappajogosultságok</a> is megfelelően vannak beállítva.\n",
+                "task_retention_days": "Feladatok megőrzési napjai",
                 "task_retention_days_help": "A befejezett feladatok adatbázisban való tárolásának napjainak száma. Az ennél régebbi feladatok törlésre kerülnek. 0 értékre állítva az összes feladatot megtartja.\n"
             },
             "updater": {
@@ -155,12 +155,12 @@
                 "check_for_updates": "Frissítések keresése",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Minden csomag sikeresen frissítve.",
-                "last_update_checked_at": "Utolsó frissítés ellenőrizve: ",
+                "last_update_checked_at": "A legutóbbi frissítéskeresés: ",
                 "run_global_update": "Globális frissítés futtatása",
                 "updater_title": "Frissítések",
-                "updater_help": "Ellenőrzi az új bővítmények és Flarum frissítéseket."
+                "updater_help": "Ellenőrzi az új bővítmény- és Flarum frissítéseket."
             },
-            "update_successful": "Flarum sikeresen frissítve.",
+            "update_successful": "A Flarum sikeresen frissítve.",
             "why_not_modal": {
                 "title": "Miért nem frissül?"
             }
