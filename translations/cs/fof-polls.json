@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Umožnit zadat adresu URL obrázku pro každou možnost ankety",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
                 "max_options": "Maximální počet možností v jedné anketě",
@@ -17,6 +19,7 @@
                 "start_global": "",
                 "self_edit": "Upravit vytvořené ankety (vyžaduje oprávnění k úpravám příspěvků)",
                 "self_post_edit": "Upravit *všechny* ankety ve vlastních příspěvcích (vyžaduje oprávnění k úpravám příspěvků)",
+                "upload_images": "",
                 "vote": "Hlasování v anketách",
                 "change_vote": "Změnit hlasování",
                 "moderate": "Upravit a mazat ankety"
@@ -96,7 +99,8 @@
                     "label": "",
                     "help": "",
                     "alt_label": "",
-                    "alt_help_text": ""
+                    "alt_help_text": "",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",

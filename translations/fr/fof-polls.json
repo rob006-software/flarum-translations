@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Permettre de fournir l'URL d'une image pour chaque option de sondage",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "Activer les sondages globaux",
                 "enable_global_polls_help": "Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d'une page dédiée aux sondages.",
                 "max_options": "Nombre maximum d'options par sondage",
@@ -17,6 +19,7 @@
                 "start_global": "Démarrer un sondage global",
                 "self_edit": "Modifier les sondages créés (nécessite l'autorisation de modifier les messages)",
                 "self_post_edit": "Modifier *tous* les sondages sur ses propres messages (nécessite l'autorisation de modifier les messages)",
+                "upload_images": "",
                 "vote": "Voter sur les sondages",
                 "change_vote": "Modifier le vote",
                 "moderate": "Modifier et supprimer les sondages"
@@ -96,7 +99,8 @@
                     "label": "Image du sondage",
                     "help": "Transférez une image à afficher à côté du sondage (facultatif).",
                     "alt_label": "Texte d'accompagnement de l'image",
-                    "alt_help_text": "Ce texte est requis lorsqu'une image est définie ; il sera affiché si l'image ne parvient pas à se charger."
+                    "alt_help_text": "Ce texte est requis lorsqu'une image est définie ; il sera affiché si l'image ne parvient pas à se charger.",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "Image de la réponse au sondage",

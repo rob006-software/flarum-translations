@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Erlaube die Angabe einer Bild-URL für jede Umfrageoption",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
                 "max_options": "Maximale Anzahl von Optionen pro Umfrage",
@@ -17,6 +19,7 @@
                 "start_global": "",
                 "self_edit": "Erstellte Umfragen bearbeiten (erfordert die Berechtigung zum Bearbeiten von Beiträgen)",
                 "self_post_edit": "Bearbeiten *aller* Umfragen in eigenen Beiträgen (erfordert die Berechtigung zum Bearbeiten von Beiträgen)",
+                "upload_images": "",
                 "vote": "In Umfragen abstimmen",
                 "change_vote": "Stimme ändern",
                 "moderate": "Umfragen bearbeiten & entfernen"
@@ -96,7 +99,8 @@
                     "label": "",
                     "help": "",
                     "alt_label": "",
-                    "alt_help_text": ""
+                    "alt_help_text": "",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",

@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Cho phép URL ảnh cho mỗi tuỳ chọn thăm do ý kiến",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
                 "max_options": "",
@@ -17,6 +19,7 @@
                 "start_global": "",
                 "self_edit": "Cho phép chỉnh sửa cuộc thăm dò của họ",
                 "self_post_edit": "",
+                "upload_images": "",
                 "vote": "Bình chọn cuộc thăm dò",
                 "change_vote": "Thay đổi bình chọn",
                 "moderate": "Chỉnh sửa và xóa cuộc thăm dò"
@@ -96,7 +99,8 @@
                     "label": "",
                     "help": "",
                     "alt_label": "",
-                    "alt_help_text": ""
+                    "alt_help_text": "",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",

@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Разрешете на URL изображението да се предоставя за всяка анкетна опция",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
                 "max_options": "Максимален брой опции за анкета",
@@ -17,6 +19,7 @@
                 "start_global": "",
                 "self_edit": "Редактиране на създадени анкети (изисква разрешение за редактиране на публикации)",
                 "self_post_edit": "Редактиране на *всички* анкети на собствени публикации (изисква разрешение за редактиране на публикации)",
+                "upload_images": "",
                 "vote": "Гласувайте в анкети",
                 "change_vote": "Промяна на вота",
                 "moderate": "Редактиране и премахване на анкети"
@@ -96,7 +99,8 @@
                     "label": "",
                     "help": "",
                     "alt_label": "",
-                    "alt_help_text": ""
+                    "alt_help_text": "",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",

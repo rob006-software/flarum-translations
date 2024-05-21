@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "允许图片选项",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "启用全站投票",
                 "enable_global_polls_help": "全站投票不与任何帖子绑定，可以从专门的投票页面访问。",
                 "max_options": "每个投票可设置的最大选项数量",
@@ -17,6 +19,7 @@
                 "start_global": "发起全站投票",
                 "self_edit": "编辑已创建的投票（需要帖子编辑权限）",
                 "self_post_edit": "编辑自己帖子上的 *所有* 投票（需要帖子编辑权限）",
+                "upload_images": "",
                 "vote": "参与投票",
                 "change_vote": "修改投票",
                 "moderate": "编辑或删除投票"
@@ -96,7 +99,8 @@
                     "label": "投票图片",
                     "help": "在投票时展示图片（可选）。",
                     "alt_label": "图片替代文本",
-                    "alt_help_text": "图片加载失败时，展示的替代文本。"
+                    "alt_help_text": "图片加载失败时，展示的替代文本。",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "投票结论图片",

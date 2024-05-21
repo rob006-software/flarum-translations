@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Permitir que a URL de uma imagem seja fornecida para cada opção da enquete",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
                 "max_options": "",
@@ -17,6 +19,7 @@
                 "start_global": "",
                 "self_edit": "Permitir que os usuários editem suas próprias enquetes",
                 "self_post_edit": "",
+                "upload_images": "",
                 "vote": "Vote nas enquetes",
                 "change_vote": "Mudar voto",
                 "moderate": "Editar e remover enquetes"
@@ -96,7 +99,8 @@
                     "label": "",
                     "help": "",
                     "alt_label": "",
-                    "alt_help_text": ""
+                    "alt_help_text": "",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",

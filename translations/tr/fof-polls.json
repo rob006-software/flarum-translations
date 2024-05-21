@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Her anket seçeneği için bir resim URL'sinin sağlanmasına izin ver",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "Genel anketleri etkinleştir",
                 "enable_global_polls_help": "Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.",
                 "max_options": "Anket başına maksimum seçenek sayısı",
@@ -17,6 +19,7 @@
                 "start_global": "Genel bir anket başlat",
                 "self_edit": "Oluşturulan anketleri düzenleyin (düzenleme sonrası izin gerektirir)",
                 "self_post_edit": "Kendi gönderilerindeki *tüm* anketleri düzenleyin (düzenleme sonrası izin gerektirir)",
+                "upload_images": "",
                 "vote": "Ankete oy ver",
                 "change_vote": "Oyu değiştir",
                 "moderate": "Anketi düzenle veya sil"
@@ -96,7 +99,8 @@
                     "label": "Anket Görseli",
                     "help": "Anketin yanında görüntülenecek bir resim yükleyin (isteğe bağlı).",
                     "alt_label": "Görsel Alternatif Metni",
-                    "alt_help_text": "Bu metin bir resim ayarlandığında gereklidir; resim düzgünce yüklenemezse görüntülenecektir."
+                    "alt_help_text": "Bu metin bir resim ayarlandığında gereklidir; resim düzgünce yüklenemezse görüntülenecektir.",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "Anket Yanıtı Resmi",

@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
                 "max_options": "",
@@ -17,6 +19,7 @@
                 "start_global": "",
                 "self_edit": "Foydalanuvchilarga ovozlarini o'zgartirishga ruxsat berish",
                 "self_post_edit": "",
+                "upload_images": "",
                 "vote": "Ovoz berishada ishtirok etish",
                 "change_vote": "Ovozni o'zgartirish",
                 "moderate": "So'rovnomani o'zgartirish / o'chirish"
@@ -96,7 +99,8 @@
                     "label": "",
                     "help": "",
                     "alt_label": "",
-                    "alt_help_text": ""
+                    "alt_help_text": "",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",

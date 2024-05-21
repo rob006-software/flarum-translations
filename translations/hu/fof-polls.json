@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "Globális szavazások engedélyezése",
                 "enable_global_polls_help": "",
                 "max_options": "A lehetőségek legnagyobb száma szavazásonként",
@@ -17,6 +19,7 @@
                 "start_global": "",
                 "self_edit": "Létrehozott szavazások szerkesztése (bejegyzésszerkesztési engedély szükséges)",
                 "self_post_edit": "Az *összes* saját bejegyzésben lévő szavazás szerkesztése (bejegyzésszerkesztési engedély szükséges)",
+                "upload_images": "",
                 "vote": "Részvétel a szavazásokban",
                 "change_vote": "Szavazat módosítása",
                 "moderate": "Szavazások szerkesztése és törlése"
@@ -96,7 +99,8 @@
                     "label": "",
                     "help": "",
                     "alt_label": "",
-                    "alt_help_text": ""
+                    "alt_help_text": "",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",

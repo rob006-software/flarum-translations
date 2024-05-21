@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
                 "max_options": "Maksymalna liczba opcji w ankiecie",
@@ -17,6 +19,7 @@
                 "start_global": "",
                 "self_edit": "Edytowanie utworzonych ankiet (wymaga uprawnień do edycji posta)",
                 "self_post_edit": "Edytowanie *wszystkich* ankiet we własnych postach (wymaga uprawnień do edycji posta)",
+                "upload_images": "",
                 "vote": "Głosowanie w ankietach",
                 "change_vote": "Zmiana głosu",
                 "moderate": "Edytowanie i usuwanie ankiet"
@@ -96,7 +99,8 @@
                     "label": "",
                     "help": "",
                     "alt_label": "",
-                    "alt_help_text": ""
+                    "alt_help_text": "",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",

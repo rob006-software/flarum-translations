@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
                 "max_options": "",
@@ -17,6 +19,7 @@
                 "start_global": "",
                 "self_edit": "",
                 "self_post_edit": "",
+                "upload_images": "",
                 "vote": "",
                 "change_vote": "",
                 "moderate": ""
@@ -96,7 +99,8 @@
                     "label": "Saýlaw suraty",
                     "help": "Saýlaw bilen görüner ýaly surat ýükle (islege görä).",
                     "alt_label": "Suratyň alternatiw ýazgysy",
-                    "alt_help_text": "Bu ýazgy suratly saýlawda hökman, ol surat ýüklenmese görkeziler."
+                    "alt_help_text": "Bu ýazgy suratly saýlawda hökman, ol surat ýüklenmese görkeziler.",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",

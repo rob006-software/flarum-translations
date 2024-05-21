@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Permet que es proporcioni l'adreça web d'una imatge per a cada opció de l'enquesta",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "Permetre enquestes globals",
                 "enable_global_polls_help": "Les enquestes globals no estan vinculades a cap publicació concreta sinó que són accessibles des d'una pàgina dedicada exclusivament a enquestes.",
                 "max_options": "Màxim nombre d'opcions per enquesta",
@@ -17,6 +19,7 @@
                 "start_global": "Començar una enquesta global",
                 "self_edit": "Editar enquestes ja creades (requereix permís d'edició de publicacions)",
                 "self_post_edit": "Editar *totes* les enquestes a les publicacions pròpies (requereix permís d'edició de publicacions)",
+                "upload_images": "",
                 "vote": "Votar a les enquestes",
                 "change_vote": "Canviar vot",
                 "moderate": "Editar i esborrar enquestes"
@@ -96,7 +99,8 @@
                     "label": "Imatge per a l'enquesta",
                     "help": "Puja una imatge per mostrar al costat de l'enquesta (opcional).",
                     "alt_label": "Text alternatiu per a la imatge",
-                    "alt_help_text": "Aquest text és necessari quan s'activa una imatge, i es mostrarà en cas que no es pugui carregar."
+                    "alt_help_text": "Aquest text és necessari quan s'activa una imatge, i es mostrarà en cas que no es pugui carregar.",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",

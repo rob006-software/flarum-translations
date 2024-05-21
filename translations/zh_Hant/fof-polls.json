@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "允許圖片選項",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "啟用全局民意調查",
                 "enable_global_polls_help": "全局民意調查不與特定帖子綁定，可以從專門的民意調查頁面訪問。",
                 "max_options": "每次投票的最大選項數",
@@ -17,6 +19,7 @@
                 "start_global": "開啟全局民意調查",
                 "self_edit": "編輯已創建的投票（需要貼文編輯權限）",
                 "self_post_edit": "編輯*所有*自己帖子上的投票（需要帖子編輯權限）",
+                "upload_images": "",
                 "vote": "參與投票",
                 "change_vote": "修改投票",
                 "moderate": "編輯及移除投票"
@@ -96,7 +99,8 @@
                     "label": "投票圖片",
                     "help": "上傳要在投票旁邊顯示的圖像（可選）。",
                     "alt_label": "圖像替代文字",
-                    "alt_help_text": "設定圖像時需要此文本，如果圖像載入失敗，則會顯示該文字。"
+                    "alt_help_text": "設定圖像時需要此文本，如果圖像載入失敗，則會顯示該文字。",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "投票答案圖片",

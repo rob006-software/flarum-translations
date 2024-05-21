@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Salli kuvan osoitteen asettaminen jokaiseen kyselyn vaihtoehtoon",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
                 "max_options": "Maksimi määrä vaihtoehtoja per kysely",
@@ -17,6 +19,7 @@
                 "start_global": "",
                 "self_edit": "Muokkaa luotuja kyselyitä (vaatii viestin muokkaus oikeuden)",
                 "self_post_edit": "Muokkaa *kaikkia* kyselyitä omissa viesteissä (vaatii viestin muokkaus oikeuden)",
+                "upload_images": "",
                 "vote": "Vastata kyselyissä",
                 "change_vote": "Vaihtaa vastausta",
                 "moderate": "Muokata & poistaa kyselyitä"
@@ -96,7 +99,8 @@
                     "label": "",
                     "help": "",
                     "alt_label": "",
-                    "alt_help_text": ""
+                    "alt_help_text": "",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",

@@ -3,6 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Разрешить изображение (URL) для каждого варианта опроса",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
                 "max_options": "Максимальное количество вариантов опроса",
@@ -17,6 +19,7 @@
                 "start_global": "",
                 "self_edit": "Редактировать свои опросы (требуется разрешение на редактирование сообщений)",
                 "self_post_edit": "Редактировать *все* опросы в своих сообщениях (требуется разрешение на редактирование сообщений)",
+                "upload_images": "",
                 "vote": "Голосовать в опросах",
                 "change_vote": "Изменять голос",
                 "moderate": "Редактировать / удалять опросы"
@@ -96,7 +99,8 @@
                     "label": "",
                     "help": "",
                     "alt_label": "",
-                    "alt_help_text": ""
+                    "alt_help_text": "",
+                    "later_help": ""
                 },
                 "poll_option_image": {
                     "label": "",
