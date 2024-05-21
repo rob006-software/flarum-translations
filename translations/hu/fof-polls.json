@@ -6,11 +6,11 @@
                 "allow_image_uploads": "Képfeltöltés engedélyezése a szavazásoknál és azok lehetőségeinél",
                 "allow_image_uploads_help": "Ha engedélyezve van, a felhasználók képeket tölthetnek fel, valamint képre mutató webcímet adhatnak meg (ha engedélyezve van a lehetőségeknél, magánál a szavazásnál mindig engedélyezve van).",
                 "enable_global_polls": "Globális szavazások engedélyezése",
-                "enable_global_polls_help": "",
+                "enable_global_polls_help": "A globális szavazások nem kötődnek egy adott bejegyzéshez, és egy dedikált szavazási oldalon érhetők el.",
                 "max_options": "A lehetőségek legnagyobb száma szavazásonként",
                 "options_color_blend": "Színkeverés használata a szavazási lehetőségek szövegénél",
                 "options_color_blend_help": "Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.",
-                "image_height": "",
+                "image_height": "Kép magasságának átméretezése",
                 "image_width": "Kép szélességének átméretezése"
             },
             "permissions": {
@@ -19,7 +19,7 @@
                 "start_global": "Globális szavazás indítása",
                 "self_edit": "Létrehozott szavazások szerkesztése (bejegyzésszerkesztési engedély szükséges)",
                 "self_post_edit": "Az *összes* saját bejegyzésben lévő szavazás szerkesztése (bejegyzésszerkesztési engedély szükséges)",
-                "upload_images": "",
+                "upload_images": "Engedélyezés, hogy a felhasználók képeket töltsenek fel a szavazásaikhoz",
                 "vote": "Részvétel a szavazásokban",
                 "change_vote": "Szavazat módosítása",
                 "moderate": "Szavazások szerkesztése és törlése"
@@ -31,29 +31,29 @@
             "poll_ended": "A szavazás véget ért.",
             "public_poll": "Szavazók megtekintése",
             "max_votes_allowed": "A szavazásban legfeljebb {max} lehetőség választható.",
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "polls_count": "{count, plural, one { {count} szavazat} other {{count} szavazat}}",
+            "poll_never_ends": "A szavazás sosem ér véget",
+            "answers": "Válaszok",
             "poll": {
                 "cannot_change_vote": "A szavazat leadása után nem módosíthatja a szavazatát.",
                 "submit_button": "Szavazás",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "start_poll_button": "Globális szavazás indítása",
+                "cannot_start_poll_button": "A szavazás nem indítható el"
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Biztos, hogy törli ezt a szavazást?",
+                "delete_success_message": "A szavazás sikeresen törölve.",
+                "delete_error_message": "Hiba történt a szavazás törlése során."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Szavazás törlése",
+                "error": "Hiba történt a szavazás mentése során, lépjen kapcsolatba a rendszergazdával."
             },
             "polls_page": {
-                "title": ""
+                "title": "Szavazások"
             },
             "polls_list": {
                 "empty_text": "",
