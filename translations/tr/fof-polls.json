@@ -3,8 +3,8 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Her anket seçeneği için bir resim URL'sinin sağlanmasına izin ver",
-                "allow_image_uploads": "",
-                "allow_image_uploads_help": "",
+                "allow_image_uploads": "Anketler ve seçenekleri için resim yüklemeye izin ver",
+                "allow_image_uploads_help": "Etkinleştirilirse, kullanıcılar resim yüklemenin yanı sıra bir resim URL'si de sağlayabilirler (seçenekler için etkinleştirilirse, anketin kendisi için her zaman etkinleştirilir).",
                 "enable_global_polls": "Genel anketleri etkinleştir",
                 "enable_global_polls_help": "Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.",
                 "max_options": "Anket başına maksimum seçenek sayısı",
@@ -19,7 +19,7 @@
                 "start_global": "Genel bir anket başlat",
                 "self_edit": "Oluşturulan anketleri düzenleyin (düzenleme sonrası izin gerektirir)",
                 "self_post_edit": "Kendi gönderilerindeki *tüm* anketleri düzenleyin (düzenleme sonrası izin gerektirir)",
-                "upload_images": "",
+                "upload_images": "Kullanıcıların anketler için resim yüklemesine izin ver",
                 "vote": "Ankete oy ver",
                 "change_vote": "Oyu değiştir",
                 "moderate": "Anketi düzenle veya sil"
@@ -91,7 +91,7 @@
                 "hide_votes_label": "Anket bitene kadar oyları gizle",
                 "allow_change_vote_label": "Kullanıcıların oylarını değiştirmesine izin ver",
                 "question_placeholder": "Soru",
-                "subtitle_placeholder": "Alt başlık/Açıklama (İsteğe bağlı)",
+                "subtitle_placeholder": "Alt başlık/Açıklama (tercihe bağlı)",
                 "submit": "Gönder",
                 "delete": "=> core.ref.delete",
                 "error": "=> core.lib.error.generic_message",
@@ -100,7 +100,7 @@
                     "help": "Anketin yanında görüntülenecek bir resim yükleyin (isteğe bağlı).",
                     "alt_label": "Görsel Alternatif Metni",
                     "alt_help_text": "Bu metin bir resim ayarlandığında gereklidir; resim düzgünce yüklenemezse görüntülenecektir.",
-                    "later_help": ""
+                    "later_help": "Anketi oluşturduktan sonra bir resim yükleyebileceksiniz."
                 },
                 "poll_option_image": {
                     "label": "Anket Yanıtı Resmi",
@@ -136,8 +136,8 @@
                 "title": "Oy Verenler"
             },
             "upload_image": {
-                "remove_button": "Görseli Kaldır",
-                "upload_button": "Görsel Seç"
+                "remove_button": "Görseli Sil",
+                "upload_button": "Görsel Yükle"
             }
         }
     }
