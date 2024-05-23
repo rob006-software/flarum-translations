@@ -2,39 +2,39 @@
     "blomstra-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "GDPR Verilerine Genel Bakış",
+                "description": "Çeşitli GDPR eylemlerinin ve entegrasyonlarının durumu",
                 "data_types": {
-                    "title": "",
-                    "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "title": "Veri Türleri",
+                    "help_text": "Bunlar şu anda kayıtlı veri türleridir. Her tür, ilişkili dışa aktarma, anonimleştirme ve silme eylemleriyle birlikte listelenir. Bir uzantı, GDPR düzenlemeleri kapsamına giren herhangi bir veriyi işliyorsa, veri türlerini <code>blomstra/gdpr</code> uzantısına kaydetmelidir.\n<code>user</code> tablosunda saklanan veriler ayrı olarak işlenir; aşağıdaki kullanıcı tablosu verilerine bakın.\n",
+                    "type": "Tür",
+                    "export_description": "Dışa Aktarma Eylemi",
+                    "anonymize_description": "Eylemi Anonimleştirme",
+                    "delete_description": "Eylemi Sil",
+                    "extension": "Uzantı"
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
-                    "extension_settings_button": ""
+                    "heading": "GDPR Ayarları",
+                    "help_text": "GDPR ayarlarını mı arıyorsunuz? Uzantı sayfasındalar.",
+                    "extension_settings_button": "GDPR Ayarları"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Kullanıcı Tablo Verisi",
+                    "help_text": "Çoğunlukla, <code>kullanıcı</code> tablosuna eklenen tüm sütunlar hem verileri dışa aktarmak hem de silmek amacıyla otomatik olarak işlenecektir.\nAncak aşağıda sıralanan bazı özel durumlar vardır.\n"
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "GDPR Entegrasyonları"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "process_erasure": "Silme isteklerini işleyin",
+                "process_export_for_others": "Diğer kullanıcılar için veri aktarımlarını talep etme ve alma",
+                "see_anonymized_user_badges": "Anonimleştirilmiş kullanıcı rozetlerini görün"
             },
             "settings": {
-                "allow_anonymization": "",
-                "allow_anonymization_help": "",
-                "allow_deletion": "",
+                "allow_anonymization": "Silme istekleri için anonimleştirmeye izin ver",
+                "allow_anonymization_help": "Varsayılan seçenektir ve çoğu topluluk için önerilir. Bu modda, gönderiler/yorumlar GDPR'nin izin verdiği ölçüde mümkün olduğu kadar korunacak, ancak kullanıcıyı tanımlayabilecek tüm bilgiler kaldırılacaktır.",
+                "allow_deletion": "Kaldırma istekleri için silmeye izin ver",
                 "allow_deletion_help": "",
                 "default_anonymous_username": "",
                 "default_anonymous_username_help": "",
