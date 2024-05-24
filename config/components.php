@@ -116,7 +116,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-gdpr/0.1.0-beta.20/resources/locale/en.yml',
 	],
 	'blomstra-horizon' => [
-		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-horizon/0.4.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-horizon/0.4.3/resources/locale/en.yml',
 	],
 	'blomstra-mark-unread' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-mark-unread/0.2.0/locale/en.yml',
