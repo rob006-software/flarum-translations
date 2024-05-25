@@ -3,33 +3,33 @@
         "admin": {
             "settings": {
                 "section_general_intro": "Les paramètres de base requis pour que l'extension fonctionne.",
-                "api_key": "Clé API de Flarum",
-                "api_key_reset": "",
-                "api_key_reset_confirm": "",
+                "api_key": "Clé API partagée",
+                "api_key_reset": "Générer une nouvelle clé API",
+                "api_key_reset_confirm": "Souhaitez-vous vraiment générer une nouvelle clé d'API partagée ? L'ancienne ne fonctionnera plus et devra être mise à jour manuellement dans les paramètres du plugin WordPress.\n",
                 "wordpress_url": "URL de WordPress",
-                "default_actor": "",
-                "default_actor_placeholder_invalid": "",
-                "default_actor_placeholder_search": "",
-                "default_actor_help": "",
-                "report_http_errors": "",
-                "report_http_errors_help": "",
+                "default_actor": "Acteur par défaut",
+                "default_actor_placeholder_invalid": "Valeur invalide possible : {value} - Saisissez du texte pour rechercher un utilisateur…",
+                "default_actor_placeholder_search": "Saisissez du texte pour rechercher un utilisateur…",
+                "default_actor_help": "Cet utilisateur Flarum sera assigné comme acteur de toutes les actions de suspension, de verrouillage et de suppression. Il sera également utilisé comme propriétaire des discussions et des messages, sauf si l'option « Assigner l'auteur de la discussion à partir du SSO » est activée.\n",
+                "report_http_errors": "Envoyer les erreurs HTTP de l'API REST de WordPress aux rapporteurs Flarum configurés",
+                "report_http_errors_help": "Quelle que soit la valeur de ce paramètre, les requêtes sont toujours enregistrées sous forme de texte dans le journal par défaut. Cette option est utile si vous souhaitez que les erreurs d'API soient envoyées à Sentry ou à d'autres outils de surveillance sous forme d'exceptions avec des traces de pile.\n",
                 "section_sso_intro": "Cette fonctionnalité permettra de connecter de manière transparente les utilisateurs de WordPress à Flarum. Un compte sera automatiquement créé pour ces derniers et synchronisé avec WordPress. Si vous avez des comptes existants dans Flarum, ils seront automatiquement associés à leur adresse de courriel. Si vous supprimez un utilisateur dans Flarum, il sera recréé la prochaine fois que le compte WordPress se connectera. Pour bloquer un utilisateur de Flarum, suspendez le compte dans Flarum.\n",
                 "enable_sso": "Activer l'intégration SSO",
-                "login_method": "",
-                "login_method_help": "",
+                "login_method": "Mécanisme de connexion global",
+                "login_method_help": "« Cookie » ne fonctionne que si WordPress et Flarum partagent un domaine de premier niveau. « Redirection » provoquera une redirection après chaque connexion depuis WordPress, même si l'utilisateur n'a pas l'intention de visiter le forum. « Fenêtre imbriquée cachée » ne se connectera que lors d'une visite sur Flarum, provoquant un rafraîchissement de la page lors du premier chargement. Combiné avec « Délai de la fenêtre imbriquée » ci-dessous, ceci peut être utilisé pour ne se connecter que sur demande.\n",
                 "login_method_options": {
-                    "cookie": "",
-                    "redirect": "",
-                    "iframe": ""
+                    "cookie": "Cookie",
+                    "redirect": "Redirection",
+                    "iframe": "Fenêtre imbriquée cachée"
                 },
                 "cookie_domain": "Domaine du cookie",
-                "cookie_domain_help": "Uniquement nécessaire si différent du domaine de Flarum",
-                "iframe_redirect_delay": "",
-                "iframe_redirect_delay_help": "",
+                "cookie_domain_help": "Ce paramètre n'est utilisé que lors de l'utilisation du mécanisme de connexion « Cookie ». Vous ne devez définir cette valeur que si les deux sites internet se trouvent sur des sous-domaines différents.\n",
+                "iframe_redirect_delay": "Délai de redirection de la fenêtre imbriquée (en millisecondes)",
+                "iframe_redirect_delay_help": "Ce paramètre n'est utilisé que lors de l'utilisation du mécanisme de connexion « Fenêtre imbriquée cachée ». Après un certain nombre de temps après le chargement initial de la page Flarum, l'extension tentera de se connecter et de rafraîchir la page sans interaction de l'utilisateur. S'il faut plus de temps que cette valeur pour obtenir une réponse de WordPress, l'utilisateur se verra simplement suggérer de se connecter et de rafraîchir la page. Réglez cette valeur à zéro pour toujours suggérer à l'utilisateur de se connecter au lieu de rafraîchir automatiquement la page.\n",
                 "wordpress_login_path": "Chemin d'accès à WordPress",
                 "wordpress_login_path_help": "Uniquement nécessaire si vous avez renommé votre point d'accès manuellement ou via un plugin",
-                "wordpress_login_full_page": "",
-                "wordpress_login_full_page_help": "",
+                "wordpress_login_full_page": "Ouvrir la page de connexion WordPress comme une page au lieu d'une fenêtre contextuelle",
+                "wordpress_login_full_page_help": "Par défaut, cliquer sur le lien de connexion de Flarum ouvrira la page de connexion de WordPress dans une fenêtre contextuelle, comme pour les autres méthodes OAuth. Lorsque ce paramètre est activé, l'onglet actuel du navigateur naviguera vers la page de connexion de WordPress et redirigera ensuite vers Flarum.\n",
                 "username_strategy": "Nom d'utilisateur pour les nouveaux utilisateurs",
                 "username_strategy_options": {
                     "user_login": "Nom d'utilisateur à partir de WordPress",
@@ -42,7 +42,7 @@
                 "welcome_message": "Message d'introduction",
                 "welcome_message_help": "Ce message sera affiché lors de la première visite de l'utilisateur sur le forum, ainsi que le choix du nom d'utilisateur, s'il est activé.",
                 "wordpress_login_only": "Autoriser uniquement la connexion WordPress",
-                "wordpress_login_only_help": "Désactive la connexion Flarum et ouvre directement la fenêtre de connexion WordPress lorsque la connexion est requise. Ceci mettra automatiquement l'autorisation « S'inscrire » sur « Fermé ».\n",
+                "wordpress_login_only_help": "Désactive la page de connexion de Flarum et ouvre directement la page de connexion de WordPress. Lors de la modification de ce paramètre, l'extension tentera de régler l'autorisation de « S'inscrire » sur « Désactivé ». Assurez-vous qu'il reste sur « Désactivé » ou les visiteurs seront en mesure de créer des comptes Flarum autonomes.\n",
                 "user_delete": "Action lorsqu'un utilisateur est supprimé dans WordPress",
                 "user_delete_options": {
                     "ignore": "Ignorer (préserver l'utilisateur de Flarum)",
@@ -50,8 +50,8 @@
                     "suspend": "Suspendre indéfiniment l'utilisateur de Flarum (l'extension Suspend doit être activée)"
                 },
                 "user_delete_desc": "Si vous sélectionnez « Supprimer », seul l'utilisateur sera supprimé, pas son contenu sur Flarum.",
-                "role_group_sync": "",
-                "role_group_sync_help": "",
+                "role_group_sync": "Synchronisation rôle-groupe",
+                "role_group_sync_help": "Les groupes sélectionnés ici seront automatiquement ajoutés et supprimés des utilisateurs par l'extension, il est donc probablement préférable d'utiliser des groupes Flarum dédiés que vous n'attribuez jamais manuellement et qui ne sont pas également gérés par d'autres extensions. Vous ne devriez probablement pas assigner le groupe administrateur de cette façon, à la fois pour des raisons de sécurité et pour vous assurer que vous n'êtes pas accidentellement bloqué. Vous pouvez assigner plusieurs groupes à un rôle et un groupe peut être mappé à plus d'un rôle. Vous pouvez créer des groupes Flarum supplémentaires sur la page <a>Permissions de Flarum</a>.\n",
                 "section_comments_intro": "Cette fonctionnalité remplace les commentaires WordPress par une fenêtre imbriquée de Flarum. La publication en tant qu'invité n'est plus possible. Les discussions ne sont créées que pour les articles dont les commentaires sont activés dans WordPress. L'activation ou la désactivation des commentaires est synchronisée avec le verrouillage des discussions de Flarum. Si votre blog contient déjà des articles lorsque vous activez cette fonctionnalité, vous devez à nouveau activer et désactiver les commentaires sur chaque article pour que la discussion Flarum soit créée.\n",
                 "enable_comments": "Activer l'intégration des commentaires",
                 "excerpt_html_whitelist": "Liste blanche des balises HTML à conserver dans l'extrait (séparées par des virgules)",
@@ -129,22 +129,22 @@
             },
             "role-group-sync": {
                 "head": {
-                    "role": "",
-                    "group": ""
+                    "role": "Rôle de WordPress",
+                    "group": "Groupe Flarum"
                 },
                 "choose": {
-                    "role": "",
-                    "group": ""
+                    "role": "Choisir le rôle de WordPress…",
+                    "group": "Sélectionner un groupe"
                 },
                 "custom": {
-                    "role": "",
-                    "group": ""
+                    "role": "Personnalisé…",
+                    "group": "Personnalisé…"
                 },
-                "selected-custom-group": "",
-                "delete": "",
+                "selected-custom-group": "Personnaliser",
+                "delete": "Supprimer la règle",
                 "role-loader": {
-                    "loading": "",
-                    "error": ""
+                    "loading": "Chargement des rôles de WordPress…",
+                    "error": "Un problème est survenu lors du chargement de la liste des rôles à partir de WordPress. Vous pouvez toujours saisir manuellement les noms des rôles."
                 }
             }
         },
@@ -157,11 +157,11 @@
                 "not_now": "Ignorer et lire en tant qu'invité pour le moment"
             },
             "instant-login": {
-                "welcome_known_user": "",
-                "welcome_unknown_user": "",
-                "avatar_alt_text": "",
-                "message": "",
-                "button": ""
+                "welcome_known_user": "Bienvenue, {avatar} <strong>{name}</strong> !",
+                "welcome_unknown_user": "Bienvenue !",
+                "avatar_alt_text": "Avatar de WordPress",
+                "message": "Vous pouvez utiliser le forum avec le compte de votre site internet principal",
+                "button": "Se connecter maintenant et actualiser"
             },
             "edit-user-modal": {
                 "warning": "Cet utilisateur est maintenu en synchronisation avec WordPress. Vous devez modifier l'adresse de courriel et le mot de passe depuis WordPress.\n",
@@ -201,18 +201,18 @@
                 "suspend-extension-required": "L'extension Suspend doit être activée pour utiliser l'option « Suspendre » du paramètre « Action en cas de suppression de l'utilisateur »",
                 "cookie-domain-format": "Le domaine du cookie ne semble pas être un domaine valide. Veuillez vérifier qu'il s'agit simplement d'un domaine sans protocole ni chemin",
                 "login-only-signup-open": "Vous devez désactiver l'option « S'inscrire » dans les autorisations de Flarum pour que le paramètre « Autoriser uniquement la connexion WordPress » prenne pleinement effet",
-                "role-group-sync-syntax": "",
-                "role-group-sync-incomplete": "",
-                "role-group-sync-invalid-group": "",
-                "role-group-sync-invalid-role": "",
+                "role-group-sync-syntax": "Les paramètres de synchronisation entre les rôles et les groupes présentent un problème d'encodage",
+                "role-group-sync-incomplete": "Les paramètres de synchronisation entre les rôles et les groupes ne sont pas complètement remplis",
+                "role-group-sync-invalid-group": "Identifiant de groupe Flarum non valide sélectionné pour la synchronisation rôle-groupe : {id}",
+                "role-group-sync-invalid-role": "Rôle WordPress non valide sélectionné pour la synchronisation des rôles et des groupes : {role}",
                 "lock-extension-required": "L'extension Lock doit être activée pour utiliser l'intégration des commentaires",
                 "tags-extension-required": "L'extension Tags doit être activée pour utiliser l'option « Étiquetage des nouveaux fils de commentaires »",
                 "tag-not-exist": "L'identifiant d'étiquette {id} sélectionné pour l'option « Étiquetage des identifiants pour les nouveaux fils de commentaires » n'existe pas",
                 "debug-mode": "Le mode de débogage de Flarum est activé. Désactivez-le lorsque vous aurez terminé le débogage",
                 "config-url-trailing-slash": "L'URL de Flarum définie dans config.php ne doit pas comporter de barre oblique (valeur actuelle : « {url} »)",
                 "config-url-https": "L'URL de Flarum définie dans config.php doit être HTTPS (valeur actuelle : « {url} »)",
-                "default-actor-not-set": "",
-                "default-actor-not-found": "",
+                "default-actor-not-set": "Le paramètre « Acteur par défaut » doit être renseigné",
+                "default-actor-not-found": "Le paramètre « Acteur par défaut » ne fait pas référence à un utilisateur valide",
                 "api-key-missing": "La « Clé API de Flarum » est manquante. Essayez de rafraîchir le panneau d'administration et vérifiez les erreurs éventuelles dans le fichier journal",
                 "wordpress-url-missing": "Le paramètre « URL de WordPress » doit être renseigné",
                 "wordpress-url-invalid": "Le paramètre « URL de WordPress » ne semble pas être une URL valide (valeur actuelle : « {url} »)",
@@ -221,7 +221,7 @@
                 "wordpress-url-https": "Le paramètre « URL de WordPress » devrait être HTTPS (valeur actuelle : « {url} »)",
                 "wordpress-url-mismatch": "Le paramètre « URL de WordPress » de Flarum ne correspond pas au paramètre « Adresse (URL) de WordPress » de WordPress (il était attendu : « {expected} », mais le paramètre est : « {actual} » en réalité)",
                 "flarum-url-mismatch": "Le paramètre « URL de Flarum » dans WordPress ne correspond pas à l'URL configurée dans le fichier config.php de Flarum (il était attendu : « {expected} », mais le paramètre est : « {actual} » en réalité)",
-                "api-key-mismatch": "Le paramètre « Clé API de Flarum » dans WordPress ne correspond pas au paramètre « Clé API de Flarum » de Flarum (il était attendu : « {expected} », mais le paramètre est : « {actual} » en réalité)",
+                "api-key-mismatch": "Le paramètre « Clé API partagée » dans WordPress ne correspond pas au paramètre « Clé API partagée » de Flarum (il était attendu : « {expected} », mais le paramètre est : « {actual} » en réalité)",
                 "user-id-not-found": "Le paramètre « Identifiant de l'utilisateur Flarum » dans Wordpress ne correspond à aucun utilisateur Flarum connu (valeur actuelle : « {actual} »). Pour utiliser l'utilisateur actuellement connecté, vous pouvez utiliser l'identifiant « {suggested} »\n",
                 "user-id-not-admin": "Le paramètre « Identifiant de l'utilisateur Flarum » dans WordPress ne correspond pas à un administrateur Flarum (valeur actuelle : « {actual} »). Pour utiliser l'utilisateur actuellement connecté, vous pouvez utiliser l'identifiant « {suggested} »\n",
                 "sso-mismatch-flarum": "L'intégration SSO est activée dans Flarum mais pas dans WordPress",
@@ -229,21 +229,21 @@
                 "comments-mismatch-flarum": "L'intégration des commentaires est activée dans Flarum mais pas dans WordPress",
                 "comments-mismatch-wordpress": "L'intégration des commentaires est activée dans WordPress mais pas dans Flarum",
                 "api-error-json": "La tentative d'accès à l'API de WordPress a donné lieu à une erreur : {message} - Corps : {body}",
-                "api-error-401": "La tentative d'accès à l'API WordPress a donné lieu à une erreur 401. Vérifiez le « Nom d'utilisateur de l'administrateur WordPress » dans Flarum et la « Clé API de Flarum » dans WordPress",
+                "api-error-401": "La tentative d'accès à l'API de WordPress s'est soldée par une erreur 401. Vérifiez que la « Clé API partagée » correspond aux paramètres de Flarum et de WordPress",
                 "api-error-other": "La tentative d'accès à l'API de WordPress a donné lieu à une erreur : {message}",
                 "wordpress-username-missing": "Le paramètre « Nom d'utilisateur de l'administrateur WordPress » doit être renseigné",
                 "cookie-domain-mismatch": "Le paramètre « Domaine du cookie » de WordPress ne correspond pas au paramètre « Domaine du cookie » de Flarum (la valeur de WordPress est « {wordpress} », celle de Flarum est « {flarum} »)"
             },
             "wizard": {
-                "already_installed": "Flarum est déjà connecté à WordPress. Pour relancer l'assistant, supprimez le paramètre « URL de WordPress » dans Flarum ainsi que le paramètre « Clé API de Flarum » dans WordPress.\n",
+                "already_installed": "Flarum est déjà connecté à WordPress. Pour relancer l'assistant, supprimez le paramètre « URL de WordPress » dans Flarum ainsi que le paramètre « Clé API partagée de Flarum » dans WordPress.\n",
                 "api_unauthorized": "Nous n'avons pas pu nous authentifier avec les informations d'identification fournies. Vérifiez à nouveau l'URL, le nom d'utilisateur et le mot de passe. Consultez la documentation pour plus d'étapes de dépannage.\n",
-                "api_error_generic": "",
+                "api_error_generic": "Erreur lors de l'exécution d'une requête POST au point de terminaison de configuration du plugin WordPress ({exception}). Assurez-vous que le plugin WordPress Flarum Integration est installé et activé.\n",
                 "invalid_wordpress_url": "Le paramètre « Adresse (URL) de WordPress » dans WordPress ne semble pas être une URL valide ({actual}).",
                 "api_error_get": "Erreur lors de l'exécution d'une requête GET vers les paramètres de WordPress ({exception}).",
                 "api_error_post": "Erreur lors de l'exécution d'une requête POST vers les paramètres de WordPress ({exception}).",
                 "plugin_not_installed": "Le plugin WordPress ne semble pas être installé ou activé sur ce site WordPress. Assurez-vous de disposer d'au moins la version 1.2.0.\n"
             },
-            "sync_setting_error": ""
+            "sync_setting_error": "Erreur de synchronisation des paramètres avec WordPress. Vérifiez manuellement que les cases à cocher du côté de WordPress sont réglées sur les mêmes valeurs que dans Flarum. Erreur : {exception}.\n"
         },
         "views": {
             "error": {
