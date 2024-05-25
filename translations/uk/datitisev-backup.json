@@ -17,6 +17,9 @@
                 "zip": "Архів Zip"
             },
             "settings_button": "Конфігурація",
+            "delete_button": "",
+            "delete_confirmation": "",
+            "create_button": "",
             "required_package_button": "Налаштування",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Конфігурація {adapter}",
+                "name_label": "",
                 "local": {
                     "target": {
                         "label": "Цільовий шлях",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Ключ",
-                            "description": "AWS credentials key"
-                        },
-                        "secret": {
-                            "label": "Secret",
-                            "description": "AWS credentials secret"
-                        }
+                    "credentials-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "credentials-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "region": {
                         "label": "Регіон",
@@ -101,6 +103,16 @@
                     "path-prefix": {
                         "label": "Префікс шляху",
                         "description": "Необов'язковий префікс шляху за замовчуванням для файлів."
+                    },
+                    "credentials": {
+                        "key": {
+                            "label": "Ключ",
+                            "description": "AWS credentials key"
+                        },
+                        "secret": {
+                            "label": "Secret",
+                            "description": "AWS credentials secret"
+                        }
                     }
                 },
                 "dropbox": {
@@ -123,6 +135,26 @@
                     }
                 },
                 "gdrive": {
+                    "client-id": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "client-secret": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "refresh-token": {
+                        "label": "Оновити токен",
+                        "description": "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, щоб отримати токен оновлення для вашого додатку Google oAuth.\n"
+                    },
+                    "folder": {
+                        "label": "Folder ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "",
+                        "test_button": ""
+                    },
                     "client": {
                         "id": {
                             "label": "Client ID",
@@ -132,14 +164,6 @@
                             "label": "Client Secret",
                             "description": " "
                         }
-                    },
-                    "refresh-token": {
-                        "label": "Оновити токен",
-                        "description": "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, щоб отримати токен оновлення для вашого додатку Google oAuth.\n"
-                    },
-                    "folder": {
-                        "label": "Folder ID",
-                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {

@@ -17,6 +17,9 @@
                 "zip": "Zip arxiv"
             },
             "settings_button": "Sozlash",
+            "delete_button": "",
+            "delete_confirmation": "",
+            "create_button": "",
             "required_package_button": "O'rnatish",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "{adapter}ni sozlash",
+                "name_label": "",
                 "local": {
                     "target": {
                         "label": "Maqsad yo'li",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Kalit",
-                            "description": "AWS kirish kaliti"
-                        },
-                        "secret": {
-                            "label": "Sir",
-                            "description": "AWS sirli so'zi"
-                        }
+                    "credentials-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "credentials-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "region": {
                         "label": "Mintaqa",
@@ -101,6 +103,16 @@
                     "path-prefix": {
                         "label": "Yo'l prefiksi",
                         "description": "Fayllar uchun ixtiyoriy standart yoʻl prefiksi."
+                    },
+                    "credentials": {
+                        "key": {
+                            "label": "Kalit",
+                            "description": "AWS kirish kaliti"
+                        },
+                        "secret": {
+                            "label": "Sir",
+                            "description": "AWS sirli so'zi"
+                        }
                     }
                 },
                 "dropbox": {
@@ -127,6 +139,26 @@
                     }
                 },
                 "gdrive": {
+                    "client-id": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "client-secret": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "refresh-token": {
+                        "label": "Tokenni yangilash",
+                        "description": "Google oAuth ilovangiz uchun yangilash tokenini olish uchun @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md ko‘rsatmalariga amal qiling.\n"
+                    },
+                    "folder": {
+                        "label": "Papka ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "",
+                        "test_button": ""
+                    },
                     "client": {
                         "id": {
                             "label": "Mijoz ID",
@@ -136,14 +168,6 @@
                             "label": "Mijos sirli so'zi",
                             "description": " "
                         }
-                    },
-                    "refresh-token": {
-                        "label": "Tokenni yangilash",
-                        "description": "Google oAuth ilovangiz uchun yangilash tokenini olish uchun @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md ko‘rsatmalariga amal qiling.\n"
-                    },
-                    "folder": {
-                        "label": "Papka ID",
-                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {

@@ -17,6 +17,9 @@
                 "zip": "Arsip Zip"
             },
             "settings_button": "Mengkonfigurasi",
+            "delete_button": "",
+            "delete_confirmation": "",
+            "create_button": "",
             "required_package_button": "",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Mengkonfigurasi {adapter}",
+                "name_label": "",
                 "local": {
                     "target": {
                         "label": "Target path",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Key",
-                            "description": "AWS credentials key"
-                        },
-                        "secret": {
-                            "label": "Secret",
-                            "description": "AWS credentials secret"
-                        }
+                    "credentials-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "credentials-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "region": {
                         "label": "",
@@ -101,6 +103,16 @@
                     "path-prefix": {
                         "label": "Path prefix",
                         "description": "Path prefix default opsional untuk file."
+                    },
+                    "credentials": {
+                        "key": {
+                            "label": "Key",
+                            "description": "AWS credentials key"
+                        },
+                        "secret": {
+                            "label": "Secret",
+                            "description": "AWS credentials secret"
+                        }
                     }
                 },
                 "dropbox": {
@@ -123,15 +135,13 @@
                     }
                 },
                 "gdrive": {
-                    "client": {
-                        "id": {
-                            "label": "",
-                            "description": "Ikuti petunjuk di @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md untuk membuat Google project dan mengambil Client ID & Client Secret Anda.\n"
-                        },
-                        "secret": {
-                            "label": "",
-                            "description": ""
-                        }
+                    "client-id": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "client-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "refresh-token": {
                         "label": "Refresh Token",
@@ -140,6 +150,15 @@
                     "folder": {
                         "label": "ID Folder",
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "",
+                        "test_button": ""
+                    },
+                    "client": {
+                        "id": {
+                            "description": "Ikuti petunjuk di @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md untuk membuat Google project dan mengambil Client ID & Client Secret Anda.\n"
+                        }
                     }
                 },
                 "ftp": {

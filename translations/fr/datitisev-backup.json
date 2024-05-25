@@ -17,6 +17,9 @@
                 "zip": "Archive Zip"
             },
             "settings_button": "Configurer",
+            "delete_button": "",
+            "delete_confirmation": "",
+            "create_button": "",
             "required_package_button": "Mise en place",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Configurer {adapter}",
+                "name_label": "",
                 "local": {
                     "target": {
                         "label": "Chemin de la cible",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Clé",
-                            "description": "Clé d'identification d'AWS"
-                        },
-                        "secret": {
-                            "label": "Clé secrète",
-                            "description": "Clé secrète de l'identification d'AWS"
-                        }
+                    "credentials-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "credentials-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "region": {
                         "label": "Région",
@@ -101,6 +103,16 @@
                     "path-prefix": {
                         "label": "Préfixe du chemin",
                         "description": "Préfixe de chemin par défaut facultatif pour les fichiers."
+                    },
+                    "credentials": {
+                        "key": {
+                            "label": "Clé",
+                            "description": "Clé d'identification d'AWS"
+                        },
+                        "secret": {
+                            "label": "Clé secrète",
+                            "description": "Clé secrète de l'identification d'AWS"
+                        }
                     }
                 },
                 "dropbox": {
@@ -129,6 +141,26 @@
                     }
                 },
                 "gdrive": {
+                    "client-id": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "client-secret": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "refresh-token": {
+                        "label": "Actualiser le jeton",
+                        "description": "Suivez les instructions sur https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md pour récupérer le jeton actualisé pour votre application Google oAuth.\n"
+                    },
+                    "folder": {
+                        "label": "Identifiant du dossier",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "",
+                        "test_button": ""
+                    },
                     "client": {
                         "id": {
                             "label": "Identifiant du client",
@@ -138,14 +170,6 @@
                             "label": "Clé secrète du client",
                             "description": " "
                         }
-                    },
-                    "refresh-token": {
-                        "label": "Actualiser le jeton",
-                        "description": "Suivez les instructions sur https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md pour récupérer le jeton actualisé pour votre application Google oAuth.\n"
-                    },
-                    "folder": {
-                        "label": "Identifiant du dossier",
-                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {

@@ -17,6 +17,9 @@
                 "zip": "Archiwum Zip"
             },
             "settings_button": "Konfiguruj",
+            "delete_button": "",
+            "delete_confirmation": "",
+            "create_button": "",
             "required_package_button": "Ustaw",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Skonfiguruj {adapter}",
+                "name_label": "",
                 "local": {
                     "target": {
                         "label": "Ścieżka docelowa",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "",
-                            "description": ""
-                        },
-                        "secret": {
-                            "label": "",
-                            "description": ""
-                        }
+                    "credentials-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "credentials-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "region": {
                         "label": "",
@@ -123,15 +125,13 @@
                     }
                 },
                 "gdrive": {
-                    "client": {
-                        "id": {
-                            "label": "",
-                            "description": ""
-                        },
-                        "secret": {
-                            "label": "",
-                            "description": ""
-                        }
+                    "client-id": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "client-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "refresh-token": {
                         "label": "Odśwież token",
@@ -140,6 +140,10 @@
                     "folder": {
                         "label": "ID folderu",
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "",
+                        "test_button": ""
                     }
                 },
                 "ftp": {
