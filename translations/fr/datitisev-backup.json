@@ -17,9 +17,9 @@
                 "zip": "Archive Zip"
             },
             "settings_button": "Configurer",
-            "delete_button": "",
-            "delete_confirmation": "",
-            "create_button": "",
+            "delete_button": "Supprimer",
+            "delete_confirmation": "Êtes-vous sûr de vouloir supprimer « {name} » ({adapter}) ?",
+            "create_button": "Ajouter un nouvel adaptateur",
             "required_package_button": "Mise en place",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -40,7 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Configurer {adapter}",
-                "name_label": "",
+                "name_label": "Nom de l'emplacement",
                 "local": {
                     "target": {
                         "label": "Chemin de la cible",
@@ -81,12 +81,12 @@
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Clé",
+                        "description": "Clé d'identification AWS"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Clé secrète",
+                        "description": "Clé secrète d'identification AWS"
                     },
                     "region": {
                         "label": "Région",
@@ -142,12 +142,12 @@
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Identifiant du client",
+                        "description": "Suivez les instructions à l'adresse https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md pour créer un projet Google et récupérer l'identifiant et la clé secrète du client.\n"
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Clé secrète du client",
+                        "description": " "
                     },
                     "refresh-token": {
                         "label": "Actualiser le jeton",
@@ -158,8 +158,8 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
-                        "test_button": ""
+                        "test_success_alert": "Connexion à Google Drive réussie ! Enregistrez les modifications pour sauvegarder les paramètres.",
+                        "test_button": "Test de connexion"
                     },
                     "client": {
                         "id": {
