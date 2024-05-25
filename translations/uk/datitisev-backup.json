@@ -17,9 +17,9 @@
                 "zip": "Архів Zip"
             },
             "settings_button": "Конфігурація",
-            "delete_button": "",
-            "delete_confirmation": "",
-            "create_button": "",
+            "delete_button": "Видалити",
+            "delete_confirmation": "Ви впевнені, що хочете видалити \"{name}\" ({adapter})?",
+            "create_button": "Додати новий адаптер",
             "required_package_button": "Налаштування",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -40,7 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Конфігурація {adapter}",
-                "name_label": "",
+                "name_label": "Локальна назва",
                 "local": {
                     "target": {
                         "label": "Цільовий шлях",
@@ -81,12 +81,12 @@
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Ключ",
+                        "description": "Ключ облікових даних AWS"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Секрет",
+                        "description": "Секретні облікові дані AWS"
                     },
                     "region": {
                         "label": "Регіон",
@@ -136,12 +136,12 @@
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Ідентифікатор клієнта",
+                        "description": "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, щоб створити проект Google і отримати свій ідентифікатор клієнта та секрет клієнта.\n"
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Секрет клієнта",
+                        "description": " "
                     },
                     "refresh-token": {
                         "label": "Оновити токен",
@@ -152,8 +152,8 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
-                        "test_button": ""
+                        "test_success_alert": "Успішне підключення до Google Диску! Збережіть зміни, щоб зберегти налаштування.",
+                        "test_button": "Тестове підключення"
                     },
                     "client": {
                         "id": {
