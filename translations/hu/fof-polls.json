@@ -56,8 +56,8 @@
                 "title": "Szavazások"
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
+                "empty_text": "Úgy tűnik, hogy itt nincsenek közösségi szintű szavazások.",
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -65,12 +65,12 @@
                 "no_permission_alert": "Nem indíthat szavazást."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Szavazás hozzáadása",
+                "edit_title": "Szavazás szerkesztése",
+                "polls_manager": "Szavazások kezelése",
+                "polls_preview": "Szavazás megtekintése",
+                "continue_editing": "Szerkesztés folytatása",
+                "success": "Szavazás mentése sikeres."
             },
             "modal": {
                 "add_title": "Szavazás hozzáadása",
