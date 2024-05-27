@@ -17,9 +17,9 @@
                 "zip": "Zip Archive"
             },
             "settings_button": "配置",
-            "delete_button": "",
-            "delete_confirmation": "",
-            "create_button": "",
+            "delete_button": "刪除",
+            "delete_confirmation": "您確定要刪除「{name}」({adapter})嗎？",
+            "create_button": "新增適配器",
             "required_package_button": "安裝",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -40,7 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "配置{adapter}",
-                "name_label": "",
+                "name_label": "地點名稱",
                 "local": {
                     "target": {
                         "label": "目標路徑",
@@ -81,12 +81,12 @@
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "密鑰",
+                        "description": "AWS憑證金鑰"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "秘密",
+                        "description": "AWS憑證秘密"
                     },
                     "region": {
                         "label": "區域",
@@ -142,12 +142,12 @@
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "客戶ID",
+                        "description": "請依照指示 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 建立 Google 專案並擷取您的客戶ID 和客戶秘密。\n"
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "客戶秘令",
+                        "description": " "
                     },
                     "refresh-token": {
                         "label": "重整令牌",
@@ -158,8 +158,8 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
-                        "test_button": ""
+                        "test_success_alert": "已成功連接至 Google 雲端硬碟！ 儲存變更以儲存設定。",
+                        "test_button": "測試連接"
                     },
                     "client": {
                         "id": {
