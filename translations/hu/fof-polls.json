@@ -70,7 +70,7 @@
                 "polls_manager": "Szavazások kezelése",
                 "polls_preview": "Szavazás megtekintése",
                 "continue_editing": "Szerkesztés folytatása",
-                "success": "Szavazás mentése sikeres."
+                "success": "Szavazás sikeresen mentve."
             },
             "modal": {
                 "add_title": "Szavazás hozzáadása",
@@ -91,20 +91,20 @@
                 "hide_votes_label": "Szavazatok elrejtése a szavazás végéig",
                 "allow_change_vote_label": "Engedélyezés, hogy a felhasználók módosítsák a szavazatukat",
                 "question_placeholder": "Kérdés",
-                "subtitle_placeholder": "Felirat/Leírás (opcionális)",
+                "subtitle_placeholder": "Felirat/leírás (nem kötelező)",
                 "submit": "Beküldés",
                 "delete": "=> core.ref.delete",
                 "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "Szavazás képe",
-                    "help": "Töltsön fel egy képet, amely a szavazás mellett jelenik meg (opcionális).",
-                    "alt_label": "Kép Alt szövege",
-                    "alt_help_text": "Szükség van a szöveg megadására, mert ez fog megjelenni, amennyiben a kép betöltése sikertelen.",
+                    "help": "Töltsön fel egy képet, amely a szavazás mellett jelenik meg (nem kötelező).",
+                    "alt_label": "Kép alternatív szövege",
+                    "alt_help_text": "Ez a szöveg kép megadása esetén szükséges, ez fog megjelenni, ha a kép betöltése sikertelen.",
                     "later_help": "Szavazás létrehozása után tölthet fel képet."
                 },
                 "poll_option_image": {
-                    "label": "Szavazás válasz képe",
-                    "help": "Töltsön fel egy képet, amely a szavazásra adott válasz mellett jelenik meg (opcionális)."
+                    "label": "Szavazás válaszának képe",
+                    "help": "Töltsön fel egy képet, amely a szavazásra adott válasz mellett jelenik meg (nem kötelező)."
                 },
                 "tooltip": {
                     "options": {
@@ -120,13 +120,13 @@
             },
             "page": {
                 "nav": "Szavazások",
-                "nav-all": ""
+                "nav-all": "Összes globális szavazás"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Aktív szavazások",
+                "ended-polls": "Befejeződött szavazások",
+                "no-active-polls": "Jelenleg nincs aktív szavazás.",
+                "no-recent-polls": "Jelenleg nincs nemrég befejeződött szavazás."
             },
             "tooltip": {
                 "badge": "Szavazás",
@@ -136,8 +136,8 @@
                 "title": "Szavazók"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Kép törlése",
+                "upload_button": "Kép feltöltése"
             }
         }
     }
