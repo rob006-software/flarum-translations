@@ -8,35 +8,35 @@
                 "s3-compatible-section-help": "Hagyja üresen ezeket a beállításokat, ha AWS S3-at használ",
                 "s3key": {
                     "label": "Kulcs",
-                    "help": "súgó"
+                    "help": "S3 hozzáférési kulcs"
                 },
                 "s3secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "Titok",
+                    "help": "S3 hozzáférési titok"
                 },
                 "s3region": {
-                    "label": "",
-                    "help": ""
+                    "label": "Régió",
+                    "help": "S3 régió"
                 },
                 "s3bucket": {
-                    "label": "",
-                    "help": ""
+                    "label": "Tároló",
+                    "help": "S3 tároló"
                 },
                 "s3acl": {
-                    "label": "",
-                    "help": ""
+                    "label": "ACL",
+                    "help": "Adja meg az ACL-t ehhez a tárolóhoz"
                 },
                 "s3url": {
-                    "label": "",
-                    "help": ""
+                    "label": "Webcím",
+                    "help": "S3 webcím"
                 },
                 "s3endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "Végpont",
+                    "help": "S3 végpont"
                 },
                 "s3path-style-endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "S3 útvonal stílusú végpont",
+                    "help": "Útvonal stílusú végpontra váltás"
                 }
             }
         }
