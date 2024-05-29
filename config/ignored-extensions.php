@@ -22,8 +22,6 @@ return [
 	'arthurydalgo/online-users',
 	'arthurydalgo/users-list',
 	'gitzaai/flarum-ext-hljs2',
-	'hamzone/flarum-ext-auth-wechat',
-	'hamzone/flarum-ext-emojionearea',
 	'insegreto/flarum-ads',
 	'kindyear/reply-to-see',
 	'lawaxi/level-ranks',
