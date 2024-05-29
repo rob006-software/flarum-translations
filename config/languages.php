@@ -157,7 +157,6 @@ return [
 		'!the-turk-diff',
 		'!the-turk-fancybox',
 		'!the-turk-mathren',
-		'!the-turk-pallet-theme',
 		'!the-turk-quiet-edits',
 	]),
 	'ug' => getComponents(),
