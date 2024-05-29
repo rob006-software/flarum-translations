@@ -13,6 +13,7 @@ declare(strict_types=1);
 
 return [
 	'zaptech/cookie-consent', // migrated to `fof/cookie-consent`
+	'the-turk/flarum-pallet-theme', // https://github.com/rob006-software/flarum-translations/pull/1218
 	/*
 	 * dead/private forks
 	 */
