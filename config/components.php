@@ -340,6 +340,9 @@ return [
 	'club-1-server-side-highlight' => [
 		'tag' => 'https://raw.githubusercontent.com/club-1/flarum-ext-server-side-highlight/v1.4.0/locale/en.yml',
 	],
+	'cobbz-money-transfer' => [
+		'tag' => 'https://raw.githubusercontent.com/Cobb-Zhang/flarum-ext-money-transfer/v0.1.0/locale/en.yml',
+	],
 	'convo-extensions-guest-posting' => [
 		'tag' => 'https://raw.githubusercontent.com/convo-extensions/flarum-ext-guest-posting/1.1.1/resources/locale/en.yml',
 	],
