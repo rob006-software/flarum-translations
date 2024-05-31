@@ -1261,6 +1261,9 @@ return [
 	'tohsakarat-save-and-load-draft-automatically' => [
 		'tag' => 'https://raw.githubusercontent.com/tohsakrat/save-and-load-draft-automatically/v1.10/resources/locale/en.yml',
 	],
+	'tohsakarat-table-of-content' => [
+		'tag' => 'https://raw.githubusercontent.com/tohsakrat/flarum-table-of-content/v1.1.1/locale/en.yml',
+	],
 	'tohsakarat-tags-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/tohsakrat/flarum-tags-filter/v1.0.6/locale/en.yml',
 	],
