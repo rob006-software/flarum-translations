@@ -55,6 +55,9 @@ return [
 	'annonny-dice' => [
 		'tag' => 'https://raw.githubusercontent.com/mizhiyugan529/flarum-dice/0.0.1/locale/en.yml',
 	],
+	'anthonyogundipe-preview-discussion' => [
+		'tag' => 'https://raw.githubusercontent.com/dhtml/flarum-ext-preview-discussion/0.1.0/resources/locale/en.yml',
+	],
 	'antoinefr-money' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v1.3.1/locale/en.yml',
 	],
