@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Visi lietotāja augšupielādētie faili.",
+                    "anonymize_description": "No augšupielādētajiem failiem noņem lietotāja atsauci. Paši faili joprojām ir pieejami lietotājiem, kuri tos var skatīt pirms anonimizācijas.",
+                    "delete_description": "Dzēš visus lietotāja augšupielādētos failus."
                 }
             }
         }
@@ -13,140 +13,140 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Koplietotās augšupielādes"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Augšupielādējiet failus, kurus var izmantot visi jūsu foruma lietotāji.",
+                "introduction": "Koplietotās augšupielādes ir faili, kurus var izmantot visi jūsu foruma lietotāji. Tie nav pievienoti nevienam ziņojumam, bet tos var ievietot ziņās, izmantojot multivides pārvaldnieku.\n\n<strong>Brīdinājums:</strong> koplietotās augšupielādes nav aizsargātas ar atļaujām. Ikviens, kam ir URL, var tos skatīt.\n",
+                "no-files": "Vēl nav augšupielādēts neviens koplietots fails.",
+                "title": "Koplietotās augšupielādes",
+                "upload-new-button": "Augšupielādējiet jaunu failu"
             },
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Augšupielādēt",
+                "description": "Iestatiet augšupielādes pakalpojumus un preferences."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Atspējojiet katras jūsu foruma lietotāju veiktās lejupielādes reģistrēšanu. Turot to iespējotu, varat skatīt lejupielāžu skaitu un citus rādītājus tuvākajā nākotnē.\n",
+                "disable-hotlink-protection": "Karstās saites aizsardzība neļauj atvērt lejupielādes no citām vietnēm. Pašreizējai metodei ir nepieciešams csrf marķieris un pasta ID.\n",
+                "download_templates": "Lejupielādes veidnes ir veids, kā augšupielādes tiek rādītas jūsu forumā, piemēram, priekšskatījumi, pogas. Pašlaik pieejams:\n",
+                "mime_types": "Lūdzu, konfigurējiet savu kartēšanu šeit. Katru MIME tipa regulāro izteiksmi apstrādās īpašs augšupielādes adapteris un lejupielādes veidne.\n",
+                "resize": "Izvēlieties, vai vēlaties mainīt attēlu izmērus pirms to augšupielādes. Varat izvēlēties maksimālo platumu un augstumu pikseļos. Izmēru maiņas procesā tiek saglabāta attēlu malu attiecība.\n",
+                "client_extension": "Pēc noklusējuma augšupielāde izvēlēsies drošu faila paplašinājumu, pamatojoties uz MIME tipu.\nDažiem failu tipiem, kuru pamatā ir ZIP vai bināri dati, var tikt izmantoti vispārīgi paplašinājumi paredzētā paplašinājuma vietā.\nŠeit varat ievadīt ar komatu atdalītu failu paplašinājumu sarakstu, kas tiks saglabāti burtiski.\n",
+                "watermark": "Izvēlieties, vai attēliem augšupielādes laikā tiks pievienota ūdenszīme. Ūdenszīmes tiek pievienotas attēliem, kas nav GIF, pamatojoties uz tālāk norādītajām vēlmēm.\n",
+                "s3_compatible_storage": "Tālāk norādītie iestatījumi ir nepieciešami tikai tad, ja tiek izmantota ar S3 saderīga krātuve. Ja izmantojat AWS, varat atstāt tos tukšus.\n",
+                "s3_acl": "ACL, kas jāpiemēro augšupielādētajam objektam (noklusējums: privāts). Iespējamās vērtības skatiet vietnē https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Atstājiet atslēgu un noslēpumu tukšu, lai izmantotu akreditācijas datus instances profilā.\n",
+                "composer_buttons": "Pēc noklusējuma ir redzama gan multivides pārvaldnieka poga, gan augšupielādes poga. Varat arī izvēlēties rādīt tikai vienu pogu.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": ""
+                    "bucket": "Bucket",
+                    "key": "Atslēga",
+                    "region": "Region",
+                    "secret": "Secret",
+                    "title": "AWS S3 krātuves iestatījumi",
+                    "advanced_title": "Papildu S3 krātuves iestatījumi",
+                    "endpoint": "Galapunkts",
+                    "use_path_style_endpoint": "Use path style endpoint",
+                    "acl": "Piekļuves kontroles saraksts (ACL)"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Atspējot reģistrēšanas lejupielādes",
+                    "toggle": "Atspējot"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Atspējot karstās saites aizsardzību",
+                    "toggle": "Atspējot"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": "",
-                    "tos": ""
+                    "client_id": "Imgur client ID",
+                    "title": "Imgur attēlu uzglabāšanas iestatījumi",
+                    "tos": "Jūs esat atbildīgs par to, lai foruma lietotāji ievērotu Imgur <a>pakalpojumu sniegšanas noteikumus</a>"
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "Satura piegādes URL (prefiksu faili)",
+                    "title": "Vietējās krātuves iestatījumi"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Qiniu krātuves iestatījumi",
+                    "key": "Atslēga",
+                    "secret": "Secret",
+                    "bucket": "Bucket"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "max_file_size": "Maksimālais faila lielums (kilobaitos)",
+                    "mime_types": "Konfigurējiet savu MIME veidu, augšupielādējiet adaptera kartēšanu",
+                    "title": "Vispārējās preferences",
+                    "php_ini_values": "Jūsu <code>php.ini</code> vērtības ir <code>post_max_size={post}</code> un <code>upload_max_filesize={upload}</code>. Pārliecinieties, vai šeit iestatītā vērtība ir zem šiem sliekšņiem, vai attiecīgi pielāgojiet tos. Ja izmantojat <code>Nginx</code>, pārliecinieties, vai <code>client_max_body_size</code> ir pietiekami liels jūsu izvēlētajam maksimālajam ierobežojumam."
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Maksimālais attēla platums/augstums",
+                    "title": "Attēla izmēra maiņa",
+                    "toggle": "Mainiet attēlu izmērus"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Lietotāja nodrošināti failu paplašinājumi"
                 },
                 "watermark": {
-                    "file": "",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "file": "Augšupielādējiet savu watermark attēlu",
+                    "position": "Watermark pozīcija",
+                    "title": "Watermark attēli",
+                    "toggle": "Watermark attēli"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Composer pogas",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Abi",
+                        "upload-btn": "Tikai augšupielādes poga",
+                        "media-btn": "Tikai multivides pārvaldnieka poga"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Testa faila MIME tips"
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": "",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "download_label": "Lejupielādēt failus",
+                "upload_label": "Augšupielādējiet failus",
+                "view_user_uploads_label": "Skatīt lietotāju augšupielādes",
+                "delete_uploads_of_others_label": "Dzēst lietotāju augšupielādes",
+                "upload_shared_label": "Augšupielādējiet koplietotos failus",
+                "access_shared_label": "Piekļūstiet koplietotajiem failiem programmā Media Manager"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": "",
-                "text-preview": "",
-                "text-preview_description": ""
+                "file": "Noklusējuma faila lejupielādes veidne",
+                "file_description": "Parāda faila nosaukumu un vispārīgu informāciju. Starpniekserveru lejupielādes, izmantojot php, ļaujot apkopot statistiku un aizsargāt karstās saites.\n",
+                "image": "Noklusējuma attēla lejupielādes veidne",
+                "image_description": "Parāda attēla sīktēlu un starpniekserverus, kas tiek lejupielādēti, izmantojot php. Ļauj apkopot statistiku un karstās saites aizsardzību.\n",
+                "image-preview": "Pilnīga attēla priekšskatījuma veidne",
+                "image-preview_description": "Rāda pilnu attēlu rindiņā. Nav lejupielādes funkcionalitātes, netiek apkopota statistika un tiek ignorēta karstās saites aizsardzība.\n",
+                "markdown-image": "Markdown attēla veidne",
+                "markdown-image_description": "Rāda visu attēlu rindiņā, izmantojot Markdown. <strong>Lai tas darbotos, jums ir jābūt instalētai un iespējotai flarum/markdown.</strong> Nav lejupielādes funkcionalitātes, netiek apkopota statistika un karstās saites aizsardzība tiek ignorēta.\n",
+                "bbcode-image": "BBCode attēla veidne",
+                "bbcode-image_description": "Rāda pilnu attēlu, izmantojot BBCode. <strong>Lai tas darbotos, jums ir jābūt instalētam un iespējotam flarum/bbcode.</strong> Nav lejupielādes funkcionalitātes, netiek apkopota statistika un karstās saites aizsardzība tiek ignorēta.\n",
+                "just-url": "Tikai URL",
+                "just-url_description": "Ievieto tikai URL. Renderēšanu var apstrādāt citi paplašinājumi ar automātiskās saites iespēju. Nav lejupielādes funkcionalitātes, netiek apkopota statistika un tiek ignorēta karstās saites aizsardzība.\n",
+                "text-preview": "Teksta priekšskatījums",
+                "text-preview_description": "Ievieto teksta faila priekšskatījumu (pirmās 5 rindiņas) ar iespēju izvērst, lai atklātu visu faila saturu.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "S3/Compatible",
+                "imgur": "Imgur",
+                "local": "Vietējais",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Pārbaudiet MIME",
+                "description": "FoF Upload izmanto <a>PHP Mime Detector</a> bibliotēku izplatītākajiem MIME veidiem un PHP Fileinfo kā rezerves.\nMIME vērtība, ko atgriež Fileinfo, var atšķirties atkarībā no servera!\n",
+                "select": "Tālāk atlasiet failu, lai pārbaudītu vērtības, kas tiks izmantotas. Fails netiks saglabāts.",
+                "laravel-validation": "Laravel faila validācija",
+                "no-file-selected": "Nav faila",
+                "validation-passed": "Nokārtots",
+                "validation-failed": "Neizdevās: {error}",
+                "mime-detector": "Mīmikas detektors (primārais)",
+                "mime-fileinfo": "PHP faila informācija (atkāpšanās)",
+                "guessed-extension": "Noklusējuma faila paplašinājums (ja oriģināls nav iekļauts baltajā sarakstā)",
+                "not-available": "Nav rezultāta"
             }
         },
         "forum": {
@@ -154,11 +154,11 @@
             "buttons": {
                 "attach": "Pievienot",
                 "upload": "Augšupielādēt",
-                "upload_shared": "",
+                "upload_shared": "Dalīts",
                 "user_uploads": "Lietotāja augšupielādes",
                 "cancel": "Atcelt",
                 "media": "Mana multivide",
-                "shared_media": ""
+                "shared_media": "Koplietots multivide"
             },
             "states": {
                 "error": "Kļūda",
@@ -166,14 +166,14 @@
                 "unauthorized": "Jums nav atļaujas lejupielādēt failus"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "Augšupielādes, kas pārsniedz {max} kb, netiek pieņemtas."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Izvērst priekšskatījumu",
+                "collapse": "Sakļaut priekšskatījumu",
+                "error": "Priekšskatot failu, radās kļūda. Iespējams, tas ir dzēsts vai norādītais faila ID nav derīgs.\n",
+                "no_snippet_preview": "<priekšskatījums šeit parādīsies pēc publicēšanas>",
+                "no_snippet": "<nav pieejams priekšskatījuma fragments>"
             },
             "file_list": {
                 "loading": "Notiek failu ielāde...",
@@ -198,55 +198,55 @@
                 "forbidden_type": "Šāda faila tipa augšupielāde nav atļauta.",
                 "unsupported_type": "Augšupielāde neatbalsta šādu 'mime' tipu: {mime}.",
                 "could_not_detect_mime": "Nevarēja noteikt šī faila MIME tipu. Lūdzu, mēģiniet vēlreiz.",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "max_upload_file_size_ini": "Sasniegts augšupielādes maksimālā faila lieluma ierobežojums no vietnes php.ini.",
+                "max_upload_file_size_form": "Sasniegts veidlapas augšupielādes maksimālais faila lieluma ierobežojums.",
+                "partial_upload": "Daļēja augšupielāde.",
+                "no_file_uploaded": "Nav augšupielādēts neviens fails.",
+                "no_upload_tmp_folder": "Nav tmp mapes failu augšupielādei.",
+                "cannot_write_to_disk": "Nevar ierakstīt diskā.",
+                "upload_blocked_by_php_extension": "php paplašinājums bloķēja augšupielādi.",
+                "no_files_made_it_to_upload": "Lūdzu, augšupielādējiet failus, kas nav lielāki par {max} kb."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Jauns koplietots fails",
+                "dropzone": "Velciet un nometiet failus šeit vai noklikšķiniet, lai pārlūkotu",
+                "hide-from-media-gallery": "Slēpt no lietotāja multivides galerijas",
+                "upload": "Augšupielādēt"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Notiek failu ielāde...",
+                "empty": "Nav neviena faila, ko parādīt.",
+                "release_to_upload": "Atlaidiet, lai augšupielādētu",
+                "modal_empty_desktop": "Jūsu failu saraksts ir tukšs. Noklikšķiniet uz pogas vai velciet failu šeit, lai augšupielādētu.",
+                "modal_empty_phone": "Jūsu failu saraksts ir tukšs. Pieskarieties augšējai pogai, lai augšupielādētu failu.",
+                "select_file_a11y_label": "Atlasiet failu \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nav atlasīts} one {Atlasīt failu} other {Atlasīt failus}}",
+                "load_more_files_btn": "Ielādējiet vairāk failu",
+                "delete_file_a11y_label": "Dzēst failu \"{fileName}\"",
+                "delete_confirmation": "Vai tiešām vēlaties dzēst failu {fileName}?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Paslēpt failu {fileName} multivides pārvaldniekā",
+                    "btn_a11y_label_show": "{fileName}",
+                    "hide_confirmation": "Vai tiešām vēlaties paslēpt failu {fileName}? Paslēpjot failu, tas tiks noņemts tikai no multivides pārvaldnieka un neietekmēs esošās ziņas.",
+                    "hide_success": "Fails paslēpts",
+                    "show_confirmation": "Vai tiešām vēlaties rādīt failu {fileName}? Rādot failu, tas kļūs redzams multivides pārvaldniekā.",
+                    "show_success": "Fails parādīts",
+                    "hide_fail": "Nevarēja paslēpt failu \"{fileName}\"",
+                    "show_fail": "Nevarēja parādīt failu \"{fileName}\"",
+                    "loading": "Slēpt failu..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Padarīt failu {fileName} privātu (nav publiska URL)",
+                    "btn_a11y_label_show": "Padarīt failu {fileName} publisku (ar publisku URL)",
+                    "hide_confirmation": "Vai tiešām vēlaties padarīt failu {fileName} privātu? Padarot failu privātu, tā publiskais URL tiks noņemts, taču tas neietekmēs esošās ziņas. Tas arī vairs nebūs redzams multivides pārvaldniekā nesankcionētiem lietotājiem.",
+                    "hide_success": "Fails padarīts privāts",
+                    "show_confirmation": "Vai tiešām vēlaties padarīt failu {fileName} publisku? Padarot failu publisku, tas būs pieejams ikvienam, kam ir publisks URL, un ikviens varēs to kopīgot, izmantojot multivides pārvaldnieku.",
+                    "show_success": "Fails publiskots",
+                    "hide_fail": "Nevarēja padarīt failu \"{fileName}\" privātu",
+                    "show_fail": "Nevarēja padarīt failu \"{fileName}\" publisku",
+                    "loading": "Faila padarīšana privāta..."
                 }
             }
         }
