@@ -4,26 +4,26 @@
             "settings": {
                 "minecraft_server": {
                     "label": "Minecraft servera ip adresse",
-                    "help": ""
+                    "help": "Piemērs: mydomain.tld"
                 },
                 "api_url": {
-                    "label": "",
-                    "help": ""
+                    "label": "API URL",
+                    "help": "Piemērs: http://localhost:4567/verify"
                 },
                 "api_secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "API noslēpums",
+                    "help": "To var atrast šeit: <strong>Plugins/OAuth/config.json</strong>"
                 }
             }
         },
         "forum": {
-            "login_error": "",
+            "login_error": "Sesija nav sākta vai ir beidzies.",
             "log_in_modal": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "Apstiprināt",
+                "title": "Piesakieties ar Minecraft"
             },
-            "log_in_button_title": "",
-            "modal_help": ""
+            "log_in_button_title": "Piesakieties ar Minecraft",
+            "modal_help": "Pievienojieties serverim <strong>{server}</strong>, pēc tam noklikšķiniet uz tālāk esošās pogas."
         }
     }
 }
