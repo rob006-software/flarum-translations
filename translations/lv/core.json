@@ -345,7 +345,7 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} atbildēja {ago}",
                 "started_text": "{username} izveidoja {ago}",
-                "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
+                "total_replies_a11y_label": "{count, plural, one {# atbilde} other {# atbildes}}",
                 "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Atzīmēt nelasītus {count, plural, one {reply} other {reply}} kā izlasītus."
             },
             "forgot_password": {
@@ -428,7 +428,7 @@
                 "now_link": "Šobrīd",
                 "original_post_link": "Sākotnējā ziņa",
                 "unread_text": "{count} nelasīts",
-                "viewing_text": "{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}"
+                "viewing_text": "{count, plural, one {{index} of {formattedCount} ziņa} other {{index} of {formattedCount} ziņas}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Vecais nosaukums bija: \"{old}\"",
@@ -470,7 +470,7 @@
                 "revoke_access_token": "Atsaukt",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Aktīvās sesijas",
-                "session_terminated": "{count, plural, one {Session terminated} other {# Sessions terminated}}.",
+                "session_terminated": "{count, plural, one {Sesija pārtraukta} other {# Sesijas pārtrauktas}}.",
                 "session_termination_failed": "Pārtraucot jūsu sesijas, radās kļūda.",
                 "show_access_token": "Skatīt Token",
                 "terminate_all_other_sessions": "Pārtrauciet visas pārējās sesijas",
@@ -581,7 +581,7 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Lappuse # - {forumName}}}",
                 "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Lapa # - {forumName}}}"
             },
             "modal": {
