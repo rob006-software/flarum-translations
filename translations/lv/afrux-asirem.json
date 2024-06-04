@@ -2,40 +2,40 @@
     "afrux-theme-base": {
         "admin": {
             "extensions": {
-                "title": "",
-                "description": ""
+                "title": "Paplašinājumi",
+                "description": "Visu instalēto paplašinājumu saraksts."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Galvenie iestatījumi",
+                    "permissions": "Atļaujas"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Atpakaļ uz forumu"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Iemiesojums"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "Rediģēt kājenes saites",
+                "footer_description": "Kājenes apraksts",
+                "footer_bottom_line": "Kājenes apakšējā līnija",
+                "hero_banner": "Laipni lūdzam varoņa attēls",
+                "hero_banner_position": "Varoņa attēla CSS pozīcija (piemērs: \"centrā augšā\" vai \"centrā 20%\")",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Jauna saišu grupa",
+                    "group_name": "Grupas {number} nosaukums",
+                    "group_title": "Saites grupas nosaukums",
+                    "add_link": "Pievienojiet saiti",
+                    "link_url": "Saites URL",
+                    "link_label": "Saites etiķete"
                 }
             }
         }
