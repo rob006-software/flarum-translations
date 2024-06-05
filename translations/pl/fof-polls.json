@@ -32,31 +32,31 @@
             "public_poll": "Zobacz głosujących",
             "max_votes_allowed": "Ankieta umożliwia głosowanie na {max, plural, one {# opcję} few {# opcje} other {# opcji}}.",
             "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "poll_never_ends": "Ankieta nigdy się nie kończy",
+            "answers": "Odpowiedzi",
             "poll": {
                 "cannot_change_vote": "Nie możesz zmienić swojego głosu po zagłosowaniu.",
                 "submit_button": "Głosuj",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "start_poll_button": "Rozpocznij globalną ankietę",
+                "cannot_start_poll_button": "Nie można rozpocząć ankiety"
             },
             "poll_controls": {
                 "edit_label": "",
                 "delete_label": "",
                 "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "delete_confirmation": "Czy na pewno chcesz usunąć tę ankietę?",
+                "delete_success_message": "Usunięto ankietę pomyślnie.",
+                "delete_error_message": "Coś poszło nie tak podczas usuwania ankiety."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Usuń ankietę",
+                "error": "Wystąpił błąd podczas zapisywania ankiety, prosimy o kontakt z administratorem."
             },
             "polls_page": {
-                "title": ""
+                "title": "Ankiety"
             },
             "polls_list": {
-                "empty_text": "",
+                "empty_text": "Wygląda na to, że nie ma tu ankiet dla całej społeczności.",
                 "load_more_button": ""
             },
             "composer_discussion": {
@@ -65,12 +65,12 @@
                 "no_permission_alert": "Nie masz uprawnień, aby utworzyć ankietę."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Dodaj ankietę",
+                "edit_title": "Edytuj ankietę",
+                "polls_manager": "Menadżer ankiet",
+                "polls_preview": "Zobacz ankietę",
+                "continue_editing": "Kontynuuj edycję",
+                "success": "Ankieta zapisana pomyślnie."
             },
             "modal": {
                 "add_title": "Dodaj ankietę",
