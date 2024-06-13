@@ -7,24 +7,35 @@
                 "allow_close_label": "Autoriser la fermeture",
                 "allow_close_help": "Permettre aux utilisateurs de fermer la fenêtre contextuelle en cliquant sur l'arrière-plan."
             },
+            "permissions": {
+                "reset_tour_guide": ""
+            },
             "edit_modal": {
                 "edit_step": "Modifier {title}",
                 "create_step": "Créer une nouvelle étape",
                 "delete_step": "Supprimer une étape",
                 "delete_step_confirmation": "Êtes-vous sûr de vouloir supprimer cette étape ?"
             },
+            "add_step": "",
             "title": "Titre",
             "title_placeholder": "Le titre de l'étape.",
             "description": "Description",
             "description_placeholder": "La description de l'étape.",
             "target": "Cible",
-            "target_placeholder": "L'élément cible de l'étape (par exemple #element-id)."
+            "target_placeholder": "L'élément cible de l'étape (par exemple #element-id).",
+            "trigger_click": "",
+            "yes": "",
+            "no": ""
         },
         "forum": {
             "progress_text": "{current} de {total}",
             "next_btn_text": "Suivant",
             "prev_btn_text": "Précédent",
-            "done_btn_text": "Effectué"
+            "done_btn_text": "Effectué",
+            "user_controls": {
+                "reset_tour_guide": "",
+                "reset_tour_guide_confirmation": ""
+            }
         }
     }
 }

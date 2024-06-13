@@ -7,24 +7,35 @@
                 "allow_close_label": "Kapatmaya izin ver",
                 "allow_close_help": "Kullanıcıların boşluğa tıklayarak rehberi kapatmasına izin verin."
             },
+            "permissions": {
+                "reset_tour_guide": ""
+            },
             "edit_modal": {
                 "edit_step": "Düzenle {title}",
                 "create_step": "Yeni adım oluştur",
                 "delete_step": "Adımı sil",
                 "delete_step_confirmation": "Bu adımı silmek istediğinizden emin misiniz?"
             },
+            "add_step": "",
             "title": "Başlık",
             "title_placeholder": "Adım başlığı.",
             "description": "Açıklama",
             "description_placeholder": "Adım açıklaması.",
             "target": "Hedef",
-            "target_placeholder": "Adımdaki hedef öğe (örn. #oge-kimligi)."
+            "target_placeholder": "Adımdaki hedef öğe (örn. #oge-kimligi).",
+            "trigger_click": "",
+            "yes": "",
+            "no": ""
         },
         "forum": {
             "progress_text": "{total} adımdan {current}",
             "next_btn_text": "Sonraki",
             "prev_btn_text": "Önceki",
-            "done_btn_text": "Tamamla"
+            "done_btn_text": "Tamamla",
+            "user_controls": {
+                "reset_tour_guide": "",
+                "reset_tour_guide_confirmation": ""
+            }
         }
     }
 }
