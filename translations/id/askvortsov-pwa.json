@@ -43,7 +43,9 @@
                     "push_notif_preference_default_to_email_label": "Preferensi Push Default untuk Email?",
                     "push_notif_preference_default_to_email_text": "Jika true, pengguna akan mengaktifkan push notification secara default untuk semua jenis notifikasi di mana notifikasi email diaktifkan secara default. Jika false, pengguna akan menonaktifkan push notification secara default.",
                     "user_max_subscriptions_label": "Maks Push Subscription Per Pengguna",
-                    "user_max_subscriptions_text": "Berapa banyak jumlah push subscription yang dapat diterima oleh setiap pengguna dalam satu waktu? Ketika pengguna menerima push notification, setiap subscription akan menghasilkan panggilan API. Setiap subscription biasanya berhubungan dengan browser yang digunakan oleh pengguna."
+                    "user_max_subscriptions_text": "Berapa banyak jumlah push subscription yang dapat diterima oleh setiap pengguna dalam satu waktu? Ketika pengguna menerima push notification, setiap subscription akan menghasilkan panggilan API. Setiap subscription biasanya berhubungan dengan browser yang digunakan oleh pengguna.",
+                    "window_controls_overlay_label": "",
+                    "window_controls_overlay_text": ""
                 },
                 "heading": "Pengaturan Aplikasi Web Progresif",
                 "text": "Siapkan situs Flarum Anda untuk berjalan sebagai aplikasi web progresif! Harap dicatat bahwa ini tidak secara otomatis menempatkan situs Anda di toko aplikasi. Sebaliknya, ini berarti pengguna memiliki opsi 'Tambahkan ke Layar Utama' untuk situs Anda. Kami menyediakan beberapa pemeriksaan status, namun, cara terbaik untuk mengujinya adalah dengan mencoba dan menginstalnya (cari di google untuk petunjuk tentang cara menginstal aplikasi web progresif). Selain itu, harap diingat bahwa popup 'pasang PWA ini' dikontrol oleh browser, dan tidak dapat dipicu oleh pengembang/admin/program. Saya menyarankan untuk menyertakan petunjuk cara memasang PWA dalam dokumentasi situs Anda.",

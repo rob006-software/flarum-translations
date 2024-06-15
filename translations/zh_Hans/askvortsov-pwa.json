@@ -43,7 +43,9 @@
                     "push_notif_preference_default_to_email_label": "默认推送通知到电子邮箱？",
                     "push_notif_preference_default_to_email_text": "启用此项，默认通过邮件发送所有类型的推送通知，否则默认禁用推送通知。",
                     "user_max_subscriptions_label": "推送订阅数上限（每用户）",
-                    "user_max_subscriptions_text": "每个用户最多能同时存在多少条订阅。通常情况下，订阅的多少取决于用户使用的浏览器数量，通知会发送给用户的所有客户端订阅，每个订阅均会消耗一次 API 调用。"
+                    "user_max_subscriptions_text": "每个用户最多能同时存在多少条订阅。通常情况下，订阅的多少取决于用户使用的浏览器数量，通知会发送给用户的所有客户端订阅，每个订阅均会消耗一次 API 调用。",
+                    "window_controls_overlay_label": "",
+                    "window_controls_overlay_text": ""
                 },
                 "heading": "渐进式 Web 应用（PWA）配置",
                 "text": "将您的 Flarum 站点配置为渐进式 Web 应用！请注意，本插件不会自动将您的站点发布到应用商店，而是仅为您的网站提供了「添加到主屏幕」或类似选项，请注意支持 PWA 的浏览器会自动弹窗询问是否安装，不支持 PWA 的浏览器无法使用此功能。我们提供一些状态检查，但是测试应用运行状态的最佳方法是安装并试用它（百度如何安装渐进式 Web 应用）。此外，「添加到主屏幕」弹窗是由浏览器控制的，开发人员/管理员/程序无法触发。建议您在自己的社区文档中添加有关如何安装 PWA 的说明。",

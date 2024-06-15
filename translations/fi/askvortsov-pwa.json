@@ -43,7 +43,9 @@
                     "push_notif_preference_default_to_email_label": "Oletus Push asetukset sähköpostiin?",
                     "push_notif_preference_default_to_email_text": "Jos totta, käyttäjillä on oletuksena push ilmoitukset päällä kaikille ilmoitustyypeille missä sähköposti on valittuna oletuksena. Jos ei päällä niin käyttäjillä on push ilmoitukset pois päällä oletuksena.",
                     "user_max_subscriptions_label": "Enimmäismäärä Push tilauksia per käyttäjä",
-                    "user_max_subscriptions_text": "Kuinka monta push tilausta käyttäjällä voi olla kerrallaan. Kun käyttäjä vastaanottaa push ilmoituksen, jokainen tilaus tekee API kutsun. Jokainen tilaus yleensä vastaa selainta mitä käyttäjä on käyttänyt."
+                    "user_max_subscriptions_text": "Kuinka monta push tilausta käyttäjällä voi olla kerrallaan. Kun käyttäjä vastaanottaa push ilmoituksen, jokainen tilaus tekee API kutsun. Jokainen tilaus yleensä vastaa selainta mitä käyttäjä on käyttänyt.",
+                    "window_controls_overlay_label": "",
+                    "window_controls_overlay_text": ""
                 },
                 "heading": "Progressiivisen verkkosovelluksen määritykset",
                 "text": "Määritä Flarum foorumisi toimimaan progressiivisena verkkosovelluksena! Huomioithan, että tämä ei automaattisesti lisää sivuasi sovelluskauppaan. Tämä sen sijaan ottaa käyttöön 'Lisää Koti-valikkoon' vaihtoehdon. Tämä tarjoaa joitain tilan tarkastuksia, tosin paras tapa tämän testaamiseen on kokeilla ja asentaa se (etsi Googlesta ohjeita PWA sovellusten asentamiseen). Ota myös huomioon, että 'asenna tämä PWA' popupit on selaimen määrityksistä kiinni ja niitä ei voi laukaista kehittäjän/ylläpitäjän/sovelluksen toimesta. Suosittelen ohjeistamaan sivustolla miten PWA sovellus asennetaan.",

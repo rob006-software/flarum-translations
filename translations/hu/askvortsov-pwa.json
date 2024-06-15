@@ -43,7 +43,9 @@
                     "push_notif_preference_default_to_email_label": "Alapértelmezett leküldéses beállítások az e-mailnél is?",
                     "push_notif_preference_default_to_email_text": "Ha igaz, akkor a leküldéses értesítések minden értesítési típusnál alapértelmezetten be lesznek kapcsolva a felhasználók számára. Ha hamis, akkor a leküldéses értesítések alapértelmezés szerint le lesznek tiltva.",
                     "user_max_subscriptions_label": "Leküldéses feliratkozások felső korlátja felhasználónként",
-                    "user_max_subscriptions_text": "Legfeljebb hány leküldéses feliratkozása lehet az egyes felhasználóknak? Ha egy felhasználó leküldéses értesítést kap, akkor minden egyes feliratkozás egy API-kérést eredményez. A feliratkozások jellemzően egy-egy, a felhasználó által használt böngészőt jelentenek."
+                    "user_max_subscriptions_text": "Legfeljebb hány leküldéses feliratkozása lehet az egyes felhasználóknak? Ha egy felhasználó leküldéses értesítést kap, akkor minden egyes feliratkozás egy API-kérést eredményez. A feliratkozások jellemzően egy-egy, a felhasználó által használt böngészőt jelentenek.",
+                    "window_controls_overlay_label": "",
+                    "window_controls_overlay_text": ""
                 },
                 "heading": "Progresszív webalkalmazás beállításai",
                 "text": "Állítsa be a Flarum webhelyét, hogy progresszív webalkalmazásként fusson! Vegye figyelembe, hogy ez nem teszi automatikusan webhelyét az alkalmazásboltba. Ehelyett ez azt jelenti, hogy a felhasználóknál megjelenik a „Hozzáadás a kezdőképernyőhöz” lehetőség az Ön webhelyénél. Néhány állapotellenőrzést biztosítunk, azonban a tesztelés legjobb módja az, hogy megpróbálja telepíteni (keressen rá a progresszív webes alkalmazások telepítési módjára). Ezenkívül ne feledje, hogy a a PWA telepítési felugró ablakokat a böngészők vezérlik, a fejlesztők/rendszergazdák/programok nem indíthatják el őket. Javaslom, hogy a webhely dokumentációjában szerepeltesse a PWA telepítésével kapcsolatos utasításokat.",
