@@ -177,6 +177,7 @@ return [
 		'!dalez-msemoji',
 		'!dalez-twemoji',
 		'!gbcl-userip',
+		'!huoxin-auto-follow-discussion',
 		'!imdong-spam-alert',
 		'!imdong-visible-to-op-only',
 		'!vlssu-cravatar',
