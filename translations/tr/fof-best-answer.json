@@ -39,6 +39,8 @@
                 "tags_info": "Bir etiket En İyi Yanıt etkinleştirildiğinde, her kullanıcı grubuna yanıtları (kendi tartışması, herhangi bir tartışma) ayarlayabilecek izinler atayın. İzinler genel olarak (En İyi Yanıt özellikli etiketler için) veya etiket bazında atanabilir.\n",
                 "solution_search": "Çözüm arama",
                 "solution_search_help": "En İyi Yanıtlarla tartışmaları arama özelliğini etkinleştirin",
+                "discussion_sidebar_jump_button": "",
+                "discussion_sidebar_jump_button_help": "",
                 "enable_all_tags_button": "Tüm etiketlerde En İyi Yanıtı etkinleştir",
                 "enable_all_tags_reminder_button": "En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir",
                 "introduction": "<code><a>flarum/tags</a></code> içinde hangi etiketlerin En İyi Yanıtları destekleyeceğini ve isteğe bağlı olarak hangi etiketlerin hatırlatıcıları desteklemesi gerektiğini etkinleştirin. Bir etiket için En İyi Yanıt etkinleştirildiğinde, yanıtları ayarlayabilen her kullanıcı grubuna (kendi tartışması, herhangi bir tartışma) izinler atayın. İzinler genel olarak (En İyi Yanıtın etkinleştirildiği herhangi bir etiket için) veya etiket bazında atanabilir.\n",
@@ -89,6 +91,9 @@
             "search": {
                 "discussions_solutions_heading": "Çözümlü tartışmalar",
                 "all_discussions_solutions_button": "\"{query}\" çözümü içeren tüm tartışmaları arayın"
+            },
+            "discussion": {
+                "jump_to_best_answer_button": ""
             }
         },
         "email": {

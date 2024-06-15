@@ -39,6 +39,8 @@
                 "tags_info": "",
                 "solution_search": "",
                 "solution_search_help": "",
+                "discussion_sidebar_jump_button": "",
+                "discussion_sidebar_jump_button_help": "",
                 "enable_all_tags_button": "Abilita tutti i tag per Risposta Migliore",
                 "enable_all_tags_reminder_button": "Abilita tutti i tag per i promemoria di Risposta Migliore",
                 "introduction": "Abilita quali tag devono supportare le risposte migliore in <code><a>flarum/tags</a></code> e, facoltativamente, quali tag devono supportare i promemoria. Quando un tag è abilitato per la risposta migliore, assegna le autorizzazioni a ciascun gruppo di utenti che può impostare le risposte (discussione personale, qualsiasi discussione). Le autorizzazioni possono essere assegnate globalmente (per qualsiasi tag abilitato Best Answer) o in base al tag.\n",
@@ -89,6 +91,9 @@
             "search": {
                 "discussions_solutions_heading": "",
                 "all_discussions_solutions_button": ""
+            },
+            "discussion": {
+                "jump_to_best_answer_button": ""
             }
         },
         "email": {

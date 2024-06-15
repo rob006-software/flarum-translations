@@ -39,6 +39,8 @@
                 "tags_info": "Lorsqu'une étiquette est activée pour la meilleure réponse, attribuez des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (sa propre discussion ou toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée pour la meilleure réponse) ou pour chaque étiquette.\n",
                 "solution_search": "Recherche de solution",
                 "solution_search_help": "Activer la possibilité de rechercher des discussions avec les meilleures réponses",
+                "discussion_sidebar_jump_button": "",
+                "discussion_sidebar_jump_button_help": "",
                 "enable_all_tags_button": "Activer toutes les étiquettes pour les meilleures réponses",
                 "enable_all_tags_reminder_button": "Activer toutes les étiquettes pour les rappels d'une meilleure réponse",
                 "introduction": "Active quelles étiquettes doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les étiquettes qui doivent prendre en charge les rappels. Lorsqu'une étiquette est activée avec l'extension « Best Answer », cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée avec l'extension « Best Answer »), ou sur une base par étiquette.\n"
@@ -88,6 +90,9 @@
             "search": {
                 "discussions_solutions_heading": "Discussions avec des solutions",
                 "all_discussions_solutions_button": "Rechercher toutes les discussions avec des solutions concernant « {query} »"
+            },
+            "discussion": {
+                "jump_to_best_answer_button": ""
             }
         },
         "email": {
