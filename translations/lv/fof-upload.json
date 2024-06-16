@@ -36,6 +36,7 @@
                 "watermark": "Izvēlieties, vai attēliem augšupielādes laikā tiks pievienota ūdenszīme. Ūdenszīmes tiek pievienotas attēliem, kas nav GIF, pamatojoties uz tālāk norādītajām vēlmēm.\n",
                 "s3_compatible_storage": "Tālāk norādītie iestatījumi ir nepieciešami tikai tad, ja tiek izmantota ar S3 saderīga krātuve. Ja izmantojat AWS, varat atstāt tos tukšus.\n",
                 "s3_acl": "ACL, kas jāpiemēro augšupielādētajam objektam (noklusējums: privāts). Iespējamās vērtības skatiet vietnē https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Atstājiet atslēgu un noslēpumu tukšu, lai izmantotu akreditācijas datus instances profilā.\n",
                 "composer_buttons": "Pēc noklusējuma ir redzama gan multivides pārvaldnieka poga, gan augšupielādes poga. Varat arī izvēlēties rādīt tikai vienu pogu.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Papildu S3 krātuves iestatījumi",
                     "endpoint": "Galapunkts",
                     "use_path_style_endpoint": "Use path style endpoint",
-                    "acl": "Piekļuves kontroles saraksts (ACL)"
+                    "acl": "Piekļuves kontroles saraksts (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Atspējot reģistrēšanas lejupielādes",

@@ -36,6 +36,7 @@
                 "watermark": "Suratlaryň ýüklenende suw belliginiň goşuljakdygyny ýa-da ýokdugyny saýlaň. Suw bellikleri aşakdaky islegleriňize görä gif dällere goşulýar.\n",
                 "s3_compatible_storage": "Aşakdaky sazlamalar diňe S3 gabat gelýän ammar ulanylanda talap edilýär. AWS ulanýan bolsaňyz, olary boş goýup bilersiňiz.\n",
                 "s3_acl": "Uploadüklenen obýekte ulanylmaly ACL (default: hususy). Mümkin bolan gymmatlyklar üçin https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl serediň\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Mysal profilinde şahsyýet maglumatlaryny ulanmak üçin açary we syry boş goýuň.\n",
                 "composer_buttons": "Adaty tertipde media dolandyryjy düwmesi we ýüklemek düwmesi görünýär. Şeýle hem diňe bir düwmäni görkezmegi saýlap bilersiňiz.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Ösen S3 ammar sazlamalary",
                     "endpoint": "Ahyrky nokat",
                     "use_path_style_endpoint": "Styleol stiliniň ahyrky nokadyny ulanyň",
-                    "acl": "Giriş dolandyryş sanawy (ACL)"
+                    "acl": "Giriş dolandyryş sanawy (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Gingükleme ýüklemelerini öçüriň",

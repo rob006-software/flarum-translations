@@ -36,6 +36,7 @@
                 "watermark": "在圖片上載時新增水印，僅支援非 gif 圖片。\n",
                 "s3_compatible_storage": "僅在使用 S3 兼容存儲時才需要以下設置。 如果您使用 AWS，您可以將它們留空。\n",
                 "s3_acl": "應用於上傳對象的 ACL（預設：私有）。 有關可能的值，請參閱 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "公鑰和秘鑰留空時，可為實例單獨配置。\n",
                 "composer_buttons": "預設情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "進階 S3 存儲設置",
                     "endpoint": "訪問域名（Endpoint）",
                     "use_path_style_endpoint": "使用 path-style 訪問域名",
-                    "acl": "訪問控制列表（ACL）"
+                    "acl": "訪問控制列表（ACL）",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "停用下載日誌",

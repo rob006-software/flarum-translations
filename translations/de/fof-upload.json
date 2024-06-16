@@ -36,6 +36,7 @@
                 "watermark": "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n",
                 "s3_compatible_storage": "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n",
                 "s3_acl": "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Schlüssel und Secret leer lassen, um Anmeldeinformationen im Instanzprofil zu verwenden.\n",
                 "composer_buttons": "Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Advanced S3 Speichereinstellungen",
                     "endpoint": "Endpunkt",
                     "use_path_style_endpoint": "Verwende \"path style\"-Endpunkt",
-                    "acl": "Zugriffssteuerungsliste (ACL)"
+                    "acl": "Zugriffssteuerungsliste (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Protokollierung von Downloads deaktivieren",

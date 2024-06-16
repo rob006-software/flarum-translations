@@ -36,6 +36,7 @@
                 "watermark": "Chọn xem hình ảnh có được thêm hình mờ trong quá trình tải lên hay không. Hình mờ được thêm vào không phải gif dựa trên tùy chọn của bạn bên dưới.\n",
                 "s3_compatible_storage": "Các cài đặt sau chỉ được yêu cầu khi sử dụng bộ lưu trữ tương thích S3. Nếu bạn sử dụng AWS, bạn có thể để trống chúng.\n",
                 "s3_acl": "ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Để trống khóa và bí mật để sử dụng thông tin đăng nhập trong hồ sơ cá thể.\n",
                 "composer_buttons": "Theo mặc định, cả nút quản lý và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Thiết lập lưu trữ S3 nâng cao",
                     "endpoint": "Điểm cuối",
                     "use_path_style_endpoint": "Sử dụng điểm cuối kiểu đường dẫn",
-                    "acl": "Danh sách kiểm soát truy cập (ACL)"
+                    "acl": "Danh sách kiểm soát truy cập (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Tắt nhật ký tải xuống",
