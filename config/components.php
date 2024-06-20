@@ -166,6 +166,9 @@ return [
 	'blomstra-welcome-login' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-welcome-login/0.1.0/locale/en.yml',
 	],
+	'briantran-inject-header' => [
+		'tag' => 'https://raw.githubusercontent.com/brian-guru/flarum-inject-header/1.0.0/resources/locale/en.yml',
+	],
 	'cadiducho-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.1/resources/locale/en.yml',
 	],
