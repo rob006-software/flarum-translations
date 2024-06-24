@@ -1,14 +1,14 @@
 {
     "huoxin-auto-follow-discussion": {
         "admin": {
-            "default-follow-after-create-label": "",
-            "default-follow-after-create-help": "",
-            "default-follow-after-read-label": "",
-            "default-follow-after-read-help": ""
+            "default-follow-after-create-label": "Valeur par défaut pour le suivi automatique des discussions créées par l'utilisateur",
+            "default-follow-after-create-help": "Valeur par défaut : activé",
+            "default-follow-after-read-label": "Valeur par défaut pour le suivi automatique des discussions lues par l'utilisateur",
+            "default-follow-after-read-help": "Valeur par défaut : désactivé"
         },
         "forum": {
-            "default-follow-after-create-label": "",
-            "default-follow-after-read-label": ""
+            "default-follow-after-create-label": "Suivre automatiquement les discussions que j'ai créées",
+            "default-follow-after-read-label": "Suivre automatiquement les discussions que je lis"
         }
     }
 }
