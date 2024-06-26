@@ -5,7 +5,9 @@
                 "show_progress_label": "Show progress",
                 "show_progress_help": "This will show the current step and total steps at the top of the popover.",
                 "allow_close_label": "Allow close",
-                "allow_close_help": "Allow users closing the popover by click on the backdrop."
+                "allow_close_help": "Allow users closing the popover by click on the backdrop.",
+                "skip_null_elements_label": "Skip null elements",
+                "skip_null_elements_help": "Skip steps whose target matches no HTML element. You can use this to target languages with 'html[lang=\"es\"] my-selector'. This also hides Prev button for coherence, and you should hide progress."
             },
             "permissions": {
                 "reset_tour_guide": "Reset tour guide"
