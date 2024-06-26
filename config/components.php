@@ -1066,6 +1066,9 @@ return [
 	'malago-fancybox' => [
 		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-ext-fancybox/0.3.0/locale/en.yml',
 	],
+	'maojindao55-web3' => [
+		'tag' => 'https://raw.githubusercontent.com/maojindao55/flarum-ext-web3/v0.2.1/locale/en.yml',
+	],
 	'marchccc-mentions-group-users' => [
 		'tag' => 'https://raw.githubusercontent.com/Marchccc/flarum-ext-mentions-group-users/v0.1.0/locale/en.yml',
 	],
