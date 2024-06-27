@@ -346,6 +346,9 @@ return [
 	'convo-extensions-quick-reply' => [
 		'tag' => 'https://raw.githubusercontent.com/convo-extensions/flarum-ext-quick-reply/1.0.2/locale/en.yml',
 	],
+	'd1258zz-lottery' => [
+		'tag' => 'https://raw.githubusercontent.com/d1258zz/lottery/0.0.5/resources/locale/en.yml',
+	],
 	'dalez-msemoji' => [
 		'tag' => 'https://raw.githubusercontent.com/DellZHackintosh/flarum-msemoji/v1.0.0/locale/en.yml',
 	],
