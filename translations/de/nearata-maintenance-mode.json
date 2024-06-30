@@ -3,28 +3,28 @@
         "admin": {
             "dashboard": {
                 "maintenance_widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Wartungsmodus aktiviert",
+                    "detail": "Während des Wartungsmodus, können nur autorisierte Benutzer das Forum ansehen."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Kann den Wartungsmodus umgehen"
             },
             "settings": {
                 "maintenance_mode_enabled": {
-                    "label": ""
+                    "label": "Wartungsmodus"
                 }
             }
         },
         "views": {
             "default": {
-                "title": "",
-                "header": "",
-                "body": ""
+                "title": "Wartungsmodus",
+                "header": "Wegen Wartungsarbeiten nicht verfügbar.",
+                "body": "<p>Wir führen gerade Wartungsarbeiten durch. Bitte komm später wieder.</p>\n"
             }
         },
         "api": {
-            "title": ""
+            "title": "Zurzeit wegen Wartungsarbeiten nicht verfügbar. Bitte komm später wieder."
         }
     }
 }
