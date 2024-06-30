@@ -4,14 +4,14 @@
             "appearance": {
                 "colored_header_label": "색상이 있는 머리글",
                 "colors_heading": "색상들",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
+                "colors_primary_label": "기본 색",
+                "colors_secondary_label": "보조 색",
                 "colors_text": "포럼의 테마에 사용할 두 가지 색상을 선택하세요. 첫번째 색상은 하이라이트 색상으로 사용되고 두번째 색상은 배경 요소 색상으로 사용됩니다.",
                 "custom_footer_heading": "사용자 지정 바닥글",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "사용자 지정 머리글",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "@import 및 data-uri 기능은 사용자 정의 LESS에서 허용되지 않습니다.",
                 "custom_styles_heading": "사용자 지정 스타일",
                 "custom_styles_text": "Flarum 기본 스타일 위에 적용될 LESS/CSS 코드를 추가하세요.",
                 "dark_mode_label": "다크 모드",
@@ -48,37 +48,37 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "이 이메일을 확인하도록 사용자에게 요청",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "생성하고 추가",
+                "submit_button": "사용자 생성",
+                "title": "새로운 사용자 생성",
+                "use_random_password": "임의의 비밀번호 생성",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "캐시 삭제",
                 "description": "한눈에 보이는 당신의 포럼.",
-                "io_error_message": "",
+                "io_error_message": "파일 시스템에 쓸 수 없습니다. 파일 시스템 권한을 확인하고 다시 시도하거나 명령줄에서 실행해 보세요.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "일정 관리자",
+                        "queue-driver": "대기열 드라이버",
+                        "session-driver": "세션 드라이버"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "활성",
+                        "inactive": "비활성",
+                        "never-run": "절대로 실행하지 않음"
                     }
                 },
                 "title": "대시보드",
                 "tools_button": "도구"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "<code>debug</code> 모드가 활성화되어 있을 때, Flarum은 매 요청마다 자신의 <code>JavaScript</code> 및 <code>CSS</code> 자산을 다시 빌드하고 데이터베이스 비밀번호, 환경 변수 등과 같은 다른 정보가 노출될 수도 있습니다.\n\n운영 환경에서는 <code>config.php</code> 파일에서 <code>debug</code>를 비활성화하는 것이 매우 권장됩니다. 자세한 내용은 <link>Flarum 문서</link>를 참조하세요.\n",
+                "label": "디버그 모드 활성화"
             },
             "edit_css": {
                 "customize_text": "Flarum <a>기본 스타일</a> 위에 적용될 LESS/CSS 코드를 추가하세요.",
@@ -208,10 +208,10 @@
                 "permissions_text": "포럼을 보고 작업할 수 있는 사용자를 구성합니다."
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "자신의 게시물 삭제 허용",
                 "allow_post_editing_label": "게시물 편집 허용",
                 "allow_renaming_label": "게시물 이름 변경 허용",
-                "create_access_token_label": "",
+                "create_access_token_label": "액세스 토큰 생성",
                 "create_heading": "생성",
                 "delete_discussions_forever_label": "토의 영구 삭제",
                 "delete_discussions_label": "토의 삭제",
@@ -224,14 +224,14 @@
                 "edit_users_groups_label": "사용자 그룹 편집",
                 "global_heading": "글로벌",
                 "moderate_heading": "중재",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "액세스 토큰 관리",
                 "new_group_button": "새 그룹",
                 "participate_heading": "참여",
                 "post_without_throttle_label": "기다림 없이 여러 번 답장 허용",
                 "read_heading": "읽기",
                 "rename_discussions_label": "이름 변경",
                 "reply_to_discussions_label": "답장 쓰기",
-                "search_users_label": "사용자 검색",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "가입",
                 "start_discussions_label": "글쓰기",
                 "title": "권한",
@@ -244,7 +244,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "제한 없음",
-                "allow_never_button": "",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {# 분 동안} other {# 분 동안}}",
                 "allow_ten_minutes_button": "10 분 동안",
                 "allow_until_reply_button": "다음 답장까지",
@@ -262,12 +262,12 @@
                 "upload_button": "이미지 선택..."
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "새로운 사용자",
                 "description": "포럼의 모든 유저들의 리스트.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "표시 이름"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -298,13 +298,13 @@
                 },
                 "pagination": {
                     "back_button": "이전 페이지",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "첫 페이지로 이동",
+                    "go_to_page_textbox_a11y_label": "페이지 번호로 직접 이동",
+                    "last_button": "마지막 페이지로 이동",
                     "next_button": "다음 페이지",
                     "page_counter": "총 {total} 페이지 중 {current} 페이지"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "총 유저: {count}"
             },
@@ -386,7 +386,7 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "비밀번호를 재설정하기 위한 링크를 포함한 이메일을 전송했습니다. 1~2분 내에 이메일을 받지 못한 경우 스팸 폴더를 확인해주세요.",
+                "email_sent_message": "입력한 이메일이 이 사이트에 등록되어 있다면, 비밀번호를 재설정할 수 있는 링크가 포함된 이메일을 보내드립니다. 1~2분 내에 받지 못한 경우 스팸 편지함을 확인해주세요.",
                 "not_found_message": "해당 이메일 주소로 등록된 사용자가 없습니다.",
                 "submit_button": "비밀번호 재설정",
                 "text": "이메일 주소를 입력하면 비밀번호를 재설정할 수 있는 링크를 보내드립니다.",
@@ -435,8 +435,8 @@
                 "username_or_email_placeholder": "사용자명 또는 이메일"
             },
             "notifications": {
-                "delete_all_confirm": "",
-                "delete_all_tooltip": "",
+                "delete_all_confirm": "모든 알림을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다",
+                "delete_all_tooltip": "모든 알림 삭제",
                 "discussion_renamed_text": "{username}님이 제목을 변경했습니다",
                 "empty_text": "알림 없음",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -467,7 +467,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "이전 제목은 \"{old}\"였습니다",
-                "discussion_renamed_text": "{username}님이 제목을 {new}(으)로 변경했습니다.",
+                "discussion_renamed_text": "{username}님이 제목을 {new}(으)로 변경했습니다. {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} 후"
@@ -482,45 +482,45 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{os}에서 {browser} 사용 중",
+                "cannot_terminate_current_session": "현재 활성 세션을 종료할 수 없습니다. 대신 로그아웃하세요.",
+                "created": "생성됨",
+                "current_active_session": "현재 활성 세션",
+                "developer_tokens_heading": "개발자 토큰",
+                "empty_text": "여기에 볼 것이 없는 것 같습니다.",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "전역 로그아웃",
+                    "help_text": "현재 쿠키 세션을 지우고, 모든 세션을 종료하며, 개발자 토큰을 폐기하고, 이메일 확인 또는 비밀번호 재설정 이메일을 무효화합니다.",
+                    "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "토큰 숨기기",
+                "last_activity": "마지막 활동",
+                "never": "=> core.ref.never",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "토큰 생성",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "제목"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "폐기",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "활성 세션",
+                "session_terminated": "{count, plural, one {세션 종료} other {# 세션 종료됨}}.",
+                "session_termination_failed": "세션을 종료하는 동안 오류가 발생했습니다.",
+                "show_access_token": "토큰 보기",
+                "terminate_all_other_sessions": "다른 모든 세션 종료",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "종료",
+                "title": "=> core.ref.security",
+                "token_revoked": "토큰이 폐기되었습니다.",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "계정",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "",
+                "notification_checkbox_a11y_label_template": "\"{description}\" 알림을 {method}(을)를 통해 받음",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "웹",
@@ -550,7 +550,7 @@
                 "posts_empty_text": "여기엔 게시물이 없는것 같습니다.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -596,7 +596,7 @@
                 "toggle_dropdown_accessible_label": "드롭다운 메뉴 토글하기"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "사용자 활성화",
@@ -613,11 +613,11 @@
                 "nothing_available": "이 사용자를 편집할 권한이 없습니다."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "순환 종속성이 감지되었습니다: {extensions}. 작업을 중단합니다. 하나의 확장을 비활성화하고 다시 시도하세요.",
                 "dependent_extensions_message": "{extension}을 다음 종속 확장들이 모두 비활성화 되기 전까지 비활성화 할 수 없습니다. 종속 확장들: {extensions}",
-                "extension_initialiation_failed_message": "",
+                "extension_initialiation_failed_message": "{extension}이(가) 초기화되지 못했습니다. 자세한 정보는 브라우저 콘솔을 확인하세요.",
                 "generic_message": "이런! 뭔가 잘못되었습니다. 페이지를 다시 로드하고 다시 시도하십시오.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "이런! 교차 출처 요청 중에 문제가 발생했습니다. 페이지를 새로 고쳐서 다시 시도해주세요.",
                 "missing_dependencies_message": "{extension}을 다음 상속 확장들이 모두 활성화 되기 전까지 활성화 할 수 없습니다. 상속 확장들: {extensions}",
                 "not_found_message": "요청한 리소스를 찾을 수 없습니다.",
                 "payload_too_large_message": "요청의 크기가 너무 컸습니다.",
@@ -711,9 +711,9 @@
         "api": {
             "invalid_username_message": "사용자명에는 문자, 숫자 및 대시만 포함될 수 있습니다.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "{filter} 필터는 숫자여야 합니다.",
+                "must_not_be_array_message": "{filter} 필터는 배열이 아니어야 합니다.",
+                "must_not_be_multidimensional_array_message": "{filter} 필터는 다차원 배열이 아니어야 합니다."
             }
         },
         "email": {
@@ -753,7 +753,7 @@
             "edit_user": "사용자 편집",
             "email": "이메일",
             "extensions": "확장",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "진행하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
             "icon": "아이콘",
             "icon_text": "아무 <a>FontAwesome</a> 아이콘 클래스를 입력해주세요. <em>접두사 </em> <code>fas fa-</code>를 포함해야합니다.",
             "load_more": "더 보기",
@@ -761,8 +761,8 @@
             "log_in": "로그인",
             "log_out": "로그아웃",
             "mark_all_as_read": "모두 읽음으로 표시",
-            "never": "",
-            "new_token": "",
+            "never": "결코",
+            "new_token": "새로운 토큰",
             "next_page": "다음 페이지",
             "notifications": "알림",
             "okay": "확인",
@@ -775,8 +775,8 @@
             "reset_your_password": "비밀번호 재설정",
             "restore": "복구",
             "save_changes": "변경사항 저장",
-            "search_users": "",
-            "security": "",
+            "search_users": "사용자 검색",
+            "security": "보안",
             "settings": "설정",
             "sign_up": "가입",
             "some_others": "{count, plural, one {# 개의 기타} other {# 개의 기타들}}",

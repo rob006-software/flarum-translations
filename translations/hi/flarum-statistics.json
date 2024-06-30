@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "आँकड़े प्रदर्शित करने के लिए एक कस्टम दिनांक सीमा चुनें। डेटा लोड होने में समय लग सकता है\nढेर सारी गतिविधि के साथ मंचों पर कई मिनट।\n",
+                "end_date": "समाप्ति तिथि (समावेशी)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "समाप्ति तिथि आरंभ तिथि के बाद की होनी चाहिए।"
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "आरंभ तिथि (समावेशी)",
+                "submit_button": "दिनांक सीमा की पुष्टि करें",
+                "title": "कस्टम दिनांक सीमा चुनें"
             },
             "statistics": {
-                "discussions_heading": "",
-                "export_chart_button": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
-                "posts_heading": "",
-                "today_label": "",
-                "total_label": "",
-                "users_heading": "",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "discussions_heading": "=> core.ref.discussions",
+                "export_chart_button": "एसवीजी को चार्ट निर्यात करें",
+                "last_12_months_label": "पिछले 12 महीने",
+                "last_28_days_label": "पिछले 28 दिन",
+                "last_7_days_label": "पिछले 7 दिन",
+                "mini_heading": "फोरम आँकड़े",
+                "previous_28_days_label": "पिछले 28 दिन",
+                "previous_7_days_label": "पिछले 7 दिन",
+                "custom_label": "कस्टम रेंज चुनें..।",
+                "custom_label_specified": "{fromDate} से {toDate}",
+                "loading": "=> core.ref.loading",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "आज",
+                "total_label": "कुल",
+                "users_heading": "कुल",
+                "view_full": "अधिक आँकड़े देखें",
+                "no_data": "इस दिनांक सीमा के लिए कोई डेटा उपलब्ध नहीं है।",
+                "current_period": "वर्तमान अवधि",
+                "previous_period": "पिछली अवधि"
             }
         }
     }

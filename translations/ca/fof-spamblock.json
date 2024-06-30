@@ -2,13 +2,13 @@
     "fof-spamblock": {
         "forum": {
             "user_controls": {
-                "spammer_button": "",
-                "spammer_confirmation": ""
+                "spammer_button": "Spammer",
+                "spammer_confirmation": "Estàs segur de que vols? \n• Amagar tot els debats i publicacions de l'usuari \n• [flarum/suspend] Suspendre l'usuari"
             }
         },
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Marcar l'usuari com a spammer"
             }
         }
     }

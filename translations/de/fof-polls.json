@@ -3,15 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Erlaube die Angabe einer Bild-URL für jede Umfrageoption",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
+                "enable_global_polls": "",
+                "enable_global_polls_help": "",
                 "max_options": "Maximale Anzahl von Optionen pro Umfrage",
                 "options_color_blend": "Textfarbe in Umfrageoptionen für bessere Lesbarkeit anpassen",
-                "options_color_blend_help": "Mit dieser Funktion kannst du durch Farbmischen die Umfrageoptionen besser lesbar machen. Deaktiviere diese Funktion wenn sie dein Forum seltsam aussehen lässt und die Lesbarkeit verringert."
+                "options_color_blend_help": "Mit dieser Funktion kannst du durch Farbmischen die Umfrageoptionen besser lesbar machen. Deaktiviere diese Funktion wenn sie dein Forum seltsam aussehen lässt und die Lesbarkeit verringert.",
+                "image_height": "",
+                "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Ergebnisse anzeigen ohne abzustimmen",
                 "start": "Umfragen starten",
+                "start_global": "",
                 "self_edit": "Erstellte Umfragen bearbeiten (erfordert die Berechtigung zum Bearbeiten von Beiträgen)",
                 "self_post_edit": "Bearbeiten *aller* Umfragen in eigenen Beiträgen (erfordert die Berechtigung zum Bearbeiten von Beiträgen)",
+                "upload_images": "",
                 "vote": "In Umfragen abstimmen",
                 "change_vote": "Stimme ändern",
                 "moderate": "Umfragen bearbeiten & entfernen"
@@ -23,14 +31,46 @@
             "poll_ended": "Diese Umfrage ist bereits beendet.",
             "public_poll": "Abstimmungsergebnis",
             "max_votes_allowed": "In der Umfrage kann für {max, plural, one {# Option} other {# Optionen}} abgestimmt werden.",
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
             "poll": {
                 "cannot_change_vote": "Du kannst deine Stimme nach dem Abstimmen nicht mehr ändern.",
-                "submit_button": "Abstimmen"
+                "submit_button": "Abstimmen",
+                "start_poll_button": "",
+                "cannot_start_poll_button": ""
+            },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "Du verfügst nicht über die Berechtigung, eine Umfrage zu starten."
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
             },
             "modal": {
                 "add_title": "Umfrage hinzufügen",
@@ -51,7 +91,26 @@
                 "hide_votes_label": "Stimmen ausblenden, bis die Umfrage endet",
                 "allow_change_vote_label": "Benutzern erlauben, ihre Stimme zu ändern",
                 "question_placeholder": "Frage",
-                "submit": "Speichern"
+                "subtitle_placeholder": "",
+                "submit": "Speichern",
+                "delete": "",
+                "error": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": "",
+                    "later_help": ""
+                },
+                "poll_option_image": {
+                    "label": "",
+                    "help": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
             },
             "moderation": {
                 "add": "Umfrage hinzufügen",
@@ -59,12 +118,26 @@
                 "delete_confirm": "Bist du sicher, dass du die Umfrage entfernen willst?",
                 "edit": "Umfrage bearbeiten"
             },
+            "page": {
+                "nav": "",
+                "nav-all": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
             "tooltip": {
                 "badge": "Umfrage",
                 "votes": "{count, plural, one {Eine Stimme} other {# Stimmen}}"
             },
             "votes_modal": {
                 "title": "=> fof-polls.forum.public_poll"
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             }
         }
     }

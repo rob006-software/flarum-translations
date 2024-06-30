@@ -2,64 +2,64 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Miniet grupas"
             },
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Atļaut lietotājvārda pieminēšanas formātu (@username)",
+                "allow_username_format_text": "Pašreizējais lietotāju pieminēšanas formāts ir @\"Redāmais nosaukums\"#ID.\nŠis iestatījums ļauj izmantot veco @Username formātu, taču saglabāšanas laikā tas joprojām tiks pārveidots jaunajā formātā.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Piemini lietotāju, grupu vai ziņu",
+                "reply_to_post_text": "Atbildēt uz #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Atbildes uz šo ziņu",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": "",
-                "group_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} atbildēja uz jūsu ziņu",
+                "user_mentioned_text": "{username} pieminēja jūs",
+                "group_mentioned_text": "{username} pieminēja grupu, kuras dalībnieks esat"
             },
             "post": {
-                "mentioned_by_more_text": "",
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_more_text": "Vēl {count} atbildes.",
+                "mentioned_by_self_text": "{users} atbildēja uz šo.",
+                "mentioned_by_text": "{users} atbildēja uz šo.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Citāts",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": "",
-                "notify_group_mentioned_label": ""
+                "notify_post_mentioned_label": "Kāds atbild uz vienu no maniem ierakstiem",
+                "notify_user_mentioned_label": "Kāds mani piemin ierakstā",
+                "notify_group_mentioned_label": "Kāds ziņojumā piemin grupu, kuras dalībnieks esmu"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Piemin"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[nezināms]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[nezināma grupa]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} atbildēja uz jūsu ziņu sadaļā {title}",
+                "body": "Sveiki, {recipient_display_name}!\n\n{replier_display_name} atbildēja uz jūsu ziņu (#{post_number}) sadaļā {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} pieminēja jūs sadaļā {title}",
+                "body": "Sveiki, {recipient_display_name}!\n\n{mentioner_display_name} pieminēja jūs ziņā {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} pieminēja grupu, kuras dalībnieks esat grupā {title}",
+                "body": "Sveiki, {recipient_display_name}!\n\n{mentioner_display_name} pieminēja grupu, kuras dalībnieks esat grupā {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

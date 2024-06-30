@@ -1,6 +1,27 @@
 {
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Tải lên",
                 "description": "Thiết lập các dịch vụ và tùy chọn tải lên."
@@ -15,6 +36,7 @@
                 "watermark": "Chọn xem hình ảnh có được thêm hình mờ trong quá trình tải lên hay không. Hình mờ được thêm vào không phải gif dựa trên tùy chọn của bạn bên dưới.\n",
                 "s3_compatible_storage": "Các cài đặt sau chỉ được yêu cầu khi sử dụng bộ lưu trữ tương thích S3. Nếu bạn sử dụng AWS, bạn có thể để trống chúng.\n",
                 "s3_acl": "ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Để trống khóa và bí mật để sử dụng thông tin đăng nhập trong hồ sơ cá thể.\n",
                 "composer_buttons": "Theo mặc định, cả nút quản lý và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.\n"
             },
@@ -28,7 +50,8 @@
                     "advanced_title": "Thiết lập lưu trữ S3 nâng cao",
                     "endpoint": "Điểm cuối",
                     "use_path_style_endpoint": "Sử dụng điểm cuối kiểu đường dẫn",
-                    "acl": "Danh sách kiểm soát truy cập (ACL)"
+                    "acl": "Danh sách kiểm soát truy cập (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Tắt nhật ký tải xuống",
@@ -87,7 +110,9 @@
                 "download_label": "Tải xuống tập tin",
                 "upload_label": "Tải lên tập tin",
                 "view_user_uploads_label": "Xem tệp của người dùng",
-                "delete_uploads_of_others_label": "Xóa tệp của người dùng"
+                "delete_uploads_of_others_label": "Xóa tệp của người dùng",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Mẫu tải xuống tệp mặc định",
@@ -131,9 +156,26 @@
             "buttons": {
                 "attach": "Đính kèm",
                 "upload": "Tải lên",
+                "upload_shared": "",
                 "user_uploads": "Tệp của người dùng",
                 "cancel": "Hủy",
-                "media": "Tệp của tôi"
+                "media": "Tệp của tôi",
+                "shared_media": ""
+            },
+            "states": {
+                "error": "Lỗi",
+                "loading": "Đang tải lên",
+                "unauthorized": "Bạn không được phép tải tập tin"
+            },
+            "validation": {
+                "max_size": "Kích thước tệp trên {max} kb không được chấp nhận."
+            },
+            "text_preview": {
+                "expand": "Mở rộng bản xem trước",
+                "collapse": "Thu gọn bản xem trước",
+                "error": "Lỗi khi xem trước tệp. Nó có thể đã bị xóa hoặc ID tệp được cung cấp không hợp lệ.\n",
+                "no_snippet_preview": "<bản xem trước sẽ xuất hiện ở đây sau khi đăng>",
+                "no_snippet": "<không có sẵn đoạn mã xem trước>"
             },
             "file_list": {
                 "loading": "Đang tải tệp...",
@@ -151,21 +193,6 @@
                     "hide_fail": "Không thể xoá tệp \"{fileName}\"",
                     "loading": "Đang xoá tệp ..."
                 }
-            },
-            "states": {
-                "error": "Lỗi",
-                "loading": "Đang tải lên",
-                "unauthorized": "Bạn không được phép tải tập tin"
-            },
-            "validation": {
-                "max_size": "Kích thước tệp trên {max} kb không được chấp nhận."
-            },
-            "text_preview": {
-                "expand": "Mở rộng bản xem trước",
-                "collapse": "Thu gọn bản xem trước",
-                "error": "Lỗi khi xem trước tệp. Nó có thể đã bị xóa hoặc ID tệp được cung cấp không hợp lệ.\n",
-                "no_snippet_preview": "<bản xem trước sẽ xuất hiện ở đây sau khi đăng>",
-                "no_snippet": "<không có sẵn đoạn mã xem trước>"
             }
         },
         "api": {
@@ -181,6 +208,48 @@
                 "cannot_write_to_disk": "",
                 "upload_blocked_by_php_extension": "",
                 "no_files_made_it_to_upload": ""
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "delete_confirmation": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

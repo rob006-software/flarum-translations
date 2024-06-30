@@ -1,0 +1,43 @@
+{
+    "datlechin-simple-tour-guide": {
+        "admin": {
+            "settings": {
+                "show_progress_label": "Tampilkan kemajuan",
+                "show_progress_help": "Ini akan menunjukkan step saat ini dan total step di bagian atas popover.",
+                "allow_close_label": "Mengizinkan penutupan",
+                "allow_close_help": "Perbolehkan penggguna menutup Popover dengan klik pada latar belakang.",
+                "skip_null_elements_label": "",
+                "skip_null_elements_help": ""
+            },
+            "permissions": {
+                "reset_tour_guide": ""
+            },
+            "edit_modal": {
+                "edit_step": "Edit {title}",
+                "create_step": "Buat step baru",
+                "delete_step": "Hapus step",
+                "delete_step_confirmation": "Anda yakin ingin menghapus step ini?"
+            },
+            "add_step": "",
+            "title": "Judul",
+            "title_placeholder": "Judul step.",
+            "description": "Deskripsi",
+            "description_placeholder": "Penjelasan mengenai step tersebut.",
+            "target": "Sasaran",
+            "target_placeholder": "Elemen target dari step tersebut (misal. #elemen-id).",
+            "trigger_click": "",
+            "yes": "",
+            "no": ""
+        },
+        "forum": {
+            "progress_text": "{current} dari {total}",
+            "next_btn_text": "Lanjut",
+            "prev_btn_text": "Sebelumnya",
+            "done_btn_text": "Selesai",
+            "user_controls": {
+                "reset_tour_guide": "",
+                "reset_tour_guide_confirmation": ""
+            }
+        }
+    }
+}

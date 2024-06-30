@@ -4,16 +4,18 @@
             "settings": {
                 "title": "",
                 "service_label": "සේවාව",
-                "service_ipstack_label": "",
-                "service_ipstack_description": "",
                 "service_ipdata_label": "",
                 "service_ipdata_description": "",
                 "service_ipapi_label": "",
                 "service_ipapi_description": "",
+                "service_ipapi-pro_label": "",
+                "service_ipapi-pro_description": "",
                 "service_iplocation_label": "",
                 "service_iplocation_description": "",
+                "service_ipsevenex_label": "",
+                "service_ipsevenex_description": "",
                 "access_key_label": "",
-                "security_label": ""
+                "quota_label": ""
             }
         },
         "forum": {
@@ -27,10 +29,13 @@
                 "country_code": "",
                 "zip_code": "",
                 "isp": "",
+                "as": "",
+                "mobile": "",
                 "organization": "",
                 "threat_level": "",
                 "threat_types": "",
-                "error": ""
+                "error": "",
+                "not_enough_data": ""
             }
         }
     }

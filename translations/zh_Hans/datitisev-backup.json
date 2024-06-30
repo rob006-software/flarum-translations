@@ -17,6 +17,9 @@
                 "zip": "Zip Archive"
             },
             "settings_button": "配置",
+            "delete_button": "",
+            "delete_confirmation": "",
+            "create_button": "",
             "required_package_button": "安装",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "配置 {adapter}",
+                "name_label": "",
                 "local": {
                     "target": {
                         "label": "目标路径",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Key",
-                            "description": "AWS credentials key"
-                        },
-                        "secret": {
-                            "label": "Secret",
-                            "description": "AWS credentials secret"
-                        }
+                    "credentials-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "credentials-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "region": {
                         "label": "区域",
@@ -101,6 +103,16 @@
                     "path-prefix": {
                         "label": "路径前缀",
                         "description": "可选的默认文件路径前缀。"
+                    },
+                    "credentials": {
+                        "key": {
+                            "label": "Key",
+                            "description": "AWS credentials key"
+                        },
+                        "secret": {
+                            "label": "Secret",
+                            "description": "AWS credentials secret"
+                        }
                     }
                 },
                 "dropbox": {
@@ -127,6 +139,26 @@
                     }
                 },
                 "gdrive": {
+                    "client-id": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "client-secret": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "refresh-token": {
+                        "label": "刷新令牌",
+                        "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 应用程序刷新令牌。\n"
+                    },
+                    "folder": {
+                        "label": "Folder ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "",
+                        "test_button": ""
+                    },
                     "client": {
                         "id": {
                             "label": "Client ID",
@@ -136,14 +168,6 @@
                             "label": "Client Secret",
                             "description": " "
                         }
-                    },
-                    "refresh-token": {
-                        "label": "刷新令牌",
-                        "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 应用程序刷新令牌。\n"
-                    },
-                    "folder": {
-                        "label": "Folder ID",
-                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {

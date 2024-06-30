@@ -17,6 +17,9 @@
                 "zip": "Lưu trữ Zip"
             },
             "settings_button": "Cấu hình",
+            "delete_button": "",
+            "delete_confirmation": "",
+            "create_button": "",
             "required_package_button": "Thiết lập",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Cấu hình {adapter}",
+                "name_label": "",
                 "local": {
                     "target": {
                         "label": "Đường dẫn",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Mã khoá",
-                            "description": "Mã khoá đăng nhập AWS"
-                        },
-                        "secret": {
-                            "label": "Mã bí mật",
-                            "description": "Mã bí mật đăng nhập AWS"
-                        }
+                    "credentials-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "credentials-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "region": {
                         "label": "Khu vực",
@@ -101,6 +103,16 @@
                     "path-prefix": {
                         "label": "Tiền tố đường dẫn",
                         "description": "Tiền tố đường dẫn mặc định tùy chọn cho các tệp."
+                    },
+                    "credentials": {
+                        "key": {
+                            "label": "Mã khoá",
+                            "description": "Mã khoá đăng nhập AWS"
+                        },
+                        "secret": {
+                            "label": "Mã bí mật",
+                            "description": "Mã bí mật đăng nhập AWS"
+                        }
                     }
                 },
                 "dropbox": {
@@ -129,6 +141,26 @@
                     }
                 },
                 "gdrive": {
+                    "client-id": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "client-secret": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "refresh-token": {
+                        "label": "Làm mới token",
+                        "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md để lấy mã làm mới cho ứng dụng Google oAuth của bạn.\n"
+                    },
+                    "folder": {
+                        "label": "ID thư mục",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "",
+                        "test_button": ""
+                    },
                     "client": {
                         "id": {
                             "label": "ID khách hàng",
@@ -138,14 +170,6 @@
                             "label": "Mã bí mật khách hàng",
                             "description": " "
                         }
-                    },
-                    "refresh-token": {
-                        "label": "Làm mới token",
-                        "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md để lấy mã làm mới cho ứng dụng Google oAuth của bạn.\n"
-                    },
-                    "folder": {
-                        "label": "ID thư mục",
-                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {

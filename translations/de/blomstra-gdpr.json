@@ -1,0 +1,172 @@
+{
+    "blomstra-gdpr": {
+        "admin": {
+            "gdpr_page": {
+                "heading": "DSGVO-Datenübersicht",
+                "description": "Status der verschiedenen DSGVO-Maßnahmen und -Integrationen",
+                "data_types": {
+                    "title": "Arten der Daten",
+                    "help_text": "Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>blomstra/gdpr</code> registrieren.\nDaten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe Benutzertabellendaten unten.\n",
+                    "type": "Art",
+                    "export_description": "Exportieren",
+                    "anonymize_description": "Anonymisierung",
+                    "delete_description": "Löschung",
+                    "extension": "Erweiterung"
+                },
+                "settings": {
+                    "heading": "DSGVO-Einstellungen",
+                    "help_text": "Auf der Suche nach den DSGVO-Einstellungen? Diese befinden sich auf der Seite der Erweiterung.",
+                    "extension_settings_button": "DSGVO-Einstellungen"
+                },
+                "user_table_data": {
+                    "title": "Daten der Benutzertabelle",
+                    "help_text": "In den meisten Fällen werden alle Spalten, die der <code>Benutzer</code>-Tabelle hinzugefügt werden, automatisch behandelt, sowohl für den Export von Daten als auch für das Löschen.\nEs gibt jedoch einige Sonderfälle, die im Folgenden aufgeführt sind.\n"
+                }
+            },
+            "nav": {
+                "gdpr_button": "DSGVO-Integrationen"
+            },
+            "permissions": {
+                "process_erasure": "Löschanträge verarbeiten",
+                "process_export_for_others": "Datenexporte für andere Benutzer anfordern / empfangen",
+                "see_anonymized_user_badges": "Anonymisierte Benutzer-Badges sehen"
+            },
+            "settings": {
+                "allow_anonymization": "Anonymisierung für Löschanfragen zulassen",
+                "allow_anonymization_help": "Die Standardeinstellung, die für die meisten Communities empfohlen wird. In diesem Modus bleiben die Beiträge/Kommentare so weit wie möglich erhalten, wie es die Datenschutzgrundverordnung erlaubt, aber alle personenbezogenen Daten werden entfernt.",
+                "allow_deletion": "Löschung bei Löschanfragen erlauben",
+                "allow_deletion_help": "Eine viel strengere Einstellung. In diesem Modus werden alle Beiträge/Kommentare gelöscht, und der Benutzer wird aus der Datenbank entfernt. Diese Einstellung ist mit Vorsicht zu genießen.",
+                "default_anonymous_username": "Standard-Benutzername für anonymisierte Benutzer",
+                "default_anonymous_username_help": "Wenn ein Benutzer anonymisiert wird, wird sein Benutzername durch diesen Wert und die ID der Anonymisierungsanfrage ersetzt, zum Beispiel <code>Anonymous123</code>.",
+                "default_erasure": "Standardaktion bei Löschanfragen",
+                "default_erasure_help": "Was sollte bei Löschanfragen normalerweise getan werden?",
+                "default_erasure_options": {
+                    "anonymization": "Anonymisierung",
+                    "deletion": "Löschung"
+                },
+                "gdpr_page": {
+                    "title": "Datenintegration und -maßnahmen",
+                    "help_text": "Vor der Entscheidung, welche Aktionen in deinem Forum verwendet werden sollen, ist es wichtig zu verstehen, welche Daten integriert werden und wie sie sowohl für die Anonymisierung als auch für die Löschung behandelt werden. Informiere dich in der DSGVO-Übersicht darüber, wie die Daten behandelt werden und welche optionalen Erweiterungen die Daten für die Behandlung durch diese Erweiterung registriert haben."
+                }
+            },
+            "userlist": {
+                "columns": {
+                    "gdpr_actions": {
+                        "title": "DSGVO-Maßnahmen",
+                        "export": "Daten für {username} exportieren"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "data": {
+                "avatar": {
+                    "delete_description": "Löscht den Avatar des Benutzers aus dem Dateisystem.",
+                    "export_description": "Ruft den Avatar des Benutzers aus dem Dateisystem ab und schließt ihn in den Export ein."
+                },
+                "discussions": {
+                    "export_description": "Exportiert alle Diskussionen, die der Benutzer begonnen hat. Die Daten beschränken sich auf Titel und Erstellungsdatum."
+                },
+                "forum": {
+                    "export_description": "Exportiert den Titel des Forums, die URL, den Benutzernamen, die E-Mail und das aktuelle Datum."
+                },
+                "no_action": "Es wurden keine Maßnahmen getroffen.",
+                "posts": {
+                    "anonymize_description": "Entfernt die IP-Adresse aus allen Beiträgen, die der Benutzer verfasst hat.",
+                    "delete_description": "Löscht alle Beiträge, die der Benutzer verfasst hat.",
+                    "export_description": "Exportiert alle Beiträge, die der Benutzer verfasst hat. Die Daten beschränken sich auf Inhalt, Erstellungsdatum, IP-Adresse und Diskussions-ID."
+                },
+                "tokens": {
+                    "delete_description": "Löscht alle vom Benutzer erstellten Token.",
+                    "export_description": "Exportiert alle Token, die der Benutzer erstellt hat. Die Daten sind auf das Erstellungsdatum und den Token-Typ beschränkt."
+                },
+                "user": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                }
+            },
+            "request_data": {
+                "title": "",
+                "text": "",
+                "request_button": ""
+            }
+        },
+        "email": {
+            "confirm_erasure": {
+                "subject": "",
+                "body": ""
+            },
+            "erasure_completed": {
+                "deletion": {
+                    "subject": "",
+                    "body": ""
+                },
+                "anonymization": {
+                    "subject": "",
+                    "body": ""
+                }
+            },
+            "erasure_cancelled": {
+                "subject": "",
+                "body": ""
+            },
+            "export_available": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "forum": {
+            "badges": {
+                "anonymized_user": ""
+            },
+            "delete_user": {
+                "title": "",
+                "text": "",
+                "modal_delete_button": "",
+                "delete_button": ""
+            },
+            "erasure_requests": {
+                "empty_text": "",
+                "item_text": "",
+                "tooltip": "",
+                "title": ""
+            },
+            "erasure_request_confirmed": "",
+            "settings": {
+                "data": {
+                    "heading": ""
+                },
+                "export_data_button": "",
+                "export_data_help": "",
+                "request_erasure_button": "",
+                "request_erasure_help": ""
+            },
+            "process_erasure": {
+                "confirm": "",
+                "title": "",
+                "text": "",
+                "comments_label": "",
+                "anonymization_button": "",
+                "deletion_button": ""
+            },
+            "request_erasure": {
+                "title": "",
+                "reason": "",
+                "status": {
+                    "awaiting_user_confirmation": "",
+                    "user_confirmed": ""
+                },
+                "text": "",
+                "password_label": "",
+                "reason_label": "",
+                "cancel_button": "",
+                "request_button": ""
+            },
+            "notification": {
+                "export-ready": ""
+            },
+            "export_file": ""
+        }
+    }
+}

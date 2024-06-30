@@ -2,19 +2,26 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "查看个性签名",
-                "editOwn": "编辑自己的个性签名",
-                "editAny": "编辑所有人的个性签名"
+                "view": "查看个人简介",
+                "editOwn": "编辑自己的个人简介",
+                "editAny": "编辑所有人的个人简介"
             },
             "setting": {
-                "bioLimit": "个性签名字符数上限",
-                "allowFormatting": "允许在简介中设置格式",
-                "allowFormatting_help": "根据设计，这个格式和文章格式是分开的。如果启用了BBCode和/或Markdown扩展，它们将被用于格式化简介。不允许使用图片或嵌入。添加到 Flarum 格式化的扩展必须 *明确* 添加对简介格式化的支持。"
+                "bioLimit": "个人简介字符数上限",
+                "maxLines": "一次显示的最大行数",
+                "allowFormatting": "允许使用格式文本",
+                "allowFormatting_help": "个人简介的格式与帖子的格式在设计上是不同的，个人简介中不允许添加任何图像或嵌入页面。您可以使用 BBCode 和/或 Markdown 扩展程序的功能在个人简介使用带格式文本。其他格式化扩展程序必须 **明确** 针对个人简介添加格式文本支持，否则无法在个人简介中使用。"
             }
         },
         "forum": {
             "userbioPlaceholder": "这个人很懒，什么都没有写……",
-            "userbioPlaceholderOtherUser": "为 {username} 设置个性签名"
+            "userbioPlaceholderOtherUser": "为 {username} 设置个人简介",
+            "profile": {
+                "cancel_confirm": "",
+                "cancel_button": "",
+                "save_button": "",
+                "edit_bio_label": ""
+            }
         }
     }
 }

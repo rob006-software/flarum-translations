@@ -30,13 +30,22 @@
                     "reset_vapid_confirm": "VAPID anahtarlarının sıfırlanması, mevcut anahtarları kullanan tüm abonelikleri kaldıracak ve böylece kullanıcılar sitenizi bir sonraki ziyaretlerine kadar herhangi bir bildirim almayacaklar. Bu, yalnızca anlık bildirimlerini ilk kez ayarlarken veya anlık bildirimleri hiç çalışmıyorsa ve yukarıda eksik VAPID anahtarları hakkında bir uyarı varsa yapılmalıdır.",
                     "reset_vapid_success": "VAPID anahtarlarını başarıyla sıfırlayın. {count} abonelik sıfırlandı. Güncellenmiş bir durum kontrolü raporu görmek için sayfayı yeniden yükleyin."
                 },
+                "firebase_config": {
+                    "heading": "Firebase",
+                    "help_text": "Uygulamanızı Apple uygulama mağazasında yayınlarken anında bildirim desteği eklemek için uygulamanıza anında bildirim eklemek üzere Firebase'i kullanmanız gerekir. Lütfen Firebase Hizmet Yapılandırmanızı oluşturun ve buraya yükleyin.",
+                    "see_documentation_here": "Rehbere buradan göz atın",
+                    "upload_successful": "Firebase yapılandırmanız başarıyla yüklendi",
+                    "upload_file": "Dosya yükle"
+                },
                 "other": {
                     "heading": "Diğer",
                     "force_portrait_text": "Dikey kullanıma zorlansın mı?",
                     "push_notif_preference_default_to_email_label": "E-postaya Varsayılan İtme Tercihleri?",
                     "push_notif_preference_default_to_email_text": "Doğruysa, kullanıcılar, e-posta bildirimlerinin varsayılan olarak etkinleştirildiği tüm bildirim türleri için anında iletme bildirimlerini varsayılan olarak etkinleştirir. Yanlış ise, kullanıcıların push bildirimleri varsayılan olarak devre dışı bırakılır.",
                     "user_max_subscriptions_label": "Kullanıcı Başına Maksimum Push Aboneliği",
-                    "user_max_subscriptions_text": "Her kullanıcı aynı anda kaç tane push aboneliğine sahip olmalıdır? Bir kullanıcı bir anında iletme bildirimi aldığında, her abonelik bir API çağrısıyla sonuçlanır. Her abonelik tipik olarak kullanıcının kullandığı bir tarayıcıya karşılık gelir."
+                    "user_max_subscriptions_text": "Her kullanıcı aynı anda kaç tane push aboneliğine sahip olmalıdır? Bir kullanıcı bir anında iletme bildirimi aldığında, her abonelik bir API çağrısıyla sonuçlanır. Her abonelik tipik olarak kullanıcının kullandığı bir tarayıcıya karşılık gelir.",
+                    "window_controls_overlay_label": "",
+                    "window_controls_overlay_text": ""
                 },
                 "heading": "İleri Web Uygulaması Ayarları",
                 "text": "Flarum web sitenizi İleri Web Uygulamasına dönüştürün! Bu sitenizi otomatik olarak uygulama mağazasında listelendirmez, kullanıcılar sitenizi ziyaret ettiğinde 'Ana ekrana ekle' hatırlatmasında bulunur.",

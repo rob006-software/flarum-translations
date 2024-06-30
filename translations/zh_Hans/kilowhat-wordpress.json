@@ -4,14 +4,32 @@
             "settings": {
                 "section_general_intro": "本插件工作所需的基本设置。",
                 "api_key": "Flarum API Key",
+                "api_key_reset": "",
+                "api_key_reset_confirm": "",
                 "wordpress_url": "WordPress网址",
-                "wordpress_username": "WordPress 管理员用户名",
+                "default_actor": "",
+                "default_actor_placeholder_invalid": "",
+                "default_actor_placeholder_search": "",
+                "default_actor_help": "",
+                "report_http_errors": "",
+                "report_http_errors_help": "",
                 "section_sso_intro": "此功能将无缝绑定 WordPress 和 Flarum 账号。系统将自动为他们创建账号并与 WordPress 保持同步。如果您在 Flarum 中已有账号，系统将自动通过邮箱绑定重复的账号。如果您通过 Flarum 删除了一个用户，那么下次该用户仍然可以使用 WordPress 账号登录恢复账号。要封禁一个 Flarum 用户，请在 Flarum 中封禁该账户。\n",
                 "enable_sso": "启用单点登录集成",
+                "login_method": "",
+                "login_method_help": "",
+                "login_method_options": {
+                    "cookie": "",
+                    "redirect": "",
+                    "iframe": ""
+                },
                 "cookie_domain": "Cookie 域名",
                 "cookie_domain_help": "仅当与 Flarum 域名不同时才需填写",
+                "iframe_redirect_delay": "",
+                "iframe_redirect_delay_help": "",
                 "wordpress_login_path": "WordPress 登录路径",
                 "wordpress_login_path_help": "仅当您手动或通过插件修改端点名时才需填写",
+                "wordpress_login_full_page": "",
+                "wordpress_login_full_page_help": "",
                 "username_strategy": "新用户的用户名",
                 "username_strategy_options": {
                     "user_login": "WordPress 的用户名",
@@ -32,6 +50,8 @@
                     "suspend": "永久封禁 Flarum 用户（必须已启用 Suspend 插件）"
                 },
                 "user_delete_desc": "如果选择「删除」，则只删除用户，不删除 Flarum 中已发表的内容。",
+                "role_group_sync": "",
+                "role_group_sync_help": "",
                 "section_comments_intro": "此功能使用 Flarum 框架替换 Wordpress 评论模块。这会使未登录访客无法发表评论。只有在 WordPress 中启用了评论功能的帖子才会创建对应的主题帖。启用或禁用评论功能时，Flarum 会同步锁定主题。如果您启用此功能时，您的博客已经有文章存在，您需要在每篇文章上手动禁用并重新启用评论功能以创建 Flarum 主题帖。\n",
                 "enable_comments": "启用评论集成",
                 "excerpt_html_whitelist": "要保留在摘录中的 HTML 标签白名单（半角逗号分隔）",
@@ -62,7 +82,8 @@
                     "lock": "保留并锁定 Flarum 主题帖",
                     "hide": "隐藏 Flarum 主题帖",
                     "delete": "永久删除 Flarum 主题帖"
-                }
+                },
+                "wordpress_username": "WordPress 管理员用户名"
             },
             "tabs": {
                 "wizard": "安装向导",
@@ -105,6 +126,26 @@
                 "wordpress_password": "WordPress 管理员密码",
                 "wordpress_password_help": "该密码仅用于初始化配置，不被任何形式存储。",
                 "install": "安装"
+            },
+            "role-group-sync": {
+                "head": {
+                    "role": "",
+                    "group": ""
+                },
+                "choose": {
+                    "role": "",
+                    "group": ""
+                },
+                "custom": {
+                    "role": "",
+                    "group": ""
+                },
+                "selected-custom-group": "",
+                "delete": "",
+                "role-loader": {
+                    "loading": "",
+                    "error": ""
+                }
             }
         },
         "forum": {
@@ -114,6 +155,13 @@
                 "username": "选择用户名",
                 "submit": "启用论坛账户",
                 "not_now": "暂且跳过并以访客身份浏览"
+            },
+            "instant-login": {
+                "welcome_known_user": "",
+                "welcome_unknown_user": "",
+                "avatar_alt_text": "",
+                "message": "",
+                "button": ""
             },
             "edit-user-modal": {
                 "warning": "该用户与 WordPress 保持同步，请从 WordPress 中修改电子邮件和密码。\n",
@@ -153,13 +201,18 @@
                 "suspend-extension-required": "",
                 "cookie-domain-format": "",
                 "login-only-signup-open": "",
+                "role-group-sync-syntax": "",
+                "role-group-sync-incomplete": "",
+                "role-group-sync-invalid-group": "",
+                "role-group-sync-invalid-role": "",
                 "lock-extension-required": "",
                 "tags-extension-required": "",
                 "tag-not-exist": "",
                 "debug-mode": "",
                 "config-url-trailing-slash": "",
                 "config-url-https": "",
-                "wordpress-username-missing": "",
+                "default-actor-not-set": "",
+                "default-actor-not-found": "",
                 "api-key-missing": "",
                 "wordpress-url-missing": "",
                 "wordpress-url-invalid": "",
@@ -173,7 +226,6 @@
                 "user-id-not-admin": "",
                 "sso-mismatch-flarum": "",
                 "sso-mismatch-wordpress": "",
-                "cookie-domain-mismatch": "",
                 "comments-mismatch-flarum": "",
                 "comments-mismatch-wordpress": "",
                 "api-error-json": "",
@@ -183,11 +235,13 @@
             "wizard": {
                 "already_installed": "Flarum 已与 Wordpress 连接。要再次运行向导，请删除 Flarum 中的「WordPress URL」设置以及 WordPress 中的「Flarum API Key」设置。\n",
                 "api_unauthorized": "我们无法使用给定的凭证进行身份验证。请再次检查 URL、用户名和密码。查看文档以了解更多故障排查步骤。\n",
+                "api_error_generic": "",
+                "invalid_wordpress_url": "WordPress 中的「WordPress 地址 (URL)」设置似乎不是有效的 URL ({actual})。",
                 "api_error_get": "对 WordPress 设置执行 GET 请求时出错（{exception}）。",
                 "api_error_post": "对 WordPress 设置执行 POST 请求时出错（{exception}）。",
-                "invalid_wordpress_url": "WordPress 中的「WordPress 地址 (URL)」设置似乎不是有效的 URL ({actual})。",
                 "plugin_not_installed": "WordPress 插件似乎未在该 WordPress 站点上安装或启用。请确保您至少安装了 1.2.0 版本。\n"
-            }
+            },
+            "sync_setting_error": ""
         },
         "views": {
             "error": {

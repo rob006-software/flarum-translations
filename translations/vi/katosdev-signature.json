@@ -3,7 +3,17 @@
         "forum": {
             "buttons": {
                 "signature": "Chữ ký",
-                "save": "Lưu chữ ký"
+                "save": "Lưu chữ ký",
+                "edit": "Chỉnh sửa chữ ký"
+            },
+            "errors": {
+                "max_char_limit_exceed": "Đã vượt quá giới hạn ký tự tối đa.",
+                "max_image_count_exceed": "Đã vượt quá số lượng hình ảnh tối đa.",
+                "max_image_width_exceed": "Đã vượt quá giới hạn chiều rộng tối đa của hình ảnh.",
+                "max_image_height_exceed": "Đã vượt quá giới hạn chiều cao tối đa của hình ảnh."
+            },
+            "profile": {
+                "click": "Nhấp để viết chữ ký của bạn"
             },
             "modal": {
                 "loading": {
@@ -14,17 +24,28 @@
                     "title": "Rất tiếc! Đã gặp một số lỗi khi lưu ...",
                     "content": "Danh sách lỗi:"
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "Đã vượt quá giới hạn ký tự tối đa.",
-                "max_image_width_exceed": "Đã vượt quá giới hạn chiều rộng tối đa của hình ảnh.",
-                "max_image_height_exceed": "Đã vượt quá giới hạn chiều cao tối đa của hình ảnh.",
-                "max_image_count_exceed": "Đã vượt quá số lượng hình ảnh tối đa."
             }
         },
         "admin": {
-            "title": "Chữ ký",
+            "permissions": {
+                "edit_signature_others": "Chỉnh sửa chữ ký của người dùng khác",
+                "allow_signature": "Có thể có chữ ký"
+            },
             "settings": {
+                "maximum_image_count": {
+                    "description": "Hình ảnh được chèn tối đa.",
+                    "help": "Khi người dùng vượt quá số lượng hình ảnh tối đa trong chữ ký của họ, họ sẽ bị ngăn không cho lưu trữ cho đến khi số lượng hình ảnh được điều chỉnh.",
+                    "placeholder": "5 (mặc định)"
+                },
+                "maximum_char_limit": {
+                    "description": "Giới hạn ký tự tối đa của chữ ký.",
+                    "help": "Khi người dùng vượt quá giới hạn số ký tự tối đa trong chữ ký của họ, họ sẽ bị ngăn không cho lưu trữ cho đến khi số ký tự được điều chỉnh.",
+                    "placeholder": "1000 (mặc định)"
+                },
+                "allow_inline_editing": {
+                    "description": "Chỉnh sửa trực tiếp chữ ký.",
+                    "help": "Khi được kích hoạt, người dùng có thể chỉnh sửa chữ ký của họ khi xem một bài viết."
+                },
                 "maximum_image_width": {
                     "description": "Chiều rộng tối đa của hình ảnh trên trình chỉnh sửa.",
                     "placeholder": "350 (mặc định)"
@@ -32,16 +53,9 @@
                 "maximum_image_height": {
                     "description": "Chiều cao tối đa của chiều cao tổng của tổng số hình ảnh được chèn vào trình chỉnh sửa.",
                     "placeholder": "500 (mặc định)"
-                },
-                "maximum_image_count": {
-                    "description": "Hình ảnh được chèn tối đa.",
-                    "placeholder": "5 (mặc định)"
-                },
-                "maximum_char_limit": {
-                    "description": "Giới hạn ký tự tối đa của chữ ký (đếm ký tự, không tính đến thẻ HTML)",
-                    "placeholder": "1000 (mặc định)"
                 }
-            }
+            },
+            "title": "Chữ ký"
         }
     }
 }

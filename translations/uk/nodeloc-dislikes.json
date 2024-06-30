@@ -1,0 +1,37 @@
+{
+    "nodeloc-dislikes": {
+        "admin": {
+            "permissions": {
+                "dislike_posts_label": "Дизлайк дописів"
+            },
+            "settings": {
+                "dislike_own_posts_help": "Якщо ця опція увімкнена, користувачі можуть ставити \"дизлайк\" власним повідомленням на форумі, за умови наявності дозволу. Щоб заборонити користувачам ставити \"дизлайк\" власним повідомленням, вимкніть цей параметр.",
+                "dislike_own_posts_label": "Користувачі можуть ставити дизлайки власним дописам"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_disliked_text": "Користувачу {username} не сподобався ваш допис"
+            },
+            "post": {
+                "dislike_link": "Дизлайк",
+                "disliked_by_self_text": "Користувачу {users} це не подобається.",
+                "disliked_by_text": "{count, plural, one {Користувачу {users} це не подобається} other {Користувачам {users} це не подобається}}.",
+                "others_link": "=> core.ref.some_others",
+                "undislike_link": "Неприязнь",
+                "you_text": "=> core.ref.you"
+            },
+            "post_dislikes": {
+                "title": "Користувачі, яким це не подобається",
+                "load_more_button": "=> core.ref.load_more"
+            },
+            "settings": {
+                "notify_post_disliked_label": "Комусь не сподобався один з моїх дописів"
+            },
+            "user": {
+                "dislikes_link": "Дизлайки"
+            }
+        }
+    }
+}

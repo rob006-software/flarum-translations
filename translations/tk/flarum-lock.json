@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "Gürrüňleri ýap"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Ýapyk"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "Ýap",
+                "unlock_button": "Aç"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} ýapdy"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} {time} sagatda gürrüňi ýapdy.",
+                "discussion_unlocked_text": "{username} {time} sagatda gürrüňi açdy."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Kimdir biri başlan gürrüňimi ýapdy"
             }
         }
     }

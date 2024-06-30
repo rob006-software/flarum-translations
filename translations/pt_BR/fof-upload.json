@@ -1,6 +1,27 @@
 {
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Upload",
                 "description": "Configure serviços e preferências de upload."
@@ -15,6 +36,7 @@
                 "watermark": "Escolha se as imagens terão uma marca d'água adicionada durante o upload. As marcas d'água são adicionadas a não-gifs com base nas suas preferências abaixo.\n",
                 "s3_compatible_storage": "As configurações a seguir são necessárias apenas ao usar armazenamento compatível com S3. Se você usa a AWS, pode deixá-los em branco.\n",
                 "s3_acl": "A ACL que deve ser aplicada ao objeto carregado (padrão: privado). Para valores possíveis, consulte https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Deixe a chave e o segredo vazios para usar credenciais no perfil da instância.\n",
                 "composer_buttons": "Por padrão, o botão do gerenciador de mídia e o botão de upload estão visíveis. Você também pode optar por exibir apenas um botão.\n"
             },
@@ -28,7 +50,8 @@
                     "advanced_title": "Configurações avançadas de armazenamento S3",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Use o estilo de caminho do endpoint",
-                    "acl": "Lista de controle de acesso (ACL)"
+                    "acl": "Lista de controle de acesso (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Desativar logging de downloads",
@@ -87,7 +110,9 @@
                 "download_label": "Baixar arquivos",
                 "upload_label": "Fazer upload de arquivos",
                 "view_user_uploads_label": "Ver uploads de usuários",
-                "delete_uploads_of_others_label": "Excluir uploads de usuários"
+                "delete_uploads_of_others_label": "Excluir uploads de usuários",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Modelo de download de arquivo padrão",
@@ -131,9 +156,26 @@
             "buttons": {
                 "attach": "Anexar",
                 "upload": "Upload",
+                "upload_shared": "",
                 "user_uploads": "Upload do usuário",
                 "cancel": "Cancelar",
-                "media": "Minha mídia"
+                "media": "Minha mídia",
+                "shared_media": ""
+            },
+            "states": {
+                "error": "Erro",
+                "loading": "Realizando Upload",
+                "unauthorized": "Você não tem permissão para baixar arquivos"
+            },
+            "validation": {
+                "max_size": "Carregamentos acima de {max} kb não são aceitos."
+            },
+            "text_preview": {
+                "expand": "Expandir visualização",
+                "collapse": "Recolher visualização",
+                "error": "Erro ao visualizar o arquivo. Ele pode ter sido excluído ou o ID do arquivo fornecido é inválido.\n",
+                "no_snippet_preview": "<visualização aparecerá aqui após a postagem>",
+                "no_snippet": "<nenhum snippet de visualização disponível>"
             },
             "file_list": {
                 "loading": "Carregando arquivos...",
@@ -151,21 +193,6 @@
                     "hide_fail": "Não foi possível ocultar o arquivo \"{fileName}\"",
                     "loading": "Escondendo arquivo..."
                 }
-            },
-            "states": {
-                "error": "Erro",
-                "loading": "Realizando Upload",
-                "unauthorized": "Você não tem permissão para baixar arquivos"
-            },
-            "validation": {
-                "max_size": "Carregamentos acima de {max} kb não são aceitos."
-            },
-            "text_preview": {
-                "expand": "Expandir visualização",
-                "collapse": "Recolher visualização",
-                "error": "Erro ao visualizar o arquivo. Ele pode ter sido excluído ou o ID do arquivo fornecido é inválido.\n",
-                "no_snippet_preview": "<visualização aparecerá aqui após a postagem>",
-                "no_snippet": "<nenhum snippet de visualização disponível>"
             }
         },
         "api": {
@@ -181,6 +208,48 @@
                 "cannot_write_to_disk": "",
                 "upload_blocked_by_php_extension": "",
                 "no_files_made_it_to_upload": ""
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "delete_confirmation": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

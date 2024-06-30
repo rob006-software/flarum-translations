@@ -2,16 +2,16 @@
     "flarum-pusher": {
         "admin": {
             "pusher_settings": {
-                "app_cluster_label": "",
-                "app_id_label": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "title": ""
+                "app_cluster_label": "Kom",
+                "app_id_label": "Nasname ya bername",
+                "app_key_label": "Mifta bername ye",
+                "app_secret_label": "Mifta bernameye ya nêhenî",
+                "title": "Mîhengên Pusherê"
             }
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {# nîqaşa nûvekirî nîşan bide} other {# nîqaşa nûvekirî nîşan bide}}"
             }
         }
     }

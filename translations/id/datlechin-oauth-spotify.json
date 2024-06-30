@@ -4,7 +4,7 @@
             "settings": {
                 "providers": {
                     "spotify": {
-                        "description": "",
+                        "description": "Daftarkan forum Anda dengan Spotify {link}.",
                         "client_id_label": "",
                         "client_secret_label": ""
                     }
@@ -13,15 +13,15 @@
         },
         "forum": {
             "log_in": {
-                "with_spotify_button": ""
+                "with_spotify_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "spotify": ""
+                "spotify": "=> fof-oauth.lib.providers.spotify"
             }
         },
         "lib": {
             "providers": {
-                "spotify": ""
+                "spotify": "Spotify"
             }
         }
     }

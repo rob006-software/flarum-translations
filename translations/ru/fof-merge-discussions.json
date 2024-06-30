@@ -5,9 +5,9 @@
                 "title": "Объединить дискуссии",
                 "ordering_heading": "Порядок объединения",
                 "ordering_date_label": "Объединить сообщения по дате создания",
-                "ordering_date_help": "Сообщения в результирующей дискуссии будут упорядочены по индивидуальным датам создания",
-                "ordering_suffix_label": "Добавить объединенные сообщения в конец дискуссии",
-                "ordering_suffix_help": "Сообщения, которые объединяются в итоговую дискуссию, будут добавлены в конец этой дискуссии",
+                "ordering_date_help": "Сообщения в итоговой дискуссии будут упорядочены по дате своего создания.",
+                "ordering_suffix_label": "Добавить сообщения в конец дискуссии",
+                "ordering_suffix_help": "Сообщения в итоговой дискуссии будут добавлены в конец этой дискуссии.",
                 "type_heading": "Тип объединения",
                 "type_target_label": "Объединить с этой",
                 "type_target_help_text": "Выберите дискуссии для объединения в <b>{title}</b>.",
@@ -17,9 +17,9 @@
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "Ваша дискуссия <b>{oldTitle}</b> была объединена с этой дискуссией пользователем {username}.",
+                "discussion_merged": "{username} объединил(а) Вашу дискуссию <b>{oldTitle}</b> с этой.",
                 "preferences": {
-                    "discussion_merged": "Кто-то объединил одну из моих дискуссий с другой"
+                    "discussion_merged": "Объединение одной из моих дискуссий с другой"
                 }
             },
             "discussion": {
@@ -34,8 +34,8 @@
                 "merge_discussions_label": "Объединять дискуссии"
             },
             "settings": {
-                "search_result_help": "Количество дискуссий, которые будут показаны при поиске в окне \"Объединить дискуссии\".",
-                "search_result_label": "Предел числа результатов поиска \"Объединить дискуссии\""
+                "search_result_help": "Количество дискуссий для отображения при поиске в модальном окне `Объединить дискуссии`.",
+                "search_result_label": "Ограничение поиска для объединения дискуссий"
             }
         },
         "api": {
@@ -44,7 +44,7 @@
                 "updating_failed": "Не удалось обновить информацию о дискуссии.",
                 "deleting_failed": "Не удалось удалить пустые дискуссии.",
                 "fixing_posts_number_failed": "Не удалось исправить номера сообщений.",
-                "fixing_posts_number_meta_failed": "Не удалось исправить номера сообщений."
+                "fixing_posts_number_meta_failed": "Номера сообщений исправить не удалось."
             }
         },
         "ref": {
@@ -52,8 +52,8 @@
         },
         "email": {
             "merged": {
-                "body": "Привет {recipient_display_name},\n\nВаша дискуссия, {merged_discussion_title}, была объединена с {discussion_title} от {actor_display_name}.\n\nПерейти к дискуссии: {discussion_url} .\n",
-                "subject": "Ваша дискуссия \"{merged_discussion_title}\" была объединена с другой"
+                "body": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} объединил(а) Вашу дискуссию \"{merged_discussion_title}\" с \"{merged_discussion_title}\".\n\nПосмотреть:\n{discussion_url}\n",
+                "subject": "Ваша дискуссия \"{merged_discussion_title}\" была объединена"
             }
         }
     }

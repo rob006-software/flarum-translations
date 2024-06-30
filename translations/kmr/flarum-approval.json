@@ -2,24 +2,24 @@
     "flarum-approval": {
         "admin": {
             "permissions": {
-                "approve_posts_label": "",
-                "reply_without_approval_label": "",
-                "start_discussions_without_approval_label": ""
+                "approve_posts_label": "Mesajên Pejirandin",
+                "reply_without_approval_label": "Bê erêkirina nîqaşan bersiv bide",
+                "start_discussions_without_approval_label": "Bê erêkirina nîqaşan dest pê bike"
             }
         },
         "forum": {
             "badge": {
-                "awaiting_approval_tooltip": ""
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
             },
             "post": {
-                "awaiting_approval_text": ""
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
             },
             "post_controls": {
-                "approve_button": ""
+                "approve_button": "Destûrdan"
             }
         },
         "ref": {
-            "awaiting_approval": ""
+            "awaiting_approval": "Li benda pejirandinê ye"
         }
     }
 }

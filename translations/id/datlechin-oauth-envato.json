@@ -4,7 +4,7 @@
             "settings": {
                 "providers": {
                     "envato": {
-                        "description": "",
+                        "description": "Daftarkan forum Anda dengan Envato {link}.",
                         "client_id_label": "",
                         "client_secret_label": ""
                     }
@@ -13,15 +13,15 @@
         },
         "forum": {
             "log_in": {
-                "with_envato_button": ""
+                "with_envato_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "envato": ""
+                "envato": "=> fof-oauth.lib.providers.envato"
             }
         },
         "lib": {
             "providers": {
-                "envato": ""
+                "envato": "Envato"
             }
         }
     }

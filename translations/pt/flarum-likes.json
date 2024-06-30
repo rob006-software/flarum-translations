@@ -2,11 +2,11 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": "Curtir posts"
+                "like_posts_label": "Gostar publicações"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Quando activo, sujeito a permissões, os utilizadores podem 'gostar' das suas publicações no forum. Para prevenir que os utilizadores 'gostem' nas suas publicações, desactivem esta opção.",
+                "like_own_posts_label": "Os utilizadores podem fazer like nas próprias publicações"
             }
         },
         "forum": {
@@ -17,20 +17,20 @@
             "post": {
                 "like_link": "Curtir",
                 "liked_by_self_text": "{users} curtiu isso.",
-                "liked_by_text": "{count, plural, one {{users} curtiu isso} other {{users} curtiram isso}}",
+                "liked_by_text": "{count, plural, one {{users} curtiu isso} other {{users} curtiram isso}}.",
                 "others_link": "=> core.ref.some_others",
-                "unlike_link": "Descurtir",
+                "unlike_link": "Não gostar",
                 "you_text": "=> core.ref.you"
             },
             "post_likes": {
                 "title": "Usuários que Curtiram Isso",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
                 "notify_post_liked_label": "Alguém curtiu um dos meus posts"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Gostos"
             }
         }
     }

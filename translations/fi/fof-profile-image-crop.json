@@ -3,13 +3,13 @@
         "forum": {
             "modal": {
                 "error": {
-                    "failed_to_load_cropper": "",
-                    "generic_resize": "",
-                    "get_image_data": ""
+                    "failed_to_load_cropper": "Kuvan rajaustyökalun lataus epäonnistui.",
+                    "generic_resize": "Jotain meni pieleen kuvan rajauksessa & koon muutoksessa.",
+                    "get_image_data": "Rajaus epäonnistui. Tarkista että selaimen sormenjälki suojaus on pois käytöstä."
                 },
-                "help_text": "",
-                "submit_button": "",
-                "submit_crop_button": ""
+                "help_text": "Kuvan siirto voi epäonnistua jos selaimen yksityisyysasetukset ovat tiukat. Yritä ottaa sormenjäljen tunnistus pois käytöstä. Muuten voit joko ottaa pois käytöstä <disableResize>poistaa rajatun kuvan kompression</disableResize> tai <disableCrop>poistaa rajauksen kokonaanr</disableCrop>.\n",
+                "submit_button": "Siirrä",
+                "submit_crop_button": "Rajaa & Siirrä"
             }
         }
     }

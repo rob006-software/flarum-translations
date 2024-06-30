@@ -42,7 +42,7 @@
                 "description": "字段描述",
                 "description-help": "可选描述，用来解释这个字段的用途/需求。\n",
                 "required": "标记字段为必填项",
-                "on_bio": "在 UserBio（个性签名插件）中显示此字段的答案",
+                "on_bio": "在用户个人简介中显示此字段的答案",
                 "type": "类型",
                 "validation": "验证",
                 "validation-help": "检查支持的 <a>Laravel 验证规则</a>. 例如： \"string|min:5\" 或 \"url\"。\n",

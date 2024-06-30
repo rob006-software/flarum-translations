@@ -1,0 +1,102 @@
+{
+    "nodeloc-lottery": {
+        "admin": {
+            "settings": {
+                "allow_option_image": "Allow an image URL to be provided for each lottery option",
+                "max_options": "Maximum number of options per lottery",
+                "options_color_blend": "Color blend text in lottery options",
+                "options_color_blend_help": "Use this to use color mixing to make the lottery options more readable. Disable if this feature causes issues with your forum's appearance, reducing readability."
+            },
+            "permissions": {
+                "view_results_without_Enter": "View results without voting",
+                "start": "Start a lottery",
+                "self_edit": "Edit created lotterys (requires post edit permission)",
+                "self_post_edit": "Edit *all* lotterys on own posts (requires post edit permission)",
+                "enter": "Can enter a lottery",
+                "canCancelEnter": "Can Change enter",
+                "moderate": "Edit & remove lotterys"
+            }
+        },
+        "forum": {
+            "days_remaining": "lottery ends {time}.",
+            "no_permission": "You don't have permission to enter",
+            "lottery_ended": "This lottery has ended.",
+            "public_lottery": "View Participants",
+            "max_votes_allowed": "lottery allows voting for {max, plural, one {# option} other {# options}}.",
+            "widget-title": "Upcoming events start in...",
+            "days": "Days",
+            "hours": "Hours",
+            "minutes": "Minutes",
+            "seconds": "Seconds",
+            "endDateText": "The lottery has end!",
+            "hurry_up": "The new \"event\" is near!! We start in...",
+            "had_enter": "You had enter the lottery.",
+            "too_many_participants": "Too many participants",
+            "lottery": {
+                "cannot_cancel_lottery": "Users can't cancel participation",
+                "submit_button": "Click to participate"
+            },
+            "composer_discussion": {
+                "add_lottery": "=> nodeloc-lottery.forum.moderation.add",
+                "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
+                "no_permission_alert": "You do not have permission to start a lottery.",
+                "in_queue_alert": "You had enter the lottery."
+            },
+            "modal": {
+                "add_title": "Add a lottery",
+                "lottery_placeholder": "Prizes",
+                "price": "Price",
+                "amount": "Amount",
+                "min_participants": "Min participants",
+                "max_participants": "Max participants",
+                "add_option_label": "Add an Option",
+                "date_placeholder": "Draw Time",
+                "edit_title": "Edit lottery",
+                "include_prizes": "You must include a prizes",
+                "include_price": "You must include a price",
+                "include_amount": "You must include a amount",
+                "include_end_date": "You must include a end date",
+                "max": "You can have a maximum of {max} answers",
+                "min": "You must include a minimum of 2 answers",
+                "no_participants": "No Participants",
+                "option_placeholder": "Threshold",
+                "image_option_placeholder": "Image URL (optional)",
+                "options_label": "Limiting conditions",
+                "public_lottery_label": "Allow people to see who voted",
+                "allow_multiple_votes_label": "Allow people to enter for multiple options",
+                "participants_label": "Participants",
+                "participants_help": "Cancel if too few participants, and disallow participation if exceeding the maximum number..",
+                "hide_votes_label": "Hide votes until lottery ends",
+                "allow_cancel_enter_label": "Allow users to cancel participation",
+                "submit": "Submit",
+                "discussions_started": "Discussions started",
+                "posts_made": "Posts made",
+                "likes_given": "Likes given",
+                "likes_received": "Likes received",
+                "best_answers": "Best answers",
+                "moderator_strikes": "Moderator strikes",
+                "money": "Money",
+                "lotteries_made": "Lotteries started",
+                "not_enough": "Not enough"
+            },
+            "moderation": {
+                "add": "Add lottery",
+                "delete": "Remove lottery",
+                "delete_confirm": "Are you sure you want to delete this lottery?",
+                "edit": "Edit lottery"
+            },
+            "tooltip": {
+                "badge": "lottery",
+                "votes": "{count, plural, one {# enter} other {# votes}}"
+            },
+            "participants_modal": {
+                "title": "Participants"
+            }
+        },
+        "email": {
+            "subject": {
+                "drawLottery": "Draw lottery notification"
+            }
+        }
+    }
+}

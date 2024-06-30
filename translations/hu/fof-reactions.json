@@ -10,7 +10,8 @@
             "reacting-own-post": "Nem reagálhat a saját bejegyzésére",
             "modal": {
                 "title": "Reakciók",
-                "anonymous_count": "{count} névtelen felhasználó"
+                "anonymous_count": "{count} névtelen felhasználó",
+                "no_reactions": "Még nincsenek reakciók"
             },
             "mod_item": "Reakciók megtekintése",
             "react_button_label": "Reagálás"
@@ -18,9 +19,16 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Reagálás a bejegyzésekre",
-                "see_reactions_label": "Reagálók megjelenítése"
+                "see_reactions_label": "Reagálók megjelenítése",
+                "delete_post_reactions_label": "Reakciók törlése a bejegyzésekről"
             },
             "page": {
+                "cdn": {
+                    "title": "CDN",
+                    "help": "Alapértelmezés szerint a reakciók tartalmait a Cloudflare CDN-jének segítségével szolgáljuk ki. Igény szerint tetszőleges más\nCDN címét is megadhatja. A <code>[codepoint]</code> az emodzsi kódpontjára lesz cserélve.\n\nPéldául a Noto Emoji jsdelivr segítségével történő használatához ezt adná meg: <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Ez a mező SOSEM lehet üres.\n",
+                    "label": "Webcím",
+                    "default-url": "Alapértelmezett: {url}"
+                },
                 "reactions": {
                     "title": "Egyéni reakciók",
                     "reactions": "Jelenlegi reakciók",
@@ -28,7 +36,8 @@
                     "help": {
                         "display": "Megjelenítés",
                         "identifier": "Azonosító"
-                    }
+                    },
+                    "delete_confirmation": "Biztos, hogy törli ezt a reakciót? Ez a művelet nem vonható vissza."
                 },
                 "convert": {
                     "help": "Ha most frissítette a bővítményt, akkor a át kell alakítani a reakcióit. Ha most telepítette a bővítményt, akkor biztonságosan figyelmen kívül hagyhatja ezt az üzenetet.",
@@ -38,7 +47,9 @@
                 },
                 "settings": {
                     "react_own_posts_help": "Ha be van kapcsolva, akkor jogosultság alapján, a felhasználók reagálhatnak a saját bejegyzéseikre a fórumban. Ha ezt meg akarja akadályozni, akkor kapcsolja ki ezt a beállítást.",
-                    "react_own_posts_label": "A felhasználók reagálhatnak a saját bejegyzésükre",
+                    "react_own_posts_label": "A felhasználók reagálhatnak a saját bejegyzéseikre,",
+                    "allow-anonymous": "Névtelen (vendég) reakciók engedélyezése",
+                    "allow-anonymous-help": "Ha engedélyezve van, akkor a vendég- és névtelen felhasználók reagálhatnak a bejegyzésekre. Vegye figyelembe, hogy a névtelen reakciók nem lesznek felhasználói profilhoz rendelve, és csoportosítva lesznek a reakciólistában.",
                     "save_settings": "Beállítások mentése",
                     "integrations": {
                         "legend": "Integrációk",
@@ -55,9 +66,7 @@
                             "Label": "Reakciók átalakítása kedveléssé",
                             "Helptext": "Adja meg annak a reakciónak az azonosítóját, melyet kedveléssé akar átalakítani"
                         }
-                    },
-                    "allow-anonymous": "Névtelen (vendég) reakciók engedélyezése",
-                    "allow-anonymous-help": "Ha engedélyezve van, akkor a vendég- és névtelen felhasználók reagálhatnak a bejegyzésekre. Vegye figyelembe, hogy a névtelen reakciók nem lesznek felhasználói profilhoz rendelve, és csoportosítva lesznek a reakciólistában."
+                    }
                 }
             }
         }

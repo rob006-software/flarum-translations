@@ -2,50 +2,50 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "",
-                "ignoring_tooltip": ""
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
             },
             "discussion_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
-                "unignore_button": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Deixar de seguir",
+                "unignore_button": "Deixar d'ignorar"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
-                "following_link": ""
+                "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": ""
+                "new_post_text": "{username} ha publicat"
             },
             "settings": {
-                "follow_after_reply_label": "",
-                "notify_for_all_posts_label": "",
-                "notify_new_post_label": ""
+                "follow_after_reply_label": "Automàticament seguir els debats als quals responc",
+                "notify_for_all_posts_label": "Notificar sobre qualsevol nova publicació i no només sobre l'última del debat",
+                "notify_new_post_label": "Algú ha publicat en algun debat que estic seguint"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Ser notificat de totes les respostes.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "No rebre notificacions mai. Amagar de la llista de debats.",
+                "not_following_button": "No seguint",
+                "not_following_text": "Ser notificat només quan se m'hagi @esmentat.",
+                "notify_alert_tooltip": "Rebre una notificació del fòrum quan hi hagi noves publicacions",
+                "notify_email_tooltip": "Rebre un correu electrònic quan hi hagi noves publicacions"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[Nova publicació] {title}",
+                "body": "Hola {recipient_display_name}!\n\n{poster_display_name} ha publicat en un debat que estàs seguint: {title}.\n\nPer veure la nova activitat, clica l'enllaç següent:\n{url}\n\n---\n\n{content}\n\n---\n\nNo rebràs més notificacions sobre aquest debat fins que t'hagis posat al dia.\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "ignoring": ""
+            "follow": "Seguir",
+            "following": "Seguint",
+            "ignoring": "Ignorant"
         }
     }
 }

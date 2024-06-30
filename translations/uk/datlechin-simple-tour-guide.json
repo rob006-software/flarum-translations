@@ -1,0 +1,43 @@
+{
+    "datlechin-simple-tour-guide": {
+        "admin": {
+            "settings": {
+                "show_progress_label": "Показати прогрес",
+                "show_progress_help": "У верхній частині спливаючого вікна буде показано поточний крок і загальну кількість кроків.",
+                "allow_close_label": "Дозволити закрити",
+                "allow_close_help": "Дозвольте користувачам закривати спливаюче вікно, натиснувши на фон.",
+                "skip_null_elements_label": "",
+                "skip_null_elements_help": ""
+            },
+            "permissions": {
+                "reset_tour_guide": ""
+            },
+            "edit_modal": {
+                "edit_step": "Редагувати {title}",
+                "create_step": "Створити новий крок",
+                "delete_step": "Видалити крок",
+                "delete_step_confirmation": "Ви впевнені, що хочете видалити цей крок?"
+            },
+            "add_step": "",
+            "title": "Заголовок",
+            "title_placeholder": "Заголовок кроку.",
+            "description": "Опис",
+            "description_placeholder": "Опис кроку.",
+            "target": "Ціль",
+            "target_placeholder": "Цільовий елемент кроку (наприклад: #element-id).",
+            "trigger_click": "",
+            "yes": "",
+            "no": ""
+        },
+        "forum": {
+            "progress_text": "{current} із {total}",
+            "next_btn_text": "Наст",
+            "prev_btn_text": "Попер",
+            "done_btn_text": "Готово",
+            "user_controls": {
+                "reset_tour_guide": "",
+                "reset_tour_guide_confirmation": ""
+            }
+        }
+    }
+}

@@ -40,8 +40,8 @@
                 "no_actions": "Для этого критерия не определены действия. Если пользователь достигнет критерия или перестанет ему соответствовать, ничего не произойдёт.",
                 "no_metrics_or_reqs": "Для этого критерия не определены показатели/требования. Это означает, что ВСЕ пользователи удовлетворяют этому критерию.",
                 "valid": "Этот критерий действителен!",
-                "action_validation_errors": "",
-                "requirement_validation_errors": ""
+                "action_validation_errors": "При проверке драйвера действий обнаружены следующие ошибки:",
+                "requirement_validation_errors": "При проверке драйвера требований обнаружены следующие ошибки:"
             },
             "criterion_page": {
                 "driver_missing_ext": "Этот драйвер зависит от расширений, которые не активированы.",
@@ -50,11 +50,11 @@
                 "icon_label": "Иконка",
                 "description_label": "Описание",
                 "new_criterion": "Создать критерий",
-                "negated": "",
+                "negated": "Отклонено?",
                 "loading": "=> core.ref.loading",
                 "delete_button": "=> core.ref.delete",
                 "metrics_and_requirements_label": "Показатели и требования",
-                "metrics_and_requirements_help": "",
+                "metrics_and_requirements_help": "Определяет, удовлетворяет ли пользователь данному критерию. Показатели могут быть диапазонами значений, требования - логическими (булевыми) условиями.",
                 "metrics_heading": "Показатели",
                 "requirements_heading": "Требования",
                 "add_metric": "Добавить показатель",
@@ -65,7 +65,7 @@
                 "add_action": "Добавить действие"
             },
             "undefined_driver_item": {
-                "text": ""
+                "text": "ОШИБКА! Драйвер <strong>{driverName}</strong> не определен. Вероятно, он был добавлен расширением, которое на данный момент не установлено. Вам следует активировать это расширение или удалить данный драйвер, чтобы обеспечить работоспособность критерия."
             },
             "automoderator_page": {
                 "criterion_invalid": "Этот критерий в настоящее время неприменим. Пожалуйста, проверьте его настройки",
@@ -74,7 +74,7 @@
             },
             "automoderator_instructions": {
                 "header": "Инструкции к расширению",
-                "text": ""
+                "text": "<li>Tl;dr: Когда пользователь удовлетворяет критерию X, выполнить Y. Когда пользователь более не удовлетворяет X, выполнить Z.</li>\n<li><strong>Критерии:</strong> Критерии это ядро этого расширения. Они представляют собой наборы показателей и требований. Когда пользователь удовлетворяет критерию, будут выполнены любые действия \"по достижению\". И, наоборот, если пользователь перестает удовлетворять критерию, выполняются действия \"по снижению\".</li>\n<ul>\n  <li><strong>Показатель:</strong> Числовое условие. Например, число сообщений или число полученных одобрений. Требования критерия можно определять как диапазон/минимум/максимум значений.</li>\n  <li><strong>Требование:</strong> Произвольное логическое условие. Например, не быть заблокированным или иметь адрес эл.почты, соответствующий определенному шаблону.</li>\n</ul>\n<li><strong>Действия:</strong> Нечто, выполняющееся автоматически при достижении или прекращении соблюдения критерия. Может включать разнообразные операции - от включения в группу/удаления из группы, до отправки эл.почты, и вплоть до блокировки пользователя.</li>\n<li><strong>Триггер:</strong> Набор событий, которые могут вызвать перепроверку соблюдения групп пользовательских критериев. Они являются частью определений показателей и требований. Все критерии проверяются при авторизации пользователя - это \"универсальный триггер\".</li>\n<li>Действия \"по снижению\" всегда выполняются перед действиями \"по достижению\". That way, actions will be taken as long as a user meets at least one of the criteria that do that action on gain.</li>\n<li>Keep in mind that actions only run \"on loss\" and \"on gain\". Manual edits while a user qualifies for a criterion will not trigger the criterion's \"on gain\" actions to be reapplied.</li>\n<li>If you delete a criterion, \"on loss\" actions will NOT be run for the users who currently qualify for the criterion.</li>\n<li>If you are using criteria to manage groups, we recommend maintaining a separate set of groups to be managed by criteria. You will not be able to add/remove users to/from these groups manually.</li>\n"
             }
         },
         "lib": {

@@ -10,7 +10,8 @@
             "reacting-own-post": "Nemôžete reagovať na Váš vlastný príspevok",
             "modal": {
                 "title": "Reakcie",
-                "anonymous_count": ""
+                "anonymous_count": "",
+                "no_reactions": ""
             },
             "mod_item": "Zobraziť reakcie",
             "react_button_label": ""
@@ -18,9 +19,16 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Reagovať na príspevky",
-                "see_reactions_label": "Zobraziť kto reagoval na príspevky"
+                "see_reactions_label": "Zobraziť kto reagoval na príspevky",
+                "delete_post_reactions_label": ""
             },
             "page": {
+                "cdn": {
+                    "title": "",
+                    "help": "",
+                    "label": "",
+                    "default-url": ""
+                },
                 "reactions": {
                     "title": "Vlastné reakcie",
                     "reactions": "Aktuálne reakcie",
@@ -28,7 +36,8 @@
                     "help": {
                         "display": "Zobraziť",
                         "identifier": "Identifikátor"
-                    }
+                    },
+                    "delete_confirmation": ""
                 },
                 "convert": {
                     "help": "Ak ste práve aktualizovali Vaše rozšírenia, vaše reakcie bude potrebné konvertovať. Ak ste si práve nainštalovali toto rozšírenie, môžete túto správu bezpečne ignorovať.",
@@ -39,6 +48,8 @@
                 "settings": {
                     "react_own_posts_help": "",
                     "react_own_posts_label": "",
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": "",
                     "save_settings": "Uložiť nastavenia",
                     "integrations": {
                         "legend": "Integrácie",
@@ -55,9 +66,7 @@
                             "Label": "Konvertovať reakcia na lajky",
                             "Helptext": "Zadajte identifikátor reakcie, ktorú chcete automaticky previesť na lajk"
                         }
-                    },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    }
                 }
             }
         }

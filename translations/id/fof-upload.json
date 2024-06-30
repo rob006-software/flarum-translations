@@ -1,6 +1,27 @@
 {
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Semua file yang diupload oleh pengguna.",
+                    "anonymize_description": "Menghapus referensi pengguna dari file yang diupload. File-file itu sendiri tetap dapat diakses oleh pengguna yang dapat melihatnya sebelum dianonimkan.",
+                    "delete_description": "Menghapus semua file yang diupload oleh pengguna."
+                }
+            }
+        }
+    },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": "Unggahan bersama"
+            },
+            "shared-uploads": {
+                "description": "Upload file yang dapat digunakan oleh semua pengguna forum Anda.",
+                "introduction": "Unggahan bersama adalah file yang dapat digunakan oleh semua pengguna forum Anda. Unggahan ini tidak dilampirkan pada postingan apa pun, tetapi dapat disisipkan ke dalam postingan dengan menggunakan pengelola media. \n\n<strong>Peringatan:</strong> Unggahan bersama tidak dilindungi oleh izin apa pun. Siapapun yang memiliki URL dapat melihatnya.\n",
+                "no-files": "Belum ada file bersama yang diupload.",
+                "title": "Unggahan bersama",
+                "upload-new-button": "Upload file baru"
+            },
             "pane": {
                 "title": "Upload",
                 "description": "Siapkan layanan dan preferensi upload."
@@ -15,6 +36,7 @@
                 "watermark": "Tentukan apakah gambar akan ditambahkan watermark saat di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.\n",
                 "s3_compatible_storage": "Pengaturan berikut ini hanya diperlukan bila menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat mengosongkannya.\n",
                 "s3_acl": "ACL yang harus diterapkan pada objek yang diunggah (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Biarkan key dan secret kosong untuk menggunakan kredensial di instance profile.\n",
                 "composer_buttons": "Secara default, tombol pengelola media dan tombol upload terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
             },
@@ -28,7 +50,8 @@
                     "advanced_title": "Pengaturan S3 storage lanjutan",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Gunakan path style endpoint",
-                    "acl": "Access Control List (ACL)"
+                    "acl": "Access Control List (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Nonaktifkan pencatatan download",
@@ -87,7 +110,9 @@
                 "download_label": "Men-download file",
                 "upload_label": "Meng-upload file",
                 "view_user_uploads_label": "Melihat data upload pengguna",
-                "delete_uploads_of_others_label": "Menghapus data upload pengguna"
+                "delete_uploads_of_others_label": "Menghapus data upload pengguna",
+                "upload_shared_label": "Upload file bersama",
+                "access_shared_label": "Mengakses file bersama di Pengelola Media"
             },
             "templates": {
                 "file": "Template download file default",
@@ -131,9 +156,26 @@
             "buttons": {
                 "attach": "Lampirkan",
                 "upload": "Upload",
+                "upload_shared": "Bersama",
                 "user_uploads": "Unggahan pengguna",
                 "cancel": "Batal",
-                "media": "Media Saya"
+                "media": "Media Saya",
+                "shared_media": "Media bersama"
+            },
+            "states": {
+                "error": "Error",
+                "loading": "Meng-upload",
+                "unauthorized": "Anda tidak diizinkan untuk men-download file"
+            },
+            "validation": {
+                "max_size": "File yang memiliki ukuran lebih dari {max} kb tidak diizinkan."
+            },
+            "text_preview": {
+                "expand": "Perluas pratinjau",
+                "collapse": "Perkecil pratinjau",
+                "error": "Terjadi kesalahan saat mempratinjau file. File mungkin telah dihapus, atau ID file yang diberikan tidak valid.\n",
+                "no_snippet_preview": "<pratinjau akan muncul di sini setelah posting>",
+                "no_snippet": "<tidak ada cuplikan pratinjau yang tersedia>"
             },
             "file_list": {
                 "loading": "Memuat file...",
@@ -151,21 +193,6 @@
                     "hide_fail": "Tidak dapat menyembunyikan file \"{fileName}\"",
                     "loading": "Menyembunyikan file..."
                 }
-            },
-            "states": {
-                "error": "Error",
-                "loading": "Meng-upload",
-                "unauthorized": "Anda tidak diizinkan untuk men-download file"
-            },
-            "validation": {
-                "max_size": "File yang memiliki ukuran lebih dari {max} kb tidak diizinkan."
-            },
-            "text_preview": {
-                "expand": "Perluas pratinjau",
-                "collapse": "Perkecil pratinjau",
-                "error": "Terjadi kesalahan saat mempratinjau file. File mungkin telah dihapus, atau ID file yang diberikan tidak valid.\n",
-                "no_snippet_preview": "<pratinjau akan muncul di sini setelah posting>",
-                "no_snippet": "<tidak ada cuplikan pratinjau yang tersedia>"
             }
         },
         "api": {
@@ -181,6 +208,48 @@
                 "cannot_write_to_disk": "Tidak dapat menulis ke disk.",
                 "upload_blocked_by_php_extension": "Sebuah ekstensi php memblokir proses upload.",
                 "no_files_made_it_to_upload": "Harap meng-upload file tidak lebih besar dari {max} kb."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "File bersama baru",
+                "dropzone": "Seret dan letakkan file di sini atau klik untuk menelusuri",
+                "hide-from-media-gallery": "Sembunyikan dari galeri media pengguna",
+                "upload": "Upload"
+            },
+            "file_list": {
+                "loading": "Memuat file...",
+                "empty": "Tidak ada file untuk ditampilkan.",
+                "release_to_upload": "",
+                "modal_empty_desktop": "Daftar file Anda kosong. Klik tombol atau seret file ke sini untuk mengunggah.",
+                "modal_empty_phone": "Daftar file Anda kosong. Ketuk tombol di atas untuk mengunggah file.",
+                "select_file_a11y_label": "Pilih file \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Tidak ada yang dipilih} one {Pilih file} other {Pilih file}}",
+                "load_more_files_btn": "Muat lebih banyak file",
+                "delete_file_a11y_label": "Hapus file \"{fileName}\"",
+                "delete_confirmation": "Apakah Anda yakin ingin menghapus \"{fileName}\"?",
+                "hide_file": {
+                    "btn_a11y_label_hide": "Sembunyikan \"{fileName}\" dari pengelola media",
+                    "btn_a11y_label_show": "Tampilkan \"{fileName}\" di pengelola media",
+                    "hide_confirmation": "Apakah Anda yakin ingin menyembunyikan \"{fileName}\"? Menyembunyikan file hanya akan menghapus file tersebut dari pengelola media Anda dan tidak akan memengaruhi postingan yang ada.",
+                    "hide_success": "File disembunyikan",
+                    "show_confirmation": "Apakah Anda yakin ingin menampilkan \"{fileName}\"? Menampilkan file akan membuatnya terlihat di pengelola media Anda.",
+                    "show_success": "File ditampilkan",
+                    "hide_fail": "Tidak dapat menyembunyikan file \"{fileName}\"",
+                    "show_fail": "Tidak dapat menampilkan file \"{fileName}\"",
+                    "loading": "Menyembunyikan file..."
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "Jadikan \"{fileName}\" privat (tidak ada URL publik)",
+                    "btn_a11y_label_show": "Jadikan \"{fileName}\" publik (dengan URL publik)",
+                    "hide_confirmation": "Apakah Anda yakin ingin menjadikan \"{fileName}\" privat? Menjadikan file privat akan menghapus URL publiknya, tetapi tidak akan memengaruhi postingan yang ada. File tersebut juga tidak akan terlihat lagi di pengelola media oleh pengguna yang tidak memiliki izin.",
+                    "hide_success": "File dijadikan privat",
+                    "show_confirmation": "Apakah Anda yakin ingin menjadikan \"{fileName}\" publik? Menjadikan file publik akan membuatnya dapat diakses oleh siapa saja yang memiliki URL publik dan siapa saja dapat membagikannya menggunakan pengelola media.",
+                    "show_success": "File tersedia untuk umum",
+                    "hide_fail": "Tidak dapat membuat file \"{fileName}\" menjadi privat",
+                    "show_fail": "Tidak dapat membuat file \"{fileName}\" menjadi publik",
+                    "loading": "Membuat file menjadi privat..."
+                }
             }
         }
     }

@@ -1,186 +1,238 @@
 {
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Tots els fitxers pujats per l'usuari.",
+                    "anonymize_description": "Elimina la referència a l'usuari dels fitxers pujats. Els fitxers segueixen sent accessibles per als usuaris que podien veure'ls abans de fer-los anònims.",
+                    "delete_description": "Esborrar tots els fitxers pujats per l'usuari."
+                }
+            }
+        }
+    },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": "Fitxers pujats compartits"
+            },
+            "shared-uploads": {
+                "description": "Fitxers pujats que poden ser usats per tots els usuaris del fòrum.",
+                "introduction": "Els fitxers pujats compartits són fitxers que poden ser utilitzats per tots els usuaris del fòrum. No s'adjunten a cap publicació, però es poden inserir en publicacions mitjançant el gestor de mitjans.\n\n<strong>Avís:</strong> els fitxers pujats compartits no estan per cap permís. Qualsevol persona amb l'URL pot veure'ls.\n",
+                "no-files": "Encara no s'ha pujat cap fitxer compartit.",
+                "title": "Fitxers pujats compartits",
+                "upload-new-button": "Pujar nou fitxer"
+            },
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Pujar",
+                "description": "Configurar els serveis i les preferències de pujada de fitxers."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Desactiva el registre de cada descàrrega feta pels usuaris del vostre fòrum. Mantenir-lo activat permetrà veure el nombre de baixades i altres mètriques en un futur proper.\n",
+                "disable-hotlink-protection": "La protecció d'enllaços directes impedeix obrir baixades d'altres llocs. El mètode actual requereix un identificador csrf i un identificador de publicació.\n",
+                "download_templates": "Les plantilles de baixada són com es mostren les pujades al vostre fòrum, per exemple, com a visualitzacions prèvies, botons. Disponible actualment:\n",
+                "mime_types": "Configura el teu mapa aquí. Cada expressió regular de tipus MIME serà gestionada per un adaptador de càrrega i una plantilla de baixada específics.\n",
+                "resize": "Tria si vols canviar la mida de les teves imatges abans que es pengin. Pots triar una amplada i una alçada màximes, en píxels. El procés de redimensionament manté la relació d'aspecte de les imatges.\n",
+                "client_extension": "Per defecte, es triarà una extensió de fitxer segura en funció del tipus MIME.\nPer a alguns tipus de fitxer basats en format ZIP o dades binàries, això pot provocar que s'utilitzin extensions genèriques en lloc de l'esperada.\nAquí pots introduir una llista d'extensions de fitxer separades per comes que es mantindran literalment.\n",
+                "watermark": "Tria si s'ha d'afegir una marca d'aigua a les imatges durant la càrrega. Les marques d'aigua s'afegiran als fixers que no siguin de format GIF en funció de les teves preferències a sota.\n",
+                "s3_compatible_storage": "Els paràmetres següents només són necessaris quan s'utilitza algun emmagatzematge compatible amb S3. Si utilitzes AWS, pots deixar-los en blanc.\n",
+                "s3_acl": "La llista de control d'accessos (ACL) que s'ha d'aplicar a l'objecte pujat (per defecte: privat). Per obtenir els valors possibles, consulta https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
+                "s3_instance_profile": "Deixa la clau i el secret buits per utilitzar les credencials al perfil de la instància.\n",
+                "composer_buttons": "Per defecte, es mostraran els botons del gestor de mitjans i el de pujada de fitxers. També pots optar per mostrar només un botó.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": ""
+                    "bucket": "Bucket S3",
+                    "key": "Clau",
+                    "region": "Regió",
+                    "secret": "Secret",
+                    "title": "Configuració d'emmagatzematge S3",
+                    "advanced_title": "Configuració avançada d'emmagatzematge S3",
+                    "endpoint": "Punt final",
+                    "use_path_style_endpoint": "Utilitzar punt final de tipus ruta de fitxer completa",
+                    "acl": "Llista de control d'accessos (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Desactiva el registre de baixades als fitxers log",
+                    "toggle": "Desactivar"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Desactivar la protecció d'enllaços directes (hotlinks)",
+                    "toggle": "Desactivar"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": "",
-                    "tos": ""
+                    "client_id": "Identificador de client Imgur",
+                    "title": "Configuració de l'emmagatzematge d'imatges a Imgur",
+                    "tos": "És la teva responsabilitat assegurar que els usuaris del teu fòrum compleixen els <a>Termes de servei</a> d'Imgur"
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "Adreça web del lliurament de contingut (prefixes)",
+                    "title": "Configuració de l'emmagatzematge local"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Configuració de l'emmagatzematge a Qiniu",
+                    "key": "Clau",
+                    "secret": "Secret",
+                    "bucket": "Bucket Qiniu"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "max_file_size": "Mida màxima de fitxer (en kilobytes)",
+                    "mime_types": "Configura el teu tipus MIME, mapeja l'adaptador de pujada de fitxers",
+                    "title": "Preferències generals",
+                    "php_ini_values": "Els valors al teu fitxer <code>php.ini</code> són <code>post_max_size={post}</code> i <code>upload_max_filesize={upload}</code>. Assegura't que el valor establert aquí estigui per sota d'aquests llindars o ajusta'ls en conseqüència. Si utilitzes <code>Nginx</code>, assegura't també que <code>client_max_body_size</code> tingui una mida suficient per al teu límit màxim escollit."
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Amplada/alçada màxima de la imatge",
+                    "title": "Canviar la mida de la imatge",
+                    "toggle": "Canviar la mida de les imatges"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Extensions de fitxers proporcionades per l'usuari"
                 },
                 "watermark": {
-                    "file": "",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "file": "Puja la teva imatge de marca d'aigua",
+                    "position": "Posició de la marca d'aigua",
+                    "title": "Imatges de marca d'aigua",
+                    "toggle": "Imatges de marca d'aigua"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Botons a l'editor de publicacions",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Tots dos",
+                        "upload-btn": "Només el botó per pujar fitxers",
+                        "media-btn": "Només el botó del gestor de mitjans"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Provar el tipus MIME"
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "download_label": "Descarregar fitxers",
+                "upload_label": "Pujar fitxers",
+                "view_user_uploads_label": "Veure els fitxers pujats per l'usuari",
+                "delete_uploads_of_others_label": "Esborrar els fitxers pujats per l'usuari",
+                "upload_shared_label": "Pujar fitxers compartits",
+                "access_shared_label": "Accedir als fitxers compartits en el gestor de mitjans"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": "",
-                "text-preview": "",
-                "text-preview_description": ""
+                "file": "Plantilla de descàrrega de fitxers per defecte",
+                "file_description": "Mostra el nom de fitxer i alguna informació general. Gestiona la descàrrega mitjançant php, fet que permet la recollida d'estadístiques i la protecció contra enllaços directes.\n",
+                "image": "Plantilla de descàrrega d'imatges per defecte",
+                "image_description": "Mostra una miniatura de la imatge i gestiona la descàrrega via php, permetent la recollida d'estadístiques i la protecció contra enllaços directes.\n",
+                "image-preview": "Plantilla de previsualització de la imatge completa",
+                "image-preview_description": "Mostra la imatge completa en línia, sense permetre la funcionalitat de descàrrega ni generar estadístiques i ignorant la protecció contra enllaços directes.\n",
+                "markdown-image": "Plantilla d'imatge Markdown",
+                "markdown-image_description": "Mostra la imatge completa en línia utilitzant sintaxi Markdown. <strong>Has de tenir flarum/markdown instal·lat per fer funcionar aquest mode.</strong> No permet la funcionalitat de descàrrega ni generar estadístiques i ignora la protecció contra enllaços directes.\n",
+                "bbcode-image": "Plantilla d'imatge BBCode",
+                "bbcode-image_description": "Mostra la imatge completa en línia utilitzant BBCode. <strong>Has de tenir flarum/bbcode instal·lat per fer funcionar aquest mode.</strong> No permet la funcionalitat de descàrrega ni generar estadístiques i ignora la protecció contra enllaços directes.\n",
+                "just-url": "Només adreça web",
+                "just-url_description": "Només insereix l'adreça web. La visualització del contingut es pot gestionar amb altres extensions que disposin de capacitat d'enllaç automàtic. No permet la funcionalitat de descàrrega ni generar estadístiques i ignora la protecció contra enllaços directes.\n",
+                "text-preview": "Previsualització de text",
+                "text-preview_description": "Insereix una previsualització (les primeres 5 línies) d'un fitxer de text, amb l'opció d'expandir per mostrar els continguts complets del fitxer.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "Compatible amb S3",
+                "imgur": "Imgur",
+                "local": "Local",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "Qiniu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Inspeccionar tipus MIME",
+                "description": "FoF Upload utilitza la llibreria <a>PHP Mime Detector</a> per als tipus MIME habituals i PHP Fileinfo com a alternativa.\nEl valor MIME retornat per Fileinfo pot ser diferent en diferents tipus de servidor!\n",
+                "select": "Tria un fitxer per inspeccionar els valors que s'utilitzaran. El fitxer no es desarà.",
+                "laravel-validation": "Validació de fitxer Laravel",
+                "no-file-selected": "Cap fitxer",
+                "validation-passed": "Correcte",
+                "validation-failed": "Incorrecte: {error}",
+                "mime-detector": "Detector de tipus MIME (primari)",
+                "mime-fileinfo": "PHP Fileinfo (mètode alternatiu)",
+                "guessed-extension": "Extensió de fitxer predeterminada (si l'original no està a la llista blanca)",
+                "not-available": "Cap resultat"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Gestor de mitjans",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
-            },
-            "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
-                }
+                "attach": "Adjuntar",
+                "upload": "Pujar",
+                "upload_shared": "Compartit",
+                "user_uploads": "Pujades d'usuari",
+                "cancel": "Cancel·lar",
+                "media": "Els meus mitjans",
+                "shared_media": "Mitjans compartits"
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Error",
+                "loading": "Pujant",
+                "unauthorized": "No tens permisos per descarregar fitxers"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "No es permet la pujada de fitxers de més de {max} kb."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Expandir la previsualització",
+                "collapse": "Replega la previsualització",
+                "error": "Error previsualitzant fitxer. Pot haver estat esborrat o l'identificador de fitxer facilitat és invàlid.\n",
+                "no_snippet_preview": "<la previsualització apareixerà aquí un cop s'hagi publicat>",
+                "no_snippet": "<no hi ha cap fragment de previsualització disponible>"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": "",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "forbidden_type": "La pujada d'aquest tipus de fitxer no està permesa.",
+                "unsupported_type": "L'adaptador de pujada de fitxers no accepta aquest tipus MIME: {mime}.",
+                "could_not_detect_mime": "No s'ha pogut detectar el tipus MIME d'aquest fitxer. Si us plau, torna-ho a provar.",
+                "max_upload_file_size_ini": "S'ha excedit la mida màxima de fitxers que es poden pujar especificada a php.ini.",
+                "max_upload_file_size_form": "S'ha excedit la mida màxima de fitxers que es poden pujar especificada al formulari.",
+                "partial_upload": "Pujada parcial.",
+                "no_file_uploaded": "No s'ha pujat cap fitxer.",
+                "no_upload_tmp_folder": "No hi ha cap carpeta temporal per pujar fitxers.",
+                "cannot_write_to_disk": "No s'ha pogut escriure al disc.",
+                "upload_blocked_by_php_extension": "Una extensió php ha bloquejat la pujada.",
+                "no_files_made_it_to_upload": "Si us plau, puja fitxers que no excedeixin els {max} kb."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "Nou fitxer compartit",
+                "dropzone": "Arrossega fitxers aquí o clica per triar-los des del teu ordinador",
+                "hide-from-media-gallery": "Amagar del gestor de mitjans de l'usuari",
+                "upload": "Pujar"
+            },
+            "file_list": {
+                "loading": "Carregant fitxers...",
+                "empty": "No hi ha cap fitxer per mostrar.",
+                "release_to_upload": "Deixa anar per pujar",
+                "modal_empty_desktop": "La teva llista de fitxers és buida. Clica el botó o arrossega un fitxer aquí per pujar-lo.",
+                "modal_empty_phone": "La teva llista de fitxers és buida. Toca el botó superior per pujar un fitxer.",
+                "select_file_a11y_label": "Escollir el fitxer \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {No se n'ha triat cap} one {Triar fitxer} other {Triar fitxers}}",
+                "load_more_files_btn": "Carregar més fitxers",
+                "delete_file_a11y_label": "Esborrar fitxer \"{fileName}\"",
+                "delete_confirmation": "Segur que vols esborrar el fitxer \"{fileName}\"?",
+                "hide_file": {
+                    "btn_a11y_label_hide": "Amagar \"{fileName}\" del gestor de mitjans",
+                    "btn_a11y_label_show": "Mostrar \"{fileName}\" al gestor de mitjans",
+                    "hide_confirmation": "Segur que vols amagar el fitxer \"{fileName}\"? Amagar-lo, només el farà desaparèixer del teu gestor de mitjans, i no afectarà cap publicació ja existent.",
+                    "hide_success": "Fitxer ocult",
+                    "show_confirmation": "Segur que vols mostrar el fitxer \"{fileName}\"? Mostrar-lo, el farà aparèixer al gestor de mitjans.",
+                    "show_success": "Fitxer visible",
+                    "hide_fail": "No s'ha pogut amagar el fitxer \"{fileName}\"",
+                    "show_fail": "No s'ha pogut mostrar el fitxer \"{fileName}\"",
+                    "loading": "Amagant fitxer..."
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "Fer que el fitxer \"{fileName}\" sigui privat (sense adreça web pública)",
+                    "btn_a11y_label_show": "Fer que el fitxer \"{fileName}\" sigui públic (amb adreça web pública)",
+                    "hide_confirmation": "Segur que vols fer que el fitxer \"{fileName}\" sigui privat? Això esborrarà la seva adreça web pública, però no afectarà les publicacions ja existents. També farà que ja no sigui visible al gestor de mitjans per als usuaris no autoritzats.",
+                    "hide_success": "Fitxer fet privat",
+                    "show_confirmation": "Segur que vols fer que el fitxer \"{fileName}\" sigui públic? Això el farà accessible a tothom amb una seva adreça web pública i tothom podrà compartir-lo mitjançant el gestor de mitjans.",
+                    "show_success": "Fitxer fet públic",
+                    "hide_fail": "No s'ha pogut fer el fitxer \"{fileName}\" privat",
+                    "show_fail": "No s'ha pogut fer el fitxer \"{fileName}\" públic",
+                    "loading": "Fent que el fitxer sigui privat..."
+                }
             }
         }
     }

@@ -8,13 +8,20 @@
             },
             "setting": {
                 "bioLimit": "Bio xarakter limiti",
+                "maxLines": "",
                 "allowFormatting": "Bio-da formatlamağa icazə verin",
                 "allowFormatting_help": "Dizaynına görə, bu formatlama yazı formatından ayrıdır. BBCode və/və ya Markdown genişləndirmələri aktivləşdirilərsə, onlar bionu formatlaşdırmaq üçün əlçatan olacaqlar. Heç bir şəkil və ya yerləşdirməyə icazə verilmir. Flarum formatlayıcısına əlavə edilən genişləndirmələr *açıqcasına* bio formatlayıcıya dəstək əlavə etməlidir."
             }
         },
         "forum": {
             "userbioPlaceholder": "Özünüz haqqında bir şey yazın",
-            "userbioPlaceholderOtherUser": "{username} üçün bio yazın"
+            "userbioPlaceholderOtherUser": "{username} üçün bio yazın",
+            "profile": {
+                "cancel_confirm": "",
+                "cancel_button": "",
+                "save_button": "",
+                "edit_bio_label": ""
+            }
         }
     }
 }

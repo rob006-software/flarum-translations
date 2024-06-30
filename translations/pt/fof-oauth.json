@@ -3,7 +3,15 @@
         "admin": {
             "configure_button_label": "Configurar com FoF OAuth",
             "settings_accessibility_label": "{name} definições",
+            "permissions": {
+                "moderate_user_providers": ""
+            },
             "settings": {
+                "advanced": {
+                    "heading": "",
+                    "log-oauth-errors-label": "",
+                    "log-oauth-errors-help": ""
+                },
                 "only_icons_label": "Mostrar apenas ícones dos botões de login (layout alternativo)",
                 "update_email_from_provider_label": "",
                 "update_email_from_provider_help": "",
@@ -44,7 +52,8 @@
                     "google": {
                         "description": "Criar um link para a aplicação em {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
-                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "hosted_domain_label": ""
                     },
                     "linkedin": {
                         "description": "Crie uma aplicação em {link}.",

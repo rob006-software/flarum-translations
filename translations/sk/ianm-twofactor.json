@@ -20,7 +20,17 @@
                 "forum_logo_qr_width": "",
                 "forum_logo_qr_width_help": "",
                 "logo_qr": "",
-                "logo_qr_help": ""
+                "logo_qr_help": "",
+                "tokens": {
+                    "heading": "",
+                    "help": "",
+                    "kill_inactive_tokens": "",
+                    "kill_inactive_tokens_help": "",
+                    "kill_inactive_tokens_age_days": "",
+                    "kill_inactive_tokens_age_days_help": "",
+                    "also_kill_developer_tokens": "",
+                    "also_kill_developer_tokens_help": ""
+                }
             }
         },
         "forum": {
@@ -44,10 +54,12 @@
                 "backup_codes": "",
                 "backup_codes_instruction": "",
                 "saved_backup_codes_button": "",
+                "backup_codes_remaining": "",
                 "two_factor_enabled_confirmation": "",
                 "ok_button": "",
                 "confirm_disable_2fa_title": "",
                 "confirm_disable_2fa_text": "",
+                "confirm_disable_2fa_text_other_user": "",
                 "cannot_disable": "",
                 "cannot_disable_tooltip": "",
                 "cancel_button": "",
@@ -67,6 +79,10 @@
             },
             "body": {
                 "status_changed": ""
+            },
+            "status_type": {
+                "enabled": "",
+                "disabled": ""
             }
         },
         "views": {
@@ -74,7 +90,18 @@
                 "two_factor_token_label": ""
             },
             "two_factor_token": {
+                "title": "",
                 "submit_button": ""
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

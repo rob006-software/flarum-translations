@@ -2,101 +2,101 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": ""
+                "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "",
-                "delete_tag_button": "",
-                "delete_tag_confirmation": "",
-                "description_label": "",
-                "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "name_placeholder": "",
-                "slug_label": "",
-                "submit_button": "",
-                "title": ""
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Esborrar etiqueta",
+                "delete_tag_confirmation": "Segur que vols esborrar aquesta etiqueta? Els debats que la inclouren NO s'esborraran.",
+                "description_label": "Descripció",
+                "hide_label": "Amagar de tots els debats",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Crear etiqueta"
             },
             "nav": {
-                "tags_button": "",
-                "tags_text": ""
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Gestionar la llista d'etiquetes disponibles per organitzar els debats."
             },
             "permissions": {
-                "allow_edit_tags_label": "",
-                "bypass_tag_counts_label": "",
-                "restrict_by_tag_heading": "",
-                "tag_discussions_label": ""
+                "allow_edit_tags_label": "Permetre l'edició d'etiquetes",
+                "bypass_tag_counts_label": "Saltar-se els requisits de l'etiqueta",
+                "restrict_by_tag_heading": "Restringir per etiqueta",
+                "tag_discussions_label": "Etiquetar debats"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
-                "range_separator_text": "",
-                "required_primary_heading": "",
-                "required_primary_text": "",
-                "required_secondary_heading": "",
-                "required_secondary_text": "",
-                "title": ""
+                "range_separator_text": " a ",
+                "required_primary_heading": "Quantitat necessària d'etiquetes primàries",
+                "required_primary_text": "Indica la quantitat mínima i màxima d'etiquetes primàries que poden aplicar-se a un debat.",
+                "required_secondary_heading": "Quantitat necessària d'etiquetes secundàries",
+                "required_secondary_text": "Indica la quantitat mínima i màxima d'etiquetes secundàries que poden aplicar-se a un debat.",
+                "title": "Configuració d'etiquetes"
             },
             "tags": {
-                "about_tags_text": "",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
-                "primary_heading": "",
-                "secondary_heading": "",
-                "settings_heading": ""
+                "about_tags_text": "Les etiquetes s'utilitzen per categoritzar debats. Les etiquetes primàries són com les categories tradicionals dels fòrums: poden organitzar-se en una jerarquia de dos nivells. Les etiquetes secundàries no tenen jerarquia o ordre, i són útils per a la microcategorització.",
+                "create_primary_tag_button": "Crear etiqueta primària",
+                "create_secondary_tag_button": "Crear etiqueta secundària",
+                "primary_heading": "Etiquetes primàries",
+                "secondary_heading": "Etiquetes secundàries",
+                "settings_heading": "Configuració"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Totes les etiquetes",
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "edit_title": "",
-                "title": ""
+                "edit_title": "Editar etiquetes per a {title}",
+                "title": "Triar etiquetes per al teu debat"
             },
             "composer_discussion": {
-                "choose_tags_link": ""
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
-                "edit_tags_button": ""
+                "edit_tags_button": "Editar etiquetes"
             },
             "header": {
-                "back_to_tags_tooltip": ""
+                "back_to_tags_tooltip": "Tornar a la llista d'etiquetes"
             },
             "index": {
-                "more_link": "",
-                "tags_link": "",
-                "untagged_link": ""
+                "more_link": "Més...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Sense etiquetar"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "",
-                "added_tags_text": "",
-                "removed_tags_text": "",
-                "tags_text": ""
+                "added_and_removed_tags_text": "{username} ha afegit {tagsAdded} i ha suprimit {tagsRemoved} {time}.",
+                "added_tags_text": "{username} ha afegit {tagsAdded} {time}.",
+                "removed_tags_text": "{username} ha suprimit {tagsRemoved} {time}.",
+                "tags_text": "{count, plural, one {{tags} etiqueta} other {{tags} etiquetes}}"
             },
             "tag": {
-                "meta_description_text": ""
+                "meta_description_text": "Tots els debats amb l'etiqueta {tag}"
             }
         },
         "lib": {
-            "deleted_tag_text": "",
+            "deleted_tag_text": "Esborrat",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Saltar-se els requisits de l'etiqueta",
+                "choose_primary_placeholder": "{count, plural, one {Triar una etiqueta primària} other {Triar # etiquetes primàries}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
-            "name": "",
-            "tags": ""
+            "choose_tags": "Triar etiquetes",
+            "choose_tags_placeholder": "{count, plural, one {Triar una etiqueta més} other {Triar # etiquetes més}}",
+            "name": "Nom",
+            "tags": "Etiquetes"
         }
     }
 }

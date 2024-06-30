@@ -3,7 +3,15 @@
         "admin": {
             "configure_button_label": "Skonfiguruj z FoF OAuth",
             "settings_accessibility_label": "Ustawienia {name}",
+            "permissions": {
+                "moderate_user_providers": ""
+            },
             "settings": {
+                "advanced": {
+                    "heading": "Zaawansowane",
+                    "log-oauth-errors-label": "Loguj błędy OAuth",
+                    "log-oauth-errors-help": "Jeśli to ustawienie jest włączone, błędy OAuth będą rejestrowane w dzienniku Flarum. Może to pomóc w debugowaniu błędów OAuth, ale może również zawierać poufne informacje."
+                },
                 "only_icons_label": "Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)",
                 "update_email_from_provider_label": "Zaktualizuj adres e-mail od dostawcy",
                 "update_email_from_provider_help": "Jeśli to ustawienie jest włączone, adres e-mail użytkownika zostanie zaktualizowany przy każdym logowaniu na forum, aby pasował do adresu podanego przez dostawcę OAuth. Nie wszyscy dostawcy udostępniają zaktualizowany adres e-mail - ustawienie nie będzie miało żadnego wpływu na tych dostawców.",
@@ -44,7 +52,8 @@
                     "google": {
                         "description": "Utwórz aplikację na {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
-                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "hosted_domain_label": ""
                     },
                     "linkedin": {
                         "description": "Utwórz aplikację na {link}.",

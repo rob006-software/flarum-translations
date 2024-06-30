@@ -1,0 +1,30 @@
+{
+    "nearata-maintenance-mode": {
+        "admin": {
+            "dashboard": {
+                "maintenance_widget": {
+                    "title": "Bakım modu etkin",
+                    "detail": "Bakım sırasında forumu yalnızca yetkili kullanıcılar görüntüleyebilir."
+                }
+            },
+            "permissions": {
+                "bypass": "Bakım Modunu atlayabilir"
+            },
+            "settings": {
+                "maintenance_mode_enabled": {
+                    "label": "Bakım Modu"
+                }
+            }
+        },
+        "views": {
+            "default": {
+                "title": "Bakım",
+                "header": "Şu anda bakım nedeniyle kapalı.",
+                "body": "<p>Şu anda planlanmış bir bakım yapıyoruz. Lütfen daha sonra tekrar ziyaret edin.</p>\n"
+            }
+        },
+        "api": {
+            "title": "Şu anda bakım nedeniyle kapalı. Lütfen daha sonra tekrar ziyaret edin."
+        }
+    }
+}

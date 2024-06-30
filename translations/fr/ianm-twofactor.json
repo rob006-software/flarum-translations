@@ -20,7 +20,17 @@
                 "forum_logo_qr_width": "Largeur du logo du forum dans le code QR",
                 "forum_logo_qr_width_help": "La largeur du logo du forum intégré au code QR affiché lors de l'activation de l'A2F. 200 est le maximum.",
                 "logo_qr": "Logo sur le code QR",
-                "logo_qr_help": "Si un logo a été transféré, il sera intégré au code QR. Laissez vide pour utiliser le logo du forum."
+                "logo_qr_help": "Si un logo a été transféré, il sera intégré au code QR. Laissez vide pour utiliser le logo du forum.",
+                "tokens": {
+                    "heading": "Jetons d'accès",
+                    "help": "Pour une sécurité accrue, vous pouvez gérer ici des comportements supplémentaires liés aux jetons d'accès.",
+                    "kill_inactive_tokens": "Mettre fin aux jetons inactifs",
+                    "kill_inactive_tokens_help": "Met fin automatiquement aux jetons d'accès qui ont été inactifs pendant une période de temps spécifiée.",
+                    "kill_inactive_tokens_age_days": "Délai d'expiration des jetons inactifs (en jours)",
+                    "kill_inactive_tokens_age_days_help": "Le nombre de jours d'inactivité après lesquels les jetons d'accès seront supprimés.",
+                    "also_kill_developer_tokens": "Mettre également fin aux jetons des développeurs",
+                    "also_kill_developer_tokens_help": "Met également fin aux jetons d'accès des développeurs qui ont été inactifs pendant la période spécifiée."
+                }
             }
         },
         "forum": {
@@ -44,10 +54,12 @@
                 "backup_codes": "Vos codes de sauvegarde",
                 "backup_codes_instruction": "Veuillez conserver ces codes dans un endroit sûr. Ils peuvent être utilisés pour accéder à votre compte si vous perdez votre méthode d'authentification principale. Ils ne seront plus affichés.",
                 "saved_backup_codes_button": "J'ai sauvegardé ces codes",
+                "backup_codes_remaining": "Codes de sauvegarde restants :",
                 "two_factor_enabled_confirmation": "L'authentification à deux facteurs a été activée avec succès pour votre compte.",
                 "ok_button": "Valider",
                 "confirm_disable_2fa_title": "Confirmer la désactivation de l'authentification à deux facteurs",
                 "confirm_disable_2fa_text": "Êtes-vous sûr de vouloir désactiver l'authentification à deux facteurs ?",
+                "confirm_disable_2fa_text_other_user": "Êtes-vous sûr de vouloir désactiver l'authentification à deux facteurs pour {username} ? Cela supprimera tous les codes de sauvegarde et désactivera l'authentification à deux facteurs pour son compte.",
                 "cannot_disable": "La configuration actuelle ne permet pas de désactiver l'authentification à deux facteurs.",
                 "cannot_disable_tooltip": "Impossible de désactiver l'A2F",
                 "cancel_button": "Annuler",
@@ -67,6 +79,10 @@
             },
             "body": {
                 "status_changed": "Bonjour {recipient_display_name},\n\nL'authentification à deux facteurs a été {type} pour votre compte sur {forum_url}.\n\nSi vous êtes à l'origine de cette action, aucune autre démarche n'est nécessaire. Si vous n'avez pas autorisé cette modification, veuillez contacter immédiatement les administrateurs du forum.\n"
+            },
+            "status_type": {
+                "enabled": "activé",
+                "disabled": "désactivé"
             }
         },
         "views": {
@@ -74,7 +90,18 @@
                 "two_factor_token_label": "Jeton A2F"
             },
             "two_factor_token": {
+                "title": "Authentification à deux facteurs",
                 "submit_button": "Envoyer le jeton"
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "Exporte le statut de l'A2F et les codes de sauvegarde chiffrés.",
+                    "delete_description": "Supprime toutes les données relatives à l'A2F."
+                }
             }
         }
     }

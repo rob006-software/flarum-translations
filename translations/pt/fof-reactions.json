@@ -10,7 +10,8 @@
             "reacting-own-post": "Não podes reagir a uma postagem própria",
             "modal": {
                 "title": "Reações",
-                "anonymous_count": ""
+                "anonymous_count": "",
+                "no_reactions": ""
             },
             "mod_item": "Ver Reações",
             "react_button_label": "Reagir"
@@ -18,9 +19,16 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Reagir a uma postagem",
-                "see_reactions_label": "Ver quem reagiu a postagens"
+                "see_reactions_label": "Ver quem reagiu a postagens",
+                "delete_post_reactions_label": ""
             },
             "page": {
+                "cdn": {
+                    "title": "",
+                    "help": "",
+                    "label": "",
+                    "default-url": ""
+                },
                 "reactions": {
                     "title": "Reações customizadas",
                     "reactions": "Reações actuais",
@@ -28,7 +36,8 @@
                     "help": {
                         "display": "Mostrar",
                         "identifier": "Identificador"
-                    }
+                    },
+                    "delete_confirmation": ""
                 },
                 "convert": {
                     "help": "Se acabou de actualizar a extensão, as suas reações necessitam ser convertidas. Se acabou de instalar a extensão, pode ignorar esta mensagem.",
@@ -39,6 +48,8 @@
                 "settings": {
                     "react_own_posts_help": "Quando activo, carecendo de permissão, os utilizadores podem reagir às suas próprias postagens no forum. Para prevenir que os utilizadores reajam às suas postagens, desactive esta opção.",
                     "react_own_posts_label": "Os utilizadores podem reagir às suas postagens",
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": "",
                     "save_settings": "Gravar definições",
                     "integrations": {
                         "legend": "Integrações",
@@ -55,9 +66,7 @@
                             "Label": "Converter reações em Gostos",
                             "Helptext": "Indica o identificador da reação que pretende converter automaticamente para um gosto"
                         }
-                    },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    }
                 }
             }
         }

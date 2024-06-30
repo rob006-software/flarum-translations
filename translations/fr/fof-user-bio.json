@@ -8,13 +8,20 @@
             },
             "setting": {
                 "bioLimit": "Limite de caractères de la biographie",
+                "maxLines": "Nombre maximum de lignes à afficher à la fois",
                 "allowFormatting": "Autoriser la mise en page dans la biographie",
                 "allowFormatting_help": "Par conception, cette mise en forme est séparée de la mise en forme du message. Si les extensions BBCode ou Markdown sont activées, elles seront disponibles pour mettre en forme la biographie. Les images et les emboîtements ne sont pas autorisés. Les extensions qui ajoutent des fonctionnalités au formateur Flarum doivent *explicitement* prendre en charge le formateur de la biographie."
             }
         },
         "forum": {
             "userbioPlaceholder": "Écrivez quelque chose à propos de vous",
-            "userbioPlaceholderOtherUser": "Rédiger une biographie pour {username}"
+            "userbioPlaceholderOtherUser": "Rédiger une biographie pour {username}",
+            "profile": {
+                "cancel_confirm": "",
+                "cancel_button": "",
+                "save_button": "",
+                "edit_bio_label": ""
+            }
         }
     }
 }

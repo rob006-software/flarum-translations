@@ -17,12 +17,12 @@
                 "following_link": ""
             },
             "notifications": {
-                "new_post_text": ""
+                "new_post_text": "{username} objavil"
             },
             "settings": {
-                "follow_after_reply_label": "",
-                "notify_for_all_posts_label": "",
-                "notify_new_post_label": ""
+                "follow_after_reply_label": "Samodejno sledi razpravam, na katere odgovorim",
+                "notify_for_all_posts_label": "Obveščaj o vsaki novi objavi namesto o zadnji v razpravi",
+                "notify_new_post_label": "Nekdo je objavil v razpravi, ki jo spremljam"
             },
             "sub_controls": {
                 "follow_button": "",
@@ -38,14 +38,14 @@
         },
         "email": {
             "new_post": {
-                "subject": "",
+                "subject": "[Nova objava] {title}",
                 "body": ""
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "ignoring": ""
+            "follow": "Sledi",
+            "following": "Sledim",
+            "ignoring": "Ignoriram"
         }
     }
 }

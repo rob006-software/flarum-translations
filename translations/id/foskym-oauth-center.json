@@ -1,0 +1,73 @@
+{
+    "foskym-oauth-center": {
+        "admin": {
+            "permission": {
+                "use_oauth": "Gunakan OAuth"
+            },
+            "page": {
+                "index": "",
+                "clients": "",
+                "scopes": "Kelola Cakupan",
+                "tokens": ""
+            },
+            "settings": {
+                "display_mode": "",
+                "access_lifetime": "Masa Berlaku Token Akses (detik)",
+                "allow_implicit": "",
+                "enforce_state": "",
+                "require_exact_redirect_uri": "Memerlukan URI Pengalihan yang Tepat",
+                "authorization_method_fetch": ""
+            },
+            "clients": {
+                "client_id": "",
+                "client_secret": "",
+                "redirect_uri": "URI Pengalihan",
+                "grant_types": "",
+                "scope": "Cakupan",
+                "client_name": "Nama",
+                "client_desc": "Deskripsi",
+                "client_icon": "Ikon",
+                "client_home": "",
+                "add_button": "Tambah Klien",
+                "edit_client": ""
+            },
+            "scopes": {
+                "scope": "Cakupan",
+                "resource_path": "",
+                "method": "Metode",
+                "is_default": "",
+                "scope_name": "Nama",
+                "scope_icon": "Ikon",
+                "scope_desc": "Deskripsi",
+                "visible_fields": "",
+                "add_button": "Tambah Cakupan",
+                "edit_scope": ""
+            },
+            "tokens": {
+                "add_token": "",
+                "delete_token": ""
+            }
+        },
+        "forum": {
+            "page": {
+                "title": {
+                    "authorize": ""
+                },
+                "label": {
+                    "authorized": ""
+                }
+            },
+            "authorize": {
+                "require_these_scopes": "",
+                "access": "",
+                "agree": "Setuju",
+                "deny": "Menolak"
+            },
+            "authorized": {
+                "no_records": "",
+                "no_more_records": "",
+                "load_more": ""
+            }
+        }
+    }
+}

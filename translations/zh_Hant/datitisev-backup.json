@@ -17,6 +17,9 @@
                 "zip": "Zip Archive"
             },
             "settings_button": "配置",
+            "delete_button": "刪除",
+            "delete_confirmation": "您確定要刪除「{name}」({adapter})嗎？",
+            "create_button": "新增適配器",
             "required_package_button": "安裝",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -33,10 +36,11 @@
             },
             "required-package-modal": {
                 "title": "{adapter} 所需的軟件包",
-                "content": "為了使用這個驅動程序，您需要安裝一個特定的軟件包。您可以通過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
+                "content": "為了使用這個驅動程式，您需要安裝一個特定的軟件包。您可以透過 Flarum 安裝目錄下運行 <code>composer require {package}</code> 命令來安裝。\n"
             },
             "adapter-settings-modal": {
                 "title": "配置{adapter}",
+                "name_label": "地點名稱",
                 "local": {
                     "target": {
                         "label": "目標路徑",
@@ -62,7 +66,7 @@
                     },
                     "path-prefix": {
                         "label": "路徑前綴",
-                        "description": "可選擇的默認文件路徑前綴。"
+                        "description": "可選擇的預設檔案路徑前綴。"
                     }
                 },
                 "azure": {
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Key",
-                            "description": "AWS 憑證密鑰"
-                        },
-                        "secret": {
-                            "label": "Secret",
-                            "description": "AWS 憑證密鑰"
-                        }
+                    "credentials-key": {
+                        "label": "密鑰",
+                        "description": "AWS憑證金鑰"
+                    },
+                    "credentials-secret": {
+                        "label": "秘密",
+                        "description": "AWS憑證秘密"
                     },
                     "region": {
                         "label": "區域",
@@ -100,7 +102,17 @@
                     },
                     "path-prefix": {
                         "label": "路徑前綴",
-                        "description": "可選擇的默認文件路徑前綴。"
+                        "description": "可選擇的預設檔案路徑前綴。"
+                    },
+                    "credentials": {
+                        "key": {
+                            "label": "Key",
+                            "description": "AWS 憑證密鑰"
+                        },
+                        "secret": {
+                            "label": "Secret",
+                            "description": "AWS 憑證密鑰"
+                        }
                     }
                 },
                 "dropbox": {
@@ -117,11 +129,11 @@
                         "description": "生成新令牌。 有關說明，請參閱 https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually。"
                     },
                     "help": {
-                        "obtain-access-code-label": "獲取訪問碼（需要app key）",
+                        "obtain-access-code-label": "取得訪問碼（需要app key）",
                         "obtain-access-code-button": "開啟 Dropbox",
-                        "obtain-refresh-token-label": "使用訪問代碼獲取刷新令牌（需要app key & secret）",
+                        "obtain-refresh-token-label": "使用訪問代碼取得重整令牌（需要app key & secret）",
                         "obtain-refresh-token-button": "使用代碼",
-                        "obtain-refresh-token-success": "刷新令牌已成功獲取並更新！ 請保存。"
+                        "obtain-refresh-token-success": "重整令牌已成功取得並更新！ 請儲存。"
                     },
                     "access-token": {
                         "label": "訪問令牌",
@@ -129,6 +141,26 @@
                     }
                 },
                 "gdrive": {
+                    "client-id": {
+                        "label": "客戶ID",
+                        "description": "請依照指示 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 建立 Google 專案並擷取您的客戶ID 和客戶秘密。\n"
+                    },
+                    "client-secret": {
+                        "label": "客戶秘令",
+                        "description": " "
+                    },
+                    "refresh-token": {
+                        "label": "重整令牌",
+                        "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 應用程式重整令牌。\n"
+                    },
+                    "folder": {
+                        "label": "Folder ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "已成功連接至 Google 雲端硬碟！ 儲存變更以儲存設定。",
+                        "test_button": "測試連接"
+                    },
                     "client": {
                         "id": {
                             "label": "Client ID",
@@ -138,14 +170,6 @@
                             "label": "Client Secret",
                             "description": " "
                         }
-                    },
-                    "refresh-token": {
-                        "label": "刷新令牌",
-                        "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 應用程序刷新令牌。\n"
-                    },
-                    "folder": {
-                        "label": "Folder ID",
-                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {
@@ -155,11 +179,11 @@
                     },
                     "username": {
                         "label": "用戶名",
-                        "description": "要在 FTP 服務器上進行身份驗證的用戶名。"
+                        "description": "要在 FTP 伺服器上進行身份驗證的用戶名。"
                     },
                     "password": {
                         "label": "請輸入帳號密碼",
-                        "description": "要在 FTP 服務器上進行身份驗證的密碼。"
+                        "description": "要在 FTP 伺服器上進行身份驗證的密碼。"
                     },
                     "private-key": {
                         "label": "私鑰",
@@ -167,7 +191,7 @@
                     },
                     "port": {
                         "label": "端口",
-                        "description": "FTP 端口（默認 21）。"
+                        "description": "FTP 端口（預設 21）。"
                     },
                     "root": {
                         "label": "根路徑",
@@ -175,15 +199,15 @@
                     },
                     "passive": {
                         "toggle": "被動連結",
-                        "description": "是否使用被動 FTP 連接到服務器。"
+                        "description": "是否使用被動 FTP 連接到伺服器。"
                     },
                     "ssl": {
                         "toggle": "SSL",
-                        "description": "是否使用加密 SSL 連接到服務器。"
+                        "description": "是否使用加密 SSL 連接到伺服器。"
                     },
                     "timeout": {
                         "label": "時間超時",
-                        "description": "等待與 FTP 服務器連接的秒數。"
+                        "description": "等待與 FTP 伺服器連接的秒數。"
                     }
                 }
             },

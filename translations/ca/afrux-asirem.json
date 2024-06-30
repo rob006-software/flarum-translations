@@ -2,40 +2,40 @@
     "afrux-theme-base": {
         "admin": {
             "extensions": {
-                "title": "",
-                "description": ""
+                "title": "Extensions",
+                "description": "Llista totes les extensions instal·lades."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Configuració principal",
+                    "permissions": "Permisos"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Tornar al fòrum"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Foto de perfil"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "Editar enllaços de peu de pàgina",
+                "footer_description": "Descripció del peu de pàgina",
+                "footer_bottom_line": "Línia de peu de pàgina",
+                "hero_banner": "Imatge de benvinguda (hero image)",
+                "hero_banner_position": "Posicionament CSS de la imatge de benvinguda (per exemple: 'center top' or 'center 20%')",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Nou grup d'enllaços",
+                    "group_name": "Nom del grup {number}",
+                    "group_title": "Títol de grup d'enllaços",
+                    "add_link": "Afegir un enllaç",
+                    "link_url": "Adreça web de l'enllaç",
+                    "link_label": "Etiqueta de l'enllaç"
                 }
             }
         }

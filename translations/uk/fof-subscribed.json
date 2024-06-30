@@ -31,9 +31,9 @@
             "subject": {
                 "newDiscussion": "Підписка | нова дискусія: {title}",
                 "newUser": "Підписка | новий користувач: {username}",
-                "postUnapproved": "Підписка | непідтверджене: {username} розмістив допис у «{title}»",
+                "postUnapproved": "Підписка | непідтверджене: користувач {username} розмістив допис у «{title}»",
                 "postCreated": "Підписка | нове повідомлення: {username} створив новий допис у «{title}»",
-                "postFlagged": "Підписка | нова позначка: {username} позначив допис у «{title}»"
+                "postFlagged": "Підписка | нова позначка: користувач {username} позначив допис у «{title}»"
             },
             "body": {
                 "newDiscussion": "Привіт, {recipient_display_name}!\n\n{actor_display_name} розпочав нову дискусію: {discussion_title}\n\nЩоб переглянути це нову дискусію, перейдіть за наступним посиланням:\n{discussion_url}\n\n---\n\n{post_content}\n",

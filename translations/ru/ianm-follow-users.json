@@ -1,4 +1,15 @@
 {
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
     "ianm-follow-users": {
         "admin": {
             "permissions": {
@@ -12,13 +23,14 @@
         "forum": {
             "followed": "Подписан",
             "followers": "Подписчиков",
-            "profile_link": "=> ianm-follow-users.lib.following_link",
+            "profile_link": "Подписки",
             "profile_page": {
                 "no_following": "Похоже, вы ни на кого не подписаны."
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
+                "change_button": ""
             },
             "settings": {
                 "notify_new_follower_label": "Кто-то подписался на меня",
@@ -71,6 +83,7 @@
             "following_link": "",
             "follow": "",
             "change_follow_type": "",
+            "unfollow": "",
             "follow_levels": {
                 "unfollow": {
                     "name": "",

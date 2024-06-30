@@ -3,16 +3,24 @@
         "admin": {
             "configure_button_label": "Beállítás a FoF OAuth használatával",
             "settings_accessibility_label": "{name} beállításai",
+            "permissions": {
+                "moderate_user_providers": "Felhasználók összekapcsolt fiókjainak moderálása"
+            },
             "settings": {
+                "advanced": {
+                    "heading": "Speciális",
+                    "log-oauth-errors-label": "OAuth hibák naplózása",
+                    "log-oauth-errors-help": "Ha be van kapcsolva, akkor az OAuth hibák naplózva lesznek a Flarum naplójában. Ez segíthet az OAuth-tal kapcsolatos problémák megoldásában, de bizalmas információkat is tartalmazhat."
+                },
                 "only_icons_label": "Csak az ikonok megjelenítése (alternatív elrendezés)",
                 "update_email_from_provider_label": "E-mail-cím frissítése a szolgáltató által",
                 "update_email_from_provider_help": "Ha be van kapcsolva, akkor a fórumba történő bejelentkezéskor a felhasználó e-mail-címe frissítve lesz, hogy megegyezzen az OAuth-szolgáltató által megadottal. Nem minden szolgáltató adja meg a frissített e-mail-címet, ebben az esetben a beállítás nincs hatással ezekre a szolgáltatókra.",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
+                "fullscreen_popup_label": "Teljes képernyős felugró ablak használata az OAuth-hoz",
+                "fullscreen_popup_help": "Ha be van kapcsolva, akkor az OAuth-ot használó bejelentkezés teljes képernyős felugró ablakban nyílik meg. Ha be van kapcsolva, akkor a szélesség és magasság beállítása figyelmen kívül lesz hagyva.",
+                "popup_width_label": "OAuth felugró ablakának szélessége",
+                "popup_width_help": "Az OAuth felugró ablakának szélességének beállítása. Ez a beállítás figyelmen kívül lesz hagyva, ha a „Teljes képernyős felugró ablak használata az OAuth-hoz” beállítás be van kapcsolva.",
+                "popup_height_label": "OAuth felugró ablakának magassága",
+                "popup_height_help": "Az OAuth felugró ablakának magasságának beállítása. Ez a beállítás figyelmen kívül lesz hagyva, ha a „Teljes képernyős felugró ablak használata az OAuth-hoz” beállítás be van kapcsolva.",
                 "providers": {
                     "callback_url_text": "Ha szükséges, akkor állítsa a visszahívási URL-t erre: {url}.",
                     "discord": {
@@ -37,14 +45,15 @@
                         "domain_label": "GitLab domén"
                     },
                     "twitter": {
-                        "description": "Hozzon létre egy alkalmazást itt: {link}. Be kell állítani az Általános Szerződési Feltételek URL-jét és az Adatvédelmi irányelvek URL-jét. Ezután adja hozzá az e-mail kérési engedélyt.",
+                        "description": "Hozzon létre egy alkalmazást itt: {link}. Be kell állítani a Szolgáltatási feltételek webcímét és az Adatvédelmi irányelvek webcímét. Ezután adja hozzá az e-mail-kérési engedélyt.",
                         "api_key_label": "API-kulcs",
                         "api_secret_label": "API-titok"
                     },
                     "google": {
                         "description": "Hozzon létre egy alkalmazást itt: {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
-                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "hosted_domain_label": "Kiszolgált domain (G suite/Google Apps for Business, nem kötelező)"
                     },
                     "linkedin": {
                         "description": "Hozzon létre egy alkalmazást itt: {link}.",
@@ -68,7 +77,7 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "Csatolt fiókok",
+                        "label": "Kapcsolt fiókok",
                         "last-used-label": "Utoljára használt",
                         "link-created-label": "Összekapcsolás létrehozva",
                         "orphaned-account": "Eddig ezen a szolgáltatón keresztül jelentkezett be, de a fórum azóta letiltotta ezt a bejelentkezési módot.",

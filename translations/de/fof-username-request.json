@@ -2,7 +2,7 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "BeBenutzernamen/Spitznamen Änderungen bewilligen",
+                "moderate_requests": "Benutzernamen/Spitznamen Änderungen bewilligen",
                 "request_nickname": "Änderung des Spitznamens anfordern",
                 "request_username": "Änderung des Benutzernamens anfordern"
             }
@@ -11,7 +11,7 @@
             "nickname_modals": {
                 "action": {
                     "title": "=> fof-username-request.ref.nickname_change_request",
-                    "help_text": "Bitte achte darauf, dass die gewünschte Spitzname-Änderung den Forenrichtlinien entspricht.",
+                    "help_text": "Bitte achte darauf, dass die gewünschte Änderung deines Spitznamens den Forenrichtlinien entspricht.",
                     "decision_title": "=> fof-username-request.ref.action.decision_title",
                     "approval_label": "=> fof-username-request.ref.action.approval_label",
                     "rejected_label": "=> fof-username-request.ref.action.rejected_label",
@@ -21,10 +21,10 @@
                     "name": "{name} hat die Änderung des Spitznamens zu \"{requestedName}\" angefordert"
                 },
                 "results": {
-                    "title": "Änderung des Spitznamens",
-                    "approved": "Deine gewünschte Änderung des Spitznamens wurde akzeptiert",
+                    "title": "Antrag auf Namensänderung",
+                    "approved": "Deine gewünschte Änderung des Spitznamens wurde genehmigt",
                     "dismiss_button": "=> core.ref.okay",
-                    "new_name": "Dein Spitzname wurde erfolgreich geändert in: {name}",
+                    "new_name": "Dein Spitzname wurde erfolgreich geändert zu: {name}",
                     "rejected": "Die gewünschte Änderung des Spitznamens wurde abgelehnt",
                     "reason": "=> fof-username-request.ref.results.reason",
                     "resubmit": "=> fof-username-request.ref.results.resubmit"
@@ -52,11 +52,11 @@
                     "name": "{name} hat die Änderung des Benutzernamens zu \"{requestedName}\" angefordert"
                 },
                 "results": {
-                    "title": "Änderung des Benutzernamens",
-                    "approved": "Deine gewünschte Änderung des Benutzernamens wurde akzeptiert",
+                    "title": "Antrag auf Änderung des Benutzernamens",
+                    "approved": "Deine gewünschte Änderung des Benutzernamens wurde genehmigt",
                     "dismiss_button": "=> core.ref.okay",
-                    "new_name": "Dein Benutzername wurde erfolgreich geändert in: {name}",
-                    "rejected": "Die gewünschte Änderung des Benutzernamens wurde abgelehnt",
+                    "new_name": "Dein Benutzername wurde erfolgreich geändert zu: {name}",
+                    "rejected": "Deine gewünschte Änderung des Benutzernamens wurde abgelehnt",
                     "reason": "=> fof-username-request.ref.results.reason",
                     "resubmit": "=> fof-username-request.ref.results.resubmit"
                 },
@@ -80,8 +80,8 @@
                 "username_exerpt": "Angeforderter Benutzername: {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "Spitzname ändern",
-                "username_request_button": "Benutzername ändern"
+                "nickname_request_button": "Spitznamen ändern",
+                "username_request_button": "Benutzernamen ändern"
             },
             "user": {
                 "name_history_link": "Alte Namen"
@@ -91,7 +91,7 @@
             "name_change_request": "Antrag auf Namensänderung",
             "name_change_requests": "Anträge auf Änderung des Namens",
             "nickname_change_request": "Änderung des Spitznamens beantragen",
-            "nickname_change_requests": "Anträge auf Spitznamesänderung",
+            "nickname_change_requests": "Anträge auf Spitznamensänderung",
             "username_change_request": "Änderung des Benutzernamens beantragen",
             "username_change_requests": "Anträge auf Benutzernamensänderung",
             "action": {
@@ -115,13 +115,13 @@
         },
         "email": {
             "body": {
-                "noReasonProvided": "",
-                "approved": "",
-                "rejected": ""
+                "noReasonProvided": "Kein Grund angegeben.",
+                "approved": "Hallo {recipient_display_name},\n\nDein Antrag, deinen Benutzernamen zu \"{new_username}\" zu ändern, wurde von {actor_display_name} genehmigt.\n\nDu kannst dich jetzt mit deinem neuen Benutzernamen einloggen: {login_url}\n",
+                "rejected": "Hallo {recipient_display_name},\n\nDein Antrag, deinen Benutzernamen von \"{old_username}\" auf \"{requested_username}\" zu ändern, wurde von {actor_display_name} abgelehnt.\n\nGrund: {reason}\n"
             },
             "subject": {
-                "approved": "",
-                "rejected": ""
+                "approved": "{display_name} hat deine Namensänderung zu {requested_username} genehmigt",
+                "rejected": "{display_name} hat deine Namensänderung zu {requested_username} abgelehnt"
             }
         }
     }

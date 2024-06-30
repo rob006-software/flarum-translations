@@ -1,0 +1,30 @@
+{
+    "imdong-spam-alert": {
+        "admin": {
+            "permissions": {
+                "set-spam": "set Spam",
+                "see-spam-info": "See Spam Info"
+            },
+            "settings": {
+                "btn-name": "Spam",
+                "btn-name-help": "The name of this button displayed to the user is \"Spam\" by default.",
+                "to-folding-number": "Automatic Folding Threshold",
+                "to-folding-number-help": "Automatically collapse hidden content when marked by how many people, set to 0 to not automatically collapse"
+            }
+        },
+        "forum": {
+            "post": {
+                "btn-set-spam": "Set Spam",
+                "btn-unset-spam": "Unset Spam",
+                "spam-hide-tips": "Spam is hidden"
+            },
+            "notification": {
+                "content": "Reply folded for being flagged for trash multiple times",
+                "excerpt": "Please abide by the station regulations, such as repeatedly marked garbage may be subject to systematic punishment."
+            },
+            "settings": {
+                "notify_post_spam_hide_label": "Trash is hidden due to tag"
+            }
+        }
+    }
+}

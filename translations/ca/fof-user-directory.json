@@ -2,54 +2,54 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "Tornar al directori d'usuaris"
             },
             "search": {
-                "users_heading": "",
+                "users_heading": "Cerca \"{query}\" a la llista d'usuaris",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "Cerca a la llista d'usuaris"
                 },
                 "kinds": {
-                    "group": "",
-                    "text": ""
+                    "group": "Grup",
+                    "text": "Text lliure"
                 }
             },
             "page": {
-                "nav": "",
-                "refresh_tooltip": "",
-                "load_more_button": "",
-                "empty_text": "",
-                "filter_button": "",
+                "nav": "Directori d'usuaris",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "No s'ha trobat cap usuari que coincideixi amb la teva cerca.",
+                "filter_button": "Filtrar grups",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} debat} other {{count} debats}}",
+                    "post-count": "{count, plural, one { {count} publicació} other {{count} publicacions}}"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "Veure directori d'usuaris"
             },
             "settings": {
-                "link": "",
-                "default-sort": "",
-                "use-small-cards": "",
-                "disable-global-search-source": "",
-                "link-group-mentions": ""
+                "link": "Afegir enllaç a la pàgina principal per a que els usuaris puguin veure el directori",
+                "default-sort": "Ordenació per defecte",
+                "use-small-cards": "Utilitzar targetes d'usuari petites",
+                "disable-global-search-source": "No afegir el directori d'usuaris al camp de cerca global del fòrum",
+                "link-group-mentions": "Enllaça les mencions del grup que hi hagi a les publicacions al directori d'usuaris"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": ""
+                "not_specified": "Per defecte al fòrum",
+                "default": "Per defecte",
+                "username_az": "Nom d'usuari (a-z)",
+                "username_za": "Nom d'usuari (z-a)",
+                "newest": "Més nou",
+                "oldest": "Més antic",
+                "most_posts": "Més publicacions",
+                "least_posts": "Menys publicacions",
+                "most_discussions": "Més debats",
+                "least_discussions": "Menys debats"
             }
         }
     }

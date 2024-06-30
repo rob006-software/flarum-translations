@@ -7,15 +7,15 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Общи условия",
                     "reminders": "Напомняния",
+                    "search": "",
                     "advanced": "Разширени",
                     "reminders_notice": "За да функционират напомнянията, е необходимо да се конфигурира правилно графика на Flarum."
                 },
                 "allow_select_own_post": "Избери собствен пост",
                 "allow_select_own_post_help": "Позволете на потребителя да избере свои собствени публикации като най-добър отговор в дискусия",
-                "enable_all_tags_button": "Активирай всички тагове за Най-Добри Отговори",
-                "enable_all_tags_reminder_button": "Активирай всички тагове за напомняния за Най-Добър Отговор",
                 "show_max_lines_label": "Максимален брой редове, които да се показват в преглед на пост",
                 "show_max_lines_help": "Посочи като 0 за да деактивираш. Ако пост е по-дълъг от конфигурирания брой редове, ще бъде съкратен в прегледа на поста с избледняващ ефект.",
                 "select_best_answer_reminder_days": "Честота на напомнянията",
@@ -32,6 +32,17 @@
                 "use_alt_ui": "Алтернативен формат",
                 "use_alt_ui_help": "Контроли за най-добър отговор във футъра на публикацията",
                 "documentation": "Документация",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
+                "discussion_sidebar_jump_button": "",
+                "discussion_sidebar_jump_button_help": "",
+                "enable_all_tags_button": "Активирай всички тагове за Най-Добри Отговори",
+                "enable_all_tags_reminder_button": "Активирай всички тагове за напомняния за Най-Добър Отговор",
                 "introduction": "Активирайте кои тагове да поддържат Най-добри отговори в <code><a>flarum/tags</a></code> и по избор кой(и) етикет(а) трябва да поддържа напомняния. Когато даден етикет е активиран за най-добър отговор, задайте разрешения на всяка потребителска група, която може да задава отговори (собствена дискусия, всяка дискусия). Разрешенията могат да се зачисляват глобално (за всеки таг с активиран Най-добър отговор) или на базата на етикет.\n"
             },
             "edit_tag": {
@@ -75,6 +86,13 @@
             },
             "user": {
                 "best-answer-count": "{count, plural, one { {count} най-добрият отговор} other {{count} най-добрите отговори}}"
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
+            },
+            "discussion": {
+                "jump_to_best_answer_button": ""
             }
         },
         "email": {

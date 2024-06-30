@@ -1,0 +1,88 @@
+{
+    "fof-anti-spam": {
+        "admin": {
+            "permissions": {
+                "spamblock_users_label": "標示用戶為垃圾郵件發送者"
+            },
+            "settings": {
+                "button": "設定",
+                "default-actions": {
+                    "delete_user_label": "刪除用戶",
+                    "delete_user_help": "這將永久刪除該用戶。 停用後，用戶將被暫停。",
+                    "delete_discussions_label": "刪除討論",
+                    "delete_discussions_help": "這將永久刪除該用戶發起的所有討論。 禁用後，討論將被軟刪除。",
+                    "delete_posts_label": "刪除貼文",
+                    "delete_posts_help": "這將永久刪除該用戶發表的所有貼文。 停用後，貼文將被軟刪除。",
+                    "heading": "預設審核操作",
+                    "introduction": "當使用者被標記為垃圾郵件發送者時，管理員可以從各種操作中選擇如何處理特定用例。 這些設定可讓您預先設定通常要採取的操作，以加快流程，但也允許根據需要進行變更。\n",
+                    "move_discussions_to_tags_label": "將討論移至標籤",
+                    "move_discussions_to_tags_help": "這會將該使用者發起的所有討論移至您指定的標籤。 清除標籤選擇以將討論保留在原始標籤中。 如果啟用「刪除討論」選項，則無效。"
+                },
+                "stopforumspam": {
+                    "heading": "停止論壇垃圾郵件",
+                    "introduction": "根據 <a>StopForumSpam</a> 資料庫檢查新用戶註冊情況。 如果達到<code>置信度</code>或<code>頻率</code>閾值，用戶將無法在您的論壇上完成註冊。\n\n也支援透過 <code>fof/oauth</code> 和 <code>fof/passport</code> 進行 SSO 註冊。 其他 SSO 提供者應該可以工作，但未經測試。\n",
+                    "username_label": "使用者名稱垃圾郵件檢查",
+                    "ip_label": "IP位址垃圾郵件檢查",
+                    "email_label": "電子郵件垃圾郵件檢查",
+                    "frequency_label": "臨界點",
+                    "frequency_help": "所有啟用的檢查之間垃圾郵件報告的數量將觸發垃圾郵件過濾器。\n例如：如果電子郵件有 1 次點擊，而 ip 有 2 次點擊，總共將有 3 次點擊。 如果閾值設定為 3 或更少，我們將阻止註冊。\n",
+                    "api_key_label": "API Key",
+                    "api_key_text": "您可以選擇向 StopForumSpam 檢舉垃圾郵件發送者，以確保更大的論壇沒有垃圾郵件。",
+                    "api_key_instructions_text": "<register>註冊 StopForumSpam</register> 。 然後您需要<key>取得 API 金鑰</key>。",
+                    "regional_endpoint_label": "地理訪問",
+                    "regional_endpoint_help": "預設情況下，我們會將查找定向到最近的區域伺服器，以提供最快的回應。 如果您希望限制特定區域的流量，例如為了遵守公司或國家/地區的隱私法規，則可以強制連接到特定區域。",
+                    "region_closest_label": "最近的",
+                    "region_europe_label": "歐洲",
+                    "region_us_label": "美國",
+                    "confidence_label": "信心度",
+                    "confidence_help": "信心度分數是一個相當好的指標，表示被測欄位會導致不必要的活動。 將您的信心度設定為百分比。 如果該欄位等於或高於此數字，則無論上面的「頻率」測試如何，註冊都將被阻止。",
+                    "email_hash_label": "使用散列郵箱地址",
+                    "email_hash_help": "如果您不想傳遞電子郵件地址本身，請傳遞電子郵件地址的 MD5 雜湊值。 此方法繞過所有黑名單、規範化和混淆繞過檢查。",
+                    "sfs_lookup_label": "尋找註冊",
+                    "sfs_lookup_help": "如果啟用，當新用戶在您的論壇上註冊時，我們將檢查 StopForumSpam 資料庫。 如果找到使用者（使用者名稱、IP 位址、電子郵件）並且啟用該資料點並且 SFS 置信級別達到您定義的級別，他們將無法完成註冊。",
+                    "report_blocked_registrations_label": "報告被阻止的註冊",
+                    "report_blocked_registrations_help": "當「尋找註冊」功能阻止註冊時，我們將向 StopForumSpam 報告該嘗試，以便更好地確認垃圾郵件發送者的活動。 需要設定 StopForumSpam API 金鑰（見下文）。"
+                }
+            },
+            "blocked_registrations": {
+                "button": "被阻止的註冊",
+                "title": "被阻止的註冊",
+                "no-records": "未發現被阻止的註冊。",
+                "help": "此頁面顯示已被 StopForumSpam 服務阻止的所有註冊。 您可以查看每個註冊的詳細資訊，如果您願意，可以從資料庫中刪除該記錄。\n",
+                "attempted-at": "嘗試",
+                "ip": "IP 位置",
+                "email": "Email 地址",
+                "username": "使用者名稱",
+                "login-provider": "登入提供者",
+                "login-provider-data": "登入提供者數據",
+                "sfs-data": "停止論壇垃圾郵件數據",
+                "delete_entry": "刪除條目"
+            }
+        },
+        "forum": {
+            "message": {
+                "stopforumspam": {
+                    "blocked": "您的註冊詳細資料已在垃圾郵件預防資料庫中找到，因此您的註冊已被封鎖。"
+                }
+            },
+            "spammer_modal": {
+                "hard_delete_discussions_label": "刪除討論",
+                "hard_delete_discussions_help": "這將永久刪除該用戶發起的所有討論。 禁用後，討論將被隱藏。",
+                "hard_delete_posts_label": "刪除貼文",
+                "hard_delete_posts_help": "這將永久刪除該用戶發表的所有貼文（評論、回應等）。 停用後，貼文將被隱藏。",
+                "hard_delete_user_label": "刪除用戶",
+                "hard_delete_user_help": "這將永久刪除該用戶。 停用後，用戶將被暫停。",
+                "intro": "將使用者標記為垃圾郵件發送者時，將採取多項操作，具體取決於論壇上可用的擴充功能。",
+                "move_discussions_tag_label": "將討論移至隔離標籤",
+                "move_discussions_tag_help": "這會將該使用者發起的所有討論移至您在論壇設定中指定的標籤。 禁用後，討論將保留在目前標籤中。",
+                "process_button": "執行",
+                "title": "將 {username} 標記為垃圾郵件發送者",
+                "report_to_sfs_label": "向 StopForumSpam 檢舉",
+                "report_to_sfs_help": "這將向 StopForumSpam 報告使用者的基本詳細資訊（使用者名稱、電子郵件、IP 位址）。 這將有助於防止用戶在使用 StopForumSpam 服務的其他論壇上註冊。"
+            },
+            "user_controls": {
+                "spammer_button": "垃圾郵件發送者"
+            }
+        }
+    }
+}

@@ -8,13 +8,20 @@
             },
             "setting": {
                 "bioLimit": "Batas karakter",
+                "maxLines": "Jumlah maksimum baris yang akan ditampilkan dalam satu waktu",
                 "allowFormatting": "Izinkan pemformatan dalam bio",
                 "allowFormatting_help": "Secara desain, pemformatan ini terpisah dari pemformatan postingan. Jika ekstensi BBCode dan/atau Markdown diaktifkan, ekstensi tersebut akan tersedia untuk memformat bio. Tidak ada gambar atau sematan yang diperbolehkan. Ekstensi yang ditambahkan ke pemformat Flarum harus secara *eksplisit* menambahkan dukungan untuk pemformat bio."
             }
         },
         "forum": {
             "userbioPlaceholder": "Tulis sesuatu tentang diri Anda",
-            "userbioPlaceholderOtherUser": "Tulis bio untuk {username}"
+            "userbioPlaceholderOtherUser": "Tulis bio untuk {username}",
+            "profile": {
+                "cancel_confirm": "",
+                "cancel_button": "",
+                "save_button": "",
+                "edit_bio_label": ""
+            }
         }
     }
 }

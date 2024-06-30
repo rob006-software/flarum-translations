@@ -3,7 +3,15 @@
         "admin": {
             "configure_button_label": "",
             "settings_accessibility_label": "",
+            "permissions": {
+                "moderate_user_providers": ""
+            },
             "settings": {
+                "advanced": {
+                    "heading": "",
+                    "log-oauth-errors-label": "",
+                    "log-oauth-errors-help": ""
+                },
                 "only_icons_label": "Only show the Log In Button icons (alternative layout)",
                 "update_email_from_provider_label": "",
                 "update_email_from_provider_help": "",
@@ -44,7 +52,8 @@
                     "google": {
                         "description": "Create an application at {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
-                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "hosted_domain_label": ""
                     },
                     "linkedin": {
                         "description": "Create an application at {link}.",

@@ -3,35 +3,35 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Iespējot Google Analytics (UA/GA4)",
+                    "optTrackingCode": "Izsekošanas koda optimizēšana (neobligāti)",
+                    "googleTrackingCode": "Izsekošanas koda ID",
+                    "googleGTMCode": "GTM koda ID (neobligāti)",
+                    "statusPiwik": "Iespējot Matomo",
+                    "piwikUrl": "Matomo domēns vai URL",
+                    "piwikSiteId": "Vietnes ID",
+                    "piwikTrackSubdomain": "Izsekojiet apmeklētājus visos Flarum apakšdomēnos",
+                    "piwikPrependDomain": "Izsekošanas laikā lapas nosaukumam pievienojiet vietnes domēnu",
+                    "piwikHideAliasUrl": "Pārskatā “Izejsaites” paslēpiet klikšķus uz zināmiem aizstājvārdu URL",
+                    "piwikAliasUrl": "Alias URL",
+                    "piwikTrackAccounts": "Izsekojiet atsevišķu lietotāju kontus",
+                    "piwikAuthToken": "Autentifikācijas Tokens"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Aizpildiet šo marķieri, lai administratora panelī iespējotu Matomo statistikas logrīku.\nTo var atrast sadaļā Iestatījumi > Personiskie > API autentifikācijas pilnvara.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Neizseko",
+                    "username": "Izsekot pēc lietotājvārda",
+                    "email": "Izsekot pa e-pastu"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }

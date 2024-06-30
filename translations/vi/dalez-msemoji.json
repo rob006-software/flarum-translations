@@ -2,20 +2,20 @@
     "flarum-msemoji": {
         "forum": {
             "composer": {
-                "emoji_tooltip": "",
-                "type_to_search_text": ""
+                "emoji_tooltip": "Chèn biểu tượng cảm xúc",
+                "type_to_search_text": "Nhập để tìm kiếm biểu tượng cảm xúc"
             }
         },
         "admin": {
             "settings": {
-                "base": "",
-                "folder": "",
-                "ext": "",
-                "basehelp": "",
-                "baseph": "",
-                "folderph": "",
-                "extph": "",
-                "disable_autocomplete": ""
+                "base": "Gốc",
+                "folder": "Thư mục",
+                "ext": "Tiện ích mở rộng",
+                "basehelp": "Mẹo: Gõ $ sẽ thay thế bằng số phiên bản tự động. Trường hợp nhạy cảm.",
+                "baseph": "Ví dụ: https://www.example.com/",
+                "folderph": "Ví dụ: svg",
+                "extph": "Ví dụ: .gif",
+                "disable_autocomplete": "Tắt tự động gợi ý"
             }
         }
     }

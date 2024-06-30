@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Tria l'interval de dates del qual vulguis veure estadístiques. La càrrega de\ndades pot trigar diversos minuts en fòrums amb molta activitat.\n",
+                "end_date": "Data final (inclosa)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "La data final ha de ser posterior a la data inicial."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Data inicial (inclosa)",
+                "submit_button": "Confirmar l'interval de dates",
+                "title": "Triar un interval de dates"
             },
             "statistics": {
-                "discussions_heading": "",
-                "export_chart_button": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
-                "posts_heading": "",
-                "today_label": "",
-                "total_label": "",
-                "users_heading": "",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "discussions_heading": "=> core.ref.discussions",
+                "export_chart_button": "Exportar gràfica a SVG",
+                "last_12_months_label": "Darrers 12 mesos",
+                "last_28_days_label": "Darrers 28 dies",
+                "last_7_days_label": "Darrers 7 dies",
+                "mini_heading": "Estadístiques del fòrum",
+                "previous_28_days_label": "Anteriors 28 dies",
+                "previous_7_days_label": "Anteriors 7 dies",
+                "custom_label": "Triar interval de dates...",
+                "custom_label_specified": "{fromDate} a {toDate}",
+                "loading": "=> core.ref.loading",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "Avui",
+                "total_label": "Total",
+                "users_heading": "=> core.ref.users",
+                "view_full": "Veure més estadístiques",
+                "no_data": "No hi ha dades per a aquest interval de dates.",
+                "current_period": "Període actual",
+                "previous_period": "Període anterior"
             }
         }
     }

@@ -1,0 +1,73 @@
+{
+    "foskym-oauth-center": {
+        "admin": {
+            "permission": {
+                "use_oauth": "Use OAuth"
+            },
+            "page": {
+                "index": "home",
+                "clients": "Manage Clients",
+                "scopes": "Manage Scopes",
+                "tokens": "Manage Tokens"
+            },
+            "settings": {
+                "display_mode": "Display Mode",
+                "access_lifetime": "Access Token Lifetime (seconds)",
+                "allow_implicit": "Allow Implicit Grant (response_type=token)",
+                "enforce_state": "Enforce State Validation (state parameter)",
+                "require_exact_redirect_uri": "Require Exact Redirect URI",
+                "authorization_method_fetch": "Authorization Method Fetch (Not directly redirecting to)"
+            },
+            "clients": {
+                "client_id": "Client ID",
+                "client_secret": "Client Secret",
+                "redirect_uri": "Redirect URI",
+                "grant_types": "Grant Types",
+                "scope": "Scope",
+                "client_name": "Name",
+                "client_desc": "Description",
+                "client_icon": "Icon",
+                "client_home": "HomePage",
+                "add_button": "Add Client",
+                "edit_client": "Edit Client"
+            },
+            "scopes": {
+                "scope": "Scope",
+                "resource_path": "Resource Path",
+                "method": "Method",
+                "is_default": "Default",
+                "scope_name": "Name",
+                "scope_icon": "Icon",
+                "scope_desc": "Description",
+                "visible_fields": "Visible Fields",
+                "add_button": "Add Scope",
+                "edit_scope": "Edit Scope"
+            },
+            "tokens": {
+                "add_token": "Add Token",
+                "delete_token": "Delete Token"
+            }
+        },
+        "forum": {
+            "page": {
+                "title": {
+                    "authorize": "Authorize"
+                },
+                "label": {
+                    "authorized": "Authorized Logs"
+                }
+            },
+            "authorize": {
+                "require_these_scopes": "Require these scopes",
+                "access": "Access to",
+                "agree": "Agree",
+                "deny": "Deny"
+            },
+            "authorized": {
+                "no_records": "No records",
+                "no_more_records": "No more records",
+                "load_more": "Load More"
+            }
+        }
+    }
+}

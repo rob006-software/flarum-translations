@@ -2,14 +2,14 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "followAfterReply": "",
-                "followAfterReply-help": "",
-                "postMentioned": "",
-                "postMentioned-help": "",
-                "userMentioned": "",
-                "userMentioned-help": "",
-                "groupMentioned": "",
-                "groupMentioned-help": ""
+                "followAfterReply": "Seguir si s'ha respost",
+                "followAfterReply-help": "Si s'activa, els nous usuaris seguiran automàticament els debats als quals responguin o comentin.",
+                "postMentioned": "Correu de publicació esmentada",
+                "postMentioned-help": "Si s'activa, els nous usuaris optaran automàticament a rebre notificacions per correu electrònic quan s'esmenti alguna de les seves publicacions.",
+                "userMentioned": "Correu d'usuari esmentat",
+                "userMentioned-help": "Si s'activa, els nous usuaris optaran automàticament a rebre notificacions per correu electrònic quan el seu usuari sigui @esmentat.",
+                "groupMentioned": "Correu de grup esmentat",
+                "groupMentioned-help": "Si s'activa, els nous usuaris optaran automàticament a rebre notificacions per correu electrònic quan un grup al qual pertanyen sigui esmentat."
             }
         }
     }

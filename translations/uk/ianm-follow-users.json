@@ -1,4 +1,15 @@
 {
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "Експорт інформації про користувачів, за якими слідкують, і користувачів, які слідкують за ними.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Видалити всі дані, пов'язані з користувачами, які підписалися."
+                }
+            }
+        }
+    },
     "ianm-follow-users": {
         "admin": {
             "permissions": {
@@ -18,7 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
+                "unfollow_button": "=> ianm-follow-users.lib.unfollow",
+                "change_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
                 "notify_new_follower_label": "Хтось слідкує за мною",
@@ -71,6 +83,7 @@
             "following_link": "Підписані користувачі",
             "follow": "Підписатися",
             "change_follow_type": "Змінити тип відстеження",
+            "unfollow": "Відмінити",
             "follow_levels": {
                 "unfollow": {
                     "name": "Не підписуватися",

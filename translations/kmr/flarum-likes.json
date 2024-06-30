@@ -2,35 +2,35 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "Çeppikên postan"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Piştî ku were çalak kirin, bi şertê destûr, bikarhêner dikarin di forumê de peyamên xwe 'biecibînin'. Vê mîhengê neçalak bike da ku bikarhêner nehêlin ku peyamên xwe 'biecibînin'.",
+                "like_own_posts_label": "Bikarhêner dikarin çeppik bidin postên xwe"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_liked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} çeppik da posta te"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
-                "liked_by_text": "",
-                "others_link": "",
-                "unlike_link": "",
-                "you_text": ""
+                "like_link": "Çeppik",
+                "liked_by_self_text": "{users} çeppik dan.",
+                "liked_by_text": "{count, plural, one {{users} çeppik dan} other {{users} çeppik dan}}.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Reşşik",
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Yên çeppik dan",
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "Gava ku kesek yek ji postên min hez kir"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Çeppik"
             }
         }
     }

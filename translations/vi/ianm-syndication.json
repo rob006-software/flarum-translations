@@ -7,12 +7,12 @@
                 "tag_activity": "Nhật kí hoạt động của thẻ {tag}",
                 "tag_new_discussions": "Các cuộc thảo luận của thẻ {tag}",
                 "discussion_last_posts": "Cuộc thảo luận này",
-                "user_last_posts": ""
+                "user_last_posts": "Bài viết và bình luận của người dùng này"
             },
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": ""
+                        "title_reply": "Từ: {discussion}"
                     }
                 },
                 "titles": {
@@ -26,8 +26,8 @@
                     "tag_d_subtitle": "Các cuộc thảo luận mới nhất trong thẻ {tag}",
                     "discussion_title": "{discussion_name}",
                     "discussion_subtitle": "Các bài viết mới nhất trong cuộc thảo luận này",
-                    "user_title": "",
-                    "user_subtitle": ""
+                    "user_title": "{username}",
+                    "user_subtitle": "Bài viết và bình luận mới nhất của người dùng này."
                 }
             },
             "discussion": {

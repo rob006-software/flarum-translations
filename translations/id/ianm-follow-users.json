@@ -1,4 +1,15 @@
 {
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "Mengekspor detail pengguna yang diikuti dan pengguna yang mengikuti.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Menghapus semua data yang terkait dengan pengguna yang mengikuti."
+                }
+            }
+        }
+    },
     "ianm-follow-users": {
         "admin": {
             "permissions": {
@@ -18,7 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
+                "change_button": ""
             },
             "settings": {
                 "notify_new_follower_label": "Seseorang mengikuti Saya",
@@ -71,6 +83,7 @@
             "following_link": "Pengguna Yang Diikuti",
             "follow": "Ikuti",
             "change_follow_type": "Ganti tipe follow (ikuti)",
+            "unfollow": "",
             "follow_levels": {
                 "unfollow": {
                     "name": "Jangan ikuti",

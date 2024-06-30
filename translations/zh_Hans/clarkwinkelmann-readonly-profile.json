@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "disableLogin": "禁止登录",
-                "disableAccessTokens": "禁用访问令牌创建",
-                "disableEmailChange": "禁用电子邮件变更",
-                "disablePasswordChange": "",
-                "disableAvatarEdit": ""
+                "disableAccessTokens": "禁止创建访问令牌",
+                "disableEmailChange": "禁止更改邮箱",
+                "disablePasswordChange": "禁止更改密码",
+                "disableAvatarEdit": "禁止更改头像"
             }
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "accessToken": "",
-                "email": "",
-                "password": "",
-                "avatar": ""
+                "login": "登录已禁止",
+                "accessToken": "访问令牌已禁止创建",
+                "email": "邮箱已禁止更改",
+                "password": "密码已禁止更改",
+                "avatar": "头像已禁止更改"
             }
         }
     }
