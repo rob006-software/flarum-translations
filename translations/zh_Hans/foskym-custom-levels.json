@@ -2,13 +2,13 @@
     "foskym-custom-levels": {
         "admin": {
             "settings": {
-                "levelText": "",
-                "levelDesc": "",
-                "expText": "",
-                "expDesc": "",
-                "expFormula": "",
-                "expFormulaDesc1": "",
-                "expFormulaDesc2": "",
+                "levelText": "输入要显示的等级文本（例如：等级, 级别)",
+                "levelDesc": "可用的变量：[level]",
+                "expText": "输入要显示的经验值文本（例如：「[expTotal] 经验」）",
+                "expDesc": "可用的变量：[expTotal]",
+                "expFormula": "输入经验值的计算公式（例如：「[discussionCount] * 40 + [commentCount] / 20」)",
+                "expFormulaDesc1": "您可以使用以下变量：",
+                "expFormulaDesc2": "您可以使用以下核心变量来计算经验值：\n\n- [discussionCount]：讨论次数\n- [commentCount]：评论次数\n\n请根据这些变量输入您的经验值计算公式。",
                 "expFormulaDesc3": "",
                 "levelFormula": "",
                 "levelFormulaDesc": ""
