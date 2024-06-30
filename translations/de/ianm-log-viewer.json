@@ -2,18 +2,18 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": ""
+                "access_logfile_api": "Zugriff auf Protokolldateien durch die API"
             },
             "settings": {
-                "purge-days": "",
-                "purge-days-help": ""
+                "purge-days": "Protokolldateien nach Tagen bereinigen",
+                "purge-days-help": "Setzt voraus, dass der Flarum Scheduler aktiv ist. 0 zum deaktivieren."
             },
             "viewer": {
-                "available_logs_heading": "",
-                "file_contents_heading": "",
-                "file_size": "",
-                "last_updated": "",
-                "no_file_selected": ""
+                "available_logs_heading": "Verfügbare Dateien",
+                "file_contents_heading": "Dateiinhalte",
+                "file_size": "Größe (bytes): {size}",
+                "last_updated": "Zuletzt aktualisiert: {updated}",
+                "no_file_selected": "Wähle eine Protokolldatei um ihren Inhalt anzusehen."
             }
         }
     }
