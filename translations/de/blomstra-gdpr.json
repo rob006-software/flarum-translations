@@ -82,7 +82,7 @@
                 },
                 "user": {
                     "anonymize_description": "",
-                    "delete_description": "",
+                    "delete_description": "Löscht den Nutzer aus der Datenbank.",
                     "export_description": ""
                 }
             },
@@ -135,18 +135,18 @@
             "erasure_request_confirmed": "",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Personenbezogene Daten"
                 },
-                "export_data_button": "",
+                "export_data_button": "Daten exportieren",
                 "export_data_help": "",
-                "request_erasure_button": "",
+                "request_erasure_button": "Konto löschen",
                 "request_erasure_help": ""
             },
             "process_erasure": {
                 "confirm": "",
                 "title": "",
                 "text": "",
-                "comments_label": "",
+                "comments_label": "Kommentare (optional)",
                 "anonymization_button": "",
                 "deletion_button": ""
             },
@@ -154,12 +154,12 @@
                 "title": "",
                 "reason": "",
                 "status": {
-                    "awaiting_user_confirmation": "",
+                    "awaiting_user_confirmation": "Du solltest eine E-Mail zur Bestätigung deiner Löschanfrage erhalten haben.\n",
                     "user_confirmed": ""
                 },
                 "text": "",
-                "password_label": "",
-                "reason_label": "",
+                "password_label": "Passwort bestätigen",
+                "reason_label": "Begründung (optional)",
                 "cancel_button": "",
                 "request_button": ""
             },
