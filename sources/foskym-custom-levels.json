@@ -1,0 +1,26 @@
+{
+    "foskym-custom-levels": {
+        "admin": {
+            "settings": {
+                "levelText": "Enter the text to be displayed for the levels (e.g. Rank, Level)",
+                "levelDesc": "Available variables：[level]",
+                "expText": "Enter the text to be displayed for the exp（e.g.「[expTotal] Exp」）",
+                "expDesc": "Available variables：[expTotal]",
+                "expFormula": "Enter the formula of exp（e.g.「[discussionCount] * 40 + [commentCount] / 20」）",
+                "expFormulaDesc1": "You can use these variables：",
+                "expFormulaDesc2": "Core（[discussionCount] [commentCount]）",
+                "expFormulaDesc3": "Need Plugins（[money] [likesReceived] [bestAnswerCount]）",
+                "levelFormula": "Enter the formula of level（e.g.「[expTotal] / (100 + 5 * [level])」）",
+                "levelFormulaDesc": "You can use these variables [expTotal] [level]"
+            }
+        },
+        "lib": {
+            "defaults": {
+                "level": "Lv.",
+                "exp": "[expTotal] Exp",
+                "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
+                "levelFormula": "[expTotal] / (100 * [level])"
+            }
+        }
+    }
+}
