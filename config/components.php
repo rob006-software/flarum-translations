@@ -715,6 +715,9 @@ return [
 	'fof-webhooks' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.2.3/resources/locale/en.yml',
 	],
+	'foskym-custom-levels' => [
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-custom-levels/v1.1.0/locale/en.yml',
+	],
 	'foskym-nickname-group-formatter' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-nickname-group-formatter/v1.0.6/resources/locale/en.yml',
 	],
