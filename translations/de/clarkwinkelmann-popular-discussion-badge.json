@@ -6,7 +6,7 @@
         "admin": {
             "settings": {
                 "mode": "",
-                "mode_help": "",
+                "mode_help": "Der Frontend-Modus ist eine effiziente Lösung, die nicht auf die Datenbank zurückgreift. Der Scheduler-Modus erfordert eine CRON-Einrichtung und erlaubt Zeitspannen in den Bedingungen.\n",
                 "mode_options": {
                     "frontend": "",
                     "scheduler": ""
@@ -23,9 +23,9 @@
                 "conditions": "",
                 "conditions_help": "",
                 "add": "",
-                "comments": "",
+                "comments": "Kommentare",
                 "comments_placeholder": "",
-                "views": "",
+                "views": "Aufrufe",
                 "views_placeholder": "",
                 "within": "",
                 "within_placeholder": "",
