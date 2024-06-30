@@ -2,18 +2,18 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Benutzer als Spammer markieren"
             },
             "settings": {
-                "button": "",
+                "button": "Einstellungen",
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
+                    "delete_user_label": "Benutzer löschen",
+                    "delete_user_help": "Dadurch wird der Benutzer endgültig gelöscht. Wenn deaktiviert, wird der Benutzer stattdessen gesperrt.",
+                    "delete_discussions_label": "Diskussionen löschen",
                     "delete_discussions_help": "",
-                    "delete_posts_label": "",
+                    "delete_posts_label": "Beiträge löschen",
                     "delete_posts_help": "",
-                    "heading": "",
+                    "heading": "Standard-Moderationsmaßnahmen",
                     "introduction": "",
                     "move_discussions_to_tags_label": "",
                     "move_discussions_to_tags_help": ""
@@ -21,24 +21,24 @@
                 "stopforumspam": {
                     "heading": "",
                     "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
+                    "username_label": "Benutzernamen-Spam-Prüfung",
+                    "ip_label": "IP-Adressen-Spam-Prüfung",
+                    "email_label": "E-Mail-Spam-Prüfung",
                     "frequency_label": "",
                     "frequency_help": "",
-                    "api_key_label": "",
+                    "api_key_label": "API Schlüssel",
                     "api_key_text": "",
                     "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
+                    "regional_endpoint_label": "Geografischer Zugang",
                     "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
+                    "region_closest_label": "Am nächsten",
+                    "region_europe_label": "Europa",
+                    "region_us_label": "Vereinigte Staaten",
+                    "confidence_label": "Vertrauen",
                     "confidence_help": "",
                     "email_hash_label": "",
                     "email_hash_help": "",
-                    "sfs_lookup_label": "",
+                    "sfs_lookup_label": "Registrierungen überprüfen",
                     "sfs_lookup_help": "",
                     "report_blocked_registrations_label": "",
                     "report_blocked_registrations_help": ""
@@ -50,13 +50,13 @@
                 "no-records": "",
                 "help": "",
                 "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
+                "ip": "IP-Adresse",
+                "email": "E-Mail-Adresse",
+                "username": "Benutzername",
                 "login-provider": "",
                 "login-provider-data": "",
                 "sfs-data": "",
-                "delete_entry": ""
+                "delete_entry": "Eintrag löschen"
             }
         },
         "forum": {
