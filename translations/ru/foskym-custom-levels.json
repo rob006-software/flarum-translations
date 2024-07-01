@@ -2,24 +2,24 @@
     "foskym-custom-levels": {
         "admin": {
             "settings": {
-                "levelText": "",
-                "levelDesc": "",
+                "levelText": "Введите отображаемый текст для уровней (напр.: Ранг, Уровень)",
+                "levelDesc": "Доступные переменные：[level]",
                 "expText": "",
-                "expDesc": "",
-                "expFormula": "",
-                "expFormulaDesc1": "",
-                "expFormulaDesc2": "",
-                "expFormulaDesc3": "",
-                "levelFormula": "",
-                "levelFormulaDesc": ""
+                "expDesc": "Доступные переменные：[expTotal]",
+                "expFormula": "Введите формулу расчета критерия (напр.,「[discussionCount] * 40 + [commentCount] / 20」）",
+                "expFormulaDesc1": "Вы можете использовать эти переменные:",
+                "expFormulaDesc2": "База ([discussionCount] [commentCount]）",
+                "expFormulaDesc3": "Требуются плагины（[money] [likesReceived] [bestAnswerCount]）",
+                "levelFormula": "Введите формулу расчета для уровня（напр.,「[expTotal] / (100 + 5 * [level])」）",
+                "levelFormulaDesc": "Вы можете использовать эти переменные [expTotal] [level]"
             }
         },
         "lib": {
             "defaults": {
                 "level": "",
                 "exp": "",
-                "expFormula": "",
-                "levelFormula": ""
+                "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
+                "levelFormula": "[expTotal] / (100 * [level])"
             }
         }
     }
