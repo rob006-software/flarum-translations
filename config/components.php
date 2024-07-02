@@ -166,6 +166,9 @@ return [
 	'blomstra-welcome-login' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-welcome-login/0.1.0/locale/en.yml',
 	],
+	'blt950-oauth-generic' => [
+		'tag' => 'https://raw.githubusercontent.com/blt950/flarum-ext-oauth-generic/v1.0.0/locale/en.yml',
+	],
 	'cadiducho-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.1/resources/locale/en.yml',
 	],
