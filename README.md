@@ -908,6 +908,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-usercard-stats`](https://weblate.rob006.net/projects/flarum/blomstra-usercard-stats) | [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats) |
 | [`blomstra-web3`](https://weblate.rob006.net/projects/flarum/blomstra-web3) | [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3) |
 | [`blomstra-welcome-login`](https://weblate.rob006.net/projects/flarum/blomstra-welcome-login) | [`blomstra/welcome-login`](https://github.com/blomstra/flarum-ext-welcome-login) |
+| [`blt950-oauth-generic`](https://weblate.rob006.net/projects/flarum/blt950-oauth-generic) | [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic) |
 | [`cadiducho-bbcode`](https://weblate.rob006.net/projects/flarum/cadiducho-bbcode) | [`cadiducho/bbcode`](https://github.com/EdorasMinecraft/BBcode) |
 | [`cccyun-clogin-oauth`](https://weblate.rob006.net/projects/flarum/cccyun-clogin-oauth) | [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth) |
 | [`clarkwinkelmann-catch-the-fish`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-catch-the-fish) | [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish) |
