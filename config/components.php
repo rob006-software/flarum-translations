@@ -752,7 +752,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/shaokeyibb/flarum-passkey-login/0.2/locale/en.yml',
 	],
 	'hopeai-gptapi' => [
-		'tag' => 'https://raw.githubusercontent.com/Hanhan0831/gpt/1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Hanhan0831/gpt/1.0.2/locale/en.yml',
 	],
 	'huoxin-auto-follow-discussion' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-follow-discussion/0.0.2/locale/en.yml',
