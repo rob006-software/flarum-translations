@@ -4,34 +4,34 @@
             "settings": {
                 "providers": {
                     "generic": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "scopes_label": "",
-                        "authorization_endpoint_label": "",
-                        "token_endpoint_label": "",
-                        "user_information_endpoint_label": "",
-                        "id_parameter_label": "",
-                        "display_name_parameter_label": "",
-                        "email_address_parameter_label": "",
-                        "force_userid_label": "",
-                        "force_name_label": "",
-                        "force_email_label": ""
+                        "description": "根據您的自訂 OAuth2 提供者設定登入。",
+                        "client_id_label": "客戶ID",
+                        "client_secret_label": "客戶密鑰",
+                        "scopes_label": "範圍",
+                        "authorization_endpoint_label": "授權端點",
+                        "token_endpoint_label": "令牌端點",
+                        "user_information_endpoint_label": "使用者資訊端點",
+                        "id_parameter_label": "使用者ID參數",
+                        "display_name_parameter_label": "顯示名稱 參數",
+                        "email_address_parameter_label": "電子郵件地址參數",
+                        "force_userid_label": "強制使用者 ID（0 = 否，1 = 是）",
+                        "force_name_label": "強制顯示名稱（0 = 否，1 = 是）",
+                        "force_email_label": "強制電子郵件地址（0 = 否，1 = 是）"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_generic_button": ""
+                "with_generic_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "generic": ""
+                "generic": "=> fof-oauth.lib.providers.generic"
             }
         },
         "lib": {
             "providers": {
-                "generic": ""
+                "generic": "通用的"
             }
         }
     }
