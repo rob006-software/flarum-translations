@@ -1045,6 +1045,9 @@ return [
 	'litalino-more-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-more-bbcode/2.0.0/resources/locale/en.yml',
 	],
+	'litalino-related-discussions' => [
+		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-related-discussions/1.1.0/resources/locale/en.yml',
+	],
 	'litalino-top-bar' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-top-bar/1.5.1/locale/en.yml',
 	],
