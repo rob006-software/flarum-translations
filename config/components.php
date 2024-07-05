@@ -1084,6 +1084,9 @@ return [
 	'matteocontrini-imgur-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.9.1/locale/en.yml',
 	],
+	'mattoid-store-auto-check-in' => [
+		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-store-auto-check-in/1.0.0/locale/en.yml',
+	],
 	'michaelbelgium-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v7.2.3/locale/en.yml',
 	],
