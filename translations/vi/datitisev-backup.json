@@ -17,9 +17,9 @@
                 "zip": "Lưu trữ Zip"
             },
             "settings_button": "Cấu hình",
-            "delete_button": "",
-            "delete_confirmation": "",
-            "create_button": "",
+            "delete_button": "Xóa",
+            "delete_confirmation": "Bạn có chắc chắn muốn xóa “{name}” ({adapter}) không?",
+            "create_button": "Thêm adapter mới",
             "required_package_button": "Thiết lập",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -40,7 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Cấu hình {adapter}",
-                "name_label": "",
+                "name_label": "Tên vị trí",
                 "local": {
                     "target": {
                         "label": "Đường dẫn",
@@ -81,12 +81,12 @@
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Khóa",
+                        "description": "Khóa thông tin xác thực AWS"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Khóa bí mật",
+                        "description": "Khóa bí mật thông tin xác thực AWS"
                     },
                     "region": {
                         "label": "Khu vực",
@@ -142,12 +142,12 @@
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "ID khách hàng",
+                        "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và truy xuất ID khách hàng và bí mật khách hàng của bạn.\n"
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Mã bí mật khách hàng",
+                        "description": " "
                     },
                     "refresh-token": {
                         "label": "Làm mới token",
@@ -158,8 +158,8 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
-                        "test_button": ""
+                        "test_success_alert": "Đã kết nối thành công với Google Drive! Lưu các thay đổi để lưu trữ cài đặt.",
+                        "test_button": "Kiểm tra kết nối"
                     },
                     "client": {
                         "id": {
