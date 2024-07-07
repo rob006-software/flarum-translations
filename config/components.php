@@ -1214,7 +1214,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/SasSam/flarum-regrole/1.0.5/locale/en.yml',
 	],
 	'serakoi-flarumstaffbadge' => [
-		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarumstaffbadge/1.2.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ThatKoffe/flarumstaffbadge/1.2.2/resources/locale/en.yml',
 	],
 	'serakoi-hideprofile' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarum-hideprofile/0.0.6/resources/locale/en.yml',
