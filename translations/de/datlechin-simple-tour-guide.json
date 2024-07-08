@@ -3,14 +3,14 @@
         "admin": {
             "settings": {
                 "show_progress_label": "Fortschritt anzeigen",
-                "show_progress_help": "",
-                "allow_close_label": "",
-                "allow_close_help": "",
-                "skip_null_elements_label": "",
-                "skip_null_elements_help": ""
+                "show_progress_help": "Dadurch werden der aktuelle Schritt und die Gesamtzahl der Schritte im oberen Bereich des Popovers angezeigt.",
+                "allow_close_label": "Erlaube das Schließen",
+                "allow_close_help": "Erlaube den Nutzern, das Popover durch Anklicken des Hintergrunds zu schließen.",
+                "skip_null_elements_label": "Null-Elemente überspringen",
+                "skip_null_elements_help": "Überspringt Schritte, deren Ziel keinem HTML-Element entspricht. Du kannst das verwenden, um Sprachen mit 'html[lang=\"es\"] my-selector' anzuvisieren. Dadurch wird auch die Schaltfläche \"Weiter\" ausgeblendet und du solltest den Fortschritt ausblenden."
             },
             "permissions": {
-                "reset_tour_guide": ""
+                "reset_tour_guide": "Einführung zurücksetzen"
             },
             "edit_modal": {
                 "edit_step": "{title} bearbeiten",
@@ -25,7 +25,7 @@
             "description_placeholder": "Die Beschreibung zu diesem Schritt.",
             "target": "Ziel",
             "target_placeholder": "Das hervorgehobene Ziel dieses Schritts (z.B. #element-id).",
-            "trigger_click": "",
+            "trigger_click": "Klick auslösen",
             "yes": "Ja",
             "no": "Nein"
         },
@@ -33,10 +33,10 @@
             "progress_text": "{current} von {total}",
             "next_btn_text": "Weiter",
             "prev_btn_text": "Zurück",
-            "done_btn_text": "",
+            "done_btn_text": "Fertig",
             "user_controls": {
-                "reset_tour_guide": "",
-                "reset_tour_guide_confirmation": ""
+                "reset_tour_guide": "Einführung wiederholen",
+                "reset_tour_guide_confirmation": "Bist du sicher, dass du diesen Benutzer dazu zwingen möchtest die Einführung zu wiederholen?"
             }
         }
     }
