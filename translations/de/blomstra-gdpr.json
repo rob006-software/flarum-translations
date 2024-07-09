@@ -89,26 +89,26 @@
             "request_data": {
                 "title": "Daten für {username} anfordern",
                 "text": "Ein ZIP-Archiv wird für dich vorbereitet. Du erhältst eine Benachrichtigung, mit einem Downloadlink, sobald die Datei fertiggestellt ist. Der Link bleibt für einen Tag gültig.\n",
-                "request_button": ""
+                "request_button": "Archiv anfordern"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
+                "subject": "Bestätige die Anfrage zur Löschung deines Kontos",
                 "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Kontolöschung abgeschlossen",
-                    "body": ""
+                    "body": "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
                 },
                 "anonymization": {
                     "subject": "Anonymisierung des Kontos abgeschlossen",
-                    "body": ""
+                    "body": "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich anonymisiert wurde.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
+                "subject": "Antrag zur Kontolöschung abgebrochen",
                 "body": ""
             },
             "export_available": {
@@ -124,7 +124,7 @@
                 "title": "{username}s Konto löschen",
                 "text": "Bist du sicher das du {username}s Konto löschen möchteat?\n\nDieser Vorgang kann nicht rückgängig gemacht werden.\n",
                 "modal_delete_button": "",
-                "delete_button": ""
+                "delete_button": "Benutzer löschen"
             },
             "erasure_requests": {
                 "empty_text": "Keine ausstehenden Anträge auf Kontolöschung",
@@ -151,7 +151,7 @@
                 "deletion_button": "Benutzer löschen"
             },
             "request_erasure": {
-                "title": "",
+                "title": "Kontolöschung beantragen",
                 "reason": "Du gibst die folgende Begründung an: {reason}",
                 "status": {
                     "awaiting_user_confirmation": "Du solltest eine E-Mail zur Bestätigung deiner Löschanfrage erhalten haben.\n",
@@ -161,7 +161,7 @@
                 "password_label": "Passwort bestätigen",
                 "reason_label": "Begründung (optional)",
                 "cancel_button": "Anfrage abbrechen",
-                "request_button": ""
+                "request_button": "Löschung beantragen"
             },
             "notification": {
                 "export-ready": "Dein Datenexport für {username} ist bereit zum Download."
