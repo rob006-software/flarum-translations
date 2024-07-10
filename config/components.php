@@ -1331,7 +1331,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',
 	],
 	'xypp-store' => [
-		'tag' => 'https://raw.githubusercontent.com/zxy19/store/v0.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zxy19/store/v0.2.4/locale/en.yml',
 	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v0.0.2/locale/en.yml',
