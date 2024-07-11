@@ -1100,6 +1100,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`litalino-country-flags`](https://weblate.rob006.net/projects/flarum/litalino-country-flags) | [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags) |
 | [`litalino-geo-weather-widget`](https://weblate.rob006.net/projects/flarum/litalino-geo-weather-widget) | [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget) |
 | [`litalino-more-bbcode`](https://weblate.rob006.net/projects/flarum/litalino-more-bbcode) | [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode) |
+| [`litalino-related-discussions`](https://weblate.rob006.net/projects/flarum/litalino-related-discussions) | [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions) |
 | [`litalino-top-bar`](https://weblate.rob006.net/projects/flarum/litalino-top-bar) | [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar) |
 | [`littlecxm-reply-to-see`](https://weblate.rob006.net/projects/flarum/littlecxm-reply-to-see) | [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see) |
 | [`madeyedeer-avatar-tools`](https://weblate.rob006.net/projects/flarum/madeyedeer-avatar-tools) | [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools) |
