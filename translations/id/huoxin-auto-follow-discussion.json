@@ -2,13 +2,13 @@
     "huoxin-auto-follow-discussion": {
         "admin": {
             "default-follow-after-create-label": "Nilai default untuk mengikuti diskusi secara otomatis yang dibuat pengguna",
-            "default-follow-after-create-help": "",
-            "default-follow-after-read-label": "",
+            "default-follow-after-create-help": "Default: aktif",
+            "default-follow-after-read-label": "Nilai default untuk mengikuti diskusi secara otomatis yang dibaca pengguna",
             "default-follow-after-read-help": ""
         },
         "forum": {
-            "default-follow-after-create-label": "",
-            "default-follow-after-read-label": ""
+            "default-follow-after-create-label": "Secara otomatis mengikuti diskusi yang Saya buat",
+            "default-follow-after-read-label": "Secara otomatis mengikuti diskusi yang Saya baca"
         }
     }
 }
