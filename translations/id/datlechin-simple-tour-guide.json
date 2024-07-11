@@ -6,11 +6,11 @@
                 "show_progress_help": "Ini akan menunjukkan step saat ini dan total step di bagian atas popover.",
                 "allow_close_label": "Mengizinkan penutupan",
                 "allow_close_help": "Perbolehkan penggguna menutup Popover dengan klik pada latar belakang.",
-                "skip_null_elements_label": "",
-                "skip_null_elements_help": ""
+                "skip_null_elements_label": "Lewati elemen null",
+                "skip_null_elements_help": "Melewati langkah yang targetnya tidak cocok dengan elemen HTML. Anda dapat menggunakan ini untuk menargetkan bahasa dengan 'html[lang=\"es\"] my-selector'. Ini juga menyembunyikan tombol Prev untuk koherensi, dan Anda harus menyembunyikan progress."
             },
             "permissions": {
-                "reset_tour_guide": ""
+                "reset_tour_guide": "Atur ulang pemandu tur"
             },
             "edit_modal": {
                 "edit_step": "Edit {title}",
@@ -26,8 +26,8 @@
             "target": "Sasaran",
             "target_placeholder": "Elemen target dari step tersebut (misal. #elemen-id).",
             "trigger_click": "",
-            "yes": "",
-            "no": ""
+            "yes": "Ya",
+            "no": "Tidak"
         },
         "forum": {
             "progress_text": "{current} dari {total}",
@@ -35,8 +35,8 @@
             "prev_btn_text": "Sebelumnya",
             "done_btn_text": "Selesai",
             "user_controls": {
-                "reset_tour_guide": "",
-                "reset_tour_guide_confirmation": ""
+                "reset_tour_guide": "Mulai tur lagi",
+                "reset_tour_guide_confirmation": "Apakah Anda yakin ingin memaksa pengguna ini untuk memulai tur lagi?"
             }
         }
     }
