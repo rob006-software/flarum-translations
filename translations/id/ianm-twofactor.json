@@ -22,14 +22,14 @@
                 "logo_qr": "Logo pada Kode QR",
                 "logo_qr_help": "Jika logo telah diupload, logo ini akan ditempelkan pada kode QR. Biarkan kosong untuk menggunakan logo forum.",
                 "tokens": {
-                    "heading": "",
-                    "help": "",
-                    "kill_inactive_tokens": "",
-                    "kill_inactive_tokens_help": "",
-                    "kill_inactive_tokens_age_days": "",
-                    "kill_inactive_tokens_age_days_help": "",
-                    "also_kill_developer_tokens": "",
-                    "also_kill_developer_tokens_help": ""
+                    "heading": "Token Akses",
+                    "help": "Untuk keamanan yang lebih baik, Anda dapat mengelola perilaku tambahan di sini yang terkait dengan token akses.",
+                    "kill_inactive_tokens": "Matikan Token yang Tidak Aktif",
+                    "kill_inactive_tokens_help": "Secara otomatis mematikan token akses yang tidak aktif selama jangka waktu tertentu.",
+                    "kill_inactive_tokens_age_days": "Matikan Token Tidak Aktif Setelah (Hari)",
+                    "kill_inactive_tokens_age_days_help": "Jumlah hari tidak aktif setelah token akses akan dihapus.",
+                    "also_kill_developer_tokens": "Juga Matikan Token Pengembang",
+                    "also_kill_developer_tokens_help": "Juga mematikan token akses pengembang yang tidak aktif selama jangka waktu tertentu."
                 }
             }
         },
@@ -59,7 +59,7 @@
                 "ok_button": "Ok",
                 "confirm_disable_2fa_title": "Konfirmasi Menonaktifkan Autentikasi Dua Faktor",
                 "confirm_disable_2fa_text": "Apakah Anda yakin ingin menonaktifkan Autentikasi Dua Faktor?",
-                "confirm_disable_2fa_text_other_user": "",
+                "confirm_disable_2fa_text_other_user": "Apakah Anda yakin ingin menonaktifkan Autentikasi Dua Faktor untuk {username}? Ini akan menghapus semua kode cadangan dan menonaktifkan 2FA untuk akun mereka.",
                 "cannot_disable": "Konfigurasi saat ini menyatakan bahwa Anda tidak dapat menonaktifkan Autentikasi Dua Faktor.",
                 "cannot_disable_tooltip": "Tidak dapat menonaktifkan 2FA",
                 "cancel_button": "Batal",
@@ -75,7 +75,7 @@
         },
         "email": {
             "subject": {
-                "status_changed": ""
+                "status_changed": "Autentikasi Dua Faktor{type} untuk akun Anda"
             },
             "body": {
                 "status_changed": ""
@@ -90,7 +90,7 @@
                 "two_factor_token_label": "Token 2FA"
             },
             "two_factor_token": {
-                "title": "",
+                "title": "Autentikasi Dua Faktor",
                 "submit_button": "Kirim Token"
             }
         }
@@ -99,8 +99,8 @@
         "lib": {
             "data": {
                 "twofactordata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Mengekspor status 2FA dan kode cadangan terenkripsi.",
+                    "delete_description": "Menghapus semua data yang terkait dengan 2FA."
                 }
             }
         }
