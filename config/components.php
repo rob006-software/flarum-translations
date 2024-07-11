@@ -742,6 +742,9 @@ return [
 	'glowingblue-redis-setup' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.2/resources/locale/en.yml',
 	],
+	'googolowo-warnings' => [
+		'tag' => 'https://raw.githubusercontent.com/GoogolOwO/flarum-warnings/v0.6.3/resources/locale/en.yml',
+	],
 	'gtdxyz-login' => [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-login/1.0.2/locale/en.yml',
 	],
