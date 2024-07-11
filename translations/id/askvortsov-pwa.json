@@ -35,7 +35,7 @@
                     "help_text": "Untuk menambahkan dukungan untuk push notification saat menerbitkan aplikasi Anda di Apple App Store, Anda perlu menggunakan Firebase untuk menambahkan push notification ke aplikasi Anda. Buatlah Konfigurasi Layanan Firebase Anda dan upload di sini.",
                     "see_documentation_here": "Lihat dokumentasinya di sini",
                     "upload_successful": "Konfigurasi firebase Anda telah berhasil diunggah",
-                    "upload_file": ""
+                    "upload_file": "Unggah file"
                 },
                 "other": {
                     "heading": "Lainnya",
@@ -44,8 +44,8 @@
                     "push_notif_preference_default_to_email_text": "Jika true, pengguna akan mengaktifkan push notification secara default untuk semua jenis notifikasi di mana notifikasi email diaktifkan secara default. Jika false, pengguna akan menonaktifkan push notification secara default.",
                     "user_max_subscriptions_label": "Maks Push Subscription Per Pengguna",
                     "user_max_subscriptions_text": "Berapa banyak jumlah push subscription yang dapat diterima oleh setiap pengguna dalam satu waktu? Ketika pengguna menerima push notification, setiap subscription akan menghasilkan panggilan API. Setiap subscription biasanya berhubungan dengan browser yang digunakan oleh pengguna.",
-                    "window_controls_overlay_label": "",
-                    "window_controls_overlay_text": ""
+                    "window_controls_overlay_label": "Aktifkan Window Controls Overlay?",
+                    "window_controls_overlay_text": "Jika true, pengguna akan mendapatkan pengalaman yang lebih mendalam, seperti pengalaman asli dengan menyembunyikan native titlebar. Window Controls Overlay diaktifkan atau tidak tergantung pada preferensi pengguna dan kompatibilitas browser. Anda harus menyesuaikan titlebar dengan menambahkan beberapa CSS/JS setelah diaktifkan, atau kontrol akan melapisi beberapa elemen navbar atas forum Anda dan window hampir tidak dapat ditarik, sehingga menghasilkan pengalaman yang buruk.\n\nLihat juga: <compatibilitylink>The compatibility of Window Controls Overlay</compatibilitylink> & <learnlink>About Window Controls Overlay in Microsoft Learn</learnlink>\n"
                 },
                 "heading": "Pengaturan Aplikasi Web Progresif",
                 "text": "Siapkan situs Flarum Anda untuk berjalan sebagai aplikasi web progresif! Harap dicatat bahwa ini tidak secara otomatis menempatkan situs Anda di toko aplikasi. Sebaliknya, ini berarti pengguna memiliki opsi 'Tambahkan ke Layar Utama' untuk situs Anda. Kami menyediakan beberapa pemeriksaan status, namun, cara terbaik untuk mengujinya adalah dengan mencoba dan menginstalnya (cari di google untuk petunjuk tentang cara menginstal aplikasi web progresif). Selain itu, harap diingat bahwa popup 'pasang PWA ini' dikontrol oleh browser, dan tidak dapat dipicu oleh pengembang/admin/program. Saya menyarankan untuk menyertakan petunjuk cara memasang PWA dalam dokumentasi situs Anda.",
