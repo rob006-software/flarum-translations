@@ -3,14 +3,14 @@
         "forum": {
             "account_found": "",
             "log_in_with": "",
-            "log_out": "",
+            "log_out": "=> core.ref.log_out",
             "errors": {
-                "core_csrf_token_mismatch": "",
+                "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
                 "search_filter_is_invalid": "",
                 "not_authenticated": "",
-                "csrf_token_mismatch": "",
+                "csrf_token_mismatch": "Anda sudah terlalu lama tidak aktif, silakan refresh halaman dan coba lagi",
                 "domains": {
-                    "no_domains": "",
+                    "no_domains": "Pengaturan admin tidak memiliki domain yang ditetapkan, ubah pengaturan ekstensi.",
                     "empty_host": "",
                     "empty_base_dn": "",
                     "empty_user_username": "",
@@ -20,9 +20,9 @@
                 },
                 "account": {
                     "invalid_inputs": "",
-                    "not_found": "",
-                    "incorrect_details": "",
-                    "password_expired": "",
+                    "not_found": "Tidak dapat menemukan akun Anda di {server}.",
+                    "incorrect_details": "Password yang dimasukkan salah.",
+                    "password_expired": "Password Anda telah kedaluwarsa.",
                     "disabled": "",
                     "expired": "",
                     "locked": ""
@@ -31,19 +31,19 @@
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Pengaturan LDAP",
                 "method_name": "",
                 "domains": {
-                    "title": "",
-                    "description": "",
+                    "title": "Domain LDAP",
+                    "description": "Masukkan semua domain LDAP yang tersedia untuk digunakan Flarum untuk login",
                     "add": "",
                     "banner": "",
                     "header": {
-                        "server": "",
-                        "admin": "",
-                        "search_fields": "",
-                        "search_fields_description": "",
-                        "flarum": "",
+                        "server": "Pengaturan Server LDAP",
+                        "admin": "Admin LDAP",
+                        "search_fields": "Pencarian Akun LDAP",
+                        "search_fields_description": "Buat daftar field LDAP untuk dibandingkan dengan Username yang diberikan Pengguna.",
+                        "flarum": "Profil Pengguna Flarum",
                         "flarum_description": ""
                     },
                     "data": {
@@ -55,14 +55,14 @@
                         "filter_help": "",
                         "port": "",
                         "port_help": "",
-                        "version": "",
+                        "version": "Versi LDAP",
                         "version_help": "",
                         "follow_referrals": "",
                         "use_ssl": "",
                         "use_tls": "",
                         "admin_dn": "",
                         "admin_dn_help": "",
-                        "admin_password": "",
+                        "admin_password": "Password",
                         "admin_password_help": "",
                         "search_user_fields": "",
                         "search_user_fields_help": "",
@@ -70,7 +70,7 @@
                         "user_mail": "",
                         "user_mail_help": "",
                         "user_nickname_fields": "",
-                        "user_nickname_fields_help": ""
+                        "user_nickname_fields_help": "Ekstensi Nickname harus diaktifkan, kompilasi Nickname dengan beberapa bidang LDAP menggunakan opsi dropdown. Misalnya memilih \"givenname,sn\" akan menetapkan \"[Nama Depan] [Nama Belakang]\" sebagai Nama Panggilan mereka"
                     }
                 },
                 "onlyUse": "",
