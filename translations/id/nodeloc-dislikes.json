@@ -5,32 +5,32 @@
                 "dislike_posts_label": ""
             },
             "settings": {
-                "dislike_own_posts_help": "",
-                "dislike_own_posts_label": ""
+                "dislike_own_posts_help": "Jika diaktifkan, dengan izin, pengguna dapat 'tidak menyukai' post mereka sendiri di forum. Untuk mencegah pengguna menempatkan 'tidak suka' pada post mereka sendiri, nonaktifkan pengaturan ini.",
+                "dislike_own_posts_label": "Pengguna mungkin tidak menyukai post mereka sendiri"
             }
         },
         "forum": {
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_disliked_text": ""
+                "post_disliked_text": "{username} tidak menyukai post Anda"
             },
             "post": {
-                "dislike_link": "",
-                "disliked_by_self_text": "",
-                "disliked_by_text": "",
+                "dislike_link": "Tidak suka",
+                "disliked_by_self_text": "{users} tidak menyukai ini.",
+                "disliked_by_text": "{count, plural, one {{users} tidak menyukai ini} other {{users} tidak menyukai ini}}.",
                 "others_link": "=> core.ref.some_others",
                 "undislike_link": "",
                 "you_text": "=> core.ref.you"
             },
             "post_dislikes": {
-                "title": "",
+                "title": "Pengguna yang Tidak Menyukai Ini",
                 "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
-                "notify_post_disliked_label": ""
+                "notify_post_disliked_label": "Seseorang tidak menyukai salah satu post Saya"
             },
             "user": {
-                "dislikes_link": ""
+                "dislikes_link": "Tidak suka"
             }
         }
     }
