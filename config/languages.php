@@ -171,6 +171,7 @@ return [
 		'!litalino-country-flags',
 		'!litalino-geo-weather-widget',
 		'!litalino-more-bbcode',
+		'!litalino-related-discussions',
 		'!xelson-chat',
 	]),
 	'zh_Hans' => getComponents([
