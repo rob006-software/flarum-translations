@@ -24,10 +24,10 @@
             "public_lottery": "",
             "max_votes_allowed": "",
             "widget-title": "",
-            "days": "",
-            "hours": "",
-            "minutes": "",
-            "seconds": "",
+            "days": "Hari",
+            "hours": "Jam",
+            "minutes": "Menit",
+            "seconds": "Detik",
             "endDateText": "",
             "hurry_up": "",
             "had_enter": "",
@@ -38,7 +38,7 @@
             },
             "composer_discussion": {
                 "add_lottery": "=> nodeloc-lottery.forum.moderation.add",
-                "edit_lottery": "",
+                "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
                 "no_permission_alert": "",
                 "in_queue_alert": ""
             },
@@ -77,7 +77,7 @@
                 "moderator_strikes": "",
                 "money": "",
                 "lotteries_made": "",
-                "not_enough": ""
+                "not_enough": "Tidak cukup"
             },
             "moderation": {
                 "add": "",
@@ -90,7 +90,7 @@
                 "votes": ""
             },
             "participants_modal": {
-                "title": ""
+                "title": "Partisipan"
             }
         },
         "email": {
