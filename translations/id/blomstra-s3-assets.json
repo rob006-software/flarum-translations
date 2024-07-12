@@ -8,7 +8,7 @@
                 "s3-compatible-section-help": "Biarkan pengaturan ini kosong jika menggunakan AWS S3",
                 "s3key": {
                     "label": "Key",
-                    "help": "bantuan"
+                    "help": "Kunci akses S3"
                 },
                 "s3secret": {
                     "label": "",
@@ -19,24 +19,24 @@
                     "help": ""
                 },
                 "s3bucket": {
-                    "label": "",
-                    "help": ""
+                    "label": "Bucket",
+                    "help": "Bucket S3"
                 },
                 "s3acl": {
-                    "label": "",
-                    "help": ""
+                    "label": "ACL",
+                    "help": "Tentukan ACL untuk bucket ini"
                 },
                 "s3url": {
-                    "label": "",
-                    "help": ""
+                    "label": "URL",
+                    "help": "URL S3"
                 },
                 "s3endpoint": {
-                    "label": "",
-                    "help": ""
+                    "label": "Endpoint",
+                    "help": "Endpoint S3"
                 },
                 "s3path-style-endpoint": {
                     "label": "",
-                    "help": ""
+                    "help": "Beralih ke path style storage"
                 }
             }
         }
