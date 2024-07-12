@@ -7,11 +7,11 @@
                 "data_types": {
                     "title": "Tipe Data",
                     "help_text": "Ini adalah tipe data yang saat ini terdaftar. Setiap tipe terdaftar bersama dengan tindakan ekspor, anonimisasi, dan penghapusan data yang terkait. Jika sebuah ekstensi menangani data apa pun yang termasuk dalam peraturan GDPR, ekstensi tersebut harus mendaftarkan tipe datanya ke <code>blomstra/gdpr</code>. \nData yang disimpan di tabel pengguna ditangani secara terpisah, lihat data tabel <code>user</code> di bawah ini.\n",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "type": "Tipe",
+                    "export_description": "Tindakan Ekspor",
+                    "anonymize_description": "Tindakan Anonimisasi",
+                    "delete_description": "Tindakan Penghapusan",
+                    "extension": "Ekstensi"
                 },
                 "settings": {
                     "heading": "Pengaturan GDPR",
@@ -52,7 +52,7 @@
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "title": "",
+                        "title": "Tindakan GDPR",
                         "export": "Ekspor data untuk {username}"
                     }
                 }
@@ -95,7 +95,7 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Konfirmasi permintaan penghapusan akun Anda",
-                "body": ""
+                "body": "Hai {display_name}!\n\nSeseorang (semoga Anda) baru saja meminta untuk menghapus akun `{display_name}`.\n\nUntuk mengonfirmasi tindakan ini, silakan ikuti link berikut, setelah itu permintaan Anda akan diproses oleh tim kami.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
@@ -109,10 +109,10 @@
             },
             "erasure_cancelled": {
                 "subject": "Permintaan penghapusan akun dibatalkan",
-                "body": ""
+                "body": "Hai {display_name}!\n\nIni adalah notifikasi otomatis bahwa permintaan Anda untuk membatalkan penghapusan akun telah diproses.\n\nAkun Anda tidak akan dihapus.\n"
             },
             "export_available": {
-                "subject": "",
+                "subject": "Ekspor data tersedia",
                 "body": "Hai {display_name}!\n\nAnda meminta ekspor data akun untuk {username}. Ekspor ini telah berhasil dibuat dan sekarang tersedia:\n\n{url}\n\nEkspor ini akan tetap tersedia hingga {destroys_at}.\n"
             }
         },
@@ -135,7 +135,7 @@
             "erasure_request_confirmed": "Anda telah mengonfirmasi permintaan penghapusan akun Anda. Tindakan akan dilakukan dalam waktu 30 hari, seperti yang disyaratkan oleh GDPR.",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Data personal"
                 },
                 "export_data_button": "Ekspor Data",
                 "export_data_help": "Meminta ekspor data akan memberi Anda salinan yang dapat di-download dari semua informasi yang terkait dengan akun Anda. Ini termasuk postingan, komentar, dan detail profil.",
@@ -146,7 +146,7 @@
                 "confirm": "Apakah Anda yakin ingin menghapus akun {name} dalam mode {mode}?",
                 "title": "Proses permintaan penghapusan",
                 "text": "{name} telah meminta penghapusan akun.",
-                "comments_label": "",
+                "comments_label": "Komentar (opsional)",
                 "anonymization_button": "Anonimkan pengguna",
                 "deletion_button": "Hapus pengguna"
             },
@@ -158,10 +158,10 @@
                     "user_confirmed": "Anda telah mengonfirmasi permintaan penghapusan akun Anda. Tindakan akan dilakukan dalam waktu 30 hari, seperti yang disyaratkan oleh GDPR.\n"
                 },
                 "text": "Setelah diterima dan dikonfirmasi, admin akan meninjau permintaan Anda dalam waktu 30 hari, seperti yang disyaratkan oleh GDPR.",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "password_label": "Konfirmasi Password",
+                "reason_label": "Alasan (opsional)",
+                "cancel_button": "Batalkan permintaan",
+                "request_button": "Meminta penghapusan"
             },
             "notification": {
                 "export-ready": "Ekspor data Anda untuk {username} sekarang siap untuk di-download."
