@@ -24,8 +24,8 @@
                     "incorrect_details": "Password yang dimasukkan salah.",
                     "password_expired": "Password Anda telah kedaluwarsa.",
                     "disabled": "",
-                    "expired": "",
-                    "locked": ""
+                    "expired": "Akun Anda telah kedaluwarsa, hubungi administrasi {server} Anda.",
+                    "locked": "Akun Anda terkunci, hubungi administrasi {server} Anda."
                 }
             }
         },
@@ -47,14 +47,14 @@
                         "flarum_description": "Ketika akun LDAP telah ditemukan, Anda dapat menetapkan kolom yang sesuai ke Profil Pengguna Flarum saat pendaftaran."
                     },
                     "data": {
-                        "host": "",
+                        "host": "Domain atau alamat IP server",
                         "host_help": "",
                         "base_dn": "",
                         "base_dn_help": "",
                         "filter": "",
                         "filter_help": "",
-                        "port": "",
-                        "port_help": "",
+                        "port": "Port",
+                        "port_help": "Bukan SSL (Port 389) atau SSL (Port 636).",
                         "version": "Versi LDAP",
                         "version_help": "Hanya dapat ditetapkan ke 2 atau 3 (3 adalah default).",
                         "follow_referrals": "",
@@ -64,17 +64,17 @@
                         "admin_dn_help": "",
                         "admin_password": "Password",
                         "admin_password_help": "",
-                        "search_user_fields": "",
-                        "search_user_fields_help": "",
+                        "search_user_fields": "Kolom pencarian",
+                        "search_user_fields_help": "Pilih beberapa kolom pencarian menggunakan opsi dropdown, misalnya memilih \"mail\" hanya akan mengizinkan email, sementara \"uid,mail\" akan mengizinkan email atau username.",
                         "user_username": "",
                         "user_mail": "",
-                        "user_mail_help": "",
+                        "user_mail_help": "Biarkan kosong untuk mengizinkan Pengguna mengatur email mereka sendiri saat pendaftaran",
                         "user_nickname_fields": "",
                         "user_nickname_fields_help": "Ekstensi Nickname harus diaktifkan, kompilasi Nickname dengan beberapa bidang LDAP menggunakan opsi dropdown. Misalnya memilih \"givenname,sn\" akan menetapkan \"[Nama Depan] [Nama Belakang]\" sebagai Nama Panggilan mereka"
                     }
                 },
-                "onlyUse": "",
-                "display_detailed_error": ""
+                "onlyUse": "Sembunyikan metode login standar Flarum",
+                "display_detailed_error": "Tampilkan kesalahan LDAP terperinci untuk upaya login yang gagal"
             }
         }
     }
