@@ -5,11 +5,11 @@
                 "refresh-translation": "Memaksa penerjemahan ulang dari terjemahan yang di-cache",
                 "translate-to-locale": "Menampilkan terjemahan dalam bahasa saat ini",
                 "translate-to-all-locales": "Menampilkan terjemahan dalam semua bahasa forum",
-                "edit-translation": ""
+                "edit-translation": "Edit terjemahan secara manual"
             },
             "settings": {
                 "seemless": "",
-                "seemless-help": "",
+                "seemless-help": "Fitur beta. Ketika diaktifkan, semua konten pengguna akan diterjemahkan secara otomatis ke semua bahasa forum yang tersedia. Ketika pengguna melihat konten multi-bahasa, terjemahan akan ditampilkan secara otomatis.",
                 "deepl": {
                     "api_key": {
                         "help": "Daftar di {link}. Driver akan secara otomatis mendeteksi jenis key free/pro.",
@@ -41,19 +41,19 @@
                 },
                 "libre": {
                     "url": {
-                        "help": "",
-                        "label": ""
+                        "help": "URL server LibreTranslate. Jika Anda menjalankan contoh Anda sendiri, masukkan URL di sini. Skema harus berupa `http` atau `https`.",
+                        "label": "URL Server"
                     },
                     "port": {
-                        "help": "",
-                        "label": ""
+                        "help": "Port dari server LibreTranslate. Jika Anda menjalankan instance Anda sendiri, masukkan port di sini.",
+                        "label": "Port Server"
                     },
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "(opsional) Jika server LibreTranslate Anda memerlukan API key, masukkan di sini.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "translate-all-enabled": "Aktifkan semua bahasa terjemahan",
+                "translate-all-enabled": "Aktifkan semua terjemahan bahasa",
                 "translate-all-help": "Jika diaktifkan, pengguna admin dan orang lain yang memiliki izin dapat menerjemahkan konten ke bahasa forum yang diinstal.",
                 "bind-browser-language": "Tambahkan bahasa browser",
                 "bind-browser-language-help": "Ketika diaktifkan, bahasa browser pengguna akan ditambahkan ke daftar bahasa yang tersedia untuk diterjemahkan.",
@@ -68,19 +68,19 @@
         },
         "forum": {
             "composer": {
-                "multi-languages": ""
+                "multi-languages": "Petunjuk: Anda dapat mengetikkan pilihan bahasa Anda, forum akan menerjemahkannya untuk Anda."
             },
             "unknown-language": "[tidak terdeteksi]",
             "detected-language": "Post ini dalam bahasa {postLang}",
             "translate-button-label": "Terjemahan",
             "refresh-translation": "",
             "original-content": {
-                "title": "",
-                "view": ""
+                "title": "Konten original",
+                "view": "Lihat konten original"
             },
             "manage-translations": {
-                "translations-label": "",
-                "button-label": "",
+                "translations-label": "Terjemahan",
+                "button-label": "Kelola terjemahan",
                 "poll": {
                     "image-alt": "",
                     "option": "",
@@ -89,7 +89,7 @@
                     "title": "",
                     "question": ""
                 },
-                "save-changes": ""
+                "save-changes": "=> core.ref.save_changes"
             },
             "discussion": {
                 "post": {
