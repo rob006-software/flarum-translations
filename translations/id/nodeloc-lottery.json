@@ -2,10 +2,10 @@
     "nodeloc-lottery": {
         "admin": {
             "settings": {
-                "allow_option_image": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": ""
+                "allow_option_image": "Izinkan URL gambar disediakan untuk setiap opsi undian",
+                "max_options": "Jumlah maksimum opsi per undian",
+                "options_color_blend": "Perpaduan warna teks dalam opsi undian",
+                "options_color_blend_help": "Gunakan ini untuk menggunakan pencampuran warna agar opsi undian lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan."
             },
             "permissions": {
                 "view_results_without_Enter": "",
@@ -28,29 +28,29 @@
             "hours": "Jam",
             "minutes": "Menit",
             "seconds": "Detik",
-            "endDateText": "",
-            "hurry_up": "",
-            "had_enter": "",
-            "too_many_participants": "",
+            "endDateText": "Undian telah berakhir!",
+            "hurry_up": "\"Event\" yang baru sudah dekat !! Kita mulai...",
+            "had_enter": "Anda telah memasuki undian.",
+            "too_many_participants": "Terlalu banyak peserta",
             "lottery": {
-                "cannot_cancel_lottery": "",
-                "submit_button": ""
+                "cannot_cancel_lottery": "Pengguna tidak dapat membatalkan partisipasi",
+                "submit_button": "Klik untuk berpartisipasi"
             },
             "composer_discussion": {
                 "add_lottery": "=> nodeloc-lottery.forum.moderation.add",
                 "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
-                "no_permission_alert": "",
-                "in_queue_alert": ""
+                "no_permission_alert": "Anda tidak memiliki izin untuk memulai undian.",
+                "in_queue_alert": "Anda telah mengikuti undian."
             },
             "modal": {
-                "add_title": "",
-                "lottery_placeholder": "",
-                "price": "",
-                "amount": "",
-                "min_participants": "",
-                "max_participants": "",
+                "add_title": "Menambahkan undian",
+                "lottery_placeholder": "Hadiah",
+                "price": "Harga",
+                "amount": "Jumlah",
+                "min_participants": "Jumlah minimal peserta",
+                "max_participants": "Jumlah maksimal peserta",
                 "add_option_label": "",
-                "date_placeholder": "",
+                "date_placeholder": "Waktu Pengundian",
                 "edit_title": "",
                 "include_prizes": "",
                 "include_price": "",
@@ -64,8 +64,8 @@
                 "options_label": "",
                 "public_lottery_label": "",
                 "allow_multiple_votes_label": "",
-                "participants_label": "",
-                "participants_help": "",
+                "participants_label": "Peserta",
+                "participants_help": "Batalkan jika terlalu sedikit jumlah peserta, dan batalkan partisipasi jika melebihi jumlah maksimum...",
                 "hide_votes_label": "",
                 "allow_cancel_enter_label": "",
                 "submit": "",
@@ -80,22 +80,22 @@
                 "not_enough": "Tidak cukup"
             },
             "moderation": {
-                "add": "",
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "add": "Tambahkan undian",
+                "delete": "Hapus undian",
+                "delete_confirm": "Apakah Anda yakin ingin menghapus undian ini?",
+                "edit": "Edit undian"
             },
             "tooltip": {
-                "badge": "",
+                "badge": "undian",
                 "votes": ""
             },
             "participants_modal": {
-                "title": "Partisipan"
+                "title": "Peserta"
             }
         },
         "email": {
             "subject": {
-                "drawLottery": ""
+                "drawLottery": "Notifikasi pengambilan undian"
             }
         }
     }
