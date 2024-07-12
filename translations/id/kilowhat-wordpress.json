@@ -3,33 +3,33 @@
         "admin": {
             "settings": {
                 "section_general_intro": "Pengaturan dasar yang dibutuhkan agar ekstensi dapat berfungsi.",
-                "api_key": "Flarum API Key",
-                "api_key_reset": "",
-                "api_key_reset_confirm": "",
+                "api_key": "API Key Bersama",
+                "api_key_reset": "Hasilkan API Key baru",
+                "api_key_reset_confirm": "Apakah Anda benar-benar ingin membuat API Key Bersama yang baru? Yang lama akan berhenti berfungsi dan harus diperbarui secara manual di pengaturan plugin WordPress.\n",
                 "wordpress_url": "URL WordPress",
-                "default_actor": "",
-                "default_actor_placeholder_invalid": "",
-                "default_actor_placeholder_search": "",
-                "default_actor_help": "",
-                "report_http_errors": "",
-                "report_http_errors_help": "",
+                "default_actor": "Pelaksana Default",
+                "default_actor_placeholder_invalid": "Kemungkinan value yang tidak valid: {value} - Ketik untuk mencari pengguna...",
+                "default_actor_placeholder_search": "Ketik untuk mencari pengguna...",
+                "default_actor_help": "Pengguna Flarum ini akan ditugaskan sebagai pelaksana dari semua tindakan penangguhan, penguncian, dan penghapusan. Pengguna ini juga akan digunakan sebagai pemilik diskusi dan post kecuali jika \"Tetapkan penulis diskusi dari SSO\" diaktifkan.\n",
+                "report_http_errors": "Kirim error HTTP REST API WordPress ke Flarum reporter yang telah dikonfigurasi",
+                "report_http_errors_help": "Apa pun value dari pengaturan ini, request akan selalu dicatat sebagai teks ke logger default. Opsi ini berguna jika Anda ingin error API dikirimkan ke Sentry atau alat pemantauan lainnya sebagai exception dengan stack traces.\n",
                 "section_sso_intro": "Fitur ini akan menghubungkan pengguna WordPress dengan Flarum secara mulus. Sebuah akun akan secara otomatis dibuat untuk mereka dan disinkronkan dengan WordPress. Jika Anda memiliki akun yang sudah ada di Flarum, akun tersebut akan secara otomatis dicocokkan dengan email mereka. Jika Anda menghapus pengguna di Flarum, pengguna tersebut akan dibuat lagi saat akun WordPress melakukan login. Untuk memblokir pengguna Flarum, tangguhkan akun di Flarum.\n",
                 "enable_sso": "Aktifkan integrasi SSO",
-                "login_method": "",
-                "login_method_help": "",
+                "login_method": "Mekanisme Login Global",
+                "login_method_help": "\"Cookie\" hanya berfungsi jika WordPress dan Flarum berbagi top level domain. \"Pengalihan\" akan menyebabkan pengalihan setelah setiap login dari WordPress meskipun pengguna tidak berniat mengunjungi forum. \"Iframe Tersembunyi\" hanya akan terhubung ketika mengunjungi Flarum, menyebabkan refresh halaman pada loading halaman pertama. Dikombinasikan dengan \"Penundaan Iframe\" di bawah ini, ini dapat digunakan untuk hanya login sesuai permintaan.\n",
                 "login_method_options": {
-                    "cookie": "",
-                    "redirect": "",
-                    "iframe": ""
+                    "cookie": "Cookie",
+                    "redirect": "Pengalihan",
+                    "iframe": "Iframe Tersembunyi"
                 },
                 "cookie_domain": "Domain Cookie",
                 "cookie_domain_help": "Hanya diperlukan jika berbeda dari domain Flarum",
-                "iframe_redirect_delay": "",
-                "iframe_redirect_delay_help": "",
-                "wordpress_login_path": "",
+                "iframe_redirect_delay": "Penundaan Pengalihan Iframe (milidetik)",
+                "iframe_redirect_delay_help": "Pengaturan ini hanya digunakan ketika menggunakan mekanisme login \"Iframe Tersembunyi\". Berapa lama setelah halaman Flarum dimuat, ekstensi masih akan mencoba login dan refresh halaman tanpa interaksi pengguna. Jika diperlukan waktu lebih lama dari nilai ini untuk mendapatkan jawaban dari WordPress, pengguna hanya akan mendapatkan saran untuk login dan refresh. Atur ke nol untuk selalu menyarankan login kepada pengguna alih-alih refresh secara otomatis.\n",
+                "wordpress_login_path": "Path login WordPress",
                 "wordpress_login_path_help": "Hanya diperlukan jika Anda mengganti nama login endpoint secara manual atau melalui plugin",
-                "wordpress_login_full_page": "",
-                "wordpress_login_full_page_help": "",
+                "wordpress_login_full_page": "Buka login WordPress sebagai halaman, bukan popup",
+                "wordpress_login_full_page_help": "Secara default, mengklik link login dari Flarum akan membuka halaman login WordPress dalam bentuk popup, seperti metode OAuth lainnya. Ketika pengaturan ini diaktifkan, tab browser saat ini akan menavigasi ke halaman login WordPress dan mengarahkan ke Flarum sesudahnya.\n",
                 "username_strategy": "Username untuk pengguna baru",
                 "username_strategy_options": {
                     "user_login": "Username dari WordPress",
@@ -50,8 +50,8 @@
                     "suspend": "Tangguhkan pengguna Flarum tanpa batas waktu (Ekstensi Suspend harus diaktifkan)"
                 },
                 "user_delete_desc": "Jika Anda memilih \"hapus\", hanya pengguna yang akan dihapus, bukan konten mereka di Flarum.",
-                "role_group_sync": "",
-                "role_group_sync_help": "",
+                "role_group_sync": "Role untuk Sinkronisasi Grup",
+                "role_group_sync_help": "Grup yang dipilih di sini akan secara otomatis ditambahkan ke dan dihapus dari pengguna oleh ekstensi, jadi sebaiknya gunakan grup Flarum khusus yang tidak pernah Anda tetapkan secara manual dan tidak dikelola oleh ekstensi lain. Anda mungkin sebaiknya tidak menetapkan grup admin dengan cara ini, baik untuk alasan keamanan maupun untuk memastikan Anda tidak terkunci secara tidak sengaja. Anda bisa menetapkan beberapa grup ke sebuah role dan sebuah grup bisa dipetakan ke lebih dari satu role. Anda dapat membuat grup Flarum tambahan di halaman <a></a>Perizinan Flarum<a>.\n",
                 "section_comments_intro": "Fitur ini menggantikan komentar WordPress dengan iframe Flarum. Postingan dari tamu tidak lagi dapat dilakukan. Diskusi hanya dibuat untuk post dengan komentar yang diaktifkan di WordPress. Mengaktifkan atau menonaktifkan komentar disinkronkan dengan Flarum's discussion lock. Jika blog Anda sudah berisi postingan ketika Anda mengaktifkan fitur ini, Anda perlu mengaktifkan dan menonaktifkan komentar lagi pada setiap artikel agar diskusi Flarum dapat dibuat.\n",
                 "enable_comments": "Aktifkan integrasi komentar",
                 "excerpt_html_whitelist": "Daftar putih tag HTML yang akan disimpan di dalam kutipan (dipisahkan dengan koma)",
@@ -98,7 +98,7 @@
             },
             "edit_css": {
                 "title": "Edit CSS Sematan Khusus",
-                "customize_text": ""
+                "customize_text": "LESS/CSS Anda sendiri untuk diterapkan di atas <a>default styles</a> Flarum di dalam iframe WordPress saja."
             },
             "permissions": {
                 "gambits": ""
@@ -129,7 +129,7 @@
             },
             "role-group-sync": {
                 "head": {
-                    "role": "",
+                    "role": "Role WordPress",
                     "group": ""
                 },
                 "choose": {
@@ -137,14 +137,14 @@
                     "group": ""
                 },
                 "custom": {
-                    "role": "",
-                    "group": ""
+                    "role": "Khusus...",
+                    "group": "Khusus..."
                 },
-                "selected-custom-group": "",
+                "selected-custom-group": "Khusus",
                 "delete": "",
                 "role-loader": {
-                    "loading": "",
-                    "error": ""
+                    "loading": "Memuat role dari WordPress...",
+                    "error": "Ada masalah saat memuat daftar role dari WordPress. Anda masih dapat memasukkan nama role secara manual."
                 }
             }
         },
@@ -157,11 +157,11 @@
                 "not_now": "Lewati dan baca sebagai tamu untuk saat ini"
             },
             "instant-login": {
-                "welcome_known_user": "",
-                "welcome_unknown_user": "",
-                "avatar_alt_text": "",
-                "message": "",
-                "button": ""
+                "welcome_known_user": "Selamat datang kembali, {avatar} <strong>{name}</strong>!",
+                "welcome_unknown_user": "Selamat datang kembali!",
+                "avatar_alt_text": "Avatar WordPress",
+                "message": "Anda dapat menggunakan forum dengan akun situs web utama Anda",
+                "button": "Login sekarang & refresh"
             },
             "edit-user-modal": {
                 "warning": "Pengguna ini akan tetap tersinkronisasi dengan WordPress. Anda harus mengedit email dan password dari WordPress.\n",
@@ -177,7 +177,7 @@
                 "with_wordpress_button": "Login dengan WordPress"
             },
             "summary-post": {
-                "head_label": "",
+                "head_label": "Post WordPress",
                 "blog_link": "Baca di blog",
                 "read_more": "Baca lebih lanjut"
             },
@@ -203,17 +203,17 @@
                 "login-only-signup-open": "Anda perlu menonaktifkan Pendaftaran di bawah izin Flarum agar pengaturan \"Hanya izinkan login dengan WordPress\" dapat sepenuhnya diterapkan",
                 "role-group-sync-syntax": "",
                 "role-group-sync-incomplete": "",
-                "role-group-sync-invalid-group": "",
-                "role-group-sync-invalid-role": "",
+                "role-group-sync-invalid-group": "ID grup Flarum yang dipilih tidak valid untuk sinkronisasi role ke grup: {id}",
+                "role-group-sync-invalid-role": "Role WordPress yang dipilih untuk sinkronisasi role ke grup tidak valid: {role}",
                 "lock-extension-required": "Ekstensi Lock harus diaktifkan untuk menggunakan integrasi Komentar",
                 "tags-extension-required": "",
                 "tag-not-exist": "",
                 "debug-mode": "Mode debug Flarum diaktifkan. Nonaktifkan setelah Anda selesai melakukan debug",
                 "config-url-trailing-slash": "URL Flarum yang didefinisikan di config.php tidak boleh memiliki garis miring (nilai saat ini: \"{url}\")",
                 "config-url-https": "URL Flarum yang didefinisikan di config.php haruslah HTTPS (nilai saat ini: \"{url}\")",
-                "default-actor-not-set": "",
-                "default-actor-not-found": "",
-                "api-key-missing": "",
+                "default-actor-not-set": "Pengaturan \"Pelaksa Default\" harus diisi",
+                "default-actor-not-found": "Pengaturan \"Pelaksa Default\" tidak merujuk pada pengguna yang valid",
+                "api-key-missing": "\"API Key Flarum\" tidak ada. Coba refresh panel admin dan periksa file log untuk kemungkinan adanya error",
                 "wordpress-url-missing": "Pengaturan \"URL WordPress\" harus diisi",
                 "wordpress-url-invalid": "Pengaturan \"URL WordPress\" tampaknya bukan merupakan URL yang valid (nilai saat ini: \"{url}\")",
                 "wordpress-url-index-php": "Pengaturan \"URL WordPress\" tidak boleh menyertakan \"/index.php\" (nilai saat ini: \"{url}\")",
