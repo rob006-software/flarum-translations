@@ -42,9 +42,9 @@
                         "server": "Pengaturan Server LDAP",
                         "admin": "Admin LDAP",
                         "search_fields": "Pencarian Akun LDAP",
-                        "search_fields_description": "Buat daftar field LDAP untuk dibandingkan dengan Username yang diberikan Pengguna.",
+                        "search_fields_description": "Buat daftar kolom LDAP untuk dibandingkan dengan Username yang diberikan Pengguna.",
                         "flarum": "Profil Pengguna Flarum",
-                        "flarum_description": ""
+                        "flarum_description": "Ketika akun LDAP telah ditemukan, Anda dapat menetapkan kolom yang sesuai ke Profil Pengguna Flarum saat pendaftaran."
                     },
                     "data": {
                         "host": "",
@@ -58,8 +58,8 @@
                         "version": "Versi LDAP",
                         "version_help": "",
                         "follow_referrals": "",
-                        "use_ssl": "",
-                        "use_tls": "",
+                        "use_ssl": "Gunakan SSL",
+                        "use_tls": "Gunakan TLS",
                         "admin_dn": "",
                         "admin_dn_help": "",
                         "admin_password": "Password",
