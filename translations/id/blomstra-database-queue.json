@@ -3,15 +3,15 @@
         "admin": {
             "settings": {
                 "backoff_label": "",
-                "backoff_help": "Jumlah detik untuk menunggu sebelum mencoba kembali job yang mengalami exception yang tidak tertangkap.\n",
+                "backoff_help": "Jumlah detik untuk menunggu sebelum mencoba kembali job yang mendapatkan exception yang tidak tertangkap.\n",
                 "memory_label": "",
                 "memory_help": "Batas memori dalam megabyte.\n",
                 "rest_label": "",
-                "rest_help": "",
+                "rest_help": "Jumlah detik untuk beristirahat di antara job.\n",
                 "retries_label": "",
-                "retries_help": "",
+                "retries_help": "Jumlah percobaan job sebelum gagal dicatat.\n",
                 "timeout_label": "",
-                "timeout_help": ""
+                "timeout_help": "Jumlah detik child process dapat berjalan.\n"
             },
             "stats": {
                 "auto_refresh": "Penyegaran Otomatis",
@@ -19,8 +19,8 @@
                 "refresh": "Segarkan",
                 "data": {
                     "queue-name": "Antrian",
-                    "pending-jobs": "Pekerjaan Tertunda",
-                    "failed-jobs": "Pekerjaan Gagal",
+                    "pending-jobs": "Job Tertunda",
+                    "failed-jobs": "Job Gagal",
                     "status": {
                         "label": "Status",
                         "running": "Berjalan",
