@@ -19,11 +19,11 @@
                     "mail_field_does_not_exist": ""
                 },
                 "account": {
-                    "invalid_inputs": "",
+                    "invalid_inputs": "Kolom input tidak boleh kosong",
                     "not_found": "Tidak dapat menemukan akun Anda di {server}.",
                     "incorrect_details": "Password yang dimasukkan salah.",
                     "password_expired": "Password Anda telah kedaluwarsa.",
-                    "disabled": "",
+                    "disabled": "Akun Anda dinonaktifkan, hubungi administrasi {server} Anda.",
                     "expired": "Akun Anda telah kedaluwarsa, hubungi administrasi {server} Anda.",
                     "locked": "Akun Anda terkunci, hubungi administrasi {server} Anda."
                 }
@@ -61,9 +61,9 @@
                         "use_ssl": "Gunakan SSL",
                         "use_tls": "Gunakan TLS",
                         "admin_dn": "",
-                        "admin_dn_help": "",
+                        "admin_dn_help": "Biarkan kosong untuk pengikatan anonim",
                         "admin_password": "Password",
-                        "admin_password_help": "",
+                        "admin_password_help": "Biarkan kosong untuk pengikatan anonim",
                         "search_user_fields": "Kolom pencarian",
                         "search_user_fields_help": "Pilih beberapa kolom pencarian menggunakan opsi dropdown, misalnya memilih \"mail\" hanya akan mengizinkan email, sementara \"uid,mail\" akan mengizinkan email atau username.",
                         "user_username": "",
