@@ -29,7 +29,7 @@
             "permissions": {
                 "process_erasure": "Memproses permintaan penghapusan",
                 "process_export_for_others": "Meminta dan menerima ekspor data untuk pengguna lain",
-                "see_anonymized_user_badges": ""
+                "see_anonymized_user_badges": "Lihat badge pengguna yang dianonimkan"
             },
             "settings": {
                 "allow_anonymization": "Izinkan anonimisasi untuk permintaan penghapusan",
@@ -53,7 +53,7 @@
                 "columns": {
                     "gdpr_actions": {
                         "title": "",
-                        "export": ""
+                        "export": "Ekspor data untuk {username}"
                     }
                 }
             }
@@ -94,35 +94,35 @@
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
+                "subject": "Konfirmasi permintaan penghapusan akun Anda",
                 "body": ""
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Penghapusan akun selesai",
+                    "body": "Hai {display_name}!\n\nIni merupakan notifikasi akhir otomatis bahwa akun Anda telah dihapus.\n"
                 },
                 "anonymization": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Anonimisasi akun selesai",
+                    "body": "Hai {display_name}!\n\nIni merupakan notifikasi akhir otomatis bahwa akun Anda telah dianonimkan.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
+                "subject": "Permintaan penghapusan akun dibatalkan",
                 "body": ""
             },
             "export_available": {
                 "subject": "",
-                "body": ""
+                "body": "Hai {display_name}!\n\nAnda meminta ekspor data akun untuk {username}. Ekspor ini telah berhasil dibuat dan sekarang tersedia:\n\n{url}\n\nEkspor ini akan tetap tersedia hingga {destroys_at}.\n"
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Pengguna Anonim"
             },
             "delete_user": {
-                "title": "",
-                "text": "",
+                "title": "Menghapus akun {username}",
+                "text": "Apakah Anda yakin ingin menghapus akun {username}?\n\nTindakan ini tidak dapat dibatalkan.\n",
                 "modal_delete_button": "Menghapus dengan menggunakan tindakan default",
                 "delete_button": "Hapus"
             },
@@ -144,11 +144,11 @@
             },
             "process_erasure": {
                 "confirm": "Apakah Anda yakin ingin menghapus akun {name} dalam mode {mode}?",
-                "title": "",
-                "text": "",
+                "title": "Proses permintaan penghapusan",
+                "text": "{name} telah meminta penghapusan akun.",
                 "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "anonymization_button": "Anonimkan pengguna",
+                "deletion_button": "Hapus pengguna"
             },
             "request_erasure": {
                 "title": "Meminta penghapusan akun",
