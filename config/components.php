@@ -1339,6 +1339,9 @@ return [
 	'xsoft-ict-mason-tag' => [
 		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',
 	],
+	'xypp-store-auto-checkin' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-store-auto-checkin/v1.0.0/locale/en.yml',
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v0.0.2/locale/en.yml',
 	],
