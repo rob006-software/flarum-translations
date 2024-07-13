@@ -2,50 +2,50 @@
     "ffans-geetest": {
         "admin": {
             "settings": {
-                "product_service_label": "",
-                "product_service_help_text": "",
-                "product_service_v4_label": "",
-                "product_service_v3_label": "",
-                "context_event_label": "",
-                "context_event_help_text": "",
-                "context_event_login_label": "",
-                "context_event_signup_label": "",
-                "context_event_forgot_label": "",
+                "product_service_label": "Produk CAPTCHA",
+                "product_service_help_text": "Versi GeeTest CAPTCHA yang akan Anda gunakan.",
+                "product_service_v4_label": "Adaptive CAPTCHA (v4)",
+                "product_service_v3_label": "CAPTCHA (v3)",
+                "context_event_label": "Context Event",
+                "context_event_help_text": "Aktifkan untuk menggunakan GeeTest CAPTCHA ke dalam context event atau business type yang berbeda, Anda dapat mengatur konfigurasi mandiri untuk setiap context.",
+                "context_event_login_label": "=> core.ref.log_in",
+                "context_event_signup_label": "=> core.ref.sign_up",
+                "context_event_forgot_label": "=> core.forum.forgot_password.title",
                 "config": {
-                    "title": "",
-                    "standalone_label": "",
-                    "standalone_help_text": "",
-                    "product_label": "",
-                    "product_help_text": "",
-                    "product_float_label": "",
-                    "product_float_help_text": "",
-                    "product_popup_label": "",
-                    "product_popup_help_text": "",
-                    "product_bind_label": "",
-                    "product_bind_help_text": "",
-                    "product_learn_more_link": "",
-                    "id_label": "",
-                    "id_help_text": "",
-                    "key_label": "",
-                    "key_help_text": ""
+                    "title": "Konfigurasi untuk {context}",
+                    "standalone_label": "Mandiri",
+                    "standalone_help_text": "Aktifkan untuk menggunakan konfigurasi mandiri untuk skenario ini.",
+                    "product_label": "Gaya Animasi",
+                    "product_help_text": "Pilih presentasi panel verifikasi.",
+                    "product_float_label": "Float",
+                    "product_float_help_text": "Beralih dari tombol validasi ke panel validasi.",
+                    "product_popup_label": "Popup",
+                    "product_popup_help_text": "Pusatkan panel validasi",
+                    "product_bind_label": "Menyatukan ke tombol",
+                    "product_bind_help_text": "Picu panel validasi dengan tombol tertentu.",
+                    "product_learn_more_link": "Pelajari lebih lanjut tentang tampilan widget",
+                    "id_label": "ID Verifikasi",
+                    "id_help_text": "ID verifikasi konteks peristiwa yang Anda terapkan di <a>GeeTest</a>.",
+                    "key_label": "Kunci Verifikasi",
+                    "key_help_text": "Kunci verifikasi context event yang Anda terapkan di <a>GeeTest</a>."
                 }
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "submit_button": "",
-                "load_button": "",
-                "reload_button": ""
+                "title": "Uji CAPTCHA",
+                "help_text": "Gunakan konfigurasi umum di atas untuk menguji CAPTCHA.",
+                "submit_button": "Submit",
+                "load_button": "Memuat",
+                "reload_button": "Muat ulang"
             }
         },
         "lib": {
             "verify": {
-                "success_message": "",
-                "error_message": "",
-                "error_retry_message": "",
-                "init_error_message": "",
-                "required_message": "",
-                "not_pass_message": ""
+                "success_message": "Validasi berhasil.",
+                "error_message": "Validasi gagal.",
+                "error_retry_message": "Validasi gagal, silakan coba lagi.",
+                "init_error_message": "Validasi inisialisasi gagal.",
+                "required_message": "Harap lengkapi CAPTCHA.",
+                "not_pass_message": "Validasi tidak lulus."
             }
         }
     }
