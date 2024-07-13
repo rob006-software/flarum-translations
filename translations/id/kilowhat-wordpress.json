@@ -235,7 +235,7 @@
                 "cookie-domain-mismatch": "Pengaturan \"Domain cookie\" di WordPress tidak sesuai dengan pengaturan \"Domain Cookie\" di Flarum (nilai WordPress adalah \"{wordpress}\", nilai Flarum adalah \"{flarum}\")"
             },
             "wizard": {
-                "already_installed": "",
+                "already_installed": "Flarum sudah terhubung dengan WordPress. Untuk menjalankan wizard lagi, hapus pengaturan \"URL WordPress\" di Flarum dan pengaturan \"API Key Bersama\" Flarum di WordPress.\n",
                 "api_unauthorized": "Kami tidak dapat mengautentikasi dengan kredensial yang diberikan. Periksa ulang URL, username, dan password. Periksa dokumentasi untuk mengetahui langkah-langkah pemecahan masalah lebih lanjut.\n",
                 "api_error_generic": "",
                 "invalid_wordpress_url": "Pengaturan \"Alamat WordPress (URL)\" pada WordPress tampaknya bukan merupakan URL yang valid ({actual}).",
