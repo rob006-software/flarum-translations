@@ -14,14 +14,14 @@
                     "above": "",
                     "below": ""
                 },
-                "style": "Gaya",
+                "style": "Style",
                 "styleOptions": {
                     "vertical": "Vertikal",
                     "horizontal": "Horizontal"
                 },
-                "maxImageCount": "",
-                "maxImageCountHelp": "",
-                "maxImageCountPlaceholder": "",
+                "maxImageCount": "Jumlah gambar maksimum dalam pratinjau",
+                "maxImageCountHelp": "Berapa banyak gambar dari Opengraph atau fallback parser yang akan ditampilkan. Semua URL gambar selalu disimpan, sehingga Anda dapat mengubah pengaturan ini nanti.\n",
+                "maxImageCountPlaceholder": "Biarkan kosong untuk jumlah yang tidak terbatas",
                 "imageProxy": "Proksi Gambar OpenGraph",
                 "imageProxyHelp": "Semua gambar OpenGraph dan favicon akan diproksi melalui Flarum dan bukannya diambil oleh browser pengunjung",
                 "cacheProxy": "Cache gambar yang diproksi",
@@ -36,13 +36,13 @@
                 "imageEmbedsHelp": "Fitur ini mengambil dan menampilkan informasi tambahan pada gambar eksternal yang disisipkan dalam postingan dengan bbcode atau markdown. Saat ini fitur ini menggunakan kembali daftar hitam/daftar putih dan izin yang sama dengan rich link. Gambar-gambar ini tidak diproksi melalui proksi gambar OpenGraph. Anda harus menghapus cache Flarum setelah mengubah pengaturan ini.\n",
                 "flarumApiPreviews": "Aktifkan pratinjau Flarum tingkat lanjut",
                 "flarumApiPreviewsHelp": "Fitur ini mem-parsing data JSON tambahan yang sudah disertakan dalam HTML oleh semua forum yang didukung oleh Flarum. Fitur ini akan bekerja dengan semua forum yang menjalankan Flarum 1.4+ dan mengiklankan header <code>X-Powered-By</code>.\n",
-                "githubApiKey": "",
+                "githubApiKey": "API Key GitHub",
                 "githubApiKeyHelp": "Isi untuk mengaktifkan pratinjau GitHub yang didukung API untuk repositori, issue, dan PR, termasuk repositori pribadi.",
                 "githubOrgWhitelist": "Daftar putih organisasi",
                 "githubOrgWhitelistHelp": "Daftar organisasi GitHub yang dipisahkan dengan koma yang akan menggunakan pratinjau yang didukung API. Gunakan kolom ini untuk mencegah setiap repo pribadi yang dapat diakses oleh API key terekspos, untuk mengurangi penggunaan API atau hanya mengubah gaya sematan organisasi Anda. Jika dibiarkan kosong, repo apa pun yang dapat diakses oleh API key dapat dipratinjau.\n",
                 "googleApiAuthConfig": "Google SDK Auth Config Path atau JSON",
                 "googleApiAuthConfigHelp": "Pengaturan ini digunakan bersama dengan pengaturan YouTube dan Google Drive di bawah ini. Pengaturan ini harus berisi absolute path ke file autentikasi JSON di sistem file lokal, atau konten file tersebut. Jika dibiarkan kosong, API key atau akun layanan akan secara otomatis ditemukan melalui environment variable oleh Google API SDK.\n",
-                "googleApiKey": "Google SDK API key",
+                "googleApiKey": "API key Google SDK",
                 "googleApiKeyHelp": "Pengaturan ini digunakan bersamaan dengan pengaturan YouTube dan Google Drive di bawah ini. Jika dibiarkan kosong, kunci API atau akun layanan akan secara otomatis ditemukan melalui environment variable oleh Google API SDK.\n",
                 "youtubePlayer": "Izinkan memutar video YouTube dari pratinjau",
                 "youtubePlayerHelp": "Iframe player akan dimuat sesuai permintaan saat pengguna mengeklik tombol play di pratinjau. Anda harus mengonfigurasi CSP dan frame header untuk mengizinkan frame dari nama domain YouTube. Fitur ini dapat digunakan tanpa akses API.\n",
@@ -63,11 +63,11 @@
             },
             "permissions": {
                 "viewGoogleDriveThumbnails": "Melihat thumbnail Google Drive yang didukung API",
-                "useOnOwnPost": "",
-                "disableOnOwnPost": "",
-                "refreshOnOwnPost": "",
-                "disableOnAnyPost": "",
-                "refreshOnAnyPost": ""
+                "useOnOwnPost": "Gunakan embed di post Anda sendiri",
+                "disableOnOwnPost": "Menonaktifkan embed pada post Anda sendiri",
+                "refreshOnOwnPost": "Refresh embed pada postingan Anda sendiri",
+                "disableOnAnyPost": "Nonaktifkan embed di post mana pun",
+                "refreshOnAnyPost": "Refresh embed di post mana pun"
             },
             "preview": {
                 "title": "Pratinjau",
@@ -87,7 +87,7 @@
             },
             "controls": {
                 "refresh": "",
-                "disable": "",
+                "disable": "Nonaktifkan embed pada post ini",
                 "disableConfirmation": "Semua embed akan dihapus dari postingan ini. Lanjutkan?",
                 "imgCopy": "Salin URL gambar",
                 "imgCopied": "Disalin!",
@@ -107,7 +107,7 @@
                         "type": "Diskusi",
                         "stats": {
                             "commentCount": "",
-                            "participantCount": "",
+                            "participantCount": "Peserta",
                             "createdAt": ""
                         }
                     },
