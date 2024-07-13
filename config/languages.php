@@ -178,6 +178,7 @@ return [
 		// translations included in extension
 		'!dalez-msemoji',
 		'!dalez-twemoji',
+		'!ffans-geetest',
 		'!gbcl-userip',
 		'!huoxin-auto-follow-discussion',
 		'!imdong-spam-alert',
