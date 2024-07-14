@@ -5,16 +5,16 @@
                 "use_oauth": "Gunakan OAuth"
             },
             "page": {
-                "index": "",
+                "index": "Beranda",
                 "clients": "Kelola Client",
                 "scopes": "Kelola Cakupan",
                 "tokens": "Kelola Token"
             },
             "settings": {
-                "display_mode": "",
+                "display_mode": "Mode Tampilan",
                 "access_lifetime": "Masa Berlaku Token Akses (detik)",
-                "allow_implicit": "",
-                "enforce_state": "",
+                "allow_implicit": "Izinkan Implicit Grant (response_type = token)",
+                "enforce_state": "Menerapkan State Validation (parameter state)",
                 "require_exact_redirect_uri": "Memerlukan URI Pengalihan yang Tepat",
                 "authorization_method_fetch": ""
             },
@@ -27,7 +27,7 @@
                 "client_name": "Nama",
                 "client_desc": "Deskripsi",
                 "client_icon": "Ikon",
-                "client_home": "",
+                "client_home": "Beranda",
                 "add_button": "Tambah Client",
                 "edit_client": "Edit Client"
             },
