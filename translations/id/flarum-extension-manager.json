@@ -32,7 +32,7 @@
                 "add_repository_label": "Tambah Repositori",
                 "delete_repository_confirmation": "Apakah Anda yakin ingin menghapus repositori ini? Semua ekstensi yang diinstal dari repositori ini akan dihapus.",
                 "delete_repository_label": "Hapus repositori",
-                "edit_repository_label": "Ubah repositori",
+                "edit_repository_label": "Edit repositori",
                 "title": "Composer",
                 "minimum_stability": {
                     "label": "Stabilitas Minimum",
@@ -55,7 +55,7 @@
                     },
                     "add_modal": {
                         "name_label": "Nama",
-                        "type_label": "Tipe",
+                        "type_label": "Jenis",
                         "url": "URL",
                         "submit_button": "Submit"
                     }
@@ -88,8 +88,8 @@
             "file_permissions": "Manajer ekstensi memerlukan izin baca dan tulis pada file dan direktori berikut ini: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
                 "description": "Pembaruan utama Flarum tidak kompatibel dengan versi sebelumnya, yang berarti bahwa beberapa ekstensi yang saat ini Anda instal, dan modifikasi yang dilakukan secara manual mungkin tidak akan berfungsi dengan versi baru ini. Pastikan untuk membuat backup database dan file Anda sebelum melanjutkan.\n",
-                "dry_run": "",
-                "dry_run_help": "",
+                "dry_run": "Uji Coba",
+                "dry_run_help": "Uji coba mengemulasi pembaruan untuk melihat apakah pengaturan Anda saat ini dapat diperbarui dengan aman, ini tidak berarti bahwa modifikasi khusus yang dibuat secara manual akan berfungsi di versi yang lebih baru.",
                 "failure": {
                     "desc": "Pembaruan besar terakhir gagal, beberapa ekstensi yang terinstal tidak kompatibel dengan rilis besar yang baru.",
                     "why": "Ketahui lebih lanjut"
@@ -108,7 +108,7 @@
                     "columns": {
                         "details": "Detail",
                         "elapsed_time": "Selesai dalam",
-                        "peak_memory_used": "",
+                        "peak_memory_used": "Penggunaan Memori Puncak",
                         "operation": "Operasi",
                         "package": "Paket",
                         "status": "Status"
