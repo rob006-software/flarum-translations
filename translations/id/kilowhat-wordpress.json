@@ -237,7 +237,7 @@
             "wizard": {
                 "already_installed": "Flarum sudah terhubung dengan WordPress. Untuk menjalankan wizard lagi, hapus pengaturan \"URL WordPress\" di Flarum dan pengaturan \"API Key Bersama\" Flarum di WordPress.\n",
                 "api_unauthorized": "Kami tidak dapat mengautentikasi dengan kredensial yang diberikan. Periksa ulang URL, username, dan password. Periksa dokumentasi untuk mengetahui langkah-langkah pemecahan masalah lebih lanjut.\n",
-                "api_error_generic": "",
+                "api_error_generic": "Error saat melakukan POST request ke endpoint pengaturan plugin WordPress ({exception}). Pastikan plugin Flarum Integration WordPress telah diinstal dan diaktifkan.\n",
                 "invalid_wordpress_url": "Pengaturan \"Alamat WordPress (URL)\" pada WordPress tampaknya bukan merupakan URL yang valid ({actual}).",
                 "api_error_get": "Terjadi kesalahan saat melakukan GET request ke pengaturan WordPress ({exception}).",
                 "api_error_post": "Terjadi kesalahan saat melakukan POST request ke pengaturan WordPress ({exception}).",
