@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "trim_title": "",
-                "trim_help": "",
+                "trim_help": "Di sini Anda dapat mengonfigurasi berapa lama (dalam menit) Anda ingin Horizon\nmenyimpan job terakhir dan job yang gagal. Biasanya, job terbaru disimpan\nselama satu jam, sedangkan semua job yang gagal disimpan selama satu minggu.\n",
                 "trim_recent": "",
                 "trim_recent_help": "Tabel ini digunakan untuk menampilkan job terbaru di dashboard Horizon.\n",
                 "trim_pending": "",
@@ -23,9 +23,9 @@
                 "full_dashboard": "Dashboard Horizon",
                 "refresh": "Segarkan",
                 "data": {
-                    "redis-used-memory": "",
-                    "redis-peak-memory": "",
-                    "redis-max-memory": "",
+                    "redis-used-memory": "Memori Yang Digunakan Redis",
+                    "redis-peak-memory": "Memori Puncak Redis",
+                    "redis-max-memory": "Memori Maksimum Redis",
                     "redis-memory-policy": "Kebijakan Memori Redis",
                     "redis-memory-policy-tooltip": "Kebijakan memori adalah cara Redis akan memilih apa yang akan dihapus ketika \nbatas maksimal memori tercapai. Standarnya adalah `noeviction`: Nilai-nilai baru \ntidak akan disimpan ketika batas memori tercapai. Klik untuk melihat dokumentasi.\n",
                     "redis-cpu-user": "",
