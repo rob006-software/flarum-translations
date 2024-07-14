@@ -4,13 +4,13 @@
             "settings": {
                 "backoff_label": "",
                 "backoff_help": "Jumlah detik untuk menunggu sebelum mencoba kembali job yang mendapatkan exception yang tidak tertangkap.\n",
-                "memory_label": "",
+                "memory_label": "Memori",
                 "memory_help": "Batas memori dalam megabyte.\n",
-                "rest_label": "",
-                "rest_help": "Jumlah detik untuk beristirahat di antara job.\n",
-                "retries_label": "",
+                "rest_label": "Berhenti Sementara",
+                "rest_help": "Jumlah detik untuk berhenti sementara di antara job.\n",
+                "retries_label": "Percobaan ulang",
                 "retries_help": "Jumlah percobaan job sebelum gagal dicatat.\n",
-                "timeout_label": "",
+                "timeout_label": "Batas waktu",
                 "timeout_help": "Jumlah detik child process dapat berjalan.\n"
             },
             "stats": {
