@@ -31,7 +31,7 @@
                     "rename_category": "Ganti nama kategori",
                     "edit_description": "Edit deskripsi",
                     "change_icon": "Ganti ikon",
-                    "recount_articles": ""
+                    "recount_articles": "Hitung ulang artikel"
                 }
             },
             "article_events": {
@@ -57,7 +57,7 @@
             "article": {
                 "article": "Artikel",
                 "articles": "Artikel",
-                "hidden": "",
+                "hidden": "Tersembunyi",
                 "created_at": "Dibuat pada {date}",
                 "author": "Penulis",
                 "authors": "Penulis",
@@ -101,9 +101,9 @@
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
+                    "title": "Log audit artikel",
                     "article_created": "Artikel telah dibuat",
-                    "no_more_events": "",
+                    "no_more_events": "Tidak ada lagi event yang ditemukan",
                     "loading_auditlog": "Memuat log audit"
                 },
                 "article_ratings": {
@@ -146,7 +146,7 @@
                 "ticket_overview": "Gambaran umum tiket",
                 "opened_on": "",
                 "ticket_activity": "Oleh {username}, aktivitas terakhir {date}",
-                "reminders_sent": "",
+                "reminders_sent": "{count, plural, one {Satu pengingat terkirim} other {# pengingat terkirim}}",
                 "convert_to_ticket": {
                     "button": "Ubah menjadi tiket",
                     "confirm": "Apakah Anda yakin ingin mengubah diskusi ini menjadi tiket?",
