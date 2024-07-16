@@ -2,21 +2,21 @@
     "yippy-auth-ldap": {
         "forum": {
             "account_found": "",
-            "log_in_with": "",
+            "log_in_with": "Login dengan {server}",
             "log_out": "=> core.ref.log_out",
             "errors": {
                 "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
-                "search_filter_is_invalid": "",
+                "search_filter_is_invalid": "Tidak dapat mencari filter untuk {server} karena `kolom pencarian LDAP` tidak valid, ubah pengaturan ekstensi.",
                 "not_authenticated": "",
                 "csrf_token_mismatch": "Anda sudah terlalu lama tidak aktif, silakan refresh halaman dan coba lagi",
                 "domains": {
                     "no_domains": "Pengaturan admin tidak memiliki domain yang ditetapkan, ubah pengaturan ekstensi.",
-                    "empty_host": "",
+                    "empty_host": "Domain {domain_index} tidak memiliki alamat IP Domain atau server yang disetel, ubah pengaturan ekstensi.",
                     "empty_base_dn": "",
-                    "empty_user_username": "",
-                    "empty_search_field": "",
-                    "username_field_does_not_exist": "",
-                    "mail_field_does_not_exist": ""
+                    "empty_user_username": "Domain {domain_index} memiliki Profil Pengguna Flarum - 'Kolom username' kosong, ubah pengaturan ekstensi.",
+                    "empty_search_field": "Domain {domain_index} memiliki Pencarian Akun LDAP - 'Kolom pencarian' kosong, ubah pengaturan ekstensi.",
+                    "username_field_does_not_exist": "Domain {domain_index} tidak dapat menemukan username untuk Profil Pengguna Flarum - `Kolom username` dengan `{data}`, ubah pengaturan ekstensi.",
+                    "mail_field_does_not_exist": "Domain {domain_index} tidak dapat menemukan email untuk Profil Pengguna Flarum - `Kolom email` dengan `{data}`, ubah pengaturan ekstensi."
                 },
                 "account": {
                     "invalid_inputs": "Kolom input tidak boleh kosong",
@@ -36,8 +36,8 @@
                 "domains": {
                     "title": "Domain LDAP",
                     "description": "Masukkan semua domain LDAP yang tersedia untuk digunakan Flarum untuk login",
-                    "add": "",
-                    "banner": "",
+                    "add": "Tambah Domain",
+                    "banner": "Domain {index}",
                     "header": {
                         "server": "Pengaturan Server LDAP",
                         "admin": "Admin LDAP",
