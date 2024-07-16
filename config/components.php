@@ -464,7 +464,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.8/locale/en.yml',
 	],
 	'dhtml-translate' => [
-		'tag' => 'https://raw.githubusercontent.com/dhtml/translate/v0.0.78/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/dhtml/translate/v0.0.80/locale/en.yml',
 	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.2.0/resources/locale/en.yml',
