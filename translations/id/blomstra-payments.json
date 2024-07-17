@@ -45,7 +45,7 @@
                 "purchase-log-in": ""
             },
             "bounties": {
-                "purchase-control": "",
+                "purchase-control": "Tambahkan Hadiah",
                 "enable-control": "Aktifkan Hadiah"
             },
             "choose-bounty-amount-modal": {
@@ -85,11 +85,11 @@
         "admin": {
             "edit-tag": {
                 "select-ptp-product": "",
-                "select-ptp-product-description": "",
+                "select-ptp-product-description": "Memilih produk akan memerlukan pembayaran produk tersebut untuk setiap diskusi dalam tag tersebut. Bayar per posting, misalnya bagus untuk advertorial. Buat produk dengan satu harga \"satu kali\" di dalam Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n",
                 "select-ptv-product": "",
-                "select-ptv-product-description": "",
+                "select-ptv-product-description": "Memilih produk akan memerlukan pembayaran produk tersebut untuk mendapatkan akses permanen ke semua postingan di luar ambang batas.. Buat produk di dalam Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n",
                 "visible-from": "Sembunyikan postingan pada ambang batas ini",
-                "visible-from-description": "",
+                "visible-from-description": "Angka yang Anda tentukan di sini menentukan di titik mana postingan akan disembunyikan untuk pengguna yang belum membayar untuk mengakses konten. Gunakan 0 untuk menyembunyikan semuanya, 1 untuk yang setelah Original Poster.\n",
                 "select-ptb-product": "",
                 "select-ptb-product-description": "\n",
                 "bump-others": "",
@@ -111,7 +111,7 @@
                 "recount-total-discussion-bounties": ""
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "Mengaktifkan hadiah"
             }
         }
     }
