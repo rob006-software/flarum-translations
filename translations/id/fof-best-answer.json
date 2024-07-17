@@ -7,7 +7,7 @@
             },
             "settings": {
                 "label": {
-                    "tags": "",
+                    "tags": "Tag Jawaban Terbaik",
                     "general": "Umum",
                     "reminders": "Pengingat",
                     "search": "Pencarian",
@@ -34,13 +34,13 @@
                 "documentation": "Dokumentasi",
                 "enabled_tags_label": "Tag yang Diaktifkan",
                 "enabled_tags_help": "Pilih tag mana, jika ada, yang akan diaktifkan Best Answers. Tag ini akan menjadi tag berformat \"Tanya Jawab\", dan akan memiliki kemampuan untuk mengatur Best Answers.",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": "",
-                "solution_search": "",
+                "remind_tags_label": "Tag Pengingat",
+                "remind_tags_help": "Pilih tag yang mana, jika ada, yang akan dikirimkan pengingat. Pengingat hanya akan dikirim untuk diskusi dengan tag ini.",
+                "tags_info": "Ketika sebuah tag Best Answer diaktifkan, tetapkan izin untuk setiap grup pengguna yang dapat menetapkan jawaban (diskusi sendiri, diskusi apa pun). Izin dapat ditetapkan secara global (untuk semua tag yang mengaktifkan Best Answer), atau per tag.\n",
+                "solution_search": "Pencarian solusi",
                 "solution_search_help": "Mengaktifkan kemampuan untuk mencari diskusi dengan Best Answers",
-                "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
+                "discussion_sidebar_jump_button": "Menampilkan tombol lompat ke Jawaban Terbaik di bilah sisi diskusi",
+                "discussion_sidebar_jump_button_help": "Menambahkan tombol ke bilah sisi diskusi yang akan langsung menuju ke Jawaban Terbaik dalam aliran postingan.",
                 "enable_all_tags_button": "Aktifkan semua tag untuk Jawaban Terbaik",
                 "enable_all_tags_reminder_button": "Aktifkan semua tag untuk pengingat Jawaban Terbaik",
                 "introduction": "Aktifkan tag mana yang akan mendukung Best Answers di <code><a>flarum/tags</a></code>, dan secara opsional tag mana yang akan mendukung pengingat. Ketika sebuah tag diaktifkan oleh Best Answer, aturlah perizinan untuk setiap grup pengguna yang dapat mengatur jawaban (diskusi sendiri, diskusi apa pun). Perizinan dapat diatur secara global (untuk setiap tag Best Answer yang diaktifkan), atau per tag.\n"
@@ -88,8 +88,8 @@
                 "best-answer-count": "{count, plural, one { {count} jawaban terbaik} other {{count} jawaban terbaik}}"
             },
             "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
+                "discussions_solutions_heading": "Diskusi dengan solusi",
+                "all_discussions_solutions_button": "Cari semua diskusi dengan solusi untuk “{query}”"
             },
             "discussion": {
                 "jump_to_best_answer_button": "Lihat Jawaban Terbaik"
