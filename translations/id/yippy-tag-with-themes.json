@@ -2,60 +2,60 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": ""
+                "design_default": "Layout Desain Diskusi"
             },
             "helps": {
-                "design_default": ""
+                "design_default": "Pilih layout desain default"
             },
             "options": {
                 "design_options": {
-                    "sticky_note": "",
-                    "sticky_note_tag": "",
+                    "sticky_note": "Sticky Note",
+                    "sticky_note_tag": "Sticky Note (Tag Primer)",
                     "sticky_note_tab": "",
                     "sticky_note_banner": "",
                     "sticky_note_outline": "",
                     "sticky_note_outline_tag": "",
                     "sticky_note_outline_tab": "",
                     "sticky_note_outline_banner": "",
-                    "basic": "",
-                    "basic_tag": "",
+                    "basic": "Basic",
+                    "basic_tag": "Basic (Tag Primer)",
                     "basic_tab": "",
                     "basic_banner": "",
-                    "basic_outline": "",
+                    "basic_outline": "Basic Outline",
                     "basic_outline_tag": "",
                     "basic_outline_tab": "",
                     "basic_outline_banner": "",
-                    "flat": "",
-                    "flat_tag": "",
+                    "flat": "Flat",
+                    "flat_tag": "Flat (Tag Primer)",
                     "flat_tab": "",
                     "flat_banner": "",
-                    "flat_border": "",
-                    "flat_border_tag": "",
+                    "flat_border": "Flat Border",
+                    "flat_border_tag": "Flat Border (Tag Primer)",
                     "flat_border_tab": "",
                     "flat_border_banner": ""
                 }
             },
             "designs": {
-                "title": "",
+                "title": "Tema Desain Khusus untuk Tag",
                 "description": "Menyediakan daftar aturan untuk menampilkan tema yang berbeda untuk tag tertentu",
-                "add": "",
-                "banner": "",
+                "add": "Tambahkan Desain untuk Tag",
+                "banner": "Tema Desain {index}",
                 "header": {
                     "theme": "Tema Khusus",
                     "color_theme": "Sesuaikan Skema Warna Default"
                 },
                 "data": {
                     "themeName": "Pilih Tema",
-                    "tags": "",
-                    "tags_help": "",
-                    "primary_background_color": "",
-                    "primary_font_class": "",
+                    "tags": "Tag Primer Yang Dipilih",
+                    "tags_help": "Pilih satu atau lebih tag untuk tema desain khusus ini",
+                    "primary_background_color": "Edit Warna Background Utama",
+                    "primary_font_class": "Edit Font Utama",
                     "child_background_color": "",
                     "child_font_class": "",
                     "outline_background_color": "",
                     "secondary_font_class": "",
-                    "unread_color": "",
-                    "is_enabled": ""
+                    "unread_color": "Edit Warna Background Yang Belum Dibaca",
+                    "is_enabled": "Aktifkan Tema Desain"
                 }
             }
         }
