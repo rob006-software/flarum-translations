@@ -3,7 +3,7 @@
         "admin": {
             "cache_enabled_label": "Aktifkan LSCache",
             "cache_enabled_help": "Lihat <a>Halaman informasi</a> untuk mengetahui cara menguji cache. CATATAN: Saat menonaktifkan cache, semua entri yang tersimpan dalam cache untuk situs ini akan dihapus.",
-            "public_cache_ttl_label": "",
+            "public_cache_ttl_label": "TTL Cache Publik Default",
             "public_cache_ttl_help": "Tentukan berapa lama, dalam detik, halaman publik harus di-cache. Nilai default adalah 604800 detik ( 1 minggu).",
             "clearing_cache_listener_label": "Bersihkan LSCache Saat Cache Flarum Dihapus",
             "serve_stale_label": "Sajikan Konten Yang Sudah Usang",
