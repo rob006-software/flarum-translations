@@ -19,7 +19,7 @@
                 "show_max_lines_label": "Garis maksimum untuk ditampilkan dalam pratinjau post",
                 "show_max_lines_help": "Atur ke 0 untuk menonaktifkan. Jika postingan lebih panjang daripada jumlah baris yang dikonfigurasi, postingan akan terpotong dalam pratinjau postingan dengan efek memudar.",
                 "select_best_answer_reminder_days": "Frekuensi pengingat",
-                "select_best_answer_reminder_days_help": "Kirim pengingat setelah jumlah hari yang dapat dikonfigurasi ke Postingan Sendiri untuk memilih Jawaban Terbaik, 0 = menonaktifkan pengingat.",
+                "select_best_answer_reminder_days_help": "Kirim pengingat setelah jumlah hari yang dapat dikonfigurasi ke Original Poster untuk memilih Jawaban Terbaik, 0 = menonaktifkan pengingat.",
                 "select_best_answer_tags_label": "Tag untuk diskusi dengan Jawaban Terbaik",
                 "select_best_answer_tags_help": "Pilih tag yang mana, jika ada, yang akan ditambahkan ke diskusi ketika Jawaban Terbaik telah ditetapkan. Hanya tag sekunder yang diperbolehkan. Tag ini akan dihapus jika Jawaban Terbaik dihapus.",
                 "schedule_on_one_server": "Gunakan 'onOneServer()' directive untuk task scheduler",
@@ -92,7 +92,7 @@
                 "all_discussions_solutions_button": ""
             },
             "discussion": {
-                "jump_to_best_answer_button": ""
+                "jump_to_best_answer_button": "Lihat Jawaban Terbaik"
             }
         },
         "email": {
