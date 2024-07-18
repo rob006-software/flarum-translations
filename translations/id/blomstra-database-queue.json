@@ -2,7 +2,7 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
+                "backoff_label": "Kembali",
                 "backoff_help": "Jumlah detik untuk menunggu sebelum mencoba kembali job yang mendapatkan exception yang tidak tertangkap.\n",
                 "memory_label": "Memori",
                 "memory_help": "Batas memori dalam megabyte.\n",
