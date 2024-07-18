@@ -67,8 +67,8 @@
             "item-purchase-subscribe-item-status-0": "Berlangganan. Tidak digunakan",
             "item-purchase-subscribe-item-status-1": "Berlangganan. Sedang digunakan",
             "item-purchase-date": "Tanggal pembelian",
-            "item-status-to-0-confirmation": "Apakah Anda yakin untuk membatalkan pembelian item ini?",
-            "item-status-to-1-confirmation": "",
+            "item-status-to-0-confirmation": "Apakah Anda yakin untuk tidak melengkapi item ini?",
+            "item-status-to-1-confirmation": "Apakah Anda yakin untuk melengkapi item ini?",
             "item-subscription-deduction-days": "Pemotongan biaya berlangganan dalam {days} hari",
             "equipment-modal-title": "Daftar Item",
             "shopping-cart": "",
@@ -81,7 +81,7 @@
             "purchase-add-cart": "",
             "purchase-now": "",
             "purchase-error": "",
-            "purchase-error-insufficient-fund": "",
+            "purchase-error-insufficient-fund": "Dana tidak mencukupi",
             "purchase-error-item-alreay-have": "Anda sudah memiliki item ini",
             "notification-receive-subscription": "Potongan biaya berlangganan",
             "notifications": {
@@ -92,10 +92,10 @@
             }
         },
         "admin": {
-            "item-type-selection": "",
-            "data-add": "",
+            "item-type-selection": "Pilih jenis item",
+            "data-add": "Tambahkan",
             "data-save": "Simpan",
-            "item-add": "",
+            "item-add": "Tambah Item",
             "item-edit": "Edit",
             "item-activate": "Aktif",
             "item-deactivate": "Nonaktif",
@@ -115,8 +115,8 @@
             "item-property-style-select-from-gallery": "Gaya Bawaan",
             "item-property-image": "Gambar",
             "item-property-image-upload": "Upload",
-            "item-property-image-select-from-gallery": "",
-            "item-assigned-at": "",
+            "item-property-image-select-from-gallery": "Gambar bawaan",
+            "item-assigned-at": "Tanggal",
             "item-activate-confirmation": "Apakah Anda yakin untuk mengaktifkan item ini?",
             "item-deactivate-confirmation": "Apakah Anda yakin untuk menonaktifkan item ini?",
             "item-delete-confirmation": "Apakah Anda yakin untuk menghapus item ini?",
@@ -125,7 +125,7 @@
                 "display-name": "Nama Tampilan",
                 "display-name-default": "",
                 "timezone": "Zona waktu",
-                "timezone-help": "",
+                "timezone-help": "Atur zona waktu untuk waktu transfer. Defaultnya adalah \"Asia/Shanghai\"",
                 "timezone-default": "Asia/Shanghai"
             }
         }
