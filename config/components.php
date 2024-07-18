@@ -752,7 +752,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
 	'hikarilan-passkey-login' => [
-		'tag' => 'https://raw.githubusercontent.com/shaokeyibb/flarum-passkey-login/0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/shaokeyibb/flarum-passkey-login/0.3/locale/en.yml',
 	],
 	'huoxin-auto-follow-discussion' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-follow-discussion/0.0.2/locale/en.yml',
