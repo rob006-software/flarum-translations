@@ -16,7 +16,7 @@
                 "allow_implicit": "Izinkan Implicit Grant (response_type = token)",
                 "enforce_state": "Menerapkan State Validation (parameter state)",
                 "require_exact_redirect_uri": "Memerlukan URI Pengalihan yang Tepat",
-                "authorization_method_fetch": ""
+                "authorization_method_fetch": "Metode Otorisasi Pengambilan (Tidak langsung mengarahkan ke)"
             },
             "clients": {
                 "client_id": "ID Client",
@@ -59,7 +59,7 @@
             },
             "authorize": {
                 "require_these_scopes": "",
-                "access": "",
+                "access": "Akses ke",
                 "agree": "Setuju",
                 "deny": "Tolak"
             },
