@@ -37,13 +37,13 @@
                 },
                 "horizontal-layout": "Gunakan tata letak formulir horizontal",
                 "horizontal-layout-locations": {
-                    "standaloneEdit": "",
+                    "standaloneEdit": "Halaman Pengisian/Pengeditan Mandiri",
                     "standaloneView": "Halaman Tampilan Mandiri",
                     "profileEdit": "Halaman Edit Profil",
                     "profileView": "Halaman Tampilan Profil",
-                    "signUp": "",
-                    "discussionEdit": "",
-                    "discussionView": "",
+                    "signUp": "Jendela Modal Pendaftaran (hanya kolom Formulaire)",
+                    "discussionEdit": "Jendela Modal Edit Diskusi",
+                    "discussionView": "Wadah Tampilan Diskusi",
                     "discussionComposer": "Area Pengeditan Diskusi"
                 },
                 "uniformComposerLayout": "Tata letak penulisan diskusi yang seragam",
@@ -76,7 +76,7 @@
                 "submissions": "Pengajuan",
                 "columns": {
                     "title": "Judul",
-                    "accept-submissions": "",
+                    "accept-submissions": "Buka",
                     "allow-modification": "Modifikasi",
                     "enabled": "Diaktifkan",
                     "submissions": "Pengajuan",
@@ -116,21 +116,21 @@
                 },
                 "tabs": {
                     "template": "Template",
-                    "placement": "",
+                    "placement": "Penempatan",
                     "access": "Akses",
                     "notifications": "Notifikasi",
                     "submissions": "Pengajuan"
                 },
                 "access-status": {
-                    "closed": "",
-                    "create": "",
-                    "edit": "",
+                    "closed": "Ditutup",
+                    "create": "Hanya membuat",
+                    "edit": "Hanya mengedit",
                     "both": "Buat dan edit",
                     "enabled": "Diaktifkan",
                     "disabled": "Konsep"
                 },
                 "controls": "Kontrol",
-                "template-export": "",
+                "template-export": "Impor/ekspor template",
                 "enable-expert-mode": "Aktifkan mode expert",
                 "disable-expert-mode": "Nonaktifkan mode expert",
                 "restore": "Pulihkan",
@@ -237,10 +237,10 @@
                 "email": "Email",
                 "regex": "Regular expression",
                 "mime": "Jenis MIME (dipisahkan koma, menerima karakter pengganti sebagai bagian kedua)",
-                "other": "",
-                "duplicate": "",
-                "delete": "",
-                "missing-title": "",
+                "other": "Izinkan value pengguna \"lainnya\"",
+                "duplicate": "Duplikat kolom",
+                "delete": "Hapus kolom",
+                "missing-title": "Kolom tanpa judul",
                 "no-answer": "Tidak ada jawaban",
                 "type": {
                     "short": "Teks pendek",
@@ -248,11 +248,11 @@
                     "number": "Angka",
                     "date": "Tanggal",
                     "checkbox": "Kotak centang",
-                    "radio": "",
+                    "radio": "Radio",
                     "select": "Dropdown",
                     "upload": "Upload",
                     "content": "Konten",
-                    "items": ""
+                    "items": "Multi-entri"
                 }
             },
             "options-editor": {
@@ -282,7 +282,7 @@
                 "other-placeholder": "Ketik..."
             },
             "submission": {
-                "form-closed": "",
+                "form-closed": "Formulir ini ditutup.",
                 "form-full": "Formulir ini telah mencapai jumlah maksimum pengumpulan.",
                 "edit-forbidden": "Anda tidak dapat lagi mengedit pengajuan ini.",
                 "submitted-successfully": "Pengajuan Anda telah berhasil dikirim.",
@@ -312,10 +312,10 @@
             },
             "badge": {
                 "locked": "Terkunci",
-                "hidden": ""
+                "hidden": "Tersembunyi"
             },
             "error-page": {
-                "denied-title": "",
+                "denied-title": "Izin ditolak",
                 "denied-description": "Sepertinya Anda tidak memiliki akses ke konten ini. Coba login.",
                 "notfound-title": "Tidak ditemukan",
                 "notfound-description": "Konten ini bisa jadi tidak ada, atau mungkin Anda tidak memiliki akses ke sana."
@@ -329,13 +329,13 @@
                 "oldest": "Formulir paling lama"
             },
             "export": {
-                "title": "",
+                "title": "Pengajuan ekspor",
                 "format": "Format",
                 "heading": "",
-                "fields": "",
+                "fields": "Kolom",
                 "meta": "Metadata",
                 "more-meta": "Opsi meta lainnya",
-                "option-keys": "",
+                "option-keys": "Tombol opsi ekspor alih-alih judul untuk kotak centang, radio, dan pilihan",
                 "submit": "Download",
                 "preview": "Pratinjau",
                 "format-options": {
@@ -346,7 +346,7 @@
                     "json": "JSON"
                 },
                 "heading-options": {
-                    "title": "",
+                    "title": "Judul kolom",
                     "key": "",
                     "none": "Tidak ada baris header"
                 },
@@ -443,7 +443,7 @@
                 "user_email": "Email Pengguna",
                 "user_activated": "Akun Aktif",
                 "link_id": "ID sumber daya yang ditautkan",
-                "locked_at": "",
+                "locked_at": "Tanggal Penguncian",
                 "created_at": "Tanggal Pembuatan",
                 "updated_at": "Tanggal Pembaruan",
                 "hidden_at": ""
