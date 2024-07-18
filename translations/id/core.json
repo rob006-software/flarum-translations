@@ -207,7 +207,7 @@
                 "new_group_button": "Grup Baru",
                 "participate_heading": "Partisipasi",
                 "post_without_throttle_label": "Membalas beberapa kali tanpa harus menunggu",
-                "read_heading": "Baca",
+                "read_heading": "Membaca",
                 "rename_discussions_label": "Mengganti judul diskusi",
                 "reply_to_discussions_label": "Membalas diskusi",
                 "search_users_label": "=> core.ref.search_users",
@@ -316,7 +316,7 @@
             },
             "composer_edit": {
                 "discard_confirmation": "Anda belum menyimpan perubahan Anda. Apakah Anda ingin membuangnya?",
-                "edited_message": "Hasil edit Anda telah dibuat.",
+                "edited_message": "Pengeditan Anda selesai dibuat.",
                 "post_link": "Post #{number} di {discussion}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
@@ -377,7 +377,7 @@
                 "mark_all_as_read_confirmation": "Anda yakin ingin menandai semua diskusi sebagai telah dibaca?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Segarkan",
+                "refresh_tooltip": "Refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "toggle_sidenav_dropdown_accessible_label": "Menampilkan menu dropdown navigasi"
             },
@@ -568,8 +568,8 @@
                 "circular_dependencies_message": "Circular dependencies terdeteksi: {extensions}. Membatalkan. Nonaktifkan salah satu ekstensi dan coba lagi.",
                 "dependent_extensions_message": "Tidak dapat menonaktifkan {extension} sebelum ekstensi dependen berikut dinonaktifkan: {extensions}",
                 "extension_initialiation_failed_message": "{extension} gagal untuk menginisialisasi, periksa konsol browser untuk informasi lebih lanjut.",
-                "generic_message": "Ups! Ada yang tidak beres. Mohon untuk me-refresh halaman dan coba lagi.",
-                "generic_cross_origin_message": "Ups! Terjadi kesalahan saat melakukan request cross-origin. Mohon untuk me-refresh halaman dan coba lagi.",
+                "generic_message": "Ups! Ada yang tidak beres. Silakan muat ulang halaman dan coba lagi.",
+                "generic_cross_origin_message": "Ups! Terjadi kesalahan saat melakukan cross-origin request. Silakan muat ulang halaman dan coba lagi.",
                 "missing_dependencies_message": "Tidak dapat mengaktifkan {extension} sebelum dependensi berikut diaktifkan: {extensions}",
                 "not_found_message": "Resource yang diminta tidak ditemukan.",
                 "payload_too_large_message": "Request payload terlalu besar.",
@@ -626,7 +626,7 @@
             },
             "content": {
                 "javascript_disabled_message": "Situs ini paling baik dilihat di browser modern dengan JavaScript diaktifkan.",
-                "load_error_message": "Ada yang tidak beres saat mencoba memuat versi lengkap situs ini. Coba untuk me-refresh halaman ini untuk memperbaikinya.",
+                "load_error_message": "Terjadi kesalahan saat mencoba memuat versi lengkap situs ini. Coba refresh ulang halaman ini untuk memperbaikinya.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
