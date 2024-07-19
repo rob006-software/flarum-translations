@@ -2,7 +2,7 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "introduction": "Periksa pendaftaran User baru terhadap database <a>StopForumSpam</a>. Jika salah satu dari ambang batas <code>kepercayaan </code> atau <code>frekuensi</code> tercapai, User akan dicegah untuk melanjutkan pendaftaran mereka di forum Anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga didukung. Penyedia SSO lain seharusnya bisa digunakan, tetapi belum teruji.\n",
+                "introduction": "Periksa pendaftaran User baru terhadap database <a>StopForumSpam</a>. Jika salah satu dari ambang batas <code>confidence</code> atau <code>frequency</code> tercapai, User akan dicegah untuk melanjutkan pendaftaran mereka di forum Anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga didukung. Penyedia SSO lain seharusnya bisa digunakan, tetapi belum teruji.\n",
                 "username_label": "Periksa Spam Username",
                 "ip_label": "Periksa Spam IP Address",
                 "email_label": "Periksa Spam Email",
