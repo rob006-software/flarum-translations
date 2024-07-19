@@ -36,7 +36,7 @@
                 "watermark": "Tentukan apakah gambar akan ditambahkan watermark saat di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.\n",
                 "s3_compatible_storage": "Pengaturan berikut ini hanya diperlukan bila menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat mengosongkannya.\n",
                 "s3_acl": "ACL yang harus diterapkan pada objek yang diunggah (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "custom_s3_url": "Gunakan pengaturan ini jika Anda menggunakan layanan yang kompatibel dengan S3 yang memerlukan format URL tertentu (misalnya, Backblaze B2) atau jika Anda mengalami masalah dengan format URL default. Pengaturan ini umumnya tidak diperlukan untuk sebagian besar layanan. Pastikan URL menyertakan protokol (https://) dan diformat dengan benar. Contoh: https://your-bucket.s3.your-region.backblazeb2.com\n",
+                "custom_s3_url": "Gunakan pengaturan ini jika Anda menggunakan layanan yang kompatibel dengan S3 yang memerlukan format URL tertentu (misalnya, Backblaze B2) atau jika Anda mengalami masalah dengan format URL default. Pengaturan ini umumnya tidak diperlukan untuk sebagian besar layanan. Pastikan URL menyertakan protokol (https://) dan diformat dengan benar. Contoh: https://your-bucket.s3.your-region.example.com\n",
                 "s3_instance_profile": "Biarkan key dan secret kosong untuk menggunakan kredensial di instance profile.\n",
                 "composer_buttons": "Secara default, tombol pengelola media dan tombol upload terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
             },
@@ -49,7 +49,7 @@
                     "title": "Pengaturan AWS S3 storage",
                     "advanced_title": "Pengaturan S3 storage lanjutan",
                     "endpoint": "Endpoint",
-                    "use_path_style_endpoint": "Gunakan path style endpoint",
+                    "use_path_style_endpoint": "Gunakan path-style endpoint",
                     "acl": "Access Control List (ACL)",
                     "custom_url": "URL S3 Khusus"
                 },
@@ -64,7 +64,7 @@
                 "imgur": {
                     "client_id": "ID client Imgur",
                     "title": "Pengaturan penyimpanan gambar Imgur",
-                    "tos": "Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Terms of service</a>"
+                    "tos": "Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Ketentuan layanan</a>"
                 },
                 "local": {
                     "cdn_url": "URL Pengiriman Konten (file prefiks)",
