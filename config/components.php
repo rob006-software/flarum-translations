@@ -724,6 +724,9 @@ return [
 	'foskym-custom-levels' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-custom-levels/v1.1.0/locale/en.yml',
 	],
+	'foskym-multi-mailer' => [
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-multi-mailer/v0.1.1/locale/en.yml',
+	],
 	'foskym-nickname-group-formatter' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-nickname-group-formatter/v1.0.6/resources/locale/en.yml',
 	],
