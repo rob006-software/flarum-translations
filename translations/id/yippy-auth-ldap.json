@@ -7,7 +7,7 @@
             "errors": {
                 "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
                 "search_filter_is_invalid": "Tidak dapat mencari filter untuk {server} karena `kolom pencarian LDAP` tidak valid, ubah pengaturan ekstensi.",
-                "not_authenticated": "",
+                "not_authenticated": "Tidak dapat melakukan bind {server} karena kredensial yang tidak valid, ubah pengaturan ekstensi.",
                 "csrf_token_mismatch": "Anda sudah terlalu lama tidak aktif, silakan refresh halaman dan coba lagi",
                 "domains": {
                     "no_domains": "Pengaturan admin tidak memiliki domain yang ditetapkan, ubah pengaturan ekstensi.",
@@ -48,9 +48,9 @@
                     },
                     "data": {
                         "host": "Domain atau alamat IP server",
-                        "host_help": "",
+                        "host_help": "Dipisahkan dengan koma",
                         "base_dn": "",
-                        "base_dn_help": "",
+                        "base_dn_help": "Dipisahkan dengan titik koma",
                         "filter": "",
                         "filter_help": "",
                         "port": "Port",
@@ -66,10 +66,10 @@
                         "admin_password_help": "Biarkan kosong untuk pengikatan anonim",
                         "search_user_fields": "Kolom pencarian",
                         "search_user_fields_help": "Pilih beberapa kolom pencarian menggunakan opsi dropdown, misalnya memilih \"mail\" hanya akan mengizinkan email, sementara \"uid,mail\" akan mengizinkan email atau username.",
-                        "user_username": "",
-                        "user_mail": "",
+                        "user_username": "Menetapkan kolom Username",
+                        "user_mail": "Menetapkan kolom Email",
                         "user_mail_help": "Biarkan kosong untuk mengizinkan Pengguna mengatur email mereka sendiri saat pendaftaran",
-                        "user_nickname_fields": "",
+                        "user_nickname_fields": "Menetapkan Nickname dengan kolom",
                         "user_nickname_fields_help": "Ekstensi Nickname harus diaktifkan, kompilasi Nickname dengan beberapa bidang LDAP menggunakan opsi dropdown. Misalnya memilih \"givenname,sn\" akan menetapkan \"[Nama Depan] [Nama Belakang]\" sebagai Nama Panggilan mereka"
                     }
                 },
