@@ -8,7 +8,7 @@
             "pwa": {
                 "about": {
                     "description_label": "Deskripsi",
-                    "description_text": "Anda dapat mengatur deskripsi pada halaman 'Basic' di dasbor admin Anda.",
+                    "description_text": "Anda dapat mengatur deskripsi pada halaman 'Pengaturan Dasar' di beranda admin Anda.",
                     "long_name_label": "Nama panjang",
                     "long_name_text": "Nama aplikasi web yang ditampilkan kepada pengguna.",
                     "heading": "Tentang",
@@ -58,7 +58,7 @@
             },
             "status": {
                 "config_no_https": "URL di file config.php Anda tidak menggunakan HTTPS. HTTPS diperlukan agar Aplikasi Web Progresif dapat berfungsi.",
-                "possible_https_disabled": "Situs Anda mungkin tidak berjalan pada HTTPS. Menghapus cache Anda (halaman dasbor admin => tombol peralatan) mungkin bisa membantu. Jika iya, abaikan hal ini. Jika tidak, perlu diingat bahwa HTTPS diperlukan agar Aplikasi Web Progresif dapat berfungsi.",
+                "possible_https_disabled": "Situs Anda mungkin tidak berjalan pada HTTPS. Menghapus cache Anda (halaman beranda admin => tombol peralatan) mungkin bisa membantu. Jika iya, abaikan hal ini. Jika tidak, perlu diingat bahwa HTTPS diperlukan agar Aplikasi Web Progresif dapat berfungsi.",
                 "no_logo": "Anda harus meng-upload setidaknya satu logo, dengan ukuran minimal 144x144px, agar PWA dapat diinstal.",
                 "no_name": "Anda harus memberikan nama lengkap agar aplikasi Anda dapat berfungsi.",
                 "no_vapid_keys": "VAPID key tidak ditemukan. Ini diperlukan agar push notification dapat dikirim. Anda dapat mereset VAPID key di bawah ini.",
