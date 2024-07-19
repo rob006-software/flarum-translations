@@ -13,7 +13,7 @@
                 "self_edit": "Mengedit undian yang telah dibuat (membutuhkan izin edit post)",
                 "self_post_edit": "Mengedit *semua* undian pada postingan sendiri (membutuhkan izin edit post)",
                 "enter": "Dapat mengikuti undian",
-                "canCancelEnter": "",
+                "canCancelEnter": "Dapat mengubah input",
                 "moderate": "Mengedit & menghapus undian"
             }
         },
@@ -70,12 +70,12 @@
                 "allow_cancel_enter_label": "Izinkan pengguna untuk membatalkan partisipasi",
                 "submit": "Submit",
                 "discussions_started": "Diskusi dimulai",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": "",
-                "money": "",
+                "posts_made": "Postingan yang dibuat",
+                "likes_given": "Suka yang diberikan",
+                "likes_received": "Suka yang diterima",
+                "best_answers": "Jawaban terbaik",
+                "moderator_strikes": "Teguran moderator",
+                "money": "Uang",
                 "lotteries_made": "Undian dimulai",
                 "not_enough": "Tidak cukup"
             },
@@ -87,7 +87,7 @@
             },
             "tooltip": {
                 "badge": "undian",
-                "votes": ""
+                "votes": "{count, plural, one {# suara} other {# suara}}"
             },
             "participants_modal": {
                 "title": "Peserta"
