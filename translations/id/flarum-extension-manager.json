@@ -25,7 +25,7 @@
                     "github-oauth": "GitHub OAuth",
                     "gitlab-oauth": "GitLab OAuth",
                     "gitlab-token": "Token GitLab",
-                    "bearer": ""
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
@@ -81,9 +81,9 @@
                 "successful_install": "{extension} berhasil dipasang, mengalihkan..",
                 "successful_remove": "Ekstensi berhasil dihapus.",
                 "successful_update": "{extension} berhasil diperbarui, mengalihkan..",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "update": "Update",
+                "update_soft_label": "Soft update",
+                "update_hard_label": "Hard update"
             },
             "file_permissions": "Manajer ekstensi memerlukan izin baca dan tulis pada file dan direktori berikut ini: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
@@ -95,7 +95,7 @@
                     "why": "Ketahui lebih lanjut"
                 },
                 "title": "Pembaruan Utama Flarum {version} Telah Tersedia",
-                "update": ""
+                "update": "Update"
             },
             "minor_update_confirmation": {
                 "content": "Ini juga akan memperbarui ekstensi/paket lain dengan pembaruan yang tersedia."
@@ -126,9 +126,9 @@
                     },
                     "output_modal": {
                         "cause_unknown": "Tidak diketahui",
-                        "command": "",
+                        "command": "Composer Command",
                         "guessed_cause": "Penyebab",
-                        "output": ""
+                        "output": "Keluaran"
                     },
                     "refresh": "Refresh daftar tugas",
                     "statuses": {
