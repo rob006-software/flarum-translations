@@ -108,7 +108,7 @@
                 "post": {
                     "approved": "Menyetujui {post} oleh {postuser} dalam {discussion}",
                     "created": "Pembuatan {post} di {discussion}",
-                    "create_date_changed": "",
+                    "create_date_changed": "Mengubah tanggal mulai {postuser} {post} dari {old_date} menjadi {new_date}",
                     "deleted": "Menghapus {post} oleh {postuser} di {discussion}",
                     "dismissed_flags": "",
                     "edit_date_changed": "Mengubah tanggal edit {postuser} {post} dari {old_date} ke {new_date}",
@@ -119,7 +119,7 @@
                     "user_changed": "Perubahan penulis {post} dari {old_user} menjadi {new_user}"
                 },
                 "setting_changed": "Pengaturan yang diedit {key}",
-                "setting_changed_with_values": "",
+                "setting_changed_with_values": "Mengedit pengaturan {key} dari {old_value} ke {new_value}",
                 "tag": {
                     "created": "Tag yang dibuat {tag}",
                     "deleted": "Tag yang dihapus {tag}",
