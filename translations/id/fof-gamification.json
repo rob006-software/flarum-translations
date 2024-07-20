@@ -3,7 +3,7 @@
         "forum": {
             "index_sort": {
                 "hot_button": "Trending",
-                "votes_button": "Upvote"
+                "votes_button": "Dukung Naik"
             }
         }
     },
@@ -20,10 +20,10 @@
                 "amount": "Poin"
             },
             "notification": {
-                "upvote": "{username} memberikan Upvote pada post Anda",
-                "downvote": "{username} memberikan Downvote pada post Anda",
+                "upvote": "{username} memberikan Dukungan Naik pada post Anda",
+                "downvote": "{username} memberikan Dukung Turun pada post Anda",
                 "prefrences": {
-                    "vote": "Ketika salah satu dari postingan Saya mendapatkan Upvote/Downvote"
+                    "vote": "Ketika salah satu dari postingan Saya mendapatkan dukungan Naik/Turun"
                 }
             },
             "user": {
@@ -34,9 +34,9 @@
                 "votes_link": "Vote"
             },
             "modal": {
-                "downvotes_label": "Downvoter:",
+                "downvotes_label": "Pendukung Turun:",
                 "title": "Voter",
-                "upvotes_label": "Upvoter:"
+                "upvotes_label": "Pendukung Naik:"
             },
             "mod_item": "Lihat Voter",
             "voters": {
@@ -45,18 +45,18 @@
                 "label_none": "Tidak ada voter"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Dukung Naik",
+                "downvote_button": "Dukung Turun"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "Memberikan Upvote/Downvote pada postingan",
-                "see_votes_label": "Melihat penghitungan Upvote/Downvote",
+                "vote_label": "Memberikan Dukungan Naik/Turun pada postingan",
+                "see_votes_label": "Melihat penghitungan Dukungan Naik/Turun",
                 "see_voters_label": "Melihat siapa yang memberikan vote",
                 "see_ranking_page": "Melihat halaman peringkat",
-                "upvote_notifications": "Menerima notifikasi tentang Upvote",
-                "downvote_notifications": "Menerima notifikasi tentang Downvote"
+                "upvote_notifications": "Menerima notifikasi tentang Dukung Naik",
+                "downvote_notifications": "Menerima notifikasi tentang Dukung Turun"
             },
             "page": {
                 "rankings": {
@@ -75,26 +75,26 @@
                     "icon_name": "Nama ikon layout alternatif"
                 },
                 "votes": {
-                    "points_title": "",
+                    "points_title": "Tempat Penampung Poin",
                     "points_placeholder": "Poin: ",
                     "color_holder": "#ffffff",
-                    "auto_upvote": "Berikan Upvote secara otomatis pada postingan saat diposting",
+                    "auto_upvote": "Berikan Dukungan Naik secara otomatis pada postingan saat diposting",
                     "rate_limit": "Terapkan batas kecepatan dalam memberikan vote (10 detik)",
                     "discussion_page": "Tampilkan total vote dari postingan awal pada daftar diskusi",
                     "alternate_layout": "Gunakan tata letak voting alternatif pada daftar diskusi",
                     "alternate_post_layout": "Gunakan tata letak voting alternatif pada postingan",
                     "title": "Vote",
                     "vote_color": "",
-                    "icon_name": "Ikon Upvote/Downvote",
+                    "icon_name": "Ikon Dukung Naik/Turun",
                     "icon_help": "Masukkan ikon Font-Awesome apa pun yang diakhiri dengan -up dan -down. Contoh: arrow, thumbs, chevron",
-                    "upvotes_only": "Hanya diizinkan untuk memberikan Upvote",
-                    "first_post_only": "Hanya diizinkan untuk memberikan Upvote/Downvote pada postingan awal dalam sebuah diskusi",
+                    "upvotes_only": "Hanya diizinkan untuk memberikan Dukung Naik",
+                    "first_post_only": "Hanya diizinkan untuk memberikan Dukungan Naik/Turun pada postingan awal dalam sebuah diskusi",
                     "allow_self_votes": "Pengguna dapat melakukan voting pada postingan mereka sendiri"
                 },
                 "save_settings": "Simpan pengaturan",
                 "convert": {
-                    "button": "Mengonversi \"Suka\" menjadi Upvote",
-                    "help": "Mengkonversi \"Suka\" Anda yang sebelumnya dari flarum-ext-likes menjadi Upvote, serta menghitung tingkat kepopuleran untuk semua diskusi saat ini.",
+                    "button": "Mengonversi \"Suka\" menjadi Dukung Naik",
+                    "help": "Mengkonversi \"Suka\" Anda yang sebelumnya dari flarum-ext-likes menjadi Dukung Naik, serta menghitung tingkat kepopuleran untuk semua diskusi saat ini.",
                     "converting": "Jumlah \"Suka\" Anda sekarang sedang dikonversi. Refresh situs Anda setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memerlukan waktu agak lama, tergantung pada total \"Suka\" di forum Anda)",
                     "converted": "Berhasil mengkonversi semua ({number} suka)"
                 },
@@ -104,7 +104,7 @@
                     "number_title": "Berapa banyak badge peringkat yang harus ditampilkan?",
                     "help": {
                         "color": "#ffffff",
-                        "help": "Masukkan jumlah Upvote yang diperlukan, nama peringkat, dan kode warna HEX peringkat",
+                        "help": "Masukkan jumlah Dukung Naik yang diperlukan, nama peringkat, dan kode warna HEX peringkat",
                         "points": "Poin",
                         "name": "Nama"
                     }
