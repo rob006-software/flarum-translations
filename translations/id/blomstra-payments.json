@@ -17,7 +17,7 @@
                 "interval_once": "sekali"
             },
             "subscription-card": {
-                "bounty": "Hadiah",
+                "bounty": "Bounty",
                 "ptv": "Tampilan Berbayar",
                 "pta": "Akses Berbayar",
                 "ptb": "Promosi Berbayar",
@@ -26,7 +26,7 @@
                 "none": "Tidak ada pembayaran atau langganan aktif"
             },
             "post_stream": {
-                "bounty_added_text": "{username} menambahkan hadiah sebesar {amount}."
+                "bounty_added_text": "{username} menambahkan bounty sebesar {amount}."
             },
             "pay-to-view": {
                 "purchase-control": "Bayar untuk Melihat",
@@ -45,11 +45,11 @@
                 "purchase-log-in": "Login dan membayar promosi"
             },
             "bounties": {
-                "purchase-control": "Tambahkan Hadiah",
+                "purchase-control": "Tambahkan Bounty",
                 "enable-control": "Aktifkan Hadiah"
             },
             "choose-bounty-amount-modal": {
-                "title": "Pilih jumlah hadiah",
+                "title": "Pilih jumlah bounty",
                 "checkout-control": "Checkout",
                 "description": "Pilih jumlah yang Anda inginkan untuk mendukung \"{subject}\" atau pilih jumlah khusus."
             },
@@ -94,7 +94,7 @@
                 "select-ptb-product-description": "Memilih produk akan membutuhkan pembayaran produk tersebut sebelum dapat mempromosikan diskusi.\n",
                 "bump-others": "(PTB) Izinkan orang lain mempromosikan diskusi",
                 "bump-others-description": "Aktifkan ini agar orang lain selain penulis juga dapat membayar untuk mempromosikan diskusi\n",
-                "select-bounty-product": "Hadiah",
+                "select-bounty-product": "Bounty",
                 "select-bounty-product-description": "Pilih produk yang akan disiapkan untuk hadiah. Produk hanya dapat memiliki satu Harga dengan model: \"Custom chooses price\". Salin ID produk yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"
             },
             "edit-group": {
@@ -102,7 +102,7 @@
                 "select-pta-product-description": "Memilih produk akan memungkinkan akses ke grup setelah pembayaran. Dalam hal langganan, akses akan dicabut secara otomatis setelah pembatalan langganan. Buat produk di akun Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam bidang ini.\n"
             },
             "settings": {
-                "assign-bounty-tag-id": "Tag untuk ditetapkan ke diskusi setelah hadiah pertama dikirimkan",
+                "assign-bounty-tag-id": "Tag untuk ditetapkan ke diskusi setelah bounty pertama dikirimkan",
                 "pk": "Publishable (api) key",
                 "sk": "Secret (api) key",
                 "webhook-secret": "Webhook signing secret",
