@@ -106,9 +106,9 @@
                     "discussion": {
                         "type": "Diskusi",
                         "stats": {
-                            "commentCount": "",
+                            "commentCount": "Balasan",
                             "participantCount": "Peserta",
-                            "createdAt": ""
+                            "createdAt": "Tanggal mulai"
                         }
                     },
                     "user": {
@@ -125,19 +125,19 @@
                     "siteName": "GitHub",
                     "privateRepoSuffix": "[pribadi]",
                     "issue": {
-                        "type": "",
+                        "type": "Issue",
                         "stats": {
                             "commentCount": "Komentar",
-                            "createdAt": ""
+                            "createdAt": "Dibuat pada"
                         }
                     },
                     "pull": {
-                        "type": "",
+                        "type": "Pull request",
                         "stats": {
                             "commentCount": "Komentar",
-                            "reviewCount": "",
-                            "commitCount": "",
-                            "createdAt": ""
+                            "reviewCount": "Tinjauan",
+                            "commitCount": "Commit",
+                            "createdAt": "Dibuat pada"
                         }
                     },
                     "repo": {
@@ -146,10 +146,10 @@
                             "private": "Repositori pribadi"
                         },
                         "stats": {
-                            "openIssueCount": "",
-                            "subscriberCount": "",
+                            "openIssueCount": "Issue terbuka",
+                            "subscriberCount": "Pengamat",
                             "stargazerCount": "Bintang",
-                            "forkCount": ""
+                            "forkCount": "Fork"
                         }
                     }
                 },
@@ -159,7 +159,7 @@
                         "type": "Video",
                         "thumbnailAlt": "Thumbnail video",
                         "stats": {
-                            "viewCount": "",
+                            "viewCount": "Penayangan",
                             "likeCount": "Suka",
                             "commentCount": "Komentar",
                             "publishedAt": "Diterbitkan pada"
