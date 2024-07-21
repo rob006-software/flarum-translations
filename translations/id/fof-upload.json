@@ -17,7 +17,7 @@
             },
             "shared-uploads": {
                 "description": "Upload file yang dapat digunakan oleh semua pengguna forum Anda.",
-                "introduction": "Unggahan bersama adalah file yang dapat digunakan oleh semua pengguna forum Anda. Unggahan ini tidak dilampirkan pada postingan apa pun, tetapi dapat disisipkan ke dalam postingan dengan menggunakan pengelola media. \n\n<strong>Peringatan:</strong> Unggahan bersama tidak dilindungi oleh izin apa pun. Siapapun yang memiliki URL dapat melihatnya.\n",
+                "introduction": "Unggahan bersama adalah file yang dapat digunakan oleh semua pengguna forum Anda. Unggahan ini tidak dilampirkan pada postingan apa pun, tetapi dapat dimasukkan ke dalam postingan dengan menggunakan pengelola media. \n\n<strong>Peringatan:</strong> Unggahan bersama tidak dilindungi oleh izin apa pun. Siapapun yang memiliki URL akan dapat melihatnya.\n",
                 "no-files": "Belum ada file bersama yang diupload.",
                 "title": "Unggahan Bersama",
                 "upload-new-button": "Upload file baru"
@@ -38,7 +38,7 @@
                 "s3_acl": "ACL yang harus diterapkan pada objek yang diunggah (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "custom_s3_url": "Gunakan pengaturan ini jika Anda menggunakan layanan yang kompatibel dengan S3 yang memerlukan format URL tertentu (misalnya, Backblaze B2) atau jika Anda mengalami masalah dengan format URL default. Pengaturan ini umumnya tidak diperlukan untuk sebagian besar layanan. Pastikan URL menyertakan protokol (https://) dan diformat dengan benar. Contoh: https://your-bucket.s3.your-region.example.com\n",
                 "s3_instance_profile": "Biarkan key dan secret kosong untuk menggunakan kredensial di instance profile.\n",
-                "composer_buttons": "Secara default, tombol pengelola media dan tombol upload terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
+                "composer_buttons": "Secara default, tombol pengelola media dan tombol upload akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
             },
             "labels": {
                 "aws-s3": {
