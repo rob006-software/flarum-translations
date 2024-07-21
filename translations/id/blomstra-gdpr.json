@@ -6,7 +6,7 @@
                 "description": "Status berbagai tindakan dan integrasi GDPR",
                 "data_types": {
                     "title": "Tipe Data",
-                    "help_text": "Ini adalah tipe data yang saat ini terdaftar. Setiap tipe terdaftar bersama dengan tindakan ekspor, anonimisasi, dan penghapusan data yang terkait. Jika sebuah ekstensi menangani data apa pun yang termasuk dalam peraturan GDPR, ekstensi tersebut harus mendaftarkan tipe datanya ke <code>blomstra/gdpr</code>. \nData yang disimpan di tabel pengguna ditangani secara terpisah, lihat data tabel <code>user</code> di bawah ini.\n",
+                    "help_text": "Ini adalah tipe data yang saat ini terdaftar. Setiap tipe terdaftar bersama dengan tindakan ekspor, anonimisasi, dan penghapusan data yang terkait. Jika sebuah ekstensi menangani data apa pun yang termasuk dalam peraturan GDPR, ekstensi tersebut harus mendaftarkan tipe datanya ke <code>blomstra/gdpr</code>. \nData yang disimpan di tabel pengguna ditangani secara terpisah, lihat data tabel <code>pengguna</code> di bawah ini.\n",
                     "type": "Tipe",
                     "export_description": "Tindakan Ekspor",
                     "anonymize_description": "Tindakan Anonimisasi",
@@ -19,7 +19,7 @@
                     "extension_settings_button": "Pengaturan GDPR"
                 },
                 "user_table_data": {
-                    "title": "Data Tabel User",
+                    "title": "Data Tabel Pengguna",
                     "help_text": "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. \nNamun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n"
                 }
             },
@@ -81,7 +81,7 @@
                     "export_description": "Mengekspor semua token yang telah dibuat oleh pengguna. Data dibatasi pada tanggal pembuatan dan jenis token."
                 },
                 "user": {
-                    "anonymize_description": "Mengatur semua kolom pada tabel user menjadi null. Kolom yang tidak dapat diatur ke dalam nilai null akan diatur ke nilai default atau nilai khusus. Kata sandi diubah, preferensi diatur ke default dan semua grup dihapus.",
+                    "anonymize_description": "Mengatur semua kolom pada tabel pengguna menjadi null. Kolom yang tidak dapat diatur ke dalam nilai null akan diatur ke nilai default atau nilai khusus. Kata sandi diubah, preferensi diatur ke default dan semua grup dihapus.",
                     "delete_description": "Menghapus pengguna dari database.",
                     "export_description": "Mengekspor data dari tabel user. Semua kolom kecuali id, kata sandi."
                 }
