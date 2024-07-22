@@ -113,7 +113,7 @@
                         "package": "Paket",
                         "status": "Status"
                     },
-                    "none": "Belum ada tugas.",
+                    "none": "Belum ada task.",
                     "operations": {
                         "extension_install": "Pasang ekstensi",
                         "extension_remove": "Hapus ekstensi",
@@ -130,14 +130,14 @@
                         "guessed_cause": "Penyebab",
                         "output": "Keluaran"
                     },
-                    "refresh": "Refresh daftar tugas",
+                    "refresh": "Refresh daftar task",
                     "statuses": {
                         "success": "Berhasil",
                         "failure": "Gagal",
                         "pending": "Tertunda",
                         "running": "Berjalan"
                     },
-                    "task_just_started": "Tugas baru saja dimulai",
+                    "task_just_started": "Task baru saja dimulai",
                     "title": "Antrean"
                 }
             },
@@ -147,8 +147,8 @@
                 "debug_mode_warning": "Anda sedang menjalankan mode debug, manajer ekstensi tidak dapat menginstal dan memperbarui paket local development dengan benar. Silakan gunakan command line interface untuk tujuan tersebut.",
                 "queue_jobs": "Menjalankan operasi di antrean latar belakang (background queue)",
                 "queue_jobs_help": "Anda dapat membaca tentang implementasi <a href='{basic_impl_link}'>basic queue</a> atau yang <a href='{adv_impl_link}'>lebih canggih</a>. Pastikan versi PHP yang digunakan untuk queue adalah {php_version}. Pastikan <a href='{folder_perms_link}'>izin folder (folder permission)</a> telah dikonfigurasi dengan benar.\n",
-                "task_retention_days": "Hari retensi tugas",
-                "task_retention_days_help": "Jumlah hari untuk menyimpan tugas yang sudah selesai di dalam database. Tugas yang lebih lama dari ini akan dihapus. Atur ke 0 untuk menyimpan semua tugas.\n"
+                "task_retention_days": "Hari retensi task",
+                "task_retention_days_help": "Jumlah hari untuk menyimpan task yang sudah selesai dalam database. Task yang lebih lama dari ini akan dihapus. Atur ke 0 untuk menyimpan semua task.\n"
             },
             "updater": {
                 "up_to_date": "Semuanya sudah diperbarui!",
