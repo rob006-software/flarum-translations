@@ -5,7 +5,7 @@
                 "followuser": {
                     "export_description": "Mengekspor detail pengguna yang diikuti dan pengguna yang mengikuti.",
                     "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "Menghapus semua data yang terkait dengan pengguna yang mengikuti."
+                    "delete_description": "Menghapus semua data yang terkait dengan mengikuti pengguna."
                 }
             }
         }
@@ -21,7 +21,7 @@
             }
         },
         "forum": {
-            "followed": "Diikuti",
+            "followed": "Mengikuti",
             "followers": "{count, plural, one {Pengikut} other {Pengikut}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
@@ -56,15 +56,15 @@
                 }
             },
             "filter": {
-                "following": "Pengguna yang diikuti"
+                "following": "Mengikuti pengguna"
             },
             "modals": {
                 "select_follow_level": {
                     "title": "Pilih tingkat mengikuti untuk {username}",
                     "description": "Pilih bagaimana Anda ingin mengikuti <em>{username}</em>.",
-                    "follow_levels_heading": "Level follow (ikuti)",
-                    "follow_select_label": "Tipe follow (ikuti)",
-                    "no_user_attr_provided_err": "Uh oh, ada yang salah saat membuka jendel modal ini.",
+                    "follow_levels_heading": "Level mengikuti",
+                    "follow_select_label": "Jenis mengikuti",
+                    "no_user_attr_provided_err": "Uh oh, ada yang salah saat membuka jendela modal ini.",
                     "no_user_attr_provided_err_debug": "Tidak ada atribut `pengguna` yang dapat diteruskan ke dalam jendela modal SelectFollowUserLevel saat dibuat. Jendela modal tidak dapat dirender.",
                     "save_btn": "Simpan",
                     "cancel_btn": "Batal"
@@ -82,11 +82,11 @@
         "lib": {
             "following_link": "Pengguna Yang Diikuti",
             "follow": "Ikuti",
-            "change_follow_type": "Ganti tipe follow (ikuti)",
+            "change_follow_type": "Ubah jenis ikuti",
             "unfollow": "Berhenti mengikuti",
             "follow_levels": {
                 "unfollow": {
-                    "name": "Jangan ikuti",
+                    "name": "Tidak mengikuti",
                     "description": "Tidak menerima notifikasi apa pun terkait aktivitas <em>{username}</em>.\n"
                 },
                 "follow": {
