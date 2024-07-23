@@ -32,8 +32,8 @@
                     "fas-square": "Ikon FontAwesome Solid Square",
                     "far-circle": "Ikon FontAwesome Regular Circle",
                     "fas-circle": "Ikon FontAwesome Solid Circle",
-                    "switch": "",
-                    "native": "Kontrol browser bawaan"
+                    "switch": "Tombol peralihan Flarum",
+                    "native": "Kontrol bawaan browser"
                 },
                 "horizontal-layout": "Gunakan tata letak formulir horizontal",
                 "horizontal-layout-locations": {
@@ -198,7 +198,7 @@
                     "title": "Judul diskusi",
                     "tags": "Tag diskusi",
                     "tags-help": "Daftar slug tag yang dipisahkan dengan koma. Tag yang dipilih akan ditambahkan sebagai tambahan pada tag yang terhubung dengan formulir ini.\n",
-                    "content": ""
+                    "content": "Konten"
                 }
             },
             "confirmation-email-options-modal": {
@@ -206,7 +206,7 @@
                 "submit": "Validasi perubahan",
                 "field": {
                     "title": "Judul",
-                    "message": ""
+                    "message": "Isi"
                 }
             },
             "save-controls": {
@@ -228,7 +228,7 @@
                 "title": "Judul",
                 "description": "Deskripsi",
                 "key": "(Expert) Kunci JSON dalam payload pengajuan",
-                "fill-permission": "",
+                "fill-permission": "(Expert) Isi perizinan",
                 "required": "Dibutuhkan",
                 "rich": "Rich text (TextFormatter)",
                 "min": "Minimum",
@@ -331,7 +331,7 @@
             "export": {
                 "title": "Pengajuan ekspor",
                 "format": "Format",
-                "heading": "",
+                "heading": "Heading / key",
                 "fields": "Kolom",
                 "meta": "Metadata",
                 "more-meta": "Opsi meta lainnya",
@@ -347,7 +347,7 @@
                 },
                 "heading-options": {
                     "title": "Judul kolom",
-                    "key": "",
+                    "key": "Key kolom",
                     "none": "Tidak ada baris header"
                 },
                 "meta-options": {
