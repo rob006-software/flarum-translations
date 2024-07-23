@@ -81,7 +81,7 @@
                 "discussion": {
                     "created": "Memulai diskusi {discussion}",
                     "create_date_changed": "Perubahan tanggal mulai {discussion} dari {old_date} ke {new_date}",
-                    "deleted": "Penghapusan diskusi {discussion}",
+                    "deleted": "Hapus: diskusi {discussion}",
                     "hidden": "Menyembunyikan diskusi {discussion}",
                     "locked": "Diskusi terkunci {discussion}",
                     "merged_away": "Menggabungkan {discussion} ke dalam {new_discussion}",
@@ -90,10 +90,10 @@
                     "restored": "Pemulihan diskusi {discussion}",
                     "split_away": "Pisahkan postingan {post_count} dari {discussion} menjadi {new_discussion}",
                     "split_into": "Pisahkan {post_count} post menjadi diskusi baru {discussion}",
-                    "stickied": "",
+                    "stickied": "Sticky: diskusi {discussion}",
                     "tagged": "Memperbarui tag {discussion} dari {old_tags} ke {new_tags}",
                     "unlocked": "Diskusi tidak terkunci {discussion}",
-                    "unstickied": "",
+                    "unstickied": "Sticky: melepaskan diskusi {discussion}",
                     "user_changed": "Perubahan penulis {discussion} dari {old_user} ke {new_user}"
                 },
                 "extension": {
@@ -101,8 +101,8 @@
                     "enabled": "Ekstensi {package} diaktifkan"
                 },
                 "fof_ban_ips": {
-                    "banned": "IP yang dicekal {ip}",
-                    "unbanned": "IP yang tidak dicekal {ip}"
+                    "banned": "IP {ip} diblokir",
+                    "unbanned": "Pemblokiran IP {ip} telah dibuka"
                 },
                 "permission_changed": "Mengedit perizinan {permission} dari {old_groups} ke {new_groups}",
                 "post": {
@@ -121,18 +121,18 @@
                 "setting_changed": "Pengaturan yang diedit {key}",
                 "setting_changed_with_values": "Mengedit pengaturan {key} dari {old_value} ke {new_value}",
                 "tag": {
-                    "created": "Tag yang dibuat {tag}",
-                    "deleted": "Tag yang dihapus {tag}",
+                    "created": "Dibuat: tag {tag}",
+                    "deleted": "Hapus: tag {tag}",
                     "updated": "Tag yang diperbarui {tag}"
                 },
                 "user": {
                     "activated": "Pengaktifan akun {username} secara manual",
                     "activated_with_email": "Pengaktifan akun {username} melalui link konfirmasi",
-                    "avatar_changed": "Perubahan avatar {username}",
-                    "avatar_removed": "Menghapus avatar {username}",
-                    "bio_changed": "Bio {username} yang telah diedit",
-                    "created": "Membuat akun {username}",
-                    "deleted": "",
+                    "avatar_changed": "Perubahan: avatar {username}",
+                    "avatar_removed": "Hapus: avatar {username}",
+                    "bio_changed": "Edit: Bio {username}",
+                    "created": "Dibuat: akun {username}",
+                    "deleted": "Hapus: {username}",
                     "email_changed": "Perubahan email {username} dari {old_email} ke {new_email}",
                     "email_change_requested": "Permintaan untuk mengubah email {username} menjadi {new_email}",
                     "groups_changed": "Perubahan grup {username} dari {old_groups} menjadi {new_groups}",
@@ -144,11 +144,11 @@
                     "nickname_requested": "Permintaan nickname baru {new_nickname} untuk user {username}",
                     "nickname_request_approved": "Menyetujui perubahan nickname {username} dari {old_nickname} menjadi {new_nickname}",
                     "nickname_request_rejected": "Menolak perubahan nickname {username}",
-                    "password_changed": "Perubahan password {username}",
+                    "password_changed": "Perubahan: password {username}",
                     "password_change_requested": "Permintaan untuk mengubah password {username}",
                     "provider_connected": "Provider {provider} terhubung ke akun {username}",
                     "suspended": "Penangguhan {username} hingga {until}",
-                    "unsuspended": "{username} tidak ditangguhkan",
+                    "unsuspended": "Penangguhan {username} telah dibatalkan",
                     "username_changed": "Perubahan username {username} dari {old_username} ke {new_username}",
                     "username_requested": "Permintaan username baru {new_username} untuk pengguna {username}",
                     "username_request_approved": "Menyetujui perubahan username {username} dari {old_username} menjadi {new_username}",
