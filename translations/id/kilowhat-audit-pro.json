@@ -2,8 +2,8 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "Melihat catatan audit",
-                "viewLimited": "Melihat catatan audit terbatas"
+                "view": "Melihat log audit",
+                "viewLimited": "Melihat log audit terbatas"
             },
             "header": {
                 "title": "Audit",
@@ -23,21 +23,21 @@
         },
         "forum": {
             "link": {
-                "all-audit": "Catatan audit",
-                "discussion-audit": "Catatan audit",
-                "user-audit": "Catatan audit (pengeditan akun)",
-                "actor-audit": "Catatan audit (user sebagai pelaksana)"
+                "all-audit": "Log audit",
+                "discussion-audit": "Log audit",
+                "user-audit": "Log audit (pengeditan akun)",
+                "actor-audit": "Log audit (user sebagai pelaksana)"
             },
             "modal": {
-                "all-title": "Catatan Audit",
-                "discussion-title": "Catatan Audit Diskusi",
-                "user-title": "Catatan Audit Pengguna",
-                "actor-title": "Catatan Audit Pelaksana"
+                "all-title": "Log Audit",
+                "discussion-title": "Log Audit Diskusi",
+                "user-title": "Log Audit Pengguna",
+                "actor-title": "Log Audit Pelaksana"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "Filter catatan",
+                "filterPlaceholder": "Filter log",
                 "filterApply": "Terapkan",
                 "empty": "Tidak ada hasil",
                 "loadMore": "Muat lebih banyak",
@@ -50,7 +50,7 @@
                     "user": "Pengguna #{id}"
                 },
                 "genericResource": {
-                    "comment": "Komentar",
+                    "comment": "Tanggapan",
                     "post": "Post"
                 },
                 "permissionGroup": {
@@ -69,19 +69,19 @@
                 "controls": {
                     "hideRaw": "Sembunyikan raw log",
                     "showRaw": "Tampilkan raw log",
-                    "filterActor": "Tampilkan catatan berdasarkan pelaksana ini",
-                    "filterIp": "Tampilkan catatan berdasarkan IP ini",
-                    "filterClient": "Tampilkan catatan berdasarkan client type ini",
-                    "filterAction": "Tampilkan catatan dari tindakan yang sama",
-                    "filterUser": "Tampilkan catatan yang mempengaruhi pengguna yang sama",
-                    "filterDiscussion": "Tampilkan catatan yang mempengaruhi diskusi yang sama"
+                    "filterActor": "Tampilkan log oleh pengguna ini",
+                    "filterIp": "Tampilkan log berdasarkan IP ini",
+                    "filterClient": "Tampilkan log berdasarkan jenis client ini",
+                    "filterAction": "Tampilkan log dari tindakan yang sama",
+                    "filterUser": "Tampilkan log yang mempengaruhi pengguna yang sama",
+                    "filterDiscussion": "Tampilkan log yang mempengaruhi diskusi yang sama"
                 },
-                "audit_log_cleared": "Menghapus {deleted_count} entri dari catatan audit",
+                "audit_log_cleared": "Menghapus {deleted_count} entri dari log audit",
                 "cache_cleared": "Cache dibersihkan secara manual",
                 "discussion": {
                     "created": "Memulai diskusi {discussion}",
                     "create_date_changed": "Perubahan tanggal mulai {discussion} dari {old_date} ke {new_date}",
-                    "deleted": "Hapus: diskusi {discussion}",
+                    "deleted": "Menghapus diskusi {discussion}",
                     "hidden": "Menyembunyikan diskusi {discussion}",
                     "locked": "Diskusi {discussion} terkunci",
                     "merged_away": "Menggabungkan {discussion} ke dalam {new_discussion}",
@@ -91,7 +91,7 @@
                     "split_away": "Pisahkan postingan {post_count} dari {discussion} menjadi {new_discussion}",
                     "split_into": "Pisahkan {post_count} post menjadi diskusi baru {discussion}",
                     "stickied": "Sticky: diskusi {discussion}",
-                    "tagged": "Memperbarui tag {discussion} dari {old_tags} ke {new_tags}",
+                    "tagged": "Perubahan tag {discussion} dari {old_tags} ke {new_tags}",
                     "unlocked": "Diskusi tidak terkunci {discussion}",
                     "unstickied": "Sticky: melepaskan diskusi {discussion}",
                     "user_changed": "Perubahan penulis {discussion} dari {old_user} ke {new_user}"
@@ -104,22 +104,22 @@
                     "banned": "IP {ip} diblokir",
                     "unbanned": "Pemblokiran IP {ip} telah dibuka"
                 },
-                "permission_changed": "Mengedit perizinan {permission} dari {old_groups} ke {new_groups}",
+                "permission_changed": "Perubahan izin {permission} dari {old_groups} ke {new_groups}",
                 "post": {
-                    "approved": "Menyetujui {post} oleh {postuser} dalam {discussion}",
+                    "approved": "Menyetujui {post} yang dibuat oleh {postuser} di {discussion}",
                     "created": "Pembuatan {post} di {discussion}",
-                    "create_date_changed": "Mengubah tanggal mulai {postuser} {post} dari {old_date} menjadi {new_date}",
+                    "create_date_changed": "Perubahan tanggal mulai pada {post} yang dibuat oleh {postuser} dari {old_date} menjadi {new_date}",
                     "deleted": "Menghapus {post} oleh {postuser} di {discussion}",
-                    "dismissed_flags": "",
-                    "edit_date_changed": "Mengubah tanggal edit {postuser} {post} dari {old_date} ke {new_date}",
-                    "flagged": "Menandai {postuser} {post} sebagai {reason} dalam {discussion}",
-                    "hidden": "Menyembunyikan {post} oleh {postuser} di {discussion}",
-                    "restored": "Memulihkan {post} oleh {postuser} di {discussion}",
-                    "revised": "Revisi {post} oleh {postuser} di {discussion}",
+                    "dismissed_flags": "Melepaskan penanda pada {post} yang dibuat oleh {postuser} di {discussion}",
+                    "edit_date_changed": "Perubahan tanggal edit pada {post} yang dibuat oleh {postuser} dari {old_date} menjadi {new_date}",
+                    "flagged": "Menandai {post} yang dibuat oleh {postuser} sebagai {reason} dalam {discussion}",
+                    "hidden": "Menyembunyikan {post} yang dibuat oleh {postuser} di {discussion}",
+                    "restored": "Memulihkan {post} yang dibuat oleh {postuser} di {discussion}",
+                    "revised": "Perevisian {post} yang dibuat oleh {postuser} di {discussion}",
                     "user_changed": "Perubahan penulis {post} dari {old_user} menjadi {new_user}"
                 },
                 "setting_changed": "Pengaturan yang diedit {key}",
-                "setting_changed_with_values": "Mengedit pengaturan {key} dari {old_value} ke {new_value}",
+                "setting_changed_with_values": "Perubahan pengaturan {key} dari {old_value} ke {new_value}",
                 "tag": {
                     "created": "Dibuat: tag {tag}",
                     "deleted": "Hapus: tag {tag}",
@@ -128,11 +128,11 @@
                 "user": {
                     "activated": "Pengaktifan akun {username} secara manual",
                     "activated_with_email": "Pengaktifan akun {username} melalui link konfirmasi",
-                    "avatar_changed": "Perubahan: avatar {username}",
-                    "avatar_removed": "Hapus: avatar {username}",
-                    "bio_changed": "Edit: Bio {username}",
-                    "created": "Dibuat: akun {username}",
-                    "deleted": "Hapus: {username}",
+                    "avatar_changed": "Perubahan avatar {username}",
+                    "avatar_removed": "Penghapusan avatar {username}",
+                    "bio_changed": "Pengeditan bio {username}",
+                    "created": "Pembuatan akun {username}",
+                    "deleted": "Menghapus {username}",
                     "email_changed": "Perubahan email {username} dari {old_email} ke {new_email}",
                     "email_change_requested": "Permintaan untuk mengubah email {username} menjadi {new_email}",
                     "groups_changed": "Perubahan grup {username} dari {old_groups} menjadi {new_groups}",
@@ -144,7 +144,7 @@
                     "nickname_requested": "Permintaan nickname baru {new_nickname} untuk user {username}",
                     "nickname_request_approved": "Menyetujui perubahan nickname {username} dari {old_nickname} menjadi {new_nickname}",
                     "nickname_request_rejected": "Menolak perubahan nickname {username}",
-                    "password_changed": "Perubahan: password {username}",
+                    "password_changed": "Perubahan password {username}",
                     "password_change_requested": "Permintaan untuk mengubah password {username}",
                     "provider_connected": "Provider {provider} terhubung ke akun {username}",
                     "suspended": "Penangguhan {username} hingga {until}",
