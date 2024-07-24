@@ -139,14 +139,14 @@
             },
             "inspect-mime": {
                 "title": "Periksa MIME",
-                "description": "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk jenis MIME umum dan PHP Fileinfo sebagai fallback.\nValue dari MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n",
+                "description": "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk jenis MIME umum dan PHP Fileinfo sebagai alternatif pengganti.\nValue dari MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n",
                 "select": "Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.",
                 "laravel-validation": "Validasi File Laravel",
                 "no-file-selected": "Tidak ada file",
                 "validation-passed": "Lulus",
                 "validation-failed": "Gagal: {error}",
                 "mime-detector": "Pendeteksi MIME (primer)",
-                "mime-fileinfo": "Informasi File PHP (fallback)",
+                "mime-fileinfo": "Informasi File PHP (alternatif)",
                 "guessed-extension": "Ekstensi file default (jika original tidak masuk ke dalam whitelist)",
                 "not-available": "Tidak ada hasil"
             }
