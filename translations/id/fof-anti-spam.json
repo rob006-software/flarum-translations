@@ -26,9 +26,9 @@
                     "email_label": "Periksa Email Spam",
                     "frequency_label": "Batasan",
                     "frequency_help": "Jumlah laporan spam diantara semua pemeriksaan aktif yang akan menggagalkan filter spam.\nMisal: Jika email mendapatkan 1 hit, dan ip mendapatkan 2 hit, maka akan ada total 3 hit. Jika ambang batas diatur ke 3 atau kurang, kami akan mencegah pendaftaran.\n",
-                    "api_key_label": "Kunci API",
+                    "api_key_label": "API Key",
                     "api_key_text": "Anda memiliki opsi untuk melaporkan pengirim spam ke StopForumSpam untuk menjaga komunitas forum yang lebih besar dari spam.",
-                    "api_key_instructions_text": "<register>Daftar ke StopForumSpam</register>. Kemudian Anda perlu <key>mendapatkan kunci API</key>.",
+                    "api_key_instructions_text": "<register>Daftar ke StopForumSpam</register>. Kemudian Anda perlu <key>mendapatkan API key</key>.",
                     "regional_endpoint_label": "Akses Geografis",
                     "regional_endpoint_help": "Secara default, kami akan mengarahkan pencarian ke server regional terdekat untuk memberikan respons tercepat. Jika Anda ingin membatasi lalu lintas ke wilayah tertentu, misalnya untuk mematuhi peraturan privasi perusahaan atau negara, Anda dapat memaksa koneksi ke wilayah tertentu.",
                     "region_closest_label": "Terdekat",
@@ -41,7 +41,7 @@
                     "sfs_lookup_label": "Mencari pendaftaran",
                     "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database StopForumSpam ketika pengguna baru melakukan pendaftaran di forum Anda. Jika pengguna ditemukan ( username, alamat IP, email) dan data point tersebut diaktifkan bersama dengan SFS confidence level mencapai level yang Anda tentukan, maka pengguna tersebut akan dicegah untuk menyelesaikan pendaftarannya.",
                     "report_blocked_registrations_label": "Laporkan pendaftaran yang diblokir",
-                    "report_blocked_registrations_help": "Ketika sebuah pendaftaran diblokir oleh fitur Pencarian Pendaftaran, kami akan melaporkan upaya tersebut kembali ke StopForumSpam, sehingga aktivitas pengirim spam dapat dikonfirmasi dengan lebih baik. Dibutuhkan kunci API StopForumSpam yang telah diatur (lihat di bawah)."
+                    "report_blocked_registrations_help": "Ketika sebuah pendaftaran diblokir oleh fitur Pencarian Pendaftaran, kami akan melaporkan upaya tersebut kembali ke StopForumSpam, sehingga aktivitas pengirim spam dapat dikonfirmasi dengan lebih baik. Membutuhkan API key dari StopForumSpam (lihat di bawah)."
                 }
             },
             "blocked_registrations": {
