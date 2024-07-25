@@ -77,7 +77,7 @@
                     "bucket": "Bucket"
                 },
                 "preferences": {
-                    "max_file_size": "Ukuran file maksimum (dalam kilobyte)",
+                    "max_file_size": "Ukuran maksimum file (dalam kilobyte)",
                     "mime_types": "Konfigurasikan jenis MIME Anda, upload adapter mapping",
                     "title": "Preferensi umum",
                     "php_ini_values": "Value <code>php.ini</code> Anda adalah <code>post_max_size={post}</code> dan <code>upload_max_filesize={upload}</code>. Pastikan value yang ditetapkan di sini berada di bawah ambang batas ini, atau sesuaikan dengan kebutuhan Anda. Jika menggunakan <code>Nginx</code>, pastikan juga bahwa <code>client_max_body_size</code> memiliki ukuran yang cukup untuk batas maksimal yang Anda pilih."
@@ -201,7 +201,7 @@
                 "unsupported_type": "Adaptor upload tidak mendukung jenis MIME yang disediakan: {mime}.",
                 "could_not_detect_mime": "Tidak dapat mendeteksi jenis MIME file ini, harap coba lagi.",
                 "max_upload_file_size_ini": "Batas maksimal ukuran file yang di-upload dari php.ini.",
-                "max_upload_file_size_form": "Batas ukuran file maksimum yang dapat di-upload dari form.",
+                "max_upload_file_size_form": "Batas ukuran maksimum file yang dapat di-upload dari form.",
                 "partial_upload": "Upload sebagian.",
                 "no_file_uploaded": "Tidak ada file yang di-upload.",
                 "no_upload_tmp_folder": "Tidak ada folder tmp (temporary/sementara) untuk meng-upload file.",
