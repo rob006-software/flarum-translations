@@ -179,6 +179,7 @@ return [
 		'!dalez-msemoji',
 		'!dalez-twemoji',
 		'!ffans-geetest',
+		'!foskym-issue-tracking',
 		'!gbcl-userip',
 		'!huoxin-auto-follow-discussion',
 		'!imdong-spam-alert',
