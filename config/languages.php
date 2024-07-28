@@ -180,6 +180,7 @@ return [
 		'!dalez-twemoji',
 		'!ffans-geetest',
 		'!foskym-issue-tracking',
+		'!foskym-issue-tracking-youtrack',
 		'!gbcl-userip',
 		'!huoxin-auto-follow-discussion',
 		'!imdong-spam-alert',
