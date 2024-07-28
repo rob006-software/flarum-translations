@@ -2,10 +2,10 @@
     "kyrne-websocket": {
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {Tampilkan # diskusi yang diperbarui} other {Tampilkan # diskusi yang diperbarui}}"
             },
             "discussion_page": {
-                "viewing_title": ""
+                "viewing_title": "Di sini sekarang:"
             },
             "widget": {
                 "title": "Pengguna Online",
@@ -25,7 +25,7 @@
                 "app_port_label": "Port",
                 "app_host_label": "Host",
                 "app_id_label": "App ID",
-                "auto_update": "",
+                "auto_update": "Pembaruan Otomatis Diskusi",
                 "app_key_label": "App Key",
                 "app_secret_label": "App Secret",
                 "stats_label": "Interval Statistik",

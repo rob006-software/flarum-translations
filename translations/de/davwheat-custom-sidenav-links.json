@@ -7,57 +7,57 @@
                         "heading": "Anzeigeeinstellungen",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "Über \"Themen\"-Button",
+                                "below-tags-link": "Unter \"Themen\"-Button"
                             }
                         },
                         "labels": {
-                            "position": "",
+                            "position": "Link Position",
                             "top_spacer": "",
                             "bottom_spacer": ""
                         }
                     },
                     "link_table": {
                         "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "add_link_btn": "Neuen Link hinzufügen",
+                        "confirm_delete": "Bestätige das Entfernen des Links \"{link}\"",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "Du musst die oben genannten Fehler beheben, bevor du die Änderungen speichern kannst."
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
+                                "position": "Position",
+                                "icon": "Link Icon",
+                                "text": "Link Text",
+                                "url": "Link URL",
                                 "internal": "",
                                 "delete": "Entfernen"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "Meine coole Seite",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Nach oben verschieben",
+                                "move_down": "Nach unten verschieben",
+                                "icon_preview": "Icon Vorschau"
                             }
                         },
                         "save_btn": {
                             "dirty": "Einstellungen speichern",
                             "saving": "Änderungen werden gespeichert...",
-                            "saved": "",
-                            "fix_errors": ""
+                            "saved": "Keine Änderungen zum abspeichern",
+                            "fix_errors": "Behebe die Fehler vor dem Speichern"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Neuen Link hinzufügen",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Link hinzufügen",
+                            "loading": "Link wird hinzugefügt",
+                            "fix_url": "Ungültige URL",
+                            "invalid_form": "Fülle alle Felder aus"
                         },
                         "labels": {
                             "icon": "",

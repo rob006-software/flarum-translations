@@ -1,0 +1,38 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "generic": {
+                        "description": "根据自定义 OAuth2 提供程序设置登录名。",
+                        "client_id_label": "ID",
+                        "client_secret_label": "密匙",
+                        "scopes_label": "",
+                        "authorization_endpoint_label": "",
+                        "token_endpoint_label": "",
+                        "user_information_endpoint_label": "",
+                        "id_parameter_label": "",
+                        "display_name_parameter_label": "",
+                        "email_address_parameter_label": "",
+                        "force_userid_label": "",
+                        "force_name_label": "",
+                        "force_email_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_generic_button": ""
+            },
+            "providers": {
+                "generic": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "generic": ""
+            }
+        }
+    }
+}

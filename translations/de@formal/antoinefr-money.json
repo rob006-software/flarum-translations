@@ -2,37 +2,37 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "title": "Einstellungen",
+                "moneyforpost": "Geld gegeben für einen neuen Beitrag",
+                "moneyfordiscussion": "Geld gegeben für eine neue Diskussion",
+                "moneyname": "Name des Geldes (zB: [money] Punkte)",
+                "postminimumlength": "Mindestlänge des Beitrags, um das Geld zu erhalten (0 zum deaktivieren)",
+                "noshowzero": "Nicht zeigen, wenn der Betrag Null ist",
+                "autoremove": "Automatisches Aktualisieren von Geld",
+                "moneyforlike": "Gegebenes Geld, wenn ein Beitrag geliked wird",
+                "helpextensionlikes": "Erfordert die <code>flarum/likes</code> Erweiterung"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Geld bearbeiten"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Geld niemals entfernen",
+                "Wenn eine Diskussion/ein Beitrag versteckt oder wiederhergestellt wird (Standard)",
+                "Wenn eine Diskussion/ein Beitrag gelöscht wird"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Geld",
+                "action_name": "Geld geben"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Geld bearbeiten"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "{username}s Geld",
+                "current": "Aktuell:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

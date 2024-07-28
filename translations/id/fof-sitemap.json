@@ -11,15 +11,15 @@
                 "mode_help_schedule": "Mode berikut ini menambahkan tugasnya ke Flarum schedule.",
                 "mode_help_schedule_setup": "Tanpa Flarum scheduler yang diatur dengan benar, mode berikut ini tidak akan berjalan. Lihat di sini <a>untuk informasi lebih lanjut</a>.",
                 "mode_help_large": "50.000 adalah batas teknis untuk file sitemap. Jika Anda memiliki lebih banyak entri untuk disimpan, gunakan opsi berikut ini!",
-                "mode_help_multi_label": "Mode Banyak file",
+                "mode_help_multi_label": "Mode Multi-file",
                 "mode_help_multi": "Paling cocok untuk forum yang lebih besar, mulai dari 10.000 item. File sitemap terkompresi yang terdiri dari beberapa bagian akan dibuat dan disimpan dalam folder /public",
                 "advanced_options_label": "Opsi lanjutan",
                 "frequency_label": "Seberapa sering scheduler harus membangun ulang sitemap yang tersimpan dalam cache?",
-                "risky_performance_improvements": "Aktifkan risky performance improvements",
+                "risky_performance_improvements": "Aktifkan peningkatan kinerja yang berisiko",
                 "risky_performance_improvements_help": "Peningkatan ini membuat pekerjaan CRON berjalan lebih cepat pada dataset jutaan baris, tetapi mungkin merusak kompatibilitas dengan beberapa ekstensi.",
                 "modes": {
                     "runtime": "Runtime",
-                    "multi_file": "Banyak file"
+                    "multi_file": "Multi-file"
                 },
                 "frequency": {
                     "hourly": "Per jam",
