@@ -61,8 +61,8 @@
                 "post_thumbnail_list": "Tampilkan thumbnail postingan WordPress di daftar diskusi Flarum",
                 "comment_author_sync": "Menetapkan penulis diskusi dari SSO",
                 "comment_author_sync_help": "Jika penulis Wordpress telah membuat akun Flarum melalui SSO, akun Flarum tersebut akan ditetapkan sebagai pemilik diskusi komentar.",
-                "comment_tag": "",
-                "comment_tag_none": "",
+                "comment_tag": "Tag untuk thread komentar baru",
+                "comment_tag_none": "Jangan berikan tag",
                 "comment_tag_custom": "Nilai khusus",
                 "comment_tag_custom_help": "Daftar ID tag yang dipisahkan dengan koma",
                 "summary_as_last_post": "Atur ringkasan postingan sebagai postingan terakhir dari diskusi baru",
@@ -86,11 +86,11 @@
                 "wordpress_username": "Username admin WordPress"
             },
             "tabs": {
-                "wizard": "",
+                "wizard": "Install wizard",
                 "general": "Pengaturan Umum",
                 "sso": "Integrasi SSO",
                 "comments": "Integrasi Komentar",
-                "enabled": "Diaktifkan",
+                "enabled": "Aktif",
                 "disabled": "Tidak Aktif"
             },
             "appearance": {
@@ -130,18 +130,18 @@
             "role-group-sync": {
                 "head": {
                     "role": "Role WordPress",
-                    "group": ""
+                    "group": "Grup Flarum"
                 },
                 "choose": {
                     "role": "Pilih Role WordPress...",
-                    "group": ""
+                    "group": "Pilih grup"
                 },
                 "custom": {
                     "role": "Khusus...",
                     "group": "Khusus..."
                 },
                 "selected-custom-group": "Khusus",
-                "delete": "",
+                "delete": "Hapus aturan",
                 "role-loader": {
                     "loading": "Memuat role dari WordPress...",
                     "error": "Ada masalah saat memuat daftar role dari WordPress. Anda masih dapat memasukkan nama role secara manual."
@@ -185,7 +185,7 @@
                 "title": "Komentar"
             },
             "embed-link-modal": {
-                "title": "",
+                "title": "Keluar dari thread komentar",
                 "message": "Halaman ini mencoba mengalihkan Anda ke {href}",
                 "open": "Buka link"
             },
@@ -206,8 +206,8 @@
                 "role-group-sync-invalid-group": "ID grup Flarum yang dipilih tidak valid untuk sinkronisasi role ke grup: {id}",
                 "role-group-sync-invalid-role": "Role WordPress yang dipilih untuk sinkronisasi role ke grup tidak valid: {role}",
                 "lock-extension-required": "Ekstensi Lock harus diaktifkan untuk menggunakan integrasi Komentar",
-                "tags-extension-required": "",
-                "tag-not-exist": "",
+                "tags-extension-required": "Ekstensi Tag harus diaktifkan untuk menggunakan opsi \"Tag untuk thread komentar baru\"",
+                "tag-not-exist": "ID Tag {id} yang dipilih untuk opsi \"ID Tag untuk thread komentar baru\" tidak ada",
                 "debug-mode": "Mode debug Flarum diaktifkan. Nonaktifkan setelah Anda selesai melakukan debug",
                 "config-url-trailing-slash": "URL Flarum yang didefinisikan di config.php tidak boleh memiliki garis miring (nilai saat ini: \"{url}\")",
                 "config-url-https": "URL Flarum yang didefinisikan di config.php haruslah HTTPS (nilai saat ini: \"{url}\")",
@@ -228,22 +228,22 @@
                 "sso-mismatch-wordpress": "Integrasi SSO diaktifkan di WordPress, tetapi tidak di Flarum",
                 "comments-mismatch-flarum": "Integrasi Komentar diaktifkan di Flarum, tetapi tidak di WordPress",
                 "comments-mismatch-wordpress": "Integrasi Komentar diaktifkan di WordPress, tetapi tidak di Flarum",
-                "api-error-json": "",
-                "api-error-401": "Mencoba mengakses API WordPress menghasilkan error 401. Verifikasi kecocokan \" API Key Bersama\" antara pengaturan Flarum dan WordPress",
-                "api-error-other": "",
+                "api-error-json": "Mencoba mengakses API WordPress mengakibatkan error: {message} - Body: {body}",
+                "api-error-401": "Mencoba mengakses API WordPress menghasilkan error 401. Verifikasi kecocokan \"API Key Bersama\" antara pengaturan Flarum dan WordPress",
+                "api-error-other": "Mencoba mengakses API WordPress mengakibatkan error: {message}",
                 "wordpress-username-missing": "Pengaturan \"Username admin WordPress\" harus diisi",
                 "cookie-domain-mismatch": "Pengaturan \"Domain cookie\" di WordPress tidak sesuai dengan pengaturan \"Domain Cookie\" di Flarum (nilai WordPress adalah \"{wordpress}\", nilai Flarum adalah \"{flarum}\")"
             },
             "wizard": {
-                "already_installed": "",
+                "already_installed": "Flarum sudah terhubung dengan WordPress. Untuk menjalankan wizard lagi, hapus pengaturan \"URL WordPress\" di Flarum dan pengaturan \"API Key Bersama\" Flarum di WordPress.\n",
                 "api_unauthorized": "Kami tidak dapat mengautentikasi dengan kredensial yang diberikan. Periksa ulang URL, username, dan password. Periksa dokumentasi untuk mengetahui langkah-langkah pemecahan masalah lebih lanjut.\n",
-                "api_error_generic": "",
+                "api_error_generic": "Error saat melakukan POST request ke endpoint pengaturan plugin WordPress ({exception}). Pastikan plugin Flarum Integration WordPress telah diinstal dan diaktifkan.\n",
                 "invalid_wordpress_url": "Pengaturan \"Alamat WordPress (URL)\" pada WordPress tampaknya bukan merupakan URL yang valid ({actual}).",
                 "api_error_get": "Terjadi kesalahan saat melakukan GET request ke pengaturan WordPress ({exception}).",
                 "api_error_post": "Terjadi kesalahan saat melakukan POST request ke pengaturan WordPress ({exception}).",
                 "plugin_not_installed": "Plugin WordPress tampaknya tidak diinstal atau diaktifkan pada situs WordPress tersebut. Pastikan Anda telah menginstal setidaknya versi 1.2.0.\n"
             },
-            "sync_setting_error": ""
+            "sync_setting_error": "Terjadi error saat melakukan sinkronisasi pengaturan ke WordPress. Periksa secara manual apakah kotak centang di sisi WordPress diatur ke nilai yang sama seperti di Flarum. Error: {exception}.\n"
         },
         "views": {
             "error": {

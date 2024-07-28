@@ -13,13 +13,13 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": "Unggahan bersama"
+                "shared-uploads-button": "Unggahan Bersama"
             },
             "shared-uploads": {
                 "description": "Upload file yang dapat digunakan oleh semua pengguna forum Anda.",
-                "introduction": "Unggahan bersama adalah file yang dapat digunakan oleh semua pengguna forum Anda. Unggahan ini tidak dilampirkan pada postingan apa pun, tetapi dapat disisipkan ke dalam postingan dengan menggunakan pengelola media. \n\n<strong>Peringatan:</strong> Unggahan bersama tidak dilindungi oleh izin apa pun. Siapapun yang memiliki URL dapat melihatnya.\n",
+                "introduction": "Unggahan bersama adalah file yang dapat digunakan oleh semua pengguna forum Anda. Unggahan ini tidak dilampirkan pada postingan apa pun, tetapi dapat dimasukkan ke dalam postingan dengan menggunakan pengelola media. \n\n<strong>Peringatan:</strong> Unggahan bersama tidak dilindungi oleh izin apa pun. Siapapun yang memiliki URL akan dapat melihatnya.\n",
                 "no-files": "Belum ada file bersama yang diupload.",
-                "title": "Unggahan bersama",
+                "title": "Unggahan Bersama",
                 "upload-new-button": "Upload file baru"
             },
             "pane": {
@@ -30,41 +30,41 @@
                 "disable-download-logging": "Menonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n",
                 "disable-hotlink-protection": "Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.\n",
                 "download_templates": "Template download adalah bagaimana upload ditampilkan di forum Anda, misalnya pratinjau, tombol. Saat ini tersedia:\n",
-                "mime_types": "Silakan konfigurasikan mapping Anda di sini. Setiap regular expression bertipe mime akan ditangani oleh adaptor upload dan template download tertentu.\n",
+                "mime_types": "Silakan konfigurasikan mapping Anda di sini. Setiap regular expression untuk jenis MIME akan ditangani oleh adaptor upload dan template download tertentu.\n",
                 "resize": "Pilih apakah Anda ingin mengubah ukuran gambar sebelum diunggah. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses pengubahan ukuran akan mempertahankan aspect ratio gambar.\n",
-                "client_extension": "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan MIME type.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, hal ini dapat mengakibatkan ekstensi umum digunakan, alih-alih ekstensi yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan dengan tanda koma yang akan disimpan secara kata demi kata.\n",
+                "client_extension": "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan jenis MIME.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, hal ini dapat mengakibatkan ekstensi umum digunakan, alih-alih ekstensi yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan koma yang akan disimpan kata demi kata.\n",
                 "watermark": "Tentukan apakah gambar akan ditambahkan watermark saat di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.\n",
                 "s3_compatible_storage": "Pengaturan berikut ini hanya diperlukan bila menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat mengosongkannya.\n",
                 "s3_acl": "ACL yang harus diterapkan pada objek yang diunggah (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "custom_s3_url": "Gunakan pengaturan ini jika Anda menggunakan layanan yang kompatibel dengan S3 yang memerlukan format URL tertentu (misalnya, Backblaze B2) atau jika Anda mengalami masalah dengan format URL default. Pengaturan ini umumnya tidak diperlukan untuk sebagian besar layanan. Pastikan URL menyertakan protokol (https://) dan diformat dengan benar. Contoh: https://your-bucket.s3.your-region.backblazeb2.com\n",
+                "custom_s3_url": "Gunakan pengaturan ini jika Anda menggunakan layanan yang kompatibel dengan S3 yang memerlukan format URL tertentu (misalnya, Backblaze B2) atau jika Anda mengalami masalah dengan format URL default. Pengaturan ini umumnya tidak diperlukan untuk sebagian besar layanan. Pastikan URL menyertakan protokol (https://) dan diformat dengan benar. Contoh: https://your-bucket.s3.your-region.example.com\n",
                 "s3_instance_profile": "Biarkan key dan secret kosong untuk menggunakan kredensial di instance profile.\n",
-                "composer_buttons": "Secara default, tombol pengelola media dan tombol upload terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
+                "composer_buttons": "Secara default, tombol pengelola media dan tombol upload akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
             },
             "labels": {
                 "aws-s3": {
                     "bucket": "Bucket",
                     "key": "Key",
-                    "region": "Region",
+                    "region": "Letak geografis",
                     "secret": "Secret",
                     "title": "Pengaturan AWS S3 storage",
                     "advanced_title": "Pengaturan S3 storage lanjutan",
                     "endpoint": "Endpoint",
-                    "use_path_style_endpoint": "Gunakan path style endpoint",
+                    "use_path_style_endpoint": "Gunakan path-style endpoint",
                     "acl": "Access Control List (ACL)",
                     "custom_url": "URL S3 Khusus"
                 },
                 "disable-download-logging": {
                     "title": "Nonaktifkan pencatatan download",
-                    "toggle": "Nonaktifkan"
+                    "toggle": "Matikan"
                 },
                 "disable-hotlink-protection": {
                     "title": "Nonaktifkan hotlink protection",
-                    "toggle": "Nonaktifkan"
+                    "toggle": "Matikan"
                 },
                 "imgur": {
-                    "client_id": "Imgur client ID",
+                    "client_id": "ID client Imgur",
                     "title": "Pengaturan penyimpanan gambar Imgur",
-                    "tos": "Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Terms of service</a>"
+                    "tos": "Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Ketentuan layanan</a>"
                 },
                 "local": {
                     "cdn_url": "URL Pengiriman Konten (file prefiks)",
@@ -77,8 +77,8 @@
                     "bucket": "Bucket"
                 },
                 "preferences": {
-                    "max_file_size": "Ukuran file maksimum (dalam kilobyte)",
-                    "mime_types": "Konfigurasikan mime type Anda, upload adapter mapping",
+                    "max_file_size": "Ukuran maksimum file (dalam kilobyte)",
+                    "mime_types": "Konfigurasikan jenis MIME Anda, upload adapter mapping",
                     "title": "Preferensi umum",
                     "php_ini_values": "Value <code>php.ini</code> Anda adalah <code>post_max_size={post}</code> dan <code>upload_max_filesize={upload}</code>. Pastikan value yang ditetapkan di sini berada di bawah ambang batas ini, atau sesuaikan dengan kebutuhan Anda. Jika menggunakan <code>Nginx</code>, pastikan juga bahwa <code>client_max_body_size</code> memiliki ukuran yang cukup untuk batas maksimal yang Anda pilih."
                 },
@@ -97,21 +97,21 @@
                     "toggle": "Gambar watermark"
                 },
                 "composer_buttons": {
-                    "title": "Tombol-tombol",
+                    "title": "Tombol",
                     "options": {
                         "both": "Keduanya",
                         "upload-btn": "Hanya upload button",
                         "media-btn": "Hanya tombol pengelola media"
                     }
                 },
-                "inspect-mime": "Uji jenis MIME file"
+                "inspect-mime": "Menguji jenis MIME file"
             },
             "permissions": {
                 "download_label": "Men-download file",
                 "upload_label": "Meng-upload file",
-                "view_user_uploads_label": "Melihat data upload pengguna",
-                "delete_uploads_of_others_label": "Menghapus data upload pengguna",
-                "upload_shared_label": "Upload file bersama",
+                "view_user_uploads_label": "Melihat unggahan pengguna",
+                "delete_uploads_of_others_label": "Menghapus unggahan pengguna",
+                "upload_shared_label": "Mengunggah file bersama",
                 "access_shared_label": "Mengakses file bersama di Pengelola Media"
             },
             "templates": {
@@ -122,9 +122,9 @@
                 "image-preview": "Template pratinjau gambar lengkap",
                 "image-preview_description": "Tampilkan gambar lengkap. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan dan hotlink protection dinonaktifkan.\n",
                 "markdown-image": "Template gambar markdown",
-                "markdown-image_description": "Tampilkan gambar menggunakan Markdown. <strong>Anda harus menginstal dan mengaktifkan flarum/markdown.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n",
+                "markdown-image_description": "Menampilkan gambar lengkap secara in-line menggunakan Markdown. <strong>Anda harus menginstal dan mengaktifkan flarum/markdown agar ini berfungsi.</strong> Tidak ada fungsionalitas download, tidak ada statistik yang dikumpulkan dan hotlink protection diabaikan.\n",
                 "bbcode-image": "Template gambar BBCode",
-                "bbcode-image_description": "Tampilkan gambar menggunakan BBCode. <strong>Anda harus menginstal dan mengaktifkan flarum/bbcode.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n",
+                "bbcode-image_description": "Menampilkan gambar lengkap secara in-line menggunakan BBCode. <strong>Anda harus menginstal dan mengaktifkan flarum/bbcode agar ini berfungsi.</strong> Tidak ada fungsionalitas download, tidak ada statistik yang dikumpulkan dan hotlink protection diabaikan.\n",
                 "just-url": "Hanya URL",
                 "just-url_description": "Hanya menambahkan URL. Rendering dapat ditangani oleh ekstensi lain dengan kemampuan auto-link. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n",
                 "text-preview": "Pratinjau teks",
@@ -139,14 +139,14 @@
             },
             "inspect-mime": {
                 "title": "Periksa MIME",
-                "description": "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk common MIME types and PHP Fileinfo sebagai fallback.\nNilai MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n",
+                "description": "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk jenis MIME umum dan PHP Fileinfo sebagai alternatif pengganti.\nValue dari MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n",
                 "select": "Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.",
                 "laravel-validation": "Validasi File Laravel",
                 "no-file-selected": "Tidak ada file",
                 "validation-passed": "Lulus",
                 "validation-failed": "Gagal: {error}",
-                "mime-detector": "Pendeteksi Mime (primer)",
-                "mime-fileinfo": "Informasi File PHP (fallback)",
+                "mime-detector": "Pendeteksi MIME (primer)",
+                "mime-fileinfo": "Informasi File PHP (alternatif)",
                 "guessed-extension": "Ekstensi file default (jika original tidak masuk ke dalam whitelist)",
                 "not-available": "Tidak ada hasil"
             }
@@ -198,10 +198,10 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Meng-upload file jenis ini tidak diperbolehkan.",
-                "unsupported_type": "Adaptor upload tidak mendukung mime type yang disediakan: {mime}.",
-                "could_not_detect_mime": "Tidak dapat mendeteksi MIME type file ini, harap coba lagi.",
+                "unsupported_type": "Adaptor upload tidak mendukung jenis MIME yang disediakan: {mime}.",
+                "could_not_detect_mime": "Tidak dapat mendeteksi jenis MIME file ini, harap coba lagi.",
                 "max_upload_file_size_ini": "Batas maksimal ukuran file yang di-upload dari php.ini.",
-                "max_upload_file_size_form": "Batas ukuran file maksimum yang dapat di-upload dari form.",
+                "max_upload_file_size_form": "Batas ukuran maksimum file yang dapat di-upload dari form.",
                 "partial_upload": "Upload sebagian.",
                 "no_file_uploaded": "Tidak ada file yang di-upload.",
                 "no_upload_tmp_folder": "Tidak ada folder tmp (temporary/sementara) untuk meng-upload file.",
@@ -220,7 +220,7 @@
             "file_list": {
                 "loading": "Memuat file...",
                 "empty": "Tidak ada file untuk ditampilkan.",
-                "release_to_upload": "",
+                "release_to_upload": "Lepaskan untuk mengunggah",
                 "modal_empty_desktop": "Daftar file Anda kosong. Klik tombol atau seret file ke sini untuk mengunggah.",
                 "modal_empty_phone": "Daftar file Anda kosong. Ketuk tombol di atas untuk mengunggah file.",
                 "select_file_a11y_label": "Pilih file \"{fileName}\"",

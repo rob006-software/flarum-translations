@@ -4,7 +4,7 @@
             "settings": {
                 "tier": "Tingkat {tier}: dari {from} hingga {to} post",
                 "icon-manager": {
-                    "title": "Pengelola Ikon",
+                    "title": "Pengaturan Ikon",
                     "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
@@ -12,28 +12,28 @@
                     "help": "Sesuaikan nama tingkat"
                 }
             },
-            "levelOne": "Ganti ikon di tingkat 1 - \"The Baby\"",
-            "levelOne-help": "paste di sini ikon fontawesome yang ingin Anda tampilkan di tingkat 1 (misalnya \"fas fa-square\")",
-            "levelTwo": "Ganti ikon di tingkat 2 - \"The Newbie\"",
-            "levelTwo-help": "paste di sini ikon fontawesome yang ingin Anda tampilkan di tingkat 2 (misalnya \"fas fa-square\")",
-            "levelThree": "",
-            "levelThree-help": "",
-            "levelFour": "Ganti ikon di tingkat 4 - \"The Teacher\"",
-            "levelFour-help": "paste di sini ikon fontawesome yang ingin Anda tampilkan di tingkat 4 (misalnya \"fas fa-square\")",
-            "levelFive": "Ganti ikon di tingkat 5 - \"The Monster!\"",
-            "levelFive-help": "paste di sini ikon fontawesome yang ingin Anda tampilkan di tingkat 5 (misalnya \"fas fa-square\")",
-            "levelSix": "Ganti ikon di tingkat 6 - \"The Guru!\"",
+            "levelOne": "Ganti ikon untuk tingkat 1 - \"Bayi\"",
+            "levelOne-help": "paste di sini ikon fontawesome yang ingin Anda tampilkan untuk tingkat 1 (misalnya \"fas fa-square\")",
+            "levelTwo": "Ganti ikon untuk tingkat 2 - \"Pemula\"",
+            "levelTwo-help": "paste di sini ikon fontawesome yang ingin Anda tampilkan untuk tingkat 2 (misalnya \"fas fa-square\")",
+            "levelThree": "Ganti ikon untuk tingkat 3 - \"Pembicara\"",
+            "levelThree-help": "paste di sini ikon fontawesome yang ingin Anda tampilkan untuk tier 3 (misalnya \"fas fa-square\")",
+            "levelFour": "Ganti ikon untuk tingkat 4 - \"Pengajar\"",
+            "levelFour-help": "paste di sini ikon fontawesome yang ingin Anda tampilkan untuk tingkat 4 (misalnya \"fas fa-square\")",
+            "levelFive": "Ganti ikon untuk tingkat 5 - \"Monster!\"",
+            "levelFive-help": "paste di sini ikon fontawesome yang ingin Anda tampilkan untuk tingkat 5 (misalnya \"fas fa-square\")",
+            "levelSix": "Ganti ikon di tingkat 6 - \"Sang Ahli!\"",
             "levelSix-help": "paste di sini ikon fontawesome yang ingin Anda tampilkan di tingkat 6 (misalnya \"fas fa-square\")",
             "levelTree": "Ganti ikon di tingkat 3 - \"The Talker\"",
             "levelTree-help": "paste di sini ikon fontawesome yang ingin Anda tampilkan di tingkat 3 (misalnya \"fas fa-square\")"
         },
         "forum": {
-            "less10post": "Baby",
-            "less50post": "Newbie",
-            "less100post": "Talker",
-            "less300post": "Teacher",
+            "less10post": "Bayi",
+            "less50post": "Pemula",
+            "less100post": "Pembicara",
+            "less300post": "Pengajar",
             "less600post": "Monster!",
-            "less1000post": "Guru!",
+            "less1000post": "Sang Ahli!",
             "hasWritten": "{count, plural, one {# tulisan} other {# tulisan}}"
         }
     }
