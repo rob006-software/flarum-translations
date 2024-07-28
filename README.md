@@ -1116,6 +1116,10 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`matteociaroni-old-content`](https://weblate.rob006.net/projects/flarum/matteociaroni-old-content) | [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content) |
 | [`matteociaroni-public-suspensions`](https://weblate.rob006.net/projects/flarum/matteociaroni-public-suspensions) | [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions) |
 | [`matteocontrini-imgur-upload`](https://weblate.rob006.net/projects/flarum/matteocontrini-imgur-upload) | [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload) |
+| [`mattoid-store`](https://weblate.rob006.net/projects/flarum/mattoid-store) | [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store) |
+| [`mattoid-store-auto-check-in`](https://weblate.rob006.net/projects/flarum/mattoid-store-auto-check-in) | [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in) |
+| [`mattoid-store-check-in`](https://weblate.rob006.net/projects/flarum/mattoid-store-check-in) | [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in) |
+| [`mattoid-store-invite`](https://weblate.rob006.net/projects/flarum/mattoid-store-invite) | [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite) |
 | [`michaelbelgium-discussion-views`](https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views) | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) |
 | [`michaelbelgium-profile-views`](https://weblate.rob006.net/projects/flarum/michaelbelgium-profile-views) | [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) |
 | [`michaelbelgium-umami`](https://weblate.rob006.net/projects/flarum/michaelbelgium-umami) | [`michaelbelgium/flarum-umami`](https://github.com/MichaelBelgium/flarum-umami) |
