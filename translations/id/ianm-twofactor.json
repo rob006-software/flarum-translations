@@ -2,7 +2,7 @@
     "ianm-twofactor": {
         "admin": {
             "edit_group": {
-                "2fa_label": "",
+                "2fa_label": "Mengharuskan 2FA",
                 "2fa_help": "Mengharuskan anggota grup ini untuk mengaktifkan Autentikasi Dua Faktor (2FA) untuk akun mereka.",
                 "admin_2fa_help": "Anggota {adminName} harus selalu mengaktifkan 2FA."
             },
@@ -12,7 +12,7 @@
             },
             "settings": {
                 "groups": {
-                    "title": "",
+                    "title": "Grup yang mengharuskan 2FA",
                     "help": "Mengharuskan anggota grup ini untuk mengaktifkan Autentikasi Dua Faktor (2FA) untuk akun mereka. Pengguna dalam grup yang diharuskan tidak dapat menonaktifkan 2FA."
                 },
                 "forum_logo_qr": "Cantumkan Logo Forum pada Kode QR",
@@ -78,11 +78,11 @@
                 "status_changed": "Autentikasi Dua Faktor{type} untuk akun Anda"
             },
             "body": {
-                "status_changed": ""
+                "status_changed": "Halo {recipient_display_name},\n\nAutentikasi Dua Faktor telah menggunakan {type} untuk akun Anda di {forum_url}.\n\nJika Anda memulai tindakan ini, tidak ada langkah lebih lanjut yang diperlukan. Jika Anda tidak mengizinkan perubahan ini, harap segera hubungi administrator forum.\n"
             },
             "status_type": {
-                "enabled": "diaktifkan",
-                "disabled": "dinonaktifkan"
+                "enabled": "aktif",
+                "disabled": "tidak aktif"
             }
         },
         "views": {

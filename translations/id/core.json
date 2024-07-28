@@ -49,8 +49,8 @@
                 "email_confirmed_label": "Mengharuskan pengguna untuk mengonfirmasi email ini",
                 "password_placeholder": "=> core.ref.password",
                 "submit_and_create_another_button": "Buat dan tambahkan yang lain",
-                "submit_button": "Membuat pengguna",
-                "title": "Membuat pengguna baru",
+                "submit_button": "Buat pengguna",
+                "title": "Buat pengguna baru",
                 "use_random_password": "Hasilkan password acak",
                 "username_placeholder": "=> core.ref.username"
             },
@@ -189,7 +189,7 @@
             "permissions": {
                 "allow_hide_own_posts_label": "Menghapus postingan sendiri",
                 "allow_post_editing_label": "Izinkan pengeditan postingan",
-                "allow_renaming_label": "Izinkan penggantian nama",
+                "allow_renaming_label": "Izinkan pengeditan postingan",
                 "create_access_token_label": "Membuat token akses",
                 "create_heading": "Membuat",
                 "delete_discussions_forever_label": "Menghapus diskusi (permanen)",
@@ -211,7 +211,7 @@
                 "rename_discussions_label": "Mengganti judul diskusi",
                 "reply_to_discussions_label": "Membalas diskusi",
                 "search_users_label": "=> core.ref.search_users",
-                "sign_up_label": "Mendaftar",
+                "sign_up_label": "Pendaftaran",
                 "start_discussions_label": "Memulai diskusi",
                 "title": "Perizinan",
                 "view_forum_label": "Melihat forum (diskusi dan pengguna)",
@@ -316,7 +316,7 @@
             },
             "composer_edit": {
                 "discard_confirmation": "Anda belum menyimpan perubahan Anda. Apakah Anda ingin membuangnya?",
-                "edited_message": "Hasil edit Anda telah dibuat.",
+                "edited_message": "Pengeditan Anda selesai dibuat.",
                 "post_link": "Post #{number} di {discussion}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
@@ -338,7 +338,7 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Menampilkan menu dropdown tindakan diskusi"
+                "toggle_dropdown_accessible_label": "Beralih ke menu dropdown tindakan diskusi"
             },
             "discussion_list": {
                 "empty_text": "Sepertinya tidak ada diskusi di sini.",
@@ -367,7 +367,7 @@
                 "search_clear_button_accessible_label": "Hapus kueri penelusuran",
                 "search_placeholder": "Cari",
                 "search_role_label": "Cari",
-                "session_dropdown_accessible_label": "Menampilkan menu dropdown pilihan sesi",
+                "session_dropdown_accessible_label": "Beralih ke menu dropdown pilihan sesi",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -377,9 +377,9 @@
                 "mark_all_as_read_confirmation": "Anda yakin ingin menandai semua diskusi sebagai telah dibaca?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Segarkan",
+                "refresh_tooltip": "Refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": "Menampilkan menu dropdown navigasi"
+                "toggle_sidenav_dropdown_accessible_label": "Beralih ke menu dropdown navigasi"
             },
             "index_sort": {
                 "latest_button": "Terkini",
@@ -422,7 +422,7 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Anda yakin ingin menghapus post ini?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Menampilkan menu dropdown kontrol publikasi"
+                "toggle_dropdown_accessible_label": "Beralih ke menu dropdown kontrol publikasi"
             },
             "post_scrubber": {
                 "now_link": "Saat ini",
@@ -432,7 +432,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Judul lama adalah: \"{old}\"",
-                "discussion_renamed_text": "{username} mengganti judul jadi {new} {time}.",
+                "discussion_renamed_text": "{username} mengubah judulnya menjadi {new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} kemudian"
@@ -451,11 +451,11 @@
                 "cannot_terminate_current_session": "Tidak dapat mengakhiri sesi aktif saat ini. Sebagai gantinya, silahkan logout.",
                 "created": "Dibuat",
                 "current_active_session": "Sesi Aktif Saat Ini",
-                "developer_tokens_heading": "Token untuk Developer",
+                "developer_tokens_heading": "Token Pengembang",
                 "empty_text": "Sepertinya tidak ada yang bisa dilihat di sini.",
                 "global_logout": {
-                    "heading": "Logout Secara Global",
-                    "help_text": "Menghapus sesi cookie saat ini, mengakhiri semua sesi, mencabut token untuk developer, dan membatalkan email konfirmasi atau email reset password.",
+                    "heading": "Keluar Secara Global",
+                    "help_text": "Menghapus sesi cookie saat ini, mengakhiri semua sesi, mencabut token pengembang, dan membatalkan email konfirmasi atau email pengaturan ulang password.",
                     "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "Sembunyikan Token",
@@ -471,7 +471,7 @@
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Sesi Yang Aktif",
                 "session_terminated": "{count, plural, one {Sesi dihentikan} other {# Sesi dihentikan}}.",
-                "session_termination_failed": "Terjadi kesalahan saat mengakhiri sesi Anda.",
+                "session_termination_failed": "Terjadi error saat mengakhiri sesi Anda.",
                 "show_access_token": "Lihat Token",
                 "terminate_all_other_sessions": "Mengakhiri semua sesi lainnya",
                 "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
@@ -525,7 +525,7 @@
                 "delete_error_message": "Penghapusan pengguna <i>{username} ({email})</i> gagal",
                 "delete_success_message": "Pengguna <i>{username} ({email})</i> telah dihapus",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "Menampilkan menu dropdown kontrol pengguna"
+                "toggle_dropdown_accessible_label": "Beralih ke menu dropdown kontrol pengguna"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -539,7 +539,7 @@
         "lib": {
             "debug_button": "Debug",
             "alert": {
-                "dismiss_a11y_label": "Abaikan peringatan"
+                "dismiss_a11y_label": "Singkirkan peringatan"
             },
             "badge": {
                 "hidden_tooltip": "Disembunyikan"
@@ -568,8 +568,8 @@
                 "circular_dependencies_message": "Circular dependencies terdeteksi: {extensions}. Membatalkan. Nonaktifkan salah satu ekstensi dan coba lagi.",
                 "dependent_extensions_message": "Tidak dapat menonaktifkan {extension} sebelum ekstensi dependen berikut dinonaktifkan: {extensions}",
                 "extension_initialiation_failed_message": "{extension} gagal untuk menginisialisasi, periksa konsol browser untuk informasi lebih lanjut.",
-                "generic_message": "Ups! Ada yang tidak beres. Mohon untuk me-refresh halaman dan coba lagi.",
-                "generic_cross_origin_message": "Ups! Terjadi kesalahan saat melakukan request cross-origin. Mohon untuk me-refresh halaman dan coba lagi.",
+                "generic_message": "Ups! Ada yang tidak beres. Silakan muat ulang halaman dan coba lagi.",
+                "generic_cross_origin_message": "Ups! Terjadi kesalahan saat melakukan cross-origin request. Silakan muat ulang halaman dan coba lagi.",
                 "missing_dependencies_message": "Tidak dapat mengaktifkan {extension} sebelum dependensi berikut diaktifkan: {extensions}",
                 "not_found_message": "Resource yang diminta tidak ditemukan.",
                 "payload_too_large_message": "Request payload terlalu besar.",
@@ -588,7 +588,7 @@
                 "close": "Tutup"
             },
             "nav": {
-                "drawer_button": "Buka Navigation Drawer"
+                "drawer_button": "Buka Drawer Navigasi"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -607,7 +607,7 @@
             "admin": {
                 "extensions": {
                     "caption": "=> core.ref.extensions",
-                    "disable": "Nonaktifkan",
+                    "disable": "Matikan",
                     "empty": "Tidak ada ekstensi yang terpasang",
                     "enable": "Aktifkan",
                     "name": "Nama Ekstensi",
@@ -626,7 +626,7 @@
             },
             "content": {
                 "javascript_disabled_message": "Situs ini paling baik dilihat di browser modern dengan JavaScript diaktifkan.",
-                "load_error_message": "Ada yang tidak beres saat mencoba memuat versi lengkap situs ini. Coba untuk me-refresh halaman ini untuk memperbaikinya.",
+                "load_error_message": "Terjadi kesalahan saat mencoba memuat versi lengkap situs ini. Coba refresh ulang halaman ini untuk memperbaikinya.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -695,9 +695,9 @@
             "confirm_email": "Konfirmasi Email",
             "confirmation_email_sent": "Kami telah mengirimkan email konfirmasi ke {email}. Jika email tidak segera masuk, periksa folder spam Anda.",
             "custom_footer_text": "Tambahkan HTML untuk ditampilkan di bagian paling bawah halaman.",
-            "custom_footer_title": "Memodifikasi Footer Khusus",
+            "custom_footer_title": "Edit Footer Khusus",
             "custom_header_text": "Tambahkan HTML untuk ditampilkan di bagian paling atas halaman, di atas header Flarum.",
-            "custom_header_title": "Memodifikasi Header Khusus",
+            "custom_header_title": "Edit Header Khusus",
             "delete": "Hapus",
             "delete_forever": "Hapus Permanen",
             "discussions": "Diskusi",
@@ -725,14 +725,14 @@
             "rename": "Ganti nama",
             "reply": "Balas",
             "reset_your_password": "Reset Password Anda",
-            "restore": "Memulihkan",
+            "restore": "Pulihkan",
             "save_changes": "Simpan Perubahan",
             "search_users": "Cari pengguna",
             "security": "Keamanan",
             "settings": "Pengaturan",
             "sign_up": "Daftar",
             "some_others": "{count, plural, one {# lainnya} other {# lainnya}}",
-            "start_a_discussion": "Memulai Diskusi",
+            "start_a_discussion": "Mulai Diskusi",
             "username": "Username",
             "users": "Pengguna",
             "view": "Lihat",

@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "configured_by_environment": "Pengaturan bucket Anda telah dikonfigurasikan sebelumnya, tidak ada yang bisa dilihat di sini.",
-                "aws-section": "Pengaturan ini diperlukan untuk bucket yang kompatibel dengan AWS S3 dan S3",
+                "aws-section": "Pengaturan ini diperlukan untuk bucket AWS S3 dan bucket yang kompatibel dengan S3",
                 "s3-compatible-section": "Pengaturan ini hanya diperlukan untuk bucket yang kompatibel dengan S3",
                 "s3-compatible-section-help": "Biarkan pengaturan ini kosong jika menggunakan AWS S3",
                 "s3key": {
@@ -11,12 +11,12 @@
                     "help": "Kunci akses S3"
                 },
                 "s3secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "Secret",
+                    "help": "Secret akses S3"
                 },
                 "s3region": {
-                    "label": "",
-                    "help": ""
+                    "label": "Letak geografis",
+                    "help": "Letak geografis S3"
                 },
                 "s3bucket": {
                     "label": "Bucket",
@@ -35,8 +35,8 @@
                     "help": "Endpoint S3"
                 },
                 "s3path-style-endpoint": {
-                    "label": "",
-                    "help": "Beralih ke path style storage"
+                    "label": "S3 path-style endpoint",
+                    "help": "Beralih ke path-style storage"
                 }
             }
         }

@@ -2,43 +2,43 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "Niveau {tier} : de {from} à {to} messages",
                 "icon-manager": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Gestionnaire d'icônes",
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
-                    "title": "",
-                    "help": ""
+                    "title": "Gestionnaire d'étiquettes de texte",
+                    "help": "Personnaliser les noms des niveaux"
                 },
                 "color": {
-                    "bg1": "",
-                    "bg2": ""
+                    "bg1": "Arrière-plan 1",
+                    "bg2": "Arrière-plan 2"
                 }
             },
-            "levelOne": "",
-            "levelOne-help": "",
-            "levelTwo": "",
-            "levelTwo-help": "",
-            "levelThree": "",
-            "levelThree-help": "",
-            "levelFour": "",
-            "levelFour-help": "",
-            "levelFive": "",
-            "levelFive-help": "",
-            "levelSix": "",
-            "levelSix-help": ""
+            "levelOne": "Changer l'icône pour le niveau 1 - « Le bébé »",
+            "levelOne-help": "collez ici l'icône FontAwesome que vous voulez afficher pour le niveau 1 (par exemple, « fas fa-square »)",
+            "levelTwo": "Changer l'icône pour le niveau 2 - « Le nouveau »",
+            "levelTwo-help": "collez ici l'icône FontAwesome que vous voulez afficher pour le niveau 2 (par exemple, « fas fa-square »)",
+            "levelThree": "Changer l'icône pour le niveau 3 - « Le bavard »",
+            "levelThree-help": "collez ici l'icône FontAwesome que vous voulez afficher pour le niveau 3 (par exemple, « fas fa-square »)",
+            "levelFour": "Changer l'icône pour le niveau 4 - « Le professeur »",
+            "levelFour-help": "collez ici l'icône FontAwesome que vous voulez afficher pour le niveau 4 (par exemple, « fas fa-square »)",
+            "levelFive": "Changer l'icône pour le niveau 5 - « Le monstre ! »",
+            "levelFive-help": "collez ici l'icône FontAwesome que vous voulez afficher pour le niveau 5 (par exemple, « fas fa-square »)",
+            "levelSix": "Changer l'icône pour le niveau 6 - « Le gourou ! »",
+            "levelSix-help": "collez ici l'icône FontAwesome que vous voulez afficher pour le niveau 6 (par exemple, « fas fa-square »)"
         },
         "forum": {
-            "less10post": "",
-            "less50post": "",
-            "less100post": "",
-            "less300post": "",
-            "less600post": "",
-            "less1000post": "",
-            "hasWritten": "",
-            "nextBadge": "",
-            "posts": ""
+            "less10post": "Le bébé",
+            "less50post": "Le nouveau",
+            "less100post": "Le bavard",
+            "less300post": "Le professeur",
+            "less600post": "Le monstre !",
+            "less1000post": "Le gourou !",
+            "hasWritten": "Ayant : {count, plural, one {# nombre de message écrit} other {# nombre de messages écrits}}",
+            "nextBadge": "Badge suivant dans",
+            "posts": "messages"
         }
     }
 }

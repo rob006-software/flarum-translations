@@ -2,7 +2,7 @@
     "muhammedsaidckr-gemini": {
         "admin": {
             "settings": {
-                "api_key_label": "",
+                "api_key_label": "API Key",
                 "api_key_help": "Dapatkan API key Gemini dari <a>google.gemini.com</a>.",
                 "model_label": "Model",
                 "model_help": "Pilih model yang akan digunakan.",
@@ -16,7 +16,7 @@
                 "user_prompt_badge_help": "Teks akan ditampilkan di sebelah prompt pengguna.",
                 "enable_on_discussion_started_label": "Aktifkan saat diskusi dimulai",
                 "enable_on_discussion_started_help": "Diskusi akan menerima jawaban berdasarkan isi postingan pertama saat diskusi dimulai.",
-                "enabled_tags_label": "Tag yang Diaktifkan",
+                "enabled_tags_label": "Tag Aktif",
                 "enabled_tags_help": "Pilih tag mana yang akan digunakan untuk menghasilkan jawaban."
             },
             "permissions": {

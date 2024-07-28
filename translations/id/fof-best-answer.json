@@ -7,7 +7,7 @@
             },
             "settings": {
                 "label": {
-                    "tags": "",
+                    "tags": "Tag Jawaban Terbaik",
                     "general": "Umum",
                     "reminders": "Pengingat",
                     "search": "Pencarian",
@@ -15,14 +15,14 @@
                     "reminders_notice": "Agar pengingat dapat berfungsi, Anda harus mengatur Flarum scheduler dengan benar."
                 },
                 "allow_select_own_post": "Pilih postingan sendiri",
-                "allow_select_own_post_help": "Izinkan pengguna untuk memilih postingan mereka sendiri sebagai jawaban terbaik untuk sebuah diskusi",
+                "allow_select_own_post_help": "Mengizinkan pengguna untuk memilih postingan mereka sendiri sebagai jawaban terbaik untuk sebuah diskusi",
                 "show_max_lines_label": "Garis maksimum untuk ditampilkan dalam pratinjau post",
                 "show_max_lines_help": "Atur ke 0 untuk menonaktifkan. Jika postingan lebih panjang daripada jumlah baris yang dikonfigurasi, postingan akan terpotong dalam pratinjau postingan dengan efek memudar.",
                 "select_best_answer_reminder_days": "Frekuensi pengingat",
-                "select_best_answer_reminder_days_help": "Kirim pengingat setelah jumlah hari yang dapat dikonfigurasi ke Postingan Sendiri untuk memilih Jawaban Terbaik, 0 = menonaktifkan pengingat.",
+                "select_best_answer_reminder_days_help": "Kirim pengingat setelah jumlah hari yang dapat dikonfigurasi ke Original Poster untuk memilih Jawaban Terbaik, 0 = menonaktifkan pengingat.",
                 "select_best_answer_tags_label": "Tag untuk diskusi dengan Jawaban Terbaik",
-                "select_best_answer_tags_help": "Pilih tag yang mana, jika ada, yang akan ditambahkan ke diskusi ketika Jawaban Terbaik telah ditetapkan. Hanya tag sekunder yang diperbolehkan. Tag ini akan dihapus jika Jawaban Terbaik dihapus.",
-                "schedule_on_one_server": "Gunakan 'onOneServer()' directive untuk task scheduler",
+                "select_best_answer_tags_help": "Pilih tag yang akan ditambahkan ke diskusi ketika Jawaban Terbaik ditetapkan. Hanya tag sekunder yang diperbolehkan. Tag ini akan dihapus jika Jawaban Terbaik dihapus.",
+                "schedule_on_one_server": "Gunakan direktif 'onOneServer()' untuk task scheduler",
                 "schedule_on_one_server_help": "Membutuhkan Redis/Memcache",
                 "schedule_stop_overnight": "Cegah pengiriman notifikasi pengingat di luar jam kerja",
                 "schedule_stop_overnight_help": "Jam 9 malam - 8 pagi waktu server",
@@ -32,15 +32,15 @@
                 "use_alt_ui": "Tata letak alternatif",
                 "use_alt_ui_help": "Pengaturan Best Answer ada di footer postingan",
                 "documentation": "Dokumentasi",
-                "enabled_tags_label": "Tag yang Diaktifkan",
+                "enabled_tags_label": "Tag Aktif",
                 "enabled_tags_help": "Pilih tag mana, jika ada, yang akan diaktifkan Best Answers. Tag ini akan menjadi tag berformat \"Tanya Jawab\", dan akan memiliki kemampuan untuk mengatur Best Answers.",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": "",
-                "solution_search": "",
+                "remind_tags_label": "Tag Pengingat",
+                "remind_tags_help": "Pilih tag yang mana, jika ada, yang akan dikirimkan pengingat. Pengingat hanya akan dikirim untuk diskusi dengan tag ini.",
+                "tags_info": "Ketika sebuah tag Best Answer diaktifkan, tetapkan izin untuk setiap grup pengguna yang dapat menetapkan jawaban (diskusi sendiri, diskusi apa pun). Izin dapat ditetapkan secara global (untuk semua tag yang mengaktifkan Best Answer), atau per tag.\n",
+                "solution_search": "Pencarian solusi",
                 "solution_search_help": "Mengaktifkan kemampuan untuk mencari diskusi dengan Best Answers",
-                "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
+                "discussion_sidebar_jump_button": "Tampilkan tombol lompat ke Jawaban Terbaik di sidebar diskusi",
+                "discussion_sidebar_jump_button_help": "Menambahkan tombol ke sidebar diskusi yang akan langsung menuju ke Jawaban Terbaik dalam aliran postingan.",
                 "enable_all_tags_button": "Aktifkan semua tag untuk Jawaban Terbaik",
                 "enable_all_tags_reminder_button": "Aktifkan semua tag untuk pengingat Jawaban Terbaik",
                 "introduction": "Aktifkan tag mana yang akan mendukung Best Answers di <code><a>flarum/tags</a></code>, dan secara opsional tag mana yang akan mendukung pengingat. Ketika sebuah tag diaktifkan oleh Best Answer, aturlah perizinan untuk setiap grup pengguna yang dapat mengatur jawaban (diskusi sendiri, diskusi apa pun). Perizinan dapat diatur secara global (untuk setiap tag Best Answer yang diaktifkan), atau per tag.\n"
@@ -88,11 +88,11 @@
                 "best-answer-count": "{count, plural, one { {count} jawaban terbaik} other {{count} jawaban terbaik}}"
             },
             "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
+                "discussions_solutions_heading": "Diskusi dengan solusi",
+                "all_discussions_solutions_button": "Cari semua diskusi dengan solusi untuk “{query}”"
             },
             "discussion": {
-                "jump_to_best_answer_button": ""
+                "jump_to_best_answer_button": "Lihat Jawaban Terbaik"
             }
         },
         "email": {
@@ -111,7 +111,7 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "Jawaban terbaik terbanyak",
+                "most_best_answers": "Jawaban terbaik paling banyak",
                 "least_best_answers": "Jawaban terbaik paling sedikit"
             }
         }
