@@ -2,17 +2,17 @@
     "fof-webhooks": {
         "actions": {
             "poll": {
-                "voted": "",
-                "created": ""
+                "voted": "Voting pada polling `{1}`",
+                "created": "Membuat polling `{1}`"
             },
             "post": {
-                "reacted": "",
+                "reacted": "Bereaksi terhadap postingan dengan `{1}`",
                 "unreacted": "Menghapus reaksi mereka dari sebuah postingan",
-                "upvoted": "",
-                "downvoted": ""
+                "upvoted": "Dukung naik",
+                "downvoted": "Dukung turun"
             },
             "user": {
-                "enabled2fa": "Mengaktifkan 2FA"
+                "enabled2fa": "Aktifkan 2FA"
             },
             "extension": {
                 "installed": "Ekstensi Terpasang `{1}`",
@@ -44,11 +44,11 @@
                         },
                         "byobu": {
                             "title": "FriendsOfFlarum Byobu",
-                            "discussionmadepublic": ""
+                            "discussionmadepublic": "Diskusi Dipublikasikan"
                         },
                         "gamification": {
                             "title": "FriendsOfFlarum Gamification",
-                            "postwasvoted": ""
+                            "postwasvoted": "Dukung Naik/Dukung Turun"
                         },
                         "polls": {
                             "title": "FriendsOfFlarum Polls",
@@ -57,12 +57,12 @@
                         },
                         "reactions": {
                             "title": "FriendsOfFlarum Reactions",
-                            "postwasreacted": "",
-                            "postwasunreacted": ""
+                            "postwasreacted": "Posting Bereaksi",
+                            "postwasunreacted": "Posting Tidak Bereaksi"
                         },
                         "twofactor": {
                             "title": "FriendsOfFlarum Two Factor",
-                            "userenabledtwofactor": ""
+                            "userenabledtwofactor": "Pengguna Mengaktifkan 2FA"
                         }
                     }
                 }

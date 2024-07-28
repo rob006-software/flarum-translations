@@ -2,7 +2,7 @@
     "nodeloc-dislikes": {
         "admin": {
             "permissions": {
-                "dislike_posts_label": ""
+                "dislike_posts_label": "Tidak menyukai postingan"
             },
             "settings": {
                 "dislike_own_posts_help": "Jika diaktifkan, dengan izin, pengguna dapat 'tidak menyukai' post mereka sendiri di forum. Untuk mencegah pengguna menempatkan 'tidak suka' pada post mereka sendiri, nonaktifkan pengaturan ini.",
@@ -19,7 +19,7 @@
                 "disliked_by_self_text": "{users} tidak menyukai ini.",
                 "disliked_by_text": "{count, plural, one {{users} tidak menyukai ini} other {{users} tidak menyukai ini}}.",
                 "others_link": "=> core.ref.some_others",
-                "undislike_link": "",
+                "undislike_link": "Batalkan Tidak Suka",
                 "you_text": "=> core.ref.you"
             },
             "post_dislikes": {

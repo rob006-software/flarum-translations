@@ -2,7 +2,7 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
+                "backoff_label": "Kembali",
                 "backoff_help": "Jumlah detik untuk menunggu sebelum mencoba kembali job yang mendapatkan exception yang tidak tertangkap.\n",
                 "memory_label": "Memori",
                 "memory_help": "Batas memori dalam megabyte.\n",
@@ -14,9 +14,9 @@
                 "timeout_help": "Jumlah detik child process dapat berjalan.\n"
             },
             "stats": {
-                "auto_refresh": "Penyegaran Otomatis",
+                "auto_refresh": "Refresh Otomatis",
                 "heading": "Gambaran Umum Antrian",
-                "refresh": "Segarkan",
+                "refresh": "Refresh",
                 "data": {
                     "queue-name": "Antrian",
                     "pending-jobs": "Job Tertunda",

@@ -9,22 +9,22 @@
                 "show_variants_text": "Beberapa myemoji memiliki varian warna kulit. Ketika emoji dipilih pada pemilih emoji yang memiliki varian, maka akan muncul popup varian sehingga pengguna dapat memilih varian yang diinginkan.",
                 "auto_hide_label": "Sembunyi otomatis",
                 "auto_hide_text": "Menyembunyikan pemilih emoji saat emoji dipilih.",
-                "show_preview_label": "",
+                "show_preview_label": "Tampilkan bagian pratinjau",
                 "show_category_buttons_label": "Tampilkan tombol kategori",
                 "show_search_label": "Tampilkan input pencarian",
                 "show_recents_label": "Tampilkan (dan simpan) emoji yang terakhir digunakan",
                 "recents_count_label": "Jumlah emoji yang baru saja digunakan",
                 "recents_count_text": "Jumlah emoji terbaru yang akan disimpan.",
-                "emoji_style_label": "",
+                "emoji_style_label": "Gaya emoji",
                 "emoji_version_label": "Versi emoji",
                 "emoji_version_text": "Versi spesifikasi Emoji yang akan digunakan.",
-                "initial_category_label": "",
-                "initial_category_text": "",
-                "specify_categories_label": "",
+                "initial_category_label": "Kategori awal",
+                "initial_category_text": "Secara default, picker mulai menampilkan kategori Senyuman & Emosi.",
+                "specify_categories_label": "Menentukan kategori",
                 "specify_categories_text": "Anda dapat menentukan daftar kategori di sini, dan pemilih emoji hanya akan menampilkan kategori tersebut.",
-                "emoji_data_label": "",
-                "emoji_data_text": "",
-                "emoji_style_native_option": "",
+                "emoji_data_label": "Data Emoji",
+                "emoji_data_text": "Ini biasanya digunakan untuk menyediakan nama emoji yang diterjemahkan.",
+                "emoji_style_native_option": "Asli",
                 "emoji_categories": {
                     "smileys": "=> nodeloc-emoji.ref.emoji_categories.smileys",
                     "people": "=> nodeloc-emoji.ref.emoji_categories.people",
@@ -39,8 +39,8 @@
             },
             "my_emoji_section": {
                 "heading_title": "Emoji Khusus",
-                "import_json_button": "",
-                "export_json_button": "",
+                "import_json_button": "Impor JSON",
+                "export_json_button": "Ekspor JSON",
                 "import_myemoji_message": "Ini hanya akan mengimpor konfigurasi emoji. Anda perlu mengunggah gambar emoji secara manual.",
                 "edit_emoji": {
                     "emoji_category_label": "Kode kategori",
@@ -48,7 +48,7 @@
                     "modal_title": "Tambah Emoji",
                     "emoji_title_label": "Judul Emoji",
                     "delete_emoji_confirmation": "Apakah Anda yakin ingin menghapus emoji ini?",
-                    "text_to_replace_label": "",
+                    "text_to_replace_label": "Teks untuk Diganti",
                     "path_or_url_label": "Path atau URL",
                     "submit_button": "=> core.ref.save_changes",
                     "delete_emoji_button": "Hapus emoji",
@@ -84,16 +84,16 @@
         "ref": {
             "emoji_categories": {
                 "recents": "Emoji Terbaru",
-                "smileys": "Senyum & Emosi",
-                "people": "Orang & Tubuh",
+                "smileys": "Senyuman & Emosi",
+                "people": "Manusia & Tubuh",
                 "animals": "Hewan & Alam",
                 "food": "Makanan & Minuman",
                 "travel": "Perjalanan & Tempat",
                 "activities": "Aktivitas",
-                "objects": "Objek",
+                "objects": "Benda",
                 "symbols": "Simbol",
-                "flags": "",
-                "custom": ""
+                "flags": "Bendera",
+                "custom": "Khusus"
             }
         }
     }

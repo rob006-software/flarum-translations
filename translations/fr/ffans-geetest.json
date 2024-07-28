@@ -2,50 +2,50 @@
     "ffans-geetest": {
         "admin": {
             "settings": {
-                "product_service_label": "",
-                "product_service_help_text": "",
-                "product_service_v4_label": "",
-                "product_service_v3_label": "",
-                "context_event_label": "",
-                "context_event_help_text": "",
-                "context_event_login_label": "",
-                "context_event_signup_label": "",
-                "context_event_forgot_label": "",
+                "product_service_label": "Produit CAPTCHA",
+                "product_service_help_text": "La version de GeeTest CAPTCHA que vous souhaitez utiliser.",
+                "product_service_v4_label": "CAPTCHA adaptatif (v4)",
+                "product_service_v3_label": "CAPTCHA (v3)",
+                "context_event_label": "Événement contextuel",
+                "context_event_help_text": "Pour pouvoir utiliser GeeTest CAPTCHA dans différents événements contextuels ou types d'activités, vous pouvez définir une configuration autonome pour chaque contexte.",
+                "context_event_login_label": "=> core.ref.log_in",
+                "context_event_signup_label": "=> core.ref.sign_up",
+                "context_event_forgot_label": "=> core.forum.forgot_password.title",
                 "config": {
-                    "title": "",
-                    "standalone_label": "",
-                    "standalone_help_text": "",
-                    "product_label": "",
-                    "product_help_text": "",
-                    "product_float_label": "",
-                    "product_float_help_text": "",
-                    "product_popup_label": "",
-                    "product_popup_help_text": "",
-                    "product_bind_label": "",
-                    "product_bind_help_text": "",
-                    "product_learn_more_link": "",
-                    "id_label": "",
-                    "id_help_text": "",
-                    "key_label": "",
-                    "key_help_text": ""
+                    "title": "Configuration pour {context}",
+                    "standalone_label": "Autonome",
+                    "standalone_help_text": "Activer pour utiliser une configuration autonome pour ce scénario.",
+                    "product_label": "Style d'animation",
+                    "product_help_text": "Choisissez la présentation du panneau de vérification.",
+                    "product_float_label": "Flottant",
+                    "product_float_help_text": "Passer du bouton de validation au panneau de validation.",
+                    "product_popup_label": "Fenêtre contextuelle",
+                    "product_popup_help_text": "Centrer le panneau de validation",
+                    "product_bind_label": "Lier au bouton",
+                    "product_bind_help_text": "Déclencher le panneau de validation à l'aide d'un bouton spécifié.",
+                    "product_learn_more_link": "En savoir plus sur le style des widgets",
+                    "id_label": "Vérifier l'identifiant",
+                    "id_help_text": "L'identifiant de vérification de l'événement contextuel que vous avez appliqué sur le <a>tableau de bord GeeTest</a>.",
+                    "key_label": "Vérifier la clé",
+                    "key_help_text": "La clé de vérification de l'événement contextuel que vous avez appliqué sur le <a>tableau de bord GeeTest</a>."
                 }
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "submit_button": "",
-                "load_button": "",
-                "reload_button": ""
+                "title": "Tester le CAPTCHA",
+                "help_text": "Utiliser la configuration générale ci-dessus pour tester le CAPTCHA.",
+                "submit_button": "Envoyer",
+                "load_button": "Charger",
+                "reload_button": "Actualiser"
             }
         },
         "lib": {
             "verify": {
-                "success_message": "",
-                "error_message": "",
-                "error_retry_message": "",
-                "init_error_message": "",
-                "required_message": "",
-                "not_pass_message": ""
+                "success_message": "Validation réussie.",
+                "error_message": "Échec de la validation.",
+                "error_retry_message": "La validation a échoué, veuillez réessayer.",
+                "init_error_message": "La validation de l'initialisation a échoué.",
+                "required_message": "Veuillez compléter le CAPTCHA.",
+                "not_pass_message": "La validation n'a pas réussi."
             }
         }
     }

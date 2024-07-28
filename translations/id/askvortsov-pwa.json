@@ -8,7 +8,7 @@
             "pwa": {
                 "about": {
                     "description_label": "Deskripsi",
-                    "description_text": "Anda dapat mengatur deskripsi pada halaman 'Basic' di dasbor admin Anda.",
+                    "description_text": "Anda dapat mengatur deskripsi pada halaman 'Pengaturan Dasar' di beranda admin Anda.",
                     "long_name_label": "Nama panjang",
                     "long_name_text": "Nama aplikasi web yang ditampilkan kepada pengguna.",
                     "heading": "Tentang",
@@ -32,14 +32,14 @@
                 },
                 "firebase_config": {
                     "heading": "Firebase",
-                    "help_text": "Untuk menambahkan dukungan untuk push notification saat menerbitkan aplikasi Anda di Apple App Store, Anda perlu menggunakan Firebase untuk menambahkan push notification ke aplikasi Anda. Buatlah Konfigurasi Layanan Firebase Anda dan upload di sini.",
+                    "help_text": "Untuk menambahkan dukungan untuk push notification saat mempublikasikan aplikasi Anda di Apple App Store, Anda perlu menggunakan Firebase untuk menambahkan push notification ke aplikasi Anda. Buatlah Firebase Service Config dan upload di sini.",
                     "see_documentation_here": "Lihat dokumentasinya di sini",
                     "upload_successful": "Konfigurasi firebase Anda telah berhasil diunggah",
-                    "upload_file": "Unggah file"
+                    "upload_file": "Upload file"
                 },
                 "other": {
                     "heading": "Lainnya",
-                    "force_portrait_text": "Paksa orientasi portait?",
+                    "force_portrait_text": "Paksa orientasi portrait?",
                     "push_notif_preference_default_to_email_label": "Preferensi Push Default untuk Email?",
                     "push_notif_preference_default_to_email_text": "Jika true, pengguna akan mengaktifkan push notification secara default untuk semua jenis notifikasi di mana notifikasi email diaktifkan secara default. Jika false, pengguna akan menonaktifkan push notification secara default.",
                     "user_max_subscriptions_label": "Maks Push Subscription Per Pengguna",
@@ -51,15 +51,15 @@
                 "text": "Siapkan situs Flarum Anda untuk berjalan sebagai aplikasi web progresif! Harap dicatat bahwa ini tidak secara otomatis menempatkan situs Anda di toko aplikasi. Sebaliknya, ini berarti pengguna memiliki opsi 'Tambahkan ke Layar Utama' untuk situs Anda. Kami menyediakan beberapa pemeriksaan status, namun, cara terbaik untuk mengujinya adalah dengan mencoba dan menginstalnya (cari di google untuk petunjuk tentang cara menginstal aplikasi web progresif). Selain itu, harap diingat bahwa popup 'pasang PWA ini' dikontrol oleh browser, dan tidak dapat dipicu oleh pengembang/admin/program. Saya menyarankan untuk menyertakan petunjuk cara memasang PWA dalam dokumentasi situs Anda.",
                 "status_check_heading": "Pemeriksaan Status",
                 "logo_heading": "Logo dan Ikon",
-                "logo_text": "Anda harus meng-upload setidaknya satu logo agar aplikasi web progresif Anda dapat diinstal. Harap diperhatikan bahwa semua logo harus berbentuk persegi; jika tidak, ukurannya akan diubah dan mungkin melebar.\n\nAda sejumlah opsi ukuran yang tersedia di bawah ini. Saya menyarankan untuk mencoba meng-upload logo ke sebanyak mungkin: ini mendukung banyak perangkat.\n\nHarap diperhatikan bahwa Anda bisa meng-upload 1 logo besar ke input untuk logo yang lebih kecil. Misalnya, Anda bisa meng-upload logo berukuran 1000px x 1000px ke SEMUA input file di bawah ini. Namun, jika Anda mencoba meng-upload logo berukuran 50px x 50px ke input 512x512, ukurannya akan jadi sangat melar.\n",
+                "logo_text": "Anda harus mengunggah setidaknya satu logo agar aplikasi web progresif Anda dapat diinstal. Harap diperhatikan bahwa semua logo harus berbentuk persegi; jika tidak, ukurannya akan diubah dan mungkin melebar.\n\nAda sejumlah pilihan ukuran yang tersedia di bawah ini. Saya sarankan untuk mencoba mengunggah logo sebanyak mungkin: ini mendukung lebih banyak perangkat.\n\nHarap diperhatikan bahwa Anda bisa mengunggah 1 logo besar ke input untuk logo yang lebih kecil. Misalnya, Anda bisa mengunggah logo berukuran 1000px x 1000px ke SEMUA input file di bawah ini. Namun, jika Anda mencoba mengunggah logo berukuran 50px x 50px ke input 512x512, ukurannya akan jadi sangat melar.\n",
                 "logo_size_text": "Upload logo yang akan diskalakan ke ukuran {size} piksel dengan ukuran {size} piksel.",
                 "submit_button": "Simpan Pengaturan",
                 "refreshed_message": "Konfigurasi PWA berhasil di-refresh."
             },
             "status": {
                 "config_no_https": "URL di file config.php Anda tidak menggunakan HTTPS. HTTPS diperlukan agar Aplikasi Web Progresif dapat berfungsi.",
-                "possible_https_disabled": "Situs Anda mungkin tidak berjalan pada HTTPS. Menghapus cache Anda (halaman dasbor admin => tombol peralatan) mungkin bisa membantu. Jika iya, abaikan hal ini. Jika tidak, perlu diingat bahwa HTTPS diperlukan agar Aplikasi Web Progresif dapat berfungsi.",
-                "no_logo": "Anda harus meng-upload setidaknya satu logo, dengan ukuran minimal 144x144px, agar PWA dapat diinstal.",
+                "possible_https_disabled": "Situs Anda mungkin tidak berjalan pada HTTPS. Menghapus cache Anda (halaman beranda admin => tombol peralatan) mungkin bisa membantu. Jika iya, abaikan hal ini. Jika tidak, perlu diingat bahwa HTTPS diperlukan agar Aplikasi Web Progresif dapat berfungsi.",
+                "no_logo": "Anda harus mengunggah setidaknya satu logo, dengan ukuran minimal 144x144px, agar PWA dapat diinstal.",
                 "no_name": "Anda harus memberikan nama lengkap agar aplikasi Anda dapat berfungsi.",
                 "no_vapid_keys": "VAPID key tidak ditemukan. Ini diperlukan agar push notification dapat dikirim. Anda dapat mereset VAPID key di bawah ini.",
                 "key_gen_failed": "Pembuatan key yang diperlukan untuk push notification telah gagal. Pesan kesalahan lengkapnya adalah: {error}",
@@ -85,10 +85,10 @@
                 "share_button": "Bagikan"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Push",
                 "pwa_notifications": {
                     "access_default": "Karena adanya pembatasan browser, Anda harus memilih untuk menerima push notification pada perangkat ini.",
-                    "access_default_button": "",
+                    "access_default_button": "Opt In",
                     "access_denied": "Anda harus menyesuaikan pengaturan browser Anda untuk menerima push notification pada perangkat ini.",
                     "access_denied_button": "Pelajari Caranya",
                     "no_browser_support": "Browser ini tidak mendukung push notification untuk aplikasi web progresif.",

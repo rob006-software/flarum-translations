@@ -78,11 +78,11 @@
                 "status_changed": "Autentikasi Dua Faktor{type} untuk akun Anda"
             },
             "body": {
-                "status_changed": ""
+                "status_changed": "Halo {recipient_display_name},\n\nAutentikasi Dua Faktor telah menggunakan {type} untuk akun Anda di {forum_url}.\n\nJika Anda memulai tindakan ini, tidak ada langkah lebih lanjut yang diperlukan. Jika Anda tidak mengizinkan perubahan ini, harap segera hubungi administrator forum.\n"
             },
             "status_type": {
-                "enabled": "diaktifkan",
-                "disabled": "dinonaktifkan"
+                "enabled": "aktif",
+                "disabled": "tidak aktif"
             }
         },
         "views": {

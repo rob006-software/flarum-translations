@@ -110,12 +110,12 @@
                     "title": "Rating artikel",
                     "loading_ratings": "Memuat rating",
                     "no_ratings_found": "Tidak ditemukan rating yang sesuai dengan kriteria pencarian Anda",
-                    "article_not_rated": "",
+                    "article_not_rated": "Artikel ini belum mendapat rating.",
                     "confirm_delete_rating": "Apakah Anda yakin ingin menghapus rating ini?",
                     "feedback": "Umpan balik",
                     "rating": "Rating",
                     "username": "=> core.ref.username",
-                    "rated_on": ""
+                    "rated_on": "Diberikan rating pada"
                 }
             },
             "utils": {
@@ -144,7 +144,7 @@
                 "ticket_does_not_exist": "Tiket dukungan yang diminta tidak ada.",
                 "return_to_overview": "Kembali ke gambaran umum tiket",
                 "ticket_overview": "Gambaran umum tiket",
-                "opened_on": "",
+                "opened_on": "Dibuka pada",
                 "ticket_activity": "Oleh {username}, aktivitas terakhir {date}",
                 "reminders_sent": "{count, plural, one {Satu pengingat terkirim} other {# pengingat terkirim}}",
                 "convert_to_ticket": {
@@ -205,14 +205,14 @@
                     "title": "Notifikasi Tiket",
                     "no_tickets": "Tidak ada notifikasi tiket",
                     "ticket_new": "{username} membuat tiket {ticket}",
-                    "ticket_updated": ""
+                    "ticket_updated": "{username} memposting di {ticket}"
                 },
                 "fields": {
                     "language": {
                         "title": "Bahasa",
                         "placeholder": "Pilih bahasa",
                         "empty": "Tidak ada bahasa yang dipilih",
-                        "description": ""
+                        "description": "Tiket dukungan Anda akan ditangani dalam bahasa {language}."
                     },
                     "subject": {
                         "title": "Subjek",
@@ -260,7 +260,7 @@
                     "selection_unfiltered": "Tidak difilter",
                     "selection_open": "Tiket terbuka",
                     "selection_closed": "Tiket tertutup",
-                    "refresh": "",
+                    "refresh": "Refresh",
                     "filter": {
                         "status": {
                             "title": "Status tiket",
@@ -276,10 +276,10 @@
                         }
                     },
                     "sort": {
-                        "newest": "",
-                        "oldest": "",
-                        "recent_activity": "",
-                        "least_recent": ""
+                        "newest": "Terbaru",
+                        "oldest": "Terlama",
+                        "recent_activity": "Aktivitas terkini",
+                        "least_recent": "Aktivitas terakhir yang paling sedikit"
                     }
                 }
             },

@@ -13,7 +13,7 @@
                 "self_edit": "Mengedit undian yang telah dibuat (membutuhkan izin edit post)",
                 "self_post_edit": "Mengedit *semua* undian pada postingan sendiri (membutuhkan izin edit post)",
                 "enter": "Dapat mengikuti undian",
-                "canCancelEnter": "",
+                "canCancelEnter": "Dapat mengubah input",
                 "moderate": "Mengedit & menghapus undian"
             }
         },
@@ -22,8 +22,8 @@
             "no_permission": "Anda tidak memiliki izin untuk masuk",
             "lottery_ended": "Undian ini telah berakhir.",
             "public_lottery": "Lihat Peserta",
-            "max_votes_allowed": "",
-            "widget-title": "",
+            "max_votes_allowed": "undian memungkinkan voting untuk {max, plural, one {# opsi} other {# opsi}}.",
+            "widget-title": "Event yang akan datang dimulai pada...",
             "days": "Hari",
             "hours": "Jam",
             "minutes": "Menit",
@@ -43,7 +43,7 @@
                 "in_queue_alert": "Anda telah mengikuti undian."
             },
             "modal": {
-                "add_title": "Menambahkan undian",
+                "add_title": "Tambahkan undian",
                 "lottery_placeholder": "Hadiah",
                 "price": "Harga",
                 "amount": "Jumlah",
@@ -62,21 +62,21 @@
                 "option_placeholder": "Ambang batas",
                 "image_option_placeholder": "URL gambar (opsional)",
                 "options_label": "Kondisi yang membatasi",
-                "public_lottery_label": "",
-                "allow_multiple_votes_label": "",
+                "public_lottery_label": "Izinkan orang untuk melihat siapa yang memilih",
+                "allow_multiple_votes_label": "Izinkan orang untuk memilih lebih dari satu opsi",
                 "participants_label": "Peserta",
                 "participants_help": "Batalkan jika terlalu sedikit jumlah peserta, dan batalkan partisipasi jika melebihi jumlah maksimum...",
-                "hide_votes_label": "",
+                "hide_votes_label": "Menyembunyikan pilihan sampai undian berakhir",
                 "allow_cancel_enter_label": "Izinkan pengguna untuk membatalkan partisipasi",
                 "submit": "Submit",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": "",
-                "money": "",
-                "lotteries_made": "",
+                "discussions_started": "Diskusi dimulai",
+                "posts_made": "Postingan yang dibuat",
+                "likes_given": "Suka yang diberikan",
+                "likes_received": "Suka yang diterima",
+                "best_answers": "Jawaban terbaik",
+                "moderator_strikes": "Teguran moderator",
+                "money": "Uang",
+                "lotteries_made": "Undian dimulai",
                 "not_enough": "Tidak cukup"
             },
             "moderation": {
@@ -87,7 +87,7 @@
             },
             "tooltip": {
                 "badge": "undian",
-                "votes": ""
+                "votes": "{count, plural, one {# suara} other {# suara}}"
             },
             "participants_modal": {
                 "title": "Peserta"

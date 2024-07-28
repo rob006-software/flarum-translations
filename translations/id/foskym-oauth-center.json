@@ -2,7 +2,7 @@
     "foskym-oauth-center": {
         "admin": {
             "permission": {
-                "use_oauth": "Gunakan OAuth"
+                "use_oauth": "Menggunakan OAuth"
             },
             "page": {
                 "index": "Beranda",
@@ -14,9 +14,9 @@
                 "display_mode": "Mode Tampilan",
                 "access_lifetime": "Masa Berlaku Token Akses (detik)",
                 "allow_implicit": "Izinkan Implicit Grant (response_type = token)",
-                "enforce_state": "Menerapkan State Validation (parameter state)",
+                "enforce_state": "Menerapkan State Validation (state parameter)",
                 "require_exact_redirect_uri": "Memerlukan URI Pengalihan yang Tepat",
-                "authorization_method_fetch": ""
+                "authorization_method_fetch": "Metode Otorisasi Pengambilan (Tidak langsung mengarahkan ke)"
             },
             "clients": {
                 "client_id": "ID Client",
@@ -39,7 +39,7 @@
                 "scope_name": "Nama",
                 "scope_icon": "Ikon",
                 "scope_desc": "Deskripsi",
-                "visible_fields": "",
+                "visible_fields": "Kolom Yang Terlihat",
                 "add_button": "Tambah Cakupan",
                 "edit_scope": "Edit Cakupan"
             },
@@ -51,15 +51,15 @@
         "forum": {
             "page": {
                 "title": {
-                    "authorize": ""
+                    "authorize": "Mengizinkan"
                 },
                 "label": {
-                    "authorized": ""
+                    "authorized": "Log Otorisasi"
                 }
             },
             "authorize": {
-                "require_these_scopes": "",
-                "access": "",
+                "require_these_scopes": "Membutuhkan cakupan ini",
+                "access": "Akses ke",
                 "agree": "Setuju",
                 "deny": "Tolak"
             },

@@ -27,15 +27,15 @@
                         "authorize": "URL endpoint autorisasi",
                         "token": "URL endpoint token",
                         "userinfo": "URL endpoint informasi pengguna",
-                        "logout": "",
+                        "logout": "Mengakhiri sesi (logout) endpoint URL",
                         "jwks": "URL JWKS endpoint"
                     },
-                    "issuer": "",
-                    "code_challenge_method": "",
+                    "issuer": "URL Issuer",
+                    "code_challenge_method": "Metode code challenge",
                     "response_type": "Jenis respons provider terhadap autorisasi",
-                    "id_token_signing_alg": "",
+                    "id_token_signing_alg": "Algoritme penandatanganan token ID",
                     "authorization_response_iss_parameter_supported": "Parameter respons autorisasi adalah parameter yang didukung",
-                    "token_endpoint_auth_method": ""
+                    "token_endpoint_auth_method": "Metode autentikasi token endpoint"
                 },
                 "other": {
                     "title": "Pengaturan lainnya",
@@ -47,7 +47,7 @@
                     "logout_from_provider": "Logout dari provider (ketika mode SSO diaktifkan)",
                     "remove_signup_btn": "Hapus tombol pendaftaran",
                     "sync_avatars": "Sinkronisasi avatar pengguna",
-                    "time_drift": ""
+                    "time_drift": "Pergeseran waktu JWT"
                 },
                 "provider_name": "Nama provider OpenID Connect",
                 "client_settings_title": "Pengaturan client",
