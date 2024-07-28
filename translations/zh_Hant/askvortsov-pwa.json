@@ -44,8 +44,8 @@
                     "push_notif_preference_default_to_email_text": "打開後，將預設用戶依照電子郵件的通知類型來啟用推送通知。 如果關閉，將禁用電子郵件的相關通知類型推送。",
                     "user_max_subscriptions_label": "每個用戶的最大推送訂閱",
                     "user_max_subscriptions_text": "每個用戶一次應該有多少個推送訂閱？ 當用戶收到推送通知時，每個訂閱都會導致一次的 API 調用。 每個訂閱對應於用戶使用過的瀏覽器。",
-                    "window_controls_overlay_label": "",
-                    "window_controls_overlay_text": ""
+                    "window_controls_overlay_label": "啟用視窗控制項覆蓋？",
+                    "window_controls_overlay_text": "如果開啟，使用者將能夠透過隱藏本機標題列獲得更身臨其境、類似本機的體驗。視窗控制疊加是否啟用取決於使用者的偏好和瀏覽器的相容性。啟用後，您必須透過添加一些 CSS/JS 來自訂您的標題欄，否則控制項將覆蓋論壇頂部導覽列的某些元素，並且視窗幾乎無法拖曳，從而導致糟糕的體驗。\n\n另請參閱：<compatibilitylink>視窗控制項疊加的相容性</compatibilitylink> 和 <learnlink>關於 Microsoft Learn 中的視窗控制項疊加</learnlink>\n"
                 },
                 "heading": "PWA 設定",
                 "text": "將您的 Flarum 論壇配置為 PWA！請注意，這不會將您的網站提交到應用程式商店，而是增加一個「新增至主螢幕」的選項。",

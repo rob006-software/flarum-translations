@@ -2,96 +2,96 @@
     "ianm-twofactor": {
         "admin": {
             "edit_group": {
-                "2fa_label": "",
-                "2fa_help": "",
-                "admin_2fa_help": ""
+                "2fa_label": "2FA benötigt",
+                "2fa_help": "Mitglieder in dieser Gruppe müssen die Zwei-Faktor-Authentifizierung (2FA) für ihr Konto aktivieren.",
+                "admin_2fa_help": "{adminName}-Mitglieder müssen immer 2FA aktiviert haben."
             },
             "permissions": {
-                "see_two_factor_status_label": "",
-                "manage_others_label": ""
+                "see_two_factor_status_label": "2FA-Status anderer Benutzer einsehen",
+                "manage_others_label": "2FA für andere Nutzer verwalten"
             },
             "settings": {
                 "groups": {
-                    "title": "",
-                    "help": ""
+                    "title": "Gruppen die 2FA benötigen",
+                    "help": "Verpflichte Mitglieder dieser Gruppen, die Zwei-Faktor-Authentifizierung (2FA) für ihr Konto zu aktivieren. Ein Benutzer in einer dieser Gruppen kann die 2FA nicht deaktivieren."
                 },
-                "forum_logo_qr": "",
-                "forum_logo_qr_help": "",
-                "forum_logo_qr_width": "",
-                "forum_logo_qr_width_help": "",
-                "logo_qr": "",
-                "logo_qr_help": "",
+                "forum_logo_qr": "Forum-Logo im QR-Code einbinden",
+                "forum_logo_qr_help": "Binde das Logo des Forums in den QR-Code ein, der bei der Aktivierung von 2FA angezeigt wird. Dies kann Nutzern helfen, den richtigen QR-Code zum Scannen zu identifizieren.",
+                "forum_logo_qr_width": "Breite des Logos im QR-Code",
+                "forum_logo_qr_width_help": "Die Breite des Forum-Logos, das in den QR-Code eingebunden ist, der bei Aktivierung von 2FA angezeigt wird. Maximal 200.",
+                "logo_qr": "Logo im QR-Code",
+                "logo_qr_help": "Wenn ein Logo hochgeladen wurde, wird dieses Logo in den QR-Code eingebunden. Lasse das Feld leer, um das Logo des Forums zu verwenden.",
                 "tokens": {
-                    "heading": "",
-                    "help": "",
-                    "kill_inactive_tokens": "",
-                    "kill_inactive_tokens_help": "",
-                    "kill_inactive_tokens_age_days": "",
-                    "kill_inactive_tokens_age_days_help": "",
-                    "also_kill_developer_tokens": "",
-                    "also_kill_developer_tokens_help": ""
+                    "heading": "Zugangstoken",
+                    "help": "Um die Sicherheit zu erhöhen, kannst hier zusätzliche Verhaltensweisen in Bezug auf Zugangstoken verwalten.",
+                    "kill_inactive_tokens": "Inaktive Token entfernen",
+                    "kill_inactive_tokens_help": "Automatische Entfernung von Zugangstokens, die für einen bestimmten Zeitraum inaktiv waren.",
+                    "kill_inactive_tokens_age_days": "Entferne inaktive Tokens nach (Tagen)",
+                    "kill_inactive_tokens_age_days_help": "Die Anzahl der Tage der Inaktivität, nach denen die Zugangstoken entfernt werden.",
+                    "also_kill_developer_tokens": "Auch Entwickler-Token entfernen",
+                    "also_kill_developer_tokens_help": "Auch die Entwickler-Tokens entfernen, die für den festgelegten Zeitraum inaktiv sind."
                 }
             }
         },
         "forum": {
             "user_2fa": {
-                "alert_message": ""
+                "alert_message": "Du musst die Zwei-Faktor-Authentifizierung aktivieren, um weiterhin auf dein Konto zugreifen zu können."
             },
             "security": {
-                "two_factor_heading": "",
-                "two_factor_help": "",
-                "two_factor_apps": "",
-                "two_factor_enabled": "",
-                "two_factor_disabled": "",
-                "two_factor_title": "",
-                "enable_2fa_button": "",
-                "disable_2fa_button": "",
-                "enable_2fa_modal_text": "",
-                "qr_code_alt": "",
-                "enter_token": "",
-                "verify_button": "",
-                "loading_qr": "",
-                "backup_codes": "",
-                "backup_codes_instruction": "",
-                "saved_backup_codes_button": "",
-                "backup_codes_remaining": "",
-                "two_factor_enabled_confirmation": "",
-                "ok_button": "",
-                "confirm_disable_2fa_title": "",
-                "confirm_disable_2fa_text": "",
-                "confirm_disable_2fa_text_other_user": "",
-                "cannot_disable": "",
-                "cannot_disable_tooltip": "",
-                "cancel_button": "",
-                "qr_tab": "",
-                "manual_tab": "",
-                "scan_qr_instruction": "",
-                "manual_entry_instruction": ""
+                "two_factor_heading": "2FA",
+                "two_factor_help": "Die Zwei-Faktor-Authentifizierung (2FA) bietet eine zusätzliche Sicherheitsebene für dein Konto. Nach der Aktivierung muss zusätzlich zu deinem Passwort ein Schlüssel aus deiner Authentifizierungs-App eingegeben werden, wenn du dich anmeldest oder bestimmte andere Aktionen durchführst. Dies gewährleistet, dass dein Konto sicher bleibt, selbst wenn dein Passwort geknackt wird, da Angreifer ebenfalls diesen Code benötigen (der sich alle 30 Sekunden ändert), um auf dein Konto zuzugreifen.",
+                "two_factor_apps": "Apps wie {google}, {authy}, {microsoft} und mehr stehen kostenlos zu Verfügung.",
+                "two_factor_enabled": "2FA ist für dieses Konto aktiviert.",
+                "two_factor_disabled": "2FA ist für dieses Konto deaktiviert.",
+                "two_factor_title": "Status:",
+                "enable_2fa_button": "2FA aktivieren",
+                "disable_2fa_button": "2FA deaktivieren",
+                "enable_2fa_modal_text": "Scanne den unten stehenden QR-Code mit deiner Authentifizierungs-App und gebe dann den generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.",
+                "qr_code_alt": "QR-Code für Zwei-Faktor-Authentifizierung",
+                "enter_token": "Sicherheitsschlüssel eingeben",
+                "verify_button": "Bestätigen",
+                "loading_qr": "QR-Code wird geladen...",
+                "backup_codes": "Deine Backup-Codes",
+                "backup_codes_instruction": "Bitte bewahre diese Codes an einem sicheren Ort auf. Sie können für den Zugriff auf dein Konto verwendet werden, wenn du deine primäre Authentifizierungsmethode verlierst. Sie können nicht nochmal angezeigt werden.",
+                "saved_backup_codes_button": "Ich habe diese Codes gespeichert",
+                "backup_codes_remaining": "Verbleibende Backup-Codes:",
+                "two_factor_enabled_confirmation": "Die Zwei-Faktor-Authentifizierung für dein Konto wurde erfolgreich aktiviert.",
+                "ok_button": "Ok",
+                "confirm_disable_2fa_title": "Bestätige das Deaktivieren der Zwei-Faktor-Authentifizierung",
+                "confirm_disable_2fa_text": "Bist du sicher, dass du die Zwei-Faktor-Authentifizierung deaktivieren möchtest?",
+                "confirm_disable_2fa_text_other_user": "Bist du sicher, dass du die Zwei-Faktor-Authentifizierung für {username} deaktivieren möchtest? Das entfernt alle Backup-Codes und deaktiviert die 2FA für sein Konto.",
+                "cannot_disable": "Die aktuelle Konfiguration sieht vor, dass du die Zwei-Faktor-Authentifizierung nicht deaktivieren kannst.",
+                "cannot_disable_tooltip": "2FA kann nicht deaktiviert werden",
+                "cancel_button": "Abbrechen",
+                "qr_tab": "QR-Code scannen",
+                "manual_tab": "Manuelle Einrichtung",
+                "scan_qr_instruction": "Scanne den obigen QR-Code mit deiner Authentifizierungs-App und gebe dann den generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren.",
+                "manual_entry_instruction": "Gebe den bereitgestellten Code in deiner Authentifizierungs-App ein und gebe dann den dort generierten Sicherheitsschlüssel ein, um die Zwei-Faktor-Authentifizierung zu aktivieren."
             },
             "log_in": {
-                "two_factor_placeholder": "",
-                "two_factor_required_message": ""
+                "two_factor_placeholder": "2FA Sicherheitsschlüssel, z.B. 123456",
+                "two_factor_required_message": "Ein gültiger 2FA Sicherheitsschlüssel wird benötigt um fortzufahren."
             }
         },
         "email": {
             "subject": {
-                "status_changed": ""
+                "status_changed": "Zwei-Faktor-Authentifizierung für dein Konto {type}"
             },
             "body": {
-                "status_changed": ""
+                "status_changed": "Hallo {recipient_display_name},\n\nDie Zwei-Faktor-Authentifizierung für dein Konto auf {forum_url} wurde {type}.\n\nWenn du diese Änderung vorgenommen hast, sind keine weiteren Schritte notwendig. Solltest du diese Umstellung nicht autorisiert haben, kontaktiere bitte umgehend die Forum-Administratoren.\n"
             },
             "status_type": {
-                "enabled": "",
-                "disabled": ""
+                "enabled": "aktiviert",
+                "disabled": "deaktiviert"
             }
         },
         "views": {
             "reset_password": {
-                "two_factor_token_label": ""
+                "two_factor_token_label": "2FA Sicherheitsschlüssel"
             },
             "two_factor_token": {
-                "title": "",
-                "submit_button": ""
+                "title": "Zwei-Faktor-Authentifizierung",
+                "submit_button": "Absenden"
             }
         }
     },
@@ -99,8 +99,8 @@
         "lib": {
             "data": {
                 "twofactordata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Exportiert den 2FA-Status und verschlüsselte Backup-Codes.",
+                    "delete_description": "Löscht alle Daten in Bezug auf die Zwei-Faktor-Authentifizierung."
                 }
             }
         }

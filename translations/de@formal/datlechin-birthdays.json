@@ -2,57 +2,57 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Eigenen Geburtstag bearbeiten",
+                "view_birthday_label": "Geburtstag ansehen"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Geburtsdatum bei der Registrierung angeben",
+                "required_label": "Erforderliche Eingabe von Geburtstagen",
+                "required_help": "Sie müssen die Option Bei Registrierung festlegen aktivieren, damit diese Einstellung funktioniert",
+                "min_age_label": "Mindestalter",
+                "min_age_help": "Mindestalter für die Registrierung",
+                "date_format_label": "Datumsformat",
+                "date_format_help": "Das <a>dayjs</a>-Datumsforma verwenden. Lassen Sie dieses Feld leer, um das Standardformat zu verwenden.",
+                "date_none_year_label": "Datumsformat ohne Jahr"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Geburtstag: {date}",
+                "age_text": "{age} Jahre alt"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "Geburtsdatum ändern",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "change_dob_label": "Geburtsdatum ändern",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Geburtstag und Monat anzeigen",
+                "show_dob_year_label": "Geburtsjahr anzeigen",
+                "show_dob_year_help": "Das erlaubt andere Benutzer Ihr Alter zu sehen."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Heutige Geburtstage"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Diskussion: #} other {Diskussionen: #}}",
+                "post_count": "{count, plural, one {Beitrag: #} other {Beiträge: #}}"
             },
             "sign_up": {
-                "dob_placeholder": ""
+                "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Ungültiges Geburtsdatum",
+            "invalid_age_message": "Ihr Alter muss mindestens {minAge} Jahre betragen."
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Geburtstag"
         }
     }
 }

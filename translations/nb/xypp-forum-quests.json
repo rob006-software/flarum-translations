@@ -1,0 +1,94 @@
+{
+    "xypp-forum-quests": {
+        "forum": {
+            "reward_not_found": "",
+            "condition_not_found": "",
+            "notification": {
+                "quest_done": "",
+                "quest_done_label": ""
+            },
+            "condition": {
+                "condition": "",
+                "format": "",
+                "and": "",
+                "span": ""
+            },
+            "reward": {
+                "reward": "",
+                "format": "",
+                "and": ""
+            },
+            "quest": {
+                "quest": "",
+                "load_more": "",
+                "done": ""
+            },
+            "re_available": {
+                "none": "",
+                "day": "",
+                "hour": ""
+            },
+            "condition_view": {
+                "button": "",
+                "title": "",
+                "name": "",
+                "value": "",
+                "span": "",
+                "set_span": ""
+            },
+            "quest_done": {
+                "all": "",
+                "true": "",
+                "false": ""
+            }
+        },
+        "admin": {
+            "settings": "",
+            "timezone": "",
+            "allow_update": "",
+            "data": "",
+            "table": {
+                "id": "",
+                "name": "",
+                "description": "",
+                "operation": "",
+                "load_more": "",
+                "remove_confirm": "",
+                "create": ""
+            },
+            "create-modal": {
+                "title": "",
+                "edit": "",
+                "name": "",
+                "description": "",
+                "icon": "",
+                "hidden": "",
+                "condition": "",
+                "reward": "",
+                "condition-name": "",
+                "condition-operator": "",
+                "condition-value": "",
+                "condition-span": "",
+                "condition-alter_name": "",
+                "reward-name": "",
+                "reward-value": "",
+                "reward-get_value": "",
+                "reward-alter_name": "",
+                "button": "",
+                "button-edit": "",
+                "new_item": "",
+                "re_available": ""
+            },
+            "re_available": {
+                "none": "",
+                "day": "",
+                "hour": ""
+            }
+        },
+        "api": {
+            "condition_not_allow_frontend": "",
+            "no_manual_update": "",
+            "manual_condition_cannot_hidden": ""
+        }
+    }
+}

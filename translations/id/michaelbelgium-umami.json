@@ -2,30 +2,30 @@
     "michaelbelgium-umami": {
         "admin": {
             "widget": {
-                "live": "",
-                "views": "",
-                "visits": "",
-                "visitors": ""
+                "live": "Tampilan halaman",
+                "views": "Tampilan halaman",
+                "visits": "Kunjungan",
+                "visitors": "Pengunjung"
             },
             "settings": {
                 "errors": {
-                    "no_connection": ""
+                    "no_connection": "Tidak dapat mengambil statistik, periksa kredensial API Anda."
                 },
                 "site_id": {
-                    "label": "",
-                    "help": ""
+                    "label": "ID Website",
+                    "help": "ID situs website dari instance Flarum ini di Umami. Anda dapat menemukannya dalam detail pengaturan situs web di Umami."
                 },
                 "domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Domain",
+                    "help": "Domain tempat Umami berada."
                 },
                 "username": {
-                    "label": "",
-                    "help": ""
+                    "label": "Username akun",
+                    "help": "Opsional. Username akun umami pada domain di atas. (digunakan untuk admin dashboard widget)"
                 },
                 "password": {
-                    "label": "",
-                    "help": ""
+                    "label": "Password akun",
+                    "help": "Opsional. Password dari username diatas. (digunakan untuk admin dashboard widget)"
                 }
             }
         }

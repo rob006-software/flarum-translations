@@ -12,8 +12,8 @@
                 "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "Uji reCAPTCHA",
-                "help_text": "Pengujian ini akan menggunakan nilai saat ini yang dimasukkan di atas. Pastikan untuk memuat ulang pengujian setelah memodifikasi pengaturan, dan jangan lupa untuk menyimpan setelah pengujian selesai!\nDi bawah ini mungkin tidak mencerminkan pengaturan yang disimpan.\n",
+                "title": "Tes reCAPTCHA",
+                "help_text": "Tes ini akan menggunakan nilai saat ini yang dimasukkan di atas. Pastikan untuk memuat ulang tes setelah memodifikasi pengaturan, dan jangan lupa untuk menyimpannya setelah tes selesai!\nDi bawah ini mungkin tidak mencerminkan pengaturan yang disimpan.\n",
                 "success_message": "Berhasil! reCAPTCHA telah dikonfigurasi dengan benar.",
                 "load_test_button": "Memuat",
                 "submit_button": "Submit",
@@ -24,12 +24,12 @@
             }
         },
         "forum": {
-            "error": "Terjadi kesalahan saat memasukkan reCAPTCHA. Coba lagi.",
-            "unknown_error": "Terjadi kesalahan yang tidak diketahui. Periksa captcha dan coba lagi."
+            "error": "Terjadi error saat memasukkan reCAPTCHA. Coba lagi.",
+            "unknown_error": "Terjadi error yang tidak diketahui. Periksa captcha dan coba lagi."
         }
     },
     "validation": {
         "recaptcha": "Validasi reCAPTCHA gagal.",
-        "recaptcha-unknown": "Terjadi kesalahan yang tidak diketahui saat memvalidasi reCAPTCHA ({errors})."
+        "recaptcha-unknown": "Terjadi error yang tidak diketahui saat memvalidasi reCAPTCHA ({errors})."
     }
 }

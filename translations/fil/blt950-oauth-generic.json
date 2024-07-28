@@ -1,0 +1,38 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "generic": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": "",
+                        "scopes_label": "",
+                        "authorization_endpoint_label": "",
+                        "token_endpoint_label": "",
+                        "user_information_endpoint_label": "",
+                        "id_parameter_label": "",
+                        "display_name_parameter_label": "",
+                        "email_address_parameter_label": "",
+                        "force_userid_label": "",
+                        "force_name_label": "",
+                        "force_email_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_generic_button": ""
+            },
+            "providers": {
+                "generic": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "generic": ""
+            }
+        }
+    }
+}

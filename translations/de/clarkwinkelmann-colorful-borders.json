@@ -13,22 +13,22 @@
         },
         "admin": {
             "permissions": {
-                "editOwnPost": "",
-                "editAnyPost": ""
+                "editOwnPost": "Eigenen Beitragsstil ändern",
+                "editAnyPost": "Jeden Beitragsstil ändern"
             },
             "settings": {
-                "enableBorderColor": "",
-                "enableBackgroundColor": "",
-                "enableTextColor": "",
-                "enableBorderWidth": "",
-                "enableBorderRadius": "",
-                "min": "",
-                "max": "",
+                "enableBorderColor": "Anpassbare Rahmenfarbe",
+                "enableBackgroundColor": "Anpassbare Hintergrundfarbe",
+                "enableTextColor": "Anpassbare Textfarbe",
+                "enableBorderWidth": "Anpassbare Rahmenbreite",
+                "enableBorderRadius": "Anpassbarer Rahmenradius",
+                "min": "Min.",
+                "max": "Max.",
                 "colors": {
-                    "simple": "",
-                    "all": "",
-                    "custom": "",
-                    "custom-help": ""
+                    "simple": "Einfaches Farbset",
+                    "all": "Alle Farben",
+                    "custom": "Benutzerdefinierte Farbauswahl",
+                    "custom-help": "Durch Komma getrennte Liste von #hex oder rgb() Werten"
                 }
             }
         }
