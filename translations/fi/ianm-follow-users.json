@@ -1,4 +1,15 @@
 {
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "Vie tiedot käyttäjän seuraamisista ja seuratuista.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Poistaa kaiken datan liittyen käyttäjän seuraamiseen."
+                }
+            }
+        }
+    },
     "ianm-follow-users": {
         "admin": {
             "permissions": {
@@ -18,7 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
+                "change_button": ""
             },
             "settings": {
                 "notify_new_follower_label": "Joku seuraa minua",
@@ -71,6 +83,7 @@
             "following_link": "Seuratut käyttäjät",
             "follow": "Seuraa",
             "change_follow_type": "Vaihda seuraamisen tyyppiä",
+            "unfollow": "",
             "follow_levels": {
                 "unfollow": {
                     "name": "Älä seuraa",

@@ -10,7 +10,8 @@
             "reacting-own-post": "自分の投稿に反応することはできません",
             "modal": {
                 "title": "",
-                "anonymous_count": ""
+                "anonymous_count": "",
+                "no_reactions": ""
             },
             "mod_item": "",
             "react_button_label": ""
@@ -18,9 +19,16 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "応答投稿",
-                "see_reactions_label": ""
+                "see_reactions_label": "",
+                "delete_post_reactions_label": ""
             },
             "page": {
+                "cdn": {
+                    "title": "",
+                    "help": "",
+                    "label": "",
+                    "default-url": ""
+                },
                 "reactions": {
                     "title": "カスタム応答",
                     "reactions": "既存の対応",
@@ -28,7 +36,8 @@
                     "help": {
                         "display": "表示",
                         "identifier": "識別"
-                    }
+                    },
+                    "delete_confirmation": ""
                 },
                 "convert": {
                     "help": "拡張機能を更新したばかりの場合は、反応を変換する必要があります。 この拡張機能をインストールするだけであれば、このメッセージは無視しても問題ありません。",
@@ -39,6 +48,8 @@
                 "settings": {
                     "react_own_posts_help": "",
                     "react_own_posts_label": "",
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": "",
                     "save_settings": "設定を保存する",
                     "integrations": {
                         "legend": "統合",
@@ -55,9 +66,7 @@
                             "Label": "応答を「いいね」に変換する",
                             "Helptext": "自動的にいいねに変換したいリアクションの識別子を入力してください"
                         }
-                    },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    }
                 }
             }
         }

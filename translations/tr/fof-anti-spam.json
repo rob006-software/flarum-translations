@@ -1,0 +1,88 @@
+{
+    "fof-anti-spam": {
+        "admin": {
+            "permissions": {
+                "spamblock_users_label": "Bu kullanıcıyı istenmeyen olarak işaretle"
+            },
+            "settings": {
+                "button": "Ayarlar",
+                "default-actions": {
+                    "delete_user_label": "Kullanıcıyı sil",
+                    "delete_user_help": "Bu, kullanıcıyı kalıcı olarak silecektir. Devre dışı bırakıldığında kullanıcı askıya alınır.",
+                    "delete_discussions_label": "Tartışmaları sil",
+                    "delete_discussions_help": "Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları kalıcı olarak silecektir. Devre dışı bırakıldığında tartışmalar geçici olarak silinir.",
+                    "delete_posts_label": "Gönderileri sil",
+                    "delete_posts_help": "Bu işlem, bu kullanıcı tarafından gönderilen tüm gönderileri kalıcı olarak silecektir. Devre dışı bırakıldığında gönderiler geçici olarak silinir.",
+                    "heading": "Varsayılan moderatör eylemleri",
+                    "introduction": "Bir kullanıcı spam gönderen olarak işaretlendiğinde moderatörler, belirli kullanım durumuyla nasıl başa çıkacaklarına ilişkin çeşitli eylemler arasından seçim yapabilir. Bu ayarlar, süreci hızlandırmak için normalde gerçekleştireceğiniz eylemleri önceden ayarlamanıza olanak tanır, ancak aynı zamanda gerektiğinde değişikliklere de izin verir.\n",
+                    "move_discussions_to_tags_label": "Tartışmaları etiket(lere) taşıyın",
+                    "move_discussions_to_tags_help": "Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları belirttiğiniz etiketlere taşıyacaktır. Tartışmaları asıl etiketlerinde bırakmak için etiket seçimini temizleyin. 'Tartışmaları sil' seçeneği etkinse hiçbir etkisi olmaz."
+                },
+                "stopforumspam": {
+                    "heading": "StopForumSpam",
+                    "introduction": "Yeni kullanıcı kayıtlarını <a>StopForumSpam</a> veritabanına göre kontrol eder. <code>Güven</code> veya <code>sıklık</code> eşiklerinden birine ulaşılırsa kullanıcının forumunuza kayıt işlemini tamamlaması engellenir.\n\n<code>fof/oauth</code> ve <code>fof/passport</code> aracılığıyla SSO kaydı da desteklenir. Diğer SSO sağlayıcılarının çalışması gerekir ancak bunlar test edilmemiştir.\n",
+                    "username_label": "Kullanıcı Adı İstenmeyen Kontrolü",
+                    "ip_label": "IP Adresi İstenmeyen Kontrolü",
+                    "email_label": "E-Posta İstenmeyen Kontrolü",
+                    "frequency_label": "Eşik",
+                    "frequency_help": "",
+                    "api_key_label": "",
+                    "api_key_text": "",
+                    "api_key_instructions_text": "",
+                    "regional_endpoint_label": "",
+                    "regional_endpoint_help": "",
+                    "region_closest_label": "",
+                    "region_europe_label": "",
+                    "region_us_label": "",
+                    "confidence_label": "",
+                    "confidence_help": "",
+                    "email_hash_label": "",
+                    "email_hash_help": "",
+                    "sfs_lookup_label": "",
+                    "sfs_lookup_help": "",
+                    "report_blocked_registrations_label": "",
+                    "report_blocked_registrations_help": ""
+                }
+            },
+            "blocked_registrations": {
+                "button": "",
+                "title": "",
+                "no-records": "",
+                "help": "",
+                "attempted-at": "",
+                "ip": "",
+                "email": "",
+                "username": "",
+                "login-provider": "",
+                "login-provider-data": "",
+                "sfs-data": "",
+                "delete_entry": ""
+            }
+        },
+        "forum": {
+            "message": {
+                "stopforumspam": {
+                    "blocked": ""
+                }
+            },
+            "spammer_modal": {
+                "hard_delete_discussions_label": "",
+                "hard_delete_discussions_help": "",
+                "hard_delete_posts_label": "",
+                "hard_delete_posts_help": "",
+                "hard_delete_user_label": "",
+                "hard_delete_user_help": "",
+                "intro": "",
+                "move_discussions_tag_label": "",
+                "move_discussions_tag_help": "",
+                "process_button": "",
+                "title": "",
+                "report_to_sfs_label": "",
+                "report_to_sfs_help": ""
+            },
+            "user_controls": {
+                "spammer_button": ""
+            }
+        }
+    }
+}

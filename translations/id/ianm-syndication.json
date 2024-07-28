@@ -6,9 +6,15 @@
                 "forum_new_discussions": "Diskusi baru di forum",
                 "tag_activity": "Aktivitas untuk tag {tag}",
                 "tag_new_discussions": "Diskusi dalam tag {tag}",
-                "discussion_last_posts": "Diskusi ini"
+                "discussion_last_posts": "Diskusi ini",
+                "user_last_posts": "Post & komentar oleh pengguna ini"
             },
             "feeds": {
+                "entries": {
+                    "user_posts": {
+                        "title_reply": "Re: {discussion}"
+                    }
+                },
                 "titles": {
                     "main_title": "{forum_name}",
                     "main_subtitle": "Tulisan terakhir di forum",
@@ -18,8 +24,10 @@
                     "tag_subtitle": "Tulisan terakhir dalam tag {tag}",
                     "tag_d_title": "Diskusi baru dalam tag {tag}",
                     "tag_d_subtitle": "Diskusi terbaru dalam tag {tag}",
-                    "discussion_title": "",
-                    "discussion_subtitle": "Beberapa pesan terakhir dalam diskusi ini"
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Beberapa pesan terakhir dalam diskusi ini",
+                    "user_title": "{username}",
+                    "user_subtitle": "Post & komentar terbaru oleh pengguna ini."
                 }
             },
             "discussion": {
@@ -30,10 +38,10 @@
             "settings": {
                 "full-text": {
                     "label": "Teks Lengkap",
-                    "help": "Jika dinonaktifkan, feed hanya akan berisi kutipan dari postingan, dan user harus masuk ke forum untuk membaca semuanya. Direkomendasikan untuk membiarkan opsi ini aktif untuk menghormati orang-orang yang mengikuti forum dari RSS aggregator-jika ada."
+                    "help": "Jika dinonaktifkan, feed hanya akan berisi kutipan dari postingan, dan user harus masuk ke forum untuk membaca semuanya. Direkomendasikan untuk membiarkan opsi ini aktif untuk menghargai orang-orang yang mengikuti forum dari RSS aggregator - jika ada."
                 },
                 "html": {
-                    "label": "Feed Terformat",
+                    "label": "Format Feed",
                     "help": "Centang ini untuk menggunakan HTML dalam feed yang dihasilkan. Jika dinonaktifkan, feed akan berupa teks biasa."
                 },
                 "entries-count": "Berapa banyak entri per feed?",

@@ -1,0 +1,45 @@
+{
+    "hikarilan-passkey-login": {
+        "admin": {
+            "settings": {
+                "relying_party": {
+                    "name": {
+                        "label": "Tên Đơn Vị Phụ Thuộc",
+                        "help": "Tên Đơn Vị Phụ Thuộc là tên dễ đọc cho trang web của bạn. Nếu để trống, tiêu đề diễn đàn sẽ được sử dụng."
+                    },
+                    "id": {
+                        "label": "ID Đơn Vị Phụ Thuộc",
+                        "help": "ID Đơn Vị Phụ Thuộc là một định danh duy nhất cho trang web của bạn. Nó sẽ là tên miền của trang web mà không có phần scheme. Ví dụ, nếu trang web của bạn là https://example.com, thì ID Đơn Vị Phụ Thuộc sẽ là example.com. Nếu để trống, tên miền hiện tại sẽ được sử dụng."
+                    }
+                },
+                "timeout": {
+                    "label": "Thời gian chờ",
+                    "help": "Thời gian chờ xác thực khóa truy cập tính bằng giây. Giá trị mặc định là 60 giây."
+                }
+            }
+        },
+        "forum": {
+            "login": {
+                "with-passkey": "Đăng nhập bằng Khóa truy cập"
+            },
+            "user": {
+                "settings": {
+                    "passkeys": {
+                        "title": "Khóa truy cập",
+                        "label": "Khóa truy cập là một phương thức thay thế mật khẩu, xác minh danh tính của bạn bằng cách sử dụng vân tay, nhận diện khuôn mặt, mật khẩu thiết bị hoặc mã PIN.",
+                        "add-new-passkey": "Thêm khóa truy cập",
+                        "error": "Đã xảy ra lỗi nội bộ. Vui lòng thử lại sau."
+                    },
+                    "alias-modal": {
+                        "title": "Đã đăng ký khóa truy cập!",
+                        "label": "Và bây giờ, hãy đặt cho khóa truy cập của bạn một tên gọi khác."
+                    },
+                    "item": {
+                        "revoke": "=> core.forum.security.revoke_access_token",
+                        "revoke_success": "Khóa truy cập đã bị thu hồi thành công."
+                    }
+                }
+            }
+        }
+    }
+}

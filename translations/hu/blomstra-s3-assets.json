@@ -2,13 +2,41 @@
     "blomstra-s3-assets": {
         "admin": {
             "settings": {
-                "configured_by_environment": "",
-                "aws-section": "",
-                "s3-compatible-section": "",
-                "s3-compatible-section-help": "",
+                "configured_by_environment": "A tároló beállításai előre be lettek állítva, nincs mit megjeleníteni.",
+                "aws-section": "Ezek a beállítások szükségesek mind az AWS S3-hez, mind az S3-mal kompatibilis tárolókhoz",
+                "s3-compatible-section": "Ezek a beállítások csak az S3-mal kompatibilis tárolók esetén szükségesek",
+                "s3-compatible-section-help": "Hagyja üresen ezeket a beállításokat, ha AWS S3-at használ",
                 "s3key": {
-                    "label": "",
-                    "help": ""
+                    "label": "Kulcs",
+                    "help": "S3 hozzáférési kulcs"
+                },
+                "s3secret": {
+                    "label": "Titok",
+                    "help": "S3 hozzáférési titok"
+                },
+                "s3region": {
+                    "label": "Régió",
+                    "help": "S3 régió"
+                },
+                "s3bucket": {
+                    "label": "Tároló",
+                    "help": "S3 tároló"
+                },
+                "s3acl": {
+                    "label": "ACL",
+                    "help": "Adja meg az ACL-t ehhez a tárolóhoz"
+                },
+                "s3url": {
+                    "label": "Webcím",
+                    "help": "S3 webcím"
+                },
+                "s3endpoint": {
+                    "label": "Végpont",
+                    "help": "S3 végpont"
+                },
+                "s3path-style-endpoint": {
+                    "label": "S3 útvonal stílusú végpont",
+                    "help": "Útvonal stílusú végpontra váltás"
                 }
             }
         }

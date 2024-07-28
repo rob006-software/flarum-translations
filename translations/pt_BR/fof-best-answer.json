@@ -7,15 +7,15 @@
             },
             "settings": {
                 "label": {
+                    "tags": "",
                     "general": "Geral",
                     "reminders": "Lembretes",
+                    "search": "",
                     "advanced": "Avançado",
                     "reminders_notice": "Para que os lembretes funcionem, você deve ter configurado o agendador do Flarum corretamente."
                 },
                 "allow_select_own_post": "Selecione a própria postagem",
                 "allow_select_own_post_help": "Permita que o autor selecione uma de suas próprias postagens na discussão como a melhor resposta",
-                "enable_all_tags_button": "Ativar todas as tags para Melhores Respostas",
-                "enable_all_tags_reminder_button": "Habilitar todas as tags para lembretes de Melhor Resposta",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Frequência do lembrete",
@@ -32,6 +32,17 @@
                 "use_alt_ui": "Layout alternativo",
                 "use_alt_ui_help": "Controle de Melhor Resposta no rodapé da postagem",
                 "documentation": "Documentação",
+                "enabled_tags_label": "",
+                "enabled_tags_help": "",
+                "remind_tags_label": "",
+                "remind_tags_help": "",
+                "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
+                "discussion_sidebar_jump_button": "",
+                "discussion_sidebar_jump_button_help": "",
+                "enable_all_tags_button": "Ativar todas as tags para Melhores Respostas",
+                "enable_all_tags_reminder_button": "Habilitar todas as tags para lembretes de Melhor Resposta",
                 "introduction": "Habilite quais tags devem suportar as Melhores Respostas em <code><a>flarum/tags</a></code> e, opcionalmente, quais tags devem suportar lembretes. Quando uma tag estiver habilitada como Melhor Resposta, atribua permissões a cada grupo de usuários que pode definir respostas (própria discussão, qualquer discussão). As permissões podem ser atribuídas globalmente (para qualquer tag habilitada como Melhor Resposta) ou por tag.\n"
             },
             "edit_tag": {
@@ -75,6 +86,13 @@
             },
             "user": {
                 "best-answer-count": "{count, plural, one { {count} melhor resposta} other {{count} melhores respostas}}"
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
+            },
+            "discussion": {
+                "jump_to_best_answer_button": ""
             }
         },
         "email": {

@@ -3,18 +3,18 @@
         "admin": {
             "extensions": "Doplnky",
             "category_selection": {
-                "label": "",
+                "label": "Kategorizovať",
                 "options": {
-                    "default": "",
-                    "vendor": "",
-                    "none": "",
-                    "availability": ""
+                    "default": "Základne",
+                    "vendor": "Podľa autora",
+                    "none": "Nijako",
+                    "availability": "Podľa dostupnosti"
                 }
             },
             "categories": {
-                "none": "",
-                "enabled": "",
-                "disabled": ""
+                "none": "A-Z",
+                "enabled": "Aktivované",
+                "disabled": "Deaktivované"
             }
         }
     }

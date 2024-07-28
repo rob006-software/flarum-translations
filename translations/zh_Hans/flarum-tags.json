@@ -76,10 +76,10 @@
                 "untagged_link": "移除标签"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} 于 {time} 添加标签 {tagsAdded}，并移除标签 {tagsRemoved}。",
-                "added_tags_text": "{username} 于 {time} 添加标签 {tagsAdded}",
-                "removed_tags_text": "{username} 于 {time} 移除标签 {tagsRemoved}",
-                "tags_text": "{count, plural, one {{tags}} other {{tags}}} 标签"
+                "added_and_removed_tags_text": "{username} 于 {time} 添加 {tagsAdded}，并移除 {tagsRemoved}。",
+                "added_tags_text": "{username} 于 {time} 添加 {tagsAdded}",
+                "removed_tags_text": "{username} 于 {time} 移除 {tagsRemoved}",
+                "tags_text": "{tags} 标签"
             },
             "tag": {
                 "meta_description_text": "{tag} 标签下的所有主题"
@@ -97,8 +97,8 @@
             }
         },
         "ref": {
-            "choose_tags": "添加标签",
-            "choose_tags_placeholder": "{count, plural, one {请再添加一个标签} other {请再添加 # 个标签}}",
+            "choose_tags": "选择标签",
+            "choose_tags_placeholder": "{count, plural, one {请再选择一个标签} other {请再选择 # 个标签}}",
             "name": "标签名称",
             "tags": "标签"
         }

@@ -3,7 +3,7 @@
         "admin": {
             "permissions": {
                 "mail_individual": "向用戶單獨發送郵件",
-                "mail_all": "向用戶或組群發郵件"
+                "mail_all": "向用戶或群組發郵件"
             }
         },
         "forum": {
@@ -14,7 +14,7 @@
             "modal_mail": {
                 "title_text": "寫信",
                 "recipients_label": "收件人",
-                "recipients_placeholder": "添加其他收件人...",
+                "recipients_placeholder": "增加其他收件人...",
                 "subject_label": "主題",
                 "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
                 "message_label": "正文",
@@ -27,12 +27,12 @@
             },
             "recipient_kinds": {
                 "user": "用戶",
-                "group": "用戶組",
+                "group": "群組",
                 "email": "郵箱"
             }
         },
         "api": {
-            "no_recipients": "没有匹配的收件人"
+            "no_recipients": "沒有匹配的收件人"
         },
         "email": {
             "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"

@@ -1,0 +1,43 @@
+{
+    "datlechin-simple-tour-guide": {
+        "admin": {
+            "settings": {
+                "show_progress_label": "顯示流程",
+                "show_progress_help": "這將在彈出視窗頂部顯示目前步驟和總步驟。",
+                "allow_close_label": "允許關閉",
+                "allow_close_help": "允許使用者透過點擊背景來關閉彈出視窗。",
+                "skip_null_elements_label": "跳過空元素",
+                "skip_null_elements_help": "跳過目標與 HTML 元素不符的步驟。您可以使用它來使用“html[lang=\"es\"] my-selector”來定位語言。這也會隱藏“上一個”按鈕以保持連貫性，並且您應該隱藏進度。"
+            },
+            "permissions": {
+                "reset_tour_guide": "重置教程"
+            },
+            "edit_modal": {
+                "edit_step": "編輯 {title}",
+                "create_step": "建立新步驟",
+                "delete_step": "刪除步驟",
+                "delete_step_confirmation": "您確定要刪除此步驟嗎？"
+            },
+            "add_step": "新增步驟",
+            "title": "標題",
+            "title_placeholder": "步驟的標題。",
+            "description": "描述",
+            "description_placeholder": "步驟的描述。",
+            "target": "目標",
+            "target_placeholder": "步驟的目標元素（例如#element-id）。",
+            "trigger_click": "觸發點擊",
+            "yes": "是",
+            "no": "否"
+        },
+        "forum": {
+            "progress_text": "{current} of {total}",
+            "next_btn_text": "下一個",
+            "prev_btn_text": "上一頁",
+            "done_btn_text": "完成",
+            "user_controls": {
+                "reset_tour_guide": "重新開始教程",
+                "reset_tour_guide_confirmation": "您確定要強制此使用者再次開始教學課程嗎？"
+            }
+        }
+    }
+}

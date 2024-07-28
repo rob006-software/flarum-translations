@@ -1,0 +1,108 @@
+{
+    "ianm-twofactor": {
+        "admin": {
+            "edit_group": {
+                "2fa_label": "Yêu cầu xác thực hai yếu tố (2FA)",
+                "2fa_help": "Yêu cầu thành viên của nhóm này bật Xác thực Hai Yếu Tố (2FA) cho tài khoản của họ.",
+                "admin_2fa_help": "Các thành viên của {adminName} phải luôn luôn bật 2FA."
+            },
+            "permissions": {
+                "see_two_factor_status_label": "Xem trạng thái 2FA của các người dùng khác",
+                "manage_others_label": "Quản lý 2FA cho các người dùng khác"
+            },
+            "settings": {
+                "groups": {
+                    "title": "Các nhóm yêu cầu 2FA",
+                    "help": "Yêu cầu thành viên của các nhóm này bật Xác thực Hai Yếu Tố (2FA) cho tài khoản của họ. Người dùng trong các nhóm bắt buộc không thể tắt 2FA."
+                },
+                "forum_logo_qr": "Nhúng logo diễn đàn vào mã QR",
+                "forum_logo_qr_help": "Nhúng logo diễn đàn vào mã QR hiển thị khi bật 2FA. Điều này có thể giúp người dùng nhận diện chính xác mã QR để quét.",
+                "forum_logo_qr_width": "Độ rộng mã QR có logo diễn đàn",
+                "forum_logo_qr_width_help": "Độ rộng của logo diễn đàn được nhúng vào mã QR khi bật 2FA. Tối đa là 200.",
+                "logo_qr": "Logo trên mã QR",
+                "logo_qr_help": "Nếu logo đã được tải lên, logo này sẽ được nhúng vào mã QR. Để trống để sử dụng logo diễn đàn.",
+                "tokens": {
+                    "heading": "Mã token truy cập",
+                    "help": "Để tăng cường bảo mật, bạn có thể quản lý các hành vi bổ sung liên quan đến mã token truy cập ở đây.",
+                    "kill_inactive_tokens": "Chấm dứt các mã token không hoạt động",
+                    "kill_inactive_tokens_help": "Tự động chấm dứt các mã token truy cập không hoạt động trong một khoảng thời gian nhất định.",
+                    "kill_inactive_tokens_age_days": "Chấm dứt các mã token không hoạt động sau (số ngày)",
+                    "kill_inactive_tokens_age_days_help": "Số ngày không hoạt động sau đó các mã token truy cập sẽ bị xóa.",
+                    "also_kill_developer_tokens": "Cũng chấm dứt các mã token nhà phát triển",
+                    "also_kill_developer_tokens_help": "Cũng chấm dứt các mã token truy cập nhà phát triển không hoạt động trong khoảng thời gian đã chỉ định."
+                }
+            }
+        },
+        "forum": {
+            "user_2fa": {
+                "alert_message": "Bạn phải bật Xác thực Hai Yếu Tố (2FA) để tiếp tục truy cập vào tài khoản của bạn."
+            },
+            "security": {
+                "two_factor_heading": "2FA",
+                "two_factor_help": "Xác thực Hai Yếu Tố (2FA) cung cấp một lớp bảo mật bổ sung cho tài khoản của bạn. Sau khi bật, ngoài mật khẩu của bạn, bạn sẽ phải nhập một mã từ ứng dụng xác thực khi đăng nhập hoặc thực hiện một số hành động khác. Điều này đảm bảo tài khoản của bạn luôn an toàn, ngay cả khi mật khẩu của bạn bị đánh cắp, vì kẻ tấn công cũng cần phải có mã (thay đổi mỗi 30 giây) để truy cập vào tài khoản của bạn.",
+                "two_factor_apps": "Các ứng dụng như {google}, {authy}, {microsoft}, và nhiều ứng dụng khác có sẵn miễn phí.",
+                "two_factor_enabled": "2FA đã được bật cho tài khoản này.",
+                "two_factor_disabled": "2FA đã bị vô hiệu hóa trên tài khoản này.",
+                "two_factor_title": "Trạng thái:",
+                "enable_2fa_button": "Bật 2FA",
+                "disable_2fa_button": "Tắt 2FA",
+                "enable_2fa_modal_text": "Quét mã QR bên dưới bằng ứng dụng xác thực của bạn, sau đó nhập mã token được cung cấp để bật Xác thực Hai Yếu Tố.",
+                "qr_code_alt": "Mã QR cho Xác thực Hai Yếu Tố",
+                "enter_token": "Nhập mã token",
+                "verify_button": "Xác thực",
+                "loading_qr": "Đang tải mã QR...",
+                "backup_codes": "Các mã sao lưu của bạn",
+                "backup_codes_instruction": "Vui lòng lưu các mã này ở một nơi an toàn. Chúng có thể được sử dụng để truy cập vào tài khoản của bạn nếu bạn mất phương thức xác thực chính. Chúng sẽ không được hiển thị lại.",
+                "saved_backup_codes_button": "Tôi đã lưu các mã này.",
+                "backup_codes_remaining": "Số lượng mã sao lưu còn lại:",
+                "two_factor_enabled_confirmation": "Xác thực Hai Yếu Tố đã được bật thành công cho tài khoản của bạn.",
+                "ok_button": "OK",
+                "confirm_disable_2fa_title": "Xác nhận vô hiệu hóa Xác thực Hai Yếu Tố",
+                "confirm_disable_2fa_text": "Bạn chắc chắn muốn vô hiệu hóa Xác thực Hai Yếu Tố?",
+                "confirm_disable_2fa_text_other_user": "Bạn chắc chắn muốn vô hiệu hóa Xác thực Hai Yếu Tố cho {username}? Hành động này sẽ xóa tất cả các mã sao lưu và vô hiệu hóa 2FA cho tài khoản của họ.",
+                "cannot_disable": "Cấu hình hiện tại quy định bạn không thể vô hiệu hóa Xác thực Hai Yếu Tố.",
+                "cannot_disable_tooltip": "Không thể tắt 2FA",
+                "cancel_button": "Hủy bỏ",
+                "qr_tab": "Quét mã QR",
+                "manual_tab": "Thiết lập thủ công",
+                "scan_qr_instruction": "Quét mã QR ở trên bằng ứng dụng xác thực của bạn, sau đó nhập mã token được cung cấp để bật Xác thực Hai Yếu Tố.",
+                "manual_entry_instruction": "Nhập mã được cung cấp vào ứng dụng xác thực của bạn, sau đó nhập mã token được tạo để bật Xác thực Hai Yếu Tố."
+            },
+            "log_in": {
+                "two_factor_placeholder": "Mã token 2FA, ví dụ, 123456",
+                "two_factor_required_message": "Bạn cần nhập một mã token 2FA hợp lệ để tiếp tục."
+            }
+        },
+        "email": {
+            "subject": {
+                "status_changed": "Xác thực Hai Yếu Tố {type} cho tài khoản của bạn"
+            },
+            "body": {
+                "status_changed": "Xin chào {recipient_display_name},\n\nXác thực Hai Yếu Tố đã được {type} cho tài khoản của bạn trên {forum_url}.\n\nNếu bạn đã khởi tạo hành động này, không cần thêm bước nào. Nếu bạn không phải là người ủy quyền thay đổi này, vui lòng liên hệ ngay lập tức với quản trị viên diễn đàn.\n"
+            },
+            "status_type": {
+                "enabled": "đã bật",
+                "disabled": "đã tắt"
+            }
+        },
+        "views": {
+            "reset_password": {
+                "two_factor_token_label": "Mã token 2FA"
+            },
+            "two_factor_token": {
+                "title": "Xác thực Hai Yếu Tố",
+                "submit_button": "Gửi mã token"
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "Xuất trạng thái 2FA và mã sao lưu được mã hóa.",
+                    "delete_description": "Xóa tất cả dữ liệu liên quan đến 2FA."
+                }
+            }
+        }
+    }
+}

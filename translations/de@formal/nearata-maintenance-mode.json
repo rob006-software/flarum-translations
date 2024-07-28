@@ -1,0 +1,30 @@
+{
+    "nearata-maintenance-mode": {
+        "admin": {
+            "dashboard": {
+                "maintenance_widget": {
+                    "title": "Wartungsmodus aktiviert",
+                    "detail": "Während des Wartungsmodus, können nur autorisierte Benutzer das Forum ansehen."
+                }
+            },
+            "permissions": {
+                "bypass": "Kann den Wartungsmodus umgehen"
+            },
+            "settings": {
+                "maintenance_mode_enabled": {
+                    "label": "Wartungsmodus"
+                }
+            }
+        },
+        "views": {
+            "default": {
+                "title": "Wartungsmodus",
+                "header": "Wegen Wartungsarbeiten nicht verfügbar.",
+                "body": "<p>Wir führen gerade Wartungsarbeiten durch. Bitte kommen Sie später wieder.</p>\n"
+            }
+        },
+        "api": {
+            "title": "Zurzeit wegen Wartungsarbeiten nicht verfügbar. Bitte kommen Sie später wieder."
+        }
+    }
+}

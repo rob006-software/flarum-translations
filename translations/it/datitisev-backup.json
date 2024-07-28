@@ -17,6 +17,9 @@
                 "zip": "Zip Archive"
             },
             "settings_button": "Configura",
+            "delete_button": "",
+            "delete_confirmation": "",
+            "create_button": "",
             "required_package_button": "Imposta",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Configura {adapter}",
+                "name_label": "",
                 "local": {
                     "target": {
                         "label": "Percorso di destinazione",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Chiave",
-                            "description": "Chiave Credenziali AWS"
-                        },
-                        "secret": {
-                            "label": "Segreto",
-                            "description": "Credenziali segrete AWS"
-                        }
+                    "credentials-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "credentials-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "region": {
                         "label": "Regione",
@@ -101,6 +103,16 @@
                     "path-prefix": {
                         "label": "Prefisso Percorso",
                         "description": "Prefisso percorso predefinito per i file. (Facoltativo)."
+                    },
+                    "credentials": {
+                        "key": {
+                            "label": "Chiave",
+                            "description": "Chiave Credenziali AWS"
+                        },
+                        "secret": {
+                            "label": "Segreto",
+                            "description": "Credenziali segrete AWS"
+                        }
                     }
                 },
                 "dropbox": {
@@ -126,15 +138,13 @@
                     }
                 },
                 "gdrive": {
-                    "client": {
-                        "id": {
-                            "label": "",
-                            "description": ""
-                        },
-                        "secret": {
-                            "label": "",
-                            "description": ""
-                        }
+                    "client-id": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "client-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "refresh-token": {
                         "label": "",
@@ -143,6 +153,10 @@
                     "folder": {
                         "label": "",
                         "description": ""
+                    },
+                    "help": {
+                        "test_success_alert": "",
+                        "test_button": ""
                     }
                 },
                 "ftp": {

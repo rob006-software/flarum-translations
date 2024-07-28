@@ -12,16 +12,16 @@
                 "with_qq_button": "QQ 账号登录"
             },
             "buttons": {
-                "unlink": "解绑QQ",
-                "link": "绑定QQ",
+                "unlink": "解绑 QQ",
+                "link": "绑定 QQ",
                 "login": "=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button"
             },
             "modals": {
                 "unlink": {
-                    "title": "解绑QQ",
+                    "title": "解绑 QQ",
                     "info": {
-                        "confirm": "您确定要解除与QQ账号的绑定吗？",
-                        "no_providers": "您还没有其他的登录方式。请先重设您的账户密码。"
+                        "confirm": "确定要解绑 QQ账号吗？",
+                        "no_providers": "无可用的其他登录方式，请设置账户密码。"
                     },
                     "buttons": {
                         "confirm": "解绑",
@@ -29,7 +29,7 @@
                     }
                 },
                 "link": {
-                    "title": "绑定QQ"
+                    "title": "绑定 QQ"
                 }
             }
         }

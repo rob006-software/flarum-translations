@@ -1,0 +1,26 @@
+{
+    "foskym-custom-levels": {
+        "admin": {
+            "settings": {
+                "levelText": "輸入要為等級顯示的文字（例如排名、等級）",
+                "levelDesc": "可用變數：[等級]",
+                "expText": "輸入經驗值要顯示的文字（例如“[expTotal] 經驗”）",
+                "expDesc": "可用變數：[expTotal]",
+                "expFormula": "輸入經驗值的計算公式（例如：「[discussionCount] * 40 + [commentCount] / 20”)",
+                "expFormulaDesc1": "您可以使用以下變數：",
+                "expFormulaDesc2": "您可以使用以下核心變數來計算經驗值：\n\n- [discussionCount]：討論次數\n- [commentCount]：評論次數\n\n請根據這些變數輸入您的經驗值計算公式。",
+                "expFormulaDesc3": "需要插件（[money] [likesReceived] [bestAnswerCount]）",
+                "levelFormula": "輸入等級公式（例如「[expTotal] / (100 + 5 * [level])」）",
+                "levelFormulaDesc": "您可以使用這些變數 [expTotal] [level]"
+            }
+        },
+        "lib": {
+            "defaults": {
+                "level": "Lv.",
+                "exp": "[expTotal] 經驗值",
+                "expFormula": "[討論數] * 40 + [評論數] / 20",
+                "levelFormula": "[expTotal] / (100 * [等級])"
+            }
+        }
+    }
+}

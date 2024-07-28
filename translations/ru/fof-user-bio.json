@@ -7,14 +7,21 @@
                 "editAny": "Изменять чужую (любую) информацию о себе"
             },
             "setting": {
-                "bioLimit": "Максимально количество символов",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "bioLimit": "Максимальное количество символов",
+                "maxLines": "Максимальное количество отображаемых строк",
+                "allowFormatting": "Разрешить форматирование",
+                "allowFormatting_help": "Форматирование BIO работает отдельно от форматирования сообщений форума. Если расширения BBCode и/или Markdown включены, они будут доступны для форматирования BIO. Изображения и встраиваемые элементы запрещены. Расширения, добавляющие новые функции к форматированию сообщений Flarum должны *явно* поддерживать форматирование BIO."
             }
         },
         "forum": {
             "userbioPlaceholder": "Напишите что-нибудь о себе...",
-            "userbioPlaceholderOtherUser": "Напишите что-нибудь о {username}..."
+            "userbioPlaceholderOtherUser": "Напишите что-нибудь о {username}...",
+            "profile": {
+                "cancel_confirm": "",
+                "cancel_button": "",
+                "save_button": "",
+                "edit_bio_label": ""
+            }
         }
     }
 }

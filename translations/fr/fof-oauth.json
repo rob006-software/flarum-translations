@@ -3,10 +3,24 @@
         "admin": {
             "configure_button_label": "Configurer avec FoF OAuth",
             "settings_accessibility_label": "Paramètres de {name}",
+            "permissions": {
+                "moderate_user_providers": "Modérer les comptes liés de l'utilisateur"
+            },
             "settings": {
+                "advanced": {
+                    "heading": "Avancé",
+                    "log-oauth-errors-label": "Journaliser les erreurs d'OAuth",
+                    "log-oauth-errors-help": "Si cette option est activée, les erreurs d'OAuth seront enregistrées dans le journal de Flarum. Cela peut aider à déboguer les problèmes d'OAuth mais peut aussi contenir des informations sensibles."
+                },
                 "only_icons_label": "Afficher uniquement les icônes du bouton de connexion (disposition alternative)",
                 "update_email_from_provider_label": "Mettre à jour l'adresse de courriel du fournisseur",
                 "update_email_from_provider_help": "Si cette option est activée, l'adresse de courriel de l'utilisateur sera mise à jour pour correspondre à celle fournie par le fournisseur OAuth à chaque connexion au forum. Tous les fournisseurs ne fournissent pas l'adresse de courriel mise à jour, auquel cas ce paramètre n'aura aucun effet avec ces fournisseurs.",
+                "fullscreen_popup_label": "Utiliser une fenêtre contextuelle plein écran pour OAuth",
+                "fullscreen_popup_help": "Lorsque cette option est activée, la connexion OAuth s'ouvre dans une fenêtre contextuelle plein écran. Si cette option est activée, les paramètres de largeur et de hauteur seront ignorés.",
+                "popup_width_label": "Largeur de la fenêtre contextuelle d'OAuth",
+                "popup_width_help": "Définit la largeur de la fenêtre contextuelle d'OAuth. Ce paramètre sera ignoré si l'option « Utiliser une fenêtre contextuelle plein écran pour OAuth » est activée.",
+                "popup_height_label": "Hauteur de la fenêtre contextuelle d'OAuth",
+                "popup_height_help": "Définit la hauteur de la fenêtre contextuelle d'OAuth. Ce paramètre sera ignoré si l'option « Utiliser une fenêtre contextuelle plein écran pour OAuth » est activée.",
                 "providers": {
                     "callback_url_text": "Si nécessaire, définissez l'URL de rappel vers {url}.",
                     "discord": {
@@ -38,7 +52,8 @@
                     "google": {
                         "description": "Créez une application sur {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
-                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "hosted_domain_label": "Domaine hébergé (G suite/Google Apps for Business, optionnel)"
                     },
                     "linkedin": {
                         "description": "Créer une application sur {link}.",

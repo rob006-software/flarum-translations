@@ -6,9 +6,15 @@
                 "forum_new_discussions": "Foorumin uudet keskustelut",
                 "tag_activity": "Aktiivisuus {tag} avainsanalle",
                 "tag_new_discussions": "Avainsanan {tag} keskustelut",
-                "discussion_last_posts": "Tämä keskustelu"
+                "discussion_last_posts": "Tämä keskustelu",
+                "user_last_posts": "Tämän käyttäjän viestit ja kommentit"
             },
             "feeds": {
+                "entries": {
+                    "user_posts": {
+                        "title_reply": "Re: {discussion}"
+                    }
+                },
                 "titles": {
                     "main_title": "{forum_name}",
                     "main_subtitle": "Viimeisimmät viestit foorumilla",
@@ -19,7 +25,9 @@
                     "tag_d_title": "Avainsanan {tag} uudet keskustelut",
                     "tag_d_subtitle": "Avainsanan {tag} uusimmat keskustelut",
                     "discussion_title": "{discussion_name}",
-                    "discussion_subtitle": "Uusimmat viestit tässä keskustelussa"
+                    "discussion_subtitle": "Uusimmat viestit tässä keskustelussa",
+                    "user_title": "{username}",
+                    "user_subtitle": "Tämän käyttäjän viimeisimmät viestit ja kommentit."
                 }
             },
             "discussion": {

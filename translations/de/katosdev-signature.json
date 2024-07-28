@@ -2,44 +2,35 @@
     "signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": ""
-            },
-            "modal": {
-                "loading": {
-                    "title": "",
-                    "content": ""
-                },
-                "error": {
-                    "title": "",
-                    "content": ""
-                }
+                "signature": "Signatur",
+                "save": "Signatur speichern",
+                "edit": "Signatur bearbeiten"
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_width_exceed": "",
-                "max_image_height_exceed": "",
-                "max_image_count_exceed": ""
+                "max_char_limit_exceed": "Maximale Zeichenanzahl überschritten.",
+                "max_image_count_exceed": "Maximale Bildanzahl überschritten."
+            },
+            "profile": {
+                "click": "Klicke um eine Signatur zu verfassen"
             }
         },
         "admin": {
-            "title": "",
+            "permissions": {
+                "edit_signature_others": "Signaturen anderer Benutzer bearbeiten",
+                "allow_signature": "Kann Signatur verfassen"
+            },
             "settings": {
-                "maximum_image_width": {
-                    "description": "",
-                    "placeholder": ""
-                },
-                "maximum_image_height": {
-                    "description": "",
-                    "placeholder": ""
-                },
                 "maximum_image_count": {
-                    "description": "",
-                    "placeholder": ""
+                    "description": "Maximale Anzahl an Bilder.",
+                    "help": "Wenn der Benutzer die maximale Anzahl von Bildern in seiner Signatur überschreitet, wird er am Speichern gehindert, bis die Anzahl der Bilder entsprechend hoch ist."
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "placeholder": ""
+                    "description": "Maximale Anzahl an Zeichen für die Signatur.",
+                    "help": "Wenn der Benutzer die maximale Zeichenanzahl in seiner Signatur überschreitet, wird er am Speichern gehindert, bis die Anzahl der Zeichen entsprechend ist."
+                },
+                "allow_inline_editing": {
+                    "description": "Inline-Bearbeitung der Signatur.",
+                    "help": "Wenn das aktiviert ist, können Benutzer ihre Signatur bearbeiten, während sie einen Beitrag ansehen."
                 }
             }
         }

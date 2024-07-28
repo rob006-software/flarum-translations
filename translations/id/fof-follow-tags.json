@@ -2,9 +2,9 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "Seseorang membuat diskusi di tag yang Saya ikuti",
-                "notify_new_post_label": "Seseorang memposting di tag yang Saya ikuti",
-                "notify_new_discussion_tag_label": "Seseorang men-tag ulang sebuah diskusi ke tag yang Saya ikuti"
+                "notify_new_discussion_label": "Seseorang membuat diskusi pada tag yang Saya ikuti",
+                "notify_new_post_label": "Seseorang memposting pada tag yang Saya ikuti",
+                "notify_new_discussion_tag_label": "Seseorang memberikan tag ulang pada sebuah diskusi ke tag yang saya ikuti"
             },
             "index": {
                 "follow_tag_button": "Ikuti",
@@ -19,11 +19,13 @@
                 "lurking_tag_tooltip": "Mengamati"
             },
             "sub_controls": {
+                "header": "Berlangganan untuk {tagName}",
+                "subscription_label": "Pilih tingkat langganan Anda untuk {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Menerima notifikasi tentang semua diskusi baru.",
                 "hiding_button": "=> fof-follow-tags.ref.hiding",
-                "hiding_text": "Menyembunyikan diskusi dari halaman Semua Diskusi.",
+                "hiding_text": "Sembunyikan diskusi dari halaman Semua Diskusi.",
                 "ignoring_button": "=> fof-follow-tags.ref.ignoring",
                 "ignoring_text": "Tidak menerima notifikasi apapun.",
                 "lurking_button": "=> fof-follow-tags.ref.lurking",
@@ -31,7 +33,8 @@
                 "not_following_button": "Tidak Mengikuti",
                 "not_following_text": "Hanya menerima notifikasi ketika @disebutkan.",
                 "notify_alert_tooltip": "Dapatkan notifikasi forum ketika ada diskusi atau postingan baru",
-                "notify_email_tooltip": "Dapatkan email ketika ada diskusi atau postingan baru"
+                "notify_email_tooltip": "Dapatkan email ketika ada diskusi atau postingan baru",
+                "submit_button": "Konfirmasi berlangganan"
             },
             "notifications": {
                 "new_discussion_text": "{username} memulai",
@@ -71,8 +74,18 @@
             "ignoring": "Mengabaikan",
             "lurking": "Mengamati",
             "filtering_options": {
-                "none": "Diskusi Yang Diikuti",
-                "tags": "Tag Yang Diikuti"
+                "none": "Mengikuti Diskusi",
+                "tags": "Mengikuti Tag"
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Mengekspor rincian tingkat berlangganan untuk sebuah tag, jika ada.",
+                    "anonymize_description": "Menghapus langganan pengguna ke tag."
+                }
             }
         }
     }

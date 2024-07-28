@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "Nîqaşê kilît bikin"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Hatiye Asêkirin"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "Asê bike",
+                "unlock_button": "Kilîdê veke"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} asê kir"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} nîqaş {time} kilît kir.",
+                "discussion_unlocked_text": "{username} nîqaşa {time} vekir."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Dema ku kesek nîqaşekî te asê bike"
             }
         }
     }

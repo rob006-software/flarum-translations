@@ -2,42 +2,42 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": ""
+                "view": "Audit-Protokoll anzeigen"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Audit",
+                "free": "Kostenlos",
+                "pro": "Premium",
+                "upgrade": "Auf Premium upgraden"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterPlaceholder": "Protokolle filtern",
+                "filterApply": "Anwenden",
+                "empty": "Keine Ergebnisse",
+                "loadMore": "Mehr laden",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Diskussion #{id}",
+                    "group": "Gruppe #{id}",
+                    "post": "Beitrag #{id}",
+                    "tag": "Thema #{id}",
+                    "user": "Benutzer #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
+                    "comment": "Kommentar",
                     "post": ""
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(kein Wert)",
+                "noReason": "(keine Begründung)",
                 "client": {
                     "session": "",
-                    "api_key": "",
+                    "api_key": "API-Schlüssel",
                     "access_token": "",
                     "cli": "",
                     "unknown": ""
@@ -46,39 +46,39 @@
                     "hideRaw": "",
                     "showRaw": "",
                     "filterActor": "",
-                    "filterIp": "",
+                    "filterIp": "Protokolle von dieser IP anzeigen",
                     "filterClient": "",
                     "filterAction": "",
                     "filterUser": "",
-                    "filterDiscussion": ""
+                    "filterDiscussion": "Protokolle anzeigen, die dieselbe Diskussion betreffen"
                 },
                 "audit_log_cleared": "",
-                "cache_cleared": "",
+                "cache_cleared": "Manuell den Cache geleert",
                 "discussion": {
-                    "created": "",
+                    "created": "Diskussion {discussion} gestartet",
                     "create_date_changed": "",
-                    "deleted": "",
+                    "deleted": "Diskussion {discussion} gelöscht",
                     "hidden": "",
-                    "locked": "",
-                    "merged_away": "",
+                    "locked": "Diskussion {discussion} geschlossen",
+                    "merged_away": "Zusammenführung von {discussion} in {new_discussion}",
                     "merged_into": "",
-                    "renamed": "",
+                    "renamed": "Diskussion von {old_title} zu {new_title} umbenannt",
                     "restored": "",
                     "split_away": "",
                     "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
+                    "stickied": "Diskussion {discussion} angeheftet",
+                    "tagged": "Themen zu {discussion} von {old_tags} zu {new_tags} geändert",
                     "unlocked": "",
                     "unstickied": "",
-                    "user_changed": ""
+                    "user_changed": "Autor von {discussion} von {old_user} zu {new_user} geändert"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": ""
+                    "disabled": "Erweiterung {package} deaktiviert",
+                    "enabled": "Erweiterung {package} aktiviert"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "IP {ip} gesperrt",
+                    "unbanned": "IP {ip} entsperrt"
                 },
                 "permission_changed": "",
                 "post": {
@@ -92,21 +92,21 @@
                     "hidden": "",
                     "restored": "",
                     "revised": "",
-                    "user_changed": ""
+                    "user_changed": "Autor von {post} von {old_user} zu {new_user} geändert"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "Einstellung {key} geändert",
+                "setting_changed_with_values": "Einstellung {key} von {old_value} zu {new_value} geändert",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "Thema {tag} erstellt",
+                    "deleted": "Thema {tag} gelöscht",
+                    "updated": "Thema {tag} aktualisiert"
                 },
                 "user": {
                     "activated": "",
                     "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
+                    "avatar_changed": "{username}s Profilbild geändert",
+                    "avatar_removed": "{username}s Profilbild entfernt",
+                    "bio_changed": "{username}s Bio bearbeitet",
                     "created": "",
                     "deleted": "",
                     "email_changed": "",
@@ -116,16 +116,16 @@
                     "logged_in": "",
                     "logged_in_with_provider": "",
                     "logged_out": "",
-                    "nickname_changed": "",
+                    "nickname_changed": "{username}s Nicknamen von {old_nickname} zu {new_nickname} geändert",
                     "nickname_requested": "",
                     "nickname_request_approved": "",
                     "nickname_request_rejected": "",
-                    "password_changed": "",
+                    "password_changed": "{username}s Passwort geändert",
                     "password_change_requested": "",
                     "provider_connected": "",
-                    "suspended": "",
-                    "unsuspended": "",
-                    "username_changed": "",
+                    "suspended": "{username} gesperrt bis {until}",
+                    "unsuspended": "{username} entsperrt",
+                    "username_changed": "{username}s Benutzernamen von {old_username} zu {new_username} geändert",
                     "username_requested": "",
                     "username_request_approved": "",
                     "username_request_rejected": ""

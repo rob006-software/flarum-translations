@@ -1,0 +1,169 @@
+{
+    "flarum-extension-manager": {
+        "admin": {
+            "auth_config": {
+                "add_label": "",
+                "add_modal": {
+                    "host_label": "",
+                    "host_placeholder": "",
+                    "submit_button": "",
+                    "token_label": "",
+                    "type_label": "",
+                    "unchanged_token_placeholder": ""
+                },
+                "delete_confirmation": "",
+                "delete_label": "",
+                "edit_label": "",
+                "fields": {
+                    "host": "",
+                    "token": ""
+                },
+                "no_auth_methods_configured": "",
+                "remove_button_label": "",
+                "title": "",
+                "types": {
+                    "github-oauth": "",
+                    "gitlab-oauth": "",
+                    "gitlab-token": "",
+                    "bearer": ""
+                }
+            },
+            "composer": {
+                "add_repository_label": "",
+                "delete_repository_confirmation": "",
+                "delete_repository_label": "",
+                "edit_repository_label": "",
+                "title": "",
+                "minimum_stability": {
+                    "label": "",
+                    "help": "",
+                    "options": {
+                        "stable": "",
+                        "rc": "",
+                        "beta": "",
+                        "alpha": "",
+                        "dev": ""
+                    }
+                },
+                "repositories": {
+                    "label": "",
+                    "help": "",
+                    "types": {
+                        "composer": "",
+                        "vcs": "",
+                        "path": ""
+                    },
+                    "add_modal": {
+                        "name_label": "",
+                        "type_label": "",
+                        "url": "",
+                        "submit_button": ""
+                    }
+                }
+            },
+            "exceptions": {
+                "composer_command_failure": "",
+                "extension_already_installed": "",
+                "extension_not_directly_dependency": "",
+                "extension_not_installed": "",
+                "guessed_cause": {
+                    "extension_incompatible_with_instance": "",
+                    "extension_not_found": "",
+                    "extensions_incompatible_with_new_major": ""
+                }
+            },
+            "extensions": {
+                "check_why_it_failed_updating": "",
+                "install": "",
+                "install_help": "",
+                "proceed": "",
+                "remove": "",
+                "successful_install": "",
+                "successful_remove": "",
+                "successful_update": "",
+                "update": "",
+                "update_soft_label": "",
+                "update_hard_label": ""
+            },
+            "file_permissions": "",
+            "major_updater": {
+                "description": "",
+                "dry_run": "",
+                "dry_run_help": "",
+                "failure": {
+                    "desc": "",
+                    "why": ""
+                },
+                "title": "",
+                "update": ""
+            },
+            "minor_update_confirmation": {
+                "content": ""
+            },
+            "sections": {
+                "control": {
+                    "title": ""
+                },
+                "queue": {
+                    "columns": {
+                        "details": "",
+                        "elapsed_time": "",
+                        "peak_memory_used": "",
+                        "operation": "",
+                        "package": "",
+                        "status": ""
+                    },
+                    "none": "",
+                    "operations": {
+                        "extension_install": "",
+                        "extension_remove": "",
+                        "extension_update": "",
+                        "update_check": "",
+                        "update_global": "",
+                        "update_major": "",
+                        "update_minor": "",
+                        "why_not": ""
+                    },
+                    "output_modal": {
+                        "cause_unknown": "",
+                        "command": "",
+                        "guessed_cause": "",
+                        "output": ""
+                    },
+                    "refresh": "",
+                    "statuses": {
+                        "success": "",
+                        "failure": "",
+                        "pending": "",
+                        "running": ""
+                    },
+                    "task_just_started": "",
+                    "title": ""
+                }
+            },
+            "settings": {
+                "title": "",
+                "access_warning": "",
+                "debug_mode_warning": "",
+                "queue_jobs": "",
+                "queue_jobs_help": "",
+                "task_retention_days": "",
+                "task_retention_days_help": ""
+            },
+            "updater": {
+                "up_to_date": "",
+                "check_for_updates": "",
+                "flarum": "",
+                "global_update_successful": "",
+                "last_update_checked_at": "",
+                "run_global_update": "",
+                "updater_title": "",
+                "updater_help": ""
+            },
+            "update_successful": "",
+            "why_not_modal": {
+                "title": ""
+            }
+        }
+    }
+}

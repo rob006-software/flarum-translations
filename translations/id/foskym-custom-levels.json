@@ -1,0 +1,26 @@
+{
+    "foskym-custom-levels": {
+        "admin": {
+            "settings": {
+                "levelText": "Masukkan teks yang akan ditampilkan untuk level (misalnya Rank, Level)",
+                "levelDesc": "Variabel yang tersedia：[level]",
+                "expText": "Masukkan teks yang akan ditampilkan untuk exp（misalnya「[expTotal] Exp」）",
+                "expDesc": "Variabel yang tersedia：[expTotal]",
+                "expFormula": "Masukkan rumus exp (misalnya「[discussionCount] * 40 + [commentCount] / 20」）",
+                "expFormulaDesc1": "Anda dapat menggunakan variabel ini:",
+                "expFormulaDesc2": "Core（[discussionCount] [commentCount]）",
+                "expFormulaDesc3": "Butuh Plugin（[money] [likesReceived] [bestAnswerCount]）",
+                "levelFormula": "Masukkan rumus level（misalnya「[expTotal] / (100 + 5 * [level])」）",
+                "levelFormulaDesc": "Anda dapat menggunakan variabel ini [expTotal] [level]"
+            }
+        },
+        "lib": {
+            "defaults": {
+                "level": "Lv.",
+                "exp": "[expTotal] Exp",
+                "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
+                "levelFormula": "[expTotal] / (100 * [level])"
+            }
+        }
+    }
+}

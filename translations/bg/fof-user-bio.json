@@ -8,13 +8,20 @@
             },
             "setting": {
                 "bioLimit": "Лимит на знаците за био",
+                "maxLines": "Максимален брой редове за показване наведнъж",
                 "allowFormatting": "Позволи форматиране на био",
                 "allowFormatting_help": "По дизайн това форматиране е различно от форматирането на публикацията. Ако BBCode и/или Markdown разширенията са активирани, те ще бъдат налични за форматиране на био. Не се допускат изображения или вграждания. Изображения,които добавят към Flarum formatter трябва *изрично* да добавят съпорт за био formatter."
             }
         },
         "forum": {
             "userbioPlaceholder": "Напиши нещо за себе си",
-            "userbioPlaceholderOtherUser": "Напиши био за {username}"
+            "userbioPlaceholderOtherUser": "Напиши био за {username}",
+            "profile": {
+                "cancel_confirm": "",
+                "cancel_button": "",
+                "save_button": "",
+                "edit_bio_label": ""
+            }
         }
     }
 }

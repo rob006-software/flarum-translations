@@ -8,13 +8,20 @@
             },
             "setting": {
                 "bioLimit": "Kuvauksen merkkiraja",
+                "maxLines": "Enimmäismäärä näytettäviä rivejä",
                 "allowFormatting": "Salli kuvauksen muotoilu",
                 "allowFormatting_help": "Suunnitellusti tämä muotoilu on erilainen kuin viestin muotoilu. Jos BBCode ja/tai Markdown lisäosat ovat käytössä ne ovat myös täällä käytettävissä. Kuvia ja upotuksia ei sallita. Lisäosat jotka lisätään Flarumin muotoiluun pitää *erikseen* sallia kuvauksen muotoiluun."
             }
         },
         "forum": {
             "userbioPlaceholder": "Kirjoita jotain itsestäsi",
-            "userbioPlaceholderOtherUser": "Kirjoita kuvaus käyttäjälle {username}"
+            "userbioPlaceholderOtherUser": "Kirjoita kuvaus käyttäjälle {username}",
+            "profile": {
+                "cancel_confirm": "",
+                "cancel_button": "",
+                "save_button": "",
+                "edit_bio_label": ""
+            }
         }
     }
 }

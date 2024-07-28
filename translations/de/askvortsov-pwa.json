@@ -31,13 +31,22 @@
                     "reset_vapid_confirm": "Durch das Zurücksetzen von VAPID-Schlüsseln werden alle Abonnements entfernt, die die vorhandenen Schlüssel verwenden, sodass Benutzer keine Benachrichtigungen erhalten, bis sie Deine Website das nächste Mal besuchen. Dies sollte nur beim erstmaligen Einrichten von Push-Benachrichtigungen erfolgen oder wenn Push-Benachrichtigungen überhaupt nicht funktionieren und oben eine Warnung zu fehlenden VAPID-Schlüsseln angezeigt wird.",
                     "reset_vapid_success": "VAPID-Schlüssel erfolgreich zurückgesetzt. {count} Abonnements wurden zurückgesetzt. Lade die Seite neu, um einen aktualisierten Statusprüfbericht anzuzeigen."
                 },
+                "firebase_config": {
+                    "heading": "",
+                    "help_text": "",
+                    "see_documentation_here": "",
+                    "upload_successful": "",
+                    "upload_file": ""
+                },
                 "other": {
                     "heading": "Anderes",
                     "force_portrait_text": "Porträt-Orientierung erzwingen",
                     "push_notif_preference_default_to_email_label": "Standard-Push-Präferenzen für E-Mail?",
                     "push_notif_preference_default_to_email_text": "Bei true verfügen die Nutzer/innen über standardmäßig aktivierte Push-Benachrichtigungen für alle Benachrichtigungsarten, bei denen E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Bei false verfügen die Nutzer/innen standardmäßig über deaktivierte Push-Benachrichtigungen.",
                     "user_max_subscriptions_label": "Maximale Push-Abonnements pro Benutzer",
-                    "user_max_subscriptions_text": "Wie viele Push-Abonnements sollte jeder Nutzer gleichzeitig haben können? Wenn ein Nutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Nutzer verwendet hat."
+                    "user_max_subscriptions_text": "Wie viele Push-Abonnements sollte jeder Nutzer gleichzeitig haben können? Wenn ein Nutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Nutzer verwendet hat.",
+                    "window_controls_overlay_label": "",
+                    "window_controls_overlay_text": ""
                 },
                 "heading": "Progressive Web App Konfiguration",
                 "text": "Konfiguriere deine Flarum Seite, damit sie als progressive Web App läuft! Bitte beachte, dass dies deine Seite nicht automatisch in den App Store bringt. Stattdessen bedeutet dies, dass Nutzer für deine Website die Option \"Zum Homescreen hinzufügen\" erhalten. Wir bieten einige Statusüberprüfungen an, aber der beste Weg dies zu testen ist selber eine Test-Installation durchzuführen (suche auf Google nach einer Anleitung, wie man Progressive Web Apps installiert). Bitte bedenke auch, dass \"installiere diese PWA\"-Popups von Browsern gesteuert werden und nicht von Entwicklern/Admins/Programmen ausgelöst werden können. Es ist empfohlen, eine Anleitung für die Installation einer PWA in die Dokumentation deiner Seite aufzunehmen.",

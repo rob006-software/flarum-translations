@@ -32,7 +32,7 @@
                 "title": "Doorman",
                 "doorkey": {
                     "used_times": "{remaining, plural, one {{remaining} kullanım kaldı} other {{remaining} kullanım kaldı}}",
-                    "total_uses": "",
+                    "total_uses": "{totalUses, plural, one {{totalUses} defa kullanıldı} other {{totalUses} defa kullanıldı}}",
                     "title": "Davetiye Kodları",
                     "help": {
                         "key": "Anahtar: Kayıt sırasında kullanıcının girmesi gereken kod.",

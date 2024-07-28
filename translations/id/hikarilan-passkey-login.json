@@ -1,0 +1,45 @@
+{
+    "hikarilan-passkey-login": {
+        "admin": {
+            "settings": {
+                "relying_party": {
+                    "name": {
+                        "label": "Nama Relying Party",
+                        "help": "Nama Relying Party adalah nama yang dapat dibaca oleh manusia untuk situs Anda. Jika dibiarkan kosong, judul forum akan digunakan."
+                    },
+                    "id": {
+                        "label": "ID Relying Party",
+                        "help": "ID Relying Party adalah pengenal unik untuk situs Anda. ID ini akan menjadi domain situs web tanpa skema. Misalnya, jika situs web Anda adalah https://example.com, ID Relying Party adalah example.com. Jika dikosongkan, domain saat ini yang akan digunakan."
+                    }
+                },
+                "timeout": {
+                    "label": "Waktu habis",
+                    "help": "Batas waktu verifikasi passkey dalam hitungan detik. Nilai default adalah 60 detik."
+                }
+            }
+        },
+        "forum": {
+            "login": {
+                "with-passkey": "Masuk dengan passkey"
+            },
+            "user": {
+                "settings": {
+                    "passkeys": {
+                        "title": "Passkey",
+                        "label": "Passkey adalah pengganti kata sandi yang memvalidasi identitas Anda menggunakan sentuhan, pengenalan wajah, kata sandi perangkat, atau PIN.",
+                        "add-new-passkey": "Tambah passkey",
+                        "error": "Terjadi sebuah kesalahan internal. Silahkan coba kembali."
+                    },
+                    "alias-modal": {
+                        "title": "Passkey terdaftar!",
+                        "label": "Dan sekarang, mari kita beri nama alias pada passkey Anda."
+                    },
+                    "item": {
+                        "revoke": "=> core.forum.security.revoke_access_token",
+                        "revoke_success": "Passkey berhasil dicabut."
+                    }
+                }
+            }
+        }
+    }
+}

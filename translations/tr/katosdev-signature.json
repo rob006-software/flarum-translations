@@ -3,7 +3,17 @@
         "forum": {
             "buttons": {
                 "signature": "İmza",
-                "save": "İmzayı Kaydet"
+                "save": "İmzayı Kaydet",
+                "edit": "İmzayı Düzenle"
+            },
+            "errors": {
+                "max_char_limit_exceed": "Karakter sınırı aşıldı.",
+                "max_image_count_exceed": "Görsel sayı sınırı aşıldı.",
+                "max_image_width_exceed": "Görsel genişliği sınırı aşıldı.",
+                "max_image_height_exceed": "Görsel yükseklik sınırı aşıldı."
+            },
+            "profile": {
+                "click": "İmzanı yazmak için tıkla"
             },
             "modal": {
                 "loading": {
@@ -14,17 +24,28 @@
                     "title": "Opps! Kaydedilirken beklenmeyen bir hata meydana geldi...",
                     "content": "Hatalar listesi:"
                 }
-            },
-            "errors": {
-                "max_char_limit_exceed": "Karakter sınırı aşıldı.",
-                "max_image_width_exceed": "Görsel genişliği sınırı aşıldı.",
-                "max_image_height_exceed": "Görsel yükseklik sınırı aşıldı.",
-                "max_image_count_exceed": "Görsel sayı sınırı aşıldı."
             }
         },
         "admin": {
-            "title": "İmza",
+            "permissions": {
+                "edit_signature_others": "Diğer kullanıcıların imzasını düzenle",
+                "allow_signature": "İmza sahibi olsun"
+            },
             "settings": {
+                "maximum_image_count": {
+                    "description": "Eklenecek maksimum görsel sayısı.",
+                    "help": "Kullanıcı imzasındaki maksimum görsel sayısını aştığında, görsel sayısı buna uygun olana kadar kaydetmesi engellenecektir.",
+                    "placeholder": "5 (varsayılan)"
+                },
+                "maximum_char_limit": {
+                    "description": "İmzadaki maksimum karakter sınırı.",
+                    "help": "Kullanıcı imzasındaki maksimum karakter sınırını aştığında, karakter sayısı uygun olana kadar kaydetmesi engellenecektir.",
+                    "placeholder": "1000 (varsayılan)"
+                },
+                "allow_inline_editing": {
+                    "description": "İmza satır içinde düzenlensin.",
+                    "help": "Etkinleştirildiğinde kullanıcılar bir gönderiyi görüntülerken imzalarını düzenleyebilir."
+                },
                 "maximum_image_width": {
                     "description": "Editöre eklenecek resmin maksimum genişliği.",
                     "placeholder": "350 (varsayılan)"
@@ -32,16 +53,9 @@
                 "maximum_image_height": {
                     "description": "Editöre eklenecek görsellerin toplam yükseklik sınırı.",
                     "placeholder": "500 (varsayılan)"
-                },
-                "maximum_image_count": {
-                    "description": "Eklenecek maksimum görsel sayısı.",
-                    "placeholder": "5 (varsayılan)"
-                },
-                "maximum_char_limit": {
-                    "description": "İmzadaki maksimum karakter limiti (karakterler sayılır, HTML etiketleri geçerli sayılmaz)",
-                    "placeholder": "1000 (varsayılan)"
                 }
-            }
+            },
+            "title": "İmza"
         }
     },
     "Xengine-signature": {

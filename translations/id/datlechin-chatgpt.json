@@ -2,18 +2,20 @@
     "datlechin-chatgpt": {
         "admin": {
             "settings": {
-                "api_key_label": "Kunci API",
-                "api_key_help": "Dapatkan kunci API OpenAI dari <a>openai.com</a>.",
+                "api_key_label": "API Key",
+                "api_key_help": "Dapatkan OpenAI API key dari <a>openai.com</a>.",
                 "model_label": "Model",
                 "model_help": "Pelajari lebih lanjut tentang <a>models</a> (default: <code>text-davinci-003</code>).",
                 "max_tokens_label": "Maksimum Token",
                 "max_tokens_help": "<a>Apa itu token dan bagaimana cara menghitungnya?</a>",
-                "user_prompt_label": "Perintah User",
-                "user_prompt_help": "Perintah yang akan digunakan untuk menghasilkan jawaban. Defaultnya adalah siapa yang memulai diskusi.",
-                "user_prompt_badge_label": "Badge Perintah User",
-                "user_prompt_badge_help": "Teks yang akan ditampilkan di sebelah perintah User.",
+                "user_prompt_label": "Prompt Pengguna",
+                "user_prompt_help": "Masukkan ID pengguna yang akan digunakan untuk menghasilkan jawaban. Defaultnya adalah siapa yang memulai diskusi.",
+                "user_prompt_badge_label": "Badge Prompt Pengguna",
+                "user_prompt_badge_help": "Teks yang akan ditampilkan di sebelah prompt pengguna.",
                 "enable_on_discussion_started_label": "Aktifkan saat diskusi dimulai",
-                "enable_on_discussion_started_help": "Diskusi akan menerima jawaban berdasarkan isi postingan pertama saat diskusi dimulai."
+                "enable_on_discussion_started_help": "Diskusi akan menerima jawaban berdasarkan isi postingan pertama saat diskusi dimulai.",
+                "enabled_tags_label": "Tag yang Diaktifkan",
+                "enabled_tags_help": "Pilih tag mana yang akan digunakan untuk menghasilkan jawaban."
             },
             "permissions": {
                 "use_chatgpt_assistant_label": "Menggunakan ChatGPT Assistant"

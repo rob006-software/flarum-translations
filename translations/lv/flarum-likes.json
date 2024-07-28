@@ -2,11 +2,11 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "Patīk ierakstiem"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Ja tas ir iespējots, lietotāji var atzīmēt savus ierakstus forumā ar “Patīk”. Lai neļautu lietotājiem ievietot atzīmi “Patīk” savām ziņām, atspējojiet šo iestatījumu.",
+                "like_own_posts_label": "Lietotājiem var patikt viņu pašu ziņas"
             }
         },
         "forum": {
@@ -17,20 +17,20 @@
             "post": {
                 "like_link": "Patīk",
                 "liked_by_self_text": "{users} patīk šis.",
-                "liked_by_text": "",
+                "liked_by_text": "{count, plural, one {{users} patīk šis} other {{users} patīk šis}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Noņemt patīk",
                 "you_text": "=> core.ref.you"
             },
             "post_likes": {
                 "title": "Lietotāji kuriem patīk šis",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
                 "notify_post_liked_label": "Kādam patīk viena no manām ziņām"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Patīk"
             }
         }
     }

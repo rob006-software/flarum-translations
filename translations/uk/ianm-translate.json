@@ -4,9 +4,12 @@
             "permission": {
                 "refresh-translation": "Примусовий повторний переклад кешованого перекладу",
                 "translate-to-locale": "Переглянути переклад у поточній локалі",
-                "translate-to-all-locales": "Перегляд перекладу в будь-якій локалізації форуму"
+                "translate-to-all-locales": "Перегляд перекладу в будь-якій локалізації форуму",
+                "edit-translation": "Ручне редагування перекладу"
             },
             "settings": {
+                "seemless": "",
+                "seemless-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "Зареєструйтеся за посиланням {link}. Драйвер автоматично визначить тип ключа free/pro.",
@@ -36,27 +39,74 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "port": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
+                "translate-all-enabled": "Увімкніть усі мови перекладу",
+                "translate-all-help": "Якщо цю опцію увімкнено, користувачі-адміністратори та інші користувачі з відповідними правами можуть перекладати вміст на будь-яку встановлену мову форуму.",
+                "bind-browser-language": "Додати мову браузера",
+                "bind-browser-language-help": "Якщо увімкнено, мову(и) браузера користувача буде додано до списку мов, доступних для перекладу.",
+                "use-native-locale-names": "Використовуйте рідні назви локалей",
+                "use-native-locale-names-help": "Якщо увімкнено, замість поточної версії назви локалі буде використано назву рідної локалі.",
+                "translate-polls": "Переклад опитувань",
+                "translate-polls-help": "Якщо увімкнено, назви опитувань, субтитри, підписи до зображень і варіанти відповідей перекладатимуться автоматично під час створення або редагування опитувань.",
                 "provider": "Постачальник послуг перекладу",
-                "readme-info": "Більш детальну інформацію можна знайти в документації README."
+                "readme-info": "Більш детальну інформацію можна знайти в документації README.",
+                "readme-none": "Для цього драйвера не потрібно ніяких додаткових налаштувань."
             }
         },
         "forum": {
+            "composer": {
+                "multi-languages": ""
+            },
             "unknown-language": "[не виявлено]",
             "detected-language": "Ця публікація знаходиться на {postLang}",
             "translate-button-label": "Переклад",
+            "refresh-translation": "Оновити переклад",
+            "original-content": {
+                "title": "",
+                "view": ""
+            },
+            "manage-translations": {
+                "translations-label": "Переклади",
+                "button-label": "Керування перекладами",
+                "poll": {
+                    "image-alt": "Альтернативний текст для зображення опитування (якщо є)",
+                    "option": "Параметр опитування {number}",
+                    "original-title": "Мова оригіналу",
+                    "subtitle": "Підзаголовок до опитування",
+                    "title": "Керування перекладами опитувань",
+                    "question": "Питання для опитування"
+                },
+                "save-changes": "=> core.ref.save_changes"
+            },
             "discussion": {
                 "post": {
                     "close-translation": "Закрити переклад",
                     "translated-header": "Переклад ШІ з {from} на {to}",
                     "translated-updated": "Переклад востаннє оновлено {time} за допомогою {provider}"
+                },
+                "title": {
+                    "detected-language": "{postLang}"
                 }
             },
             "user": {
                 "settings": {
                     "heading": "Переклад",
                     "source-language": {
-                        "help": "Якщо цей параметр вимкнено, позначатимуться лише повідомлення, написані мовою, відмінною від поточної мови форуму. Щоб позначати всі повідомлення визначеною мовою, увімкніть цей параметр.",
-                        "label": "Завжди показуйте мову допису"
+                        "help": "Якщо цей параметр вимкнено, позначатиметься лише вміст, який можна перекласти, написаний мовою, відмінною від поточної мови форуму. Щоб позначати весь вміст виявленою мовою, увімкніть цей параметр.",
+                        "label": "Завжди показуйте мову"
                     }
                 }
             }
@@ -65,7 +115,8 @@
             "providers": {
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
-                "google-cloud": "Google Cloud Translate"
+                "google-cloud": "Google Cloud Translate",
+                "libre": ""
             },
             "settings": {
                 "api-key": "Ключ API"

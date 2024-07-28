@@ -94,6 +94,17 @@
             "nickname_change_requests": "Becenév-módosítási kérések",
             "username_change_request": "Felhasználónév-módosítási kérés",
             "username_change_requests": "Felhasználónév-módosítási kérések"
+        },
+        "email": {
+            "body": {
+                "noReasonProvided": "Nincs ok megadva.",
+                "approved": "Kedves {recipient_display_name}!\n\n{actor_display_name} engedélyezte a kérését, hogy a következő legyen a felhasználóneve: „{new_username}”.\n\nMost már bejelentkezhet az új felhasználónevével: {login_url}\n",
+                "rejected": "Kedves {recipient_display_name}!\n\n{actor_display_name} elutasította a kérését, hogy a(z) „{old_username}” felhasználónevét erre módosítja: „{requested_username}”.\n\nOk: {reason}\n"
+            },
+            "subject": {
+                "approved": "{display_name} engedélyezte a kérését, hogy a következő legyen a felhasználóneve: „{requested_username}”",
+                "rejected": "{display_name} elutasította a kérését, hogy a következő legyen a felhasználóneve: „{requested_username}”"
+            }
         }
     }
 }

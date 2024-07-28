@@ -1,0 +1,26 @@
+{
+    "foskym-custom-levels": {
+        "admin": {
+            "settings": {
+                "levelText": "Saisissez le texte à afficher pour les niveaux (par exemple : rang ou niveau)",
+                "levelDesc": "Variables disponibles：[level]",
+                "expText": "Saisir le texte à afficher pour les points d'expérience（par exemple「[expTotal] points d'expérience」）",
+                "expDesc": "Variables disponibles：[expTotal]",
+                "expFormula": "Saisir la formule pour le gain d'expérience（par exemple「[discussionCount] * 40 + [commentCount] / 20」）",
+                "expFormulaDesc1": "Vous pouvez utiliser ces variables：",
+                "expFormulaDesc2": "Noyau（[discussionCount] [commentCount]）",
+                "expFormulaDesc3": "Besoin de plugins（[money] [likesReceived] [bestAnswerCount]）",
+                "levelFormula": "Saisir la formule pour le gain de niveaux（par exemple「[expTotal] / (100 + 5 * [level])」）",
+                "levelFormulaDesc": "Vous pouvez utiliser ces variables [expTotal] [level]"
+            }
+        },
+        "lib": {
+            "defaults": {
+                "level": "Niveau",
+                "exp": "[expTotal] points d'expérience",
+                "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
+                "levelFormula": "[expTotal] / (100 * [level])"
+            }
+        }
+    }
+}

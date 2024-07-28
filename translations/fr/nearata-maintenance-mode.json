@@ -1,0 +1,30 @@
+{
+    "nearata-maintenance-mode": {
+        "admin": {
+            "dashboard": {
+                "maintenance_widget": {
+                    "title": "Mode de maintenance actif",
+                    "detail": "Pendant la maintenance, seuls les utilisateurs autorisés peuvent consulter le forum."
+                }
+            },
+            "permissions": {
+                "bypass": "Peut contourner le mode de maintenance"
+            },
+            "settings": {
+                "maintenance_mode_enabled": {
+                    "label": "Mode de maintenance"
+                }
+            }
+        },
+        "views": {
+            "default": {
+                "title": "Maintenance",
+                "header": "Nous sommes actuellement indisponible pour cause de maintenance.",
+                "body": "<p>Nous effectuons actuellement une maintenance. Veuillez revenir plus tard.</p>\n"
+            }
+        },
+        "api": {
+            "title": "Nous sommes actuellement indisponible pour cause de maintenance. Veuillez revenir plus tard."
+        }
+    }
+}

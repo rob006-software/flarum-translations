@@ -3,13 +3,13 @@
         "forum": {
             "modal": {
                 "error": {
-                    "failed_to_load_cropper": "",
-                    "generic_resize": "",
-                    "get_image_data": ""
+                    "failed_to_load_cropper": "No s'ha pogut carregar el retallador d'imatges.",
+                    "generic_resize": "S'ha produït algun error al retallar i redimensionar la imatge.",
+                    "get_image_data": "No s'ha pogut retallar. Comprova que la protecció d'empremtes digitals del teu navegador estigui desactivada."
                 },
-                "help_text": "",
-                "submit_button": "",
-                "submit_crop_button": ""
+                "help_text": "La càrrega de la imatge pot fallar si la configuració de privadesa del teu navegador és molt estricta. Si tens problemes, prova de desactivar la protecció d'empremtes digitals. En cas contrari, pots <disableResize>desactivar la compressió de la imatge retallada</disableResize> o <disableCrop>desactivar completament la retallada d'imatges</disableCrop>.\n",
+                "submit_button": "Pujar",
+                "submit_crop_button": "Retallar i pujar"
             }
         }
     }

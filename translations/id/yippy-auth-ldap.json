@@ -1,0 +1,81 @@
+{
+    "yippy-auth-ldap": {
+        "forum": {
+            "account_found": "Menemukan akun di {server}",
+            "log_in_with": "Login dengan {server}",
+            "log_out": "=> core.ref.log_out",
+            "errors": {
+                "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
+                "search_filter_is_invalid": "Tidak dapat mencari filter untuk {server} karena `kolom pencarian LDAP` tidak valid, ubah pengaturan ekstensi.",
+                "not_authenticated": "Tidak dapat melakukan bind {server} karena kredensial yang tidak valid, ubah pengaturan ekstensi.",
+                "csrf_token_mismatch": "Anda sudah terlalu lama tidak aktif, silakan refresh halaman dan coba lagi",
+                "domains": {
+                    "no_domains": "Pengaturan admin tidak memiliki domain yang ditetapkan, ubah pengaturan ekstensi.",
+                    "empty_host": "Domain {domain_index} tidak memiliki alamat IP Domain atau server yang disetel, ubah pengaturan ekstensi.",
+                    "empty_base_dn": "Domain {domain_index} tidak memiliki pengaturan Base DNs, ubah pengaturan ekstensi.",
+                    "empty_user_username": "Domain {domain_index} memiliki Profil Pengguna Flarum - 'Kolom username' kosong, ubah pengaturan ekstensi.",
+                    "empty_search_field": "Domain {domain_index} memiliki Pencarian Akun LDAP - 'Kolom pencarian' kosong, ubah pengaturan ekstensi.",
+                    "username_field_does_not_exist": "Domain {domain_index} tidak dapat menemukan username untuk Profil Pengguna Flarum - `Kolom username` dengan `{data}`, ubah pengaturan ekstensi.",
+                    "mail_field_does_not_exist": "Domain {domain_index} tidak dapat menemukan email untuk Profil Pengguna Flarum - `Kolom email` dengan `{data}`, ubah pengaturan ekstensi."
+                },
+                "account": {
+                    "invalid_inputs": "Kolom input tidak boleh kosong",
+                    "not_found": "Tidak dapat menemukan akun Anda di {server}.",
+                    "incorrect_details": "Password yang dimasukkan salah.",
+                    "password_expired": "Password Anda telah kedaluwarsa.",
+                    "disabled": "Akun Anda dinonaktifkan, hubungi administrasi {server} Anda.",
+                    "expired": "Akun Anda telah kedaluwarsa, hubungi administrasi {server} Anda.",
+                    "locked": "Akun Anda terkunci, hubungi administrasi {server} Anda."
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Pengaturan LDAP",
+                "method_name": "Nama server LDAP (akan muncul setelah \"Masuk dengan\")",
+                "domains": {
+                    "title": "Domain LDAP",
+                    "description": "Masukkan semua domain LDAP yang tersedia untuk digunakan Flarum untuk login",
+                    "add": "Tambah Domain",
+                    "banner": "Domain {index}",
+                    "header": {
+                        "server": "Pengaturan Server LDAP",
+                        "admin": "Admin LDAP",
+                        "search_fields": "Pencarian Akun LDAP",
+                        "search_fields_description": "Buat daftar kolom LDAP untuk dibandingkan dengan Username yang diberikan Pengguna.",
+                        "flarum": "Profil Pengguna Flarum",
+                        "flarum_description": "Ketika akun LDAP telah ditemukan, Anda dapat menetapkan kolom yang sesuai ke Profil Pengguna Flarum saat pendaftaran."
+                    },
+                    "data": {
+                        "host": "Domain atau alamat IP server",
+                        "host_help": "Dipisahkan dengan koma",
+                        "base_dn": "Base DNs",
+                        "base_dn_help": "Dipisahkan dengan titik koma",
+                        "filter": "Filter untuk diterapkan",
+                        "filter_help": "Opsional, harus mengecualikan 'Kolom pencarian' ke dalam filter. Sebagai contoh, memasukkan filter sebagai '(objectclass=user)' dan memilih 'uid' dalam 'Kolom pencarian' akan mengubah filter menjadi '(&(objectclass=user)(uid=[User's Input]))\"",
+                        "port": "Port",
+                        "port_help": "Bukan SSL (Port 389) atau SSL (Port 636).",
+                        "version": "Versi LDAP",
+                        "version_help": "Hanya dapat ditetapkan ke 2 atau 3 (3 adalah default).",
+                        "follow_referrals": "Ikuti referral untuk bind ke server LDAP",
+                        "use_ssl": "Gunakan SSL",
+                        "use_tls": "Gunakan TLS",
+                        "admin_dn": "Distinguished name (DNs)",
+                        "admin_dn_help": "Biarkan kosong untuk pengikatan anonim",
+                        "admin_password": "Password",
+                        "admin_password_help": "Biarkan kosong untuk pengikatan anonim",
+                        "search_user_fields": "Kolom pencarian",
+                        "search_user_fields_help": "Pilih beberapa kolom pencarian menggunakan opsi dropdown, misalnya memilih \"mail\" hanya akan mengizinkan email, sementara \"uid,mail\" akan mengizinkan email atau username.",
+                        "user_username": "Menetapkan kolom Username",
+                        "user_mail": "Menetapkan kolom Email",
+                        "user_mail_help": "Biarkan kosong untuk mengizinkan Pengguna mengatur email mereka sendiri saat pendaftaran",
+                        "user_nickname_fields": "Menetapkan Nickname dengan kolom",
+                        "user_nickname_fields_help": "Ekstensi Nickname harus diaktifkan, kompilasi Nickname dengan beberapa bidang LDAP menggunakan opsi dropdown. Misalnya memilih \"givenname,sn\" akan menetapkan \"[Nama Depan] [Nama Belakang]\" sebagai Nama Panggilan mereka"
+                    }
+                },
+                "onlyUse": "Sembunyikan metode login standar Flarum",
+                "display_detailed_error": "Tampilkan detail error LDAP untuk upaya login yang gagal"
+            }
+        }
+    }
+}

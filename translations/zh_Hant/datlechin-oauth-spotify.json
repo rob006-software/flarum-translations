@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "spotify": {
+                        "description": "使用 Spotify {link} 註冊您的論壇。",
+                        "client_id_label": "Client ID",
+                        "client_secret_label": "用戶秘鑰"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_spotify_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "spotify": "=> fof-oauth.lib.providers.spotify"
+            }
+        },
+        "lib": {
+            "providers": {
+                "spotify": "Spotify"
+            }
+        }
+    }
+}

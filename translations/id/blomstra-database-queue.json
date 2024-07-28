@@ -1,0 +1,33 @@
+{
+    "blomstra-database-queue": {
+        "admin": {
+            "settings": {
+                "backoff_label": "Kembali",
+                "backoff_help": "Jumlah detik untuk menunggu sebelum mencoba kembali job yang mendapatkan exception yang tidak tertangkap.\n",
+                "memory_label": "Memori",
+                "memory_help": "Batas memori dalam megabyte.\n",
+                "rest_label": "Berhenti Sementara",
+                "rest_help": "Jumlah detik untuk berhenti sementara di antara job.\n",
+                "retries_label": "Percobaan ulang",
+                "retries_help": "Jumlah percobaan job sebelum gagal dicatat.\n",
+                "timeout_label": "Batas waktu",
+                "timeout_help": "Jumlah detik child process dapat berjalan.\n"
+            },
+            "stats": {
+                "auto_refresh": "Refresh Otomatis",
+                "heading": "Gambaran Umum Antrian",
+                "refresh": "Refresh",
+                "data": {
+                    "queue-name": "Antrian",
+                    "pending-jobs": "Job Tertunda",
+                    "failed-jobs": "Job Gagal",
+                    "status": {
+                        "label": "Status",
+                        "running": "Berjalan",
+                        "inactive": "Tidak Aktif"
+                    }
+                }
+            }
+        }
+    }
+}

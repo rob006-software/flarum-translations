@@ -3,27 +3,27 @@
         "admin": {
             "settings": {
                 "minecraft_server": {
-                    "label": "",
-                    "help": ""
+                    "label": "Minecraft Server-IP",
+                    "help": "Beispiel: meinedomain.tld"
                 },
                 "api_url": {
-                    "label": "",
-                    "help": ""
+                    "label": "API URL",
+                    "help": "Beispiel: http://localhost:4567/verify"
                 },
                 "api_secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "API Schlüssel",
+                    "help": "Zu finden in <strong>Plugins/OAuth/config.json</strong>"
                 }
             }
         },
         "forum": {
-            "login_error": "",
+            "login_error": "Sitzung nicht gestartet oder abgelaufen.",
             "log_in_modal": {
                 "submit_button": "Bestätigen",
                 "title": "Mit Minecraft einloggen"
             },
             "log_in_button_title": "Mit Minecraft einloggen",
-            "modal_help": "",
+            "modal_help": "Tritt dem Server <strong>{server}</strong> bei und klicke dann den unteren Button.",
             "change_email_modal": {
                 "confirmation_message": "Wir haben eine Bestätigungs-E-Mail an {email} gesendet. Wenn es nicht bald eintrifft, überprüfe Deinen Spam-Ordner.",
                 "dismiss_button": "OK",

@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "spotify": {
+                        "description": "Enregistrez votre forum auprès de Spotify {link}.",
+                        "client_id_label": "Identifiant du client",
+                        "client_secret_label": "Clé secrète du client"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_spotify_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "spotify": "=> fof-oauth.lib.providers.spotify"
+            }
+        },
+        "lib": {
+            "providers": {
+                "spotify": "Spotify"
+            }
+        }
+    }
+}

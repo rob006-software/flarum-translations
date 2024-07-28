@@ -1,0 +1,73 @@
+{
+    "foskym-oauth-center": {
+        "admin": {
+            "permission": {
+                "use_oauth": ""
+            },
+            "page": {
+                "index": "",
+                "clients": "",
+                "scopes": "",
+                "tokens": ""
+            },
+            "settings": {
+                "display_mode": "",
+                "access_lifetime": "",
+                "allow_implicit": "",
+                "enforce_state": "",
+                "require_exact_redirect_uri": "",
+                "authorization_method_fetch": ""
+            },
+            "clients": {
+                "client_id": "",
+                "client_secret": "",
+                "redirect_uri": "",
+                "grant_types": "",
+                "scope": "",
+                "client_name": "",
+                "client_desc": "",
+                "client_icon": "",
+                "client_home": "",
+                "add_button": "",
+                "edit_client": ""
+            },
+            "scopes": {
+                "scope": "",
+                "resource_path": "",
+                "method": "",
+                "is_default": "",
+                "scope_name": "",
+                "scope_icon": "",
+                "scope_desc": "",
+                "visible_fields": "",
+                "add_button": "",
+                "edit_scope": ""
+            },
+            "tokens": {
+                "add_token": "",
+                "delete_token": ""
+            }
+        },
+        "forum": {
+            "page": {
+                "title": {
+                    "authorize": ""
+                },
+                "label": {
+                    "authorized": ""
+                }
+            },
+            "authorize": {
+                "require_these_scopes": "",
+                "access": "",
+                "agree": "",
+                "deny": ""
+            },
+            "authorized": {
+                "no_records": "",
+                "no_more_records": "",
+                "load_more": ""
+            }
+        }
+    }
+}

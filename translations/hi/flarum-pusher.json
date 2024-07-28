@@ -2,16 +2,16 @@
     "flarum-pusher": {
         "admin": {
             "pusher_settings": {
-                "app_cluster_label": "",
-                "app_id_label": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "title": ""
+                "app_cluster_label": "झुंड",
+                "app_id_label": "ऐप आईडी",
+                "app_key_label": "ऐप कुंजी",
+                "app_secret_label": "ऐप का गुप्त पासवर्ड",
+                "title": "पुशर सेटिंग्स"
             }
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {# अद्यतन चर्चा दिखाएँ} other {# अद्यतन चर्चा दिखाएँ}}"
             }
         }
     }

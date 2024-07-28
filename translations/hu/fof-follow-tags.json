@@ -19,6 +19,8 @@
                 "lurking_tag_tooltip": "Leselkedés"
             },
             "sub_controls": {
+                "header": "Feliratkozás erre: {tagName}",
+                "subscription_label": "Válassza ki a feliratkozási szintjét ehhez: {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Értesítsen minden új témáról.",
@@ -31,7 +33,8 @@
                 "not_following_button": "Ne kövesse",
                 "not_following_text": "Csak akkor értesítsen, ha megemlíttettek.",
                 "notify_alert_tooltip": "Értesítést kaphatsz a fórumon, ha új hozzászólások vagy témák jelennek meg",
-                "notify_email_tooltip": "E-mail küldése, ha új témák vagy hozzászólások vannak"
+                "notify_email_tooltip": "E-mail küldése, ha új témák vagy hozzászólások vannak",
+                "submit_button": "Feliratkozás megerősítése"
             },
             "notifications": {
                 "new_discussion_text": "{username} indította",
@@ -73,6 +76,16 @@
             "filtering_options": {
                 "none": "Követett témák",
                 "tags": "Követett címkék"
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Exportálja a címke feliratkozási szintjének részleteit, ha az létezik.",
+                    "anonymize_description": "Eltávolítja a felhasználó címkefeliratkozását."
+                }
             }
         }
     }

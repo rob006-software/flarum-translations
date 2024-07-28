@@ -3,10 +3,24 @@
         "admin": {
             "configure_button_label": "Cấu hình với FoF OAuth",
             "settings_accessibility_label": "cài đặt {name}",
+            "permissions": {
+                "moderate_user_providers": "Kiểm duyệt các tài khoản liên kết của người dùng"
+            },
             "settings": {
+                "advanced": {
+                    "heading": "Nâng cao",
+                    "log-oauth-errors-label": "Ghi lại các lỗi OAuth",
+                    "log-oauth-errors-help": "Nếu được kích hoạt, các lỗi OAuth sẽ được ghi vào nhật ký của Flarum. Điều này có thể hữu ích để gỡ lỗi các vấn đề liên quan đến OAuth, nhưng cũng có thể chứa thông tin nhạy cảm."
+                },
                 "only_icons_label": "Chỉ hiển thị các biểu tượng Nút đăng nhập (bố cục thay thế)",
-                "update_email_from_provider_label": "",
-                "update_email_from_provider_help": "",
+                "update_email_from_provider_label": "Cập nhật địa chỉ email từ nhà cung cấp",
+                "update_email_from_provider_help": "Nếu được kích hoạt, địa chỉ email của người dùng sẽ được cập nhật để khớp với địa chỉ được cung cấp bởi nhà cung cấp OAuth mỗi khi đăng nhập vào diễn đàn. Tuy nhiên, không phải tất cả các nhà cung cấp đều cung cấp địa chỉ email đã cập nhật, trong trường hợp này, cài đặt này sẽ không có tác dụng với những nhà cung cấp đó.",
+                "fullscreen_popup_label": "Sử dụng cửa sổ popup toàn màn hình cho OAuth",
+                "fullscreen_popup_help": "Khi được kích hoạt, đăng nhập OAuth sẽ mở trong một cửa sổ popup toàn màn hình. Nếu điều này được kích hoạt, các thiết lập chiều rộng và chiều cao sẽ bị bỏ qua.",
+                "popup_width_label": "Chiều rộng của cửa sổ popup OAuth",
+                "popup_width_help": "Đặt chiều rộng của cửa sổ popup OAuth. Cài đặt này sẽ bị bỏ qua nếu \"Sử dụng cửa sổ popup toàn màn hình cho OAuth\" được kích hoạt.",
+                "popup_height_label": "Chiều cao của cửa sổ popup OAuth",
+                "popup_height_help": "Đặt chiều cao của cửa sổ popup OAuth. Cài đặt này sẽ bị bỏ qua nếu \"Sử dụng cửa sổ popup toàn màn hình cho OAuth\" được kích hoạt.",
                 "providers": {
                     "callback_url_text": "Nếu cần, hãy đặt URL callback thành {url}.",
                     "discord": {
@@ -38,7 +52,8 @@
                     "google": {
                         "description": "Tạo ứng dụng tại {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
-                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "hosted_domain_label": "Tên miền được lưu trữ (G Suite/Google Apps for Business, tùy chọn)"
                     },
                     "linkedin": {
                         "description": "Tạo ứng dụng tại {link}.",

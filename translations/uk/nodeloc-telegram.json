@@ -1,0 +1,22 @@
+{
+    "nodeloc-telegram": {
+        "admin": {
+            "settings": {
+                "title": "Налаштування TelegramProvide",
+                "field": {
+                    "botUsername": "Bot Username",
+                    "botToken": "Bot Token",
+                    "enableNotifications": "Увімкнути сповіщення"
+                }
+            }
+        },
+        "forum": {
+            "log_in_with_telegram_button": "Увійдіть за допомогою Telegram",
+            "link_telegram_button": "Посилання Telegram",
+            "settings": {
+                "notify_by_telegram_heading": "Telegram",
+                "unblock_telegram_bot": "Схоже, ви не авторизували або заблокували бота TelegramProvide. Надішліть повідомлення <a>{username}</a> у TelegramProvide, щоб знову ввімкнути сповіщення"
+            }
+        }
+    }
+}

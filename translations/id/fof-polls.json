@@ -3,15 +3,23 @@
         "admin": {
             "settings": {
                 "allow_option_image": "Izinkan URL gambar disediakan untuk setiap opsi polling",
+                "allow_image_uploads": "Izinkan unggahan gambar untuk polling dan pilihannya",
+                "allow_image_uploads_help": "Jika diaktifkan, pengguna akan dapat mengunggah gambar di samping memberikan URL gambar (jika diaktifkan untuk opsi, selalu diaktifkan untuk polling itu sendiri).",
+                "enable_global_polls": "Aktifkan polling global",
+                "enable_global_polls_help": "Polling global tidak terikat pada post tertentu, dan dapat diakses dari halaman polling tersendiri.",
                 "max_options": "Jumlah opsi maksimum per polling",
                 "options_color_blend": "Perpaduan warna teks dalam opsi polling",
-                "options_color_blend_help": "Gunakan ini untuk menggunakan pencampuran warna untuk membuat opsi polling lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan."
+                "options_color_blend_help": "Gunakan ini untuk menggunakan pencampuran warna untuk membuat opsi polling lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan.",
+                "image_height": "Ubah ukuran tinggi gambar",
+                "image_width": "Ubah ukuran lebar gambar"
             },
             "permissions": {
                 "view_results_without_voting": "Melihat hasil tanpa melakukan voting",
                 "start": "Memulai polling",
+                "start_global": "Memulai polling global",
                 "self_edit": "Mengedit polling yang telah dibuat (memerlukan izin pengeditan postingan)",
                 "self_post_edit": "Mengedit *semua* polling pada postingan Anda sendiri (memerlukan izin edit postingan)",
+                "upload_images": "Izinkan pengguna mengunggah gambar untuk polling",
                 "vote": "Memberikan vote pada polling",
                 "change_vote": "Mengganti vote",
                 "moderate": "Mengedit & menghapus polling"
@@ -23,14 +31,46 @@
             "poll_ended": "Polling ini sudah berakhir.",
             "public_poll": "Lihat voter",
             "max_votes_allowed": "Polling memungkinkan melakukan voting untuk {max, plural, one {# pilihan} other {# pilihan}}.",
+            "polls_count": "{count, plural, one { {count} vote} other {{count} vote}}",
+            "poll_never_ends": "Polling tidak akan pernah berakhir",
+            "answers": "Jawaban",
             "poll": {
                 "cannot_change_vote": "Anda tidak dapat mengubah vote Anda setelah melakukan voting.",
-                "submit_button": "Vote"
+                "submit_button": "Vote",
+                "start_poll_button": "Mulai Polling Global",
+                "cannot_start_poll_button": "Tidak Dapat Memulai Polling"
+            },
+            "poll_controls": {
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Apakah Anda yakin ingin menghapus polling ini?",
+                "delete_success_message": "Polling berhasil dihapus.",
+                "delete_error_message": "Terjadi kesalahan saat menghapus polling."
+            },
+            "poll_form": {
+                "delete": "Hapus Polling",
+                "error": "Terjadi kesalahan saat menyimpan polling, silakan hubungi administrator."
+            },
+            "polls_page": {
+                "title": "Polling"
+            },
+            "polls_list": {
+                "empty_text": "Sepertinya tidak ada polling untuk komunitas di sini.",
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "Anda tidak memiliki izin untuk memulai polling."
+            },
+            "compose": {
+                "add_title": "Tambahkan Polling",
+                "edit_title": "Edit Polling",
+                "polls_manager": "Manajer Polling",
+                "polls_preview": "Lihat Polling",
+                "continue_editing": "Lanjutkan Pengeditan",
+                "success": "Polling berhasil disimpan."
             },
             "modal": {
                 "add_title": "Membuat Polling",
@@ -51,13 +91,42 @@
                 "hide_votes_label": "Sembunyikan vote hingga polling berakhir",
                 "allow_change_vote_label": "Izinkan pengguna untuk mengubah vote mereka",
                 "question_placeholder": "Pertanyaan",
-                "submit": "Submit"
+                "subtitle_placeholder": "Teks/Deskripsi (opsional)",
+                "submit": "Submit",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
+                "poll_image": {
+                    "label": "Gambar Polling",
+                    "help": "Upload gambar untuk ditampilkan di samping polling (opsional).",
+                    "alt_label": "Teks Alt Gambar",
+                    "alt_help_text": "Teks ini diperlukan apabila gambar diatur, dan akan ditampilkan jika gambar gagal dimuat.",
+                    "later_help": "Anda akan dapat mengunggah gambar setelah membuat polling."
+                },
+                "poll_option_image": {
+                    "label": "Gambar Jawaban Polling",
+                    "help": "Upload gambar untuk ditampilkan bersama jawaban polling (opsional)."
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": "Tambahkan Jawaban"
+                    }
+                }
             },
             "moderation": {
-                "add": "Tambah Polling",
+                "add": "Tambahkan Polling",
                 "delete": "Hapus Polling",
                 "delete_confirm": "Apakah anda yakin ingin menghapus polling ini?",
                 "edit": "Edit polling"
+            },
+            "page": {
+                "nav": "Polling",
+                "nav-all": "Semua Polling Global"
+            },
+            "showcase": {
+                "active-polls": "Polling Aktif",
+                "ended-polls": "Kesimpulan Polling",
+                "no-active-polls": "Tidak ada polling yang aktif saat ini.",
+                "no-recent-polls": "Tidak ada polling yang baru saja berakhir saat ini."
             },
             "tooltip": {
                 "badge": "Polling",
@@ -65,6 +134,10 @@
             },
             "votes_modal": {
                 "title": "Para voter"
+            },
+            "upload_image": {
+                "remove_button": "Hapus gambar",
+                "upload_button": "Upload gambar"
             }
         }
     }

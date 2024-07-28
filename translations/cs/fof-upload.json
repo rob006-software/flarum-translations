@@ -1,6 +1,27 @@
 {
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Nahrát",
                 "description": "Nastavení služeb a předvoleb nahrávání."
@@ -15,6 +36,7 @@
                 "watermark": "Zvolte, zda se má při nahrávání obrázků přidat vodoznak. Vodoznaky se přidávají k obrázkům, které nejsou soubory GIF, na základě vašich preferencí uvedených níže.\n",
                 "s3_compatible_storage": "Následující nastavení jsou vyžadována pouze při použití úložiště kompatibilního se standardem S3. Pokud používáte AWS, můžete je nechat prázdné.\n",
                 "s3_acl": "ACL, které by se mělo použít na nahraný objekt (výchozí: soukromý). Možné hodnoty naleznete na adrese https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Chcete-li použít pověření v profilu instance, ponechte klíč a tajný klíč prázdný.\n",
                 "composer_buttons": "Ve výchozím nastavení je viditelné tlačítko správce médií i tlačítko pro nahrávání. Můžete také zvolit zobrazení pouze jednoho tlačítka.\n"
             },
@@ -28,7 +50,8 @@
                     "advanced_title": "Pokročilá nastavení úložiště S3",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Použít path style endpoint",
-                    "acl": "Seznam řízení přístupu (ACL)"
+                    "acl": "Seznam řízení přístupu (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Zakázat protokolování stahování",
@@ -87,7 +110,9 @@
                 "download_label": "Stáhnout soubory",
                 "upload_label": "Nahrát soubory",
                 "view_user_uploads_label": "Zobrazit nahrané soubory uživatelů",
-                "delete_uploads_of_others_label": "Smazat nahrané soubory uživatelů"
+                "delete_uploads_of_others_label": "Smazat nahrané soubory uživatelů",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Výchozí šablona pro stažení souboru",
@@ -131,9 +156,26 @@
             "buttons": {
                 "attach": "Připojit",
                 "upload": "Nahrát",
+                "upload_shared": "",
                 "user_uploads": "Nahrané soubory",
                 "cancel": "Zrušit",
-                "media": "Média"
+                "media": "Média",
+                "shared_media": ""
+            },
+            "states": {
+                "error": "Chyba",
+                "loading": "Nahrávání",
+                "unauthorized": "Nejste oprávněni stahovat soubory"
+            },
+            "validation": {
+                "max_size": "Nahrávání větší než {max} kb nejsou akceptována."
+            },
+            "text_preview": {
+                "expand": "Rozbalit náhled",
+                "collapse": "Sbalit náhled",
+                "error": "Chyba při náhledu souboru. Možná byl smazán nebo je zadané ID souboru neplatné.\n",
+                "no_snippet_preview": "<náhled se zde zobrazí po zveřejnění>",
+                "no_snippet": "<není k dispozici žádný fragment kódu (snippet) náhledu>"
             },
             "file_list": {
                 "loading": "Načítání souborů...",
@@ -151,21 +193,6 @@
                     "hide_fail": "Nepodařilo se skrýt soubor \"{fileName}\"",
                     "loading": "Skrytí souboru..."
                 }
-            },
-            "states": {
-                "error": "Chyba",
-                "loading": "Nahrávání",
-                "unauthorized": "Nejste oprávněni stahovat soubory"
-            },
-            "validation": {
-                "max_size": "Nahrávání větší než {max} kb nejsou akceptována."
-            },
-            "text_preview": {
-                "expand": "Rozbalit náhled",
-                "collapse": "Sbalit náhled",
-                "error": "Chyba při náhledu souboru. Možná byl smazán nebo je zadané ID souboru neplatné.\n",
-                "no_snippet_preview": "<náhled se zde zobrazí po zveřejnění>",
-                "no_snippet": "<není k dispozici žádný fragment kódu (snippet) náhledu>"
             }
         },
         "api": {
@@ -181,6 +208,48 @@
                 "cannot_write_to_disk": "Nelze zapisovat na disk.",
                 "upload_blocked_by_php_extension": "Rozšíření php zablokovalo nahrávání.",
                 "no_files_made_it_to_upload": "Nahrávejte soubory, které nejsou větší než {max} kb."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "delete_confirmation": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

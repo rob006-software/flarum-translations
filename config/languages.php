@@ -153,12 +153,11 @@ return [
 		// translations included in extension
 		// '!dem13n-topic-starter-label', https://github.com/Dem13n/topic-starter-label/pull/5
 		'!glowingblue-password-strength',
+		'!muhammedsaidckr-gemini',
 		'!the-turk-diff',
 		'!the-turk-fancybox',
 		'!the-turk-mathren',
-		'!the-turk-pallet-theme',
 		'!the-turk-quiet-edits',
-		'!the-turk-regrole',
 	]),
 	'ug' => getComponents(),
 	'uk' => getComponents(),
@@ -166,11 +165,24 @@ return [
 	'uz' => getComponents(),
 	'vi' => getComponents([
 		// translations included in extension
+		'!litalino-adblock',
+		'!litalino-auto-post-count-badge',
+		'!litalino-blog-article-series',
+		'!litalino-country-flags',
+		'!litalino-geo-weather-widget',
+		'!litalino-more-bbcode',
+		'!litalino-related-discussions',
 		'!xelson-chat',
 	]),
 	'zh_Hans' => getComponents([
 		// translations included in extension
+		'!dalez-msemoji',
+		'!dalez-twemoji',
+		'!ffans-geetest',
 		'!gbcl-userip',
+		'!huoxin-auto-follow-discussion',
+		'!imdong-spam-alert',
+		'!imdong-visible-to-op-only',
 		'!vlssu-cravatar',
 		'!widayn-avatar-cropper',
 		'!ziiven-fireworks',

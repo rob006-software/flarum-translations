@@ -2,23 +2,23 @@
     "fof-ignore-users": {
         "admin": {
             "permissions": {
-                "can_not_be_ignored_label": ""
+                "can_not_be_ignored_label": "No pot ser ignorat"
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "Usuaris ignorats",
             "profile_page": {
-                "no_ignored": ""
+                "no_ignored": "Sembla que no estàs ignorant ningú."
             },
             "user_controls": {
-                "ignore_button": "",
-                "ignore_confirmation": "",
-                "unignore_button": "",
-                "unignore_confirmation": ""
+                "ignore_button": "Ignorar",
+                "ignore_confirmation": "Segur que vols ignorar aquest usuari?",
+                "unignore_button": "Deixar d'ignorar",
+                "unignore_confirmation": "Segur que vols deixar d'ignorar aquest usuari?"
             },
             "badge": {
-                "user_label": "",
-                "discussion_label": ""
+                "user_label": "Usuari ignorat",
+                "discussion_label": "Iniciat per un usuari ignorat"
             }
         }
     }

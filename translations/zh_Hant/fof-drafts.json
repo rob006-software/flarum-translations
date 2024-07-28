@@ -9,7 +9,7 @@
                 "title": "FoF 草稿箱",
                 "enable_scheduled_drafts": "啟用定時發佈功能",
                 "schedule_on_one_server": "將使用 onOneServer() 方法用於計劃任務（需要 Redis/Memcache）",
-                "schedule_log_output": "保存計劃任務日誌"
+                "schedule_log_output": "儲存計劃任務日誌"
             }
         },
         "console": {
@@ -20,9 +20,9 @@
         },
         "forum": {
             "composer": {
-                "title": "保存草稿",
-                "saving": "正在保存…",
-                "saved": "保存成功！",
+                "title": "儲存草稿",
+                "saving": "正在儲存…",
+                "saved": "儲存成功！",
                 "exit_alert": "確定放棄對草稿的更改嗎？",
                 "discard_empty_draft_alert": "刪除空的草稿？"
             },
@@ -54,8 +54,8 @@
             "user": {
                 "settings": {
                     "drafts_heading": "草稿箱",
-                    "draft_autosave_enable": "自動保存草稿？",
-                    "draft_autosave_interval_label": "自動保存頻率（秒）",
+                    "draft_autosave_enable": "自動儲存草稿？",
+                    "draft_autosave_interval_label": "自動儲存頻率（秒）",
                     "draft_autosave_interval_button": "更新頻率",
                     "draft_autosave_interval_invalid": "請輸入大於4的整數。"
                 }

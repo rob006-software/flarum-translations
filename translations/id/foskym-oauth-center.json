@@ -1,0 +1,73 @@
+{
+    "foskym-oauth-center": {
+        "admin": {
+            "permission": {
+                "use_oauth": "Menggunakan OAuth"
+            },
+            "page": {
+                "index": "Beranda",
+                "clients": "Kelola Client",
+                "scopes": "Kelola Cakupan",
+                "tokens": "Kelola Token"
+            },
+            "settings": {
+                "display_mode": "Mode Tampilan",
+                "access_lifetime": "Masa Berlaku Token Akses (detik)",
+                "allow_implicit": "Izinkan Implicit Grant (response_type = token)",
+                "enforce_state": "Menerapkan State Validation (state parameter)",
+                "require_exact_redirect_uri": "Memerlukan URI Pengalihan yang Tepat",
+                "authorization_method_fetch": "Metode Otorisasi Pengambilan (Tidak langsung mengarahkan ke)"
+            },
+            "clients": {
+                "client_id": "ID Client",
+                "client_secret": "Client Secret",
+                "redirect_uri": "URI Pengalihan",
+                "grant_types": "",
+                "scope": "Cakupan",
+                "client_name": "Nama",
+                "client_desc": "Deskripsi",
+                "client_icon": "Ikon",
+                "client_home": "Beranda",
+                "add_button": "Tambah Client",
+                "edit_client": "Edit Client"
+            },
+            "scopes": {
+                "scope": "Cakupan",
+                "resource_path": "",
+                "method": "Metode",
+                "is_default": "Default",
+                "scope_name": "Nama",
+                "scope_icon": "Ikon",
+                "scope_desc": "Deskripsi",
+                "visible_fields": "Kolom Yang Terlihat",
+                "add_button": "Tambah Cakupan",
+                "edit_scope": "Edit Cakupan"
+            },
+            "tokens": {
+                "add_token": "Tambahkan Token",
+                "delete_token": "Hapus Token"
+            }
+        },
+        "forum": {
+            "page": {
+                "title": {
+                    "authorize": "Mengizinkan"
+                },
+                "label": {
+                    "authorized": "Log Otorisasi"
+                }
+            },
+            "authorize": {
+                "require_these_scopes": "Membutuhkan cakupan ini",
+                "access": "Akses ke",
+                "agree": "Setuju",
+                "deny": "Tolak"
+            },
+            "authorized": {
+                "no_records": "Tidak ada catatan",
+                "no_more_records": "Tidak ada lagi catatan",
+                "load_more": "Muat Lebih Lanjut"
+            }
+        }
+    }
+}

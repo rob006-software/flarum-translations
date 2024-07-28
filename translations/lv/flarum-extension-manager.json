@@ -1,0 +1,169 @@
+{
+    "flarum-extension-manager": {
+        "admin": {
+            "auth_config": {
+                "add_label": "Jauna autentifikācijas metode",
+                "add_modal": {
+                    "host_label": "Uzņēmēja",
+                    "host_placeholder": "piemērs: extiverse.com",
+                    "submit_button": "Iesniegt",
+                    "token_label": "Tokens",
+                    "type_label": "Tips",
+                    "unchanged_token_placeholder": "(nemainīts)"
+                },
+                "delete_confirmation": "Vai tiešām vēlaties dzēst šo autentifikācijas metodi?",
+                "delete_label": "Dzēst autentifikācijas metodi",
+                "edit_label": "Rediģēt autentifikācijas metodi",
+                "fields": {
+                    "host": "Uzņēmēja",
+                    "token": "Tokens"
+                },
+                "no_auth_methods_configured": "Nav konfigurēta neviena autentifikācijas metode. Šī ir papildu papildu funkcija, kas ļauj instalēt no privātām krātuvēm.",
+                "remove_button_label": "Noņemiet autentifikācijas metodi",
+                "title": "Autentifikācijas metodes",
+                "types": {
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP nesējs"
+                }
+            },
+            "composer": {
+                "add_repository_label": "Pievienot repozitoriju",
+                "delete_repository_confirmation": "Vai tiešām vēlaties dzēst šo krātuvi? Visi no šī krātuves instalētie paplašinājumi tiks noņemti.",
+                "delete_repository_label": "Dzēst repozitoriju",
+                "edit_repository_label": "Rediģēt repozitoriju",
+                "title": "Composer",
+                "minimum_stability": {
+                    "label": "Minimālā stabilitāte",
+                    "help": "Instalējamo pakotņu veids. Nemainiet to, ja vien nezināt, ko darāt.",
+                    "options": {
+                        "stable": "Stabils (ieteicams)",
+                        "rc": "Atbrīvošanas kandidāts",
+                        "beta": "Beta",
+                        "alpha": "Alfa",
+                        "dev": "Izstrādātājs"
+                    }
+                },
+                "repositories": {
+                    "label": "Krātuves",
+                    "help": "Pievienojiet papildu krātuves, no kurām instalēt pakotnes. Šī ir uzlabota funkcija. Nepievienojiet neuzticamas krātuves, jo tās var izmantot, lai jūsu serverī izpildītu ļaunprātīgu kodu.\n",
+                    "types": {
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "ceļš"
+                    },
+                    "add_modal": {
+                        "name_label": "Vārds",
+                        "type_label": "Tips",
+                        "url": "URL",
+                        "submit_button": "Iesniegt"
+                    }
+                }
+            },
+            "exceptions": {
+                "composer_command_failure": "Neizdevās izpildīt. Pārbaudiet komponista žurnālus krātuvē/logs/composer.",
+                "extension_already_installed": "Paplašinājums jau ir instalēts.",
+                "extension_not_directly_dependency": "Paplašinājums ir instalēts kā cita paplašinājuma atkarība, to nevar tieši noņemt.",
+                "extension_not_installed": "Paplašinājums nav atrasts.",
+                "guessed_cause": {
+                    "extension_incompatible_with_instance": "Paplašinājums, visticamāk, nav saderīgs ar jūsu pašreizējo Flarum instanci.",
+                    "extension_not_found": "Paplašinājums netika atrasts vai neeksistē.",
+                    "extensions_incompatible_with_new_major": "Daži instalētie paplašinājumi nav saderīgi ar jaunāko lielāko izdevumu. Lūdzu, uzgaidiet, līdz autori ir atjauninājuši paplašinājumus, lai tie būtu saderīgi, vai noņemiet tos pirms turpināt.\n"
+                }
+            },
+            "extensions": {
+                "check_why_it_failed_updating": "Parādiet, kāpēc tas netika atjaunināts uz jaunāko.",
+                "install": "Instalējiet jaunu paplašinājumu",
+                "install_help": "Lai turpinātu, ievadiet paplašinājuma pakotnes nosaukumu. Varat norādīt <semantic_link>semantisko versiju</semantic_link>, izmantojot formātu <code>vendor/package-name:version</code>. Apmeklējiet vietni {extiverse}, lai pārlūkotu paplašinājumus.\n",
+                "proceed": "Turpināt",
+                "remove": "Atinstalēt",
+                "successful_install": "{extension} tika veiksmīgi instalēts. Notiek novirzīšana...",
+                "successful_remove": "Paplašinājums veiksmīgi noņemts.",
+                "successful_update": "{extension} tika veiksmīgi atjaunināts. Notiek novirzīšana...",
+                "update": "Atjaunināt",
+                "update_soft_label": "Mīksts atjauninājums",
+                "update_hard_label": "Grūts atjauninājums"
+            },
+            "file_permissions": "Paplašinājumu pārvaldniekam ir nepieciešamas lasīšanas un rakstīšanas atļaujas šādiem failiem un direktorijiem: composer.json, composer.lock, vendor, storage, storage/.composer\n",
+            "major_updater": {
+                "description": "Galvenie Flarum atjauninājumi nav saderīgi ar atpakaļejošu datumu, kas nozīmē, ka daži no pašlaik instalētajiem paplašinājumiem un manuāli veiktās modifikācijas var nedarboties ar šo jauno versiju. Pirms turpināt, lūdzu, izveidojiet datu bāzes un failu dublējumu.\n",
+                "dry_run": "Sauss palaists",
+                "dry_run_help": "Sausā palaišana emulē atjauninājumu, lai noskaidrotu, vai pašreizējo iestatījumu var droši atjaunināt. Tas nenozīmē, ka manuāli veiktās pielāgotās modifikācijas darbosies jaunākajā versijā.",
+                "failure": {
+                    "desc": "Pēdējais lielākais atjauninājums neizdevās, daži instalētie paplašinājumi nav saderīgi ar jauno galveno laidienu.",
+                    "why": "Uzzināt vairāk"
+                },
+                "title": "Flarum {version} ir pieejams galvenais atjauninājums",
+                "update": "Atjaunināt"
+            },
+            "minor_update_confirmation": {
+                "content": "Tādējādi tiks atjaunināti arī visi citi paplašinājumi/paketes ar pieejamiem atjauninājumiem."
+            },
+            "sections": {
+                "control": {
+                    "title": "Pārvaldnieks"
+                },
+                "queue": {
+                    "columns": {
+                        "details": "Sīkāka informācija",
+                        "elapsed_time": "Pabeigts",
+                        "peak_memory_used": "Maksimālais atmiņas lietojums",
+                        "operation": "Darbība",
+                        "package": "Iepakojums",
+                        "status": "Statuss"
+                    },
+                    "none": "Uzdevumu vēl nav.",
+                    "operations": {
+                        "extension_install": "Instalējiet paplašinājumu",
+                        "extension_remove": "Noņemt paplašinājumu",
+                        "extension_update": "Atjaunināt paplašinājumu",
+                        "update_check": "Meklēt atjauninājumus",
+                        "update_global": "Atjauniniet visas programmatūras pakotnes",
+                        "update_major": "Būtisks atjauninājums",
+                        "update_minor": "Neliels atjauninājums",
+                        "why_not": "Analizējiet, kāpēc pakotni nevar atjaunināt"
+                    },
+                    "output_modal": {
+                        "cause_unknown": "Nezināms",
+                        "command": "Komponista komanda",
+                        "guessed_cause": "Cēlonis",
+                        "output": "Izvade"
+                    },
+                    "refresh": "Atsvaidziniet uzdevumu sarakstu",
+                    "statuses": {
+                        "success": "Panākumi",
+                        "failure": "Neizdevās",
+                        "pending": "Gaida",
+                        "running": "strāda"
+                    },
+                    "task_just_started": "Uzdevums tikko sācies",
+                    "title": "Rinda"
+                }
+            },
+            "settings": {
+                "title": "=> core.ref.settings",
+                "access_warning": "Lūdzu, uzmanieties, kam piešķirat piekļuvi administratora apgabalam, jo ļaundari var ļaunprātīgi izmantot paplašinājumu pārvaldnieku, lai instalētu pakotnes, kas var izraisīt drošības pārkāpumus.",
+                "debug_mode_warning": "Jūs strādājat atkļūdošanas režīmā, paplašinājumu pārvaldnieks nevar pareizi instalēt un atjaunināt vietējās izstrādes pakotnes. Lūdzu, izmantojiet komandrindas saskarni šādiem nolūkiem.",
+                "queue_jobs": "Palaidiet darbības fona rindā",
+                "queue_jobs_help": "Varat lasīt par <a href='{basic_impl_link}'>pamata rindas</a> vai <a href='{adv_impl_link}'>modernāku</a> ieviešanu. Pārliecinieties, vai rindā izmantotā PHP versija ir {php_version}. Pārliecinieties, vai <a href='{folder_perms_link}'>mapju atļaujas</a> ir pareizi konfigurētas.\n",
+                "task_retention_days": "Uzdevumu saglabāšanas dienas",
+                "task_retention_days_help": "Dienu skaits, kas jāpavada pabeigto uzdevumu glabāšanai datu bāzē. Uzdevumi, kas vecāki par šo, tiks dzēsti. Iestatiet uz 0, lai saglabātu visus uzdevumus.\n"
+            },
+            "updater": {
+                "up_to_date": "Viss ir aktuāls!",
+                "check_for_updates": "Meklēt atjauninājumus",
+                "flarum": "Flarum Core",
+                "global_update_successful": "Visas pakotnes ir veiksmīgi atjauninātas.",
+                "last_update_checked_at": "Pēdējā atjauninājuma pārbaude: ",
+                "run_global_update": "Palaidiet globālo atjauninājumu",
+                "updater_title": "Atjauninājumi",
+                "updater_help": "Veic jaunu paplašinājumu un Flarum atjauninājumu pārbaudi."
+            },
+            "update_successful": "Flarum veiksmīgi atjaunināts.",
+            "why_not_modal": {
+                "title": "Kāpēc tas netiks atjaunināts"
+            }
+        }
+    }
+}

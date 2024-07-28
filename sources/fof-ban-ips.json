@@ -69,5 +69,15 @@
             "address_label": "IP Address",
             "reason_label": "Reason"
         }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "bannedipdata": {
+                    "export_description": "If an IP ban record is associated with a user (i.e. the user was banned by IP), the user's IP address will be included in the export, along with the reason for the ban and the creation date.",
+                    "anonymize_description": "Any IP addresses linked to the user are decoupled, but the IP itself will remain banned, along with the reason. Ensure no PII data is stored in the 'reason' field."
+                }
+            }
+        }
     }
 }

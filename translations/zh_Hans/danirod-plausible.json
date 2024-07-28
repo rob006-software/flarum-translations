@@ -1,0 +1,33 @@
+{
+    "danirod-plausible": {
+        "admin": {
+            "validation": {
+                "domain": {
+                    "required": "必须指定一个域名",
+                    "regex": "给定的域无效"
+                },
+                "proxy_domain": {
+                    "regex": "此代理服务器地址无效"
+                }
+            },
+            "settings": {
+                "enable": {
+                    "label": "",
+                    "help": ""
+                },
+                "domain": {
+                    "label": "",
+                    "help": ""
+                },
+                "proxy_domain": {
+                    "label": "",
+                    "help": ""
+                },
+                "exclude_admin": {
+                    "label": "",
+                    "help": ""
+                }
+            }
+        }
+    }
+}

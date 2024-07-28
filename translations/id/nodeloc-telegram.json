@@ -1,0 +1,22 @@
+{
+    "nodeloc-telegram": {
+        "admin": {
+            "settings": {
+                "title": "Pengaturan TelegramProvide",
+                "field": {
+                    "botUsername": "Username Bot",
+                    "botToken": "Token Bot",
+                    "enableNotifications": "Aktifkan Notifikasi"
+                }
+            }
+        },
+        "forum": {
+            "log_in_with_telegram_button": "Masuk dengan Telegram",
+            "link_telegram_button": "Link Telegram",
+            "settings": {
+                "notify_by_telegram_heading": "Telegram",
+                "unblock_telegram_bot": "Sepertinya Anda tidak mengizinkan atau memblokir bot TelegramProvide. Kirim pesan ke <a>{username}</a> di TelegramProvide untuk mengaktifkan kembali notifikasi"
+            }
+        }
+    }
+}

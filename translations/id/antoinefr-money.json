@@ -17,8 +17,8 @@
             },
             "autoremove": [
                 "Jangan pernah menghapus money",
-                "Ketika diskusi/postingan disembunyikan atau dipulihkan (default)",
-                "Ketika diskusi/postingan dihapus"
+                "Ketika diskusi/post disembunyikan atau dipulihkan (default)",
+                "Ketika diskusi/post dihapus"
             ],
             "automoderator": {
                 "metric_name": "Money",
@@ -30,7 +30,7 @@
                 "money_button": "Edit money"
             },
             "modal": {
-                "title": "{username} money",
+                "title": "Money - {username}",
                 "current": "Saat ini:",
                 "submit_button": "=> core.ref.save_changes"
             }

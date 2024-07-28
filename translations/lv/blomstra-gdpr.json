@@ -1,0 +1,172 @@
+{
+    "blomstra-gdpr": {
+        "admin": {
+            "gdpr_page": {
+                "heading": "",
+                "description": "",
+                "data_types": {
+                    "title": "",
+                    "help_text": "",
+                    "type": "",
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "extension": ""
+                },
+                "settings": {
+                    "heading": "",
+                    "help_text": "",
+                    "extension_settings_button": ""
+                },
+                "user_table_data": {
+                    "title": "",
+                    "help_text": ""
+                }
+            },
+            "nav": {
+                "gdpr_button": ""
+            },
+            "permissions": {
+                "process_erasure": "",
+                "process_export_for_others": "",
+                "see_anonymized_user_badges": ""
+            },
+            "settings": {
+                "allow_anonymization": "",
+                "allow_anonymization_help": "",
+                "allow_deletion": "",
+                "allow_deletion_help": "",
+                "default_anonymous_username": "",
+                "default_anonymous_username_help": "",
+                "default_erasure": "",
+                "default_erasure_help": "",
+                "default_erasure_options": {
+                    "anonymization": "",
+                    "deletion": ""
+                },
+                "gdpr_page": {
+                    "title": "",
+                    "help_text": ""
+                }
+            },
+            "userlist": {
+                "columns": {
+                    "gdpr_actions": {
+                        "title": "",
+                        "export": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "data": {
+                "avatar": {
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "discussions": {
+                    "export_description": ""
+                },
+                "forum": {
+                    "export_description": ""
+                },
+                "no_action": "",
+                "posts": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "tokens": {
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "user": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                }
+            },
+            "request_data": {
+                "title": "",
+                "text": "",
+                "request_button": ""
+            }
+        },
+        "email": {
+            "confirm_erasure": {
+                "subject": "",
+                "body": ""
+            },
+            "erasure_completed": {
+                "deletion": {
+                    "subject": "",
+                    "body": ""
+                },
+                "anonymization": {
+                    "subject": "",
+                    "body": ""
+                }
+            },
+            "erasure_cancelled": {
+                "subject": "",
+                "body": ""
+            },
+            "export_available": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "forum": {
+            "badges": {
+                "anonymized_user": ""
+            },
+            "delete_user": {
+                "title": "",
+                "text": "",
+                "modal_delete_button": "",
+                "delete_button": ""
+            },
+            "erasure_requests": {
+                "empty_text": "",
+                "item_text": "",
+                "tooltip": "",
+                "title": ""
+            },
+            "erasure_request_confirmed": "",
+            "settings": {
+                "data": {
+                    "heading": ""
+                },
+                "export_data_button": "",
+                "export_data_help": "",
+                "request_erasure_button": "",
+                "request_erasure_help": ""
+            },
+            "process_erasure": {
+                "confirm": "",
+                "title": "",
+                "text": "",
+                "comments_label": "",
+                "anonymization_button": "",
+                "deletion_button": ""
+            },
+            "request_erasure": {
+                "title": "",
+                "reason": "",
+                "status": {
+                    "awaiting_user_confirmation": "",
+                    "user_confirmed": ""
+                },
+                "text": "",
+                "password_label": "",
+                "reason_label": "",
+                "cancel_button": "",
+                "request_button": ""
+            },
+            "notification": {
+                "export-ready": ""
+            },
+            "export_file": ""
+        }
+    }
+}

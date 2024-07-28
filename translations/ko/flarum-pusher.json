@@ -2,7 +2,7 @@
     "flarum-pusher": {
         "admin": {
             "pusher_settings": {
-                "app_cluster_label": "Cluster",
+                "app_cluster_label": "클러스터",
                 "app_id_label": "앱 ID",
                 "app_key_label": "앱 키",
                 "app_secret_label": "앱 시크릿",
@@ -11,7 +11,7 @@
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": "{count}개의 업데이트 된 게시물 표시|{count}개의 업데이트 된 게시물 표시"
+                "show_updates_text": "{count, plural, one {# 개의 업데이트된 토론 표시} other {# 개의 업데이트된 토론들 표시}}"
             }
         }
     }

@@ -3,13 +3,13 @@
         "forum": {
             "modal": {
                 "error": {
-                    "failed_to_load_cropper": "",
-                    "generic_resize": "",
-                    "get_image_data": ""
+                    "failed_to_load_cropper": "Resim kırpıcı yüklenemedi.",
+                    "generic_resize": "Resim kırpılırken ve yeniden boyutlandırılırken bir şeyler ters gitti.",
+                    "get_image_data": "Kırpılamadı. Tarayıcınızın fingerprinting korumasının devre dışı olduğundan emin olun."
                 },
-                "help_text": "",
-                "submit_button": "",
-                "submit_crop_button": ""
+                "help_text": "Tarayıcınızın gizlilik ayarları çok katıysa resim yükleme işlemi başarısız olabilir. Sorun yaşıyorsanız parmak izi korumasını devre dışı bırakmayı deneyin. Aksi takdirde, <disableResize>kırpılan görüntünün sıkıştırılmasını devre dışı bırakabilirsiniz</disableResize> veya <disableCrop>kırpmayı tamamen devre dışı bırakabilirsiniz</disableCrop>.\n",
+                "submit_button": "Yükleyin",
+                "submit_crop_button": "Kırpın ve Yükleyin"
             }
         }
     }

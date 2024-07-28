@@ -10,7 +10,8 @@
             "reacting-own-post": "Ezin duzu erreakzionatu zure postetara",
             "modal": {
                 "title": "Erreakzioak",
-                "anonymous_count": ""
+                "anonymous_count": "",
+                "no_reactions": ""
             },
             "mod_item": "Ikusi erreakzioak",
             "react_button_label": ""
@@ -18,9 +19,16 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Erreakzionatu postetara",
-                "see_reactions_label": "Ikusi nork erreakzionatu duen"
+                "see_reactions_label": "Ikusi nork erreakzionatu duen",
+                "delete_post_reactions_label": ""
             },
             "page": {
+                "cdn": {
+                    "title": "",
+                    "help": "",
+                    "label": "",
+                    "default-url": ""
+                },
                 "reactions": {
                     "title": "Erreakzio pertsonalizatua",
                     "reactions": "Oraingo erreakzion",
@@ -28,7 +36,8 @@
                     "help": {
                         "display": "Erakutsi",
                         "identifier": "Identifikatzailea"
-                    }
+                    },
+                    "delete_confirmation": ""
                 },
                 "convert": {
                     "help": "Extensioa eguneratu baduzu, zure erreakzioak konbertitu behar dira. Instalatu baduzu, mezu hau ignora dezakezu.",
@@ -39,6 +48,8 @@
                 "settings": {
                     "react_own_posts_help": "",
                     "react_own_posts_label": "",
+                    "allow-anonymous": "",
+                    "allow-anonymous-help": "",
                     "save_settings": "Gorde ezarpenak",
                     "integrations": {
                         "legend": "Integrazioak",
@@ -55,9 +66,7 @@
                             "Label": "Konbertitu erreakzioak liketan",
                             "Helptext": "Idatzi likera automatikoki konbertitu nahi duzun erreakzioaren identifikatzailea"
                         }
-                    },
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": ""
+                    }
                 }
             }
         }

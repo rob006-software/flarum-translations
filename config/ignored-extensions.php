@@ -13,18 +13,15 @@ declare(strict_types=1);
 
 return [
 	'zaptech/cookie-consent', // migrated to `fof/cookie-consent`
+	'the-turk/flarum-pallet-theme', // https://github.com/rob006-software/flarum-translations/pull/1218
+	'the-turk/flarum-regrole', // https://github.com/rob006-software/flarum-translations/pull/1205#issuecomment-2038136701
 	/*
 	 * dead/private forks
 	 */
 	'arthurydalgo/ads',
 	'arthurydalgo/online-users',
 	'arthurydalgo/users-list',
-	'flarum-extensions/mason',
-	'flarum-extensions/taxonomies',
-	'flarum-extensions/transliterator',
 	'gitzaai/flarum-ext-hljs2',
-	'hamzone/flarum-ext-auth-wechat',
-	'hamzone/flarum-ext-emojionearea',
 	'insegreto/flarum-ads',
 	'kindyear/reply-to-see',
 	'lawaxi/level-ranks',

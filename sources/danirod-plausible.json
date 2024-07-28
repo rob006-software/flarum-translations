@@ -1,0 +1,33 @@
+{
+    "danirod-plausible": {
+        "admin": {
+            "validation": {
+                "domain": {
+                    "required": "A domain has to be given",
+                    "regex": "The given domain is not valid"
+                },
+                "proxy_domain": {
+                    "regex": "The given proxy domain is not valid"
+                }
+            },
+            "settings": {
+                "enable": {
+                    "label": "Enabled",
+                    "help": "Turn this option to actually include the tracking code."
+                },
+                "domain": {
+                    "label": "Domain",
+                    "help": "The domain to use when sending the analytics."
+                },
+                "proxy_domain": {
+                    "label": "Proxy domain",
+                    "help": "Where to serve the JS code from. Leave it blank to use plausible.io. This allows to prevent adblockers from removing the tracking code. Check the Plausible docs."
+                },
+                "exclude_admin": {
+                    "label": "Exclude admin",
+                    "help": "Will prevent views from admins to count towards the tracking if logged in."
+                }
+            }
+        }
+    }
+}

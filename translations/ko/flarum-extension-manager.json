@@ -1,0 +1,169 @@
+{
+    "flarum-extension-manager": {
+        "admin": {
+            "auth_config": {
+                "add_label": "새로운 인증 방법",
+                "add_modal": {
+                    "host_label": "호스트",
+                    "host_placeholder": "예시: extiverse.com",
+                    "submit_button": "제출",
+                    "token_label": "토큰",
+                    "type_label": "유형",
+                    "unchanged_token_placeholder": "(변경되지 않음)"
+                },
+                "delete_confirmation": "이 인증 방법을 삭제하시겠습니까?",
+                "delete_label": "인증 방법 삭제",
+                "edit_label": "인증 방법 편집",
+                "fields": {
+                    "host": "호스트",
+                    "token": "토큰"
+                },
+                "no_auth_methods_configured": "인증 방법이 구성되지 않았습니다. 이는 개인 저장소에서 설치를 허용하는 선택적인 고급 기능입니다.",
+                "remove_button_label": "인증 방법 제거",
+                "title": "인증 방법",
+                "types": {
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
+                }
+            },
+            "composer": {
+                "add_repository_label": "저장소 추가",
+                "delete_repository_confirmation": "이 저장소를 삭제하시겠습니까? 이 저장소에서 설치된 모든 확장이 제거됩니다.",
+                "delete_repository_label": "저장소 삭제",
+                "edit_repository_label": "저장소 편집",
+                "title": "Composer",
+                "minimum_stability": {
+                    "label": "최소 안정성",
+                    "help": "설치할 수 있는 패키지 유형입니다. 알지 못하는 경우 변경하지 마세요.",
+                    "options": {
+                        "stable": "안정 버전 (권장됨)",
+                        "rc": "릴리스 후보",
+                        "beta": "베타",
+                        "alpha": "알파",
+                        "dev": "개발"
+                    }
+                },
+                "repositories": {
+                    "label": "저장소",
+                    "help": "패키지를 설치할 추가 저장소를 추가하세요. 이것은 고급 기능이므로 신뢰할 수 없는 저장소를 추가하지 마세요. 저장소는 서버에서 악의적인 코드를 실행하는 데 사용될 수 있습니다.\n",
+                    "types": {
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "경로"
+                    },
+                    "add_modal": {
+                        "name_label": "이름",
+                        "type_label": "유형",
+                        "url": "URL",
+                        "submit_button": "제출"
+                    }
+                }
+            },
+            "exceptions": {
+                "composer_command_failure": "실행하지 못했습니다. storage/logs/composer의 composer 로그를 확인하세요.",
+                "extension_already_installed": "확장이 이미 설치되어 있습니다.",
+                "extension_not_directly_dependency": "확장은 다른 확장의 종속성으로 설치되어 있으므로 직접 제거할 수 없습니다.",
+                "extension_not_installed": "확장을 찾을 수 없습니다.",
+                "guessed_cause": {
+                    "extension_incompatible_with_instance": "확장은 현재 사용 중인 Flarum 인스턴스와 호환되지 않을 가능성이 높습니다.",
+                    "extension_not_found": "확장을 찾을 수 없거나 존재하지 않습니다.",
+                    "extensions_incompatible_with_new_major": "새로운 주요 릴리스와 호환되지 않는 일부 설치된 확장이 있습니다. 확장이 저자에 의해 호환되도록 업데이트될 때까지 기다리거나 계속 진행하기 전에 해당 확장을 제거하십시오.\n"
+                }
+            },
+            "extensions": {
+                "check_why_it_failed_updating": "최신 버전으로 업데이트되지 않은 이유를 보여주세요.",
+                "install": "새로운 확장을 설치합니다",
+                "install_help": "계속하려면 확장 패키지 이름을 입력하세요. <semantic_link>시맨틱 버전</semantic_link>을 지정할 수 있으며, 형식은 <code>vendor/package-name:version</code>입니다. 확장을 둘러보려면 {extiverse}를 방문하세요.\n",
+                "proceed": "계속하기",
+                "remove": "제거",
+                "successful_install": "{extension}이(가) 성공적으로 설치되었습니다. 리디렉션 중..",
+                "successful_remove": "확장이 성공적으로 제거되었습니다.",
+                "successful_update": "{extension}이(가) 성공적으로 업데이트되었습니다. 리디렉션 중..",
+                "update": "업데이트",
+                "update_soft_label": "소프트 업데이트",
+                "update_hard_label": "하드 업데이트"
+            },
+            "file_permissions": "확장 관리자는 다음 파일 및 디렉토리에 대한 읽기 및 쓰기 권한이 필요합니다: composer.json, composer.lock, vendor, storage, storage/.composer\n",
+            "major_updater": {
+                "description": "주요 Flarum 업데이트는 역방향 호환되지 않습니다. 즉, 현재 설치된 일부 확장 프로그램 및 수동으로 수행한 수정 사항이 이 새 버전과 호환되지 않을 수 있습니다. 계속 진행하기 전에 데이터베이스와 파일의 백업을 만드는 것이 좋습니다.\n",
+                "dry_run": "실행 테스트",
+                "dry_run_help": "실행 테스트는 현재 설정이 안전하게 업데이트될 수 있는지를 검증하기 위해 업데이트를 에뮬레이트하는 것입니다. 이는 수동으로 만든 사용자 지정 수정이 새 버전에서 작동할 것이라는 것을 의미하지 않습니다.",
+                "failure": {
+                    "desc": "마지막 주요 업데이트가 실패했습니다. 일부 설치된 확장 기능이 새로운 주요 릴리스와 호환되지 않습니다.",
+                    "why": "자세한 정보 찾기"
+                },
+                "title": "Flarum {version}의 주요 업데이트 가능",
+                "update": "업데이트"
+            },
+            "minor_update_confirmation": {
+                "content": "이는 사용 가능한 업데이트가 있는 다른 확장 기능/패키지도 업데이트합니다."
+            },
+            "sections": {
+                "control": {
+                    "title": "관리자"
+                },
+                "queue": {
+                    "columns": {
+                        "details": "세부 정보",
+                        "elapsed_time": "완료됨",
+                        "peak_memory_used": "최대 메모리 사용량",
+                        "operation": "작업",
+                        "package": "패키지",
+                        "status": "상태"
+                    },
+                    "none": "아직 작업이 없습니다.",
+                    "operations": {
+                        "extension_install": "확장 기능 설치",
+                        "extension_remove": "확장 기능 제거",
+                        "extension_update": "확장 기능 업데이트",
+                        "update_check": "업데이트 확인",
+                        "update_global": "모든 소프트웨어 패키지 업데이트",
+                        "update_major": "주요 업데이트",
+                        "update_minor": "소규모 업데이트",
+                        "why_not": "패키지가 업데이트되지 못하는 이유를 분석하기"
+                    },
+                    "output_modal": {
+                        "cause_unknown": "알 수 없음",
+                        "command": "Composer 명령",
+                        "guessed_cause": "원인",
+                        "output": "출력"
+                    },
+                    "refresh": "작업 목록 새로 고침",
+                    "statuses": {
+                        "success": "성공",
+                        "failure": "실패",
+                        "pending": "보류",
+                        "running": "실행 중"
+                    },
+                    "task_just_started": "작업이 시작됨",
+                    "title": "큐(Queue)"
+                }
+            },
+            "settings": {
+                "title": "=> core.ref.settings",
+                "access_warning": "관리자 영역에 액세스를 부여할 때 주의하십시오. 악의적인 사용자들이 확장 관리자를 오용하여 보안 위협을 초래할 수 있는 패키지를 설치할 수 있습니다.",
+                "debug_mode_warning": "디버그 모드에서 실행 중이므로 확장 관리자는 로컬 개발 패키지를 올바르게 설치하고 업데이트할 수 없습니다. 이러한 경우에는 대신 명령 줄 인터페이스를 사용하십시오.",
+                "queue_jobs": "백그라운드 큐에서 작업 실행",
+                "queue_jobs_help": "<a href='{basic_impl_link}'>기본 큐</a> 구현 및 <a href='{adv_impl_link}'>고급</a> 구현에 대해 알아볼 수 있습니다. 큐에 사용되는 PHP 버전이 {php_version}인지 확인하세요. <a href='{folder_perms_link}'>폴더 권한</a>이 올바르게 구성되어 있는지 확인하세요.\n",
+                "task_retention_days": "작업 보유 기간 일수",
+                "task_retention_days_help": "데이터베이스에 완료된 작업을 유지할 일 수입니다. 이보다 오래된 작업은 삭제됩니다. 모든 작업을 유지하려면 0으로 설정하세요.\n"
+            },
+            "updater": {
+                "up_to_date": "모든 것이 최신 상태입니다!",
+                "check_for_updates": "업데이트 확인",
+                "flarum": "Flarum 코어",
+                "global_update_successful": "모든 패키지를 성공적으로 업데이트했습니다.",
+                "last_update_checked_at": "마지막 업데이트 확인: ",
+                "run_global_update": "전역 업데이트 실행",
+                "updater_title": "업데이트",
+                "updater_help": "새로운 확장 및 Flarum 업데이트를 확인합니다."
+            },
+            "update_successful": "Flarum 업데이트에 성공했습니다.",
+            "why_not_modal": {
+                "title": "업데이트되지 않는 이유"
+            }
+        }
+    }
+}

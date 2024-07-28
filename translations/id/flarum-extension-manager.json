@@ -1,0 +1,169 @@
+{
+    "flarum-extension-manager": {
+        "admin": {
+            "auth_config": {
+                "add_label": "Metode autentikasi baru",
+                "add_modal": {
+                    "host_label": "Host",
+                    "host_placeholder": "contoh: extiverse.com",
+                    "submit_button": "Submit",
+                    "token_label": "Token",
+                    "type_label": "Tipe",
+                    "unchanged_token_placeholder": "(tidak berubah)"
+                },
+                "delete_confirmation": "Apakah anda yakin ingin menghapus metode autentikasi ini?",
+                "delete_label": "Hapus metode autentikasi",
+                "edit_label": "Ubah metode autentikasi",
+                "fields": {
+                    "host": "Host",
+                    "token": "Token"
+                },
+                "no_auth_methods_configured": "Tidak ada metode autentikasi yang dikonfigurasi. Ini adalah fitur lanjutan opsional untuk memungkinkan penginstalan dari repositori pribadi.",
+                "remove_button_label": "Hapus metode autentikasi",
+                "title": "Metode Autentikasi",
+                "types": {
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "Token GitLab",
+                    "bearer": "HTTP Bearer"
+                }
+            },
+            "composer": {
+                "add_repository_label": "Tambah Repositori",
+                "delete_repository_confirmation": "Apakah Anda yakin ingin menghapus repositori ini? Semua ekstensi yang diinstal dari repositori ini akan dihapus.",
+                "delete_repository_label": "Hapus repositori",
+                "edit_repository_label": "Edit repositori",
+                "title": "Composer",
+                "minimum_stability": {
+                    "label": "Stabilitas Minimum",
+                    "help": "Jenis paket yang diizinkan untuk diinstal. Jangan ubah ini kecuali Anda tahu apa yang Anda lakukan.",
+                    "options": {
+                        "stable": "Stabil (Direkomendasikan)",
+                        "rc": "RC (Kandidat Rilis)",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
+                    }
+                },
+                "repositories": {
+                    "label": "Repositori",
+                    "help": "Tambahkan repositori tambahan untuk menginstal paket. Ini adalah fitur tingkat lanjut, jangan menambahkan repositori yang tidak dipercaya, karena dapat digunakan untuk mengeksekusi kode berbahaya pada server Anda.\n",
+                    "types": {
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "path"
+                    },
+                    "add_modal": {
+                        "name_label": "Nama",
+                        "type_label": "Jenis",
+                        "url": "URL",
+                        "submit_button": "Submit"
+                    }
+                }
+            },
+            "exceptions": {
+                "composer_command_failure": "Gagal mengeksekusi. Periksa log komposer di storage/logs/composer.",
+                "extension_already_installed": "Ekstensi sudah terpasang.",
+                "extension_not_directly_dependency": "Ekstensi dipasang sebagai ketergantungan (dependency) dari ekstensi lain, tidak dapat langsung dihapus.",
+                "extension_not_installed": "Ekstensi tidak ditemukan.",
+                "guessed_cause": {
+                    "extension_incompatible_with_instance": "Ekstensi tersebut kemungkinan besar tidak kompatibel dengan Flarum instance Anda saat ini.",
+                    "extension_not_found": "Ekstensi tidak ditemukan atau tidak ada.",
+                    "extensions_incompatible_with_new_major": "Beberapa ekstensi yang terinstal tidak kompatibel dengan rilis utama terbaru. Harap tunggu hingga ekstensi diperbarui agar dibuat kompatibel oleh pembuatnya, atau hapus ekstensi tersebut sebelum melanjutkan.\n"
+                }
+            },
+            "extensions": {
+                "check_why_it_failed_updating": "Tunjukkan mengapa tidak memperbarui ke versi terbaru.",
+                "install": "Pasang ekstensi baru",
+                "install_help": "Isi nama paket ekstensi untuk melanjutkan. Anda dapat menentukan <semantic_link>versi semantik</semantic_link> menggunakan format <code>vendor/package-name:version</code>. Kunjungi {extiverse} untuk melihat-lihat ekstensi.\n",
+                "proceed": "Melanjutkan",
+                "remove": "Hapus pemasangan",
+                "successful_install": "{extension} berhasil dipasang, mengalihkan..",
+                "successful_remove": "Ekstensi berhasil dihapus.",
+                "successful_update": "{extension} berhasil diperbarui, mengalihkan..",
+                "update": "Update",
+                "update_soft_label": "Soft update",
+                "update_hard_label": "Hard update"
+            },
+            "file_permissions": "Manajer ekstensi memerlukan izin baca dan tulis pada file dan direktori berikut ini: composer.json, composer.lock, vendor, storage, storage/.composer\n",
+            "major_updater": {
+                "description": "Pembaruan utama Flarum tidak kompatibel dengan versi sebelumnya, yang berarti bahwa beberapa ekstensi yang saat ini Anda instal, dan modifikasi yang dilakukan secara manual mungkin tidak akan berfungsi dengan versi baru ini. Pastikan untuk membuat backup database dan file Anda sebelum melanjutkan.\n",
+                "dry_run": "Uji Coba",
+                "dry_run_help": "Uji coba mengemulasi pembaruan untuk melihat apakah pengaturan Anda saat ini dapat diperbarui dengan aman, ini tidak berarti bahwa modifikasi khusus yang dibuat secara manual akan berfungsi di versi yang lebih baru.",
+                "failure": {
+                    "desc": "Pembaruan besar terakhir gagal, beberapa ekstensi yang terinstal tidak kompatibel dengan rilis besar yang baru.",
+                    "why": "Ketahui lebih lanjut"
+                },
+                "title": "Pembaruan Utama Flarum {version} Telah Tersedia",
+                "update": "Update"
+            },
+            "minor_update_confirmation": {
+                "content": "Ini juga akan memperbarui ekstensi/paket lain dengan pembaruan yang tersedia."
+            },
+            "sections": {
+                "control": {
+                    "title": "Manajer"
+                },
+                "queue": {
+                    "columns": {
+                        "details": "Detail",
+                        "elapsed_time": "Selesai dalam",
+                        "peak_memory_used": "Penggunaan Memori Puncak",
+                        "operation": "Operasi",
+                        "package": "Paket",
+                        "status": "Status"
+                    },
+                    "none": "Belum ada task.",
+                    "operations": {
+                        "extension_install": "Pasang ekstensi",
+                        "extension_remove": "Hapus ekstensi",
+                        "extension_update": "Perbarui ekstensi",
+                        "update_check": "Periksa pembaruan",
+                        "update_global": "Memperbarui semua paket software",
+                        "update_major": "Pembaruan besar",
+                        "update_minor": "Pembaruan kecil",
+                        "why_not": "Menganalisa mengapa sebuah paket tidak dapat diperbarui"
+                    },
+                    "output_modal": {
+                        "cause_unknown": "Tidak diketahui",
+                        "command": "Composer Command",
+                        "guessed_cause": "Penyebab",
+                        "output": "Keluaran"
+                    },
+                    "refresh": "Refresh daftar task",
+                    "statuses": {
+                        "success": "Berhasil",
+                        "failure": "Gagal",
+                        "pending": "Tertunda",
+                        "running": "Berjalan"
+                    },
+                    "task_just_started": "Task baru saja dimulai",
+                    "title": "Antrian"
+                }
+            },
+            "settings": {
+                "title": "=> core.ref.settings",
+                "access_warning": "Harap berhati-hati terhadap siapa yang Anda berikan akses ke area admin, manajer ekstensi dapat disalahgunakan oleh oknum jahat untuk menginstal paket yang dapat menyebabkan pelanggaran keamanan.",
+                "debug_mode_warning": "Anda sedang menjalankan mode debug, manajer ekstensi tidak dapat menginstal dan memperbarui paket local development dengan benar. Silakan gunakan command line interface untuk tujuan tersebut.",
+                "queue_jobs": "Jalankan operasi di antrian latar belakang",
+                "queue_jobs_help": "Anda dapat membaca tentang implementasi <a href='{basic_impl_link}'>basic queue</a> atau yang <a href='{adv_impl_link}'>lebih canggih</a>. Pastikan versi PHP yang digunakan untuk queue adalah {php_version}. Pastikan <a href='{folder_perms_link}'>izin folder (folder permission)</a> telah dikonfigurasi dengan benar.\n",
+                "task_retention_days": "Hari retensi task",
+                "task_retention_days_help": "Jumlah hari untuk menyimpan task yang sudah selesai dalam database. Task yang lebih lama dari ini akan dihapus. Atur ke 0 untuk menyimpan semua task.\n"
+            },
+            "updater": {
+                "up_to_date": "Semuanya sudah diperbarui!",
+                "check_for_updates": "Periksa pembaruan",
+                "flarum": "Flarum Core",
+                "global_update_successful": "Berhasil memperbarui semua paket.",
+                "last_update_checked_at": "Pemeriksaan Pembaruan Terakhir: ",
+                "run_global_update": "Jalankan Pembaruan Global",
+                "updater_title": "Pembaruan",
+                "updater_help": "Menjalankan pemeriksaan ekstensi baru dan pembaruan Flarum."
+            },
+            "update_successful": "Flarum berhasil diperbarui.",
+            "why_not_modal": {
+                "title": "Mengapa Tidak Dapat Diperbarui"
+            }
+        }
+    }
+}

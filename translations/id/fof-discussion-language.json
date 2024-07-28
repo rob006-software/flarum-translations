@@ -14,13 +14,17 @@
             },
             "index_language": {
                 "any": "Semua Bahasa"
+            },
+            "sub_controls": {
+                "subscription_language_label": "Bahasa diskusi",
+                "subscription_language_help": "Ketika Anda memilih bahasa di sini, Anda hanya akan diberitahu tentang aktivitas terbaru dalam bahasa tersebut."
             }
         },
         "admin": {
             "settings": {
                 "native_label": "Gunakan nama bahasa asli",
                 "show_flag_label": "Tampilkan bendera negara dengan nama bahasa",
-                "composer_default_label": "Pilih terlebih dahulu bahasa lokal di area penulisan diskusi",
+                "composer_default_label": "Pra-pilih lokasi saat ini di dalam penyusun diskusi",
                 "locale_sort_label": "Gunakan bahasa yang terdeteksi untuk filter diskusi default",
                 "show_any_lang_opt_label": "Tampilkan opsi untuk memilih \"Bahasa Apa Saja\"",
                 "tags_page_discussion_locale_label": "Hanya tampilkan diskusi dari bahasa pengguna saat ini di halaman Tag",

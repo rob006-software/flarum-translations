@@ -4,34 +4,34 @@
             "settings": {
                 "title": "设置",
                 "moneyforpost": "回帖一次可获得",
-                "moneyfordiscussion": "发布一次主题贴可获得",
-                "moneyname": "定义资产货币（格式：[money] 元）",
+                "moneyfordiscussion": "发贴一次可获得",
+                "moneyname": "定义财富（例如：[money] 元）",
                 "postminimumlength": "可获得奖励的最少回帖字数（0 表示不限制）",
                 "noshowzero": "若值为 0 则不显示",
-                "autoremove": "自动更新资产",
-                "moneyforlike": "获得点赞时奖励资产",
+                "autoremove": "重算计算财富",
+                "moneyforlike": "获得点赞时可获得",
                 "helpextensionlikes": "需要 <code>flarum/likes</code> 扩展程序"
             },
             "permissions": {
-                "edit_money_label": "修改资产"
+                "edit_money_label": "调整财富"
             },
             "autoremove": [
-                "永不移除资产",
-                "隐藏或恢复 主题/帖子 时（默认）",
-                "当 主题/帖子 被删除时"
+                "财富只增不减",
+                "隐藏或恢复主题/帖子时（默认）",
+                "删除主题/帖子时"
             ],
             "automoderator": {
-                "metric_name": "资产",
-                "action_name": "奖励资产"
+                "metric_name": "财富",
+                "action_name": "奖励财富"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": "修改资产"
+                "money_button": "修改财富"
             },
             "modal": {
-                "title": "{username} 的资产",
-                "current": "目前：",
+                "title": "{username} 的财富",
+                "current": "当前：",
                 "submit_button": "=> core.ref.save_changes"
             }
         }

@@ -10,7 +10,8 @@
             "reacting-own-post": "Nemůžete reagovat na svůj vlastní příspěvek",
             "modal": {
                 "title": "Reakce",
-                "anonymous_count": "{count, plural, one {# anonymní uživatel} few {# anonymní uživatelé} other {# anonymních uživatelů}}"
+                "anonymous_count": "{count, plural, one {# anonymní uživatel} few {# anonymní uživatelé} other {# anonymních uživatelů}}",
+                "no_reactions": ""
             },
             "mod_item": "Zobrazit reakce",
             "react_button_label": "Reagovat"
@@ -18,9 +19,16 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Reagovat na příspěvky",
-                "see_reactions_label": "Zobrazit, kdo reagoval na příspěvky"
+                "see_reactions_label": "Zobrazit, kdo reagoval na příspěvky",
+                "delete_post_reactions_label": ""
             },
             "page": {
+                "cdn": {
+                    "title": "",
+                    "help": "",
+                    "label": "",
+                    "default-url": ""
+                },
                 "reactions": {
                     "title": "Vlastní reakce",
                     "reactions": "Aktuální reakce",
@@ -28,7 +36,8 @@
                     "help": {
                         "display": "Zobrazit",
                         "identifier": "Identifikátor"
-                    }
+                    },
+                    "delete_confirmation": ""
                 },
                 "convert": {
                     "help": "Pokud jste právě toto rozšíření aktualizovali, bude třeba převést vaše reakce. Pokud jste rozšíření právě nainstalovali, můžete tuto zprávu bezpečně ignorovat.",
@@ -39,6 +48,8 @@
                 "settings": {
                     "react_own_posts_help": "Pokud je povoleno, mohou uživatelé na základě oprávnění reagovat na své vlastní příspěvky ve fóru. Chcete-li uživatelům zabránit reagovat na jejich vlastní příspěvky, zakažte toto nastavení.",
                     "react_own_posts_label": "Uživatelé mohou reagovat na své vlastní příspěvky",
+                    "allow-anonymous": "Povolit anonymní (host) reakce",
+                    "allow-anonymous-help": "Pokud je tato možnost povolena, hosté a anonymní uživatelé budou moci reagovat na příspěvky. Všimněte si, že anonymní reakce nebudou spojeny s profilem uživatele a budou agregovány v seznamu reakcí.",
                     "save_settings": "Uložit nastavení",
                     "integrations": {
                         "legend": "Integrace",
@@ -55,9 +66,7 @@
                             "Label": "Převést reakce na lajky",
                             "Helptext": "Zadejte identifikátor reakce, kterou chcete automaticky převést na lajk"
                         }
-                    },
-                    "allow-anonymous": "Povolit anonymní (host) reakce",
-                    "allow-anonymous-help": "Pokud je tato možnost povolena, hosté a anonymní uživatelé budou moci reagovat na příspěvky. Všimněte si, že anonymní reakce nebudou spojeny s profilem uživatele a budou agregovány v seznamu reakcí."
+                    }
                 }
             }
         }

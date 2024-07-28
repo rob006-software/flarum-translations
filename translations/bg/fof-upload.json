@@ -1,6 +1,27 @@
 {
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Всички файлове, качени от потребителя.",
+                    "anonymize_description": "Премахва потребителската препратка от качените файлове. Самите файлове остават достъпни за потребителите, които могат да ги видят преди анонимизиране.",
+                    "delete_description": "Изтрива всички файлове, качени от потребителя."
+                }
+            }
+        }
+    },
     "fof-upload": {
         "admin": {
+            "nav": {
+                "shared-uploads-button": ""
+            },
+            "shared-uploads": {
+                "description": "",
+                "introduction": "",
+                "no-files": "",
+                "title": "",
+                "upload-new-button": ""
+            },
             "pane": {
                 "title": "Качване",
                 "description": "Настрой услугите за качване и преференции."
@@ -15,6 +36,7 @@
                 "watermark": "Избери дали изображенията да имат добавен воден знак по време на качването (upload). Водните знаци се добавят към изображения без гифчета (no gifs) въз основа на твоите предпочитания по-долу.\n",
                 "s3_compatible_storage": "Следните настройки са необходими само когато се използва хранилище съвместимо с S3. Ако използваш AWS, може да ги оставиш празни.\n",
                 "s3_acl": "ACL който трябва да бъде приложен към качвания обект (по подразбиране: личен). За възможни стойности, виж https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Остави ключът скрит и празен за да използваш удостоверения за самоличност (credentials) в профила на инстанцията.\n",
                 "composer_buttons": "По подразбиране двата бутона за управление на медия и за качване (upload) са видими. Можеш също да избереш да показваш само един бутон.\n"
             },
@@ -28,7 +50,8 @@
                     "advanced_title": "Разширени настройки за хранилище S3",
                     "endpoint": "Крайна точка",
                     "use_path_style_endpoint": "Използвай стил път за крайната точка",
-                    "acl": "Контролен Списък за Достъп (ACL)"
+                    "acl": "Контролен Списък за Достъп (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Деактивирай записите на свалянията (downloads)",
@@ -87,7 +110,9 @@
                 "download_label": "Изтегли файлове",
                 "upload_label": "Качи файлове (upload)",
                 "view_user_uploads_label": "Виж качвания на потребител (user)",
-                "delete_uploads_of_others_label": "Изтрий качвания на потребител (uploads)"
+                "delete_uploads_of_others_label": "Изтрий качвания на потребител (uploads)",
+                "upload_shared_label": "",
+                "access_shared_label": ""
             },
             "templates": {
                 "file": "Образе за сваляне на файл по подразбиране",
@@ -131,9 +156,26 @@
             "buttons": {
                 "attach": "Прикачи",
                 "upload": "Качи (upload)",
+                "upload_shared": "",
                 "user_uploads": "Качвания на потребител (uploads)",
                 "cancel": "Откажи",
-                "media": "Моята медия"
+                "media": "Моята медия",
+                "shared_media": ""
+            },
+            "states": {
+                "error": "Грешка",
+                "loading": "Качва се",
+                "unauthorized": "Не си оторизиран да свалиш файловете"
+            },
+            "validation": {
+                "max_size": "Качвания над {max} kb не са приети."
+            },
+            "text_preview": {
+                "expand": "Разшири прегледа",
+                "collapse": "Скрий прегледа",
+                "error": "Грешка при преглед на файл. Може да е бил изтрит, или предоставеното ID на файла е невалидно.\n",
+                "no_snippet_preview": "<визуализацията ще се появи тук след публикуване>",
+                "no_snippet": "<няма наличен фрагмент за визуализация>"
             },
             "file_list": {
                 "loading": "Зареждане на файлове...",
@@ -151,21 +193,6 @@
                     "hide_fail": "Неуспешно скриване на файл \"{fileName}\"",
                     "loading": "Файлът се скрива..."
                 }
-            },
-            "states": {
-                "error": "Грешка",
-                "loading": "Качва се",
-                "unauthorized": "Не си оторизиран да свалиш файловете"
-            },
-            "validation": {
-                "max_size": "Качвания над {max} kb не са приети."
-            },
-            "text_preview": {
-                "expand": "Разшири прегледа",
-                "collapse": "Скрий прегледа",
-                "error": "Грешка при преглед на файл. Може да е бил изтрит, или предоставеното ID на файла е невалидно.\n",
-                "no_snippet_preview": "<визуализацията ще се появи тук след публикуване>",
-                "no_snippet": "<няма наличен фрагмент за визуализация>"
             }
         },
         "api": {
@@ -181,6 +208,48 @@
                 "cannot_write_to_disk": "Не може да се записва на диска.",
                 "upload_blocked_by_php_extension": "Разширение за php блокира качването.",
                 "no_files_made_it_to_upload": "Моля, качвайте файлове, не по-големи от {max} kb."
+            }
+        },
+        "lib": {
+            "upload-shared-file-modal": {
+                "title": "",
+                "dropzone": "",
+                "hide-from-media-gallery": "",
+                "upload": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "delete_file_a11y_label": "",
+                "delete_confirmation": "",
+                "hide_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                },
+                "hide_shared_file": {
+                    "btn_a11y_label_hide": "",
+                    "btn_a11y_label_show": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "show_confirmation": "",
+                    "show_success": "",
+                    "hide_fail": "",
+                    "show_fail": "",
+                    "loading": ""
+                }
             }
         }
     }

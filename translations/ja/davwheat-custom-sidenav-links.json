@@ -4,71 +4,71 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "表示設定",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "\"タグ\" ボタンの上",
+                                "below-tags-link": "\"タグ\" ボタンの下"
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "リンク位置",
+                            "top_spacer": "上に余白を入れる",
+                            "bottom_spacer": "下に余白を入れる"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "リンクをカスタマイズ",
+                        "add_link_btn": "リンクを追加",
+                        "confirm_delete": "リンク \"{link}\" の削除を確認",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "変更を保存する前に、上記の問題を修正する必要があります。"
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "位置",
+                                "icon": "リンクアイコン",
+                                "text": "リンクテキスト",
+                                "url": "リンクURL",
+                                "internal": "Flarum内のURL？",
+                                "delete": "削除"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "サイト名",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "上に移動",
+                                "move_down": "下に移動",
+                                "icon_preview": "アイコンプレビュー"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "設定を保存",
+                            "saving": "変更を保存...",
+                            "saved": "変更なし",
+                            "fix_errors": "保存する前にエラーを修正してください"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "新しいリンクを追加",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "リンクを追加",
+                            "loading": "リンク追加",
+                            "fix_url": "無効なURL",
+                            "invalid_form": "すべてのフィールドを埋めてください"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }

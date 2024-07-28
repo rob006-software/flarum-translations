@@ -1,0 +1,88 @@
+{
+    "fof-anti-spam": {
+        "admin": {
+            "permissions": {
+                "spamblock_users_label": "Merkitse käyttäjä roskapostittajaksi"
+            },
+            "settings": {
+                "button": "Asetukset",
+                "default-actions": {
+                    "delete_user_label": "Poista käyttäjä",
+                    "delete_user_help": "Käyttäjä poistetaan lopullisesti. Kun pois käytöstä, käyttäjä estetään sen sijaan.",
+                    "delete_discussions_label": "Poista keskustelut",
+                    "delete_discussions_help": "Tämä poistaa pysyvästi kaikki keskustelut tältä käyttäjältä. Kun pois käytöstä, keskusteluja ei poisteta pysyvästi.",
+                    "delete_posts_label": "Poista viestit",
+                    "delete_posts_help": "Tämä poistaa tämän käyttäjän viestit pysyvästi. Kun pois käytöstä viestejä ei poisteta pysyvästi.",
+                    "heading": "Moderoinnin oletus toimet",
+                    "introduction": "Kun käyttäjä merkitään roskapostittajaksi, moderaattorit voivat valita käytössä olevista toimista miten toimia kyseisessä tilanteessa. Nämä asetukset asettavat oletukset tähän tilanteeseen, prosessin nopeuttamiseksi, mutta voidaan myös säätää tapauskohtaiseksi.\n",
+                    "move_discussions_to_tags_label": "Siirrä keskustelut avainsanaan",
+                    "move_discussions_to_tags_help": ""
+                },
+                "stopforumspam": {
+                    "heading": "",
+                    "introduction": "",
+                    "username_label": "",
+                    "ip_label": "",
+                    "email_label": "",
+                    "frequency_label": "",
+                    "frequency_help": "",
+                    "api_key_label": "",
+                    "api_key_text": "",
+                    "api_key_instructions_text": "",
+                    "regional_endpoint_label": "",
+                    "regional_endpoint_help": "",
+                    "region_closest_label": "",
+                    "region_europe_label": "",
+                    "region_us_label": "",
+                    "confidence_label": "",
+                    "confidence_help": "",
+                    "email_hash_label": "",
+                    "email_hash_help": "",
+                    "sfs_lookup_label": "",
+                    "sfs_lookup_help": "",
+                    "report_blocked_registrations_label": "",
+                    "report_blocked_registrations_help": ""
+                }
+            },
+            "blocked_registrations": {
+                "button": "",
+                "title": "",
+                "no-records": "",
+                "help": "",
+                "attempted-at": "",
+                "ip": "",
+                "email": "",
+                "username": "",
+                "login-provider": "",
+                "login-provider-data": "",
+                "sfs-data": "",
+                "delete_entry": ""
+            }
+        },
+        "forum": {
+            "message": {
+                "stopforumspam": {
+                    "blocked": ""
+                }
+            },
+            "spammer_modal": {
+                "hard_delete_discussions_label": "",
+                "hard_delete_discussions_help": "",
+                "hard_delete_posts_label": "",
+                "hard_delete_posts_help": "",
+                "hard_delete_user_label": "",
+                "hard_delete_user_help": "",
+                "intro": "",
+                "move_discussions_tag_label": "",
+                "move_discussions_tag_help": "",
+                "process_button": "",
+                "title": "",
+                "report_to_sfs_label": "",
+                "report_to_sfs_help": ""
+            },
+            "user_controls": {
+                "spammer_button": ""
+            }
+        }
+    }
+}

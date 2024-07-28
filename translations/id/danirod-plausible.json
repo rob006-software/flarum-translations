@@ -1,0 +1,33 @@
+{
+    "danirod-plausible": {
+        "admin": {
+            "validation": {
+                "domain": {
+                    "required": "Sebuah domain harus diberikan",
+                    "regex": "Domain yang diberikan tidak valid"
+                },
+                "proxy_domain": {
+                    "regex": "Domain proxy yang diberikan tidak valid"
+                }
+            },
+            "settings": {
+                "enable": {
+                    "label": "Aktif",
+                    "help": "Aktifkan opsi ini untuk benar-benar menyertakan kode pelacakan."
+                },
+                "domain": {
+                    "label": "Domain",
+                    "help": "Domain yang akan digunakan saat mengirim analitik."
+                },
+                "proxy_domain": {
+                    "label": "Domain proxy",
+                    "help": "Tempat untuk menyajikan kode JS. Biarkan kosong untuk menggunakan plausible.io. Hal ini memungkinkan untuk mencegah pemblokir iklan menghapus kode pelacakan. Periksa dokumen Plausible."
+                },
+                "exclude_admin": {
+                    "label": "Kecualikan admin",
+                    "help": "Akan mencegah tampilan dari admin untuk dihitung dalam pelacakan jika masuk."
+                }
+            }
+        }
+    }
+}

@@ -1,34 +1,43 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "您暫時不能表達心情，請刷新後重試。",
+            "disabled-reaction": "您暫時不能表達心情，請重整頁面後重試。",
             "warning": "你的回應將被覆蓋",
-            "notification": "{username} 使用{reaction}回應了你的帖文",
+            "notification": "{username} 使用{reaction}回應了你的貼文",
             "settings": {
                 "notify_post_reacted_label": "某人回應了你的貼文"
             },
             "reacting-own-post": "你不能回應自己的貼文",
             "modal": {
                 "title": "心情",
-                "anonymous_count": "{count, plural, one {# 匿名用戶} other {# 匿名用戶}}"
+                "anonymous_count": "{count, plural, one {# 匿名用戶} other {# 匿名用戶}}",
+                "no_reactions": "還沒有任何反應"
             },
             "mod_item": "查看心情",
             "react_button_label": "表達心情"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "回應帖文",
-                "see_reactions_label": "查看戳心情的人"
+                "react_posts_label": "回應貼文",
+                "see_reactions_label": "查看戳心情的人",
+                "delete_post_reactions_label": "刪除貼文的反應"
             },
             "page": {
+                "cdn": {
+                    "title": "CDN",
+                    "help": "預設情況下，我們透過 Cloudflare 的 CDN 提供反應圖示。 您也可以選擇指定任何其他 CDN 位址\n按要求。 <code>[codepoint]</code> 將替換為表情符號的代碼點。\n\n例如，要透過 jsdelivr 切換到 Noto 表情符號，您需要輸入 <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >。 該字段絕不能留空。\n",
+                    "label": "URL",
+                    "default-url": "預設值：{url}"
+                },
                 "reactions": {
                     "title": "自定義回應",
                     "reactions": "現有回應",
-                    "Helptext": "鍵入 emoji 或 font-awesome 的名稱並選擇你喜歡的類型。",
+                    "Helptext": "輸入 emoji 或 font-awesome 的名稱並選擇你喜歡的類型。",
                     "help": {
                         "display": "描述",
                         "identifier": "標識"
-                    }
+                    },
+                    "delete_confirmation": "您確定要刪除此反應嗎？ 此操作無法撤銷。"
                 },
                 "convert": {
                     "help": "若你只是更新延伸套件，你的回應將被轉換。若你已安裝此延伸套件，你可以安心地忽略這條訊息。",
@@ -37,27 +46,27 @@
                     "converted": "成功轉換全部 {number} 個讚"
                 },
                 "settings": {
-                    "react_own_posts_help": "啟用此項，添加一個權限，允許用戶對自己的帖子表達心情。如需禁止，請禁用此項。",
-                    "react_own_posts_label": "允許用戶對自已的貼子表達心情",
+                    "react_own_posts_help": "啟用此項，增加一個權限，允許用戶對自己的貼文表達心情。如需禁止，請禁用此項。",
+                    "react_own_posts_label": "允許用戶對自已的貼文表達心情",
+                    "allow-anonymous": "允許匿名（訪客）反應",
+                    "allow-anonymous-help": "如果啟用，訪客和匿名用戶將能夠對貼文做出反應。 請注意，匿名反應不會連結到用戶個人資料，而是會聚合在反應列表中。",
                     "save_settings": "儲存設定",
                     "integrations": {
                         "legend": "融合",
-                        "warning": "相同的回應<strong>不會</strong>轉換為「讚」<strong>或</strong>「頂」",
+                        "warning": "相同的回應<strong>不會</strong>轉換為「讚」<strong>或</strong>「推」",
                         "gamification": {
                             "legend": "遊戲化",
-                            "upvoteLabel": "轉換回應為「頂」",
-                            "upvoteHelptext": "鍵入你想要自動轉換為「頂」的回應的標識",
-                            "downvoteLabel": "轉換回應為「踩」",
-                            "downvoteHelptext": "鍵入你想要自動轉換為「踩」的回應的標識"
+                            "upvoteLabel": "轉換回應為「推」",
+                            "upvoteHelptext": "輸入你想要自動轉換為「推」的回應的標識",
+                            "downvoteLabel": "轉換回應為「噓」",
+                            "downvoteHelptext": "輸入你想要自動轉換為「噓」的回應的標識"
                         },
                         "likes": {
                             "legend": "喜歡",
                             "Label": "轉換回應為「喜歡」",
-                            "Helptext": "鍵入你想要自動轉換為「喜歡」的回應的標識"
+                            "Helptext": "輸入你想要自動轉換為「喜歡」的回應的標識"
                         }
-                    },
-                    "allow-anonymous": "允許匿名（來賓）反應",
-                    "allow-anonymous-help": "如果啟用，訪客和匿名用戶將能夠對帖子做出反應。 請注意，匿名反應不會鏈接到用戶個人資料，而是會聚合在反應列表中。"
+                    }
                 }
             }
         }

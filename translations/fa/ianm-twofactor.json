@@ -1,0 +1,108 @@
+{
+    "ianm-twofactor": {
+        "admin": {
+            "edit_group": {
+                "2fa_label": "",
+                "2fa_help": "",
+                "admin_2fa_help": ""
+            },
+            "permissions": {
+                "see_two_factor_status_label": "",
+                "manage_others_label": ""
+            },
+            "settings": {
+                "groups": {
+                    "title": "",
+                    "help": ""
+                },
+                "forum_logo_qr": "",
+                "forum_logo_qr_help": "",
+                "forum_logo_qr_width": "",
+                "forum_logo_qr_width_help": "",
+                "logo_qr": "",
+                "logo_qr_help": "",
+                "tokens": {
+                    "heading": "",
+                    "help": "",
+                    "kill_inactive_tokens": "",
+                    "kill_inactive_tokens_help": "",
+                    "kill_inactive_tokens_age_days": "",
+                    "kill_inactive_tokens_age_days_help": "",
+                    "also_kill_developer_tokens": "",
+                    "also_kill_developer_tokens_help": ""
+                }
+            }
+        },
+        "forum": {
+            "user_2fa": {
+                "alert_message": ""
+            },
+            "security": {
+                "two_factor_heading": "",
+                "two_factor_help": "",
+                "two_factor_apps": "",
+                "two_factor_enabled": "",
+                "two_factor_disabled": "",
+                "two_factor_title": "",
+                "enable_2fa_button": "",
+                "disable_2fa_button": "",
+                "enable_2fa_modal_text": "",
+                "qr_code_alt": "",
+                "enter_token": "",
+                "verify_button": "",
+                "loading_qr": "",
+                "backup_codes": "",
+                "backup_codes_instruction": "",
+                "saved_backup_codes_button": "",
+                "backup_codes_remaining": "",
+                "two_factor_enabled_confirmation": "",
+                "ok_button": "",
+                "confirm_disable_2fa_title": "",
+                "confirm_disable_2fa_text": "",
+                "confirm_disable_2fa_text_other_user": "",
+                "cannot_disable": "",
+                "cannot_disable_tooltip": "",
+                "cancel_button": "",
+                "qr_tab": "",
+                "manual_tab": "",
+                "scan_qr_instruction": "",
+                "manual_entry_instruction": ""
+            },
+            "log_in": {
+                "two_factor_placeholder": "",
+                "two_factor_required_message": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "status_changed": ""
+            },
+            "body": {
+                "status_changed": ""
+            },
+            "status_type": {
+                "enabled": "",
+                "disabled": ""
+            }
+        },
+        "views": {
+            "reset_password": {
+                "two_factor_token_label": ""
+            },
+            "two_factor_token": {
+                "title": "",
+                "submit_button": ""
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    }
+}

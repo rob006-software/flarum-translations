@@ -1,0 +1,172 @@
+{
+    "blomstra-gdpr": {
+        "admin": {
+            "gdpr_page": {
+                "heading": "GDPR Verilerine Genel Bakış",
+                "description": "Çeşitli GDPR eylemlerinin ve entegrasyonlarının durumu",
+                "data_types": {
+                    "title": "Veri Türleri",
+                    "help_text": "Bunlar şu anda kayıtlı veri türleridir. Her tür, ilişkili dışa aktarma, anonimleştirme ve silme eylemleriyle birlikte listelenir. Bir uzantı, GDPR düzenlemeleri kapsamına giren herhangi bir veriyi işliyorsa, veri türlerini <code>blomstra/gdpr</code> uzantısına kaydetmelidir.\n<code>user</code> tablosunda saklanan veriler ayrı olarak işlenir; aşağıdaki kullanıcı tablosu verilerine bakın.\n",
+                    "type": "Tür",
+                    "export_description": "Dışa Aktarma Eylemi",
+                    "anonymize_description": "Eylemi Anonimleştirme",
+                    "delete_description": "Eylemi Sil",
+                    "extension": "Uzantı"
+                },
+                "settings": {
+                    "heading": "GDPR Ayarları",
+                    "help_text": "GDPR ayarlarını mı arıyorsunuz? Uzantı sayfasındalar.",
+                    "extension_settings_button": "GDPR Ayarları"
+                },
+                "user_table_data": {
+                    "title": "Kullanıcı Tablo Verisi",
+                    "help_text": "Çoğunlukla, <code>kullanıcı</code> tablosuna eklenen tüm sütunlar hem verileri dışa aktarmak hem de silmek amacıyla otomatik olarak işlenecektir.\nAncak aşağıda sıralanan bazı özel durumlar vardır.\n"
+                }
+            },
+            "nav": {
+                "gdpr_button": "GDPR Entegrasyonları"
+            },
+            "permissions": {
+                "process_erasure": "Silme isteklerini işleyin",
+                "process_export_for_others": "Diğer kullanıcılar için veri aktarımlarını talep etme ve alma",
+                "see_anonymized_user_badges": "Anonimleştirilmiş kullanıcı rozetlerini görün"
+            },
+            "settings": {
+                "allow_anonymization": "Silme istekleri için anonimleştirmeye izin ver",
+                "allow_anonymization_help": "Varsayılan seçenektir ve çoğu topluluk için önerilir. Bu modda, gönderiler/yorumlar GDPR'nin izin verdiği ölçüde mümkün olduğu kadar korunacak, ancak kullanıcıyı tanımlayabilecek tüm bilgiler kaldırılacaktır.",
+                "allow_deletion": "Kaldırma istekleri için silmeye izin ver",
+                "allow_deletion_help": "",
+                "default_anonymous_username": "",
+                "default_anonymous_username_help": "",
+                "default_erasure": "",
+                "default_erasure_help": "",
+                "default_erasure_options": {
+                    "anonymization": "",
+                    "deletion": ""
+                },
+                "gdpr_page": {
+                    "title": "",
+                    "help_text": ""
+                }
+            },
+            "userlist": {
+                "columns": {
+                    "gdpr_actions": {
+                        "title": "",
+                        "export": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "data": {
+                "avatar": {
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "discussions": {
+                    "export_description": ""
+                },
+                "forum": {
+                    "export_description": ""
+                },
+                "no_action": "",
+                "posts": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "tokens": {
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "user": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                }
+            },
+            "request_data": {
+                "title": "",
+                "text": "",
+                "request_button": ""
+            }
+        },
+        "email": {
+            "confirm_erasure": {
+                "subject": "",
+                "body": ""
+            },
+            "erasure_completed": {
+                "deletion": {
+                    "subject": "",
+                    "body": ""
+                },
+                "anonymization": {
+                    "subject": "",
+                    "body": ""
+                }
+            },
+            "erasure_cancelled": {
+                "subject": "",
+                "body": ""
+            },
+            "export_available": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "forum": {
+            "badges": {
+                "anonymized_user": ""
+            },
+            "delete_user": {
+                "title": "",
+                "text": "",
+                "modal_delete_button": "",
+                "delete_button": ""
+            },
+            "erasure_requests": {
+                "empty_text": "",
+                "item_text": "",
+                "tooltip": "",
+                "title": ""
+            },
+            "erasure_request_confirmed": "",
+            "settings": {
+                "data": {
+                    "heading": ""
+                },
+                "export_data_button": "",
+                "export_data_help": "",
+                "request_erasure_button": "",
+                "request_erasure_help": ""
+            },
+            "process_erasure": {
+                "confirm": "",
+                "title": "",
+                "text": "",
+                "comments_label": "",
+                "anonymization_button": "",
+                "deletion_button": ""
+            },
+            "request_erasure": {
+                "title": "",
+                "reason": "",
+                "status": {
+                    "awaiting_user_confirmation": "",
+                    "user_confirmed": ""
+                },
+                "text": "",
+                "password_label": "",
+                "reason_label": "",
+                "cancel_button": "",
+                "request_button": ""
+            },
+            "notification": {
+                "export-ready": ""
+            },
+            "export_file": ""
+        }
+    }
+}

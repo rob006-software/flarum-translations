@@ -8,13 +8,20 @@
             },
             "setting": {
                 "bioLimit": "จำนวนตัวอักษรสูงสุดในประวัติ",
+                "maxLines": "",
                 "allowFormatting": "",
                 "allowFormatting_help": ""
             }
         },
         "forum": {
             "userbioPlaceholder": "เขียนอธิบายตัวคุณหน่อยสิ",
-            "userbioPlaceholderOtherUser": "เขียนอธิบายให้ {username}"
+            "userbioPlaceholderOtherUser": "เขียนอธิบายให้ {username}",
+            "profile": {
+                "cancel_confirm": "",
+                "cancel_button": "",
+                "save_button": "",
+                "edit_bio_label": ""
+            }
         }
     }
 }

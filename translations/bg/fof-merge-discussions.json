@@ -7,12 +7,12 @@
                 "ordering_date_label": "Слей публикиции по дата на създаване",
                 "ordering_date_help": "Публикациите в получената дискусия се пренареждат според индивидуалната им дата на създаване",
                 "ordering_suffix_label": "Добави обединени публикации на края на дискусията",
-                "ordering_suffix_help": "",
+                "ordering_suffix_help": "Публикациите, които са сливани в оцелялата дискусия, ще бъдат добавени в края на дискусията",
                 "type_heading": "Обедини вид",
-                "type_target_label": "",
+                "type_target_label": "Сливане с мен",
                 "type_target_help_text": "Избери дискусия(и) да се обединят в <b>{title}</b>.",
                 "type_from_label": "Обедини тази дискусия с друга",
-                "type_from_help_text": "",
+                "type_from_help_text": "Изберете целевата дискусия, в която да сливате <b>{title}</b>.",
                 "load_preview_button": "Преглед",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
@@ -35,7 +35,7 @@
             },
             "settings": {
                 "search_result_help": "Колко дискусии да се показват когато се търси в \"Обединени Дискусии\"модул.",
-                "search_result_label": ""
+                "search_result_label": "Ограничение за търсене на дискусия за сливане"
             }
         },
         "api": {
@@ -43,8 +43,8 @@
                 "merging_failed": "Неуспешно обединяване на дискусии.",
                 "updating_failed": "Неуспешно обновяване на детайлите на дискусията.",
                 "deleting_failed": "Неуспешно изтриване на празни дискусии.",
-                "fixing_posts_number_failed": "",
-                "fixing_posts_number_meta_failed": ""
+                "fixing_posts_number_failed": "Неуспешно коригиране на номерата на публикациите.",
+                "fixing_posts_number_meta_failed": "Неуспешно коригиране на номерата на публикациите."
             }
         },
         "ref": {

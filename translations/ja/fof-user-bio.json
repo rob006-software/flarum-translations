@@ -8,13 +8,20 @@
             },
             "setting": {
                 "bioLimit": "ステータスメッセージの文字制限",
+                "maxLines": "",
                 "allowFormatting": "",
                 "allowFormatting_help": ""
             }
         },
         "forum": {
             "userbioPlaceholder": "ステータスメッセージを入力出来ます",
-            "userbioPlaceholderOtherUser": "{username} さんのステータスメッセージを入力"
+            "userbioPlaceholderOtherUser": "{username} さんのステータスメッセージを入力",
+            "profile": {
+                "cancel_confirm": "",
+                "cancel_button": "",
+                "save_button": "",
+                "edit_bio_label": ""
+            }
         }
     }
 }

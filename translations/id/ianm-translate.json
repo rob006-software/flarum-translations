@@ -4,9 +4,12 @@
             "permission": {
                 "refresh-translation": "Memaksa penerjemahan ulang dari terjemahan yang di-cache",
                 "translate-to-locale": "Menampilkan terjemahan dalam bahasa saat ini",
-                "translate-to-all-locales": "Menampilkan terjemahan dalam semua bahasa forum"
+                "translate-to-all-locales": "Menampilkan terjemahan dalam semua bahasa forum",
+                "edit-translation": "Edit terjemahan secara manual"
             },
             "settings": {
+                "seemless": "Terjemahan Yang Mulus",
+                "seemless-help": "Fitur beta. Ketika diaktifkan, semua konten pengguna akan diterjemahkan secara otomatis ke semua bahasa forum yang tersedia. Ketika pengguna melihat konten multi-bahasa, terjemahan akan ditampilkan secara otomatis.",
                 "deepl": {
                     "api_key": {
                         "help": "Daftar di {link}. Driver akan secara otomatis mendeteksi jenis key free/pro.",
@@ -36,27 +39,74 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "URL server LibreTranslate. Jika Anda menjalankan contoh Anda sendiri, masukkan URL di sini. Skema harus berupa `http` atau `https`.",
+                        "label": "URL Server"
+                    },
+                    "port": {
+                        "help": "Port dari server LibreTranslate. Jika Anda menjalankan instance Anda sendiri, masukkan port di sini.",
+                        "label": "Port Server"
+                    },
+                    "api_key": {
+                        "help": "(opsional) Jika server LibreTranslate Anda memerlukan API key, masukkan di sini.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                },
+                "translate-all-enabled": "Aktifkan semua terjemahan bahasa",
+                "translate-all-help": "Jika diaktifkan, pengguna admin dan orang lain yang memiliki izin dapat menerjemahkan konten ke bahasa forum yang diinstal.",
+                "bind-browser-language": "Tambahkan bahasa browser",
+                "bind-browser-language-help": "Ketika diaktifkan, bahasa browser pengguna akan ditambahkan ke daftar bahasa yang tersedia untuk diterjemahkan.",
+                "use-native-locale-names": "Gunakan nama lokal asli",
+                "use-native-locale-names-help": "Saat diaktifkan, nama lokal asli akan digunakan sebagai pengganti versi lokal nama saat ini.",
+                "translate-polls": "Menerjemahkan polling",
+                "translate-polls-help": "Jika diaktifkan, judul polling, subjudul, teks alternatif gambar, dan opsi jawaban akan diterjemahkan secara otomatis saat polling dibuat atau diedit.",
                 "provider": "Penyedia terjemahan",
-                "readme-info": "Lihat dokumentasi README untuk informasi lebih lanjut."
+                "readme-info": "Lihat dokumentasi README untuk informasi lebih lanjut.",
+                "readme-none": "Tidak ada pengaturan tambahan yang diperlukan untuk driver ini."
             }
         },
         "forum": {
+            "composer": {
+                "multi-languages": "Petunjuk: Anda dapat mengetikkan pilihan bahasa Anda, forum akan menerjemahkannya untuk Anda."
+            },
             "unknown-language": "[tidak terdeteksi]",
             "detected-language": "Post ini dalam bahasa {postLang}",
             "translate-button-label": "Terjemahan",
+            "refresh-translation": "Segarkan terjemahan",
+            "original-content": {
+                "title": "Konten original",
+                "view": "Lihat konten original"
+            },
+            "manage-translations": {
+                "translations-label": "Terjemahan",
+                "button-label": "Kelola terjemahan",
+                "poll": {
+                    "image-alt": "Teks ALT gambar polling (jika ada)",
+                    "option": "Opsi polling {number}",
+                    "original-title": "Bahasa asli",
+                    "subtitle": "Subjudul polling",
+                    "title": "Mengelola terjemahan Polling",
+                    "question": "Pertanyaan polling"
+                },
+                "save-changes": "=> core.ref.save_changes"
+            },
             "discussion": {
                 "post": {
                     "close-translation": "Tutup terjemahan",
                     "translated-header": "Terjemahan AI dari {from} ke {to}",
                     "translated-updated": "Terjemahan terakhir diperbarui {time} menggunakan {provider}"
+                },
+                "title": {
+                    "detected-language": "{postLang}"
                 }
             },
             "user": {
                 "settings": {
                     "heading": "Terjemahan",
                     "source-language": {
-                        "help": "Saat dinonaktifkan, hanya postingan yang ditulis dalam bahasa selain bahasa forum saat ini yang akan diberi label. Untuk melabeli semua postingan dengan bahasa yang terdeteksi, aktifkan pengaturan ini.",
-                        "label": "Selalu tampilkan bahasa dalam postingan"
+                        "help": "Ketika dinonaktifkan, hanya konten yang dapat diterjemahkan yang ditulis dalam bahasa selain bahasa forum saat ini yang akan diberi label. Untuk melabeli semua konten dengan bahasa yang terdeteksi, aktifkan pengaturan ini.",
+                        "label": "Selalu tampilkan bahasa"
                     }
                 }
             }
@@ -65,7 +115,8 @@
             "providers": {
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
-                "google-cloud": "Google Cloud Translate"
+                "google-cloud": "Google Cloud Translate",
+                "libre": "Libre Translate"
             },
             "settings": {
                 "api-key": "API Key"

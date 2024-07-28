@@ -1,0 +1,31 @@
+{
+    "ianm-boring-avatars": {
+        "admin": {
+            "settings": {
+                "color1": "Цвет 1",
+                "color2": "Цвет 2",
+                "color3": "Цвет 3",
+                "color4": "Цвет 4",
+                "color5": "Цвет 5",
+                "identifier": "Идентификатор",
+                "identifier_help": "Используется для генерации уникального аватара для каждого пользователя\n",
+                "identifier_id": "ID пользователя",
+                "identifier_display_name": "Показывать имя",
+                "identifier_email": "Эл.почта",
+                "theme": "Тема",
+                "theme_help": "Тема для использования со \"скучными аватарами\"\n"
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "boringavatar": {
+                    "export_description": "Добавляет \"скучный аватар\" в экспортируемый архив.",
+                    "anonymize_description": "Удаляет \"скучный аватар\" и создает случайный новый.",
+                    "delete_description": "Удаляет \"скучный аватар\"."
+                }
+            }
+        }
+    }
+}

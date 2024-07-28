@@ -2,54 +2,54 @@
     "askvortsov-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "หมวดหมู่"
             },
             "labels": {
-                "keep_tags_nav": "",
+                "keep_tags_nav": "เก็บลิงก์หน้าแท็กไว้ในแถบด้านข้าง nav หรือไม่?",
                 "child_bare_icon": "",
                 "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "full_page_desktop": "เดสก์ท็อปเต็มหน้า?",
+                "parent_remove_icon": "ซ่อนไอคอนสำหรับแท็กระดับบนสุดใช่ไหม?",
+                "parent_remove_description": "ซ่อนคำอธิบายสำหรับแท็กระดับบนสุดใช่ไหม?",
+                "parent_remove_stats": "ซ่อนสถิติสำหรับแท็กระดับบนสุดใช่ไหม?",
+                "parent_remove_last_discussion": "ซ่อนการสนทนาล่าสุดสำหรับแท็กระดับบนสุดใช่ไหม?",
+                "small_forum_optimized": "ปรับให้เหมาะสมสำหรับฟอรัมขนาดเล็กใช่ไหม?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "ไอคอนในหมวดหมู่ย่อยควรแสดงโดยไม่มีพื้นหลังเป็นวงกลมหรือไม่?",
+                "full_page_desktop": "เมนูการนำทางของแถบด้านข้างควรยุบเป็นแถว (เช่น บนหน้าแท็กแบบเดิม) หรือไม่ นอกจากนี้ยังจะซ่อนวิดเจ็ต (เช่น Friends of Flarum Forum Statistics) จากแถบนำทางหน้าหมวดหมู่",
+                "small_forum_optimized": "ซึ่งจะทำให้จำนวนการอภิปราย/โพสต์ถูกต้องมากขึ้น แต่จะทำให้ฟอรัมขนาดกลางและขนาดใหญ่ช้าลงอย่างมาก"
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "การนำทาง",
+                "layout": "เค้าโครง",
+                "parent_display": "การแสดงหมวดหมู่หลัก",
+                "child_display": "การแสดงหมวดหมู่ย่อย",
+                "performance": "ประสิทธิภาพ"
             },
-            "title": ""
+            "title": "การตั้งค่าหมวดหมู่"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
+                "meta_description_text": "ทุกหมวดหมู่",
                 "meta_title_text": ""
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "กลับไปที่หมวดหมู่"
             },
             "index": {
                 "categories_link": ""
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "พูดคุย",
+                "post_label": "กระทู้"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "ไม่มีการพูดคุย (ยัง!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "หมวดหมู่"
         }
     }
 }

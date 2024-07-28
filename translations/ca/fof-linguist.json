@@ -2,118 +2,118 @@
     "fof-linguist": {
         "admin": {
             "permissions": {
-                "view_string_keys": ""
+                "view_string_keys": "Veure les claus de les cadenes a traduir"
             },
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Traduccions",
+                "coverage": "Cobertura",
+                "export": "Exportar",
+                "import": "Importar"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "apply": "Aplicar",
+                "reset": "Restaurar l'original",
+                "copy-original": "Copiar el text original",
+                "load-more": "Carregar més",
+                "delete-redundant": "Esborrar les traduccions redundants",
+                "delete-redundant-confirm": "Això esborrarà {count} traduccions que tenen valors originals i personalitzats ideèntics. Pot ser útil per netejar l'entorn després d'una actualització d'un paquet d'idioma.\n",
+                "delete-all": "Esborrar totes les traduccions",
+                "delete-all-confirm": "Això esborrarà TOTES les teves traduccions personalitzades (un total de {count}). Assegura't d'haver exportat o copiat tot allò volguessis guardar.\n"
             },
             "locales": {
-                "all": ""
+                "all": "Tot"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "No traduït",
+                "all-locales": "Si introdueixes algun text aquí, es mostrarà en tots els idiomes",
+                "hint": "Valor original:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
-                "missing-middle-label": "",
+                "search": "Cercar textos traduïts...",
+                "with-own-translations": "Les meves traduccions",
+                "missing": "Trobar traduccions que falten",
+                "missing-middle-label": "traduccions en",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "Amb",
+                    "without": "Sense"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Original o personalitzada",
+                    "original": "Original",
+                    "own": "Personalitzada"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "Qualsevol de",
+                    "and": "Totes"
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
-                "results": ""
+                "for-extension": "Per a l'extensió",
+                "frontend": "Per a la part visible",
+                "frontend-all-except-admin": "Tothom excepte administradors",
+                "mass-edit": "Edició massiva",
+                "results": "Mostrant traducció coincident {shown} de {total}"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Les noves traduccions encara no s'han aplicat. Nota: esborrar la memòria cache pot alentir el fòrum momentàneament.\n",
+                "button": "Esborrar la memòria cache ara"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "Per idioma",
+                    "namespace": "Per a la part visible"
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Tant per cent",
+                    "count": "Compteig"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Espai de noms",
+                    "total": "Total",
+                    "all-except-admin": "Fòrum i altres elements visibles",
+                    "all-frontends": "Mostrar tots els elements visibles"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "{total} total / {original} originals / {custom} personalitzats"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "Tot",
+                "apply-missing-filter": "Mostrar les traduccions coincidents que falten"
             },
             "export": {
-                "title": "",
-                "warning": "",
-                "locale": "",
-                "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
-                "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "title": "Exportar",
+                "warning": "El format d'exportació utilitza els fitxers de traducció Yaml i està dissenyat per compartir traduccions entre fòrums i amb els responsables dels paquets d'idiomes. El format no està dissenyat per moure totes les traduccions a un fòrum nou. Depenent del teu cas d'ús, podria ser millor copiar la base de dades directament.\n",
+                "locale": "Idioma",
+                "locale-all": "Pseudo-idioma \"Tot\"",
+                "namespace": "Espai de noms",
+                "namespace-all": "Tot",
+                "include-originals": "Incloure les traduccions originals",
+                "include-all": "Incloure les traduccions definides per a \"Tot\" idioma",
+                "output": "Sortida",
+                "output-loading": "Carregant el fitxer de sortida...",
+                "output-empty": "Sortida buida",
+                "download": "Descarregar"
             },
             "import": {
-                "title": "",
-                "input": "",
-                "input-placeholder": "",
-                "locale": "",
-                "locale-all": "",
-                "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "title": "Importar",
+                "input": "Entrada",
+                "input-placeholder": "Arrossegar i deixar anar un fitxer Yaml aquí",
+                "locale": "Idioma",
+                "locale-all": "Pseudo-idioma \"Tot\"",
+                "override-existing": "Sobreescriure les meves traduccions personalitzades",
+                "submit": "Importar",
+                "results": "Importació finalitzada. S'han importat {imported} cadenes de text, i {identical} cadenes idèntiques s'han saltat. La pàgina es refrescarà per mostrar les noves traduccions.\n",
+                "results-with-ignore": "Importació finalitzada. S'han importat {imported} cadenes de text, {ignored} cadenes ja existents s'han ignorat i {identical} cadenes idèntiques s'han saltat. La pàgina es refrescarà per mostrar les noves traduccions.\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Nucli del fòrum",
+                "validation": "Errors de validació"
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
-                "ref": "",
-                "api": ""
+                "forum": "Fòrum",
+                "admin": "Administrador",
+                "lib": "Llibreria (s'utilitza tant al fòrum com a l'administració)",
+                "ref": "Referència (reutilitzat en altres claus)",
+                "api": "API"
             }
         }
     }

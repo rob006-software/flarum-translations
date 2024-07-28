@@ -3,15 +3,15 @@
         "admin": {
             "pusher_settings": {
                 "app_cluster_label": "Cluster",
-                "app_id_label": "App ID",
-                "app_key_label": "App Key",
-                "app_secret_label": "App Secret",
+                "app_id_label": "ID App",
+                "app_key_label": "Chave App",
+                "app_secret_label": "Segredo App",
                 "title": "Configurações do Pusher"
             }
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": "Exibir {count} discussão atualizada|Exibir {count} discussões atualizadas"
+                "show_updates_text": "{count, plural, one {Mostrar # discussão actualizada} other {Mostrar # discussões actualizadas}}"
             }
         }
     }

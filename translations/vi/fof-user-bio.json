@@ -8,13 +8,20 @@
             },
             "setting": {
                 "bioLimit": "Giới hạn kí tự tiểu sử",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "maxLines": "Số dòng tối đa hiển thị cùng một lúc",
+                "allowFormatting": "Cho phép định dạng trong tiểu sử",
+                "allowFormatting_help": "Theo thiết kế, định dạng này là riêng biệt với định dạng bài viết. Nếu các tiện ích BBCode và/hoặc Markdown được kích hoạt, chúng sẽ có sẵn để định dạng tiểu sử. Không cho phép hình ảnh hoặc nhúng. Các tiện ích mở rộng thêm vào trình định dạng Flarum phải rõ ràng thêm hỗ trợ cho trình định dạng tiểu sử."
             }
         },
         "forum": {
             "userbioPlaceholder": "Viết vài điều về bản thân",
-            "userbioPlaceholderOtherUser": "Viết tiểu sử cho {username}"
+            "userbioPlaceholderOtherUser": "Viết tiểu sử cho {username}",
+            "profile": {
+                "cancel_confirm": "Bạn có chắc chắn muốn hủy chỉnh sửa tiểu sử của bạn không? Bạn sẽ mất bất kỳ thay đổi nào đã thực hiện.",
+                "cancel_button": "Hủy bỏ",
+                "save_button": "Lưu lại",
+                "edit_bio_label": "Chỉnh sửa tiểu sử"
+            }
         }
     }
 }

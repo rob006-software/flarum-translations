@@ -94,6 +94,17 @@
             "nickname_change_requests": "暱稱更改申請",
             "username_change_request": "用戶名更改申請",
             "username_change_requests": "用戶名更改申請"
+        },
+        "email": {
+            "body": {
+                "noReasonProvided": "沒有提供理由。",
+                "approved": "您好{recipient_display_name}，\n\n您將使用者名稱變更為「{new_username}」的請求已獲得 {actor_display_name} 的批准。\n\n現在您可以使用新使用者名稱登入：{login_url}\n",
+                "rejected": "您好{recipient_display_name}，\n\n您將使用者名稱從「{old_username}」變更為「{requested_username}」的請求已被{actor_display_name}拒絕。\n\n原因：{reason}\n"
+            },
+            "subject": {
+                "approved": "{display_name} 已核准您將使用者名稱變更為 {requested_username}",
+                "rejected": "{display_name} 拒絕了您將使用者名稱變更為 {requested_username}"
+            }
         }
     }
 }
