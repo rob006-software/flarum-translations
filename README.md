@@ -1189,6 +1189,14 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`xelson-chat`](https://weblate.rob006.net/projects/flarum/xelson-chat) | [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) |
 | [`xrh0905-oauth-microsoft`](https://weblate.rob006.net/projects/flarum/xrh0905-oauth-microsoft) | [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft) |
 | [`xsoft-ict-mason-tag`](https://weblate.rob006.net/projects/flarum/xsoft-ict-mason-tag) | [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag) |
+| [`xypp-forum-quests`](https://weblate.rob006.net/projects/flarum/xypp-forum-quests) | [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests) |
+| [`xypp-pay-to-read`](https://weblate.rob006.net/projects/flarum/xypp-pay-to-read) | [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read) |
+| [`xypp-sticky-card`](https://weblate.rob006.net/projects/flarum/xypp-sticky-card) | [`xypp/sticky-card`](https://github.com/zxy19/flarum-sticky-card) |
+| [`xypp-store`](https://weblate.rob006.net/projects/flarum/xypp-store) | [`xypp/store`](https://github.com/zxy19/store) |
+| [`xypp-store-auto-checkin`](https://weblate.rob006.net/projects/flarum/xypp-store-auto-checkin) | [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin) |
+| [`xypp-store-doorman`](https://weblate.rob006.net/projects/flarum/xypp-store-doorman) | [`xypp/store-doorman`](https://github.com/zxy19/flarum-store-doorman) |
+| [`xypp-store-group`](https://weblate.rob006.net/projects/flarum/xypp-store-group) | [`xypp/store-group`](https://github.com/zxy19/flarum-store-group) |
+| [`xypp-user-decoration`](https://weblate.rob006.net/projects/flarum/xypp-user-decoration) | [`xypp/user-decoration`](https://github.com/zxy19/user-decoration) |
 | [`yippy-auth-ldap`](https://weblate.rob006.net/projects/flarum/yippy-auth-ldap) | [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap) |
 | [`yippy-tag-with-themes`](https://weblate.rob006.net/projects/flarum/yippy-tag-with-themes) | [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes) |
 | [`ziiven-daily-check-in`](https://weblate.rob006.net/projects/flarum/ziiven-daily-check-in) | [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in) |
