@@ -8,15 +8,15 @@
             "update_category": "Perbarui kategori",
             "edit_category": "Edit kategori",
             "nothing_here_yet": "Anda belum membuat badge atau kategori apa pun.",
-            "show_badges_on_user_card": "Tampilkan badge pada user card",
+            "show_badges_on_user_card": "Tampilkan badge pada kartu pengguna",
             "number_of_badges_on_user_card": "Jumlah badge",
-            "number_of_badges_on_user_card_help": "Jumlah badge yang akan ditampilkan pada user card",
+            "number_of_badges_on_user_card_help": "Jumlah badge yang akan ditampilkan pada kartu pengguna",
             "permissions": {
                 "badge_detail_users": "Dapat melihat user di halaman detail badge",
                 "give_badge": "Memberikan badge kepada pengguna",
                 "take_badge": "Mengambil badge dari pengguna",
-                "edit_own_card_badges": "Mengedit user card badge Anda sendiri",
-                "edit_card_badges": "Mengedit user card badge"
+                "edit_own_card_badges": "Mengedit badge kartu pengguna Anda sendiri",
+                "edit_card_badges": "Mengedit badge kartu pengguna"
             },
             "confirm_dialog": {
                 "title": "Konfirmasi",
@@ -46,7 +46,7 @@
                 "description": "Deskripsi kategori",
                 "blockview": "Tampilan blok",
                 "blockview_description": "Menampilkan kategori-badge dalam bentuk tampilan blok pada ikhtisar badge. Jika dinonaktifkan, semua badge akan ditampilkan dalam bentuk tabel.",
-                "enabled": "Diaktifkan",
+                "enabled": "Aktif",
                 "enabled_description": "Mengaktifkan kategori ini. Ketika dinonaktifkan, semua badge akan dinonaktifkan dan kategori akan disembunyikan."
             },
             "auto_moderator": {
@@ -104,9 +104,9 @@
             "badges_in_card": {
                 "title": "Badge di kartu pengguna",
                 "manage_badges": "Kelola badge",
-                "description": "Anda dapat mengubah badge yang terlihat pada user card dengan salah satu badge lainnya. Jika Anda tidak memilih salah satu, maka badge akan dipilih secara otomatis.",
-                "select_limit": "Anda dapat memilih {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}} untuk ditampilkan di user card Anda.",
-                "hit_limit": "Hanya tersedia untuk <b> {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}}</b> di user card Anda. Batalkan pilihan badge untuk memberi ruang bagi badge ini."
+                "description": "Anda dapat mengubah badge yang terlihat pada kartu pengguna dengan salah satu badge lainnya. Jika Anda tidak memilih salah satu, maka badge akan dipilih secara otomatis.",
+                "select_limit": "Anda dapat memilih {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}} untuk ditampilkan di kartu pengguna Anda.",
+                "hit_limit": "Hanya tersedia untuk <b> {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}}</b> di kartu pengguna Anda. Batalkan pilihan badge untuk memberi ruang bagi badge ini."
             },
             "moderation": {
                 "remove_badge": "Hapus badge dari pengguna",

@@ -31,13 +31,13 @@
             "page": {
                 "title": "Doorman",
                 "doorkey": {
-                    "used_times": "{remaining, plural, =0 {Pemakaian tidak terbatas} one {{remaining} Pemakaian tersisa} other {{remaining} Pemakaian tersisa}}",
+                    "used_times": "{remaining, plural, =0 {Penggunaan tanpa batas} one {{remaining} penggunaan tersisa} other {{remaining} penggunaan tersisa}}",
                     "total_uses": "{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}",
                     "title": "Kode Undangan",
                     "help": {
-                        "key": "Kunci: Kode yang akan diketikkan pengguna saat mendaftar.",
-                        "group": "Grup: Grup tempat user akan ditambahkan saat mereka melakukan pendaftaran.",
-                        "max": "Maks Penggunaan: Jumlah maksimum kode yang dapat digunakan, diatur ke 0 untuk penggunaan tak terbatas",
+                        "key": "Key: Kode yang akan dimasukkan oleh pengguna saat melakukan pendaftaran.",
+                        "group": "Grup: Grup yang akan ditambahkan ke pengguna saat mereka melakukan pendaftaran.",
+                        "max": "Maks Penggunaan: Jumlah maksimum penggunaan kode, atur ke 0 untuk penggunaan tanpa batas",
                         "activates": "Aktivasi Pengguna: Secara otomatis mengaktifkan pengguna ketika mereka melakukan pendaftaran."
                     },
                     "warning": "Kode undangan ini telah digunakan berkali-kali.",

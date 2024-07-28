@@ -704,7 +704,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/1.1.4/resources/locale/en.yml',
 	],
 	'fof-terms' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/1.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/1.3.1/resources/locale/en.yml',
 	],
 	'fof-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/1.5.5/resources/locale/en.yml',
@@ -1341,6 +1341,27 @@ return [
 	],
 	'xypp-forum-quests' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v0.1.5/locale/en.yml',
+	],
+	'xypp-pay-to-read' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-pay-to-read/v1.3.5/locale/en.yml',
+	],
+	'xypp-sticky-card' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-sticky-card/v1.0.4/locale/en.yml',
+	],
+	'xypp-store' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/store/v1.1.2/locale/en.yml',
+	],
+	'xypp-store-auto-checkin' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-store-auto-checkin/v1.0.0/locale/en.yml',
+	],
+	'xypp-store-doorman' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-store-doorman/v1.0.2/locale/en.yml',
+	],
+	'xypp-store-group' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-store-group/v1.0.2/locale/en.yml',
+	],
+	'xypp-user-decoration' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/user-decoration/v1.0.11/locale/en.yml',
 	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v0.0.2/locale/en.yml',
