@@ -19,7 +19,7 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Kami tidak dapat menemukan pengguna yang cocok dengan pencarian Anda.",
-                "filter_button": "",
+                "filter_button": "Filter Berdasarkan Group",
                 "usercard": {
                     "discussion-count": "{count, plural, one { {count} diskusi} other {{count} diskusi}}",
                     "post-count": "{count, plural, one { {count} post} other {{count} post}}"
@@ -33,22 +33,22 @@
             "settings": {
                 "link": "Tambahkan link di beranda agar para pengguna dapat melihat direktori",
                 "default-sort": "Pengurutan default",
-                "use-small-cards": "Gunakan user card berukuran kecil",
+                "use-small-cards": "Gunakan model kartu pengguna berukuran kecil",
                 "disable-global-search-source": "Jangan menambahkan Direktori Pengguna ke kolom pencarian global Flarum",
                 "link-group-mentions": "Tautkan sebutan grup dalam postingan ke Direktori Pengguna"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "Gunakan standar Flarum",
+                "not_specified": "Pengaturan default Flarum",
                 "default": "Default",
                 "username_az": "Username (a-z)",
                 "username_za": "Username (z-a)",
                 "newest": "Terbaru",
                 "oldest": "Terlama",
-                "most_posts": "Postingan terbanyak",
+                "most_posts": "Postingan paling banyak",
                 "least_posts": "Postingan paling sedikit",
-                "most_discussions": "Diskusi terbanyak",
+                "most_discussions": "Diskusi paling banyak",
                 "least_discussions": "Diskusi paling sedikit"
             }
         }

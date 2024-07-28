@@ -3,8 +3,8 @@
         "admin": {
             "modals": {
                 "fields": {
-                    "board": "Pilih Trello board",
-                    "trello_label": "Pilih Trello label",
+                    "board": "Pilih board Trello",
+                    "trello_label": "Pilih label Trello",
                     "forum_tags": "Pilih tag Forum yang akan dipetakan"
                 },
                 "no_available_labels_label": "Tidak ada label yang tersedia",
@@ -16,8 +16,8 @@
             "settings": {
                 "api_key_help": "Masukkan API key dari {link} agar ekstensi ini dapat terhubung dengan Trello.",
                 "api_key_label": "API Key",
-                "api_token_help": "Masukkan API token agar ekstensi ini dapat terhubung dengan Trello. Kunjungi {link} dan klik <code>Generate a Token</code>",
-                "api_token_label": "API Token",
+                "api_token_help": "Masukkan token API agar ekstensi ini dapat terhubung dengan Trello. Kunjungi {link} dan klik <code>Generate a Token</code>",
+                "api_token_label": "Token API",
                 "available_boards_label": "Board yang tersedia",
                 "button": {
                     "add": "Tambah",
@@ -36,7 +36,7 @@
                 },
                 "mapping": {
                     "add_new": "Tambahkan pemetaan",
-                    "mapping_description": "",
+                    "mapping_description": "akan menjadi",
                     "modal_title": "Pemetaan tag baru",
                     "no_mappings_for_board": "Tidak ada pemetaan tag aktif yang ditetapkan untuk board ini"
                 },
@@ -78,7 +78,7 @@
             }
         },
         "lib": {
-            "original_post": ""
+            "original_post": "Tulisan asli"
         }
     }
 }

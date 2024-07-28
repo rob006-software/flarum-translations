@@ -2,29 +2,29 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_label": "Thời gian chờ",
+                "backoff_help": "Số giây chờ trước khi thử lại công việc gặp lỗi ngoại lệ chưa được xử lý.\n",
+                "memory_label": "Bộ nhớ",
+                "memory_help": "Giới hạn bộ nhớ tính bằng megabyte.\n",
+                "rest_label": "Nghỉ ngơi",
+                "rest_help": "Số giây nghỉ giữa các công việc.\n",
+                "retries_label": "Số lần thử lại",
+                "retries_help": "Số lần thử lại công việc trước khi ghi nhật ký là thất bại.\n",
+                "timeout_label": "Thời gian chờ",
+                "timeout_help": "Số giây mà một tiến trình con có thể chạy.\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "Tự động làm mới",
+                "heading": "Tổng quan hàng đợi",
+                "refresh": "Tải lại",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "Hàng đợi",
+                    "pending-jobs": "Công việc đang chờ xử lý",
+                    "failed-jobs": "Công việc thất bại",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Trạng thái",
+                        "running": "Đang chạy",
+                        "inactive": "Không hoạt động"
                     }
                 }
             }

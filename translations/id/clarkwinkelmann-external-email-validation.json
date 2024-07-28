@@ -5,18 +5,18 @@
                 "method": "Metode Request",
                 "uri": "URI Request",
                 "uri-help": "Anda dapat memasukkan kode pendek untuk diganti dengan email value, lihat file README.",
-                "body": "",
+                "body": "Request Body",
                 "body-help": "Anda dapat memasukkan kode pendek untuk diganti dengan email value, lihat file README.",
-                "headers": "",
+                "headers": "Request Header",
                 "headers-help": "Satu header per baris",
                 "use-response-status": "Gunakan HTTP response status untuk status validasi",
                 "use-response-status-help": "2xx akan dianggap valid. 4xx akan dianggap tidak valid.",
                 "response-success-key": "Path ke JSON attribute dengan status valid",
-                "response-success-key-help": "Path dalam format <code>key1.key2.key3</code>. Akan diekstrak dengan Laravel <code>Arr::get</code>. Nilai akan diubah menjadi boolean. Hanya berpengaruh jika HTTP status tidak digunakan. Exception akan dilemparkan jika respons JSON tidak valid.\n",
-                "default-error-message": "Pesan kesalahan default",
-                "default-error-message-help": "Pesan ini akan ditampilkan kepada User saat validasi email gagal jika tidak ada pesan lain yang dapat ditemukan. Apabila Anda membutuhkan pesan ini untuk diterjemahkan, biarkan kolom ini kosong dan sesuaikan pesan kesalahan default bawaan dengan Linguist.\n",
+                "response-success-key-help": "Path dalam format <code>key1.key2.key3</code>. Akan diekstrak dengan Laravel <code>Arr::get</code>. Nilai akan diubah menjadi boolean. Hanya berpengaruh jika status HTTP tidak digunakan. Exception akan dilemparkan jika respons JSON tidak valid.\n",
+                "default-error-message": "Pesan error default",
+                "default-error-message-help": "Pesan ini akan ditampilkan kepada pengguna saat validasi email gagal jika tidak ada pesan lain yang dapat ditemukan. Apabila Anda membutuhkan pesan ini untuk diterjemahkan, biarkan kolom ini kosong dan sesuaikan pesan error default bawaan dengan Linguist.\n",
                 "response-error-key": "Path to JSON attribute dengan pesan error",
-                "response-error-key-help": "Path dalam format <code>key1.key2.key3</code>. Akan diekstrak dengan Laravel <code>Arr::get</code> helper. Pesan kesalahan default akan ditampilkan jika kunci ini tidak ditemukan.\n"
+                "response-error-key-help": "Path dalam format <code>key1.key2.key3</code>. Akan diekstrak dengan Laravel <code>Arr::get</code> helper. Pesan error default akan ditampilkan jika key ini tidak ditemukan.\n"
             }
         },
         "api": {
