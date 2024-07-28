@@ -1102,6 +1102,9 @@ return [
 	'mattoid-store' => [
 		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-store/1.1.0/locale/en.yml',
 	],
+	'mattoid-store-auto-check-in' => [
+		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-store-auto-check-in/1.0.0/locale/en.yml',
+	],
 	'mattoid-store-check-in' => [
 		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-store-check-in/1.0.0/locale/en.yml',
 	],
