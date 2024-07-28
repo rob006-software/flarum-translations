@@ -5,10 +5,10 @@
             "showFlagsOnPosts": "Tampilkan Bendera pada Postingan",
             "showFlagsOnPosts_text": "Tampilkan Bendera (Teks) pada Postingan",
             "set_on_registration_label": "Mengizinkan pengaturan negara saat pendaftaran",
-            "required_label": "Wajib memasukkan negara",
-            "required_help": "Anda harus mengaktifkan opsi Setel di negara agar opsi ini berfungsi",
-            "bind_label": "",
-            "bind_help": ""
+            "required_label": "Negara atau wilayah harus dipilih",
+            "required_help": "Agar opsi ini berfungsi, Anda perlu mengaktifkan opsi “Setel negara”",
+            "bind_label": "Ikat negara atau wilayah harus dipilih",
+            "bind_help": "Memaksa pengguna yang tidak terikat pada suatu wilayah untuk memilih negara atau wilayah setelah masuk"
         },
         "forum": {
             "inputCountryCode": "Kode Negara",
@@ -16,8 +16,8 @@
             "clickToSelectCountry": "Pilih negara Anda",
             "countrySaved": "Negara berhasil disimpan!",
             "field_placeholder": "Konfirmasi Bendera Negara",
-            "binding_country": "",
-            "binding_country_click": ""
+            "binding_country": "Kami menemukan bahwa Anda belum mencantumkan lokasi Anda. Harap cantumkan negara Anda terlebih dahulu. Anda hanya dapat mengirim dan meninggalkan pesan setelah mencantumkan negara Anda.",
+            "binding_country_click": "Klik Sekarang"
         }
     }
 }

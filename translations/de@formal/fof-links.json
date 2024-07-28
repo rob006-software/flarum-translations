@@ -2,39 +2,39 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "",
-                "delete_link_confirmation": "",
-                "everyone-label": "",
-                "guests-label": "",
-                "internal_link": "",
-                "members-label": "",
-                "open_newtab": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "icon_label": "",
-                "icon_text": "",
-                "icon_additional_text": "",
-                "url_description": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "use_rel_me": "",
-                "visibility": ""
+                "delete_link_button": "Link löschen",
+                "delete_link_confirmation": "Sind Sie sicher, dass Sie diesen Link löschen möchten?",
+                "everyone-label": "Jeder",
+                "guests-label": "Gäste",
+                "internal_link": "Ist dies ein interner Link?",
+                "members-label": "Registrierte Benutzer",
+                "open_newtab": "Link in neuem Tab öffnen",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-links.ref.create_link",
+                "title_label": "=> fof-links.ref.title",
+                "title_placeholder": "=> fof-links.ref.title",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "icon_additional_text": "Wenn Sie ein Markensymbole verwenden möchten, lautet der Präfix stattdessen  <code>fab-fa-</code>.",
+                "url_description": "Zum Anzeigen als Label leer lassen.",
+                "url_label": "=> fof-links.ref.url",
+                "url_placeholder": "=> fof-links.ref.url",
+                "use_rel_me": "Fügt den Attribut <code>rel=\"me\"</code> zur Überprüfung der Identität auf anderen Websites hinzu",
+                "visibility": "Link Sichtbarkeit"
             },
             "links": {
-                "create_button": "",
-                "links": ""
+                "create_button": "=> fof-links.ref.create_link",
+                "links": "=> fof-links.ref.links"
             },
             "settings": {
-                "show_icons_only_on_tablet": ""
+                "show_icons_only_on_tablet": "Icons nur auf Tablet-Bildschirmen anzeigen"
             }
         },
         "ref": {
-            "create_link": "",
-            "links": "",
-            "title": "",
-            "url": ""
+            "create_link": "Link erstellen",
+            "links": "Links",
+            "title": "Titel",
+            "url": "URL"
         }
     }
 }

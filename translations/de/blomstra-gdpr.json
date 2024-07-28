@@ -87,28 +87,28 @@
                 }
             },
             "request_data": {
-                "title": "",
+                "title": "Daten für {username} anfordern",
                 "text": "Ein ZIP-Archiv wird für dich vorbereitet. Du erhältst eine Benachrichtigung, mit einem Downloadlink, sobald die Datei fertiggestellt ist. Der Link bleibt für einen Tag gültig.\n",
-                "request_button": ""
+                "request_button": "Archiv anfordern"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
+                "subject": "Bestätige die Anfrage zur Löschung deines Kontos",
                 "body": ""
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Kontolöschung abgeschlossen",
+                    "body": "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
                 },
                 "anonymization": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Anonymisierung des Kontos abgeschlossen",
+                    "body": "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich anonymisiert wurde.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
+                "subject": "Antrag zur Kontolöschung abgebrochen",
                 "body": ""
             },
             "export_available": {
@@ -118,53 +118,53 @@
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Anonymisierter Benutzer"
             },
             "delete_user": {
-                "title": "",
-                "text": "",
+                "title": "{username}s Konto löschen",
+                "text": "Bist du sicher das du {username}s Konto löschen möchteat?\n\nDieser Vorgang kann nicht rückgängig gemacht werden.\n",
                 "modal_delete_button": "",
-                "delete_button": ""
+                "delete_button": "Benutzer löschen"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Keine ausstehenden Anträge auf Kontolöschung",
+                "item_text": "{name} hat die Löschung seines Kontos beantragt",
+                "tooltip": "Anträge auf Kontolöschung",
+                "title": "Anträge auf Kontolöschung"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Du hast deinen Antrag auf Löschung deines Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.",
             "settings": {
                 "data": {
                     "heading": "Personenbezogene Daten"
                 },
                 "export_data_button": "Daten exportieren",
-                "export_data_help": "",
+                "export_data_help": "Wenn du den Datenexport anforderst, erhältst du eine herunterladbare Kopie aller mit deinem Konto verbundenen Informationen. Dazu gehören Beiträge, Kommentare und Profilangaben.",
                 "request_erasure_button": "Konto löschen",
-                "request_erasure_help": ""
+                "request_erasure_help": "Wenn du die Löschung beantragst, werden dein Konto und alle damit verbundenen Daten endgültig gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden. Vergewissere dich, bevor du fortfährst, dass du alle Inhalte, die du behalten möchtest, gespeichert hast."
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
+                "confirm": "Bist du sicher, dass du das Konto von {name} unter dem {mode}-Modus löschen möchtest?",
+                "title": "Löschantrag bearbeiten",
+                "text": "{name} hat die Löschung seines Kontos beantragt.",
                 "comments_label": "Kommentare (optional)",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "anonymization_button": "Benutzer anonymisieren",
+                "deletion_button": "Benutzer löschen"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Kontolöschung beantragen",
+                "reason": "Du gibst die folgende Begründung an: {reason}",
                 "status": {
                     "awaiting_user_confirmation": "Du solltest eine E-Mail zur Bestätigung deiner Löschanfrage erhalten haben.\n",
-                    "user_confirmed": ""
+                    "user_confirmed": "Du hast deinen Antrag zur Löschung deines Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.\n"
                 },
-                "text": "",
+                "text": "Nach Erhalt und Bestätigung wird ein Administrator deine Anfrage innerhalb von 30 Tagen prüfen, wie in der DSGVO vorgeschrieben.",
                 "password_label": "Passwort bestätigen",
                 "reason_label": "Begründung (optional)",
-                "cancel_button": "",
-                "request_button": ""
+                "cancel_button": "Anfrage abbrechen",
+                "request_button": "Löschung beantragen"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "Dein Datenexport für {username} ist bereit zum Download."
             },
             "export_file": ""
         }

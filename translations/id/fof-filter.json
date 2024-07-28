@@ -7,11 +7,11 @@
         "admin": {
             "title": "Filter",
             "bad_words_help": "Masukkan teks atau kata yang akan difilter, masing-masing satu per baris. Jika konten yang dikirim pengguna mengandung string yang ingin Anda filter, maka akan ditandai untuk disetujui. Tahan terhadap 133t.",
-            "help2": "Interval dalam menit di mana post dari user yang sama dalam diskusi yang sama akan digabungkan secara otomatis.",
+            "help2": "Interval dalam menit di mana postingan dari pengguna yang sama dalam diskusi yang sama akan digabungkan secara otomatis.",
             "email_help": "Isi pesan email yang ditandai. Menerima html atau plaintext.",
             "filter_label": "String untuk memfilter",
             "countLabel": "Toleransi Sensor",
-            "cooldownLabel": "Gabungkan Post Cooldown",
+            "cooldownLabel": "Penundaan Penggabungan Post",
             "auto_merge_title": "Penggabungan otomatis",
             "input": {
                 "placeholder": "String yang akan difilter",

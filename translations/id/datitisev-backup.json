@@ -19,8 +19,8 @@
             "settings_button": "Mengkonfigurasi",
             "delete_button": "Hapus",
             "delete_confirmation": "Apakah Anda yakin ingin menghapus “{name}” ({adapter})?",
-            "create_button": "",
-            "required_package_button": "",
+            "create_button": "Tambah adapter baru",
+            "required_package_button": "Menyiapkan",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
                 "azure": "league/flysystem-azure",
@@ -40,7 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Mengkonfigurasi {adapter}",
-                "name_label": "",
+                "name_label": "Nama Lokasi",
                 "local": {
                     "target": {
                         "label": "Target path",
@@ -81,16 +81,16 @@
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Key",
+                        "description": "AWS credentials key"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Secret",
+                        "description": "AWS credentials secret"
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "Letak geografis",
+                        "description": "Letak geografis bucket Anda."
                     },
                     "version": {
                         "label": "Versi",
@@ -136,12 +136,12 @@
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "ID Client",
+                        "description": "Ikuti petunjuk di @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md untuk membuat Google project dan mengambil ID Client & Client Secret Anda.\n"
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Client Secret",
+                        "description": " "
                     },
                     "refresh-token": {
                         "label": "Refresh Token",
@@ -152,8 +152,8 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
-                        "test_button": ""
+                        "test_success_alert": "Berhasil terhubung ke Google Drive! Simpan perubahan untuk menyimpan pengaturan.",
+                        "test_button": "Tes koneksi"
                     },
                     "client": {
                         "id": {
@@ -201,7 +201,7 @@
                 }
             },
             "nav": {
-                "label": "Backup",
+                "label": "Pencadangan",
                 "description": "Menyimpan salinan forum Anda."
             }
         }

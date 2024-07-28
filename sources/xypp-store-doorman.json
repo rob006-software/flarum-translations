@@ -1,0 +1,26 @@
+{
+    "xypp-store-doorman": {
+        "forum": {
+            "key-not-found": "Key not found",
+            "key": "Invite key",
+            "create": {
+                "select": "Select Data",
+                "count": "Times to use",
+                "group": "Group after registration",
+                "activate": "Auto Activate",
+                "submit": "Confirm",
+                "title": "Select Data"
+            },
+            "send": {
+                "title": "Send Invite Email",
+                "cancel": "Cancel",
+                "submit": "Send",
+                "email": "Email",
+                "url": "Invite URL",
+                "failed": "Failed to send email"
+            },
+            "showcase": "Can invite {count} times, {group} group after registration, auto activate: {activate}",
+            "has_used": "Has used {count} times"
+        }
+    }
+}
