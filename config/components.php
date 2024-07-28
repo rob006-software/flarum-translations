@@ -727,6 +727,9 @@ return [
 	'foskym-issue-tracking' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-issue-tracking/v0.4.2/locale/en.yml',
 	],
+	'foskym-issue-tracking-youtrack' => [
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-issue-tracking-youtrack/v0.4.1/locale/en.yml',
+	],
 	'foskym-nickname-group-formatter' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-nickname-group-formatter/v1.0.6/resources/locale/en.yml',
 	],
