@@ -1,0 +1,98 @@
+{
+    "xypp-user-decoration": {
+        "forum": {
+            "decoration-no-available": "No decorations available",
+            "decorations": "Decorations",
+            "decoration-box": {
+                "error": "Unknown Type",
+                "avatar": "Avatar Style",
+                "name": "Username Style",
+                "post": "Post Style",
+                "card": "User Card Style",
+                "loading": "Loading",
+                "closed": "Closed",
+                "no-login": "Login to preview"
+            },
+            "decoration": {
+                "delete_button": "Delete",
+                "remove_button": "Remove",
+                "change_button": "Change",
+                "delete_confirm": "Sure to delete this decoration?"
+            },
+            "page": {
+                "show-decorations": "Decorations"
+            },
+            "modal": {
+                "title": "Offer Decoration",
+                "tip": "Please select a decoration",
+                "loading": "Loading",
+                "button": "Offer"
+            },
+            "create": "Create",
+            "create-success": "Successfully created decoration",
+            "create-modal": {
+                "edit-title": "Edit Decoration#{0}",
+                "edit-button": "Edit",
+                "title": "Create Decoration",
+                "type": {
+                    "title": "Type",
+                    "avatar": "Avatar",
+                    "username": "Username",
+                    "post": "Post",
+                    "usercard": "UserCard"
+                },
+                "name": "name",
+                "desc": "Description",
+                "style": "Style Sheet",
+                "tip": "Use .base selector to select the target, .element-xxx to add new element",
+                "button": "Create",
+                "delete-button": "Delete"
+            },
+            "delete_confirm": "Are you sure to delete this decoration?",
+            "delete-success": "Delete Success",
+            "user_controls": {
+                "offer": "Offer decoration"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_decoration": "View other's decoration",
+                "delete_decoration": "Delete other's decoration",
+                "offer_decoration": "Offer decoration",
+                "create_decoration": "Create/Edit decoration",
+                "view-all": "View all decoration"
+            },
+            "settings": {
+                "username_hijack": {
+                    "title": "Username Hijack",
+                    "desc": "This plugin will try to hijack the username method of the user model and insert some identity information to recognize the user. If some other plugin has crashed due to the hijack, you can disable this function to solve the problem."
+                },
+                "avatar_hijack": {
+                    "title": "Avatar Hijack",
+                    "desc": "This plugin will try to hijack the avatar method of the user model and insert some identity information to recognize the user. If some other plugin has crashed due to the hijack, you can disable this function to solve the problem."
+                },
+                "view-all": {
+                    "title": "View All",
+                    "desc": "Is view-all promission enabled?"
+                }
+            }
+        }
+    },
+    "xypp-store": {
+        "forum": {
+            "type": {
+                "decoration": "Decoration"
+            },
+            "unavailable": {
+                "decoration": {
+                    "dumplicate": "Has Own"
+                }
+            },
+            "create-modal": {
+                "providers": {
+                    "decoration": "Decoration"
+                }
+            }
+        }
+    }
+}

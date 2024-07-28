@@ -1,0 +1,42 @@
+{
+    "xypp-pay-to-read": {
+        "admin": {
+            "settings": {
+                "max-stack": {
+                    "label": "",
+                    "desc": ""
+                }
+            },
+            "permission": {
+                "bypass": ""
+            }
+        },
+        "forum": {
+            "nopaidTip": "",
+            "haspaidTip": "",
+            "paymentTip": "",
+            "paymentTipMail": "",
+            "payment-notfound": "",
+            "payment-req": {
+                "text": "",
+                "btn": ""
+            },
+            "payment": {
+                "title": "",
+                "tip": "",
+                "btn": "",
+                "loading": ""
+            },
+            "error": {
+                "paid": "",
+                "missing": "",
+                "no_enough_money": "",
+                "internal_err": ""
+            },
+            "editor": {
+                "help": "",
+                "label": ""
+            }
+        }
+    }
+}
