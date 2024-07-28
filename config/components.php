@@ -1348,6 +1348,9 @@ return [
 	'xypp-store' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/store/v1.1.2/locale/en.yml',
 	],
+	'xypp-store-auto-checkin' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-store-auto-checkin/v1.0.0/locale/en.yml',
+	],
 	'xypp-store-group' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-store-group/v1.0.2/locale/en.yml',
 	],
