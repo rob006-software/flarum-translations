@@ -166,16 +166,19 @@ return [
 	'vi' => getComponents([
 		// translations included in extension
 		'!litalino-adblock',
+		'!litalino-auto-post-count-badge',
 		'!litalino-blog-article-series',
 		'!litalino-country-flags',
 		'!litalino-geo-weather-widget',
 		'!litalino-more-bbcode',
+		'!litalino-related-discussions',
 		'!xelson-chat',
 	]),
 	'zh_Hans' => getComponents([
 		// translations included in extension
 		'!dalez-msemoji',
 		'!dalez-twemoji',
+		'!ffans-geetest',
 		'!gbcl-userip',
 		'!huoxin-auto-follow-discussion',
 		'!imdong-spam-alert',

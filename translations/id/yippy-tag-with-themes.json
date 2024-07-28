@@ -2,60 +2,60 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": ""
+                "design_default": "Layout Desain Diskusi"
             },
             "helps": {
-                "design_default": ""
+                "design_default": "Pilih layout desain default"
             },
             "options": {
                 "design_options": {
-                    "sticky_note": "",
-                    "sticky_note_tag": "",
-                    "sticky_note_tab": "",
-                    "sticky_note_banner": "",
-                    "sticky_note_outline": "",
-                    "sticky_note_outline_tag": "",
-                    "sticky_note_outline_tab": "",
-                    "sticky_note_outline_banner": "",
-                    "basic": "",
-                    "basic_tag": "",
-                    "basic_tab": "",
-                    "basic_banner": "",
-                    "basic_outline": "",
-                    "basic_outline_tag": "",
-                    "basic_outline_tab": "",
-                    "basic_outline_banner": "",
-                    "flat": "",
-                    "flat_tag": "",
-                    "flat_tab": "",
-                    "flat_banner": "",
-                    "flat_border": "",
-                    "flat_border_tag": "",
-                    "flat_border_tab": "",
-                    "flat_border_banner": ""
+                    "sticky_note": "Sticky Note",
+                    "sticky_note_tag": "Sticky Note (Tag Primer)",
+                    "sticky_note_tab": "Sticky Note (Tab Primer)",
+                    "sticky_note_banner": "Sticky Note (Banner Utama)",
+                    "sticky_note_outline": "Sticky Note - Bergaris",
+                    "sticky_note_outline_tag": "Sticky Note - Bergaris (Tag Primer)",
+                    "sticky_note_outline_tab": "Sticky Note - Bergaris (Tab Primer)",
+                    "sticky_note_outline_banner": "Sticky Note - Bergaris (Banner Utama)",
+                    "basic": "Basic",
+                    "basic_tag": "Basic (Tag Primer)",
+                    "basic_tab": "Basic (Tab Primer)",
+                    "basic_banner": "Basic (Banner Utama)",
+                    "basic_outline": "Basic Outline",
+                    "basic_outline_tag": "Basic Outline (Tag Primer)",
+                    "basic_outline_tab": "Basic Outline (Tab Primer)",
+                    "basic_outline_banner": "Basic Outline (Banner Utama)",
+                    "flat": "Flat",
+                    "flat_tag": "Flat (Tag Primer)",
+                    "flat_tab": "Flat (Tab Primer)",
+                    "flat_banner": "Flat (Banner Utama)",
+                    "flat_border": "Flat Border",
+                    "flat_border_tag": "Flat Border (Tag Primer)",
+                    "flat_border_tab": "Flat Border (Tab Primer)",
+                    "flat_border_banner": "Flat Border (Banner Utama)"
                 }
             },
             "designs": {
-                "title": "",
-                "description": "",
-                "add": "",
-                "banner": "",
+                "title": "Tema Desain Khusus untuk Tag",
+                "description": "Menyediakan daftar aturan untuk menampilkan tema yang berbeda untuk tag tertentu",
+                "add": "Tambahkan Desain untuk Tag",
+                "banner": "Tema Desain {index}",
                 "header": {
-                    "theme": "",
-                    "color_theme": ""
+                    "theme": "Tema Khusus",
+                    "color_theme": "Sesuaikan Skema Warna Default"
                 },
                 "data": {
-                    "themeName": "",
-                    "tags": "",
-                    "tags_help": "",
-                    "primary_background_color": "",
-                    "primary_font_class": "",
-                    "child_background_color": "",
-                    "child_font_class": "",
-                    "outline_background_color": "",
-                    "secondary_font_class": "",
-                    "unread_color": "",
-                    "is_enabled": ""
+                    "themeName": "Pilih Tema",
+                    "tags": "Tag Primer Yang Dipilih",
+                    "tags_help": "Pilih satu atau lebih tag untuk tema desain khusus ini",
+                    "primary_background_color": "Warna Background Utama",
+                    "primary_font_class": "Font Utama",
+                    "child_background_color": "Warna Background Anak",
+                    "child_font_class": "Font anak",
+                    "outline_background_color": "Warna Garis",
+                    "secondary_font_class": "Font Sekunder",
+                    "unread_color": "Warna Background Yang Belum Dibaca",
+                    "is_enabled": "Aktifkan Tema Desain"
                 }
             }
         }

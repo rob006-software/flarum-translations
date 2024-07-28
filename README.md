@@ -1006,6 +1006,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`dem13n-topic-starter-label`](https://weblate.rob006.net/projects/flarum/dem13n-topic-starter-label) | [`dem13n/topic-starter-label`](https://github.com/Dem13n/topic-starter-label) |
 | [`extiverse-mercury`](https://weblate.rob006.net/projects/flarum/extiverse-mercury) | [`extiverse/mercury`](https://github.com/extiverse/mercury) |
 | [`ffans-clipboardjs`](https://weblate.rob006.net/projects/flarum/ffans-clipboardjs) | [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs) |
+| [`ffans-geetest`](https://weblate.rob006.net/projects/flarum/ffans-geetest) | [`ffans/geetest`](https://github.com/FFans/geetest) |
 | [`flamarkt-backoffice`](https://weblate.rob006.net/projects/flarum/flamarkt-backoffice) | [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice) |
 | [`flamarkt-matomo`](https://weblate.rob006.net/projects/flarum/flamarkt-matomo) | [`flamarkt/matomo`](https://github.com/flamarkt/matomo) |
 | [`flamarkt-taxonomies`](https://weblate.rob006.net/projects/flarum/flamarkt-taxonomies) | [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies) |
@@ -1095,10 +1096,12 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`kyrne-websocket`](https://weblate.rob006.net/projects/flarum/kyrne-websocket) | [`kyrne/websocket`](https://github.com/KyrneDev/websocket) |
 | [`kyrne-whisper`](https://weblate.rob006.net/projects/flarum/kyrne-whisper) | [`kyrne/whisper`](https://github.com/KyrneDev/whisper) |
 | [`litalino-adblock`](https://weblate.rob006.net/projects/flarum/litalino-adblock) | [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock) |
+| [`litalino-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/litalino-auto-post-count-badge) | [`litalino/flarum-auto-post-count-badge`](https://github.com/Litalino/flarum-auto-post-count-badge) |
 | [`litalino-blog-article-series`](https://weblate.rob006.net/projects/flarum/litalino-blog-article-series) | [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series) |
 | [`litalino-country-flags`](https://weblate.rob006.net/projects/flarum/litalino-country-flags) | [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags) |
 | [`litalino-geo-weather-widget`](https://weblate.rob006.net/projects/flarum/litalino-geo-weather-widget) | [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget) |
 | [`litalino-more-bbcode`](https://weblate.rob006.net/projects/flarum/litalino-more-bbcode) | [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode) |
+| [`litalino-related-discussions`](https://weblate.rob006.net/projects/flarum/litalino-related-discussions) | [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions) |
 | [`litalino-top-bar`](https://weblate.rob006.net/projects/flarum/litalino-top-bar) | [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar) |
 | [`littlecxm-reply-to-see`](https://weblate.rob006.net/projects/flarum/littlecxm-reply-to-see) | [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see) |
 | [`madeyedeer-avatar-tools`](https://weblate.rob006.net/projects/flarum/madeyedeer-avatar-tools) | [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools) |
@@ -1136,6 +1139,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`nearata-tags-color-generator`](https://weblate.rob006.net/projects/flarum/nearata-tags-color-generator) | [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator) |
 | [`nearata-twofactor`](https://weblate.rob006.net/projects/flarum/nearata-twofactor) | [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor) |
 | [`nodeloc-lottery`](https://weblate.rob006.net/projects/flarum/nodeloc-lottery) | [`nodeloc/lottery`](https://github.com/nodeloc/lottery) |
+| [`nodeloc-telegram`](https://weblate.rob006.net/projects/flarum/nodeloc-telegram) | [`nodeloc/telegram`](https://github.com/nodeloc/telegram) |
 | [`nomiscz-auth-steam`](https://weblate.rob006.net/projects/flarum/nomiscz-auth-steam) | [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam) |
 | [`nomiscz-auth-wechat`](https://weblate.rob006.net/projects/flarum/nomiscz-auth-wechat) | [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat) |
 | [`nosun-reply-to-see`](https://weblate.rob006.net/projects/flarum/nosun-reply-to-see) | [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see) |
