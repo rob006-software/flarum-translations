@@ -1339,6 +1339,9 @@ return [
 	'xsoft-ict-mason-tag' => [
 		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',
 	],
+	'xypp-pay-to-read' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-pay-to-read/v1.3.5/locale/en.yml',
+	],
 	'xypp-sticky-card' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-sticky-card/v1.0.4/locale/en.yml',
 	],
