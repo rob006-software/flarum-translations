@@ -1,26 +1,26 @@
 {
     "xypp-store-doorman": {
         "forum": {
-            "key-not-found": "",
-            "key": "",
+            "key-not-found": "Kunci tidak ditemukan",
+            "key": "Kunci undangan",
             "create": {
-                "select": "",
-                "count": "",
-                "group": "",
-                "activate": "",
-                "submit": "",
-                "title": ""
+                "select": "Pilih Data",
+                "count": "Waktu penggunaan",
+                "group": "Grup setelah pendaftaran",
+                "activate": "Aktifkan Otomatis",
+                "submit": "Konfirmasi",
+                "title": "Pilih Data"
             },
             "send": {
-                "title": "",
-                "cancel": "",
-                "submit": "",
-                "email": "",
-                "url": "",
-                "failed": ""
+                "title": "Kirim Email Undangan",
+                "cancel": "Batal",
+                "submit": "Kirim",
+                "email": "Email",
+                "url": "URL undangan",
+                "failed": "Gagal mengirim email"
             },
-            "showcase": "",
-            "has_used": ""
+            "showcase": "Dapat mengundang {count} kali, grup {group} setelah pendaftaran, aktifkan otomatis: {activate}",
+            "has_used": "Telah digunakan {count} kali"
         }
     }
 }
