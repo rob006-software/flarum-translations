@@ -8,147 +8,147 @@
             },
             "album-list": {
                 "title": "=> kilowhat-cimaise.ref.albums",
-                "new": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "new": "创建新的相册",
+                "empty": "无相册",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "picture-list": {
-                "title": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "全部图片",
+                "empty": "无图片",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
-                "loading": "",
-                "personal": "",
-                "community": "",
-                "discussion": ""
+                "upload": "上传图片",
+                "empty": "无图片",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "由 <a>{username}</a> 创建的个人相册",
+                "community": "社区相册",
+                "discussion": "前往讨论"
             },
             "picture-show": {
-                "loading": "",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
-                "download-cropped": "",
-                "download-original": "",
-                "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "回到相册",
+                "download": "下载",
+                "previous": "上一张图片",
+                "next": "下一张图片",
+                "download-cropped": "已裁剪 {size}",
+                "download-original": "下载原始图像",
+                "show-exif": "全部 EXIF 数据",
+                "taken-at": "已上传 {ago}",
+                "published-at": "已发布 {ago}"
             },
             "upload-modal": {
-                "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
-                "drop-file": "",
-                "publishSilently": "",
-                "submit": "",
-                "submitInComposer": "",
-                "reload": ""
+                "title": "在相册“{title}”中上传图片",
+                "titleInComposer": "编辑图片",
+                "uploading": "上传中",
+                "processing": "处理中",
+                "select-file": "选择文件",
+                "drop-file": "或者拖放到此处",
+                "publishSilently": "静默发布",
+                "submit": "提交",
+                "submitInComposer": "继续",
+                "reload": "重新加载草稿列表"
             },
             "new-album-modal": {
-                "title": ""
+                "title": "新相册"
             },
             "edit-album-modal": {
-                "title": ""
+                "title": "编辑相册“{title}”"
             },
             "attach-album-modal": {
-                "title": "",
-                "selected": "",
-                "none-selected": "",
-                "search": "",
-                "no-results": "",
-                "select": "",
-                "unselect": "",
-                "submit": ""
+                "title": "将相册附加到“{title}”",
+                "selected": "已选择：",
+                "none-selected": "无",
+                "search": "搜索",
+                "no-results": "无结果",
+                "select": "选择",
+                "unselect": "取消选择",
+                "submit": "提交"
             },
             "edit-album": {
-                "title": "",
-                "description": "",
-                "isCommunity": "",
-                "create": "",
-                "save": ""
+                "title": "标题",
+                "description": "描述",
+                "isCommunity": "社区相册（每个人都可以上传）",
+                "create": "创建相册",
+                "save": "保存相册"
             },
             "edit-picture": {
-                "title": "",
-                "description": ""
+                "title": "标题",
+                "description": "描述"
             },
             "album-thumbnail": {
-                "controls": "",
-                "edit": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "by-user": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "edit": "编辑",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "确定要删除相册“{title}”吗？",
+                "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
-                "by-user": "",
-                "in-album": ""
+                "by-user": "=> kilowhat-cimaise.ref.by-user",
+                "in-album": "在"
             },
             "picture-controls": {
-                "controls": "",
-                "editor": "",
-                "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "editor": "编辑、裁剪和蒙版",
+                "approve": "通过",
+                "remove-favorite": "移除收藏",
+                "set-favorite": "添加到收藏",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "删除图片“{title}”？"
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
-                "author": ""
+                "title": "点击添加标题",
+                "description": "点击添加描述",
+                "author": "点击添加作者"
             },
             "badge": {
-                "hidden": "",
-                "awaiting-approval": "",
-                "favorite": ""
+                "hidden": "隐藏",
+                "awaiting-approval": "等待通过中",
+                "favorite": "收藏"
             },
             "picture-sort": {
-                "latest": "",
-                "oldest": "",
-                "latestTake": "",
-                "oldestTake": ""
+                "latest": "最新上传",
+                "oldest": "最早上传",
+                "latestTake": "最新拍摄",
+                "oldestTake": "最早拍摄"
             },
             "album-search": {
-                "title": ""
+                "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
-                "uploaded": ""
+                "uploaded": "{username} 已上传 {count} 张图片"
             },
             "discussion-controls": {
-                "attach-album": ""
+                "attach-album": "附加或分离相册"
             },
             "license-label": {
-                "not-specified": "",
-                "not-specified-help": ""
+                "not-specified": "未指定",
+                "not-specified-help": "检查网站使用条款以了解默认版权"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "viewExif": "",
-                "createPersonalAlbums": "",
-                "createCommunityAlbums": "",
-                "editOwnAlbum": "",
-                "hideOwnAlbum": "",
-                "uploadPictures": "",
-                "uploadPersonalPicturesWithoutApproval": "",
-                "uploadCommunityPicturesWithoutApproval": "",
-                "editOwnImage": "",
-                "editOwnPublishedImage": "",
-                "licenseOwnPublishedPicture": "",
-                "renameOwnPublishedPicture": "",
-                "hideOwnPicture": "",
-                "publishSilently": "",
+                "view": "查看",
+                "viewExif": "查看 EXIF 数据（包括地理位置）",
+                "createPersonalAlbums": "创建个人相册",
+                "createCommunityAlbums": "创建社区相册",
+                "editOwnAlbum": "修改自己相册的标题和描述",
+                "hideOwnAlbum": "隐藏自己的相册",
+                "uploadPictures": "上传图片",
+                "uploadPersonalPicturesWithoutApproval": "在私人相册中上传无需审核的图片",
+                "uploadCommunityPicturesWithoutApproval": "在社区相册中上传无需审核的图片",
+                "editOwnImage": "在自己的图片上使用图片编辑器（裁剪、蒙版和贴画）",
+                "editOwnPublishedImage": "在发布后使用图像编辑器编辑自己的图片",
+                "licenseOwnPublishedPicture": "在发布后更改自己的图片许可",
+                "renameOwnPublishedPicture": "在发布后可更改自己的图片的标题和描述",
+                "hideOwnPicture": "隐藏自己的图片",
+                "publishSilently": "悄悄发布图片（不包括活动帖子）",
                 "attachCimaiseAlbum": "",
                 "moderate": ""
             },
