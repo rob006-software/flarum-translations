@@ -1291,6 +1291,9 @@ return [
 	'the-turk-stickiest' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stickiest/3.0.1/locale/en.yml',
 	],
+	'thefunpower-api-login' => [
+		'tag' => 'https://raw.githubusercontent.com/thefunpower/flarum-ext-api-login/v1.0.0/locale/en.yml',
+	],
 	'therealsujitk-gifs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v4.1.1/resources/locale/en.yml',
 	],
