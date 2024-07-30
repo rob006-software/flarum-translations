@@ -16,7 +16,7 @@
             "reward": {
                 "reward": "",
                 "format": "",
-                "and": ""
+                "and": " dan "
             },
             "quest": {
                 "quest": "",
@@ -31,26 +31,26 @@
             "condition_view": {
                 "button": "",
                 "title": "",
-                "name": "",
+                "name": "Nama",
                 "value": "",
                 "span": "",
                 "set_span": ""
             },
             "quest_done": {
-                "all": "",
+                "all": "Semua",
                 "true": "",
                 "false": ""
             }
         },
         "admin": {
-            "settings": "",
-            "timezone": "",
-            "allow_update": "",
-            "data": "",
+            "settings": "Pengaturan",
+            "timezone": "Zona waktu",
+            "allow_update": "Izinkan pengguna memperbarui secara manual",
+            "data": "Data",
             "table": {
-                "id": "",
-                "name": "",
-                "description": "",
+                "id": "#",
+                "name": "Nama",
+                "description": "Deskripsi",
                 "operation": "",
                 "load_more": "",
                 "remove_confirm": "",
@@ -59,9 +59,9 @@
             "create-modal": {
                 "title": "",
                 "edit": "",
-                "name": "",
-                "description": "",
-                "icon": "",
+                "name": "Nama",
+                "description": "Deskripsi",
+                "icon": "Ikon",
                 "hidden": "",
                 "condition": "",
                 "reward": "",
@@ -86,8 +86,8 @@
             }
         },
         "api": {
-            "condition_not_allow_frontend": "",
-            "no_manual_update": "",
+            "condition_not_allow_frontend": "Kondisi tidak dapat dipicu di frontend",
+            "no_manual_update": "Tidak perlu pembaruan manual",
             "manual_condition_cannot_hidden": ""
         }
     }
