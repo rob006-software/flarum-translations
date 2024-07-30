@@ -2,13 +2,13 @@
     "mattoid-store-auto-check-in": {
         "admin": {
             "settings": {
-                "group-view": ""
+                "group-view": "Tampilkan produk ke pengguna"
             }
         },
         "forum": {
-            "title": "",
+            "title": "Kartu Check-In Otomatis",
             "error": {
-                "auto-check-in-fail": ""
+                "auto-check-in-fail": "Check-in otomatis pengguna [{username}] gagal dengan alasan: {message}"
             }
         }
     }
