@@ -1,41 +1,41 @@
 {
     "xypp-user-decoration": {
         "forum": {
-            "decoration-no-available": "",
-            "decorations": "",
+            "decoration-no-available": "Tidak ada dekorasi yang tersedia",
+            "decorations": "Dekorasi",
             "decoration-box": {
-                "error": "",
+                "error": "Jenis Tidak Diketahui",
                 "avatar": "",
                 "name": "",
                 "post": "",
                 "card": "",
-                "loading": "",
+                "loading": "Memuat",
                 "closed": "",
                 "no-login": ""
             },
             "decoration": {
                 "delete_button": "Hapus",
-                "remove_button": "",
-                "change_button": "",
-                "delete_confirm": ""
+                "remove_button": "Hapus",
+                "change_button": "Ubah",
+                "delete_confirm": "Apakah Anda yakin untuk menghapus dekorasi ini?"
             },
             "page": {
-                "show-decorations": ""
+                "show-decorations": "Dekorasi"
             },
             "modal": {
                 "title": "",
-                "tip": "",
-                "loading": "",
+                "tip": "Silakan pilih dekorasi",
+                "loading": "Memuat",
                 "button": ""
             },
-            "create": "",
+            "create": "Buat",
             "create-success": "",
             "create-modal": {
                 "edit-title": "",
-                "edit-button": "",
-                "title": "",
+                "edit-button": "Edit",
+                "title": "Buat Dekorasi",
                 "type": {
-                    "title": "",
+                    "title": "Jenis",
                     "avatar": "Avatar",
                     "username": "Username",
                     "post": "",
@@ -43,13 +43,13 @@
                 },
                 "name": "nama",
                 "desc": "Deskripsi",
-                "style": "",
-                "tip": "",
-                "button": "",
+                "style": "Style Sheet",
+                "tip": "Gunakan selector .base untuk memilih target, .element-xxx untuk menambahkan element baru",
+                "button": "Buat",
                 "delete-button": "Hapus"
             },
-            "delete_confirm": "",
-            "delete-success": "",
+            "delete_confirm": "Apakah Anda yakin untuk menghapus dekorasi ini?",
+            "delete-success": "Berhasil Menghapus",
             "user_controls": {
                 "offer": ""
             }
@@ -59,8 +59,8 @@
                 "view_decoration": "",
                 "delete_decoration": "",
                 "offer_decoration": "",
-                "create_decoration": "",
-                "view-all": ""
+                "create_decoration": "Membuat/Mengedit dekorasi",
+                "view-all": "Melihat semua dekorasi"
             },
             "settings": {
                 "username_hijack": {
@@ -72,8 +72,8 @@
                     "desc": ""
                 },
                 "view-all": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Tampilkan Semua",
+                    "desc": "Apakah \"tampilkan semua\" diaktifkan?"
                 }
             }
         }
@@ -81,7 +81,7 @@
     "xypp-store": {
         "forum": {
             "type": {
-                "decoration": ""
+                "decoration": "Dekorasi"
             },
             "unavailable": {
                 "decoration": {
@@ -90,7 +90,7 @@
             },
             "create-modal": {
                 "providers": {
-                    "decoration": ""
+                    "decoration": "Dekorasi"
                 }
             }
         }
