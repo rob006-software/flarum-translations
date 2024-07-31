@@ -1,14 +1,14 @@
 {
     "xypp-store": {
         "forum": {
-            "time_segs": "",
-            "store": "",
+            "time_segs": "hari|jam|menit",
+            "store": "Toko",
             "purchase-history": "",
-            "create": "",
+            "create": "Buat Item",
             "purchase": "",
             "edit_button": "Edit",
             "show_case": "",
-            "price_free": "",
+            "price_free": "Gratis",
             "provider": {
                 "all": "Semua",
                 "error": {
@@ -23,7 +23,7 @@
                 }
             },
             "create-modal": {
-                "title": "",
+                "title": "Buat Item",
                 "name": "Nama",
                 "desc": "Deskripsi",
                 "price": "Harga",
@@ -31,12 +31,12 @@
                 "provider_data": "",
                 "use_cnt": "",
                 "expire_time": "",
-                "expire_time_tip": "",
+                "expire_time_tip": "Biarkan kosong untuk menonaktifkan, atau atur ke angka untuk kedaluwarsa setelah beberapa detik.",
                 "rest_cnt": "",
-                "rest_cnt_tip": "",
-                "edit-title": "",
+                "rest_cnt_tip": "Biarkan kosong agar tak terbatas, atau atur ke angka untuk membatasinya.",
+                "edit-title": "Edit Item#{0}",
                 "edit-button": "Edit",
-                "button": "",
+                "button": "Buat",
                 "success": "",
                 "confirm_delete": "",
                 "delete-button": "Hapus",
@@ -49,14 +49,14 @@
                 "provider_data_error": "",
                 "provider_data_default": ""
             },
-            "purchase-confirm": "",
+            "purchase-confirm": "Konfirmasi Pembelian?",
             "item": {
-                "rest_cnt": "",
+                "rest_cnt": "Sisa {0}",
                 "use_cnt": "",
                 "expire": "",
-                "no_available": "",
-                "infinity_count": "",
-                "not_found": ""
+                "no_available": "Tidak ada item yang tersedia",
+                "infinity_count": "Tersedia tanpa batas",
+                "not_found": "Item tidak ditemukan"
             },
             "history": {
                 "no_record": "",
@@ -67,10 +67,10 @@
                 "rest_cnt": "",
                 "infinity_use": "",
                 "expire": "",
-                "forever": "",
+                "forever": "Tersedia selamanya",
                 "confirm_use": "",
                 "unable_to_use": "",
-                "not_found": ""
+                "not_found": "Item tidak ditemukan"
             },
             "query-modal": {
                 "purchase": {
@@ -87,32 +87,32 @@
                     "error": "",
                     "not_enough": "",
                     "cannot": "",
-                    "fail_expire": "",
-                    "id_not_found": "",
-                    "expired": ""
+                    "fail_expire": "Gagal saat mencoba mengakhiri Item ini",
+                    "id_not_found": "ID item tidak ditemukan",
+                    "expired": "Item kedaluwarsa"
                 }
             },
             "purchase_result": {
-                "success": "",
+                "success": "Sukses",
                 "fail": {
-                    "unknown": "",
+                    "unknown": "Error Tidak Diketahui",
                     "not_enough_item": "",
-                    "cannot": "",
-                    "not_enough_money": ""
+                    "cannot": "Tidak dapat membeli Item ini",
+                    "not_enough_money": "Uang tidak cukup"
                 }
             },
             "edit-result": {
                 "fail": {
-                    "not-found": ""
+                    "not-found": "Item tidak ditemukan"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "add-item": "",
-                "remove-item": "",
-                "view-history": "",
-                "remove-history": ""
+                "add-item": "Menambahkan Item Toko",
+                "remove-item": "Menghapus Item Toko",
+                "view-history": "Melihat pembelian orang lain",
+                "remove-history": "Menghapus pembelian orang lain"
             }
         }
     }
