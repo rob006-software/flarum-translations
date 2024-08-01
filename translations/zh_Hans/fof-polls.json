@@ -19,7 +19,7 @@
                 "start_global": "发起全站投票",
                 "self_edit": "编辑已创建的投票（需要帖子编辑权限）",
                 "self_post_edit": "编辑自己帖子上的 *所有* 投票（需要帖子编辑权限）",
-                "upload_images": "",
+                "upload_images": "允许用户上传图片来投票",
                 "vote": "参与投票",
                 "change_vote": "修改投票",
                 "moderate": "编辑或删除投票"
@@ -100,7 +100,7 @@
                     "help": "在投票时展示图片（可选）。",
                     "alt_label": "图片替代文本",
                     "alt_help_text": "图片加载失败时，展示的替代文本。",
-                    "later_help": ""
+                    "later_help": "你将能在创建投票之后上传图片。"
                 },
                 "poll_option_image": {
                     "label": "投票结论图片",
@@ -136,8 +136,8 @@
                 "title": "投票详情"
             },
             "upload_image": {
-                "remove_button": "移除图片",
-                "upload_button": "选择图片"
+                "remove_button": "删除图片",
+                "upload_button": "上传图片"
             }
         }
     }
