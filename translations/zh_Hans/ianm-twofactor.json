@@ -23,13 +23,13 @@
                 "logo_qr_help": "留空使用论坛标志，或上传图片。",
                 "tokens": {
                     "heading": "访问令牌",
-                    "help": "",
-                    "kill_inactive_tokens": "",
-                    "kill_inactive_tokens_help": "",
-                    "kill_inactive_tokens_age_days": "",
-                    "kill_inactive_tokens_age_days_help": "",
-                    "also_kill_developer_tokens": "",
-                    "also_kill_developer_tokens_help": ""
+                    "help": "为了增强安全性，您可以在此处管理与访问令牌相关的其他行为。",
+                    "kill_inactive_tokens": "终止不活跃的令牌",
+                    "kill_inactive_tokens_help": "自动终止在指定时间段内处于非活动状态的访问令牌。",
+                    "kill_inactive_tokens_age_days": "在 (Days) 之后终止不活跃的令牌",
+                    "kill_inactive_tokens_age_days_help": "不活跃的天数，超过此天数后访问令牌将被删除。",
+                    "also_kill_developer_tokens": "也终止开发者令牌",
+                    "also_kill_developer_tokens_help": "也终止在指定时间段内处于非活动状态的开发人员访问令牌。"
                 }
             }
         },
