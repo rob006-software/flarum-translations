@@ -2,58 +2,58 @@
     "blomstra-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "GDPR adatok áttekintése",
+                "description": "A különböző GDPR-ral kapcsolatos intézkedések és integrációk állapota",
                 "data_types": {
-                    "title": "",
-                    "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "title": "Adattípusok",
+                    "help_text": "Ezek a jelenleg regisztrált adattípusok. Az összes típus fel van sorolva a hozzá tartozó exportálási, anonimizálási és törlési műveletekkel. Ha egy bővítmény bármilyen olyan adatot kezel, amelyre GDPR szabályozás vonatkozik, akkor regisztrálnia kell az adattípusát a következővel: <code>blomstra/gdpr</code>.\nA <code>user</code> táblában tárolt adatok külön vannak kezelve, a tábla adatai alább láthatók.\n",
+                    "type": "Típus",
+                    "export_description": "Exportálási művelet",
+                    "anonymize_description": "Anonimizálási művelet",
+                    "delete_description": "Törlési művelet",
+                    "extension": "Bővítmény"
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
-                    "extension_settings_button": ""
+                    "heading": "GDPR beállítások",
+                    "help_text": "A GDPR beállításokat keresi? A bővítmény oldalán találhatók.",
+                    "extension_settings_button": "GDPR beállítások"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Felhasználói adatok táblája",
+                    "help_text": "A legtöbb esetben a <code>user</code> táblához adott oszlopok automatikusan kezelve lesznek, az adatok exportálása és törlése esetén is.\nViszont vannak speciális esetek, amelyeket alább soroltunk fel.\n"
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "GDPR integrációk"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "process_erasure": "Törlési kérések feldolgozása",
+                "process_export_for_others": "Adatexportálás kérése és fogadása más felhasználókhoz",
+                "see_anonymized_user_badges": "Anonimizált felhasználói jelvények megtekintése"
             },
             "settings": {
-                "allow_anonymization": "",
-                "allow_anonymization_help": "",
-                "allow_deletion": "",
-                "allow_deletion_help": "",
-                "default_anonymous_username": "",
-                "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "",
+                "allow_anonymization": "Az anonimizálás engedélyezése a törlési kérésekre",
+                "allow_anonymization_help": "Az alapértelmezett lehetőség, amely a legtöbb közösség számára ajánlott. Ebben a módban a bejegyzések/hozzászólások a GDPR által megengedett módon megőrzésre kerülnek, de a felhasználót azonosító információk eltávolításra kerülnek.",
+                "allow_deletion": "A törlés engedélyezése a törlési kérésekre",
+                "allow_deletion_help": "Egy sokkal szigorúbb lehetőség. Ebben a módban a bejegyzések/hozzászólások törölve lesznek, és a felhasználó eltávolításra kerül az adatbázisból. Használja körültekintően.",
+                "default_anonymous_username": "Alapértelmezett felhasználónév az anonimizált felhasználóknál",
+                "default_anonymous_username_help": "Ha egy felhasználó anonimizálásra kerül, akkor a felhasználóneve erre az értékre lesz cserélve, hozzáfűzve az anonimizálási kérés azonosítóját, például <code>Névtelen123</code>.",
+                "default_erasure": "A törlési kérések alapértelmezett művelete",
+                "default_erasure_help": "Mi legyen a törlési kérések által kiváltott alapértelmezett művelet?",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "Anonimizálás",
+                    "deletion": "Törlés"
                 },
                 "gdpr_page": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Adatintegráció és műveletek",
+                    "help_text": "Mielőtt eldönti, hogy milyen műveletet választ a fórumhoz, létfontosságú, hogy értse, mely adatok vannak integrálva, és azok hogyan lesznek kezelve az anonimizálás és törlés során. Keresse fel a GDPR áttekintést, hogy megértse az adatok kezelését, és hogy milyen választható bővítmények lettek regisztrálva a kezelendő adatokhoz."
                 }
             },
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "title": "",
-                        "export": ""
+                        "title": "GDPR műveletek",
+                        "export": "{username} adatainak exportálása"
                     }
                 }
             }
@@ -61,112 +61,112 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Törli a felhasználó profilképét a fájlrendszerről.",
+                    "export_description": "Lekéri a felhasználó profilképét a fájlrendszerről, és beleteszi az exportálásba."
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "Exportálja az összes, a felhasználó által indított témát. Az adatok a címre és a létrehozás idejére vannak korlátozva."
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "Exportálja a fórum címét, a webcímet, a felhasználónevet, az e-mail-címet és a jelenlegi dátumot."
                 },
-                "no_action": "",
+                "no_action": "Nincs teendő.",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Eltávolítja az IP-címet a felhasználó által készített összes bejegyzésből.",
+                    "delete_description": "Törli a felhasználó által készített összes bejegyzést.",
+                    "export_description": "Exportálja a felhasználó által készített összes bejegyzést. Az adatok a tartalomra, a létrehozás idejére, az IP-címre és a témaazonosítóra vannak korlátozva."
                 },
                 "tokens": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Törli a felhasználó által létrehozott összes tokent.",
+                    "export_description": "Exportálja a felhasználó által létrehozott összes tokent. Az adatok a létrehozás idejére és a token típusára vannak korlátozva."
                 },
                 "user": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "A user tábla összes oszlopát nullra állítja. A nem nullozható oszlopok az alapértelmezett értékükre vagy speciális értékekre lesznek állítva. A jelszó megváltozik, a beállítások alapértelmezettre lesznek állítva, és a csoportjai el lesznek távolítva.",
+                    "delete_description": "Törli a felhasználót az adatbázisból.",
+                    "export_description": "Exportálja az adatokat a user táblából. Az összeset, kivéve az id és a password oszlopot."
                 }
             },
             "request_data": {
-                "title": "",
-                "text": "",
-                "request_button": ""
+                "title": "Adatok kérése ehhez: {username}",
+                "text": "Egy ZIP-archívum lesz elkészítve. Amint elkészül, értesítést fog kapni a letöltési hivatkozással. A hivatkozás egy napig marad aktív.\n",
+                "request_button": "Archívum kérése"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
-                "body": ""
+                "subject": "Erősítse meg a fióktörlési kérését",
+                "body": "Kedves {display_name}!\n\nValaki (remélhetőleg Ön) a(z) `{display_name}` fiókja törlését kérte.\n\nA művelet megerősítéséhez kövesse a következő hivatkozást, majd ezután fel fogja dolgozni a csapatunk.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "A fiók törlése befejeződött",
+                    "body": "Kedves {display_name}!\n\nEz egy automatikus, végső értesítés arról, hogy a fiókja törlésre került.\n"
                 },
                 "anonymization": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "A fiók anonimizálása befejeződött",
+                    "body": "Kedves {display_name}!\n\nEz egy automatikus, végső értesítés arról, hogy a fiókja anonimizálásra került.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
-                "body": ""
+                "subject": "A fióktörlési kérés lemondva",
+                "body": "Kedves {display_name}!\n\nEz agy automatikus értesítés arról, hogy a fióktörlési kérésének lemondása feldolgozásra került.\n\nA fiókja nem lesz törölve.\n"
             },
             "export_available": {
-                "subject": "",
-                "body": ""
+                "subject": "Az adatexport elérhető",
+                "body": "Kedves {display_name}!\n\nA(z) {username} fiók exportálását kérte. Az export sikeresen előállításra került, és itt érhető el:\n\n{url}\n\nEz az export eddig érhető el: {destroys_at}.\n"
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Anonimizált felhasználó"
             },
             "delete_user": {
-                "title": "",
-                "text": "",
-                "modal_delete_button": "",
-                "delete_button": ""
+                "title": "{username} fiókjának törlése",
+                "text": "Biztos, hogy törli {username} fiókját?\n\nEz a művelet végleges.\n",
+                "modal_delete_button": "Törlés az alapértelmezett művelettel",
+                "delete_button": "Törlés"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Nincsenek függőben lévő fióktörlési kérések",
+                "item_text": "{name} a fiókja törlését kérte",
+                "tooltip": "Fióktörlési kérések",
+                "title": "Fióktörlési kérések"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Megerősítette a fióktörlési kérést. A művelet 30 napon belül fog megtörténni, ahogy azt a GDPR előírja.",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Személyes adatok"
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "Adatok exportálása",
+                "export_data_help": "Az adatok exportálása letölthető másolatot biztosít az összes, a fiókjához kapcsolódó információról. Ez tartalmazza a bejegyzéseket, hozzászólásokat és profiladatokat.",
+                "request_erasure_button": "Fiók törlése",
+                "request_erasure_help": "A törlés kérése végleg törli a fiókot és az összes hozzá kapcsolódó adatot. Ez a művelet végleges. A folytatás előtt győződjön meg arról, hogy minden olyan tartalmaz mentett, melyet meg szeretne tartani."
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "confirm": "Biztos, hogy törli {name} fiókját „{mode}” mód szerint?",
+                "title": "Törlési kérés feldolgozása",
+                "text": "{name} a fiókja törlését kérte.",
+                "comments_label": "Hozzászólások (nem kötelező)",
+                "anonymization_button": "Felhasználó anonimizálása",
+                "deletion_button": "Felhasználó törlése"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Fióktörlés kérése",
+                "reason": "A következő okot adta meg: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Kellett kapnia egy e-mailt a fióktörlési kérése megerősítéséről.\n",
+                    "user_confirmed": "Megerősítette a fióktörlési kérést. A művelet 30 napon belül fog megtörténni, ahogy azt a GDPR előírja.\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "A fogadás és megerősítés után egy adminisztrátor 30 napon belül áttekinti a kérését, ahogy azt a GDPR előírja.",
+                "password_label": "Jelszó megerősítése",
+                "reason_label": "Ok (nem kötelező)",
+                "cancel_button": "Kérés visszavonása",
+                "request_button": "Törlés kérése"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "{username} adatexportja letöltésre kész."
             },
-            "export_file": ""
+            "export_file": "{username} ({email}) felhasználói adatainak exportálása elkészült ekkor: {date}, innen: {forumTitle} ({url})"
         }
     }
 }
