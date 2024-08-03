@@ -4,20 +4,20 @@
             "settings": {
                 "group-view": "",
                 "group-admin-view": "",
-                "calm-down-period-help": "",
+                "calm-down-period-help": "Setelah permohonan ditolak, tidak diperbolehkan untuk mengajukan permohonan kembali selama N hari sejak tanggal ditolaknya permohonan",
                 "calm-down-period": "",
                 "show-index": "",
                 "show-index-help": "",
                 "price": "",
                 "price-help": "",
-                "mail": "",
+                "mail": "Template email",
                 "mail-help": "",
-                "mail-title": "",
+                "mail-title": "Judul email",
                 "mail-title-help": "",
                 "auto-review": "",
-                "auto-review-help": "",
+                "auto-review-help": "Setelah pemeriksaan, sistem akan secara otomatis melewatkan dan menyelesaikan operasi peninjauan",
                 "auto-review-username": "",
-                "auto-review-username-help": "",
+                "auto-review-username-help": "Ketika audit otomatis diaktifkan, sistem akan menanyakan pengguna yang dimasukkan",
                 "mail-template": "Halo [user], Kode undangan Anda adalah [code]"
             }
         },
@@ -39,12 +39,12 @@
             "confirm-adopt": "konfirmasi",
             "confirm-refuse": "",
             "mail": {
-                "send-invite-title": ""
+                "send-invite-title": "Kode undangan"
             },
             "error": {
-                "unaudited": "",
-                "review-failed": "",
-                "invite-not-exist": "",
+                "unaudited": "Anda memiliki informasi permohonan yang belum disetujui dan tidak dapat melanjutkan saat ini",
+                "review-failed": "Anda baru saja menerima informasi permohonan yang ditolak. Silakan coba lagi setelah [{date}]",
+                "invite-not-exist": "Informasi permohonan telah ditinjau atau tidak ada. Silakan refresh halaman dan coba lagi",
                 "user-balance-low": "",
                 "email-exist": "",
                 "lock-resources": "",
