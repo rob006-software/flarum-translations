@@ -8,37 +8,37 @@
                 "quest_done_label": ""
             },
             "condition": {
-                "condition": "",
+                "condition": "Kondisi",
                 "format": "",
                 "and": "",
-                "span": ""
+                "span": "Dalam {span} hari"
             },
             "reward": {
                 "reward": "",
-                "format": "",
+                "format": "<b>{name}</b>:{value}",
                 "and": " dan "
             },
             "quest": {
                 "quest": "",
-                "load_more": "",
+                "load_more": "Muat Lebih",
                 "done": ""
             },
             "re_available": {
-                "none": "",
+                "none": "Hanya Sekali",
                 "day": "",
                 "hour": ""
             },
             "condition_view": {
-                "button": "",
-                "title": "",
+                "button": "Lihat Kondisi",
+                "title": "Tampilan Kondisi",
                 "name": "Nama",
-                "value": "",
+                "value": "Value",
                 "span": "",
                 "set_span": ""
             },
             "quest_done": {
                 "all": "Semua",
-                "true": "",
+                "true": "Selesai",
                 "false": ""
             }
         },
@@ -52,9 +52,9 @@
                 "name": "Nama",
                 "description": "Deskripsi",
                 "operation": "",
-                "load_more": "",
+                "load_more": "Muat Lebih",
                 "remove_confirm": "",
-                "create": ""
+                "create": "Buat"
             },
             "create-modal": {
                 "title": "",
@@ -62,33 +62,33 @@
                 "name": "Nama",
                 "description": "Deskripsi",
                 "icon": "Ikon",
-                "hidden": "",
-                "condition": "",
+                "hidden": "Tersembunyi",
+                "condition": "Kondisi",
                 "reward": "",
-                "condition-name": "",
+                "condition-name": "Nama Kondisi",
                 "condition-operator": "",
-                "condition-value": "",
+                "condition-value": "Value",
                 "condition-span": "",
-                "condition-alter_name": "",
+                "condition-alter_name": "Nama Tampilan",
                 "reward-name": "",
-                "reward-value": "",
-                "reward-get_value": "",
-                "reward-alter_name": "",
-                "button": "",
-                "button-edit": "",
-                "new_item": "",
+                "reward-value": "Value",
+                "reward-get_value": "Dapatkan Value",
+                "reward-alter_name": "Nama Tampilan",
+                "button": "Buat",
+                "button-edit": "Edit",
+                "new_item": "Item Baru",
                 "re_available": ""
             },
             "re_available": {
-                "none": "",
-                "day": "",
-                "hour": ""
+                "none": "Sekali",
+                "day": "Sebelum X hari",
+                "hour": "Setelah X jam"
             }
         },
         "api": {
             "condition_not_allow_frontend": "Kondisi tidak dapat dipicu di frontend",
             "no_manual_update": "Tidak perlu pembaruan manual",
-            "manual_condition_cannot_hidden": ""
+            "manual_condition_cannot_hidden": "Kondisi manual tidak dapat digunakan dalam task tersembunyi:{condition}"
         }
     }
 }
