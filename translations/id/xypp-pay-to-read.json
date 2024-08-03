@@ -8,7 +8,7 @@
                 }
             },
             "permission": {
-                "bypass": ""
+                "bypass": "Melewati pembayaran."
             }
         },
         "forum": {
@@ -22,16 +22,16 @@
                 "btn": ""
             },
             "payment": {
-                "title": "",
-                "tip": "",
+                "title": "Konfirmasi Pembayaran",
+                "tip": "Membayar konten ini akan dikenakan biaya {0}, saat ini Anda memiliki {1}. Konfirmasi?",
                 "btn": "",
-                "loading": ""
+                "loading": "Memuat informasi pembayaran"
             },
             "error": {
-                "paid": "",
-                "missing": "",
-                "no_enough_money": "",
-                "internal_err": ""
+                "paid": "Anda telah membayar untuk konten ini. Refresh halaman.",
+                "missing": "Tidak ada konten.",
+                "no_enough_money": "Anda tidak memiliki cukup dana.",
+                "internal_err": "Error internal."
             },
             "editor": {
                 "help": "",
