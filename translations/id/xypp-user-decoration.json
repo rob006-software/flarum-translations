@@ -5,13 +5,13 @@
             "decorations": "Dekorasi",
             "decoration-box": {
                 "error": "Jenis Tidak Diketahui",
-                "avatar": "",
-                "name": "",
-                "post": "",
-                "card": "",
+                "avatar": "Desain Avatar",
+                "name": "Desain Username",
+                "post": "Desain Post",
+                "card": "Desain Kartu Pengguna",
                 "loading": "Memuat",
                 "closed": "",
-                "no-login": ""
+                "no-login": "Login untuk melihat pratinjau"
             },
             "decoration": {
                 "delete_button": "Hapus",
@@ -38,7 +38,7 @@
                     "title": "Jenis",
                     "avatar": "Avatar",
                     "username": "Username",
-                    "post": "",
+                    "post": "Post",
                     "usercard": ""
                 },
                 "name": "nama",
@@ -64,12 +64,12 @@
             },
             "settings": {
                 "username_hijack": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Pembajakan Username",
+                    "desc": "Plugin ini akan mencoba membajak metode username dari model pengguna dan menyisipkan beberapa informasi identitas untuk mengenali pengguna. Jika beberapa plugin lain mengalami kerusakan akibat pembajakan, Anda dapat menonaktifkan fungsi ini untuk menyelesaikan masalah."
                 },
                 "avatar_hijack": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Pembajakan Avatar",
+                    "desc": "Plugin ini akan mencoba membajak metode avatar dari model pengguna dan menyisipkan beberapa informasi identitas untuk mengenali pengguna. Jika beberapa plugin lain mengalami kerusakan akibat pembajakan, Anda dapat menonaktifkan fungsi ini untuk menyelesaikan masalah."
                 },
                 "view-all": {
                     "title": "Tampilkan Semua",
