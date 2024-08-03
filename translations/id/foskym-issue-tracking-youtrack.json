@@ -2,19 +2,19 @@
     "foskym-issue-tracking-youtrack": {
         "admin": {
             "fields": {
-                "heading": "",
-                "url_label": "",
-                "token_label": "",
-                "project_label": "",
-                "state_field_label": "",
-                "resolved_state_label": "",
-                "fields_mapping_label": "",
-                "url_help": "",
-                "token_help": "",
-                "project_help": "",
-                "state_field_help": "",
-                "resolved_state_help": "",
-                "fields_mapping_help": ""
+                "heading": "Pelacakan Issue: YouTrack",
+                "url_label": "YouTrack - URL",
+                "token_label": "YouTrack - Token",
+                "project_label": "YouTrack - ID Project",
+                "state_field_label": "Kolom status",
+                "resolved_state_label": "Keadaan Terselesaikan",
+                "fields_mapping_label": "Pemetaan Kolom",
+                "url_help": "URL YouTrack instance Anda. Contoh: https://example.youtrack.cloud/",
+                "token_help": "Token permanen untuk API YouTrack. Anda dapat membuatnya di pengaturan profil YouTrack Anda.",
+                "project_help": "ID project yang ingin Anda lacak. Anda dapat menemukannya di URL halaman project.",
+                "state_field_help": "Nama kolom di project YouTrack Anda yang merepresentasikan status issue.\nIni akan digunakan untuk menentukan kemajuan dari sebuah issue.\nVariabel [Resolved_State] akan diganti dengan nilai dari kolom Status Selesai.\nContoh: Diserahkan, Dibuka, Dibuka kembali, Untuk didiskusikan, Sedang dalam proses, [Resolved_State]\n",
+                "resolved_state_help": "Nilai kolom status yang merepresentasikan issue yang telah diselesaikan.\nContoh: Selesai| Diperbaiki| Teratasi\n",
+                "fields_mapping_help": "Pemetaan kolom dalam SimpleIssueCustomField di project YouTrack Anda ke kolom Normal.\nFormatnya adalah: SimpleIssueCustomField Nama: Nama Kolom Normal\nContoh: Penulis:author.display_name, Email:author.email, Penerima Tugas:assignee.display_name\n"
             }
         }
     }
