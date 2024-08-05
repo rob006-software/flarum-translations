@@ -1249,6 +1249,9 @@ return [
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.3.0.1/locale/en.yml',
 	],
+	'ssportd-oauth-slack' => [
+		'tag' => 'https://raw.githubusercontent.com/ssangyongsport/flarum-ext-oauth-slack-Sls/1/locale/en.yml',
+	],
 	'swaggymacro-only-starter' => [
 		'tag' => 'https://raw.githubusercontent.com/SwaggyMacro/OnlyStarter/0.6.6/resources/locale/en.yml',
 	],
