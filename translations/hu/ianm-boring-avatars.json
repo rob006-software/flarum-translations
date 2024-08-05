@@ -2,18 +2,18 @@
     "ianm-boring-avatars": {
         "admin": {
             "settings": {
-                "color1": "",
-                "color2": "",
-                "color3": "",
-                "color4": "",
-                "color5": "",
-                "identifier": "",
-                "identifier_help": "",
-                "identifier_id": "",
-                "identifier_display_name": "",
-                "identifier_email": "",
-                "theme": "",
-                "theme_help": ""
+                "color1": "1. szín",
+                "color2": "2. szín",
+                "color3": "3. szín",
+                "color4": "4. szín",
+                "color5": "5. szín",
+                "identifier": "Azonosító",
+                "identifier_help": "Az egyes felhasználók egyéni profilképeinek előállításához használatos.\n",
+                "identifier_id": "Felhasználóazonosító",
+                "identifier_display_name": "Megjelenítendő név",
+                "identifier_email": "E-mail",
+                "theme": "Téma",
+                "theme_help": "Az unalmas profilképekhez használandó téma.\n"
             }
         }
     },
@@ -21,9 +21,9 @@
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Hozzáadja az unalmas profilképet az exportált ZIP-fájlhoz.",
+                    "anonymize_description": "Törli az unalmas profilképet, és egy új véletlenszerű képet állít elő.",
+                    "delete_description": "Törli az unalmas profilképet."
                 }
             }
         }
