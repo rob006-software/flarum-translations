@@ -2,24 +2,24 @@
     "foskym-custom-levels": {
         "admin": {
             "settings": {
-                "levelText": "",
-                "levelDesc": "",
-                "expText": "",
-                "expDesc": "",
-                "expFormula": "",
-                "expFormulaDesc1": "",
-                "expFormulaDesc2": "",
-                "expFormulaDesc3": "",
-                "levelFormula": "",
-                "levelFormulaDesc": ""
+                "levelText": "Adja meg a szintekhez megjelenítendő szöveget (például rang, szint)",
+                "levelDesc": "Elérhető változók: [level]",
+                "expText": "Adja meg a tapasztalathoz megjelenítendő szöveget (például „[expTotal] TP”）",
+                "expDesc": "Elérhető változók: [expTotal]",
+                "expFormula": "Adja meg a tapasztalat képletét (például „[discussionCount] * 40 + [commentCount] / 20”)",
+                "expFormulaDesc1": "Ezeket a változókat használhatja：",
+                "expFormulaDesc2": "Alapvető ([discussionCount] [commentCount]）",
+                "expFormulaDesc3": "Bővítményekkel ([money] [likesReceived] [bestAnswerCount])",
+                "levelFormula": "Adja meg a szint képletét (például „[expTotal] / (100 + 5 * [level])”)",
+                "levelFormulaDesc": "Ezeket a változókat használhatja: [expTotal] [level]"
             }
         },
         "lib": {
             "defaults": {
-                "level": "",
-                "exp": "",
-                "expFormula": "",
-                "levelFormula": ""
+                "level": "Szint:",
+                "exp": "[expTotal] TP",
+                "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
+                "levelFormula": "[expTotal] / (100 * [level])"
             }
         }
     }
