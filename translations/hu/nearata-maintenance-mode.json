@@ -3,28 +3,28 @@
         "admin": {
             "dashboard": {
                 "maintenance_widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "A karbantartási mód aktív",
+                    "detail": "A karbantartás során csak az arra jogosult felhasználók tekinthetik meg a fórumot."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Megkerülheti a karbantartási módot"
             },
             "settings": {
                 "maintenance_mode_enabled": {
-                    "label": ""
+                    "label": "Karbantartási mód"
                 }
             }
         },
         "views": {
             "default": {
-                "title": "",
-                "header": "",
-                "body": ""
+                "title": "Karbantartás",
+                "header": "Jelenleg karbantartás miatt nem működik.",
+                "body": "<p>Pillanatnyilag karbantartást végzünk. Jöjjön vissza később.</p>\n"
             }
         },
         "api": {
-            "title": ""
+            "title": "Jelenleg karbantartás miatt nem működik. Jöjjön vissza később."
         }
     }
 }
