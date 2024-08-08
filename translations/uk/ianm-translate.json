@@ -8,8 +8,8 @@
                 "edit-translation": "Ручне редагування перекладу"
             },
             "settings": {
-                "seemless": "",
-                "seemless-help": "",
+                "seemless": "Безшовний переклад",
+                "seemless-help": "Бета-версія функції. Якщо увімкнено, весь вміст користувача буде автоматично перекладено на всі інші доступні мови форуму. Коли користувач переглядає багатомовний вміст, переклад буде відображатися автоматично.",
                 "deepl": {
                     "api_key": {
                         "help": "Зареєструйтеся за посиланням {link}. Драйвер автоматично визначить тип ключа free/pro.",
@@ -41,16 +41,16 @@
                 },
                 "libre": {
                     "url": {
-                        "help": "",
-                        "label": ""
+                        "help": "URL-адреса сервера LibreTranslate. Якщо ви використовуєте власний екземпляр, введіть URL тут. Схема має бути `http` або `https`.",
+                        "label": "URL-адреса сервера"
                     },
                     "port": {
-                        "help": "",
-                        "label": ""
+                        "help": "Порт сервера LibreTranslate. Якщо ви використовуєте власний екземпляр, введіть порт тут.",
+                        "label": "Порт сервера"
                     },
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "(необов'язково) Якщо ваш сервер LibreTranslate вимагає ключ API, введіть його тут.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "translate-all-enabled": "Увімкніть усі мови перекладу",
@@ -68,15 +68,15 @@
         },
         "forum": {
             "composer": {
-                "multi-languages": ""
+                "multi-languages": "Підказка: ви можете ввести мову на свій вибір, форум перекладе її для вас."
             },
             "unknown-language": "[не виявлено]",
             "detected-language": "Ця публікація знаходиться на {postLang}",
             "translate-button-label": "Переклад",
             "refresh-translation": "Оновити переклад",
             "original-content": {
-                "title": "",
-                "view": ""
+                "title": "Оригінальний контент",
+                "view": "Переглянути оригінальний вміст"
             },
             "manage-translations": {
                 "translations-label": "Переклади",
@@ -116,7 +116,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
                 "google-cloud": "Google Cloud Translate",
-                "libre": ""
+                "libre": "Libre Translate"
             },
             "settings": {
                 "api-key": "Ключ API"
