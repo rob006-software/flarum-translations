@@ -1361,7 +1361,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v0.1.7/locale/en.yml',
 	],
 	'xypp-pay-to-read' => [
-		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-pay-to-read/v1.3.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-pay-to-read/v1.3.6/locale/en.yml',
 	],
 	'xypp-sticky-card' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-sticky-card/v1.0.5/locale/en.yml',
