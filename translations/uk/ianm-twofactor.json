@@ -22,14 +22,14 @@
                 "logo_qr": "Логотип на QR-коді",
                 "logo_qr_help": "Якщо логотип був завантажений, він буде вбудований в QR-код. Залиште поле порожнім, щоб використовувати логотип форуму.",
                 "tokens": {
-                    "heading": "",
-                    "help": "",
-                    "kill_inactive_tokens": "",
-                    "kill_inactive_tokens_help": "",
-                    "kill_inactive_tokens_age_days": "",
-                    "kill_inactive_tokens_age_days_help": "",
-                    "also_kill_developer_tokens": "",
-                    "also_kill_developer_tokens_help": ""
+                    "heading": "Токени доступу",
+                    "help": "Для розширеної безпеки ви можете керувати додатковою поведінкою, пов'язаною з токенами доступу.",
+                    "kill_inactive_tokens": "Вбити неактивні токени",
+                    "kill_inactive_tokens_help": "Автоматично знищувати токени доступу, які були неактивні протягом певного періоду часу.",
+                    "kill_inactive_tokens_age_days": "Вбити неактивні токени через (днів)",
+                    "kill_inactive_tokens_age_days_help": "Кількість днів неактивності, після якої токени доступу будуть видалені.",
+                    "also_kill_developer_tokens": "Також вбивайте токени розробників",
+                    "also_kill_developer_tokens_help": "Також знищуйте токени доступу розробника, які були неактивні протягом певного періоду часу."
                 }
             }
         },
