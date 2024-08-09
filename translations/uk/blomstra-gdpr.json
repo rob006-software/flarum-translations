@@ -128,45 +128,45 @@
             },
             "erasure_requests": {
                 "empty_text": "Немає запитів на видалення облікового запису",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "item_text": "{name} запросив видалення акаунта",
+                "tooltip": "Запити на видалення облікового запису",
+                "title": "Запити на видалення облікового запису"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Ви підтвердили свій запит на видалення облікового запису. Дії будуть виконані протягом 30 днів, як того вимагає GDPR.",
             "settings": {
                 "data": {
                     "heading": "Персональні дані"
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "Експорт даних",
+                "export_data_help": "Надіславши запит на експорт даних, ви отримаєте завантажувану копію всієї інформації, пов'язаної з вашим акаунтом. Сюди входять дописи, коментарі та дані профілю.",
+                "request_erasure_button": "Видалити обліковий запис",
+                "request_erasure_help": "Запит на видалення назавжди видалить ваш обліковий запис і всі пов'язані з ним дані. Ця дія є незворотною. Перш ніж продовжити, переконайтеся, що ви зберегли весь вміст, який хочете зберегти."
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "confirm": "Ви впевнені, що хочете видалити обліковий запис {name} в режимі {mode}?",
+                "title": "Запит на видалення даних в процесі",
+                "text": "{name} запросив видалення облікового запису.",
+                "comments_label": "Коментарі (необов'язково)",
+                "anonymization_button": "Анонімізація користувача",
+                "deletion_button": "Видалити користувача"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Запит на видалення облікового запису",
+                "reason": "Ви вказали таку причину: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Ви повинні були отримати електронного листа з підтвердженням запиту на видалення акаунта.\n",
+                    "user_confirmed": "Ви підтвердили свій запит на видалення облікового запису. Дії будуть виконані протягом 30 днів, як того вимагає GDPR.\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "Після отримання та підтвердження адміністратор розгляне ваш запит протягом 30 днів, як того вимагає GDPR.",
+                "password_label": "Підтвердити пароль",
+                "reason_label": "Причина (необов'язково)",
+                "cancel_button": "Скасувати запит",
+                "request_button": "Запит на видалення"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "Ваш експорт даних для {username} тепер готовий до завантаження."
             },
-            "export_file": ""
+            "export_file": "Експорт даних користувача для {username} ({email}), підготовлених на {date} з {forumTitle} ({url})"
         }
     }
 }
