@@ -385,6 +385,9 @@ return [
 	'datlechin-birthdays-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays-widget/v0.1.0/locale/en.yml',
 	],
+	'datlechin-cbox' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-cbox/v0.1.0/locale/en.yml',
+	],
 	'datlechin-chatgpt' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-chatgpt/v0.4.0/locale/en.yml',
 	],
