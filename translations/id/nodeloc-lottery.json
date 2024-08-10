@@ -8,13 +8,14 @@
                 "options_color_blend_help": "Gunakan ini untuk menggunakan pencampuran warna agar opsi undian lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan."
             },
             "permissions": {
-                "view_results_without_Enter": "Melihat hasil tanpa memberikan voting",
+                "seeParticipants": "",
                 "start": "Memulai undian",
                 "self_edit": "Mengedit undian yang telah dibuat (membutuhkan izin edit post)",
                 "self_post_edit": "Mengedit *semua* undian pada postingan sendiri (membutuhkan izin edit post)",
                 "enter": "Dapat mengikuti undian",
                 "canCancelEnter": "Dapat mengubah input",
-                "moderate": "Mengedit & menghapus undian"
+                "moderate": "Mengedit & menghapus undian",
+                "view_results_without_Enter": "Melihat hasil tanpa memberikan voting"
             }
         },
         "forum": {
@@ -40,7 +41,8 @@
                 "add_lottery": "=> nodeloc-lottery.forum.moderation.add",
                 "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
                 "no_permission_alert": "Anda tidak memiliki izin untuk memulai undian.",
-                "in_queue_alert": "Anda telah mengikuti undian."
+                "in_queue_alert": "Anda telah mengikuti undian.",
+                "no_post_in_discussion_alert": ""
             },
             "modal": {
                 "add_title": "Tambahkan undian",
@@ -77,7 +79,8 @@
                 "moderator_strikes": "Teguran moderator",
                 "money": "Uang",
                 "lotteries_made": "Undian dimulai",
-                "not_enough": "Tidak cukup"
+                "not_enough": "Tidak cukup",
+                "read_permission": ""
             },
             "moderation": {
                 "add": "Tambahkan undian",
@@ -90,12 +93,24 @@
                 "votes": "{count, plural, one {# suara} other {# suara}}"
             },
             "participants_modal": {
-                "title": "Peserta"
+                "title": "Peserta",
+                "title_winners": "",
+                "lottery_canceled": ""
+            },
+            "notification": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
             }
         },
         "email": {
             "subject": {
                 "drawLottery": "Notifikasi pengambilan undian"
+            },
+            "body": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
             }
         }
     }

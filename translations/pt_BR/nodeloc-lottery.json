@@ -8,7 +8,7 @@
                 "options_color_blend_help": ""
             },
             "permissions": {
-                "view_results_without_Enter": "",
+                "seeParticipants": "",
                 "start": "",
                 "self_edit": "",
                 "self_post_edit": "",
@@ -40,7 +40,8 @@
                 "add_lottery": "",
                 "edit_lottery": "",
                 "no_permission_alert": "",
-                "in_queue_alert": ""
+                "in_queue_alert": "",
+                "no_post_in_discussion_alert": ""
             },
             "modal": {
                 "add_title": "",
@@ -77,7 +78,8 @@
                 "moderator_strikes": "",
                 "money": "",
                 "lotteries_made": "",
-                "not_enough": ""
+                "not_enough": "",
+                "read_permission": ""
             },
             "moderation": {
                 "add": "",
@@ -90,12 +92,24 @@
                 "votes": ""
             },
             "participants_modal": {
-                "title": ""
+                "title": "",
+                "title_winners": "",
+                "lottery_canceled": ""
+            },
+            "notification": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
             }
         },
         "email": {
             "subject": {
                 "drawLottery": ""
+            },
+            "body": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
             }
         }
     }

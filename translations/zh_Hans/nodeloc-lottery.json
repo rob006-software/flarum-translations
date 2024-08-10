@@ -8,13 +8,14 @@
                 "options_color_blend_help": "使用这个来启用颜色混合以让彩票选项更具可读性。如果这个功能使你的论坛外观出现问题降低了可读性，请禁用。"
             },
             "permissions": {
-                "view_results_without_Enter": "不投票便能查看结果",
+                "seeParticipants": "",
                 "start": "开始抽奖",
                 "self_edit": "编辑已创建的彩票（需要帖子编辑权限）",
                 "self_post_edit": "在自己的帖子中编辑*所有*彩票（需要帖子编辑权限）",
                 "enter": "可以参加抽奖",
                 "canCancelEnter": "可以更改参加的彩票选项",
-                "moderate": "编辑和删除彩票"
+                "moderate": "编辑和删除彩票",
+                "view_results_without_Enter": "不投票便能查看结果"
             }
         },
         "forum": {
@@ -40,7 +41,8 @@
                 "add_lottery": "=> nodeloc-lottery.forum.moderation.add",
                 "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
                 "no_permission_alert": "你没有权限来开始抽奖。",
-                "in_queue_alert": "你已经进入了抽奖。"
+                "in_queue_alert": "你已经进入了抽奖。",
+                "no_post_in_discussion_alert": ""
             },
             "modal": {
                 "add_title": "添加抽奖",
@@ -77,7 +79,8 @@
                 "moderator_strikes": "主持人罢工",
                 "money": "财富",
                 "lotteries_made": "投票已开始",
-                "not_enough": "不足"
+                "not_enough": "不足",
+                "read_permission": ""
             },
             "moderation": {
                 "add": "添加彩票",
@@ -90,12 +93,24 @@
                 "votes": "{count} 个票"
             },
             "participants_modal": {
-                "title": "参与者"
+                "title": "参与者",
+                "title_winners": "",
+                "lottery_canceled": ""
+            },
+            "notification": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
             }
         },
         "email": {
             "subject": {
                 "drawLottery": "抽奖通知"
+            },
+            "body": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
             }
         }
     }

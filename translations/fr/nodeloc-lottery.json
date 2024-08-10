@@ -8,13 +8,14 @@
                 "options_color_blend_help": "Utilisez cette option pour mélanger les couleurs afin de rendre les options de la loterie plus lisibles. Désactivez cette option si elle provoque des problèmes d'apparence sur votre forum, en réduisant la lisibilité."
             },
             "permissions": {
-                "view_results_without_Enter": "Voir les résultats sans voter",
+                "seeParticipants": "",
                 "start": "Démarrer une loterie",
                 "self_edit": "Modifier les loteries créées (nécessite l'autorisation de modifier les messages)",
                 "self_post_edit": "Modifier *toutes* les loteries sur ses propres messages (nécessite l'autorisation de modifier les messages)",
                 "enter": "Peut participer à une loterie",
                 "canCancelEnter": "Peut changer d'entrée",
-                "moderate": "Modifier et supprimer les loteries"
+                "moderate": "Modifier et supprimer les loteries",
+                "view_results_without_Enter": "Voir les résultats sans voter"
             }
         },
         "forum": {
@@ -40,7 +41,8 @@
                 "add_lottery": "=> nodeloc-lottery.forum.moderation.add",
                 "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
                 "no_permission_alert": "Vous n'avez pas l'autorisation de démarrer une loterie.",
-                "in_queue_alert": "Vous devez participer à la loterie."
+                "in_queue_alert": "Vous devez participer à la loterie.",
+                "no_post_in_discussion_alert": ""
             },
             "modal": {
                 "add_title": "Ajouter une loterie",
@@ -77,7 +79,8 @@
                 "moderator_strikes": "Frappes des modérateurs",
                 "money": "Argent",
                 "lotteries_made": "Les loteries ont démarré",
-                "not_enough": "Insuffisant"
+                "not_enough": "Insuffisant",
+                "read_permission": ""
             },
             "moderation": {
                 "add": "Ajouter une loterie",
@@ -90,12 +93,24 @@
                 "votes": "{count, plural, one {# vote} other {# votes}}"
             },
             "participants_modal": {
-                "title": "Participants"
+                "title": "Participants",
+                "title_winners": "",
+                "lottery_canceled": ""
+            },
+            "notification": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
             }
         },
         "email": {
             "subject": {
                 "drawLottery": "Notification du tirage au sort"
+            },
+            "body": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
             }
         }
     }

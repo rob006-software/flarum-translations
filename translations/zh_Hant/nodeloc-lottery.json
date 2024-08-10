@@ -8,13 +8,14 @@
                 "options_color_blend_help": "使用它可以使用顏色混合來使彩票選項更具可讀性。 如果此功能導致論壇外觀出現問題，從而降低可讀性，請停用。"
             },
             "permissions": {
-                "view_results_without_Enter": "看結果而不投票",
+                "seeParticipants": "",
                 "start": "開始抽獎",
                 "self_edit": "編輯創建的彩票（需要帖子編輯權限）",
                 "self_post_edit": "在自己的貼文上編輯*所有*彩票（需要貼文編輯權限）",
                 "enter": "可以參加抽獎",
                 "canCancelEnter": "可以更改輸入",
-                "moderate": "編輯和刪除彩票"
+                "moderate": "編輯和刪除彩票",
+                "view_results_without_Enter": "看結果而不投票"
             }
         },
         "forum": {
@@ -40,7 +41,8 @@
                 "add_lottery": "=> nodeloc-lottery.forum.moderation.add",
                 "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
                 "no_permission_alert": "您無權開始抽獎。",
-                "in_queue_alert": "你已經參加抽獎了。"
+                "in_queue_alert": "你已經參加抽獎了。",
+                "no_post_in_discussion_alert": ""
             },
             "modal": {
                 "add_title": "添加抽獎",
@@ -77,7 +79,8 @@
                 "moderator_strikes": "主持人罷工",
                 "money": "錢",
                 "lotteries_made": "抽獎開始了",
-                "not_enough": "不夠"
+                "not_enough": "不夠",
+                "read_permission": ""
             },
             "moderation": {
                 "add": "添加抽獎",
@@ -90,12 +93,24 @@
                 "votes": "{count, plural, one {# enter} other {# votes}}"
             },
             "participants_modal": {
-                "title": "參加者"
+                "title": "參加者",
+                "title_winners": "",
+                "lottery_canceled": ""
+            },
+            "notification": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
             }
         },
         "email": {
             "subject": {
                 "drawLottery": "抽獎通知"
+            },
+            "body": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
             }
         }
     }
