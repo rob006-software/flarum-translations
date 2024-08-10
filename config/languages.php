@@ -165,6 +165,7 @@ return [
 	'uz' => getComponents(),
 	'vi' => getComponents([
 		// translations included in extension
+		'!datlechin-cbox',
 		'!litalino-adblock',
 		'!litalino-auto-post-count-badge',
 		'!litalino-blog-article-series',
