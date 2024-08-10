@@ -147,7 +147,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => [],
+		'maintainers' => ['YelehaUwU'],
 	],
 	'cy' => [
 		'type' => 'language',
