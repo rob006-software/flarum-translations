@@ -4660,9 +4660,20 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/nodeloc/flarum-ext-my-emoji" title="nodeloc/flarum-ext-my-emoji"><code>nodeloc/flarum-ext-my-emoji</code></a>
+		</td>
+		<td align="center">422</td>
+		<td align="center"><a href="https://packagist.org/packages/nodeloc/flarum-ext-my-emoji/stats">1</a></td>
+		<td align="center"><a href="https://packagist.org/packages/nodeloc/flarum-ext-my-emoji/stats">1</a></td>
+		<td align="center"><a href="https://packagist.org/packages/nodeloc/flarum-ext-my-emoji/stats">1</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nodeloc-my-emoji/br/"><img src="https://weblate.rob006.net/widgets/flarum/br/nodeloc-my-emoji/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/Nearata/flarum-ext-embed-twitch" title="nearata/flarum-ext-embed-twitch"><code>nearata/flarum-ext-embed-twitch</code></a>
 		</td>
-		<td align="center">422<br /><img src="https://img.shields.io/badge/-%2B12-red" alt="+12" title="Change from last week"></td>
+		<td align="center">423<br /><img src="https://img.shields.io/badge/-%2B13-red" alt="+13" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-twitch/stats">212<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-twitch/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-twitch/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -4673,7 +4684,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/datlechin/flarum-oauth-envato" title="datlechin/flarum-oauth-envato"><code>datlechin/flarum-oauth-envato</code></a>
 		</td>
-		<td align="center">423<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">424<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-oauth-envato/stats">7<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-oauth-envato/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-oauth-envato/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -4684,11 +4695,22 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/UMHelper/flarum-ext-oauth-clerk" title="umhelper/oauth-clerk"><code>umhelper/oauth-clerk</code></a>
 		</td>
-		<td align="center">424<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">425<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/umhelper/oauth-clerk/stats">7<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/umhelper/oauth-clerk/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/umhelper/oauth-clerk/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/umhelper-oauth-clerk/br/"><img src="https://weblate.rob006.net/widgets/flarum/br/umhelper-oauth-clerk/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/datlechin/flarum-cbox" title="datlechin/flarum-cbox"><code>datlechin/flarum-cbox</code></a>
+		</td>
+		<td align="center">426</td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-cbox/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-cbox/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-cbox/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/datlechin-cbox/br/"><img src="https://weblate.rob006.net/widgets/flarum/br/datlechin-cbox/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 </tbody>
 </table>
