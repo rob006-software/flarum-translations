@@ -80,7 +80,7 @@
                 "money": "Uang",
                 "lotteries_made": "Undian dimulai",
                 "not_enough": "Tidak cukup",
-                "read_permission": ""
+                "read_permission": "Perizinan"
             },
             "moderation": {
                 "add": "Tambahkan undian",
@@ -94,23 +94,23 @@
             },
             "participants_modal": {
                 "title": "Peserta",
-                "title_winners": "",
-                "lottery_canceled": ""
+                "title_winners": "Pemenang",
+                "lottery_canceled": "Dibatalkan karena jumlah peserta tidak mencukupi."
             },
             "notification": {
-                "drawLottery": "",
-                "fail": "",
-                "finish": ""
+                "drawLottery": "Selamat, Anda memenangkan undian.",
+                "fail": "Undian gagal karena jumlah peserta tidak mencukupi.",
+                "finish": "Undian Berhasil, Mohon kirimkan kepada para pemenang."
             }
         },
         "email": {
             "subject": {
-                "drawLottery": "Notifikasi pengambilan undian"
+                "drawLottery": "Notifikasi pengambilan undian {discussion_title}"
             },
             "body": {
-                "drawLottery": "",
-                "fail": "",
-                "finish": ""
+                "drawLottery": "Hai {recipient_display_name},\n\nSelamat, Anda memenangkan {discussion_title} dari{actor_display_name}.\n\nLihat di sini: {discussion_url}\n",
+                "fail": "Hai {recipient_display_name},\n\nMaaf, {discussion_title} mengalami kegagalan karena jumlah peserta tidak mencukupi.\n\nSilahkan lihat: {discussion_url}\n",
+                "finish": "Hei {recipient_display_name},\n\nSelamat! undian telah selesai dengan sukses.\n\nKunjungi diskusi di sini: {discussion_url}, dan selesaikan undiannya.\n\nTerima kasih!\n"
             }
         }
     }
