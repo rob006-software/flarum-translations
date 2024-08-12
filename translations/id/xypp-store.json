@@ -5,14 +5,14 @@
             "store": "Toko",
             "purchase-history": "Pembelian",
             "create": "Buat Item",
-            "purchase": "",
+            "purchase": "Pembelian",
             "edit_button": "Edit",
-            "show_case": "",
+            "show_case": "Etalase",
             "price_free": "Gratis",
             "provider": {
                 "all": "Semua",
                 "error": {
-                    "title": "",
+                    "title": "Provider tidak diketahui",
                     "no-preview": ""
                 }
             },
@@ -29,11 +29,11 @@
                 "price": "Harga",
                 "provider": "Provider",
                 "provider_data": "Data Provider",
-                "use_cnt": "",
-                "expire_time": "",
+                "use_cnt": "Batas penggunaan",
+                "expire_time": "Waktu Kedaluwarsa",
                 "expire_time_tip": "Biarkan kosong untuk menonaktifkan, atau atur ke angka untuk kedaluwarsa setelah beberapa detik.",
-                "rest_cnt": "",
-                "rest_cnt_tip": "Biarkan kosong agar tak terbatas, atau atur ke angka untuk membatasinya.",
+                "rest_cnt": "Sisa Batas Penggunaan",
+                "rest_cnt_tip": "Kosongkan untuk tidak terbatas, atau isi dengan angka untuk membatasi jumlah.",
                 "edit-title": "Edit Item#{0}",
                 "edit-button": "Edit",
                 "button": "Buat",
@@ -52,8 +52,8 @@
             "purchase-confirm": "Konfirmasi Pembelian?",
             "item": {
                 "rest_cnt": "Sisa {0}",
-                "use_cnt": "",
-                "expire": "",
+                "use_cnt": "Digunakan {0} kali",
+                "expire": "Berlaku selama {0}",
                 "no_available": "Tidak ada item yang tersedia",
                 "infinity_count": "Tersedia tanpa batas",
                 "not_found": "Item tidak ditemukan"
@@ -61,15 +61,15 @@
             "history": {
                 "no_record": "Tidak ada pembelian",
                 "delete_button": "Hapus",
-                "confirm_delete": "",
+                "confirm_delete": "Yakin ingin menghapus item yang telah Anda beli ini?",
                 "title": "Pembelian",
                 "use": "",
                 "rest_cnt": "Dapat digunakan {0} kali",
-                "infinity_use": "",
-                "expire": "",
+                "infinity_use": "Penggunaan tidak terbatas",
+                "expire": "Kedaluwarsa pada {0}",
                 "forever": "Tersedia selamanya",
                 "confirm_use": "",
-                "unable_to_use": "",
+                "unable_to_use": "Item ini tidak dapat digunakan",
                 "not_found": "Item tidak ditemukan"
             },
             "query-modal": {
