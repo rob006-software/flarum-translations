@@ -1,32 +1,32 @@
 {
     "xypp-forum-quests": {
         "forum": {
-            "reward_not_found": "",
-            "condition_not_found": "",
+            "reward_not_found": "Reward {reward} tidak ditemukan",
+            "condition_not_found": "Kondisi {condition} tidak ditemukan",
             "notification": {
                 "quest_done": "",
                 "quest_done_label": ""
             },
             "condition": {
                 "condition": "Kondisi",
-                "format": "",
-                "and": "",
+                "format": "<b>{name}</b> {operator}{value} {span} ",
+                "and": " dan ",
                 "span": "Dalam {span} hari"
             },
             "reward": {
-                "reward": "",
+                "reward": "Reward",
                 "format": "<b>{name}</b>:{value}",
                 "and": " dan "
             },
             "quest": {
                 "quest": "",
                 "load_more": "Muat Lebih",
-                "done": ""
+                "done": "[Selesai]"
             },
             "re_available": {
                 "none": "Hanya Sekali",
-                "day": "",
-                "hour": ""
+                "day": "Tersedia kembali sebelum {value} hari",
+                "hour": "Tersedia kembali setelah {value} jam"
             },
             "condition_view": {
                 "button": "Lihat Kondisi",
@@ -39,7 +39,7 @@
             "quest_done": {
                 "all": "Semua",
                 "true": "Selesai",
-                "false": ""
+                "false": "Tidak"
             }
         },
         "admin": {
@@ -64,20 +64,20 @@
                 "icon": "Ikon",
                 "hidden": "Tersembunyi",
                 "condition": "Kondisi",
-                "reward": "",
+                "reward": "Reward",
                 "condition-name": "Nama Kondisi",
-                "condition-operator": "",
+                "condition-operator": "Operator",
                 "condition-value": "Value",
                 "condition-span": "",
                 "condition-alter_name": "Nama Tampilan",
-                "reward-name": "",
+                "reward-name": "Nama Reward",
                 "reward-value": "Value",
                 "reward-get_value": "Dapatkan Value",
                 "reward-alter_name": "Nama Tampilan",
                 "button": "Buat",
                 "button-edit": "Edit",
                 "new_item": "Item Baru",
-                "re_available": ""
+                "re_available": "Tersedia kembali"
             },
             "re_available": {
                 "none": "Sekali",
