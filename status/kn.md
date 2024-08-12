@@ -4712,6 +4712,17 @@
 		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-cbox/stats">0</a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/datlechin-cbox/kn/"><img src="https://weblate.rob006.net/widgets/flarum/kn/datlechin-cbox/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/nodeloc/Dislikes" title="nodeloc/dislikes"><code>nodeloc/dislikes</code></a>
+		</td>
+		<td align="center">427</td>
+		<td align="center"><a href="https://packagist.org/packages/nodeloc/dislikes/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/nodeloc/dislikes/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/nodeloc/dislikes/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nodeloc-dislikes/kn/"><img src="https://weblate.rob006.net/widgets/flarum/kn/nodeloc-dislikes/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
