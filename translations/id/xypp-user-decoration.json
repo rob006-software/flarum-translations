@@ -10,7 +10,7 @@
                 "post": "Desain Post",
                 "card": "Desain Kartu Pengguna",
                 "loading": "Memuat",
-                "closed": "",
+                "closed": "Ditutup",
                 "no-login": "Login untuk melihat pratinjau"
             },
             "decoration": {
@@ -23,15 +23,15 @@
                 "show-decorations": "Dekorasi"
             },
             "modal": {
-                "title": "",
+                "title": "Tawarkan Dekorasi",
                 "tip": "Silakan pilih dekorasi",
                 "loading": "Memuat",
-                "button": ""
+                "button": "Tawarkan"
             },
             "create": "Buat",
-            "create-success": "",
+            "create-success": "Dekorasi berhasil dibuat",
             "create-modal": {
-                "edit-title": "",
+                "edit-title": "Edit Dekorasi #{0}",
                 "edit-button": "Edit",
                 "title": "Buat Dekorasi",
                 "type": {
@@ -39,7 +39,7 @@
                     "avatar": "Avatar",
                     "username": "Username",
                     "post": "Post",
-                    "usercard": ""
+                    "usercard": "Kartu Pengguna"
                 },
                 "name": "nama",
                 "desc": "Deskripsi",
@@ -51,14 +51,14 @@
             "delete_confirm": "Apakah Anda yakin untuk menghapus dekorasi ini?",
             "delete-success": "Berhasil Menghapus",
             "user_controls": {
-                "offer": ""
+                "offer": "Tawarkan Dekorasi"
             }
         },
         "admin": {
             "permissions": {
-                "view_decoration": "",
-                "delete_decoration": "",
-                "offer_decoration": "",
+                "view_decoration": "Melihat dekorasi orang lain",
+                "delete_decoration": "Menghapus dekorasi orang lain",
+                "offer_decoration": "Tawarkan dekorasi",
                 "create_decoration": "Membuat/Mengedit dekorasi",
                 "view-all": "Melihat semua dekorasi"
             },
@@ -85,7 +85,7 @@
             },
             "unavailable": {
                 "decoration": {
-                    "dumplicate": ""
+                    "dumplicate": "Sudah Memiliki"
                 }
             },
             "create-modal": {
