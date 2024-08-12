@@ -46,7 +46,7 @@
             },
             "bounties": {
                 "purchase-control": "Tambahkan Bounty",
-                "enable-control": "Aktifkan Hadiah"
+                "enable-control": "Aktifkan Bounty"
             },
             "choose-bounty-amount-modal": {
                 "title": "Pilih jumlah bounty",
@@ -95,7 +95,7 @@
                 "bump-others": "(PTB) Izinkan orang lain mempromosikan diskusi",
                 "bump-others-description": "Aktifkan ini agar orang lain selain penulis juga dapat membayar untuk mempromosikan diskusi\n",
                 "select-bounty-product": "Bounty",
-                "select-bounty-product-description": "Pilih produk yang akan disiapkan untuk hadiah. Produk hanya dapat memiliki satu Harga dengan model: \"Custom chooses price\". Salin ID produk yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"
+                "select-bounty-product-description": "Pilih produk yang akan disiapkan untuk hadiah. Produk hanya dapat memiliki satu Harga dengan model: \"Harga yang dipilih secara khusus\". Salin ID produk yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"
             },
             "edit-group": {
                 "select-pta-product": "Akses Berbayar",
@@ -108,10 +108,10 @@
                 "webhook-secret": "Webhook signing secret",
                 "link-access-portal": "Tautkan portal akses di bawah menu dropdown sesi pengguna",
                 "link-to-terms": "URL Ketentuan Pembayaran",
-                "recount-total-discussion-bounties": "Hitung total hadiah diskusi"
+                "recount-total-discussion-bounties": "Hitung total bounty diskusi"
             },
             "permission": {
-                "enable-bounties": "Mengaktifkan hadiah"
+                "enable-bounties": "Mengaktifkan bounty"
             }
         }
     }
