@@ -18,7 +18,7 @@
             },
             "unavailable": {
                 "common": {
-                    "unknown": "",
+                    "unknown": "Tidak Dapat Membeli",
                     "no_rest": ""
                 }
             },
@@ -27,8 +27,8 @@
                 "name": "Nama",
                 "desc": "Deskripsi",
                 "price": "Harga",
-                "provider": "",
-                "provider_data": "",
+                "provider": "Provider",
+                "provider_data": "Data Provider",
                 "use_cnt": "",
                 "expire_time": "",
                 "expire_time_tip": "Biarkan kosong untuk menonaktifkan, atau atur ke angka untuk kedaluwarsa setelah beberapa detik.",
@@ -37,16 +37,16 @@
                 "edit-title": "Edit Item#{0}",
                 "edit-button": "Edit",
                 "button": "Buat",
-                "success": "",
+                "success": "Item dibuat",
                 "confirm_delete": "Apakah Anda yakin ingin menghapus item ini?",
                 "delete-button": "Hapus",
                 "providers": {
-                    "unknown": "",
-                    "unknown_data": "",
-                    "no_select_data": "",
+                    "unknown": "Pilih Provider",
+                    "unknown_data": "Perlu memilih provider terlebih dahulu",
+                    "no_select_data": "Pilih Data Provider",
                     "special_data": "Data Yang Dipilih"
                 },
-                "provider_data_error": "",
+                "provider_data_error": "Pilih provider dan data",
                 "provider_data_default": "Data default"
             },
             "purchase-confirm": "Konfirmasi Pembelian?",
@@ -81,12 +81,12 @@
                 }
             },
             "use_result": {
-                "success": "",
+                "success": "Sukses",
                 "fail": {
-                    "unknown": "",
-                    "error": "",
-                    "not_enough": "",
-                    "cannot": "",
+                    "unknown": "Error Tidak Diketahui",
+                    "error": "Terjadi error saat menggunakan item",
+                    "not_enough": "Jumlah penggunaan tidak cukup",
+                    "cannot": "Tidak dapat menggunakan Item ini",
                     "fail_expire": "Gagal saat mencoba mengakhiri Item ini",
                     "id_not_found": "ID item tidak ditemukan",
                     "expired": "Item kedaluwarsa"
@@ -96,7 +96,7 @@
                 "success": "Sukses",
                 "fail": {
                     "unknown": "Error Tidak Diketahui",
-                    "not_enough_item": "",
+                    "not_enough_item": "Item tidak cukup",
                     "cannot": "Tidak dapat membeli Item ini",
                     "not_enough_money": "Uang tidak cukup"
                 }
