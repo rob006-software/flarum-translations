@@ -15,7 +15,7 @@
                 "goods-price": "Harga",
                 "goods-stock": "Stok",
                 "goods-discount": "Diskon(%)",
-                "goods-discount-limit": "",
+                "goods-discount-limit": "Batas diskon",
                 "goods-discount-limit-unit": "Unit",
                 "goods-type": "",
                 "goods-outtime": "",
@@ -61,11 +61,11 @@
                 "file-exist": "file sudah ada",
                 "automatic-renewal": "Perpanjangan otomatis tidak diaktifkan",
                 "invalid-product": "Produk tidak valid",
-                "automatic-renewal-fail": "",
+                "automatic-renewal-fail": "Perpanjangan otomatis gagal [{message}]",
                 "goods-invalid-fail": "",
                 "goods-invalid-event-fail": "",
                 "cart-no-use": "",
-                "cart-use-fail": ""
+                "cart-use-fail": "Penggunaan barang gagal"
             }
         },
         "lib": {
@@ -73,8 +73,8 @@
             "item-status-up": "Terdaftar",
             "item-status-down": "Diturunkan",
             "item-type-all": "Semua jenis barang",
-            "item-type-permanent": "",
-            "item-type-limit": "",
+            "item-type-permanent": "Masa berlaku permanen",
+            "item-type-limit": "Masa berlaku terbatas",
             "item-id": "ID",
             "item-desc": "Deskripsi Barang",
             "item-title": "Judul Barang",
@@ -86,7 +86,7 @@
             "item-discount": "diskon",
             "item-discount_limit": "Periode diskon",
             "item-type": "Jenis barang",
-            "item-created-at": "",
+            "item-created-at": "Waktu pembuatan",
             "list-empty": "Tempat ini sepenuhnya kosong",
             "list-load-more": "lainnya",
             "item-limit-unit-days": "hari",
