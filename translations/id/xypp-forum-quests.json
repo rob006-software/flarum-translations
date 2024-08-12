@@ -4,8 +4,8 @@
             "reward_not_found": "Reward {reward} tidak ditemukan",
             "condition_not_found": "Kondisi {condition} tidak ditemukan",
             "notification": {
-                "quest_done": "",
-                "quest_done_label": ""
+                "quest_done": "Anda baru saja menyelesaikan quest {name}!",
+                "quest_done_label": "Quest Selesai"
             },
             "condition": {
                 "condition": "Kondisi",
@@ -19,7 +19,7 @@
                 "and": " dan "
             },
             "quest": {
-                "quest": "",
+                "quest": "Quest",
                 "load_more": "Muat Lebih",
                 "done": "[Selesai]"
             },
@@ -33,8 +33,8 @@
                 "title": "Tampilan Kondisi",
                 "name": "Nama",
                 "value": "Value",
-                "span": "",
-                "set_span": ""
+                "span": "Dalam Rentang",
+                "set_span": "Atur Rentang"
             },
             "quest_done": {
                 "all": "Semua",
@@ -57,8 +57,8 @@
                 "create": "Buat"
             },
             "create-modal": {
-                "title": "",
-                "edit": "",
+                "title": "Buat Quest",
+                "edit": "Edit Quest",
                 "name": "Nama",
                 "description": "Deskripsi",
                 "icon": "Ikon",
@@ -68,7 +68,7 @@
                 "condition-name": "Nama Kondisi",
                 "condition-operator": "Operator",
                 "condition-value": "Value",
-                "condition-span": "",
+                "condition-span": "Rentang Waktu",
                 "condition-alter_name": "Nama Tampilan",
                 "reward-name": "Nama Reward",
                 "reward-value": "Value",
