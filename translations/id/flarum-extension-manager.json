@@ -36,7 +36,7 @@
                 "title": "Composer",
                 "minimum_stability": {
                     "label": "Stabilitas Minimum",
-                    "help": "Jenis paket yang diizinkan untuk diinstal. Jangan ubah ini kecuali Anda tahu apa yang Anda lakukan.",
+                    "help": "Jenis paket yang diizinkan untuk diinstal. Jangan ubah ini kecuali Anda benar-benar mengetahui apa yang Anda lakukan.",
                     "options": {
                         "stable": "Stabil (Direkomendasikan)",
                         "rc": "RC (Kandidat Rilis)",
@@ -76,7 +76,7 @@
                 "check_why_it_failed_updating": "Tunjukkan mengapa tidak memperbarui ke versi terbaru.",
                 "install": "Pasang ekstensi baru",
                 "install_help": "Isi nama paket ekstensi untuk melanjutkan. Anda dapat menentukan <semantic_link>versi semantik</semantic_link> menggunakan format <code>vendor/package-name:version</code>. Kunjungi {extiverse} untuk melihat-lihat ekstensi.\n",
-                "proceed": "Melanjutkan",
+                "proceed": "Memproses",
                 "remove": "Hapus pemasangan",
                 "successful_install": "{extension} berhasil dipasang, mengalihkan..",
                 "successful_remove": "Ekstensi berhasil dihapus.",
@@ -85,7 +85,7 @@
                 "update_soft_label": "Soft update",
                 "update_hard_label": "Hard update"
             },
-            "file_permissions": "Manajer ekstensi memerlukan izin baca dan tulis pada file dan direktori berikut ini: composer.json, composer.lock, vendor, storage, storage/.composer\n",
+            "file_permissions": "Manajer ekstensi memerlukan izin baca (read) dan tulis (write) pada file dan direktori berikut ini: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
                 "description": "Pembaruan utama Flarum tidak kompatibel dengan versi sebelumnya, yang berarti bahwa beberapa ekstensi yang saat ini Anda instal, dan modifikasi yang dilakukan secara manual mungkin tidak akan berfungsi dengan versi baru ini. Pastikan untuk membuat backup database dan file Anda sebelum melanjutkan.\n",
                 "dry_run": "Uji Coba",
@@ -115,7 +115,7 @@
                     },
                     "none": "Belum ada task.",
                     "operations": {
-                        "extension_install": "Pasang ekstensi",
+                        "extension_install": "Install ekstensi",
                         "extension_remove": "Hapus ekstensi",
                         "extension_update": "Perbarui ekstensi",
                         "update_check": "Periksa pembaruan",
@@ -147,18 +147,18 @@
                 "debug_mode_warning": "Anda sedang menjalankan mode debug, manajer ekstensi tidak dapat menginstal dan memperbarui paket local development dengan benar. Silakan gunakan command line interface untuk tujuan tersebut.",
                 "queue_jobs": "Jalankan operasi di antrian latar belakang",
                 "queue_jobs_help": "Anda dapat membaca tentang implementasi <a href='{basic_impl_link}'>basic queue</a> atau yang <a href='{adv_impl_link}'>lebih canggih</a>. Pastikan versi PHP yang digunakan untuk queue adalah {php_version}. Pastikan <a href='{folder_perms_link}'>izin folder (folder permission)</a> telah dikonfigurasi dengan benar.\n",
-                "task_retention_days": "Hari retensi task",
-                "task_retention_days_help": "Jumlah hari untuk menyimpan task yang sudah selesai dalam database. Task yang lebih lama dari ini akan dihapus. Atur ke 0 untuk menyimpan semua task.\n"
+                "task_retention_days": "Jangka waktu retensi task",
+                "task_retention_days_help": "Jumlah hari untuk menyimpan task yang telah selesai di database. Task yang lebih lama dari ini akan dihapus. Atur ke 0 untuk menyimpan semua task.\n"
             },
             "updater": {
                 "up_to_date": "Semuanya sudah diperbarui!",
                 "check_for_updates": "Periksa pembaruan",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Berhasil memperbarui semua paket.",
-                "last_update_checked_at": "Pemeriksaan Pembaruan Terakhir: ",
+                "last_update_checked_at": "Terakhir Diperiksa: ",
                 "run_global_update": "Jalankan Pembaruan Global",
                 "updater_title": "Pembaruan",
-                "updater_help": "Menjalankan pemeriksaan ekstensi baru dan pembaruan Flarum."
+                "updater_help": "Menjalankan pemeriksaan untuk pembaruan ekstensi dan Flarum."
             },
             "update_successful": "Flarum berhasil diperbarui.",
             "why_not_modal": {
