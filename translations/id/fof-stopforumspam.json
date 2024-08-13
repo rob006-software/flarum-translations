@@ -16,10 +16,10 @@
                 "region_closest_label": "Terdekat",
                 "region_europe_label": "Eropa",
                 "region_us_label": "Amerika Serikat",
-                "confidence_label": "Confidence Score",
-                "confidence_help": "Confidence score adalah indikator yang cukup baik bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Tetapkan tingkat kepercayaan Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari pengujian 'frekuensi' di atas.",
+                "confidence_label": "Nilai Confidence",
+                "confidence_help": "Nilai confidence adalah indikator yang cukup baik bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Atur confidence level Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari pengujian 'frekuensi' di atas.",
                 "email_hash_label": "Gunakan alamat email yang di-hash",
-                "email_hash_help": "Abaikan hash MD5 dari alamat email jika Anda tidak ingin mengabaikan alamat email itu sendiri. Metode ini mengabaikan semua daftar hitam, normalisasi, dan pemeriksaan obfuscation bypass."
+                "email_hash_help": "Lewati hash MD5 dari alamat email jika Anda tidak ingin melewati alamat email itu sendiri. Metode ini mengabaikan semua daftar hitam, normalisasi, dan obfuscation bypass check."
             }
         },
         "forum": {
