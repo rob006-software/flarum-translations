@@ -18,7 +18,7 @@
                 "delete-redundant": "Hapus terjemahan yang tidak perlu",
                 "delete-redundant-confirm": "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai khusus yang sama. Ini dapat berguna untuk membersihkan setelah pembaruan paket bahasa.\n",
                 "delete-all": "Hapus semua terjemahan",
-                "delete-all-confirm": "Ini akan menghapus SEMUA terjemahan khusus {count} Anda. Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.\n"
+                "delete-all-confirm": "Ini akan menghapus SEMUA dari {count} terjemahan khusus Anda. Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.\n"
             },
             "locales": {
                 "all": "Semua"
@@ -38,8 +38,8 @@
                     "without": "Tanpa"
                 },
                 "type-options": {
-                    "any": "Asli atau Khusus",
-                    "original": "Asli",
+                    "any": "Original atau Khusus",
+                    "original": "Original",
                     "own": "Khusus"
                 },
                 "operation-options": {
@@ -62,8 +62,8 @@
                     "namespace": "Berdasarkan frontend"
                 },
                 "total-options": {
-                    "percent": "Persen",
-                    "count": "Perhitungan"
+                    "percent": "Persentase",
+                    "count": "Jumlah"
                 },
                 "columns": {
                     "namespace": "Namespace",
@@ -74,7 +74,7 @@
                 "count": {
                     "percent": "{percent} %",
                     "total": "{translated} / {total}",
-                    "details": "total {total} / {original} asli / {custom} khusus"
+                    "details": "total {total} / {original} original / {custom} khusus"
                 },
                 "all-namespaces": "Semua",
                 "apply-missing-filter": "Tampilkan terjemahan yang belum diterjemahkan yang cocok"
@@ -87,7 +87,7 @@
                 "namespace": "Namespace",
                 "namespace-all": "Semua",
                 "include-originals": "Sertakan terjemahan aslinya",
-                "include-all": "Sertakan terjemahan yang ditetapkan untuk \"Semua\" bahasa",
+                "include-all": "Sertakan terjemahan yang didefinisikan untuk \"semua\" bahasa",
                 "output": "Output",
                 "output-loading": "Memuat output...",
                 "output-empty": "Output kosong",
@@ -99,7 +99,7 @@
                 "input-placeholder": "Tarik dan lepas atau paste file Yaml di sini",
                 "locale": "Bahasa lokal",
                 "locale-all": "Pseudo-locale \"Semua\"",
-                "override-existing": "Mengesampingkan terjemahan khusus Saya yang sudah ada",
+                "override-existing": "Timpa terjemahan khusus Saya yang sudah ada",
                 "submit": "Impor",
                 "results": "Impor selesai. String {imported} telah diimpor dan string {identical} yang identik dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n",
                 "results-with-ignore": "Impor telah selesai. String {imported} telah diimpor, string {ignored} yang sudah ada telah diabaikan dan string {identical} yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
