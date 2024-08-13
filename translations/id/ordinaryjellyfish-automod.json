@@ -2,11 +2,11 @@
     "ordinaryjellyfish-automod": {
         "admin": {
             "permissions": {
-                "bypass": "Melewati filter otomatis"
+                "bypass": "Bypass filter otomatis"
             },
             "settings": {
                 "threshold": "Ambang Batas Confidence",
-                "threshold_help": "Ambang batas confidence antara 0,00 dan 1,00, yang mencerminkan kemungkinan input atau respons termasuk dalam kategori tertentu. Ambang batas yang lebih rendah akan menghasilkan lebih sedikit false positive, tetapi juga dapat menghasilkan lebih banyak false negative. Ambang batas yang lebih tinggi akan menghasilkan lebih banyak false positive, tetapi juga dapat menghasilkan lebih sedikit false negative.",
+                "threshold_help": "Ambang batas confidence antara 0.00 dan 1.00, yang mencerminkan kemungkinan input atau respons termasuk dalam kategori tertentu. Ambang batas yang lebih rendah akan menghasilkan lebih sedikit false positive, tetapi juga dapat menghasilkan lebih banyak false negative. Ambang batas yang lebih tinggi akan menghasilkan lebih banyak false positive, tetapi juga dapat menghasilkan lebih sedikit false negative.",
                 "moderate_categories_label": "Kategori Moderasi",
                 "moderate_categories_label_help": "Kategori yang akan menandai konten secara otomatis untuk di moderasi ketika diaktifkan dan memenuhi aturan confidence.",
                 "moderate_categories_enable": "Aktifkan Kategori Moderasi",
