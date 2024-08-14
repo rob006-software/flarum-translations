@@ -16,7 +16,8 @@
                 "allow_implicit": "",
                 "enforce_state": "",
                 "require_exact_redirect_uri": "",
-                "authorization_method_fetch": ""
+                "authorization_method_fetch": "",
+                "allow_delete_records": ""
             },
             "clients": {
                 "client_id": "",
@@ -46,6 +47,11 @@
             "tokens": {
                 "add_token": "",
                 "delete_token": ""
+            },
+            "action": {
+                "delete_all_records_button": "",
+                "delete_all_records_confirm": "",
+                "delete_all_records_success": ""
             }
         },
         "forum": {
@@ -66,7 +72,10 @@
             "authorized": {
                 "no_records": "",
                 "no_more_records": "",
-                "load_more": ""
+                "load_more": "",
+                "delete_button": "",
+                "delete_all_button": "",
+                "delete_all_confirm": ""
             }
         }
     }

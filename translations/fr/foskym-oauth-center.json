@@ -16,7 +16,8 @@
                 "allow_implicit": "Autoriser l'octroi implicite (response_type=token)",
                 "enforce_state": "Renforcer la validation de l'état (paramètre d'état)",
                 "require_exact_redirect_uri": "Exiger un URI de redirection exact",
-                "authorization_method_fetch": "Méthode d'autorisation de Fetch (ne redirige pas directement vers ce service)"
+                "authorization_method_fetch": "Méthode d'autorisation de Fetch (ne redirige pas directement vers ce service)",
+                "allow_delete_records": ""
             },
             "clients": {
                 "client_id": "Identifiant du client",
@@ -46,6 +47,11 @@
             "tokens": {
                 "add_token": "Ajouter un jeton",
                 "delete_token": "Supprimer le jeton"
+            },
+            "action": {
+                "delete_all_records_button": "",
+                "delete_all_records_confirm": "",
+                "delete_all_records_success": ""
             }
         },
         "forum": {
@@ -66,7 +72,10 @@
             "authorized": {
                 "no_records": "Aucun enregistrement",
                 "no_more_records": "Il n'y a plus d'enregistrements",
-                "load_more": "Charger plus"
+                "load_more": "Charger plus",
+                "delete_button": "",
+                "delete_all_button": "",
+                "delete_all_confirm": ""
             }
         }
     }

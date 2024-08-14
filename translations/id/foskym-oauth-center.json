@@ -16,7 +16,8 @@
                 "allow_implicit": "Izinkan Implicit Grant (response_type = token)",
                 "enforce_state": "Menerapkan State Validation (state parameter)",
                 "require_exact_redirect_uri": "Memerlukan URI Pengalihan yang Tepat",
-                "authorization_method_fetch": "Metode Otorisasi Pengambilan (Tidak langsung mengarahkan ke)"
+                "authorization_method_fetch": "Metode Otorisasi Pengambilan (Tidak langsung mengarahkan ke)",
+                "allow_delete_records": ""
             },
             "clients": {
                 "client_id": "ID Client",
@@ -46,6 +47,11 @@
             "tokens": {
                 "add_token": "Tambahkan Token",
                 "delete_token": "Hapus Token"
+            },
+            "action": {
+                "delete_all_records_button": "",
+                "delete_all_records_confirm": "",
+                "delete_all_records_success": ""
             }
         },
         "forum": {
@@ -66,7 +72,10 @@
             "authorized": {
                 "no_records": "Tidak ada catatan",
                 "no_more_records": "Tidak ada lagi catatan",
-                "load_more": "Muat Lebih Lanjut"
+                "load_more": "Muat Lebih Lanjut",
+                "delete_button": "",
+                "delete_all_button": "",
+                "delete_all_confirm": ""
             }
         }
     }
