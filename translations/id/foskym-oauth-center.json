@@ -17,13 +17,13 @@
                 "enforce_state": "Menerapkan State Validation (state parameter)",
                 "require_exact_redirect_uri": "Memerlukan URI Pengalihan yang Tepat",
                 "authorization_method_fetch": "Metode Otorisasi Pengambilan (Tidak langsung mengarahkan ke)",
-                "allow_delete_records": ""
+                "allow_delete_records": "Izinkan Hapus Catatan Otorisasi"
             },
             "clients": {
                 "client_id": "ID Client",
                 "client_secret": "Client Secret",
                 "redirect_uri": "URI Pengalihan",
-                "grant_types": "",
+                "grant_types": "Jenis Grant",
                 "scope": "Cakupan",
                 "client_name": "Nama",
                 "client_desc": "Deskripsi",
@@ -49,9 +49,9 @@
                 "delete_token": "Hapus Token"
             },
             "action": {
-                "delete_all_records_button": "",
-                "delete_all_records_confirm": "",
-                "delete_all_records_success": ""
+                "delete_all_records_button": "Hapus semua catatan",
+                "delete_all_records_confirm": "Konfirmasi hapus semua catatan",
+                "delete_all_records_success": "Berhasil menghapus semua catatan"
             }
         },
         "forum": {
@@ -73,9 +73,9 @@
                 "no_records": "Tidak ada catatan",
                 "no_more_records": "Tidak ada lagi catatan",
                 "load_more": "Muat Lebih Lanjut",
-                "delete_button": "",
-                "delete_all_button": "",
-                "delete_all_confirm": ""
+                "delete_button": "Hapus log ini",
+                "delete_all_button": "Hapus semua log",
+                "delete_all_confirm": "Konfirmasi hapus semua log"
             }
         }
     }
