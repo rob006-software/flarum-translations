@@ -757,6 +757,9 @@ return [
 	'gtdxyz-login' => [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-login/1.0.2/locale/en.yml',
 	],
+	'hamcq-oauth-center' => [
+		'tag' => 'https://raw.githubusercontent.com/HamCQ/flarum-oauth-center/v1.0.1/locale/en.yml',
+	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
