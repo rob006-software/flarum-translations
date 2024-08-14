@@ -13,7 +13,7 @@
                 "levelFormula": "Masukkan rumus level（misalnya「[expTotal] / (100 + 5 * [level])」）",
                 "levelFormulaDesc": "Anda dapat menggunakan variabel ini [expTotal] [level]"
             },
-            "preview": ""
+            "preview": "Pratinjau (perlu disimpan)"
         },
         "lib": {
             "defaults": {
@@ -23,7 +23,7 @@
                 "levelFormula": "[expTotal] / (100 * [level])"
             },
             "error": {
-                "calculation": ""
+                "calculation": "Perhitungan level exp salah, silakan periksa rumusnya."
             }
         }
     }
