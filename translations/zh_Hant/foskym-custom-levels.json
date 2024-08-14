@@ -12,7 +12,8 @@
                 "expFormulaDesc3": "需要插件（[money] [likesReceived] [bestAnswerCount]）",
                 "levelFormula": "輸入等級公式（例如「[expTotal] / (100 + 5 * [level])」）",
                 "levelFormulaDesc": "您可以使用這些變數 [expTotal] [level]"
-            }
+            },
+            "preview": ""
         },
         "lib": {
             "defaults": {
@@ -20,6 +21,9 @@
                 "exp": "[expTotal] 經驗值",
                 "expFormula": "[討論數] * 40 + [評論數] / 20",
                 "levelFormula": "[expTotal] / (100 * [等級])"
+            },
+            "error": {
+                "calculation": ""
             }
         }
     }

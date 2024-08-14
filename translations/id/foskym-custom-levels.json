@@ -12,7 +12,8 @@
                 "expFormulaDesc3": "Butuh Plugin（[money] [likesReceived] [bestAnswerCount]）",
                 "levelFormula": "Masukkan rumus level（misalnya「[expTotal] / (100 + 5 * [level])」）",
                 "levelFormulaDesc": "Anda dapat menggunakan variabel ini [expTotal] [level]"
-            }
+            },
+            "preview": ""
         },
         "lib": {
             "defaults": {
@@ -20,6 +21,9 @@
                 "exp": "[expTotal] Exp",
                 "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
                 "levelFormula": "[expTotal] / (100 * [level])"
+            },
+            "error": {
+                "calculation": ""
             }
         }
     }

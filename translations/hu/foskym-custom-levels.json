@@ -12,7 +12,8 @@
                 "expFormulaDesc3": "Bővítményekkel ([money] [likesReceived] [bestAnswerCount])",
                 "levelFormula": "Adja meg a szint képletét (például „[expTotal] / (100 + 5 * [level])”)",
                 "levelFormulaDesc": "Ezeket a változókat használhatja: [expTotal] [level]"
-            }
+            },
+            "preview": ""
         },
         "lib": {
             "defaults": {
@@ -20,6 +21,9 @@
                 "exp": "[expTotal] TP",
                 "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
                 "levelFormula": "[expTotal] / (100 * [level])"
+            },
+            "error": {
+                "calculation": ""
             }
         }
     }

@@ -12,7 +12,8 @@
                 "expFormulaDesc3": "Besoin de plugins（[money] [likesReceived] [bestAnswerCount]）",
                 "levelFormula": "Saisir la formule pour le gain de niveaux（par exemple「[expTotal] / (100 + 5 * [level])」）",
                 "levelFormulaDesc": "Vous pouvez utiliser ces variables [expTotal] [level]"
-            }
+            },
+            "preview": ""
         },
         "lib": {
             "defaults": {
@@ -20,6 +21,9 @@
                 "exp": "[expTotal] points d'expérience",
                 "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
                 "levelFormula": "[expTotal] / (100 * [level])"
+            },
+            "error": {
+                "calculation": ""
             }
         }
     }
