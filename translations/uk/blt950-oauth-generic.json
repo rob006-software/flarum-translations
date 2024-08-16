@@ -4,34 +4,34 @@
             "settings": {
                 "providers": {
                     "generic": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "scopes_label": "",
-                        "authorization_endpoint_label": "",
-                        "token_endpoint_label": "",
-                        "user_information_endpoint_label": "",
-                        "id_parameter_label": "",
-                        "display_name_parameter_label": "",
-                        "email_address_parameter_label": "",
-                        "force_userid_label": "",
-                        "force_name_label": "",
-                        "force_email_label": ""
+                        "description": "Налаштуйте логін на основі вашого власного провайдера OAuth2.",
+                        "client_id_label": "ID клієнта",
+                        "client_secret_label": "Секретний код клієнта",
+                        "scopes_label": "Область застосування",
+                        "authorization_endpoint_label": "Кінцева точка авторизації",
+                        "token_endpoint_label": "Токен кінцевої точки",
+                        "user_information_endpoint_label": "Кінцева точка з інформацією про користувача",
+                        "id_parameter_label": "Параметр ідентифікатора користувача",
+                        "display_name_parameter_label": "Параметр відображення імені",
+                        "email_address_parameter_label": "Параметр адреси електронної пошти",
+                        "force_userid_label": "Примусовий ідентифікатор користувача (0 = ні, 1 = так)",
+                        "force_name_label": "Примусово відображати ім'я (0 = ні, 1 = так)",
+                        "force_email_label": "Примусова адреса електронної пошти (0 = ні, 1 = так)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_generic_button": ""
+                "with_generic_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "generic": ""
+                "generic": "=> fof-oauth.lib.providers.generic"
             }
         },
         "lib": {
             "providers": {
-                "generic": ""
+                "generic": "Загальне"
             }
         }
     }
