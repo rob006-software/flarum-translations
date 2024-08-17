@@ -1,17 +1,12 @@
 {
     "xypp-pay-to-read": {
         "admin": {
-            "settings": {
-                "max-stack": {
-                    "label": "Maxium stack level",
-                    "desc": "Maxium stack level"
-                }
-            },
             "permission": {
                 "bypass": "Bypass payment."
             }
         },
         "forum": {
+            "preview": "Pay-To-Read Preview",
             "nopaidTip": "No one paid",
             "haspaidTip": "{0} users paid",
             "paymentTip": "Pay-to-read content",

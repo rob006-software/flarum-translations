@@ -1,17 +1,12 @@
 {
     "xypp-pay-to-read": {
         "admin": {
-            "settings": {
-                "max-stack": {
-                    "label": "",
-                    "desc": ""
-                }
-            },
             "permission": {
                 "bypass": "Bypass pembayaran."
             }
         },
         "forum": {
+            "preview": "",
             "nopaidTip": "Tidak ada yang membayar",
             "haspaidTip": "{0} pengguna telah membayar",
             "paymentTip": "Konten Pay-to-read",
