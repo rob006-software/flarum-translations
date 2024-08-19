@@ -742,6 +742,9 @@ return [
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
+	'gbcl-minecraft-oauth' => [
+		'tag' => 'https://raw.githubusercontent.com/GBCLStudio/Flarum-MinecraftAuth/1.0.0/locale/en.yml',
+	],
 	'gbcl-userip' => [
 		'tag' => 'https://raw.githubusercontent.com/GBCLStudio/userip/1.1.0/resources/locale/en.yml',
 	],
