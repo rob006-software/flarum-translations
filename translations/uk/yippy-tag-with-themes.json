@@ -25,37 +25,37 @@
                     "basic_outline_tag": "Основна схема (основний тег)",
                     "basic_outline_tab": "Основна схема (основна вкладка)",
                     "basic_outline_banner": "Основна схема (основний банер)",
-                    "flat": "",
-                    "flat_tag": "",
-                    "flat_tab": "",
-                    "flat_banner": "",
-                    "flat_border": "",
-                    "flat_border_tag": "",
-                    "flat_border_tab": "",
-                    "flat_border_banner": ""
+                    "flat": "Плоский",
+                    "flat_tag": "Плоский (осноаний тег)",
+                    "flat_tab": "Плоский (основна вкладка)",
+                    "flat_banner": "Плоский (основний банер)",
+                    "flat_border": "Плоский бордюр",
+                    "flat_border_tag": "Плоский бордюр (основний тег)",
+                    "flat_border_tab": "Плоский бордюр (основна вкладка)",
+                    "flat_border_banner": "Плоский бордюр (основний банер)"
                 }
             },
             "designs": {
-                "title": "",
-                "description": "",
-                "add": "",
-                "banner": "",
+                "title": "Індивідуальна тема дизайну для тегів",
+                "description": "Надайте список правил для відображення різних тем для певних тегів",
+                "add": "Додати дизайн для тегів",
+                "banner": "Тема дизайну {index}",
                 "header": {
-                    "theme": "",
-                    "color_theme": ""
+                    "theme": "Спеціальна тема",
+                    "color_theme": "Налаштуйте колірну схему за налаштуванням"
                 },
                 "data": {
-                    "themeName": "",
-                    "tags": "",
-                    "tags_help": "",
-                    "primary_background_color": "",
-                    "primary_font_class": "",
-                    "child_background_color": "",
-                    "child_font_class": "",
-                    "outline_background_color": "",
-                    "secondary_font_class": "",
-                    "unread_color": "",
-                    "is_enabled": ""
+                    "themeName": "Обрати тему",
+                    "tags": "Обрані основні теги",
+                    "tags_help": "Виберіть один або кілька тегів для цієї кастомізованої теми оформлення",
+                    "primary_background_color": "Редагувати основний колір тла",
+                    "primary_font_class": "Редагувати основний шрифт",
+                    "child_background_color": "Редагувати колір тла дочірнього елемента",
+                    "child_font_class": "Редагувати дочірній шрифт",
+                    "outline_background_color": "Редагувати колір контуру",
+                    "secondary_font_class": "Редагувати вторинний шрифт",
+                    "unread_color": "Редагувати колір фону непрочитаного тексту",
+                    "is_enabled": "Увімкнути тему оформлення"
                 }
             }
         }
