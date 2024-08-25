@@ -10,10 +10,10 @@
                 "expFormulaDesc1": "Anda dapat menggunakan variabel ini:",
                 "expFormulaDesc2": "Core（[discussionCount] [commentCount]）",
                 "expFormulaDesc3": "Butuh Plugin（[money] [likesReceived] [bestAnswerCount]）",
-                "levelFormula": "Masukkan rumus level（misalnya「[expTotal] / (100 + 5 * [level])」）",
-                "levelFormulaDesc": "Anda dapat menggunakan variabel ini [expTotal] [level]",
-                "round": "",
-                "roundDesc": ""
+                "levelFormula": "Masukkan rumus level（misalnya「log([expTotal], 2)」）",
+                "levelFormulaDesc": "Anda dapat menggunakan variabel ini [expTotal]",
+                "round": "Pembulatan",
+                "roundDesc": "Membulatkan exp saat melakukan perhitungan"
             },
             "preview": "Pratinjau (perlu disimpan)"
         },
@@ -22,7 +22,7 @@
                 "level": "Lv.",
                 "exp": "[expTotal] Exp",
                 "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
-                "levelFormula": "[expTotal] / (100 * [level])"
+                "levelFormula": "log([expTotal], 2)"
             },
             "error": {
                 "calculation": "Perhitungan level exp salah, silakan periksa rumusnya."
