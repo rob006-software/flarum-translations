@@ -10,8 +10,10 @@
                 "expFormulaDesc1": "You can use these variables：",
                 "expFormulaDesc2": "Core（[discussionCount] [commentCount]）",
                 "expFormulaDesc3": "Need Plugins（[money] [likesReceived] [bestAnswerCount]）",
-                "levelFormula": "Enter the formula of level（e.g.「[expTotal] / (100 + 5 * [level])」）",
-                "levelFormulaDesc": "You can use these variables [expTotal] [level]"
+                "levelFormula": "Enter the formula of level（e.g.「log([expTotal], 2)」）",
+                "levelFormulaDesc": "You can use these variables [expTotal]",
+                "round": "Round",
+                "roundDesc": "Round the exp when calculating"
             },
             "preview": "Preview(need to save)"
         },
@@ -20,7 +22,7 @@
                 "level": "Lv.",
                 "exp": "[expTotal] Exp",
                 "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
-                "levelFormula": "[expTotal] / (100 * [level])"
+                "levelFormula": "log([expTotal], 2)"
             },
             "error": {
                 "calculation": "The calculation of exp level is wrong, please check the formula."
