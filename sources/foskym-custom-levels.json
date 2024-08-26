@@ -5,27 +5,85 @@
                 "levelText": "Enter the text to be displayed for the levels (e.g. Rank, Level)",
                 "levelDesc": "Available variables：[level]",
                 "expText": "Enter the text to be displayed for the exp（e.g.「[expTotal] Exp」）",
-                "expDesc": "Available variables：[expTotal]",
-                "expFormula": "Enter the formula of exp（e.g.「[discussionCount] * 40 + [commentCount] / 20」）",
-                "expFormulaDesc1": "You can use these variables：",
-                "expFormulaDesc2": "Core（[discussionCount] [commentCount]）",
-                "expFormulaDesc3": "Need Plugins（[money] [likesReceived] [bestAnswerCount]）",
-                "levelFormula": "Enter the formula of level（e.g.「log([expTotal], 2)」）",
-                "levelFormulaDesc": "You can use these variables [expTotal]",
-                "round": "Round",
-                "roundDesc": "Round the exp when calculating"
+                "expDesc": "Available variables：[expTotal] [expPercent] [nextLevel] [expToNextLevel]",
+                "expForPost": "The exp gained for each post",
+                "expForPostDesc": "Pure number, no decimal. Or range, e.g.「[1, 10]」means a random number between 1 and 10",
+                "postMinLength": "The minimum length of a post, 0 means no limit",
+                "postMaxTimes": "The maximum number of posts that can be made per day, 0 means no limit",
+                "expForDiscussion": "The exp gained for each discussion",
+                "expForDiscussionDesc": "Pure number, no decimal. Or range, e.g.「[1, 10]」means a random number between 1 and 10",
+                "discussionMaxTimes": "The maximum number of discussions that can be made per day, 0 means no limit",
+                "expForLike": "The exp gained when being liked",
+                "expForLikeDesc": "Requires flarum/likes extension. Pure number, no decimal. Or range, e.g.「[1, 10]」means a random number between 1 and 10",
+                "autoRemove": "Auto remove exp",
+                "cascadeRemove": "When a discussion is removed, remove the exp of the replies"
             },
-            "preview": "Preview(need to save)"
+            "auto_remove": [
+                "Never remove exp",
+                "When a post/reply is hidden or deleted (default)",
+                "When a post/reply is permanently deleted"
+            ],
+            "preview": "Preview",
+            "pages": {
+                "index": "Home",
+                "levels": "Levels"
+            },
+            "levels": {
+                "edit_level": "Edit Level",
+                "delete_confirmation": "Confirm to delete this level?",
+                "add_button": "Add Level",
+                "name": "Level Name",
+                "min_exp_required": "Required Exp"
+            },
+            "automoderator": {
+                "metric_name": "Exp",
+                "action_name": "Give Exp"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "level_updated": "Congratulations! You have reached level {level}!"
+            },
+            "settings": {
+                "notify_level_updated": "Notify when level is updated"
+            },
+            "label": {
+                "exp_logs": "Exp Logs"
+            },
+            "log": {
+                "exp": "Exp Change",
+                "reason": "Reason",
+                "time": "Time",
+                "view": "View",
+                "load_more": "Load More",
+                "no_more": "No more",
+                "no_records": "No records",
+                "type": {
+                    "system_clear": "System clear",
+                    "system_refresh": "System refresh",
+                    "automoderator": "Auto moderator",
+                    "post_posted": "Post was posted",
+                    "post_deleted": "Post was deleted",
+                    "post_hidden": "Post was hidden",
+                    "post_restored": "Post was restored",
+                    "discussion_started": "Discussion has started",
+                    "discussion_deleted": "Discussion was deleted",
+                    "discussion_hidden": "Discussion was hidden",
+                    "discussion_restored": "Discussion was restored",
+                    "comment_deleted_in_deleted_discussion": "Comment was deleted in deleted discussion",
+                    "post_liked": "Post was liked",
+                    "post_unliked": "Post was unliked",
+                    "admin_edit": "Admin edited"
+                }
+            }
         },
         "lib": {
             "defaults": {
                 "level": "Lv.",
-                "exp": "[expTotal] Exp",
-                "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
-                "levelFormula": "log([expTotal], 2)"
+                "exp": "[expTotal] Exp"
             },
             "error": {
-                "calculation": "The calculation of exp level is wrong, please check the formula."
+                "calculation": "The calculation of exp level is wrong."
             }
         }
     }

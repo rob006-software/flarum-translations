@@ -6,23 +6,81 @@
                 "levelDesc": "",
                 "expText": "",
                 "expDesc": "",
-                "expFormula": "",
-                "expFormulaDesc1": "",
-                "expFormulaDesc2": "",
-                "expFormulaDesc3": "",
-                "levelFormula": "",
-                "levelFormulaDesc": "",
-                "round": "",
-                "roundDesc": ""
+                "expForPost": "",
+                "expForPostDesc": "",
+                "postMinLength": "",
+                "postMaxTimes": "",
+                "expForDiscussion": "",
+                "expForDiscussionDesc": "",
+                "discussionMaxTimes": "",
+                "expForLike": "",
+                "expForLikeDesc": "",
+                "autoRemove": "",
+                "cascadeRemove": ""
             },
-            "preview": ""
+            "auto_remove": [
+                "",
+                "",
+                ""
+            ],
+            "preview": "",
+            "pages": {
+                "index": "",
+                "levels": ""
+            },
+            "levels": {
+                "edit_level": "",
+                "delete_confirmation": "",
+                "add_button": "",
+                "name": "",
+                "min_exp_required": ""
+            },
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
+            }
+        },
+        "forum": {
+            "notifications": {
+                "level_updated": ""
+            },
+            "settings": {
+                "notify_level_updated": ""
+            },
+            "label": {
+                "exp_logs": ""
+            },
+            "log": {
+                "exp": "",
+                "reason": "",
+                "time": "",
+                "view": "",
+                "load_more": "",
+                "no_more": "",
+                "no_records": "",
+                "type": {
+                    "system_clear": "",
+                    "system_refresh": "",
+                    "automoderator": "",
+                    "post_posted": "",
+                    "post_deleted": "",
+                    "post_hidden": "",
+                    "post_restored": "",
+                    "discussion_started": "",
+                    "discussion_deleted": "",
+                    "discussion_hidden": "",
+                    "discussion_restored": "",
+                    "comment_deleted_in_deleted_discussion": "",
+                    "post_liked": "",
+                    "post_unliked": "",
+                    "admin_edit": ""
+                }
+            }
         },
         "lib": {
             "defaults": {
                 "level": "",
-                "exp": "",
-                "expFormula": "",
-                "levelFormula": ""
+                "exp": ""
             },
             "error": {
                 "calculation": ""

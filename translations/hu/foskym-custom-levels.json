@@ -6,16 +6,82 @@
                 "levelDesc": "Elérhető változók: [level]",
                 "expText": "Adja meg a tapasztalathoz megjelenítendő szöveget (például „[expTotal] TP”）",
                 "expDesc": "Elérhető változók: [expTotal]",
+                "expForPost": "",
+                "expForPostDesc": "",
+                "postMinLength": "",
+                "postMaxTimes": "",
+                "expForDiscussion": "",
+                "expForDiscussionDesc": "",
+                "discussionMaxTimes": "",
+                "expForLike": "",
+                "expForLikeDesc": "",
+                "autoRemove": "",
+                "cascadeRemove": "",
                 "expFormula": "Adja meg a tapasztalat képletét (például „[discussionCount] * 40 + [commentCount] / 20”)",
                 "expFormulaDesc1": "Ezeket a változókat használhatja：",
                 "expFormulaDesc2": "Alapvető ([discussionCount] [commentCount]）",
                 "expFormulaDesc3": "Bővítményekkel ([money] [likesReceived] [bestAnswerCount])",
                 "levelFormula": "Adja meg a szint képletét (például „[expTotal] / (100 + 5 * [level])”)",
-                "levelFormulaDesc": "Ezeket a változókat használhatja: [expTotal] [level]",
-                "round": "",
-                "roundDesc": ""
+                "levelFormulaDesc": "Ezeket a változókat használhatja: [expTotal] [level]"
             },
-            "preview": ""
+            "auto_remove": [
+                "",
+                "",
+                ""
+            ],
+            "preview": "",
+            "pages": {
+                "index": "",
+                "levels": ""
+            },
+            "levels": {
+                "edit_level": "",
+                "delete_confirmation": "",
+                "add_button": "",
+                "name": "",
+                "min_exp_required": ""
+            },
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
+            }
+        },
+        "forum": {
+            "notifications": {
+                "level_updated": ""
+            },
+            "settings": {
+                "notify_level_updated": ""
+            },
+            "label": {
+                "exp_logs": ""
+            },
+            "log": {
+                "exp": "",
+                "reason": "",
+                "time": "",
+                "view": "",
+                "load_more": "",
+                "no_more": "",
+                "no_records": "",
+                "type": {
+                    "system_clear": "",
+                    "system_refresh": "",
+                    "automoderator": "",
+                    "post_posted": "",
+                    "post_deleted": "",
+                    "post_hidden": "",
+                    "post_restored": "",
+                    "discussion_started": "",
+                    "discussion_deleted": "",
+                    "discussion_hidden": "",
+                    "discussion_restored": "",
+                    "comment_deleted_in_deleted_discussion": "",
+                    "post_liked": "",
+                    "post_unliked": "",
+                    "admin_edit": ""
+                }
+            }
         },
         "lib": {
             "defaults": {
