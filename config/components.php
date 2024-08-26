@@ -1363,6 +1363,9 @@ return [
 	'xypp-forum-quests' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v0.2.2/locale/en.yml',
 	],
+	'xypp-more-bbcode' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-more-bbcode/v1.0.1/resources/locale/en.yml',
+	],
 	'xypp-pay-to-read' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-pay-to-read/v2.0.0/locale/en.yml',
 	],
