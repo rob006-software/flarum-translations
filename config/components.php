@@ -1361,7 +1361,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',
 	],
 	'xypp-forum-quests' => [
-		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v0.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v0.2.2/locale/en.yml',
 	],
 	'xypp-pay-to-read' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-pay-to-read/v2.0.0/locale/en.yml',
