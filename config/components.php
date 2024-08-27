@@ -1322,7 +1322,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',
 	],
 	'xypp-acgembed-rr' => [
-		'tag' => 'https://raw.githubusercontent.com/zxy19/acgembed-rr/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zxy19/acgembed-rr/v1.0.1/locale/en.yml',
 	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v0.0.2/locale/en.yml',
