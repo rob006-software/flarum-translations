@@ -5,7 +5,7 @@
                 "levelText": "Masukkan teks yang akan ditampilkan untuk level (misalnya Rank, Level)",
                 "levelDesc": "Variabel yang tersedia：[level]",
                 "expText": "Masukkan teks yang akan ditampilkan untuk exp（misalnya「[expTotal] Exp」）",
-                "expDesc": "Variabel yang tersedia：[expTotal]",
+                "expDesc": "Variabel yang tersedia：[expTotal] [expPercent] [nextLevel] [expToNextLevel]",
                 "expForPost": "",
                 "expForPostDesc": "",
                 "postMinLength": "",
@@ -31,7 +31,7 @@
                 "",
                 ""
             ],
-            "preview": "Pratinjau (perlu disimpan)",
+            "preview": "Pratinjau",
             "pages": {
                 "index": "",
                 "levels": ""
@@ -93,7 +93,7 @@
                 "levelFormula": "log([expTotal], 2)"
             },
             "error": {
-                "calculation": "Perhitungan level exp salah, silakan periksa rumusnya."
+                "calculation": "Perhitungan level exp salah."
             }
         }
     }
