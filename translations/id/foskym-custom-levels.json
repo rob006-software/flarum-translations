@@ -6,17 +6,17 @@
                 "levelDesc": "Variabel yang tersedia：[level]",
                 "expText": "Masukkan teks yang akan ditampilkan untuk exp（misalnya「[expTotal] Exp」）",
                 "expDesc": "Variabel yang tersedia：[expTotal] [expPercent] [nextLevel] [expToNextLevel]",
-                "expForPost": "",
-                "expForPostDesc": "",
-                "postMinLength": "",
-                "postMaxTimes": "",
-                "expForDiscussion": "",
-                "expForDiscussionDesc": "",
-                "discussionMaxTimes": "",
-                "expForLike": "",
-                "expForLikeDesc": "",
-                "autoRemove": "",
-                "cascadeRemove": "",
+                "expForPost": "Exp yang diperoleh untuk setiap post",
+                "expForPostDesc": "Angka murni, tanpa desimal. Atau rentang, misalnya 「[1, 10]」berarti angka acak antara 1 hingga 10",
+                "postMinLength": "Panjang minimum postingan, 0 berarti tidak ada batas",
+                "postMaxTimes": "Jumlah maksimum postingan yang dapat dibuat per hari, 0 berarti tidak ada batasan",
+                "expForDiscussion": "Exp yang diperoleh untuk setiap diskusi",
+                "expForDiscussionDesc": "Angka murni, tanpa desimal. Atau rentang, misalnya 「[1, 10]」berarti angka acak antara 1 hingga 10",
+                "discussionMaxTimes": "Jumlah maksimum diskusi yang dapat dilakukan per hari, 0 berarti tidak ada batasan",
+                "expForLike": "Exp yang diperoleh saat mendapatkan like (suka)",
+                "expForLikeDesc": "Dibutuhkan ekstensi flarum/likes. Angka murni, tanpa desimal. Atau rentang, misalnya 「[1, 10]」berarti angka acak antara 1 hingga 10",
+                "autoRemove": "Hapus exp secara otomatis",
+                "cascadeRemove": "Ketika sebuah diskusi dihapus, hapus exp dari balasan",
                 "expFormula": "Masukkan rumus exp (misalnya「[discussionCount] * 40 + [commentCount] / 20」）",
                 "expFormulaDesc1": "Anda dapat menggunakan variabel ini:",
                 "expFormulaDesc2": "Core（[discussionCount] [commentCount]）",
@@ -34,34 +34,34 @@
             "preview": "Pratinjau",
             "pages": {
                 "index": "",
-                "levels": ""
+                "levels": "Level"
             },
             "levels": {
-                "edit_level": "",
-                "delete_confirmation": "",
-                "add_button": "",
-                "name": "",
+                "edit_level": "Edit Level",
+                "delete_confirmation": "Konfirmasi untuk menghapus level ini?",
+                "add_button": "Tambah Level",
+                "name": "Nama Level",
                 "min_exp_required": ""
             },
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Exp",
+                "action_name": "Berikan Exp"
             }
         },
         "forum": {
             "notifications": {
-                "level_updated": ""
+                "level_updated": "Selamat! Anda telah mencapai level {level}!"
             },
             "settings": {
-                "notify_level_updated": ""
+                "notify_level_updated": "Beri tahu saat level diperbarui"
             },
             "label": {
                 "exp_logs": ""
             },
             "log": {
                 "exp": "",
-                "reason": "",
-                "time": "",
+                "reason": "Alasan",
+                "time": "Waktu",
                 "view": "",
                 "load_more": "",
                 "no_more": "",
