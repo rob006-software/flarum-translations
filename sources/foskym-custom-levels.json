@@ -35,12 +35,19 @@
                 "name": "Level Name",
                 "min_exp_required": "Required Exp"
             },
-            "automoderator": {
-                "metric_name": "Exp",
-                "action_name": "Give Exp"
+            "permissions": {
+                "edit_exp": "Edit user's exp"
             }
         },
         "forum": {
+            "user_controls": {
+                "edit_exp_button": "Edit Exp"
+            },
+            "modal": {
+                "title": "Edit Exp",
+                "current": "Current",
+                "submit_button": "Save"
+            },
             "notifications": {
                 "level_updated": "Congratulations! You have reached level {level}!"
             },
@@ -73,7 +80,9 @@
                     "comment_deleted_in_deleted_discussion": "Comment was deleted in deleted discussion",
                     "post_liked": "Post was liked",
                     "post_unliked": "Post was unliked",
-                    "admin_edit": "Admin edited"
+                    "admin_edit": "Admin edited",
+                    "forum_quests": "Forum quests",
+                    "store_purchase": "Purchased in store"
                 }
             }
         },
@@ -84,6 +93,41 @@
             },
             "error": {
                 "calculation": "The calculation of exp level is wrong."
+            },
+            "integrations": {
+                "automoderator": {
+                    "metric_name": "Exp",
+                    "action_name": "Give Exp"
+                },
+                "forum-quests": {
+                    "reward_name": "Exp"
+                },
+                "store": {
+                    "item_name": "Exp",
+                    "provider_data": {
+                        "same_as_use_cnt": "Same as the times can be used"
+                    }
+                },
+                "user-directory": {
+                    "most_exp": "Most Exp",
+                    "least_exp": "Least Exp"
+                }
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_exp": "=> foskym-custom-levels.lib.integrations.user-directory.most_exp",
+                "least_exp": "=> foskym-custom-levels.lib.integrations.user-directory.least_exp"
+            }
+        }
+    },
+    "nodeloc-leaderboard": {
+        "lib": {
+            "sort": {
+                "most_exp": "=> foskym-custom-levels.lib.integrations.user-directory.most_exp",
+                "least_exp": "=> foskym-custom-levels.lib.integrations.user-directory.least_exp"
             }
         }
     }

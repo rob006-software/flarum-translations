@@ -43,12 +43,23 @@
                 "name": "Nama Level",
                 "min_exp_required": ""
             },
+            "permissions": {
+                "edit_exp": ""
+            },
             "automoderator": {
                 "metric_name": "Exp",
                 "action_name": "Berikan Exp"
             }
         },
         "forum": {
+            "user_controls": {
+                "edit_exp_button": ""
+            },
+            "modal": {
+                "title": "",
+                "current": "",
+                "submit_button": ""
+            },
             "notifications": {
                 "level_updated": "Selamat! Anda telah mencapai level {level}!"
             },
@@ -81,7 +92,9 @@
                     "comment_deleted_in_deleted_discussion": "",
                     "post_liked": "",
                     "post_unliked": "",
-                    "admin_edit": ""
+                    "admin_edit": "",
+                    "forum_quests": "",
+                    "store_purchase": ""
                 }
             }
         },
@@ -94,6 +107,41 @@
             },
             "error": {
                 "calculation": "Perhitungan level exp salah."
+            },
+            "integrations": {
+                "automoderator": {
+                    "metric_name": "",
+                    "action_name": ""
+                },
+                "forum-quests": {
+                    "reward_name": ""
+                },
+                "store": {
+                    "item_name": "",
+                    "provider_data": {
+                        "same_as_use_cnt": ""
+                    }
+                },
+                "user-directory": {
+                    "most_exp": "",
+                    "least_exp": ""
+                }
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_exp": "",
+                "least_exp": ""
+            }
+        }
+    },
+    "nodeloc-leaderboard": {
+        "lib": {
+            "sort": {
+                "most_exp": "",
+                "least_exp": ""
             }
         }
     }
