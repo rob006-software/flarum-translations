@@ -740,7 +740,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-oauth-center/v1.3.0/locale/en.yml',
 	],
 	'foskym-sorts-for-user-directory' => [
-		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-sorts-for-user-directory/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-sorts-for-user-directory/v0.1.1/locale/en.yml',
 	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
