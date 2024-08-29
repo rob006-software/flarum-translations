@@ -1187,7 +1187,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-twofactor/v2.2.1/locale/en.yml',
 	],
 	'neoncube-private-messages' => [
-		'tag' => 'https://raw.githubusercontent.com/neoncube2/flarum-private-messages/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/neoncube2/flarum-private-messages/1.1.0/resources/locale/en.yml',
 	],
 	'nodeloc-dislikes' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/Dislikes/1.0.1/locale/en.yml',
