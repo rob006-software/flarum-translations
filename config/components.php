@@ -1381,6 +1381,9 @@ return [
 	'xypp-store-group' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-store-group/v1.0.2/locale/en.yml',
 	],
+	'xypp-store-virtual-item' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/store-virtual-item/v1.0.0/locale/en.yml',
+	],
 	'xypp-user-decoration' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/user-decoration/v1.1.4/locale/en.yml',
 	],
