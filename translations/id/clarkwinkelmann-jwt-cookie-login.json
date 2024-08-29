@@ -10,7 +10,7 @@
                 "publicKey": "Public Key",
                 "publicKeyHelp": "Biarkan kosong untuk menggunakan Google Firebase key",
                 "publicKeyAlgorithm": "Algoritma Public Key",
-                "publicKeyAlgorithmHelp": "Hanya diperlukan dengan Public Key. Contoh: RS256",
+                "publicKeyAlgorithmHelp": "Hanya dibutuhkan dengan Public Key. Contoh: RS256",
                 "expirationLeeway": "Expiration Leeway (detik)",
                 "expirationLeewayHelp": "Berapa detik tambahan setelah berakhirnya JWT, sesi masih bisa dimulai. Angka ini hanya dimaksudkan untuk beberapa menit saja untuk memperhitungkan waktu yang tidak sama antar server. Namun, angka ini juga dapat disetel ke nilai yang lebih panjang jika ini adalah satu-satunya cara untuk mengatasi masa pakai JWT yang pendek dari library external.\n",
                 "usernameTemplate": "Template Username",
@@ -33,7 +33,7 @@
             "alert": {
                 "refresh": "Refresh halaman",
                 "login": "Anda telah terhubung secara otomatis.",
-                "logout": "Sesi Anda telah expired."
+                "logout": "Sesi Anda telah kedaluwarsa."
             }
         }
     }
