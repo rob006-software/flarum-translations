@@ -1,0 +1,76 @@
+{
+    "mattoid-store-invite": {
+        "admin": {
+            "settings": {
+                "group-view": "Menampilkan produk ke pengguna",
+                "group-admin-view": "Izin audit",
+                "calm-down-period-help": "Setelah pengajuan ditolak, tidak diperbolehkan untuk mengajukan permohonan kembali selama N hari sejak tanggal ditolaknya permohonan",
+                "calm-down-period": "Periode jeda pengajuan",
+                "show-index": "Tambahkan ke halaman depan",
+                "show-index-help": "Menampilkan menu ulasan di halaman depan",
+                "price": "Pengurangan biaya",
+                "price-help": "Pengurangan dana setelah disetujui",
+                "mail": "Template email",
+                "mail-help": "Isi dari konten email",
+                "mail-title": "Judul email",
+                "mail-title-help": "Judul dari konten",
+                "auto-review": "Tinjauan otomatis dilewati",
+                "auto-review-help": "Setelah pemeriksaan, sistem akan secara otomatis menyetujui dan menyelesaikan proses peninjauan",
+                "auto-review-username": "Tinjau pengguna secara otomatis",
+                "auto-review-username-help": "Ketika peninjauan otomatis diaktifkan, sistem akan memeriksa kueri pengguna yang dimasukkan",
+                "mail-template": "Halo [user], Kode undangan Anda adalah [code]"
+            }
+        },
+        "forum": {
+            "title": "Undangan",
+            "email": "Email undangan",
+            "email-help": "Email penerima undangan akan dihubungkan ke email yang terdaftar di forum.",
+            "remark": "catatan",
+            "remark-help": "Hanya dapat dilihat oleh diri sendiri dan manajemen (dapat dikosongkan).",
+            "username": "Username undangan",
+            "username-help": "Username undangan tidak terhubung dengan username yang terdaftar di forum",
+            "link": "",
+            "link-help": "Konfirmasi informasi undangan oleh peninjau (informasi ini hanya dapat dilihat oleh peninjau dan bagian yang mengeluarkan)",
+            "link-2": "",
+            "link-2-help": "Konfirmasi informasi undangan oleh peninjau (informasi ini hanya dapat dilihat oleh peninjau dan bagian yang mengeluarkan)",
+            "invite": "Tinjauan undangan",
+            "my-invite": "Undanganku",
+            "system-review": "Sistem peninjauan otomatis",
+            "confirm-adopt": "konfirmasi",
+            "confirm-refuse": "tolak",
+            "mail": {
+                "send-invite-title": "Kode undangan"
+            },
+            "error": {
+                "unaudited": "Anda memiliki informasi permohonan yang belum disetujui dan tidak dapat melanjutkan saat ini",
+                "review-failed": "Anda baru saja menerima informasi permohonan yang ditolak. Silakan coba lagi setelah [{date}]",
+                "invite-not-exist": "Informasi permohonan telah ditinjau atau tidak ada. Silakan refresh halaman dan coba lagi",
+                "user-balance-low": "Saldo pengguna tidak mencukupi",
+                "email-exist": "Email undangan sudah ada",
+                "lock-resources": "Resource saat ini terkunci. Silakan coba lagi nanti",
+                "email-inconsistency": "Email dan informasi undangan tidak sama. Silakan gunakan email yang menerima kode undangan",
+                "username-inconsistency": "Username tidak sesuai dengan informasi undangan. Silakan lakukan pendaftaran menggunakan username yang diberikan dalam email",
+                "exception": "Tinjauan otomatis gagal [{message}]"
+            }
+        },
+        "lib": {
+            "item-user": "Pengundang",
+            "item-email": "Email undangan",
+            "item-username": "Username undangan",
+            "item-link": "",
+            "item-link-2": "",
+            "item-apply-rmark": "Terapkan Catatan",
+            "item-confirm-status": "Status review",
+            "item-confirm-user": "Peninjau",
+            "item-confirm-time": "Waktu review",
+            "item-confirm-remark": "Komentar review",
+            "item-button-expand": "perluas",
+            "item-button-retract": "tutup",
+            "item-status-all": "Semua",
+            "item-status-confirm": "Belum diaudit",
+            "item-status-adopt": "diterapkan",
+            "item-status-refuse": "ditolak",
+            "item-query": "Cari berdasarkan pengundang/penerima/email"
+        }
+    }
+}

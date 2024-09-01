@@ -4,7 +4,7 @@
             "buttons": {
                 "signature": "Chữ ký",
                 "save": "Lưu chữ ký",
-                "edit": ""
+                "edit": "Chỉnh sửa chữ ký"
             },
             "errors": {
                 "max_char_limit_exceed": "Đã vượt quá giới hạn ký tự tối đa.",
@@ -13,7 +13,7 @@
                 "max_image_height_exceed": "Đã vượt quá giới hạn chiều cao tối đa của hình ảnh."
             },
             "profile": {
-                "click": ""
+                "click": "Nhấp để viết chữ ký của bạn"
             },
             "modal": {
                 "loading": {
@@ -28,23 +28,23 @@
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Chỉnh sửa chữ ký của người dùng khác",
+                "allow_signature": "Có thể có chữ ký"
             },
             "settings": {
                 "maximum_image_count": {
                     "description": "Hình ảnh được chèn tối đa.",
-                    "help": "",
+                    "help": "Khi người dùng vượt quá số lượng hình ảnh tối đa trong chữ ký của họ, họ sẽ bị ngăn không cho lưu trữ cho đến khi số lượng hình ảnh được điều chỉnh.",
                     "placeholder": "5 (mặc định)"
                 },
                 "maximum_char_limit": {
-                    "description": "Giới hạn ký tự tối đa của chữ ký (đếm ký tự, không tính đến thẻ HTML)",
-                    "help": "",
+                    "description": "Giới hạn ký tự tối đa của chữ ký.",
+                    "help": "Khi người dùng vượt quá giới hạn số ký tự tối đa trong chữ ký của họ, họ sẽ bị ngăn không cho lưu trữ cho đến khi số ký tự được điều chỉnh.",
                     "placeholder": "1000 (mặc định)"
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Chỉnh sửa trực tiếp chữ ký.",
+                    "help": "Khi được kích hoạt, người dùng có thể chỉnh sửa chữ ký của họ khi xem một bài viết."
                 },
                 "maximum_image_width": {
                     "description": "Chiều rộng tối đa của hình ảnh trên trình chỉnh sửa.",

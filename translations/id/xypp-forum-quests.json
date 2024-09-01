@@ -1,0 +1,94 @@
+{
+    "xypp-forum-quests": {
+        "forum": {
+            "reward_not_found": "Reward {reward} tidak ditemukan",
+            "condition_not_found": "Kondisi {condition} tidak ditemukan",
+            "notification": {
+                "quest_done": "Anda baru saja menyelesaikan quest {name}!",
+                "quest_done_label": "Quest Selesai"
+            },
+            "condition": {
+                "condition": "Kondisi",
+                "format": "<b>{name}</b> {operator}{value} {span} ",
+                "and": " dan ",
+                "span": "Dalam {span} hari"
+            },
+            "reward": {
+                "reward": "Reward",
+                "format": "<b>{name}</b>:{value}",
+                "and": " dan "
+            },
+            "quest": {
+                "quest": "Quest",
+                "load_more": "Muat Lainnya",
+                "done": "[Selesai]"
+            },
+            "re_available": {
+                "none": "Hanya Sekali",
+                "day": "Tersedia kembali sebelum {value} hari",
+                "hour": "Tersedia kembali setelah {value} jam"
+            },
+            "condition_view": {
+                "button": "Lihat Kondisi",
+                "title": "Tampilan Kondisi",
+                "name": "Nama",
+                "value": "Value",
+                "span": "Dalam Rentang",
+                "set_span": "Atur Rentang"
+            },
+            "quest_done": {
+                "all": "Semua",
+                "true": "Selesai",
+                "false": "Tidak"
+            }
+        },
+        "admin": {
+            "settings": "Pengaturan",
+            "timezone": "Zona waktu",
+            "allow_update": "Izinkan pengguna memperbarui secara manual",
+            "data": "Data",
+            "table": {
+                "id": "#",
+                "name": "Nama",
+                "description": "Deskripsi",
+                "operation": "Tindakan",
+                "load_more": "Muat Lainnya",
+                "remove_confirm": "Apakah Anda yakin ingin menghapus quest ini?",
+                "create": "Buat"
+            },
+            "create-modal": {
+                "title": "Buat Quest",
+                "edit": "Edit Quest",
+                "name": "Nama",
+                "description": "Deskripsi",
+                "icon": "Ikon",
+                "hidden": "Tersembunyi",
+                "condition": "Kondisi",
+                "reward": "Reward",
+                "condition-name": "Nama Kondisi",
+                "condition-operator": "Operator",
+                "condition-value": "Value",
+                "condition-span": "Rentang Waktu",
+                "condition-alter_name": "Nama Tampilan",
+                "reward-name": "Nama Reward",
+                "reward-value": "Value",
+                "reward-get_value": "Dapatkan Value",
+                "reward-alter_name": "Nama Tampilan",
+                "button": "Buat",
+                "button-edit": "Edit",
+                "new_item": "Item Baru",
+                "re_available": "Tersedia kembali"
+            },
+            "re_available": {
+                "none": "Sekali",
+                "day": "Sebelum X hari",
+                "hour": "Setelah X jam"
+            }
+        },
+        "api": {
+            "condition_not_allow_frontend": "Kondisi tidak dapat dipicu di frontend",
+            "no_manual_update": "Tidak perlu pembaruan manual",
+            "manual_condition_cannot_hidden": "Kondisi manual tidak dapat digunakan dalam task tersembunyi:{condition}"
+        }
+    }
+}

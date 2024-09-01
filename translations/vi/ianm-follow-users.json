@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Xuất chi tiết về người dùng mà bạn đang theo dõi và người dùng đang theo dõi bạn.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Xóa tất cả dữ liệu liên quan đến người dùng sau."
                 }
             }
         }
@@ -29,8 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
-                "change_button": "",
+                "unfollow_button": "=> ianm-follow-users.lib.unfollow",
+                "change_button": "=> ianm-follow-users.lib.change_follow_type",
                 "follow_confirmation": "Bạn có chắc chắn muốn theo dõi người dùng này không?",
                 "unfollow_confirmation": "Bạn có chắc chắn muốn bỏ theo dõi người dùng này không?"
             },
@@ -85,7 +85,7 @@
             "following_link": "Người dùng đã theo dõi",
             "follow": "Theo dõi",
             "change_follow_type": "Thay đổi kiểu theo dõi",
-            "unfollow": "",
+            "unfollow": "Bỏ theo dõi",
             "follow_levels": {
                 "unfollow": {
                     "name": "Không theo dõi",

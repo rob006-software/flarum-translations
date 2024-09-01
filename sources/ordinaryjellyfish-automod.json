@@ -1,6 +1,9 @@
 {
     "ordinaryjellyfish-automod": {
         "admin": {
+            "permissions": {
+                "bypass": "Bypass automod filters"
+            },
             "settings": {
                 "threshold": "Confidence Threshold",
                 "threshold_help": "The confidence threshold is between 0.00 and 1.00, reflecting the likelihood of the input or response belonging to a given category. A lower threshold will result in fewer false positives, but may also result in more false negatives. A higher threshold will result in more false positives, but may also result in fewer false negatives.",

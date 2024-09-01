@@ -20,7 +20,17 @@
                 "forum_logo_qr_width": "論壇圖示QR碼寬度",
                 "forum_logo_qr_width_help": "啟用 2FA 時顯示的嵌入在QR碼上的論壇圖示的寬度。 最多 200 個。",
                 "logo_qr": "QR Code上的圖示",
-                "logo_qr_help": "如果圖示已上傳，則該圖示將嵌入到QR碼中。 留空以使用論壇圖示。"
+                "logo_qr_help": "如果圖示已上傳，則該圖示將嵌入到QR碼中。 留空以使用論壇圖示。",
+                "tokens": {
+                    "heading": "訪問令牌",
+                    "help": "為了增強安全性，您可以在此處管理與存取權杖相關的其他行為。",
+                    "kill_inactive_tokens": "殺死不活躍的令牌",
+                    "kill_inactive_tokens_help": "自動終止在指定時間內不活動的存取權令牌。",
+                    "kill_inactive_tokens_age_days": "在（天）後殺死不活躍的Tokens",
+                    "kill_inactive_tokens_age_days_help": "不活動的天數，超過該天數後訪問令牌將被刪除。",
+                    "also_kill_developer_tokens": "同時殺死開發者令牌",
+                    "also_kill_developer_tokens_help": "同時終止在指定時間內處於非活動狀態的開發人員存取權杖。"
+                }
             }
         },
         "forum": {

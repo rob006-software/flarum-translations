@@ -1,0 +1,119 @@
+{
+    "xypp-store": {
+        "forum": {
+            "time_segs": "days|hours|minutes",
+            "store": "Store",
+            "purchase-history": "Purchased",
+            "create": "Create Item",
+            "purchase": "Purchase",
+            "edit_button": "Edit",
+            "show_case": "Showcase",
+            "price_free": "Free",
+            "provider": {
+                "all": "All",
+                "error": {
+                    "title": "Unknown provider",
+                    "no-preview": "No preview"
+                }
+            },
+            "unavailable": {
+                "common": {
+                    "unknown": "Unable to Purchase",
+                    "no_rest": "No rest"
+                }
+            },
+            "create-modal": {
+                "title": "Create Item",
+                "name": "Name",
+                "desc": "Description",
+                "price": "Price",
+                "provider": "Provider",
+                "provider_data": "Provider Data",
+                "use_cnt": "Times can be used",
+                "expire_time": "Expire Time",
+                "expire_time_tip": "Set to blank to disable, or set to a number to expire after that many seconds.",
+                "rest_cnt": "Rest Count",
+                "rest_cnt_tip": "Set to blank to be infinite, or set to a number to limit the count.",
+                "edit-title": "Edit Item#{0}",
+                "edit-button": "Edit",
+                "button": "Create",
+                "success": "Item created",
+                "confirm_delete": "Sure to delete this item?",
+                "delete-button": "Delete",
+                "providers": {
+                    "unknown": "Select Provider",
+                    "unknown_data": "Need to select provider first",
+                    "no_select_data": "Select Provider Data",
+                    "special_data": "Data Selected"
+                },
+                "provider_data_error": "Please select provider and data",
+                "provider_data_default": "Default data"
+            },
+            "purchase-confirm": "Confirm Purchase?",
+            "item": {
+                "rest_cnt": "Remaining {0}",
+                "use_cnt": "Use {0} times",
+                "expire": "Duration for {0}",
+                "no_available": "No available item",
+                "infinity_count": "Unlimited available",
+                "not_found": "Item not found"
+            },
+            "history": {
+                "no_record": "No purchased",
+                "delete_button": "Delete",
+                "confirm_delete": "Sure to delete this item you has bought?",
+                "title": "Purchased",
+                "use": "Use",
+                "rest_cnt": "Can be used {0} times",
+                "infinity_use": "Unlimited use",
+                "expire": "Expire at {0}",
+                "forever": "Available forever",
+                "confirm_use": "Confirm to use?",
+                "unable_to_use": "This item can't be used",
+                "not_found": "Item not found"
+            },
+            "query-modal": {
+                "purchase": {
+                    "title": "Purchase Item"
+                },
+                "use": {
+                    "title": "Use Item"
+                }
+            },
+            "use_result": {
+                "success": "Success",
+                "fail": {
+                    "unknown": "Unknown Error",
+                    "error": "Error on using item",
+                    "not_enough": "No enough use count",
+                    "cannot": "Can't use this Item",
+                    "fail_expire": "Fail when try to expire this Item",
+                    "id_not_found": "Item ID not found",
+                    "expired": "Item expired"
+                }
+            },
+            "purchase_result": {
+                "success": "Success",
+                "fail": {
+                    "unknown": "Unknown Error",
+                    "not_enough_item": "No enough item",
+                    "cannot": "Can't purchase this Item",
+                    "not_enough_money": "Not enough money"
+                }
+            },
+            "edit-result": {
+                "fail": {
+                    "not-found": "Item not found"
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "add-item": "Add Store Item",
+                "remove-item": "Remove Store Item",
+                "view-history": "View other's purchased",
+                "remove-history": "Delete other's purchased"
+            }
+        }
+    }
+}

@@ -4,13 +4,13 @@
             "settings": {
                 "cookieName": "Nama Cookie",
                 "actorId": "ID Pengguna Flarum untuk tindakan administratif",
-                "actorIdHelp": "Pengguna Flarum ini akan dijadikan aktor untuk REST API request internal yang membuat pengguna baru. Pengguna tersebut haruslah seorang admin.\n",
-                "audience": "",
+                "actorIdHelp": "Pengguna Flarum ini akan digunakan sebagai pelaksana untuk permintaan REST API internal yang membuat pengguna baru. Pengguna tersebut haruslah pengguna admin.\n",
+                "audience": "JWT Audiens / ID Firebase Project",
                 "audienceHelp": "Memvalidasi <code>aud</code> attribute pada token. Opsional jika tidak menggunakan Firebase",
                 "publicKey": "Public Key",
                 "publicKeyHelp": "Biarkan kosong untuk menggunakan Google Firebase key",
                 "publicKeyAlgorithm": "Algoritma Public Key",
-                "publicKeyAlgorithmHelp": "Hanya diperlukan dengan Public Key. Contoh: RS256",
+                "publicKeyAlgorithmHelp": "Hanya dibutuhkan dengan Public Key. Contoh: RS256",
                 "expirationLeeway": "Expiration Leeway (detik)",
                 "expirationLeewayHelp": "Berapa detik tambahan setelah berakhirnya JWT, sesi masih bisa dimulai. Angka ini hanya dimaksudkan untuk beberapa menit saja untuk memperhitungkan waktu yang tidak sama antar server. Namun, angka ini juga dapat disetel ke nilai yang lebih panjang jika ini adalah satu-satunya cara untuk mengatasi masa pakai JWT yang pendek dari library external.\n",
                 "usernameTemplate": "Template Username",
@@ -22,7 +22,7 @@
                 "authorizationHeader": "",
                 "authorizationHeaderHelp": "Jika kolom ini dibiarkan kosong, <code>Authorization</code> header akan berisi <code>Token <JWT token></code>.",
                 "hiddenIframe": "Iframe Tersembunyi - URL",
-                "hiddenIframeHelp": "Iframe ini akan dimuat di luar layar pada semua halaman aplikasi Flarum single page. Ini dapat digunakan untuk me-refresh cookie secara berkala dan dapat menggunakan browser messaging untuk memicu refresh halaman untuk dapat login otomatis atau logout otomatis. Lihat README untuk dokumentasi.\n",
+                "hiddenIframeHelp": "Iframe ini akan dimuat di luar layar pada semua halaman aplikasi Flarum single page. Ini dapat digunakan untuk memperbarui cookie secara berkala dan dapat menggunakan browser messaging untuk memicu refresh halaman untuk login otomatis atau logout otomatis. Lihat README untuk dokumentasi.\n",
                 "autoLoginDelay": "Iframe Tersembunyi - Login Otomatis (milidetik)",
                 "autoLoginDelayHelp": "Selama berapa detik halaman diizinkan untuk di-refresh tanpa adanya interaksi pengguna jika iframe tersembunyi mengembalikan status login. Setelah melewati penundaan tersebut, pengguna akan menerima peringatan untuk menanyakan apakah mereka ingin me-refresh halaman.\n",
                 "logoutRedirect": "URL Pengalihan Saat Logout",
@@ -33,7 +33,7 @@
             "alert": {
                 "refresh": "Refresh halaman",
                 "login": "Anda telah terhubung secara otomatis.",
-                "logout": "Sesi Anda telah expired."
+                "logout": "Sesi Anda telah kedaluwarsa."
             }
         }
     }

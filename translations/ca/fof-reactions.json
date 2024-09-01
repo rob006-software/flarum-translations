@@ -11,7 +11,7 @@
             "modal": {
                 "title": "Reaccions",
                 "anonymous_count": "{count, plural, one {# usuari anònim} other {# usuaris anònims}}",
-                "no_reactions": ""
+                "no_reactions": "Sense reaccions encara"
             },
             "mod_item": "Veure reaccions",
             "react_button_label": "Reaccionar"
@@ -20,7 +20,7 @@
             "permissions": {
                 "react_posts_label": "Reaccionar a publicacions",
                 "see_reactions_label": "Veure qui ha reaccionat a publicacions",
-                "delete_post_reactions_label": ""
+                "delete_post_reactions_label": "Esborrar les reaccions de les publicacions"
             },
             "page": {
                 "cdn": {
@@ -37,7 +37,7 @@
                         "display": "Mostrar",
                         "identifier": "Identificador"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "Segur que vols esborrar aquesta reacció? Aquesta acció no es pot desfer."
                 },
                 "convert": {
                     "help": "Si acabes d'actualitzar la teva extensió, caldrà convertir les teves reaccions. Si acabes d'instal·lar l'extensió, pots ignorar aquest missatge.",

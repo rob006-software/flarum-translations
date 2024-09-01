@@ -2,28 +2,28 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
+                "manage_warnings": "Criar e remover avisos de moderação",
                 "view_warnings": "Ver avisos de moderador",
                 "delete_warnings": "Remover permanentemente avisos de moderação"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} avisou-o com {strikes, plural, one {# strike} other {# strikes}} em {discussion_title}",
+                "body": "Olá {warnee_display_name}!\n\n{warner_display_name} avisou-o com {strikes, plural, one {# strike} other {# strikes}} em {discussion_title}\n\nFoi indicada a seguinte razão:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} avisou-o com {strikes, plural, one {# strike} other {# strikes}}",
+                "body": "Olá {warnee_display_name}!\n\n{warner_display_name} avisou-o com {strikes, plural, one {# strike} other {# strikes}}\n\nFoi indicada a seguinte razão:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
+                "warning_text": "{strikes, plural, one {Foi avisado com um # strike por {mod_username}} other {Foi avisado com # strikes por {mod_username}}}",
                 "warning_no_strikes_text": "Foste avisado por {mod_username} (sem penalização)"
             },
             "post": {
-                "warning": "",
+                "warning": "{strikes, plural, one {Avisado com # strike por {mod_username}} other {Avisado com # strikes por {mod_username}}}",
                 "warning_no_strikes": "Avisado sem penalização por {mod_username}"
             },
             "post_controls": {
@@ -36,8 +36,8 @@
                 "warning_notification_label": "Um moderador avisou-me"
             },
             "validation": {
-                "public_comment_required": "Deve fornecer um comentário público",
-                "invalid_strike_count": "O numero de avisos deve ser um número inteiro entre 0 e 5."
+                "public_comment_required": "Deve fornecer um comentário público.",
+                "invalid_strike_count": "O número de avisos deve ser um número inteiro entre 0 e 5."
             },
             "warning_controls": {
                 "delete_button": "Remover",
@@ -47,12 +47,12 @@
             "warning_list": {
                 "add_button": "Novo aviso",
                 "no_warnings": "Parece que não existem avisos aqui.",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "warnings": "{strikes, plural, one {Avisos de Moderador: # Strike recebidos} other {Avisos de Moderador: # Strikes recebidos}}",
+                "warnings_no_strikes": "Avisos de Moderador: Nenhuma penalização recebida"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strikes, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> aviso, {time} <strong>(removido)</strong>} other {<strong>#</strong> avisos, {time} <strong>(removidos)</strong>}}",
                 "public_comment": "Aviso",
                 "private_comment": "Moderador-Comentários visiveis",
                 "linked_post": ""

@@ -5,18 +5,18 @@
                 "allow-sign-up": "支持通过Web3注册",
                 "ffi-disabled": "PHP FFI扩展没有被启用.Dotsama钱包将无法工作.\n",
                 "infura-project-id": "Infura项目编号",
-                "infura-project-id-help": "",
-                "prioritize-web3-auth-modals": "",
-                "signup-with-email": "",
-                "no-email-signup-message": "",
-                "no-email-signup-message-help": ""
+                "infura-project-id-help": "您的 Infura 项目 ID，用于 Coinbase 和 WalletConnect 钱包。请前往 https://infura.io 获取。\n",
+                "prioritize-web3-auth-modals": "默认打开 Web3 登录/注册",
+                "signup-with-email": "通过电子邮件注册",
+                "no-email-signup-message": "向非邮箱注册用户发送消息（留空以禁用）。\n",
+                "no-email-signup-message-help": "使用以下开闭标签插入跳转到邮箱编辑页的超链接：[link]自定义文本[/link]。"
             }
         },
         "forum": {
             "connect-wallet-modal": {
-                "could-not-sign": "",
-                "goback": "",
-                "title": "",
+                "could-not-sign": "无法对所选账户的用户名进行加密签名。",
+                "goback": "返回",
+                "title": "连接钱包",
                 "polkadot-wallets": "",
                 "evm-wallets": "",
                 "signature-invalid": ""

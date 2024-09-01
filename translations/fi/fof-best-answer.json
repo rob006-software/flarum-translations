@@ -39,6 +39,8 @@
                 "tags_info": "Kun avainsanalla on Parhaat vastaukset käytössä, aseta oikeudet joka ryhmälle, jotka voivat asettaa parhaita vastauksia (omat keskustelut, mitkä tahansa keskustelut). Oikeudet voidaan asettaa yleisesti (mille tahansa Parhaat vastaukset avainsanalle) tai avainsanakohtaisesti.\n",
                 "solution_search": "",
                 "solution_search_help": "",
+                "discussion_sidebar_jump_button": "",
+                "discussion_sidebar_jump_button_help": "",
                 "enable_all_tags_button": "Ota käyttöön Parhaat vastaukset kaikille avainsanoille",
                 "enable_all_tags_reminder_button": "Ota käyttöön Parhaiden vastausten muistutukset kaikille avainsanoille",
                 "introduction": "Valitse mitkä avainsanat tukee parhaita vastauksia <code><a>flarum/tags</a></code> osiossa, sekä vaihtoehtoisesti mitkä avainsanat tukeavat muistutuksia. Kun paras vastaus on käytössä, aseta oikeudet ryhmille kuka voi asettaa vastauksen parhaaksi (oma keskustelu, mikä tahansa keskustelu. Oikeudet voi määrittää globaalisti (mihin tahansa parhaan vastauksen hyväksyvään avainsanaan) tai avainsanakohtaisesti.\n"
@@ -88,6 +90,9 @@
             "search": {
                 "discussions_solutions_heading": "",
                 "all_discussions_solutions_button": ""
+            },
+            "discussion": {
+                "jump_to_best_answer_button": ""
             }
         },
         "email": {

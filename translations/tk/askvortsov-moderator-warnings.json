@@ -2,42 +2,42 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "Moderator duýduryşlary döretmek we aýyrmak",
-                "view_warnings": "Moderator duýduryşlary görmek",
-                "delete_warnings": "Moderator duýduryşlary hemişelik boz"
+                "manage_warnings": "Moderator duýdurmalary döretmek we aýyrmak",
+                "view_warnings": "Moderator duýdurmalary görmek",
+                "delete_warnings": "Moderator duýdurmalary hemişelik boz"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "{warner_display_name} ulanyjy sizi {strikes, plural, one {# straýk} other {# straýklar}} bilen {discussion_title} gürrüňde duýduryş berdi",
-                "body": "Salam {warnee_display_name}!\n\n{warner_display_name} ulanyjy sizi {strikes, plural, one {# straýk} other {# straýklar}} bilen {discussion_title} gürrüňde duýduryş berdi\n\nDuýduryşyň sebäbi:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} ulanyjy sizi {strikes, plural, one {# duýduryş} other {# duýduryşlar}} bilen {discussion_title} gürrüňde duýduryş berdi",
+                "body": "Salam {warnee_display_name}!\n\n{warner_display_name} ulanyjy sizi {strikes, plural, one {# duýduryş} other {# duýduryşlar}} bilen {discussion_title} gürrüňde duýduryş berdi\n\nDuýduryşyň sebäbi:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "{warner_display_name} ulanyjy sizi {strikes, plural, one {# straýk} other {# straýklar}} bilen duýduryş berdi",
-                "body": "Salam {warnee_display_name}!\n\n{warner_display_name} ulanyjy sizi {strikes, plural, one {# straýk} other {# straýklar}} bilen duýduryş berdi\n\nDuýduryşyň sebäbi:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} ulanyjy sizi {strikes, plural, one {# duýduryş} other {# duýduryşlar}} bilen duýduryş berdi",
+                "body": "Salam {warnee_display_name}!\n\n{warner_display_name} ulanyjy sizi {strikes, plural, one {# duýduryş} other {# duýduryşlar}} bilen duýduryş berdi\n\nDuýduryşyň sebäbi:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "{strikes, plural, one {{mod_username} Sizi # straýk bilen duýduryş berdi} other {{mod_username} Sizi # straýklar bilen duýduryş berdi}}",
-                "warning_no_strikes_text": "{mod_username} Size duýduryş berdi (straýksyz)"
+                "warning_text": "{strikes, plural, one {{mod_username} Sizi # duýduryş bilen duýduryş berdi} other {{mod_username} Sizi # duýduryşlar bilen duýduryş berdi}}",
+                "warning_no_strikes_text": "{mod_username} Size duýduryş berdi"
             },
             "post": {
-                "warning": "{strikes, plural, one {# straýk bilen {mod_username} tarapyndan duýduryş berildi} other {# straýklar bilen {mod_username} tarapyndan duýduryş berildi}}",
-                "warning_no_strikes": "{mod_username} straýksyz duýduryş berdi"
+                "warning": "{strikes, plural, one {# duýduryş bilen {mod_username} tarapyndan duýduryş berildi} other {# duýduryşlar bilen {mod_username} tarapyndan duýduryş berildi}}",
+                "warning_no_strikes": "{mod_username} duýduryşsyz duýduryş berdi"
             },
             "post_controls": {
                 "warning_button": "Duýduryş ber"
             },
             "user": {
-                "warnings": "Moderator duýduryşlary"
+                "warnings": "Moderator duýdurmalary"
             },
             "settings": {
                 "warning_notification_label": "Moderator duýduryş berdi"
             },
             "validation": {
                 "public_comment_required": "Hökman açyk kommentariýa bermeli.",
-                "invalid_strike_count": "Straýklaryň sany 0 we 5 aralygynda bitewi san bolmaly."
+                "invalid_strike_count": "Duýduryşlaryň sany 0 we 5 aralygynda bitewi san bolmaly."
             },
             "warning_controls": {
                 "delete_button": "Aýyr",
@@ -47,12 +47,12 @@
             "warning_list": {
                 "add_button": "Täze Duýduryş",
                 "no_warnings": "Hiç hili duýduryş ýok.",
-                "warnings": "{strikes, plural, one {Moderator Duýduryşlary: # Straýk berilen} other {Moderator Duýduryşlary: # Straýklar berilen}}",
-                "warnings_no_strikes": "Moderator Duýduryşlary: Hiç hili straýk berilmedik"
+                "warnings": "{strikes, plural, one {Moderator Duýduryşlary: # Duýduryş berilen} other {Moderator Duýduryşlary: # Duýduruşlar berilen}}",
+                "warnings_no_strikes": "Moderator Duýdurmalary: Duýduryş ýok"
             },
             "warning_list_item": {
-                "list_item_heading": "{strikes, plural, one {<strong>#</strong> straýk, {time}} other {<strong>#</strong> straýklar, {time}}}",
-                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> straýk, {time} <strong>(bozulan)</strong>} other {<strong>#</strong> straýklar, {time} <strong>(bozulan)</strong>}}",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> duýduryş, {time}} other {<strong>#</strong> duýduryşlar, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> duýduryş, {time} <strong>(bozulan)</strong>} other {<strong>#</strong> duýduryş, {time} <strong>(bozulan)</strong>}}",
                 "public_comment": "Duýduryş",
                 "private_comment": "Diňe Moderatora görünýän teswir",
                 "linked_post": "Agzalan Post"
@@ -60,7 +60,7 @@
             "warning_modal": {
                 "confirmation_message": "Siziň duýduryşyňyz ýatda saklandy. Sahypany täzelemek mümkin gerek bolar.",
                 "heading": "<strong>{username}</strong> duýdyr",
-                "strikes_heading": "Näçe sany straýk hasap edilmeli?",
+                "strikes_heading": "Näçe sany duýduryş hasap edilmeli?",
                 "public_comment_heading": "Näme üçin <strong>{username}</strong> bu duýduryşy alýar? Bu teswirler ulanyja we moderatorlara görüner.",
                 "private_comment_heading": "Näme üçin <strong>{username}</strong> bu duýduryşy alýar? Bu teswirler DIŇE moderatorlara görüner.",
                 "submit_button": "Duýduryşy ýatda sakla"

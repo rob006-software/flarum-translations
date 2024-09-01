@@ -5,9 +5,12 @@
                 "refresh-translation": "",
                 "translate-to-locale": "",
                 "translate-to-all-locales": "",
+                "edit-translation": "",
                 "translate": "Guarda traduzioni"
             },
             "settings": {
+                "seemless": "",
+                "seemless-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "",
@@ -37,12 +40,28 @@
                         "label": ""
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "port": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "api_key": {
+                        "help": "",
+                        "label": ""
+                    }
+                },
                 "translate-all-enabled": "",
                 "translate-all-help": "",
                 "bind-browser-language": "",
                 "bind-browser-language-help": "",
                 "use-native-locale-names": "",
                 "use-native-locale-names-help": "",
+                "translate-polls": "",
+                "translate-polls-help": "",
                 "provider": "Motore del provider di traduzioni",
                 "readme-info": "",
                 "readme-none": "",
@@ -51,9 +70,30 @@
             }
         },
         "forum": {
+            "composer": {
+                "multi-languages": ""
+            },
             "unknown-language": "[non rilevato]",
             "detected-language": "Questo post è in {postLang}",
             "translate-button-label": "",
+            "refresh-translation": "",
+            "original-content": {
+                "title": "",
+                "view": ""
+            },
+            "manage-translations": {
+                "translations-label": "",
+                "button-label": "",
+                "poll": {
+                    "image-alt": "",
+                    "option": "",
+                    "original-title": "",
+                    "subtitle": "",
+                    "title": "",
+                    "question": ""
+                },
+                "save-changes": ""
+            },
             "discussion": {
                 "post": {
                     "close-translation": "Chiudi traduzione",
@@ -78,7 +118,8 @@
             "providers": {
                 "deepl": "",
                 "google-free": "",
-                "google-cloud": ""
+                "google-cloud": "",
+                "libre": ""
             },
             "settings": {
                 "api-key": ""

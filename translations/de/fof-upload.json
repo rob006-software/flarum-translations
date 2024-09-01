@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Alle Dateien, die der Benutzer hochgeladen hat.",
+                    "anonymize_description": "Entfernt den Benutzerbezug aus den hochgeladenen Dateien. Die Dateien selbst bleiben für Benutzer zugänglich, die sie vor der Anonymisierung ansehen konnten.",
+                    "delete_description": "Löscht alle vom Benutzer hochgeladenen Dateien."
                 }
             }
         }
@@ -13,14 +13,14 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Gemeinsame Dateien"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Dateien hochladen, die von allen Benutzern des Forums verwendet werden können.",
+                "introduction": "Gemeinsame Uploads sind Dateien, die von allen Benutzern des Forums genutzt werden können. Sie sind nicht an einen Beitrag angehängt, können aber mit Hilfe des Medienmanagers in Beiträge eingefügt werden.\n\n<strong>Warnung:</strong> Gemeinsame Uploads sind nicht durch irgendwelche Rechte geschützt. Jeder, der die URL hat, kann sie sehen.\n",
+                "no-files": "Es sind noch keine gemeinsamen Dateien hochgeladen worden.",
+                "title": "Gemeinsame Dateien",
+                "upload-new-button": "Neue Datei hochladen"
             },
             "pane": {
                 "title": "Hochladen",
@@ -36,6 +36,7 @@
                 "watermark": "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n",
                 "s3_compatible_storage": "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n",
                 "s3_acl": "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Schlüssel und Secret leer lassen, um Anmeldeinformationen im Instanzprofil zu verwenden.\n",
                 "composer_buttons": "Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Advanced S3 Speichereinstellungen",
                     "endpoint": "Endpunkt",
                     "use_path_style_endpoint": "Verwende \"path style\"-Endpunkt",
-                    "acl": "Zugriffssteuerungsliste (ACL)"
+                    "acl": "Zugriffssteuerungsliste (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Protokollierung von Downloads deaktivieren",
@@ -109,8 +111,8 @@
                 "upload_label": "Dateien hochladen",
                 "view_user_uploads_label": "Benutzer-Uploads anzeigen",
                 "delete_uploads_of_others_label": "Benutzer-Uploads löschen",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "Gemeinsame Dateien hochladen",
+                "access_shared_label": "Zugriff auf freigegebene Dateien in Media Manager"
             },
             "templates": {
                 "file": "Standard Datei-Downloadvorlage",

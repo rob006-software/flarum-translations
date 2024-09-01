@@ -36,6 +36,7 @@
                 "watermark": "アップロード時に電子透かしを追加するかどうかを選択します。電子透かしは以下の設定に基づいてGIF以外に追加されます。\n",
                 "s3_compatible_storage": "S3互換ストレージを使用する場合は、以下の設定が必要です。AWSを使用する場合は、空欄にしてください。\n",
                 "s3_acl": "アップロードされたオブジェクトに適用するACLを選択します(標準：private)。利用可能な値は、以下のURLを確認してください。 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "インスタンス プロファイルの認証情報を使用するには、キーとシークレットを空のままにしておきます。\n",
                 "composer_buttons": "デフォルトでは、メディア 管理ボタンとアップロードボタンの両方が表示されます。ボタンを 1 つだけ表示することもできます。\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "S3 ストレージ詳細設定",
                     "endpoint": "エンドポイント",
                     "use_path_style_endpoint": "path style endpointを使用",
-                    "acl": "アクセスコントロールリスト (ACL)"
+                    "acl": "アクセスコントロールリスト (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "ダウンロードログの無効化",

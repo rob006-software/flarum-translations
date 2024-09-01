@@ -36,6 +36,7 @@
                 "watermark": "Yuklash paytida rasmlarga suv belgisi qo'shiladimi yoki yo'qligini tanlang. Quyidagi afzalliklaringiz asosida gif bo'lmagan rasmlarga suv bo'yoqlari qo'shiladi.\n",
                 "s3_compatible_storage": "Quyidagi sozlamalar faqat S3 mos xotirasidan foydalanilganda talab qilinadi. Agar siz AWS dan foydalansangiz, ularni bo'sh qoldirishingiz mumkin.\n",
                 "s3_acl": "Yuklangan ob'ektga qo'llanilishi kerak bo'lgan ACL (standart: shaxsiy). Mumkin qiymatlar uchun qarang: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "",
                 "composer_buttons": "Odatiy bo'lib media menejeri tugmasi ham, yuklash tugmasi ham ko'rinadi. Siz faqat bitta tugmani ko'rsatishni tanlashingiz mumkin.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Kengaytirilgan S3 saqlash sozlamalari",
                     "endpoint": "Yakuniy nuqta",
                     "use_path_style_endpoint": "Yo'l uslubining so'nggi nuqtasidan foydalaning",
-                    "acl": "Kirish nazorati roʻyxati (ACL)"
+                    "acl": "Kirish nazorati roʻyxati (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Yuklab olish jurnalini o'chirib qo'ying",

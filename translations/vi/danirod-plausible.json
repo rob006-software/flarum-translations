@@ -3,29 +3,29 @@
         "admin": {
             "validation": {
                 "domain": {
-                    "required": "",
-                    "regex": ""
+                    "required": "Một tên miền phải được cung cấp",
+                    "regex": "Tên miền không hợp lệ"
                 },
                 "proxy_domain": {
-                    "regex": ""
+                    "regex": "Tên miền proxy không hợp lệ"
                 }
             },
             "settings": {
                 "enable": {
-                    "label": "",
-                    "help": ""
+                    "label": "Đã bật",
+                    "help": "Bật tùy chọn này để thực sự bao gồm mã theo dõi."
                 },
                 "domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Tên miền",
+                    "help": "Miền sẽ sử dụng khi gửi phân tích."
                 },
                 "proxy_domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Tên miền proxy",
+                    "help": "Lưu trữ mã JS: Để trống để sử dụng plausible.io. Điều này giúp tránh trình chặn quảng cáo loại bỏ mã theo dõi. Kiểm tra tài liệu của Plausible."
                 },
                 "exclude_admin": {
-                    "label": "",
-                    "help": ""
+                    "label": "Loại trừ quản trị viên",
+                    "help": "Khi bật chức năng này, lượt xem của quản trị viên khi đang đăng nhập sẽ không được tính vào thống kê."
                 }
             }
         }

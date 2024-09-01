@@ -2,19 +2,19 @@
     "imdong-visible-to-op-only": {
         "admin": {
             "permissions": {
-                "view-post": "",
-                "view-hide-post": ""
+                "view-post": "Xem bài viết",
+                "view-hide-post": "Xem nội dung bị ẩn"
             },
             "settings": {
-                "allow-view-sticky": "",
-                "allow-view-sticky-text": ""
+                "allow-view-sticky": "Cho phép xem Ghim",
+                "allow-view-sticky-text": "Dưới nhãn mà cấm xem phản hồi, bạn cũng có thể xem nội dung phản hồi được đăng trên đầu, điều này cần được sử dụng với tiện ích Stickiest & Sticky (không đáng kể)"
             }
         },
         "forum": {
-            "button_tooltip_only_op_see": "",
-            "hidden_content_only_op_see": "",
-            "only_op_see": "",
-            "editor_empty_tips": ""
+            "button_tooltip_only_op_see": "Chỉ có người tạo chủ đề thấy",
+            "hidden_content_only_op_see": "Nội dung này chỉ hiển thị cho người tạo chủ đề",
+            "only_op_see": "Chỉ có người tạo chủ đề thấy",
+            "editor_empty_tips": "Mã [OP][/OP] trống trong phần giữa"
         }
     }
 }

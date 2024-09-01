@@ -8,7 +8,7 @@
             "settings": {
                 "title": "FoF Drafts",
                 "enable_scheduled_drafts": "Aktifkan Konsep Terjadwal",
-                "schedule_on_one_server": "Gunakan 'onOneServer()' untuk penjadwalan tugas (membutuhkan Redis / Memcache)",
+                "schedule_on_one_server": "Gunakan 'onOneServer()' untuk penjadwalan task (membutuhkan Redis/Memcache)",
                 "schedule_log_output": "Menambahkan output penjadwal ke penyimpanan log"
             }
         },
@@ -54,7 +54,7 @@
             "user": {
                 "settings": {
                     "drafts_heading": "Konsep",
-                    "draft_autosave_enable": "Mengaktifkan Penyimpanan Otomatis Konsep?",
+                    "draft_autosave_enable": "Aktifkan penyimpanan konsep secara otomatis?",
                     "draft_autosave_interval_label": "Interval Penyimpanan Otomatis (detik)",
                     "draft_autosave_interval_button": "Perbarui Interval",
                     "draft_autosave_interval_invalid": "Interval harus bilangan bulat lebih besar dari 4."

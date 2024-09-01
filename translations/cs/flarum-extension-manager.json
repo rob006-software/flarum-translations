@@ -2,167 +2,167 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Nová metoda ověřování",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Host",
+                    "host_placeholder": "příklad: extiverse.com",
+                    "submit_button": "Odeslat",
+                    "token_label": "Token",
+                    "type_label": "Typ",
+                    "unchanged_token_placeholder": "(beze změny)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Opravdu chcete tuto metodu ověřování odstranit?",
+                "delete_label": "Odstranění metody ověřování",
+                "edit_label": "Upravit metodu ověřování",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Host",
+                    "token": "Token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Nejsou nakonfigurovány žádné metody ověřování. Jedná se o volitelnou pokročilou funkci, která umožňuje instalaci ze soukromých úložišť.",
+                "remove_button_label": "Odstranění metody ověřování",
+                "title": "Metody ověřování",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Přidat Repozitář",
+                "delete_repository_confirmation": "Opravdu chcete tento repozitář odstranit? Všechna rozšíření nainstalovaná z tohoto repozitáře budou odstraněna.",
+                "delete_repository_label": "Odstranění repozitáře",
+                "edit_repository_label": "Upravit repozitář",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Minimální stabilita",
+                    "help": "Typ balíčků, které je povoleno instalovat. Tento údaj neměňte, pokud nevíte, co děláte.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stabilní (Doporučeno)",
+                        "rc": "Kandidát na vydání",
+                        "beta": "Beta",
+                        "alpha": "Alfa",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Repozitáře",
+                    "help": "Přidání dalších repozitářů, ze kterých lze instalovat balíčky. Jedná se o pokročilou funkci, nepřidávejte repozitáře, která nejsou důvěryhodná, protože mohou být použita ke spuštění škodlivého kódu na vašem serveru.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "cesta"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Název",
+                        "type_label": "Typ",
+                        "url": "URL",
+                        "submit_button": "Odeslat"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Nepodařilo se provést. Zkontrolujte protokoly kompozitoru v úložišti/logs/composer.",
+                "extension_already_installed": "Rozšíření je již nainstalováno.",
+                "extension_not_directly_dependency": "Rozšíření je nainstalováno jako závislost jiného rozšíření, nelze jej přímo odebrat.",
+                "extension_not_installed": "Rozšíření nebylo nalezeno.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "Rozšíření je pravděpodobně nekompatibilní s vaší aktuální instancí Flarum.",
+                    "extension_not_found": "Rozšíření nebylo nalezeno nebo neexistuje.",
+                    "extensions_incompatible_with_new_major": "Některá nainstalovaná rozšíření nejsou kompatibilní s nejnovější hlavní verzí. Vyčkejte, dokud autoři rozšíření neaktualizují, aby byla kompatibilní, nebo je před pokračováním odstraňte.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "Ukažte, proč se neaktualizoval na nejnovější verzi.",
+                "install": "Instalace nového rozšíření",
+                "install_help": "Vyplňte název rozšiřujícího balíčku a pokračujte.  Můžete zadat  <semantic_link>semantic version</semantic_link> pomocí formátu <code>vendor/package-name:version</code>. Navštivte {extiverse} a prohlédněte si rozšíření.\n",
+                "proceed": "Pokračujte na",
+                "remove": "Odinstalovat",
+                "successful_install": "{extension} bylo úspěšně nainstalováno, přesměrování..",
+                "successful_remove": "Rozšíření bylo úspěšně odstraněno.",
+                "successful_update": "{extension} byl úspěšně aktualizován, přesměrování..",
+                "update": "Aktualizovat",
+                "update_soft_label": "Jemná aktualizace",
+                "update_hard_label": "Tvrdá aktualizace"
             },
-            "file_permissions": "",
+            "file_permissions": "Správce rozšíření vyžaduje oprávnění pro čtení a zápis následujících souborů a adresářů: composer.json, composer.lock, vendor, storage, storage/.composer.\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "Hlavní aktualizace Flarum nejsou zpětně kompatibilní, což znamená, že některá vaše aktuálně nainstalovaná rozšíření a ručně provedené úpravy nemusí s touto novou verzí fungovat. Než budete pokračovat, nezapomeňte si prosím vytvořit zálohu databáze a souborů.\n",
+                "dry_run": "Suchý běh",
+                "dry_run_help": "Při zkušebním spuštění se emuluje aktualizace, aby se zjistilo, zda lze vaše stávající nastavení bezpečně aktualizovat, což neznamená, že vaše ručně provedené vlastní úpravy budou v novější verzi fungovat.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "Poslední hlavní aktualizace se nezdařila, některá nainstalovaná rozšíření nejsou s novou hlavní verzí kompatibilní.",
+                    "why": "Zjistěte více"
                 },
-                "title": "",
-                "update": ""
+                "title": "Flarum {version} Hlavní aktualizace k dispozici",
+                "update": "Aktualizovat"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Tím se také aktualizují všechna ostatní rozšíření/balíčky s dostupnými aktualizacemi."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Správce"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Podrobnosti",
+                        "elapsed_time": "Dokončeno v",
+                        "peak_memory_used": "Maximální využití paměti",
+                        "operation": "Operace",
+                        "package": "Balíček",
+                        "status": "Stav"
                     },
-                    "none": "",
+                    "none": "Zatím nejsou žádné úkoly.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Instalace rozšíření",
+                        "extension_remove": "Odstranění rozšíření",
+                        "extension_update": "Aktualizace rozšíření",
+                        "update_check": "Zkontrolujte aktualizace",
+                        "update_global": "Aktualizace všech softwarových balíčků",
+                        "update_major": "Hlavní aktualizace",
+                        "update_minor": "Menší aktualizace",
+                        "why_not": "Analýza důvodů, proč nelze balíček aktualizovat"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Neznámé",
+                        "command": "Příkaz Composer",
+                        "guessed_cause": "Důvod",
+                        "output": "Výstup"
                     },
-                    "refresh": "",
+                    "refresh": "Obnovení seznamu úkolů",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Úspěch",
+                        "failure": "Neúspěšný",
+                        "pending": "Čeká na vyřízení",
+                        "running": "Běží"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Úkol byl právě zahájen",
+                    "title": "Fronta"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "Dávejte prosím pozor na to, komu dáváte přístup do administrátorské oblasti, správce rozšíření by mohl být zneužit zlými hráči k instalaci balíčků, které mohou vést k narušení bezpečnosti.",
+                "debug_mode_warning": "Jste spuštěni v režimu ladění, správce rozšíření nemůže správně instalovat a aktualizovat místní vývojové balíčky. Pro tyto účely použijte raději rozhraní příkazového řádku.",
+                "queue_jobs": "Spouštění operací ve frontě na pozadí",
+                "queue_jobs_help": "Můžete si přečíst o <a href='{basic_impl_link}'>basic queue</a> implementace nebo <a href='{adv_impl_link}'>more advanced</a> one. Ujistěte se, že verze PHP použitá pro frontu je {php_version}. Ujistěte se, že <a href='{folder_perms_link}'>folder permissions</a> jsou správně nakonfigurovány.\n",
+                "task_retention_days": "Zachování úkolů",
+                "task_retention_days_help": "Počet dní, po které se mají dokončené úkoly uchovávat v databázi. Úkoly starší než tato hodnota budou odstraněny. Nastavte na 0, chcete-li ponechat všechny úkoly.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "Vše je aktuální!",
+                "check_for_updates": "Zkontrolujte aktualizace",
+                "flarum": "Jádro Flarum",
+                "global_update_successful": "Všechny balíčky byly úspěšně aktualizovány.",
+                "last_update_checked_at": "Poslední kontrola aktualizace: ",
+                "run_global_update": "Spustit globální aktualizaci",
+                "updater_title": "Aktualizace",
+                "updater_help": "Provede kontrolu nových rozšíření a aktualizací Flarum."
             },
-            "update_successful": "",
+            "update_successful": "Flarum bylo úspěšně aktualizováno.",
             "why_not_modal": {
-                "title": ""
+                "title": "Proč se neaktualizuje"
             }
         }
     }

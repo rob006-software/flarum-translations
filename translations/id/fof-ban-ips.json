@@ -33,7 +33,7 @@
                 "update_title": "Perbarui IP Yang Diblokir",
                 "ban_ip_no_users": "Tidak ada satupun yang akan diblokir"
             },
-            "empty_text": "Tidak ditemukan adanya IP yang diblokir."
+            "empty_text": "Tidak ditemukan IP yang diblokir."
         },
         "error": {
             "banned_ip_message": "Otorisasi gagal.",
@@ -47,11 +47,11 @@
                 "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "check_button": "Periksa",
                 "save_button": "Simpan",
-                "ban_ip_confirmation": "Apakah Anda yakin ingin memblokir alamat IP ini agar tidak digunakan di forum? Ini akan memblokir pengguna dengan alamat IP ini agar tidak dapat login dan mendaftar.",
+                "ban_ip_confirmation": "Apakah Anda yakin ingin memblokir alamat IP ini agar tidak digunakan di forum? Tindakan ini akan memblokir pengguna dengan alamat IP ini agar tidak dapat login dan melakukan pendaftaran.",
                 "ban_ip_users": "{count, plural, one {Pengguna {users} akan diblokir} other {Pengguna {users} akan diblokir}}",
-                "unban_ip_confirmation": "Apakah Anda yakin ingin membuka blokir pengguna ini dan semua pengguna lain yang tidak diblokir oleh IP lain?",
+                "unban_ip_confirmation": "Apakah Anda yakin ingin membuka blokir pengguna ini dan semua pengguna lainnya yang tidak terkena pemblokiran oleh IP lain?",
                 "unban_options_only_ip": "Hanya membuka blokir IP saat ini (<code>{ip}</code>)",
-                "unban_options_all_ip": "Membuka blokir semua IP yang digunakan oleh <i>{username}</i>",
+                "unban_options_all_ip": "Buka blokir semua IP yang digunakan oleh <i>{username}</i>",
                 "unban_ip_no_users": "Tidak ada orang lain yang akan dibuka blokirnya",
                 "unban_ip_users": "{count, plural, one {Pengguna {users} akan dibuka blokirnya} other {Pengguna {users} akan dibuka blokirnya}}",
                 "unbanned_ips": "<code>{ips}</code> tidak dilarang.",
@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "Jika catatan larangan IP dikaitkan dengan pengguna (misalnya, pengguna diblokir berdasarkan IP), alamat IP pengguna akan disertakan dalam ekspor, bersama dengan alasan pemblokiran dan tanggal pembuatannya.",
-                    "anonymize_description": "Alamat IP apa pun yang ditautkan ke pengguna akan dipisahkan, namun IP itu sendiri akan tetap diblokir, beserta alasannya. Pastikan tidak ada data PII yang disimpan di kolom 'alasan'."
+                    "export_description": "Jika catatan pemblokiran IP dikaitkan dengan pengguna (misalnya, pengguna tersebut diblokir oleh IP), alamat IP pengguna akan disertakan dalam ekspor, bersama dengan alasan pemblokiran dan tanggal pembuatannya.",
+                    "anonymize_description": "Semua alamat IP yang terhubung dengan pengguna akan dipisahkan, tetapi IP itu sendiri akan tetap diblokir, beserta alasannya. Pastikan tidak ada data PII yang disimpan di kolom 'alasan'."
                 }
             }
         }

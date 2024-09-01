@@ -1,0 +1,117 @@
+{
+    "nodeloc-lottery": {
+        "admin": {
+            "settings": {
+                "allow_option_image": "允许为选项提供图像地址",
+                "max_options": "每个彩券的最大选项数",
+                "options_color_blend": "彩票选项中的颜色混合文字",
+                "options_color_blend_help": "使用这个来启用颜色混合以让彩票选项更具可读性。如果这个功能使你的论坛外观出现问题降低了可读性，请禁用。"
+            },
+            "permissions": {
+                "seeParticipants": "",
+                "start": "开始抽奖",
+                "self_edit": "编辑已创建的彩票（需要帖子编辑权限）",
+                "self_post_edit": "在自己的帖子中编辑*所有*彩票（需要帖子编辑权限）",
+                "enter": "可以参加抽奖",
+                "canCancelEnter": "可以更改参加的彩票选项",
+                "moderate": "编辑和删除彩票",
+                "view_results_without_Enter": "不投票便能查看结果"
+            }
+        },
+        "forum": {
+            "days_remaining": "于 {time} 后开奖。",
+            "no_permission": "你无权参与",
+            "lottery_ended": "抽奖已结束。",
+            "public_lottery": "查看参与者",
+            "max_votes_allowed": "投票允许投给 {max} 个选项。",
+            "widget-title": "接下来的活动开始于...",
+            "days": "天",
+            "hours": "小时",
+            "minutes": "分钟",
+            "seconds": "秒",
+            "endDateText": "抽奖已结束！",
+            "hurry_up": "新的“活动”即将到来！！我们将会开始于...",
+            "had_enter": "你已经进入了抽奖。",
+            "too_many_participants": "参与者过多",
+            "lottery": {
+                "cannot_cancel_lottery": "用户不能退出抽奖",
+                "submit_button": "点击参与"
+            },
+            "composer_discussion": {
+                "add_lottery": "=> nodeloc-lottery.forum.moderation.add",
+                "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
+                "no_permission_alert": "你没有权限来开始抽奖。",
+                "in_queue_alert": "你已经进入了抽奖。",
+                "no_post_in_discussion_alert": ""
+            },
+            "modal": {
+                "add_title": "添加抽奖",
+                "lottery_placeholder": "奖项",
+                "price": "价格",
+                "amount": "数目",
+                "min_participants": "最少参与者",
+                "max_participants": "最多参与者",
+                "add_option_label": "添加选项",
+                "date_placeholder": "开奖时间",
+                "edit_title": "编辑抽奖",
+                "include_prizes": "你必须添加一个奖项",
+                "include_price": "你必须添加一个价格",
+                "include_amount": "你必须添加一个数量",
+                "include_end_date": "你必须添加一个结束日期",
+                "max": "你可以使用最多 {max} 个回答",
+                "min": "你可以使用最少 2 个回答",
+                "no_participants": "无参与者",
+                "option_placeholder": "临界点",
+                "image_option_placeholder": "图片 URL（可选）",
+                "options_label": "限制条件",
+                "public_lottery_label": "允许人们查看谁投票了",
+                "allow_multiple_votes_label": "允许人们参加多个选项",
+                "participants_label": "参与者",
+                "participants_help": "如果参与者过少便取消，并且如果超过了最大数量便禁止参与。",
+                "hide_votes_label": "在投票结束前隐藏投票数",
+                "allow_cancel_enter_label": "允许用户退出投票",
+                "submit": "提交",
+                "discussions_started": "讨论已开始",
+                "posts_made": "帖子已发布",
+                "likes_given": "点赞数量",
+                "likes_received": "获得的赞数",
+                "best_answers": "最佳答案",
+                "moderator_strikes": "主持人罢工",
+                "money": "财富",
+                "lotteries_made": "投票已开始",
+                "not_enough": "不足",
+                "read_permission": ""
+            },
+            "moderation": {
+                "add": "添加彩票",
+                "delete": "删除彩票",
+                "delete_confirm": "你确定要删除这个彩票吗？",
+                "edit": "编辑彩票"
+            },
+            "tooltip": {
+                "badge": "彩票",
+                "votes": "{count} 个票"
+            },
+            "participants_modal": {
+                "title": "参与者",
+                "title_winners": "",
+                "lottery_canceled": ""
+            },
+            "notification": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "drawLottery": "抽奖通知"
+            },
+            "body": {
+                "drawLottery": "",
+                "fail": "",
+                "finish": ""
+            }
+        }
+    }
+}

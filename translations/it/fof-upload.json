@@ -36,6 +36,7 @@
                 "watermark": "Qui puoi decidere se aggiungere un Watermark alle tue immagini. Il Watermark sarà aggiunto a tutte le immagini non GIF seguendo le impostazioni che inserirai qui sotto\n",
                 "s3_compatible_storage": "Le seguenti impostazioni sono necessarie solo quando si utilizza l'archiviazione compatibile S3. Se utilizzi AWS, puoi lasciarli vuoti.\n",
                 "s3_acl": "L'ACL da applicare all'oggetto caricato (predefinito: privato). Per i valori possibili, vedere https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Lascia la chiave e il segreto vuoti per utilizzare le credenziali nel profilo dell'istanza.\n",
                 "composer_buttons": "Per impostazione predefinita, sono visibili sia il pulsante del gestore multimediale che il pulsante di caricamento. Puoi anche scegliere di visualizzare un solo pulsante.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Impostazioni di archiviazione S3 avanzate",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Usa path style endpoint",
-                    "acl": "Elenco di controllo accessi (ACL)"
+                    "acl": "Elenco di controllo accessi (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Disattiva log degli scaricamenti",

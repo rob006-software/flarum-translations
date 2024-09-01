@@ -11,7 +11,7 @@
             "modal": {
                 "title": "Bereaksi",
                 "anonymous_count": "{count, plural, one {# pengguna anonim} other {# pengguna anonim}}",
-                "no_reactions": ""
+                "no_reactions": "Belum ada reaksi"
             },
             "mod_item": "Lihat Reaksi",
             "react_button_label": "Bereaksi"
@@ -20,12 +20,12 @@
             "permissions": {
                 "react_posts_label": "Memberikan reaksi terhadap postingan",
                 "see_reactions_label": "Melihat siapa yang memberikan reaksi pada postingan",
-                "delete_post_reactions_label": ""
+                "delete_post_reactions_label": "Menghapus reaksi pada postingan"
             },
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "Secara default, kami menyajikan reaction assets dari CDN Cloudflare. Anda juga memiliki opsi untuk menentukan alamat CDN lain \nsesuai kebutuhan. <code>[codepoint]</code> akan diganti dengan codepoint emoji.\n\nSebagai contoh, untuk beralih ke Noto Emoji melalui jsdelivr, Anda akan memasukkan <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Kolom ini TIDAK BOLEH dikosongkan.\n",
+                    "help": "Secara default, kami menyajikan reaction assets dari CDN Cloudflare. Anda juga memiliki opsi untuk menentukan alamat CDN lain\nsesuai kebutuhan. <code>[codepoint]</code> akan diganti dengan codepoint emoji.\n\nSebagai contoh, untuk beralih ke Noto Emoji melalui jsdelivr, Anda akan memasukkan <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Kolom ini TIDAK BOLEH dikosongkan.\n",
                     "label": "URL",
                     "default-url": "Default: {url}"
                 },
@@ -37,7 +37,7 @@
                         "display": "Tampilan",
                         "identifier": "Pengidentifikasi"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "Apakah Anda yakin ingin menghapus reaksi ini? Tindakan ini tidak dapat dibatalkan."
                 },
                 "convert": {
                     "help": "Jika Anda baru saja memperbarui ekstensi Anda, reaksi Anda harus dikonversi. Jika Anda baru saja menginstal ekstensi ini, Anda bisa mengabaikan pesan ini.",
@@ -53,13 +53,13 @@
                     "save_settings": "Simpan Pengaturan",
                     "integrations": {
                         "legend": "Integrasi",
-                        "warning": "Reaksi yang sama <strong>tidak dapat</strong> dikonversi menjadi Suka <strong>dan</strong> Upvote",
+                        "warning": "Reaksi yang sama <strong>tidak dapat</strong> dikonversi menjadi Suka <strong>dan</strong> Dukung Naik",
                         "gamification": {
                             "legend": "Gamification",
-                            "upvoteLabel": "Ubah reaksi menjadi Upvote",
-                            "upvoteHelptext": "Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi Upvote",
-                            "downvoteLabel": "Ubah reaksi menjadi Downvote",
-                            "downvoteHelptext": "Masukkan pengidentifikasi reaksi yang ingin Anda ubah secara otomatis menjadi Downvote"
+                            "upvoteLabel": "Ubah reaksi menjadi Dukung Naik",
+                            "upvoteHelptext": "Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi Dukung Naik",
+                            "downvoteLabel": "Ubah reaksi menjadi Dukung Turun",
+                            "downvoteHelptext": "Masukkan pengidentifikasi reaksi yang ingin Anda ubah secara otomatis menjadi Dukung Turun"
                         },
                         "likes": {
                             "legend": "Suka",

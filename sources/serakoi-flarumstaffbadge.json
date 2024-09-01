@@ -12,6 +12,14 @@
             "staffBadgeTextBg": {
                 "label": "Staff Badge Background Color",
                 "help": "Badge Color (Defaults to 'rgb(70, 209, 96)')"
+            },
+            "permissions": {
+                "canEditStaffBadge": {
+                    "label": "Can Edit Staff Badge"
+                },
+                "canEditTagList": {
+                    "label": "Can Edit Tag List"
+                }
             }
         },
         "forum": {

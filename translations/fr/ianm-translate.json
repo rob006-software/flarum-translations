@@ -5,9 +5,12 @@
                 "refresh-translation": "Forcer une retraduction d'une traduction mise en cache",
                 "translate-to-locale": "Afficher la traduction dans la langue actuelle",
                 "translate-to-all-locales": "Afficher la traduction dans toutes les langues du forum",
+                "edit-translation": "Modifier manuellement une traduction",
                 "translate": "Voir les traductions"
             },
             "settings": {
+                "seemless": "Traduction en continu",
+                "seemless-help": "Fonctionnalité bêta. Lorsqu'elle est activée, tout le contenu des utilisateurs est traduit automatiquement dans toutes les autres langues disponibles sur le forum. Lorsqu'un utilisateur consulte un contenu multilingue, les traductions s'affichent automatiquement.",
                 "deepl": {
                     "api_key": {
                         "help": "Enregistrez-vous sur {link}. Le pilote détectera automatiquement le type de clé, gratuite ou professionnelle.",
@@ -37,12 +40,28 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "L'URL du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez l'URL ici. Le schéma doit être `http` ou `https`.",
+                        "label": "URL du serveur"
+                    },
+                    "port": {
+                        "help": "Le port du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez le port ici.",
+                        "label": "Port du serveur"
+                    },
+                    "api_key": {
+                        "help": "(facultatif) Si votre serveur LibreTranslate a besoin d'une clé API, saisissez-la ici.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                },
                 "translate-all-enabled": "Activer toutes les langues de traduction",
                 "translate-all-help": "Lorsque cette option est activée, les administrateurs et les autres utilisateurs autorisés peuvent traduire le contenu dans n'importe quelle langue installée sur le forum.",
                 "bind-browser-language": "Ajouter la langue du navigateur",
                 "bind-browser-language-help": "Lorsque cette option est activée, la ou les langues du navigateur de l'utilisateur sont ajoutées à la liste des langues disponibles pour la traduction.",
                 "use-native-locale-names": "Utiliser les noms locaux natifs",
                 "use-native-locale-names-help": "Si cette option est activée, le nom de la langue native sera utilisé à la place de la version locale actuelle du nom.",
+                "translate-polls": "Traduire les sondages",
+                "translate-polls-help": "Lorsque cette option est activée, les titres des sondages, les sous-titres, le texte alt des images et les options de réponse sont traduits automatiquement lors de la création ou de la modification d'un sondage.",
                 "provider": "Fournisseur de services de traduction",
                 "readme-info": "Pour plus d'informations, veuillez consulter la documentation dans le fichier README.",
                 "readme-none": "Aucun paramètre supplémentaire n'est requis pour ce pilote.",
@@ -51,9 +70,30 @@
             }
         },
         "forum": {
+            "composer": {
+                "multi-languages": "Astuce : vous pouvez écrire avec la langue de votre choix, le forum la traduira pour vous."
+            },
             "unknown-language": "[non détecté]",
             "detected-language": "Ce message est en {postLang}",
             "translate-button-label": "Traduire",
+            "refresh-translation": "Actualiser la traduction",
+            "original-content": {
+                "title": "Contenu original",
+                "view": "Voir le contenu original"
+            },
+            "manage-translations": {
+                "translations-label": "Traductions",
+                "button-label": "Gérer les traductions",
+                "poll": {
+                    "image-alt": "Texte ALT de l'image du sondage (si elle existe)",
+                    "option": "Option {number} de sondage",
+                    "original-title": "Langue d'origine",
+                    "subtitle": "Sous-titre du sondage",
+                    "title": "Gérer les traductions du sondage",
+                    "question": "Question du sondage"
+                },
+                "save-changes": "=> core.ref.save_changes"
+            },
             "discussion": {
                 "post": {
                     "close-translation": "Fermer la traduction",
@@ -78,7 +118,8 @@
             "providers": {
                 "deepl": "DeepL",
                 "google-free": "Google Traduction",
-                "google-cloud": "Google Cloud Translate"
+                "google-cloud": "Google Cloud Translate",
+                "libre": "Libre Translate"
             },
             "settings": {
                 "api-key": "Clé API"

@@ -1,0 +1,28 @@
+{
+    "nodeloc-referral": {
+        "admin": {
+            "settings": {
+                "price": "Price",
+                "reward": "Reward",
+                "max_number": "Max number",
+                "expires": "Expires"
+            },
+            "permissions": {
+                "referral_key": "Who can invite"
+            }
+        },
+        "forum": {
+            "referral": "Referral",
+            "purchase_invite_code": "Purchase Invitation Code",
+            "purchase_help_tip": "Each invitation code costs {invite_code_price} energy. For every successfully invited user, you will be rewarded with {invite_code_reward} energy.",
+            "purchase_max_tip": "Purchase Quantity (up to {invite_code_max_number} at a time)",
+            "purchase_expire_tip": "Invite code will expire in {invite_code_expires} days",
+            "create_time": "Create time",
+            "invite_code": "Invite code",
+            "count": "Left count",
+            "cost": "Cost",
+            "actives": "Actives",
+            "is_expire": "Expired?"
+        }
+    }
+}
