@@ -26,6 +26,7 @@
                 "round": "Pembulatan",
                 "roundDesc": "Membulatkan exp saat melakukan perhitungan"
             },
+            "go_to_forum_quests": "",
             "auto_remove": [
                 "Tidak pernah menghapus exp",
                 "Ketika sebuah postingan/balasan disembunyikan atau dihapus (default)",
@@ -85,10 +86,10 @@
                     "post_deleted": "Post dihapus",
                     "post_hidden": "Post disembunyikan",
                     "post_restored": "Post dipulihkan",
-                    "discussion_started": "Diskusi dimulai",
-                    "discussion_deleted": "Diskusi dihapus",
-                    "discussion_hidden": "Diskusi disembunyikan",
-                    "discussion_restored": "Diskusi dipulihkan",
+                    "discussion_started": "Diskusi dimulai. {title}",
+                    "discussion_deleted": "Diskusi dihapus. {title}",
+                    "discussion_hidden": "Diskusi disembunyikan. {title}",
+                    "discussion_restored": "Diskusi dipulihkan. {title}",
                     "comment_deleted_in_deleted_discussion": "Komentar dihapus dalam diskusi yang dihapus",
                     "post_liked": "Post disukai",
                     "post_unliked": "",

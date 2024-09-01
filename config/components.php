@@ -724,11 +724,14 @@ return [
 	'fof-webhooks' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.2.3/resources/locale/en.yml',
 	],
+	'foskym-activity-graph' => [
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-activity-graph/v1.2.0/locale/en.yml',
+	],
 	'foskym-better-user-directory' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-better-user-directory/v0.1.2/locale/en.yml',
 	],
 	'foskym-custom-levels' => [
-		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-custom-levels/v3.3.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-custom-levels/v3.4.0/locale/en.yml',
 	],
 	'foskym-issue-tracking' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-issue-tracking/v0.4.4/locale/en.yml',
@@ -1199,7 +1202,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/lottery/0.0.3/resources/locale/en.yml',
 	],
 	'nodeloc-my-emoji' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-my-emoji/1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-my-emoji/1.0.2/locale/en.yml',
 	],
 	'nodeloc-referral' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-referral/0.0.1/locale/en.yml',
@@ -1385,7 +1388,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-store-group/v1.0.2/locale/en.yml',
 	],
 	'xypp-user-decoration' => [
-		'tag' => 'https://raw.githubusercontent.com/zxy19/user-decoration/v1.1.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zxy19/user-decoration/v1.2.0/locale/en.yml',
 	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v0.0.2/locale/en.yml',

@@ -18,6 +18,7 @@
                 "autoRemove": "Auto remove exp",
                 "cascadeRemove": "When a discussion is removed, remove the exp of the replies"
             },
+            "go_to_forum_quests": "More settings in Forum Quests",
             "auto_remove": [
                 "Never remove exp",
                 "When a post/reply is hidden or deleted (default)",
@@ -73,15 +74,15 @@
                     "post_deleted": "Post was deleted",
                     "post_hidden": "Post was hidden",
                     "post_restored": "Post was restored",
-                    "discussion_started": "Discussion has started",
-                    "discussion_deleted": "Discussion was deleted",
-                    "discussion_hidden": "Discussion was hidden",
-                    "discussion_restored": "Discussion was restored",
+                    "discussion_started": "Discussion has started. {title}",
+                    "discussion_deleted": "Discussion was deleted. {title}",
+                    "discussion_hidden": "Discussion was hidden. {title}",
+                    "discussion_restored": "Discussion was restored. {title}",
                     "comment_deleted_in_deleted_discussion": "Comment was deleted in deleted discussion",
                     "post_liked": "Post was liked",
                     "post_unliked": "Post was unliked",
                     "admin_edit": "Admin edited",
-                    "forum_quests": "Forum quests",
+                    "forum_quests": "Forum quests: Completed {name}",
                     "store_purchase": "Purchased in store"
                 }
             }
