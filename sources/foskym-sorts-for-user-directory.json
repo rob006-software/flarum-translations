@@ -1,0 +1,84 @@
+{
+    "foskym-sorts-for-user-directory": {
+        "admin": {
+            "settings": {
+                "sort_by_nickname": "Sort by nickname (requires Nicknames)",
+                "sort_by_monthly_posts": "Sort by monthly posts/discussions (may cause performance issues)",
+                "sort_by_groups_count": "Sort by groups count",
+                "sort_by_money": "Sort by money (requires Antoinefr Money)",
+                "sort_by_likes_received": "Sort by likes received (requires Likes Received)",
+                "sort_by_recently_seen": "Sort by recently seen",
+                "sort_by_comments": "Sort by comments count",
+                "sort_by_ziven_checkin": "Sort by check-in (requires Ziven Daily Check In)",
+                "sort_by_invited_user": "Sort by invited user count (requires xypp/invite-user)",
+                "sort_by_badges_count": "Sort by badges count (requires v17development/flarum-user-badges)"
+            },
+            "go_to_user_directory_extension": "Go to User Directory extension with more settings",
+            "go_to_this_extension": "Go to Sorts For User Directory extension with more settings"
+        },
+        "forum": {
+            "user_card": {
+                "monthly_discussions": "Monthly discussions {count}",
+                "monthly_comments": "Monthly comments {count}"
+            }
+        },
+        "lib": {
+            "integrations": {
+                "antoinefr-money": {
+                    "least_money": "Least money",
+                    "most_money": "Most money"
+                },
+                "clarkwinkelmann-likes-received": {
+                    "most_likes_received": "Most likes received",
+                    "least_likes_received": "Least likes received"
+                },
+                "core": {
+                    "nickname_az": "Nickname (a-z)",
+                    "nickname_za": "Nickname (z-a)",
+                    "recently_seen": "Recently seen",
+                    "least_recently_seen": "Least recently seen",
+                    "most_comments": "Most comments",
+                    "least_comments": "Least comments",
+                    "most_monthly_discussions": "Most monthly discussions",
+                    "most_monthly_comments": "Most monthly comments",
+                    "most_groups_count": "Most groups count"
+                },
+                "ziven-daily-check-in": {
+                    "recently_checkin": "Recently check-in",
+                    "most_total_checkin": "Most total check-in",
+                    "most_total_continuous_checkin": "Most total continuous check-in"
+                },
+                "xypp-invite-user": {
+                    "most_invited_user": "Most invited user count"
+                },
+                "v17development-user-badges": {
+                    "most_badges_count": "Most badges count"
+                }
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "nickname_az": "=> foskym-sorts-for-user-directory.lib.integrations.core.nickname_az",
+                "nickname_za": "=> foskym-sorts-for-user-directory.lib.integrations.core.nickname_za",
+                "most_money": "=> foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.most_money",
+                "least_money": "=> foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.least_money",
+                "most_likes_received": "=> foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.most_likes_received",
+                "least_likes_received": "=> foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.least_likes_received",
+                "recently_seen": "=> foskym-sorts-for-user-directory.lib.integrations.core.recently_seen",
+                "least_recently_seen": "=> foskym-sorts-for-user-directory.lib.integrations.core.least_recently_seen",
+                "most_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_comments",
+                "least_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.least_comments",
+                "recently_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.recently_checkin",
+                "most_total_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_checkin",
+                "most_total_continuous_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_continuous_checkin",
+                "most_monthly_discussions": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_discussions",
+                "most_monthly_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_comments",
+                "most_groups_count": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_groups_count",
+                "most_invited_user": "=> foskym-sorts-for-user-directory.lib.integrations.xypp-invite-user.most_invited_user",
+                "most_badges_count": "=> foskym-sorts-for-user-directory.lib.integrations.v17development-user-badges.most_badges_count"
+            }
+        }
+    }
+}
