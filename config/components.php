@@ -739,6 +739,9 @@ return [
 	'foskym-oauth-center' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-oauth-center/v1.3.0/locale/en.yml',
 	],
+	'foskym-pagination' => [
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-pagination/v0.2.1/resources/locale/en.yml',
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
