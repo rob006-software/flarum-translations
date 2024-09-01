@@ -1382,7 +1382,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/user-decoration/v1.0.11/locale/en.yml',
 	],
 	'xypp-websocket-notification' => [
-		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-websocket-notification/v0.1.17/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-websocket-notification/v0.1.18/locale/en.yml',
 	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v0.0.2/locale/en.yml',
