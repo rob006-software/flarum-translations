@@ -724,6 +724,9 @@ return [
 	'fof-webhooks' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.2.3/resources/locale/en.yml',
 	],
+	'foskym-activity-graph' => [
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-activity-graph/v1.2.0/locale/en.yml',
+	],
 	'foskym-custom-levels' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-custom-levels/v3.4.0/locale/en.yml',
 	],
