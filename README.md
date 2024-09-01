@@ -1013,10 +1013,13 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`flamarkt-taxonomies`](https://weblate.rob006.net/projects/flarum/flamarkt-taxonomies) | [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies) |
 | [`flarumite-simple-discussion-views`](https://weblate.rob006.net/projects/flarum/flarumite-simple-discussion-views) | [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views) |
 | [`flarumite-simple-spoilers`](https://weblate.rob006.net/projects/flarum/flarumite-simple-spoilers) | [`flarumite/simple-spoilers`](https://github.com/flarumite/simple-spoilers) |
+| [`foskym-activity-graph`](https://weblate.rob006.net/projects/flarum/foskym-activity-graph) | [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph) |
+| [`foskym-better-user-directory`](https://weblate.rob006.net/projects/flarum/foskym-better-user-directory) | [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory) |
 | [`foskym-custom-levels`](https://weblate.rob006.net/projects/flarum/foskym-custom-levels) | [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels) |
 | [`foskym-issue-tracking`](https://weblate.rob006.net/projects/flarum/foskym-issue-tracking) | [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking) |
 | [`foskym-issue-tracking-youtrack`](https://weblate.rob006.net/projects/flarum/foskym-issue-tracking-youtrack) | [`foskym/flarum-issue-tracking-youtrack`](https://github.com/FoskyM/flarum-issue-tracking-youtrack) |
 | [`foskym-oauth-center`](https://weblate.rob006.net/projects/flarum/foskym-oauth-center) | [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center) |
+| [`foskym-sorts-for-user-directory`](https://weblate.rob006.net/projects/flarum/foskym-sorts-for-user-directory) | [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory) |
 | [`foskym-nickname-group-formatter`](https://weblate.rob006.net/projects/flarum/foskym-nickname-group-formatter) | [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter) |
 | [`ganuonglachanh-sonic`](https://weblate.rob006.net/projects/flarum/ganuonglachanh-sonic) | [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic) |
 | [`gbcl-userip`](https://weblate.rob006.net/projects/flarum/gbcl-userip) | [`gbcl/userip`](https://github.com/GBCLStudio/userip) |
