@@ -1148,6 +1148,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`nearata-signup-confirm-password`](https://weblate.rob006.net/projects/flarum/nearata-signup-confirm-password) | [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password) |
 | [`nearata-tags-color-generator`](https://weblate.rob006.net/projects/flarum/nearata-tags-color-generator) | [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator) |
 | [`nearata-twofactor`](https://weblate.rob006.net/projects/flarum/nearata-twofactor) | [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor) |
+| [`neoncube-private-messages`](https://weblate.rob006.net/projects/flarum/neoncube-private-messages) | [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages) |
 | [`nodeloc-dislikes`](https://weblate.rob006.net/projects/flarum/nodeloc-dislikes) | [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes) |
 | [`nodeloc-my-emoji`](https://weblate.rob006.net/projects/flarum/nodeloc-my-emoji) | [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji) |
 | [`nodeloc-lottery`](https://weblate.rob006.net/projects/flarum/nodeloc-lottery) | [`nodeloc/lottery`](https://github.com/nodeloc/lottery) |
