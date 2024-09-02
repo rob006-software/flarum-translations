@@ -2,14 +2,14 @@
     "fof-polls": {
         "admin": {
             "settings": {
-                "allow_option_image": "允许图片选项",
-                "allow_image_uploads": "允许上传投票的图片及其选项",
-                "allow_image_uploads_help": "如果启用，用户将能够上传图片，同时提供图片 URL（如果为选项启用，则始终为投票本身启用）。",
+                "allow_option_image": "允许设置选项图片链接",
+                "allow_image_uploads": "允许上传头图和选项图片",
+                "allow_image_uploads_help": "启用此项以允许上传图片用于头图和选项。",
                 "enable_global_polls": "启用全站投票",
                 "enable_global_polls_help": "全站投票不与任何帖子绑定，可以从专门的投票页面访问。",
                 "max_options": "每个投票可设置的最大选项数量",
-                "options_color_blend": "在投票选项中使用混合文本色",
-                "options_color_blend_help": "启用此项，使此投票选项更易读。如果此功能影响论坛样式，请禁用。",
+                "options_color_blend": "混合文本色",
+                "options_color_blend_help": "启用此项，改善选项文本样式的可读性。如果此功能影响论坛样式，请禁用。",
                 "image_height": "调整图片高度",
                 "image_width": "调整图片宽度"
             },
@@ -19,7 +19,7 @@
                 "start_global": "发起全站投票",
                 "self_edit": "编辑已创建的投票（需要帖子编辑权限）",
                 "self_post_edit": "编辑自己帖子上的 *所有* 投票（需要帖子编辑权限）",
-                "upload_images": "允许用户上传图片来投票",
+                "upload_images": "允许上传投票头图和选项图",
                 "vote": "参与投票",
                 "change_vote": "修改投票",
                 "moderate": "编辑或删除投票"
@@ -56,7 +56,7 @@
                 "title": "投票"
             },
             "polls_list": {
-                "empty_text": "全站范围内暂无投票。",
+                "empty_text": "暂无全站投票。",
                 "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
@@ -65,7 +65,7 @@
                 "no_permission_alert": "您没有权限发起投票。"
             },
             "compose": {
-                "add_title": "添加投票",
+                "add_title": "发起投票",
                 "edit_title": "编辑投票",
                 "polls_manager": "投票管理器",
                 "polls_preview": "查看投票",
@@ -96,19 +96,19 @@
                 "delete": "=> core.ref.delete",
                 "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "投票图片",
-                    "help": "在投票时展示图片（可选）。",
+                    "label": "头图",
+                    "help": "为投票添加介绍图（可选）。",
                     "alt_label": "图片替代文本",
                     "alt_help_text": "图片加载失败时，展示的替代文本。",
-                    "later_help": "你将能在创建投票之后上传图片。"
+                    "later_help": "创建投票后即可上传图片。"
                 },
                 "poll_option_image": {
-                    "label": "投票结论图片",
-                    "help": "在投票结论旁展示图片（可选）。"
+                    "label": "选项图片",
+                    "help": "为选项添加配图（可选）。"
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": "添加结论"
+                        "add-button": "添加选项"
                     }
                 }
             },
@@ -126,7 +126,7 @@
                 "active-polls": "进行中",
                 "ended-polls": "已结束",
                 "no-active-polls": "暂无正在进行的投票。",
-                "no-recent-polls": "最近没有已结束的投票。"
+                "no-recent-polls": "近期暂无已结束的投票。"
             },
             "tooltip": {
                 "badge": "投票",
