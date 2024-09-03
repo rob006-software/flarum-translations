@@ -2,13 +2,13 @@
     "mattoid-store-auto-check-in": {
         "admin": {
             "settings": {
-                "group-view": ""
+                "group-view": "Afficher les produits aux utilisateurs"
             }
         },
         "forum": {
-            "title": "",
+            "title": "Carte d'enregistrement automatique",
             "error": {
-                "auto-check-in-fail": ""
+                "auto-check-in-fail": "L'enregistrement automatique de l'utilisateur [{username}] a échoué pour la raison suivante：{message}"
             }
         }
     }
