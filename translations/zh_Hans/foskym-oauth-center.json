@@ -17,7 +17,7 @@
                 "enforce_state": "强制状态验证（state 参数）",
                 "require_exact_redirect_uri": "需要确切的回调地址",
                 "authorization_method_fetch": "授权使用 Fetch 方式请求（非直接重定向）",
-                "allow_delete_records": ""
+                "allow_delete_records": "允许删除授权记录"
             },
             "clients": {
                 "client_id": "应用 ID",
@@ -49,9 +49,9 @@
                 "delete_token": "删除令牌"
             },
             "action": {
-                "delete_all_records_button": "",
-                "delete_all_records_confirm": "",
-                "delete_all_records_success": ""
+                "delete_all_records_button": "删除所有记录",
+                "delete_all_records_confirm": "确认删除所有记录",
+                "delete_all_records_success": "成功删除所有记录"
             }
         },
         "forum": {
@@ -73,9 +73,9 @@
                 "no_records": "暂无记录",
                 "no_more_records": "没有更多记录了",
                 "load_more": "加载更多",
-                "delete_button": "",
-                "delete_all_button": "",
-                "delete_all_confirm": ""
+                "delete_button": "删除日志",
+                "delete_all_button": "删除所有日志",
+                "delete_all_confirm": "确认删除所有日志"
             }
         }
     }
