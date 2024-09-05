@@ -211,7 +211,7 @@
                 "rename_discussions_label": "",
                 "reply_to_discussions_label": "",
                 "search_users_label": "",
-                "sign_up_label": "Prijavi se",
+                "sign_up_label": "Registracija",
                 "start_discussions_label": "Nove teme",
                 "title": "",
                 "view_forum_label": "",
@@ -308,16 +308,16 @@
                 "preview_tooltip": "Predogled"
             },
             "composer_discussion": {
-                "body_placeholder": "Napiši objavo...",
+                "body_placeholder": "Napiši odgovor ...",
                 "discard_confirmation": "Niste shranili svoje objave. Ali jo želite zavreči?",
-                "submit_button": "Objavi",
+                "submit_button": "Objavi odgovor",
                 "title": "",
                 "title_placeholder": "Naslov teme"
             },
             "composer_edit": {
                 "discard_confirmation": "Spremembe niso shranjene. Jih želite zavreči?",
                 "edited_message": "",
-                "post_link": "Objava #{number} v {discussion}",
+                "post_link": "Odgovor #{number} v {discussion}",
                 "submit_button": "",
                 "view_button": ""
             },
@@ -341,7 +341,7 @@
                 "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
-                "empty_text": "Zdi se, da tukaj ni nobene razprave.",
+                "empty_text": "Izgleda, da tukaj ni nobene razprave.",
                 "load_more_button": "",
                 "replied_text": "{username} odgovoril {ago}",
                 "started_text": "{username} začel {ago}",
@@ -363,7 +363,7 @@
                 "locale_dropdown_accessible_label": "",
                 "log_in_link": "",
                 "log_out_button": "",
-                "profile_button": "",
+                "profile_button": "Uporabniški profil",
                 "search_clear_button_accessible_label": "",
                 "search_placeholder": "Iskanje po forumu",
                 "search_role_label": "Iskanje po forumu",
@@ -374,7 +374,7 @@
             "index": {
                 "all_discussions_link": "",
                 "cannot_start_discussion_button": "Ne morete odpreti nove teme",
-                "mark_all_as_read_confirmation": "Ali ste prepričani, da želite vse pogovore označiti kot prebrane?",
+                "mark_all_as_read_confirmation": "Ali ste prepričani, da želite vse teme označiti kot prebrane?",
                 "mark_all_as_read_tooltip": "",
                 "meta_title_text": "",
                 "refresh_tooltip": "Osveži",
@@ -413,7 +413,7 @@
             "post": {
                 "edited_text": "",
                 "edited_tooltip": "{username} urejal {ago}",
-                "number_tooltip": "Objava #{number}"
+                "number_tooltip": "Odgovor #{number}"
             },
             "post_controls": {
                 "delete_button": "",
@@ -426,7 +426,7 @@
             },
             "post_scrubber": {
                 "now_link": "Pravkar",
-                "original_post_link": "",
+                "original_post_link": "Prva objava",
                 "unread_text": "{count} neprebranih",
                 "viewing_text": ""
             },
@@ -442,7 +442,7 @@
                 "title": ""
             },
             "search": {
-                "all_discussions_button": "",
+                "all_discussions_button": "Med vsemi temami išči \"{query}\"",
                 "discussions_heading": "",
                 "users_heading": ""
             },
@@ -700,7 +700,7 @@
             "custom_header_title": "",
             "delete": "",
             "delete_forever": "",
-            "discussions": "Pogovori",
+            "discussions": "Teme",
             "edit": "Uredi",
             "edit_user": "Uredi uporabnika",
             "email": "Epošta",
@@ -710,7 +710,7 @@
             "icon_text": "",
             "load_more": "Naloži več",
             "loading": "Nalagam...",
-            "log_in": "Vpiši se",
+            "log_in": "Prijava",
             "log_out": "Odjava",
             "mark_all_as_read": "Označi vse kot prebrano",
             "never": "Nikoli",
