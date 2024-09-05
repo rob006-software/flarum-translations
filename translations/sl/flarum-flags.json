@@ -6,24 +6,24 @@
                 "view_flags_label": ""
             },
             "settings": {
-                "flag_own_posts_label": "",
+                "flag_own_posts_label": "Omogoči uporabnikom, da označijo svoje odgovore kot neprimerne",
                 "guidelines_url_label": "",
                 "title": ""
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "Hvala, ker ste označili to objavo. Naši moderatorji bodo to preučili.",
+                "confirmation_message": "Hvala, ker ste označili ta odgovor. Naši moderatorji ga bodo preučili.",
                 "dismiss_button": "",
                 "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
+                "reason_inappropriate_label": "Neprimerna vsebina",
+                "reason_inappropriate_text": "Odgovor je žaljiv, zlonameren ali krši naše <a>smernice skupnosti</a>.",
                 "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
+                "reason_off_topic_label": "Vsebina ne sodi pod to temo",
+                "reason_off_topic_text": "Odgovor ne sodi pod to temo. Potrebno ga je prestaviti.",
+                "reason_other_label": "Drugo (navedite)",
+                "reason_spam_label": "Reklama",
+                "reason_spam_text": "Odgovor je reklama.",
                 "submit_button": "",
                 "title": ""
             },
@@ -34,16 +34,16 @@
                 "tooltip": ""
             },
             "post": {
-                "dismiss_flag_button": "",
+                "dismiss_flag_button": "Prekliči neprimernost odgovora",
                 "flagged_by_text": "",
                 "flagged_by_with_reason_text": ""
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "Neprimeren odgovor"
             }
         },
         "ref": {
-            "flag_post": "",
+            "flag_post": "Označi odgovor kot neprimeren",
             "flagged_posts": ""
         }
     }
