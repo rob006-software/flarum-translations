@@ -2,41 +2,41 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "title": ""
+                "return_key": "回车发送消息",
+                "title": "悄悄话设置"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "发送私信"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "消息"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "创建会话",
+                "help": "请输入对方的用户名。",
+                "help_start": "{username} 主动回复你前，最多发送 1 条消息。点击用户名重新选择对话人。",
+                "search_recipients": "请输入用户名……",
+                "submit": "发送消息",
+                "copied": "已复制消息到剪贴板。",
+                "more_users": "对方未设置私信时，可能无法搜到。",
+                "already": "已存在与 {username} 的会话。"
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": ""
+                "messages_single": "新建会话",
+                "messages_multiple": "{count} 条消息",
+                "chat_with": "私信 {username}",
+                "start": "发起会话",
+                "start_of_conversation": "会话开始",
+                "read": "阅读",
+                "cant_start": "无法发起会话",
+                "text_placeholder": "说点什么吧",
+                "send": "发送"
             },
             "notifications": {
-                "message_received": "",
-                "notify_message_received": ""
+                "message_received": "测试",
+                "notify_message_received": "有人私信我"
             }
         }
     }
