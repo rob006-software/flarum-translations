@@ -17,9 +17,9 @@
                 "zip": "Zip Archive"
             },
             "settings_button": "配置",
-            "delete_button": "",
-            "delete_confirmation": "",
-            "create_button": "",
+            "delete_button": "删除",
+            "delete_confirmation": "确定要删除「{name}」（{adapter}）",
+            "create_button": "新建适配器",
             "required_package_button": "安装",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -40,7 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "配置 {adapter}",
-                "name_label": "",
+                "name_label": "Location Name",
                 "local": {
                     "target": {
                         "label": "目标路径",
@@ -81,12 +81,12 @@
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Key",
+                        "description": "AWS 凭据密钥"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "私钥",
+                        "description": "AWS 凭据私钥"
                     },
                     "region": {
                         "label": "区域",
@@ -117,21 +117,21 @@
                 },
                 "dropbox": {
                     "key": {
-                        "label": ""
+                        "label": "App Key"
                     },
                     "secret": {
-                        "label": ""
+                        "label": "App Secret"
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "刷新令牌",
+                        "description": "在下方获取刷新令牌，或根据指引手动生成：https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually"
                     },
                     "help": {
-                        "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
-                        "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
-                        "obtain-refresh-token-success": ""
+                        "obtain-access-code-label": "获取访问代码（需要 App Key）",
+                        "obtain-access-code-button": "打开 Dropbox",
+                        "obtain-refresh-token-label": "使用访问代码获取刷新令牌（需要 App Key 和 Secret）",
+                        "obtain-refresh-token-button": "使用代码",
+                        "obtain-refresh-token-success": "刷新令牌获取成功，请保存。"
                     },
                     "access-token": {
                         "label": "Access Token",
@@ -140,12 +140,12 @@
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Client ID",
+                        "description": "根据指引创建 Google Project 并获取 Client ID 和 Client Secret：https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md\n"
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Client Secret",
+                        "description": " "
                     },
                     "refresh-token": {
                         "label": "刷新令牌",
@@ -156,8 +156,8 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
-                        "test_button": ""
+                        "test_success_alert": "成功连接 Google Drive，请保存设置。",
+                        "test_button": "测试连接"
                     },
                     "client": {
                         "id": {
