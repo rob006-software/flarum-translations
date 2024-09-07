@@ -1,0 +1,81 @@
+{
+    "shebaoting-money": {
+        "admin": {
+            "settings": {
+                "title": "Settings",
+                "initialmoney": "Initial Money for New Users",
+                "moneyforpost": "Money given for a new post",
+                "moneyfordiscussion": "Money given for a new discussion",
+                "moneyname": "Name of the money (ex: [money] points)",
+                "postminimumlength": "Post minimum length to get the money (0 to disable)",
+                "noshowzero": "Do not show if the value is zero",
+                "autoremove": "Automatically update money",
+                "moneyforlike": "Money given when a post is liked",
+                "helpextensionlikes": "Requires the <code>flarum/likes</code> extension"
+            },
+            "permissions": {
+                "edit_money_label": "Edit money"
+            },
+            "autoremove": [
+                "Never remove money",
+                "When a discussion/post is hidden or restored (default)",
+                "When a discussion/post is deleted"
+            ],
+            "automoderator": {
+                "metric_name": "Money",
+                "action_name": "Give money"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "Edit money"
+            },
+            "modal": {
+                "title": "{username}'s money",
+                "current": "Current:",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "log_time": "Time",
+            "log_type": "Type",
+            "log_amount": "Amount",
+            "log_balance": "Balance",
+            "log_description": "Description",
+            "log_type_deposit": "Deposit",
+            "log_type_withdrawal": "Withdrawal",
+            "log_type_transfer": "Transfer",
+            "log_type_reward": "Reward",
+            "no_money_logs": "No money logs available",
+            "load_more": "Load more",
+            "logs_description": {
+                "posted_reply": "Replied to discussion: {title}",
+                "posted_in_discussion": "Replied in discussion: {title}",
+                "post_restored": "Restored post in discussion: {title}",
+                "post_hidden": "Hidden post in discussion: {title}",
+                "post_deleted": "Deleted post in discussion: {title}",
+                "discussion_started": "Started discussion: {title}",
+                "discussion_restored": "Restored discussion: {title}",
+                "discussion_hidden": "Hidden discussion: {title}",
+                "discussion_deleted": "Deleted discussion: {title}",
+                "liked": "Liked a reply in discussion: {title} by {user}",
+                "liked_by_others": "Reply in discussion: {title} liked by {user}",
+                "admin_updated": "Admin updated money by {amount}",
+                "initial_registration": "Initial registration bonus"
+            },
+            "logs_type": {
+                "discussion_started": "Discussion Started",
+                "post_created": "Post Created",
+                "post_restored": "Post Restored",
+                "post_hidden": "Post Hidden",
+                "post_deleted": "Post Deleted",
+                "discussion_restored": "Discussion Restored",
+                "discussion_hidden": "Discussion Hidden",
+                "discussion_deleted": "Discussion Deleted",
+                "liked": "Liked Post",
+                "liked_by_others": "Post Liked by Another User",
+                "admin_updated": "Admin Updated",
+                "registration": "Registration Bonus",
+                "discussion_replied": "Replied in Discussion"
+            }
+        }
+    }
+}
