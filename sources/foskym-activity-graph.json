@@ -1,0 +1,66 @@
+{
+    "foskym-activity-graph": {
+        "admin": {
+            "settings": {
+                "count_comments": "Count Comments",
+                "count_discussions": "Count Discussions",
+                "count_likes": "Count Likes",
+                "count_custom_levels_exp_logs": "Custom Levels Exp Logs (requires foskym/flarum-custom-levels)",
+                "count_invite_user_invites": "Count User Invites (requires xypp/flarum-invite-user)",
+                "count_store_purchases": "Count Store Purchases (requires xypp/store)",
+                "count_polls_create_polls": "Count Polls Created (requires fof/polls)",
+                "count_polls_votes": "Count Poll Votes (requires fof/polls)",
+                "count_username_requests_username": "Count Change Username Requests (requires fof/username-requests)",
+                "count_username_requests_nickname": "Count Change Nickname Requests (requires fof/username-requests and flarum-nicknames)",
+                "count_best_answer_marked": "Count Best Answer Marked (requires fof/best-answer)",
+                "count_badges_assigned": "Count Badges Assigned (requires v17development/flarum-user-badges)",
+                "count_achievements_achieved": "Count Achievements Achieved (requires malago/achievements)",
+                "count_quest_done": "Count Quests Done (requires xypp/forum-quests)",
+                "tooltip_position": "Tooltip Position",
+                "tooltip_position_options": {
+                    "top": "Top",
+                    "right": "Right",
+                    "bottom": "Bottom",
+                    "left": "Left"
+                },
+                "times_display_format": "Times Display Format",
+                "times_display_format_help": "Used to display times in the activity graph, e.g., \"times\", \"[count] times\"",
+                "from_year": "From Year",
+                "from_year_help": "The start year of the activity graph"
+            },
+            "permissons": {
+                "query-others-activity-graph": "Query Others' Activity Graph"
+            }
+        },
+        "forum": {
+            "label": {
+                "activity_graph": "Activity Graph",
+                "total_times": "Total {total} in this year",
+                "name_map": "en",
+                "categories": {
+                    "comments": "Comments",
+                    "discussions": "Discussions",
+                    "likes": "Likes",
+                    "custom_levels_exp_logs": "Exp Changes",
+                    "invite_user_invites": "Invites",
+                    "store_purchases": "Store Purchases",
+                    "polls_create_polls": "Polls Created",
+                    "polls_votes": "Poll Votes",
+                    "username_requests_username": "Username Change Requests",
+                    "username_requests_nickname": "Nickname Change Requests",
+                    "best_answer_marked": "Best Answer Marked",
+                    "badges_assigned": "Badges Assigned",
+                    "achievements_achieved": "Achievements Achieved",
+                    "quest_done": "Quests Done"
+                }
+            }
+        },
+        "lib": {
+            "defaults": {
+                "times_display_format": [
+                    "count"
+                ]
+            }
+        }
+    }
+}

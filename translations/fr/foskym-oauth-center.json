@@ -17,7 +17,7 @@
                 "enforce_state": "Renforcer la validation de l'état (paramètre d'état)",
                 "require_exact_redirect_uri": "Exiger un URI de redirection exact",
                 "authorization_method_fetch": "Méthode d'autorisation de Fetch (ne redirige pas directement vers ce service)",
-                "allow_delete_records": ""
+                "allow_delete_records": "Autoriser la suppression des enregistrements d'autorisation"
             },
             "clients": {
                 "client_id": "Identifiant du client",
@@ -49,9 +49,9 @@
                 "delete_token": "Supprimer le jeton"
             },
             "action": {
-                "delete_all_records_button": "",
-                "delete_all_records_confirm": "",
-                "delete_all_records_success": ""
+                "delete_all_records_button": "Supprimer tous les enregistrements",
+                "delete_all_records_confirm": "Confirmer la suppression de tous les enregistrements",
+                "delete_all_records_success": "Suppression de tous les enregistrements"
             }
         },
         "forum": {
@@ -73,9 +73,9 @@
                 "no_records": "Aucun enregistrement",
                 "no_more_records": "Il n'y a plus d'enregistrements",
                 "load_more": "Charger plus",
-                "delete_button": "",
-                "delete_all_button": "",
-                "delete_all_confirm": ""
+                "delete_button": "Supprimer ce journal",
+                "delete_all_button": "Supprimer tous les journaux",
+                "delete_all_confirm": "Confirmer la suppression de tous les journaux"
             }
         }
     }

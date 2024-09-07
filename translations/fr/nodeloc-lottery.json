@@ -8,7 +8,7 @@
                 "options_color_blend_help": "Utilisez cette option pour mélanger les couleurs afin de rendre les options de la loterie plus lisibles. Désactivez cette option si elle provoque des problèmes d'apparence sur votre forum, en réduisant la lisibilité."
             },
             "permissions": {
-                "seeParticipants": "",
+                "seeParticipants": "Voir les participants",
                 "start": "Démarrer une loterie",
                 "self_edit": "Modifier les loteries créées (nécessite l'autorisation de modifier les messages)",
                 "self_post_edit": "Modifier *toutes* les loteries sur ses propres messages (nécessite l'autorisation de modifier les messages)",
@@ -42,7 +42,7 @@
                 "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
                 "no_permission_alert": "Vous n'avez pas l'autorisation de démarrer une loterie.",
                 "in_queue_alert": "Vous devez participer à la loterie.",
-                "no_post_in_discussion_alert": ""
+                "no_post_in_discussion_alert": "Vous n'avez pas répondu à la discussion."
             },
             "modal": {
                 "add_title": "Ajouter une loterie",
@@ -80,7 +80,7 @@
                 "money": "Argent",
                 "lotteries_made": "Les loteries ont démarré",
                 "not_enough": "Insuffisant",
-                "read_permission": ""
+                "read_permission": "Autorisation"
             },
             "moderation": {
                 "add": "Ajouter une loterie",
@@ -94,23 +94,23 @@
             },
             "participants_modal": {
                 "title": "Participants",
-                "title_winners": "",
-                "lottery_canceled": ""
+                "title_winners": "Vainqueurs",
+                "lottery_canceled": "Annulé pour manque de participants."
             },
             "notification": {
-                "drawLottery": "",
-                "fail": "",
-                "finish": ""
+                "drawLottery": "Félicitations, vous avez gagné à la loterie.",
+                "fail": "La loterie a échoué faute d'un nombre suffisant de participants.",
+                "finish": "Loterie réussie, envoi aux gagnants."
             }
         },
         "email": {
             "subject": {
-                "drawLottery": "Notification du tirage au sort"
+                "drawLottery": "Notification du tirage au sort {discussion_title}"
             },
             "body": {
-                "drawLottery": "",
-                "fail": "",
-                "finish": ""
+                "drawLottery": "Bonjour {recipient_display_name},\n\nFélicitations, vous avez gagné le {discussion_title} de {actor_display_name}.\n\nConsultez la discussion ici : {discussion_url}\n",
+                "fail": "Bonjour {recipient_display_name},\n\nNous avons le regret d'annoncer que {discussion_title} a échoué faute d'un nombre suffisant de participants.\n\nConsultez la discussion ici : {discussion_url}\n",
+                "finish": "Bonjour {recipient_display_name},\n\nFélicitations, la loterie est un succès !\n\nVisitez la discussion ici : {discussion_url}, et terminez la loterie.\n\nEn vous remerciant !\n"
             }
         }
     }
