@@ -162,6 +162,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `opuses114514-youtube-video-feed` | [![#945 (closed)](https://img.shields.io/badge/PR-%23945-red)](https://github.com/rob006-software/flarum-translations/pull/945) |
+There are no dead branches.
