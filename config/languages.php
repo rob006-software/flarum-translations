@@ -185,6 +185,7 @@ return [
 		'!foskym-custom-levels',
 		'!foskym-issue-tracking',
 		'!foskym-issue-tracking-youtrack',
+		'!foskym-nickname-group-formatter',
 		'!foskym-oauth-center',
 		'!foskym-sorts-for-user-directory',
 		'!gbcl-userip',
