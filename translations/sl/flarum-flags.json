@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "Označi objave",
+                "view_flags_label": "Ogled označenih objav"
             },
             "settings": {
-                "flag_own_posts_label": "Omogoči uporabnikom, da označijo svoje odgovore kot neprimerne",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "Dovoli uporabnikom, da označijo svoje objave",
+                "guidelines_url_label": "URL smernic skupnosti",
+                "title": "Nastavitve oznak"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "Hvala, ker ste označili ta odgovor. Naši moderatorji ga bodo preučili.",
-                "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "Neprimerna vsebina",
-                "reason_inappropriate_text": "Odgovor je žaljiv, zlonameren ali krši naše <a>smernice skupnosti</a>.",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "Vsebina ne sodi pod to temo",
-                "reason_off_topic_text": "Odgovor ne sodi pod to temo. Potrebno ga je prestaviti.",
-                "reason_other_label": "Drugo (navedite)",
-                "reason_spam_label": "Reklama",
-                "reason_spam_text": "Odgovor je reklama.",
-                "submit_button": "",
-                "title": ""
+                "confirmation_message": "Hvala, ker ste označili to objavo. Naši moderatorji bodo to preverili.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Dodatne podrobnosti (neobvezno)",
+                "reason_inappropriate_label": "Neprimerno",
+                "reason_inappropriate_text": "Ta objava je žaljiva, zlorabljiva ali krši naše <a>smernice skupnosti</a>.",
+                "reason_missing_message": "Prosimo, navedite nekaj podrobnosti za naše moderatorje.",
+                "reason_off_topic_label": "Zunaj teme",
+                "reason_off_topic_text": "Ta objava ni povezana z obstoječo razpravo in bi morala biti premaknjena drugam.",
+                "reason_other_label": "Drugo (prosimo, navedite)",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Ta objava je oglas.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
-                "title": "",
-                "tooltip": ""
+                "empty_text": "Ni oznak",
+                "item_text": "{username} v <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "Prekliči neprimernost odgovora",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "Zavrni oznako",
+                "flagged_by_text": "Označeno s strani {username}",
+                "flagged_by_with_reason_text": "Označeno s strani {username} kot {reason}"
             },
             "post_controls": {
-                "flag_button": "Neprimeren odgovor"
+                "flag_button": "Označi"
             }
         },
         "ref": {
-            "flag_post": "Označi odgovor kot neprimeren",
-            "flagged_posts": ""
+            "flag_post": "Označi objavo",
+            "flagged_posts": "Označene objave"
         }
     }
 }
