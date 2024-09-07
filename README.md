@@ -1022,6 +1022,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`foskym-sorts-for-user-directory`](https://weblate.rob006.net/projects/flarum/foskym-sorts-for-user-directory) | [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory) |
 | [`foskym-nickname-group-formatter`](https://weblate.rob006.net/projects/flarum/foskym-nickname-group-formatter) | [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter) |
 | [`ganuonglachanh-sonic`](https://weblate.rob006.net/projects/flarum/ganuonglachanh-sonic) | [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic) |
+| [`gbcl-minecraft-oauth`](https://weblate.rob006.net/projects/flarum/gbcl-minecraft-oauth) | [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth) |
 | [`gbcl-userip`](https://weblate.rob006.net/projects/flarum/gbcl-userip) | [`gbcl/userip`](https://github.com/GBCLStudio/userip) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`glowingblue-redis-setup`](https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup) | [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup) |
@@ -1166,6 +1167,8 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sas_sam-regrole`](https://weblate.rob006.net/projects/flarum/sas_sam-regrole) | [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole) |
 | [`serakoi-hideprofile`](https://weblate.rob006.net/projects/flarum/serakoi-hideprofile) | [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile) |
 | [`serakoi-flarumstaffbadge`](https://weblate.rob006.net/projects/flarum/serakoi-flarumstaffbadge) | [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge) |
+| [`shebaoting-money`](https://weblate.rob006.net/projects/flarum/shebaoting-money) | [`shebaoting/money`](https://github.com/shebaoting/money) |
+| [`shebaoting-repost`](https://weblate.rob006.net/projects/flarum/shebaoting-repost) | [`shebaoting/repost`](https://github.com/shebaoting/Repost) |
 | [`spookygames-auth-keycloak`](https://weblate.rob006.net/projects/flarum/spookygames-auth-keycloak) | [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak) |
 | [`swaggymacro-only-starter`](https://weblate.rob006.net/projects/flarum/swaggymacro-only-starter) | [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter) |
 | [`sycho-advanced-extension-categories`](https://weblate.rob006.net/projects/flarum/sycho-advanced-extension-categories) | [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories) |
@@ -1202,6 +1205,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`xelson-chat`](https://weblate.rob006.net/projects/flarum/xelson-chat) | [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) |
 | [`xrh0905-oauth-microsoft`](https://weblate.rob006.net/projects/flarum/xrh0905-oauth-microsoft) | [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft) |
 | [`xsoft-ict-mason-tag`](https://weblate.rob006.net/projects/flarum/xsoft-ict-mason-tag) | [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag) |
+| [`xypp-invite-user`](https://weblate.rob006.net/projects/flarum/xypp-invite-user) | [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user) |
 | [`xypp-forum-quests`](https://weblate.rob006.net/projects/flarum/xypp-forum-quests) | [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests) |
 | [`xypp-pay-to-read`](https://weblate.rob006.net/projects/flarum/xypp-pay-to-read) | [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read) |
 | [`xypp-sticky-card`](https://weblate.rob006.net/projects/flarum/xypp-sticky-card) | [`xypp/sticky-card`](https://github.com/zxy19/flarum-sticky-card) |
