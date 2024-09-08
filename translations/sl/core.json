@@ -222,7 +222,7 @@
             "permissions_controls": {
                 "allow_indefinitely_button": "Neomejeno",
                 "allow_never_button": "=> core.ref.never",
-                "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
+                "allow_some_minutes_button": "{count, plural, one {Za # minuto} other {Za # minut}}",
                 "allow_ten_minutes_button": "Za 10 minut",
                 "allow_until_reply_button": "Do naslednjega odgovora",
                 "everyone_button": "Vsi",
@@ -345,8 +345,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} je odgovoril {ago}",
                 "started_text": "{username} je začel {ago}",
-                "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
-                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read."
+                "total_replies_a11y_label": "{count, plural, one {# odgovor} other {# odgovorov}}",
+                "unread_replies_a11y_label": "{count, plural, one {# neprebran odgovor} other {# neprebranih odgovorov}}. Označi neprebrane odgovore kot prebrane."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -428,7 +428,7 @@
                 "now_link": "Zdaj",
                 "original_post_link": "Izvirna objava",
                 "unread_text": "{count} neprebrano",
-                "viewing_text": "{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}"
+                "viewing_text": "{count, plural, one {{index} od {formattedCount} objav} other {{index} od {formattedCount} objav}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Stari naslov je bil: \"{old}\"",
@@ -470,7 +470,7 @@
                 "revoke_access_token": "Prekliči",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Aktivne seje",
-                "session_terminated": "{count, plural, one {Session terminated} other {# Sessions terminated}}.",
+                "session_terminated": "{count, plural, one {Seja prekinjena} other {# sej prekinjenih}}.",
                 "session_termination_failed": "Prišlo je do napake pri prekinitvi sej.",
                 "show_access_token": "Prikaži žeton",
                 "terminate_all_other_sessions": "Prekini vse druge seje",
@@ -731,7 +731,7 @@
             "security": "Varnost",
             "settings": "Nastavitve",
             "sign_up": "Registracija",
-            "some_others": "{count, plural, one {# other} other {# others}}",
+            "some_others": "{count, plural, one {# drug} other {# drugi}}",
             "start_a_discussion": "Začni razpravo",
             "username": "Uporabniško ime",
             "users": "Uporabniki",
