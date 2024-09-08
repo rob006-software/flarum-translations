@@ -75,7 +75,7 @@
                 "added_and_removed_tags_text": "{username} je dodal {tagsAdded} in odstranil {tagsRemoved} {time}.",
                 "added_tags_text": "{username} je dodal {tagsAdded} {time}.",
                 "removed_tags_text": "{username} je odstranil {tagsRemoved} {time}.",
-                "tags_text": "{count, plural, one {{tags} tag} other {{tags} tags}}"
+                "tags_text": "{count, plural, one {{tags} oznaka} other {{tags} oznak}}"
             },
             "tag": {
                 "meta_description_text": "Vse razprave z oznako {tag}"
@@ -85,7 +85,7 @@
             "deleted_tag_text": "Izbrisano",
             "tag_selection_modal": {
                 "bypass_requirements": "Obidite zahteve za oznake",
-                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
+                "choose_primary_placeholder": "{count, plural, one {Izberi primarno oznako} other {Izberi # primarnih oznak}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -94,7 +94,7 @@
         },
         "ref": {
             "choose_tags": "Izberite oznake",
-            "choose_tags_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
+            "choose_tags_placeholder": "{count, plural, one {Izberi še 1 oznako} other {Izberi še # oznak}}",
             "name": "Ime",
             "tags": "Oznake"
         }
