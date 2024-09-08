@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Vse datoteke, ki jih je naložil uporabnik.",
+                    "anonymize_description": "Odstrani sklic na uporabnika iz naloženih datotek. Datoteke ostanejo dostopne uporabnikom, ki so jih videli pred anonimizacijo.",
+                    "delete_description": "Izbriše vse datoteke, ki jih je naložil uporabnik."
                 }
             }
         }
@@ -13,225 +13,225 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Skupne naložene datoteke"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Naloži datoteke, ki jih lahko uporabljajo vsi uporabniki foruma.",
+                "introduction": "Skupne naložene datoteke so datoteke, ki jih lahko uporabljajo vsi uporabniki foruma. Niso priložene nobeni objavi, lahko pa jih vstavite v objave z uporabo upravitelja medijev.\n\n<strong>Opozorilo:</strong> Skupne naložene datoteke niso zaščitene z nobenimi dovoljenji. Kdorkoli z URL-jem lahko vidi te datoteke.\n",
+                "no-files": "Nobena skupna datoteka še ni bila naložena.",
+                "title": "Skupne naložene datoteke",
+                "upload-new-button": "Naloži novo datoteko"
             },
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Nalaganje",
+                "description": "Nastavi storitve in nastavitve za nalaganje."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "custom_s3_url": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Onemogoči beleženje vseh prenosov, ki jih izvajajo uporabniki foruma. Če je omogočeno, lahko v prihodnosti vidite število prenosov in druge statistične podatke.\n",
+                "disable-hotlink-protection": "Zaščita pred hotlinkom preprečuje odpiranje prenosov z drugih strani. Trenutna metoda zahteva csrf žeton in id objave.\n",
+                "download_templates": "Predloge za prenos določajo, kako so naložene datoteke prikazane na vašem forumu, na primer kot predogledi, gumbi. Trenutno so na voljo:\n",
+                "mime_types": "Tukaj konfigurirajte svojo preslikavo. Vsaka regularna izraza mime tipa bo obdelal določen nalagalni adapter in predloga za prenos.\n",
+                "resize": "Izberite, ali želite slike zmanjšati, preden jih naložite. Izberete lahko največjo širino in višino v slikovnih pikah. Postopek zmanjševanja ohrani razmerje stranic slik.\n",
+                "client_extension": "Privzeto bo nalagalna razširitev izbrala varno končnico datoteke glede na MIME tip.\nZa nekatere vrste datotek, ki temeljijo na ZIP ali binarnih podatkih, lahko to povzroči uporabo generičnih končnic namesto pričakovane.\nTukaj lahko vnesete seznam končnic datotek, ki bodo ohranjene nespremenjene.\n",
+                "watermark": "Izberite, ali bodo slikam med nalaganjem dodane vodne oznake. Vodne oznake se dodajo za datoteke, ki niso GIF, glede na vaše nastavitve spodaj.\n",
+                "s3_compatible_storage": "Naslednje nastavitve so potrebne le pri uporabi shranjevanja, združljivega z S3. Če uporabljate AWS, jih lahko pustite prazne.\n",
+                "s3_acl": "ACL, ki se uporablja za naložene predmete (privzeto: zasebno). Za možne vrednosti glejte https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "Uporabite to nastavitev, če uporabljate storitev, združljivo z S3, ki zahteva posebno obliko URL-ja (npr. Backblaze B2), ali če imate težave s privzeto obliko URL-ja. Ta nastavitev večinoma ni potrebna za večino storitev. Prepričajte se, da URL vključuje protokol (https://) in je pravilno oblikovan. Primer: https://your-bucket.s3.your-region.backblazeb2.com\n",
+                "s3_instance_profile": "Pustite ključ in skrivnost prazna, če želite uporabiti poverilnice iz profilov primerkov.\n",
+                "composer_buttons": "Privzeto sta prikazana tako gumb za upravitelja medijev kot gumb za nalaganje. Lahko izberete, da se prikaže le eden.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": "",
-                    "custom_url": ""
+                    "bucket": "Vedro",
+                    "key": "Ključ",
+                    "region": "Regija",
+                    "secret": "Skrivnost",
+                    "title": "Nastavitve shranjevanja AWS S3",
+                    "advanced_title": "Napredne nastavitve S3 shranjevanja",
+                    "endpoint": "Končna točka",
+                    "use_path_style_endpoint": "Uporabi slog poti za končno točko",
+                    "acl": "Seznam za nadzor dostopa (ACL)",
+                    "custom_url": "Prilagojen URL za S3"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Onemogoči beleženje prenosov",
+                    "toggle": "Onemogoči"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Onemogoči zaščito pred hotlinkom",
+                    "toggle": "Onemogoči"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": "",
-                    "tos": ""
+                    "client_id": "Imgur ID odjemalca",
+                    "title": "Nastavitve shranjevanja slik Imgur",
+                    "tos": "Vaša odgovornost je zagotoviti, da uporabniki vašega foruma spoštujejo <a>pogoje storitve</a> Imgur."
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "URL za dostavo vsebin (predpona datotekam)",
+                    "title": "Nastavitve lokalnega shranjevanja"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Nastavitve shranjevanja Qiniu",
+                    "key": "Ključ",
+                    "secret": "Skrivnost",
+                    "bucket": "Vedro"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "max_file_size": "Največja velikost datoteke (v kilobajtih)",
+                    "mime_types": "Konfigurirajte mime tipe, preslikavo nalagalnega adapterja",
+                    "title": "Splošne nastavitve",
+                    "php_ini_values": "Vaše <code>php.ini</code> vrednosti so <code>post_max_size={post}</code> in <code>upload_max_filesize={upload}</code>. Prepričajte se, da je tukaj nastavljena vrednost nižja od teh mej, ali jih ustrezno prilagodite. Če uporabljate <code>Nginx</code>, poskrbite, da je <code>client_max_body_size</code> ustrezne velikosti za vašo izbrano največjo omejitev."
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Največja širina/višina slike",
+                    "title": "Spreminjanje velikosti slike",
+                    "toggle": "Spremeni velikost slik"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Razširitve datotek, ki jih poda uporabnik"
                 },
                 "watermark": {
-                    "file": "",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "file": "Naloži svojo vodno oznako",
+                    "position": "Položaj vodne oznake",
+                    "title": "Vodne oznake na slikah",
+                    "toggle": "Vodne oznake na slikah"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Gumbi v urejevalniku",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Oba",
+                        "upload-btn": "Samo gumb za nalaganje",
+                        "media-btn": "Samo gumb za upravitelja medijev"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Preveri MIME tip datoteke"
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": "",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "download_label": "Prenos datotek",
+                "upload_label": "Nalaganje datotek",
+                "view_user_uploads_label": "Ogled uporabniških naloženih datotek",
+                "delete_uploads_of_others_label": "Izbris naloženih datotek drugih uporabnikov",
+                "upload_shared_label": "Nalaganje skupnih datotek",
+                "access_shared_label": "Dostop do skupnih datotek v upravitelju medijev"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": "",
-                "text-preview": "",
-                "text-preview_description": ""
+                "file": "Privzeta predloga za prenos datotek",
+                "file_description": "Prikaže ime datoteke in splošne informacije. Omogoča posredovanje prenosov prek php-ja, kar omogoča zbiranje statistik in zaščito pred hotlinki.\n",
+                "image": "Privzeta predloga za prenos slik",
+                "image_description": "Prikaže sličico slike in omogoča prenos prek php-ja. Omogoča zbiranje statistik in zaščito pred hotlinki.\n",
+                "image-preview": "Popolna predloga za predogled slike",
+                "image-preview_description": "Prikaže celotno sliko v vrsti. Ni funkcionalnosti za prenos, statistike se ne zbirajo, zaščita pred hotlinki je prezrta.\n",
+                "markdown-image": "Predloga za sliko v Markdownu",
+                "markdown-image_description": "Prikaže celotno sliko v vrsti z uporabo Markdowne. <strong>Za pravilno delovanje morate imeti nameščen in omogočen flarum/markdown.</strong> Ni funkcionalnosti za prenos, statistike se ne zbirajo, zaščita pred hotlinki je prezrta.\n",
+                "bbcode-image": "Predloga za sliko v BBCode",
+                "bbcode-image_description": "Prikaže celotno sliko v vrsti z uporabo BBCode. <strong>Za pravilno delovanje morate imeti nameščen in omogočen flarum/bbcode.</strong> Ni funkcionalnosti za prenos, statistike se ne zbirajo, zaščita pred hotlinki je prezrta.\n",
+                "just-url": "Samo URL",
+                "just-url_description": "Vstavi samo URL. Prikaz lahko obravnavajo druge razširitve z zmožnostjo samodejnega povezovanja. Ni funkcionalnosti za prenos, statistike se ne zbirajo, zaščita pred hotlinki je prezrta.\n",
+                "text-preview": "Predogled besedila",
+                "text-preview_description": "Vstavi predogled (prvih 5 vrstic) besedilne datoteke z možnostjo razširitve za prikaz celotne vsebine datoteke.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "S3/združljivo",
+                "imgur": "Imgur",
+                "local": "Lokalno",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Preveri MIME",
+                "description": "FoF Upload uporablja knjižnico <a>PHP Mime Detector</a> za pogoste MIME tipe in PHP Fileinfo kot nadomestno možnost.\nVrednost MIME, ki jo vrne Fileinfo, se lahko razlikuje od strežnika do strežnika!\n",
+                "select": "Izberite datoteko spodaj za pregled vrednosti, ki bodo uporabljene. Datoteka ne bo shranjena.",
+                "laravel-validation": "Validacija datotek v Laravelu",
+                "no-file-selected": "Nobena datoteka ni izbrana",
+                "validation-passed": "Uspešno opravljeno",
+                "validation-failed": "Napaka: {error}",
+                "mime-detector": "Detektor MIME (primarno)",
+                "mime-fileinfo": "PHP Fileinfo (nadomestno)",
+                "guessed-extension": "Privzeta končnica datoteke (če original ni dovoljen)",
+                "not-available": "Ni na voljo"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Upravitelj medijev",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "upload_shared": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": "",
-                "shared_media": ""
+                "attach": "Pripni",
+                "upload": "Naloži",
+                "upload_shared": "Skupno",
+                "user_uploads": "Uporabniške naložene datoteke",
+                "cancel": "Prekliči",
+                "media": "Moji mediji",
+                "shared_media": "Skupni mediji"
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Napaka",
+                "loading": "Nalagam",
+                "unauthorized": "Nimate dovoljenja za prenos datotek"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "Nalaganje datotek, večjih od {max} kb, ni dovoljeno."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Razširi predogled",
+                "collapse": "Strni predogled",
+                "error": "Napaka pri prikazu predogleda datoteke. Morda je bila izbrisana ali pa je ID datoteke neveljaven.\n",
+                "no_snippet_preview": "<predogled se bo prikazal tukaj po objavi>",
+                "no_snippet": "<predogledna koda ni na voljo>"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": "",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "forbidden_type": "Nalaganje datotek te vrste ni dovoljeno.",
+                "unsupported_type": "Nalagalni adapter ne podpira podanega mime tipa: {mime}.",
+                "could_not_detect_mime": "MIME tip te datoteke ni bilo mogoče zaznati, poskusite znova.",
+                "max_upload_file_size_ini": "Dosežena omejitev največje velikosti datoteke iz php.ini.",
+                "max_upload_file_size_form": "Dosežena omejitev največje velikosti datoteke iz obrazca.",
+                "partial_upload": "Delno nalaganje.",
+                "no_file_uploaded": "Nobena datoteka ni bila naložena.",
+                "no_upload_tmp_folder": "Za nalaganje datotek ni začasne mape.",
+                "cannot_write_to_disk": "Ne morem zapisati na disk.",
+                "upload_blocked_by_php_extension": "PHP razširitev je blokirala nalaganje.",
+                "no_files_made_it_to_upload": "Prosimo, naložite datoteke, manjše od {max} kb."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Nova skupna datoteka",
+                "dropzone": "Povlecite in spustite datoteke tukaj ali kliknite za iskanje",
+                "hide-from-media-gallery": "Skrij iz uporabniške galerije medijev",
+                "upload": "Naloži"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Nalagam datoteke...",
+                "empty": "Ni datotek za prikaz.",
+                "release_to_upload": "Spusti za nalaganje",
+                "modal_empty_desktop": "Vaš seznam datotek je prazen. Kliknite gumb ali povlecite datoteko sem za nalaganje.",
+                "modal_empty_phone": "Vaš seznam datotek je prazen. Tapnite zgornji gumb za nalaganje datoteke.",
+                "select_file_a11y_label": "Izberi datoteko \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nobena izbrana} one {Izberi datoteko} other {Izberi datoteke}}",
+                "load_more_files_btn": "Naloži več datotek",
+                "delete_file_a11y_label": "Izbriši datoteko \"{fileName}\"",
+                "delete_confirmation": "Ali ste prepričani, da želite izbrisati \"{fileName}\"?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Skrij \"{fileName}\" iz upravitelja medijev",
+                    "btn_a11y_label_show": "Pokaži \"{fileName}\" v upravitelju medijev",
+                    "hide_confirmation": "Ali ste prepričani, da želite skriti \"{fileName}\"? Skrivanje datoteke jo bo odstranilo samo iz upravitelja medijev in ne bo vplivalo na obstoječe objave.",
+                    "hide_success": "Datoteka skrita",
+                    "show_confirmation": "Ali ste prepričani, da želite prikazati \"{fileName}\"? Prikaz datoteke bo omogočil njen ogled v upravitelju medijev.",
+                    "show_success": "Datoteka prikazana",
+                    "hide_fail": "Datoteke \"{fileName}\" ni bilo mogoče skriti",
+                    "show_fail": "Datoteke \"{fileName}\" ni bilo mogoče prikazati",
+                    "loading": "Skrivam datoteko..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Naredi \"{fileName}\" zasebno (brez javnega URL-ja)",
+                    "btn_a11y_label_show": "Naredi \"{fileName}\" javno (z javnim URL-jem)",
+                    "hide_confirmation": "Ali ste prepričani, da želite narediti \"{fileName}\" zasebno? Zasebna datoteka bo odstranila javni URL, vendar to ne bo vplivalo na obstoječe objave. Prav tako ne bo več vidna v upravitelju medijev za nepooblaščene uporabnike.",
+                    "hide_success": "Datoteka je postala zasebna",
+                    "show_confirmation": "Ali ste prepričani, da želite narediti \"{fileName}\" javno? Javna datoteka bo dostopna vsakomur z javnim URL-jem, prav tako jo lahko vsak deli z uporabo upravitelja medijev.",
+                    "show_success": "Datoteka je postala javna",
+                    "hide_fail": "Ni bilo mogoče narediti datoteke \"{fileName}\" zasebne",
+                    "show_fail": "Ni bilo mogoče narediti datoteke \"{fileName}\" javne",
+                    "loading": "Naredim datoteko zasebno..."
                 }
             }
         }
