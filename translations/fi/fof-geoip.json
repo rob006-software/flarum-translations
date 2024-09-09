@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "",
                 "access_key_label": "Pääsy avain (access key)",
                 "quota_label": "Tarkistus raja",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Käytä <b>https://ipstack.com</b> saadaksesi jopa 10 000 tarkistusta per kuukausi ilmaiseksi. Maksulliset suunnitelmat sisältävät yhteyden tietoa (ISP, organisaatio) sekä uhka-arvion.",
                 "security_label": "Turvallisuus moduuli (Security Module) (vaatii professional plus)",
@@ -41,6 +43,19 @@
                 "threat_types": "Uhka tyypit",
                 "error": "Virhe",
                 "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

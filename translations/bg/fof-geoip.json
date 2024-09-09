@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "",
                 "access_key_label": "",
                 "quota_label": "",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "*IPStack*"
             }
         },
@@ -37,6 +39,19 @@
                 "threat_types": "",
                 "error": "",
                 "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

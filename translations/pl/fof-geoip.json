@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "Użyj <b>https://7x.ax</b>, aby uzyskać bezpłatny klucz API dla maksymalnie 20 żądań na minutę. Dostępne są również płatne plany dla wyższych limitów użytkowania.",
                 "access_key_label": "Access Key",
                 "quota_label": "",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Użyj <b>https://ipstack.com</b>, aby sprawdzić do 10 000 IP na miesiąc, w ramach darmowego pakietu. Płatne plany zawierają informacje o połączeniu (ISP, organizacja) oraz poziomie zagrożenia.",
                 "security_label": "Security Module (wymaga planu Professional Plus)",
@@ -41,6 +43,19 @@
                 "threat_types": "",
                 "error": "Błąd",
                 "not_enough_data": "Za mało danych, aby narysować mapę"
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

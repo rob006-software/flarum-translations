@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "",
                 "access_key_label": "Access Key",
                 "quota_label": "",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "<b>https://ipstack.com</b>，1 か月あたり 10,000 件の無料クエリ。 支払い計画には、接続情報（ISP、組織）および脅威レベルが含まれます。",
                 "security_label": "セキュリティモジュール（professional plus が必要）",
@@ -41,6 +43,19 @@
                 "threat_types": "",
                 "error": "",
                 "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

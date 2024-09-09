@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "",
                 "access_key_label": "Chiave di accesso",
                 "quota_label": "",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Utilizza <b> https://ipstack.com </b> per effettuare gratuitamente fino a 10.000 ricerche al mese. I piani a pagamento includono informazioni sulla connessione (ISP, organizzazione) e livello di minaccia.",
                 "security_label": "Modulo di sicurezza (richiede un piano plus professionale)",
@@ -41,6 +43,19 @@
                 "threat_types": "",
                 "error": "",
                 "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

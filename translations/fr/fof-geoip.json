@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "Rendez-vous sur <b>https://7x.ax</b> pour obtenir une clé API gratuite pour un maximum de 20 requêtes par minute. Des plans payants pour des limites d'utilisation plus élevées sont également disponibles.",
                 "access_key_label": "Clé d'accès",
                 "quota_label": "Consulter les quotas",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Utilisez <b>https://ipstack.com</b> pour effectuer gratuitement jusqu'à 10 000 recherches par mois. Les forfaits payants incluent les informations de connexion (FAI, organisation) et le niveau de menace.",
                 "security_label": "Module de sécurité (nécessite une licence Professionnel Plus)",
@@ -41,6 +43,19 @@
                 "threat_types": "Types de menaces",
                 "error": "Erreur",
                 "not_enough_data": "Il n'y a pas assez de données pour dessiner une carte"
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

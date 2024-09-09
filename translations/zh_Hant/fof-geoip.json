@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "使用 <b>https://7x.ax</b> 取得每分鐘最多 20 個請求的免費 API 金鑰。 也提供更高使用限制的付費方案。",
                 "access_key_label": "Access Key",
                 "quota_label": "尋找配額",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "<b>https://ipstack.com</b>，每月免費檢索 10,000 次，付費方案包含連線資訊（ISP、組織）以及威脅等級。",
                 "security_label": "安全模塊（需要 professional plus）"
@@ -39,6 +41,19 @@
                 "threat_types": "威脅類型",
                 "error": "錯誤",
                 "not_enough_data": "數據不足，無法繪製地圖"
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

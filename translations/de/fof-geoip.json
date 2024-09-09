@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "",
                 "access_key_label": "Zugangsschlüssel",
                 "quota_label": "",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Verwende <b>https://ipstack.com</b>, um bis zu 10.000 kostenlose Durchführungen pro Monat durchzuführen. Bezahlte Pläne beinhalten Verbindungsinformationen (ISP, Organisation) und Bedrohungsstufe.",
                 "security_label": "Sicherheitsmodul (erfordert Professional Plus)",
@@ -41,6 +43,19 @@
                 "threat_types": "",
                 "error": "",
                 "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "Gunakan <b>https://7x.ax</b> untuk mendapatkan API key gratis hingga 20 request per menit. Paket berbayar untuk batas penggunaan yang lebih tinggi juga tersedia.",
                 "access_key_label": "Kunci Akses",
                 "quota_label": "Kuota pencarian",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Gunakan <b>https://ipstack.com</b> untuk melakukan hingga 10.000 pencarian per bulan secara gratis. Paket berbayar mencakup info tentang koneksi (ISP, organisasi) dan tingkat ancaman.",
                 "security_label": "Modul Keamanan (butuh professional plus)"
@@ -39,6 +41,19 @@
                 "threat_types": "Jenis Ancaman",
                 "error": "Error",
                 "not_enough_data": "Data tidak cukup untuk menggambar peta"
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

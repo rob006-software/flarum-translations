@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "",
                 "access_key_label": "Erişim Anahtarı",
                 "quota_label": "",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Ayda 10.000'e kadar ücretsiz arama yapmak için <b>https://ipstack.com</b> ’u kullanın. Ücretli planlar bağlantı bilgilerini (ISP, organizasyon) içerir.",
                 "security_label": "Güvenlik Modülü (profesyonel+ gerektirir)",
@@ -41,6 +43,19 @@
                 "threat_types": "Tehdit Seviyesi",
                 "error": "Hata",
                 "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

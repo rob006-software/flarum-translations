@@ -15,7 +15,9 @@
                 "service_ipsevenex_label": "7x Geolocation API",
                 "service_ipsevenex_description": "Use <b>https://7x.ax</b> to get a free API key for up to 20 requests per minute. Paid plans for higher usage limits are also available.",
                 "access_key_label": "Access Key",
-                "quota_label": "Lookup quota"
+                "quota_label": "Lookup quota",
+                "show_flag_label": "Show country flag for each post",
+                "show_flag_help": "Without disclosing the IP address, show the country flag of the IP address of the post author."
             }
         },
         "forum": {
@@ -36,6 +38,19 @@
                 "threat_types": "Threat Types",
                 "error": "Error",
                 "not_enough_data": "Not enough data to draw a map"
+            },
+            "user": {
+                "settings": {
+                    "ip_country": "Show the flag of the country I post from, based on my IP address"
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "Show the flag of the country the user posts from",
+                "showIPCountry-help": "This is based on their IP address at the time of posting. The country flag (if enabled) will be visible to all users. Admin users and moderators will see the IP address in the tooltip."
             }
         }
     }

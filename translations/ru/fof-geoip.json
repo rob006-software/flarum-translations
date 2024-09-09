@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "",
                 "access_key_label": "Ключ доступа",
                 "quota_label": "Квота запросов",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Используйте <b>https://ipstack.com</b> 10,000 запросов в месяц бесплатно. Платные тарифы включают более подробную информацию (ISP, организация) и уровень угрозы.",
                 "security_label": "Модуль безопасности (требуется \"professional plus\")",
@@ -41,6 +43,19 @@
                 "threat_types": "Тип угрозы",
                 "error": "Ошибка",
                 "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

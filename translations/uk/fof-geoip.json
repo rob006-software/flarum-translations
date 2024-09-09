@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "Використовуйте <b>https://7x.ax</b>, щоб отримати безкоштовний ключ API для понад 20 запитів на хвилину. Також доступні платні плани з вищими лімітами використання.",
                 "access_key_label": "Access Key",
                 "quota_label": "Квота на пошуковий запит",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Використовуйте <b>https://ipstack.com</b> для безкоштовного здійснення до 10 000 пошукових запитів на місяць. Платні плани включають інформацію про з'єднання (провайдер, організація) та рівень загрози.",
                 "security_label": "Модуль безпеки (потрібен професіонал плюс)",
@@ -41,6 +43,19 @@
                 "threat_types": "Типи загроз",
                 "error": "Помилка",
                 "not_enough_data": "Недостатньо даних для створення карти"
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

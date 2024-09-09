@@ -16,6 +16,8 @@
                 "service_ipsevenex_description": "",
                 "access_key_label": "Khóa truy cập",
                 "quota_label": "",
+                "show_flag_label": "",
+                "show_flag_help": "",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Sử dụng <b>https://ipstack.com</b> để thực hiện miễn phí tới 10.000 tra cứu mỗi tháng. Các gói trả phí bao gồm thông tin kết nối (ISP, tổ chức) và mức độ nguy hiểm.",
                 "security_label": "Mô-đun bảo mật (yêu cầu chuyên nghiệp cao)",
@@ -41,6 +43,19 @@
                 "threat_types": "",
                 "error": "",
                 "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }
