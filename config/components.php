@@ -1240,6 +1240,9 @@ return [
 	'peruguitar-user-portrait' => [
 		'tag' => 'https://raw.githubusercontent.com/Anexsoft/peruguitar-flarum-ext-user-portrait/1.0.4/locale/en.yml',
 	],
+	'prippp-synopsis' => [
+		'tag' => 'https://raw.githubusercontent.com/Wppd-CC/psynopsis/v0.1.1/resources/locale/en.yml',
+	],
 	'ralkage-hcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.0.0/resources/locale/en.yml',
 	],
