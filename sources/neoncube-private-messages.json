@@ -2,11 +2,11 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "Return key sends message",
-                "title": "Whisper Settings"
+                "return_key": "Return key sends message"
             },
             "permissions": {
-                "start_label": "Start private conversations"
+                "start_label": "Start private conversations",
+                "allow_users_to_receive_email_notifications": "Allow users to receive email notifications when they receive a private message"
             }
         },
         "forum": {
@@ -36,7 +36,20 @@
             },
             "notifications": {
                 "message_received": "Test",
-                "notify_message_received": "Someone messages me"
+                "new_private_message": "Someone messages me",
+                "web": {
+                    "new_private_message": {
+                        "body": "Message from {fromUser}"
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "Message from {user}",
+                        "youHaveReceivedNewMessage": "You have received a new message from {user}!",
+                        "viewMessage": "View message",
+                        "manageEmailSettings": "Manage email settings"
+                    }
+                }
             }
         }
     }

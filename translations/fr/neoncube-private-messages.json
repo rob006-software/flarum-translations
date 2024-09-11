@@ -6,7 +6,8 @@
                 "title": "Paramètres de chuchotement"
             },
             "permissions": {
-                "start_label": "Démarrer des conversations privées"
+                "start_label": "Démarrer des conversations privées",
+                "allow_users_to_receive_email_notifications": ""
             }
         },
         "forum": {
@@ -36,6 +37,20 @@
             },
             "notifications": {
                 "message_received": "Tester",
+                "new_private_message": "",
+                "web": {
+                    "new_private_message": {
+                        "body": ""
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "",
+                        "youHaveReceivedNewMessage": "",
+                        "viewMessage": "",
+                        "manageEmailSettings": ""
+                    }
+                },
                 "notify_message_received": "Quelqu'un m'a envoyé un message"
             }
         }

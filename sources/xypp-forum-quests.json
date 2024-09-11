@@ -7,17 +7,6 @@
                 "quest_done": "You have just done quest {name}!",
                 "quest_done_label": "Quest Done"
             },
-            "condition": {
-                "condition": "Condition",
-                "format": "<b>{name}</b> {operator}{value} {span} ",
-                "and": " and ",
-                "span": "In {span} days"
-            },
-            "reward": {
-                "reward": "Reward",
-                "format": "<b>{name}</b>:{value}",
-                "and": " and "
-            },
             "quest": {
                 "quest": "Quest",
                 "load_more": "Load More",
@@ -65,15 +54,6 @@
                 "hidden": "Hidden",
                 "condition": "Condition",
                 "reward": "Reward",
-                "condition-name": "Condition Name",
-                "condition-operator": "Operator",
-                "condition-value": "Value",
-                "condition-span": "Time Span",
-                "condition-alter_name": "Display Name",
-                "reward-name": "Reward Name",
-                "reward-value": "Value",
-                "reward-get_value": "Get Value",
-                "reward-alter_name": "Display Name",
                 "button": "Create",
                 "button-edit": "Edit",
                 "new_item": "New Item",
@@ -86,7 +66,6 @@
             }
         },
         "api": {
-            "condition_not_allow_frontend": "Condition cannot be trigger in frontend",
             "no_manual_update": "No manual update needed",
             "manual_condition_cannot_hidden": "Manual condition cannot be used in hidden tasks:{condition}"
         }

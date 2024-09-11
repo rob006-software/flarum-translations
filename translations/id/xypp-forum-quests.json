@@ -7,17 +7,6 @@
                 "quest_done": "Anda baru saja menyelesaikan quest {name}!",
                 "quest_done_label": "Quest Selesai"
             },
-            "condition": {
-                "condition": "Kondisi",
-                "format": "<b>{name}</b> {operator}{value} {span} ",
-                "and": " dan ",
-                "span": "Dalam {span} hari"
-            },
-            "reward": {
-                "reward": "Reward",
-                "format": "<b>{name}</b>:{value}",
-                "and": " dan "
-            },
             "quest": {
                 "quest": "Quest",
                 "load_more": "Muat Lainnya",
@@ -40,6 +29,17 @@
                 "all": "Semua",
                 "true": "Selesai",
                 "false": "Tidak"
+            },
+            "condition": {
+                "condition": "Kondisi",
+                "format": "<b>{name}</b> {operator}{value} {span} ",
+                "and": " dan ",
+                "span": "Dalam {span} hari"
+            },
+            "reward": {
+                "reward": "Reward",
+                "format": "<b>{name}</b>:{value}",
+                "and": " dan "
             }
         },
         "admin": {
@@ -65,6 +65,10 @@
                 "hidden": "Tersembunyi",
                 "condition": "Kondisi",
                 "reward": "Reward",
+                "button": "Buat",
+                "button-edit": "Edit",
+                "new_item": "Item Baru",
+                "re_available": "Tersedia kembali",
                 "condition-name": "Nama Kondisi",
                 "condition-operator": "Operator",
                 "condition-value": "Value",
@@ -73,11 +77,7 @@
                 "reward-name": "Nama Reward",
                 "reward-value": "Value",
                 "reward-get_value": "Dapatkan Value",
-                "reward-alter_name": "Nama Tampilan",
-                "button": "Buat",
-                "button-edit": "Edit",
-                "new_item": "Item Baru",
-                "re_available": "Tersedia kembali"
+                "reward-alter_name": "Nama Tampilan"
             },
             "re_available": {
                 "none": "Sekali",
@@ -86,9 +86,9 @@
             }
         },
         "api": {
-            "condition_not_allow_frontend": "Kondisi tidak dapat dipicu di frontend",
             "no_manual_update": "Tidak perlu pembaruan manual",
-            "manual_condition_cannot_hidden": "Kondisi manual tidak dapat digunakan dalam task tersembunyi:{condition}"
+            "manual_condition_cannot_hidden": "Kondisi manual tidak dapat digunakan dalam task tersembunyi:{condition}",
+            "condition_not_allow_frontend": "Kondisi tidak dapat dipicu di frontend"
         }
     }
 }

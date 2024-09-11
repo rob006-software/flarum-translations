@@ -6,7 +6,8 @@
                 "title": "悄悄话设置"
             },
             "permissions": {
-                "start_label": "发送私信"
+                "start_label": "发送私信",
+                "allow_users_to_receive_email_notifications": ""
             }
         },
         "forum": {
@@ -36,6 +37,20 @@
             },
             "notifications": {
                 "message_received": "测试",
+                "new_private_message": "",
+                "web": {
+                    "new_private_message": {
+                        "body": ""
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "",
+                        "youHaveReceivedNewMessage": "",
+                        "viewMessage": "",
+                        "manageEmailSettings": ""
+                    }
+                },
                 "notify_message_received": "有人私信我"
             }
         }

@@ -2,11 +2,11 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "title": ""
+                "return_key": ""
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "",
+                "allow_users_to_receive_email_notifications": ""
             }
         },
         "forum": {
@@ -36,7 +36,20 @@
             },
             "notifications": {
                 "message_received": "",
-                "notify_message_received": ""
+                "new_private_message": "",
+                "web": {
+                    "new_private_message": {
+                        "body": ""
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "",
+                        "youHaveReceivedNewMessage": "",
+                        "viewMessage": "",
+                        "manageEmailSettings": ""
+                    }
+                }
             }
         }
     }
