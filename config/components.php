@@ -611,7 +611,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/1.6.7/resources/locale/en.yml',
 	],
 	'fof-geoip' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/1.4.12/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/1.4.13/resources/locale/en.yml',
 	],
 	'fof-github-sponsors' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/1.1.1/resources/locale/en.yml',
