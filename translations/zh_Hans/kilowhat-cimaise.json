@@ -203,38 +203,38 @@
                 "cannotFindPicturesFromRelation": "未能从数据库中找到请求的图片",
                 "cannotAttachHasNoAlbum": "当前主题未关联相册",
                 "cannotAttachAlreadySubmitted": "不能重复关联图片 {id}",
-                "cannotAttachFromExternalAlbum": "",
-                "cannotAttachUnauthorized": ""
+                "cannotAttachFromExternalAlbum": "不能将图片 {id} 关联到外部相册",
+                "cannotAttachUnauthorized": "无法关联他人的图片 {id}"
             },
             "picture-edit": {
                 "unauthorized": {
-                    "title": "",
-                    "description": "",
-                    "license": "",
-                    "author": "",
-                    "takenAt": "",
-                    "isDraftUnSubmit": "",
-                    "isDraftSubmit": "",
-                    "isApprovedUnApprove": "",
-                    "isApprovedApprove": "",
-                    "isHiddenRestore": "",
-                    "isHiddenHide": "",
-                    "isFavorite": "",
-                    "stickers": "",
-                    "crop": ""
+                    "title": "无效标题，未授权编辑",
+                    "description": "无效描述，未授权编辑",
+                    "license": "无效许可，未授权编辑",
+                    "author": "无效作者，未授权编辑",
+                    "takenAt": "无效拍摄日期，未授权编辑",
+                    "isDraftUnSubmit": "无效草稿状态，无法丢弃",
+                    "isDraftSubmit": "无效草稿状态，无法提交",
+                    "isApprovedUnApprove": "无效审核状态，无法撤销",
+                    "isApprovedApprove": "无效审核状态，无法批准",
+                    "isHiddenRestore": "无效隐藏状态，无法恢复",
+                    "isHiddenHide": "无效隐藏状态，无法隐藏",
+                    "isFavorite": "无效收藏状态，未授权编辑",
+                    "stickers": "无效贴纸，未授权编辑",
+                    "crop": "无效裁剪，未授权编辑"
                 }
             }
         },
         "ref": {
-            "albums": "",
-            "pictures": "",
-            "loading": "",
-            "load-more": "",
-            "controls": "",
-            "restore": "",
-            "hide": "",
-            "delete": "",
-            "by-user": ""
+            "albums": "相册",
+            "pictures": "图片",
+            "loading": "正在加载……",
+            "load-more": "加载更多",
+            "controls": "控制",
+            "restore": "还原",
+            "hide": "隐藏",
+            "delete": "删除",
+            "by-user": " "
         }
     }
 }
