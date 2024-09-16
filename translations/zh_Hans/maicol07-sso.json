@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "title": "单点登录（SSO）设置",
-                "provider_mode": "要使其他 Flarum 站点能够登录本站账号，请启用此项以切换到服务提供商模式（Flarum 站点间的单点登录）。此功能会禁用本站其他第三方账号的单点登录。",
+                "provider_mode": "其他 Flarum 站点如需使用本站账号登录，请启用此项以切换到服务提供商模式（Flarum 站点间的单点登录）。此功能会禁用当前站点的其他第三方账号登录。",
                 "client_name": "客户端名称",
                 "client_name_help": "Flarum 应用程序的名称",
                 "client_url": "URL",
