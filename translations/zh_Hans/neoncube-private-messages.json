@@ -7,7 +7,7 @@
             },
             "permissions": {
                 "start_label": "发送私信",
-                "allow_users_to_receive_email_notifications": ""
+                "allow_users_to_receive_email_notifications": "允许用户通过邮件接收私信通知"
             }
         },
         "forum": {
@@ -30,25 +30,25 @@
                 "chat_with": "私信 {username}",
                 "start": "发起会话",
                 "start_of_conversation": "会话开始",
-                "read": "阅读",
+                "read": "已读",
                 "cant_start": "无法发起会话",
                 "text_placeholder": "说点什么吧",
                 "send": "发送"
             },
             "notifications": {
                 "message_received": "测试",
-                "new_private_message": "",
+                "new_private_message": "有人私信我",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "消息来自 {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
-                        "manageEmailSettings": ""
+                        "subject": "消息来自 {user}",
+                        "youHaveReceivedNewMessage": "{user} 给您发送了一条消息。",
+                        "viewMessage": "查看消息",
+                        "manageEmailSettings": "邮件通知"
                     }
                 },
                 "notify_message_received": "有人私信我"
