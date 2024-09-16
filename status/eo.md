@@ -1008,7 +1008,7 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/blomstra/flarum-ext-gdpr" title="blomstra/gdpr"><code>blomstra/gdpr</code></a>
+			<a href="https://github.com/flarum/gdpr" title="blomstra/gdpr"><code>blomstra/gdpr</code></a>
 		</td>
 		<td align="center">90<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/blomstra/gdpr/stats">7,894<br /><img src="https://img.shields.io/badge/-%2B86-brightgreen" alt="+86" title="Change from last week"></a></td>
