@@ -2,18 +2,18 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "层 {tier} ：从 {from} 到 {to} 帖子",
+                "tier": "等级 {tier} ：{from} 到 {to} 帖",
                 "icon-manager": {
                     "title": "图标管理器",
-                    "help_text": ""
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
                     "title": "文本标签管理器",
-                    "help": ""
+                    "help": "自定义等级名称"
                 },
                 "color": {
-                    "bg1": "",
-                    "bg2": ""
+                    "bg1": "背景色 1",
+                    "bg2": "背景色 2"
                 }
             },
             "levelOne": "",
