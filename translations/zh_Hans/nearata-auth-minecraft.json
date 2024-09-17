@@ -3,27 +3,27 @@
         "admin": {
             "settings": {
                 "minecraft_server": {
-                    "label": "我的世界服务器IP",
+                    "label": "我的世界服务器 IP",
                     "help": "示例：mydomain.tld"
                 },
                 "api_url": {
                     "label": "API URL",
-                    "help": "例如：http://localhost:4567/verify"
+                    "help": "示例：http://localhost:4567/verify"
                 },
                 "api_secret": {
-                    "label": "",
-                    "help": ""
+                    "label": "API 密钥",
+                    "help": "前往此处获取 <strong>Plugins/OAuth/config.json</strong>"
                 }
             }
         },
         "forum": {
-            "login_error": "",
+            "login_error": "会话无效。",
             "log_in_modal": {
                 "submit_button": "验证",
-                "title": "Minecraft 账号登录"
+                "title": "我的世界账号登录"
             },
-            "log_in_button_title": "Minecraft 账号登录",
-            "modal_help": "",
+            "log_in_button_title": "我的世界账号登录",
+            "modal_help": "请先加入服务器然后登录 <strong>{server}</strong>",
             "change_email_modal": {
                 "confirmation_message": "我们已经向 {email} 发送了一封确认邮件。如未收到，请检查垃圾箱。",
                 "dismiss_button": "好",
