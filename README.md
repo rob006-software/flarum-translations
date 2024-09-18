@@ -487,7 +487,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/persian">Persian</a></td>
-		<td> - </td>
+		<td><a href="https://github.com/behdanisohrab">behdanisohrab</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/fa.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/fa/svg-badge.svg" alt="detailed translation status" />
