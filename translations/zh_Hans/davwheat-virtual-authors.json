@@ -2,88 +2,88 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "在讨论中设置虚拟作者",
-                "view_virtual_authors_page": "查看详细介绍所有虚拟作者的页面"
+                "set_virtual_authors": "设置主题帖虚拟作者",
+                "view_virtual_authors_page": "查看主题帖虚拟作者"
             },
             "settings": {
-                "errored": "无法从服务器加载虚拟作者。",
-                "create_new": "创建新虚拟作者",
-                "auto_save_message": "",
+                "errored": "加载虚拟作者失败。",
+                "create_new": "创建虚拟作者",
+                "auto_save_message": "创建和编辑操作均会自动保存。",
                 "search_placeholder": "通过名字搜索",
-                "link_to_va_from_discussion": "",
-                "authors_in_sidebar": "",
-                "authors_in_sidebar_help": "",
-                "virtual_authors_page_disabled": "",
-                "virtual_authors_page_disabled_help": "",
-                "discussion_badge": "",
-                "prev": "",
-                "next": ""
+                "link_to_va_from_discussion": "允许通过超链接跳转到各虚拟作者的主题列表",
+                "authors_in_sidebar": "在侧边栏展示虚拟作者（而非首贴上方）",
+                "authors_in_sidebar_help": "与 Blog 扩展程序不冲突。",
+                "virtual_authors_page_disabled": "隐藏虚拟作者列表",
+                "virtual_authors_page_disabled_help": "与权限无关。",
+                "discussion_badge": "展示虚拟作者头衔",
+                "prev": "上一页",
+                "next": "下一页"
             },
             "virtual_author_item": {
-                "id": "",
-                "name": "",
-                "description": "",
-                "no_description": "",
-                "edit": "",
-                "delete_confirmation": "",
-                "delete_a11y_tooltip": ""
+                "id": "ID",
+                "name": "外显名称",
+                "description": "描述",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "edit": "编辑虚拟作者",
+                "delete_confirmation": "确定要删除虚拟作者？",
+                "delete_a11y_tooltip": "删除"
             }
         },
         "lib": {
             "edit_modal": {
-                "title_edit": "",
-                "title_new": "",
-                "submit_edit": "",
-                "submit_new": "",
+                "title_edit": "编辑虚拟作者",
+                "title_new": "新建虚拟作者",
+                "submit_edit": "保存修改",
+                "submit_new": "创建虚拟作者",
                 "fields": {
-                    "name": "",
-                    "description": ""
+                    "name": "外显名称",
+                    "description": "描述（关于作者）"
                 }
             },
-            "discussion-badge": ""
+            "discussion-badge": "{count, plural, one {一位虚拟作者}, other {多位虚拟作者}}"
         },
         "forum": {
             "virtual_author_page": {
-                "meta_title": "",
-                "credited_discussions": "",
-                "discussion_count": ""
+                "meta_title": "{displayName} - 作者",
+                "credited_discussions": "致谢 {displayName}",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
             },
             "virtual_authors_list": {
-                "sidebar_link": "",
-                "empty_text": "",
-                "title": "",
-                "meta_title": "",
-                "filter_name_placeholder": "",
-                "discussion_count": "",
-                "no_description": ""
+                "sidebar_link": "作者",
+                "empty_text": "暂无作者。",
+                "title": "所有作者",
+                "meta_title": "所有作者",
+                "filter_name_placeholder": "过滤名称",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "这位作者有些神秘。"
             },
             "virtual_authors_panel": {
-                "heading": "",
-                "error": "",
-                "item_link_tooltip": ""
+                "heading": "作者",
+                "error": "加载作者失败。",
+                "item_link_tooltip": "查看「{displayName}」的全部主题"
             },
             "discussion_controls": {
-                "set_virtual_authors": ""
+                "set_virtual_authors": "设置虚拟作者"
             },
             "set_modal": {
-                "title": "",
-                "existing": "",
-                "add_new": "",
-                "none_existing": "",
-                "search": "",
-                "credit_placeholder": "",
-                "delete_confirmation": "",
-                "delete_button": "",
-                "add_button": "",
-                "added_button": "",
-                "no_description": "",
-                "virtual_author_exists": "",
-                "save": ""
+                "title": "设置虚拟作者",
+                "existing": "当前虚拟作者",
+                "add_new": "选择虚拟作者",
+                "none_existing": "未选择虚拟作者。",
+                "search": "搜索虚拟作者",
+                "credit_placeholder": "致谢（可选）",
+                "delete_confirmation": "确定要移除当前主题的所有虚拟作者吗？",
+                "delete_button": "移除",
+                "add_button": "添加",
+                "added_button": "已添加",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "virtual_author_exists": "已选择！",
+                "save": "保存修改"
             }
         },
         "ref": {
-            "no_description": "",
-            "discussion_count": ""
+            "no_description": "（暂无描述）",
+            "discussion_count": "{count} 个主题帖"
         }
     }
 }
