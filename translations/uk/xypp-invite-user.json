@@ -17,42 +17,42 @@
                 },
                 "invite": {
                     "title": "Запрошений мною користувач",
-                    "username": "",
-                    "avatar": "",
-                    "empty": "",
-                    "time": ""
+                    "username": "Логін",
+                    "avatar": "Аватар",
+                    "empty": "Ви не запросили жодного користувача.",
+                    "time": "Час запрошення"
                 },
-                "no_tip": ""
+                "no_tip": "Не показувати мені модальне запрошення"
             },
             "confirm": {
-                "title": "",
-                "msg": "",
-                "alert": "",
-                "accept": "",
-                "success": ""
+                "title": "Підтвердити запрошення",
+                "msg": "Користувач {username} запросив вас на форум. Натисніть кнопку нижче, щоб прийняти цього користувача як запрошеного користувача.",
+                "alert": "Ви можете прийняти лише одного користувача як запрошеного. Ви можете закрити цей модал в profile->invite",
+                "accept": "Прийняти",
+                "success": "Успіх."
             },
-            "invite": "",
+            "invite": "Запросити",
             "notification": {
-                "user_invited": "",
-                "user_invited_label": ""
+                "user_invited": "{username} щойно прийняв ваше запрошення.",
+                "user_invited_label": "Запрошення прийнято"
             },
             "condition": {
-                "user_invite": "",
-                "user_be_invited": ""
+                "user_invite": "Запросити користувача",
+                "user_be_invited": "Бути запрошеним"
             }
         },
         "admin": {
             "settings": {
                 "reward_invite": {
-                    "title": "",
-                    "description": ""
+                    "title": "Нагорода Запрошення",
+                    "description": "Винагорода за запрошення (потрібно antoinefr/flarum-ext-money)"
                 },
                 "reward_be_invited": {
-                    "title": "",
-                    "description": ""
+                    "title": "Винагорода за бути запрошеним",
+                    "description": "Винагорода за запрошення користувача (потрібно antoinefr/flarum-ext-money)"
                 },
                 "invite_each_other": {
-                    "title": "",
+                    "title": "Запрошуйте один одного",
                     "description": ""
                 },
                 "invite_new_user_only": {
