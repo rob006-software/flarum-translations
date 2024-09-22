@@ -1388,7 +1388,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-invite-user/v1.0.1/locale/en.yml',
 	],
 	'xypp-localize-date-lib' => [
-		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-localize-date-lib/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-localize-date-lib/v1.0.1/locale/en.yml',
 	],
 	'xypp-pay-to-read' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-pay-to-read/v2.0.0/locale/en.yml',
