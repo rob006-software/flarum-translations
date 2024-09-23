@@ -36,7 +36,7 @@
                 "watermark": "Valitse lisätäänkä kuviin vesileima. Vesileima laitetaan muihin, kuin gif tyyppisiin kuviin alla olevien asetusten mukaan.\n",
                 "s3_compatible_storage": "Seuraavat asetukset ovat vaadittuja vain jos käytetään S3 yhteensopivaa tiedostovarastoa. Jos käytät AWS:ssää, voit jättää ne tyhjäksi.\n",
                 "s3_acl": "ACL mikä asetetaan siirrettyyn objektiin (oletus: private). Mahdolliset arvot: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "custom_s3_url": "",
+                "custom_s3_url": "Käytä tätä asetusta jos käytät S3-yhteensopivaa palvelua joka vaatii tietyn URL formaatin (esim. Backblaze B2) tai jos sinulla on ongelmia oletus URL formaatin kanssa. Tämä asetus ei ole välttämätön useimpien palveluiden kautta. Pidä huoli, että URL sisältää protokollan (https://) ja on oikein muotoiltu. Esimerkiksi: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Jätä avain salaisuus tyhjäksi, jotta käytetään instanssin profiilin tunnuksia.\n",
                 "composer_buttons": "Oletuksena mediahallinta ja siirto napit ovat näkyvillä. Voit myös valita näytettäväksi vain yhden napin.\n"
             },
@@ -51,7 +51,7 @@
                     "endpoint": "Päätepiste (endpoint)",
                     "use_path_style_endpoint": "Käytä polku tyylistä päätepistettä (Use path style endpoint)",
                     "acl": "Pääsylistaus (Access Control List / ACL)",
-                    "custom_url": ""
+                    "custom_url": "Mukautettu S3 URL"
                 },
                 "disable-download-logging": {
                     "title": "Poista käytöstä latausten lokitus",
