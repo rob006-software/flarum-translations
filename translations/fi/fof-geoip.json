@@ -12,12 +12,12 @@
                 "service_ipapi-pro_description": "Käytä <b>https://members.ip-api.com/#pricing</b>. Pro tilauksella on rajoittamaton käyttö.",
                 "service_iplocation_label": "IP sijainti",
                 "service_iplocation_description": "Käytä <b>https://www.iplocation.net/</b> saadaksesi maan ja ISP tiedon. Tarkistusrajat ovat tuntemattomat.",
-                "service_ipsevenex_label": "",
-                "service_ipsevenex_description": "",
+                "service_ipsevenex_label": "7x Geopaikannus API",
+                "service_ipsevenex_description": "Käytä <b>https://7x.ax</b> saadaksesi ilmaisen API avaimen jolla saa 20 pyyntöä per minuutti. Saatavilla myös maksullisia tilauksia.",
                 "access_key_label": "Pääsy avain (access key)",
                 "quota_label": "Tarkistus raja",
-                "show_flag_label": "",
-                "show_flag_help": "",
+                "show_flag_label": "Näytä maan lippu jokaisessa viestissä",
+                "show_flag_help": "Ilman IP osoitetta, näytetään viestin kirjoittajan IP osoitteen mukainen lippu.",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Käytä <b>https://ipstack.com</b> saadaksesi jopa 10 000 tarkistusta per kuukausi ilmaiseksi. Maksulliset suunnitelmat sisältävät yhteyden tietoa (ISP, organisaatio) sekä uhka-arvion.",
                 "security_label": "Turvallisuus moduuli (Security Module) (vaatii professional plus)",
@@ -42,11 +42,11 @@
                 "threat_level": "Uhkataso",
                 "threat_types": "Uhka tyypit",
                 "error": "Virhe",
-                "not_enough_data": ""
+                "not_enough_data": "Ei tarpeeksi tietoa kartan piirtämiseen"
             },
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "Näytä lippu mistä kirjoitan perustuen IP osoitteeseeni"
                 }
             }
         }
@@ -54,8 +54,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
-                "showIPCountry-help": ""
+                "showIPCountry": "Näytä lippu mistä käyttäjä kirjoittaa",
+                "showIPCountry-help": "Tämä perustuu käyttäjän IP osoitteeseen. Lippu (jos päällä) näkyy kaikille käyttäjille. Ylläpitäjät ja moderaattorit näkevät IP osoitteen ponnahdusikkunassa."
             }
         }
     }
