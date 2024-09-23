@@ -7,18 +7,18 @@
                 "moneyforpost": "為新職位提供資金",
                 "moneyfordiscussion": "為新的討論提供資金",
                 "moneyname": "貨幣名稱（例如：[貨幣]點）",
-                "postminimumlength": "",
+                "postminimumlength": "獲得金錢的發布最小長度（0 禁用）",
                 "noshowzero": "如果值為零則不顯示",
-                "autoremove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "autoremove": "自動更新資金",
+                "moneyforlike": "當貼文被按讚時給予金錢",
+                "helpextensionlikes": "需要 <code>flarum/likes</code> 擴展"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "編輯資金"
             },
             "autoremove": [
-                "",
-                "",
+                "從不移除金錢",
+                "當討論/帖子被隱藏或恢復時（預設）",
                 ""
             ],
             "automoderator": {
