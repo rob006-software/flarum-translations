@@ -7,14 +7,14 @@
                 "token_label": "YouTrack 令牌",
                 "project_label": "YouTrack 項目 ID",
                 "state_field_label": "狀態欄",
-                "resolved_state_label": "",
-                "fields_mapping_label": "",
+                "resolved_state_label": "已解決狀態",
+                "fields_mapping_label": "字段映射",
                 "url_help": "您的 YouTrack 實例的 URL。範例：https://example.youtrack.cloud/",
-                "token_help": "",
-                "project_help": "",
-                "state_field_help": "",
-                "resolved_state_help": "",
-                "fields_mapping_help": ""
+                "token_help": "YouTrack API 的永久令牌。您可以在 YouTrack 設定檔設定中建立一個。",
+                "project_help": "要跟蹤的專案的ID。您可以在項目頁面的 URL 中找到它。",
+                "state_field_help": "YouTrack 專案中表示問題狀態的欄位的名稱。\n它將用於確定問題的進度。\n變數 [Resolved_State] 將替換為 Resolved State 字段的值。\n示例：Submitted，Open|已重新打開，待討論，進行中，[Resolved_State]\n",
+                "resolved_state_help": "表示已解決問題的狀態欄位的值。\n範例：完成|已修復|已解決\n",
+                "fields_mapping_help": "YouTrack 專案的 SimpleIssueCustomField 中的欄位到 Normal 欄位的對應。\n格式為：SimpleIssueCustomField 名稱:普通欄位名稱\n範例： 原作者：author.display_name，原作者電子郵件：author.email，原受讓人：assignee.display_name\n"
             }
         }
     }
