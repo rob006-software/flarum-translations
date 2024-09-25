@@ -53,24 +53,24 @@
                 },
                 "invite_each_other": {
                     "title": "Запрошуйте один одного",
-                    "description": ""
+                    "description": "Користувач може запросити користувача, який його запросив або ні."
                 },
                 "invite_new_user_only": {
-                    "title": "",
-                    "description": ""
+                    "title": "Дозволити запрошувати тільки нових користувачів",
+                    "description": "Не дозволяти запрошувати користувачів, чий час реєстрації менший за його власний."
                 }
             },
             "condition": {
-                "user_invite": "",
-                "user_be_invited": ""
+                "user_invite": "Запросити користувача",
+                "user_be_invited": "Бути запрошеним"
             }
         },
         "api": {
-            "invited_by_user_id_is_self": "",
-            "has_already_be_invited": "",
-            "invited_by_user_id_is_empty": "",
-            "invited_each_other": "",
-            "invited_an_elder_user": ""
+            "invited_by_user_id_is_self": "Ви не можете запросити себе.",
+            "has_already_be_invited": "Ви вже прийняли ще одного запрошеного користувача.",
+            "invited_by_user_id_is_empty": "Ідентифікатор запрошеного користувача порожній.",
+            "invited_each_other": "Вас не може запросити користувач, якого ви запросили.",
+            "invited_an_elder_user": "Час реєстрації запрошеного більше, ніж у вас."
         }
     }
 }
