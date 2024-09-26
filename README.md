@@ -1154,6 +1154,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`nodeloc-my-emoji`](https://weblate.rob006.net/projects/flarum/nodeloc-my-emoji) | [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji) |
 | [`nodeloc-lottery`](https://weblate.rob006.net/projects/flarum/nodeloc-lottery) | [`nodeloc/lottery`](https://github.com/nodeloc/lottery) |
 | [`nodeloc-telegram`](https://weblate.rob006.net/projects/flarum/nodeloc-telegram) | [`nodeloc/telegram`](https://github.com/nodeloc/telegram) |
+| [`nodeloc-whisper`](https://weblate.rob006.net/projects/flarum/nodeloc-whisper) | [`nodeloc/whisper`](https://github.com/nodeloc/whisper) |
 | [`nomiscz-auth-steam`](https://weblate.rob006.net/projects/flarum/nomiscz-auth-steam) | [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam) |
 | [`nomiscz-auth-wechat`](https://weblate.rob006.net/projects/flarum/nomiscz-auth-wechat) | [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat) |
 | [`nosun-reply-to-see`](https://weblate.rob006.net/projects/flarum/nosun-reply-to-see) | [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see) |
