@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "The date of the last terms update. Setting this value will require all users who accepted prior to that date to accept again. Must be in the past (otherwise users would never be able to accept after the date and get past the modal).\n",
                 "export-url": "Export URL",
-                "export-url-help": "Any user with permission \"Export all policies data\" can access those URLs to download the list of users who accepted this policy. You can find more details about the available options on the <a>extension wiki</a>.\n"
+                "export-url-help": "Any user with permission \"Export all policies data\" can access those URLs to download the list of users who accepted this policy. You can find more details about the available options on the <a>extension wiki</a>.\n",
+                "optional": "Optional Policy",
+                "optional-help": "When enabled, users can use and interact with the forum without accepting this policy."
             },
             "permissions": {
                 "see-user-policies-state": "See the user policies state",
