@@ -2,19 +2,19 @@
     "clarkwinkelmann-post-stream-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "sideNavAccess": "",
-                "sideNavAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Zugriff über die Dropdown-Liste „Diskussion“",
+                "dropdownAccessHelp": "Wenn deaktiviert, ist die Symbolleiste nur über die Tastenkombination oder eine der anderen unten aktivierten Tastenkombinationen verfügbar.",
+                "sideNavAccess": "Zugang über die Diskussionsseitennavigation",
+                "sideNavAccessHelp": "Gleich wie vorherige Einstellung, aber die Schaltfläche wird als separater Eintrag in der Seitenleiste statt im Dropdown-Menü hinzugefügt.",
+                "authorQuickFilter": "Schnellfilter für Beitragsautor",
+                "authorQuickFilterHelp": "Zu jedem Beitrags-Dropdown-Menü wird eine Verknüpfung hinzugefügt, um nach diesem Benutzer zu filtern.",
+                "originalPosterBadge": "Interaktives OP-Badge anzeigen",
+                "originalPosterBadgeHelp": "Neben den Beiträgen des OP wird ein Badge hinzugefügt. Wenn Sie auf das Badge klicken, wird automatisch nach diesem Benutzer gefiltert."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
+                "noResults": "In dieser Diskussion entsprechen keine Beiträge der Suchanfrage",
                 "unmatchedGap": "",
                 "otherAuthorsGap": ""
             },
