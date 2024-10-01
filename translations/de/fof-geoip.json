@@ -34,19 +34,19 @@
                 "title": "IP-Informationen",
                 "ip_address": "IP-Adresse",
                 "country_code": "Landesvorwahl",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "zip_code": "PLZ",
+                "isp": "Internetanbieter",
+                "as": "ASN",
+                "mobile": "Mobilfunknetz",
+                "organization": "Organisation",
+                "threat_level": "Bedrohungsstufe",
+                "threat_types": "Bedrohungsarten",
+                "error": "Fehler",
+                "not_enough_data": "Nicht genügend Daten, um eine Karte zu zeichnen"
             },
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "Die Flagge des Landes anzeigen, aus dem ich poste, basierend auf meiner IP-Adresse"
                 }
             }
         }
@@ -54,8 +54,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
-                "showIPCountry-help": ""
+                "showIPCountry": "Zeigt die Flagge des Landes, aus dem der Benutzer postet",
+                "showIPCountry-help": "Dies basiert auf ihrer IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip."
             }
         }
     }
