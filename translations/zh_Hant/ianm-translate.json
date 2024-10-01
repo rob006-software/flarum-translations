@@ -71,9 +71,6 @@
             }
         },
         "forum": {
-            "composer": {
-                "multi-languages": "提示：您可以輸入您選擇的語言，論壇將為您翻譯。"
-            },
             "unknown-language": "（未檢測到）",
             "detected-language": "本帖使用了{postLang}",
             "translate-button-label": "翻譯",
@@ -113,6 +110,9 @@
                         "label": "總是顯示使用語言"
                     }
                 }
+            },
+            "composer": {
+                "multi-languages": "提示：您可以輸入您選擇的語言，論壇將為您翻譯。"
             }
         },
         "lib": {

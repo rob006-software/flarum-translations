@@ -74,9 +74,6 @@
             }
         },
         "forum": {
-            "composer": {
-                "multi-languages": "提示：您可以输入您选择的语言，论坛会为您翻译。"
-            },
             "unknown-language": "（未检测到）",
             "detected-language": "原始语言 {postLang}",
             "translate-button-label": "翻译",
@@ -116,6 +113,9 @@
                         "label": "总是显示语言"
                     }
                 }
+            },
+            "composer": {
+                "multi-languages": "提示：您可以输入您选择的语言，论坛会为您翻译。"
             }
         },
         "lib": {

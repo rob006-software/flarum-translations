@@ -74,9 +74,6 @@
             }
         },
         "forum": {
-            "composer": {
-                "multi-languages": "Astuce : vous pouvez écrire avec la langue de votre choix, le forum la traduira pour vous."
-            },
             "unknown-language": "[non détecté]",
             "detected-language": "Ce message est en {postLang}",
             "translate-button-label": "Traduire",
@@ -116,6 +113,9 @@
                         "label": "Toujours montrer la langue"
                     }
                 }
+            },
+            "composer": {
+                "multi-languages": "Astuce : vous pouvez écrire avec la langue de votre choix, le forum la traduira pour vous."
             }
         },
         "lib": {
