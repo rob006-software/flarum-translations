@@ -35,25 +35,25 @@
                 "allow_anonymization": "Silme istekleri için anonimleştirmeye izin ver",
                 "allow_anonymization_help": "Varsayılan seçenektir ve çoğu topluluk için önerilir. Bu modda, gönderiler/yorumlar GDPR'nin izin verdiği ölçüde mümkün olduğu kadar korunacak, ancak kullanıcıyı tanımlayabilecek tüm bilgiler kaldırılacaktır.",
                 "allow_deletion": "Kaldırma istekleri için silmeye izin ver",
-                "allow_deletion_help": "",
-                "default_anonymous_username": "",
-                "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "",
+                "allow_deletion_help": "Çok daha katı bir seçenek. Bu modda, tüm gönderiler/yorumlar silinecek ve kullanıcı veritabanından kaldırılacak. Dikkatli kullanın.",
+                "default_anonymous_username": "Anonimleştirilmiş kullanıcılar için varsayılan kullanıcı adı",
+                "default_anonymous_username_help": "Bir kullanıcı anonimleştirildiğinde, kullanıcı adı bu değerle ve anonimleştirme isteğinin kimliğiyle değiştirilir, örneğin <code>Anonim123</code>.",
+                "default_erasure": "Silme istekleri için varsayılan eylem",
+                "default_erasure_help": "Silme istekleri için varsayılan eylem ne olmalıdır?",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "Anonimleştirme",
+                    "deletion": "Silme"
                 },
                 "gdpr_page": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Veri Entegrasyonu ve eylemler",
+                    "help_text": "Forumunuzda hangi eylemleri kullanacağınıza karar vermeden önce, hangi verilerin entegre edildiğini ve hem anonimleştirme hem de silme için nasıl işlendiğini anlamak hayati önem taşır. Verilerin nasıl işlendiğini ve hangi isteğe bağlı uzantıların verilerini bu uzantı tarafından işlenmek üzere kaydettiğini anlamak için GDPR genel bakışını ziyaret edin."
                 }
             },
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "title": "",
-                        "export": ""
+                        "title": "GDPR Eylemleri",
+                        "export": "{username} için verileri dışa aktar"
                     }
                 }
             }
@@ -61,68 +61,68 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Kullanıcının avatarını dosya sisteminden siler.",
+                    "export_description": "Kullanıcının avatarını dosya sisteminden alır ve dışa aktarma işlemine dahil eder."
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "Kullanıcının başlattığı tüm tartışmaları dışa aktarır. Veriler başlık ve oluşturma tarihiyle sınırlıdır."
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "Forum başlığını, bağlantıyı, kullanıcı adını, e-postayı ve geçerli tarihi dışa aktarır."
                 },
-                "no_action": "",
+                "no_action": "Hiçbir işlem yapılmadı.",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Kullanıcının yaptığı tüm paylaşımlardan IP adresini kaldırır.",
+                    "delete_description": "Kullanıcının yaptığı tüm paylaşımları siler.",
+                    "export_description": "Kullanıcının yaptığı tüm gönderileri dışa aktarır. Veriler içerik, oluşturma tarihi, IP adresi ve tartışma kimliğiyle sınırlıdır."
                 },
                 "tokens": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Kullanıcının oluşturduğu tüm tokenları siler.",
+                    "export_description": "Kullanıcının oluşturduğu tüm tokenları dışa aktarır. Veriler oluşturma tarihi ve token türüyle sınırlıdır."
                 },
                 "user": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Kullanıcı tablosundaki tüm sütunları null olarak ayarlar. Boş olmayan sütunlar varsayılan değerlerine veya özel değerlerine ayarlanır. Parola değiştirilir, tercihler varsayılan olarak ayarlanır ve tüm gruplar kaldırılır.",
+                    "delete_description": "Kullanıcıyı veritabanından siler.",
+                    "export_description": "Kullanıcı tablosundan verileri dışa aktarır. id, password hariç tüm sütunlar."
                 }
             },
             "request_data": {
-                "title": "",
-                "text": "",
-                "request_button": ""
+                "title": "{username} için veri isteği",
+                "text": "Sizin için bir zip arşivi hazırlanacaktır. Hazır olduğunda, bir indirme bağlantısı içeren bir bildirim alacaksınız. Bağlantı bir gün boyunca aktif kalacaktır.\n",
+                "request_button": "Arşiv isteği"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
-                "body": ""
+                "subject": "Hesap silme isteğinizi onaylayın",
+                "body": "Hey {display_name}!\n\nBirisi (umarım sizsinizdir) az önce `{display_name}` hesabını silmeyi talep etti.\n\nBu işlemi onaylamak için lütfen aşağıdaki bağlantıyı takip edin, ardından talebiniz ekibimiz tarafından işleme alınacaktır.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Hesap silme işlemi tamamlandı",
+                    "body": "Hey {display_name}!\n\nBu, hesabınızın silindiğine dair otomatik ve son bir bildirimdir.\n"
                 },
                 "anonymization": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Hesap anonimleştirme tamamlandı",
+                    "body": "Hey {display_name}!\n\nBu, hesabınızın anonimleştirildiğine dair otomatik ve son bir bildirimdir.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
-                "body": ""
+                "subject": "Hesap silme talebi iptal edildi",
+                "body": "Merhaba {display_name}!\n\nBu, hesap silme talebinizin iptal edildiğine dair otomatik bir bildirimdir.\n\nHesabınız artık silinmeyecek.\n"
             },
             "export_available": {
-                "subject": "",
-                "body": ""
+                "subject": "Veri aktarımı mevcut",
+                "body": "Hey {display_name}!\n\n{username} için hesap verilerinin dışa aktarılmasını istediniz. Bu dışa aktarma başarıyla oluşturuldu ve artık kullanılabilir:\n\n{url}\n\nBu dışa aktarma {destroys_at} tarihine kadar kullanılabilir kalacaktır.\n"
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Anonimleştirilmiş Kullanıcı"
             },
             "delete_user": {
-                "title": "",
-                "text": "",
+                "title": "{username} adlı kullanıcının hesabını sil",
+                "text": "{username}'in hesabını silmek istediğinizden emin misiniz?\n\nBu eylem geri alınamaz.\n",
                 "modal_delete_button": "",
                 "delete_button": ""
             },
