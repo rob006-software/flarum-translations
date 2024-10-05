@@ -1382,6 +1382,9 @@ return [
 	'xsoft-ict-mason-tag' => [
 		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',
 	],
+	'xypp-custom-hide-tags' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-custom-hide-tags/v1.0.2/locale/en.yml',
+	],
 	'xypp-forum-quests' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v2.0.2/locale/en.yml',
 	],
