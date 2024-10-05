@@ -36,8 +36,8 @@
                 "terms-updated-at-help": "Son şart güncellemesinin tarihi. Bu değeri ayarlamak önceki şartları kabul etmiş kullanıcıların şartıları tekrar kabul etmesini gerektirecektir. Geçmişte olmak zorunda (yoksa kullanıcılar şartları asla kabul edemez ve pencereyi kapatamayacaklardır).\n",
                 "export-url": "Bağlantıyı dışa aktar",
                 "export-url-help": "\"Bütün şart verilerini dışa aktar\" iznine sahip olan bütün kullanıcılar şartları kabul etmiş kullanıcıların listesini indirme bağlantılarına ulaşabilir. <a>extension wiki</a> bağlantısında daha fazla detay bulabilirsiniz.\n",
-                "optional": "",
-                "optional-help": ""
+                "optional": "İsteğe bağlı politika",
+                "optional-help": "Etkinleştirildiğinde, kullanıcılar bu politikayı kabul etmeden forumu kullanabilir ve etkileşimde bulunabilirler."
             },
             "permissions": {
                 "see-user-policies-state": "Kullanıcı şartları durumunu görebilir",
