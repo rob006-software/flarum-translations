@@ -1407,7 +1407,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-store-group/v1.0.2/locale/en.yml',
 	],
 	'xypp-user-decoration' => [
-		'tag' => 'https://raw.githubusercontent.com/zxy19/user-decoration/v1.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zxy19/user-decoration/v1.2.1/locale/en.yml',
 	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v0.0.2/locale/en.yml',
