@@ -1392,7 +1392,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-pay-to-read/v2.0.0/locale/en.yml',
 	],
 	'xypp-sticky-card' => [
-		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-sticky-card/v1.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-sticky-card/v1.1.0/locale/en.yml',
 	],
 	'xypp-store' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/store/v1.1.5/locale/en.yml',
