@@ -488,7 +488,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flamarkt/taxonomies/0.1.9/resources/locale/en.yml',
 	],
 	'flarum-akismet' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v1.8.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v1.8.1/locale/en.yml',
 	],
 	'flarum-approval' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/approval/v1.8.1/locale/en.yml',
