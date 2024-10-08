@@ -271,8 +271,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "{username} 편집"
+                            "tooltip": "{username} 편집",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -285,6 +285,9 @@
                         },
                         "join_time": {
                             "title": "가입일"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "아이디"
@@ -641,6 +644,11 @@
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": ", ",

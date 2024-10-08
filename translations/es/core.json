@@ -250,8 +250,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "Editar {username}"
+                            "tooltip": "Editar {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -264,6 +264,9 @@
                         },
                         "join_time": {
                             "title": "Se unió"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "ID"
@@ -596,6 +599,11 @@
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": ", ",

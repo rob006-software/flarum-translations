@@ -257,8 +257,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "Upraviť používateľa {username}"
+                            "tooltip": "Upraviť používateľa {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -271,6 +271,9 @@
                         },
                         "join_time": {
                             "title": "Pripojili sa"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "ID"
@@ -616,6 +619,11 @@
             "number_suffix": {
                 "kilo_text": "tis.",
                 "mega_text": "mil."
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": ", ",

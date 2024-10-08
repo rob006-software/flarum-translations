@@ -257,8 +257,8 @@
                         },
                         "edit_user": {
                             "button": "Redigera",
-                            "title": "Redigera användare",
-                            "tooltip": "Redigera {username}"
+                            "tooltip": "Redigera {username}",
+                            "title": "Redigera användare"
                         },
                         "email": {
                             "title": "E-mail",
@@ -271,6 +271,9 @@
                         },
                         "join_time": {
                             "title": "Gick med"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "ID"
@@ -616,6 +619,11 @@
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": ", ",

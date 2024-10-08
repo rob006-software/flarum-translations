@@ -248,8 +248,8 @@
                         },
                         "edit_user": {
                             "button": "",
-                            "title": "",
-                            "tooltip": "تعديل {username}"
+                            "tooltip": "تعديل {username}",
+                            "title": ""
                         },
                         "email": {
                             "title": "",
@@ -262,6 +262,9 @@
                         },
                         "join_time": {
                             "title": "انضمّ"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "ID"
@@ -593,6 +596,11 @@
             "number_suffix": {
                 "kilo_text": "كلغ",
                 "mega_text": "ميغا"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": "، ",
