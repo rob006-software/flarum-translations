@@ -1,0 +1,61 @@
+{
+    "walsgit-recycle-bin": {
+        "admin": {
+            "title": "Recycle Bin",
+            "search_placeholder": "Search for a discussion",
+            "search_help_text": "Searches for words in titles as well as in the messages of the discussions",
+            "total_hidden_discussions": "Total hidden discussions",
+            "empty_list": "No discussions in the recycle bin.",
+            "hidden_discussions": "Hidden discussions",
+            "discussion_id": "ID",
+            "discussion_title": "Discussion title",
+            "discussion_link_tooltip": "View discussion",
+            "discussion_author": "Author",
+            "unknownn_user": "Unknown user",
+            "created_at": "Created at",
+            "hidden_at": "Hidden at",
+            "unknown_date": "Unknown date",
+            "actions": "Actions",
+            "restore_tooltip": "Restore discussion",
+            "restore_discussion": {
+                "title": "Restore discussion",
+                "confirmation": "Are you sure you want to restore this discussion:",
+                "restore_button": "Restore this discussion",
+                "success": "Successfully restored the discussion"
+            },
+            "delete_discussion": {
+                "title": "Delete forever",
+                "confirmation": "Are you sure you want to <u>forever delete</u> this discussion (irreversible):",
+                "delete_button": "Forever delete this discussion",
+                "success": "Successfully deleted the discussion"
+            },
+            "delete_tooltip": "Delete discussion",
+            "bulk_actions": "Actions for selected discussions : ",
+            "bulk_restore_label": "Restore selected discussions",
+            "mass_restore_modal": {
+                "title": "Restore the selected discussions",
+                "text_start": "Are you sure you want to restore these ",
+                "text_end": " selected discussions?",
+                "submit_button": "Restore these discussions",
+                "success": "Successfully restored the selected discussions"
+            },
+            "mass_delete_modal": {
+                "title": "Forever delete these discussions",
+                "text_start": "Are you sure you want to <u>forever delete</u> these ",
+                "text_end": " selected discussions?",
+                "submit_button": "Forever delete these discussions",
+                "success": "Successfully deleted the selected discussions"
+            },
+            "bulk_delete_label": "Delete selected discussions",
+            "pagination": {
+                "first_page_button": "Go to first page",
+                "back_button": "Back to previous page",
+                "page_counter": "Page {current} of {total}",
+                "go_to_page_textbox_a11y_label": "Go directly to page number",
+                "next_button": "Go to next page",
+                "last_page_button": "Go to last page"
+            },
+            "mass_help_text": "Please wait for page refresh after confirming mass restore or delete"
+        }
+    }
+}
