@@ -5,7 +5,7 @@
                 "count_comments": "",
                 "count_discussions": "",
                 "count_likes": "",
-                "count_custom_levels_exp_logs": "",
+                "count_custom_levels_exp_logs": "Log Level Exp Khusus (membutuhkan foskym/flarum-custom-levels)",
                 "count_invite_user_invites": "",
                 "count_store_purchases": "",
                 "count_polls_create_polls": "",
@@ -23,31 +23,31 @@
                     "bottom": "Bawah",
                     "left": "Kiri"
                 },
-                "times_display_format": "",
-                "times_display_format_help": "",
+                "times_display_format": "Format Tampilan Waktu",
+                "times_display_format_help": "Digunakan untuk menampilkan waktu dalam grafik aktivitas, misalnya, “times”, “[count] times”",
                 "from_year": "",
-                "from_year_help": ""
+                "from_year_help": "Tahun awal dari grafik aktivitas"
             },
             "permissons": {
-                "query-others-activity-graph": ""
+                "query-others-activity-graph": "Query Grafik Aktivitas Lainnya"
             }
         },
         "forum": {
             "label": {
-                "activity_graph": "",
+                "activity_graph": "Grafik Aktivitas",
                 "total_times": "",
                 "name_map": "en",
                 "categories": {
                     "comments": "Komentar",
                     "discussions": "Diskusi",
-                    "likes": "",
-                    "custom_levels_exp_logs": "",
+                    "likes": "Suka",
+                    "custom_levels_exp_logs": "Perubahan Exp",
                     "invite_user_invites": "",
                     "store_purchases": "",
                     "polls_create_polls": "",
                     "polls_votes": "",
-                    "username_requests_username": "",
-                    "username_requests_nickname": "",
+                    "username_requests_username": "Permintaan Perubahan Username",
+                    "username_requests_nickname": "Permintaan Perubahan Nickname",
                     "best_answer_marked": "",
                     "badges_assigned": "",
                     "achievements_achieved": "",
