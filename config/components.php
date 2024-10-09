@@ -1355,6 +1355,9 @@ return [
 	'vlssu-cravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.2.1/resources/locale/en.yml',
 	],
+	'walsgit-recycle-bin' => [
+		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/0.1.5/locale/en.yml',
+	],
 	'webbinaro-affiliator' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-affiliator/0.0.5/locale/en.yml',
 	],
