@@ -3,11 +3,11 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "desc": "Dapatkan API Key Anda dari <a>https://opencollective.com/applications</a>.",
-                "use_legacy_api_key_label": "",
-                "use_legacy_api_key_help": "",
-                "api_key_label": "API Key",
-                "personal_token_label": "",
+                "desc": "Dapatkan Personal Token Anda dari <a>https://opencollective.com/dashboard</a> di bawah Settings > For Developers. Jangan pilih cakupan tambahan apa pun - biarkan pilihan default tetap kosong.\n",
+                "use_legacy_api_key_label": "Gunakan Application API Key Yang Lama",
+                "use_legacy_api_key_help": "Jika Anda memiliki API key yang lama, Anda dapat terus menggunakannya, tetapi disarankan untuk beralih ke Personal Token. Saat ini, personal token tampaknya berfungsi dalam mode API Key (yaitu, \"API-Key\" header), tetapi ini tidak didokumentasikan.\n",
+                "api_key_label": "Application API Key (tidak digunakan lagi)",
+                "personal_token_label": "Personal Token",
                 "slug_label": "Collective Slug",
                 "group_label": "Grup yang Akan Ditugaskan"
             }
