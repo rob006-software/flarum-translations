@@ -82,6 +82,7 @@ return [
 		'!club-1-server-side-highlight',
 		'!kilowhat-formulaire',
 		'!tituspijean-auth-ldap',
+		'!walsgit-recycle-bin',
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
 	'ga' => getComponents(),
