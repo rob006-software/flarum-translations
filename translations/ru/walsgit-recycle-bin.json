@@ -1,61 +1,61 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "title": "",
-            "search_placeholder": "",
-            "search_help_text": "",
-            "total_hidden_discussions": "",
-            "empty_list": "",
-            "hidden_discussions": "",
-            "discussion_id": "",
-            "discussion_title": "",
-            "discussion_link_tooltip": "",
-            "discussion_author": "",
-            "unknownn_user": "",
-            "created_at": "",
-            "hidden_at": "",
-            "unknown_date": "",
-            "actions": "",
-            "restore_tooltip": "",
+            "title": "Корзина",
+            "search_placeholder": "Поиск дискуссии",
+            "search_help_text": "Поиск слов в заголовках тем и сообщениях в дискуссиях",
+            "total_hidden_discussions": "Полностью скрытые дискуссии",
+            "empty_list": "В корзине нет дискуссий.",
+            "hidden_discussions": "Скрытые дискуссии",
+            "discussion_id": "ID",
+            "discussion_title": "Заголовок дискуссии",
+            "discussion_link_tooltip": "Просмотреть дискуссию",
+            "discussion_author": "Автор",
+            "unknownn_user": "Неизвестный пользователь",
+            "created_at": "Создано в",
+            "hidden_at": "Скрыто в",
+            "unknown_date": "Неизвестная дата",
+            "actions": "Действия",
+            "restore_tooltip": "Восстановить дискуссию",
             "restore_discussion": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Восстановить дискуссию",
+                "confirmation": "Вы уверены, что хотите восстановить дискуссию:",
+                "restore_button": "Восстановить эту дискуссию",
+                "success": "Дискуссия успешно восстановлена"
             },
             "delete_discussion": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Удалить окончательно",
+                "confirmation": "Вы уверены, что хотите <u>окончательно удалить</u> эту дискуссию (действие нельзя отменить):",
+                "delete_button": "Окончательно удалить эту дискуссию",
+                "success": "Дискуссия успешно удалена"
             },
-            "delete_tooltip": "",
-            "bulk_actions": "",
-            "bulk_restore_label": "",
+            "delete_tooltip": "Удалить дискуссию",
+            "bulk_actions": "Действия для выбранных дискуссий: ",
+            "bulk_restore_label": "Восстановить выбранные дискуссии",
             "mass_restore_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Восстановить выбранные дискуссии",
+                "text_start": "Вы уверены, что хотите восстановить эти ",
+                "text_end": " выбранные дискуссии?",
+                "submit_button": "Восстановить эти дискуссии",
+                "success": "Выбранные дискуссии успешно восстановлены"
             },
             "mass_delete_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Окончательно удалить эти дискуссии",
+                "text_start": "Вы уверены, что хотите  <u>окончательно удалить</u> эти ",
+                "text_end": " выбранные дискуссии?",
+                "submit_button": "Окончательно удалить эти дискуссии",
+                "success": "Выбранные дискуссии успешно удалены"
             },
-            "bulk_delete_label": "",
+            "bulk_delete_label": "Удалить выбранные дискуссии",
             "pagination": {
-                "first_page_button": "",
-                "back_button": "",
-                "page_counter": "",
-                "go_to_page_textbox_a11y_label": "",
-                "next_button": "",
-                "last_page_button": ""
+                "first_page_button": "Перейти на первую страницу",
+                "back_button": "Назад на предыдущую страницу",
+                "page_counter": "Страница {current} из {total}",
+                "go_to_page_textbox_a11y_label": "Перейти на конкретную страницу",
+                "next_button": "Перейти на следующую страницу",
+                "last_page_button": "Перейти на последнюю страницу"
             },
-            "mass_help_text": ""
+            "mass_help_text": "Пожалуйста ждите обновления страницы после подтверждения группового удаления или восстановления"
         }
     }
 }
