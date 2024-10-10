@@ -3,11 +3,11 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "desc": "Kérjen egy API kulcsot innen: <a>https://opencollective.com/applications</a>.",
-                "use_legacy_api_key_label": "",
-                "use_legacy_api_key_help": "",
-                "api_key_label": "API kulcs",
-                "personal_token_label": "",
+                "desc": "Szerezze be a személyes tokenjét a <a>https://opencollective.com/dashboard</a> oldalon, a Beállítások > Fejlesztőknek rész alatt. Ne válasszon ki további hatóköröket – tartsa meg az alapértelmezett üres kiválasztást.\n",
+                "use_legacy_api_key_label": "API örökölt alkalmazáskulcsának használata",
+                "use_legacy_api_key_help": "Ha örökölt API-kulcsa van, akkor továbbra is használhatja, de ajánlatos a személyes tokenre váltás. Jelenleg úgy tűnik, hogy a személyes tokenek csak API-kulcs módban (azaz „API-Key” fejléccel) működnek, de ez nincs dokumentálva.\n",
+                "api_key_label": "API alkalmazáskulcsa (elavult)",
+                "personal_token_label": "Személyes token",
                 "slug_label": "Collective keresőbarát URL",
                 "group_label": "Hozzárendelendő csoport"
             }
