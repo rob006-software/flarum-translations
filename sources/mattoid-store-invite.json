@@ -54,7 +54,9 @@
                 "lock-resources": "The current resource is locked. Please try again later",
                 "email-inconsistency": "The email and invitation information do not match. Please use the email that received the invitation code",
                 "username-inconsistency": "The username does not match the invitation information. Please register using the username provided in the email",
-                "exception": "Automatic review failed [{message}]"
+                "exception": "Automatic review failed [{message}]",
+                "email-not-exist": "Email cannot be empty",
+                "link-not-exist": "link of the invitee cannot be empty"
             }
         },
         "lib": {
