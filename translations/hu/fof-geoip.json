@@ -16,8 +16,8 @@
                 "service_ipsevenex_description": "A <b>https://7x.ax/</b> használata egy ingyenes API-kulcs szerzéséhez, mellyel percenként legfeljebb 20 kérés indítható. Magasabb használati korlátokkal rendelkező, fizetős csomagok is elérhetők.",
                 "access_key_label": "Hozzáférési kulcs",
                 "quota_label": "Kvóta lekérdezése",
-                "show_flag_label": "",
-                "show_flag_help": "",
+                "show_flag_label": "Országzászlók megjelenítése minden bejegyzésnél",
+                "show_flag_help": "A bejegyzés szerzője IP-címéhez tartozó országzászló megjelenítése az IP-cím közzététele nélkül.",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Használja a <b>https://ipstack.com</b> szolgáltatást, hogy havi 10000 lekérést indítson ingyenesen. A fizetős csomagok kapcsolati információkat (internetszolgáltató, szervezet) és kockázati szintet is tartalmaznak.",
                 "security_label": "Biztonsági modul (professional plus szükséges)",
@@ -46,7 +46,7 @@
             },
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "Az ország zászlajának megjelenítése, ahonnan a bejegyzést közzéteszi (IP-cím alapján)"
                 }
             }
         }
@@ -54,8 +54,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
-                "showIPCountry-help": ""
+                "showIPCountry": "Az ország zászlajának megjelenítése, ahonnan a felhasználó a bejegyzést közzéteszi",
+                "showIPCountry-help": "Ez a bejegyzés közzétételéhez használt IP-címet veszi figyelembe. Az országzászló (ha engedélyezett) minden felhasználó számára látható. Az adminisztrátorok és moderátorok buboréksúgóban láthatják az IP-címet."
             }
         }
     }
