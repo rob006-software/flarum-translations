@@ -830,6 +830,9 @@ return [
 	'imdong-visible-to-op-only' => [
 		'tag' => 'https://raw.githubusercontent.com/imdong/flarum-ext-visible-to-op-only/v1.0.6/locale/en.yml',
 	],
+	'imeepo-daily-check-in' => [
+		'tag' => 'https://raw.githubusercontent.com/imeepo/flarum-daily-check-in/v1.1.0/locale/en.yml',
+	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.9/locale/en.yml',
 	],
