@@ -16,8 +16,8 @@
                 "service_ipsevenex_description": "Gunakan <b>https://7x.ax</b> untuk mendapatkan API key gratis hingga 20 request per menit. Paket berbayar untuk batas penggunaan yang lebih tinggi juga tersedia.",
                 "access_key_label": "Kunci Akses",
                 "quota_label": "Kuota pencarian",
-                "show_flag_label": "",
-                "show_flag_help": "",
+                "show_flag_label": "Tampilkan bendera negara di setiap post",
+                "show_flag_help": "Tanpa mengungkapkan alamat IP, tunjukkan bendera negara dari alamat IP penulis post.",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Gunakan <b>https://ipstack.com</b> untuk melakukan hingga 10.000 pencarian per bulan secara gratis. Paket berbayar mencakup info tentang koneksi (ISP, organisasi) dan tingkat ancaman.",
                 "security_label": "Modul Keamanan (butuh professional plus)"
@@ -44,7 +44,7 @@
             },
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "Tampilkan bendera negara tempat Saya memposting, berdasarkan alamat IP Saya"
                 }
             }
         }
@@ -52,8 +52,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
-                "showIPCountry-help": ""
+                "showIPCountry": "Tampilkan bendera negara tempat pengguna memposting",
+                "showIPCountry-help": "Hal ini didasarkan pada alamat IP mereka pada saat memposting. Bendera negara (jika diaktifkan) akan terlihat oleh semua pengguna. Pengguna admin dan moderator akan melihat alamat IP di tooltip."
             }
         }
     }
