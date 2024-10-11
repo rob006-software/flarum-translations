@@ -7,21 +7,21 @@
             },
             "settings": {
                 "label": {
-                    "tags": "",
+                    "tags": "Beste antwoordtags",
                     "general": "Algemeen",
                     "reminders": "Herinneringen",
-                    "search": "",
+                    "search": "Zoeken",
                     "advanced": "Geavanceerd",
                     "reminders_notice": "Herinneringen werken pas wanneer je de Flarum scheduler goed ingesteld hebt."
                 },
                 "allow_select_own_post": "Selecteer je eigen bericht",
-                "allow_select_own_post_help": "Sta toe dat de OP uit zijn eigen berichten het beste antwoord kan kiezen",
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
+                "allow_select_own_post_help": "Sta een gebruiker toe zijn eigen bericht te selecteren als beste antwoord op een discussie",
+                "show_max_lines_label": "Max. aantal regels dat in berichtvoorbeeld kan worden weergegeven",
+                "show_max_lines_help": "Stel in op 0 om uit te schakelen. Als een bericht langer is dan het geconfigureerde aantal regels, wordt het in het berichtvoorbeeld afgekapt met een fade-outeffect.",
                 "select_best_answer_reminder_days": "Herinneringsfrequentie",
                 "select_best_answer_reminder_days_help": "Stuur een herinnering na een configureerbare hoeveelheid dagen naar de discussie starter om een Beste Antwoord te selecteren, 0 = herinneringen uitschakelen.",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
+                "select_best_answer_tags_label": "Tags voor discussies met de beste antwoorden",
+                "select_best_answer_tags_help": "Selecteer welke tags, indien aanwezig, aan discussies moeten worden toegevoegd wanneer een Beste antwoord is ingesteld. Alleen secundaire tags zijn toegestaan. Deze tags worden verwijderd als het beste antwoord wordt verwijderd.",
                 "schedule_on_one_server": "Gebruik de 'onOneServer()' richtlijn voor de taakplanner",
                 "schedule_on_one_server_help": "Vereist Redis/Memcache",
                 "schedule_stop_overnight": "Voorkom dat herinneringsmeldingen worden verzonden tijdens niet actieve uren",
@@ -32,17 +32,17 @@
                 "use_alt_ui": "Alternatieve weergave",
                 "use_alt_ui_help": "Beste Antwoord knoppen toevoegen onderaan de post",
                 "documentation": "Documentatie",
-                "enabled_tags_label": "",
-                "enabled_tags_help": "",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": "",
-                "solution_search": "",
-                "solution_search_help": "",
-                "display_tags": "",
-                "display_tags_help": "",
-                "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
+                "enabled_tags_label": "Ingeschakelde Tags",
+                "enabled_tags_help": "Selecteer voor welke tags u Beste antwoorden wilt inschakelen, indien aanwezig. Deze tags worden tags met de indeling 'Q&A' en hebben de mogelijkheid om Beste antwoorden in te stellen.",
+                "remind_tags_label": "Herinneringstags",
+                "remind_tags_help": "Selecteer voor welke tags u eventueel herinneringen wilt verzenden. Herinneringen worden alleen verzonden voor discussies met deze tags.",
+                "tags_info": "Wanneer voor een tag Beste antwoord is ingeschakeld, wijst u machtigingen toe aan elke gebruikersgroep die antwoorden mag instellen (eigen discussie, elke discussie). Machtigingen kunnen globaal worden toegewezen (voor elke Best Antwoord-tag) of per tag.\n",
+                "solution_search": "Oplossing zoeken",
+                "solution_search_help": "Schakel de mogelijkheid in om naar discussies met Beste antwoorden te zoeken",
+                "display_tags": "Toon tags in zoekresultaten",
+                "display_tags_help": "Geef de tag(s) weer in zoekresultaten voor discussies met Beste Antwoorden",
+                "discussion_sidebar_jump_button": "Geef de knop 'Ga naar het beste antwoord' weer in de discussiezijbalk",
+                "discussion_sidebar_jump_button_help": "Voegt een knop toe aan de discussiezijbalk die naar het beste antwoord in de berichten springt.",
                 "enable_all_tags_button": "Beste antwoorden op alle tags inschakelen",
                 "enable_all_tags_reminder_button": "Herinneringen voor beste antwoorden op alle tags inschakelen",
                 "introduction": "Schakel in welke tags de beste antwoorden in <code><a>flarum/tags</a></code> moeten ondersteunen, en optioneel welke tag(s) herinneringen moeten ondersteunen. Wanneer een tag is ingeschakeld voor Beste antwoord, wijst u machtigingen toe aan elke gebruikersgroep die antwoorden mag instellen (eigen discussie, elke discussie). Machtigingen kunnen globaal worden toegewezen (voor elke tag die voor het beste antwoord is ingeschakeld), of per tag.\n"
@@ -90,11 +90,11 @@
                 "best-answer-count": "{count, plural, one { {count} best antwoord} other {{count} beste antwoorden}}"
             },
             "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
+                "discussions_solutions_heading": "Discussies met oplossingen",
+                "all_discussions_solutions_button": "Doorzoek alle discussies met oplossingen voor \"{query}\""
             },
             "discussion": {
-                "jump_to_best_answer_button": ""
+                "jump_to_best_answer_button": "Bekijk Beste antwoord"
             }
         },
         "email": {
@@ -113,8 +113,8 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Meest beste antwoorden",
+                "least_best_answers": "Minst beste antwoorden"
             }
         }
     }
