@@ -1386,7 +1386,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/xsoft-ict/fof-mason-tag/v1.0.2/resources/locale/en.yml',
 	],
 	'xypp-forum-quests' => [
-		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v2.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v2.0.3/locale/en.yml',
 	],
 	'xypp-invite-user' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-invite-user/v1.1.0/locale/en.yml',
