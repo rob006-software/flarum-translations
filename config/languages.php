@@ -205,6 +205,7 @@ return [
 		'!shebaoting-repost',
 		'!vlssu-cravatar',
 		'!widayn-avatar-cropper',
+		'!xypp-answer-bounty',
 		'!xypp-forum-quests',
 		'!xypp-invite-user',
 		'!xypp-pay-to-read',
