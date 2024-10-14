@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Xóa liên kết",
                 "delete_link_confirmation": "Bạn có chắc chắn muốn xóa liên kết này không?",
-                "everyone-label": "Tất cả mọi người",
-                "guests-label": "Khách",
                 "internal_link": "Đây có phải là liên kết nội bộ?",
-                "members-label": "Người dùng đã đăng ký",
                 "open_newtab": "Mở liên kết trong tab mới",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,7 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Thêm thuộc tính <code>rel=\"me\"</code> để xác minh danh tính trên các trang web khác",
-                "visibility": "Khả năng hiển thị liên kết"
+                "visibility": "Khả năng hiển thị liên kết",
+                "everyone-label": "Tất cả mọi người",
+                "guests-label": "Khách",
+                "members-label": "Người dùng đã đăng ký",
+                "visibility.help": "",
+                "visibility.help-disabled": "",
+                "visibility.label": "",
+                "visibility.guest-only.label": "",
+                "visibility.guest-only.help": ""
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Eliminar enlace",
                 "delete_link_confirmation": "¿Estás seguro de que quieres eliminar este enlace?",
-                "everyone-label": "Todos",
-                "guests-label": "Invitados",
                 "internal_link": "¿Es un enlace de Flarum?",
-                "members-label": "Usuarios registrados",
                 "open_newtab": "Abrir enlace en una nueva pestaña",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,7 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "",
-                "visibility": "Visibilidad del enlace"
+                "visibility": "Visibilidad del enlace",
+                "everyone-label": "Todos",
+                "guests-label": "Invitados",
+                "members-label": "Usuarios registrados",
+                "visibility.help": "",
+                "visibility.help-disabled": "",
+                "visibility.label": "",
+                "visibility.guest-only.label": "",
+                "visibility.guest-only.help": ""
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

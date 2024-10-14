@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Видалити посилання",
                 "delete_link_confirmation": "Ви впевнені, що хочете видалити це посилання?",
-                "everyone-label": "Усі",
-                "guests-label": "Гості",
                 "internal_link": "Це внутрішнє посилання?",
-                "members-label": "Зареєстровані користувачі",
                 "open_newtab": "Відкрити посилання в новій вкладці",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,7 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Додайте атрибут <code>rel=\"me\"</code> для підтвердження особи на інших сайтах",
-                "visibility": "Видимість посилання"
+                "visibility": "Видимість посилання",
+                "everyone-label": "Усі",
+                "guests-label": "Гості",
+                "members-label": "Зареєстровані користувачі",
+                "visibility.help": "",
+                "visibility.help-disabled": "",
+                "visibility.label": "",
+                "visibility.guest-only.label": "",
+                "visibility.guest-only.help": ""
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

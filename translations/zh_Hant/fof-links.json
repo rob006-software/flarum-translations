@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "移除連結",
                 "delete_link_confirmation": "你確定想要移除這個連結？",
-                "everyone-label": "所有人",
-                "guests-label": "訪客",
                 "internal_link": "這是 Flarum 連結 嗎？",
-                "members-label": "註冊用戶",
                 "open_newtab": "在新分頁開啟",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,7 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "新增 <code>rel=\"me\"</code> 屬性，用於其他網站上的身份驗證",
-                "visibility": "連結可見範圍"
+                "visibility": "連結可見範圍",
+                "everyone-label": "所有人",
+                "guests-label": "訪客",
+                "members-label": "註冊用戶",
+                "visibility.help": "",
+                "visibility.help-disabled": "",
+                "visibility.label": "",
+                "visibility.guest-only.label": "",
+                "visibility.guest-only.help": ""
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

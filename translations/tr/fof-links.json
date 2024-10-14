@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Bağlantıyı Sil",
                 "delete_link_confirmation": "Bu bağlantıyı silmek istediğine emin misin?",
-                "everyone-label": "Herkes",
-                "guests-label": "Ziyaretçiler",
                 "internal_link": "Bu bir dahili bağlantı mı?",
-                "members-label": "Kayıtlı kullanıcılar",
                 "open_newtab": "Bağlantıyı yeni sekmede aç",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,7 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Diğer sitelerde kimlik doğrulaması için <code>rel='me'</code> özelliğini ekleyin",
-                "visibility": "Bağlantı görünürlüğü"
+                "visibility": "Bağlantı görünürlüğü",
+                "everyone-label": "Herkes",
+                "guests-label": "Ziyaretçiler",
+                "members-label": "Kayıtlı kullanıcılar",
+                "visibility.help": "",
+                "visibility.help-disabled": "",
+                "visibility.label": "",
+                "visibility.guest-only.label": "",
+                "visibility.guest-only.help": ""
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

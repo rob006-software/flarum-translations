@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Hapus Link",
                 "delete_link_confirmation": "Apakah Anda yakin ingin menghapus link ini?",
-                "everyone-label": "Semua",
-                "guests-label": "Tamu",
                 "internal_link": "Apakah ini link internal?",
-                "members-label": "Pengguna terdaftar",
                 "open_newtab": "Buka link pada tab baru",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,7 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Tambahkan atribut <code>rel=\"me\"</code> untuk verifikasi identitas di situs lain",
-                "visibility": "Visibilitas link"
+                "visibility": "Visibilitas link",
+                "everyone-label": "Semua",
+                "guests-label": "Tamu",
+                "members-label": "Pengguna terdaftar",
+                "visibility.help": "",
+                "visibility.help-disabled": "",
+                "visibility.label": "",
+                "visibility.guest-only.label": "",
+                "visibility.guest-only.help": ""
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
