@@ -1,6 +1,9 @@
 {
     "fof-geoip": {
         "admin": {
+            "permissions": {
+                "see_country": "Always display the country of the IP address"
+            },
             "settings": {
                 "title": "FriendsOfFlarum GeoIP",
                 "service_label": "Service",
@@ -17,7 +20,7 @@
                 "access_key_label": "Access Key",
                 "quota_label": "Lookup quota",
                 "show_flag_label": "Show country flag for each post",
-                "show_flag_help": "Without disclosing the IP address, show the country flag of the IP address of the post author."
+                "show_flag_help": "Without disclosing the IP address, show the country flag of the IP address of the post author, when the user opts in via their preferences."
             }
         },
         "forum": {

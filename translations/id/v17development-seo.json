@@ -1,8 +1,18 @@
 {
     "v17development-flarum-seo": {
+        "admin": {
+            "permissions": {
+                "configure_seo": ""
+            }
+        },
         "forum": {
             "profile_title": "Profil {username}",
-            "profile_description": "Profil {username} | {discussion_count} diskusi | {comment_count} post"
+            "profile_description": "Profil {username} | {discussion_count} diskusi | {comment_count} post",
+            "controls": {
+                "configure_seo": "",
+                "update_seo": "",
+                "reset_seo": ""
+            }
         }
     }
 }
