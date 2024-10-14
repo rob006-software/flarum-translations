@@ -1341,7 +1341,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/UMHelper/flarum-ext-oauth-clerk/1.0.1/locale/en.yml',
 	],
 	'v17development-blog' => [
-		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/v0.7.7/locale/en.yaml',
+		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/v0.8.0/locale/en.yaml',
 	],
 	'v17development-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-seo/v1.8.1/locale/en.yml',
