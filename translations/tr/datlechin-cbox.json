@@ -2,12 +2,12 @@
     "datlechin-cbox": {
         "admin": {
             "settings": {
-                "description": "",
-                "secret": "",
-                "box_id": "",
-                "box_tag": "",
-                "show_when_user_not_login": "",
-                "show_when_user_not_login_help": ""
+                "description": "Cbox'ınız Pro sürümü olmalıdır. Entegrasyonu etkinleştirmek ve gerekli bilgileri edinmek için <strong>Kullanıcılar</strong> -> <strong>Kullanıcı Entegrasyonu</strong>'na gidin.",
+                "secret": "Gizli Anahtar",
+                "box_id": "Box ID",
+                "box_tag": "Box Etiketi",
+                "show_when_user_not_login": "Kullanıcı oturum açmadığında göster",
+                "show_when_user_not_login_help": "Kullanıcı oturum açmamış olsa bile sohbet kutusunu görüntüle"
             }
         }
     }
