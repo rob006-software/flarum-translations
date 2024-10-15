@@ -17,9 +17,9 @@
                 "zip": "Zip Arşivi"
             },
             "settings_button": "Yapılandır",
-            "delete_button": "",
-            "delete_confirmation": "",
-            "create_button": "",
+            "delete_button": "Sil",
+            "delete_confirmation": "\"{name}\" ({adapter}) öğesini silmek istediğinizden emin misiniz?",
+            "create_button": "Yeni adaptör ekle",
             "required_package_button": "Kur",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -40,7 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "{adapter} yapılandırın",
-                "name_label": "",
+                "name_label": "Konum Adı",
                 "local": {
                     "target": {
                         "label": "Hedef yol",
@@ -81,12 +81,12 @@
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Anahtar",
+                        "description": "AWS kimlik bilgileri anahtarı"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Gizli anahtar",
+                        "description": "AWS kimlik bilgileri gizli anahtarı"
                     },
                     "region": {
                         "label": "Bölge",
@@ -140,12 +140,12 @@
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Müşteri Kimliği",
+                        "description": "Bir Google projesi oluşturmak ve İstemci Kimliğinizi ve İstemci Gizli Anahtarınızı almak için https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md adresindeki talimatları izleyin.\n"
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Müşteri Gizli Anahtarı",
+                        "description": " "
                     },
                     "refresh-token": {
                         "label": "Tokeni Yenile",
@@ -156,8 +156,8 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
-                        "test_button": ""
+                        "test_success_alert": "Google Drive'a başarıyla bağlanıldı! Ayarları saklamak için değişiklikleri kaydedin.",
+                        "test_button": "Test bağlantısı"
                     },
                     "client": {
                         "id": {
