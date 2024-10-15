@@ -5,15 +5,15 @@
                 "can_bypass_like": "Beğenmeden görebilir",
                 "can_bypass_reply": "Yanıtlamadan görebilir",
                 "can_bypass_login": "Giriş yapmadan geçebilir",
-                "can_use_bbcode": ""
+                "can_use_bbcode": "BB Kodunu kullanabilir"
             },
             "settings": {
-                "enabled": "",
+                "enabled": "Etkinleştirilmiş",
                 "hide_only_first_post": "Yalnızca ilk gönderiyi gizle",
                 "require_like": "Beğenmesi gerekir",
                 "require_reply": "Yanıtlaması gerekir",
                 "fof_upload": {
-                    "enabled": "",
+                    "enabled": "Etkinleştirilmiş",
                     "section_title": "FoF Upload",
                     "require_reply": "Cevap gerektirir",
                     "require_like": "Beğeni gerektirir",
@@ -27,9 +27,9 @@
         },
         "forum": {
             "post": {
-                "login_tooltip": "",
-                "reply_tooltip": "",
-                "like_tooltip": "",
+                "login_tooltip": "İçeriği görmek için giriş yapmalısınız",
+                "reply_tooltip": "İçeriği görmek için tartışmaya cevap vermelisiniz",
+                "like_tooltip": "İçeriği görmek için gönderiyi beğenmelisiniz",
                 "fof_upload": {
                     "login_text": "",
                     "reply_text": "",
