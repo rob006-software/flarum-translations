@@ -3,11 +3,11 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "desc": "API anahtarınızı <a>https://opencollective.com/applications</a> bağlantısından alın.",
-                "use_legacy_api_key_label": "",
-                "use_legacy_api_key_help": "",
-                "api_key_label": "API Anahtarı",
-                "personal_token_label": "",
+                "desc": "Kişisel Token'ınızı <a>https://opencollective.com/dashboard</a> adresinden Ayarlar > Geliştiriciler İçin bölümünden edinin. Herhangi bir ek kapsam seçmeyin - varsayılan boş seçimi koruyun.\n",
+                "use_legacy_api_key_label": "Eski Uygulama API Anahtarını Kullan",
+                "use_legacy_api_key_help": "Eski bir API anahtarınız varsa, onu kullanmaya devam edebilirsiniz, ancak Kişisel Token'a geçmeniz önerilir. Şu anda, kişisel token'lar API Anahtarı modunda (yani \"API-Key\" başlığı) çalışıyor gibi görünüyor, ancak bu daha belgelenmemiştir.\n",
+                "api_key_label": "Uygulama API Anahtarı (kullanım dışı)",
+                "personal_token_label": "Kişisel Token",
                 "slug_label": "Collective Adres Kısa Adı",
                 "group_label": "Atanacak Grup"
             }
