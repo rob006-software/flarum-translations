@@ -2,7 +2,7 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": ""
+                "see_country": "Selalu tampilkan negara dari alamat IP"
             },
             "settings": {
                 "title": "FriendsOfFlarum GeoIP",
@@ -20,7 +20,7 @@
                 "access_key_label": "Kunci Akses",
                 "quota_label": "Kuota pencarian",
                 "show_flag_label": "Tampilkan bendera negara di setiap post",
-                "show_flag_help": "Tanpa mengungkapkan alamat IP, tunjukkan bendera negara dari alamat IP penulis post.",
+                "show_flag_help": "Tanpa mengungkapkan alamat IP, tampilkan bendera negara dari alamat IP penulis post, ketika pengguna memilih melalui preferensi mereka.",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Gunakan <b>https://ipstack.com</b> untuk melakukan hingga 10.000 pencarian per bulan secara gratis. Paket berbayar mencakup info tentang koneksi (ISP, organisasi) dan tingkat ancaman.",
                 "security_label": "Modul Keamanan (butuh professional plus)"
