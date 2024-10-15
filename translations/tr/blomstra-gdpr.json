@@ -123,50 +123,50 @@
             "delete_user": {
                 "title": "{username} adlı kullanıcının hesabını sil",
                 "text": "{username}'in hesabını silmek istediğinizden emin misiniz?\n\nBu eylem geri alınamaz.\n",
-                "modal_delete_button": "",
-                "delete_button": ""
+                "modal_delete_button": "Varsayılan eylemi kullanarak sil",
+                "delete_button": "Sil"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Bekleyen hesap silme talebi yok",
+                "item_text": "{name} hesabın silinmesini talep etti",
+                "tooltip": "Hesap Silme Talepleri",
+                "title": "Hesap Silme Talepleri"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Hesap silme talebinizi onayladınız. GDPR'nin gerektirdiği şekilde 30 gün içinde işlem yapılacaktır.",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Kişisel veri"
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "Verilerinizi Dışa Aktarın",
+                "export_data_help": "Veri dışa aktarımını talep etmek, hesabınızla ilişkili tüm bilgilerin indirilebilir bir kopyasını sağlayacaktır. Buna gönderiler, yorumlar ve profil ayrıntıları dahildir.",
+                "request_erasure_button": "Hesabı Silin",
+                "request_erasure_help": "Silme talebinde bulunmak hesabınızı ve ilişkili tüm verileri kalıcı olarak silecektir. Bu eylem geri alınamaz. Devam etmeden önce, saklamak istediğiniz tüm içerikleri kaydettiğinizden emin olun."
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "confirm": "{name} adlı kişinin hesabını {mode} modunda silmek istediğinizden emin misiniz?",
+                "title": "Silme isteğini işle",
+                "text": "{name} hesabının silinmesini talep etti.",
+                "comments_label": "Yorumlar (isteğe bağlı)",
+                "anonymization_button": "Kullanıcıyı anonimleştir",
+                "deletion_button": "Kullanıcıyı sil"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Hesap silme talebi",
+                "reason": "Aşağıdaki nedeni belirttiniz: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Hesabınızın silinmesi talebinizi onaylamak için bir e-posta almış olmalısınız.\n",
+                    "user_confirmed": "Hesap silme talebinizi onayladınız. GDPR'nin gerektirdiği şekilde 30 gün içinde işlem yapılacaktır.\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "Talebiniz alındıktan ve onaylandıktan sonra, GDPR'nin gerektirdiği şekilde 30 gün içinde bir yönetici tarafından incelenecektir.",
+                "password_label": "Şifrenizi Doğrulayın",
+                "reason_label": "Sebep (isteğe bağlı)",
+                "cancel_button": "İsteği iptal et",
+                "request_button": "Silme isteği"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "{username} için veri aktarımınız artık indirilmeye hazır."
             },
-            "export_file": ""
+            "export_file": "{forumTitle}'dan ({url}) {date} tarihinde hazırlanan {username} ({email}) için kullanıcı verilerinin dışa aktarımı"
         }
     }
 }
