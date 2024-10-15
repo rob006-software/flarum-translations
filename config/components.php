@@ -1368,7 +1368,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.7.0/resources/locale/en.yml',
 	],
 	'webbinaro-gpx-preview' => [
-		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-gpx-preview/2.0.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-gpx-preview/2.0.5/resources/locale/en.yml',
 	],
 	'widayn-avatar-cropper' => [
 		'tag' => 'https://raw.githubusercontent.com/WiDayn/flarum-avatar-cropper/v0.1.2/resources/locale/en.yml',
