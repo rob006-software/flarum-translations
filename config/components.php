@@ -1389,7 +1389,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-answer-bounty/v1.0.5/locale/en.yml',
 	],
 	'xypp-forum-quests' => [
-		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v2.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v2.0.4/locale/en.yml',
 	],
 	'xypp-invite-user' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-invite-user/v1.1.0/locale/en.yml',
