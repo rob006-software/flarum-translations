@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél",
                 "allow_image_uploads": "Képfeltöltés engedélyezése a szavazásoknál és azok lehetőségeinél",
                 "allow_image_uploads_help": "Ha engedélyezve van, a felhasználók képeket tölthetnek fel, valamint képre mutató webcímet adhatnak meg (ha engedélyezve van a lehetőségeknél, magánál a szavazásnál mindig engedélyezve van).",

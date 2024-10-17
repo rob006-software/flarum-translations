@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "Her anket seçeneği için bir resim URL'sinin sağlanmasına izin ver",
                 "allow_image_uploads": "Anketler ve seçenekleri için resim yüklemeye izin ver",
                 "allow_image_uploads_help": "Etkinleştirilirse, kullanıcılar resim yüklemenin yanı sıra bir resim URL'si de sağlayabilirler (seçenekler için etkinleştirilirse, anketin kendisi için her zaman etkinleştirilir).",

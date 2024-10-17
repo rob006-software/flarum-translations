@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "Izinkan URL gambar disediakan untuk setiap opsi polling",
                 "allow_image_uploads": "Izinkan unggahan gambar untuk polling dan pilihannya",
                 "allow_image_uploads_help": "Jika diaktifkan, pengguna akan dapat mengunggah gambar di samping memberikan URL gambar (jika diaktifkan untuk opsi, selalu diaktifkan untuk polling itu sendiri).",

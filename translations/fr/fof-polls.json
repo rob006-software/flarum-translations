@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "Permettre de fournir l'URL d'une image pour chaque option de sondage",
                 "allow_image_uploads": "Autoriser le téléchargement d'images pour les sondages et leurs options",
                 "allow_image_uploads_help": "Si cette option est activée, les utilisateurs pourront télécharger des images en fournissant également l'URL de l'image (si cette option est activée pour les options, elle est toujours activée pour le sondage lui-même).",

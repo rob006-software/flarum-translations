@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "Salli kuvan osoitteen asettaminen jokaiseen kyselyn vaihtoehtoon",
                 "allow_image_uploads": "Salli kuvien siirto kyselyihin ja valintoihin",
                 "allow_image_uploads_help": "Mikäli käytössä, käyttäjät voivat siirtää kuvia antamalla kuvan osoitteen (jos käytössä valinnoille, aina käytössä kyselylle).",

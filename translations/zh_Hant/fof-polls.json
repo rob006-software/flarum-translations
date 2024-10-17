@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "允許圖片選項",
                 "allow_image_uploads": "允許民意調查及其選項上傳圖像",
                 "allow_image_uploads_help": "如果啟用，用戶將能夠上傳圖像並提供圖像 URL（如果為選項啟用，則始終為投票本身啟用）。",
