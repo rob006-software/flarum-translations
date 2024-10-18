@@ -3,11 +3,11 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "desc": "Отримати ключ API можна за посиланням <a>https://opencollective.com/applications</a>.",
-                "use_legacy_api_key_label": "",
-                "use_legacy_api_key_help": "",
-                "api_key_label": "Ключ API",
-                "personal_token_label": "",
+                "desc": "Отримайте свій персональний токен з <a>https://opencollective.com/dashboard</a> у розділі Налаштування > Для розробників. Не обирайте жодних додаткових діапазонів - залиште порожній вибір за налаштуванням.\n",
+                "use_legacy_api_key_label": "Використання ключа API застарілих додатків",
+                "use_legacy_api_key_help": "Якщо у вас є застарілий ключ API, ви можете продовжувати використовувати його, але рекомендується перейти на персональний токен. В даний час персональні токени, здається, працюють в режимі ключа API (тобто заголовок \"API-Key\"), але це не задокументовано.\n",
+                "api_key_label": "Ключ API додатку (застарілий)",
+                "personal_token_label": "Персональний токен",
                 "slug_label": "Шлях Collective",
                 "group_label": "Група призначення"
             }
