@@ -1099,6 +1099,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-youtube-video-feed`](https://weblate.rob006.net/projects/flarum/justoverclock-youtube-video-feed) | [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed) |
 | [`katosdev-signature`](https://weblate.rob006.net/projects/flarum/katosdev-signature) | [`katosdev/signature`](https://github.com/katosdev/signature) |
 | [`kilowhat-audit-free`](https://weblate.rob006.net/projects/flarum/kilowhat-audit-free) | [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free) |
+| [`krombox-oauth-wordpress`](https://weblate.rob006.net/projects/flarum/krombox-oauth-wordpress) | [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress) |
 | [`kyrne-evergreen`](https://weblate.rob006.net/projects/flarum/kyrne-evergreen) | [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen) |
 | [`kyrne-websocket`](https://weblate.rob006.net/projects/flarum/kyrne-websocket) | [`kyrne/websocket`](https://github.com/KyrneDev/websocket) |
 | [`kyrne-whisper`](https://weblate.rob006.net/projects/flarum/kyrne-whisper) | [`kyrne/whisper`](https://github.com/KyrneDev/whisper) |
