@@ -1,0 +1,29 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "wordpress": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": "",
+                        "domain_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_wordpress_button": ""
+            },
+            "providers": {
+                "wordpress": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "wordpress": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "wordpress": {
+                        "description": "Connect your WordPress users with Flarum",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "domain_label": "Domain"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_wordpress_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "wordpress": "=> fof-oauth.lib.providers.wordpress"
+            }
+        },
+        "lib": {
+            "providers": {
+                "wordpress": "WordPress"
+            }
+        }
+    }
+}
