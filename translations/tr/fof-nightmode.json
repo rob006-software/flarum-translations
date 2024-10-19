@@ -7,8 +7,13 @@
         },
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
                 "modal": {
                     "always_show_theme_toggle_on_header": "Tema değiştirme düğmesini her zaman forum başlığında göster",
+                    "show_theme_toggle_in_solid": "",
                     "default_theme": "Varsayılan forum teması",
                     "default_theme_helper": "Varsayılan tema, yeni kullanıcılar, misafirler ve tercihi ayarlanmamış olanlar için otomatik olarak ayarlanır.",
                     "theme_auto": "=> fof-nightmode.ref.auto",

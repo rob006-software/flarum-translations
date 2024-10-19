@@ -7,8 +7,13 @@
         },
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
                 "modal": {
                     "always_show_theme_toggle_on_header": "Vždy ukazovať v hlavičke fóra tlačidlo na prepnutie témy",
+                    "show_theme_toggle_in_solid": "",
                     "default_theme": "Predvolená téma fóra",
                     "default_theme_helper": "Predvolená téma sa nastaví pre nových používateľov a tých čo ešte nemajú žiadnu nastavenú.",
                     "theme_auto": "=> fof-nightmode.ref.auto",

@@ -7,8 +7,13 @@
         },
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
                 "modal": {
                     "always_show_theme_toggle_on_header": "Mostra sempre el botó de canvi de tema a la capçalera del fòrum",
+                    "show_theme_toggle_in_solid": "",
                     "default_theme": "Tema per defecte del fòrum",
                     "default_theme_helper": "El tema per defecte s'activa automàticament per a nous usuaris, convidats i aquells que encara no han definit quin tema prefereixen.",
                     "theme_auto": "=> fof-nightmode.ref.auto",

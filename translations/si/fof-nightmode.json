@@ -7,8 +7,13 @@
         },
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
                 "modal": {
                     "always_show_theme_toggle_on_header": "",
+                    "show_theme_toggle_in_solid": "",
                     "default_theme": "",
                     "default_theme_helper": "",
                     "theme_auto": "=> fof-nightmode.ref.auto",
