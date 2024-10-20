@@ -5,7 +5,14 @@
                 "see_country": ""
             },
             "settings": {
-                "title": "FriendsOfFlarum GeoIP",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
                 "service_label": "Dịch vụ",
                 "service_ipdata_label": "IPData",
                 "service_ipdata_description": "Sử dụng <b>https://ipdata.co</b> để thực hiện miễn phí tới 1.500 tra cứu hàng ngày.",
@@ -21,6 +28,7 @@
                 "quota_label": "",
                 "show_flag_label": "",
                 "show_flag_help": "",
+                "title": "FriendsOfFlarum GeoIP",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Sử dụng <b>https://ipstack.com</b> để thực hiện miễn phí tới 10.000 tra cứu mỗi tháng. Các gói trả phí bao gồm thông tin kết nối (ISP, tổ chức) và mức độ nguy hiểm.",
                 "security_label": "Mô-đun bảo mật (yêu cầu chuyên nghiệp cao)",
@@ -32,6 +40,7 @@
             "alerts": {
                 "ip_copied": "Đã sao chép địa chỉ IP"
             },
+            "copy_ip_label": "",
             "map_button_label": "",
             "map_modal": {
                 "title": "",

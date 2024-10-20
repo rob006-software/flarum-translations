@@ -5,7 +5,14 @@
                 "see_country": ""
             },
             "settings": {
-                "title": "FriendsOFFlarum GeoIP",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
                 "service_label": "",
                 "service_ipdata_label": "",
                 "service_ipdata_description": "",
@@ -20,13 +27,15 @@
                 "access_key_label": "",
                 "quota_label": "",
                 "show_flag_label": "",
-                "show_flag_help": ""
+                "show_flag_help": "",
+                "title": "FriendsOFFlarum GeoIP"
             }
         },
         "forum": {
             "alerts": {
                 "ip_copied": ""
             },
+            "copy_ip_label": "",
             "map_button_label": "",
             "map_modal": {
                 "title": "",

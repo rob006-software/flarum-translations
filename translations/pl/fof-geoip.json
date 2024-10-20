@@ -5,7 +5,14 @@
                 "see_country": ""
             },
             "settings": {
-                "title": "FriendsOfFlarum GeoIP",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
                 "service_label": "Usługa",
                 "service_ipdata_label": "IPData",
                 "service_ipdata_description": "Użyj <b>https://ipdata.co</b>, aby sprawdzić do 1 500 IP dziennie, całkiem za darmo. Dostępne są również płatne plany z wyższymi limitami użytkowania.",
@@ -21,6 +28,7 @@
                 "quota_label": "",
                 "show_flag_label": "",
                 "show_flag_help": "",
+                "title": "FriendsOfFlarum GeoIP",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Użyj <b>https://ipstack.com</b>, aby sprawdzić do 10 000 IP na miesiąc, w ramach darmowego pakietu. Płatne plany zawierają informacje o połączeniu (ISP, organizacja) oraz poziomie zagrożenia.",
                 "security_label": "Security Module (wymaga planu Professional Plus)",
@@ -32,6 +40,7 @@
             "alerts": {
                 "ip_copied": "Skopiowano adres IP"
             },
+            "copy_ip_label": "",
             "map_button_label": "Informacje o IP",
             "map_modal": {
                 "title": "Informacje o IP",

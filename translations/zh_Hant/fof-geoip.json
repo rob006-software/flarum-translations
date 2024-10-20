@@ -5,7 +5,14 @@
                 "see_country": ""
             },
             "settings": {
-                "title": "FoF GeoIP",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
                 "service_label": "服務",
                 "service_ipdata_label": "IPData",
                 "service_ipdata_description": "<b>https://ipdata.co</b>，每日免費檢索 1,500 次。也提供更高使用限制的付費方案。",
@@ -21,6 +28,7 @@
                 "quota_label": "尋找配額",
                 "show_flag_label": "",
                 "show_flag_help": "",
+                "title": "FoF GeoIP",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "<b>https://ipstack.com</b>，每月免費檢索 10,000 次，付費方案包含連線資訊（ISP、組織）以及威脅等級。",
                 "security_label": "安全模塊（需要 professional plus）"
@@ -30,6 +38,7 @@
             "alerts": {
                 "ip_copied": "已複製 IP 地址"
             },
+            "copy_ip_label": "",
             "map_button_label": "IP 資訊",
             "map_modal": {
                 "title": "IP 訊息",

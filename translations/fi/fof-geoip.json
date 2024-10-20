@@ -5,7 +5,14 @@
                 "see_country": ""
             },
             "settings": {
-                "title": "FriendsOfFlarum GeoIP",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
                 "service_label": "Palvelu",
                 "service_ipdata_label": "IPData",
                 "service_ipdata_description": "Käytä <b>https://ipdata.co</b> tehdäksesi jopa 1 500 tarkistusta päivittäin ilmaiseksi. Saatavilla myös maksullisia tilauksia isoimmille määrille.",
@@ -21,6 +28,7 @@
                 "quota_label": "Tarkistus raja",
                 "show_flag_label": "Näytä maan lippu jokaisessa viestissä",
                 "show_flag_help": "Ilman IP osoitetta, näytetään viestin kirjoittajan IP osoitteen mukainen lippu.",
+                "title": "FriendsOfFlarum GeoIP",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Käytä <b>https://ipstack.com</b> saadaksesi jopa 10 000 tarkistusta per kuukausi ilmaiseksi. Maksulliset suunnitelmat sisältävät yhteyden tietoa (ISP, organisaatio) sekä uhka-arvion.",
                 "security_label": "Turvallisuus moduuli (Security Module) (vaatii professional plus)",
@@ -32,6 +40,7 @@
             "alerts": {
                 "ip_copied": "Kopioitu IP-osoite"
             },
+            "copy_ip_label": "",
             "map_button_label": "IP tiedot",
             "map_modal": {
                 "title": "IP tieto",

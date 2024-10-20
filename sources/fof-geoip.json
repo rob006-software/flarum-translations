@@ -5,7 +5,14 @@
                 "see_country": "Always display the country of the IP address"
             },
             "settings": {
-                "title": "FriendsOfFlarum GeoIP",
+                "general": {
+                    "heading": "General Settings",
+                    "help": "These settings control the general behavior of the extension."
+                },
+                "providers": {
+                    "heading": "IP Lookup Service",
+                    "help": "Choose a service to use for IP lookups. Some services have rate limits, so be sure to check the service's documentation for more information."
+                },
                 "service_label": "Service",
                 "service_ipdata_label": "IPData",
                 "service_ipdata_description": "Use <b>https://ipdata.co</b> to make up to 1,500 lookups daily for free. Paid plans for higher usage limits are also available.",
@@ -27,6 +34,7 @@
             "alerts": {
                 "ip_copied": "Copied IP Address"
             },
+            "copy_ip_label": "Copy IP to clipboard",
             "map_button_label": "IP Info",
             "map_modal": {
                 "title": "IP Information",

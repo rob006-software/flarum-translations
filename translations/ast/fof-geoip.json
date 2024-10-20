@@ -5,7 +5,14 @@
                 "see_country": ""
             },
             "settings": {
-                "title": "",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
                 "service_label": "",
                 "service_ipdata_label": "",
                 "service_ipdata_description": "",
@@ -27,6 +34,7 @@
             "alerts": {
                 "ip_copied": ""
             },
+            "copy_ip_label": "",
             "map_button_label": "",
             "map_modal": {
                 "title": "",
