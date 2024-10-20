@@ -435,29 +435,29 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Den gamle tittelen var: \"{old}\"",
-                "discussion_renamed_text": "",
-                "load_more_button": "",
-                "reply_placeholder": "",
-                "time_lapsed_text": ""
+                "discussion_renamed_text": "{username} endret tittelen til {new} {time}.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} senere"
             },
             "rename_discussion": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.rename",
+                "title": "Endre diskusjonens navn"
             },
             "search": {
-                "all_discussions_button": "",
-                "discussions_heading": "",
-                "users_heading": ""
+                "all_discussions_button": "Søk alle diskusjoner etter \"{query}\"",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{browser} i {os}",
+                "cannot_terminate_current_session": "Kan ikke terminere den nåværende aktive økten. Logg ut i stedet.",
+                "created": "Opprettet",
+                "current_active_session": "Nåværende aktive økt",
+                "developer_tokens_heading": "Utvikler-\"tokens\"",
+                "empty_text": "Her er det visst ingenting å se.",
                 "global_logout": {
-                    "heading": "",
+                    "heading": "Global utlogging",
                     "help_text": "",
                     "log_out_button": ""
                 },
