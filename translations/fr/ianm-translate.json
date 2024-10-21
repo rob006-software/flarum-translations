@@ -2,8 +2,13 @@
     "ianm-translate": {
         "admin": {
             "glossary": {
-                "glossary": "Glossaire",
-                "create_button": "Créer un nouveau terme"
+                "button": "",
+                "create_button": "Créer un nouveau terme",
+                "section": {
+                    "heading": "",
+                    "help": ""
+                },
+                "glossary": "Glossaire"
             },
             "permission": {
                 "refresh-translation": "Forcer une retraduction d'une traduction mise en cache",
@@ -13,6 +18,15 @@
                 "translate": "Voir les traductions"
             },
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
+                "button": "",
                 "seemless": "Traduction en continu",
                 "seemless-help": "Fonctionnalité bêta. Lorsqu'elle est activée, tout le contenu des utilisateurs est traduit automatiquement dans toutes les autres langues disponibles sur le forum. Lorsqu'un utilisateur consulte un contenu multilingue, les traductions s'affichent automatiquement.",
                 "deepl": {

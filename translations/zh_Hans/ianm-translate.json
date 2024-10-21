@@ -2,8 +2,12 @@
     "ianm-translate": {
         "admin": {
             "glossary": {
-                "glossary": "",
-                "create_button": ""
+                "button": "",
+                "create_button": "",
+                "section": {
+                    "heading": "",
+                    "help": ""
+                }
             },
             "permission": {
                 "refresh-translation": "强制重新翻译缓存的译文",
@@ -13,6 +17,15 @@
                 "translate": "查看翻译"
             },
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
+                "button": "",
                 "seemless": "自动翻译",
                 "seemless-help": "测试功能。启用此项，自动翻译所有用户内容为论坛可选语言。用户查看多语言内容时，自动显示译文。",
                 "deepl": {

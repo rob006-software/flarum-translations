@@ -2,8 +2,12 @@
     "ianm-translate": {
         "admin": {
             "glossary": {
-                "glossary": "Glossary",
-                "create_button": "Create new term"
+                "button": "Glossary",
+                "create_button": "Create new term",
+                "section": {
+                    "heading": "Glossary Configuration",
+                    "help": "Glossary words or terms are defined so that the translation service will not translate them. This is useful for proper nouns, technical terms, or other words that should not be translated."
+                }
             },
             "permission": {
                 "refresh-translation": "Force a re-translate of a cached translation",
@@ -12,6 +16,15 @@
                 "edit-translation": "Manually edit a translation"
             },
             "settings": {
+                "general": {
+                    "heading": "General Settings",
+                    "help": "These settings control the general behavior of the translation system."
+                },
+                "providers": {
+                    "heading": "Translation Provider Settings",
+                    "help": "Select your preferred translation provider and configure its settings here."
+                },
+                "button": "Settings",
                 "seemless": "Seamless Translation",
                 "seemless-help": "Beta feature. When enabled, all user content will be translated automatically to all other available forum languages. When a user views multi-language content, translations will be displayed automaticlly.",
                 "deepl": {
