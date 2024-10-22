@@ -789,7 +789,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/gravatar/0.2.1/resources/locale/en.yml',
 	],
 	'ianm-html-head' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/html-head/1.2.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/html-head/1.2.4/resources/locale/en.yml',
 	],
 	'ianm-level-ranks' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/level-ranks/1.1.1/resources/locale/en.yml',
