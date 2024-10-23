@@ -190,6 +190,7 @@ return [
 		'!foskym-oauth-center',
 		'!foskym-sorts-for-user-directory',
 		'!gbcl-minecraft-oauth',
+		'!gbcl-oauth-logto',
 		'!gbcl-userip',
 		'!huoxin-auto-follow-discussion',
 		'!imdong-spam-alert',

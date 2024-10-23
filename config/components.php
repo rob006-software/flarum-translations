@@ -755,6 +755,9 @@ return [
 	'gbcl-minecraft-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/GBCLStudio/Flarum-MinecraftAuth/1.0.0/locale/en.yml',
 	],
+	'gbcl-oauth-logto' => [
+		'tag' => 'https://raw.githubusercontent.com/GBCLStudio/flarum-oauth-logto/1.0/locale/en.yml',
+	],
 	'gbcl-userip' => [
 		'tag' => 'https://raw.githubusercontent.com/GBCLStudio/userip/1.1.0/resources/locale/en.yml',
 	],
