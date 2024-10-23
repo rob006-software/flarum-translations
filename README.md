@@ -1023,6 +1023,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`foskym-nickname-group-formatter`](https://weblate.rob006.net/projects/flarum/foskym-nickname-group-formatter) | [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter) |
 | [`ganuonglachanh-sonic`](https://weblate.rob006.net/projects/flarum/ganuonglachanh-sonic) | [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic) |
 | [`gbcl-minecraft-oauth`](https://weblate.rob006.net/projects/flarum/gbcl-minecraft-oauth) | [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth) |
+| [`gbcl-oauth-logto`](https://weblate.rob006.net/projects/flarum/gbcl-oauth-logto) | [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto) |
 | [`gbcl-userip`](https://weblate.rob006.net/projects/flarum/gbcl-userip) | [`gbcl/userip`](https://github.com/GBCLStudio/userip) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`glowingblue-redis-setup`](https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup) | [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup) |
