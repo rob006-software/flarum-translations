@@ -1154,6 +1154,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`neoncube-private-messages`](https://weblate.rob006.net/projects/flarum/neoncube-private-messages) | [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages) |
 | [`nodeloc-dislikes`](https://weblate.rob006.net/projects/flarum/nodeloc-dislikes) | [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes) |
 | [`nodeloc-my-emoji`](https://weblate.rob006.net/projects/flarum/nodeloc-my-emoji) | [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji) |
+| [`nodeloc-referral`](https://weblate.rob006.net/projects/flarum/nodeloc-referral) | [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral) |
 | [`nodeloc-lottery`](https://weblate.rob006.net/projects/flarum/nodeloc-lottery) | [`nodeloc/lottery`](https://github.com/nodeloc/lottery) |
 | [`nodeloc-telegram`](https://weblate.rob006.net/projects/flarum/nodeloc-telegram) | [`nodeloc/telegram`](https://github.com/nodeloc/telegram) |
 | [`nodeloc-whisper`](https://weblate.rob006.net/projects/flarum/nodeloc-whisper) | [`nodeloc/whisper`](https://github.com/nodeloc/whisper) |
