@@ -12,14 +12,14 @@
         },
         "lib": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Başka bir kullanıcı olarak giriş yap",
+                "label": "Büyük güç büyük sorumluluk getirir. Devam ederek, çıkış yapana kadar {username} olacaksınız.",
+                "placeholder_optional": "(İsteğe bağlı) Bu kullanıcıya geçme nedeninizi belirtin",
+                "placeholder_required": "Devam etmeden önce bu kullanıcıya geçme nedeninizi belirtmelisiniz",
+                "impersonate_username": "{username} olarak giriş yapın"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Kullanıcı olarak giriş yap"
             }
         },
         "forum": {
