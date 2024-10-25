@@ -1056,7 +1056,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/whisper/0.1.4/resources/locale/en.yml',
 	],
 	'lewuocvi-knox-checker' => [
-		'tag' => 'https://raw.githubusercontent.com/lewuocvi/flarum-knox-checker/2.4.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/lewuocvi/flarum-knox-checker/2.4.6/locale/en.yml',
 	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
