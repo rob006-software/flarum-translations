@@ -21,9 +21,9 @@
                 "auto-review-username": "Tinjau pengguna secara otomatis",
                 "auto-review-username-help": "Ketika peninjauan otomatis diaktifkan, sistem akan memeriksa kueri pengguna yang dimasukkan",
                 "mail-template": "Halo [user], Kode undangan Anda adalah [code]",
-                "group-blacklist-view": "",
-                "group": "",
-                "group-help": ""
+                "group-blacklist-view": "Grup daftar hitam pengguna (pengguna dalam grup ini tidak akan dapat membeli produk)",
+                "group": "Daftarkan Grup Pengguna",
+                "group-help": "Setelah mendaftar, pengguna secara default menjadi anggota grup pengguna"
             }
         },
         "forum": {
@@ -57,8 +57,8 @@
                 "email-inconsistency": "Email dan informasi undangan tidak sama. Silakan gunakan email yang menerima kode undangan",
                 "username-inconsistency": "Username tidak sesuai dengan informasi undangan. Silakan lakukan pendaftaran menggunakan username yang diberikan dalam email",
                 "exception": "Tinjauan otomatis gagal [{message}]",
-                "email-not-exist": "",
-                "link-not-exist": ""
+                "email-not-exist": "Email tidak boleh kosong",
+                "link-not-exist": "tautan undangan tidak boleh kosong"
             }
         },
         "lib": {
@@ -79,9 +79,9 @@
             "item-status-adopt": "diterapkan",
             "item-status-refuse": "ditolak",
             "item-query": "Cari berdasarkan pengundang/penerima/email",
-            "item-total-num": "",
-            "item-pass-total-num": "",
-            "item-invite-code": ""
+            "item-total-num": "Akumulasi jumlah pengiriman",
+            "item-pass-total-num": "Akumulasi jumlah pengiriman yang lolos",
+            "item-invite-code": "Undangan"
         }
     }
 }
