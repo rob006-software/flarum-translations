@@ -12,14 +12,14 @@
         },
         "lib": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Login sebagai pengguna lain",
+                "label": "Dengan kekuatan besar datang tanggung jawab besar. Dengan melanjutkan, Anda akan menjadi {username} sampai Anda logout.",
+                "placeholder_optional": "(Opsional) Berikan alasan Anda untuk beralih ke pengguna ini",
+                "placeholder_required": "Anda harus memberikan alasan Anda untuk beralih ke pengguna ini sebelum melanjutkan",
+                "impersonate_username": "Login sebagai {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Beralih sebagai pengguna lain"
             }
         },
         "forum": {
