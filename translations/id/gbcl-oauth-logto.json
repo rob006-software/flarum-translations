@@ -4,25 +4,25 @@
             "settings": {
                 "providers": {
                     "logto": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "logto_domain_label": ""
+                        "description": "Daftarkan forum Anda dengan Logto {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "logto_domain_label": "Url Aplikasi Logto Anda (Tidak termasuk Protokol HTTP)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_logto_button": ""
+                "with_logto_button": "Masuk dengan Logto"
             },
             "providers": {
-                "logto": ""
+                "logto": "=> fof-oauth.lib.providers.logto"
             }
         },
         "lib": {
             "providers": {
-                "logto": ""
+                "logto": "Logto"
             }
         }
     }
