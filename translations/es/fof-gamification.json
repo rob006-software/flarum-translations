@@ -2,28 +2,28 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "Tendencia",
+                "votes_button": "Votos positivos"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Votos",
+            "vote_title": "Mostrar quién votó",
             "nav": {
-                "name": ""
+                "name": "Clasificación"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Posición",
+                "name": "Usuario",
+                "amount": "Puntos"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} votó positivamente tu publicación",
+                "downvote": "{username} votó negativamente tu publicación",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Cuando una de mis publicaciones ha sido votada positivamente/negativamente"
                 }
             },
             "user": {
@@ -31,69 +31,69 @@
                     "points": ""
                 },
                 "rank": "",
-                "votes_link": ""
+                "votes_link": "Votaciones"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Votantes negativos:",
+                "title": "Votantes",
+                "upvotes_label": "Votantes positivos:"
             },
-            "mod_item": "",
+            "mod_item": "Ver votantes",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Ningún votante todavía",
+                "label": "Votantes",
+                "label_none": "Sin votantes"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Votar positivamente la publicación",
+                "downvote_button": "Votar negativamente la publicación"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "Votar positivamente/negativamente la publicación",
+                "see_votes_label": "Ver recuento de votos positivos/negativos",
+                "see_voters_label": "Ver quién votó",
+                "see_ranking_page": "Ver página de clasificación",
+                "upvote_notifications": "Recibir notificaciones sobre votos positivos",
+                "downvote_notifications": "Recibir notificaciones sobre votos negativos"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "admin, usuario1, usuario2",
+                        "title": "Usuarios ignorados",
+                        "help": "Estos usuarios no se mostrarán en la página de clasificación. Los nombres de usuarios deben estar separados por una coma seguida de un espacio."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Página de clasificación",
+                    "enable": "Habilitar imágenes personalizadas",
+                    "custom_image_1": "Imagen 1ª posición",
+                    "custom_image_2": "Imagen 2ª posición",
+                    "custom_image_3": "Imagen 3ª posición"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Nombre del icono de diseño alternativo"
                 },
                 "votes": {
                     "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
-                    "upvotes_only": "",
-                    "first_post_only": "",
-                    "allow_self_votes": ""
+                    "points_placeholder": "Puntos: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Votar automáticamente las publicaciones cuando se publiquen",
+                    "rate_limit": "Forzar un límite de frecuencia de votación (10 segundos)",
+                    "discussion_page": "Mostrar el total de votos de la publicación original en la lista de discusiones",
+                    "alternate_layout": "Utiliza un diseño de votación alternativo en la lista de discusiones",
+                    "alternate_post_layout": "Utiliza un diseño de votación alternativo en las publicaciones",
+                    "title": "Votaciones",
+                    "vote_color": "Color votado",
+                    "icon_name": "Icono de voto positivo/negativo",
+                    "icon_help": "Coloca cualquier icono de Font-Awesome con el sufijo -up y -down. Ejemplos: arrow, thumbs, chevron",
+                    "upvotes_only": "Permitir solo votos positivos",
+                    "first_post_only": "Permitir votos positivos/negativos únicamente en la primera publicación de una discusión",
+                    "allow_self_votes": "Los usuarios pueden votar en sus propias publicaciones"
                 },
-                "save_settings": "",
+                "save_settings": "Guardar configuración",
                 "convert": {
-                    "button": "",
+                    "button": "Convertir Me gustas en votos positivos",
                     "help": "",
                     "converting": "",
                     "converted": ""
