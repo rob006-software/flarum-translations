@@ -36,8 +36,8 @@
                 "terms-updated-at-help": "Tanggal perubahan persyaratan terbaru. Menentukan nilai ini akan mengharuskan semua pengguna yang menerima sebelum tanggal tersebut untuk menerima lagi. Harus di waktu sebelumnya (jika tidak, pengguna tidak akan pernah bisa menerima setelah tanggal tersebut dan dapat melewati modal).\n",
                 "export-url": "URL Ekspor",
                 "export-url-help": "Setiap pengguna yang memiliki izin \"Ekspor semua data kebijakan\" dapat mengakses URL tersebut untuk men-download daftar pengguna yang menerima kebijakan ini. Anda dapat menemukan detail lebih lanjut tentang opsi yang tersedia di <a>wiki ekstensi</a>.\n",
-                "optional": "",
-                "optional-help": ""
+                "optional": "Kebijakan Opsional",
+                "optional-help": "Jika diaktifkan, pengguna dapat menggunakan dan berinteraksi dengan forum tanpa menerima kebijakan ini."
             },
             "permissions": {
                 "see-user-policies-state": "Melihat pernyataan kebijakan pengguna",
