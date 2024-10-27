@@ -2,36 +2,36 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Editar cumpleaños propio",
+                "view_birthday_label": "Ver cumpleaños"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Permitir configurar cumpleaños al registrarse",
+                "required_label": "Es obligatorio introducir la fecha de nacimiento",
+                "required_help": "Habilita la opción Establecer al registrarse para que esta opción funcione",
+                "min_age_label": "Edad mínima",
+                "min_age_help": "Edad mínima para registrarse",
+                "date_format_label": "Formato de fecha",
+                "date_format_help": "Utiliza el formato de fecha <a>dayjs</a>. Déjalo en blanco para utilizar el formato predeterminado.",
+                "date_none_year_label": "Formato de fecha sin año"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Cumpleaños: {date}",
+                "age_text": "Edad: {age}"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "title": "Editar fecha de nacimiento",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "change_dob_label": "Cambiar fecha de nacimiento",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Mostrar día y mes de nacimiento",
+                "show_dob_year_label": "Mostrar año de nacimiento",
+                "show_dob_year_help": "Permitir que los demás vean tu edad."
             },
             "edit_user": {
                 "dob_heading": ""
