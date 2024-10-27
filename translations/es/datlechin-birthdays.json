@@ -34,25 +34,25 @@
                 "show_dob_year_help": "Permitir que los demás vean tu edad."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Cumpleaños de hoy"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Discusión: #} other {Discusiones: #}}",
+                "post_count": "{count, plural, one {Publicación: #} other {Publicaciones: #}}"
             },
             "sign_up": {
-                "dob_placeholder": ""
+                "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Fecha de nacimiento inválida",
+            "invalid_age_message": "Tu edad debe ser al menos {minAge} años."
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Fecha de nacimiento"
         }
     }
 }
