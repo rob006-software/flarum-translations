@@ -103,25 +103,25 @@
                 "badge-icon": "Insignia de discusión de Byobu",
                 "enable-make-public-option": "Habilitar la capacidad de \"hacer público\"",
                 "enable-make-public-option-help": "Agrega la posibilidad para aquellos con permiso de eliminar todos los destinatarios, asignar una nueva etiqueta y hacer que la discusión sea visible públicamente (de acuerdo con la configuración de visibilidad de la etiqueta elegida).",
-                "post-event-icon": "",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "post-event-icon": "Eventos de publicación de Byobu",
+                "delete_on_last_recipient_left": "Eliminar DP cuando el último usuario se va",
+                "delete_on_last_recipient_left_help": "Si se habilita esta opción, las DPs se eliminarán de forma permanente de la base de datos cuando el último usuario se vaya. De lo contrario, la DP se eliminará temporalmente o se ocultará.",
+                "hide_from_all_discussions_page": "Ocultar las DP de la página \"Todas las discusiones\"",
+                "hide_from_all_discussions_page_help": "Las discusiones privadas solo serán accesibles desde la página \"Discusiones privadas\" o el perfil del usuario"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Discusión privada] {display_name} inició una nueva discusión privada contigo",
+                "private_discussion_replied": "[Discusión privada] {display_name} publicó en una discusión privada",
+                "recipient_removed": "[Discusión privada] {display_name} abandonó la discusión",
+                "private_discussion_added": "[Discusión privada] {display_name} te agregó a una discusión privada"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Ey {recipient_display_name},\n\n{actor_display_name} inició una nueva discusión privada contigo como destinatario: {discussion_title}.\n\nPuedes verla aquí:\n{discussion_url}\n\nEs posible que tengas que iniciar sesión antes de poder acceder a este enlace.\n",
+                "private_discussion_replied": "Ey {recipient_display_name},\n\n{actor_display_name} publicó una publicación en una discusión privada en la que tú eres el destinatario: {discussion_title}.\n\nPuedes verla aquí:\n{post_url}\n\nEs posible que primero debas iniciar sesión antes de poder acceder a este enlace.\n",
+                "recipient_removed": "Ey {recipient_display_name},\n\n{actor_display_name} abandonó la discusión privada: {discussion_title}. Ya no podrá ver su contenido.\n\nPuedes verla aquí:\n{discussion_url}\n\nEs posible que tengas que iniciar sesión antes de poder acceder a este enlace.\n",
+                "private_discussion_added": "Ey {recipient_display_name},\n\n{actor_display_name} te agregó a una discusión privada existente: {discussion_title}.\n\nMírala aquí:\n{discussion_url}\n\nEs posible que debas iniciar sesión antes de poder acceder a este enlace.\n"
             }
         }
     }
