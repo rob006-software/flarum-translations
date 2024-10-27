@@ -12,7 +12,7 @@
             "modal_resetviews": {
                 "title": "Restablecer el recuento de visitas de discusión",
                 "submit_button": "Sí, eliminar todo",
-                "label": ""
+                "label": "{count, plural, one {Esto eliminará {count} vista de esta discusión. ¿Continuar?} other {Esto eliminará {count} vistas de esta discusión. ¿Continuar?}}"
             },
             "discussion_controls": {
                 "resetviews_button": "Restablecer vistas"
@@ -25,23 +25,23 @@
                 "viewed_by": "{users} vieron esto.",
                 "you": "=> core.ref.you",
                 "others_link": "=> core.ref.some_others",
-                "modal_title_text": ""
+                "modal_title_text": "Usuarios que vieron esta discusión por última vez"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Reiniciar visitas de discusión",
+                "view_number_label": "Ver el recuento de visitas de la discusión"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "track_unique_text": "",
-                "track_guests_label": "",
-                "abbr_numbers_label": "",
-                "abbr_numbers_text": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
+                "title": "Configuración de visitas de discusión",
+                "track_unique_label": "Rastrear visitas únicas",
+                "track_unique_text": "Aumenta las visualizaciones según la dirección IP",
+                "track_guests_label": "Rastrear invitados",
+                "abbr_numbers_label": "Abreviar números de visitas",
+                "abbr_numbers_text": "Si está habilitado, los números de visualización altos se abreviarán (por ejemplo, 1000 = 1K)",
+                "show_filter_label": "Habilitar campo de ordenación (im)popular",
+                "max_viewcount_label": "Máximo elementos en la lista de visualización",
                 "max_viewcount_text": "",
                 "show_viewlist_label": "",
                 "show_viewlist_text": "",
