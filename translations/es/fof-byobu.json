@@ -3,106 +3,106 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Discusión privada"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Destinatarios",
+                "submit": "OK",
+                "edit_recipients": "Editar destinatarios",
+                "send_pd": "Enviar un mensaje a {username}",
+                "cancel": "Cancelar",
+                "make_public": "Hacer pública esta discusión",
+                "remove_from_discussion": "Salir de esta discusión privada"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Publicar discusión privada",
+                "title_placeholder": "Título de la discusión privada"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "¿Estás seguro de eliminar los destinatarios y hacer que esta discusión sea visible para cualquiera que pueda ver la etiqueta asignada?"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {{count} Destinatario} other {{count} Destinatarios}}"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Discutir en privado",
+                "nav_item": "Discusiones privadas"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Busca destinatario escribiendo los primeros tres caracteres..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Permisos de grupos"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Actualizar destinatarios de {title}",
+                    "add_recipients": "Añade destinatarios a tu discusión"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Usuarios seleccionados",
+                    "search_field": "Buscar usuario"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "Esta discusión solo será visible para los usuarios que elijas aquí. Se requiere al menos 1 destinatario (además de ti).",
+                    "update_recipients": "Esta discusión sólo será visible para los usuarios que elijas aquí.",
+                    "selected_users": "Haz clic en el nombre de un usuario para eliminarlo.",
+                    "click_user_to_remove_tooltip": "Haz clic para eliminar"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} agregó destinatarios {added} y eliminó {removed}.",
+                    "added": "{username} agregó destinatarios {added}.",
+                    "made_public": "{username} eliminó a todos los destinatarios e hizo pública la discusión",
+                    "removed": "{username} eliminó destinatarios {removed}.",
+                    "removed_self": "{username} abandonó la discusión privada."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Bloquear discusiones privadas"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Discusiones privadas",
+                "dropdown_label": "Discusiones privadas"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "Alguien me incluye en una nueva discusión privada",
+                "pd_reply_label": "Alguien publica en una discusión privada de la que soy destinatario",
+                "pd_reply_text": "{username} publicó en una discusión privada de la que formo parte",
+                "pd_text": "{username} inició una nueva discusión privada contigo",
+                "pd_user_left_label": "Un usuario destinatario abandona una discusión privada de la que formo parte",
+                "pd_user_left_text": "{username} abandonó la discusión privada",
+                "pd_added_text": "{username} te agregó a una discusión privada",
+                "pd_added_label": "Alguien me agrega a una discusión privada existente"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "add_more_than_two_user_recipients": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "Crear discusiones privadas con los usuarios",
+                "add_more_than_two_user_recipients": "Agregar más de 2 usuarios destinatarios a una discusión privada",
+                "create_private_discussions_with_groups": "Crea discusiones privadas con grupos",
+                "create_private_discussions_with_blocking_users": "Crea discusiones privadas con usuarios que lo bloquean",
+                "edit_user_recipients": "Editar usuarios que participan en discusiones privadas",
+                "edit_group_recipients": "Editar grupos que participan en discusiones privadas",
+                "make_private_into_public": "Transformar una discusión privada en una discusión pública",
+                "view_private_discussions-when-flagged": "Ver discusiones privadas de otros usuarios si están reportados"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Configuración general",
+                    "help": "Estas configuraciones controlan las funciones básicas del byobu."
                 },
                 "icon": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Configuración de iconos",
+                    "help": "Estas configuraciones controlan los iconos que utiliza byobu en el foro."
                 },
-                "badge-icon": "",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
+                "badge-icon": "Insignia de discusión de Byobu",
+                "enable-make-public-option": "Habilitar la capacidad de \"hacer público\"",
+                "enable-make-public-option-help": "Agrega la posibilidad para aquellos con permiso de eliminar todos los destinatarios, asignar una nueva etiqueta y hacer que la discusión sea visible públicamente (de acuerdo con la configuración de visibilidad de la etiqueta elegida).",
                 "post-event-icon": "",
                 "delete_on_last_recipient_left": "",
                 "delete_on_last_recipient_left_help": "",
