@@ -28,9 +28,9 @@
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} punto} other {{count} puntos}}"
                 },
-                "rank": "",
+                "rank": "{rank}",
                 "votes_link": "Votaciones"
             },
             "modal": {
@@ -75,7 +75,7 @@
                     "icon_name": "Nombre del icono de diseño alternativo"
                 },
                 "votes": {
-                    "points_title": "",
+                    "points_title": "Marcador de posición de Puntos",
                     "points_placeholder": "Puntos: ",
                     "color_holder": "#ffffff",
                     "auto_upvote": "Votar automáticamente las publicaciones cuando se publiquen",
@@ -94,40 +94,40 @@
                 "save_settings": "Guardar configuración",
                 "convert": {
                     "button": "Convertir Me gustas en votos positivos",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Convierte tus “Me gusta” anteriores de flarum-ext-likes en votos positivos y calcula el interés de todas las discusiones actuales.",
+                    "converting": "Tus Me gusta se están convirtiendo. Actualiza tu sitio después de unos minutos para ver que el proceso ha finalizado. (El tiempo de conversión puede demorar un poco dependiendo de la cantidad total de Me gusta en tu foro)",
+                    "converted": "Se convirtieron exitosamente todos los {number} Me gusta"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Rangos",
+                    "ranks": "Rangos personalizados",
+                    "number_title": "¿Cuántas insignias de rango se deben mostrar?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "Introduce la cantidad requerida de votos positivos, el nombre del rango y el color hexadecimal del rango",
+                        "points": "Puntos",
+                        "name": "Nombre"
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Grupos asignados automáticamente",
+                    "help": "Los grupos seleccionados se agregarán o eliminarán automáticamente según sea necesario cuando cambie la cantidad de puntos de un usuario. Si realizó cambios en la configuración, debe ejecutar el comando <code>php flarum fof:gamification:assign-groups</code> para actualizar los usuarios existentes. Si desea eliminar una regla y eliminar todos los usuarios del grupo, configura los valores mínimo y máximo en una cadena vacía, guarda la configuración y ejecuta el comando de línea de comandos. Finalmente, puedes eliminar la regla por completo desde la configuración.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Grupo",
+                        "minPoints": "Puntos mínimos (incluidos)",
+                        "maxPoints": "Puntos máximos (incluidos)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Añadir nueva regla",
+                    "delete": "Eliminar regla"
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Ey {recipient_display_name},\n\n{actor_display_name} acaba de votar tu publicación en {discussion_title}.\n\nMírala aquí: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "Tu publicación fue votada por {display_name}"
             }
         }
     }
