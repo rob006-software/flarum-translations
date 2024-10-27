@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Exportar los detalles de los usuarios seguidos y de los usuarios que siguen.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Eliminar todos los datos relacionados con los usuarios seguidos."
                 }
             }
         }
@@ -13,89 +13,89 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": ""
+                "be_followed_label": "Permitir a los usuarios seguir"
             },
             "settings": {
-                "button-on-profile-label": "",
-                "stats-on-profile-label": ""
+                "button-on-profile-label": "Mostrar el botón Seguir directamente en el encabezado del perfil de usuario",
+                "stats-on-profile-label": "Mostrar el número de seguidores y seguidos en el Perfil de los usuarios"
             }
         },
         "forum": {
-            "followed": "",
-            "followers": "",
-            "profile_link": "",
+            "followed": "Seguidos",
+            "followers": "{count, plural, one {Seguidor} other {Seguidores}}",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
-                "no_following": ""
+                "no_following": "Parece que no sigues a nadie."
             },
             "user_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
-                "change_button": ""
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.unfollow",
+                "change_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
-                "notify_new_follower_label": "",
-                "notify_new_unfollower_label": "",
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "block_follow": ""
+                "notify_new_follower_label": "Alguien me sigue",
+                "notify_new_unfollower_label": "Alguien dejó de seguirme",
+                "notify_new_discussion_label": "Alguien a quien sigo empezó una discusión",
+                "notify_new_post_label": "Alguien a quien estoy siguiendo publicó en una discusión existente",
+                "block_follow": "Evitar que los usuarios me sigan"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_follower_text": "",
-                "new_unfollower_text": ""
+                "new_discussion_text": "{username} empezó",
+                "new_post_text": "{username} publicó una discusión",
+                "new_follower_text": "{username} te sigue",
+                "new_unfollower_text": "{username} dejó de seguirte"
             },
             "badge": {
                 "label": {
-                    "follow": "",
-                    "lurk": ""
+                    "follow": "Discusiones seguidas",
+                    "lurk": "Siguiendo todo"
                 }
             },
             "filter": {
-                "following": ""
+                "following": "Usuarios seguidos"
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
-                    "no_user_attr_provided_err_debug": "",
-                    "save_btn": "",
-                    "cancel_btn": ""
+                    "title": "Seleccionar el nivel de seguimiento para {username}",
+                    "description": "Elige cómo te gustaría seguir a <em>{username}</em>.",
+                    "follow_levels_heading": "Niveles de seguimiento",
+                    "follow_select_label": "Tipo de seguimiento",
+                    "no_user_attr_provided_err": "Uh oh, algo salió mal al abrir este modal.",
+                    "no_user_attr_provided_err_debug": "No se pasó ningún atributo `usuario` al modal SelectFollowUserLevel cuando se creó. No se puede representar el modal.",
+                    "save_btn": "Guardar",
+                    "cancel_btn": "Cancelar"
                 }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
-            "new_follower_subject": "",
-            "new_post_subject": "",
-            "new_discussion_by_user_body": "",
-            "new_follower_body": "",
-            "new_post_body": ""
+            "new_discussion_by_user_subject": "[Usuario seguido] {title}",
+            "new_follower_subject": "[Usuario seguido] ¡Tienes un nuevo seguidor!",
+            "new_post_subject": "[Usuario seguido] Nueva publicación en {title}",
+            "new_discussion_by_user_body": "Ey {recipient_display_name},\n\n{user_display_name} inició una nueva discusión: {discussion_title}\n\nPara ver la nueva discusión, consulta el siguiente enlace:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Ey {recipient_display_name},\n\n{follower_display_name} comenzó a seguirte, por lo que recibirá una notificación cuando inicies una nueva conversación.\n\nPara ver su perfil, consulta el siguiente enlace:\n\n{profile_url}\n",
+            "new_post_body": "Ey {recipient_display_name},\n\n{user_display_name} comentó en una discusión: {discussion_title}\n\nPara ver la nueva actividad, consulta el siguiente enlace:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNo recibirás más notificaciones sobre esta discusión hasta que estés al día.\n"
         },
         "lib": {
-            "following_link": "",
-            "follow": "",
-            "change_follow_type": "",
-            "unfollow": "",
+            "following_link": "Usuarios seguidos",
+            "follow": "Seguir",
+            "change_follow_type": "Cambiar el tipo de seguimiento",
+            "unfollow": "Dejar de seguir",
             "follow_levels": {
                 "unfollow": {
-                    "name": "",
-                    "description": ""
+                    "name": "No seguir",
+                    "description": "No recibir ninguna notificación sobre la actividad de <em>{username}</em>.\n"
                 },
                 "follow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Seguir discusiones",
+                    "description": "Recibir notificaciones cuando <em>{username}</em> inicie una nueva discusión.\n"
                 },
                 "lurk": {
-                    "name": "",
-                    "description": ""
+                    "name": "Seguir todo",
+                    "description": "Recibir notificaciones cuando <em>{username}</em> inicie una nueva discusión o publique dentro de cualquier discusión.\n"
                 }
             }
         }
