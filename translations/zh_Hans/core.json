@@ -266,7 +266,7 @@
                             "title": "注册时间"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "操作"
                         },
                         "user_id": {
                             "title": "ID"
@@ -601,9 +601,9 @@
                 "mega_text": "百万"
             },
             "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+                "humanTimeShort": "MMMD日",
+                "humanTimeLong": "ll",
+                "scrubber": "YYYY MMMM"
             },
             "series": {
                 "glue_text": "， ",
