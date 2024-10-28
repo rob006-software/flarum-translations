@@ -986,6 +986,9 @@ return [
 	'justoverclock-related-discussions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-related-discussions.yml',
 	],
+	'justoverclock-reputation-score' => [
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-reputation-score.yml',
+	],
 	'justoverclock-socialcards' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-socialcards/1.0.0/resources/locale/en.yml',
 	],
