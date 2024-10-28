@@ -1258,6 +1258,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-imdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-imdb-api) | [`justoverclock/imdb-api`](https://flarum.org/extension/justoverclock/imdb-api) |
 | [`justoverclock-job-cards`](https://weblate.rob006.net/projects/flarum/justoverclock-job-cards) | [`justoverclock/job-cards`](https://flarum.org/extension/justoverclock/job-cards) |
 | [`justoverclock-related-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-related-discussions) | [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions) |
+| [`justoverclock-reputation-score`](https://weblate.rob006.net/projects/flarum/justoverclock-reputation-score) | [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score) |
 | [`justoverclock-steam-api`](https://weblate.rob006.net/projects/flarum/justoverclock-steam-api) | [`justoverclock/steam-api`](https://flarum.org/extension/justoverclock/steam-api) |
 | [`justoverclock-theaudiodb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api) | [`justoverclock/theaudiodb-api`](https://flarum.org/extension/justoverclock/theaudiodb-api) |
 | [`justoverclock-website-live-screenshot`](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot) | [`justoverclock/website-live-screenshot`](https://flarum.org/extension/justoverclock/website-live-screenshot) |
