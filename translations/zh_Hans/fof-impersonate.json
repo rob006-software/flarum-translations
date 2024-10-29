@@ -2,7 +2,7 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": "以其他用户的身份登录"
+                "login": "以其他用户身份登录"
             },
             "settings": {
                 "title": "FoF 身份模拟",
@@ -12,14 +12,14 @@
         },
         "lib": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "以其他用户身份登录",
+                "label": "能力越大，责任越大。直到下次登出前，你将以用户「{username}」的身份登录。",
+                "placeholder_optional": "（可选）切换到此用户的理由",
+                "placeholder_required": "继续操作前，请提供理由",
+                "impersonate_username": "以「{username}」身份登录"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "以用户身份登录"
             }
         },
         "forum": {
