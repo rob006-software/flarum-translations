@@ -10,8 +10,8 @@
                 "follow_tag_button": "Seguir",
                 "unfollow_tag_button": "Dejar de seguir",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
@@ -19,22 +19,22 @@
                 "lurking_tag_tooltip": "Captación"
             },
             "sub_controls": {
-                "header": "",
-                "subscription_label": "",
-                "follow_button": "",
-                "following_button": "",
+                "header": "Suscripción para {tagName}",
+                "subscription_label": "Selecciona el nivel de suscripción para {tagName}",
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Recibir notificaciones de todas las nuevas discusiones.",
-                "hiding_button": "",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
                 "hiding_text": "Ocultar discusiones de la página Todas las discusiones.",
-                "ignoring_button": "",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
                 "ignoring_text": "Nunca recibir notificaciones.",
-                "lurking_button": "",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
                 "lurking_text": "Recibir notificaciones de todas las nuevas discusiones y respuestas.",
                 "not_following_button": "No seguir",
                 "not_following_text": "Ser notificado solo cuando me @mencionan.",
                 "notify_alert_tooltip": "Reciba una notificación del foro cuando haya nuevas discusiones o publicaciones",
                 "notify_email_tooltip": "Recibir un correo electrónico cuando haya nuevas discusiones o publicaciones",
-                "submit_button": ""
+                "submit_button": "Confirmar suscripción"
             },
             "notifications": {
                 "new_discussion_text": "{username} inició",
@@ -44,38 +44,38 @@
             "user": {
                 "settings": {
                     "heading": "Seguir Tags",
-                    "filter_label": ""
+                    "filter_label": "Qué mostrar por defecto en la página de Seguimiento"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_page_default_label": "Filtrado de página de seguimiento predeterminado",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Etiqueta | Nueva discusión] {title}",
+                "newPostInTag": "[Etiqueta | Nueva publicación] {title}",
+                "newDiscussionTag": "[Etiqueta | Etiqueta modificada] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "Ey {recipient_display_name},\n\n{actor_display_name} inició una discusión en una etiqueta que estás siguiendo: {discussion_title}\n\nPara ver la nueva discusión, consulta el siguiente enlace:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Ey {recipient_display_name},\n\n{actor_display_name} publicó una publicación en una discusión sobre una etiqueta que estás siguiendo: {discussion_title}\n\nPara ver la nueva actividad, consulta el siguiente enlace:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNo recibirás más notificaciones sobre esta discusión hasta que estés al día.\n",
+                "newDiscussionTag": "Ey {recipient_display_name},\n\n{actor_display_name} acaba de cambiar la etiqueta de una discusión de {author_display_name} a una etiqueta que estás siguiendo {discussion_title}\n\nPara ver la nueva discusión, consulta el siguiente enlace:\n{discussion_url}\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "Seguir",
+            "following": "Siguiendo",
+            "hiding": "Ocultando",
+            "ignoring": "Ignorando",
+            "lurking": "Observando",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Discusiones seguidas",
+                "tags": "Etiquetas seguidas"
             }
         }
     },
@@ -83,8 +83,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Exporta detalles del nivel de suscripción de una etiqueta, si existe.",
+                    "anonymize_description": "Elimina la suscripción del usuario a la etiqueta."
                 }
             }
         }
