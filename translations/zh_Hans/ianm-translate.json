@@ -2,11 +2,11 @@
     "ianm-translate": {
         "admin": {
             "glossary": {
-                "button": "词汇表",
-                "create_button": "",
+                "button": "术语表",
+                "create_button": "创建术语",
                 "section": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "术语配置",
+                    "help": "定义不应该翻译的词汇，如专有名词、技术术语等。"
                 }
             },
             "permission": {
@@ -18,14 +18,14 @@
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "常规设置",
+                    "help": "这些设置控制翻译系统的一些基本能力。"
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "翻译服务设置",
+                    "help": "选择并配置一个合适的翻译服务。"
                 },
-                "button": "",
+                "button": "设置",
                 "seemless": "自动翻译",
                 "seemless-help": "测试功能。启用此项，自动翻译所有用户内容为论坛可选语言。用户查看多语言内容时，自动显示译文。",
                 "deepl": {
