@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "error": {
-                    "403": "",
-                    "404": "",
-                    "500": "",
-                    "503": ""
+                    "403": "403 Prohibido",
+                    "404": "404 No Encontrado",
+                    "500": "500 Error Interno del Servidor",
+                    "503": "503 Servicio No Disponible (Fuera de servicio por mantenimiento)"
                 },
                 "placeholder": {
-                    "empty_for_default": ""
+                    "empty_for_default": "Déjalo en blanco para la página de error predeterminada de Flarum"
                 }
             }
         }
