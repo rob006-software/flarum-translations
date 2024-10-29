@@ -10,33 +10,33 @@
                 "skip_null_elements_help": "Omite los pasos cuyo destino no coincide con ningún elemento HTML. Puedes usar esto para seleccionar idiomas con 'html[lang=\"es\"] my-selector'. Esto también oculta el botón Anterior para mantener la coherencia y deberías ocultar el progreso."
             },
             "permissions": {
-                "reset_tour_guide": "Reiniciar guía de visita"
+                "reset_tour_guide": "Reiniciar guía de recorrido"
             },
             "edit_modal": {
-                "edit_step": "",
-                "create_step": "",
-                "delete_step": "",
-                "delete_step_confirmation": ""
+                "edit_step": "Editar {title}",
+                "create_step": "Crear nuevo paso",
+                "delete_step": "Eliminar paso",
+                "delete_step_confirmation": "¿Estás seguro de que quieres eliminar este paso?"
             },
-            "add_step": "",
-            "title": "",
-            "title_placeholder": "",
-            "description": "",
-            "description_placeholder": "",
-            "target": "",
-            "target_placeholder": "",
-            "trigger_click": "",
-            "yes": "",
-            "no": ""
+            "add_step": "Añadir nuevo paso",
+            "title": "Título",
+            "title_placeholder": "El título del paso.",
+            "description": "Descripción",
+            "description_placeholder": "La descripción del paso.",
+            "target": "Objetivo",
+            "target_placeholder": "El elemento de destino del paso (por ejemplo, #element-id).",
+            "trigger_click": "Activar al clicar",
+            "yes": "Sí",
+            "no": "No"
         },
         "forum": {
-            "progress_text": "",
-            "next_btn_text": "",
-            "prev_btn_text": "",
-            "done_btn_text": "",
+            "progress_text": "{current} de {total}",
+            "next_btn_text": "Siguiente",
+            "prev_btn_text": "Anterior",
+            "done_btn_text": "Hecho",
             "user_controls": {
-                "reset_tour_guide": "",
-                "reset_tour_guide_confirmation": ""
+                "reset_tour_guide": "Comenzar el recorrido nuevamente",
+                "reset_tour_guide_confirmation": "¿Estás seguro de que quieres obligar a este usuario a iniciar el recorrido nuevamente?"
             }
         }
     }
