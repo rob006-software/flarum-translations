@@ -1,27 +1,29 @@
 {
     "justoverclock-reputation-score": {
         "admin": {
-            "pointsIncreased": "Points increased",
-            "pointsDecreased": "Points decreased",
-            "historyPostDeleted": "Reputation points decreased for post deleted/hidden.",
-            "historyPostCreated": "Reputation points increased due to a post created.",
+            "pointsIncreased": "Points Increased",
+            "pointsDecreased": "Points Decreased",
+            "historyPostDeleted": "Reputation points decreased due to post deletion or hiding.",
+            "historyPostCreated": "Reputation points increased for creating a post.",
             "historyLikeSet": "Reputation points increased for receiving a like.",
-            "historyLikeUnset": "Reputation points decreased for loosing a like.",
-            "historyBestAnswerSet": "Reputation points increased due to best answer received.",
-            "historyBestAnswerUnset": "Reputation points decreased due to best answer unassign.",
-            "historyDiscussionCreated": "Reputation points increased for creating a discussion.",
+            "historyLikeUnset": "Reputation points decreased for losing a like.",
+            "historyBestAnswerSet": "Reputation points increased for receiving a best answer.",
+            "historyBestAnswerUnset": "Reputation points decreased for unassigning a best answer.",
+            "historyDiscussionCreated": "Reputation points increased for starting a discussion.",
             "historyDiscussionClosed": "Reputation points decreased because your thread was closed."
         },
         "forum": {
             "reputation": "Reputation",
-            "reputationBar": "Reputation points",
+            "reputationBar": "Reputation Points",
             "trust": "Reputation",
-            "reputationIncreasedNotification": "Your reputation is growing. Keep it up!",
-            "reputationDecreasedNotification": "Oh no! Your reputation is going down!",
-            "pageTitle": "Top 20 Trusted users",
-            "topReputation": "Top reputation",
+            "reputationIncreasedNotification": "Your reputation is rising! Keep up the good work!",
+            "reputationDecreasedNotification": "Oh no! Your reputation is decreasing!",
+            "pageTitle": "Top 20 Trusted Users",
+            "topReputation": "Top Reputation",
             "discussionCount": "Discussion Count",
-            "totalPosts": "Total Posts"
+            "totalPosts": "Total Posts",
+            "reputationHistory": "Reputation History",
+            "reputationHistoryPageTitle": "This timeline displays the latest 15 events that impacted your reputation."
         }
     }
 }
