@@ -4,25 +4,25 @@
             "settings": {
                 "providers": {
                     "wordpress": {
-                        "description": "将您的 WordPress 用户与 Flarumw连接",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "domain_label": ""
+                        "description": "打通您的 WordPress 和 Flarum 用户账户",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "domain_label": "域名"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_wordpress_button": ""
+                "with_wordpress_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "wordpress": ""
+                "wordpress": "=> fof-oauth.lib.providers.wordpress"
             }
         },
         "lib": {
             "providers": {
-                "wordpress": ""
+                "wordpress": "WordPress"
             }
         }
     }
