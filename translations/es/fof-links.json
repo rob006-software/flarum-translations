@@ -12,17 +12,17 @@
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
-                "icon_additional_text": "",
+                "icon_additional_text": "Si quieres utilizar un ícono de marca, el prefijo es <code>fab fa-</code>.",
                 "url_description": "Deja en blanco para mostrar como una etiqueta.",
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
-                "use_rel_me": "",
+                "use_rel_me": "Añade el atributo <code>rel=\"me\"</code> para la verificación de identidad en otros sitios",
                 "visibility": "Visibilidad del enlace",
-                "visibility.help": "",
-                "visibility.help-disabled": "",
-                "visibility.label": "",
-                "visibility.guest-only.label": "",
-                "visibility.guest-only.help": "",
+                "visibility.help": "De forma predeterminada, los enlaces solo son visibles para los usuarios <code>{admin}</code>. Ajusta los permisos para especificar quién puede ver este enlace.",
+                "visibility.help-disabled": "Guarda el enlace antes de cambiar la configuración de visibilidad.",
+                "visibility.label": "Visibilidad del enlace",
+                "visibility.guest-only.label": "¿Solo {guest}?",
+                "visibility.guest-only.help": "Solo {guest} puede ver este enlace. El permiso anterior debe configurarse como '{everyone}'.",
                 "everyone-label": "Todos",
                 "guests-label": "Invitados",
                 "members-label": "Usuarios registrados"
@@ -32,7 +32,7 @@
                 "links": "=> fof-links.ref.links"
             },
             "settings": {
-                "show_icons_only_on_tablet": ""
+                "show_icons_only_on_tablet": "Mostrar iconos solo en las pantallas de tabletas"
             }
         },
         "ref": {
