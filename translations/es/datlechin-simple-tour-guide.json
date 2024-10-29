@@ -2,15 +2,15 @@
     "datlechin-simple-tour-guide": {
         "admin": {
             "settings": {
-                "show_progress_label": "",
-                "show_progress_help": "",
-                "allow_close_label": "",
-                "allow_close_help": "",
-                "skip_null_elements_label": "",
-                "skip_null_elements_help": ""
+                "show_progress_label": "Mostrar progreso",
+                "show_progress_help": "Esto mostrará el paso actual y el total de pasos en la parte superior de la ventana emergente.",
+                "allow_close_label": "Permitir cerrar",
+                "allow_close_help": "Permitir a los usuarios cerrar la ventana emergente haciendo clic en el fondo.",
+                "skip_null_elements_label": "Omitir elementos nulos",
+                "skip_null_elements_help": "Omite los pasos cuyo destino no coincide con ningún elemento HTML. Puedes usar esto para seleccionar idiomas con 'html[lang=\"es\"] my-selector'. Esto también oculta el botón Anterior para mantener la coherencia y deberías ocultar el progreso."
             },
             "permissions": {
-                "reset_tour_guide": ""
+                "reset_tour_guide": "Reiniciar guía de visita"
             },
             "edit_modal": {
                 "edit_step": "",
