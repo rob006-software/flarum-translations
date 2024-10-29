@@ -62,7 +62,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Elegir etiquetas"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Editar etiquetas"
@@ -76,8 +76,8 @@
                 "untagged_link": "Sin etiqueta"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} puso {tagsAdded} y quitó {tagsRemoved}",
-                "added_tags_text": "{username} puso {tagsAdded}",
+                "added_and_removed_tags_text": "{username} puso {tagsAdded} y quitó {tagsRemoved} {time}.",
+                "added_tags_text": "{username} puso {tagsAdded} {time}.",
                 "removed_tags_text": "{username} quitó {tagsRemoved} {time}",
                 "tags_text": "{count, plural, one {la etiqueta {tags}} other {las etiquetas {tags}}}"
             },
@@ -88,17 +88,17 @@
         "lib": {
             "deleted_tag_text": "Borrada",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Omitir requisitos de etiqueta",
+                "choose_primary_placeholder": "{count, plural, one {Seleccionar una etiqueta principal} other {Seleccionar # etiquetas principales}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Selecciona etiquetas",
+            "choose_tags_placeholder": "{count, plural, one {Selecciona 1 etiqueta más} other {Selecciona # etiquetas más}}",
             "name": "Nombre",
             "tags": "Etiquetas"
         }
