@@ -50,7 +50,7 @@
                     "help": "Aggiungi ulteriori repository da cui installare i pacchetti. Questa è una funzionalità avanzata, non aggiungere repository non attendibili, poiché possono essere utilizzati per eseguire codice dannoso sul tuo server.\n",
                     "types": {
                         "composer": "composer",
-                        "vcs": "",
+                        "vcs": "vcs",
                         "path": "percorso"
                     },
                     "add_modal": {
@@ -142,7 +142,7 @@
                 }
             },
             "settings": {
-                "title": "",
+                "title": "=> core.ref.settings",
                 "access_warning": "Fai attenzione a chi dai accesso all'area di amministrazione, il gestore delle estensioni potrebbe essere utilizzato in modo improprio da malintenzionati per installare pacchetti che possono portare a violazioni della sicurezza.",
                 "debug_mode_warning": "Stai eseguendo la modalità debug, il gestore estensioni non può installare e aggiornare correttamente i pacchetti di sviluppo locale. Per tali scopi utilizzare invece l'interfaccia della riga di comando.",
                 "queue_jobs": "Esegui operazioni nella coda in background",
@@ -153,7 +153,7 @@
             "updater": {
                 "up_to_date": "Tutto è aggiornato!",
                 "check_for_updates": "Controlla aggiornamenti",
-                "flarum": "",
+                "flarum": "Flarum Core",
                 "global_update_successful": "Aggiornati con successo tutti i pacchetti.",
                 "last_update_checked_at": "Ultimo check aggiornamenti: ",
                 "run_global_update": "Lancia aggiornamento globale",
