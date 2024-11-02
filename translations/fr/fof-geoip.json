@@ -2,16 +2,16 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": ""
+                "see_country": "Toujours afficher le pays de l'adresse IP"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Paramètres généraux",
+                    "help": "Ces paramètres contrôlent le comportement général de l'extension."
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Service de recherche d'adresses IP",
+                    "help": "Choisissez un service à utiliser pour les recherches d'adresses IP. Certains services ont des limites de débit, vérifiez donc la documentation du service pour plus d'informations."
                 },
                 "service_label": "Service",
                 "service_ipdata_label": "IPData",
@@ -27,7 +27,7 @@
                 "access_key_label": "Clé d'accès",
                 "quota_label": "Consulter les quotas",
                 "show_flag_label": "Afficher le drapeau du pays pour chaque message",
-                "show_flag_help": "Sans divulguer l'adresse IP, afficher le drapeau du pays de l'adresse IP de l'auteur du message.",
+                "show_flag_help": "Sans divulguer l'adresse IP, afficher le drapeau du pays de l'adresse IP de l'auteur du message lorsque l'utilisateur choisit d'entrer dans le système par le biais de ses préférences.",
                 "title": "GeoIP de FriendsOfFlarum",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Utilisez <b>https://ipstack.com</b> pour effectuer gratuitement jusqu'à 10 000 recherches par mois. Les forfaits payants incluent les informations de connexion (FAI, organisation) et le niveau de menace.",
@@ -40,7 +40,7 @@
             "alerts": {
                 "ip_copied": "Adresse IP copiée"
             },
-            "copy_ip_label": "",
+            "copy_ip_label": "Copier l'adresse IP dans le presse-papiers",
             "map_button_label": "Informations sur l'adresse IP",
             "map_modal": {
                 "title": "Informations sur l'adresse IP",
