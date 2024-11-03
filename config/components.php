@@ -782,7 +782,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-follow-discussion/0.0.2/locale/en.yml',
 	],
 	'ianm-boring-avatars' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/1.0.1/locale/en.yml',
 	],
 	'ianm-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/1.4.9/resources/locale/en.yml',
