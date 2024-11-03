@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Tots els fitxers pujats per l'usuari.",
-                    "anonymize_description": "Elimina la referència a l'usuari dels fitxers pujats. Els fitxers segueixen sent accessibles per als usuaris que podien veure'ls abans de fer-los anònims.",
-                    "delete_description": "Esborrar tots els fitxers pujats per l'usuari."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -232,6 +232,17 @@
                     "hide_fail": "No s'ha pogut fer el fitxer \"{fileName}\" privat",
                     "show_fail": "No s'ha pogut fer el fitxer \"{fileName}\" públic",
                     "loading": "Fent que el fitxer sigui privat..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Tots els fitxers pujats per l'usuari.",
+                    "anonymize_description": "Elimina la referència a l'usuari dels fitxers pujats. Els fitxers segueixen sent accessibles per als usuaris que podien veure'ls abans de fer-los anònims.",
+                    "delete_description": "Esborrar tots els fitxers pujats per l'usuari."
                 }
             }
         }

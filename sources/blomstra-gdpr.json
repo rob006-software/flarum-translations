@@ -1,12 +1,12 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "admin": {
             "gdpr_page": {
                 "heading": "GDPR Data Overview",
                 "description": "Status of various GDPR actions and integrations",
                 "data_types": {
                     "title": "Data Types",
-                    "help_text": "These are the currently registered data types. Each type is listed along with it's associated export, anonymization, and deletion actions. If an extension handles any data which falls under GDPR regulations, it should register it's data types with <code>blomstra/gdpr</code>.\nData stored in the <code>user</code> table is handled seperately, see user table data below.\n",
+                    "help_text": "These are the currently registered data types. Each type is listed along with it's associated export, anonymization, and deletion actions. If an extension handles any data which falls under GDPR regulations, it should register it's data types with <code>flarum/gdpr</code>.\nData stored in the <code>user</code> table is handled seperately, see user table data below.\n",
                     "type": "Type",
                     "export_description": "Export Action",
                     "anonymize_description": "Anonymize Action",
@@ -52,7 +52,6 @@
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "title": "GDPR Actions",
                         "export": "Export data for {username}"
                     }
                 }

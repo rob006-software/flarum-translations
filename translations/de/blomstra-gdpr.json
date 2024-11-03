@@ -1,4 +1,173 @@
 {
+    "flarum-gdpr": {
+        "admin": {
+            "gdpr_page": {
+                "heading": "",
+                "description": "",
+                "data_types": {
+                    "title": "",
+                    "help_text": "",
+                    "type": "",
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "extension": ""
+                },
+                "settings": {
+                    "heading": "",
+                    "help_text": "",
+                    "extension_settings_button": ""
+                },
+                "user_table_data": {
+                    "title": "",
+                    "help_text": ""
+                }
+            },
+            "nav": {
+                "gdpr_button": ""
+            },
+            "permissions": {
+                "process_erasure": "",
+                "process_export_for_others": "",
+                "see_anonymized_user_badges": ""
+            },
+            "settings": {
+                "allow_anonymization": "",
+                "allow_anonymization_help": "",
+                "allow_deletion": "",
+                "allow_deletion_help": "",
+                "default_anonymous_username": "",
+                "default_anonymous_username_help": "",
+                "default_erasure": "",
+                "default_erasure_help": "",
+                "default_erasure_options": {
+                    "anonymization": "",
+                    "deletion": ""
+                },
+                "gdpr_page": {
+                    "title": "",
+                    "help_text": ""
+                }
+            },
+            "userlist": {
+                "columns": {
+                    "gdpr_actions": {
+                        "export": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "data": {
+                "avatar": {
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "discussions": {
+                    "export_description": ""
+                },
+                "forum": {
+                    "export_description": ""
+                },
+                "no_action": "",
+                "posts": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "tokens": {
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "user": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                }
+            },
+            "request_data": {
+                "title": "",
+                "text": "",
+                "request_button": ""
+            }
+        },
+        "email": {
+            "confirm_erasure": {
+                "subject": "",
+                "body": ""
+            },
+            "erasure_completed": {
+                "deletion": {
+                    "subject": "",
+                    "body": ""
+                },
+                "anonymization": {
+                    "subject": "",
+                    "body": ""
+                }
+            },
+            "erasure_cancelled": {
+                "subject": "",
+                "body": ""
+            },
+            "export_available": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "forum": {
+            "badges": {
+                "anonymized_user": ""
+            },
+            "delete_user": {
+                "title": "",
+                "text": "",
+                "modal_delete_button": "",
+                "delete_button": ""
+            },
+            "erasure_requests": {
+                "empty_text": "",
+                "item_text": "",
+                "tooltip": "",
+                "title": ""
+            },
+            "erasure_request_confirmed": "",
+            "settings": {
+                "data": {
+                    "heading": ""
+                },
+                "export_data_button": "",
+                "export_data_help": "",
+                "request_erasure_button": "",
+                "request_erasure_help": ""
+            },
+            "process_erasure": {
+                "confirm": "",
+                "title": "",
+                "text": "",
+                "comments_label": "",
+                "anonymization_button": "",
+                "deletion_button": ""
+            },
+            "request_erasure": {
+                "title": "",
+                "reason": "",
+                "status": {
+                    "awaiting_user_confirmation": "",
+                    "user_confirmed": ""
+                },
+                "text": "",
+                "password_label": "",
+                "reason_label": "",
+                "cancel_button": "",
+                "request_button": ""
+            },
+            "notification": {
+                "export-ready": ""
+            },
+            "export_file": ""
+        }
+    },
     "blomstra-gdpr": {
         "admin": {
             "gdpr_page": {
@@ -81,9 +250,7 @@
                     "export_description": "Exportiert alle Token, die der Benutzer erstellt hat. Die Daten sind auf das Erstellungsdatum und den Token-Typ beschränkt."
                 },
                 "user": {
-                    "anonymize_description": "",
-                    "delete_description": "Löscht den Nutzer aus der Datenbank.",
-                    "export_description": ""
+                    "delete_description": "Löscht den Nutzer aus der Datenbank."
                 }
             },
             "request_data": {
@@ -94,8 +261,7 @@
         },
         "email": {
             "confirm_erasure": {
-                "subject": "Bestätige die Anfrage zur Löschung deines Kontos",
-                "body": ""
+                "subject": "Bestätige die Anfrage zur Löschung deines Kontos"
             },
             "erasure_completed": {
                 "deletion": {
@@ -108,12 +274,10 @@
                 }
             },
             "erasure_cancelled": {
-                "subject": "Antrag zur Kontolöschung abgebrochen",
-                "body": ""
+                "subject": "Antrag zur Kontolöschung abgebrochen"
             },
             "export_available": {
-                "subject": "Datenexport verfügbar",
-                "body": ""
+                "subject": "Datenexport verfügbar"
             }
         },
         "forum": {
@@ -123,7 +287,6 @@
             "delete_user": {
                 "title": "{username}s Konto löschen",
                 "text": "Bist du sicher das du {username}s Konto löschen möchteat?\n\nDieser Vorgang kann nicht rückgängig gemacht werden.\n",
-                "modal_delete_button": "",
                 "delete_button": "Benutzer löschen"
             },
             "erasure_requests": {
@@ -165,8 +328,7 @@
             },
             "notification": {
                 "export-ready": "Dein Datenexport für {username} ist bereit zum Download."
-            },
-            "export_file": ""
+            }
         }
     }
 }

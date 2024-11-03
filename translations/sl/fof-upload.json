@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Vse datoteke, ki jih je naložil uporabnik.",
-                    "anonymize_description": "Odstrani sklic na uporabnika iz naloženih datotek. Datoteke ostanejo dostopne uporabnikom, ki so jih videli pred anonimizacijo.",
-                    "delete_description": "Izbriše vse datoteke, ki jih je naložil uporabnik."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -232,6 +232,17 @@
                     "hide_fail": "Ni bilo mogoče narediti datoteke \"{fileName}\" zasebne",
                     "show_fail": "Ni bilo mogoče narediti datoteke \"{fileName}\" javne",
                     "loading": "Naredim datoteko zasebno..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Vse datoteke, ki jih je naložil uporabnik.",
+                    "anonymize_description": "Odstrani sklic na uporabnika iz naloženih datotek. Datoteke ostanejo dostopne uporabnikom, ki so jih videli pred anonimizacijo.",
+                    "delete_description": "Izbriše vse datoteke, ki jih je naložil uporabnik."
                 }
             }
         }

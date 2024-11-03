@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Visi lietotāja augšupielādētie faili.",
-                    "anonymize_description": "No augšupielādētajiem failiem noņem lietotāja atsauci. Paši faili joprojām ir pieejami lietotājiem, kuri tos var skatīt pirms anonimizācijas.",
-                    "delete_description": "Dzēš visus lietotāja augšupielādētos failus."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -249,6 +249,17 @@
                     "hide_fail": "Nevarēja padarīt failu \"{fileName}\" privātu",
                     "show_fail": "Nevarēja padarīt failu \"{fileName}\" publisku",
                     "loading": "Faila padarīšana privāta..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Visi lietotāja augšupielādētie faili.",
+                    "anonymize_description": "No augšupielādētajiem failiem noņem lietotāja atsauci. Paši faili joprojām ir pieejami lietotājiem, kuri tos var skatīt pirms anonimizācijas.",
+                    "delete_description": "Dzēš visus lietotāja augšupielādētos failus."
                 }
             }
         }

@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "A felhasználó által feltöltött összes fájl.",
-                    "anonymize_description": "Eltávolítja a felhasználó hivatkozását az összes feltöltött fájlról. A fájlok maguk továbbra is elérhetők lesznek azon felhasználók számára, akik láthatták az anonimizálás előtt.",
-                    "delete_description": "Törli a felhasználó által feltöltött összes fájlt."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -249,6 +249,17 @@
                     "hide_fail": "A(z) „{fileName}” nem tehető priváttá",
                     "show_fail": "A(z) „{fileName}” nem tehető nyilvánossá",
                     "loading": "A fájl priváttá tétele…"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "A felhasználó által feltöltött összes fájl.",
+                    "anonymize_description": "Eltávolítja a felhasználó hivatkozását az összes feltöltött fájlról. A fájlok maguk továbbra is elérhetők lesznek azon felhasználók számára, akik láthatták az anonimizálás előtt.",
+                    "delete_description": "Törli a felhasználó által feltöltött összes fájlt."
                 }
             }
         }

@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Semua file yang diupload oleh pengguna.",
-                    "anonymize_description": "Menghapus referensi pengguna dari file yang diupload. File-file itu sendiri tetap dapat diakses oleh pengguna yang dapat melihatnya sebelum dianonimkan.",
-                    "delete_description": "Menghapus semua file yang diupload oleh pengguna."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -249,6 +249,17 @@
                     "hide_fail": "Tidak dapat membuat file \"{fileName}\" menjadi privat",
                     "show_fail": "Tidak dapat membuat file \"{fileName}\" menjadi publik",
                     "loading": "Membuat file menjadi privat..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Semua file yang diupload oleh pengguna.",
+                    "anonymize_description": "Menghapus referensi pengguna dari file yang diupload. File-file itu sendiri tetap dapat diakses oleh pengguna yang dapat melihatnya sebelum dianonimkan.",
+                    "delete_description": "Menghapus semua file yang diupload oleh pengguna."
                 }
             }
         }

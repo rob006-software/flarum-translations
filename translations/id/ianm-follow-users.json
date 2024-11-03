@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "Mengekspor detail pengguna yang diikuti dan pengguna yang mengikuti.",
-                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "Menghapus semua data yang terkait dengan mengikuti pengguna."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -96,6 +96,17 @@
                 "lurk": {
                     "name": "Ikuti semua",
                     "description": "Menerima notifikasi ketika <em>{username}</em> memulai diskusi baru atau memposting di dalam diskusi.\n"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "Mengekspor detail pengguna yang diikuti dan pengguna yang mengikuti.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Menghapus semua data yang terkait dengan mengikuti pengguna."
                 }
             }
         }

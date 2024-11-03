@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "Exportar los detalles de los usuarios seguidos y de los usuarios que siguen.",
-                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "Eliminar todos los datos relacionados con los usuarios seguidos."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -96,6 +96,17 @@
                 "lurk": {
                     "name": "Seguir todo",
                     "description": "Recibir notificaciones cuando <em>{username}</em> inicie una nueva discusión o publique dentro de cualquier discusión.\n"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "Exportar los detalles de los usuarios seguidos y de los usuarios que siguen.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Eliminar todos los datos relacionados con los usuarios seguidos."
                 }
             }
         }

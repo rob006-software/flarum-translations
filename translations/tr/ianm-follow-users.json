@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "Takip edilen kullanıcıların ve takip edilen kullanıcıların ayrıntılarını dışa aktarır.",
-                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "Takip eden kullanıcılarla ilgili tüm verileri siler."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -98,6 +98,17 @@
                 "lurk": {
                     "name": "Tümünü takip et",
                     "description": "<em>{username}</em> kullanıcısı yeni bir tartışma başlattığında veya gönderi yazdığında bildirim al.\n"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "Takip edilen kullanıcıların ve takip edilen kullanıcıların ayrıntılarını dışa aktarır.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Takip eden kullanıcılarla ilgili tüm verileri siler."
                 }
             }
         }

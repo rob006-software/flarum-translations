@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "所有由用户上传的文件。",
-                    "anonymize_description": "解除文件与用户的关联，保留文件本身的可访问。",
-                    "delete_description": "删除由用户上传的所有文件。"
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -252,6 +252,17 @@
                     "hide_fail": "转换私密文件失败",
                     "show_fail": "转为公共文件失败",
                     "loading": "正在转换私密文件……"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "所有由用户上传的文件。",
+                    "anonymize_description": "解除文件与用户的关联，保留文件本身的可访问。",
+                    "delete_description": "删除由用户上传的所有文件。"
                 }
             }
         }

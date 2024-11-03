@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Todos los archivos subidos por el usuario.",
-                    "anonymize_description": "Elimina la referencia del usuario de los archivos subidos. Los archivos permanecen accesibles para los usuarios que podían verlos antes de la anonimización.",
-                    "delete_description": "Elimina todos los archivos subidos por el usuario."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -249,6 +249,17 @@
                     "hide_fail": "No se pudo hacer privado el archivo \"{fileName}\"",
                     "show_fail": "No se pudo hacer público el archivo \"{fileName}\"",
                     "loading": "Haciendo privado el archivo..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Todos los archivos subidos por el usuario.",
+                    "anonymize_description": "Elimina la referencia del usuario de los archivos subidos. Los archivos permanecen accesibles para los usuarios que podían verlos antes de la anonimización.",
+                    "delete_description": "Elimina todos los archivos subidos por el usuario."
                 }
             }
         }

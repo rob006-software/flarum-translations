@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "ユーザーによってアップロードされたすべてのファイル。",
-                    "anonymize_description": "アップロードされたファイルからユーザー参照情報を削除します。ファイル閲覧可能なユーザーはアクセス可能なままとなります。",
-                    "delete_description": "ユーザーがアップロードしたすべてのファイルを削除します。"
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -232,6 +232,17 @@
                     "hide_fail": "ファイル「{fileName}」を非公開にできませんでした",
                     "show_fail": "ファイル「{fileName}」を公開できませんでした",
                     "loading": "ファイルを非公開にしています..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "ユーザーによってアップロードされたすべてのファイル。",
+                    "anonymize_description": "アップロードされたファイルからユーザー参照情報を削除します。ファイル閲覧可能なユーザーはアクセス可能なままとなります。",
+                    "delete_description": "ユーザーがアップロードしたすべてのファイルを削除します。"
                 }
             }
         }

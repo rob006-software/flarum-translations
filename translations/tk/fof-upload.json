@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Ulanyjy tarapyndan ýüklenen ähli faýllar.",
-                    "anonymize_description": "Ýüklenen faýllardan ulanyjy salgylanmasyny aýyrýar. Faýllaryň özleri, anonimleşdirilmegini görüp bilýän ulanyjylar üçin elýeterli bolýarlar.",
-                    "delete_description": "Ulanyjy tarapyndan ýüklenen ähli faýllary bozýar."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -249,6 +249,17 @@
                     "hide_fail": "\"{fileName}\" faýly şahsy edip bolmady",
                     "show_fail": "\"{fileName}\" faýly köpçülige ýetirip bolmady",
                     "loading": "Faýl şahsylaşdyrylýar..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Ulanyjy tarapyndan ýüklenen ähli faýllar.",
+                    "anonymize_description": "Ýüklenen faýllardan ulanyjy salgylanmasyny aýyrýar. Faýllaryň özleri, anonimleşdirilmegini görüp bilýän ulanyjylar üçin elýeterli bolýarlar.",
+                    "delete_description": "Ulanyjy tarapyndan ýüklenen ähli faýllary bozýar."
                 }
             }
         }

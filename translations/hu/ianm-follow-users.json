@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "Exportálja a követett és a követő felhasználók részleteit.",
-                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "Törli a követő felhasználókkal kapcsolatos összes adatot."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -96,6 +96,17 @@
                 "lurk": {
                     "name": "Minden követése",
                     "description": "Értesítések fogadása, ha <em>{username}</em> új témát indít, vagy bejegyzést tesz közzé bármely témában.\n"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "Exportálja a követett és a követő felhasználók részleteit.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Törli a követő felhasználókkal kapcsolatos összes adatot."
                 }
             }
         }

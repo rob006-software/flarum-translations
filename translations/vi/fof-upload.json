@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Tất cả các tệp được tải lên bởi người dùng.",
-                    "anonymize_description": "Loại bỏ tham chiếu người dùng từ các tệp đã tải lên. Các tệp vẫn có thể được truy cập bởi những người dùng đã có thể xem chúng trước khi ẩn danh.",
-                    "delete_description": "Xóa tất cả các tệp đã được người dùng tải lên."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -249,6 +249,17 @@
                     "hide_fail": "Không thể đặt tệp \"{fileName}\" ở chế độ riêng tư",
                     "show_fail": "Không thể đặt tệp \"{fileName}\" ở chế độ công khai",
                     "loading": "Đang đặt tập tin ở chế độ riêng tư..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Tất cả các tệp được tải lên bởi người dùng.",
+                    "anonymize_description": "Loại bỏ tham chiếu người dùng từ các tệp đã tải lên. Các tệp vẫn có thể được truy cập bởi những người dùng đã có thể xem chúng trước khi ẩn danh.",
+                    "delete_description": "Xóa tất cả các tệp đã được người dùng tải lên."
                 }
             }
         }

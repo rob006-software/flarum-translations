@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Kullanıcı tarafından yüklenen tüm dosyalar.",
-                    "anonymize_description": "Yüklenen dosyalardan kullanıcı referansını kaldırır. Dosyaların kendisi, onları önceden anonimleştirmeden görüntüleyebilen kullanıcılar tarafından erişilebilir durumda kalır.",
-                    "delete_description": "Kullanıcı tarafından yüklenen tüm dosyaları siler."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -252,6 +252,17 @@
                     "hide_fail": "\"{fileName}\" dosyası özel yapılamadı",
                     "show_fail": "\"{fileName}\" dosyası herkese açık hale getirilemedi",
                     "loading": "Dosya özel hale getiriliyor..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Kullanıcı tarafından yüklenen tüm dosyalar.",
+                    "anonymize_description": "Yüklenen dosyalardan kullanıcı referansını kaldırır. Dosyaların kendisi, onları önceden anonimleştirmeden görüntüleyebilen kullanıcılar tarafından erişilebilir durumda kalır.",
+                    "delete_description": "Kullanıcı tarafından yüklenen tüm dosyaları siler."
                 }
             }
         }

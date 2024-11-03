@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Kaikki käyttäjän siirtämät tiedostot.",
-                    "anonymize_description": "Poistaa käyttäjän tiedon siirretyistä tiedostoista. Tiedostot pysyvät saatavilla käyttäjille, jotka pystyivät katsomaan niitä ennen anonymisaatiota.",
-                    "delete_description": "Poistaa kaikki käyttäjän siirtämät tiedostot."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -249,6 +249,17 @@
                     "hide_fail": "Ei voitu asettaa tiedostoa \"{fileName}\" yksityiseksi",
                     "show_fail": "Ei voitu asettaa tiedostoa \"{fileName}\" julkiseksi",
                     "loading": "Asetetaan tiedostoa yksityiseksi..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Kaikki käyttäjän siirtämät tiedostot.",
+                    "anonymize_description": "Poistaa käyttäjän tiedon siirretyistä tiedostoista. Tiedostot pysyvät saatavilla käyttäjille, jotka pystyivät katsomaan niitä ennen anonymisaatiota.",
+                    "delete_description": "Poistaa kaikki käyttäjän siirtämät tiedostot."
                 }
             }
         }
