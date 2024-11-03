@@ -971,6 +971,9 @@ return [
 	'justoverclock-popular-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/popular-tags/0.1.3/locale/en.yml',
 	],
+	'justoverclock-profile-comments' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-profile-comments/1.0.1/locale/en.yml',
+	],
 	'justoverclock-purify' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-purify/1.1.0/resources/locale/en.yml',
 	],
