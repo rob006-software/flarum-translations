@@ -10,7 +10,19 @@
             "historyBestAnswerSet": "Reputation points increased for receiving a best answer.",
             "historyBestAnswerUnset": "Reputation points decreased for unassigning a best answer.",
             "historyDiscussionCreated": "Reputation points increased for starting a discussion.",
-            "historyDiscussionClosed": "Reputation points decreased because your thread was closed."
+            "historyDiscussionClosed": "Reputation points decreased because your thread was closed.",
+            "settings": {
+                "maxPoints": "Maximum reputation points",
+                "maxPointsHelp": "Insert the number of the maximum allowed reputation points, e.g. \"1000\"",
+                "discussionPoints": "Points for a new discussion created",
+                "discussionPointsHelp": "Insert the number of point that a user earn for creating a new discussion (e.g. 0.55)",
+                "bestAnswerPoints": "Points for \"best answer\"",
+                "bestAnswerHelp": "Insert the number of point that a user earn for receiving a \"best answer\"",
+                "likePoints": "Points for Like received",
+                "likePointsHelp": "Insert the number of point that a user earn for receiving a like",
+                "postPoints": "Points for post created",
+                "postPointsHelp": "Insert the number of point that a user earn for creating a new post (points are multiplied based on the post length)"
+            }
         },
         "forum": {
             "reputation": "Reputation",
