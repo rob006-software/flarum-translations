@@ -12,16 +12,16 @@
             "historyDiscussionCreated": "Punti reputazione aumentati per aver creato una discussione.",
             "historyDiscussionClosed": "Punti reputazione diminuiti per discussione chiusa.",
             "settings": {
-                "maxPoints": "",
-                "maxPointsHelp": "",
-                "discussionPoints": "",
-                "discussionPointsHelp": "",
-                "bestAnswerPoints": "",
-                "bestAnswerHelp": "",
-                "likePoints": "",
-                "likePointsHelp": "",
-                "postPoints": "",
-                "postPointsHelp": ""
+                "maxPoints": "Punti reputazione massimi",
+                "maxPointsHelp": "Inserisci il numero massimo di punti reputazione raggiungibili, esempio: 1000",
+                "discussionPoints": "Punti assegnati per ogni discussione creata",
+                "discussionPointsHelp": "Inserisci il numero di punti reputazione da assegnare per ogni nuova discussione creata, esempio: 0.55",
+                "bestAnswerPoints": "Punti per \"miglior risposta\" ricevuta",
+                "bestAnswerHelp": "Inserisci il numero di punti da assegnare per aver ricevuto un flag \"risposta migliore\"",
+                "likePoints": "Punti per like ricevuto",
+                "likePointsHelp": "Inserisci il numero di punti da assegnare per aver ricevuto un like",
+                "postPoints": "Punti per creazione post",
+                "postPointsHelp": "Inserisci il numero di punti da assegnare per la creazione di un nuovo post (i punti vengono moltiplicati in base alla lunghezza dello stesso)"
             }
         },
         "forum": {
@@ -34,8 +34,8 @@
             "topReputation": "Utenti con reputazione top",
             "discussionCount": "Discussioni aperte",
             "totalPosts": "Post totali",
-            "reputationHistory": "",
-            "reputationHistoryPageTitle": ""
+            "reputationHistory": "Timeline Reputazione",
+            "reputationHistoryPageTitle": "Questa timeline mostra gli ultimi 15 eventi che hanno modificato la tua reputazione."
         }
     }
 }
