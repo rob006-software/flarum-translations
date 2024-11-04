@@ -633,7 +633,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Compatible with recent Flarum">🟢</span><span title="Extension is abandoned">❗</span>
 			<a href="https://github.com/flarum/gdpr" title="blomstra/gdpr"><code>blomstra/gdpr</code></a>
 		</td>
 		<td align="center">56<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
