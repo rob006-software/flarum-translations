@@ -1,41 +1,41 @@
 {
     "justoverclock-reputation-score": {
         "admin": {
-            "pointsIncreased": "",
-            "pointsDecreased": "",
-            "historyPostDeleted": "",
-            "historyPostCreated": "",
-            "historyLikeSet": "",
-            "historyLikeUnset": "",
-            "historyBestAnswerSet": "",
-            "historyBestAnswerUnset": "",
-            "historyDiscussionCreated": "",
-            "historyDiscussionClosed": "",
+            "pointsIncreased": "Баллов прибавилось",
+            "pointsDecreased": "Баллов убавилось",
+            "historyPostDeleted": "Убавилось баллов репутации за удаление или скрытие сообщения.",
+            "historyPostCreated": "Прибавилось баллов репутации за создание сообщения.",
+            "historyLikeSet": "Прибавилось баллов репутации за получение одобрения.",
+            "historyLikeUnset": "Убавилось баллов репутации за снятие одобрения.",
+            "historyBestAnswerSet": "Прибавилось баллов репутации за присуждение Лучшего ответа.",
+            "historyBestAnswerUnset": "Убавилось баллов репутации за неполучение Лучшего ответа.",
+            "historyDiscussionCreated": "Прибавилось баллов репутации за открытие дискуссии.",
+            "historyDiscussionClosed": "Убавилось баллов репутации за закрытие вашей ветки обсуждения.",
             "settings": {
-                "maxPoints": "",
-                "maxPointsHelp": "",
-                "discussionPoints": "",
-                "discussionPointsHelp": "",
-                "bestAnswerPoints": "",
-                "bestAnswerHelp": "",
-                "likePoints": "",
-                "likePointsHelp": "",
-                "postPoints": "",
-                "postPointsHelp": ""
+                "maxPoints": "Максимум баллов репутации",
+                "maxPointsHelp": "Ведите максимальное значение счетчика баллов репутации, напр. \"1000\"",
+                "discussionPoints": "Получено баллов за создание дискуссии",
+                "discussionPointsHelp": "Введите, сколько баллов получит пользователь за создание новой дискуссии (напр., 0.55)",
+                "bestAnswerPoints": "Баллов за \"Лучший ответ\"",
+                "bestAnswerHelp": "Введите, сколько баллов получит пользователь за присуждение ему \"Лучшего ответа\"",
+                "likePoints": "Баллов за получение одобрения",
+                "likePointsHelp": "Введите, сколько баллов получит пользователь за получение одобрения",
+                "postPoints": "Баллов за создание сообщения",
+                "postPointsHelp": "Введите, сколько баллов получит пользователь за создание нового сообщения (баллы равны длине сообщения, умноженной на этот коэффициент)"
             }
         },
         "forum": {
-            "reputation": "",
-            "reputationBar": "",
-            "trust": "",
-            "reputationIncreasedNotification": "",
-            "reputationDecreasedNotification": "",
-            "pageTitle": "",
-            "topReputation": "",
-            "discussionCount": "",
-            "totalPosts": "",
-            "reputationHistory": "",
-            "reputationHistoryPageTitle": ""
+            "reputation": "Репутация",
+            "reputationBar": "Баллов репутации",
+            "trust": "Репутация",
+            "reputationIncreasedNotification": "Ваша репутация растёт! Не останавливайтесь на достигнутом!",
+            "reputationDecreasedNotification": "О, нет... Ваша репутация падает!",
+            "pageTitle": "Топ 20 доверенных пользователей",
+            "topReputation": "Топ репутации",
+            "discussionCount": "Число дискуссий",
+            "totalPosts": "Всего сообщений",
+            "reputationHistory": "История изменения репутации",
+            "reputationHistoryPageTitle": "Этот список отображает последние 15 событий, изменивших вашу репутацию."
         }
     }
 }
