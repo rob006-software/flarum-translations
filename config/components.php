@@ -112,9 +112,6 @@ return [
 	'blomstra-fontawesome' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-fontawesome/0.1.5/locale/en.yml',
 	],
-	'blomstra-gdpr' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/gdpr/1.0.0-beta.2/resources/locale/en.yml',
-	],
 	'blomstra-horizon' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-horizon/0.4.3/resources/locale/en.yml',
 	],
@@ -504,6 +501,9 @@ return [
 	],
 	'flarum-flags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/flags/v1.8.1/locale/en.yml',
+	],
+	'flarum-gdpr' => [
+		'beta' => 'https://raw.githubusercontent.com/flarum/gdpr/1.0.0-beta.2/resources/locale/en.yml',
 	],
 	'flarum-likes' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/likes/v1.8.1/locale/en.yml',
