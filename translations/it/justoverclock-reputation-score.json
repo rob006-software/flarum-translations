@@ -11,6 +11,7 @@
             "historyBestAnswerUnset": "Punti reputazione diminuiti perchè un tuo post non è più contrassegnato come \"Risposta migliore\".",
             "historyDiscussionCreated": "Punti reputazione aumentati per aver creato una discussione.",
             "historyDiscussionClosed": "Punti reputazione diminuiti per discussione chiusa.",
+            "historyFlagCreated": "",
             "settings": {
                 "maxPoints": "Punti reputazione massimi",
                 "maxPointsHelp": "Inserisci il numero massimo di punti reputazione raggiungibili, esempio: 1000",
@@ -21,7 +22,9 @@
                 "likePoints": "Punti per like ricevuto",
                 "likePointsHelp": "Inserisci il numero di punti da assegnare per aver ricevuto un like",
                 "postPoints": "Punti per creazione post",
-                "postPointsHelp": "Inserisci il numero di punti da assegnare per la creazione di un nuovo post (i punti vengono moltiplicati in base alla lunghezza dello stesso)"
+                "postPointsHelp": "Inserisci il numero di punti da assegnare per la creazione di un nuovo post (i punti vengono moltiplicati in base alla lunghezza dello stesso)",
+                "flagPoints": "",
+                "flagPointsHelp": ""
             }
         },
         "forum": {
@@ -35,7 +38,8 @@
             "discussionCount": "Discussioni aperte",
             "totalPosts": "Post totali",
             "reputationHistory": "Timeline Reputazione",
-            "reputationHistoryPageTitle": "Questa timeline mostra gli ultimi 15 eventi che hanno modificato la tua reputazione."
+            "reputationHistoryPageTitle": "Questa timeline mostra gli ultimi 15 eventi che hanno modificato la tua reputazione.",
+            "firstLoginModalContent": ""
         }
     }
 }

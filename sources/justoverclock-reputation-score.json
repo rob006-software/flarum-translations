@@ -11,6 +11,7 @@
             "historyBestAnswerUnset": "Reputation points decreased for unassigning a best answer.",
             "historyDiscussionCreated": "Reputation points increased for starting a discussion.",
             "historyDiscussionClosed": "Reputation points decreased because your thread was closed.",
+            "historyFlagCreated": "Increased reputation points for reporting a user.",
             "settings": {
                 "maxPoints": "Maximum reputation points",
                 "maxPointsHelp": "Insert the number of the maximum allowed reputation points, e.g. \"1000\"",
@@ -21,7 +22,9 @@
                 "likePoints": "Points for Like received",
                 "likePointsHelp": "Insert the number of point that a user earn for receiving a like",
                 "postPoints": "Points for post created",
-                "postPointsHelp": "Insert the number of point that a user earn for creating a new post (points are multiplied based on the post length)"
+                "postPointsHelp": "Insert the number of point that a user earn for creating a new post (points are multiplied based on the post length)",
+                "flagPoints": "Points for report post",
+                "flagPointsHelp": "Insert the number of points that a user earn for reporting posts"
             }
         },
         "forum": {
@@ -35,7 +38,8 @@
             "discussionCount": "Discussion Count",
             "totalPosts": "Total Posts",
             "reputationHistory": "Reputation History",
-            "reputationHistoryPageTitle": "This timeline displays the latest 15 events that impacted your reputation."
+            "reputationHistoryPageTitle": "This timeline displays the latest 15 events that impacted your reputation.",
+            "firstLoginModalContent": "<p>\n    This forum use a dynamic reputation system to encourage positive engagement within the community.\n    As a user, you can earn reputation points by contributing meaningfully to discussions and interactions, such as:\n    <ul>\n      <li>\n        Creating new discussions: Share your thoughts and ideas with the community.\n      </li>\n      <li>\n        Replying to posts: Earn points based on the quality of your responses.\n      </li>\n      <li>\n        Reporting users: Help maintain a healthy environment by reporting inappropriate behavior.\n      </li>\n      <li>\n        Receiving likes: Show appreciation to others' posts and get rewarded in return.\n      </li>\n      <li>\n        Writing best answers: earn points by contributing answers that solve a problem and are chosen as the \"best answer\"\n      </li>\n    </ul>\n  </p>\n  <p>\n    Earn reputation points by acting positively, helping others, and contributing to the community. Your actions\n    speak louder, and with each point, you gain recognition for your efforts. Keep engaging and build your reputation!\n  </p>\n"
         }
     }
 }
