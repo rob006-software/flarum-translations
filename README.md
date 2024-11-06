@@ -773,6 +773,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`flarum-emoji`](https://weblate.rob006.net/projects/flarum/flarum-emoji) | [`flarum/emoji`](https://github.com/flarum/emoji) |
 | [`flarum-extension-manager`](https://weblate.rob006.net/projects/flarum/flarum-extension-manager) | [`flarum/extension-manager`](https://github.com/flarum/extension-manager) |
 | [`flarum-flags`](https://weblate.rob006.net/projects/flarum/flarum-flags) | [`flarum/flags`](https://github.com/flarum/flags) |
+| [`flarum-gdpr`](https://weblate.rob006.net/projects/flarum/flarum-gdpr) | [`flarum/gdpr`](https://github.com/flarum/gdpr) |
 | [`flarum-likes`](https://weblate.rob006.net/projects/flarum/flarum-likes) | [`flarum/likes`](https://github.com/flarum/likes) |
 | [`flarum-lock`](https://weblate.rob006.net/projects/flarum/flarum-lock) | [`flarum/lock`](https://github.com/flarum/lock) |
 | [`flarum-markdown`](https://weblate.rob006.net/projects/flarum/flarum-markdown) | [`flarum/markdown`](https://github.com/flarum/markdown) |
@@ -894,7 +895,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-database-queue`](https://weblate.rob006.net/projects/flarum/blomstra-database-queue) | [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue) |
 | [`blomstra-flag-duplicates`](https://weblate.rob006.net/projects/flarum/blomstra-flag-duplicates) | [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate) |
 | [`blomstra-fontawesome`](https://weblate.rob006.net/projects/flarum/blomstra-fontawesome) | [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome) |
-| [`blomstra-gdpr`](https://weblate.rob006.net/projects/flarum/blomstra-gdpr) | [`blomstra/gdpr`](https://github.com/flarum/gdpr) |
 | [`blomstra-horizon`](https://weblate.rob006.net/projects/flarum/blomstra-horizon) | [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon) |
 | [`blomstra-mark-unread`](https://weblate.rob006.net/projects/flarum/blomstra-mark-unread) | [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread) |
 | [`blomstra-oauth-apple`](https://weblate.rob006.net/projects/flarum/blomstra-oauth-apple) | [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple) |
