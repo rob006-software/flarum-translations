@@ -2,11 +2,11 @@
     "ianm-translate": {
         "admin": {
             "glossary": {
-                "button": "",
-                "create_button": "",
+                "button": "Glosarium",
+                "create_button": "Buat istilah baru",
                 "section": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Konfigurasi Glosarium",
+                    "help": "Kata-kata atau istilah glosarium didefinisikan sehingga layanan penerjemahan tidak akan menerjemahkannya. Hal ini berguna untuk kata benda yang tepat, istilah teknis, atau kata lain yang tidak boleh diterjemahkan."
                 }
             },
             "permission": {
@@ -17,14 +17,14 @@
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Pengaturan Umum",
+                    "help": "Pengaturan ini mengontrol perilaku umum sistem penerjemahan."
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Pengaturan Penyedia Layanan Penerjemahan",
+                    "help": "Pilih penyedia terjemahan yang Anda sukai dan konfigurasikan pengaturannya di sini."
                 },
-                "button": "",
+                "button": "Pengaturan",
                 "seemless": "Terjemahan Yang Mulus",
                 "seemless-help": "Fitur beta. Ketika diaktifkan, semua konten pengguna akan diterjemahkan secara otomatis ke semua bahasa forum yang tersedia. Ketika pengguna melihat konten multi-bahasa, terjemahan akan ditampilkan secara otomatis.",
                 "deepl": {
