@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Експортує інформацію про користувачів, за якими слідкують, і користувачів, які слідкують за ними.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Видаляє всі дані, пов'язані з користувачами, які підписалися."
                 }
             }
         }
