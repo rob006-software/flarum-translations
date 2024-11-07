@@ -6,7 +6,7 @@
                 "description": "Status różnych działań i integracji GDPR",
                 "data_types": {
                     "title": "Typy danych",
-                    "help_text": "To są obecnie zarejestrowane typy danych. Każdy typ jest wymieniony razem z jego przypisanymi akcjami eksportu, anonimizacji i usuwania. Jeśli rozszerzenie obsługuje jakiekolwiek dane, które podlegają przepisom GDPR, powinno zarejestrować swoje typy danych za pomocą <code>blomstra/gdpr</code>.\nDane przechowywane w tabeli <code>user</code> są obsługiwane oddzielnie, zobacz poniżej dane tabeli użytkowników.\n",
+                    "help_text": "To są obecnie zarejestrowane typy danych. Każdy typ jest wymieniony razem z jego przypisanymi akcjami eksportu, anonimizacji i usuwania. Jeśli rozszerzenie obsługuje jakiekolwiek dane, które podlegają przepisom GDPR, powinno zarejestrować swoje typy danych za pomocą <code>flarum/gdpr</code>.\nDane przechowywane w tabeli <code>user</code> są obsługiwane oddzielnie, zobacz poniżej dane tabeli użytkowników.\n",
                     "type": "Typ",
                     "export_description": "Akcja eksportu",
                     "anonymize_description": "Akcja anonimizacji",
