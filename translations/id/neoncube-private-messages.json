@@ -2,52 +2,52 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": ""
+                "return_key": "Tombol enter (return) akan mengirim pesan"
             },
             "permissions": {
-                "start_label": "",
-                "allow_users_to_receive_email_notifications": ""
+                "start_label": "Memulai percakapan pribadi",
+                "allow_users_to_receive_email_notifications": "Izinkan pengguna menerima pemberitahuan email saat mereka menerima pesan pribadi"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Percakapan"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Mulai Percakapan",
+                "help": "Ketikkan username untuk memulai obrolan.",
+                "help_start": "Ketik pesan pertama Anda. Ini akan menjadi satu-satunya pesan yang dapat Anda kirim hingga {username} membalas. Klik pengguna untuk memilih penerima lain.",
+                "search_recipients": "Masukkan username...",
+                "submit": "Kirim & Mulai Percakapan",
+                "copied": "Pesan Anda telah disalin ke clipboard.",
+                "more_users": "Jika Anda tidak melihat pengguna yang Anda cari, mereka belum mengaktifkan fitur pesan pribadi.",
+                "already": "Anda sudah memiliki percakapan dengan {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": ""
+                "messages_single": "Percakapan Baru",
+                "messages_multiple": "{count} total pesan",
+                "chat_with": "Mengobrol dengan {username}",
+                "start": "Mulai Percakapan",
+                "start_of_conversation": "Awal Percakapan",
+                "read": "Baca",
+                "cant_start": "Tidak Dapat Memulai Percakapan",
+                "text_placeholder": "Ketikkan Pesan Anda",
+                "send": "Kirim Pesan"
             },
             "notifications": {
-                "message_received": "",
-                "new_private_message": "",
+                "message_received": "Tes",
+                "new_private_message": "Ada Pesan Baru",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "Pesan dari {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
-                        "manageEmailSettings": ""
+                        "subject": "Pesan dari {user}",
+                        "youHaveReceivedNewMessage": "nda menerima pesan baru dari {user}!",
+                        "viewMessage": "Lihat pesan",
+                        "manageEmailSettings": "Kelola pengaturan email"
                     }
                 }
             }
