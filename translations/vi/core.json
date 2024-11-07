@@ -33,7 +33,7 @@
                 "display_name_heading": "Tên hiển thị của người dùng",
                 "display_name_text": "Chọn trình điều khiển để hiển thị tên người dùng. Mặc định, tên người dùng sẽ được hiển thị.",
                 "forum_description_heading": "Mô tả diễn đàn",
-                "forum_description_text": "Nhập một hoặc hai câu ngắn mô tả cộng đồng của bạn. Cái này sẽ xuất hiện trong thẻ meta và hiển thị trong các công cụ tìm kiếm.",
+                "forum_description_text": "Nhập một hoặc hai câu ngắn mô tả cộng đồng của bạn. Nội dung này sẽ xuất hiện trong thẻ meta và hiển thị trong các công cụ tìm kiếm.",
                 "forum_title_heading": "Tiêu đề diễn đàn",
                 "home_page_heading": "Trang chủ",
                 "home_page_text": "Chọn trang mà người dùng sẽ nhìn thấy đầu tiên khi họ truy cập diễn đàn của bạn.",
@@ -250,8 +250,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "Chỉnh sửa {username}"
+                            "tooltip": "Chỉnh sửa {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -264,6 +264,9 @@
                         },
                         "join_time": {
                             "title": "Tham gia lúc"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "ID"
@@ -438,7 +441,7 @@
                 "discussion_renamed_text": "{username} đã thay đổi tiêu đề thành {new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
-                "time_lapsed_text": "{period} trước"
+                "time_lapsed_text": "{period} sau"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -596,6 +599,11 @@
             "number_suffix": {
                 "kilo_text": "N",
                 "mega_text": "Tr"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": ", ",

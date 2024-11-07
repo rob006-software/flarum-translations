@@ -2,86 +2,106 @@
     "ianm-twofactor": {
         "admin": {
             "edit_group": {
-                "2fa_label": "",
-                "2fa_help": "",
-                "admin_2fa_help": ""
+                "2fa_label": "2FA szükséges",
+                "2fa_help": "A csoport tagjainak engedélyeznie kell a kétfaktoros hitelesítést (2FA) a fiókjukhoz.",
+                "admin_2fa_help": "A(z) {adminName} tagjainak mindig engedélyezniük kell a 2FA-t."
             },
             "permissions": {
-                "see_two_factor_status_label": "",
-                "manage_others_label": ""
+                "see_two_factor_status_label": "Más felhasználók 2FA állapotának megtekintése",
+                "manage_others_label": "2FA kezelése más felhasználók számára"
             },
             "settings": {
                 "groups": {
-                    "title": "",
-                    "help": ""
+                    "title": "2FA-t megkövetelő csoportok",
+                    "help": "A kétfaktoros hitelesítés (2FA) használatának megkövetelése a csoportok tagjai számára. Az előírt csoportba tartozó felhasználók nem tilthatják le a 2FA-t."
                 },
-                "forum_logo_qr": "",
-                "forum_logo_qr_help": "",
-                "forum_logo_qr_width": "",
-                "forum_logo_qr_width_help": "",
-                "logo_qr": "",
-                "logo_qr_help": ""
+                "forum_logo_qr": "Fórumlogó beágyazása a QR-kódba",
+                "forum_logo_qr_help": "A fórum logójának beágyazása a 2FA engedélyezésekor megjelenő QR-kódba. Ez segíthet a felhasználóknak azonosítani a megfelelő beolvasandó QR-kódot.",
+                "forum_logo_qr_width": "A fórumlogó QR-kódjának szélessége",
+                "forum_logo_qr_width_help": "A 2FA engedélyezésekor megjelenő QR-kódba ágyazott fórumlogó szélessége. Legfeljebb 200.",
+                "logo_qr": "Logó a QR-kódon",
+                "logo_qr_help": "Ha a logó fel lett töltve, akkor ez a logó lesz beágyazva a QR-kódba. A fórumlogó használatához hagyja üresen.",
+                "tokens": {
+                    "heading": "Hozzáférési tokenek",
+                    "help": "A még nagyobb biztonság érdekében a hozzáférési tokenek további viselkedését itt kezelheti.",
+                    "kill_inactive_tokens": "Inaktív tokenek érvénytelenítése",
+                    "kill_inactive_tokens_help": "Automatikusan érvényteleníti azokat a tokeneket, melyek a megadott ideig inaktívak voltak.",
+                    "kill_inactive_tokens_age_days": "Inaktív tokenek érvénytelenítése ennyi idő után (napban)",
+                    "kill_inactive_tokens_age_days_help": "A napok száma, amennyi tétlenség után a hozzáférési tokenek törölve lesznek.",
+                    "also_kill_developer_tokens": "Fejlesztői tokenek érvénytelenítése",
+                    "also_kill_developer_tokens_help": "Törli a fejlesztői hozzáférési tokeneket is a megadott időtartamnyi tétlenség után."
+                }
             }
         },
         "forum": {
             "user_2fa": {
-                "alert_message": ""
+                "alert_message": "A fiókja eléréséhez engedélyeznie kell a 2FA-t."
             },
             "security": {
-                "two_factor_heading": "",
-                "two_factor_help": "",
-                "two_factor_apps": "",
-                "two_factor_enabled": "",
-                "two_factor_disabled": "",
-                "two_factor_title": "",
-                "enable_2fa_button": "",
-                "disable_2fa_button": "",
-                "enable_2fa_modal_text": "",
-                "qr_code_alt": "",
-                "enter_token": "",
-                "verify_button": "",
-                "loading_qr": "",
-                "backup_codes": "",
-                "backup_codes_instruction": "",
-                "saved_backup_codes_button": "",
-                "backup_codes_remaining": "",
-                "two_factor_enabled_confirmation": "",
-                "ok_button": "",
-                "confirm_disable_2fa_title": "",
-                "confirm_disable_2fa_text": "",
-                "confirm_disable_2fa_text_other_user": "",
-                "cannot_disable": "",
-                "cannot_disable_tooltip": "",
-                "cancel_button": "",
-                "qr_tab": "",
-                "manual_tab": "",
-                "scan_qr_instruction": "",
-                "manual_entry_instruction": ""
+                "two_factor_heading": "2FA",
+                "two_factor_help": "A kétlépcsős hitelesítés (2FA) további biztonsági réteget biztosít a fiókjának. Ha engedélyezi, akkor a jelszava mellett egy hitelesítő alkalmazásból származó tokent is meg kell adnia bejelentkezéskor, vagy egyes más műveletek esetén. Ez biztosítja, hogy a fiókja biztonságos maradjon, még akkor is, ha a jelszava kompromittálódik, hiszen a támadóknak a (30 másodpercenként változó) kódjára is szükségük volna, hogy hozzáférjenek a fiókjához.",
+                "two_factor_apps": "Számos ingyenesen elérhető alkalmazás létezik, például a {google}, az {authy}, a {microsoft} és még sok más.",
+                "two_factor_enabled": "A 2FA be van kapcsolva ennél a fióknál.",
+                "two_factor_disabled": "A 2FA ki van kapcsolva ennél a fióknál.",
+                "two_factor_title": "Állapot:",
+                "enable_2fa_button": "2FA bekapcsolása",
+                "disable_2fa_button": "2FA kikapcsolása",
+                "enable_2fa_modal_text": "Olvassa le a lenti QR-kódot a hitelesítő alkalmazásával, majd adja meg a kapott tokent a kétlépcsős hitelesítés bekapcsolásához.",
+                "qr_code_alt": "QR-kód a kétlépcsős hitelesítéshez",
+                "enter_token": "Adja meg a tokent",
+                "verify_button": "Ellenőrzés",
+                "loading_qr": "QR-kód betöltése…",
+                "backup_codes": "Helyreállítási kódok",
+                "backup_codes_instruction": "Mentse el ezeket a kódokat egy biztonságos helyre. Ezekkel akkor is hozzáférhet a fiókjához, ha elveszítette az elsődleges hitelesítési módját. Ezek többé nem fognak megjelenni.",
+                "saved_backup_codes_button": "Elmentettem a kódokat",
+                "backup_codes_remaining": "Fennmaradó biztonsági kódok:",
+                "two_factor_enabled_confirmation": "A kétlépcsős hitelesítés sikeresen engedélyezve lett a fiókjához.",
+                "ok_button": "Ok",
+                "confirm_disable_2fa_title": "Kétlépcsős hitelesítés kikapcsolásának megerősítése",
+                "confirm_disable_2fa_text": "Biztos, hogy kikapcsolja a kétlépcsős hitelesítést?",
+                "confirm_disable_2fa_text_other_user": "Biztos, hogy kikapcsolja a kétlépcsős hitelesítést {username} számára? Ez eltávolítja a biztonsági kódokat, és kikapcsolja a 2FA-t a fiókjához.",
+                "cannot_disable": "A jelenlegi konfiguráció azt diktálja, hogy nem kapcsolhatja ki a kétlépcsős hitelesítést.",
+                "cannot_disable_tooltip": "A 2FA nem kapcsolható ki",
+                "cancel_button": "Mégse",
+                "qr_tab": "QR-kód leolvasása",
+                "manual_tab": "Kézi beállítás",
+                "scan_qr_instruction": "Olvassa le a fenti QR-kódot a hitelesítő alkalmazásával, majd adja meg a kapott tokent a kétlépcsős hitelesítés bekapcsolásához.",
+                "manual_entry_instruction": "Írja be a kapott kódot a hitelesítő alkalmazásában, majd adja meg a kapott tokent a kétlépcsős hitelesítés bekapcsolásához."
             },
             "log_in": {
-                "two_factor_placeholder": "",
-                "two_factor_required_message": ""
+                "two_factor_placeholder": "2FA token, például 123456",
+                "two_factor_required_message": "A folytatáshoz érvényes 2FA token szükséges."
             }
         },
         "email": {
             "subject": {
-                "status_changed": ""
+                "status_changed": "A fiókja kétlépcsős hitelesítése {type}"
             },
             "body": {
-                "status_changed": ""
+                "status_changed": "Kedves {recipient_display_name}!\n\nA kétlépcsős hitelesítés {type} a fiókjához: {forum_url}.\n\nHa ezt kérte, akkor nincs további teendője. Ha nem járult hozzá ehhez a változáshoz, akkor azonnal lépjen kapcsolatba a fórum adminisztrátoraival.\n"
             },
             "status_type": {
-                "enabled": "",
-                "disabled": ""
+                "enabled": "be lett kapcsolva",
+                "disabled": "ki lett kapcsolva"
             }
         },
         "views": {
             "reset_password": {
-                "two_factor_token_label": ""
+                "two_factor_token_label": "2FA token"
             },
             "two_factor_token": {
-                "title": "",
-                "submit_button": ""
+                "title": "Kétlépcsős hitelesítés",
+                "submit_button": "Token beküldése"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     },
@@ -89,8 +109,8 @@
         "lib": {
             "data": {
                 "twofactordata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Exportálja a 2FA állapotát és a titkosított biztonsági kódokat.",
+                    "delete_description": "Törli az összes, 2FA-val kapcsolatos adatot."
                 }
             }
         }

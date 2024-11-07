@@ -20,7 +20,7 @@
                 "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "Unggah gambar",
+                "upload": "Upload gambar",
                 "empty": "Tidak ada gambar",
                 "loading": "=> kilowhat-cimaise.ref.loading",
                 "personal": "Album pribadi oleh <a>{username}</a>",
@@ -40,13 +40,13 @@
                 "published-at": "Diterbitkan {ago}"
             },
             "upload-modal": {
-                "title": "Unggah gambar dalam album \"{title}\"",
+                "title": "Upload gambar dalam album \"{title}\"",
                 "titleInComposer": "Edit gambar",
                 "uploading": "Mengunggah",
                 "processing": "Memproses",
                 "select-file": "Pilih file",
                 "drop-file": "atau seret dan letakkan di sini",
-                "publishSilently": "Terbitkan secara diam-diam",
+                "publishSilently": "Publikasikan secara diam-diam",
                 "submit": "Submit",
                 "submitInComposer": "Lanjutkan",
                 "reload": "Muat ulang daftar konsep"
@@ -89,7 +89,7 @@
             },
             "picture-thumbnail": {
                 "by-user": "=> kilowhat-cimaise.ref.by-user",
-                "in-album": ""
+                "in-album": "Di"
             },
             "picture-controls": {
                 "controls": "=> kilowhat-cimaise.ref.controls",
@@ -129,7 +129,7 @@
             },
             "license-label": {
                 "not-specified": "Tidak ditentukan",
-                "not-specified-help": ""
+                "not-specified-help": "Periksa persyaratan penggunaan situs untuk mengetahui hak cipta default"
             }
         },
         "admin": {
@@ -148,14 +148,14 @@
                 "licenseOwnPublishedPicture": "Mengubah lisensi gambar sendiri setelah diterbitkan",
                 "renameOwnPublishedPicture": "Mengubah judul dan deskripsi gambar sendiri setelah diterbitkan",
                 "hideOwnPicture": "Menyembunyikan gambar sendiri",
-                "publishSilently": "Menerbitkan gambar secara diam-diam (tanpa event post)",
+                "publishSilently": "Publikasikan gambar secara diam-diam (tanpa event post)",
                 "attachCimaiseAlbum": "Melampirkan album secara manual ke diskusi",
-                "moderate": ""
+                "moderate": "Memoderasi"
             },
             "settings": {
                 "watermarkFile": "Gambar watermark",
-                "watermarkFileHelp": "Gambar yang disediakan akan diterapkan 1:1 pada setiap unggahan, kecuali pratinjau terkecil.",
-                "watermarkPlacement": "",
+                "watermarkFileHelp": "Gambar yang disediakan akan menerapkan rasio 1:1 pada setiap unggahan, kecuali pratinjau terkecil.",
+                "watermarkPlacement": "Penempatan watermark",
                 "watermarkPlacementOptions": {
                     "topLeft": "Kiri atas",
                     "bottomLeft": "Kiri bawah",
@@ -177,11 +177,11 @@
                 "license-label": "Label",
                 "license-description": "Deskripsi",
                 "license-add": "Tambahkan lisensi",
-                "stickers": "",
+                "stickers": "Sticker",
                 "sticker-key": "Key",
                 "sticker-label": "Label",
                 "sticker-url": "URL",
-                "sticker-add": ""
+                "sticker-add": "Tambahkan sticker"
             },
             "status": {
                 "pictures": {
@@ -193,7 +193,7 @@
                     "originals": "Asli: {size}",
                     "conversions": "Konversi: {size}"
                 },
-                "refresh": "Segarkan",
+                "refresh": "Refresh",
                 "loading": "Memuat..."
             }
         },
@@ -213,15 +213,15 @@
                     "license": "Lisensi tidak valid, edit tidak diizinkan",
                     "author": "Penulis tidak valid, edit tidak diizinkan",
                     "takenAt": "Tanggal pengambilan tidak valid, edit tidak diizinkan",
-                    "isDraftUnSubmit": "Status konsep tidak valid, tidak diizinkan untuk membatalkan pengajuan",
-                    "isDraftSubmit": "Status konsep tidak valid, tidak diizinkan untuk diserahkan",
-                    "isApprovedUnApprove": "Status persetujuan tidak valid, tidak diizinkan untuk membatalkan persetujuan",
-                    "isApprovedApprove": "Status persetujuan tidak valid, tidak diizinkan untuk menyetujui",
-                    "isHiddenRestore": "Status sembunyikan tidak valid, tidak diizinkan untuk memulihkan",
-                    "isHiddenHide": "Status sembunyikan tidak valid, tidak diizinkan untuk menyembunyikan",
-                    "isFavorite": "Status favorit tidak valid, edit tidak diizinkan",
-                    "stickers": "",
-                    "crop": "Pangkas tidak valid, edit tidak diizinkan"
+                    "isDraftUnSubmit": "Pernyataan konsep tidak valid, tidak diizinkan untuk membatalkan pengajuan",
+                    "isDraftSubmit": "Pernyataan konsep tidak valid, tidak diizinkan untuk diserahkan",
+                    "isApprovedUnApprove": "Pernyataan persetujuan tidak valid, tidak diizinkan untuk membatalkan persetujuan",
+                    "isApprovedApprove": "Pernyataan persetujuan tidak valid, tidak diizinkan untuk menyetujui",
+                    "isHiddenRestore": "Pernyataan sembunyikan tidak valid, tidak diizinkan untuk memulihkan",
+                    "isHiddenHide": "Pernyataan sembunyikan tidak valid, tidak diizinkan untuk menyembunyikan",
+                    "isFavorite": "Pernyataan favorit tidak valid, pengeditan tidak diizinkan",
+                    "stickers": "Sticker tidak valid, pengeditan tidak diizinkan",
+                    "crop": "Pemotongan tidak valid, pengeditan tidak diizinkan"
                 }
             }
         },
@@ -229,10 +229,10 @@
             "albums": "Album",
             "pictures": "Gambar",
             "loading": "Memuat...",
-            "load-more": "Muat Lebih Banyak",
+            "load-more": "Muat Lainnya",
             "controls": "Kontrol",
             "restore": "Pulihkan",
-            "hide": "",
+            "hide": "Sembunyikan",
             "delete": "Hapus",
             "by-user": "Oleh"
         }

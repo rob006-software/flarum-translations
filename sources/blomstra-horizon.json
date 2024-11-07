@@ -26,6 +26,8 @@
                     "redis-used-memory": "Redis Used Memory",
                     "redis-peak-memory": "Redis Peak Memory",
                     "redis-max-memory": "Redis Max Memory",
+                    "redis-memory-policy": "Redis Memory Policy",
+                    "redis-memory-policy-tooltip": "The memory policy is the way Redis will select what to remove when\nthe maxmemory limit is reached. The default is `noeviction`: New values \naren’t saved when memory limit is reached. Click to view documentation.\n",
                     "redis-cpu-user": "Redis CPU User",
                     "redis-cpu-sys": "Redis CPU Sys",
                     "jobs-per-minute": "Jobs Per Minute",

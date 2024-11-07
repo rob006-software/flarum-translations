@@ -97,13 +97,13 @@
         },
         "email": {
             "body": {
-                "noReasonProvided": "",
-                "approved": "",
-                "rejected": ""
+                "noReasonProvided": "Không có lý do nào được cung cấp.",
+                "approved": "Xin chào {recipient_display_name},\n\nYêu cầu thay đổi tên người dùng của bạn thành \"{new_username}\" đã được chấp nhận bởi {actor_display_name}.\n\nBây giờ bạn có thể đăng nhập bằng tên người dùng mới của bạn: {login_url}\n",
+                "rejected": "Xin chào {recipient_display_name},\n\nYêu cầu của bạn để thay đổi tên người dùng từ \"{old_username}\" thành \"{requested_username}\" đã bị từ chối bởi {actor_display_name}.\n\nLý do: {reason}\n"
             },
             "subject": {
-                "approved": "",
-                "rejected": ""
+                "approved": "{display_name} đã chấp nhận yêu cầu thay đổi tên người dùng của bạn thành {requested_username}",
+                "rejected": "{display_name} đã từ chối yêu cầu thay đổi tên người dùng của bạn thành {requested_username}"
             }
         }
     }

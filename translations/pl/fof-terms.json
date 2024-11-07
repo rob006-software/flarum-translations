@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "Data ostatniej aktualizacji polityki. Ustawienie tej wartości wymusi ponowną akceptację dla wszystkich użytkowników, którzy zaakceptowali politykę przed tą datą. Data musi być z przeszłości (w przeciwnym razie użytkownicy nie będą w stanie zaakceptować polityki).\n",
                 "export-url": "Eksport",
-                "export-url-help": "Każdy użytkownik z uprawnieniem \"Eksportowanie wszystkich danych o politykach\" ma dostęp do tych adresów URL, które pozwalają pobrać listę użytkowników, którzy zaakceptowali daną politykę. Możesz znaleźć więcej informacji o dostępnych opcjach na <a>wiki rozszerzenia</a>.\n"
+                "export-url-help": "Każdy użytkownik z uprawnieniem \"Eksportowanie wszystkich danych o politykach\" ma dostęp do tych adresów URL, które pozwalają pobrać listę użytkowników, którzy zaakceptowali daną politykę. Możesz znaleźć więcej informacji o dostępnych opcjach na <a>wiki rozszerzenia</a>.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "Przeglądanie statusu akceptacji polityk przez użytkownika",
@@ -71,7 +73,7 @@
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

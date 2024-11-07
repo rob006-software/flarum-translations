@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "Son şərtlərin yenilənmə tarixi. Bu dəyərin təyin edilməsi həmin tarixdən əvvəl qəbul etmiş bütün istifadəçilərin yenidən qəbul etmələrini tələb edəcək. Keçmişdə olmalıdır (əks halda istifadəçilər tarixdən sonra heç vaxt qəbul edə və modalı keçə bilməyəcəklər).\n",
                 "export-url": "Eksport URL",
-                "export-url-help": "\"Bütün siyasət məlumatlarını ixrac et\" icazəsi olan istənilən istifadəçi bu siyasəti qəbul edən istifadəçilərin siyahısını endirmək üçün həmin URL-lərə daxil ola bilər. Mövcud seçimlər haqqında ətraflı məlumatı <a>uzatma vikisində</a> tapa bilərsiniz.\n"
+                "export-url-help": "\"Bütün siyasət məlumatlarını ixrac et\" icazəsi olan istənilən istifadəçi bu siyasəti qəbul edən istifadəçilərin siyahısını endirmək üçün həmin URL-lərə daxil ola bilər. Mövcud seçimlər haqqında ətraflı məlumatı <a>uzatma vikisində</a> tapa bilərsiniz.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "İstifadəçi siyasətləri vəziyyətinə bax",
@@ -71,7 +73,7 @@
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

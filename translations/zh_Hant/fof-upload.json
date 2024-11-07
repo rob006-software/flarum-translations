@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "用戶上傳的所有檔案。",
-                    "anonymize_description": "從上傳的檔案中刪除使用者資訊。 這些檔案本身仍然可以在預匿名狀態下查看它們的使用者存取。",
-                    "delete_description": "刪除用戶上傳的所有檔案。"
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -36,6 +36,7 @@
                 "watermark": "在圖片上載時新增水印，僅支援非 gif 圖片。\n",
                 "s3_compatible_storage": "僅在使用 S3 兼容存儲時才需要以下設置。 如果您使用 AWS，您可以將它們留空。\n",
                 "s3_acl": "應用於上傳對象的 ACL（預設：私有）。 有關可能的值，請參閱 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "如果您使用需要特定 URL 格式（例如 Backblaze B2）的 S3 相容服務，或者您遇到預設 URL 格式問題，請使用此設定。對於大多數服務來說，通常不需要此設定。確保 URL 包含協定 (https://) 並且格式正確。範例：https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "公鑰和秘鑰留空時，可為實例單獨配置。\n",
                 "composer_buttons": "預設情況下，媒體管理按鈕和上傳按鈕皆可見。您可以選擇只顯示其中一個按鈕。\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "進階 S3 存儲設置",
                     "endpoint": "訪問域名（Endpoint）",
                     "use_path_style_endpoint": "使用 path-style 訪問域名",
-                    "acl": "訪問控制列表（ACL）"
+                    "acl": "訪問控制列表（ACL）",
+                    "custom_url": "自訂 S3 URL"
                 },
                 "disable-download-logging": {
                     "title": "停用下載日誌",
@@ -247,6 +249,17 @@
                     "hide_fail": "無法將檔案「{fileName}」設為私有",
                     "show_fail": "無法公開檔案“{fileName}”",
                     "loading": "將檔案設為私有..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "用戶上傳的所有檔案。",
+                    "anonymize_description": "從上傳的檔案中刪除使用者資訊。 這些檔案本身仍然可以在預匿名狀態下查看它們的使用者存取。",
+                    "delete_description": "刪除用戶上傳的所有檔案。"
                 }
             }
         }

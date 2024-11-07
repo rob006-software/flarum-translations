@@ -1,0 +1,63 @@
+{
+    "yippy-tag-with-themes": {
+        "admin": {
+            "labels": {
+                "design_default": "Mise en page de conception de discussion"
+            },
+            "helps": {
+                "design_default": "Sélectionner une mise en page de conception par défaut"
+            },
+            "options": {
+                "design_options": {
+                    "sticky_note": "Note épinglée",
+                    "sticky_note_tag": "Note épinglée (étiquette primaire)",
+                    "sticky_note_tab": "Note épinglée (onglet primaire)",
+                    "sticky_note_banner": "Note épinglée (bannière primaire)",
+                    "sticky_note_outline": "Schéma de note épinglée",
+                    "sticky_note_outline_tag": "Schéma de note épinglée (étiquette primaire)",
+                    "sticky_note_outline_tab": "Schéma de note épinglée (onglet primaire)",
+                    "sticky_note_outline_banner": "Schéma de note épinglée (bannière primaire)",
+                    "basic": "Essentiel",
+                    "basic_tag": "Essentiel (étiquette primaire)",
+                    "basic_tab": "Essentiel (onglet primaire)",
+                    "basic_banner": "Essentiel (bannière primaire)",
+                    "basic_outline": "Schéma de base",
+                    "basic_outline_tag": "Schéma de base (étiquette primaire)",
+                    "basic_outline_tab": "Schéma de base (onglet primaire)",
+                    "basic_outline_banner": "Schéma de base (bannière primaire)",
+                    "flat": "Plat",
+                    "flat_tag": "Plat (étiquette primaire)",
+                    "flat_tab": "Plat (onglet primaire)",
+                    "flat_banner": "Plat (bannière primaire)",
+                    "flat_border": "Bordure plate",
+                    "flat_border_tag": "Bordure plate (étiquette primaire)",
+                    "flat_border_tab": "Bordure plate (onglet primaire)",
+                    "flat_border_banner": "Bordure plate (bannière primaire)"
+                }
+            },
+            "designs": {
+                "title": "Thème personnalisé pour les étiquettes",
+                "description": "Permet de définir une liste de règles pour l'affichage de différents thèmes pour des étiquettes spécifiques",
+                "add": "Ajouter une conception pour les étiquettes",
+                "banner": "Thème de conception {index}",
+                "header": {
+                    "theme": "Thème personnalisé",
+                    "color_theme": "Personnalisation de la palette de couleurs par défaut"
+                },
+                "data": {
+                    "themeName": "Sélectionner un thème",
+                    "tags": "Étiquettes primaires sélectionnées",
+                    "tags_help": "Sélectionnez une ou plusieurs étiquettes pour ce thème de conception personnalisé",
+                    "primary_background_color": "Modifier la couleur d'arrière-plan primaire",
+                    "primary_font_class": "Modifier la police primaire",
+                    "child_background_color": "Modifier la couleur d'arrière-plan de l'enfant",
+                    "child_font_class": "Modifier la police enfant",
+                    "outline_background_color": "Modifier la couleur du contour",
+                    "secondary_font_class": "Modifier la police secondaire",
+                    "unread_color": "Modifier la couleur d'arrière-plan des messages non lus",
+                    "is_enabled": "Activer le thème de conception"
+                }
+            }
+        }
+    }
+}

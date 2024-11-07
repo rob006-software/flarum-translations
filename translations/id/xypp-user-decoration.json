@@ -1,0 +1,102 @@
+{
+    "xypp-user-decoration": {
+        "forum": {
+            "decoration-no-available": "Tidak ada dekorasi yang tersedia",
+            "decorations": "Dekorasi",
+            "decoration-box": {
+                "error": "Jenis Tidak Diketahui",
+                "avatar": "Desain Avatar",
+                "name": "Desain Username",
+                "post": "Desain Post",
+                "card": "Desain Kartu Pengguna",
+                "loading": "Memuat",
+                "closed": "Ditutup",
+                "no-login": "Login untuk melihat pratinjau"
+            },
+            "decoration": {
+                "delete_button": "Hapus",
+                "remove_button": "Hapus",
+                "change_button": "Ubah",
+                "delete_confirm": "Apakah Anda yakin untuk menghapus dekorasi ini?"
+            },
+            "page": {
+                "show-decorations": "Dekorasi"
+            },
+            "modal": {
+                "title": "Tawarkan Dekorasi",
+                "tip": "Silakan pilih dekorasi",
+                "loading": "Memuat",
+                "button": "Tawarkan"
+            },
+            "create": "Buat",
+            "create-success": "Dekorasi berhasil dibuat",
+            "create-modal": {
+                "edit-title": "Edit Dekorasi #{0}",
+                "edit-button": "Edit",
+                "title": "Buat Dekorasi",
+                "type": {
+                    "title": "Jenis",
+                    "avatar": "Avatar",
+                    "username": "Username",
+                    "post": "Post",
+                    "usercard": "Kartu Pengguna"
+                },
+                "name": "nama",
+                "desc": "Deskripsi",
+                "style": "Style Sheet",
+                "tip": "Gunakan selector .base untuk memilih target, .element-xxx untuk menambahkan element baru",
+                "button": "Buat",
+                "delete-button": "Hapus"
+            },
+            "delete_confirm": "Apakah Anda yakin untuk menghapus dekorasi ini?",
+            "delete-success": "Berhasil Menghapus",
+            "user_controls": {
+                "offer": "Tawarkan Dekorasi"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_decoration": "Melihat dekorasi orang lain",
+                "delete_decoration": "Menghapus dekorasi orang lain",
+                "offer_decoration": "Tawarkan dekorasi",
+                "create_decoration": "Membuat/Mengedit dekorasi",
+                "view-all": "Melihat semua dekorasi"
+            },
+            "settings": {
+                "username_hijack": {
+                    "title": "Pembajakan Username",
+                    "desc": "Plugin ini akan mencoba membajak metode username dari model pengguna dan menyisipkan beberapa informasi identitas untuk mengenali pengguna. Jika beberapa plugin lain mengalami kerusakan akibat pembajakan, Anda dapat menonaktifkan fungsi ini untuk menyelesaikan masalah."
+                },
+                "avatar_hijack": {
+                    "title": "Pembajakan Avatar",
+                    "desc": "Plugin ini akan mencoba membajak metode avatar dari model pengguna dan menyisipkan beberapa informasi identitas untuk mengenali pengguna. Jika beberapa plugin lain mengalami kerusakan akibat pembajakan, Anda dapat menonaktifkan fungsi ini untuk menyelesaikan masalah."
+                },
+                "view-all": {
+                    "title": "Tampilkan Semua",
+                    "desc": "Apakah \"tampilkan semua\" diaktifkan?"
+                },
+                "no_decorate_class_filter": {
+                    "title": "Tidak Ada Filter Kelas Dekorasi",
+                    "desc": "Nama kelas yang mencegah avatar/username di dalamnya berubah bentuk karena dekorasi. Satu baris awal tanpa titik awalan"
+                }
+            }
+        }
+    },
+    "xypp-store": {
+        "forum": {
+            "type": {
+                "decoration": "Dekorasi"
+            },
+            "unavailable": {
+                "decoration": {
+                    "dumplicate": "Sudah Memiliki"
+                }
+            },
+            "create-modal": {
+                "providers": {
+                    "decoration": "Dekorasi"
+                }
+            }
+        }
+    }
+}

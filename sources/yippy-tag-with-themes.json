@@ -1,0 +1,63 @@
+{
+    "yippy-tag-with-themes": {
+        "admin": {
+            "labels": {
+                "design_default": "Discussion Design Layout"
+            },
+            "helps": {
+                "design_default": "Select a default design layout"
+            },
+            "options": {
+                "design_options": {
+                    "sticky_note": "Sticky Note",
+                    "sticky_note_tag": "Sticky Note (Primary Tag)",
+                    "sticky_note_tab": "Sticky Note (Primary Tab)",
+                    "sticky_note_banner": "Sticky Note (Primary Banner)",
+                    "sticky_note_outline": "Sticky Note Outline",
+                    "sticky_note_outline_tag": "Sticky Note Outline (Primary Tag)",
+                    "sticky_note_outline_tab": "Sticky Note Outline (Primary Tab)",
+                    "sticky_note_outline_banner": "Sticky Note Outline (Primary Banner)",
+                    "basic": "Basic",
+                    "basic_tag": "Basic (Primary Tag)",
+                    "basic_tab": "Basic (Primary Tab)",
+                    "basic_banner": "Basic (Primary Banner)",
+                    "basic_outline": "Basic Outline",
+                    "basic_outline_tag": "Basic Outline (Primary Tag)",
+                    "basic_outline_tab": "Basic Outline (Primary Tab)",
+                    "basic_outline_banner": "Basic Outline (Primary Banner)",
+                    "flat": "Flat",
+                    "flat_tag": "Flat (Primary Tag)",
+                    "flat_tab": "Flat (Primary Tab)",
+                    "flat_banner": "Flat (Primary Banner)",
+                    "flat_border": "Flat Border",
+                    "flat_border_tag": "Flat Border (Primary Tag)",
+                    "flat_border_tab": "Flat Border (Primary Tab)",
+                    "flat_border_banner": "Flat Border (Primary Banner)"
+                }
+            },
+            "designs": {
+                "title": "Customised Design Theme for Tags",
+                "description": "Provide a list of rules for displaying different themes for specific tags",
+                "add": "Add Design for Tags",
+                "banner": "Design Theme {index}",
+                "header": {
+                    "theme": "Custom Theme",
+                    "color_theme": "Customise Default Color Scheme"
+                },
+                "data": {
+                    "themeName": "Select Theme",
+                    "tags": "Selected Primary Tags",
+                    "tags_help": "Choose one or more tag for this customised design theme",
+                    "primary_background_color": "Edit Primary Background Color",
+                    "primary_font_class": "Edit Primary Font",
+                    "child_background_color": "Edit Child Background Color",
+                    "child_font_class": "Edit Child Font",
+                    "outline_background_color": "Edit Outline Color",
+                    "secondary_font_class": "Edit Secondary Font",
+                    "unread_color": "Edit Unread Background Color",
+                    "is_enabled": "Enable Design Theme"
+                }
+            }
+        }
+    }
+}

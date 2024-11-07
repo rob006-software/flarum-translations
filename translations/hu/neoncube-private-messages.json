@@ -1,0 +1,56 @@
+{
+    "neoncube-private-messages": {
+        "admin": {
+            "settings": {
+                "return_key": "Az Enter gomb elküldi az üzenetet"
+            },
+            "permissions": {
+                "start_label": "Privát beszélgetések indítása",
+                "allow_users_to_receive_email_notifications": "Engedélyezés, hogy a felhasználók e-mail-értesítéseket kapjanak a privát üzenetekről"
+            }
+        },
+        "forum": {
+            "dropdown": {
+                "tooltip": "Beszélgetések"
+            },
+            "modal": {
+                "title": "Beszélgetés indítása",
+                "help": "Kezdjen beírni egy felhasználóneve egy csevegés indításához.",
+                "help_start": "Írja be az első üzenetét. Ez lesz az egyetlen elküldhető üzenet, amíg {username} nem válaszol. Kattintson a felhasználóra, hogy másik címzettet válasszon.",
+                "search_recipients": "Írja be a felhasználónevet…",
+                "submit": "Elküldés és a beszélgetés elkezdése",
+                "copied": "Az üzenete a vágólapra lett másolva.",
+                "more_users": "Ha nem találja a keresett felhasználót, akkor nincs beállítva náluk a privát csevegés.",
+                "already": "Már van egy beszélgetése vele: {username}."
+            },
+            "chat": {
+                "messages_single": "Új beszélgetés",
+                "messages_multiple": "összesen {count} üzenet",
+                "chat_with": "Csevegés vele: {username}",
+                "start": "Beszélgetés indítása",
+                "start_of_conversation": "A beszélgetés kezdete",
+                "read": "Olvasás",
+                "cant_start": "Nem kezdhető el a beszélgetés",
+                "text_placeholder": "Írja be az üzenetét",
+                "send": "Üzenet küldése"
+            },
+            "notifications": {
+                "message_received": "Teszt",
+                "new_private_message": "Valaki üzenetet küld",
+                "web": {
+                    "new_private_message": {
+                        "body": "Üzenet tőle: {fromUser}"
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "Üzenet tőle: {user}",
+                        "youHaveReceivedNewMessage": "Új üzenet érkezett tőle: {user}",
+                        "viewMessage": "Üzenet megtekintése",
+                        "manageEmailSettings": "E-mail-beállítások kezelése"
+                    }
+                }
+            }
+        }
+    }
+}

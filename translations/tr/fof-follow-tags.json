@@ -16,7 +16,7 @@
             },
             "badge": {
                 "following_tag_tooltip": "Takip Edilen",
-                "lurking_tag_tooltip": "Gizlenmiş"
+                "lurking_tag_tooltip": "Yakın Takip"
             },
             "sub_controls": {
                 "header": "{tagName} Aboneliği",
@@ -76,6 +76,16 @@
             "filtering_options": {
                 "none": "Takip Edilen Tartışmalar",
                 "tags": "Takip Edilen Etiketler"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "",
+                    "anonymize_description": ""
+                }
             }
         }
     },

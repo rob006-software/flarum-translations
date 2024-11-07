@@ -1,5 +1,5 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
@@ -36,6 +36,7 @@
                 "watermark": "Zvolte, zda se má při nahrávání obrázků přidat vodoznak. Vodoznaky se přidávají k obrázkům, které nejsou soubory GIF, na základě vašich preferencí uvedených níže.\n",
                 "s3_compatible_storage": "Následující nastavení jsou vyžadována pouze při použití úložiště kompatibilního se standardem S3. Pokud používáte AWS, můžete je nechat prázdné.\n",
                 "s3_acl": "ACL, které by se mělo použít na nahraný objekt (výchozí: soukromý). Možné hodnoty naleznete na adrese https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Chcete-li použít pověření v profilu instance, ponechte klíč a tajný klíč prázdný.\n",
                 "composer_buttons": "Ve výchozím nastavení je viditelné tlačítko správce médií i tlačítko pro nahrávání. Můžete také zvolit zobrazení pouze jednoho tlačítka.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Pokročilá nastavení úložiště S3",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Použít path style endpoint",
-                    "acl": "Seznam řízení přístupu (ACL)"
+                    "acl": "Seznam řízení přístupu (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Zakázat protokolování stahování",

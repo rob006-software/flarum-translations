@@ -1,0 +1,76 @@
+{
+    "xypp-invite-user": {
+        "forum": {
+            "page": {
+                "title": "invite",
+                "code": {
+                    "title": "Invite User",
+                    "code": "Invite Code",
+                    "url": "Invite URL"
+                },
+                "my": {
+                    "title": "My Invite User",
+                    "code": "Input Invite Code",
+                    "inviter": "You have accepted the user as your invite user.",
+                    "accept": "Accept",
+                    "no-inviter": "This user has not accepted any invite user."
+                },
+                "invite": {
+                    "title": "Invited User by Me",
+                    "username": "Username",
+                    "avatar": "Avatar",
+                    "empty": "You have not invited any user.",
+                    "time": "Invited Time"
+                },
+                "no_tip": "Never show inviter modal for me"
+            },
+            "confirm": {
+                "title": "Confirm Invitation",
+                "msg": "User {username} invited you to the forum. Click the button below to accept this user as your invite user.",
+                "alert": "You can only accept one user as invite user. You can close this modal in profile->invite",
+                "accept": "Accept",
+                "success": "Success."
+            },
+            "invite": "Invite",
+            "notification": {
+                "user_invited": "{username} just accepted your invitation.",
+                "user_invited_label": "Invitation Accepted"
+            },
+            "condition": {
+                "user_invite": "Invite User",
+                "user_be_invited": "Be Invited"
+            }
+        },
+        "admin": {
+            "settings": {
+                "reward_invite": {
+                    "title": "Reward Invite",
+                    "description": "Reward to inviter.(Requires antoinefr/flarum-ext-money)"
+                },
+                "reward_be_invited": {
+                    "title": "Reward Be Invited",
+                    "description": "Reward to user be invited.(Requires antoinefr/flarum-ext-money)"
+                },
+                "invite_each_other": {
+                    "title": "Invite Each Other",
+                    "description": "User can invite the user who invited him or not."
+                },
+                "invite_new_user_only": {
+                    "title": "Allow Invite New User Only",
+                    "description": "Do not allow invite user whose register time is less then hisself."
+                }
+            },
+            "condition": {
+                "user_invite": "Invite User",
+                "user_be_invited": "Be Invited"
+            }
+        },
+        "api": {
+            "invited_by_user_id_is_self": "You cannot invite yourself.",
+            "has_already_be_invited": "You have already accepted another invite user.",
+            "invited_by_user_id_is_empty": "Invited by user id is empty.",
+            "invited_each_other": "You cannot be invited by the user you invited.",
+            "invited_an_elder_user": "Inviter's register time is greater then yours."
+        }
+    }
+}

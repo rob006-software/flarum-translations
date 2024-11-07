@@ -17,6 +17,9 @@
                 "zip": ""
             },
             "settings_button": "",
+            "delete_button": "",
+            "delete_confirmation": "",
+            "create_button": "",
             "required_package_button": "",
             "you-need-for": {
                 "aliyun": "",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "",
+                "name_label": "",
                 "local": {
                     "target": {
                         "label": "",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "",
-                            "description": ""
-                        },
-                        "secret": {
-                            "label": "",
-                            "description": ""
-                        }
+                    "credentials-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "credentials-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "region": {
                         "label": "",
@@ -123,15 +125,13 @@
                     }
                 },
                 "gdrive": {
-                    "client": {
-                        "id": {
-                            "label": "",
-                            "description": ""
-                        },
-                        "secret": {
-                            "label": "",
-                            "description": ""
-                        }
+                    "client-id": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "client-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "refresh-token": {
                         "label": "",
@@ -140,6 +140,10 @@
                     "folder": {
                         "label": "",
                         "description": ""
+                    },
+                    "help": {
+                        "test_success_alert": "",
+                        "test_button": ""
                     }
                 },
                 "ftp": {

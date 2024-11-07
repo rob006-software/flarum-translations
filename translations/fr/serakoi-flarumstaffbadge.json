@@ -12,6 +12,14 @@
             "staffBadgeTextBg": {
                 "label": "Couleur de l'arrière-plan du badge de l'équipe",
                 "help": "Couleur du badge (par défaut sur « rgb (70, 209, 96) »)"
+            },
+            "permissions": {
+                "canEditStaffBadge": {
+                    "label": "Peut modifier le badge de l'équipe"
+                },
+                "canEditTagList": {
+                    "label": "Peut modifier la liste des étiquettes"
+                }
             }
         },
         "forum": {

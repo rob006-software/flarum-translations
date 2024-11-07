@@ -1,0 +1,81 @@
+{
+    "shebaoting-money": {
+        "admin": {
+            "settings": {
+                "title": "",
+                "initialmoney": "",
+                "moneyforpost": "",
+                "moneyfordiscussion": "",
+                "moneyname": "",
+                "postminimumlength": "",
+                "noshowzero": "",
+                "autoremove": "",
+                "moneyforlike": "",
+                "helpextensionlikes": ""
+            },
+            "permissions": {
+                "edit_money_label": ""
+            },
+            "autoremove": [
+                "",
+                "",
+                ""
+            ],
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": ""
+            },
+            "modal": {
+                "title": "",
+                "current": "",
+                "submit_button": ""
+            },
+            "log_time": "",
+            "log_type": "",
+            "log_amount": "",
+            "log_balance": "",
+            "log_description": "",
+            "log_type_deposit": "",
+            "log_type_withdrawal": "",
+            "log_type_transfer": "",
+            "log_type_reward": "",
+            "no_money_logs": "",
+            "load_more": "",
+            "logs_description": {
+                "created_discussion": "",
+                "created_reply": "",
+                "reply_received": "",
+                "liked": "",
+                "liked_by": "",
+                "unliked_post": "",
+                "unliked_by": "",
+                "initial_registration": "",
+                "admin_updated": "",
+                "discussion_started": "",
+                "discussion_restored": "",
+                "discussion_hidden": "",
+                "discussion_deleted": ""
+            },
+            "logs_type": {
+                "discussion_started": "",
+                "post_created": "",
+                "post_restored": "",
+                "post_hidden": "",
+                "post_deleted": "",
+                "discussion_restored": "",
+                "discussion_hidden": "",
+                "discussion_deleted": "",
+                "liked": "",
+                "liked_by_others": "",
+                "admin_updated": "",
+                "registration": "",
+                "discussion_replied": ""
+            }
+        }
+    }
+}

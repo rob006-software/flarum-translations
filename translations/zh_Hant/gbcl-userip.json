@@ -12,6 +12,11 @@
                 "ipsb": {
                     "label": "IP.SB",
                     "description": "使用<b>https://ip.sb</b>取得免費IP位置資訊（請注意速率限制）"
+                },
+                "ipinfo": {
+                    "label": "IpInfo",
+                    "description": "使用<b>https://ipinfo.io</b>取得更準確的IP資訊（需要令牌）",
+                    "key": "IpInfo 令牌（必填）"
                 }
             }
         }

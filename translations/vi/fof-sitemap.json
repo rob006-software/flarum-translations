@@ -29,18 +29,18 @@
                     "daily": "Hằng ngày"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Phòng chống 404 mềm",
+                    "help": "Khi một mô hình không có hoặc có ít nội dung liên quan, Google và các trình thu thập dữ liệu khác có thể đánh dấu chúng là các trang \"404 mềm\". Để loại bỏ điều này, hãy thiết lập số lượng tối thiểu các mục cần thiết cho mỗi mục đủ điều kiện ở đây.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Người dùng: Số lượng bình luận/bài viết tối thiểu",
+                            "minimum_item_threshold_help": "Số lượng bình luận/bài viết tối thiểu mà một người dùng phải có để hồ sơ của họ được bao gồm trong bản đồ trang web."
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Thẻ: Số lượng thảo luận tối thiểu",
+                            "minimum_item_threshold_help": "Số lượng thảo luận tối thiểu mà một thẻ phải có để được bao gồm trong bản đồ trang web."
                         }
                     }
                 },

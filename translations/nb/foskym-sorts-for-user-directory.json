@@ -1,0 +1,84 @@
+{
+    "foskym-sorts-for-user-directory": {
+        "admin": {
+            "settings": {
+                "sort_by_nickname": "",
+                "sort_by_monthly_posts": "",
+                "sort_by_groups_count": "",
+                "sort_by_money": "",
+                "sort_by_likes_received": "",
+                "sort_by_recently_seen": "",
+                "sort_by_comments": "",
+                "sort_by_ziven_checkin": "",
+                "sort_by_invited_user": "",
+                "sort_by_badges_count": ""
+            },
+            "go_to_user_directory_extension": "",
+            "go_to_this_extension": ""
+        },
+        "forum": {
+            "user_card": {
+                "monthly_discussions": "",
+                "monthly_comments": ""
+            }
+        },
+        "lib": {
+            "integrations": {
+                "antoinefr-money": {
+                    "least_money": "",
+                    "most_money": ""
+                },
+                "clarkwinkelmann-likes-received": {
+                    "most_likes_received": "",
+                    "least_likes_received": ""
+                },
+                "core": {
+                    "nickname_az": "",
+                    "nickname_za": "",
+                    "recently_seen": "",
+                    "least_recently_seen": "",
+                    "most_comments": "",
+                    "least_comments": "",
+                    "most_monthly_discussions": "",
+                    "most_monthly_comments": "",
+                    "most_groups_count": ""
+                },
+                "ziven-daily-check-in": {
+                    "recently_checkin": "",
+                    "most_total_checkin": "",
+                    "most_total_continuous_checkin": ""
+                },
+                "xypp-invite-user": {
+                    "most_invited_user": ""
+                },
+                "v17development-user-badges": {
+                    "most_badges_count": ""
+                }
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "nickname_az": "",
+                "nickname_za": "",
+                "most_money": "",
+                "least_money": "",
+                "most_likes_received": "",
+                "least_likes_received": "",
+                "recently_seen": "",
+                "least_recently_seen": "",
+                "most_comments": "",
+                "least_comments": "",
+                "recently_checkin": "",
+                "most_total_checkin": "",
+                "most_total_continuous_checkin": "",
+                "most_monthly_discussions": "",
+                "most_monthly_comments": "",
+                "most_groups_count": "",
+                "most_invited_user": "",
+                "most_badges_count": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "ffans-geetest": {
+        "admin": {
+            "settings": {
+                "product_service_label": "CAPTCHA 產品",
+                "product_service_help_text": "GeeTest驗證碼的版本你用什麼。",
+                "product_service_v4_label": "自適應 CAPTCHA (v4)",
+                "product_service_v3_label": "CAPTCHA (v3)",
+                "context_event_label": "情境事件",
+                "context_event_help_text": "允許在不同的上下文事件或業務類型中使用GeeTest驗證碼，您可以為每個上下文設定獨立的配置。",
+                "context_event_login_label": "=> core.ref.log_in",
+                "context_event_signup_label": "=> core.ref.sign_up",
+                "context_event_forgot_label": "=> core.forum.forgot_password.title",
+                "config": {
+                    "title": "設置 {context}",
+                    "standalone_label": "獨立",
+                    "standalone_help_text": "在此場景中啟用獨立配置。",
+                    "product_label": "動畫風格",
+                    "product_help_text": "",
+                    "product_float_label": "",
+                    "product_float_help_text": "",
+                    "product_popup_label": "",
+                    "product_popup_help_text": "",
+                    "product_bind_label": "",
+                    "product_bind_help_text": "",
+                    "product_learn_more_link": "",
+                    "id_label": "",
+                    "id_help_text": "",
+                    "key_label": "",
+                    "key_help_text": ""
+                }
+            },
+            "test": {
+                "title": "",
+                "help_text": "",
+                "submit_button": "",
+                "load_button": "",
+                "reload_button": ""
+            }
+        },
+        "lib": {
+            "verify": {
+                "success_message": "",
+                "error_message": "",
+                "error_retry_message": "",
+                "init_error_message": "",
+                "required_message": "",
+                "not_pass_message": ""
+            }
+        }
+    }
+}

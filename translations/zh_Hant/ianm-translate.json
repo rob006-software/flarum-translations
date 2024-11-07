@@ -1,12 +1,33 @@
 {
     "ianm-translate": {
         "admin": {
+            "glossary": {
+                "button": "",
+                "create_button": "建立新術語",
+                "section": {
+                    "heading": "",
+                    "help": ""
+                },
+                "glossary": "詞彙表"
+            },
             "permission": {
                 "refresh-translation": "強制重新翻譯緩存的翻譯",
                 "translate-to-locale": "查看目前語言環境的翻譯",
-                "translate-to-all-locales": "在任何論壇語言環境中查看翻譯"
+                "translate-to-all-locales": "在任何論壇語言環境中查看翻譯",
+                "edit-translation": "手動編輯翻譯"
             },
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
+                "button": "",
+                "seemless": "無縫翻譯",
+                "seemless-help": "測試版功能。 啟用後，所有使用者內容將自動翻譯為所有其他可用的論壇語言。 當使用者查看多語言內容時，會自動顯示翻譯。",
                 "deepl": {
                     "api_key": {
                         "help": "在{link}註冊。驅動程式將自動檢測免費/專業密鑰類型。",
@@ -36,12 +57,28 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "LibreTranslate 伺服器的 URL。 如果您正在運行自己的實例，請在此輸入 URL。 架構應該是“http”或“https”。",
+                        "label": "伺服器位址"
+                    },
+                    "port": {
+                        "help": "LibreTranslate 伺服器的連接埠。 如果您正在運行自己的實例，請在此輸入連接埠。",
+                        "label": "伺服器連接埠"
+                    },
+                    "api_key": {
+                        "help": "（可選）如果您的 LibreTranslate 伺服器需要 API 金鑰，請在此輸入。",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                },
                 "translate-all-enabled": "啟用所有翻譯語言",
                 "translate-all-help": "啟用後，管理員使用者和其他獲得許可的人可以將內容翻譯為任何已安裝的論壇語言。",
                 "bind-browser-language": "增加瀏覽器語言",
                 "bind-browser-language-help": "啟用後，使用者的瀏覽器語言將被增加到可用於翻譯的語言清單中。",
                 "use-native-locale-names": "使用本機區域設置名稱",
                 "use-native-locale-names-help": "啟用後，將使用本機區域設置名稱，而不是名稱的目前區域設置版本。",
+                "translate-polls": "翻譯民意調查",
+                "translate-polls-help": "啟用後，建立或編輯投票時，投票標題、副標題、圖像替代文字和答案選項將自動翻譯。",
                 "provider": "翻譯提供商",
                 "readme-info": "有關擴充套件資訊，請參閱 README 檔案。",
                 "readme-none": "該驅動程式不需要額外的設置。"
@@ -51,6 +88,24 @@
             "unknown-language": "（未檢測到）",
             "detected-language": "本帖使用了{postLang}",
             "translate-button-label": "翻譯",
+            "refresh-translation": "重新整理翻譯",
+            "original-content": {
+                "title": "原創內容",
+                "view": "看原始內容"
+            },
+            "manage-translations": {
+                "translations-label": "翻譯",
+                "button-label": "管理翻譯",
+                "poll": {
+                    "image-alt": "投票圖像 ALT 文字（如果有）",
+                    "option": "投票選項 {number}",
+                    "original-title": "原始語言",
+                    "subtitle": "投票字幕",
+                    "title": "管理投票翻譯",
+                    "question": "投票問題"
+                },
+                "save-changes": "=> core.ref.save_changes"
+            },
             "discussion": {
                 "post": {
                     "close-translation": "關閉翻譯",
@@ -69,13 +124,17 @@
                         "label": "總是顯示使用語言"
                     }
                 }
+            },
+            "composer": {
+                "multi-languages": "提示：您可以輸入您選擇的語言，論壇將為您翻譯。"
             }
         },
         "lib": {
             "providers": {
                 "deepl": "DeepL",
                 "google-free": "Google 翻譯",
-                "google-cloud": "Google Cloud 翻譯"
+                "google-cloud": "Google Cloud 翻譯",
+                "libre": "自由翻譯"
             },
             "settings": {
                 "api-key": "API Key"

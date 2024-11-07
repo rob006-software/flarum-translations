@@ -2,99 +2,99 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": ""
+                "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "",
-                "delete_tag_button": "",
-                "delete_tag_confirmation": "",
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Izbriši oznako",
+                "delete_tag_confirmation": "Ali ste prepričani, da želite izbrisati to oznako? Oznake na razpravah ne bodo izbrisane.",
                 "description_label": "Opis",
-                "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "name_placeholder": "",
-                "slug_label": "",
-                "submit_button": "",
-                "title": ""
+                "hide_label": "Skrij iz vseh razprav",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Ustvari oznako"
             },
             "nav": {
-                "tags_button": "",
-                "tags_text": ""
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Upravljajte seznam oznak, ki so na voljo za organizacijo razprav."
             },
             "permissions": {
-                "allow_edit_tags_label": "",
-                "bypass_tag_counts_label": "",
-                "restrict_by_tag_heading": "",
-                "tag_discussions_label": ""
+                "allow_edit_tags_label": "Dovoli urejanje oznak",
+                "bypass_tag_counts_label": "Obidite zahteve za oznake",
+                "restrict_by_tag_heading": "Omeji po oznaki",
+                "tag_discussions_label": "Označi razprave"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
-                "range_separator_text": "",
-                "required_primary_heading": "",
-                "required_primary_text": "",
-                "required_secondary_heading": "",
-                "required_secondary_text": "",
-                "title": ""
+                "range_separator_text": " do ",
+                "required_primary_heading": "Zahtevano število primarnih oznak",
+                "required_primary_text": "Vnesite najmanjše in največje število primarnih oznak, ki jih je mogoče uporabiti pri razpravi.",
+                "required_secondary_heading": "Zahtevano število sekundarnih oznak",
+                "required_secondary_text": "Vnesite najmanjše in največje število sekundarnih oznak, ki jih je mogoče uporabiti pri razpravi.",
+                "title": "Nastavitve oznak"
             },
             "tags": {
-                "about_tags_text": "",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
-                "primary_heading": "",
-                "secondary_heading": "",
+                "about_tags_text": "Oznake se uporabljajo za kategorizacijo razprav. Primarne oznake so podobne tradicionalnim kategorijam foruma: lahko so urejene v dvonivojski hierarhiji. Sekundarne oznake nimajo hierarhije ali vrstnega reda in so uporabne za mikrokategorizacijo.",
+                "create_primary_tag_button": "Ustvari primarno oznako",
+                "create_secondary_tag_button": "Ustvari sekundarno oznako",
+                "primary_heading": "Primarne oznake",
+                "secondary_heading": "Sekundarne oznake",
                 "settings_heading": "Nastavitve"
             }
         },
         "forum": {
             "all_tags": {
                 "meta_description_text": "Vse oznake",
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "edit_title": "",
-                "title": "Izberi oznake za svoj pogovor"
+                "edit_title": "Uredi oznake za {title}",
+                "title": "Izberite oznake za svojo razpravo"
             },
             "composer_discussion": {
-                "choose_tags_link": ""
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
-                "edit_tags_button": ""
+                "edit_tags_button": "Uredi oznake"
             },
             "header": {
-                "back_to_tags_tooltip": ""
+                "back_to_tags_tooltip": "Nazaj na seznam oznak"
             },
             "index": {
                 "more_link": "Več...",
-                "tags_link": "",
-                "untagged_link": ""
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Neoznačeno"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "",
-                "added_tags_text": "",
-                "removed_tags_text": "",
-                "tags_text": ""
+                "added_and_removed_tags_text": "{username} je dodal {tagsAdded} in odstranil {tagsRemoved} {time}.",
+                "added_tags_text": "{username} je dodal {tagsAdded} {time}.",
+                "removed_tags_text": "{username} je odstranil {tagsRemoved} {time}.",
+                "tags_text": "{count, plural, one {{tags} oznaka} other {{tags} oznak}}"
             },
             "tag": {
-                "meta_description_text": "Vsi pogovori z oznako {tag}"
+                "meta_description_text": "Vse razprave z oznako {tag}"
             }
         },
         "lib": {
             "deleted_tag_text": "Izbrisano",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Obidite zahteve za oznake",
+                "choose_primary_placeholder": "{count, plural, one {Izberi primarno oznako} other {Izberi # primarnih oznak}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "Izberi oznake",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Izberite oznake",
+            "choose_tags_placeholder": "{count, plural, one {Izberi še 1 oznako} other {Izberi še # oznak}}",
             "name": "Ime",
             "tags": "Oznake"
         }

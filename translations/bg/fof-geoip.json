@@ -1,8 +1,18 @@
 {
     "fof-geoip": {
         "admin": {
+            "permissions": {
+                "see_country": ""
+            },
             "settings": {
-                "title": "*FriendsOfFlarum GeoIP*",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
                 "service_label": "",
                 "service_ipdata_label": "*IPData*",
                 "service_ipdata_description": "",
@@ -16,6 +26,9 @@
                 "service_ipsevenex_description": "",
                 "access_key_label": "",
                 "quota_label": "",
+                "show_flag_label": "",
+                "show_flag_help": "",
+                "title": "*FriendsOfFlarum GeoIP*",
                 "service_ipstack_label": "*IPStack*"
             }
         },
@@ -23,6 +36,7 @@
             "alerts": {
                 "ip_copied": ""
             },
+            "copy_ip_label": "",
             "map_button_label": "",
             "map_modal": {
                 "title": "",
@@ -37,6 +51,19 @@
                 "threat_types": "",
                 "error": "",
                 "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

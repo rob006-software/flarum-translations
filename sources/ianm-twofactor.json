@@ -20,7 +20,17 @@
                 "forum_logo_qr_width": "Forum Logo QR Code Width",
                 "forum_logo_qr_width_help": "The width of the forum logo embedded on the QR code displayed when enabling 2FA. Max 200.",
                 "logo_qr": "Logo on QR Code",
-                "logo_qr_help": "If logo has been uploaded, this logo will be embedded on the QR code. Leave blank to use the forum logo."
+                "logo_qr_help": "If logo has been uploaded, this logo will be embedded on the QR code. Leave blank to use the forum logo.",
+                "tokens": {
+                    "heading": "Access Tokens",
+                    "help": "For extended security, you can manage additional behaviour here related to access tokens.",
+                    "kill_inactive_tokens": "Kill Inactive Tokens",
+                    "kill_inactive_tokens_help": "Automatically kill access tokens that have been inactive for a specified period of time.",
+                    "kill_inactive_tokens_age_days": "Kill Inactive Tokens After (Days)",
+                    "kill_inactive_tokens_age_days_help": "The number of days of inactivity after which access tokens will be deleted.",
+                    "also_kill_developer_tokens": "Also Kill Developer Tokens",
+                    "also_kill_developer_tokens_help": "Also kill developer access tokens that have been inactive for the specified period of time."
+                }
             }
         },
         "forum": {
@@ -85,7 +95,7 @@
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "twofactordata": {

@@ -115,7 +115,7 @@
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domein",
                 "mail_mailgun_region_label": "Regio",
-                "mail_mailgun_secret_label": "Privé sleutel",
+                "mail_mailgun_secret_label": "Privésleutel",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Poort",
                 "mail_username_label": "=> core.ref.username",
@@ -250,8 +250,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "{username} wijzigen"
+                            "tooltip": "{username} wijzigen",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -264,6 +264,9 @@
                         },
                         "join_time": {
                             "title": "Aangesloten"
+                        },
+                        "user_actions": {
+                            "title": "Acties"
                         },
                         "user_id": {
                             "title": "ID"
@@ -596,6 +599,11 @@
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "D MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY"
             },
             "series": {
                 "glue_text": ", ",

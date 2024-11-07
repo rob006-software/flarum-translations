@@ -4,14 +4,32 @@
             "settings": {
                 "section_general_intro": "Các cài đặt cơ bản cần thiết để tiện ích mở rộng hoạt động.",
                 "api_key": "Mã khoá API Flarum",
+                "api_key_reset": "",
+                "api_key_reset_confirm": "",
                 "wordpress_url": "URL Wordpress",
-                "wordpress_username": "Tên tài khoản quản trị viên Wordpress",
+                "default_actor": "",
+                "default_actor_placeholder_invalid": "",
+                "default_actor_placeholder_search": "",
+                "default_actor_help": "",
+                "report_http_errors": "",
+                "report_http_errors_help": "",
                 "section_sso_intro": "Tính năng này sẽ kết nối người dùng Wordpress với Flarum. Một tài khoản sẽ tự động được tạo cho họ và được giữ đồng bộ với Wordpress. Nếu bạn có tài khoản hiện tại trong Flarum, chúng sẽ tự động được đối sánh với email của họ. Nếu bạn xóa một người dùng trong Flarum, nó sẽ được tạo lại vào lần đăng nhập tài khoản Wordpress tiếp theo. Để chặn người dùng Flarum, hãy tạm ngưng tài khoản trong Flarum.\n",
                 "enable_sso": "Bật tích hợp SSO",
+                "login_method": "",
+                "login_method_help": "",
+                "login_method_options": {
+                    "cookie": "",
+                    "redirect": "",
+                    "iframe": ""
+                },
                 "cookie_domain": "Miền cookie",
                 "cookie_domain_help": "Chỉ cần thiết nếu khác với miền Flarum",
+                "iframe_redirect_delay": "",
+                "iframe_redirect_delay_help": "",
                 "wordpress_login_path": "Đường dẫn đăng nhập Wordpress",
                 "wordpress_login_path_help": "Chỉ cần thiết nếu bạn đổi đường dẫn đăng nhập của mình theo cách thủ công hoặc thông qua một plugin",
+                "wordpress_login_full_page": "",
+                "wordpress_login_full_page_help": "",
                 "username_strategy": "Tên tài khoản cho người dùng mới",
                 "username_strategy_options": {
                     "user_login": "Tên tài khoản từ Wordpress",
@@ -32,6 +50,8 @@
                     "suspend": "Cấm người dùng Flarum vô thời hạn (Tiện ích Suspend phải được bật)"
                 },
                 "user_delete_desc": "Nếu bạn chọn \"xóa\", chỉ người dùng sẽ bị xóa, không xóa nội dung của họ trên Flarum.",
+                "role_group_sync": "",
+                "role_group_sync_help": "",
                 "section_comments_intro": "Tính năng này thay thế các bình luận Wordpress bằng iframe Flarum. Không thể đăng bài của khách được nữa. Các cuộc thảo luận chỉ được tạo cho các bài viết có bật bình luận trong Wordpress. Bật hoặc tắt nhận xét được đồng bộ hóa với khóa thảo luận của Flarum. Nếu blog của bạn đã có các bài viết khi bạn bật tính năng này, bạn cần bật và tắt nhận xét lại trên mỗi bài viết để thảo luận Flarum được tạo.\n",
                 "enable_comments": "Bật tích hợp bình luận",
                 "excerpt_html_whitelist": "Danh sách trắng các thẻ HTML cần giữ trong đoạn trích (phân tách bằng dấu phẩy)",
@@ -62,7 +82,8 @@
                     "lock": "Giữ thảo luận và khóa Flarum",
                     "hide": "Ẩn thảo luận trong Flarum",
                     "delete": "Xóa vĩnh viễn cuộc thảo luận khỏi Flarum"
-                }
+                },
+                "wordpress_username": "Tên tài khoản quản trị viên Wordpress"
             },
             "tabs": {
                 "wizard": "Cài đặt wizard",
@@ -105,6 +126,26 @@
                 "wordpress_password": "Mật khẩu quản trị Wordpress",
                 "wordpress_password_help": "Mật khẩu chỉ được sử dụng cho cấu hình ban đầu và không được lưu trữ.",
                 "install": "Cài đặt"
+            },
+            "role-group-sync": {
+                "head": {
+                    "role": "",
+                    "group": ""
+                },
+                "choose": {
+                    "role": "",
+                    "group": ""
+                },
+                "custom": {
+                    "role": "",
+                    "group": ""
+                },
+                "selected-custom-group": "",
+                "delete": "",
+                "role-loader": {
+                    "loading": "",
+                    "error": ""
+                }
             }
         },
         "forum": {
@@ -114,6 +155,13 @@
                 "username": "Chọn tên người dùng",
                 "submit": "Kích hoạt tài khoản diễn đàn",
                 "not_now": "Bỏ qua và đọc với tư cách khách ngay bây giờ"
+            },
+            "instant-login": {
+                "welcome_known_user": "",
+                "welcome_unknown_user": "",
+                "avatar_alt_text": "",
+                "message": "",
+                "button": ""
             },
             "edit-user-modal": {
                 "warning": "Người dùng này được giữ đồng bộ với Wordpress. Bạn nên chỉnh sửa email và mật khẩu từ Wordpress.\n",
@@ -153,13 +201,18 @@
                 "suspend-extension-required": "Tiện ích mở rộng Suspend phải được bật để sử dụng tùy chọn \"Cấm\" của \"Hành động khi người dùng xóa\"",
                 "cookie-domain-format": "Miền cookie dường như không phải là một miền hợp lệ. Kiểm tra xem đó chỉ là một miền không có bất kỳ giao thức hoặc đường dẫn nào",
                 "login-only-signup-open": "Bạn cần tắt Đăng ký theo quyền Flarum để cài đặt \"Chỉ cho phép đăng nhập Wordpress\" có hiệu lực đầy đủ",
+                "role-group-sync-syntax": "",
+                "role-group-sync-incomplete": "",
+                "role-group-sync-invalid-group": "",
+                "role-group-sync-invalid-role": "",
                 "lock-extension-required": "",
                 "tags-extension-required": "",
                 "tag-not-exist": "",
                 "debug-mode": "",
                 "config-url-trailing-slash": "",
                 "config-url-https": "",
-                "wordpress-username-missing": "",
+                "default-actor-not-set": "",
+                "default-actor-not-found": "",
                 "api-key-missing": "",
                 "wordpress-url-missing": "",
                 "wordpress-url-invalid": "",
@@ -173,7 +226,6 @@
                 "user-id-not-admin": "",
                 "sso-mismatch-flarum": "",
                 "sso-mismatch-wordpress": "",
-                "cookie-domain-mismatch": "",
                 "comments-mismatch-flarum": "",
                 "comments-mismatch-wordpress": "",
                 "api-error-json": "",
@@ -183,11 +235,13 @@
             "wizard": {
                 "already_installed": "Flarum đã được kết nối với Wordpress. Để chạy lại trình hướng dẫn, hãy xóa cài đặt \"URL Wordpress\" trong Flarum và cài đặt \"khóa API Flarum\" trong Wordpress.\n",
                 "api_unauthorized": "Chúng tôi không thể xác thực bằng các thông tin xác thực đã cho. Kiểm tra kỹ URL, tên người dùng và mật khẩu. Kiểm tra tài liệu để biết thêm các bước khắc phục sự cố.\n",
+                "api_error_generic": "",
+                "invalid_wordpress_url": "Cài đặt \"Địa chỉ WordPress (URL)\" trong Wordpress dường như không phải là một URL hợp lệ ({actual}).",
                 "api_error_get": "Lỗi khi thực hiện yêu cầu GET đối với cài đặt Wordpress ({exception}).",
                 "api_error_post": "Lỗi khi thực hiện yêu cầu ĐĂNG lên cài đặt Wordpress ({exception}).",
-                "invalid_wordpress_url": "Cài đặt \"Địa chỉ WordPress (URL)\" trong Wordpress dường như không phải là một URL hợp lệ ({actual}).",
                 "plugin_not_installed": "Có vẻ như plugin Wordpress không được cài đặt hoặc kích hoạt trên trang Wordpress đó. Đảm bảo bạn đã cài đặt ít nhất phiên bản 1.2.0.\n"
-            }
+            },
+            "sync_setting_error": ""
         },
         "views": {
             "error": {

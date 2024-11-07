@@ -4,14 +4,14 @@
             "appearance": {
                 "colored_header_label": "سربرگ رنگی",
                 "colors_heading": "رنگ‌ها",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
+                "colors_primary_label": "رنگ اصلی",
+                "colors_secondary_label": "رنگ ثانویه",
                 "colors_text": "دو رنگ برای تم انجمن خود انتخاب کنید. اولی به عنوان رنگ برجسته و دومی برای استایل دهی به عناصر پس زمینه استفاده خواهد شد.",
                 "custom_footer_heading": "فوتر سفارشی",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "هدر سفارشی",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "قابلیت @import و data-uri در حالت LESS سفارشی مجاز نیستند.",
                 "custom_styles_heading": "استایل‌های سفارشی",
                 "custom_styles_text": "ظاهر انجمن خود را با اضافه کردن کد های CSS/LESS شخصی سازی کنید تا بر روی استایل پیشفرض فلاروم اعمال شود.",
                 "dark_mode_label": "حالت تیره",
@@ -48,37 +48,37 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "کاربر نیازمند تأیید رایانامه خود است",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "ایجاد و افزودن جدید",
+                "submit_button": "ایجاد کاربر",
+                "title": "ایجاد کاربر جدید",
+                "use_random_password": "ایجاد گذرواژه تصادفی",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "پاک کردن cache",
                 "description": "انجمن شما در یک نگاه",
-                "io_error_message": "",
+                "io_error_message": "نمی‌توان به دیسک نوشت. لطفاً مجوزهای دیسک خود را بازبینی و دوباره تلاش کنید و یا از طریق خط فرمان اجرا کنید.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "زمان‌بندی",
+                        "queue-driver": "راه‌انداز صف",
+                        "session-driver": "راه‌انداز نشست"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "فعال",
+                        "inactive": "غیرفعال",
+                        "never-run": "هیچ‌وقت اجرا نشود"
                     }
                 },
                 "title": "داشبورد",
                 "tools_button": "ابزارها"
             },
             "debug-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "وقتی حالت <code>اشکال‌زدایی</code> فعال است، Flarum دارایی‌های <code>JavaScript</code> و <code>CSS</code> خود را در هر درخواست بازسازی می‌کند، و همچنین ممکن است اطلاعات دیگری مانند پایگاه داده را به بیرون درز کند. اسرار، متغیرهای محیطی و غیره\n\nبه شدت توصیه می شود که <code>debug</code> را در فایل <code>config.php</code> خود در حال تولید غیرفعال کنید. برای اطلاعات بیشتر به <link>اسناد فلاروم</link> مراجعه کنید.\n",
+                "label": "حالت اشکال‌زدایی فعال است"
             },
             "edit_css": {
                 "customize_text": "ظاهر انجمن خود را با افزودن کد LESS/CSS خود که در بالای <a>استایل های پیشفرض</a> Flarum اعمال می شود ، سفارشی کنید .",
@@ -209,10 +209,10 @@
                 "permissions_text": "پیکربندی اینکه چه کسی بتواند چه چیزهایی را ببیند و چه‌کارهایی را انجام دهد."
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "اجازه‌دادن برای حذف پست‌های کاربران به خودشان",
                 "allow_post_editing_label": "اجازه ویرایش نوشته‌ها",
                 "allow_renaming_label": "اجازه تغییر نام",
-                "create_access_token_label": "",
+                "create_access_token_label": "ایجاد ژتون دسترسی",
                 "create_heading": "ساختن",
                 "delete_discussions_forever_label": "حذف مباحث برای همیشه",
                 "delete_discussions_label": "حذف مباحث",
@@ -225,14 +225,14 @@
                 "edit_users_groups_label": "ویرایش گروه های کاربری",
                 "global_heading": "همگانی",
                 "moderate_heading": "مدیریت",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "ژتون دسترسی مدیران",
                 "new_group_button": "گروه جدید",
                 "participate_heading": "مشارکت",
                 "post_without_throttle_label": "چندین بار بدون انتظار پاسخ دهید",
                 "read_heading": "خواندن",
                 "rename_discussions_label": "تغییر نام مباحث",
                 "reply_to_discussions_label": "پاسخ به مباحث",
-                "search_users_label": "جستجوی کاربران",
+                "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "ثبت‌نام",
                 "start_discussions_label": "شروع مبحث جدید",
                 "title": "مجوز ها",
@@ -245,7 +245,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "برای همیشه",
-                "allow_never_button": "",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {برای # دقیقه} other {برای # دقیقه}}",
                 "allow_ten_minutes_button": "برای 10 دقیقه",
                 "allow_until_reply_button": "تا ارسال بعدی",
@@ -263,17 +263,17 @@
                 "upload_button": "انتخاب تصویر..."
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "کاربر جدید",
                 "description": "یک لیست صفحه بندی شده از همه کاربران در انجمن شما.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "نام نمایشی"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "ویرایش {username}"
+                            "tooltip": "ویرایش {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -287,6 +287,9 @@
                         "join_time": {
                             "title": "ملحق شد"
                         },
+                        "user_actions": {
+                            "title": ""
+                        },
                         "user_id": {
                             "title": "شناسه"
                         },
@@ -299,13 +302,13 @@
                 },
                 "pagination": {
                     "back_button": "صفحه قبلی",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "رفتن به اولین صفحه",
+                    "go_to_page_textbox_a11y_label": "رفتن مستقیم به شماره صفحه",
+                    "last_button": "رفتن به آخرین صفحه",
                     "next_button": "صفحه بعدی",
                     "page_counter": "صفحه {current} از {total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
                 "total_users": "کل کاربران: {count}"
             },
@@ -387,7 +390,7 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "برای شما نامه‌ای در خصوص تغییر گذرواژه‌تان ارسال گردید. درصورتی‌که طی دقایق آتی آن را دریافت نکردید، پوشه هرزنامه‌های خود را بررسی نمایید.",
+                "email_sent_message": "اگر با این رایانامه حسابی داشته باشید، ما برایتان رایانامه‌ای با پیوندی برای بازسازی گذرواژه ارسال می‌کنیم. اگر در دقایق آتی رایانامه‌ای دریافت نکردید، پوشه هرزنامه خودتان را برسی کنید.",
                 "not_found_message": "کاربری با رایانامه وارد شده وجود ندارد.",
                 "submit_button": "بازیابی گذرواژه",
                 "text": "برای بازیابی گذرواژه، رایانامه خود را وارد کنید.",
@@ -436,8 +439,8 @@
                 "username_or_email_placeholder": "نام کاربری یا رایانامه"
             },
             "notifications": {
-                "delete_all_confirm": "",
-                "delete_all_tooltip": "",
+                "delete_all_confirm": "آیا از حذف تمامی آگاهی‌ها اطمینان دارید؟ این عمل قابل بازگشت نیست",
+                "delete_all_tooltip": "حذف تمامی آگاهی‌ها",
                 "discussion_renamed_text": "{username} عنوان را تغییر داد",
                 "empty_text": "اعلانی وجود ندارد",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -468,7 +471,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "عنوان قدیمی: \"{old}\"",
-                "discussion_renamed_text": "{username} عنوان را به {new} تغییر داد.",
+                "discussion_renamed_text": "{username} عنوان را به {new} تغییر داد.{time}",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} بعد"
@@ -483,45 +486,45 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{browser} بر روی {os}",
+                "cannot_terminate_current_session": "نمی‌توان نشست فعلی را از بین‌ برد. بجایش از حسابتان خارج شوید.",
+                "created": "ایجاد شده",
+                "current_active_session": "نشست فعال فعلی",
+                "developer_tokens_heading": "ژتون توسعه‌دهنده",
+                "empty_text": "به نظر میرسد چیزی برای دیدن اینجا وجود ندارد.",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "خروج سراسری",
+                    "help_text": "نشست فعلی کوکی را پاک می‌کند، همه نشست‌ها را خاتمه می‌دهد، ژتون‌های توسعه‌دهنده را باطل می‌کند، و هرگونه رایانامه تأیید یا بازنشانی رمز عبور را باطل می‌کند.",
+                    "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "پنهان‌سازی ژتون",
+                "last_activity": "آخرین فعالیت",
+                "never": "=> core.ref.never",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "ایجاد ژتون",
+                    "title": "=> core.ref.new_token",
+                    "title_placeholder": "موضوع"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "ابطال",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
+                "sessions_heading": "نشست‌های فعال",
+                "session_terminated": "{count, plural, one {Session terminated} other {# Sessions terminated}}.",
+                "session_termination_failed": "درهنگام ازبین بردن نشست‌های شما خطایی رخ داد.",
+                "show_access_token": "مشاهده ژتون",
+                "terminate_all_other_sessions": "از بین بردن دیگر نشست‌ها",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
+                "terminate_session": "ازبین بردن",
+                "title": "=> core.ref.security",
+                "token_revoked": "ژتون باطل شد.",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "حساب کاربری",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "",
+                "notification_checkbox_a11y_label_template": "دریافت آگاهی‌های \"{description}\" از طریق {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "وب‌سایت",
@@ -551,7 +554,7 @@
                 "posts_empty_text": "به نظر می‌رسد که نوشته‌ای تاکنون در اینجا ارسال نشده است.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -597,7 +600,7 @@
                 "toggle_dropdown_accessible_label": "تغییر منوی کشویی"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "فعالسازی کاربر",
@@ -642,6 +645,11 @@
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": "، ",

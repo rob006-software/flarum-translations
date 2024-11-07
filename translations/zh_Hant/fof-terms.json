@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "服務條款最後更新日期。 設定此值將要求已接受條款的會員再次接受條款。 必須為過去的時間（否則會員將無法在日期之後接受並跳過對話框）。\n",
                 "export-url": "匯出連結",
-                "export-url-help": "具有權限「匯出全部條款資料」的會員可以訪問以下連結以下載接受條款的會員列表。 你可以在 <a>延伸套件 wiki</a> 上找到更多關於此選項的詳細資訊。\n"
+                "export-url-help": "具有權限「匯出全部條款資料」的會員可以訪問以下連結以下載接受條款的會員列表。 你可以在 <a>延伸套件 wiki</a> 上找到更多關於此選項的詳細資訊。\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "查看會員服務條款狀態",
@@ -68,6 +70,16 @@
             },
             "user_controls": {
                 "state_button": "服務條款接受狀態"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "userpolicydata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     },

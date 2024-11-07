@@ -1,0 +1,143 @@
+{
+    "foskym-custom-levels": {
+        "admin": {
+            "settings": {
+                "levelText": "Adja meg a szintekhez megjelenítendő szöveget (például rang, szint)",
+                "levelDesc": "Elérhető változók: [level]",
+                "expText": "Adja meg a tapasztalathoz megjelenítendő szöveget (például „[expTotal] TP”）",
+                "expDesc": "Elérhető változók: [expTotal]",
+                "expForPost": "",
+                "expForPostDesc": "",
+                "postMinLength": "",
+                "postMaxTimes": "",
+                "expForDiscussion": "",
+                "expForDiscussionDesc": "",
+                "discussionMaxTimes": "",
+                "expForLike": "",
+                "expForLikeDesc": "",
+                "autoRemove": "",
+                "cascadeRemove": "",
+                "expFormula": "Adja meg a tapasztalat képletét (például „[discussionCount] * 40 + [commentCount] / 20”)",
+                "expFormulaDesc1": "Ezeket a változókat használhatja：",
+                "expFormulaDesc2": "Alapvető ([discussionCount] [commentCount]）",
+                "expFormulaDesc3": "Bővítményekkel ([money] [likesReceived] [bestAnswerCount])",
+                "levelFormula": "Adja meg a szint képletét (például „[expTotal] / (100 + 5 * [level])”)",
+                "levelFormulaDesc": "Ezeket a változókat használhatja: [expTotal] [level]"
+            },
+            "go_to_forum_quests": "",
+            "auto_remove": [
+                "",
+                "",
+                ""
+            ],
+            "preview": "",
+            "pages": {
+                "index": "",
+                "levels": ""
+            },
+            "levels": {
+                "edit_level": "",
+                "delete_confirmation": "",
+                "add_button": "",
+                "name": "",
+                "min_exp_required": ""
+            },
+            "permissions": {
+                "edit_exp": ""
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "edit_exp_button": ""
+            },
+            "modal": {
+                "title": "",
+                "current": "",
+                "submit_button": ""
+            },
+            "notifications": {
+                "level_updated": ""
+            },
+            "settings": {
+                "notify_level_updated": ""
+            },
+            "label": {
+                "exp_logs": ""
+            },
+            "log": {
+                "exp": "",
+                "reason": "",
+                "time": "",
+                "view": "",
+                "load_more": "",
+                "no_more": "",
+                "no_records": "",
+                "type": {
+                    "system_clear": "",
+                    "system_refresh": "",
+                    "automoderator": "",
+                    "post_posted": "",
+                    "post_deleted": "",
+                    "post_hidden": "",
+                    "post_restored": "",
+                    "discussion_started": "",
+                    "discussion_deleted": "",
+                    "discussion_hidden": "",
+                    "discussion_restored": "",
+                    "comment_deleted_in_deleted_discussion": "",
+                    "post_liked": "",
+                    "post_unliked": "",
+                    "admin_edit": "",
+                    "forum_quests": "",
+                    "store_purchase": ""
+                }
+            }
+        },
+        "lib": {
+            "defaults": {
+                "level": "Szint:",
+                "exp": "[expTotal] TP",
+                "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
+                "levelFormula": "[expTotal] / (100 * [level])"
+            },
+            "error": {
+                "calculation": ""
+            },
+            "integrations": {
+                "automoderator": {
+                    "metric_name": "",
+                    "action_name": ""
+                },
+                "forum-quests": {
+                    "reward_name": ""
+                },
+                "store": {
+                    "item_name": "",
+                    "provider_data": {
+                        "same_as_use_cnt": ""
+                    }
+                },
+                "user-directory": {
+                    "most_exp": "",
+                    "least_exp": ""
+                }
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_exp": "",
+                "least_exp": ""
+            }
+        }
+    },
+    "nodeloc-leaderboard": {
+        "lib": {
+            "sort": {
+                "most_exp": "",
+                "least_exp": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "xypp-user-decoration": {
+        "forum": {
+            "decoration-no-available": "沒有可用的裝飾品",
+            "decorations": "裝飾",
+            "decoration-box": {
+                "error": "未知類型",
+                "avatar": "頭像風格",
+                "name": "使用者名稱樣式",
+                "post": "貼文樣式",
+                "card": "使用者卡片樣式",
+                "loading": "裝載",
+                "closed": "關閉",
+                "no-login": "登錄預覽"
+            },
+            "decoration": {
+                "delete_button": "刪除",
+                "remove_button": "移除",
+                "change_button": "",
+                "delete_confirm": ""
+            },
+            "page": {
+                "show-decorations": ""
+            },
+            "modal": {
+                "title": "",
+                "tip": "",
+                "loading": "",
+                "button": ""
+            },
+            "create": "",
+            "create-success": "",
+            "create-modal": {
+                "edit-title": "",
+                "edit-button": "",
+                "title": "",
+                "type": {
+                    "title": "",
+                    "avatar": "",
+                    "username": "",
+                    "post": "",
+                    "usercard": ""
+                },
+                "name": "",
+                "desc": "",
+                "style": "",
+                "tip": "",
+                "button": "",
+                "delete-button": ""
+            },
+            "delete_confirm": "",
+            "delete-success": "",
+            "user_controls": {
+                "offer": ""
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_decoration": "",
+                "delete_decoration": "",
+                "offer_decoration": "",
+                "create_decoration": "",
+                "view-all": ""
+            },
+            "settings": {
+                "username_hijack": {
+                    "title": "",
+                    "desc": ""
+                },
+                "avatar_hijack": {
+                    "title": "",
+                    "desc": ""
+                },
+                "view-all": {
+                    "title": "",
+                    "desc": ""
+                },
+                "no_decorate_class_filter": {
+                    "title": "",
+                    "desc": ""
+                }
+            }
+        }
+    },
+    "xypp-store": {
+        "forum": {
+            "type": {
+                "decoration": ""
+            },
+            "unavailable": {
+                "decoration": {
+                    "dumplicate": ""
+                }
+            },
+            "create-modal": {
+                "providers": {
+                    "decoration": ""
+                }
+            }
+        }
+    }
+}

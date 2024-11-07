@@ -271,8 +271,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "{username} szerkesztése"
+                            "tooltip": "{username} szerkesztése",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -285,6 +285,9 @@
                         },
                         "join_time": {
                             "title": "Csatlakozott"
+                        },
+                        "user_actions": {
+                            "title": "Műveletek"
                         },
                         "user_id": {
                             "title": "Azonosító"
@@ -641,6 +644,11 @@
             "number_suffix": {
                 "kilo_text": "e",
                 "mega_text": "m"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "MMM d.",
+                "humanTimeLong": "",
+                "scrubber": "YYYY. MMMM"
             },
             "series": {
                 "glue_text": ", ",

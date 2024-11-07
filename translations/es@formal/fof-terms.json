@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "La fecha de la última actualización de términos. Establecer este valor requerirá que todos los usuarios que aceptaron antes de esa fecha vuelvan a aceptar. Debe fijarse en la fecha actual o el pasado (de lo contrario, los usuarios nunca podrían aceptarlo y superar el modal).\n",
                 "export-url": "Exportar URL",
-                "export-url-help": "Cualquier usuario con permiso \"Exportar todos los datos de usuarios y políticas\" puede acceder a esas URL para descargar la lista de usuarios que aceptaron esta política. Puede encontrar más detalles sobre las opciones disponibles en la <a>extension wiki</a>.\n"
+                "export-url-help": "Cualquier usuario con permiso \"Exportar todos los datos de usuarios y políticas\" puede acceder a esas URL para descargar la lista de usuarios que aceptaron esta política. Puede encontrar más detalles sobre las opciones disponibles en la <a>extension wiki</a>.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "Ver el estado de las políticas de usuario",
@@ -71,7 +73,7 @@
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

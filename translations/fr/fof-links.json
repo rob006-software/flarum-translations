@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Supprimer le lien",
                 "delete_link_confirmation": "Êtes-vous sûr de vouloir supprimer ce lien ?",
-                "everyone-label": "Tout le monde",
-                "guests-label": "Invités",
                 "internal_link": "Est-ce un lien interne ?",
-                "members-label": "Utilisateurs enregistrés",
                 "open_newtab": "Ouvrir le lien dans un nouvel onglet",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,7 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Ajoutez l'attribut <code>rel=\"me\"</code> pour vérifier l'identité sur d'autres sites",
-                "visibility": "Visibilité du lien"
+                "visibility": "Visibilité du lien",
+                "visibility.help": "Par défaut, les liens ne sont visibles que par 1<code>{admin}</code> utilisateurs. Ajustez les permissions pour spécifier qui peut voir ce lien.",
+                "visibility.help-disabled": "Enregistrez le lien avant de modifier les paramètres de visibilité.",
+                "visibility.label": "Visibilité des liens",
+                "visibility.guest-only.label": "Uniquement {guest} ?",
+                "visibility.guest-only.help": "Seul {guest} peut voir ce lien. L'autorisation ci-dessus doit être définie sur « {everyone} ».",
+                "everyone-label": "Tout le monde",
+                "guests-label": "Invités",
+                "members-label": "Utilisateurs enregistrés"
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

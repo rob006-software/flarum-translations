@@ -3,15 +3,33 @@
         "admin": {
             "settings": {
                 "section_general_intro": "The base settings required for the extension to work.",
-                "api_key": "Flarum API Key",
+                "api_key": "Shared API Key",
+                "api_key_reset": "Generate new API Key",
+                "api_key_reset_confirm": "Do you really want to generate a new Shared API Key? The old one will stop working and will have to be manually updated in the WordPress plugin settings.\n",
                 "wordpress_url": "WordPress URL",
-                "wordpress_username": "WordPress admin username",
+                "default_actor": "Default Actor",
+                "default_actor_placeholder_invalid": "Possible invalid value: {value} - Type to search for a user...",
+                "default_actor_placeholder_search": "Type to search for a user...",
+                "default_actor_help": "This Flarum user will be assigned as the actor of all suspend, lock, delete actions. It will also be used as the owner of discussions and posts unless \"Assign discussion author from SSO\" is enabled.\n",
+                "report_http_errors": "Send WordPress REST API HTTP errors to configured Flarum reporters",
+                "report_http_errors_help": "No matter the value of this setting, requests as always logged as text to the default logger. This option is useful if you want API errors to be sent to Sentry or other monitoring tools as exceptions with stack traces.\n",
                 "section_sso_intro": "This feature will seamlessly connects WordPress users with Flarum. An account will automatically be created for them and kept in sync with WordPress. If you have existing accounts in Flarum, they will automatically be matched by their email. If you delete a user in Flarum, it will be created again next time the WordPress account logins. To block a Flarum user, suspend the account in Flarum.\n",
                 "enable_sso": "Enable SSO integration",
+                "login_method": "Global Login Mechanism",
+                "login_method_help": "\"Cookie\" only works if WordPress and Flarum share a top level domain. \"Redirect\" will cause a redirect after every login from WordPress even if the user doesn't intend to visit the forum. \"Hidden Iframe\" will only connect when visiting Flarum, causing a page refresh on the first page load. Combined with the \"Iframe delay\" below this can be used to only login on demand.\n",
+                "login_method_options": {
+                    "cookie": "Cookie",
+                    "redirect": "Redirect",
+                    "iframe": "Hidden Iframe"
+                },
                 "cookie_domain": "Cookie Domain",
-                "cookie_domain_help": "Only necessary if different from Flarum domain",
+                "cookie_domain_help": "This setting is only used when using \"Cookie\" login mechanism. You only need to set this value if both websites are on different subdomains.\n",
+                "iframe_redirect_delay": "Iframe Redirect Delay (milliseconds)",
+                "iframe_redirect_delay_help": "This setting is only used when using \"Hidden Iframe\" login mechanism. How long after the initial Flarum page load the extension will still attempt a login and page refresh without user interaction. If it takes longer than this value to get an answer from WordPress, the user will simply get a suggestion to login and refresh. Set to zero to always suggest login to the user instead of automatically refreshing.\n",
                 "wordpress_login_path": "WordPress login path",
                 "wordpress_login_path_help": "Only necessary if you renamed your login endpoint manually or via a plugin",
+                "wordpress_login_full_page": "Open WordPress login as a page instead of popup",
+                "wordpress_login_full_page_help": "By default, clicking the login link from Flarum will open the WordPress login page in a popup, like other OAuth methods. When this setting is enabled, the current browser tab will navigate to the WordPress login page and redirect to Flarum afterward.\n",
                 "username_strategy": "Username for new users",
                 "username_strategy_options": {
                     "user_login": "Username from WordPress",
@@ -24,7 +42,7 @@
                 "welcome_message": "Introduction message",
                 "welcome_message_help": "This message will be shown the first time the user visits the forum, together with the username choice if enabled.",
                 "wordpress_login_only": "Only allow WordPress login",
-                "wordpress_login_only_help": "Disables Flarum login and directly opens WordPress login modal when login is required. This will automatically set the \"Sign Up\" permission to Closed.\n",
+                "wordpress_login_only_help": "Disables Flarum login and directly opens WordPress login modal/page when login is requested. When changing this setting, the extension will attempt to set \"Sign Up\" permission to \"Closed\". Make sure it remains \"Closed\" or visitors will be able to create standalone Flarum accounts.\n",
                 "user_delete": "Action when a user is deleted in WordPress",
                 "user_delete_options": {
                     "ignore": "Ignore (keep Flarum user)",
@@ -32,6 +50,8 @@
                     "suspend": "Suspend Flarum user indefinitely (Suspend extension must be enabled)"
                 },
                 "user_delete_desc": "If you select \"delete\", only the user will be deleted, not their content on Flarum.",
+                "role_group_sync": "Role to Group Synchronisation",
+                "role_group_sync_help": "The groups selected here will be automatically added to and removed from users by the extension, so it's probably best to use dedicated Flarum groups that you never assign manually and aren't also managed by other extensions. You probably shouldn't assign the admin group this way, both for security reasons and to make sure you don't get accidentally locked out. You can assign multiple groups to a role and a group can be mapped to more than one role. You can create additional Flarum groups on the Flarum <a>Permissions page</a>.\n",
                 "section_comments_intro": "This feature replaces WordPress comments with a Flarum iframe. Guest posting is no longer possible. Discussions are only created for posts with comments enabled in WordPress. Enabling or disabling comments is synced with Flarum's discussion lock. If your blog already contains posts when you enable this feature, you need to enable and disable comments again on each article for the Flarum discussion to be created.\n",
                 "enable_comments": "Enable comments integration",
                 "excerpt_html_whitelist": "Whitelist of HTML tags to keep in the excerpt (comma separated)",
@@ -105,6 +125,26 @@
                 "wordpress_password": "WordPress admin password",
                 "wordpress_password_help": "The password is only used for the initial configuration and is not stored.",
                 "install": "Install"
+            },
+            "role-group-sync": {
+                "head": {
+                    "role": "WordPress Role",
+                    "group": "Flarum Group"
+                },
+                "choose": {
+                    "role": "Choose WordPress Role...",
+                    "group": "Select a group"
+                },
+                "custom": {
+                    "role": "Custom...",
+                    "group": "Custom..."
+                },
+                "selected-custom-group": "Custom",
+                "delete": "Delete rule",
+                "role-loader": {
+                    "loading": "Loading roles from WordPress...",
+                    "error": "There was an issue loading the list of roles from WordPress. You can still manually enter role names."
+                }
             }
         },
         "forum": {
@@ -114,6 +154,13 @@
                 "username": "Choose a username",
                 "submit": "Enable forum account",
                 "not_now": "Skip and read as guest for now"
+            },
+            "instant-login": {
+                "welcome_known_user": "Welcome back, {avatar} <strong>{name}</strong>!",
+                "welcome_unknown_user": "Welcome back!",
+                "avatar_alt_text": "WordPress Avatar",
+                "message": "You can use the forum with your main website account",
+                "button": "Login now & refresh"
             },
             "edit-user-modal": {
                 "warning": "This user is kept in sync with WordPress. You should edit the email and password from WordPress.\n",
@@ -153,13 +200,18 @@
                 "suspend-extension-required": "The Suspend extension must be enabled to use the \"Suspend\" option of \"Action on user delete\"",
                 "cookie-domain-format": "The cookie domain does not appear to be a valid domain. Check that it\\'s just a domain without any protocol or path",
                 "login-only-signup-open": "You need to disable Sign Up under Flarum permissions for the \"Only allow WordPress login\" setting to fully take effect",
+                "role-group-sync-syntax": "Role to group sync settings have an encoding issue",
+                "role-group-sync-incomplete": "Role to group sync settings are not completely filled",
+                "role-group-sync-invalid-group": "Invalid Flarum group ID selected for role to group sync: {id}",
+                "role-group-sync-invalid-role": "Invalid WordPress role selected for role to group sync: {role}",
                 "lock-extension-required": "The Lock extension must be enabled to use the Comments integration",
                 "tags-extension-required": "The Tags extension must be enabled to use the \"Tag for new comment threads\" option",
                 "tag-not-exist": "Tag ID {id} selected for the \"Tag IDs for new comment threads\" option does not exist",
                 "debug-mode": "Flarum debug mode is enabled. Disable it once you are finished debugging",
                 "config-url-trailing-slash": "The Flarum URL defined in config.php should not have a trailing slash (current value: \"{url}\")",
                 "config-url-https": "The Flarum URL defined in config.php should be HTTPS (current value: \"{url}\")",
-                "wordpress-username-missing": "The \"WordPress admin username\" setting must be filled",
+                "default-actor-not-set": "The \"Default Actor\" setting must be filled",
+                "default-actor-not-found": "The \"Default Actor\" setting is not referencing a valid user",
                 "api-key-missing": "The \"Flarum API Key\" is missing. Try refreshing the admin panel and check the log file for possible errors",
                 "wordpress-url-missing": "The \"WordPress URL\" setting must be filled",
                 "wordpress-url-invalid": "The \"WordPress URL\" setting does not appear to be a valid URL (current value: \"{url}\")",
@@ -168,26 +220,24 @@
                 "wordpress-url-https": "The \"WordPress URL\" setting should be HTTPS (current value: \"{url}\")",
                 "wordpress-url-mismatch": "The \"WordPress URL\" setting in Flarum does not match the \"WordPress Address (URL)\" setting from WordPress (expected: \"{expected}\", actual: \"{actual}\")",
                 "flarum-url-mismatch": "The \"Flarum URL\" setting in WordPress does not match the URL configured in Flarum config.php (expected: \"{expected}\", actual: \"{actual}\")",
-                "api-key-mismatch": "The \"Flarum API Key\" setting in WordPress does not match the \"Flarum API Key\" setting in Flarum (expected: \"{expected}\", actual: \"{actual}\")",
+                "api-key-mismatch": "The \"Shared API Key\" setting in WordPress does not match the \"Shared API Key\" setting in Flarum (expected: \"{expected}\", actual: \"{actual}\")",
                 "user-id-not-found": "The \"Flarum User ID\" setting in WordPress does not match any known Flarum user (current value: \"{actual}\"). To use the currently logged in user, you can use ID \"{suggested}\"\n",
                 "user-id-not-admin": "The \"Flarum User ID\" setting in WordPress does not match a Flarum administrator (current value: \"{actual}\"). To use the currently logged in user, you can use ID \"{suggested}\"\n",
                 "sso-mismatch-flarum": "The SSO integration is enabled in Flarum, but not in WordPress",
                 "sso-mismatch-wordpress": "The SSO integration is enabled in WordPress, but not in Flarum",
-                "cookie-domain-mismatch": "The \"Cookie domain\" setting in WordPress does not match the \"Cookie Domain\" setting in Flarum (WordPress value is \"{wordpress}\", Flarum value is \"{flarum}\")",
                 "comments-mismatch-flarum": "The Comments integration is enabled in Flarum, but not in WordPress",
                 "comments-mismatch-wordpress": "The Comments integration is enabled in WordPress, but not in Flarum",
                 "api-error-json": "Trying to access the WordPress API resulted in an error: {message} - Body: {body}",
-                "api-error-401": "Trying to access the WordPress API resulted in a 401 error. Double-check the \"WordPress admin username\" in Flarum and the \"Flarum API Key\" in WordPress",
+                "api-error-401": "Trying to access the WordPress API resulted in a 401 error. Verify the \"Shared API Key\" matches between Flarum and WordPress settings",
                 "api-error-other": "Trying to access the WordPress API resulted in an error: {message}"
             },
             "wizard": {
-                "already_installed": "Flarum is already connected with WordPress. To run the wizard again, delete the \"WordPress URL\" setting in Flarum and the \"Flarum API key\" setting in WordPress.\n",
+                "already_installed": "Flarum is already connected with WordPress. To run the wizard again, delete the \"WordPress URL\" setting in Flarum and the \"Flarum Shared API Key\" setting in WordPress.\n",
                 "api_unauthorized": "We could not authenticate with the given credentials. Double-check the URL, username and password. Check the documentation for more troubleshooting steps.\n",
-                "api_error_get": "Error while performing a GET request to WordPress settings ({exception}).",
-                "api_error_post": "Error while performing a POST request to WordPress settings ({exception}).",
-                "invalid_wordpress_url": "The \"WordPress Address (URL)\" setting in WordPress does not seem to be a valid URL ({actual}).",
-                "plugin_not_installed": "The WordPress plugin does not appear to be installed or enabled on that WordPress site. Make sure you have at least version 1.2.0 installed.\n"
-            }
+                "api_error_generic": "Error while performing a POST request to the WordPress plugin setup endpoint ({exception}). Make sure the Flarum Integration WordPress plugin is installed and enabled.\n",
+                "invalid_wordpress_url": "The \"WordPress Address (URL)\" setting in WordPress does not seem to be a valid URL ({actual})."
+            },
+            "sync_setting_error": "Error syncing the setting to WordPress. Manually check that the checkboxes on WordPress side at set to the same values as in Flarum. Error: {exception}.\n"
         },
         "views": {
             "error": {

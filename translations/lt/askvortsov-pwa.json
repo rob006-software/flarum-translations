@@ -30,13 +30,22 @@
                     "reset_vapid_confirm": "Iš naujo nustačius VAPID raktus bus pašalintos visos prenumeratos naudojant esamus raktus, todėl naudotojai negaus jokių pranešimų, kol kitą kartą apsilankys jūsų svetainėje. Tai turėtų būti daroma tik pirmą kartą nustatant tiesioginius pranešimus arba jei iš karto gaunami pranešimai visai neveikia ir aukščiau yra įspėjimas apie trūkstamus VAPID raktus.",
                     "reset_vapid_success": "Sėkmingai iš naujo nustatyti VAPID raktus. {count} prenumeratos buvo nustatytos iš naujo. Iš naujo įkelkite puslapį, kad pamatytumėte atnaujintą būsenos patikros ataskaitą."
                 },
+                "firebase_config": {
+                    "heading": "",
+                    "help_text": "",
+                    "see_documentation_here": "",
+                    "upload_successful": "",
+                    "upload_file": ""
+                },
                 "other": {
                     "heading": "Kita",
                     "force_portrait_text": "Jėga nešiojo orientaciją?",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
                     "user_max_subscriptions_label": "",
-                    "user_max_subscriptions_text": ""
+                    "user_max_subscriptions_text": "",
+                    "window_controls_overlay_label": "",
+                    "window_controls_overlay_text": ""
                 },
                 "heading": "Progresyvi žiniatinklio programos konfigūracija",
                 "text": "Sukonfigūruokite savo „Flarum“ svetainę, kad ji veiktų kaip progresyvi žiniatinklio programa! Atminkite, kad jūsų svetainė automatiškai nepatenka į programų parduotuvę. Vietoj to tai reiškia, kad naudotojai jūsų svetainėje turi parinktį „Pridėti prie pagrindinio ekrano“. Pateikiame tam tikrus būsenos patikrinimus, tačiau geriausias būdas tai išbandyti yra pabandyti ir įdiegti (instrukcijų, kaip įdiegti progresyvias žiniatinklio programas, ieškokite „Google“). Be to, atminkite, kad iššokančius langus „įdiegti šį PWA“ valdo naršyklės ir jų negali suaktyvinti kūrėjai / administratoriai / programos. Rekomenduoju į savo svetainės dokumentus įtraukti instrukcijas, kaip įdiegti PWA.",

@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Bağlantıyı Sil",
                 "delete_link_confirmation": "Bu bağlantıyı silmek istediğine emin misin?",
-                "everyone-label": "Herkes",
-                "guests-label": "Ziyaretçiler",
                 "internal_link": "Bu bir dahili bağlantı mı?",
-                "members-label": "Kayıtlı kullanıcılar",
                 "open_newtab": "Bağlantıyı yeni sekmede aç",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,7 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Diğer sitelerde kimlik doğrulaması için <code>rel='me'</code> özelliğini ekleyin",
-                "visibility": "Bağlantı görünürlüğü"
+                "visibility": "Bağlantı görünürlüğü",
+                "visibility.help": "Bağlantılar varsayılan olarak yalnızca <code>{admin}</code> kullanıcıları tarafından görülebilir. Bu bağlantıyı kimlerin görebileceğini belirtmek için izinleri ayarlayın.",
+                "visibility.help-disabled": "Görünürlük ayarlarını değiştirmeden önce bağlantıyı kaydedin.",
+                "visibility.label": "Bağlantı görünürlüğü",
+                "visibility.guest-only.label": "Sadece {guest} mi?",
+                "visibility.guest-only.help": "Bu bağlantıyı yalnızca {guest} görebilir. Yukarıdaki izin '{everyone}' olarak ayarlanmalıdır.",
+                "everyone-label": "Herkes",
+                "guests-label": "Ziyaretçiler",
+                "members-label": "Kayıtlı kullanıcılar"
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

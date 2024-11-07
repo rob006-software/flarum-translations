@@ -1,5 +1,5 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
@@ -36,6 +36,7 @@
                 "watermark": "",
                 "s3_compatible_storage": "",
                 "s3_acl": "",
+                "custom_s3_url": "",
                 "s3_instance_profile": "",
                 "composer_buttons": ""
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "",
                     "endpoint": "",
                     "use_path_style_endpoint": "",
-                    "acl": ""
+                    "acl": "",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "",

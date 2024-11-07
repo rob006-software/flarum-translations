@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "Das Datum der letzten Aktualisierung der Bedingungen. Wird dieser Wert gesetzt, werden alle Nutzer:innen die den Bedingungen vor dem Datum bereits zugestimmt haben zur erneuten Zustimmung aufgefordert. Muss in der Vergangenheit liegen - andernfalls können Nutzer:innen nicht zustimmen und kommen nie über das Overlay hinaus.\n",
                 "export-url": "Download/Export URL",
-                "export-url-help": "Jede:r Nutzer:in mit der Berechtigung \"Download/Export alle Richtlinien Daten\" kann auf diese URL zum Download der Nutzer:innen die dieser Richtlinie zugestimmt haben zugreifen. Du kannst weitere Details über verfügbare Optionen im <a>Extension Wiki</a> finden.\n"
+                "export-url-help": "Jede:r Nutzer:in mit der Berechtigung \"Download/Export alle Richtlinien Daten\" kann auf diese URL zum Download der Nutzer:innen die dieser Richtlinie zugestimmt haben zugreifen. Du kannst weitere Details über verfügbare Optionen im <a>Extension Wiki</a> finden.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "Richtlinienstatus des/der Nutzer:in anzeigen",
@@ -71,7 +73,7 @@
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

@@ -19,162 +19,162 @@
                     "vertical": "垂直",
                     "horizontal": "水平"
                 },
-                "maxImageCount": "",
-                "maxImageCountHelp": "",
-                "maxImageCountPlaceholder": "",
-                "imageProxy": "图片代理",
-                "imageProxyHelp": "拦截所有图片请求至代理服务器",
+                "maxImageCount": "图片预览数量",
+                "maxImageCountHelp": "最多显示多少张 Opengraph 或备用解析的图片。所有图片 URL 均会保存，以便后期更改此设置。\n",
+                "maxImageCountPlaceholder": "留空表示无上限",
+                "imageProxy": "OpenGraph 图片代理",
+                "imageProxyHelp": "使用代理服务器加载所有 OpenGraph 和站点图片",
                 "cacheProxy": "缓存代理图片",
                 "cacheProxyHelp": "客户端将缓存图片到本地",
                 "withoutOpengraph": "为无 OpenGraph 数据的页面生成富文本容器",
-                "withoutOpengraphHelp": "",
+                "withoutOpengraphHelp": "标题、描述和图片将从页面 HTML 中提取",
                 "blacklist": "URL 黑名单",
-                "blacklistHelp": "",
-                "whitelist": "",
-                "whitelistHelp": "",
-                "imageEmbeds": "",
-                "imageEmbedsHelp": "",
-                "flarumApiPreviews": "",
-                "flarumApiPreviewsHelp": "",
-                "githubApiKey": "",
-                "githubApiKeyHelp": "",
-                "githubOrgWhitelist": "",
-                "githubOrgWhitelistHelp": "",
-                "googleApiAuthConfig": "",
-                "googleApiAuthConfigHelp": "",
-                "googleApiKey": "",
-                "googleApiKeyHelp": "",
-                "youtubePlayer": "",
-                "youtubePlayerHelp": "",
-                "youtubeNoCookie": "",
-                "youtubeNoCookieHelp": "",
-                "youtubeApiPreviews": "",
-                "youtubeApiPreviewsHelp": "",
-                "googledriveApiPreviews": "",
-                "googledriveApiPreviewsHelp": ""
+                "blacklistHelp": "请查看文档了解填写格式。属于黑名单 URL 的内容不会采用富文本展示和图片代理",
+                "whitelist": "URL 白名单",
+                "whitelistHelp": "请查看文档了解填写格式。填写白名单后，非白名单内容均视为黑名单处置",
+                "imageEmbeds": "图片富文本展示",
+                "imageEmbedsHelp": "经黑/白名单过滤过，使用 BBCode 或 Markdown 展示外部图片的附加信息。更改此设置后，请清除 Flarum 缓存以生效。\n",
+                "flarumApiPreviews": "启用高级 Flarum 预览",
+                "flarumApiPreviewsHelp": "解析所有 Flarum 论坛的公开 JSON 数据。仅支持解析 Flarum 1.4 及以上版本，且包含 <code>X-Powered-By</code> 响应头的 Flarum 论坛。\n",
+                "githubApiKey": "GitHub API 密钥",
+                "githubApiKeyHelp": "填写密钥以启用 GitHub 存储库、议题、拉去请求和私有存储库等内容的嵌入。",
+                "githubOrgWhitelist": "组织白名单",
+                "githubOrgWhitelistHelp": "启用预览的 GitHub 组织列表，以英文逗号分隔。配置白名单不仅可以降低 API 的调用量，也可以防止非预期的私有存储库暴露，还能够用来自定义组织的嵌入样式。 留空表示嵌入所有 API 可访问的存储库。\n",
+                "googleApiAuthConfig": "Google SDK Auth 配置路径或 JSON",
+                "googleApiAuthConfigHelp": "此设置用于下方 YouTube 和 Google Drive 服务。 请填写 JSON 内容，或存放 JSON 内容的验证文件路径。留空则表示 Google API SDK 自动通过环境变量读取 API 密钥或服务账户。\n",
+                "googleApiKey": "Google SDK API 密钥",
+                "googleApiKeyHelp": "此设置用于下方 YouTube 和 Google Drive 服务。 留空则表示 Google API SDK 自动通过环境变量读取 API 密钥或服务账户。\n",
+                "youtubePlayer": "允许直接播放 YouTube 嵌入视频",
+                "youtubePlayerHelp": "用户点击嵌入视频的播放按钮时，加载 iframe 播放器播放视频，需配置本站内容安全策略（CSP）以允许播放 YouTube 视频。此功能不调用任何 API。\n",
+                "youtubeNoCookie": "使用无 Cookie iframe 方案",
+                "youtubeNoCookieHelp": "使用 YouTube 的无 Cookie 域名播放视频，部分视频可能不支持在此环境下播放。此功能不调用任何 API。\n",
+                "youtubeApiPreviews": "启用高级 YouTube 内容预览",
+                "youtubeApiPreviewsHelp": "需配置 Google API SDK。启用此项以显示更多视频统计信息，以及 SDK 有权限播放的部分私密视频。\n",
+                "googledriveApiPreviews": "启用高级 Google Drive 内容预览",
+                "googledriveApiPreviewsHelp": "需配置 Google API SDK。启用此项以显示云盘文件标题和预览。要嵌入私密文件，请配置具有相应权限的服务账号。\n"
             },
             "section": {
-                "siteSpecificHelp": "",
-                "flarum": "",
-                "github": "",
-                "google": "",
-                "youtube": "",
-                "googledrive": ""
+                "siteSpecificHelp": "以下为可选的特定配置，用以改善无法通过 OpenGraph 和 HTMl 获取数据时的情况。部分配置需要调用第三方 API，请自行关注相关接口的限流方案。\n",
+                "flarum": "Flarum",
+                "github": "GitHub",
+                "google": "Google",
+                "youtube": "YouTube",
+                "googledrive": "Google Drive"
             },
             "permissions": {
-                "viewGoogleDriveThumbnails": "",
-                "useOnOwnPost": "",
-                "disableOnOwnPost": "",
-                "refreshOnOwnPost": "",
-                "disableOnAnyPost": "",
-                "refreshOnAnyPost": ""
+                "viewGoogleDriveThumbnails": "调用 API 以查看 Google Drive 缩略图",
+                "useOnOwnPost": "在自己的帖子中使用嵌入内容",
+                "disableOnOwnPost": "禁用自己帖子的嵌入内容",
+                "refreshOnOwnPost": "刷新自己帖子的嵌入内容",
+                "disableOnAnyPost": "禁用任意帖子的嵌入内容",
+                "refreshOnAnyPost": "刷新任意帖子的嵌入内容"
             },
             "preview": {
-                "title": "",
-                "refresh": "",
-                "loading": ""
+                "title": "预览",
+                "refresh": "刷新",
+                "loading": "正在加载……"
             }
         },
         "lib": {
             "embed": {
-                "altFavicon": "",
-                "altImageFallback": "",
-                "altAvatar": "",
+                "altFavicon": "{website} 图标",
+                "altImageFallback": "{website} Opengraph 图像",
+                "altAvatar": "作者头像",
                 "missing": {
-                    "retrieving": "",
-                    "other": ""
+                    "retrieving": "获取中……",
+                    "other": "无法生成此链接的预览"
                 }
             },
             "controls": {
-                "refresh": "",
-                "disable": "",
-                "disableConfirmation": "",
-                "imgCopy": "",
-                "imgCopied": "",
-                "imgOpen": "",
-                "play": "",
-                "expandDescription": ""
+                "refresh": "刷新数据",
+                "disable": "禁用此帖的嵌入内容",
+                "disableConfirmation": "确定要移除此帖所有的嵌入内容吗？",
+                "imgCopy": "复制图片链接",
+                "imgCopied": "已复制！",
+                "imgOpen": "在新标签页中打开图片",
+                "play": "点击播放嵌入媒体",
+                "expandDescription": "展开描述"
             }
         },
         "api": {
             "error": {
-                "blacklistedUrl": "",
-                "invalidUrl": ""
+                "blacklistedUrl": "URL {url} 不在嵌入白名单中。",
+                "invalidUrl": "URL {url} 无效。"
             },
             "embed": {
                 "flarum": {
                     "discussion": {
-                        "type": "",
+                        "type": "主题帖",
                         "stats": {
-                            "commentCount": "",
-                            "participantCount": "",
-                            "createdAt": ""
+                            "commentCount": "回复",
+                            "participantCount": "参与者",
+                            "createdAt": "发布日期"
                         }
                     },
                     "user": {
-                        "type": "",
-                        "avatarAlt": "",
+                        "type": "资料",
+                        "avatarAlt": "头像",
                         "stats": {
-                            "discussionCount": "",
-                            "commentCount": "",
-                            "joinTime": ""
+                            "discussionCount": "主题",
+                            "commentCount": "回复",
+                            "joinTime": "加入日期"
                         }
                     }
                 },
                 "github": {
-                    "siteName": "",
-                    "privateRepoSuffix": "",
+                    "siteName": "GitHub",
+                    "privateRepoSuffix": "[私密]",
                     "issue": {
-                        "type": "",
+                        "type": "议题",
                         "stats": {
-                            "commentCount": "",
-                            "createdAt": ""
+                            "commentCount": "评论",
+                            "createdAt": "创建于"
                         }
                     },
                     "pull": {
-                        "type": "",
+                        "type": "拉取请求",
                         "stats": {
-                            "commentCount": "",
-                            "reviewCount": "",
-                            "commitCount": "",
-                            "createdAt": ""
+                            "commentCount": "评论",
+                            "reviewCount": "预览",
+                            "commitCount": "提交",
+                            "createdAt": "创建于"
                         }
                     },
                     "repo": {
                         "type": {
-                            "public": "",
-                            "private": ""
+                            "public": "公共存储库",
+                            "private": "私有存储库"
                         },
                         "stats": {
-                            "openIssueCount": "",
-                            "subscriberCount": "",
-                            "stargazerCount": "",
-                            "forkCount": ""
+                            "openIssueCount": "开启的议题",
+                            "subscriberCount": "关注者",
+                            "stargazerCount": "Stars",
+                            "forkCount": "Forks"
                         }
                     }
                 },
                 "youtube": {
-                    "siteName": "",
+                    "siteName": "YouTube",
                     "video": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "视频",
+                        "thumbnailAlt": "视频缩略图",
                         "stats": {
-                            "viewCount": "",
-                            "likeCount": "",
-                            "commentCount": "",
-                            "publishedAt": ""
+                            "viewCount": "播放",
+                            "likeCount": "点赞",
+                            "commentCount": "评论",
+                            "publishedAt": "发布于"
                         }
                     }
                 },
                 "googledrive": {
-                    "siteName": "",
+                    "siteName": "Google Drive",
                     "file": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "文件",
+                        "thumbnailAlt": "Google Drive 文件预览",
                         "stats": {
-                            "size": "",
-                            "createdTime": "",
-                            "modifiedTime": ""
+                            "size": "文件大小",
+                            "createdTime": "创建于",
+                            "modifiedTime": "编辑于"
                         }
                     }
                 }

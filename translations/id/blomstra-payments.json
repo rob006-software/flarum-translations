@@ -2,7 +2,7 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": ""
+                "mostBacked_button": "Paling banyak didukung"
             }
         }
     },
@@ -14,50 +14,50 @@
                 "title": "Terima Ketentuan"
             },
             "stripe": {
-                "interval_once": ""
+                "interval_once": "sekali"
             },
             "subscription-card": {
-                "bounty": "",
-                "ptv": "",
-                "pta": "",
-                "ptb": "",
-                "ptp": "",
+                "bounty": "Bounty",
+                "ptv": "Tampilan Berbayar",
+                "pta": "Akses Berbayar",
+                "ptb": "Promosi Berbayar",
+                "ptp": "Publikasi Berbayar",
                 "cancel-control": "Batal",
                 "none": "Tidak ada pembayaran atau langganan aktif"
             },
             "post_stream": {
-                "bounty_added_text": ""
+                "bounty_added_text": "{username} menambahkan bounty sebesar {amount}."
             },
             "pay-to-view": {
-                "purchase-control": "",
-                "purchase-log-in": "",
+                "purchase-control": "Bayar untuk Melihat",
+                "purchase-log-in": "Login & Bayar untuk Melihat",
                 "purchase-completed": "Tidak terkunci",
                 "description": "Postingan di luar titik ini terkunci di balik paywall, Anda dapat membukanya dengan menyelesaikan pembayaran melalui penyedia pembayaran kami, Stripe.\n"
             },
             "pay-to-post": {
-                "purchase-control": "",
-                "purchase": "",
+                "purchase-control": "Bayar untuk Mempublikasikan",
+                "purchase": "Beli untuk Publikasikan",
                 "purchase_required": "Pembahasan ini akan diterbitkan setelah Anda menyelesaikan pembayaran melalui penyedia pembayaran kami, Stripe. Klik pembelian untuk melihat opsi biaya dan pembayaran.\n"
             },
             "pay-to-bump": {
-                "description": "",
-                "purchase-control": "",
-                "purchase-log-in": ""
+                "description": "{count, plural, one {Diskusi telah dipromosikan} other {{count} orang mempromosikan diskusi ini}}.",
+                "purchase-control": "Bayar untuk Promosi",
+                "purchase-log-in": "Login dan membayar promosi"
             },
             "bounties": {
-                "purchase-control": "",
-                "enable-control": ""
+                "purchase-control": "Tambahkan Bounty",
+                "enable-control": "Aktifkan Bounty"
             },
             "choose-bounty-amount-modal": {
-                "title": "",
-                "checkout-control": "",
+                "title": "Pilih jumlah bounty",
+                "checkout-control": "Checkout",
                 "description": "Pilih jumlah yang Anda inginkan untuk mendukung \"{subject}\" atau pilih jumlah khusus."
             },
             "backers-widget": {
-                "backers": "",
-                "label": "",
-                "none": "",
-                "pledged": ""
+                "backers": "Pendukung",
+                "label": "Menjanjikan {currency} {sum}",
+                "none": "Belum ada pendukung.",
+                "pledged": "Berjanji"
             },
             "tag": {
                 "require-payment-label": "Dibutuhkan Pembayaran"
@@ -84,34 +84,34 @@
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
+                "select-ptp-product": "Publikasi Berbayar",
+                "select-ptp-product-description": "Memilih produk akan memerlukan pembayaran produk tersebut untuk setiap diskusi dalam tag tersebut. Bayar per posting, misalnya bagus untuk advertorial. Buat produk dengan satu harga \"satu kali\" di dalam Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n",
+                "select-ptv-product": "Tampilan Berbayar",
+                "select-ptv-product-description": "Memilih produk akan memerlukan pembayaran produk tersebut untuk mendapatkan akses permanen ke semua postingan di luar ambang batas.. Buat produk di dalam Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n",
                 "visible-from": "Sembunyikan postingan pada ambang batas ini",
-                "visible-from-description": "",
-                "select-ptb-product": "",
-                "select-ptb-product-description": "Memilih produk akan membutuhkan pembayaran produk tersebut sebelum dapat memulai diskusi.\n",
-                "bump-others": "",
-                "bump-others-description": "",
-                "select-bounty-product": "",
-                "select-bounty-product-description": ""
+                "visible-from-description": "Angka yang Anda tentukan di sini menentukan di titik mana postingan akan disembunyikan untuk pengguna yang belum membayar untuk mengakses konten. Gunakan 0 untuk menyembunyikan semuanya, 1 untuk yang setelah Original Poster.\n",
+                "select-ptb-product": "Promosi Berbayar",
+                "select-ptb-product-description": "Memilih produk akan membutuhkan pembayaran produk tersebut sebelum dapat mempromosikan diskusi.\n",
+                "bump-others": "(PTB) Izinkan orang lain mempromosikan diskusi",
+                "bump-others-description": "Aktifkan ini agar orang lain selain penulis juga dapat membayar untuk mempromosikan diskusi\n",
+                "select-bounty-product": "Bounty",
+                "select-bounty-product-description": "Pilih produk yang akan disiapkan untuk hadiah. Produk hanya dapat memiliki satu Harga dengan model: \"Harga yang dipilih secara khusus\". Salin ID produk yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": "Memilih produk akan memungkinkan akses ke grup setelah pembayaran. Dalam hal langganan, akses akan dicabut secara otomatis setelah pembatalan langganan. Buat produk di dasbor Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam bidang ini.\n"
+                "select-pta-product": "Akses Berbayar",
+                "select-pta-product-description": "Memilih produk akan memungkinkan akses ke grup setelah pembayaran. Dalam hal langganan, akses akan dicabut secara otomatis setelah pembatalan langganan. Buat produk di akun Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam bidang ini.\n"
             },
             "settings": {
-                "assign-bounty-tag-id": "",
+                "assign-bounty-tag-id": "Tag untuk ditetapkan ke diskusi setelah bounty pertama dikirimkan",
                 "pk": "Publishable (api) key",
                 "sk": "Secret (api) key",
-                "webhook-secret": "",
-                "link-access-portal": "",
+                "webhook-secret": "Webhook signing secret",
+                "link-access-portal": "Tautkan portal akses di bawah menu dropdown sesi pengguna",
                 "link-to-terms": "URL Ketentuan Pembayaran",
-                "recount-total-discussion-bounties": ""
+                "recount-total-discussion-bounties": "Hitung total bounty diskusi"
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "Mengaktifkan bounty"
             }
         }
     }

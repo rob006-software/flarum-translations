@@ -2,19 +2,19 @@
     "blomstra-turnstile": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "site_key": "",
-                "secret_key": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "help_text": "Állítsa elő a Turnstile kulcsokat a Cloudflare-fiókjában <a>itt</a>.",
+                "site_key": "Webhely kulcsa",
+                "secret_key": "Titkos kulcs",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             }
         },
         "forum": {
-            "not_loaded_error": ""
+            "not_loaded_error": "A Cloudflare Turnstile betöltése nem sikerült. Frissítse az oldalt és ellenőrizze a reklámblokkolóját."
         }
     },
     "validation": {
-        "turnstile": ""
+        "turnstile": "Nem tudtuk megállapítani, hogy Ön robot vagy sem. Frissítse az oldalt és próbálja újra."
     }
 }

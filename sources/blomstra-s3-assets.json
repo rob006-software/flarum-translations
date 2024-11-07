@@ -8,7 +8,35 @@
                 "s3-compatible-section-help": "Leave these settings blank if using AWS S3",
                 "s3key": {
                     "label": "Key",
-                    "help": "help"
+                    "help": "S3 access key"
+                },
+                "s3secret": {
+                    "label": "Secret",
+                    "help": "S3 access secret"
+                },
+                "s3region": {
+                    "label": "Region",
+                    "help": "S3 region"
+                },
+                "s3bucket": {
+                    "label": "Bucket",
+                    "help": "S3 bucket"
+                },
+                "s3acl": {
+                    "label": "ACL",
+                    "help": "Specify the ACL for this bucket"
+                },
+                "s3url": {
+                    "label": "URL",
+                    "help": "S3 URL"
+                },
+                "s3endpoint": {
+                    "label": "Endpoint",
+                    "help": "S3 Endpoint"
+                },
+                "s3path-style-endpoint": {
+                    "label": "S3 path style endpoint",
+                    "help": "Switch to path style storage"
                 }
             }
         }

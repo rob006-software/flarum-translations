@@ -7,15 +7,15 @@
             },
             "settings": {
                 "label": {
-                    "tags": "",
+                    "tags": "Tags für beste Antworten",
                     "general": "Allgemein",
                     "reminders": "Erinnerungen",
-                    "search": "",
+                    "search": "Durchsuchen",
                     "advanced": "Erweitert",
                     "reminders_notice": "Damit Erinnerungen funktionieren, müssen Sie den Flarum-Planer richtig eingerichtet haben."
                 },
                 "allow_select_own_post": "Eigenen Beitrag auswählen",
-                "allow_select_own_post_help": "Erlaube dem OP, einen seiner eigenen Beiträge in der Diskussion als beste Antwort auszuwählen",
+                "allow_select_own_post_help": "Einem Benutzer erlauben, seinen eigenen Beitrag als beste Antwort auf eine Diskussion auszuwählen",
                 "show_max_lines_label": "Maximal anzuzeigende Zeilen in der Postvorschau",
                 "show_max_lines_help": "Zum Deaktivieren auf 0 festlegen. Wenn ein Beitrag länger als die konfigurierte Anzahl von Zeilen ist, wird er in der Beitragsvorschau mit einem Ausblendeffekt abgeschnitten.",
                 "select_best_answer_reminder_days": "Erinnerungshäufigkeit",
@@ -32,13 +32,19 @@
                 "use_alt_ui": "Alternatives Layout",
                 "use_alt_ui_help": "Beste Antwortsteuerelemente in der Fußzeile des Beitrags",
                 "documentation": "Dokumentation",
-                "enabled_tags_label": "",
-                "enabled_tags_help": "",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": "",
-                "solution_search": "",
-                "solution_search_help": "",
+                "enabled_tags_label": "Aktivierte Tags",
+                "enabled_tags_help": "Wählen Sie aus, für welche Tags (sofern vorhanden) die Option „Beste Antworten“ aktiviert werden soll. Diese Tags werden zu Tags im „Fragen und Antworten“-Format und können die Option „Beste Antworten“ festlegen.",
+                "remind_tags_label": "Erinnerungs-Tags",
+                "remind_tags_help": "Wählen Sie aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.",
+                "tags_info": "Wenn ein Tag „Beste Antwort“ aktiviert ist, weisen Sie jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n",
+                "solution_search": "Lösungssuche",
+                "solution_search_help": "Aktivieren Sie die Möglichkeit, nach Diskussionen mit den besten Antworten zu suchen",
+                "remove_solutions_from_main_search": "",
+                "remove_solutions_from_main_search_help": "",
+                "display_tags": "Tags in Suchergebnissen anzeigen",
+                "display_tags_help": "Tags in Suchergebnissen für Diskussionen mit „Beste Antworten“ anzeigen",
+                "discussion_sidebar_jump_button": "Schaltfläche „Zur besten Antwort springen“ in der Diskussionsseitenleiste anzeigen",
+                "discussion_sidebar_jump_button_help": "Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt.",
                 "enable_all_tags_button": "Alle Tags für beste Antworten aktivieren",
                 "enable_all_tags_reminder_button": "Alle Tags für Erinnerungen für die beste Antwort aktivieren",
                 "introduction": "Aktiviere in <code><a>flarum/tags</a></code>, welche Tags Beste Antworten unterstützen sollen, und optional welche Tags Erinnerungen unterstützen sollen. Wenn für ein Tag Beste Antwort aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen kann (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für alle Best-Antwort-anabled-Tags) oder pro Tag zugewiesen werden.\n",
@@ -87,15 +93,18 @@
                 "best-answer-count": "{count, plural, one { {count} beste Antwort} other {{count} beste Antworten}}"
             },
             "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
+                "discussions_solutions_heading": "Diskussionen mit Lösungen",
+                "all_discussions_solutions_button": "Suche in allen Diskussionen mit Lösungen für \"{query}\""
+            },
+            "discussion": {
+                "jump_to_best_answer_button": "Beste Antwort anzeigen"
             }
         },
         "email": {
             "subject": {
                 "awarded": "Dein Beitrag wurde von {display_name} als beste Antwort ausgewählt",
                 "ba-set": "{display_name} hat eine beste Antwort gewählt",
-                "select": "Wurde deine Frage beantwortet?"
+                "select": "Konnten Sie eine Antwort auf Ihre Frage erhalten?"
             },
             "body": {
                 "awarded": "Hallo {recipient_display_name},\n\nGute Arbeit, {actor_display_name} hat soeben deinen Beitrag als die beste Antwort in der Diskussion '{discussion_title}' ausgewählt. Danke fürs Mithelfen.\n\nSchau es dir an: {discussion_url}\n",

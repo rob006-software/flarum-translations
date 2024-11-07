@@ -1,29 +1,29 @@
 {
     "ziven-checkin": {
         "forum": {
-            "check-in": "",
-            "checked-in-day": "",
-            "checked-in-days": "",
-            "check-in-success": "",
-            "check-in-failed": "",
-            "try-again-later": ""
+            "check-in": "Bejelentkezés",
+            "checked-in-day": "{count} napi bejelentkezés",
+            "checked-in-days": "{count} napi bejelentkezés",
+            "check-in-success": "Sikeres bejelentkezés",
+            "check-in-failed": "Sikertelen bejelentkezés",
+            "try-again-later": "Próbálja újra később"
         },
         "admin": {
             "settings": {
-                "auto-check-in": "",
-                "auto-check-in-delay": "",
-                "timezone": "",
-                "reward-money": "",
-                "reward-money-requirement": "",
-                "check-in-success-prompt-type": "",
-                "check-in-success-prompt-text": "",
-                "check-in-success-prompt-reward-text": "",
-                "check-in-success-prompt-example-text": "",
-                "check-in-success-prompt-example-reward-text": "",
-                "allow-check-in": "",
-                "None": "",
-                "Alert": "",
-                "Modal": ""
+                "auto-check-in": "Automatikus bejelentkezés",
+                "auto-check-in-delay": "Automatikus bejelentkezés késleltetése (millió másodperc)",
+                "timezone": "Időzóna",
+                "reward-money": "Bejelentkezési jutalom",
+                "reward-money-requirement": "Az <code>antoinefr/flarum-ext-money</code> bővítmény szükséges hozzá",
+                "check-in-success-prompt-type": "Sikeres bejelentkezés párbeszédablakának típusa",
+                "check-in-success-prompt-text": "Szöveg a párbeszédablakon",
+                "check-in-success-prompt-reward-text": "Jutalom szövege a párbeszédablakon",
+                "check-in-success-prompt-example-text": "Példa: [days] egymást követő napon jelentkezett be",
+                "check-in-success-prompt-example-reward-text": "Példa: [reward] jutalmat kapott",
+                "allow-check-in": "Bejelentkezés engedélyezése",
+                "None": "Nincs",
+                "Alert": "Figyelmeztetés",
+                "Modal": "Párbeszédablak"
             }
         }
     }

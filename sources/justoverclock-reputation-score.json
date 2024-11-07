@@ -1,0 +1,45 @@
+{
+    "justoverclock-reputation-score": {
+        "admin": {
+            "pointsIncreased": "Points Increased",
+            "pointsDecreased": "Points Decreased",
+            "historyPostDeleted": "Reputation points decreased due to post deletion or hiding.",
+            "historyPostCreated": "Reputation points increased for creating a post.",
+            "historyLikeSet": "Reputation points increased for receiving a like.",
+            "historyLikeUnset": "Reputation points decreased for losing a like.",
+            "historyBestAnswerSet": "Reputation points increased for receiving a best answer.",
+            "historyBestAnswerUnset": "Reputation points decreased for unassigning a best answer.",
+            "historyDiscussionCreated": "Reputation points increased for starting a discussion.",
+            "historyDiscussionClosed": "Reputation points decreased because your thread was closed.",
+            "historyFlagCreated": "Increased reputation points for reporting a user.",
+            "settings": {
+                "maxPoints": "Maximum reputation points",
+                "maxPointsHelp": "Insert the number of the maximum allowed reputation points, e.g. \"1000\"",
+                "discussionPoints": "Points for a new discussion created",
+                "discussionPointsHelp": "Insert the number of point that a user earn for creating a new discussion (e.g. 0.55)",
+                "bestAnswerPoints": "Points for \"best answer\"",
+                "bestAnswerHelp": "Insert the number of point that a user earn for receiving a \"best answer\"",
+                "likePoints": "Points for Like received",
+                "likePointsHelp": "Insert the number of point that a user earn for receiving a like",
+                "postPoints": "Points for post created",
+                "postPointsHelp": "Insert the number of point that a user earn for creating a new post (points are multiplied based on the post length)",
+                "flagPoints": "Points for report post",
+                "flagPointsHelp": "Insert the number of points that a user earn for reporting posts"
+            }
+        },
+        "forum": {
+            "reputation": "Reputation",
+            "reputationBar": "Reputation Points",
+            "trust": "Reputation",
+            "reputationIncreasedNotification": "Your reputation is rising! Keep up the good work!",
+            "reputationDecreasedNotification": "Oh no! Your reputation is decreasing!",
+            "pageTitle": "Top 20 Trusted Users",
+            "topReputation": "Top Reputation",
+            "discussionCount": "Discussion Count",
+            "totalPosts": "Total Posts",
+            "reputationHistory": "Reputation History",
+            "reputationHistoryPageTitle": "This timeline displays the latest 15 events that impacted your reputation.",
+            "firstLoginModalContent": "<p>\n    This forum use a dynamic reputation system to encourage positive engagement within the community.\n    As a user, you can earn reputation points by contributing meaningfully to discussions and interactions, such as:\n    <ul>\n      <li>\n        Creating new discussions: Share your thoughts and ideas with the community.\n      </li>\n      <li>\n        Replying to posts: Earn points based on the quality of your responses.\n      </li>\n      <li>\n        Reporting users: Help maintain a healthy environment by reporting inappropriate behavior.\n      </li>\n      <li>\n        Receiving likes: Show appreciation to others' posts and get rewarded in return.\n      </li>\n      <li>\n        Writing best answers: earn points by contributing answers that solve a problem and are chosen as the \"best answer\"\n      </li>\n    </ul>\n  </p>\n  <p>\n    Earn reputation points by acting positively, helping others, and contributing to the community. Your actions\n    speak louder, and with each point, you gain recognition for your efforts. Keep engaging and build your reputation!\n  </p>\n"
+        }
+    }
+}

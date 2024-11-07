@@ -250,8 +250,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "Изменить {username}"
+                            "tooltip": "Изменить {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -264,6 +264,9 @@
                         },
                         "join_time": {
                             "title": "Регистрация"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "ID"
@@ -597,6 +600,11 @@
                 "kilo_text": "K",
                 "mega_text": "M"
             },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
+            },
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second} и {third}",
@@ -738,7 +746,7 @@
             "security": "Безопасность",
             "settings": "Настройки",
             "sign_up": "Регистрация",
-            "some_others": "{count, plural, one {# другому} other {# другим}}",
+            "some_others": "{count, plural, one {# другой} other {# других}}",
             "start_a_discussion": "Создать дискуссию",
             "username": "Имя пользователя",
             "users": "Пользователи",

@@ -4,12 +4,12 @@
             "configure_button_label": "Mengkonfigurasi dengan FoF OAuth",
             "settings_accessibility_label": "Pengaturan {name}",
             "permissions": {
-                "moderate_user_providers": ""
+                "moderate_user_providers": "Memoderasi akun tertaut milik pengguna"
             },
             "settings": {
                 "advanced": {
                     "heading": "Tingkat Lanjut",
-                    "log-oauth-errors-label": "",
+                    "log-oauth-errors-label": "Mencatat error OAuth",
                     "log-oauth-errors-help": "Jika diaktifkan, error pada OAuth akan dicatat pada log Flarum. Hal ini dapat membantu men-debug masalah pada OAuth, tetapi juga dapat berisi informasi sensitif."
                 },
                 "only_icons_label": "Hanya menampilkan ikon (tata letak alternatif)",
@@ -53,7 +53,7 @@
                         "description": "Buatlah aplikasi di {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": ""
+                        "hosted_domain_label": "Domain Yang Dihosting (G suite/Google Apps for Business, opsional)"
                     },
                     "linkedin": {
                         "description": "Buatlah aplikasi di {link}.",
@@ -80,6 +80,7 @@
                         "label": "Akun terhubung",
                         "last-used-label": "Terakhir digunakan",
                         "link-created-label": "Link dibuat",
+                        "identification-label": "ID {provider}",
                         "orphaned-account": "Anda pernah masuk melalui provider ini sebelumnya, tetapi forum ini telah menonaktifkan sign-in dengan metode ini.",
                         "help": "Akun yang terhubung ini memungkinkan Anda untuk masuk ke forum menggunakan provider lain.",
                         "identifier-label": "ID {provider}",
@@ -102,7 +103,7 @@
             "unlink": "Hapus link",
             "error": {
                 "bad_verification_code": "Token verifikasi tidak valid atau kedaluwarsa. Silakan coba lagi.",
-                "invalid_state": "Status tidak valid. Silakan coba lagi."
+                "invalid_state": "Tidak valid. Silakan coba lagi."
             }
         },
         "lib": {
@@ -120,7 +121,7 @@
             "settings": {
                 "app_id": "App ID",
                 "app_secret": "App Secret",
-                "client_id": "Client ID",
+                "client_id": "ID Client",
                 "client_secret": "Client Secret"
             }
         }

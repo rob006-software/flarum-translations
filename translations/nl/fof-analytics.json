@@ -4,34 +4,34 @@
             "popup": {
                 "section": {
                     "googleAnalytics": "Google Analytics",
-                    "piwik": ""
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Schakel Google Analytics in (UA/GA4)",
+                    "optTrackingCode": "Optimaliseer trackingcode (optioneel)",
+                    "googleTrackingCode": "Trackingcode-ID",
+                    "googleGTMCode": "GTM-code-ID (optioneel)",
+                    "statusPiwik": "Schakel Matomo in",
+                    "piwikUrl": "Matomo-domein of URL",
+                    "piwikSiteId": "Site-ID",
+                    "piwikTrackSubdomain": "Volg bezoekers over alle subdomeinen van Flarum",
+                    "piwikPrependDomain": "Voeg tijdens het bijhouden het sitedomein vóór de paginatitel toe",
+                    "piwikHideAliasUrl": "Verberg in het rapport 'Outlinks' klikken naar bekende alias-URL's",
+                    "piwikAliasUrl": "Alias URL",
+                    "piwikTrackAccounts": "Volg individuele gebruikersaccounts",
+                    "piwikAuthToken": "Authenticatietoken"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Vul dit token in om een Matomo-statistiekenwidget in het beheerderspaneel in te schakelen.\nJe kunt het vinden in Instellingen > Persoonlijk > API-authenticatietoken.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Niet volgen",
+                    "username": "Volg op gebruikersnaam",
+                    "email": "Volg via e-mail"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }

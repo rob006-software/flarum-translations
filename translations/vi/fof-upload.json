@@ -1,5 +1,5 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
@@ -13,14 +13,14 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Tải lên được chia sẻ"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Tải lên các tệp có thể được sử dụng bởi tất cả người dùng của diễn đàn của bạn.",
+                "introduction": "Các tệp tải lên chia sẻ là các tệp có thể được sử dụng bởi tất cả người dùng của diễn đàn của bạn. Chúng không được đính kèm vào bài đăng nào, nhưng có thể được chèn vào bài đăng bằng cách sử dụng trình quản lý phương tiện.\n\n<strong>Cảnh báo:</strong> Các tệp tải lên chia sẻ không được bảo vệ bởi bất kỳ quyền hạn nào. Bất cứ ai có URL đều có thể xem chúng.\n",
+                "no-files": "Chưa có tệp chia sẻ nào được tải lên cho đến nay.",
+                "title": "Tải lên được chia sẻ",
+                "upload-new-button": "Tải lên tệp mới"
             },
             "pane": {
                 "title": "Tải lên",
@@ -36,6 +36,7 @@
                 "watermark": "Chọn xem hình ảnh có được thêm hình mờ trong quá trình tải lên hay không. Hình mờ được thêm vào không phải gif dựa trên tùy chọn của bạn bên dưới.\n",
                 "s3_compatible_storage": "Các cài đặt sau chỉ được yêu cầu khi sử dụng bộ lưu trữ tương thích S3. Nếu bạn sử dụng AWS, bạn có thể để trống chúng.\n",
                 "s3_acl": "ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "Sử dụng cài đặt này nếu bạn đang sử dụng dịch vụ tương thích S3 yêu cầu định dạng URL cụ thể (ví dụ như Backblaze B2), hoặc nếu bạn gặp vấn đề với định dạng URL mặc định. Điều này thường không cần thiết đối với hầu hết các dịch vụ. Đảm bảo URL bao gồm giao thức (https://) và được định dạng đúng. Ví dụ: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Để trống khóa và bí mật để sử dụng thông tin đăng nhập trong hồ sơ cá thể.\n",
                 "composer_buttons": "Theo mặc định, cả nút quản lý và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Thiết lập lưu trữ S3 nâng cao",
                     "endpoint": "Điểm cuối",
                     "use_path_style_endpoint": "Sử dụng điểm cuối kiểu đường dẫn",
-                    "acl": "Danh sách kiểm soát truy cập (ACL)"
+                    "acl": "Danh sách kiểm soát truy cập (ACL)",
+                    "custom_url": "URL tùy chỉnh S3"
                 },
                 "disable-download-logging": {
                     "title": "Tắt nhật ký tải xuống",
@@ -109,8 +111,8 @@
                 "upload_label": "Tải lên tập tin",
                 "view_user_uploads_label": "Xem tệp của người dùng",
                 "delete_uploads_of_others_label": "Xóa tệp của người dùng",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "Tải lên các tệp được chia sẻ",
+                "access_shared_label": "Truy cập các tệp được chia sẻ trong Trình quản lý Phương tiện"
             },
             "templates": {
                 "file": "Mẫu tải xuống tệp mặc định",
@@ -154,11 +156,11 @@
             "buttons": {
                 "attach": "Đính kèm",
                 "upload": "Tải lên",
-                "upload_shared": "",
+                "upload_shared": "Được chia sẻ",
                 "user_uploads": "Tệp của người dùng",
                 "cancel": "Hủy",
                 "media": "Tệp của tôi",
-                "shared_media": ""
+                "shared_media": "Phương tiện được chia sẻ"
             },
             "states": {
                 "error": "Lỗi",
@@ -198,55 +200,66 @@
                 "forbidden_type": "Các loại tệp này không được phép tải lên.",
                 "unsupported_type": "Bộ điều hợp tải lên không hỗ trợ loại mime được cung cấp: {mime}.",
                 "could_not_detect_mime": "Không thể phát hiện loại MIME của tệp này, vui lòng thử lại.",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "max_upload_file_size_ini": "Bạn đã đạt đến giới hạn kích thước tệp tối đa được cấu hình trong tệp php.ini.",
+                "max_upload_file_size_form": "Bạn đã vượt quá giới hạn kích thước tệp tối đa được đặt trong biểu mẫu tải lên.",
+                "partial_upload": "Tải lên một phần.",
+                "no_file_uploaded": "Không có tệp nào được tải lên.",
+                "no_upload_tmp_folder": "Không có thư mục tmp để tải lên tệp.",
+                "cannot_write_to_disk": "Không thể ghi vào đĩa.",
+                "upload_blocked_by_php_extension": "Một tiện ích PHP đã chặn việc tải lên.",
+                "no_files_made_it_to_upload": "Vui lòng tải lên các tệp có kích thước không lớn hơn {max} KB."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Tệp chia sẻ mới",
+                "dropzone": "Kéo và thả tệp vào đây hoặc nhấp để duyệt",
+                "hide-from-media-gallery": "Ẩn khỏi thư viện phương tiện của người dùng",
+                "upload": "Tải lên"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Đang tải tệp tin...",
+                "empty": "Không có tệp tin nào để hiển thị.",
+                "release_to_upload": "Thả để tải lên",
+                "modal_empty_desktop": "Danh sách tệp của bạn trống. Nhấp vào nút hoặc kéo một tệp vào đây để tải lên.",
+                "modal_empty_phone": "Danh sách tệp của bạn trống. Chạm vào nút phía trên để tải lên một tệp.",
+                "select_file_a11y_label": "Chọn tệp \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Không có tệp nào được chọn} one {Chọn tệp} other {Chọn các tệp}}",
+                "load_more_files_btn": "Tải thêm tệp tin",
+                "delete_file_a11y_label": "Xóa tệp \"{fileName}\"",
+                "delete_confirmation": "Bạn có chắc chắn muốn xóa \"{fileName}\" không?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Ẩn \"{fileName}\" khỏi trình quản lý phương tiện",
+                    "btn_a11y_label_show": "Hiển thị \"{fileName}\" trong trình quản lý media",
+                    "hide_confirmation": "Bạn có chắc chắn muốn ẩn \"{fileName}\"? Việc ẩn tệp chỉ xóa tệp khỏi trình quản lý media của bạn và không ảnh hưởng đến các bài đăng hiện có.",
+                    "hide_success": "Tệp đã được ẩn",
+                    "show_confirmation": "Bạn có chắc chắn muốn hiển thị \"{fileName}\"? Hiển thị tệp sẽ làm cho tệp xuất hiện lại trong trình quản lý media của bạn.",
+                    "show_success": "Tệp đã được hiển thị",
+                    "hide_fail": "Không thể ẩn tệp \"{fileName}\"",
+                    "show_fail": "Không thể hiển thị tệp \"{fileName}\"",
+                    "loading": "Đang ẩn tệp..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Đặt \"{fileName}\" thành riêng tư (không có URL công khai)",
+                    "btn_a11y_label_show": "Đặt \"{fileName}\" thành công khai (có URL công khai)",
+                    "hide_confirmation": "Bạn có chắc chắn muốn đặt \"{fileName}\" ở chế độ riêng tư không? Đặt tệp ở chế độ riêng tư sẽ xóa URL công khai của tệp nhưng sẽ không ảnh hưởng đến các bài đăng hiện có. Nó cũng sẽ không còn hiển thị trong trình quản lý phương tiện đối với người dùng trái phép.",
+                    "hide_success": "Tệp được đặt ở chế độ riêng tư",
+                    "show_confirmation": "Bạn có chắc chắn muốn công khai \"{fileName}\" không? Đặt tệp ở chế độ công khai sẽ giúp bất kỳ ai có URL công khai đều có thể truy cập tệp đó và bất kỳ ai cũng có thể chia sẻ tệp đó bằng trình quản lý phương tiện.",
+                    "show_success": "Tệp được công khai",
+                    "hide_fail": "Không thể đặt tệp \"{fileName}\" ở chế độ riêng tư",
+                    "show_fail": "Không thể đặt tệp \"{fileName}\" ở chế độ công khai",
+                    "loading": "Đang đặt tập tin ở chế độ riêng tư..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Tất cả các tệp được tải lên bởi người dùng.",
+                    "anonymize_description": "Loại bỏ tham chiếu người dùng từ các tệp đã tải lên. Các tệp vẫn có thể được truy cập bởi những người dùng đã có thể xem chúng trước khi ẩn danh.",
+                    "delete_description": "Xóa tất cả các tệp đã được người dùng tải lên."
                 }
             }
         }

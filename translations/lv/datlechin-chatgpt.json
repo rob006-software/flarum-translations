@@ -2,23 +2,23 @@
     "datlechin-chatgpt": {
         "admin": {
             "settings": {
-                "api_key_label": "",
-                "api_key_help": "",
-                "model_label": "",
-                "model_help": "",
-                "max_tokens_label": "",
-                "max_tokens_help": "",
-                "user_prompt_label": "",
-                "user_prompt_help": "",
-                "user_prompt_badge_label": "",
-                "user_prompt_badge_help": "",
-                "enable_on_discussion_started_label": "",
-                "enable_on_discussion_started_help": "",
-                "enabled_tags_label": "",
-                "enabled_tags_help": ""
+                "api_key_label": "API atslēga",
+                "api_key_help": "Iegūstiet OpenAI API atslēgu vietnē <a>openai.com</a>.",
+                "model_label": "Modelis",
+                "model_help": "Uzziniet vairāk par <a>modeļiem</a> (noklusējums: <code>text-davinci-003</code>).",
+                "max_tokens_label": "Max Tokens",
+                "max_tokens_help": "<a>Kas ir marķieri un kā tos saskaitīt?</a>",
+                "user_prompt_label": "Lietotāja uzvedne",
+                "user_prompt_help": "Ievadiet lietotāja ID, kas tiks izmantots atbildes ģenerēšanai. Pēc noklusējuma ir tas, kurš sāka diskusiju.",
+                "user_prompt_badge_label": "Lietotāja uzvednes emblēma",
+                "user_prompt_badge_help": "Teksts, kas tiks parādīts blakus lietotāja uzvednei.",
+                "enable_on_discussion_started_label": "Iespējot, kad diskusija sākās",
+                "enable_on_discussion_started_help": "Uzsākot diskusiju, diskusija saņems atbildi, pamatojoties uz pirmā ieraksta saturu.",
+                "enabled_tags_label": "Iespējoti tagi",
+                "enabled_tags_help": "Atlasiet, kuri tagi tiks izmantoti atbildes ģenerēšanai."
             },
             "permissions": {
-                "use_chatgpt_assistant_label": ""
+                "use_chatgpt_assistant_label": "Izmantojiet ChatGPT palīgu"
             }
         }
     }

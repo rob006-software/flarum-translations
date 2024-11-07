@@ -1,0 +1,66 @@
+{
+    "foskym-activity-graph": {
+        "admin": {
+            "settings": {
+                "count_comments": "統計評論數",
+                "count_discussions": "計數討論",
+                "count_likes": "按讚數",
+                "count_custom_levels_exp_logs": "自訂等級 Exp 日誌（需要 foskym/flarum-custom-levels）",
+                "count_invite_user_invites": "計算使用者邀請數（需要 xypp/flarum-invite-user）",
+                "count_store_purchases": "統計商店購買量（需要 xypp/store）",
+                "count_polls_create_polls": "創建的民意調查計數（需要 fof/polls）",
+                "count_polls_votes": "統計民調票數（需 fof/polls）",
+                "count_username_requests_username": "Count Change Username Requests （需要 fof/username-requests）",
+                "count_username_requests_nickname": "統計更改暱稱請求（需要 fof/用戶名請求和 flarum 暱稱）",
+                "count_best_answer_marked": "計算標記的最佳答案（需要 fof/best-answer）",
+                "count_badges_assigned": "計算分配的徽章數量（需要 v17development/flarum-user-badges）",
+                "count_achievements_achieved": "計算已取得的成就（需要 malago/achievements）",
+                "count_quest_done": "",
+                "tooltip_position": "",
+                "tooltip_position_options": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "times_display_format": "",
+                "times_display_format_help": "",
+                "from_year": "",
+                "from_year_help": ""
+            },
+            "permissons": {
+                "query-others-activity-graph": ""
+            }
+        },
+        "forum": {
+            "label": {
+                "activity_graph": "",
+                "total_times": "",
+                "name_map": "",
+                "categories": {
+                    "comments": "",
+                    "discussions": "",
+                    "likes": "",
+                    "custom_levels_exp_logs": "",
+                    "invite_user_invites": "",
+                    "store_purchases": "",
+                    "polls_create_polls": "",
+                    "polls_votes": "",
+                    "username_requests_username": "",
+                    "username_requests_nickname": "",
+                    "best_answer_marked": "",
+                    "badges_assigned": "",
+                    "achievements_achieved": "",
+                    "quest_done": ""
+                }
+            }
+        },
+        "lib": {
+            "defaults": {
+                "times_display_format": [
+                    ""
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "nodeloc-emoji": {
+        "admin": {
+            "settings": {
+                "emoji_settings_heading": "Emodzsibeállítások",
+                "category_settings_heading": "Kategóriabeállítások",
+                "general_ui_settings_heading": "Felhasználói felület általános beállításai",
+                "show_variants_label": "Változatok megjelenítése",
+                "show_variants_text": "Néhány saját emodzsi bőrszínváltozattal rendelkezik. Ha egy olyan emodzsi van kiválasztva, amely változatokkal rendelkezik, akkor megjelenik egy felugró ablak, ahol a felhasználó kiválaszthatja a kívánt változatot.",
+                "auto_hide_label": "Automatikus elrejtés",
+                "auto_hide_text": "A kiválasztó elrejtése, ha egy emodzsi ki van jelölve.",
+                "show_preview_label": "Előnézeti rész megjelenítése",
+                "show_category_buttons_label": "Kategóriagombok megjelenítése",
+                "show_search_label": "Keresési bevitel megjelenítése",
+                "show_recents_label": "A legutóbb használt saját emodzsik megjelenítése (és mentése)",
+                "recents_count_label": "Legutóbb használt emodzsik száma",
+                "recents_count_text": "A mentendő legutóbb használt emodzsik száma.",
+                "emoji_style_label": "Emodzsi stílusa",
+                "emoji_version_label": "Emodzsi verziója",
+                "emoji_version_text": "A használandó emodzsispecifikáció verziója.",
+                "initial_category_label": "Kezdeti kategória",
+                "initial_category_text": "Alapértelmezés szerint a választó a „Mosolyok és érzelem” kategóriát jeleníti meg.",
+                "specify_categories_label": "Kategóriák megadása",
+                "specify_categories_text": "Megadhat itt egy kategórialistát, és a választó csak ezeket a kategóriákat fogja megjeleníteni.",
+                "emoji_data_label": "Emodzsiadatok",
+                "emoji_data_text": "Ez jellemzően a lefordított emodzsinevek biztosítására használatos.",
+                "emoji_style_native_option": "Natív",
+                "emoji_categories": {
+                    "smileys": "=> nodeloc-emoji.ref.emoji_categories.smileys",
+                    "people": "=> nodeloc-emoji.ref.emoji_categories.people",
+                    "animals": "=> nodeloc-emoji.ref.emoji_categories.animals",
+                    "food": "=> nodeloc-emoji.ref.emoji_categories.food",
+                    "travel": "=> nodeloc-emoji.ref.emoji_categories.travel",
+                    "activities": "=> nodeloc-emoji.ref.emoji_categories.activities",
+                    "objects": "=> nodeloc-emoji.ref.emoji_categories.objects",
+                    "symbols": "=> nodeloc-emoji.ref.emoji_categories.symbols",
+                    "flags": "=> nodeloc-emoji.ref.emoji_categories.flags"
+                }
+            },
+            "my_emoji_section": {
+                "heading_title": "Egyéni emodzsik",
+                "import_json_button": "JSON importálása",
+                "export_json_button": "JSON exportálása",
+                "import_myemoji_message": "Ez csak az emodzsikonfigurációt importálja. Az emodzsik képeit kézileg kell feltölteni.",
+                "edit_emoji": {
+                    "emoji_category_label": "Kategóriakód",
+                    "text_to_category_name_label": "Kategória neve",
+                    "modal_title": "Emodzsi hozzáadása",
+                    "emoji_title_label": "Emodzsi címe",
+                    "delete_emoji_confirmation": "Biztos, hogy törli ezt az emodzsit?",
+                    "text_to_replace_label": "Lecserélendő szöveg",
+                    "path_or_url_label": "Útvonal vagy webcím",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Emodzsi törlése",
+                    "saved_message": "=> core.admin.settings.saved_message"
+                },
+                "emoji_list": {
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                }
+            }
+        },
+        "forum": {
+            "composer": {
+                "emoji_tooltip": "Emodzsi beszúrása"
+            },
+            "emoji-button": {
+                "search_placeholder": "Emodzsik keresése",
+                "no_myemoji_found_message": "Nem található saját emodzsi",
+                "categories": {
+                    "recents": "=> nodeloc-emoji.ref.emoji_categories.recents",
+                    "smileys": "=> nodeloc-emoji.ref.emoji_categories.smileys",
+                    "people": "=> nodeloc-emoji.ref.emoji_categories.people",
+                    "animals": "=> nodeloc-emoji.ref.emoji_categories.animals",
+                    "food": "=> nodeloc-emoji.ref.emoji_categories.food",
+                    "travel": "=> nodeloc-emoji.ref.emoji_categories.travel",
+                    "activities": "=> nodeloc-emoji.ref.emoji_categories.activities",
+                    "objects": "=> nodeloc-emoji.ref.emoji_categories.objects",
+                    "symbols": "=> nodeloc-emoji.ref.emoji_categories.symbols",
+                    "flags": "=> nodeloc-emoji.ref.emoji_categories.flags",
+                    "custom": "=> nodeloc-emoji.ref.emoji_categories.custom"
+                }
+            }
+        },
+        "ref": {
+            "emoji_categories": {
+                "recents": "Legutóbbi emodzsik",
+                "smileys": "Mosolyok és érzelem",
+                "people": "Emberek és test",
+                "animals": "Állatok és természet",
+                "food": "Étel és ital",
+                "travel": "Utazás és helyek",
+                "activities": "Tevékenységek",
+                "objects": "Tárgyak",
+                "symbols": "Szimbólumok",
+                "flags": "Zászlók",
+                "custom": "Egyéni"
+            }
+        }
+    }
+}

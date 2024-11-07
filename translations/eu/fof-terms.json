@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "Azkeneko politiken eguneraketa. Data hori baino lehenago baimendutako erabiltzaileak berriro onartzea ekarriko du. Iraganean egon behar da (bestela ezingo dira onaru).\n",
                 "export-url": "Exportatu URLa",
-                "export-url-help": "\"Politiken datu exportazioa\" egiteko baimena duen edozein erabiltzaileek nork onartu eta noiz datuak gordetzeko aukera izango du. Ikusi xehetasun gehiago <a>extensioaren wikian</a>.\n"
+                "export-url-help": "\"Politiken datu exportazioa\" egiteko baimena duen edozein erabiltzaileek nork onartu eta noiz datuak gordetzeko aukera izango du. Ikusi xehetasun gehiago <a>extensioaren wikian</a>.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "Ikusi pokitiken egoera",
@@ -71,7 +73,7 @@
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

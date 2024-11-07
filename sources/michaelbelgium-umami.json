@@ -1,0 +1,33 @@
+{
+    "michaelbelgium-umami": {
+        "admin": {
+            "widget": {
+                "live": "Live",
+                "views": "Page views",
+                "visits": "Visits",
+                "visitors": "Visitors"
+            },
+            "settings": {
+                "errors": {
+                    "no_connection": "Could not fetch statistics, please check your API credentials."
+                },
+                "site_id": {
+                    "label": "Website ID",
+                    "help": "The website ID of this Flarum instance on Umami. You can find this in the details of the website settings on Umami."
+                },
+                "domain": {
+                    "label": "Domain",
+                    "help": "The domain where Umami is located."
+                },
+                "username": {
+                    "label": "Account username",
+                    "help": "Optional. The username of an umami account on the above domain. (used for the admin dashboard widget)"
+                },
+                "password": {
+                    "label": "Account password",
+                    "help": "Optional. The password of the username above. (used for the admin dashboard widget)"
+                }
+            }
+        }
+    }
+}

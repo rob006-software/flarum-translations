@@ -2,44 +2,46 @@
     "blomstra-horizon": {
         "admin": {
             "settings": {
-                "trim_title": "",
-                "trim_help": "",
-                "trim_recent": "",
-                "trim_recent_help": "",
-                "trim_pending": "",
-                "trim_pending_help": "",
-                "trim_completed": "",
-                "trim_completed_help": "",
-                "trim_recent_failed": "",
-                "trim_recent_failed_help": "",
-                "trim_failed": "",
-                "trim_failed_help": "",
-                "trim_monitored": "",
-                "trim_monitored_help": ""
+                "trim_title": "Eltávolítási beállítások",
+                "trim_help": "Itt beállíthatja, hogy mennyi ideig (percekben) szeretné, hogy a Horizon\nmegjegyezze a legutóbbi és a sikertelen feladatokat. Általában a legutóbbiakat\negy óráig tartja meg, míg a sikerteleneket egy teljes hétig tárolja.\n",
+                "trim_recent": "Legutóbbi feladatok eltávolítása",
+                "trim_recent_help": "Ez a táblázat a legutóbbi feladatok megjelenítésére szolgál a Horizon vezérlőpultján.\n",
+                "trim_pending": "Függőben lévő feladatok eltávolítása",
+                "trim_pending_help": "Ez a táblázat a függőben lévő feladatok megjelenítésére szolgál a Horizon vezérlőpultján.\n",
+                "trim_completed": "Befejezett feladatok eltávolítása",
+                "trim_completed_help": "Ez a táblázat a befejezett feladatok megjelenítésére szolgál a Horizon vezérlőpultján.\n",
+                "trim_recent_failed": "Legutóbbi sikertelen munkák eltávolítása",
+                "trim_recent_failed_help": "Ez a táblázat a legutóbbi sikertelen feladatok megjelenítésére szolgál a Horizon vezérlőpultján.\n",
+                "trim_failed": "Sikertelen feladatok eltávolítása",
+                "trim_failed_help": "Ez a táblázat a sikertelen feladatok megjelenítésére szolgál a Horizon vezérlőpultján.\n",
+                "trim_monitored": "Nyomon követett feladatok eltávolítása",
+                "trim_monitored_help": "Ez a táblázat a nyomon követett feladatok megjelenítésére szolgál a Horizon vezérlőpultján.\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
+                "auto_refresh": "Automatikus frissítés",
+                "heading": "Feladatsor áttekintése",
+                "full_dashboard": "Horizon vezérlőpult",
+                "refresh": "Frissítés",
                 "data": {
-                    "redis-used-memory": "",
-                    "redis-peak-memory": "",
-                    "redis-max-memory": "",
-                    "redis-cpu-user": "",
-                    "redis-cpu-sys": "",
-                    "jobs-per-minute": "",
-                    "jobs-past-hour": "",
-                    "failed-last-seconds": "",
+                    "redis-used-memory": "A Redis memóriahasználata",
+                    "redis-peak-memory": "A Redis legnagyobb memóriahasználata",
+                    "redis-max-memory": "A Redis memóriakorlátja",
+                    "redis-memory-policy": "A Redis memória-házirendje",
+                    "redis-memory-policy-tooltip": "A memória-házirend dönti el, hogy a Redis minek az eltávolítását választja,\nha eléri a memóriakorlátot. Az alapértelmezett a `noeviction`: Az új értékek\nnem lesznek mentve. Kattintson a dokumentáció megtekintéséhez.\n",
+                    "redis-cpu-user": "A Redis felhasználói CPU-használata",
+                    "redis-cpu-sys": "A Redis rendszerszintű CPU-használata",
+                    "jobs-per-minute": "Feladatok száma percenként",
+                    "jobs-past-hour": "Feladatok száma óránként",
+                    "failed-last-seconds": "Sikertelen feladatok az elmúlt néhány másodpercben",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Állapot",
+                        "running": "Fut",
+                        "inactive": "Tétlen"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-runtime": "",
-                    "max-throughput": ""
+                    "total-processes": "Összes folyamat",
+                    "max-wait-time": "Leghosszabb várakozási idő",
+                    "max-runtime": "Leghosszabb futásidő",
+                    "max-throughput": "Legnagyobb áteresztőképesség"
                 }
             }
         }

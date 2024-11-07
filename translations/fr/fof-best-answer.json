@@ -39,6 +39,12 @@
                 "tags_info": "Lorsqu'une étiquette est activée pour la meilleure réponse, attribuez des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (sa propre discussion ou toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée pour la meilleure réponse) ou pour chaque étiquette.\n",
                 "solution_search": "Recherche de solution",
                 "solution_search_help": "Activer la possibilité de rechercher des discussions avec les meilleures réponses",
+                "remove_solutions_from_main_search": "Supprimer les solutions de la recherche principale",
+                "remove_solutions_from_main_search_help": "Supprime les discussions avec les meilleures réponses des principaux résultats de recherche de « Toutes les discussions »",
+                "display_tags": "Afficher les étiquettes dans les résultats de recherche",
+                "display_tags_help": "Afficher le(s) étiquette(s) dans les résultats de recherche pour les discussions ayant des meilleures réponses",
+                "discussion_sidebar_jump_button": "Afficher le bouton « Voir la meilleure réponse » dans la barre latérale de la discussion",
+                "discussion_sidebar_jump_button_help": "Ajoute un bouton à la barre latérale de la discussion qui permet de se rendre directement à la meilleure réponse dans le flux des messages.",
                 "enable_all_tags_button": "Activer toutes les étiquettes pour les meilleures réponses",
                 "enable_all_tags_reminder_button": "Activer toutes les étiquettes pour les rappels d'une meilleure réponse",
                 "introduction": "Active quelles étiquettes doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les étiquettes qui doivent prendre en charge les rappels. Lorsqu'une étiquette est activée avec l'extension « Best Answer », cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée avec l'extension « Best Answer »), ou sur une base par étiquette.\n"
@@ -88,6 +94,9 @@
             "search": {
                 "discussions_solutions_heading": "Discussions avec des solutions",
                 "all_discussions_solutions_button": "Rechercher toutes les discussions avec des solutions concernant « {query} »"
+            },
+            "discussion": {
+                "jump_to_best_answer_button": "Voir la meilleure réponse"
             }
         },
         "email": {

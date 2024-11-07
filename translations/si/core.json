@@ -249,8 +249,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "{username} සංස්කරණය"
+                            "tooltip": "{username} සංස්කරණය",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -263,6 +263,9 @@
                         },
                         "join_time": {
                             "title": "එක් වුනා"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "හැඳුනුම"
@@ -595,6 +598,11 @@
             "number_suffix": {
                 "kilo_text": "",
                 "mega_text": ""
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": ", ",

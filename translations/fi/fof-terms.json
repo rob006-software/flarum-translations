@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "DD.MM.YYYY (hh:mm:ss)",
                 "terms-updated-at-help": "Ehtojen viimeisimmän muutoksen päivämäärä. Tämän määritys pakottaa käyttäjien hyväksymään ehdot uudelleen mikäli he ovat hyväksyneet jo ne ennen tätä päivämäärää. Pitää olla menneisyydessä (muuten käyttäjät eivät voi hyväksyä ehtoja ja päästä modaalista eteenpäin).\n",
                 "export-url": "Viennin URL",
-                "export-url-help": "Kaikki käyttäjät joilla on oikeus \"Viedä ehtojen data\" voi mennä haluttuun osoitteeseen ja ladata käyttäjien lista niistä, jotka ovat hyväksyneet ehdot. Voit löytää tietoja asetuksista <a>lisäosan wikistä</a>.\n"
+                "export-url-help": "Kaikki käyttäjät joilla on oikeus \"Viedä ehtojen data\" voi mennä haluttuun osoitteeseen ja ladata käyttäjien lista niistä, jotka ovat hyväksyneet ehdot. Voit löytää tietoja asetuksista <a>lisäosan wikistä</a>.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "Näe käyttäjän ehtojen tila",
@@ -68,6 +70,16 @@
             },
             "user_controls": {
                 "state_button": "Ehtojen hyväksynnän tila"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "userpolicydata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     },

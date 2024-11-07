@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "Ngày cập nhật điều khoản cuối cùng. Việc đặt giá trị này sẽ yêu cầu tất cả người dùng đã chấp nhận trước ngày đó phải chấp nhận lại. Phải trong quá khứ (nếu không người dùng sẽ không bao giờ có thể chấp nhận sau ngày và vượt qua phương thức).\n",
                 "export-url": "Xuất URL",
-                "export-url-help": "Bất kỳ người dùng nào có quyền \"Xuất tất cả dữ liệu chính sách\" đều có thể truy cập vào các URL đó để tải xuống danh sách người dùng đã chấp nhận chính sách này. Bạn có thể tìm thêm chi tiết về các tùy chọn có sẵn trên <a>wiki tiện ích mở rộng</a>.\n"
+                "export-url-help": "Bất kỳ người dùng nào có quyền \"Xuất tất cả dữ liệu chính sách\" đều có thể truy cập vào các URL đó để tải xuống danh sách người dùng đã chấp nhận chính sách này. Bạn có thể tìm thêm chi tiết về các tùy chọn có sẵn trên <a>wiki tiện ích mở rộng</a>.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "Xem trạng thái chính sách người dùng",
@@ -68,6 +70,16 @@
             },
             "user_controls": {
                 "state_button": "Điều khoản chấp nhận trạng thái"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "userpolicydata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     },

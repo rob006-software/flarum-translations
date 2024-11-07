@@ -1,5 +1,5 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
@@ -36,6 +36,7 @@
                 "watermark": "Elija si las imágenes tendrán una marca de agua añadida durante la subida. Las marcas de agua se agregan a los no gifs según sus preferencias a continuación.\n",
                 "s3_compatible_storage": "Los siguientes ajustes solo son necesarios cuando se utiliza almacenamiento compatible con S3. Si usa AWS, puede dejarlos en blanco.\n",
                 "s3_acl": "La ACL que debe aplicarse al objeto subido (predeterminado: privado). Para conocer los valores posibles, consulte https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Deje el campo Key y Secret vacíos para usar las credenciales en el perfil de la instancia.\n",
                 "composer_buttons": "De forma predeterminada, tanto el botón del gestor de medios como el botón de subida están visibles. También puede optar por mostrar sólo un botón.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Configuración avanzada de almacenamiento S3",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Utilizar endpoint de estilo de ruta",
-                    "acl": "Lista de control de acceso (ACL)"
+                    "acl": "Lista de control de acceso (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Deshabilitar registro de descargas",

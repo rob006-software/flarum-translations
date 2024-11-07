@@ -1,0 +1,56 @@
+{
+    "neoncube-private-messages": {
+        "admin": {
+            "settings": {
+                "return_key": "Return key sends message"
+            },
+            "permissions": {
+                "start_label": "Start private conversations",
+                "allow_users_to_receive_email_notifications": "Allow users to receive email notifications when they receive a private message"
+            }
+        },
+        "forum": {
+            "dropdown": {
+                "tooltip": "Conversations"
+            },
+            "modal": {
+                "title": "Start Conversation",
+                "help": "Start typing a username to start a chat.",
+                "help_start": "Type your first message. This will be the only message you can send until {username} responds. Click the user to select a different recipient.",
+                "search_recipients": "Enter username...",
+                "submit": "Send & Start Conversation",
+                "copied": "Your message has been copied to the clipboard.",
+                "more_users": "If you don't see the user you are looking for, they don't have private messaging set up.",
+                "already": "You already have a conversation with {username}."
+            },
+            "chat": {
+                "messages_single": "New conversation",
+                "messages_multiple": "{count} total messages",
+                "chat_with": "Chat with {username}",
+                "start": "Start Conversation",
+                "start_of_conversation": "Start of Conversation",
+                "read": "Read",
+                "cant_start": "Can't Start Conversation",
+                "text_placeholder": "Type your message",
+                "send": "Send Message"
+            },
+            "notifications": {
+                "message_received": "Test",
+                "new_private_message": "Someone messages me",
+                "web": {
+                    "new_private_message": {
+                        "body": "Message from {fromUser}"
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "Message from {user}",
+                        "youHaveReceivedNewMessage": "You have received a new message from {user}!",
+                        "viewMessage": "View message",
+                        "manageEmailSettings": "Manage email settings"
+                    }
+                }
+            }
+        }
+    }
+}

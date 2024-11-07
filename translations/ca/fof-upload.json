@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Tots els fitxers pujats per l'usuari.",
-                    "anonymize_description": "Elimina la referència a l'usuari dels fitxers pujats. Els fitxers segueixen sent accessibles per als usuaris que podien veure'ls abans de fer-los anònims.",
-                    "delete_description": "Esborrar tots els fitxers pujats per l'usuari."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -36,6 +36,7 @@
                 "watermark": "Tria si s'ha d'afegir una marca d'aigua a les imatges durant la càrrega. Les marques d'aigua s'afegiran als fixers que no siguin de format GIF en funció de les teves preferències a sota.\n",
                 "s3_compatible_storage": "Els paràmetres següents només són necessaris quan s'utilitza algun emmagatzematge compatible amb S3. Si utilitzes AWS, pots deixar-los en blanc.\n",
                 "s3_acl": "La llista de control d'accessos (ACL) que s'ha d'aplicar a l'objecte pujat (per defecte: privat). Per obtenir els valors possibles, consulta https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Deixa la clau i el secret buits per utilitzar les credencials al perfil de la instància.\n",
                 "composer_buttons": "Per defecte, es mostraran els botons del gestor de mitjans i el de pujada de fitxers. També pots optar per mostrar només un botó.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Configuració avançada d'emmagatzematge S3",
                     "endpoint": "Punt final",
                     "use_path_style_endpoint": "Utilitzar punt final de tipus ruta de fitxer completa",
-                    "acl": "Llista de control d'accessos (ACL)"
+                    "acl": "Llista de control d'accessos (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Desactiva el registre de baixades als fitxers log",
@@ -230,6 +232,17 @@
                     "hide_fail": "No s'ha pogut fer el fitxer \"{fileName}\" privat",
                     "show_fail": "No s'ha pogut fer el fitxer \"{fileName}\" públic",
                     "loading": "Fent que el fitxer sigui privat..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Tots els fitxers pujats per l'usuari.",
+                    "anonymize_description": "Elimina la referència a l'usuari dels fitxers pujats. Els fitxers segueixen sent accessibles per als usuaris que podien veure'ls abans de fer-los anònims.",
+                    "delete_description": "Esborrar tots els fitxers pujats per l'usuari."
                 }
             }
         }

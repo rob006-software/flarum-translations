@@ -3,21 +3,21 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": "Privé discussie"
+                    "tooltip": "Privégesprek"
                 }
             },
             "buttons": {
                 "add_recipients": "Ontvangers",
-                "submit": "Oke",
+                "submit": "OK",
                 "edit_recipients": "Ontvangers aanpassen",
                 "send_pd": "Stuur {username} een bericht",
-                "cancel": "Annuleer",
-                "make_public": "Deze discussie openbaar maken",
-                "remove_from_discussion": "Privédiscussie verlaten"
+                "cancel": "Annuleren",
+                "make_public": "Dit gesprek openbaar maken",
+                "remove_from_discussion": "Privégesprek verlaten"
             },
             "composer_private_discussion": {
-                "submit_button": "Stuur privé discussie",
-                "title_placeholder": "Privé discussie titel"
+                "submit_button": "Start privégesprek",
+                "title_placeholder": "Titel"
             },
             "confirm": {
                 "make_public": "Weet u zeker dat u de ontvangers wilt verwijderen en deze discussie zichtbaar wilt maken voor iedereen die de toegewezen tag kan bekijken?"
@@ -27,7 +27,7 @@
             },
             "nav": {
                 "start_button": "Bespreek privé",
-                "nav_item": "Privé discussie"
+                "nav_item": "Privégesprek"
             },
             "input": {
                 "search_recipients": "Zoek de ontvanger door de eerste drie tekens te typen..."
@@ -40,7 +40,7 @@
             "modal": {
                 "titles": {
                     "update_recipients": "Ontvangers van {title} bijwerken",
-                    "add_recipients": "Ontvangers toevoegen aan uw discussie"
+                    "add_recipients": "Ontvangers toevoegen aan dit gesprek"
                 },
                 "labels": {
                     "selected_users": "Geselecteerde gebruikers",
@@ -59,61 +59,69 @@
                     "added": "{username} heeft ontvangers toegevoegd {added}.",
                     "made_public": "{username} heeft alle ontvangers verwijderd en de discussie openbaar gemaakt",
                     "removed": "{username} heeft ontvangers verwijderd {removed}.",
-                    "removed_self": "{username} heeft de privé discussie verlaten."
+                    "removed_self": "{username} heeft het privégesprek verlaten."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": "Blokkeer privé discussie"
+                    "block_pd": "Blokkeer privégesprekken"
                 },
-                "byobu_link": "Privé discussie",
-                "dropdown_label": "Privé discussie"
+                "byobu_link": "Privégesprekken",
+                "dropdown_label": "Privégesprekken"
             },
             "notifications": {
-                "pd_label": "Iemand heeft mij toegevoegd in een nieuwe privé discussie",
-                "pd_reply_label": "Iemand heeft een bericht geplaatst in een privé discussie waar ik ontvanger van ben",
-                "pd_reply_text": "{username} heeft een bericht geplaatst in een privé discussie waar jij deel van bent",
-                "pd_text": "{username} heeft een privé discussie met jou gestart",
-                "pd_user_left_label": "Een ontvangende gebruiker heeft de privé discussie verlaten waar jij deel van bent",
-                "pd_user_left_text": "{username} heeft de privé discussie verlaten",
-                "pd_added_text": "{username} heeft je toegevoegd aan een privé discussie",
-                "pd_added_label": "Iemand voegt me toe aan een bestaande privédiscussie"
+                "pd_label": "Iemand heeft mij toegevoegd in een nieuw privégesprek",
+                "pd_reply_label": "Iemand heeft een bericht geplaatst in een privégesprek waar ik ontvanger van ben",
+                "pd_reply_text": "{username} heeft een bericht geplaatst in een privégesprek waar jij deel van bent",
+                "pd_text": "{username} heeft een privégesprek met jou gestart",
+                "pd_user_left_label": "Een ontvangende gebruiker heeft het privégesprek verlaten waar jij deel van bent",
+                "pd_user_left_text": "{username} heeft het privégesprek verlaten",
+                "pd_added_text": "{username} heeft je toegevoegd aan een privégesprek",
+                "pd_added_label": "Iemand voegt me toe aan een bestaande privégesprek"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "Maak privédiscussies met gebruikers",
-                "add_more_than_two_user_recipients": "Voeg meer dan 2 ontvangers toe aan privédiscussies",
-                "create_private_discussions_with_groups": "Maak privédiscussies met groepen",
-                "create_private_discussions_with_blocking_users": "Maak privédiscussies met gebruikers die het blokkeren",
-                "edit_user_recipients": "Gebruikers bewerken die deelnemen aan privédiscussies",
-                "edit_group_recipients": "Groepen bewerken die deelnemen aan privédiscussies",
-                "make_private_into_public": "Verander een privédiscussie in een openbare discussie",
-                "view_private_discussions-when-flagged": "Bekijk privédiscussies van andere gebruikers indien gemarkeerd"
+                "create_private_discussions_with_users": "Maak privégesprekken met gebruikers",
+                "add_more_than_two_user_recipients": "Voeg meer dan 2 ontvangers toe aan privégesprek",
+                "create_private_discussions_with_groups": "Maak privégesprekken met groepen",
+                "create_private_discussions_with_blocking_users": "Maak privégesprekken met gebruikers die het blokkeren",
+                "edit_user_recipients": "Gebruikers bewerken die deelnemen aan privégesprekken",
+                "edit_group_recipients": "Groepen bewerken die deelnemen aan privégesprekken",
+                "make_private_into_public": "Verander een privégesprek in een openbare discussie",
+                "view_private_discussions-when-flagged": "Bekijk privégesprekken van andere gebruikers indien gemarkeerd"
             },
             "settings": {
-                "badge-icon": "Byobu-discussiebadge",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "icon": {
+                    "heading": "",
+                    "help": ""
+                },
+                "badge-icon": "Badge voor privégesprekken",
                 "enable-make-public-option": "Schakel de mogelijkheid \"openbaar maken\" in",
-                "enable-make-public-option-help": "Voegt de mogelijkheid toe voor degenen met toestemming om alle ontvangers te verwijderen, een nieuwe tag toe te wijzen en de discussie openbaar zichtbaar te maken (volgens de zichtbaarheidsinstellingen van de gekozen tag).",
+                "enable-make-public-option-help": "Voegt de mogelijkheid toe voor degenen met toestemming om alle ontvangers te verwijderen, een nieuwe tag toe te wijzen en het gesprek openbaar zichtbaar te maken (volgens de zichtbaarheidsinstellingen van de gekozen tag).",
                 "post-event-icon": "Byobu bericht evenementen",
-                "delete_on_last_recipient_left": "Verwijder PDs wanneer de laatste gebruiker vertrekt",
-                "delete_on_last_recipient_left_help": "Indien ingeschakeld worden PDs permanent uit de database verwijderd wanneer de laatste gebruiker vertrekt. Anders wordt de PD tijdelijk verwijderd/verborgen.",
-                "hide_from_all_discussions_page": "Verberg PDs van de pagina \"Alle discussies\"",
-                "hide_from_all_discussions_page_help": "Privédiscussies zijn alleen toegankelijk via de pagina \"Privédiscussies\" of het gebruikersprofiel"
+                "delete_on_last_recipient_left": "Verwijder privégesprekken wanneer de laatste gebruiker vertrekt",
+                "delete_on_last_recipient_left_help": "Indien ingeschakeld worden privégesprekken permanent uit de database verwijderd wanneer de laatste gebruiker vertrekt. Anders worden privégesprekken tijdelijk verwijderd/verborgen.",
+                "hide_from_all_discussions_page": "Verberg privégesprekken van de pagina \"Alle discussies\"",
+                "hide_from_all_discussions_page_help": "Privégesprekken zijn alleen toegankelijk via de pagina \"Privégesprekken\" of het gebruikersprofiel"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "[Privédiscussie] {display_name} heeft een nieuwe privédiscussie met u gestart",
-                "private_discussion_replied": "[Privédiscussie] {display_name} heeft iets geplaatst in een privédiscussie",
-                "recipient_removed": "[Privédiscussie] {display_name} heeft de discussie verlaten",
-                "private_discussion_added": "[Privédiscussie] {display_name} heeft je toegevoegd aan een privédiscussie"
+                "private_discussion_created": "[Privégesprek] {display_name} heeft een nieuwe privégesprek met je gestart",
+                "private_discussion_replied": "[Privégesprek] {display_name} heeft iets geplaatst in een privégesprek",
+                "recipient_removed": "[Privégesprek] {display_name} heeft het gesprek verlaten",
+                "private_discussion_added": "[Privégesprek] {display_name} heeft je toegevoegd aan een privégesprek"
             },
             "body": {
-                "private_discussion_created": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft een nieuwe privédiscussie gestart met jou als ontvanger: {discussion_title}.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n",
-                "private_discussion_replied": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft gepost in een privédiscussie met jou als ontvanger: {discussion_title}.\n\nBekijk het hier:\n{post_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n",
-                "recipient_removed": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft de privédiscussie verlaten: {discussion_title}. Ze kunnen de inhoud ervan niet meer bekijken.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n",
-                "private_discussion_added": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft je toegevoegd aan een bestaande privédiscussie: {discussion_title}.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n"
+                "private_discussion_created": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft een nieuw privégesprek gestart met jou als ontvanger: {discussion_title}.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet je eerst inloggen voordat je toegang kunt krijgen tot deze link.\n",
+                "private_discussion_replied": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft gepost in een privégesprek met jou als ontvanger: {discussion_title}.\n\nBekijk het hier:\n{post_url}\n\nMogelijk moet je eerst inloggen voordat je toegang kunt krijgen tot deze link.\n",
+                "recipient_removed": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft het privégesprek verlaten: {discussion_title} en kan de inhoud ervan niet meer bekijken.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet je eerst inloggen voordat je toegang kunt krijgen tot deze link.\n",
+                "private_discussion_added": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft je toegevoegd aan een bestaand privégesprek: {discussion_title}.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet je eerst inloggen voordat je toegang kunt krijgen tot deze link.\n"
             }
         }
     }

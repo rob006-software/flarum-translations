@@ -2,20 +2,20 @@
     "clarkwinkelmann-formatted-banner": {
         "admin": {
             "settings": {
-                "guestContent": "",
-                "guestHtml": "",
-                "memberContent": "",
-                "memberHtml": "",
-                "dismissible": "",
+                "guestContent": "Форматированный контент гостя",
+                "guestHtml": "HTML контент гостя",
+                "memberContent": "Форматированный контент участника",
+                "memberHtml": "HTML контент участника",
+                "dismissible": "Разрешить отмененный баннер",
                 "replaceWelcomeHero": "",
                 "hideWelcomeHero": ""
             }
         },
         "forum": {
             "alert": {
-                "refresh": "",
-                "login": "",
-                "logout": ""
+                "refresh": "Обновить страницу",
+                "login": "Вы были подключены автоматически.",
+                "logout": "Ваша сессия устарела."
             }
         }
     }

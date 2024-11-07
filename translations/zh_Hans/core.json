@@ -22,7 +22,7 @@
                 "enter_hex_message": "请输入十六进制颜色代码。",
                 "favicon_heading": "站点图标",
                 "favicon_text": "上传图片做为论坛的站点图标，该图标会显示在浏览器标签页、搜索引擎结果条目及书签等多个地方。",
-                "logo_heading": "Logo",
+                "logo_heading": "标志",
                 "logo_text": "上传图片代替论坛名称，并展示在导航栏左侧。",
                 "title": "外观"
             },
@@ -250,8 +250,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "编辑 {username}"
+                            "tooltip": "编辑 {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -264,6 +264,9 @@
                         },
                         "join_time": {
                             "title": "注册时间"
+                        },
+                        "user_actions": {
+                            "title": "操作"
                         },
                         "user_id": {
                             "title": "ID"
@@ -575,7 +578,7 @@
                 "generic_cross_origin_message": "跨域请求时出现问题，请刷新页面后重试。",
                 "missing_dependencies_message": "无法启用「{extension}」，请先启用依赖扩展「{extensions}」",
                 "not_found_message": "您请求的资源不存在。",
-                "payload_too_large_message": "请求负载过大。",
+                "payload_too_large_message": "上传内容过大。",
                 "permission_denied_message": "您没有权限进行此操作。",
                 "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。",
                 "render_failed_message": "抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看论坛日志文件查看详情。"
@@ -597,9 +600,14 @@
                 "kilo_text": "千",
                 "mega_text": "百万"
             },
+            "datetime_formats": {
+                "humanTimeShort": "MMMD日",
+                "humanTimeLong": "ll",
+                "scrubber": "YYYY年MMM"
+            },
             "series": {
                 "glue_text": "， ",
-                "three_text": "{first}，{second} 和 {third}",
+                "three_text": "{first}、{second} 与 {third}",
                 "two_text": "{first} 和 {second}"
             },
             "username": {
@@ -719,7 +727,7 @@
             "loading": "正在加载…",
             "log_in": "登录",
             "log_out": "退出",
-            "mark_all_as_read": "将所有帖子标记为已读",
+            "mark_all_as_read": "全部已读",
             "never": "无",
             "new_token": "创建令牌",
             "next_page": "下一页",

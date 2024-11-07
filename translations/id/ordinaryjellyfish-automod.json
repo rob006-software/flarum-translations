@@ -2,64 +2,64 @@
     "ordinaryjellyfish-automod": {
         "admin": {
             "permissions": {
-                "bypass": ""
+                "bypass": "Bypass filter otomatis"
             },
             "settings": {
-                "threshold": "",
-                "threshold_help": "",
-                "moderate_categories_label": "",
-                "moderate_categories_label_help": "",
-                "moderate_categories_enable": "",
-                "service_account": "",
-                "filter_label": "",
-                "filter_help": "",
-                "filter_enable": "",
+                "threshold": "Ambang Batas Confidence",
+                "threshold_help": "Ambang batas confidence antara 0.00 dan 1.00, yang mencerminkan kemungkinan input atau respons termasuk dalam kategori tertentu. Ambang batas yang lebih rendah akan menghasilkan lebih sedikit false positive, tetapi juga dapat menghasilkan lebih banyak false negative. Ambang batas yang lebih tinggi akan menghasilkan lebih banyak false positive, tetapi juga dapat menghasilkan lebih sedikit false negative.",
+                "moderate_categories_label": "Kategori Moderasi",
+                "moderate_categories_label_help": "Kategori yang akan menandai konten secara otomatis untuk di moderasi ketika diaktifkan dan memenuhi aturan confidence.",
+                "moderate_categories_enable": "Aktifkan Kategori Moderasi",
+                "service_account": "Akun Layanan",
+                "filter_label": "Filter Siap Pakai",
+                "filter_help": "Ini adalah filter yang Saya buat secara pribadi untuk membantu menjaga keamanan forum Anda. Filter yang diaktifkan akan menandai secara otomatis seperti halnya kategori moderasi.",
+                "filter_enable": "Aktifkan Filter Siap Pakai",
                 "filters": {
-                    "doxxing": "",
-                    "doxxing_help": "",
-                    "flag_unsafe_images": "",
-                    "flag_unsafe_images_help": ""
+                    "doxxing": "Penyebaran informasi pribadi",
+                    "doxxing_help": "Tindakan mengungkapkan informasi pribadi yang sebelumnya bersifat rahasia kepada publik tentang individu atau organisasi, biasanya dengan maksud jahat.",
+                    "flag_unsafe_images": "Gambar Tidak Aman",
+                    "flag_unsafe_images_help": "Menjalankan deteksi Penelusuran Aman Google dan menandai gambar yang tidak aman. Perlu diketahui bahwa hal ini dapat menambah waktu tunggu saat memposting komentar Anda."
                 }
             }
         },
         "lib": {
             "moderate_categories": {
-                "toxic": "",
-                "toxic_help": "",
-                "derogatory": "",
-                "derogatory_help": "",
-                "violent": "",
-                "violent_help": "",
-                "sexual": "",
-                "sexual_help": "",
-                "insult": "",
-                "insult_help": "",
-                "profanity": "",
-                "profanity_help": "",
-                "death": "",
-                "death_help": "",
-                "weapons": "",
-                "weapons_help": "",
-                "public_safety": "",
-                "public_safety_help": "",
-                "health": "",
-                "health_help": "",
-                "religion": "",
-                "religion_help": "",
-                "drugs": "",
-                "drugs_help": "",
-                "war": "",
-                "war_help": "",
-                "finance": "",
-                "finance_help": "",
-                "politics": "",
-                "politics_help": "",
-                "legal": "",
-                "legal_help": ""
+                "toxic": "Toxic",
+                "toxic_help": "Konten yang tidak sopan, tidak menghormati, atau tidak masuk akal.",
+                "derogatory": "Merendahkan",
+                "derogatory_help": "Komentar negatif atau berbahaya yang menargetkan identitas dan/atau atribut yang dilindungi.",
+                "violent": "Kekerasan",
+                "violent_help": "Menjelaskan skenario yang menggambarkan kekerasan terhadap individu atau kelompok, atau deskripsi umum tentang kekerasan.",
+                "sexual": "Seksual",
+                "sexual_help": "Berisi referensi tentang tindakan seksual atau konten cabul lainnya.",
+                "insult": "Penghinaan",
+                "insult_help": "Komentar yang menghina, menghasut, atau negatif terhadap seseorang atau sekelompok orang.",
+                "profanity": "Kata-kata kasar",
+                "profanity_help": "Bahasa yang tidak senonoh atau vulgar seperti umpatan.",
+                "death": "Kematian, Bahaya & Tragedi",
+                "death_help": "Kematian seseorang, tragedi, kecelakaan, bencana, dan melukai diri sendiri.",
+                "weapons": "Senjata Api & Perlengkapannya",
+                "weapons_help": "Konten yang menyebutkan pisau, senjata api, senjata pribadi, dan aksesori seperti amunisi, tempat senjata, dll.",
+                "public_safety": "Keamanan Publik",
+                "public_safety_help": "Layanan dan organisasi yang memberikan bantuan dan memastikan keamanan publik.",
+                "health": "Kesehatan",
+                "health_help": "Kesehatan manusia, termasuk: Kondisi kesehatan, penyakit, dan gangguan Terapi medis, pengobatan, vaksinasi, praktik medis, dan sumber daya untuk penyembuhan, termasuk kelompok pendukung.",
+                "religion": "Agama & Kepercayaan",
+                "religion_help": "Sistem kepercayaan yang berhubungan dengan kemungkinan adanya hukum dan makhluk supranatural; agama, keyakinan, kepercayaan, praktik spiritual, gereja, dan tempat ibadah. Termasuk astrologi dan okultisme.",
+                "drugs": "Obat Terlarang",
+                "drugs_help": "Obat-obatan untuk rekreasional dan obat-obatan terlarang; perlengkapan dan budidaya obat-obatan terlarang, toko obat, dll. Termasuk penggunaan obat-obatan yang biasanya digunakan untuk rekreasional (misalnya ganja).",
+                "war": "Perang & Konflik",
+                "war_help": "Perang, konflik militer, dan konflik fisik besar yang melibatkan banyak orang. Termasuk diskusi tentang pelayanan militer, meskipun tidak secara langsung terkait dengan perang atau konflik.",
+                "finance": "Keuangan",
+                "finance_help": "Layanan keuangan konsumen dan bisnis, seperti perbankan, pinjaman, kredit, investasi, dan asuransi.",
+                "politics": "Politik",
+                "politics_help": "Berita dan media politik; diskusi tentang kebijakan sosial, pemerintahan, dan publik.",
+                "legal": "Hukum",
+                "legal_help": "Konten yang berhubungan dengan hukum, termasuk firma hukum, informasi hukum, materi hukum primer, layanan paralegal, publikasi dan teknologi hukum, saksi ahli, konsultan litigasi, dan penyedia layanan hukum lainnya."
             }
         },
         "forum": {
-            "flag_reason": ""
+            "flag_reason": "Automod menandai post ini karena {reason}"
         }
     }
 }

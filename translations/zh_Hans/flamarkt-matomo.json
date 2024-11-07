@@ -2,13 +2,13 @@
     "flamarkt-matomo": {
         "admin": {
             "settings": {
-                "url": "Matomo服务器域或URL",
-                "siteId": "网站ID",
+                "url": "Matomo 服务器域名或 URL",
+                "siteId": "网站 ID",
                 "trackAccounts": "追踪个人用户账户",
                 "trackAccountsOptions": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "不追踪",
+                    "username": "根据用户名追踪",
+                    "email": "根据电子邮件地址追踪"
                 }
             }
         }

@@ -2,37 +2,37 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "title": "Iestatījumi",
+                "moneyforpost": "Nauda iedota jaunam amatam",
+                "moneyfordiscussion": "Nauda iedota jaunai diskusijai",
+                "moneyname": "Naudas nosaukums (piem., [money] punkti)",
+                "postminimumlength": "Ziņas minimālais garums, lai saņemtu naudu (0, lai atspējotu)",
+                "noshowzero": "Nerādīt, ja vērtība ir nulle",
+                "autoremove": "Automātiski atjaunināt naudu",
+                "moneyforlike": "Nauda, kas tiek piešķirta, kad ziņai patīk",
+                "helpextensionlikes": "Nepieciešams paplašinājums <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Rediģēt naudu"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Nekad neizņemiet naudu",
+                "Kad diskusija/ziņa ir paslēpta vai atjaunota (noklusējums)",
+                "Kad tiek dzēsta diskusija/ziņa"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Nauda",
+                "action_name": "Dod naudu"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Rediģēt naudu"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "lietotāja {username} nauda",
+                "current": "Pašreizējais:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

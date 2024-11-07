@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Cancella link",
                 "delete_link_confirmation": "Sei sicuro di voler rimuovere questo link?",
-                "everyone-label": "Tutti",
-                "guests-label": "Ospiti",
                 "internal_link": "Si tratta di un link interno?",
-                "members-label": "Utenti registrati",
                 "open_newtab": "Apri link in nuova scheda",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -15,19 +12,27 @@
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
-                "icon_additional_text": "",
+                "icon_additional_text": "Se si desidera utilizzare un'icona del marchio, il prefisso è invece <code>fab fa-</code>.",
                 "url_description": "Lascia vuoto per mostrare etichetta.",
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
-                "use_rel_me": "",
-                "visibility": "Visibilità link"
+                "use_rel_me": "Aggiungere l'attributo <code>rel=\"me\"</code> per la verifica dell'identità su altri siti",
+                "visibility": "Visibilità link",
+                "visibility.help": "Per impostazione predefinita, i link sono visibili solo agli utenti <code>{admin}</code>. Modifica i permessi per specificare chi può vedere questo link.",
+                "visibility.help-disabled": "Salvare il collegamento prima di modificare le impostazioni di visibilità.",
+                "visibility.label": "Visibilità link",
+                "visibility.guest-only.label": "Solo {guest}?",
+                "visibility.guest-only.help": "Solo {guest} può vedere questo link. Il permesso sopra dovrebbe essere impostato su '{everyone}'.",
+                "everyone-label": "Tutti",
+                "guests-label": "Ospiti",
+                "members-label": "Utenti registrati"
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links"
             },
             "settings": {
-                "show_icons_only_on_tablet": ""
+                "show_icons_only_on_tablet": "Mostra le icone solo sugli schermi dei tablet"
             }
         },
         "ref": {

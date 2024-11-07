@@ -12,6 +12,11 @@
                 "ipsb": {
                     "label": "IP.SB",
                     "description": "Käytä <b>https://ip.sb</b> saadaksesi ilmainen IP tieto (huomioi rajoitukset)"
+                },
+                "ipinfo": {
+                    "label": "IpInfo",
+                    "description": "Käytä <b>https://ipinfo.io</b> sivustoa saadaksesi tarkemman IP tiedon (tunniste vaaditaan)",
+                    "key": "IpInfo Tunniste (Token) (Pakollinen)"
                 }
             }
         }

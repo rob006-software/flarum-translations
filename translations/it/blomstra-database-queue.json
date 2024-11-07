@@ -2,29 +2,29 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
+                "backoff_label": "Indietro",
+                "backoff_help": "Numero di secondi da attendere prima di riprovare un processo che ha riscontrato un'eccezione non rilevata.\n",
+                "memory_label": "Memoria",
+                "memory_help": "Limite di memoria in megabytes.\n",
+                "rest_label": "Riposo",
+                "rest_help": "Numero di secondi di riposo tra un attività e l'altra.\n",
+                "retries_label": "Tentativi",
+                "retries_help": "Numero di tentativi di esecuzione di un'operazione prima che questa fallisca.\n",
                 "timeout_label": "",
-                "timeout_help": ""
+                "timeout_help": "Numero di secondi per cui un processo figlio può essere eseguito.\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "Refresh automatico",
+                "heading": "Panoramica della coda",
+                "refresh": "Refresh",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "Coda",
+                    "pending-jobs": "Attività in sospeso",
+                    "failed-jobs": "Attività fallite",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Stato",
+                        "running": "In esecuzione",
+                        "inactive": "Inattivo"
                     }
                 }
             }

@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "blacklist_label": "Blacklist",
-                "blacklist_help": "Gebe eine durch Kommas getrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.",
+                "blacklist_help": "Gib eine kommagetrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.",
                 "blacklist_placeholder": "z.B. facebook.com,https://domain.com/path",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
-                "convert_media_urls_label": "Medien-URLs konvertieren",
-                "convert_media_urls_help": "Wenn diese Option aktiviert ist, werden alle Medien-URLs in Linkvorschauen konvertiert.",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": ""
+                "whitelist_label": "Whitelist",
+                "whitelist_help": "Gib eine kommagetrennte Liste von Domains oder URLs ein, die eine Linkvorschau ermöglichen sollen.",
+                "whitelist_placeholder": "z.B. facebook.com,https://domain.com/pfad",
+                "convert_media_urls_label": "Medien-URLs umwandeln",
+                "convert_media_urls_help": "Wenn aktiviert, werden alle Medien-URLs in eine Linkvorschau umgewandelt.",
+                "use_google_favicons_label": "Google Favicon-API verwenden",
+                "use_google_favicons_help": "Wenn aktiviert, wird ein Google-Dienst im Frontend verwendet, um das Favicon der jeweiligen Webseite abzurufen.",
+                "cache_time_label": "Dauer des Zwischenspeicherns",
+                "cache_time_help": "Anzahl der Minuten, die gecrawlte Links zwischengespeichert werden, bevor sie erneut aufgerufen werden. Mit dem Wert 0 wird das Link-Caching deaktiviert. Der Standardwert ist 60 Minuten, wenn er nicht gesetzt ist.",
+                "open_links_in_new_tab_label": "Links in einem neuen Tab öffnen",
+                "open_links_in_new_tab_help": "Wenn aktiviert, werden die Links in einem neuen Tab geöffnet."
             }
         },
         "forum": {
-            "site_cannot_be_reached": "Diese Seite kann nicht erreicht werden."
+            "site_cannot_be_reached": "Diese Webseite ist nicht erreichbar."
         }
     }
 }
