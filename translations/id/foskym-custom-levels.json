@@ -26,7 +26,7 @@
                 "round": "Pembulatan",
                 "roundDesc": "Membulatkan exp saat melakukan perhitungan"
             },
-            "go_to_forum_quests": "Pengaturan lebih lanjut di Quest Forum",
+            "go_to_forum_quests": "Pengaturan lebih lanjut di Forum Quest",
             "auto_remove": [
                 "Tidak pernah menghapus exp",
                 "Ketika sebuah postingan/balasan disembunyikan atau dihapus (default)",
@@ -74,7 +74,7 @@
                 "exp": "Perubahan Exp",
                 "reason": "Alasan",
                 "time": "Waktu",
-                "view": "",
+                "view": "Tampilan",
                 "load_more": "Muat Lainnya",
                 "no_more": "Tidak ada lagi",
                 "no_records": "Tidak ada catatan",
@@ -94,8 +94,8 @@
                     "post_liked": "Post disukai",
                     "post_unliked": "",
                     "admin_edit": "Diedit oleh Admin",
-                    "forum_quests": "",
-                    "store_purchase": ""
+                    "forum_quests": "Forum quest: Menyelesaikan {name}",
+                    "store_purchase": "Pembelian di toko"
                 }
             }
         },
@@ -120,7 +120,7 @@
                 "store": {
                     "item_name": "Exp",
                     "provider_data": {
-                        "same_as_use_cnt": ""
+                        "same_as_use_cnt": "Sama seperti jumlah penggunaan yang diizinkan"
                     }
                 },
                 "user-directory": {
