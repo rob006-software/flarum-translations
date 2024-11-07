@@ -1,0 +1,122 @@
+{
+    "gtdxyz-flarum-badges": {
+        "admin": {
+            "uncategorized": "Sin categoría",
+            "new_badge": "Nueva insignia",
+            "create_category": "Crear categoría",
+            "update_badge": "Actualizar la insignia",
+            "update_category": "Actualizar la categoría",
+            "edit_category": "Editar categoría",
+            "nothing_here_yet": "Todavía no has creado ninguna insignia o categoría.",
+            "show_badges_on_user_card": "Mostrar insignias en la tarjeta de usuario",
+            "number_of_badges_on_user_card": "Cantidad de insignias",
+            "number_of_badges_on_user_card_help": "Cantidad de insignias a mostrar en la tarjeta de usuario",
+            "permissions": {
+                "badge_detail_users": "Puede ver los usuarios en la página de detalles de la insignia",
+                "give_badge": "Entregar insignia al usuario",
+                "take_badge": "Coger insignia del usuario",
+                "edit_own_card_badges": "Editar las insignias propias de la tarjeta de usuario",
+                "edit_card_badges": "Editar las insignias de la tarjeta de usuario"
+            },
+            "confirm_dialog": {
+                "title": "Confirmar",
+                "no": "No",
+                "yes": "Si"
+            },
+            "confirm_messages": {
+                "delete_badge": "¿Estás seguro de que quieres eliminar esta insignia? Se elimina de todos los usuarios y es irreversible.",
+                "delete_category": "¿Está seguro de que quiere eliminar esta categoría? Si hay alguna insignia en esta categoría, se marcará como \"sin categoría\"."
+            },
+            "badge": {
+                "name": "Nombre de la insignia",
+                "icon": "Icono de la insignia",
+                "description": "Descripción de la insignia",
+                "visible": "Visible",
+                "visible_description": "Habilitar esta insignia. Si se desactiva, la insignia no será visible.",
+                "is_image": "La insignia es una imagen",
+                "is_image_description": "Utiliza una imagen en lugar de la insignia predeterminada",
+                "image": "URL de la imagen de la insignia",
+                "image_placeholder": "Introduce la URL de la imagen de la insignia",
+                "icon_color": "Color del icono",
+                "background_color": "Color de fondo",
+                "label_color": "Color del texto"
+            },
+            "badge_category": {
+                "name": "Nombre de la categoría",
+                "description": "Descripción de la categoría",
+                "blockview": "Vista en bloque",
+                "blockview_description": "Mostrar las insignias de categoría en la vista de bloque en la visión general de las insignias. Si se desactiva, todas las insignias se mostrarán en una tabla.",
+                "enabled": "Activado",
+                "enabled_description": "Habilitar esta categoría. Cuando se desactiva, todas las insignias se desactivan y la categoría se oculta."
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "Premiar automáticamente a los usuarios con insignias",
+                    "content": "Esta extensión ofrece más funcionalidades cuando se instala y activa <a>Auto Moderator</a>. ¡Al instalar esta extensión, los usuarios pueden ser recompensados automáticamente con insignias sin la intervención de un empleado de la comunidad!",
+                    "install": "Instalar",
+                    "dismiss": "No volver a mostrar"
+                },
+                "action_drivers": {
+                    "badge_id": "ID de la insignia",
+                    "give_badge": "Dar insignia",
+                    "remove_badge": "Quitar insignia"
+                },
+                "requirement_drivers": {
+                    "has_badge": "Tiene insignia"
+                },
+                "metric_drivers": {
+                    "badges_received": "Insignias recibidas"
+                },
+                "badge_selector": {
+                    "placeholder": "Seleccionar una insignia",
+                    "loading_badges": "Cargar insignias"
+                }
+            }
+        },
+        "forum": {
+            "badge_information": "Información sobre la insignia",
+            "all_badges": "Ver todas las insignias",
+            "all_users": "Ver todos los usuarios",
+            "give_badge": "Dar insignia",
+            "update_badge": "Actualizar insignia",
+            "select_badge": "Seleccionar insignia",
+            "user_has_badge": "El usuario ya tiene esta insignia.",
+            "user_no_badges": "Este usuario aún no tiene ninguna insignia.",
+            "no_received": "Ningún usuario ha obtenido esta insignia.",
+            "uncategorized": "=> gtdxyz-flarum-badges.admin.uncategorized",
+            "save_changes": "Guardar cambios",
+            "badge": {
+                "badge": "Insignia",
+                "badges": "Insignias",
+                "name": "Nombre de la insignia",
+                "description": "Descripción de la insignia",
+                "earning_reason": "Motivo de obtención de la insignia",
+                "update_earning_reason": "Actualizar el motivo de obtención",
+                "no_earning_reason": "No se ha establecido ningún motivo de obtención",
+                "earned_on": "Insignia obtenida el",
+                "category": "Categoría de la insignia",
+                "received_on": "Recibido el {date}",
+                "badge_details": "Detalles de la insignia",
+                "earned_count": "{count, plural, one {<b># usuario</b> ha obtenido esta insignia} other {<b># usuarios</b> han ganado esta insignia}}",
+                "earned_by_count": "{count, plural, one {Ganado por el <b># usuario</b>} other {Ganado por los <b># usuarios</b>}}",
+                "others_link": "+ {count} más"
+            },
+            "badges_in_card": {
+                "title": "Insignias en la tarjeta de usuario",
+                "manage_badges": "Administrar insignias",
+                "description": "Puedes cambiar las insignias visibles en tu tarjeta de usuario por alguna de tus otras insignias. Si no seleccionas ninguna, se seleccionarán automáticamente.",
+                "select_limit": "Puedes seleccionar {limit, plural, one {<b>una insignia</b>} other {<b># insignias</b>}} para que sean visibles en tu tarjeta de usuario.",
+                "hit_limit": "Solo hay espacio para <b> {limit, plural, one {<b>una insignia</b>} other {<b># insignias</b>}}</b> en tu tarjeta. Anula la selección de una insignia para hacer espacio para esta."
+            },
+            "moderation": {
+                "remove_badge": "Quitar la insignia al usuario",
+                "remove_badge_confirm": "¿Estás seguro de que quieres eliminar esta insignia a este usuario?",
+                "give_badge": "Dar insignia"
+            },
+            "notification": {
+                "title": "Has recibido una nueva insignia",
+                "settings": "He recibido una insignia"
+            }
+        }
+    }
+}
