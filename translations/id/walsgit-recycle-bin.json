@@ -1,61 +1,61 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "title": "",
-            "search_placeholder": "",
-            "search_help_text": "",
-            "total_hidden_discussions": "",
-            "empty_list": "",
-            "hidden_discussions": "",
-            "discussion_id": "",
-            "discussion_title": "",
-            "discussion_link_tooltip": "",
-            "discussion_author": "",
-            "unknownn_user": "",
-            "created_at": "",
-            "hidden_at": "",
-            "unknown_date": "",
-            "actions": "",
-            "restore_tooltip": "",
+            "title": "Recycle Bin",
+            "search_placeholder": "Mencari diskusi",
+            "search_help_text": "Mencari kata-kata dalam judul serta dalam pesan diskusi",
+            "total_hidden_discussions": "Total diskusi yang tersembunyi",
+            "empty_list": "Tidak ada diskusi di recycle bin.",
+            "hidden_discussions": "Diskusi tersembunyi",
+            "discussion_id": "ID",
+            "discussion_title": "Judul Diskusi",
+            "discussion_link_tooltip": "Lihat diskusi",
+            "discussion_author": "Penulis",
+            "unknownn_user": "Pengguna tidak dikenal",
+            "created_at": "Dibuat pada",
+            "hidden_at": "Disembunyikan pada",
+            "unknown_date": "Tanggal tidak diketahui",
+            "actions": "Tindakan",
+            "restore_tooltip": "Memulihkan diskusi",
             "restore_discussion": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Pulihkan diskusi",
+                "confirmation": "Apakah Anda yakin ingin memulihkan diskusi ini:",
+                "restore_button": "Pulihkan diskusi ini",
+                "success": "Berhasil memulihkan diskusi"
             },
             "delete_discussion": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Hapus selamanya",
+                "confirmation": "Apakah Anda yakin ingin <u>menghapus secara permanen</u> diskusi ini (tidak dapat dikembalikan):",
+                "delete_button": "Hapus diskusi ini selamanya",
+                "success": "Berhasil menghapus diskusi"
             },
-            "delete_tooltip": "",
-            "bulk_actions": "",
-            "bulk_restore_label": "",
+            "delete_tooltip": "Menghapus diskusi",
+            "bulk_actions": "Tindakan untuk diskusi yang dipilih: ",
+            "bulk_restore_label": "Memulihkan diskusi yang dipilih",
             "mass_restore_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Memulihkan diskusi yang dipilih",
+                "text_start": "Apakah Anda yakin ingin melakukan pemulihan ini ",
+                "text_end": " diskusi yang dipilih?",
+                "submit_button": "Pulihkan diskusi ini",
+                "success": "Berhasil memulihkan diskusi yang dipilih"
             },
             "mass_delete_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Menghapus diskusi ini selamanya",
+                "text_start": "Apakah Anda yakin ingin <u>menghapus secara permanen</u> ",
+                "text_end": " diskusi yang dipilih?",
+                "submit_button": "Hapus diskusi ini selamanya",
+                "success": "Berhasil menghapus diskusi yang dipilih"
             },
-            "bulk_delete_label": "",
+            "bulk_delete_label": "Menghapus diskusi yang dipilih",
             "pagination": {
-                "first_page_button": "",
-                "back_button": "",
-                "page_counter": "",
-                "go_to_page_textbox_a11y_label": "",
-                "next_button": "",
-                "last_page_button": ""
+                "first_page_button": "Pergi ke halaman pertama",
+                "back_button": "Kembali ke halaman sebelumnya",
+                "page_counter": "Halaman {current} dari {total}",
+                "go_to_page_textbox_a11y_label": "Langsung ke nomor halaman",
+                "next_button": "Buka halaman berikutnya",
+                "last_page_button": "Buka halaman terakhir"
             },
-            "mass_help_text": ""
+            "mass_help_text": "Harap tunggu penyegaran halaman setelah mengonfirmasi pemulihan atau penghapusan massal"
         }
     }
 }
