@@ -47,7 +47,7 @@
                 "enable_2fa_button": "Aktifkan 2FA",
                 "disable_2fa_button": "Nonaktifkan 2FA",
                 "enable_2fa_modal_text": "Pindai kode QR di bawah ini dengan aplikasi autentikasi Anda, lalu masukkan token yang disediakan untuk mengaktifkan Autentikasi Dua Faktor.",
-                "qr_code_alt": "Kode QR untuk Otentikasi Dua Faktor",
+                "qr_code_alt": "Kode QR untuk Autentikasi Dua Faktor (2FA)",
                 "enter_token": "Masukkan Token",
                 "verify_button": "Verifikasi",
                 "loading_qr": "Memuat Kode QR...",
@@ -55,18 +55,18 @@
                 "backup_codes_instruction": "Simpanlah kode-kode ini di tempat yang aman. Kode-kode ini dapat digunakan untuk mengakses akun Anda jika Anda kehilangan metode autentikasi utama. Kode-kode ini tidak akan ditampilkan lagi.",
                 "saved_backup_codes_button": "Saya telah menyimpan kode-kode ini",
                 "backup_codes_remaining": "Kode Cadangan Tersisa:",
-                "two_factor_enabled_confirmation": "Autentikasi Dua Faktor telah berhasil diaktifkan untuk akun Anda.",
+                "two_factor_enabled_confirmation": "Autentikasi Dua Faktor (2FA) telah berhasil diaktifkan untuk akun Anda.",
                 "ok_button": "Ok",
-                "confirm_disable_2fa_title": "Konfirmasi Menonaktifkan Autentikasi Dua Faktor",
-                "confirm_disable_2fa_text": "Apakah Anda yakin ingin menonaktifkan Autentikasi Dua Faktor?",
-                "confirm_disable_2fa_text_other_user": "Apakah Anda yakin ingin menonaktifkan Autentikasi Dua Faktor untuk {username}? Ini akan menghapus semua kode cadangan dan menonaktifkan 2FA untuk akun mereka.",
-                "cannot_disable": "Konfigurasi saat ini menyatakan bahwa Anda tidak dapat menonaktifkan Autentikasi Dua Faktor.",
+                "confirm_disable_2fa_title": "Konfirmasikan Penonaktifan Autentikasi Dua Faktor (2FA)",
+                "confirm_disable_2fa_text": "Apakah Anda yakin ingin menonaktifkan Autentikasi Dua Faktor (2FA)?",
+                "confirm_disable_2fa_text_other_user": "Apakah Anda yakin ingin menonaktifkan Autentikasi Dua Faktor (2FA) untuk {username}? Ini akan menghapus semua kode cadangan dan menonaktifkan 2FA untuk akun mereka.",
+                "cannot_disable": "Konfigurasi saat ini menyatakan bahwa Anda tidak dapat menonaktifkan Autentikasi Dua Faktor (2FA).",
                 "cannot_disable_tooltip": "Tidak dapat menonaktifkan 2FA",
                 "cancel_button": "Batal",
                 "qr_tab": "Pindai Kode QR",
                 "manual_tab": "Pengaturan Manual",
-                "scan_qr_instruction": "Pindai kode QR di atas dengan aplikasi autentikasi Anda, lalu masukkan token yang disediakan untuk mengaktifkan Autentikasi Dua Faktor.",
-                "manual_entry_instruction": "Masukkan kode yang disediakan ke dalam aplikasi autentikasi Anda, lalu masukkan token yang dihasilkan untuk mengaktifkan Autentikasi Dua Faktor."
+                "scan_qr_instruction": "Pindai kode QR di atas dengan aplikasi autentikasi Anda, lalu masukkan token yang disediakan untuk mengaktifkan Autentikasi Dua Faktor (2FA).",
+                "manual_entry_instruction": "Masukkan kode yang disediakan ke dalam aplikasi autentikasi Anda, lalu masukkan token yang dihasilkan untuk mengaktifkan Autentikasi Dua Faktor (2FA)."
             },
             "log_in": {
                 "two_factor_placeholder": "Token 2FA, misalnya, 123456",
@@ -75,10 +75,10 @@
         },
         "email": {
             "subject": {
-                "status_changed": "Autentikasi Dua Faktor{type} untuk akun Anda"
+                "status_changed": "Autentikasi Dua Faktor (2FA) {type} untuk akun Anda"
             },
             "body": {
-                "status_changed": "Halo {recipient_display_name},\n\nAutentikasi Dua Faktor telah menggunakan {type} untuk akun Anda di {forum_url}.\n\nJika Anda memulai tindakan ini, tidak ada langkah lebih lanjut yang diperlukan. Jika Anda tidak mengizinkan perubahan ini, harap segera hubungi administrator forum.\n"
+                "status_changed": "Halo {recipient_display_name},\n\nAutentikasi Dua Faktor (2FA) telah menggunakan {type} untuk akun Anda di {forum_url}.\n\nJika Anda memulai tindakan ini, tidak ada langkah lebih lanjut yang diperlukan. Jika Anda tidak mengizinkan perubahan ini, harap segera hubungi administrator forum.\n"
             },
             "status_type": {
                 "enabled": "aktif",
@@ -90,7 +90,7 @@
                 "two_factor_token_label": "Token 2FA"
             },
             "two_factor_token": {
-                "title": "Autentikasi Dua Faktor",
+                "title": "Autentikasi Dua Faktor (2FA)",
                 "submit_button": "Kirim Token"
             }
         }
