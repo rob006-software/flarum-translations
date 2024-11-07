@@ -2,9 +2,9 @@
     "foskym-activity-graph": {
         "admin": {
             "settings": {
-                "count_comments": "",
-                "count_discussions": "",
-                "count_likes": "",
+                "count_comments": "Jumlah Komentar",
+                "count_discussions": "Jumlah Diskusi",
+                "count_likes": "Jumlah Suka (like)",
                 "count_custom_levels_exp_logs": "Log Level Exp Khusus (membutuhkan foskym/flarum-custom-levels)",
                 "count_invite_user_invites": "",
                 "count_store_purchases": "",
@@ -25,7 +25,7 @@
                 },
                 "times_display_format": "Format Tampilan Waktu",
                 "times_display_format_help": "Digunakan untuk menampilkan waktu dalam grafik aktivitas, misalnya, “times”, “[count] times”",
-                "from_year": "",
+                "from_year": "Dari Tahun",
                 "from_year_help": "Tahun awal dari grafik aktivitas"
             },
             "permissons": {
@@ -35,7 +35,7 @@
         "forum": {
             "label": {
                 "activity_graph": "Grafik Aktivitas",
-                "total_times": "",
+                "total_times": "Total {total} di tahun ini",
                 "name_map": "en",
                 "categories": {
                     "comments": "Komentar",
