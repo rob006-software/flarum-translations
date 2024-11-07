@@ -192,6 +192,8 @@ return [
 		'!gbcl-minecraft-oauth',
 		'!gbcl-oauth-logto',
 		'!gbcl-userip',
+		'!gtdxyz-badges',
+		'!gtdxyz-login',
 		'!huoxin-auto-follow-discussion',
 		'!imdong-spam-alert',
 		'!imdong-visible-to-op-only',
