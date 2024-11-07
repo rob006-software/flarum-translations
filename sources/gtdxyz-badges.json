@@ -74,7 +74,7 @@
             }
         },
         "forum": {
-            "badge_information": "Badge information",
+            "badge_information": "Badge",
             "all_badges": "See all badges",
             "all_users": "See all users",
             "give_badge": "Give badge",
@@ -82,6 +82,7 @@
             "select_badge": "Select badge",
             "user_has_badge": "The user already has this badge.",
             "user_no_badges": "This user does not have any badges yet.",
+            "hidden_badges": "This user does not show badges yet.",
             "no_received": "No user have earned this badge.",
             "uncategorized": "=> gtdxyz-flarum-badges.admin.uncategorized",
             "save_changes": "Save changes",
@@ -97,7 +98,7 @@
                 "category": "Badge category",
                 "received_on": "Received on {date}",
                 "badge_details": "Badge details",
-                "earned_count": "{count, plural, one {<b># user</b> has earned this badge} other {<b># users</b> have earned this badge}}",
+                "earned_count": "{count, plural, one {<b># user</b> has earned this badge} other {<b># users</b> earned}}",
                 "earned_by_count": "{count, plural, one {Earned by <b># user</b>} other {Earned by <b># users</b>}}",
                 "others_link": "+ {count} More"
             },
