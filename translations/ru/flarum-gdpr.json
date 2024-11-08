@@ -2,32 +2,32 @@
     "flarum-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "Просмотр данных ОРЗД (GDPR)",
+                "description": "Статус различных действий и интеграций ОРЗД (GDPR)",
                 "data_types": {
-                    "title": "",
+                    "title": "Типы данных",
                     "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "type": "Тип",
+                    "export_description": "Экспорт действия",
+                    "anonymize_description": "Анонимизировать действие",
+                    "delete_description": "Удалить действие",
+                    "extension": "Расширение"
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
-                    "extension_settings_button": ""
+                    "heading": "Настройки ОРЗД (GDPR)",
+                    "help_text": "Ищете настройки ОРЗД (GDPR)? Они находятся на странице расширений.",
+                    "extension_settings_button": "Настройки ОРЗД (GDPR)"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Табличные данные пользователя",
+                    "help_text": "По большей части все столбцы, добавленные в таблицу <code>пользователь</code> , обрабатываются автоматически - для экспорта данных и для удаления.\nТем не менее, есть несколько особых случаев, перечисленных далее.\n"
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "Интеграции ОРЗД (GDPR)"
             },
             "permissions": {
-                "process_erasure": "",
+                "process_erasure": "Обработать запросы на удаление",
                 "process_export_for_others": "",
                 "see_anonymized_user_badges": ""
             },
