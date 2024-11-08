@@ -15,8 +15,8 @@
                 "badge_detail_users": "Можно видеть пользователей на странице деталей о жетонах",
                 "give_badge": "Присвоить жетон пользователю",
                 "take_badge": "Снять жетон у пользователя",
-                "edit_own_card_badges": "",
-                "edit_card_badges": ""
+                "edit_own_card_badges": "Править собственные жетоны карточки пользователя",
+                "edit_card_badges": "Править жетоны карточки пользователя"
             },
             "confirm_dialog": {
                 "title": "Подтвердить",
@@ -82,10 +82,10 @@
             "select_badge": "Выбрать жетон",
             "user_has_badge": "У пользователя уже есть этот жетон.",
             "user_no_badges": "У этого пользователя пока нет ни одного жетона.",
-            "hidden_badges": "",
+            "hidden_badges": "У этого пользователя нет жетонов для показа.",
             "no_received": "Этот жетон пока не присвоен ни одному пользователю.",
             "uncategorized": "=> gtdxyz-flarum-badges.admin.uncategorized",
-            "save_changes": "",
+            "save_changes": "Сохранить изменения",
             "badge": {
                 "badge": "Жетон",
                 "badges": "Жетоны",
@@ -100,14 +100,14 @@
                 "badge_details": "Сведения о жетоне",
                 "earned_count": "{count, plural, one {<b># user</b> присвоен это жетон} other {<b># users</b> присвоен это жетон}}",
                 "earned_by_count": "{count, plural, one {награжден <b># user</b>} other {награждены <b># users</b>}}",
-                "others_link": ""
+                "others_link": "+ {count} далее"
             },
             "badges_in_card": {
-                "title": "",
-                "manage_badges": "",
-                "description": "",
-                "select_limit": "",
-                "hit_limit": ""
+                "title": "Жетоны в карточке пользователя",
+                "manage_badges": "Управлять жетонами",
+                "description": "Вы можете заменить жетоны, отображаемые на вашей карточке, другими вашими жетонами. Если вы не выберете ни одного, они будут выбраны автоматически.",
+                "select_limit": "Вы можете выбрать {limit, plural, one {<b>жетон</b>} other {<b> из # жетонов</b>}} для отображения на вашей пользовательской карточке.",
+                "hit_limit": "На вашей карточке есть место только для <b> {limit, plural, one {<b>одного жетона</b>} other {<b>из # жетонов</b>}}</b>. Отмените выбор старого жетона для выбора этого."
             },
             "moderation": {
                 "remove_badge": "Снять жетон с пользователя",
