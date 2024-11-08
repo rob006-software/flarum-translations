@@ -11,7 +11,13 @@
                 "noshowzero": "Do not show if the value is zero",
                 "autoremove": "Automatically update money",
                 "moneyforlike": "Money given when a post is liked",
-                "helpextensionlikes": "Requires the <code>flarum/likes</code> extension"
+                "helpextensionlikes": "Requires the <code>flarum/likes</code> extension",
+                "extra_char_threshold": "Character Threshold",
+                "extra_char_threshold_help": "The minimum number of characters before extra points are applied.",
+                "extra_char_increment": "Character Increment",
+                "extra_char_increment_help": "Every X characters beyond the threshold will trigger a point change.",
+                "extra_char_points": "Points per Increment",
+                "extra_char_points_help": "The number of points to add or deduct for each increment."
             },
             "permissions": {
                 "edit_money_label": "Edit money"
@@ -59,7 +65,10 @@
                 "discussion_started": "Started a discussion › <a href=\"{url}\">{title}</a>",
                 "discussion_restored": "Restored a discussion › <a href=\"{url}\">{title}</a>",
                 "discussion_hidden": "Hidden a discussion › <a href=\"{url}\">{title}</a>",
-                "discussion_deleted": "Deleted a discussion › <a href=\"{url}\">{title}</a>"
+                "discussion_deleted": "Deleted a discussion › <a href=\"{url}\">{title}</a>",
+                "posted_reply": "Replied to a discussion › <a href=\"{url}\">{title}</a>",
+                "extra_characters": "Content exceeded the threshold by {extra_chars} characters, {points} points have been {action}.",
+                "no_permission": "You do not have permission to view others' point records."
             },
             "logs_type": {
                 "discussion_started": "Discussion Started",
@@ -75,6 +84,21 @@
                 "admin_updated": "Admin Updated",
                 "registration": "Registration Bonus",
                 "discussion_replied": "Replied in Discussion"
+            },
+            "point_log": {
+                "title": "Point Change Records",
+                "link": "Point Records",
+                "empty_text": "No point change records found.",
+                "table": {
+                    "headers": {
+                        "date": "Date",
+                        "amount": "Amount",
+                        "balance": "Balance",
+                        "reason": "Reason"
+                    }
+                },
+                "load_more": "Load more",
+                "no_permission": "You do not have permission to view others' point records."
             }
         }
     }
