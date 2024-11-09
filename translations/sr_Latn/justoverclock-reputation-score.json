@@ -1,6 +1,12 @@
 {
     "justoverclock-reputation-score": {
         "admin": {
+            "oneYearSeniority": "",
+            "threeYearSeniority": "",
+            "fiveYearSeniority": "",
+            "posts": "",
+            "discussions": "",
+            "like": "",
             "pointsIncreased": "",
             "pointsDecreased": "",
             "historyPostDeleted": "",
@@ -24,7 +30,13 @@
                 "postPoints": "",
                 "postPointsHelp": "",
                 "flagPoints": "",
-                "flagPointsHelp": ""
+                "flagPointsHelp": "",
+                "postRewardThreshold": "",
+                "postRewardThresholdHelp": "",
+                "discussionRewardThreshold": "",
+                "discussionRewardThresholdHelp": "",
+                "seniorityRewardThreshold": "",
+                "seniorityRewardThresholdHelp": ""
             }
         },
         "forum": {
@@ -39,6 +51,7 @@
             "totalPosts": "",
             "reputationHistory": "",
             "reputationHistoryPageTitle": "",
+            "xPostsReached": "",
             "firstLoginModalContent": ""
         }
     }

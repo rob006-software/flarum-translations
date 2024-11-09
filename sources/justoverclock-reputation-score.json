@@ -1,6 +1,12 @@
 {
     "justoverclock-reputation-score": {
         "admin": {
+            "oneYearSeniority": "1+ year of seniority",
+            "threeYearSeniority": "3+ years of seniority",
+            "fiveYearSeniority": "5+ years of seniority",
+            "posts": "posts",
+            "discussions": "discussions",
+            "like": "likes",
             "pointsIncreased": "Points Increased",
             "pointsDecreased": "Points Decreased",
             "historyPostDeleted": "Reputation points decreased due to post deletion or hiding.",
@@ -24,7 +30,13 @@
                 "postPoints": "Points for post created",
                 "postPointsHelp": "Insert the number of point that a user earn for creating a new post (points are multiplied based on the post length)",
                 "flagPoints": "Points for report post",
-                "flagPointsHelp": "Insert the number of points that a user earn for reporting posts"
+                "flagPointsHelp": "Insert the number of points that a user earn for reporting posts",
+                "postRewardThreshold": "Post count reward threshold",
+                "postRewardThresholdHelp": "<p>Write the minimum post count to reward an user with a medal.</p>\n<span>\n  Each users can earn 3 reward based on a post count, if you\n  set for example \"50\", the internal multiplier (x1, x3, x8) will assign the reward\n  for \"50\", \"150\" and \"400\" posts (bronze, silver and gold respectively).\n</span>\n",
+                "discussionRewardThreshold": "Discussions count reward threshold",
+                "discussionRewardThresholdHelp": "<p>Write the minimum discussion count to reward an user with a medal.</p>\n<span>\n  Each users can earn 3 reward based on a discussion count, if you\n  set for example \"50\", the internal multiplier (x1, x3, x8) will assign the reward\n  for \"50\", \"150\" and \"400\" discussions (bronze, silver and gold respectively).\n</span>\n",
+                "seniorityRewardThreshold": "Seniority threshold",
+                "seniorityRewardThresholdHelp": "<p>Write the minimum years of seniority to reward an user with a medal.</p>\n<span>\n  Each users can earn 3 reward based on a his seniority, if you\n  set for example \"1\", the internal multiplier (x1, x3, x5) will assign the reward\n  for \"1\", \"3\" and \"5\" years of seniority (bronze, silver and gold level respectively).\n</span>\n"
             }
         },
         "forum": {
@@ -39,6 +51,7 @@
             "totalPosts": "Total Posts",
             "reputationHistory": "Reputation History",
             "reputationHistoryPageTitle": "This timeline displays the latest 15 events that impacted your reputation.",
+            "xPostsReached": "{count} reached reward!",
             "firstLoginModalContent": "<p>\n    This forum use a dynamic reputation system to encourage positive engagement within the community.\n    As a user, you can earn reputation points by contributing meaningfully to discussions and interactions, such as:\n    <ul>\n      <li>\n        Creating new discussions: Share your thoughts and ideas with the community.\n      </li>\n      <li>\n        Replying to posts: Earn points based on the quality of your responses.\n      </li>\n      <li>\n        Reporting users: Help maintain a healthy environment by reporting inappropriate behavior.\n      </li>\n      <li>\n        Receiving likes: Show appreciation to others' posts and get rewarded in return.\n      </li>\n      <li>\n        Writing best answers: earn points by contributing answers that solve a problem and are chosen as the \"best answer\"\n      </li>\n    </ul>\n  </p>\n  <p>\n    Earn reputation points by acting positively, helping others, and contributing to the community. Your actions\n    speak louder, and with each point, you gain recognition for your efforts. Keep engaging and build your reputation!\n  </p>\n"
         }
     }

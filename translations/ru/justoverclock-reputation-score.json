@@ -1,6 +1,12 @@
 {
     "justoverclock-reputation-score": {
         "admin": {
+            "oneYearSeniority": "",
+            "threeYearSeniority": "",
+            "fiveYearSeniority": "",
+            "posts": "",
+            "discussions": "",
+            "like": "",
             "pointsIncreased": "Баллов прибавилось",
             "pointsDecreased": "Баллов убавилось",
             "historyPostDeleted": "Убавилось баллов репутации за удаление или скрытие сообщения.",
@@ -24,7 +30,13 @@
                 "postPoints": "Баллов за создание сообщения",
                 "postPointsHelp": "Введите, сколько баллов получит пользователь за создание нового сообщения (баллы равны длине сообщения, умноженной на этот коэффициент)",
                 "flagPoints": "",
-                "flagPointsHelp": ""
+                "flagPointsHelp": "",
+                "postRewardThreshold": "",
+                "postRewardThresholdHelp": "",
+                "discussionRewardThreshold": "",
+                "discussionRewardThresholdHelp": "",
+                "seniorityRewardThreshold": "",
+                "seniorityRewardThresholdHelp": ""
             }
         },
         "forum": {
@@ -39,6 +51,7 @@
             "totalPosts": "Всего сообщений",
             "reputationHistory": "История изменения репутации",
             "reputationHistoryPageTitle": "Этот список отображает последние 15 событий, изменивших вашу репутацию.",
+            "xPostsReached": "",
             "firstLoginModalContent": ""
         }
     }
