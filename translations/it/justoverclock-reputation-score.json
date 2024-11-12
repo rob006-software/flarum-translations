@@ -1,12 +1,12 @@
 {
     "justoverclock-reputation-score": {
         "admin": {
-            "oneYearSeniority": "",
-            "threeYearSeniority": "",
-            "fiveYearSeniority": "",
-            "posts": "",
-            "discussions": "",
-            "like": "",
+            "oneYearSeniority": "Registrato da oltre 1 anno",
+            "threeYearSeniority": "Registrato da 3+ anni",
+            "fiveYearSeniority": "Registrato da 5+ anni",
+            "posts": "post",
+            "discussions": "discussioni",
+            "like": "mi piace",
             "pointsIncreased": "Punti aumentati",
             "pointsDecreased": "Punti diminuiti",
             "historyPostDeleted": "Punti reputazione diminuiti per post eliminato/nascosto.",
@@ -31,16 +31,16 @@
                 "postPointsHelp": "Inserisci il numero di punti da assegnare per la creazione di un nuovo post (i punti vengono moltiplicati in base alla lunghezza dello stesso)",
                 "flagPoints": "Punti assegnati per post/utente segnalato",
                 "flagPointsHelp": "Inserisci il numero di punti da assegnare ad un utente che segnala qualcosa di scorretto",
-                "postRewardThreshold": "",
-                "postRewardThresholdHelp": "",
-                "discussionRewardThreshold": "",
-                "discussionRewardThresholdHelp": "",
-                "seniorityRewardThreshold": "",
-                "seniorityRewardThresholdHelp": ""
+                "postRewardThreshold": "Soglia ricompensa Post",
+                "postRewardThresholdHelp": "<p>Scrivi il numero minimo di post per premiare un utente con una medaglia.</p>\n<span>\nOgni utente può guadagnare 3 ricompense in base al numero di post, se\nimposti ad esempio \"50\", il moltiplicatore interno (x1, x3, x8) assegnerà la ricompensa\nper \"50\", \"150\" e \"400\" post (rispettivamente bronzo, argento e oro).\n</span>\n",
+                "discussionRewardThreshold": "Soglia ricompensa discussioni",
+                "discussionRewardThresholdHelp": "<p>Scrivi il numero minimo di discussioni per premiare un utente con una medaglia.</p>\n<span>\nOgni utente può guadagnare 3 ricompense in base al numero di discussioni, se\nimposti ad esempio \"50\", il moltiplicatore interno (x1, x3, x8) assegnerà la ricompensa\nper \"50\", \"150\" e \"400\" discussioni (rispettivamente bronzo, argento e oro).\n</span>\n",
+                "seniorityRewardThreshold": "Soglia anzianità",
+                "seniorityRewardThresholdHelp": "<p>Scrivi gli anni minimi di anzianità per premiare un utente con una medaglia.</p>\n<span>\nOgni utente può guadagnare 3 ricompense in base alla sua anzianità, se\nimposti ad esempio \"1\", il moltiplicatore interno (x1, x3, x5) assegnerà la ricompensa\nper \"1\", \"3\" e \"5\" anni di anzianità (rispettivamente livello bronzo, argento e oro).\n</span>\n"
             }
         },
         "forum": {
-            "emptyReputationHistory": "",
+            "emptyReputationHistory": "Non è stato possibile trovare alcun dato sulla reputazione di questo utente...",
             "reputation": "Reputazione",
             "reputationBar": "Punti reputazione",
             "trust": "Reputazione",
@@ -52,7 +52,7 @@
             "totalPosts": "Post totali",
             "reputationHistory": "Timeline Reputazione",
             "reputationHistoryPageTitle": "Questa timeline mostra gli ultimi 15 eventi che hanno modificato la tua reputazione.",
-            "xPostsReached": "",
+            "xPostsReached": "Ricompensa per {count}!",
             "firstLoginModalContent": "<p>\nQuesto forum utilizza un sistema di reputazione dinamico per incoraggiare un coinvolgimento positivo all'interno della comunità.\nCome utente, puoi guadagnare punti reputazione contribuendo in modo significativo a discussioni e interazioni, come:\n<ul>\n<li>\nCreando nuove discussioni: condividi i tuoi pensieri e le tue idee con la comunità.\n</li>\n<li>\nRispondendo ai post: guadagna punti in base alla qualità delle tue risposte.\n</li>\n<li>\nSegnalando utenti: aiuta a mantenere un ambiente sano segnalando comportamenti inappropriati.\n</li>\n<li>\nRicevendo Mi piace: mostra apprezzamento per i post degli altri e ricevi una ricompensa in cambio.\n</li>\n<li>\nScrivendo le migliori risposte: guadagna punti contribuendo con risposte che risolvono un problema e vengono scelte come \"migliori risposte\"\n</li>\n</ul>\n</p>\n<p>\nGuadagna punti reputazione agendo positivamente, aiutando gli altri e contribuendo alla comunità. Le tue azioni\nparlano più forte e con ogni punto ottieni il riconoscimento per i tuoi sforzi. Continua a impegnarti e costruisci la tua reputazione!\n</p>\n"
         }
     }
