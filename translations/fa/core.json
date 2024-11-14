@@ -54,7 +54,7 @@
                 "submit_and_create_another_button": "ایجاد و افزودن جدید",
                 "submit_button": "ایجاد کاربر",
                 "title": "ایجاد کاربر جدید",
-                "use_random_password": "ایجاد گذرواژه تصادفی",
+                "use_random_password": "ایجاد رمز عبور تصادفی",
                 "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
@@ -64,8 +64,8 @@
                 "status": {
                     "headers": {
                         "scheduler-status": "زمان‌بندی",
-                        "queue-driver": "راه‌انداز صف",
-                        "session-driver": "راه‌انداز نشست"
+                        "queue-driver": "صف درایور",
+                        "session-driver": "نشست درایور"
                     },
                     "scheduler": {
                         "active": "فعال",
@@ -329,13 +329,13 @@
                 "confirm_password_placeholder": "=> core.ref.confirm_password",
                 "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "dismiss_button": "=> core.ref.okay",
-                "incorrect_password_message": "گذرواژه وارد شده صحیح نیست.",
+                "incorrect_password_message": "رمز عبور وارد شده صحیح نیست.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "ارسال نامه تغییر گذرواژه",
-                "text": "روی دکمه زیر کلیک کنید، نامه‌ای برای شما در خصوص تغییر گذرواژه‌تان ارسال می‌شود.",
+                "send_button": "ارسال مجدد ایمیل بازیابی رمزعبور",
+                "text": "روی دکمه زیر کلیک کنیدتا لینک تغییر رمزعبور برایتان ارسال شود.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
@@ -379,7 +379,7 @@
                 "toggle_dropdown_accessible_label": "منوی کشویی کنش های بحث را تغییر دهید"
             },
             "discussion_list": {
-                "empty_text": "به نظر می‌رسد که مبحثی تاکنون در اینجا ارسال نشده است.",
+                "empty_text": "مبحثی تاکنون در اینجا ارسال نشده است.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} در {ago} پاسخ داد",
                 "started_text": "{username} در {ago} شروع نمود",
@@ -390,11 +390,11 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "اگر با این رایانامه حسابی داشته باشید، ما برایتان رایانامه‌ای با پیوندی برای بازسازی گذرواژه ارسال می‌کنیم. اگر در دقایق آتی رایانامه‌ای دریافت نکردید، پوشه هرزنامه خودتان را برسی کنید.",
-                "not_found_message": "کاربری با رایانامه وارد شده وجود ندارد.",
-                "submit_button": "بازیابی گذرواژه",
-                "text": "برای بازیابی گذرواژه، رایانامه خود را وارد کنید.",
-                "title": "فراموشی گذرواژه"
+                "email_sent_message": "اگر حسابی با این آدرس ایمیل داشته باشید، برایتان ایمیل با پیوندی برای بازیابی رمز عبور ارسال می‌کنیم. اگر ایمیلی دریافت نکردید، پوشه هرزنامه خودتان را برسی کنید.",
+                "not_found_message": "کاربری با ایمیل وارد شده وجود ندارد.",
+                "submit_button": "بازیابی رمزعبور",
+                "text": "آدرس ایمیلتان را وارد کنید تا لینک بازیابی رمزعبور برایتان ارسال گردد.",
+                "title": "فراموشی رمزعبور"
             },
             "header": {
                 "admin_button": "مدیریت",
@@ -429,14 +429,14 @@
                 "top_button": "بالا"
             },
             "log_in": {
-                "forgot_password_link": "گذرواژه‌تان را فراموش کردید؟",
+                "forgot_password_link": "رمزعبورتان را فراموش کردید؟",
                 "invalid_login_message": "اطلاعات واردشده صحیح نیست.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "مرا به خاطر بسپار",
                 "sign_up_text": "حساب کاربری ندارید؟ <a>ثبت‌نام</a> کنید.",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "نام کاربری یا رایانامه"
+                "username_or_email_placeholder": "نام کاربری یا ایمیل"
             },
             "notifications": {
                 "delete_all_confirm": "آیا از حذف تمامی آگاهی‌ها اطمینان دارید؟ این عمل قابل بازگشت نیست",
@@ -494,7 +494,7 @@
                 "empty_text": "به نظر میرسد چیزی برای دیدن اینجا وجود ندارد.",
                 "global_logout": {
                     "heading": "خروج سراسری",
-                    "help_text": "نشست فعلی کوکی را پاک می‌کند، همه نشست‌ها را خاتمه می‌دهد، ژتون‌های توسعه‌دهنده را باطل می‌کند، و هرگونه رایانامه تأیید یا بازنشانی رمز عبور را باطل می‌کند.",
+                    "help_text": "نشست فعلی کوکی را پاک می‌کند، همه نشست‌ها را حذف می کند، توکن ها یتوسعه‌دهنده را باطل می‌کند، و هرگونه لینک تأیید یا بازیابی رمز عبور را باطل می‌کند.",
                     "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "پنهان‌سازی ژتون",
@@ -716,8 +716,8 @@
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "تائید گذرواژه جدید",
-                "new_password_label": "گذرواژه جدید",
+                "confirm_password_label": "تائید رمزعبور جدید",
+                "new_password_label": "رمزعبور جدید",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
             },
@@ -737,15 +737,15 @@
         "email": {
             "activate_account": {
                 "subject": "تأیید حساب کاربری جدید",
-                "body": "سلام {username}!\n\nاین نامه مبنی بر تکمیل فرایند ثبت‌نام در {forum} برای شما ارسال شده است.\n\nبرای تایید شدن رایانامه خود در می‌توانید از پیوند زیر استفاده کنید:\n{url}\n\nدر غیر این صورت (اگر این شما نبودید که این درخواست را ثبت کرده) این نامه را نادیده بگیرید.\n"
+                "body": "سلام {username}!\n\nاین نامه مبنی بر تکمیل فرایند ثبت‌نام در {forum} برای شما ارسال شده است.\n\nبرای تایید شدن حساب کاربری خود روی لینک زیر کلیک کنید:\n{url}\n\nدر غیر این صورت (اگر این شما نبودید که این درخواست را ثبت کرده) این پیام را نادیده بگیرید.\n"
             },
             "confirm_email": {
-                "subject": "تأیید رایانامه جدید",
-                "body": "سلام {username}!\n\nدرخواستی مبنی بر تغییر رایانامه حساب کاربری شما در {forum} ثبت‌شده.\n\nمی‌توانید از پیوند زیر برای تکمیل فرایند تغییر رایانامه و تأیید شدن رایانامه جدید استفاده کنید:\n{url}\n\nدر غیر این صورت (اگر این شما نبودید که این درخواست را ثبت کرده) این نامه را نادیده بگیرید.\n"
+                "subject": "تأیید ایمیل جدید",
+                "body": "سلام {username}!\n\nدرخواستی مبنی بر تغییر آدرس ایمیل حساب کاربری شما در {forum} ثبت‌شده.\n\nمی‌توانید از لینک زیر برای تکمیل فرایند تغییر ایمیل جدید استفاده کنید:\n{url}\n\nدر غیر این صورت (اگر این شما نبودید که این درخواست را ثبت کرده) این پیام را نادیده بگیرید.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "سلام {username}!\n\nدرخواستی مبنی بر تغییر گذرواژه حساب کاربری شما در {forum} ثبت‌شده.\n\nاگر این خود شما بوده‌اید که این درخواست را ثبت کرده‌اید، می‌توانید از طریق پیوند زیر آن را تکمیل نمایید:\n{url}\n\nدر غیر این صورت (اگر این شما نبودید که این درخواست را ثبت کرده) این نامه را نادیده بگیرید.\n"
+                "body": "سلام {username}!\n\nدرخواستی مبنی بر فراموشی رمزعبور حساب کاربری شما در {forum} ثبت‌شده است.\n\nاگر شما این درخواست را ثبت کرده‌اید، می‌توانید از طریق لینک زیر آن را تکمیل نمایید:\n{url}\n\nدر غیر این صورت (اگر این شما نبودید که این درخواست را ثبت کرده) این پیام را نادیده بگیرید.\n"
             },
             "send_test": {
                 "subject": "تست ایمیل Flarum",
@@ -754,12 +754,12 @@
         },
         "ref": {
             "all_discussions": "همه مباحث",
-            "change_email": "تغییر رایانامه",
-            "change_password": "تغییر گذرواژه",
+            "change_email": "ویرایش ایمیل",
+            "change_password": "ویرایش رمزعبور",
             "color": "Color",
-            "confirm_password": "تائید گذرواژه",
+            "confirm_password": "تائید رمزعبور",
             "confirm_email": "تایید ایمیل",
-            "confirmation_email_sent": "رایانامه‌ای در خصوص تاییدیه حساب کاربری به {email} ارسال گردید. اگر به‌زودی آن را دریافت ننمودید پوشه هرزنامه‌های خود را بررسی کنید.",
+            "confirmation_email_sent": "ایمیلی در خصوص تاییدیه حساب کاربری به {email} ارسال گردید. اگر به‌زودی آن را دریافت ننمودید پوشه هرزنامه‌های خود را بررسی کنید.",
             "custom_footer_text": "Add HTML to be displayed at the very bottom of the page.",
             "custom_footer_title": "Edit Custom Footer",
             "custom_header_text": "Add HTML to be displayed at the very top of the page, above Flarum's own header.",
@@ -769,7 +769,7 @@
             "discussions": "مباحث",
             "edit": "ویرایش",
             "edit_user": "ویرایش کاربر",
-            "email": "رایانامه",
+            "email": "ایمیل",
             "extensions": "افزونه ها",
             "generic_confirmation_message": "",
             "icon": "آیکون",
@@ -784,13 +784,13 @@
             "next_page": "صفحه بعد",
             "notifications": "اعلان‌ها",
             "okay": "باشه",
-            "password": "گذرواژه",
+            "password": "رمزعبور",
             "posts": "نوشته‌ها",
             "previous_page": "صفحه قبل",
             "remove": "حذف",
             "rename": "تغییر نام",
             "reply": "پاسخ",
-            "reset_your_password": "تنظیم دوباره گذرواژه",
+            "reset_your_password": "تنظیم دوباره رمزعبور",
             "restore": "بازیابی",
             "save_changes": "ذخیره تغییرات",
             "search_users": "",
