@@ -617,11 +617,11 @@
                 "nothing_available": "شما مجاز به ویرایش این کاربر نیستید."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "وابستگی آن یافت شد: {extensions}. لطفا\" یکی از افزونه ها را غیرفعال کنید و مجددا\" تلاش کنید.",
                 "dependent_extensions_message": "تا زمانی که پسوندهای وابسته زیر غیرفعال شوند، نمی توان {extension} را غیرفعال کرد: {extensions}",
-                "extension_initialiation_failed_message": "",
+                "extension_initialiation_failed_message": "{extension}با خطا مواجه شد، لطفا\" برای اطلاعات بیشتر قسمت کنسول مرورگر را بررسی نمایید.",
                 "generic_message": "متأسفانه خطایی رخ داد. لطفاً صفحه را دوباره بارگذاری کنید.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "خطایی هنگام اجرای این درخواست رخ داده است. لطفا\" صفحه را بارگذاری مجدد کنید سپس تلاش کنید.",
                 "missing_dependencies_message": "تا زمانی که وابستگی‌های زیر فعال نشده باشند، نمی‌توان {extension} را فعال کرد: {extensions}",
                 "not_found_message": "یافت نشد.",
                 "payload_too_large_message": "بار درخواست خیلی بزرگ بود.",
@@ -633,8 +633,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{شماره صفحه،جمع،=1{pageTitle}-{forumName} دیگر{pageTitle}: صفحه # - {forumName}}}",
+                "without_page_title": "{شماره صفحه،جمع،= 1{{forumName}} از {صفحه # - {forumName}}"
             },
             "modal": {
                 "close": "بستن"
@@ -647,9 +647,9 @@
                 "mega_text": "M"
             },
             "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+                "humanTimeShort": "D MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY"
             },
             "series": {
                 "glue_text": "، ",
@@ -729,9 +729,9 @@
         "api": {
             "invalid_username_message": "نام کاربری فقط می‌تواند شامل حروف، اعداد، و خطوط تیره باشد.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "{filter} بایدفقط شامل اعداد باشد.",
+                "must_not_be_array_message": "{filter} نمیتواند شامل آرایه باشد.",
+                "must_not_be_multidimensional_array_message": "{filter} نمی تواند شامل آرایه های چند بعدی باشد."
             }
         },
         "email": {
@@ -771,7 +771,7 @@
             "edit_user": "ویرایش کاربر",
             "email": "ایمیل",
             "extensions": "افزونه ها",
-            "generic_confirmation_message": "",
+            "generic_confirmation_message": "آیا مطمئن هستید که می خواهید ادامه دهید؟ این عمل قابل لغو نیست.",
             "icon": "آیکون",
             "icon_text": "نام هر یک از کلاس آیکون های <a>FontAwesome</a> را وارد کنید که <em>شامل</em> پیشوند <code>fas fa-</code> باشد.",
             "load_more": "بیشتر",
@@ -779,8 +779,8 @@
             "log_in": "ورود",
             "log_out": "خروج",
             "mark_all_as_read": "علامت همه به‌عنوان خوانده‌شده",
-            "never": "",
-            "new_token": "",
+            "never": "هرگز",
+            "new_token": "توکن جدید",
             "next_page": "صفحه بعد",
             "notifications": "اعلان‌ها",
             "okay": "باشه",
@@ -793,8 +793,8 @@
             "reset_your_password": "تنظیم دوباره رمزعبور",
             "restore": "بازیابی",
             "save_changes": "ذخیره تغییرات",
-            "search_users": "",
-            "security": "",
+            "search_users": "جستجوی کاربر",
+            "security": "امنیت",
             "settings": "تنظیمات",
             "sign_up": "ثبت‌ نام",
             "some_others": "{count, plural, one {# دیگر} other {# دیگر}}",
