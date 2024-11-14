@@ -2,14 +2,14 @@
     "v17development-flarum-seo": {
         "admin": {
             "permissions": {
-                "configure_seo": ""
+                "configure_seo": "允許配置SEO"
             }
         },
         "forum": {
             "profile_title": "{username} 的個人資料",
             "profile_description": "{username} 的個人資料 | {discussion_count} 篇主題 | {comment_count} 條回覆",
             "controls": {
-                "configure_seo": "",
+                "configure_seo": "配置 SEO",
                 "update_seo": "",
                 "reset_seo": ""
             }
