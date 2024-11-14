@@ -2,16 +2,16 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": ""
+                "see_country": "始終顯示IP地址所屬國家或地區"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "常規設置",
+                    "help": "這些設置控制本擴展的一些基本能力。"
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "IP查詢服務",
+                    "help": "選擇一個 IP 查詢服務。部分服務有呼叫速率限制，詳情請查看相關服務文件。"
                 },
                 "service_label": "服務",
                 "service_ipdata_label": "IPData",
