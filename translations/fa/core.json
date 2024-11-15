@@ -9,7 +9,7 @@
                 "colors_text": "دو رنگ برای تم انجمن خود انتخاب کنید. اولی به عنوان رنگ برجسته و دومی برای استایل دهی به عناصر پس زمینه استفاده خواهد شد.",
                 "custom_footer_heading": "فوتر سفارشی",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
-                "custom_header_heading": "هدر سفارشی",
+                "custom_header_heading": "سربرگ سفارشی",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_cannot_use_less_features": "قابلیت @import و data-uri در حالت LESS سفارشی مجاز نیستند.",
                 "custom_styles_heading": "استایل‌های سفارشی",
@@ -96,7 +96,7 @@
                 "delete_confirmation": "آیا اطمینان دارید که می خواهید این گروه را حذف کنید ؟ اعضای این گروه حذف نخواهند شد .",
                 "hide_label": "پنهان کردن در انجمن",
                 "icon_label": "آیکون",
-                "icon_text": "نام هر یک از کلاس های آیکون <a>FontAwesome</a> را وارد کنید که <em>شامل</em> پیشوند <code>fas fa-</code> باشند .",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "نام",
                 "plural_placeholder": "جمع (برای مثال: مد ها)",
                 "singular_placeholder": "تکی (برای مثال: مد)",
@@ -471,7 +471,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "عنوان قدیمی: \"{old}\"",
-                "discussion_renamed_text": "{username} عنوان را به {new} تغییر داد.{time}",
+                "discussion_renamed_text": "{username} عنوان را ویرایش کرد به {new} {time}",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} بعد"
@@ -509,7 +509,7 @@
                 "revoke_access_token": "ابطال",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "نشست‌های فعال",
-                "session_terminated": "{count, plural, one {Session terminated} other {# Sessions terminated}}.",
+                "session_terminated": "{تعداد،مجموع، یک {Session terminated} از {# Sessions terminated}}.",
                 "session_termination_failed": "درهنگام ازبین بردن نشست‌های شما خطایی رخ داد.",
                 "show_access_token": "مشاهده ژتون",
                 "terminate_all_other_sessions": "از بین بردن دیگر نشست‌ها",
@@ -633,8 +633,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "{شماره صفحه،جمع،=1{pageTitle}-{forumName} دیگر{pageTitle}: صفحه # - {forumName}}}",
-                "without_page_title": "{شماره صفحه،جمع،= 1{{forumName}} از {صفحه # - {forumName}}"
+                "with_page_title": "{شماره صفحه،مجموع،=1 {pageTitle}-{forumName} از {pageTitle}: صفحه # - {forumName}}}",
+                "without_page_title": "{شماره صفحه،مجموع،= 1{{forumName}} از {Page # - {forumName}}}"
             },
             "modal": {
                 "close": "بستن"
@@ -684,7 +684,7 @@
             "content": {
                 "javascript_disabled_message": "این وب‌سایت در مرورگرهای جدید، و با جاوا اسکریپت فعال به بهترین شکل نمایش میابد.",
                 "load_error_message": "هنگام تلاش برای بارگیری نسخه کامل این سایت، مشکلی پیش آمد. سعی کنید این صفحه رابا رفرش و پاک کردن کش بازخوانی کنید تا خطا برطرف شود.",
-                "loading_text": "در حال بارگذاری ..."
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -760,10 +760,10 @@
             "confirm_password": "تائید رمزعبور",
             "confirm_email": "تایید ایمیل",
             "confirmation_email_sent": "ایمیلی در خصوص تاییدیه حساب کاربری به {email} ارسال گردید. اگر به‌زودی آن را دریافت ننمودید پوشه هرزنامه‌های خود را بررسی کنید.",
-            "custom_footer_text": "Add HTML to be displayed at the very bottom of the page.",
-            "custom_footer_title": "Edit Custom Footer",
-            "custom_header_text": "Add HTML to be displayed at the very top of the page, above Flarum's own header.",
-            "custom_header_title": "Edit Custom Header",
+            "custom_footer_text": "HTML را اضافه کنید تا در انتهای صفحه نمایش داده شود.",
+            "custom_footer_title": "ویرایش فوتر سفارشی",
+            "custom_header_text": "HTML را اضافه کنید تا در بالای صفحه، بالای سربرگ Flarum نمایش داده شود.",
+            "custom_header_title": "ویرایش سربرگ سفارشی",
             "delete": "حذف",
             "delete_forever": "حذف برای همیشه",
             "discussions": "مباحث",
