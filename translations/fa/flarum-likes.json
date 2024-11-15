@@ -5,8 +5,8 @@
                 "like_posts_label": "پست ها را لایک کنید"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "در صورت فعال بودن، مشروط به اجازه، کاربران می توانند پست های خود را در انجمن \"لایک\" کنند. برای جلوگیری از قرار دادن \"لایک\" توسط کاربران در پست های خود، این تنظیم را غیرفعال کنید.",
+                "like_own_posts_label": "کاربران ممکن است پست های خود را دوست داشته باشند"
             }
         },
         "forum": {
@@ -24,13 +24,13 @@
             },
             "post_likes": {
                 "title": "کاربرانی که پسندیدند",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
                 "notify_post_liked_label": "کسی نوشته من را پسندید"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "لایک"
             }
         }
     }
