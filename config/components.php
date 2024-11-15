@@ -1366,6 +1366,9 @@ return [
 	'vlssu-cravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.2.1/resources/locale/en.yml',
 	],
+	'walsgit-discussion-cards' => [
+		'tag' => 'https://raw.githubusercontent.com/WalsGit/flarum-discussion-cards/1.0.2/locale/en.yml',
+	],
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/0.1.7/locale/en.yml',
 	],
