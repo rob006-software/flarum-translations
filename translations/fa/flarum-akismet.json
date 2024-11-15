@@ -2,13 +2,13 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "API Key",
-                "title": "Akismet Settings",
+                "api_key_label": "کلید API",
+                "title": "تنظیمات Akismet",
                 "delete_blatant_spam_label": "خودکار هرزنامه‌ها را حذف کن",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_help": "اگر Akismet تشخیص داده است که نظر یا کامنت هرزنامه است، به جای علامت گذاری، پست را به طور خودکار حذف کنید"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "از Akismet عبور کنید"
             }
         },
         "forum": {
