@@ -1,10 +1,10 @@
 {
     "afrux-forum-widgets-core": {
         "admin": {
-            "cache_not_writable_warning": "",
+            "cache_not_writable_warning": "کش در حال حاضر قابل نوشتن نیست، این امر مانع از کار کردن ویجت‌های خاص می‌شود. لطفاً مجوزهای پوشه های ذخیره سازی خود را اصلاح کنید.",
             "settings": {
-                "prefer_data_with_initial_load": "",
-                "prefer_data_with_initial_load_help": ""
+                "prefer_data_with_initial_load": "الویت بارگذاری با همه داده‌های ویجت‌ها با پاسخ صفحه اولیه است.",
+                "prefer_data_with_initial_load_help": "به جای بارگیری داده های ویجت پس از بارگیری صفحه اولیه با ارسال درخواست های API، داده ها (در صورت امکان) با بار اولیه بارگیری می شوند."
             }
         }
     }
