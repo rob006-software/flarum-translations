@@ -2,28 +2,28 @@
     "imeepo-more-bbcode": {
         "admin": {
             "permissions": {
-                "bypass_like_label": "",
-                "bypass_reply_label": ""
+                "bypass_like_label": "Ignora els \"M'agrada\" mostrats",
+                "bypass_reply_label": "Ignora les respostes mostrades"
             }
         },
         "forum": {
             "lib": {
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "header_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_tooltip": "",
-                "strikethrough_tooltip": "",
-                "unordered_list_tooltip": ""
+                "bold_tooltip": "Afegir text en negreta",
+                "code_tooltip": "Inserir codi",
+                "header_tooltip": "Inserir encapçalament",
+                "image_tooltip": "Afegir imatge",
+                "italic_tooltip": "Afegir cursiva",
+                "link_tooltip": "Afegir enllaç",
+                "ordered_list_tooltip": "Afegir llista numerada",
+                "quote_tooltip": "Afegir cita literal",
+                "spoiler_tooltip": "Afegir espòiler",
+                "strikethrough_tooltip": "Afegir text ratllat",
+                "unordered_list_tooltip": "Afegir llista amb punts"
             },
-            "hidden_content": "",
-            "hidden_content_reply": "",
-            "hidden_content_login": "",
-            "hidden_content_like": "",
+            "hidden_content": "CONTINGUT OCULT",
+            "hidden_content_reply": "Contingut mostrat quan s'ha respost",
+            "hidden_content_login": "Contingut mostrat quan s'ha iniciat sessió",
+            "hidden_content_like": "Contingut mostrat quan s'ha clicat \"M'agrada\"",
             "reply_to_see": "",
             "login_to_see": "",
             "like_to_see": "",
