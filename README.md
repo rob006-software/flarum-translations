@@ -1049,6 +1049,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-twofactor`](https://weblate.rob006.net/projects/flarum/ianm-twofactor) | [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) |
 | [`imdong-spam-alert`](https://weblate.rob006.net/projects/flarum/imdong-spam-alert) | [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert) |
 | [`imdong-visible-to-op-only`](https://weblate.rob006.net/projects/flarum/imdong-visible-to-op-only) | [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only) |
+| [`irmmr-rtl`](https://weblate.rob006.net/projects/flarum/irmmr-rtl) | [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl) |
 | [`jeromegillard-map`](https://weblate.rob006.net/projects/flarum/jeromegillard-map) | [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
 | [`justoverclock-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-count-badge) | [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge) |
@@ -1202,6 +1203,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`v17development-seo`](https://weblate.rob006.net/projects/flarum/v17development-seo) | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) |
 | [`v17development-user-badges`](https://weblate.rob006.net/projects/flarum/v17development-user-badges) | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) |
 | [`vlssu-cravatar`](https://weblate.rob006.net/projects/flarum/vlssu-cravatar) | [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar) |
+| [`walsgit-discussion-cards`](https://weblate.rob006.net/projects/flarum/walsgit-discussion-cards) | [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) |
 | [`walsgit-recycle-bin`](https://weblate.rob006.net/projects/flarum/walsgit-recycle-bin) | [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) |
 | [`webbinaro-affiliator`](https://weblate.rob006.net/projects/flarum/webbinaro-affiliator) | [`webbinaro/flarum-affiliator`](https://github.com/eddiewebb/flarum-affiliator) |
 | [`webbinaro-age-check`](https://weblate.rob006.net/projects/flarum/webbinaro-age-check) | [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check) |
