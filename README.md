@@ -899,6 +899,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-mark-unread`](https://weblate.rob006.net/projects/flarum/blomstra-mark-unread) | [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread) |
 | [`blomstra-oauth-apple`](https://weblate.rob006.net/projects/flarum/blomstra-oauth-apple) | [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple) |
 | [`blomstra-oauth-slack`](https://weblate.rob006.net/projects/flarum/blomstra-oauth-slack) | [`blomstra/oauth-slack`](https://github.com/blomstra/flarum-ext-oauth-slack) |
+| [`blomstra-s3-assets`](https://weblate.rob006.net/projects/flarum/blomstra-s3-assets) | [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets) |
 | [`blomstra-search`](https://weblate.rob006.net/projects/flarum/blomstra-search) | [`blomstra/search`](https://github.com/blomstra/flarum-ext-search) |
 | [`blomstra-secondary-tags-toggler`](https://weblate.rob006.net/projects/flarum/blomstra-secondary-tags-toggler) | [`blomstra/secondary-tags-toggler`](https://github.com/blomstra/flarum-ext-secondary-tags-toggler) |
 | [`blomstra-sort-order-toggle`](https://weblate.rob006.net/projects/flarum/blomstra-sort-order-toggle) | [`blomstra/sort-order-toggle`](https://github.com/blomstra/flarum-ext-sort-order-toggle) |
@@ -1242,7 +1243,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-payments`](https://weblate.rob006.net/projects/flarum/blomstra-payments) | [`blomstra/payments`](https://flarum.org/extension/blomstra/payments) |
 | [`blomstra-readme`](https://weblate.rob006.net/projects/flarum/blomstra-readme) | [`blomstra/readme`](https://flarum.org/extension/blomstra/readme) |
 | [`blomstra-realtime`](https://weblate.rob006.net/projects/flarum/blomstra-realtime) | [`blomstra/realtime`](https://flarum.org/extension/blomstra/realtime) |
-| [`blomstra-s3-assets`](https://weblate.rob006.net/projects/flarum/blomstra-s3-assets) | [`blomstra/s3-assets`](https://flarum.org/extension/blomstra/s3-assets) |
 | [`datitisev-backup`](https://weblate.rob006.net/projects/flarum/datitisev-backup) | [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) |
 | [`datitisev-maintenance`](https://weblate.rob006.net/projects/flarum/datitisev-maintenance) | [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance) |
 | [`datitisev-webhooks-pro`](https://weblate.rob006.net/projects/flarum/datitisev-webhooks-pro) | [`datitisev/flarum-webhooks-pro`](https://flarum.org/extension/datitisev/flarum-webhooks-pro) |
