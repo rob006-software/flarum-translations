@@ -2,35 +2,35 @@
     "xypp-answer-bounty": {
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "submit": "",
-                "clear": ""
+                "title": "Définir la prime",
+                "label": "Montant",
+                "submit": "Envoyer",
+                "clear": "Effacer"
             },
             "composer": {
-                "set": "",
-                "edit": ""
+                "set": "Définir la prime",
+                "edit": "Prime ({bounty})"
             },
             "discussion": {
-                "edit": "",
-                "set": ""
+                "edit": "Modifier la prime ({bounty})",
+                "set": "Définir la prime"
             },
-            "tip": "",
-            "tip-ans": "",
-            "badge": ""
+            "tip": "Cette discussion vise à obtenir la meilleure réponse avec une prime de <span>{money}</span>.",
+            "tip-ans": "Prime envoyée <span>{money}</span>",
+            "badge": "Prime"
         },
         "admin": {
             "permissions": {
-                "moderate": "",
-                "use": ""
+                "moderate": "Modérer la prime des autres",
+                "use": "Définir la prime"
             }
         },
         "api": {
-            "bounty": "",
-            "bounty_clear": "",
-            "bounty_set": "",
-            "not_enough_money": "",
-            "bounty_sent": ""
+            "bounty": "Prime pour la meilleure réponse",
+            "bounty_clear": "Effacer la prime",
+            "bounty_set": "Définir la prime",
+            "not_enough_money": "Vous n'avez pas assez d'argent pour définir une prime.",
+            "bounty_sent": "La prime a été envoyée. Veuillez désactiver la meilleure réponse avant d'en définir une nouvelle."
         }
     }
 }
