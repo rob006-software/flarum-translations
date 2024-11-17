@@ -633,8 +633,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "{شماره صفحه،مجموع،=1 {pageTitle}-{forumName} از {pageTitle}: صفحه # - {forumName}}}",
-                "without_page_title": "{شماره صفحه،مجموع،= 1{{forumName}} از {Page # - {forumName}}}"
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
             },
             "modal": {
                 "close": "بستن"
