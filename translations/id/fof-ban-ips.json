@@ -47,7 +47,7 @@
                 "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "check_button": "Periksa",
                 "save_button": "Simpan",
-                "ban_ip_confirmation": "Apakah Anda yakin ingin memblokir alamat IP ini agar tidak digunakan di forum? Tindakan ini akan memblokir pengguna dengan alamat IP ini agar tidak dapat login dan melakukan pendaftaran.",
+                "ban_ip_confirmation": "Apakah Anda yakin ingin memblokir alamat IP ini agar tidak digunakan dalam forum? Ini akan memblokir pengguna yang memiliki alamat IP ini agar tidak dapat melakukan login dan mendaftar.",
                 "ban_ip_users": "{count, plural, one {Pengguna {users} akan diblokir} other {Pengguna {users} akan diblokir}}",
                 "unban_ip_confirmation": "Apakah Anda yakin ingin membuka blokir pengguna ini dan semua pengguna lainnya yang tidak terkena pemblokiran oleh IP lain?",
                 "unban_options_only_ip": "Hanya membuka blokir IP saat ini (<code>{ip}</code>)",
@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Jika catatan pemblokiran IP dikaitkan dengan pengguna (misalnya, pengguna tersebut diblokir melalui IP), alamat IP pengguna akan disertakan dalam ekspor, bersamaan dengan alasan pemblokiran dan tanggal pembuatannya.",
+                    "anonymize_description": "Semua alamat IP yang terhubung dengan pengguna akan dipisahkan, tetapi IP itu sendiri akan tetap diblokir, beserta alasannya. Pastikan tidak ada data PII yang disimpan di dalam kolom 'alasan'."
                 }
             }
         }
