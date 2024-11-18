@@ -2,32 +2,32 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": ""
+                "see_country": "Visualizza sempre il paese dell'indirizzo IP"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Impostazioni generali",
+                    "help": "Queste impostazioni controllano il comportamento generale dell'estensione."
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Servizio di ricerca IP",
+                    "help": "Scegli un servizio da usare per le ricerche IP. Alcuni servizi hanno limiti di velocità, quindi assicurati di controllare la documentazione del servizio per maggiori informazioni."
                 },
                 "service_label": "Servizio",
                 "service_ipdata_label": "IPData",
-                "service_ipdata_description": "Utilizza <b> https://ipdata.co </b> per effettuare gratuitamente fino a 1.500 ricerche al giorno.",
+                "service_ipdata_description": "Usa <b>https://ipdata.co</b> per effettuare fino a 1.500 ricerche al giorno gratuitamente. Sono disponibili anche piani a pagamento per limiti di utilizzo più elevati.",
                 "service_ipapi_label": "IP Api",
-                "service_ipapi_description": "Utilizza <b> http://ip-api.com </b> per effettuare gratuitamente fino a 150 ricerche al minuto. Se ne fai di più, il tuo IP potrebbe essere inserito in lista nera,  puoi sbloccarlo successivamente su <b> http://ip-api.com/docs/unban </b>.",
-                "service_ipapi-pro_label": "",
-                "service_ipapi-pro_description": "",
-                "service_iplocation_label": "",
-                "service_iplocation_description": "",
-                "service_ipsevenex_label": "",
-                "service_ipsevenex_description": "",
+                "service_ipapi_description": "Utilizza <b> http://ip-api.com </b> per effettuare gratuitamente fino a 150 ricerche al minuto. Se ne fai di più, il tuo IP potrebbe essere inserito in lista nera, puoi sbloccarlo successivamente su <b> http://ip-api.com/docs/unban </b>.",
+                "service_ipapi-pro_label": "IP Api Pro",
+                "service_ipapi-pro_description": "Utilizza <b>https://members.ip-api.com/#pricing</b>. Il piano Pro ha un utilizzo illimitato.",
+                "service_iplocation_label": "Posizione IP",
+                "service_iplocation_description": "Usa <b>https://www.iplocation.net/</b> per recuperare i dati del paese e dell'ISP. I limiti di velocità di ricerca sono sconosciuti.",
+                "service_ipsevenex_label": "7x Geolocation API",
+                "service_ipsevenex_description": "Usa <b>https://7x.ax</b> per ottenere una chiave API gratuita per un massimo di 20 richieste al minuto. Sono disponibili anche piani a pagamento per limiti di utilizzo più elevati.",
                 "access_key_label": "Chiave di accesso",
-                "quota_label": "",
-                "show_flag_label": "",
-                "show_flag_help": "",
+                "quota_label": "Quota di ricerca",
+                "show_flag_label": "Mostra la bandiera del paese per ogni post",
+                "show_flag_help": "Senza rivelare l'indirizzo IP, mostra la bandiera del paese dell'indirizzo IP dell'autore del post, quando l'utente acconsente tramite le sue preferenze.",
                 "title": "FriendsOfFlarum GeoIP",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Utilizza <b> https://ipstack.com </b> per effettuare gratuitamente fino a 10.000 ricerche al mese. I piani a pagamento includono informazioni sulla connessione (ISP, organizzazione) e livello di minaccia.",
@@ -40,25 +40,25 @@
             "alerts": {
                 "ip_copied": "Indirizzo IP copiato"
             },
-            "copy_ip_label": "",
-            "map_button_label": "",
+            "copy_ip_label": "Copia IP negli appunti",
+            "map_button_label": "Info IP",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "title": "Informazioni IP",
+                "ip_address": "Indirizzo IP",
+                "country_code": "Codice Paese",
+                "zip_code": "CAP",
+                "isp": "ISP",
+                "as": "ASN",
+                "mobile": "Rete Cellulare",
+                "organization": "Organizzazione",
+                "threat_level": "Livello di minaccia",
+                "threat_types": "Tipo di minaccia",
+                "error": "Errore",
+                "not_enough_data": "Non ci sono dati sufficienti per disegnare una mappa"
             },
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "Mostra la bandiera del paese da cui pubblico, in base al mio indirizzo IP"
                 }
             }
         }
@@ -66,8 +66,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
-                "showIPCountry-help": ""
+                "showIPCountry": "Mostra la bandiera del paese da cui l'utente pubblica",
+                "showIPCountry-help": "Questo si basa sul loro indirizzo IP al momento della pubblicazione. La bandiera del paese (se abilitata) sarà visibile a tutti gli utenti. Gli utenti amministratori e i moderatori vedranno l'indirizzo IP nel tooltip."
             }
         }
     }
