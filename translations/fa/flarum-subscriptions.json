@@ -11,7 +11,7 @@
                 "unignore_button": "حذف نادیده گرفتن"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
@@ -21,7 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "به‌صورت خودکار مبحث‌هایی که به آن‌ها پاسخ می‌دهم را دنبال کن",
-                "notify_for_all_posts_label": "",
+                "notify_for_all_posts_label": "اطلاع رسانی برای هر پست جدید به جای فقط آخرین پست یک گفتگو",
                 "notify_new_post_label": "کسی در مبحثی که دنبال می‌کنم چیزی نوشت"
             },
             "sub_controls": {
@@ -39,7 +39,7 @@
         "email": {
             "new_post": {
                 "subject": "[نوشته جدید] {title}",
-                "body": ""
+                "body": "سلام {recipient_display_name}!\n\n{poster_display_name} در بحثی که شما دنبال می‌کنید پستی ارسال کرد: {title}.\n\nبرای مشاهده فعالیت جدید به لینک زیر مراجعه کنید:\n{url}\n\n---\n\n{content}\n\n---\n\nتا زمانی که به‌روز نشود، هیچ اعلان دیگری درباره این بحث دریافت نخواهید کرد.\n"
             }
         },
         "ref": {
