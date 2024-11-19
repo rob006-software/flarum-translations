@@ -2,24 +2,24 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "روش احراز هویت جدید",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "میزبان",
+                    "host_placeholder": "مثال: extiverse.com",
+                    "submit_button": "تایید",
+                    "token_label": "توکن",
+                    "type_label": "نوع",
+                    "unchanged_token_placeholder": "(بدون تغییر)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "آیا مطمئن هستید که می خواهید این روش احراز هویت را حذف کنید؟",
+                "delete_label": "حذف روش احراز هویت",
+                "edit_label": "روش احراز هویت را ویرایش کنید",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "میزبان",
+                    "token": "توکن"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
+                "no_auth_methods_configured": "هیچ روش احراز هویت پیکربندی نشده است. این یک ویژگی پیشرفته اختیاری است که امکان نصب از مخازن خصوصی را فراهم می کند.",
+                "remove_button_label": "حذف روش اهراز حویت",
                 "title": "",
                 "types": {
                     "github-oauth": "",
@@ -40,129 +40,129 @@
                     "options": {
                         "stable": "",
                         "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "beta": "بتا",
+                        "alpha": "آلفا",
+                        "dev": "توسعه دهنده"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "مخزن ها",
+                    "help": "برای نصب بسته ها، مخازن جدید اضافه کنید. این یک ویژگی پیشرفته است، از اضافه کردن مخازن غیر قابل اعتماد خودداری کنید، زیرا می توان از آنها برای اجرای کدهای مخرب روی سرور خود استفاده کرد.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "کامپوزر",
+                        "vcs": "vcs",
+                        "path": "مسیر"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "نام",
+                        "type_label": "نوع",
+                        "url": "آدرس URL",
+                        "submit_button": "تایید"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "اجرا نشد. گزارش های کامپوزر را در storage/logs/composer بررسی کنید.",
+                "extension_already_installed": "این افزونه قبلاً نصب شده است.",
+                "extension_not_directly_dependency": "افزونه به عنوان وابستگی یک افزونه دیگر نصب شده است، نمی توان آن را مستقیماً حذف کرد.",
+                "extension_not_installed": "افزونه یافت نشد.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "افزونه به احتمال زیاد با نسخه فعلی Flarum شما ناسازگار است.",
+                    "extension_not_found": "افزونه پیدا نشد یا وجود ندارد.",
+                    "extensions_incompatible_with_new_major": "برخی از افزونه های نصب شده با جدیدترین نسخه اصلی سازگار نیستند. لطفاً صبر کنید تا افزونه برای سازگاری توسط نویسندگان به‌روزرسانی شوند، یا قبل از ادامه آن‌ها را حذف کنید.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "نمایش اینکه چرا به آخرین نسخه بروز رسانی نشده است.",
+                "install": "نصب افزونه جدید",
+                "install_help": "برای ادامه، نام پکیج افزونه را وارد کنید. می توانید یک مقدار استاندارد <semantic_link> یا نام پکیج همراه با نسخه آن با فرمت <code>vendor/package-name:version</code> را وارد کنید. برای مرور افزونه ها از {extiverse} دیدن کنید.\n",
+                "proceed": "نصب",
+                "remove": "حذف",
+                "successful_install": "{extension} با موفقیت نصب شد، در حال انتقال ..",
+                "successful_remove": "افزونه با موفقیت حذف شد.",
+                "successful_update": "{extension} با موفقیت بروزرسانی شد، در حال انتقال ..",
+                "update": "بروزرسانی",
+                "update_soft_label": "بروزرسانی نرم",
+                "update_hard_label": "بروزرسانی سخت"
             },
-            "file_permissions": "",
+            "file_permissions": "مدیریت افزونه به مجوزهای خواندن و نوشتن در فایل‌ها و فهرست‌های زیر نیاز دارد: composer.json، composer.lock، vendor، storage، storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "بروزرسانی‌های اصلی Flarum با نسخه‌های قبلی سازگار نیستند، به این معنی که برخی از افزونه های نصب‌شده فعلی شما و تغییرات دستی ممکن است با این نسخه جدید کار نکنند. لطفاً قبل از ادامه، حتماً از پایگاه داده و فایل های خود یک نسخه پشتیبان تهیه کنید.\n",
+                "dry_run": "اجرای خشک",
+                "dry_run_help": "اجرای خشک بروزرسانی را شبیه‌سازی می‌کند تا ببیند آیا تنظیمات فعلی شما می‌تواند با خیال راحت بروزرسانی شود، به این معنا نیست که تغییرات سفارشی دستی شما در نسخه جدیدتر کار می‌کنند.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "آخرین بروز رسانی اصلی ناموفق بود، برخی از افزونه های نصب شده با نسخه اصلی جدید سازگار نیستند.",
+                    "why": "بیشتر بدانید"
                 },
-                "title": "",
-                "update": ""
+                "title": "نسخه {version} بروزرسانی هسته اصلی Flarum موجود است",
+                "update": "بروزرسانی"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "با این کار هر افزونه/پکیج دیگری با بروزرسانی‌های موجود به روز می‌شود."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "مدیریت"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "جزئیات",
+                        "elapsed_time": "تکمیل شده در",
+                        "peak_memory_used": "حداکثر استفاده از حافظه",
+                        "operation": "عملیات",
+                        "package": "پکیج",
+                        "status": "وضعیت"
                     },
-                    "none": "",
+                    "none": "وظیفه ای وجود ندارد.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "نصب افزونه",
+                        "extension_remove": "حذف افزونه",
+                        "extension_update": "بروزرسانی افزونه",
+                        "update_check": "بررسی بروزرسانی ها",
+                        "update_global": "بروز رسانی تمام پکیج های نرم افزاری",
+                        "update_major": "بروزرسانی کلی",
+                        "update_minor": "بروز رسانی جزئی",
+                        "why_not": "بررسی کنید که چرا یک پکیج نمی تواند به روز شود"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "ناشناخته",
+                        "command": "دستور کامپوزر",
+                        "guessed_cause": "علت",
+                        "output": "خروجی"
                     },
-                    "refresh": "",
+                    "refresh": "لیست وظایف را تازه کنید",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "موفق",
+                        "failure": "ناموفق",
+                        "pending": "در انتظار",
+                        "running": "در حال اجرا"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "وظیفه شروع شده است",
+                    "title": "صف"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "لطفاً مراقب باشید که به چه کسی دسترسی بخش مدیریت را می دهید، مدیر افزونه ها میتواند با نصب بسته های نا امن منجر به نقض امنیت سایت شود و مورد سوء استفاده قرار گیرد.",
+                "debug_mode_warning": "شما در حالت اشکال زدایی در حال اجرا هستید، مدیر افزونه ها نمی تواند بسته های توسعه محلی را به درستی نصب و به روز کند. لطفاً به جای آن از رابط خط فرمان برای چنین اهدافی استفاده کنید.",
+                "queue_jobs": "عملیات را در صف پس‌زمینه اجرا کنید",
+                "queue_jobs_help": "شما می‌توانید در مورد <a href='{basic_impl_link}'> یا <a href='{adv_impl_link}'>اطلاعات بیشتر</a>  کسب کنید. مطمئن شوید که نسخه PHP مورد استفاده {php_version} است. اطمینان پیدا کنید <a href='{folder_perms_link}'>دسترسی پوشه ها</a>  به درستی تنظیم شده است.\n",
+                "task_retention_days": "روزهای حفظ وظایف",
+                "task_retention_days_help": "تعداد روزهای نگهداری وظایف تکمیل شده در پایگاه داده. وظایف قدیمی تر از این حذف خواهند شد. برای حفظ تمام وظایف، روی 0 تنظیم کنید.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "همه چیز به روز است!",
+                "check_for_updates": "بررسی بروزرسانی ها",
+                "flarum": "هسته فلاروم",
+                "global_update_successful": "همه پکیج ها با موفقیت به روز شدند.",
+                "last_update_checked_at": "بررسی آخرین بروز رسانی: ",
+                "run_global_update": "اجرای بروزرسانی کلی",
+                "updater_title": "بروزرسانی ها",
+                "updater_help": "بررسی برای افزونه های جدید و بروزرسانی های فلاروم."
             },
-            "update_successful": "",
+            "update_successful": "فلاروم با موفقیت به روز شد.",
             "why_not_modal": {
-                "title": ""
+                "title": "چرا به روز نمی شود"
             }
         }
     }
