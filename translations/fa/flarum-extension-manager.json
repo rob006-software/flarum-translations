@@ -20,26 +20,26 @@
                 },
                 "no_auth_methods_configured": "هیچ روش احراز هویت پیکربندی نشده است. این یک ویژگی پیشرفته اختیاری است که امکان نصب از مخازن خصوصی را فراهم می کند.",
                 "remove_button_label": "حذف روش اهراز حویت",
-                "title": "",
+                "title": "روش های احراز هویت",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "احراز هویت گیت هاب",
+                    "gitlab-oauth": "احراز هویت گیت لب",
+                    "gitlab-token": "توکن گیت لب",
+                    "bearer": "حامل HTTP"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "افزودن مخزن",
+                "delete_repository_confirmation": "آیا مطمئن هستید که می خواهید این مخزن را حذف کنید؟ تمام افزونه های نصب شده از این مخزن حذف خواهند شد.",
+                "delete_repository_label": "حذف مخزن",
+                "edit_repository_label": "ویرایش مخزن",
+                "title": "کامپوزر",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "حداقل پایداری",
+                    "help": "نوع پکیج های مجاز برای نصب. این را تغییر ندهید مگر اینکه بدانید دارید چه کار می کنید.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
+                        "stable": "پایدار (توصیه می شود)",
+                        "rc": "کاندید را آزاد کنید",
                         "beta": "بتا",
                         "alpha": "آلفا",
                         "dev": "توسعه دهنده"
