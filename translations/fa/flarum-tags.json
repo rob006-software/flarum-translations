@@ -64,7 +64,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "انتخاب تگ"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "ویرایش تگ‌ها"
@@ -91,7 +91,7 @@
             "deleted_tag_text": "حذف شده",
             "tag_selection_modal": {
                 "bypass_requirements": "بدون درج برچسب",
-                "choose_primary_placeholder": "",
+                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -100,7 +100,7 @@
         },
         "ref": {
             "choose_tags": "انتخاب برچسب ها",
-            "choose_tags_placeholder": "",
+            "choose_tags_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
             "name": "نام",
             "tags": "تگ‌ها",
             "create_tag": "ساخت تگ"
