@@ -18,6 +18,12 @@
             "historyDiscussionCreated": "Прибавилось баллов репутации за открытие дискуссии.",
             "historyDiscussionClosed": "Убавилось баллов репутации за закрытие вашей ветки обсуждения.",
             "historyFlagCreated": "",
+            "permission": {
+                "canEarnReputationForDiscussion": "",
+                "canEarnReputationForPost": "",
+                "canEarnReputationForLikes": "",
+                "canPostWithReputation": ""
+            },
             "settings": {
                 "maxPoints": "Максимум баллов репутации",
                 "maxPointsHelp": "Ведите максимальное значение счетчика баллов репутации, напр. \"1000\"",
@@ -31,6 +37,8 @@
                 "postPointsHelp": "Введите, сколько баллов получит пользователь за создание нового сообщения (баллы равны длине сообщения, умноженной на этот коэффициент)",
                 "flagPoints": "",
                 "flagPointsHelp": "",
+                "minReputationThreshold": "",
+                "minReputationThresholdHelp": "",
                 "postRewardThreshold": "",
                 "postRewardThresholdHelp": "",
                 "discussionRewardThreshold": "",

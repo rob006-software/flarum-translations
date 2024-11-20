@@ -18,6 +18,12 @@
             "historyDiscussionCreated": "Reputation points increased for starting a discussion.",
             "historyDiscussionClosed": "Reputation points decreased because your thread was closed.",
             "historyFlagCreated": "Increased reputation points for reporting a user.",
+            "permission": {
+                "canEarnReputationForDiscussion": "Can earn reputation points for creating a discussion",
+                "canEarnReputationForPost": "Can earn reputation points for creating a post",
+                "canEarnReputationForLikes": "Can earn reputation points for giving likes",
+                "canPostWithReputation": "Access with minimum reputation points"
+            },
             "settings": {
                 "maxPoints": "Maximum reputation points",
                 "maxPointsHelp": "Insert the number of the maximum allowed reputation points, e.g. \"1000\"",
@@ -31,6 +37,8 @@
                 "postPointsHelp": "Insert the number of point that a user earn for creating a new post (points are multiplied based on the post length)",
                 "flagPoints": "Points for report post",
                 "flagPointsHelp": "Insert the number of points that a user earn for reporting posts",
+                "minReputationThreshold": "Minimum Reputation points to create or participate to a thread",
+                "minReputationThresholdHelp": "Minimum reputation points to allow the user to post or create new threads",
                 "postRewardThreshold": "Post count reward threshold",
                 "postRewardThresholdHelp": "<p>Write the minimum post count to reward an user with a medal.</p>\n<span>\n  Each users can earn 3 reward based on a post count, if you\n  set for example \"50\", the internal multiplier (x1, x3, x8) will assign the reward\n  for \"50\", \"150\" and \"400\" posts (bronze, silver and gold respectively).\n</span>\n",
                 "discussionRewardThreshold": "Discussions count reward threshold",

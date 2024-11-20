@@ -18,6 +18,12 @@
             "historyDiscussionCreated": "Poin reputasi meningkat karena memulai diskusi.",
             "historyDiscussionClosed": "Poin reputasi menurun karena thread Anda ditutup.",
             "historyFlagCreated": "Poin reputasi meningkat karena telah melaporkan pengguna.",
+            "permission": {
+                "canEarnReputationForDiscussion": "",
+                "canEarnReputationForPost": "",
+                "canEarnReputationForLikes": "",
+                "canPostWithReputation": ""
+            },
             "settings": {
                 "maxPoints": "Poin reputasi maksimum",
                 "maxPointsHelp": "Masukkan jumlah poin reputasi maksimum yang diperbolehkan, misalnya “1000”",
@@ -31,6 +37,8 @@
                 "postPointsHelp": "Masukkan jumlah poin yang diperoleh pengguna saat membuat postingan baru (poin dikalikan berdasarkan panjang postingan)",
                 "flagPoints": "Poin untuk pelaporan postingan",
                 "flagPointsHelp": "Masukkan jumlah poin yang diperoleh pengguna saat melaporkan postingan",
+                "minReputationThreshold": "",
+                "minReputationThresholdHelp": "",
                 "postRewardThreshold": "Ambang batas reward jumlah post",
                 "postRewardThresholdHelp": "<p>Tuliskan jumlah post minimum untuk memberi reward kepada pengguna dengan medali.</p>\n<span>\n  Setiap pengguna bisa mendapatkan 3 reward berdasarkan jumlah postingan, jika Anda\n  menetapkan misalnya “50”, pengali internal (x1, x3, x8) akan memberikan reward tersebut\n  untuk postingan “50”, “150”, dan “400” (perunggu, perak, dan emas).\n</span>\n",
                 "discussionRewardThreshold": "Ambang batas reward jumlah diskusi",

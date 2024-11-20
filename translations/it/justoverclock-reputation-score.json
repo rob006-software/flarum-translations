@@ -18,6 +18,12 @@
             "historyDiscussionCreated": "Punti reputazione aumentati per aver creato una discussione.",
             "historyDiscussionClosed": "Punti reputazione diminuiti per discussione chiusa.",
             "historyFlagCreated": "Punti reputazione aumentati per aver segnalato qualcosa di scorretto.",
+            "permission": {
+                "canEarnReputationForDiscussion": "",
+                "canEarnReputationForPost": "",
+                "canEarnReputationForLikes": "",
+                "canPostWithReputation": ""
+            },
             "settings": {
                 "maxPoints": "Punti reputazione massimi",
                 "maxPointsHelp": "Inserisci il numero massimo di punti reputazione raggiungibili, esempio: 1000",
@@ -31,6 +37,8 @@
                 "postPointsHelp": "Inserisci il numero di punti da assegnare per la creazione di un nuovo post (i punti vengono moltiplicati in base alla lunghezza dello stesso)",
                 "flagPoints": "Punti assegnati per post/utente segnalato",
                 "flagPointsHelp": "Inserisci il numero di punti da assegnare ad un utente che segnala qualcosa di scorretto",
+                "minReputationThreshold": "",
+                "minReputationThresholdHelp": "",
                 "postRewardThreshold": "Soglia ricompensa Post",
                 "postRewardThresholdHelp": "<p>Scrivi il numero minimo di post per premiare un utente con una medaglia.</p>\n<span>\nOgni utente può guadagnare 3 ricompense in base al numero di post, se\nimposti ad esempio \"50\", il moltiplicatore interno (x1, x3, x8) assegnerà la ricompensa\nper \"50\", \"150\" e \"400\" post (rispettivamente bronzo, argento e oro).\n</span>\n",
                 "discussionRewardThreshold": "Soglia ricompensa discussioni",
