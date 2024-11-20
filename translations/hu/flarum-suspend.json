@@ -46,6 +46,11 @@
                 "subject": "A fiókja felfüggesztését visszavonták",
                 "body": "Kedves {recipient_display_name}!\n\nA felfüggesztését visszavonták. A következő hivatkozással visszatérhet a fórumra:\n\n{forum_url}\n"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": ""
+            }
         }
     }
 }

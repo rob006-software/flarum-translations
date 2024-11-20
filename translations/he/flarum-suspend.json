@@ -46,6 +46,11 @@
                 "subject": "בוטלה השעיית חשבונך",
                 "body": "שלום {recipient_display_name},\n\nהשעית חשבונך מהפורום בוטלה. באפשרותך לחזור לפורום על ידי הקישור הזה:\n\n{forum_url}\n"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": ""
+            }
         }
     }
 }

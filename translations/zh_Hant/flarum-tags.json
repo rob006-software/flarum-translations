@@ -43,6 +43,7 @@
                 "about_tags_text": "標籤用於分類貼文。主標籤類似於傳統論壇的板塊；次標籤無層級或順序，可作為子分類。拖動標籤即可排序或調整層級位置。",
                 "create_primary_tag_button": "新建主標籤",
                 "create_secondary_tag_button": "新建次標籤",
+                "edit_tag_label": "",
                 "primary_heading": "主標籤",
                 "secondary_heading": "次標籤",
                 "settings_heading": "設置"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "{count, plural, one {再選擇 1 個標籤} other {再選擇 # 個標籤}}",
             "name": "標籤名稱",
             "tags": "標籤"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

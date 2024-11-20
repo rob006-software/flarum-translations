@@ -46,6 +46,11 @@
                 "subject": "Sua conta não está mais suspensa",
                 "body": "Obter {nome de exibição do destinatário},\n\nVocê não está mais suspenso. Você pode voltar ao fórum clicando no link a seguir:\n\n{url do fórum}\n"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": ""
+            }
         }
     }
 }

@@ -43,6 +43,7 @@
                 "about_tags_text": "タグはスレッドを分類するために使用されます。プライマリタグは、従来のフォーラムにおけるカテゴリのようなもので、2つの階層に配置できます。セカンダリタグには階層や順番がなく、細分化に役立ちます。",
                 "create_primary_tag_button": "プライマリタグの作成",
                 "create_secondary_tag_button": "セカンダリタグの作成",
+                "edit_tag_label": "",
                 "primary_heading": "プライマリタグ",
                 "secondary_heading": "セカンダリタグ",
                 "settings_heading": "設定"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "{count, plural, one {1個以上のタグを選択} other {#個以上のタグを選択}}",
             "name": "名前",
             "tags": "タグ"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

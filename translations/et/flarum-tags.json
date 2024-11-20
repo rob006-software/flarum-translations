@@ -43,6 +43,7 @@
                 "about_tags_text": "Silte kasutatakse teemade organiseerimiseks. Põhisildid on nagu tavalised foorumi kategooriad: neid saab panna kahetasemelises hierarhias. Teisejärgulistel siltidel pole hierarhiat ega järjekorda ning neid saab kasutada alamkategoriseerimiseks.",
                 "create_primary_tag_button": "Loo uus põhisilt",
                 "create_secondary_tag_button": "Loo uus teisejärguline silt",
+                "edit_tag_label": "",
                 "primary_heading": "Põhisildid",
                 "secondary_heading": "Teisejärgulised sildid",
                 "settings_heading": "Seaded"
@@ -100,6 +101,17 @@
             "choose_tags_placeholder": "",
             "name": "Nimi",
             "tags": "Sildid"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

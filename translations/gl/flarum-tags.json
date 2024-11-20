@@ -43,6 +43,7 @@
                 "about_tags_text": "As etiquetas úsanse para categorizar conversas. As etiquetas primarias son como as tradicionais categorías dos foros: solo se poden organizar en xerarquías de dous niveis. As etiquetas secundarias non teñen xerarquía e usanse para micro-categorización.",
                 "create_primary_tag_button": "",
                 "create_secondary_tag_button": "",
+                "edit_tag_label": "",
                 "primary_heading": "Etiquetas primarias",
                 "secondary_heading": "Etiquetas secundarias",
                 "settings_heading": ""
@@ -98,6 +99,17 @@
             "choose_tags_placeholder": "",
             "name": "Nome",
             "tags": "Etiquetas"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

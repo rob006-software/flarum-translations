@@ -46,6 +46,11 @@
                 "subject": "Tilisi jäädytys on poistettu",
                 "body": "Hei {recipient_display_name},\n\nTilisi jäädytys on poistettu. Voitte palata foorumille seuraavan linkin kautta:\n\n{forum_url}\n"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": ""
+            }
         }
     }
 }

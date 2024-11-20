@@ -43,6 +43,7 @@
                 "about_tags_text": "تُستخدَم العلامات لتصنيف المناقشات. العلامات الأساسيّة مثل فئات المنتدى التقليدية: يمكن ترتيبها في تسلسل هرمي من مستويين. لا تحتوي العلامات الثّانوية على تسلسل هرمي أو ترتيب، وهي مفيدة في التّصنيف الجزئيّ.",
                 "create_primary_tag_button": "إنشاء علامة أساسيّة",
                 "create_secondary_tag_button": "إنشاء علامة ثانويّة",
+                "edit_tag_label": "",
                 "primary_heading": "العلامات الأساسيّة",
                 "secondary_heading": "العلامات الثّانويّة",
                 "settings_heading": "الإعدادات"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "",
             "name": "الاسم",
             "tags": "العلامات"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

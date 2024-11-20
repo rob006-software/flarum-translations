@@ -43,6 +43,7 @@
                 "about_tags_text": "Etiketak eztabaidak ordenatzeko balio dute. Lehenengo kategoriak foru guztiak bezala dira: bi mailako hierarkian ordena daitezke. Bigarren mailakoak ez dute azpi hierarkiarik, azpi-ordenazio bat egiteko erabili daitezke.",
                 "create_primary_tag_button": "",
                 "create_secondary_tag_button": "",
+                "edit_tag_label": "",
                 "primary_heading": "Lehenengo mailako kategoriak",
                 "secondary_heading": "Bigarren mailako kategoriak",
                 "settings_heading": ""
@@ -98,6 +99,17 @@
             "choose_tags_placeholder": "",
             "name": "Izena",
             "tags": "Kategoriak"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

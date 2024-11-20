@@ -43,6 +43,7 @@
                 "about_tags_text": "Taggar används för att kategorisera trådar. Primära taggar är som traditionella forumkategorier: De de kan placeras i en tvåstegshierarki. Sekundära taggar har ingen hierarki eller ordning och är användbara för mikrokategorisering.",
                 "create_primary_tag_button": "",
                 "create_secondary_tag_button": "",
+                "edit_tag_label": "",
                 "primary_heading": "Primära taggar",
                 "secondary_heading": "Sekundära taggar",
                 "settings_heading": "",
@@ -103,6 +104,17 @@
             "name": "Namn",
             "tags": "Taggar",
             "create_tag": "Skapa tagg"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

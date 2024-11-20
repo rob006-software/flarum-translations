@@ -43,6 +43,7 @@
                 "about_tags_text": "Oznake se koriste za ustrojavanje rasprava. Glavne oznake su nalik tradicionalnim kategorijama foruma: mogu se urediti u dvorazinsku hijerarhiju. Sporedne oznake nemaju ni hijerarhiju, ni redoslijed, i korisne su za mikro-ustroj.",
                 "create_primary_tag_button": "Stvori glavnu oznaku",
                 "create_secondary_tag_button": "Stvori sporednu oznaku",
+                "edit_tag_label": "",
                 "primary_heading": "Glavne oznake",
                 "secondary_heading": "Sporedne oznake",
                 "settings_heading": "Postavke"
@@ -97,6 +98,17 @@
             "choose_tags_placeholder": "",
             "name": "Naziv",
             "tags": "Oznake"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

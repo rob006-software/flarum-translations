@@ -43,6 +43,7 @@
                 "about_tags_text": "Oznake se uporabljajo za kategorizacijo razprav. Primarne oznake so podobne tradicionalnim kategorijam foruma: lahko so urejene v dvonivojski hierarhiji. Sekundarne oznake nimajo hierarhije ali vrstnega reda in so uporabne za mikrokategorizacijo.",
                 "create_primary_tag_button": "Ustvari primarno oznako",
                 "create_secondary_tag_button": "Ustvari sekundarno oznako",
+                "edit_tag_label": "",
                 "primary_heading": "Primarne oznake",
                 "secondary_heading": "Sekundarne oznake",
                 "settings_heading": "Nastavitve"
@@ -97,6 +98,17 @@
             "choose_tags_placeholder": "{count, plural, one {Izberi še 1 oznako} other {Izberi še # oznak}}",
             "name": "Ime",
             "tags": "Oznake"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

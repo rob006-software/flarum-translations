@@ -46,6 +46,11 @@
                 "subject": "Suspendarea contului Dvs. a fost anulată",
                 "body": "Salut {recipient_display_name},\n\nSuspendarea Dvs. a fost anulată. Vă puteți întoarce pe forum accesând următorul link:\n\n{forum_url}"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": ""
+            }
         }
     }
 }

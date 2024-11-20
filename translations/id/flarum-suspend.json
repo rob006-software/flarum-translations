@@ -46,6 +46,11 @@
                 "subject": "Akun Anda telah dihentikan penangguhannya",
                 "body": "Halo {recipient_display_name},\n\nAnda telah dihentikan penangguhannya. Anda dapat kembali ke forum dengan mengklik link berikut:\n\n{forum_url}\n"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": ""
+            }
         }
     }
 }

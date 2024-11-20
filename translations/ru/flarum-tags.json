@@ -43,6 +43,7 @@
                 "about_tags_text": "Теги используются для структурирования дискуссий. Основные теги подобны традиционным категориям форумов и представляют собой двухуровневую иерархию. Дополнительные теги не имеют иерархии и могут быть полезны для структурирования дискуссий на микро-уровне.",
                 "create_primary_tag_button": "Создать основной",
                 "create_secondary_tag_button": "Создать дополнительный",
+                "edit_tag_label": "",
                 "primary_heading": "Основные",
                 "secondary_heading": "Дополнительные",
                 "settings_heading": "Настройки"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "{count, plural, one {Укажите ещё 1 тег} few {Укажите ещё # тега} other {Укажите ещё # тегов}}",
             "name": "Название",
             "tags": "Теги"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

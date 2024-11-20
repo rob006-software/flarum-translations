@@ -43,6 +43,7 @@
                 "about_tags_text": "Teglar muhokamalarni turkumlashtirish uchun ishlatiladi. Birlamchi teglar an'anaviy forum toifalariga o'xshaydi: ular ikki darajali ierarxiyada tartibga solinishi mumkin. Ikkilamchi teglar ierarxiya yoki tartibga ega emas va mikro-toifalash uchun foydalidir.",
                 "create_primary_tag_button": "Asosiy teg yaratish",
                 "create_secondary_tag_button": "Ikkilamchi teg yarating",
+                "edit_tag_label": "",
                 "primary_heading": "Asosiy teglar",
                 "secondary_heading": "Ikkilamchi teglar",
                 "settings_heading": "Sozlamalar"
@@ -100,6 +101,17 @@
             "choose_tags_placeholder": "",
             "name": "Nomi",
             "tags": "Teglar"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }
