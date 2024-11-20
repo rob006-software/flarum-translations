@@ -519,7 +519,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/mentions/v1.8.5/locale/en.yml',
 	],
 	'flarum-nicknames' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/nicknames/v1.8.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/nicknames/v1.8.2/locale/en.yml',
 	],
 	'flarum-pusher' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/pusher/v1.8.1/locale/en.yml',
