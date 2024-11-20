@@ -516,7 +516,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/markdown/v1.8.1/locale/en.yml',
 	],
 	'flarum-mentions' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/mentions/v1.8.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/mentions/v1.8.5/locale/en.yml',
 	],
 	'flarum-nicknames' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/nicknames/v1.8.1/locale/en.yml',
