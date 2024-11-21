@@ -917,6 +917,9 @@ return [
 	'justoverclock-flachat' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flachat/0.1.2/locale/en.yml',
 	],
+	'justoverclock-flachievements' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flachievements/1.1.0/locale/en.yml',
+	],
 	'justoverclock-frontend-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-frontend-blog.yml',
 	],
