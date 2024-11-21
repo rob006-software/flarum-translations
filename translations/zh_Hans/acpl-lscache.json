@@ -14,6 +14,8 @@
             "cache_exclude_help": "指定禁止缓存的页面路由，一行一个。例如 <code>mypage?aa=</code> 可以禁止缓存 <code>/mypath/mypage?aa=bb</code> 页面。要匹配字符串开头，请以 <code>^</code> 作为前缀。要进行完全匹配，请以 <code>$</code> 作为后缀。",
             "drop_qs_label": "删除查询参数",
             "drop_qs_help": "指定进行缓存匹配时要去除的查询参数字符串，一行一个。可防止对带有 UTM 代码等无用查询参数的页面进行冗余缓存，例如 <code>fbclid</code> 或者 <code>utm*</code>，这些查询参数仅用于跟踪，与页面内容无关。此功能需要 LSWS v5.2.3 或更高版本。<a>关于删除查询参数</a>。<br></br>\n⚠️ 此设置会修改 .htaccess 文件。\n",
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
             "purge_all": "清除全部 LSCache",
             "purge_all_success": "已通知 LiteSpeed Web 服务器清除所有 LSCache 内容"
         }

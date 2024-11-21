@@ -14,6 +14,8 @@
             "cache_exclude_help": "Les chemins d'accès contenant ces chaînes ne seront pas mis en cache. Par exemple, pour <code>/monchemin/mapage?aa=bb</code>, vous pouvez utiliser <code>mapage?aa=</code>. Pour faire correspondre le début, ajoutez <code>^</code> au début de l'élément. Pour faire une correspondance exacte, ajoutez <code>$</code> à la fin de l'URL. Un par ligne.",
             "drop_qs_label": "Abandonner les chaînes de requête",
             "drop_qs_help": "Cette fonction permet d'exclure des chaînes de requête spécifiques, telles que <code>fbclid</code> ou <code>utm*</code>, lors de la mise en cache. Cela permet d'éviter la mise en cache redondante de pages contenant des chaînes de requête « inutiles », telles que les codes UTM, qui sont utilisés pour le suivi mais n'affectent pas le contenu de la page. Cette option nécessite que LSWS v5.2.3 ou une version plus récente soit installé. Dressez la liste des chaînes de requête à supprimer, une par ligne. <a>En savoir plus sur l'abandon des chaînes de requête</a>.<br></br>\n⚠️ Ce paramètre modifie le fichier .htaccess.\n",
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
             "purge_all": "Purger tous les LSCache",
             "purge_all_success": "Le serveur internet LiteSpeed a été notifié pour purger toutes les entrées LSCache"
         }

@@ -14,6 +14,8 @@
             "cache_exclude_help": "Az ezeket a karakterláncokat tartalmazó elérési utak nem lesznek gyorsítótárazva. Például az <code>/mypath/mypage?aa=bb</code> címhez használható a <code>mypage?aa=</code>. Az elejéhez illesztéshez adjon egy <code>^</code> karaktert az elem elé. A pontos egyezéshez adja a <code>$</code> karaktert a webcím végéhez. Soronként egyet adjon meg.",
             "drop_qs_label": "",
             "drop_qs_help": "",
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
             "purge_all": "Az összes LSCache tisztítása",
             "purge_all_success": "A LiteSpeed webkiszolgáló értesítve, hogy tisztítsa ki az LSCache összes bejegyzését"
         }

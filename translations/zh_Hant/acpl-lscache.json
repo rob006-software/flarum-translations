@@ -14,6 +14,8 @@
             "cache_exclude_help": "一行一個關鍵詞，匹配的路徑將不會被緩存。如不想緩存 <code>/mypath/mypage?aa=bb</code>，可以使用 <code>mypage?aa=</code> 匹配。要匹配字串開頭，請以 <code>^</code> 作為前綴。要進行完全匹配，請以 <code>$</code> 作為 URL 後綴。",
             "drop_qs_label": "刪除查詢字串",
             "drop_qs_help": "使用此功能可以在緩存時刪除特定的查詢字串，例如 <code>fbclid</code> 或 <code>utm*</code>。 這可以防止對帶有「垃圾」查詢字串（例如 UTM 代碼）的頁面進行冗餘緩存，這些字串用於追蹤但不會影響頁面內容。 這需要 LSWS v5.2.3 或更新版本。 列出要刪除的查詢字串，每行一個。 <a>了解有關刪除查詢字串的更多資訊</a>。<br></br>\n⚠️ 此設置將修改 .htaccess 檔案。\n",
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
             "purge_all": "清除全部 LSCache",
             "purge_all_success": "通知 LiteSpeed Web 伺服器清除所有 LSCache"
         }

@@ -14,6 +14,8 @@
             "cache_exclude_help": "I percorsi contenenti queste stringhe non verranno memorizzati nella cache. Ad esempio, per <code>/mypath/mypage?aa=bb</code>, è possibile utilizzare <code>mypage?aa=</code> qui. Per abbinare l'inizio, aggiungi <code>^</code> all'inizio dell'elemento. Per ottenere una corrispondenza esatta, aggiungi <code>$</code> alla fine dell'URL. Uno per riga.",
             "drop_qs_label": "",
             "drop_qs_help": "",
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
             "purge_all": "Elimina tutto da LSCache",
             "purge_all_success": "Server Web LiteSpeed notificato per eliminazione voci LSCache"
         }
