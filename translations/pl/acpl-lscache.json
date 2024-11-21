@@ -8,14 +8,14 @@
             "clearing_cache_listener_label": "Czyść LSCache, kiedy cache Flarum jest czyszczony",
             "serve_stale_label": "Serwuj nieaktualną treść",
             "serve_stale_help": "Jeśli opcja jest włączona, odwiedzającym będzie serwowana przestarzała wersja strony z cache, do momentu wygenerowania świeżej kopii. Dzięki temu zmniejsza się obciążenie serwera. Jeżeli opcja jest wyłączona, strona będzie generowana dynamicznie podczas aktualizacji cache, co może zwiększyć czas oczekiwania. Ta opcja może serwować nieaktualną zawartość - jeżeli uznasz to za nieakceptowalne, nie włączaj jej.",
-            "purge_on_discussion_update_label": "Czyść adresy URL lub Tagi przy aktualizacji dyskusji lub wpisu",
-            "purge_on_discussion_update_help": "Wpisz adresy URL lub Tagi, które chcesz wyczyścić, gdy dyskusja lub wpis jest aktualizowany. Podaj jeden na linię. Adres URL powinien zaczynać się od <code>/</code>, np. <code>/rankings</code>, a Tag cache powinien zaczynać się od <code>tag=</code>, np. <code>tag=rankings</code>. Dla wielu ścieżek dodanie reguły w .htaccess z wyrażeniem regularnym, które taguje ścieżki, i wprowadzenie tylko tego tagu tutaj, jest szybsze. <a>Dowiedz się więcej</a>. Domyślnie cache dla strony głównej i zaktualizowanych dyskusji jest czyszczony.",
+            "purge_on_discussion_update_label": "Czyść adresy URL lub Tagi cache przy aktualizacji dyskusji",
+            "purge_on_discussion_update_help": "Wpisz adresy URL lub Tagi cache, które chcesz wyczyścić, gdy dyskusja jest aktualizowana. Podaj jeden na linię. Adres URL powinien zaczynać się od <code>/</code>, np. <code>/rankings</code>, a Tag cache powinien zaczynać się od <code>tag=</code>, np. <code>tag=rankings</code>. Dla wielu ścieżek dodanie reguły w .htaccess z wyrażeniem regularnym, które taguje ścieżki, i wprowadzenie tylko tego tagu tutaj, jest szybsze. <a>Dowiedz się więcej</a>. Domyślnie cache dla strony głównej i zaktualizowanych dyskusji jest czyszczony.",
             "cache_exclude_label": "Wyklucz ścieżki z cache",
             "cache_exclude_help": "Ścieżki zawierające te fragmenty nie będą przechowywane w cache. Dla <code>/mypath/mypage?aa=bb</code>, możesz użyć <code>mypage?aa=</code>. Aby dopasować początek, dodaj <code>^</code> na początku. Dla dokładnego dopasowania, dodaj <code>$</code> na końcu URL. Po jednej na linię.",
             "drop_qs_label": "Pomiń ciągi zapytań",
             "drop_qs_help": "Użyj tej funkcji do pominięcia konkretnych ciągów zapytań, takich jak <code>fbclid</code> lub <code>utm*</code>, podczas generowania cache. Dzięki temu unikniesz nadmiernego tworzenia cache dla stron z \"śmieciowymi\" ciągami zapytań, takimi jak kody UTM, które służą do śledzenia, ale nie wpływają na zawartość strony. Funkcja ta wymaga LSWS w wersji 5.2.3 lub nowszej. Wpisz ciągi zapytań do pominięcia, po jednym na linię. <a>Dowiedz się więcej o pomijaniu ciągów zapytań</a>.<br></br>\n⚠️ Ta opcja modyfikuje plik .htaccess.\n",
-            "status_codes_cache_label": "",
-            "status_codes_cache_help": "",
+            "status_codes_cache_label": "Domyślny czas życia strony z kodem statusu HTTP",
+            "status_codes_cache_help": "Podaj kod odpowiedzi HTTP i liczbę sekund przechowywania strony w cache, oddzielone spacją. Po jednym na linię.",
             "purge_all": "Wyczyść cały LSCache",
             "purge_all_success": "Serwer LiteSpeed został poinformowany o konieczności wyczyszczenia całego LSCache"
         }
