@@ -146,6 +146,9 @@ return [
 	'blomstra-sort-order-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-sort-order-toggle/0.2.0/locale/en.yml',
 	],
+	'blomstra-syndication' => [
+		'tag' => 'https://raw.githubusercontent.com/blomstra/syndication/1.4.1/resources/locale/en.yml',
+	],
 	'blomstra-trello' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-trello/0.3.2/locale/en.yml',
 	],
