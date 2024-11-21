@@ -19,10 +19,10 @@
             "historyDiscussionClosed": "Poin reputasi menurun karena thread Anda ditutup.",
             "historyFlagCreated": "Poin reputasi meningkat karena telah melaporkan pengguna.",
             "permission": {
-                "canEarnReputationForDiscussion": "",
-                "canEarnReputationForPost": "",
-                "canEarnReputationForLikes": "",
-                "canPostWithReputation": ""
+                "canEarnReputationForDiscussion": "Dapat memperoleh poin reputasi dengan membuat diskusi",
+                "canEarnReputationForPost": "Dapat memperoleh poin reputasi dengan membuat post",
+                "canEarnReputationForLikes": "Dapat memperoleh poin reputasi dengan memberi suka (like)",
+                "canPostWithReputation": "Akses dengan poin reputasi minimum"
             },
             "settings": {
                 "maxPoints": "Poin reputasi maksimum",
@@ -37,8 +37,8 @@
                 "postPointsHelp": "Masukkan jumlah poin yang diperoleh pengguna saat membuat postingan baru (poin dikalikan berdasarkan panjang postingan)",
                 "flagPoints": "Poin untuk pelaporan postingan",
                 "flagPointsHelp": "Masukkan jumlah poin yang diperoleh pengguna saat melaporkan postingan",
-                "minReputationThreshold": "",
-                "minReputationThresholdHelp": "",
+                "minReputationThreshold": "Poin Reputasi Minimum untuk membuat atau berpartisipasi dalam thread",
+                "minReputationThresholdHelp": "Poin reputasi minimum untuk memungkinkan pengguna memposting atau membuat thread baru",
                 "postRewardThreshold": "Ambang batas reward jumlah post",
                 "postRewardThresholdHelp": "<p>Tuliskan jumlah post minimum untuk memberi reward kepada pengguna dengan medali.</p>\n<span>\n  Setiap pengguna bisa mendapatkan 3 reward berdasarkan jumlah postingan, jika Anda\n  menetapkan misalnya “50”, pengali internal (x1, x3, x8) akan memberikan reward tersebut\n  untuk postingan “50”, “150”, dan “400” (perunggu, perak, dan emas).\n</span>\n",
                 "discussionRewardThreshold": "Ambang batas reward jumlah diskusi",
