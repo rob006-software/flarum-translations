@@ -43,7 +43,7 @@
                 "about_tags_text": "Tag digunakan untuk mengkategorikan diskusi. Tag primer seperti kategori forum tradisional: mereka dapat diatur dalam hirarki dua tingkat. Tag sekunder tidak memiliki hirarki, dan berguna untuk mikro-kategorisasi.",
                 "create_primary_tag_button": "Membuat Tag Primer",
                 "create_secondary_tag_button": "Membuat Tag Sekunder",
-                "edit_tag_label": "",
+                "edit_tag_label": "Edit Tag {tag}",
                 "primary_heading": "Tag Primer",
                 "secondary_heading": "Tag Sekunder",
                 "settings_heading": "Pengaturan"
@@ -106,8 +106,8 @@
                 "is_hidden": "",
                 "description": "",
                 "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
+                "tag_count_primary": "=> validation.attributes.tag_count_primary",
+                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
             }
         }
     }
