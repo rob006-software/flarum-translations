@@ -2,8 +2,8 @@
     "askvortsov-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "Aplikasi Web Progresif",
-                "pwa_text": "Konfigurasikan Flarum untuk berjalan sebagai Aplikasi Web Progresif, yang dapat diinstal di perangkat seluler."
+                "pwa_button": "Progressive Web App",
+                "pwa_text": "Konfigurasikan Flarum untuk berjalan sebagai Progressive Web App, yang dapat diinstal di perangkat seluler."
             },
             "pwa": {
                 "about": {
@@ -47,18 +47,18 @@
                     "window_controls_overlay_label": "Aktifkan Window Controls Overlay?",
                     "window_controls_overlay_text": "Jika true, pengguna akan mendapatkan pengalaman yang lebih mendalam, seperti pengalaman asli dengan menyembunyikan native titlebar. Window Controls Overlay diaktifkan atau tidak tergantung pada preferensi pengguna dan kompatibilitas browser. Anda harus menyesuaikan titlebar dengan menambahkan beberapa CSS/JS setelah diaktifkan, atau kontrol akan melapisi beberapa elemen navbar atas forum Anda dan window hampir tidak dapat ditarik, sehingga menghasilkan pengalaman yang buruk.\n\nLihat juga: <compatibilitylink>The compatibility of Window Controls Overlay</compatibilitylink> & <learnlink>About Window Controls Overlay in Microsoft Learn</learnlink>\n"
                 },
-                "heading": "Pengaturan Aplikasi Web Progresif",
-                "text": "Siapkan situs Flarum Anda untuk berjalan sebagai aplikasi web progresif! Harap dicatat bahwa ini tidak secara otomatis menempatkan situs Anda di toko aplikasi. Sebaliknya, ini berarti pengguna memiliki opsi 'Tambahkan ke Layar Utama' untuk situs Anda. Kami menyediakan beberapa pemeriksaan status, namun, cara terbaik untuk mengujinya adalah dengan mencoba dan menginstalnya (cari di google untuk petunjuk tentang cara menginstal aplikasi web progresif). Selain itu, harap diingat bahwa popup 'pasang PWA ini' dikontrol oleh browser, dan tidak dapat dipicu oleh pengembang/admin/program. Saya menyarankan untuk menyertakan petunjuk cara memasang PWA dalam dokumentasi situs Anda.",
+                "heading": "Pengaturan Progressive Web App",
+                "text": "Konfigurasikan situs Flarum Anda untuk berjalan sebagai progressive web app! Harap dicatat bahwa ini tidak secara otomatis menempatkan situs Anda di app store. Sebaliknya, ini berarti bahwa pengguna memiliki opsi 'Tambahkan ke Layar Beranda' untuk situs Anda. Kami menyediakan beberapa pemeriksaan status, namun, cara terbaik untuk mengujinya adalah dengan mencoba dan menginstalnya (cari di google untuk petunjuk tentang cara menginstal progressive web app). Selain itu, harap diingat bahwa popup 'install PWA ini' dikontrol oleh browser, dan tidak dapat dipicu oleh developer/admin/program. Saya menyarankan untuk menyertakan petunjuk cara menginstal PWA dalam dokumentasi situs Anda.",
                 "status_check_heading": "Pemeriksaan Status",
                 "logo_heading": "Logo dan Ikon",
-                "logo_text": "Anda harus mengupload setidaknya satu logo agar aplikasi progressive web Anda dapat diinstal. Harap diperhatikan bahwa semua logo harus berbentuk persegi; jika tidak, logo akan diubah ukurannya dan mungkin melebar.\n\nAda sejumlah opsi ukuran yang tersedia di bawah ini. Saya menyarankan untuk mencoba mengupload logo ke sebanyak mungkin perangkat yang Anda bisa: ini mendukung banyak perangkat.\n\nHarap diperhatikan bahwa Anda dapat mengupload 1 logo besar ke input untuk logo yang lebih kecil. Misalnya, Anda dapat mengupload logo berukuran 1000px x 1000px ke SEMUA input file di bawah ini. Namun, jika Anda mencoba mengupload logo 50px x 50px ke input 512x512, logo tersebut akan menjadi sangat melar.\n",
+                "logo_text": "Anda harus mengupload setidaknya satu logo agar progressive web app Anda dapat diinstal. Harap diperhatikan bahwa semua logo harus berbentuk persegi; jika tidak, logo akan diubah ukurannya dan mungkin melebar.\n\nAda sejumlah opsi ukuran yang tersedia di bawah ini. Saya menyarankan untuk mencoba mengupload logo ke sebanyak mungkin perangkat yang Anda bisa: ini mendukung banyak perangkat.\n\nHarap diperhatikan bahwa Anda dapat mengupload 1 logo besar ke input untuk logo yang lebih kecil. Misalnya, Anda dapat mengupload logo berukuran 1000px x 1000px ke SEMUA input file di bawah ini. Namun, jika Anda mencoba mengupload logo 50px x 50px ke input 512x512, logo tersebut akan menjadi sangat melar.\n",
                 "logo_size_text": "Upload logo yang akan diskalakan ke ukuran {size} piksel dengan ukuran {size} piksel.",
                 "submit_button": "Simpan Pengaturan",
                 "refreshed_message": "Konfigurasi PWA berhasil di-refresh."
             },
             "status": {
-                "config_no_https": "URL di file config.php Anda tidak menggunakan HTTPS. HTTPS diperlukan agar Aplikasi Web Progresif dapat berfungsi.",
-                "possible_https_disabled": "Situs Anda mungkin tidak berjalan pada HTTPS. Menghapus cache Anda (halaman beranda admin => tombol peralatan) mungkin bisa membantu. Jika iya, abaikan hal ini. Jika tidak, perlu diingat bahwa HTTPS diperlukan agar Aplikasi Web Progresif dapat berfungsi.",
+                "config_no_https": "URL di file config.php Anda tidak menggunakan HTTPS. HTTPS diperlukan agar Progressive Web App dapat berfungsi.",
+                "possible_https_disabled": "Situs Anda mungkin tidak berjalan pada HTTPS. Menghapus cache Anda (halaman beranda admin => tombol peralatan) mungkin bisa membantu. Jika iya, abaikan hal ini. Jika tidak, perlu diingat bahwa HTTPS diperlukan agarProgressive Web App dapat berfungsi.",
                 "no_logo": "Anda harus mengupload setidaknya satu logo, dengan ukuran minimal 144x144px, agar PWA dapat diinstal.",
                 "no_name": "Anda harus memberikan nama lengkap agar aplikasi Anda dapat berfungsi.",
                 "no_vapid_keys": "VAPID key tidak ditemukan. Ini diperlukan agar push notification dapat dikirim. Anda dapat mereset VAPID key di bawah ini.",
@@ -91,7 +91,7 @@
                     "access_default_button": "Opt In",
                     "access_denied": "Anda harus menyesuaikan pengaturan browser Anda untuk menerima push notification pada perangkat ini.",
                     "access_denied_button": "Pelajari Caranya",
-                    "no_browser_support": "Browser ini tidak mendukung push notification untuk aplikasi web progresif.",
+                    "no_browser_support": "Browser ini tidak mendukung push notification untuk progressive web app.",
                     "no_browser_support_button": "Pelajari Lebih Lanjut"
                 }
             }
