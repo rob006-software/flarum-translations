@@ -14,8 +14,8 @@
             "cache_exclude_help": "Path yang mengandung string ini tidak akan disimpan dalam cache. Untuk <code>/mypath/mypage?aa=bb</code>, Anda bisa menggunakan <code>mypage?aa=</code>. Untuk mencocokkan pada bagian awal, tambahkan <code>^</code> di bagian awal. Untuk pencocokan yang sama persis, tambahkan <code>$</code> di akhir URL. Satu per baris.",
             "drop_qs_label": "Hapus Query String",
             "drop_qs_help": "Gunakan fitur ini untuk menghapus query string tertentu, seperti <code>fbclid</code> atau <code>utm*</code>, saat melakukan penyimpanan cache. Hal ini untuk mencegah cache berlebihan pada halaman dengan query string \"sampah (junk)\" seperti kode UTM, yang digunakan untuk pelacakan namun tidak memengaruhi konten halaman. Ini membutuhkan LSWS v5.2.3 atau yang versi yang lebih baru. Buat daftar query string yang akan dihapus, satu query string per baris. <a>Pelajari lebih lanjut tentang menghapus query string</a>.<br></br>\n⚠️ Pengaturan ini akan mengubah file .htaccess.\n",
-            "status_codes_cache_label": "",
-            "status_codes_cache_help": "",
+            "status_codes_cache_label": "Kode Status HTTP Default Halaman TTL",
+            "status_codes_cache_help": "Tentukan kode status HTTP dan jumlah detik untuk menyimpan cache halaman tersebut, dipisahkan dengan spasi. Satu per baris.",
             "purge_all": "Bersihkan Semua LSCache",
             "purge_all_success": "LiteSpeed Web Server telah diberikan instruksi untuk membersihkan semua entri LSCache"
         }
