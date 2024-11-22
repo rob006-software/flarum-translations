@@ -35,9 +35,21 @@
                     "markReadCards_label": "Differentiate cards of read/unread discussions",
                     "markReadCards_help": "If activated, read discussions will have a black & white filter on their cards (image & tags), whereas unread discussions will be in full colors.",
                     "otherOptions_title": "Options requiring other extensions",
-                    "otherOptions_info": "The following options will require other extensions to be installed and activated for them to work. <strong>IMPORTANT: please read <u>all</u> the info for each individual option and do the required steps before activating it</strong>.",
+                    "otherOptions_info": "The following options will require other extensions to be installed and activated for them to work. <strong>IMPORTANT: please read <u>all</u> the info for each individual option and do the required steps before activating them</strong>.",
+                    "showViews_title_start": "With the ",
+                    "showViews_title_end": " extension installed and activated, you can set the following (1) option:",
+                    "viewsExtension_notInstalled": "{icon} This extension needs to be installed & activated for this setting to work.",
+                    "viewsExtension_notActivated": "{icon} This extension needs to be activated for this setting to work.",
                     "showViews_label": "Show views",
-                    "showViews_help": "<u>Must</u> have the <strong>Flarumite Simple Discussion Views</strong> extension installed and activated. If option enabled, shows the number of views on the cards."
+                    "showViews_help": "If option is enabled, shows the number of views on the cards.",
+                    "blogExtension_title_start": "With the ",
+                    "blogExtension_title_end": " extension installed and activated, you can set the following (2) options:",
+                    "blogExtension_notInstalled": "{icon} This extension needs to be installed & activated for this setting to work.",
+                    "blogExtension_notActivated": "{icon} This extension needs to be activated for this setting to work.",
+                    "useBlogImages_label": "Use the blog's default and featured images",
+                    "useBlogImages_help": "If option is enabled, the cards' image for every blog post will set to: the blog post's featured image; if none, to the blog's content's first found image; if none, to the blog extension's default image; if none, to the discussion cards' tag default image; if none, to the discussion cards' main default image. Note that custom settings for tags used as blog tags will of course be ignored if you chose to redirect blog tags in the Flarum Blog extension settings.",
+                    "useBlogSummary_label": "Use blog post's summary as preview text",
+                    "useBlogSummary_help": "If this option and preview text are enabled, the cards for blog posts will show the start of the blog post's summary as preview text instead of the start of the blog post's text."
                 }
             },
             "tags": {
