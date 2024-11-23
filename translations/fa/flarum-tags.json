@@ -43,7 +43,7 @@
                 "about_tags_text": "از برچسب ها برای دسته بندی بحث ها استفاده می شود. برچسب‌های اولیه مانند دسته‌های انجمن سنتی هستند: آنها را می‌توان در یک سلسله مراتب دو سطحی مرتب کرد. تگ های ثانویه سلسله مراتب یا نظم ندارند و برای طبقه بندی خرد مفید هستند.",
                 "create_primary_tag_button": "ایجاد تگ اصلی",
                 "create_secondary_tag_button": "ایجاد تگ ثانویه",
-                "edit_tag_label": "",
+                "edit_tag_label": "ویرایش برچسب {tag}",
                 "primary_heading": "برچسب های اولیه",
                 "secondary_heading": "برچسب های ثانویه",
                 "settings_heading": "تنظیمات",
@@ -108,13 +108,13 @@
         },
         "validation": {
             "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
+                "name": "نام",
+                "slug": "اسلاگ",
+                "is_hidden": "پنهان",
+                "description": "توضیحات",
+                "color": "رنگ",
+                "tag_count_primary": "=> validation.attributes.tag_count_primary",
+                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
             }
         }
     }
