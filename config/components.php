@@ -837,7 +837,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imdong/flarum-ext-visible-to-op-only/v1.0.6/locale/en.yml',
 	],
 	'irmmr-rtl' => [
-		'tag' => 'https://raw.githubusercontent.com/irmmr/flarum-ext-rtl/V0.2.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/irmmr/flarum-ext-rtl/V0.2.3/locale/en.yml',
 	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.9/locale/en.yml',
