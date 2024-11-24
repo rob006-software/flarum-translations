@@ -2,75 +2,75 @@
     "xypp-invite-user": {
         "forum": {
             "page": {
-                "title": "",
+                "title": "undangan",
                 "code": {
-                    "title": "",
-                    "code": "",
-                    "url": ""
+                    "title": "Mengundang Pengguna",
+                    "code": "Kode Undangan",
+                    "url": "URL Undangan"
                 },
                 "my": {
-                    "title": "",
-                    "code": "",
-                    "inviter": "",
-                    "accept": "",
-                    "no-inviter": ""
+                    "title": "Undangan Pengguna Saya",
+                    "code": "Masukkan Kode Undangan",
+                    "inviter": "Anda telah menerima pengguna tersebut sebagai pengundang Anda.",
+                    "accept": "Terima",
+                    "no-inviter": "Pengguna ini belum menerima undangan pengguna mana pun."
                 },
                 "invite": {
-                    "title": "",
-                    "username": "",
-                    "avatar": "",
-                    "empty": "",
-                    "time": ""
+                    "title": "Pengguna yang Diundang oleh Saya",
+                    "username": "Username",
+                    "avatar": "Avatar",
+                    "empty": "Anda belum mengundang pengguna mana pun.",
+                    "time": "Waktu Diundang"
                 },
-                "no_tip": ""
+                "no_tip": "Jangan tampilkan jendela modal pengundang untuk saya"
             },
             "confirm": {
-                "title": "",
-                "msg": "",
-                "alert": "",
-                "accept": "",
-                "success": ""
+                "title": "Konfirmasi Undangan",
+                "msg": "{username} mengundang Anda ke forum. Klik tombol di bawah ini untuk menerima pengguna ini sebagai pengguna yang mengundang Anda.",
+                "alert": "Anda hanya dapat menerima satu pengguna sebagai pengundang. Anda dapat menutup jendela ini di profil->undangan",
+                "accept": "Terima",
+                "success": "Sukses."
             },
-            "invite": "",
+            "invite": "Undangan",
             "notification": {
-                "user_invited": "",
-                "user_invited_label": ""
+                "user_invited": "{username} baru saja menerima undangan Anda.",
+                "user_invited_label": "Undangan Diterima"
             },
             "condition": {
-                "user_invite": "",
-                "user_be_invited": ""
+                "user_invite": "Mengundang Pengguna",
+                "user_be_invited": "Diundang"
             }
         },
         "admin": {
             "settings": {
                 "reward_invite": {
-                    "title": "",
-                    "description": ""
+                    "title": "Reward Undangan",
+                    "description": "Reward untuk pengundang (Membutuhkan antoinefr/flarum-ext-money)"
                 },
                 "reward_be_invited": {
-                    "title": "",
-                    "description": ""
+                    "title": "Reward Diundang",
+                    "description": "Reward untuk pengguna yang diundang (Memerlukan antoinefr/flarum-ext-money)"
                 },
                 "invite_each_other": {
-                    "title": "",
-                    "description": ""
+                    "title": "Saling Mengundang",
+                    "description": "Pengguna dapat mengundang pengguna yang mengundangnya atau tidak."
                 },
                 "invite_new_user_only": {
-                    "title": "",
-                    "description": ""
+                    "title": "Izinkan Mengundang Pengguna Baru Saja",
+                    "description": "Tidak memperbolehkan mengundang pengguna yang waktu pendaftarannya lebih lama dari dirinya."
                 }
             },
             "condition": {
-                "user_invite": "",
-                "user_be_invited": ""
+                "user_invite": "Undang Pengguna",
+                "user_be_invited": "Diundang"
             }
         },
         "api": {
-            "invited_by_user_id_is_self": "",
-            "has_already_be_invited": "",
-            "invited_by_user_id_is_empty": "",
-            "invited_each_other": "",
-            "invited_an_elder_user": ""
+            "invited_by_user_id_is_self": "Anda tidak dapat mengundang diri Anda sendiri.",
+            "has_already_be_invited": "Anda telah menerima undangan dari pengguna lain.",
+            "invited_by_user_id_is_empty": "Diundang oleh id pengguna kosong.",
+            "invited_each_other": "Anda tidak dapat diundang oleh pengguna yang Anda undang.",
+            "invited_an_elder_user": "Waktu pendaftaran pengundang lebih lama dari Anda."
         }
     }
 }
