@@ -2,56 +2,56 @@
     "shebaoting-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "initialmoney": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": "",
-                "extra_char_threshold": "",
-                "extra_char_threshold_help": "",
-                "extra_char_increment": "",
-                "extra_char_increment_help": "",
-                "extra_char_points": "",
-                "extra_char_points_help": ""
+                "title": "Pengaturan",
+                "initialmoney": "Dana Awal untuk Pengguna Baru",
+                "moneyforpost": "Dana yang diberikan untuk postingan baru",
+                "moneyfordiscussion": "Dana yang diberikan untuk diskusi baru",
+                "moneyname": "Nama money (contoh: [money] poin)",
+                "postminimumlength": "Panjang postingan minimum untuk mendapatkan dana (0 untuk menonaktifkan)",
+                "noshowzero": "Jangan tampilkan jika nilainya nol",
+                "autoremove": "Memperbarui dana secara otomatis",
+                "moneyforlike": "Dana yang diberikan ketika sebuah postingan disukai",
+                "helpextensionlikes": "Membutuhkan ekstensi <code>flarum/likes</code>",
+                "extra_char_threshold": "Ambang Batas Karakter",
+                "extra_char_threshold_help": "Jumlah karakter minimum sebelum poin ekstra diterapkan.",
+                "extra_char_increment": "Penambahan Karakter",
+                "extra_char_increment_help": "Setiap karakter X yang melampaui ambang batas akan memicu perubahan poin.",
+                "extra_char_points": "Poin per Penambahan",
+                "extra_char_points_help": "Jumlah poin yang akan ditambahkan atau dikurangi untuk setiap penambahan."
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Edit money"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Jangan pernah menghapus money",
+                "Ketika sebuah diskusi/postingan disembunyikan atau dipulihkan (default)",
+                "Ketika sebuah diskusi/postingan dihapus"
             ],
             "automoderator": {
-                "metric_name": "",
+                "metric_name": "Money",
                 "action_name": ""
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Edit money"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Dana {username}",
+                "current": "Saat ini:",
+                "submit_button": "=> core.ref.save_changes"
             },
-            "log_time": "",
-            "log_type": "",
-            "log_amount": "",
-            "log_balance": "",
-            "log_description": "",
-            "log_type_deposit": "",
-            "log_type_withdrawal": "",
-            "log_type_transfer": "",
-            "log_type_reward": "",
+            "log_time": "Waktu",
+            "log_type": "Jenis",
+            "log_amount": "Jumlah",
+            "log_balance": "Saldo",
+            "log_description": "Deskripsi",
+            "log_type_deposit": "Deposit",
+            "log_type_withdrawal": "Penarikan",
+            "log_type_transfer": "Transfer",
+            "log_type_reward": "Reward",
             "no_money_logs": "",
-            "load_more": "",
+            "load_more": "Muat lainnya",
             "logs_description": {
                 "created_discussion": "",
                 "created_reply": "",
@@ -60,15 +60,15 @@
                 "liked_by": "",
                 "unliked_post": "",
                 "unliked_by": "",
-                "initial_registration": "",
-                "admin_updated": "",
+                "initial_registration": "Menerima poin awal saat pendaftaran.",
+                "admin_updated": "Admin memperbarui poin, jumlah perubahan sebesar {amount}.",
                 "discussion_started": "",
                 "discussion_restored": "",
                 "discussion_hidden": "",
                 "discussion_deleted": "",
                 "posted_reply": "",
-                "extra_characters": "",
-                "no_permission": ""
+                "extra_characters": "Konten melebihi ambang batas sebanyak {extra_chars} karakter, {points} poin telah {action}.",
+                "no_permission": "Anda tidak memiliki izin untuk melihat catatan poin orang lain."
             },
             "logs_type": {
                 "discussion_started": "",
@@ -82,23 +82,23 @@
                 "liked": "",
                 "liked_by_others": "",
                 "admin_updated": "",
-                "registration": "",
+                "registration": "Bonus Pendaftaran",
                 "discussion_replied": ""
             },
             "point_log": {
-                "title": "",
-                "link": "",
-                "empty_text": "",
+                "title": "Catatan Perubahan Poin",
+                "link": "Catatan Poin",
+                "empty_text": "Tidak ada catatan perubahan poin yang ditemukan.",
                 "table": {
                     "headers": {
-                        "date": "",
-                        "amount": "",
-                        "balance": "",
-                        "reason": ""
+                        "date": "Tanggal",
+                        "amount": "Jumlah",
+                        "balance": "Saldo",
+                        "reason": "Alasan"
                     }
                 },
-                "load_more": "",
-                "no_permission": ""
+                "load_more": "Muat lainnya",
+                "no_permission": "Anda tidak memiliki izin untuk melihat catatan poin orang lain."
             }
         }
     }
