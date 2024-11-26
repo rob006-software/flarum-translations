@@ -1,6 +1,13 @@
 {
     "justoverclock-reputation-score": {
         "admin": {
+            "tagMinimumReputationLabel": "Minimum reputation restriction",
+            "tagMinimumReputationLabelHelp": "Define the minimum reputation points to create and reply to a thread.",
+            "resetRewardsButton": "Reset all users rewards",
+            "resetRewardsButtonHelp": "This action is irreversible! By clicking this button all the information stored inside the reward column will be erased and recalculated automatically at the first user interaction.",
+            "resetRewardDisclaimer": "This action should only be used when there are extension updates that change translations or the internal reputation point allocation logic!",
+            "resetRewardsSuccess": "All rewards erased successfully",
+            "resetRewardsError": "An error occurred after trying to reset all rewards fields",
             "oneYearSeniority": "1+ year of seniority",
             "threeYearSeniority": "3+ years of seniority",
             "fiveYearSeniority": "5+ years of seniority",
@@ -48,6 +55,7 @@
             }
         },
         "forum": {
+            "notEnoughReputationMessage": "You don't have enough reputation points to reply to this thread...",
             "emptyReputationHistory": "No history found for this user...",
             "reputation": "Reputation",
             "reputationBar": "Reputation Points",
@@ -61,6 +69,8 @@
             "reputationHistory": "Reputation History",
             "reputationHistoryPageTitle": "This timeline displays the latest 15 events that impacted your reputation.",
             "xPostsReached": "{count} reached reward!",
+            "tagReputationWarning": "To be able to reply or create threads you need to have at least {count} reputation points!",
+            "tagReputationWarningTitle": "Warning!",
             "firstLoginModalContent": "<p>\n    This forum use a dynamic reputation system to encourage positive engagement within the community.\n    As a user, you can earn reputation points by contributing meaningfully to discussions and interactions, such as:\n    <ul>\n      <li>\n        Creating new discussions: Share your thoughts and ideas with the community.\n      </li>\n      <li>\n        Replying to posts: Earn points based on the quality of your responses.\n      </li>\n      <li>\n        Reporting users: Help maintain a healthy environment by reporting inappropriate behavior.\n      </li>\n      <li>\n        Receiving likes: Show appreciation to others' posts and get rewarded in return.\n      </li>\n      <li>\n        Writing best answers: earn points by contributing answers that solve a problem and are chosen as the \"best answer\"\n      </li>\n    </ul>\n  </p>\n  <p>\n    Earn reputation points by acting positively, helping others, and contributing to the community. Your actions\n    speak louder, and with each point, you gain recognition for your efforts. Keep engaging and build your reputation!\n  </p>\n"
         }
     }
