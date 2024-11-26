@@ -170,6 +170,9 @@ return [
 	'cadiducho-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.1/resources/locale/en.yml',
 	],
+	'cc2562-gravatar' => [
+		'tag' => 'https://raw.githubusercontent.com/cc2562/gravatar/0.1/resources/locale/en.yml',
+	],
 	'cccyun-clogin-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
 	],
