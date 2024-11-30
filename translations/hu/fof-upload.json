@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "A felhasználó által feltöltött összes fájl.",
+                    "anonymize_description": "Eltávolítja a felhasználó hivatkozását a feltöltött fájlokból. A fájlok maguk továbbra is elérhetők lesznek azon felhasználók számára, akik az anonimizálás előtt láthatták azokat.",
+                    "delete_description": "Törli a felhasználó által feltöltött összes fájlt."
                 }
             }
         }
@@ -131,8 +131,8 @@
                 "text-preview_description": "A szöveges fájl előnézetének (első 5 sorának) beszúrása, amely kibontható, hogy a fájl teljes tartalmát megjelenítse.\n"
             },
             "upload_methods": {
-                "aws-s3": "S3/kompatibilis",
-                "awss3": "",
+                "aws-s3": "S3 vagy kompatibilis",
+                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Helyi",
                 "ovh-svfs": "OVH SVFS",
