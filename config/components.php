@@ -498,7 +498,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v1.8.1/locale/en.yml',
 	],
 	'flarum-extension-manager' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/extension-manager/v1.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/extension-manager/v1.0.6/locale/en.yml',
 	],
 	'flarum-flags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/flags/v1.8.2/locale/en.yml',
