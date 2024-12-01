@@ -62,7 +62,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/v1.0.1/locale/en.yml',
 	],
 	'archlinux-de-click-image' => [
-		'tag' => 'https://raw.githubusercontent.com/archlinux-de/flarum-click-image/1.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/archlinux-de/flarum-click-image/1.1.2/locale/en.yml',
 	],
 	'askvortsov-article-series' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-article-series/v0.2.0/locale/en.yml',
