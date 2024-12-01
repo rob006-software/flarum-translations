@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Ha egy IP-cím kitiltási rekord egy felhasználóhoz kapcsolódik (tehát a felhasználó IP-cím alapján ki lett tiltva), akkor a felhasználó IP-címe szerepelni fog az exportban, a tiltás okával és a létrehozás dátumával együtt.",
+                    "anonymize_description": "A felhasználó IP-címei leválasztásra kerülnek, de maguk az IP-címek kitiltva maradnak, és a tiltás indoka is megmarad. Győződjön meg róla, hogy nincs személyazonosításra alkalmas információ az „indok” mezőben."
                 }
             }
         }
