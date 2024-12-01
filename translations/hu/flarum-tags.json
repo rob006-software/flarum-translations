@@ -43,7 +43,7 @@
                 "about_tags_text": "A címkék a témák kategorizálására használhatók. Az elsődleges címkék hasonlóak, mint a hagyományos fórumkategóriák: kétszintes hierarchiába rendezhetők. A másodlagos címkék nem rendelkeznek hierarchiával, mikro-kategorizálásra használhatók.",
                 "create_primary_tag_button": "Elsődleges címke létrehozása",
                 "create_secondary_tag_button": "Másodlagos címke létrehozása",
-                "edit_tag_label": "",
+                "edit_tag_label": "Az) {tag} címke szerkesztése",
                 "primary_heading": "Elsődleges címkék",
                 "secondary_heading": "Másodlagos címkék",
                 "settings_heading": "Beállítások",
@@ -108,13 +108,13 @@
         },
         "validation": {
             "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
+                "name": "név",
+                "slug": "keresőbarát webcím",
+                "is_hidden": "elrejtés",
+                "description": "leírás",
+                "color": "szín",
+                "tag_count_primary": "=> validation.attributes.tag_count_primary",
+                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
             }
         }
     }
