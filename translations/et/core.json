@@ -46,13 +46,13 @@
             },
             "create_user": {
                 "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_confirmed_label": "Nõua kasutajal selle e-posti kinnitamist",
+                "password_placeholder": "Parool",
+                "submit_and_create_another_button": "Loo ja lisa veel üks",
+                "submit_button": "Loo kasutaja",
+                "title": "Loo uus kasutaja",
+                "use_random_password": "Genereeri parool",
+                "username_placeholder": "Kasutajanimi"
             },
             "dashboard": {
                 "clear_cache_button": "Puhasta vahemälu",
@@ -65,9 +65,9 @@
                         "session-driver": ""
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Aktiivne",
+                        "inactive": "Mitteaktiivne",
+                        "never-run": "Ära käivita kunagi"
                     }
                 },
                 "title": "Juhtpaneel",
@@ -187,7 +187,7 @@
                 "search_placeholder": "Otsi laiendusi"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "Luba oma postituste kustutamist",
                 "allow_post_editing_label": "Postituse muutmine",
                 "allow_renaming_label": "Ümbernimetamine",
                 "create_access_token_label": "",
@@ -221,7 +221,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Määramata ajaks",
-                "allow_never_button": "",
+                "allow_never_button": "Mitte kunagi",
                 "allow_some_minutes_button": "{count, plural, one {# minut} other {# minutit}}",
                 "allow_ten_minutes_button": "10 minutit",
                 "allow_until_reply_button": "Kuni järgmise vastuseni",
@@ -239,12 +239,12 @@
                 "upload_button": "Vali pilt..."
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "Uus kasutaja",
                 "description": "Foorumi kõikide kasutajate loend.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Näidatav nimi"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
@@ -264,7 +264,7 @@
                             "title": "Liitus"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "Toimingud"
                         },
                         "user_id": {
                             "title": "ID"
@@ -278,7 +278,7 @@
                 },
                 "pagination": {
                     "back_button": "Eelmine",
-                    "first_button": "",
+                    "first_button": "Mine esimesele leheküljele",
                     "go_to_page_textbox_a11y_label": "",
                     "last_button": "",
                     "next_button": "Järgmine",
