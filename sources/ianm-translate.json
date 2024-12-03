@@ -97,13 +97,20 @@
             "manage-translations": {
                 "translations-label": "Translations",
                 "button-label": "Manage translations",
+                "original-language": "Original language ({detectedLang})",
+                "discussion": {
+                    "title": "Manage discussion title translations"
+                },
+                "post": {
+                    "title": "Manage Post translations"
+                },
                 "poll": {
                     "image-alt": "Poll image ALT text (if any)",
                     "option": "Poll option {number}",
-                    "original-title": "Original language",
                     "subtitle": "Poll subtitle",
                     "title": "Manage Poll translations",
-                    "question": "Poll question"
+                    "question": "Poll question",
+                    "question-language": "Poll question ({language})"
                 },
                 "save-changes": "=> core.ref.save_changes"
             },

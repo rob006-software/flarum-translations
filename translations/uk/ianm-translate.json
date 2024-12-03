@@ -98,13 +98,21 @@
             "manage-translations": {
                 "translations-label": "Переклади",
                 "button-label": "Керування перекладами",
+                "original-language": "",
+                "discussion": {
+                    "title": ""
+                },
+                "post": {
+                    "title": ""
+                },
                 "poll": {
                     "image-alt": "Альтернативний текст для зображення опитування (якщо є)",
                     "option": "Параметр опитування {number}",
-                    "original-title": "Мова оригіналу",
                     "subtitle": "Підзаголовок до опитування",
                     "title": "Керування перекладами опитувань",
-                    "question": "Питання для опитування"
+                    "question": "Питання для опитування",
+                    "question-language": "",
+                    "original-title": "Мова оригіналу"
                 },
                 "save-changes": "=> core.ref.save_changes"
             },

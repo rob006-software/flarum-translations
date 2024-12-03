@@ -97,13 +97,21 @@
             "manage-translations": {
                 "translations-label": "Terjemahan",
                 "button-label": "Kelola terjemahan",
+                "original-language": "",
+                "discussion": {
+                    "title": ""
+                },
+                "post": {
+                    "title": ""
+                },
                 "poll": {
                     "image-alt": "Teks ALT gambar polling (jika ada)",
                     "option": "Opsi polling {number}",
-                    "original-title": "Bahasa asli",
                     "subtitle": "Subjudul polling",
                     "title": "Mengelola terjemahan Polling",
-                    "question": "Pertanyaan polling"
+                    "question": "Pertanyaan polling",
+                    "question-language": "",
+                    "original-title": "Bahasa asli"
                 },
                 "save-changes": "=> core.ref.save_changes"
             },

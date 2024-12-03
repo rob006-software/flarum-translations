@@ -98,13 +98,21 @@
             "manage-translations": {
                 "translations-label": "翻譯",
                 "button-label": "管理翻譯",
+                "original-language": "",
+                "discussion": {
+                    "title": ""
+                },
+                "post": {
+                    "title": ""
+                },
                 "poll": {
                     "image-alt": "投票圖像 ALT 文字（如果有）",
                     "option": "投票選項 {number}",
-                    "original-title": "原始語言",
                     "subtitle": "投票字幕",
                     "title": "管理投票翻譯",
-                    "question": "投票問題"
+                    "question": "投票問題",
+                    "question-language": "",
+                    "original-title": "原始語言"
                 },
                 "save-changes": "=> core.ref.save_changes"
             },

@@ -101,13 +101,21 @@
             "manage-translations": {
                 "translations-label": "Traductions",
                 "button-label": "Gérer les traductions",
+                "original-language": "",
+                "discussion": {
+                    "title": ""
+                },
+                "post": {
+                    "title": ""
+                },
                 "poll": {
                     "image-alt": "Texte ALT de l'image du sondage (si elle existe)",
                     "option": "Option {number} de sondage",
-                    "original-title": "Langue d'origine",
                     "subtitle": "Sous-titre du sondage",
                     "title": "Gérer les traductions du sondage",
-                    "question": "Question du sondage"
+                    "question": "Question du sondage",
+                    "question-language": "",
+                    "original-title": "Langue d'origine"
                 },
                 "save-changes": "=> core.ref.save_changes"
             },

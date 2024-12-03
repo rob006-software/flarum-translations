@@ -100,13 +100,21 @@
             "manage-translations": {
                 "translations-label": "译文",
                 "button-label": "管理译文",
+                "original-language": "",
+                "discussion": {
+                    "title": ""
+                },
+                "post": {
+                    "title": ""
+                },
                 "poll": {
                     "image-alt": "投票图片替代文本（如有）",
                     "option": "投票选项 {number}",
-                    "original-title": "原始语言",
                     "subtitle": "投票副标题",
                     "title": "管理投票译文",
-                    "question": "投票问题"
+                    "question": "投票问题",
+                    "question-language": "",
+                    "original-title": "原始语言"
                 },
                 "save-changes": "=> core.ref.save_changes"
             },
