@@ -684,8 +684,8 @@
             "invalid_username_message": "O nome de usuário pode conter apenas letras, números e traços.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "O filtro {filter} deve ser numérico.",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_not_be_array_message": "O filtro {filter} não deve ser um array.",
+                "must_not_be_multidimensional_array_message": "O filtro {filter} não deve ser um array multidimensional."
             }
         },
         "email": {
@@ -733,7 +733,7 @@
             "log_in": "Entrar",
             "log_out": "Sair",
             "mark_all_as_read": "Marcar tudo como lido",
-            "never": "",
+            "never": "Nunca",
             "new_token": "Novo token",
             "next_page": "Próxima página",
             "notifications": "Notificações",
