@@ -43,21 +43,21 @@
             "poll_ended": "Esta enquete terminou.",
             "public_poll": "Veja quem votou",
             "max_votes_allowed": "",
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "polls_count": "{count, plural, one { {count} voto} other {{count} votos}}",
+            "poll_never_ends": "Enquete nunca termina",
+            "answers": "Respostas",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": "",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "cannot_change_vote": "Você não pode alterar seu voto após votar.",
+                "submit_button": "Voto",
+                "start_poll_button": "Iniciar Enquete Global",
+                "cannot_start_poll_button": "Não é possível iniciar a enquete"
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Tem certeza de que deseja excluir esta enquete?",
+                "delete_success_message": "Enquete excluída com sucesso.",
                 "delete_error_message": ""
             },
             "poll_form": {
