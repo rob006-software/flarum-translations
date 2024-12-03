@@ -61,8 +61,8 @@
                 "status": {
                     "headers": {
                         "scheduler-status": "Ajastaja",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "queue-driver": "Järjekorra draiver",
+                        "session-driver": "Sessiooni draiver"
                     },
                     "scheduler": {
                         "active": "Aktiivne",
@@ -284,7 +284,7 @@
                     "next_button": "Järgmine",
                     "page_counter": "Leht {current}/{total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "Otsi kasutajaid",
                 "title": "=> core.ref.users",
                 "total_users": "Kokku kasutajaid: {count}"
             }
@@ -459,15 +459,15 @@
                 "global_logout": {
                     "heading": "Üldine väljalogimine",
                     "help_text": "Tühjendab praegused küpsiste sessioonid, lõpetab kõik sessioonid, eemaldab arendajate ligipääsukoodid ning tühistab kõik kinnitust küsivad e-kirjad ja parooli taastamise e-kirjad.",
-                    "log_out_button": ""
+                    "log_out_button": "Logi välja"
                 },
                 "hide_access_token": "Peida kontrollkood",
                 "last_activity": "Viimane tegevus",
-                "never": "",
-                "new_access_token_button": "",
+                "never": "Mitte kunagi",
+                "new_access_token_button": "Uus kontrollkood",
                 "new_access_token_modal": {
                     "submit_button": "Loo kontrollkood",
-                    "title": "",
+                    "title": "Uus kontrollkood",
                     "title_placeholder": "Pealkiri"
                 },
                 "revoke_access_token": "Eemalda",
@@ -479,7 +479,7 @@
                 "terminate_all_other_sessions": "Lõpeta kõik teised sessioonid",
                 "terminate_all_other_sessions_confirmation": "",
                 "terminate_session": "Lõpeta",
-                "title": "",
+                "title": "Turvalisus",
                 "token_revoked": "Kontrollkood on eemaldatud.",
                 "token_item_title": "{title} - {token}",
                 "token_title_placeholder": "/"
@@ -518,7 +518,7 @@
                 "posts_empty_text": "Siin ei ole ühtegi postitust.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "Turvalisus",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
