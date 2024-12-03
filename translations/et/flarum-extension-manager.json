@@ -2,34 +2,34 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Uus autentimisviis",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Host",
+                    "host_placeholder": "näidis: extiverse.com",
+                    "submit_button": "Saada",
+                    "token_label": "Kontrollkood",
+                    "type_label": "Liik",
+                    "unchanged_token_placeholder": "(muutmata)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Oled sa kindel, et soovid seda autentimisviisi kustutada?",
+                "delete_label": "Kustuta autentimisviis",
+                "edit_label": "Muuda autentimisviisi",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Host",
+                    "token": "Kontrollkood"
                 },
                 "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "remove_button_label": "Eemalda autentimisviis",
+                "title": "Autentimiseviisid",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab kontrollkood",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
+                "add_repository_label": "Lisa hoidla",
                 "delete_repository_confirmation": "",
                 "delete_repository_label": "",
                 "edit_repository_label": "",
