@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Maini gruppe"
             },
             "settings": {
                 "allow_username_format_label": "Luba kasutajanimele viitamise formaat (@kasutajanimi)",
@@ -11,21 +11,21 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Viita kasutajale või postitusele",
+                "mention_tooltip": "Viita kasutajale, grupile või postitusele",
                 "reply_to_post_text": "Vasta #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Vastused sellele postitusele",
+                "load_more_button": "Laadi rohkem"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} vastas sinu postitusele",
                 "user_mentioned_text": "{username} viitas sinule",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} mainis gruppi, mille liige sa oled"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "Veel {count} vastust.",
                 "mentioned_by_self_text": "{users} vastasid sellele.",
                 "mentioned_by_text": "{users} vastasid sellele.",
                 "others_text": "=> core.ref.some_others",
@@ -36,7 +36,7 @@
             "settings": {
                 "notify_post_mentioned_label": "Keegi vastab minu postitusele",
                 "notify_user_mentioned_label": "Keegi viitab minule oma postituses",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "Keegi mainis gruppi, mille liige ma olen postituses"
             },
             "user": {
                 "mentions_link": "Viited"
@@ -45,7 +45,7 @@
                 "deleted_text": "[tundmatu]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[tundmatu grupp]"
             }
         },
         "email": {
@@ -58,8 +58,8 @@
                 "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} viitas sinule oma postituses teemas {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} mainis gruppi , mille liige sa oled vestluses {title}",
+                "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} mainis gruppi, mille liige sa oled vestluses {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
