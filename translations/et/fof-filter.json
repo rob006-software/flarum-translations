@@ -1,40 +1,40 @@
 {
     "fof-filter": {
         "forum": {
-            "flagger_name": "",
-            "flag_message": ""
+            "flagger_name": "Auto Moderaator",
+            "flag_message": "Sisaldab blokeeritud tekste"
         },
         "admin": {
-            "title": "",
-            "bad_words_help": "",
-            "help2": "",
-            "email_help": "",
-            "filter_label": "",
-            "countLabel": "",
+            "title": "Filter",
+            "bad_words_help": "Sisesta tekst või sõnad, mida filtreerida. Iga rea kohta üks. Kui kasutaja postitus sisaldab teksti, mida sa soovid filtreerida, siis märgitakse postitus ülevaatamiseks.",
+            "help2": "Intervall minutites, mil sama kasutaja arutelud automaatselt liidetakse.",
+            "email_help": "Märgitud e-kirja sisu. Sobib nii HTML kui ka lihttekst.",
+            "filter_label": "Tekstid, mida filtreerida",
+            "countLabel": "Sensori tolerantsus",
             "cooldownLabel": "",
-            "auto_merge_title": "",
+            "auto_merge_title": "Automaatne liitmine",
             "input": {
-                "placeholder": "",
-                "filter_title": "",
-                "email_label": "",
+                "placeholder": "Tekstid, mida filtreerida",
+                "filter_title": "Tekstid, mida filtreerida",
+                "email_label": "E-posti seaded",
                 "switch": {
-                    "email": "",
-                    "merge": "",
-                    "delete": ""
+                    "email": "Saada kiri kasutajale, kui positutst filtreeritakse",
+                    "merge": "Liisa topelt postitused automaatselt",
+                    "delete": "Kustuta filtreeritud postitused automaatselt"
                 },
-                "email_subject": "",
-                "email_body": ""
+                "email_subject": "Pealkiri",
+                "email_body": "Sisu"
             },
             "nav": {
-                "text": "",
-                "desc": ""
+                "text": "Filter",
+                "desc": "Filtreeri postitusi sõnade järgi"
             },
             "permission": {
-                "bypass_filter_label": ""
+                "bypass_filter_label": "Eira sõnade filtreid"
             },
             "email": {
-                "default_subject": "",
-                "default_text": ""
+                "default_subject": "Seoses sinu viimase posititusega",
+                "default_text": "Aitäh, et postitasid foorumisse! Kahjuks sinu positus kustutati, kuna see sisaldas midagi, mida me oma foorumis näha ei soovi.\n\nKui arvad, et tegu on veaga, siis ära muretse. Iga eemaldatud positus vaadatakse moderaatori poolt üle. Kui nad jõuavad järeldusele, et posituse eemaldamine oli viga, siis sinu teema taastatakse foorumis.                \n\nAitäh mõistmise eest.\n"
             }
         }
     }
