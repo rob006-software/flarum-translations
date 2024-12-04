@@ -2,37 +2,37 @@
     "fof-doorman": {
         "forum": {
             "email": {
-                "subject": "",
-                "body": ""
+                "subject": "Kutsu liituma",
+                "body": "Tere,\n\nSind on kutsutud liituma foorumiga {forum}.\n\nKui oled valmis oma kontot looma, siis lihtsalt kliki järgneval lingil ja sisesta registreerumisel kood:\n\nLink: {url}\nKutse kood: {code}\n\nKui tundub, et see kiri pole mõeldud sulle, siis lihtsalt ignoreeri seda kirja.\n"
             },
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "Sinu sisestatud kutse kood on vigane.",
+                "doorkey_required": "Palun sisesta kutse kood.",
+                "doorman_placeholder": "Kutse kood",
+                "doorman_placeholder_optional": "Kutse kood (valikuline)"
             }
         },
         "admin": {
             "modal": {
-                "title": "",
-                "group": "",
-                "help": "",
-                "placeholder": "",
-                "invalid_emails": "",
-                "max_use_conflict": "",
-                "send": "",
-                "success": ""
+                "title": "Saata kutse koodid",
+                "group": "Saada kutsed grupile {group}",
+                "help": "Nimekiri võib olla eraldatud komade, tühikute või koma ja tühikuga. Kirjuta e-posti aadressid ükshaaval või kopeeri siia terve nimekiri ja vajuta tühikule, et need lisada.",
+                "placeholder": "Sisesta e-kirjad siia",
+                "invalid_emails": "Järgnevad e-posi aadressid on vigased: {emails}",
+                "max_use_conflict": "E-posti aadress ületab selle koodi maksimaalse kasutamise arvu.",
+                "send": "Saada kirjad",
+                "success": "Kirjad on saadetud"
             },
-            "invalid_doorkey": "",
-            "doorkey_required": "",
+            "invalid_doorkey": "Sisestatud kutse kood on vigane.",
+            "doorkey_required": "Sa pead sisestama kutse koodi",
             "nav": {
-                "desc": ""
+                "desc": "Loo kutsete koodid, millega kasutajad saavad liituda ja kes määratakse kindlasse gruppi"
             },
             "page": {
-                "title": "",
+                "title": "Uksehoidja",
                 "doorkey": {
-                    "used_times": "",
-                    "total_uses": "",
+                    "used_times": "{remaining, plural, =0 {Piiramatu} one {{remaining} kasutus järgi} other {{remaining} kasutust järgi}}",
+                    "total_uses": "{totalUses, plural, one {Kasutatud {totalUses} korda} other {Kasutatud {totalUses} korda}}",
                     "title": "",
                     "help": {
                         "key": "",
@@ -42,16 +42,16 @@
                     },
                     "warning": "",
                     "key": "",
-                    "max_uses": "",
+                    "max_uses": "Maks. kasutajaid",
                     "heading": {
-                        "key": "",
-                        "group": "",
-                        "activate": "",
-                        "max_uses": ""
+                        "key": "Võti",
+                        "group": "Grupp",
+                        "activate": "Aktiveerib kasutajad",
+                        "max_uses": "Maks. kasutajaid"
                     },
                     "allow-public": {
-                        "title": "",
-                        "switch-label": ""
+                        "title": "Lubab avaliku liitumise",
+                        "switch-label": "Tee kutse koodi kasutamine liitumisel vabatahtlikuks"
                     }
                 }
             }
