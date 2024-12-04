@@ -27,8 +27,8 @@
                 "button": "Pengaturan",
                 "seemless": "Terjemahan Yang Mulus",
                 "seemless-help": "Fitur beta. Ketika diaktifkan, semua konten pengguna akan diterjemahkan secara otomatis ke semua bahasa forum yang tersedia. Ketika pengguna melihat konten multi-bahasa, terjemahan akan ditampilkan secara otomatis.",
-                "multi-lang-search": "",
-                "multi-lang-search-help": "",
+                "multi-lang-search": "Pencarian multi-bahasa",
+                "multi-lang-search-help": "Ketika diaktifkan, pencarian akan menyertakan semua terjemahan konten.",
                 "deepl": {
                     "api_key": {
                         "help": "Daftar di {link}. Driver akan secara otomatis mendeteksi jenis key free/pro.",
@@ -97,12 +97,12 @@
             "manage-translations": {
                 "translations-label": "Terjemahan",
                 "button-label": "Kelola terjemahan",
-                "original-language": "",
+                "original-language": "Bahasa asli ({detectedLang})",
                 "discussion": {
-                    "title": ""
+                    "title": "Mengelola terjemahan judul diskusi"
                 },
                 "post": {
-                    "title": ""
+                    "title": "Mengelola terjemahan Post"
                 },
                 "poll": {
                     "image-alt": "Teks ALT gambar polling (jika ada)",
