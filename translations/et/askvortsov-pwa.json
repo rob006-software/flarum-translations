@@ -7,38 +7,38 @@
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
+                    "description_label": "Kirjeldus",
                     "description_text": "",
-                    "long_name_label": "",
+                    "long_name_label": "Pikk nimi",
                     "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
+                    "heading": "Info",
+                    "short_name_label": "Lühike nimi",
                     "short_name_text": ""
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
+                    "heading": "Värid",
+                    "background_color_label": "Tausta värv",
                     "background_color_text": "",
-                    "theme_color_label": "",
+                    "theme_color_label": "Teema värv",
                     "theme_color_text": ""
                 },
                 "maintenance": {
-                    "heading": "",
-                    "debug_label": "",
+                    "heading": "Hooldus",
+                    "debug_label": "Veatuvastuse režiim?",
                     "debug_text": "",
                     "reset_vapid_text": "",
                     "reset_vapid_confirm": "",
                     "reset_vapid_success": ""
                 },
                 "firebase_config": {
-                    "heading": "",
+                    "heading": "Firebase",
                     "help_text": "",
                     "see_documentation_here": "",
                     "upload_successful": "",
-                    "upload_file": ""
+                    "upload_file": "Laadi üles"
                 },
                 "other": {
-                    "heading": "",
+                    "heading": "Muu",
                     "force_portrait_text": "",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
@@ -49,11 +49,11 @@
                 },
                 "heading": "",
                 "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
+                "status_check_heading": "Staatuse kontrollimine",
+                "logo_heading": "Logod ja ikoonid",
                 "logo_text": "",
                 "logo_size_text": "",
-                "submit_button": "",
+                "submit_button": "Salvesta seaded",
                 "refreshed_message": ""
             },
             "status": {
@@ -70,19 +70,19 @@
         "forum": {
             "alerts": {
                 "optin": "",
-                "optin_button": ""
+                "optin_button": "Seadista"
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Jaga"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Jaga",
                 "share_api": {
                     "title": ""
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Jaga"
             },
             "settings": {
                 "push_header": "",
@@ -92,13 +92,13 @@
                     "access_denied": "",
                     "access_denied_button": "",
                     "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "no_browser_support_button": "Õpi kuidas"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
+                "header": "Võrguühenduse tõrge",
                 "text": ""
             }
         }
