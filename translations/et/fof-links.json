@@ -2,44 +2,44 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "",
-                "delete_link_confirmation": "",
-                "internal_link": "",
-                "open_newtab": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "icon_label": "",
-                "icon_text": "",
-                "icon_additional_text": "",
-                "url_description": "",
-                "url_label": "",
-                "url_placeholder": "",
+                "delete_link_button": "Kustuta link",
+                "delete_link_confirmation": "Oled sa kindel, et soovid seda linki kustutada?",
+                "internal_link": "Kas see on sisemine link?",
+                "open_newtab": "Ava lingid uuel vahekaardil",
+                "submit_button": "Salvesta muudatused",
+                "title": "Loo link",
+                "title_label": "Pealkiri",
+                "title_placeholder": "Pealkiri",
+                "icon_label": "Ikoon",
+                "icon_text": "Ikooni tekst",
+                "icon_additional_text": "Kui soovid kasutada brändi ikooni, siis kasuta eesliidet <code>fab fa-</code>.",
+                "url_description": "Jäta tühjaks, et näidata sildina.",
+                "url_label": "URL",
+                "url_placeholder": "URL",
                 "use_rel_me": "",
                 "visibility": {
                     "help": "",
-                    "help-disabled": "",
-                    "label": "",
+                    "help-disabled": "Salvesta link enne, kui muudad selle nähtavuse seadeid.",
+                    "label": "Lingi nähtavus",
                     "guest-only": {
-                        "label": "",
-                        "help": ""
+                        "label": "Ainult {guest}?",
+                        "help": "Ainult {guest} näeb seda linki. Ülalolevad õigused peaks olema '{everyone}'."
                     }
                 }
             },
             "links": {
-                "create_button": "",
-                "links": ""
+                "create_button": "Loo link",
+                "links": "Lingid"
             },
             "settings": {
-                "show_icons_only_on_tablet": ""
+                "show_icons_only_on_tablet": "Näita ikoone ainult tahvlite ekraanidel"
             }
         },
         "ref": {
-            "create_link": "",
-            "links": "",
-            "title": "",
-            "url": ""
+            "create_link": "Loo link",
+            "links": "Lingid",
+            "title": "Pealkiri",
+            "url": "URL"
         }
     }
 }
