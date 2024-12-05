@@ -2,34 +2,34 @@
     "flarum-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
+                "heading": "GDPR andmete ülevaade",
                 "description": "",
                 "data_types": {
-                    "title": "",
+                    "title": "Andmete liigid",
                     "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "type": "Liik",
+                    "export_description": "Eksportimise tegevus",
+                    "anonymize_description": "Anonümiseeri tegevus",
+                    "delete_description": "Kustuta tegevus",
+                    "extension": "Lisaprogramm"
                 },
                 "settings": {
-                    "heading": "",
+                    "heading": "GDPR-i seaded",
                     "help_text": "",
-                    "extension_settings_button": ""
+                    "extension_settings_button": "GDPR-i seaded"
                 },
                 "user_table_data": {
-                    "title": "",
+                    "title": "Kasutaja tabeli andmed",
                     "help_text": ""
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "GDPR-i integreerimised"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "process_erasure": "Protsessi kustutamise nõuded",
+                "process_export_for_others": "Küsi ja hangi andmete eksporte teistele kasutajatele",
+                "see_anonymized_user_badges": "Vaata anonümiseeritud kasutajate silte"
             },
             "settings": {
                 "allow_anonymization": "",
