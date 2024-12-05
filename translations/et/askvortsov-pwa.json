@@ -10,66 +10,66 @@
                     "description_label": "Kirjeldus",
                     "description_text": "",
                     "long_name_label": "Pikk nimi",
-                    "long_name_text": "",
+                    "long_name_text": "Veebirakenduse nimi, mida näidatakse kasutajatele.",
                     "heading": "Info",
                     "short_name_label": "Lühike nimi",
-                    "short_name_text": ""
+                    "short_name_text": "Veebirakenduse nimi, mida näidatakse kasutajatele, kui pika nime jaoks pole ruumi."
                 },
                 "colors": {
                     "heading": "Värid",
                     "background_color_label": "Tausta värv",
-                    "background_color_text": "",
+                    "background_color_text": "Seda värvi näidatakse tervitusekraanina, kui sinu rakendust laaditakse. Seda ei näidata rakenduse kasutamise oleku ajal.",
                     "theme_color_label": "Teema värv",
-                    "theme_color_text": ""
+                    "theme_color_text": "Seda värvi kasutatakse mõnikord seadmetes sinu rakenduse näitamisel. Näiteks Androidi äppide vahetamise ajal näidatakse seda värvina, mis ümbritseb saiti."
                 },
                 "maintenance": {
                     "heading": "Hooldus",
                     "debug_label": "Veatuvastuse režiim?",
-                    "debug_text": "",
-                    "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
+                    "debug_text": "See salvestab teavituste logi kausta `storage/logs`. Seda peaks tavaliselt näidama, et vältida logide tarbetut täitumist.",
+                    "reset_vapid_text": "See loob uued VAPID võtmed ja kustutab olemas olevad tellimused, mis kasutavad praeguseid VAPID võtmeid.",
+                    "reset_vapid_confirm": "VAPID võtmed eemaldavad kõik olemasolevate võtmete tellimused, mis tähendab, et kasutaja ei saa teavitusi enne, kui ta on saiti uuesti külastanud. Seda peaks tegema ainult siis kui sa seadistad push-teavitusi esimest korda või kui teavitused ei tööta üldse ning sulle näidatakse sellel lehel teavitust VAPID võtmete puudumise kohta.",
                     "reset_vapid_success": ""
                 },
                 "firebase_config": {
                     "heading": "Firebase",
                     "help_text": "",
-                    "see_documentation_here": "",
+                    "see_documentation_here": "Vaata dokumentatsiooni siin",
                     "upload_successful": "",
                     "upload_file": "Laadi üles"
                 },
                 "other": {
                     "heading": "Muu",
-                    "force_portrait_text": "",
+                    "force_portrait_text": "Sunni püstine paigutus?",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
-                    "user_max_subscriptions_label": "",
+                    "user_max_subscriptions_label": "Maks, push teavituste arv kasutaja kohta",
                     "user_max_subscriptions_text": "",
                     "window_controls_overlay_label": "",
                     "window_controls_overlay_text": ""
                 },
-                "heading": "",
+                "heading": "Veebirakenduse seadistamine",
                 "text": "",
                 "status_check_heading": "Staatuse kontrollimine",
                 "logo_heading": "Logod ja ikoonid",
-                "logo_text": "",
-                "logo_size_text": "",
+                "logo_text": "Sa pead laadima üles vähemalt ühe logo, et sinu veebirakendus oleks installitav. Kõik logod peavad olema ruudukujulised. Kui nad pole ruudukujulised, siis nende suuruse muutmise ajal proportsioonid muutuvad ning pilt venitatakse välja.\n\nAll on saadaval mitmeid suuruse valikuid. Soovitatav on laadida üles nii palju erinevaid variant, kui võimalik, kuna siis toetab see palju rohkemaid seadmeid.\n\nSa võid laadida üles ka 1 suure logo, mida kasutatakse väiksemate loomiseks. Näiteks võid laadida üles 1000px x 1000px logo KÕIGISSE faili väljadesse. Teisalt, kui laadid 50px x 50px logo 512x512 välja, siis venitatakse seda ikka väga palju.\n",
+                "logo_size_text": "Laadi üles logo, mis muudetakse suurusele {size} pikslit korda {size} pikslit.",
                 "submit_button": "Salvesta seaded",
-                "refreshed_message": ""
+                "refreshed_message": "PWA seadeid on uuendatud."
             },
             "status": {
-                "config_no_https": "",
+                "config_no_https": "URL sinu config.php failis ei kasuta eesliidet HTTPS. HTTPS nõutud, et veebirakendus töötaks.",
                 "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
-                "no_vapid_keys": "",
-                "key_gen_failed": "",
-                "suggest_gmp": "",
-                "success": ""
+                "no_logo": "Sa pead laadima üles vähemalt ühe logo suurusega 144x144px, et sinu veebirakendus oleks installitav.",
+                "no_name": "Sinu rakenduse töötamiseks on vaja selle täispikka nime.",
+                "no_vapid_keys": "VAPID võtmeid ei leitud. Need on vajalikud teavituste töötamiseks.VAPID võtmed saad nullida selle lehe allosas.",
+                "key_gen_failed": "Teavituste jaoks vajalike võtmete genereerimine ebaõnnestus. Veateade: {error}",
+                "suggest_gmp": "Näib, et sinu serveris pole PHP laiendus gmp sisse lülitatud. See pole tingimata vajalik, aga see on soovitatud, kuna see teeb rakenduse oluliselt kiiremaks. Mõned veebimajutuse teenusepakkujad seda paraku ei toeta.",
+                "success": "Potensiaalseid probleeme ei leitud!"
             }
         },
         "forum": {
             "alerts": {
-                "optin": "",
+                "optin": "Sinu teavitused on sisse lülitatud, aga pole sellel seadmel seadistatud.",
                 "optin_button": "Seadista"
             },
             "discussion_controls": {
@@ -78,20 +78,20 @@
             "post_controls": {
                 "share_button": "Jaga",
                 "share_api": {
-                    "title": ""
+                    "title": "{username} vastas vestluses {title}'"
                 }
             },
             "user_controls": {
                 "share_button": "Jaga"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Push",
                 "pwa_notifications": {
-                    "access_default": "",
+                    "access_default": "Sinu veebilehitsejate piirangute tõttu, pead ise valima, et tahad sellele seadmele teavitusi saada.",
                     "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
+                    "access_denied": "Sellel seadmel teavituste saamiseks pead sa muutma oma veebilehitseja seadeid.",
+                    "access_denied_button": "Õpi kuidas",
+                    "no_browser_support": "See veebilehitseja ei toeta veebirakenduste teavituste kasutamist.",
                     "no_browser_support_button": "Õpi kuidas"
                 }
             }
@@ -99,7 +99,7 @@
         "views": {
             "offline": {
                 "header": "Võrguühenduse tõrge",
-                "text": ""
+                "text": "See rakendus vajab töötamiseks internetiühendust. Ilma internetita seda kasutada ei saa. Palun kontrolli oma internetiühendust."
             }
         }
     }
