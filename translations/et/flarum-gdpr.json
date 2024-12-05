@@ -34,25 +34,25 @@
             "settings": {
                 "allow_anonymization": "",
                 "allow_anonymization_help": "",
-                "allow_deletion": "",
+                "allow_deletion": "Luba soovi korral kustutamine",
                 "allow_deletion_help": "",
                 "default_anonymous_username": "",
                 "default_anonymous_username_help": "",
                 "default_erasure": "",
                 "default_erasure_help": "",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "Anonümiseerimine",
+                    "deletion": "Kustutamine"
                 },
                 "gdpr_page": {
-                    "title": "",
+                    "title": "Andmete integreerimine ja tegevused",
                     "help_text": ""
                 }
             },
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "export": ""
+                        "export": "Ekspordi kasutaja {username} andmed"
                     }
                 }
             }
@@ -60,7 +60,7 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
+                    "delete_description": "Kustutab selle kasutaja avatari failisüsteemist.",
                     "export_description": ""
                 },
                 "discussions": {
@@ -69,101 +69,101 @@
                 "forum": {
                     "export_description": ""
                 },
-                "no_action": "",
+                "no_action": "Mingit tegevust ei sooritatud.",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Eemaldab IP aadressid kõigist postitustest, mida kasutaja on teinud.",
+                    "delete_description": "Kustutab kõik postitused, mida kasutaja on teinud.",
+                    "export_description": "Ekspordib kõik postitused, mida kasutaja on teinud. Andmed sisaldavad ainult sisu, loomise kuupäeva, IP aadresse ja aruteli ID-d."
                 },
                 "tokens": {
-                    "delete_description": "",
+                    "delete_description": "Kustutab kõik kontrollkoodid, mida kasutaja on loonud.",
                     "export_description": ""
                 },
                 "user": {
                     "anonymize_description": "",
-                    "delete_description": "",
+                    "delete_description": "Kustutab kasutaja andmebaasist.",
                     "export_description": ""
                 }
             },
             "request_data": {
                 "title": "",
-                "text": "",
-                "request_button": ""
+                "text": "Sinu jaoks valmistatakse ZIP-fail. Kui see on valmis, siis saadetakse sulle teavitus allalaadimise lingiga. Link on aktiivne üks päev.\n",
+                "request_button": "Nõude ZIP-fail"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
+                "subject": "Kinnita oma konto kustutamise nõue",
                 "body": ""
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
+                    "subject": "Konto kustutamine on lõpetatud",
                     "body": ""
                 },
                 "anonymization": {
-                    "subject": "",
+                    "subject": "Konto anonümiseerimine on lõpetatud",
                     "body": ""
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
+                "subject": "Konto tühistamise päring on tühistatud",
                 "body": ""
             },
             "export_available": {
-                "subject": "",
+                "subject": "Andmete eksport on saadaval",
                 "body": ""
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Anonümiseeritud kasutaja"
             },
             "delete_user": {
-                "title": "",
+                "title": "Kustuta kasutajakonto {username}",
                 "text": "",
                 "modal_delete_button": "",
-                "delete_button": ""
+                "delete_button": "Kustuta"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Ühtegi ootel olevat konto kustutamise nõuet pole",
+                "item_text": "{name} nõudis oma konto kustutamist",
+                "tooltip": "Konto kustutamise nõuded",
+                "title": "Lonto kustuamise nõuded"
             },
             "erasure_request_confirmed": "",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Isiklikud andmed"
                 },
-                "export_data_button": "",
+                "export_data_button": "Ekspordi andmed",
                 "export_data_help": "",
-                "request_erasure_button": "",
+                "request_erasure_button": "Kusuta konto",
                 "request_erasure_help": ""
             },
             "process_erasure": {
                 "confirm": "",
-                "title": "",
+                "title": "Protsessi kustutamise nõue",
                 "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "comments_label": "Kommentaarid (valikuline)",
+                "anonymization_button": "Anonümiseeri kasutaja",
+                "deletion_button": "Kustuta kasutaja"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Nõua konto kustutamist",
+                "reason": "Sa sisestasid järgmise põhjuse: {reason}",
                 "status": {
                     "awaiting_user_confirmation": "",
                     "user_confirmed": ""
                 },
                 "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "password_label": "Kinnita parooli",
+                "reason_label": "Põhjus (valikuline)",
+                "cancel_button": "Tühista päring",
+                "request_button": "Nõua kustutamist"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "Sinu andmete eksport kasutajakonto {username} andmetega on valmis allalaadimiseks."
             },
             "export_file": ""
         }
