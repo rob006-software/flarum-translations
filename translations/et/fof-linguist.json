@@ -5,42 +5,42 @@
                 "view_string_keys": ""
             },
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Tõlked",
+                "coverage": "Katvus",
+                "export": "Ekspordi",
+                "import": "Impordi"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
+                "apply": "Rakenda",
+                "reset": "Taasta algne",
+                "copy-original": "Kopeeri algne tekst",
+                "load-more": "Laadi rohkem",
+                "delete-redundant": "Kustuta üleliigsed tõlked",
                 "delete-redundant-confirm": "",
-                "delete-all": "",
+                "delete-all": "Kustuta kõik tõlked",
                 "delete-all-confirm": ""
             },
             "locales": {
-                "all": ""
+                "all": "Kõik"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Tõlkimata",
+                "all-locales": "Siin määratud teksti näidatakse kõigis keeltes",
+                "hint": "Algne väärtus:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
+                "search": "Otsi tõlgitavaid tekste...",
+                "with-own-translations": "Minu tõlked",
+                "missing": "Leia puuduvad tõlked",
                 "missing-middle-label": "",
                 "negation-options": {
                     "with": "",
                     "without": ""
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Algne või kohandatud",
+                    "original": "Algne",
+                    "own": "Kohandatud"
                 },
                 "operation-options": {
                     "or": "",
@@ -49,7 +49,7 @@
                 "for-extension": "",
                 "frontend": "",
                 "frontend-all-except-admin": "",
-                "mass-edit": "",
+                "mass-edit": "Hulgi muutmine",
                 "results": ""
             },
             "clear-cache": {
@@ -58,62 +58,62 @@
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
+                    "locale": "Kelle järgi",
                     "namespace": ""
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Protsent",
+                    "count": "Arv"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
+                    "namespace": "Nimeruum",
+                    "total": "Kokku",
                     "all-except-admin": "",
                     "all-frontends": ""
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "{total} kokku / {original} algset / {custom} kohandatud"
                 },
-                "all-namespaces": "",
+                "all-namespaces": "Kõik",
                 "apply-missing-filter": ""
             },
             "export": {
-                "title": "",
+                "title": "Ekspordi",
                 "warning": "",
-                "locale": "",
+                "locale": "Keel",
                 "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
+                "namespace": "Nimeruum",
+                "namespace-all": "Kõik",
+                "include-originals": "Kaasa algsed tõlked",
                 "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "output": "Väljund",
+                "output-loading": "Väljundi laadimine...",
+                "output-empty": "Tühi väljund",
+                "download": "Laadi alla"
             },
             "import": {
-                "title": "",
-                "input": "",
+                "title": "Impordi",
+                "input": "Sisend",
                 "input-placeholder": "",
-                "locale": "",
+                "locale": "Keel",
                 "locale-all": "",
                 "override-existing": "",
-                "submit": "",
+                "submit": "Impordi",
                 "results": "",
                 "results-with-ignore": ""
             },
             "known-namespace": {
-                "core": "",
+                "core": "Flarumi tuum",
                 "validation": ""
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
+                "forum": "Foorum",
+                "admin": "Admin",
                 "lib": "",
                 "ref": "",
-                "api": ""
+                "api": "API"
             }
         }
     }
