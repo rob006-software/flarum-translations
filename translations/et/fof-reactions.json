@@ -1,70 +1,70 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "Sa ei saa hetkel seda rektsiooni kasutada. Palun värskenda lehekülge",
+            "warning": "Sinu reaktsioon on konverditud",
+            "notification": "{username} reageeris ({reaction}) sinu postitusele",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Keegi reageeris minu postitusele"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "Sa ei saa reageerida omaenda postitusele",
             "modal": {
-                "title": "",
-                "anonymous_count": "",
-                "no_reactions": ""
+                "title": "Raektsioonid",
+                "anonymous_count": "{count, plural, one {# anonüümne kasutaja} other {# anonüümset kasutajat}}",
+                "no_reactions": "Ühtegi reaktsiooni pole veel"
             },
-            "mod_item": "",
-            "react_button_label": ""
+            "mod_item": "Vaata reaktsioone",
+            "react_button_label": "Reageeri"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "",
-                "see_reactions_label": "",
-                "delete_post_reactions_label": ""
+                "react_posts_label": "Reageeri postitustele",
+                "see_reactions_label": "Vaata, kes reageerisid postitustele",
+                "delete_post_reactions_label": "Kustuta reageeringud postitustele"
             },
             "page": {
                 "cdn": {
-                    "title": "",
-                    "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "title": "CDN",
+                    "help": "Vaikimisi näidatakse reaktsioonide faile Cloudflare's CDN-ist. Võid soovi korral määrata ka mõne muu CDN-i aadressi. <code>[codepoint]</code> asendatakse emoji koodipunktiga.\n\nNäiteks, kui soovid kasutada Noto Emoji läbi jsdelivr, siis võid sisestada <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. See väli EI TOHI kunagi olla tühi.\n",
+                    "label": "URL",
+                    "default-url": "Vaikeväärtus: {url}"
                 },
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Kohandatud reaktsioonid",
+                    "reactions": "Praegused reaktsioonid",
+                    "Helptext": "Sisesta emoji või font-awesome ikooni nimi (dentifikaator) ja vali mis tööpi sa sooviksid kasutada.",
                     "help": {
-                        "display": "",
-                        "identifier": ""
+                        "display": "Nähtav",
+                        "identifier": "Identifikaator"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "Oled sa kindel, et soovid seda reaktsiooni kustutada? Seda toimingut ei saa tühistada."
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Kui sa just uuendasid oma laiendust, siis on vaja sinu reaktsioone konvertida. Kui sa just paigaldasid selle lisaprogrammi, siis ignoreeri seda sõnumit.",
+                    "button": "Konverdi vanad reaktsioonid",
+                    "converting": "Sinu reaktsioone konverditakse. Värskenda oma saiti paari minuti pärast, et näha protsessi lõppu. (Konvertimine võib võtta aega sõltuvalt reaktsioonide arvule sinu saidil)",
+                    "converted": "Kõik {number} reaktsiooni on konverditud"
                 },
                 "settings": {
-                    "react_own_posts_help": "",
-                    "react_own_posts_label": "",
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": "",
-                    "save_settings": "",
+                    "react_own_posts_help": "Kui see on sisse lülitatud, siis võib kasutaja (sõltuvalt õigustest) reageerida nende endi postitustele. Kui sa ei soovi, et kasutajad saaksid omaenda postitustele reageerida, siis lülita see valik välja.",
+                    "react_own_posts_label": "Kasutajad võivad reageerida omaenda postitustele,",
+                    "allow-anonymous": "Luba anonüümsetel kasutajatel (külalistel) reageerida",
+                    "allow-anonymous-help": "Kui see on sisse lülitatud, siis saavad anonüümsed kasutajad postitustele reageerida. Pea meeles, et anonüümseid reaktsoone ei seostata kasutajaga ning koondatakse reaktsioonide nimekirjas.",
+                    "save_settings": "Salvesta seaded",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "Integreerimised",
+                        "warning": "Sama reaktsiooni <strong>ei saa</strong> konvertida meeldimiseks <strong>ja</strong> ülespoole hääletamiseks",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Mängurežiim",
+                            "upvoteLabel": "Konverdi reaktsioonid üles hääletamiseks",
+                            "upvoteHelptext": "Sisesta reaktsiooni identifikaator, mida sa sooviksid automaatselt üles poole hääletamiseks muuta",
+                            "downvoteLabel": "Konverdi reaktsioonid alla hääletamiseks",
+                            "downvoteHelptext": "Sisesta reaktsiooni identifikaator, mida sa sooviksid automaatselt alla poole hääletamiseks muuta"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "Meeldimised",
+                            "Label": "Konverdi reaktsioonid meeldimisteks",
+                            "Helptext": "Sisesta reaktsiooni identifikaator, mida sa sooviksid automaatselt meeldimiseks konvertida"
                         }
                     }
                 }
