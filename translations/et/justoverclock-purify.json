@@ -1,15 +1,15 @@
 {
     "flarum-ext-purify": {
         "forum": {
-            "obscure": ""
+            "obscure": "[Puhastatud]"
         },
         "admin": {
-            "badWords": "",
-            "additemdesc": "",
-            "hidemail": "",
-            "customreg": "",
-            "customregexp": "",
-            "customregexpdesc": ""
+            "badWords": "Lisa sõnad musta nimekirja",
+            "additemdesc": "eralda iga sõna komaga (nt. sõna1,sõna2,sõna3)",
+            "hidemail": "Peida e-posti aadressid automaatselt",
+            "customreg": "Kasuta kohandatud regulaarväljendeid",
+            "customregexp": "Kasuta kohandatud Regexp",
+            "customregexpdesc": "Sisesta siia regulaarväljendid, mis vastavad sinu vajadustele (nt. (flarum|best|extension) et peita need kolm sõna)"
         }
     }
 }
