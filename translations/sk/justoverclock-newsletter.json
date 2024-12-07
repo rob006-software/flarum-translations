@@ -1,18 +1,47 @@
 {
-    "flarum-ext-newsletter": {
+    "justoverclock-newsletter": {
         "admin": {
-            "pubacc": "ID verejného účtu",
-            "pubaccdesc": "",
-            "listn": "",
-            "listndesc": ""
+            "ctaText": "",
+            "newsLetterOptOutFooter": "",
+            "newsLetterOptOutFooterUnsubscribe": "",
+            "newsletterCountText": "",
+            "newsletterCountTextTwo": "",
+            "textOrHtml": "",
+            "emailTitle": "",
+            "sendingText": "",
+            "sendEmailButtonText": "",
+            "emailSentSuccessMessage": "",
+            "emailSentErrorMessage": "",
+            "noNewsletterSent": "",
+            "totalSubscribers": "",
+            "totalSubscribersCount": "",
+            "lastNewsletterSent": "",
+            "lastNewsletterSentDescription": "",
+            "lastNewsletterSentText": ""
         },
         "forum": {
+            "optOutPlaceholder": "",
+            "optOutPageTitle": "",
+            "optOutPageDescription": "",
+            "newsLetterTitle": "",
+            "newsLetterDescription": "",
+            "newsLetterModalTitle": "",
+            "consent": "",
             "subscribe": "",
-            "submitbutton": "",
-            "modalthanku": "",
-            "modaltext": "",
-            "accept": "",
-            "prconsent": ""
+            "unSubscribe": "",
+            "emailRequired": "",
+            "invalidEmailHint": "",
+            "emailNotFound": "",
+            "subscriberDeleted": "",
+            "subscriberExist": "",
+            "successMessage": "",
+            "successUnsubscribedMessage": "",
+            "dataProcessingModalContent": ""
+        }
+    },
+    "flarum-ext-newsletter": {
+        "admin": {
+            "pubacc": "ID verejného účtu"
         }
     }
 }
