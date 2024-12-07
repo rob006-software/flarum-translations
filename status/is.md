@@ -4660,12 +4660,12 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-newsletter" title="justoverclock/flarum-ext-newsletter"><code>justoverclock/flarum-ext-newsletter</code></a>
+			<a href="https://github.com/justoverclockl/newsletter" title="justoverclock/newsletter"><code>justoverclock/newsletter</code></a>
 		</td>
-		<td align="center">422<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsletter/stats">147<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsletter/stats">3<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsletter/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">422</td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/newsletter/stats">4</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/newsletter/stats">4</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/newsletter/stats">4</a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-newsletter/is/"><img src="https://weblate.rob006.net/widgets/flarum/is/justoverclock-newsletter/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
