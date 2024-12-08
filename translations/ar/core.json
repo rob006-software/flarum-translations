@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "رأس مخصص",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "ميزة @import وdata-uri غير مسموح بهما في LESS المخصص.",
                 "custom_styles_heading": "استايلات مخصصة",
                 "custom_styles_text": "قم بتخصيص منتداك عن طريق اضافة ملفات CSS/LESS خاصة ليتم تطبيقها على استايل فلارم الافتراضى.",
                 "dark_mode_label": "الوضع المظلم",
@@ -39,35 +39,35 @@
                 "home_page_text": "اختر أوّل صفحة سيشاهدها المستخدمون عندما يزورون منتداك.",
                 "show_language_selector_label": "إظهار محدد اللّغة",
                 "slug_driver_heading": "",
-                "slug_driver_text": "",
+                "slug_driver_text": "حدد برنامج تشغيل لاستخدامه في تباطؤ هذا النموذج.",
                 "title": "الأساسيّات",
                 "welcome_banner_heading": "بانر ترحيبى",
                 "welcome_banner_text": "قم بتكوين النّص الذي يتمّ عرضه في الشّعار في صفحة \"كافّة المناقشات\". استخدم هذا للتّرحيب بالضّيوف في منتداك."
             },
             "create_user": {
                 "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_confirmed_label": "يتطلب من المستخدم تأكيد هذا البريد الإلكتروني",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "إنشاء وإضافة آخر",
+                "submit_button": "إنشاء مستخدم",
+                "title": "إنشاء مستخدم جديد",
+                "use_random_password": "إنشاء كلمة سر عشوائية",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "مسح ذاكرة التخزين المؤقت",
                 "description": "المنتدى الخاص بك في لمحة.",
-                "io_error_message": "",
+                "io_error_message": "تعذّر الكتابة إلى نظام الملفات. تحقق من أذونات نظام الملفات وحاول مرة أخرى. أو جرب التشغيل من خلال سطر الأوامر.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "الجدولة",
+                        "queue-driver": "محرك قائمة الانتظار.",
+                        "session-driver": "محرك الجلسة"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "نشط",
+                        "inactive": "خامل",
+                        "never-run": "لم يفعل أبدا"
                     }
                 },
                 "title": "لوحة المعلومات",
@@ -79,19 +79,19 @@
             },
             "edit_css": {
                 "customize_text": "قم بتخصيص مظهر المنتدى الخاص بك عن طريق إضافة رمز Less / CSS الخاص بك ليتم تطبيقه أعلى <a>الأنماط الافتراضيّة</a> لفلاروم.",
-                "submit_button": "",
-                "title": "تحرير CSS مخصص"
+                "submit_button": "=> core.ref.save_changes",
+                "title": "تعديل الستايل Css"
             },
             "edit_footer": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
-                "color_label": "",
+                "color_label": "مرجع اللون",
                 "delete_button": "حذف مجموعة",
                 "delete_confirmation": "هل أنت متأكد من حذف هذه المجموعة ؟ اعضاء المجموعة لن يتم حذفهم.",
-                "hide_label": "",
+                "hide_label": "إخفاء في المنتدى",
                 "icon_label": "",
                 "icon_text": "",
                 "name_label": "اسم المجموعة",
