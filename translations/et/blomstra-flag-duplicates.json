@@ -2,28 +2,28 @@
     "flarum-flags": {
         "forum": {
             "flag_post": {
-                "reason_duplicate_label": "Tee koopia"
+                "reason_duplicate_label": "Topeltvestlus"
             }
         }
     },
     "blomstra-flag-duplicates": {
         "admin": {
             "settings": {
-                "event_post_help": "",
-                "event_post_label": ""
+                "event_post_help": "Loo sündmuse postitus vestlusesse, mis teavitab, et leiti võimalik topeltvestlus. See teavitab kasutajaid, et antud vestlus on potensiaalselt duplikaat ilma, et annaks neile ligipääsu märgistatud teemadele.",
+                "event_post_label": "Sündmuse postitus"
             }
         },
         "forum": {
             "flags": {
                 "duplicate_discussion": "Tee vestlusest koopia",
-                "reason_duplicate_label": "",
-                "reason_duplicate_text": "",
-                "reason_discussion_deleted": "",
-                "deselect_discussion_a11y_label": ""
+                "reason_duplicate_label": "Tee vestlusest koopia",
+                "reason_duplicate_text": "See vestlus on koopia varasemast.",
+                "reason_discussion_deleted": "[kustutatud vestlus]",
+                "deselect_discussion_a11y_label": "Tühista vestluse valimine"
             },
             "post_stream": {
-                "flagged_duplicate_text": "",
-                "deleted_discussion": ""
+                "flagged_duplicate_text": "{username} märkis selle vestluse kui võimaliku duplikaadi vestlusele {duplicate}. Moderaator heidab sellele varsti pilgu peale.",
+                "deleted_discussion": "[kustutatud vestlus]"
             }
         }
     }
