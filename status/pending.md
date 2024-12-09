@@ -173,6 +173,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `prippp-synopsis` | [![#1311 (open)](https://img.shields.io/badge/PR-%231311-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1311) |
+There are no dead branches.
