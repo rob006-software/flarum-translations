@@ -66,7 +66,12 @@
             "update-alert": {
                 "must-accept-message": "Yeni şartlara göz atana kadar hesabınıza erişimi kısıtladık.",
                 "can-accept-message": "Yakın zamanda şartları güncelledik. Siteyi kullanmaya devam etmek için şartları kabul etmelisiniz.",
-                "review": "Yeni şartları incelemek ve kabul etmek için buraya tıklayın"
+                "can-accept-optional-message": "",
+                "review": "Yeni şartları incelemek ve kabul etmek için buraya tıklayın",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "Şartları kabul etme durumu"

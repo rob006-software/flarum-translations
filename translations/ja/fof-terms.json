@@ -66,7 +66,12 @@
             "update-alert": {
                 "must-accept-message": "新しい利用規約を確認している間、アカウントへのアクセスを一時的に制限しました。",
                 "can-accept-message": "利用規約を最近更新しました。このサイトを引き続き使用するには同意する必要があります。",
-                "review": "新しい利用規約を表示して同意するには、ここをクリックしてください"
+                "can-accept-optional-message": "",
+                "review": "新しい利用規約を表示して同意するには、ここをクリックしてください",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "利用規約の受け入れ状況"

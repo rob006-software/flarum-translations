@@ -66,7 +66,12 @@
             "update-alert": {
                 "must-accept-message": "Während Du dir die neuen Bedingungen ansiehst, haben wir den Zugang zum Forum vorübergehend eingeschränkt.",
                 "can-accept-message": "Wir haben unsere Bedingungen kürzlich aktualisiert. Um die Seite weiter zu benutzen, musst du diesen zustimmen.",
-                "review": "Klicke hier, um die neuen Bedingungen zu lesen und zu akzeptieren"
+                "can-accept-optional-message": "",
+                "review": "Klicke hier, um die neuen Bedingungen zu lesen und zu akzeptieren",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "Akzeptanz-Status der Bedingungen"

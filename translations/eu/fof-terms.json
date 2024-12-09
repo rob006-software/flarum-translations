@@ -66,7 +66,12 @@
             "update-alert": {
                 "must-accept-message": "Termino berriak ikusten dituzun bitartean zure baimenak murriztu ditugu.",
                 "can-accept-message": "Duela gutxi gure terminoak eguneratu ditugu. Orri hau erabili ahal izateko onartu behar dituzu.",
-                "review": "Egin klik hemen termino berriak irakurri eta baimentzeko"
+                "can-accept-optional-message": "",
+                "review": "Egin klik hemen termino berriak irakurri eta baimentzeko",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "Terminoen onarpen egoera"

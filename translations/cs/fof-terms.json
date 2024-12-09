@@ -66,7 +66,12 @@
             "update-alert": {
                 "must-accept-message": "Dočasně jsme omezili přístup k vašemu účtu, než se seznámíte s novými podmínkami.",
                 "can-accept-message": "Nedávno jsme aktualizovali podmínky. Chcete-li nadále používat tyto webové stránky, musíte je přijmout.",
-                "review": "Kliknutím zde si můžete prohlédnout a přijmout nové podmínky"
+                "can-accept-optional-message": "",
+                "review": "Kliknutím zde si můžete prohlédnout a přijmout nové podmínky",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "Stav akceptace podmínek"
