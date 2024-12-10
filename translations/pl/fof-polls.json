@@ -43,7 +43,7 @@
             "poll_ended": "Ta ankieta zakończyła się.",
             "public_poll": "Zobacz głosujących",
             "max_votes_allowed": "Ankieta umożliwia głosowanie na {max, plural, one {# opcję} few {# opcje} other {# opcji}}.",
-            "polls_count": "",
+            "polls_count": "{count, plural, one { {count} głos} few {{count} głosy} other {{count} głosów}}",
             "poll_never_ends": "Ankieta nigdy się nie kończy",
             "answers": "Odpowiedzi",
             "poll": {
@@ -101,7 +101,7 @@
                 "max_votes_label": "Maksymalna liczba głosów na użytkownika",
                 "max_votes_help": "Ustaw na 0, aby pozwolić użytkownikom głosować na wszystkie opcje.",
                 "hide_votes_label": "Ukryj głosy do czasu zakończenia ankiety",
-                "hide_votes_label_help": "",
+                "hide_votes_label_help": "Użytkownik, który rozpoczął ankietę, zawsze będzie mógł zobaczyć głosy.",
                 "allow_change_vote_label": "Pozwól użytkownikom zmienić swój głos",
                 "question_placeholder": "Pytanie",
                 "subtitle_placeholder": "Podtytuł/Opis (opcjonalne)",
