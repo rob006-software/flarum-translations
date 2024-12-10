@@ -2,12 +2,12 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "Tombol enter (return) akan mengirim pesan",
-                "return_key_help": "",
+                "return_key": "Tombol return (enter) akan mengirim pesan",
+                "return_key_help": "Atur agar penekanan tombol return (tombol “enter”) akan mengirimkan pesan. Jika ini dinonaktifkan, menekan tombol return akan memulai baris baru, dan pengguna harus mengklik tombol “Kirim pesan” untuk mengirim pesan.",
                 "show_read_receipts": "",
-                "show_read_receipts_help": "",
-                "message_recipient_background_color": "",
-                "message_recipient_background_color_help": ""
+                "show_read_receipts_help": "Tampilkan kotak centang di samping pesan ketika penerima telah membacanya.",
+                "message_recipient_background_color": "Warna khusus untuk pesan penerima",
+                "message_recipient_background_color_help": "."
             },
             "permissions": {
                 "start_label": "Memulai percakapan pribadi",
@@ -38,7 +38,7 @@
                 "cant_start": "Tidak Dapat Memulai Percakapan",
                 "text_placeholder": "Ketikkan Pesan Anda",
                 "send": "Kirim Pesan",
-                "message_read": ""
+                "message_read": "Pesan telah dibaca"
             },
             "notifications": {
                 "message_received": "Tes",
