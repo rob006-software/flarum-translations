@@ -3,6 +3,11 @@
         "admin": {
             "settings": {
                 "return_key": "回车发送消息",
+                "return_key_help": "",
+                "show_read_receipts": "",
+                "show_read_receipts_help": "",
+                "message_recipient_background_color": "",
+                "message_recipient_background_color_help": "",
                 "title": "悄悄话设置"
             },
             "permissions": {
@@ -33,7 +38,8 @@
                 "read": "已读",
                 "cant_start": "无法发起会话",
                 "text_placeholder": "说点什么吧",
-                "send": "发送"
+                "send": "发送",
+                "message_read": ""
             },
             "notifications": {
                 "message_received": "测试",

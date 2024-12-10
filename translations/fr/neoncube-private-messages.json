@@ -3,6 +3,11 @@
         "admin": {
             "settings": {
                 "return_key": "La touche retour envoie un message",
+                "return_key_help": "",
+                "show_read_receipts": "",
+                "show_read_receipts_help": "",
+                "message_recipient_background_color": "",
+                "message_recipient_background_color_help": "",
                 "title": "Paramètres de chuchotement"
             },
             "permissions": {
@@ -33,7 +38,8 @@
                 "read": "Lu",
                 "cant_start": "Impossible de démarrer la conversation",
                 "text_placeholder": "Tapez votre message",
-                "send": "Envoyer un message"
+                "send": "Envoyer un message",
+                "message_read": ""
             },
             "notifications": {
                 "message_received": "Tester",

@@ -2,7 +2,12 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "Tombol enter (return) akan mengirim pesan"
+                "return_key": "Tombol enter (return) akan mengirim pesan",
+                "return_key_help": "",
+                "show_read_receipts": "",
+                "show_read_receipts_help": "",
+                "message_recipient_background_color": "",
+                "message_recipient_background_color_help": ""
             },
             "permissions": {
                 "start_label": "Memulai percakapan pribadi",
@@ -32,7 +37,8 @@
                 "read": "Baca",
                 "cant_start": "Tidak Dapat Memulai Percakapan",
                 "text_placeholder": "Ketikkan Pesan Anda",
-                "send": "Kirim Pesan"
+                "send": "Kirim Pesan",
+                "message_read": ""
             },
             "notifications": {
                 "message_received": "Tes",

@@ -2,7 +2,12 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "Az Enter gomb elküldi az üzenetet"
+                "return_key": "Az Enter gomb elküldi az üzenetet",
+                "return_key_help": "",
+                "show_read_receipts": "",
+                "show_read_receipts_help": "",
+                "message_recipient_background_color": "",
+                "message_recipient_background_color_help": ""
             },
             "permissions": {
                 "start_label": "Privát beszélgetések indítása",
@@ -32,7 +37,8 @@
                 "read": "Olvasás",
                 "cant_start": "Nem kezdhető el a beszélgetés",
                 "text_placeholder": "Írja be az üzenetét",
-                "send": "Üzenet küldése"
+                "send": "Üzenet küldése",
+                "message_read": ""
             },
             "notifications": {
                 "message_received": "Teszt",

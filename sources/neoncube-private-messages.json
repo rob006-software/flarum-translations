@@ -2,7 +2,12 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "Return key sends message"
+                "return_key": "Return key sends message",
+                "return_key_help": "Make  it so that pressing the return key (the \"enter\" key) sends a message. If this is disabled, pressing the return key will start a new line, and the user must click the \"Send message\" button to send the message.",
+                "show_read_receipts": "Show read receipts",
+                "show_read_receipts_help": "Show a checkbox next to a message when the recipient has read it.",
+                "message_recipient_background_color": "Custom color for the recipient message",
+                "message_recipient_background_color_help": "."
             },
             "permissions": {
                 "start_label": "Start private conversations",
@@ -32,7 +37,8 @@
                 "read": "Read",
                 "cant_start": "Can't Start Conversation",
                 "text_placeholder": "Type your message",
-                "send": "Send Message"
+                "send": "Send Message",
+                "message_read": "Message has been read"
             },
             "notifications": {
                 "message_received": "Test",
