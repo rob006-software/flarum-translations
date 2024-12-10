@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "",
+                    "heading": "Ogólne ustawienia",
                     "help": ""
                 },
                 "global_polls": {
@@ -109,19 +109,19 @@
                 "delete": "",
                 "error": "",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
-                    "later_help": ""
+                    "label": "Obrazek ankiety",
+                    "help": "Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).",
+                    "alt_label": "Alternatywny tekst obrazka",
+                    "alt_help_text": "Ten tekst jest wymagany po ustawieniu obrazka i zostanie wyświetlony, jeśli obraz nie zostanie załadowany.",
+                    "later_help": "Po utworzeniu ankiety będzie można przesłać obrazek."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Obrazek odpowiedzi ankiety",
+                    "help": "Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie)."
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Dodaj odpowiedź"
                     }
                 }
             },
@@ -132,14 +132,14 @@
                 "edit": "Edytuj ankietę"
             },
             "page": {
-                "nav": "",
-                "nav-all": ""
+                "nav": "Ankiety",
+                "nav-all": "Wszystkie globalne ankiety"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Aktywne ankiety",
+                "ended-polls": "Zakończone ankiety",
+                "no-active-polls": "W tej chwili nie ma aktywnych ankiet.",
+                "no-recent-polls": "W tej chwili nie ma żadnych niedawno zakończonych ankiet."
             },
             "tooltip": {
                 "badge": "Ankieta",
@@ -149,8 +149,8 @@
                 "title": "Głosujący użytkownicy"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Usuń obrazek",
+                "upload_button": "Prześlij obrazek"
             }
         }
     }
