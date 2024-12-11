@@ -112,7 +112,7 @@
                 "view_user_uploads_label": "Смотреть загрузки пользователя",
                 "delete_uploads_of_others_label": "Удалять загрузки пользователей",
                 "upload_shared_label": "Загрузить общие файлы",
-                "access_shared_label": "Доступ к общим файлам в Менеджере файлов"
+                "access_shared_label": "Доступ к общим файлам в Медиа Менеджере"
             },
             "templates": {
                 "file": "Файл",
@@ -214,42 +214,42 @@
         "lib": {
             "upload-shared-file-modal": {
                 "title": "Новый общий файл",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "dropzone": "Перетащите файлы сюда или нажмите, чтобы просмотреть",
+                "hide-from-media-gallery": "Скрыть из медиагалереи пользователя",
+                "upload": "Загрузить"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Загрузка файлов...",
+                "empty": "Нет файлов для отображения.",
+                "release_to_upload": "Отпустите, чтобы загрузить",
+                "modal_empty_desktop": "Ваш список файлов пуст. Нажмите кнопку или перетащите файл сюда для загрузки.",
+                "modal_empty_phone": "Ваш список файлов пуст. Нажмите кнопку выше, чтобы загрузить файл.",
+                "select_file_a11y_label": "Выберите файл \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Ничего не выбрано} one {Выбрать файл} other {Выбрать файлы}}",
+                "load_more_files_btn": "Загрузить больше файлов",
+                "delete_file_a11y_label": "Удалить файл \"{fileName}\"",
+                "delete_confirmation": "Вы уверены, что хотите удалить «{fileName}»?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Скрыть \"{fileName}\" из медиа менеджера",
+                    "btn_a11y_label_show": "Показать \"{fileName}\" в медиа менеджере",
+                    "hide_confirmation": "Вы уверены, что хотите скрыть \"{fileName}\"? Скрытие файла удалит его только из вашего медиа менеджера и не повлияет на существующие публикации.",
+                    "hide_success": "Файл скрыт",
+                    "show_confirmation": "Вы уверены, что хотите показать \"{fileName}\"? Отображение файла сделает его видимым в вашем медиа менеджере.",
+                    "show_success": "Файл показан",
+                    "hide_fail": "Не удалось скрыть файл \"{fileName}\"",
+                    "show_fail": "Не удалось показать файл \"{fileName}\"",
+                    "loading": "Скрытие файла..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Сделать \"{fileName}\" приватным (без публичного URL)",
+                    "btn_a11y_label_show": "Сделать \"{fileName}\" общедоступным (с общедоступным URL)",
+                    "hide_confirmation": "Вы уверены, что хотите сделать \"{fileName}\" приватным? Если сделать файл приватным, его публичный URL-адрес будет удален, но это не повлияет на существующие записи. Он также больше не будет виден в медиа менеджере неавторизованным пользователям.",
+                    "hide_success": "Файл сделан приватным",
+                    "show_confirmation": "Вы уверены, что хотите сделать \"{fileName}\" общедоступным? Публичный доступ к файлу сделает его доступным для всех, у кого есть общедоступный URL, и любой может поделиться им с помощью медиа менеджера.",
+                    "show_success": "Файл открыт для общего доступа",
+                    "hide_fail": "Не удалось сделать файл \"{fileName}\" приватным",
+                    "show_fail": "Не удалось сделать файл \"{fileName}\" общедоступным",
+                    "loading": "Делаем файл приватным..."
                 }
             }
         }
