@@ -491,6 +491,7 @@ return [
 	],
 	'flarum-approval' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/approval/v1.8.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/approval/v2.0.0-beta.1/locale/en.yml',
 	],
 	'flarum-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/bbcode/v1.8.0/locale/en.yml',
