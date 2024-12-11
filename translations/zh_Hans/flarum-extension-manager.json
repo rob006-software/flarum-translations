@@ -167,23 +167,23 @@
         },
         "validation": {
             "attributes": {
-                "minimum_stability": "",
-                "repositories": "",
-                "repositories.*": "",
-                "repositories.*.type": "",
-                "repositories.*.url": "",
-                "extension_id": "",
-                "update_mode": "",
-                "package": "",
-                "version": "",
-                "github_oauth": "",
-                "github_oauth.*": "",
-                "gitlab_oauth": "",
-                "gitlab_oauth.*": "",
-                "gitlab_token": "",
-                "gitlab_token.*": "",
-                "bearer": "",
-                "bearer.*": ""
+                "minimum_stability": "稳定性约束",
+                "repositories": "仓库",
+                "repositories.*": "仓库",
+                "repositories.*.type": "仓库类型",
+                "repositories.*.url": "仓库 URL",
+                "extension_id": "扩展程序 ID",
+                "update_mode": "更新模式",
+                "package": "包",
+                "version": "版本",
+                "github_oauth": "GitHub 认证",
+                "github_oauth.*": "GitHub 认证",
+                "gitlab_oauth": "GitLab 认证",
+                "gitlab_oauth.*": "GitLab 认证",
+                "gitlab_token": "GitLab 令牌",
+                "gitlab_token.*": "GitLab 令牌",
+                "bearer": "HTTP 令牌认证",
+                "bearer.*": "HTTP 令牌认证"
             }
         }
     }
