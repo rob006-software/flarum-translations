@@ -51,15 +51,43 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} respondeu á tua mensagem em {title}",
-                "body": "Olá {recipient_display_name}!\n\n{replier_display_name} respondeu á tua mensagem (#{post_number}) em {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Olá {recipient_display_name}!\n\n{replier_display_name} respondeu á tua mensagem (#{post_number}) em {title}.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} mencionou-te em {title}",
-                "body": "Olá {recipient_display_name}!\n\n{mentioner_display_name} menciounou-te numa mensagem em {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Olá {recipient_display_name}!\n\n{mentioner_display_name} menciounou-te numa mensagem em {title}.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} mencionou um grupo no qual és membro em {title}",
-                "body": "Olá {recipient_display_name}!\n\n{mentioner_display_name} mencionou um grupo onde és membro em {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Olá {recipient_display_name}!\n\n{mentioner_display_name} mencionou um grupo onde és membro em {title}.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "posts": {
+                    "mentioned": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
             }
         }
     }

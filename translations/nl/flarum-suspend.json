@@ -40,16 +40,37 @@
             "no_reason_given": "Er is geen reden opgegeven voor deze schorsing.",
             "suspended": {
                 "subject": "Uw account is opgeschort",
-                "body": "Hoi {recipient_display_name},\n\nU bent geschorst om de volgende reden:\n\n---\n{suspension_message}\n---\n"
+                "body": "Hoi {recipient_display_name},\n\nU bent geschorst om de volgende reden:\n\n---\n{suspension_message}\n---\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "Uw account is niet meer opgeschort",
-                "body": "Hallo {recipient_display_name},\n\nJe schorsing is ongedaan gemaakt. U kunt teruggaan naar het forum door op de volgende link te klikken:\n\n{forum_url}\n"
+                "body": "Hallo {recipient_display_name},\n\nJe schorsing is ongedaan gemaakt. U kunt teruggaan naar het forum door op de volgende link te klikken:\n\n{forum_url}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

@@ -51,15 +51,43 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} đã trả lời bài viết của bạn trong {title}",
-                "body": "Chào {recipient_display_name}!\n\n{replier_display_name} đã trả lời bài viết của bạn (#{post_number}) trong {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Chào {recipient_display_name}!\n\n{replier_display_name} đã trả lời bài viết của bạn (#{post_number}) trong {title}.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} đã nhắc đến bạn trong {title}",
-                "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} đã nhắc đến bạn trong một bài viết trong {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} đã nhắc đến bạn trong một bài viết trong {title}.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} đã đề cập đến một nhóm mà bạn là thành viên trong {title}",
-                "body": "Xin chào {recipient_display_name}!\n\n{mentioner_display_name} đã chắc đến một nhóm mà bạn là thành viên trong {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Xin chào {recipient_display_name}!\n\n{mentioner_display_name} đã chắc đến một nhóm mà bạn là thành viên trong {title}.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "posts": {
+                    "mentioned": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
             }
         }
     }

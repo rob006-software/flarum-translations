@@ -40,16 +40,37 @@
             "no_reason_given": "لم يتمّ تقديم أي أسباب حول هذا التّعليق.",
             "suspended": {
                 "subject": "لقد تمّ تعليق حسابك",
-                "body": "مرحبا {recipient_display_name}، \n \nلقد تمّ تعليق مشاركتك في المنتدى للأسباب الآتية: \n \n--- \n{suspension_message} \n---\n"
+                "body": "مرحبا {recipient_display_name}، \n \nلقد تمّ تعليق مشاركتك في المنتدى للأسباب الآتية: \n \n--- \n{suspension_message} \n---\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "لقد تمّ إزالة التّعليق عن حسابك",
-                "body": "مرحبا {recipient_display_name}، \n \nلقد تمّ إزالة التّعليق عن حسابك. يُمكنك العودة إلى النّشاط على المنتدى بالانتقال عبر الرّابط الآتي: \n \n{forum_url}\n"
+                "body": "مرحبا {recipient_display_name}، \n \nلقد تمّ إزالة التّعليق عن حسابك. يُمكنك العودة إلى النّشاط على المنتدى بالانتقال عبر الرّابط الآتي: \n \n{forum_url}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

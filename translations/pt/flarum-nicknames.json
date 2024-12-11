@@ -13,7 +13,12 @@
                 "set_on_registration_label": "Permitir a configuração de nicknames no registro",
                 "unique_label": "Nicknames únicos requeridos"
             },
-            "wrong_driver": "Deve selecionar \"nickname\" como driver de visualização na <a><strong>Pagina Básico</strong></a> para esta extensão ter efeito."
+            "wrong_driver": "Deve selecionar \"nickname\" como driver de visualização na <a><strong>Pagina Básico</strong></a> para esta extensão ter efeito.",
+            "basics": {
+                "display_name_driver_options": {
+                    "nickname": ""
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "Esse nickname é invalido. Por favor contacte o administrador do forum para mais informações sobre as regras para nicknames."

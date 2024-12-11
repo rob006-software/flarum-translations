@@ -39,13 +39,29 @@
         "email": {
             "new_post": {
                 "subject": "",
-                "body": "Sehr geehrte/r {recipient_display_name},\n\n{poster_display_name} hat einen Beitrag in einer Diskussion verfasst, der Sie folgen: {title}.\n\nBitte folgen Sie dem untenstehenden Link, um die neue Aktivität zu sehen:\n{url}\n\n---\n\n{content}\n\n---\n\nSie werden keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis Sie sie wieder besucht haben.\n"
+                "body": "Sehr geehrte/r {recipient_display_name},\n\n{poster_display_name} hat einen Beitrag in einer Diskussion verfasst, der Sie folgen: {title}.\n\nBitte folgen Sie dem untenstehenden Link, um die neue Aktivität zu sehen:\n{url}\n\n---\n\n{content}\n\n---\n\nSie werden keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis Sie sie wieder besucht haben.\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
             "follow": "",
             "following": "",
             "ignoring": ""
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
+            }
         }
     }
 }

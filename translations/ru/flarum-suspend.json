@@ -40,16 +40,37 @@
             "no_reason_given": "Причина блокировки не указана.",
             "suspended": {
                 "subject": "Ваш аккаунт заблокирован",
-                "body": "Здравствуйте, {recipient_display_name}!\n\nВаш аккаунт был заблокирован по следующей причине:\n\n---\n{suspension_message}\n---\n"
+                "body": "Здравствуйте, {recipient_display_name}!\n\nВаш аккаунт был заблокирован по следующей причине:\n\n---\n{suspension_message}\n---\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "Ваш аккаунт разблокирован",
-                "body": "Здравствуйте, {recipient_display_name}!\n\nВаш аккаунт был разблокирован. Вы можете вернуться на форум, нажав на ссылку:\n\n{forum_url}\n"
+                "body": "Здравствуйте, {recipient_display_name}!\n\nВаш аккаунт был разблокирован. Вы можете вернуться на форум, нажав на ссылку:\n\n{forum_url}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

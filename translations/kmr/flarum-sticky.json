@@ -3,6 +3,11 @@
         "admin": {
             "permissions": {
                 "sticky_discussions_label": "Nîqaşên pînekirî"
+            },
+            "settings": {
+                "enable_display_excerpt": "",
+                "only_sticky_unread_discussions_label": "",
+                "only_sticky_unread_discussions_help": ""
             }
         },
         "forum": {
@@ -20,6 +25,15 @@
         },
         "ref": {
             "sticky": "sabît"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "sticky": {
+                        "key": ""
+                    }
+                }
+            }
         }
     }
 }

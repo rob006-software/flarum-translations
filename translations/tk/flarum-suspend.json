@@ -40,16 +40,37 @@
             "no_reason_given": "Bu blogyň sebäbi görkezilmedik.",
             "suspended": {
                 "subject": "Siziň hasabyňyz blok edilen",
-                "body": "Salam {recipient_display_name},\n\nSiz indiki sebäp üçin blok edildiňiz:\n\n---\n{suspension_message}\n---\n"
+                "body": "Salam {recipient_display_name},\n\nSiz indiki sebäp üçin blok edildiňiz:\n\n---\n{suspension_message}\n---\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "Siziň hasabyňyz blokdan açyldy",
-                "body": "Salam {recipient_display_name},\n\nSiz blokdan açyldyňyz. Siz foruma aşaky salgy boýunça geçip bilersiňiz:\n\n{forum_url}\n"
+                "body": "Salam {recipient_display_name},\n\nSiz blokdan açyldyňyz. Siz foruma aşaky salgy boýunça geçip bilersiňiz:\n\n{forum_url}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

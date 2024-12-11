@@ -13,7 +13,12 @@
                 "set_on_registration_label": "Permitir establecer apodos en el registro",
                 "unique_label": "Requerir apodos únicos"
             },
-            "wrong_driver": "Debes seleccionar \"apodo\" como controlador de nombre para mostrar en la <a><strong>Página de información básica</strong></a> para que esta extensión surta efecto."
+            "wrong_driver": "Debes seleccionar \"apodo\" como controlador de nombre para mostrar en la <a><strong>Página de información básica</strong></a> para que esta extensión surta efecto.",
+            "basics": {
+                "display_name_driver_options": {
+                    "nickname": ""
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "Este apodo no es válido. Ponte en contacto con el administrador del foro para obtener más información sobre las reglas de apodos."

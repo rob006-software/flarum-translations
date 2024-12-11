@@ -40,16 +40,37 @@
             "no_reason_given": "管理员并未给出封禁原因。",
             "suspended": {
                 "subject": "你的账号已被封禁",
-                "body": "{recipient_display_name} 你好，\n\n你的账号因以下原因已被封禁：\n\n---\n{suspension_message}\n---\n"
+                "body": "{recipient_display_name} 你好，\n\n你的账号因以下原因已被封禁：\n\n---\n{suspension_message}\n---\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "你的账号已解封",
-                "body": "{recipient_display_name} 你好，\n\n你的账号已解封。\n\n{forum_url}\n"
+                "body": "{recipient_display_name} 你好，\n\n你的账号已解封。\n\n{forum_url}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

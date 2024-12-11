@@ -39,13 +39,29 @@
         "email": {
             "new_post": {
                 "subject": "",
-                "body": ""
+                "body": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
             "follow": "Seguir",
             "following": "Seguindo",
             "ignoring": "Ignorando"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
+            }
         }
     }
 }

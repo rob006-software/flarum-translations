@@ -40,16 +40,37 @@
             "no_reason_given": "",
             "suspended": {
                 "subject": "Contul Dvs. a fost suspendat",
-                "body": "Salut {recipient_display_name},\n\nAți fost suspendat pentru următorul motiv:\n\n---\n{suspension_message}\n---\n"
+                "body": "Salut {recipient_display_name},\n\nAți fost suspendat pentru următorul motiv:\n\n---\n{suspension_message}\n---\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "Suspendarea contului Dvs. a fost anulată",
-                "body": "Salut {recipient_display_name},\n\nSuspendarea Dvs. a fost anulată. Vă puteți întoarce pe forum accesând următorul link:\n\n{forum_url}"
+                "body": "Salut {recipient_display_name},\n\nSuspendarea Dvs. a fost anulată. Vă puteți întoarce pe forum accesând următorul link:\n\n{forum_url}",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

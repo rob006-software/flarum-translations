@@ -40,16 +40,37 @@
             "no_reason_given": "",
             "suspended": {
                 "subject": "Ihr Konto wurde ausgeschlossen",
-                "body": "Sehr geehrte/r {recipient_display_name},\n\nSie wurden aus folgendem Grund ausgeschlossen:\n\n---\n{suspension_message}\n---\n"
+                "body": "Sehr geehrte/r {recipient_display_name},\n\nSie wurden aus folgendem Grund ausgeschlossen:\n\n---\n{suspension_message}\n---\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "Die Ausschluss Ihres Kontos wurde aufgehoben",
-                "body": "Sehr geehrte/r {recipient_display_name},\n\nIhr Ausschluss wurde aufgehoben. Sie können zum Forum zurückkehren, indem Sie auf den folgenden Link klicken:\n\n{forum_url}\n"
+                "body": "Sehr geehrte/r {recipient_display_name},\n\nIhr Ausschluss wurde aufgehoben. Sie können zum Forum zurückkehren, indem Sie auf den folgenden Link klicken:\n\n{forum_url}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

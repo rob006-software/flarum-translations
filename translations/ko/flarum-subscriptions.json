@@ -39,13 +39,29 @@
         "email": {
             "new_post": {
                 "subject": "[새로운 게시물] {title}",
-                "body": "안녕하세요 {recipient_display_name}님!\n\n{poster_display_name}님이 팔로우 중인 토론에서 게시물을 작성했습니다: {title}.\n\n새로운 활동을 보려면 다음 링크를 확인하세요:\n{url}\n\n---\n\n{content}\n\n---\n\n최신 상태가 될 때까지 이 토론에 대한 추가 알림을 받지 않습니다.\n"
+                "body": "안녕하세요 {recipient_display_name}님!\n\n{poster_display_name}님이 팔로우 중인 토론에서 게시물을 작성했습니다: {title}.\n\n새로운 활동을 보려면 다음 링크를 확인하세요:\n{url}\n\n---\n\n{content}\n\n---\n\n최신 상태가 될 때까지 이 토론에 대한 추가 알림을 받지 않습니다.\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
             "follow": "팔로우",
             "following": "팔로우 중",
             "ignoring": "무시"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
+            }
         }
     }
 }

@@ -13,7 +13,12 @@
                 "set_on_registration_label": "Pozwól ustawić pseudonim podczas rejestracji",
                 "unique_label": "Wymagaj unikalnych pseudonimów"
             },
-            "wrong_driver": "Musisz wybrać \"nickname\" jako sterownik, który powinien być używany do wyświetlania nazw użytkowników, na stronie <a><strong>podstawowych ustawień</strong></a>, aby to rozszerzenie zadziałało."
+            "wrong_driver": "Musisz wybrać \"nickname\" jako sterownik, który powinien być używany do wyświetlania nazw użytkowników, na stronie <a><strong>podstawowych ustawień</strong></a>, aby to rozszerzenie zadziałało.",
+            "basics": {
+                "display_name_driver_options": {
+                    "nickname": ""
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "Ten pseudonim jest nieprawidłowy. Skontaktuj się z administratorem forum, aby uzyskać więcej informacji na temat reguł dotyczących pseudonimów."

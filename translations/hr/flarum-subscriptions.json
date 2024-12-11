@@ -39,13 +39,29 @@
         "email": {
             "new_post": {
                 "subject": "[Nova objava] {title}",
-                "body": "Hej {recipient_display_name}!\n\n{poster_display_name} objavljuje u raspravi koju pratite: {title}.\n\nKako biste pregledali ovu novu aktivnost, provjerite sljedeću poveznicu:\n{url}\n\n---\n\n{content}\n\n---\n\nNećete više primati obavijesti oko ove rasprave dok ne postanete ažurni.\n"
+                "body": "Hej {recipient_display_name}!\n\n{poster_display_name} objavljuje u raspravi koju pratite: {title}.\n\nKako biste pregledali ovu novu aktivnost, provjerite sljedeću poveznicu:\n{url}\n\n---\n\n{content}\n\n---\n\nNećete više primati obavijesti oko ove rasprave dok ne postanete ažurni.\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
             "follow": "Kreni pratiti",
             "following": "Pratim",
             "ignoring": "Ignoriram"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
+            }
         }
     }
 }

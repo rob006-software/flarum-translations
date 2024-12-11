@@ -39,13 +39,29 @@
         "email": {
             "new_post": {
                 "subject": "[نوشته جدید] {title}",
-                "body": "سلام {recipient_display_name}!\n\n{poster_display_name} در بحثی که شما دنبال می‌کنید پستی ارسال کرد: {title}.\n\nبرای مشاهده فعالیت جدید به لینک زیر مراجعه کنید:\n{url}\n\n---\n\n{content}\n\n---\n\nتا زمانی که به‌روز نشود، هیچ اعلان دیگری درباره این بحث دریافت نخواهید کرد.\n"
+                "body": "سلام {recipient_display_name}!\n\n{poster_display_name} در بحثی که شما دنبال می‌کنید پستی ارسال کرد: {title}.\n\nبرای مشاهده فعالیت جدید به لینک زیر مراجعه کنید:\n{url}\n\n---\n\n{content}\n\n---\n\nتا زمانی که به‌روز نشود، هیچ اعلان دیگری درباره این بحث دریافت نخواهید کرد.\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
             "follow": "دنبال کردن",
             "following": "دنبال شده",
             "ignoring": "نادیده گرفتن"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
+            }
         }
     }
 }

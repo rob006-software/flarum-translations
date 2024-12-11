@@ -39,13 +39,29 @@
         "email": {
             "new_post": {
                 "subject": "[Uus postitus] {title}",
-                "body": "Hei {recipient_display_name}!\n\n{poster_display_name} postitas sinu jälgitud teemasse: {title}.\n\nUue sisu vaatamiseks kliki alloleval lingil:\n{url}\n\n---\n\n{content}\n\n---\n\nUusi teateid selle teema kohta ei tule, kuni sul seal kõik jälle loetud on.\n"
+                "body": "Hei {recipient_display_name}!\n\n{poster_display_name} postitas sinu jälgitud teemasse: {title}.\n\nUue sisu vaatamiseks kliki alloleval lingil:\n{url}\n\n---\n\n{content}\n\n---\n\nUusi teateid selle teema kohta ei tule, kuni sul seal kõik jälle loetud on.\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
             "follow": "Jälgi",
             "following": "Jälgitud",
             "ignoring": "Ignoreeritud"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
+            }
         }
     }
 }

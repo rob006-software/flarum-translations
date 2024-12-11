@@ -39,13 +39,29 @@
         "email": {
             "new_post": {
                 "subject": "[Nova objava] {title}",
-                "body": ""
+                "body": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
             "follow": "Sledi",
             "following": "Sledim",
             "ignoring": "Ignoriram"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
+            }
         }
     }
 }

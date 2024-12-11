@@ -40,16 +40,37 @@
             "no_reason_given": "No s'ha indicat cap motiu per a aquesta suspensió.",
             "suspended": {
                 "subject": "El teu compte ha estat suspès",
-                "body": "Hola {recipient_display_name}!\n\nEl teu compte ha estat suspès per aquest motiu:\n\n---\n{suspension_message}\n---\n"
+                "body": "Hola {recipient_display_name}!\n\nEl teu compte ha estat suspès per aquest motiu:\n\n---\n{suspension_message}\n---\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "S'ha anul·lat la suspensió del teu compte",
-                "body": "Hola {recipient_display_name}!\n\nS'ha anul·lat la teva suspensió. Pots tornar al fòrum clicant el següent enllaç:\n\n{forum_url}\n"
+                "body": "Hola {recipient_display_name}!\n\nS'ha anul·lat la teva suspensió. Pots tornar al fòrum clicant el següent enllaç:\n\n{forum_url}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

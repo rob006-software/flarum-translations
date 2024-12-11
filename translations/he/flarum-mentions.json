@@ -51,15 +51,43 @@
         "email": {
             "post_mentioned": {
                 "subject": "המשתמש {replier_display_name} הגיב לך בהודעה {title}",
-                "body": "שלום {recipient_display_name}!\n\nהמשתמש {replier_display_name} הגיב לך בהודעה (#{post_number}) בנושא {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "שלום {recipient_display_name}!\n\nהמשתמש {replier_display_name} הגיב לך בהודעה (#{post_number}) בנושא {title}.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} תייג אותך בנושא {title}",
-                "body": "שלום {recipient_display_name}!\n\nהמשתמש {mentioner_display_name} תייג אותך בהודעה בנושא {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "שלום {recipient_display_name}!\n\nהמשתמש {mentioner_display_name} תייג אותך בהודעה בנושא {title}.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "group_mentioned": {
                 "subject": "",
-                "body": ""
+                "body": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "posts": {
+                    "mentioned": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
             }
         }
     }

@@ -39,13 +39,29 @@
         "email": {
             "new_post": {
                 "subject": "[منشور جديد] {title}",
-                "body": "مرحبا {recipient_display_name} \n \nقام(ت) {poster_display_name} بالنّشر في مناقشة: {title} التي تتمّ متابعتها من طرفك. \n \nلمشاهدة النّشاط الجديد، يُمكنك الانتقال عبر الرّابط الآتي: {url} \n \n--- \n \n{content} \n \n--- \n \nلن يتمّ إرسال أي إشعارات أخرى حول هذه المناقشة حتى يتمّ الاطّلاع من طرفك عليها.\n"
+                "body": "مرحبا {recipient_display_name} \n \nقام(ت) {poster_display_name} بالنّشر في مناقشة: {title} التي تتمّ متابعتها من طرفك. \n \nلمشاهدة النّشاط الجديد، يُمكنك الانتقال عبر الرّابط الآتي: {url} \n \n--- \n \n{content} \n \n--- \n \nلن يتمّ إرسال أي إشعارات أخرى حول هذه المناقشة حتى يتمّ الاطّلاع من طرفك عليها.\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
             "follow": "متابعة",
             "following": "المتابعون",
             "ignoring": "تجاهل"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
+            }
         }
     }
 }

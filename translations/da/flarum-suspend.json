@@ -40,16 +40,37 @@
             "no_reason_given": "Ingen årsag blev givet til suspenderingen.",
             "suspended": {
                 "subject": "Din konto er suspenderet",
-                "body": "Hej {recipient_display_name}\n\nDu er blevet suspenderet af følgende årsag:\n\n---\n{suspension_message}\n---\n"
+                "body": "Hej {recipient_display_name}\n\nDu er blevet suspenderet af følgende årsag:\n\n---\n{suspension_message}\n---\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "Din konto er blevet suspenderet",
-                "body": "Hej {recipient_display_name},\n\nVi har fjernet din suspendering. Du kan gå tilbage til forummet ved at klikke på følgende link:\n\n{forum_url}\n"
+                "body": "Hej {recipient_display_name},\n\nVi har fjernet din suspendering. Du kan gå tilbage til forummet ved at klikke på følgende link:\n\n{forum_url}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

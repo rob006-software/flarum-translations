@@ -51,15 +51,43 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} svarede på dit indlæg i {title}",
-                "body": "Hej {recipient_display_name}!\n\n{replier_display_name} svarede på dit indlæg (#{post_number}) i {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Hej {recipient_display_name}!\n\n{replier_display_name} svarede på dit indlæg (#{post_number}) i {title}.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} omtalte dig i {title}",
-                "body": "Hej {recipient_display_name}!\n\n{mentioner_display_name} nævnte dig i et indlæg i {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Hej {recipient_display_name}!\n\n{mentioner_display_name} nævnte dig i et indlæg i {title}.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "group_mentioned": {
                 "subject": "",
-                "body": ""
+                "body": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "posts": {
+                    "mentioned": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
             }
         }
     }

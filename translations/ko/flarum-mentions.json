@@ -51,15 +51,43 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name}님이 {title}에서 당신의 게시물에 회답",
-                "body": "안녕하세요 {recipient_display_name}님!\n\n{replier_display_name}님이 {title}의 게시물(#{post_number})에 회답했습니다.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "안녕하세요 {recipient_display_name}님!\n\n{replier_display_name}님이 {title}의 게시물(#{post_number})에 회답했습니다.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name}님이 {title}에서 당신을 언급",
-                "body": "안녕하세요 {recipient_display_name}님!\n\n{mentioner_display_name}님이 {title}의 게시물에서 당신을 언급했습니다.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "안녕하세요 {recipient_display_name}님!\n\n{mentioner_display_name}님이 {title}의 게시물에서 당신을 언급했습니다.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name}님이 {title}에서 당신이 속한 그룹을 언급",
-                "body": "안녕하세요 {recipient_display_name}님!\n\n{mentioner_display_name}님이 {title}에서 당신이 속한 그룹을 언급했습니다.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "안녕하세요 {recipient_display_name}님!\n\n{mentioner_display_name}님이 {title}에서 당신이 속한 그룹을 언급했습니다.\n\n{url}\n\n---\n\n{content}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "posts": {
+                    "mentioned": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
             }
         }
     }

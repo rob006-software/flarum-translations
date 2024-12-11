@@ -51,15 +51,43 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} svarade på ditt inlägg i {title}",
-                "body": ""
+                "body": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} nämnde dig i {title}",
-                "body": ""
+                "body": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "group_mentioned": {
                 "subject": "",
-                "body": ""
+                "body": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "posts": {
+                    "mentioned": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
             }
         }
     }

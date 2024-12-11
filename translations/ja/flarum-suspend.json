@@ -40,16 +40,37 @@
             "no_reason_given": "この利用停止についての理由は提供されていません。",
             "suspended": {
                 "subject": "あなたのアカウントは利用停止となりました",
-                "body": "{recipient_display_name}さん、こんにちは\n\nあなたのアカウントが以下の理由で利用停止されました:\n\n---\n{suspension_message}\n---\n"
+                "body": "{recipient_display_name}さん、こんにちは\n\nあなたのアカウントが以下の理由で利用停止されました:\n\n---\n{suspension_message}\n---\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "あなたのアカウントの利用停止が解除されました",
-                "body": "{recipient_display_name}さん、こんにちは\n\nあなたのアカウントの利用停止が解除されました。以下のリンクをクリックすることでフォーラムに戻ることが出来ます:\n\n{forum_url}\n"
+                "body": "{recipient_display_name}さん、こんにちは\n\nあなたのアカウントの利用停止が解除されました。以下のリンクをクリックすることでフォーラムに戻ることが出来ます:\n\n{forum_url}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

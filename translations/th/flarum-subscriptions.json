@@ -39,13 +39,29 @@
         "email": {
             "new_post": {
                 "subject": "[New Post] {title}",
-                "body": "สวัสดี {recipient_display_name}!\n\n{poster_display_name} ได้โพสต์ในกระทู้ที่คุณกำลังติดตาม: {title}.\n\nหากคุณต้องการดูโพสต์ ไปที่ลิงก์นี้:\n{url}\n\n---\n\n{content}\n\n---\n\nคุณจะไม่ได้รับการแจ้งเตือนเกี่ยวกับกระทู้นี้อีกจนกว่าคุณจะเข้าไปดูโพสต์ล่าสุด\n"
+                "body": "สวัสดี {recipient_display_name}!\n\n{poster_display_name} ได้โพสต์ในกระทู้ที่คุณกำลังติดตาม: {title}.\n\nหากคุณต้องการดูโพสต์ ไปที่ลิงก์นี้:\n{url}\n\n---\n\n{content}\n\n---\n\nคุณจะไม่ได้รับการแจ้งเตือนเกี่ยวกับกระทู้นี้อีกจนกว่าคุณจะเข้าไปดูโพสต์ล่าสุด\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
             "follow": "ติดตาม",
             "following": "กำลังติดตาม",
             "ignoring": "เพิกเฉย"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
+            }
         }
     }
 }

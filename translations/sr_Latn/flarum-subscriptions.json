@@ -39,13 +39,29 @@
         "email": {
             "new_post": {
                 "subject": "Novi odgovor u diskusiji {title}",
-                "body": "Zdravo {recipient_display_name}!\n\n{poster_display_name} je odgovorio/la u diskusiji koju pratite: {title}.\n\nDa pogledate novi odgovor, kliknite na sledeći link:\n{url}\n\n---\n\n{content}\n\n---\n\nNećete više dobijati obaveštenja o ovoj diskusiji dok ne ažurirate opcije praćenja.\n"
+                "body": "Zdravo {recipient_display_name}!\n\n{poster_display_name} je odgovorio/la u diskusiji koju pratite: {title}.\n\nDa pogledate novi odgovor, kliknite na sledeći link:\n{url}\n\n---\n\n{content}\n\n---\n\nNećete više dobijati obaveštenja o ovoj diskusiji dok ne ažurirate opcije praćenja.\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
             "follow": "Zapratite",
             "following": "Omiljeno",
             "ignoring": "Ignorišete"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
+            }
         }
     }
 }

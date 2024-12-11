@@ -39,13 +39,29 @@
         "email": {
             "new_post": {
                 "subject": "[הודעה חדשה] {title}",
-                "body": "שלום {recipient_display_name}!\n\nנכתבה הודעה חדשה על ידי {poster_display_name} בנושא: {title}.\n\nלצפיה בפעילות החדשה, בקרו בקישור הבא:\n{url}\n\n---\n\n{content}\n\n---\n\nלא תקבלו עוד התראות בנושא עד שלא תהיו מעודכנים.\n"
+                "body": "שלום {recipient_display_name}!\n\nנכתבה הודעה חדשה על ידי {poster_display_name} בנושא: {title}.\n\nלצפיה בפעילות החדשה, בקרו בקישור הבא:\n{url}\n\n---\n\n{content}\n\n---\n\nלא תקבלו עוד התראות בנושא עד שלא תהיו מעודכנים.\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
             "follow": "עקוב",
             "following": "עוקב",
             "ignoring": "מתעלם"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
+            }
         }
     }
 }

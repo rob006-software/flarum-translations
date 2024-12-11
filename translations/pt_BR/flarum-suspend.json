@@ -40,16 +40,37 @@
             "no_reason_given": "Nenhuma razão foi dada para esta suspensão.",
             "suspended": {
                 "subject": "A sua conta foi suspensa",
-                "body": "Olá, {recipient_display_name},\n\nVocê foi suspenso pelo seguinte motivo:\n\n---\n{suspension_message}\n---\n"
+                "body": "Olá, {recipient_display_name},\n\nVocê foi suspenso pelo seguinte motivo:\n\n---\n{suspension_message}\n---\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "Sua conta não está mais suspensa",
-                "body": "Obter {nome de exibição do destinatário},\n\nVocê não está mais suspenso. Você pode voltar ao fórum clicando no link a seguir:\n\n{url do fórum}\n"
+                "body": "Obter {nome de exibição do destinatário},\n\nVocê não está mais suspenso. Você pode voltar ao fórum clicando no link a seguir:\n\n{url do fórum}\n",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }
