@@ -506,6 +506,7 @@ return [
 	],
 	'flarum-flags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/flags/v1.8.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/flags/v2.0.0-beta.1/locale/en.yml',
 	],
 	'flarum-gdpr' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/gdpr/1.0.0-beta.3/resources/locale/en.yml',
