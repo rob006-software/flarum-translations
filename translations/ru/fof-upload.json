@@ -112,7 +112,7 @@
                 "view_user_uploads_label": "Смотреть загрузки пользователя",
                 "delete_uploads_of_others_label": "Удалять загрузки пользователей",
                 "upload_shared_label": "Загрузить общие файлы",
-                "access_shared_label": ""
+                "access_shared_label": "Доступ к общим файлам в Менеджере файлов"
             },
             "templates": {
                 "file": "Файл",
@@ -157,11 +157,11 @@
             "buttons": {
                 "attach": "Файл",
                 "upload": "Загрузить",
-                "upload_shared": "",
+                "upload_shared": "Поделился",
                 "user_uploads": "Загрузки пользователя",
                 "cancel": "Отмена",
                 "media": "Мои загрузки",
-                "shared_media": ""
+                "shared_media": "Общие медиа"
             },
             "states": {
                 "error": "Ошибка",
@@ -213,7 +213,7 @@
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
+                "title": "Новый общий файл",
                 "dropzone": "",
                 "hide-from-media-gallery": "",
                 "upload": ""
