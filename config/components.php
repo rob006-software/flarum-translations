@@ -553,6 +553,7 @@ return [
 	],
 	'flarum-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.8.3/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/flarum/tags/v2.0.0-beta.1/locale/en.yml',
 	],
 	'flarumite-simple-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/1.2.4/resources/locale/en.yml',
