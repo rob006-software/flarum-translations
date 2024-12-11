@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Все файлы загружены пользователем.",
+                    "anonymize_description": "Удаляет ссылку пользователя из загруженных файлов. Сами файлы остаются доступными для пользователей, которые могли просматривать их до анонимизации.",
+                    "delete_description": "Удаляет все файлы, загруженные пользователем."
                 }
             }
         }
@@ -13,14 +13,14 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Общие загрузки"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Загружайте файлы, которые смогут использовать все пользователи вашего форума.",
+                "introduction": "Общие загрузки — это файлы, которые могут использовать все пользователи вашего форума. Они не прикреплены ни к одному сообщению, но могут быть вставлены в сообщения с помощью менеджера файлов.\n\n<strong>Предупреждение:</strong> Общие загрузки не защищены никакими разрешениями. Любой, у кого есть URL, может просматривать их.\n",
+                "no-files": "Пока не загружено ни одного общего файла.",
+                "title": "Общие загрузки",
+                "upload-new-button": "Загрузить новый файл"
             },
             "pane": {
                 "title": "Загрузка",
@@ -111,7 +111,7 @@
                 "upload_label": "Загружать файлы",
                 "view_user_uploads_label": "Смотреть загрузки пользователя",
                 "delete_uploads_of_others_label": "Удалять загрузки пользователей",
-                "upload_shared_label": "",
+                "upload_shared_label": "Загрузить общие файлы",
                 "access_shared_label": ""
             },
             "templates": {
