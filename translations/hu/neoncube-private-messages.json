@@ -3,11 +3,11 @@
         "admin": {
             "settings": {
                 "return_key": "Az Enter gomb elküldi az üzenetet",
-                "return_key_help": "",
-                "show_read_receipts": "",
-                "show_read_receipts_help": "",
-                "message_recipient_background_color": "",
-                "message_recipient_background_color_help": ""
+                "return_key_help": "Beállítás, hogy az Enter gomb elküldje az üzenetet. Ha ez ki van kapcsolva, akkor az Enter gomb új sort kezd, az üzenet elküldéséhez pedig az „Üzenet elküldése” gombra kell kattintania a felhasználónak.",
+                "show_read_receipts": "Olvasási visszajelzés megjelenítése",
+                "show_read_receipts_help": "Jelölőmező megjelenítése az üzenet mellett, jelezve ha a címzett elolvasta azt.",
+                "message_recipient_background_color": "Egyéni szín a címzett üzenetéhez",
+                "message_recipient_background_color_help": "."
             },
             "permissions": {
                 "start_label": "Privát beszélgetések indítása",
@@ -38,7 +38,7 @@
                 "cant_start": "Nem kezdhető el a beszélgetés",
                 "text_placeholder": "Írja be az üzenetét",
                 "send": "Üzenet küldése",
-                "message_read": ""
+                "message_read": "Üzenet elolvasva"
             },
             "notifications": {
                 "message_received": "Teszt",
