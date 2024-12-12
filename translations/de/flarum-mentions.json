@@ -53,30 +53,30 @@
                 "subject": "{replier_display_name} hat auf deinen Beitrag in {title} geantwortet",
                 "body": "Hallo {recipient_display_name}!\n\n{replier_display_name} hat auf deinen Beitrag (#{post_number}) in {title} geantwortet.\n\n{url}\n\n---\n\n{content}\n",
                 "plain": {
-                    "body": ""
+                    "body": "{replier_display_name} hat auf deinen Beitrag (#{post_number}) in {title} geantwortet.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{replier_display_name} hat auf deinen Beitrag (#{post_number}) in [{title}]({url}) geantwortet."
                 }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} hat dich in {title} erwähnt",
                 "body": "Hallo {recipient_display_name}!\n\n{mentioner_display_name} hat dich in der Diskussion {title} erwähnt.\n\n{url}\n\n---\n\n{content}\n",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} hat dich in einem Beitrag in {title} erwähnt.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} hat dich in einem Beitrag in [{title}]({url}) erwähnt."
                 }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du Mitglied bist",
                 "body": "Hallo {recipient_display_name}!\n\n{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der du Mitglied bist.\n\n{url}\n\n---\n\n{content}\n",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} hat eine Gruppe erwähnt, der du angehörst, in {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} hat eine Gruppe erwähnt, der du angehörst, in [{title}]({url})."
                 }
             }
         },
@@ -84,8 +84,8 @@
             "gambits": {
                 "posts": {
                     "mentioned": {
-                        "key": "",
-                        "hint": ""
+                        "key": "erwähnt",
+                        "hint": "Die ID oder Nutzername des erwähnten Benutzers"
                     }
                 }
             }
