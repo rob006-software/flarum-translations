@@ -41,10 +41,10 @@
                 "subject": "[Új bejegyzés] {title}",
                 "body": "Kedves {recipient_display_name}!\n\n{poster_display_name} hozzászólt egy követett témájához: {title}.\n\nAz új tevékenység megtekintéséhez kövesse a következő hivatkozást:\n{url}\n\n---\n\n{content}\n\n---\n\nAddig nem fog újabb értesítéseket kapni erről a beszélgetésről, amíg naprakész nem lesz.\n",
                 "plain": {
-                    "body": ""
+                    "body": "{poster_display_name} hozzászólt egy követett témájához: {title}.\n\nAz új tevékenység megtekintéséhez kövesse a következő hivatkozást:\n{url}\n\n---\n\n{content}\n\n---\n\nAddig nem fog újabb értesítéseket kapni erről a beszélgetésről, amíg naprakész nem lesz.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{poster_display_name} hozzászólt egy követett témájához: [{title}]({url}).\n\nAddig nem fog újabb értesítéseket kapni erről a beszélgetésről, amíg naprakész nem lesz.\n"
                 }
             }
         },
@@ -57,8 +57,8 @@
             "gambits": {
                 "discussions": {
                     "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
+                        "following_key": "követés",
+                        "ignoring_key": "mellőzés"
                     }
                 }
             }
