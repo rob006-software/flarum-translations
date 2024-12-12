@@ -4,19 +4,19 @@
             "settings": {
                 "levelText": "Adja meg a szintekhez megjelenítendő szöveget (például rang, szint)",
                 "levelDesc": "Elérhető változók: [level]",
-                "expText": "Adja meg a tapasztalathoz megjelenítendő szöveget (például „[expTotal] TP”）",
-                "expDesc": "Elérhető változók: [expTotal]",
-                "expForPost": "",
-                "expForPostDesc": "",
-                "postMinLength": "",
-                "postMaxTimes": "",
-                "expForDiscussion": "",
-                "expForDiscussionDesc": "",
-                "discussionMaxTimes": "",
-                "expForLike": "",
-                "expForLikeDesc": "",
-                "autoRemove": "",
-                "cascadeRemove": "",
+                "expText": "Adja meg a TP-hez megjelenítendő szöveget (például „[expTotal] TP”）",
+                "expDesc": "Elérhető változók: [expTotal] [expPercent] [nextLevel] [expToNextLevel]",
+                "expForPost": "A bejegyzésenként kapott TP",
+                "expForPostDesc": "Csak szám, tizedesjegy nélkül. Vagy tartomány, például az「[1, 10]」1 és 10 közti véletlenszerű számot jelent.",
+                "postMinLength": "A bejegyzés legkisebb hossza, a 0 azt jelenti, hogy nincs korlát",
+                "postMaxTimes": "A naponta készíthető bejegyzések legnagyobb száma, a 0 azt jelenti, hogy nincs korlát.",
+                "expForDiscussion": "A témánként kapott TP",
+                "expForDiscussionDesc": "Csak szám, tizedesjegy nélkül. Vagy tartomány, például az「[1, 10]」1 és 10 közti véletlenszerű számot jelent.",
+                "discussionMaxTimes": "A naponta készíthető témák legnagyobb száma, a 0 azt jelenti, hogy nincs korlát.",
+                "expForLike": "A kedvelésenként kapott TP",
+                "expForLikeDesc": "A flarum/likes bővítmény szükséges hozzá. Csak szám, tizedesjegy nélkül. Vagy tartomány, például az「[1, 10]」1 és 10 közti véletlenszerű számot jelent.",
+                "autoRemove": "TP automatikus eltávolítása",
+                "cascadeRemove": "Ha egy téma eltávolításra kerül, a hozzászólásokért kapott TP eltávolítása",
                 "expFormula": "Adja meg a tapasztalat képletét (például „[discussionCount] * 40 + [commentCount] / 20”)",
                 "expFormulaDesc1": "Ezeket a változókat használhatja：",
                 "expFormulaDesc2": "Alapvető ([discussionCount] [commentCount]）",
@@ -24,72 +24,72 @@
                 "levelFormula": "Adja meg a szint képletét (például „[expTotal] / (100 + 5 * [level])”)",
                 "levelFormulaDesc": "Ezeket a változókat használhatja: [expTotal] [level]"
             },
-            "go_to_forum_quests": "",
+            "go_to_forum_quests": "További beállítások a fórumküldetésekben",
             "auto_remove": [
-                "",
-                "",
-                ""
+                "Sosem távolít el TP-t",
+                "Ha egy bejegyzés/válasz elrejtésre vagy törlésre kerül (alapértelmezett)",
+                "Ha egy bejegyzés végleges törlésre kerül"
             ],
-            "preview": "",
+            "preview": "Előnézet",
             "pages": {
-                "index": "",
-                "levels": ""
+                "index": "Kezdőlap",
+                "levels": "Szintek"
             },
             "levels": {
-                "edit_level": "",
-                "delete_confirmation": "",
-                "add_button": "",
-                "name": "",
-                "min_exp_required": ""
+                "edit_level": "Szint szerkesztése",
+                "delete_confirmation": "Valóban törli ezt a szintet?",
+                "add_button": "Szint hozzáadása",
+                "name": "Szint neve",
+                "min_exp_required": "Szükséges TP"
             },
             "permissions": {
-                "edit_exp": ""
+                "edit_exp": "Felhasználó TP-jének szerkesztése"
             }
         },
         "forum": {
             "user_controls": {
-                "edit_exp_button": ""
+                "edit_exp_button": "TP szerkesztése"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "TP szerkesztése",
+                "current": "Jelenlegi",
+                "submit_button": "Mentés"
             },
             "notifications": {
-                "level_updated": ""
+                "level_updated": "Gratulálunk. Elérte a(z) {level}. szintet."
             },
             "settings": {
-                "notify_level_updated": ""
+                "notify_level_updated": "Értesítés, ha a szint megváltozik"
             },
             "label": {
-                "exp_logs": ""
+                "exp_logs": "TP naplók"
             },
             "log": {
-                "exp": "",
-                "reason": "",
-                "time": "",
-                "view": "",
-                "load_more": "",
-                "no_more": "",
-                "no_records": "",
+                "exp": "TP-változás",
+                "reason": "Ok",
+                "time": "Idő",
+                "view": "Megtekintés",
+                "load_more": "Továbbiak betöltése",
+                "no_more": "Nincs több",
+                "no_records": "Nincsenek bejegyzések",
                 "type": {
-                    "system_clear": "",
-                    "system_refresh": "",
-                    "automoderator": "",
-                    "post_posted": "",
-                    "post_deleted": "",
-                    "post_hidden": "",
-                    "post_restored": "",
-                    "discussion_started": "",
-                    "discussion_deleted": "",
-                    "discussion_hidden": "",
-                    "discussion_restored": "",
-                    "comment_deleted_in_deleted_discussion": "",
-                    "post_liked": "",
-                    "post_unliked": "",
-                    "admin_edit": "",
-                    "forum_quests": "",
-                    "store_purchase": ""
+                    "system_clear": "Rendszertörlés",
+                    "system_refresh": "Rendszerfrissítés",
+                    "automoderator": "Automatikus moderátor",
+                    "post_posted": "Bejegyzés közzétéve",
+                    "post_deleted": "Bejegyzés törölve",
+                    "post_hidden": "Bejegyzés elrejtve",
+                    "post_restored": "Bejegyzés helyreállítva",
+                    "discussion_started": "Téma indítva. {title}",
+                    "discussion_deleted": "Téma törölve. {title}",
+                    "discussion_hidden": "Téma elrejtve. {title}",
+                    "discussion_restored": "Téma helyreállítva. {title}",
+                    "comment_deleted_in_deleted_discussion": "Bejegyzés törölve egy törölt témában",
+                    "post_liked": "Bejegyzés kedvelve",
+                    "post_unliked": "Bejegyzés kedvelése visszavonva",
+                    "admin_edit": "Admin által szerkesztve",
+                    "forum_quests": "Fórumküldetések: {name} teljesítve",
+                    "store_purchase": "Boltban megvásárolva"
                 }
             }
         },
@@ -101,25 +101,25 @@
                 "levelFormula": "[expTotal] / (100 * [level])"
             },
             "error": {
-                "calculation": ""
+                "calculation": "A TP-szint kiszámítása hibás."
             },
             "integrations": {
                 "automoderator": {
-                    "metric_name": "",
-                    "action_name": ""
+                    "metric_name": "TP",
+                    "action_name": "TP adása"
                 },
                 "forum-quests": {
-                    "reward_name": ""
+                    "reward_name": "TP"
                 },
                 "store": {
-                    "item_name": "",
+                    "item_name": "TP",
                     "provider_data": {
-                        "same_as_use_cnt": ""
+                        "same_as_use_cnt": "Használat számával megegyező"
                     }
                 },
                 "user-directory": {
-                    "most_exp": "",
-                    "least_exp": ""
+                    "most_exp": "Legtöbb TP",
+                    "least_exp": "Legkevesebb TP"
                 }
             }
         }
@@ -127,16 +127,16 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_exp": "",
-                "least_exp": ""
+                "most_exp": "=> foskym-custom-levels.lib.integrations.user-directory.most_exp",
+                "least_exp": "=> foskym-custom-levels.lib.integrations.user-directory.least_exp"
             }
         }
     },
     "nodeloc-leaderboard": {
         "lib": {
             "sort": {
-                "most_exp": "",
-                "least_exp": ""
+                "most_exp": "=> foskym-custom-levels.lib.integrations.user-directory.most_exp",
+                "least_exp": "=> foskym-custom-levels.lib.integrations.user-directory.least_exp"
             }
         }
     }
