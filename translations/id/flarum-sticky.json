@@ -5,9 +5,9 @@
                 "sticky_discussions_label": "Sticky Diskusi"
             },
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
+                "enable_display_excerpt": "Menampilkan kutipan dari postingan pertama ketika diskusi sticky belum dibaca",
+                "only_sticky_unread_discussions_label": "Hanya diskusi sticky yang belum dibaca",
+                "only_sticky_unread_discussions_help": "Pada halaman Semua Diskusi, diskusi sticky yang belum dibaca akan ditempatkan di bagian atas, sedangkan diskusi sticky yang sudah dibaca akan mengikuti urutan reguler."
             }
         },
         "forum": {
@@ -30,7 +30,7 @@
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "sticky"
                     }
                 }
             }
