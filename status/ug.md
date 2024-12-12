@@ -28,7 +28,7 @@
 <tbody>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/tags" title="flarum/tags"><code>flarum/tags</code></a>
 		</td>
 		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -39,7 +39,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/flags" title="flarum/flags"><code>flarum/flags</code></a>
 		</td>
 		<td align="center">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -50,7 +50,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/likes" title="flarum/likes"><code>flarum/likes</code></a>
 		</td>
 		<td align="center">3<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -61,7 +61,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/approval" title="flarum/approval"><code>flarum/approval</code></a>
 		</td>
 		<td align="center">4<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -72,7 +72,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/subscriptions" title="flarum/subscriptions"><code>flarum/subscriptions</code></a>
 		</td>
 		<td align="center">5<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -83,7 +83,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/nicknames" title="flarum/nicknames"><code>flarum/nicknames</code></a>
 		</td>
 		<td align="center">6<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -105,7 +105,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/sticky" title="flarum/sticky"><code>flarum/sticky</code></a>
 		</td>
 		<td align="center">8<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -116,7 +116,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/lock" title="flarum/lock"><code>flarum/lock</code></a>
 		</td>
 		<td align="center">9<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -138,7 +138,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/mentions" title="flarum/mentions"><code>flarum/mentions</code></a>
 		</td>
 		<td align="center">11<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
@@ -149,7 +149,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/suspend" title="flarum/suspend"><code>flarum/suspend</code></a>
 		</td>
 		<td align="center">12<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -160,7 +160,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/markdown" title="flarum/markdown"><code>flarum/markdown</code></a>
 		</td>
 		<td align="center">13<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -171,7 +171,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/statistics" title="flarum/statistics"><code>flarum/statistics</code></a>
 		</td>
 		<td align="center">14<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -204,7 +204,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/bbcode" title="flarum/bbcode"><code>flarum/bbcode</code></a>
 		</td>
 		<td align="center">17<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
@@ -215,7 +215,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/emoji" title="flarum/emoji"><code>flarum/emoji</code></a>
 		</td>
 		<td align="center">18<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
@@ -248,7 +248,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/pusher" title="flarum/pusher"><code>flarum/pusher</code></a>
 		</td>
 		<td align="center">21<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
@@ -501,7 +501,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/gdpr" title="flarum/gdpr"><code>flarum/gdpr</code></a>
 		</td>
 		<td align="center">44<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
@@ -1249,7 +1249,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://github.com/flarum/akismet" title="flarum/akismet"><code>flarum/akismet</code></a>
 		</td>
 		<td align="center">112<br /><img src="https://img.shields.io/badge/--23-brightgreen" alt="-23" title="Change from last week"></td>
