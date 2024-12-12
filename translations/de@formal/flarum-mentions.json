@@ -56,7 +56,7 @@
                     "body": ""
                 },
                 "html": {
-                    "body": "{replier_display_name} hat auf ihren Beitrag (#{post_number}) in [{title}]({url}) geantwortet."
+                    "body": "{replier_display_name} hat auf Ihren Beitrag (#{post_number}) in [{title}]({url}) geantwortet."
                 }
             },
             "user_mentioned": {
@@ -66,7 +66,7 @@
                     "body": ""
                 },
                 "html": {
-                    "body": "{mentioner_display_name} hat sie in einem Beitrag in [{title}]({url}) erwähnt."
+                    "body": "{mentioner_display_name} hat Sie in einem Beitrag in [{title}]({url}) erwähnt."
                 }
             },
             "group_mentioned": {
@@ -76,7 +76,7 @@
                     "body": ""
                 },
                 "html": {
-                    "body": "{mentioner_display_name} hat eine Gruppe erwähnt, der sie angehören, in [{title}]({url})."
+                    "body": "{mentioner_display_name} hat eine Gruppe erwähnt, der Sie angehören, in [{title}]({url})."
                 }
             }
         },
