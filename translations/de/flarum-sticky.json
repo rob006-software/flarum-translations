@@ -5,9 +5,9 @@
                 "sticky_discussions_label": "Diskussion anpinnen"
             },
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
+                "enable_display_excerpt": "Zeige einen Auszug des ersten Beitrags, wenn eine markierte Diskussion ungelesen ist",
+                "only_sticky_unread_discussions_label": "Nur ungelesene angeheftete Diskussionen",
+                "only_sticky_unread_discussions_help": "Auf der \"Alle Diskussionen\" Seite werden ungelesene angeheftete Diskussionen oben angezeigt, während gelesene angeheftete Diskussionen der normalen Reihenfolge folgen."
             }
         },
         "forum": {
@@ -30,7 +30,7 @@
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "angeheftet"
                     }
                 }
             }
