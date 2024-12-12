@@ -80,9 +80,9 @@
                     "export_description": "Exportiert alle Token, die der Benutzer erstellt hat. Die Daten sind auf das Erstellungsdatum und den Token-Typ beschränkt."
                 },
                 "user": {
-                    "anonymize_description": "",
+                    "anonymize_description": "Setzt alle Spalten in der Benutzertabelle auf null. Spalten, die dies nicht zulassen, werden auf ihre Standardwerte oder spezielle Werte gesetzt. Das Passwort wird geändert, Einstellungen auf Standard zurückgesetzt und alle Gruppenzugehörigkeiten werden entfernt.",
                     "delete_description": "Löscht den Nutzer aus der Datenbank.",
-                    "export_description": ""
+                    "export_description": "Exportiert Daten aus der Benutzertabelle. Alle Spalten außer ID und Passwort."
                 }
             },
             "request_data": {
@@ -94,7 +94,7 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Bestätige die Anfrage zur Löschung deines Kontos",
-                "body": ""
+                "body": "Jemand (hoffentlich du) hat gerade die Löschung des Kontos `{display_name}` beantragt.\n\nUm diese Aktion zu bestätigen, folge bitte dem folgenden Link. Anschließend wird deine Anfrage von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
@@ -108,11 +108,11 @@
             },
             "erasure_cancelled": {
                 "subject": "Antrag zur Kontolöschung abgebrochen",
-                "body": ""
+                "body": "Dies ist eine automatische Benachrichtigung, dass dein Antrag auf Stornierung der Kontolöschung bearbeitet wurde.\n\nDein Konto wird nicht mehr gelöscht.\n"
             },
             "export_available": {
                 "subject": "Datenexport verfügbar",
-                "body": ""
+                "body": "Du hast einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
             }
         },
         "forum": {
@@ -121,9 +121,9 @@
             },
             "delete_user": {
                 "title": "{username}s Konto löschen",
-                "text": "Bist du sicher das du {username}s Konto löschen möchteat?\n\nDieser Vorgang kann nicht rückgängig gemacht werden.\n",
-                "modal_delete_button": "",
-                "delete_button": "Benutzer löschen"
+                "text": "Bist du sicher, dass du {username}s Konto löschen möchtest?\n\nDieser Vorgang kann nicht rückgängig gemacht werden.\n",
+                "modal_delete_button": "Mit Standardaktion löschen",
+                "delete_button": "Löschen"
             },
             "erasure_requests": {
                 "empty_text": "Keine ausstehenden Anträge auf Kontolöschung",
@@ -165,7 +165,7 @@
             "notification": {
                 "export-ready": "Dein Datenexport für {username} ist bereit zum Download."
             },
-            "export_file": ""
+            "export_file": "Export der Benutzerdaten für {username} ({email}) erstellt am {date} von {forumTitle} ({url})"
         }
     }
 }
