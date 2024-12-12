@@ -53,30 +53,30 @@
                 "subject": "{replier_display_name} válaszolt a bejegyzésére itt: {title}",
                 "body": "Kedves {recipient_display_name}!\n\n{replier_display_name} válaszolt a bejegyzésére (#{post_number}) itt: {title}\n\n{url}\n\n---\n\n{content}\n",
                 "plain": {
-                    "body": ""
+                    "body": "{replier_display_name} válaszolt a bejegyzésére (#{post_number}) itt: {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{replier_display_name} válaszolt a bejegyzésére (#{post_number}) itt: [{title}]({url})."
                 }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} megemlítette itt: {title}",
                 "body": "Kedves {recipient_display_name}!\n\n{mentioner_display_name} megemlítette egy bejegyzésben itt: {title}.\n\n{url}\n\n---\n\n{content}\n",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} megemlítette egy bejegyzésben itt: {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} megemlítette egy bejegyzésben itt: [{title}]({url})."
                 }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} a következő bejegyzésben megemlített egy csoportot, melynek a tagja: {title}",
                 "body": "Kedves {recipient_display_name}!\n\n{mentioner_display_name} a következő bejegyzésben megemlített egy csoportot, melynek a tagja: {title}.\n\n{url}\n\n---\n\n{content}\n",
                 "plain": {
-                    "body": ""
+                    "body": "{mentioner_display_name} a következő bejegyzésben megemlített egy csoportot, melynek a tagja: {title}.\n\n{url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{mentioner_display_name} a következő bejegyzésben megemlített egy csoportot, melynek a tagja: [{title}]({url})."
                 }
             }
         },
@@ -84,8 +84,8 @@
             "gambits": {
                 "posts": {
                     "mentioned": {
-                        "key": "",
-                        "hint": ""
+                        "key": "megemlítve",
+                        "hint": "A megemlített felhasználó azonosítója vagy felhasználóneve"
                     }
                 }
             }
