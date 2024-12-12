@@ -46,7 +46,7 @@
                 },
                 "gdpr_page": {
                     "title": "",
-                    "help_text": ""
+                    "help_text": "Vor der Entscheidung, welche Aktionen in ihrem Forum verwendet werden sollen, ist es wichtig zu verstehen, welche Daten integriert werden und wie sie sowohl für die Anonymisierung als auch für die Löschung behandelt werden. Informiere sie sich in der DSGVO-Übersicht darüber, wie die Daten behandelt werden und welche optionalen Erweiterungen die Daten für die Behandlung durch diese Erweiterung registriert haben."
                 }
             },
             "userlist": {
@@ -94,7 +94,7 @@
         "email": {
             "confirm_erasure": {
                 "subject": "",
-                "body": ""
+                "body": "Jemand (hoffentlich sie) hat gerade die Löschung des Kontos `{display_name}` beantragt.\n\nUm diese Aktion zu bestätigen, folgen sie bitte dem folgenden Link. Anschließend wird ihre Anfrage von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
@@ -108,11 +108,11 @@
             },
             "erasure_cancelled": {
                 "subject": "",
-                "body": ""
+                "body": "Dies ist eine automatische Benachrichtigung, dass ihr Antrag auf Stornierung der Kontolöschung bearbeitet wurde.\n\nIhr Konto wird nicht mehr gelöscht.\n"
             },
             "export_available": {
                 "subject": "",
-                "body": ""
+                "body": "Sie haben einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
             }
         },
         "forum": {
@@ -121,7 +121,7 @@
             },
             "delete_user": {
                 "title": "",
-                "text": "",
+                "text": "Sind sie sicher, dass sie {username}s Konto löschen möchten?\n\nDieser Vorgang kann nicht rückgängig gemacht werden.\n",
                 "modal_delete_button": "",
                 "delete_button": ""
             },
@@ -131,15 +131,15 @@
                 "tooltip": "",
                 "title": ""
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Sie haben ihren Antrag auf Löschung ihres Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.",
             "settings": {
                 "data": {
                     "heading": ""
                 },
                 "export_data_button": "",
-                "export_data_help": "",
+                "export_data_help": "Wenn sie den Datenexport anfordern, erhalten sie eine herunterladbare Kopie aller mit ihrem Konto verbundenen Informationen. Dazu gehören Beiträge, Kommentare und Profilangaben.",
                 "request_erasure_button": "",
-                "request_erasure_help": ""
+                "request_erasure_help": "Wenn sie die Löschung beantragen, werden ihr Konto und alle damit verbundenen Daten endgültig gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden. Vergewissern sie sich, bevor sie fortfahren, dass sie alle Inhalte, die sie behalten möchten, gespeichert haben."
             },
             "process_erasure": {
                 "confirm": "",
@@ -153,8 +153,8 @@
                 "title": "",
                 "reason": "",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Sie sollten eine E-Mail zur Bestätigung ihrer Löschanfrage erhalten haben.\n",
+                    "user_confirmed": "Sie haben ihren Antrag zur Löschung ihres Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.\n"
                 },
                 "text": "",
                 "password_label": "",
@@ -163,7 +163,7 @@
                 "request_button": ""
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "Ihr Datenexport für {username} ist bereit zum Download."
             },
             "export_file": ""
         }
