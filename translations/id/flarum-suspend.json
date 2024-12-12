@@ -42,20 +42,20 @@
                 "subject": "Akun Anda telah ditangguhkan",
                 "body": "Hai {recipient_display_name},\n\nAnda telah ditangguhkan karena alasan berikut:\n\n---\n{suspension_message}\n---\n",
                 "plain": {
-                    "body": ""
+                    "body": "Anda telah ditangguhkan karena alasan berikut:\n\n---\n{suspension_message}\n---\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Anda telah ditangguhkan dari {forumTitle} karena alasan berikut:"
                 }
             },
             "unsuspended": {
                 "subject": "Akun Anda telah dihentikan penangguhannya",
                 "body": "Halo {recipient_display_name},\n\nAnda telah dihentikan penangguhannya. Anda dapat kembali ke forum dengan mengklik link berikut:\n\n{forum_url}\n",
                 "plain": {
-                    "body": ""
+                    "body": "Anda telah ditangguhkan. Anda dapat kembali ke forum dengan mengeklik link berikut:\n\n{forum_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Anda telah dibebaskan dari penangguhan. Anda dapat kembali ke [{forumTitle}]({forum_url}) saat Anda siap."
                 }
             }
         },
