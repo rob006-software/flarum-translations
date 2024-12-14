@@ -526,7 +526,6 @@ return [
 	],
 	'flarum-statistics' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/statistics/v1.8.1/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/flarum/statistics/v2.0.0-beta.1/locale/en.yml',
 	],
 	'flarum-sticky' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/sticky/v1.8.2/locale/en.yml',
