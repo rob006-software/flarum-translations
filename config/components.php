@@ -786,7 +786,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-follow-discussion/0.0.2/locale/en.yml',
 	],
 	'huseyinfiliz-modern-footer' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v0.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v0.6/resources/locale/en.yml',
 	],
 	'ianm-boring-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/1.0.1/locale/en.yml',
