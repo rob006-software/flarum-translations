@@ -487,7 +487,6 @@ return [
 	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v1.8.1/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.1/locale/en.yml',
 	],
 	'flarum-approval' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/approval/v1.8.2/locale/en.yml',
