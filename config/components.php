@@ -493,7 +493,6 @@ return [
 	],
 	'flarum-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/bbcode/v1.8.0/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/flarum/bbcode/v2.0.0-beta.1/locale/en.yml',
 	],
 	'flarum-emoji' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v1.8.1/locale/en.yml',
