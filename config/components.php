@@ -496,7 +496,6 @@ return [
 	],
 	'flarum-emoji' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v1.8.1/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/flarum/emoji/v2.0.0-beta.1/locale/en.yml',
 	],
 	'flarum-extension-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/extension-manager/v1.0.6/locale/en.yml',
