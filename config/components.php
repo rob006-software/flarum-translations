@@ -27,6 +27,7 @@ return [
 	],
 	'acpl-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/1.4.4/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/2.0.0-beta.2/locale/en.yml',
 	],
 	'acpl-my-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.4.0/locale/en.yml',
