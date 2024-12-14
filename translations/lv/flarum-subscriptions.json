@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Jauna ziņa] {title}",
-                "body": "Sveiki, {recipient_display_name}!\n\n{poster_display_name} publicēja ziņu diskusijā, kurai sekojat: {title}.\n\nLai skatītu jauno darbību, skatiet šo saiti:\n{url}\n\n---\n\n{content}\n\n---\n\nJūs vairs nesaņemsit paziņojumus par šo diskusiju, kamēr nebūsit jaunākais.\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Sveiki, {recipient_display_name}!\n\n{poster_display_name} publicēja ziņu diskusijā, kurai sekojat: {title}.\n\nLai skatītu jauno darbību, skatiet šo saiti:\n{url}\n\n---\n\n{content}\n\n---\n\nJūs vairs nesaņemsit paziņojumus par šo diskusiju, kamēr nebūsit jaunākais.\n"
             }
         },
         "ref": {
             "follow": "Sekot",
             "following": "Sekoju",
             "ignoring": "Ignorēju"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Täze Post] {title}",
-                "body": "Salam {recipient_display_name}!\n\n{poster_display_name} siziň yzarlaýan gürrüňiňizde täze post ýazdy: {title}.\n\nTäze posty görmek üçin aşaky salgyny barlaň:\n{url}\n\n---\n\n{content}\n\n---\n\nŞu posty görýänçäňiz bu gürrüňden täze habar gelmez.\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Salam {recipient_display_name}!\n\n{poster_display_name} siziň yzarlaýan gürrüňiňizde täze post ýazdy: {title}.\n\nTäze posty görmek üçin aşaky salgyny barlaň:\n{url}\n\n---\n\n{content}\n\n---\n\nŞu posty görýänçäňiz bu gürrüňden täze habar gelmez.\n"
             }
         },
         "ref": {
             "follow": "Yzarla",
             "following": "Yzarlaýaryn",
             "ignoring": "Ignor edýärin"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

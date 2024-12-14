@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Nyt indlæg] {title}",
-                "body": "Hej {recipient_display_name}!\n\n{poster_display_name} lavede et indlæg i en diskussion, du følger: {title}.\n\nFor at se den nye aktivitet, tjek følgende link:\n{url}\n\n---\n\n{content}\n\n---\n\nDu vil ikke modtage flere meddelelser om denne diskussion, før du er opdateret.\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Hej {recipient_display_name}!\n\n{poster_display_name} lavede et indlæg i en diskussion, du følger: {title}.\n\nFor at se den nye aktivitet, tjek følgende link:\n{url}\n\n---\n\n{content}\n\n---\n\nDu vil ikke modtage flere meddelelser om denne diskussion, før du er opdateret.\n"
             }
         },
         "ref": {
             "follow": "Følg",
             "following": "Følger",
             "ignoring": "Ignorerer"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

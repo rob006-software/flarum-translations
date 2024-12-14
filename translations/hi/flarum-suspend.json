@@ -40,37 +40,16 @@
             "no_reason_given": "इस निलंबन का कोई कारण नहीं बताया गया।",
             "suspended": {
                 "subject": "आपके खाते को निलंबित कर दिया गया है",
-                "body": "अरे {recipient_display_name},\n\nआपको निम्नलिखित कारण से निलंबित कर दिया गया है:\n\n---\n{suspension_message}\n---\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "अरे {recipient_display_name},\n\nआपको निम्नलिखित कारण से निलंबित कर दिया गया है:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
                 "subject": "आपका खाता निलंबित कर दिया गया है",
-                "body": "नमस्ते {recipient_display_name},\n\nआपको निलंबित कर दिया गया है. आप निम्नलिखित लिंक पर क्लिक करके फोरम पर वापस जा सकते हैं:\n\n{forum_url}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "नमस्ते {recipient_display_name},\n\nआपको निलंबित कर दिया गया है. आप निम्नलिखित लिंक पर क्लिक करके फोरम पर वापस जा सकते हैं:\n\n{forum_url}\n"
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
-            }
-        },
-        "lib": {
-            "gambits": {
-                "users": {
-                    "suspended": {
-                        "key": ""
-                    }
-                }
             }
         }
     }

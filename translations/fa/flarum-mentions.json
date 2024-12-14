@@ -51,43 +51,15 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} به پست شما در {title} پاسخ داد",
-                "body": "سلام {recipient_display_name}!\n\n{replier_display_name} به پست شما (#{post_number}) در {title} پاسخ داد.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "سلام {recipient_display_name}!\n\n{replier_display_name} به پست شما (#{post_number}) در {title} پاسخ داد.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} از شما در {title} نام برد",
-                "body": "سلام {recipient_display_name}!\n\n{mentioner_display_name} از شما در پستی در {title} نام برده است.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "سلام {recipient_display_name}!\n\n{mentioner_display_name} از شما در پستی در {title} نام برده است.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} از گروهی که شما عضو آن هستید در {title} نام برد",
-                "body": "سلام {recipient_display_name}!\n\n{mentioner_display_name} از گروهی که شما عضو آن هستید در {title} نام برد.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
-            }
-        },
-        "lib": {
-            "gambits": {
-                "posts": {
-                    "mentioned": {
-                        "key": "",
-                        "hint": ""
-                    }
-                }
+                "body": "سلام {recipient_display_name}!\n\n{mentioner_display_name} از گروهی که شما عضو آن هستید در {title} نام برد.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

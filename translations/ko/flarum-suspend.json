@@ -40,37 +40,16 @@
             "no_reason_given": "이 정지에 대한 이유는 제공되지 않았습니다.",
             "suspended": {
                 "subject": "귀하의 계정이 정지되었습니다",
-                "body": "안녕하세요 {recipient_display_name}님,\n\n다음 이유로 정지되었습니다:\n\n---\n{suspension_message}\n---\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "안녕하세요 {recipient_display_name}님,\n\n다음 이유로 정지되었습니다:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
                 "subject": "귀하의 계정이 정지 해제되었습니다",
-                "body": "안녕하세요 {recipient_display_name}님,\n\n귀하의 정지가 해제되었습니다. 다음 링크를 클릭하여 포럼으로 돌아갈 수 있습니다:\n\n{forum_url}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "안녕하세요 {recipient_display_name}님,\n\n귀하의 정지가 해제되었습니다. 다음 링크를 클릭하여 포럼으로 돌아갈 수 있습니다:\n\n{forum_url}\n"
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
-            }
-        },
-        "lib": {
-            "gambits": {
-                "users": {
-                    "suspended": {
-                        "key": ""
-                    }
-                }
             }
         }
     }

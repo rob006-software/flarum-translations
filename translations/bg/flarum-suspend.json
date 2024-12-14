@@ -40,37 +40,16 @@
             "no_reason_given": "Не е посочена причина за блокирането.",
             "suspended": {
                 "subject": "Вашият акаунт е блокиран",
-                "body": "Здравейте {recipient_display_name},\n\nВие сте блокиран за следната причина:\n\n---\n{suspension_message}\n---\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Здравейте {recipient_display_name},\n\nВие сте блокиран за следната причина:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
                 "subject": "Вашият акаунт е разблокиран",
-                "body": "Здравейте {recipient_display_name},\n\nВие сте разблокиран. Можете да се върнете към форума, като кликнете върху следния линк:\n\n{forum_url}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Здравейте {recipient_display_name},\n\nВие сте разблокиран. Можете да се върнете към форума, като кликнете върху следния линк:\n\n{forum_url}\n"
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
-            }
-        },
-        "lib": {
-            "gambits": {
-                "users": {
-                    "suspended": {
-                        "key": ""
-                    }
-                }
             }
         }
     }

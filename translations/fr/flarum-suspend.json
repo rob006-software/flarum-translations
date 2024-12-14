@@ -40,37 +40,16 @@
             "no_reason_given": "Aucun motif n'a été spécifié concernant cette suspension.",
             "suspended": {
                 "subject": "Votre compte a été suspendu",
-                "body": "Bonjour {recipient_display_name},\n\nVous avez été suspendu pour le motif suivant :\n\n---\n{suspension_message}\n---\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Bonjour {recipient_display_name},\n\nVous avez été suspendu pour le motif suivant :\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
                 "subject": "Votre compte n'est plus suspendu",
-                "body": "Bonjour {recipient_display_name},\n\nVous n'êtes plus suspendu. Vous pouvez revenir sur le forum en cliquant sur le lien suivant :\n\n{forum_url}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Bonjour {recipient_display_name},\n\nVous n'êtes plus suspendu. Vous pouvez revenir sur le forum en cliquant sur le lien suivant :\n\n{forum_url}\n"
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
-            }
-        },
-        "lib": {
-            "gambits": {
-                "users": {
-                    "suspended": {
-                        "key": ""
-                    }
-                }
             }
         }
     }

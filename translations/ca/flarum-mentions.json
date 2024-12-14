@@ -51,43 +51,15 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} t'ha respost a {title}",
-                "body": "Hola {recipient_display_name}!\n\n{replier_display_name} ha respost a la teva publicació (#{post_number}) a {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Hola {recipient_display_name}!\n\n{replier_display_name} ha respost a la teva publicació (#{post_number}) a {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} t'ha esmentat a {title}",
-                "body": "Hola {recipient_display_name}!\n\n{mentioner_display_name} t'ha esmentat en una publicació a {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Hola {recipient_display_name}!\n\n{mentioner_display_name} t'ha esmentat en una publicació a {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} ha esmentat un grup del qual formes part a {title}",
-                "body": "Hola {recipient_display_name}!\n\n{mentioner_display_name} ha esmentat un grup del qual formes part a {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
-            }
-        },
-        "lib": {
-            "gambits": {
-                "posts": {
-                    "mentioned": {
-                        "key": "",
-                        "hint": ""
-                    }
-                }
+                "body": "Hola {recipient_display_name}!\n\n{mentioner_display_name} ha esmentat un grup del qual formes part a {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

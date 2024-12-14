@@ -51,43 +51,15 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} vastas sinu postitusele teemas {title}",
-                "body": "Hei {recipient_display_name}!\n\n{replier_display_name} vastas sinu postitusele (#{post_number}) teemas {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Hei {recipient_display_name}!\n\n{replier_display_name} vastas sinu postitusele (#{post_number}) teemas {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} viitas sinule oma postituses teemas {title}",
-                "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} viitas sinule oma postituses teemas {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} viitas sinule oma postituses teemas {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} mainis gruppi , mille liige sa oled vestluses {title}",
-                "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} mainis gruppi, mille liige sa oled vestluses {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
-            }
-        },
-        "lib": {
-            "gambits": {
-                "posts": {
-                    "mentioned": {
-                        "key": "",
-                        "hint": ""
-                    }
-                }
+                "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} mainis gruppi, mille liige sa oled vestluses {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

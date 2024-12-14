@@ -51,43 +51,15 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} je odgovorio/la na Vaš odgovor u diskusiji {title}",
-                "body": "Zdravo {recipient_display_name}!\n\n{replier_display_name} je odgovorio/la na Vaš odgovor (#{post_number}) u diskusiji {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Zdravo {recipient_display_name}!\n\n{replier_display_name} je odgovorio/la na Vaš odgovor (#{post_number}) u diskusiji {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} Vas je spomenuo/la u diskusiji {title}",
-                "body": "Zdravo {recipient_display_name}!\n\n{mentioner_display_name} Vas je spomenuo/la u diskusiji {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Zdravo {recipient_display_name}!\n\n{mentioner_display_name} Vas je spomenuo/la u diskusiji {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
                 "subject": "",
-                "body": "",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
-            }
-        },
-        "lib": {
-            "gambits": {
-                "posts": {
-                    "mentioned": {
-                        "key": "",
-                        "hint": ""
-                    }
-                }
+                "body": ""
             }
         }
     }

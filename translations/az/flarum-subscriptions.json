@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Yeni Paylaşım] {title}",
-                "body": "Salam {recipient_display_name}!\n\n{poster_display_name} izlədiyiniz müzakirədə paylaşım etdi: {title}.\n\nYeni fəaliyyətə baxmaq üçün aşağıdakı linkə daxil olun:\n{url}\n\n---\n\n{content}\n\n---\n\nYenilənənə qədər bu müzakirə ilə bağlı daha çox bildiriş almayacaqsınız.\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Salam {recipient_display_name}!\n\n{poster_display_name} izlədiyiniz müzakirədə paylaşım etdi: {title}.\n\nYeni fəaliyyətə baxmaq üçün aşağıdakı linkə daxil olun:\n{url}\n\n---\n\n{content}\n\n---\n\nYenilənənə qədər bu müzakirə ilə bağlı daha çox bildiriş almayacaqsınız.\n"
             }
         },
         "ref": {
             "follow": "İzlə",
             "following": "İzlənir",
             "ignoring": "Nəzərə alınmır"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

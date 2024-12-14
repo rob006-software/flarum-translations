@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[新しい投稿] {title}",
-                "body": "{recipient_display_name}さん、こんにちは!\n\n{poster_display_name} さんが、あなたのフォローしているスレッドで投稿しました: {title}。\n\n内容を閲覧するには、以下のリンクを確認してください:\n{url}\n\n---\n\n{content}\n\n---\n\n最新の状態になるまで、このスレッドに関する通知は送信されません。\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "{recipient_display_name}さん、こんにちは!\n\n{poster_display_name} さんが、あなたのフォローしているスレッドで投稿しました: {title}。\n\n内容を閲覧するには、以下のリンクを確認してください:\n{url}\n\n---\n\n{content}\n\n---\n\n最新の状態になるまで、このスレッドに関する通知は送信されません。\n"
             }
         },
         "ref": {
             "follow": "フォロー",
             "following": "フォロー中",
             "ignoring": "ミュート中"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

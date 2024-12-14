@@ -51,43 +51,15 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} ha risposto a un tuo post in {title}",
-                "body": "Ciao {recipient_display_name}!\n\n{replier_display_name} ha risposto a un tuo post (#{post_number}) nella discussione {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Ciao {recipient_display_name}!\n\n{replier_display_name} ha risposto a un tuo post (#{post_number}) nella discussione {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} ti ha menzionato in {title}",
-                "body": "Ciao {recipient_display_name}!\n\n{mentioner_display_name} ti ha menzionato in un post nella discussione {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Ciao {recipient_display_name}!\n\n{mentioner_display_name} ti ha menzionato in un post nella discussione {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} ha menzionato un gruppo di cui fai parte in {title}",
-                "body": "Ciao {recipient_display_name}!\n\n{mentioner_display_name} ha menzionato un gruppo di cui fai parte in {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
-            }
-        },
-        "lib": {
-            "gambits": {
-                "posts": {
-                    "mentioned": {
-                        "key": "",
-                        "hint": ""
-                    }
-                }
+                "body": "Ciao {recipient_display_name}!\n\n{mentioner_display_name} ha menzionato un gruppo di cui fai parte in {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

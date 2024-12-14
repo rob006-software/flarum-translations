@@ -40,37 +40,16 @@
             "no_reason_given": "",
             "suspended": {
                 "subject": "Vaš nalog na Grčkom Forumu je suspendovan",
-                "body": "Zdravo {recipient_display_name},\n\nSuspendovani ste iz sledećeg razloga:\n\n---\n{suspension_message}\n---\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Zdravo {recipient_display_name},\n\nSuspendovani ste iz sledećeg razloga:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
                 "subject": "Za vaš nalog na Grčkom Forumu je ukinuta suspenzija",
-                "body": "Zdravo {recipient_display_name},\n\nZa vaš nalog na je ukinuta suspenzija. Možete se vratiti na forum klikom na sledeći link:\n\n{forum_url}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Zdravo {recipient_display_name},\n\nZa vaš nalog na je ukinuta suspenzija. Možete se vratiti na forum klikom na sledeći link:\n\n{forum_url}\n"
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
-            }
-        },
-        "lib": {
-            "gambits": {
-                "users": {
-                    "suspended": {
-                        "key": ""
-                    }
-                }
             }
         }
     }

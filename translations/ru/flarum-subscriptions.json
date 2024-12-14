@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Новое сообщение] {title}",
-                "body": "Здравствуйте, {recipient_display_name}!\n\n{poster_display_name} ответил(а) в дискуссии: {title}.\n\nЧтобы посмотреть новое сообщение, перейдите по следующей ссылке:\n{url}\n\n---\n\n{content}\n\n---\n\nВы не будете получать уведомления об этой дискуссии, пока не ознакомитесь с текущей информацией.\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Здравствуйте, {recipient_display_name}!\n\n{poster_display_name} ответил(а) в дискуссии: {title}.\n\nЧтобы посмотреть новое сообщение, перейдите по следующей ссылке:\n{url}\n\n---\n\n{content}\n\n---\n\nВы не будете получать уведомления об этой дискуссии, пока не ознакомитесь с текущей информацией.\n"
             }
         },
         "ref": {
             "follow": "Подписка",
             "following": "Подписка",
             "ignoring": "Скрыть"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

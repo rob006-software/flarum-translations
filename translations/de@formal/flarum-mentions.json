@@ -52,9 +52,6 @@
             "post_mentioned": {
                 "subject": "{replier_display_name} hat auf Ihren Beitrag in {title} geantwortet",
                 "body": "Sehr geehrte/r {recipient_display_name},\n\n{replier_display_name} hat auf Ihren Beitrag (#{post_number}) in {title} geantwortet.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
                 "html": {
                     "body": "{replier_display_name} hat auf Ihren Beitrag (#{post_number}) in [{title}]({url}) geantwortet."
                 }
@@ -62,9 +59,6 @@
             "user_mentioned": {
                 "subject": "{mentioner_display_name} hat Sie in {title} erwähnt",
                 "body": "Sehr geehrte/r {recipient_display_name},\n\n{mentioner_display_name} hat Sie in der Diskussion {title} erwähnt.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
                 "html": {
                     "body": "{mentioner_display_name} hat Sie in einem Beitrag in [{title}]({url}) erwähnt."
                 }
@@ -72,21 +66,8 @@
             "group_mentioned": {
                 "subject": "{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der Sie Mitglied sind",
                 "body": "Sehr geehrte/r {recipient_display_name},\n\n{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der Sie Mitglied sind.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
                 "html": {
                     "body": "{mentioner_display_name} hat eine Gruppe erwähnt, der Sie angehören, in [{title}]({url})."
-                }
-            }
-        },
-        "lib": {
-            "gambits": {
-                "posts": {
-                    "mentioned": {
-                        "key": "",
-                        "hint": ""
-                    }
                 }
             }
         }

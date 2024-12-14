@@ -40,37 +40,16 @@
             "no_reason_given": "Důvod pozastavení nebyl uveden.",
             "suspended": {
                 "subject": "Váš účet byl pozastaven",
-                "body": "Ahoj {recipient_display_name},\n\nByl/a jste pozastaven/a z následujícího důvodu:\n\n---\n{suspension_message}\n---\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Ahoj {recipient_display_name},\n\nByl/a jste pozastaven/a z následujícího důvodu:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
                 "subject": "Pozastavení vašeho účtu bylo zrušeno",
-                "body": "Ahoj {recipient_display_name},\n\nBylo vám zrušeno pozastavení činnosti. Na fórum se můžete vrátit kliknutím na následující odkaz:\n\n{forum_url}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Ahoj {recipient_display_name},\n\nBylo vám zrušeno pozastavení činnosti. Na fórum se můžete vrátit kliknutím na následující odkaz:\n\n{forum_url}\n"
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
-            }
-        },
-        "lib": {
-            "gambits": {
-                "users": {
-                    "suspended": {
-                        "key": ""
-                    }
-                }
             }
         }
     }

@@ -51,43 +51,15 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} απάντησε στην δημοσίευση σας στο {title}",
-                "body": "Γειά σας {recipient_display_name}!\n{replier_display_name} απάντησε στην δημοσίευσή σας (#{post_number}) στο {title}.\n{url}\n---\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Γειά σας {recipient_display_name}!\n{replier_display_name} απάντησε στην δημοσίευσή σας (#{post_number}) στο {title}.\n{url}\n---\n{content}\n"
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} σας έκανε tag σε μία δημοσίευση στο {title}",
-                "body": "Γειά σας {recipient_display_name}!\n{mentioner_display_name} σας έκανε tag σε μία δημοσίευση στο {title}.\n{url}\n---\n{content}",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Γειά σας {recipient_display_name}!\n{mentioner_display_name} σας έκανε tag σε μία δημοσίευση στο {title}.\n{url}\n---\n{content}"
             },
             "group_mentioned": {
                 "subject": "",
-                "body": "",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
-            }
-        },
-        "lib": {
-            "gambits": {
-                "posts": {
-                    "mentioned": {
-                        "key": "",
-                        "hint": ""
-                    }
-                }
+                "body": ""
             }
         }
     }

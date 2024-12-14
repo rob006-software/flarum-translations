@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Postare nouă] {title}",
-                "body": "Salut, {recipient_display_name}!\n\n{poster_display_name} a postat în discuția pe care o urmăriți: {title}.\n\nPentru a vizualiza postarea, accesați următorul link:\n{url}\n\n---\n\n{content}\n\n---\n\nNu veți mai primi notificări despre această discuție până când nu veți vizualiza informația dată.\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Salut, {recipient_display_name}!\n\n{poster_display_name} a postat în discuția pe care o urmăriți: {title}.\n\nPentru a vizualiza postarea, accesați următorul link:\n{url}\n\n---\n\n{content}\n\n---\n\nNu veți mai primi notificări despre această discuție până când nu veți vizualiza informația dată.\n"
             }
         },
         "ref": {
             "follow": "Abonare",
             "following": "Abonat",
             "ignoring": "Ignorare"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

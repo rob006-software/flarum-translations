@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Nueva publicación] {title}",
-                "body": "Hey {recipient_display_name}!\n\n{poster_display_name} hizo una publicación en una discusión que estás siguiendo: {title}.\n\nPara ver la nueva actividad, consulte el siguiente enlace:\n{url}\n\n---\n\n{content}\n\n---\n\nNo recibirás más notificaciones sobre esta discusión hasta que estés al tanto de las novedades.\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Hey {recipient_display_name}!\n\n{poster_display_name} hizo una publicación en una discusión que estás siguiendo: {title}.\n\nPara ver la nueva actividad, consulte el siguiente enlace:\n{url}\n\n---\n\n{content}\n\n---\n\nNo recibirás más notificaciones sobre esta discusión hasta que estés al tanto de las novedades.\n"
             }
         },
         "ref": {
             "follow": "Seguir",
             "following": "Siguiendo",
             "ignoring": "Ignorar"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

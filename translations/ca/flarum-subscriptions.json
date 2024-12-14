@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Nova publicació] {title}",
-                "body": "Hola {recipient_display_name}!\n\n{poster_display_name} ha publicat en un debat que estàs seguint: {title}.\n\nPer veure la nova activitat, clica l'enllaç següent:\n{url}\n\n---\n\n{content}\n\n---\n\nNo rebràs més notificacions sobre aquest debat fins que t'hagis posat al dia.\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Hola {recipient_display_name}!\n\n{poster_display_name} ha publicat en un debat que estàs seguint: {title}.\n\nPer veure la nova activitat, clica l'enllaç següent:\n{url}\n\n---\n\n{content}\n\n---\n\nNo rebràs més notificacions sobre aquest debat fins que t'hagis posat al dia.\n"
             }
         },
         "ref": {
             "follow": "Seguir",
             "following": "Seguint",
             "ignoring": "Ignorant"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

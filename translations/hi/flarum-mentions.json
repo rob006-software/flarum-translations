@@ -51,43 +51,15 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} ने आपकी पोस्ट का उत्तर {title} में दिया",
-                "body": "अरे {recipient_display_name}!\n\n{replier_display_name} ने आपकी पोस्ट (#{post_number}) का उत्तर {title} में दिया।\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "अरे {recipient_display_name}!\n\n{replier_display_name} ने आपकी पोस्ट (#{post_number}) का उत्तर {title} में दिया।\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} ने {title} में आपका उल्लेख किया है",
-                "body": "अरे {recipient_display_name}!\n\n{mentioner_display_name} ने {title} की एक पोस्ट में आपका उल्लेख किया है.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "अरे {recipient_display_name}!\n\n{mentioner_display_name} ने {title} की एक पोस्ट में आपका उल्लेख किया है.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} ने {title} में उस समूह का उल्लेख किया है जिसके आप सदस्य हैं",
-                "body": "अरे {recipient_display_name}!\n\n{mentioner_display_name} ने {title} में उस समूह का उल्लेख किया है जिसके आप सदस्य हैं।\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
-            }
-        },
-        "lib": {
-            "gambits": {
-                "posts": {
-                    "mentioned": {
-                        "key": "",
-                        "hint": ""
-                    }
-                }
+                "body": "अरे {recipient_display_name}!\n\n{mentioner_display_name} ने {title} में उस समूह का उल्लेख किया है जिसके आप सदस्य हैं।\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

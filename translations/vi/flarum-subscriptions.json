@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Bài viết mới] {title}",
-                "body": "Chào {recipient_display_name}!\n\n{poster_display_name} đã đăng một bài viết trong cuộc thảo luận mà bạn đang theo dõi: {title}.\n\nĐể xem hoạt động mới, kiểm tra nó tại liên kết sau:\n{url}\n\n---\n\n{content}\n\n---\n\nBạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi được cập nhật.\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Chào {recipient_display_name}!\n\n{poster_display_name} đã đăng một bài viết trong cuộc thảo luận mà bạn đang theo dõi: {title}.\n\nĐể xem hoạt động mới, kiểm tra nó tại liên kết sau:\n{url}\n\n---\n\n{content}\n\n---\n\nBạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi được cập nhật.\n"
             }
         },
         "ref": {
             "follow": "Theo dõi",
             "following": "Đang theo dõi",
             "ignoring": "Bỏ qua"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

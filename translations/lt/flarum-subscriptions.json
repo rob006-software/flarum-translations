@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Naujas pranešimas] {title}",
-                "body": "Sveiki {recipient_display_name}!\n\n{poster_display_name} prašė pranešimą temoje kurią sekate: {title}.\n\nNorėdami peržiūrėti paspauskite nuorodą esančia žemiau:\n{url}\n\n---\n\n{content}\n\n---\n\nDaugiau nebegausite pranešimų apie šią diskusiją, kol nesate atnaujinti.\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Sveiki {recipient_display_name}!\n\n{poster_display_name} prašė pranešimą temoje kurią sekate: {title}.\n\nNorėdami peržiūrėti paspauskite nuorodą esančia žemiau:\n{url}\n\n---\n\n{content}\n\n---\n\nDaugiau nebegausite pranešimų apie šią diskusiją, kol nesate atnaujinti.\n"
             }
         },
         "ref": {
             "follow": "Sekti",
             "following": "Sekama",
             "ignoring": "Ignoruojama"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

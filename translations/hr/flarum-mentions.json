@@ -51,43 +51,15 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} odgovara na tvoju objavu u {title}",
-                "body": "Hej {recipient_display_name}!\n\n{replier_display_name} odgovara na tvoju objavu (#{post_number}) u {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Hej {recipient_display_name}!\n\n{replier_display_name} odgovara na tvoju objavu (#{post_number}) u {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} te spominije u {title}",
-                "body": "Hej {recipient_display_name}!\n\n{mentioner_display_name} te spominje u objavi u {title}.\n\n{url}\n\n---\n\n{content}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Hej {recipient_display_name}!\n\n{mentioner_display_name} te spominje u objavi u {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
                 "subject": "",
-                "body": "",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
-            }
-        },
-        "lib": {
-            "gambits": {
-                "posts": {
-                    "mentioned": {
-                        "key": "",
-                        "hint": ""
-                    }
-                }
+                "body": ""
             }
         }
     }

@@ -3,11 +3,6 @@
         "admin": {
             "permissions": {
                 "sticky_discussions_label": "Označavanje diskusije važnom"
-            },
-            "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
             }
         },
         "forum": {
@@ -25,15 +20,6 @@
         },
         "ref": {
             "sticky": "Važna diskusija"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "sticky": {
-                        "key": ""
-                    }
-                }
-            }
         }
     }
 }

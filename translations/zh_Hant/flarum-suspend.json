@@ -40,37 +40,16 @@
             "no_reason_given": "管理員並未給出封鎖原因。",
             "suspended": {
                 "subject": "你的帳號已被封鎖",
-                "body": "{recipient_display_name} 你好，\n\n你的帳號因以下原因已被封鎖：\n\n---\n{suspension_message}\n---\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "{recipient_display_name} 你好，\n\n你的帳號因以下原因已被封鎖：\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
                 "subject": "你的帳號已解封",
-                "body": "{recipient_display_name} 你好，\n\n你的帳號已解封。\n\n{forum_url}\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "{recipient_display_name} 你好，\n\n你的帳號已解封。\n\n{forum_url}\n"
             }
         },
         "validation": {
             "attributes": {
                 "suspendedUntil": ""
-            }
-        },
-        "lib": {
-            "gambits": {
-                "users": {
-                    "suspended": {
-                        "key": ""
-                    }
-                }
             }
         }
     }

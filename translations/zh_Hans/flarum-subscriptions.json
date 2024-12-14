@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "【新帖】{title}",
-                "body": "{recipient_display_name}，您好！\n\n您关注的主题《{title}》，【{poster_display_name}】发表了新内容\n\n点击下方链接即可查看完整内容。\n{url}\n\n---\n\n{content}\n\n---\n\n在您已读前，您不会再收到任何关于这个主题的通知。\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "{recipient_display_name}，您好！\n\n您关注的主题《{title}》，【{poster_display_name}】发表了新内容\n\n点击下方链接即可查看完整内容。\n{url}\n\n---\n\n{content}\n\n---\n\n在您已读前，您不会再收到任何关于这个主题的通知。\n"
             }
         },
         "ref": {
             "follow": "关注",
             "following": "关注中",
             "ignoring": "忽视中"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }

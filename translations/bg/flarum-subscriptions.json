@@ -39,29 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Нова публикация] {title}",
-                "body": "Здравей, {recipient_display_name}!\n\n{poster_display_name} направи публикация в дискусия, която следвате: {title}.\n\nЗа да видите новата дейност, вижте следната връзка:\n{url}\n\n---\n\n{content}\n\n---\n\nНяма да получавате повече известия за тази дискусия, докато не сте в течение.\n",
-                "plain": {
-                    "body": ""
-                },
-                "html": {
-                    "body": ""
-                }
+                "body": "Здравей, {recipient_display_name}!\n\n{poster_display_name} направи публикация в дискусия, която следвате: {title}.\n\nЗа да видите новата дейност, вижте следната връзка:\n{url}\n\n---\n\n{content}\n\n---\n\nНяма да получавате повече известия за тази дискусия, докато не сте в течение.\n"
             }
         },
         "ref": {
             "follow": "Следвай",
             "following": "Следване",
             "ignoring": "Игнориране"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
-                    }
-                }
-            }
         }
     }
 }
