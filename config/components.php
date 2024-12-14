@@ -529,7 +529,6 @@ return [
 	],
 	'flarum-sticky' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/sticky/v1.8.2/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/flarum/sticky/v2.0.0-beta.1/locale/en.yml',
 	],
 	'flarum-subscriptions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/subscriptions/v1.8.1/locale/en.yml',
