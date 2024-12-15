@@ -3,8 +3,11 @@
         "admin": {
             "settings": {
                 "title": "FoF Open Collective",
-                "desc": "從 <a>https://opencollective.com/applications</a> 取得 API Key。",
+                "desc": "從「設定」>「開發者」下的 <a>https://opencollective.com/dashboard</a> 取得您的個人令牌。不要選擇任何其他範圍 - 保留預設的空選擇。\n",
+                "use_legacy_api_key_label": "使用舊版應用API密鑰",
+                "use_legacy_api_key_help": "您可以在此繼續使用舊版 API 金鑰，但建議您切換到新版個人令牌。目前個人令牌似乎在 API Key 模式下套用（即“API-Key”頭），但無文件說明。\n",
                 "api_key_label": "API Key",
+                "personal_token_label": "",
                 "slug_label": "Collective Slug",
                 "group_label": "指定群組"
             }

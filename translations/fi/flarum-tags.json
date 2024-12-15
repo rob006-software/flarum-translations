@@ -43,6 +43,7 @@
                 "about_tags_text": "Avainsanoja käytetään keskustelujen kategorioimiseen. Ensisijaiset avainsanat ovat kuten perinteiset foorumin kategoriat: niitä voidaan järjestää kahdella tasolla. Toissijaisilla avainsanoilla ei ole hierarkiaa tai järjestystä. Ne ovat hyödyllisiä esimerkiksi tavallisina avainsanoina.",
                 "create_primary_tag_button": "Luo ensisijainen avainsana",
                 "create_secondary_tag_button": "Luo toissijainen avainsana",
+                "edit_tag_label": "",
                 "primary_heading": "Ensisijaiset avainsanat",
                 "secondary_heading": "Toissijaiset avainsanat",
                 "settings_heading": "Asetukset"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "{count, plural, one {Valitse 1 avainsana lisää} other {Valitse # avainsanaa lisää}}",
             "name": "Nimi",
             "tags": "Avainsanat"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

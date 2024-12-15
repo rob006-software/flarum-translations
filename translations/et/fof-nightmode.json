@@ -1,35 +1,40 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "Automaatne (vastavalt veebilehitseja või seadme eelistustele)",
+            "light": "Päevane režiim",
+            "dark": "Öö režiim"
         },
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "Üldised seaded",
+                    "help": "Need seaded määravad lisaprogrammi üldise käitumise."
+                },
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
-                    "default_theme": "",
-                    "default_theme_helper": "",
-                    "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "always_show_theme_toggle_on_header": "Näita foorumi päises teema lülitamise nuppu",
+                    "show_theme_toggle_in_solid": "Näita ikooni",
+                    "default_theme": "Vaikimisi foorumi teema",
+                    "default_theme_helper": "Vaikimisi teema määratakse automaatselt uutele kasutajatele, külastajatele ja neil, kes pole oma eelistust valinud.",
+                    "theme_auto": "Automaatne",
+                    "theme_light": "Hele",
+                    "theme_dark": "Tume"
                 }
             }
         },
         "forum": {
-            "day": "",
-            "night": "",
+            "day": "Hele",
+            "night": "Tume",
             "header": {
-                "nightmode_button": ""
+                "nightmode_button": "Lülita foorumi teemat"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
+                    "heading": "Teema",
+                    "description": "Vali, mis teema värvi sa soovid foorumis kasutada.",
+                    "description2": "See teema seotakse sinu kontoga ning rakendatakse kõigile sinu seadmetele, kui sa just igas seadmes ikooni klikkides teist valikut ei tee.",
+                    "device_specific_setting_checkbox": "Kasuta seadme eelistusi",
+                    "device_specific_setting_checkbox_tooltip": "Sinu teema valik salvestatakse eraldi iga seadme jaoks.",
                     "auto_unsupported": "",
                     "options": {
                         "auto": "",
@@ -50,8 +55,8 @@
             "settings": {
                 "fofNightMode": "",
                 "fofNightMode-help": "",
-                "fofNightMode_perDevice": "",
-                "fofNightMode_perDevice-help": ""
+                "fofNightMode_perDevice": "FoF Öörežiim: kasuta seadme eelistusi",
+                "fofNightMode_perDevice-help": "Kasuta öörežiimi seadeid vastavalt seadmete eelistusele"
             }
         }
     }

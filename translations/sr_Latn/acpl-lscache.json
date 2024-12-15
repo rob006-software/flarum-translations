@@ -14,6 +14,8 @@
             "cache_exclude_help": "Putanje koje sadrže ove nizove neće biti keširane. Na primer, za <code>/mypath/mypage?aa=bb</code>,<code>mypage?aa=</code> se mogu ovde koristiti. Da biste podudarili početak, dodajte <code>^</code> na početak stavke. Da biste izvršili potpuno podudaranje, dodajte <code>$</code> na kraju URLa. Po jedan u redu.",
             "drop_qs_label": "",
             "drop_qs_help": "",
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
             "purge_all": "Očistite sav LSCache",
             "purge_all_success": "Obavešten je LiteSpeed veb server da očisti sve LSCache unose"
         }

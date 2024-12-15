@@ -10,6 +10,18 @@
                 "no_settings_available": "Jelenleg nem érhetők el beállítások. Próbálja telepíteni a fof/moderator-notes bővítményt."
             }
         },
+        "lib": {
+            "modal": {
+                "title": "Bejelentkezés másik felhasználóként",
+                "label": "A hatalom felelősséggel jár. A folytatással kijelentkezésig {username} felhasználóvá válik.",
+                "placeholder_optional": "(Nem kötelező) Adja meg az erre a felhasználóra való átváltás okát",
+                "placeholder_required": "A folytatás előtt meg kell adnia az erre a felhasználóra való átváltás okát",
+                "impersonate_username": "Bejelentkezés mint {username}"
+            },
+            "user_controls": {
+                "impersonate_button": "Bejelentkezés felhasználóként"
+            }
+        },
         "forum": {
             "modal": {
                 "title": "Bejelentkezés másik felhasználóként",

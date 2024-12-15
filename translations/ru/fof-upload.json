@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Все файлы, загруженные этим пользователем.",
-                    "anonymize_description": "Удаляет ссылку на пользователя из загруженных файлов. Файлы остаются доступными пользователям, имевшим права доступа до их анонимизации.",
-                    "delete_description": "Удалить все файлы, загруженные пользователем."
+                    "export_description": "Все файлы загружены пользователем.",
+                    "anonymize_description": "Удаляет ссылку пользователя из загруженных файлов. Сами файлы остаются доступными для пользователей, которые могли просматривать их до анонимизации.",
+                    "delete_description": "Удаляет все файлы, загруженные пользователем."
                 }
             }
         }
@@ -13,14 +13,14 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Общие загрузки"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Загружайте файлы, которые смогут использовать все пользователи вашего форума.",
+                "introduction": "Общие загрузки — это файлы, которые могут использовать все пользователи вашего форума. Они не прикреплены ни к одному сообщению, но могут быть вставлены в сообщения с помощью менеджера файлов.\n\n<strong>Предупреждение:</strong> Общие загрузки не защищены никакими разрешениями. Любой, у кого есть URL, может просматривать их.\n",
+                "no-files": "Пока не загружено ни одного общего файла.",
+                "title": "Общие загрузки",
+                "upload-new-button": "Загрузить новый файл"
             },
             "pane": {
                 "title": "Загрузка",
@@ -36,6 +36,7 @@
                 "watermark": "Водяной знак будет добавляться к загружаемым изображениям (кроме GIF).\n",
                 "s3_compatible_storage": "Следующие настройки требуются только при использовании хранилища, совместимого с S3. Если Вы используете AWS, оставьте поля пустыми.\n",
                 "s3_acl": "Список контроля доступа (ACL), который будет применяться к загружаемому файлу (по умолчанию: private). Возможные значения смотрите на странице https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Оставить ключ/секретный ключ пустыми для использования логина/пароля из соответствующего профиля.\n",
                 "composer_buttons": "По умолчанию отображаются кнопки менеджера файлов и загрузки. Вы можете выбрать отображение одной из кнопок.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Дополнительные настройки хранилища S3",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Use path style endpoint",
-                    "acl": "Список контроля доступа (ACL)"
+                    "acl": "Список контроля доступа (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Отключить ведение журнала загрузок",
@@ -109,8 +111,8 @@
                 "upload_label": "Загружать файлы",
                 "view_user_uploads_label": "Смотреть загрузки пользователя",
                 "delete_uploads_of_others_label": "Удалять загрузки пользователей",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "Загрузить общие файлы",
+                "access_shared_label": "Доступ к общим файлам в Медиа Менеджере"
             },
             "templates": {
                 "file": "Файл",
@@ -130,6 +132,7 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
+                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Локально",
                 "ovh-svfs": "OVH SVFS",
@@ -154,11 +157,11 @@
             "buttons": {
                 "attach": "Файл",
                 "upload": "Загрузить",
-                "upload_shared": "",
+                "upload_shared": "Поделился",
                 "user_uploads": "Загрузки пользователя",
                 "cancel": "Отмена",
                 "media": "Мои загрузки",
-                "shared_media": ""
+                "shared_media": "Общие медиа"
             },
             "states": {
                 "error": "Ошибка",
@@ -210,43 +213,54 @@
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Новый общий файл",
+                "dropzone": "Перетащите файлы сюда или нажмите, чтобы просмотреть",
+                "hide-from-media-gallery": "Скрыть из медиагалереи пользователя",
+                "upload": "Загрузить"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Загрузка файлов...",
+                "empty": "Нет файлов для отображения.",
+                "release_to_upload": "Отпустите, чтобы загрузить",
+                "modal_empty_desktop": "Ваш список файлов пуст. Нажмите кнопку или перетащите файл сюда для загрузки.",
+                "modal_empty_phone": "Ваш список файлов пуст. Нажмите кнопку выше, чтобы загрузить файл.",
+                "select_file_a11y_label": "Выберите файл \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Ничего не выбрано} one {Выбрать файл} other {Выбрать файлы}}",
+                "load_more_files_btn": "Загрузить больше файлов",
+                "delete_file_a11y_label": "Удалить файл \"{fileName}\"",
+                "delete_confirmation": "Вы уверены, что хотите удалить «{fileName}»?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Скрыть \"{fileName}\" из медиа менеджера",
+                    "btn_a11y_label_show": "Показать \"{fileName}\" в медиа менеджере",
+                    "hide_confirmation": "Вы уверены, что хотите скрыть \"{fileName}\"? Скрытие файла удалит его только из вашего медиа менеджера и не повлияет на существующие публикации.",
+                    "hide_success": "Файл скрыт",
+                    "show_confirmation": "Вы уверены, что хотите показать \"{fileName}\"? Отображение файла сделает его видимым в вашем медиа менеджере.",
+                    "show_success": "Файл показан",
+                    "hide_fail": "Не удалось скрыть файл \"{fileName}\"",
+                    "show_fail": "Не удалось показать файл \"{fileName}\"",
+                    "loading": "Скрытие файла..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Сделать \"{fileName}\" приватным (без публичного URL)",
+                    "btn_a11y_label_show": "Сделать \"{fileName}\" общедоступным (с общедоступным URL)",
+                    "hide_confirmation": "Вы уверены, что хотите сделать \"{fileName}\" приватным? Если сделать файл приватным, его публичный URL-адрес будет удален, но это не повлияет на существующие записи. Он также больше не будет виден в медиа менеджере неавторизованным пользователям.",
+                    "hide_success": "Файл сделан приватным",
+                    "show_confirmation": "Вы уверены, что хотите сделать \"{fileName}\" общедоступным? Публичный доступ к файлу сделает его доступным для всех, у кого есть общедоступный URL, и любой может поделиться им с помощью медиа менеджера.",
+                    "show_success": "Файл открыт для общего доступа",
+                    "hide_fail": "Не удалось сделать файл \"{fileName}\" приватным",
+                    "show_fail": "Не удалось сделать файл \"{fileName}\" общедоступным",
+                    "loading": "Делаем файл приватным..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Все файлы, загруженные этим пользователем.",
+                    "anonymize_description": "Удаляет ссылку на пользователя из загруженных файлов. Файлы остаются доступными пользователям, имевшим права доступа до их анонимизации.",
+                    "delete_description": "Удалить все файлы, загруженные пользователем."
                 }
             }
         }

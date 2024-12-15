@@ -2,27 +2,27 @@
     "clarkwinkelmann-money-to-all": {
         "lib": {
             "modal": {
-                "title": "",
-                "amount": "",
-                "notify": "",
-                "message": "",
-                "messagePlaceholder": "",
-                "messageHelp": "",
-                "suspended": "",
-                "lastActivity": "",
-                "preview": "",
-                "submit": "",
-                "success": ""
+                "title": "Pénz küldése az összes felhasználónak",
+                "amount": "Összeg",
+                "notify": "Webes értesítés küldése a felhasználóknak",
+                "message": "Üzenet",
+                "messagePlaceholder": "Az üzenet megadásához engedélyezze az értesítést",
+                "messageHelp": "Nem kötelező. Az üzenet felülírja az alapértelmezett értesítési szöveget. Említse meg az összeget a szövegben, mert különben nem fog látszódni.",
+                "suspended": "Felfüggesztett felhasználók belevétele",
+                "lastActivity": "Korlátozás a következő dátum után aktív felhasználókra",
+                "preview": "A jelenlegi beállítások {count} felhasználóra felelnek meg.",
+                "submit": "Küldés",
+                "success": "Pénz küldve {count} felhasználónak!"
             }
         },
         "admin": {
             "settings": {
-                "send": ""
+                "send": "Pénz küldése az összes felhasználónak"
             }
         },
         "forum": {
             "notification": {
-                "moneyReceived": ""
+                "moneyReceived": "Ekkora összeget kapott: {amount}"
             }
         }
     }

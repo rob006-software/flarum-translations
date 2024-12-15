@@ -1,0 +1,62 @@
+{
+    "neoncube-private-messages": {
+        "admin": {
+            "settings": {
+                "return_key": "返回鍵發送訊息",
+                "return_key_help": "",
+                "show_read_receipts": "",
+                "show_read_receipts_help": "",
+                "message_recipient_background_color": "",
+                "message_recipient_background_color_help": ""
+            },
+            "permissions": {
+                "start_label": "發送私信",
+                "allow_users_to_receive_email_notifications": "允許用戶在收到私人訊息時收到電子郵件通知"
+            }
+        },
+        "forum": {
+            "dropdown": {
+                "tooltip": "消息"
+            },
+            "modal": {
+                "title": "創建會話",
+                "help": "開始輸入使用者名稱來開始聊天。",
+                "help_start": "{username} 主動回覆你前，最多發送 1 則訊息。點選使用者名稱重新選擇對話人。",
+                "search_recipients": "輸入使用者名稱...",
+                "submit": "發送消息",
+                "copied": "已複製消息到剪貼板。",
+                "more_users": "如果您沒有看到要查找的使用者，則表示他們沒有設置私人消息。",
+                "already": "您已經與 {username} 進行了對話。"
+            },
+            "chat": {
+                "messages_single": "新建會話",
+                "messages_multiple": "",
+                "chat_with": "",
+                "start": "",
+                "start_of_conversation": "",
+                "read": "",
+                "cant_start": "",
+                "text_placeholder": "",
+                "send": "",
+                "message_read": ""
+            },
+            "notifications": {
+                "message_received": "",
+                "new_private_message": "",
+                "web": {
+                    "new_private_message": {
+                        "body": ""
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "",
+                        "youHaveReceivedNewMessage": "",
+                        "viewMessage": "",
+                        "manageEmailSettings": ""
+                    }
+                }
+            }
+        }
+    }
+}

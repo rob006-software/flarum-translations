@@ -5,7 +5,7 @@
                 "title": "Pengaturan Persyaratan",
                 "field": {
                     "signup-legal-text": "Teks tambahan pada form pendaftaran",
-                    "hide-updated-at": "Jangan tampilkan tanggal perubahan persyaratan ketika perubahan tersedia",
+                    "hide-updated-at": "Jangan menampilkan tanggal perubahan persyaratan ketika perubahan tersedia",
                     "date-format": "Format tanggal",
                     "date-format-help": "Anda dapat menggunakan format <a>Day.js</a> yang valid. Biarkan kolom ini kosong sebagai default."
                 }
@@ -26,7 +26,7 @@
             },
             "policies": {
                 "name": "Nama",
-                "name-help": "Nama ini akan ditampilkan di samping kotak centang dan sebagai judul di update modal.",
+                "name-help": "Nama ini akan ditampilkan di samping kotak centang dan sebagai judul jendela modal pembaruan.",
                 "url": "URL",
                 "url-help": "URL ke halaman di mana Anda dapat membaca persyaratan. Akan terbuka di tab baru ketika diklik.",
                 "update-message": "Perbarui Pesan",
@@ -35,10 +35,12 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "Tanggal perubahan persyaratan terbaru. Menentukan nilai ini akan mengharuskan semua pengguna yang menerima sebelum tanggal tersebut untuk menerima lagi. Harus di waktu sebelumnya (jika tidak, pengguna tidak akan pernah bisa menerima setelah tanggal tersebut dan dapat melewati modal).\n",
                 "export-url": "URL Ekspor",
-                "export-url-help": "Setiap pengguna yang memiliki izin \"Ekspor semua data kebijakan\" dapat mengakses URL tersebut untuk men-download daftar pengguna yang menerima kebijakan ini. Anda dapat menemukan detail lebih lanjut tentang opsi yang tersedia di <a>wiki ekstensi</a>.\n"
+                "export-url-help": "Setiap pengguna yang memiliki izin \"Ekspor semua data kebijakan\" dapat mengakses URL tersebut untuk men-download daftar pengguna yang menerima kebijakan ini. Anda dapat menemukan detail lebih lanjut tentang opsi yang tersedia di <a>wiki ekstensi</a>.\n",
+                "optional": "Kebijakan Opsional",
+                "optional-help": "Jika diaktifkan, pengguna dapat menggunakan dan berinteraksi dengan forum tanpa menerima kebijakan ini."
             },
             "permissions": {
-                "see-user-policies-state": "Melihat status kebijakan pengguna",
+                "see-user-policies-state": "Melihat pernyataan kebijakan pengguna",
                 "postpone-policies-accept": "Dapat menunda untuk menerima persyaratan yang baru",
                 "export-policies": "Mengekspor semua data pengguna dan kebijakan"
             }
@@ -57,17 +59,32 @@
                 "close": "Terima kasih telah menerima, Anda sekarang dapat kembali ke forum"
             },
             "state-modal": {
-                "title": "Ketentuan menerima status untuk pengguna {username}",
+                "title": "Pernyataan menerima persyaratan untuk pengguna {username}",
                 "accepted-at": "Diterima {date}",
                 "not-accepted": "Tidak diterima"
             },
             "update-alert": {
                 "must-accept-message": "Kami telah membatasi akses ke akun Anda untuk sementara waktu, sementara itu Anda dapat memeriksa persyaratan yang baru.",
                 "can-accept-message": "Kami baru saja mengubah persyaratan ini. Anda harus menyetujuinya untuk terus menggunakan situs web ini.",
-                "review": "Klik di sini untuk meninjau dan menerima persyaratan yang baru"
+                "can-accept-optional-message": "Kami baru saja memperbarui persyaratan. Anda dapat memeriksanya sesuai keinginan Anda.",
+                "review": "Klik di sini untuk meninjau dan menerima persyaratan yang baru",
+                "close": "Tutup"
+            },
+            "user_settings": {
+                "optional_policies_label": "Kebijakan"
             },
             "user_controls": {
-                "state_button": "Ketentuan menerima status"
+                "state_button": "Pernyataan menerima persyaratan"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "userpolicydata": {
+                    "export_description": "Rincian tentang pernyataan persetujuan pengguna terhadap persyaratan",
+                    "delete_description": "Menghapus pernyataan persetujuan pengguna terhadap persyaratan"
+                }
             }
         }
     },

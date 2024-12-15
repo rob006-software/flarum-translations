@@ -2,21 +2,21 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "Keegi loob vestluse sildiga, mida ma jälgin",
+                "notify_new_post_label": "Keegi postitab sildiga, mida ma jälgin",
+                "notify_new_discussion_tag_label": "Keegi muudab vestluse sildi sildiks, mida ma jälgin"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "Jälgi",
+                "unfollow_tag_button": "Lõpeta jälgimine",
                 "following": {
                     "following_none_label": "",
                     "following_tags_label": ""
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "Jälgimine",
+                "lurking_tag_tooltip": "Luuramine"
             },
             "sub_controls": {
                 "header": "",
@@ -43,7 +43,7 @@
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Jälgi silte",
                     "filter_label": ""
                 }
             }
@@ -68,18 +68,18 @@
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "Jälgi",
+            "following": "Jälgimine",
+            "hiding": "Peitmine",
+            "ignoring": "Ignoreerimine",
+            "lurking": "Luuramine",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Jälgitud vestlused",
+                "tags": "Jälgitud sildid"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "tagsubscription": {

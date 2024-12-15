@@ -2,24 +2,24 @@
     "flarum-approval": {
         "admin": {
             "permissions": {
-                "approve_posts_label": "",
-                "reply_without_approval_label": "",
-                "start_discussions_without_approval_label": ""
+                "approve_posts_label": "Odobri objave",
+                "reply_without_approval_label": "Odgovori na razprave brez odobritve",
+                "start_discussions_without_approval_label": "Začni razprave brez odobritve"
             }
         },
         "forum": {
             "badge": {
-                "awaiting_approval_tooltip": ""
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
             },
             "post": {
-                "awaiting_approval_text": ""
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
             },
             "post_controls": {
-                "approve_button": ""
+                "approve_button": "Odobri"
             }
         },
         "ref": {
-            "awaiting_approval": "Čakanje na odobritev"
+            "awaiting_approval": "Čaka na odobritev"
         }
     }
 }

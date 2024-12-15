@@ -2,43 +2,43 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "exclude_users": "",
-                "exclude_users_help": "",
-                "mode_label": "",
-                "mode_help": "",
-                "mode_help_runtime_label": "",
-                "mode_help_runtime": "",
-                "mode_help_schedule": "",
-                "mode_help_schedule_setup": "",
-                "mode_help_large": "",
-                "mode_help_multi_label": "",
-                "mode_help_multi": "",
-                "advanced_options_label": "",
-                "frequency_label": "",
-                "risky_performance_improvements": "",
-                "risky_performance_improvements_help": "",
+                "exclude_users": "Excluir todos los perfiles de usuario del mapa del sitio",
+                "exclude_users_help": "De forma predeterminada, cualquier usuario visible para los invitados será indexado",
+                "mode_label": "Modo de operación",
+                "mode_help": "Seleccionar el modo correcto para el tamaño de su foro es de vital importancia.",
+                "mode_help_runtime_label": "Modo de ejecución",
+                "mode_help_runtime": "Para foros pequeños, probablemente en entornos de alojamiento compartido, con discusiones, usuarios, etiquetas y páginas que suman menos de 10.000 elementos. El mapa del sitio se genera sobre la marcha en cada solicitud.",
+                "mode_help_schedule": "Los siguientes modos agregan sus tareas a la programación de Flarum.",
+                "mode_help_schedule_setup": "Si el Programador de Flarum no está configurado correctamente, no se ejecutarán los siguientes modos. Consulte aquí <a>para obtener más información</a>.",
+                "mode_help_large": "El límite técnico para los archivos de mapas de sitio es de 50.000. Si tiene más entradas para almacenar, ¡utilice la siguiente opción!",
+                "mode_help_multi_label": "Modo de múltiples archivos",
+                "mode_help_multi": "Ideal para foros más grandes, a partir de 10.000 elementos. Se generarán archivos de mapa del sitio comprimidos y de varias partes, que se almacenarán en la carpeta /public",
+                "advanced_options_label": "Opciones avanzadas",
+                "frequency_label": "¿Con qué frecuencia debe el Programador reconstruir el mapa del sitio almacenado en caché?",
+                "risky_performance_improvements": "Habilitar mejoras de rendimiento arriesgadas",
+                "risky_performance_improvements_help": "Estas mejoras hacen que el trabajo CRON se ejecute más rápido en conjuntos de datos de millones de filas, pero podrían romper la compatibilidad con algunas extensiones.",
                 "modes": {
-                    "runtime": "",
-                    "multi_file": ""
+                    "runtime": "Tiempo de ejecución",
+                    "multi_file": "Múltiples archivos"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "Cada hora",
+                    "twice_daily": "Dos veces al día",
+                    "daily": "A diario"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Prevención del Error 404 suave",
+                    "help": "Cuando un modelo no tiene contenido relevante o tiene muy poco contenido relevante, Google y otros rastreadores pueden marcarlo como página \"404 suave\". Para eliminar esto, establezca aquí una cantidad mínima de elementos necesarios para cada elemento que cumpla los requisitos.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Usuario: Número mínimo de comentarios/publicaciones",
+                            "minimum_item_threshold_help": "El número mínimo de comentarios/publicaciones que debe tener un usuario para que su perfil se incluya en el mapa del sitio."
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Etiqueta: Número mínimo de discusiones",
+                            "minimum_item_threshold_help": "El número mínimo de discusiones que debe tener una etiqueta para que se incluya en el mapa del sitio."
                         }
                     }
                 }

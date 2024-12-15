@@ -2,22 +2,23 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Vali parim vastus (omaenda arutelu)",
+                "best_answer_not_own_discussion": "Vali parim vastus (mitte omaenda arutelu)"
             },
             "settings": {
                 "label": {
-                    "tags": "",
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "tags": "Parimad vastused sildid",
+                    "general": "Üldine",
+                    "reminders": "Meeldetuletused",
+                    "search": "Otsi",
+                    "advanced": "Lisavalikud",
+                    "reminders_notice": "Meeldetuletuste töötamiseks pead sa esmalt seadistama korrektselt Flarumi ajastusprogrammi."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "show_max_lines_label": "",
+                "allow_select_own_post": "Vali omaenda postitus",
+                "allow_select_own_post_help": "Linna kasutajatel valida omaenda vaesust kui parimat vaesust arutelus",
+                "show_max_lines_label": "Maksimaalne ridade arv eelvaates",
                 "show_max_lines_help": "",
-                "select_best_answer_reminder_days": "",
+                "select_best_answer_reminder_days": "Meeldetuletuste sagedus",
                 "select_best_answer_reminder_days_help": "",
                 "select_best_answer_tags_label": "",
                 "select_best_answer_tags_help": "",
@@ -28,14 +29,22 @@
                 "schedule_log_output": "",
                 "show_filter_label": "",
                 "show_filter_help": "",
-                "use_alt_ui": "",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "enabled_tags_label": "",
-                "enabled_tags_help": "",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": ""
+                "use_alt_ui": "Alternatiivne paigutus",
+                "use_alt_ui_help": "Parima vaesust nupud postituse jaluses",
+                "documentation": "Dokumentatsioon",
+                "enabled_tags_label": "Valitud sildid",
+                "enabled_tags_help": "Vali, mis siltide puhul saab parimaid vastuseid märkida. Neid siltide kasutatakse siis stiilis küsimused ja vastused, et saada parima vastused funktsioonidest suurimat kasu.",
+                "remind_tags_label": "Meeldetuletused siltides",
+                "remind_tags_help": "Vali, mis siltides meeldetuletusi saadetakse. Meeldetuletusi saadetakse ainult nende vaatluste kohta, millel on valitud sildid.",
+                "tags_info": "",
+                "solution_search": "Lahendused otsimine",
+                "solution_search_help": "Linna otsida parimate vastustega arutelusid",
+                "remove_solutions_from_main_search": "Eemalda lahendused peamisest otsingust",
+                "remove_solutions_from_main_search_help": "",
+                "display_tags": "Näita otsingutulemustes siltide",
+                "display_tags_help": "",
+                "discussion_sidebar_jump_button": "",
+                "discussion_sidebar_jump_button_help": ""
             },
             "edit_tag": {
                 "qna_label": "",
@@ -43,10 +52,10 @@
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
+            "answered_badge": "Vastatud",
+            "this_best_answer": "Vali parim vastus",
+            "remove_best_answer": "Tühista valik",
+            "best_answer_button": "Parim vastus",
             "best_answer_label": "",
             "errors": {
                 "mismatch": ""
@@ -62,22 +71,29 @@
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Esita küsimus",
+                "cannot_ask_question": "Ei saa küsimust esitada",
+                "solved_link": "Lahendatud vestlused",
+                "unsolved_link": "Lahendamata vestlused"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
+                "all_label": "Kõik küsimused",
+                "solved_label": "Lahendatud küsimused",
+                "unsolved_label": "Lahendamata küsimused",
                 "accessible_label": ""
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Küsimused pealkiri"
             },
             "user": {
                 "best-answer-count": ""
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
+            },
+            "discussion": {
+                "jump_to_best_answer_button": "Vaata parimat vastust"
             }
         },
         "email": {
@@ -96,8 +112,8 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Enim parimaid vastuseid",
+                "least_best_answers": "Kõige vähem parimaid vastuseid"
             }
         }
     }

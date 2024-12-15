@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
                     "export_description": "Kullanıcı tarafından yüklenen tüm dosyalar.",
-                    "anonymize_description": "Yüklenen dosyalardan kullanıcı referansını kaldırır. Dosyaların kendisi, onları önceden anonimleştirmeden görüntüleyebilen kullanıcılar tarafından erişilebilir durumda kalır.",
-                    "delete_description": "Kullanıcı tarafından yüklenen tüm dosyaları siler."
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -36,6 +36,7 @@
                 "watermark": "Yükleme sırasında resimlere filigran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n",
                 "s3_compatible_storage": "Aşağıdaki ayarlar yalnızca S3 uyumlu depolama kullanılırken gereklidir. AWS kullanıyorsanız, bunları boş bırakabilirsiniz.\n",
                 "s3_acl": "Yüklenen nesneye uygulanması gereken ACL (varsayılan: özel). Olası değerler için bkz. https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "Belirli bir URL formatı gerektiren S3 uyumlu bir hizmet kullanıyorsanız (ör. Backblaze B2) veya varsayılan URL formatıyla ilgili sorunlar yaşıyorsanız bu ayarı kullanın. Bu ayar genellikle çoğu hizmet için gerekli değildir. URL'nin protokolü (https://) içerdiğinden ve doğru biçimlendirildiğinden emin olun. Örnek: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Örnek profilinde kimlik bilgilerini kullanmak için anahtarı ve sırrı (secret) boş bırakın.\n",
                 "composer_buttons": "Varsayılan olarak hem medya yöneticisi düğmesi hem de yükleme düğmesi görünür durumdadır. Ayrıca yalnızca bir düğmeyi görüntülemeyi de seçebilirsiniz.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Gelişmiş S3 depolama ayarları",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Dizin stili endpoint kullan",
-                    "acl": "Access Control List (ACL)"
+                    "acl": "Access Control List (ACL)",
+                    "custom_url": "Özel S3 Bağlantısı"
                 },
                 "disable-download-logging": {
                     "title": "İndirme kayıtlarını etkisizleştir",
@@ -130,6 +132,7 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
+                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Yerel",
                 "ovh-svfs": "OVH SVFS",
@@ -225,7 +228,7 @@
                 "modal_empty_desktop": "Dosya listeniz boş. Yüklemek için düğmeye tıklayın veya bir dosyayı buraya sürükleyin.",
                 "modal_empty_phone": "Dosya listeniz boş. Bir dosya yüklemek için yukarıdaki düğmeye dokunun.",
                 "select_file_a11y_label": "\"{fileName}\" dosyasını seçin",
-                "confirm_selection_btn": "{fileCount, plural, =0 {His seçilmedi} one {Dosya seç} other {Dosya seç}}",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Hiç seçilmedi} one {Dosya seç} other {Dosya seç}}",
                 "load_more_files_btn": "Daha fazla dosya",
                 "delete_file_a11y_label": "\"{fileName}\" dosyasını sil",
                 "delete_confirmation": "\"{fileName}\" dosyasını silmek istediğinizden emin misiniz?",
@@ -250,6 +253,17 @@
                     "hide_fail": "\"{fileName}\" dosyası özel yapılamadı",
                     "show_fail": "\"{fileName}\" dosyası herkese açık hale getirilemedi",
                     "loading": "Dosya özel hale getiriliyor..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Kullanıcı tarafından yüklenen tüm dosyalar.",
+                    "anonymize_description": "Yüklenen dosyalardan kullanıcı referansını kaldırır. Dosyaların kendisi, onları önceden anonimleştirmeden görüntüleyebilen kullanıcılar tarafından erişilebilir durumda kalır.",
+                    "delete_description": "Kullanıcı tarafından yüklenen tüm dosyaları siler."
                 }
             }
         }

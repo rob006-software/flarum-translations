@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "help_text": "在您的 Cloudflare 帳戶上<a>此處</a>生成 Turnstile 密鑰。",
-                "site_key": "站點金鑰（Site key）",
+                "site_key": "網站金鑰（Site key）",
                 "secret_key": "私鑰（Secret key）",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
@@ -11,10 +11,10 @@
             }
         },
         "forum": {
-            "not_loaded_error": "未能正確加載Cloudflare Turnstile，請刷新本頁面，並檢查您的廣告攔截程序是否關閉。"
+            "not_loaded_error": "未能正確載入Cloudflare Turnstile，請重整本頁面，並檢查您的廣告攔截程式是否關閉。"
         }
     },
     "validation": {
-        "turnstile": "我們無法驗證您是否是一個機器人。請刷新頁面並重試。"
+        "turnstile": "我們無法驗證您是否是一個機器人。請重整頁面並重試。"
     }
 }

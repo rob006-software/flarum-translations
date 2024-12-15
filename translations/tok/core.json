@@ -248,8 +248,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "o ante e {username}"
+                            "tooltip": "o ante e {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -261,6 +261,9 @@
                             "title": "kulupu"
                         },
                         "join_time": {
+                            "title": ""
+                        },
+                        "user_actions": {
                             "title": ""
                         },
                         "user_id": {
@@ -593,6 +596,11 @@
             "number_suffix": {
                 "kilo_text": "",
                 "mega_text": ""
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": ", ",

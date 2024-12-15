@@ -2,11 +2,11 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "Näita arutelu ID-d",
+                "help": "Lisa arutelu ID numbrid igale poole, kus vestlust näidatakse."
             },
             "enable_short_references": {
-                "label": "",
+                "label": "Luba lühikesed viited",
                 "help": ""
             },
             "retrofit_links_in_frontend": {
@@ -16,11 +16,11 @@
         },
         "forum": {
             "post_stream": {
-                "discussion_referenced_text": "",
-                "discussion_referenced_multiple_text": ""
+                "discussion_referenced_text": "{username} viitas sellele vestlusele kohast {source}",
+                "discussion_referenced_multiple_text": "{username} viitas sellele vestlusele mitmest kohast: {sources}"
             },
-            "unknown_discussion": "",
-            "comment": ""
+            "unknown_discussion": "[tundmatu vestlus]",
+            "comment": "kommentaar"
         }
     }
 }

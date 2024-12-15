@@ -3,6 +3,9 @@
         "admin": {
             "configure_button_label": "Configurar con FoF OAuth",
             "settings_accessibility_label": "Configuración de {name}",
+            "permissions": {
+                "moderate_user_providers": ""
+            },
             "settings": {
                 "advanced": {
                     "heading": "",
@@ -77,6 +80,7 @@
                         "label": "Cuentas vinculadas",
                         "last-used-label": "Usado por última vez",
                         "link-created-label": "",
+                        "identification-label": "",
                         "orphaned-account": "",
                         "help": "",
                         "identifier-label": "",

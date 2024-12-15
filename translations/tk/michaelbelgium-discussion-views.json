@@ -2,29 +2,29 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Meşhur",
+                "unpopular_button": "Meşhur däl"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Gürrüň görülen sanyny täze düz",
+                "submit_button": "Hawa, hemmesini aýyr",
+                "label": "{count, plural, one {Bu gürrüňiň {count} görülen sanyny bozar. Dowam etmelimi?} other {Bu gürrüňiň {count} görülen sanyny bozar. Dowam etmelimi?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Görülen sany täzele"
             },
             "viewlist": {
-                "title": "",
-                "guest": ""
+                "title": "Soňky görenler",
+                "guest": "Myhman"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
+                "viewed_by": "{users} şuny gördüler.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
                 "modal_title_text": ""
             }
         },

@@ -1,9 +1,9 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
+                    "export_description": "Kõik kasutaja poolt üles laaditud failid.",
                     "anonymize_description": "",
                     "delete_description": ""
                 }
@@ -13,17 +13,17 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Jagatud üleslaadimised"
             },
             "shared-uploads": {
                 "description": "",
                 "introduction": "",
                 "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "title": "Jagatud üleslaadimised",
+                "upload-new-button": "Laadi üles uus fail"
             },
             "pane": {
-                "title": "",
+                "title": "Laadi üles",
                 "description": ""
             },
             "help_texts": {
@@ -36,31 +36,33 @@
                 "watermark": "",
                 "s3_compatible_storage": "",
                 "s3_acl": "",
+                "custom_s3_url": "",
                 "s3_instance_profile": "",
                 "composer_buttons": ""
             },
             "labels": {
                 "aws-s3": {
                     "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
+                    "key": "Võti",
+                    "region": "Regioon",
+                    "secret": "Salasõna",
+                    "title": "AWS S3 salvestamise seaded",
                     "advanced_title": "",
                     "endpoint": "",
                     "use_path_style_endpoint": "",
-                    "acl": ""
+                    "acl": "",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "",
-                    "toggle": ""
+                    "toggle": "Lülita välja"
                 },
                 "disable-hotlink-protection": {
                     "title": "",
-                    "toggle": ""
+                    "toggle": "Lülita välja"
                 },
                 "imgur": {
-                    "client_id": "",
+                    "client_id": "Imgur kliendi ID",
                     "title": "",
                     "tos": ""
                 },
@@ -70,8 +72,8 @@
                 },
                 "qiniu": {
                     "title": "",
-                    "key": "",
-                    "secret": "",
+                    "key": "Võti",
+                    "secret": "Salasõna",
                     "bucket": ""
                 },
                 "preferences": {
@@ -82,33 +84,33 @@
                 },
                 "resize": {
                     "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "title": "Muuda pildi suurust",
+                    "toggle": "Muuda piltide suurust"
                 },
                 "client_extension": {
                     "title": ""
                 },
                 "watermark": {
                     "file": "",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "position": "Vesipildi asukoht",
+                    "title": "Lisa vesipilt",
+                    "toggle": "Lisa vesipilt"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Composeri nupud",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
+                        "both": "Mõlemad",
+                        "upload-btn": "Ainult üleslaadimise nupud",
                         "media-btn": ""
                     }
                 },
                 "inspect-mime": ""
             },
             "permissions": {
-                "download_label": "",
+                "download_label": "Laadi failid alla",
                 "upload_label": "",
                 "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": "",
+                "delete_uploads_of_others_label": "Kustuta kasutajate üleslaadimised",
                 "upload_shared_label": "",
                 "access_shared_label": ""
             },
@@ -125,111 +127,112 @@
                 "bbcode-image_description": "",
                 "just-url": "",
                 "just-url_description": "",
-                "text-preview": "",
+                "text-preview": "Teksti eelvaade",
                 "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "awss3": "AWS S3",
+                "imgur": "Imgur",
+                "local": "Kohalik",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
             },
             "inspect-mime": {
                 "title": "",
                 "description": "",
                 "select": "",
                 "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
+                "no-file-selected": "Faili pole",
+                "validation-passed": "Korras",
+                "validation-failed": "Evaõnnestus: {error}",
                 "mime-detector": "",
                 "mime-fileinfo": "",
                 "guessed-extension": "",
-                "not-available": ""
+                "not-available": "Tulemust pole"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Meediahaldur",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "upload_shared": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": "",
-                "shared_media": ""
+                "attach": "Lisa fail",
+                "upload": "Laadi üles",
+                "upload_shared": "Jagatud",
+                "user_uploads": "Kasutaja üleslaadimised",
+                "cancel": "Loobu",
+                "media": "Minu failid",
+                "shared_media": "Jagatud failid"
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Viga",
+                "loading": "Üleslaadimine",
+                "unauthorized": "Sul pole lubatud faile alla laadida"
             },
             "validation": {
                 "max_size": ""
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
+                "expand": "Laienda eelvaateid",
+                "collapse": "Sulge eelvaade",
                 "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "no_snippet_preview": "<eelvaadet näidatakse siin pätast postitamist>",
+                "no_snippet": "<eelvaate vidinat pole saadaval>"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": "",
+                "forbidden_type": "Seda tüüpi failide üleslaadimine pole lubatud.",
+                "unsupported_type": "Üleslaadimise adapter ei toeta failitüüpi: {mime}.",
+                "could_not_detect_mime": "Selle failitüübi tuvastamine ebaõnnestus, palun proovi uuesti.",
                 "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "max_upload_file_size_form": "Maksimaalne failisuuruse limiit.",
+                "partial_upload": "Osaline üleslaadimine.",
+                "no_file_uploaded": "Ühtegi faili ei laaditud üles.",
+                "no_upload_tmp_folder": "Failide üleslaadimiseks pole ajutiste failide kausta.",
+                "cannot_write_to_disk": "Kettale ei saa kirjutada.",
+                "upload_blocked_by_php_extension": "PHP laiend blokeeris üleslaadimisse.",
+                "no_files_made_it_to_upload": "Palun laadi faile, mis pole suuremad kui {max}kb."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Uus jagatud fail",
+                "dropzone": "Lohista failid siia või kliki, et faile sirvida",
+                "hide-from-media-gallery": "Peida kasutaja failihaldurist",
+                "upload": "Laadi üles"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Failide laadimine...",
+                "empty": "Pole faile, mida näidata.",
+                "release_to_upload": "Vabasta, et üles laadida",
+                "modal_empty_desktop": "Sinu fail on tühi. Kliki nupule või lohista üleslaaditav fail siia.",
+                "modal_empty_phone": "Sinu failide nimekiri on tühi. Vajuta ülevalolevale nupule, et fail üles laadida.",
+                "select_file_a11y_label": "Vali fail \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Midagi pole valitud} one {Vali fail} other {Vali failid}}",
+                "load_more_files_btn": "Laadi rohkem faile",
+                "delete_file_a11y_label": "Kustuta fail \"{fileName}\"",
+                "delete_confirmation": "Oled sa kindel, et soovid kustutada faili \"{fileName}\"?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Peida fail \"{fileName}\" failihaldurist",
+                    "btn_a11y_label_show": "Näita faili \"{fileName}\" failihalduris",
+                    "hide_confirmation": "Oled sa kindel, et soovid peita faili \"{fileName}\"? Faili peitmine eemaldab selle ainult sinu failihaldurist ja see ei mõjuta olemasolevaid postitusi.",
+                    "hide_success": "Peidetud fail",
+                    "show_confirmation": "Oled sa kindel, et soovid näidata faili \"{fileName}\"? Faili näitamine teeb selle nähtavaks sinu failihalduris.",
+                    "show_success": "Faili näidatakse",
+                    "hide_fail": "Ei saanud peita faili \"{fileName}\"",
+                    "show_fail": "Faili \"{fileName}\" ei õnnestunud näidata",
+                    "loading": "Faili peitmine..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
+                    "btn_a11y_label_hide": "Tee fail \"{fileName}\" privaatseks (pole avalikku URL-i)",
+                    "btn_a11y_label_show": "Tee fail \"{fileName}\" avalikuks (avalik URL)",
                     "hide_confirmation": "",
-                    "hide_success": "",
+                    "hide_success": "Fail tehti privaatseks",
                     "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "show_success": "Fail tehti avalikuks",
+                    "hide_fail": "Faili \"{fileName}\" privaatseks tegemine ebaõnnestus",
+                    "show_fail": "Faili \"{fileName}\" avalikuks tegemine ebaõnnestus",
+                    "loading": "Faili privaatseks tegemine..."
                 }
             }
         }

@@ -2,13 +2,13 @@
     "clarkwinkelmann-prominent-post-numbers": {
         "admin": {
             "settings": {
-                "floating": "",
-                "prefix": "",
-                "prefixPlaceholder": ""
+                "floating": "Hõljuv postituste number postituse pealkirja kõrval üleval paremal",
+                "prefix": "Eesliide",
+                "prefixPlaceholder": "Jäta tühjaks, et kohandada tõlkijaga"
             }
         },
         "views": {
-            "format": ""
+            "format": "{number}"
         }
     }
 }

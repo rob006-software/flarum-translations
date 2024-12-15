@@ -1,0 +1,84 @@
+{
+    "foskym-sorts-for-user-directory": {
+        "admin": {
+            "settings": {
+                "sort_by_nickname": "按暱稱排序（需要暱稱）",
+                "sort_by_monthly_posts": "按每月帖子/討論排序（可能會導致效能問題）",
+                "sort_by_groups_count": "按組數排序",
+                "sort_by_money": "按金額排序（需要 Antoinefr Money）",
+                "sort_by_likes_received": "依收到的按讚數排序（需要收到的按讚數）",
+                "sort_by_recently_seen": "按最近看排序",
+                "sort_by_comments": "按評論數排序",
+                "sort_by_ziven_checkin": "按簽到排序（需要 Ziven 每日簽到）",
+                "sort_by_invited_user": "按受邀用戶數排序（需要 xypp/invite-user）",
+                "sort_by_badges_count": "按徽章數量排序（需要 v17development/flarum-user-badges）"
+            },
+            "go_to_user_directory_extension": "轉到具有更多設置的使用者目錄擴展",
+            "go_to_this_extension": "前往具有更多設定的使用者目錄擴充排序"
+        },
+        "forum": {
+            "user_card": {
+                "monthly_discussions": "每月討論 {count}",
+                "monthly_comments": ""
+            }
+        },
+        "lib": {
+            "integrations": {
+                "antoinefr-money": {
+                    "least_money": "",
+                    "most_money": ""
+                },
+                "clarkwinkelmann-likes-received": {
+                    "most_likes_received": "",
+                    "least_likes_received": ""
+                },
+                "core": {
+                    "nickname_az": "",
+                    "nickname_za": "",
+                    "recently_seen": "",
+                    "least_recently_seen": "",
+                    "most_comments": "",
+                    "least_comments": "",
+                    "most_monthly_discussions": "",
+                    "most_monthly_comments": "",
+                    "most_groups_count": ""
+                },
+                "ziven-daily-check-in": {
+                    "recently_checkin": "",
+                    "most_total_checkin": "",
+                    "most_total_continuous_checkin": ""
+                },
+                "xypp-invite-user": {
+                    "most_invited_user": ""
+                },
+                "v17development-user-badges": {
+                    "most_badges_count": ""
+                }
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "nickname_az": "",
+                "nickname_za": "",
+                "most_money": "",
+                "least_money": "",
+                "most_likes_received": "",
+                "least_likes_received": "",
+                "recently_seen": "",
+                "least_recently_seen": "",
+                "most_comments": "",
+                "least_comments": "",
+                "recently_checkin": "",
+                "most_total_checkin": "",
+                "most_total_continuous_checkin": "",
+                "most_monthly_discussions": "",
+                "most_monthly_comments": "",
+                "most_groups_count": "",
+                "most_invited_user": "",
+                "most_badges_count": ""
+            }
+        }
+    }
+}

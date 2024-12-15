@@ -250,8 +250,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "{username} संपादित करें"
+                            "tooltip": "{username} संपादित करें",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -264,6 +264,9 @@
                         },
                         "join_time": {
                             "title": "में शामिल हो गए"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "ईडी"
@@ -596,6 +599,11 @@
             "number_suffix": {
                 "kilo_text": "की",
                 "mega_text": "मे"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": ", ",

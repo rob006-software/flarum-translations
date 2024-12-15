@@ -7,8 +7,13 @@
         },
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "常規設置",
+                    "help": ""
+                },
                 "modal": {
                     "always_show_theme_toggle_on_header": "始終在導航欄顯示日夜切換按鈕",
+                    "show_theme_toggle_in_solid": "",
                     "default_theme": "預設模式",
                     "default_theme_helper": "自動為新用戶、訪客和未定義的用戶設罝的顏色模式。",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -48,7 +53,7 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "FoF Nightmode：默認模式",
+                "fofNightMode": "FoF Nightmode：預設模式",
                 "fofNightMode-help": "0 - 跟隨系統，1 - 日間模式，2 - 夜間模式",
                 "fofNightMode_perDevice": "FoF Nightmode：按設備設置",
                 "fofNightMode_perDevice-help": "為每台設備配置夜間模式"

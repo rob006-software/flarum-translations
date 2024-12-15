@@ -3,28 +3,28 @@
         "admin": {
             "dashboard": {
                 "maintenance_widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Chế độ bảo trì đã được kích hoạt",
+                    "detail": "Trong quá trình bảo trì, chỉ người dùng được ủy quyền mới có thể xem diễn đàn."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Có thể bỏ qua Chế độ Bảo trì"
             },
             "settings": {
                 "maintenance_mode_enabled": {
-                    "label": ""
+                    "label": "Chế độ bảo trì"
                 }
             }
         },
         "views": {
             "default": {
-                "title": "",
-                "header": "",
-                "body": ""
+                "title": "Bảo trì",
+                "header": "Hiện đang tạm ngừng hoạt động để bảo trì.",
+                "body": "<p>Chúng tôi đang tiến hành bảo trì vào thời điểm này. Vui lòng quay lại sau.</p>\n"
             }
         },
         "api": {
-            "title": ""
+            "title": "Hiện đang tạm ngừng hoạt động để bảo trì. Vui lòng quay lại sau."
         }
     }
 }

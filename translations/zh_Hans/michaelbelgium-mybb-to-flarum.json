@@ -2,15 +2,15 @@
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
             "content": {
-                "description_text": "将 MyBB 论坛迁移到 Flarum 实例。填写所需数据，然后点击「迁移」即可。",
+                "description_text": "将 MyBB 论坛迁移到 Flarum 实例。请填写相关信息，然后点击「迁移」。",
                 "convert_button": "迁移",
                 "form": {
                     "options": {
                         "title": "其他选择",
                         "migrate_avatars_label": "迁移头像",
-                        "migrate_soft_threads_label": "",
-                        "migrate_soft_posts_label": "",
-                        "migrate_attachments_label": "",
+                        "migrate_soft_threads_label": "迁移软删除主题帖",
+                        "migrate_soft_posts_label": "迁移软删除回帖",
+                        "migrate_attachments_label": "迁移附件",
                         "migrate_users_label": "迁移用户",
                         "migrate_threadsPosts_label": "迁移主题和帖子",
                         "migrate_userGroups_label": "迁移用户组",
@@ -26,11 +26,11 @@
                         "path_label": "MyBB 绝对路径"
                     },
                     "general": {
-                        "title": "常规设置",
-                        "migrate_users_label": "",
-                        "migrate_threadsPosts_label": "",
-                        "migrate_userGroups_label": "",
-                        "migrate_categories_label": "",
+                        "title": "常规选项",
+                        "migrate_users_label": "迁移用户",
+                        "migrate_threadsPosts_label": "迁移主题帖和回帖",
+                        "migrate_userGroups_label": "迁移用户组",
+                        "migrate_categories_label": "迁移板块",
                         "migrate_avatars_label": "迁移头像",
                         "migrate_soft_threads_label": "迁移软删除的主题",
                         "migrate_soft_posts_label": "迁移软删除的帖子"

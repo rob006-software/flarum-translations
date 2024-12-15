@@ -46,6 +46,11 @@
                 "subject": "Вашият акаунт е разблокиран",
                 "body": "Здравейте {recipient_display_name},\n\nВие сте разблокиран. Можете да се върнете към форума, като кликнете върху следния линк:\n\n{forum_url}\n"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": ""
+            }
         }
     }
 }

@@ -46,6 +46,11 @@
                 "subject": "Han quitado la suspensión a tu cuenta",
                 "body": "Hey {recipient_display_name},\n\nTe han quitado la suspensión. Puedes volver al foro haciendo clic en el siguiente enlace:\n\n{forum_url}\n"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": ""
+            }
         }
     }
 }

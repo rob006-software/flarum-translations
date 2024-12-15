@@ -1,10 +1,10 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
                     "export_description": "A felhasználó által feltöltött összes fájl.",
-                    "anonymize_description": "Eltávolítja a felhasználó hivatkozását az összes feltöltött fájlról. A fájlok maguk továbbra is elérhetők lesznek azon felhasználók számára, akik láthatták az anonimizálás előtt.",
+                    "anonymize_description": "Eltávolítja a felhasználó hivatkozását a feltöltött fájlokból. A fájlok maguk továbbra is elérhetők lesznek azon felhasználók számára, akik az anonimizálás előtt láthatták azokat.",
                     "delete_description": "Törli a felhasználó által feltöltött összes fájlt."
                 }
             }
@@ -36,6 +36,7 @@
                 "watermark": "Válasszon, hogy a képek vízjelet kapjanak-e feltöltéskor. A vízjelek a nem GIF képekhez lesznek adva, a lenti beállítások alapján.\n",
                 "s3_compatible_storage": "A következő beállítások csak akkor szükségesek, ha S3-mal kompatibilis tárolót használ. Ha AWS-t használt, akkor üresen hagyhatja.\n",
                 "s3_acl": "A feltöltött objektumra alkalmazandó ACL (alapértelmezett: privát). A lehetséges értékekhez lásd: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "Akkor használja ezt a beállítást, ha olyan S3-mal kompatibilis szolgáltatást használ (például a Backblaze B2), amelyhez adott webcímformátum szükséges; vagy ha problémákat tapasztal az alapértelmezett webcímformátummal. Ez a beállítás a legtöbb szolgáltatás esetén nem szükséges. Győződjön meg arról, hogy a webcím tartalmazza a protokollt (https://), és hogy helyesen van formázva. Például: https://sajat-tarolo.s3.sajat-regio.backblazeb2.com\n",
                 "s3_instance_profile": "Hagyja a kulcsot és a titkot üresen, hogy a példány profiljában lévő hitelesítő adatokat használja.\n",
                 "composer_buttons": "Alapértelmezetten a médiakezelő és a feltöltés gomb is látható. Választhat, hogy csak az egyik gomb jelenjen meg.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Speciális S3 tárolóbeállítások",
                     "endpoint": "Végpont",
                     "use_path_style_endpoint": "Útvonalstílus végpont használata",
-                    "acl": "Hozzáférés-vezérlési lista (ACL)"
+                    "acl": "Hozzáférés-vezérlési lista (ACL)",
+                    "custom_url": "Egyéni S3 webcím"
                 },
                 "disable-download-logging": {
                     "title": "Letöltések naplózásának letiltása",
@@ -129,7 +131,8 @@
                 "text-preview_description": "A szöveges fájl előnézetének (első 5 sorának) beszúrása, amely kibontható, hogy a fájl teljes tartalmát megjelenítse.\n"
             },
             "upload_methods": {
-                "aws-s3": "S3/kompatibilis",
+                "aws-s3": "S3 vagy kompatibilis",
+                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Helyi",
                 "ovh-svfs": "OVH SVFS",
@@ -247,6 +250,17 @@
                     "hide_fail": "A(z) „{fileName}” nem tehető priváttá",
                     "show_fail": "A(z) „{fileName}” nem tehető nyilvánossá",
                     "loading": "A fájl priváttá tétele…"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "A felhasználó által feltöltött összes fájl.",
+                    "anonymize_description": "Eltávolítja a felhasználó hivatkozását az összes feltöltött fájlról. A fájlok maguk továbbra is elérhetők lesznek azon felhasználók számára, akik láthatták az anonimizálás előtt.",
+                    "delete_description": "Törli a felhasználó által feltöltött összes fájlt."
                 }
             }
         }

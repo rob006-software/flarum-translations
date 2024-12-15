@@ -2,22 +2,22 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
-                "intro": "",
-                "min_length": "",
-                "result_count": ""
+                "intro": "Kasutajad, kellel pole õigust <code>Kasutajate otsimine</code> ei näe otsingukasti. Määra selle õiguse juures kas <code>Kõik</code> või mis iganes on sinu eelistus.",
+                "min_length": "Minimaalne märkide arv otsingu alustamiseks",
+                "result_count": "Maksimaalne tulemuste arv rippmenüüs"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
-                    "all": "",
-                    "label": "",
-                    "search_label": "",
-                    "no_results": "",
-                    "start_typing": "",
-                    "keep_typing": "",
-                    "remove_filter": ""
+                    "accessible_label": "Filtreeri autori järgi",
+                    "all": "Kõik",
+                    "label": "Filtreeri autori järgi: {text}",
+                    "search_label": "Otsi kasutajaid...",
+                    "no_results": "Tulemusi pole",
+                    "start_typing": "Alusta trükkimist...",
+                    "keep_typing": "Jätka trükkimist...",
+                    "remove_filter": "Eemalda autori filter"
                 }
             }
         }

@@ -2,16 +2,36 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "Ogólne ustawienia",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
+                "enable_global_polls": "",
+                "enable_global_polls_help": "",
                 "max_options": "Maksymalna liczba opcji w ankiecie",
                 "options_color_blend": "",
-                "options_color_blend_help": ""
+                "options_color_blend_help": "",
+                "image_height": "",
+                "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Podglądanie wyników bez zagłosowania",
                 "start": "Tworzenie ankiet",
+                "start_global": "",
                 "self_edit": "Edytowanie utworzonych ankiet (wymaga uprawnień do edycji posta)",
                 "self_post_edit": "Edytowanie *wszystkich* ankiet we własnych postach (wymaga uprawnień do edycji posta)",
+                "upload_images": "",
                 "vote": "Głosowanie w ankietach",
                 "change_vote": "Zmiana głosu",
                 "moderate": "Edytowanie i usuwanie ankiet"
@@ -23,14 +43,46 @@
             "poll_ended": "Ta ankieta zakończyła się.",
             "public_poll": "Zobacz głosujących",
             "max_votes_allowed": "Ankieta umożliwia głosowanie na {max, plural, one {# opcję} few {# opcje} other {# opcji}}.",
+            "polls_count": "{count, plural, one { {count} głos} few {{count} głosy} other {{count} głosów}}",
+            "poll_never_ends": "Ankieta nigdy się nie kończy",
+            "answers": "Odpowiedzi",
             "poll": {
                 "cannot_change_vote": "Nie możesz zmienić swojego głosu po zagłosowaniu.",
-                "submit_button": "Głosuj"
+                "submit_button": "Głosuj",
+                "start_poll_button": "Rozpocznij globalną ankietę",
+                "cannot_start_poll_button": "Nie można rozpocząć ankiety"
+            },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "Czy na pewno chcesz usunąć tę ankietę?",
+                "delete_success_message": "Usunięto ankietę pomyślnie.",
+                "delete_error_message": "Coś poszło nie tak podczas usuwania ankiety."
+            },
+            "poll_form": {
+                "delete": "Usuń ankietę",
+                "error": "Wystąpił błąd podczas zapisywania ankiety, prosimy o kontakt z administratorem."
+            },
+            "polls_page": {
+                "title": "Ankiety"
+            },
+            "polls_list": {
+                "empty_text": "Wygląda na to, że nie ma tu ankiet dla całej społeczności.",
+                "load_more_button": ""
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "Nie masz uprawnień, aby utworzyć ankietę."
+            },
+            "compose": {
+                "add_title": "Dodaj ankietę",
+                "edit_title": "Edytuj ankietę",
+                "polls_manager": "Menadżer ankiet",
+                "polls_preview": "Zobacz ankietę",
+                "continue_editing": "Kontynuuj edycję",
+                "success": "Ankieta zapisana pomyślnie."
             },
             "modal": {
                 "add_title": "Dodaj ankietę",
@@ -49,9 +101,29 @@
                 "max_votes_label": "Maksymalna liczba głosów na użytkownika",
                 "max_votes_help": "Ustaw na 0, aby pozwolić użytkownikom głosować na wszystkie opcje.",
                 "hide_votes_label": "Ukryj głosy do czasu zakończenia ankiety",
+                "hide_votes_label_help": "Użytkownik, który rozpoczął ankietę, zawsze będzie mógł zobaczyć głosy.",
                 "allow_change_vote_label": "Pozwól użytkownikom zmienić swój głos",
                 "question_placeholder": "Pytanie",
-                "submit": "Zatwierdź"
+                "subtitle_placeholder": "Podtytuł/Opis (opcjonalne)",
+                "submit": "Zatwierdź",
+                "delete": "",
+                "error": "",
+                "poll_image": {
+                    "label": "Obrazek ankiety",
+                    "help": "Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).",
+                    "alt_label": "Alternatywny tekst obrazka",
+                    "alt_help_text": "Ten tekst jest wymagany po ustawieniu obrazka i zostanie wyświetlony, jeśli obraz nie zostanie załadowany.",
+                    "later_help": "Po utworzeniu ankiety będzie można przesłać obrazek."
+                },
+                "poll_option_image": {
+                    "label": "Obrazek odpowiedzi ankiety",
+                    "help": "Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie)."
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": "Dodaj odpowiedź"
+                    }
+                }
             },
             "moderation": {
                 "add": "Dodaj ankietę",
@@ -59,12 +131,26 @@
                 "delete_confirm": "Czy jesteś pewien, że chcesz usunąć tę ankietę?",
                 "edit": "Edytuj ankietę"
             },
+            "page": {
+                "nav": "Ankiety",
+                "nav-all": "Wszystkie globalne ankiety"
+            },
+            "showcase": {
+                "active-polls": "Aktywne ankiety",
+                "ended-polls": "Zakończone ankiety",
+                "no-active-polls": "W tej chwili nie ma aktywnych ankiet.",
+                "no-recent-polls": "W tej chwili nie ma żadnych niedawno zakończonych ankiet."
+            },
             "tooltip": {
                 "badge": "Ankieta",
                 "votes": "{count, plural, one {# głos} few {# głosy} other {# głosów}}"
             },
             "votes_modal": {
                 "title": "Głosujący użytkownicy"
+            },
+            "upload_image": {
+                "remove_button": "Usuń obrazek",
+                "upload_button": "Prześlij obrazek"
             }
         }
     }

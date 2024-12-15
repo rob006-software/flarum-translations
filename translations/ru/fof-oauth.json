@@ -3,6 +3,9 @@
         "admin": {
             "configure_button_label": "Настроить при помощи FoF OAuth",
             "settings_accessibility_label": "Настройки {name}",
+            "permissions": {
+                "moderate_user_providers": "Модерировать связанные аккаунты пользователя"
+            },
             "settings": {
                 "advanced": {
                     "heading": "Расширенные",
@@ -77,6 +80,7 @@
                         "label": "Связанные аккаунты",
                         "last-used-label": "Последний раз использовался",
                         "link-created-label": "Соединение установлено",
+                        "identification-label": "",
                         "orphaned-account": "Ранее Вы входили через этого провайдера, но форум отключил вход с помощью этого метода.",
                         "help": "Связанные аккаунты позволяют Вам входить на форум при помощи других провайдеров.",
                         "identifier-label": "{provider} ID",

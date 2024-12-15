@@ -43,6 +43,7 @@
                 "about_tags_text": "Tag digunakan untuk mengkategorikan diskusi. Tag primer seperti kategori forum tradisional: mereka dapat diatur dalam hirarki dua tingkat. Tag sekunder tidak memiliki hirarki, dan berguna untuk mikro-kategorisasi.",
                 "create_primary_tag_button": "Membuat Tag Primer",
                 "create_secondary_tag_button": "Membuat Tag Sekunder",
+                "edit_tag_label": "Edit Tag {tag}",
                 "primary_heading": "Tag Primer",
                 "secondary_heading": "Tag Sekunder",
                 "settings_heading": "Pengaturan"
@@ -84,12 +85,20 @@
         "lib": {
             "deleted_tag_text": "Dihapus",
             "tag_selection_modal": {
-                "bypass_requirements": "Abaikan persyaratan tag",
+                "bypass_requirements": "Bypass persyaratan tag",
                 "choose_primary_placeholder": "{count, plural, one {Pilih sebuah tag primer} other {Pilih # tag primer}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
                 "title": "=> flarum-tags.ref.choose_tags"
+            },
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "tag",
+                        "hint": "nama tag, atau daftar nama tag yang dipisahkan dengan koma, atau “tanpa tag”"
+                    }
+                }
             }
         },
         "ref": {
@@ -97,6 +106,17 @@
             "choose_tags_placeholder": "{count, plural, one {Pilih 1 tag lagi} other {Pilih # tag lainnya}}",
             "name": "Nama",
             "tags": "Tag"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "=> validation.attributes.tag_count_primary",
+                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
+            }
         }
     }
 }

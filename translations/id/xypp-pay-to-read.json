@@ -1,0 +1,37 @@
+{
+    "xypp-pay-to-read": {
+        "admin": {
+            "permission": {
+                "bypass": "Bypass pembayaran."
+            }
+        },
+        "forum": {
+            "preview": "Pratinjau",
+            "nopaidTip": "Tidak ada yang membayar",
+            "haspaidTip": "{0} pengguna telah membayar",
+            "paymentTip": "Konten Pay-to-read",
+            "paymentTipMail": "Konten Pay-to-read disembunyikan. Silakan lihat tulisan aslinya.",
+            "payment-notfound": "ID pembayaran #{0} tidak ditemukan。periksa id di pos atau hapus saja 'id={0}'。",
+            "payment-req": {
+                "text": "Penulis telah menetapkan konten untuk dibayar. Harga {0}",
+                "btn": "Bayar"
+            },
+            "payment": {
+                "title": "Konfirmasi Pembayaran",
+                "tip": "Membayar konten ini akan dikenakan biaya {0}, saat ini Anda memiliki {1}. Konfirmasi?",
+                "btn": "Bayar untuk itu",
+                "loading": "Memuat informasi pembayaran"
+            },
+            "error": {
+                "paid": "Anda telah membayar untuk konten ini. Refresh halaman.",
+                "missing": "Tidak ada konten.",
+                "no_enough_money": "Anda tidak memiliki cukup dana.",
+                "internal_err": "Error internal."
+            },
+            "editor": {
+                "help": "Atur id ke 0 atau kosongkan untuk Pay-to-read yang baru, bukan mengubah ID asli, maka pengguna yang sudah membayar dapat membaca.",
+                "label": "Tambahkan Pay-to-read"
+            }
+        }
+    }
+}

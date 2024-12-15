@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-AA-GG (ss:dd:ss)",
                 "terms-updated-at-help": "Son şart güncellemesinin tarihi. Bu değeri ayarlamak önceki şartları kabul etmiş kullanıcıların şartıları tekrar kabul etmesini gerektirecektir. Geçmişte olmak zorunda (yoksa kullanıcılar şartları asla kabul edemez ve pencereyi kapatamayacaklardır).\n",
                 "export-url": "Bağlantıyı dışa aktar",
-                "export-url-help": "\"Bütün şart verilerini dışa aktar\" iznine sahip olan bütün kullanıcılar şartları kabul etmiş kullanıcıların listesini indirme bağlantılarına ulaşabilir. <a>extension wiki</a> bağlantısında daha fazla detay bulabilirsiniz.\n"
+                "export-url-help": "\"Bütün şart verilerini dışa aktar\" iznine sahip olan bütün kullanıcılar şartları kabul etmiş kullanıcıların listesini indirme bağlantılarına ulaşabilir. <a>extension wiki</a> bağlantısında daha fazla detay bulabilirsiniz.\n",
+                "optional": "İsteğe bağlı politika",
+                "optional-help": "Etkinleştirildiğinde, kullanıcılar bu politikayı kabul etmeden forumu kullanabilir ve etkileşimde bulunabilirler."
             },
             "permissions": {
                 "see-user-policies-state": "Kullanıcı şartları durumunu görebilir",
@@ -64,10 +66,25 @@
             "update-alert": {
                 "must-accept-message": "Yeni şartlara göz atana kadar hesabınıza erişimi kısıtladık.",
                 "can-accept-message": "Yakın zamanda şartları güncelledik. Siteyi kullanmaya devam etmek için şartları kabul etmelisiniz.",
-                "review": "Yeni şartları incelemek ve kabul etmek için buraya tıklayın"
+                "can-accept-optional-message": "",
+                "review": "Yeni şartları incelemek ve kabul etmek için buraya tıklayın",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "Şartları kabul etme durumu"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "userpolicydata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     },

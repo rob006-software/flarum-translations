@@ -14,6 +14,8 @@
             "cache_exclude_help": "Các đường dẫn chứa các chuỗi này sẽ không được lưu vào bộ nhớ đệm. Đối với <code>/mypath/mypage?aa=bb</code>, bạn có thể sử dụng <code>mypage?aa=</code>. Để khớp với phần đầu, hãy thêm <code>^</code> vào đầu. Để khớp chính xác, hãy thêm <code>$</code> vào cuối URL. Một trên mỗi dòng.",
             "drop_qs_label": "Xoá chuỗi truy vấn",
             "drop_qs_help": "Sử dụng tính năng này để loại bỏ các chuỗi truy vấn cụ thể, như <code>fbclid</code> hoặc <code>utm*</code> khi lưu vào bộ nhớ đệm. Điều này ngăn chặn bộ nhớ cache dự phòng của các trang có chuỗi truy vấn \"rác\" chẳng hạn như mã UTM, được sử dụng để theo dõi nhưng không ảnh hưởng đến nội dung trang. Điều này yêu cầu LSWS v5.2.3 trở lên. Liệt kê các chuỗi truy vấn để xoá, một chuỗi trên mỗi dòng. <a>Tìm hiểu thêm về cách loại bỏ chuỗi truy vấn</a>.<br></br>\n⚠️ Cài đặt này sẽ sửa đổi tệp .htaccess.\n",
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
             "purge_all": "Xoá Toàn bộ LSCache",
             "purge_all_success": "Đã xoá toàn bộ LSCache trên máy chủ Web LiteSpeed"
         }

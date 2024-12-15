@@ -29,9 +29,9 @@
                 "delete-field": "删除字段"
             },
             "permissions": {
-                "edit-others-profile": "编辑他人资料",
-                "have-profile": "拥有「化装舞会」个人资料",
-                "view-profile": "查看「化装舞会」个人资料"
+                "edit-others-profile": "编辑他人资料页签",
+                "have-profile": "使用个人资料页签",
+                "view-profile": "查看个人资料页签"
             },
             "fields": {
                 "title": "字段",
@@ -42,7 +42,7 @@
                 "description": "字段描述",
                 "description-help": "可选描述，用来解释这个字段的用途/需求。\n",
                 "required": "标记字段为必填项",
-                "on_bio": "在 UserBio（个性签名插件）中显示此字段的答案",
+                "on_bio": "在用户个人简介中显示此字段的答案",
                 "type": "类型",
                 "validation": "验证",
                 "validation-help": "检查支持的 <a>Laravel 验证规则</a>. 例如： \"string|min:5\" 或 \"url\"。\n",

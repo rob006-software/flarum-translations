@@ -8,14 +8,20 @@
             },
             "setting": {
                 "bioLimit": "Limite caratteri bio",
-                "maxLines": "",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "maxLines": "Numero massimo di linee da mostrare",
+                "allowFormatting": "Consenti formattazione nella bio",
+                "allowFormatting_help": "Per impostazione predefinita, questa formattazione è separata dalla formattazione del post. Se le estensioni BBCode e/o Markdown sono abilitate, saranno disponibili per formattare la biografia. Non sono consentite immagini o incorporamenti. Le estensioni che si aggiungono al formattatore Flarum devono *esplicitamente* aggiungere il supporto per il formattatore della biografia."
             }
         },
         "forum": {
             "userbioPlaceholder": "Scrivici qualcosa di te",
-            "userbioPlaceholderOtherUser": "Qualche parola riguardo {username}"
+            "userbioPlaceholderOtherUser": "Qualche parola riguardo {username}",
+            "profile": {
+                "cancel_confirm": "Vuoi davvero annullare la modifica della tua biografia? Perderai tutte le modifiche apportate.",
+                "cancel_button": "Cancella",
+                "save_button": "Salva",
+                "edit_bio_label": "Modifica bio"
+            }
         }
     }
 }

@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "AAAA-MM-JJ (hh:mm:ss)",
                 "terms-updated-at-help": "La date de la dernière mise à jour des conditions. En définissant cette valeur, tous les utilisateurs ayant accepté les conditions avant cette date devront les accepter à nouveau. La date doit être passée (sinon les utilisateurs ne pourraient jamais accepter après cette date et passer la fenêtre de mise à jour).\n",
                 "export-url": "URL d'exportation",
-                "export-url-help": "Tout utilisateur ayant l'autorisation « Exporter les données de toutes les politiques » peut accéder à ces URL pour télécharger la liste des utilisateurs qui ont accepté cette politique. Vous pouvez trouver plus d'informations sur les options disponibles sur le <a>wiki de l'extension</a> (en anglais).\n"
+                "export-url-help": "Tout utilisateur ayant l'autorisation « Exporter les données de toutes les politiques » peut accéder à ces URL pour télécharger la liste des utilisateurs qui ont accepté cette politique. Vous pouvez trouver plus d'informations sur les options disponibles sur le <a>wiki de l'extension</a> (en anglais).\n",
+                "optional": "Politique facultative",
+                "optional-help": "Lorsque cette option est activée, les utilisateurs peuvent utiliser le forum et interagir avec lui sans accepter cette politique."
             },
             "permissions": {
                 "see-user-policies-state": "Voir l'état des politiques de l'utilisateur",
@@ -64,10 +66,25 @@
             "update-alert": {
                 "must-accept-message": "Nous avons temporairement restreint l'accès à votre compte le temps que vous prenez connaissance des nouvelles conditions.",
                 "can-accept-message": "Nous avons récemment mis à jour nos conditions. Vous devez les accepter pour continuer à utiliser ce site.",
-                "review": "Cliquez ici pour consulter et accepter les nouvelles conditions"
+                "can-accept-optional-message": "",
+                "review": "Cliquez ici pour consulter et accepter les nouvelles conditions",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "État d'acceptation des conditions"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "userpolicydata": {
+                    "export_description": "Informations concernant l'acceptation des conditions par l'utilisateur",
+                    "delete_description": "Supprime l'acceptation des conditions par l'utilisateur"
+                }
             }
         }
     },

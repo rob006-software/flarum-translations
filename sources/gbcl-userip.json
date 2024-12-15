@@ -12,6 +12,11 @@
                 "ipsb": {
                     "label": "IP.SB",
                     "description": "Use <b>https://ip.sb</b> to get free IP location information (please note the rate limit)"
+                },
+                "ipinfo": {
+                    "label": "IpInfo",
+                    "description": "Use <b>https://ipinfo.io</b> to get more accurate IP information (token required)",
+                    "key": "IpInfo Token(Required)"
                 }
             }
         }

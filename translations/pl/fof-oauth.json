@@ -3,11 +3,14 @@
         "admin": {
             "configure_button_label": "Skonfiguruj z FoF OAuth",
             "settings_accessibility_label": "Ustawienia {name}",
+            "permissions": {
+                "moderate_user_providers": ""
+            },
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "Zaawansowane",
+                    "log-oauth-errors-label": "Loguj błędy OAuth",
+                    "log-oauth-errors-help": "Jeśli to ustawienie jest włączone, błędy OAuth będą rejestrowane w dzienniku Flarum. Może to pomóc w debugowaniu błędów OAuth, ale może również zawierać poufne informacje."
                 },
                 "only_icons_label": "Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)",
                 "update_email_from_provider_label": "Zaktualizuj adres e-mail od dostawcy",
@@ -77,6 +80,7 @@
                         "label": "Powiązane konta",
                         "last-used-label": "Ostatnio używane",
                         "link-created-label": "Utworzono powiązanie",
+                        "identification-label": "",
                         "orphaned-account": "Zalogowałeś się za pomocą tej usługi w przeszłości, ale obecnie logowanie za pomocą tej metody zostało wyłączone.",
                         "help": "Te powiązane konta pozwalają Ci zalogować się na forum za pomocą zewnętrznych usług.",
                         "identifier-label": "ID {provider}",

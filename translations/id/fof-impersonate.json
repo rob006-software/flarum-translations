@@ -2,7 +2,7 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": "Login sebagai pengguna lain"
+                "login": "Masuk sebagai pengguna lain"
             },
             "settings": {
                 "title": "FoF Impersonate",
@@ -10,16 +10,28 @@
                 "no_settings_available": "Tidak ada pengaturan yang tersedia saat ini. Coba install fof/moderator-notes"
             }
         },
-        "forum": {
+        "lib": {
             "modal": {
                 "title": "Login sebagai pengguna lain",
-                "label": "Dengan kekuatan besar datanglah tanggung jawab yang besar. Dengan melanjutkan, Anda akan menjadi {username} sampai Anda keluar.",
+                "label": "Dengan kekuatan besar datang tanggung jawab besar. Dengan melanjutkan, Anda akan menjadi {username} sampai Anda logout.",
                 "placeholder_optional": "(Opsional) Berikan alasan Anda untuk beralih ke pengguna ini",
-                "placeholder_required": "Anda harus memberikan alasan untuk beralih ke pengguna ini sebelum melanjutkan",
+                "placeholder_required": "Anda harus memberikan alasan Anda untuk beralih ke pengguna ini sebelum melanjutkan",
                 "impersonate_username": "Login sebagai {username}"
             },
             "user_controls": {
-                "impersonate_button": "Login sebagai user"
+                "impersonate_button": "Beralih sebagai pengguna lain"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Masuk sebagai pengguna lain",
+                "label": "Dengan kekuatan besar datanglah tanggung jawab yang besar. Dengan melanjutkan, Anda akan menjadi {username} sampai Anda keluar.",
+                "placeholder_optional": "(Opsional) Berikan alasan Anda untuk beralih ke pengguna ini",
+                "placeholder_required": "Anda harus memberikan alasan untuk beralih ke pengguna ini sebelum melanjutkan",
+                "impersonate_username": "Masuk sebagai {username}"
+            },
+            "user_controls": {
+                "impersonate_button": "Masuk sebagai pengguna"
             }
         }
     }

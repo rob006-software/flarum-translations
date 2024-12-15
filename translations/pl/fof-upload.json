@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Wszystkie pliki przesłane przez użytkownika.",
-                    "anonymize_description": "Usuwa odniesienie do użytkownika z przesłanych plików. Same pliki pozostają dostępne dla użytkowników, którzy mogli je przeglądać przed anonimizacją.",
-                    "delete_description": "Usuwa wszystkie pliki przesłane przez użytkownika."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -36,6 +36,7 @@
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
                 "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Pozostaw klucz i sekret puste, aby użyć poświadczeń w profilu instancji.\n",
                 "composer_buttons": "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Zaawansowane ustawienia S3",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Use path style endpoint",
-                    "acl": "Access Control List (ACL)"
+                    "acl": "Access Control List (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Wyłącz rejestrowanie pobrań",
@@ -130,6 +132,7 @@
             },
             "upload_methods": {
                 "aws-s3": "Kompatybilne z S3",
+                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Lokalnie",
                 "ovh-svfs": "OVH SVFS",
@@ -247,6 +250,17 @@
                     "hide_fail": "Nie można ustawić pliku \"{fileName}\" jako prywatnego",
                     "show_fail": "Nie można upublicznić pliku \"{fileName}\"",
                     "loading": "Udostępnianie pliku jako prywatnego..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Wszystkie pliki przesłane przez użytkownika.",
+                    "anonymize_description": "Usuwa odniesienie do użytkownika z przesłanych plików. Same pliki pozostają dostępne dla użytkowników, którzy mogli je przeglądać przed anonimizacją.",
+                    "delete_description": "Usuwa wszystkie pliki przesłane przez użytkownika."
                 }
             }
         }

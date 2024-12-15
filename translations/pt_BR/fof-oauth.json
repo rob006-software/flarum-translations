@@ -3,6 +3,9 @@
         "admin": {
             "configure_button_label": "Configurar com FoF OAuth",
             "settings_accessibility_label": "{name} configurações",
+            "permissions": {
+                "moderate_user_providers": ""
+            },
             "settings": {
                 "advanced": {
                     "heading": "",
@@ -77,6 +80,7 @@
                         "label": "Contas conectadas",
                         "last-used-label": "Usado por último",
                         "link-created-label": "Conta conectada",
+                        "identification-label": "",
                         "orphaned-account": "Você já fez login por meio desse provedor anteriormente, mas este fórum desativou o login com esse método desde então.",
                         "help": "Essas contas vinculadas permitem que você entre no fórum usando outros provedores.",
                         "identifier-label": "{provider} ID",

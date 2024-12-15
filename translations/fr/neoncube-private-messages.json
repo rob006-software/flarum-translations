@@ -1,0 +1,64 @@
+{
+    "neoncube-private-messages": {
+        "admin": {
+            "settings": {
+                "return_key": "La touche retour envoie un message",
+                "return_key_help": "",
+                "show_read_receipts": "",
+                "show_read_receipts_help": "",
+                "message_recipient_background_color": "",
+                "message_recipient_background_color_help": "",
+                "title": "Paramètres de chuchotement"
+            },
+            "permissions": {
+                "start_label": "Démarrer des conversations privées",
+                "allow_users_to_receive_email_notifications": "Autoriser les utilisateurs à recevoir des notifications par courriel lorsqu'ils reçoivent un message privé"
+            }
+        },
+        "forum": {
+            "dropdown": {
+                "tooltip": "Conversations"
+            },
+            "modal": {
+                "title": "Démarrer une conversation",
+                "help": "Commencez à taper un nom d'utilisateur pour démarrer un chat.",
+                "help_start": "Saisissez votre premier message. Ce sera le seul message que vous pourrez envoyer jusqu'à ce que {username} réponde. Cliquez sur l'utilisateur pour sélectionner un autre destinataire.",
+                "search_recipients": "Saisir le nom d'utilisateur…",
+                "submit": "Envoyer et démarrer une conversation",
+                "copied": "Votre message a été copié dans le presse-papiers.",
+                "more_users": "Si vous ne voyez pas l'utilisateur que vous recherchez, c'est que sa messagerie privée n'est pas configurée.",
+                "already": "Vous avez déjà une conversation avec {username}."
+            },
+            "chat": {
+                "messages_single": "Nouvelle conversation",
+                "messages_multiple": "{count} messages totaux",
+                "chat_with": "Discuter avec {username}",
+                "start": "Démarrer la conversation",
+                "start_of_conversation": "Début de la conversation",
+                "read": "Lu",
+                "cant_start": "Impossible de démarrer la conversation",
+                "text_placeholder": "Tapez votre message",
+                "send": "Envoyer un message",
+                "message_read": ""
+            },
+            "notifications": {
+                "message_received": "Tester",
+                "new_private_message": "Quelqu'un m'envoie un message",
+                "web": {
+                    "new_private_message": {
+                        "body": "Message de {fromUser}"
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "Message de {user}",
+                        "youHaveReceivedNewMessage": "Vous avez reçu un nouveau message de {user} !",
+                        "viewMessage": "Voir le message",
+                        "manageEmailSettings": "Gérer les paramètres de messagerie"
+                    }
+                },
+                "notify_message_received": "Quelqu'un m'a envoyé un message"
+            }
+        }
+    }
+}

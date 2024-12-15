@@ -30,13 +30,22 @@
                     "reset_vapid_confirm": "VAPID avainten nollaus poistaa kaikki olemassa olevat tilaukset avaimille jolloin käyttäjät eivät saa ilmoituksia ennen seuraavaa vierailua. Tämä pitäisi tehdä vain, kun määritetään ilmoituksia ensimmäisen kerran tai push ilmoitukset ei toimi ja on ilmoitus puuttuvista VAPID avaimista.",
                     "reset_vapid_success": "VAPID avaimet onnistuneesti nollattu. {count} tilausta nollattiin. Lataa sivu uudelleen nähdäksesi päivittyneen tilanteen."
                 },
+                "firebase_config": {
+                    "heading": "Firebase",
+                    "help_text": "Lisätäksesi tuen push ilmoituksia varten. Kun julkaiset sovelluksen Applen App storessa, sinun täytyy käyttää Firebasea, jotta saat push notifikaatiot toimimaan. Luo Firebasen Service Config ja siirrä se tähän.",
+                    "see_documentation_here": "Katso dokumentaatio täältä",
+                    "upload_successful": "Firebase asetukset on siirretty onnistuneesti",
+                    "upload_file": "Siirrä tiedosto"
+                },
                 "other": {
                     "heading": "Muu",
                     "force_portrait_text": "Pakota pystytila?",
                     "push_notif_preference_default_to_email_label": "Oletus Push asetukset sähköpostiin?",
                     "push_notif_preference_default_to_email_text": "Jos totta, käyttäjillä on oletuksena push ilmoitukset päällä kaikille ilmoitustyypeille missä sähköposti on valittuna oletuksena. Jos ei päällä niin käyttäjillä on push ilmoitukset pois päällä oletuksena.",
                     "user_max_subscriptions_label": "Enimmäismäärä Push tilauksia per käyttäjä",
-                    "user_max_subscriptions_text": "Kuinka monta push tilausta käyttäjällä voi olla kerrallaan. Kun käyttäjä vastaanottaa push ilmoituksen, jokainen tilaus tekee API kutsun. Jokainen tilaus yleensä vastaa selainta mitä käyttäjä on käyttänyt."
+                    "user_max_subscriptions_text": "Kuinka monta push tilausta käyttäjällä voi olla kerrallaan. Kun käyttäjä vastaanottaa push ilmoituksen, jokainen tilaus tekee API kutsun. Jokainen tilaus yleensä vastaa selainta mitä käyttäjä on käyttänyt.",
+                    "window_controls_overlay_label": "Ota käyttöön Windows Controls Overlay?",
+                    "window_controls_overlay_text": "Jos käytössä, käyttäjät saa natiivimman käyttökokemuksen, kun piilotetaan oletus yläpalkki. Windows Controls Overlay riippuu selaimen toiminnallisuuksista. Sinun täytyy muokata yläpalkkia lisäämällä CSS/JS koodia, kun on otettu käyttöön. Muuten toimintopainikkeet voi mennä toisien elementtien päälle ja ikkunaa ei voi välttämättä raahata. Tämä aiheuttaa huonon käyttökokemuksen.\n\nKatso myös < compatibilitylink>Windows Controles Overlay yhteensopivuus</compatibilitylink> & <learnlink>Tietoa Window Controls Overlaystä Microsoft Learn sivustolla</learnlink>\n"
                 },
                 "heading": "Progressiivisen verkkosovelluksen määritykset",
                 "text": "Määritä Flarum foorumisi toimimaan progressiivisena verkkosovelluksena! Huomioithan, että tämä ei automaattisesti lisää sivuasi sovelluskauppaan. Tämä sen sijaan ottaa käyttöön 'Lisää Koti-valikkoon' vaihtoehdon. Tämä tarjoaa joitain tilan tarkastuksia, tosin paras tapa tämän testaamiseen on kokeilla ja asentaa se (etsi Googlesta ohjeita PWA sovellusten asentamiseen). Ota myös huomioon, että 'asenna tämä PWA' popupit on selaimen määrityksistä kiinni ja niitä ei voi laukaista kehittäjän/ylläpitäjän/sovelluksen toimesta. Suosittelen ohjeistamaan sivustolla miten PWA sovellus asennetaan.",

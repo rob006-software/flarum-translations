@@ -4,7 +4,7 @@
             "settings": {
                 "client": {
                     "title": "客戶端設置",
-                    "subtitle": "在這裡添加你的OpenID Connect提供商提供的客戶資料。如需進一步幫助，請查看文檔.\n",
+                    "subtitle": "在這裡增加你的OpenID Connect提供商提供的客戶資料。如需進一步幫助，請查看文檔.\n",
                     "id": "客戶ID",
                     "secret": "客戶秘密",
                     "enable_pkce": "啟用 PKCE（推薦）",
@@ -17,16 +17,16 @@
                     "skip_email_verified_check": "跳過電子郵件驗證的聲明檢查（對於不提供此聲明的不合規提供商很有用，如 Casdoor）"
                 },
                 "callback_title": "登入後導回的網址",
-                "callback_subtitle": "如果啟用了相關選項，這些是您需要在提供商上註冊以獲取客戶端授權代碼並從提供商註銷的回調 URI。",
+                "callback_subtitle": "如果啟用了相關選項，這些是您需要在提供商上註冊以取得客戶端授權代碼並從提供商註銷的回調 URI。",
                 "callback_logout_note": "僅當啟用從提供者註銷選項時才需要（請參閱頁面底部）",
                 "provider": {
                     "title": "提供商設置",
-                    "subtitle": "在此處添加您的提供商詳細信息。 如果您的提供商使用自動發現，您不需要添加端點和一些其他字段（如果您願意，您可以隨意覆蓋它們！）。 如果您的提供商尚未實施，您可以在下面手動添加所需的設置。 檢查文檔以獲得進一步的幫助\n",
+                    "subtitle": "在此處增加您的提供商詳細資訊。 如果您的提供商使用自動發現，您不需要增加端點和一些其他字段（如果您願意，您可以隨意覆蓋它們！）。 如果您的提供商尚未實施，您可以在下面手動增加所需的設置。 檢查文檔以獲得進一步的幫助\n",
                     "url": "提供商網址",
                     "endpoints": {
                         "authorize": "授權端點 URL",
                         "token": "令牌端點 URL",
-                        "userinfo": "用戶信息端點 URL",
+                        "userinfo": "用戶資訊端點 URL",
                         "logout": "結束會話（註銷）端點 URL",
                         "jwks": "JWKS 端點 URL"
                     },
@@ -34,14 +34,14 @@
                     "code_challenge_method": "代碼挑戰方法",
                     "response_type": "提供者對授權的響應類型",
                     "id_token_signing_alg": "ID令牌簽名算法",
-                    "authorization_response_iss_parameter_supported": "支持授權響應 iss 參數",
+                    "authorization_response_iss_parameter_supported": "支援授權響應 iss 參數",
                     "token_endpoint_auth_method": "令牌端點身份驗證方法"
                 },
                 "other": {
                     "title": "其它設置",
                     "provider_name": "顯示在 OIDC 相關按鈕上的提供商名稱",
-                    "linker_claim": "鏈接器聲明",
-                    "manage_account_url": "賬戶管理網址",
+                    "linker_claim": "連結器聲明",
+                    "manage_account_url": "帳戶管理網址",
                     "manage_account_btn_open_in_new_tab": "在新選項卡中打開帳戶管理頁面",
                     "sso_mode": "SSO 模式",
                     "logout_from_provider": "從提供商註銷（啟用 SSO 模式時）",

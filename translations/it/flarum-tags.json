@@ -43,6 +43,7 @@
                 "about_tags_text": "Le etichette vengono usate per categorizzare le discussioni. Le etichette primarie sono come le categorie tradizionali dei forum: possono essere disposte in una gerarchia a due livelli. Le etichette secondarie non hanno gerarchia o ordine, e sono utili per micro-categorizzare.",
                 "create_primary_tag_button": "Crea etichetta primaria",
                 "create_secondary_tag_button": "Crea etichetta secondaria",
+                "edit_tag_label": "",
                 "primary_heading": "Etichette Primarie",
                 "secondary_heading": "Etichette Secondarie",
                 "settings_heading": "Impostazioni"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "{count, plural, one {Scegli ancora un tag} other {Scegli ancora # tag}}",
             "name": "Nome",
             "tags": "Etichette"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

@@ -7,12 +7,12 @@
             },
             "settings": {
                 "set_on_registration_label": "允許註冊時設置生日",
-                "required_label": "強制注冊時設置生日",
-                "required_help": "請先啟用「允許注冊時設置生日」",
+                "required_label": "強制註冊時設置生日",
+                "required_help": "請先啟用「允許註冊時設置生日」",
                 "min_age_label": "最小年齡",
                 "min_age_help": "最低註冊年齡",
                 "date_format_label": "日期格式",
-                "date_format_help": "請使用 <a>dayjs</a> 日期格式，留空以使用默認設置。",
+                "date_format_help": "請使用 <a>dayjs</a> 日期格式，留空以使用預設設置。",
                 "date_none_year_label": "忽略年份"
             }
         },
@@ -23,28 +23,28 @@
             },
             "change_dob": {
                 "title": "編輯生日",
-                "date_of_birth_text": "生日",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
                 "change_dob_label": "修改生日",
-                "dob_heading": "生日",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "顯示生日的月份和具體日期",
                 "show_dob_year_label": "顯示生日的年份",
                 "show_dob_year_help": "這將公開您的年齡。"
             },
             "edit_user": {
-                "dob_heading": "生日"
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
                 "nav_item": "今天的生日"
             },
             "page": {
                 "discussion_count": "{count, plural, one {主題：#} other {主題：#}}",
-                "post_count": "{count, plural, one {回帖：#} other {回帖：#}}"
+                "post_count": "{count, plural, one {回覆：#} other {回覆：#}}"
             },
             "sign_up": {
-                "dob_placeholder": ""
+                "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "header": {
                 "edit_dob_button": "編輯生日"
@@ -55,7 +55,7 @@
             "invalid_age_message": "很抱歉，您的年齡必須大於 {minAge} 歲。"
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "出生日期"
         }
     }
 }

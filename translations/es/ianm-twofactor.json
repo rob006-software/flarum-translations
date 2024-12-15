@@ -2,84 +2,106 @@
     "ianm-twofactor": {
         "admin": {
             "edit_group": {
-                "2fa_label": "",
-                "2fa_help": "",
-                "admin_2fa_help": ""
+                "2fa_label": "2FA requerido",
+                "2fa_help": "Requerir que los miembros de este grupo habiliten la Autenticación de Dos Factores (2FA) para su cuenta.",
+                "admin_2fa_help": "Los miembros de {adminName} deben tener siempre habilitada la 2FA."
             },
             "permissions": {
-                "see_two_factor_status_label": "",
-                "manage_others_label": ""
+                "see_two_factor_status_label": "Ver el estado 2FA de otros usuarios",
+                "manage_others_label": "Administrar 2FA para otros usuarios"
             },
             "settings": {
                 "groups": {
-                    "title": "",
-                    "help": ""
+                    "title": "Grupos que requieren 2FA",
+                    "help": "Exigir a los miembros de estos grupos que habiliten la Autenticación de Dos Factores (2FA) para sus cuentas. Un usuario de un grupo obligatorio no puede deshabilitar la 2FA."
                 },
-                "forum_logo_qr": "",
-                "forum_logo_qr_help": "",
-                "forum_logo_qr_width": "",
-                "forum_logo_qr_width_help": "",
-                "logo_qr": "",
-                "logo_qr_help": ""
+                "forum_logo_qr": "Incrustar el logotipo del foro en un código QR",
+                "forum_logo_qr_help": "Incruste el logotipo del foro en el código QR que se muestra al habilitar la Autenticación de Dos Factores. Esto puede ayudar a los usuarios a identificar el código QR correcto para escanear.",
+                "forum_logo_qr_width": "Ancho del código QR del logotipo del foro",
+                "forum_logo_qr_width_help": "Ancho del logotipo del foro incrustado en el código QR que se muestra al habilitar 2FA. Máximo 200.",
+                "logo_qr": "Logo en código QR",
+                "logo_qr_help": "Si se ha cargado un logo, este se incorporará al código QR. Déjelo en blanco para utilizar el logo del foro.",
+                "tokens": {
+                    "heading": "Tokens de acceso",
+                    "help": "Para mayor seguridad, puedes administrar aquí el comportamiento adicional relacionado con los tokens de acceso.",
+                    "kill_inactive_tokens": "Eliminar tokens inactivos",
+                    "kill_inactive_tokens_help": "Eliminar automáticamente los tokens de acceso que hayan estado inactivos durante un período de tiempo específico.",
+                    "kill_inactive_tokens_age_days": "Eliminar tokens inactivos después de (días)",
+                    "kill_inactive_tokens_age_days_help": "El número de días de inactividad después de los cuales se eliminarán los tokens de acceso.",
+                    "also_kill_developer_tokens": "También eliminar los tokens de desarrollador",
+                    "also_kill_developer_tokens_help": "También eliminar los tokens de acceso de desarrollador que hayan estado inactivos durante el período de tiempo especificado."
+                }
             }
         },
         "forum": {
             "user_2fa": {
-                "alert_message": ""
+                "alert_message": "Debes habilitar 2FA para continuar accediendo a tu cuenta."
             },
             "security": {
-                "two_factor_heading": "",
-                "two_factor_help": "",
-                "two_factor_apps": "",
-                "two_factor_enabled": "",
-                "two_factor_disabled": "",
-                "two_factor_title": "",
-                "enable_2fa_button": "",
-                "disable_2fa_button": "",
-                "enable_2fa_modal_text": "",
-                "qr_code_alt": "",
-                "enter_token": "",
-                "verify_button": "",
-                "loading_qr": "",
-                "backup_codes": "",
-                "backup_codes_instruction": "",
-                "saved_backup_codes_button": "",
-                "backup_codes_remaining": "",
-                "two_factor_enabled_confirmation": "",
-                "ok_button": "",
-                "confirm_disable_2fa_title": "",
-                "confirm_disable_2fa_text": "",
-                "cannot_disable": "",
-                "cannot_disable_tooltip": "",
-                "cancel_button": "",
-                "qr_tab": "",
-                "manual_tab": "",
-                "scan_qr_instruction": "",
-                "manual_entry_instruction": ""
+                "two_factor_heading": "2FA",
+                "two_factor_help": "La Autenticación de Fos Factores (2FA) proporciona una capa adicional de seguridad a su cuenta. Una vez habilitada, además de su contraseña, se te solicitará que ingreses un token de su aplicación de autenticación al iniciar sesión o realizar otras acciones. Esto garantiza que tu cuenta permanezca segura, incluso si tu contraseña se ve comprometida, ya que los atacantes también necesitarían un código (que cambia cada 30 segundos) para acceder a tu cuenta.",
+                "two_factor_apps": "Aplicaciones como {google}, {authy}, {microsoft} y más están disponibles de forma gratuita.",
+                "two_factor_enabled": "2FA está habilitada en esta cuenta.",
+                "two_factor_disabled": "2FA está deshabilitada en esta cuenta.",
+                "two_factor_title": "Estado:",
+                "enable_2fa_button": "Habilitar 2FA",
+                "disable_2fa_button": "Deshabilitar 2FA",
+                "enable_2fa_modal_text": "Escanea el código QR a continuación con su aplicación de autenticación, luego ingresa el token proporcionado para habiltar la Autenticación de Dos Factores.",
+                "qr_code_alt": "Código QR para Autenticación de Dos Factores",
+                "enter_token": "Introducir token",
+                "verify_button": "Verificar",
+                "loading_qr": "Cargando código QR...",
+                "backup_codes": "Tus códigos de respaldo",
+                "backup_codes_instruction": "Guarda estos códigos en un lugar seguro. Podrás utilizarlos para acceder a tu cuenta si pierdes tu método de autenticación principal. No se volverán a mostrar.",
+                "saved_backup_codes_button": "He guardado estos códigos",
+                "backup_codes_remaining": "Códigos de respaldo restantes:",
+                "two_factor_enabled_confirmation": "La Autenticación de Dos Factores se ha habilitado correctamente para tu cuenta.",
+                "ok_button": "Ok",
+                "confirm_disable_2fa_title": "Confirmar la desactivación de la Autenticación de Dos Factores",
+                "confirm_disable_2fa_text": "¿Estás seguro de querer desactivar la Autenticación de Dos Factores?",
+                "confirm_disable_2fa_text_other_user": "¿Estás seguro de que deseas desactivar la Autenticación de Dos Factores para {username}? Esto eliminará todos los códigos de respaldo y desactivará la 2FA para su cuenta.",
+                "cannot_disable": "La configuración actual impide que puedas deshabilitar la Autenticación de Dos Factores.",
+                "cannot_disable_tooltip": "No se puede desactivar 2FA",
+                "cancel_button": "Cancelar",
+                "qr_tab": "Escanear código QR",
+                "manual_tab": "Configuración manual",
+                "scan_qr_instruction": "Escanea el código QR de arriba con su aplicación de autenticación, luego ingresa el token proporcionado para habilitar la Autenticación de Dos Factores.",
+                "manual_entry_instruction": "Ingresa el código proporcionado en su aplicación de autenticación, luego ingresa el token generado para habilitar la Autenticación de Dos Factores."
             },
             "log_in": {
-                "two_factor_placeholder": "",
-                "two_factor_required_message": ""
+                "two_factor_placeholder": "Token 2FA, por ejemplo, 123456",
+                "two_factor_required_message": "Se requiere un token 2FA válido para continuar."
             }
         },
         "email": {
             "subject": {
-                "status_changed": ""
+                "status_changed": "Autenticación de Dos Factores {type} para tu cuenta"
             },
             "body": {
-                "status_changed": ""
+                "status_changed": "Hola {recipient_display_name},\n\nSe ha {type} la Autenticación de Dos Factores en tu cuenta de {forum_url}.\n\nSi iniciaste esta acción, no es necesario realizar más pasos. Si no autorizaste este cambio, comunícate con los administradores del foro de inmediato.\n"
             },
             "status_type": {
-                "enabled": "",
-                "disabled": ""
+                "enabled": "activado",
+                "disabled": "desactivado"
             }
         },
         "views": {
             "reset_password": {
-                "two_factor_token_label": ""
+                "two_factor_token_label": "Token 2FA"
             },
             "two_factor_token": {
-                "submit_button": ""
+                "title": "Autenticación de Dos Factores",
+                "submit_button": "Enviar token"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     },
@@ -87,8 +109,8 @@
         "lib": {
             "data": {
                 "twofactordata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Exporta el estado 2FA y códigos de respaldo encriptados.",
+                    "delete_description": "Elimina todos los datos relacionados con 2FA."
                 }
             }
         }

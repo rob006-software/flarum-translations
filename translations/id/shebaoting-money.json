@@ -1,0 +1,105 @@
+{
+    "shebaoting-money": {
+        "admin": {
+            "settings": {
+                "title": "Pengaturan",
+                "initialmoney": "Dana Awal untuk Pengguna Baru",
+                "moneyforpost": "Dana yang diberikan untuk postingan baru",
+                "moneyfordiscussion": "Dana yang diberikan untuk diskusi baru",
+                "moneyname": "Nama money (contoh: [money] poin)",
+                "postminimumlength": "Panjang postingan minimum untuk mendapatkan dana (0 untuk menonaktifkan)",
+                "noshowzero": "Jangan tampilkan jika nilainya nol",
+                "autoremove": "Memperbarui dana secara otomatis",
+                "moneyforlike": "Dana yang diberikan ketika sebuah postingan disukai",
+                "helpextensionlikes": "Membutuhkan ekstensi <code>flarum/likes</code>",
+                "extra_char_threshold": "Ambang Batas Karakter",
+                "extra_char_threshold_help": "Jumlah karakter minimum sebelum poin ekstra diterapkan.",
+                "extra_char_increment": "Penambahan Karakter",
+                "extra_char_increment_help": "Setiap karakter X yang melampaui ambang batas akan memicu perubahan poin.",
+                "extra_char_points": "Poin per Penambahan",
+                "extra_char_points_help": "Jumlah poin yang akan ditambahkan atau dikurangi untuk setiap penambahan."
+            },
+            "permissions": {
+                "edit_money_label": "Edit money"
+            },
+            "autoremove": [
+                "Jangan pernah menghapus money",
+                "Ketika sebuah diskusi/postingan disembunyikan atau dipulihkan (default)",
+                "Ketika sebuah diskusi/postingan dihapus"
+            ],
+            "automoderator": {
+                "metric_name": "Money",
+                "action_name": ""
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "Edit money"
+            },
+            "modal": {
+                "title": "Dana {username}",
+                "current": "Saat ini:",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "log_time": "Waktu",
+            "log_type": "Jenis",
+            "log_amount": "Jumlah",
+            "log_balance": "Saldo",
+            "log_description": "Deskripsi",
+            "log_type_deposit": "Deposit",
+            "log_type_withdrawal": "Penarikan",
+            "log_type_transfer": "Transfer",
+            "log_type_reward": "Reward",
+            "no_money_logs": "",
+            "load_more": "Muat lainnya",
+            "logs_description": {
+                "created_discussion": "Membuat diskusi › <a href=\"{url}\">{title}</a>",
+                "created_reply": "Membuat balasan › <a href=\"{url}\">{title}</a>",
+                "reply_received": "Menerima balasan dari {username} › <a href=\"{url}\">{title}</a>",
+                "liked": "Menyukai postingan › <a href=\"{url}\">{title}</a> oleh {user}",
+                "liked_by": "Post disukai oleh {username} › <a href=\"{url}\">{title}</a>",
+                "unliked_post": "Tidak menyukai postingan › <a href=\"{url}\">{title}</a>",
+                "unliked_by": "Postingan tidak disukai oleh {username} › <a href=\"{url}\">{title}</a>",
+                "initial_registration": "Menerima poin awal saat pendaftaran.",
+                "admin_updated": "Admin memperbarui poin, jumlah perubahan sebesar {amount}.",
+                "discussion_started": "Memulai diskusi › <a href=\"{url}\">{title}</a>",
+                "discussion_restored": "Memulihkan diskusi › <a href=\"{url}\">{title}</a>",
+                "discussion_hidden": "Menyembunyikan diskusi › <a href=\"{url}\">{title}</a>",
+                "discussion_deleted": "Menghapus diskusi › <a href=\"{url}\">{title}</a>",
+                "posted_reply": "Menanggapi sebuah diskusi › <a href=\"{url}\">{title}</a>",
+                "extra_characters": "Konten melebihi ambang batas sebanyak {extra_chars} karakter, {points} poin telah {action}.",
+                "no_permission": "Anda tidak memiliki izin untuk melihat catatan poin orang lain."
+            },
+            "logs_type": {
+                "discussion_started": "Memulai Diskusi",
+                "post_created": "Membuat Post",
+                "post_restored": "Memulihkan Post",
+                "post_hidden": "Post Disembunyikan",
+                "post_deleted": "Menghapus Post",
+                "discussion_restored": "Pemulihan Diskusi",
+                "discussion_hidden": "Diskusi Disembunyikan",
+                "discussion_deleted": "Menghapus Diskusi",
+                "liked": "",
+                "liked_by_others": "",
+                "admin_updated": "",
+                "registration": "Bonus Pendaftaran",
+                "discussion_replied": ""
+            },
+            "point_log": {
+                "title": "Catatan Perubahan Poin",
+                "link": "Catatan Poin",
+                "empty_text": "Tidak ada catatan perubahan poin yang ditemukan.",
+                "table": {
+                    "headers": {
+                        "date": "Tanggal",
+                        "amount": "Jumlah",
+                        "balance": "Saldo",
+                        "reason": "Alasan"
+                    }
+                },
+                "load_more": "Muat lainnya",
+                "no_permission": "Anda tidak memiliki izin untuk melihat catatan poin orang lain."
+            }
+        }
+    }
+}

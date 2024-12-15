@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "Data ostatniej aktualizacji polityki. Ustawienie tej wartości wymusi ponowną akceptację dla wszystkich użytkowników, którzy zaakceptowali politykę przed tą datą. Data musi być z przeszłości (w przeciwnym razie użytkownicy nie będą w stanie zaakceptować polityki).\n",
                 "export-url": "Eksport",
-                "export-url-help": "Każdy użytkownik z uprawnieniem \"Eksportowanie wszystkich danych o politykach\" ma dostęp do tych adresów URL, które pozwalają pobrać listę użytkowników, którzy zaakceptowali daną politykę. Możesz znaleźć więcej informacji o dostępnych opcjach na <a>wiki rozszerzenia</a>.\n"
+                "export-url-help": "Każdy użytkownik z uprawnieniem \"Eksportowanie wszystkich danych o politykach\" ma dostęp do tych adresów URL, które pozwalają pobrać listę użytkowników, którzy zaakceptowali daną politykę. Możesz znaleźć więcej informacji o dostępnych opcjach na <a>wiki rozszerzenia</a>.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "Przeglądanie statusu akceptacji polityk przez użytkownika",
@@ -64,14 +66,19 @@
             "update-alert": {
                 "must-accept-message": "Tymczasowo ograniczyliśmy możliwości Twojego konta, do czasu aż zaakceptujesz nowe warunki korzystania z forum.",
                 "can-accept-message": "Niedawno zaktualizowaliśmy warunki korzystania z forum. Musisz je zaakceptować, aby kontynuować korzystanie z witryny.",
-                "review": "Kliknij tutaj, aby zobaczyć i zaakceptować nowe warunki korzystania z forum"
+                "can-accept-optional-message": "",
+                "review": "Kliknij tutaj, aby zobaczyć i zaakceptować nowe warunki korzystania z forum",
+                "close": "Zamknij"
+            },
+            "user_settings": {
+                "optional_policies_label": "Polityki"
             },
             "user_controls": {
                 "state_button": "Status akceptacji TOS"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

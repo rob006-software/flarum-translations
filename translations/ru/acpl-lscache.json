@@ -14,6 +14,8 @@
             "cache_exclude_help": "Пути, содержащие эти строки, не будут кэшироваться. Например, можно использовать <code>/mypathh/mypage?aa=bb</code>, <code>mypage?aa=</code>. Для поиска совпадения начала, добавьте <code>^</code> в начале элемента. Для поиска точного совпадения добавьте <code>$</code> в конце URL.\nОдин в строку.",
             "drop_qs_label": "",
             "drop_qs_help": "",
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
             "purge_all": "Очистить все LSCache",
             "purge_all_success": "Уведомленный веб-сервер LiteSpeed для очистки всех записей LSCache"
         }

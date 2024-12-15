@@ -1,12 +1,34 @@
 {
     "ianm-translate": {
         "admin": {
+            "glossary": {
+                "button": "Glossary",
+                "create_button": "Create new term",
+                "section": {
+                    "heading": "Glossary Configuration",
+                    "help": "Glossary words or terms are defined so that the translation service will not translate them. This is useful for proper nouns, technical terms, or other words that should not be translated."
+                }
+            },
             "permission": {
                 "refresh-translation": "Force a re-translate of a cached translation",
                 "translate-to-locale": "View translation in current locale",
-                "translate-to-all-locales": "View translation in any forum locale"
+                "translate-to-all-locales": "View translation in any forum locale",
+                "edit-translation": "Manually edit a translation"
             },
             "settings": {
+                "general": {
+                    "heading": "General Settings",
+                    "help": "These settings control the general behavior of the translation system."
+                },
+                "providers": {
+                    "heading": "Translation Provider Settings",
+                    "help": "Select your preferred translation provider and configure its settings here."
+                },
+                "button": "Settings",
+                "seemless": "Seamless Translation",
+                "seemless-help": "Beta feature. When enabled, all user content will be translated automatically to all other available forum languages. When a user views multi-language content, translations will be displayed automaticlly.",
+                "multi-lang-search": "Multi-language search",
+                "multi-lang-search-help": "When enabled, the search will include all translations of the content.",
                 "deepl": {
                     "api_key": {
                         "help": "Register at {link}. Driver will auto detect free/pro key type.",
@@ -36,12 +58,28 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
+                "libre": {
+                    "url": {
+                        "help": "The URL of the LibreTranslate server. If you are running your own instance, enter the URL here. The schema should be `http` or `https`.",
+                        "label": "Server URL"
+                    },
+                    "port": {
+                        "help": "The port of the LibreTranslate server. If you are running your own instance, enter the port here.",
+                        "label": "Server Port"
+                    },
+                    "api_key": {
+                        "help": "(optional) If your LibreTranslate server requires an API key, enter it here.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                },
                 "translate-all-enabled": "Enable all translation languages",
                 "translate-all-help": "When enabled, admin users and others with permission may translate content to any installed forum language.",
                 "bind-browser-language": "Add browser language",
                 "bind-browser-language-help": "When enabled, the user's browser language(s) will be added to the list of languages available for translation.",
                 "use-native-locale-names": "Use native locale names",
                 "use-native-locale-names-help": "When enabled, the native locale name will be used instead of the current locale version of the name.",
+                "translate-polls": "Translate polls",
+                "translate-polls-help": "When enabled, polls titles, subtitle, image alt text and answer options will be translated automatically when a poll is created or edited.",
                 "provider": "Translation provider",
                 "readme-info": "See the README documention for extended information.",
                 "readme-none": "No additional settings are required for this driver."
@@ -51,6 +89,31 @@
             "unknown-language": "[not detected]",
             "detected-language": "This post is in {postLang}",
             "translate-button-label": "Translate",
+            "refresh-translation": "Refresh translation",
+            "original-content": {
+                "title": "Original content",
+                "view": "View original content"
+            },
+            "manage-translations": {
+                "translations-label": "Translations",
+                "button-label": "Manage translations",
+                "original-language": "Original language ({detectedLang})",
+                "discussion": {
+                    "title": "Manage discussion title translations"
+                },
+                "post": {
+                    "title": "Manage Post translations"
+                },
+                "poll": {
+                    "image-alt": "Poll image ALT text (if any)",
+                    "option": "Poll option {number}",
+                    "subtitle": "Poll subtitle",
+                    "title": "Manage Poll translations",
+                    "question": "Poll question",
+                    "question-language": "Poll question ({language})"
+                },
+                "save-changes": "=> core.ref.save_changes"
+            },
             "discussion": {
                 "post": {
                     "close-translation": "Close translation",
@@ -75,7 +138,8 @@
             "providers": {
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
-                "google-cloud": "Google Cloud Translate"
+                "google-cloud": "Google Cloud Translate",
+                "libre": "Libre Translate"
             },
             "settings": {
                 "api-key": "API Key"

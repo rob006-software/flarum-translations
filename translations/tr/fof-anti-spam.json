@@ -13,75 +13,75 @@
                     "delete_discussions_help": "Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları kalıcı olarak silecektir. Devre dışı bırakıldığında tartışmalar geçici olarak silinir.",
                     "delete_posts_label": "Gönderileri sil",
                     "delete_posts_help": "Bu işlem, bu kullanıcı tarafından gönderilen tüm gönderileri kalıcı olarak silecektir. Devre dışı bırakıldığında gönderiler geçici olarak silinir.",
-                    "heading": "",
-                    "introduction": "",
-                    "move_discussions_to_tags_label": "",
-                    "move_discussions_to_tags_help": ""
+                    "heading": "Varsayılan moderatör eylemleri",
+                    "introduction": "Bir kullanıcı spam gönderen olarak işaretlendiğinde moderatörler, belirli kullanım durumuyla nasıl başa çıkacaklarına ilişkin çeşitli eylemler arasından seçim yapabilir. Bu ayarlar, süreci hızlandırmak için normalde gerçekleştireceğiniz eylemleri önceden ayarlamanıza olanak tanır, ancak aynı zamanda gerektiğinde değişikliklere de izin verir.\n",
+                    "move_discussions_to_tags_label": "Tartışmaları etiket(lere) taşıyın",
+                    "move_discussions_to_tags_help": "Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları belirttiğiniz etiketlere taşıyacaktır. Tartışmaları asıl etiketlerinde bırakmak için etiket seçimini temizleyin. 'Tartışmaları sil' seçeneği etkinse hiçbir etkisi olmaz."
                 },
                 "stopforumspam": {
-                    "heading": "",
-                    "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
-                    "frequency_label": "",
-                    "frequency_help": "",
-                    "api_key_label": "",
-                    "api_key_text": "",
-                    "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
-                    "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
-                    "confidence_help": "",
-                    "email_hash_label": "",
-                    "email_hash_help": "",
-                    "sfs_lookup_label": "",
-                    "sfs_lookup_help": "",
-                    "report_blocked_registrations_label": "",
-                    "report_blocked_registrations_help": ""
+                    "heading": "StopForumSpam",
+                    "introduction": "Yeni kullanıcı kayıtlarını <a>StopForumSpam</a> veritabanına göre kontrol eder. <code>Güven</code> veya <code>sıklık</code> eşiklerinden birine ulaşılırsa kullanıcının forumunuza kayıt işlemini tamamlaması engellenir.\n\n<code>fof/oauth</code> ve <code>fof/passport</code> aracılığıyla SSO kaydı da desteklenir. Diğer SSO sağlayıcılarının çalışması gerekir ancak bunlar test edilmemiştir.\n",
+                    "username_label": "Kullanıcı Adı İstenmeyen Kontrolü",
+                    "ip_label": "IP Adresi İstenmeyen Kontrolü",
+                    "email_label": "E-Posta İstenmeyen Kontrolü",
+                    "frequency_label": "Eşik",
+                    "frequency_help": "Spam filtresini tetikleyecek tüm etkin kontroller arasındaki spam raporlarının sayısı.\nÖrn: E-posta 1 hit alırsa ve IP 2 hit alırsa, toplamda 3 hit olur. Eşik 3 veya daha azına ayarlanırsa kaydı engelleriz.\n",
+                    "api_key_label": "API Anahtarı",
+                    "api_key_text": "Daha geniş forum topluluğunu spam'den uzak tutmak için spam gönderenleri StopForumSpam'e bildirme seçeneğiniz var.",
+                    "api_key_instructions_text": "<register>StopForumSpam'a kaydolun</register>. Daha sonra <key>bir API anahtarı edinmeniz</key> gerekecektir.",
+                    "regional_endpoint_label": "Coğrafi Erişim",
+                    "regional_endpoint_help": "Varsayılan olarak, en hızlı yanıtı sağlamak için aramayı en yakın bölgesel sunucuya yönlendireceğiz. Şirket veya ülke gizlilik düzenlemelerine uyum gibi belirli bir bölgeyle trafiği sınırlamak isterseniz, belirli bir bölgeye bir bağlantı zorlayabilirsiniz.",
+                    "region_closest_label": "En yakın",
+                    "region_europe_label": "Avrupa",
+                    "region_us_label": "ABD",
+                    "confidence_label": "Güven",
+                    "confidence_help": "Güven puanı, test edilen alanın istenmeyen aktiviteye yol açacağının makul derecede iyi bir göstergesidir. Güven düzeyinizi yüzde olarak ayarlayın. Alan bu rakama eşit veya üstündeyse, yukarıdaki 'frekans' testine bakılmaksızın kayıt engellenecektir.",
+                    "email_hash_label": "Karma (hashed) e-posta adresi kullan",
+                    "email_hash_help": "E-posta adresinin kendisini geçirmek istemiyorsanız e-posta adresinin MD5 karmasını geçirin. Bu yöntem tüm kara listeleri, normalleştirme ve karartma atlama kontrollerini atlatır.",
+                    "sfs_lookup_label": "Kayıtlara göz gezdir",
+                    "sfs_lookup_help": "Etkinleştirilirse, forumunuza yeni bir kullanıcı kaydolduğunda StopForumSpam veritabanını kontrol edeceğiz. Kullanıcı bulunursa (kullanıcı adı, IP adresi, e-posta) ve bu veri noktası etkinleştirilirse ve SFS güven düzeyi tanımladığınız düzeye ulaşırsa, kayıtlarını tamamlamaları engellenecektir.",
+                    "report_blocked_registrations_label": "Engellenen kayıtları bildir",
+                    "report_blocked_registrations_help": "Bir kayıt engellendiğinde, spam göndericisinin etkinliğinin daha iyi doğrulanabilmesi için bu girişimi StopForumSpam'a geri bildireceğiz. Bir StopForumSpam API anahtarının ayarlanmasını gerektirir (aşağıya bakın)."
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
-                "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "button": "Engellenen Kayıtlar",
+                "title": "Engellenen Kayıtlar",
+                "no-records": "Engellenen kayıt bulunamadı.",
+                "help": "Bu sayfa, StopForumSpam hizmeti tarafından engellenen tüm kayıtları gösterir. Her kaydın ayrıntılarını görüntüleyebilir ve dilerseniz kaydı veritabanından silebilirsiniz.\n",
+                "attempted-at": "Yakalanan",
+                "ip": "IP Adresi",
+                "email": "E-posta Adresi",
+                "username": "Kullanıcı adı",
+                "login-provider": "Giriş Sağlayıcısı",
+                "login-provider-data": "Giriş Sağlayıcısı Verisi",
+                "sfs-data": "StopForumSpam Verisi",
+                "delete_entry": "Girişi sil"
             }
         },
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "Kayıt bilgileriniz spam otomasyonu veritabanında bulunduğundan kaydınız engellenmiştir."
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
-                "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
-                "report_to_sfs_help": ""
+                "hard_delete_discussions_label": "Tartışmayı sil",
+                "hard_delete_discussions_help": "Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları kalıcı olarak silecektir. Devre dışı bırakıldığında, tartışmalar gizlenecektir.",
+                "hard_delete_posts_label": "Gönderileri sil",
+                "hard_delete_posts_help": "Bu, bu kullanıcı tarafından yapılan tüm gönderileri (yorumlar, yanıtlar, vb.) kalıcı olarak silecektir. Devre dışı bırakıldığında, gönderiler gizlenecektir.",
+                "hard_delete_user_label": "Kullanıcıyı sil",
+                "hard_delete_user_help": "Bu, kullanıcıyı kalıcı olarak silecektir. Devre dışı bırakıldığında, kullanıcı askıya alınacaktır.",
+                "intro": "Bir kullanıcıyı spam gönderici olarak işaretlediğinizde, forumunuzda bulunan eklentilere bağlı olarak çeşitli eylemler gerçekleştirilecektir.",
+                "move_discussions_tag_label": "Tartışmaları karantinaya alınmış etikete taşı",
+                "move_discussions_tag_help": "Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları forum ayarlarında belirttiğiniz etikete taşıyacaktır. Devre dışı bırakıldığında, tartışmalar geçerli etiketlerinde bırakılacaktır.",
+                "process_button": "İşlem",
+                "title": "{username} kullanıcısını spam gönderici olarak işaretle",
+                "report_to_sfs_label": "StopForumSpam'a bildirin",
+                "report_to_sfs_help": "Bu, kullanıcının temel ayrıntılarını (kullanıcı adı, e-posta, IP adresi) StopForumSpam'a bildirecektir. Bu, kullanıcının StopForumSpam hizmetini kullanan diğer forumlara kaydolmasını önlemeye yardımcı olacaktır."
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "Spamcı"
             }
         }
     }

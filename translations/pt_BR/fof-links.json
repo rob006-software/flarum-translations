@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Apagar Link",
                 "delete_link_confirmation": "Você tem certeza que quer apagar esse link?",
-                "everyone-label": "Todos",
-                "guests-label": "Convidados",
                 "internal_link": "É um link interno?",
-                "members-label": "Usuários registrados",
                 "open_newtab": "Abrir link em uma nova aba",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,7 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "",
-                "visibility": "Visibilidade do link"
+                "visibility": "Visibilidade do link",
+                "visibility.help": "",
+                "visibility.help-disabled": "",
+                "visibility.label": "",
+                "visibility.guest-only.label": "",
+                "visibility.guest-only.help": "",
+                "everyone-label": "Todos",
+                "guests-label": "Convidados",
+                "members-label": "Usuários registrados"
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

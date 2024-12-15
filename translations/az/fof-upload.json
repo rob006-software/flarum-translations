@@ -1,5 +1,5 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
@@ -36,6 +36,7 @@
                 "watermark": "Yükləmə zamanı şəkillərin su nişanının əlavə edilib -edilməyəcəyini seçin. Su nişanları aşağıdakı seçimlərinizə əsasən gif olmayanlara əlavə olunur.\n",
                 "s3_compatible_storage": "Aşağıdakı parametrlər yalnız S3 uyğun saxlama istifadə edərkən tələb olunur. AWS istifadə edirsinizsə, onları boş buraxa bilərsiniz.\n",
                 "s3_acl": "",
+                "custom_s3_url": "",
                 "s3_instance_profile": "",
                 "composer_buttons": ""
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "",
                     "endpoint": "",
                     "use_path_style_endpoint": "",
-                    "acl": ""
+                    "acl": "",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "",
@@ -130,6 +132,7 @@
             },
             "upload_methods": {
                 "aws-s3": "",
+                "awss3": "",
                 "imgur": "",
                 "local": "",
                 "ovh-svfs": "",

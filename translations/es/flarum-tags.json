@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Etiquetar discusiones"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " a ",
@@ -43,6 +43,7 @@
                 "about_tags_text": "Las etiquetas se utilizan para organizar las discusiones. Las etiquetas principales son para clasificar las discusiones (p. ej. por temática) y pueden ordenarse y organizarse jerárquicamente en dos niveles. Las etiquetas secundarias no tienen orden ni jerarquía y son útiles para la micro organización.",
                 "create_primary_tag_button": "Crear etiqueta principal",
                 "create_secondary_tag_button": "Crear etiqueta secundaria",
+                "edit_tag_label": "",
                 "primary_heading": "Etiquetas principales",
                 "secondary_heading": "Etiquetas secundarias",
                 "settings_heading": "Ajustes"
@@ -62,7 +63,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Elegir etiquetas"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Editar etiquetas"
@@ -76,9 +77,9 @@
                 "untagged_link": "Sin etiqueta"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} puso {tagsAdded} y quitó {tagsRemoved}",
-                "added_tags_text": "{username} puso {tagsAdded}",
-                "removed_tags_text": "{username} quitó {tagsRemoved} {time}",
+                "added_and_removed_tags_text": "{username} puso {tagsAdded} y quitó {tagsRemoved} {time}.",
+                "added_tags_text": "{username} puso {tagsAdded} {time}.",
+                "removed_tags_text": "{username} quitó {tagsRemoved} {time}.",
                 "tags_text": "{count, plural, one {la etiqueta {tags}} other {las etiquetas {tags}}}"
             },
             "tag": {
@@ -88,19 +89,30 @@
         "lib": {
             "deleted_tag_text": "Borrada",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Omitir requisitos de etiqueta",
+                "choose_primary_placeholder": "{count, plural, one {Seleccionar una etiqueta principal} other {Seleccionar # etiquetas principales}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Selecciona etiquetas",
+            "choose_tags_placeholder": "{count, plural, one {Selecciona 1 etiqueta más} other {Selecciona # etiquetas más}}",
             "name": "Nombre",
             "tags": "Etiquetas"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

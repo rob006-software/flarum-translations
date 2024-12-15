@@ -2,36 +2,36 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Gruppen erwähnen"
             },
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Format für die Erwähnung des Benutzernamens (@Benutzername) zulassen",
+                "allow_username_format_text": "Das aktuelle Format für Benutzernamen-Erwähnungen ist @\"Anzeigename\"#ID.\nDiese Einstellung erlaubt die Verwendung des alten @Nutzername-Formats, wird beim speichern aber trotzdem in das neue Format konvertiert.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Benutzer, Gruppe oder Beitrag erwähnen",
+                "reply_to_post_text": "Antwort auf #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Antworten auf diesen Beitrag",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
-                "others_text": "",
+                "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} {count, plural, one {hat} other {haben}} auf Ihren Beitrag geantwortet",
                 "user_mentioned_text": "{username} hat Sie erwähnt",
                 "group_mentioned_text": "{username} hat eine Gruppe erwähnt, in der Sie Mitglied sind"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "{count} weitere Antworten.",
                 "mentioned_by_self_text": "{users} haben auf diesen Beitrag geantwortet.",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_text": "{users} {count, plural, one {hat} other {haben}} auf diesen Beitrag geantwortet.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Zitieren",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
                 "notify_post_mentioned_label": "Jemand hat auf Ihren Beitrag geantwortet",
@@ -39,27 +39,36 @@
                 "notify_group_mentioned_label": "Jemand erwähnt in einem Beitrag eine Gruppe, in der Sie Mitglied sind"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Erwähnungen"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[unbekannt]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[unbekannte Gruppe]"
             }
         },
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} hat auf Ihren Beitrag in {title} geantwortet",
-                "body": "Sehr geehrte/r {recipient_display_name},\n\n{replier_display_name} hat auf Ihren Beitrag (#{post_number}) in {title} geantwortet.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Sehr geehrte/r {recipient_display_name},\n\n{replier_display_name} hat auf Ihren Beitrag (#{post_number}) in {title} geantwortet.\n\n{url}\n\n---\n\n{content}\n",
+                "html": {
+                    "body": "{replier_display_name} hat auf Ihren Beitrag (#{post_number}) in [{title}]({url}) geantwortet."
+                }
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} hat Sie in {title} erwähnt",
-                "body": "Sehr geehrte/r {recipient_display_name},\n\n{mentioner_display_name} hat Sie in der Diskussion {title} erwähnt.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Sehr geehrte/r {recipient_display_name},\n\n{mentioner_display_name} hat Sie in der Diskussion {title} erwähnt.\n\n{url}\n\n---\n\n{content}\n",
+                "html": {
+                    "body": "{mentioner_display_name} hat Sie in einem Beitrag in [{title}]({url}) erwähnt."
+                }
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der Sie Mitglied sind",
-                "body": "Sehr geehrte/r {recipient_display_name},\n\n{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der Sie Mitglied sind.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Sehr geehrte/r {recipient_display_name},\n\n{mentioner_display_name} hat in {title} eine Gruppe erwähnt, in der Sie Mitglied sind.\n\n{url}\n\n---\n\n{content}\n",
+                "html": {
+                    "body": "{mentioner_display_name} hat eine Gruppe erwähnt, der Sie angehören, in [{title}]({url})."
+                }
             }
         }
     }

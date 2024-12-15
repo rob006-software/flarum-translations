@@ -88,7 +88,7 @@
             "file_permissions": "Paplašinājumu pārvaldniekam ir nepieciešamas lasīšanas un rakstīšanas atļaujas šādiem failiem un direktorijiem: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
                 "description": "Galvenie Flarum atjauninājumi nav saderīgi ar atpakaļejošu datumu, kas nozīmē, ka daži no pašlaik instalētajiem paplašinājumiem un manuāli veiktās modifikācijas var nedarboties ar šo jauno versiju. Pirms turpināt, lūdzu, izveidojiet datu bāzes un failu dublējumu.\n",
-                "dry_run": "Dry Run",
+                "dry_run": "Sauss palaists",
                 "dry_run_help": "Sausā palaišana emulē atjauninājumu, lai noskaidrotu, vai pašreizējo iestatījumu var droši atjaunināt. Tas nenozīmē, ka manuāli veiktās pielāgotās modifikācijas darbosies jaunākajā versijā.",
                 "failure": {
                     "desc": "Pēdējais lielākais atjauninājums neizdevās, daži instalētie paplašinājumi nav saderīgi ar jauno galveno laidienu.",
@@ -163,6 +163,27 @@
             "update_successful": "Flarum veiksmīgi atjaunināts.",
             "why_not_modal": {
                 "title": "Kāpēc tas netiks atjaunināts"
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "",
+                "repositories": "",
+                "repositories.*": "",
+                "repositories.*.type": "",
+                "repositories.*.url": "",
+                "extension_id": "",
+                "update_mode": "",
+                "package": "",
+                "version": "",
+                "github_oauth": "",
+                "github_oauth.*": "",
+                "gitlab_oauth": "",
+                "gitlab_oauth.*": "",
+                "gitlab_token": "",
+                "gitlab_token.*": "",
+                "bearer": "",
+                "bearer.*": ""
             }
         }
     }

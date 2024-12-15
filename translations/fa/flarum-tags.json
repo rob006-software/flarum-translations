@@ -2,7 +2,7 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.name"
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
@@ -10,8 +10,8 @@
                 "delete_tag_confirmation": "آیا مطمئن هستید که می خواهید این برچسب را حذف کنید؟ بحث های برچسب حذف نخواهد شد.",
                 "description_label": "توضیحات",
                 "hide_label": "پنهان کردن از بخش تمامی بحث ها",
-                "icon_label": "",
-                "icon_text": "",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
@@ -29,7 +29,7 @@
                 "tag_discussions_label": "تگ کردن بحث ها"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " به ",
@@ -37,12 +37,13 @@
                 "required_primary_text": "حداقل و حداکثر تعداد برچسب های اصلی را که ممکن است در بحث اعمال شود وارد کنید.",
                 "required_secondary_heading": "تعداد مورد نیاز برچسب های ثانویه",
                 "required_secondary_text": "حداقل و حداکثر تعداد برچسب‌های ثانویه را که ممکن است در بحث اعمال شود وارد کنید.",
-                "title": "Tag Settings"
+                "title": "تنظیمات برچسب"
             },
             "tags": {
                 "about_tags_text": "از برچسب ها برای دسته بندی بحث ها استفاده می شود. برچسب‌های اولیه مانند دسته‌های انجمن سنتی هستند: آنها را می‌توان در یک سلسله مراتب دو سطحی مرتب کرد. تگ های ثانویه سلسله مراتب یا نظم ندارند و برای طبقه بندی خرد مفید هستند.",
                 "create_primary_tag_button": "ایجاد تگ اصلی",
                 "create_secondary_tag_button": "ایجاد تگ ثانویه",
+                "edit_tag_label": "ویرایش برچسب {tag}",
                 "primary_heading": "برچسب های اولیه",
                 "secondary_heading": "برچسب های ثانویه",
                 "settings_heading": "تنظیمات",
@@ -53,7 +54,7 @@
         "forum": {
             "all_tags": {
                 "meta_description_text": "تمامی برچسب ها",
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
                 "edit_title": "ویرایش تگ‌های {title}",
@@ -64,7 +65,7 @@
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "انتخاب تگ"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "ویرایش تگ‌ها"
@@ -78,9 +79,9 @@
                 "untagged_link": "بدون تگ"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} {tagsAdded} را افزود و {tagsRemoved} را حذف کرد.",
-                "added_tags_text": "{username} {tagsAdded} را افزود.",
-                "removed_tags_text": "{username} {tagsRemoved} را حذف کرد.",
+                "added_and_removed_tags_text": "{time} {username} {tagsAdded} را اضافه کرد و {tagsRemoved} را حذف کرد.",
+                "added_tags_text": "{time} {username} {tagsAdded} را اضافه کرد.",
+                "removed_tags_text": "{time} {username} {tagsRemoved} را حذف کرد.",
                 "tags_text": "{count, plural, one {برچسب {tags}} other {برچسب های {tags}}}"
             },
             "tag": {
@@ -90,20 +91,39 @@
         "lib": {
             "deleted_tag_text": "حذف شده",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "بدون درج برچسب",
+                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
+            },
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "برچسب",
+                        "hint": "نام یک برچسب، یا لیستی از نام برچسب ها با کاما جدا شده، یا \"بدون برچسب\""
+                    }
+                }
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "انتخاب برچسب ها",
+            "choose_tags_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
             "name": "نام",
             "tags": "تگ‌ها",
             "create_tag": "ساخت تگ"
+        },
+        "validation": {
+            "attributes": {
+                "name": "نام",
+                "slug": "اسلاگ",
+                "is_hidden": "پنهان",
+                "description": "توضیحات",
+                "color": "رنگ",
+                "tag_count_primary": "=> validation.attributes.tag_count_primary",
+                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
+            }
         }
     }
 }

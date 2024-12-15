@@ -1,0 +1,171 @@
+{
+    "flarum-gdpr": {
+        "admin": {
+            "gdpr_page": {
+                "heading": "",
+                "description": "",
+                "data_types": {
+                    "title": "",
+                    "help_text": "",
+                    "type": "",
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "extension": ""
+                },
+                "settings": {
+                    "heading": "",
+                    "help_text": "",
+                    "extension_settings_button": ""
+                },
+                "user_table_data": {
+                    "title": "",
+                    "help_text": ""
+                }
+            },
+            "nav": {
+                "gdpr_button": ""
+            },
+            "permissions": {
+                "process_erasure": "",
+                "process_export_for_others": "",
+                "see_anonymized_user_badges": ""
+            },
+            "settings": {
+                "allow_anonymization": "",
+                "allow_anonymization_help": "",
+                "allow_deletion": "",
+                "allow_deletion_help": "",
+                "default_anonymous_username": "",
+                "default_anonymous_username_help": "",
+                "default_erasure": "",
+                "default_erasure_help": "",
+                "default_erasure_options": {
+                    "anonymization": "",
+                    "deletion": ""
+                },
+                "gdpr_page": {
+                    "title": "",
+                    "help_text": "Vor der Entscheidung, welche Aktionen in Ihrem Forum verwendet werden sollen, ist es wichtig zu verstehen, welche Daten integriert werden und wie sie sowohl für die Anonymisierung als auch für die Löschung behandelt werden. Informieren Sie sich in der DSGVO-Übersicht darüber, wie die Daten behandelt werden und welche optionalen Erweiterungen die Daten für die Behandlung durch diese Erweiterung registriert haben."
+                }
+            },
+            "userlist": {
+                "columns": {
+                    "gdpr_actions": {
+                        "export": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "data": {
+                "avatar": {
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "discussions": {
+                    "export_description": ""
+                },
+                "forum": {
+                    "export_description": ""
+                },
+                "no_action": "",
+                "posts": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "tokens": {
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "user": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                }
+            },
+            "request_data": {
+                "title": "",
+                "text": "",
+                "request_button": ""
+            }
+        },
+        "email": {
+            "confirm_erasure": {
+                "subject": "",
+                "body": "Jemand (hoffentlich Sie) hat gerade die Löschung des Kontos `{display_name}` beantragt.\n\nUm diese Aktion zu bestätigen, folgen Sie bitte dem folgenden Link. Anschließend wird Ihre Anfrage von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
+            },
+            "erasure_completed": {
+                "deletion": {
+                    "subject": "",
+                    "body": ""
+                },
+                "anonymization": {
+                    "subject": "",
+                    "body": ""
+                }
+            },
+            "erasure_cancelled": {
+                "subject": "",
+                "body": "Dies ist eine automatische Benachrichtigung, dass Ihr Antrag auf Stornierung der Kontolöschung bearbeitet wurde.\n\nIhr Konto wird nicht mehr gelöscht.\n"
+            },
+            "export_available": {
+                "subject": "",
+                "body": "Sie haben einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
+            }
+        },
+        "forum": {
+            "badges": {
+                "anonymized_user": ""
+            },
+            "delete_user": {
+                "title": "",
+                "text": "Sind Sie sicher, dass Sie {username}s Konto löschen möchten?\n\nDieser Vorgang kann nicht rückgängig gemacht werden.\n",
+                "modal_delete_button": "",
+                "delete_button": ""
+            },
+            "erasure_requests": {
+                "empty_text": "",
+                "item_text": "",
+                "tooltip": "",
+                "title": ""
+            },
+            "erasure_request_confirmed": "Sie haben Ihren Antrag auf Löschung Ihres Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.",
+            "settings": {
+                "data": {
+                    "heading": ""
+                },
+                "export_data_button": "",
+                "export_data_help": "Wenn Sie den Datenexport anfordern, erhalten Sie eine herunterladbare Kopie aller mit Ihrem Konto verbundenen Informationen. Dazu gehören Beiträge, Kommentare und Profilangaben.",
+                "request_erasure_button": "",
+                "request_erasure_help": "Wenn Sie die Löschung beantragen, werden Ihr Konto und alle damit verbundenen Daten endgültig gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden. Vergewissern Sie sich, bevor Sie fortfahren, dass Sie alle Inhalte, die Sie behalten möchten, gespeichert haben."
+            },
+            "process_erasure": {
+                "confirm": "",
+                "title": "",
+                "text": "",
+                "comments_label": "",
+                "anonymization_button": "",
+                "deletion_button": ""
+            },
+            "request_erasure": {
+                "title": "",
+                "reason": "",
+                "status": {
+                    "awaiting_user_confirmation": "Sie sollten eine E-Mail zur Bestätigung Ihrer Löschanfrage erhalten haben.\n",
+                    "user_confirmed": "Sie haben Ihren Antrag zur Löschung Ihres Kontos bestätigt. Wie in der DSGVO vorgeschrieben, werden innerhalb von 30 Tagen Maßnahmen ergriffen.\n"
+                },
+                "text": "",
+                "password_label": "",
+                "reason_label": "",
+                "cancel_button": "",
+                "request_button": ""
+            },
+            "notification": {
+                "export-ready": "Ihr Datenexport für {username} ist bereit zum Download."
+            },
+            "export_file": ""
+        }
+    }
+}

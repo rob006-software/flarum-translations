@@ -1,8 +1,18 @@
 {
     "v17development-flarum-seo": {
+        "admin": {
+            "permissions": {
+                "configure_seo": ""
+            }
+        },
         "forum": {
             "profile_title": "Nario {username} profilis",
-            "profile_description": "Nario {username} profilis | {discussion_count} diskusijos | {comment_count} įrašai"
+            "profile_description": "Nario {username} profilis | {discussion_count} diskusijos | {comment_count} įrašai",
+            "controls": {
+                "configure_seo": "",
+                "update_seo": "",
+                "reset_seo": ""
+            }
         }
     }
 }

@@ -44,7 +44,7 @@
                 },
                 "labels": {
                     "selected_users": "Pengguna yang dipilih",
-                    "search_field": "Cari pengguna"
+                    "search_field": "Pencarian untuk pengguna"
                 },
                 "help": {
                     "add_recipients": "Diskusi ini hanya akan terlihat oleh pengguna yang Anda pilih di sini. Setidaknya diperlukan 1 penerima (selain diri Anda sendiri).",
@@ -92,12 +92,20 @@
                 "view_private_discussions-when-flagged": "Melihat diskusi pribadi pengguna lain jika ditandai"
             },
             "settings": {
+                "general": {
+                    "heading": "Pengaturan Umum",
+                    "help": "Pengaturan ini mengontrol fitur dasar byobu."
+                },
+                "icon": {
+                    "heading": "Pengaturan Ikon",
+                    "help": "Pengaturan ini mengontrol ikon yang digunakan oleh byobu di forum."
+                },
                 "badge-icon": "Badge Diskusi Byobu",
                 "enable-make-public-option": "Aktifkan kemampuan \"jadikan publik\"",
                 "enable-make-public-option-help": "Menambahkan kemampuan bagi mereka yang memiliki izin untuk menghapus semua penerima, menetapkan tag baru, dan membuat diskusi dapat dilihat oleh publik (sesuai dengan pengaturan visibilitas tag yang dipilih).",
                 "post-event-icon": "Byobu Post Event",
                 "delete_on_last_recipient_left": "Hapus Diskusi Pribadi ketika pengguna terakhir keluar",
-                "delete_on_last_recipient_left_help": "Jika diaktifkan, PD akan dihapus secara permanen dari database ketika pengguna terakhir keluar. Jika tidak, PD akan dihapus secara soft-deleted/disembunyikan.",
+                "delete_on_last_recipient_left_help": "Jika diaktifkan, Diskusi Pribadi akan dihapus secara permanen dari database ketika pengguna terakhir keluar. Jika tidak, Diskusi Pribadi akan dihapus secara soft-deleted/disembunyikan.",
                 "hide_from_all_discussions_page": "Sembunyikan Diskusi Pribadi dari halaman \"Semua Diskusi\"",
                 "hide_from_all_discussions_page_help": "Diskusi pribadi hanya dapat diakses dari halaman \"Diskusi Pribadi\" atau profil pengguna"
             }

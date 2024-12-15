@@ -2,37 +2,37 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "",
-                "schedule": ""
+                "start": "Loo mustandid",
+                "schedule": "Ajasta mustandid"
             },
             "settings": {
-                "title": "",
-                "enable_scheduled_drafts": "",
+                "title": "FoF Mustandid",
+                "enable_scheduled_drafts": "Luba ajastatud mustandid",
                 "schedule_on_one_server": "",
                 "schedule_log_output": ""
             }
         },
         "console": {
-            "scheduled_drafts_disabled": ""
+            "scheduled_drafts_disabled": "Ajastatud mustandite kasutamine on seadetest välja lülitatud."
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "Ajasta mustand"
         },
         "forum": {
             "composer": {
-                "title": "",
-                "saving": "",
-                "saved": "",
-                "exit_alert": "",
-                "discard_empty_draft_alert": ""
+                "title": "Salvesta mustand",
+                "saving": "Salvestamine...",
+                "saved": "Salvestatud!",
+                "exit_alert": "Loobu muudatustest mustandis?",
+                "discard_empty_draft_alert": "Hüljata tühi mustand?"
             },
             "dropdown": {
-                "empty_text": "",
-                "title": "",
-                "delete_all_button": "",
-                "delete_button": "",
+                "empty_text": "Sa pole veel ühtegi mustandit salvestanud",
+                "title": "Mustandid",
+                "delete_all_button": "Kustuta kõik mustandid",
+                "delete_button": "Kustuta mustand",
                 "schedule_button": "",
-                "scheduled_icon_tooltip": "",
+                "scheduled_icon_tooltip": "Ajastatud {datetime}",
                 "scheduled_icon_tooltip_formatter": "",
                 "tooltip": "",
                 "alert": "",
@@ -44,20 +44,30 @@
                 "scheduled_text": "",
                 "scheduled_error": "",
                 "unschedule_button": "",
-                "unschedule_warning": "",
-                "reschedule_button": "",
-                "schedule_button": "",
-                "schedule_time_preview": "",
-                "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "unschedule_warning": "Oled sa kindel, et soovid sellelt mustandilt ajastuse eemaldada?",
+                "reschedule_button": "Muuda aega",
+                "schedule_button": "Ajasta",
+                "schedule_time_preview": "See mustand avaldatakse automaatselt <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Vigane kuupäev ja/või kellaaeg"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "",
-                    "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "drafts_heading": "Mustandid",
+                    "draft_autosave_enable": "Luba mustandi automaatne salvestamine?",
+                    "draft_autosave_interval_label": "Automaatse salvestamise intervall (sekundites)",
+                    "draft_autosave_interval_button": "Uuendamise intervall",
+                    "draft_autosave_interval_invalid": "Intervall peab olema täisarv, mis on suurem kui 4."
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "drafts": {
+                    "export_description": "Kõik kasutaja poolt loodud mustandid.",
+                    "delete_description": "Kustuta kõik kasutaja poolt loodud mustandid."
                 }
             }
         }

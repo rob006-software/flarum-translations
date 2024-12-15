@@ -43,6 +43,7 @@
                 "about_tags_text": "Etichetele sunt folosite pentru a categoriza discuțiile. Etichetele principale sunt precum categoriile unui forum obișnuit, putând fi aranjate pe două niveluri. Etichetele secundare nu reprezintă categorii sau ordine și au rol de mini-categorii.",
                 "create_primary_tag_button": "Creare etichetă principală",
                 "create_secondary_tag_button": "Creare etichetă secundară",
+                "edit_tag_label": "",
                 "primary_heading": "Etichete principale",
                 "secondary_heading": "Etichete secundare",
                 "settings_heading": "Setări"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "",
             "name": "Nume",
             "tags": "Etichete"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

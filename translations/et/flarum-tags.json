@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Teemade sildistamine"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "Vali sildid"
             },
             "tag_settings": {
                 "range_separator_text": " kuni ",
@@ -43,6 +43,7 @@
                 "about_tags_text": "Silte kasutatakse teemade organiseerimiseks. Põhisildid on nagu tavalised foorumi kategooriad: neid saab panna kahetasemelises hierarhias. Teisejärgulistel siltidel pole hierarhiat ega järjekorda ning neid saab kasutada alamkategoriseerimiseks.",
                 "create_primary_tag_button": "Loo uus põhisilt",
                 "create_secondary_tag_button": "Loo uus teisejärguline silt",
+                "edit_tag_label": "Muuda silti {tag}",
                 "primary_heading": "Põhisildid",
                 "secondary_heading": "Teisejärgulised sildid",
                 "settings_heading": "Seaded"
@@ -75,9 +76,9 @@
                 "untagged_link": "Siltideta"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} lisas {tagsAdded} ja kustutas {tagsRemoved}.",
-                "added_tags_text": "{username} lisas {tagsAdded}.",
-                "removed_tags_text": "{username} kustutas {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} lisas {tagsAdded} ja kustutas sildid {tagsRemoved}, {time}.",
+                "added_tags_text": "{username} lisas {tagsAdded}, {time}.",
+                "removed_tags_text": "{username} kustuta sildi {tagsRemoved}, {time}.",
                 "tags_text": "{count, plural, one {{tags} silt} other {{tags} silti}}"
             },
             "tag": {
@@ -87,19 +88,30 @@
         "lib": {
             "deleted_tag_text": "Kustutatud",
             "tag_selection_modal": {
-                "bypass_requirements": "",
+                "bypass_requirements": "Sildi mitte kasutamise nõuded",
                 "choose_primary_placeholder": "",
                 "choose_secondary_placeholder": "",
                 "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "submit_button": "OK",
+                "title": "Vali sildid"
             }
         },
         "ref": {
-            "choose_tags": "",
+            "choose_tags": "Vali sildid",
             "choose_tags_placeholder": "",
             "name": "Nimi",
             "tags": "Sildid"
+        },
+        "validation": {
+            "attributes": {
+                "name": "nimi",
+                "slug": "",
+                "is_hidden": "peidetud",
+                "description": "kirjeldus",
+                "color": "värv",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

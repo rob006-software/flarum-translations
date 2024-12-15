@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "The date of the last terms update. Setting this value will require all users who accepted prior to that date to accept again. Must be in the past (otherwise users would never be able to accept after the date and get past the modal).\n",
                 "export-url": "Export URL",
-                "export-url-help": "Any user with permission \"Export all policies data\" can access those URLs to download the list of users who accepted this policy. You can find more details about the available options on the <a>extension wiki</a>.\n"
+                "export-url-help": "Any user with permission \"Export all policies data\" can access those URLs to download the list of users who accepted this policy. You can find more details about the available options on the <a>extension wiki</a>.\n",
+                "optional": "Optional Policy",
+                "optional-help": "When enabled, users can use and interact with the forum without accepting this policy."
             },
             "permissions": {
                 "see-user-policies-state": "See the user policies state",
@@ -64,14 +66,19 @@
             "update-alert": {
                 "must-accept-message": "We've temporarily restricted access to your account while you check out the new terms.",
                 "can-accept-message": "We recently updated the terms. You must accept them to continue using this website.",
-                "review": "Click here to review and accept the new terms"
+                "can-accept-optional-message": "We recently updated the terms. You can review them at your convenience.",
+                "review": "Click here to review and accept the new terms",
+                "close": "Close"
+            },
+            "user_settings": {
+                "optional_policies_label": "Policies"
             },
             "user_controls": {
                 "state_button": "Terms accept state"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

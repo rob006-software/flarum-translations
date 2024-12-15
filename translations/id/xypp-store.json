@@ -1,0 +1,119 @@
+{
+    "xypp-store": {
+        "forum": {
+            "time_segs": "hari|jam|menit",
+            "store": "Toko",
+            "purchase-history": "Pembelian",
+            "create": "Buat Item",
+            "purchase": "Pembelian",
+            "edit_button": "Edit",
+            "show_case": "Etalase",
+            "price_free": "Gratis",
+            "provider": {
+                "all": "Semua",
+                "error": {
+                    "title": "Provider tidak diketahui",
+                    "no-preview": "Tidak ada pratinjau"
+                }
+            },
+            "unavailable": {
+                "common": {
+                    "unknown": "Tidak Dapat Dibeli",
+                    "no_rest": "Tidak tersisa"
+                }
+            },
+            "create-modal": {
+                "title": "Buat Item",
+                "name": "Nama",
+                "desc": "Deskripsi",
+                "price": "Harga",
+                "provider": "Provider",
+                "provider_data": "Data Provider",
+                "use_cnt": "Batas penggunaan",
+                "expire_time": "Waktu Kedaluwarsa",
+                "expire_time_tip": "Biarkan kosong untuk menonaktifkan, atau atur ke angka untuk kedaluwarsa setelah beberapa detik.",
+                "rest_cnt": "Sisa Batas Penggunaan",
+                "rest_cnt_tip": "Kosongkan untuk tidak terbatas, atau isi dengan angka untuk membatasi jumlah.",
+                "edit-title": "Edit Item#{0}",
+                "edit-button": "Edit",
+                "button": "Buat",
+                "success": "Item dibuat",
+                "confirm_delete": "Apakah Anda yakin ingin menghapus item ini?",
+                "delete-button": "Hapus",
+                "providers": {
+                    "unknown": "Pilih Provider",
+                    "unknown_data": "Perlu memilih provider terlebih dahulu",
+                    "no_select_data": "Pilih Data Provider",
+                    "special_data": "Data Yang Dipilih"
+                },
+                "provider_data_error": "Pilih provider dan data",
+                "provider_data_default": "Data default"
+            },
+            "purchase-confirm": "Konfirmasi Pembelian?",
+            "item": {
+                "rest_cnt": "Sisa {0}",
+                "use_cnt": "Digunakan {0} kali",
+                "expire": "Berlaku selama {0}",
+                "no_available": "Tidak ada item yang tersedia",
+                "infinity_count": "Tersedia tanpa batas",
+                "not_found": "Item tidak ditemukan"
+            },
+            "history": {
+                "no_record": "Tidak ada pembelian",
+                "delete_button": "Hapus",
+                "confirm_delete": "Yakin ingin menghapus item yang telah Anda beli ini?",
+                "title": "Pembelian",
+                "use": "",
+                "rest_cnt": "Dapat digunakan {0} kali",
+                "infinity_use": "Penggunaan tidak terbatas",
+                "expire": "Kedaluwarsa pada {0}",
+                "forever": "Tersedia selamanya",
+                "confirm_use": "",
+                "unable_to_use": "Item ini tidak dapat digunakan",
+                "not_found": "Item tidak ditemukan"
+            },
+            "query-modal": {
+                "purchase": {
+                    "title": ""
+                },
+                "use": {
+                    "title": ""
+                }
+            },
+            "use_result": {
+                "success": "Sukses",
+                "fail": {
+                    "unknown": "Error Tidak Diketahui",
+                    "error": "Terjadi error saat menggunakan item",
+                    "not_enough": "Jumlah penggunaan tidak cukup",
+                    "cannot": "Tidak dapat menggunakan Item ini",
+                    "fail_expire": "Gagal saat mencoba mengakhiri Item ini",
+                    "id_not_found": "ID item tidak ditemukan",
+                    "expired": "Item kedaluwarsa"
+                }
+            },
+            "purchase_result": {
+                "success": "Sukses",
+                "fail": {
+                    "unknown": "Error Tidak Diketahui",
+                    "not_enough_item": "Item tidak cukup",
+                    "cannot": "Tidak dapat membeli Item ini",
+                    "not_enough_money": "Uang tidak cukup"
+                }
+            },
+            "edit-result": {
+                "fail": {
+                    "not-found": "Item tidak ditemukan"
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "add-item": "Menambahkan Item Toko",
+                "remove-item": "Menghapus Item Toko",
+                "view-history": "Melihat pembelian orang lain",
+                "remove-history": "Menghapus pembelian orang lain"
+            }
+        }
+    }
+}

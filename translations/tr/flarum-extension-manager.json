@@ -164,6 +164,27 @@
             "why_not_modal": {
                 "title": "Neden Güncellenmiyor"
             }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "",
+                "repositories": "",
+                "repositories.*": "",
+                "repositories.*.type": "",
+                "repositories.*.url": "",
+                "extension_id": "",
+                "update_mode": "",
+                "package": "",
+                "version": "",
+                "github_oauth": "",
+                "github_oauth.*": "",
+                "gitlab_oauth": "",
+                "gitlab_oauth.*": "",
+                "gitlab_token": "",
+                "gitlab_token.*": "",
+                "bearer": "",
+                "bearer.*": ""
+            }
         }
     }
 }

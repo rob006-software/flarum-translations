@@ -2,28 +2,28 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "Foorumi statistika",
+                "discussions_count": "Vestluseid: {discussionsCount}",
+                "posts_count": "Postitusi: {postsCount}",
+                "users_count": "Liikmeid: {usersCount}",
+                "latest_member": "Viimane liige: "
             }
         },
         "admin": {
             "settings": {
-                "cache_duration_label": "",
-                "cache_duration_help": "",
-                "flush_cache_on_new_registration_label": "",
-                "flush_cache_on_new_registration_help": "",
-                "widget_ignore_private_discussions_label": "",
-                "widget_order_label": "",
-                "widget_helper_text": ""
+                "cache_duration_label": "Vahemälu säilitamise pikkus",
+                "cache_duration_help": "Määra, kui kaua (sekundites) hoitakse vidinat vahemälus. Vahemälu kasutamise välja lülitamiseks sisesta <code>0</code> (pole soovitatav).",
+                "flush_cache_on_new_registration_label": "Tühjenda vahemälu uue liikme lisandumisel",
+                "flush_cache_on_new_registration_help": "Kui see on sisse lülitatud, siis vahemälu tühjendatakse uue foorumi liikme lisandumisel.",
+                "widget_ignore_private_discussions_label": "Ignoreeri privaatseid arutelusid",
+                "widget_order_label": "Vidinate järjekord",
+                "widget_helper_text": "Muuda seda seadet, et muuta vidina asukohta Flarum foorumi külgribal. Mida suurem on number, seda kõrgemal on vidin külgriba vidinate lnimekirjas (see väärtus võib olla nii positiivne kui ka negatiivne)."
             },
             "permissions": {
-                "view_discussions_count_label": "",
-                "view_posts_count_label": "",
-                "view_users_count_label": "",
-                "view_lastest_member_label": ""
+                "view_discussions_count_label": "Vaata foorumi statistika vidinas vestluste arvu",
+                "view_posts_count_label": "Vaata foorumi statistika vidinas postituste arvu",
+                "view_users_count_label": "Vaata foorumi statistika vidinas kasutajate arvu",
+                "view_lastest_member_label": "Vaata foorumi statistika vidinas viimast liiget"
             }
         }
     }

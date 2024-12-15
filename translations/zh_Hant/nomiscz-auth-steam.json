@@ -2,8 +2,8 @@
     "nomiscz-auth-steam": {
         "forum": {
             "buttons": {
-                "login": "Steam 帳號登錄",
-                "link": "綁定Steam賬號",
+                "login": "Steam 帳號登入",
+                "link": "綁定Steam帳號",
                 "unlink": "取消關聯 Steam 帳戶"
             },
             "alerts": {
@@ -15,7 +15,7 @@
             },
             "modals": {
                 "link": {
-                    "title": "綁定Steam賬號"
+                    "title": "綁定Steam帳號"
                 },
                 "unlink": {
                     "title": "取消關聯 Steam 帳戶",
@@ -32,7 +32,7 @@
         },
         "admin": {
             "settings": {
-                "title": "Steam 登錄設置",
+                "title": "Steam 登入設置",
                 "api_key_label": "API Key",
                 "use_steam_powered_domain": "使用 steampowered.com 域而不是 steamcommunity.com（在中國被阻止）"
             }

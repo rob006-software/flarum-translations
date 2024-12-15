@@ -1,8 +1,18 @@
 {
     "fof-geoip": {
         "admin": {
+            "permissions": {
+                "see_country": ""
+            },
             "settings": {
-                "title": "GeoIP",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
                 "service_label": "Сервис",
                 "service_ipdata_label": "IPData",
                 "service_ipdata_description": "<b>https://ipdata.co</b> позволяет бесплатно выполнять до 1,500 запросов в день. Доступны коммерческие планы с более высокими лимитами использования.",
@@ -12,8 +22,13 @@
                 "service_ipapi-pro_description": "<b>https://members.ip-api.com/#pricing</b>. План Pro позволяет выполнять запросы без ограничений.",
                 "service_iplocation_label": "IP Location",
                 "service_iplocation_description": "<b>https://www.iplocation.net/</b> позволяет получать информацию о стране и провайдере. Ограничения по запросам неизвестны.",
+                "service_ipsevenex_label": "",
+                "service_ipsevenex_description": "",
                 "access_key_label": "Ключ доступа",
                 "quota_label": "Квота запросов",
+                "show_flag_label": "",
+                "show_flag_help": "",
+                "title": "GeoIP",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Используйте <b>https://ipstack.com</b> 10,000 запросов в месяц бесплатно. Платные тарифы включают более подробную информацию (ISP, организация) и уровень угрозы.",
                 "security_label": "Модуль безопасности (требуется \"professional plus\")",
@@ -25,6 +40,7 @@
             "alerts": {
                 "ip_copied": "IP скопирован"
             },
+            "copy_ip_label": "",
             "map_button_label": "Информация",
             "map_modal": {
                 "title": "Информация по IP",
@@ -37,7 +53,21 @@
                 "organization": "Организация",
                 "threat_level": "Уровень угрозы",
                 "threat_types": "Тип угрозы",
-                "error": "Ошибка"
+                "error": "Ошибка",
+                "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

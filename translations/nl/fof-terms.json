@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "",
                 "terms-updated-at-help": "",
                 "export-url": "",
-                "export-url-help": ""
+                "export-url-help": "",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "",
@@ -64,14 +66,19 @@
             "update-alert": {
                 "must-accept-message": "",
                 "can-accept-message": "",
-                "review": ""
+                "can-accept-optional-message": "",
+                "review": "",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": ""
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

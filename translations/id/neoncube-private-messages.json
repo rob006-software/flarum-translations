@@ -1,0 +1,62 @@
+{
+    "neoncube-private-messages": {
+        "admin": {
+            "settings": {
+                "return_key": "Tombol return (enter) akan mengirim pesan",
+                "return_key_help": "Atur agar penekanan tombol return (tombol “enter”) akan mengirimkan pesan. Jika ini dinonaktifkan, menekan tombol return akan memulai baris baru, dan pengguna harus mengklik tombol “Kirim pesan” untuk mengirim pesan.",
+                "show_read_receipts": "",
+                "show_read_receipts_help": "Tampilkan kotak centang di samping pesan ketika penerima telah membacanya.",
+                "message_recipient_background_color": "Warna khusus untuk pesan penerima",
+                "message_recipient_background_color_help": "."
+            },
+            "permissions": {
+                "start_label": "Memulai percakapan pribadi",
+                "allow_users_to_receive_email_notifications": "Izinkan pengguna menerima pemberitahuan email saat mereka menerima pesan pribadi"
+            }
+        },
+        "forum": {
+            "dropdown": {
+                "tooltip": "Percakapan"
+            },
+            "modal": {
+                "title": "Mulai Percakapan",
+                "help": "Ketikkan username untuk memulai obrolan.",
+                "help_start": "Ketik pesan pertama Anda. Ini akan menjadi satu-satunya pesan yang dapat Anda kirim hingga {username} membalas. Klik pengguna untuk memilih penerima lain.",
+                "search_recipients": "Masukkan username...",
+                "submit": "Kirim & Mulai Percakapan",
+                "copied": "Pesan Anda telah disalin ke clipboard.",
+                "more_users": "Jika Anda tidak melihat pengguna yang Anda cari, mereka belum mengaktifkan fitur pesan pribadi.",
+                "already": "Anda sudah memiliki percakapan dengan {username}."
+            },
+            "chat": {
+                "messages_single": "Percakapan Baru",
+                "messages_multiple": "{count} total pesan",
+                "chat_with": "Mengobrol dengan {username}",
+                "start": "Mulai Percakapan",
+                "start_of_conversation": "Awal Percakapan",
+                "read": "Baca",
+                "cant_start": "Tidak Dapat Memulai Percakapan",
+                "text_placeholder": "Ketikkan Pesan Anda",
+                "send": "Kirim Pesan",
+                "message_read": "Pesan telah dibaca"
+            },
+            "notifications": {
+                "message_received": "Tes",
+                "new_private_message": "Ada Pesan Baru",
+                "web": {
+                    "new_private_message": {
+                        "body": "Pesan dari {fromUser}"
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "Pesan dari {user}",
+                        "youHaveReceivedNewMessage": "nda menerima pesan baru dari {user}!",
+                        "viewMessage": "Lihat pesan",
+                        "manageEmailSettings": "Kelola pengaturan email"
+                    }
+                }
+            }
+        }
+    }
+}

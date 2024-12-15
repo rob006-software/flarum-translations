@@ -1,0 +1,22 @@
+{
+    "nodeloc-telegram": {
+        "admin": {
+            "settings": {
+                "title": "TelegramProvide Settings",
+                "field": {
+                    "botUsername": "Bot Username",
+                    "botToken": "Bot Token",
+                    "enableNotifications": "Enable Notifications"
+                }
+            }
+        },
+        "forum": {
+            "log_in_with_telegram_button": "Log in with Telegram",
+            "link_telegram_button": "Link Telegram",
+            "settings": {
+                "notify_by_telegram_heading": "Telegram",
+                "unblock_telegram_bot": "It seems like you did not authorize or blocked the TelegramProvide bot. Send a message to <a>{username}</a> on TelegramProvide to re-enable notifications"
+            }
+        }
+    }
+}

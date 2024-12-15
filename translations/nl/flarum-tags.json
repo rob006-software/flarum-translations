@@ -43,6 +43,7 @@
                 "about_tags_text": "Categorieën worden gebruikt voor het indelen van discussies. Primaire categorieën lijken op traditionele forum categorieën: ze kunnen worden gerangschikt op een twee-lagen hiërarchie. Secondaire categorieën hebben geen hiërarchie of volgorde en zijn erg handig voor micro-categorisatie.",
                 "create_primary_tag_button": "Maak primaire categorie",
                 "create_secondary_tag_button": "Maak secondaire categorie",
+                "edit_tag_label": "",
                 "primary_heading": "Primaire categorieën",
                 "secondary_heading": "Secundaire categorieën",
                 "settings_heading": "Instellingen"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "{count, plural, one {Kies nog 1 tag} other {Kies nog # tags}}",
             "name": "Naam",
             "tags": "Categorieën"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

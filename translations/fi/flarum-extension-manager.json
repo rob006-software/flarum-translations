@@ -2,40 +2,40 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Uusi autentikointi tapa",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Isäntä",
+                    "host_placeholder": "esimerkki: extiverse.com",
+                    "submit_button": "Lähetä",
+                    "token_label": "Tunniste (token)",
+                    "type_label": "Tyyppi",
+                    "unchanged_token_placeholder": "(muuttumaton)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Haluatko varmasti poistaa tämän autentikointi tavan?",
+                "delete_label": "Poista autentikointi tapa",
+                "edit_label": "Muokkaa autentikointi tapaa",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Isäntä",
+                    "token": "Tunniste (token)"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Ei autentikointi tapoja määritettynä. Tämä on valinnainen edistynyt ominaisuus, jolla voidaan asentaa lisäosia yksityisistä varastoista.",
+                "remove_button_label": "Poista autentikointi tapa",
+                "title": "Autentikointi tavat",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Lisää varasto",
+                "delete_repository_confirmation": "Haluatko varmasti poistaa tämän varaston? Kaikki asennetut lisäosat tästä varastosta poistetaan.",
+                "delete_repository_label": "Poista varasto",
+                "edit_repository_label": "Muokkaa varastoa",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
+                    "label": "Vähimmäis vakaus",
                     "help": "",
                     "options": {
                         "stable": "",
@@ -163,6 +163,27 @@
             "update_successful": "",
             "why_not_modal": {
                 "title": ""
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "",
+                "repositories": "",
+                "repositories.*": "",
+                "repositories.*.type": "",
+                "repositories.*.url": "",
+                "extension_id": "",
+                "update_mode": "",
+                "package": "",
+                "version": "",
+                "github_oauth": "",
+                "github_oauth.*": "",
+                "gitlab_oauth": "",
+                "gitlab_oauth.*": "",
+                "gitlab_token": "",
+                "gitlab_token.*": "",
+                "bearer": "",
+                "bearer.*": ""
             }
         }
     }

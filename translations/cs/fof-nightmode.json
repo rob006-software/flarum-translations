@@ -7,8 +7,13 @@
         },
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
                 "modal": {
                     "always_show_theme_toggle_on_header": "Vždy zobrazit tlačítko pro přepnutí motivu v záhlaví fóra",
+                    "show_theme_toggle_in_solid": "",
                     "default_theme": "Výchozí motiv fóra",
                     "default_theme_helper": "Výchozí motiv je automaticky nastaven pro nové uživatele, hosty a ty, kteří nemají nastavené žádné preference.",
                     "theme_auto": "=> fof-nightmode.ref.auto",

@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Ji bo dîtina îstatîstîkê rêzek tarîxek xwerû hilbijêrin. Dibe ku dane barkirin dem bigire\nÇend hûrdeman li ser forumên gelek çalak.\n",
+                "end_date": "Dîroka dawîyê (tê de)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Dîroka dawî divê piştî roja destpêkê be."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Dîroka destpêkê (tê de)",
+                "submit_button": "Rêjeya dîrokê piştrast bike",
+                "title": "Rêzeya tarîxa xwerû hilbijêrin"
             },
             "statistics": {
-                "discussions_heading": "",
-                "export_chart_button": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
-                "posts_heading": "",
-                "today_label": "",
-                "total_label": "",
-                "users_heading": "",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "discussions_heading": "=> core.ref.discussions",
+                "export_chart_button": "Grafikê bi SVG derxînin",
+                "last_12_months_label": "12 mehên dawî",
+                "last_28_days_label": "28 rojên dawî",
+                "last_7_days_label": "7 rojên dawî",
+                "mini_heading": "Îstatîstîkên Forumê",
+                "previous_28_days_label": "28 rojên berê",
+                "previous_7_days_label": "7 rojên berê",
+                "custom_label": "Rêzeya xwerû hilbijêrin...",
+                "custom_label_specified": "{fromDate} ber {toDate}",
+                "loading": "=> core.ref.loading",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "îro",
+                "total_label": "Hemî",
+                "users_heading": "=> core.ref.users",
+                "view_full": "Zêdetir îstatîstîkan bibînin",
+                "no_data": "Ji bo vê rêza tarîxê tu dane tune.",
+                "current_period": "Dema niha",
+                "previous_period": "Dema berê"
             }
         }
     }

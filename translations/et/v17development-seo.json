@@ -1,8 +1,18 @@
 {
     "v17development-flarum-seo": {
+        "admin": {
+            "permissions": {
+                "configure_seo": "Luba SEO seadistamine"
+            }
+        },
         "forum": {
-            "profile_title": "",
-            "profile_description": ""
+            "profile_title": "Kasutaja {username} profiil",
+            "profile_description": "Kasutaja {username} profiil | {discussion_count} vestlust | {comment_count} postitust",
+            "controls": {
+                "configure_seo": "Seadista SEO",
+                "update_seo": "Uuenda SEO-d",
+                "reset_seo": "Nulli SEO"
+            }
         }
     }
 }

@@ -3,26 +3,26 @@
         "admin": {
             "settings": {
                 "allow_guests": "允许访客",
-                "generator": "发电机",
+                "generator": "生成器",
                 "generator_options": {
                     "random": "随机",
-                    "title": ""
+                    "title": "基于标题"
                 },
-                "max_discussions": "",
-                "max_discussions_help": "",
-                "position": "",
+                "max_discussions": "最大主题数",
+                "max_discussions_help": "默认 <strong>5</strong>。",
+                "position": "位置",
                 "position_options": {
-                    "first_post": "",
-                    "last_post": "",
-                    "reply_block": ""
+                    "first_post": "首贴之后",
+                    "last_post": "尾帖之后",
+                    "reply_block": "回帖区域之后"
                 },
-                "cache": "",
-                "cache_help": ""
+                "cache": "缓存",
+                "cache_help": "请按 <strong>0-31d0-23h0-59m</strong> 的格式填写"
             }
         },
         "forum": {
-            "discussion_list_title": "",
-            "no_results": ""
+            "discussion_list_title": "相关主题",
+            "no_results": "暂无相关主题"
         }
     }
 }

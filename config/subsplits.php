@@ -147,7 +147,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => [],
+		'maintainers' => ['YelehaUwU'],
 	],
 	'cy' => [
 		'type' => 'language',
@@ -288,9 +288,9 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '0.Major.Minor',
+			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => [], // ['amirrezakhakpour'], see https://github.com/flarum-lang/persian/pull/3#issuecomment-1311840100
+		'maintainers' => ['behdanisohrab'],
 	],
 	'fi' => [
 		'type' => 'language',

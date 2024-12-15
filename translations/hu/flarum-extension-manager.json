@@ -2,167 +2,188 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Új hitelesítési módszer",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Kiszolgáló",
+                    "host_placeholder": "például: extiverse.com",
+                    "submit_button": "Beküldés",
+                    "token_label": "Token",
+                    "type_label": "Típus",
+                    "unchanged_token_placeholder": "(változatlan)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Biztos, hogy törli ezt a hitelesítési módszert?",
+                "delete_label": "Hitelesítési módszer törlése",
+                "edit_label": "Hitelesítési módszer szerkesztése",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Kiszolgáló",
+                    "token": "Token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Nincs hitelesítési módszer beállítva. Ez egy választható lehetőség, amely lehetővé teszi a privát tárolókból való telepítést.",
+                "remove_button_label": "Hitelesítési módszer törlése",
+                "title": "Hitelesítési módszerek",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Tároló hozzáadása",
+                "delete_repository_confirmation": "Biztos, hogy törli ezt a tárolót? Az összes ebből a tárolóból telepített bővítmény törlésre kerül.",
+                "delete_repository_label": "Tároló törlése",
+                "edit_repository_label": "Tároló szerkesztése",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Minimális stabilitás",
+                    "help": "Telepíthető csomagok típusa. Ne változtassa meg, hacsak nem tudja mit csinál.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stabil (ajánlott)",
+                        "rc": "Kiadásra jelölt (RC)",
+                        "beta": "Béta",
+                        "alpha": "Alfa",
+                        "dev": "Fejlesztői verzió"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Tárolók",
+                    "help": "További tárolók hozzáadása, hogy csomagokat telepítéssen. Ez egy haladó felhasználóknak szánt funkció, ne adjon hozzá olyan tárolókat, amelyek nem megbízhatóak, mivel arra használhatják őket, hogy rosszindulatú kódokat futtassanak a kiszolgálón.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "útvonal"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Név",
+                        "type_label": "Típus",
+                        "url": "Webcím",
+                        "submit_button": "Beküldés"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "A végrehajtás sikertelen. Ellenőrizze a composer naplóit a storage/logs/composer könyvtárban.",
+                "extension_already_installed": "A bővítmény már telepítve van.",
+                "extension_not_directly_dependency": "A bővítmény egy másik bővítmény függőségeként van telepítve, nem lehet közvetlenül eltávolítani.",
+                "extension_not_installed": "A bővítmény nem található.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "A bővítmény valószínűleg nem kompatibilis a jelenlegi Flarum példányával.",
+                    "extension_not_found": "A bővítmény nem található vagy nem létezik.",
+                    "extensions_incompatible_with_new_major": "Néhány telepített bővítmény nem kompatibilis a legújabb főverzióval. Várja meg amíg a szerzők kompatibilissé frissítik a bővítnényeket, vagy távolítsa el őket a folytatás előtt.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "Megjelenítés, hogy miért nem frissült a legújabb verzióra.",
+                "install": "Új bővítmény telepítése",
+                "install_help": "A folytatáshoz adja meg a bővítmény csomagjának nevét. Megadhat egy <semantic_link>szemantikus verziót</semantic_link> a következő formátumban: <code>vendor/package-name:version</code>. Látogassa meg az {extiverse} oldalt a bővítmények böngészéséhez.\n",
+                "proceed": "Tovább",
+                "remove": "Eltávolítás",
+                "successful_install": "{extension} sikeresen telepítve, átirányítás..",
+                "successful_remove": "Bővítmény sikeresen törölve.",
+                "successful_update": "{extension} sikeresen frissítve, átirányítás..",
+                "update": "Frissítés",
+                "update_soft_label": "Frissítés",
+                "update_hard_label": "Kényszerített frissítés"
             },
-            "file_permissions": "",
+            "file_permissions": "A bővítménykezelő a következő fájlok és könyvtárak olvasási és írási jogosultságait igényli: composer.json, composer.lock, vendor, storage, storage/.composer.\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "A nagyobb Flarum-frissítések nem kompatibilisek visszafelé, ami azt jelenti, hogy a jelenleg telepített bővítmények és kézzel végzett módosítások egy része nem feltétlenül működik az új verzióval. A folytatás előtt készítsen biztonsági mentést az adatbázisáról és a fájljairól.\n",
+                "dry_run": "Próbaüzem",
+                "dry_run_help": "A próbaüzem emulálja a frissítést, hogy lássa, hogy a jelenlegi beállítások biztonságosan frissíthetők-e. Ez nem jelenti azt, hogy a kézzel készített egyéni módosítások működni fognak az újabb verzióban.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "A legutóbbi főverzió-frissítés nem sikerült, néhány telepített bővítmény nem kompatibilis az új főverzióval.",
+                    "why": "Tudjon meg többet"
                 },
-                "title": "",
-                "update": ""
+                "title": "Flarum {version} főverzió-frissítés érhető el",
+                "update": "Frissítés"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Ez minden más bővítményt/csomagot is frissít a rendelkezésre álló frissítésekkel."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Kezelő"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Részletek",
+                        "elapsed_time": "Befejeződött:",
+                        "peak_memory_used": "Memóriahasználat csúcsa",
+                        "operation": "Művelet",
+                        "package": "Csomag",
+                        "status": "Állapot"
                     },
-                    "none": "",
+                    "none": "Még nincsenek feladatok.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Bővítmény telepítése",
+                        "extension_remove": "Bővítmény törlése",
+                        "extension_update": "Bővítmény frissítése",
+                        "update_check": "Frissítés keresése",
+                        "update_global": "Az összes csomag frissítése",
+                        "update_major": "Főverzió-frissítés",
+                        "update_minor": "Alverzió-frissítés",
+                        "why_not": "Elemzés, hogy a csomag miért nem frissíthető"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Ismeretlen",
+                        "command": "Composer parancs",
+                        "guessed_cause": "Ok",
+                        "output": "Kimenet"
                     },
-                    "refresh": "",
+                    "refresh": "Feladatok listájának frissítése",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Sikeres",
+                        "failure": "Sikertelen",
+                        "pending": "Függőben",
+                        "running": "Folyamatban"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "A feladat épp most indult el",
+                    "title": "Várólista"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "Legyen óvatos, hogy kinek ad hozzáférést az admin területhez, a bővítménykezelővel visszaélhetnek, és olyan csomagokat telepíthetnek, melyek biztonsági incidensekhez vezethetnek.",
+                "debug_mode_warning": "Hibakeresési módban futtatja, a bővítménykezelő nem tudja megfelelően telepíteni és frissíteni a helyi fejlesztői csomagokat. Ilyen célokra használja inkább a parancssoros felületet.",
+                "queue_jobs": "Műveletek futtatása a háttérben lévő várólistán",
+                "queue_jobs_help": "Olvashat egy <a href='{basic_impl_link}'>alapvető várólista-megvalósításról</a>, vagy egy <a href='{adv_impl_link}'>speciálisabbról</a>. Győződjön meg róla, hogy a várólistához a PHP {php_version} verziót használja, illetve a <a href='{folder_perms_link}'>mappajogosultságok</a> is megfelelően vannak beállítva.\n",
+                "task_retention_days": "Feladatok megőrzési napjai",
+                "task_retention_days_help": "A befejezett feladatok adatbázisban való tárolásának napjainak száma. Az ennél régebbi feladatok törlésre kerülnek. 0 értékre állítva az összes feladatot megtartja.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "Minden naprakész!",
+                "check_for_updates": "Frissítések keresése",
+                "flarum": "Flarum Core",
+                "global_update_successful": "Minden csomag sikeresen frissítve.",
+                "last_update_checked_at": "A legutóbbi frissítéskeresés: ",
+                "run_global_update": "Globális frissítés futtatása",
+                "updater_title": "Frissítések",
+                "updater_help": "Ellenőrzi az új bővítmény- és Flarum frissítéseket."
             },
-            "update_successful": "",
+            "update_successful": "A Flarum sikeresen frissítve.",
             "why_not_modal": {
-                "title": ""
+                "title": "Miért nem frissül?"
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "minimális stabilitás",
+                "repositories": "tárolók",
+                "repositories.*": "tárolók",
+                "repositories.*.type": "tároló típusa",
+                "repositories.*.url": "tároló webcíme",
+                "extension_id": "bővítményazonosító",
+                "update_mode": "frissítési mód",
+                "package": "csomag",
+                "version": "verzió",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab token",
+                "gitlab_token.*": "GitLab token",
+                "bearer": "HTTP Bearer",
+                "bearer.*": "HTTP Bearer"
             }
         }
     }

@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "La data dell'ultimo aggiornamento dei termini. L'impostazione di questo valore richiederà a tutti gli utenti che hanno accettato prima di tale data di accettare nuovamente. Deve essere nel passato (altrimenti gli utenti non sarebbero mai in grado di accettare dopo la data e superare il modale).\n",
                 "export-url": "Esporta URL",
-                "export-url-help": "Qualsiasi utente con l'autorizzazione \"Esporta tutti i dati dei criteri\" può accedere a tali URL per scaricare l'elenco degli utenti che hanno accettato questa norma. Puoi trovare maggiori dettagli sulle opzioni disponibili in <a>extension wiki</a>.\n"
+                "export-url-help": "Qualsiasi utente con l'autorizzazione \"Esporta tutti i dati dei criteri\" può accedere a tali URL per scaricare l'elenco degli utenti che hanno accettato questa norma. Puoi trovare maggiori dettagli sulle opzioni disponibili in <a>extension wiki</a>.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "Visualizzare lo stato dei criteri utente",
@@ -64,14 +66,19 @@
             "update-alert": {
                 "must-accept-message": "Abbiamo temporaneamente limitato l'accesso al tuo account durante la verifica dei nuovi termini.",
                 "can-accept-message": "Di recente abbiamo aggiornato i termini. È necessario accettarli per continuare a utilizzare questo sito Web.",
-                "review": "Fare clic qui per esaminare e accettare i nuovi termini"
+                "can-accept-optional-message": "",
+                "review": "Fare clic qui per esaminare e accettare i nuovi termini",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "I termini accettano lo stato"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

@@ -1,10 +1,10 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "所有文件均由用户上传。",
-                    "anonymize_description": "从上载的文件中删除用户引用。文件本身仍然可供用户访问，用户可以在匿名前查看这些文件。",
+                    "export_description": "",
+                    "anonymize_description": "",
                     "delete_description": ""
                 }
             }
@@ -13,14 +13,14 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "共享文件"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": "上传新文件"
+                "description": "上传全体用户可共享使用的文件。",
+                "introduction": "共享文件可被论坛所有用户使用。文件不与任何一个帖子关联，发帖时可以通过媒体管理器引用。\n\n<strong>警告：</strong>共享文件可以通过 URL 被任何人访问，无任何权限保护。\n",
+                "no-files": "暂未上传共享文件。",
+                "title": "共享文件",
+                "upload-new-button": "上传文件"
             },
             "pane": {
                 "title": "上传",
@@ -36,6 +36,7 @@
                 "watermark": "选择上传图片时是否添加水印。水印会根据下面的偏好设置来添加到非 GIF 图片上。\n",
                 "s3_compatible_storage": "填写下方设置以配置 S3 兼容存储模式。如果您使用 AWS，请保持留空。有关 S3 兼容配置详情，请查阅各大云服务商的文档（七牛云：https://iflarum.cn/qiniu-s3）\n",
                 "s3_acl": "应用于上传对象的读写权限 ACL（默认私有读写）。 有关可用的值，请参阅 https://iflarum.cn/aws-s3acl\n",
+                "custom_s3_url": "如您使用需要特定 URL 格式的 S3 兼容服务（例如 Backblaze B2），或者默认 URL 格式有问题，请使用此设置。大多数情况下无需使用本设置。使用时请按正确格式填写，并确保包含 URL 协议（如 https://）。示例：https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "公钥和秘钥留空时，可为实例单独配置。\n",
                 "composer_buttons": "默认情况下，媒体管理按钮和上传按钮皆可见。您可以选择只显示其中一个按钮。\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "高级 S3 存储设置",
                     "endpoint": "访问域名（Endpoint）",
                     "use_path_style_endpoint": "使用 path-style 访问域名",
-                    "acl": "访问控制列表（ACL）"
+                    "acl": "访问控制列表（ACL）",
+                    "custom_url": "自定义 S3 URL"
                 },
                 "disable-download-logging": {
                     "title": "下载历史统计",
@@ -109,8 +111,8 @@
                 "upload_label": "允许上传文件",
                 "view_user_uploads_label": "查看用户上传的文件",
                 "delete_uploads_of_others_label": "删除用户上传的文件",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "上传共享文件",
+                "access_shared_label": "通过媒体管理器访问共享文件"
             },
             "templates": {
                 "file": "默认文件下载模板",
@@ -130,6 +132,7 @@
             },
             "upload_methods": {
                 "aws-s3": "AWS S3 或 S3 兼容",
+                "awss3": "",
                 "imgur": "Imgur",
                 "local": "本地",
                 "ovh-svfs": "OVH SVFS",
@@ -157,11 +160,11 @@
             "buttons": {
                 "attach": "添加附件",
                 "upload": "上传",
-                "upload_shared": "",
+                "upload_shared": "共享",
                 "user_uploads": "用户上传",
                 "cancel": "取消",
                 "media": "我的文件",
-                "shared_media": ""
+                "shared_media": "共享媒体"
             },
             "states": {
                 "error": "错误",
@@ -201,55 +204,66 @@
                 "forbidden_type": "不支持此类型文件。",
                 "unsupported_type": "您提供的 MIME 类型 {mime} 不受上传适配器支持。",
                 "could_not_detect_mime": "无法检测到该文件的 MIME 类型，请重试。",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "max_upload_file_size_ini": "超过 php.ini 允许的最大上传文件大小。",
+                "max_upload_file_size_form": "超过表单允许的最大上传文件大小。",
+                "partial_upload": "文件内容未上传完整。",
+                "no_file_uploaded": "文件上传失败。",
+                "no_upload_tmp_folder": "没有可用的临时文件夹，无法上传。",
+                "cannot_write_to_disk": "无法写入磁盘。",
+                "upload_blocked_by_php_extension": "上传被一个 PHP 扩展程序阻止。",
+                "no_files_made_it_to_upload": "请上传小于 {max} kb 的文件。"
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "新建共享文件",
+                "dropzone": "将文件拖放到此处或点击来浏览",
+                "hide-from-media-gallery": "在用户媒体库中隐藏",
+                "upload": "上传"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "正在加载文件……",
+                "empty": "暂无文件。",
+                "release_to_upload": "释放以上传",
+                "modal_empty_desktop": "你的文件列表空空如也，点击或拖放文件到此处来上传。",
+                "modal_empty_phone": "你的文件列表空空如也，点击上方按钮上传文件。",
+                "select_file_a11y_label": "选择文件「{fileName}」",
+                "confirm_selection_btn": "{fileCount, plural, =0 {未选择任何文件} other {选择的文件}}",
+                "load_more_files_btn": "加载更多文件",
+                "delete_file_a11y_label": "删除文件「{fileName}」",
+                "delete_confirmation": "确定要删除「{fileName}」吗？",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "在媒体管理器中隐藏「{fileName}」",
+                    "btn_a11y_label_show": "在媒体管理器中展示「{fileName}」",
+                    "hide_confirmation": "确定要隐藏「{fileName}」吗？已引用的帖子不受影响。",
+                    "hide_success": "隐藏文件",
+                    "show_confirmation": "确定要展示「{fileName}」吗？此文件会展示在你的媒体管理器中。",
+                    "show_success": "文件已展示",
+                    "hide_fail": "无法隐藏文件「{fileName}」",
+                    "show_fail": "无法展示文件「{fileName}」",
+                    "loading": "正在隐藏文件……"
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "转为私密文件（无公共 URL）",
+                    "btn_a11y_label_show": "转为公共文件（有公共 URL）",
+                    "hide_confirmation": "确定要将「{fileName}」转为私密文件、移除公共 URL，并在媒体管理器中隐藏未授权用户的访问吗？此操作不会影响现存帖子。",
+                    "hide_success": "文件已转为私密文件",
+                    "show_confirmation": "确定要将「{fileName}」转为公共文件，并在媒体管理器中允许任何用户引用吗？公共文件可以通过 URL 被任何人访问。",
+                    "show_success": "公共文件",
+                    "hide_fail": "转换私密文件失败",
+                    "show_fail": "转为公共文件失败",
+                    "loading": "正在转换私密文件……"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "所有由用户上传的文件。",
+                    "anonymize_description": "解除文件与用户的关联，保留文件本身的可访问。",
+                    "delete_description": "删除由用户上传的所有文件。"
                 }
             }
         }

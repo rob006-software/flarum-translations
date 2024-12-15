@@ -2,24 +2,24 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "introduction": "Periksa pendaftaran User baru terhadap database <a>StopForumSpam</a>. Jika salah satu dari ambang batas <code>kepercayaan </code> atau <code>frekuensi</code> tercapai, User akan dicegah untuk melanjutkan pendaftaran mereka di forum Anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga didukung. Penyedia SSO lain seharusnya bisa digunakan, tetapi belum teruji.\n",
+                "introduction": "Periksa pendaftaran User baru terhadap database <a>StopForumSpam</a>. Jika salah satu dari ambang batas <code>confidence</code> atau <code>frequency</code> tercapai, User akan dicegah untuk melanjutkan pendaftaran mereka di forum Anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga didukung. Penyedia SSO lain seharusnya bisa digunakan, tetapi belum teruji.\n",
                 "username_label": "Periksa Spam Username",
                 "ip_label": "Periksa Spam IP Address",
                 "email_label": "Periksa Spam Email",
                 "frequency_label": "Ambang batas",
                 "frequency_help": "Jumlah laporan spam di antara semua pemeriksaan yang diaktifkan yang akan membuat filter spam mengalami trip.\nContoh: Jika email memiliki 1 serangan, dan ip memiliki 2 serangan, maka akan ada total 3 serangan. Jika ambang batas diatur ke 3 atau kurang, kami akan mencegah pendaftaran.\n",
-                "api_key_label": "Kunci API",
+                "api_key_label": "API Key",
                 "api_key_text": "Anda mengaktifkan fof/spamblock, Anda sekarang memiliki opsi untuk melaporkan spammer ke StopForumSpam untuk menjaga komunitas Anda dari spam.",
-                "api_key_instructions_text": "<register>Daftar StopForumSpam</register>. Kemudian Anda perlu <key>mendapatkan kunci API</key>.",
+                "api_key_instructions_text": "<register>Daftar StopForumSpam</register>. Kemudian Anda perlu <key>mendapatkan API key</key>.",
                 "regional_endpoint_label": "Akses Geografis",
                 "regional_endpoint_help": "Secara default, kami akan mengarahkan pencarian ke server regional terdekat untuk memberikan respons tercepat. Jika Anda ingin membatasi lalu lintas ke wilayah tertentu, misalnya untuk mematuhi peraturan privasi perusahaan atau negara, Anda dapat memaksa koneksi ke wilayah tertentu.",
                 "region_closest_label": "Terdekat",
                 "region_europe_label": "Eropa",
                 "region_us_label": "Amerika Serikat",
-                "confidence_label": "Confidence Score",
-                "confidence_help": "Confidence score adalah indikator yang cukup baik bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Tetapkan tingkat kepercayaan Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari pengujian 'frekuensi' di atas.",
+                "confidence_label": "Nilai Confidence",
+                "confidence_help": "Nilai confidence adalah indikator yang cukup baik bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Atur confidence level Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari pengujian 'frekuensi' di atas.",
                 "email_hash_label": "Gunakan alamat email yang di-hash",
-                "email_hash_help": "Abaikan hash MD5 dari alamat email jika Anda tidak ingin mengabaikan alamat email itu sendiri. Metode ini mengabaikan semua daftar hitam, normalisasi, dan pemeriksaan obfuscation bypass."
+                "email_hash_help": "Lewati hash MD5 dari alamat email jika Anda tidak ingin melewati alamat email itu sendiri. Metode ini mengabaikan semua daftar hitam, normalisasi, dan obfuscation bypass check."
             }
         },
         "forum": {

@@ -1,0 +1,149 @@
+{
+    "foskym-custom-levels": {
+        "admin": {
+            "settings": {
+                "levelText": "Masukkan teks yang akan ditampilkan untuk level (misalnya Rank, Level)",
+                "levelDesc": "Variabel yang tersedia：[level]",
+                "expText": "Masukkan teks yang akan ditampilkan untuk exp（misalnya「[expTotal] Exp」）",
+                "expDesc": "Variabel yang tersedia：[expTotal] [expPercent] [nextLevel] [expToNextLevel]",
+                "expForPost": "Exp yang diperoleh untuk setiap post",
+                "expForPostDesc": "Angka murni, tanpa desimal. Atau rentang, misalnya 「[1, 10]」berarti angka acak antara 1 hingga 10",
+                "postMinLength": "Panjang minimum postingan, 0 berarti tidak ada batas",
+                "postMaxTimes": "Jumlah maksimum postingan yang dapat dibuat per hari, 0 berarti tidak ada batasan",
+                "expForDiscussion": "Exp yang diperoleh untuk setiap diskusi",
+                "expForDiscussionDesc": "Angka murni, tanpa desimal. Atau rentang, misalnya 「[1, 10]」berarti angka acak antara 1 hingga 10",
+                "discussionMaxTimes": "Jumlah maksimum diskusi yang dapat dilakukan per hari, 0 berarti tidak ada batasan",
+                "expForLike": "Exp yang diperoleh saat mendapatkan like (suka)",
+                "expForLikeDesc": "Dibutuhkan ekstensi flarum/likes. Angka murni, tanpa desimal. Atau rentang, misalnya 「[1, 10]」berarti angka acak antara 1 hingga 10",
+                "autoRemove": "Hapus exp secara otomatis",
+                "cascadeRemove": "Ketika sebuah diskusi dihapus, hapus exp dari balasan",
+                "expFormula": "Masukkan rumus exp (misalnya「[discussionCount] * 40 + [commentCount] / 20」）",
+                "expFormulaDesc1": "Anda dapat menggunakan variabel ini:",
+                "expFormulaDesc2": "Core（[discussionCount] [commentCount]）",
+                "expFormulaDesc3": "Butuh Plugin（[money] [likesReceived] [bestAnswerCount]）",
+                "levelFormula": "Masukkan rumus level（misalnya「log([expTotal], 2)」）",
+                "levelFormulaDesc": "Anda dapat menggunakan variabel ini [expTotal]",
+                "round": "Pembulatan",
+                "roundDesc": "Membulatkan exp saat melakukan perhitungan"
+            },
+            "go_to_forum_quests": "Pengaturan lebih lanjut di Forum Quest",
+            "auto_remove": [
+                "Tidak pernah menghapus exp",
+                "Ketika sebuah postingan/balasan disembunyikan atau dihapus (default)",
+                "Ketika sebuah postingan/balasan dihapus secara permanen"
+            ],
+            "preview": "Pratinjau",
+            "pages": {
+                "index": "",
+                "levels": "Level"
+            },
+            "levels": {
+                "edit_level": "Edit Level",
+                "delete_confirmation": "Konfirmasi untuk menghapus level ini?",
+                "add_button": "Tambah Level",
+                "name": "Nama Level",
+                "min_exp_required": "Exp Minimum yang Dibutuhkan"
+            },
+            "permissions": {
+                "edit_exp": "Edit Exp Pengguna"
+            },
+            "automoderator": {
+                "metric_name": "Exp",
+                "action_name": "Berikan Exp"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "edit_exp_button": "Edit Exp"
+            },
+            "modal": {
+                "title": "Edit Exp",
+                "current": "Saat Ini",
+                "submit_button": "Simpan"
+            },
+            "notifications": {
+                "level_updated": "Selamat! Anda telah mencapai level {level}!"
+            },
+            "settings": {
+                "notify_level_updated": "Beri tahu saat level diperbarui"
+            },
+            "label": {
+                "exp_logs": "Log Exp"
+            },
+            "log": {
+                "exp": "Perubahan Exp",
+                "reason": "Alasan",
+                "time": "Waktu",
+                "view": "Tampilan",
+                "load_more": "Muat Lainnya",
+                "no_more": "Tidak ada lagi",
+                "no_records": "Tidak ada catatan",
+                "type": {
+                    "system_clear": "Pembersihan sistem",
+                    "system_refresh": "Penyegaran sistem",
+                    "automoderator": "Moderator otomatis",
+                    "post_posted": "Post dibuat",
+                    "post_deleted": "Post dihapus",
+                    "post_hidden": "Post disembunyikan",
+                    "post_restored": "Post dipulihkan",
+                    "discussion_started": "Diskusi dimulai. {title}",
+                    "discussion_deleted": "Diskusi dihapus. {title}",
+                    "discussion_hidden": "Diskusi disembunyikan. {title}",
+                    "discussion_restored": "Diskusi dipulihkan. {title}",
+                    "comment_deleted_in_deleted_discussion": "Komentar dihapus dalam diskusi yang dihapus",
+                    "post_liked": "Post disukai",
+                    "post_unliked": "",
+                    "admin_edit": "Diedit oleh Admin",
+                    "forum_quests": "Forum quest: Menyelesaikan {name}",
+                    "store_purchase": "Pembelian di toko"
+                }
+            }
+        },
+        "lib": {
+            "defaults": {
+                "level": "Lv.",
+                "exp": "[expTotal] Exp",
+                "expFormula": "[discussionCount] * 40 + [commentCount] / 20",
+                "levelFormula": "log([expTotal], 2)"
+            },
+            "error": {
+                "calculation": "Perhitungan level exp salah."
+            },
+            "integrations": {
+                "automoderator": {
+                    "metric_name": "Exp",
+                    "action_name": "Berikan Exp"
+                },
+                "forum-quests": {
+                    "reward_name": "Exp"
+                },
+                "store": {
+                    "item_name": "Exp",
+                    "provider_data": {
+                        "same_as_use_cnt": "Sama seperti jumlah penggunaan yang diizinkan"
+                    }
+                },
+                "user-directory": {
+                    "most_exp": "Exp Tertinggi",
+                    "least_exp": "Exp Terendah"
+                }
+            }
+        }
+    },
+    "fof-user-directory": {
+        "lib": {
+            "sort": {
+                "most_exp": "=> foskym-custom-levels.lib.integrations.user-directory.most_exp",
+                "least_exp": "=> foskym-custom-levels.lib.integrations.user-directory.least_exp"
+            }
+        }
+    },
+    "nodeloc-leaderboard": {
+        "lib": {
+            "sort": {
+                "most_exp": "=> foskym-custom-levels.lib.integrations.user-directory.most_exp",
+                "least_exp": "=> foskym-custom-levels.lib.integrations.user-directory.least_exp"
+            }
+        }
+    }
+}

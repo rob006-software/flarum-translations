@@ -1,0 +1,62 @@
+{
+    "neoncube-private-messages": {
+        "admin": {
+            "settings": {
+                "return_key": "Tecla Enter envia mensagem",
+                "return_key_help": "",
+                "show_read_receipts": "",
+                "show_read_receipts_help": "",
+                "message_recipient_background_color": "",
+                "message_recipient_background_color_help": ""
+            },
+            "permissions": {
+                "start_label": "",
+                "allow_users_to_receive_email_notifications": ""
+            }
+        },
+        "forum": {
+            "dropdown": {
+                "tooltip": ""
+            },
+            "modal": {
+                "title": "",
+                "help": "",
+                "help_start": "",
+                "search_recipients": "",
+                "submit": "",
+                "copied": "",
+                "more_users": "",
+                "already": ""
+            },
+            "chat": {
+                "messages_single": "",
+                "messages_multiple": "",
+                "chat_with": "",
+                "start": "",
+                "start_of_conversation": "",
+                "read": "",
+                "cant_start": "",
+                "text_placeholder": "",
+                "send": "",
+                "message_read": ""
+            },
+            "notifications": {
+                "message_received": "",
+                "new_private_message": "",
+                "web": {
+                    "new_private_message": {
+                        "body": ""
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "",
+                        "youHaveReceivedNewMessage": "",
+                        "viewMessage": "",
+                        "manageEmailSettings": ""
+                    }
+                }
+            }
+        }
+    }
+}

@@ -248,8 +248,8 @@
                         },
                         "edit_user": {
                             "button": "Redigér",
-                            "title": "Redigér bruger",
-                            "tooltip": "Ret {username}"
+                            "tooltip": "Ret {username}",
+                            "title": "Redigér bruger"
                         },
                         "email": {
                             "title": "E-mail",
@@ -262,6 +262,9 @@
                         },
                         "join_time": {
                             "title": "Tilmeldt"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "ID"
@@ -593,6 +596,11 @@
             "number_suffix": {
                 "kilo_text": "",
                 "mega_text": ""
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": "",

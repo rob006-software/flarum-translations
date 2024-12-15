@@ -79,12 +79,12 @@
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Eksportuje szczegóły poziomu subskrypcji tagu jeśli taka istnieje.",
+                    "anonymize_description": "Usuwa subskrypcję użytkownika do tagu."
                 }
             }
         }

@@ -30,13 +30,22 @@
                     "reset_vapid_confirm": "Zresetowanie kluczy VAPID usunie wszystkie subskrypcje korzystające z obecnych kluczy, więc użytkownicy nie dostaną żadnych powiadomień do czasu ponownego odwiedzenia strony. Ta operacja powinna być wykonana tylko podczas konfigurowania powiadomień push po raz pierwszy, lub gdy powiadomienia push w ogóle nie działają i powyżej wyświetla się powiadomienie o brakujących kluczach VAPID.",
                     "reset_vapid_success": "Klucze VAPID zostały pomyślnie zresetowane. {count, plural, one {{count} subskrypcja została zresetowana} few {{count} subskrypcje zostały zresetowane} other {{count} subskrypcji zostało zresetowanych}}. Odśwież stronę, aby zobaczyć zaktualizowany status."
                 },
+                "firebase_config": {
+                    "heading": "",
+                    "help_text": "",
+                    "see_documentation_here": "",
+                    "upload_successful": "",
+                    "upload_file": ""
+                },
                 "other": {
                     "heading": "Inne",
                     "force_portrait_text": "Wymusić pionową orientację ekranu?",
                     "push_notif_preference_default_to_email_label": "Domyślnie ustawienia powiadomień push takie same jak dla powiadomień e-mail?",
                     "push_notif_preference_default_to_email_text": "Jeśli zaznaczone, użytkownicy będą mieli domyślnie włączone powiadomienia push dla wszystkich typów zdarzeń, dla których powiadomienia e-mail są domyślnie włączone. W przeciwnym razie wszystkie powiadomienia push będą domyślnie wyłączone.",
                     "user_max_subscriptions_label": "Maksymalna liczba subskrypcji push na użytkownika",
-                    "user_max_subscriptions_text": "Ile jednocześnie aktywnych subskrypcji może mieć każdy użytkownik? Gdy użytkownik otrzymuje powiadomienie push, każda subskrypcja skutkuje wysłaniem żądania do API. Każda subskrypcja zwykle odpowiada przeglądarce, z której korzysta użytkownik."
+                    "user_max_subscriptions_text": "Ile jednocześnie aktywnych subskrypcji może mieć każdy użytkownik? Gdy użytkownik otrzymuje powiadomienie push, każda subskrypcja skutkuje wysłaniem żądania do API. Każda subskrypcja zwykle odpowiada przeglądarce, z której korzysta użytkownik.",
+                    "window_controls_overlay_label": "",
+                    "window_controls_overlay_text": ""
                 },
                 "heading": "Konfiguracja Progressive Web App",
                 "text": "Skonfiguruj swoje Flarum, aby działało jako Progressive Web App! Zauważ, że nie umieści to Twojej aplikacji w App Store. Zamiast tego przeglądarka udostępni opcję \"Dodaj do ekranu głównego\". Rozszerzenie zapewnia podstawowe sprawdzenie konfiguracji, ale najlepszym sposobem na przetestowanie go jest instalacja i sprawdzenie czy działa (instrukcję instalacji Progressive Web App można znaleźć w Google). Miej na uwadze, że popup \"zainstaluj jako PWA\" jest kontrolowany przez przeglądarkę i nie może być wywołany przez developera/administratora/aplikację. Zalecane jest udostępnienie instrukcji jak zainstalować PWA na Twojej stronie.",

@@ -7,13 +7,17 @@
             "page": {
                 "index": "головна",
                 "clients": "Менеджер клієнтів",
-                "scopes": "Керування діапазонами"
+                "scopes": "Керування діапазонами",
+                "tokens": "Керування токенами"
             },
             "settings": {
+                "display_mode": "Режим відображення",
                 "access_lifetime": "Час життя токену доступу (секунди)",
                 "allow_implicit": "Дозволити неявний грант (response_type=token)",
                 "enforce_state": "Увімкнути перевірку стану (параметр стану)",
-                "require_exact_redirect_uri": "Вимагати точний URI перенаправлення"
+                "require_exact_redirect_uri": "Вимагати точний URI перенаправлення",
+                "authorization_method_fetch": "Метод авторизації Fetch (Без прямого перенаправлення)",
+                "allow_delete_records": "Дозволити видалення записів про авторизацію"
             },
             "clients": {
                 "client_id": "Client ID",
@@ -25,7 +29,8 @@
                 "client_desc": "Опис",
                 "client_icon": "Іконка",
                 "client_home": "Головна",
-                "add_button": "Додати клієнт"
+                "add_button": "Додати клієнт",
+                "edit_client": "Редагувати клієнта"
             },
             "scopes": {
                 "scope": "Область застосування",
@@ -35,7 +40,18 @@
                 "scope_name": "Назва",
                 "scope_icon": "Іконка",
                 "scope_desc": "Опис",
-                "add_button": "Додати область застосування"
+                "visible_fields": "Видимі поля",
+                "add_button": "Додати область застосування",
+                "edit_scope": "Редагувати область дії"
+            },
+            "tokens": {
+                "add_token": "Додати токен",
+                "delete_token": "Видалити токен"
+            },
+            "action": {
+                "delete_all_records_button": "Видалити всі записи",
+                "delete_all_records_confirm": "Підтвердити видалення всіх записів",
+                "delete_all_records_success": "Успішно видалено всі записи"
             }
         },
         "forum": {
@@ -48,9 +64,18 @@
                 }
             },
             "authorize": {
+                "require_these_scopes": "Потрібні такі області видимості",
                 "access": "Доступ до",
                 "agree": "Дозволено",
                 "deny": "Заборонено"
+            },
+            "authorized": {
+                "no_records": "Записи відсутні",
+                "no_more_records": "Більше немає записів",
+                "load_more": "Завантажити більше",
+                "delete_button": "Видалити цей журнал",
+                "delete_all_button": "Видалити всі журнали",
+                "delete_all_confirm": "Підтвердити видалення всіх журналів"
             }
         }
     }

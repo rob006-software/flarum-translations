@@ -39,7 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Post Baru] {title}",
-                "body": "Halo {recipient_display_name}!\n\n{poster_display_name} telah membuat post dalam diskusi yang Anda ikuti: {title}.\n\nUntuk melihatnya, kunjungi link berikut ini:\n{url}\n\n---\n\n{content}\n\n---\n\nAnda tidak akan menerima notifikasi lagi tentang diskusi ini sampai Anda mendapatkan informasi terbaru.\n"
+                "body": "Halo {recipient_display_name}!\n\n{poster_display_name} telah membuat post dalam diskusi yang Anda ikuti: {title}.\n\nUntuk melihatnya, kunjungi link berikut ini:\n{url}\n\n---\n\n{content}\n\n---\n\nAnda tidak akan menerima notifikasi lagi tentang diskusi ini sampai Anda mendapatkan informasi terbaru.\n",
+                "plain": {
+                    "body": "{poster_display_name} baru saja memposting dalam diskusi yang Anda ikuti: {title}.\n\nUntuk melihat aktivitas terbaru, lihat link berikut ini:\n{url}\n\n---\n\n{content}\n\n---\n\nAnda tidak akan menerima pemberitahuan lagi mengenai diskusi ini hingga Anda mendapatkan informasi terkini.\n"
+                },
+                "html": {
+                    "body": "{poster_display_name} baru saja memposting dalam diskusi yang Anda ikuti: [{title}]({url}).\n\nAnda tidak akan menerima pemberitahuan apa pun tentang diskusi ini hingga Anda mendapatkan informasi terkini.\n"
+                }
             }
         },
         "ref": {

@@ -2,7 +2,7 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": "Tandai pengguna sebagai pengirim spam"
+                "spamblock_users_label": "Menandai pengguna sebagai pengirim spam"
             },
             "settings": {
                 "button": "Pengaturan",
@@ -15,33 +15,33 @@
                     "delete_posts_help": "Ini akan menghapus secara permanen semua postingan yang dibuat oleh pengguna ini. Ketika dinonaktifkan, postingan akan dihapus sementara.",
                     "heading": "Tindakan moderasi bawaan",
                     "introduction": "Jika seorang pengguna ditandai sebagai pengirim spam, moderator dapat memilih beberapa tindakan untuk menghadapi kasus tertentu. Pengaturan ini membolehkan anda untuk mengatur kembali tindakan normal yang biasa diputuskan, untuk mempercepat proses, akan tetapi juga memperbolehkan sebagai variasi yang dibutuhkan.\n",
-                    "move_discussions_to_tags_label": "Pindahkan diskusi ke penanda",
-                    "move_discussions_to_tags_help": "Ini akan memindahkan seluruh diskusi yang dimulai oleh pengguna ke penanda yang ditentukan. Bersihkan penanda terseleksi untuk meninggalkan diskusi dalam penanda aseli. Tidak memiliki akibat jika opsi 'Hapus diskusi' diaktifkan."
+                    "move_discussions_to_tags_label": "Memindahkan diskusi ke tag",
+                    "move_discussions_to_tags_help": "Ini akan memindahkan semua diskusi yang dimulai oleh pengguna ini ke tag yang Anda tentukan. Hapus pilihan tag untuk membiarkan diskusi tetap berada di tag aslinya. Tidak berpengaruh jika opsi 'Hapus diskusi' diaktifkan."
                 },
                 "stopforumspam": {
                     "heading": "StopForumSpam",
-                    "introduction": "Periksa pendaftaran pengguna baru terhadap database <a>StopForumSpam</a>. Jika ambang batas <code>keyakinan</code> atau <code>frekuensi</code> tercapai, pengguna tidak dapat menyelesaikan pendaftarannya di forum Anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga akan didukung. Penyedia SSO lain seharusnya berjalan, namun belum teruji.\n",
+                    "introduction": "Periksa pendaftaran pengguna baru terhadap database <a>StopForumSpam</a>. Jika ambang batas <code>confidence</code> atau <code>frequency</code> tercapai, pengguna tidak dapat menyelesaikan pendaftarannya di forum Anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga akan didukung. Penyedia SSO lain seharusnya berjalan, namun belum teruji.\n",
                     "username_label": "Periksa Pengguna Spam",
                     "ip_label": "Periksa Alamat IP Spam",
                     "email_label": "Periksa Email Spam",
                     "frequency_label": "Batasan",
                     "frequency_help": "Jumlah laporan spam diantara semua pemeriksaan aktif yang akan menggagalkan filter spam.\nMisal: Jika email mendapatkan 1 hit, dan ip mendapatkan 2 hit, maka akan ada total 3 hit. Jika ambang batas diatur ke 3 atau kurang, kami akan mencegah pendaftaran.\n",
-                    "api_key_label": "Kunci API",
+                    "api_key_label": "API Key",
                     "api_key_text": "Anda memiliki opsi untuk melaporkan pengirim spam ke StopForumSpam untuk menjaga komunitas forum yang lebih besar dari spam.",
-                    "api_key_instructions_text": "<register>Daftar ke StopForumSpam</register>. Kemudian Anda perlu <key>mendapatkan kunci API</key>.",
+                    "api_key_instructions_text": "<register>Daftar ke StopForumSpam</register>. Kemudian Anda perlu <key>mendapatkan API key</key>.",
                     "regional_endpoint_label": "Akses Geografis",
                     "regional_endpoint_help": "Secara default, kami akan mengarahkan pencarian ke server regional terdekat untuk memberikan respons tercepat. Jika Anda ingin membatasi lalu lintas ke wilayah tertentu, misalnya untuk mematuhi peraturan privasi perusahaan atau negara, Anda dapat memaksa koneksi ke wilayah tertentu.",
                     "region_closest_label": "Terdekat",
                     "region_europe_label": "Eropa",
                     "region_us_label": "Amerika Serikat",
-                    "confidence_label": "Keyakinan",
-                    "confidence_help": "Nilai keyakinan adalah indikator yang cukup baik bahwa bidang yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Tetapkan tingkat kepercayaan Anda sebagai persentase. Jika bidang tersebut sama atau di atas angka ini, pendaftaran akan diblokir, terlepas dari tes 'frekuensi' di atas.",
+                    "confidence_label": "Nilai Confidence",
+                    "confidence_help": "Nilai confidence adalah indikator yang cukup baik bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Tetapkan tingkat confidence Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari pengujian ' frequency ' di atas.",
                     "email_hash_label": "Gunakan alamat email yang di-hash",
                     "email_hash_help": "Masukkan hash MD5 dari alamat email jika Anda tidak ingin melewati alamat email itu sendiri. Metode ini melewati semua daftar hitam, normalisasi, dan obfuscation check.",
                     "sfs_lookup_label": "Mencari pendaftaran",
-                    "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database StopForumSpam ketika pengguna baru mendaftar di forum Anda. Jika pengguna ditemukan ( username, alamat IP, email) dan titik data tersebut diaktifkan bersama dengan tingkat kepercayaan SFS yang mencapai tingkat yang Anda tentukan, mereka akan dicegah untuk menyelesaikan pendaftaran mereka.",
+                    "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database StopForumSpam ketika pengguna baru melakukan pendaftaran di forum Anda. Jika pengguna ditemukan ( username, alamat IP, email) dan data point tersebut diaktifkan bersama dengan SFS confidence level mencapai level yang Anda tentukan, maka pengguna tersebut akan dicegah untuk menyelesaikan pendaftarannya.",
                     "report_blocked_registrations_label": "Laporkan pendaftaran yang diblokir",
-                    "report_blocked_registrations_help": "Ketika sebuah pendaftaran diblokir oleh fitur Pencarian Pendaftaran, kami akan melaporkan upaya tersebut kembali ke StopForumSpam, sehingga aktivitas pengirim spam dapat dikonfirmasi dengan lebih baik. Dibutuhkan kunci API StopForumSpam yang telah diatur (lihat di bawah)."
+                    "report_blocked_registrations_help": "Ketika sebuah pendaftaran diblokir oleh fitur Pencarian Pendaftaran, kami akan melaporkan upaya tersebut kembali ke StopForumSpam, sehingga aktivitas pengirim spam dapat dikonfirmasi dengan lebih baik. Membutuhkan API key dari StopForumSpam (lihat di bawah)."
                 }
             },
             "blocked_registrations": {

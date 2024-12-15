@@ -10,7 +10,8 @@
             "reacting-own-post": "Et voi reagoida omaan viestiin",
             "modal": {
                 "title": "Reaktiot",
-                "anonymous_count": "{count, plural, one {# tuntematon käyttäjä} other {# tuntematonta käyttäjää}}"
+                "anonymous_count": "{count, plural, one {# tuntematon käyttäjä} other {# tuntematonta käyttäjää}}",
+                "no_reactions": "Ei vielä reaktioita"
             },
             "mod_item": "Näytä reaktiot",
             "react_button_label": "Reagoi"
@@ -18,12 +19,13 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Reagoida viesteihin",
-                "see_reactions_label": "Nähdä kuka reagoi viesteihin"
+                "see_reactions_label": "Nähdä kuka reagoi viesteihin",
+                "delete_post_reactions_label": "Poista viestin reaktiot"
             },
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "Oletuksena reaktioiden tiedostot jaetaan Cloudflaren CDN:n kautta. Voit myös asettaa minkä tahansa muun CDN:n osoitteen \nmikäli on tarve. <code>[codepoint]</code> korvataan emojin koodilla.\n\nEsimerkiksi jos käytetään Noto Emojia jsdelivr kautta, syötä <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Tätä kentää EI SAA koskaan jättää tyhjäksi.\n",
+                    "help": "Oletuksena reaktioiden tiedostot jaetaan Cloudflaren CDN:n kautta. Voit myös asettaa minkä tahansa muun CDN:n osoitteen\nmikäli on tarve. <code>[codepoint]</code> korvataan emojin koodilla.\n\nEsimerkiksi jos käytetään Noto Emojia jsdelivr kautta, syötä <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Tätä kentää EI SAA koskaan jättää tyhjäksi.\n",
                     "label": "URL",
                     "default-url": "Oletus: {url}"
                 },
@@ -34,7 +36,8 @@
                     "help": {
                         "display": "Näytä",
                         "identifier": "Tunniste"
-                    }
+                    },
+                    "delete_confirmation": "Haluatko varmasti poistaa tämän reaktion? Tätä ei voi peruuttaa."
                 },
                 "convert": {
                     "help": "Jos päivitit juuri lisäosan niin reaktiot pitää muuntaa. Jos vasta asensit tämän lisäosan voit olla huomioimatta tätä viestiä.",

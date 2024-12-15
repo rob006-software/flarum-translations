@@ -1,8 +1,18 @@
 {
     "v17development-flarum-seo": {
+        "admin": {
+            "permissions": {
+                "configure_seo": "SEO beállításának engedélyezése"
+            }
+        },
         "forum": {
             "profile_title": "{username} profilja",
-            "profile_description": "{username} profilja | {discussion_count} téma | {comment_count} hozzászólás"
+            "profile_description": "{username} profilja | {discussion_count} téma | {comment_count} hozzászólás",
+            "controls": {
+                "configure_seo": "SEO beállítása",
+                "update_seo": "SEO frissítése",
+                "reset_seo": "SEO visszaállítása"
+            }
         }
     }
 }

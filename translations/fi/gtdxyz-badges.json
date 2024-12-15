@@ -1,0 +1,123 @@
+{
+    "gtdxyz-flarum-badges": {
+        "admin": {
+            "uncategorized": "Kategorisoimaton",
+            "new_badge": "Uusi merkki",
+            "create_category": "Luo kategoria",
+            "update_badge": "Päivitä merkki",
+            "update_category": "Päivitä kategoria",
+            "edit_category": "Muokkaa kategoriaa",
+            "nothing_here_yet": "Et ole luonut vielä yhtään merkki tai kategoriaa.",
+            "show_badges_on_user_card": "Näytä merkit käyttäjän kortilla",
+            "number_of_badges_on_user_card": "Merkkien määrä",
+            "number_of_badges_on_user_card_help": "Merkkien määrät jotka näytetään käyttäjän kortilla",
+            "permissions": {
+                "badge_detail_users": "Voi nähdä käyttäjät merkin tietosivulla",
+                "give_badge": "Anna merkki käyttäjälle",
+                "take_badge": "Ottaa merkin pois käyttäjältä",
+                "edit_own_card_badges": "Muokata omia merkkejä",
+                "edit_card_badges": "Muokata käyttäjän merkkejä"
+            },
+            "confirm_dialog": {
+                "title": "Vahvista",
+                "no": "Ei",
+                "yes": "Kyllä"
+            },
+            "confirm_messages": {
+                "delete_badge": "Haluatko varmasti poistaa tämän merkin? Sen poistaminen käyttäjiltä on peruttamaton.",
+                "delete_category": "Haluatko varmasti poistaa tämän kategorian? Jos tässä kategoriassa on merkkejä, ne siirretään kategorisoimattomiin."
+            },
+            "badge": {
+                "name": "Merkin nimi",
+                "icon": "Merkin ikoni",
+                "description": "Merkin kuvaus",
+                "visible": "Näkyvissä",
+                "visible_description": "Ota merkki käyttöön. Kun pois käytöstä, merkki ei ole näkyvissä.",
+                "is_image": "Merkki on kuva",
+                "is_image_description": "Käytä kuvaa normaalin merkin sijaan",
+                "image": "Merkin kuvan URL",
+                "image_placeholder": "Syötä merkin kuvan osoite",
+                "icon_color": "Ikonin väri",
+                "background_color": "Taustaväri",
+                "label_color": "Tekstin väri"
+            },
+            "badge_category": {
+                "name": "Kategorian nimi",
+                "description": "Kategorian kuvaus",
+                "blockview": "Lohko-näkymä",
+                "blockview_description": "Näytä kategorian merkit lohkonäkymässä merkkien tietosivulla. Kun pois käytöstä niin näytetään taulukossa.",
+                "enabled": "Käytössä",
+                "enabled_description": "Ota käyttöön tämä kategoria. Kun pois käytöstä kaikki merkit poistetaan käytöstä ja kategoria piilotetaan."
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "Automaattisesti anna käyttäjälle tämä merkki",
+                    "content": "Tämä lisäosa antaa lisää mahdollisuuksia, kun <a>Auto Moderator</a> lisäosa on käytössä ja aktivoitu. Kun otat tämän lisäosan käyttöön, käyttäjät voivat saada merkkejä ilman yhteisön ylläpitäjän toimia!",
+                    "install": "Asenna",
+                    "dismiss": "Älä näytä uudelleen"
+                },
+                "action_drivers": {
+                    "badge_id": "Merkin ID",
+                    "give_badge": "Anna merkki",
+                    "remove_badge": "Poista merkki"
+                },
+                "requirement_drivers": {
+                    "has_badge": "On merkki"
+                },
+                "metric_drivers": {
+                    "badges_received": "Merkkiä saatu"
+                },
+                "badge_selector": {
+                    "placeholder": "Valitse merkki",
+                    "loading_badges": "Ladataan merkkejä"
+                }
+            }
+        },
+        "forum": {
+            "badge_information": "Merkin tiedot",
+            "all_badges": "Näytä kaikki merkit",
+            "all_users": "Näytä kaikki käyttäjät",
+            "give_badge": "Anna merkki",
+            "update_badge": "Päivitä merkki",
+            "select_badge": "Valitse merkki",
+            "user_has_badge": "Käyttäjällä on jo tämä merkki.",
+            "user_no_badges": "Käyttäjällä ei ole vielä mitään merkkiä.",
+            "hidden_badges": "",
+            "no_received": "Kukaan käyttäjistä ei ole saanut tätä merkkiä.",
+            "uncategorized": "=> gtdxyz-flarum-badges.admin.uncategorized",
+            "save_changes": "Tallenna muutokset",
+            "badge": {
+                "badge": "Merkki",
+                "badges": "Merkit",
+                "name": "Merkin nimi",
+                "description": "Merkin kuvaus",
+                "earning_reason": "Merkin ansainnan syy",
+                "update_earning_reason": "Päivitä ansainnan syy",
+                "no_earning_reason": "Ei syytä asetettu",
+                "earned_on": "Merkki saatu",
+                "category": "Merkin kategoria",
+                "received_on": "Saatu {date}",
+                "badge_details": "Merkin tiedot",
+                "earned_count": "{count, plural, one {<b># käyttäjä</b> on saanut tämän merkin} other {<b># käyttäjää</b> ovat saaneet tämän merkin}}",
+                "earned_by_count": "{count, plural, one {Saanut <b># käyttäjä</b>} other {Saanut <b># käyttäjää</b>}}",
+                "others_link": "+ {count} lisää"
+            },
+            "badges_in_card": {
+                "title": "Merkit käyttäjän kortilla",
+                "manage_badges": "Hallitse merkkejä",
+                "description": "Voit vaihtaa näkyviä merkkejä, mitkä näkyvät kortillasi. Mikäli et valitse mitään niin ne valitaan automaattisesti.",
+                "select_limit": "Voit valita {limit, plural, one {<b>yhden merkin</b>} other {<b># merkkiä</b>}} näkyville kortillesi.",
+                "hit_limit": "Kortillasi on tilaa vain <b> {limit, plural, one {<b>yhdelle merkille</b>} other {<b># merkille</b>}}</b>. Poista joku merkki kortiltasi, jotta saat tämän näkyviin."
+            },
+            "moderation": {
+                "remove_badge": "Poista merkki käyttäjältä",
+                "remove_badge_confirm": "Haluatko varmasti poistaa tämän merkin käyttäjältä?",
+                "give_badge": "Anna merkki"
+            },
+            "notification": {
+                "title": "Olet saanut uuden merkin",
+                "settings": "Olen saanut merkin"
+            }
+        }
+    }
+}

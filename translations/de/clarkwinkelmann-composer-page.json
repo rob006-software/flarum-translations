@@ -2,24 +2,24 @@
     "clarkwinkelmann-composer-page": {
         "admin": {
             "settings": {
-                "onlyInTags": "",
-                "onlyInTagsHelp": "",
-                "forPrivateDiscussions": "",
-                "forPrivateDiscussionsHelp": ""
+                "onlyInTags": "Nur für folgende Themen (optional)",
+                "onlyInTagsHelp": "Durch Kommas getrennte Liste von Themen. Freilassen um die Seite immer zu verwenden, schon bevor ein Thema ausgewählt ist.\n",
+                "forPrivateDiscussions": "Für private Diskussionen anwenden",
+                "forPrivateDiscussionsHelp": "Integriert den Editor von Byobu Diskussionen in die Seite"
             }
         },
         "forum": {
             "nav": {
-                "cancel": "",
-                "continue": ""
+                "cancel": "Editor schließen",
+                "continue": "Diskussion fortsetzen"
             },
             "page": {
-                "title": "",
-                "heading": ""
+                "title": "Starte eine Diskussion",
+                "heading": "Starte eine Diskussion"
             },
             "page-private": {
-                "title": "",
-                "heading": ""
+                "title": "Starte eine private Diskussion",
+                "heading": "Starte eine private Diskussion"
             }
         }
     }

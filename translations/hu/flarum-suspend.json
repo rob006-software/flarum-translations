@@ -40,11 +40,37 @@
             "no_reason_given": "Nem lett megadva a felfüggesztés oka.",
             "suspended": {
                 "subject": "A fiókját felfüggesztették",
-                "body": "Kedves {recipient_display_name}!\n\nA fiókját a következő okból felfüggesztették:\n\n---\n{suspension_message}\n---\n"
+                "body": "Kedves {recipient_display_name}!\n\nA fiókját a következő okból felfüggesztették:\n\n---\n{suspension_message}\n---\n",
+                "plain": {
+                    "body": "A következő okok miatt fel lett függesztve:\n\n---\n{suspension_message}\n---\n"
+                },
+                "html": {
+                    "body": "A következő okok miatt fel lett függesztve a(z) {forumTitle} oldalon:"
+                }
             },
             "unsuspended": {
                 "subject": "A fiókja felfüggesztését visszavonták",
-                "body": "Kedves {recipient_display_name}!\n\nA felfüggesztését visszavonták. A következő hivatkozással visszatérhet a fórumra:\n\n{forum_url}\n"
+                "body": "Kedves {recipient_display_name}!\n\nA felfüggesztését visszavonták. A következő hivatkozással visszatérhet a fórumra:\n\n{forum_url}\n",
+                "plain": {
+                    "body": "A felfüggesztését megszüntették. A következő hivatkozásra való kattintással visszatérhet a fórumhoz:\n\n{forum_url}\n"
+                },
+                "html": {
+                    "body": "A felfüggesztését megszüntették. Ha készen áll, akkor visszatérhet a(z) [{forumTitle}]({forum_url}) fórumhoz."
+                }
+            }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": "felfüggesztve eddig:"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": "felfüggesztve"
+                    }
+                }
             }
         }
     }

@@ -2,24 +2,26 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "whitelist_label": "",
-                "whitelist_help": "",
-                "whitelist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": "",
-                "use_google_favicons_label": "",
-                "use_google_favicons_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": ""
+                "enable_batch_requests_label": "Luba hulgitöötlemine",
+                "enable_batch_requests_help": "Paranda kiirust töödeldes mitut lingi eelvaadet samaaegselt. Kui see on välja lülitatud, siis linke töödeldakse ükshaaval.",
+                "blacklist_label": "Domeenide must nimekiri",
+                "blacklist_help": "Määra domeenid, millest sa ei soovi eelvaate linke luua. Kasuta komasid, et lisada mitu saiti.",
+                "blacklist_placeholder": "Näiteks: facebook.com, twitter.com/mingi-konkreetne-leht",
+                "whitelist_label": "Domeenide valge nimekiri",
+                "whitelist_help": "Loo eelvaated ainult näist domeenidest või saitidest. Kasuta komasid, et lisada mitu saiti.",
+                "whitelist_placeholder": "Näiteks: usaldusväärnesait.ee, twitter.com/mingi-konkreetne-leht",
+                "convert_media_urls_label": "Meedia URL-ide eelvaade",
+                "convert_media_urls_help": "Loo eelvaated linkidest, mis viitavad multimeedia failidele (pildid, videod jne.).",
+                "use_google_favicons_label": "Näita saidi ikoone",
+                "use_google_favicons_help": "Näita saidi ikooni kasutades Google-i Favicon teenust.",
+                "cache_time_label": "Vahemälu pikkus (minutites)",
+                "cache_time_help": "Kui kaua lingi eelvaadet säilitatakse enne, kui seda värskendatakse. Vali 0, et vahemälu kasutamine välja lülitada. Vaikeväärtus: 60 minutit.",
+                "open_links_in_new_tab_label": "Ava lingid uuel vahekaardil",
+                "open_links_in_new_tab_help": "Ava lingid alatu uuel veebilehtseja kaardil."
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Eelvaate laadimine ebaõnnestus. Palun kontrolli linki ja proovi siis uuesti."
         }
     }
 }

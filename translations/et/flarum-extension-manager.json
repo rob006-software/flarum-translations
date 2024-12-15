@@ -2,86 +2,86 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Uus autentimisviis",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Host",
+                    "host_placeholder": "näidis: extiverse.com",
+                    "submit_button": "Saada",
+                    "token_label": "Kontrollkood",
+                    "type_label": "Liik",
+                    "unchanged_token_placeholder": "(muutmata)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Oled sa kindel, et soovid seda autentimisviisi kustutada?",
+                "delete_label": "Kustuta autentimisviis",
+                "edit_label": "Muuda autentimisviisi",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Host",
+                    "token": "Kontrollkood"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Ühtegi autentimisviisi pole seadistatud. See on valikuline funktsioon edasijõudnutele, mis võimaldab paigaldada privaatsetest hoidlatest.",
+                "remove_button_label": "Eemalda autentimisviis",
+                "title": "Autentimiseviisid",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab kontrollkood",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Lisa hoidla",
+                "delete_repository_confirmation": "Oled sa kindel, et soovid seda hoidlat kustutada? Kõik laiendused, mis on sellest hoidlast paigaldatud eemaldatakse.",
+                "delete_repository_label": "Kustuta hoidla",
+                "edit_repository_label": "Muuda hoidlat",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Minimaalne stabiilsus",
+                    "help": "Seda liiki pakette pole lubatud paigaldada. Muuda seda ainult siis kui sa tõesti tead, mida sa teed.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stabiilne (soovitatud)",
+                        "rc": "Väljalaske kandidaat",
+                        "beta": "Beeta",
+                        "alpha": "Alfa",
+                        "dev": "Arendusversioon"
                     }
                 },
                 "repositories": {
-                    "label": "",
+                    "label": "Hoidlad",
                     "help": "",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "kaust"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Nimi",
+                        "type_label": "Liik",
+                        "url": "URL",
+                        "submit_button": "OK"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Käivitamine ebaõnnestus. Heida pilk composeri logidele kaustas storage/logs/composer.",
+                "extension_already_installed": "Laiendus on juba paigaldatud.",
+                "extension_not_directly_dependency": "Laiendus on paigaldatud kui mõne teise laienduse sõltuvus. Seda ei saa otse eemaldada.",
+                "extension_not_installed": "Laiendust ei leitud.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
+                    "extension_incompatible_with_instance": "Lisa tõenäoliselt ühildub sinu Flarumi versiooniga.",
+                    "extension_not_found": "Seda lisa ei leitud või seda pole olemas.",
                     "extensions_incompatible_with_new_major": ""
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
+                "check_why_it_failed_updating": "Näita, miks see ei uuenda viimasele versioonile.",
+                "install": "Paigalda uus laiendus",
                 "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
+                "proceed": "Jätka",
+                "remove": "Eemalda",
+                "successful_install": "{extension} paigaldati edukalt, ümbersuunamine..",
+                "successful_remove": "Laiendus on eemaldatud.",
                 "successful_update": "",
-                "update": "",
+                "update": "Uuenda",
                 "update_soft_label": "",
                 "update_hard_label": ""
             },
@@ -92,57 +92,57 @@
                 "dry_run_help": "",
                 "failure": {
                     "desc": "",
-                    "why": ""
+                    "why": "Otsi lisainfot"
                 },
                 "title": "",
-                "update": ""
+                "update": "Uuenda"
             },
             "minor_update_confirmation": {
                 "content": ""
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Haldaja"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Üksikasjad",
+                        "elapsed_time": "Lõpetatud",
+                        "peak_memory_used": "Kõrgeim mälukasutus",
+                        "operation": "Tegevus",
+                        "package": "Pakk",
+                        "status": "Staatus"
                     },
-                    "none": "",
+                    "none": "Ühtegi ülesannet pole veel.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
+                        "extension_install": "Paigalda laiendus",
+                        "extension_remove": "Eemalda laiendus",
+                        "extension_update": "Uuenda laiendust",
+                        "update_check": "Kontrolli uuendusi",
+                        "update_global": "Uuenda kõiki tarkvarapakette",
+                        "update_major": "Peamine uuendus",
+                        "update_minor": "Väike uuendus",
                         "why_not": ""
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Tundmatu",
+                        "command": "Composeri käsk",
+                        "guessed_cause": "Põhjus",
+                        "output": "Väljund"
                     },
-                    "refresh": "",
+                    "refresh": "Värskenda ülesannete nimekirja",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Korras",
+                        "failure": "Ebaõnnestus",
+                        "pending": "Ootel",
+                        "running": "Käimas"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Ülesanne just algas",
+                    "title": "Järjekord"
                 }
             },
             "settings": {
-                "title": "",
+                "title": "Seaded",
                 "access_warning": "",
                 "debug_mode_warning": "",
                 "queue_jobs": "",
@@ -151,18 +151,39 @@
                 "task_retention_days_help": ""
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
+                "up_to_date": "Kõik on ajakohane!",
+                "check_for_updates": "Kontrolli uuendusi",
+                "flarum": "Flarumi tuum",
+                "global_update_successful": "Kõik paketid on uuendatud.",
+                "last_update_checked_at": "Viimane uuenduste kontroll: ",
+                "run_global_update": "Käivita üldine uuendamine",
+                "updater_title": "Uuendused",
                 "updater_help": ""
             },
-            "update_successful": "",
+            "update_successful": "Flarum on uuendatud.",
             "why_not_modal": {
-                "title": ""
+                "title": "Mis see ei uuenda"
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "minimaalne stabiilsus",
+                "repositories": "hoidlad",
+                "repositories.*": "hoidlad",
+                "repositories.*.type": "hoidla liik",
+                "repositories.*.url": "hoidla URL",
+                "extension_id": "laienduse ID",
+                "update_mode": "uuendamise režiim",
+                "package": "pakett",
+                "version": "versioon",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab Token",
+                "gitlab_token.*": "GitLab Token",
+                "bearer": "HTTP Bearer",
+                "bearer.*": "HTTP Bearer"
             }
         }
     }

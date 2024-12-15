@@ -1,5 +1,5 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
@@ -36,6 +36,7 @@
                 "watermark": "Escolha se as imagens terão uma marca d'água adicionada durante o upload. As marcas d'água são adicionadas a não-gifs com base nas suas preferências abaixo.\n",
                 "s3_compatible_storage": "As configurações a seguir são necessárias apenas ao usar armazenamento compatível com S3. Se você usa a AWS, pode deixá-los em branco.\n",
                 "s3_acl": "A ACL que deve ser aplicada ao objeto carregado (padrão: privado). Para valores possíveis, consulte https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Deixe a chave e o segredo vazios para usar credenciais no perfil da instância.\n",
                 "composer_buttons": "Por padrão, o botão do gerenciador de mídia e o botão de upload estão visíveis. Você também pode optar por exibir apenas um botão.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Configurações avançadas de armazenamento S3",
                     "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Use o estilo de caminho do endpoint",
-                    "acl": "Lista de controle de acesso (ACL)"
+                    "acl": "Lista de controle de acesso (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Desativar logging de downloads",
@@ -130,6 +132,7 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatível",
+                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",

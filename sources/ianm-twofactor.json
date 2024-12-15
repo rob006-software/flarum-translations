@@ -20,7 +20,17 @@
                 "forum_logo_qr_width": "Forum Logo QR Code Width",
                 "forum_logo_qr_width_help": "The width of the forum logo embedded on the QR code displayed when enabling 2FA. Max 200.",
                 "logo_qr": "Logo on QR Code",
-                "logo_qr_help": "If logo has been uploaded, this logo will be embedded on the QR code. Leave blank to use the forum logo."
+                "logo_qr_help": "If logo has been uploaded, this logo will be embedded on the QR code. Leave blank to use the forum logo.",
+                "tokens": {
+                    "heading": "Access Tokens",
+                    "help": "For extended security, you can manage additional behaviour here related to access tokens.",
+                    "kill_inactive_tokens": "Kill Inactive Tokens",
+                    "kill_inactive_tokens_help": "Automatically kill access tokens that have been inactive for a specified period of time.",
+                    "kill_inactive_tokens_age_days": "Kill Inactive Tokens After (Days)",
+                    "kill_inactive_tokens_age_days_help": "The number of days of inactivity after which access tokens will be deleted.",
+                    "also_kill_developer_tokens": "Also Kill Developer Tokens",
+                    "also_kill_developer_tokens_help": "Also kill developer access tokens that have been inactive for the specified period of time."
+                }
             }
         },
         "forum": {
@@ -49,6 +59,7 @@
                 "ok_button": "Ok",
                 "confirm_disable_2fa_title": "Confirm Disabling Two-Factor Authentication",
                 "confirm_disable_2fa_text": "Are you sure you want to disable Two-Factor Authentication?",
+                "confirm_disable_2fa_text_other_user": "Are you sure you want to disable Two-Factor Authentication for {username}? This will remove all backup codes and disable 2FA for their account.",
                 "cannot_disable": "The current configuration dictates that you cannot disable Two-Factor Authentication.",
                 "cannot_disable_tooltip": "Cannot disable 2FA",
                 "cancel_button": "Cancel",
@@ -79,11 +90,12 @@
                 "two_factor_token_label": "2FA Token"
             },
             "two_factor_token": {
+                "title": "Two-Factor Authentication",
                 "submit_button": "Submit Token"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "twofactordata": {

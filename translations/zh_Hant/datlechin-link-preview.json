@@ -2,24 +2,26 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "排除列表",
-                "blacklist_help": "輸入禁止預覽的域名或連結，以逗號分隔。",
-                "blacklist_placeholder": "如「baidu.com,https://pornhub.com/categories」",
+                "enable_batch_requests_label": "啟用批次處理",
+                "enable_batch_requests_help": "透過同時處理多個連結預覽來提高效能。禁用時，一次處理一個連結。",
+                "blacklist_label": "域名黑名單",
+                "blacklist_help": "指定不應產生連結預覽的網域或 URL。使用逗號分隔多個條目。",
+                "blacklist_placeholder": "範例：facebook.com、twitter.com/specific-page",
                 "whitelist_label": "白名單",
                 "whitelist_help": "輸入以逗號分隔的域名或 URL 列表以允許連結預覽。",
                 "whitelist_placeholder": "例如 facebook.com,https://domain.com/path",
                 "convert_media_urls_label": "預覽媒體連結",
                 "convert_media_urls_help": "啟用後，將轉換所有媒體連結作為預覽。",
                 "use_google_favicons_label": "使用 Google Favicon API",
-                "use_google_favicons_help": "如果啟用，將使用 Google 服務來請求相應站點的圖示。",
+                "use_google_favicons_help": "如果啟用，將使用 Google 服務來請求相應網站的圖示。",
                 "cache_time_label": "緩存時間",
-                "cache_time_help": "已查看連結再次訪問之前將被緩存的分鐘數。 設置為 0 以禁用緩存。 如果未設置，則默認為 60 分鐘。",
+                "cache_time_help": "已查看連結再次訪問之前將被緩存的分鐘數。 設置為 0 以禁用緩存。 如果未設置，則預設為 60 分鐘。",
                 "open_links_in_new_tab_label": "在新視窗打開連結",
                 "open_links_in_new_tab_help": "開啟後，連結將於新視窗中打開。"
             }
         },
         "forum": {
-            "site_cannot_be_reached": "無法訪問此站點。"
+            "site_cannot_be_reached": "無法訪問此網站。"
         }
     }
 }

@@ -5,6 +5,12 @@
                 "emoji_tooltip": "Emoji",
                 "type_to_search_text": "Ketik untuk mencari emoji"
             }
+        },
+        "admin": {
+            "settings": {
+                "cdn_label": "Alamat mirror CDN",
+                "cdn_help": "e.g. https://cdn.jsdelivr.net/gh/twitter/twemoji@[version]/assets/, Versi saat ini adalah: {version}"
+            }
         }
     }
 }

@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "La fecha de la última actualización de términos. Establecer este valor requerirá que todos los usuarios que aceptaron antes de esa fecha vuelvan a aceptar. Debe fijarse en la fecha actual o el pasado (de lo contrario, los usuarios nunca podrían aceptarlo y superar el modal).\n",
                 "export-url": "Exportar URL",
-                "export-url-help": "Cualquier usuario con permiso \"Exportar todos los datos de usuarios y políticas\" puede acceder a esas URL para descargar la lista de usuarios que aceptaron esta política. Puede encontrar más detalles sobre las opciones disponibles en la <a>extension wiki</a>.\n"
+                "export-url-help": "Cualquier usuario con permiso \"Exportar todos los datos de usuarios y políticas\" puede acceder a esas URL para descargar la lista de usuarios que aceptaron esta política. Puede encontrar más detalles sobre las opciones disponibles en la <a>extension wiki</a>.\n",
+                "optional": "Política opcional",
+                "optional-help": "Cuando está habilitado, los usuarios pueden usar e interactuar con el foro sin aceptar esta política."
             },
             "permissions": {
                 "see-user-policies-state": "Ver el estado de las políticas de usuario",
@@ -64,10 +66,25 @@
             "update-alert": {
                 "must-accept-message": "Hemos restringido temporalmente el acceso a su cuenta mientras revisa los nuevos términos.",
                 "can-accept-message": "Recientemente actualizamos los términos de uso. Debes aceptarlos para seguir usando este sitio web.",
-                "review": "Haz clic aquí para revisar y aceptar los nuevos términos"
+                "can-accept-optional-message": "",
+                "review": "Haz clic aquí para revisar y aceptar los nuevos términos",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "Estado de términos"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "userpolicydata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     },
@@ -75,8 +92,8 @@
         "lib": {
             "data": {
                 "userpolicydata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Detalles sobre la aceptación de los términos por parte del usuario",
+                    "delete_description": "Elimina la aceptación de los términos por parte del usuario"
                 }
             }
         }

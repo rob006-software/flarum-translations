@@ -1,0 +1,22 @@
+{
+    "nodeloc-telegram": {
+        "admin": {
+            "settings": {
+                "title": "Thiết lập TelegramProvide",
+                "field": {
+                    "botUsername": "Tên tài khoản Bot",
+                    "botToken": "Mã token Bot",
+                    "enableNotifications": "Bật thông báo"
+                }
+            }
+        },
+        "forum": {
+            "log_in_with_telegram_button": "Đăng nhập bằng Telegram",
+            "link_telegram_button": "Liên kết Telegram",
+            "settings": {
+                "notify_by_telegram_heading": "Telegram",
+                "unblock_telegram_bot": "Dường như bạn chưa ủy quyền hoặc chặn bot TelegramProvide. Gửi một tin nhắn đến <a>{username}</a> trên TelegramProvide để bật lại thông báo"
+            }
+        }
+    }
+}

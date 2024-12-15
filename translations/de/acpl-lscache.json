@@ -14,6 +14,8 @@
             "cache_exclude_help": "Pfade, die diese Zeichenfolgen enthalten, werden nicht zwischengespeichert. Für <code>/mypath/mypage?aa=bb</code> kann hier beispielsweise <code>mypage?aa=</code> verwendet werden. Um den Anfang abzugleichen, füge <code>^</code> am Anfang des Elements hinzu. Um eine genaue Übereinstimmung zu erzielen, füge <code>$</code> am Ende der URL hinzu. Eine pro Zeile.",
             "drop_qs_label": "",
             "drop_qs_help": "",
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
             "purge_all": "Alle LSCache löschen",
             "purge_all_success": "LiteSpeed Webserver benachrichtigt, um alle LSCache-Einträge zu löschen"
         }

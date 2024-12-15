@@ -32,19 +32,19 @@
                     "fas-square": "Ikon FontAwesome Solid Square",
                     "far-circle": "Ikon FontAwesome Regular Circle",
                     "fas-circle": "Ikon FontAwesome Solid Circle",
-                    "switch": "",
-                    "native": "Kontrol browser bawaan"
+                    "switch": "Tombol peralihan Flarum",
+                    "native": "Kontrol bawaan browser"
                 },
                 "horizontal-layout": "Gunakan tata letak formulir horizontal",
                 "horizontal-layout-locations": {
-                    "standaloneEdit": "",
+                    "standaloneEdit": "Halaman Pengisian/Pengeditan Mandiri",
                     "standaloneView": "Halaman Tampilan Mandiri",
                     "profileEdit": "Halaman Edit Profil",
                     "profileView": "Halaman Tampilan Profil",
-                    "signUp": "",
-                    "discussionEdit": "",
-                    "discussionView": "",
-                    "discussionComposer": "Area Pengeditan Diskusi"
+                    "signUp": "Jendela Modal Pendaftaran (hanya kolom Formulaire)",
+                    "discussionEdit": "Jendela Modal Edit Diskusi",
+                    "discussionView": "Wadah Tampilan Diskusi",
+                    "discussionComposer": "Area Penulisan Diskusi"
                 },
                 "uniformComposerLayout": "Tata letak penulisan diskusi yang seragam",
                 "uniformComposerLayoutHelp": "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n",
@@ -68,7 +68,7 @@
                     "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "empty": "Tidak ada formulir",
-                "load-more": "Muat lebih banyak",
+                "load-more": "Muat Lainnya",
                 "search": "Cari formulir...",
                 "new": "Formulir baru",
                 "edit": "Edit",
@@ -76,9 +76,9 @@
                 "submissions": "Pengajuan",
                 "columns": {
                     "title": "Judul",
-                    "accept-submissions": "",
+                    "accept-submissions": "Buka",
                     "allow-modification": "Modifikasi",
-                    "enabled": "Diaktifkan",
+                    "enabled": "Aktif",
                     "submissions": "Pengajuan",
                     "actions": "Tindakan"
                 }
@@ -116,35 +116,35 @@
                 },
                 "tabs": {
                     "template": "Template",
-                    "placement": "",
+                    "placement": "Penempatan",
                     "access": "Akses",
                     "notifications": "Notifikasi",
                     "submissions": "Pengajuan"
                 },
                 "access-status": {
-                    "closed": "",
-                    "create": "",
-                    "edit": "",
-                    "both": "",
-                    "enabled": "Diaktifkan",
+                    "closed": "Ditutup",
+                    "create": "Hanya membuat",
+                    "edit": "Hanya mengedit",
+                    "both": "Buat dan edit",
+                    "enabled": "Aktif",
                     "disabled": "Konsep"
                 },
                 "controls": "Kontrol",
-                "template-export": "",
+                "template-export": "Impor/ekspor template",
                 "enable-expert-mode": "Aktifkan mode expert",
-                "disable-expert-mode": "Nonaktifkan mode expert",
+                "disable-expert-mode": "Matikan mode expert",
                 "restore": "Pulihkan",
                 "hide": "Hapus",
                 "delete": "Hapus permanen",
                 "delete-confirmation": "Formulir \"{title}\" akan dihapus secara permanen",
                 "fields": {
-                    "private-title": "",
-                    "slug": ""
+                    "private-title": "Judul pribadi",
+                    "slug": "Slug URL khusus (opsional)"
                 }
             },
             "form-edit": {
                 "warnings": {
-                    "show-on-signup-invalid-permissions": "",
+                    "show-on-signup-invalid-permissions": "Anda perlu menyetel izin \"lihat milik sendiri\" dan \"edit milik sendiri\" kepada anggota yang tidak disetujui untuk menggunakan \"tampilkan saat mendaftar\".\n",
                     "show-on-composer-invalid-permissions": "Pastikan izin \"lihat sendiri\" dan \"edit sendiri\" sesuai dengan siapa yang dapat memulai diskusi dengan tag yang dipilih untuk menggunakan \"tampilkan di area penulisan\". Atur ke \"anggota\" jika tidak yakin. Pesan ini dapat muncul meskipun pengaturan Anda sudah benar.\n",
                     "linked-form-is-draft": "Formulir ini saat ini dalam mode konsep. Aktifkan di bawah \"Akses\" agar kolom dapat muncul di forum.\n",
                     "auto-link-permission-warning": "Formulir dengan opsi \"secara otomatis membuat diskusi\" menggunakan izin pengisian global ketika diakses secara mandiri.\n"
@@ -156,11 +156,11 @@
                 },
                 "field": {
                     "link": "Jenis formulir khusus",
-                    "title": "",
+                    "title": "Judul publik",
                     "show-on-creation": {
                         "discussion": "Tampilkan dalam area penulisan diskusi",
                         "discussionHelp": "Area penulisan diskusi Flarum tidak cocok untuk memuat banyak kolom. Anda harus menginstal dan mengaktifkan ekstensi <a>Composer Page</a> untuk memastikan semua kolom tetap dapat diakses di semua perangkat.\n",
-                        "user": ""
+                        "user": "Tampilkan dalam pendaftaran"
                     },
                     "automatic-discussion": "Secara otomatis membuat diskusi dari formulir pengajuan",
                     "automatic-discussion-help": "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Pengajuan akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n",
@@ -177,10 +177,10 @@
                     "permission-edit-any": "Mengedit pengajuan apa pun"
                 },
                 "link-options": {
-                    "standalone": "",
+                    "standalone": "Mandiri",
                     "groups": "Profil pengguna",
                     "all-groups": "Untuk semua grup",
-                    "tags": "",
+                    "tags": "Kolom diskusi",
                     "all-tags": "Untuk semua tag"
                 },
                 "auto-discussion-options": "Opsi untuk diskusi baru",
@@ -198,7 +198,7 @@
                     "title": "Judul diskusi",
                     "tags": "Tag diskusi",
                     "tags-help": "Daftar slug tag yang dipisahkan dengan koma. Tag yang dipilih akan ditambahkan sebagai tambahan pada tag yang terhubung dengan formulir ini.\n",
-                    "content": ""
+                    "content": "Konten"
                 }
             },
             "confirmation-email-options-modal": {
@@ -206,29 +206,29 @@
                 "submit": "Validasi perubahan",
                 "field": {
                     "title": "Judul",
-                    "message": ""
+                    "message": "Isi"
                 }
             },
             "save-controls": {
                 "validation-errors": "Kami menemukan beberapa kesalahan dalam pengajuan Anda",
                 "unsaved-changes": "Anda memiliki perubahan yang belum disimpan",
                 "saved-at": "Disimpan {ago}",
-                "undo": "",
-                "redo": "",
+                "undo": "Batalkan",
+                "redo": "Ulangi",
                 "save": "Simpan"
             },
             "permission-controls": {
                 "inherit": "Gunakan default",
                 "everyone_button": "=> core.admin.permissions_controls.everyone_button",
                 "disabled_members_button": "Anggota yang tidak diaktifkan dan ditangguhkan",
-                "members_button": "Anggota yang diaktifkan"
+                "members_button": "Anggota aktif"
             },
             "template-editor": {
-                "add-field": "",
+                "add-field": "Tambahkan kolom",
                 "title": "Judul",
                 "description": "Deskripsi",
                 "key": "(Expert) Kunci JSON dalam payload pengajuan",
-                "fill-permission": "",
+                "fill-permission": "(Expert) Isi perizinan",
                 "required": "Dibutuhkan",
                 "rich": "Rich text (TextFormatter)",
                 "min": "Minimum",
@@ -237,10 +237,10 @@
                 "email": "Email",
                 "regex": "Regular expression",
                 "mime": "Jenis MIME (dipisahkan koma, menerima karakter pengganti sebagai bagian kedua)",
-                "other": "",
-                "duplicate": "",
-                "delete": "",
-                "missing-title": "",
+                "other": "Izinkan value pengguna \"lainnya\"",
+                "duplicate": "Duplikat kolom",
+                "delete": "Hapus kolom",
+                "missing-title": "Kolom tanpa judul",
                 "no-answer": "Tidak ada jawaban",
                 "type": {
                     "short": "Teks pendek",
@@ -248,11 +248,11 @@
                     "number": "Angka",
                     "date": "Tanggal",
                     "checkbox": "Kotak centang",
-                    "radio": "",
-                    "select": "",
+                    "radio": "Radio",
+                    "select": "Dropdown",
                     "upload": "Upload",
                     "content": "Konten",
-                    "items": ""
+                    "items": "Multi-entri"
                 }
             },
             "options-editor": {
@@ -268,7 +268,7 @@
                 "remove": "Hapus row"
             },
             "upload-editor": {
-                "uploading": "Mengunggah...",
+                "uploading": "Mengupload...",
                 "remove": "Hapus file"
             },
             "rich-text": {
@@ -282,14 +282,14 @@
                 "other-placeholder": "Ketik..."
             },
             "submission": {
-                "form-closed": "",
+                "form-closed": "Formulir ini ditutup.",
                 "form-full": "Formulir ini telah mencapai jumlah maksimum pengumpulan.",
                 "edit-forbidden": "Anda tidak dapat lagi mengedit pengajuan ini.",
                 "submitted-successfully": "Pengajuan Anda telah berhasil dikirim.",
                 "edit-submission": "Edit pengajuan",
                 "submit-other": "Ajukan yang lain",
                 "unlock": "Buka Kunci",
-                "lock": "Kunci",
+                "lock": "Gembok",
                 "restore": "Pulihkan",
                 "hide": "Hapus",
                 "delete": "Hapus permanen",
@@ -300,7 +300,7 @@
                 "form-show": "Pengajuan baru",
                 "show": "Tampilkan",
                 "guest": "Tamu",
-                "load-more": "Muat lebih banyak",
+                "load-more": "Muat Lainnya",
                 "empty": "Belum ada pengajuan",
                 "search": "Cari pengajuan...",
                 "export": "Ekspor",
@@ -312,10 +312,10 @@
             },
             "badge": {
                 "locked": "Terkunci",
-                "hidden": ""
+                "hidden": "Tersembunyi"
             },
             "error-page": {
-                "denied-title": "",
+                "denied-title": "Izin ditolak",
                 "denied-description": "Sepertinya Anda tidak memiliki akses ke konten ini. Coba login.",
                 "notfound-title": "Tidak ditemukan",
                 "notfound-description": "Konten ini bisa jadi tidak ada, atau mungkin Anda tidak memiliki akses ke sana."
@@ -329,13 +329,13 @@
                 "oldest": "Formulir paling lama"
             },
             "export": {
-                "title": "",
+                "title": "Pengajuan ekspor",
                 "format": "Format",
-                "heading": "",
-                "fields": "",
+                "heading": "Heading / key",
+                "fields": "Kolom",
                 "meta": "Metadata",
                 "more-meta": "Opsi meta lainnya",
-                "option-keys": "",
+                "option-keys": "Tombol opsi ekspor alih-alih judul untuk kotak centang, radio, dan pilihan",
                 "submit": "Download",
                 "preview": "Pratinjau",
                 "format-options": {
@@ -346,9 +346,9 @@
                     "json": "JSON"
                 },
                 "heading-options": {
-                    "title": "",
-                    "key": "",
-                    "none": ""
+                    "title": "Judul kolom",
+                    "key": "Key kolom",
+                    "none": "Tidak ada baris header"
                 },
                 "meta-options": {
                     "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
@@ -376,22 +376,22 @@
             "discussion-composer": {
                 "field": {
                     "tags": "Tag",
-                    "poll": "",
+                    "poll": "Polling",
                     "title": "Judul",
-                    "content": ""
+                    "content": "Pesan"
                 }
             }
         },
         "api": {
-            "formatter-parsing-error": "Tidak dapat mem-parse konten: {message}",
+            "formatter-parsing-error": "Tidak dapat mengurai konten: {message}",
             "not-allowed-to-fill-field": "Anda tidak diperkenankan untuk mengubah nilai dari kolom ini",
             "duplicate-field-key": "Kunci harus unik",
             "cannot-change-form-type": "Anda tidak dapat mengubah jenis formulir yang sudah ada pengajuannya",
-            "unknown-form": "",
-            "unauthorized-form": "",
-            "unauthorized-scoped-form": "",
-            "unsupported-discussion-form": "",
-            "file-already-belongs-form": "",
+            "unknown-form": "Formulir ID {id} tidak dikenal",
+            "unauthorized-form": "Anda tidak memiliki izin yang diperlukan untuk mengisi formulir ID {id}",
+            "unauthorized-scoped-form": "Anda tidak dapat mengisi formulir ID {id} dengan kombinasi tag saat ini",
+            "unsupported-discussion-form": "Anda tidak dapat mengisi formulir ID {id} pada jenis diskusi ini",
+            "file-already-belongs-form": "File {id} milik formulir lain",
             "file-already-belongs-submission": "File {id} milik pengajuan lain",
             "export": {
                 "meta": {
@@ -418,10 +418,10 @@
             "no-answer": "Tidak ada jawaban"
         },
         "ref": {
-            "manager": "",
+            "manager": "Manajer formulir",
             "type": {
                 "standalone": "Formulir mandiri",
-                "discussion": "",
+                "discussion": "Kolom diskusi",
                 "user": "Profil pengguna"
             },
             "permissions": {
@@ -443,10 +443,10 @@
                 "user_email": "Email Pengguna",
                 "user_activated": "Akun Aktif",
                 "link_id": "ID sumber daya yang ditautkan",
-                "locked_at": "",
+                "locked_at": "Tanggal Penguncian",
                 "created_at": "Tanggal Pembuatan",
                 "updated_at": "Tanggal Pembaruan",
-                "hidden_at": ""
+                "hidden_at": "Tanggal Penghapusan Lunak (Soft Delete)"
             }
         }
     }

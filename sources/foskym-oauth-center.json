@@ -7,13 +7,17 @@
             "page": {
                 "index": "home",
                 "clients": "Manage Clients",
-                "scopes": "Manage Scopes"
+                "scopes": "Manage Scopes",
+                "tokens": "Manage Tokens"
             },
             "settings": {
+                "display_mode": "Display Mode",
                 "access_lifetime": "Access Token Lifetime (seconds)",
                 "allow_implicit": "Allow Implicit Grant (response_type=token)",
                 "enforce_state": "Enforce State Validation (state parameter)",
-                "require_exact_redirect_uri": "Require Exact Redirect URI"
+                "require_exact_redirect_uri": "Require Exact Redirect URI",
+                "authorization_method_fetch": "Authorization Method Fetch (Not directly redirecting to)",
+                "allow_delete_records": "Allow Delete Authorization Records"
             },
             "clients": {
                 "client_id": "Client ID",
@@ -25,7 +29,8 @@
                 "client_desc": "Description",
                 "client_icon": "Icon",
                 "client_home": "HomePage",
-                "add_button": "Add Client"
+                "add_button": "Add Client",
+                "edit_client": "Edit Client"
             },
             "scopes": {
                 "scope": "Scope",
@@ -35,7 +40,18 @@
                 "scope_name": "Name",
                 "scope_icon": "Icon",
                 "scope_desc": "Description",
-                "add_button": "Add Scope"
+                "visible_fields": "Visible Fields",
+                "add_button": "Add Scope",
+                "edit_scope": "Edit Scope"
+            },
+            "tokens": {
+                "add_token": "Add Token",
+                "delete_token": "Delete Token"
+            },
+            "action": {
+                "delete_all_records_button": "Delete all records",
+                "delete_all_records_confirm": "Confirm delete all records",
+                "delete_all_records_success": "Delete all records successfully"
             }
         },
         "forum": {
@@ -48,9 +64,18 @@
                 }
             },
             "authorize": {
+                "require_these_scopes": "Require these scopes",
                 "access": "Access to",
                 "agree": "Agree",
                 "deny": "Deny"
+            },
+            "authorized": {
+                "no_records": "No records",
+                "no_more_records": "No more records",
+                "load_more": "Load More",
+                "delete_button": "Delete this log",
+                "delete_all_button": "Delete all logs",
+                "delete_all_confirm": "Confirm delete all logs"
             }
         }
     }

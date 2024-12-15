@@ -2,64 +2,64 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Omeni skupine"
             },
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Dovoli format omembe uporabniškega imena (@Username)",
+                "allow_username_format_text": "Trenutni format za omembo uporabnikov je @\"Prikazno ime\"#ID.\nTa nastavitev omogoča uporabo starega formata @Username, vendar bo ob shranjevanju še vedno pretvorjen v nov format.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
+                "mention_tooltip": "Omeni uporabnika, skupino ali objavo",
                 "reply_to_post_text": "Odgovori na #{number}"
             },
             "mentioned_by": {
                 "title": "Odgovori na to objavo",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": "",
-                "group_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} je odgovoril na vašo objavo",
+                "user_mentioned_text": "{username} vas je omenil",
+                "group_mentioned_text": "{username} je omenil skupino, katere član ste"
             },
             "post": {
-                "mentioned_by_more_text": "{count} dodatnih odgovorov.",
-                "mentioned_by_self_text": "{users} je odgovorilo na to.",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "Citiraj",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_more_text": "Še {count} odgovorov.",
+                "mentioned_by_self_text": "{users} je odgovoril na to.",
+                "mentioned_by_text": "{users} je odgovoril na to.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Citat",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": "",
-                "notify_group_mentioned_label": ""
+                "notify_post_mentioned_label": "Nekdo odgovori na eno od mojih objav",
+                "notify_user_mentioned_label": "Nekdo me omeni v objavi",
+                "notify_group_mentioned_label": "Nekdo omeni skupino, katere član sem"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Omenitve"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[neznano]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[neznana skupina]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} je odgovoril na vašo objavo v {title}",
+                "body": "Živjo {recipient_display_name}!\n\n{replier_display_name} je odgovoril na vašo objavo (#{post_number}) v {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} vas je omenil v {title}",
+                "body": "Živjo {recipient_display_name}!\n\n{mentioner_display_name} vas je omenil v objavi v {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} je omenil skupino, katere član ste, v {title}",
+                "body": "Živjo {recipient_display_name}!\n\n{mentioner_display_name} je omenil skupino, katere član ste, v {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

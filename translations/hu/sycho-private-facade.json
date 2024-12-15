@@ -2,29 +2,29 @@
     "sycho-private-facade": {
         "admin": {
             "settings": {
-                "force_redirect": "",
+                "force_redirect": "Vendégek kényszerített átirányítása a bejelentkezési/regisztrációs felületre",
                 "header_layout": {
                     "options": {
-                        "show_header": "",
-                        "show_only_logo": "",
-                        "hide_secondary_items": ""
+                        "show_header": "Fejléc megjelenítése",
+                        "show_only_logo": "Csak a logó megjelenítése",
+                        "hide_secondary_items": "Másodlagos elemek (keresés, bejelentkezés és regisztráció) elrejtése"
                     },
-                    "title": ""
+                    "title": "Fejléc elrendezése"
                 },
-                "illustration_path": "",
-                "primary_color_bg": "",
-                "route_exclusions": "",
-                "url_exclusions": "",
-                "screen_banner_description": "",
-                "screen_banner_heading": "",
-                "screen_banner_title": "",
-                "use_welcome_hero_text": ""
+                "illustration_path": "Illusztrációs kép",
+                "primary_color_bg": "Elsődleges szín használata háttérként",
+                "route_exclusions": "Kihagyandó útvonalak a bejelentkezési/regisztrációs oldalra történő átirányítás alól.",
+                "url_exclusions": "Kihagyandó webcímek a bejelentkezési/regisztrációs oldalra történő átirányítás alól.",
+                "screen_banner_description": "Képernyő üzenete",
+                "screen_banner_heading": "Képernyő tartalma",
+                "screen_banner_title": "Képernyő címe",
+                "use_welcome_hero_text": "Üdvözlőszöveg használata"
             }
         },
         "forum": {
-            "log_in_label": "",
-            "or_label": "",
-            "sign_up_label": ""
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "vagy",
+            "sign_up_label": "=> core.ref.sign_up"
         }
     }
 }

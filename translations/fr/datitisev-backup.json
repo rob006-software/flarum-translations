@@ -17,6 +17,9 @@
                 "zip": "Archive Zip"
             },
             "settings_button": "Configurer",
+            "delete_button": "Supprimer",
+            "delete_confirmation": "Êtes-vous sûr de vouloir supprimer « {name} » ({adapter}) ?",
+            "create_button": "Ajouter un nouvel adaptateur",
             "required_package_button": "Mise en place",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Configurer {adapter}",
+                "name_label": "Nom de l'emplacement",
                 "local": {
                     "target": {
                         "label": "Chemin de la cible",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Clé",
-                            "description": "Clé d'identification d'AWS"
-                        },
-                        "secret": {
-                            "label": "Clé secrète",
-                            "description": "Clé secrète de l'identification d'AWS"
-                        }
+                    "credentials-key": {
+                        "label": "Clé",
+                        "description": "Clé d'identification AWS"
+                    },
+                    "credentials-secret": {
+                        "label": "Clé secrète",
+                        "description": "Clé secrète d'identification AWS"
                     },
                     "region": {
                         "label": "Région",
@@ -101,6 +103,16 @@
                     "path-prefix": {
                         "label": "Préfixe du chemin",
                         "description": "Préfixe de chemin par défaut facultatif pour les fichiers."
+                    },
+                    "credentials": {
+                        "key": {
+                            "label": "Clé",
+                            "description": "Clé d'identification d'AWS"
+                        },
+                        "secret": {
+                            "label": "Clé secrète",
+                            "description": "Clé secrète de l'identification d'AWS"
+                        }
                     }
                 },
                 "dropbox": {
@@ -129,6 +141,26 @@
                     }
                 },
                 "gdrive": {
+                    "client-id": {
+                        "label": "Identifiant du client",
+                        "description": "Suivez les instructions à l'adresse https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md pour créer un projet Google et récupérer l'identifiant et la clé secrète du client.\n"
+                    },
+                    "client-secret": {
+                        "label": "Clé secrète du client",
+                        "description": " "
+                    },
+                    "refresh-token": {
+                        "label": "Actualiser le jeton",
+                        "description": "Suivez les instructions sur https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md pour récupérer le jeton actualisé pour votre application Google oAuth.\n"
+                    },
+                    "folder": {
+                        "label": "Identifiant du dossier",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "Connexion à Google Drive réussie ! Enregistrez les modifications pour sauvegarder les paramètres.",
+                        "test_button": "Test de connexion"
+                    },
                     "client": {
                         "id": {
                             "label": "Identifiant du client",
@@ -138,14 +170,6 @@
                             "label": "Clé secrète du client",
                             "description": " "
                         }
-                    },
-                    "refresh-token": {
-                        "label": "Actualiser le jeton",
-                        "description": "Suivez les instructions sur https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md pour récupérer le jeton actualisé pour votre application Google oAuth.\n"
-                    },
-                    "folder": {
-                        "label": "Identifiant du dossier",
-                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {

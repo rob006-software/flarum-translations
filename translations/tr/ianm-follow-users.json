@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "Takip edilen kullanıcıların ve takip edilen kullanıcıların ayrıntılarını dışa aktarır.",
-                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "Takip eden kullanıcılarla ilgili tüm verileri siler."
+                    "export_description": "Takip edilen ve takip eden kullanıcıların ayrıntılarını dışa aktarır.",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -29,7 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
+                "unfollow_button": "=> ianm-follow-users.lib.unfollow",
+                "change_button": "=> ianm-follow-users.lib.change_follow_type",
                 "follow_confirmation": "Bu kullanıcıyı takip etmek istediğinize emin misiniz?",
                 "unfollow_confirmation": "Bu kullanıcıyı takipten çıkmak istediğinize emin misiniz?"
             },
@@ -84,6 +85,7 @@
             "following_link": "Takip Edilen Kullanıcılar",
             "follow": "Takip Et",
             "change_follow_type": "Takip türünü değiştir",
+            "unfollow": "Takibi Bırak",
             "follow_levels": {
                 "unfollow": {
                     "name": "Takip etme",
@@ -96,6 +98,17 @@
                 "lurk": {
                     "name": "Tümünü takip et",
                     "description": "<em>{username}</em> kullanıcısı yeni bir tartışma başlattığında veya gönderi yazdığında bildirim al.\n"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "Takip edilen kullanıcıların ve takip edilen kullanıcıların ayrıntılarını dışa aktarır.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Takip eden kullanıcılarla ilgili tüm verileri siler."
                 }
             }
         }

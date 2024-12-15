@@ -1,23 +1,23 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "thumbnails": "",
-            "max_size": "",
+            "thumbnails": "Loo pisipildid",
+            "max_size": "Maksimaalne profiili taustapildi suurus (KB)",
             "permission": {
-                "set_cover": ""
+                "set_cover": "Määra profiili taustapilti"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
+            "cover": "Taustapilt",
+            "edit_cover": "Muuda taustapilti",
+            "notice": "Maksimaalne suurus: {size}",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Profiili taustapilti on uuendatud.",
+                "error": "Pildi laadimine ebaõnnestus."
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "Profiili taustapilt on eemaldatud",
+                "error": "Taustapildi eemaldamine ebaõnnestus, proovi hiljem uuesti."
             }
         }
     }

@@ -2,55 +2,80 @@
     "foskym-oauth-center": {
         "admin": {
             "permission": {
-                "use_oauth": "Gunakan OAuth"
+                "use_oauth": "Menggunakan OAuth"
             },
             "page": {
-                "index": "",
-                "clients": "",
-                "scopes": "Kelola Cakupan"
+                "index": "Beranda",
+                "clients": "Kelola Client",
+                "scopes": "Kelola Cakupan",
+                "tokens": "Kelola Token"
             },
             "settings": {
+                "display_mode": "Mode Tampilan",
                 "access_lifetime": "Masa Berlaku Token Akses (detik)",
-                "allow_implicit": "",
-                "enforce_state": "",
-                "require_exact_redirect_uri": "Memerlukan URI Pengalihan yang Tepat"
+                "allow_implicit": "Izinkan Implicit Grant (response_type = token)",
+                "enforce_state": "Menerapkan State Validation (state parameter)",
+                "require_exact_redirect_uri": "Memerlukan URI Pengalihan yang Tepat",
+                "authorization_method_fetch": "Metode Otorisasi Pengambilan (Tidak langsung mengarahkan ke)",
+                "allow_delete_records": "Izinkan Hapus Catatan Otorisasi"
             },
             "clients": {
-                "client_id": "",
-                "client_secret": "",
+                "client_id": "ID Client",
+                "client_secret": "Client Secret",
                 "redirect_uri": "URI Pengalihan",
-                "grant_types": "",
+                "grant_types": "Jenis Grant",
                 "scope": "Cakupan",
                 "client_name": "Nama",
                 "client_desc": "Deskripsi",
                 "client_icon": "Ikon",
-                "client_home": "",
-                "add_button": "Tambah Klien"
+                "client_home": "Beranda",
+                "add_button": "Tambah Client",
+                "edit_client": "Edit Client"
             },
             "scopes": {
                 "scope": "Cakupan",
                 "resource_path": "",
                 "method": "Metode",
-                "is_default": "",
+                "is_default": "Default",
                 "scope_name": "Nama",
                 "scope_icon": "Ikon",
                 "scope_desc": "Deskripsi",
-                "add_button": "Tambah Cakupan"
+                "visible_fields": "Kolom Yang Terlihat",
+                "add_button": "Tambah Cakupan",
+                "edit_scope": "Edit Cakupan"
+            },
+            "tokens": {
+                "add_token": "Tambahkan Token",
+                "delete_token": "Hapus Token"
+            },
+            "action": {
+                "delete_all_records_button": "Hapus semua catatan",
+                "delete_all_records_confirm": "Konfirmasi hapus semua catatan",
+                "delete_all_records_success": "Berhasil menghapus semua catatan"
             }
         },
         "forum": {
             "page": {
                 "title": {
-                    "authorize": ""
+                    "authorize": "Mengizinkan"
                 },
                 "label": {
-                    "authorized": ""
+                    "authorized": "Log Otorisasi"
                 }
             },
             "authorize": {
-                "access": "",
+                "require_these_scopes": "Membutuhkan cakupan ini",
+                "access": "Akses ke",
                 "agree": "Setuju",
-                "deny": "Menolak"
+                "deny": "Tolak"
+            },
+            "authorized": {
+                "no_records": "Tidak ada catatan",
+                "no_more_records": "Tidak ada lagi catatan",
+                "load_more": "Muat Lainnya",
+                "delete_button": "Hapus log ini",
+                "delete_all_button": "Hapus semua log",
+                "delete_all_confirm": "Konfirmasi hapus semua log"
             }
         }
     }

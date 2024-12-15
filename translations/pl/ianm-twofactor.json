@@ -20,7 +20,17 @@
                 "forum_logo_qr_width": "Szerokość logo forum na kodzie QR",
                 "forum_logo_qr_width_help": "Szerokość logo forum osadzonego na kodzie QR wyświetlanym po włączeniu uwierzytelniania dwuskładnikowego. Maksymalnie 200.",
                 "logo_qr": "Logo na kodzie QR",
-                "logo_qr_help": "Jeśli logo zostało przesłane, zostanie ono osadzone na kodzie QR. Pozostaw puste, aby użyć logo forum."
+                "logo_qr_help": "Jeśli logo zostało przesłane, zostanie ono osadzone na kodzie QR. Pozostaw puste, aby użyć logo forum.",
+                "tokens": {
+                    "heading": "",
+                    "help": "",
+                    "kill_inactive_tokens": "",
+                    "kill_inactive_tokens_help": "",
+                    "kill_inactive_tokens_age_days": "",
+                    "kill_inactive_tokens_age_days_help": "",
+                    "also_kill_developer_tokens": "",
+                    "also_kill_developer_tokens_help": ""
+                }
             }
         },
         "forum": {
@@ -49,6 +59,7 @@
                 "ok_button": "Ok",
                 "confirm_disable_2fa_title": "Potwierdzenie wyłączenia uwierzytelniania dwuskładnikowego",
                 "confirm_disable_2fa_text": "Czy na pewno chcesz wyłączyć uwierzytelnianie dwuskładnikowe?",
+                "confirm_disable_2fa_text_other_user": "Czy na pewno chcesz wyłączyć uwierzytelnianie dwuskładnikowe dla {username}? Spowoduje to usunięcie wszystkich kodów zapasowych i wyłączenie 2FA dla konta użytkownika.",
                 "cannot_disable": "Bieżąca konfiguracja uniemożliwia wyłączenie uwierzytelniania dwuskładnikowego.",
                 "cannot_disable_tooltip": "Nie można wyłączyć 2FA",
                 "cancel_button": "Anuluj",
@@ -79,7 +90,18 @@
                 "two_factor_token_label": "Token uwierzytelniania dwuskładnikowego"
             },
             "two_factor_token": {
+                "title": "Uwierzytelnianie dwuskładnikowe",
                 "submit_button": "Prześlij token"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
             }
         }
     },
@@ -87,8 +109,8 @@
         "lib": {
             "data": {
                 "twofactordata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Eksportuje status 2FA oraz zaszyfrowane kody zapasowe.",
+                    "delete_description": "Usuwa wszystkie dane powiązane z 2FA."
                 }
             }
         }

@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY. MM. DD. (hh:mm:ss)",
                 "terms-updated-at-help": "A feltételek legutóbbi frissítésének dátuma. Az érték beállítást azt eredményezi, hogy azon felhasználóknak, akik ez előtt fogadták el a féltételeket, újra el kell fogadniuk azokat. Múltbeli dátum kell, hogy legyen (különben a felhasználók nem tudnák a dátum után elfogadni, és így átlépni a párbeszédablakon).\n",
                 "export-url": "Exportálási webcím",
-                "export-url-help": "Minden „Összes házirendadat exportálása” jogosultsággal rendelkező felhasználói elérheti ezeket a webcímeket, hogy letöltse a házirendet elfogadó felhasználók listáját. Többet részletet tudhat meg az elérhető lehetőségekről a <a>bővítmény wikijén</a>.\n"
+                "export-url-help": "Minden „Összes házirendadat exportálása” jogosultsággal rendelkező felhasználói elérheti ezeket a webcímeket, hogy letöltse a házirendet elfogadó felhasználók listáját. Többet részletet tudhat meg az elérhető lehetőségekről a <a>bővítmény wikijén</a>.\n",
+                "optional": "Nem kötelező házirend",
+                "optional-help": "Ha engedélyezve van, akkor a felhasználók a házirend elfogadása nélkül is használhatják a fórumot."
             },
             "permissions": {
                 "see-user-policies-state": "Megtekintheti a felhasználói házirendek állapotát",
@@ -64,10 +66,25 @@
             "update-alert": {
                 "must-accept-message": "Ideiglenesen korlátoztuk a hozzáférését a fiókjához, amíg nem nézi meg az új feltételeket.",
                 "can-accept-message": "Nemrég frissítettük a feltételeket. A weboldal használatához el kell fogadnia őket.",
-                "review": "Kattintson ide az új feltételek áttekintéséhez és elfogadásához"
+                "can-accept-optional-message": "Nemrég frissítettük a feltételeket. Áttekintheti őket, amikor csak szeretné.",
+                "review": "Kattintson ide az új feltételek áttekintéséhez és elfogadásához",
+                "close": "Bezárás"
+            },
+            "user_settings": {
+                "optional_policies_label": "Házirendek"
             },
             "user_controls": {
                 "state_button": "Feltételek elfogadási állapota"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "userpolicydata": {
+                    "export_description": "Részletek arról, hogy a felhasználó elfogadta-e a feltételeket",
+                    "delete_description": "Eltávolítja, hogy a felhasználó elfogadta-e a feltételeket"
+                }
             }
         }
     },

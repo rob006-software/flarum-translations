@@ -1,8 +1,18 @@
 {
     "v17development-flarum-seo": {
+        "admin": {
+            "permissions": {
+                "configure_seo": ""
+            }
+        },
         "forum": {
             "profile_title": "פרופיל של {username}",
-            "profile_description": "פרופיל של {username} | {discussion_count} נושאים | {comment_count} הודעות"
+            "profile_description": "פרופיל של {username} | {discussion_count} נושאים | {comment_count} הודעות",
+            "controls": {
+                "configure_seo": "",
+                "update_seo": "",
+                "reset_seo": ""
+            }
         }
     }
 }

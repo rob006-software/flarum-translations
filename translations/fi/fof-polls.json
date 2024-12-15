@@ -2,16 +2,36 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "Salli kuvan osoitteen asettaminen jokaiseen kyselyn vaihtoehtoon",
+                "allow_image_uploads": "Salli kuvien siirto kyselyihin ja valintoihin",
+                "allow_image_uploads_help": "Mikäli käytössä, käyttäjät voivat siirtää kuvia antamalla kuvan osoitteen (jos käytössä valinnoille, aina käytössä kyselylle).",
+                "enable_global_polls": "Ota käyttöön yleiset kyselyt",
+                "enable_global_polls_help": "",
                 "max_options": "Maksimi määrä vaihtoehtoja per kysely",
                 "options_color_blend": "Värimuunnos teksti viestin vaihtoehdoista",
-                "options_color_blend_help": "Käytä tätä tehdäksesi kyselyn vaihtoehdoista luettavampia. Ota pois käytöstä jos tämä tuottaa ongelmia foorumin ulkoasun kanssa."
+                "options_color_blend_help": "Käytä tätä tehdäksesi kyselyn vaihtoehdoista luettavampia. Ota pois käytöstä jos tämä tuottaa ongelmia foorumin ulkoasun kanssa.",
+                "image_height": "",
+                "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Näytä tulokset ilman vastaamista",
                 "start": "Aloita kysely",
+                "start_global": "",
                 "self_edit": "Muokkaa luotuja kyselyitä (vaatii viestin muokkaus oikeuden)",
                 "self_post_edit": "Muokkaa *kaikkia* kyselyitä omissa viesteissä (vaatii viestin muokkaus oikeuden)",
+                "upload_images": "",
                 "vote": "Vastata kyselyissä",
                 "change_vote": "Vaihtaa vastausta",
                 "moderate": "Muokata & poistaa kyselyitä"
@@ -23,14 +43,46 @@
             "poll_ended": "Kysely on loppunut.",
             "public_poll": "Näytä vastaajat",
             "max_votes_allowed": "Kyselyt sallivat äänestyksen {max, plural, one {# vaihtoehdon} other {# vaihtoehtoon}}.",
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
             "poll": {
                 "cannot_change_vote": "Et voi vaihtaa ääntäsi äänestämisen jälkeen.",
-                "submit_button": "Äänestä"
+                "submit_button": "Äänestä",
+                "start_poll_button": "",
+                "cannot_start_poll_button": ""
+            },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "Sinulla ei ole oikeuksia aloittaa kyselyä."
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
             },
             "modal": {
                 "add_title": "Lisää kysely",
@@ -49,9 +101,29 @@
                 "max_votes_label": "Enimmäismäärä ääniä per käyttäjä",
                 "max_votes_help": "Aseta arvoksi 0, jotta voi vastata kaikkiin vaihtoehtoihin.",
                 "hide_votes_label": "Piilota äänet kunnes kysely päättyy",
+                "hide_votes_label_help": "",
                 "allow_change_vote_label": "Salli käyttäjän vaihtaa ääntään",
                 "question_placeholder": "Kysymys",
-                "submit": "Lähetä"
+                "subtitle_placeholder": "",
+                "submit": "Lähetä",
+                "delete": "",
+                "error": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": "",
+                    "later_help": ""
+                },
+                "poll_option_image": {
+                    "label": "",
+                    "help": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
             },
             "moderation": {
                 "add": "Lisää kysely",
@@ -59,12 +131,26 @@
                 "delete_confirm": "Haluatko varmasti poistaa tämän kyselyn?",
                 "edit": "Muokkaa kyselyä"
             },
+            "page": {
+                "nav": "",
+                "nav-all": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
             "tooltip": {
                 "badge": "Kysely",
                 "votes": "{count, plural, one {# vastaus} other {# vastausta}}"
             },
             "votes_modal": {
                 "title": "Vastaajat"
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
             }
         }
     }

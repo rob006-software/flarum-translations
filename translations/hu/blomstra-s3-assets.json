@@ -9,6 +9,34 @@
                 "s3key": {
                     "label": "Kulcs",
                     "help": "súgó"
+                },
+                "s3secret": {
+                    "label": "Titok",
+                    "help": "S3 hozzáférési titok"
+                },
+                "s3region": {
+                    "label": "Régió",
+                    "help": "S3 régió"
+                },
+                "s3bucket": {
+                    "label": "Tároló",
+                    "help": "S3 tároló"
+                },
+                "s3acl": {
+                    "label": "ACL",
+                    "help": "Adja meg az ACL-t ehhez a tárolóhoz"
+                },
+                "s3url": {
+                    "label": "Webcím",
+                    "help": "S3 webcím"
+                },
+                "s3endpoint": {
+                    "label": "Végpont",
+                    "help": "S3 végpont"
+                },
+                "s3path-style-endpoint": {
+                    "label": "S3 útvonal stílusú végpont",
+                    "help": "Útvonal stílusú végpontra váltás"
                 }
             }
         }

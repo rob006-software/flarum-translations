@@ -12,6 +12,11 @@
                 "ipsb": {
                     "label": "IP.SB",
                     "description": "Utilisez <b>https://ip.sb</b> pour obtenir gratuitement des informations sur la localisation de l'adresse IP (veillez à prendre en compte de la limite de tarif)"
+                },
+                "ipinfo": {
+                    "label": "IpInfo",
+                    "description": "Utilisez <b>https://ipinfo.io</b> pour obtenir des informations plus précises sur l'adresse IP (jeton requis)",
+                    "key": "Jeton IpInfo (obligatoire)"
                 }
             }
         }

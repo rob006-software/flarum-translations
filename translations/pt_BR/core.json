@@ -45,14 +45,14 @@
                 "welcome_banner_text": "Configure o texto exibido no banner na página Todas as discussões. Use isso para receber convidados no seu fórum."
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "Exigir que o usuário confirme este e-mail",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "Criar e adicionar outro",
+                "submit_button": "Criar usuário",
+                "title": "Criar novo usuário",
+                "use_random_password": "Gerar senha aleatória",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "Limpar cache",
@@ -193,7 +193,7 @@
                 "search_placeholder": "Buscar Extensão"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "Permitir excluir suas próprias postagens",
                 "allow_post_editing_label": "Permitir edição de postagem",
                 "allow_renaming_label": "Permitir renomeação",
                 "create_access_token_label": "Criar token de acesso",
@@ -227,7 +227,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinidamente",
-                "allow_never_button": "",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {Por # minuto} other {Por # minutos}}",
                 "allow_ten_minutes_button": "Por 10 minutos",
                 "allow_until_reply_button": "Até a próxima resposta",
@@ -245,7 +245,7 @@
                 "upload_button": "Escolha uma imagem..."
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "Novo Usuário",
                 "description": "Uma lista detalhada de todos os usuários do fórum.",
                 "grid": {
                     "columns": {
@@ -254,8 +254,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "Editar {username}"
+                            "tooltip": "Editar {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -268,6 +268,9 @@
                         },
                         "join_time": {
                             "title": "Entrou"
+                        },
+                        "user_actions": {
+                            "title": "Ações"
                         },
                         "user_id": {
                             "title": "ID"
@@ -472,7 +475,7 @@
                 },
                 "hide_access_token": "Ocultar Token",
                 "last_activity": "Última atividade",
-                "never": "Nunca",
+                "never": "=> core.ref.never",
                 "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
                     "submit_button": "Criar Token",
@@ -577,7 +580,7 @@
                 "nothing_available": "Você não tem permissão para editar este usuário."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "Dependências circulares detectadas: {extensions}. Abortando. Desative uma das extensões e tente novamente.",
                 "dependent_extensions_message": "Não é possível desativar {extension} até que as seguintes extensões dependentes sejam desativadas: {extensions}",
                 "extension_initialiation_failed_message": "{extension} não inicializou, verifique o console do navegador para obter mais informações.",
                 "generic_message": "Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.",
@@ -605,6 +608,11 @@
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "D MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY"
             },
             "series": {
                 "glue_text": ", ",
@@ -675,9 +683,9 @@
         "api": {
             "invalid_username_message": "O nome de usuário pode conter apenas letras, números e traços.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "O filtro {filter} deve ser numérico.",
+                "must_not_be_array_message": "O filtro {filter} não deve ser um array.",
+                "must_not_be_multidimensional_array_message": "O filtro {filter} não deve ser um array multidimensional."
             }
         },
         "email": {
@@ -725,7 +733,7 @@
             "log_in": "Entrar",
             "log_out": "Sair",
             "mark_all_as_read": "Marcar tudo como lido",
-            "never": "",
+            "never": "Nunca",
             "new_token": "Novo token",
             "next_page": "Próxima página",
             "notifications": "Notificações",

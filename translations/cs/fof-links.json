@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Smazat odkaz",
                 "delete_link_confirmation": "Opravdu chcete tento odkaz smazat?",
-                "everyone-label": "Všichni",
-                "guests-label": "Hosté",
                 "internal_link": "Jedná se o interní odkaz?",
-                "members-label": "Registrovaní uživatelé",
                 "open_newtab": "Otevřít odkaz na nové kartě",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,7 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "",
-                "visibility": "Viditelnost odkazů"
+                "visibility": "Viditelnost odkazů",
+                "visibility.help": "",
+                "visibility.help-disabled": "",
+                "visibility.label": "",
+                "visibility.guest-only.label": "",
+                "visibility.guest-only.help": "",
+                "everyone-label": "Všichni",
+                "guests-label": "Hosté",
+                "members-label": "Registrovaní uživatelé"
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

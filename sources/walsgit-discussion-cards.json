@@ -1,0 +1,81 @@
+{
+    "walsgit_discussion_cards": {
+        "forum": {
+            "replies": "Replies: {count}"
+        },
+        "admin": {
+            "settings": {
+                "general": {
+                    "where_title": "Where?",
+                    "where_info": "Set where you want to use discussion cards.",
+                    "allowedTags_label": "Select tags",
+                    "allowedTags_help": "Discussion cards will be activated and shown for the selected tags pages.",
+                    "onIndexPage_label": "Activate cards on the Index Page",
+                    "onIndexPage_help": "If activated, the <em>all discussions</em> page will show cards.",
+                    "primaryCardOptions_title": "Primary Card options",
+                    "primaryCardOptions_info": "Set if and how you want to use primary cards (bigger cards at the top of each page using discussion cards). 0 for none.",
+                    "primaryCards_label": "Number of primary cards",
+                    "primaryCards_help": "Number of bigger cards shown at the top of each page using discussion cards. (positive number 0 or more)",
+                    "desktopCardWidth_label": "Primary cards width on desktop",
+                    "desktopCardWidth_help": "Set the width (in %) of the primary cards on desktop. (between 10 and 100)",
+                    "tabletCardWidth_label": "Primary cards width on tablets",
+                    "tabletCardWidth_help": "Set the width (in %) of the primary cards on tablets. (between 10 and 100)",
+                    "cardOptions_title": "Card options",
+                    "cardOptions_info": "Set what data/infos should be shown on the cards.",
+                    "defaultImage_title": "General default image",
+                    "defaultImage_info": "Here you can change the default image to be used on cards when none is found in the discussion's first message. <u>IMPORTANT</u>: <em>note that changing the image will discard any other unsaved settings changes you made and will reload the page automatically. Please save your changes before changing the image</em> (or vice versa 😉). Accepted formats: JPG, PNG, GIF, BMP or WebP files. Ideal resolution: 400px x 225px (all uploaded images will be converted to a PNG file and resized to a width of 400px, except for images with smaller width, which will keep there initial resolution, and won't be upscaled). Depending on your file's resolution, the image could be shown cropped and/or stretched on cards.",
+                    "previewText_label": "Preview text",
+                    "previewText_help": "If activated, shows the start of the first message as a preview on the card.",
+                    "showAuthor_label": "Show author",
+                    "showAuthor_help": "If activated, shows the author of the discussion on the cards.",
+                    "showReplies_label": "Show number of replies",
+                    "showReplies_help": "If activated, shows the number of replies on the cards (and the avatars of a some participants in the discussion on primary cards).",
+                    "showBadges_label": "Show badges",
+                    "showBadges_help": "If activated, shows badges at the top left corner of the cards.",
+                    "markReadCards_label": "Differentiate cards of read/unread discussions",
+                    "markReadCards_help": "If activated, read discussions will have a black & white filter on their cards (image & tags), whereas unread discussions will be in full colors.",
+                    "otherOptions_title": "Options requiring other extensions",
+                    "otherOptions_info": "The following options will require other extensions to be installed and activated for them to work. <strong>IMPORTANT: please read <u>all</u> the info for each individual option and do the required steps before activating them</strong>.",
+                    "showViews_title_start": "With the ",
+                    "showViews_title_end": " extension installed and activated, you can set the following (1) option:",
+                    "viewsExtension_notInstalled": "{icon} This extension needs to be installed & activated for this setting to work.",
+                    "viewsExtension_notActivated": "{icon} This extension needs to be activated for this setting to work.",
+                    "showViews_label": "Show views",
+                    "showViews_help": "If option is enabled, shows the number of views on the cards.",
+                    "blogExtension_title_start": "With the ",
+                    "blogExtension_title_end": " extension installed and activated, you can set the following (2) options:",
+                    "blogExtension_notInstalled": "{icon} This extension needs to be installed & activated for this setting to work.",
+                    "blogExtension_notActivated": "{icon} This extension needs to be activated for this setting to work.",
+                    "useBlogImages_label": "Use the blog's default and featured images",
+                    "useBlogImages_help": "If option is enabled, the cards' image for every blog post will set to: the blog post's featured image; if none, to the blog's content's first found image; if none, to the blog extension's default image; if none, to the discussion cards' tag default image; if none, to the discussion cards' main default image. Note that custom settings for tags used as blog tags will of course be ignored if you chose to redirect blog tags in the Flarum Blog extension settings.",
+                    "useBlogSummary_label": "Use blog post's summary as preview text",
+                    "useBlogSummary_help": "If this option and preview text are enabled, the cards for blog posts will show the start of the blog post's summary as preview text instead of the start of the blog post's text."
+                }
+            },
+            "tags": {
+                "options_heading": "Discussion Cards",
+                "activation_button": "Activate for this tag",
+                "deactivation_button": "Deactivate for this tag",
+                "defaultImage_title": "Default image",
+                "defaultImage_info": "Set or change the default card image for this tag's page. See the Discussion Cards general settings for details on accepted file formats & resolutions.",
+                "options_button": "Other discussion cards settings"
+            },
+            "tag_modal": {
+                "title": "Discussion Card Settings for ",
+                "intro_text": "Here you can set different discussion cards settings for the current tag's page.",
+                "primaryCards_label": "Number of primary cards",
+                "primaryCards_help": "Number of bigger cards shown at the top of the page (global setting : {default}, min: 0).",
+                "desktopCardWidth_label": "Primary cards width on desktop",
+                "desktopCardWidth_help": "Set the width (in %) of the primary cards on desktop (global setting: {default}%, min: 10% & max: 100%).",
+                "tabletCardWidth_label": "Primary cards width on tablets",
+                "tabletCardWidth_help": "Set the width (in %) of the primary cards on tablets (global setting: {default}%, min: 10% & max: 100%).",
+                "submit_button": "Save"
+            },
+            "errors": {
+                "primaryCards": "Number of primary cards must be a positive number (0 or greater)",
+                "desktopCardWidth": "Primary cards width on desktop must be a number between 10 and 100",
+                "tabletCardWidth": "Primary cards width on tablets must be a number between 10 and 100"
+            }
+        }
+    }
+}

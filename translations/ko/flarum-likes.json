@@ -5,8 +5,8 @@
                 "like_posts_label": "게시물에 좋아요 누르기"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "활성화되면 권한에 따라 사용자가 포럼에서 자신의 게시물을 '좋아요' 할 수 있습니다. 사용자가 자신의 게시물에 '좋아요'를 표시하지 못하도록 하려면 이 설정을 비활성화하세요.",
+                "like_own_posts_label": "사용자는 자신의 게시물에 좋아요를 할 수 있음"
             }
         },
         "forum": {
@@ -24,13 +24,13 @@
             },
             "post_likes": {
                 "title": "이 게시물에 좋아요를 누른 사용자들",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
                 "notify_post_liked_label": "누군가 내 게시물 중 하나에 좋아요를 눌렀을 때"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "좋아요"
             }
         }
     }

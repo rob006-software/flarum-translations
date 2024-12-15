@@ -37,7 +37,7 @@
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "دلیلی برای این تعلیق ذکر نشده است.",
             "suspended": {
                 "subject": "حساب شما مسدود شده است",
                 "body": "سلام {recipient_display_name}،\n\nشما به دلایل زیر تعلیق شده اید:\n\n---\n{suspension_message}\n---\n"
@@ -45,6 +45,11 @@
             "unsuspended": {
                 "subject": "حساب شما لغو تعلیق شده است",
                 "body": "سلام {recipient_display_name}،\n\nشما رفع تعلیق شده اید. با کلیک بر روی لینک زیر می توانید به انجمن بازگردید:\n\n{forum_url}\n"
+            }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": "مسدود شده تا"
             }
         }
     }

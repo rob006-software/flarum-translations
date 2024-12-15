@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Ulanyjy tarapyndan ýüklenen ähli faýllar.",
-                    "anonymize_description": "Ýüklenen faýllardan ulanyjy salgylanmasyny aýyrýar. Faýllaryň özleri, anonimleşdirilmegini görüp bilýän ulanyjylar üçin elýeterli bolýarlar.",
-                    "delete_description": "Ulanyjy tarapyndan ýüklenen ähli faýllary bozýar."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -36,6 +36,7 @@
                 "watermark": "Suratlaryň ýüklenende suw belliginiň goşuljakdygyny ýa-da ýokdugyny saýlaň. Suw bellikleri aşakdaky islegleriňize görä gif dällere goşulýar.\n",
                 "s3_compatible_storage": "Aşakdaky sazlamalar diňe S3 gabat gelýän ammar ulanylanda talap edilýär. AWS ulanýan bolsaňyz, olary boş goýup bilersiňiz.\n",
                 "s3_acl": "Uploadüklenen obýekte ulanylmaly ACL (default: hususy). Mümkin bolan gymmatlyklar üçin https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl serediň\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "Mysal profilinde şahsyýet maglumatlaryny ulanmak üçin açary we syry boş goýuň.\n",
                 "composer_buttons": "Adaty tertipde media dolandyryjy düwmesi we ýüklemek düwmesi görünýär. Şeýle hem diňe bir düwmäni görkezmegi saýlap bilersiňiz.\n"
             },
@@ -49,7 +50,8 @@
                     "advanced_title": "Ösen S3 ammar sazlamalary",
                     "endpoint": "Ahyrky nokat",
                     "use_path_style_endpoint": "Styleol stiliniň ahyrky nokadyny ulanyň",
-                    "acl": "Giriş dolandyryş sanawy (ACL)"
+                    "acl": "Giriş dolandyryş sanawy (ACL)",
+                    "custom_url": ""
                 },
                 "disable-download-logging": {
                     "title": "Gingükleme ýüklemelerini öçüriň",
@@ -130,6 +132,7 @@
             },
             "upload_methods": {
                 "aws-s3": "S3 / Gabat gelýär",
+                "awss3": "",
                 "imgur": "Imgu",
                 "local": "Lokal",
                 "ovh-svfs": "",
@@ -157,7 +160,7 @@
                 "upload_shared": "Paýlaşylan",
                 "user_uploads": "Ulanyjy ýüklemeleri",
                 "cancel": "Ýatyr",
-                "media": "Meniň mediýalarym",
+                "media": "Mediýalarym",
                 "shared_media": "Paýlaşylan mediýa"
             },
             "states": {
@@ -211,7 +214,7 @@
         "lib": {
             "upload-shared-file-modal": {
                 "title": "Täze paýlaşylan faýl",
-                "dropzone": "Faýllary şu ýere süýräň ýa-da göz aýlamak üçin basyň",
+                "dropzone": "Faýllary şu ýere geçiriň ýa-da göz aýlamak üçin basyň",
                 "hide-from-media-gallery": "Ulanyjynyň media galereýasyndan gizle",
                 "upload": "Ýükle"
             },
@@ -219,7 +222,7 @@
                 "loading": "Faýllar ýüklenilýär...",
                 "empty": "Görkeziljek faýllar ýok.",
                 "release_to_upload": "Ýüklemek üçin goýber",
-                "modal_empty_desktop": "Faýl sanawyňyz boş. Ýüklemek üçin düwmä basyň ýa-da şu ýere faýly süýre.",
+                "modal_empty_desktop": "Faýl sanawyňyz boş. Ýüklemek üçin düwmä basyň ýa-da şu ýere faýly geçiriň.",
                 "modal_empty_phone": "Faýl sanawyňyz boş. Faýl ýüklemek üçin ýokardaky düwmä basyň.",
                 "select_file_a11y_label": "Faýly saýla \"{fileName}\"",
                 "confirm_selection_btn": "{fileCount, plural, =0 {Hiç zat saýlanylmadyk} one {Faýly saýla} other {Faýllary saýla}}",
@@ -229,9 +232,9 @@
                 "hide_file": {
                     "btn_a11y_label_hide": "Mediýa dolandyryjysyndan \"{fileName}\" faýly gizle",
                     "btn_a11y_label_show": "Media dolandyryjysynda \"{fileName}\" görkez",
-                    "hide_confirmation": "\"{fileName}\" gizlemek isleýändigiňize ynamlymysyňyz? Faýly gizlemek ony diňe media dolandyryjyňyzdan aýyrar we bar bolan ýazgylara täsir etmez.",
+                    "hide_confirmation": "\"{fileName}\" gizlemek isleýändigiňize ynamlymy? Faýly gizlemek ony diňe media dolandyryjydan aýyrar we bar bolan ýazgylara täsir etmez.",
                     "hide_success": "Faýl gizlenen",
-                    "show_confirmation": "\"{fileName}\" görkezmek isleýändigiňize ynamlymysyňyz? Faýl media dolandyryjyňyzda görüner.",
+                    "show_confirmation": "\"{fileName}\" görkezmek isleýändigiňize ynamlymy? Faýl media dolandyryjyzda görüner.",
                     "show_success": "Faýl görkezilen",
                     "hide_fail": "\"{fileName}\" faýly gizläp bolmady",
                     "show_fail": "\"{fileName}\" faýly görkezip bolmady",
@@ -240,13 +243,24 @@
                 "hide_shared_file": {
                     "btn_a11y_label_hide": "\"{fileName}\" şahsy ediň (açyk URL ýok)",
                     "btn_a11y_label_show": "\"{fileName}\" köpçülige ýetiriň (açyk URL bar)",
-                    "hide_confirmation": "\"{fileName}\" şahsy etmek isleýändigiňize ynamlymysyňyz? Faýly şahsylaşdyrmak, açyk URL-ni aýyrar, ýöne bar bolan ýazgylara täsir etmez. Mundan başga-da, media dolandyryjysynda rugsatsyz ulanyjylara görünmez.",
+                    "hide_confirmation": "\"{fileName}\" şahsy etmek isleýändigiňize ynamlymy? Faýly şahsylaşdyrmak, açyk URL-ni aýyrar, ýöne bar bolan ýazgylara täsir etmez. Mundan başga-da, media dolandyryjysynda rugsatsyz ulanyjylara görünmez.",
                     "hide_success": "Faýl şahsylaşdyryldy",
-                    "show_confirmation": "\"{fileName}\" köpçülige ýetirmek isleýändigiňize ynamlymysyňyz? Faýly köpçülige açmak, köpçülige açyk URL bolan islendik adam üçin elýeterli bolar we islendik adam media dolandyryjysy arkaly paýlaşyp biler.",
+                    "show_confirmation": "\"{fileName}\" köpçülige ýetirmek isleýändigiňize ynamlymy? Faýly köpçülige açmak, köpçülige açyk URL bolan islendik adam üçin elýeterli bolar we islendik adam media dolandyryjysy arkaly paýlaşyp biler.",
                     "show_success": "Faýl köpçülige ýetirildi",
                     "hide_fail": "\"{fileName}\" faýly şahsy edip bolmady",
                     "show_fail": "\"{fileName}\" faýly köpçülige ýetirip bolmady",
                     "loading": "Faýl şahsylaşdyrylýar..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Ulanyjy tarapyndan ýüklenen ähli faýllar.",
+                    "anonymize_description": "Ýüklenen faýllardan ulanyjy salgylanmasyny aýyrýar. Faýllaryň özleri, anonimleşdirilmegini görüp bilýän ulanyjylar üçin elýeterli bolýarlar.",
+                    "delete_description": "Ulanyjy tarapyndan ýüklenen ähli faýllary bozýar."
                 }
             }
         }

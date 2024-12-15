@@ -43,6 +43,7 @@
                 "about_tags_text": "Etiketler tartışmaları kategorilere ayırmak için kullanılır. Birincil etiketler geleneksel forum kategorileri gibidir: iki seviyeli bir hiyerarşide düzenlenebilirler. İkincil etiketler hiyerarşi veya sıraya sahip değildir ve mikro kategorilere ayırmak için kullanışlıdır.",
                 "create_primary_tag_button": "Birincil Etiket Oluşturun",
                 "create_secondary_tag_button": "İkincil Etiket Oluşturun",
+                "edit_tag_label": "",
                 "primary_heading": "Birincil Etiketler",
                 "secondary_heading": "İkincil Etiketler",
                 "settings_heading": "Ayarlar"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "{count, plural, one {1 etiket daha seçin} other {# etiket daha seçin}}",
             "name": "İsim",
             "tags": "Etiketler"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

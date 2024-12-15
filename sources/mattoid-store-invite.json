@@ -1,0 +1,87 @@
+{
+    "mattoid-store-invite": {
+        "admin": {
+            "settings": {
+                "group-view": "Display products to users",
+                "group-admin-view": "Audit permissions",
+                "calm-down-period-help": "After the application is rejected, it is not allowed to reapply for N days from the date of rejection",
+                "calm-down-period": "Application for cooling off period (days)",
+                "invite-validity-period": "Invitation code validity period (days)",
+                "invite-validity-period-help": "After the review is approved, verification codes that exceed the time limit will automatically become invalid",
+                "show-index": "Add to homepage",
+                "show-index-help": "Display the review menu on the homepage",
+                "price": "Deduction of fees",
+                "price-help": "Deduction of funds upon approval",
+                "mail": "Email template",
+                "mail-help": "Email content sent to invitees",
+                "mail-title": "Email Title",
+                "mail-title-help": "The invitee receives the title content of the email",
+                "auto-review": "Automatic review passed",
+                "auto-review-help": "After checking, the system will automatically pass and complete the review operation",
+                "auto-review-username": "Automatically review users",
+                "auto-review-username-help": "When automatic auditing is enabled, the system will query the entered users",
+                "mail-template": "Hello [user], Your invitation code is [code]",
+                "group-blacklist-view": "Blacklist user group (users in this group will not be able to purchase products)",
+                "group": "Register User Group",
+                "group-help": "After registering, the user defaults to being a member of the user group"
+            }
+        },
+        "forum": {
+            "title": "Invite",
+            "email": "Invitee's email",
+            "email-help": "The invitee's email will be linked to the forum's registered email.",
+            "remark": "remark",
+            "remark-help": "Only visible to oneself and management (can be left blank).",
+            "username": "Invitee username",
+            "username-help": "The invitee's username is not bound to the forum's registered username",
+            "link": "Invitee's personal chain",
+            "link-help": "Confirmation of invitee information by reviewers (this information can only be viewed by reviewers and dispensing personnel)",
+            "link-2": "Invitee Chain 2",
+            "link-2-help": "Confirmation of invitee information by reviewers (this information can only be viewed by reviewers and dispensing personnel)",
+            "invite": "Invitation review",
+            "my-invite": "My invitation",
+            "system-review": "System automatic review",
+            "confirm-invite-price": "Invitation fee deduction",
+            "confirm-adopt": "confirm",
+            "confirm-refuse": "refuse",
+            "mail": {
+                "send-invite-title": "Invitation code"
+            },
+            "error": {
+                "unaudited": "You have unapproved application information and cannot continue the application at this time",
+                "review-failed": "You have recently received rejected application information. Please try again after [{date}]",
+                "invite-not-exist": "The application information has been reviewed or does not exist. Please refresh the page and try again",
+                "user-balance-low": "Insufficient user balance",
+                "email-exist": "The invitee's email already exists",
+                "lock-resources": "The current resource is locked. Please try again later",
+                "email-inconsistency": "The email and invitation information do not match. Please use the email that received the invitation code",
+                "username-inconsistency": "The username does not match the invitation information. Please register using the username provided in the email",
+                "exception": "Automatic review failed [{message}]",
+                "email-not-exist": "Email cannot be empty",
+                "link-not-exist": "link of the invitee cannot be empty"
+            }
+        },
+        "lib": {
+            "item-user": "Inviter",
+            "item-email": "Invitee's email",
+            "item-username": "Invitee username",
+            "item-link": "Invitee's personal chain",
+            "item-link-2": "Invitee Chain 2",
+            "item-apply-rmark": "Apply Rmark",
+            "item-confirm-status": "Review status",
+            "item-confirm-user": "Reviewer",
+            "item-confirm-time": "Review time",
+            "item-confirm-remark": "Review comments",
+            "item-button-expand": "expand",
+            "item-button-retract": "retract",
+            "item-status-all": "All",
+            "item-status-confirm": "Unaudited",
+            "item-status-adopt": "adopt",
+            "item-status-refuse": "refuse",
+            "item-query": "Search by inviter/invitee/email",
+            "item-total-num": "Accumulated number of submissions",
+            "item-pass-total-num": "Accumulated number of passes",
+            "item-invite-code": "Invite"
+        }
+    }
+}

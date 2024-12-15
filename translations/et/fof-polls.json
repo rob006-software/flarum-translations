@@ -2,69 +2,155 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "Üldised seaded",
+                    "help": "Need seaded määravad küsitluste lisaprogrammi peamised funktsioonid."
+                },
+                "global_polls": {
+                    "heading": "Üldised küsitlused",
+                    "help": "Need seaded määravad üldised küsitluste funktsioonid."
+                },
+                "image": {
+                    "heading": "Pildi seaded",
+                    "help": "Need seaded määravad küsitluse piltide seaded."
+                },
                 "allow_option_image": "",
-                "max_options": "",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
+                "enable_global_polls": "",
+                "enable_global_polls_help": "",
+                "max_options": "Maksimaalne vastusevariantide arv küsitluses",
                 "options_color_blend": "",
-                "options_color_blend_help": ""
+                "options_color_blend_help": "",
+                "image_height": "Muuda pildi kõrgust",
+                "image_width": "Muuda pildi laiust"
             },
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
+                "view_results_without_voting": "Vaata tulemusi ilma hääletamata",
+                "start": "Alusta küsitlust",
+                "start_global": "Alusta üldist küsitlust",
                 "self_edit": "",
                 "self_post_edit": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": ""
+                "upload_images": "",
+                "vote": "Vasta küsitlusele",
+                "change_vote": "Muuda vastust",
+                "moderate": "Muuda ja eemalda küsitlusi"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
+            "days_remaining": "Küsitlus lõpeb {time}.",
+            "no_permission": "Sul pole vastamiseks õiguseid",
+            "poll_ended": "Küsitlus on lõppenud.",
+            "public_poll": "Vaata vastajaid",
             "max_votes_allowed": "",
+            "polls_count": "",
+            "poll_never_ends": "Küsitlus ei lõpe kunagi",
+            "answers": "Vastused",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": ""
+                "cannot_change_vote": "Sa ei saa oma vastust pärast vastamist enam muuta.",
+                "submit_button": "Vasta",
+                "start_poll_button": "Alusta üldist küsitlust",
+                "cannot_start_poll_button": "Küsitluse käivitamine ebaõnnestus"
+            },
+            "poll_controls": {
+                "edit_label": "Muuda",
+                "delete_label": "Kustuta",
+                "view_label": "Vaata",
+                "delete_confirmation": "Oled sa kindel, et soovid seda küsitlust kustutada?",
+                "delete_success_message": "Küsitlus on kustutatud.",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "Kustuta küsitlus",
+                "error": ""
+            },
+            "polls_page": {
+                "title": "Küsitlused"
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
             },
             "composer_discussion": {
                 "add_poll": "",
                 "edit_poll": "",
                 "no_permission_alert": ""
             },
+            "compose": {
+                "add_title": "Lisa küsitlus",
+                "edit_title": "Muuda küsitlust",
+                "polls_manager": "Küsitluste haldamine",
+                "polls_preview": "Vaata küsitlust",
+                "continue_editing": "Jätka muutmist",
+                "success": "Küsitlus on salvestatud."
+            },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "image_option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
+                "add_title": "Lisa küsitlus",
+                "add_option_label": "Lisa valik",
+                "date_placeholder": "Küsitluse lõpu kuupäev (valikuline)",
+                "edit_title": "Muuda küsitlust",
+                "include_question": "Sa pead lisama ka küsimuse",
+                "max": "Sul võib olla maksimaalselt {max} vastusevarianti",
+                "min": "Sa pead lisama vähemalt 2 vastusevarianti",
+                "no_voters": "Vastuseid pole",
+                "option_placeholder": "Vastus",
+                "image_option_placeholder": "Link pildile (valikuline)",
+                "options_label": "Vastused",
+                "public_poll_label": "Luba inimestel näha, kes vastasid",
+                "allow_multiple_votes_label": "Luba inimestel valida mitu valikuvarianti",
+                "max_votes_label": "Maksimaalseid vastuseid kasutaja kohta",
+                "max_votes_help": "Sisesta 0, et lubada kasutajal valida kõik valikuvariandid.",
+                "hide_votes_label": "Peida vastused kuni küsitlus lõpeb",
+                "hide_votes_label_help": "",
                 "allow_change_vote_label": "",
-                "question_placeholder": "",
-                "submit": ""
+                "question_placeholder": "Küsimus",
+                "subtitle_placeholder": "Alampealkiri/Kirjeldus (valikuline)",
+                "submit": "Saada",
+                "delete": "Kustuta",
+                "error": "",
+                "poll_image": {
+                    "label": "Küsitluse pilt",
+                    "help": "Laadi üles pilt, mida näidatakse küsitluse kõrval (valikuline).",
+                    "alt_label": "Pildi alt tekst",
+                    "alt_help_text": "",
+                    "later_help": ""
+                },
+                "poll_option_image": {
+                    "label": "Küsitluse vastuse pilt",
+                    "help": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": "Lisa vastus"
+                    }
+                }
             },
             "moderation": {
-                "add": "",
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "add": "Lisa küsitlus",
+                "delete": "Eemalda küsitlus",
+                "delete_confirm": "Oled sa kindel, et soovid selle küsitluse kustutada?",
+                "edit": "Muuda küsitlust"
+            },
+            "page": {
+                "nav": "Küsitlused",
+                "nav-all": "Kõik üldised küsitlused"
+            },
+            "showcase": {
+                "active-polls": "Aktiivsed küsitlused",
+                "ended-polls": "Lõppenud küsitlused",
+                "no-active-polls": "Hetkel pole ühtegi aktiivset küsitlust.",
+                "no-recent-polls": "Hetkel pole ühtegi hiljuti lõppenud küsitlust."
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Küsitlus",
+                "votes": "{count, plural, one {# hääl} other {# häält}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Vastajad"
+            },
+            "upload_image": {
+                "remove_button": "Kustuta pilt",
+                "upload_button": "Laadi pilt üles"
             }
         }
     }

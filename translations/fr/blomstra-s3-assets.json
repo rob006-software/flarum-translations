@@ -9,6 +9,34 @@
                 "s3key": {
                     "label": "Clé",
                     "help": "aide"
+                },
+                "s3secret": {
+                    "label": "Clé secrète",
+                    "help": "Clé secrète d'accès S3"
+                },
+                "s3region": {
+                    "label": "Région",
+                    "help": "Région S3"
+                },
+                "s3bucket": {
+                    "label": "Espace de stockage mémoire",
+                    "help": "Espace de stockage mémoire S3"
+                },
+                "s3acl": {
+                    "label": "ACL",
+                    "help": "Spécifier l'ACL pour cet espace de stockage mémoire"
+                },
+                "s3url": {
+                    "label": "URL",
+                    "help": "URL S3"
+                },
+                "s3endpoint": {
+                    "label": "Point d'accès",
+                    "help": "Point d'accès S3"
+                },
+                "s3path-style-endpoint": {
+                    "label": "Chemin du point d'accès de style S3",
+                    "help": "Passer au chemin de stockage du style"
                 }
             }
         }

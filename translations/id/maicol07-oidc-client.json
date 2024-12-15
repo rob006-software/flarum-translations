@@ -5,7 +5,7 @@
                 "client": {
                     "title": "Pengaturan client",
                     "subtitle": "Tambahkan di sini detail client Anda yang diberikan oleh provider OpenID Connect Anda. Untuk bantuan lebih lanjut, periksa dokumentasi.\n",
-                    "id": "Client ID",
+                    "id": "ID Client",
                     "secret": "Client secret",
                     "enable_pkce": "Aktifkan PKCE (disarankan)",
                     "enable_nonce": "Aktifkan verifikasi nonce (disarankan)",
@@ -22,32 +22,32 @@
                 "provider": {
                     "title": "Pengaturan provider",
                     "subtitle": "Tambahkan di sini detail provider Anda. Jika provider Anda menggunakan autodiscovery, Anda tidak perlu menambahkan endpoint dan beberapa kolom lainnya (Anda bebas mengesampingkannya jika Anda mau!). Jika provider Anda belum menerapkannya, Anda bisa menambahkan pengaturan yang diperlukan secara manual di bawah ini. Periksa dokumentasi untuk memperoleh panduan lebih lanjut\n",
-                    "url": "URL Provider",
+                    "url": "URL - Provider",
                     "endpoints": {
-                        "authorize": "URL endpoint autorisasi",
-                        "token": "URL endpoint token",
-                        "userinfo": "URL endpoint informasi pengguna",
-                        "logout": "",
-                        "jwks": "URL JWKS endpoint"
+                        "authorize": "URL - Authorization endpoint",
+                        "token": "URL - Token endpoint",
+                        "userinfo": "URL - Userinfo endpoint",
+                        "logout": "Mengakhiri sesi (logout) endpoint URL",
+                        "jwks": "URL - JWKS endpoint"
                     },
-                    "issuer": "",
-                    "code_challenge_method": "",
-                    "response_type": "Jenis respons provider terhadap autorisasi",
-                    "id_token_signing_alg": "",
-                    "authorization_response_iss_parameter_supported": "Parameter respons autorisasi adalah parameter yang didukung",
-                    "token_endpoint_auth_method": ""
+                    "issuer": "URL - Issuer",
+                    "code_challenge_method": "Metode - Code challenge",
+                    "response_type": "Jenis respons provider terhadap otorisasi",
+                    "id_token_signing_alg": "Algoritma penandatanganan token ID",
+                    "authorization_response_iss_parameter_supported": "Authorization response adalah parameter yang didukung",
+                    "token_endpoint_auth_method": "Metode - Token endpoint auth"
                 },
                 "other": {
                     "title": "Pengaturan lainnya",
                     "provider_name": "Nama provider yang akan ditampilkan pada tombol terkait dengan OIDC",
-                    "linker_claim": "",
-                    "manage_account_url": "URL manajemen akun",
+                    "linker_claim": "Linker claim",
+                    "manage_account_url": "URL - manajemen akun",
                     "manage_account_btn_open_in_new_tab": "Buka halaman manajemen akun di tab baru",
                     "sso_mode": "Mode SSO",
                     "logout_from_provider": "Logout dari provider (ketika mode SSO diaktifkan)",
                     "remove_signup_btn": "Hapus tombol pendaftaran",
                     "sync_avatars": "Sinkronisasi avatar pengguna",
-                    "time_drift": ""
+                    "time_drift": "Pergeseran waktu JWT"
                 },
                 "provider_name": "Nama provider OpenID Connect",
                 "client_settings_title": "Pengaturan client",

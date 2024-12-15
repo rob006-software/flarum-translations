@@ -43,6 +43,7 @@
                 "about_tags_text": "Thẻ sử dụng để phân loại các cuộc thảo luận. Các thẻ chính giống như các danh mục diễn đàn: chúng có thể được sắp xếp theo hệ thống phân cấp hai cấp. Các thẻ phụ không có thứ bậc hoặc thứ tự và rất hữu ích cho việc phân loại.",
                 "create_primary_tag_button": "Tạo thẻ chính",
                 "create_secondary_tag_button": "Tạo thẻ phụ",
+                "edit_tag_label": "",
                 "primary_heading": "Thẻ chính",
                 "secondary_heading": "Thẻ phụ",
                 "settings_heading": "Thiết lập"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "{count, plural, one {Chọn thêm một thẻ} other {Chọn thêm # thẻ}}",
             "name": "Tên",
             "tags": "Thẻ"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

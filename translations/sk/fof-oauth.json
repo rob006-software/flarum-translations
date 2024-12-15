@@ -3,6 +3,9 @@
         "admin": {
             "configure_button_label": "Konfigurovať pomocou FoF OAuth",
             "settings_accessibility_label": "{name} nastavenia",
+            "permissions": {
+                "moderate_user_providers": ""
+            },
             "settings": {
                 "advanced": {
                     "heading": "",
@@ -77,6 +80,7 @@
                         "label": "Prepojené účty",
                         "last-used-label": "Naposledy použité",
                         "link-created-label": "Prepojenie vytvorené",
+                        "identification-label": "",
                         "orphaned-account": "Predtým ste sa prihlásili prostredníctvom tohto poskytovateľa, ale odvtedy je na tomto fóre prihlasovanie touto metódou zakázané.",
                         "help": "Tieto prepojené účty vám umožňujú prihlásiť sa do fóra pomocou iných poskytovateľov.",
                         "identifier-label": "{provider} ID",

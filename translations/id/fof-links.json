@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Hapus Link",
                 "delete_link_confirmation": "Apakah Anda yakin ingin menghapus link ini?",
-                "everyone-label": "Semua",
-                "guests-label": "Tamu",
                 "internal_link": "Apakah ini link internal?",
-                "members-label": "Pengguna terdaftar",
                 "open_newtab": "Buka link pada tab baru",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -15,12 +12,20 @@
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
-                "icon_additional_text": "Jika Anda ingin menggunakan ikon brand, awalannya adalah <code>fab fa-</code>.",
+                "icon_additional_text": "Jika Anda ingin menggunakan ikon brand, prefiksnya adalah <code>fab fa-</code>.",
                 "url_description": "Biarkan kosong untuk ditampilkan sebagai label.",
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Tambahkan atribut <code>rel=\"me\"</code> untuk verifikasi identitas di situs lain",
-                "visibility": "Visibilitas link"
+                "visibility": "Visibilitas link",
+                "visibility.help": "Link secara default hanya dapat dilihat oleh pengguna <code>{admin}</code>. Sesuaikan izin untuk menentukan siapa saja yang dapat melihat link ini.",
+                "visibility.help-disabled": "Simpan link sebelum mengubah pengaturan visibilitas.",
+                "visibility.label": "Visibilitas link",
+                "visibility.guest-only.label": "Hanya {guest}?",
+                "visibility.guest-only.help": "Hanya {guest} yang dapat melihat link ini. Izin di atas harus ditetapkan ke '{everyone}'.",
+                "everyone-label": "Semua",
+                "guests-label": "Tamu",
+                "members-label": "Pengguna terdaftar"
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

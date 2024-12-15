@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "Das Datum der letzten Aktualisierung der Bedingungen. Wird dieser Wert gesetzt, werden alle Nutzer:innen die den Bedingungen vor dem Datum bereits zugestimmt haben zur erneuten Zustimmung aufgefordert. Muss in der Vergangenheit liegen - andernfalls können Nutzer:innen nicht zustimmen und kommen nie über das Overlay hinaus.\n",
                 "export-url": "Download/Export URL",
-                "export-url-help": "Jede:r Nutzer:in mit der Berechtigung \"Download/Export alle Richtlinien Daten\" kann auf diese URL zum Download der Nutzer:innen die dieser Richtlinie zugestimmt haben zugreifen. Du kannst weitere Details über verfügbare Optionen im <a>Extension Wiki</a> finden.\n"
+                "export-url-help": "Jede:r Nutzer:in mit der Berechtigung \"Download/Export alle Richtlinien Daten\" kann auf diese URL zum Download der Nutzer:innen die dieser Richtlinie zugestimmt haben zugreifen. Du kannst weitere Details über verfügbare Optionen im <a>Extension Wiki</a> finden.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "Richtlinienstatus des/der Nutzer:in anzeigen",
@@ -64,14 +66,19 @@
             "update-alert": {
                 "must-accept-message": "Während Du dir die neuen Bedingungen ansiehst, haben wir den Zugang zum Forum vorübergehend eingeschränkt.",
                 "can-accept-message": "Wir haben unsere Bedingungen kürzlich aktualisiert. Um die Seite weiter zu benutzen, musst du diesen zustimmen.",
-                "review": "Klicke hier, um die neuen Bedingungen zu lesen und zu akzeptieren"
+                "can-accept-optional-message": "",
+                "review": "Klicke hier, um die neuen Bedingungen zu lesen und zu akzeptieren",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "Akzeptanz-Status der Bedingungen"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

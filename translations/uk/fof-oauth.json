@@ -3,6 +3,9 @@
         "admin": {
             "configure_button_label": "Налаштувати за допомогою FoF OAuth",
             "settings_accessibility_label": "{name} налаштування",
+            "permissions": {
+                "moderate_user_providers": "Модерувати пов’язані облікові записи користувачів"
+            },
             "settings": {
                 "advanced": {
                     "heading": "Просунутий",
@@ -77,6 +80,7 @@
                         "label": "Пов'язані облікові записи",
                         "last-used-label": "Останній раз використовувався",
                         "link-created-label": "Дата створення посилання",
+                        "identification-label": "{provider} ID",
                         "orphaned-account": "Ви входили через цього провайдера раніше, але з того часу цей форум відключив вхід за допомогою цього методу.",
                         "help": "Ці пов'язані акаунти дозволяють входити на форум за допомогою інших провайдерів.",
                         "identifier-label": "{provider} ID",

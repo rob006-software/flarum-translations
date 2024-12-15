@@ -1,0 +1,26 @@
+{
+    "xypp-store-doorman": {
+        "forum": {
+            "key-not-found": "Clé non trouvée",
+            "key": "Clé d'invitation",
+            "create": {
+                "select": "Sélectionner les données",
+                "count": "Périodes d'utilisation",
+                "group": "Groupe après inscription",
+                "activate": "Activation automatique",
+                "submit": "Confirmer",
+                "title": "Sélectionner les données"
+            },
+            "send": {
+                "title": "Envoyer un courriel d'invitation",
+                "cancel": "Annuler",
+                "submit": "Envoyer",
+                "email": "Adresse de courriel",
+                "url": "URL d'invitation",
+                "failed": "Échec de l'envoi du courriel"
+            },
+            "showcase": "Peut inviter {count} fois, groupe {group} après enregistrement, activation automatique : {activate}",
+            "has_used": "A été utilisé {count} fois"
+        }
+    }
+}

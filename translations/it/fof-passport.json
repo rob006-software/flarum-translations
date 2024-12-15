@@ -3,20 +3,20 @@
         "admin": {
             "popup": {
                 "field": {
-                    "app-auth-url": "",
-                    "app-token-url": "",
-                    "app-user-url": "",
-                    "app-id": "",
-                    "app-secret": "",
-                    "app-scopes": "",
-                    "button-title": "",
-                    "button-title-placeholder": "",
-                    "button-icon": ""
+                    "app-auth-url": "URL autorizzazione OAuth",
+                    "app-token-url": "URL token OAuth",
+                    "app-user-url": "URL API che fornisce i dettagli dell'utente quando autenticato",
+                    "app-id": "OAuth ID applicazione",
+                    "app-secret": "OAuth chiave segreta applicazione",
+                    "app-scopes": "Ambiti OAuth da richiedere",
+                    "button-title": "Etichetta per il pulsante di accesso",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "Icona per pulsante login"
                 }
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "=> core.ref.log_in"
         }
     }
 }

@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "mode": {
-                    "label": "",
-                    "help": "",
+                    "label": "Viimase postituse avatari näitamise viis",
+                    "help": "Vali kus ja kuidas viimase postituse avatari vestluste nimekirjas näidatakse.",
                     "options": {
-                        "all-replies": "",
-                        "non-op-replies": "",
-                        "always": "",
-                        "replace-main": ""
+                        "all-replies": "Ainult vastused",
+                        "non-op-replies": "Ainult vastused, vestluse alustajat ei näidata",
+                        "always": "Alati",
+                        "replace-main": "Asenda peamine vestluse avatar"
                     }
                 },
                 "ignorePrivateDiscussions": {
-                    "label": "",
-                    "help": ""
+                    "label": "Ignoreeri privaatseid arutelusid (FoF Byōbu)",
+                    "help": "Märgi see valik, kui sa ei soovi mis avastati näitamist privaatseid aruteludes."
                 }
             }
         }

@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "title": "Pengaturan",
-                "moneyforpost": "Money yang diberikan untuk postingan baru",
-                "moneyfordiscussion": "Money yang diberikan untuk diskusi baru",
+                "moneyforpost": "Dana yang diberikan untuk postingan baru",
+                "moneyfordiscussion": "Dana yang diberikan untuk diskusi baru",
                 "moneyname": "Nama money (contoh: [money] points)",
-                "postminimumlength": "Panjang postingan minimum untuk mendapatkan money (0 untuk menonaktifkan)",
+                "postminimumlength": "Panjang postingan minimum untuk mendapatkan dana (0 untuk menonaktifkan)",
                 "noshowzero": "Jangan tampilkan jika nilainya nol",
-                "autoremove": "Perbarui money secara otomatis",
-                "moneyforlike": "Money yang diberikan ketika sebuah postingan disukai",
+                "autoremove": "Perbarui Dana secara otomatis",
+                "moneyforlike": "Dana yang diberikan ketika sebuah postingan disukai",
                 "helpextensionlikes": "Membutuhkan ekstensi <code>flarum/likes</code>"
             },
             "permissions": {
@@ -17,8 +17,8 @@
             },
             "autoremove": [
                 "Jangan pernah menghapus money",
-                "Ketika diskusi/postingan disembunyikan atau dipulihkan (default)",
-                "Ketika diskusi/postingan dihapus"
+                "Ketika diskusi/post disembunyikan atau dipulihkan (default)",
+                "Ketika diskusi/post dihapus"
             ],
             "automoderator": {
                 "metric_name": "Money",
@@ -30,7 +30,7 @@
                 "money_button": "Edit money"
             },
             "modal": {
-                "title": "{username} money",
+                "title": "Dana {username}",
                 "current": "Saat ini:",
                 "submit_button": "=> core.ref.save_changes"
             }

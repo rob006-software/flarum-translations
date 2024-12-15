@@ -3,8 +3,11 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "desc": "Obtain your API key from <a>https://opencollective.com/applications</a>.",
-                "api_key_label": "API Key",
+                "desc": "Obtain your Personal Token from <a>https://opencollective.com/dashboard</a> under Settings > For Developers. Do not select any additional scopes - keep the default empty selection.\n",
+                "use_legacy_api_key_label": "Use Legacy Application API Key",
+                "use_legacy_api_key_help": "If you have a legacy API key, you may keep using it, but it is recommended to switch to a Personal Token. Currently, personal tokens seem to work in API Key mode (i.e. \"API-Key\" header), but this is not documented.\n",
+                "api_key_label": "Application API Key (deprecated)",
+                "personal_token_label": "Personal Token",
                 "slug_label": "Collective Slug",
                 "group_label": "Group to Assign"
             }

@@ -7,24 +7,24 @@
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "{username} keelas sinu kasutaja {timeReadable}",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": "{username} lubas sinu kasutaja"
+                "user_suspended_text": "Sinu kasutajakonto on suletud kuni ajani {timeReadable}",
+                "user_suspended_indefinite_text": "Sinu kasutajakonto on määramata ajaks suletud",
+                "user_unsuspended_text": "Sinu kasutajakonto on taas sisse lülitatud"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "Eira",
+                "indefinite": "See on konto sulgemine määramata ajaks",
+                "limited": "See konto sulgemine on jõus kuni {date}",
+                "title": "See konto on suletud"
             },
             "suspend_user": {
-                "display_message": "",
+                "display_message": "Näita kasutajale sõnumit",
                 "indefinitely_label": "Keelatud määramata ajaks",
                 "limited_time_days_text": " päevaks",
                 "limited_time_label": "Keelatud määratud ajaks...",
                 "not_suspended_label": "Pole keelatud",
-                "placeholder_optional": "",
-                "reason": "",
+                "placeholder_optional": "Valikuline",
+                "reason": "Konto sulgemise põhjus",
                 "status_heading": "Keelamise staatus",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Keela {username}"
@@ -37,14 +37,19 @@
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "Selleks sulgemiseks pole mingit põhjust antud.",
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Sinu konto on suletud",
+                "body": "Hei {recipient_display_name},\n\nSinu konto on järgneval põhjusel suletud:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Sinu konto on taas avatud",
+                "body": "Hei {recipient_display_name},\n\nSinu konto on taas avatud. Tagasi foorumisse saad järgnevalt lingilt:\n\n{forum_url}\n"
+            }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": "suletud kuni"
             }
         }
     }

@@ -43,6 +43,7 @@
                 "about_tags_text": "Kategorije se koriste za raspodelu diskusija. Primarne kategorije su poput tradicionalnih kategorija foruma: mogu se rasporediti u hijerarhiju na dva nivoa. Sekundarne kategorije nemaju hijerarhiju ili redosled i korisne su za mikroraspodelu.",
                 "create_primary_tag_button": "Kreirajte primarnu kategoriju",
                 "create_secondary_tag_button": "Kreirajte sekundarnu kategoriju",
+                "edit_tag_label": "",
                 "primary_heading": "Primarne kategorije",
                 "secondary_heading": "Sekundarne kategorije",
                 "settings_heading": "Podešavanja"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "",
             "name": "Naziv",
             "tags": "Kategorije"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

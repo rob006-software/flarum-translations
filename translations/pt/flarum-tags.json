@@ -43,6 +43,7 @@
                 "about_tags_text": "Tags são utilizadas para categorizar discussões. Tags primárias são como categorias tradicionais de fórum: elas podem ser organizadas numa hierarquia de dois níveis. Tags secundárias não possuem hierarquia ou ordem, e são úteis para micro-categorização.",
                 "create_primary_tag_button": "Criar Tag Primária",
                 "create_secondary_tag_button": "Cria Tag secundária",
+                "edit_tag_label": "",
                 "primary_heading": "Tags Primárias",
                 "secondary_heading": "Tags Secundárias",
                 "settings_heading": "Definições"
@@ -100,6 +101,17 @@
             "choose_tags_placeholder": "{count, plural, one {Escolhe mais 1 tag} other {Escolhe mais # tags}}",
             "name": "Nome",
             "tags": "Tags"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

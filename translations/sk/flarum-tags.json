@@ -43,6 +43,7 @@
                 "about_tags_text": "Štítky slúžia na označenie diskusií. Hlavné štítky sú ako tradičné kategórie na fórach: môžu byť usporiadané do dvojúrovňovej hierarchie. Vedľajšie štítky nemajú hierarchiu alebo zoradenie a sú užitočné pre mikro-kategorizáciu.",
                 "create_primary_tag_button": "Vytvoriť hlavný štítok",
                 "create_secondary_tag_button": "Vytvoriť vedľajší štítok",
+                "edit_tag_label": "",
                 "primary_heading": "Hlavné štítky",
                 "secondary_heading": "Vedľajšie štítky",
                 "settings_heading": "Nastavenia"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "{count, plural, one {Vyber ešte 1 štítok} other {Vyber aspoň # ďalších štítkov}}",
             "name": "Názov",
             "tags": "Štítky"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

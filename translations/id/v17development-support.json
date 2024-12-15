@@ -12,7 +12,7 @@
             "discard": "Buang",
             "reopen": "buka kembali",
             "support_tickets": "Tiket dukungan",
-            "admin_overview": "Buka tinjauan umum admin",
+            "admin_overview": "Buka gambaran umum admin",
             "hero": {
                 "help_question": "Apa yang dapat Kami bantu?",
                 "check_forum": "Jika Anda tidak dapat menemukan apa yang Anda cari, <a>kunjungi forum kami</a>"
@@ -31,7 +31,7 @@
                     "rename_category": "Ganti nama kategori",
                     "edit_description": "Edit deskripsi",
                     "change_icon": "Ganti ikon",
-                    "recount_articles": ""
+                    "recount_articles": "Hitung ulang artikel"
                 }
             },
             "article_events": {
@@ -57,7 +57,7 @@
             "article": {
                 "article": "Artikel",
                 "articles": "Artikel",
-                "hidden": "",
+                "hidden": "Tersembunyi",
                 "created_at": "Dibuat pada {date}",
                 "author": "Penulis",
                 "authors": "Penulis",
@@ -101,21 +101,21 @@
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
+                    "title": "Log audit artikel",
                     "article_created": "Artikel telah dibuat",
-                    "no_more_events": "",
+                    "no_more_events": "Tidak ada lagi event yang ditemukan",
                     "loading_auditlog": "Memuat log audit"
                 },
                 "article_ratings": {
                     "title": "Rating artikel",
                     "loading_ratings": "Memuat rating",
                     "no_ratings_found": "Tidak ditemukan rating yang sesuai dengan kriteria pencarian Anda",
-                    "article_not_rated": "",
+                    "article_not_rated": "Artikel ini belum mendapat rating.",
                     "confirm_delete_rating": "Apakah Anda yakin ingin menghapus rating ini?",
                     "feedback": "Umpan balik",
                     "rating": "Rating",
                     "username": "=> core.ref.username",
-                    "rated_on": ""
+                    "rated_on": "Diberikan rating pada"
                 }
             },
             "utils": {
@@ -129,8 +129,8 @@
                 "compose_ticket": "Tulis tiket",
                 "new_article_title": "Judul artikel baru",
                 "enter_message_here": "Masukkan pesan Anda di sini",
-                "publish_article": "Terbitkan artikel",
-                "publish_article_hint": "Terbitkan artikel setelah diposting.",
+                "publish_article": "Publikasikan artikel",
+                "publish_article_hint": "Publikasikan artikel setelah diposting.",
                 "manage_tags": "Mengelola tag",
                 "write": "Tulis",
                 "view": "Lihat",
@@ -144,9 +144,9 @@
                 "ticket_does_not_exist": "Tiket dukungan yang diminta tidak ada.",
                 "return_to_overview": "Kembali ke gambaran umum tiket",
                 "ticket_overview": "Gambaran umum tiket",
-                "opened_on": "",
+                "opened_on": "Dibuka pada",
                 "ticket_activity": "Oleh {username}, aktivitas terakhir {date}",
-                "reminders_sent": "",
+                "reminders_sent": "{count, plural, one {Satu pengingat terkirim} other {# pengingat terkirim}}",
                 "convert_to_ticket": {
                     "button": "Ubah menjadi tiket",
                     "confirm": "Apakah Anda yakin ingin mengubah diskusi ini menjadi tiket?",
@@ -163,7 +163,7 @@
                         "description": "Ini adalah tiket baru yang belum terjawab"
                     },
                     "open": {
-                        "title": "Buka",
+                        "title": "Dibuka",
                         "description": "Tiket ini memiliki tanggapan baru dan sedang menunggu balasan dari Anda."
                     },
                     "pending": {
@@ -205,14 +205,14 @@
                     "title": "Notifikasi Tiket",
                     "no_tickets": "Tidak ada notifikasi tiket",
                     "ticket_new": "{username} membuat tiket {ticket}",
-                    "ticket_updated": ""
+                    "ticket_updated": "{username} memposting di {ticket}"
                 },
                 "fields": {
                     "language": {
                         "title": "Bahasa",
                         "placeholder": "Pilih bahasa",
                         "empty": "Tidak ada bahasa yang dipilih",
-                        "description": ""
+                        "description": "Tiket dukungan Anda akan ditangani dalam bahasa {language}."
                     },
                     "subject": {
                         "title": "Subjek",
@@ -245,7 +245,7 @@
                     "not_allowed": "Anda tidak dapat membuka tiket dukungan baru saat ini"
                 },
                 "load_more": {
-                    "title": "Muat lebih banyak tiket"
+                    "title": "Memuat tiket lainnya"
                 },
                 "my_tickets": {
                     "title": "Tiket saya",
@@ -260,7 +260,7 @@
                     "selection_unfiltered": "Tidak difilter",
                     "selection_open": "Tiket terbuka",
                     "selection_closed": "Tiket tertutup",
-                    "refresh": "",
+                    "refresh": "Refresh",
                     "filter": {
                         "status": {
                             "title": "Status tiket",
@@ -276,10 +276,10 @@
                         }
                     },
                     "sort": {
-                        "newest": "",
-                        "oldest": "",
-                        "recent_activity": "",
-                        "least_recent": ""
+                        "newest": "Terbaru",
+                        "oldest": "Terlama",
+                        "recent_activity": "Aktivitas terkini",
+                        "least_recent": "Aktivitas terakhir yang paling sedikit"
                     }
                 }
             },

@@ -1,12 +1,35 @@
 {
     "blomstra-horizon": {
         "admin": {
+            "settings": {
+                "trim_title": "修剪設定",
+                "trim_help": "您可以在此處配置您希望 Horizon 運行的時長（以分鐘為單位）\n保留最近和失敗的作業。 通常，保留最近的工作\n儲存一小時，而所有失敗的作業將儲存一整週。\n",
+                "trim_recent": "修剪最近的工作",
+                "trim_recent_help": "此表用於顯示 Horizon 儀表板中最近的作業。\n",
+                "trim_pending": "修剪待處理的作業",
+                "trim_pending_help": "此表用於在 Horizon 儀表板中顯示待處理的作業。\n",
+                "trim_completed": "修剪已完成的作業",
+                "trim_completed_help": "此表用於在 Horizon 儀表板中顯示已完成的作業。\n",
+                "trim_recent_failed": "修剪最近失敗的作業",
+                "trim_recent_failed_help": "此表用於在 Horizon 儀表板中顯示最近失敗的作業。\n",
+                "trim_failed": "修剪失敗的作業",
+                "trim_failed_help": "此表用於在 Horizon 儀表板中顯示失敗的作業。\n",
+                "trim_monitored": "修剪受監控的作業",
+                "trim_monitored_help": "此表用於在 Horizon 儀表板中顯示受監控的作業。\n"
+            },
             "stats": {
                 "auto_refresh": "自動重新整理",
                 "heading": "隊列概覽",
                 "full_dashboard": "Horizon 儀表板",
-                "refresh": "刷新",
+                "refresh": "重整",
                 "data": {
+                    "redis-used-memory": "Redis 使用記憶體",
+                    "redis-peak-memory": "Redis 峰值內存",
+                    "redis-max-memory": "Redis 最大內存",
+                    "redis-memory-policy": "Redis 記憶體策略",
+                    "redis-memory-policy-tooltip": "記憶體策略是 Redis 在以下情況下選擇刪除內容的方式：\n已達到最大記憶體限制。 預設為“noeviction”：新值 \n當達到記憶體限制時不會保存。 按一下查看文件。\n",
+                    "redis-cpu-user": "Redis CPU 用戶",
+                    "redis-cpu-sys": "Redis CPU系統",
                     "jobs-per-minute": "每分鐘作業數",
                     "jobs-past-hour": "過去一小時的工作",
                     "failed-last-seconds": "過去幾秒鐘失敗的作業",

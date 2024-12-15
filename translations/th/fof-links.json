@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "ลบลิ้ง",
                 "delete_link_confirmation": "คุณเเน่ใจหรือไม่ที่จะลบลิ้งนี้?",
-                "everyone-label": "ทุกคน",
-                "guests-label": "ผู้มาเยือน",
                 "internal_link": "มันเป็นลิ้งภายในไหม?",
-                "members-label": "ผู้ใช้ที่ลงทะเบียน",
                 "open_newtab": "เปิดลิ้งในเเท็บใหม่",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,7 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "",
-                "visibility": "การมองเห็นลิงก์"
+                "visibility": "การมองเห็นลิงก์",
+                "visibility.help": "",
+                "visibility.help-disabled": "",
+                "visibility.label": "",
+                "visibility.guest-only.label": "",
+                "visibility.guest-only.help": "",
+                "everyone-label": "ทุกคน",
+                "guests-label": "ผู้มาเยือน",
+                "members-label": "ผู้ใช้ที่ลงทะเบียน"
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

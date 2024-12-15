@@ -2,27 +2,27 @@
     "ffans-clipboardjs": {
         "admin": {
             "settings": {
-                "codeLang_label": "",
-                "copy_enable_label": "",
-                "themes_label": "",
+                "codeLang_label": "Näita keelekoodi",
+                "copy_enable_label": "Luba koodi kopeerimine",
+                "themes_label": "Kopeerimise nupu stiil",
                 "themes": {
-                    "cnblog": "",
-                    "csdn": "",
-                    "default": "",
-                    "github": "",
-                    "jianshu": "",
-                    "lingcoder": "",
-                    "segmentfault": ""
+                    "cnblog": "cnBlogs",
+                    "csdn": "CSDN",
+                    "default": "Vaikimisi lõikelauad",
+                    "github": "GitHub",
+                    "jianshu": "Jian Shu",
+                    "lingcoder": "LingCoder",
+                    "segmentfault": "SegmentFault"
                 }
             }
         },
         "forum": {
-            "action_copy": "",
-            "action_cut": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "Kopeeri",
+            "action_cut": "Lõika",
+            "ok_btn": "Kopeeritud",
+            "error_btn": "Viga",
+            "no_support": "Pole toetatud",
+            "msg": "Vajuta klahvi {actionKey}, et {action}"
         }
     }
 }

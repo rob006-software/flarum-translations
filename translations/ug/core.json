@@ -248,8 +248,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "{username} نى تەھرىرلەش"
+                            "tooltip": "{username} نى تەھرىرلەش",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -262,6 +262,9 @@
                         },
                         "join_time": {
                             "title": "قېتىلدى"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "ID"
@@ -593,6 +596,11 @@
             "number_suffix": {
                 "kilo_text": "كىلو",
                 "mega_text": "مېگا"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": "، ",
