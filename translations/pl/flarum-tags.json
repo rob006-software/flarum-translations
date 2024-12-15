@@ -43,7 +43,7 @@
                 "about_tags_text": "Tagi są używane do kategoryzacji dyskusji. Główne tagi są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Podrzędne tagi nie mają hierarchii ani kolejności, są więc użyteczne bardziej do mikro-kategoryzacji.",
                 "create_primary_tag_button": "Utwórz główny tag",
                 "create_secondary_tag_button": "Utwórz podrzędny tag",
-                "edit_tag_label": "",
+                "edit_tag_label": "Edytuj tag {tag}",
                 "primary_heading": "Główne tagi",
                 "secondary_heading": "Podrzędne tagi",
                 "settings_heading": "Ustawienia"
@@ -105,13 +105,13 @@
         },
         "validation": {
             "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
+                "name": "nazwa",
+                "slug": "slug",
+                "is_hidden": "ukryty",
+                "description": "opis",
+                "color": "kolor",
+                "tag_count_primary": "=> validation.attributes.tag_count_primary",
+                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
             }
         }
     }
