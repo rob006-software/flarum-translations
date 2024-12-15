@@ -207,6 +207,7 @@ return [
 		'!nodeloc-whisper',
 		'!shebaoting-money',
 		'!shebaoting-repost',
+		'!tohsakarat-post-camera',
 		'!vlssu-cravatar',
 		'!widayn-avatar-cropper',
 		'!xypp-answer-bounty',
