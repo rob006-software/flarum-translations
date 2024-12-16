@@ -2,58 +2,58 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "return_key_help": "",
-                "show_read_receipts": "",
-                "show_read_receipts_help": "",
-                "message_recipient_background_color": "",
-                "message_recipient_background_color_help": ""
+                "return_key": "Sisestusklahv saadab sõnumi",
+                "return_key_help": "Vali nii, et sisestusklahv (klahv \"enter\") saadab sõnumi. Kui see on välja lülitatud, siis sisestusklahvi vajutamine teeb lihtsalt reavahetuse ning sõnumi saatmiseks on vaja vajutada nuppu \"Saada sõnum\".",
+                "show_read_receipts": "Näita loetud sõnumite teateid",
+                "show_read_receipts_help": "Näita sõnumi kõrval märget, kui saaja on seda lugenud.",
+                "message_recipient_background_color": "Saaja sõnumi värv",
+                "message_recipient_background_color_help": "."
             },
             "permissions": {
-                "start_label": "",
-                "allow_users_to_receive_email_notifications": ""
+                "start_label": "Alusta privaatset vestlust",
+                "allow_users_to_receive_email_notifications": "Luba kasutajatel saada teavitusi e-postiga, kui sulle tuleb uus privaatsõnum"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Vestlused"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Alusta vestlust",
+                "help": "Vestluse alustamiseks hakka kasutajanime kirjutama.",
+                "help_start": "Kirjuta oma esimene sõnum. See on ainus sõnum, mida sa saad saata enne kui {username} vastab. Kliki kasutajal, et valida teine saaja.",
+                "search_recipients": "Sisesta kasutajanimi...",
+                "submit": "Saada ja alusta vestlust",
+                "copied": "Sinu sõnum on kopeeritud lõikelauale.",
+                "more_users": "Kui sa ei näe kasutajat, keda sa otsid, siis neil pole veel privaatsete sõnumite kasutamine seadistatud.",
+                "already": "Sul on juba vestlus kasutajaga {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "message_read": ""
+                "messages_single": "Uus vestlust",
+                "messages_multiple": "Kokku {count} sõnumit",
+                "chat_with": "Vestlus kasutajaga {username}",
+                "start": "Alusta vestlust",
+                "start_of_conversation": "Vestluse algus",
+                "read": "Loe",
+                "cant_start": "Ei saa vestlust alustada",
+                "text_placeholder": "Kirjuta oma sõnum",
+                "send": "Saada sõnum",
+                "message_read": "Sõnum on loetud"
             },
             "notifications": {
-                "message_received": "",
-                "new_private_message": "",
+                "message_received": "Test",
+                "new_private_message": "Keegi saatis mulle sõnumi",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "Sõnum kasutajalt {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
-                        "manageEmailSettings": ""
+                        "subject": "Sõnum kasutajalt {user}",
+                        "youHaveReceivedNewMessage": "Oled saanud uue sõnumi kasutajalt {user}!",
+                        "viewMessage": "Vaata sõnumit",
+                        "manageEmailSettings": "Halda e-kirja seadeid"
                     }
                 }
             }
