@@ -4,17 +4,17 @@
             "settings": {
                 "defaults_label": "",
                 "forced_label": "",
-                "notify_discussion_created_label": "",
+                "notify_discussion_created_label": "Keegi loob vestluse",
                 "notify_post_created_label": "",
-                "notify_post_unapproved_label": "",
-                "notify_user_created_label": "",
+                "notify_post_unapproved_label": "Loodud postitus vajab heakskiitu",
+                "notify_user_created_label": "Kui keegi registreerub",
                 "notify_post_flagged_label": ""
             },
             "notifications": {
-                "discussion_created_text": "",
-                "post_created_text": "",
+                "discussion_created_text": "{username} alustas uut vestlust",
+                "post_created_text": "{username} kirjutas uue postituse",
                 "post_unapproved_text": "",
-                "user_created_text": "",
+                "user_created_text": "{username} on just liitunud",
                 "post_flagged_text": ""
             }
         },
@@ -29,9 +29,9 @@
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
+                "newDiscussion": "[Jälgimisel | Uus vestlus] {title}",
+                "newUser": "[Jälgimisel | Uus kasutaja] {username}",
+                "postUnapproved": "[Jälgimisel | Heakskiitmata] {username} postitas vestluses {title}",
                 "postCreated": "",
                 "postFlagged": ""
             },
