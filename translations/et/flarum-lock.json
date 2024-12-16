@@ -2,7 +2,7 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": "Teemade lukustamine"
+                "lock_discussions_label": "Vestluste lukustamine"
             }
         },
         "forum": {
@@ -17,11 +17,11 @@
                 "discussion_locked_text": "{username} lukustas"
             },
             "post_stream": {
-                "discussion_locked_text": "{username} lukustas teema, {time}.",
-                "discussion_unlocked_text": "{username} avas teema, {time}."
+                "discussion_locked_text": "{username} lukustas vestluse, {time}.",
+                "discussion_unlocked_text": "{username} avas vestluse, {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": "Keegi lukustab minu algatatud teema"
+                "notify_discussion_locked_label": "Keegi lukustab minu algatatud vestluse"
             }
         }
     }
