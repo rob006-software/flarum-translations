@@ -36,16 +36,16 @@
                 "warning_notification_label": ""
             },
             "validation": {
-                "public_comment_required": "",
+                "public_comment_required": "Pead sisestama avaliku kommentaari.",
                 "invalid_strike_count": ""
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Eemalda",
+                "restore_button": "Taasta",
+                "delete_forever_button": "Kustuta jäädavalt"
             },
             "warning_list": {
-                "add_button": "",
+                "add_button": "Uus hoiatus",
                 "no_warnings": "",
                 "warnings": "",
                 "warnings_no_strikes": ""
@@ -53,9 +53,9 @@
             "warning_list_item": {
                 "list_item_heading": "",
                 "list_item_heading_hidden": "",
-                "public_comment": "",
+                "public_comment": "Hoiatus",
                 "private_comment": "",
-                "linked_post": ""
+                "linked_post": "Lingitud postitus"
             },
             "warning_modal": {
                 "confirmation_message": "",
@@ -63,7 +63,7 @@
                 "strikes_heading": "",
                 "public_comment_heading": "",
                 "private_comment_heading": "",
-                "submit_button": ""
+                "submit_button": "Salvesta hoiatus"
             }
         }
     }
