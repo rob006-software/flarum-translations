@@ -12,7 +12,7 @@
         "forum": {
             "composer": {
                 "mention_tooltip": "Viita kasutajale, grupile või postitusele",
-                "reply_to_post_text": "Vasta #{number}"
+                "reply_to_post_text": "Vastus postitusele #{number}"
             },
             "mentioned_by": {
                 "title": "Vastused sellele postitusele",
@@ -21,7 +21,7 @@
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} vastas sinu postitusele",
-                "user_mentioned_text": "{username} viitas sinule",
+                "user_mentioned_text": "{username} mainis sind",
                 "group_mentioned_text": "{username} mainis gruppi, mille liige sa oled"
             },
             "post": {
@@ -35,11 +35,11 @@
             },
             "settings": {
                 "notify_post_mentioned_label": "Keegi vastab minu postitusele",
-                "notify_user_mentioned_label": "Keegi viitab minule oma postituses",
+                "notify_user_mentioned_label": "Keegi mainib mind oma postituses",
                 "notify_group_mentioned_label": "Keegi mainis gruppi, mille liige ma olen postituses"
             },
             "user": {
-                "mentions_link": "Viited"
+                "mentions_link": "Mainimised"
             },
             "post_mention": {
                 "deleted_text": "[tundmatu]"
@@ -50,15 +50,15 @@
         },
         "email": {
             "post_mentioned": {
-                "subject": "{replier_display_name} vastas sinu postitusele teemas {title}",
+                "subject": "{replier_display_name} vastas sinu postitusele vestluses {title}",
                 "body": "Hei {recipient_display_name}!\n\n{replier_display_name} vastas sinu postitusele (#{post_number}) teemas {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "{mentioner_display_name} viitas sinule oma postituses teemas {title}",
-                "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} viitas sinule oma postituses teemas {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{mentioner_display_name} mainis sind vestluses {title}",
+                "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} mainis sind vestluses {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "{mentioner_display_name} mainis gruppi , mille liige sa oled vestluses {title}",
+                "subject": "{mentioner_display_name} mainis gruppi, mille liige sa oled vestluses {title}",
                 "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} mainis gruppi, mille liige sa oled vestluses {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
