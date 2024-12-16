@@ -1340,6 +1340,9 @@ return [
 	'tituspijean-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/v1.0.0-p6/locale/en.yml',
 	],
+	'tohsakarat-post-camera' => [
+		'tag' => 'https://raw.githubusercontent.com/tohsakrat/post-camera/v1.0.2/locale/en.yml',
+	],
 	'tohsakarat-save-and-load-draft-automatically' => [
 		'tag' => 'https://raw.githubusercontent.com/tohsakrat/save-and-load-draft-automatically/v1.10/resources/locale/en.yml',
 	],
