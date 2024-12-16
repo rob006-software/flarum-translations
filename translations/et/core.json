@@ -149,7 +149,7 @@
                 "purge_button": "Eemalda",
                 "readme": {
                     "button_label": "LOE MIND",
-                    "no_readme": "Sellel laiendusel ei paista README faili olevat",
+                    "no_readme": "Sellel laiendusel ei paista LOE MIND faili olevat",
                     "title": "{extName} dokumentatsioon"
                 }
             },
@@ -166,7 +166,7 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "Tuvastamine",
+                    "authentication": "Autentimine",
                     "core": "Põhiseaded",
                     "discussion": "Vestlus",
                     "feature": "Funktsioonid",
@@ -187,9 +187,9 @@
                 "search_placeholder": "Otsi laiendusi"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "Luba oma postituste kustutamist",
+                "allow_hide_own_posts_label": "Luba oma postituste kustutamine",
                 "allow_post_editing_label": "Postituse muutmine",
-                "allow_renaming_label": "Ümbernimetamine",
+                "allow_renaming_label": "Luba ümber nimetamine",
                 "create_access_token_label": "Loo ligipääsukood",
                 "create_heading": "Uue loomine",
                 "delete_discussions_forever_label": "Vestluste kustutamine jäädavalt",
@@ -286,7 +286,7 @@
                 },
                 "search_placeholder": "Otsi kasutajaid",
                 "title": "=> core.ref.users",
-                "total_users": "Kokku kasutajaid: {count}"
+                "total_users": "Kasutajaid kokku: {count}"
             }
         },
         "forum": {
@@ -320,13 +320,13 @@
             "composer_edit": {
                 "discard_confirmation": "Sa pole oma muudatusi veel salvestanud. Kas soovid neist loobuda?",
                 "edited_message": "Muudatus tehtud.",
-                "post_link": "Postitus #{number} teemas {discussion}",
+                "post_link": "Postitus #{number} vestluses {discussion}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "Sa ei ole oma vastust vee postitanud. Kas soovid sellest loobuda?",
+                "discard_confirmation": "Sa pole oma vastust veel postitanud. Kas soovid sellest loobuda?",
                 "posted_message": "Vastus postitatud.",
                 "submit_button": "Saada vastus",
                 "view_button": "=> core.ref.view"
@@ -341,10 +341,10 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Näita teema käskluste menüüd"
+                "toggle_dropdown_accessible_label": "Näita vestluse käskluste menüüd"
             },
             "discussion_list": {
-                "empty_text": "Siin ei ole veel ühtegi teemat.",
+                "empty_text": "Siin ei ole veel ühtegi vestlust.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} vastas {ago}",
                 "started_text": "{username} alustas {ago}",
@@ -403,7 +403,7 @@
                 "username_or_email_placeholder": "Kasutajanimi või meiliaadress"
             },
             "notifications": {
-                "delete_all_confirm": "Olete kindel, et soovite kustutada kõik teavitused? Teavitusi ei ole võimalik taastada",
+                "delete_all_confirm": "Oled sa kindel, et soovid kustutada kõik teavitused? Teavitusi pole võimalik taastada",
                 "delete_all_tooltip": "Kustuta kõik teated",
                 "discussion_renamed_text": "{username} muutis pealkirja",
                 "empty_text": "Teateid pole",
@@ -420,10 +420,10 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Oled kindel, et soovid selle postituse igaveseks kustutada? Seda toimingut ei saa tagasi võtta.",
+                "delete_confirmation": "Oled sa kindel, et soovid selle postituse igaveseks kustutada? Seda toimingut ei saa tagasi võtta.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "Oled kindel, et soovid selle postituse kustutada?",
+                "hide_confirmation": "Oled sa kindel, et soovid selle postituse kustutada?",
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Näita postituse juhtmenüüd"
             },
@@ -565,10 +565,10 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "Sul ei ole õigust seda kasutajat muuta."
+                "nothing_available": "Sul pole õigust seda kasutajat muuta."
             },
             "error": {
-                "circular_dependencies_message": "Sõltuvuseddetected: {extensions}. Aborting. Please disable one of the extensions and try again.",
+                "circular_dependencies_message": "Tuvastati probleemsed sõltuvused: {extensions}. Katkestamine. Palun lülita üks lisaprogrammidest välja ja proovi siis uuesti.",
                 "dependent_extensions_message": "{extension} laiendust ei saa keelata enne nende laienduste keelamist: {extensions}",
                 "extension_initialiation_failed_message": "{extension} paigaldamine ebaõnnestus - lisainformatsiooni võid leida brauseri konsoolist.",
                 "generic_message": "Oih! Juhtus ootamatu viga. Palun laadi leht uuesti ja proovi veel kord.",
@@ -578,7 +578,7 @@
                 "payload_too_large_message": "Teostatud päring oli liiga mahukas.",
                 "permission_denied_message": "Sul ei ole selle jaoks õigusi.",
                 "rate_limit_exceeded_message": "Postitad liiga kiiresti. Proovi mõne sekundi pärast uuesti.",
-                "render_failed_message": "Vabandage, sisu kuvamisel tekkis viga. Kui olete kasutaja, siis proovige hiljem uuesti. Kui olete foorumi administraator, siis kontrollige Flarumi logifaile, kust leiab lisainformatsiooni."
+                "render_failed_message": "Vabandust, sisu kuvamisel tekkis tõrge. Kui oled kasutaja, siis proovi hiljem uuesti. Kui oled foorumi administraator, siis kontrolli Flarumi logifaile, kust on lisainformatsiooni."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -615,9 +615,9 @@
             "admin": {
                 "extensions": {
                     "caption": "=> core.ref.extensions",
-                    "disable": "Keela",
+                    "disable": "Lülita välja",
                     "empty": "Laiendusi ei ole paigaldatud",
-                    "enable": "Luba",
+                    "enable": "Lülita sisse",
                     "name": "Laienduse nimi",
                     "package_name": "Paketi nimi",
                     "version": "Versioon"
@@ -711,11 +711,11 @@
             "discussions": "Vestlused",
             "edit": "Muuda",
             "edit_user": "Muuda kasutajat",
-            "email": "Meil",
+            "email": "E-post",
             "extensions": "Laiendused",
             "generic_confirmation_message": "Oled sa kindel, et soovid jätkata? Seda toimingut ei saa tühistada.",
             "icon": "Ikoon",
-            "icon_text": "Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> <code>fas fa-</code> algusega.",
+            "icon_text": "Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> <code>fas fa-</code> eesliitega.",
             "load_more": "Laadi rohkem",
             "loading": "Laadimine...",
             "log_in": "Sisene",
