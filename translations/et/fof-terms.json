@@ -2,36 +2,36 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Kasutustingimuste seaded",
                 "field": {
                     "signup-legal-text": "",
                     "hide-updated-at": "",
-                    "date-format": "",
+                    "date-format": "Kuupäeva vorming",
                     "date-format-help": ""
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Eeskirjad"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Uus eeskiri",
+                "edit-policy": "Muuda eeskirja",
+                "add-policy": "Lisa eeskiri",
+                "save-policy": "Salvesta eeskiri",
+                "delete-policy": "Kustuta eeskiri",
+                "set-to-now": "Määra kohe"
             },
             "messages": {
                 "delete-policy-confirmation": ""
             },
             "policies": {
-                "name": "",
+                "name": "Nimi",
                 "name-help": "",
-                "url": "",
+                "url": "URL",
                 "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
+                "update-message": "Uuenduse sõnum",
+                "update-message-help": "Sõnum, mida näidatakse olemasolevatele kasutajatele, kes pole veel viimaseid eeskirju aktsepteerinud.",
+                "terms-updated-at": "Uuendatud",
                 "terms-updated-at-placeholder": "",
                 "terms-updated-at-help": "",
                 "export-url": "",
@@ -55,23 +55,23 @@
                 "updated-at": "",
                 "updated-recently": "",
                 "i-accept": "",
-                "accept": "",
+                "accept": "Kinnita",
                 "close": ""
             },
             "state-modal": {
                 "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "accepted-at": "Nõustunud {date}",
+                "not-accepted": "Pole aktsepteerinud"
             },
             "update-alert": {
                 "must-accept-message": "",
                 "can-accept-message": "",
                 "can-accept-optional-message": "",
                 "review": "",
-                "close": ""
+                "close": "Sulge"
             },
             "user_settings": {
-                "optional_policies_label": ""
+                "optional_policies_label": "Eeskirjad"
             },
             "user_controls": {
                 "state_button": ""
