@@ -2,7 +2,7 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_app_backups": ""
+                "generate_app_backups": "Loo rakenduse tagavarakoodid"
             },
             "permissions": {
                 "can_enable_twofactor": ""
@@ -10,28 +10,28 @@
         },
         "forum": {
             "settings": {
-                "section_title": "",
-                "configured": "",
-                "not_configured": "",
+                "section_title": "Kahe-etapiline autentimine",
+                "configured": "Seadistatud",
+                "not_configured": "Seadistamata",
                 "app": {
-                    "button_label": "",
+                    "button_label": "Autentimise rakendus",
                     "button_help": "",
                     "setup": {
-                        "title": "",
-                        "password_placeholder": "",
-                        "passcode_placeholder": "",
-                        "close_button_label": "",
-                        "invalid_passcode": "",
+                        "title": "Seadista autentimise rakendus",
+                        "password_placeholder": "Parool",
+                        "passcode_placeholder": "6-kohaline kood",
+                        "close_button_label": "Sulge",
+                        "invalid_passcode": "Vigane parool või kood.",
                         "disable": {
                             "enter_code_disable": "",
-                            "button_label": "",
-                            "success": ""
+                            "button_label": "Lülita välja",
+                            "success": "Autentimise rakendus on välja lülitatud."
                         },
                         "enable": {
-                            "button_label": "",
-                            "success": "",
+                            "button_label": "Lülita sisse",
+                            "success": "Autentimise rakendus on sisse lülitatud.",
                             "scan_qr": "",
-                            "enter_code_manually": "",
+                            "enter_code_manually": "Sisesta kood käsitsi",
                             "backups": {
                                 "message": "",
                                 "download_button_label": "",
@@ -45,23 +45,23 @@
             "login": {
                 "title": "",
                 "placeholder_label": "",
-                "submit_button_label": "",
+                "submit_button_label": "Logi sisse",
                 "auth_buttons": {
-                    "app": ""
+                    "app": "Autentimise rakendus"
                 },
                 "app": {
-                    "invalid_passcode": "",
-                    "passcode_placeholder": ""
+                    "invalid_passcode": "Vigane kood.",
+                    "passcode_placeholder": "6-kohaline kood"
                 }
             }
         },
         "lib": {
             "edit_user": {
-                "section_title": "",
+                "section_title": "Kahe-etapiline autentimine",
                 "disable_confirmation": "",
-                "placeholder_text": "",
+                "placeholder_text": "Pole midagi välja lülitada",
                 "app": {
-                    "label": ""
+                    "label": "Autentimise rakendus"
                 }
             }
         }
