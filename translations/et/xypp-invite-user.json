@@ -2,34 +2,34 @@
     "xypp-invite-user": {
         "forum": {
             "page": {
-                "title": "",
+                "title": "kutsu",
                 "code": {
-                    "title": "",
-                    "code": "",
-                    "url": ""
+                    "title": "Kutsu kasutaja",
+                    "code": "Kutse kood",
+                    "url": "Kutse link"
                 },
                 "my": {
-                    "title": "",
-                    "code": "",
-                    "inviter": "",
-                    "accept": "",
-                    "no-inviter": ""
+                    "title": "Minu kutsutud kasutaja",
+                    "code": "Sisesta kutse kood",
+                    "inviter": "Oled aktsepteerinud kasutaja kui sinu kutsutud kasutaja.",
+                    "accept": "Aktsepteeri",
+                    "no-inviter": "See kasutaja pole aktsepteerinud ühtegi kutsutud kasutajat."
                 },
                 "invite": {
-                    "title": "",
-                    "username": "",
-                    "avatar": "",
-                    "empty": "",
-                    "time": ""
+                    "title": "Minu poolt kutsutud kasutajad",
+                    "username": "Kasutajanimi",
+                    "avatar": "Avatar",
+                    "empty": "Sa pole veel ühtegi kasutajat kutsunud.",
+                    "time": "Kutsumise aeg"
                 },
-                "no_tip": ""
+                "no_tip": "Ära näita mulle kunagi kutsuja hüpikakent"
             },
             "confirm": {
-                "title": "",
-                "msg": "",
-                "alert": "",
-                "accept": "",
-                "success": ""
+                "title": "Kinnita kutsumine",
+                "msg": "Kasutaja {username} kutsus sind foorumisse. Kliki allolevale nupule, et kutse vastu võtta.",
+                "alert": "Saad märkida ainult ühe kasutaja, kes sulle kutse saatis. Võid selle akna sulgeda oma profiilist->kutse",
+                "accept": "Aktsepteeri",
+                "success": "Korras."
             },
             "invite": "",
             "notification": {
@@ -56,21 +56,21 @@
                     "description": ""
                 },
                 "invite_new_user_only": {
-                    "title": "",
+                    "title": "Luba ainult uute kasutajate kutsumine",
                     "description": ""
                 }
             },
             "condition": {
-                "user_invite": "",
+                "user_invite": "Kutsu kasutajaid",
                 "user_be_invited": ""
             }
         },
         "api": {
-            "invited_by_user_id_is_self": "",
-            "has_already_be_invited": "",
-            "invited_by_user_id_is_empty": "",
-            "invited_each_other": "",
-            "invited_an_elder_user": ""
+            "invited_by_user_id_is_self": "Sa ei saa iseennast kutsuda.",
+            "has_already_be_invited": "Oled juba aktsepteerinud teise kasutaja kutse.",
+            "invited_by_user_id_is_empty": "Kutsutud kasutaja ID on tühi.",
+            "invited_each_other": "Sind ei saa kutsuda kasutaja, kelle sa ise kutsusid.",
+            "invited_an_elder_user": "Kutsuja registreerumise aeg varasem, kui sinu oma."
         }
     }
 }
