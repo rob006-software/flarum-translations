@@ -2,36 +2,36 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "Muuda oma sünnipäeva",
+                "view_birthday_label": "Vaata sünnipäeva"
             },
             "settings": {
                 "set_on_registration_label": "",
                 "required_label": "",
                 "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
+                "min_age_label": "Minimaalne vanus",
+                "min_age_help": "Minimaalne vanud registreerimiseks",
+                "date_format_label": "Kuupäeva vorming",
                 "date_format_help": "",
-                "date_none_year_label": ""
+                "date_none_year_label": "Kuupäeva vorming ilma aastata"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Sünnipäev: {date}",
+                "age_text": "Vanus: {age}"
             },
             "change_dob": {
-                "title": "",
+                "title": "Muuda sündimise kuupäeva",
                 "date_of_birth_text": "",
                 "submit_button": ""
             },
             "settings": {
-                "change_dob_label": "",
+                "change_dob_label": "Muuda sündimise kuupäeva",
                 "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
+                "show_dob_date_label": "Näita sündimise päeva ja kuud",
+                "show_dob_year_label": "Näita sündimise aastat",
+                "show_dob_year_help": "See võimaldab inimestel sinu vanust näha."
             },
             "edit_user": {
                 "dob_heading": ""
