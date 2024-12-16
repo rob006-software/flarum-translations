@@ -2,24 +2,24 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "Tagasi kasutajate kataloogi"
             },
             "search": {
                 "users_heading": "",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "Otsi kõiki kasutajaid"
                 },
                 "kinds": {
-                    "group": "",
+                    "group": "Grupp",
                     "text": ""
                 }
             },
             "page": {
-                "nav": "",
+                "nav": "Kasutajate nimekiri",
                 "refresh_tooltip": "",
                 "load_more_button": "",
                 "empty_text": "",
-                "filter_button": "",
+                "filter_button": "Filtreeri gruppe",
                 "usercard": {
                     "discussion-count": "",
                     "post-count": ""
@@ -28,28 +28,28 @@
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "Vaata kasutajate nimekirja"
             },
             "settings": {
                 "link": "",
-                "default-sort": "",
-                "use-small-cards": "",
+                "default-sort": "Vaikimisi sorteerimine",
+                "use-small-cards": "Kasuta väikseid kasutajate kaarte",
                 "disable-global-search-source": "",
                 "link-group-mentions": ""
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
+                "not_specified": "Kasuta Flarumi vaikeväärtust",
+                "default": "Vaikeväärtus",
                 "username_az": "",
                 "username_za": "",
                 "newest": "",
                 "oldest": "",
                 "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": ""
+                "least_posts": "Vähim postitusi",
+                "most_discussions": "Enim vestluseid",
+                "least_discussions": "Viimased vestluseid"
             }
         }
     }
