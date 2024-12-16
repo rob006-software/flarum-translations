@@ -25,7 +25,7 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "Vaikimisi näidatakse reaktsioonide faile Cloudflare's CDN-ist. Võid soovi korral määrata ka mõne muu CDN-i aadressi. <code>[codepoint]</code> asendatakse emoji koodipunktiga.\n\nNäiteks, kui soovid kasutada Noto Emoji läbi jsdelivr, siis võid sisestada <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. See väli EI TOHI kunagi olla tühi.\n",
+                    "help": "Vaikimisi näidatakse reaktsioonide faile Cloudflare's CDN-ist. Võid soovi korral määrata ka mõne muu CDN-i aadressi.\n<code>[codepoint]</code> asendatakse emoji koodipunktiga.\n\nNäiteks, kui soovid kasutada Noto Emoji läbi jsdelivr, siis võid sisestada <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. See väli EI TOHI kunagi olla tühi.\n",
                     "label": "URL",
                     "default-url": "Vaikeväärtus: {url}"
                 },
