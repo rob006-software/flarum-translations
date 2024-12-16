@@ -4,12 +4,12 @@
             "ban_ip_button": "",
             "unban_ip_button": "",
             "modal": {
-                "ban_options_only_ip": "",
-                "ban_options_all_ip": "",
-                "ban_ip_no_users": ""
+                "ban_options_only_ip": "Blokeeri ainult praegune IP (<code>{ip}</code>)",
+                "ban_options_all_ip": "Blokeeri kõik IP-d, mida <i>{username}</i> kasutab",
+                "ban_ip_no_users": "Kedagi teist ei blokeerita"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "Blokeeritud"
             },
             "user_controls": {
                 "ban_button": "",
@@ -19,24 +19,24 @@
         "admin": {
             "permissions": {
                 "ban_ip_label": "",
-                "view_banned_ip_list_label": ""
+                "view_banned_ip_list_label": "Vaata blokeeritud IP-aadresside nimekirja"
             },
             "page": {
                 "create_button": "",
-                "creator_label": "",
-                "user_label": "",
+                "creator_label": "Looja",
+                "user_label": "Kasutaja",
                 "address_label": "",
                 "reason_label": "",
-                "date_label": ""
+                "date_label": "Kuupäev"
             },
             "modal": {
-                "update_title": "",
-                "ban_ip_no_users": ""
+                "update_title": "Uuenda blokeeritud IP-d",
+                "ban_ip_no_users": "Kedagi ei blokeerita"
             },
-            "empty_text": ""
+            "empty_text": "Ühtegi blokeeritud IP-d ei leitud"
         },
         "error": {
-            "banned_ip_message": "",
+            "banned_ip_message": "Autoriseerimine ebaõnnestus.",
             "no_ips_found_message": ""
         },
         "lib": {
@@ -45,8 +45,8 @@
                 "unban_title": "",
                 "address_label": "",
                 "reason_label": "",
-                "check_button": "",
-                "save_button": "",
+                "check_button": "Kontrolli",
+                "save_button": "Salvesta",
                 "ban_ip_confirmation": "",
                 "ban_ip_users": "",
                 "unban_ip_confirmation": "",
@@ -54,20 +54,20 @@
                 "unban_options_all_ip": "",
                 "unban_ip_no_users": "",
                 "unban_ip_users": "",
-                "unbanned_ips": "",
+                "unbanned_ips": "Pole blokeeritud <code>{ips}</code>.",
                 "ban_button": "",
                 "unban_button": ""
             }
         },
         "ref": {
-            "ban_label": "",
-            "ban_ip_addresses": "",
-            "ban_ip_button": "",
-            "unban_label": "",
-            "unban_ip_addresses": "",
-            "unban_ip_button": "",
-            "address_label": "",
-            "reason_label": ""
+            "ban_label": "Blokeering",
+            "ban_ip_addresses": "Blokeeri IP(-d)",
+            "ban_ip_button": "Blokeeri IP",
+            "unban_label": "Eemalda blokeering",
+            "unban_ip_addresses": "Eemalda IP aadressi(de) blokeering",
+            "unban_ip_button": "Eemalda IP aadressi blokeering",
+            "address_label": "IP aadress",
+            "reason_label": "Põhjus"
         }
     },
     "flarum-gdpr": {
