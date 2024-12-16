@@ -3,17 +3,17 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
                     "statusGoogle": "",
                     "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
+                    "googleTrackingCode": "Jälgimis koodi ID",
+                    "googleGTMCode": "GTM koodi ID (valikuline)",
+                    "statusPiwik": "Kasuta Matomot",
+                    "piwikUrl": "Matomo domeen või URL",
+                    "piwikSiteId": "Saidi ID",
                     "piwikTrackSubdomain": "",
                     "piwikPrependDomain": "",
                     "piwikHideAliasUrl": "",
@@ -25,13 +25,13 @@
                     "piwikAuthToken": ""
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Ära jälgi",
+                    "username": "Jälgi kasutajanime järgi",
+                    "email": "Jälgi e-maili järgi"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }
