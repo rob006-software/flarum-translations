@@ -2,42 +2,42 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completion-required": "Palun täida allpool nõutud profiili väljad.\n",
+                "profile-completed": "Profiil on loodud! <a>Mine avalehele</a>"
             },
             "buttons": {
-                "view-profile": "",
-                "edit-profile": "",
-                "save-profile": ""
+                "view-profile": "Vaata profiili",
+                "edit-profile": "Muuda profiili",
+                "save-profile": "Salvesta"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Ühtegi valikut pole tehtud (valikuline)",
+                    "none-required": "Palun tee valik (nõutud)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Jah",
+                    "no": "Ei"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "Üldised valikud",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Loo väli",
+                "edit-field": "Salvesta muudatused",
+                "delete-field": "Kustuta väli"
             },
             "permissions": {
-                "edit-others-profile": "",
+                "edit-others-profile": "Teiste kasutajate profiili muutmine",
                 "have-profile": "",
                 "view-profile": ""
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "name": "",
+                "title": "Väljad",
+                "add": "Lisa väli {field}",
+                "edit": "Lisa väli {field}",
+                "name": "Välja nimi",
                 "name-help": "",
                 "description": "",
                 "description-help": "",
@@ -48,19 +48,19 @@
                 "validation-help": "",
                 "prefix": "",
                 "prefix-help": "",
-                "icon": "",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "icon": "Ikoon",
+                "icon-help": "Näita ikoonina kasutaja sisestatud väärtuse ees. Ikoone näed <a>FontAwesome veebisaidilt</a>. Kasuta ikooninimesid eesliitega \"fa-\" näiteks nii \"fas fa-info\".\n",
+                "force-user-to-completion": "Sunni kasutaja profiil täitma",
+                "options": "Valikud",
+                "option-new": "Uus valik",
+                "option-comma-warning": "Valiku sildis ei tohi olla koma (\",\")."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "Lisavalikud",
+                "boolean": "Märkeruut",
+                "email": "E-post",
+                "select": "Rippmenüü",
+                "url": "URL"
             }
         }
     }
