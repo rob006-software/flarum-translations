@@ -7,9 +7,9 @@
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Kustuta silt",
-                "delete_tag_confirmation": "Oled kindel, et soovid seda silti kustutada? Selle sildiga teemasid ei kustutata.",
+                "delete_tag_confirmation": "Oled kindel, et soovid seda silti kustutada? Selle sildiga vestlusi ei kustutata.",
                 "description_label": "Kirjeldus",
-                "hide_label": "Peida kõikidest teemadest",
+                "hide_label": "Peida kõiki vestluste nimekirjast",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
@@ -26,7 +26,7 @@
                 "allow_edit_tags_label": "Siltide muutmine",
                 "bypass_tag_counts_label": "Sildinõuete eiramine",
                 "restrict_by_tag_heading": "Lisa sildipiirang",
-                "tag_discussions_label": "Teemade sildistamine"
+                "tag_discussions_label": "Vestluste sildistamine"
             },
             "settings": {
                 "button_text": "Vali sildid"
@@ -34,9 +34,9 @@
             "tag_settings": {
                 "range_separator_text": " kuni ",
                 "required_primary_heading": "Lubatud põhisiltide arv",
-                "required_primary_text": "Sisesta vähim ja suurim põhisiltide arv, mida saab teemale määrata.",
+                "required_primary_text": "Sisesta vähim ja suurim põhisiltide arv, mida saab vestlusele määrata.",
                 "required_secondary_heading": "Lubatud teisejärguliste siltide arv",
-                "required_secondary_text": "Sisesta vähim ja suurim teisejärguliste siltide arv, mida saab teemale määrata.",
+                "required_secondary_text": "Sisesta vähim ja suurim teisejärguliste siltide arv, mida saab vestlusele määrata.",
                 "title": "Siltide seaded"
             },
             "tags": {
@@ -56,7 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Muuda {title} silte",
-                "title": "Vali oma teema jaoks sildid",
+                "title": "Vali oma vestluse jaoks sildid",
                 "choose_primary_placeholder": "{count, plural, one {Vali põhisilt} other {Vali # põhisilti}}",
                 "choose_secondary_placeholder": "{count, plural, one {Vali veel üks silt} other {Vali veel # silti}}",
                 "submit_button": "=> core.ref.okay"
@@ -82,35 +82,35 @@
                 "tags_text": "{count, plural, one {{tags} silt} other {{tags} silti}}"
             },
             "tag": {
-                "meta_description_text": "Kõik teemad {tag} sildiga"
+                "meta_description_text": "Kõik vestlused sildiga {tag}"
             }
         },
         "lib": {
             "deleted_tag_text": "Kustutatud",
             "tag_selection_modal": {
                 "bypass_requirements": "Sildi mitte kasutamise nõuded",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
+                "choose_primary_placeholder": "{count, plural, one {Vali peamine silt} other {Vali # peamist silti}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "OK",
                 "title": "Vali sildid"
             }
         },
         "ref": {
             "choose_tags": "Vali sildid",
-            "choose_tags_placeholder": "",
+            "choose_tags_placeholder": "{count, plural, one {Vali veel 1 silt} other {Vali veel # silti}}",
             "name": "Nimi",
             "tags": "Sildid"
         },
         "validation": {
             "attributes": {
                 "name": "nimi",
-                "slug": "",
+                "slug": "slug",
                 "is_hidden": "peidetud",
                 "description": "kirjeldus",
                 "color": "värv",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
+                "tag_count_primary": "=> validation.attributes.tag_count_primary",
+                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
             }
         }
     }
