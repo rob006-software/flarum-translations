@@ -1,7 +1,7 @@
 {
     "validation": {
         "accepted": ":attribute peab olema aktsepteeritud.",
-        "active_url": ":attribute pole õige URL.",
+        "active_url": ":attribute pole korrektne URL.",
         "after": ":attribute peab olema kuupäev peale :date.",
         "after_or_equal": ":attribute ei tohi olla kuupäev enne :date.",
         "alpha": ":attribute võib sisaldada ainult tähti.",
@@ -26,7 +26,7 @@
         "digits_between": ":attribute peab olema vahemikus :min kuni :max numbrit.",
         "dimensions": ":attribute pilt pole õigete mõõtudega.",
         "distinct": ":attribute peab erinema olemasolevatest väärtustest.",
-        "email": ":attribute pole õige meiliaadress.",
+        "email": ":attribute pole korrektne meiliaadress.",
         "ends_with": ":attribute peab lõppema ühega järgnevatest: :values.",
         "exists": "Valitud :attribute pole õige.",
         "file": ":attribute peab olema fail.",
@@ -113,7 +113,7 @@
         "attributes": {
             "username": "kasutajanimi",
             "password": "parool",
-            "email": "meiliaadress",
+            "email": "e-posti aadress",
             "title": "pealkiri",
             "content": "sisu",
             "name_singular": "nimi ainsuses",
