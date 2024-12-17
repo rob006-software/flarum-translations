@@ -3,19 +3,19 @@
         "forum": {
             "revisions": "",
             "emptyText": "Muudatusi pole",
-            "editedText": "",
-            "deletedText": "",
+            "editedText": "=> core.forum.post.edited_text",
+            "deletedText": "(kustutatud)",
             "tooltips": {
-                "mostRecent": "",
-                "originalContent": "",
-                "revisionWithNumber": "",
-                "sideBySide": "",
+                "mostRecent": "viimased",
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
+                "sideBySide": "Kõrvuti",
                 "inline": "",
-                "combined": "",
-                "preview": ""
+                "combined": "Kombineeritud",
+                "preview": "=> core.forum.composer.preview_tooltip"
             },
-            "optionsButton": "",
-            "deleteButton": "",
+            "optionsButton": "Valikud",
+            "deleteButton": "=> core.forum.post_controls.delete_button",
             "rollbackButton": "",
             "rollbackToOriginalButton": "",
             "revertChangesButton": "",
@@ -33,13 +33,13 @@
             "differences": {
                 "originalContent": "",
                 "currentContent": "",
-                "revisionWithNumber": "",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
                 "sentence": ""
             },
             "previewMode": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
                 "sentence": ""
             }
         },
@@ -76,9 +76,9 @@
             }
         },
         "ref": {
-            "originalContent": "",
-            "currentContent": "",
-            "revisionWithNumber": ""
+            "originalContent": "algne sisu",
+            "currentContent": "praegune sisu",
+            "revisionWithNumber": "versioon {number}"
         }
     }
 }
