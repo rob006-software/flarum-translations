@@ -6,32 +6,32 @@
                 "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "people-are-typing": "",
+                "anonymous-user": "[Anonüümne]",
+                "people-are-typing": "{number, plural, one {# inimene kirjutab} other {# inimest kirjutavad}}",
                 "users-are-typing": "",
-                "no-activity": ""
+                "no-activity": "Keegi ei kirjuta"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Reaalajas",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Kui see on sisse lülitatud, siis kirjutamise indikaator näitab kasutajat, kes on parasjagu trükkimas. Lülita see välja, et näidata tükkivate kasutajate arvu.",
+                        "label": "Näita, kes on kirjutamas"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Vaata, kes kirjutab"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": ""
+                "release-discussion-updates": "Vestluste nimekirja uuendused",
+                "release-discussion-updates-help": "Kui see on sisse lülitatus, siis uusi vestlusi näidatakse valitud intervalli järel <code>Vestluste nimekirjas</code>.",
+                "release-discussion-updates-interval": "Uute vestluse tegevuste automaatse pushimise intervall",
+                "release-discussion-updates-interval-help": "Sekundites. 0 tähendab, et automaatselt ei teavitata.",
+                "typing-indicator": "Trükkimise indikaator",
+                "typing-indicator-help": "Kui see on sisse lülitatud, siis saavad kasutajad näha teiste kasutajate arvu, kes vestluses vastust trükivad. Kui see on välja lülitatud, siis trükkimise tegevus eemaldatakse kasutajaliidesest ja veebitoimingutest."
             }
         }
     }
