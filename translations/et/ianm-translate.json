@@ -5,7 +5,7 @@
                 "button": "Sõnastik",
                 "create_button": "",
                 "section": {
-                    "heading": "",
+                    "heading": "Sõnastiku seaded",
                     "help": ""
                 }
             },
@@ -21,7 +21,7 @@
                     "help": ""
                 },
                 "seo": {
-                    "heading": "",
+                    "heading": "SEO seaded",
                     "help": "",
                     "default-lang": "",
                     "default-lang-help": ""
@@ -30,10 +30,10 @@
                     "heading": "",
                     "help": ""
                 },
-                "button": "",
+                "button": "Seaded",
                 "seemless": "",
                 "seemless-help": "",
-                "multi-lang-search": "",
+                "multi-lang-search": "Mitmekeelne otsing",
                 "multi-lang-search-help": "",
                 "deepl": {
                     "api_key": {
@@ -45,46 +45,46 @@
                         "label": "",
                         "options": {
                             "en-US": "",
-                            "en-GB": ""
+                            "en-GB": "Inglise (UK) en-GB"
                         }
                     },
                     "formality": {
                         "help": "",
                         "label": "",
                         "options": {
-                            "default": "",
-                            "prefer_less": "",
-                            "prefer_more": ""
+                            "default": "Vaikeväätus",
+                            "prefer_less": "Vähem ametlik",
+                            "prefer_more": "Rohkem ametlik"
                         }
                     }
                 },
                 "google-cloud": {
                     "api_key": {
                         "help": "",
-                        "label": ""
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "libre": {
                     "url": {
                         "help": "",
-                        "label": ""
+                        "label": "Serveri URL"
                     },
                     "port": {
                         "help": "",
-                        "label": ""
+                        "label": "Serveri port"
                     },
                     "api_key": {
                         "help": "",
-                        "label": ""
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "translate-all-enabled": "",
                 "translate-all-help": "",
-                "bind-browser-language": "",
+                "bind-browser-language": "Lisa veebisirvija keel",
                 "bind-browser-language-help": "",
                 "use-native-locale-names": "",
                 "use-native-locale-names-help": "",
-                "translate-polls": "",
+                "translate-polls": "Tõlgi küsitlused",
                 "translate-polls-help": "",
                 "provider": "",
                 "readme-info": "",
