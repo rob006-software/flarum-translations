@@ -2,7 +2,7 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": "Teemade nööpnõelastamine"
+                "sticky_discussions_label": "Vestluste nööpnõelastamine"
             }
         },
         "forum": {
@@ -14,8 +14,8 @@
                 "unsticky_button": "Eemalda nööpnõel"
             },
             "post_stream": {
-                "discussion_stickied_text": "{username} pani teemale nööpnõela, {time}.",
-                "discussion_unstickied_text": "{username} võttis teemalt nööpnõela, {time}."
+                "discussion_stickied_text": "{username} lisas vestlusele nööpnõela, {time}.",
+                "discussion_unstickied_text": "{username} võttis vestluselt nööpnõela, {time}."
             }
         },
         "ref": {
