@@ -47,7 +47,7 @@
                 },
                 "repositories": {
                     "label": "Hoidlad",
-                    "help": "",
+                    "help": "Lisa hoidlaid, millest lisaprogramme paigaldada. See on funktsioon asjatundjatele. Ära lisa hoidlaid, mis pole usaldusväärsed, kuna selle kaudu võidakse sinu serveris käivitada pahatahtliku koodi.\n",
                     "types": {
                         "composer": "composer",
                         "vcs": "vcs",
@@ -69,13 +69,13 @@
                 "guessed_cause": {
                     "extension_incompatible_with_instance": "Lisa tõenäoliselt ühildub sinu Flarumi versiooniga.",
                     "extension_not_found": "Seda lisa ei leitud või seda pole olemas.",
-                    "extensions_incompatible_with_new_major": ""
+                    "extensions_incompatible_with_new_major": "Mõned paigaldatud lisaprogrammid pole uusima versiooniga ühilduvad. Oota, kuni arendajad on oma lisaprogramme uuendanud või eemalda need lisaprogrammid enne jätkamist.\n"
                 }
             },
             "extensions": {
                 "check_why_it_failed_updating": "Näita, miks see ei uuenda viimasele versioonile.",
                 "install": "Paigalda uus laiendus",
-                "install_help": "",
+                "install_help": "Enne jätkamist sisesta lisaprogrammi paketi nimi. Võid sisestada <semantic_link>semantilise versiooni</semantic_link> kasutades vormingut <code>arendaja/paketi nimi:versioon</code>. Lisaprogramme võid vaadata siit: {extiverse}.\n",
                 "proceed": "Jätka",
                 "remove": "Eemalda",
                 "successful_install": "{extension} paigaldati edukalt, ümbersuunamine..",
@@ -144,9 +144,9 @@
             "settings": {
                 "title": "Seaded",
                 "access_warning": "Palun ole ettevaatlik, kui annad ligipääsu adminiliidesele, kuna lisaprogrammide haldurit on võimalik kasutada ka pahatahtlikult ning see võib viia turvaprobleemideni.",
-                "debug_mode_warning": "",
+                "debug_mode_warning": "Sa töötad veatuvastusrežiimis. Lisaprogrammide haldur ei saa kohalikke pakke korrektselt paigaldada ja uuendada. Palun kasuta selle asemel käsurida.",
                 "queue_jobs": "Käivita toimingud järjekorras taustal",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "Võid lugeda lisainfot <a href='{basic_impl_link}'>lihtjärjekorra</a> või <a href='{adv_impl_link}'>lisavõimalustega järjekorra</a> kasutamise kohta. Veendu, et järjekorra jaoks kasutatav PHP versioon oleks {php_version}. Veendu, et <a href='{folder_perms_link}'>kaustade õigused</a> oleks korrektselt seadistatud.\n",
                 "task_retention_days": "Ülesande säilitamise aeg päevades",
                 "task_retention_days_help": "Päevade arv, mil lõpetatud ülesandeid hoitakse andmebaasis alles. Vanemad ülesanded kustutatakse. Kõikide ülesannete alleshoidmiseks sisesta 0.\n"
             },
