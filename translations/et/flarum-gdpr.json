@@ -39,7 +39,7 @@
                 "default_anonymous_username": "",
                 "default_anonymous_username_help": "",
                 "default_erasure": "",
-                "default_erasure_help": "",
+                "default_erasure_help": "Mis peaks olema vaikimisi tegevus enne kustutamise päringut?",
                 "default_erasure_options": {
                     "anonymization": "Anonümiseerimine",
                     "deletion": "Kustutamine"
@@ -64,10 +64,10 @@
                     "export_description": ""
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "Ekspordi kõik vestlused, mida kasutaja on alustanud. Andmed on piiratud pealkirja loomise kuupäevaga."
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "Ekspordi foorumi pealkiri, URL, kasutajanimi, e-post ja praegune kuupäev."
                 },
                 "no_action": "Mingit tegevust ei sooritatud.",
                 "posts": {
@@ -77,7 +77,7 @@
                 },
                 "tokens": {
                     "delete_description": "Kustutab kõik kontrollkoodid, mida kasutaja on loonud.",
-                    "export_description": ""
+                    "export_description": "Ekspordib kõik kasutajakoodid, mida kasutaja on loonud. Andmed on piiratud loomise kuupäeva ja kontrollkoodi liigiga."
                 },
                 "user": {
                     "anonymize_description": "",
