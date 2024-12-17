@@ -4,45 +4,45 @@
             "change_language": {
                 "edit_title": "",
                 "title": "Muutmise keel",
-                "submit_button": ""
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Keel"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Määra keel"
             },
             "index_language": {
-                "any": ""
+                "any": "Ükskõik, mis keel"
             },
             "sub_controls": {
-                "subscription_language_label": "",
+                "subscription_language_label": "Vestluse keel",
                 "subscription_language_help": ""
             }
         },
         "admin": {
             "settings": {
                 "native_label": "",
-                "show_flag_label": "",
+                "show_flag_label": "Näita keelte nimede juures riigi lippe",
                 "composer_default_label": "",
                 "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
+                "show_any_lang_opt_label": "Näita valikut, etvalida \"Ükskõik, mis keel\"",
                 "tags_page_discussion_locale_label": "",
                 "errors": {
                     "missing_assets": ""
                 },
                 "config": {
-                    "language_label": "",
-                    "country_label": ""
+                    "language_label": "Keel",
+                    "country_label": "Riik (lipu näitamiseks)"
                 }
             },
             "permissions": {
-                "allow_change_language_label": ""
+                "allow_change_language_label": "Luba keele muutmine"
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Sa pead valima oma vestluse keele."
             }
         }
     }
