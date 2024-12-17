@@ -86,69 +86,69 @@
                 "use-native-locale-names-help": "",
                 "translate-polls": "Tõlgi küsitlused",
                 "translate-polls-help": "",
-                "provider": "",
+                "provider": "Tõlketeenuse pakkuja",
                 "readme-info": "",
                 "readme-none": ""
             }
         },
         "forum": {
-            "unknown-language": "",
+            "unknown-language": "[pole tuvastatud]",
             "detected-language": "",
-            "translate-button-label": "",
-            "refresh-translation": "",
+            "translate-button-label": "Tõlgi",
+            "refresh-translation": "Värskenda tõlget",
             "original-content": {
-                "title": "",
-                "view": ""
+                "title": "Algne sisu",
+                "view": "Vaata algset sisu"
             },
             "manage-translations": {
-                "translations-label": "",
-                "button-label": "",
-                "original-language": "",
+                "translations-label": "Tõlked",
+                "button-label": "Halda tõlkeid",
+                "original-language": "Algne keel ({detectedLang})",
                 "discussion": {
-                    "title": ""
+                    "title": "Halda vestluse pealkirja tõlkeid"
                 },
                 "post": {
-                    "title": ""
+                    "title": "Halda postituse tõlkeid"
                 },
                 "poll": {
                     "image-alt": "",
-                    "option": "",
+                    "option": "Küsitluse vastusevariant {number}",
                     "subtitle": "",
-                    "title": "",
-                    "question": "",
-                    "question-language": ""
+                    "title": "Halda küsitluste tõlkeid",
+                    "question": "Küsitluse küsimus",
+                    "question-language": "Küsitluse küsimus ({language})"
                 },
-                "save-changes": ""
+                "save-changes": "=> core.ref.save_changes"
             },
             "discussion": {
                 "post": {
-                    "close-translation": "",
+                    "close-translation": "Sulge tõlge",
                     "translated-header": "",
                     "translated-updated": ""
                 },
                 "title": {
-                    "detected-language": ""
+                    "detected-language": "{postLang}"
                 }
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Tõlge",
                     "source-language": {
                         "help": "",
-                        "label": ""
+                        "label": "Näita alati keelt"
                     }
                 }
             }
         },
         "lib": {
             "providers": {
-                "deepl": "",
-                "google-free": "",
-                "google-cloud": "",
-                "libre": ""
+                "deepl": "DeepL",
+                "google-free": "Google Translate",
+                "google-cloud": "Google Cloud tõlge",
+                "libre": "Libre Translate"
             },
             "settings": {
-                "api-key": ""
+                "api-key": "API võti"
             }
         }
     }
