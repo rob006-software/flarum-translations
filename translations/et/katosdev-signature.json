@@ -22,15 +22,15 @@
             "settings": {
                 "maximum_image_count": {
                     "description": "Maksimaalselt sisestatud pilte.",
-                    "help": ""
+                    "help": "Kui kasutaja ületab allkirjas maksimaalse piltide arvu, siis nad ei saa seda salvestada seni, kui piltide arv on õige."
                 },
                 "maximum_char_limit": {
                     "description": "Maksimaalne allkirja märkide limiit.",
-                    "help": ""
+                    "help": "Kui kasutaja ületab allkirjas maksimaalse märkide arvu, siis nad ei saa seda salvestada seni, kui märkide arv on õige."
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Allkirja muutmine otse lehel.",
+                    "help": "Kui see on sisse lülitatud, siis saavad kasutajad oma allkirja muuta postituse vaatamise ajal."
                 }
             }
         }
