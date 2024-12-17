@@ -6,37 +6,37 @@
             },
             "answers-modal": {
                 "edit-title": "",
-                "save": ""
+                "save": "Salvesta väljad"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Vastuseid pole"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": ""
+                "choose-option": "Tee valik",
+                "no-option-selected": "Ühtegi valikut pole tehtud"
             },
             "tags": {
                 "inadequate-settings": "",
-                "tags-label": ""
+                "tags-label": "Sildid"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
-                "edit-field": "",
-                "add-answer": "",
-                "save-answer": "",
-                "delete-answer": "",
-                "edit-answer": "",
+                "new-field": "Uus väli",
+                "add-field": "Lisa väli",
+                "save-field": "Salvesta välja muudatused",
+                "delete-field": "Kustuta väli",
+                "edit-field": "Kliki, et välja muuta",
+                "add-answer": "Lisa vastus",
+                "save-answer": "Salvesta vastuse muudatused",
+                "delete-answer": "Kustuta vastus",
+                "edit-answer": "Muuda vastust",
                 "edit-answer-prompt": "",
                 "show-user-answers": ""
             },
             "fields": {
-                "add": "",
-                "edit": "",
+                "add": "Lisa väli {field}",
+                "edit": "Muuda välja {field}",
                 "required": "",
                 "name": "",
                 "name-help": "",
@@ -45,28 +45,28 @@
                 "show_when_empty": "",
                 "show_when_empty-help": "",
                 "validation": "",
-                "user_values_allowed": "",
+                "user_values_allowed": "Kasutaja väärtused on lubatud",
                 "user_values_allowed-help": "",
                 "validation-help": "",
                 "enable-user-values-for-validation": "",
-                "icon": "",
+                "icon": "Ikoon",
                 "icon-help": "",
                 "icon-preview": "",
-                "save-field-for-answers": "",
-                "is_suggested": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "save-field-for-answers": "Salvesta väli, et lisada vastuseid",
+                "is_suggested": "Soovita kasutajatele vastust",
+                "new-answer": "Uus vastus",
+                "new-answer-placeholder": "Sama tekst"
             },
             "messages": {
                 "delete-answer-confirmation": "",
                 "delete-field-confirmation": ""
             },
             "settings": {
-                "fields-section-title": "",
+                "fields-section-title": "Kohandatud väljade sektsiooni pealkiri",
                 "fields-section-title-placeholder": "",
                 "fields-section-title-help": "",
                 "column-count": "",
-                "n-columns": "",
+                "n-columns": "{count} veergu",
                 "labels-as-placeholders": "",
                 "labels-as-placeholders-help": "",
                 "fields-in-hero": "",
@@ -75,13 +75,13 @@
                 "tags-as-field": "",
                 "tags-as-field-help": "",
                 "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "settings": "",
-                "fields": "",
-                "field-settings": "",
-                "field-answers": ""
+                "settings": "Seaded",
+                "fields": "Väljad",
+                "field-settings": "Välja seaded",
+                "field-answers": "Välja vastused"
             },
             "permissions": {
                 "see-own-fields": "",
