@@ -2,18 +2,18 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": ""
+                "access_logfile_api": "Ligipääs logifailile läbi API"
             },
             "settings": {
-                "purge-days": "",
-                "purge-days-help": ""
+                "purge-days": "Kustuta logifailid nii mitme päeva pärast",
+                "purge-days-help": "Sõltub sellest, kas Flarumi ajastaja on aktiivne. 0 tähendab, et see on välja lülitatud."
             },
             "viewer": {
-                "available_logs_heading": "",
-                "file_contents_heading": "",
-                "file_size": "",
-                "last_updated": "",
-                "no_file_selected": ""
+                "available_logs_heading": "Saadaolevad failid",
+                "file_contents_heading": "Faili sisu",
+                "file_size": "Suurus (baitides): {size}",
+                "last_updated": "Viimati uuendatud: {updated}",
+                "no_file_selected": "Vali logifail, et selle sisu näha."
             }
         }
     }
