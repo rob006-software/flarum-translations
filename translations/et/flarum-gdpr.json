@@ -32,14 +32,14 @@
                 "see_anonymized_user_badges": "Vaata anonümiseeritud kasutajate silte"
             },
             "settings": {
-                "allow_anonymization": "",
+                "allow_anonymization": "Luba kustutamise päringute korral anonümiseerimine",
                 "allow_anonymization_help": "",
                 "allow_deletion": "Luba soovi korral kustutamine",
                 "allow_deletion_help": "",
                 "default_anonymous_username": "",
                 "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "Mis peaks olema vaikimisi tegevus enne kustutamise päringut?",
+                "default_erasure": "Vaikimisi tegevus kustutamise päringu korral",
+                "default_erasure_help": "Mis peaks olema vaikimisi tegevus kustutamise päringu korral?",
                 "default_erasure_options": {
                     "anonymization": "Anonümiseerimine",
                     "deletion": "Kustutamine"
@@ -86,7 +86,7 @@
                 }
             },
             "request_data": {
-                "title": "",
+                "title": "Ekspordi kasutaja {username} andmed",
                 "text": "Sinu jaoks valmistatakse ZIP-fail. Kui see on valmis, siis saadetakse sulle teavitus allalaadimise lingiga. Link on aktiivne üks päev.\n",
                 "request_button": "Nõude ZIP-fail"
             }
@@ -99,11 +99,11 @@
             "erasure_completed": {
                 "deletion": {
                     "subject": "Konto kustutamine on lõpetatud",
-                    "body": ""
+                    "body": "Tere {display_name}!\n\nSee on automaatne ja viimane teade, et sinu konto on kustutatud.\n"
                 },
                 "anonymization": {
                     "subject": "Konto anonümiseerimine on lõpetatud",
-                    "body": ""
+                    "body": "Tere {display_name}!\n\nSee on automaatne ja viimane teade, et sinu konto on anonümiseeritud.\n"
                 }
             },
             "erasure_cancelled": {
@@ -121,8 +121,8 @@
             },
             "delete_user": {
                 "title": "Kustuta kasutajakonto {username}",
-                "text": "",
-                "modal_delete_button": "",
+                "text": "Oled sa kindel, et soovid kustutada kasutaja {username} konto?\n\nSee tegevus on pöördumatu.\n",
+                "modal_delete_button": "Kustuta kasutades vaikimisi tegevust",
                 "delete_button": "Kustuta"
             },
             "erasure_requests": {
@@ -131,7 +131,7 @@
                 "tooltip": "Konto kustutamise nõuded",
                 "title": "Lonto kustuamise nõuded"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Oled kinnitanud oma konto kustutamise soovi. See toiming tehakse ära 30 päeva jooksul vastavalt GDPR nõuetele.",
             "settings": {
                 "data": {
                     "heading": "Isiklikud andmed"
@@ -144,7 +144,7 @@
             "process_erasure": {
                 "confirm": "",
                 "title": "Protsessi kustutamise nõue",
-                "text": "",
+                "text": "{name} on küsinud konto kustutamist.",
                 "comments_label": "Kommentaarid (valikuline)",
                 "anonymization_button": "Anonümiseeri kasutaja",
                 "deletion_button": "Kustuta kasutaja"
@@ -153,10 +153,10 @@
                 "title": "Nõua konto kustutamist",
                 "reason": "Sa sisestasid järgmise põhjuse: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Sa peaks olema saanud kirja, millega saad kinnitada oma konto kustutamise soovi.\n",
+                    "user_confirmed": "Oled kinnitanud oma konto kustutamise soovi. See toiming tehakse ära 30 päeva jooksul vastavalt GDPR nõuetele.\n"
                 },
-                "text": "",
+                "text": "Kui su soov on kätte saadud ja kinnitanud siis admin vaatab sinu päringu 30 päeva jooksul üle vastavalt GDPR nõuetele.",
                 "password_label": "Kinnita parooli",
                 "reason_label": "Põhjus (valikuline)",
                 "cancel_button": "Tühista päring",
