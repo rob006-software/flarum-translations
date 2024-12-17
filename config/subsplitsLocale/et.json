@@ -1,5 +1,29 @@
 {
     "changelog": {
-        "general-changes": "Üldised muudatused"
+        "general-changes": "Üldised muudatused",
+        "updated-file": "Faili `{file}`on uuendatud",
+        "updated-config-css": "Uuendatud CSS",
+        "cleaned-validation": "Aegunud kinnitatud tõlked on eemaldatud (toetatud on versioon `{version}` või uuem)",
+        "extensions-added": "Lisati uute lisaprogrammide tugi",
+        "updated-validation": "Kinnitatud tõlkeid uuendati",
+        "extensions-removed": "Aegunud lisaprogrammide tugi eemaldati",
+        "updated-core": "Flarumi tuuma tõlked on uuendatud",
+        "cleaned-core": "Aegunud Flarumi tuuma tõlked eemaldati (toetatud on versioon `{version}` või uuem)",
+        "updated-config-js": "Day.js tõlked on uuendatud",
+        "extensions-cleaned": "Lisaprogrammide aegunud ja uuendatud tõlkeid muudeti",
+        "all-changes": "Kõik muudatused: {link}.",
+        "extensions-updated": "Lisaprogrammide tõlkeid on uuendatud"
+    },
+    "announcement": {
+        "to-update": "Uuendamiseks käivita need käsud:",
+        "major-warning": "See versioon eemaldab vanemate Flarumi versioonide ja aegunud lisaprogrammide toe. Enne uuendamist veendu, et kasutad Flarumi ja lisaprogrammide kõige uuemaid versioone.",
+        "version": "Versioon {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "Staatus",
+            "label-translation-status": "Tõlke staatus",
+            "header-extension": "Lisaprogramm"
+        }
     }
 }
