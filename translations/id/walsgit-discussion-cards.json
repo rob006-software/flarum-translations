@@ -30,6 +30,10 @@
                     "showAuthor_help": "Jika diaktifkan, akan menampilkan penulis diskusi pada kartu.",
                     "showReplies_label": "Tampilkan jumlah balasan",
                     "showReplies_help": "Jika diaktifkan, akan menampilkan jumlah balasan pada kartu (dan avatar beberapa peserta dalam diskusi pada kartu utama).",
+                    "showRepliesOnRight_label": "",
+                    "showRepliesOnRight_help": "",
+                    "showLastPostInfo_label": "",
+                    "showLastPostInfo_help": "",
                     "showBadges_label": "Tampilkan badge",
                     "showBadges_help": "Jika diaktifkan, akan menampilkan badge di sudut kiri atas kartu.",
                     "markReadCards_label": "Bedakan kartu diskusi yang sudah/belum dibaca",
@@ -49,7 +53,13 @@
                     "useBlogImages_label": "Gunakan gambar default dan gambar favorit blog",
                     "useBlogImages_help": "Jika opsi ini diaktifkan, gambar kartu untuk setiap postingan blog akan diatur ke: gambar favorit postingan blog; jika tidak ada, ke gambar yang pertama kali ditemukan dari konten blog; jika tidak ada, ke gambar default ekstensi blog; jika tidak ada, ke gambar default tag kartu diskusi; jika tidak ada, ke gambar default utama kartu diskusi. Perhatikan bahwa pengaturan khusus untuk tag yang digunakan sebagai tag blog tentu saja akan diabaikan jika Anda memilih untuk mengalihkan tag blog dalam pengaturan ekstensi Flarum Blog.",
                     "useBlogSummary_label": "Gunakan ringkasan postingan blog sebagai teks pratinjau",
-                    "useBlogSummary_help": "Jika opsi ini dan teks pratinjau diaktifkan, kartu untuk postingan blog akan menampilkan awal ringkasan postingan blog sebagai teks pratinjau, bukan awal teks postingan blog."
+                    "useBlogSummary_help": "Jika opsi ini dan teks pratinjau diaktifkan, kartu untuk postingan blog akan menampilkan awal ringkasan postingan blog sebagai teks pratinjau, bukan awal teks postingan blog.",
+                    "repostExtension_title_start": "",
+                    "repostExtension_title_end": "",
+                    "repostExtension_notInstalled": "",
+                    "repostExtension_notActivated": "",
+                    "allowRepostLinks_label": "",
+                    "allowRepostLinks_help": ""
                 }
             },
             "tags": {
