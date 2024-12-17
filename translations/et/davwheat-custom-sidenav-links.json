@@ -20,32 +20,32 @@
                     "link_table": {
                         "heading": "Kohanda linke",
                         "add_link_btn": "Lisa uus link",
-                        "confirm_delete": "",
+                        "confirm_delete": "Kinnita lingi \"{link}\" kustutamine",
                         "alert": {
                             "fix_errors": ""
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "Asukoht",
+                                "icon": "Lingi ikoon",
+                                "text": "Lingi tekst",
+                                "url": "Lingi URL",
+                                "internal": "On Flarumi URL?",
+                                "delete": "Eemalda"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
+                                "icon": "fas fa-link",
+                                "text": "Minu lahe sait",
                                 "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Liiguta üles",
+                                "move_down": "Liiguta alla",
+                                "icon_preview": "Ikoon eelvaade"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
+                            "dirty": "Salvesta seaded",
                             "saving": "",
                             "saved": "",
                             "fix_errors": ""
@@ -60,15 +60,15 @@
                             "invalid_form": ""
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }
