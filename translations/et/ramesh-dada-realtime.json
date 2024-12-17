@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "polling-interval": "Värskendamise intervall",
-                "polling-interval-help": ""
+                "polling-interval-help": "Määra aeg millisekundites, mille tagant vestlusi värskendatakse. Mida suurem see arv on, seda väiksem on koormus serverile, aga uued postitused ilmuvad aeglasemalt. Vaikeväärtus on 2000ms = 2s"
             }
         }
     }
