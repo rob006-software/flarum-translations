@@ -6,13 +6,13 @@
                 "ordering_heading": "Liitmise järjestus",
                 "ordering_date_label": "Liida postitused kuupäevade järgi",
                 "ordering_date_help": "",
-                "ordering_suffix_label": "",
+                "ordering_suffix_label": "Lisa liidetud sõnumid vestluse lõppu",
                 "ordering_suffix_help": "",
                 "type_heading": "Liitmise liik",
                 "type_target_label": "",
                 "type_target_help_text": "",
-                "type_from_label": "",
-                "type_from_help_text": "",
+                "type_from_label": "Liida see vestlus teisega",
+                "type_from_help_text": "Vali vestlus, millega see vestlus <b>{title}</b> liita.",
                 "load_preview_button": "Eelvaade",
                 "submit_button": "Liida"
             },
@@ -23,7 +23,7 @@
                 }
             },
             "discussion": {
-                "merge": ""
+                "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
                 "merged": ""
@@ -40,9 +40,9 @@
         },
         "api": {
             "error": {
-                "merging_failed": "",
+                "merging_failed": "Vestluste liitmine ebaõnnestus.",
                 "updating_failed": "",
-                "deleting_failed": "",
+                "deleting_failed": "Tühja vestluse kustutamine ebaõnnestus.",
                 "fixing_posts_number_failed": "",
                 "fixing_posts_number_meta_failed": ""
             }
