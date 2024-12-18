@@ -167,23 +167,23 @@
         },
         "validation": {
             "attributes": {
-                "minimum_stability": "",
-                "repositories": "",
-                "repositories.*": "",
-                "repositories.*.type": "",
-                "repositories.*.url": "",
-                "extension_id": "",
-                "update_mode": "",
-                "package": "",
-                "version": "",
-                "github_oauth": "",
-                "github_oauth.*": "",
-                "gitlab_oauth": "",
-                "gitlab_oauth.*": "",
-                "gitlab_token": "",
-                "gitlab_token.*": "",
-                "bearer": "",
-                "bearer.*": ""
+                "minimum_stability": "minimum kararlılık",
+                "repositories": "depolar",
+                "repositories.*": "depolar",
+                "repositories.*.type": "depo türü",
+                "repositories.*.url": "depo bağlantısı",
+                "extension_id": "Eklenti ID'si",
+                "update_mode": "güncelleme modu",
+                "package": "paket",
+                "version": "sürüm",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab Erişim Anahtarı",
+                "gitlab_token.*": "GitLab Erişim Anahtarı",
+                "bearer": "HTTP Taşıyıcısı",
+                "bearer.*": "HTTP Taşıyıcısı"
             }
         }
     }
