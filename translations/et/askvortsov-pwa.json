@@ -3,12 +3,12 @@
         "admin": {
             "nav": {
                 "pwa_button": "Veebirakendus",
-                "pwa_text": ""
+                "pwa_text": "Seadista Flarum kui veebirakendus, mida saab mobiilsetele seadmetele installida."
             },
             "pwa": {
                 "about": {
                     "description_label": "Kirjeldus",
-                    "description_text": "",
+                    "description_text": "Kirjelduse saad määrata oma saidi põhiseadetest adminiliidese töölaual.",
                     "long_name_label": "Pikk nimi",
                     "long_name_text": "Veebirakenduse nimi, mida näidatakse kasutajatele.",
                     "heading": "Info",
@@ -28,20 +28,20 @@
                     "debug_text": "See salvestab teavituste logi kausta `storage/logs`. Seda peaks tavaliselt näidama, et vältida logide tarbetut täitumist.",
                     "reset_vapid_text": "See loob uued VAPID võtmed ja kustutab olemas olevad tellimused, mis kasutavad praeguseid VAPID võtmeid.",
                     "reset_vapid_confirm": "VAPID võtmed eemaldavad kõik olemasolevate võtmete tellimused, mis tähendab, et kasutaja ei saa teavitusi enne, kui ta on saiti uuesti külastanud. Seda peaks tegema ainult siis kui sa seadistad push-teavitusi esimest korda või kui teavitused ei tööta üldse ning sulle näidatakse sellel lehel teavitust VAPID võtmete puudumise kohta.",
-                    "reset_vapid_success": ""
+                    "reset_vapid_success": "VAPID võtmed on nullitud. {count} tellimust tühistati. Laadi lehekülg uuesti, et näha uuendatud staatuse oleku aruannet."
                 },
                 "firebase_config": {
                     "heading": "Firebase",
                     "help_text": "",
                     "see_documentation_here": "Vaata dokumentatsiooni siin",
-                    "upload_successful": "",
+                    "upload_successful": "Sinu Firebase seaded on edukalt uuendatud",
                     "upload_file": "Laadi üles"
                 },
                 "other": {
                     "heading": "Muu",
                     "force_portrait_text": "Sunni püstine paigutus?",
-                    "push_notif_preference_default_to_email_label": "",
-                    "push_notif_preference_default_to_email_text": "",
+                    "push_notif_preference_default_to_email_label": "Push teavitused e-posti teavituste järgi?",
+                    "push_notif_preference_default_to_email_text": "Kui see on sisse lülitatud, siis mobiiliteavitusi lülitatakse automaatselt sisse samades kohtades, kus teavitused meilile on vaikimisi sisse lülitatud. Kui see funktsioon on välja lülitatud, siis on kasutajate jaoks mobiiliteavitused automaatselt välja lülitatud.",
                     "user_max_subscriptions_label": "Maks, push teavituste arv kasutaja kohta",
                     "user_max_subscriptions_text": "",
                     "window_controls_overlay_label": "",
