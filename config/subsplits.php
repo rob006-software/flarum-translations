@@ -264,9 +264,9 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => [],
+		'maintainers' => ['JoomlaEstonia'],
 	],
 	'eu' => [
 		'type' => 'language',
