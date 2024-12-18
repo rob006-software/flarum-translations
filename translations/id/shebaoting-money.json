@@ -29,7 +29,7 @@
             ],
             "automoderator": {
                 "metric_name": "Money",
-                "action_name": ""
+                "action_name": "Transfer money"
             }
         },
         "forum": {
@@ -50,7 +50,7 @@
             "log_type_withdrawal": "Penarikan",
             "log_type_transfer": "Transfer",
             "log_type_reward": "Reward",
-            "no_money_logs": "",
+            "no_money_logs": "Tidak ada riwayat money yang tersedia",
             "load_more": "Muat lainnya",
             "logs_description": {
                 "created_discussion": "Membuat diskusi › <a href=\"{url}\">{title}</a>",
@@ -79,11 +79,11 @@
                 "discussion_restored": "Pemulihan Diskusi",
                 "discussion_hidden": "Diskusi Disembunyikan",
                 "discussion_deleted": "Menghapus Diskusi",
-                "liked": "",
-                "liked_by_others": "",
+                "liked": "Suka Post",
+                "liked_by_others": "Post Disukai oleh Pengguna Lain",
                 "admin_updated": "",
                 "registration": "Bonus Pendaftaran",
-                "discussion_replied": ""
+                "discussion_replied": "Membalas Diskusi"
             },
             "point_log": {
                 "title": "Catatan Perubahan Poin",
