@@ -4,23 +4,23 @@
             "action_drivers": {
                 "activate_email": "Aktiveeri e-post",
                 "add_to_group": "Lisa gruppi",
-                "remove_from_group": "",
+                "remove_from_group": "Eemalda grupist",
                 "suspend": "",
                 "unsuspend": ""
             },
             "metric_drivers": {
-                "discussions_entered": "",
-                "discussions_participated": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": ""
+                "discussions_entered": "Vestlusesse sisenetud",
+                "discussions_participated": "Vestluses osalenud",
+                "discussions_started": "Vestlusi alustanud",
+                "posts_made": "Tehtud postitusi",
+                "likes_given": "Meeldimisi antud",
+                "likes_received": "Meeldimisi saadud",
+                "best_answers": "Parimad vastused",
+                "moderator_strikes": "Hoiatusi moderaatorilt"
             },
             "requirement_drivers": {
-                "email_confirmed": "",
-                "in_group": "",
+                "email_confirmed": "Kinnitatud e-post",
+                "in_group": "Grupis",
                 "suspended": "",
                 "email_matches_regex": ""
             },
@@ -28,14 +28,14 @@
                 "regex": ""
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Vali grupp"
             },
             "suspend_selector": {
                 "days": "",
                 "indefinitely": ""
             },
             "criterion_status": {
-                "heading": "",
+                "heading": "Staatuse kontroll",
                 "invalid": "",
                 "no_actions": "",
                 "no_metrics_or_reqs": "",
@@ -46,42 +46,42 @@
             "criterion_page": {
                 "driver_missing_ext": "",
                 "back": "",
-                "name_label": "",
-                "icon_label": "",
-                "description_label": "",
-                "new_criterion": "",
+                "name_label": "Nimi",
+                "icon_label": "Ikoon",
+                "description_label": "Kirjeldus",
+                "new_criterion": "Loo kriteerium",
                 "negated": "",
-                "loading": "",
-                "delete_button": "",
-                "metrics_and_requirements_label": "",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Parameetrid ja nõuded",
                 "metrics_and_requirements_help": "",
-                "metrics_heading": "",
-                "requirements_heading": "",
-                "add_metric": "",
-                "actions_label": "",
+                "metrics_heading": "Parameetrid",
+                "requirements_heading": "Nõuded",
+                "add_metric": "Lisa parameeter",
+                "actions_label": "Tegevused",
                 "actions_help": "",
                 "actions_on_gain_heading": "",
                 "actions_on_loss_heading": "",
-                "add_action": ""
+                "add_action": "Lisa tegevus"
             },
             "undefined_driver_item": {
                 "text": ""
             },
             "automoderator_page": {
-                "criterion_invalid": "",
-                "list_heading": "",
-                "create_criterion_button": ""
+                "criterion_invalid": "Kriteerium on vigane. Lisainfo saamiseks kontrolli palun selle seadeid",
+                "list_heading": "Kriteerium",
+                "create_criterion_button": "Loo uus kriteerium"
             },
             "automoderator_instructions": {
-                "header": "",
+                "header": "Lisaprogrammi juhendid",
                 "text": ""
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "Grupi ID",
             "managed_groups": {
-                "header": "",
-                "group_item": "",
+                "header": "Hallatud grupid:",
+                "group_item": "<badge></badge> {groupName}",
                 "groups_not_editable": ""
             }
         }
