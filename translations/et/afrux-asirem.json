@@ -3,39 +3,39 @@
         "admin": {
             "extensions": {
                 "title": "Lisaprogrammid",
-                "description": ""
+                "description": "Paigaldatud lisaprogrammide nimekiri."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Peamised seaded",
+                    "permissions": "Õigused"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Tagasi foorumisse"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Avatar"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "Muuda jaluse linke",
+                "footer_description": "Kirjeldus jaluses",
+                "footer_bottom_line": "Jaluse viimane rida",
+                "hero_banner": "Teretulemast suur pilt",
+                "hero_banner_position": "Teuetulemast pildi asukoht CSS-iga (näiteks 'keskel üleval' või 'Keskel 20%')",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Uus linkide grupp",
+                    "group_name": "Grupi nr. {number} nimi",
+                    "group_title": "Lingi grupi nimi",
+                    "add_link": "Lisa link",
+                    "link_url": "Lingi URL",
+                    "link_label": "Lingi silt"
                 }
             }
         }
