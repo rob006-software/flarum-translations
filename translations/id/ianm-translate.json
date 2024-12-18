@@ -86,6 +86,8 @@
                 "use-native-locale-names-help": "Saat diaktifkan, nama lokal asli akan digunakan sebagai pengganti versi lokal nama saat ini.",
                 "translate-polls": "Menerjemahkan polling",
                 "translate-polls-help": "Jika diaktifkan, judul polling, subjudul, teks alternatif gambar, dan opsi jawaban akan diterjemahkan secara otomatis saat polling dibuat atau diedit.",
+                "translate-quiz": "",
+                "translate-quiz-help": "",
                 "provider": "Penyedia terjemahan",
                 "readme-info": "Lihat dokumentasi README untuk informasi lebih lanjut.",
                 "readme-none": "Tidak ada pengaturan tambahan yang diperlukan untuk driver ini."
@@ -119,7 +121,14 @@
                     "question-language": "",
                     "original-title": "Bahasa asli"
                 },
-                "save-changes": "=> core.ref.save_changes"
+                "save-changes": "=> core.ref.save_changes",
+                "quiz": {
+                    "title": "",
+                    "question": "",
+                    "subtitle": "",
+                    "option": "",
+                    "answer-additional": ""
+                }
             },
             "discussion": {
                 "post": {

@@ -88,6 +88,8 @@
                 "use-native-locale-names-help": "Si cette option est activée, le nom de la langue native sera utilisé à la place de la version locale actuelle du nom.",
                 "translate-polls": "Traduire les sondages",
                 "translate-polls-help": "Lorsque cette option est activée, les titres des sondages, les sous-titres, le texte alt des images et les options de réponse sont traduits automatiquement lors de la création ou de la modification d'un sondage.",
+                "translate-quiz": "",
+                "translate-quiz-help": "",
                 "provider": "Fournisseur de services de traduction",
                 "readme-info": "Pour plus d'informations, veuillez consulter la documentation dans le fichier README.",
                 "readme-none": "Aucun paramètre supplémentaire n'est requis pour ce pilote.",
@@ -123,7 +125,14 @@
                     "question-language": "",
                     "original-title": "Langue d'origine"
                 },
-                "save-changes": "=> core.ref.save_changes"
+                "save-changes": "=> core.ref.save_changes",
+                "quiz": {
+                    "title": "",
+                    "question": "",
+                    "subtitle": "",
+                    "option": "",
+                    "answer-additional": ""
+                }
             },
             "discussion": {
                 "post": {

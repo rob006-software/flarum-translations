@@ -87,6 +87,8 @@
                 "use-native-locale-names-help": "启用此项，使用原始名称替代当前语言名称。",
                 "translate-polls": "翻译投票",
                 "translate-polls-help": "启用此项，自动翻译投票的标题、副标题、图像替代文本和选项。",
+                "translate-quiz": "",
+                "translate-quiz-help": "",
                 "provider": "翻译服务提供商",
                 "readme-info": "查看 README 文档获取更多信息。",
                 "readme-none": "此驱动程序无额外设置。",
@@ -122,7 +124,14 @@
                     "question-language": "",
                     "original-title": "原始语言"
                 },
-                "save-changes": "=> core.ref.save_changes"
+                "save-changes": "=> core.ref.save_changes",
+                "quiz": {
+                    "title": "",
+                    "question": "",
+                    "subtitle": "",
+                    "option": "",
+                    "answer-additional": ""
+                }
             },
             "discussion": {
                 "post": {

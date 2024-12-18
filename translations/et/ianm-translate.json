@@ -86,6 +86,8 @@
                 "use-native-locale-names-help": "",
                 "translate-polls": "Tõlgi küsitlused",
                 "translate-polls-help": "",
+                "translate-quiz": "",
+                "translate-quiz-help": "",
                 "provider": "Tõlketeenuse pakkuja",
                 "readme-info": "",
                 "readme-none": ""
@@ -118,7 +120,14 @@
                     "question": "Küsitluse küsimus",
                     "question-language": "Küsitluse küsimus ({language})"
                 },
-                "save-changes": "=> core.ref.save_changes"
+                "save-changes": "=> core.ref.save_changes",
+                "quiz": {
+                    "title": "",
+                    "question": "",
+                    "subtitle": "",
+                    "option": "",
+                    "answer-additional": ""
+                }
             },
             "discussion": {
                 "post": {

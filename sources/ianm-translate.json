@@ -85,7 +85,9 @@
                 "use-native-locale-names": "Use native locale names",
                 "use-native-locale-names-help": "When enabled, the native locale name will be used instead of the current locale version of the name.",
                 "translate-polls": "Translate polls",
-                "translate-polls-help": "When enabled, polls titles, subtitle, image alt text and answer options will be translated automatically when a poll is created or edited.",
+                "translate-polls-help": "When enabled, the poll title, subtitle, image alt text and answer options will be automatically translated when a poll is created or edited.",
+                "translate-quiz": "Translate quizzes",
+                "translate-quiz-help": "When enabled, the quiz title, subtitle, correct answer explanation and answer options will be automatically translated when a quiz is created or edited.",
                 "provider": "Translation provider",
                 "readme-info": "See the README documention for extended information.",
                 "readme-none": "No additional settings are required for this driver."
@@ -111,14 +113,21 @@
                     "title": "Manage Post translations"
                 },
                 "poll": {
-                    "image-alt": "Poll image ALT text (if any)",
-                    "option": "Poll option {number}",
-                    "subtitle": "Poll subtitle",
+                    "image-alt": "Image ALT text (if any)",
+                    "option": "Option {number}",
+                    "subtitle": "Subtitle",
                     "title": "Manage Poll translations",
-                    "question": "Poll question",
+                    "question": "Question",
                     "question-language": "Poll question ({language})"
                 },
-                "save-changes": "=> core.ref.save_changes"
+                "save-changes": "=> core.ref.save_changes",
+                "quiz": {
+                    "title": "Manage Quiz translations",
+                    "question": "Question",
+                    "subtitle": "Subtitle",
+                    "option": "Answer {number}",
+                    "answer-additional": "Correct answer explanation"
+                }
             },
             "discussion": {
                 "post": {

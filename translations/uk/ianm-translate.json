@@ -87,6 +87,8 @@
                 "use-native-locale-names-help": "Якщо увімкнено, замість поточної версії назви локалі буде використано назву рідної локалі.",
                 "translate-polls": "Переклад опитувань",
                 "translate-polls-help": "Якщо увімкнено, назви опитувань, субтитри, підписи до зображень і варіанти відповідей перекладатимуться автоматично під час створення або редагування опитувань.",
+                "translate-quiz": "",
+                "translate-quiz-help": "",
                 "provider": "Постачальник послуг перекладу",
                 "readme-info": "Більш детальну інформацію можна знайти в документації README.",
                 "readme-none": "Для цього драйвера не потрібно ніяких додаткових налаштувань."
@@ -120,7 +122,14 @@
                     "question-language": "",
                     "original-title": "Мова оригіналу"
                 },
-                "save-changes": "=> core.ref.save_changes"
+                "save-changes": "=> core.ref.save_changes",
+                "quiz": {
+                    "title": "",
+                    "question": "",
+                    "subtitle": "",
+                    "option": "",
+                    "answer-additional": ""
+                }
             },
             "discussion": {
                 "post": {
