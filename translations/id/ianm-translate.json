@@ -23,7 +23,7 @@
                 "seo": {
                     "heading": "Pengaturan SEO",
                     "help": "Pengaturan ini mengontrol perilaku sistem penerjemahan yang berhubungan dengan pengoptimalan mesin pencari.",
-                    "default-lang": "",
+                    "default-lang": "Mencocokkan bahasa default forum",
                     "default-lang-help": "Ketika diaktifkan, bahasa default forum akan ditambahkan ke dalam path untuk tag hreflang <code>x-default</code>."
                 },
                 "providers": {
@@ -85,9 +85,9 @@
                 "use-native-locale-names": "Gunakan nama lokal asli",
                 "use-native-locale-names-help": "Saat diaktifkan, nama lokal asli akan digunakan sebagai pengganti versi lokal nama saat ini.",
                 "translate-polls": "Menerjemahkan polling",
-                "translate-polls-help": "Jika diaktifkan, judul polling, subjudul, teks alternatif gambar, dan opsi jawaban akan diterjemahkan secara otomatis saat polling dibuat atau diedit.",
-                "translate-quiz": "",
-                "translate-quiz-help": "",
+                "translate-polls-help": "Jika diaktifkan, judul polling, subtitel, teks alt gambar, dan opsi jawaban akan diterjemahkan secara otomatis saat polling dibuat atau diedit.",
+                "translate-quiz": "Menerjemahkan kuis",
+                "translate-quiz-help": "Jika diaktifkan, judul kuis, subtitel, penjelasan jawaban yang benar, dan pilihan jawaban akan diterjemahkan secara otomatis saat kuis dibuat atau diedit.",
                 "provider": "Penyedia terjemahan",
                 "readme-info": "Lihat dokumentasi README untuk informasi lebih lanjut.",
                 "readme-none": "Tidak ada pengaturan tambahan yang diperlukan untuk driver ini."
@@ -113,21 +113,21 @@
                     "title": "Mengelola terjemahan Post"
                 },
                 "poll": {
-                    "image-alt": "Teks ALT gambar polling (jika ada)",
-                    "option": "Opsi polling {number}",
-                    "subtitle": "Subjudul polling",
+                    "image-alt": "Teks ALT gambar (jika ada)",
+                    "option": "Opsi {number}",
+                    "subtitle": "Subjudul",
                     "title": "Mengelola terjemahan Polling",
-                    "question": "Pertanyaan polling",
-                    "question-language": "",
+                    "question": "Pertanyaan",
+                    "question-language": "Pertanyaan polling ({language})",
                     "original-title": "Bahasa asli"
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
-                    "title": "",
-                    "question": "",
-                    "subtitle": "",
-                    "option": "",
-                    "answer-additional": ""
+                    "title": "Mengelola terjemahan Kuis",
+                    "question": "Pertanyaan",
+                    "subtitle": "Subtitel",
+                    "option": "Jawaban {number}",
+                    "answer-additional": "Penjelasan jawaban yang benar"
                 }
             },
             "discussion": {
