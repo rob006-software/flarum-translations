@@ -4,8 +4,8 @@
             "data": {
                 "followuser": {
                     "export_description": "Takip edilen ve takip eden kullanıcıların ayrıntılarını dışa aktarır.",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "anonymize_description": "=> flarum-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Takip eden kullanıcılara ait tüm verileri siler."
                 }
             }
         }
