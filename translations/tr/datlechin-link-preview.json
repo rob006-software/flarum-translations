@@ -2,26 +2,26 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "enable_batch_requests_label": "",
-                "enable_batch_requests_help": "",
-                "blacklist_label": "Kara liste",
-                "blacklist_help": "Bağlantı önizlemesinden hariç tutmak için virgülle ayrılmış bir alan veya URL listesi girin.",
-                "blacklist_placeholder": "Örneğin. facebook.com,https://domain.com/path",
-                "whitelist_label": "Beyaz Liste",
-                "whitelist_help": "Bağlantı önizlemesine izin vermek için virgülle ayrılmış bir alan adı veya bağlantı listesi girin.",
-                "whitelist_placeholder": "örn. facebook.com,https://alanadi.com/yol",
-                "convert_media_urls_label": "Medya URL'lerini dönüştürün",
-                "convert_media_urls_help": "Etkinleştirilirse, bu, tüm medya URL'lerini bağlantı önizlemelerine dönüştürür.",
-                "use_google_favicons_label": "Google Favicon API'ı kullan",
-                "use_google_favicons_help": "Etkinleştirilirse, ilgili sitenin favicon'unu istemek için ön uçta bir Google hizmeti kullanır.",
-                "cache_time_label": "Önbellek Zamanı",
-                "cache_time_help": "Taranan bağlantıların tekrar erişilmeden önce önbelleğe alınacağı dakika sayısı. Bağlantı önbelleğe almayı devre dışı bırakmak için 0 olarak ayarlayın. Ayarlanmamışsa varsayılan olarak 60 dakikadır.",
-                "open_links_in_new_tab_label": "Bağlantıları yeni sekmede aç",
-                "open_links_in_new_tab_help": "Eğer etkinleştirilirse, bağlantılar yeni sekmede açılır."
+                "enable_batch_requests_label": "Toplu İşlemeyi Etkinleştir",
+                "enable_batch_requests_help": "Birden fazla bağlantı önizlemesini aynı anda işleyerek performansı artırın. Devre dışı bırakıldığında, bağlantılar tek tek işlenir.",
+                "blacklist_label": "Alan adı kara liste",
+                "blacklist_help": "Bağlantı önizlemeleri oluşturmaması gereken alan adlarını veya URL'leri belirtin. Birden fazla girişi ayırmak için virgül kullanın.",
+                "blacklist_placeholder": "Örneğin: facebook.com, twitter.com/specific-page",
+                "whitelist_label": "Alan adı beyaz liste",
+                "whitelist_help": "Yalnızca bu alan adları veya URL'ler için önizlemeler oluşturun. Kara listeye alınmamış tüm alan adlarına izin vermek için boş bırakın.",
+                "whitelist_placeholder": "Örneğin: trusted-site.com, specific-domain.org/path",
+                "convert_media_urls_label": "Önizleme Medya URL'leri",
+                "convert_media_urls_help": "Medya dosyalarına (resimler, videolar vb.) işaret eden URL'ler için önizlemeler oluşturun.",
+                "use_google_favicons_label": "Site Simgelerini Görüntüle",
+                "use_google_favicons_help": "Görsel tanınırlığı artırmak için Google'ın Favicon hizmetini kullanarak web sitesi favicon'larını gösterin.",
+                "cache_time_label": "Önbellek Süresi (dakika)",
+                "cache_time_help": "Bağlantı önizlemelerinin yenilenmeden önce ne kadar süreyle saklanacağı. Önbelleğe almayı devre dışı bırakmak için 0 olarak ayarlayın. Varsayılan: 60 dakika.",
+                "open_links_in_new_tab_label": "Bağlantıları Yeni Sekmede Aç",
+                "open_links_in_new_tab_help": "Önizlemedeki bağlantıları her zaman yeni bir tarayıcı sekmesinde açın."
             }
         },
         "forum": {
-            "site_cannot_be_reached": "Bu siteye ulaşılamıyor."
+            "site_cannot_be_reached": "Önizleme yüklenemedi. Lütfen URL'yi kontrol edin ve tekrar deneyin."
         }
     }
 }
