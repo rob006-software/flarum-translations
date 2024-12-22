@@ -2,96 +2,96 @@
     "ianm-twofactor": {
         "admin": {
             "edit_group": {
-                "2fa_label": "",
-                "2fa_help": "",
-                "admin_2fa_help": ""
+                "2fa_label": "2FA gereklidir",
+                "2fa_help": "Bu grubun üyelerinin hesapları için İki Faktörlü Kimlik Doğrulamayı (2FA) etkinleştirmesini zorunlu kılın.",
+                "admin_2fa_help": "{adminName} üyelerinin her zaman 2FA'sı etkin olmalıdır."
             },
             "permissions": {
-                "see_two_factor_status_label": "",
-                "manage_others_label": ""
+                "see_two_factor_status_label": "Diğer kullanıcıların 2FA durumunu görüntüleyin",
+                "manage_others_label": "Diğer kullanıcılar için 2FA'yı yönetin"
             },
             "settings": {
                 "groups": {
-                    "title": "",
-                    "help": ""
+                    "title": "2FA Gerekli Gruplar",
+                    "help": "Bu grupların üyelerinin, hesaplarında İki Faktörlü Kimlik Doğrulamayı (2FA) etkinleştirmesini zorunlu kılın. Gerekli bir gruptaki kullanıcı 2FA'yı devre dışı bırakamaz."
                 },
-                "forum_logo_qr": "",
-                "forum_logo_qr_help": "",
-                "forum_logo_qr_width": "",
-                "forum_logo_qr_width_help": "",
-                "logo_qr": "",
-                "logo_qr_help": "",
+                "forum_logo_qr": "Forum Logosunu QR Koduna Göm",
+                "forum_logo_qr_help": "2FA'yı etkinleştirirken görüntülenen QR koduna forum logosunu ekleyin. Bu, kullanıcıların taranacak doğru QR kodunu belirlemesine yardımcı olabilir.",
+                "forum_logo_qr_width": "Forum Logosu QR Kod Genişliği",
+                "forum_logo_qr_width_help": "2FA etkinleştirildiğinde görüntülenen QR koduna gömülü forum logosunun genişliği. Maksimum widht 200.",
+                "logo_qr": "QR Kodunda Logo",
+                "logo_qr_help": "Logo yüklenmişse bu logo QR koduna eklenecektir. Forum logosunu kullanmak için boş bırakın.",
                 "tokens": {
-                    "heading": "",
-                    "help": "",
-                    "kill_inactive_tokens": "",
-                    "kill_inactive_tokens_help": "",
-                    "kill_inactive_tokens_age_days": "",
-                    "kill_inactive_tokens_age_days_help": "",
-                    "also_kill_developer_tokens": "",
-                    "also_kill_developer_tokens_help": ""
+                    "heading": "Erişim Anahtarı",
+                    "help": "Genişletilmiş güvenlik için erişim belirteçleriyle ilgili ek davranışları burada yönetebilirsiniz.",
+                    "kill_inactive_tokens": "Etkin Olmayan Tokenları Yok Et",
+                    "kill_inactive_tokens_help": "Belirli bir süre boyunca etkin olmayan erişim belirteçlerini otomatik olarak sonlandırın.",
+                    "kill_inactive_tokens_age_days": "Aktif Olmayan Anahtarları Yok Edin (Gün)",
+                    "kill_inactive_tokens_age_days_help": "Erişim belirteçlerinin silineceği işlem yapılmayan gün sayısı.",
+                    "also_kill_developer_tokens": "Ayrıca Geliştirici Jetonlarını da Yok Edin",
+                    "also_kill_developer_tokens_help": "Ayrıca belirtilen süre boyunca etkin olmayan geliştirici erişim belirteçlerini de sonlandırın."
                 }
             }
         },
         "forum": {
             "user_2fa": {
-                "alert_message": ""
+                "alert_message": "Hesabınıza erişmeye devam etmek için 2FA'yı etkinleştirmeniz gerekir."
             },
             "security": {
-                "two_factor_heading": "",
-                "two_factor_help": "",
-                "two_factor_apps": "",
-                "two_factor_enabled": "",
-                "two_factor_disabled": "",
-                "two_factor_title": "",
-                "enable_2fa_button": "",
-                "disable_2fa_button": "",
-                "enable_2fa_modal_text": "",
-                "qr_code_alt": "",
-                "enter_token": "",
-                "verify_button": "",
-                "loading_qr": "",
-                "backup_codes": "",
-                "backup_codes_instruction": "",
-                "saved_backup_codes_button": "",
-                "backup_codes_remaining": "",
-                "two_factor_enabled_confirmation": "",
-                "ok_button": "",
-                "confirm_disable_2fa_title": "",
-                "confirm_disable_2fa_text": "",
-                "confirm_disable_2fa_text_other_user": "",
-                "cannot_disable": "",
-                "cannot_disable_tooltip": "",
-                "cancel_button": "",
-                "qr_tab": "",
-                "manual_tab": "",
-                "scan_qr_instruction": "",
-                "manual_entry_instruction": ""
+                "two_factor_heading": "2FA",
+                "two_factor_help": "İki Faktörlü Kimlik Doğrulama (2FA), hesabınıza ekstra bir güvenlik katmanı sağlar. Etkinleştirildiğinde, oturum açarken veya diğer belirli eylemleri gerçekleştirirken şifrenize ek olarak kimlik doğrulama uygulamanızdan bir belirteç girmeniz istenecektir. Saldırganların hesabınıza erişmek için bir koda (her 30 saniyede bir değişen) ihtiyacı olacağından, bu, şifreniz ele geçirilse bile hesabınızın güvende kalmasını sağlar.",
+                "two_factor_apps": "{google}, {authy}, {microsoft} ve daha fazlası gibi uygulamalar ücretsiz olarak mevcuttur.",
+                "two_factor_enabled": "Bu hesapta 2FA etkinleştirildi.",
+                "two_factor_disabled": "Bu hesapta 2FA devre dışı bırakıldı.",
+                "two_factor_title": "Durum:",
+                "enable_2fa_button": "2FA'yı Etkinleştir",
+                "disable_2fa_button": "2FA'yı Devre Dışı Bırak",
+                "enable_2fa_modal_text": "Kimlik doğrulama uygulamanızla aşağıdaki QR kodunu tarayın ve ardından İki Faktörlü Kimlik Doğrulamayı etkinleştirmek için sağlanan jetonu girin.",
+                "qr_code_alt": "İki Faktörlü Kimlik Doğrulama için QR Kodu",
+                "enter_token": "Anahtarı Girin",
+                "verify_button": "Doğrula",
+                "loading_qr": "QR Kodunu Yüklüyorum...",
+                "backup_codes": "Yedek Kodların",
+                "backup_codes_instruction": "Lütfen bu kodları güvenli bir yere kaydedin. Birincil kimlik doğrulama yönteminizi kaybederseniz hesabınıza erişmek için kullanılabilirler. Bir daha gösterilmeyecekler.",
+                "saved_backup_codes_button": "Bu kodları kaydettim",
+                "backup_codes_remaining": "Kalan Yedek Kodlar:",
+                "two_factor_enabled_confirmation": "Hesabınız için İki Faktörlü Kimlik Doğrulama başarıyla etkinleştirildi.",
+                "ok_button": "Tamam",
+                "confirm_disable_2fa_title": "İki Faktörlü Kimlik Doğrulamayı Devre Dışı Bırakmayı Onayla",
+                "confirm_disable_2fa_text": "İki faktörlü kimlik doğrulamayı devre dışı bırakmak istediğinizden emin misiniz?",
+                "confirm_disable_2fa_text_other_user": "{username} için İki Faktörlü Kimlik Doğrulamayı devre dışı bırakmak istediğinizden emin misiniz? Bu, tüm yedek kodları kaldıracak ve hesapları için 2FA'yı devre dışı bırakacaktır.",
+                "cannot_disable": "Geçerli yapılandırma, İki Faktörlü Kimlik Doğrulamayı devre dışı bırakamayacağınızı belirtir.",
+                "cannot_disable_tooltip": "2FA devre dışı bırakılamıyor",
+                "cancel_button": "İptal",
+                "qr_tab": "QR Kodu Tara",
+                "manual_tab": "Manuel Kurulum",
+                "scan_qr_instruction": "Yukarıdaki QR kodunu kimlik doğrulama uygulamanızla tarayın ve ardından İki Faktörlü Kimlik Doğrulamayı etkinleştirmek için sağlanan anahtarı girin.",
+                "manual_entry_instruction": "Sağlanan kodu kimlik doğrulama uygulamanıza girin, ardından İki Faktörlü Kimlik Doğrulamayı etkinleştirmek için oluşturulan anahtarı girin."
             },
             "log_in": {
-                "two_factor_placeholder": "",
-                "two_factor_required_message": ""
+                "two_factor_placeholder": "2FA Anahtarı, örn:001453",
+                "two_factor_required_message": "Devam etmek için geçerli bir 2FA jetonu gereklidir."
             }
         },
         "email": {
             "subject": {
-                "status_changed": ""
+                "status_changed": "Hesabınız için İki Faktörlü Kimlik Doğrulama {type}"
             },
             "body": {
-                "status_changed": ""
+                "status_changed": "Merhaba {recipient_display_name},\n\n{forum_url} adresindeki hesabınız için İki Faktörlü Kimlik Doğrulama {type} olarak ayarlandı.\n\nİşlemi siz başlattıysanız bu mesajı dikkate almayın. Eğer değişiklikten haberiniz yoksa lütfen forum yöneticileriyle iletişime geçin.\n"
             },
             "status_type": {
-                "enabled": "",
-                "disabled": ""
+                "enabled": "etkinleştirildi",
+                "disabled": "devre dışı bırakıldı"
             }
         },
         "views": {
             "reset_password": {
-                "two_factor_token_label": ""
+                "two_factor_token_label": "2FA Anahtarı"
             },
             "two_factor_token": {
-                "title": "",
-                "submit_button": ""
+                "title": "İki Faktörlü Kimlik Doğrulama",
+                "submit_button": "Anahtarı Gönder"
             }
         }
     },
@@ -99,8 +99,8 @@
         "lib": {
             "data": {
                 "twofactordata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "2FA durumunu ve şifrelenmiş yedek kodları dışa aktarır.",
+                    "delete_description": "2FA ile ilgili tüm verileri siler."
                 }
             }
         }
