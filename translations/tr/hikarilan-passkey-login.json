@@ -4,39 +4,39 @@
             "settings": {
                 "relying_party": {
                     "name": {
-                        "label": "",
-                        "help": ""
+                        "label": "Bağlı Taraf Adı",
+                        "help": "Bağlı Taraf Adı, siteniz için insanlar tarafından okunabilen bir addır. Boş bırakılırsa forum başlığı kullanılacaktır."
                     },
                     "id": {
-                        "label": "",
-                        "help": ""
+                        "label": "Bağlı Taraf Kimliği",
+                        "help": "Bağlı Taraf Kimliği siteniz için benzersiz bir tanımlayıcıdır. Bu, şema olmadan web sitesinin etki alanı olacaktır. Örneğin web siteniz https://example.com ise rp kimliği example.com olacaktır. Boş bırakılırsa mevcut alan adı kullanılacaktır."
                     }
                 },
                 "timeout": {
-                    "label": "",
-                    "help": ""
+                    "label": "Zaman aşımı",
+                    "help": "Geçiş anahtarı doğrulamasının zaman aşımı süresi (saniye cinsinden). Varsayılan değer 60 saniyedir."
                 }
             }
         },
         "forum": {
             "login": {
-                "with-passkey": ""
+                "with-passkey": "Geçiş anahtarı ile giriş yapın"
             },
             "user": {
                 "settings": {
                     "passkeys": {
-                        "title": "",
-                        "label": "",
-                        "add-new-passkey": "",
-                        "error": ""
+                        "title": "Geçiş anahtarı",
+                        "label": "Geçiş anahtarı, yüz tanıma, cihaz parolası veya PIN kullanarak kimliğinizi doğrulayan bir parola biçimidir. Passkey olarak adlandırılır.",
+                        "add-new-passkey": "Geçiş anahtarı ekle",
+                        "error": "Dahili bir hata oluştu. Lütfen daha sonra tekrar deneyin."
                     },
                     "alias-modal": {
-                        "title": "",
-                        "label": ""
+                        "title": "Geçiş anahtarı kaydedildi!",
+                        "label": "Şimdi şifrenize bir takma ad verelim."
                     },
                     "item": {
-                        "revoke": "",
-                        "revoke_success": ""
+                        "revoke": "=> core.forum.security.revoke_access_token",
+                        "revoke_success": "Geçiş anahtarı başarıyla iptal edildi."
                     }
                 }
             }
