@@ -4,8 +4,8 @@
             "data": {
                 "uploads": {
                     "export_description": "Kullanıcı tarafından yüklenen tüm dosyalar.",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "anonymize_description": "Yüklenen dosyalardan kullanıcı referansını kaldırır. Dosyaların kendisi, onları önceden anonimleştirmeden görüntüleyebilen kullanıcılar tarafından erişilebilir durumda kalır.",
+                    "delete_description": "Kullanıcı tarafından yüklenen tüm dosyaları siler."
                 }
             }
         }
@@ -131,8 +131,8 @@
                 "text-preview_description": "Dosyanın tüm içeriğini ortaya çıkarmak için genişletme seçeneğiyle birlikte metin dosyasının bir önizlemesini (ilk 5 satır) ekler.\n"
             },
             "upload_methods": {
-                "aws-s3": "S3/Compatible",
-                "awss3": "",
+                "aws-s3": "S3 ya da Compatible",
+                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Yerel",
                 "ovh-svfs": "OVH SVFS",
