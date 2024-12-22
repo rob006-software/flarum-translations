@@ -2,21 +2,21 @@
     "geo-weather": {
         "forum": {
             "widget": {
-                "title": ""
+                "title": "Coğrafi Hava Durumu"
             },
-            "unknown": "",
-            "temp": "",
-            "not-supported": "",
-            "wind": "",
-            "rain": "",
-            "clouds": "",
-            "humidity": ""
+            "unknown": "bilinmiyor",
+            "temp": "0°",
+            "not-supported": "Coğrafi konum bu tarayıcı tarafından desteklenmiyor.",
+            "wind": "Hız",
+            "rain": "Yağmur",
+            "clouds": "Bulutlar",
+            "humidity": "Nem"
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "API Anahtarı",
+            "apiKey-help": "https://openweathermap.org/api adresinde oluşturulan ücretsiz API anahtarınızı buraya yapıştırın",
+            "lang": "Çıkış Dilini Seçin (yalnızca 1 önek)",
+            "lang-help": "Bu alanda dil önekiniz bulunur (ör. tr, it, fr, en), <strong>https://openweathermap.org/api/one-call-api#multi</strong> adresinden sizinkini kontrol edin."
         }
     }
 }
