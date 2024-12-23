@@ -13,8 +13,8 @@
                         },
                         "labels": {
                             "position": "Lingi asukoht",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "top_spacer": "Näita ülemist eraldajat",
+                            "bottom_spacer": "Näita alumist eraldajat"
                         }
                     },
                     "link_table": {
@@ -22,7 +22,7 @@
                         "add_link_btn": "Lisa uus link",
                         "confirm_delete": "Kinnita lingi \"{link}\" kustutamine",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "Pead need vead parandama enne, kui saad oma muudatused salvestada."
                         },
                         "table": {
                             "header": {
@@ -46,18 +46,18 @@
                         },
                         "save_btn": {
                             "dirty": "Salvesta seaded",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "saving": "Muudatuste salvestamine...",
+                            "saved": "Pole muudatusi, mida salvestada",
+                            "fix_errors": "Paranda vead enne salvestamist"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Lisa uus link",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Lisa link",
+                            "loading": "Lingi lisamine",
+                            "fix_url": "Vigane URL",
+                            "invalid_form": "Täida kõik väljad"
                         },
                         "labels": {
                             "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
