@@ -1,39 +1,39 @@
 {
     "clarkwinkelmann-group-invitation": {
         "forum": {
-            "title": "",
-            "generic-title": "",
+            "title": "Sind on kutsutud liituma grupiga {group}!",
+            "generic-title": "Grupi kutse",
             "user": {
-                "already-connected": "",
-                "not-connected": "",
-                "not-authorized": "",
-                "already-member": ""
+                "already-connected": "Lisama kasutaja {username} gruppi {group}. Pole korrektne kasutaja? <a>Logi sisse teise kontoga</a>.\n",
+                "not-connected": "Et kutse vastu võtta, <a>logi sisse</a>.",
+                "not-authorized": "Sinu praegusel kasutajal {username} pole luba gruppidega liituda. <a>Logi sisse teise kontoga</a>.",
+                "already-member": "Suurepärane uudis! Sinu kasutaja {username} on juba grupi {group}<a>Logi sisse teise kontoga</a>.\n"
             },
             "invitation": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Vabandust, aga seda grupi kutset ei leitud.",
+                "no-usages-left": "Seda grupi kutset ei saa enam kasutada."
             },
-            "apply": "",
-            "success-alert": ""
+            "apply": "Liitu grupiga",
+            "success-alert": "Oled nüüd grupiga liitunud!"
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "Kasuta grupi kutse linke"
             },
             "settings": {
                 "head": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Kood",
+                    "group": "Grupp",
+                    "usage": "Kasutamine"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Automaatselt loodud",
+                    "group": "Vali...",
+                    "usage": "Piiramatu jaoks jäta tühjaks"
                 },
-                "empty": "",
-                "unlimited": "",
-                "create": "",
+                "empty": "Siiamaani pole ühtegi kutset loodud.",
+                "unlimited": "piiramatult",
+                "create": "Loo",
                 "delete": ""
             }
         },
