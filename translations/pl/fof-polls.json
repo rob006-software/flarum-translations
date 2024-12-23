@@ -43,7 +43,7 @@
             "poll_ended": "Ta ankieta zakończyła się.",
             "public_poll": "Zobacz głosujących",
             "max_votes_allowed": "Ankieta umożliwia głosowanie na {max, plural, one {# opcję} few {# opcje} other {# opcji}}.",
-            "polls_count": "{count, plural, one { {count} głos} few {{count} głosy} other {{count} głosów}}",
+            "polls_count": "{count, plural, one {{count} głos} few {{count} głosy} other {{count} głosów}}",
             "poll_never_ends": "Ankieta nigdy się nie kończy",
             "answers": "Odpowiedzi",
             "poll": {
@@ -53,9 +53,9 @@
                 "cannot_start_poll_button": "Nie można rozpocząć ankiety"
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
                 "delete_confirmation": "Czy na pewno chcesz usunąć tę ankietę?",
                 "delete_success_message": "Usunięto ankietę pomyślnie.",
                 "delete_error_message": "Coś poszło nie tak podczas usuwania ankiety."
@@ -69,7 +69,7 @@
             },
             "polls_list": {
                 "empty_text": "Wygląda na to, że nie ma tu ankiet dla całej społeczności.",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -106,8 +106,8 @@
                 "question_placeholder": "Pytanie",
                 "subtitle_placeholder": "Podtytuł/Opis (opcjonalne)",
                 "submit": "Zatwierdź",
-                "delete": "",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "Obrazek ankiety",
                     "help": "Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).",
