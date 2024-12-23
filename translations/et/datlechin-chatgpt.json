@@ -3,22 +3,22 @@
         "admin": {
             "settings": {
                 "api_key_label": "API võti",
-                "api_key_help": "",
-                "model_label": "",
-                "model_help": "",
+                "api_key_help": "Hangi OpenAI API võti saidilt <a>openai.com</a>.",
+                "model_label": "Mudel",
+                "model_help": "Vaata lisainfot <a>mudelite</a> kohta (vaikeväärtus on: <code>text-davinci-003</code>).",
                 "max_tokens_label": "",
                 "max_tokens_help": "",
-                "user_prompt_label": "",
+                "user_prompt_label": "Kasutaja käsurida",
                 "user_prompt_help": "",
-                "user_prompt_badge_label": "",
-                "user_prompt_badge_help": "",
-                "enable_on_discussion_started_label": "",
-                "enable_on_discussion_started_help": "",
-                "enabled_tags_label": "",
-                "enabled_tags_help": ""
+                "user_prompt_badge_label": "Kasutaja käsurea silt",
+                "user_prompt_badge_help": "Tekst, mida näidatakse kasutaja käsurea kõrval.",
+                "enable_on_discussion_started_label": "Kasuta alustatud vestlustes",
+                "enable_on_discussion_started_help": "Vestlusele vastatakse vastavalt esimese postituse sisule.",
+                "enabled_tags_label": "Lubatud sildid",
+                "enabled_tags_help": "Vali, mis silte kasutatakse vastuste loomiseks."
             },
             "permissions": {
-                "use_chatgpt_assistant_label": ""
+                "use_chatgpt_assistant_label": "Kasuta ChatGPT assistenti"
             }
         }
     }
