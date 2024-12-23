@@ -8,9 +8,9 @@
                 "trim_recent_help": "",
                 "trim_pending": "",
                 "trim_pending_help": "",
-                "trim_completed": "",
+                "trim_completed": "Kärbi lõpetatud tööd",
                 "trim_completed_help": "",
-                "trim_recent_failed": "",
+                "trim_recent_failed": "Kärbi hiljutised ebaõnnestunud tööd",
                 "trim_recent_failed_help": "",
                 "trim_failed": "",
                 "trim_failed_help": "",
@@ -18,30 +18,30 @@
                 "trim_monitored_help": ""
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
+                "auto_refresh": "Automaatne värskendamine",
+                "heading": "Järjekorra ülevaade",
+                "full_dashboard": "Horizon töölaud",
+                "refresh": "Värskenda",
                 "data": {
-                    "redis-used-memory": "",
-                    "redis-peak-memory": "",
-                    "redis-max-memory": "",
-                    "redis-memory-policy": "",
+                    "redis-used-memory": "Kasutatud Redis mälu",
+                    "redis-peak-memory": "Redis mälu kõrgeim kasutus",
+                    "redis-max-memory": "Redis maks. mälu",
+                    "redis-memory-policy": "Redis mälu poliitika",
                     "redis-memory-policy-tooltip": "",
-                    "redis-cpu-user": "",
-                    "redis-cpu-sys": "",
-                    "jobs-per-minute": "",
-                    "jobs-past-hour": "",
-                    "failed-last-seconds": "",
+                    "redis-cpu-user": "Redis Protsessori kasutus",
+                    "redis-cpu-sys": "Redis protsessori süsteem",
+                    "jobs-per-minute": "Töid minutis",
+                    "jobs-past-hour": "Töid viimase tunni jooksul",
+                    "failed-last-seconds": "Ebaõnnestunud tööd viimase sekundi jooksul",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Staatus",
+                        "running": "Käimas",
+                        "inactive": "Mitteaktiivne"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-runtime": "",
-                    "max-throughput": ""
+                    "total-processes": "Protsesse kokku",
+                    "max-wait-time": "Maks. ootamise aeg",
+                    "max-runtime": "Maks. käivitusaeg",
+                    "max-throughput": "Maks. läbilaskevõime"
                 }
             }
         }
