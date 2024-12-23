@@ -2,34 +2,34 @@
     "xypp-store": {
         "forum": {
             "time_segs": "",
-            "store": "",
-            "purchase-history": "",
-            "create": "",
-            "purchase": "",
-            "edit_button": "",
-            "show_case": "",
-            "price_free": "",
+            "store": "Pood",
+            "purchase-history": "Ostetud",
+            "create": "Loo kirje",
+            "purchase": "Osta",
+            "edit_button": "Muuda",
+            "show_case": "Vitriin",
+            "price_free": "Tasuta",
             "provider": {
-                "all": "",
+                "all": "Kõik",
                 "error": {
                     "title": "",
-                    "no-preview": ""
+                    "no-preview": "Eelvaadet pole"
                 }
             },
             "unavailable": {
                 "common": {
-                    "unknown": "",
+                    "unknown": "Ei saa osta",
                     "no_rest": ""
                 }
             },
             "create-modal": {
-                "title": "",
-                "name": "",
-                "desc": "",
-                "price": "",
+                "title": "Loo kirje",
+                "name": "Nimi",
+                "desc": "Kirjeldus",
+                "price": "Hind",
                 "provider": "",
                 "provider_data": "",
-                "use_cnt": "",
+                "use_cnt": "Mitu korda saab kasutada",
                 "expire_time": "",
                 "expire_time_tip": "",
                 "rest_cnt": "",
@@ -44,28 +44,28 @@
                     "unknown": "",
                     "unknown_data": "",
                     "no_select_data": "",
-                    "special_data": ""
+                    "special_data": "Valitud andmed"
                 },
                 "provider_data_error": "",
-                "provider_data_default": ""
+                "provider_data_default": "Vaikimisi andmed"
             },
-            "purchase-confirm": "",
+            "purchase-confirm": "Kinnitada ost?",
             "item": {
-                "rest_cnt": "",
-                "use_cnt": "",
+                "rest_cnt": "Järgi {0}",
+                "use_cnt": "Kasuta {0} korda",
                 "expire": "",
-                "no_available": "",
-                "infinity_count": "",
-                "not_found": ""
+                "no_available": "Ühtegi kirjet pole saadaval",
+                "infinity_count": "Piiramatu saadavus",
+                "not_found": "Kirjet ei leitud"
             },
             "history": {
-                "no_record": "",
-                "delete_button": "",
-                "confirm_delete": "",
-                "title": "",
-                "use": "",
-                "rest_cnt": "",
-                "infinity_use": "",
+                "no_record": "Ostu pole",
+                "delete_button": "Kustuta",
+                "confirm_delete": "Oled sa kindel, et soovid kustutada kirje, mille sa otsid?",
+                "title": "Ostetud",
+                "use": "Kasuta",
+                "rest_cnt": "Saab kasutada {0} korda",
+                "infinity_use": "Piiramatu kasutus",
                 "expire": "",
                 "forever": "",
                 "confirm_use": "",
@@ -83,36 +83,36 @@
             "use_result": {
                 "success": "",
                 "fail": {
-                    "unknown": "",
-                    "error": "",
+                    "unknown": "Tundmatu viga",
+                    "error": "Viga kirje kasutamisel",
                     "not_enough": "",
-                    "cannot": "",
+                    "cannot": "Ei saa seda kirjet kasutada",
                     "fail_expire": "",
-                    "id_not_found": "",
-                    "expired": ""
+                    "id_not_found": "Kirje ID-d ei leitud",
+                    "expired": "Kirje on aegunud"
                 }
             },
             "purchase_result": {
-                "success": "",
+                "success": "Korras",
                 "fail": {
-                    "unknown": "",
-                    "not_enough_item": "",
-                    "cannot": "",
-                    "not_enough_money": ""
+                    "unknown": "Tundmatu tõrge",
+                    "not_enough_item": "Kirjeid pole piisavalt",
+                    "cannot": "Seda kirjet ei saa kustutada",
+                    "not_enough_money": "Pole piisavalt raha"
                 }
             },
             "edit-result": {
                 "fail": {
-                    "not-found": ""
+                    "not-found": "Kirjet ei leitud"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "add-item": "",
-                "remove-item": "",
-                "view-history": "",
-                "remove-history": ""
+                "add-item": "Poe kirjete lisamine",
+                "remove-item": "Poe kirjete eemaldamine",
+                "view-history": "Teiste ostude vaatamine",
+                "remove-history": "Teiste ostude kustutamine"
             }
         }
     }
