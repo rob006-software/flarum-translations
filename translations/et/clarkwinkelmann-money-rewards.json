@@ -2,15 +2,15 @@
     "clarkwinkelmann-money-rewards": {
         "admin": {
             "settings": {
-                "preselection": "",
+                "preselection": "Eelvalitud summad (eraldatud komadega, valikuline)",
                 "min": "Kohandatud koguste minimaalne väärtus",
-                "max": "",
+                "max": "Kohandatud väärtuste maksimaalne väärtus",
                 "decimals": ""
             },
             "permissions": {
-                "seeMoneyRewardHistory": "",
-                "rewardWithMoney": "",
-                "customAmounts": "",
+                "seeMoneyRewardHistory": "Vaata teiste kasutajate tasude ajalugu",
+                "rewardWithMoney": "Tasusta teisi kasutajaid rahaga",
+                "customAmounts": "Vali kohandatud summa, mida tasuks anda",
                 "createMoney": ""
             }
         },
@@ -18,14 +18,14 @@
             "modal": {
                 "title": "",
                 "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "optionCustom": "Kohandatud",
+                "balance": "Sinu saldo: {amount}",
                 "label": {
-                    "custom": "",
+                    "custom": "Kohandatud summa",
                     "create": "",
-                    "comment": ""
+                    "comment": "Kommentaar (avalik)"
                 },
-                "submit": "",
+                "submit": "Saada",
                 "success": ""
             },
             "profile": {
@@ -39,16 +39,16 @@
                 "section": ""
             },
             "record": {
-                "from": "",
-                "to": "",
+                "from": "alates",
+                "to": "kuni",
                 "post": "",
-                "comment": ""
+                "comment": "Kommentaar:"
             }
         },
         "api": {
             "error": {
                 "decimals": "",
-                "notEnoughFunds": ""
+                "notEnoughFunds": "Pole piisavalt raha."
             }
         }
     }
