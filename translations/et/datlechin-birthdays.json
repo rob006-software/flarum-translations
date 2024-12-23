@@ -6,8 +6,8 @@
                 "view_birthday_label": "Vaata sünnipäeva"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
+                "set_on_registration_label": "Luba liitumisel sünnipäeva määramine",
+                "required_label": "Nõua sünnipäeva sisestamine",
                 "required_help": "",
                 "min_age_label": "Minimaalne vanus",
                 "min_age_help": "Minimaalne vanud registreerimiseks",
@@ -23,36 +23,36 @@
             },
             "change_dob": {
                 "title": "Muuda sündimise kuupäeva",
-                "date_of_birth_text": "",
-                "submit_button": ""
+                "date_of_birth_text": "Sünnipäev",
+                "submit_button": "Salvesta muudatused"
             },
             "settings": {
                 "change_dob_label": "Muuda sündimise kuupäeva",
-                "dob_heading": "",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "Näita sündimise päeva ja kuud",
                 "show_dob_year_label": "Näita sündimise aastat",
                 "show_dob_year_help": "See võimaldab inimestel sinu vanust näha."
             },
             "edit_user": {
-                "dob_heading": ""
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
-                "nav_item": ""
+                "nav_item": "Tänased sünnipäevad"
             },
             "page": {
                 "discussion_count": "",
                 "post_count": ""
             },
             "sign_up": {
-                "dob_placeholder": ""
+                "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Vigane sünnipäev",
+            "invalid_age_message": "Your age must be at least {minAge} years old."
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Sünnipäev"
         }
     }
 }
