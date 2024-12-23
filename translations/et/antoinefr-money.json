@@ -3,36 +3,36 @@
         "admin": {
             "settings": {
                 "title": "Seaded",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "moneyforpost": "Uue postituse eest antud raha",
+                "moneyfordiscussion": "Uue vestluse alustamise eest antud raha",
+                "moneyname": "Raha nimetus (nt: [raha] punkti)",
+                "postminimumlength": "Postituse minimaalne pikkus raha saamiseks (0 et välja lülitada)",
+                "noshowzero": "Ära näita, kui väärtus on null",
+                "autoremove": "Uuenda raha automaatselt",
+                "moneyforlike": "Postituse meeldimise eest antud raha",
+                "helpextensionlikes": "Nõuab lisaprogrammi <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Muuda raha"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Ära kunagi eemalda raha",
+                "Kui vestlust või postitus on peidetud või taastatud (vaikeväärtus)",
+                "Kui vestlus või postitus on eemaldatud"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Raha",
+                "action_name": "Anna raha"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Muuda raha"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Kasutaja {username} raha",
+                "current": "Praegune:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }
