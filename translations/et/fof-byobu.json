@@ -8,16 +8,16 @@
             },
             "buttons": {
                 "add_recipients": "Saajad",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "submit": "OK",
+                "edit_recipients": "Muuda saajaid",
+                "send_pd": "Saada kasutajale {username} sõnum",
+                "cancel": "Loobu",
+                "make_public": "Tee see vestlus avalikuks",
+                "remove_from_discussion": "Jäta see vestlus privaatseks"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Postita privaatne vestlus",
+                "title_placeholder": "Privaatse vestluse pealkiri"
             },
             "confirm": {
                 "make_public": ""
@@ -27,80 +27,80 @@
             },
             "nav": {
                 "start_button": "",
-                "nav_item": ""
+                "nav_item": "Privaatsed vestlused"
             },
             "input": {
                 "search_recipients": ""
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Õiguste grupis"
                 }
             },
             "modal": {
                 "titles": {
                     "update_recipients": "",
-                    "add_recipients": ""
+                    "add_recipients": "Lisa oma vestlusesse saajaid"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Valitud kasutajad",
+                    "search_field": "Otsi kasutajaid"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "See vestlus on nähtav ainult kasutajatele, keda sa oled siin valinud. Lisaks sinule peab olema valitud vähemalt 1 saaja.",
+                    "update_recipients": "See vestlus on nähtav ainult kasutajatele, keda sa siin valid.",
+                    "selected_users": "Kliki kasutaja nimel, et teda eemaldada.",
+                    "click_user_to_remove_tooltip": "Eemaldamiseks kliki"
                 }
             },
             "post": {
                 "recipients_modified": {
                     "added_and_removed": "",
-                    "added": "",
+                    "added": "{username} lisas saaja {added}.",
                     "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "removed": "{username} eemaldas saaja {removed}.",
+                    "removed_self": "{username} lahkus privaatsest vestlusest."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Blokeeri privaatsed vestlused"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Privaatsed vestlused",
+                "dropdown_label": "Privaatsed vestlused"
             },
             "notifications": {
                 "pd_label": "",
                 "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_reply_text": "{username} postitas privaatsesse vestlusesse, millest sa oled osa",
+                "pd_text": "{username} alustas sinuga privaatset vestlust",
+                "pd_user_left_label": "Kasutaja lahkus privaatsest vestlusest, milles sa osaled",
+                "pd_user_left_text": "{username} lahkus privaatsest vestlusest",
+                "pd_added_text": "{username} lisas sind privaatsesse vestlusesse",
+                "pd_added_label": "Keegi lisas mind olemasolevasse privaatsesse vestlusesse"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "add_more_than_two_user_recipients": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
+                "create_private_discussions_with_users": "Privaatsete vestluste loomine kasutajatega",
+                "add_more_than_two_user_recipients": "Rohkem kui 2 kasutaja lisamine privaatsesse vestlusesse",
+                "create_private_discussions_with_groups": "Privaatsete vestluste loomine gruppidega",
+                "create_private_discussions_with_blocking_users": "Privaatsete vestluste loomine kasutajatega, kes seda blokeerivad",
+                "edit_user_recipients": "Privaatsest vestlusest osavõtvate kasutajate muutmine",
+                "edit_group_recipients": "Privaatsest vestlusest osavõtvate gruppide muutmine",
                 "make_private_into_public": "",
                 "view_private_discussions-when-flagged": ""
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Üldised seaded",
+                    "help": "Need seaded juhivad byobu peamisi funktsioone."
                 },
                 "icon": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Ikooni seaded",
+                    "help": "Need seaded määravad foorumis kasutatavad byobu ikoonid."
                 },
-                "badge-icon": "",
+                "badge-icon": "byobu vestluse silt",
                 "enable-make-public-option": "",
                 "enable-make-public-option-help": "",
                 "post-event-icon": "",
@@ -112,10 +112,10 @@
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Privaatne vestlus] {display_name} alustas sinuga privaatset vestlust",
+                "private_discussion_replied": "[Privaatne vestlus] {display_name} postitas privaatsesse vestlusesse",
+                "recipient_removed": "[Privaatne vestlus] {display_name} lahkus vestlusest",
+                "private_discussion_added": "[Privatne vestlus] {display_name} lisas sind privaatsesse vestlusesse"
             },
             "body": {
                 "private_discussion_created": "",
