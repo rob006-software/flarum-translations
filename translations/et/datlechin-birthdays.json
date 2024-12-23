@@ -8,11 +8,11 @@
             "settings": {
                 "set_on_registration_label": "Luba liitumisel sünnipäeva määramine",
                 "required_label": "Nõua sünnipäeva sisestamine",
-                "required_help": "",
+                "required_help": "Selle valiku töötamiseks peab valik 'Luba liitumisel sünnipäeva määramine' olema sisse lülitatud",
                 "min_age_label": "Minimaalne vanus",
                 "min_age_help": "Minimaalne vanud registreerimiseks",
                 "date_format_label": "Kuupäeva vorming",
-                "date_format_help": "",
+                "date_format_help": "Kasuta <a>dayjs</a> kuupäeva vormingut. Vaikimisi vormingu kasutamiseks jäta lahter tühjaks.",
                 "date_none_year_label": "Kuupäeva vorming ilma aastata"
             }
         },
@@ -40,8 +40,8 @@
                 "nav_item": "Tänased sünnipäevad"
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "discussion_count": "{count, plural, one {Vestlus: #} other {Vestlusi: #}}",
+                "post_count": "{count, plural, one {Postitus: #} other {Postitusi: #}}"
             },
             "sign_up": {
                 "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
@@ -49,7 +49,7 @@
         },
         "api": {
             "invalid_dob_message": "Vigane sünnipäev",
-            "invalid_age_message": "Your age must be at least {minAge} years old."
+            "invalid_age_message": "Sinu vanus peab olema vähemalt {minAge} aastat."
         },
         "ref": {
             "date_of_birth": "Sünnipäev"
