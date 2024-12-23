@@ -1,32 +1,32 @@
 {
     "flarum-ext-contactme": {
         "settings": {
-            "emaillabel": ""
+            "emaillabel": "E-posti aadress, millele kontaktivormi sisu saadetakse"
         },
         "admin": {
             "settings": {
-                "emaillabel": ""
+                "emaillabel": "E-posti aadress, millele kontaktivormi sisu saadetakse"
             }
         },
         "forum": {
-            "title": "",
-            "messagesent": "",
-            "plsregister": "",
-            "tocontinue": "",
-            "backsoon": "",
-            "notloggedin": "",
-            "placeholderName": "",
-            "emailfield": "",
-            "pageTitle": "",
-            "subject": "",
-            "sendForm": "",
-            "textAreaField": "",
-            "pText": ""
+            "title": "Võta meiega ühendust",
+            "messagesent": "Sõnum on saadetud!",
+            "plsregister": "Palun liitu või logi sisse",
+            "tocontinue": "et jätkata selle kontaktivormi kasutamist",
+            "backsoon": "vastame sulle varsti",
+            "notloggedin": "Palun logi sisse, et kasutada kontaktivormi",
+            "placeholderName": "Kirjuta oma nimi siia",
+            "emailfield": "Kirjuta oma e-posti aadress",
+            "pageTitle": "Võta meiega ühendust",
+            "subject": "Sõnumid tagasisidevormist",
+            "sendForm": "Saada sõnum",
+            "textAreaField": "Kirjuta oma sõnum",
+            "pText": "<p>Selle vormi kaudu võid saata meile ärialast infot, partnerlusega seotud küsimusi või lihtsalt saata meile oma küsimusi, millele vastame kõige hiljem 7 päeva jooksul.</p>\n<p><strong>ISIKLIKE ANDMETE TÖÖTLEMINE</strong></p>\n<p>(Privaatsuspoliitika art. 13 del d.lgs. 196/2003)</p>\n<p>We inform you that the data you will provide to the operator of this site when filling in the \"contact form\" (also called form mail) of the site itself, will be treated in compliance with the provisions of Legislative Decree 196/2003, Code in subject of personal data protection.\n   The contact form made available on the site has the sole purpose of allowing site visitors to contact, if they so wish, the site manager, by sending an email to the manager via the aforementioned form.\n   This information concerns the personal data sent by the visitor user when filling out the contact form.</p>\n<p>Palun järgi neid reegleid:</p>\n<li>Ära kuritarvita kontaktivormi päringute jaoks, mida saaks teha foorumis</li>\n<li>Äsa saada sama kirja mitu korda</li>\n"
         },
         "email": {
             "contact": {
-                "subject": "",
-                "body": ""
+                "subject": "Uus kontakt läbi tagasisidevormi",
+                "body": "Tere!\n\nSulle saadetu uus sõnum kontaktivormist kasutajalt {username} (e-post: {email})\n\nSõnumi sisu:\n\n{message}"
             }
         }
     }
