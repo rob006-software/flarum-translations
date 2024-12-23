@@ -23,18 +23,18 @@
                 "section": {
                     "info": "",
                     "filling": "",
-                    "browsing": "",
-                    "scope": ""
+                    "browsing": "Sirvimine",
+                    "scope": "Ulatus"
                 },
                 "field": {
-                    "type": "",
+                    "type": "Liik",
                     "typeDescription": "",
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": "",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
                     "showLabel": "",
                     "showLabelDescription": "",
                     "enableFilter": "",
@@ -44,58 +44,58 @@
                     "enableFulltextSearch": "",
                     "enableFulltextSearchDescription": "",
                     "enableFulltextSearchWarning": "",
-                    "allowCustomValues": "",
-                    "customValueValidation": "",
+                    "allowCustomValues": "Luba kohandatud väärtused",
+                    "customValueValidation": "Kohandatud väärtuste valideerimine",
                     "customValueSlugger": "",
                     "customValueSluggerDescription": "",
                     "countRequired": "",
                     "countRequiredDescription": "",
-                    "rangeSeparatorText": "",
-                    "tagScope": "",
+                    "rangeSeparatorText": "kuni",
+                    "tagScope": "Ainult määratud sildid",
                     "tagScopeDescription": "",
-                    "tagScopePlaceholder": ""
+                    "tagScopePlaceholder": "Kirjuta, et otsi silte..."
                 },
-                "delete": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
                 "deleteConfirmation": "",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 },
                 "type-options": {
-                    "products": "",
-                    "discussions": "",
-                    "users": ""
+                    "products": "Tooted",
+                    "discussions": "Vestlused",
+                    "users": "Kautajad"
                 },
                 "validation-options": {
-                    "default": "",
+                    "default": "Iga tekstiväärtus",
                     "alpha_num": "",
                     "alpha_dash": "",
-                    "regex": ""
+                    "regex": "Regulaarväljendid"
                 },
                 "slugger-options": {
-                    "random": "",
+                    "random": "Juhuslik identifikaator",
                     "alpha_dash": "",
                     "transliterator": ""
                 }
             },
             "edit-term": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Loo termin",
+                    "edit": "Muuda terminit"
                 },
                 "field": {
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": ""
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
                 },
-                "delete": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
                 "deleteConfirmation": "",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 }
             },
             "permissions": {
@@ -111,7 +111,7 @@
                 "editOwnUser": "",
                 "editAnyUser": "",
                 "ownDisabledEveryone": "",
-                "ownDisabledMembers": ""
+                "ownDisabledMembers": "Aktiveeritud liikmed"
             },
             "settings": {
                 "goToPage": ""
@@ -119,14 +119,14 @@
         },
         "forum": {
             "composer": {
-                "choose": ""
+                "choose": "Vali {taxonomy}"
             },
             "discussion": {
-                "edit": ""
+                "edit": "Muuda {taxonomy}"
             },
             "user": {
                 "nav": "",
-                "edit": ""
+                "edit": "Muuda {taxonomy}"
             },
             "blog": {
                 "widget": {
@@ -141,10 +141,10 @@
                     "edit": ""
                 },
                 "placeholder": "",
-                "placeholderOptional": "",
-                "custom": "",
+                "placeholderOptional": "Vali...",
+                "custom": "Kasuta {value}",
                 "bypassTermCounts": "",
-                "submit": ""
+                "submit": "OK"
             }
         },
         "api": {
@@ -156,17 +156,17 @@
         },
         "ref": {
             "field": {
-                "name": "",
+                "name": "Nimi",
                 "slug": "",
-                "description": "",
-                "color": "",
-                "icon": "",
+                "description": "Kirjeldus",
+                "color": "Värv",
+                "icon": "Ikoon",
                 "iconDescription": ""
             },
-            "delete": "",
+            "delete": "Kustuta",
             "submit": {
-                "new": "",
-                "edit": ""
+                "new": "Loo",
+                "edit": "Salvesta"
             }
         }
     }
