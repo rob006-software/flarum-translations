@@ -2,19 +2,19 @@
     "blomstra-turnstile": {
         "admin": {
             "settings": {
-                "help_text": "",
+                "help_text": "Genereeri Turnstile võtmed oma Cloudflare kontol <a>siin</a>.",
                 "site_key": "Saidi võti",
-                "secret_key": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "secret_key": "Salajane võti",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             }
         },
         "forum": {
-            "not_loaded_error": ""
+            "not_loaded_error": "Cloudflare Turnstile laadimine ebaõnnestus. Palun värskenda lehekülge ja kontrolli oma reklaamide blokeerijat."
         }
     },
     "validation": {
-        "turnstile": ""
+        "turnstile": "Me ei suutnud kinnitada kas sa oled robot või mitte. Palun värskenda lehekülge ja proovi uuesti."
     }
 }
