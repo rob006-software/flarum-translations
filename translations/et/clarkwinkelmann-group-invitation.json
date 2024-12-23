@@ -7,7 +7,7 @@
                 "already-connected": "Lisama kasutaja {username} gruppi {group}. Pole korrektne kasutaja? <a>Logi sisse teise kontoga</a>.\n",
                 "not-connected": "Et kutse vastu võtta, <a>logi sisse</a>.",
                 "not-authorized": "Sinu praegusel kasutajal {username} pole luba gruppidega liituda. <a>Logi sisse teise kontoga</a>.",
-                "already-member": "Suurepärane uudis! Sinu kasutaja {username} on juba grupi {group}<a>Logi sisse teise kontoga</a>.\n"
+                "already-member": "Suurepärane uudis! Sinu kasutaja {username} on juba grupi {group} liige! Soovid liituda mõne teise kasutajaga? <a>Logi sisse teise kontoga</a>.\n"
             },
             "invitation": {
                 "not-found": "Vabandust, aga seda grupi kutset ei leitud.",
@@ -34,13 +34,13 @@
                 "empty": "Siiamaani pole ühtegi kutset loodud.",
                 "unlimited": "piiramatult",
                 "create": "Loo",
-                "delete": ""
+                "delete": "Kustuta"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Kutse koodi ei leitud",
+                "no-usages-left": "Kutset ei saa enam kasutada"
             }
         }
     }
