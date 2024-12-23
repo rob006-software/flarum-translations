@@ -2,30 +2,30 @@
     "clarkwinkelmann-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Muuda autorit ja kuupäeva"
             },
             "modal": {
                 "title-post": "Muuda postituse autorit või kuupäeva",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "title-discussion": "Muuda vestluse autorit ja kuupäeva",
+                "user": "Autor",
+                "created_at": "Loomise kellaaeg",
+                "edited_at": "Muuga kellaaega",
+                "sync-with-discussion": "Sünkrooni vestlusega",
+                "sync-with-post": "Sünkrooni esimese postitusega",
+                "sync-impossible": "Ei leia esimest postitust. Proovi vestluse algusesse kerimist.",
+                "submit": "Salvesta",
+                "cancel": "Loobu"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Otsi kasutajaid",
+                "type-more": "Kirjuta 4 märki, et otsida andmebaasist",
+                "no-results": "Tulemusi pole"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Uuenda vestlust ja postituse autorit",
+                "edit-date": "Uuenda vestluse ja postituse kuupäeva"
             }
         }
     }
