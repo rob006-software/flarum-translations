@@ -4,11 +4,11 @@
             "settingsInBackoffice": ""
         },
         "backoffice": {
-            "settingsNotAvailableForNonAdmin": "",
+            "settingsNotAvailableForNonAdmin": "Sellel lisaprogrammil on seadeid, aga ainult adminid võivad neid näha ja muuta.",
             "nav": {
                 "dashboard": "Töölaud",
                 "users": "Kasutajad",
-                "searchPlaceholder": ""
+                "searchPlaceholder": "=> core.admin.nav.search_placeholder"
             },
             "users": {
                 "title": "Kasutajad",
@@ -29,7 +29,7 @@
         },
         "lib": {
             "header": {
-                "admin_button": "",
+                "admin_button": "=> core.forum.header.admin_button",
                 "backoffice_button": ""
             }
         }
