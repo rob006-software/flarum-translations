@@ -8,16 +8,16 @@
                 "settings": {
                     "admin_bypass_warning": "",
                     "enabled_locations": "",
-                    "script_urls": "",
+                    "script_urls": "Kohandatud skriptide URL(-id)",
                     "add_script": "Uus",
                     "script_deletion": "",
                     "code_input": "HTML kood",
-                    "code_input_disabled": "",
+                    "code_input_disabled": "Luba see asukoht, et selle HTML koodi muuta.",
                     "js_input": "Javaskripti kood",
-                    "js_input_disabled": "",
+                    "js_input_disabled": "Luba see asukoht, et selle JS koodi muuta.",
                     "use_adsense": "Kasuta AdSense-i",
-                    "pub_id": "",
-                    "between_posts_gap": "",
+                    "pub_id": "AdSense Avaldaja ID",
+                    "between_posts_gap": "Postituste vahel: vahe reklaamide vahel",
                     "allow_after_placeholder": "",
                     "save_btn": {
                         "dirty": "Salvesta muudatused",
@@ -34,9 +34,9 @@
             },
             "lib": {
                 "locations": {
-                    "discussion_header": "",
-                    "discussion_sidebar": "",
-                    "header": "",
+                    "discussion_header": "Vestluse lehel (päise all)",
+                    "discussion_sidebar": "Vestluse külgriba [AINULT ARVUTIS]",
+                    "header": "Päis",
                     "sidebar": "Külgribal [AINULT ARVUTIS]",
                     "footer": "Jalus",
                     "between_posts": "Postituste vahel"
