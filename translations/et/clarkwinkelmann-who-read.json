@@ -3,40 +3,40 @@
         "forum": {
             "tooltip": {
                 "last-read-at": "{username} luges {ago}",
-                "last-read-at-behind": "",
-                "last-read-at-up-to-date": ""
+                "last-read-at-behind": "{username} luges viimati {ago} ja on maas",
+                "last-read-at-up-to-date": "{username} luges viimast postitust {ago}"
             },
             "more": {
-                "show": "",
-                "info": ""
+                "show": "Näita veel {count}",
+                "info": "Ja veel {count}"
             },
             "footer": {
-                "read-this-post": "",
-                "read-no-further": "",
-                "read-to-end": ""
+                "read-this-post": "{count, plural, =0 {Keegi ei lugenud seda postitust} one {Ainult üks kasutaja luges seda postitust} other {# kasutajat luges seda postitust}}",
+                "read-no-further": "{count, plural, =0 {Kõik lugesid edasi} one {Üks kasutaja ei lugenud lõpuni} other {# kasutajat ei lugenud lõpuni}}",
+                "read-to-end": "{count, plural, =0 {Keegi ei lugenud lõpuni} one {Üks kasutaja luges lõpuni} other {# kasutajat luges lõpuni}}"
             },
             "controls": {
-                "set-unread": "",
-                "remove-unread": ""
+                "set-unread": "Märgi kui mitteloetud",
+                "remove-unread": "Eemalda mitteloetud"
             },
             "badges": {
-                "following": "",
-                "ignoring": "",
-                "unread": ""
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
+                "unread": "Märgi kui mitteloetud"
             },
             "modal": {
-                "title": "",
-                "up-to-this-post": "",
-                "past-this-post": "",
-                "to-the-end": "",
-                "behind": ""
+                "title": "Lugejat",
+                "up-to-this-post": "Kasuajad, kes lugesid kuni selle postituseni",
+                "past-this-post": "Kasutajad, kes lugesid sellest postitusest kaugemale",
+                "to-the-end": "Kasutajad, kes lugesid lõpuni",
+                "behind": "Kasutajad, kes ei lugenud lõpuni"
             }
         },
         "admin": {
             "permissions": {
-                "see-read": "",
-                "see-subscription": "",
-                "see-unread": "",
+                "see-read": "Vaata lugemise staatust",
+                "see-subscription": "Vaata jälgimise staatust",
+                "see-unread": "Vaata teste kasutajate lugemata staatust",
                 "mark-unread": ""
             },
             "settings": {
@@ -45,9 +45,9 @@
                 "show-between-posts": "",
                 "show-count-of-readers-who-stopped": "",
                 "hide-when-behind": "",
-                "max-visible": "",
-                "unread-icon": "",
-                "only-groups": ""
+                "max-visible": "Maksimaalne kasutajate arv enne, kui näitatakse \"vaata rohkem\"",
+                "unread-icon": "Lubemata embleemi ikoon",
+                "only-groups": "Näita ainult nende kasutajate loetud staatust, kes kuuluvad sellesse gruppi"
             }
         }
     }
