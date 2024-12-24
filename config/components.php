@@ -942,7 +942,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/hot-discussions-cards/0.1.6/locale/en.yml',
 	],
 	'justoverclock-igdb-api' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-igdb-api.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/igdb-api/0.1.6/locale/en.yml',
 	],
 	'justoverclock-imdb-api' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-imdb-api.yml',
