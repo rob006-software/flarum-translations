@@ -864,7 +864,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/broken-links-checker/0.1.4/locale/en.yml',
 	],
 	'justoverclock-check-duplicate-discussions' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-check-duplicate-discussions.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/check-duplicate-discussions/0.2.0/locale/en.yml',
 	],
 	'justoverclock-composer-autocomplete' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/composer-autocomplete/0.1.0/locale/en.yml',
