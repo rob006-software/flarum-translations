@@ -2,22 +2,22 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
+                "hot_button": "Trendikas",
                 "votes_button": "Üles hääletamised"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Hääli",
+            "vote_title": "Näita, kes jääletas",
             "nav": {
-                "name": ""
+                "name": "Hinnang"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Koht",
+                "name": "Kasutaja",
+                "amount": "Punkte"
             },
             "notification": {
                 "upvote": "",
@@ -30,19 +30,19 @@
                 "card": {
                     "points": ""
                 },
-                "rank": "",
-                "votes_link": ""
+                "rank": "{rank}",
+                "votes_link": "Hääli"
             },
             "modal": {
                 "downvotes_label": "",
-                "title": "",
+                "title": "Hääletajad",
                 "upvotes_label": ""
             },
-            "mod_item": "",
+            "mod_item": "Vaata hääletajaid",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Hääletajaid pole veel",
+                "label": "Hääletajad",
+                "label_none": "Hääletajaid pole veel"
             },
             "post": {
                 "upvote_button": "",
