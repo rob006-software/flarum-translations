@@ -33,15 +33,15 @@
                 "doorkey": {
                     "used_times": "{remaining, plural, =0 {Piiramatu} one {{remaining} kasutus järgi} other {{remaining} kasutust järgi}}",
                     "total_uses": "{totalUses, plural, one {Kasutatud {totalUses} korda} other {Kasutatud {totalUses} korda}}",
-                    "title": "",
+                    "title": "Kutse koodid",
                     "help": {
-                        "key": "",
-                        "group": "",
-                        "max": "",
-                        "activates": ""
+                        "key": "Võti: Kood, mida kasutaja liitumisel sisestab.",
+                        "group": "Grupp: Grupp, kuhu kasutaja liitumisel sisestatakse.",
+                        "max": "Maks kasutajaid: Mitu korda saab koodi kasutada. Sisesta 0, kui piirangut pole",
+                        "activates": "Aktiveerib kasutaja: Aktiveerib liitunud kasutaja automaatselt."
                     },
-                    "warning": "",
-                    "key": "",
+                    "warning": "Seda kutse koodi on kasutatud juba maksimaalne kasutamiskordade arv.",
+                    "key": "Võti",
                     "max_uses": "Maks. kasutajaid",
                     "heading": {
                         "key": "Võti",
