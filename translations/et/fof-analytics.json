@@ -7,22 +7,22 @@
                     "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
+                    "statusGoogle": "Lülita Google Analytics (UA/GA4) sisse",
+                    "optTrackingCode": "Optimiseeri jälgimise koodi (valikuline)",
                     "googleTrackingCode": "Jälgimis koodi ID",
                     "googleGTMCode": "GTM koodi ID (valikuline)",
                     "statusPiwik": "Kasuta Matomot",
                     "piwikUrl": "Matomo domeen või URL",
                     "piwikSiteId": "Saidi ID",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "piwikTrackSubdomain": "Jälgi külastajaid kõigil Flarumi alamdomeenidel",
+                    "piwikPrependDomain": "Lisa saidi domeen jälgimisel lehekülje pealkirjadele",
+                    "piwikHideAliasUrl": "Peida \"väljaminevate linkide\" aruandes teada olevate Alias URL-ide klikid",
+                    "piwikAliasUrl": "Aliase URL",
+                    "piwikTrackAccounts": "Jälgi kasutajakontosid eraldi",
+                    "piwikAuthToken": "Autentimise kood"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Sisesta see kood, et lülitada Matomo statistika vidin adminipaneelil.\nLeiad selle kohast Seaded > Isiklik > API autentimise kontrollkood.\n"
                 },
                 "trackAccounts": {
                     "none": "Ära jälgi",
