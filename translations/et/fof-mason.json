@@ -5,7 +5,7 @@
                 "edit-answers": "Muuda väljasid"
             },
             "answers-modal": {
-                "edit-title": "",
+                "edit-title": "Muuda {title} väljasid",
                 "save": "Salvesta väljad"
             },
             "post-answers": {
@@ -31,27 +31,27 @@
                 "save-answer": "Salvesta vastuse muudatused",
                 "delete-answer": "Kustuta vastus",
                 "edit-answer": "Muuda vastust",
-                "edit-answer-prompt": "",
-                "show-user-answers": ""
+                "edit-answer-prompt": "Muuda sisu igal pool, kus seda on kasutatud",
+                "show-user-answers": "Näita mitte-soovitatud vastuseid ({count})"
             },
             "fields": {
                 "add": "Lisa väli {field}",
                 "edit": "Muuda välja {field}",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
+                "required": "Nõutud",
+                "name": "Välja nimi",
+                "name-help": "Avalikult nähtav (ja mitte tõlgitav) välja nimi.\n",
+                "description": "Välja kirjeldus",
                 "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
+                "show_when_empty": "Näita, kui väli on tühi",
+                "show_when_empty-help": "Kas välja näidatakse vestluses, kui sellesse pole midagi sisestatud",
+                "validation": "Kasutaja väärtuste kontrollimine",
                 "user_values_allowed": "Kasutaja väärtused on lubatud",
                 "user_values_allowed-help": "",
                 "validation-help": "",
                 "enable-user-values-for-validation": "",
                 "icon": "Ikoon",
                 "icon-help": "",
-                "icon-preview": "",
+                "icon-preview": "eelvaade: {preview}",
                 "save-field-for-answers": "Salvesta väli, et lisada vastuseid",
                 "is_suggested": "Soovita kasutajatele vastust",
                 "new-answer": "Uus vastus",
@@ -63,7 +63,7 @@
             },
             "settings": {
                 "fields-section-title": "Kohandatud väljade sektsiooni pealkiri",
-                "fields-section-title-placeholder": "",
+                "fields-section-title-placeholder": "Vaikimisi pealkirja ei näidata",
                 "fields-section-title-help": "",
                 "column-count": "",
                 "n-columns": "{count} veergu",
@@ -72,9 +72,9 @@
                 "fields-in-hero": "",
                 "hide-empty-fields-section": "",
                 "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
-                "tags-as-field-help": "",
-                "tags-field-name": "",
+                "tags-as-field": "Näita siltide valijat väljana",
+                "tags-as-field-help": "See peidab tavapärase siltide valija ning näitab selle asemel kohandatud väljade rippvalikut. See töötab ainult siis, kui sa oled lubanud valida ainult ühe peamise ja ühe teisejärgulise sildi!\n",
+                "tags-field-name": "Siltide välja silt",
                 "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
@@ -84,12 +84,12 @@
                 "field-answers": "Välja vastused"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "Oma olemasolevates vestlustes väljade nägemine",
+                "see-other-fields": "Väljade nägemine kõigis olemasolevates vestlustes",
+                "fill-fields": "Väljade täitmine kõigis uutes vestlustes",
+                "update-own-fields": "Omaenda vestlustes väljade muutmine",
+                "update-other-fields": "Kõigi vestluse väljade uuendamine",
+                "skip-required-fields": "Luba nõutud väljad vahele jätta"
             }
         }
     }
