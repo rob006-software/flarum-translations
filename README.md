@@ -1057,6 +1057,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-be-active-user-indicator`](https://weblate.rob006.net/projects/flarum/justoverclock-be-active-user-indicator) | [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator) |
 | [`justoverclock-best-answer-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-best-answer-badge) | [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge) |
 | [`justoverclock-broken-links-checker`](https://weblate.rob006.net/projects/flarum/justoverclock-broken-links-checker) | [`justoverclock/broken-links-checker`](https://github.com/justoverclockl/broken-links-checker) |
+| [`justoverclock-check-duplicate-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-check-duplicate-discussions) | [`justoverclock/check-duplicate-discussions`](https://github.com/justoverclockl/check-duplicate-discussions) |
 | [`justoverclock-composer-autocomplete`](https://weblate.rob006.net/projects/flarum/justoverclock-composer-autocomplete) | [`justoverclock/composer-autocomplete`](https://github.com/justoverclockl/composer-autocomplete) |
 | [`justoverclock-country-flags`](https://weblate.rob006.net/projects/flarum/justoverclock-country-flags) | [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags) |
 | [`justoverclock-custom-header`](https://weblate.rob006.net/projects/flarum/justoverclock-custom-header) | [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header) |
@@ -1087,6 +1088,8 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-header-slideshow`](https://weblate.rob006.net/projects/flarum/justoverclock-header-slideshow) | [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow) |
 | [`justoverclock-hot-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-hot-discussions) | [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions) |
 | [`justoverclock-hot-discussions-cards`](https://weblate.rob006.net/projects/flarum/justoverclock-hot-discussions-cards) | [`justoverclock/hot-discussions-cards`](https://github.com/justoverclockl/hot-discussions-cards) |
+| [`justoverclock-igdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-igdb-api) | [`justoverclock/igdb-api`](https://github.com/justoverclockl/igdb-api) |
+| [`justoverclock-imdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-imdb-api) | [`justoverclock/imdb-api`](https://github.com/justoverclockl/imdb-api) |
 | [`justoverclock-last-post-useravatar`](https://weblate.rob006.net/projects/flarum/justoverclock-last-post-useravatar) | [`justoverclock/last-post-useravatar`](https://github.com/justoverclockl/last-post-useravatar) |
 | [`justoverclock-last-registered-users`](https://weblate.rob006.net/projects/flarum/justoverclock-last-registered-users) | [`justoverclock/last-registered-users`](https://github.com/justoverclockl/last-registered-users) |
 | [`justoverclock-last-tweet`](https://weblate.rob006.net/projects/flarum/justoverclock-last-tweet) | [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet) |
@@ -1096,6 +1099,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-popular-tags`](https://weblate.rob006.net/projects/flarum/justoverclock-popular-tags) | [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags) |
 | [`justoverclock-random-post`](https://weblate.rob006.net/projects/flarum/justoverclock-random-post) | [`justoverclock/random-post`](https://github.com/justoverclockl/random-post) |
 | [`justoverclock-staff-members-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-staff-members-widget) | [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget) |
+| [`justoverclock-theaudiodb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api) | [`justoverclock/theaudiodb-api`](https://github.com/justoverclockl/theaudiodb-api) |
 | [`justoverclock-thread-read-time`](https://weblate.rob006.net/projects/flarum/justoverclock-thread-read-time) | [`justoverclock/thread-read-time`](https://github.com/justoverclockl/thread-read-time) |
 | [`justoverclock-user-pc-specs`](https://weblate.rob006.net/projects/flarum/justoverclock-user-pc-specs) | [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs) |
 | [`justoverclock-user-statistics`](https://weblate.rob006.net/projects/flarum/justoverclock-user-statistics) | [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics) |
@@ -1254,18 +1258,14 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`glowingblue-localizd`](https://weblate.rob006.net/projects/flarum/glowingblue-localizd) | [`glowingblue/localizd`](https://flarum.org/extension/glowingblue/localizd) |
 | [`ianm-translate`](https://weblate.rob006.net/projects/flarum/ianm-translate) | [`ianm/translate`](https://flarum.org/extension/ianm/translate) |
 | [`justoverclock-auto-post-badge-pro`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-badge-pro) | [`justoverclock/auto-post-badge-pro`](https://flarum.org/extension/justoverclock/auto-post-badge-pro) |
-| [`justoverclock-check-duplicate-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-check-duplicate-discussions) | [`justoverclock/check-duplicate-discussions`](https://flarum.org/extension/justoverclock/check-duplicate-discussions) |
 | [`justoverclock-discord-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-discord-widget) | [`justoverclock/discord-widget`](https://flarum.org/extension/justoverclock/discord-widget) |
 | [`justoverclock-discussion-tags`](https://weblate.rob006.net/projects/flarum/justoverclock-discussion-tags) | [`justoverclock/discussion-tags`](https://flarum.org/extension/justoverclock/discussion-tags) |
 | [`justoverclock-export-post-to-pdf`](https://weblate.rob006.net/projects/flarum/justoverclock-export-post-to-pdf) | [`justoverclock/export-post-to-pdf`](https://flarum.org/extension/justoverclock/export-post-to-pdf) |
 | [`justoverclock-frontend-blog`](https://weblate.rob006.net/projects/flarum/justoverclock-frontend-blog) | [`justoverclock/frontend-blog`](https://flarum.org/extension/justoverclock/frontend-blog) |
-| [`justoverclock-igdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-igdb-api) | [`justoverclock/igdb-api`](https://flarum.org/extension/justoverclock/igdb-api) |
-| [`justoverclock-imdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-imdb-api) | [`justoverclock/imdb-api`](https://flarum.org/extension/justoverclock/imdb-api) |
 | [`justoverclock-job-cards`](https://weblate.rob006.net/projects/flarum/justoverclock-job-cards) | [`justoverclock/job-cards`](https://flarum.org/extension/justoverclock/job-cards) |
 | [`justoverclock-related-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-related-discussions) | [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions) |
 | [`justoverclock-reputation-score`](https://weblate.rob006.net/projects/flarum/justoverclock-reputation-score) | [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score) |
 | [`justoverclock-steam-api`](https://weblate.rob006.net/projects/flarum/justoverclock-steam-api) | [`justoverclock/steam-api`](https://flarum.org/extension/justoverclock/steam-api) |
-| [`justoverclock-theaudiodb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api) | [`justoverclock/theaudiodb-api`](https://flarum.org/extension/justoverclock/theaudiodb-api) |
 | [`justoverclock-website-live-screenshot`](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot) | [`justoverclock/website-live-screenshot`](https://flarum.org/extension/justoverclock/website-live-screenshot) |
 | [`kilowhat-audit-pro`](https://weblate.rob006.net/projects/flarum/kilowhat-audit-pro) | [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro) |
 | [`kilowhat-cimaise`](https://weblate.rob006.net/projects/flarum/kilowhat-cimaise) | [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise) |
