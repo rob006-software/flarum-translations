@@ -2,7 +2,7 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
+                "edit_title": "Vestluse {title} keele muutmine",
                 "title": "Muutmise keel",
                 "submit_button": "=> core.ref.save_changes"
             },
@@ -17,19 +17,19 @@
             },
             "sub_controls": {
                 "subscription_language_label": "Vestluse keel",
-                "subscription_language_help": ""
+                "subscription_language_help": "Kui valid siin keele, siis teavitatakse sind tegevustest, mis on seotud ainult selle keelega."
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
+                "native_label": "Keele nimed nii nagu neid kirjutatakse selles keeles",
                 "show_flag_label": "Näita keelte nimede juures riigi lippe",
-                "composer_default_label": "",
-                "locale_sort_label": "",
+                "composer_default_label": "Tee vestluse alustamisel eelnev keele valik",
+                "locale_sort_label": "Kasuta valitud keelt vaikimisi vestluste filtrina",
                 "show_any_lang_opt_label": "Näita valikut, etvalida \"Ükskõik, mis keel\"",
-                "tags_page_discussion_locale_label": "",
+                "tags_page_discussion_locale_label": "Näita siltide lehel ainult vestlusi, mis on kasutaja valitud keeles",
                 "errors": {
-                    "missing_assets": ""
+                    "missing_assets": "Selle lisaprogrammi jaoks vajalike ressursside laadimine ebaõnnestus. Proovi käsku <code>php flarum assets:publish</code>, et näha, kas see lahendab probleemi."
                 },
                 "config": {
                     "language_label": "Keel",
