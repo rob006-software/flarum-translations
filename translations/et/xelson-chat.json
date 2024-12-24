@@ -9,10 +9,10 @@
                 "title": "",
                 "enable_sounds": "",
                 "disable_sounds": "",
-                "enable_notifications": "Luba teavitused",
-                "disable_notifications": "Keela teavitused",
-                "minimize": "",
-                "maximize": "",
+                "enable_notifications": "Lülita teavitused sisse",
+                "disable_notifications": "Lülita teavitused välja",
+                "minimize": "Minimeeri",
+                "maximize": "Maksimeeri",
                 "chat": {
                     "settings": ""
                 }
@@ -22,10 +22,10 @@
                     "header": "",
                     "subheader": ""
                 },
-                "moder": "",
+                "moder": "Moderaator",
                 "kick": "",
-                "leave": "",
-                "rejoin": "",
+                "leave": "Lahku",
+                "rejoin": "Liitu uuesti",
                 "edit_modal": {
                     "title": "",
                     "moderator": {
@@ -35,18 +35,18 @@
                     "form": {
                         "title": {
                             "label": "",
-                            "validator": ""
+                            "validator": "Vähemalt 1 sümbol"
                         },
                         "color": {
-                            "label": "",
-                            "validator": ""
+                            "label": "Värv",
+                            "validator": "HEX vormingus"
                         },
                         "icon": {
-                            "label": "",
-                            "validator": ""
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
                         },
                         "users": {
-                            "edit": ""
+                            "edit": "Vali ja muuda kasutajaid"
                         },
                         "leave": "",
                         "return": "",
@@ -58,18 +58,18 @@
                         }
                     },
                     "search": {
-                        "placeholder": "",
-                        "failed": "",
-                        "invited": ""
+                        "placeholder": "Otsi kasutajaid",
+                        "failed": "Ühtegi sobivat kasutajat ei leitud",
+                        "invited": "Kutsutud"
                     },
-                    "save_button": ""
+                    "save_button": "=> core.ref.save_changes"
                 },
                 "list": {
                     "pin": "",
                     "unpin": "",
                     "placeholder": "",
                     "preview": {
-                        "empty": ""
+                        "empty": "Sõnumeid pole"
                     },
                     "add_modal": {
                         "title": "",
@@ -106,20 +106,20 @@
                         }
                     }
                 },
-                "placeholder": "",
+                "placeholder": "Kitjuta oma sõnum...",
                 "message": {
                     "actions": {
-                        "hide": "",
-                        "resend": ""
+                        "hide": "Peida",
+                        "resend": "Saada uuesti"
                     },
-                    "censored": "",
-                    "deleted": "",
+                    "censored": "Logi sisse, et näha seda sõnumit!",
+                    "deleted": "kustutas",
                     "deleted_forever": "",
-                    "you": "",
+                    "you": "Sina",
                     "type": {
-                        "url": "",
-                        "event": "",
-                        "code": ""
+                        "url": "URL",
+                        "event": "Sündmus",
+                        "code": "<Code />"
                     },
                     "events": {
                         "chat": {
@@ -141,7 +141,7 @@
                             "edited": ""
                         },
                         "users": {
-                            "invited": "",
+                            "invited": "{editorname} kutsus {usernames}",
                             "kicked": "",
                             "invited_kicked": ""
                         },
@@ -166,25 +166,25 @@
                 "enabled": "",
                 "create": {
                     "chat": "",
-                    "channel": ""
+                    "channel": "Alusta kanaleid"
                 },
                 "moderate": {
                     "delete": "",
-                    "vision": ""
+                    "vision": "Kustutatud sõnumite vaatamine"
                 }
             },
             "settings": {
                 "title": "",
-                "charlimit": "",
+                "charlimit": "Maksimaalne märkide arv sõnumis",
                 "floodgate": {
-                    "title": "",
-                    "number": "",
-                    "time": ""
+                    "title": "Liigse postitamise tõrje",
+                    "number": "Sõnumite arv reas",
+                    "time": "Perioodi pikkus"
                 },
                 "display": {
-                    "title": "",
-                    "minimize": "",
-                    "censor": ""
+                    "title": "Vaade",
+                    "minimize": "Käivita minimeerituna",
+                    "censor": "Tsenseeri autoriseerimata kasutajate sõnumid"
                 }
             }
         }
