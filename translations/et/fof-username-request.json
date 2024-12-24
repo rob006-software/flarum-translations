@@ -2,59 +2,59 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "",
-                "request_nickname": "",
-                "request_username": ""
+                "moderate_requests": "Kiida heaks kasutajanime muutmise soovid",
+                "request_nickname": "Küsi kasutajanime muutmist",
+                "request_username": "Kasutajanime muutmise küsimine"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Palun veendu, et küsitud hüüdnimi vastab foorumi reeglitele.",
+                    "decision_title": "Otsus",
+                    "approval_label": "Kiida heaks",
+                    "rejected_label": "Lükka tagasi",
+                    "submit_button": "Saada",
+                    "reason_title": "Tagasilükkamise põhjus",
+                    "success": "Otsus on saadetud.",
+                    "name": "{name} avaldas soovi oma kasutaja nime muuta. Soovitud kasutajanimi: \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Kasutajanime muutmise soov",
+                    "approved": "Sinu kasutajanime muutmise soov on heaks kiidetud",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Sinu kasutajanimi on muudetud. Uus kasutajanimi on {name}",
+                    "rejected": "Sinu kasutajanime muutmise soov lükati tagasi",
+                    "reason": "Tagasilükkamise põhjus: <i>\"{reason}\"</i>.",
+                    "resubmit": "Võid soovi korral saata oma kasutajanime muutmise soovi uuesti oma kasutajakonto seadetest."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Palu luba muuta kasutajanime",
+                    "current_request": "Oled juba avaldanud soovi saada oma uueks kasutajanimeks \"{name}\". Võid oma olemas olevat soovi uuendad või selle kustutada.",
+                    "submit_button": "Saada soov",
+                    "delete_button": "Kustuta soov",
+                    "confirmation_message": "Sinu kasutajanime muutmise soov on saadetud ning see ootab heakskiitu.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Kasutajanime soov on kustutatud."
                 }
             },
             "username_modals": {
                 "action": {
-                    "title": "",
+                    "title": "=> fof-username-request.ref.username_change_request",
                     "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
+                    "decision_title": "Otsus",
+                    "approval_label": "Kiida heaks",
+                    "rejected_label": "Lükka tagasi",
+                    "submit_button": "Saada",
+                    "reason_title": "Tagasilükkamise põhjus",
+                    "success": "Otsus on saadetud.",
                     "name": ""
                 },
                 "results": {
-                    "title": "",
+                    "title": "Kasutajanime muutmise soov",
                     "approved": "",
-                    "dismiss_button": "",
+                    "dismiss_button": "=> core.ref.okay",
                     "new_name": "",
                     "rejected": "",
                     "reason": "",
@@ -63,41 +63,41 @@
                 "request": {
                     "title": "",
                     "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
+                    "submit_button": "Saada soov",
+                    "delete_button": "Kustuta soov",
                     "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Kasutajanime muutmise soov on tagasi lükatud."
                 }
             },
             "pending_requests": {
-                "empty_text": "",
+                "empty_text": "Kasutajanime muutmise soovi ei leitud.",
                 "nickname_item_text": "",
-                "nickname_exerpt": "",
-                "tooltip": "",
-                "title": "",
+                "nickname_exerpt": "Küsitud kasutajanimi: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
                 "username_item_text": "",
                 "username_exerpt": ""
             },
             "settings": {
-                "nickname_request_button": "",
-                "username_request_button": ""
+                "nickname_request_button": "Muuda hüüdnime",
+                "username_request_button": "Muuda kasutajanime"
             },
             "user": {
-                "name_history_link": ""
+                "name_history_link": "Nime ajalugu"
             }
         },
         "ref": {
-            "name_change_request": "",
-            "name_change_requests": "",
-            "nickname_change_request": "",
-            "nickname_change_requests": "",
-            "username_change_request": "",
-            "username_change_requests": ""
+            "name_change_request": "Nime muutmise soov",
+            "name_change_requests": "Nime muutmise soovid",
+            "nickname_change_request": "Hüüdnime muutmise soov",
+            "nickname_change_requests": "Nüüdnime muutmise soovid",
+            "username_change_request": "Kasutajanime muutmise soov",
+            "username_change_requests": "Kasutajanime muutmise soovid"
         },
         "email": {
             "body": {
-                "noReasonProvided": "",
+                "noReasonProvided": "Põhjust pole lisatud.",
                 "approved": "",
                 "rejected": ""
             },
