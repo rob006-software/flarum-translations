@@ -1008,7 +1008,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-steam-api.yml',
 	],
 	'justoverclock-theaudiodb-api' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-theaudiodb-api.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/theaudiodb-api/0.2.0/locale/en.yml',
 	],
 	'justoverclock-thread-read-time' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/thread-read-time/0.1.7/locale/en.yml',
