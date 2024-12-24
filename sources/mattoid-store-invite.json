@@ -23,7 +23,9 @@
                 "mail-template": "Hello [user], Your invitation code is [code]",
                 "group-blacklist-view": "Blacklist user group (users in this group will not be able to purchase products)",
                 "group": "Register User Group",
-                "group-help": "After registering, the user defaults to being a member of the user group"
+                "group-help": "After registering, the user defaults to being a member of the user group",
+                "post-num": "Post Num",
+                "post-num-help": "When the number of posts is less than the current value, the review page will display the value in red"
             }
         },
         "forum": {
@@ -81,7 +83,11 @@
             "item-query": "Search by inviter/invitee/email",
             "item-total-num": "Accumulated number of submissions",
             "item-pass-total-num": "Accumulated number of passes",
-            "item-invite-code": "Invite"
+            "item-invite-code": "Invite",
+            "item-post-num": "Post Num",
+            "item-user-create-time": "User Joined Time",
+            "item-last-year-total-num": "Number of submissions in the previous year",
+            "item-last-year-pass-num": "Number of Passes in Last Year"
         }
     }
 }
