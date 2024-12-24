@@ -945,7 +945,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/igdb-api/0.1.6/locale/en.yml',
 	],
 	'justoverclock-imdb-api' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-imdb-api.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/imdb-api/0.1.2/locale/en.yml',
 	],
 	'justoverclock-infocards' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-infocards/0.1.5/resources/locale/en.yml',
