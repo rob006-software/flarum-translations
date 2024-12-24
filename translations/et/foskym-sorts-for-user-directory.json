@@ -4,11 +4,11 @@
             "settings": {
                 "sort_by_nickname": "",
                 "sort_by_monthly_posts": "",
-                "sort_by_groups_count": "",
-                "sort_by_money": "",
-                "sort_by_likes_received": "",
+                "sort_by_groups_count": "Sorteeri gruppide arvu järgi",
+                "sort_by_money": "Sorteeri raha järgi (nõuab lisaprogrammi Antoinefr Money)",
+                "sort_by_likes_received": "Sorteeri meeldimiste järgi (nõuab lisaprogrammi Likes Received)",
                 "sort_by_recently_seen": "",
-                "sort_by_comments": "",
+                "sort_by_comments": "Sorteeri kommentaaride arvu järgi",
                 "sort_by_ziven_checkin": "",
                 "sort_by_invited_user": "",
                 "sort_by_badges_count": ""
@@ -18,29 +18,29 @@
         },
         "forum": {
             "user_card": {
-                "monthly_discussions": "",
-                "monthly_comments": ""
+                "monthly_discussions": "Vestlusi kuus {count}",
+                "monthly_comments": "Kommentaare kuus {count}"
             }
         },
         "lib": {
             "integrations": {
                 "antoinefr-money": {
-                    "least_money": "",
-                    "most_money": ""
+                    "least_money": "Kõige vähem raha",
+                    "most_money": "Kõige rohkem raha"
                 },
                 "clarkwinkelmann-likes-received": {
-                    "most_likes_received": "",
-                    "least_likes_received": ""
+                    "most_likes_received": "Enim saadud meeldimisi",
+                    "least_likes_received": "Vähim saadud meeldimisi"
                 },
                 "core": {
-                    "nickname_az": "",
-                    "nickname_za": "",
+                    "nickname_az": "Hüüdnimi (a-z)",
+                    "nickname_za": "Hüüdnimi (z-a)",
                     "recently_seen": "",
                     "least_recently_seen": "",
                     "most_comments": "",
                     "least_comments": "",
-                    "most_monthly_discussions": "",
-                    "most_monthly_comments": "",
+                    "most_monthly_discussions": "Enim igakuiseid vestlusi",
+                    "most_monthly_comments": "Enim igakuiseid kommentaare",
                     "most_groups_count": ""
                 },
                 "ziven-daily-check-in": {
@@ -60,24 +60,24 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "nickname_az": "",
-                "nickname_za": "",
-                "most_money": "",
-                "least_money": "",
-                "most_likes_received": "",
-                "least_likes_received": "",
-                "recently_seen": "",
-                "least_recently_seen": "",
-                "most_comments": "",
-                "least_comments": "",
-                "recently_checkin": "",
-                "most_total_checkin": "",
-                "most_total_continuous_checkin": "",
-                "most_monthly_discussions": "",
-                "most_monthly_comments": "",
-                "most_groups_count": "",
-                "most_invited_user": "",
-                "most_badges_count": ""
+                "nickname_az": "=> foskym-sorts-for-user-directory.lib.integrations.core.nickname_az",
+                "nickname_za": "=> foskym-sorts-for-user-directory.lib.integrations.core.nickname_za",
+                "most_money": "=> foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.most_money",
+                "least_money": "=> foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.least_money",
+                "most_likes_received": "=> foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.most_likes_received",
+                "least_likes_received": "=> foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.least_likes_received",
+                "recently_seen": "=> foskym-sorts-for-user-directory.lib.integrations.core.recently_seen",
+                "least_recently_seen": "=> foskym-sorts-for-user-directory.lib.integrations.core.least_recently_seen",
+                "most_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_comments",
+                "least_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.least_comments",
+                "recently_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.recently_checkin",
+                "most_total_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_checkin",
+                "most_total_continuous_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_continuous_checkin",
+                "most_monthly_discussions": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_discussions",
+                "most_monthly_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_comments",
+                "most_groups_count": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_groups_count",
+                "most_invited_user": "=> foskym-sorts-for-user-directory.lib.integrations.xypp-invite-user.most_invited_user",
+                "most_badges_count": "=> foskym-sorts-for-user-directory.lib.integrations.v17development-user-badges.most_badges_count"
             }
         }
     }
