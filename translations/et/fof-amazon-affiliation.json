@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
-                    "tags-mediaembed": ""
+                    "modal": "Amazon Affiliate seaded",
+                    "tags": "Affiliate sildid",
+                    "tags-mediaembed": "Need Amazoni saidid ei toeta MediaEmbedi, ning neid näidatakse alati lihtsalt linkidena (eirates ülalolevaid seadeid): CN, BR, MX, AU"
                 },
                 "field": {
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
-                    "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "keep-existing-tag": "Säilita algsed Amazon Affiliate sildid linkides",
+                    "keep-existing-tag-help": "Vaikimisi asendatakse sildid algses URL-is sildiga, mida saad määara allpool.",
+                    "help-mediaembed": "Kui seda kasutatakse koos lisaprogrammiga fof/formatting, siis eemaldatakse alati kõik olemas olevad sildid",
+                    "remove-tag-if-unhandled": "Eemalda Amazon Affiliate sildid Amazoni linkidelt, mis pole kaetud",
+                    "remove-tag-if-unhandled-help": "Lingid, mis pole kaetud, jäetakse vaikimisi nii nagu nad on, kaasa arvatud nende sildid, kui seal on mõningaid.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Jäta see tühjaks, kui sa ei soovi neid linke katta"
                 }
             }
         }
