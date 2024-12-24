@@ -10,8 +10,8 @@
                 "follow_tag_button": "Jälgi",
                 "unfollow_tag_button": "Lõpeta jälgimine",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
@@ -19,52 +19,52 @@
                 "lurking_tag_tooltip": "Luuramine"
             },
             "sub_controls": {
-                "header": "",
-                "subscription_label": "",
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": "",
-                "submit_button": ""
+                "header": "Jälgitavad sildid {tagName}",
+                "subscription_label": "Vali oma jälgimise tase sildile {tagName}",
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Saa teavitus kõigist uutest vestlustest.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Peida vestlused kõigi vestluste leheküljelt.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Ei teavitata kunagi.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Saa teavitus kõigist uutest vestlustest ja vastustest.",
+                "not_following_button": "Ei jälgi",
+                "not_following_text": "Saa teavitusi ainult siis kui sind @mainitakse.",
+                "notify_alert_tooltip": "Saa foorumi teavitusi siis, kui on uusi vestlusi või postitusi",
+                "notify_email_tooltip": "Saa teavitus e-postile, kui on uusi vestlusi või postitusi",
+                "submit_button": "Kinnita jälgimine"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} alustas",
+                "new_post_text": "{username} postitas",
+                "new_discussion_tag_text": "{username} muutis silti"
             },
             "user": {
                 "settings": {
                     "heading": "Jälgi silte",
-                    "filter_label": ""
+                    "filter_label": "Mida näidata jälgimise lehel"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_page_default_label": "Jälgimise lehekülje vaikimisi filtreerimine",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Silt | Uus vestlus] {title}",
+                "newPostInTag": "[Silt | Uus postitus] {title}",
+                "newDiscussionTag": "[Silt | Muudetud silt] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "Tere {recipient_display_name},\n\n{actor_display_name} alustas vestlust sildiga, mida sa jälgid. Vestluse pealkiri: {discussion_title}\n\nUut vestlust näed sellelt lingilt:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Tere {recipient_display_name},\n\n{actor_display_name} postitas vestlusesse, mille silti sa jälgid: {discussion_title}\n\nUue tegevuse vaatamiseks kliki sellele lingile:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nYou won't receive any more notifications about this discussion until you're up to date.\n",
+                "newDiscussionTag": "Tere {recipient_display_name},\n\n{actor_display_name} muutis just silti vestluses, mille alustas {author_display_name} sildi vastu, mida sa jälgid. Vestluse pealkiri: {discussion_title}\n\nUut vestlust saad vaadata sellelt lingilt:\n{discussion_url}\n"
             }
         },
         "ref": {
@@ -83,8 +83,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Ekspordib kõik sildi jälgimise tasemed, kui need on olemas.",
+                    "anonymize_description": "Eemaldab kasutaja jälgimise sildilt."
                 }
             }
         }
