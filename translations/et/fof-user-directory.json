@@ -5,7 +5,7 @@
                 "back_to_user_directory_tooltip": "Tagasi kasutajate kataloogi"
             },
             "search": {
-                "users_heading": "",
+                "users_heading": "Otsi kasutajatest \"{query}\"",
                 "field": {
                     "placeholder": "Otsi kõiki kasutajaid"
                 },
@@ -16,13 +16,13 @@
             },
             "page": {
                 "nav": "Kasutajate nimekiri",
-                "refresh_tooltip": "",
-                "load_more_button": "",
-                "empty_text": "",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Ei leidnud ühtegi sinu otsingule vastavat kasutajat.",
                 "filter_button": "Filtreeri gruppe",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} vestlus} other {{count} vestlust}}",
+                    "post-count": "{count, plural, one { {count} postitus} other {{count} postitust}}"
                 }
             }
         },
@@ -31,22 +31,22 @@
                 "view_user_directory": "Vaata kasutajate nimekirja"
             },
             "settings": {
-                "link": "",
+                "link": "Lisa avalehele link kõigile kasutajatele, kes seda nimekirja näevad",
                 "default-sort": "Vaikimisi sorteerimine",
                 "use-small-cards": "Kasuta väikseid kasutajate kaarte",
-                "disable-global-search-source": "",
-                "link-group-mentions": ""
+                "disable-global-search-source": "Ära lisa kasutajate nimekirja foorumi üldise otsingu välja",
+                "link-group-mentions": "Seo grupi mainimised postitustes kasutajate nimekirjaga"
             }
         },
         "lib": {
             "sort": {
                 "not_specified": "Kasuta Flarumi vaikeväärtust",
                 "default": "Vaikeväärtus",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
+                "username_az": "Kasutajanimi (a-z)",
+                "username_za": "Kasutajanimi (z-a)",
+                "newest": "Uusimad",
+                "oldest": "Vanimad",
+                "most_posts": "Enim postitusi",
                 "least_posts": "Vähim postitusi",
                 "most_discussions": "Enim vestluseid",
                 "least_discussions": "Viimased vestluseid"
