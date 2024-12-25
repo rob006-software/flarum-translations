@@ -69,11 +69,11 @@
             },
             "polls_list": {
                 "empty_text": "",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
                 "add_poll": "",
-                "edit_poll": "",
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": ""
             },
             "compose": {
@@ -107,7 +107,7 @@
                 "subtitle_placeholder": "Alampealkiri/Kirjeldus (valikuline)",
                 "submit": "Saada",
                 "delete": "Kustuta",
-                "error": "",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "Küsitluse pilt",
                     "help": "Laadi üles pilt, mida näidatakse küsitluse kõrval (valikuline).",
