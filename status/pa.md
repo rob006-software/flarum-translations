@@ -4943,6 +4943,50 @@
 		<td align="center"><a href="https://packagist.org/packages/umhelper/oauth-clerk/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/umhelper-oauth-clerk/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/umhelper-oauth-clerk/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/check-duplicate-discussions" title="justoverclock/check-duplicate-discussions"><code>justoverclock/check-duplicate-discussion…</code></a>
+		</td>
+		<td align="center">448<br /><img src="https://img.shields.io/badge/-%2B420-red" alt="+420" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/check-duplicate-discussions/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/check-duplicate-discussions/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/check-duplicate-discussions/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-check-duplicate-discussions/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/justoverclock-check-duplicate-discussions/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/igdb-api" title="justoverclock/igdb-api"><code>justoverclock/igdb-api</code></a>
+		</td>
+		<td align="center">449<br /><img src="https://img.shields.io/badge/-%2B419-red" alt="+419" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/igdb-api/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/igdb-api/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/igdb-api/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-igdb-api/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/justoverclock-igdb-api/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/imdb-api" title="justoverclock/imdb-api"><code>justoverclock/imdb-api</code></a>
+		</td>
+		<td align="center">450<br /><img src="https://img.shields.io/badge/-%2B421-red" alt="+421" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/imdb-api/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/imdb-api/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/imdb-api/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-imdb-api/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/justoverclock-imdb-api/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/theaudiodb-api" title="justoverclock/theaudiodb-api"><code>justoverclock/theaudiodb-api</code></a>
+		</td>
+		<td align="center">451<br /><img src="https://img.shields.io/badge/-%2B420-red" alt="+420" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/theaudiodb-api/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/theaudiodb-api/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/theaudiodb-api/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/justoverclock-theaudiodb-api/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
@@ -5233,49 +5277,9 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://flarum.org/extension/justoverclock/check-duplicate-discussions" title="justoverclock/check-duplicate-discussions"><code>justoverclock/check-duplicate-discussion…</code></a>
-		</td>
-		<td align="center">28<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">16<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-check-duplicate-discussions/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/justoverclock-check-duplicate-discussions/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://flarum.org/extension/justoverclock/imdb-api" title="justoverclock/imdb-api"><code>justoverclock/imdb-api</code></a>
-		</td>
-		<td align="center">29<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">7<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-imdb-api/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/justoverclock-imdb-api/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://flarum.org/extension/justoverclock/igdb-api" title="justoverclock/igdb-api"><code>justoverclock/igdb-api</code></a>
-		</td>
-		<td align="center">30<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">3<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-igdb-api/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/justoverclock-igdb-api/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://flarum.org/extension/justoverclock/theaudiodb-api" title="justoverclock/theaudiodb-api"><code>justoverclock/theaudiodb-api</code></a>
-		</td>
-		<td align="center">31<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/justoverclock-theaudiodb-api/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://flarum.org/extension/justoverclock/steam-api" title="justoverclock/steam-api"><code>justoverclock/steam-api</code></a>
 		</td>
-		<td align="center">32<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">28<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">21<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-steam-api/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/justoverclock-steam-api/svg-badge.svg" alt="Translation status"></a></td>
@@ -5285,7 +5289,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://flarum.org/extension/ordinaryjellyfish/automod" title="ordinaryjellyfish/automod"><code>ordinaryjellyfish/automod</code></a>
 		</td>
-		<td align="center">33<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">29<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/ordinaryjellyfish-automod/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/ordinaryjellyfish-automod/svg-badge.svg" alt="Translation status"></a></td>
@@ -5295,7 +5299,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://flarum.org/extension/justoverclock/job-cards" title="justoverclock/job-cards"><code>justoverclock/job-cards</code></a>
 		</td>
-		<td align="center">34<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">30<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-job-cards/pa/"><img src="https://weblate.rob006.net/widgets/flarum/pa/justoverclock-job-cards/svg-badge.svg" alt="Translation status"></a></td>
