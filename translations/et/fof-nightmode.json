@@ -35,16 +35,16 @@
                     "description2": "See teema seotakse sinu kontoga ning rakendatakse kõigile sinu seadmetele, kui sa just igas seadmes ikooni klikkides teist valikut ei tee.",
                     "device_specific_setting_checkbox": "Kasuta seadme eelistusi",
                     "device_specific_setting_checkbox_tooltip": "Sinu teema valik salvestatakse eraldi iga seadme jaoks.",
-                    "auto_unsupported": "",
+                    "auto_unsupported": "Sinu veebisirvija ei toeta automaatset tumedat režiimi.",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "Automaatne",
+                        "day": "Hele",
+                        "night": "Tume"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "Sinu teema valitakse automaatselt vastavalt sinu seadme ja veebisirvija eelistustele. Näiteks, kui sul on on iOS-is aktiveeritud tume režiim, siis on ka foorum tumedates toonides.",
+                        "day": "Klassikaline kogemus, millega oled harjunud. Armastatud ja läbiproovitud.",
+                        "night": "Näib, et oled väikestviisi öökull. Vaatad foorumit öösiti, kui linnud magavad ja rebased jahivad saaki. Või eelistad lihtsalt tumedavaid värve!"
                     }
                 }
             }
@@ -53,8 +53,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "",
-                "fofNightMode-help": "",
+                "fofNightMode": "FoF Öörežiim: Värviteema, mida vaikimisi kasutatakse",
+                "fofNightMode-help": "0 - automaatne, 1 - hele, 2 - tume",
                 "fofNightMode_perDevice": "FoF Öörežiim: kasuta seadme eelistusi",
                 "fofNightMode_perDevice-help": "Kasuta öörežiimi seadeid vastavalt seadmete eelistusele"
             }
