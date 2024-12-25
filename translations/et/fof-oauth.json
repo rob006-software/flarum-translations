@@ -4,61 +4,61 @@
             "configure_button_label": "Seadista OAuth",
             "settings_accessibility_label": "{name} seaded",
             "permissions": {
-                "moderate_user_providers": ""
+                "moderate_user_providers": "Halda kasutajate seotud kontosid"
             },
             "settings": {
                 "advanced": {
                     "heading": "Lisavalikud",
                     "log-oauth-errors-label": "Logi OAuth veateated",
-                    "log-oauth-errors-help": ""
+                    "log-oauth-errors-help": "Kui see on sisse lülitatud, siis OAuth veateated kirjutatakse ka Flarum logisse. See võib aidata OAuth probleemide lahendamisel, aga samas võib see ka sisaldada tundlikku infot."
                 },
-                "only_icons_label": "",
+                "only_icons_label": "Näita ainult sisselogimis nupu ikoone (alternatiivne paigutus)",
                 "update_email_from_provider_label": "Kasuta teenusepakkuja E-posti aadressi",
-                "update_email_from_provider_help": "",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
+                "update_email_from_provider_help": "Kui see on sisse lülitatud, siis kasutaja e-posti aadress muudetakse e-posti aadressiks OAuth teenusepakkuja juures kasutatava e-posti aadressiga. Kõik teenusepakkujad ei võimalda e-posti aadressi uuendamist. Sellistel juhtudel pole sellel seadel mitte mingit mõju.",
+                "fullscreen_popup_label": "Kasuta täisekraanil OAuth hüpikakent",
+                "fullscreen_popup_help": "Kui see on sisse lülitatud, siis OAuth avaneb täisekraanil. Kui see on sisse lülitatud, siis kõrguse ja laiuse seadeid ignoreeritakse.",
                 "popup_width_label": "OAuth hüpikakna laius",
-                "popup_width_help": "",
+                "popup_width_help": "OAuth hüpikakna laius. Kui valik \"Kasuta täisekraanil OAuth hüpikakent\" on sisse lülitatud, siis seda seadet ignoreeritakse.",
                 "popup_height_label": "OAuth hüpikakna kõrgus",
-                "popup_height_help": "",
+                "popup_height_help": "OAuth hüpikakna kõrgus. Kui valik \"Kasuta täisekraanil OAuth hüpikakent\" on sisse lülitatud, siis seda seadet ignoreeritakse.",
                 "providers": {
-                    "callback_url_text": "",
+                    "callback_url_text": "Kui vajalik, siis määra \"tagasihelistamise\" URL ({url}).",
                     "discord": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Loo rakendus lingil {link}. Lisa ümbersuunamise URL OAuth2 vahekaardil.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
-                        "description": "",
-                        "app_id_label": "",
-                        "app_secret_label": ""
+                        "description": "Loo rakendus lingil {link}.",
+                        "app_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "github": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Loo OAuth rakendus lingil {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
+                        "description": "Loo rakendus lingil {link}. Anna rakendusele ulatus <code>read_user</code>.",
+                        "client_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "GitLab domeen"
                     },
                     "twitter": {
-                        "description": "",
+                        "description": "Loo rakendus lingil {link}. Pead sisestama ka lingi teenuse kasutustingimustele ja privaatsuspoliitikale. Seejärel veendu, et lisaksid ka e-posti aadressi küsimise õiguse.",
                         "api_key_label": "API võti",
                         "api_secret_label": "API salasõna"
                     },
                     "google": {
                         "description": "Loo rakendus lingil {link}.",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "hosted_domain_label": ""
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "hosted_domain_label": "Majutatud domeenid (G suite/Google Apps for Business, valikuline)"
                     },
                     "linkedin": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Loo rakendus lingil {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
@@ -66,13 +66,13 @@
         "forum": {
             "log_in": {
                 "with_button": "Logi sisse teenusega {provider}",
-                "with_discord_button": "",
-                "with_facebook_button": "",
-                "with_github_button": "",
-                "with_gitlab_button": "",
-                "with_google_button": "",
-                "with_linkedin_button": "",
-                "with_twitter_button": ""
+                "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_github_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_google_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "user": {
                 "settings": {
@@ -81,21 +81,21 @@
                         "last-used-label": "Viimati kasutatud",
                         "link-created-label": "Link on loodud",
                         "identification-label": "{provider} ID",
-                        "orphaned-account": "",
-                        "help": "",
+                        "orphaned-account": "Oled varasemalt selle teenusepakkuja kaudu küll sisse loginud, aga nüüd on selle teenusepakkuja kasutamine välja lülitatud.",
+                        "help": "Need seostatud kontod võimaldavad sul foorumisse sisse logida kasutades teisi teenusepakkujaid.",
                         "identifier-label": "{provider} ID",
-                        "unlink-confirm": ""
+                        "unlink-confirm": "Oled sa kindel, et soovid eemaldada seose teenusepakkujaga {provider}? Pärast seda ei saa sa enam siia foorumisse sisse logida kui sa just ei autendi enam uuesti selle teenusepakkujaga."
                     }
                 }
             },
             "providers": {
-                "discord": "",
-                "facebook": "",
-                "github": "",
-                "gitlab": "",
-                "google": "",
-                "linkedin": "",
-                "twitter": ""
+                "discord": "=> fof-oauth.lib.providers.discord",
+                "facebook": "=> fof-oauth.lib.providers.facebook",
+                "github": "=> fof-oauth.lib.providers.github",
+                "gitlab": "=> fof-oauth.lib.providers.gitlab",
+                "google": "=> fof-oauth.lib.providers.google",
+                "linkedin": "=> fof-oauth.lib.providers.linkedin",
+                "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "signup": {
                 "username_help": "Palun vali kasutajanimi, mida kasutada siin"
