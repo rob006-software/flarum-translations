@@ -3,9 +3,9 @@
         "forum": {
             "account_found": "Serverist {server} leiti konto",
             "log_in_with": "Logi sisse serveriga {server}",
-            "log_out": "",
+            "log_out": "=> core.ref.log_out",
             "errors": {
-                "core_csrf_token_mismatch": "",
+                "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
                 "search_filter_is_invalid": "",
                 "not_authenticated": "",
                 "csrf_token_mismatch": "",
