@@ -20,9 +20,9 @@
                 "reply_to_post_text": ""
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} vastas sinu postitusele",
+                "user_mentioned_text": "{username} mainis sind"
             },
             "post": {
                 "mentioned_by_self_text": "",
