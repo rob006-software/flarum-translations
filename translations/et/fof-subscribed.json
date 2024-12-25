@@ -2,29 +2,29 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
-                "forced_label": "",
+                "defaults_label": "Lülita seade \"{setting}\" vaikimisi sisse",
+                "forced_label": "Sunni seade \"{setting}\" kõigile peale",
                 "notify_discussion_created_label": "Keegi loob vestluse",
-                "notify_post_created_label": "",
+                "notify_post_created_label": "Kui keegi loob uue postituse või vastuse",
                 "notify_post_unapproved_label": "Loodud postitus vajab heakskiitu",
                 "notify_user_created_label": "Kui keegi registreerub",
-                "notify_post_flagged_label": ""
+                "notify_post_flagged_label": "Keegi märgib postituse sobimatuks"
             },
             "notifications": {
                 "discussion_created_text": "{username} alustas uut vestlust",
                 "post_created_text": "{username} kirjutas uue postituse",
-                "post_unapproved_text": "",
+                "post_unapproved_text": "{username} lisas postituse, mis nõuab heakskiitmist",
                 "user_created_text": "{username} on just liitunud",
-                "post_flagged_text": ""
+                "post_flagged_text": "{username} märkis postituse sobimatuks"
             }
         },
         "admin": {
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_post_created": "",
-                "subscribe_to_post_unapproved": "",
-                "subscribe_to_user_created": "",
-                "subscribe_to_post_flagged": ""
+                "subscribe_to_discussion_created": "Lubatud saada teavitusi uute vestluste kohta",
+                "subscribe_to_post_created": "Lubatud saada teavitusi uute vastuste kohta",
+                "subscribe_to_post_unapproved": "Lubatud saada teavitusi uue heaks kiitmata postituse saamise postituse kohta",
+                "subscribe_to_user_created": "Lubatud saada teavitusi uue kasutaja lisandumisel",
+                "subscribe_to_post_flagged": "Võib saada teavitusi sobimatuks märgitud postitustest"
             }
         },
         "email": {
@@ -32,15 +32,15 @@
                 "newDiscussion": "[Jälgimisel | Uus vestlus] {title}",
                 "newUser": "[Jälgimisel | Uus kasutaja] {username}",
                 "postUnapproved": "[Jälgimisel | Heakskiitmata] {username} postitas vestluses {title}",
-                "postCreated": "",
-                "postFlagged": ""
+                "postCreated": "[Jälgimisel | Uus postitus] {username} lisas postituse vestluses {title}",
+                "postFlagged": "[Jälgimisel | Uus märgistus] {username} märkis postituse sobimatuks vestluses {title}"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "Tere {recipient_display_name},\n\n{actor_display_name} alustas uut vestlust: {discussion_title}\n\nUut vestlust näed sellelt lingilt:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Tere {recipient_display_name},\n\n{actor_display_name} liitus just foorumiga {forum_url}.\n\nUue kasutaja profiili näed sellelt lingilt:\n{user_url}\n",
+                "postUnapproved": "Tere {recipient_display_name},\n\n{actor_display_name} lisas uue postituse vestluses {discussion_title}, mida ei kiidetud automaatselt heaks\n\nUut postitust näed sellelt lingilt:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Tere {recipient_display_name},\n\n{actor_display_name} Lisas uue postituse vestlusse {discussion_title}\n\nUus postitust näed sellelt lingilt:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Tere {recipient_display_name},\n\n{actor_display_name} märkis postituse teemas {discussion_title} aobimatuks\n\nPostitust näed sellelt lingilt:\n{post_url}\n"
             }
         }
     }
