@@ -2,23 +2,23 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": "Poolita postitused vestluses"
+                "split_discussion_label": "Vestluste poolitamine"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "",
-                "was_split_from": ""
+                "was_split_to": "{count, plural, one {{count} postitus liigutati teemasse {target}.} other {{count} postitust liigutati teemasse {target}.}}",
+                "was_split_from": "{count, plural, one {{count} postitus liigutati teemast {target}.} other {{count} postitust liigutati teemast {target}.}}"
             },
             "split": {
-                "from": "",
-                "to": "",
-                "cancel": ""
+                "from": "Poolita siit",
+                "to": "Poolita siit",
+                "cancel": "Tühista poolitamine"
             },
             "modal": {
-                "title": "",
-                "new_discussion_label": "",
-                "submit_button": ""
+                "title": "Poolita vestlus",
+                "new_discussion_label": "Määra uue vestluse pealkiri",
+                "submit_button": "Poolita"
             }
         }
     }
