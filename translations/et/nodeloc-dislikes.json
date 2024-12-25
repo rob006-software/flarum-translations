@@ -11,11 +11,11 @@
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_disliked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_disliked_text": "Kasutajale {username} ei meeldinud sinu postitus"
             },
             "post": {
-                "dislike_link": "",
+                "dislike_link": "Ei meeldi",
                 "disliked_by_self_text": "",
                 "disliked_by_text": "",
                 "others_link": "",
