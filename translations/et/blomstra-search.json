@@ -4,12 +4,12 @@
             "elastic-endpoint": "",
             "elastic-username": "=> core.ref.username",
             "elastic-password": "=> core.ref.password",
-            "elastic-index": "",
+            "elastic-index": "Indeks",
             "analyzer": {
-                "label": "",
+                "label": "Analüüsi keel",
                 "help": ""
             },
-            "search-discussion-subjects": "",
+            "search-discussion-subjects": "Otsi vestluste pealkirjadest",
             "search-post-bodies": "",
             "match-sentences": "",
             "match-words": ""
