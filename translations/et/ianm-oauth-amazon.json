@@ -13,15 +13,15 @@
         },
         "forum": {
             "log_in": {
-                "with_amazon_button": ""
+                "with_amazon_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "amazon": ""
+                "amazon": "=> fof-oauth.lib.providers.amazon"
             }
         },
         "lib": {
             "providers": {
-                "amazon": ""
+                "amazon": "Amazon"
             }
         }
     }
