@@ -13,15 +13,15 @@
         },
         "forum": {
             "log_in": {
-                "with_twitch_button": ""
+                "with_twitch_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "twitch": ""
+                "twitch": "=> fof-oauth.lib.providers.twitch"
             }
         },
         "lib": {
             "providers": {
-                "twitch": ""
+                "twitch": "Twitch"
             }
         }
     }
