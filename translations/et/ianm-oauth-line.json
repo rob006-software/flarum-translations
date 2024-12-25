@@ -13,15 +13,15 @@
         },
         "forum": {
             "log_in": {
-                "with_line_button": ""
+                "with_line_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "line": ""
+                "line": "=> fof-oauth.lib.providers.line"
             }
         },
         "lib": {
             "providers": {
-                "line": ""
+                "line": "LINE"
             }
         }
     }
