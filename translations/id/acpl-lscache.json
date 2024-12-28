@@ -16,23 +16,23 @@
             "drop_qs_help": "Gunakan fitur ini untuk menghapus query string tertentu, seperti <code>fbclid</code> atau <code>utm*</code>, saat melakukan penyimpanan cache. Hal ini untuk mencegah cache berlebihan pada halaman dengan query string \"sampah (junk)\" seperti kode UTM, yang digunakan untuk pelacakan namun tidak memengaruhi konten halaman. Ini membutuhkan LSWS v5.2.3 atau yang versi yang lebih baru. Buat daftar query string yang akan dihapus, satu query string per baris. <a>Pelajari lebih lanjut tentang menghapus query string</a>.<br></br>\n⚠️ Pengaturan ini akan mengubah file .htaccess.\n",
             "status_codes_cache_label": "Kode Status HTTP Default Halaman TTL",
             "status_codes_cache_help": "Tentukan kode status HTTP dan jumlah detik untuk menyimpan cache halaman tersebut, dipisahkan dengan spasi. Satu per baris.",
-            "purge_all": "Bersihkan Semua LSCache",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
             "permissions": {
-                "purge": ""
+                "purge": "=> acpl-lscache.ref.purge_cache"
             },
             "purge_all_success": "LiteSpeed Web Server telah diberikan instruksi untuk membersihkan semua entri LSCache"
         },
         "forum": {
             "purge": {
-                "discussion": ""
+                "discussion": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "Memberitahukan LiteSpeed Server untuk membersihkan entri LSCache",
+            "purge_all_success": "Memberitahukan LiteSpeed Server untuk membersihkan semua entri LSCache"
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "Bersihkan LSCache"
         }
     }
 }
