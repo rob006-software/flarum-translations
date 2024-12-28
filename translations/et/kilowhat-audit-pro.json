@@ -9,27 +9,27 @@
                 "title": "Audit",
                 "free": "Tasuta",
                 "pro": "Pro",
-                "upgrade": ""
+                "upgrade": "Uuenda PRO versioonile"
             },
             "limitedSettings": {
                 "configure": "Seadista",
                 "title": "Piiratud ligipääsu seaded",
                 "introduction": "",
-                "requiresExtension": ""
+                "requiresExtension": "Nõuab lisaprogrammi {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Vaata IP aadressi"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
+                "all-audit": "Augiti logi",
+                "discussion-audit": "Logi audit",
+                "user-audit": "Auditi logi (konto muudatused)",
                 "actor-audit": ""
             },
             "modal": {
-                "all-title": "",
+                "all-title": "Logi audit",
                 "discussion-title": "",
                 "user-title": "",
                 "actor-title": ""
@@ -38,13 +38,13 @@
         "lib": {
             "browser": {
                 "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterApply": "Rakenda",
+                "empty": "Tulemusi pole",
+                "loadMore": "Laadi rohkem",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
+                    "discussion": "Vestlus #{id}",
+                    "group": "Grupp #{id}",
                     "post": "",
                     "tag": "",
                     "user": ""
@@ -57,18 +57,18 @@
                     "everyone": "",
                     "members": ""
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(väärtust pole)",
+                "noReason": "(põhjust pole)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Veebisessioon",
+                    "api_key": "API võti",
+                    "access_token": "Ligipääsukood",
+                    "cli": "Käsurida",
+                    "unknown": "Tundmatu klient"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
+                    "hideRaw": "Peida logi toorandmed",
+                    "showRaw": "Näita logi toorandmeid",
                     "filterActor": "",
                     "filterIp": "",
                     "filterClient": "",
@@ -77,17 +77,17 @@
                     "filterDiscussion": ""
                 },
                 "audit_log_cleared": "",
-                "cache_cleared": "",
+                "cache_cleared": "Tühjendas vahemälu käsitsi",
                 "discussion": {
-                    "created": "",
+                    "created": "Alustas vestlust {discussion}",
                     "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
-                    "merged_away": "",
+                    "deleted": "Kustutas vestluse {discussion}",
+                    "hidden": "Peitis vestluse {discussion}",
+                    "locked": "Lukustas vestluse {discussion}",
+                    "merged_away": "Liitis vestluse {discussion} vestlusega {new_discussion}",
                     "merged_into": "",
                     "renamed": "",
-                    "restored": "",
+                    "restored": "Taastas vestluse {discussion}",
                     "split_away": "",
                     "split_into": "",
                     "stickied": "",
@@ -98,16 +98,16 @@
                 },
                 "extension": {
                     "disabled": "",
-                    "enabled": ""
+                    "enabled": "Lülitas sisse lisaprogrammi {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Blokeeris IP-aadressi {ip}",
+                    "unbanned": "Eemaldas blokeeringu IP-aadressilt {ip}"
                 },
                 "permission_changed": "",
                 "post": {
                     "approved": "",
-                    "created": "",
+                    "created": "Lisas postituse {post} vestluses {discussion}",
                     "create_date_changed": "",
                     "deleted": "",
                     "dismissed_flags": "",
@@ -118,21 +118,21 @@
                     "revised": "",
                     "user_changed": ""
                 },
-                "setting_changed": "",
+                "setting_changed": "Muutis seadeid {key}",
                 "setting_changed_with_values": "",
                 "tag": {
                     "created": "",
                     "deleted": "",
-                    "updated": ""
+                    "updated": "Uuendas silti {tag}"
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
+                    "activated": "Aktiveeris kasutaja {username} konto käsitsi",
+                    "activated_with_email": "Aktiveeris kasutaja {username} konti lingiga",
+                    "avatar_changed": "Muutis {username} avatari",
+                    "avatar_removed": "Eemaldas {username} avatari",
                     "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
+                    "created": "Lõi kasutaja {username} konto",
+                    "deleted": "Kustutas kasutaja {username}",
                     "email_changed": "",
                     "email_change_requested": "",
                     "groups_changed": "",
@@ -144,15 +144,15 @@
                     "nickname_requested": "",
                     "nickname_request_approved": "",
                     "nickname_request_rejected": "",
-                    "password_changed": "",
+                    "password_changed": "Muutis kasutaja {username} parooli",
                     "password_change_requested": "",
                     "provider_connected": "",
                     "suspended": "",
                     "unsuspended": "",
                     "username_changed": "",
                     "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "username_request_approved": "Kiitis heaks kasutaja {username} kasutajanime muutmise. Vana kasutajanimi oli {old_username}, uus on {new_username}",
+                    "username_request_rejected": "Lükkas tagasi kasutaja {username} kasutajanime muutmise"
                 }
             }
         }
