@@ -17,7 +17,22 @@
             "status_codes_cache_label": "Kode Status HTTP Default Halaman TTL",
             "status_codes_cache_help": "Tentukan kode status HTTP dan jumlah detik untuk menyimpan cache halaman tersebut, dipisahkan dengan spasi. Satu per baris.",
             "purge_all": "Bersihkan Semua LSCache",
+            "permissions": {
+                "purge": ""
+            },
             "purge_all_success": "LiteSpeed Web Server telah diberikan instruksi untuk membersihkan semua entri LSCache"
+        },
+        "forum": {
+            "purge": {
+                "discussion": ""
+            }
+        },
+        "lib": {
+            "purge_success": "",
+            "purge_all_success": ""
+        },
+        "ref": {
+            "purge_cache": ""
         }
     }
 }

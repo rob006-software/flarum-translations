@@ -17,7 +17,22 @@
             "status_codes_cache_label": "",
             "status_codes_cache_help": "",
             "purge_all": "모든 LSCache 초기화",
+            "permissions": {
+                "purge": ""
+            },
             "purge_all_success": "LiteSpeed 웹 서버에 모든 LSCache 항목을 초기화하도록 알림"
+        },
+        "forum": {
+            "purge": {
+                "discussion": ""
+            }
+        },
+        "lib": {
+            "purge_success": "",
+            "purge_all_success": ""
+        },
+        "ref": {
+            "purge_cache": ""
         }
     }
 }

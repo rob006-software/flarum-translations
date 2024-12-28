@@ -17,7 +17,22 @@
             "status_codes_cache_label": "Domyślny czas życia strony z kodem statusu HTTP",
             "status_codes_cache_help": "Podaj kod odpowiedzi HTTP i liczbę sekund przechowywania strony w cache, oddzielone spacją. Po jednym na linię.",
             "purge_all": "Wyczyść cały LSCache",
+            "permissions": {
+                "purge": ""
+            },
             "purge_all_success": "Serwer LiteSpeed został poinformowany o konieczności wyczyszczenia całego LSCache"
+        },
+        "forum": {
+            "purge": {
+                "discussion": ""
+            }
+        },
+        "lib": {
+            "purge_success": "",
+            "purge_all_success": ""
+        },
+        "ref": {
+            "purge_cache": ""
         }
     }
 }

@@ -17,7 +17,22 @@
             "status_codes_cache_label": "",
             "status_codes_cache_help": "",
             "purge_all": "Очистити весь LSCache",
+            "permissions": {
+                "purge": ""
+            },
             "purge_all_success": "Веб-серверу LiteSpeed надіслано повідомлення про очищення всіх записів LSCache"
+        },
+        "forum": {
+            "purge": {
+                "discussion": ""
+            }
+        },
+        "lib": {
+            "purge_success": "",
+            "purge_all_success": ""
+        },
+        "ref": {
+            "purge_cache": ""
         }
     }
 }

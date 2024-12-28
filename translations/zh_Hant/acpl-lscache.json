@@ -17,7 +17,22 @@
             "status_codes_cache_label": "",
             "status_codes_cache_help": "",
             "purge_all": "清除全部 LSCache",
+            "permissions": {
+                "purge": ""
+            },
             "purge_all_success": "通知 LiteSpeed Web 伺服器清除所有 LSCache"
+        },
+        "forum": {
+            "purge": {
+                "discussion": ""
+            }
+        },
+        "lib": {
+            "purge_success": "",
+            "purge_all_success": ""
+        },
+        "ref": {
+            "purge_cache": ""
         }
     }
 }
