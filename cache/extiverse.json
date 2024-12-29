@@ -31,28 +31,12 @@
         "requiredFlarum": "^1.7.0",
         "subscriptionPlansCount": 3
     },
-    "blomstra/s3-assets": {
-        "name": "blomstra/s3-assets",
-        "title": "S3 Assets",
-        "description": "Relocate Flarum disks onto S3 or compatible bucket",
-        "version": "0.1.3-beta.3",
-        "requiredFlarum": "^1.3.1",
-        "subscriptionPlansCount": 0
-    },
     "convo-extensions/flarum-ext-guest-posting": {
         "name": "convo-extensions/flarum-ext-guest-posting",
         "title": "Guest Posting",
         "description": "Anonymous, permission-based guest posting extension for Flarum",
         "version": "1.1.1",
         "requiredFlarum": "^1.0",
-        "subscriptionPlansCount": 0
-    },
-    "convo-extensions/flarum-ext-quick-reply": {
-        "name": "convo-extensions/flarum-ext-quick-reply",
-        "title": "Quick Reply",
-        "description": "Automatically open reply composer when visiting a discussion",
-        "version": "1.0.2",
-        "requiredFlarum": "^1.1.0",
         "subscriptionPlansCount": 0
     },
     "datitisev/flarum-backup": {
@@ -111,14 +95,6 @@
         "requiredFlarum": "^1.0.0",
         "subscriptionPlansCount": 1
     },
-    "justoverclock/check-duplicate-discussions": {
-        "name": "justoverclock/check-duplicate-discussions",
-        "title": "Duplicate Discussions",
-        "description": "Check if a similar discussion exists in Flarum",
-        "version": "0.2.0",
-        "requiredFlarum": "^1.2.0",
-        "subscriptionPlansCount": 1
-    },
     "justoverclock/discord-widget": {
         "name": "justoverclock/discord-widget",
         "title": "Discord Widget",
@@ -148,22 +124,6 @@
         "title": "Frontend Blog",
         "description": "Change default indexpage with a blog-like frontend",
         "version": "0.1.8",
-        "requiredFlarum": "^1.0.0",
-        "subscriptionPlansCount": 1
-    },
-    "justoverclock/igdb-api": {
-        "name": "justoverclock/igdb-api",
-        "title": "IGDB Api",
-        "description": "Igdb Api for Videogames",
-        "version": "0.1.6",
-        "requiredFlarum": "^1.8.5",
-        "subscriptionPlansCount": 1
-    },
-    "justoverclock/imdb-api": {
-        "name": "justoverclock/imdb-api",
-        "title": "Imdb Api - Movie Database",
-        "description": "Integrate Flarum with Imdb api to get movie information inside the posts",
-        "version": "0.1.2",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlansCount": 1
     },
@@ -198,14 +158,6 @@
         "version": "2.3.3",
         "requiredFlarum": "^v1.8.5",
         "subscriptionPlansCount": 0
-    },
-    "justoverclock/theaudiodb-api": {
-        "name": "justoverclock/theaudiodb-api",
-        "title": "TheAudioDB API",
-        "description": "TheAudioDB API integration for Flarum",
-        "version": "0.2.0",
-        "requiredFlarum": "^1.0.0",
-        "subscriptionPlansCount": 1
     },
     "justoverclock/website-live-screenshot": {
         "name": "justoverclock/website-live-screenshot",
@@ -302,14 +254,6 @@
         "version": "0.2.0",
         "requiredFlarum": "^1.2.0",
         "subscriptionPlansCount": 3
-    },
-    "sycho/flarum-private-facade": {
-        "name": "sycho/flarum-private-facade",
-        "title": "Private Forum Facade",
-        "description": "Force guests to an interface with only login and signup forms.",
-        "version": "v0.1.16",
-        "requiredFlarum": "^1.2.0",
-        "subscriptionPlansCount": 0
     },
     "v17development/flarum-support": {
         "name": "v17development/flarum-support",
