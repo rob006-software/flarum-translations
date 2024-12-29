@@ -1464,7 +1464,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/ziven-money-transfer/v0.2.5/locale/en.yml',
 	],
 	'ziiven-pay-to-see' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/ziiven-pay-to-see.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/ziiven-pay-to-see.yml',
 	],
 	'ziiven-post-number' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-post-number/v0.1.4/locale/en.yml',
