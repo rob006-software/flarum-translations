@@ -852,7 +852,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2.1/locale/en.yml',
 	],
 	'justoverclock-auto-post-badge-pro' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-auto-post-badge-pro.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/justoverclock-auto-post-badge-pro.yml',
 	],
 	'justoverclock-auto-post-count-badge' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/auto-post-count-badge/1.0.0/locale/en.yml',
