@@ -1047,7 +1047,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.7.0/resources/locale/en.yml',
 	],
 	'kilowhat-audit-pro' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/kilowhat-audit-pro.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/kilowhat-audit-pro.yml',
 	],
 	'kilowhat-cimaise' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/kilowhat-cimaise.yml',
