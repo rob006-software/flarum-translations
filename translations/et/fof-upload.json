@@ -47,43 +47,43 @@
                     "region": "Regioon",
                     "secret": "Salasõna",
                     "title": "AWS S3 salvestamise seaded",
-                    "advanced_title": "",
-                    "endpoint": "",
+                    "advanced_title": "S3 säilituskoha lisaseaded",
+                    "endpoint": "Lõpp-punkt",
                     "use_path_style_endpoint": "",
                     "acl": "",
                     "custom_url": ""
                 },
                 "disable-download-logging": {
-                    "title": "",
+                    "title": "Lülita allalaadimiste logimine välja",
                     "toggle": "Lülita välja"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
+                    "title": "Lülita otselinkimise kaitse välja",
                     "toggle": "Lülita välja"
                 },
                 "imgur": {
                     "client_id": "Imgur kliendi ID",
-                    "title": "",
+                    "title": "Imgur piltide säilitamise seaded",
                     "tos": ""
                 },
                 "local": {
                     "cdn_url": "",
-                    "title": ""
+                    "title": "Kohalike failide salvestamise seaded"
                 },
                 "qiniu": {
-                    "title": "",
+                    "title": "QUNIU seaded",
                     "key": "Võti",
                     "secret": "Salasõna",
                     "bucket": ""
                 },
                 "preferences": {
-                    "max_file_size": "",
+                    "max_file_size": "Maksimaalne failisuurus (kilobaitides)",
                     "mime_types": "",
-                    "title": "",
+                    "title": "Üldised eelistused",
                     "php_ini_values": ""
                 },
                 "resize": {
-                    "max_width": "",
+                    "max_width": "Maksimaalne pildi laius/kõrgus",
                     "title": "Muuda pildi suurust",
                     "toggle": "Muuda piltide suurust"
                 },
@@ -91,7 +91,7 @@
                     "title": ""
                 },
                 "watermark": {
-                    "file": "",
+                    "file": "Laadi vesipilt üles",
                     "position": "Vesipildi asukoht",
                     "title": "Lisa vesipilt",
                     "toggle": "Lisa vesipilt"
@@ -101,17 +101,17 @@
                     "options": {
                         "both": "Mõlemad",
                         "upload-btn": "Ainult üleslaadimise nupud",
-                        "media-btn": ""
+                        "media-btn": "Ainult failihalduri nupp"
                     }
                 },
                 "inspect-mime": ""
             },
             "permissions": {
                 "download_label": "Laadi failid alla",
-                "upload_label": "",
-                "view_user_uploads_label": "",
+                "upload_label": "Failide üleslaadimine",
+                "view_user_uploads_label": "Kasutaja üleslaadimiste vaatamine",
                 "delete_uploads_of_others_label": "Kustuta kasutajate üleslaadimised",
-                "upload_shared_label": "",
+                "upload_shared_label": "Jagatud failide üleslaadimine",
                 "access_shared_label": ""
             },
             "templates": {
@@ -131,7 +131,7 @@
                 "text-preview_description": ""
             },
             "upload_methods": {
-                "aws-s3": "",
+                "aws-s3": "S3 või sellega ühilduv",
                 "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Kohalik",
@@ -142,12 +142,12 @@
                 "title": "",
                 "description": "",
                 "select": "",
-                "laravel-validation": "",
+                "laravel-validation": "Laravel failide kinnitamine",
                 "no-file-selected": "Faili pole",
                 "validation-passed": "Korras",
                 "validation-failed": "Evaõnnestus: {error}",
                 "mime-detector": "",
-                "mime-fileinfo": "",
+                "mime-fileinfo": "PHP failiinfo (tagavaravariant)",
                 "guessed-extension": "",
                 "not-available": "Tulemust pole"
             }
