@@ -131,7 +131,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/blomstra-readme.yml',
 	],
 	'blomstra-realtime' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/blomstra-realtime.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/blomstra-realtime.yml',
 	],
 	'blomstra-s3-assets' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-s3-assets/0.1.2/locale/en.yml',
