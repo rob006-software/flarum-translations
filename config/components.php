@@ -831,7 +831,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/1.3.7/resources/locale/en.yml',
 	],
 	'ianm-translate' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/ianm-translate.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/ianm-translate.yml',
 	],
 	'ianm-twofactor' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-twofactor/1.1.3/locale/en.yml',
