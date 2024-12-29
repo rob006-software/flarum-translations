@@ -906,7 +906,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/events-countdown/0.1.8/locale/en.yml',
 	],
 	'justoverclock-export-post-to-pdf' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-export-post-to-pdf.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/justoverclock-export-post-to-pdf.yml',
 	],
 	'justoverclock-feautured-discussions-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/feautured-discussions-widget/0.1.1/locale/en.yml',
