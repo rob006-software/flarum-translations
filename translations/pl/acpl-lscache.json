@@ -16,23 +16,23 @@
             "drop_qs_help": "Użyj tej funkcji do pominięcia konkretnych ciągów zapytań, takich jak <code>fbclid</code> lub <code>utm*</code>, podczas generowania cache. Dzięki temu unikniesz nadmiernego tworzenia cache dla stron z \"śmieciowymi\" ciągami zapytań, takimi jak kody UTM, które służą do śledzenia, ale nie wpływają na zawartość strony. Funkcja ta wymaga LSWS w wersji 5.2.3 lub nowszej. Wpisz ciągi zapytań do pominięcia, po jednym na linię. <a>Dowiedz się więcej o pomijaniu ciągów zapytań</a>.<br></br>\n⚠️ Ta opcja modyfikuje plik .htaccess.\n",
             "status_codes_cache_label": "Domyślny czas życia strony z kodem statusu HTTP",
             "status_codes_cache_help": "Podaj kod odpowiedzi HTTP i liczbę sekund przechowywania strony w cache, oddzielone spacją. Po jednym na linię.",
-            "purge_all": "Wyczyść cały LSCache",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
             "permissions": {
-                "purge": ""
+                "purge": "=> acpl-lscache.ref.purge_cache"
             },
             "purge_all_success": "Serwer LiteSpeed został poinformowany o konieczności wyczyszczenia całego LSCache"
         },
         "forum": {
             "purge": {
-                "discussion": ""
+                "discussion": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "Wyczyszczono cache pomyślnie",
+            "purge_all_success": "Wyczyszczono cały cache pomyślnie"
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "Wyczyść LSCache"
         }
     }
 }
