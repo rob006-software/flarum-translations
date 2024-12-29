@@ -954,7 +954,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-infocards/0.1.5/resources/locale/en.yml',
 	],
 	'justoverclock-job-cards' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-job-cards.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/justoverclock-job-cards.yml',
 	],
 	'justoverclock-keywords' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-keywords/2.0.1/resources/locale/en.yml',
