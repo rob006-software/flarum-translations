@@ -357,7 +357,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/danirod/flarum-plausible/v1.1.0/locale/en.yml',
 	],
 	'datitisev-backup' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/datitisev-backup.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/datitisev-backup.yml',
 	],
 	'datitisev-discussion-agree-message' => [
 		'tag' => 'https://raw.githubusercontent.com/dsevillamartin/flarum-discussion-agree-message/1.0.2/resources/locale/en.yml',
