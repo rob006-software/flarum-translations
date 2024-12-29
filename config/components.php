@@ -125,7 +125,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-oauth-slack/0.1.1/locale/en.yml',
 	],
 	'blomstra-payments' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/blomstra-payments.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/blomstra-payments.yml',
 	],
 	'blomstra-readme' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/blomstra-readme.yml',
