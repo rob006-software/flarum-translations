@@ -363,7 +363,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/dsevillamartin/flarum-discussion-agree-message/1.0.2/resources/locale/en.yml',
 	],
 	'datitisev-maintenance' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/datitisev-maintenance.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/datitisev-maintenance.yml',
 	],
 	'datitisev-post-galleries' => [
 		'tag' => 'https://raw.githubusercontent.com/dsevillamartin/flarum-post-galleries/1.1.1/resources/locale/en.yml',
