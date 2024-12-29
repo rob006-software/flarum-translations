@@ -1059,7 +1059,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/kilowhat-formulaire.yml',
 	],
 	'kilowhat-rich-embeds' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/kilowhat-rich-embeds.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/kilowhat-rich-embeds.yml',
 	],
 	'kilowhat-wordpress' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/kilowhat-wordpress.yml',
