@@ -1371,7 +1371,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-seo/v2.0.5/locale/en.yml',
 	],
 	'v17development-support' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/v17development-support.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/v17development-support.yml',
 	],
 	'v17development-user-badges' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-user-badges/v1.1.0/locale/en.yaml',
