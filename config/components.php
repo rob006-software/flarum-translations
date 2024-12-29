@@ -894,7 +894,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/discussions-info/0.1.5/locale/en.yml',
 	],
 	'justoverclock-discussion-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/justoverclock-discussion-tags.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/justoverclock-discussion-tags.yml',
 	],
 	'justoverclock-dontgoaway' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-dontgoaway/0.2.5/resources/locale/en.yml',
