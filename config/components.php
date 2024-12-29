@@ -1392,7 +1392,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-invite-user/v1.1.0/locale/en.yml',
 	],
 	'xypp-pay-cccyun' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/xypp-pay-cccyun.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/xypp-pay-cccyun.yml',
 	],
 	'xypp-pay-to-read' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-pay-to-read/v2.0.0/locale/en.yml',
