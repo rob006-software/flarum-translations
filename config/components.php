@@ -1062,7 +1062,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/kilowhat-rich-embeds.yml',
 	],
 	'kilowhat-wordpress' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/kilowhat-wordpress.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/kilowhat-wordpress.yml',
 	],
 	'krombox-oauth-wordpress' => [
 		'tag' => 'https://raw.githubusercontent.com/krombox/flarum-ext-oauth-wordpress/0.0.1/locale/en.yml',
