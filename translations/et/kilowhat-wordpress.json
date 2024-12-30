@@ -30,11 +30,11 @@
                 "wordpress_login_path_help": "",
                 "wordpress_login_full_page": "",
                 "wordpress_login_full_page_help": "",
-                "username_strategy": "",
+                "username_strategy": "Uute kasutajate kasutajanimi",
                 "username_strategy_options": {
-                    "user_login": "",
-                    "first_name": "",
-                    "random": ""
+                    "user_login": "Kasutajanimi WordPressist",
+                    "first_name": "Eesnimi WordPressist",
+                    "random": "Juhuslik kasutajanimi"
                 },
                 "username_strategy_help": "",
                 "force_username_choice": "",
@@ -46,7 +46,7 @@
                 "user_delete": "",
                 "user_delete_options": {
                     "ignore": "",
-                    "delete": "",
+                    "delete": "Kustuta Flarumi kasutaja",
                     "suspend": ""
                 },
                 "user_delete_desc": "",
@@ -63,7 +63,7 @@
                 "comment_author_sync_help": "",
                 "comment_tag": "",
                 "comment_tag_none": "",
-                "comment_tag_custom": "",
+                "comment_tag_custom": "Kohandatud väärtused",
                 "comment_tag_custom_help": "",
                 "summary_as_last_post": "",
                 "summary_as_last_post_help": "",
@@ -72,25 +72,25 @@
                 "post_hide": "",
                 "post_hide_options": {
                     "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "lock": "Lukusta vestlused Flarumis",
+                    "hide": "Peida vestlused Flarumis",
+                    "delete": "Kustuta vestlused Flarumist jäädavalt"
                 },
                 "post_delete": "",
                 "post_delete_options": {
                     "ignore": "",
                     "lock": "",
-                    "hide": "",
+                    "hide": "Peida vestlused Flarumis",
                     "delete": ""
                 }
             },
             "tabs": {
-                "wizard": "",
+                "wizard": "Pagaldamise abimees",
                 "general": "",
-                "sso": "",
-                "comments": "",
-                "enabled": "",
-                "disabled": ""
+                "sso": "SSO integreerimine",
+                "comments": "Kommentaaride integreerimine",
+                "enabled": "Sisse lülitatud",
+                "disabled": "Välja lülitatud"
             },
             "appearance": {
                 "edit_css_button": ""
@@ -105,66 +105,66 @@
             "save-controls": {
                 "validation-errors": "",
                 "unsaved-changes": "",
-                "saved-at": "",
-                "no-unsaved-changes": "",
-                "save": ""
+                "saved-at": "Salvestatud {ago} tagasi",
+                "no-unsaved-changes": "Kõik on salvestatud",
+                "save": "Salvesta"
             },
             "health": {
                 "title": "",
-                "check": "",
-                "errors": "",
-                "healthy": "",
+                "check": "Kontrolli kohe",
+                "errors": "Leidsime mõningaid probleeme.",
+                "healthy": "Kõik näib korras olevat!",
                 "not-run": "",
                 "request-error": ""
             },
             "wizard": {
                 "intro": "",
-                "wordpress_url": "",
+                "wordpress_url": "WordPressi URL",
                 "wordpress_url_help": "",
-                "wordpress_username": "",
-                "wordpress_password": "",
+                "wordpress_username": "WordPressi admini kasutajanimi",
+                "wordpress_password": "WordPressi admini parool",
                 "wordpress_password_help": "",
-                "install": ""
+                "install": "Paigalda"
             },
             "role-group-sync": {
                 "head": {
-                    "role": "",
-                    "group": ""
+                    "role": "WordPressi roll",
+                    "group": "Flarumi grupp"
                 },
                 "choose": {
-                    "role": "",
-                    "group": ""
+                    "role": "Vali WordPressi roll...",
+                    "group": "Vali grupp"
                 },
                 "custom": {
-                    "role": "",
-                    "group": ""
+                    "role": "KOhandatud...",
+                    "group": "Kohandatud..."
                 },
-                "selected-custom-group": "",
-                "delete": "",
+                "selected-custom-group": "Kohandatud",
+                "delete": "Kustuta reegel",
                 "role-loader": {
-                    "loading": "",
+                    "loading": "WordPressi rollide laadimine...",
                     "error": ""
                 }
             }
         },
         "forum": {
             "welcome-modal": {
-                "title": "",
+                "title": "Teretulemast!",
                 "default_message": "",
-                "username": "",
-                "submit": "",
+                "username": "Vali kasutajanimi",
+                "submit": "Lülita foorumi konto sisse",
                 "not_now": ""
             },
             "instant-login": {
                 "welcome_known_user": "",
-                "welcome_unknown_user": "",
-                "avatar_alt_text": "",
+                "welcome_unknown_user": "Teretulemast tagasi!",
+                "avatar_alt_text": "WordPressi avatar",
                 "message": "",
                 "button": ""
             },
             "edit-user-modal": {
                 "warning": "",
-                "edit_in_wordpress": "",
+                "edit_in_wordpress": "Muuda WordPressis",
                 "should_not_edit_email": "",
                 "unlink": "",
                 "unlink_help": ""
@@ -173,22 +173,22 @@
                 "edit_on_wordpress": ""
             },
             "log_in": {
-                "with_wordpress_button": ""
+                "with_wordpress_button": "Logi sisse WordPressiga"
             },
             "summary-post": {
-                "head_label": "",
-                "blog_link": "",
-                "read_more": ""
+                "head_label": "WordPressi postitus",
+                "blog_link": "Loe blogis",
+                "read_more": "Loe lisa"
             },
             "embed": {
-                "title": ""
+                "title": "Kommentaarid"
             },
             "embed-link-modal": {
                 "title": "",
                 "message": "",
                 "open": ""
             },
-            "thumbnail_alt_fallback": ""
+            "thumbnail_alt_fallback": "WordPressi postituse pisipilt"
         },
         "api": {
             "blocked_actions": {
