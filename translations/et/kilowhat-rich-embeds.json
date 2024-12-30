@@ -4,7 +4,7 @@
             "settings": {
                 "layout": "Paigutus",
                 "layoutOptions": {
-                    "inline": "",
+                    "inline": "Otse postituses",
                     "block": "Plokk",
                     "separated": "Eraldatud"
                 },
@@ -19,12 +19,12 @@
                     "vertical": "Vertikaalne",
                     "horizontal": "Horisontaalne"
                 },
-                "maxImageCount": "",
+                "maxImageCount": "Maksimaalne piltide arv eelvaates",
                 "maxImageCountHelp": "",
-                "maxImageCountPlaceholder": "",
-                "imageProxy": "",
+                "maxImageCountPlaceholder": "Piiramatu jaoks jäta tühjaks",
+                "imageProxy": "OpenGraph piltide vaheserver",
                 "imageProxyHelp": "",
-                "cacheProxy": "",
+                "cacheProxy": "Hoia pildid vaheserveris",
                 "cacheProxyHelp": "",
                 "withoutOpengraph": "",
                 "withoutOpengraphHelp": "",
@@ -82,18 +82,18 @@
                 "altAvatar": "Autori avatari pilt",
                 "missing": {
                     "retrieving": "Info tõmbamine...",
-                    "other": ""
+                    "other": "Sellest lingist eelvaate loomine ebaõnnestus"
                 }
             },
             "controls": {
                 "refresh": "Värskenda andmeid",
-                "disable": "",
-                "disableConfirmation": "",
+                "disable": "Keela selles postituses teabe põimimine",
+                "disableConfirmation": "Sellest postitusest eemaldatakse kõik põimimised. Kas jätkan?",
                 "imgCopy": "Kopeeri pildi URL",
                 "imgCopied": "Kopeeritud!",
                 "imgOpen": "Ava pilt uuel vahekaardil",
                 "play": "",
-                "expandDescription": ""
+                "expandDescription": "Laienda kirjeldust"
             }
         },
         "api": {
@@ -128,53 +128,53 @@
                         "type": "Probleem",
                         "stats": {
                             "commentCount": "Kommentaarid",
-                            "createdAt": ""
+                            "createdAt": "Loodud"
                         }
                     },
                     "pull": {
                         "type": "",
                         "stats": {
-                            "commentCount": "",
-                            "reviewCount": "",
+                            "commentCount": "Kommentaare",
+                            "reviewCount": "Ülevaateid",
                             "commitCount": "",
-                            "createdAt": ""
+                            "createdAt": "Loodud"
                         }
                     },
                     "repo": {
                         "type": {
-                            "public": "",
-                            "private": ""
+                            "public": "Avalik hoidla",
+                            "private": "Privaatne hoidla"
                         },
                         "stats": {
-                            "openIssueCount": "",
-                            "subscriberCount": "",
+                            "openIssueCount": "Avatud probleemid",
+                            "subscriberCount": "Vaatajaid",
                             "stargazerCount": "",
                             "forkCount": ""
                         }
                     }
                 },
                 "youtube": {
-                    "siteName": "",
+                    "siteName": "YouTube",
                     "video": {
-                        "type": "",
+                        "type": "Video",
                         "thumbnailAlt": "",
                         "stats": {
-                            "viewCount": "",
-                            "likeCount": "",
-                            "commentCount": "",
+                            "viewCount": "Vaatamisi",
+                            "likeCount": "Meeldimisi",
+                            "commentCount": "Kommentaare",
                             "publishedAt": ""
                         }
                     }
                 },
                 "googledrive": {
-                    "siteName": "",
+                    "siteName": "Google Drive",
                     "file": {
-                        "type": "",
+                        "type": "Fail",
                         "thumbnailAlt": "",
                         "stats": {
-                            "size": "",
-                            "createdTime": "",
-                            "modifiedTime": ""
+                            "size": "Failisuurus",
+                            "createdTime": "Loodud",
+                            "modifiedTime": "Muudetud"
                         }
                     }
                 }
