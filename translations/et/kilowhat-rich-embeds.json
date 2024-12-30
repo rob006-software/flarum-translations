@@ -11,13 +11,13 @@
                 "position": "Asukoht",
                 "positionOptions": {
                     "replace": "Asenda link",
-                    "above": "",
+                    "above": "Lingi kohal",
                     "below": "Lingi all"
                 },
                 "style": "Stiil",
                 "styleOptions": {
-                    "vertical": "",
-                    "horizontal": ""
+                    "vertical": "Vertikaalne",
+                    "horizontal": "Horisontaalne"
                 },
                 "maxImageCount": "",
                 "maxImageCountHelp": "",
@@ -28,21 +28,21 @@
                 "cacheProxyHelp": "",
                 "withoutOpengraph": "",
                 "withoutOpengraphHelp": "",
-                "blacklist": "",
+                "blacklist": "URL-ide must nimekiri",
                 "blacklistHelp": "",
-                "whitelist": "",
+                "whitelist": "URL-ide valge nimekiri",
                 "whitelistHelp": "",
                 "imageEmbeds": "",
                 "imageEmbedsHelp": "",
                 "flarumApiPreviews": "",
                 "flarumApiPreviewsHelp": "",
-                "githubApiKey": "",
+                "githubApiKey": "GitHub API võti",
                 "githubApiKeyHelp": "",
                 "githubOrgWhitelist": "",
                 "githubOrgWhitelistHelp": "",
                 "googleApiAuthConfig": "",
                 "googleApiAuthConfigHelp": "",
-                "googleApiKey": "",
+                "googleApiKey": "Google SDK API võti",
                 "googleApiKeyHelp": "",
                 "youtubePlayer": "",
                 "youtubePlayerHelp": "",
@@ -55,11 +55,11 @@
             },
             "section": {
                 "siteSpecificHelp": "",
-                "flarum": "",
-                "github": "",
-                "google": "",
-                "youtube": "",
-                "googledrive": ""
+                "flarum": "Flarum",
+                "github": "GitHub",
+                "google": "Google",
+                "youtube": "YouTube",
+                "googledrive": "Google Drive"
             },
             "permissions": {
                 "viewGoogleDriveThumbnails": "",
@@ -70,28 +70,28 @@
                 "refreshOnAnyPost": ""
             },
             "preview": {
-                "title": "",
-                "refresh": "",
-                "loading": ""
+                "title": "Eelvaade",
+                "refresh": "Värskenda",
+                "loading": "Laadimine..."
             }
         },
         "lib": {
             "embed": {
-                "altFavicon": "",
-                "altImageFallback": "",
-                "altAvatar": "",
+                "altFavicon": "{website} ikoon",
+                "altImageFallback": "{website} Opengraph pilt",
+                "altAvatar": "Autori avatari pilt",
                 "missing": {
-                    "retrieving": "",
+                    "retrieving": "Info tõmbamine...",
                     "other": ""
                 }
             },
             "controls": {
-                "refresh": "",
+                "refresh": "Värskenda andmeid",
                 "disable": "",
                 "disableConfirmation": "",
-                "imgCopy": "",
-                "imgCopied": "",
-                "imgOpen": "",
+                "imgCopy": "Kopeeri pildi URL",
+                "imgCopied": "Kopeeritud!",
+                "imgOpen": "Ava pilt uuel vahekaardil",
                 "play": "",
                 "expandDescription": ""
             }
@@ -99,35 +99,35 @@
         "api": {
             "error": {
                 "blacklistedUrl": "",
-                "invalidUrl": ""
+                "invalidUrl": "URL {url} pole korrektne."
             },
             "embed": {
                 "flarum": {
                     "discussion": {
-                        "type": "",
+                        "type": "Vestlus",
                         "stats": {
-                            "commentCount": "",
-                            "participantCount": "",
-                            "createdAt": ""
+                            "commentCount": "Vastuseid",
+                            "participantCount": "Osalejaid",
+                            "createdAt": "Alguse kuupäev"
                         }
                     },
                     "user": {
-                        "type": "",
-                        "avatarAlt": "",
+                        "type": "Profiil",
+                        "avatarAlt": "Avatar",
                         "stats": {
-                            "discussionCount": "",
-                            "commentCount": "",
-                            "joinTime": ""
+                            "discussionCount": "Vestluseid",
+                            "commentCount": "Kommentaare",
+                            "joinTime": "Liitumise kuupäev"
                         }
                     }
                 },
                 "github": {
-                    "siteName": "",
-                    "privateRepoSuffix": "",
+                    "siteName": "GitHub",
+                    "privateRepoSuffix": "[privaatne]",
                     "issue": {
-                        "type": "",
+                        "type": "Probleem",
                         "stats": {
-                            "commentCount": "",
+                            "commentCount": "Kommentaarid",
                             "createdAt": ""
                         }
                     },
