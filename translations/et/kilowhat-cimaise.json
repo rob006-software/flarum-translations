@@ -15,29 +15,29 @@
             },
             "picture-list": {
                 "title": "Kõik pildid",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "empty": "Pilte pole",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
-                "loading": "",
+                "upload": "Laadi pilt üles",
+                "empty": "Pilte pole",
+                "loading": "=> kilowhat-cimaise.ref.loading",
                 "personal": "",
-                "community": "",
-                "discussion": ""
+                "community": "Kogukonna album",
+                "discussion": "Mine vestlusesse"
             },
             "picture-show": {
-                "loading": "",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
-                "download-cropped": "",
-                "download-original": "",
-                "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "Tagasi albumisse",
+                "download": "Laadi alla",
+                "previous": "Eelmine pilt",
+                "next": "Järgmine pilt",
+                "download-cropped": "Kärbitud {size}",
+                "download-original": "Laadi algne alla",
+                "show-exif": "Kogu EXIF info",
+                "taken-at": "Tehtud {ago} tagasi",
+                "published-at": "Avaldatud {ago} tagasi"
             },
             "upload-modal": {
                 "title": "",
@@ -52,74 +52,74 @@
                 "reload": ""
             },
             "new-album-modal": {
-                "title": ""
+                "title": "Uus album"
             },
             "edit-album-modal": {
-                "title": ""
+                "title": "Muuda albumit \"{title}\""
             },
             "attach-album-modal": {
                 "title": "",
-                "selected": "",
-                "none-selected": "",
-                "search": "",
-                "no-results": "",
-                "select": "",
-                "unselect": "",
-                "submit": ""
+                "selected": "Valitud:",
+                "none-selected": "Pole",
+                "search": "Otsi",
+                "no-results": "Tulemusi pole",
+                "select": "Vali",
+                "unselect": "Tühista valik",
+                "submit": "Saada"
             },
             "edit-album": {
-                "title": "",
-                "description": "",
-                "isCommunity": "",
-                "create": "",
-                "save": ""
+                "title": "Pealkiri",
+                "description": "Kirjeldus",
+                "isCommunity": "Kogukonna album (kõik saavad lisada)",
+                "create": "Loo album",
+                "save": "Salvesta album"
             },
             "edit-picture": {
-                "title": "",
-                "description": ""
+                "title": "Pealkiri",
+                "description": "Kirjeldus"
             },
             "album-thumbnail": {
-                "controls": "",
-                "edit": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "edit": "Muuda",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
                 "delete-confirmation": "",
-                "by-user": ""
+                "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
-                "by-user": "",
+                "by-user": "=> kilowhat-cimaise.ref.by-user",
                 "in-album": ""
             },
             "picture-controls": {
-                "controls": "",
+                "controls": "=> kilowhat-cimaise.ref.controls",
                 "editor": "",
-                "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
+                "approve": "Kiida heaks",
+                "remove-favorite": "Eemalda lemmik",
+                "set-favorite": "Lisa lemmikuks",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
                 "delete-confirmation": ""
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
-                "author": ""
+                "title": "Pealkirja lisamiseks kliki",
+                "description": "Kirjelduse lisamiseks kliki",
+                "author": "Autori lisamiseks kliki"
             },
             "badge": {
-                "hidden": "",
-                "awaiting-approval": "",
-                "favorite": ""
+                "hidden": "Peidetud",
+                "awaiting-approval": "Ootab heakskiitu",
+                "favorite": "Lemmik"
             },
             "picture-sort": {
-                "latest": "",
-                "oldest": "",
+                "latest": "Viimane üleslaadimine",
+                "oldest": "Vanimad üleslaadimised",
                 "latestTake": "",
                 "oldestTake": ""
             },
             "album-search": {
-                "title": ""
+                "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
                 "uploaded": ""
@@ -128,73 +128,73 @@
                 "attach-album": ""
             },
             "license-label": {
-                "not-specified": "",
+                "not-specified": "Määramata",
                 "not-specified-help": ""
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
+                "view": "Vaatamine",
                 "viewExif": "",
-                "createPersonalAlbums": "",
-                "createCommunityAlbums": "",
+                "createPersonalAlbums": "Isiklike albumite loomine",
+                "createCommunityAlbums": "Kogukonna albumite loomine",
                 "editOwnAlbum": "",
-                "hideOwnAlbum": "",
-                "uploadPictures": "",
+                "hideOwnAlbum": "Oma albumite peitmine",
+                "uploadPictures": "Piltide üleslaadimine",
                 "uploadPersonalPicturesWithoutApproval": "",
                 "uploadCommunityPicturesWithoutApproval": "",
                 "editOwnImage": "",
                 "editOwnPublishedImage": "",
                 "licenseOwnPublishedPicture": "",
                 "renameOwnPublishedPicture": "",
-                "hideOwnPicture": "",
-                "publishSilently": "",
+                "hideOwnPicture": "Oma piltide peitmine",
+                "publishSilently": "Piltide avaldamine vaikselt (ilma sündmuse postituseta)",
                 "attachCimaiseAlbum": "",
-                "moderate": ""
+                "moderate": "Modereeri"
             },
             "settings": {
-                "watermarkFile": "",
+                "watermarkFile": "Piltide vesipilt",
                 "watermarkFileHelp": "",
-                "watermarkPlacement": "",
+                "watermarkPlacement": "Vesipildi paigutus",
                 "watermarkPlacementOptions": {
-                    "topLeft": "",
-                    "bottomLeft": "",
-                    "topRight": "",
-                    "bottomRight": ""
+                    "topLeft": "Üleval vasakul",
+                    "bottomLeft": "All vasakul",
+                    "topRight": "Üleval paremal",
+                    "bottomRight": "All paremal"
                 },
                 "autoCreateDiscussionAlbum": "",
                 "autoCreateDiscussionAlbumHelp": "",
                 "neverSyncDiscussionAlbumTitles": "",
                 "neverSyncDiscussionAlbumTitlesHelp": "",
-                "columnTheme": "",
+                "columnTheme": "Veeru teema",
                 "columnThemeHelp": "",
                 "mapboxToken": "",
                 "mapboxTokenHelp": "",
                 "requireLicense": "",
                 "requireLicenseHelp": "",
-                "licenses": "",
-                "license-key": "",
-                "license-label": "",
-                "license-description": "",
-                "license-add": "",
+                "licenses": "Litsentsid",
+                "license-key": "Võti",
+                "license-label": "Silt",
+                "license-description": "Kirjeldus",
+                "license-add": "Lisa litsents",
                 "stickers": "",
-                "sticker-key": "",
-                "sticker-label": "",
-                "sticker-url": "",
+                "sticker-key": "Võti",
+                "sticker-label": "Silt",
+                "sticker-url": "URL",
                 "sticker-add": ""
             },
             "status": {
                 "pictures": {
-                    "section": "",
-                    "drafts": ""
+                    "section": "Pildid",
+                    "drafts": "({count} mustandit)"
                 },
                 "storage": {
                     "section": "",
                     "originals": "",
-                    "conversions": ""
+                    "conversions": "Vestluseid: {size}"
                 },
-                "refresh": "",
-                "loading": ""
+                "refresh": "Värskenda",
+                "loading": "Laadimine..."
             }
         },
         "api": {
@@ -208,11 +208,11 @@
             },
             "picture-edit": {
                 "unauthorized": {
-                    "title": "",
-                    "description": "",
-                    "license": "",
-                    "author": "",
-                    "takenAt": "",
+                    "title": "Vigane pealkiri, muutmine pole lubatud",
+                    "description": "Vigane kirjeldus, muutmine pole lubatud",
+                    "license": "Vigane litsents, muutmine pole lubatud",
+                    "author": "Vigane autor, muutmine pole lubatud",
+                    "takenAt": "Vigane tegemise kuupäev, muutmine pole lubatud",
                     "isDraftUnSubmit": "",
                     "isDraftSubmit": "",
                     "isApprovedUnApprove": "",
@@ -226,15 +226,15 @@
             }
         },
         "ref": {
-            "albums": "",
-            "pictures": "",
-            "loading": "",
-            "load-more": "",
-            "controls": "",
-            "restore": "",
-            "hide": "",
-            "delete": "",
-            "by-user": ""
+            "albums": "Albumid",
+            "pictures": "Pildid",
+            "loading": "Laadimine...",
+            "load-more": "Laadi rohkem",
+            "controls": "Juhtelemendid",
+            "restore": "Taasta",
+            "hide": "Peida",
+            "delete": "Kustuta",
+            "by-user": "Kasutaja"
         }
     }
 }
