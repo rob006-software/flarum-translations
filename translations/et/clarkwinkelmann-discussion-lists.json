@@ -7,33 +7,33 @@
             "permissions": {
                 "viewPublic": "Vaata avalikku vestluste nimekirja",
                 "createPrivate": "Loo privaatsete vestluste nimekirja",
-                "createPublic": "",
+                "createPublic": "Avalike vestluste nimekirjade loomine",
                 "createSeriesFromOwn": "",
                 "createSeriesFromAny": "",
-                "moderate": "",
-                "viewPrivate": ""
+                "moderate": "Kõikide vestluse nimekirjade muutmine ja kustutamine",
+                "viewPrivate": "Kõikide privaatsete nimekirjade vaatamine"
             }
         },
         "forum": {
             "edit": {
-                "title": "",
-                "name": "",
-                "visibility": "",
+                "title": "Muuda nimekirja",
+                "name": "Nimi",
+                "visibility": "NÄhtavus",
                 "visibilityOptions": {
-                    "private": "",
-                    "public": "",
-                    "series": ""
+                    "private": "Privaatne nimekiri",
+                    "public": "Avalik nimekiri",
+                    "series": "Avalik seeria"
                 },
-                "ordering": "",
+                "ordering": "Järjekord",
                 "orderingOptions": {
-                    "manual": "",
-                    "createdAsc": "",
-                    "createdDesc": "",
-                    "addedAsc": "",
-                    "addedDesc": ""
+                    "manual": "Käsitsi",
+                    "createdAsc": "Vestluse loomine (vanimatest uusimateni)",
+                    "createdDesc": "Vestluse loomine (uusimatest vanemateni)",
+                    "addedAsc": "Nimekirja lisamine (vähim loetust enim loetuni)",
+                    "addedDesc": "Nimekirja lisamine (enim loetust vähim loetuni)"
                 },
-                "save": "",
-                "delete": "",
+                "save": "Salvesta",
+                "delete": "Kustuta",
                 "deleteConfirmation": ""
             },
             "discussion": {
@@ -49,8 +49,8 @@
             },
             "series": {
                 "kind": "",
-                "expand": "",
-                "visit": ""
+                "expand": "Laienda",
+                "visit": "Näita kõike"
             }
         },
         "api": {
@@ -62,7 +62,7 @@
     "core": {
         "forum": {
             "index_sort": {
-                "discussionListDefault_button": ""
+                "discussionListDefault_button": "Nimekirja järjestus"
             }
         }
     }
