@@ -32,27 +32,27 @@
         },
         "forum": {
             "alerts": {
-                "ip_copied": ""
+                "ip_copied": "KOpeeritud IP aadress"
             },
-            "copy_ip_label": "",
-            "map_button_label": "",
+            "copy_ip_label": "Kopeeri IP lõikelauale",
+            "map_button_label": "IP info",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "title": "IP informatsioon",
+                "ip_address": "IP aadress",
+                "country_code": "Riigikood",
+                "zip_code": "Postiindeks",
+                "isp": "ISP",
+                "as": "ASN",
+                "mobile": "Mobiilivõrk",
+                "organization": "Organisatsioon",
+                "threat_level": "Ohu tase",
+                "threat_types": "Ohu liik",
+                "error": "Veateade",
+                "not_enough_data": "Kaardi joonistamiseks pole piisavalt infot"
             },
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "Näita selle riigi lippu vastavalt minu IP aadressile"
                 }
             }
         }
@@ -60,7 +60,7 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
+                "showIPCountry": "Näita kasutajate postituste juures riigi lippu",
                 "showIPCountry-help": ""
             }
         }
