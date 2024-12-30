@@ -10,89 +10,89 @@
             "send": "Saada",
             "create": "Loo",
             "discard": "",
-            "reopen": "",
-            "support_tickets": "",
-            "admin_overview": "",
+            "reopen": "ava uuesti",
+            "support_tickets": "KAsutajatoe piletid",
+            "admin_overview": "Ava admini ülevaade",
             "hero": {
-                "help_question": "",
+                "help_question": "Millega me saame sulle abiks olla?",
                 "check_forum": ""
             },
             "overview": {
-                "knowledge_base_overview": "",
-                "back_to": "",
+                "knowledge_base_overview": "Teabebaasi ülevaade",
+                "back_to": "Tagasi kategooriasse {category}",
                 "back_to_overview": "",
                 "back_to_main_categories": "",
-                "loading_articles": "",
+                "loading_articles": "Artiklite laadimine",
                 "no_categories_found": "",
-                "category_not_found": "",
-                "no_articles_found": "",
+                "category_not_found": "Kategooriat ei leitud",
+                "no_articles_found": "Sellest kategooriast ei leitud ühtegi kategooriat",
                 "tools": {
-                    "new_article": "",
-                    "rename_category": "",
-                    "edit_description": "",
-                    "change_icon": "",
-                    "recount_articles": ""
+                    "new_article": "Uus artikkel",
+                    "rename_category": "Nimeta kategooria ümber",
+                    "edit_description": "Muuda kirjeldust",
+                    "change_icon": "Muud aikooni",
+                    "recount_articles": "Loe artiklite arv üle"
                 }
             },
             "article_events": {
-                "article_hidden": "",
+                "article_hidden": "{username} peitis artikli",
                 "article_public": "",
                 "article_modified": ""
             },
             "search": {
-                "title": "",
-                "back_to_search_results": "",
-                "search_knowledge_base": "",
-                "searching": "",
+                "title": "Otsi",
+                "back_to_search_results": "Tagasi otsingutulemustesse",
+                "search_knowledge_base": "Tagasi teabebaasi",
+                "searching": "Otsimine",
                 "searching_for": "",
                 "searched_for": "",
                 "use_searchbox_below": "",
                 "no_results": ""
             },
             "not_found": {
-                "title": "",
+                "title": "Kirjet ei leitud",
                 "description": "",
                 "solution": ""
             },
             "article": {
-                "article": "",
-                "articles": "",
-                "hidden": "",
-                "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "article": "Artikkel",
+                "articles": "Artiklid",
+                "hidden": "Peidetud",
+                "created_at": "Loodud {date}",
+                "author": "Autor",
+                "authors": "Autorid",
+                "last_modified": "Viimati muudetud {date}",
+                "not_found": "Artiklit ei leitud",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "Jaga artiklit",
+                    "perma_link": "Püsilink sellele artiklile:"
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
+                    "rename_article": "Nimeta artikkel ümber",
+                    "edit_article": "Muuda artiklit",
+                    "edit_tags": "Muuda artikli silte",
                     "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
-                    "view_ratings": ""
+                    "hide_article": "Peida artikkel",
+                    "recover_article": "Taasta artikkel",
+                    "delete_forever": "Kustuta igaveseks",
+                    "view_ratings": "Vaata hinnanguid"
                 }
             },
             "support_ratings": {
                 "score": "",
                 "helful_article": "",
                 "helful_support": "",
-                "feedback": "",
+                "feedback": "Aitäh sulle ülevaate eest. Kas sul on ka mingit tagasisidet?",
                 "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "enter_feedback": "Sisesta oma tagasiside siia",
+                "finished": "Aitäh! Sinu tagasiside on salvestatud.",
                 "validation": {
                     "invalid_discussion": "",
                     "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
+                    "invalid_points": "Vigane hinnang. Palun proovi uuesti.",
+                    "cannot_rate_article": "Sa ei saa seda artiklit hinnata.",
                     "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "missing_article_id": "Puuduv või vigane artikli ID"
                 },
                 "switch_sort_score": {
                     "label": "",
@@ -102,19 +102,19 @@
             "modals": {
                 "audit_log": {
                     "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
+                    "article_created": "Artikkel loodi",
+                    "no_more_events": "Ühtegi sündmust ei leitud",
                     "loading_auditlog": ""
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
+                    "title": "Artikli hinnangud",
+                    "loading_ratings": "Hinnangute laadimine",
                     "no_ratings_found": "",
                     "article_not_rated": "",
-                    "confirm_delete_rating": "",
-                    "feedback": "",
-                    "rating": "",
-                    "username": "",
+                    "confirm_delete_rating": "Oled sa kindel, et tahad selle hinnangu kustutada?",
+                    "feedback": "Tagasiside",
+                    "rating": "Hinnang",
+                    "username": "=> core.ref.username",
                     "rated_on": ""
                 }
             },
@@ -125,26 +125,26 @@
                 }
             },
             "composer": {
-                "compose_article": "",
-                "compose_ticket": "",
-                "new_article_title": "",
-                "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
+                "compose_article": "Koosta artikkel",
+                "compose_ticket": "Koosta pilet",
+                "new_article_title": "Uue artikli pealkiri",
+                "enter_message_here": "Sisesta oma sõnum siia",
+                "publish_article": "Avalda artikkel",
+                "publish_article_hint": "Avalda artikkel pärast postitamist.",
+                "manage_tags": "Avalda silte",
+                "write": "Kirjuta",
+                "view": "Vaata",
+                "nothing_to_preview": "Pole midagi näidata",
                 "warning_save_changes": "",
-                "article_saved": ""
+                "article_saved": "Artikkel on salvestatud"
             },
             "tickets": {
-                "ticket": "",
-                "subject": "",
-                "ticket_does_not_exist": "",
-                "return_to_overview": "",
-                "ticket_overview": "",
-                "opened_on": "",
+                "ticket": "Pilet",
+                "subject": "Teema",
+                "ticket_does_not_exist": "Küsitud tagasitoe pileteid ei leitud.",
+                "return_to_overview": "Tagasi piletite ülevaatesse",
+                "ticket_overview": "Pileti ülevaade",
+                "opened_on": "Avatud",
                 "ticket_activity": "",
                 "reminders_sent": "",
                 "convert_to_ticket": {
@@ -159,115 +159,115 @@
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "Uus",
+                        "description": "See on vastamata pilet"
                     },
                     "open": {
-                        "title": "",
+                        "title": "Ava",
                         "description": ""
                     },
                     "pending": {
-                        "title": "",
+                        "title": "Ootel",
                         "description": "",
                         "description_user": ""
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
+                        "title": "Suletud",
+                        "description": "See pilet on suletud.",
                         "is_closed": "",
-                        "close_after_posting": "",
+                        "close_after_posting": "Sulge pilet pärast postitamist",
                         "is_auto_closed": ""
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "Ootel",
+                        "description": "See pilet on ootel."
                     },
                     "duplicate": {
-                        "title": "",
+                        "title": "Tee koopia",
                         "description": ""
                     },
                     "solved": {
-                        "title": "",
+                        "title": "Lahendatud",
                         "description": "",
                         "mark_as_solved": ""
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
-                    "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
+                    "view_ticket": "Vaata piletit",
+                    "update_subject": "Uuenda teemat",
+                    "assign_me": "Määra mulle",
+                    "remove_me": "Eemalda mind",
                     "update_status": "",
-                    "close_ticket": "",
-                    "update_note": ""
+                    "close_ticket": "Sulge pilet",
+                    "update_note": "Uuenda privaatset märkust"
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
-                    "ticket_new": "",
+                    "title": "Pileti teavitused",
+                    "no_tickets": "Pileti teavitusi pole",
+                    "ticket_new": "{username} lõi pileti {ticket}",
                     "ticket_updated": ""
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
+                        "title": "Keel",
+                        "placeholder": "Vali keel",
+                        "empty": "Keelt pole valitud",
                         "description": ""
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
+                        "title": "Teema",
+                        "placeholder": "Pileti teema",
                         "description": ""
                     },
                     "information": {
-                        "title": "",
+                        "title": "Pileti info",
                         "placeholder": ""
                     },
                     "status": {
-                        "title": "",
+                        "title": "Staatus",
                         "placeholder": ""
                     },
                     "assignees": {
                         "title": "",
-                        "placeholder": ""
+                        "placeholder": "Pileti staatus"
                     },
                     "private_note": {
-                        "title": "",
+                        "title": "Privaatsed märkmed",
                         "info": "",
                         "tip": "",
                         "placeholder": "",
-                        "edit_button": ""
+                        "edit_button": "Muuda märkust"
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
+                    "title": "Kirjuta uus pilet",
                     "private_support": "",
-                    "not_allowed": ""
+                    "not_allowed": "Sa ei saa praegu uut piletit avada"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "Laadi rohkem pileteid"
                 },
                 "my_tickets": {
-                    "title": "",
+                    "title": "Minu piletid",
                     "description": "",
-                    "no_tickets": ""
+                    "no_tickets": "Sul pole veel ühtegi piletit."
                 },
                 "overview": {
-                    "title": "",
+                    "title": "Piletite ülevaade",
                     "description": "",
                     "no_tickets": "",
-                    "all_tickets": "",
-                    "selection_unfiltered": "",
-                    "selection_open": "",
-                    "selection_closed": "",
-                    "refresh": "",
+                    "all_tickets": "Kõik piletid",
+                    "selection_unfiltered": "Filtreerimata",
+                    "selection_open": "Avatud piletid",
+                    "selection_closed": "Suletud piletid",
+                    "refresh": "Värskenda",
                     "filter": {
                         "status": {
-                            "title": "",
+                            "title": "Pileti staatus",
                             "filter_count": ""
                         },
                         "language": {
-                            "any": ""
+                            "any": "Iga keel"
                         },
                         "assignees": {
                             "title": "",
@@ -277,8 +277,8 @@
                     },
                     "sort": {
                         "newest": "",
-                        "oldest": "",
-                        "recent_activity": "",
+                        "oldest": "Vanimad enne",
+                        "recent_activity": "Viimased tegevused",
                         "least_recent": ""
                     }
                 }
@@ -286,7 +286,7 @@
             "notifications": {
                 "replied_to_ticket": {
                     "name": "",
-                    "content": ""
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
                     "name": "",
