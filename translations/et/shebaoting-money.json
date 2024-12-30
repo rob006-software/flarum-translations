@@ -5,36 +5,36 @@
                 "title": "Seaded",
                 "initialmoney": "Algne rahasumma uuel kasutajal",
                 "moneyforpost": "",
-                "moneyfordiscussion": "",
+                "moneyfordiscussion": "Uue vestluse eest antud raha",
                 "moneyname": "Selle raha nimi (nt: [money] punkti)",
                 "postminimumlength": "",
-                "noshowzero": "",
+                "noshowzero": "Ära näita, kui väärtus on null",
                 "autoremove": "",
                 "moneyforlike": "",
                 "helpextensionlikes": "",
-                "extra_char_threshold": "",
+                "extra_char_threshold": "Märkide lävi",
                 "extra_char_threshold_help": "",
-                "extra_char_increment": "",
+                "extra_char_increment": "Märkide kasvamine",
                 "extra_char_increment_help": "",
                 "extra_char_points": "",
                 "extra_char_points_help": ""
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Muuda raha"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Ära kunagi eemalda raha",
+                "Kui vestlus/postitus peidetakse või taastatakse (vaikeväärtus)",
+                "Kui vestlus/postitus kustutatakse"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Raha",
+                "action_name": "Anna raha"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Muuda raha"
             },
             "modal": {
                 "title": "",
@@ -42,16 +42,16 @@
                 "submit_button": ""
             },
             "log_time": "",
-            "log_type": "",
-            "log_amount": "",
-            "log_balance": "",
-            "log_description": "",
-            "log_type_deposit": "",
+            "log_type": "Liik",
+            "log_amount": "Kogus",
+            "log_balance": "Saldo",
+            "log_description": "Kirjeldus",
+            "log_type_deposit": "Deposiit",
             "log_type_withdrawal": "",
-            "log_type_transfer": "",
-            "log_type_reward": "",
+            "log_type_transfer": "Ülekanne",
+            "log_type_reward": "Tasu",
             "no_money_logs": "",
-            "load_more": "",
+            "load_more": "Laadi rohkem",
             "logs_description": {
                 "created_discussion": "",
                 "created_reply": "",
@@ -63,19 +63,19 @@
                 "initial_registration": "",
                 "admin_updated": "",
                 "discussion_started": "",
-                "discussion_restored": "",
-                "discussion_hidden": "",
-                "discussion_deleted": "",
-                "posted_reply": "",
+                "discussion_restored": "Taastas vestluse › <a href=\"{url}\">{title}</a>",
+                "discussion_hidden": "Peitis vestluse › <a href=\"{url}\">{title}</a>",
+                "discussion_deleted": "Kustutas vestluse › <a href=\"{url}\">{title}</a>",
+                "posted_reply": "Vastas vestlusele › <a href=\"{url}\">{title}</a>",
                 "extra_characters": "",
                 "no_permission": ""
             },
             "logs_type": {
                 "discussion_started": "",
-                "post_created": "",
-                "post_restored": "",
-                "post_hidden": "",
-                "post_deleted": "",
+                "post_created": "Postitus on loodud",
+                "post_restored": "Postitus on taastatud",
+                "post_hidden": "Postitus on peidetud",
+                "post_deleted": "Postitus on kustutatud",
                 "discussion_restored": "",
                 "discussion_hidden": "",
                 "discussion_deleted": "",
@@ -83,7 +83,7 @@
                 "liked_by_others": "",
                 "admin_updated": "",
                 "registration": "",
-                "discussion_replied": ""
+                "discussion_replied": "Vastas vestluses"
             },
             "point_log": {
                 "title": "",
@@ -91,13 +91,13 @@
                 "empty_text": "",
                 "table": {
                     "headers": {
-                        "date": "",
-                        "amount": "",
-                        "balance": "",
-                        "reason": ""
+                        "date": "Kuupäev",
+                        "amount": "Summa",
+                        "balance": "Saldo",
+                        "reason": "Põhjus"
                     }
                 },
-                "load_more": "",
+                "load_more": "Loe lisa",
                 "no_permission": ""
             }
         }
