@@ -2,30 +2,30 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": ""
+                "see_country": "Näita alati IP-aadressi riiki"
             },
             "settings": {
                 "general": {
                     "heading": "Üldised seaded",
-                    "help": ""
+                    "help": "Need seaded määravad lisaprogrammi üldise käitumise."
                 },
                 "providers": {
                     "heading": "IP kontrollimise teenus",
-                    "help": ""
+                    "help": "Vali teenus, mida kasutada IP kontrollimiseks. Mõningatel teenustel on piirangud, seega vaata teenuse dokumentatsioonist lisainfot."
                 },
                 "service_label": "Teenus",
                 "service_ipdata_label": "IP-andmed",
-                "service_ipdata_description": "",
+                "service_ipdata_description": "Kasuta teenust <b>https://ipdata.co</b>, et teha kuni 1500 tasuta päringut päevas. Saadaval on ka tasulised paketid kõrgema limiidiga.",
                 "service_ipapi_label": "IP API",
-                "service_ipapi_description": "",
+                "service_ipapi_description": "Kasuta teenust <b>http://ip-api.com</b>, et teha kuni 45 tasuta päringut minutis. Kui teed rohkem päringuid, siis need jäetakse järjekorda ja täidetakse kui limiit aegub.",
                 "service_ipapi-pro_label": "IP API pro",
-                "service_ipapi-pro_description": "",
+                "service_ipapi-pro_description": "Kasuta teenust <b>https://members.ip-api.com/#pricing</b>. Pro paketil kasutuspiirangut pole.",
                 "service_iplocation_label": "IP asukoht",
                 "service_iplocation_description": "",
                 "service_ipsevenex_label": "7x Geolocation API",
                 "service_ipsevenex_description": "",
                 "access_key_label": "Ligipääsu võti",
-                "quota_label": "",
+                "quota_label": "Kontrollimise piirang",
                 "show_flag_label": "",
                 "show_flag_help": ""
             }
