@@ -5,184 +5,184 @@
                 "add": "Lisa",
                 "edit": "Muuda",
                 "delete": "Kustuta",
-                "fishes": "",
-                "rounds": ""
+                "fishes": "Kalad",
+                "rounds": "Raundid"
             },
             "nav": {
-                "rankings": "",
-                "settings": ""
+                "rankings": "Kalapüüdmise edetabel",
+                "settings": "Kala püüdmise seaded"
             },
             "new-round-modal": {
-                "title": ""
+                "title": "Uus raund"
             },
             "new-fish-modal": {
                 "title": "Uus kala"
             },
             "edit-round-modal": {
-                "title": ""
+                "title": "Muuda raundi \"{name}\""
             },
             "edit-fish-modal": {
-                "title": ""
+                "title": "Muuda kala \"{name}\""
             },
             "caught-fish-modal": {
-                "title": "",
-                "named-by": "",
-                "placed-by": "",
-                "congratulation": "",
-                "name": "",
+                "title": "Püüdsid kala!",
+                "named-by": "Nime andis",
+                "placed-by": "Kohale pani",
+                "congratulation": "Õnnitlused! Püüdsid kala. Oled püüdnud kokku {catch_count} kala.",
+                "name": "Kala nimi",
                 "name-help": "",
                 "placement-help": "",
-                "submit-name-place-later": "",
-                "submit-name": "",
-                "submit-place-later": "",
-                "submit-continue": "",
-                "submit-name-place-random": "",
-                "submit-place-random": ""
+                "submit-name-place-later": "Salvesta nimi ja vali peitmise koht",
+                "submit-name": "Salvesta nimi",
+                "submit-place-later": "Jep, valin peitmise koha",
+                "submit-continue": "Jätka",
+                "submit-name-place-random": "Salvesta nimi ja lase kalal end ise ära peita",
+                "submit-place-random": "Lase kalal end ise ära peita"
             },
             "edit-round": {
-                "name": "",
-                "name-help": "",
-                "starts-at": "",
-                "ends-at": "",
+                "name": "Nimi",
+                "name-help": "Selle raundi avalik nimi, seda näidatakse bänneril ja edetabelis",
+                "starts-at": "Alguse aeg",
+                "ends-at": "Lõpu aeg",
                 "starting-pack": "",
                 "starting-pack-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "create": "Loo raund",
+                "save": "Salvesta raund",
+                "delete": "Kustuta raund",
+                "delete-confirmation": "Kas kustutada raund \"{name}\"?"
             },
             "edit-fish": {
-                "name": "",
-                "name-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Nimi",
+                "name-help": "Praegune kala nimi. Saab muuta kasutajate poolt, kellel on õigus selle tegemiseks",
+                "create": "Loo kala",
+                "save": "Salvesta kala",
+                "delete": "Kustuta kala",
+                "delete-confirmation": "Kas kustutada kala \"{name}\"?"
             },
             "moving-fish": {
-                "login": ""
+                "login": "Kalapüüdmiseks logi sisse"
             },
             "fish-image": {
-                "alt": "",
-                "missing": ""
+                "alt": "Kala \"{name}\" pilt",
+                "missing": "Puuduva kala pilt"
             },
             "round-alert": {
-                "message": "",
-                "rankings": ""
+                "message": "Raund \"{name}\", püüa nii palju kalu kui saad kuni {time}",
+                "rankings": "Vaata edetabelit"
             },
             "basket": {
-                "title": "",
-                "drag-help": "",
-                "time": ""
+                "title": "Kalakorv",
+                "drag-help": "Lohista kalad vestlusele, postitusele või kasutaja profiilile",
+                "time": "Aseta kuni: {time}"
             },
             "table-round": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "name": "",
-                "start": "",
-                "end": "",
-                "actions": "",
-                "edit": "",
-                "fishes": ""
+                "loading": "Laadimine...",
+                "title": "Raundid",
+                "new": "Uus raund",
+                "name": "Nimi",
+                "start": "Alates",
+                "end": "Kuni",
+                "actions": "Tegevused",
+                "edit": "Muuda",
+                "fishes": "Kalad"
             },
             "table-fish": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "image": "",
-                "name": "",
-                "user-name": "",
-                "user-place": "",
-                "placement": "",
-                "actions": "",
-                "edit": "",
-                "no-user-name": "",
-                "no-user-place": "",
-                "upload": "",
-                "new-from-image": ""
+                "loading": "Laadimine...",
+                "title": "Kalad raundist {name}",
+                "new": "Uus kala",
+                "image": "Pilt",
+                "name": "Nimi",
+                "user-name": "Viimati nimetas",
+                "user-place": "Viimati asetas",
+                "placement": "Praegune asukoht",
+                "actions": "Tegevused",
+                "edit": "Muuda",
+                "no-user-name": "Pole ümber nimetatud",
+                "no-user-place": "Juhuslik",
+                "upload": "Laadi üles uus pilt",
+                "new-from-image": "Loo uusi kalu hulgi piltide importimisega"
             },
             "table-ranking": {
-                "loading": "",
+                "loading": "Laadimine...",
                 "title": "",
-                "rank": "",
-                "count": "",
-                "user": ""
+                "rank": "Nimi",
+                "count": "Püütud kalu",
+                "user": "Kasutaja"
             },
             "page-ranking": {
-                "title": "",
-                "permission": "",
-                "nothing": ""
+                "title": "Edetabel",
+                "permission": "Sul pole luba edetabeli nägemiseks",
+                "nothing": "Ühtegi aktiivset raundi pole"
             },
             "drop-area": {
-                "message": "",
+                "message": "Võid kala siia lohistada",
                 "missing-from-store": ""
             }
         },
         "admin": {
             "settings": {
-                "user": "",
+                "user": "Kasutajad",
                 "user-age": "",
                 "user-probability": "",
-                "discussion": "",
-                "discussion-age": "",
-                "discussion-tags": "",
+                "discussion": "Vestlused",
+                "discussion-age": "Kui vana (päevades) peab vestlus olema enne, kui sellele saab kala panna",
+                "discussion-tags": "Siltide valge nimekiri",
                 "discussion-tags-unavailable": "",
                 "discussion-tags-help": "",
                 "tags-header": {
-                    "tag": "",
-                    "probability": ""
+                    "tag": "Silt",
+                    "probability": "Tõenäosus"
                 },
                 "tags-control": {
-                    "choose": "",
-                    "add": "",
-                    "down": "",
-                    "up": "",
-                    "delete": ""
+                    "choose": "Vali silt",
+                    "add": "Lisa valgesse nimekirja",
+                    "down": "Liiguta alla",
+                    "up": "Liiguta üles",
+                    "delete": "Eemalda valgest nimekirjast"
                 },
                 "tags-fallback": {
-                    "last-line": "",
-                    "single-line": ""
+                    "last-line": "Tagavara",
+                    "single-line": "Tõenäosuse jaoks peab olema vähemalt 2 silti"
                 },
-                "post": "",
-                "post-age": "",
-                "post-probability": "",
-                "general": "",
-                "time-to-place": "",
-                "alert-round": "",
-                "animate-flip": ""
+                "post": "Postitused",
+                "post-age": "Kui vana (päevades) peab postitus olema enne, kui sellele saab kala panna",
+                "post-probability": "Tõenäosus, et see paigaldatakse postitusele, mitte vestlusele (%)",
+                "general": "Üldine",
+                "time-to-place": "Kala paigutamiseks jääv aeg enne (minutites), kui see paigaldatakse automaatselt",
+                "alert-round": "Näita avalehel teavitusi raundi nime ja kestusega",
+                "animate-flip": "Pööra kala pilte vastavalt suunale"
             },
             "permissions": {
-                "visible": "",
-                "list-rankings": "",
-                "participate": "",
-                "choose-place": "",
-                "choose-name": "",
-                "moderate": ""
+                "visible": "Vaata kalu",
+                "list-rankings": "Ligipääs edetabelile",
+                "participate": "Raundides ja kala püüdmises osalemine",
+                "choose-place": "Vali pärast püüdmist kala asukoht",
+                "choose-name": "Vali kala nimi pärast püüdmist",
+                "moderate": "Raundide ja kalade haldamine"
             }
         },
         "api": {
-            "default-fish-name": "",
-            "wrong-catch-placement": "",
-            "too-many-placement-models": "",
-            "invalid-discussion-id": "",
-            "invalid-post-id": "",
-            "invalid-user-id": "",
-            "model-deleted": "",
+            "default-fish-name": "Kala nr. {number}",
+            "wrong-catch-placement": "Siin pole ühtegi kala. Äkki sa polnud piisavalt kiire ja keegi jõudis sinust ette",
+            "too-many-placement-models": "Hetkel saab paigutada ainult ühte kohta",
+            "invalid-discussion-id": "Näib, et vestlust pole olemas. Äkki see kustutati just hiljuti",
+            "invalid-post-id": "Tundub, et postitust pole olemas, ehk see on hiljuti kustutatud",
+            "invalid-user-id": "Näib, et kasutajat pole olemas, ta on ilmselt hiljuti kustutatud",
+            "model-deleted": "Kala ei saa paigutada kustutatud vestlusesse või postitusse",
             "model-private": "",
-            "tag-not-allowed": "",
+            "tag-not-allowed": "Selle sildi alla ei saa kala panna",
             "inactive-discussion": "",
             "inactive-post": "",
             "inactive-user": "",
-            "non-comment-post": "",
-            "user-suspended": "",
-            "random-error": "",
-            "cannot-catch-own-fish": "",
-            "cannot-catch-hold-fish": "",
-            "fish-update-wrong-user": "",
-            "fish-update-expired": "",
-            "round-not-started": "",
-            "round-finished": ""
+            "non-comment-post": "Saab panna kalu ainult kommentaari postitustele",
+            "user-suspended": "Kala ei saa paigaldada blokeeritud kasutajale",
+            "random-error": "Juhusliku pildi asukoha loomine ebaõnnestus",
+            "cannot-catch-own-fish": "Sa ei saa püüda kala, mida sa oled ise asetanud",
+            "cannot-catch-hold-fish": "Eelmine püüdja peab kala vabastama enne, kui saad selle kinni püüda",
+            "fish-update-wrong-user": "Sa ei saa enam seda kala muuta. Keegi teine on selle juba tõenäoliselt kinni püüdnud",
+            "fish-update-expired": "Liiga hilja, sa ei saa enam seda kala muuta. See on vahepeal paigutatud automaatselt kuhugi mujale",
+            "round-not-started": "Seda raundi pole alustatud",
+            "round-finished": "See raund on lõpetatud"
         }
     }
 }
