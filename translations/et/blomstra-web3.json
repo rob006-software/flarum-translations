@@ -15,51 +15,51 @@
         "forum": {
             "connect-wallet-modal": {
                 "could-not-sign": "",
-                "goback": "",
+                "goback": "Tagasi",
                 "title": "",
-                "polkadot-wallets": "",
+                "polkadot-wallets": "=> blomstra-web3.ref.polkadot-wallets",
                 "evm-wallets": "",
-                "signature-invalid": ""
+                "signature-invalid": "Allkiri on vigane."
             },
             "evm-connect-wallet-modal": {
                 "title": "",
-                "bind": "",
-                "disconnect": "",
+                "bind": "=> blomstra-web3.ref.bind",
+                "disconnect": "=> blomstra-web3.ref.disconnect",
                 "disconnect-and-unbind": "",
-                "select": ""
+                "select": "=> blomstra-web3.ref.select"
             },
             "polkadot-connect-wallet-modal": {
-                "attach_address": "",
-                "connection-request-rejected": "",
+                "attach_address": "=> blomstra-web3.ref.bind",
+                "connection-request-rejected": "Ühendus lükati tagasi",
                 "disconnect": "",
                 "goback": "",
-                "title": "",
-                "select": "",
-                "unattach_address": ""
+                "title": "=> blomstra-web3.ref.polkadot-wallets",
+                "select": "=> blomstra-web3.ref.select",
+                "unattach_address": "=> blomstra-web3.ref.unbind"
             },
             "settings": {
                 "wallets_heading": "",
                 "wallet-connect-button": "",
-                "unbind": "",
-                "unbind_confirm": ""
+                "unbind": "=> blomstra-web3.ref.unbind",
+                "unbind_confirm": "Oled sa kindel, et soovid selle aadressi oma kontolt eemaldada?"
             },
             "log-in": {
                 "basic-login-link": "",
                 "with-wallet": "",
-                "select-wallet-account": ""
+                "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             },
             "sign-up": {
                 "basic-signup-link": "",
                 "with-wallet": "",
-                "select-wallet-account": ""
+                "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             }
         },
         "ref": {
             "select-wallet-account": "",
-            "select": "",
-            "bind": "",
+            "select": "Vali aadress",
+            "bind": "Seosta aadress",
             "unbind": "",
-            "disconnect": "",
+            "disconnect": "Katkesta ühendus",
             "polkadot-wallets": ""
         }
     }
