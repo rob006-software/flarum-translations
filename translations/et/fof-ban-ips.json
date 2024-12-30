@@ -22,11 +22,11 @@
                 "view_banned_ip_list_label": "Vaata blokeeritud IP-aadresside nimekirja"
             },
             "page": {
-                "create_button": "",
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
                 "creator_label": "Looja",
                 "user_label": "Kasutaja",
-                "address_label": "",
-                "reason_label": "",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "date_label": "Kuupäev"
             },
             "modal": {
@@ -37,26 +37,26 @@
         },
         "error": {
             "banned_ip_message": "Autoriseerimine ebaõnnestus.",
-            "no_ips_found_message": ""
+            "no_ips_found_message": "Kasutaja jaoks ei leitud ühtegi IP-d."
         },
         "lib": {
             "modal": {
-                "title": "",
-                "unban_title": "",
-                "address_label": "",
-                "reason_label": "",
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "check_button": "Kontrolli",
                 "save_button": "Salvesta",
-                "ban_ip_confirmation": "",
-                "ban_ip_users": "",
-                "unban_ip_confirmation": "",
-                "unban_options_only_ip": "",
-                "unban_options_all_ip": "",
-                "unban_ip_no_users": "",
-                "unban_ip_users": "",
+                "ban_ip_confirmation": "Oled sa kindel, et soovid blokeerida foorumist selle IP-aadressi? See blokeerib selle IP-aadressi(de)ga kasutajatel sisselogimise ja registreerumise.",
+                "ban_ip_users": "{count, plural, one {Kasutaja {users} blokeeritakse} other {Kasutajad {users} blokeeritakse}}",
+                "unban_ip_confirmation": "Oled sa kindel, et soovid eemaldada blokeeringu sellelt kasutajalt ja kõigilt teistelt kasutajatelt muude IP-aadressidega?",
+                "unban_options_only_ip": "Eemalda blokeering ainult praeguselt IP-aadressilt (<code>{ip}</code>)",
+                "unban_options_all_ip": "Eemalda blokeering kõigilt IP-aadressidelt, mida <i>{username}</i> kasutas",
+                "unban_ip_no_users": "Kedagi teist ei blokeerita",
+                "unban_ip_users": "{count, plural, one {Kasutajalt{users} eemaldatakse blokeering} other {Kasutajatelt {users} eemaldatakse blokeering}}",
                 "unbanned_ips": "Pole blokeeritud <code>{ips}</code>.",
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Kui IP-aadressi blokeerimine on seostatud kasutajaga (nt. kasutaja blokeeriti IP-aadressi alusel), siis kasutaja IP-aadress kaasatakse aruandesse koos põhjusega, miks see blokeeriti ja selle loomise kuupäev.",
+                    "anonymize_description": "Kõigi IP-aadresside seos kasutajaga eemaldatakse, aga IP-aadress jääb blokeerituks koos põhjusega, mis selle juures on. Veendu, et 'põhjuse' lahtris poleks PII andmeid."
                 }
             }
         }
