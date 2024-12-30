@@ -11,40 +11,40 @@
                 "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
                 "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
                 "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "create": "",
-                "moderate": "",
-                "export": "",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
+                "create": "Vormide loomine (beeta)",
+                "moderate": "Kõikide vormide modereerimine",
+                "export": "Lisatud info eksportimine",
                 "exportUserDetails": "",
                 "listForms": "",
                 "listSubmissions": ""
             },
             "settings": {
-                "title": "",
-                "max-file-size": "",
+                "title": "Vormi üldised seaded",
+                "max-file-size": "Maks. failisuurus (kB)",
                 "history-controls": "",
                 "side-nav-on-submission": "",
-                "checkbox-style": "",
-                "radio-style": "",
+                "checkbox-style": "Märkekasti stiil",
+                "radio-style": "Raadiovalik",
                 "style-options": {
-                    "far-square": "",
-                    "fas-square": "",
-                    "far-circle": "",
-                    "fas-circle": "",
-                    "switch": "",
-                    "native": ""
+                    "far-square": "FontAwesome tavaline nelinurkne ikoon",
+                    "fas-square": "FontAwesome täidetud nelinurkne ikoon",
+                    "far-circle": "FontAwesome tavaline ringi ikoon",
+                    "fas-circle": "FontAwesome täidetud ringi ikoon",
+                    "switch": "Flarumi lüliti",
+                    "native": "Vaikimisi veebisirvija eelistus"
                 },
-                "horizontal-layout": "",
+                "horizontal-layout": "Kasuta horisontaalset vormi paigutust",
                 "horizontal-layout-locations": {
                     "standaloneEdit": "",
                     "standaloneView": "",
-                    "profileEdit": "",
-                    "profileView": "",
+                    "profileEdit": "Profiili muutmise lehekülg",
+                    "profileView": "Profiili vaatamise lehekülg",
                     "signUp": "",
                     "discussionEdit": "",
                     "discussionView": "",
-                    "discussionComposer": ""
+                    "discussionComposer": "Vestluse loomine"
                 },
                 "uniformComposerLayout": "",
                 "uniformComposerLayoutHelp": "",
@@ -54,91 +54,91 @@
         },
         "forum": {
             "nav": {
-                "forms": ""
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "",
-                    "documentation": "",
+                    "title": "=> kilowhat-formulaire.ref.manager",
+                    "documentation": "Täielik dokumentatsioon",
                     "discuss": ""
                 },
                 "tabs": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "",
-                "load-more": "",
-                "search": "",
-                "new": "",
-                "edit": "",
-                "show": "",
-                "submissions": "",
+                "empty": "Vorme pole",
+                "load-more": "Laadi rohkem",
+                "search": "Otsi vorme...",
+                "new": "Uus vorm",
+                "edit": "Muuda",
+                "show": "Näita",
+                "submissions": "Vastused",
                 "columns": {
-                    "title": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "enabled": "",
-                    "submissions": "",
-                    "actions": ""
+                    "title": "Pealkiri",
+                    "accept-submissions": "Avatud",
+                    "allow-modification": "Muudatused",
+                    "enabled": "Sisse lülitatud",
+                    "submissions": "Vastused",
+                    "actions": "Tegevused"
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "Üldised seaded",
+                "admin-only": "Üldiseid seadeid saab muuta ainult foorumi administraator",
                 "permissions": {
-                    "fill": "",
-                    "seeOwnUser": "",
-                    "seeAnyUser": "",
-                    "editOwnUser": "",
-                    "editAnyUser": "",
-                    "seeOwnDiscussion": "",
-                    "seeAnyDiscussion": "",
-                    "editOwnDiscussion": "",
-                    "editAnyDiscussion": ""
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
                 }
             },
             "form-create": {
-                "title": "",
+                "title": "Uus vorm",
                 "field": {
-                    "title": ""
+                    "title": "Pealkiri"
                 },
                 "button": {
-                    "create": ""
+                    "create": "Loo vorm"
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "Tagasi",
                 "category": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
-                    "placement": "",
-                    "access": "",
-                    "notifications": "",
-                    "submissions": ""
+                    "template": "Mall",
+                    "placement": "Paigutus",
+                    "access": "Ligipääs",
+                    "notifications": "Teavitused",
+                    "submissions": "Vastused"
                 },
                 "access-status": {
-                    "closed": "",
-                    "create": "",
-                    "edit": "",
-                    "both": "",
-                    "enabled": "",
-                    "disabled": ""
+                    "closed": "Suletud",
+                    "create": "Ainult loomine",
+                    "edit": "Ainult muutmine",
+                    "both": "Loomine ja muutmine",
+                    "enabled": "Sisse lülitatud",
+                    "disabled": "Mustand"
                 },
-                "controls": "",
-                "template-export": "",
-                "enable-expert-mode": "",
-                "disable-expert-mode": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
+                "controls": "Juhtelemendid",
+                "template-export": "Malli import/eksport",
+                "enable-expert-mode": "Lülita asjatundja režiim sisse",
+                "disable-expert-mode": "Lülita asjatundja režiim välja",
+                "restore": "Taasta",
+                "hide": "Kustuta",
+                "delete": "Kustuta jäädavalt",
                 "delete-confirmation": "",
                 "fields": {
-                    "private-title": "",
+                    "private-title": "Privaatne pealkiri",
                     "slug": ""
                 }
             },
@@ -151,234 +151,234 @@
                 },
                 "expert-mode-warning": "",
                 "section": {
-                    "template": "",
-                    "permissions": ""
+                    "template": "Mall",
+                    "permissions": "Õigused"
                 },
                 "field": {
-                    "link": "",
-                    "title": "",
+                    "link": "Vormi eriliigid",
+                    "title": "Avalik pealkiri",
                     "show-on-creation": {
-                        "discussion": "",
+                        "discussion": "Näita vestluse koostamisel",
                         "discussionHelp": "",
-                        "user": ""
+                        "user": "Näita liitumisel"
                     },
                     "automatic-discussion": "",
                     "automatic-discussion-help": "",
                     "accept-submissions": "",
                     "allow-modification": "",
-                    "enable": "",
+                    "enable": "Lülita sisse",
                     "max-submissions": "",
                     "send-confirmation-to-participants": "",
                     "notify-emails": "",
                     "web-confirmation-message": "",
-                    "permission-see-own": "",
-                    "permission-see-any": "",
-                    "permission-edit-own": "",
-                    "permission-edit-any": ""
+                    "permission-see-own": "Enda sisestatud info nägemine",
+                    "permission-see-any": "Kõikide sisestatud info nägemine",
+                    "permission-edit-own": "Oma vastuste muutmine",
+                    "permission-edit-any": "Kõigi vastuste muutmine"
                 },
                 "link-options": {
-                    "standalone": "",
-                    "groups": "",
+                    "standalone": "Eraldiseisev",
+                    "groups": "Kasutajaprofiil",
                     "all-groups": "",
-                    "tags": "",
-                    "all-tags": ""
+                    "tags": "Vestluse väljad",
+                    "all-tags": "Iga sildi jaoks"
                 },
-                "auto-discussion-options": "",
-                "email-confirmation-options": "",
-                "email-notification-options": "",
-                "exiting-with-unsaved-data": "",
-                "preview": "",
-                "save-for-preview": ""
+                "auto-discussion-options": "Valikud uute vestluste jaoks",
+                "email-confirmation-options": "Kinnituskirja mall",
+                "email-notification-options": "Teavituskirja mall",
+                "exiting-with-unsaved-data": "Siin on salvestamata muudatusi. Oled sa kindel, et soovid lehelt lahkuda?",
+                "preview": "Eelvaade uuel vahekaardil",
+                "save-for-preview": "Salvesta eelvaate jaoks"
             },
             "auto-discussion-options-modal": {
-                "title": "",
+                "title": "Automaatsed vestluse valikud",
                 "introduction": "",
-                "submit": "",
+                "submit": "Kontrolli muudatusi",
                 "field": {
-                    "title": "",
-                    "tags": "",
+                    "title": "Vestluse pealkiri",
+                    "tags": "Vestluse sildid",
                     "tags-help": "",
-                    "content": ""
+                    "content": "Postita sisu"
                 }
             },
             "confirmation-email-options-modal": {
-                "title": "",
-                "submit": "",
+                "title": "E-posti mall",
+                "submit": "Kinnita muudatused",
                 "field": {
-                    "title": "",
-                    "message": ""
+                    "title": "Pealkiri",
+                    "message": "Sisu"
                 }
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "undo": "",
-                "redo": "",
-                "save": ""
+                "validation-errors": "Leidsime sinu sisestatud infos vigu",
+                "unsaved-changes": "Sul on salvestamata muudatusi",
+                "saved-at": "Salvestatud {ago} tagasi",
+                "undo": "Tühista",
+                "redo": "Tee uuesti",
+                "save": "Salvesta"
             },
             "permission-controls": {
-                "inherit": "",
-                "everyone_button": "",
-                "disabled_members_button": "",
-                "members_button": ""
+                "inherit": "Kasuta vaikeväärtusi",
+                "everyone_button": "=> core.admin.permissions_controls.everyone_button",
+                "disabled_members_button": "Non-activated and suspended members",
+                "members_button": "Aktiveeritud liikmed"
             },
             "template-editor": {
-                "add-field": "",
-                "title": "",
-                "description": "",
+                "add-field": "Lisa väli",
+                "title": "Pealkiri",
+                "description": "Kirjeldus",
                 "key": "",
                 "fill-permission": "",
-                "required": "",
+                "required": "Nõutud",
                 "rich": "",
-                "min": "",
-                "max": "",
-                "integer": "",
-                "email": "",
-                "regex": "",
+                "min": "Minimaalne",
+                "max": "Maksimaalne",
+                "integer": "Täisarv",
+                "email": "E-post",
+                "regex": "Regulaarväljend",
                 "mime": "",
                 "other": "",
-                "duplicate": "",
-                "delete": "",
-                "missing-title": "",
-                "no-answer": "",
+                "duplicate": "Tee väljast koopia",
+                "delete": "Kustuta väli",
+                "missing-title": "Ilma pealkirjata väli",
+                "no-answer": "Vastust pole",
                 "type": {
-                    "short": "",
-                    "long": "",
-                    "number": "",
-                    "date": "",
-                    "checkbox": "",
-                    "radio": "",
-                    "select": "",
-                    "upload": "",
-                    "content": "",
-                    "items": ""
+                    "short": "Lühike tekst",
+                    "long": "Pikk tekst",
+                    "number": "Arv",
+                    "date": "Kuupäev",
+                    "checkbox": "Märkekastid",
+                    "radio": "Raadio",
+                    "select": "Rippvalik",
+                    "upload": "Laadi üles",
+                    "content": "Sisu",
+                    "items": "Mitu sisendit"
                 }
             },
             "options-editor": {
                 "columns": {
-                    "title": "",
-                    "key": ""
+                    "title": "Pealkiri",
+                    "key": "(Eksperdile) unikaalne võti"
                 },
-                "remove": "",
-                "new-placeholder": ""
+                "remove": "Eemalda valik",
+                "new-placeholder": "Uus valik..."
             },
             "items-editor": {
-                "add": "",
-                "remove": ""
+                "add": "Lisa rida",
+                "remove": "Eemalda rida"
             },
             "upload-editor": {
-                "uploading": "",
-                "remove": ""
+                "uploading": "Üleslaadimine...",
+                "remove": "Eemalda fail"
             },
             "rich-text": {
-                "preview-placeholder": ""
+                "preview-placeholder": "Eelvaate nägemiseks hakka kirjutama"
             },
             "select": {
-                "choose": ""
+                "choose": "Tee valik"
             },
             "choice": {
-                "other-label": "",
-                "other-placeholder": ""
+                "other-label": "Muu:",
+                "other-placeholder": "Liik:"
             },
             "submission": {
-                "form-closed": "",
+                "form-closed": "See vorm on suletud.",
                 "form-full": "",
                 "edit-forbidden": "",
                 "submitted-successfully": "",
-                "edit-submission": "",
-                "submit-other": "",
-                "unlock": "",
-                "lock": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
+                "edit-submission": "Muuda vastuseid",
+                "submit-other": "Saada veel üks",
+                "unlock": "Ava",
+                "lock": "Lukusta",
+                "restore": "Taasta",
+                "hide": "Kustuta",
+                "delete": "Kustuta jäädavalt",
                 "delete-confirmation": ""
             },
             "submission-index": {
-                "form-edit": "",
+                "form-edit": "Muuda vormi",
                 "form-show": "",
-                "show": "",
-                "guest": "",
-                "load-more": "",
-                "empty": "",
-                "search": "",
-                "export": "",
+                "show": "Näita",
+                "guest": "Külaline",
+                "load-more": "Laadi rohkem",
+                "empty": "Vastuseid pole veel",
+                "search": "Otsi vastuseid...",
+                "export": "Ekspordi",
                 "columns": {
-                    "date": "",
-                    "user": "",
-                    "actions": ""
+                    "date": "Kuupäev",
+                    "user": "Kasutaja",
+                    "actions": "Tegevused"
                 }
             },
             "badge": {
-                "locked": "",
-                "hidden": ""
+                "locked": "Lukustatud",
+                "hidden": "Peidetud"
             },
             "error-page": {
-                "denied-title": "",
+                "denied-title": "Ligipääs keelatud",
                 "denied-description": "",
-                "notfound-title": "",
+                "notfound-title": "Ei leitud",
                 "notfound-description": ""
             },
             "submission-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Viimased vastused",
+                "oldest": "Vanimad vastused"
             },
             "form-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Uued vormid",
+                "oldest": "Vanimad vormid"
             },
             "export": {
-                "title": "",
-                "format": "",
-                "heading": "",
-                "fields": "",
-                "meta": "",
-                "more-meta": "",
+                "title": "Ekspordi vastused",
+                "format": "Vorming",
+                "heading": "Päis / võtmed",
+                "fields": "Väljad",
+                "meta": "Metaandmed",
+                "more-meta": "Rohkem metaandmete valikuid",
                 "option-keys": "",
-                "submit": "",
-                "preview": "",
+                "submit": "Laadi alla",
+                "preview": "Eelvaade",
                 "format-options": {
-                    "xlsx": "",
-                    "xls": "",
-                    "ods": "",
-                    "csv": "",
-                    "json": ""
+                    "xlsx": "XLSX",
+                    "xls": "XLS",
+                    "ods": "ODS",
+                    "csv": "CSV",
+                    "json": "JSON"
                 },
                 "heading-options": {
-                    "title": "",
-                    "key": "",
-                    "none": ""
+                    "title": "Välja pealkirjad",
+                    "key": "Välja võtmed",
+                    "none": "Päise rida pole"
                 },
                 "meta-options": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 },
                 "preview-primitives": {
-                    "excel-date": "",
-                    "boolean-true": "",
-                    "boolean-false": ""
+                    "excel-date": "(EXCELI KUUPÄEV)",
+                    "boolean-true": "Tõene",
+                    "boolean-false": "Väär"
                 }
             },
             "discussion-submission": {
-                "empty": "",
-                "edit": ""
+                "empty": "Andmeid pole veel",
+                "edit": "Muuda"
             },
             "discussion-composer": {
                 "field": {
-                    "tags": "",
-                    "poll": "",
-                    "title": "",
-                    "content": ""
+                    "tags": "Sildid",
+                    "poll": "Küsitlus",
+                    "title": "Pealkiri",
+                    "content": "Sõnum"
                 }
             }
         },
@@ -395,40 +395,40 @@
             "file-already-belongs-submission": "",
             "export": {
                 "meta": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
         "mail": {
             "title-your-submission": "",
             "title-new-submission": "",
-            "edit": "",
-            "footer": "",
-            "sub-entries": "",
-            "no-answer": ""
+            "edit": "Muuda",
+            "footer": "Saadetud vormist {title}",
+            "sub-entries": "{count} vastust",
+            "no-answer": "Vastuseid pole"
         },
         "ref": {
-            "manager": "",
+            "manager": "Vormide haldamine",
             "type": {
-                "standalone": "",
-                "discussion": "",
-                "user": ""
+                "standalone": "Eraldiseisvad vormid",
+                "discussion": "Vestluse väljad",
+                "user": "Kasutajaprofiil"
             },
             "permissions": {
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
+                "fill": "Täida eraldiolevaid vorme",
+                "seeOwnUser": "Oma profiili vormide vaatamine",
+                "seeAnyUser": "Kõikide profiili väljade vaatamine",
+                "editOwnUser": "Oma profiili väljade muutmine",
                 "editAnyUser": "",
                 "seeOwnDiscussion": "",
                 "seeAnyDiscussion": "",
@@ -436,16 +436,16 @@
                 "editAnyDiscussion": ""
             },
             "submission-meta": {
-                "uid": "",
-                "user_id": "",
-                "user_username": "",
-                "user_displayname": "",
-                "user_email": "",
-                "user_activated": "",
-                "link_id": "",
-                "locked_at": "",
-                "created_at": "",
-                "updated_at": "",
+                "uid": "Vastuse ID",
+                "user_id": "Kasutaja ID",
+                "user_username": "Kasutajanimi",
+                "user_displayname": "Kasutaja näidatav nimi",
+                "user_email": "Kasutaja e-post",
+                "user_activated": "Aktiveeritud konto",
+                "link_id": "Lingitud ressursi ID",
+                "locked_at": "Lukustamise kuupäev",
+                "created_at": "Loomise kuupäev",
+                "updated_at": "Uuendamise kuupäev",
                 "hidden_at": ""
             }
         }
