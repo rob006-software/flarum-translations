@@ -1696,7 +1696,7 @@
 		<td align="center"><a href="https://packagist.org/packages/huseyinfiliz/modern-footer/stats">258<br /><img src="https://img.shields.io/badge/-%2B135-brightgreen" alt="+135" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/huseyinfiliz/modern-footer/stats">258<br /><img src="https://img.shields.io/badge/-%2B135-brightgreen" alt="+135" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/huseyinfiliz/modern-footer/stats">10<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/huseyinfiliz-modern-footer/tr/"><img src="https://weblate.rob006.net/widgets/flarum/tr/huseyinfiliz-modern-footer/svg-badge.svg" alt="Translation status"></a></td>
+		<td><img src="https://img.shields.io/badge/status-disabled-inactive.svg" alt="Translation status"></td>
 	</tr>
 	<tr>
 		<td>
@@ -5157,7 +5157,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://flarum.org/extension/justoverclock/related-discussions" title="justoverclock/related-discussions"><code>justoverclock/related-discussions</code></a>
 		</td>
 		<td align="center">15<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
