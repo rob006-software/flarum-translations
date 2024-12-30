@@ -4,9 +4,9 @@
             "settings": {
                 "dropdownAccess": "",
                 "dropdownAccessHelp": "",
-                "sideNavAccess": "",
+                "sideNavAccess": "Ligipääs saidi külgriba vestluste kaudu",
                 "sideNavAccessHelp": "",
-                "authorQuickFilter": "",
+                "authorQuickFilter": "Postituse autori kiirfilter",
                 "authorQuickFilterHelp": "",
                 "originalPosterBadge": "",
                 "originalPosterBadgeHelp": ""
@@ -14,31 +14,31 @@
         },
         "forum": {
             "stream": {
-                "noResults": "",
+                "noResults": "Selles vestluses ei vasta ükski postitus sellele päringule",
                 "unmatchedGap": "",
                 "otherAuthorsGap": ""
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "Leia vestlustest...",
+                "authorPlaceholder": "Filtreeri autori järgi...",
+                "summary": "{matching} / {total}",
+                "pin": "Ava vestlustes alati filtri tööriistariba",
+                "close": "Tühjenda filtrid ja sulge tööriistariba",
+                "clear": "Tühjenda filtrid"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Otsi vestluseid"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Näita ainult vastuseid sellele autorile"
             },
             "post": {
-                "opBadge": "",
+                "opBadge": "Vestluse alustaja",
                 "opBadgeTooltip": ""
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "Ei saa minna postitusele",
+                "action": "Proovi filtrite puhastamist"
             }
         }
     }
