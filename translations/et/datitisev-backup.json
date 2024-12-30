@@ -102,7 +102,7 @@
                     },
                     "path-prefix": {
                         "label": "Asukoha eesliide",
-                        "description": ""
+                        "description": "Failide asukoha vaikimisi eesliide."
                     }
                 },
                 "dropbox": {
@@ -127,7 +127,7 @@
                 "gdrive": {
                     "client-id": {
                         "label": "Kliendi ID",
-                        "description": ""
+                        "description": "Järgi juhendeid lingil https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md et luua Google projekt ja saada oma kliendi ID ja kliendi salasõna.\n"
                     },
                     "client-secret": {
                         "label": "Kliendi salasõna",
@@ -135,21 +135,21 @@
                     },
                     "refresh-token": {
                         "label": "Värskenda kontrollkoodi",
-                        "description": ""
+                        "description": "Järgi juhendeid lingil https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md et saada ligipääsukood oma Google oAuth rakenduse jaoks.\n"
                     },
                     "folder": {
                         "label": "Kausta ID",
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
+                        "test_success_alert": "Ühendus Google Drive-iga on loodud. Salvesta muudatused, et näha salvestamise seadeid.",
                         "test_button": "Kontrolli ühendust"
                     }
                 },
                 "ftp": {
                     "host": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kaugarvuti nimi",
+                        "description": "FTP hostinimi, nt: <em>ftp.sinudomeen.ee</em>."
                     },
                     "username": {
                         "label": "Kasutajanimi",
