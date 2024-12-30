@@ -2,41 +2,41 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": ""
+                "text": "Veendu, et metaandmete URL või metaandmed oleks täidetud."
             },
-            "title": "",
+            "title": "SAML2 SSO seadistused",
             "labels": {
-                "idp_metadata_url": "",
-                "idp_metadata": "",
-                "only_option": "",
+                "idp_metadata_url": "Teenusepakkuja metaandemete URL (alternatiivne XML-ile)",
+                "idp_metadata": "Sisesta teenusepakkuja metaandemete XML (alternatiivne URL-ile)",
+                "only_option": "Kasutada SAML2 SSO-d kui ainust sisselogimise valikut?",
                 "nameid_format": "NameID vorming",
-                "slo": "",
-                "authn_requests_signed": "",
-                "logout_request_signed": "",
-                "logout_response_signed": "",
-                "sign_metadata": "",
+                "slo": "Kas lülitada SLO sisse? Kui sinu IDP seda ei toeta, siis see ei tee midagi.",
+                "authn_requests_signed": "Kas allkirjastada autentimise päringud?",
+                "logout_request_signed": "Kas allkirjastada väljalogimise päringud?",
+                "logout_response_signed": "Kas allkirjastada väljalogimise vastused?",
+                "sign_metadata": "Allkirjastada metaandmed?",
                 "want_assertions_encrypted": "",
                 "want_assertions_signed": "",
-                "want_messages_signed": "",
-                "x509_cert": "",
-                "x509_key": ""
+                "want_messages_signed": "Soovid sõnumeid allkirjastada?",
+                "x509_cert": "x509 sertifikaat (vajalik allkirjastamiseks, kui see on sisse lülitatud)",
+                "x509_key": "x509 privaatne võti (vajalik allkirjastamiseks, kui see on sisse lülitatud)"
             },
             "options": {
                 "nameid_format": {
-                    "persistent": "",
-                    "emailAddress": "",
-                    "unspecified": ""
+                    "persistent": "Püsiv (kui toetatud, siis soovitatud)",
+                    "emailAddress": "E-post (vaikeväärtus. Kasuta, kui püsiv pole toetatud)",
+                    "unspecified": "Määramata"
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_saml_button": "",
-                "open_popup": "",
-                "enable_popups": ""
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "Sisse logimiseks kliki siia",
+                "enable_popups": "Kas lubada sisselogimise ja liitumise hüpikaknad"
             },
             "sign_up": {
-                "post_saml_title": ""
+                "post_saml_title": "Üks viimane samm..."
             }
         }
     }
