@@ -1,60 +1,60 @@
 {
     "justoverclock-feedback": {
         "admin": {
-            "contactmail": "E-posti aadress kuhu tagasisidet saata",
+            "contactmail": "E-posti aadress, kuhu tagasisidet saata",
             "feedback1-title": "Tagasiside liik 1",
-            "feedback1-title-help": "",
-            "feedback1-icon": "",
+            "feedback1-title-help": "Kohanda oma \"tagasiside liigi\" nime siin",
+            "feedback1-icon": "Tagasiside liigi 1 ikoon",
             "feedback1-icon-help": "Sisesta tekstiikoone nagu \"⚠️, ☎️, ✏️\" - Windows (Win + .) MacOS 🌐",
             "feedback2-title": "Tagasiside liik 2",
-            "feedback2-title-help": "",
-            "feedback2-icon": "",
-            "feedback2-icon-help": "",
-            "feedback3-title": "",
-            "feedback3-title-help": "",
-            "feedback3-icon": "",
-            "feedback3-icon-help": "",
-            "contactdesc": "",
-            "collect-email": "",
-            "collect-email-help": "",
-            "position": "",
-            "position-help": "",
-            "right_label": "",
-            "left_label": "",
-            "background-color": "",
-            "background-color-help": "",
-            "font-color": "",
-            "font-color-help": "",
-            "box-title": "",
-            "box-title-help": ""
+            "feedback2-title-help": "Kohanda oma \"tagasiside liigi 2\" nime siin",
+            "feedback2-icon": "Tagasiside liigi 2 ikoon",
+            "feedback2-icon-help": "Sisesta tekstiikoon nagu näiteks \"⚠️, ☎️, ✏️\" - Windowsil (Win + .) MacOS 🌐",
+            "feedback3-title": "Tagasiside liik 3",
+            "feedback3-title-help": "Kohanda oma \"tagasiside liigi 3\" nime siin",
+            "feedback3-icon": "Tagasiside liigi 3 ikoon",
+            "feedback3-icon-help": "Sisesta tekstiikoon nagu näiteks \"⚠️, ☎️, ✏️\" - Windowsil (Win + .) MacOS 🌐",
+            "contactdesc": "See väli peab olema täidetud, et tagasiside vidin oleks sisse lülitatud",
+            "collect-email": "Näita kasutajatele (valikulist) e-posti aadressi",
+            "collect-email-help": "Kui see on sisse lülitatud, siis saavad kasutajad lisada tagasiside vormi oma e-posti aadressi",
+            "position": "Vidina asukoht",
+            "position-help": "Vali tagasiside saatmise nupu asukoht",
+            "right_label": "Paremal",
+            "left_label": "Vasakul",
+            "background-color": "Vidina taustavärv",
+            "background-color-help": "Sisesta taustavärv HEX-koodiga, nt. #000",
+            "font-color": "Vidina tekstivärv",
+            "font-color-help": "Sisesta teksti värv HEX-koodiga, nt. #000",
+            "box-title": "Kasti pealkiri",
+            "box-title-help": "Määra hüpikakna pealkiri (vana \"Flarumi tagasside\")"
         },
         "api": {
-            "validation_error": ""
+            "validation_error": "Sa ei saa saata tühja tagasisidet"
         },
         "forum": {
-            "button-title": "",
+            "button-title": "Tagasiside",
             "feedback-widget": {
-                "title": "",
-                "placeholder": "",
-                "email-placeholder": "",
-                "submit": "",
-                "back": "",
-                "contact-text": "",
-                "type-message": "",
-                "success": "",
-                "failed-title": "",
-                "failed-message": "",
-                "email-field-placeholder": "",
+                "title": "Flarumi tagasiside",
+                "placeholder": "Sisesta oma tagasiside siia",
+                "email-placeholder": "E-post (valikuline)",
+                "submit": "Saada",
+                "back": "Tagasi",
+                "contact-text": "Või saada e-post!",
+                "type-message": "Mis tagasisidet sa soovid jätta?",
+                "success": "Aitäh!👊",
+                "failed-title": "Oih, tekkis tõrge",
+                "failed-message": "Palun proovi uuesti. Kui see juhtub uuesti, siis proovi hoopis tavalise e-posti saatmist.",
+                "email-field-placeholder": "E-post (valikuline väli)",
                 "types": {
-                    "general": "",
-                    "idea": "",
-                    "bug": ""
+                    "general": "Üldine tagasiside",
+                    "idea": "Mul on idee",
+                    "bug": "Veateade"
                 }
             },
             "email": {
-                "guest": "",
-                "subject": "",
-                "body": ""
+                "guest": "anonüümne kasutaja",
+                "subject": "Tagasiside",
+                "body": "Uus tagasiside {type} kasutajalt {user}!\n\n{message}\n\nE-posti aadress: {email}\nLink: {url}\n"
             }
         }
     }
