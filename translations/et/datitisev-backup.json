@@ -6,94 +6,94 @@
                 "aliyun": "Alibaba Cloud (Aliyun)",
                 "azure": "Microsoft Azure",
                 "aws": "Amazon AWS S3",
-                "dospaces": "",
+                "dospaces": "Digital Ocean Spaces",
                 "dropbox": "Dropbox",
                 "gdrive": "Google Drive",
                 "ftp": "FTP",
                 "gridfs": "GridFS",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": "",
-                "zip": ""
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "ZIP-arhiiv"
             },
-            "settings_button": "",
-            "delete_button": "",
-            "delete_confirmation": "",
-            "create_button": "",
-            "required_package_button": "",
+            "settings_button": "Seadista",
+            "delete_button": "Kustuta",
+            "delete_confirmation": "Oled sa kindel, et soovid kustutada \"{name}\" ({adapter})?",
+            "create_button": "Lisa uus adapter",
+            "required_package_button": "Seadista",
             "you-need-for": {
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "copy": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
+                "title": "{adapter} jaoks on vaja pakki",
                 "content": ""
             },
             "adapter-settings-modal": {
-                "title": "",
-                "name_label": "",
+                "title": "Seadista {adapter}",
+                "name_label": "Asukoha nimi",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "Sihtkoht",
+                        "description": "Määra kohalik kaust, kuhu varukoopiad salvestada."
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Lõpp-punkt",
+                        "description": "Sinu salvestuskoha URL-i lõpp-punkt."
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Ligipääsu ID",
+                        "description": "Sinu autentimise ligipääsukoodi ID"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Ligipääsu võti",
+                        "description": "Sinu autentimise ligipääsukoodi võti"
                     },
                     "bucket": {
                         "label": "",
                         "description": ""
                     },
                     "path-prefix": {
-                        "label": "",
+                        "label": "Asukoha eesliide",
                         "description": ""
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
+                        "label": "Lõpp-punkt",
                         "description": ""
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Konteiner",
+                        "description": "Azure konteiner"
                     }
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Võti",
+                        "description": "AWS kasutajaandmete võti"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Salasõna",
+                        "description": "AWS kasutajaandmete salasõna"
                     },
                     "region": {
-                        "label": "",
+                        "label": "Piirkond",
                         "description": ""
                     },
                     "version": {
-                        "label": "",
+                        "label": "Versioon",
                         "description": ""
                     },
                     "bucket": {
@@ -101,49 +101,49 @@
                         "description": ""
                     },
                     "path-prefix": {
-                        "label": "",
+                        "label": "Asukoha eesliide",
                         "description": ""
                     }
                 },
                 "dropbox": {
                     "key": {
-                        "label": ""
+                        "label": "Rakenduse võti"
                     },
                     "secret": {
-                        "label": ""
+                        "label": "Rakenduse salasõna"
                     },
                     "refresh-token": {
-                        "label": "",
+                        "label": "Värskenda kontrollkoodi",
                         "description": ""
                     },
                     "help": {
                         "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
+                        "obtain-access-code-button": "Ava Dropbox",
                         "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
+                        "obtain-refresh-token-button": "Kasuta koodi",
                         "obtain-refresh-token-success": ""
                     }
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
+                        "label": "Kliendi ID",
                         "description": ""
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kliendi salasõna",
+                        "description": " "
                     },
                     "refresh-token": {
-                        "label": "",
+                        "label": "Värskenda kontrollkoodi",
                         "description": ""
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kausta ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
                         "test_success_alert": "",
-                        "test_button": ""
+                        "test_button": "Kontrolli ühendust"
                     }
                 },
                 "ftp": {
@@ -152,42 +152,42 @@
                         "description": ""
                     },
                     "username": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kasutajanimi",
+                        "description": "FTP serveri kasutajanimi."
                     },
                     "password": {
-                        "label": "",
-                        "description": ""
+                        "label": "Parool",
+                        "description": "FTP serveri parool."
                     },
                     "private-key": {
-                        "label": "",
+                        "label": "Privaatne võti",
                         "description": ""
                     },
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Port",
+                        "description": "FTP port (vaikeväärtus on 21)."
                     },
                     "root": {
-                        "label": "",
-                        "description": ""
+                        "label": "Peakaust",
+                        "description": "Kaugkausta peakaust (alamkaust), kuhu varukoopiaid salvestada."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Passiivne ühendus",
+                        "description": "Kas kasutada passiivset FTP ühendust serveriga."
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "Kas kasutada krüpteeritud SSL ühendust serveriga."
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "Aegumine",
+                        "description": "Mitu sekundit oodata FTP serveriga ühenduse loomiseks."
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "Varukoopia",
+                "description": "Säilita koopiaid oma foorumist."
             }
         }
     }
