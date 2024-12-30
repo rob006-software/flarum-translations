@@ -14,53 +14,53 @@
                 "blog_heading": "Blogi",
                 "featured_count_label": "",
                 "featured_count_text": "",
-                "allow_comments_label": "",
+                "allow_comments_label": "Luba kommentaarid",
                 "allow_comments_text": "",
                 "require_review_label": "",
                 "require_review_text": "",
-                "hide_on_discussion_list_label": "",
+                "hide_on_discussion_list_label": "Ära näita vestluste nimekirjas",
                 "hide_on_discussion_list_text": "",
                 "add_sidebar_nav_label": "",
                 "add_sidebar_nav_text": "",
-                "categories_heading": "",
+                "categories_heading": "Kategooriad",
                 "hide_tags_in_taglist_label": "",
                 "hide_tags_in_taglist_text": "",
-                "show_tag_hierarchy_label": "",
+                "show_tag_hierarchy_label": "Näita siltide hierarhiat",
                 "show_tag_hierarchy_text": "",
-                "redirects_heading": "",
+                "redirects_heading": "Ümbersuunamised",
                 "redirect_articles_label": "",
                 "redirect_articles_text": "",
                 "redirect_tags_label": "",
                 "redirect_tags_text": "",
-                "default_article_image_label": "",
+                "default_article_image_label": "Vaikimisi artikli pilt",
                 "default_article_image_text": "",
                 "add_hero_label": "",
                 "add_hero_text": ""
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
-            "forum_nav": "",
+            "blog": "Blogi",
+            "read_more": "Loe lisa",
+            "hidden": "Peidetud",
+            "recent_posts": "Viimased blogipostitused",
+            "categories": "Kategooriad",
+            "forum_nav": "Foorumi menüü",
             "return_to_overview": "",
             "no_more_posts": "",
             "category_empty": "",
             "compose": {
-                "write_article": ""
+                "write_article": "Kirjuta artikkel"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Puuduv ID"
             },
             "article": {
-                "title": "",
+                "title": "Pealkiri",
                 "slug": "",
-                "summary": ""
+                "summary": "Kokkuvõte"
             },
             "comment_section": {
-                "comments": "",
+                "comments": "Kommentaarid",
                 "locked": ""
             },
             "review_article": {
@@ -70,16 +70,16 @@
                 "approve_article_approved": ""
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Nimeta artikkel ümber",
+                "edit_article": "Muuda artiklit",
+                "update_category": "Uuenda kategooriaid",
+                "article_settings": "Artikli seaded",
+                "approve_article": "Kiida artikkel heaks",
+                "hide_article": "Peida artikkel",
+                "recover_article": "Taasta artikkel",
+                "delete_forever": "Kustuta igaveseks",
+                "enable_comments": "Lülita kommentaarid sisse",
+                "disable_comments": "Lülita kommentaarid välja"
             },
             "utils": {
                 "redirect": {
@@ -88,33 +88,33 @@
                 }
             },
             "composer": {
-                "no_title": "",
+                "no_title": "Pealkirja pole",
                 "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
+                "post_article": "Postita artikkel",
+                "select_category": "Vali kategooria",
+                "edit_categories": "Muuda kategooriat",
+                "update_settings": "Uuenda blogi seadeid",
+                "write": "Kirjuta",
+                "view": "Vaata",
+                "nothing_to_preview": "Pole midagi näidata",
                 "comment_section": "",
                 "no_blog_tags_selected": "",
                 "post_without_blog_info": ""
             },
             "article_settings": {
-                "title": "",
+                "title": "Blogi postituste seaded",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
+                        "title": "Artikli kokkuvõte",
+                        "placeholder": "Palun sisesta kokkuvõte",
                         "helper_text": ""
                     },
                     "image": {
-                        "title": "",
+                        "title": "Artikli pilt",
                         "helper_text": ""
                     },
                     "highlight": {
-                        "title": "",
+                        "title": "Esiletõstetud postitus",
                         "helper_text": ""
                     }
                 }
