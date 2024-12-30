@@ -1,31 +1,31 @@
 {
     "ziven-money-leaderboard": {
         "forum": {
-            "leaderboard-name": "",
+            "leaderboard-name": "Raha edetabel",
             "leaderboard-list-title": "Raha edetabel",
-            "leaderboard-list-rank": "",
+            "leaderboard-list-rank": "Järk",
             "leaderboard-list-user": "Kasutaja",
-            "leaderboard-list-money": "",
+            "leaderboard-list-money": "Raha kogus",
             "leaderboard-load-more": "Laadi lisa",
             "leaderboard-list-empty": "Sisu pole"
         },
         "admin": {
             "permission": {
-                "allow_view_leaderboard": ""
+                "allow_view_leaderboard": "Edetabeli vaatamine"
             },
             "settings": {
-                "leaderboard-icon": "",
-                "leaderboard-icon-help": "",
-                "leaderboard-entry-position": "",
-                "leaderboard-entry-sideNav": "",
-                "leaderboard-hide-money-text": "",
-                "leaderboard-additional-info": "",
-                "leaderboard-additional-info-help": "",
+                "leaderboard-icon": "Edetabeli ikoon",
+                "leaderboard-icon-help": "Sisesta FontAwesome ikooni klassi nimi, kaasa arvatud <code>fas fa-</code> eesliide.",
+                "leaderboard-entry-position": "Koht edetabelis",
+                "leaderboard-entry-sideNav": "Külgmenüüs",
+                "leaderboard-hide-money-text": "Peida kasutajanime järel raha nime",
+                "leaderboard-additional-info": "Lisainfo",
+                "leaderboard-additional-info-help": "Näitab kasutajajärgu alguses lisainfot. Lõigu peitmiseks jäta see tühjaks.",
                 "leaderboard-slug": "",
-                "leaderboard-entry-topRightMenu": "",
-                "leaderboard-max-load-count": "",
-                "leaderboard-init-load-count": "",
-                "leaderboard-load-more-count": ""
+                "leaderboard-entry-topRightMenu": "Üleval paremal menüüs",
+                "leaderboard-max-load-count": "Maks. laadimiste arv",
+                "leaderboard-init-load-count": "Algne laadimiste arv",
+                "leaderboard-load-more-count": "Laadi rohkem arv"
             }
         }
     }
