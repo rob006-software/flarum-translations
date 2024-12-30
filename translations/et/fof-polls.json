@@ -14,14 +14,14 @@
                     "heading": "Pildi seaded",
                     "help": "Need seaded määravad küsitluse piltide seaded."
                 },
-                "allow_option_image": "",
-                "allow_image_uploads": "",
-                "allow_image_uploads_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
+                "allow_option_image": "Luba iga küsitluse vastusevariandi jaoks pildi URL-i lisamine",
+                "allow_image_uploads": "Luba küsitluste ja nende valikute jaoks piltide üleslaadimine",
+                "allow_image_uploads_help": "Kui see on sisse lülitatud, siis saavad kasutajad laadida üles pildi või lisada URL-i (kui see on valikutes sisse lülitatud, siis küsitlusele endale saab alati pilte lisada).",
+                "enable_global_polls": "Lülita sisse üldiste küsitluste kasutamine",
+                "enable_global_polls_help": "Üldised küsitlused pole seotud ühegi konkreetse postitusega ja neid võib näha eraldi küsitluste leheküljelt.",
                 "max_options": "Maksimaalne vastusevariantide arv küsitluses",
-                "options_color_blend": "",
-                "options_color_blend_help": "",
+                "options_color_blend": "Teksti värv küsitluste vastusevalikutes",
+                "options_color_blend_help": "Kasuta seda valikut, et teha küsitluse vastusevariandid paremini loetavaks. Lülita see valik välja, kui see põhjustab mingeid probleeme sinu foorumi välimusega.",
                 "image_height": "Muuda pildi kõrgust",
                 "image_width": "Muuda pildi laiust"
             },
@@ -29,9 +29,9 @@
                 "view_results_without_voting": "Vaata tulemusi ilma hääletamata",
                 "start": "Alusta küsitlust",
                 "start_global": "Alusta üldist küsitlust",
-                "self_edit": "",
-                "self_post_edit": "",
-                "upload_images": "",
+                "self_edit": "Lisatud küsitluste muutmine (nõuab postituste muutmise õigust)",
+                "self_post_edit": "*Kõikide* oma postituse juures olevate küsitluste muutmine (nõuab postituste muutmise õigust)",
+                "upload_images": "Kasutajad võivad küsitluse juurde pilte üles laadida",
                 "vote": "Vasta küsitlusele",
                 "change_vote": "Muuda vastust",
                 "moderate": "Muuda ja eemalda küsitlusi"
@@ -42,8 +42,8 @@
             "no_permission": "Sul pole vastamiseks õiguseid",
             "poll_ended": "Küsitlus on lõppenud.",
             "public_poll": "Vaata vastajaid",
-            "max_votes_allowed": "",
-            "polls_count": "",
+            "max_votes_allowed": "Küsitlusele vastamisel võib teha {max, plural, one {# valiku} other {# valikut}}.",
+            "polls_count": "{count, plural, one { {count} vastus} other {{count} vastust}}",
             "poll_never_ends": "Küsitlus ei lõpe kunagi",
             "answers": "Vastused",
             "poll": {
@@ -58,23 +58,23 @@
                 "view_label": "Vaata",
                 "delete_confirmation": "Oled sa kindel, et soovid seda küsitlust kustutada?",
                 "delete_success_message": "Küsitlus on kustutatud.",
-                "delete_error_message": ""
+                "delete_error_message": "Küsitluse kustutamisel läks midagi valesti."
             },
             "poll_form": {
                 "delete": "Kustuta küsitlus",
-                "error": ""
+                "error": "Küsitluse salvestamisel tekkis tõrge. Võta ühendust mõne administraatoriga."
             },
             "polls_page": {
                 "title": "Küsitlused"
             },
             "polls_list": {
-                "empty_text": "",
+                "empty_text": "Näib, et siin pole ühtegi üldist kogukonna küsitlust.",
                 "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
-                "add_poll": "",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "Sul pole küsitluse alustamiseks õiguseid."
             },
             "compose": {
                 "add_title": "Lisa küsitlus",
@@ -101,8 +101,8 @@
                 "max_votes_label": "Maksimaalseid vastuseid kasutaja kohta",
                 "max_votes_help": "Sisesta 0, et lubada kasutajal valida kõik valikuvariandid.",
                 "hide_votes_label": "Peida vastused kuni küsitlus lõpeb",
-                "hide_votes_label_help": "",
-                "allow_change_vote_label": "",
+                "hide_votes_label_help": "Kasutaja, kes lisas küsitluse, võib alati vastuseid näha.",
+                "allow_change_vote_label": "Luba kasutajatel oma vastust muuta",
                 "question_placeholder": "Küsimus",
                 "subtitle_placeholder": "Alampealkiri/Kirjeldus (valikuline)",
                 "submit": "Saada",
@@ -112,12 +112,12 @@
                     "label": "Küsitluse pilt",
                     "help": "Laadi üles pilt, mida näidatakse küsitluse kõrval (valikuline).",
                     "alt_label": "Pildi alt tekst",
-                    "alt_help_text": "",
-                    "later_help": ""
+                    "alt_help_text": "See tekst on nõutud, kui pilt on lisatud. Teksti näidatakse, kui pildi laadimine ebaõnnestub.",
+                    "later_help": "Pildi saad üles laadida ka pärast küsitluse loomist."
                 },
                 "poll_option_image": {
                     "label": "Küsitluse vastuse pilt",
-                    "help": ""
+                    "help": "Laadi üles pilt, mida näidatakse küsitluse vastusevariantide juures (valikuline)."
                 },
                 "tooltip": {
                     "options": {
