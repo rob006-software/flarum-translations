@@ -14,40 +14,40 @@
                 "compile-automatically": ""
             },
             "controls": {
-                "refresh": "",
-                "save": "",
-                "compile": "",
-                "settings": "",
-                "new": "",
+                "refresh": "Värskenda",
+                "save": "Salvesta",
+                "compile": "Compile JS",
+                "settings": "Redaktori seaded",
+                "new": "Uus",
                 "new-confirmation": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "enable": "",
-                "disable": ""
+                "delete": "Kustuta",
+                "delete-confirmation": "Kas kustutada \"{title}\" ?",
+                "enable": "Sisse lülitamiseks kliki",
+                "disable": "Välja lülitamiseks kliki"
             },
             "fields": {
                 "title": "",
-                "admin_js": "",
-                "forum_js": "",
-                "admin_less": "",
-                "forum_less": "",
-                "php": ""
+                "admin_js": "Admini JS",
+                "forum_js": "Foorumi JS",
+                "admin_less": "Admini Less",
+                "forum_less": "Foorumi Less",
+                "php": "PHP"
             },
             "placeholders": {
-                "untitled": "",
+                "untitled": "Pealkirjata",
                 "php-comment": "",
-                "js-log": ""
+                "js-log": "Tere, {frontend}!"
             },
             "compilation-alert": {
-                "success": "",
-                "failure": "",
-                "view-output": ""
+                "success": "Kompileeritud!",
+                "failure": "Kompileerimine ebaõnnestus!",
+                "view-output": "Vaata väljundit"
             },
             "compilation-modal": {
-                "title": "",
-                "webpack": "",
-                "npm": "",
-                "npm-not-run": ""
+                "title": "Kompileerimise väljund",
+                "webpack": "Webpacki väljund",
+                "npm": "NPM väljund",
+                "npm-not-run": "NPM ei käivitunud"
             }
         }
     }
