@@ -12,18 +12,18 @@
                 },
                 "api_secret": {
                     "label": "API salasõna",
-                    "help": ""
+                    "help": "Leiad selle kohast <strong>Plugins/OAuth/config.json</strong>"
                 }
             }
         },
         "forum": {
-            "login_error": "",
+            "login_error": "Sessiooni ei käivitatud või see on aegunud.",
             "log_in_modal": {
                 "submit_button": "Kinnita",
                 "title": "Logi sisse Minecraftiga"
             },
-            "log_in_button_title": "",
-            "modal_help": ""
+            "log_in_button_title": "Logi sisse Minecraftiga",
+            "modal_help": "Liitu serveriga <strong>{server}</strong> ja seejärel kliki all olevale nupule."
         }
     }
 }
