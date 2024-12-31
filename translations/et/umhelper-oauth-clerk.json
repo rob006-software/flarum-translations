@@ -4,17 +4,17 @@
             "settings": {
                 "providers": {
                     "clerk": {
-                        "description": "",
+                        "description": "Registreerumine sinu foorumisse teenusega Clerk SSO {link}",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "oauth_domain_label": ""
+                        "oauth_domain_label": "Sinu Clerk rakenduse domeen (clerk.xxx.com või xxx.clerk.accounts.dev)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_clerk_button": ""
+                "with_clerk_button": "Logi sisse teenusega Vlerk"
             },
             "providers": {
                 "clerk": "=> fof-oauth.lib.providers.clerk"
@@ -22,7 +22,7 @@
         },
         "lib": {
             "providers": {
-                "clerk": ""
+                "clerk": "Clerk"
             }
         }
     }
