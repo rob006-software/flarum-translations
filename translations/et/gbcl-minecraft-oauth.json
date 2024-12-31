@@ -13,7 +13,7 @@
         },
         "forum": {
             "log_in": {
-                "with_minecraft_button": ""
+                "with_minecraft_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
                 "minecraft": "=> fof-oauth.lib.providers.minecraft"
@@ -28,7 +28,7 @@
     "gbcl-minecraft-oauth": {
         "forum": {
             "error": {
-                "profile_does_not_exist": ""
+                "profile_does_not_exist": "Sul ei tundu olevat Minecrafti profiili. Oled sa end mõne omanikuks märkinud?"
             }
         }
     }
