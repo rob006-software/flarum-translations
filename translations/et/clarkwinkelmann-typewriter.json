@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "muteByDefault": "Vaigista vaikimisi",
-                "showIntroductionPopup": "",
+                "showIntroductionPopup": "Näita esimesel korral tutvustavat hüpikakent",
                 "defaultFile": "Vaikimisi heli fail",
                 "sounds": "Lisahelid",
                 "head": {
@@ -14,9 +14,9 @@
             }
         },
         "forum": {
-            "enable": "Luba trükkimise hääled",
-            "mute": "Vaigista trükkimise helid",
-            "introductionMessage": ""
+            "enable": "Lülita trükkimise hääled sisse",
+            "mute": "Lülita trükkimise hääled välja",
+            "introductionMessage": "Kliki, et trükkimise hääled sisse või välja lülitada"
         }
     }
 }
