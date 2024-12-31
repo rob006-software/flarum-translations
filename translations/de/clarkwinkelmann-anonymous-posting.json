@@ -2,60 +2,60 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
-                "defaultAnonymity": "",
-                "defaultAnonymityWhenAbleToSwitch": "",
-                "alwaysAnonymiseEdits": "",
-                "alwaysAnonymiseEditsHelp": "",
-                "composerHelpTextPosition": "",
-                "composerHelpTextPositionVisible": "",
-                "composerHelpTextPositionTooltip": "",
-                "composerHelpTextPositionHidden": "",
-                "composerHelpTextPositionHelp": "",
-                "avatars": "",
-                "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "defaultAnonymity": "Neue Inhalte sind standardmäßig anonym",
+                "defaultAnonymityWhenAbleToSwitch": "Neue Inhalte sind für Benutzer mit Umschaltberechtigung standardmäßig anonym",
+                "alwaysAnonymiseEdits": "Bearbeitungen immer anonymisieren",
+                "alwaysAnonymiseEditsHelp": "Standardmäßig werden Bearbeitungen/Ausblendungen durch den anonymen Verfasser des Beitrags anonymisiert, jedoch wird jeder Moderator, der einen Beitrag oder eine Diskussion bearbeitet, weiterhin als Verfasser der Bearbeitung/Ausblendung angezeigt. Wenn diese Option aktiviert ist, wird der Bearbeiter/Ausblender bei anonymen Inhalten nie protokolliert, unabhängig davon, wer diese sind.\n",
+                "composerHelpTextPosition": "Position des Composer-Hilfetexts",
+                "composerHelpTextPositionVisible": "Sichtbar (unter dem Label)",
+                "composerHelpTextPositionTooltip": "Tooltip (nach Label)",
+                "composerHelpTextPositionHidden": "Versteckt",
+                "composerHelpTextPositionHelp": "Das Kontrollkästchen und dieser Text werden nur Benutzern mit der Berechtigung „Wechseln“ angezeigt.",
+                "avatars": "Anonyme Avatare",
+                "avatarsHelp": "Diese Funktion erfordert die Premium-Erweiterung <a>Formulaire</a>. Die Nutzung dieser Funktion hat eine geringe Auswirkung auf die Leistung, da zusätzliche Datenbankanträge erforderlich sind, um Diskussionen und Beiträge abzurufen. Weitere Details zum Format der einzelnen Eingaben findest du in der README.\n",
+                "avatarFormId": "Formular ID",
+                "avatarFieldKey": "Feldschlüssel",
+                "avatarFieldValue": "Feldwert",
+                "avatarAvatarUrl": "Avatar-URL",
+                "avatarAdd": "Avatar-Regel hinzufügen"
             },
             "permissions": {
-                "use": "",
-                "reveal": "",
-                "moderate": ""
+                "use": "Option zur Anonymisierung von Inhalten während des Verfassens umschalten",
+                "reveal": "Echte Autoren von anonymen Diskussionen und Beiträgen sehen",
+                "moderate": "Anonymisieren oder De-anonymisieren einer Diskussion oder eines Beitrags"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
-                "anonymizeHelp": ""
+                "anonymize": "Anonym posten",
+                "anonymizeHelp": "Moderatoren wissen dennoch, dass du diesen Inhalt erstellt hast"
             },
             "discussionControls": {
-                "anonymize": "",
-                "anonymizeConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Anonymisieren",
+                "anonymizeConfirmation": "Dadurch wird der Verfasser der Diskussion anonymisiert. Der erste Beitrag muss separat anonymisiert werden. Weiter?",
+                "deanonymize": "De-anonymisieren",
+                "deanonymizeConfirmation": "Damit wird der ursprüngliche Autor der Diskussion wieder öffentlich gemacht. Fortfahren?"
             },
             "postControls": {
-                "anonymize": "",
-                "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Anonymisieren",
+                "firstPostConfirmation": "Damit wird der Autor des ersten Beitrags anonymisiert. Die Diskussion muss separat anonymisiert werden. Fortfahren?",
+                "deanonymize": "De-anonymisieren",
+                "deanonymizeConfirmation": "Damit wird der ursprüngliche Autor des Beitrags wieder öffentlich gemacht. Fortfahren?"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "Zuletzt geantwortet {ago}"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
-                "profileHelp": ""
+                "mine": "Ich",
+                "mineHelp": "Nur du kannst diese Informationen sehen",
+                "profile": "Nur für dich sichtbar",
+                "profileHelp": "Nur du kannst deine anonymen Beiträge in deinem Profil sehen"
             }
         },
         "lib": {
             "userMeta": {
                 "initials": "",
-                "username": ""
+                "username": "Anonym"
             }
         }
     }
