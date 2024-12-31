@@ -94,25 +94,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Erősítse meg a fióktörlési kérését",
-                "body": "Valaki (remélhetőleg Ön) a(z) `{display_name}` fiókja törlését kérte.\n\nA művelet megerősítéséhez kövesse a következő hivatkozást, majd ezután fel fogja dolgozni a csapatunk.\n\n{erasure_confirm_url}\n"
+                "body": "Kedves {display_name}!\n\nValaki (remélhetőleg Ön) a(z) `{display_name}` fiókja törlését kérte.\n\nA művelet megerősítéséhez kövesse a következő hivatkozást, majd ezután fel fogja dolgozni a csapatunk.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "A fiók törlése befejeződött",
-                    "body": "Ez egy automatikus, végső értesítés arról, hogy a fiókja törlésre került.\n"
+                    "body": "Kedves {display_name}!\n\nEz egy automatikus, végső értesítés arról, hogy a fiókja törlésre került.\n"
                 },
                 "anonymization": {
                     "subject": "A fiók anonimizálása befejeződött",
-                    "body": "Ez egy automatikus, végső értesítés arról, hogy a fiókja anonimizálásra került.\n"
+                    "body": "Kedves {display_name}!\n\nEz egy automatikus, végső értesítés arról, hogy a fiókja anonimizálásra került.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "A fióktörlési kérés lemondva",
-                "body": "Ez agy automatikus értesítés arról, hogy a fióktörlési kérésének lemondása feldolgozásra került.\n\nA fiókja nem lesz törölve.\n"
+                "body": "Kedves {display_name}!\n\nEz agy automatikus értesítés arról, hogy a fióktörlési kérésének lemondása feldolgozásra került.\n\nA fiókja nem lesz törölve.\n"
             },
             "export_available": {
                 "subject": "Az adatexport elérhető",
-                "body": "A(z) {username} fiók exportálását kérte. Az export sikeresen előállításra került, és itt érhető el:\n\n{url}\n\nEz az export eddig érhető el: {destroys_at}.\n"
+                "body": "Kedves {display_name}!\n\nA(z) {username} fiók exportálását kérte. Az export sikeresen előállításra került, és itt érhető el:\n\n{url}\n\nEz az export eddig érhető el: {destroys_at}.\n"
             }
         },
         "forum": {
