@@ -4,16 +4,16 @@
             "settings": {
                 "providers": {
                     "envato": {
-                        "description": "",
+                        "description": "Liitumine sinu foorumiga Envato kontoga {link}.",
                         "client_id_label": "Kliendi ID",
-                        "client_secret_label": ""
+                        "client_secret_label": "Kliendi salasõna"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_envato_button": ""
+                "with_envato_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
                 "envato": "=> fof-oauth.lib.providers.envato"
