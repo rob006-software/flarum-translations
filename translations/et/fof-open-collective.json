@@ -2,10 +2,10 @@
     "fof-open-collective": {
         "admin": {
             "settings": {
-                "title": "",
-                "desc": "",
-                "use_legacy_api_key_label": "",
-                "use_legacy_api_key_help": "",
+                "title": "FriendsOfFlarum Open Collective",
+                "desc": "Hangi oma isiklik kontrollkood aadressilt<a>https://opencollective.com/dashboard</a> lehelt Settings > For Developers. Ära vali mingeid lisaulatusi - jäta vaikevalikud paika.\n",
+                "use_legacy_api_key_label": "Kasuta vana rakenduse API võtit",
+                "use_legacy_api_key_help": "Kui sul on vana API võti, siis võid selle kasutamist jätkata, aga on soovitatav lülituda ümbel isiklike kontrollkoodide kasutamisele.  Currently, personal tokens seem to work in API Key mode (i.e. \"API-Key\" header), but this is not documented.\n",
                 "api_key_label": "Rakenduse API võti (pole enam kasutuses)",
                 "personal_token_label": "Isik kontrollkood",
                 "slug_label": "",
