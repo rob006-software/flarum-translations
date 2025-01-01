@@ -24,17 +24,17 @@
                 "",
                 ""
             ],
-            "preview": "",
+            "preview": "Eelvaade",
             "pages": {
-                "index": "",
-                "levels": ""
+                "index": "Avaleht",
+                "levels": "Tasemed"
             },
             "levels": {
-                "edit_level": "",
+                "edit_level": "Muuda taset",
                 "delete_confirmation": "",
-                "add_button": "",
-                "name": "",
-                "min_exp_required": ""
+                "add_button": "Lisa tase",
+                "name": "Taseme nimi",
+                "min_exp_required": "Nõutud aegumine"
             },
             "permissions": {
                 "edit_exp": ""
@@ -46,8 +46,8 @@
             },
             "modal": {
                 "title": "",
-                "current": "",
-                "submit_button": ""
+                "current": "Praegune",
+                "submit_button": "Salvesta"
             },
             "notifications": {
                 "level_updated": ""
@@ -60,36 +60,36 @@
             },
             "log": {
                 "exp": "",
-                "reason": "",
-                "time": "",
-                "view": "",
-                "load_more": "",
-                "no_more": "",
-                "no_records": "",
+                "reason": "Põhjus",
+                "time": "Aeg",
+                "view": "Vaata",
+                "load_more": "Laadi rohkem",
+                "no_more": "Rohkem pole",
+                "no_records": "Andmeid pole",
                 "type": {
                     "system_clear": "",
-                    "system_refresh": "",
-                    "automoderator": "",
-                    "post_posted": "",
-                    "post_deleted": "",
-                    "post_hidden": "",
-                    "post_restored": "",
-                    "discussion_started": "",
-                    "discussion_deleted": "",
-                    "discussion_hidden": "",
-                    "discussion_restored": "",
+                    "system_refresh": "Süsteemi värskendamine",
+                    "automoderator": "Automaatne moderaator",
+                    "post_posted": "Tehti postitus",
+                    "post_deleted": "Postitus kustutati",
+                    "post_hidden": "Postitus peideti",
+                    "post_restored": "Postitus taastati",
+                    "discussion_started": "Vestlust alustati. {title}",
+                    "discussion_deleted": "Vestlus kustutati. {title}",
+                    "discussion_hidden": "Vestlus peideti. {title}",
+                    "discussion_restored": "Vestlus taastati. {title}",
                     "comment_deleted_in_deleted_discussion": "",
                     "post_liked": "",
                     "post_unliked": "",
-                    "admin_edit": "",
+                    "admin_edit": "Admin muutis",
                     "forum_quests": "",
-                    "store_purchase": ""
+                    "store_purchase": "Ostetud poest"
                 }
             }
         },
         "lib": {
             "defaults": {
-                "level": "",
+                "level": "Tase",
                 "exp": ""
             },
             "error": {
@@ -119,16 +119,16 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_exp": "",
-                "least_exp": ""
+                "most_exp": "=> foskym-custom-levels.lib.integrations.user-directory.most_exp",
+                "least_exp": "=> foskym-custom-levels.lib.integrations.user-directory.least_exp"
             }
         }
     },
     "nodeloc-leaderboard": {
         "lib": {
             "sort": {
-                "most_exp": "",
-                "least_exp": ""
+                "most_exp": "=> foskym-custom-levels.lib.integrations.user-directory.most_exp",
+                "least_exp": "=> foskym-custom-levels.lib.integrations.user-directory.least_exp"
             }
         }
     }
