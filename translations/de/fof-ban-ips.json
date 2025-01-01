@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Wenn eine IP-Sperre mit einem Nutzer verbunden ist (d.h. der Nutzer wurde per IP gesperrt), wird die IP-Adresse des Nutzers zusammen mit dem Grund für die Sperre und dem Erstellungsdatum in den Export aufgenommen.",
+                    "anonymize_description": "Alle mit dem Nutzer verknüpften IP-Adressen werden entkoppelt, doch die IP selbst bleibt zusammen mit dem Grund gesperrt. Achte darauf, dass im Feld „Grund“ keine PII-Daten gespeichert werden."
                 }
             }
         }
