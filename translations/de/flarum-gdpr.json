@@ -94,25 +94,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Bestätige die Anfrage zur Löschung deines Kontos",
-                "body": "Jemand (hoffentlich du) hat gerade die Löschung des Kontos `{display_name}` beantragt.\n\nUm diese Aktion zu bestätigen, folge bitte dem folgenden Link. Anschließend wird deine Anfrage von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
+                "body": "Hey {display_name}!\n\nJemand (hoffentlich du) hat gerade beantragt, das Konto `{display_name}` zu löschen.\n\nUm diese Aktion zu bestätigen, folge bitte dem folgenden Link. Danach wird dein Antrag von unserem Team bearbeitet.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Kontolöschung abgeschlossen",
-                    "body": "Dies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
+                    "body": "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich gelöscht wurde.\n"
                 },
                 "anonymization": {
                     "subject": "Anonymisierung des Kontos abgeschlossen",
-                    "body": "Dies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich anonymisiert wurde.\n"
+                    "body": "Hey {display_name}!\n\nDies ist eine automatische und endgültige Benachrichtigung, dass dein Konto erfolgreich anonymisiert wurde.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "Antrag zur Kontolöschung abgebrochen",
-                "body": "Dies ist eine automatische Benachrichtigung, dass dein Antrag auf Stornierung der Kontolöschung bearbeitet wurde.\n\nDein Konto wird nicht mehr gelöscht.\n"
+                "body": "Hey {display_name}!\n\nDies ist eine automatische Benachrichtigung, dass dein Antrag auf Stornierung der Kontolöschung bearbeitet wurde.\n\nDein Konto wird nicht mehr gelöscht.\n"
             },
             "export_available": {
                 "subject": "Datenexport verfügbar",
-                "body": "Du hast einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
+                "body": "Hey {display_name}!\n\nDu hast einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich generiert und ist jetzt verfügbar:\n\n{url}\n\nDieser Export bleibt bis {destroys_at} verfügbar.\n"
             }
         },
         "forum": {
