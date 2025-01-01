@@ -20,7 +20,7 @@
             },
             "sub_controls": {
                 "header": "Dein Abo von \"{tagName}\"",
-                "subscription_label": "Wähle die Art aus, wie du \"{tagName}\" abonnierst:",
+                "subscription_label": "Wähle die Art aus, wie du \"{tagName}\" abonnierst",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Über alle neuen Diskussionen benachricht werden.",
@@ -83,8 +83,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Exportiert die Details der Abonnementstufe für einen Tag, falls eine solche existiert.",
+                    "anonymize_description": "Entfernt das Abonnement des Nutzers für den Tag."
                 }
             }
         }
