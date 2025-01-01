@@ -14,7 +14,7 @@
                 "report_http_errors": "",
                 "report_http_errors_help": "",
                 "section_sso_intro": "",
-                "enable_sso": "",
+                "enable_sso": "Lülita SSO integratsioon sisse",
                 "login_method": "",
                 "login_method_help": "",
                 "login_method_options": {
@@ -45,7 +45,7 @@
                 "wordpress_login_only_help": "",
                 "user_delete": "",
                 "user_delete_options": {
-                    "ignore": "",
+                    "ignore": "Ignoreeri (säilita Flarumi kasutaja)",
                     "delete": "Kustuta Flarumi kasutaja",
                     "suspend": ""
                 },
@@ -53,7 +53,7 @@
                 "role_group_sync": "",
                 "role_group_sync_help": "",
                 "section_comments_intro": "",
-                "enable_comments": "",
+                "enable_comments": "Lülita kommentaaride integreerimine sisse",
                 "excerpt_html_whitelist": "",
                 "excerpt_html_nodes": "",
                 "excerpt_length": "",
@@ -86,7 +86,7 @@
             },
             "tabs": {
                 "wizard": "Pagaldamise abimees",
-                "general": "",
+                "general": "Üldised seaded",
                 "sso": "SSO integreerimine",
                 "comments": "Kommentaaride integreerimine",
                 "enabled": "Sisse lülitatud",
@@ -104,7 +104,7 @@
             },
             "save-controls": {
                 "validation-errors": "",
-                "unsaved-changes": "",
+                "unsaved-changes": "Sul on salvestamata muudatusi",
                 "saved-at": "Salvestatud {ago} tagasi",
                 "no-unsaved-changes": "Kõik on salvestatud",
                 "save": "Salvesta"
@@ -153,14 +153,14 @@
                 "default_message": "",
                 "username": "Vali kasutajanimi",
                 "submit": "Lülita foorumi konto sisse",
-                "not_now": ""
+                "not_now": "Jäta vahele ja jätka külalisena"
             },
             "instant-login": {
                 "welcome_known_user": "",
                 "welcome_unknown_user": "Teretulemast tagasi!",
                 "avatar_alt_text": "WordPressi avatar",
                 "message": "",
-                "button": ""
+                "button": "Logi kohe sisse ja värskenda"
             },
             "edit-user-modal": {
                 "warning": "",
@@ -186,7 +186,7 @@
             "embed-link-modal": {
                 "title": "",
                 "message": "",
-                "open": ""
+                "open": "Ava link"
             },
             "thumbnail_alt_fallback": "WordPressi postituse pisipilt"
         },
