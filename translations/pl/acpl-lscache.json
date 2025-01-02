@@ -18,7 +18,7 @@
             "status_codes_cache_help": "Podaj kod odpowiedzi HTTP i liczbę sekund przechowywania strony w cache, oddzielone spacją. Po jednym na linię.",
             "purge_all": "=> acpl-lscache.ref.purge_cache",
             "permissions": {
-                "purge": "=> acpl-lscache.ref.purge_cache"
+                "purge": "Czyszczenie LSCache"
             },
             "purge_all_success": "Serwer LiteSpeed został poinformowany o konieczności wyczyszczenia całego LSCache"
         },
