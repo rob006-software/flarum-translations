@@ -3,11 +3,11 @@
         "admin": {
             "settings": {
                 "return_key": "La touche retour envoie un message",
-                "return_key_help": "Envoyer le message lorsque la touche entré est pressé. Si cela est désactivé, la touche Entrée permettra de créer une nouvelle ligne et l'utilisateur doit cliquer sur le bouton \"Envoyer un message\" pour envoyer le message.",
-                "show_read_receipts": "Afficher les confirmations de lecture",
-                "show_read_receipts_help": "Afficher une coche à coté des messages lu par le destinataire.",
-                "message_recipient_background_color": "",
-                "message_recipient_background_color_help": "",
+                "return_key_help": "Faire en sorte que l'appui sur la touche « Entrée » permette d'envoyer un message. Si cette fonction est désactivée, le fait d'appuyer sur la touche d'entrée commence une nouvelle ligne et l'utilisateur doit cliquer sur le bouton « Envoyer le message » pour envoyer le message.",
+                "show_read_receipts": "Afficher les accusés de lecture",
+                "show_read_receipts_help": "Afficher une indication de lecture à côté d'un message lorsque le destinataire l'a lu.",
+                "message_recipient_background_color": "Couleur personnalisée pour le message du destinataire",
+                "message_recipient_background_color_help": ".",
                 "title": "Paramètres de chuchotement"
             },
             "permissions": {
@@ -39,7 +39,7 @@
                 "cant_start": "Impossible de démarrer la conversation",
                 "text_placeholder": "Tapez votre message",
                 "send": "Envoyer un message",
-                "message_read": ""
+                "message_read": "Le message a été lu"
             },
             "notifications": {
                 "message_received": "Tester",
