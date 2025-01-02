@@ -4,23 +4,23 @@
             "configure_button_label": "Configurar con FoF OAuth",
             "settings_accessibility_label": "Configuración de {name}",
             "permissions": {
-                "moderate_user_providers": ""
+                "moderate_user_providers": "Moderar cuentas vinculadas del usuario"
             },
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "Avanzado",
+                    "log-oauth-errors-label": "Registrar errores de OAuth",
+                    "log-oauth-errors-help": "Si está habilitado, los errores de OAuth se almacenarán en el registro de Flarum. Esto puede ayudar a depurar problemas de OAuth, pero también puede contener información sensible."
                 },
                 "only_icons_label": "Mostrar sólo los iconos del botón de inicio de sesión (diseño alternativo)",
-                "update_email_from_provider_label": "",
-                "update_email_from_provider_help": "",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
+                "update_email_from_provider_label": "Actualizar la dirección de correo electrónico del proveedor",
+                "update_email_from_provider_help": "Si se habilita, la dirección de correo electrónico del usuario se actualizará para que coincida con la proporcionada a través de OAuth en cada inicio de sesión en el foro. No todos los proveedores proporcionan la dirección de correo electrónico actualizada, en cuyo caso esta configuración no tendrá ningún efecto con esos proveedores.",
+                "fullscreen_popup_label": "Utilizar una ventana emergente de pantalla completa para OAuth",
+                "fullscreen_popup_help": "Cuando está habilitado, el inicio de sesión de OAuth se abrirá en una ventana emergente de pantalla completa. Si está habilitado, se ignorarán los ajustes de ancho y alto.",
+                "popup_width_label": "Ancho de la ventana emergente de OAuth",
+                "popup_width_help": "Establece el ancho de la ventana emergente de OAuth. Esta configuración se ignorará si está habilitada la opción \"Utilizar una ventana emergente de pantalla completa para OAuth\".",
+                "popup_height_label": "Altura de la ventana emergente de OAuth",
+                "popup_height_help": "Establezca la altura de la ventana emergente de OAuth. Esta configuración se ignorará si está habilitada la opción \"Utilizar una ventana emergente de pantalla completa para OAuth\".",
                 "providers": {
                     "callback_url_text": "Si es necesario, establezca la URL de devolución de llamada como {url}.",
                     "discord": {
@@ -53,7 +53,7 @@
                         "description": "Cree una aplicación en {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": ""
+                        "hosted_domain_label": "Dominio alojado (G suite/Google Apps for Business, opcional)"
                     },
                     "linkedin": {
                         "description": "Cree una aplicación en {link}.",
@@ -79,12 +79,12 @@
                     "linked-account": {
                         "label": "Cuentas vinculadas",
                         "last-used-label": "Usado por última vez",
-                        "link-created-label": "",
-                        "identification-label": "",
-                        "orphaned-account": "",
-                        "help": "",
-                        "identifier-label": "",
-                        "unlink-confirm": ""
+                        "link-created-label": "Enlace creado",
+                        "identification-label": "{provider} ID",
+                        "orphaned-account": "Has iniciado sesión anteriormente a través de este proveedor, pero este foro ha deshabilitado el inicio de sesión con este método desde entonces.",
+                        "help": "Estas cuentas vinculadas le permiten iniciar sesión en el foro utilizando otros proveedores.",
+                        "identifier-label": "{provider} ID",
+                        "unlink-confirm": "¿Estás seguro de que deseas eliminar el enlace con {provider}? Ya no podrá iniciar sesión en este foro a menos que vuelvas a autenticarse en el futuro."
                     }
                 }
             },
@@ -100,7 +100,7 @@
             "signup": {
                 "username_help": "Por favor, elija un nombre de usuario para ser identificado aquí"
             },
-            "unlink": "",
+            "unlink": "Eliminar enlace",
             "error": {
                 "bad_verification_code": "Token de verificación inválido o caducado. Por favor, inténtelo de nuevo.",
                 "invalid_state": "Estado inválido. Por favor, inténtelo de nuevo."
