@@ -1,73 +1,73 @@
 {
     "xypp-forum-quests": {
         "forum": {
-            "reward_not_found": "",
+            "reward_not_found": "Autasu {reward} pole leitud",
             "condition_not_found": "Tingimust {condition} ei leitud",
             "notification": {
-                "quest_done": "",
-                "quest_done_label": ""
+                "quest_done": "Lõpetasid just otsmise ülesande {name}!",
+                "quest_done_label": "Otsimise ülesanne on täidetud"
             },
             "quest": {
-                "quest": "",
+                "quest": "Otsimise ülesanne",
                 "load_more": "Laadi rohkem",
                 "done": "[Valmis]"
             },
             "re_available": {
                 "none": "Ainult üks kord",
-                "day": "",
-                "hour": ""
+                "day": "Uuesti saadaval enne {value} päeva",
+                "hour": "Uuesti saadaval {value} tunni pärast"
             },
             "condition_view": {
-                "button": "",
-                "title": "",
-                "name": "",
-                "value": "",
-                "span": "",
-                "set_span": ""
+                "button": "Vaata tingimust",
+                "title": "Tingimuse vaatamine",
+                "name": "Nimi",
+                "value": "Väärtus",
+                "span": "Vahemikus",
+                "set_span": "Määra vahemik"
             },
             "quest_done": {
-                "all": "",
-                "true": "",
-                "false": ""
+                "all": "Kõik",
+                "true": "Valmis",
+                "false": "Tegemata"
             }
         },
         "admin": {
-            "settings": "",
-            "timezone": "",
-            "allow_update": "",
-            "data": "",
+            "settings": "Seaded",
+            "timezone": "Ajavöönd",
+            "allow_update": "Luba kasutajaid käsitsi uuendada",
+            "data": "Andmed",
             "table": {
-                "id": "",
-                "name": "",
-                "description": "",
-                "operation": "",
-                "load_more": "",
-                "remove_confirm": "",
-                "create": ""
+                "id": "Nr",
+                "name": "Nimi",
+                "description": "Kirjeldus",
+                "operation": "Opereeri",
+                "load_more": "Laadi rohkem",
+                "remove_confirm": "Oled sa kindel, et soovid selle otsimise ülesande eemaldada?",
+                "create": "Loo"
             },
             "create-modal": {
-                "title": "",
-                "edit": "",
-                "name": "",
-                "description": "",
-                "icon": "",
-                "hidden": "",
-                "condition": "",
-                "reward": "",
-                "button": "",
-                "button-edit": "",
-                "new_item": "",
-                "re_available": ""
+                "title": "Loo otsimise ülesanne",
+                "edit": "Muuda otsimise ülesannet",
+                "name": "Nimi",
+                "description": "Kirjeldus",
+                "icon": "Ikoon",
+                "hidden": "Peidetud",
+                "condition": "Tingimus",
+                "reward": "Autasu",
+                "button": "Loo",
+                "button-edit": "Muuda",
+                "new_item": "Uus kirje",
+                "re_available": "Uuesti saadaval"
             },
             "re_available": {
-                "none": "",
+                "none": "Üks kord",
                 "day": "",
-                "hour": ""
+                "hour": "Pärast X tundi"
             }
         },
         "api": {
-            "no_manual_update": "",
-            "manual_condition_cannot_hidden": ""
+            "no_manual_update": "Käsitsi uuendamine pole vajalik",
+            "manual_condition_cannot_hidden": "Käsitsi muudetavaid tingimusi ei saa peidetud ülesannetes kasutada: {condition}"
         }
     }
 }
