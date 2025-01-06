@@ -45,14 +45,14 @@
                 "name": "Kategooria nimi",
                 "description": "Kategooria kirjeldus",
                 "blockview": "Ploki-vaade",
-                "blockview_description": "",
+                "blockview_description": "Näita kategooria aumärke plokivaates aumärgi ülevaadet. Kui see on välja lülitatud, siis näitatakse kõiki aumärke tabelina.",
                 "enabled": "Sisse lülitatud",
                 "enabled_description": "Lülita see kategooria sisse. Kui kategooria on välja lülitatud, siis kategooria selles olevad aumärgis pole nähtavad."
             },
             "auto_moderator": {
                 "not_installed": {
                     "title": "Autasusta kasutajaid aumärkidega automaatselt",
-                    "content": "",
+                    "content": "See lisaprogramm pakub rohkem lisavõimalusi, kui lisaprogramm <a>Automaatne moderaator</a> on paigaldatud ja aktiveeritud. Kui paigaldada selle lisaprogrammi, siis võib kasutajatele anda aumärke automaatselt ilma kogukonna moderaatorita!",
                     "install": "Paigalda",
                     "dismiss": "Ära näita uuesti"
                 },
@@ -98,7 +98,7 @@
                 "category": "Aumärgi kategooria",
                 "received_on": "Saadud {date}",
                 "badge_details": "Aumärgi üksikasjad",
-                "earned_count": "",
+                "earned_count": "{count, plural, one {<b>kasutaja</b> on selle aumärgi välja teeninud} other {<b>kasutajat</b> on selle välja teeninud}}",
                 "earned_by_count": "",
                 "others_link": "+ veel {count}"
             },
