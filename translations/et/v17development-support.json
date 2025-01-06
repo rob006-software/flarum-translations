@@ -51,7 +51,7 @@
             },
             "not_found": {
                 "title": "Kirjet ei leitud",
-                "description": "",
+                "description": "Vabandust, aga selles kohas pole enam seda artiklit või kategooriat.",
                 "solution": ""
             },
             "article": {
@@ -71,7 +71,7 @@
                     "rename_article": "Nimeta artikkel ümber",
                     "edit_article": "Muuda artiklit",
                     "edit_tags": "Muuda artikli silte",
-                    "audit_log": "",
+                    "audit_log": "Vaata aduditi logi",
                     "hide_article": "Peida artikkel",
                     "recover_article": "Taasta artikkel",
                     "delete_forever": "Kustuta igaveseks",
@@ -79,11 +79,11 @@
                 }
             },
             "support_ratings": {
-                "score": "",
-                "helful_article": "",
-                "helful_support": "",
+                "score": "Punktid",
+                "helful_article": "Kas see artikkel oli sulle abiks?",
+                "helful_support": "Oled sa rahul sellega, kuidas sinu kasutajatoe piletit käsitleti?",
                 "feedback": "Aitäh sulle ülevaate eest. Kas sul on ka mingit tagasisidet?",
-                "feedback_not_helpful": "",
+                "feedback_not_helpful": "Kurb kuulda, et see artikkel polnud abiks. Mida sa otsisid?",
                 "enter_feedback": "Sisesta oma tagasiside siia",
                 "finished": "Aitäh! Sinu tagasiside on salvestatud.",
                 "validation": {
@@ -104,13 +104,13 @@
                     "title": "",
                     "article_created": "Artikkel loodi",
                     "no_more_events": "Ühtegi sündmust ei leitud",
-                    "loading_auditlog": ""
+                    "loading_auditlog": "Auditi logi laadimine"
                 },
                 "article_ratings": {
                     "title": "Artikli hinnangud",
                     "loading_ratings": "Hinnangute laadimine",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
+                    "no_ratings_found": "Sinuotsinguparameetritele vastavat hinnangut ei leitud",
+                    "article_not_rated": "Seda artiklit pole veel hinnatud.",
                     "confirm_delete_rating": "Oled sa kindel, et tahad selle hinnangu kustutada?",
                     "feedback": "Tagasiside",
                     "rating": "Hinnang",
@@ -148,12 +148,12 @@
                 "ticket_activity": "",
                 "reminders_sent": "",
                 "convert_to_ticket": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Konverdi piletiks",
+                    "confirm": "Oled sa kindel, et soovid selle vestluse piletiks konvertida?",
+                    "event": "Vestlus {ticket_title} on konverditud piletiks"
                 },
                 "convert_to_discussion": {
-                    "button": "",
+                    "button": "Konverdi vestluseks",
                     "confirm": "",
                     "event": ""
                 },
@@ -176,7 +176,7 @@
                         "description": "See pilet on suletud.",
                         "is_closed": "",
                         "close_after_posting": "Sulge pilet pärast postitamist",
-                        "is_auto_closed": ""
+                        "is_auto_closed": "See pilet on mitteaktiivsuse tõttu suletud."
                     },
                     "on_hold": {
                         "title": "Ootel",
@@ -188,8 +188,8 @@
                     },
                     "solved": {
                         "title": "Lahendatud",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "description": "See pilet on märgitud lahendatuks",
+                        "mark_as_solved": "Märgi see pilet lahendatuks"
                     }
                 },
                 "tools": {
@@ -197,7 +197,7 @@
                     "update_subject": "Uuenda teemat",
                     "assign_me": "Määra mulle",
                     "remove_me": "Eemalda mind",
-                    "update_status": "",
+                    "update_status": "Uuenda pileti staatust",
                     "close_ticket": "Sulge pilet",
                     "update_note": "Uuenda privaatset märkust"
                 },
@@ -225,10 +225,10 @@
                     },
                     "status": {
                         "title": "Staatus",
-                        "placeholder": ""
+                        "placeholder": "Pileti staatus"
                     },
                     "assignees": {
-                        "title": "",
+                        "title": "Määratud kasutajatele",
                         "placeholder": "Pileti staatus"
                     },
                     "private_note": {
@@ -249,7 +249,7 @@
                 },
                 "my_tickets": {
                     "title": "Minu piletid",
-                    "description": "",
+                    "description": "Sellelt lehelt leiad kõik oma privaatsed piletid.",
                     "no_tickets": "Sul pole veel ühtegi piletit."
                 },
                 "overview": {
@@ -270,33 +270,33 @@
                             "any": "Iga keel"
                         },
                         "assignees": {
-                            "title": "",
-                            "search": "",
-                            "unassigned": ""
+                            "title": "Filtreeri, kellele on määratud",
+                            "search": "Otsi, kellele on määratud",
+                            "unassigned": "Määramata"
                         }
                     },
                     "sort": {
-                        "newest": "",
+                        "newest": "Uuemad eespool",
                         "oldest": "Vanimad enne",
                         "recent_activity": "Viimased tegevused",
-                        "least_recent": ""
+                        "least_recent": "Viimase tegevusega eespool"
                     }
                 }
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "",
+                    "name": "Keegi vastas minu piletile",
                     "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "",
-                    "content": ""
+                    "name": "Minu pilet lahendati",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
+                "subject": "{replier_display_name} vastas sinu piletile #{ticket_id}",
                 "body": ""
             },
             "ticket_status_update": {
