@@ -3,13 +3,13 @@
         "forum": {
             "knowledge_base": "Teabebaas",
             "ask_a_question_on_forums": "Küsi küsimus foorumis",
-            "return_to_home": "",
-            "ask_your_question_on_forum": "",
+            "return_to_home": "Tagasi teabebaasi avalehele",
+            "ask_your_question_on_forum": "Küsi oma küsimus foorumis",
             "or": "või",
             "settings": "=> core.ref.settings",
             "send": "Saada",
             "create": "Loo",
-            "discard": "",
+            "discard": "Loobu",
             "reopen": "ava uuesti",
             "support_tickets": "KAsutajatoe piletid",
             "admin_overview": "Ava admini ülevaade",
@@ -21,9 +21,9 @@
                 "knowledge_base_overview": "Teabebaasi ülevaade",
                 "back_to": "Tagasi kategooriasse {category}",
                 "back_to_overview": "",
-                "back_to_main_categories": "",
+                "back_to_main_categories": "Tagasi peamisesse kategooriasse",
                 "loading_articles": "Artiklite laadimine",
-                "no_categories_found": "",
+                "no_categories_found": "Vabandust, aga siit ei leitud ühtegi kategooriat...",
                 "category_not_found": "Kategooriat ei leitud",
                 "no_articles_found": "Sellest kategooriast ei leitud ühtegi kategooriat",
                 "tools": {
@@ -37,7 +37,7 @@
             "article_events": {
                 "article_hidden": "{username} peitis artikli",
                 "article_public": "",
-                "article_modified": ""
+                "article_modified": "{username} muutis seda artiklit."
             },
             "search": {
                 "title": "Otsi",
