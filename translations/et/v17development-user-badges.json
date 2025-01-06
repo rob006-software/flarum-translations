@@ -2,19 +2,19 @@
     "v17development-flarum-badges": {
         "admin": {
             "uncategorized": "Liigitamata",
-            "new_badge": "",
+            "new_badge": "Uus aumärk",
             "create_category": "Loo kategooria",
-            "update_badge": "",
+            "update_badge": "Uuenda aumärki",
             "update_category": "Uuenda kategooriat",
             "edit_category": "Muuda kategooriat",
-            "nothing_here_yet": "",
-            "show_badges_on_user_card": "",
-            "number_of_badges_on_user_card": "",
+            "nothing_here_yet": "Sa pole veel ühtegi aumärki või kategooriat loonud.",
+            "show_badges_on_user_card": "Näita kasutaja kaardil aumärki",
+            "number_of_badges_on_user_card": "Aumärkide arv",
             "number_of_badges_on_user_card_help": "",
             "permissions": {
                 "badge_detail_users": "",
-                "give_badge": "",
-                "take_badge": "",
+                "give_badge": "Kasutajale aumärgi andmine",
+                "take_badge": "Kasutajalt aumärgi võtmine",
                 "edit_own_card_badges": "",
                 "edit_card_badges": ""
             },
@@ -28,14 +28,14 @@
                 "delete_category": ""
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
+                "name": "Aumärgi nimi",
+                "icon": "Aumärgi ikoon",
+                "description": "Aumärgi kirjeldus",
                 "visible": "Nähtav",
                 "visible_description": "",
-                "is_image": "",
-                "is_image_description": "",
-                "image": "",
+                "is_image": "Aumärk on pilt",
+                "is_image_description": "Kasuta vaikimisi aumärgi asemel pilti",
+                "image": "Aumärgi pildi URL",
                 "image_placeholder": "",
                 "icon_color": "Ikooni värv",
                 "background_color": "Taustavärv",
@@ -44,7 +44,7 @@
             "badge_category": {
                 "name": "Kategooria nimi",
                 "description": "Kategooria kirjeldus",
-                "blockview": "",
+                "blockview": "Ploki-vaade",
                 "blockview_description": "",
                 "enabled": "Sisse lülitatud",
                 "enabled_description": ""
@@ -57,49 +57,49 @@
                     "dismiss": "Ära näita uuesti"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "Aumärgi ID",
+                    "give_badge": "Anna aumärk",
+                    "remove_badge": "Eemalda aumärk"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Omab aumärki"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Saadud aumärgid"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Vali aumärk",
+                    "loading_badges": "Aumärkide laadimine"
                 }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
+            "badge_information": "Aumärgi info",
+            "all_badges": "Vaata kõiki aumärke",
             "all_users": "Vaata kõiki kasutajaid",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
-            "no_received": "",
+            "give_badge": "Anna aumärk",
+            "update_badge": "Uuenda aumärk",
+            "select_badge": "Vali aumärk",
+            "user_has_badge": "Sellel kasutajal on juba see aumärk.",
+            "user_no_badges": "Sellel kasutajal pole veel ühtegi aumärki.",
+            "no_received": "Ükski kasutaja pole veel seda aumärki teeninud.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "save_changes": "Salvesta muudatused",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "received_on": "",
-                "badge_details": "",
+                "badge": "Aumärk",
+                "badges": "Aumärgid",
+                "name": "Aumärgi nimi",
+                "description": "Aumärgi kirjeldus",
+                "earning_reason": "Aumärgi väljateenimise põhjus",
+                "update_earning_reason": "Uuenda väljateenimise põhjust",
+                "no_earning_reason": "Väljateenimise põhjust pole sisestatud",
+                "earned_on": "Aumärk teeniti",
+                "category": "Aumärgi kategooria",
+                "received_on": "Saadud {date}",
+                "badge_details": "Aumärgi üksikasjad",
                 "earned_count": "",
                 "earned_by_count": "",
-                "others_link": ""
+                "others_link": "+ veel {count}"
             },
             "badges_in_card": {
                 "title": "",
