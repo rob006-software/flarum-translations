@@ -970,6 +970,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`club-1-server-side-highlight`](https://weblate.rob006.net/projects/flarum/club-1-server-side-highlight) | [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight) |
 | [`convo-extensions-guest-posting`](https://weblate.rob006.net/projects/flarum/convo-extensions-guest-posting) | [`convo-extensions/flarum-ext-guest-posting`](https://github.com/convo-extensions/flarum-ext-guest-posting) |
 | [`convo-extensions-quick-reply`](https://weblate.rob006.net/projects/flarum/convo-extensions-quick-reply) | [`convo-extensions/flarum-ext-quick-reply`](https://github.com/convo-extensions/flarum-ext-quick-reply) |
+| [`dalez-identityagent`](https://weblate.rob006.net/projects/flarum/dalez-identityagent) | [`dalez/flarum-identityagent`](https://github.com/DellZHackintosh/flarum-identityagent) |
 | [`dalez-msemoji`](https://weblate.rob006.net/projects/flarum/dalez-msemoji) | [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji) |
 | [`dalez-twemoji`](https://weblate.rob006.net/projects/flarum/dalez-twemoji) | [`dalez/flarum-twemoji`](https://github.com/DellZHackintosh/flarum-twemoji) |
 | [`danirod-plausible`](https://weblate.rob006.net/projects/flarum/danirod-plausible) | [`danirod/flarum-plausible`](https://github.com/danirod/flarum-plausible) |
