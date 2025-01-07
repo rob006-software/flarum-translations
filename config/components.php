@@ -792,7 +792,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/flagify/0.1/locale/en.yml',
 	],
 	'huseyinfiliz-modern-footer' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v0.7/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v0.8/resources/locale/en.yml',
 	],
 	'ianm-boring-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/1.0.1/locale/en.yml',
