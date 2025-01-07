@@ -555,7 +555,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/1.1.0/resources/locale/en.yml',
 	],
 	'fof-anti-spam' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/1.1.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/1.1.3/locale/en.yml',
 	],
 	'fof-ban-ips' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/1.1.2/resources/locale/en.yml',
