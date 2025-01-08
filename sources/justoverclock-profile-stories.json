@@ -1,0 +1,38 @@
+{
+    "justoverclock-profile-stories": {
+        "admin": {
+            "permission": {
+                "createStory": "Create new story",
+                "viewStory": "View global stories",
+                "editStory": "Edit stories"
+            }
+        },
+        "forum": {
+            "globalStoriesEmpty": "There are no stories yet.",
+            "globalStoriesDescription": "This section contains all the stories earned by our users!",
+            "heroTitle": "'s Stories",
+            "StoryModalTitle": "'s Story",
+            "createStory": "Create story",
+            "stories": "Stories",
+            "storyTitle": "Story title (short)...",
+            "storyImage": "Story image URL (preferred size 500x300)",
+            "storyIcon": "fas fa-user",
+            "storyCta": "Button text",
+            "storyContentText": "Text or HTML for the complete story",
+            "storyContentLink": "URL",
+            "storyContentCta": "button text",
+            "previousStepBtn": "previous step",
+            "nextStepBtn": "next step",
+            "saveBtn": "Save",
+            "nextPage": "next",
+            "prevPage": "previous",
+            "youDontHavePermission": "You don't have permissions to create a new story!",
+            "stories-count": " {count, plural, one { {count} story} other {{count} stories}}",
+            "globalStories": "Users stories",
+            "globalStoriesTitle": "Users stories",
+            "notifications": {
+                "newStory": "You have a new profile story!"
+            }
+        }
+    }
+}
