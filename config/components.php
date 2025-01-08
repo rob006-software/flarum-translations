@@ -1389,7 +1389,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/flarum-discussion-cards/1.2.0/locale/en.yml',
 	],
 	'walsgit-recycle-bin' => [
-		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/0.1.9/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/0.2.0/locale/en.yml',
 	],
 	'webbinaro-affiliator' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-affiliator/0.0.5/locale/en.yml',
