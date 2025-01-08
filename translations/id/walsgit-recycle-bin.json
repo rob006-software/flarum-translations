@@ -1,27 +1,38 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "title": "Recycle Bin",
+            "discussions_bin": "",
+            "posts_bin": "",
             "search_placeholder": "Cari diskusi",
+            "search_post_placeholder": "",
             "search_help_text": "Mencari kata-kata dalam judul serta dalam pesan diskusi",
+            "search_post_help_text": "",
             "total_hidden_discussions": "Total diskusi yang tersembunyi",
+            "total_hidden_posts": "",
             "empty_list": "Tidak ada diskusi di recycle bin.",
             "hidden_discussions": "Diskusi tersembunyi",
             "discussion_id": "ID",
             "discussion_title": "Judul Diskusi",
             "discussion_link_tooltip": "Lihat diskusi",
-            "discussion_author": "Penulis",
+            "author": "",
             "unknownn_user": "Pengguna tidak dikenal",
             "created_at": "Dibuat pada",
             "hidden_at": "Disembunyikan pada",
             "unknown_date": "Tanggal tidak diketahui",
             "actions": "Tindakan",
             "restore_tooltip": "Memulihkan diskusi",
+            "restore_post_tooltip": "",
             "restore_discussion": {
                 "title": "Pulihkan diskusi",
                 "confirmation": "Apakah Anda yakin ingin memulihkan diskusi ini:",
                 "restore_button": "Pulihkan diskusi ini",
                 "success": "Berhasil memulihkan diskusi"
+            },
+            "restore_post": {
+                "title": "",
+                "confirmation": "",
+                "restore_button": "",
+                "success": ""
             },
             "delete_discussion": {
                 "title": "Hapus selamanya",
@@ -29,15 +40,31 @@
                 "delete_button": "Hapus diskusi ini selamanya",
                 "success": "Berhasil menghapus diskusi"
             },
+            "delete_post": {
+                "title": "",
+                "confirmation": "",
+                "delete_button": "",
+                "success": ""
+            },
             "delete_tooltip": "Menghapus diskusi",
+            "delete_post_tooltip": "",
             "bulk_actions": "Tindakan untuk diskusi yang dipilih: ",
+            "bulk_post_actions": "",
             "bulk_restore_label": "Pulihkan diskusi yang dipilih",
+            "bulk_post_restore_label": "",
             "mass_restore_modal": {
                 "title": "Memulihkan diskusi yang dipilih",
                 "text_start": "Apakah Anda yakin ingin melakukan pemulihan ini ",
                 "text_end": " diskusi yang dipilih?",
                 "submit_button": "Pulihkan diskusi ini",
                 "success": "Berhasil memulihkan diskusi yang dipilih"
+            },
+            "mass_restore_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
             },
             "mass_delete_modal": {
                 "title": "Menghapus diskusi ini selamanya",
@@ -46,7 +73,15 @@
                 "submit_button": "Hapus diskusi ini selamanya",
                 "success": "Berhasil menghapus diskusi yang dipilih"
             },
+            "mass_delete_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
             "bulk_delete_label": "Hapus diskusi yang dipilih",
+            "bulk_post_delete_label": "",
             "pagination": {
                 "first_page_button": "Pergi ke halaman pertama",
                 "back_button": "Kembali ke halaman sebelumnya",
@@ -55,7 +90,17 @@
                 "next_button": "Buka halaman berikutnya",
                 "last_page_button": "Buka halaman terakhir"
             },
-            "mass_help_text": "Harap tunggu penyegaran halaman setelah mengonfirmasi pemulihan atau penghapusan massal"
+            "mass_help_text": "Harap tunggu penyegaran halaman setelah mengonfirmasi pemulihan atau penghapusan massal",
+            "grid": {
+                "invalid_column_content": ""
+            },
+            "post": {
+                "id": "",
+                "title": "",
+                "open_post": ""
+            },
+            "title": "Recycle Bin",
+            "discussion_author": "Penulis"
         }
     }
 }

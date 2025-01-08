@@ -1,27 +1,38 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "title": "Prügikast",
+            "discussions_bin": "",
+            "posts_bin": "",
             "search_placeholder": "Otsi vestlust",
+            "search_post_placeholder": "",
             "search_help_text": "Otsib pealkirjadest ning ka vestluse sisust",
+            "search_post_help_text": "",
             "total_hidden_discussions": "Peidetud vestlusi kokku",
+            "total_hidden_posts": "",
             "empty_list": "Prügikastis pole vestlusi.",
             "hidden_discussions": "Peidetud vestlused",
             "discussion_id": "ID",
             "discussion_title": "Vestluse pealkiri",
             "discussion_link_tooltip": "Vaata vestlust",
-            "discussion_author": "Autor",
+            "author": "",
             "unknownn_user": "Tundmatu kasutaja",
             "created_at": "Loodud",
             "hidden_at": "Peidetud",
             "unknown_date": "Tundmatu kuupäev",
             "actions": "Tegevused",
             "restore_tooltip": "Taasta vestlus",
+            "restore_post_tooltip": "",
             "restore_discussion": {
                 "title": "Taasta vestlus",
                 "confirmation": "Oled sa kindel, et soovid selle vestluse taastada:",
                 "restore_button": "Taasta see vestlus",
                 "success": "Vestlus on taastatud"
+            },
+            "restore_post": {
+                "title": "",
+                "confirmation": "",
+                "restore_button": "",
+                "success": ""
             },
             "delete_discussion": {
                 "title": "Kustuta igaveseks",
@@ -29,15 +40,31 @@
                 "delete_button": "Kustuta see vestlus igaveseks",
                 "success": "Vestlus on kustutatud"
             },
+            "delete_post": {
+                "title": "",
+                "confirmation": "",
+                "delete_button": "",
+                "success": ""
+            },
             "delete_tooltip": "Kustuta vestlus",
+            "delete_post_tooltip": "",
             "bulk_actions": "Tegevused valitud vestlustega: ",
+            "bulk_post_actions": "",
             "bulk_restore_label": "Taasta valitud vestlused",
+            "bulk_post_restore_label": "",
             "mass_restore_modal": {
                 "title": "Taasta valitud vestlused",
                 "text_start": "Oled sa kindel, et soovid need ",
                 "text_end": " vestlused taastada?",
                 "submit_button": "Taasta need vestlused",
                 "success": "Valitud vestlused on taastatud"
+            },
+            "mass_restore_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
             },
             "mass_delete_modal": {
                 "title": "Kustuta need vestlused igaveseks",
@@ -46,7 +73,15 @@
                 "submit_button": "Kustuta need vestlused igaveseks",
                 "success": "Valitud vestlused on kustutatud"
             },
+            "mass_delete_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
             "bulk_delete_label": "Kustuta valitud vestlused",
+            "bulk_post_delete_label": "",
             "pagination": {
                 "first_page_button": "Mine esimesele leheküljele",
                 "back_button": "Mine eelmisele leheküljele",
@@ -55,7 +90,17 @@
                 "next_button": "Mine järgmisele leheküljele",
                 "last_page_button": "Mine viimasele leheküljele"
             },
-            "mass_help_text": "Palun oota kuni lehekülge värskendatakse pärast massiline taastamist või kustutamist"
+            "mass_help_text": "Palun oota kuni lehekülge värskendatakse pärast massiline taastamist või kustutamist",
+            "grid": {
+                "invalid_column_content": ""
+            },
+            "post": {
+                "id": "",
+                "title": "",
+                "open_post": ""
+            },
+            "title": "Prügikast",
+            "discussion_author": "Autor"
         }
     }
 }

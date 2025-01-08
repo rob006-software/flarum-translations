@@ -1,27 +1,38 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "title": "回收站",
+            "discussions_bin": "",
+            "posts_bin": "",
             "search_placeholder": "搜索主题帖",
+            "search_post_placeholder": "",
             "search_help_text": "支持搜索主题标题和回帖内容关键词",
+            "search_post_help_text": "",
             "total_hidden_discussions": "隐藏帖总数",
+            "total_hidden_posts": "",
             "empty_list": "暂无主题帖。",
             "hidden_discussions": "已隐藏主题",
             "discussion_id": "ID",
             "discussion_title": "标题",
             "discussion_link_tooltip": "查看",
-            "discussion_author": "作者",
+            "author": "",
             "unknownn_user": "未知用户",
             "created_at": "创建于",
             "hidden_at": "隐藏于",
             "unknown_date": "未知日期",
             "actions": "操作",
             "restore_tooltip": "还原主题",
+            "restore_post_tooltip": "",
             "restore_discussion": {
                 "title": "还原主题",
                 "confirmation": "确定要还原这个主题帖：",
                 "restore_button": "还原",
                 "success": "已成功还原主题帖"
+            },
+            "restore_post": {
+                "title": "",
+                "confirmation": "",
+                "restore_button": "",
+                "success": ""
             },
             "delete_discussion": {
                 "title": "永久删除",
@@ -29,15 +40,31 @@
                 "delete_button": "永久删除",
                 "success": "已永久删除主题帖"
             },
+            "delete_post": {
+                "title": "",
+                "confirmation": "",
+                "delete_button": "",
+                "success": ""
+            },
             "delete_tooltip": "删除主题",
+            "delete_post_tooltip": "",
             "bulk_actions": "批量操作： ",
+            "bulk_post_actions": "",
             "bulk_restore_label": "还原选择的主题帖",
+            "bulk_post_restore_label": "",
             "mass_restore_modal": {
                 "title": "还原选择的主题帖",
                 "text_start": "确定要还原 ",
                 "text_end": " 已选择的主题帖？",
                 "submit_button": "还原主题帖",
                 "success": "已成功还原选择的主题帖"
+            },
+            "mass_restore_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
             },
             "mass_delete_modal": {
                 "title": "永久删除主题帖",
@@ -46,7 +73,15 @@
                 "submit_button": "永久删除主题帖",
                 "success": "已永久删除选择的主题帖"
             },
+            "mass_delete_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
             "bulk_delete_label": "删除选择的主题帖",
+            "bulk_post_delete_label": "",
             "pagination": {
                 "first_page_button": "第一页",
                 "back_button": "上一页",
@@ -55,7 +90,17 @@
                 "next_button": "下一页",
                 "last_page_button": "最后一页"
             },
-            "mass_help_text": "请在批量操作后耐心等待页面刷新"
+            "mass_help_text": "请在批量操作后耐心等待页面刷新",
+            "grid": {
+                "invalid_column_content": ""
+            },
+            "post": {
+                "id": "",
+                "title": "",
+                "open_post": ""
+            },
+            "title": "回收站",
+            "discussion_author": "作者"
         }
     }
 }
