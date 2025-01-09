@@ -15,26 +15,26 @@
                     "delete_posts_help": "",
                     "heading": "",
                     "introduction": "",
-                    "move_discussions_to_tags_label": "",
+                    "move_discussions_to_tags_label": "Liiguta vestlused siltide alla",
                     "move_discussions_to_tags_help": ""
                 },
                 "stopforumspam": {
                     "heading": "StopForumSpam",
                     "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
+                    "username_label": "Kasutajanime spämmikontroll",
+                    "ip_label": "IP aadressi rämpsposti tõrje",
+                    "email_label": "E-posti rämpsposti tõrje",
                     "frequency_label": "Lävi",
                     "frequency_help": "",
                     "api_key_label": "API võti",
                     "api_key_text": "",
                     "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
-                    "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
+                    "regional_endpoint_label": "Asukohapõhine ligipääs",
+                    "regional_endpoint_help": "Vaikimisi suunatakse sind lähimasse serverisse, et anda sulle võimalikult kiire vastus. Kui soovid piirata saidi liiklust mingi konkreetse piirkonnaga, et pidada kinni ettevõtte või riigi privaatsusreeglitest, siis saad sundida looma ühenduse mingi konkreetse piirkonna kaudu.",
+                    "region_closest_label": "Lähimad",
+                    "region_europe_label": "Euroopa",
+                    "region_us_label": "USA",
+                    "confidence_label": "Kindlus",
                     "confidence_help": "",
                     "email_hash_label": "",
                     "email_hash_help": "",
@@ -45,18 +45,18 @@
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
+                "button": "Blokeeritud liitumised",
+                "title": "Blokeeritud liitumised",
+                "no-records": "Ühtegi blokeeritud liitumist ei leitud.",
                 "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "attempted-at": "Katse aeg",
+                "ip": "IP aadress",
+                "email": "E-posti aadress",
+                "username": "Kasutajanimi",
+                "login-provider": "Sisselogimise teenus",
+                "login-provider-data": "Sisselogimise teenuse andmed",
+                "sfs-data": "StopForumSpam andmed",
+                "delete_entry": "Kustuta sissekanne"
             }
         },
         "forum": {
@@ -66,22 +66,22 @@
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
-                "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
+                "hard_delete_discussions_label": "Kustuta vestlused",
+                "hard_delete_discussions_help": "See kustutab jäädavalt kõik selle kasutaja poolt algatatud vestlused. Kui see on välja lülitatud, siis vestlused peidetakse.",
+                "hard_delete_posts_label": "Kustuta postitused",
+                "hard_delete_posts_help": "See kustutab jäädavalt kõik selle kasutaja poolt tehtud postitused (kommentaarid, vastused jne.). Kui see on välja lülitatud, siis postitused peidetakse.",
+                "hard_delete_user_label": "Kustuta kasutaja",
+                "hard_delete_user_help": "See kustutab jäädavalt selle kasutaja. Kui see on välja lülitatud, siis kasutaja blokeeritakse.",
+                "intro": "Kui kasutaja märgitakse spämmijaks, siis sooritatakse mitmed toimingud, mis sõltuvad lisaprogrammidest, mis on saadaval sinu foorumis.",
+                "move_discussions_tag_label": "Liiguta vestlused karantiini sildi alla",
+                "move_discussions_tag_help": "See liigutab kõik selle kasutaja poolt alustatud vestlused sinu määratud sildi alla. Kui see on välja lülitatud, siis vestlused jäävad oma varasema sildi alla.",
+                "process_button": "Töötle",
+                "title": "Märgi {username} spämmijaks",
+                "report_to_sfs_label": "Teavita StopForumSpam-i",
                 "report_to_sfs_help": ""
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "Spämmija"
             }
         }
     }
