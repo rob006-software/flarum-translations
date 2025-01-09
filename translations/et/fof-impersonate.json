@@ -5,21 +5,21 @@
                 "login": "Logi sisse kui teine kasutaja"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "Kasutaja kehastamine",
+                "require_reason": "Nõua enne teise kasutaja kehastamist põhjuse sisestamist.",
+                "no_settings_available": "Seadeid pole praegu saadaval Proovi paigaldada lisaprogramm fof/moderator-notes"
             }
         },
         "lib": {
             "modal": {
                 "title": "Logi sisse kui teine kasutaja",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "label": "Suure võimuga tuleb ka suur vastutus. Jätkates oled sa kasutaja {username} kuni sa välja logid.",
+                "placeholder_optional": "(valikuline) Sisesta põhjus, miks sa lülitud sellele kasutajakontole",
+                "placeholder_required": "Enne jätkamist pead sisestama põhjuse, miks sa lülitud sellele kasutajakontole",
+                "impersonate_username": "Logi sisse kui {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Logi sisse kui kasutaja"
             }
         }
     }
