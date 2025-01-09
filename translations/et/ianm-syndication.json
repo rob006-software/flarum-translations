@@ -4,54 +4,54 @@
             "autodiscovery": {
                 "forum_activity": "Foorumi aktiivsus",
                 "forum_new_discussions": "Foorumi uued vestlused",
-                "tag_activity": "",
-                "tag_new_discussions": "",
+                "tag_activity": "Tegevus sildiga {tag}",
+                "tag_new_discussions": "Vestlused sildiga {tag}",
                 "discussion_last_posts": "See vestlus",
                 "user_last_posts": "Selle kasutaja postitused"
             },
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": ""
+                        "title_reply": "Vastus: {discussion}"
                     }
                 },
                 "titles": {
                     "main_title": "{forum_name}",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": "",
-                    "user_title": "",
-                    "user_subtitle": ""
+                    "main_subtitle": "Viimane postitus foorumis",
+                    "main_d_title": "Uued vestlused foorumis {forum_name}",
+                    "main_d_subtitle": "Uusimad vestlused foorumis",
+                    "tag_title": "Tegevused sildiga {tag}",
+                    "tag_subtitle": "Viimased postitused sildiga {tag}",
+                    "tag_d_title": "Uus vestlus sildiga {tag}",
+                    "tag_d_subtitle": "Uued vestlused sildiga {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Viimased sõnumid vestluses",
+                    "user_title": "{username}",
+                    "user_subtitle": "Viimased postitused ja kommentaarid sellelt kasutajalt."
                 }
             },
             "discussion": {
-                "feed_link": ""
+                "feed_link": "Uudisvoog"
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
-                    "label": "",
-                    "help": ""
+                    "label": "Täis-teksti uudisvood",
+                    "help": "Kui see on välja lülitatud, siis uudisvood sisaldavad ainult väljavõtteid postitusest ja kasutajad peavad kõige lugemiseks foorumisse minema. Soovitame selle valiku jätta sisse lülitatuks, et olla lugupidavad kasutajate vasu, kes kasutavad RSS lugejaid."
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Vormindatud uudisvood",
+                    "help": "Märgi see valik, et säilitada loodud uudisvood HTML. Kui see on välja lülitatud, siis näidatakse uudisvooge lihttekstina."
                 },
-                "entries-count": "",
+                "entries-count": "Kui palju sissekandeid uudisvoo kohta?",
                 "forum-icons": {
-                    "label": "",
-                    "help": ""
+                    "label": "Näita foorumis Atom/RSS linke",
+                    "help": "Näitab uudisvoogude ikoone kõigi vestluste, siltide ja vestlustel lehel."
                 },
                 "forum-link-format": {
-                    "label": "",
-                    "help": ""
+                    "label": "Foorumi uudisvoo vorming",
+                    "help": "Vali, mis vormingut (Atom või RSS) peaks foorumi linkidel kasutama."
                 }
             }
         }
