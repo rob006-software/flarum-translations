@@ -12,17 +12,17 @@
                 "deleted": "Kustutas vestluse `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Lõi grupi `{1}`",
+                "renamed": "Nimetas ümber grupi. Uus nimi on `{1}`",
+                "deleted": "Kustutas grupi `{1}`"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
+                "posted": "Uus postitus`{1}`",
+                "revised": "Muutis postitust `{1}`",
+                "hidden": "Peitus postituse `{1}`",
                 "restored": "",
-                "deleted": "",
-                "approved": ""
+                "deleted": "Kustutas postituse silidiga `{1}`",
+                "approved": "Kiitis heaks postituse sildiga `{1}`"
             },
             "user": {
                 "registered": "Uus kasutaja on registreeritud",
@@ -40,8 +40,8 @@
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": "",
+                "service_not_found": "Teenust \"{service}\" ei leitud.",
+                "url_invalid": "URL ei sobi valitud teenuse jaoks.",
                 "tag_invalid": "",
                 "tag_disabled": ""
             },
@@ -49,10 +49,10 @@
                 "desc": ""
             },
             "settings": {
-                "debug_label": "",
+                "debug_label": "Veatuvastus",
                 "debug_help": "",
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "Ükskõik, milline silt"
                 },
                 "help": {
                     "disabled": "",
@@ -63,14 +63,14 @@
                 "modal": {
                     "title": "",
                     "description": "",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
+                    "use_plain_text_label": "Vähenda vormindamist postituse sisus",
+                    "max_post_content_length_label": "Maksimaalne postituse sisu pikkus",
                     "max_post_content_length_help": "",
                     "extra_text_label": "Lisa tekst",
                     "extra_text_help": "",
                     "group_label": "Grupp",
                     "group_help": "",
-                    "name_label": "",
+                    "name_label": "Nimi",
                     "name_help": "",
                     "events_label": "Sündmused"
                 },
