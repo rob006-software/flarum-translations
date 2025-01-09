@@ -9,23 +9,23 @@
             },
             "settings": {
                 "errors": {
-                    "no_connection": ""
+                    "no_connection": "Statistika tõmbamine ebaõnnestus. Palun kontrolli oma API kasutajaandmeid."
                 },
                 "site_id": {
                     "label": "Veebisaidi ID",
-                    "help": ""
+                    "help": "Flarumi veebisaidi ID Umami saidil. Võid selle saidi info leida Umami seadetest."
                 },
                 "domain": {
                     "label": "Domeen",
-                    "help": ""
+                    "help": "Domeen, kus Umami asub."
                 },
                 "username": {
-                    "label": "",
-                    "help": ""
+                    "label": "Konto kasutajanimi",
+                    "help": "Valikuline. Ülaloleval domeenil olev kasutajakonto. (kasutatakse admini töölaua vidina jaoks)"
                 },
                 "password": {
-                    "label": "",
-                    "help": ""
+                    "label": "Konto parool",
+                    "help": "Valikuline. Ülaloleva kasutajakonto parool. (kasutatakse admini töölaua vidina jaoks)"
                 }
             }
         }
