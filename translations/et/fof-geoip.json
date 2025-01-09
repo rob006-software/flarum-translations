@@ -21,13 +21,13 @@
                 "service_ipapi-pro_label": "IP API pro",
                 "service_ipapi-pro_description": "Kasuta teenust <b>https://members.ip-api.com/#pricing</b>. Pro paketil kasutuspiirangut pole.",
                 "service_iplocation_label": "IP asukoht",
-                "service_iplocation_description": "",
+                "service_iplocation_description": "Kasuta saiti <b>https://www.iplocation.net/</b>, et hankida riigi ja ISP andmed. Kontrollimiste limiit pole teada.",
                 "service_ipsevenex_label": "7x Geolocation API",
-                "service_ipsevenex_description": "",
+                "service_ipsevenex_description": "Kasuta tasuta API koodi saidilt <b>https://7x.ax</b>, et hallata kuni 20 päringut minuti kohta. Tasulistel plaanidel on saadaval ka kõrgem kasutuslimiit.",
                 "access_key_label": "Ligipääsu võti",
                 "quota_label": "Kontrollimise piirang",
-                "show_flag_label": "",
-                "show_flag_help": ""
+                "show_flag_label": "Näita iga postituse juures riigi lipu",
+                "show_flag_help": "Näita postituse autori aadressi vastavalt nende IP-le, aga samas ära näita nende IP-aadressi. Kasutaja peab selle valiku ka oma eelistustest sisse lülitama."
             }
         },
         "forum": {
@@ -61,7 +61,7 @@
         "admin": {
             "settings": {
                 "showIPCountry": "Näita kasutajate postituste juures riigi lippu",
-                "showIPCountry-help": ""
+                "showIPCountry-help": "See põhineb postitamise ajal kasutatud IP-aadressile. Riigi lipp (kui selle kasutamine on sisse lülitatud) on nähtav kõigile kasutajatele. Adminid näevad IP-aadressi."
             }
         }
     }
