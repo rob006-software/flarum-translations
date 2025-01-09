@@ -3,7 +3,7 @@
         "admin": {
             "glossary": {
                 "button": "Sõnastik",
-                "create_button": "",
+                "create_button": "Loo uus termin",
                 "section": {
                     "heading": "Sõnastiku seaded",
                     "help": ""
@@ -11,46 +11,46 @@
             },
             "permission": {
                 "refresh-translation": "",
-                "translate-to-locale": "",
-                "translate-to-all-locales": "",
-                "edit-translation": ""
+                "translate-to-locale": "Vaata tõlget kohalikus keeles",
+                "translate-to-all-locales": "Vaata tõlget ükskõik, mis foorumi keeles",
+                "edit-translation": "Muuda tõlget käsitsi"
             },
             "settings": {
                 "general": {
-                    "heading": "",
+                    "heading": "Üldised seaded",
                     "help": ""
                 },
                 "seo": {
                     "heading": "SEO seaded",
                     "help": "",
-                    "default-lang": "",
+                    "default-lang": "Kattub foorumi vaikimisi keelega",
                     "default-lang-help": ""
                 },
                 "providers": {
-                    "heading": "",
+                    "heading": "Tõlketeenuse seaded",
                     "help": ""
                 },
                 "button": "Seaded",
-                "seemless": "",
+                "seemless": "Sujuv tõlkimine",
                 "seemless-help": "",
                 "multi-lang-search": "Mitmekeelne otsing",
                 "multi-lang-search-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "",
-                        "label": ""
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "en_choice": {
-                        "help": "",
-                        "label": "",
+                        "help": "Kui tõlgitakse inglise keelde, siis vali, mis variatsiooni peaks kasutama.",
+                        "label": "Inglise keele variant",
                         "options": {
-                            "en-US": "",
+                            "en-US": "Inglise (US) en-US",
                             "en-GB": "Inglise (UK) en-GB"
                         }
                     },
                     "formality": {
                         "help": "",
-                        "label": "",
+                        "label": "Formaalsus",
                         "options": {
                             "default": "Vaikeväätus",
                             "prefer_less": "Vähem ametlik",
@@ -86,7 +86,7 @@
                 "use-native-locale-names-help": "",
                 "translate-polls": "Tõlgi küsitlused",
                 "translate-polls-help": "",
-                "translate-quiz": "",
+                "translate-quiz": "Tõlgi küsitlusi",
                 "translate-quiz-help": "",
                 "provider": "Tõlketeenuse pakkuja",
                 "readme-info": "",
@@ -95,7 +95,7 @@
         },
         "forum": {
             "unknown-language": "[pole tuvastatud]",
-            "detected-language": "",
+            "detected-language": "See postitus on {postLang} keeles",
             "translate-button-label": "Tõlgi",
             "refresh-translation": "Värskenda tõlget",
             "original-content": {
@@ -113,20 +113,20 @@
                     "title": "Halda postituse tõlkeid"
                 },
                 "poll": {
-                    "image-alt": "",
+                    "image-alt": "Pildi ALT tekst (kui on olemas)",
                     "option": "Küsitluse vastusevariant {number}",
-                    "subtitle": "",
+                    "subtitle": "Alampealkiri",
                     "title": "Halda küsitluste tõlkeid",
-                    "question": "Küsitluse küsimus",
+                    "question": "Küsimus",
                     "question-language": "Küsitluse küsimus ({language})"
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
                     "title": "",
-                    "question": "",
-                    "subtitle": "",
-                    "option": "",
-                    "answer-additional": ""
+                    "question": "Küsimus",
+                    "subtitle": "Alampealkiri",
+                    "option": "Vastus {number}",
+                    "answer-additional": "Korrektse vastluse selgitus"
                 }
             },
             "discussion": {
