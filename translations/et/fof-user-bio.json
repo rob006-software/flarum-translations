@@ -2,25 +2,25 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Isiku lühitutvustuse vaatamine",
+                "editOwn": "Omaenda lühitutvustuse muutmine",
+                "editAny": "Iga isiku lühitutvustuse muutmine"
             },
             "setting": {
-                "bioLimit": "",
-                "maxLines": "",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "bioLimit": "Isiku lühitutvustuse pikkuse limiit",
+                "maxLines": "Korraga näidatav ridade arv",
+                "allowFormatting": "Luba isiku lühitutvustuses teksti vormindamine",
+                "allowFormatting_help": "By design, this formatting is separate from post formatting. If the BBCode and/or Markdown extensions are enabled, they will be available to format the bio. No images or embeds are allowed. Extensions that add to the Flarum formatter must *explicitly* add support for the bio formatter."
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": "",
+            "userbioPlaceholder": "Kirjuta midagi enda kohta",
+            "userbioPlaceholderOtherUser": "Kirjuta isikukirjeldus kasutajale {username}",
             "profile": {
-                "cancel_confirm": "",
+                "cancel_confirm": "Oled sa kindel, et soovid oma isikukirjelduse muutmise tühistada? Kaotad kõik muudatused, mida oled siin teinud.",
                 "cancel_button": "Tühista",
                 "save_button": "Salvesta",
-                "edit_bio_label": ""
+                "edit_bio_label": "Muuda isikukirjeldust"
             }
         }
     }
