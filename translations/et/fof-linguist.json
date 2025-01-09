@@ -34,8 +34,8 @@
                 "missing": "Leia puuduvad tõlked",
                 "missing-middle-label": "",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "Koos",
+                    "without": "Ilma"
                 },
                 "type-options": {
                     "any": "Algne või kohandatud",
@@ -43,14 +43,14 @@
                     "own": "Kohandatud"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "emb-kumb",
+                    "and": "Kõik"
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
+                "for-extension": "Lisaprogrammile",
+                "frontend": "Saidil",
+                "frontend-all-except-admin": "Kõik v.a. admin",
                 "mass-edit": "Hulgi muutmine",
-                "results": ""
+                "results": "Näidatakse {shown} sobivat tõlgest {total}-st"
             },
             "clear-cache": {
                 "text": "",
@@ -68,8 +68,8 @@
                 "columns": {
                     "namespace": "Nimeruum",
                     "total": "Kokku",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "all-except-admin": "Foorum ja muu saidi osa",
+                    "all-frontends": "Näita kõiki saidi tekste"
                 },
                 "count": {
                     "percent": "{percent} %",
@@ -77,7 +77,7 @@
                     "details": "{total} kokku / {original} algset / {custom} kohandatud"
                 },
                 "all-namespaces": "Kõik",
-                "apply-missing-filter": ""
+                "apply-missing-filter": "Näita sobivaid puuduvaid tõlkeid"
             },
             "export": {
                 "title": "Ekspordi",
@@ -99,7 +99,7 @@
                 "input-placeholder": "",
                 "locale": "Keel",
                 "locale-all": "",
-                "override-existing": "",
+                "override-existing": "Kirjuta minu olemas olevad kohandatud tõlked üle",
                 "submit": "Impordi",
                 "results": "",
                 "results-with-ignore": ""
@@ -111,8 +111,8 @@
             "known-frontend": {
                 "forum": "Foorum",
                 "admin": "Admin",
-                "lib": "",
-                "ref": "",
+                "lib": "Lib (kasutatakse nii foorumis kui ka adminiliideses)",
+                "ref": "Viide (teiste võtmeta taaskasutamine)",
                 "api": "API"
             }
         }
