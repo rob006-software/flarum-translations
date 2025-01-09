@@ -6,7 +6,7 @@
             },
             "unknown": "tundmatu",
             "temp": "0°",
-            "not-supported": "",
+            "not-supported": "See veebisirvija ei toeta asukoha tuvastamist.",
             "wind": "Kiirus",
             "rain": "Vihm",
             "clouds": "Pilved",
@@ -14,9 +14,9 @@
         },
         "admin": {
             "apiKey": "API võti",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey-help": "Aseta siia oma asuta API võti, mis on loodud saidil https://openweathermap.org/api",
+            "lang": "Vali väljundi keel (ainult 1 eesliide)",
+            "lang-help": "sellesse välja lisa oma keele eesliide (nt. et, fi, it, en). Kontrollib aadressilt <strong>https://openweathermap.org/api/one-call-api#multi</strong>"
         }
     }
 }
