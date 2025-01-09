@@ -2,37 +2,37 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "Tase {tier} : {from} kuni {to} postitust",
                 "icon-manager": {
                     "title": "Ikoonide haldamine",
                     "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
                     "title": "Tekstisildi haldur",
-                    "help": ""
+                    "help": "Kohanda tasemete nimesid"
                 }
             },
-            "levelOne": "",
-            "levelOne-help": "",
-            "levelTwo": "",
-            "levelTwo-help": "",
-            "levelThree": "",
-            "levelThree-help": "",
-            "levelFour": "",
-            "levelFour-help": "",
-            "levelFive": "",
-            "levelFive-help": "",
-            "levelSix": "",
-            "levelSix-help": ""
+            "levelOne": "Muuda 1. taseme ikooni - \"Beebi\"",
+            "levelOne-help": "aseta siia fontawesome ikoon, mida soovid 1. tasemel näidata (nt. \"fas fa-square\")",
+            "levelTwo": "Muuda 2. taseme ikooni - \"Uus kasutaja\"",
+            "levelTwo-help": "aseta siia fontawesome ikoon, mida soovid 2. tasemel näidata (nt. \"fas fa-square\")",
+            "levelThree": "Muuda 3. taseme ikooni - \"Rääkija\"",
+            "levelThree-help": "aseta siia fontawesome ikoon, mida soovid 3. tasemel näidata (nt. \"fas fa-square\")",
+            "levelFour": "Muuda 4. taseme ikooni - \"ÕPetaja\"",
+            "levelFour-help": "aseta siia fontawesome ikoon, mida soovid 4. tasemel näidata (nt. \"fas fa-square\")",
+            "levelFive": "Muuda 5. taseme ikooni - \"Monster\"",
+            "levelFive-help": "aseta siia fontawesome ikoon, mida soovid 5. tasemel näidata (nt. \"fas fa-square\")",
+            "levelSix": "Muuda 6. taseme ikooni - \"Guru\"",
+            "levelSix-help": "aseta siia fontawesome ikoon, mida soovid 6. tasemel näidata (nt. \"fas fa-square\")"
         },
         "forum": {
-            "less10post": "",
-            "less50post": "",
-            "less100post": "",
-            "less300post": "",
-            "less600post": "",
-            "less1000post": "",
-            "hasWritten": ""
+            "less10post": "Beebi",
+            "less50post": "Uus kasutaja",
+            "less100post": "Rääkija",
+            "less300post": "Õpetaja",
+            "less600post": "Monster!",
+            "less1000post": "Guru!",
+            "hasWritten": "{count, plural, one {# postitus kirjutatud} other {# postitust kirjutatud}}"
         }
     }
 }
