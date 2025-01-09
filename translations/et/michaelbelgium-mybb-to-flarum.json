@@ -2,31 +2,31 @@
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
             "content": {
-                "description_text": "",
+                "description_text": "Migreeri MyBB foorum sellele Flarumi saidile. Sisesta vajalik info ning seejärel kliki nupule \"Migreeru\".",
                 "convert_button": "Migreeru",
                 "form": {
                     "options": {
                         "title": "Muud valikut",
-                        "migrate_avatars_label": "",
-                        "migrate_soft_threads_label": "",
-                        "migrate_soft_posts_label": "",
+                        "migrate_avatars_label": "Avataride migreerimine",
+                        "migrate_soft_threads_label": "Migreeri prügikastis olevad vestlused",
+                        "migrate_soft_posts_label": "Migreeri prügikastis olevad postitused",
                         "migrate_attachments_label": "Migreeri lisatud failid"
                     },
                     "mybb": {
                         "title": "MyBB seaded",
                         "host_label": "Andmebaasi host",
-                        "user_label": "",
-                        "password_label": "",
-                        "db_label": "",
-                        "prefix_label": "",
-                        "path_label": ""
+                        "user_label": "Andmabaasi kasutaja",
+                        "password_label": "Andmebaasi parool",
+                        "db_label": "Andmebaasi nimi",
+                        "prefix_label": "Tabeli eesliide",
+                        "path_label": "MyBB kaust"
                     },
                     "general": {
-                        "title": "",
-                        "migrate_users_label": "",
-                        "migrate_threadsPosts_label": "",
-                        "migrate_userGroups_label": "",
-                        "migrate_categories_label": ""
+                        "title": "Üldised valikud",
+                        "migrate_users_label": "Migreeri kasutajad",
+                        "migrate_threadsPosts_label": "Migreeri vestlused ja postitused",
+                        "migrate_userGroups_label": "Migreeri kasutajagrupid",
+                        "migrate_categories_label": "Migreeri kategooriad"
                     }
                 }
             }
