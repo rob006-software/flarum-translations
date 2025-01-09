@@ -5,9 +5,9 @@
                 "title": "Liida vestlused",
                 "ordering_heading": "Liitmise järjestus",
                 "ordering_date_label": "Liida postitused kuupäevade järgi",
-                "ordering_date_help": "",
+                "ordering_date_help": "Loodavas vestluses järjestatakse vestlused nende loomise kuupäevade järgi",
                 "ordering_suffix_label": "Lisa liidetud sõnumid vestluse lõppu",
-                "ordering_suffix_help": "",
+                "ordering_suffix_help": "Postitused, mis liidetakse lõpliku teemaga pannakse vestluse lõppu",
                 "type_heading": "Liitmise liik",
                 "type_target_label": "Liida vestlusega",
                 "type_target_help_text": "Vali vestlus(ed), mida liita <b>{title}</b>",
@@ -17,7 +17,7 @@
                 "submit_button": "Liida"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Kasutaja {username} liitis sinu vestluse <b>{oldTitle}</b> selle vestlusega.",
                 "preferences": {
                     "discussion_merged": "Kui keegi liidab minu vestluse teisega"
                 }
@@ -26,7 +26,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {Liideti <b>#</b> postitus teemast {titles}.} other {Liideti <b>#</b> postitust teemast {titles}.}}"
             }
         },
         "admin": {
@@ -34,8 +34,8 @@
                 "merge_discussions_label": "Liida vestlused"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "Kui palju vestlusi peaks otsing näitama, kui otsitakse vestluse liitmise hüpikaknas.",
+                "search_result_label": "Vestluste liitmise otsingu limiit"
             }
         },
         "api": {
