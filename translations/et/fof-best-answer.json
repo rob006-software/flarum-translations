@@ -22,12 +22,12 @@
                 "select_best_answer_reminder_days_help": "",
                 "select_best_answer_tags_label": "",
                 "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
+                "schedule_on_one_server": "Kasuta ajastaja jaoks 'onOneServer()' direktiivi",
+                "schedule_on_one_server_help": "Nõuab Redis/Memcache kasutamist",
                 "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
+                "schedule_stop_overnight_help": "9pl - 8el serveri aeg",
                 "schedule_log_output": "",
-                "show_filter_label": "",
+                "show_filter_label": "Näitab filtris parima vastuse valikut",
                 "show_filter_help": "",
                 "use_alt_ui": "Alternatiivne paigutus",
                 "use_alt_ui_help": "Parima vaesust nupud postituse jaluses",
@@ -47,7 +47,7 @@
                 "discussion_sidebar_jump_button_help": ""
             },
             "edit_tag": {
-                "qna_label": "",
+                "qna_label": "Luba selle sildi all parima vastuse kasutamine",
                 "reminders": ""
             }
         },
@@ -56,18 +56,18 @@
             "this_best_answer": "Vali parim vastus",
             "remove_best_answer": "Tühista valik",
             "best_answer_button": "Parim vastus",
-            "best_answer_label": "",
+            "best_answer_label": "märkis kasutaja <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Selles vestluses valitud postitust pole."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} märkis selle vestluse parimaks vastuseks",
+                "content": "Kui su küsimusele on vastatud, siis palun vali parim vastus",
+                "awarded": "{username} märkis sinu postituse parimaks vastuseks",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": "",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "Keegi märgib minu postituse kui parima vastuse",
+                    "best_answer_in_discussion": "Vestluses, milles ma osalen märgitakse parim vastus",
+                    "select_best_answer": "Automaatne meeldetuletus valida parim vastus vestluses, mille ma alustasin"
                 }
             },
             "index": {
@@ -80,16 +80,16 @@
                 "all_label": "Kõik küsimused",
                 "solved_label": "Lahendatud küsimused",
                 "unsolved_label": "Lahendamata küsimused",
-                "accessible_label": ""
+                "accessible_label": "Lahendatud/Lahendamata valik"
             },
             "composer": {
                 "titlePlaceholder": "Küsimused pealkiri"
             },
             "user": {
-                "best-answer-count": ""
+                "best-answer-count": "{count, plural, one { {count} parim vastus} other {{count} parimat vastust}}"
             },
             "search": {
-                "discussions_solutions_heading": "",
+                "discussions_solutions_heading": "Lahendusega vestlused",
                 "all_discussions_solutions_button": ""
             },
             "discussion": {
@@ -98,14 +98,14 @@
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "{display_name} märkis sinu postituse parimaks vastuseks",
+                "ba-set": "Parima vastuse märkis {display_name}",
+                "select": "Kas sa said oma küsimusele vastuse?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Hei {recipient_display_name},\n\nSuurepärane töö, {actor_display_name} märkis just sinu postituse vestluses {discussion_title} parimaks vastuseks. Aitäh, et olid abiks.\n\nVaata vestlust: {discussion_url}\n",
+                "ba-set": "Hei {recipient_display_name},\n\n{actor_display_name} märkis just vestluses {discussion_title}, milles sa osaled parima vastuse.\n\nHeida pilk peale: {discussion_url}\n",
+                "select": "Hei {recipient_display_name},\n\nLihtsalt mainime, et su küsimusele {discussion_title} on tulnud juba palju vastuseid. Loodetavasti on mõni neist aidanud sul sinu probleemi lahendada.\n\nSamuti oleks ka teistele kasutajatele abiks kui saaksid märkida selles vestluses parima vastuse. See aitab kasutajaid, kellel on sama küsimus ning väljendab tänu kasutajale, kes su küsimusele vastas. Nad annavad oma aega vabatahtlikult ning on kena neid selle eest tänada.\n\nVaata vestlust siit: {discussion_url} ja vali parim vastus.\n\nAitäh!\n"
             }
         }
     },
