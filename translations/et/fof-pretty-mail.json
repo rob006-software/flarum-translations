@@ -7,27 +7,27 @@
             "settings": {
                 "attributes": {
                     "body": "Sisaldab tegelikku kirja sisu",
-                    "forumStyle": "",
+                    "forumStyle": "Sisaldab <strong>kogu foorumi CSS-i</strong>",
                     "url": "Flarum <code>UrlGenerator</code>",
                     "settings": "",
-                    "link": ""
+                    "link": "Sisaldab e-kirjas linki"
                 },
-                "attributes_label": "",
+                "attributes_label": "Saadaolevad omadused",
                 "label": "E-kirja mallid",
                 "reset": "Taasta vaikeväärtused",
                 "confirm": "",
                 "default": "Vaikimisi mall",
-                "newPost": "",
-                "userMentioned": "",
-                "postMentioned": "",
-                "notifications": "",
-                "notificationHelp": "",
-                "template_help": ""
+                "newPost": "Flarumi tellimuse uue postituse e-kiri",
+                "userMentioned": "Flarumi kasutaja mainimise e-kiri",
+                "postMentioned": "Flarumi postituse mainimise e-kiri",
+                "notifications": "Teavituste mallid",
+                "notificationHelp": "Neis kirjades on soovitatav kasutada stiili \"$forumStyle\" kuna neis võidakse kasutada BBCODE-i. Seis võib olla ka omadus \"$user\" milles on kogu kasutaja info.",
+                "template_help": "Vaata igast mallist, kuidas iga omadust kasutada."
             },
             "css_settings": {
                 "label": "CSS-i seaded",
                 "help": "",
-                "switch_label": ""
+                "switch_label": "Kaasa täielik foorumi CSS"
             }
         }
     }
