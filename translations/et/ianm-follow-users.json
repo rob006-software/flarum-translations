@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "",
+                    "export_description": "Ekspordib kasutaja jälgimise üksikasjad.",
                     "anonymize_description": "=> flarum-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": ""
+                    "delete_description": "Kustutab kõik järgnevate kasutajatega seotud info."
                 }
             }
         }
@@ -16,16 +16,16 @@
                 "be_followed_label": "Luba kasutajatel jälgida"
             },
             "settings": {
-                "button-on-profile-label": "",
-                "stats-on-profile-label": ""
+                "button-on-profile-label": "Näita kasutajaprofiilil jälgimise nuppu",
+                "stats-on-profile-label": "Näitab jälgijaid ja jälgimis kasutaja profiilil"
             }
         },
         "forum": {
             "followed": "Jälgitav",
-            "followers": "",
+            "followers": "{count, plural, one {jälgija} other {jälgijat}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
-                "no_following": ""
+                "no_following": "Näib, et sa ei jälgi ühtegi kasutajat."
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
@@ -35,9 +35,9 @@
             "settings": {
                 "notify_new_follower_label": "Keegi jälgib mind",
                 "notify_new_unfollower_label": "Keegi lõpetas minu jälgimise",
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "block_follow": ""
+                "notify_new_discussion_label": "Keegi, keda ma jälgin alustab uut vestlust",
+                "notify_new_post_label": "Keegi, keda ma jälgin postitab olemas olevasse vestlusesse",
+                "block_follow": "Takistab kasutajatel mind jälgida"
             },
             "index": {
                 "follow_tag_button": "=> ianm-follow-users.lib.follow",
@@ -45,13 +45,13 @@
             },
             "notifications": {
                 "new_discussion_text": "{username} alustas",
-                "new_post_text": "",
+                "new_post_text": "{username} postitas vestluses",
                 "new_follower_text": "{username} jälgib sind",
-                "new_unfollower_text": ""
+                "new_unfollower_text": "{username} lõpetas sinu jälgimise"
             },
             "badge": {
                 "label": {
-                    "follow": "",
+                    "follow": "Jälgitavad vestlused",
                     "lurk": "Jälgib kõiki"
                 }
             },
@@ -60,42 +60,42 @@
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
-                    "no_user_attr_provided_err_debug": "",
+                    "title": "Vali kasutaja {username} jälgimise tase",
+                    "description": "Vali, kuidas sa soovid kasutajat <em>{username}</em> jälgida.",
+                    "follow_levels_heading": "Jälgimise tasemed",
+                    "follow_select_label": "Jälgimise liik",
+                    "no_user_attr_provided_err": "Oih, midagi läks selle akna avamisel valesti.",
+                    "no_user_attr_provided_err_debug": "Muutujat `user` ei sestatud loomisel aknasse SelectFollowUserLevel. Hüpikakent ei saa näidata.",
                     "save_btn": "Salvesta liik",
                     "cancel_btn": "Loobu"
                 }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
-            "new_follower_subject": "",
-            "new_post_subject": "",
-            "new_discussion_by_user_body": "",
-            "new_follower_body": "",
-            "new_post_body": ""
+            "new_discussion_by_user_subject": "[Kasutaja jälgimine] {title}",
+            "new_follower_subject": "[Kasutaja jälgimine] Sul on uus jälgija!",
+            "new_post_subject": "[Kasutaja jälgimine] Uus postitus vestluses {title}",
+            "new_discussion_by_user_body": "Hei {recipient_display_name},\n\n{user_display_name} alustas uut vestlust: {discussion_title}\n\nUut vestlust näed sellelt lingilt:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Hei {recipient_display_name},\n\n{follower_display_name} hakkas sind jälgima, mis tähendab, et talle antakse teada, kui alustad uut vestlust.\n\nNende kasutajaprofiili näed järgnevalt lingilt:\n\n{profile_url}\n",
+            "new_post_body": "Hei {recipient_display_name},\n\n{user_display_name} postitas vestlusesse: {discussion_title}\n\nUue tegevuse vaatamiseks vaata järgnevat linki:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nSa ei saa uusi teavitusi enne, kui oled viimaseid postitusi vaadanud.\n"
         },
         "lib": {
-            "following_link": "",
-            "follow": "",
-            "change_follow_type": "",
-            "unfollow": "",
+            "following_link": "Jälgitavad kasutajad",
+            "follow": "Jälgi",
+            "change_follow_type": "Muuda jälgimise liiki",
+            "unfollow": "Lõpeta jälgimine",
             "follow_levels": {
                 "unfollow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Ei jälgi",
+                    "description": "Ära saa mingeid teavitusi kasutaja <em>{username}</em> tegevuste kohta.\n"
                 },
                 "follow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Jälgi vestluseid",
+                    "description": "Saa teavitus, kui kasutaja <em>{username}</em> alustab uut vestlust.\n"
                 },
                 "lurk": {
-                    "name": "",
-                    "description": ""
+                    "name": "Jälgi kõiki",
+                    "description": "Saa teavitus, kui kasutaja <em>{username}</em> alustab uue vestluse või postitab ükskõik millisesse vestlusesse.\n"
                 }
             }
         }
