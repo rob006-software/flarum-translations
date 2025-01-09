@@ -3,26 +3,26 @@
         "admin": {
             "edit_group": {
                 "2fa_label": "2FA on nõutud",
-                "2fa_help": "",
-                "admin_2fa_help": ""
+                "2fa_help": "Nõua selle grupi kasutajatelt alati kahe-etapilise sisselogimise (2FA) kasutamist oma kontodel.",
+                "admin_2fa_help": "Grupi {adminName} liikmetel peab alati olema 2FA sisse lülitatud."
             },
             "permissions": {
-                "see_two_factor_status_label": "",
-                "manage_others_label": ""
+                "see_two_factor_status_label": "Vaata teiste kasutajate 2FA staatust",
+                "manage_others_label": "Teiste kasutajate 2FA haldamine"
             },
             "settings": {
                 "groups": {
-                    "title": "",
+                    "title": "2FA on nõutud gruppides",
                     "help": ""
                 },
-                "forum_logo_qr": "",
+                "forum_logo_qr": "Lisa QR-koodi foorumi logo",
                 "forum_logo_qr_help": "",
-                "forum_logo_qr_width": "",
-                "forum_logo_qr_width_help": "",
+                "forum_logo_qr_width": "Foorumi logo laius QR-koodis",
+                "forum_logo_qr_width_help": "Foorumi logo laius QG-koodis. Maks on 200.",
                 "logo_qr": "Logo QR-koodil",
                 "logo_qr_help": "",
                 "tokens": {
-                    "heading": "",
+                    "heading": "Ligipääsukoodid",
                     "help": "",
                     "kill_inactive_tokens": "",
                     "kill_inactive_tokens_help": "",
@@ -35,7 +35,7 @@
         },
         "forum": {
             "user_2fa": {
-                "alert_message": ""
+                "alert_message": "Et saaksid oma kontole jätkuvalt ligi pead kahe-etapilise autentimise välja lülitama."
             },
             "security": {
                 "two_factor_heading": "2FA",
@@ -50,18 +50,18 @@
                 "qr_code_alt": "",
                 "enter_token": "",
                 "verify_button": "Kinnita",
-                "loading_qr": "QR-koodi laadimine",
+                "loading_qr": "QR-koodi laadimine...",
                 "backup_codes": "Sinu varukoodid",
                 "backup_codes_instruction": "",
                 "saved_backup_codes_button": "Ma salvestasin need koodid",
                 "backup_codes_remaining": "",
-                "two_factor_enabled_confirmation": "",
+                "two_factor_enabled_confirmation": "Kahe-etapiline autentimine on sinu kontol sisse lülitatud.",
                 "ok_button": "OK",
-                "confirm_disable_2fa_title": "",
-                "confirm_disable_2fa_text": "",
-                "confirm_disable_2fa_text_other_user": "",
-                "cannot_disable": "",
-                "cannot_disable_tooltip": "",
+                "confirm_disable_2fa_title": "Kinnita kahe-etapilise autentimise välja lülitamine",
+                "confirm_disable_2fa_text": "Oled sa kindel, et soovid kahe-etapilise autentimise välja lülitada?",
+                "confirm_disable_2fa_text_other_user": "Oled sa kindel, et soovid kasutaja {username} kahe-etapilist autentimist välja lülitada? See eemaldab kõik konto tagavara koodid ja lülitab 2FA välja.",
+                "cannot_disable": "Praegused seaded määravad, et sa ei saa kahe-etapilist autentimist välja lülitada.",
+                "cannot_disable_tooltip": "2FA ei saa välja lülitada",
                 "cancel_button": "Loobu",
                 "qr_tab": "Skänneeri QR-kood",
                 "manual_tab": "Käsitsi seadistamine",
@@ -69,16 +69,16 @@
                 "manual_entry_instruction": ""
             },
             "log_in": {
-                "two_factor_placeholder": "",
-                "two_factor_required_message": ""
+                "two_factor_placeholder": "2FA kontrollkood, nt., 123456",
+                "two_factor_required_message": "Jätkamiseks on vaja korrektset 2FA kontrollkoodi."
             }
         },
         "email": {
             "subject": {
-                "status_changed": ""
+                "status_changed": "Kahe-etapiline autentimine {type} sinu kontole"
             },
             "body": {
-                "status_changed": ""
+                "status_changed": "Tere {recipient_display_name},\n\nKahe-etapiline autentimine {type} on sinu kontol sisse lülitatud {forum_url}.\n\nKui sina olid selle tegevuse algataja, siis ei pea sa siit midagi edasi tegema. Kui sa selle algataja pole, siis võta viivitamata ühendust foorumi administraatoriga.\n"
             },
             "status_type": {
                 "enabled": "sisse lülitatud",
@@ -87,11 +87,11 @@
         },
         "views": {
             "reset_password": {
-                "two_factor_token_label": ""
+                "two_factor_token_label": "2FA kontrollkood"
             },
             "two_factor_token": {
-                "title": "",
-                "submit_button": ""
+                "title": "Kahe-etapiline autentimine",
+                "submit_button": "Saada kood"
             }
         }
     },
@@ -99,8 +99,8 @@
         "lib": {
             "data": {
                 "twofactordata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Ekspordib 2FA staatuse ja krüpteeritud tagavarakoodid.",
+                    "delete_description": "Kustutab kõik 2FA andmed."
                 }
             }
         }
