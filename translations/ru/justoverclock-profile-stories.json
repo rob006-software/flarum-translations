@@ -2,38 +2,38 @@
     "justoverclock-profile-stories": {
         "admin": {
             "permission": {
-                "createStory": "",
-                "viewStory": "",
-                "editStory": "",
-                "deleteStory": ""
+                "createStory": "Создать новую историю",
+                "viewStory": "Смотреть глобальные истории",
+                "editStory": "Править истории",
+                "deleteStory": "Удалить истории"
             }
         },
         "forum": {
-            "successDelete": "",
-            "globalStoriesEmpty": "",
-            "globalStoriesDescription": "",
-            "heroTitle": "",
-            "StoryModalTitle": "",
-            "createStory": "",
-            "stories": "",
-            "storyTitle": "",
-            "storyImage": "",
-            "storyIcon": "",
-            "storyCta": "",
-            "storyContentText": "",
-            "storyContentLink": "",
-            "storyContentCta": "",
-            "previousStepBtn": "",
-            "nextStepBtn": "",
-            "saveBtn": "",
-            "nextPage": "",
-            "prevPage": "",
-            "youDontHavePermission": "",
-            "stories-count": "",
-            "globalStories": "",
-            "globalStoriesTitle": "",
+            "successDelete": "История успешно удалена!",
+            "globalStoriesEmpty": "Историй пока нет.",
+            "globalStoriesDescription": "Этот раздел содержит все истории, созданные нашими пользователями!",
+            "heroTitle": "истории",
+            "StoryModalTitle": "история",
+            "createStory": "Создать историю",
+            "stories": "Истории",
+            "storyTitle": "Заголовок истории (краткий)...",
+            "storyImage": "URL изображения истории (рекоменд. размер 500х300)",
+            "storyIcon": "fas fa-user",
+            "storyCta": "Текст кнопки",
+            "storyContentText": "Текст или HTML-код полной истории",
+            "storyContentLink": "URL",
+            "storyContentCta": "Текст кнопки",
+            "previousStepBtn": "Предыдущий шаг",
+            "nextStepBtn": "Следующий шаг",
+            "saveBtn": "Сохранить",
+            "nextPage": "следующий",
+            "prevPage": "предыдущий",
+            "youDontHavePermission": "У вас нет прав на создание новой истории!",
+            "stories-count": " {count, plural, one { {count} история} other {{count} историй}}",
+            "globalStories": "Истории пользователей",
+            "globalStoriesTitle": "Истории пользователей",
             "notifications": {
-                "newStory": ""
+                "newStory": "В вашем профиле есть новая история!"
             }
         }
     }
