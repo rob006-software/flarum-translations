@@ -7,12 +7,12 @@
             "page": {
                 "index": "avaleht",
                 "clients": "Halda kliente",
-                "scopes": "",
-                "tokens": ""
+                "scopes": "Halda ulatusi",
+                "tokens": "Halda kontrollkoode"
             },
             "settings": {
                 "display_mode": "Näitamise režiim",
-                "access_lifetime": "",
+                "access_lifetime": "Ligipääsukoodi pikkus (sekundites)",
                 "allow_implicit": "",
                 "enforce_state": "",
                 "require_exact_redirect_uri": "",
@@ -20,61 +20,61 @@
                 "allow_delete_records": ""
             },
             "clients": {
-                "client_id": "",
-                "client_secret": "",
-                "redirect_uri": "",
+                "client_id": "Kliendi ID",
+                "client_secret": "Kliendi salasõna",
+                "redirect_uri": "Ümbersuunamise URI",
                 "grant_types": "",
-                "scope": "",
-                "client_name": "",
-                "client_desc": "",
-                "client_icon": "",
-                "client_home": "",
-                "add_button": "",
-                "edit_client": ""
+                "scope": "Ulatus",
+                "client_name": "Nimi",
+                "client_desc": "Kirjeldus",
+                "client_icon": "Ikoon",
+                "client_home": "Avaleht",
+                "add_button": "Lisa klient",
+                "edit_client": "Muuda klienti"
             },
             "scopes": {
-                "scope": "",
+                "scope": "Ulatus",
                 "resource_path": "",
                 "method": "",
                 "is_default": "",
                 "scope_name": "",
                 "scope_icon": "",
-                "scope_desc": "",
-                "visible_fields": "",
-                "add_button": "",
-                "edit_scope": ""
+                "scope_desc": "Kirjeldus",
+                "visible_fields": "Nähtavad väljad",
+                "add_button": "Lisa ulatus",
+                "edit_scope": "Muuda ulatust"
             },
             "tokens": {
-                "add_token": "",
-                "delete_token": ""
+                "add_token": "Lisa kontrollkood",
+                "delete_token": "Kustuta kontrollkood"
             },
             "action": {
-                "delete_all_records_button": "",
-                "delete_all_records_confirm": "",
-                "delete_all_records_success": ""
+                "delete_all_records_button": "Kustuta kõik andmed",
+                "delete_all_records_confirm": "Kinnita kõigi andmete kustutamine",
+                "delete_all_records_success": "Kõik andmed on kustutatud"
             }
         },
         "forum": {
             "page": {
                 "title": {
-                    "authorize": ""
+                    "authorize": "Autoriseeri"
                 },
                 "label": {
-                    "authorized": ""
+                    "authorized": "autoriseerimise logid"
                 }
             },
             "authorize": {
                 "require_these_scopes": "",
-                "access": "",
-                "agree": "",
-                "deny": ""
+                "access": "Ligipääs kohta",
+                "agree": "Nõustu",
+                "deny": "Keela"
             },
             "authorized": {
-                "no_records": "",
-                "no_more_records": "",
-                "load_more": "",
-                "delete_button": "",
-                "delete_all_button": "",
+                "no_records": "Andmed puuduvad",
+                "no_more_records": "Andmeid pole",
+                "load_more": "Laadi rohkem",
+                "delete_button": "Kustuta see logi",
+                "delete_all_button": "Kustuta kõik logid",
                 "delete_all_confirm": ""
             }
         }
