@@ -1,41 +1,41 @@
 {
     "justoverclock-profile-stories": {
         "admin": {
-            "uploadLabel": "",
-            "uploadLabelHelp": "",
+            "uploadLabel": "Laadi üles bänner kasutaja lugude lehele",
+            "uploadLabelHelp": "Pea meeles, et pildi minimaalne laius peaks olema 1920px",
             "permission": {
-                "createStory": "",
-                "viewStory": "",
-                "editStory": "",
-                "deleteStory": ""
+                "createStory": "Loo uus lugu",
+                "viewStory": "Vaata üldiseid lugusid",
+                "editStory": "Muuda lugusid",
+                "deleteStory": "Kustuta lugu"
             }
         },
         "forum": {
-            "successDelete": "",
-            "globalStoriesEmpty": "",
-            "globalStoriesDescription": "",
-            "heroTitle": "",
-            "StoryModalTitle": "",
-            "createStory": "",
-            "stories": "",
-            "storyTitle": "",
-            "storyImage": "",
-            "storyIcon": "",
-            "storyCta": "",
-            "storyContentText": "",
-            "storyContentLink": "",
-            "storyContentCta": "",
-            "previousStepBtn": "",
-            "nextStepBtn": "",
-            "saveBtn": "",
-            "nextPage": "",
-            "prevPage": "",
-            "youDontHavePermission": "",
-            "stories-count": "",
-            "globalStories": "",
-            "globalStoriesTitle": "",
+            "successDelete": "Lugu on kustutatud!",
+            "globalStoriesEmpty": "Ühtegi lugu pole veel.",
+            "globalStoriesDescription": "Selles osas on meie kasutajate lood!",
+            "heroTitle": "lood",
+            "StoryModalTitle": "lugu",
+            "createStory": "Loo lugu",
+            "stories": "Lood",
+            "storyTitle": "Loo pealkiri (lühike)...",
+            "storyImage": "Loo pildi URL (eelistatud suurus on 500x300)",
+            "storyIcon": "fas fa-user",
+            "storyCta": "Nupu tekst",
+            "storyContentText": "Loo tekst või HTML",
+            "storyContentLink": "URL",
+            "storyContentCta": "nupu tekst",
+            "previousStepBtn": "eelmine samm",
+            "nextStepBtn": "järgmine samm",
+            "saveBtn": "Salvesta",
+            "nextPage": "järgmine",
+            "prevPage": "eelmine",
+            "youDontHavePermission": "Sul pole uue loo lisamiseks õiguseid!",
+            "stories-count": " {count, plural, one { {count} lugu} other {{count} lugu}}",
+            "globalStories": "Kasutajate lood",
+            "globalStoriesTitle": "Kasutajate lood",
             "notifications": {
-                "newStory": ""
+                "newStory": "Sul on uus profiili lugu!"
             }
         }
     }
