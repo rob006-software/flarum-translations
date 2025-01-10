@@ -21,7 +21,7 @@
                 "description_label": "Kirjeldus",
                 "description_placeholder": "Saavutuse kirjeldus",
                 "variable_label": "Muutuja",
-                "computation_label": "",
+                "computation_label": "Muutuja, mida arvutada: postitused, meeldimiste andmine, saadud meeldimised, kommentaarid, muutmised, avatar, sisu, aastad\n",
                 "computation_placeholder": "Number",
                 "points_label": "Punkte selle saavutuse eest",
                 "points_placeholder": "0\n",
@@ -32,16 +32,16 @@
                 "col_label": "Veerg",
                 "col_placeholder": "0",
                 "width_label": "Pildi laius",
-                "width_placeholder": "",
-                "height_label": "",
-                "height_placeholder": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "add_delete_title": "",
-                "username": "",
-                "username_placeholder": "",
-                "add_delete_instructions": "",
+                "width_placeholder": "32",
+                "height_label": "Pildi kõrgus",
+                "height_placeholder": "32",
+                "submit_button": "=> core.ref.save_changes",
+                "delete_button": "Kustuta saavutus",
+                "delete_confirmation": "Oled sa kindel, et soovid selle saavutuse kustutada?",
+                "add_delete_title": "Lisa või kustuta kasutaja saavutus",
+                "username": "Kasutajanimi",
+                "username_placeholder": "Kasutajanimi",
+                "add_delete_instructions": "Kui kasutajal saavutust pole, siis see lisatakse sellele. Kui kasutajal saavutust pole, siis see eemaldatakse.",
                 "variable": {
                     "manual": "Käsitsi",
                     "posts": "Postitusi",
@@ -57,30 +57,30 @@
                     "tagposts": "Postitused sildiga"
                 },
                 "tooltip": {
-                    "posts": "",
-                    "likes": "",
-                    "selflikes": "",
-                    "discussions": "",
-                    "edits": "",
-                    "contains": "",
-                    "comments": "",
-                    "years": "",
-                    "meanwords": "",
-                    "tagposts": ""
+                    "posts": "Minimaalne postituste arv (nt. 10) või vahemik (nt. 10,19)",
+                    "likes": "Minimaalne antud meeldimiste arv (nt. 10) või vahemik (nt. 10,19)",
+                    "selflikes": "Minimaalne saadud meeldimiste arv (nt. 10) või vahemik (nt. 10,19)",
+                    "discussions": "Minimaalne loodud vestlute arv (nt. 10) või vahemik (nt. 10,19)",
+                    "edits": "Minimaalne muudetud postituste arv (nt. 10) või vahemik (nt. 10,19)",
+                    "contains": "Sõna(d) arv ja minimaalne postituste arv, milles see esineb (nt. kana,10) või vahemik (nt. kana,10,19)",
+                    "comments": "Minimaalne vestlustes saadud vastuste arv (nt. 10) või vahemik (nt. 10,19)",
+                    "years": "Minimaalne aeg aastates, mil on olnud foorumiga liitunud (nt. 10) või vahemik (nt. 10,19)",
+                    "meanwords": "Keskmiselt sõnu postituse kohta, miinimum on 10. (nt. 10) või vahemik (nt. 10,19)",
+                    "tagposts": "Sildi lühinimi, mida minimaalsete postituste arvu puhul vaadatakse (nt. teema-valine,10) või vahemik (nt. teema-valine,10,19,)"
                 }
             },
             "achievements_page": {
-                "list_heading": "",
-                "create_achievement_button": "",
-                "instructions_header": "",
-                "instructions_text": "",
-                "add_delete_users": "",
-                "show": ""
+                "list_heading": "Saavutused",
+                "create_achievement_button": "Loo uus saavutus",
+                "instructions_header": "Juhendid",
+                "instructions_text": "<li>Saavutuse loomiseks pead lisama nime.</li>\n<li>Kirjeldus on valikuline.</li>\n<li>Vali nimekirjast, mis muutujat sa soovid selle saavutuse jaoks arvutada.</li>\n<li>Sisesta lävi, mis on vajalik saavutuse aktiveerumiseks. Võid sisestada kaks komaga (,) eraldatud väärtust, et näidata arvude vahemikku (mõlemad numbrid on kaasatud).</li>\n<li>Saavatused, millel on määratud vahemik, eemaldatakse kui ülemine lävi ületatakse.</li>\n<li>Saavutuses \"Sõnum sisaldab\" pead määrama konkreetsed sõnad ja seejärel nende lävi eraldatuna komadega (nt. \"spinat,5\" või \"spinat,5,10\" kui soovid kasutada vahemikku.)</li>\n<li>Sisesta pildi URL, mida kasutatakse saavutuse ikoonina.</li>\n<li>Sisesta ikooni laius ja kõrgus.</li>\n<li>Valikuline: Kui pildil on rohkem, kui üks saavutuse ikoon, siis võid valida mis reas ja veerus ikooni näidatakse.</li>\n",
+                "add_delete_users": "Lisa/Kustuta kasutaja saavutusi",
+                "show": "Näita saavutuste nimekirja:"
             },
             "settings": {
-                "show-post-footer": "",
-                "show-user-card": "",
-                "link-left-column": ""
+                "show-post-footer": "Iga postituse jaluses",
+                "show-user-card": "Kasutaja kaardil",
+                "link-left-column": "Lisa link saavutustele külgribale"
             }
         }
     }
