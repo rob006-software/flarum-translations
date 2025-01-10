@@ -4,7 +4,7 @@
             "settings": {
                 "show_progress_label": "Näita edenemist",
                 "show_progress_help": "",
-                "allow_close_label": "",
+                "allow_close_label": "Luba sulgemine",
                 "allow_close_help": "",
                 "skip_null_elements_label": "",
                 "skip_null_elements_help": ""
@@ -15,28 +15,28 @@
             "edit_modal": {
                 "edit_step": "Muuda {title}",
                 "create_step": "",
-                "delete_step": "",
-                "delete_step_confirmation": ""
+                "delete_step": "Kustuta samm",
+                "delete_step_confirmation": "Oled sa kindel, et soovid selle sammu kustutada?"
             },
-            "add_step": "",
-            "title": "",
-            "title_placeholder": "",
-            "description": "",
-            "description_placeholder": "",
-            "target": "",
+            "add_step": "Lisa uus samm",
+            "title": "Pealkiri",
+            "title_placeholder": "Sammu pealkiri.",
+            "description": "Kirjeldus",
+            "description_placeholder": "Sammu kirjeldus.",
+            "target": "Sihtkoht",
             "target_placeholder": "",
             "trigger_click": "",
-            "yes": "",
-            "no": ""
+            "yes": "Jah",
+            "no": "Ei"
         },
         "forum": {
             "progress_text": "",
-            "next_btn_text": "",
-            "prev_btn_text": "",
-            "done_btn_text": "",
+            "next_btn_text": "Järgmine",
+            "prev_btn_text": "Eelmine",
+            "done_btn_text": "Valmis",
             "user_controls": {
-                "reset_tour_guide": "",
-                "reset_tour_guide_confirmation": ""
+                "reset_tour_guide": "Alusta uuesti tuuri",
+                "reset_tour_guide_confirmation": "Oled sa kindel, et soovid seda kasutajat sundida uuesti tuuri läbima?"
             }
         }
     }
