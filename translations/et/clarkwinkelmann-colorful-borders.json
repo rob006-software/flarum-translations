@@ -4,7 +4,7 @@
             "edit": "Muuda stiili",
             "default": "Vaikeväärtus",
             "apply": "Rakenda",
-            "reset": "",
+            "reset": "Eemalda kohandatud stiil",
             "borderColor": "Piirjoone värv",
             "backgroundColor": "Taustavärv",
             "textColor": "Teksti värv",
@@ -13,22 +13,22 @@
         },
         "admin": {
             "permissions": {
-                "editOwnPost": "",
-                "editAnyPost": ""
+                "editOwnPost": "Omaenda postituse stiili muutmine",
+                "editAnyPost": "Kõigi postituste stiili muutmine"
             },
             "settings": {
-                "enableBorderColor": "",
-                "enableBackgroundColor": "",
-                "enableTextColor": "",
-                "enableBorderWidth": "",
-                "enableBorderRadius": "",
-                "min": "",
-                "max": "",
+                "enableBorderColor": "Kohandatav piirjoone värv",
+                "enableBackgroundColor": "Kohandatav taustavärv",
+                "enableTextColor": "Kohandatav teksti värv",
+                "enableBorderWidth": "Kohandatav piirjoone laius",
+                "enableBorderRadius": "Kohandatav piirjoone raadius",
+                "min": "Min",
+                "max": "Maks",
                 "colors": {
-                    "simple": "",
-                    "all": "",
-                    "custom": "",
-                    "custom-help": ""
+                    "simple": "Lihtne värvikomplekt",
+                    "all": "Kõik värvid",
+                    "custom": "Kohandatud värvide nimekiri",
+                    "custom-help": "Komadega eraldatud nimekiri #hex või rg() väärtustest"
                 }
             }
         }
