@@ -7,8 +7,8 @@
                     "trello_label": "Vali Trello silt",
                     "forum_tags": "Kasuta foorumi silt kaardilt"
                 },
-                "no_available_labels_label": "",
-                "no_available_tags_label": ""
+                "no_available_labels_label": "Silte pole saadaval",
+                "no_available_tags_label": "Foorumi silte pole saadaval"
             },
             "permissions": {
                 "add_to_trello": ""
@@ -17,22 +17,22 @@
                 "api_key_help": "",
                 "api_key_label": "API võti",
                 "api_token_help": "",
-                "api_token_label": "",
+                "api_token_label": "API kontrollkood",
                 "available_boards_label": "",
                 "button": {
-                    "add": "",
-                    "remove": ""
+                    "add": "Lisa",
+                    "remove": "Eemalda"
                 },
                 "default_board_help": "",
-                "default_board_label": "",
+                "default_board_label": "Vaikimisi töölaud",
                 "guest_workspace": "",
-                "in_trello": "",
+                "in_trello": "Trellos",
                 "include_secondary_tags_help": "",
                 "include_secondary_tags_label": "",
                 "label": {
-                    "general": "",
-                    "boards": "",
-                    "labels": ""
+                    "general": "Üldine",
+                    "boards": "Töölaua seaded",
+                    "labels": "Siltide seaded"
                 },
                 "mapping": {
                     "add_new": "",
@@ -43,12 +43,12 @@
                 "mappings_label": "",
                 "member_id_help": "",
                 "member_id_label": "",
-                "no_available_boards_label": "",
+                "no_available_boards_label": "Töölaudasid pole saadaval",
                 "no_label_name": "",
                 "no_selected_boards_label": "",
-                "selected_boards_label": "",
-                "save": "",
-                "tag": "",
+                "selected_boards_label": "Valitud töölauad",
+                "save": "Salvesta muudatused",
+                "tag": "Silt",
                 "unmapped_warning_label": "",
                 "unmapped_warning_help": ""
             }
@@ -61,24 +61,24 @@
             },
             "controls": {
                 "send_to_trello_button": "",
-                "view_on_trello_button": ""
+                "view_on_trello_button": "Vaata Trello kaarti"
             },
             "modals": {
                 "fields": {
-                    "board": "",
-                    "lane": "",
-                    "member": "",
+                    "board": "Vali trello kaart",
+                    "lane": "Vali Trello rida",
+                    "member": "Vali Trello liige",
                     "member_selected": ""
                 },
                 "no_available_board_lanes": "",
                 "no_available_board_members": "",
-                "no_available_boards_label": "",
+                "no_available_boards_label": "Töölaudasid pole saadaval",
                 "no_mappings_for_board": "",
-                "title": ""
+                "title": "Saada Trellosse"
             }
         },
         "lib": {
-            "original_post": ""
+            "original_post": "Algne postitus"
         }
     }
 }
