@@ -8,7 +8,7 @@
                 "signup": "Liitu"
             },
             "modal": {
-                "import": "",
+                "import": "Impordi minu {count} külalisena tehtud postitust",
                 "import-votes": ""
             },
             "badge": {
@@ -17,17 +17,17 @@
         },
         "admin": {
             "settings": {
-                "title": "",
-                "enableImport": "",
-                "sessionLifetime": "",
-                "usernames": ""
+                "title": "Külalise postitamise seaded",
+                "enableImport": "Luba olemasolevate postituste eksportimine liitumisel",
+                "sessionLifetime": "Külalise sessiooni pikkus tundides",
+                "usernames": "Juhuslikud kasutajanimed külalistele"
             }
         }
     },
     "core": {
         "lib": {
             "username": {
-                "deleted_text": ""
+                "deleted_text": "Külaline"
             }
         }
     }
