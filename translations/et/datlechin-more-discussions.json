@@ -5,23 +5,23 @@
                 "block_name_label": "Blokeeri nimi",
                 "block_name_help": "Bloki nimi (vaikimisi <code>Viimased vestlused</code>)",
                 "discussion_limit_label": "Vestluse limiit",
-                "discussion_limit_help": "",
+                "discussion_limit_help": "Näidatavate vestluste arv (vaikimisi <code>5</code>)",
                 "discussion_related_label": "Seotud tulemused",
                 "discussion_related_help": "",
                 "filter_by_label": "Filtreeri",
-                "filter_by_help": "",
+                "filter_by_help": "Filtreeri vestlusi (vaikimisi <code>viimased</code>)",
                 "filter_dropdown": {
                     "latest": "Viimased",
                     "top": "",
-                    "newest": "",
-                    "oldest": "",
+                    "newest": "Uusimad",
+                    "oldest": "Vanimad",
                     "hot": "",
                     "votes": ""
                 }
             }
         },
         "forum": {
-            "block_default_name": ""
+            "block_default_name": "Viimased vestlused"
         }
     }
 }
