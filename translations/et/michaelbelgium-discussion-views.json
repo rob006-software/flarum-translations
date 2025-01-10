@@ -10,12 +10,12 @@
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
+                "title": "Nulli vestluste vaatamiste arv",
                 "submit_button": "Jah, eemalda kohe",
-                "label": ""
+                "label": "{count, plural, one {See eemaldab vestluselt {count} vaatamise. Kas jätkan?} other {See eemaldab vestluselt {count} vaatamist. Jas jätkan?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Nulli vaatamised"
             },
             "viewlist": {
                 "title": "Viimased vaatajad",
@@ -23,32 +23,32 @@
             },
             "post": {
                 "viewed_by": "{users} vaatas seda.",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Kasutajad, kes viimati seda vestlust vaatasid"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Nulli vestluste vaatamised",
+                "view_number_label": "Vaata vestluste vaatamiste arvu"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "track_unique_text": "",
-                "track_guests_label": "",
-                "abbr_numbers_label": "",
-                "abbr_numbers_text": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "max_viewcount_text": "",
-                "show_viewlist_label": "",
-                "show_viewlist_text": "",
-                "show_footer_viewlist_label": "",
-                "show_footer_viewlist_text": "",
-                "ignore_crawlers_label": "",
-                "ignore_crawlers_text": ""
+                "title": "Vestluste vaatamiste arvu seaded",
+                "track_unique_label": "Jälgi unikaalseid vaatamisi",
+                "track_unique_text": "Kasvata vaatamisi vastavalt IP-aadressile",
+                "track_guests_label": "Jälgi külalisi",
+                "abbr_numbers_label": "Lühenda vaatamiste numbrid",
+                "abbr_numbers_text": "Kui see on sisse lülitatud, siis suured vaatamiste numbrid lühendatakse (nt. 1000 = 1K)",
+                "show_filter_label": "Lülita sisse sorteerimisei väli '(Eba)populaarsed'",
+                "max_viewcount_label": "Vaatajate nimekirja maks. pikkus",
+                "max_viewcount_text": "Määra maksimaalne kasutajate arv vaatajate nimekirjas (rakendatakse nii jalusele kui külgribal olevatele vaatajate nimekirjadele)",
+                "show_viewlist_label": "Luba vaatajate nimekiri",
+                "show_viewlist_text": "Lülita sisse külgribal nimekirja näitamine viimastest kasutajatest, kes seda vestlust vaatasid",
+                "show_footer_viewlist_label": "Lülita sisse vaatajate nimekiri jaluses",
+                "show_footer_viewlist_text": "Lülita sisse jaluses nimekirja näitamine viimastest kasutajatest, kes seda vestlust vaatasid",
+                "ignore_crawlers_label": "Ignoreeri roboteid",
+                "ignore_crawlers_text": "Takista robotitel vaatamise arvu kasvatamine"
             }
         }
     }
