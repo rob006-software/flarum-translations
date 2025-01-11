@@ -42,7 +42,7 @@
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
+                    "bucket": "Korv",
                     "key": "Võti",
                     "region": "Regioon",
                     "secret": "Salasõna",
@@ -51,7 +51,7 @@
                     "endpoint": "Lõpp-punkt",
                     "use_path_style_endpoint": "",
                     "acl": "",
-                    "custom_url": ""
+                    "custom_url": "Kohandatud S3 URL"
                 },
                 "disable-download-logging": {
                     "title": "Lülita allalaadimiste logimine välja",
@@ -64,21 +64,21 @@
                 "imgur": {
                     "client_id": "Imgur kliendi ID",
                     "title": "Imgur piltide säilitamise seaded",
-                    "tos": ""
+                    "tos": "Sina oled vastutav selle eest, sinu foorumi kasutajad järgivad Imguri <a>kasutustingimusi</a>"
                 },
                 "local": {
-                    "cdn_url": "",
+                    "cdn_url": "Sisu jagamise URL-id (eesliidesega failid)",
                     "title": "Kohalike failide salvestamise seaded"
                 },
                 "qiniu": {
                     "title": "QUNIU seaded",
                     "key": "Võti",
                     "secret": "Salasõna",
-                    "bucket": ""
+                    "bucket": "Korv"
                 },
                 "preferences": {
                     "max_file_size": "Maksimaalne failisuurus (kilobaitides)",
-                    "mime_types": "",
+                    "mime_types": "Seadista oma failitüüpi, üleslaadimise tüübi kaardistamine",
                     "title": "Üldised eelistused",
                     "php_ini_values": ""
                 },
@@ -88,7 +88,7 @@
                     "toggle": "Muuda piltide suurust"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Kasutaja lisatud failide laiendid"
                 },
                 "watermark": {
                     "file": "Laadi vesipilt üles",
@@ -104,7 +104,7 @@
                         "media-btn": "Ainult failihalduri nupp"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Testi failitüüpi"
             },
             "permissions": {
                 "download_label": "Laadi failid alla",
@@ -112,23 +112,23 @@
                 "view_user_uploads_label": "Kasutaja üleslaadimiste vaatamine",
                 "delete_uploads_of_others_label": "Kustuta kasutajate üleslaadimised",
                 "upload_shared_label": "Jagatud failide üleslaadimine",
-                "access_shared_label": ""
+                "access_shared_label": "Ligipääs jagatud failidele failihalduris"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
+                "file": "Vaikimisi faili allalaadimise mall",
+                "file_description": "Näitab failinime ja üldist infot. Allalaadimis suunatakse läbi PHP, mis lubab koguda statistikat ja kaitseb otsese linkimise eest.\n",
+                "image": "Vaikimisi pildi allalaadimise mall",
                 "image_description": "",
-                "image-preview": "",
+                "image-preview": "Lõpeta pildi eelvaate mall",
                 "image-preview_description": "",
-                "markdown-image": "",
+                "markdown-image": "Markdowni pildi mall",
                 "markdown-image_description": "",
-                "bbcode-image": "",
+                "bbcode-image": "BB-koodi pildi mall",
                 "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": "",
+                "just-url": "Ainult URL",
+                "just-url_description": "Sisestab ainult URL-i. Näitamist võivad mõjutada teised lisaprogrammid, mis saavad automaatselt linke luua. Allalaadimise funktsioone pole, statistikat ei koguta ning otselinkide kaitsemist ignoreeritakse.\n",
                 "text-preview": "Teksti eelvaade",
-                "text-preview_description": ""
+                "text-preview_description": "Sisestab tekstifaili eelvaate (esimesed 5 rida) koos võimalusega seda laiendada, et näha kogu faili sisu.\n"
             },
             "upload_methods": {
                 "aws-s3": "S3 või sellega ühilduv",
@@ -139,16 +139,16 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
+                "title": "Inspekteeri failitüüpi",
                 "description": "",
-                "select": "",
+                "select": "Vali alt fail, et inspekteerida väärtuseid, mida kasutatakse. Faili ei salvestata.",
                 "laravel-validation": "Laravel failide kinnitamine",
                 "no-file-selected": "Faili pole",
                 "validation-passed": "Korras",
                 "validation-failed": "Evaõnnestus: {error}",
-                "mime-detector": "",
+                "mime-detector": "Failitüübi tuvastaja (peamine)",
                 "mime-fileinfo": "PHP failiinfo (tagavaravariant)",
-                "guessed-extension": "",
+                "guessed-extension": "Vaikimisi faililaiend (kui algne pole valges nimekirjas)",
                 "not-available": "Tulemust pole"
             }
         },
@@ -169,7 +169,7 @@
                 "unauthorized": "Sul pole lubatud faile alla laadida"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "Üleslaadimisi, mis on suuremad kui {max} kb ei aktsepteerita."
             },
             "text_preview": {
                 "expand": "Laienda eelvaateid",
@@ -184,7 +184,7 @@
                 "forbidden_type": "Seda tüüpi failide üleslaadimine pole lubatud.",
                 "unsupported_type": "Üleslaadimise adapter ei toeta failitüüpi: {mime}.",
                 "could_not_detect_mime": "Selle failitüübi tuvastamine ebaõnnestus, palun proovi uuesti.",
-                "max_upload_file_size_ini": "",
+                "max_upload_file_size_ini": "Üleslaetava faili maksimaalne suurus on php.ini-s ületatud.",
                 "max_upload_file_size_form": "Maksimaalne failisuuruse limiit.",
                 "partial_upload": "Osaline üleslaadimine.",
                 "no_file_uploaded": "Ühtegi faili ei laaditud üles.",
@@ -228,7 +228,7 @@
                     "btn_a11y_label_show": "Tee fail \"{fileName}\" avalikuks (avalik URL)",
                     "hide_confirmation": "",
                     "hide_success": "Fail tehti privaatseks",
-                    "show_confirmation": "",
+                    "show_confirmation": "Oled sa kindel, et soovid teha faili \"{fileName}\" avalikuks? Faili avalikuks tegemine, teeb selle nähtavaks kõigile, kellel on ligipääs avalikult lingile ja kõik saavad seda failihalduriga jagada.",
                     "show_success": "Fail tehti avalikuks",
                     "hide_fail": "Faili \"{fileName}\" privaatseks tegemine ebaõnnestus",
                     "show_fail": "Faili \"{fileName}\" avalikuks tegemine ebaõnnestus",
