@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "disableLogin": "Keela sisse logimine",
-                "disableAccessTokens": "",
+                "disableAccessTokens": "Lülita ligipääsu koodi loomine välja",
                 "disableEmailChange": "Keela e-posti aadressi muutmine",
-                "disablePasswordChange": "",
+                "disablePasswordChange": "Lülita parooli vahetamine ja nullimine välja",
                 "disableAvatarEdit": "Keela avatari muutmine"
             }
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "accessToken": "",
-                "email": "",
-                "password": "",
-                "avatar": ""
+                "login": "Sisselogimise lõpp-punkt on välja lülitatud",
+                "accessToken": "Ligipääsukoodi loomine on välja lülitatud",
+                "email": "Sellelt leheküljelt ei saa e-posti aadressi muuta",
+                "password": "Sellelt lehelt ei saa parooli muuta",
+                "avatar": "Avatari muutmine on välja lülitatud"
             }
         }
     }
