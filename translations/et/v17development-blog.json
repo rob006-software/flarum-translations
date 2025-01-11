@@ -4,26 +4,26 @@
             "blog": "Blogi",
             "permissions": {
                 "write_articles": "Blogi artiklite kirjutamine ja muutmine",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "auto_approve_posts": "Postita artikleid ilma heakskiiduta",
+                "approve_posts": "Võib kiita heaks blogipostitusi"
             },
             "settings": {
-                "no_categories_selected": "",
+                "no_categories_selected": "Kategooriaid pole valitud",
                 "selected_category_count": "",
                 "select_categories_button": "Vali blogi kategooriad",
                 "blog_heading": "Blogi",
-                "featured_count_label": "",
+                "featured_count_label": "Maks. esiletõstetud postitusi",
                 "featured_count_text": "",
                 "allow_comments_label": "Luba kommentaarid",
                 "allow_comments_text": "",
-                "require_review_label": "",
+                "require_review_label": "Blogi postitused nõuavad ülevaatamist",
                 "require_review_text": "",
                 "hide_on_discussion_list_label": "Ära näita vestluste nimekirjas",
                 "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
+                "add_sidebar_nav_label": "Lisa külgriba menüüsse",
                 "add_sidebar_nav_text": "",
                 "categories_heading": "Kategooriad",
-                "hide_tags_in_taglist_label": "",
+                "hide_tags_in_taglist_label": "Peida sildid siltide nimekirja",
                 "hide_tags_in_taglist_text": "",
                 "show_tag_hierarchy_label": "Näita siltide hierarhiat",
                 "show_tag_hierarchy_text": "",
@@ -45,9 +45,9 @@
             "recent_posts": "Viimased blogipostitused",
             "categories": "Kategooriad",
             "forum_nav": "Foorumi menüü",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "return_to_overview": "Tagasi blogi ülevaatesse ",
+            "no_more_posts": "Rohkem blogipostitusi pole.",
+            "category_empty": "Selles kategoorias pole ühtegi blogipostitust.",
             "compose": {
                 "write_article": "Kirjuta artikkel"
             },
@@ -64,9 +64,9 @@
                 "locked": ""
             },
             "review_article": {
-                "pending_review_title": "",
+                "pending_review_title": "Ootab ülevaatamist",
                 "pending_review": "",
-                "approve_article": "",
+                "approve_article": "Kiida artikkel heaks",
                 "approve_article_approved": ""
             },
             "tools": {
@@ -89,7 +89,7 @@
             },
             "composer": {
                 "no_title": "Pealkirja pole",
-                "enter_message_here": "",
+                "enter_message_here": "Sisesta oma sõnum siia",
                 "post_article": "Postita artikkel",
                 "select_category": "Vali kategooria",
                 "edit_categories": "Muuda kategooriat",
@@ -99,7 +99,7 @@
                 "nothing_to_preview": "Pole midagi näidata",
                 "comment_section": "",
                 "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "post_without_blog_info": "Oled sa kindel, et soovid seda blogipostitust avaldada? Kokkuvõte ja pilt on veel puudu."
             },
             "article_settings": {
                 "title": "Blogi postituste seaded",
@@ -107,11 +107,11 @@
                     "summary": {
                         "title": "Artikli kokkuvõte",
                         "placeholder": "Palun sisesta kokkuvõte",
-                        "helper_text": ""
+                        "helper_text": "Seda kokkuvõtet näidatakse blogi ülevaate leheküljel ja seda kasutatakse SEO parandamiseks."
                     },
                     "image": {
                         "title": "Artikli pilt",
-                        "helper_text": ""
+                        "helper_text": "Parim pildi resolutsioon sotsiaalmeedia jaoks: 1200x630"
                     },
                     "highlight": {
                         "title": "Esiletõstetud postitus",
