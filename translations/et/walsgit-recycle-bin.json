@@ -1,27 +1,27 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "discussions_bin": "",
-            "posts_bin": "",
+            "discussions_bin": "Vestluste prügikast",
+            "posts_bin": "Postituste prügikast",
             "search_placeholder": "Otsi vestlust",
-            "search_post_placeholder": "",
+            "search_post_placeholder": "Otsi postitust",
             "search_help_text": "Otsib pealkirjadest ning ka vestluse sisust",
-            "search_post_help_text": "",
+            "search_post_help_text": "Otsib sõnu peidetud postitustest",
             "total_hidden_discussions": "Peidetud vestlusi kokku",
-            "total_hidden_posts": "",
+            "total_hidden_posts": "Peidetud postitusi kokku",
             "empty_list": "Prügikastis pole vestlusi.",
             "hidden_discussions": "Peidetud vestlused",
             "discussion_id": "ID",
             "discussion_title": "Vestluse pealkiri",
             "discussion_link_tooltip": "Vaata vestlust",
-            "author": "",
+            "author": "Autor",
             "unknownn_user": "Tundmatu kasutaja",
             "created_at": "Loodud",
             "hidden_at": "Peidetud",
             "unknown_date": "Tundmatu kuupäev",
             "actions": "Tegevused",
             "restore_tooltip": "Taasta vestlus",
-            "restore_post_tooltip": "",
+            "restore_post_tooltip": "Taasta postitus",
             "restore_discussion": {
                 "title": "Taasta vestlus",
                 "confirmation": "Oled sa kindel, et soovid selle vestluse taastada:",
@@ -29,10 +29,10 @@
                 "success": "Vestlus on taastatud"
             },
             "restore_post": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Taasta postitus",
+                "confirmation": "Oled sa kindel, et soovid taastada postitust selles vestluses ",
+                "restore_button": "Taasta see postitus",
+                "success": "Postitus on taastatud"
             },
             "delete_discussion": {
                 "title": "Kustuta igaveseks",
@@ -41,17 +41,17 @@
                 "success": "Vestlus on kustutatud"
             },
             "delete_post": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Kustuta igavesesks",
+                "confirmation": "Oled sa kindel, et soovid selle postituse <u>igaveseks kustutada</u> (pöördumatu):",
+                "delete_button": "Kustuta see postitus igaveseks",
+                "success": "Postitus on kustuatud"
             },
             "delete_tooltip": "Kustuta vestlus",
-            "delete_post_tooltip": "",
+            "delete_post_tooltip": "Kustuta postitus",
             "bulk_actions": "Tegevused valitud vestlustega: ",
-            "bulk_post_actions": "",
+            "bulk_post_actions": "Toiming valitud postitustega: ",
             "bulk_restore_label": "Taasta valitud vestlused",
-            "bulk_post_restore_label": "",
+            "bulk_post_restore_label": "Taasta valitud postitused",
             "mass_restore_modal": {
                 "title": "Taasta valitud vestlused",
                 "text_start": "Oled sa kindel, et soovid need ",
@@ -60,11 +60,11 @@
                 "success": "Valitud vestlused on taastatud"
             },
             "mass_restore_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Taasta valitud postitused",
+                "text_start": "Oled sa kindel, et soovid need ",
+                "text_end": " postitust kustutada?",
+                "submit_button": "Taasta need postitused",
+                "success": "Valitud postitused on taastatud"
             },
             "mass_delete_modal": {
                 "title": "Kustuta need vestlused igaveseks",
@@ -74,14 +74,14 @@
                 "success": "Valitud vestlused on kustutatud"
             },
             "mass_delete_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Kustuta need postitused jäädavalt",
+                "text_start": "Oled sa kindel, et soovid need ",
+                "text_end": " postitust <u>jäävalt kustutada</u>?",
+                "submit_button": "Kustuta need postitused jäädavalt",
+                "success": "Valitud postitused on kustutatud"
             },
             "bulk_delete_label": "Kustuta valitud vestlused",
-            "bulk_post_delete_label": "",
+            "bulk_post_delete_label": "Kustuta valitud postitused",
             "pagination": {
                 "first_page_button": "Mine esimesele leheküljele",
                 "back_button": "Mine eelmisele leheküljele",
@@ -92,12 +92,12 @@
             },
             "mass_help_text": "Palun oota kuni lehekülge värskendatakse pärast massiline taastamist või kustutamist",
             "grid": {
-                "invalid_column_content": ""
+                "invalid_column_content": "Vigane sisu!"
             },
             "post": {
-                "id": "",
-                "title": "",
-                "open_post": ""
+                "id": "ID",
+                "title": "Postituse tekst",
+                "open_post": "Ava postitus"
             },
             "title": "Prügikast",
             "discussion_author": "Autor"
