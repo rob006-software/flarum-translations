@@ -2,39 +2,39 @@
     "cccyun-clogin-oauth": {
         "admin": {
             "appurl_label": "API URL",
-            "appurl_help": "",
+            "appurl_help": "Peab algama eesliitega http:// või https:// ja lõppema kaldkriipsuga /",
             "appid_label": "APPID",
             "appkey_label": "APPKEY",
             "openqq_label": "Ava QQ sisselogimine",
             "openwx_label": "Ava WeChat sisselogimine",
-            "opensina_label": ""
+            "opensina_label": "Ava Weibo sisselogimine"
         },
         "forum": {
             "with_qq_button": "QQ kasutajakonto",
-            "with_wx_button": "",
-            "with_sina_button": "",
+            "with_wx_button": "WeChat sisselogimine",
+            "with_sina_button": "Weibo sisselogimine",
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": "",
-                "unlinked": ""
+                "already_linked": "Kolmas konto on juba seostatud!",
+                "already_used": "Kolmas konto on juba teise kasutajaga seotud!",
+                "link_success": "Kolmas konto on seostatud.",
+                "unlink_success": "Kolmanda konto seos on eemaldatud.",
+                "error": "Midagi läks valesti. Proovi hiljem uuesti!",
+                "unlinked": "Kolmas konto pole seotud kontoga sellel saidil. Palun liitu esmalt foorumiga ja seejärel proovi seos luua."
             },
             "modals": {
-                "link_qq": "",
-                "unlink_qq": "",
-                "confirm_qq": "",
-                "link_wx": "",
-                "unlink_wx": "",
-                "confirm_wx": "",
-                "link_sina": "",
-                "unlink_sina": "",
-                "confirm_sina": "",
-                "no_providers": "",
+                "link_qq": "Seosta QQ kontoga",
+                "unlink_qq": "Eemalda seos QQ kontoga",
+                "confirm_qq": "Oled sa kindel, et soovid eemaldada seost oma QQ kontoga?",
+                "link_wx": "Seosta WeChat kontoga",
+                "unlink_wx": "Eemalda seos WeChat kontoga",
+                "confirm_wx": "Oled sa kindel, et soovid eemaldada seost oma WeChat kontoga?",
+                "link_sina": "Seosta Weibo kontoga",
+                "unlink_sina": "Eemalda seos Weibo kontoga",
+                "confirm_sina": "Oled sa kindel, et soovid eemaldada seost oma Weibo kontoga?",
+                "no_providers": "Sul pole muid sisselogimise teenuseid! Pead ilmselt oma parooli nullima.",
                 "buttons": {
-                    "confirm": "",
-                    "cancel": ""
+                    "confirm": "Jah, eemalda seos kontoga",
+                    "cancel": "Ei!"
                 }
             }
         }
