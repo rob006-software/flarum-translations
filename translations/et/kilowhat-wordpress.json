@@ -36,12 +36,12 @@
                     "first_name": "Eesnimi WordPressist",
                     "random": "Juhuslik kasutajanimi"
                 },
-                "username_strategy_help": "",
-                "force_username_choice": "",
+                "username_strategy_help": "Kui kasutajanimi on Flarumis juba olemas, siis lisatakse sellele number",
+                "force_username_choice": "Lase kasutajatel esimese külastuse ajal nende kasutajanimi valida",
                 "force_username_choice_help": "",
-                "welcome_message": "",
+                "welcome_message": "Tutvustav sõnum",
                 "welcome_message_help": "",
-                "wordpress_login_only": "",
+                "wordpress_login_only": "Luba ainult WordPressi sisselogimine",
                 "wordpress_login_only_help": "",
                 "user_delete": "",
                 "user_delete_options": {
@@ -62,12 +62,12 @@
                 "comment_author_sync": "",
                 "comment_author_sync_help": "",
                 "comment_tag": "",
-                "comment_tag_none": "",
+                "comment_tag_none": "Ära määra sildile",
                 "comment_tag_custom": "Kohandatud väärtused",
-                "comment_tag_custom_help": "",
+                "comment_tag_custom_help": "Komadega eraldatud nimekiri siltide ID-dest",
                 "summary_as_last_post": "",
                 "summary_as_last_post_help": "",
-                "use_post_date": "",
+                "use_post_date": "Kasuta Wordpressi postituse kuupäeva vestluse loomise ajana",
                 "use_post_date_help": "",
                 "post_hide": "",
                 "post_hide_options": {
@@ -79,7 +79,7 @@
                 "post_delete": "",
                 "post_delete_options": {
                     "ignore": "",
-                    "lock": "",
+                    "lock": "Säilita Flarumi vestlus ja lukusta",
                     "hide": "Peida vestlused Flarumis",
                     "delete": ""
                 }
@@ -156,7 +156,7 @@
                 "not_now": "Jäta vahele ja jätka külalisena"
             },
             "instant-login": {
-                "welcome_known_user": "",
+                "welcome_known_user": "Teretulemast tagasi, {avatar} <strong>{name}</strong>!",
                 "welcome_unknown_user": "Teretulemast tagasi!",
                 "avatar_alt_text": "WordPressi avatar",
                 "message": "",
@@ -184,7 +184,7 @@
                 "title": "Kommentaarid"
             },
             "embed-link-modal": {
-                "title": "",
+                "title": "Välja kommentaaridest",
                 "message": "",
                 "open": "Ava link"
             },
