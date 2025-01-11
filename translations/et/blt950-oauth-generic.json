@@ -11,9 +11,9 @@
                         "authorization_endpoint_label": "",
                         "token_endpoint_label": "",
                         "user_information_endpoint_label": "",
-                        "id_parameter_label": "",
-                        "display_name_parameter_label": "",
-                        "email_address_parameter_label": "",
+                        "id_parameter_label": "Kasutaja ID parameetrid",
+                        "display_name_parameter_label": "Näidatava nime parameetrid",
+                        "email_address_parameter_label": "E-posti aadressi parameetrid",
                         "force_userid_label": "",
                         "force_name_label": "",
                         "force_email_label": ""
@@ -23,15 +23,15 @@
         },
         "forum": {
             "log_in": {
-                "with_generic_button": ""
+                "with_generic_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "generic": ""
+                "generic": "=> fof-oauth.lib.providers.generic"
             }
         },
         "lib": {
             "providers": {
-                "generic": ""
+                "generic": "Üldine"
             }
         }
     }
