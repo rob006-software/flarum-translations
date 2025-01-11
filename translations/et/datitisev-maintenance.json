@@ -12,11 +12,11 @@
                 "allow_bypass_hint": "",
                 "prefer_db_label": "",
                 "prefer_db_hint": "",
-                "active_label": "",
-                "disable_admin_label": "",
-                "disable_api_label": "",
-                "title_label": "",
-                "message_label": "",
+                "active_label": "Hooldusrežiimi staatus",
+                "disable_admin_label": "Keela admini ligipääs",
+                "disable_api_label": "Keela kogu API ligipääs",
+                "title_label": "Vealehe pealkiri",
+                "message_label": "Vealehe sõnum",
                 "error_page_file_label": "",
                 "error_page_file_hint": "",
                 "error_page_label": "",
@@ -27,14 +27,14 @@
             }
         },
         "lib": {
-            "maintenance_active_message": "",
+            "maintenance_active_message": "See foorum on hetkel hooldamisel.",
             "maintenance_active_not_db_message": "",
-            "maintenance_active_disabled_api_message": ""
+            "maintenance_active_disabled_api_message": "API on praegu kõigi jaoks välja lülitatud."
         },
         "views": {
             "error": {
-                "title": "",
-                "message": ""
+                "title": "Hooldus",
+                "message": "Teeme praegu veidi hooldustöid. Oleme varsti tagasi!"
             }
         }
     },
