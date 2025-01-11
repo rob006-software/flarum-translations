@@ -15,37 +15,37 @@
                     "title": "",
                     "standalone_label": "",
                     "standalone_help_text": "",
-                    "product_label": "",
+                    "product_label": "Animatsiooni stiil",
                     "product_help_text": "",
                     "product_float_label": "",
                     "product_float_help_text": "",
-                    "product_popup_label": "",
-                    "product_popup_help_text": "",
+                    "product_popup_label": "Hüpikaken",
+                    "product_popup_help_text": "Kontrollimise paneeli keskel",
                     "product_bind_label": "",
                     "product_bind_help_text": "",
                     "product_learn_more_link": "",
-                    "id_label": "",
+                    "id_label": "Kinnita ID",
                     "id_help_text": "",
-                    "key_label": "",
+                    "key_label": "Kinnitamise võti",
                     "key_help_text": ""
                 }
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "submit_button": "",
-                "load_button": "",
-                "reload_button": ""
+                "title": "Testi CAPTCHA-t",
+                "help_text": "Kasuta ülalolevaid üldiseid seadeid, et testida CAPTCHA-t.",
+                "submit_button": "Saada",
+                "load_button": "Laadi",
+                "reload_button": "Laadi uuesti"
             }
         },
         "lib": {
             "verify": {
-                "success_message": "",
-                "error_message": "",
-                "error_retry_message": "",
-                "init_error_message": "",
-                "required_message": "",
-                "not_pass_message": ""
+                "success_message": "Kontrollimine.",
+                "error_message": "Kontrollimine ebaõnnestus.",
+                "error_retry_message": "Kontrollimine ebaõnnestus, palun proovi uuesti.",
+                "init_error_message": "Käivitamise kontrollimine ebaõnnestus.",
+                "required_message": "Palun täida CAPTCHA.",
+                "not_pass_message": "Kontrolli ei läbitud."
             }
         }
     }
