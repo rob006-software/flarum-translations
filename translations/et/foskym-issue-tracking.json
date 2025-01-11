@@ -3,61 +3,61 @@
         "admin": {
             "provider_heading": "Platformi pakkuja",
             "enable_comment_sync_label": "",
-            "enable_create_issue_label": "",
+            "enable_create_issue_label": "Luba kasutajatel Flarumis probleeme lisada",
             "enable_auto_import_label": "",
             "enable_import_by_username_label": "",
-            "enable_import_by_display_name_label": "",
+            "enable_import_by_display_name_label": "Impordi probleemid nimede järgi",
             "default_import_by_email_help": "",
             "action": {
                 "heading": "Tegevus",
                 "test_connection_button": "Testi ühendust",
-                "test_connection_success": "",
-                "import_issues_button": "",
-                "import_issues_success": "",
-                "import_issues_confirmation": "",
-                "delete_imported_issues_button": "",
-                "delete_imported_issues_success": "",
-                "delete_imported_issues_confirmation": "",
-                "delete_all_issues_button": "",
-                "delete_all_issues_success": "",
-                "delete_all_issues_confirmation": ""
+                "test_connection_success": "Ühendus on loodud",
+                "import_issues_button": "Impordi probleemid",
+                "import_issues_success": "Probleemid on imporditud",
+                "import_issues_confirmation": "Oled sa kindel, et soovid kõik probleemid importida?",
+                "delete_imported_issues_button": "Kustuta imporditud probleemid",
+                "delete_imported_issues_success": "Imporditud probleemid on kustutatud",
+                "delete_imported_issues_confirmation": "Oled sa kindel, et soovid kõiki imporditud probleeme kustutada?",
+                "delete_all_issues_button": "Kustuta kõik probleemid",
+                "delete_all_issues_success": "Kõik probleemid on kustutatud",
+                "delete_all_issues_confirmation": "Oled sa kindel, et soovid kõiki probleeme kustutada?"
             }
         },
         "forum": {
-            "title": "",
+            "title": "Probleemide jälgimine",
             "header": {
-                "back_to_issues_tooltip": ""
+                "back_to_issues_tooltip": "Tagasi probleemide juurde"
             },
-            "last_updated": "",
-            "issue_opened_by": "",
-            "progress": "",
-            "new_issue": "",
-            "cannot_create_issue": "",
+            "last_updated": "Viimati uuendatud {time}",
+            "issue_opened_by": "{username} avas probleemi {time}",
+            "progress": "Edenemine",
+            "new_issue": "Uus probleem",
+            "cannot_create_issue": "Ainult loetav",
             "discussion": {
-                "issue_link": ""
+                "issue_link": "Vaata"
             },
             "composer": {
-                "title": "",
-                "title_placeholder": "",
-                "body_placeholder": "",
-                "submit_button": "",
-                "discard_confirmation": ""
+                "title": "Loo uus probleem",
+                "title_placeholder": "Probleemi pealkiri",
+                "body_placeholder": "Probleemi kirjeldus",
+                "submit_button": "Saada probleem",
+                "discard_confirmation": "Oled sa kindel, et soovid sellest probleemist loobuda?"
             },
             "sort": {
-                "latest_button": "",
-                "oldest_button": "",
-                "newest_button": ""
+                "latest_button": "Viimased",
+                "oldest_button": "Vanimad",
+                "newest_button": "Uusimad"
             },
             "hero": {
-                "last_updated": "",
-                "unresolved": "",
-                "resolved": "",
-                "tasks_done": "",
-                "complete": ""
+                "last_updated": "=> foskym-issue-tracking.forum.last_updated",
+                "unresolved": "Lahendamata",
+                "resolved": "Lahendatud",
+                "tasks_done": "{number} / {total}",
+                "complete": "{progress} valmis"
             },
             "provider": {
                 "error": {
-                    "title": ""
+                    "title": "Teenusepakkuja tõrge"
                 }
             }
         }
