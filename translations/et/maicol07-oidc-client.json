@@ -6,7 +6,7 @@
                     "title": "Kliendi seaded",
                     "subtitle": "",
                     "id": "Kliendi ID",
-                    "secret": "",
+                    "secret": "Kliendi salasõna",
                     "enable_pkce": "",
                     "enable_nonce": "",
                     "http_proxy": "HTTP proksiserver",
@@ -20,9 +20,9 @@
                 "callback_subtitle": "",
                 "callback_logout_note": "",
                 "provider": {
-                    "title": "",
+                    "title": "Teenusepakkuja seaded",
                     "subtitle": "",
-                    "url": "",
+                    "url": "Teenusepakkuja URL",
                     "endpoints": {
                         "authorize": "",
                         "token": "",
@@ -38,25 +38,25 @@
                     "token_endpoint_auth_method": ""
                 },
                 "other": {
-                    "title": "",
+                    "title": "Muud seaded",
                     "provider_name": "",
                     "linker_claim": "",
-                    "manage_account_url": "",
+                    "manage_account_url": "Konto haldamise URL",
                     "manage_account_btn_open_in_new_tab": "",
-                    "sso_mode": "",
+                    "sso_mode": "SSO režiim",
                     "logout_from_provider": "",
-                    "remove_signup_btn": "",
-                    "sync_avatars": "",
-                    "time_drift": ""
+                    "remove_signup_btn": "Eemalda liitumise nupp",
+                    "sync_avatars": "Sünkrooni kasutaja avatar",
+                    "time_drift": "JWT ajanihe"
                 }
             }
         },
         "forum": {
             "buttons": {
-                "manage_account": "",
-                "login": "",
-                "connect_account": "",
-                "disconnect_account": ""
+                "manage_account": "Halda kontot",
+                "login": "Logi sisse kontole {name}",
+                "connect_account": "Ühenda kontoga {name}",
+                "disconnect_account": "Katkesta ühendus kontoga {name}"
             }
         }
     }
