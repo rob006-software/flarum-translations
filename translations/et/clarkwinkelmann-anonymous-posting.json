@@ -7,17 +7,17 @@
                 "alwaysAnonymiseEdits": "Alati anonümiseeri muutmisi",
                 "alwaysAnonymiseEditsHelp": "",
                 "composerHelpTextPosition": "",
-                "composerHelpTextPositionVisible": "",
-                "composerHelpTextPositionTooltip": "",
+                "composerHelpTextPositionVisible": "Nähtav (sildi all)",
+                "composerHelpTextPositionTooltip": "Vihje (sildi järel)",
                 "composerHelpTextPositionHidden": "Peidetud",
                 "composerHelpTextPositionHelp": "",
-                "avatars": "",
+                "avatars": "Anonüümsed avatarid",
                 "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "avatarFormId": "Formi ID",
+                "avatarFieldKey": "Välja võti",
+                "avatarFieldValue": "Välja väärtus",
+                "avatarAvatarUrl": "Avatari URL",
+                "avatarAdd": "Lisa avatari reegel"
             },
             "permissions": {
                 "use": "",
@@ -27,11 +27,11 @@
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
+                "anonymize": "Postita anonüümselt",
                 "anonymizeHelp": ""
             },
             "discussionControls": {
-                "anonymize": "",
+                "anonymize": "Anonümiseeri",
                 "anonymizeConfirmation": "",
                 "deanonymize": "",
                 "deanonymizeConfirmation": ""
@@ -43,19 +43,19 @@
                 "deanonymizeConfirmation": ""
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "Viimati vastatud {ago} tagasi"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
+                "mine": "Mina",
+                "mineHelp": "Seda infot näed ainult sina",
+                "profile": "Nähtav ainult sulle",
                 "profileHelp": ""
             }
         },
         "lib": {
             "userMeta": {
-                "initials": "",
-                "username": ""
+                "initials": "?",
+                "username": "Anonüümne"
             }
         }
     }
