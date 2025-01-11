@@ -5,8 +5,8 @@
                 "allowed_roles_label": "Lubatud rollid",
                 "allowed_roles_text": "Vali rollid, mida kasutajad saavad endale ise määrata.",
                 "other_options_heading": "Muud valikud",
-                "allow_multiple_roles_label": "",
-                "force_users_label": "",
+                "allow_multiple_roles_label": "Luba kasutajatele määrata mitu rolli",
+                "force_users_label": "Sunni kasutjaid valima endale vähemalt ühe rolli",
                 "force_users_text": ""
             }
         },
@@ -15,16 +15,16 @@
             "choose_role_button_label": "=> sas_sam-regrole.ref.choose_a_role",
             "required_role_message": "Pead valima rolli.",
             "choose_role_modal": {
-                "choose_role_heading": "",
-                "choose_role_text": "",
-                "save_button": ""
+                "choose_role_heading": "=> sas_sam-regrole.ref.choose_a_role",
+                "choose_role_text": "Palun vali meie foorumi kasutamise jätkamiseks roll.",
+                "save_button": "=> core.ref.save_changes"
             },
             "sign_up_modal": {
-                "choose_role_heading": ""
+                "choose_role_heading": "=> sas_sam-regrole.ref.choose_a_role"
             }
         },
         "ref": {
-            "choose_a_role": ""
+            "choose_a_role": "Vali roll"
         }
     }
 }
