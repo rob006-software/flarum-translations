@@ -1,7 +1,7 @@
 {
     "the-turk-diff": {
         "forum": {
-            "revisions": "",
+            "revisions": "{revisionCount, plural, one {{revisionCount} versioon} other {{revisionCount} versiooni}}",
             "emptyText": "Muudatusi pole",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(kustutatud)",
@@ -10,29 +10,29 @@
                 "originalContent": "=> the-turk-diff.ref.originalContent",
                 "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
                 "sideBySide": "Kõrvuti",
-                "inline": "",
+                "inline": "Rida-realt",
                 "combined": "Kombineeritud",
                 "preview": "=> core.forum.composer.preview_tooltip"
             },
             "optionsButton": "Valikud",
             "deleteButton": "=> core.forum.post_controls.delete_button",
-            "rollbackButton": "",
-            "rollbackToOriginalButton": "",
-            "revertChangesButton": "",
-            "confirmRollback": "",
-            "confirmDelete": "",
-            "rollbackErrorMessage": "",
-            "deleteErrorMessage": "",
-            "rollbackSuccessMessage": "",
-            "deleteSuccessMessage": "",
-            "editedInfo": "",
-            "deletedInfo": "",
-            "createdInfo": "",
-            "revisionInfo": "",
-            "noDiff": "",
+            "rollbackButton": "Mine tagasi versioonile {number}",
+            "rollbackToOriginalButton": "Taasta algne",
+            "revertChangesButton": "Tühista muudatused",
+            "confirmRollback": "Oled sa kindel, et soovid oma praegust postitust muuda?",
+            "confirmDelete": "Oled sa kindel, et soovid kustutada selle muudatuse sisu ajaloost?",
+            "rollbackErrorMessage": "Muudatuste tagasivõtmine ebaõnnestus.",
+            "deleteErrorMessage": "Redaktori sisu kustutamine ebaõnnestus.",
+            "rollbackSuccessMessage": "Sinu muudatused võeti tagasi.",
+            "deleteSuccessMessage": "Redaktori sisu kustutati.",
+            "editedInfo": "=> core.forum.post.edited_tooltip",
+            "deletedInfo": "{username} kustutas selle sisu {ago}",
+            "createdInfo": "{username} lisas {ago}",
+            "revisionInfo": "Muudetud {revisionCount, plural, one {{revisionCount} kord} other {{revisionCount} korda}}, uuemad on üleval",
+            "noDiff": "Nende kahe sisu vahel ei leitud mingeid erinevusi.",
             "differences": {
-                "originalContent": "",
-                "currentContent": "",
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
                 "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
                 "sentence": ""
             },
@@ -40,7 +40,7 @@
                 "originalContent": "=> the-turk-diff.ref.originalContent",
                 "currentContent": "=> the-turk-diff.ref.currentContent",
                 "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
-                "sentence": ""
+                "sentence": "Sisu {content} eelvaade"
             }
         },
         "admin": {
@@ -53,26 +53,26 @@
                 "textFormatting": "",
                 "detailLevel": "",
                 "noneLevel": "",
-                "lineLevel": "",
-                "wordLevel": "",
-                "charLevel": "",
-                "neighborLines": "",
+                "lineLevel": "Rea tasemel",
+                "wordLevel": "Sõna tasemel",
+                "charLevel": "Märgi tasemel",
+                "neighborLines": "Naaber read",
                 "neighborLinesHelp": "",
                 "mergeThreshold": "",
                 "mergeThresholdHelp": "",
-                "dbOptimisation": "",
-                "archiveOlds": "",
+                "dbOptimisation": "Andmebaasi optimeerimine",
+                "archiveOlds": "Arhiveeri vanad versioonid",
                 "archiveOldsInfo": "",
                 "useCrons": "",
                 "useCronsHelp": "",
                 "archiveInfo": ""
             },
             "permissions": {
-                "viewEditHistory": "",
-                "deleteEditHistory": "",
-                "selfDeleteEditHistory": "",
-                "rollbackEditHistory": "",
-                "selfRollbackEditHistory": ""
+                "viewEditHistory": "Vaata vestluse ajalugu",
+                "deleteEditHistory": "Teiste muudatuste ajaloo kustutamine",
+                "selfDeleteEditHistory": "Omaenda vestluse ajaloo kustutamine",
+                "rollbackEditHistory": "Teiste muudatuste tühistamine",
+                "selfRollbackEditHistory": "Omaenda muudatuste tühistamine"
             }
         },
         "ref": {
