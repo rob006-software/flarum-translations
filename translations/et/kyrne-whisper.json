@@ -15,27 +15,27 @@
                 "tooltip": "Vestlused"
             },
             "setup": {
-                "title": "",
+                "title": "Seadista privaatsõnumid",
                 "header_setup": "",
                 "header_import": "",
                 "header_set_own": "Privaatsõnumite seadistamiseks sisesta parool.",
                 "header_set_own_import": "",
-                "passwords_mismatch": "",
-                "invalid_password": "",
-                "button_import": "",
-                "button_setup": "",
-                "confirm_password": "",
-                "success": ""
+                "passwords_mismatch": "Paroolid ei kattunud",
+                "invalid_password": "Sinu parool polnud korrektne.",
+                "button_import": "Impordi",
+                "button_setup": "Seadista",
+                "confirm_password": "Kinnita parool",
+                "success": "Privaatsõnumid on nüüd valmis, sinu lehekülg laaditakse nüüd uuesti..."
             },
             "modal": {
-                "title": "",
-                "help": "",
+                "title": "Alusta vestlust",
+                "help": "Vestluse alustamiseks hakka kirjutama kasutajanime.",
                 "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "search_recipients": "Sisesta kasutajanimi...",
+                "submit": "Saada ja alusta vestlusi",
+                "copied": "Sinu sõnum on lõikelauale kopeeritud.",
+                "more_users": "Kui sa ei näe kasutajat, keda sa otsid, siis pole nad privaatsõnumite saatmist veel seadistanud.",
+                "already": "Sul on juba vestlus kasutajaga {username}."
             },
             "user_modal_alert": "",
             "chat": {
@@ -50,9 +50,9 @@
                 "recovery_message": "",
                 "failed_message": "",
                 "cant_send": "",
-                "cant_send_toomany": "",
-                "failed_to_decrypt": "",
-                "start_of_conversation": ""
+                "cant_send_toomany": "Palun oota enne uute sõnumite saatmist kasutaja {username} vastust",
+                "failed_to_decrypt": "[Dekrüpteerimine ebaõnnestus]",
+                "start_of_conversation": "Alusta vestlust"
             }
         }
     }
