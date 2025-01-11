@@ -3,10 +3,10 @@
         "admin": {
             "settings": {
                 "enable_cache": "Kasuta Redis vahemälu",
-                "enable_redis_sessions": "",
-                "enable_queue": "",
-                "horizon_config": "",
-                "horizon_help_text": ""
+                "enable_redis_sessions": "Lülita Redis sessioonid sisse (pärast selle seade muutmist logitakse kõik kasutajad välja)",
+                "enable_queue": "Lülita Redis järjekord sisse",
+                "horizon_config": "Horisontaalne seadistus (vorming: JSON).",
+                "horizon_help_text": "See edastatakse kohta <code>(new \\Blomstra\\Horizon\\Extend\\Horizon)->config(...))</code>"
             }
         }
     }
