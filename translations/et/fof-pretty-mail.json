@@ -9,13 +9,13 @@
                     "body": "Sisaldab tegelikku kirja sisu",
                     "forumStyle": "Sisaldab <strong>kogu foorumi CSS-i</strong>",
                     "url": "Flarum <code>UrlGenerator</code>",
-                    "settings": "",
+                    "settings": "Võimaldab sul suhelda SettingsRepositoryInterface-iga",
                     "link": "Sisaldab e-kirjas linki"
                 },
                 "attributes_label": "Saadaolevad omadused",
                 "label": "E-kirja mallid",
                 "reset": "Taasta vaikeväärtused",
-                "confirm": "",
+                "confirm": "Oled sa kindel, et soovid vaikimisi e-kirja malli taas kasutusse võtta",
                 "default": "Vaikimisi mall",
                 "newPost": "Flarumi tellimuse uue postituse e-kiri",
                 "userMentioned": "Flarumi kasutaja mainimise e-kiri",
@@ -26,7 +26,7 @@
             },
             "css_settings": {
                 "label": "CSS-i seaded",
-                "help": "",
+                "help": "Võid soovi korral kaasata kirja HTML-is foorumi CSS-i. Kui lülitad selle sisse, siis võib sul olla probleeme mõningate e-posti teenuste pakkujatega.",
                 "switch_label": "Kaasa täielik foorumi CSS"
             }
         }
