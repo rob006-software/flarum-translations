@@ -14,19 +14,19 @@
                 "count_username_requests_nickname": "",
                 "count_best_answer_marked": "",
                 "count_badges_assigned": "",
-                "count_achievements_achieved": "",
+                "count_achievements_achieved": "Loe saavutused (nõuab lisaprogrammi malago/achievements)",
                 "count_quest_done": "",
                 "tooltip_position": "",
                 "tooltip_position_options": {
                     "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "right": "Paremal",
+                    "bottom": "All",
+                    "left": "Vasakul"
                 },
-                "times_display_format": "",
-                "times_display_format_help": "",
-                "from_year": "",
-                "from_year_help": ""
+                "times_display_format": "Kordade näitamise vorming",
+                "times_display_format_help": "Kasutatakse aktiivsuse graafiku näitamiseks. nt. \"korda\", \"[count] korda\"",
+                "from_year": "Aastast",
+                "from_year_help": "Alusta aktiivsus graafiku aastat"
             },
             "permissons": {
                 "query-others-activity-graph": ""
@@ -36,21 +36,21 @@
             "label": {
                 "activity_graph": "",
                 "total_times": "",
-                "name_map": "",
+                "name_map": "en",
                 "categories": {
-                    "comments": "",
-                    "discussions": "",
-                    "likes": "",
+                    "comments": "Kommentaare",
+                    "discussions": "Vestluseid",
+                    "likes": "Meeldimisi",
                     "custom_levels_exp_logs": "",
-                    "invite_user_invites": "",
-                    "store_purchases": "",
-                    "polls_create_polls": "",
-                    "polls_votes": "",
-                    "username_requests_username": "",
-                    "username_requests_nickname": "",
-                    "best_answer_marked": "",
-                    "badges_assigned": "",
-                    "achievements_achieved": "",
+                    "invite_user_invites": "Kutseid",
+                    "store_purchases": "Poe oste",
+                    "polls_create_polls": "Loodud küsitlusi",
+                    "polls_votes": "Vastuseid küsitlustel",
+                    "username_requests_username": "Kasutajanime muutmise päringuid",
+                    "username_requests_nickname": "Hüüdnime muutmise päringuid",
+                    "best_answer_marked": "Märgitud parimaid vastuseid",
+                    "badges_assigned": "Määratud aumärke",
+                    "achievements_achieved": "Saavutusi",
                     "quest_done": ""
                 }
             }
@@ -58,7 +58,7 @@
         "lib": {
             "defaults": {
                 "times_display_format": [
-                    ""
+                    "arv"
                 ]
             }
         }
