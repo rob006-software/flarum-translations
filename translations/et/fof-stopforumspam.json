@@ -4,19 +4,19 @@
             "settings": {
                 "introduction": "",
                 "username_label": "Kasutajanime rämpspostikontroll",
-                "ip_label": "",
-                "email_label": "",
-                "frequency_label": "",
+                "ip_label": "IP-aadressi spämmikontroll",
+                "email_label": "E-kirja spämmikontroll",
+                "frequency_label": "Lävi",
                 "frequency_help": "",
                 "api_key_label": "API võti",
                 "api_key_text": "",
                 "api_key_instructions_text": "",
-                "regional_endpoint_label": "",
+                "regional_endpoint_label": "Geograafiline ligipääs",
                 "regional_endpoint_help": "",
-                "region_closest_label": "",
-                "region_europe_label": "",
-                "region_us_label": "",
-                "confidence_label": "",
+                "region_closest_label": "Lähim",
+                "region_europe_label": "Euroopa",
+                "region_us_label": "USA",
+                "confidence_label": "Kindlus",
                 "confidence_help": "",
                 "email_hash_label": "",
                 "email_hash_help": ""
@@ -24,12 +24,12 @@
         },
         "forum": {
             "message": {
-                "spam": ""
+                "spam": "Sinu info märgiti spämmiks."
             }
         },
         "api": {
             "error": {
-                "unknown": ""
+                "unknown": "Kasutajast teavitamine saidil StopForumSpam ebaõnnestus."
             }
         }
     }
