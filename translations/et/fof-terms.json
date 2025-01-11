@@ -4,7 +4,7 @@
             "settings": {
                 "title": "Kasutustingimuste seaded",
                 "field": {
-                    "signup-legal-text": "",
+                    "signup-legal-text": "Lisatekst liitumise vormil",
                     "hide-updated-at": "",
                     "date-format": "Kuupäeva vorming",
                     "date-format-help": ""
@@ -28,53 +28,53 @@
                 "name": "Nimi",
                 "name-help": "",
                 "url": "URL",
-                "url-help": "",
+                "url-help": "URL, millelt saab kasutustingimusi lugeda. Avab klikkides uue vahekaardi.",
                 "update-message": "Uuenduse sõnum",
                 "update-message-help": "Sõnum, mida näidatakse olemasolevatele kasutajatele, kes pole veel viimaseid eeskirju aktsepteerinud.",
                 "terms-updated-at": "Uuendatud",
-                "terms-updated-at-placeholder": "",
+                "terms-updated-at-placeholder": "AAAA-KK-PP (hh:mm:ss)",
                 "terms-updated-at-help": "",
-                "export-url": "",
+                "export-url": "Eksportimise URL",
                 "export-url-help": "",
-                "optional": "",
-                "optional-help": ""
+                "optional": "Valikuline poliitika",
+                "optional-help": "Kui see valik on sisse lülitatud, siis saavad kasutajad foorumis tegutseda ka ilma selle poliitikaga nõutumata."
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "Vaata kasutaja poliitikate staatust",
+                "postpone-policies-accept": "Uute kasutustingimustega nõustumist saab edasi lükata",
+                "export-policies": "Kõikide kasutajate ja poliitikate andmete eksportimine"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Nõustun poliitikaga <a>{policy}</a>",
+                "must-accept": "Poliitikaga {policy} peab nõustuma."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
+                "title": "Kasutustingimuste uuendamine",
+                "updated-at": "Kasutustingimus muudeti {date}",
+                "updated-recently": "Kasutustingimusi muudeti pärast sinu viimast külastust",
                 "i-accept": "",
                 "accept": "Kinnita",
                 "close": ""
             },
             "state-modal": {
-                "title": "",
+                "title": "Kasutustingimustega nõustumise staatus kasutajal {username}",
                 "accepted-at": "Nõustunud {date}",
                 "not-accepted": "Pole aktsepteerinud"
             },
             "update-alert": {
                 "must-accept-message": "",
                 "can-accept-message": "",
-                "can-accept-optional-message": "",
-                "review": "",
+                "can-accept-optional-message": "Uuendasime hiljuti kasutustingimusi. Vaata need sulle sobival ajal üle.",
+                "review": "Kliki siia, et vaadata uues kasutustingimused üle ja nendega nõustuda",
                 "close": "Sulge"
             },
             "user_settings": {
                 "optional_policies_label": "Eeskirjad"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Kasutustingimustega nõustumise staatus"
             }
         }
     },
