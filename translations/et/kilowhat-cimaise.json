@@ -41,15 +41,15 @@
             },
             "upload-modal": {
                 "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
-                "drop-file": "",
-                "publishSilently": "",
-                "submit": "",
-                "submitInComposer": "",
-                "reload": ""
+                "titleInComposer": "Muuda pilte",
+                "uploading": "Üleslaadimine",
+                "processing": "Töötlemine",
+                "select-file": "Vali fail",
+                "drop-file": "või lohista siia",
+                "publishSilently": "Avalda vaikselt",
+                "submit": "Saada",
+                "submitInComposer": "Jätka",
+                "reload": "Laadi mustandite nimekiri uuesti"
             },
             "new-album-modal": {
                 "title": "Uus album"
@@ -89,7 +89,7 @@
             },
             "picture-thumbnail": {
                 "by-user": "=> kilowhat-cimaise.ref.by-user",
-                "in-album": ""
+                "in-album": "Albumis"
             },
             "picture-controls": {
                 "controls": "=> kilowhat-cimaise.ref.controls",
@@ -115,17 +115,17 @@
             "picture-sort": {
                 "latest": "Viimane üleslaadimine",
                 "oldest": "Vanimad üleslaadimised",
-                "latestTake": "",
-                "oldestTake": ""
+                "latestTake": "Viimane foto",
+                "oldestTake": "Vanim foto"
             },
             "album-search": {
                 "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
-                "uploaded": ""
+                "uploaded": "{username} laadis üles {count} pilti"
             },
             "discussion-controls": {
-                "attach-album": ""
+                "attach-album": "Lisa või eemalda album"
             },
             "license-label": {
                 "not-specified": "Määramata",
@@ -168,7 +168,7 @@
                 "neverSyncDiscussionAlbumTitlesHelp": "",
                 "columnTheme": "Veeru teema",
                 "columnThemeHelp": "",
-                "mapboxToken": "",
+                "mapboxToken": "Mapboxi kontrollkood",
                 "mapboxTokenHelp": "",
                 "requireLicense": "",
                 "requireLicenseHelp": "",
