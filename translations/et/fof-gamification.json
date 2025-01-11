@@ -20,23 +20,23 @@
                 "amount": "Punkte"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} hääletas sinu postituse poolt",
+                "downvote": "{username} hääletas sinu postituse vastu",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Kui minu postituse poolt/vastu hääletatakse"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} punkt} other {{count} punkti}}"
                 },
                 "rank": "{rank}",
                 "votes_link": "Hääli"
             },
             "modal": {
-                "downvotes_label": "",
+                "downvotes_label": "Vastu hääletajad:",
                 "title": "Hääletajad",
-                "upvotes_label": ""
+                "upvotes_label": "Poolt hääletajad:"
             },
             "mod_item": "Vaata hääletajaid",
             "voters": {
@@ -45,18 +45,18 @@
                 "label_none": "Hääletajaid pole veel"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Hääleta posti pool",
+                "downvote_button": "Hääleta posti vastu"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
+                "vote_label": "Postituste poolt/vastu hääletamine",
+                "see_votes_label": "Poolt/vastu hääletuste arvu nägemine",
                 "see_voters_label": "Vaata, kes hääletas",
                 "see_ranking_page": "Vaata hinnangute lehte",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "upvote_notifications": "Saa teavitus poolt hääletamise kohta",
+                "downvote_notifications": "Saa teavitus vastu hääletamise kohta"
             },
             "page": {
                 "rankings": {
@@ -75,7 +75,7 @@
                     "icon_name": "Alternatiivse paigutuse ikooni nimi"
                 },
                 "votes": {
-                    "points_title": "",
+                    "points_title": "Punktide kohahoidja",
                     "points_placeholder": "Punkte: ",
                     "color_holder": "#ffffff",
                     "auto_upvote": "",
@@ -84,23 +84,23 @@
                     "alternate_layout": "",
                     "alternate_post_layout": "",
                     "title": "Hääli",
-                    "vote_color": "",
+                    "vote_color": "Hindamise värv",
                     "icon_name": "",
                     "icon_help": "",
-                    "upvotes_only": "",
+                    "upvotes_only": "Luba ainult poolt hääletamine",
                     "first_post_only": "",
-                    "allow_self_votes": ""
+                    "allow_self_votes": "Kasutajad võivad omaenda postitusele hääle anda"
                 },
                 "save_settings": "Salvesta seaded",
                 "convert": {
-                    "button": "",
+                    "button": "Konverdi meeldimised poolt hääletusteks",
                     "help": "",
                     "converting": "",
                     "converted": ""
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
+                    "title": "Tasemed",
+                    "ranks": "Kohandatud tasemed",
                     "number_title": "",
                     "help": {
                         "color": "#ffffff",
@@ -127,7 +127,7 @@
                 "postVoted": ""
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "{display_name} hindas sinu postitust"
             }
         }
     }
