@@ -5,22 +5,22 @@
             "key": "Kutse võti",
             "create": {
                 "select": "Vali andmed",
-                "count": "",
+                "count": "Kasutamiste arv",
                 "group": "Grupp pärast registreerimist",
-                "activate": "",
+                "activate": "Aktiveeri automaatselt",
                 "submit": "Kinnita",
                 "title": "Vali andmed"
             },
             "send": {
-                "title": "",
-                "cancel": "",
-                "submit": "",
-                "email": "",
-                "url": "",
-                "failed": ""
+                "title": "Saada kutse e-post",
+                "cancel": "Loobu",
+                "submit": "Saada",
+                "email": "E-post",
+                "url": "Kutse URL",
+                "failed": "E-kirja saatmine ebaõnnestus"
             },
-            "showcase": "",
-            "has_used": ""
+            "showcase": "Saab kutsuda {count} korda, pärast liitumist gruppi {group}, automaatne aktiveerimine: {activate}",
+            "has_used": "Kasutas {count} korda"
         }
     }
 }
