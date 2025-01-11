@@ -987,7 +987,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/popular-tags/0.1.3/locale/en.yml',
 	],
 	'justoverclock-profile-stories' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/profile-stories/1.3.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/profile-stories/1.3.2/locale/en.yml',
 	],
 	'justoverclock-purify' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-purify/1.1.0/resources/locale/en.yml',
