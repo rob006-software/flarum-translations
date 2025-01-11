@@ -3,10 +3,10 @@
         "forum": {
             "composer": {
                 "warning": {
-                    "title": "",
-                    "description": "",
-                    "checkbox_label": "",
-                    "error": ""
+                    "title": "See vestlus on rohkem kui <b>{time}</b> vana.",
+                    "description": "Võimalik, et edasine vestlus pole enam vajalik ning see teema taaselustamine ei ole vajalik.",
+                    "checkbox_label": "Olen teadlik, et vestlus on vana, aga sooviksin sellele siiski vastata.",
+                    "error": "See vestlus on liiga vana, et sellele vastata."
                 }
             }
         },
@@ -14,11 +14,11 @@
             "settings": {
                 "days_label": "Päeva",
                 "days_help": "",
-                "message_title_label": "",
-                "message_title_help": "",
+                "message_title_label": "Kohandatud sõnumi pealkiri",
+                "message_title_help": "Kasuta aja teksti jaoks koodi <code>[time]</code>, nt. \"14 päeva\".",
                 "message_description_label": "Kohandatud sõnumi kirjeldus",
-                "message_agreement_label": "",
-                "tags_title": "",
+                "message_agreement_label": "Kohandatud sõnumiga nõusolek (märkekast)",
+                "tags_title": "Sildid",
                 "tags_help": ""
             }
         }
