@@ -6,23 +6,23 @@
                 "amount": "Kogus",
                 "notify": "Saada veebiteavitus kasutajatele",
                 "message": "Sõnum",
-                "messagePlaceholder": "",
+                "messagePlaceholder": "Lisa teavituse juurde sõnum",
                 "messageHelp": "",
                 "suspended": "",
                 "lastActivity": "",
-                "preview": "",
-                "submit": "",
-                "success": ""
+                "preview": "Praegused seaded vastavad {count} kasutajale.",
+                "submit": "Saada",
+                "success": "{count} kasutajale saadeti raha!"
             }
         },
         "admin": {
             "settings": {
-                "send": ""
+                "send": "Saada raha kõigile kasutajatele"
             }
         },
         "forum": {
             "notification": {
-                "moneyReceived": ""
+                "moneyReceived": "Said just {amount}"
             }
         }
     }
