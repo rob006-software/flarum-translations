@@ -42,42 +42,42 @@
             "username_modals": {
                 "action": {
                     "title": "=> fof-username-request.ref.username_change_request",
-                    "help_text": "",
+                    "help_text": "Palun veendu, et soovitud kasutajanime muudatus vastaks foorumi juhenditele.",
                     "decision_title": "Otsus",
                     "approval_label": "Kiida heaks",
                     "rejected_label": "Lükka tagasi",
                     "submit_button": "Saada",
                     "reason_title": "Tagasilükkamise põhjus",
                     "success": "Otsus on saadetud.",
-                    "name": ""
+                    "name": "{name} soovib oma uueks kasutajanimeks \"{requestedName}\""
                 },
                 "results": {
                     "title": "Kasutajanime muutmise soov",
-                    "approved": "",
+                    "approved": "Sinu kasutajanime muutmise soov on aktsepteeritud",
                     "dismiss_button": "=> core.ref.okay",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "new_name": "Sinu kasutajanimi on nüüd muudetud. Uus kasutajanimi: {name}",
+                    "rejected": "Sinu kasutajanime muutmise soov lükati tagasi",
+                    "reason": "Tagasilükkamise põhjus: <i>\"{reason}\"</i>.",
+                    "resubmit": "Võid esitada oma kasutajanime muudatuse uuesti oma kasutajakonto seadetest, kui soovid seda teha."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
+                    "title": "Palu kasutajanime muutmist",
+                    "current_request": "Oled juba palunud saada oma uueks kasutajanimeks \"{name}\". Sa võid kas oma soovi uuendada või selle kustutada.",
                     "submit_button": "Saada soov",
                     "delete_button": "Kustuta soov",
-                    "confirmation_message": "",
+                    "confirmation_message": "Sinu kasutajanime muutmise soov on edastataud ja see ootab heakskiitu.",
                     "dismiss_button": "=> core.ref.okay",
                     "deleted": "Kasutajanime muutmise soov on tagasi lükatud."
                 }
             },
             "pending_requests": {
                 "empty_text": "Kasutajanime muutmise soovi ei leitud.",
-                "nickname_item_text": "",
+                "nickname_item_text": "{name} soovib muuta oma hüüdnime",
                 "nickname_exerpt": "Küsitud kasutajanimi: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
                 "title": "=> fof-username-request.ref.name_change_requests",
-                "username_item_text": "",
-                "username_exerpt": ""
+                "username_item_text": "{name} soovib muuta oma kasutajanime",
+                "username_exerpt": "Soovitud kasutajanimi: {requestedName}"
             },
             "settings": {
                 "nickname_request_button": "Muuda hüüdnime",
@@ -98,12 +98,12 @@
         "email": {
             "body": {
                 "noReasonProvided": "Põhjust pole lisatud.",
-                "approved": "",
-                "rejected": ""
+                "approved": "Tere {recipient_display_name},\n\nSinu soov saada oma uueks kasutajanimeks \"{new_username}\" on {actor_display_name} poolt heaks kiidetud.\n\nVõid nüüd logida sisse oma uue kasutajanimega: {login_url}\n",
+                "rejected": "Tere {recipient_display_name},\n\n{actor_display_name} lükkas tagasi sinu soovi saada oma vana kasutajanime \"{old_username}\" asemel uueks kasutajanimeks \"{requested_username}\".\n\nPõhjus: {reason}\n"
             },
             "subject": {
-                "approved": "",
-                "rejected": ""
+                "approved": "{display_name} kiitis heaks sinu kasutajanime muutmise nimeks {requested_username}",
+                "rejected": "{display_name} lükkas tagasi sinu kasutajanime muutmise - {requested_username}"
             }
         }
     }
