@@ -17,25 +17,25 @@
                 "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
                 "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
                 "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
-                "super_tag_sticky_tooltip": ""
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
                 "title": "",
                 "sticky_label": "=> flarum-sticky.ref.sticky",
                 "sticky_text": "",
-                "super_sticky_label": "",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
                 "super_sticky_text": "",
-                "tag_sticky_label": "",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
                 "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
                 "discussion_super_stickied_text": "",
                 "discussion_common_stickied_text": ""
             }
