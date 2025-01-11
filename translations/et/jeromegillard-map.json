@@ -3,44 +3,44 @@
         "admin": {
             "templates": {
                 "map": "Kaart",
-                "file_description": ""
+                "file_description": "Näita foorumis kaarti. Algset faili saab alla laadida. Kaarditeenuse pakkuja ja stiili saab määrata lisaprogrammi seadetest. <b>Selle töötamiseks peab sul olema paigaldatud lisaprogramm flarum/bbcode</b>."
             },
             "settings": {
                 "tiles_provider": {
-                    "label": "",
-                    "help": ""
+                    "label": "Vaikimisi kaarditeenuse pakkuja",
+                    "help": "Vali teenusepakkuja, kelle kaarti kasutatakse"
                 },
                 "zoom": {
-                    "label": "",
+                    "label": "Vaikimisi suurenduse tase",
                     "help": "Ükskõik, mis täisarv vahemikus 0 kuni 18."
                 },
                 "style": {
-                    "label": "",
-                    "help": ""
+                    "label": "Vaikimisi stiil teenusele {provider}",
+                    "help": "Vali kaardi stiil <a>Heida pilk nende stiilidele</a>."
                 },
                 "maptiler": {
-                    "label": "",
-                    "help": ""
+                    "label": "MapTiler kontrollkood",
+                    "help": "Registreeru tasuta saidil <a>maptiler.com</a>, et saada ligipääsukood. Palun pea lugu nende <b>autoriõigustest</b>."
                 },
                 "osm": {
-                    "help": ""
+                    "help": "OpenStreetMap on OK kaardi seadistamiseks, aga kui hakkad kasutama seda reaalsel saidil, siis loe esmalt OpenStreetMap <a>Kasutamise poliitikat</a>."
                 },
                 "mapbox": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mapbox võti",
+                    "help": "Registreeru tasuta saidil <a>mapbox.com</a>, et saada ligipääsukood. Palun pea lugu nende <b>autoriõigustest</b>."
                 },
                 "thunderforest": {
-                    "label": "",
-                    "help": ""
+                    "label": "Thunderforest API võti",
+                    "help": "Registreeru tasuta saidil <a>thunderforest.com</a>, et saada API võti. Palun pea lugu nende <b>kasutustingimustest</b>."
                 }
             }
         },
         "forum": {
             "text_editor": {
-                "bbcode_tooltip": "",
-                "location_placeholder": "",
-                "marker_title_placeholder": "",
-                "marker_description_placeholder": ""
+                "bbcode_tooltip": "sisesta kaart",
+                "location_placeholder": "KUHU",
+                "marker_title_placeholder": "Markeri pealkiri",
+                "marker_description_placeholder": "Markeri hüpiku sisu. Markeri peitmiseks jäta pealkiri ja kirjeldus tühjaks."
             }
         }
     }
