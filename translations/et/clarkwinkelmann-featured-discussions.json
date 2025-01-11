@@ -4,51 +4,51 @@
             "settings": {
                 "schedule": "Graafik (CRON süntaks)",
                 "duration": "Vaikimisi kestus (sekundites)",
-                "eventPost": ""
+                "eventPost": "Kui ajastust muudetakse, siis loo sündmuse postitus"
             },
             "permissions": {
-                "feature": ""
+                "feature": "Halda esilesõstetud vestlusi"
             }
         },
         "forum": {
             "modal": {
                 "title": "Tõsta vestlus esile",
                 "fields": {
-                    "from": "",
+                    "from": "Alates",
                     "until": "Kuni"
                 },
                 "from": {
                     "not": "Pole esile tõstetud",
-                    "next": "",
-                    "manual": ""
+                    "next": "Järgmine vahemik",
+                    "manual": "Kuupäev käsitsi"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "Automaatne",
+                    "manual": "Kuupäev käsitsi"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "Loobu",
+                    "submit": "Saafa"
                 }
             },
             "controls": {
-                "feature": ""
+                "feature": "Esiletõstetud vestlus"
             },
-            "badge": "",
+            "badge": "Esiletõstetud",
             "nav": {
-                "schedule": ""
+                "schedule": "Esiletõstmise ajastamine"
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
-                "custom": ""
+                "help": "Lohista vestluseid lehel või teisest aknast, et muuta nende ajastamist. Ajastamise eemaldamiseks kasuta kolme-täpi menüüd.\n",
+                "drop-here": "Ajastamiseks lohista siia",
+                "drop-error": "Vigane vestluse link",
+                "empty": "Vestuseid pole",
+                "custom": "Kohandatud"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
-                "auto": ""
+                "scheduled": "Ajastatud olema esiletõstetud vahemikus {from} kuni {until}",
+                "unscheduled": "Pole enam asjastatud olema esile tõstetud",
+                "auto": "(automaatne)"
             }
         }
     }
