@@ -9,28 +9,28 @@
             },
             "widget": {
                 "title": "Kasutajad saidil",
-                "empty": "",
+                "empty": "Ühtegi kasutajat pole hetkel veebis.",
                 "guests": "{count, plural, one {1 külaline} other {{count} külalist}}"
             }
         },
         "admin": {
             "chart": {
-                "title": ""
+                "title": "Websocket statistika"
             },
             "pusher_settings": {
-                "local_cert_path": "",
-                "local_pk_path": "",
-                "passphrase": "",
-                "cert_self_signed": "",
+                "local_cert_path": "Kohaliku SSL sertifikaadi asukoht",
+                "local_pk_path": "Kohaliku SSL privaatse võtme asukoht",
+                "passphrase": "(Valikuline) SSL võtme parool",
+                "cert_self_signed": "Iseallkirjastatud sertifikaadi tugi",
                 "app_port_label": "Port",
                 "app_host_label": "Host",
                 "app_id_label": "Rakenduse ID",
-                "auto_update": "",
+                "auto_update": "Automaatsed uuendamise vestlused",
                 "app_key_label": "Rakenduse võti",
                 "app_secret_label": "Rakenduse salasõna",
                 "stats_label": "Statistika intervall",
                 "secure": "",
-                "title": "",
+                "title": "Websocket/Pusheri seaded",
                 "reverse_proxy": "",
                 "auth_only": ""
             },
