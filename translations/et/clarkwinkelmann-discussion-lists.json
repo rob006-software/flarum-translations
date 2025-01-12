@@ -6,10 +6,10 @@
             },
             "permissions": {
                 "viewPublic": "Vaata avalikku vestluste nimekirja",
-                "createPrivate": "Loo privaatsete vestluste nimekirja",
+                "createPrivate": "Loo privaatsete vestluste nimekiri",
                 "createPublic": "Avalike vestluste nimekirjade loomine",
-                "createSeriesFromOwn": "",
-                "createSeriesFromAny": "",
+                "createSeriesFromOwn": "Loo vestluste seeria omaenda sisuga",
+                "createSeriesFromAny": "Loo vestluste seeriad sisuga teistelt kasutajatelt",
                 "moderate": "Kõikide vestluse nimekirjade muutmine ja kustutamine",
                 "viewPrivate": "Kõikide privaatsete nimekirjade vaatamine"
             }
@@ -34,29 +34,29 @@
                 },
                 "save": "Salvesta",
                 "delete": "Kustuta",
-                "deleteConfirmation": ""
+                "deleteConfirmation": "Kas sa tõesti soovid selle vestluse jäädavalt kustutada?"
             },
             "discussion": {
-                "add": "",
-                "new": ""
+                "add": "Lisa nimekirja",
+                "new": "Uus nimekiri"
             },
             "profile": {
-                "link": ""
+                "link": "Nimekirjad"
             },
             "badge": {
-                "private": "",
-                "series": ""
+                "private": "Privaatne nimekiri",
+                "series": "Avalikud seeriad"
             },
             "series": {
-                "kind": "",
+                "kind": "Seeriad",
                 "expand": "Laienda",
                 "visit": "Näita kõike"
             }
         },
         "api": {
-            "manualLimit": "",
-            "seriesAnyAddNotAllowed": "",
-            "seriesAnyConversionNotAllowed": ""
+            "manualLimit": "Käsitsi sorteeritud nimekirjades ei saa olla rohkem kui 50 vestlust",
+            "seriesAnyAddNotAllowed": "Võid seeriate nimekirja lisada ainult omaenda vestluseid",
+            "seriesAnyConversionNotAllowed": "Nimekirja konvertimine seeriaks ebaõnnestus, kuna seal on vestlusi, mida sa ei algatanud"
         }
     },
     "core": {
