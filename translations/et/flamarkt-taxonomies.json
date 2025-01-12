@@ -2,27 +2,27 @@
     "flamarkt-taxonomies": {
         "admin": {
             "menu": {
-                "title": "",
-                "discussions": "",
-                "users": "",
-                "products": ""
+                "title": "Liigitamised",
+                "discussions": "Vestluste liigitamised",
+                "users": "Kasutaja liigitamised",
+                "products": "Toote liigitamised"
             },
             "page": {
-                "title": "",
+                "title": "Ligiitamised",
                 "create": {
-                    "taxonomy": "",
-                    "term": ""
+                    "taxonomy": "Loo liigitamine",
+                    "term": "Loo termin"
                 },
                 "reset-term-order": ""
             },
             "edit-taxonomy": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Loo liigitamine",
+                    "edit": "Muuda liigitamist"
                 },
                 "section": {
-                    "info": "",
-                    "filling": "",
+                    "info": "Info",
+                    "filling": "Täitmine",
                     "browsing": "Sirvimine",
                     "scope": "Ulatus"
                 },
@@ -35,7 +35,7 @@
                     "color": "=> flamarkt-taxonomies.ref.field.color",
                     "icon": "=> flamarkt-taxonomies.ref.field.icon",
                     "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
-                    "showLabel": "",
+                    "showLabel": "Näita liigitamise silti koos terminiga",
                     "showLabelDescription": "",
                     "enableFilter": "",
                     "enableFilterDescription": "",
@@ -102,9 +102,9 @@
                 "heading": "",
                 "moderate": "",
                 "bypassTermCounts": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
+                "seeOwnDiscussion": "Vaata liigitamisi omaenda vestlustel",
+                "seeAnyDiscussion": "Vaata liigitamisi kõigil vestlustel",
+                "editOwnDiscussion": "Muuda oma vestluste liigitamisi",
                 "editAnyDiscussion": "",
                 "seeOwnUser": "",
                 "seeAnyUser": "",
@@ -114,7 +114,7 @@
                 "ownDisabledMembers": "Aktiveeritud liikmed"
             },
             "settings": {
-                "goToPage": ""
+                "goToPage": "Mine seadistamise lehele"
             }
         },
         "forum": {
@@ -125,12 +125,12 @@
                 "edit": "Muuda {taxonomy}"
             },
             "user": {
-                "nav": "",
+                "nav": "Liigitamised",
                 "edit": "Muuda {taxonomy}"
             },
             "blog": {
                 "widget": {
-                    "title": ""
+                    "title": "Liigitamised"
                 }
             }
         },
