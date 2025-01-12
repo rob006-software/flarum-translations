@@ -12,10 +12,10 @@
                 "search_placeholder": "Otsi nime järgi",
                 "link_to_va_from_discussion": "Näitab linki kastis 'Autorid' linki kõigile selle virtuaalse autori vestlustele",
                 "authors_in_sidebar": "Näitab autoreid külgribal, mitte esimese postituse kohal",
-                "authors_in_sidebar_help": "",
-                "virtual_authors_page_disabled": "",
-                "virtual_authors_page_disabled_help": "",
-                "discussion_badge": "",
+                "authors_in_sidebar_help": "Sellel pole mingit mõju blogi lisaprogrammidele.",
+                "virtual_authors_page_disabled": "Lülita virtuaalsete autorite nimekiri kõigi kasutajate jaoks.",
+                "virtual_authors_page_disabled_help": "See kirjutab üle õigused selle funktsiooni jaoks.",
+                "discussion_badge": "Näita virtuaalsete autorite vestluste juures aumärki",
                 "prev": "Eelmine lehekülg",
                 "next": "Järgmine lehekülg"
             },
@@ -40,12 +40,12 @@
                     "description": "Kirjeldus (autori kohta)"
                 }
             },
-            "discussion-badge": ""
+            "discussion-badge": "{count, plural, one {On virtuaalne autor}, other {On virtuaalsed autorid}}"
         },
         "forum": {
             "virtual_author_page": {
                 "meta_title": "{displayName} - Autorid",
-                "credited_discussions": "",
+                "credited_discussions": "{displayName} vestlused",
                 "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
             },
             "virtual_authors_list": {
@@ -71,7 +71,7 @@
                 "add_new": "Vali uued virtuaalsed autorid",
                 "none_existing": "Ühtegi virtuaalset autorit pole valitud.",
                 "search": "Otsi virtuaalset autorit",
-                "credit_placeholder": "",
+                "credit_placeholder": "Autori andmed (valikuline)",
                 "delete_confirmation": "Kas eemaldada virtuaalne autor vestlusest?",
                 "delete_button": "Eemalda",
                 "add_button": "Lisa",
