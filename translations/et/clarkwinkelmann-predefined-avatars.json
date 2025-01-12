@@ -3,31 +3,31 @@
         "admin": {
             "settings": {
                 "predefinedAvatarsOnly": "Luba ainult eelmääratud avataride kasutamine",
-                "predefinedAvatarsOnlyHelp": "",
-                "predefinedAvatarsNoRemove": "",
+                "predefinedAvatarsOnlyHelp": "Eemaldab võimaluse laadida üles omaenda avatar, kui sul pole all määratud õiguseid.",
+                "predefinedAvatarsNoRemove": "Takista avatari mittevalimist",
                 "predefinedAvatarsNoRemoveHelp": "",
                 "predefinedAvatarsDefault": "Vaikimisi avatar",
-                "predefinedAvatarsDefaultHelp": "",
-                "predefinedAvatars": "",
+                "predefinedAvatarsDefaultHelp": "Rakendatakse uutele liitunud kasutajatele.",
+                "predefinedAvatars": "Saadaolevad avatarid",
                 "predefinedAvatarsHelp": "",
                 "defaultOptions": {
                     "none": "Avatari pole",
-                    "first": "",
-                    "random": ""
+                    "first": "Esimene avatar nimekirjas",
+                    "random": "Juhuslik avatar nimekirjast"
                 }
             },
             "permissions": {
-                "setPredefinedAvatar": "",
-                "setCustomAvatarAlways": ""
+                "setPredefinedAvatar": "Vali avatar eelnevalt määratud nimekirjast",
+                "setCustomAvatarAlways": "Vali igal hetkel kohandatud avatar"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "imageAlt": ""
+                "title": "Vali avatar",
+                "imageAlt": "Avatar"
             },
             "editor": {
-                "setPredefinedAvatar": ""
+                "setPredefinedAvatar": "Vali eelnevalt seadistatud avatar"
             }
         }
     }
