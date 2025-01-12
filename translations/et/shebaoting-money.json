@@ -37,11 +37,11 @@
                 "money_button": "Muuda raha"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "{username} raha",
+                "current": "Praegune:",
+                "submit_button": "=> core.ref.save_changes"
             },
-            "log_time": "",
+            "log_time": "Aeg",
             "log_type": "Liik",
             "log_amount": "Kogus",
             "log_balance": "Saldo",
@@ -50,13 +50,13 @@
             "log_type_withdrawal": "",
             "log_type_transfer": "Ülekanne",
             "log_type_reward": "Tasu",
-            "no_money_logs": "",
+            "no_money_logs": "Raha logid pole saadaval",
             "load_more": "Laadi rohkem",
             "logs_description": {
-                "created_discussion": "",
-                "created_reply": "",
-                "reply_received": "",
-                "liked": "",
+                "created_discussion": "Lisas vestluse › <a href=\"{url}\">{title}</a>",
+                "created_reply": "Lõi vastuse › <a href=\"{url}\">{title}</a>",
+                "reply_received": "Sai vastuse kasutajaöt {username} › <a href=\"{url}\">{title}</a>",
+                "liked": "Märkis kasutaja {user} postituse meeldivaks › <a href=\"{url}\">{title}</a>",
                 "liked_by": "",
                 "unliked_post": "",
                 "unliked_by": "",
@@ -71,22 +71,22 @@
                 "no_permission": ""
             },
             "logs_type": {
-                "discussion_started": "",
+                "discussion_started": "Vestlus alustatud",
                 "post_created": "Postitus on loodud",
                 "post_restored": "Postitus on taastatud",
                 "post_hidden": "Postitus on peidetud",
                 "post_deleted": "Postitus on kustutatud",
-                "discussion_restored": "",
-                "discussion_hidden": "",
-                "discussion_deleted": "",
-                "liked": "",
+                "discussion_restored": "Vestlus taastatud",
+                "discussion_hidden": "Vestlus peidetud",
+                "discussion_deleted": "Vestlus kustutatud",
+                "liked": "Märkis postituse meeldivaks",
                 "liked_by_others": "",
                 "admin_updated": "",
-                "registration": "",
+                "registration": "Registreerumise boonus",
                 "discussion_replied": "Vastas vestluses"
             },
             "point_log": {
-                "title": "",
+                "title": "Punkide muutmise andmed",
                 "link": "",
                 "empty_text": "",
                 "table": {
