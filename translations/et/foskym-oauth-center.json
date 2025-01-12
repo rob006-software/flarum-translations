@@ -13,17 +13,17 @@
             "settings": {
                 "display_mode": "Näitamise režiim",
                 "access_lifetime": "Ligipääsukoodi pikkus (sekundites)",
-                "allow_implicit": "",
+                "allow_implicit": "Luba selge kasutusõigus (vastuse_liik=kood)",
                 "enforce_state": "",
                 "require_exact_redirect_uri": "",
                 "authorization_method_fetch": "",
-                "allow_delete_records": ""
+                "allow_delete_records": "Luba autoriseerimis sissekannete kustutamine"
             },
             "clients": {
                 "client_id": "Kliendi ID",
                 "client_secret": "Kliendi salasõna",
                 "redirect_uri": "Ümbersuunamise URI",
-                "grant_types": "",
+                "grant_types": "Kasutusõiguse liigid",
                 "scope": "Ulatus",
                 "client_name": "Nimi",
                 "client_desc": "Kirjeldus",
@@ -34,11 +34,11 @@
             },
             "scopes": {
                 "scope": "Ulatus",
-                "resource_path": "",
-                "method": "",
-                "is_default": "",
-                "scope_name": "",
-                "scope_icon": "",
+                "resource_path": "Ressursi asukoht",
+                "method": "Meetod",
+                "is_default": "Vaikeväärtus",
+                "scope_name": "Nimi",
+                "scope_icon": "Ikoon",
                 "scope_desc": "Kirjeldus",
                 "visible_fields": "Nähtavad väljad",
                 "add_button": "Lisa ulatus",
@@ -64,7 +64,7 @@
                 }
             },
             "authorize": {
-                "require_these_scopes": "",
+                "require_these_scopes": "Nõuab neid ulatusi",
                 "access": "Ligipääs kohta",
                 "agree": "Nõustu",
                 "deny": "Keela"
@@ -75,7 +75,7 @@
                 "load_more": "Laadi rohkem",
                 "delete_button": "Kustuta see logi",
                 "delete_all_button": "Kustuta kõik logid",
-                "delete_all_confirm": ""
+                "delete_all_confirm": "Kinnita kõigi logide kustutamine"
             }
         }
     }
