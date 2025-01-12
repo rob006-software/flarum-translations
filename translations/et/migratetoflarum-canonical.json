@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "step": {
-                    "how_to": "",
-                    "check_config_url": "",
-                    "admin_on_canonical": "",
-                    "enable_temporary": "",
-                    "enable_permanent": "",
-                    "suggestions": "",
-                    "use_https": "",
-                    "use_hsts": ""
+                    "how_to": "Kuidas kanoonilist suunamist sisse lülitada",
+                    "check_config_url": "Kontrolli, et failis config.php oleks seadistatud sinu eelistatud URL (hetkel on seal: {url})",
+                    "admin_on_canonical": "Ligipääs adminiliidesesse läbi kanoonilise URL-i",
+                    "enable_temporary": "Lülita sisse ajutine ümbersuunamine ja kontrolli, kas kõik töötab",
+                    "enable_permanent": "Lülita sisse püsiv ümbersuunamine",
+                    "suggestions": "Muud soovitused, mida see lisaprogramm ei kata või sunni peale",
+                    "use_https": "Kasuta HTTPS kanoonilist URL-i",
+                    "use_hsts": "Kasuta HSTS-i, et ennetada turvalisust alandavaid rünnakuid"
                 },
                 "field": {
                     "status": "Ümbersuunamise liik",
-                    "wrong_url": ""
+                    "wrong_url": "Lisaprogrammi seadeid näidatakse, kui tuled foorumisse kanoonilise URL-i kaudu"
                 },
                 "option": {
-                    "disabled": "",
-                    "302": "",
-                    "301": ""
+                    "disabled": "Välja lülitatud (lisaprogramm ei tee midagi)",
+                    "302": "302 (Ajutine ümbersuunamine, testimiseks)",
+                    "301": "301 (püsiv ümbersuunamine, igapäevaseks kasutamiseks)"
                 }
             }
         }
