@@ -36,7 +36,7 @@
             },
             "required-package-modal": {
                 "title": "{adapter} jaoks on vaja pakki",
-                "content": ""
+                "content": "Selle draiveri kasutamiseks pead installima ühe konkreetse paketi. Saad seda teha käivitades oma Flarumi peakaustas järgneva composeri käsu: <code>composer require {package}</code>.\n"
             },
             "adapter-settings-modal": {
                 "title": "Seadista {adapter}",
@@ -61,18 +61,18 @@
                         "description": "Sinu autentimise ligipääsukoodi võti"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Korv",
+                        "description": "Säilituskorv on kasutuses."
                     },
                     "path-prefix": {
                         "label": "Asukoha eesliide",
-                        "description": ""
+                        "description": "Valikuline vaikimisi failide eesliide."
                     }
                 },
                 "azure": {
                     "endpoint": {
                         "label": "Lõpp-punkt",
-                        "description": ""
+                        "description": "Sinu salvestuskoha lõpp-punkti URL."
                     },
                     "container": {
                         "label": "Konteiner",
@@ -90,15 +90,15 @@
                     },
                     "region": {
                         "label": "Piirkond",
-                        "description": ""
+                        "description": "Sinu korvi piirkond."
                     },
                     "version": {
                         "label": "Versioon",
-                        "description": ""
+                        "description": "Määra versioon või jäta tühjaks, et kasutada kõige viimast."
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Korv",
+                        "description": "S3 korv, kuhu üles laadida."
                     },
                     "path-prefix": {
                         "label": "Asukoha eesliide",
@@ -114,14 +114,14 @@
                     },
                     "refresh-token": {
                         "label": "Värskenda kontrollkoodi",
-                        "description": ""
+                        "description": "Kasuta allolevaid väljasid, et hankida värskendamise kood või tee seda käsitsi järgides juhendeid lingil https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
-                        "obtain-access-code-label": "",
+                        "obtain-access-code-label": "Hangi ligipääsukood (nõuab rakenduse võtit)",
                         "obtain-access-code-button": "Ava Dropbox",
-                        "obtain-refresh-token-label": "",
+                        "obtain-refresh-token-label": "Kasuta ligipääsukoodi, et hankida värskendamise kood (nõuab rakenduse võtit ja salasõna)",
                         "obtain-refresh-token-button": "Kasuta koodi",
-                        "obtain-refresh-token-success": ""
+                        "obtain-refresh-token-success": "Värskendamise kood on hangitud ja uuendatud! Salvesta, et info jääks alles."
                     }
                 },
                 "gdrive": {
@@ -161,7 +161,7 @@
                     },
                     "private-key": {
                         "label": "Privaatne võti",
-                        "description": ""
+                        "description": "Privaatse võtme asukoht (eelistatavalt täispikkuses). Seda kasutatakse FTP ühenduse autentimisel."
                     },
                     "port": {
                         "label": "Port",
