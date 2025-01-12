@@ -28,13 +28,13 @@
                 "show_tag_hierarchy_label": "Näita siltide hierarhiat",
                 "show_tag_hierarchy_text": "",
                 "redirects_heading": "Ümbersuunamised",
-                "redirect_articles_label": "",
+                "redirect_articles_label": "Suuna blogiartiklid ümber",
                 "redirect_articles_text": "",
-                "redirect_tags_label": "",
+                "redirect_tags_label": "Suuna blogi sildid ümber",
                 "redirect_tags_text": "",
                 "default_article_image_label": "Vaikimisi artikli pilt",
                 "default_article_image_text": "",
-                "add_hero_label": "",
+                "add_hero_label": "Näita teretulemast bännerit",
                 "add_hero_text": ""
             }
         },
@@ -65,9 +65,9 @@
             },
             "review_article": {
                 "pending_review_title": "Ootab ülevaatamist",
-                "pending_review": "",
+                "pending_review": "See artikkel ootab ülevaatamist ja seda pole veel avaldatud",
                 "approve_article": "Kiida artikkel heaks",
-                "approve_article_approved": ""
+                "approve_article_approved": "Artikkel on heaks kiidetud ja avaldatud"
             },
             "tools": {
                 "rename_article": "Nimeta artikkel ümber",
@@ -83,8 +83,8 @@
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Ümbersuunamine sinu blogi artiklile...",
+                    "link": "Kui lehekülg ei suuna sind ümber, siis <a>kliki siia</a>"
                 }
             },
             "composer": {
@@ -97,8 +97,8 @@
                 "write": "Kirjuta",
                 "view": "Vaata",
                 "nothing_to_preview": "Pole midagi näidata",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
+                "comment_section": "Kommentaaride sektsioon pole artikli kirjutamise ajal saadaval.",
+                "no_blog_tags_selected": "Ükski valitud siltidest pole blogi silt. Palun vali vähemalt üks.",
                 "post_without_blog_info": "Oled sa kindel, et soovid seda blogipostitust avaldada? Kokkuvõte ja pilt on veel puudu."
             },
             "article_settings": {
@@ -115,7 +115,7 @@
                     },
                     "highlight": {
                         "title": "Esiletõstetud postitus",
-                        "helper_text": ""
+                        "helper_text": "Anna sellele postitusele suur pilt blogi ülevaate lehel."
                     }
                 }
             }
