@@ -7,28 +7,28 @@
                 "read": "Loe",
                 "unread": "Lugemata",
                 "visible": "Pole kustutatud",
-                "hidden": "",
+                "hidden": "Prügikastis",
                 "locked": "Lukustatud",
                 "unlocked": "Lukustamata"
             },
             "actions": {
                 "markAsRead": "Märgi valitud loetuks",
-                "hide": "",
-                "restore": "",
-                "delete": "",
-                "deleteConfirmation": "",
-                "lock": "",
-                "unlock": "",
+                "hide": "Kustuta valitud",
+                "restore": "Taasta valitud",
+                "delete": "Valitud on igaveseks kustutamine",
+                "deleteConfirmation": "{count, plural, one {Oled sa kindel, et soovid valitud vestluse püsivalt kustutada?} other {Oled sa kindel, et soovid valitud vestlused püsivalt kustutada?}}",
+                "lock": "Lukusta valitud",
+                "unlock": "Eemalda valitute lukustatud",
                 "sticky": "",
                 "unsticky": "",
-                "tags": "",
-                "tags-edit": "",
-                "tags-add": ""
+                "tags": "Sildid",
+                "tags-edit": "Muuda silte",
+                "tags-add": "Lisa <em>{tag}</em>"
             }
         },
         "admin": {
             "permissions": {
-                "controls": ""
+                "controls": "Vaata masstoimingute valiku juhtelemente"
             }
         }
     }
