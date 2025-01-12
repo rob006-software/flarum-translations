@@ -8,33 +8,33 @@
             },
             "alerts": {
                 "already_linked": "Su konto on Steami kontoga juba seostatud!",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
+                "already_used": "See Steami konto on juba mõne teise kasutajaga seotud!",
+                "link_success": "Seos Steami kontoga on loodud.",
+                "unlink_success": "Seos Steami kontoga on tühistatud.",
                 "error": "Midagi läks valesti, palun proovi hiljem uuesti!"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "Seosta Steami kontoga"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "Eemalda seos Steami kontoga",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "Oled sa kindel, et soovid seose Steami kontoga eemaldada?",
+                        "no_providers": "Sul pole muid teenusepakkujaid! Sa pead ilmselt oma parooli nullima."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Jah, eemalda seos",
+                        "cancel": "Ei!"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "api_key_label": "",
-                "use_steam_powered_domain": ""
+                "title": "Steamiga autentimise seaded",
+                "api_key_label": "API võti",
+                "use_steam_powered_domain": "Kasuta domeeni steamcommunity.com (Hiinas blokeeritud) asemel domeeni steampowered.com"
             }
         }
     }
