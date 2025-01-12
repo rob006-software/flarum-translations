@@ -6,12 +6,12 @@
                 "header_layout": {
                     "options": {
                         "show_header": "Näita päist",
-                        "show_only_logo": "",
+                        "show_only_logo": "Näita ainult logo",
                         "hide_secondary_items": ""
                     },
                     "title": "Päise paigutus"
                 },
-                "illustration_path": "",
+                "illustration_path": "Illustratsiooni pilt",
                 "primary_color_bg": "Kasuta peamise värvi tausta",
                 "route_exclusions": "",
                 "url_exclusions": "",
@@ -22,9 +22,9 @@
             }
         },
         "forum": {
-            "log_in_label": "",
-            "or_label": "",
-            "sign_up_label": ""
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "või",
+            "sign_up_label": "=> core.ref.sign_up"
         }
     }
 }
