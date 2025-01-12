@@ -2,88 +2,88 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "",
-                "view_virtual_authors_page": ""
+                "set_virtual_authors": "Määra vestlustele virtuaalsed autorid",
+                "view_virtual_authors_page": "Vaata kõigi virtuaalsete autorite üksikasju"
             },
             "settings": {
-                "errored": "",
+                "errored": "Virtuaalsete autorite laadimine serverist ebaõnnestus.",
                 "create_new": "Loo uus virtuaalne autor",
-                "auto_save_message": "",
+                "auto_save_message": "Uute ja olemasolevate virtuaalsete autorite juures salvestatakse automaatselt.",
                 "search_placeholder": "Otsi nime järgi",
-                "link_to_va_from_discussion": "",
-                "authors_in_sidebar": "",
+                "link_to_va_from_discussion": "Näitab linki kastis 'Autorid' linki kõigile selle virtuaalse autori vestlustele",
+                "authors_in_sidebar": "Näitab autoreid külgribal, mitte esimese postituse kohal",
                 "authors_in_sidebar_help": "",
                 "virtual_authors_page_disabled": "",
                 "virtual_authors_page_disabled_help": "",
                 "discussion_badge": "",
-                "prev": "",
-                "next": ""
+                "prev": "Eelmine lehekülg",
+                "next": "Järgmine lehekülg"
             },
             "virtual_author_item": {
-                "id": "",
-                "name": "",
-                "description": "",
-                "no_description": "",
-                "edit": "",
-                "delete_confirmation": "",
-                "delete_a11y_tooltip": ""
+                "id": "ID",
+                "name": "Näidatav nimi",
+                "description": "Kirjeldus",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "edit": "Muuda virtuaalset autorit",
+                "delete_confirmation": "Kas kustutada virtuaalne autor?",
+                "delete_a11y_tooltip": "Kustuta"
             }
         },
         "lib": {
             "edit_modal": {
-                "title_edit": "",
-                "title_new": "",
-                "submit_edit": "",
-                "submit_new": "",
+                "title_edit": "Muuda virtuaalset autorit",
+                "title_new": "Uus virtuaalne autor",
+                "submit_edit": "Salvesta muudatused",
+                "submit_new": "Loo virtuaalne autor",
                 "fields": {
-                    "name": "",
-                    "description": ""
+                    "name": "Näidatav nimi",
+                    "description": "Kirjeldus (autori kohta)"
                 }
             },
             "discussion-badge": ""
         },
         "forum": {
             "virtual_author_page": {
-                "meta_title": "",
+                "meta_title": "{displayName} - Autorid",
                 "credited_discussions": "",
-                "discussion_count": ""
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
             },
             "virtual_authors_list": {
-                "sidebar_link": "",
-                "empty_text": "",
-                "title": "",
-                "meta_title": "",
-                "filter_name_placeholder": "",
-                "discussion_count": "",
-                "no_description": ""
+                "sidebar_link": "Autorid",
+                "empty_text": "Näib, et siin pole autoreid.",
+                "title": "Kõik autorid",
+                "meta_title": "Kõik autorid",
+                "filter_name_placeholder": "Filtreeri nime järgi",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "See autor proovib hoida enda ümber veidi salapära."
             },
             "virtual_authors_panel": {
-                "heading": "",
-                "error": "",
-                "item_link_tooltip": ""
+                "heading": "Autorid",
+                "error": "Autorite laadimine ebaõnnestus.",
+                "item_link_tooltip": "Vaata kõiki vestlus kasutajalt {displayName}"
             },
             "discussion_controls": {
-                "set_virtual_authors": ""
+                "set_virtual_authors": "Määra virtuaalsed autorid"
             },
             "set_modal": {
-                "title": "",
-                "existing": "",
-                "add_new": "",
-                "none_existing": "",
-                "search": "",
+                "title": "Määra virtuaalsed autorid",
+                "existing": "Praegused virtuaalsed autorid",
+                "add_new": "Vali uued virtuaalsed autorid",
+                "none_existing": "Ühtegi virtuaalset autorit pole valitud.",
+                "search": "Otsi virtuaalset autorit",
                 "credit_placeholder": "",
-                "delete_confirmation": "",
-                "delete_button": "",
-                "add_button": "",
-                "added_button": "",
-                "no_description": "",
-                "virtual_author_exists": "",
-                "save": ""
+                "delete_confirmation": "Kas eemaldada virtuaalne autor vestlusest?",
+                "delete_button": "Eemalda",
+                "add_button": "Lisa",
+                "added_button": "Lisatud",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "virtual_author_exists": "Juba valitud!",
+                "save": "Salvesta muudatused"
             }
         },
         "ref": {
-            "no_description": "",
-            "discussion_count": ""
+            "no_description": "(kirjeldust pole määratud)",
+            "discussion_count": "{count, plural, one {# vestlus}, other {# vestlust}}"
         }
     }
 }
