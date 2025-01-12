@@ -1221,7 +1221,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/telegram/0.3/resources/locale/en.yml',
 	],
 	'nodeloc-vps' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-friend-link/0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-friend-link/1.1/locale/en.yml',
 	],
 	'nodeloc-whisper' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/whisper/0.0.4/resources/locale/en.yml',
