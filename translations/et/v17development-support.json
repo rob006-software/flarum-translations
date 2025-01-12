@@ -20,7 +20,7 @@
             "overview": {
                 "knowledge_base_overview": "Teabebaasi ülevaade",
                 "back_to": "Tagasi kategooriasse {category}",
-                "back_to_overview": "",
+                "back_to_overview": "Tagasi teabebaasi ülevaatesse",
                 "back_to_main_categories": "Tagasi peamisesse kategooriasse",
                 "loading_articles": "Artiklite laadimine",
                 "no_categories_found": "Vabandust, aga siit ei leitud ühtegi kategooriat...",
@@ -36,7 +36,7 @@
             },
             "article_events": {
                 "article_hidden": "{username} peitis artikli",
-                "article_public": "",
+                "article_public": "{username} tegi artikli avalikuks",
                 "article_modified": "{username} muutis seda artiklit."
             },
             "search": {
@@ -44,10 +44,10 @@
                 "back_to_search_results": "Tagasi otsingutulemustesse",
                 "search_knowledge_base": "Tagasi teabebaasi",
                 "searching": "Otsimine",
-                "searching_for": "",
+                "searching_for": "Sõna {searchterm} otsing",
                 "searched_for": "",
                 "use_searchbox_below": "",
-                "no_results": ""
+                "no_results": "Otsing sõnaga {searchterm} ei andnud tulemusi."
             },
             "not_found": {
                 "title": "Kirjet ei leitud",
@@ -88,10 +88,10 @@
                 "finished": "Aitäh! Sinu tagasiside on salvestatud.",
                 "validation": {
                     "invalid_discussion": "",
-                    "guest": "",
+                    "guest": "Palun logi sisse enne, kui sa hindad seda artiklid.",
                     "invalid_points": "Vigane hinnang. Palun proovi uuesti.",
                     "cannot_rate_article": "Sa ei saa seda artiklit hinnata.",
-                    "neutral_emoji_disabled": "",
+                    "neutral_emoji_disabled": "Neutraalne emoji on välja lülitatud.",
                     "missing_article_id": "Puuduv või vigane artikli ID"
                 },
                 "switch_sort_score": {
@@ -115,13 +115,13 @@
                     "feedback": "Tagasiside",
                     "rating": "Hinnang",
                     "username": "=> core.ref.username",
-                    "rated_on": ""
+                    "rated_on": "Hinnatud"
                 }
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Sinu suunamine teabebaasi artiklile...",
+                    "link": "Kui leht ei suuna sind ümber, siis <a>kliki siia</a>"
                 }
             },
             "composer": {
