@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "defaultOpenLastRead": "Ava vestlus vaikimisi viimati loetud postituse koha pealt",
-                "suggestFirstTime": "",
+                "suggestFirstTime": "Näita kasutajale küsimust, et nad saaksid esimest korda vestlust avades oma eelistuse valida",
                 "openLastOptions": {
                     "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
                     "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
@@ -13,11 +13,11 @@
         },
         "forum": {
             "firstTimePrompt": {
-                "fromAlways": "",
-                "fromNever": "",
+                "fromAlways": "Vestluste lingid viivad viimase loetud postituseni",
+                "fromNever": "Vestluse lingid avavad esimese postituse",
                 "openLastOptions": {
-                    "always": "",
-                    "never": ""
+                    "always": "Ava alati hoopis viimane postitus, mida ma lugesin",
+                    "never": "Ava alati hoopis esimene postitus"
                 },
                 "more": "Lisavalikud"
             },
@@ -32,9 +32,9 @@
         },
         "ref": {
             "openLastOptions": {
-                "always": "",
-                "unread": "",
-                "never": ""
+                "always": "Ava alati vestlused viimasest loetud postitusest",
+                "unread": "Ava vestlused viimati loetud postitusest ainult siis, kui seal on uusi vastuseid",
+                "never": "Ava vestlus alati esimesest postitusest"
             }
         }
     }
