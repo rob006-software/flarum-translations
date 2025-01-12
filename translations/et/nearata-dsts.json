@@ -2,9 +2,9 @@
     "nearata-dsts": {
         "admin": {
             "permissions": {
-                "can_bypass_like": "",
-                "can_bypass_reply": "",
-                "can_bypass_login": "",
+                "can_bypass_like": "Võib meeldimisest mööda minna",
+                "can_bypass_reply": "Võib vastamisest mööda minna",
+                "can_bypass_login": "Võib sisselogimisest mööda minna",
                 "can_use_bbcode": "Võib kasutada BB-koodi"
             },
             "settings": {
@@ -14,31 +14,31 @@
                 "require_reply": "Nõua vastust",
                 "fof_upload": {
                     "enabled": "Sisse lülitatud",
-                    "section_title": "",
-                    "require_reply": "",
-                    "require_like": ""
+                    "section_title": "Üleslaadimised",
+                    "require_reply": "Nõua vastust",
+                    "require_like": "Meeldimine on nõutud"
                 }
             }
         },
         "forum": {
             "post": {
-                "login_tooltip": "",
-                "reply_tooltip": "",
-                "like_tooltip": "",
+                "login_tooltip": "Sisu vaatamiseks pead sisse logima",
+                "reply_tooltip": "Sisu nägemiseks pead vestlusele vastama",
+                "like_tooltip": "Sisu nägemiseks pead sa märkima postituse meeldivaks",
                 "fof_upload": {
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "login_text": "Faili nägemiseks pead sisse logima",
+                    "reply_text": "Faili nägemiseks pead vestlusele vastama",
+                    "like_text": "Faili nägemiseks pead märkima postituse meeldivaks"
                 },
                 "bbcode": {
-                    "hidden_content": "",
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "hidden_content": "Peidetud sisu",
+                    "login_text": "Selle sisu nägemiseks pead sisse logima",
+                    "reply_text": "Selle sisu nägemiseks pead vestlusele vastama",
+                    "like_text": "Selle sisu nägemiseks pead selle postituse meeldivaks märkima"
                 }
             },
             "composer": {
-                "dsts_tooltip": ""
+                "dsts_tooltip": "DSTS"
             }
         }
     }
