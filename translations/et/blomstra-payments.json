@@ -17,20 +17,20 @@
                 "interval_once": "1 kord"
             },
             "subscription-card": {
-                "bounty": "",
+                "bounty": "Annetus",
                 "ptv": "Vaatamiseks maksa",
-                "pta": "",
+                "pta": "Makstud ligipääs",
                 "ptb": "",
-                "ptp": "",
+                "ptp": "Makstud avaldamiseks",
                 "cancel-control": "Loobu",
                 "none": ""
             },
             "post_stream": {
-                "bounty_added_text": ""
+                "bounty_added_text": "{username} lisas annetuse summas {amount}."
             },
             "pay-to-view": {
                 "purchase-control": "Maksmiseks vaata",
-                "purchase-log-in": "",
+                "purchase-log-in": "Vaatamiseks logi sisse ja maksa",
                 "purchase-completed": "Avatud",
                 "description": ""
             },
@@ -45,12 +45,12 @@
                 "purchase-log-in": ""
             },
             "bounties": {
-                "purchase-control": "",
-                "enable-control": ""
+                "purchase-control": "Lisa annetus",
+                "enable-control": "Luba annetused"
             },
             "choose-bounty-amount-modal": {
-                "title": "",
-                "checkout-control": "",
+                "title": "Vali annetuse summa",
+                "checkout-control": "Kassa",
                 "description": ""
             },
             "backers-widget": {
@@ -86,7 +86,7 @@
             "edit-tag": {
                 "select-ptp-product": "",
                 "select-ptp-product-description": "",
-                "select-ptv-product": "",
+                "select-ptv-product": "(PTV) Nõutud toode",
                 "select-ptv-product-description": "",
                 "visible-from": "",
                 "visible-from-description": "",
@@ -94,24 +94,24 @@
                 "select-ptb-product-description": "",
                 "bump-others": "",
                 "bump-others-description": "",
-                "select-bounty-product": "",
+                "select-bounty-product": "(Annetus) Nõutud toode",
                 "select-bounty-product-description": ""
             },
             "edit-group": {
-                "select-pta-product": "",
+                "select-pta-product": "(PTA) Nõutud toode",
                 "select-pta-product-description": ""
             },
             "settings": {
                 "assign-bounty-tag-id": "",
-                "pk": "",
-                "sk": "",
+                "pk": "Avaldatav (API) võti",
+                "sk": "Salajane (API) võti",
                 "webhook-secret": "",
                 "link-access-portal": "",
                 "link-to-terms": "",
                 "recount-total-discussion-bounties": ""
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "Luba annetused"
             }
         }
     }
