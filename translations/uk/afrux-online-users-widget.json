@@ -2,7 +2,12 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
+                "cache_ttl": "",
+                "last_seen_interval": "",
                 "max_users": "Максимум користувачів для показу"
+            },
+            "permissions": {
+                "view_online_users_widget": ""
             }
         },
         "forum": {
