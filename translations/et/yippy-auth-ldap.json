@@ -19,10 +19,10 @@
                     "mail_field_does_not_exist": ""
                 },
                 "account": {
-                    "invalid_inputs": "",
-                    "not_found": "",
-                    "incorrect_details": "",
-                    "password_expired": "",
+                    "invalid_inputs": "Sisendväljad ei saa olla tühjad",
+                    "not_found": "Sinu kontot ei leitud serverist {server}.",
+                    "incorrect_details": "Sisestati vigane parool.",
+                    "password_expired": "Sinu parool on aegunud.",
                     "disabled": "",
                     "expired": "",
                     "locked": ""
