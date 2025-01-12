@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "allow_option_image": "",
-                "max_options": "",
+                "max_options": "Maksimaalne valikute arv loterii kohta",
                 "options_color_blend": "",
                 "options_color_blend_help": ""
             },
@@ -29,17 +29,17 @@
             "minutes": "minutit",
             "seconds": "sekundit",
             "endDateText": "Loterii on lõppenud!",
-            "hurry_up": "",
-            "had_enter": "",
-            "too_many_participants": "",
+            "hurry_up": "Uus \"sündmus\" on lähedal! Alustame...",
+            "had_enter": "Oled osalemas loteriis.",
+            "too_many_participants": "Liiga palju osalejaid",
             "lottery": {
-                "cannot_cancel_lottery": "",
-                "submit_button": ""
+                "cannot_cancel_lottery": "Osalejad ei saa oma osalemist tühistada",
+                "submit_button": "Kliki osalemiseks"
             },
             "composer_discussion": {
                 "add_lottery": "=> nodeloc-lottery.forum.moderation.add",
                 "edit_lottery": "=> nodeloc-lottery.forum.moderation.edit",
-                "no_permission_alert": "",
+                "no_permission_alert": "Sul pole õiguseid loterii alustamiseks.",
                 "in_queue_alert": "Osalesid loetriis.",
                 "no_post_in_discussion_alert": "Sa pole vastanud vestlusele."
             },
@@ -51,13 +51,13 @@
                 "min_participants": "Min. osalejaid",
                 "max_participants": "Maks. osalejaid",
                 "add_option_label": "Lisa valik",
-                "date_placeholder": "",
+                "date_placeholder": "Loosi tõmbamise aeg",
                 "edit_title": "Muuda loetriid",
                 "include_prizes": "Sa pead lisama auhinnad",
                 "include_price": "Sa pead sisestama hinna",
                 "include_amount": "Sa pead sisestama koguse",
                 "include_end_date": "Pead sisestama lõpu kuupäeva",
-                "max": "",
+                "max": "Sul on maksimaalselt {max} vastust",
                 "min": "Pead sisestama vähemalt 2 vastust",
                 "no_participants": "Osalejaid pole",
                 "option_placeholder": "Lävi",
@@ -66,7 +66,7 @@
                 "public_lottery_label": "Luba inimestel näha, kes hääletasid",
                 "allow_multiple_votes_label": "Luba inimestel sisestada mitu valikut",
                 "participants_label": "Osalejad",
-                "participants_help": "",
+                "participants_help": "Tühista, kui osalejaid on liiga vähe ja keela osalemine, kui maksimaalne osalejate arv on ületatud..",
                 "hide_votes_label": "Peida, kuni loterii lõpeb",
                 "allow_cancel_enter_label": "Luba osalejatel osalemine tühistada",
                 "submit": "Saada",
@@ -99,7 +99,7 @@
             "notification": {
                 "drawLottery": "Õnnitlused, võitsid loterii.",
                 "fail": "Loterii ebaõnnestus, kuna osalejaid polnud piisavalt.",
-                "finish": ""
+                "finish": "Loterii oli edukas. Palun saada võitjatele teade."
             }
         },
         "email": {
