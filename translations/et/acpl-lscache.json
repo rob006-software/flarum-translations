@@ -16,22 +16,22 @@
             "drop_qs_help": "",
             "status_codes_cache_label": "",
             "status_codes_cache_help": "",
-            "purge_all": "",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
             "permissions": {
-                "purge": ""
+                "purge": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "forum": {
             "purge": {
-                "discussion": ""
+                "discussion": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "LiteSpeed serverit on teavitatud, et LSCache sissekanded kustutataks",
+            "purge_all_success": "LiteSpeed serverit on teavitatud, et kõik LSCache sissekanded kustutataks"
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "Tühjenda LSCache"
         }
     }
 }
