@@ -7,22 +7,22 @@
         "admin": {
             "settings": {
                 "title": "LDAP seaded",
-                "method_name": "",
-                "hosts": "",
-                "base_dn": "",
-                "filter": "",
+                "method_name": "LDAP serveri nimi (näidatakse pärast teksti \"Logi sisse\")",
+                "hosts": "LDAP domeenid või serveri IP-aadressid (eraldatuna komadega)",
+                "base_dn": "BaasDN (eraldatuna komadega)",
+                "filter": "Filter, mida rakendada (valikuline)",
                 "port": "port",
-                "account_prefix": "",
-                "account_suffix": "",
+                "account_prefix": "Konto eesliide",
+                "account_suffix": "Konto eesliide",
                 "admin_dn": "",
-                "admin_password": "",
-                "search_user_fields": "",
-                "user_mail": "",
-                "user_username": "",
-                "follow_referrals": "",
-                "use_ssl": "",
-                "use_tls": "",
-                "onlyUse": ""
+                "admin_password": "LDAP admini parool (jäta tühjaks, et siduda anonüümselt)",
+                "search_user_fields": "LDAP kasutaja otsingu väljad (eraldatuna komadega)",
+                "user_mail": "LDAP kasutaja meili väli",
+                "user_username": "LDAP kasutajanimi väli",
+                "follow_referrals": "Jälgi LDAP severiga liitmiseks viiteid",
+                "use_ssl": "Kasuta SSL-i",
+                "use_tls": "Kasuta TLS-i",
+                "onlyUse": "Peida tavapärane Flarumi sisselogimise viis"
             }
         }
     }
