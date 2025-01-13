@@ -2,61 +2,61 @@
     "clarkwinkelmann-carving-contest": {
         "forum": {
             "nav": {
-                "contest": ""
+                "contest": "Nikerdamise võistlus"
             },
             "page": {
-                "title": "",
+                "title": "Kõrvitsa nikerdamise võistlus",
                 "loading": "Sissekannete laadimine...",
-                "participate": "",
-                "already-participated": "",
-                "delete-confirmation": "",
+                "participate": "Osale",
+                "already-participated": "Osalen juba",
+                "delete-confirmation": "Oled sa kindel, et soovid kustutada \"{name}\", mille esitas {username}?",
                 "like": "Meeldib",
                 "already-liked": "See meeldib mulle",
                 "unlike": "Ei meeldi",
-                "refresh": "",
-                "load-more": "",
+                "refresh": "Värskenda",
+                "load-more": "Laadi rohkem sissekandeid",
                 "sort": {
-                    "mostLikes": "",
-                    "fewerLikes": "",
-                    "mostRecent": "",
-                    "leastRecent": ""
+                    "mostLikes": "Rohkem meeldimisi",
+                    "fewerLikes": "Vähem meeldimisi",
+                    "mostRecent": "Hiljuti postitatud",
+                    "leastRecent": "Vanimad"
                 },
                 "likes": {
-                    "you_text": "",
-                    "others_link": "",
-                    "liked_by_self_text": "",
-                    "liked_by_text": ""
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} kasutajale meeldib see.",
+                    "liked_by_text": "{count, plural, one {{users} kasutajale meeldib see.} other {{users} kasutajale meeldib see.}}"
                 }
             },
             "modal": {
-                "title": "",
-                "name": "",
-                "submit": "",
+                "title": "Osale",
+                "name": "Sinu loomingu nimi",
+                "submit": "Esita",
                 "tools": {
-                    "circle": "",
-                    "square": ""
+                    "circle": "Ring",
+                    "square": "Ruut"
                 }
             },
             "likes_modal": {
-                "title": ""
+                "title": "Kasutajad, kellele see meeldis"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "like": "",
-                "participate": "",
-                "moderate": ""
+                "view": "Vaata sissekandeid",
+                "like": "Sissekannete meeldimine",
+                "participate": "Osale",
+                "moderate": "Modereeri"
             },
             "settings": {
-                "maxEntriesPerUser": "",
-                "colorMode": ""
+                "maxEntriesPerUser": "Maksimaalne arv kasutaja kohta",
+                "colorMode": "Kasuta lõikamise asemel värvimist"
             },
             "colors": {
-                "simple": "",
-                "all": "",
-                "custom": "",
-                "custom-help": ""
+                "simple": "Lihtne värviskeem",
+                "all": "Ükskõik, milline värv",
+                "custom": "Kohanda värvide nimekirja",
+                "custom-help": "Komadega eraldatud nimekiri #hex või rgb() väärtustest"
             }
         }
     }
