@@ -16,7 +16,7 @@
                 "create": "Vormide loomine (beeta)",
                 "moderate": "Kõikide vormide modereerimine",
                 "export": "Lisatud info eksportimine",
-                "exportUserDetails": "",
+                "exportUserDetails": "Ligipääs kasutaja privaatsetele andmetele esportimisel",
                 "listForms": "",
                 "listSubmissions": ""
             },
@@ -168,7 +168,7 @@
                     "allow-modification": "",
                     "enable": "Lülita sisse",
                     "max-submissions": "",
-                    "send-confirmation-to-participants": "",
+                    "send-confirmation-to-participants": "Saada kinnituskiri osalejatele",
                     "notify-emails": "",
                     "web-confirmation-message": "",
                     "permission-see-own": "Enda sisestatud info nägemine",
@@ -228,15 +228,15 @@
                 "title": "Pealkiri",
                 "description": "Kirjeldus",
                 "key": "",
-                "fill-permission": "",
+                "fill-permission": "(Ekspertidele) Täida õigused",
                 "required": "Nõutud",
-                "rich": "",
+                "rich": "Vormindatud tekst (TextFormatter)",
                 "min": "Minimaalne",
                 "max": "Maksimaalne",
                 "integer": "Täisarv",
                 "email": "E-post",
                 "regex": "Regulaarväljend",
-                "mime": "",
+                "mime": "Failitüüp (komadega eraldatud, teisel poolel võib kasutada kohatäitjaid)",
                 "other": "",
                 "duplicate": "Tee väljast koopia",
                 "delete": "Kustuta väli",
@@ -385,10 +385,10 @@
         "api": {
             "formatter-parsing-error": "",
             "not-allowed-to-fill-field": "",
-            "duplicate-field-key": "",
+            "duplicate-field-key": "Võti peab olema unikaalne",
             "cannot-change-form-type": "",
-            "unknown-form": "",
-            "unauthorized-form": "",
+            "unknown-form": "Tundmatu vormi ID {id}",
+            "unauthorized-form": "Sul pole õigusi vormi {id} täitmiseks",
             "unauthorized-scoped-form": "",
             "unsupported-discussion-form": "",
             "file-already-belongs-form": "",
@@ -429,11 +429,11 @@
                 "seeOwnUser": "Oma profiili vormide vaatamine",
                 "seeAnyUser": "Kõikide profiili väljade vaatamine",
                 "editOwnUser": "Oma profiili väljade muutmine",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": ""
+                "editAnyUser": "Kõigi profiili väljade muutmine",
+                "seeOwnDiscussion": "Omaenda vestluse väljade vaatamine",
+                "seeAnyDiscussion": "Kõigi vestluste väljade vaatamine",
+                "editOwnDiscussion": "Omaenda vestluse väljade muutmine",
+                "editAnyDiscussion": "Kõigi vestluse väljade muutmine"
             },
             "submission-meta": {
                 "uid": "Vastuse ID",
@@ -446,7 +446,7 @@
                 "locked_at": "Lukustamise kuupäev",
                 "created_at": "Loomise kuupäev",
                 "updated_at": "Uuendamise kuupäev",
-                "hidden_at": ""
+                "hidden_at": "Prügikasti saatmise kuupäev"
             }
         }
     }
