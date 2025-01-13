@@ -3,42 +3,42 @@
         "admin": {
             "permissions": {
                 "mail_individual": "Saada e-kirjad individuaalsetele kasutajatele",
-                "mail_all": ""
+                "mail_all": "Saada e-kiri gruppidele või kõigile kasutajatele"
             }
         },
         "forum": {
             "links": {
                 "mail_individual": "Saada sellele kasutajale e-kiri",
-                "mail_all": ""
+                "mail_all": "Saada e-kiri"
             },
             "modal_mail": {
                 "title_text": "Koosta e-kiri",
                 "recipients_label": "Saajad",
-                "recipients_placeholder": "",
+                "recipients_placeholder": "Lisa rohkem saajaid...",
                 "subject_label": "Pealkiri",
                 "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
-                "message_label": "",
-                "as_html_label": "",
-                "submit_button": ""
+                "message_label": "Sõnum",
+                "as_html_label": "Saada HTML-ina",
+                "submit_button": "Saada"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "Kiri on saadetud!",
+                "on_its_way": "Super! Sinu kiri on teel saajatele {recipientsCount}!"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "Kasutaja",
+                "group": "Grupp",
+                "email": "E-post"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "Ühtegi saajat ei leitud"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "Sõnum foorumi administraatorilt"
         }
     }
 }
