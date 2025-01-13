@@ -12,7 +12,7 @@
             "provider": {
                 "all": "Kõik",
                 "error": {
-                    "title": "",
+                    "title": "Tundmatu teenusepakkuja",
                     "no-preview": "Eelvaadet pole"
                 }
             },
@@ -27,33 +27,33 @@
                 "name": "Nimi",
                 "desc": "Kirjeldus",
                 "price": "Hind",
-                "provider": "",
-                "provider_data": "",
+                "provider": "Teenusepakkuja",
+                "provider_data": "Teenusepakkuja andmed",
                 "use_cnt": "Mitu korda saab kasutada",
-                "expire_time": "",
+                "expire_time": "Aegumine",
                 "expire_time_tip": "",
                 "rest_cnt": "",
                 "rest_cnt_tip": "",
                 "edit-title": "",
-                "edit-button": "",
-                "button": "",
-                "success": "",
-                "confirm_delete": "",
-                "delete-button": "",
+                "edit-button": "Muuda",
+                "button": "Loo",
+                "success": "Kirje on loodud",
+                "confirm_delete": "Oled sa kindel, et soovid selle kirje kustutada?",
+                "delete-button": "Kusuta",
                 "providers": {
-                    "unknown": "",
-                    "unknown_data": "",
-                    "no_select_data": "",
+                    "unknown": "Vali teenusepakkuja",
+                    "unknown_data": "Pead esmalt valima teenusepakkuja",
+                    "no_select_data": "Vali teenusepakkuja andmed",
                     "special_data": "Valitud andmed"
                 },
-                "provider_data_error": "",
+                "provider_data_error": "Palun vali teenusepakkuja ja andmed",
                 "provider_data_default": "Vaikimisi andmed"
             },
             "purchase-confirm": "Kinnitada ost?",
             "item": {
                 "rest_cnt": "Järgi {0}",
                 "use_cnt": "Kasuta {0} korda",
-                "expire": "",
+                "expire": "{0} kestus",
                 "no_available": "Ühtegi kirjet pole saadaval",
                 "infinity_count": "Piiramatu saadavus",
                 "not_found": "Kirjet ei leitud"
@@ -70,18 +70,18 @@
                 "forever": "",
                 "confirm_use": "",
                 "unable_to_use": "",
-                "not_found": ""
+                "not_found": "Kirjet ei leitud"
             },
             "query-modal": {
                 "purchase": {
-                    "title": ""
+                    "title": "Osta kirje"
                 },
                 "use": {
-                    "title": ""
+                    "title": "Kasuta kirjet"
                 }
             },
             "use_result": {
-                "success": "",
+                "success": "Korras",
                 "fail": {
                     "unknown": "Tundmatu viga",
                     "error": "Viga kirje kasutamisel",
