@@ -3,10 +3,10 @@
         "forum": {
             "pusher_not_found": "",
             "index": {
-                "chat_link": ""
+                "chat_link": "Jututuba"
             },
             "toolbar": {
-                "title": "",
+                "title": "Jututuba",
                 "enable_sounds": "Luba helid",
                 "disable_sounds": "Keela helid",
                 "enable_notifications": "Lülita teavitused sisse",
@@ -14,27 +14,27 @@
                 "minimize": "Minimeeri",
                 "maximize": "Maksimeeri",
                 "chat": {
-                    "settings": ""
+                    "settings": "Jututoa seaded"
                 }
             },
             "chat": {
                 "welcome": {
-                    "header": "",
-                    "subheader": ""
+                    "header": "Teretulemast Neon Chati-!",
+                    "subheader": "Palun vali vestlemiseks paremalt jututuba"
                 },
                 "moder": "Moderaator",
-                "kick": "",
+                "kick": "Löö välja",
                 "leave": "Lahku",
                 "rejoin": "Liitu uuesti",
                 "edit_modal": {
-                    "title": "",
+                    "title": "Jututoa seaded",
                     "moderator": {
-                        "got": "",
-                        "lost": ""
+                        "got": "Said endale just moderaatoriõigused jututoas {chatname}!",
+                        "lost": "Kaotasid just moderaatoriõigused jututoas {chatname}."
                     },
                     "form": {
                         "title": {
-                            "label": "",
+                            "label": "Jututoa nimi",
                             "validator": "Vähemalt 1 sümbol"
                         },
                         "color": {
@@ -48,13 +48,13 @@
                         "users": {
                             "edit": "Vali ja muuda kasutajaid"
                         },
-                        "leave": "",
-                        "return": "",
+                        "leave": "Lahku jututoast",
+                        "return": "Sisene jututuppa",
                         "delete": {
-                            "title": "",
-                            "desc": "",
-                            "placeholder": "",
-                            "button": ""
+                            "title": "Oled sa kindel, et soovid selle jututoa kustutada?",
+                            "desc": "Kopeeri jututoa nimi, et jätkata",
+                            "placeholder": "Jututoa nimi",
+                            "button": "Kustuta jututuba"
                         }
                     },
                     "search": {
@@ -65,44 +65,44 @@
                     "save_button": "=> core.ref.save_changes"
                 },
                 "list": {
-                    "pin": "",
+                    "pin": "Kinnita paneel",
                     "unpin": "",
-                    "placeholder": "",
+                    "placeholder": "Filtreeri jututubasid",
                     "preview": {
                         "empty": "Sõnumeid pole"
                     },
                     "add_modal": {
-                        "title": "",
-                        "chat": "",
-                        "channel": "",
+                        "title": "Vali kasutajad",
+                        "chat": "Jututuba",
+                        "channel": "Kanal",
                         "create": {
-                            "chat": "",
-                            "channel": ""
+                            "chat": "Loo uus kanal",
+                            "channel": "Loo uus kanal"
                         },
                         "alerts": {
                             "exists": ""
                         },
                         "form": {
                             "title": {
-                                "chat": "",
-                                "channel": "",
-                                "validator": ""
+                                "chat": "Kanali nimi",
+                                "channel": "Kanali nimi",
+                                "validator": "Vähemalt 1 sümbol"
                             },
                             "icon": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
                             },
                             "color": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
                             },
-                            "users": ""
+                            "users": "Valitud kasutajad"
                         },
                         "search": {
-                            "placeholder": "",
-                            "failed": "",
-                            "invited": "",
-                            "more_results": ""
+                            "placeholder": "Otsi kasutajaid",
+                            "failed": "Sobivaid kasutajaid ei leitud",
+                            "invited": "Kutsutud",
+                            "more_results": "Ja veel {more_results} ..."
                         }
                     }
                 },
@@ -123,7 +123,7 @@
                     },
                     "events": {
                         "chat": {
-                            "created": ""
+                            "created": "{creatorname} lõi {chatname} ja kutsus {usernames}"
                         },
                         "pm": {
                             "created": ""
@@ -163,18 +163,18 @@
                 "post": "",
                 "edit": "",
                 "delete": "",
-                "enabled": "",
+                "enabled": "Jututoa lubamine",
                 "create": {
-                    "chat": "",
+                    "chat": "Jututoa alustamine",
                     "channel": "Alusta kanaleid"
                 },
                 "moderate": {
-                    "delete": "",
+                    "delete": "Kustuta jututoa sõnumid",
                     "vision": "Kustutatud sõnumite vaatamine"
                 }
             },
             "settings": {
-                "title": "",
+                "title": "Jututoa seaded",
                 "charlimit": "Maksimaalne märkide arv sõnumis",
                 "floodgate": {
                     "title": "Liigse postitamise tõrje",
