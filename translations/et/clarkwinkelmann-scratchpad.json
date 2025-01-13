@@ -2,16 +2,16 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "",
-                "single-column": "",
-                "theme": "",
-                "theme-auto": "",
-                "indent": "",
+                "title": "Scratchpadi seaded",
+                "single-column": "Grupeeri redaktorid ühe veeruna, mitte kolmena",
+                "theme": "CodeMirrori teema (mõju nägemiseks on vaja leht uuesti laadida)",
+                "theme-auto": "Automaatne (vaikimis on hele teema, dracula on tume teema)",
+                "indent": "Tühikute arv taandes",
                 "npm-install-command": "NPM paigaldamise käsk",
-                "webpack-command": "",
-                "empty-for-default": "",
-                "validate-live": "",
-                "compile-automatically": ""
+                "webpack-command": "Webpacki käsk",
+                "empty-for-default": "Vaikimisi käsu jaoks jäta tühjaks",
+                "validate-live": "Esita päring kontrollida LESS-i ja PHP-d enne salvestamist",
+                "compile-automatically": "Kompileeri JS salvestamisel automaatselt"
             },
             "controls": {
                 "refresh": "Värskenda",
@@ -19,14 +19,14 @@
                 "compile": "Compile JS",
                 "settings": "Redaktori seaded",
                 "new": "Uus",
-                "new-confirmation": "",
+                "new-confirmation": "Praegune scratchpad pole salvestatud. Kas hüljata see ja alustada uut?",
                 "delete": "Kustuta",
                 "delete-confirmation": "Kas kustutada \"{title}\" ?",
                 "enable": "Sisse lülitamiseks kliki",
                 "disable": "Välja lülitamiseks kliki"
             },
             "fields": {
-                "title": "",
+                "title": "Scratchpadi nimi",
                 "admin_js": "Admini JS",
                 "forum_js": "Foorumi JS",
                 "admin_less": "Admini Less",
@@ -35,7 +35,7 @@
             },
             "placeholders": {
                 "untitled": "Pealkirjata",
-                "php-comment": "",
+                "php-comment": "Registreeri laiendajad siin",
                 "js-log": "Tere, {frontend}!"
             },
             "compilation-alert": {
