@@ -22,12 +22,12 @@
                 "ban": ""
             },
             "banUser": {
-                "title": "",
-                "until": "",
-                "quick": "",
-                "quickChoiceReset": "",
-                "quickChoiceDays": "",
-                "submit": ""
+                "title": "Sulge {username} konto",
+                "until": "Kuni kuupäev (UTC)",
+                "quick": "Kiirvalikud",
+                "quickChoiceReset": "Pole blokeeritud",
+                "quickChoiceDays": "{count, plural, one {# päev} other {# päeva}}",
+                "submit": "Salvesta"
             },
             "badge": {
                 "user": "",
