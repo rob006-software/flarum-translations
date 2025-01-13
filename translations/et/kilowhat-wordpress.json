@@ -8,14 +8,14 @@
                 "api_key_reset_confirm": "",
                 "wordpress_url": "WordPressi URL",
                 "default_actor": "",
-                "default_actor_placeholder_invalid": "",
+                "default_actor_placeholder_invalid": "Võimalik vigane väärtus: {value} - Trüki kasutaja otsimiseks...",
                 "default_actor_placeholder_search": "Kirjuta kasutaja otsimiseks...",
                 "default_actor_help": "",
                 "report_http_errors": "",
                 "report_http_errors_help": "",
                 "section_sso_intro": "",
                 "enable_sso": "Lülita SSO integratsioon sisse",
-                "login_method": "",
+                "login_method": "Üldine sisselogimise mehhanism",
                 "login_method_help": "",
                 "login_method_options": {
                     "cookie": "Küpsis",
@@ -43,7 +43,7 @@
                 "welcome_message_help": "",
                 "wordpress_login_only": "Luba ainult WordPressi sisselogimine",
                 "wordpress_login_only_help": "",
-                "user_delete": "",
+                "user_delete": "Tegevus, kui kasutaja kustutatakse WordPressist",
                 "user_delete_options": {
                     "ignore": "Ignoreeri (säilita Flarumi kasutaja)",
                     "delete": "Kustuta Flarumi kasutaja",
@@ -71,14 +71,14 @@
                 "use_post_date_help": "",
                 "post_hide": "",
                 "post_hide_options": {
-                    "ignore": "",
+                    "ignore": "Ignoreeri (lukusta vestlus vastavalt seadele Luba kommentaarid)",
                     "lock": "Lukusta vestlused Flarumis",
                     "hide": "Peida vestlused Flarumis",
                     "delete": "Kustuta vestlused Flarumist jäädavalt"
                 },
-                "post_delete": "",
+                "post_delete": "Tegevus, kui WordPressi postitus kustutatakse jäädavalt",
                 "post_delete_options": {
-                    "ignore": "",
+                    "ignore": "Ignoreeri (säilita Flarumi vestluse olek)",
                     "lock": "Säilita Flarumi vestlus ja lukusta",
                     "hide": "Peida vestlused Flarumis",
                     "delete": ""
@@ -96,7 +96,7 @@
                 "edit_css_button": ""
             },
             "edit_css": {
-                "title": "",
+                "title": "Muuda kohandatud põimitud CSS-i",
                 "customize_text": ""
             },
             "permissions": {
