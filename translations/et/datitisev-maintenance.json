@@ -19,16 +19,16 @@
                 "message_label": "Vealehe sõnum",
                 "error_page_file_label": "",
                 "error_page_file_hint": "",
-                "error_page_label": "",
+                "error_page_label": "Veateate leht HTML/Blade",
                 "error_page_hint": ""
             },
             "permissions": {
-                "allow_bypass_maintenance_label": ""
+                "allow_bypass_maintenance_label": "Mine hooldusrežiimist mööda (seade peab olema sisse lülitatud)"
             }
         },
         "lib": {
             "maintenance_active_message": "See foorum on hetkel hooldamisel.",
-            "maintenance_active_not_db_message": "",
+            "maintenance_active_not_db_message": "Hooldusrežiim on lülitatud sisse kasutades <code>config.php</code> faili.",
             "maintenance_active_disabled_api_message": "API on praegu kõigi jaoks välja lülitatud."
         },
         "views": {
@@ -41,7 +41,7 @@
     "core": {
         "lib": {
             "error": {
-                "maintenance_message": ""
+                "maintenance_message": "Foorum on praegu hooldusrežiimis."
             }
         }
     }
