@@ -11,35 +11,35 @@
                 "card": "Kasutaja kaardi stiil",
                 "loading": "Laadimine",
                 "closed": "Suletud",
-                "no-login": ""
+                "no-login": "Eelvaate nägemiseks logi sisse"
             },
             "decoration": {
-                "delete_button": "",
-                "remove_button": "",
-                "change_button": "",
-                "delete_confirm": ""
+                "delete_button": "Kustuta",
+                "remove_button": "Eemalda",
+                "change_button": "Muuda",
+                "delete_confirm": "Oled sa kindel, et soovid seda dekoratsiooni kustutada?"
             },
             "page": {
-                "show-decorations": ""
+                "show-decorations": "Dekoratsioonid"
             },
             "modal": {
-                "title": "",
-                "tip": "",
-                "loading": "",
-                "button": ""
+                "title": "Paku dekoratsiooni",
+                "tip": "Palun vali dekoratsioon",
+                "loading": "Laadimine",
+                "button": "Pakkumine"
             },
-            "create": "",
-            "create-success": "",
+            "create": "Loo",
+            "create-success": "Dekoratsioon on loodud",
             "create-modal": {
-                "edit-title": "",
-                "edit-button": "",
-                "title": "",
+                "edit-title": "Muuda dekoratsiooni #{0}",
+                "edit-button": "Muuda",
+                "title": "Loo dekoratsioon",
                 "type": {
-                    "title": "",
-                    "avatar": "",
-                    "username": "",
-                    "post": "",
-                    "usercard": ""
+                    "title": "Liik",
+                    "avatar": "Avatar",
+                    "username": "Kasutajanimi",
+                    "post": "Postitus",
+                    "usercard": "Kasutaja kaart"
                 },
                 "name": "",
                 "desc": "",
@@ -57,27 +57,27 @@
         "admin": {
             "permissions": {
                 "view_decoration": "",
-                "delete_decoration": "",
-                "offer_decoration": "",
-                "create_decoration": "",
-                "view-all": ""
+                "delete_decoration": "Kustuta teised dekoratsioonid",
+                "offer_decoration": "Paku dekoratsiooni",
+                "create_decoration": "Loo/Muuda dekoratsiooni",
+                "view-all": "Vaata kõiki dekoratsioone"
             },
             "settings": {
                 "username_hijack": {
-                    "title": "",
+                    "title": "Kasutajanime kaaperdamine",
                     "desc": ""
                 },
                 "avatar_hijack": {
-                    "title": "",
+                    "title": "Avatari kaaperdamine",
                     "desc": ""
                 },
                 "view-all": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Vaata kõiki",
+                    "desc": "Kas kõigi vaatamise õigus on sisse lülitatud?"
                 },
                 "no_decorate_class_filter": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Dekoreerimise klassi filtrit pole",
+                    "desc": "Klassi nimed, mis takistavad avataride ja kasutajanimede moondumist dekoratsioonide sees. Üks rea kohta ja ilma punktita selle alguses"
                 }
             }
         }
@@ -85,16 +85,16 @@
     "xypp-store": {
         "forum": {
             "type": {
-                "decoration": ""
+                "decoration": "Dekoratsioon"
             },
             "unavailable": {
                 "decoration": {
-                    "dumplicate": ""
+                    "dumplicate": "On enda oma"
                 }
             },
             "create-modal": {
                 "providers": {
-                    "decoration": ""
+                    "decoration": "Dekoratsioon"
                 }
             }
         }
