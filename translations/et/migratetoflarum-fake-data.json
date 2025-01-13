@@ -3,32 +3,32 @@
         "lib": {
             "generator": {
                 "bulk-mode": "Hulgitöötlus",
-                "bulk-mode-description": "",
-                "user-count": "",
+                "bulk-mode-description": "Genereerib ühe juhusliku väärtuse ja taaskasutab seda igas sissekandes",
+                "user-count": "Loodavate kasutajate arv",
                 "discussion-count": "Vestluste arv, mida luua",
                 "discussion-tags": "Uue vestluse sildid",
                 "discussion-tags-none": "Pole",
                 "discussion-tags-random": "Juhuslik",
                 "post-count": "Loodavate postituste arv",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": "",
-                "reset": "",
-                "refresh": ""
+                "date": "Täitmise kuupäev",
+                "date-start-placeholder": "Alguse kuupäev (vaikeväärtus: nüüd)",
+                "date-interval-placeholder": "Intervall (vaikeväärtus: 1 sekundit)",
+                "send": "Genereeri andmed",
+                "reset": "Genereerimine on lõpetatud! Kliki vormi nullimiseks",
+                "refresh": "Sulge ja värskenda lehekülge"
             }
         },
         "forum": {
             "link": {
-                "generate-replies": ""
+                "generate-replies": "Genereeri tehisvastused"
             },
             "generator": {
-                "title": ""
+                "title": "Genereeri tehis vastused"
             }
         },
         "api": {
-            "no-users-matched": "",
-            "no-discussions-matched": ""
+            "no-users-matched": "Ühtegi sobivat kasutajat ei leitud",
+            "no-discussions-matched": "Ühtegi sobivat vestlust ei leitud"
         }
     }
 }
