@@ -2,7 +2,7 @@
     "nodeloc-whisper": {
         "admin": {
             "settings": {
-                "return_key": "",
+                "return_key": "Sisestusklahvi vajutamine saadab sõnumi",
                 "title": "Sosistaja seaded"
             },
             "permissions": {
@@ -15,25 +15,25 @@
             },
             "modal": {
                 "title": "Saada sõnum",
-                "help": "",
+                "help": "Alusta kasutajanime sisestamist, et alustada vestlust.",
                 "help_start": "Saada sõnum kasutajale {username}.",
                 "search_recipients": "Sisesta kasutajanimi...",
                 "submit": "Saada",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "copied": "Sinu sõnum on kopeeritud lõikelauale.",
+                "more_users": "Kui sa ei leia kasutajat, keda sa otsid, siis nende privaatsõnumite saatmine pole seadistatud.",
+                "already": "Sul juba on vestlus kasutajaga {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "send_success": ""
+                "messages_single": "Uus vestlus",
+                "messages_multiple": "{count} sõnumi kokku",
+                "chat_with": "Saada sõnum",
+                "start": "Alusta vestlust",
+                "start_of_conversation": "Vestluse algus",
+                "read": "Loe",
+                "cant_start": "Ei saa alustada vestlust",
+                "text_placeholder": "Kirjuta oma sõnum",
+                "send": "Saada sõnum",
+                "send_success": "Sõnum on saadetud"
             }
         }
     }
