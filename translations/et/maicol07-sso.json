@@ -5,31 +5,31 @@
                 "title": "SSO seaded",
                 "provider_mode": "",
                 "client_name": "Nimi",
-                "client_name_help": "",
+                "client_name_help": "Flarumi saidi nimi",
                 "client_url": "URL",
                 "client_url_help": "Flarumi saidi URL",
                 "client_api_key": "API võti",
                 "client_api_key_help": "",
                 "client_password_token": "",
                 "client_password_token_help": "",
-                "client_verify_ssl": "",
+                "client_verify_ssl": "Kinnita SSL",
                 "client_verify_ssl_help": "",
-                "signup_url": "",
-                "login_url": "",
-                "logout_url": "",
-                "remove_login_btn": "",
-                "remove_signup_btn": "",
-                "manage_account_url": "",
-                "manage_account_btn_open_in_new_tab": "",
-                "cookies_prefix": "",
-                "jwt_section_subtitle": "",
-                "jwt_iss": "",
-                "jwt_signer_key": "",
-                "jwt_signing_algorithm": ""
+                "signup_url": "Liitumise URL",
+                "login_url": "Sisselogimise URL",
+                "logout_url": "Väljalogimise URL",
+                "remove_login_btn": "Eemalda sisselogimise nupp",
+                "remove_signup_btn": "Eemalda liitumise nupp",
+                "manage_account_url": "Konto haldamise URL",
+                "manage_account_btn_open_in_new_tab": "Ava konto haldamine uuel vahekaardil",
+                "cookies_prefix": "Küpsiste nime eesliide",
+                "jwt_section_subtitle": "JWT laienduse seaded",
+                "jwt_iss": "Määraja domeen",
+                "jwt_signer_key": "Allkirjastaja võti",
+                "jwt_signing_algorithm": "Allkirjastamise viis"
             }
         },
         "forum": {
-            "manage_account_btn": ""
+            "manage_account_btn": "Halda kontot"
         }
     }
 }
