@@ -14,7 +14,7 @@
                 },
                 "timeout": {
                     "label": "Aegumine",
-                    "help": ""
+                    "help": "Ligipääsu võtme kinnitamise aegumine sekundites. Vaikeväärtus on 60 sekundit."
                 }
             }
         },
@@ -25,18 +25,18 @@
             "user": {
                 "settings": {
                     "passkeys": {
-                        "title": "",
-                        "label": "",
-                        "add-new-passkey": "",
-                        "error": ""
+                        "title": "Ligipääsu võti",
+                        "label": "Ligipääsu võti on parooli asendus, mis kinnitab sinu isikut kasutades sõrmejälge, näotuvastust, seadme parooli või PIN-i.",
+                        "add-new-passkey": "Lisa ligipääsu võti",
+                        "error": "Tekkis sisemine tõrge. Palun proovi hiljem uuesti."
                     },
                     "alias-modal": {
-                        "title": "",
-                        "label": ""
+                        "title": "Ligipääsu võti on registreeritud!",
+                        "label": "Ja nüüd anname ligipääsu võtmele alias."
                     },
                     "item": {
-                        "revoke": "",
-                        "revoke_success": ""
+                        "revoke": "=> core.forum.security.revoke_access_token",
+                        "revoke_success": "Ligipääsu võti on tühistatud."
                     }
                 }
             }
