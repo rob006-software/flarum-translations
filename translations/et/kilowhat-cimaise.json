@@ -23,7 +23,7 @@
                 "upload": "Laadi pilt üles",
                 "empty": "Pilte pole",
                 "loading": "=> kilowhat-cimaise.ref.loading",
-                "personal": "",
+                "personal": "<a>{username}</a> isiklik album1",
                 "community": "Kogukonna album",
                 "discussion": "Mine vestlusesse"
             },
@@ -40,7 +40,7 @@
                 "published-at": "Avaldatud {ago} tagasi"
             },
             "upload-modal": {
-                "title": "",
+                "title": "Laadi üles pilte albumisse \"{title}\"",
                 "titleInComposer": "Muuda pilte",
                 "uploading": "Üleslaadimine",
                 "processing": "Töötlemine",
@@ -58,7 +58,7 @@
                 "title": "Muuda albumit \"{title}\""
             },
             "attach-album-modal": {
-                "title": "",
+                "title": "Lisa album \"{title}\"",
                 "selected": "Valitud:",
                 "none-selected": "Pole",
                 "search": "Otsi",
@@ -84,7 +84,7 @@
                 "restore": "=> kilowhat-cimaise.ref.restore",
                 "hide": "=> kilowhat-cimaise.ref.hide",
                 "delete": "=> kilowhat-cimaise.ref.delete",
-                "delete-confirmation": "",
+                "delete-confirmation": "Kas kustutada album \"{title}\"?",
                 "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
@@ -93,14 +93,14 @@
             },
             "picture-controls": {
                 "controls": "=> kilowhat-cimaise.ref.controls",
-                "editor": "",
+                "editor": "Kärbi ja lisa mask",
                 "approve": "Kiida heaks",
                 "remove-favorite": "Eemalda lemmik",
                 "set-favorite": "Lisa lemmikuks",
                 "restore": "=> kilowhat-cimaise.ref.restore",
                 "hide": "=> kilowhat-cimaise.ref.hide",
                 "delete": "=> kilowhat-cimaise.ref.delete",
-                "delete-confirmation": ""
+                "delete-confirmation": "Kas kustutada pilt \"{title}\"?"
             },
             "editable-attribute": {
                 "title": "Pealkirja lisamiseks kliki",
@@ -129,7 +129,7 @@
             },
             "license-label": {
                 "not-specified": "Määramata",
-                "not-specified-help": ""
+                "not-specified-help": "Vaikimisi autoriõiguseid vaata saidi kasutustingimusi"
             }
         },
         "admin": {
@@ -149,7 +149,7 @@
                 "renameOwnPublishedPicture": "",
                 "hideOwnPicture": "Oma piltide peitmine",
                 "publishSilently": "Piltide avaldamine vaikselt (ilma sündmuse postituseta)",
-                "attachCimaiseAlbum": "",
+                "attachCimaiseAlbum": "Albumite käsitsi lisamine vestlusesse",
                 "moderate": "Modereeri"
             },
             "settings": {
@@ -190,7 +190,7 @@
                 },
                 "storage": {
                     "section": "",
-                    "originals": "",
+                    "originals": "Algsed: {size}",
                     "conversions": "Vestluseid: {size}"
                 },
                 "refresh": "Värskenda",
