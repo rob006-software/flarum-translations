@@ -9,29 +9,29 @@
                 "mode_help": "",
                 "mode_options": {
                     "frontend": "",
-                    "scheduler": ""
+                    "scheduler": "Ajastaja (CRON)"
                 },
                 "scheduler_frequency": "",
                 "scheduler_frequency_help": "",
                 "scheduler_frequency_options": {
                     "everyFiveMinutes": "Iga 5 minuti tagant",
                     "everyTenMinutes": "Iga 10 minuti tagant",
-                    "everyFifteenMinutes": "",
-                    "everyThirtyMinutes": "",
-                    "hourly": ""
+                    "everyFifteenMinutes": "Iga 15 minuti tagant",
+                    "everyThirtyMinutes": "Iga 30 minuti tagant",
+                    "hourly": "Kord tunnis"
                 },
                 "conditions": "",
                 "conditions_help": "",
-                "add": "",
-                "comments": "",
-                "comments_placeholder": "",
-                "views": "",
-                "views_placeholder": "",
+                "add": "Lisa teine tingimus",
+                "comments": "Kommentaarid",
+                "comments_placeholder": "0",
+                "views": "Vaatamisi",
+                "views_placeholder": "0",
                 "within": "",
-                "within_placeholder": "",
-                "hours": "",
-                "and": "",
-                "or": ""
+                "within_placeholder": "kõik",
+                "hours": "h",
+                "and": "JA",
+                "or": "VÕI"
             }
         }
     }
