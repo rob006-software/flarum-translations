@@ -2,9 +2,9 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": "Maks Pengguna Untuk Ditampilkan"
+                "cache_ttl": "Waktu untuk menyimpan cache daftar pengguna (dalam detik)",
+                "last_seen_interval": "Interval terakhir dilihat untuk mempertimbangkan pengguna yang sedang online (dalam menit)",
+                "max_users": "Max pengguna yang ditampilkan"
             },
             "permissions": {
                 "view_online_users_widget": ""
