@@ -7,11 +7,11 @@
             },
             "enable_short_references": {
                 "label": "Luba lühikesed viited",
-                "help": ""
+                "help": "Teisenda #<ID> sõnumites (nt. #42) lingiks vastavale vestlusele."
             },
             "retrofit_links_in_frontend": {
-                "label": "",
-                "help": ""
+                "label": "Paigalda lingid saidil tagantjärgi",
+                "help": "<p><strong>Pole enam arenduses</strong> (eemaldatakse versioonis <code>v1.2.0</code>) Kaalu hoopis käsu <code>chore:reparse</code> kasutamist lisaprogrammis <code>club-1/flarum-ext-chore-commands</code>. Vaata: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Näita vestluste pealkirju sõnumites, mis oli saadetud enne, kui see lisaprogramm oli sisse lülitatud. Seda tehakse otse saidil ning seega võib see kahandada saidi kiirust.</p>\n"
             }
         },
         "forum": {
