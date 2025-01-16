@@ -2,16 +2,16 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
+                "backoff_label": "Tõmba tagasi",
+                "backoff_help": "Sekundite arv, mida oodata enne, kui tundmatu erandiga tööd proovitakse uuesti.\n",
                 "memory_label": "Mälu",
                 "memory_help": "Mälu limiit megabaitides.\n",
-                "rest_label": "",
-                "rest_help": "",
+                "rest_label": "Puhkus",
+                "rest_help": "Puhkeperioodi pikkus sekundites ega töö vahel.\n",
                 "retries_label": "Uuesti proovismisi",
-                "retries_help": "",
+                "retries_help": "Mitu korda tööd uuesti proovitakse enne, kui see märgitakse ebaõnnestunuks.\n",
                 "timeout_label": "Aegumine",
-                "timeout_help": ""
+                "timeout_help": "Mitu sekundit võib alamprosess töötada.\n"
             },
             "stats": {
                 "auto_refresh": "Automaatne värskendamine",
