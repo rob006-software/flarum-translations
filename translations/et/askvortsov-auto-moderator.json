@@ -5,7 +5,7 @@
                 "activate_email": "Aktiveeri e-post",
                 "add_to_group": "Lisa gruppi",
                 "remove_from_group": "Eemalda grupist",
-                "suspend": "",
+                "suspend": "Külmuta",
                 "unsuspend": ""
             },
             "metric_drivers": {
@@ -32,19 +32,19 @@
             },
             "suspend_selector": {
                 "days": "",
-                "indefinitely": ""
+                "indefinitely": "Külmutada jäädavalt?"
             },
             "criterion_status": {
                 "heading": "Staatuse kontroll",
                 "invalid": "Kriteerium on vigane. Palun kontrolli draiveri veateateid.",
                 "no_actions": "Selle kriteeriumi jaoks pole toiminguid seadistatud. Midagi ei juhtu, kui kasutaja vastab sellele kriteeriumile või siis enam ei vasta sellele.",
-                "no_metrics_or_reqs": "",
+                "no_metrics_or_reqs": "Selle nõude jaoks pole kriteeriumeid määratud. See tähendab, et see kriteerium rakendatakse KÕIGILE kasutajatele.",
                 "valid": "See kriteerium on korrektne!",
-                "action_validation_errors": "",
-                "requirement_validation_errors": ""
+                "action_validation_errors": "Tegevuse draiveri kontrollimisel tekkisid järgmised vead:",
+                "requirement_validation_errors": "Nüude draiveri kontrollimisel tekkisid järgmised vead:"
             },
             "criterion_page": {
-                "driver_missing_ext": "",
+                "driver_missing_ext": "See draiver sõltub lisaprogrammist, mida pole paigaldatud.",
                 "back": "Tagasi kriteeriumit enimekirja",
                 "name_label": "Nimi",
                 "icon_label": "Ikoon",
@@ -60,8 +60,8 @@
                 "add_metric": "Lisa parameeter",
                 "actions_label": "Tegevused",
                 "actions_help": "",
-                "actions_on_gain_heading": "",
-                "actions_on_loss_heading": "",
+                "actions_on_gain_heading": "Tegevus, kui vastab nõuetele",
+                "actions_on_loss_heading": "Tegevus, kui ei vasta enam nõuetele",
                 "add_action": "Lisa tegevus"
             },
             "undefined_driver_item": {
