@@ -1,7 +1,7 @@
 {
     "flamarkt-backoffice": {
         "admin": {
-            "settingsInBackoffice": ""
+            "settingsInBackoffice": "Adminiliidese seaded"
         },
         "backoffice": {
             "settingsNotAvailableForNonAdmin": "Sellel lisaprogrammil on seadeid, aga ainult adminid võivad neid näha ja muuta.",
@@ -24,13 +24,13 @@
                 }
             },
             "permissions": {
-                "backoffice": ""
+                "backoffice": "Kasuta Backoffice adminiliidest"
             }
         },
         "lib": {
             "header": {
                 "admin_button": "=> core.forum.header.admin_button",
-                "backoffice_button": ""
+                "backoffice_button": "Backoffice"
             }
         }
     }
