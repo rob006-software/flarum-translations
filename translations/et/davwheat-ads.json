@@ -6,11 +6,11 @@
                     "bypassAds": "Peida foorumist reklaamid"
                 },
                 "settings": {
-                    "admin_bypass_warning": "",
-                    "enabled_locations": "",
+                    "admin_bypass_warning": "Flarumi õiguste süsteemi omapära tõttu, ei näe adminigrupi liikmed\nfoorumis reklaame. Kui soovid oma reklaame testida, siis külasta foorumit\nprivaatses režiimis.\n",
+                    "enabled_locations": "Lubatud reklaamide asukoht",
                     "script_urls": "Kohandatud skriptide URL(-id)",
                     "add_script": "Uus",
-                    "script_deletion": "",
+                    "script_deletion": "Skripti eemaldamiseks jäta tekstikast tühjaks ja vajuta 'Salvesta muudatused'.",
                     "code_input": "HTML kood",
                     "code_input_disabled": "Luba see asukoht, et selle HTML koodi muuta.",
                     "js_input": "Javaskripti kood",
@@ -18,7 +18,7 @@
                     "use_adsense": "Kasuta AdSense-i",
                     "pub_id": "AdSense Avaldaja ID",
                     "between_posts_gap": "Postituste vahel: vahe reklaamide vahel",
-                    "allow_after_placeholder": "",
+                    "allow_after_placeholder": "Postituste vahel: Näita reklaami pärast vastamise nuppu",
                     "save_btn": {
                         "dirty": "Salvesta muudatused",
                         "saving": "Salvestamine...",
@@ -26,10 +26,10 @@
                         "fix_errors": "Paranda enne salvestamist vead"
                     },
                     "alert": {
-                        "fix_errors": "",
-                        "code_has_script": ""
+                        "fix_errors": "Palun paranda enne salvestamist vead",
+                        "code_has_script": "Üks või rohkem sinu reklaamidest sisaldab skripti silti, mis pole lubatud. Eemalda see ja proovi uuesti."
                     },
-                    "warning": ""
+                    "warning": "<b>Juhendid:</b>\n<br></br>\n<b>HTML</b> - Sisesta reklaami HTML-i sisu siia kasti. Ära sisesta sellesse kasti ühtegi {script} silti. Neid ei käivitata.\n<br></br>\n<b>JS</b> - Sisesta kohandatud Javaskripti kood. Siia <b>EI TOHIKS</b> sisestada {script} silti ennast.\n"
                 }
             },
             "lib": {
