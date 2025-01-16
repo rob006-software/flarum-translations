@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "trim_title": "Kärpimise seaded",
-                "trim_help": "",
+                "trim_help": "Siin saad seadistada kui kaua (minutites) sa soovid Horizoni\ntöölaual viimaseid ja ebaõnnestunud täid hoida, tavaliselt hoitakse\nviimaseid töid üks tund ja ebaõnnestunud töid terve nädala.\n",
                 "trim_recent": "Kärbi viimaseid teid",
-                "trim_recent_help": "",
-                "trim_pending": "",
-                "trim_pending_help": "",
+                "trim_recent_help": "Seda tabelit kasutatakse Horizoni töölaua viimaste tööde näitamiseks.\n",
+                "trim_pending": "Kärbi ootel olevaid töid",
+                "trim_pending_help": "Seda tabelit kasutatakse Horizon töölaual ootel olevate tööde näitamiseks.\n",
                 "trim_completed": "Kärbi lõpetatud tööd",
-                "trim_completed_help": "",
+                "trim_completed_help": "Seda tabelit kasutatakse Horizon töölaual lõpetatud tööde näitamiseks.\n",
                 "trim_recent_failed": "Kärbi hiljutised ebaõnnestunud tööd",
-                "trim_recent_failed_help": "",
-                "trim_failed": "",
-                "trim_failed_help": "",
-                "trim_monitored": "",
-                "trim_monitored_help": ""
+                "trim_recent_failed_help": "Seda tabelit kasutatakse Horizon töölaual viimaste ebaõnnestunud tööde näitamiseks.\n",
+                "trim_failed": "Kärbi ebaõnnestunud töid",
+                "trim_failed_help": "Seda tabelit kasutatakse Horizon töölaual ebaõnnestunud tööde näitamiseks.\n",
+                "trim_monitored": "Kärbi jälgitavaid töid",
+                "trim_monitored_help": "Seda tabelit kasutatakse Horizon töölaual jälgitud tööde näitamiseks.\n"
             },
             "stats": {
                 "auto_refresh": "Automaatne värskendamine",
@@ -27,7 +27,7 @@
                     "redis-peak-memory": "Redis mälu kõrgeim kasutus",
                     "redis-max-memory": "Redis maks. mälu",
                     "redis-memory-policy": "Redis mälu poliitika",
-                    "redis-memory-policy-tooltip": "",
+                    "redis-memory-policy-tooltip": "Mälu poliitika määrab kuidas Redis valib mida eemaldada kui\nmälulimiit (maxmemory) on täis. Vaikeväärtus on `noeviction`: Uusi väärtuseid \nei salvestata, kui mälulimiit on täis. Kliki dokumentatsiooni vaatamiseks.\n",
                     "redis-cpu-user": "Redis Protsessori kasutus",
                     "redis-cpu-sys": "Redis protsessori süsteem",
                     "jobs-per-minute": "Töid minutis",
