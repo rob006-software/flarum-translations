@@ -6,13 +6,13 @@
         "admin": {
             "settings": {
                 "mode": "Toimimisrežiim",
-                "mode_help": "",
+                "mode_help": "Saidi režiim on efektiivne lahendus, mid ei kasuta andmebaasi. Ajastatud režiim nõuab CRON-i seadistamist ja võimaldab tingimustes kasutada ajavahemikke.\n",
                 "mode_options": {
-                    "frontend": "",
+                    "frontend": "Sait",
                     "scheduler": "Ajastaja (CRON)"
                 },
-                "scheduler_frequency": "",
-                "scheduler_frequency_help": "",
+                "scheduler_frequency": "Ajastatud režiimi sagedus",
+                "scheduler_frequency_help": "Kui sageli uuendatakse ajastatud režiimis (CRON) populaarsuse staatust. (Saidi režiimis on staatus alati koheselt uuendatud)\n",
                 "scheduler_frequency_options": {
                     "everyFiveMinutes": "Iga 5 minuti tagant",
                     "everyTenMinutes": "Iga 10 minuti tagant",
@@ -20,14 +20,14 @@
                     "everyThirtyMinutes": "Iga 30 minuti tagant",
                     "hourly": "Kord tunnis"
                 },
-                "conditions": "",
-                "conditions_help": "",
+                "conditions": "Populaarse aumärgi tingimused",
+                "conditions_help": "See on kõigi postituste koguarv, kaasa arvatud esimene postitus. Vaatamisi saadakse kas MichaelBelgium või Flarumite lisaprogrammidest. Andud ajavahemikku kastutatakse kommentaaride või vaatamiste arvu lugemiseks viimase n tunni jooksul. Ajavahemiku jaoks on toetatud ainult MichaelBelgium lisaprogramm. Kui soovid lugeda absoluutselt kõiki kommentaare või vaateid, siis jäta ajavahemiku lahter tühjaks või sisesta sinna 0.\n",
                 "add": "Lisa teine tingimus",
                 "comments": "Kommentaarid",
                 "comments_placeholder": "0",
                 "views": "Vaatamisi",
                 "views_placeholder": "0",
-                "within": "",
+                "within": "vahemikus",
                 "within_placeholder": "kõik",
                 "hours": "h",
                 "and": "JA",
