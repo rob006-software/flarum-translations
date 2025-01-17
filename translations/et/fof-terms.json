@@ -5,9 +5,9 @@
                 "title": "Kasutustingimuste seaded",
                 "field": {
                     "signup-legal-text": "Lisatekst liitumise vormil",
-                    "hide-updated-at": "",
+                    "hide-updated-at": "Ära näita kasutustingimuste uuendamise kuupäeva, kui uuendus on saadaval",
                     "date-format": "Kuupäeva vorming",
-                    "date-format-help": ""
+                    "date-format-help": "Võid lisada ükskõik, mid kuupäeva <a>Day.js</a> vormingus. Vaikeväärtuse kasutamiseks jäta tühjaks."
                 }
             },
             "titles": {
@@ -26,7 +26,7 @@
             },
             "policies": {
                 "name": "Nimi",
-                "name-help": "",
+                "name-help": "Seda nime näidatakse märkekasti kõrval ja uuenduse hüpikakna pealkirjana.",
                 "url": "URL",
                 "url-help": "URL, millelt saab kasutustingimusi lugeda. Avab klikkides uue vahekaardi.",
                 "update-message": "Uuenduse sõnum",
@@ -54,9 +54,9 @@
                 "title": "Kasutustingimuste uuendamine",
                 "updated-at": "Kasutustingimus muudeti {date}",
                 "updated-recently": "Kasutustingimusi muudeti pärast sinu viimast külastust",
-                "i-accept": "",
+                "i-accept": "Nõustun uue poliitikaga <a>{policy}</a>",
                 "accept": "Kinnita",
-                "close": ""
+                "close": "Aitäh, et nõustusid. Nüüd saad minna tagasi foorumisse"
             },
             "state-modal": {
                 "title": "Kasutustingimustega nõustumise staatus kasutajal {username}",
@@ -64,8 +64,8 @@
                 "not-accepted": "Pole aktsepteerinud"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
+                "must-accept-message": "Oleme ajutiselt piiranud sinu ligipääsu foorumile, kuni sa vaatad üle uued kasutustingimused.",
+                "can-accept-message": "Uuendasime hiljuti kasutustingimusi. Selle veebisaidi edasi kasutamisekd pead nendega nõustuma.",
                 "can-accept-optional-message": "Uuendasime hiljuti kasutustingimusi. Vaata need sulle sobival ajal üle.",
                 "review": "Kliki siia, et vaadata uues kasutustingimused üle ja nendega nõustuda",
                 "close": "Sulge"
@@ -82,8 +82,8 @@
         "lib": {
             "data": {
                 "userpolicydata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Üksikasjad selle kohta, kas kasutaja on tingimustega nõustunud",
+                    "delete_description": "Eemaldab kasutaja nõustumise kasutustingimustega"
                 }
             }
         }
