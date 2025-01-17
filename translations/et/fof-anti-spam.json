@@ -16,11 +16,11 @@
                     "heading": "Vaikimisi modereerimise tegevused",
                     "introduction": "",
                     "move_discussions_to_tags_label": "Liiguta vestlused siltide alla",
-                    "move_discussions_to_tags_help": ""
+                    "move_discussions_to_tags_help": "See liigutab kõik selle kasutaja poolt tehtud postitused sinu valitud sildi (siltide) alla. Siltide valiku eemaldamine jätab vestluse selle alge sildi (või siltide) alla. Sellel pole mingit mõju, kui valik 'Kustuta vestlused' on sisse lülitatud."
                 },
                 "stopforumspam": {
                     "heading": "StopForumSpam",
-                    "introduction": "",
+                    "introduction": "Kontrollib uue kasutaja andmeid registreerumisel <a>StopForumSpam</a> andmebaasist. Kui näitajate <code>kindlus</code> või <code>sagedus</code> lävi on ületatud, siis kasutja ei saa sinu saidile kasutajakontot luua.\n\nToetatud on ka SSO registreerumine kasutades lisaprogramme <code>fof/oauth</code> ja <code>fof/passport</code>. Muud SSO teenusepakkujad peaksid ka töötama, aga neid pole testitud.\n",
                     "username_label": "Kasutajanime spämmikontroll",
                     "ip_label": "IP aadressi rämpsposti tõrje",
                     "email_label": "E-posti rämpsposti tõrje",
@@ -40,7 +40,7 @@
                     "email_hash_help": "Kui sa ei soovi e-postiaadressi ennast saata, siis saada e-posti aadressi MD5 räsi. See meetod läheb mööda kõigist mustadest nimekirjadest normaliseerimine peitmise kannete kontrollimisest.",
                     "sfs_lookup_label": "Kontrolli liitumisi",
                     "sfs_lookup_help": "",
-                    "report_blocked_registrations_label": "",
+                    "report_blocked_registrations_label": "Teavita blokeeritud registreerumistest",
                     "report_blocked_registrations_help": ""
                 }
             },
