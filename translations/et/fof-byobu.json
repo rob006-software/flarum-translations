@@ -100,14 +100,14 @@
                     "heading": "Ikooni seaded",
                     "help": "Need seaded määravad foorumis kasutatavad byobu ikoonid."
                 },
-                "badge-icon": "byobu vestluse silt",
+                "badge-icon": "Byobu vestluse märk",
                 "enable-make-public-option": "Lülita sisse võimalus teha vestlusi avalikuks",
-                "enable-make-public-option-help": "",
+                "enable-make-public-option-help": "Lisab neile, kel on selleks õigus, võimaluse eemaldada kõiki osalejaid, määrata uusi silte ja teha vestlus avalikuks (vastavalt valitud sildi nähtavuse seadetele).",
                 "post-event-icon": "Byobu postituste sündmused",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "delete_on_last_recipient_left": "Kustutab privaatse vestluse, kui viimane kasutaja lahkub",
+                "delete_on_last_recipient_left_help": "Kui see valik on sisse lülitatud, siis privaatsed vestlused kustutatakse jäädavalt andmebaasist, kui viimane kasutaja sellest lahkub. Kui see valik pole sisse lülitatud, siis vestlused pannakse prügikasti või peidetakse.",
+                "hide_from_all_discussions_page": "Peida privaatsed vestlused \"Kõigi vestluste\" lehelt",
+                "hide_from_all_discussions_page_help": "Privaatsed vestlused on saadaval ainult \"Privaatsete vestluste\" lehelt kasutajaprofiilil"
             }
         },
         "email": {
@@ -118,10 +118,10 @@
                 "private_discussion_added": "[Privatne vestlus] {display_name} lisas sind privaatsesse vestlusesse"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Tere {recipient_display_name},\n\n{actor_display_name} alustas sinuga privaatset vestlust: {discussion_title}.\n\nVaata seda siit:\n{discussion_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima.\n",
+                "private_discussion_replied": "Tere {recipient_display_name},\n\n{actor_display_name} postitas privaatses vestluses, milles sa osaled: {discussion_title}.\n\nVaata seda siit:\n{post_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima{actor_display_name}.\n",
+                "recipient_removed": "Tere {recipient_display_name},\n\n{actor_display_name} lahkus privaatsest vestlusest; {discussion_title}. Nad ei näe enam selle vestluse sisu.\n\nVaata seda siit:\n{discussion_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima.\n",
+                "private_discussion_added": "Tere {recipient_display_name},\n\n{actor_display_name} lisas sind olemasolevasse privaatsesse vestlusesse: {discussion_title}.\n\nVaata seda siit:\n{discussion_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima.\n"
             }
         }
     }
