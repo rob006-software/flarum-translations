@@ -18,7 +18,7 @@
                 "delete-redundant": "Kustuta üleliigsed tõlked",
                 "delete-redundant-confirm": "See kustutab {count} tõlget, millel on identne algne tekst ja tõlge. See võib olla kasulik puhastamiseks pärast keelepaki uuendamist.\n",
                 "delete-all": "Kustuta kõik tõlked",
-                "delete-all-confirm": ""
+                "delete-all-confirm": "See kustutab KÕIK sinu {count} kohandatud tõlget. Veendu, et sa oleksid eksportinud või varundanud kõik, mida sa soovid alles hoida.\n"
             },
             "locales": {
                 "all": "Kõik"
@@ -53,13 +53,13 @@
                 "results": "Näidatakse {shown} sobivat tõlgest {total}-st"
             },
             "clear-cache": {
-                "text": "",
+                "text": "Uusi tõlkeid pole praegu veel kasutusse pandud. Märkus: vahemälu tühjendamine võib sinu saidi ajutiselt aeglasemaks teha.\n",
                 "button": "Tühjenda vahemälu kohe"
             },
             "coverage": {
                 "column-options": {
                     "locale": "Kelle järgi",
-                    "namespace": ""
+                    "namespace": "Saidil"
                 },
                 "total-options": {
                     "percent": "Protsent",
@@ -81,7 +81,7 @@
             },
             "export": {
                 "title": "Ekspordi",
-                "warning": "",
+                "warning": "Eksportimisel kasutatakse Flarumi Yaml-vormingul põhinevaid tõlkefaile, mis on kavandatud jagama tõlkeid erinevate foorumite ja keelepaki haldajate vahel. Vorming pole mõeldud kõikide tõlgete liigutamiseks uude foorumisse. Sõltuvalt sinu olukorrast, võib andmebaasi otsene kopeerimine olla parem variant.\n",
                 "locale": "Keel",
                 "locale-all": "",
                 "namespace": "Nimeruum",
@@ -96,13 +96,13 @@
             "import": {
                 "title": "Impordi",
                 "input": "Sisend",
-                "input-placeholder": "",
+                "input-placeholder": "Kogudus oma Yaml failid siia",
                 "locale": "Keel",
                 "locale-all": "",
                 "override-existing": "Kirjuta minu olemas olevad kohandatud tõlked üle",
                 "submit": "Impordi",
-                "results": "",
-                "results-with-ignore": ""
+                "results": "Importimine on lõpetatud. {imported} teksti impodriti ja {identical} identset teksti jäeti vahele. Lehekülge värskendatakse nüüd, et näidata uusi tõlkeid.\n",
+                "results-with-ignore": "Importimine on lõpetatud. {imported} teksti impodriti, {ignored} olemasolevat teksti ignoreeriti ja {identical} identset teksti jäeti vahele. Lehekülge värskendatakse nüüd, et näidata uusi tõlkeid.\n"
             },
             "known-namespace": {
                 "core": "Flarumi tuum",
