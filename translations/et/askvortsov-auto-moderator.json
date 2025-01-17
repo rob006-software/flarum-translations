@@ -6,7 +6,7 @@
                 "add_to_group": "Lisa gruppi",
                 "remove_from_group": "Eemalda grupist",
                 "suspend": "Külmuta",
-                "unsuspend": ""
+                "unsuspend": "Emalda külmutamine"
             },
             "metric_drivers": {
                 "discussions_entered": "Vestlusesse sisenetud",
@@ -21,17 +21,17 @@
             "requirement_drivers": {
                 "email_confirmed": "Kinnitatud e-post",
                 "in_group": "Grupis",
-                "suspended": "",
-                "email_matches_regex": ""
+                "suspended": "Külmutatud",
+                "email_matches_regex": "E-posti aadress vastab valemile"
             },
             "in_group_settings": {
-                "regex": ""
+                "regex": "Sobiva e-posti aadressi muster (kaldkriipsud pole lubatud)"
             },
             "group_selector": {
                 "placeholder": "Vali grupp"
             },
             "suspend_selector": {
-                "days": "",
+                "days": "Mitmeks päevaks külmutada",
                 "indefinitely": "Külmutada jäädavalt?"
             },
             "criterion_status": {
@@ -59,13 +59,13 @@
                 "requirements_heading": "Nõuded",
                 "add_metric": "Lisa parameeter",
                 "actions_label": "Tegevused",
-                "actions_help": "",
+                "actions_help": "Tegevus käivitatakse, kui kasutaja hakkab vastama uuele kriteeriumile. Kui kasutaja ei vasta enam nõuetele, siis sellest johtuvalt võidakse käivitada muid tegevusi.",
                 "actions_on_gain_heading": "Tegevus, kui vastab nõuetele",
                 "actions_on_loss_heading": "Tegevus, kui ei vasta enam nõuetele",
                 "add_action": "Lisa tegevus"
             },
             "undefined_driver_item": {
-                "text": ""
+                "text": "VIGA! Draiver <strong>{driverName}</strong> pole määratletud. Ilmselt lisas selle lisaprogramm, mis pole praegu enam paigaldatud. Pead selle lisaprogrammi uuesti paigaldama või selle draiveri eemaldama, et kriteerium oleks taas kehtiv."
             },
             "automoderator_page": {
                 "criterion_invalid": "Kriteerium on vigane. Lisainfo saamiseks kontrolli palun selle seadeid",
@@ -82,7 +82,7 @@
             "managed_groups": {
                 "header": "Hallatud grupid:",
                 "group_item": "<badge></badge> {groupName}",
-                "groups_not_editable": ""
+                "groups_not_editable": "Ebakõlade vältimiseks ei saa automaatse moderaatori kriteeriiumi poolt hallatavaid gruppe kasutajatele käsitsi lisada või eemaldada."
             }
         }
     }
