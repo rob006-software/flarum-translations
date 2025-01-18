@@ -99,15 +99,15 @@
                 "received_on": "Saadud {date}",
                 "badge_details": "Aumärgi üksikasjad",
                 "earned_count": "{count, plural, one {<b>kasutaja</b> on selle aumärgi välja teeninud} other {<b>kasutajat</b> on selle välja teeninud}}",
-                "earned_by_count": "",
+                "earned_by_count": "{count, plural, one {<b># kasutaja</b> teenis välja} other {<b># kasutajat</b> teenis välja}}",
                 "others_link": "+ veel {count}"
             },
             "badges_in_card": {
                 "title": "Aumärgid kasutajakaardil",
                 "manage_badges": "Halda aumärke",
-                "description": "",
-                "select_limit": "",
-                "hit_limit": ""
+                "description": "Võid valida, mis aumärgid on sinu kasutajakaardil nähtavad. Kui sa ei vali midagi, siis need valitakse sinna automaatselt.",
+                "select_limit": "Võid valida {limit, plural, one {<b>ühe aumärgi</b>} other {<b># aumärki</b>}}, mis on nähtav(ad) sinu kasutajakaardil.",
+                "hit_limit": "Sinu kasutajakaardil on ruumi ainult <b> {limit, plural, one {<b>ühele aumärgile</b>} other {<b># aumärgile</b>}}</b>. Eemalda mõnu aumärk, et sellele ruumi teha."
             },
             "moderation": {
                 "remove_badge": "Eemalda kasutajalt aumärk",
