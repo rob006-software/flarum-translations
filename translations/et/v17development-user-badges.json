@@ -24,19 +24,19 @@
                 "yes": "Jah"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Oled sa kindel, et soovid selle aumärgi kustutada? See kustutatakse kõigilt kasutajatelt ja see on pöördumatu.",
+                "delete_category": "Oled sa kindel, et soovid selle kategooria kustutada? Kui selles kategoorias on aumärke, siis need märgitakse kui 'liigitamata'."
             },
             "badge": {
                 "name": "Aumärgi nimi",
                 "icon": "Aumärgi ikoon",
                 "description": "Aumärgi kirjeldus",
                 "visible": "Nähtav",
-                "visible_description": "",
+                "visible_description": "Lülita see aumärk sisse. Kui see on välja lülitatud, siis see pole nähtav.",
                 "is_image": "Aumärk on pilt",
                 "is_image_description": "Kasuta vaikimisi aumärgi asemel pilti",
                 "image": "Aumärgi pildi URL",
-                "image_placeholder": "",
+                "image_placeholder": "Sisesta aumärgi pildi URL",
                 "icon_color": "Ikooni värv",
                 "background_color": "Taustavärv",
                 "label_color": "Teksti värv"
@@ -51,7 +51,7 @@
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
+                    "title": "Autasusta kasutajaid aumärgiga automaatselt",
                     "content": "",
                     "install": "Paigalda",
                     "dismiss": "Ära näita uuesti"
