@@ -4,74 +4,74 @@
             "discussion": {
                 "started": "Nuevo tema `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Discusión renombrada `{1}`",
+                    "description": "Nuevo título: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Discusión oculta `{1}`",
+                "restored": "Discusión restaurada `{1}`",
+                "deleted": "Discusión eliminada `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
+                "created": "Se creó el grupo `{1}`",
+                "renamed": "Se cambió el nombre de un grupo a `{1}`",
                 "deleted": "Grupo `{1}` borrado"
             },
             "post": {
                 "posted": "Nuevo mensaje en `{1}`",
                 "revised": "Mensaje editado en `{1}`",
-                "hidden": "",
-                "restored": "",
+                "hidden": "Publicación oculta en `{1}`",
+                "restored": "Publicación restaurada en `{1}`",
                 "deleted": "Mensaje borrado en `{1}`",
-                "approved": ""
+                "approved": "Publicación aprobada en `{1}`"
             },
             "user": {
                 "registered": "Nuevo usuario registrado",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Se cambió el nombre de usuario `{1}`",
+                    "description": "Nuevo nombre de usuario: {1}"
                 },
-                "deleted": ""
+                "deleted": "Usuario eliminado `{1}`"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Webhook no encontrado"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "El servicio '{service}' no puede ser encontrado.",
+                "service_not_found": "No se puede encontrar el servicio \"{service}\".",
                 "url_invalid": "URL no válida para el servicio seleccionado.",
-                "tag_invalid": "",
-                "tag_disabled": ""
+                "tag_invalid": "Este webhook está restringido a una etiqueta no válida. La restricción no se aplicará. Asegúrate de que esto sea así.",
+                "tag_disabled": "Este webhook tenía configurada una restricción de etiquetas. La extensión Etiquetas está deshabilitada. La restricción no se aplicará. Asegúrate de que esto sea así."
             },
             "nav": {
-                "desc": ""
+                "desc": "Webhooks salientes personalizables para tu foro."
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "Depurar",
+                "debug_help": "Agrega registros adicionales al archivo de registro de Flarum para depurar problemas con webhooks y/o eventos que no funcionan correctamente.",
                 "item": {
-                    "tag_any_label": "Cualquiera"
+                    "tag_any_label": "Cualquier etiqueta"
                 },
                 "help": {
                     "disabled": "El webhook está deshabilitado porque no tiene ningún evento activo.",
                     "general": "Aquí puedes agregar, editar y eliminar webhooks de tu foro.",
-                    "tags": "",
+                    "tags": "Puedes restringir los webhooks a etiquetas específicas. Si seleccionas alguna etiqueta, el webhook solo se activará si el evento se activa en un recurso que tenga alguna de las etiquetas seleccionadas.",
                     "url": "El endpoint del webhook que se ejecutará"
                 },
                 "modal": {
                     "title": "Configuración de webhook",
                     "description": "Aquí se modifican los eventos en los que se activa el webhook.",
-                    "use_plain_text_label": "",
+                    "use_plain_text_label": "Reducir la cantidad de formato en el contenido de las publicaciones",
                     "max_post_content_length_label": "Longitud máxima del contenido de la publicación",
                     "max_post_content_length_help": "Establece un número para limitar el contenido de la publicación en todos los eventos relacionados con la publicación. Cambia a 0 o nada para eliminar el límite.",
                     "extra_text_label": "Texto adicional",
                     "extra_text_help": "Texto adicional para incluir en el webhook enviado.",
                     "group_label": "Grupo",
                     "group_help": "Enviar recursos que este grupo pueda ver",
-                    "name_label": "",
-                    "name_help": "",
+                    "name_label": "Nombre",
+                    "name_help": "El nombre del webhook. Se utilizará para cosas como el nombre de usuario de Discord, el nombre del bot de Slack, etc.",
                     "events_label": "Eventos"
                 },
                 "services": {
@@ -82,46 +82,46 @@
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
+                            "title": "Discusión sobre Flarum",
+                            "started": "Iniciada",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "hidden": "=> fof-webhooks.ref.hidden",
                             "restored": "=> fof-webhooks.ref.restored",
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
+                            "title": "Grupo de Flarum",
+                            "created": "Creado",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
+                            "title": "Publicación de Flarum",
+                            "posted": "Publicada",
+                            "revised": "Editado",
                             "hidden": "=> fof-webhooks.ref.hidden",
                             "restored": "=> fof-webhooks.ref.restored",
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
+                            "title": "Usuario de Flarum",
+                            "registered": "Registrado",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Aprobación de Flarum",
+                            "postwasapproved": "Publicación aprobada"
                         }
                     }
                 }
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Eliminado",
+            "hidden": "Ocultado",
+            "renamed": "Renombrado",
+            "restored": "Restaurado"
         }
     }
 }
