@@ -4,16 +4,16 @@
             "settings": {
                 "color1": "Värv 1",
                 "color2": "Värv 2",
-                "color3": "",
+                "color3": "Värv 3",
                 "color4": "Värv 4",
-                "color5": "",
+                "color5": "Värv 5",
                 "identifier": "Identifikaator",
-                "identifier_help": "",
+                "identifier_help": "Kasutatakse iga kasutaja jaoksunikaalse avatari loomiseks.\n",
                 "identifier_id": "Kasutaja ID",
                 "identifier_display_name": "Näidatav nimi",
-                "identifier_email": "",
-                "theme": "",
-                "theme_help": ""
+                "identifier_email": "E-post",
+                "theme": "Teema",
+                "theme_help": "Teema, mida kasutatakse boring avataride jaoks.\n"
             }
         }
     },
@@ -21,9 +21,9 @@
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Lisab boring avatarid eksporditavasse ZIP-faili.",
+                    "anonymize_description": "Kustutab boring avatarid ja loob uued juhuslikud.",
+                    "delete_description": "Kustutab boring avatarid."
                 }
             }
         }
