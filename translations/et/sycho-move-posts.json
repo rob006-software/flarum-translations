@@ -3,8 +3,8 @@
         "admin": {
             "settings": {
                 "moved_first_post_content": "Liigutatud vestluse (esimene postitus) sisu",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content_help": "Kui sul on ainult ühe postitusega vestlus, siis selle liigutamise tulemusel algse vestluse esimene postitust uudetakse nii, et see viitaks uuele vestlusele. Võid esimese postituse sisu muuta siin.\n",
+                "group_sequential_posts": "Grupeeri järjestikused liigutamise toimingut ühe sündmuse alla."
             },
             "permissions": {
                 "move_posts": "=> sycho-move-posts.ref.move_posts"
@@ -21,30 +21,30 @@
                 "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
+                "check": "Kontrolli toimingu liiki",
+                "destination": "Sihtvestlus",
+                "discussion_help": "Kasutatakse algse vestluse silte ja neid saab pärast loomist muuta.",
                 "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
                 "new_discussion": "Uus vestlus",
-                "selected_posts": "",
+                "selected_posts": "{count, plural, one {Üks postitus valitud} other {{count} postitust valitud}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "On keerukam liigutamine, postitused pannakse teiste postituste vahele, mis tähendab, et viited (URL-id) varasema vestluse postitustele muutuvad ka.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "On lihtsam liigutamine, postitused lisatakse vestluse lõppu."
                 },
                 "submit": "Jätka",
                 "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Üks või rohkem postitust liigutati vestlusesse {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
+                "unmove": "Liigutamiseks tühista valik",
                 "move": "Liigutamiseks vali",
                 "moving": "Postituse liigutamine"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} liigutas postituse vestlusesse {target_discussion}.} other {{username} liigutas {count} postitust vestlusesse {target_discussion}.}}"
             }
         },
         "ref": {
@@ -56,7 +56,7 @@
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*See postitus on liigutataud vestlusesse **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }
