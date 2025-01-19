@@ -1277,6 +1277,9 @@ return [
 	'ramesh-dada-realtime' => [
 		'tag' => 'https://raw.githubusercontent.com/ramesh-dada/realtime/v100.2/resources/locale/en.yml',
 	],
+	'ramon-colored' => [
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/colored/1.1.1/resources/locale/en.yml',
+	],
 	'rehiy-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/rehiy/flarum-reply-to-see/v1.8.0/resources/locale/en.yml',
 	],
