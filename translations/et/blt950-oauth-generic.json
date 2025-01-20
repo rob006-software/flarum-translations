@@ -4,19 +4,19 @@
             "settings": {
                 "providers": {
                     "generic": {
-                        "description": "",
+                        "description": "Seadista sisselogimine kohandatud OAuth2 teenusepakkujaga.",
                         "client_id_label": "Kliendi ID",
                         "client_secret_label": "Kliendi salasõna",
                         "scopes_label": "Ulatus",
-                        "authorization_endpoint_label": "",
-                        "token_endpoint_label": "",
-                        "user_information_endpoint_label": "",
+                        "authorization_endpoint_label": "Autoriseerimise lõpp-punkt",
+                        "token_endpoint_label": "Kontrollkoodi lõpp-punkt",
+                        "user_information_endpoint_label": "Kasutaja info lõpp-punkt",
                         "id_parameter_label": "Kasutaja ID parameetrid",
                         "display_name_parameter_label": "Näidatava nime parameetrid",
                         "email_address_parameter_label": "E-posti aadressi parameetrid",
-                        "force_userid_label": "",
-                        "force_name_label": "",
-                        "force_email_label": ""
+                        "force_userid_label": "Sunni kasutaja ID (0 = ei, 1 = jah)",
+                        "force_name_label": "Sunni kasutjanimi (0 = ei, 1 = ja)",
+                        "force_email_label": "Sunni e-posti aadress (0 = eim 1 = jah)"
                     }
                 }
             }
