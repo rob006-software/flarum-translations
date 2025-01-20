@@ -5,49 +5,49 @@
                 "preselection": "Eelvalitud summad (eraldatud komadega, valikuline)",
                 "min": "Kohandatud koguste minimaalne väärtus",
                 "max": "Kohandatud väärtuste maksimaalne väärtus",
-                "decimals": ""
+                "decimals": "Maksimaalne kümnendkohtade arv kohandatud summades"
             },
             "permissions": {
                 "seeMoneyRewardHistory": "Vaata teiste kasutajate tasude ajalugu",
                 "rewardWithMoney": "Tasusta teisi kasutajaid rahaga",
                 "customAmounts": "Vali kohandatud summa, mida tasuks anda",
-                "createMoney": ""
+                "createMoney": "Loo autasustamisel raha"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "target": "",
+                "title": "Autasusta postitust",
+                "target": "Autasusta kasutaja {username} postitust #{number}",
                 "optionCustom": "Kohandatud",
                 "balance": "Sinu saldo: {amount}",
                 "label": {
                     "custom": "Kohandatud summa",
-                    "create": "",
+                    "create": "Loo raha minu kontolt rahavõtmise asemel",
                     "comment": "Kommentaar (avalik)"
                 },
                 "submit": "Saada",
-                "success": ""
+                "success": "Postituse autorile on saadetud autasu!"
             },
             "profile": {
-                "nav": "",
-                "title": ""
+                "nav": "Autasud",
+                "title": "Autasud"
             },
             "post": {
-                "action": "",
-                "disallowedOwn": "",
-                "disallowedOther": "",
-                "section": ""
+                "action": "Autasu",
+                "disallowedOwn": "Sa ei saa omaenda postitust autasustada.",
+                "disallowedOther": "Sa ei saa seda postitust autasustada. Põhjus on tõenäoliselt see, et autor on anonüümne või on oma kustutanud.",
+                "section": "Autasud"
             },
             "record": {
                 "from": "alates",
                 "to": "kuni",
-                "post": "",
+                "post": "<a>postituse #{number}</a> vestluse \"{title}\" eest",
                 "comment": "Kommentaar:"
             }
         },
         "api": {
             "error": {
-                "decimals": "",
+                "decimals": "Summa on piiratud {decimals} kümnendkohaga.",
                 "notEnoughFunds": "Pole piisavalt raha."
             }
         }
