@@ -30,8 +30,8 @@
                 "placed-by": "Kohale pani",
                 "congratulation": "Õnnitlused! Püüdsid kala. Oled püüdnud kokku {catch_count} kala.",
                 "name": "Kala nimi",
-                "name-help": "",
-                "placement-help": "",
+                "name-help": "Võid soovi korral kalale uue nime anda. Nimi peab vastama foorumi reeglitele.",
+                "placement-help": "Võid peita kala ükskõik kuhu sa soovid foorumi viimastes vestlustes või aktiivseta kasutajate profiililehtedel. Sa ei saa püüda kala, mille sa ise paigutasid.",
                 "submit-name-place-later": "Salvesta nimi ja vali peitmise koht",
                 "submit-name": "Salvesta nimi",
                 "submit-place-later": "Jep, valin peitmise koha",
@@ -44,8 +44,8 @@
                 "name-help": "Selle raundi avalik nimi, seda näidatakse bänneril ja edetabelis",
                 "starts-at": "Alguse aeg",
                 "ends-at": "Lõpu aeg",
-                "starting-pack": "",
-                "starting-pack-help": "",
+                "starting-pack": "Stardipakett",
+                "starting-pack-help": "Kaasab mõningaid kalu juba alguses",
                 "create": "Loo raund",
                 "save": "Salvesta raund",
                 "delete": "Kustuta raund",
@@ -104,7 +104,7 @@
             },
             "table-ranking": {
                 "loading": "Laadimine...",
-                "title": "",
+                "title": "Raundi {name} tulemused",
                 "rank": "Nimi",
                 "count": "Püütud kalu",
                 "user": "Kasutaja"
@@ -116,19 +116,19 @@
             },
             "drop-area": {
                 "message": "Võid kala siia lohistada",
-                "missing-from-store": ""
+                "missing-from-store": "Seda kala andmetest ei leitud"
             }
         },
         "admin": {
             "settings": {
                 "user": "Kasutajad",
-                "user-age": "",
-                "user-probability": "",
+                "user-age": "Kui kaua (päevades) peab kasutaja olema aktiivne enne, kui tema kontole saav kala paigaldada",
+                "user-probability": "Tõenäosus, et on paigaldatud kasutajaprofiilile (%)",
                 "discussion": "Vestlused",
                 "discussion-age": "Kui vana (päevades) peab vestlus olema enne, kui sellele saab kala panna",
                 "discussion-tags": "Siltide valge nimekiri",
-                "discussion-tags-unavailable": "",
-                "discussion-tags-help": "",
+                "discussion-tags-unavailable": "Seaded pole saadaval, kuna lisaprogramm Sildid on välja lülitatud.",
+                "discussion-tags-help": "Kui sa ei vali ühtegi silti, siis saab valida vestluseid, mis vastavad aja seadetele. Kui on valitud vähemalt mõni silt, siis peab vestlusel olema valitud äks neist siltidest. Tõenäosus on võimalus, et valik tehakse pärast seda, kui kõik muud valikud on juba läbi proovitud. Siltide nimekiri on alati tagavaravariant, seega veendum et sildi all oleks vähemalt üks vestlus.\n",
                 "tags-header": {
                     "tag": "Silt",
                     "probability": "Tõenäosus"
@@ -169,11 +169,11 @@
             "invalid-post-id": "Tundub, et postitust pole olemas, ehk see on hiljuti kustutatud",
             "invalid-user-id": "Näib, et kasutajat pole olemas, ta on ilmselt hiljuti kustutatud",
             "model-deleted": "Kala ei saa paigutada kustutatud vestlusesse või postitusse",
-            "model-private": "",
+            "model-private": "Kala ei saa paigutada privaatsele vestlusele või postitusele",
             "tag-not-allowed": "Selle sildi alla ei saa kala panna",
-            "inactive-discussion": "",
-            "inactive-post": "",
-            "inactive-user": "",
+            "inactive-discussion": "Kala ei saa paigaldada vestlusele, mis on olnud mitteaktiivne rohkem, kui {days} päeva",
+            "inactive-post": "Kala ei saa paigaldada postitusele, mis on üle {days} päeva vana",
+            "inactive-user": "Kala ei saa paigaldada kasutajale, kes on olenur rohkem, kui {days} päeva mitteaktiivne",
             "non-comment-post": "Saab panna kalu ainult kommentaari postitustele",
             "user-suspended": "Kala ei saa paigaldada blokeeritud kasutajale",
             "random-error": "Juhusliku pildi asukoha loomine ebaõnnestus",
