@@ -13,7 +13,7 @@
                     "taxonomy": "Loo liigitamine",
                     "term": "Loo termin"
                 },
-                "reset-term-order": ""
+                "reset-term-order": "Taasta kirjete nimekiri tähestiku järjekorras"
             },
             "edit-taxonomy": {
                 "title": {
@@ -37,19 +37,19 @@
                     "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
                     "showLabel": "Näita liigitamise silti koos terminiga",
                     "showLabelDescription": "",
-                    "enableFilter": "",
+                    "enableFilter": "Kasuta päringu-stringi/API filtreid",
                     "enableFilterDescription": "",
-                    "showFilter": "",
+                    "showFilter": "Näitab nimekirja/kataloogi lehekülgedel filtrit",
                     "showFilterDescription": "",
-                    "enableFulltextSearch": "",
+                    "enableFulltextSearch": "Indekseeri terminid täisteksti otsingu jaoks",
                     "enableFulltextSearchDescription": "",
                     "enableFulltextSearchWarning": "",
                     "allowCustomValues": "Luba kohandatud väärtused",
                     "customValueValidation": "Kohandatud väärtuste valideerimine",
                     "customValueSlugger": "",
                     "customValueSluggerDescription": "",
-                    "countRequired": "",
-                    "countRequiredDescription": "",
+                    "countRequired": "Nõutud terminite arv",
+                    "countRequiredDescription": "Sisesta minimaalne ja maksimaalne terminite arv sele taksonoomia jaoks, et seda võiks rakendada ressursile.\n",
                     "rangeSeparatorText": "kuni",
                     "tagScope": "Ainult määratud sildid",
                     "tagScopeDescription": "",
@@ -68,14 +68,14 @@
                 },
                 "validation-options": {
                     "default": "Iga tekstiväärtus",
-                    "alpha_num": "",
-                    "alpha_dash": "",
+                    "alpha_num": "Tähed ja numbrid",
+                    "alpha_dash": "Tähed, numbrid ja sirekriipsud ja allkriipsud",
                     "regex": "Regulaarväljendid"
                 },
                 "slugger-options": {
                     "random": "Juhuslik identifikaator",
                     "alpha_dash": "",
-                    "transliterator": ""
+                    "transliterator": "Kasuta FoF transliteratsiooni lisaprogrammi"
                 }
             },
             "edit-term": {
@@ -107,10 +107,10 @@
                 "editOwnDiscussion": "Muuda oma vestluste liigitamisi",
                 "editAnyDiscussion": "",
                 "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "ownDisabledEveryone": "",
+                "seeAnyUser": "Iga kasutaja taksonoomiate vaatamine",
+                "editOwnUser": "Enda kasutaja taksonoomia muutmine",
+                "editAnyUser": "Iga kasutaja taksonoomia muutmine",
+                "ownDisabledEveryone": "Aktiveerimata ja külmutatud kasutajad",
                 "ownDisabledMembers": "Aktiveeritud liikmed"
             },
             "settings": {
@@ -137,13 +137,13 @@
         "lib": {
             "modal": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Vali oma vestluse {taxonomy}",
+                    "edit": "Muuda {title} taksonoomiat {taxonomy}"
                 },
                 "placeholder": "",
                 "placeholderOptional": "Vali...",
                 "custom": "Kasuta {value}",
-                "bypassTermCounts": "",
+                "bypassTermCounts": "Eira terminite arvu",
                 "submit": "OK"
             }
         },
@@ -151,7 +151,7 @@
             "error": {
                 "invalid_filter_taxonomy": "",
                 "discussion_taxonomy_not_in_scope": "",
-                "cannot_use_taxonomies_on_model": ""
+                "cannot_use_taxonomies_on_model": "Sul pole luba selles kontekstis taksonoomiat kasutada"
             }
         },
         "ref": {
@@ -161,7 +161,7 @@
                 "description": "Kirjeldus",
                 "color": "Värv",
                 "icon": "Ikoon",
-                "iconDescription": ""
+                "iconDescription": "Sisesta ükskõik, milline <a>FontAwesome</a> ikooni klass, <em>kaasa arvatud</em> eesliide <code>fas fa-</code>."
             },
             "delete": "Kustuta",
             "submit": {
