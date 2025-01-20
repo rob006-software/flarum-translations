@@ -2,17 +2,17 @@
     "clarkwinkelmann-email-whitelist": {
         "admin": {
             "settings": {
-                "regex": "Regulaarväljend",
-                "regexHelp": "",
+                "regex": "Regulaaravaldis",
+                "regexHelp": "Lülitu dpmeenide nimekirjast regulaaravaldiste kontrollimisele. Igal real peab olema korrektne regulaaravaldis koos eraldajaga.\n",
                 "message": "Kohandatud veateade",
-                "whitelist": "",
-                "whitelistHelp": "",
+                "whitelist": "Valge nimekiri",
+                "whitelistHelp": "Üks väljend rea kohta. Seda peetakse mustast nimekirjast olulisemaks.\n",
                 "blacklist": "Must nimekiri",
-                "blacklistHelp": ""
+                "blacklistHelp": "Üks väljend rea kohta. Kui must nimekiri on olemas, siis kõik, mis selles pole on sisuliselt valges nimekirjas.\n"
             }
         },
         "api": {
-            "fallbackMessage": ""
+            "fallbackMessage": "E-posti aadress pole valges nimekirjas."
         }
     }
 }
