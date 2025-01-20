@@ -23,7 +23,7 @@
                 "ptb": "",
                 "ptp": "Makstud avaldamiseks",
                 "cancel-control": "Loobu",
-                "none": ""
+                "none": "Makseid või aktiivseid tellimusi pole"
             },
             "post_stream": {
                 "bounty_added_text": "{username} lisas annetuse summas {amount}."
@@ -60,7 +60,7 @@
                 "pledged": ""
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Makse on nõutud"
             },
             "payment-options-modal": {
                 "title": "",
@@ -77,18 +77,18 @@
             },
             "exceptions": {
                 "out-of-bounds-amount": {
-                    "min": "",
-                    "max": ""
+                    "min": "Makse summas {amount} pole lubatud. Minimaalne summa on {min}.",
+                    "max": "Makse summas {amount} pole lubatud. Maksimaalne summa on {max}."
                 }
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
+                "select-ptp-product": "(PTP) Nõutud toode",
                 "select-ptp-product-description": "",
                 "select-ptv-product": "(PTV) Nõutud toode",
                 "select-ptv-product-description": "",
-                "visible-from": "",
+                "visible-from": "Peida postitused selle lävi juures",
                 "visible-from-description": "",
                 "select-ptb-product": "",
                 "select-ptb-product-description": "",
