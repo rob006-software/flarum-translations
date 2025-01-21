@@ -6,9 +6,9 @@
             },
             "settings": {
                 "threshold": "Kindluse lävi",
-                "threshold_help": "",
+                "threshold_help": "Kindluse lävi on vahemikus 0.00 ja 1.00 märkides, kui kindel ollakse, et vastus kuulub antud kategooriasse. Madalam lävi annab vähem valehäireid aga samas võib ka palju halbu tulemusi läbi lasta. Kõrgem lävi võib olla sisu probleemseks märkimisel liiga agar, aga samas ei anna see nii palju valehäireid.",
                 "moderate_categories_label": "Modereeri kategooriaid",
-                "moderate_categories_label_help": "",
+                "moderate_categories_label_help": "Kategooriad, mis märgivad sisu automaatselt modereerimist vajavaks, kui need on sisse lülitatud ja vastavad kindluse reeglile.",
                 "moderate_categories_enable": "Lülita kategooriate modereerimine sisse",
                 "service_account": "Teenuse konto",
                 "filter_label": "Eelseadistatud filtrid",
@@ -43,19 +43,19 @@
                 "public_safety": "Avalik turvalisus",
                 "public_safety_help": "Teenused ja organisatsioonid, mis pakuvad leevendust ja tagavad avalikku turvalisust.",
                 "health": "Tervis",
-                "health_help": "",
+                "health_help": "Inimese tervis, kaasa arvatud: tervisehädad, haigused, teraapiad, ravimid, vaktsineerimised, meditsiinipraktikad ja info ravimeetodite kohta kaasa arvatud tugigrupid.",
                 "religion": "Religioon ja uskumused",
-                "religion_help": "",
+                "religion_help": "Uskumused, mis on seotud üleloomulikuga nagu; religioonid, usk, uskumused, spiritualism, kirikud ja kummardamiskohad. Kaasa arvatud astroloogia ja okultism.",
                 "drugs": "Narkootikumid",
-                "drugs_help": "",
+                "drugs_help": "Ebaseaduslikud narkootikumid; Kõik narkootikumidega seonduv, nende kasvatamine jms. Hõlmab ka meditsiiniliste ravimite kasutamist mittesihtotstarbel (nt. kanep).",
                 "war": "Sõjad ja relvastatud konfliktid",
-                "war_help": "",
+                "war_help": "Sõda, sõjalised konfliktid ja suuremad füüsilised konfliktid suure hulga inimeste vahel. Hõlmab ka vestlusi militaarteenuste pakkujatest isegi kui need pole otseselt seotud sõja või konfliktiga.",
                 "finance": "Finantsasjad",
-                "finance_help": "",
+                "finance_help": "Klientide ja äriga seotud teenused nagu pangandus, laenud, krediit, investeerimine ja kindlustus.",
                 "politics": "Poliitika",
-                "politics_help": "",
+                "politics_help": "Poliitilised uudised ja meedia; vestlused sotsiaalsetel teemadel, valitsuse poliitikad.",
                 "legal": "Juriidiline",
-                "legal_help": ""
+                "legal_help": "Seadusega seotud sisu, kaada arvatud advokaadifirmad, esmased juriidilised materjalid, juriidilised teenused, juriidilised väljaanded ja tehnoloogia, eksporttunnistajad, juristid ja muud juriidiliste teenuste pakkujad."
             }
         },
         "forum": {
