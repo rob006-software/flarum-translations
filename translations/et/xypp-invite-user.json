@@ -33,36 +33,36 @@
             },
             "invite": "Kutsu",
             "notification": {
-                "user_invited": "",
+                "user_invited": "{username} võttis just su kutse vastu.",
                 "user_invited_label": "Kutse võeti vastu"
             },
             "condition": {
                 "user_invite": "Kutsu kasutaja",
-                "user_be_invited": ""
+                "user_be_invited": "Saa kutse"
             }
         },
         "admin": {
             "settings": {
                 "reward_invite": {
-                    "title": "",
+                    "title": "Autasusta kutsumist",
                     "description": ""
                 },
                 "reward_be_invited": {
-                    "title": "",
+                    "title": "Autasuta valmistust saada kutse",
                     "description": ""
                 },
                 "invite_each_other": {
-                    "title": "",
-                    "description": ""
+                    "title": "Üksteise kutsumine",
+                    "description": "Kasutajad saavad saavad kutsuda kasutajaid, kes kutsusid neid."
                 },
                 "invite_new_user_only": {
                     "title": "Luba ainult uute kasutajate kutsumine",
-                    "description": ""
+                    "description": "Ära luba kasutajatel kutsuda kasutajaid, kelle registreerimise aeg on hilisem kui neil endil."
                 }
             },
             "condition": {
                 "user_invite": "Kutsu kasutajaid",
-                "user_be_invited": ""
+                "user_be_invited": "Kutsu mind"
             }
         },
         "api": {
