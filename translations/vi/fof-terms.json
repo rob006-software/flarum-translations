@@ -36,8 +36,8 @@
                 "terms-updated-at-help": "Ngày cập nhật điều khoản cuối cùng. Việc đặt giá trị này sẽ yêu cầu tất cả người dùng đã chấp nhận trước ngày đó phải chấp nhận lại. Phải trong quá khứ (nếu không người dùng sẽ không bao giờ có thể chấp nhận sau ngày và vượt qua phương thức).\n",
                 "export-url": "Xuất URL",
                 "export-url-help": "Bất kỳ người dùng nào có quyền \"Xuất tất cả dữ liệu chính sách\" đều có thể truy cập vào các URL đó để tải xuống danh sách người dùng đã chấp nhận chính sách này. Bạn có thể tìm thêm chi tiết về các tùy chọn có sẵn trên <a>wiki tiện ích mở rộng</a>.\n",
-                "optional": "",
-                "optional-help": ""
+                "optional": "Chính sách tùy chọn",
+                "optional-help": "Khi được bật, người dùng có thể sử dụng và tương tác với diễn đàn mà không cần chấp nhận chính sách này."
             },
             "permissions": {
                 "see-user-policies-state": "Xem trạng thái chính sách người dùng",
@@ -66,12 +66,12 @@
             "update-alert": {
                 "must-accept-message": "Chúng tôi đã tạm thời hạn chế quyền truy cập vào tài khoản của bạn trong khi bạn kiểm tra các điều khoản mới.",
                 "can-accept-message": "Gần đây chúng tôi đã cập nhật các điều khoản. Bạn phải chấp nhận chúng để tiếp tục sử dụng trang web này.",
-                "can-accept-optional-message": "",
+                "can-accept-optional-message": "Chúng tôi vừa cập nhật các điều khoản. Bạn có thể xem lại chúng bất cứ khi nào bạn muốn.",
                 "review": "Nhấn vào đây để xem xét và chấp nhận các điều khoản mới",
-                "close": ""
+                "close": "Đóng"
             },
             "user_settings": {
-                "optional_policies_label": ""
+                "optional_policies_label": "Chính sách"
             },
             "user_controls": {
                 "state_button": "Điều khoản chấp nhận trạng thái"
@@ -82,8 +82,8 @@
         "lib": {
             "data": {
                 "userpolicydata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Chi tiết về việc người dùng chấp nhận các điều khoản",
+                    "delete_description": "Xóa bỏ sự chấp nhận của người dùng đối với các điều khoản"
                 }
             }
         }
