@@ -43,7 +43,7 @@
                 "about_tags_text": "Теги використовуються для структурування дискусій. Основні теги можуть утворювати дворівневу ієрархію. Додаткові теги не мають ієрархії та можуть бути корисні для мікро-структурування. Теги з додаткових в основні можна конвертувати шляхом простого перетягування мишкою.",
                 "create_primary_tag_button": "Створити основний тег",
                 "create_secondary_tag_button": "Створити додатковий тег",
-                "edit_tag_label": "",
+                "edit_tag_label": "Редагувати тег {tag}",
                 "primary_heading": "Основні теги",
                 "secondary_heading": "Додаткові теги",
                 "settings_heading": "Налаштування"
@@ -105,13 +105,13 @@
         },
         "validation": {
             "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
+                "name": "назва",
+                "slug": "псевдонім",
+                "is_hidden": "сховати",
+                "description": "опис",
+                "color": "колір",
+                "tag_count_primary": "=> validation.attributes.tag_count_primary",
+                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
             }
         }
     }
