@@ -41,7 +41,7 @@
                 "name": "Välja nimi",
                 "name-help": "Avalikult nähtav (ja mitte tõlgitav) välja nimi.\n",
                 "description": "Välja kirjeldus",
-                "description-help": "",
+                "description-help": "Valikuline kirjeldus, miks seda välja on vaja.\n",
                 "show_when_empty": "Näita, kui väli on tühi",
                 "show_when_empty-help": "Kas välja näidatakse vestluses, kui sellesse pole midagi sisestatud",
                 "validation": "Kasutaja väärtuste kontrollimine",
@@ -59,18 +59,18 @@
             },
             "messages": {
                 "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-field-confirmation": "Oled sa kindel, et soovid kustutada välja \"{name}\"? Väli ja selle vastused eemaldatakse kõigist vestlustest, mis neid kasutavad. Kas kustutada väli?\n"
             },
             "settings": {
                 "fields-section-title": "Kohandatud väljade sektsiooni pealkiri",
                 "fields-section-title-placeholder": "Vaikimisi pealkirja ei näidata",
-                "fields-section-title-help": "",
-                "column-count": "",
+                "fields-section-title-help": "Kasutajad näevad seda teksti kohandatud väljade kohal redaktoris ja vestluses.\n",
+                "column-count": "Veergude arv väljade näitamisel",
                 "n-columns": "{count} veergu",
-                "labels-as-placeholders": "",
+                "labels-as-placeholders": "Näita veerge kui kohatäitjaid vormis",
                 "labels-as-placeholders-help": "",
-                "fields-in-hero": "",
-                "hide-empty-fields-section": "",
+                "fields-in-hero": "Näita väljasid esimese postituse asemel vestluse bänneris",
+                "hide-empty-fields-section": "Peida pealkiri ja juhtelemendid, kui kõik väljad tühjad ja peidetud",
                 "hide-empty-fields-section-help": "",
                 "tags-as-field": "Näita siltide valijat väljana",
                 "tags-as-field-help": "See peidab tavapärase siltide valija ning näitab selle asemel kohandatud väljade rippvalikut. See töötab ainult siis, kui sa oled lubanud valida ainult ühe peamise ja ühe teisejärgulise sildi!\n",
