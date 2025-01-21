@@ -41,22 +41,22 @@
                     "post": "Postitus",
                     "usercard": "Kasutaja kaart"
                 },
-                "name": "",
-                "desc": "",
-                "style": "",
+                "name": "nimi",
+                "desc": "Kirjeldus",
+                "style": "Stiilileht",
                 "tip": "",
-                "button": "",
-                "delete-button": ""
+                "button": "Loo",
+                "delete-button": "Kustuta"
             },
-            "delete_confirm": "",
-            "delete-success": "",
+            "delete_confirm": "Oled sa kindel, et soovid selle kaunistuse kustutada?",
+            "delete-success": "Kustutatud",
             "user_controls": {
-                "offer": ""
+                "offer": "Paku dekoratsiooni"
             }
         },
         "admin": {
             "permissions": {
-                "view_decoration": "",
+                "view_decoration": "Teiste dekoratsioonide vaatamine",
                 "delete_decoration": "Kustuta teised dekoratsioonid",
                 "offer_decoration": "Paku dekoratsiooni",
                 "create_decoration": "Loo/Muuda dekoratsiooni",
