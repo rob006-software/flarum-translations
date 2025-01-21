@@ -56,7 +56,7 @@
                     "tagScopePlaceholder": "Kirjuta, et otsi silte..."
                 },
                 "delete": "=> flamarkt-taxonomies.ref.delete",
-                "deleteConfirmation": "",
+                "deleteConfirmation": "Kas sa tõesti soovid kustutada taksonoomiat {name}? Kõik selle taksonoomia all olevad terminid kustutatakse. Seda taksonoomiat kasutavaid vestlus EI KUSTUTATA.\n",
                 "submit": {
                     "new": "=> flamarkt-taxonomies.ref.submit.new",
                     "edit": "=> flamarkt-taxonomies.ref.submit.edit"
