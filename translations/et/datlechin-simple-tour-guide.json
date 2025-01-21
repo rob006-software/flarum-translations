@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "show_progress_label": "Näita edenemist",
-                "show_progress_help": "",
+                "show_progress_help": "See näitab praegust sammu ja sammude koguarvu hüpikakna kohal.",
                 "allow_close_label": "Luba sulgemine",
-                "allow_close_help": "",
-                "skip_null_elements_label": "",
-                "skip_null_elements_help": ""
+                "allow_close_help": "Luba kasutajatel sulgeda hüpikaken klikiga taustal.",
+                "skip_null_elements_label": "Jäta tühjad elemendid vahele",
+                "skip_null_elements_help": "Jäta vahele sammud, mis ei vasta ühelegi HTML elemendile. Võid seda kasutada erinevate keelte jaoks kasutades silte nagu 'html[lang=\"et\"] minu-valik'. See peidab ka nupu eelmine ja peaksid edenemisriba peitma."
             },
             "permissions": {
-                "reset_tour_guide": ""
+                "reset_tour_guide": "Nulli tuur"
             },
             "edit_modal": {
                 "edit_step": "Muuda {title}",
-                "create_step": "",
+                "create_step": "Loo uus samm",
                 "delete_step": "Kustuta samm",
                 "delete_step_confirmation": "Oled sa kindel, et soovid selle sammu kustutada?"
             },
@@ -24,13 +24,13 @@
             "description": "Kirjeldus",
             "description_placeholder": "Sammu kirjeldus.",
             "target": "Sihtkoht",
-            "target_placeholder": "",
-            "trigger_click": "",
+            "target_placeholder": "Sammu sihtelement (nt. #element-id).",
+            "trigger_click": "Päästiku klikk",
             "yes": "Jah",
             "no": "Ei"
         },
         "forum": {
-            "progress_text": "",
+            "progress_text": "{current} / {total}",
             "next_btn_text": "Järgmine",
             "prev_btn_text": "Eelmine",
             "done_btn_text": "Valmis",
