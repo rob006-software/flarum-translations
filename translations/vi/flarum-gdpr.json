@@ -2,15 +2,15 @@
     "flarum-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "Tổng quan về dữ liệu GDPR",
+                "description": "Trạng thái của nhiều hành động và tích hợp GDPR khác nhau",
                 "data_types": {
-                    "title": "",
-                    "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
+                    "title": "Kiểu dữ liệu",
+                    "help_text": "Đây là những loại dữ liệu hiện được đăng ký. Mỗi loại được liệt kê cùng với các hành động xuất, ẩn danh và xóa liên quan. Nếu tiện ích mở rộng xử lý bất kỳ dữ liệu nào tuân theo quy định của GDPR thì tiện ích đó phải đăng ký loại dữ liệu của mình với <code>flarum/gdpr</code>.\nDữ liệu được lưu trữ trong bảng <code>user</code> được xử lý riêng biệt, xem dữ liệu bảng người dùng bên dưới.\n",
+                    "type": "Kiểu",
+                    "export_description": "Xuất hành động",
+                    "anonymize_description": "Hành động ẩn danh",
+                    "delete_description": "Hành động xóa",
                     "extension": ""
                 },
                 "settings": {
