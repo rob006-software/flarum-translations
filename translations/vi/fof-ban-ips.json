@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Nếu hồ sơ cấm IP được liên kết với người dùng (tức là người dùng bị cấm theo IP), địa chỉ IP của người dùng sẽ được đưa vào bản xuất, cùng với lý do cấm và ngày tạo.",
+                    "anonymize_description": "Bất kỳ địa chỉ IP nào được liên kết với người dùng đều được tách rời, nhưng bản thân IP sẽ vẫn bị cấm, cùng với lý do. Đảm bảo không có dữ liệu PII nào được lưu trữ trong trường 'lý do'."
                 }
             }
         }
