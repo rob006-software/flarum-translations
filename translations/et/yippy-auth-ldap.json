@@ -7,10 +7,10 @@
             "errors": {
                 "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
                 "search_filter_is_invalid": "",
-                "not_authenticated": "",
-                "csrf_token_mismatch": "",
+                "not_authenticated": "Sidumise serverit {server} ei leitud valede kasutajaandmete tõttu. Muuda lisaprogrammi seadeid.",
+                "csrf_token_mismatch": "Oled liiga kaua aega mitteaktiivne olnud. Palun värskenda lehekülge ja proovi siis uuesti",
                 "domains": {
-                    "no_domains": "",
+                    "no_domains": "Admini seadetes pole domeeni määratud. Muuda lisaprogrammi seadeid.",
                     "empty_host": "",
                     "empty_base_dn": "",
                     "empty_user_username": "",
@@ -36,7 +36,7 @@
                 "domains": {
                     "title": "LDAP domeen",
                     "description": "",
-                    "add": "",
+                    "add": "Lisa domeen",
                     "banner": "Domeen {index}",
                     "header": {
                         "server": "LDAP serveri seaded",
@@ -49,31 +49,31 @@
                     "data": {
                         "host": "Domeenis või serveri IP-aadressid",
                         "host_help": "Komadega eraldatud",
-                        "base_dn": "",
+                        "base_dn": "Baas DN-id",
                         "base_dn_help": "Semikooloniga eraldatud",
                         "filter": "Filter, mida rakendada",
                         "filter_help": "",
                         "port": "Port",
                         "port_help": "Mitte-SSL (port 389) või SSL (port 636).",
                         "version": "LDAP versioon",
-                        "version_help": "",
+                        "version_help": "Võib olla ainult 2 või 3 (vaikeväärtus on 3).",
                         "follow_referrals": "",
                         "use_ssl": "Kasuta SSL-i",
                         "use_tls": "Kasuta TSL-i",
                         "admin_dn": "",
-                        "admin_dn_help": "",
-                        "admin_password": "",
+                        "admin_dn_help": "Anonüümseks sidumiseks jäta tühjaks",
+                        "admin_password": "Parool",
                         "admin_password_help": "",
                         "search_user_fields": "",
                         "search_user_fields_help": "",
-                        "user_username": "",
-                        "user_mail": "",
+                        "user_username": "Määra kasutajanime väli",
+                        "user_mail": "Määra e-posti väli",
                         "user_mail_help": "",
-                        "user_nickname_fields": "",
+                        "user_nickname_fields": "Määra hüüdnime väli",
                         "user_nickname_fields_help": ""
                     }
                 },
-                "onlyUse": "",
+                "onlyUse": "Peida tavapärane Flarumi sisselogimise viis",
                 "display_detailed_error": ""
             }
         }
