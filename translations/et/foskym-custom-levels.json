@@ -2,27 +2,27 @@
     "foskym-custom-levels": {
         "admin": {
             "settings": {
-                "levelText": "",
+                "levelText": "Sisesta tekst, mida näidatakse tasemete juures (nt. Järk, tase)",
                 "levelDesc": "Saadaolevad muutujad：[tase]",
-                "expText": "",
+                "expText": "Sisesta tekst, mida näidatakse kogemuspunktidena (nt. [expTotal] kogemuspunkti)",
                 "expDesc": "Saadaolevad muutujad: [expTotal] [expPercent] [nextLevel] [expToNextLevel]",
-                "expForPost": "",
-                "expForPostDesc": "",
-                "postMinLength": "",
-                "postMaxTimes": "",
-                "expForDiscussion": "",
+                "expForPost": "Iga postituste eest saadud kogemuspunktid",
+                "expForPostDesc": "Arv ilma komakohtadeta. Või vahemik, nt.「[1, 10]」tähendab, et see on juhuslik number 1 ja 10 vahel",
+                "postMinLength": "Minimaalne postituse pikkus, 0 tähendab, et limiiti pole",
+                "postMaxTimes": "Maksimaalne postituste arv, mida võib päevas teha, 0 tähendab, et limiiti pole",
+                "expForDiscussion": "Iga vestluse eest saadud kogemuspunktid",
                 "expForDiscussionDesc": "",
-                "discussionMaxTimes": "",
-                "expForLike": "",
+                "discussionMaxTimes": "Maksimaalne vestluste arv, mida kasutaja saab päevas teha, 0 tähendab, et limiiti pole",
+                "expForLike": "Meeldimise eest saadud kogemuspunktid",
                 "expForLikeDesc": "",
-                "autoRemove": "",
-                "cascadeRemove": ""
+                "autoRemove": "Eemalda kogemuspunkte automaatselt",
+                "cascadeRemove": "Kui vestlus eemaldatakse, siis eemaldatakse vastuste kogemuspunktid"
             },
-            "go_to_forum_quests": "",
+            "go_to_forum_quests": "Foorumi retkede lisaseaded",
             "auto_remove": [
-                "",
-                "",
-                ""
+                "Ära kunagi eemalda kogemuspunkte",
+                "Kui postitus/vastus peidetakse või kustutatakse (vaikeväärtus)",
+                "Kui postitus/vastus on püsivalt kustutatud"
             ],
             "preview": "Eelvaade",
             "pages": {
@@ -31,35 +31,35 @@
             },
             "levels": {
                 "edit_level": "Muuda taset",
-                "delete_confirmation": "",
+                "delete_confirmation": "Kinnita selle taseme kustutamine?",
                 "add_button": "Lisa tase",
                 "name": "Taseme nimi",
                 "min_exp_required": "Nõutud aegumine"
             },
             "permissions": {
-                "edit_exp": ""
+                "edit_exp": "Muuda kasutaja kogemuspunkte"
             }
         },
         "forum": {
             "user_controls": {
-                "edit_exp_button": ""
+                "edit_exp_button": "Muuda kogemuspunkte"
             },
             "modal": {
-                "title": "",
+                "title": "Muuda kogemuspunkte",
                 "current": "Praegune",
                 "submit_button": "Salvesta"
             },
             "notifications": {
-                "level_updated": ""
+                "level_updated": "Õnnitlused! Jõudsid tasemele {level}!"
             },
             "settings": {
-                "notify_level_updated": ""
+                "notify_level_updated": "Teavita, kui taset uuendatakse"
             },
             "label": {
-                "exp_logs": ""
+                "exp_logs": "Kogemuspunktide logid"
             },
             "log": {
-                "exp": "",
+                "exp": "Kogemuspunktide vahetamine",
                 "reason": "Põhjus",
                 "time": "Aeg",
                 "view": "Vaata",
@@ -67,7 +67,7 @@
                 "no_more": "Rohkem pole",
                 "no_records": "Andmeid pole",
                 "type": {
-                    "system_clear": "",
+                    "system_clear": "Süsteemi tühjendamine",
                     "system_refresh": "Süsteemi värskendamine",
                     "automoderator": "Automaatne moderaator",
                     "post_posted": "Tehti postitus",
@@ -78,11 +78,11 @@
                     "discussion_deleted": "Vestlus kustutati. {title}",
                     "discussion_hidden": "Vestlus peideti. {title}",
                     "discussion_restored": "Vestlus taastati. {title}",
-                    "comment_deleted_in_deleted_discussion": "",
-                    "post_liked": "",
-                    "post_unliked": "",
+                    "comment_deleted_in_deleted_discussion": "Kommentaar kustutati kustutatud vestluses",
+                    "post_liked": "Postitus märgitu meeldivaks",
+                    "post_unliked": "Postitus märgiti mittemeeldivaks",
                     "admin_edit": "Admin muutis",
-                    "forum_quests": "",
+                    "forum_quests": "Foorumi retked: Lõpetatud {name}",
                     "store_purchase": "Ostetud poest"
                 }
             }
@@ -90,28 +90,28 @@
         "lib": {
             "defaults": {
                 "level": "Tase",
-                "exp": ""
+                "exp": "[expTotal] kogemuspunkte"
             },
             "error": {
-                "calculation": ""
+                "calculation": "Kogemuspunktide arvutamine on vale."
             },
             "integrations": {
                 "automoderator": {
                     "metric_name": "Exp",
-                    "action_name": ""
+                    "action_name": "Anna kogemuspunkte"
                 },
                 "forum-quests": {
-                    "reward_name": ""
+                    "reward_name": "Kogemuspunktid"
                 },
                 "store": {
-                    "item_name": "",
+                    "item_name": "Kogemuspunktid",
                     "provider_data": {
                         "same_as_use_cnt": ""
                     }
                 },
                 "user-directory": {
-                    "most_exp": "",
-                    "least_exp": ""
+                    "most_exp": "Enim kogemuspunkte",
+                    "least_exp": "Vähem kogemuspunkte"
                 }
             }
         }
