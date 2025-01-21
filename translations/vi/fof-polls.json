@@ -3,35 +3,35 @@
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Cài đặt chung",
+                    "help": "Các thiết lập này kiểm soát các tính năng cơ bản của tiện ích mở rộng Polls."
                 },
                 "global_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Các cuộc thăm dò toàn cục",
+                    "help": "Các thiết lập này kiểm soát tính năng thăm dò toàn cục."
                 },
                 "image": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Cài đặt hình ảnh",
+                    "help": "Các thiết lập này kiểm soát cài đặt hình ảnh cho cuộc thăm dò."
                 },
                 "allow_option_image": "Cho phép URL ảnh cho mỗi tuỳ chọn thăm do ý kiến",
-                "allow_image_uploads": "",
-                "allow_image_uploads_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": "",
-                "image_height": "",
-                "image_width": ""
+                "allow_image_uploads": "Cho phép tải hình ảnh lên để thăm dò ý kiến và các tùy chọn của họ",
+                "allow_image_uploads_help": "Nếu được bật, người dùng sẽ có thể tải hình ảnh lên cùng với việc cung cấp URL hình ảnh (nếu được bật cho tùy chọn, luôn được bật cho chính cuộc thăm dò).",
+                "enable_global_polls": "Cho phép thăm dò toàn cục",
+                "enable_global_polls_help": "Các cuộc thăm dò toàn cầu không liên quan đến một bài viết cụ thể và có thể được truy cập từ một trang thăm dò chuyên dụng.",
+                "max_options": "Số lượng tùy chọn tối đa cho mỗi cuộc thăm dò",
+                "options_color_blend": "Pha trộn màu văn bản trong tùy chọn thăm dò ý kiến",
+                "options_color_blend_help": "Sử dụng tính năng này để sử dụng trộn màu để làm cho các tùy chọn thăm dò dễ đọc hơn. Tắt nếu tính năng này gây ra sự cố với giao diện diễn đàn của bạn, làm giảm khả năng đọc.",
+                "image_height": "Thay đổi kích thước chiều cao hình ảnh",
+                "image_width": "Thay đổi kích thước chiều rộng hình ảnh"
             },
             "permissions": {
                 "view_results_without_voting": "Xem kết quả mà không cần bỏ phiếu",
                 "start": "Tạo cuộc thăm dò",
-                "start_global": "",
-                "self_edit": "Cho phép chỉnh sửa cuộc thăm dò của họ",
-                "self_post_edit": "",
-                "upload_images": "",
+                "start_global": "Bắt đầu một cuộc thăm dò toàn cục",
+                "self_edit": "Chỉnh sửa các cuộc thăm dò đã tạo (yêu cầu quyền chỉnh sửa bài viết)",
+                "self_post_edit": "Chỉnh sửa *tất cả* các cuộc thăm dò trên bài viết của riêng bạn (yêu cầu quyền chỉnh sửa bài viết)",
+                "upload_images": "Cho phép người dùng tải lên hình ảnh để thăm dò ý kiến",
                 "vote": "Bình chọn cuộc thăm dò",
                 "change_vote": "Thay đổi bình chọn",
                 "moderate": "Chỉnh sửa và xóa cuộc thăm dò"
@@ -42,47 +42,47 @@
             "no_permission": "Bạn không được phép bình chọn",
             "poll_ended": "Cuộc thăm dò này đã kết thúc.",
             "public_poll": "Xem người bình chọn",
-            "max_votes_allowed": "",
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "max_votes_allowed": "Cuộc thăm dò cho phép bỏ phiếu cho {max, plural, one {# tùy chọn} khác {# tùy chọn}}.",
+            "polls_count": "{count, plural, one { {count} phiếu} other {{count} phiếu}}",
+            "poll_never_ends": "Cuộc thăm dò không bao giờ kết thúc",
+            "answers": "Câu trả lời",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": "",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "cannot_change_vote": "Bạn không thể thay đổi phiếu bầu của mình sau khi bỏ phiếu.",
+                "submit_button": "Bỏ phiếu",
+                "start_poll_button": "Bắt đầu cuộc thăm dò toàn cục",
+                "cannot_start_poll_button": "Không thể bắt đầu cuộc thăm dò"
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Bạn có chắc chắn muốn xóa cuộc thăm dò ý kiến này không?",
+                "delete_success_message": "Đã xóa cuộc thăm dò thành công.",
+                "delete_error_message": "Đã xảy ra lỗi khi xóa cuộc thăm dò."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Xóa cuộc thăm dò",
+                "error": "Đã xảy ra lỗi khi lưu cuộc thăm dò, vui lòng liên hệ với quản trị viên."
             },
             "polls_page": {
-                "title": ""
+                "title": "Cuộc thăm dò"
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
+                "empty_text": "Có vẻ như không có cuộc thăm dò ý kiến nào trên toàn cộng đồng ở đây.",
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
-                "add_poll": "Thêm cuộc thăm dò",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "Bạn không có quyền bắt đầu cuộc thăm dò."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Thêm một cuộc thăm dò",
+                "edit_title": "Chỉnh sửa cuộc thăm dò",
+                "polls_manager": "Quản lý thăm dò",
+                "polls_preview": "Xem cuộc thăm dò",
+                "continue_editing": "Tiếp tục chỉnh sửa",
+                "success": "Đã lưu cuộc thăm dò thành công."
             },
             "modal": {
                 "add_title": "Thêm cuộc thăm dò",
@@ -90,56 +90,56 @@
                 "date_placeholder": "Ngày kết thúc cuộc thăm dò (Tùy chọn)",
                 "edit_title": "Chỉnh sửa cuộc thăm dò",
                 "include_question": "Bạn phải bao gồm một câu hỏi",
-                "max": "Bạn có thể có tối đa 10 câu trả lời",
+                "max": "Bạn có thể có tối đa {max} câu trả lời",
                 "min": "Bạn phải bao gồm tối thiểu 2 câu trả lời",
                 "no_voters": "Không có bình chọn",
                 "option_placeholder": "Câu trả lời",
                 "image_option_placeholder": "URL ảnh (tuỳ chọn)",
                 "options_label": "Các câu trả lời",
                 "public_poll_label": "Cho phép mọi người xem ai đã bình chọn",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "hide_votes_label_help": "",
-                "allow_change_vote_label": "",
+                "allow_multiple_votes_label": "Cho phép mọi người bỏ phiếu cho nhiều lựa chọn",
+                "max_votes_label": "Số phiếu bầu tối đa cho mỗi người dùng",
+                "max_votes_help": "Đặt thành 0 để cho phép người dùng bỏ phiếu cho tất cả các tùy chọn.",
+                "hide_votes_label": "Ẩn phiếu bầu cho đến khi cuộc thăm dò kết thúc",
+                "hide_votes_label_help": "Người dùng bắt đầu cuộc thăm dò sẽ luôn có thể xem được số phiếu bầu.",
+                "allow_change_vote_label": "Cho phép người dùng thay đổi phiếu bầu của họ",
                 "question_placeholder": "Câu hỏi",
-                "subtitle_placeholder": "",
+                "subtitle_placeholder": "Phụ đề/Mô tả (tùy chọn)",
                 "submit": "Đồng ý",
-                "delete": "",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
-                    "later_help": ""
+                    "label": "Hình ảnh cuộc thăm dò",
+                    "help": "Tải lên hình ảnh để hiển thị cùng với cuộc thăm dò (tùy chọn).",
+                    "alt_label": "Văn bản thay thế hình ảnh",
+                    "alt_help_text": "Văn bản này là bắt buộc khi cài đặt hình ảnh, văn bản này sẽ hiển thị nếu hình ảnh không tải được.",
+                    "later_help": "Bạn sẽ có thể tải hình ảnh lên sau khi tạo cuộc thăm dò."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Hình ảnh câu trả lời thăm dò",
+                    "help": "Tải lên hình ảnh để hiển thị cùng với câu trả lời thăm dò (tùy chọn)."
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Thêm câu trả lời"
                     }
                 }
             },
             "moderation": {
-                "add": "",
+                "add": "Thêm cuộc thăm dò",
                 "delete": "Xóa cuộc thăm dò",
                 "delete_confirm": "Bạn có chắc chắn muốn xoá cuộc thăm dò ý kiến này?",
                 "edit": "Chỉnh sửa cuộc thăm dò"
             },
             "page": {
-                "nav": "",
-                "nav-all": ""
+                "nav": "Cuộc thăm dò",
+                "nav-all": "Tất cả các cuộc thăm dò toàn cục"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Các cuộc thăm dò đang diễn ra",
+                "ended-polls": "Kết thúc cuộc thăm dò",
+                "no-active-polls": "Hiện tại không có cuộc thăm dò nào đang diễn ra.",
+                "no-recent-polls": "Hiện tại không có cuộc thăm dò nào kết thúc gần đây."
             },
             "tooltip": {
                 "badge": "Thăm dò ý kiến",
@@ -149,8 +149,8 @@
                 "title": "Người bình chọn"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Xóa hình ảnh",
+                "upload_button": "Tải lên hình ảnh"
             }
         }
     }
