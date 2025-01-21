@@ -10,7 +10,7 @@
                 }
             },
             "permission": {
-                "refresh-translation": "",
+                "refresh-translation": "Sunni vahemälus olevate tõlgete uuesti tõlkimine",
                 "translate-to-locale": "Vaata tõlget kohalikus keeles",
                 "translate-to-all-locales": "Vaata tõlget ükskõik, mis foorumi keeles",
                 "edit-translation": "Muuda tõlget käsitsi"
@@ -18,26 +18,26 @@
             "settings": {
                 "general": {
                     "heading": "Üldised seaded",
-                    "help": ""
+                    "help": "Need seaded juhivad tõlkesüsteemi üldist käitmist."
                 },
                 "seo": {
                     "heading": "SEO seaded",
-                    "help": "",
+                    "help": "Need seaded kontrollivad tõlkesüsteemi käitumist seoses otingumootorite optimiseerimisega.",
                     "default-lang": "Kattub foorumi vaikimisi keelega",
-                    "default-lang-help": ""
+                    "default-lang-help": "Kui see on sisse lülitatud, siis hreflang sildile <code>x-default</code> lisatakse vaikimisi keel."
                 },
                 "providers": {
                     "heading": "Tõlketeenuse seaded",
-                    "help": ""
+                    "help": "Vali oma eelistatud tõlketeenuse pakkuja ja seadista seda siin."
                 },
                 "button": "Seaded",
                 "seemless": "Sujuv tõlkimine",
-                "seemless-help": "",
+                "seemless-help": "Beeta funktsioon. Kui see on sisse lülitatud, siis kõik kasutajate sisu tõlgitakse automaatselt kõigisse teistesse saadaolevatesse foorumi keeltese. Kui kasutaja vaatab mitmekeelset sisu, siis tõlkeid näidatakse automaatselt.",
                 "multi-lang-search": "Mitmekeelne otsing",
-                "multi-lang-search-help": "",
+                "multi-lang-search-help": "Kui see on sisse lülitatud, siis kaasab otsing kogu sisu kõiki tõlkeid.",
                 "deepl": {
                     "api_key": {
-                        "help": "",
+                        "help": "Registreeru lingil {link}. Draiver tuvastab tasuta/pro võtme liigi.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "en_choice": {
@@ -49,7 +49,7 @@
                         }
                     },
                     "formality": {
-                        "help": "",
+                        "help": "Kui see on saadaval, siis tõlkeis saab kasutada erinevaid formaalsuse tasemeid. Määra oma eelistus siin.",
                         "label": "Formaalsus",
                         "options": {
                             "default": "Vaikeväätus",
@@ -60,25 +60,25 @@
                 },
                 "google-cloud": {
                     "api_key": {
-                        "help": "",
+                        "help": "Registreeru lingil {link} API võtme saamiseks. See draiver kasutab V2 API - Basic.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "libre": {
                     "url": {
-                        "help": "",
+                        "help": "LibreTranslate serveri URL. Kui kasutad omaenda serverit, siis sisesta siia URL. Skeem peaks olema kas 'http' või 'https'.",
                         "label": "Serveri URL"
                     },
                     "port": {
-                        "help": "",
+                        "help": "LibreTranslate serveri serveri port. Kui kasutad omaenda serverit, siis sisesta port siia.",
                         "label": "Serveri port"
                     },
                     "api_key": {
-                        "help": "",
+                        "help": "(valikuline) Kui sinu LibreTranslate server vajab API võtit, siis sisesta see siia.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "translate-all-enabled": "",
+                "translate-all-enabled": "Luba kõik tõlke keeled",
                 "translate-all-help": "",
                 "bind-browser-language": "Lisa veebisirvija keel",
                 "bind-browser-language-help": "",
@@ -133,7 +133,7 @@
                 "post": {
                     "close-translation": "Sulge tõlge",
                     "translated-header": "",
-                    "translated-updated": ""
+                    "translated-updated": "Tõlget uuendati viimati {time} kasutades teenust {provider}"
                 },
                 "title": {
                     "detected-language": "{postLang}"
