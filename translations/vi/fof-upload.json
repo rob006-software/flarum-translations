@@ -4,8 +4,8 @@
             "data": {
                 "uploads": {
                     "export_description": "Toàn bộ tệp tin được tải lên bởi người dùng.",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "anonymize_description": "Xóa tham chiếu người dùng khỏi các tệp đã tải lên. Bản thân các tệp vẫn có thể truy cập được đối với những người dùng có thể xem chúng dưới dạng ẩn danh trước.",
+                    "delete_description": "Xóa tất cả các tập tin được người dùng tải lên."
                 }
             }
         }
@@ -131,8 +131,8 @@
                 "text-preview_description": "Chèn xem trước (5 dòng đầu) của tệp văn bản, với tùy chọn mở rộng để hiển thị toàn bộ nội dung của tệp.\n"
             },
             "upload_methods": {
-                "aws-s3": "S3/Compatible",
-                "awss3": "",
+                "aws-s3": "S3 hoặc tương thích",
+                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Cục bộ",
                 "ovh-svfs": "OVH SVFS",
