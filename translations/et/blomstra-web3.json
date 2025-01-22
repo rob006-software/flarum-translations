@@ -2,11 +2,11 @@
     "blomstra-web3": {
         "admin": {
             "settings": {
-                "allow-sign-up": "",
+                "allow-sign-up": "Luba liitumine web3-ga",
                 "ffi-disabled": "",
                 "infura-project-id": "Infura projekti ID",
                 "infura-project-id-help": "",
-                "prioritize-web3-auth-modals": "",
+                "prioritize-web3-auth-modals": "Ava vaikimisi web3 sisenemine/liitumine",
                 "signup-with-email": "Liituma e-postiga",
                 "no-email-signup-message": "",
                 "no-email-signup-message-help": ""
@@ -16,13 +16,13 @@
             "connect-wallet-modal": {
                 "could-not-sign": "",
                 "goback": "Tagasi",
-                "title": "",
+                "title": "Ühenda rahakott",
                 "polkadot-wallets": "=> blomstra-web3.ref.polkadot-wallets",
-                "evm-wallets": "",
+                "evm-wallets": "EVM rahakott",
                 "signature-invalid": "Allkiri on vigane."
             },
             "evm-connect-wallet-modal": {
-                "title": "",
+                "title": "EVM rahakotid",
                 "bind": "=> blomstra-web3.ref.bind",
                 "disconnect": "=> blomstra-web3.ref.disconnect",
                 "disconnect-and-unbind": "Ühenda lahti ja eemalda seos",
@@ -32,25 +32,25 @@
                 "attach_address": "=> blomstra-web3.ref.bind",
                 "connection-request-rejected": "Ühendus lükati tagasi",
                 "disconnect": "=> blomstra-web3.ref.disconnect",
-                "goback": "",
+                "goback": "Tagasi rahakottide juurde",
                 "title": "=> blomstra-web3.ref.polkadot-wallets",
                 "select": "=> blomstra-web3.ref.select",
                 "unattach_address": "=> blomstra-web3.ref.unbind"
             },
             "settings": {
-                "wallets_heading": "",
-                "wallet-connect-button": "",
+                "wallets_heading": "Rahakotid",
+                "wallet-connect-button": "Ühenda rahakott",
                 "unbind": "=> blomstra-web3.ref.unbind",
                 "unbind_confirm": "Oled sa kindel, et soovid selle aadressi oma kontolt eemaldada?"
             },
             "log-in": {
-                "basic-login-link": "",
+                "basic-login-link": "Tagasi tavalisele sisselogimisele",
                 "with-wallet": "Logi sisse web3-ga",
                 "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             },
             "sign-up": {
                 "basic-signup-link": "",
-                "with-wallet": "",
+                "with-wallet": "Liitu web3-ga",
                 "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             }
         },
@@ -60,7 +60,7 @@
             "bind": "Seosta aadress",
             "unbind": "",
             "disconnect": "Katkesta ühendus",
-            "polkadot-wallets": ""
+            "polkadot-wallets": "Täpilised rahakotid"
         }
     }
 }
