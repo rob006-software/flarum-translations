@@ -458,7 +458,7 @@
                 "empty_text": "Her er det visst ingenting å se.",
                 "global_logout": {
                     "heading": "Global utlogging",
-                    "help_text": "",
+                    "help_text": "Tømmer nåværende cookie sesjon, avslutter alle sesjoner, trekker tilbake utvikler token, og ugyldiggjør epostbekreftelser eller emailer med passord tilbakestilling.",
                     "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "Skjul token",
@@ -491,7 +491,7 @@
                 "notification_checkbox_a11y_label_template": "Motta \"{beskrivelse}\" notifikasjoner via {metode}",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
-                "notify_by_web_heading": "",
+                "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Noen gir nytt navn til en diskusjon jeg startet",
                 "privacy_disclose_online_label": "Tillat andre å se når jeg er pålogget",
                 "privacy_heading": "Privatliv",
@@ -532,66 +532,66 @@
             },
             "user_email_confirmation": {
                 "alert_message": "",
-                "resend_button": "",
-                "sent_message": ""
+                "resend_button": "Send epostbekreftelse på nytt",
+                "sent_message": "Sendt"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Skjul velkomstmelding"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Feilsøk",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Avvis varsel"
             },
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "Skjult"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Veksle nedtrekksmeny"
             },
             "data_segment": {
                 "label": ""
             },
             "edit_user": {
-                "activate_button": "",
+                "activate_button": "Aktiver bruker",
                 "email_heading": "",
                 "email_label": "",
-                "groups_heading": "",
+                "groups_heading": "Grupper",
                 "password_heading": "",
                 "password_label": "",
-                "set_password_label": "",
+                "set_password_label": "Lag nytt passord",
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
                 "username_label": "",
-                "nothing_available": ""
+                "nothing_available": "Du har ikke tillatelse til å endre denne brukeren."
             },
             "error": {
-                "circular_dependencies_message": "",
-                "dependent_extensions_message": "",
-                "extension_initialiation_failed_message": "",
-                "generic_message": "",
-                "generic_cross_origin_message": "",
-                "missing_dependencies_message": "",
-                "not_found_message": "",
-                "payload_too_large_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": "",
-                "render_failed_message": ""
+                "circular_dependencies_message": "Sirkulære avhengigheter oppdaget: {extensions}. Avbryter. Deaktiver en av utvidelsene og prøv igjen.",
+                "dependent_extensions_message": "Kan ikke deaktivere {extension} før den følgende utvidelsen med avhengighet er deaktivert: {extensions}",
+                "extension_initialiation_failed_message": "{extension} kunne ikke initialiseres, sjekk nettleserkonsollen for mer informasjon.",
+                "generic_message": "Oops! Noe gikk galt. Last inn siden på nytt og prøv igjen.",
+                "generic_cross_origin_message": "Oops! Noe gikk galt under en forespørsel om kryssopprinnelse. Last inn siden på nytt og prøv igjen.",
+                "missing_dependencies_message": "Kan ikke aktivere {extension} før følgende avhengigheter er aktivert: {extensions}",
+                "not_found_message": "Den forespurte ressursen ble ikke funnet.",
+                "payload_too_large_message": "Forespørselsnyttelasten var for stor.",
+                "permission_denied_message": "Du har ikke tillatelse til å gjøre det.",
+                "rate_limit_exceeded_message": "Du går litt for fort frem. Prøv igjen om noen sekunder.",
+                "render_failed_message": "Beklager, vi oppdaget en feil under visning av dette innholdet. Hvis du er en bruker, prøv igjen senere. Hvis du er administrator, ta en titt i Flarum-loggfilene dine for mer informasjon."
             },
             "loading_indicator": {
                 "accessible_label": ""
             },
             "meta_titles": {
-                "with_page_title": "",
+                "with_page_title": "{pageNumber, flertall, =1 {{pageTitle} - {forumName}} andre {{pageTitle}: Side # - {forumName}}}",
                 "without_page_title": ""
             },
             "modal": {
-                "close": ""
+                "close": "Lukk"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Åpne navigasjonsskuffen"
             },
             "number_suffix": {
                 "kilo_text": "",
@@ -604,37 +604,37 @@
             },
             "series": {
                 "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "three_text": "{first}, {second}, og {third}",
+                "two_text": "{first} og {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[slettet]"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
                     "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "disable": "Deaktiver",
+                    "empty": "Ingen installerte utvidelser",
+                    "enable": "Aktiver",
+                    "name": "Navn på utvidelse",
+                    "package_name": "Navn på pakke",
+                    "version": "Versjon"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Applikasjonsinfo"
                 },
-                "title": ""
+                "title": "Administrasjon"
             },
             "confirm_email": {
                 "submit_button": "",
-                "text": "",
+                "text": "Klikk på knappen nedenfor for å bekrefte e-postadressen til kontoen din.",
                 "title": ""
             },
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
+                "javascript_disabled_message": "Dette nettstedet vises best i en moderne nettleser med JavaScript aktivert.",
+                "load_error_message": "Noe gikk galt under forsøk på å laste inn den fullstendige versjonen av dette nettstedet. Prøv å hardoppdatere denne siden for å fikse feilen.",
                 "loading_text": ""
             },
             "discussion": {
@@ -642,14 +642,14 @@
                 "previous_page_button": ""
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "Du har vært inaktiv for lenge.",
+                "csrf_token_mismatch_return_link": "Gå tilbake for å prøve igjen",
+                "invalid_confirmation_token": "Denne bekreftelseslenken er allerede brukt eller er ugyldig.",
+                "not_authenticated": "Du har ikke tillatelse til å få tilgang til denne siden. Prøv igjen etter pålogging.",
+                "not_found": "Siden du ba om ble ikke funnet.",
+                "not_found_return_link": "Returner til {forum}",
+                "permission_denied": "Du har ikke tillatelse til å få tilgang til denne siden.",
+                "unknown": "Det oppstod en feil under forsøk på å laste denne siden."
             },
             "index": {
                 "all_discussions_heading": "",
@@ -658,51 +658,51 @@
             },
             "log_out": {
                 "log_out_button": "",
-                "log_out_confirmation": "",
+                "log_out_confirmation": "Er du sikker på at du vil logge ut av {forum}?",
                 "title": ""
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
+                "confirm_password_label": "Bekreft nytt passord",
+                "new_password_label": "Nytt passord",
                 "submit_button": "",
                 "title": ""
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Brukernavnet kan bare inneholde bokstaver, tall og bindestreker.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "{filter} må være numerisk.",
+                "must_not_be_array_message": "{filter} filteret må ikke være en matrise.",
+                "must_not_be_multidimensional_array_message": "{filter} filteret må ikke være en flerdimensjonal matrise."
             }
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "Aktiver din nye konto",
+                "body": "Hei {username}!\n\nNoen (forhåpentligvis du!) har registrert seg på {forum} med denne e-postadressen.\n\nHvis dette var deg, klikker du bare på følgende lenke og kontoen din aktiveres:\n{url}\n\nHvis du ikke registrerte deg, vennligst ignorer denne e-posten.\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "Bekreftt din nye epost adresse",
+                "body": "Hei, {username}!\n\nNoen (forhåpentligvis du!) har endret e-postadressen sin på {forum} til denne.\n\nHvis dette var deg, klikker du bare på følgende lenke og e-posten din vil bli bekreftet:\n{url}\n\nHvis dette ikke var deg, vennligst ignorer denne e-posten.\n"
             },
             "reset_password": {
                 "subject": "",
-                "body": ""
+                "body": "Hei, {username}!\n\nNoen (forhåpentligvis du!) har sendt inn en forespørsel om glemt passord for kontoen din på {forum}.\n\nHvis dette var deg, klikk på følgende lenke for å tilbakestille passordet ditt:\n{url}\n\nHvis du ikke ønsker å endre passordet ditt, bare ignorer denne e-posten og ingenting vil skje.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "Flarum emailtest",
+                "body": "Hei, {username}!\n\nDette er en test-e-post for å bekrefte at Flarum-e-postkonfigurasjonen din fungerer som den skal.\n\nHvis dette var deg, betyr denne e-posten at konfigurasjonen din fungerer!\n\nHvis dette ikke var deg, vennligst ignorer denne e-posten.\n"
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirm_email": "",
-            "confirmation_email_sent": "",
-            "custom_footer_text": "",
+            "all_discussions": "Alle diskusjoner",
+            "change_email": "Endre emailadresse",
+            "change_password": "Endre passord",
+            "color": "Farge",
+            "confirm_password": "Bekreft passord",
+            "confirm_email": "Bekreft epost",
+            "confirmation_email_sent": "Vi har sendt en bekreftelses-e-post til {email}. Hvis den ikke kommer snart, sjekk søppelpostmappen din.",
+            "custom_footer_text": "Legg til HTML som skal vises helt nederst på siden.",
             "custom_footer_title": "",
             "custom_header_text": "",
             "custom_header_title": "",
