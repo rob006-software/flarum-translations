@@ -2,32 +2,32 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": ""
+                "see_country": "Luôn hiển thị quốc gia của địa chỉ IP"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Cài đặt chung",
+                    "help": "Những cài đặt này điều khiển hành vi chung của tiện ích mở rộng."
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Dịch vụ tra cứu IP",
+                    "help": "Chọn dịch vụ để tra cứu IP. Một số dịch vụ có giới hạn tần suất truy vấn, hãy kiểm tra tài liệu của dịch vụ để biết thêm chi tiết."
                 },
                 "service_label": "Dịch vụ",
                 "service_ipdata_label": "IPData",
-                "service_ipdata_description": "Sử dụng <b>https://ipdata.co</b> để thực hiện miễn phí tới 1.500 tra cứu hàng ngày.",
+                "service_ipdata_description": "Sử dụng <b>https://ipdata.co</b> để tra cứu miễn phí tối đa 1.500 lần mỗi ngày. Có các gói trả phí cho giới hạn cao hơn.",
                 "service_ipapi_label": "IP Api",
-                "service_ipapi_description": "Sử dụng <b>http://ip-api.com</b> để thực hiện tối đa 45 tra cứu mỗi phút miễn phí. Nếu bạn thực hiện nhiều hơn, IP của bạn có thể bị đưa vào danh sách đen, sau đó bạn có thể bỏ cấm IP đó tại <b>http://ip-api.com/docs/unban</b>.",
-                "service_ipapi-pro_label": "",
-                "service_ipapi-pro_description": "",
-                "service_iplocation_label": "",
-                "service_iplocation_description": "",
-                "service_ipsevenex_label": "",
-                "service_ipsevenex_description": "",
+                "service_ipapi_description": "Sử dụng <b>http://ip-api.com</b> để tra cứu miễn phí tối đa 45 lần mỗi phút. Nếu vượt quá, các yêu cầu sẽ được xếp hàng đợi cho đến khi hết thời gian giới hạn.",
+                "service_ipapi-pro_label": "IP Api Pro",
+                "service_ipapi-pro_description": "Sử dụng <b>https://members.ip-api.com/#pricing</b>. Gói Pro không giới hạn số lần tra cứu.",
+                "service_iplocation_label": "IP Location",
+                "service_iplocation_description": "Sử dụng <b>https://www.iplocation.net/</b> để lấy thông tin quốc gia và nhà cung cấp dịch vụ mạng. Chưa rõ giới hạn tần suất tra cứu.",
+                "service_ipsevenex_label": "API Định vị 7x",
+                "service_ipsevenex_description": "Sử dụng <b>https://7x.ax</b> để nhận khóa API miễn phí cho tối đa 20 yêu cầu mỗi phút. Có các gói trả phí cho giới hạn cao hơn.",
                 "access_key_label": "Khóa truy cập",
-                "quota_label": "",
-                "show_flag_label": "",
-                "show_flag_help": "",
+                "quota_label": "Giới hạn tra cứu",
+                "show_flag_label": "Hiển thị cờ quốc gia cho mỗi bài viết",
+                "show_flag_help": "Hiển thị cờ quốc gia của địa chỉ IP của người viết bài mà không tiết lộ địa chỉ IP, khi người dùng cho phép trong cài đặt cá nhân.",
                 "title": "FriendsOfFlarum GeoIP",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Sử dụng <b>https://ipstack.com</b> để thực hiện miễn phí tới 10.000 tra cứu mỗi tháng. Các gói trả phí bao gồm thông tin kết nối (ISP, tổ chức) và mức độ nguy hiểm.",
@@ -40,25 +40,25 @@
             "alerts": {
                 "ip_copied": "Đã sao chép địa chỉ IP"
             },
-            "copy_ip_label": "",
-            "map_button_label": "",
+            "copy_ip_label": "Sao chép IP vào bộ nhớ tạm",
+            "map_button_label": "Thông tin IP",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "title": "Thông tin IP",
+                "ip_address": "Địa chỉ IP",
+                "country_code": "Mã quốc gia",
+                "zip_code": "Mã bưu chính",
+                "isp": "Nhà cung cấp dịch vụ mạng",
+                "as": "ASN",
+                "mobile": "Mạng di động",
+                "organization": "Tổ chức",
+                "threat_level": "Mức độ đe dọa",
+                "threat_types": "Loại đe dọa",
+                "error": "Lỗi",
+                "not_enough_data": "Không đủ dữ liệu để vẽ bản đồ"
             },
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "Hiển thị cờ quốc gia nơi tôi đăng bài, dựa trên địa chỉ IP của tôi"
                 }
             }
         }
@@ -66,8 +66,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
-                "showIPCountry-help": ""
+                "showIPCountry": "Hiển thị cờ quốc gia nơi người dùng đăng bài",
+                "showIPCountry-help": "Dựa trên địa chỉ IP của họ tại thời điểm đăng bài. Cờ quốc gia (nếu được bật) sẽ hiển thị với tất cả người dùng. Quản trị viên và người điều hành sẽ thấy địa chỉ IP khi di chuột qua."
             }
         }
     }
