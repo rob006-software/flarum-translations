@@ -7,7 +7,7 @@
                 "infura-project-id": "Infura projekti ID",
                 "infura-project-id-help": "",
                 "prioritize-web3-auth-modals": "",
-                "signup-with-email": "",
+                "signup-with-email": "Liituma e-postiga",
                 "no-email-signup-message": "",
                 "no-email-signup-message-help": ""
             }
@@ -25,13 +25,13 @@
                 "title": "",
                 "bind": "=> blomstra-web3.ref.bind",
                 "disconnect": "=> blomstra-web3.ref.disconnect",
-                "disconnect-and-unbind": "",
+                "disconnect-and-unbind": "Ühenda lahti ja eemalda seos",
                 "select": "=> blomstra-web3.ref.select"
             },
             "polkadot-connect-wallet-modal": {
                 "attach_address": "=> blomstra-web3.ref.bind",
                 "connection-request-rejected": "Ühendus lükati tagasi",
-                "disconnect": "",
+                "disconnect": "=> blomstra-web3.ref.disconnect",
                 "goback": "",
                 "title": "=> blomstra-web3.ref.polkadot-wallets",
                 "select": "=> blomstra-web3.ref.select",
@@ -45,7 +45,7 @@
             },
             "log-in": {
                 "basic-login-link": "",
-                "with-wallet": "",
+                "with-wallet": "Logi sisse web3-ga",
                 "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             },
             "sign-up": {
