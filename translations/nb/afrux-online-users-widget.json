@@ -2,18 +2,18 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": ""
+                "cache_ttl": "Tid for å bufre brukerlisten (i sekunder)",
+                "last_seen_interval": "Sist sett intervall for å vurdere en bruker online (i minutter)",
+                "max_users": "Max antall viste brukere"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Se widgeten for påloggede brukere"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "Påloggede brukere",
+                "empty": "Ingen brukere pålogget for øyeblikket."
             }
         }
     }
