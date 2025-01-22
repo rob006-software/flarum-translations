@@ -11,38 +11,38 @@
                     "export_description": "Xuất hành động",
                     "anonymize_description": "Hành động ẩn danh",
                     "delete_description": "Hành động xóa",
-                    "extension": ""
+                    "extension": "Tiện ích mở rộng"
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
-                    "extension_settings_button": ""
+                    "heading": "Cài đặt GDPR",
+                    "help_text": "Bạn đang tìm kiếm cài đặt GDPR? Bạn có thể tìm thấy chúng trên trang tiện ích mở rộng.",
+                    "extension_settings_button": "Cài đặt GDPR"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Dữ liệu bảng người dùng",
+                    "help_text": "Phần lớn, bất kỳ cột nào được thêm vào bảng <code>user</code> sẽ được xử lý tự động, cho cả việc xuất dữ liệu và xóa.\nTuy nhiên, có một số trường hợp đặc biệt được liệt kê bên dưới.\n"
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "Tích hợp GDPR"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "process_erasure": "Xử lý yêu cầu xóa",
+                "process_export_for_others": "Yêu cầu và nhận dữ liệu xuất khẩu cho người dùng khác",
+                "see_anonymized_user_badges": "Xem huy hiệu người dùng ẩn danh"
             },
             "settings": {
-                "allow_anonymization": "",
-                "allow_anonymization_help": "",
-                "allow_deletion": "",
-                "allow_deletion_help": "",
-                "default_anonymous_username": "",
-                "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "",
+                "allow_anonymization": "Cho phép ẩn danh cho các yêu cầu xóa",
+                "allow_anonymization_help": "Tùy chọn mặc định và được khuyến nghị cho hầu hết các cộng đồng. Theo chế độ này, bài đăng/bình luận sẽ được bảo toàn ở mức tối đa theo GDPR cho phép, nhưng mọi thông tin nhận dạng người dùng đều bị xóa.",
+                "allow_deletion": "Cho phép xóa đối với các yêu cầu xóa",
+                "allow_deletion_help": "Một tùy chọn nghiêm ngặt hơn nhiều. Ở chế độ này, tất cả bài đăng/bình luận sẽ bị xóa và người dùng sẽ bị xóa khỏi cơ sở dữ liệu. Hãy sử dụng thận trọng.",
+                "default_anonymous_username": "Tên người dùng mặc định cho người dùng ẩn danh",
+                "default_anonymous_username_help": "Khi người dùng được ẩn danh, tên người dùng của họ sẽ được thay thế bằng giá trị này, cùng với ID của yêu cầu ẩn danh, ví dụ <code>Anonymous123</code>.",
+                "default_erasure": "Hành động mặc định cho yêu cầu xóa",
+                "default_erasure_help": "Hành động mặc định cho yêu cầu xóa dữ liệu là gì?",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "Ẩn danh",
+                    "deletion": "Xóa bỏ"
                 },
                 "gdpr_page": {
                     "title": "",
@@ -76,62 +76,62 @@
                     "export_description": ""
                 },
                 "tokens": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Xóa tất cả mã token mà người dùng đã tạo.",
+                    "export_description": "Xuất tất cả các mã token mà người dùng đã tạo. Dữ liệu bị giới hạn ở ngày tạo và loại mã token."
                 },
                 "user": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Đặt tất cả các cột trên bảng người dùng thành null. Các cột không thể null được đặt thành giá trị mặc định hoặc giá trị đặc biệt. Mật khẩu được thay đổi, tùy chọn được đặt thành mặc định và tất cả các nhóm được xóa.",
+                    "delete_description": "Xóa người dùng khỏi cơ sở dữ liệu.",
+                    "export_description": "Xuất dữ liệu từ bảng người dùng. Tất cả các cột ngoại trừ id, mật khẩu."
                 }
             },
             "request_data": {
-                "title": "",
-                "text": "",
-                "request_button": ""
+                "title": "Yêu cầu dữ liệu cho {username}",
+                "text": "Một kho lưu trữ zip sẽ được chuẩn bị cho bạn. Khi đã sẵn sàng, bạn sẽ nhận được thông báo có liên kết tải xuống. Liên kết sẽ vẫn hoạt động trong một ngày.\n",
+                "request_button": "Yêu cầu lưu trữ"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
-                "body": ""
+                "subject": "Xác nhận yêu cầu xóa tài khoản của bạn",
+                "body": "Xin chào {display_name}!\n\nCó người (hy vọng là bạn) vừa yêu cầu xóa tài khoản `{display_name}`.\n\nĐể xác nhận hành động này, vui lòng theo liên kết sau, sau đó yêu cầu của bạn sẽ được nhóm của chúng tôi xử lý.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Đã xóa tài khoản hoàn tất",
+                    "body": "Xin chào {display_name}!\n\nĐây là thông báo tự động, cuối cùng rằng tài khoản của bạn đã bị xóa.\n"
                 },
                 "anonymization": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Đã hoàn tất việc ẩn danh tài khoản",
+                    "body": "Xin chào {display_name}!\n\nĐây là thông báo tự động, cuối cùng rằng tài khoản của bạn đã được ẩn danh.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
+                "subject": "Yêu cầu xóa tài khoản đã bị hủy",
                 "body": ""
             },
             "export_available": {
-                "subject": "",
+                "subject": "Có thể xuất dữ liệu",
                 "body": ""
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Người dùng ẩn danh"
             },
             "delete_user": {
-                "title": "",
+                "title": "Xóa tài khoản của {username}",
                 "text": "",
-                "modal_delete_button": "",
-                "delete_button": ""
+                "modal_delete_button": "Xóa bằng hành động mặc định",
+                "delete_button": "Xóa bỏ"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Không có yêu cầu xóa tài khoản đang chờ xử lý",
+                "item_text": "{name} đã yêu cầu xóa tài khoản",
+                "tooltip": "Yêu cầu xóa tài khoản",
+                "title": "Yêu cầu xóa tài khoản"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Bạn đã xác nhận yêu cầu xóa tài khoản của mình. Hành động sẽ được thực hiện trong vòng 30 ngày, theo yêu cầu của GDPR.",
             "settings": {
                 "data": {
                     "heading": ""
