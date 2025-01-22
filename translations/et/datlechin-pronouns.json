@@ -2,20 +2,20 @@
     "datlechin-pronouns": {
         "admin": {
             "settings": {
-                "prefix_label": "",
-                "prefix_help": "",
-                "icon_label": "",
-                "icon_help": ""
+                "prefix_label": "Asesõnad",
+                "prefix_help": "Seda teksti näidatakse kasutaja asesõna ees. Jäta tühjaks, kui sa ei soovi midagi näidata.",
+                "icon_label": "Asesõnade ikoon",
+                "icon_help": "Lülita see valik sisse, kui soovid asesõna teksti asemel kasutada ikooni."
             }
         },
         "forum": {
             "change_pronouns": {
                 "title": "Muuda eesliiteid",
-                "help": "",
+                "help": "Sinu asesõnad on nähtavad sinu profiilil ja kasutajakaardil. <a>Mis on isiklikud asesõnad ja miks need peaksid olema olulised?</a>",
                 "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_pronouns_button": ""
+                "change_pronouns_button": "Asesõnade muutmine"
             }
         }
     }
