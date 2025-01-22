@@ -7,30 +7,30 @@
                     "helptext": ""
                 },
                 "replace-flarum-custom": {
-                    "title": "",
+                    "title": "Asenda foorumis olevad kohandatud avatarid",
                     "helptext": ""
                 },
                 "defaults": {
                     "title": "Vaikeväärtused",
                     "helptext": "",
-                    "mp_label": "",
-                    "identicon_label": "",
-                    "monsterid_label": "",
-                    "wavatar_label": "",
-                    "retro_label": "",
-                    "robohash_label": ""
+                    "mp_label": "mp: (mystery-person) lihtne multika-stiilis inimese siluett a simple (ei muutu e-posti räsiga)",
+                    "identicon_label": "identicon: geomeetrilised mustrid, mis põhinevad e-posti räsil",
+                    "monsterid_label": "monsterid: genereeritud 'kollid' erinevate värvide, nägude jms.",
+                    "wavatar_label": "wavatar: genereeritud näod erinevate taustadega",
+                    "retro_label": "retro: ägedad genereeritud mängu-stiilis 8-bitised pikslilised näod",
+                    "robohash_label": "robohash: genereeritud robotid erinevate värvide, nägude jms"
                 },
                 "rating": {
                     "title": "Hinnang",
                     "helptext": "",
-                    "g_label": "",
-                    "pg_label": "",
-                    "r_label": "",
-                    "x_label": ""
+                    "g_label": "g: sobivad näitamiseks kõigil veebisaitidel ja igasuguse sihtgrupi jaoks",
+                    "pg_label": "pg: võib sisaldada ebaviisakaid žeste, provotseerivaid isikuid, kergemaid vandesõnu või vähest vägivalda",
+                    "r_label": "r: võib sisaldada tõsiseid roppusi, tõsist vägivalda, alastust või narkootikumide kasutamist",
+                    "x_label": "x: võib sisaldada seksuaalse sisuga pilte või eriti häirivat vägivalda"
                 },
                 "force-default": {
                     "title": "Sunni vaikeväärtus",
-                    "helptext": ""
+                    "helptext": "Sunnib vaikimisi komplekti kasutamist isegi kui e-posti räsi lingib kohandatud üleslaaditud avatare"
                 }
             }
         },
