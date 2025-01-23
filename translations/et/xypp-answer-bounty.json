@@ -9,28 +9,28 @@
             },
             "composer": {
                 "set": "Määra autasu",
-                "edit": ""
+                "edit": "Autasu ({bounty})"
             },
             "discussion": {
-                "edit": "",
-                "set": ""
+                "edit": "Muuta autasu ({bounty})",
+                "set": "Määra autasu"
             },
-            "tip": "",
-            "tip-ans": "",
-            "badge": ""
+            "tip": "See vestlus otsib parimat vastus ja pakub autasu <span>{money}</span>.",
+            "tip-ans": "Määra autasu <span>{money}</span>",
+            "badge": "Autasu"
         },
         "admin": {
             "permissions": {
-                "moderate": "",
-                "use": ""
+                "moderate": "Teiste autasude muutmine",
+                "use": "Määra autasu"
             }
         },
         "api": {
-            "bounty": "",
-            "bounty_clear": "",
-            "bounty_set": "",
-            "not_enough_money": "",
-            "bounty_sent": ""
+            "bounty": "Autasu sinu parima vastuse eest",
+            "bounty_clear": "Tühjenda autasu",
+            "bounty_set": "Määra autasu",
+            "not_enough_money": "Sul pole piisavalt raha autasu määramiseks.",
+            "bounty_sent": "Autasu on saadetud. Palun uue parima vastuse määramist eemalda parima vastuse märgistus eelmiselt."
         }
     }
 }
