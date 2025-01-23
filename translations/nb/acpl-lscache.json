@@ -1,21 +1,21 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "drop_qs_label": "",
-            "drop_qs_help": "",
-            "status_codes_cache_label": "",
-            "status_codes_cache_help": "",
+            "cache_enabled_label": "Aktiver LSCache",
+            "cache_enabled_help": "Ta en titt på <a>Informasjonssiden</a> om hvordan du tester hurtigbufferen. MERK: Når du deaktiverer hurtigbufferen, vil alle bufrede oppføringer for dette nettstedet bli slettet.",
+            "public_cache_ttl_label": "Standard offentlig hurtigbuffer TTL",
+            "public_cache_ttl_help": "Definer hvor lenge, i sekunder, offentlige sider skal bufres. Standardverdien er 604800 sekunder (én uke).",
+            "clearing_cache_listener_label": "Tøm LSCache når Flarum-bufferen er tømt",
+            "serve_stale_label": "Server gammelt innhold",
+            "serve_stale_help": "Hvis aktivert, vil en utdatert versjon av en bufret side bli servert til besøkende inntil en ny hurtigbufferkopi er generert. Dette reduserer serverbelastningen. Hvis den er deaktivert, vil siden genereres dynamisk under hurtigbufferoppdateringen, noe som kan øke ventetidene. Dette er gjort slik at dette alternativet kan vise utdatert innhold. Ikke aktiver dette hvis du finner det uakseptabelt.",
+            "purge_on_discussion_update_label": "Tøm nettadresser eller hurtigbuffer tagger ved diskusjonsoppdatering",
+            "purge_on_discussion_update_help": "Skriv inn nettadressene eller cache-taggene du vil slette når en diskusjon oppdateres, én per linje. URL bør begynne med <code>/</code>, f.eks. <code>/rangeringer</code>, og cache Tag bør starte med <code>tag=</code>, f.eks. <code>tag=rangeringer</code>. For flere ruter er det raskere å legge til en regel i .htaccess med et regulært uttrykk som merker ruter og angi bare denne taggen her. <a>Finn ut mer</a>. Som standard slettes hurtigbufferen for hjemmesiden og oppdaterte diskusjoner.",
+            "cache_exclude_label": "Ekskluder stier fra bufring",
+            "cache_exclude_help": "Baner som inneholder disse strengene blir ikke bufret. For <code>/mypath/mypage?aa=bb</code> kan du bruke <code>mypage?aa=</code>. For å matche begynnelsen, legg til <code>^</code> i starten. For eksakt samsvar, legg til <code>$</code> på slutten av nettadressen. En per linje.",
+            "drop_qs_label": "Slipp spørrestrenger",
+            "drop_qs_help": "Bruk denne funksjonen til å slippe spesifikke søkestrenger, som <code>fbclid</code> eller <code>utm*</code>, når du hurtigbuffrer. Dette forhindrer overflødig bufring av sider med «søppel»-søkestrenger som UTM-koder, som brukes til sporing, men som ikke påvirker sideinnhold. Dette krever LSWS v5.2.3 eller nyere. List opp søkestrengene som skal slippes, én per linje. <a>Finn ut mer om å slette søkestrenger</a>.<br></br>\n⚠️ Denne innstillingen vil endre .htaccess-filen.\n",
+            "status_codes_cache_label": "Standard HTTP-statuskodeside TTL",
+            "status_codes_cache_help": "Angi en HTTP-statuskode og antall sekunder for å bufre den siden, atskilt med et mellomrom. En per linje.",
             "purge_all": "",
             "permissions": {
                 "purge": ""
@@ -27,11 +27,11 @@
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "Varslet LiteSpeed Server for å slette LSCache-oppføringer",
+            "purge_all_success": "Varslet LiteSpeed Server for å slette alle LSCache-oppføringer"
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "Tøm LSCache"
         }
     }
 }
