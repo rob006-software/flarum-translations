@@ -44,10 +44,10 @@
                 "host": "",
                 "reverse_proxy": "",
                 "port": "",
-                "cert_path": "",
-                "pk_path": "",
-                "passphrase": "",
-                "self_signed": "",
+                "cert_path": "Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Asukoht sinu SSL (https) sertifikaadile SERVERIS, milles su websocket on - tavaliselt .crt või .pem fail.",
+                "pk_path": "Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Asukoht sinu SSL (https) privaatvõtmele SERVERIS, milles su websocket on - tavaliselt .key või .pem fail.",
+                "passphrase": "Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Parooli kasutatakse sinu sertifikaati - pole tavaliselt vajalik.",
+                "self_signed": "Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Lülita see sisse, kui sinu SSL (https) sertifikaat on allkirjastatud sinu enda poolt.",
                 "auth_only": ""
             }
         }
