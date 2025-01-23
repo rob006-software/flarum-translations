@@ -4,16 +4,16 @@
             "fields": {
                 "heading": "Probleemide jälgimine: YouTrack",
                 "url_label": "YouTrack URL",
-                "token_label": "",
+                "token_label": "YouTrack kontrollkood",
                 "project_label": "YouTrack projekti ID",
                 "state_field_label": "Staatuse väli",
                 "resolved_state_label": "Lahendamise staatus",
                 "fields_mapping_label": "Välja sidumine",
-                "url_help": "",
-                "token_help": "",
-                "project_help": "",
+                "url_help": "Sinu YouTracki URL. Näidis: https://example.youtrack.cloud/",
+                "token_help": "Sinu YouTrack API püsiv kontrollkood. Võid selle omale luua YouTrack profiili seadetest.",
+                "project_help": "Projekti ID, mida sa soovid jälgida. Leiad selle projekti lehe URL-ist.",
                 "state_field_help": "",
-                "resolved_state_help": "",
+                "resolved_state_help": "Staatuse välja väärtus, mis näitab probleemi lahendamise staatust.\nNäidis: Done|Fixed|Resolved\n",
                 "fields_mapping_help": ""
             }
         }
