@@ -2,7 +2,7 @@
     "clarkwinkelmann-vote-with-money": {
         "admin": {
             "settings": {
-                "preselection": "",
+                "preselection": "Eelnevalt valitud summad (komadega eraldatud, valikuline)",
                 "min": "Minimaalne väärtus",
                 "max": "Maksimaalne väärtus"
             }
@@ -10,27 +10,27 @@
         "forum": {
             "vote": {
                 "title": "Kinnita hääl",
-                "target": "",
+                "target": "Kinnita raha lisamist vastusele \"{answer}\". Sa ei saa hiljem oma vastust muutnud.\n",
                 "optionCustom": "Kohandatud",
                 "balance": "Sinu saldo: {amount}",
                 "label": {
                     "custom": "Kohandatud summa"
                 },
                 "submit": "Saada",
-                "success": ""
+                "success": "Vastus on saadetud!"
             },
             "poll": {
-                "voteWithMoney": "",
-                "min": "",
-                "max": ""
+                "voteWithMoney": "Hääleta rahaga",
+                "min": "Minimaalne summa (valikuline)",
+                "max": "Maksimaalne summa (valikuline)"
             }
         },
         "api": {
             "error": {
-                "cannotCancel": "",
-                "cannotChange": "",
-                "notEnoughFunds": "",
-                "cannotChangePollType": ""
+                "cannotCancel": "Seda vastust ei saa tühistada.",
+                "cannotChange": "Vastust ei saa muuta.",
+                "notEnoughFunds": "Pole piisavalt raha.",
+                "cannotChangePollType": "Küsitluse liiki ei saa muuta pärast seda, kui sellele on juba vastatud."
             }
         }
     }
