@@ -51,7 +51,7 @@
                 "submit_button": "Vote",
                 "start_poll_button": "Mulai Polling Global",
                 "cannot_start_poll_button": "Tidak Dapat Memulai Polling",
-                "total_votes": ""
+                "total_votes": "{count, plural, one {# voting telah diberikan} other {# voting telah diberikan}}"
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
