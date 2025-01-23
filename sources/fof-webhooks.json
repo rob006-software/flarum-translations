@@ -72,7 +72,8 @@
                     "group_help": "Send resources that can be seen by this group",
                     "name_label": "Name",
                     "name_help": "The name of the webhook. This will be used for things like the Discord username, Slack bot name, etc.",
-                    "events_label": "Events"
+                    "events_label": "Events",
+                    "include_matching_tags_label": "Include matching tags -- for webhooks restricted to specific tags, show which ones the event matched"
                 },
                 "services": {
                     "discord": "Discord",
