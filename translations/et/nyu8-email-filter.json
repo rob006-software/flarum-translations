@@ -6,16 +6,16 @@
             "custom_failure_message_hint": "",
             "rule_settings": "Reegli seaded",
             "name_placeholder": "Reegli nimi",
-            "invalid_regular_expression": "",
+            "invalid_regular_expression": "Vigane regulaaravaldis",
             "whitelist_literal": {
                 "label": "Valge nimekiri",
                 "description": "E-posti aadressid valges nimekirjas",
                 "placeholder": "E-post valgesse nimekirja..."
             },
             "whitelist_regex": {
-                "label": "",
+                "label": "Regulaaravaldiste valge nimekiri",
                 "description": "",
-                "placeholder": ""
+                "placeholder": "Regulaaravaldis valgesse nimekirja..."
             },
             "blacklist_literal": {
                 "label": "Must nimekiri",
@@ -25,7 +25,7 @@
             "blacklist_regex": {
                 "label": "",
                 "description": "",
-                "placeholder": ""
+                "placeholder": "Regulaaravaldis musta nimekirja..."
             }
         },
         "forum": {
