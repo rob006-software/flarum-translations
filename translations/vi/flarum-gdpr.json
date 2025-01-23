@@ -45,14 +45,14 @@
                     "deletion": "Xóa bỏ"
                 },
                 "gdpr_page": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Tích hợp và hành động dữ liệu",
+                    "help_text": "Trước khi quyết định sử dụng hành động nào trên diễn đàn của bạn, điều quan trọng là phải hiểu dữ liệu nào được tích hợp và cách nó được xử lý cho cả ẩn danh hóa và xóa. Truy cập tổng quan GDPR để hiểu cách dữ liệu được xử lý và những tiện ích mở rộng tùy chọn nào đã đăng ký dữ liệu của họ để được xử lý bởi tiện ích mở rộng này."
                 }
             },
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "export": ""
+                        "export": "Yêu cầu dữ liệu cho {username}"
                     }
                 }
             }
@@ -60,20 +60,20 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Xóa ảnh đại diện của người dùng khỏi hệ thống tệp.",
+                    "export_description": "Lấy ảnh đại diện của người dùng từ hệ thống tệp và đưa vào bản xuất."
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "Xuất tất cả cuộc thảo luận mà người dùng đã bắt đầu. Dữ liệu giới hạn ở tiêu đề và ngày tạo."
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "Xuất tiêu đề diễn đàn, url, tên người dùng, email và ngày hiện tại."
                 },
-                "no_action": "",
+                "no_action": "Không có hành động nào được thực hiện.",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Xóa địa chỉ IP khỏi tất cả bài viết mà người dùng đã tạo.",
+                    "delete_description": "Xóa tất cả bài viết mà người dùng đã tạo.",
+                    "export_description": "Xuất tất cả bài viết mà người dùng đã tạo. Dữ liệu giới hạn ở nội dung, ngày tạo, địa chỉ IP và ID cuộc thảo luận."
                 },
                 "tokens": {
                     "delete_description": "Xóa tất cả mã token mà người dùng đã tạo.",
@@ -108,11 +108,11 @@
             },
             "erasure_cancelled": {
                 "subject": "Yêu cầu xóa tài khoản đã bị hủy",
-                "body": ""
+                "body": "Xin chào {display_name}!\n\nĐây là thông báo tự động rằng yêu cầu hủy xóa tài khoản của bạn đã được xử lý.\n\nTài khoản của bạn sẽ không còn bị xóa nữa.\n"
             },
             "export_available": {
                 "subject": "Có thể xuất dữ liệu",
-                "body": ""
+                "body": "Xin chào {display_name}!\n\nBạn đã yêu cầu xuất dữ liệu tài khoản cho {username}. Bản xuất này đã được tạo thành công và hiện đã sẵn sàng:\n\n{url}\n\nBản xuất này sẽ còn khả dụng cho đến {destroys_at}.\n"
             }
         },
         "forum": {
@@ -121,7 +121,7 @@
             },
             "delete_user": {
                 "title": "Xóa tài khoản của {username}",
-                "text": "",
+                "text": "Bạn có chắc chắn muốn xóa tài khoản của {username}?\n\nHành động này không thể hoàn tác.\n",
                 "modal_delete_button": "Xóa bằng hành động mặc định",
                 "delete_button": "Xóa bỏ"
             },
@@ -134,38 +134,38 @@
             "erasure_request_confirmed": "Bạn đã xác nhận yêu cầu xóa tài khoản của mình. Hành động sẽ được thực hiện trong vòng 30 ngày, theo yêu cầu của GDPR.",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Dữ liệu cá nhân"
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "Xuất Dữ liệu",
+                "export_data_help": "Yêu cầu xuất dữ liệu sẽ cung cấp cho bạn một bản sao có thể tải xuống của tất cả thông tin liên quan đến tài khoản của bạn. Điều này bao gồm bài viết, bình luận và chi tiết hồ sơ.",
+                "request_erasure_button": "Xóa Tài khoản",
+                "request_erasure_help": "Yêu cầu xóa sẽ xóa vĩnh viễn tài khoản của bạn và tất cả dữ liệu liên quan. Hành động này không thể hoàn tác. Trước khi tiếp tục, hãy đảm bảo bạn đã lưu bất kỳ nội dung nào bạn muốn giữ lại."
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "confirm": "Bạn có chắc chắn muốn xóa tài khoản của {name} trong chế độ {mode}?",
+                "title": "Xử lý yêu cầu xóa",
+                "text": "{name} đã yêu cầu xóa tài khoản.",
+                "comments_label": "Bình luận (tùy chọn)",
+                "anonymization_button": "Ẩn danh người dùng",
+                "deletion_button": "Xóa người dùng"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Yêu cầu xóa tài khoản",
+                "reason": "Bạn đã cung cấp lý do sau: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Bạn nên đã nhận được email để xác nhận yêu cầu xóa tài khoản của mình.\n",
+                    "user_confirmed": "Bạn đã xác nhận yêu cầu xóa tài khoản của mình. Hành động sẽ được thực hiện trong vòng 30 ngày, theo yêu cầu của GDPR.\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "Sau khi nhận được và xác nhận, một quản trị viên sẽ xem xét yêu cầu của bạn trong vòng 30 ngày, theo yêu cầu của GDPR.",
+                "password_label": "Xác nhận Mật khẩu",
+                "reason_label": "Lý do (tùy chọn)",
+                "cancel_button": "Hủy yêu cầu",
+                "request_button": "Yêu cầu xóa"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "Dữ liệu xuất của {username} hiện đã sẵn sàng để tải xuống."
             },
-            "export_file": ""
+            "export_file": "Xuất dữ liệu người dùng cho {username} ({email}) được chuẩn bị vào ngày {date} từ {forumTitle} ({url})"
         }
     }
 }
