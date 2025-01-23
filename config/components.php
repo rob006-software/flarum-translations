@@ -726,7 +726,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/1.2.4/resources/locale/en.yml',
 	],
 	'fof-webhooks' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.3.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.3.3/resources/locale/en.yml',
 	],
 	'foskym-activity-graph' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-activity-graph/v1.2.1/locale/en.yml',
