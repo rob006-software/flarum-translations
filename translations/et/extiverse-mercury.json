@@ -8,18 +8,18 @@
                 "installed-version": "Paigaldatud versioon"
             },
             "settings": {
-                "token": "",
+                "token": "Extiverse kontrollkood (<a>nõutud</a>)",
                 "token-description": ""
             },
             "header-secondary": {
-                "no-token": "",
-                "updates": ""
+                "no-token": "Kontrollkood on nõutud",
+                "updates": "{count, plural, =0 {Uuendusi pole} one {Üks uuendus} other {# uuendust}}"
             }
         },
         "email": {
             "new-extension-update": {
-                "subject": "",
-                "body": ""
+                "subject": "{count, plural, one {Sinu kogukonnale on saadaval üks uuendus} other {Sinu kogukonnale on saadaval # uuendust}}",
+                "body": "Hei {recipient_display_name}!\n\nSinu Flarumi kogukonnast leiti {count} uuendust.\nOn soovitatav, et uuendaksid niipea kui võimalik.\n\nUuendused hõlmavad järgmisi lisaprogramme {extensions}.\n\nLisainfot saad oma kogukonna lehelt: {url}.\n"
             }
         }
     }
