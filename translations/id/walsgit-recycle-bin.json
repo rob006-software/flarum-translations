@@ -6,22 +6,22 @@
             "search_placeholder": "Cari diskusi",
             "search_post_placeholder": "",
             "search_help_text": "Mencari kata-kata dalam judul serta dalam pesan diskusi",
-            "search_post_help_text": "",
+            "search_post_help_text": "Mencari kata di post yang tersembunyi",
             "total_hidden_discussions": "Total diskusi yang tersembunyi",
-            "total_hidden_posts": "",
+            "total_hidden_posts": "Total post tersembunyi",
             "empty_list": "Tidak ada diskusi di recycle bin.",
             "hidden_discussions": "Diskusi tersembunyi",
             "discussion_id": "ID",
             "discussion_title": "Judul Diskusi",
             "discussion_link_tooltip": "Lihat diskusi",
-            "author": "",
+            "author": "Penulis",
             "unknownn_user": "Pengguna tidak dikenal",
             "created_at": "Dibuat pada",
             "hidden_at": "Disembunyikan pada",
             "unknown_date": "Tanggal tidak diketahui",
             "actions": "Tindakan",
             "restore_tooltip": "Memulihkan diskusi",
-            "restore_post_tooltip": "",
+            "restore_post_tooltip": "Memulihkan post",
             "restore_discussion": {
                 "title": "Pulihkan diskusi",
                 "confirmation": "Apakah Anda yakin ingin memulihkan diskusi ini:",
@@ -30,9 +30,9 @@
             },
             "restore_post": {
                 "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "confirmation": "Apakah Anda yakin ingin memulihkan postingan ini dari diskusi ",
+                "restore_button": "Pulihkan post ini",
+                "success": "Mencari post"
             },
             "delete_discussion": {
                 "title": "Hapus selamanya",
@@ -41,13 +41,13 @@
                 "success": "Berhasil menghapus diskusi"
             },
             "delete_post": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Hapus permanen",
+                "confirmation": "Apakah Anda yakin ingin <u>menghapus</u> postingan ini secara permanen (tidak dapat dipulihkan):",
+                "delete_button": "Hapus post ini",
+                "success": "Berhasil menghapus post"
             },
             "delete_tooltip": "Menghapus diskusi",
-            "delete_post_tooltip": "",
+            "delete_post_tooltip": "Menghapus post",
             "bulk_actions": "Tindakan untuk diskusi yang dipilih: ",
             "bulk_post_actions": "",
             "bulk_restore_label": "Pulihkan diskusi yang dipilih",
@@ -60,11 +60,11 @@
                 "success": "Berhasil memulihkan diskusi yang dipilih"
             },
             "mass_restore_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Pulihkan post yang dipilih",
+                "text_start": "Apakah kamu yakin ingin memulihkan ini ",
+                "text_end": " post yang dipilih?",
+                "submit_button": "Pulihkan post ini",
+                "success": "Berhasil memulihkan post yang dipilih"
             },
             "mass_delete_modal": {
                 "title": "Menghapus diskusi ini selamanya",
