@@ -5,7 +5,7 @@
                 "section_general_intro": "Põhiseaded on lisaprogrammi töötamiseks vajalikud.",
                 "api_key": "Jagatud API võti",
                 "api_key_reset": "Loo uus API võti",
-                "api_key_reset_confirm": "",
+                "api_key_reset_confirm": "Kas ta tõesti soovid luua uue jagatud API võtme? Vana lõpetab töötamise ja seda peab WordPress plugina seadetes käsitsi uuendama.\n",
                 "wordpress_url": "WordPressi URL",
                 "default_actor": "",
                 "default_actor_placeholder_invalid": "Võimalik vigane väärtus: {value} - Trüki kasutaja otsimiseks...",
@@ -26,9 +26,9 @@
                 "cookie_domain_help": "",
                 "iframe_redirect_delay": "",
                 "iframe_redirect_delay_help": "",
-                "wordpress_login_path": "",
-                "wordpress_login_path_help": "",
-                "wordpress_login_full_page": "",
+                "wordpress_login_path": "WordPressi sisselogimise asukoht",
+                "wordpress_login_path_help": "Vajalik ainult siis, kui sa nimetasid oma sisselogimise lõpp-punkti käsitsi või plugina kaudu",
+                "wordpress_login_full_page": "Ava hüpikakna asemel WordPressi sisselogimise lehekülg",
                 "wordpress_login_full_page_help": "",
                 "username_strategy": "Uute kasutajate kasutajanimi",
                 "username_strategy_options": {
@@ -57,9 +57,9 @@
                 "excerpt_html_whitelist": "",
                 "excerpt_html_nodes": "",
                 "excerpt_length": "",
-                "post_thumbnail_summary": "",
-                "post_thumbnail_list": "",
-                "comment_author_sync": "",
+                "post_thumbnail_summary": "Näita WordPressi postituse pisipilti väljavõtte kohal",
+                "post_thumbnail_list": "Näita WordPressi postituse pisipilti Flarumi vestluste nimekirjas",
+                "comment_author_sync": "Määra vestluse autor SSO-st",
                 "comment_author_sync_help": "",
                 "comment_tag": "",
                 "comment_tag_none": "Ära määra sildile",
@@ -110,20 +110,20 @@
                 "save": "Salvesta"
             },
             "health": {
-                "title": "",
+                "title": "Tervisekontroll",
                 "check": "Kontrolli kohe",
                 "errors": "Leidsime mõningaid probleeme.",
                 "healthy": "Kõik näib korras olevat!",
-                "not-run": "",
-                "request-error": ""
+                "not-run": "Tervisekontroll on saadaval, kui oled WordPressi ja Flarumi ühendanud.",
+                "request-error": "Tervisekontrolli tegemine ebaõnnestus."
             },
             "wizard": {
                 "intro": "",
                 "wordpress_url": "WordPressi URL",
-                "wordpress_url_help": "",
+                "wordpress_url_help": "Link sinu WordPressi kodulehele",
                 "wordpress_username": "WordPressi admini kasutajanimi",
                 "wordpress_password": "WordPressi admini parool",
-                "wordpress_password_help": "",
+                "wordpress_password_help": "Parooli kasutatakse ainult algse seadistamise jaoks ja seda ei salvestada.",
                 "install": "Paigalda"
             },
             "role-group-sync": {
@@ -159,7 +159,7 @@
                 "welcome_known_user": "Teretulemast tagasi, {avatar} <strong>{name}</strong>!",
                 "welcome_unknown_user": "Teretulemast tagasi!",
                 "avatar_alt_text": "WordPressi avatar",
-                "message": "",
+                "message": "Võid kasutada foorumit oma peamise veebisaidi kontoga",
                 "button": "Logi kohe sisse ja värskenda"
             },
             "edit-user-modal": {
@@ -170,7 +170,7 @@
                 "unlink_help": ""
             },
             "settings": {
-                "edit_on_wordpress": ""
+                "edit_on_wordpress": "Muuda peamise veebisaidi parooli peamisel veebisaidil"
             },
             "log_in": {
                 "with_wordpress_button": "Logi sisse WordPressiga"
@@ -185,15 +185,15 @@
             },
             "embed-link-modal": {
                 "title": "Välja kommentaaridest",
-                "message": "",
+                "message": "Lehekülg proovib sind suunata siia {href}",
                 "open": "Ava link"
             },
             "thumbnail_alt_fallback": "WordPressi postituse pisipilt"
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "password_reset": "",
+                "login": "Sinu konto on seotud WordPressiga. Kasuta ühendamiseks peamise veebisaidi sisselogimisvormi.",
+                "password_reset": "Sinu konto on seotud WordPressiga. Kasuta parooli taastamiseks peamise veebisaidi sisselogimisvormi.",
                 "email_change": ""
             },
             "health": {
@@ -213,11 +213,11 @@
                 "default-actor-not-set": "",
                 "default-actor-not-found": "",
                 "api-key-missing": "",
-                "wordpress-url-missing": "",
-                "wordpress-url-invalid": "",
-                "wordpress-url-index-php": "",
-                "wordpress-url-trailing-slash": "",
-                "wordpress-url-https": "",
+                "wordpress-url-missing": "Väli \"WordPressi URL\" peab olema täidetud",
+                "wordpress-url-invalid": "Väli \"WordPressi URL\" ei näi olevat korrektne URL (praegune väärtus on \"{url}\")",
+                "wordpress-url-index-php": "Väljas \"WordPressi URL\" ei peaks olema \"/index.php\" (praegune väärtus on \"{url}\")",
+                "wordpress-url-trailing-slash": "Välja \"WordPressi URL\" lõpus ei peaks olema kaldkriipsu (praegune väärtus on \"{url}\")",
+                "wordpress-url-https": "Väljas \"WordPressi URL\" peaksolema HTTPS (praegune väärtus on \"{url}\")",
                 "wordpress-url-mismatch": "",
                 "flarum-url-mismatch": "",
                 "api-key-mismatch": "",
@@ -232,7 +232,7 @@
                 "api-error-other": "WordPressi API-ga ühendumine andis veateate: {message}"
             },
             "wizard": {
-                "already_installed": "",
+                "already_installed": "Flarum on juba WordPressiga seotud. Juhendaja käivitamiseks kustuta Flarumis \"WordPress URL\" ja WordPressis \"Flarum Shared API Key\".\n",
                 "api_unauthorized": "",
                 "api_error_generic": "",
                 "invalid_wordpress_url": ""
