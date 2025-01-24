@@ -2,12 +2,12 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": "Максимум користувачів для показу"
+                "cache_ttl": "Час кешування списку користувачів (у секундах)",
+                "last_seen_interval": "Інтервал останнього перебування користувача в мережі (у хвилинах)",
+                "max_users": "Максимально показано користувачів"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Перегляд віджету онлайн користувачів"
             }
         },
         "forum": {
