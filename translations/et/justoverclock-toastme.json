@@ -1,27 +1,27 @@
 {
     "flarum-ext-toastme": {
         "admin": {
-            "enabletoast": "",
-            "helpenable": "",
-            "offsetyy": "",
-            "offsetydesc": "",
-            "offsetxx": "",
-            "offsetxdesc": "",
+            "enabletoast": "Hüpikhoiatuse sisse/välja lülitamine",
+            "helpenable": "Kasuta seda valikut, et hüpikhoiatust sisse või välja lülitada",
+            "offsetyy": "Y nihe - vertikaalsel teljel pikslites (vaikeväärtuse kasutamiseks jäta tühjaks)",
+            "offsetydesc": "vertikaalse telje nihe - number, mis näitab väärtust pikslites. Näiteks 20 (pikslit)",
+            "offsetxx": "X nihe - vertikaalsel teljel pikslites (vaikeväärtuse kasutamiseks jäta tühjaks)",
+            "offsetxdesc": "horisontaalne telje nihe - number, mis näitab väärtust pikslites. Näiteks 20 (pikslit)",
             "dest": "URL sihtkoht",
-            "destdesc": "",
-            "duration": "",
+            "destdesc": "URL, mille veebisirvija hüpikhoiatusel klikkides läheb",
+            "duration": "Kui kaua hüpikhoiatust näidatakse -1 tähendab, et see jääbki püsivalt ette",
             "durdesc": "Kasuta millisekundeid - näiteks \"3000\" tähendab 3 sekundit",
             "gravity": "Gravitatsioon - võib olla \"üles\" või \"alla\"",
-            "gravdesc": "",
+            "gravdesc": "Määra hüpikhoiatuse asukoht. Sobivad väärtused on üleval või all",
             "position": "Asukoht - võib olla \"vasakul\", \"paremal\" või \"keskel\"",
-            "posdesc": "",
+            "posdesc": "Kuhu peaks hüpikhoiatus ilmuma? Vasakule, aremale või keskele?",
             "background": "Taustavärv (HEX-vormingus)",
             "backgrounddesc": "Sisesta taustavärv HEX-vormingus - nt. \"#ffcc00\"",
-            "message": "",
-            "messagedesc": ""
+            "message": "Hüpikhoiatuse tekst",
+            "messagedesc": "Siia võid sisestada oma teate sisu"
         },
         "forum": {
-            "message1": ""
+            "message1": "On ammu teada fakt, et veebisaidi külastaja tähelepanu haarab loetav tekst."
         }
     }
 }
