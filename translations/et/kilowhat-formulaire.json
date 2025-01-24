@@ -17,8 +17,8 @@
                 "moderate": "Kõikide vormide modereerimine",
                 "export": "Lisatud info eksportimine",
                 "exportUserDetails": "Ligipääs kasutaja privaatsetele andmetele esportimisel",
-                "listForms": "",
-                "listSubmissions": ""
+                "listForms": "Kustutamiata vorminde nimekirja vaatamine",
+                "listSubmissions": "Vastuste nimekirja vaatamine"
             },
             "settings": {
                 "title": "Vormi üldised seaded",
@@ -38,12 +38,12 @@
                 "horizontal-layout": "Kasuta horisontaalset vormi paigutust",
                 "horizontal-layout-locations": {
                     "standaloneEdit": "",
-                    "standaloneView": "",
+                    "standaloneView": "Eraldiseisev vaatamise lehekülg",
                     "profileEdit": "Profiili muutmise lehekülg",
                     "profileView": "Profiili vaatamise lehekülg",
                     "signUp": "",
-                    "discussionEdit": "",
-                    "discussionView": "",
+                    "discussionEdit": "Vestluse muutmine hüpikaknas",
+                    "discussionView": "Vestluse vaatamise konteiner",
                     "discussionComposer": "Vestluse loomine"
                 },
                 "uniformComposerLayout": "",
@@ -146,7 +146,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "",
                     "show-on-composer-invalid-permissions": "",
-                    "linked-form-is-draft": "",
+                    "linked-form-is-draft": "See vorm on praegu veel mustand. Anna kasutajatele \"Ligipääs\" väljadele, et need oleksid foorumis nähtavad.\n",
                     "auto-link-permission-warning": ""
                 },
                 "expert-mode-warning": "",
@@ -162,12 +162,12 @@
                         "discussionHelp": "",
                         "user": "Näita liitumisel"
                     },
-                    "automatic-discussion": "",
+                    "automatic-discussion": "Loo vormist automaatselt vestlus",
                     "automatic-discussion-help": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
+                    "accept-submissions": "Aktsepteeri uus vastuseid",
+                    "allow-modification": "Luba kasutajatel muuta nende varasemaid vastuseid",
                     "enable": "Lülita sisse",
-                    "max-submissions": "",
+                    "max-submissions": "Maksimaalne vastamiste arv (kui piirangut pole, siis jäta tühjaks)",
                     "send-confirmation-to-participants": "Saada kinnituskiri osalejatele",
                     "notify-emails": "",
                     "web-confirmation-message": "",
@@ -179,7 +179,7 @@
                 "link-options": {
                     "standalone": "Eraldiseisev",
                     "groups": "Kasutajaprofiil",
-                    "all-groups": "",
+                    "all-groups": "Kõigile gruppidele",
                     "tags": "Vestluse väljad",
                     "all-tags": "Iga sildi jaoks"
                 },
@@ -237,7 +237,7 @@
                 "email": "E-post",
                 "regex": "Regulaarväljend",
                 "mime": "Failitüüp (komadega eraldatud, teisel poolel võib kasutada kohatäitjaid)",
-                "other": "",
+                "other": "Luba väärtus \"muu\"",
                 "duplicate": "Tee väljast koopia",
                 "delete": "Kustuta väli",
                 "missing-title": "Ilma pealkirjata väli",
@@ -284,8 +284,8 @@
             "submission": {
                 "form-closed": "See vorm on suletud.",
                 "form-full": "",
-                "edit-forbidden": "",
-                "submitted-successfully": "",
+                "edit-forbidden": "Sa ei saa seda vastust enam muuta.",
+                "submitted-successfully": "Sinu vastus on saadetud.",
                 "edit-submission": "Muuda vastuseid",
                 "submit-other": "Saada veel üks",
                 "unlock": "Ava",
@@ -297,7 +297,7 @@
             },
             "submission-index": {
                 "form-edit": "Muuda vormi",
-                "form-show": "",
+                "form-show": "Uus vastus",
                 "show": "Näita",
                 "guest": "Külaline",
                 "load-more": "Laadi rohkem",
@@ -383,16 +383,16 @@
             }
         },
         "api": {
-            "formatter-parsing-error": "",
-            "not-allowed-to-fill-field": "",
+            "formatter-parsing-error": "Sisu näitamine ebaõnnestus: {message}",
+            "not-allowed-to-fill-field": "Sul pole luba selle välja väärtust muuta",
             "duplicate-field-key": "Võti peab olema unikaalne",
             "cannot-change-form-type": "",
             "unknown-form": "Tundmatu vormi ID {id}",
             "unauthorized-form": "Sul pole õigusi vormi {id} täitmiseks",
             "unauthorized-scoped-form": "",
             "unsupported-discussion-form": "",
-            "file-already-belongs-form": "",
-            "file-already-belongs-submission": "",
+            "file-already-belongs-form": "Fail {id} kuulub teise vormi",
+            "file-already-belongs-submission": "Fail {id} kuulub teisele vastusele",
             "export": {
                 "meta": {
                     "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
@@ -410,8 +410,8 @@
             }
         },
         "mail": {
-            "title-your-submission": "",
-            "title-new-submission": "",
+            "title-your-submission": "Sinu vastus - {title}",
+            "title-new-submission": "Uus vastus - {title}",
             "edit": "Muuda",
             "footer": "Saadetud vormist {title}",
             "sub-entries": "{count} vastust",
