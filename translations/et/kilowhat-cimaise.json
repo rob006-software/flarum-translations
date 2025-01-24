@@ -135,18 +135,18 @@
         "admin": {
             "permissions": {
                 "view": "Vaatamine",
-                "viewExif": "",
+                "viewExif": "EXIF info vaatamine (kaasa arvatud asukohta)",
                 "createPersonalAlbums": "Isiklike albumite loomine",
                 "createCommunityAlbums": "Kogukonna albumite loomine",
-                "editOwnAlbum": "",
+                "editOwnAlbum": "Omaenda albumi pealkirja ja kirjelduse muutmine",
                 "hideOwnAlbum": "Oma albumite peitmine",
                 "uploadPictures": "Piltide üleslaadimine",
-                "uploadPersonalPicturesWithoutApproval": "",
-                "uploadCommunityPicturesWithoutApproval": "",
-                "editOwnImage": "",
-                "editOwnPublishedImage": "",
-                "licenseOwnPublishedPicture": "",
-                "renameOwnPublishedPicture": "",
+                "uploadPersonalPicturesWithoutApproval": "Isiklikesse albumitesse piltide üleslaadimine ilma heakskiiduta",
+                "uploadCommunityPicturesWithoutApproval": "Kogukonna albumitesse piltide üleslaadimine ilma heakskiiduta",
+                "editOwnImage": "Omaenda piltide muutmine (kärpimine, maskide lisamine ja kleepsude kasutamine)",
+                "editOwnPublishedImage": "Omaenda piltide muutmine pärast avaldamist",
+                "licenseOwnPublishedPicture": "Omaenda pildi litsentsi muutmine pärast avaldamist",
+                "renameOwnPublishedPicture": "Omaenda pildi pealkirja ja kirjelduse muutmine pärast avaldamist",
                 "hideOwnPicture": "Oma piltide peitmine",
                 "publishSilently": "Piltide avaldamine vaikselt (ilma sündmuse postituseta)",
                 "attachCimaiseAlbum": "Albumite käsitsi lisamine vestlusesse",
@@ -162,26 +162,26 @@
                     "topRight": "Üleval paremal",
                     "bottomRight": "All paremal"
                 },
-                "autoCreateDiscussionAlbum": "",
-                "autoCreateDiscussionAlbumHelp": "",
-                "neverSyncDiscussionAlbumTitles": "",
+                "autoCreateDiscussionAlbum": "Loo automaatselt iga vestluse jaoks album",
+                "autoCreateDiscussionAlbumHelp": "Loo automaatselt vestlusega samanimeline album ja määra albumi autoriks vestluse algataja. See funktsioon läheb mööda albumi loomise õigustest ja seda rakendatakse kõigile siltidele..\n",
+                "neverSyncDiscussionAlbumTitles": "Ära kunagi sünkroniseeri vestluste ja albumite pealkirju",
                 "neverSyncDiscussionAlbumTitlesHelp": "",
                 "columnTheme": "Veeru teema",
                 "columnThemeHelp": "",
                 "mapboxToken": "Mapboxi kontrollkood",
                 "mapboxTokenHelp": "",
-                "requireLicense": "",
-                "requireLicenseHelp": "",
+                "requireLicense": "Nõua litsentsi valimist alt nimekirjast",
+                "requireLicenseHelp": "Vaikimisi saavad kasutajad litsentsi valimise vahele jätta. Veendu, et sinu veebisaidi kasutamise tingimused määravad, mida võib teha piltidega, mille litsents pole määratud.\n",
                 "licenses": "Litsentsid",
                 "license-key": "Võti",
                 "license-label": "Silt",
                 "license-description": "Kirjeldus",
                 "license-add": "Lisa litsents",
-                "stickers": "",
+                "stickers": "Kleepekad",
                 "sticker-key": "Võti",
                 "sticker-label": "Silt",
                 "sticker-url": "URL",
-                "sticker-add": ""
+                "sticker-add": "Lisa kleepekas"
             },
             "status": {
                 "pictures": {
@@ -189,7 +189,7 @@
                     "drafts": "({count} mustandit)"
                 },
                 "storage": {
-                    "section": "",
+                    "section": "Säilitusruum (hinnanguline)",
                     "originals": "Algsed: {size}",
                     "conversions": "Vestluseid: {size}"
                 },
@@ -199,12 +199,12 @@
         },
         "api": {
             "post-edit": {
-                "cannotAttachToNonComment": "",
-                "cannotFindPicturesFromRelation": "",
-                "cannotAttachHasNoAlbum": "",
-                "cannotAttachAlreadySubmitted": "",
-                "cannotAttachFromExternalAlbum": "",
-                "cannotAttachUnauthorized": ""
+                "cannotAttachToNonComment": "Pilte ei saa käsitsi lisada postitustele, mis pole kommentaarid",
+                "cannotFindPicturesFromRelation": "Soovitud pilti ei leitud andmebaasist",
+                "cannotAttachHasNoAlbum": "Vestlusega pole seotud ühtegi albumit",
+                "cannotAttachAlreadySubmitted": "Pilti {id} ei saa lisada, kuna see on juba lisatud",
+                "cannotAttachFromExternalAlbum": "Pilti {id} ei saa lisada, kuna see kuulub välisesse albumisse",
+                "cannotAttachUnauthorized": "Pilti {id} ei saa lisada, kuna see ei kuulu sulle"
             },
             "picture-edit": {
                 "unauthorized": {
@@ -213,15 +213,15 @@
                     "license": "Vigane litsents, muutmine pole lubatud",
                     "author": "Vigane autor, muutmine pole lubatud",
                     "takenAt": "Vigane tegemise kuupäev, muutmine pole lubatud",
-                    "isDraftUnSubmit": "",
-                    "isDraftSubmit": "",
-                    "isApprovedUnApprove": "",
-                    "isApprovedApprove": "",
-                    "isHiddenRestore": "",
-                    "isHiddenHide": "",
-                    "isFavorite": "",
-                    "stickers": "",
-                    "crop": ""
+                    "isDraftUnSubmit": "Vigane mustand staatus, tagasivõtmine pole lubatud",
+                    "isDraftSubmit": "Vigane mustandi staatus, lisamine pole lubatud",
+                    "isApprovedUnApprove": "Vigane heakskiitmise staatus, mitte-heakskiitmine pole lubatud",
+                    "isApprovedApprove": "Vigane heakskiitmise staatus, heakskiitmine pole lubatud",
+                    "isHiddenRestore": "Vigane peitmise staatus, taastamine pole lubatud",
+                    "isHiddenHide": "Vigane peitmise staatus, peitmine pole lubatud",
+                    "isFavorite": "Vigane järjehoidja staatus, muutmine pole lubatud",
+                    "stickers": "Vigased kleepekas, muutmine pole lubatus",
+                    "crop": "Vigane kärpimine, muutmine pole lubatud"
                 }
             }
         },
