@@ -4,7 +4,7 @@
             "discussions_bin": "",
             "posts_bin": "",
             "search_placeholder": "Cari diskusi",
-            "search_post_placeholder": "",
+            "search_post_placeholder": "Cari post",
             "search_help_text": "Mencari kata-kata dalam judul serta dalam pesan diskusi",
             "search_post_help_text": "Mencari kata di post yang tersembunyi",
             "total_hidden_discussions": "Total diskusi yang tersembunyi",
@@ -29,7 +29,7 @@
                 "success": "Berhasil memulihkan diskusi"
             },
             "restore_post": {
-                "title": "",
+                "title": "Pulihkan post",
                 "confirmation": "Apakah Anda yakin ingin memulihkan postingan ini dari diskusi ",
                 "restore_button": "Pulihkan post ini",
                 "success": "Mencari post"
@@ -49,9 +49,9 @@
             "delete_tooltip": "Menghapus diskusi",
             "delete_post_tooltip": "Menghapus post",
             "bulk_actions": "Tindakan untuk diskusi yang dipilih: ",
-            "bulk_post_actions": "",
+            "bulk_post_actions": "Tindakan untuk post yang dipilih : ",
             "bulk_restore_label": "Pulihkan diskusi yang dipilih",
-            "bulk_post_restore_label": "",
+            "bulk_post_restore_label": "Pulihkan post yang dipilih",
             "mass_restore_modal": {
                 "title": "Memulihkan diskusi yang dipilih",
                 "text_start": "Apakah Anda yakin ingin melakukan pemulihan ini ",
@@ -74,14 +74,14 @@
                 "success": "Berhasil menghapus diskusi yang dipilih"
             },
             "mass_delete_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Hapus post ini selamanya",
+                "text_start": "Apakah Anda yakin ingin <u>menghapus</u> ini selamanya ",
+                "text_end": " post yang dipilih?",
+                "submit_button": "Hapus post ini selamanya",
+                "success": "Berhasil menghapus post yang dipilih"
             },
             "bulk_delete_label": "Hapus diskusi yang dipilih",
-            "bulk_post_delete_label": "",
+            "bulk_post_delete_label": "Hapus post yang dipilih",
             "pagination": {
                 "first_page_button": "Pergi ke halaman pertama",
                 "back_button": "Kembali ke halaman sebelumnya",
@@ -92,10 +92,10 @@
             },
             "mass_help_text": "Harap tunggu penyegaran halaman setelah mengonfirmasi pemulihan atau penghapusan massal",
             "grid": {
-                "invalid_column_content": ""
+                "invalid_column_content": "Konten tidak valid!"
             },
             "post": {
-                "id": "",
+                "id": "ID",
                 "title": "",
                 "open_post": ""
             },
