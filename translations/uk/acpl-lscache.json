@@ -14,25 +14,25 @@
             "cache_exclude_help": "Шляхи, що містять ці рядки, не будуть кешуватися. Для <code>/mypath/mypage?aa=bb</code> можна використовувати <code>mypage?aa=</code>. Для збігу з початком додайте <code>^</code> на початку. Для точного збігу додайте <code>$</code> в кінці URL-адреси. По одному разу в рядку.",
             "drop_qs_label": "Випадання рядків запиту",
             "drop_qs_help": "Використовуйте цю функцію, щоб вилучити певні рядки запитів, такі як <code>fbclid</code> або <code>utm*</code>, при кешуванні. Це запобігає надлишковому кешуванню сторінок зі «сміттєвими» рядками запитів, такими як UTM-коди, які використовуються для відстеження, але не впливають на вміст сторінки. Для цього потрібна версія LSWS v5.2.3 або новіша. Перелічіть рядки запитів, які потрібно вилучити, по одному в рядку. <a>Дізнайтеся більше про вилучення рядків запитів</a>.<br></br>\n⚠️ Цей параметр змінить файл .htaccess.\n",
-            "status_codes_cache_label": "",
-            "status_codes_cache_help": "",
-            "purge_all": "Очистити весь LSCache",
+            "status_codes_cache_label": "За налаштуванням HTTP код стану Сторінка TTL",
+            "status_codes_cache_help": "Вкажіть код стану HTTP і кількість секунд для кешування цієї сторінки, відокремлених пробілом. По одному значенню в рядку.",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
             "permissions": {
-                "purge": ""
+                "purge": "=> acpl-lscache.ref.purge_cache"
             },
             "purge_all_success": "Веб-серверу LiteSpeed надіслано повідомлення про очищення всіх записів LSCache"
         },
         "forum": {
             "purge": {
-                "discussion": ""
+                "discussion": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "Сповіщення сервера LiteSpeed про очищення записів LSCache",
+            "purge_all_success": "Сповіщено сервер LiteSpeed про очищення всіх записів LSCache"
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "Очистити LSCache"
         }
     }
 }
