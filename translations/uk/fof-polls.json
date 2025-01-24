@@ -51,7 +51,7 @@
                 "submit_button": "Проголосувати",
                 "start_poll_button": "Розпочати глобальне опитування",
                 "cannot_start_poll_button": "Неможливо розпочати опитування",
-                "total_votes": ""
+                "total_votes": "{count, plural, one {# віддано голосів} other {# було віддано голосів}}"
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
