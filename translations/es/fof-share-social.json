@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "canonical-urls": "Usar URLs canónicas para compartir",
-                "plain-copy": "",
-                "default-option": "",
-                "default-option-help": ""
+                "plain-copy": "Mostrar para copiar la URL",
+                "default-option": "Opción de compartir predeterminada",
+                "default-option-help": "Si eliges una opción predeterminada, el modal se convertirá en un botón desplegable.\nSi se selecciona \"Compartir de forma nativa\", solo se mostrará si el navegador lo admite; de lo contrario, el comportamiento volverá al modal original.\n"
             }
         },
         "forum": {
             "discussion": {
                 "share_button": "Compartir",
-                "share_dropdown_accessible_label": ""
+                "share_dropdown_accessible_label": "Activar o desactivar el menú desplegable para compartir discusiones"
             },
             "modal": {
                 "title": "Compartir",
-                "copy_button": ""
+                "copy_button": "Copiar"
             }
         },
         "lib": {
