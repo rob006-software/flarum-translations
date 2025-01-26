@@ -73,7 +73,7 @@
                     "name_label": "Nombre",
                     "name_help": "El nombre del webhook. Se utilizará para cosas como el nombre de usuario de Discord, el nombre del bot de Slack, etc.",
                     "events_label": "Eventos",
-                    "include_matching_tags_label": ""
+                    "include_matching_tags_label": "Incluir etiquetas coincidentes. Para webhooks restringidos a etiquetas específicas, muestra con cuáles coincidió el evento"
                 },
                 "services": {
                     "discord": "Discord",
