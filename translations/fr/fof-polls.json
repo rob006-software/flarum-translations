@@ -51,7 +51,7 @@
                 "submit_button": "Voter",
                 "start_poll_button": "Démarrer un sondage global",
                 "cannot_start_poll_button": "Impossible de démarrer le sondage",
-                "total_votes": ""
+                "total_votes": "{count, plural, one {# vote a été attribué} other {# votes ont été attribués}}"
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
