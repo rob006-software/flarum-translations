@@ -818,7 +818,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/1.3.2/resources/locale/en.yml',
 	],
 	'ianm-top-posters-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/top-posters-widget/1.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/top-posters-widget/1.0.3/locale/en.yml',
 	],
 	'ianm-translate' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/master/ianm-translate.yml',
