@@ -23,10 +23,10 @@
                     "help": "Ces paramètres contrôlent le comportement général du système de traduction."
                 },
                 "seo": {
-                    "heading": "",
-                    "help": "",
-                    "default-lang": "",
-                    "default-lang-help": ""
+                    "heading": "Paramètres SEO",
+                    "help": "Ces paramètres contrôlent le comportement du système de traduction en ce qui concerne l'optimisation pour les moteurs de recherche.",
+                    "default-lang": "Correspondre à la langue par défaut du forum",
+                    "default-lang-help": "Lorsque cette option est activée, la langue par défaut du forum est ajoutée au chemin de la balise hreflang <code>x-default</code>."
                 },
                 "providers": {
                     "heading": "Paramètres du fournisseur de traduction",
@@ -35,8 +35,8 @@
                 "button": "Paramètres",
                 "seemless": "Traduction en continu",
                 "seemless-help": "Fonctionnalité bêta. Lorsqu'elle est activée, tout le contenu des utilisateurs est traduit automatiquement dans toutes les autres langues disponibles sur le forum. Lorsqu'un utilisateur consulte un contenu multilingue, les traductions s'affichent automatiquement.",
-                "multi-lang-search": "",
-                "multi-lang-search-help": "",
+                "multi-lang-search": "Recherche multilingue",
+                "multi-lang-search-help": "Si cette option est activée, la recherche inclura toutes les traductions du contenu.",
                 "deepl": {
                     "api_key": {
                         "help": "Enregistrez-vous sur {link}. Le pilote détectera automatiquement le type de clé, gratuite ou professionnelle.",
@@ -87,9 +87,9 @@
                 "use-native-locale-names": "Utiliser les noms locaux natifs",
                 "use-native-locale-names-help": "Si cette option est activée, le nom de la langue native sera utilisé à la place de la version locale actuelle du nom.",
                 "translate-polls": "Traduire les sondages",
-                "translate-polls-help": "Lorsque cette option est activée, les titres des sondages, les sous-titres, le texte alt des images et les options de réponse sont traduits automatiquement lors de la création ou de la modification d'un sondage.",
-                "translate-quiz": "",
-                "translate-quiz-help": "",
+                "translate-polls-help": "Lorsque cette option est activée, le titre du sondage, le sous-titre, le texte alt de l'image et les options de réponse seront automatiquement traduits lors de la création ou de la modification d'un sondage.",
+                "translate-quiz": "Traduire les questionnaires",
+                "translate-quiz-help": "Lorsque cette option est activée, le titre du questionnaire, le sous-titre, l'explication de la bonne réponse et les options de réponse sont automatiquement traduits lors de la création ou de la modification d'un questionnaire.",
                 "provider": "Fournisseur de services de traduction",
                 "readme-info": "Pour plus d'informations, veuillez consulter la documentation dans le fichier README.",
                 "readme-none": "Aucun paramètre supplémentaire n'est requis pour ce pilote.",
@@ -109,29 +109,29 @@
             "manage-translations": {
                 "translations-label": "Traductions",
                 "button-label": "Gérer les traductions",
-                "original-language": "",
+                "original-language": "Langue originale ({detectedLang})",
                 "discussion": {
-                    "title": ""
+                    "title": "Gérer les traductions des titres de discussion"
                 },
                 "post": {
-                    "title": ""
+                    "title": "Gérer les traductions des messages"
                 },
                 "poll": {
-                    "image-alt": "Texte ALT de l'image du sondage (si elle existe)",
-                    "option": "Option {number} de sondage",
-                    "subtitle": "Sous-titre du sondage",
+                    "image-alt": "Texte ALT de l'image (si elle existe)",
+                    "option": "Option {number}",
+                    "subtitle": "Sous-titre",
                     "title": "Gérer les traductions du sondage",
-                    "question": "Question du sondage",
-                    "question-language": "",
+                    "question": "Question",
+                    "question-language": "Question du sondage ({language})",
                     "original-title": "Langue d'origine"
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
-                    "title": "",
-                    "question": "",
-                    "subtitle": "",
-                    "option": "",
-                    "answer-additional": ""
+                    "title": "Gérer les traductions des questionnaires",
+                    "question": "Question",
+                    "subtitle": "Sous-titre",
+                    "option": "Réponse {number}",
+                    "answer-additional": "Explication de la réponse correcte"
                 }
             },
             "discussion": {
