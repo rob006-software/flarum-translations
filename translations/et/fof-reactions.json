@@ -1,15 +1,15 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "Sa ei saa hetkel seda rektsiooni kasutada. Palun värskenda lehekülge",
-            "warning": "Sinu reaktsioon on konverditud",
+            "disabled-reaction": "Sa ei saa hetkel seda reaktsiooni kasutada. Palun värskenda lehekülge",
+            "warning": "Sinu reaktsioon on teisendatud",
             "notification": "{username} reageeris ({reaction}) sinu postitusele",
             "settings": {
                 "notify_post_reacted_label": "Keegi reageeris minu postitusele"
             },
             "reacting-own-post": "Sa ei saa reageerida omaenda postitusele",
             "modal": {
-                "title": "Raektsioonid",
+                "title": "Reaktsioonid",
                 "anonymous_count": "{count, plural, one {# anonüümne kasutaja} other {# anonüümset kasutajat}}",
                 "no_reactions": "Ühtegi reaktsiooni pole veel"
             },
@@ -32,7 +32,7 @@
                 "reactions": {
                     "title": "Kohandatud reaktsioonid",
                     "reactions": "Praegused reaktsioonid",
-                    "Helptext": "Sisesta emoji või font-awesome ikooni nimi (dentifikaator) ja vali mis tööpi sa sooviksid kasutada.",
+                    "Helptext": "Sisesta emoji või font-awesome ikooni nimi (identifikaator) ja vali mis tüüpi sa sooviksid kasutada.",
                     "help": {
                         "display": "Nähtav",
                         "identifier": "Identifikaator"
@@ -40,10 +40,10 @@
                     "delete_confirmation": "Oled sa kindel, et soovid seda reaktsiooni kustutada? Seda toimingut ei saa tühistada."
                 },
                 "convert": {
-                    "help": "Kui sa just uuendasid oma laiendust, siis on vaja sinu reaktsioone konvertida. Kui sa just paigaldasid selle lisaprogrammi, siis ignoreeri seda sõnumit.",
-                    "button": "Konverdi vanad reaktsioonid",
-                    "converting": "Sinu reaktsioone konverditakse. Värskenda oma saiti paari minuti pärast, et näha protsessi lõppu. (Konvertimine võib võtta aega sõltuvalt reaktsioonide arvule sinu saidil)",
-                    "converted": "Kõik {number} reaktsiooni on konverditud"
+                    "help": "Kui sa just uuendasid oma laiendust, siis on vaja sinu reaktsioone teisendada. Kui sa just paigaldasid selle lisaprogrammi, siis ignoreeri seda sõnumit.",
+                    "button": "Teisenda vanad reaktsioonid",
+                    "converting": "Sinu reaktsioone teisendatakse. Värskenda oma saiti paari minuti pärast, et näha protsessi lõppu. (Sõltuvalt reaktsioonide arvust sinu saidil võib see teisendamine veidi aega võtta)",
+                    "converted": "Kõik {number} reaktsiooni on teisendatud"
                 },
                 "settings": {
                     "react_own_posts_help": "Kui see on sisse lülitatud, siis võib kasutaja (sõltuvalt õigustest) reageerida nende endi postitustele. Kui sa ei soovi, et kasutajad saaksid omaenda postitustele reageerida, siis lülita see valik välja.",
@@ -53,7 +53,7 @@
                     "save_settings": "Salvesta seaded",
                     "integrations": {
                         "legend": "Integreerimised",
-                        "warning": "Sama reaktsiooni <strong>ei saa</strong> konvertida meeldimiseks <strong>ja</strong> ülespoole hääletamiseks",
+                        "warning": "Sama reaktsiooni <strong>ei saa</strong> teisendada meeldimiseks <strong>ja</strong> ülespoole hääletamiseks",
                         "gamification": {
                             "legend": "Mängurežiim",
                             "upvoteLabel": "Konverdi reaktsioonid üles hääletamiseks",
@@ -63,8 +63,8 @@
                         },
                         "likes": {
                             "legend": "Meeldimised",
-                            "Label": "Konverdi reaktsioonid meeldimisteks",
-                            "Helptext": "Sisesta reaktsiooni identifikaator, mida sa sooviksid automaatselt meeldimiseks konvertida"
+                            "Label": "Teisenda reaktsioonid meeldimisteks",
+                            "Helptext": "Sisesta reaktsiooni identifikaator, mida sa sooviksid automaatselt meeldimiseks teisendada"
                         }
                     }
                 }
