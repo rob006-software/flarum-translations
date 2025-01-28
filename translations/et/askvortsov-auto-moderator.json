@@ -41,11 +41,11 @@
                 "no_metrics_or_reqs": "Selle nõude jaoks pole kriteeriumeid määratud. See tähendab, et see kriteerium rakendatakse KÕIGILE kasutajatele.",
                 "valid": "See kriteerium on korrektne!",
                 "action_validation_errors": "Tegevuse draiveri kontrollimisel tekkisid järgmised vead:",
-                "requirement_validation_errors": "Nüude draiveri kontrollimisel tekkisid järgmised vead:"
+                "requirement_validation_errors": "Nõude draiveri kontrollimisel tekkisid järgmised vead:"
             },
             "criterion_page": {
                 "driver_missing_ext": "See draiver sõltub lisaprogrammist, mida pole paigaldatud.",
-                "back": "Tagasi kriteeriumit enimekirja",
+                "back": "Tagasi kriteeriumite nimekirja",
                 "name_label": "Nimi",
                 "icon_label": "Ikoon",
                 "description_label": "Kirjeldus",
@@ -74,7 +74,7 @@
             },
             "automoderator_instructions": {
                 "header": "Lisaprogrammi juhendid",
-                "text": ""
+                "text": "<li>Tl;dr: Kui kasutaja vastab kriteeriumile X, siis soorita toiming Y. Kui kasutaja ei vasta enam kriteeriumile X, siis soorita toiming Z.</li>\n<li><strong>Kriteerium:</strong> Kriteerium on selle lisaprogrammi tuum. Need on komplekt numbreid ja nõudeid. Kui kasutaja vastab kriteeriumile, siis \"vastab nõuetele\" tegevusega käivitatakse tegevus selle kriteeriumi jaoks. Kui kasutaja ei vasta enam kriteeriumile, siis käivitatakse \"ei vasta nõuetele\" tegevused.</li>\n<ul>\n  <li><strong>Parameetrid:</strong> Numbriline tingimus. Näiteks postituste arv või saadud meeldimiste arv. Kriteerium võib nõuda erinevate numbrite vahemikku või miinimum või maksimum väärtust.</li>\n  <li><strong>Nõue:</strong> Abstraktne tingimus. Näiteks, kui e-posti aadress peab vastama mingile kindlale regulaaravaldisele, et seda kontot ei külmutatakse.</li>\n</ul>\n<li><strong>Toimingud:</strong> Midagi, mis toimub automaatselt, kui kriteeriumile vatatakse või enam ei vastata. See võib olla misiganes nagu näiteks kasutaja lisamine või eemaldamine grupist või kasutajakonto külmutamine.</li>\n<li><strong>Päästik:</strong> Sündmused, mis võib viia kasutaja kriteeriumi gruppide ülevaatamisele. Need on osa numbritest ja nõuetest. Kõiki kriteeriumeid hinnatakse sisselogimisel: see on \"universaalne päästik\".</li>\n<li>\"Ei vasta nõuetele\" tegevused käivitatakse alati enne kui \"vastab nõuetele\" tegevus. Sellisel viisil sooritatakse toiming \"vastab nõuetele\" vähemalt ühe kriteeriumi alusel.</li>\n<li>Pea meeles, et tegevused käivitatakse ainult \"ei vasta nõuetele\" või \"vastab nõuetele\". Andmete käsitsi muutmine ei käivita kriteeriumi \"vastab nõuetele\" uuesti rakendamist.</li>\n<li>Kui kustutad \"on loss\" kriteeriumi, siis seda tegevust EI käivitata kasutajatel, kes vastavad sellele kriteeriumile.</li>\n<li>Kui kasutad kriteeriumi gruppide haldamiseks, siis soovitame sul hoida gruppide poolt hallatavaid gruppe eraldi. Neisse gruppideese ei saa kasutajaid käsitsi lisada või eemaldada.</li>\n"
             }
         },
         "lib": {
