@@ -222,7 +222,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-email-whitelist/1.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-emojionearea' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/1.1.0/locale/en.yml',
 	],
 	'clarkwinkelmann-external-email-validation' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-external-email-validation/1.0.0/resources/locale/en.yml',
