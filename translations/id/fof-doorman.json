@@ -31,7 +31,7 @@
             "page": {
                 "title": "Doorman",
                 "doorkey": {
-                    "used_times": "{remaining, plural, =0 {Penggunaan tanpa batas} one {{remaining} penggunaan tersisa} other {{remaining} penggunaan tersisa}}",
+                    "used_times": "{remaining, plural, =0 {Tanpa batas} one {Sisa {remaining}} other {Sisa {remaining}}}",
                     "total_uses": "{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}",
                     "title": "Kode Undangan",
                     "help": {
