@@ -2,7 +2,19 @@
     "clarkwinkelmann-emojionearea": {
         "forum": {
             "picker_button": "Seletor de emojis",
-            "search_placeholder": "Pesquisar..."
+            "search_placeholder": "Pesquisar...",
+            "filters": {
+                "tones": "",
+                "recent": "",
+                "smileys_people": "",
+                "animals_nature": "",
+                "food_drink": "",
+                "activity": "",
+                "travel_places": "",
+                "objects": "",
+                "symbols": "",
+                "flags": ""
+            }
         },
         "admin": {
             "settings": {
@@ -11,6 +23,7 @@
                 "enableTones": "",
                 "filtersPosition": "",
                 "searchPosition": "",
+                "closeOnPick": "",
                 "hideFlarumButton": ""
             }
         }

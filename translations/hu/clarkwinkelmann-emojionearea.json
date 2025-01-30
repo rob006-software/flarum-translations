@@ -2,7 +2,19 @@
     "clarkwinkelmann-emojionearea": {
         "forum": {
             "picker_button": "Emodzsiválasztó",
-            "search_placeholder": "Keresés…"
+            "search_placeholder": "Keresés…",
+            "filters": {
+                "tones": "",
+                "recent": "",
+                "smileys_people": "",
+                "animals_nature": "",
+                "food_drink": "",
+                "activity": "",
+                "travel_places": "",
+                "objects": "",
+                "symbols": "",
+                "flags": ""
+            }
         },
         "admin": {
             "settings": {
@@ -11,6 +23,7 @@
                 "enableTones": "Tónusok engedélyezése",
                 "filtersPosition": "A kategóriák áthelyezése alulra",
                 "searchPosition": "A keresés és a tónusok áthelyezése alulra",
+                "closeOnPick": "",
                 "hideFlarumButton": "A Flarum emodzsiválasztó-gombjának elrejtése"
             }
         }

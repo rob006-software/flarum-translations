@@ -2,7 +2,19 @@
     "clarkwinkelmann-emojionearea": {
         "forum": {
             "picker_button": "Emoji valija",
-            "search_placeholder": "Otsi..."
+            "search_placeholder": "Otsi...",
+            "filters": {
+                "tones": "",
+                "recent": "",
+                "smileys_people": "",
+                "animals_nature": "",
+                "food_drink": "",
+                "activity": "",
+                "travel_places": "",
+                "objects": "",
+                "symbols": "",
+                "flags": ""
+            }
         },
         "admin": {
             "settings": {
@@ -11,6 +23,7 @@
                 "enableTones": "Luba toonide kasutamine",
                 "filtersPosition": "Liiguta kategooriad alla",
                 "searchPosition": "Liiguta otsing ja toonid alla",
+                "closeOnPick": "",
                 "hideFlarumButton": "Peida Flarumi emoji valimise nupp"
             }
         }

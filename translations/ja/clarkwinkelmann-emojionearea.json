@@ -2,7 +2,19 @@
     "clarkwinkelmann-emojionearea": {
         "forum": {
             "picker_button": "絵文字",
-            "search_placeholder": "絵文字を検索する..."
+            "search_placeholder": "絵文字を検索する...",
+            "filters": {
+                "tones": "",
+                "recent": "",
+                "smileys_people": "",
+                "animals_nature": "",
+                "food_drink": "",
+                "activity": "",
+                "travel_places": "",
+                "objects": "",
+                "symbols": "",
+                "flags": ""
+            }
         },
         "admin": {
             "settings": {
@@ -11,6 +23,7 @@
                 "enableTones": "肌色の選択をオンにする",
                 "filtersPosition": "下部にカテゴリを表示",
                 "searchPosition": "下部に検索とスキントーンを表示する",
+                "closeOnPick": "",
                 "hideFlarumButton": "FLarum 絵文字ボタンを隠す"
             }
         }

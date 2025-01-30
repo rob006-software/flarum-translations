@@ -2,7 +2,19 @@
     "clarkwinkelmann-emojionearea": {
         "forum": {
             "picker_button": "Vybrat Emoji",
-            "search_placeholder": "Vyhledávání..."
+            "search_placeholder": "Vyhledávání...",
+            "filters": {
+                "tones": "",
+                "recent": "",
+                "smileys_people": "",
+                "animals_nature": "",
+                "food_drink": "",
+                "activity": "",
+                "travel_places": "",
+                "objects": "",
+                "symbols": "",
+                "flags": ""
+            }
         },
         "admin": {
             "settings": {
@@ -11,6 +23,7 @@
                 "enableTones": "Povolit tóny",
                 "filtersPosition": "Přesunout kategorie na konec",
                 "searchPosition": "Přesunutí vyhledávání a tónů na konec",
+                "closeOnPick": "",
                 "hideFlarumButton": "Skrytí tlačítka pro výběr emoji na fóru Flarum"
             }
         }
