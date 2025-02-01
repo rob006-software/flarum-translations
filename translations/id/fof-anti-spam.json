@@ -37,7 +37,7 @@
                     "confidence_label": "Nilai Confidence",
                     "confidence_help": "Nilai confidence adalah indikator yang cukup baik bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Tetapkan tingkat confidence Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari pengujian ' frequency ' di atas.",
                     "email_hash_label": "Gunakan alamat email yang di-hash",
-                    "email_hash_help": "Masukkan hash MD5 dari alamat email jika Anda tidak ingin melewati alamat email itu sendiri. Metode ini melewati semua daftar hitam, normalisasi, dan obfuscation check.",
+                    "email_hash_help": "Masukkan hash MD5 dari alamat email jika Anda tidak ingin menyertakan alamat email secara langsung. Metode ini akan melewati semua daftar hitam, normalisasi, dan obfuscation check.",
                     "sfs_lookup_label": "Mencari pendaftaran",
                     "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database StopForumSpam ketika pengguna baru melakukan pendaftaran di forum Anda. Jika pengguna ditemukan ( username, alamat IP, email) dan data point tersebut diaktifkan bersama dengan SFS confidence level mencapai level yang Anda tentukan, maka pengguna tersebut akan dicegah untuk menyelesaikan pendaftarannya.",
                     "report_blocked_registrations_label": "Laporkan pendaftaran yang diblokir",
