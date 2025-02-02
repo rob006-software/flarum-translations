@@ -626,7 +626,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => [],
+		'maintainers' => ['tormi-github'],
 	],
 	'ne' => [
 		'type' => 'language',
