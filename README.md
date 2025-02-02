@@ -460,7 +460,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/norwegian-bokmal">Norwegian Bokmål</a></td>
-		<td> - </td>
+		<td><a href="https://github.com/tormi-github">tormi-github</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/nb.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/nb/svg-badge.svg" alt="detailed translation status" />
