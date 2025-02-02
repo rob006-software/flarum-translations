@@ -2,40 +2,40 @@
     "afrux-theme-base": {
         "admin": {
             "extensions": {
-                "title": "",
-                "description": ""
+                "title": "Rozšíření",
+                "description": "Seznam všech nainstalovaných rozšíření."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Hlavní nastavení",
+                    "permissions": "Oprávnění"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Zpět na fórum"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Avatar"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
+                "edit_footer_links": "Upravit odkazy v zápatí",
+                "footer_description": "Popis zápatí",
                 "footer_bottom_line": "",
                 "hero_banner": "",
                 "hero_banner_position": "",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Nová skupina odkazů",
+                    "group_name": "Název skupiny č. {number}",
+                    "group_title": "Název skupiny odkazů",
+                    "add_link": "Přidat odkaz",
+                    "link_url": "URL odkazu",
+                    "link_label": "Štítek odkazu"
                 }
             }
         }
