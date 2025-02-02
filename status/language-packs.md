@@ -1386,7 +1386,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/norwegian-bokmal">Norwegian Bokmål</a></td>
+		<td><a href="https://github.com/flarum-lang/norwegian-bokmal">Norwegian Bokmål</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/norwegian-bokmal/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/norwegian-bokmal" alt="last release" style="max-width: 160px;" />
