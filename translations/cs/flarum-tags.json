@@ -43,7 +43,7 @@
                 "about_tags_text": "Štítky se používají ke kategorizaci diskuzí. Hlavní štítky slouží jako tradiční kategorie na fórech: mohou být uspořádány do dvouúrovňové hierarchie. Vedlejší štítky nemají hierarchii nebo řazení a jsou užitečné pro mikro-kategorizaci.",
                 "create_primary_tag_button": "Vytvořit hlavní štítek",
                 "create_secondary_tag_button": "Vytvořit vedlejší štítek",
-                "edit_tag_label": "",
+                "edit_tag_label": "Upravit štítek {tag}",
                 "primary_heading": "Hlavní štítky",
                 "secondary_heading": "Vedlejší štítky",
                 "settings_heading": "Nastavení"
@@ -104,13 +104,13 @@
         },
         "validation": {
             "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
+                "name": "název",
+                "slug": "slug",
+                "is_hidden": "skryté",
+                "description": "popis",
+                "color": "barva",
+                "tag_count_primary": "=> validation.attributes.tag_count_primary",
+                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
             }
         }
     }
