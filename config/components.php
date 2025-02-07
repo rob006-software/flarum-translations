@@ -795,7 +795,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v0.8/resources/locale/en.yml',
 	],
 	'huseyinfiliz-private-profile' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/private-profile/v1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/private-profile/v1.1/locale/en.yml',
 	],
 	'ianm-boring-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/1.0.1/locale/en.yml',
