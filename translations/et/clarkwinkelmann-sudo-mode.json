@@ -2,13 +2,13 @@
     "clarkwinkelmann-sudo-mode": {
         "admin": {
             "settings": {
-                "duration": ""
+                "duration": "Kui kaua (sekundites) adminirežiim aktiivsena püsib"
             }
         },
         "lib": {
             "sudo": {
                 "title": "Kinnita ligipääs",
-                "message": "",
+                "message": "Sisesta oma parool, et siseneda adminirežiimi. Mõne tunni pärast palutakse sul end uuesti tuvastada.\n",
                 "password": "Parool",
                 "submit": "Saada"
             }
