@@ -2,14 +2,14 @@
     "guest-posting": {
         "forum": {
             "alert": {
-                "create-account": "",
-                "create-account-votes-only": "",
-                "create-account-posts-and-votes": "",
+                "create-account": "Loo kohe konto ja impordi oma {count} postitust!",
+                "create-account-votes-only": "Loo kohe konto ja impordi oma {count} vastust!",
+                "create-account-posts-and-votes": "Loo kohe konto ja impordi oma {postCount} postitust ja {voteCount} vastust!",
                 "signup": "Liitu"
             },
             "modal": {
                 "import": "Impordi minu {count} külalisena tehtud postitust",
-                "import-votes": ""
+                "import-votes": "Impordi minu {postCount} külalisena tehtud postitust ja {voteCount} häält"
             },
             "badge": {
                 "guest": "Külaline"
