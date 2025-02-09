@@ -12,23 +12,23 @@
                 },
                 "rich-excerpts": {
                     "label": "Näita väljavõtteid kasutades rikkaliku tekstivormingut",
-                    "help": ""
+                    "help": "Kui see on sisse lülitatud, siis kokkuvõttesse kaasatakse pilte, põimitud sisu ma muud mittetekstilist sisu kaasatakse sisu kokkuvõttes"
                 },
                 "excerpt-type": {
                     "label": "Kas postitust peaks näitama kui väljavõtet?",
-                    "help": ""
+                    "help": "Vali kas kokkuvõtte jaoks kasutatakse esimest või viimast postitust"
                 },
                 "first-label": "Esimene postitus",
                 "last-label": "Viimane postitus",
-                "tags-enabled": ""
+                "tags-enabled": "Lisaprogramm <code>flarum/tags</code> peab olema sisse lülitatud. Need saavad vaikeväärtuseks, kui igale sildile ei määrata eraldi seadeid."
             }
         },
         "forum": {
             "user": {
                 "settings": {
                     "summaries-heading": "Kokkuvõte",
-                    "show-summaries": "",
-                    "show-summaries-mobile": ""
+                    "show-summaries": "Näita vestluste nimekirjas väljavõtet igast vestlusest (arvutis/tahvlil)",
+                    "show-summaries-mobile": "Näita vestluste nimekirjas väljavõtet igast vestlusest (mobiilil)"
                 }
             }
         }
