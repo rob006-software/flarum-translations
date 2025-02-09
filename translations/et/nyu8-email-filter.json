@@ -3,7 +3,7 @@
         "admin": {
             "general": "Üldine",
             "custom_failure_message_label": "Kohandatud ebaõnnestumise teade",
-            "custom_failure_message_hint": "",
+            "custom_failure_message_hint": "Kohandatud veateade, mida näidatakse sobimatu e-posti aadressi puhul. Kui see lahter on tühi, siis näidatakse vaikimisi sõnumit.",
             "rule_settings": "Reegli seaded",
             "name_placeholder": "Reegli nimi",
             "invalid_regular_expression": "Vigane regulaaravaldis",
@@ -14,7 +14,7 @@
             },
             "whitelist_regex": {
                 "label": "Regulaaravaldiste valge nimekiri",
-                "description": "",
+                "description": "E-posti regulaaravaldised valgesse nimekirja",
                 "placeholder": "Regulaaravaldis valgesse nimekirja..."
             },
             "blacklist_literal": {
@@ -23,15 +23,15 @@
                 "placeholder": "E-post musta nimekirja..."
             },
             "blacklist_regex": {
-                "label": "",
-                "description": "",
+                "label": "Musta nimekirja regulaaravaldised",
+                "description": "E-posti regulaaravaldised musta nimekirja",
                 "placeholder": "Regulaaravaldis musta nimekirja..."
             }
         },
         "forum": {
-            "generic_exception": "",
-            "blacklist_exception": "",
-            "whitelist_exception": ""
+            "generic_exception": "Midagi läks valesti. Võta ühendust selle kogukonna administraatoriga.",
+            "blacklist_exception": "See e-posti aadress või selle domeen on selle kogukonna mustas nimekirjas.",
+            "whitelist_exception": "See e-posti aadress või selle domeen pole selle kogukonna valges nimekirjas."
         }
     }
 }
