@@ -7,13 +7,13 @@
                     "regex": "Sisestatud domeen pole korrektne"
                 },
                 "proxy_domain": {
-                    "regex": ""
+                    "regex": "Sisestatud proksi domeen pole korrektne"
                 }
             },
             "settings": {
                 "enable": {
                     "label": "Sisse lülitatud",
-                    "help": ""
+                    "help": "Kasuta seda valikut, kui soovid kaasata jälgimiskoodi."
                 },
                 "domain": {
                     "label": "Domeen",
@@ -21,11 +21,11 @@
                 },
                 "proxy_domain": {
                     "label": "Proksi domeen",
-                    "help": ""
+                    "help": "Kust JS koodi laaditakse. Jäta tühjaks, kui soovid kasutada plausible.io. See aitab ennetada reklaaiblokeerijatel jälgimiskoodi eemaldamist. Vaata lisainfot Plausible dokumentatsioonist."
                 },
                 "exclude_admin": {
-                    "label": "",
-                    "help": ""
+                    "label": "Eira adminiliidest",
+                    "help": "Selle abil jäetakse adminid sisu jälgimisest välja."
                 }
             }
         }
