@@ -6,9 +6,9 @@
             },
             "settings": {
                 "api_key": "API võti",
-                "api_key_help": "",
+                "api_key_help": "API kontrollkoodi loomiseks järgi juhendit <strong><url>API kontrollkoodi loomine</url></strong>.",
                 "refresh_zone_button_label": "Värskenda tsooni iD-d",
-                "refresh_zone_help": "",
+                "refresh_zone_help": "Vajuta ülalolevale nupule <strong>ainult</strong> siis, kui domeeni nime muudatakse.",
                 "security_level_label": "Turvalisuse tase",
                 "security_level_options": {
                     "off": "Väljas",
@@ -21,22 +21,22 @@
                 "minify_setting": {
                     "section_title": "Minify seaded",
                     "css": "Minify CSS",
-                    "css_help": "",
+                    "css_help": "Vähenda oma veebisaidi CSS failide suurust automaatselt.",
                     "html": "Minify HTML",
-                    "html_help": "",
+                    "html_help": "Vähenda oma veebisaidi HTML failide suurust automaatselt.",
                     "js": "Minify JS",
-                    "js_help": ""
+                    "js_help": "Vähenda oma veebisaidi JavaSkripti failide suurust automaatselt."
                 },
                 "r2": {
                     "section_title": "R2",
-                    "bucket_name": "",
+                    "bucket_name": "Korvi nimi",
                     "access_key_id": "Ligipääsuvõtme ID",
                     "access_key_secret": "Ligipääsuvõtme salasõna",
                     "public_domain": "Avalik domeen",
                     "s3_api": "S3 API"
                 },
-                "refer_to": "",
-                "confirm_text": ""
+                "refer_to": "Vaata lisainfot <strong><url>siit lehelt</url></strong>.",
+                "confirm_text": "Oled sa kindel?"
             }
         }
     }
