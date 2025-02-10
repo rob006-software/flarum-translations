@@ -15,7 +15,7 @@
                 "not_configured": "Seadistamata",
                 "app": {
                     "button_label": "Autentimise rakendus",
-                    "button_help": "",
+                    "button_help": "Saad ligipääsu koodi oma autentimise rakenduselt.",
                     "setup": {
                         "title": "Seadista autentimise rakendus",
                         "password_placeholder": "Parool",
@@ -23,28 +23,28 @@
                         "close_button_label": "Sulge",
                         "invalid_passcode": "Vigane parool või kood.",
                         "disable": {
-                            "enter_code_disable": "",
+                            "enter_code_disable": "Sisesta kood, et lülitada välja kahe-etapilise autentimise rakendus.",
                             "button_label": "Lülita välja",
                             "success": "Autentimise rakendus on välja lülitatud."
                         },
                         "enable": {
                             "button_label": "Lülita sisse",
                             "success": "Autentimise rakendus on sisse lülitatud.",
-                            "scan_qr": "",
+                            "scan_qr": "Skänni seda QR-koodi oma kahe-etapilise autentimise seadmega, et seadistada oma konto.",
                             "enter_code_manually": "Sisesta kood käsitsi",
                             "backups": {
-                                "message": "",
-                                "download_button_label": "",
-                                "download_file_format": "",
-                                "copy_button_label": ""
+                                "message": "Hoia need taastamise koodid turvalises kohas. Kui kaotad oma kahe-etapilise autentimise seadme, siis neid ühekordseid koode saab kasutada määratud järjekorras, et sinu kontole sisse logida.\n",
+                                "download_button_label": "Laadi alla",
+                                "download_file_format": "{website_title} | {website_url}\n\nHoia need tagavarakoodid kusagil turvalises, aga kergesti kättesaadavas kohas.\n\nKOODIDE NIMEKIRI\n\n{codes}\n\n* Iga varukoodi saab kasutada ainult ühe korra.\n* Neid koode PEAB kasutana etteantud järjekorras.\n* Need koodid loodi: {date}.\n",
+                                "copy_button_label": "Kopeeri"
                             }
                         }
                     }
                 }
             },
             "login": {
-                "title": "",
-                "placeholder_label": "",
+                "title": "Kahe-etapiline autentimine",
+                "placeholder_label": "Vali autentimise viis...",
                 "submit_button_label": "Logi sisse",
                 "auth_buttons": {
                     "app": "Autentimise rakendus"
@@ -58,7 +58,7 @@
         "lib": {
             "edit_user": {
                 "section_title": "Kahe-etapiline autentimine",
-                "disable_confirmation": "",
+                "disable_confirmation": "Oled sa kindel. Oled keelamas seda autentimise meetodit kasutaja jaoks.",
                 "placeholder_text": "Pole midagi välja lülitada",
                 "app": {
                     "label": "Autentimise rakendus"
