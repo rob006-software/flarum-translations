@@ -3,12 +3,12 @@
         "admin": {
             "countryColumn": "Riik",
             "showFlagsOnPosts": "Näita postitustel lippe",
-            "showFlagsOnPosts_text": "",
+            "showFlagsOnPosts_text": "Näita lippe (teksti) postituste juures",
             "set_on_registration_label": "Luba liitumisel riigi määramine",
             "required_label": "Nõutud riik sisenemiseks",
-            "required_help": "",
+            "required_help": "Selle valiku töötamiseks pead lubama oma riigi valimise",
             "bind_label": "Seosta nõutud sisenemise riigiga",
-            "bind_help": ""
+            "bind_help": "Lisa kontole jõuga riik, kui kasutaja pole seda ise määranud"
         },
         "forum": {
             "inputCountryCode": "Riigi kood",
@@ -16,7 +16,7 @@
             "clickToSelectCountry": "Vali oma riik",
             "countrySaved": "Riik on salvestatud!",
             "field_placeholder": "Kinnita riigi lipud",
-            "binding_country": "",
+            "binding_country": "Märkasime, et sa pole märkinud oma asukohta. Palun vali esmalt oma riik. Saad postitada alles pärast oma riigi valimist.",
             "binding_country_click": "Kliki kohe"
         }
     }
