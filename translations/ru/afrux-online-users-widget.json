@@ -2,12 +2,12 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
+                "cache_ttl": "Время кэширования списка пользователей (в сек.)",
+                "last_seen_interval": "Время от последнего появления пользователя для учета его как присутствующего (в мин.)",
                 "max_users": "Максимально отображаемое количество участников"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Показать виджет \"Пользователи в сети\""
             }
         },
         "forum": {
