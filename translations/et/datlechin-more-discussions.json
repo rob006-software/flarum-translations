@@ -7,16 +7,16 @@
                 "discussion_limit_label": "Vestluse limiit",
                 "discussion_limit_help": "Näidatavate vestluste arv (vaikimisi <code>5</code>)",
                 "discussion_related_label": "Seotud tulemused",
-                "discussion_related_help": "",
+                "discussion_related_help": "Otsi seotud tulemusi vestluse pealkirjade järgi. <b>Hoiatus:</b> see võib mõjutada sinu saidi kiirust, eriti, kui sul on suur foorum. Selle lahendamiseks võid kasutada seda valikut koos lisaprogrammiga <b>clarkwinkelmann/flarum-ext-scout</b>.",
                 "filter_by_label": "Filtreeri",
                 "filter_by_help": "Filtreeri vestlusi (vaikimisi <code>viimased</code>)",
                 "filter_dropdown": {
                     "latest": "Viimased",
-                    "top": "",
+                    "top": "Üles",
                     "newest": "Uusimad",
                     "oldest": "Vanimad",
                     "hot": "Trendikas (nõutud lisaprogramm fof/gamification)",
-                    "votes": ""
+                    "votes": "Ülespoole hääletamised (nõutud lisaprogramm fof/gamification)"
                 }
             }
         },
