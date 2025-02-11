@@ -1,7 +1,7 @@
 {
     "xypp-store": {
         "forum": {
-            "time_segs": "",
+            "time_segs": "päevad|tunnid|minutid",
             "store": "Pood",
             "purchase-history": "Ostetud",
             "create": "Loo kirje",
@@ -19,7 +19,7 @@
             "unavailable": {
                 "common": {
                     "unknown": "Ei saa osta",
-                    "no_rest": ""
+                    "no_rest": "Pole enam järgi"
                 }
             },
             "create-modal": {
@@ -31,10 +31,10 @@
                 "provider_data": "Teenusepakkuja andmed",
                 "use_cnt": "Mitu korda saab kasutada",
                 "expire_time": "Aegumine",
-                "expire_time_tip": "",
-                "rest_cnt": "",
-                "rest_cnt_tip": "",
-                "edit-title": "",
+                "expire_time_tip": "Jäta tühjaks, et välja lülitada või määra number, mis näitab aegumist sekundites.",
+                "rest_cnt": "Järgi",
+                "rest_cnt_tip": "Jäta see tühjaks, et aegumist poleks. Või määra soovitud number.",
+                "edit-title": "Muuda kirjet #{0}",
                 "edit-button": "Muuda",
                 "button": "Loo",
                 "success": "Kirje on loodud",
@@ -66,10 +66,10 @@
                 "use": "Kasuta",
                 "rest_cnt": "Saab kasutada {0} korda",
                 "infinity_use": "Piiramatu kasutus",
-                "expire": "",
-                "forever": "",
-                "confirm_use": "",
-                "unable_to_use": "",
+                "expire": "Aegub {0}",
+                "forever": "Saadaval alati",
+                "confirm_use": "Kinnitada kasutamist?",
+                "unable_to_use": "Seda kirjet ei saa kasutada",
                 "not_found": "Kirjet ei leitud"
             },
             "query-modal": {
@@ -85,9 +85,9 @@
                 "fail": {
                     "unknown": "Tundmatu viga",
                     "error": "Viga kirje kasutamisel",
-                    "not_enough": "",
+                    "not_enough": "Pole kasutamiseks piisavalt",
                     "cannot": "Ei saa seda kirjet kasutada",
-                    "fail_expire": "",
+                    "fail_expire": "Selle kirje aegumise märkimine ebaõnnestus",
                     "id_not_found": "Kirje ID-d ei leitud",
                     "expired": "Kirje on aegunud"
                 }
