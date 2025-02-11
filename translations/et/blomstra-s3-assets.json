@@ -2,10 +2,10 @@
     "blomstra-s3-assets": {
         "admin": {
             "settings": {
-                "configured_by_environment": "",
-                "aws-section": "",
-                "s3-compatible-section": "",
-                "s3-compatible-section-help": "",
+                "configured_by_environment": "Sinu korvi seaded on eelseadistatud. Siin pole midagi vaadata.",
+                "aws-section": "Need seaded on nõutud nii AWS S3 kui S3-ga ühilduvate korvide jaoks",
+                "s3-compatible-section": "Need seaded on nõutud S3-ga ühilduvate korvide jaoks",
+                "s3-compatible-section-help": "Jäta need seaded tühjaks, kui kasutad AWS S3-e",
                 "s3key": {
                     "label": "Võti",
                     "help": "abiinfo"
