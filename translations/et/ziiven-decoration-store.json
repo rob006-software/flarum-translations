@@ -20,7 +20,7 @@
             "item-cost": "Hind",
             "item-cost-free": "Tasuta",
             "item-amount": "Laos",
-            "item-stock-remaining": "",
+            "item-stock-remaining": "Laoseis",
             "item-sold": "Müügid",
             "item-discount-ribbon": "ALE {discount}%",
             "item-discount-days-text": "Allahindlus kestab: {days} päeva",
@@ -51,8 +51,8 @@
             "item-expired": "Tellimus on tühistatud",
             "item-already-have": "Kirje on juba ostetud",
             "item-property-style-text-effect": "Eelvaate tekst",
-            "item-purchase-status-button-0": "",
-            "item-purchase-status-button-1": "",
+            "item-purchase-status-button-0": "Varusta ühikuga",
+            "item-purchase-status-button-1": "Eemalga ühik",
             "item-purchase-title": "Kirje nimi",
             "item-purchase-purchase-type": "Ostu liik",
             "item-purchase-cost": "Ostuhind",
@@ -65,7 +65,7 @@
             "item-purchase-item-status-0": "Pole kasutuses",
             "item-purchase-item-status-1": "Kasutuses",
             "item-purchase-subscribe-item-status-0": "Tellimine. Pole kasutusel",
-            "item-purchase-subscribe-item-status-1": "",
+            "item-purchase-subscribe-item-status-1": "Tellimine. Kasutuses",
             "item-purchase-date": "Ostu kuupäev",
             "item-status-to-0-confirmation": "",
             "item-status-to-1-confirmation": "",
@@ -86,7 +86,7 @@
             "notification-receive-subscription": "Tellimustasu maha võtmine",
             "notifications": {
                 "subscription-expired": "Sinu tellimus {title} on aegunud",
-                "subscription-expired-excerpt": "",
+                "subscription-expired-excerpt": "Sul pole piisavalt {cost} raha, et tellida",
                 "subscription-fee-deduction": "Tellimuse tasu {title}",
                 "subscription-fee-deduction-excerpt": "Hind {cost}"
             }
