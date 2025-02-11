@@ -1,7 +1,7 @@
 {
     "xelson-chat": {
         "forum": {
-            "pusher_not_found": "",
+            "pusher_not_found": "Jututoa reaalajas uuendamiseks on vaja teenust Pusher või Websockets.",
             "index": {
                 "chat_link": "Jututuba"
             },
@@ -66,7 +66,7 @@
                 },
                 "list": {
                     "pin": "Kinnita paneel",
-                    "unpin": "",
+                    "unpin": "Eemalda paneeli kinnitus",
                     "placeholder": "Filtreeri jututubasid",
                     "preview": {
                         "empty": "Sõnumeid pole"
@@ -80,7 +80,7 @@
                             "channel": "Loo uus kanal"
                         },
                         "alerts": {
-                            "exists": ""
+                            "exists": "Sa ei saa selle kasutajaga teist privaatsõnumit luua!"
                         },
                         "form": {
                             "title": {
@@ -114,7 +114,7 @@
                     },
                     "censored": "Logi sisse, et näha seda sõnumit!",
                     "deleted": "kustutas",
-                    "deleted_forever": "",
+                    "deleted_forever": "igaveseks kustutatud. Kustutas",
                     "you": "Sina",
                     "type": {
                         "url": "URL",
@@ -126,43 +126,43 @@
                             "created": "{creatorname} lõi {chatname} ja kutsus {usernames}"
                         },
                         "pm": {
-                            "created": ""
+                            "created": "{creatorname} alustas vestlust kasutajaga {username}"
                         },
                         "channel": {
-                            "created": ""
+                            "created": "{creatorname} lõi kanali {chatname}"
                         },
                         "title": {
-                            "edited": ""
+                            "edited": "{editorname} muutis jututoa pealkirja. Vana {old} Uus {new}"
                         },
                         "icon": {
-                            "edited": ""
+                            "edited": "{editorname} muutis jututoa ikooni. Vana {old}. Uus {new}"
                         },
                         "color": {
-                            "edited": ""
+                            "edited": "{editorname} muutis jututoa värvi. Vana {old} Uus {new}"
                         },
                         "users": {
                             "invited": "{editorname} kutsus {usernames}",
-                            "kicked": "",
-                            "invited_kicked": ""
+                            "kicked": "{editorname} viskas välja kasutaja {usernames}",
+                            "invited_kicked": "{editorname} kutsus kasutajad {invitednames} ja viskas välja kasutajad {kickednames}"
                         },
                         "self": {
-                            "leaved": "",
-                            "entered": ""
+                            "leaved": "{username} lahkus jututoast",
+                            "entered": "{username} sisenes jututuppa"
                         }
                     }
                 }
             },
             "errors": {
-                "unauthenticated": "",
-                "chatdenied": "",
-                "removed": ""
+                "unauthenticated": "Ainult registreerunud kasutajad saavad jututuba kasutada",
+                "chatdenied": "Sinu kasutajagrupil pole lubatud sõnumeid kirjutada",
+                "removed": "Sind eemaldati jututoast"
             }
         },
         "admin": {
             "permissions": {
-                "post": "",
-                "edit": "",
-                "delete": "",
+                "post": "Postita jututuppa",
+                "edit": "Jututoa vestluste muutmine",
+                "delete": "Jututoa sõnumite kustutamine",
                 "enabled": "Jututoa lubamine",
                 "create": {
                     "chat": "Jututoa alustamine",
