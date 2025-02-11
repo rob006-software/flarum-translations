@@ -45,14 +45,14 @@
                 "name": "Kategooria nimi",
                 "description": "Kategooria kirjeldus",
                 "blockview": "Ploki-vaade",
-                "blockview_description": "",
+                "blockview_description": "Näita kategooria aumärke sildi ülevaates aumärke kategooriates. Kui see on välja lülitatud, siis näidatakse aumärke tabelina.",
                 "enabled": "Sisse lülitatud",
-                "enabled_description": ""
+                "enabled_description": "Lülita see kategooria sisse. Kui see on välja lülitatud, siis kategooria ja selles olevad aumärgid peidetakse."
             },
             "auto_moderator": {
                 "not_installed": {
                     "title": "Autasusta kasutajaid aumärgiga automaatselt",
-                    "content": "",
+                    "content": "See lisaprogramm pakub rohkem funktsioone kui sul on paigaldatud ja aktiveeritud lisaprogramm <a>Auto Moderator</a>. Kui paigaldad selle lisaprogrammi, siis saavad kasutajad automaatselt autasuks aumärke ilma kogukonna moderaatori vahelesegamiseta!",
                     "install": "Paigalda",
                     "dismiss": "Ära näita uuesti"
                 },
@@ -97,16 +97,16 @@
                 "category": "Aumärgi kategooria",
                 "received_on": "Saadud {date}",
                 "badge_details": "Aumärgi üksikasjad",
-                "earned_count": "",
-                "earned_by_count": "",
+                "earned_count": "{count, plural, one {<b># kasutaja</b> on selle aumärgi välja teeninud} other {<b># kasutajat</b> on selle aumärgi välja teeninud}}",
+                "earned_by_count": "{count, plural, one {Teenis <b># kasutaja</b>} other {Teenis <b># kasutajat</b>}}",
                 "others_link": "+ veel {count}"
             },
             "badges_in_card": {
                 "title": "Aumärgid kasutaja kaardil",
                 "manage_badges": "Halda aumärke",
-                "description": "",
-                "select_limit": "",
-                "hit_limit": ""
+                "description": "Võid oma kasutajakaardil näha olevaid aumärke muuta valides oma aumärkide vahel. Kui sa ei vali midagi, siis valitakse need automaatselt.",
+                "select_limit": "Võid valida {limit, plural, one {<b>ühe aumärgi</b>} other {<b># aumärki</b>}}, mis on nähtavad sin ukasutaja kaardil.",
+                "hit_limit": "Sinu kaardil on ruumi ainult <b> {limit, plural, one {<b>ühele aumärgile</b>} other {<b># aumärgile</b>}}</b>. Tühista mõne eelneva aumärgi valimine, et sellele ruumi teha."
             },
             "moderation": {
                 "remove_badge": "Eemalda kasutajalt aumärke",
