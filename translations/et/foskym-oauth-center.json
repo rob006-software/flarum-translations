@@ -14,9 +14,9 @@
                 "display_mode": "Näitamise režiim",
                 "access_lifetime": "Ligipääsukoodi pikkus (sekundites)",
                 "allow_implicit": "Luba selge kasutusõigus (vastuse_liik=kood)",
-                "enforce_state": "",
-                "require_exact_redirect_uri": "",
-                "authorization_method_fetch": "",
+                "enforce_state": "Sunni peale staatuse kontrollimine (staatuse parameeter)",
+                "require_exact_redirect_uri": "Nõua tõpset ümbersuunamise URI",
+                "authorization_method_fetch": "Autoriseerimise viis on tõmbamine (Pole otseselt ümbersuunamine)",
                 "allow_delete_records": "Luba autoriseerimis sissekannete kustutamine"
             },
             "clients": {
