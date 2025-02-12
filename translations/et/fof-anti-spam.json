@@ -14,7 +14,7 @@
                     "delete_posts_label": "Kustuta postitused",
                     "delete_posts_help": "See kustutab jäädavalt kõigi selle kasutaja poolt tehtud postitused. Kui see on välja lülitatud, siis pannakse postitused prügikasti.",
                     "heading": "Vaikimisi modereerimise tegevused",
-                    "introduction": "",
+                    "introduction": "Kui kasutaja märgitakse spämmijaks, siis saavad moderaatorid valida erinevate tegevuste vahel vastavalt sellele, kuidas nad soovivad seda juhtumit käsitleda. Need seaded võimaldavad sul määratleda eelnevalt tegevused, mida sa tavapäraselt teed, et protsessi kiirendada, aga samas jätab see sulle vajaduse korral alles ka paindlikkuse.\n",
                     "move_discussions_to_tags_label": "Liiguta vestlused siltide alla",
                     "move_discussions_to_tags_help": "See liigutab kõik selle kasutaja poolt tehtud postitused sinu valitud sildi (siltide) alla. Siltide valiku eemaldamine jätab vestluse selle alge sildi (või siltide) alla. Sellel pole mingit mõju, kui valik 'Kustuta vestlused' on sisse lülitatud."
                 },
@@ -25,30 +25,30 @@
                     "ip_label": "IP aadressi rämpsposti tõrje",
                     "email_label": "E-posti rämpsposti tõrje",
                     "frequency_label": "Lävi",
-                    "frequency_help": "",
+                    "frequency_help": "Säpmmiks märkimiste arv kõigi kontrollide peale kokku, mis käivitavad selle spämmi filtri.\nNt: Kui E-posti aadress annab 1 punkti ja ip annab 2 punkti, siis see annab kokku 3 punkti. Kui läveks on määratud 3 või vähem, siis see blokeerib liitumise.\n",
                     "api_key_label": "API võti",
-                    "api_key_text": "",
-                    "api_key_instructions_text": "",
+                    "api_key_text": "Sul on võimalus teavitada spämmijatest StopForumSpamteenust, et hoida suurem foorumite kasutajaskond spämmivabana.",
+                    "api_key_instructions_text": "<register>Liitu teenusega StopForumSpam</register>. Siis pead hankima omale <key>API võtme</key>.",
                     "regional_endpoint_label": "Asukohapõhine ligipääs",
                     "regional_endpoint_help": "Vaikimisi suunatakse sind lähimasse serverisse, et anda sulle võimalikult kiire vastus. Kui soovid piirata saidi liiklust mingi konkreetse piirkonnaga, et pidada kinni ettevõtte või riigi privaatsusreeglitest, siis saad sundida looma ühenduse mingi konkreetse piirkonna kaudu.",
                     "region_closest_label": "Lähimad",
                     "region_europe_label": "Euroopa",
                     "region_us_label": "USA",
                     "confidence_label": "Kindlus",
-                    "confidence_help": "",
+                    "confidence_help": "Kindluse skoor on mõistlikul tasemel hea indikaator, see väli vajaks tähelepanu soovimatu tegevuse vältimiseks. Määra oma kindluse tase protsentides. Kui see väli on võrdne või kõrgem kui see number, siis liitumine blokeeritakse vaatamata ülalolevatele 'sageduse' testi tulemustele.",
                     "email_hash_label": "Kasuta räsitud e-posti aadressi",
                     "email_hash_help": "Kui sa ei soovi e-postiaadressi ennast saata, siis saada e-posti aadressi MD5 räsi. See meetod läheb mööda kõigist mustadest nimekirjadest normaliseerimine peitmise kannete kontrollimisest.",
                     "sfs_lookup_label": "Kontrolli liitumisi",
-                    "sfs_lookup_help": "",
+                    "sfs_lookup_help": "Kui see on sisse lülitatud, siis kontrollitakse sinu foorumisse uute liitunud kasutajate puhul StopForumSpam andmebaasi. Kui kasutajat ei leitud (kasutajanimi, IP aadress, e-post) ja see andmepunkt on sisse lülitatud koos sinu poolt soovitud SFS kindluse tasemega, siis blokeeritakse kasutaja liitumine.",
                     "report_blocked_registrations_label": "Teavita blokeeritud registreerumistest",
-                    "report_blocked_registrations_help": ""
+                    "report_blocked_registrations_help": "Kui kasutaja blokeeritakse registreerumisel, siis edastatakse info selle katse kohta ka StopForumSpam andmebaasi, et spämmijate tegevust saaks paremini kinnitada. Selle kasutamise jaoks peab olema StopForumSpam API võti sisestatud (vaata allpool)."
                 }
             },
             "blocked_registrations": {
                 "button": "Blokeeritud liitumised",
                 "title": "Blokeeritud liitumised",
                 "no-records": "Ühtegi blokeeritud liitumist ei leitud.",
-                "help": "",
+                "help": "See lehekülg näitab kõiki registreerumise katseid, mis on StopForumSpam teenuse poolt blokeeritud. Võid näha iga registreerumise üksikasju ja kui soovid, siis võid sissekande andmebaasist kustutada.\n",
                 "attempted-at": "Katse aeg",
                 "ip": "IP aadress",
                 "email": "E-posti aadress",
@@ -62,7 +62,7 @@
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "Sinu liitumise üksikasjad on leitud spämmi ennetamise andmebaasist ning seetõttu on sinu liitumine blokeeritud."
                 }
             },
             "spammer_modal": {
@@ -78,7 +78,7 @@
                 "process_button": "Töötle",
                 "title": "Märgi {username} spämmijaks",
                 "report_to_sfs_label": "Teavita StopForumSpam-i",
-                "report_to_sfs_help": ""
+                "report_to_sfs_help": "See saadab kasutaja põhiinfo (kasutajanimi, e-posti aadress, IP-aadress) StopForumSpamile. See aitab ennetada kasutajate registreerumist teistel saitidel, mis kasutavad StopForumSpam teenust."
             },
             "user_controls": {
                 "spammer_button": "Spämmija"
