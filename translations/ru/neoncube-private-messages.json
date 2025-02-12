@@ -2,58 +2,58 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "return_key_help": "",
-                "show_read_receipts": "",
-                "show_read_receipts_help": "",
-                "message_recipient_background_color": "",
-                "message_recipient_background_color_help": ""
+                "return_key": "Отправка сообщений по клавише \"Enter\"",
+                "return_key_help": "Сделайте так, чтобы при нажатии клавиши \"enter\" отправлялось сообщение. Если эта функция отключена, при нажатии клавиши \"enter\" будет добавляться новая строка, и пользователь должен нажать кнопку \"Отправить сообщение\", чтобы отправить сообщение.",
+                "show_read_receipts": "Показать прочитанные сообщения",
+                "show_read_receipts_help": "Установите флажок рядом с сообщением, когда получатель его прочтет.",
+                "message_recipient_background_color": "Настройка цвета для получателя сообщения",
+                "message_recipient_background_color_help": "."
             },
             "permissions": {
-                "start_label": "",
-                "allow_users_to_receive_email_notifications": ""
+                "start_label": "Начать диалог",
+                "allow_users_to_receive_email_notifications": "Разрешить пользователям получать уведомления по электронной почте, когда они получают личное сообщение"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Диалоги"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Начать диалог",
+                "help": "Начните вводить имя пользователя, чтобы начать чат",
+                "help_start": "Введите свое первое сообщение. Это будет единственное сообщение, которое вы сможете отправить, пока не ответит {username}. Нажмите на имя пользователя, чтобы выбрать другого получателя.",
+                "search_recipients": "Введите имя",
+                "submit": "Отправить и начать диалог",
+                "copied": "Ваше сообщение было скопировано в буфер обмена.",
+                "more_users": "Если вы не видите нужного пользователя, значит, у него не настроены личные сообщения.",
+                "already": "У вас уже есть открытый диалог с {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "message_read": ""
+                "messages_single": "Новый диалог",
+                "messages_multiple": "Всего сообщений: {count}",
+                "chat_with": "Диалог с {username}",
+                "start": "Начать диалог",
+                "start_of_conversation": "Начать диалог",
+                "read": "Прочесть",
+                "cant_start": "Не получается начать разговор",
+                "text_placeholder": "Введите текст сообщения",
+                "send": "Отправить",
+                "message_read": "Сообщение отправлено"
             },
             "notifications": {
-                "message_received": "",
-                "new_private_message": "",
+                "message_received": "Тест",
+                "new_private_message": "Кто-то прислал сообщение",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "Сообщение от {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
-                        "manageEmailSettings": ""
+                        "subject": "Сообщение от {user}",
+                        "youHaveReceivedNewMessage": "У Вас есть новое сообщение от {user}!",
+                        "viewMessage": "Прочесть сообщение",
+                        "manageEmailSettings": "Настройки email"
                     }
                 }
             }
