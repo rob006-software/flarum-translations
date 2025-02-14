@@ -54,9 +54,9 @@
                 "total_votes": "{count, plural, one {# голос получен} other {# голосов получено}}"
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
                 "delete_confirmation": "Удалить опрос?",
                 "delete_success_message": "Опрос удалён.",
                 "delete_error_message": "Что-то пошло не так при удалении опроса."
@@ -70,7 +70,7 @@
             },
             "polls_list": {
                 "empty_text": "Похоже, что здесь нет опросов.",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -107,8 +107,8 @@
                 "question_placeholder": "Вопрос",
                 "subtitle_placeholder": "Описание (опционально)",
                 "submit": "Сохранить",
-                "delete": "",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "Изображение к опросу",
                     "help": "Загрузите изображение, которое будет отображаться рядом с опросом (необязательно).",
