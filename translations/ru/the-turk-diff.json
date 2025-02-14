@@ -3,19 +3,19 @@
         "forum": {
             "revisions": "{revisionCount, plural, one {{revisionCount} правка} other {{revisionCount} правок}}",
             "emptyText": "Нет правок",
-            "editedText": "",
+            "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(удалено)",
             "tooltips": {
                 "mostRecent": "самая последняя",
-                "originalContent": "",
-                "revisionWithNumber": "",
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
                 "sideBySide": "с двух сторон",
                 "inline": "в линию",
                 "combined": "Комбинированный",
-                "preview": ""
+                "preview": "=> core.forum.composer.preview_tooltip"
             },
             "optionsButton": "Опции",
-            "deleteButton": "",
+            "deleteButton": "=> core.forum.post_controls.delete_button",
             "rollbackButton": "Откат к редакции {number}",
             "rollbackToOriginalButton": "Откат к оригиналу",
             "revertChangesButton": "Отменить изменения",
@@ -25,21 +25,21 @@
             "deleteErrorMessage": "Не удалось удалить содержимое правки.",
             "rollbackSuccessMessage": "Ваши изменения были отменены.",
             "deleteSuccessMessage": "Содержимое правки было удалено.",
-            "editedInfo": "",
+            "editedInfo": "=> core.forum.post.edited_tooltip",
             "deletedInfo": "{username} удалил этот контент {ago}",
             "createdInfo": "{username} написал {ago}",
             "revisionInfo": "Отредактировано {revisionCount, plural, one {{revisionCount} раз} other {{revisionCount} раза}}, новая версия выше",
             "noDiff": "Никаких различий между этими двумя правками обнаружено не было.",
             "differences": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
-                "sentence": ""
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
+                "sentence": "Вы видите отличие между {old} и {new}"
             },
             "previewMode": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
                 "sentence": "Вы просматриваете {content}"
             }
         },
@@ -64,21 +64,21 @@
                 "archiveOlds": "Архив старых редакций",
                 "archiveOldsInfo": "Если <strong>x ≥ A</strong>, первая <strong>y=mx+b</strong> правки для публикации будут сохранены как объединенные и сжатые.Значение <strong>x</strong> относится к количеству правок записи. Значения с плавающей запятой в <strong>y</strong> будут округлены до следующего наименьшего целого значения.",
                 "useCrons": "Используйте crons для архивирования старых редакций",
-                "useCronsHelp": "",
-                "archiveInfo": ""
+                "useCronsHelp": "Вы должны добавить запись Cron на свой сервер, чтобы эта опция заработала. Она будет работать еженедельно по воскресеньям в 02:00. Если вы отключите эту опцию и включите выше, все изменения в записи будут проверяться для архивации при редактировании соответствующей записи.",
+                "archiveInfo": "Имейте в виду, что вы можете отключить обе опции и запустить команду <code>php flarum diff:archive</code>, чтобы вручную заархивировать старые версии."
             },
             "permissions": {
-                "viewEditHistory": "",
-                "deleteEditHistory": "",
-                "selfDeleteEditHistory": "",
-                "rollbackEditHistory": "",
-                "selfRollbackEditHistory": ""
+                "viewEditHistory": "Смотреть историю правок",
+                "deleteEditHistory": "Удалить другие правки из истории",
+                "selfDeleteEditHistory": "Удалить собственную историю правок",
+                "rollbackEditHistory": "Откатить историю редактирования другими пользователями",
+                "selfRollbackEditHistory": "Откатить собственную историю правок"
             }
         },
         "ref": {
-            "originalContent": "",
-            "currentContent": "",
-            "revisionWithNumber": ""
+            "originalContent": "оригинал",
+            "currentContent": "текущая версия",
+            "revisionWithNumber": "версия № {number}"
         }
     }
 }
