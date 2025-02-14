@@ -794,6 +794,9 @@ return [
 	'huseyinfiliz-modern-footer' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v0.8/resources/locale/en.yml',
 	],
+	'huseyinfiliz-notificationhub' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/notificationhub/v0.2/resources/locale/en.yml',
+	],
 	'huseyinfiliz-private-profile' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/private-profile/v1.1/locale/en.yml',
 	],
