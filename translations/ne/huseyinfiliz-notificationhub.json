@@ -1,0 +1,65 @@
+{
+    "huseyinfiliz-notificationhub": {
+        "admin": {
+            "title": {
+                "page_title": ""
+            },
+            "permissions": {
+                "send_all": "",
+                "send_user": ""
+            },
+            "settings": {
+                "add_button": "",
+                "no_data": "",
+                "delete_confirm": "",
+                "fields": {
+                    "actions": "",
+                    "name": "",
+                    "excerpt_key": "",
+                    "description": "",
+                    "icon": "",
+                    "default_message_key": "",
+                    "permission": "",
+                    "color": "",
+                    "default_url": "",
+                    "default_recipients": "",
+                    "sort_order": "",
+                    "active": ""
+                },
+                "save": "",
+                "edit_notification_type": "",
+                "add_notification_type": ""
+            }
+        },
+        "forum": {
+            "links": {
+                "notification_individual": "",
+                "notification_all": ""
+            },
+            "modal_notification": {
+                "title_text": "",
+                "recipients_label": "",
+                "recipients_placeholder": "",
+                "message_label": "",
+                "url_label": "",
+                "url_placeholder": "",
+                "submit_button": "",
+                "notification_sent_message": "",
+                "notification_type_label": "",
+                "no_notification_types": "",
+                "preview_title": "",
+                "preview_message_placeholder": ""
+            },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            }
+        },
+        "api": {
+            "message_required": "",
+            "user_ids_required": "",
+            "subject_id_required": "",
+            "no_valid_recipients": ""
+        }
+    }
+}
