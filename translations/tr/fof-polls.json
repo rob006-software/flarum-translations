@@ -51,7 +51,7 @@
                 "submit_button": "Oyla",
                 "start_poll_button": "Genel Anket Başlat",
                 "cannot_start_poll_button": "Genel Anket Başlatılamıyor",
-                "total_votes": ""
+                "total_votes": "{count, plural, one {# oy verildi} other {# oy verildi}}"
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
