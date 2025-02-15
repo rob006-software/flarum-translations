@@ -2,43 +2,43 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "通知类型"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "向所有用户发送通知",
+                "send_user": "向特定用户发送通知"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "添加通知类型",
+                "no_data": "尚未设置通知类型。",
+                "delete_confirm": "确定要删除此通知类型及其所有相关通知吗？",
                 "fields": {
                     "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
+                    "name": "通知类型名称",
+                    "excerpt_key": "默认摘要",
+                    "description": "通知类型描述",
+                    "icon": "默认图标",
+                    "default_message_key": "默认消息",
+                    "permission": "通知类型权限",
+                    "color": "通知类型颜色",
+                    "default_url": "默认链接",
+                    "default_recipients": "默认收件人",
+                    "sort_order": "排序顺序",
                     "active": ""
                 },
-                "save": "",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "save": "保存",
+                "edit_notification_type": "编辑消息类型",
+                "add_notification_type": "=> huseyinfiliz-notificationhub.admin.settings.add_button"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "发送通知",
+                "notification_all": "=> huseyinfiliz-notificationhub.forum.links.notification_individual"
             },
             "modal_notification": {
-                "title_text": "",
-                "recipients_label": "",
+                "title_text": "=> huseyinfiliz-notificationhub.forum.links.notification_individual",
+                "recipients_label": "收件人",
                 "recipients_placeholder": "",
                 "message_label": "",
                 "url_label": "",
