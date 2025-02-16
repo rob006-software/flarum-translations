@@ -4,7 +4,7 @@
             "data": {
                 "uploads": {
                     "export_description": "Kõik kasutaja poolt üles laaditud failid.",
-                    "anonymize_description": "",
+                    "anonymize_description": "Eemaldab üleslaaditud failidelt viite kasutajale. Failid ise jäävad kättesaadavaks kasutajatele, kes nägid neid enne anonümiseerimist.",
                     "delete_description": "Kustutab kõik kasutaja poolt üleslaaditud failid."
                 }
             }
@@ -17,7 +17,7 @@
             },
             "shared-uploads": {
                 "description": "Laadib üles failid, mida saavad kasutada kõik sinu foorumi kasutajad.",
-                "introduction": "",
+                "introduction": "Jagatud üleslaadimised on failid, mida saavad kasutada kõik sinu foorumi kasutajad. Need pole seotud ühegi postitusega, aga neid saab sisestada kasutaded failihaldurit.\n\n<strong>Hoiatus:</strong> Jagatud üleslaadimised pole õigustega kaitstud. Kõik, kellel on nende URL, saavad neid näha.\n",
                 "no-files": "Ühtegi jagatud faili pole veel üles laaditud.",
                 "title": "Jagatud üleslaadimised",
                 "upload-new-button": "Laadi üles uus fail"
@@ -27,18 +27,18 @@
                 "description": "Seadista üleslaadimise teenused ja eelistused."
             },
             "help_texts": {
-                "disable-download-logging": "",
+                "disable-download-logging": "Lülita iga kasutajate poolt tehtud allalaadimiste logimine. Kui lülitad selle sisse, siis näed allalaadimiste arvu ja varsti ka muid andmeid.\n",
                 "disable-hotlink-protection": "Otse linkimise kaitse takistab pildi lisamist teistele saitidele. Praegune meetod nõuab csrf kontrollkoodi ja postituse ID-d.\n",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "custom_s3_url": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "download_templates": "Allalaadimise mallid, mida kasutatakse üleslaadimiste näitamiseks sinu foorumis, nt eelvaated, nupud. Praegu on saadaval:\n",
+                "mime_types": "Palun seadista oma seosed siin. Iga failitüübi regulaaravaldist käsitleb konkreetne üleslaadimise adapter ja allalaadimise mall.\n",
+                "resize": "Vali kas sa soovid enne piltide üleslaadimist nende suurust muuta. Saad valida maksimaalse kõrguse ja laiuse pikslites. Suuruse muutmine säilitab pildi külgede suhte.\n",
+                "client_extension": "Vaikimisi valib lisaprogramm turvalise faililaiendi vastavalt failitüübile.\nMõningate ZIP-il põhinevate failitüüpide puhul võib selle tulemusena kasutada valet faililaiendit.\nSiin saad määrata komadega eraldatud nimekirja faililaienditest, mis säilitatakse nii nagu nad on.\n",
+                "watermark": "Vali kas piltidele lisatakse üleslaadimisel ka vesipilt. Vesipildid lisatakse kõigile piltidele välja arvatud GIF-id.\n",
+                "s3_compatible_storage": "Järgnevad seaded on vajalikud ainult siis, kui kasutad S3-ga ühilduvat säilitusteenust. Kui kasutad AWS-i, siis võid need tühjaks jätta.\n",
+                "s3_acl": "ACL, mida peaks rakendama üleslaaditud objektile (vaikimisi: privaatne). Võimalikke väärtuseid näed lingilt https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "Kasuta seda seadet, kui kasutad S3-ga ühilduvat teenust, mis nõuab konkreetset URL-i formaati (nt., Backblaze B2) või kui sul on probleeme vaikimisi URL-i vorminguga. Need seaded pole enamike teenuste jaoks vajalikud. Veendu, et sinu URL-is oleks ka protokoll (https://) ja, et see oleks korrektselt vormindatud. Näide: https://your-bucket.s3.your-region.backblazeb2.com\n",
+                "s3_instance_profile": "Jäta võti ja salasõna tühjaks et kasutada profiilis olevaid kasutajaandmeid.\n",
+                "composer_buttons": "Vaikimisi näidatakse nii failihalduri nuppu kui ka üleslaadimise nuppu. Võid ka valida, kas soovid näidata ainult ühte neist nuppudest.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -49,8 +49,8 @@
                     "title": "AWS S3 salvestamise seaded",
                     "advanced_title": "S3 säilituskoha lisaseaded",
                     "endpoint": "Lõpp-punkt",
-                    "use_path_style_endpoint": "",
-                    "acl": "",
+                    "use_path_style_endpoint": "Kasuta asukoha-stiilis lõpp-punkti",
+                    "acl": "Ligipääsuõigused (ACL)",
                     "custom_url": "Kohandatud S3 URL"
                 },
                 "disable-download-logging": {
@@ -80,7 +80,7 @@
                     "max_file_size": "Maksimaalne failisuurus (kilobaitides)",
                     "mime_types": "Seadista oma failitüüpi, üleslaadimise tüübi kaardistamine",
                     "title": "Üldised eelistused",
-                    "php_ini_values": ""
+                    "php_ini_values": "Sinu <code>php.ini</code> väärtused on <code>post_max_size={post}</code> ja <code>upload_max_filesize={upload}</code>. Veendu, et siin määratud suurused oleksid väiksemad, kui need suurused või siis kohanda neid seadeid vastavalt oma vajadustele. Kui kasutad <code>Nginx</code>-i, siis veendu, et seade <code>client_max_body_size</code> suurus oleks sinu maksimaalse suurusega kooskõlas ja sinu vajadustele vastav."
                 },
                 "resize": {
                     "max_width": "Maksimaalne pildi laius/kõrgus",
@@ -116,17 +116,17 @@
             },
             "templates": {
                 "file": "Vaikimisi faili allalaadimise mall",
-                "file_description": "Näitab failinime ja üldist infot. Allalaadimis suunatakse läbi PHP, mis lubab koguda statistikat ja kaitseb otsese linkimise eest.\n",
+                "file_description": "Näitab failinime ja üldist infot. Allalaadimised suunatakse läbi PHP, mis lubab koguda statistikat ja kaitseb otsese linkimise eest.\n",
                 "image": "Vaikimisi pildi allalaadimise mall",
-                "image_description": "",
-                "image-preview": "Lõpeta pildi eelvaate mall",
-                "image-preview_description": "",
+                "image_description": "Näitab pisipilti ja suunab allalaadimised läbi PHP, mis lubab koguda statistikat ja kaitseb otsese linkimise eest.\n",
+                "image-preview": "Täitsuuruses pildi eelvaate mall",
+                "image-preview_description": "Näitab täissuuruses pilti teksti sees. Allalaadimise võimalust pole. Statistikat ei koguta ja otse linkimise kaitset pole.\n",
                 "markdown-image": "Markdowni pildi mall",
-                "markdown-image_description": "",
+                "markdown-image_description": "Näitab täissuuruses faili kasutades Markdowni. <strong>Selle töötamiseks peab sul olema paigaldatud ja sisse lülitatud lisaprogramm flarum/markdown.</strong> Allalaadimise võimalust pole, statistikat ei koguta ja otsese linkimise kaitset pole.\n",
                 "bbcode-image": "BB-koodi pildi mall",
-                "bbcode-image_description": "",
+                "bbcode-image_description": "Näitab täissuuruses faili kasutades BB-koodi. <strong>Selle töötamiseks peab sul olema paigaldatud ja sisse lülitatud lisaprogramm flarum/bbcode.</strong> Allalaadimise võimalust pole, statistikat ei koguta ja otsese linkimise kaitset pole.\n",
                 "just-url": "Ainult URL",
-                "just-url_description": "Sisestab ainult URL-i. Näitamist võivad mõjutada teised lisaprogrammid, mis saavad automaatselt linke luua. Allalaadimise funktsioone pole, statistikat ei koguta ning otselinkide kaitsemist ignoreeritakse.\n",
+                "just-url_description": "Sisestab ainult URL-i. Näitamist võivad mõjutada teised lisaprogrammid, mis saavad automaatselt linke luua. Allalaadimise funktsioone pole, statistikat ei koguta ning otselinkide kaitsemist pole.\n",
                 "text-preview": "Teksti eelvaade",
                 "text-preview_description": "Sisestab tekstifaili eelvaate (esimesed 5 rida) koos võimalusega seda laiendada, et näha kogu faili sisu.\n"
             },
@@ -140,12 +140,12 @@
             },
             "inspect-mime": {
                 "title": "Inspekteeri failitüüpi",
-                "description": "",
+                "description": "FoF Upload ukasutab <a>PHP Mime Detector</a> teeki tavapäraste failitüüpide jaoks ning PHP Fileinfot varuvariandina.\nFileinfo poolt väljastatud failitüüp võib erinevatel serveritel olla erinev!\n",
                 "select": "Vali alt fail, et inspekteerida väärtuseid, mida kasutatakse. Faili ei salvestata.",
                 "laravel-validation": "Laravel failide kinnitamine",
                 "no-file-selected": "Faili pole",
                 "validation-passed": "Korras",
-                "validation-failed": "Evaõnnestus: {error}",
+                "validation-failed": "Ebaõnnestus: {error}",
                 "mime-detector": "Failitüübi tuvastaja (peamine)",
                 "mime-fileinfo": "PHP failiinfo (tagavaravariant)",
                 "guessed-extension": "Vaikimisi faililaiend (kui algne pole valges nimekirjas)",
@@ -153,7 +153,7 @@
             }
         },
         "forum": {
-            "media_manager": "Meediahaldur",
+            "media_manager": "Failihaldur",
             "buttons": {
                 "attach": "Lisa fail",
                 "upload": "Laadi üles",
@@ -174,8 +174,8 @@
             "text_preview": {
                 "expand": "Laienda eelvaateid",
                 "collapse": "Sulge eelvaade",
-                "error": "",
-                "no_snippet_preview": "<eelvaadet näidatakse siin pätast postitamist>",
+                "error": "Viga faili eelvaate loomisel. See võib olla kustutatud või faili ID on vigane.\n",
+                "no_snippet_preview": "<eelvaadet näidatakse siin pärast postitamist>",
                 "no_snippet": "<eelvaate vidinat pole saadaval>"
             }
         },
@@ -226,7 +226,7 @@
                 "hide_shared_file": {
                     "btn_a11y_label_hide": "Tee fail \"{fileName}\" privaatseks (pole avalikku URL-i)",
                     "btn_a11y_label_show": "Tee fail \"{fileName}\" avalikuks (avalik URL)",
-                    "hide_confirmation": "",
+                    "hide_confirmation": "Oled sa kindel, et soovid teha faili \"{fileName}\" privaatseks? Faili privaatseks tegemine eemaldab avalik URL-i, aga see ei mõjuta olemasolevaid postitusi. See pole ka enam failihalduris volitamata kasutajatele nähtav.",
                     "hide_success": "Fail tehti privaatseks",
                     "show_confirmation": "Oled sa kindel, et soovid teha faili \"{fileName}\" avalikuks? Faili avalikuks tegemine, teeb selle nähtavaks kõigile, kellel on ligipääs avalikult lingile ja kõik saavad seda failihalduriga jagada.",
                     "show_success": "Fail tehti avalikuks",
