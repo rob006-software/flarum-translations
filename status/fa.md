@@ -435,7 +435,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Compatible with recent Flarum">🟢</span><span title="Extension is abandoned">❗</span>
 			<a href="https://github.com/blomstra/flarum-ext-horizon" title="blomstra/horizon"><code>blomstra/horizon</code></a>
 		</td>
 		<td align="center">38<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
