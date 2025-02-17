@@ -14,15 +14,15 @@
         },
         "forum": {
             "log_in": {
-                "with_wordpress_button": ""
+                "with_wordpress_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "wordpress": ""
+                "wordpress": "=> fof-oauth.lib.providers.wordpress"
             }
         },
         "lib": {
             "providers": {
-                "wordpress": ""
+                "wordpress": "WordPress （英文）"
             }
         }
     }
