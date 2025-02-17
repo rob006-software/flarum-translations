@@ -1271,6 +1271,9 @@ return [
 	'ordinaryjellyfish-automod' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/ordinaryjellyfish-automod.yml',
 	],
+	'ordinaryjellyfish-sentra' => [
+		'tag' => 'https://raw.githubusercontent.com/OrdinaryJellyfish/sentra/0.1.1/locale/en.yml',
+	],
 	'peruguitar-user-portrait' => [
 		'tag' => 'https://raw.githubusercontent.com/Anexsoft/peruguitar-flarum-ext-user-portrait/1.0.4/locale/en.yml',
 	],
