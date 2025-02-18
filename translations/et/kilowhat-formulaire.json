@@ -23,8 +23,8 @@
             "settings": {
                 "title": "Vormi üldised seaded",
                 "max-file-size": "Maks. failisuurus (kB)",
-                "history-controls": "",
-                "side-nav-on-submission": "",
+                "history-controls": "Näita esitamise lehel tühistamise/kordamise nuppu",
+                "side-nav-on-submission": "Näita lisamise lehel külgriba",
                 "checkbox-style": "Märkekasti stiil",
                 "radio-style": "Raadiovalik",
                 "style-options": {
@@ -37,18 +37,18 @@
                 },
                 "horizontal-layout": "Kasuta horisontaalset vormi paigutust",
                 "horizontal-layout-locations": {
-                    "standaloneEdit": "",
+                    "standaloneEdit": "Eraldi täitmise/muutmise lehekülg",
                     "standaloneView": "Eraldiseisev vaatamise lehekülg",
                     "profileEdit": "Profiili muutmise lehekülg",
                     "profileView": "Profiili vaatamise lehekülg",
-                    "signUp": "",
+                    "signUp": "Liitumise hüpikaken (ainult Formulaire väljad)",
                     "discussionEdit": "Vestluse muutmine hüpikaknas",
                     "discussionView": "Vestluse vaatamise konteiner",
                     "discussionComposer": "Vestluse loomine"
                 },
                 "uniformComposerLayout": "",
                 "uniformComposerLayoutHelp": "",
-                "noByobuFields": "",
+                "noByobuFields": "Ära integreeri vestluse väljasid privaatsete vestlustega lisaprogrammis Byobu",
                 "noByobuFieldsHelp": ""
             }
         },
@@ -60,7 +60,7 @@
                 "header": {
                     "title": "=> kilowhat-formulaire.ref.manager",
                     "documentation": "Täielik dokumentatsioon",
-                    "discuss": ""
+                    "discuss": "Vestlus Flarumis"
                 },
                 "tabs": {
                     "standalone": "=> kilowhat-formulaire.ref.type.standalone",
@@ -136,7 +136,7 @@
                 "restore": "Taasta",
                 "hide": "Kustuta",
                 "delete": "Kustuta jäädavalt",
-                "delete-confirmation": "",
+                "delete-confirmation": "Vorm \"{title}\" kustutatakse jäädavalt",
                 "fields": {
                     "private-title": "Privaatne pealkiri",
                     "slug": ""
@@ -144,12 +144,12 @@
             },
             "form-edit": {
                 "warnings": {
-                    "show-on-signup-invalid-permissions": "",
+                    "show-on-signup-invalid-permissions": "Kui soovid kasutada \"näita liitumisel\", siis peab heakskiitmata liikmetel olema õigused \"näe enda oma\" ja \"muuda enda oma\".\n",
                     "show-on-composer-invalid-permissions": "",
                     "linked-form-is-draft": "See vorm on praegu veel mustand. Anna kasutajatele \"Ligipääs\" väljadele, et need oleksid foorumis nähtavad.\n",
                     "auto-link-permission-warning": ""
                 },
-                "expert-mode-warning": "",
+                "expert-mode-warning": "Eksperdirežiim on sisse lülitatud. See võimaldab sul muuta välja identifikaatoreid ja õiguseid igal väljal eraldi. Veendu, et sa oleksid tuttav nende funktsioonide dokumentatsiooniga, kuna need võivad ka sinu saidi lõhkuda!\n",
                 "section": {
                     "template": "Mall",
                     "permissions": "Õigused"
@@ -169,8 +169,8 @@
                     "enable": "Lülita sisse",
                     "max-submissions": "Maksimaalne vastamiste arv (kui piirangut pole, siis jäta tühjaks)",
                     "send-confirmation-to-participants": "Saada kinnituskiri osalejatele",
-                    "notify-emails": "",
-                    "web-confirmation-message": "",
+                    "notify-emails": "Saada koopia andmetest neile komadega eraldatud e-posti aadressidele",
+                    "web-confirmation-message": "Sõnumi kinnitus veebis (vormindamine on sisse lülitatud)",
                     "permission-see-own": "Enda sisestatud info nägemine",
                     "permission-see-any": "Kõikide sisestatud info nägemine",
                     "permission-edit-own": "Oma vastuste muutmine",
@@ -386,11 +386,11 @@
             "formatter-parsing-error": "Sisu näitamine ebaõnnestus: {message}",
             "not-allowed-to-fill-field": "Sul pole luba selle välja väärtust muuta",
             "duplicate-field-key": "Võti peab olema unikaalne",
-            "cannot-change-form-type": "",
+            "cannot-change-form-type": "Sa ei saa muuta vormi liiki, kui sellel vormil on juba vastuseid",
             "unknown-form": "Tundmatu vormi ID {id}",
             "unauthorized-form": "Sul pole õigusi vormi {id} täitmiseks",
-            "unauthorized-scoped-form": "",
-            "unsupported-discussion-form": "",
+            "unauthorized-scoped-form": "Sa ei saa täita vormi ID {id} praeguse sildi kombinatstioonidega",
+            "unsupported-discussion-form": "Sa ei saa täita vormi ID {id} seda liiki vestluses",
             "file-already-belongs-form": "Fail {id} kuulub teise vormi",
             "file-already-belongs-submission": "Fail {id} kuulub teisele vastusele",
             "export": {
