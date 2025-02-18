@@ -16,15 +16,15 @@
                 "section_sso_intro": "",
                 "enable_sso": "Lülita SSO integratsioon sisse",
                 "login_method": "Üldine sisselogimise mehhanism",
-                "login_method_help": "",
+                "login_method_help": "\"Küpsis\" töötab ainult siis, kui WordPress ja Flarum jagavad kõrgema astme domeeni. \"Ümbersuunamine\" tekitab ümbersuunamise igal sisselogimisel ka siis, kui kasutaja ei plaani foorumit külastada. \"Peidetud Iframe\" õhendab ainult siis, kui külastad Flarumit, põhjustades esimesel avamisel lehe taaslaadimise. Kombineerituna alloleva \"Iframe viivitusega\" saab seda kasutada ainult sisselogimisel.\n",
                 "login_method_options": {
                     "cookie": "Küpsis",
                     "redirect": "Suuna ümber",
                     "iframe": "Peidetud raam"
                 },
                 "cookie_domain": "Küpsise domeen",
-                "cookie_domain_help": "",
-                "iframe_redirect_delay": "",
+                "cookie_domain_help": "Seda seadet kasutatakse ainult siis, kui kasutad küpsisega sisselogimist. Vajad seda väärtust ainult siis, kui saidid on erinevatel alamdomeenidel.\n",
+                "iframe_redirect_delay": "Iframe ümbersuunamise viivitus (millisekundites)",
                 "iframe_redirect_delay_help": "",
                 "wordpress_login_path": "WordPressi sisselogimise asukoht",
                 "wordpress_login_path_help": "Vajalik ainult siis, kui sa nimetasid oma sisselogimise lõpp-punkti käsitsi või plugina kaudu",
@@ -38,24 +38,24 @@
                 },
                 "username_strategy_help": "Kui kasutajanimi on Flarumis juba olemas, siis lisatakse sellele number",
                 "force_username_choice": "Lase kasutajatel esimese külastuse ajal nende kasutajanimi valida",
-                "force_username_choice_help": "",
+                "force_username_choice_help": "Vaikimisi väärtus, mis sisestatakse üleval valitud reeglida.",
                 "welcome_message": "Tutvustav sõnum",
-                "welcome_message_help": "",
+                "welcome_message_help": "Seda sõnumit näidatakse, kui kasutaja külastab foorumit esimest korda koos kasutajanime valikuga (kui see on sisse lülitatud).",
                 "wordpress_login_only": "Luba ainult WordPressi sisselogimine",
                 "wordpress_login_only_help": "",
                 "user_delete": "Tegevus, kui kasutaja kustutatakse WordPressist",
                 "user_delete_options": {
                     "ignore": "Ignoreeri (säilita Flarumi kasutaja)",
                     "delete": "Kustuta Flarumi kasutaja",
-                    "suspend": ""
+                    "suspend": "Külmuta Flarum kasutajakonto igaveseks (Lisaprogramm Suspend peab olema sisse lülitatud)"
                 },
-                "user_delete_desc": "",
-                "role_group_sync": "",
+                "user_delete_desc": "Kui valid \"kustuta\", siis kustutatakse ainult kasutaja, mitte nende sisu Flarumis.",
+                "role_group_sync": "Rolli ja grupi sünkroniseerimine",
                 "role_group_sync_help": "",
                 "section_comments_intro": "",
                 "enable_comments": "Lülita kommentaaride integreerimine sisse",
                 "excerpt_html_whitelist": "",
-                "excerpt_html_nodes": "",
+                "excerpt_html_nodes": "Sisu väljavõtte pikkus (HTML sisu järgi)",
                 "excerpt_length": "",
                 "post_thumbnail_summary": "Näita WordPressi postituse pisipilti väljavõtte kohal",
                 "post_thumbnail_list": "Näita WordPressi postituse pisipilti Flarumi vestluste nimekirjas",
@@ -69,7 +69,7 @@
                 "summary_as_last_post_help": "",
                 "use_post_date": "Kasuta Wordpressi postituse kuupäeva vestluse loomise ajana",
                 "use_post_date_help": "",
-                "post_hide": "",
+                "post_hide": "Toiming, kui WordPressi postitus peidetakse (liigutatakse prügikasti või mustanditesse)",
                 "post_hide_options": {
                     "ignore": "Ignoreeri (lukusta vestlus vastavalt seadele Luba kommentaarid)",
                     "lock": "Lukusta vestlused Flarumis",
@@ -81,7 +81,7 @@
                     "ignore": "Ignoreeri (säilita Flarumi vestluse olek)",
                     "lock": "Säilita Flarumi vestlus ja lukusta",
                     "hide": "Peida vestlused Flarumis",
-                    "delete": ""
+                    "delete": "Kustuta vestlus päsivalt Flarumist"
                 }
             },
             "tabs": {
@@ -93,7 +93,7 @@
                 "disabled": "Välja lülitatud"
             },
             "appearance": {
-                "edit_css_button": ""
+                "edit_css_button": "Muuda kohandatud CSS-i ainult WordPressiga põimimise jaoks"
             },
             "edit_css": {
                 "title": "Muuda kohandatud põimitud CSS-i",
@@ -103,7 +103,7 @@
                 "gambits": ""
             },
             "save-controls": {
-                "validation-errors": "",
+                "validation-errors": "Leidsime sinu esitatud sisus probleeme",
                 "unsaved-changes": "Sul on salvestamata muudatusi",
                 "saved-at": "Salvestatud {ago} tagasi",
                 "no-unsaved-changes": "Kõik on salvestatud",
@@ -150,7 +150,7 @@
         "forum": {
             "welcome-modal": {
                 "title": "Teretulemast!",
-                "default_message": "",
+                "default_message": "Teretulemast foorumisse. Vali kasutajanimi ning oledki valmis jätkama!",
                 "username": "Vali kasutajanimi",
                 "submit": "Lülita foorumi konto sisse",
                 "not_now": "Jäta vahele ja jätka külalisena"
@@ -163,10 +163,10 @@
                 "button": "Logi kohe sisse ja värskenda"
             },
             "edit-user-modal": {
-                "warning": "",
+                "warning": "Seda kasutajat hoitakse WordPressiga sünkroonis. Peaksid muutma e-posti ja parooli WordPressis.\n",
                 "edit_in_wordpress": "Muuda WordPressis",
-                "should_not_edit_email": "",
-                "unlink": "",
+                "should_not_edit_email": "Peaksid muutma e-posti aadressi WordPressis. <a>Muuda sellegipoolest</a>",
+                "unlink": "Eemalda kasutaja seos WordPressi kasutajaga",
                 "unlink_help": ""
             },
             "settings": {
