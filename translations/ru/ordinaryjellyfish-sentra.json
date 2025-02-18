@@ -1,33 +1,33 @@
 {
     "ordinaryjellyfish-sentra": {
         "admin": {
-            "api_key": "",
-            "endpoint": "",
-            "enable": "",
+            "api_key": "API ключ",
+            "endpoint": "Конечная точка",
+            "enable": "Разрешить",
             "permissions": {
-                "bypass": ""
+                "bypass": "Обойти Sentra"
             },
             "services": {
-                "heading": "",
-                "content_safety": "",
-                "content_safety_help": "",
+                "heading": "Сервисы",
+                "content_safety": "Безопасность контента Azure ИИ",
+                "content_safety_help": "Безопасность контента Azure ИИ это сервис для обнаружения оскорбительного или нежелательного контента в текстах и изображениях.",
                 "content_safety_settings": {
-                    "analyze_images": ""
+                    "analyze_images": "Анализировать изображения"
                 }
             },
             "modules": {
-                "heading": "",
-                "requires": "",
-                "requires_error": "",
-                "post_shield": "",
-                "post_shield_help": "",
+                "heading": "Модули",
+                "requires": "Требуются <b>{services}</b>",
+                "requires_error": "Для использования этого модуля пожалуйста включите и настройте все требуемые сервисы.",
+                "post_shield": "Post Shield",
+                "post_shield_help": "Post Shield это модуль для обнаружения оскорбительного или нежелательного контента в сообщениях. Проверяется всё содержание сообщения, включая изображения, если разрешено в настройках сервиса Безопасность контента Azure ИИ.",
                 "post_shield_settings": {
-                    "harm_categories": "",
-                    "severity_level": "",
-                    "severity_level_low": "",
-                    "severity_level_medium": "",
-                    "severity_level_high": "",
-                    "severity_level_unknown": ""
+                    "harm_categories": "Нежелательные категории",
+                    "severity_level": "Уровень значимости",
+                    "severity_level_low": "Низкий",
+                    "severity_level_medium": "Средний",
+                    "severity_level_high": "Высокий",
+                    "severity_level_unknown": "Неизвестный"
                 }
             }
         },
