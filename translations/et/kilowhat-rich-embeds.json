@@ -32,9 +32,9 @@
                 "blacklistHelp": "",
                 "whitelist": "URL-ide valge nimekiri",
                 "whitelistHelp": "",
-                "imageEmbeds": "",
+                "imageEmbeds": "Piltide rikkalik põimimine",
                 "imageEmbedsHelp": "",
-                "flarumApiPreviews": "",
+                "flarumApiPreviews": "Lülita Flarumi edasijõudnud eelvaated sisse",
                 "flarumApiPreviewsHelp": "",
                 "githubApiKey": "GitHub API võti",
                 "githubApiKeyHelp": "",
@@ -66,7 +66,7 @@
                 "useOnOwnPost": "",
                 "disableOnOwnPost": "",
                 "refreshOnOwnPost": "",
-                "disableOnAnyPost": "",
+                "disableOnAnyPost": "Põimimised väljalülitamine ükskõik millises postituses",
                 "refreshOnAnyPost": ""
             },
             "preview": {
@@ -132,11 +132,11 @@
                         }
                     },
                     "pull": {
-                        "type": "",
+                        "type": "Tõmbamisi",
                         "stats": {
                             "commentCount": "Kommentaare",
                             "reviewCount": "Ülevaateid",
-                            "commitCount": "",
+                            "commitCount": "Panustamisi",
                             "createdAt": "Loodud"
                         }
                     },
@@ -148,7 +148,7 @@
                         "stats": {
                             "openIssueCount": "Avatud probleemid",
                             "subscriberCount": "Vaatajaid",
-                            "stargazerCount": "",
+                            "stargazerCount": "Tähti",
                             "forkCount": ""
                         }
                     }
@@ -157,12 +157,12 @@
                     "siteName": "YouTube",
                     "video": {
                         "type": "Video",
-                        "thumbnailAlt": "",
+                        "thumbnailAlt": "Video pisipilt",
                         "stats": {
                             "viewCount": "Vaatamisi",
                             "likeCount": "Meeldimisi",
                             "commentCount": "Kommentaare",
-                            "publishedAt": ""
+                            "publishedAt": "Avaldatud"
                         }
                     }
                 },
@@ -170,7 +170,7 @@
                     "siteName": "Google Drive",
                     "file": {
                         "type": "Fail",
-                        "thumbnailAlt": "",
+                        "thumbnailAlt": "Google Drive-i faili eelvaade",
                         "stats": {
                             "size": "Failisuurus",
                             "createdTime": "Loodud",
