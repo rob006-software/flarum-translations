@@ -2,16 +2,16 @@
     "nodeloc-lottery": {
         "admin": {
             "settings": {
-                "allow_option_image": "",
+                "allow_option_image": "Luba iga loterii valikule lisada pildi URL",
                 "max_options": "Maksimaalne valikute arv loterii kohta",
-                "options_color_blend": "",
+                "options_color_blend": "Teksti värvi sulatamine loterii valikutes",
                 "options_color_blend_help": ""
             },
             "permissions": {
                 "seeParticipants": "Vaata osalejaid",
                 "start": "Käivita loterii",
                 "self_edit": "Loteriide muutmine (nõuab postituse muutmise õigust)",
-                "self_post_edit": "",
+                "self_post_edit": "*Kõikide* oma postituse küljes olevate loteriide muutmine (nõuab postituse muutmise õigust)",
                 "enter": "Võib osaleda loetriis",
                 "canCancelEnter": "Võib tühistada osalemist",
                 "moderate": "Loetriide muutmine ja eemaldamine"
@@ -104,12 +104,12 @@
         },
         "email": {
             "subject": {
-                "drawLottery": ""
+                "drawLottery": "Loteriis osalemise teavitus {discussion_title}"
             },
             "body": {
-                "drawLottery": "",
-                "fail": "",
-                "finish": ""
+                "drawLottery": "Hei {recipient_display_name},\n\nÕnnitlused! Võitsid vestluse {discussion_title} autorilt {actor_display_name} .\n\nVaata seda siin: {discussion_url}\n",
+                "fail": "Hei {recipient_display_name},\n\nVabandust, aga vestluses {discussion_title} polnud piiavalt osalejaid.\n\nHeida sellele siin pilk peale: {discussion_url}\n",
+                "finish": "Hei {recipient_display_name},\n\nÕnnitlused! Loetii on edukalt lõpetatud.\n\nVaata vestlust siit {discussion_url} ja lõpeta loterii.\n\nAitäh!\n"
             }
         }
     }
