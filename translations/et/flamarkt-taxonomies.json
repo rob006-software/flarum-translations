@@ -92,7 +92,7 @@
                     "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
                 },
                 "delete": "=> flamarkt-taxonomies.ref.delete",
-                "deleteConfirmation": "",
+                "deleteConfirmation": "Kas sa tõesti soovid terminit {name} kustutada? Seda terminit kasutavaid vestlusi EI kustutata.\n",
                 "submit": {
                     "new": "=> flamarkt-taxonomies.ref.submit.new",
                     "edit": "=> flamarkt-taxonomies.ref.submit.edit"
@@ -101,12 +101,12 @@
             "permissions": {
                 "heading": "Taksonoomiad",
                 "moderate": "Seadista saadaolevaid taksonoomiaid",
-                "bypassTermCounts": "",
+                "bypassTermCounts": "Eira terminite arvu nõuet",
                 "seeOwnDiscussion": "Vaata liigitamisi omaenda vestlustel",
                 "seeAnyDiscussion": "Vaata liigitamisi kõigil vestlustel",
                 "editOwnDiscussion": "Muuda oma vestluste liigitamisi",
                 "editAnyDiscussion": "Kõigi vestluste taksonoomiate muutmine",
-                "seeOwnUser": "",
+                "seeOwnUser": "Oma kasutaja taksonoomiate nägemine",
                 "seeAnyUser": "Iga kasutaja taksonoomiate vaatamine",
                 "editOwnUser": "Enda kasutaja taksonoomia muutmine",
                 "editAnyUser": "Iga kasutaja taksonoomia muutmine",
@@ -140,7 +140,7 @@
                     "new": "Vali oma vestluse {taxonomy}",
                     "edit": "Muuda {title} taksonoomiat {taxonomy}"
                 },
-                "placeholder": "",
+                "placeholder": "{count, plural, one {Vali termin...} other {Vali # terminit...}}",
                 "placeholderOptional": "Vali...",
                 "custom": "Kasuta {value}",
                 "bypassTermCounts": "Eira terminite arvu",
@@ -149,8 +149,8 @@
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": "",
-                "discussion_taxonomy_not_in_scope": "",
+                "invalid_filter_taxonomy": "Vigane \"{type}\" taksonoomia filtri võti \"{slug}\"",
+                "discussion_taxonomy_not_in_scope": "Taksonoomia \"{slug}\" pole praeguste sildikombinatsioonidega saadaval",
                 "cannot_use_taxonomies_on_model": "Sul pole luba selles kontekstis taksonoomiat kasutada"
             }
         },
