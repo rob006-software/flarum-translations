@@ -1271,6 +1271,9 @@ return [
 	'ordinaryjellyfish-automod' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/ordinaryjellyfish-automod.yml',
 	],
+	'ordinaryjellyfish-dicebear' => [
+		'tag' => 'https://raw.githubusercontent.com/OrdinaryJellyfish/flarum-dicebear/1.0.0/locale/en.yml',
+	],
 	'ordinaryjellyfish-sentra' => [
 		'tag' => 'https://raw.githubusercontent.com/OrdinaryJellyfish/sentra/0.1.1/locale/en.yml',
 	],
