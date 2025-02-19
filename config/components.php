@@ -639,7 +639,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mason/1.2.1/resources/locale/en.yml',
 	],
 	'fof-masquerade' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/2.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/2.1.6/resources/locale/en.yml',
 	],
 	'fof-merge-discussions' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/1.4.1/resources/locale/en.yml',
