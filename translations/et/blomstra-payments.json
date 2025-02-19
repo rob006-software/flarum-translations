@@ -2,7 +2,7 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": ""
+                "mostBacked_button": "Enim toetatud"
             }
         }
     },
@@ -20,7 +20,7 @@
                 "bounty": "Annetus",
                 "ptv": "Vaatamiseks maksa",
                 "pta": "Makstud ligipääs",
-                "ptb": "",
+                "ptb": "Makstud esiletõstmine",
                 "ptp": "Makstud avaldamiseks",
                 "cancel-control": "Loobu",
                 "none": "Makseid või aktiivseid tellimusi pole"
@@ -32,17 +32,17 @@
                 "purchase-control": "Maksmiseks vaata",
                 "purchase-log-in": "Vaatamiseks logi sisse ja maksa",
                 "purchase-completed": "Avatud",
-                "description": ""
+                "description": "Sellest punktist edasi vaatamiseks on vaja maksta. Maksta saad läbi meie makseteenuse pakkuja Stripe.\n"
             },
             "pay-to-post": {
                 "purchase-control": "Avaldamiseks maksa",
                 "purchase": "Osta avaldamise õigus",
-                "purchase_required": ""
+                "purchase_required": "Vestlus avaldatakse pärast seda kui oled lõpetanud makse läbi meie makseteenusepakkuja Stripe. Ostmiseks ja maksevalikute nägemiseks kliki.\n"
             },
             "pay-to-bump": {
-                "description": "",
-                "purchase-control": "",
-                "purchase-log-in": ""
+                "description": "{count, plural, one {Seda vestlust tõsteti esile} other {{count} inimest tõstsid seda vestlust esile}}.",
+                "purchase-control": "Maksa esile tõstmiseks",
+                "purchase-log-in": "Logi sisse ja maksa edasitõstmise eest"
             },
             "bounties": {
                 "purchase-control": "Lisa annetus",
@@ -55,15 +55,15 @@
             },
             "backers-widget": {
                 "backers": "Toetajad",
-                "label": "",
+                "label": "{currency} {sum} küsitud",
                 "none": "Toetajaid pole veel.",
-                "pledged": ""
+                "pledged": "Küsitud"
             },
             "tag": {
                 "require-payment-label": "Makse on nõutud"
             },
             "payment-options-modal": {
-                "title": "",
+                "title": "Maksevalikud grupile {group} ligipääsemiseks",
                 "description": ""
             },
             "access-portal": {
@@ -90,10 +90,10 @@
                 "select-ptv-product-description": "",
                 "visible-from": "Peida postitused selle lävi juures",
                 "visible-from-description": "",
-                "select-ptb-product": "",
-                "select-ptb-product-description": "",
-                "bump-others": "",
-                "bump-others-description": "",
+                "select-ptb-product": "(PTB) nõutud toode",
+                "select-ptb-product-description": "Toote valimiseks on vaja enne selle eest maksta, et saaksid vestlusi esile tõsta.\n",
+                "bump-others": "(PTB) Lubab teistel vestlusi esile tõsta",
+                "bump-others-description": "Kui see on sisse lülitatud, siis vestluse autor saab makse abil vestlust esile tõsta.\n",
                 "select-bounty-product": "(Annetus) Nõutud toode",
                 "select-bounty-product-description": ""
             },
@@ -107,7 +107,7 @@
                 "sk": "Salajane (API) võti",
                 "webhook-secret": "",
                 "link-access-portal": "",
-                "link-to-terms": "",
+                "link-to-terms": "Maksetingimuste URL",
                 "recount-total-discussion-bounties": ""
             },
             "permission": {
