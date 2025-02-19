@@ -9,14 +9,14 @@
                 "moneyname": "Selle raha nimi (nt: [money] punkti)",
                 "postminimumlength": "",
                 "noshowzero": "Ära näita, kui väärtus on null",
-                "autoremove": "",
+                "autoremove": "Uuenda raha automaatselt",
                 "moneyforlike": "",
-                "helpextensionlikes": "",
+                "helpextensionlikes": "Nõuab lisaprogrammi <code>flarum/likes</code>",
                 "extra_char_threshold": "Märkide lävi",
                 "extra_char_threshold_help": "",
                 "extra_char_increment": "Märkide kasvamine",
                 "extra_char_increment_help": "",
-                "extra_char_points": "",
+                "extra_char_points": "Punkte kasvu kohta",
                 "extra_char_points_help": ""
             },
             "permissions": {
@@ -47,7 +47,7 @@
             "log_balance": "Saldo",
             "log_description": "Kirjeldus",
             "log_type_deposit": "Deposiit",
-            "log_type_withdrawal": "",
+            "log_type_withdrawal": "Mahaarvamine",
             "log_type_transfer": "Ülekanne",
             "log_type_reward": "Tasu",
             "no_money_logs": "Raha logid pole saadaval",
@@ -87,7 +87,7 @@
             },
             "point_log": {
                 "title": "Punkide muutmise andmed",
-                "link": "",
+                "link": "Punktide andmed",
                 "empty_text": "",
                 "table": {
                     "headers": {
