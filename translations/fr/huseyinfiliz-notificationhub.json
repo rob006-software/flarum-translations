@@ -43,23 +43,23 @@
                 "message_label": "Message",
                 "url_label": "Lien cible",
                 "url_placeholder": "https://www.exemple.com",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": ""
+                "submit_button": "Envoyer une notification",
+                "notification_sent_message": "Des notifications ont été envoyées aux utilisateurs {recipientsCount} !",
+                "notification_type_label": "Type de notification",
+                "no_notification_types": "Aucun type de notification active n'a été trouvé.",
+                "preview_title": "Prévisualisation de la notification",
+                "preview_message_placeholder": "Message de notification"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "Utilisateur",
+                "group": "Groupe"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": ""
+            "message_required": "Un message est requis.",
+            "user_ids_required": "Des identifiants d'utilisateur sont requis.",
+            "subject_id_required": "Le type de notification est requis.",
+            "no_valid_recipients": "Aucun destinataire valide n'a été trouvé."
         }
     }
 }
