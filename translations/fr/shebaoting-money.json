@@ -6,99 +6,99 @@
                 "initialmoney": "Argent initial des nouveaux utilisateurs",
                 "moneyforpost": "Argent donné pour un nouveau message",
                 "moneyfordiscussion": "Argent donné pour une nouvelle discussion",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "autoremove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": "",
-                "extra_char_threshold": "",
-                "extra_char_threshold_help": "",
-                "extra_char_increment": "",
-                "extra_char_increment_help": "",
-                "extra_char_points": "",
-                "extra_char_points_help": ""
+                "moneyname": "Nom de l'argent (par exemple : [argent] points)",
+                "postminimumlength": "Longueur minimale du message pour obtenir l'argent (0 pour désactiver cette fonctionnalité)",
+                "noshowzero": "Ne pas afficher si la valeur est nulle",
+                "autoremove": "Mise à jour automatique de l'argent",
+                "moneyforlike": "Argent versé lorsqu'un message est aimé",
+                "helpextensionlikes": "Nécessite l'extension <code>flarum/likes</code>",
+                "extra_char_threshold": "Seuil de caractère",
+                "extra_char_threshold_help": "Le nombre minimum de caractères avant que des points supplémentaires ne soient appliqués.",
+                "extra_char_increment": "Incrément de caractères",
+                "extra_char_increment_help": "Tous les X caractères dépassant le seuil déclencheront un changement de point.",
+                "extra_char_points": "Points par incrément",
+                "extra_char_points_help": "Le nombre de points à ajouter ou à déduire pour chaque incrément."
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Modifier l'argent"
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Ne jamais retirer d'argent",
+                "Lorsqu'une discussion ou un message est caché ou restauré (par défaut)",
+                "Lorsqu'une discussion ou un message est supprimé"
             ],
             "automoderator": {
-                "metric_name": "",
-                "action_name": ""
+                "metric_name": "Argent",
+                "action_name": "Donner de l'argent"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Modifier l'argent"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Argent de {username}",
+                "current": "Actuellement :",
+                "submit_button": "=> core.ref.save_changes"
             },
-            "log_time": "",
-            "log_type": "",
-            "log_amount": "",
-            "log_balance": "",
-            "log_description": "",
-            "log_type_deposit": "",
-            "log_type_withdrawal": "",
-            "log_type_transfer": "",
-            "log_type_reward": "",
-            "no_money_logs": "",
-            "load_more": "",
+            "log_time": "Durée",
+            "log_type": "Type",
+            "log_amount": "Montant",
+            "log_balance": "Solde",
+            "log_description": "Description",
+            "log_type_deposit": "Dépôt",
+            "log_type_withdrawal": "Retrait",
+            "log_type_transfer": "Transfert",
+            "log_type_reward": "Récompense",
+            "no_money_logs": "Aucun journal d'argent disponible",
+            "load_more": "Charger plus",
             "logs_description": {
-                "created_discussion": "",
-                "created_reply": "",
-                "reply_received": "",
-                "liked": "",
-                "liked_by": "",
-                "unliked_post": "",
-                "unliked_by": "",
-                "initial_registration": "",
-                "admin_updated": "",
-                "discussion_started": "",
-                "discussion_restored": "",
-                "discussion_hidden": "",
-                "discussion_deleted": "",
-                "posted_reply": "",
-                "extra_characters": "",
-                "no_permission": ""
+                "created_discussion": "A créé une discussion › <a href=\"{url}\">{title}</a>",
+                "created_reply": "A créé une réponse › <a href=\"{url}\">{title}</a>",
+                "reply_received": "A reçu une réponse de {username} › <a href=\"{url}\">{title}</a>",
+                "liked": "A aimé un message › <a href=\"{url}\">{title}</a> par {user}",
+                "liked_by": "Message aimé par {username} › <a href=\"{url}\">{title}</a>",
+                "unliked_post": "N'a plus aimé un message › <a href=\"{url}\">{title}</a>",
+                "unliked_by": "Message plus aimé par {username} › <a href=\"{url}\">{title}</a>",
+                "initial_registration": "Les points initiaux ont été attribués lors de l'inscription.",
+                "admin_updated": "L'administrateur a mis à jour les points, le montant a été modifié par {amount}.",
+                "discussion_started": "A démarré une discussion › <a href=\"{url}\">{title}</a>",
+                "discussion_restored": "A restauré une discussion › <a href=\"{url}\">{title}</a>",
+                "discussion_hidden": "A caché une discussion › <a href=\"{url}\">{title}</a>",
+                "discussion_deleted": "A supprimé une discussion › <a href=\"{url}\">{title}</a>",
+                "posted_reply": "A répondu à une discussion › <a href=\"{url}\">{title}</a>",
+                "extra_characters": "Le contenu a dépassé le seuil de {extra_chars} caractères, {points} points ont été {action}.",
+                "no_permission": "Vous n'êtes pas autorisé à consulter les journaux de points des autres."
             },
             "logs_type": {
-                "discussion_started": "",
-                "post_created": "",
-                "post_restored": "",
-                "post_hidden": "",
-                "post_deleted": "",
-                "discussion_restored": "",
-                "discussion_hidden": "",
-                "discussion_deleted": "",
-                "liked": "",
-                "liked_by_others": "",
-                "admin_updated": "",
-                "registration": "",
-                "discussion_replied": ""
+                "discussion_started": "Discussion démarrée",
+                "post_created": "Message créé",
+                "post_restored": "Message restauré",
+                "post_hidden": "Message caché",
+                "post_deleted": "Message supprimé",
+                "discussion_restored": "Discussion restaurée",
+                "discussion_hidden": "Discussion cachée",
+                "discussion_deleted": "Discussion supprimée",
+                "liked": "Message aimé",
+                "liked_by_others": "Message aimé par un autre utilisateur",
+                "admin_updated": "Administrateur mis à jour",
+                "registration": "Bonus d'inscription",
+                "discussion_replied": "A répondu à une discussion"
             },
             "point_log": {
-                "title": "",
-                "link": "",
-                "empty_text": "",
+                "title": "Journaux des modifications de points",
+                "link": "Journaux des points",
+                "empty_text": "Aucun journal de modification de point n'a été trouvé.",
                 "table": {
                     "headers": {
-                        "date": "",
-                        "amount": "",
-                        "balance": "",
-                        "reason": ""
+                        "date": "Date",
+                        "amount": "Montant",
+                        "balance": "Solde",
+                        "reason": "Motif"
                     }
                 },
-                "load_more": "",
-                "no_permission": ""
+                "load_more": "Charger plus",
+                "no_permission": "Vous n'êtes pas autorisé à consulter les journaux de points des autres."
             }
         }
     }
