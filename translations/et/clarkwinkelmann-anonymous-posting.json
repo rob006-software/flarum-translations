@@ -21,14 +21,14 @@
             },
             "permissions": {
                 "use": "",
-                "reveal": "",
+                "reveal": "Anonüümsete vestluste ja postituste tegelike autorite nägemine",
                 "moderate": ""
             }
         },
         "forum": {
             "composerControls": {
                 "anonymize": "Postita anonüümselt",
-                "anonymizeHelp": ""
+                "anonymizeHelp": "Moderaatorid teavad, et sina oled see, kes selle sisu lõi"
             },
             "discussionControls": {
                 "anonymize": "Anonümiseeri",
@@ -40,7 +40,7 @@
                 "anonymize": "Anonümiseeri",
                 "firstPostConfirmation": "",
                 "deanonymize": "Eemalda anonümiseerimine",
-                "deanonymizeConfirmation": ""
+                "deanonymizeConfirmation": "See teeb postituse algse autori uuesti avalikuks. Kas jätkan?"
             },
             "discussionList": {
                 "genericReplyText": "Viimati vastatud {ago} tagasi"
