@@ -2,9 +2,9 @@
     "xypp-store": {
         "forum": {
             "time_segs": "jours|heures|minutes",
-            "store": "Boutique",
+            "store": "Magasin",
             "purchase-history": "Achats",
-            "create": "Créer un élément",
+            "create": "Créer un article",
             "purchase": "Acheter",
             "edit_button": "Modifier",
             "show_case": "Vitrine",
@@ -24,95 +24,95 @@
             },
             "create-modal": {
                 "title": "Créer un article",
-                "name": "",
-                "desc": "",
-                "price": "",
-                "provider": "",
-                "provider_data": "",
-                "use_cnt": "",
-                "expire_time": "",
-                "expire_time_tip": "",
-                "rest_cnt": "",
-                "rest_cnt_tip": "",
-                "edit-title": "",
-                "edit-button": "",
-                "button": "",
-                "success": "",
-                "confirm_delete": "",
-                "delete-button": "",
+                "name": "Nom",
+                "desc": "Description",
+                "price": "Prix",
+                "provider": "Fournisseur",
+                "provider_data": "Données du fournisseur",
+                "use_cnt": "Les durées peuvent être utilisées",
+                "expire_time": "Durée d'expiration",
+                "expire_time_tip": "Laissez vide pour désactiver, ou sur un nombre pour expirer après ce nombre de secondes.",
+                "rest_cnt": "Nombre de repos",
+                "rest_cnt_tip": "Laissez vide pour être infini, ou sur un nombre pour limiter le comptage.",
+                "edit-title": "Modifier l'article#{0}",
+                "edit-button": "Modifier",
+                "button": "Créer",
+                "success": "Article créé",
+                "confirm_delete": "Êtes-vous sûr de vouloir supprimer cet article ?",
+                "delete-button": "Supprimer",
                 "providers": {
-                    "unknown": "",
-                    "unknown_data": "",
-                    "no_select_data": "",
-                    "special_data": ""
+                    "unknown": "Sélectionner un fournisseur",
+                    "unknown_data": "Il faut d'abord sélectionner un fournisseur",
+                    "no_select_data": "Sélectionner les données du fournisseur",
+                    "special_data": "Données sélectionnées"
                 },
-                "provider_data_error": "",
-                "provider_data_default": ""
+                "provider_data_error": "Veuillez sélectionner le fournisseur et les données",
+                "provider_data_default": "Données par défaut"
             },
-            "purchase-confirm": "",
+            "purchase-confirm": "Confirmer l'achat ?",
             "item": {
-                "rest_cnt": "",
-                "use_cnt": "",
-                "expire": "",
-                "no_available": "",
-                "infinity_count": "",
-                "not_found": ""
+                "rest_cnt": "Restant {0}",
+                "use_cnt": "Utilisé {0} fois",
+                "expire": "Durée pour {0}",
+                "no_available": "Aucun article disponible",
+                "infinity_count": "Nombre illimité disponible",
+                "not_found": "L'article n'a pas été trouvé"
             },
             "history": {
-                "no_record": "",
-                "delete_button": "",
-                "confirm_delete": "",
-                "title": "",
-                "use": "",
-                "rest_cnt": "",
-                "infinity_use": "",
-                "expire": "",
-                "forever": "",
-                "confirm_use": "",
-                "unable_to_use": "",
-                "not_found": ""
+                "no_record": "Non acheté",
+                "delete_button": "Supprimer",
+                "confirm_delete": "Êtes-vous sûr de vouloir supprimer cet article que vous avez acheté ?",
+                "title": "Acheté",
+                "use": "Utiliser",
+                "rest_cnt": "Peut être utilisé {0} fois",
+                "infinity_use": "Utilisation illimitée",
+                "expire": "Expire à {0}",
+                "forever": "Disponible pour toujours",
+                "confirm_use": "Confirmer l'utilisation ?",
+                "unable_to_use": "Cet article ne peut pas être utilisé",
+                "not_found": "L'article n'a pas été trouvé"
             },
             "query-modal": {
                 "purchase": {
-                    "title": ""
+                    "title": "Acheter un article"
                 },
                 "use": {
-                    "title": ""
+                    "title": "Utiliser l'article"
                 }
             },
             "use_result": {
-                "success": "",
+                "success": "Succès",
                 "fail": {
-                    "unknown": "",
-                    "error": "",
-                    "not_enough": "",
-                    "cannot": "",
-                    "fail_expire": "",
-                    "id_not_found": "",
-                    "expired": ""
+                    "unknown": "Erreur inconnue",
+                    "error": "Erreur lors de l'utilisation de l'article",
+                    "not_enough": "Nombre d'utilisations insuffisant",
+                    "cannot": "Ne peut pas utiliser cet article",
+                    "fail_expire": "Échec lors de l'expiration de cet article",
+                    "id_not_found": "L'identifiant de l'article n'a pas été trouvé",
+                    "expired": "Article expiré"
                 }
             },
             "purchase_result": {
-                "success": "",
+                "success": "Succès",
                 "fail": {
-                    "unknown": "",
-                    "not_enough_item": "",
-                    "cannot": "",
-                    "not_enough_money": ""
+                    "unknown": "Erreur inconnue",
+                    "not_enough_item": "Pas assez d'articles",
+                    "cannot": "Impossible d'acheter ce produit",
+                    "not_enough_money": "Pas assez d'argent"
                 }
             },
             "edit-result": {
                 "fail": {
-                    "not-found": ""
+                    "not-found": "L'article n'a pas été trouvé"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "add-item": "",
-                "remove-item": "",
-                "view-history": "",
-                "remove-history": ""
+                "add-item": "Ajouter un article de magasin",
+                "remove-item": "Supprimer l'article du magasin",
+                "view-history": "Voir les achats des autres",
+                "remove-history": "Supprimer les achats des autres"
             }
         }
     }
