@@ -5,24 +5,40 @@
                 "price": "Prix",
                 "reward": "Récompense",
                 "max_number": "Nombre maximum",
-                "expires": "Expiration"
+                "expires": "Expiration",
+                "key_count": ""
             },
             "permissions": {
                 "referral_key": "Qui peut inviter"
+            },
+            "items": {
+                "add": ""
             }
         },
         "forum": {
             "referral": "Référence",
+            "inviter": "",
             "purchase_invite_code": "Acheter un code d'invitation",
+            "free_invite_code": "",
             "purchase_help_tip": "Chaque code d'invitation coûte {invite_code_price} énergie(s). Pour chaque utilisateur invité avec succès, vous recevrez {invite_code_reward} énergie(s).",
+            "free_help_tip": "",
             "purchase_max_tip": "Acheter en quantité (jusqu'à {invite_code_max_number} à la fois)",
             "purchase_expire_tip": "Le code d'invitation expirera dans {invite_code_expires} jour(s)",
             "create_time": "Créer du temps",
             "invite_code": "Code d'invitation",
+            "next_available": "",
+            "claim_now": "",
+            "wait_to_claim": "",
             "count": "Compte à rebours",
             "cost": "Coût",
+            "claim_failed": "",
+            "registers": "",
             "actives": "Actifs",
-            "is_expire": "Expiré ?"
+            "is_expire": "Expiré ?",
+            "sign_up": {
+                "no_invite_text": "",
+                "get_invite_link_text": ""
+            }
         }
     }
 }

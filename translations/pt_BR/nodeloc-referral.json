@@ -5,24 +5,40 @@
                 "price": "Preço",
                 "reward": "",
                 "max_number": "",
-                "expires": ""
+                "expires": "",
+                "key_count": ""
             },
             "permissions": {
                 "referral_key": ""
+            },
+            "items": {
+                "add": ""
             }
         },
         "forum": {
             "referral": "",
+            "inviter": "",
             "purchase_invite_code": "",
+            "free_invite_code": "",
             "purchase_help_tip": "",
+            "free_help_tip": "",
             "purchase_max_tip": "",
             "purchase_expire_tip": "",
             "create_time": "",
             "invite_code": "",
+            "next_available": "",
+            "claim_now": "",
+            "wait_to_claim": "",
             "count": "",
             "cost": "",
+            "claim_failed": "",
+            "registers": "",
             "actives": "",
-            "is_expire": ""
+            "is_expire": "",
+            "sign_up": {
+                "no_invite_text": "",
+                "get_invite_link_text": ""
+            }
         }
     }
 }

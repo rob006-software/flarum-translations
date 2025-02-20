@@ -5,24 +5,40 @@
                 "price": "Harga",
                 "reward": "Reward",
                 "max_number": "Angka maksimal",
-                "expires": "Kedaluwarsa"
+                "expires": "Kedaluwarsa",
+                "key_count": ""
             },
             "permissions": {
                 "referral_key": "Siapa yang dapat mengundang"
+            },
+            "items": {
+                "add": ""
             }
         },
         "forum": {
             "referral": "Referral",
+            "inviter": "",
             "purchase_invite_code": "Kode Undangan Pembelian",
+            "free_invite_code": "",
             "purchase_help_tip": "Setiap kode undangan dikenakan biaya {invite_code_price} energi. Untuk setiap pengguna yang berhasil diundang, Anda akan diberi hadiah {invite_code_reward} energi.",
+            "free_help_tip": "",
             "purchase_max_tip": "Kuantitas Pembelian (hingga {invite_code_max_number} sekaligus)",
             "purchase_expire_tip": "Kode undangan akan kedaluwarsa dalam {invite_code_expires} hari",
             "create_time": "Waktu pembuatan",
             "invite_code": "Kode undangan",
+            "next_available": "",
+            "claim_now": "",
+            "wait_to_claim": "",
             "count": "Tersedia",
             "cost": "Biaya",
+            "claim_failed": "",
+            "registers": "",
             "actives": "Aktif",
-            "is_expire": "Kedaluwarsa?"
+            "is_expire": "Kedaluwarsa?",
+            "sign_up": {
+                "no_invite_text": "",
+                "get_invite_link_text": ""
+            }
         }
     }
 }
