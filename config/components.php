@@ -1248,7 +1248,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-my-emoji/1.0.2/locale/en.yml',
 	],
 	'nodeloc-referral' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-referral/0.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-referral/0.0.6/locale/en.yml',
 	],
 	'nodeloc-telegram' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/telegram/0.3/resources/locale/en.yml',
