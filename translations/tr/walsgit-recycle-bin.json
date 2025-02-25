@@ -1,103 +1,103 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "discussions_bin": "",
-            "posts_bin": "",
-            "search_placeholder": "",
-            "search_post_placeholder": "",
-            "search_help_text": "",
-            "search_post_help_text": "",
-            "total_hidden_discussions": "",
-            "total_hidden_posts": "",
-            "empty_list": "",
-            "hidden_discussions": "",
-            "discussion_id": "",
-            "discussion_title": "",
-            "discussion_link_tooltip": "",
-            "author": "",
-            "unknownn_user": "",
-            "created_at": "",
-            "hidden_at": "",
-            "unknown_date": "",
-            "actions": "",
-            "restore_tooltip": "",
-            "restore_post_tooltip": "",
+            "discussions_bin": "Tartışma Kutusu",
+            "posts_bin": "Gönderi Kutusu",
+            "search_placeholder": "Tartışmalarda ara",
+            "search_post_placeholder": "Gönderilerde ara",
+            "search_help_text": "Başlıklarda ve tartışma gönderilerinde kelimeleri arar",
+            "search_post_help_text": "Gizli gönderilerdeki kelimeleri arar",
+            "total_hidden_discussions": "Toplam gizli tartışma",
+            "total_hidden_posts": "Toplam gizli gönderi",
+            "empty_list": "Çöp kutusunda henüz tartışma yok.",
+            "hidden_discussions": "Gizli tartışmalar",
+            "discussion_id": "ID",
+            "discussion_title": "Tartışma başlığı",
+            "discussion_link_tooltip": "Tartışmayı gör",
+            "author": "Yazar",
+            "unknownn_user": "Bilinmeyen kullanıcı",
+            "created_at": "Oluşturuldu",
+            "hidden_at": "Gizlendi",
+            "unknown_date": "Bilinmeyen tarih",
+            "actions": "Eylemler",
+            "restore_tooltip": "Tartışmayı geri yükle",
+            "restore_post_tooltip": "Gönderiyi geri yükle",
             "restore_discussion": {
-                "title": "",
+                "title": "Tartışmayı geri yükle",
                 "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "restore_button": "Bu tartışmayı geri yükle",
+                "success": "Tartışma başarıyla geri yüklendi"
             },
             "restore_post": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Gönderiyi geri yükle",
+                "confirmation": "Bu gönderiyi tartışmadan geri yüklemek istediğinizden emin misiniz ",
+                "restore_button": "Bu gönderiyi geri yükle",
+                "success": "Gönderi başarıyla geri yüklendi"
             },
             "delete_discussion": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Tamamen sil",
+                "confirmation": "Bu tartışmayı <u>tamamen silmek</u> istediğinizden emin misiniz (geri alınamaz):",
+                "delete_button": "Bu tartışmayı tamamen sil",
+                "success": "Tartışma başarıyla silindi"
             },
             "delete_post": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Tamamen sil",
+                "confirmation": "Bu gönderiyi <u>tamamen silmek</u> istediğinizden emin misiniz (geri alınamaz):",
+                "delete_button": "Gönderiyi tamamen sil",
+                "success": "Gönderi başarıyla silindi"
             },
-            "delete_tooltip": "",
-            "delete_post_tooltip": "",
-            "bulk_actions": "",
-            "bulk_post_actions": "",
-            "bulk_restore_label": "",
-            "bulk_post_restore_label": "",
+            "delete_tooltip": "Tartışmayı sil",
+            "delete_post_tooltip": "Gönderiyi sil",
+            "bulk_actions": "Seçili tartışmalar için eylemler : ",
+            "bulk_post_actions": "Seçili gönderiler için eylemler : ",
+            "bulk_restore_label": "Seçili tartışmaları geri yükle",
+            "bulk_post_restore_label": "Seçili gönderileri geri yükle",
             "mass_restore_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Seçili tartışmaları geri yükle",
+                "text_start": "Bunları geri yüklemek istediğinizden emin misiniz ",
+                "text_end": " seçili tartışmaları?",
+                "submit_button": "Bu tartışmaları geri yükleyin",
+                "success": "Seçilen tartışmalar başarıyla geri yüklendi"
             },
             "mass_restore_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Seçili gönderileri geri yükle",
+                "text_start": "Bunları geri yüklemek istediğinizden emin misiniz ",
+                "text_end": " seçili gönderileri?",
+                "submit_button": "Bu gönderileri geri yükle",
+                "success": "Seçilen gönderiler başarıyla geri yüklendi"
             },
             "mass_delete_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Bu tartışmaları tamamen sil",
+                "text_start": "Bunları <u>tamamen silmek</u> istediğinizden emin misiniz ",
+                "text_end": " seçili tartışmaları?",
+                "submit_button": "Bu tartışmaları tamamen sil",
+                "success": "Seçilen tartışmalar başarıyla silindi"
             },
             "mass_delete_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Bu gönderileri tamamen sil",
+                "text_start": "Bunları <u>tamamen silmek</u> istediğinizden emin misiniz ",
+                "text_end": " seçili gönderileri?",
+                "submit_button": "Bu gönderileri tamamen sil",
+                "success": "Seçilen gönderiler başarıyla silindi"
             },
-            "bulk_delete_label": "",
-            "bulk_post_delete_label": "",
+            "bulk_delete_label": "Seçili tartışmaları sil",
+            "bulk_post_delete_label": "Seçili gönderileri sil",
             "pagination": {
-                "first_page_button": "",
-                "back_button": "",
-                "page_counter": "",
-                "go_to_page_textbox_a11y_label": "",
-                "next_button": "",
-                "last_page_button": ""
+                "first_page_button": "İlk sayfaya git",
+                "back_button": "Önceki sayfaya geri dön",
+                "page_counter": "Sayfa {current} / {total}",
+                "go_to_page_textbox_a11y_label": "Doğrudan sayfa numarasına git",
+                "next_button": "Sonraki sayfaya git",
+                "last_page_button": "Son sayfaya git"
             },
-            "mass_help_text": "",
+            "mass_help_text": "Toplu geri yüklemeyi veya silmeyi onayladıktan sonra lütfen sayfanın yenilenmesini bekleyin",
             "grid": {
-                "invalid_column_content": ""
+                "invalid_column_content": "Geçersiz içerik!"
             },
             "post": {
-                "id": "",
-                "title": "",
-                "open_post": ""
+                "id": "ID",
+                "title": "Gönderi metni",
+                "open_post": "Gönderiyi aç"
             }
         }
     }
