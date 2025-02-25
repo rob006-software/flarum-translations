@@ -123,10 +123,10 @@
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
                     "title": "Test çevirilerini yönet",
-                    "question": "",
-                    "subtitle": "",
-                    "option": "",
-                    "answer-additional": ""
+                    "question": "Soru",
+                    "subtitle": "Alt başlık",
+                    "option": "Yanıt {number}",
+                    "answer-additional": "Doğru cevap açıklaması"
                 }
             },
             "discussion": {
@@ -154,7 +154,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
                 "google-cloud": "Google Cloud Translate",
-                "libre": ""
+                "libre": "LibreTranslate"
             },
             "settings": {
                 "api-key": "API Anahtarı"
