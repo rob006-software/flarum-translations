@@ -16,23 +16,23 @@
             "drop_qs_help": "Önbelleğe alırken <code>fbclid</code> veya <code>utm*</code> gibi belirli sorgu dizelerini bırakmak için bu özelliği kullanın. Bu, izleme için kullanılan ancak sayfa içeriğini etkilemeyen UTM kodları gibi \"önemsiz\" sorgu dizelerine sahip sayfaların gereksiz önbelleğe alınmasını önler. Bu, LSWS v5.2.3 veya daha yenisini gerektirir. Her satıra bir tane düşecek sorgu dizelerini listeleyin. <a>Sorgu dizelerini bırakma hakkında daha fazla bilgi edinin</a>.<br></br> \n⚠️ Bu ayar, .htaccess dosyasını değiştirir.\n",
             "status_codes_cache_label": "Varsayılan HTTP Durum Kodu Sayfası TTL",
             "status_codes_cache_help": "Bir HTTP durum kodu ve o sayfanın önbelleğe alınması için gereken saniye sayısını boşlukla ayırarak belirtin. Satır başına bir tane.",
-            "purge_all": "Tüm LSCache'i Temizle",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
             "permissions": {
-                "purge": ""
+                "purge": "=> acpl-lscache.ref.purge_cache"
             },
             "purge_all_success": "LiteSpeed Web Sunucusuna tüm LSCache girişlerini temizlemesi bildirildi"
         },
         "forum": {
             "purge": {
-                "discussion": ""
+                "discussion": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "LiteSpeed Sunucusuna LSCache girişlerini temizlemesi için bildirim gönderildi.",
+            "purge_all_success": "LiteSpeed Sunucusuna tüm LSCache girişlerini temizlemesi için bildirim gönderildi."
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "LSCache'yi Temizle"
         }
     }
 }
