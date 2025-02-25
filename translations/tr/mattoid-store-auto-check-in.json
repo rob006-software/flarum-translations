@@ -2,13 +2,13 @@
     "mattoid-store-auto-check-in": {
         "admin": {
             "settings": {
-                "group-view": ""
+                "group-view": "Ürünleri kullanıcılara göster"
             }
         },
         "forum": {
-            "title": "",
+            "title": "Otomatik Check-in Kartı",
             "error": {
-                "auto-check-in-fail": ""
+                "auto-check-in-fail": "[{username}] için otomatik check-in başarısız oldu. Sebep: {message}"
             }
         }
     }
