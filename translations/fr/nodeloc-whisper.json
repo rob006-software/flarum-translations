@@ -34,6 +34,23 @@
                 "text_placeholder": "Saisissez votre message",
                 "send": "Envoyer le message",
                 "send_success": "Le message a été envoyé"
+            },
+            "notifications": {
+                "message_received": "",
+                "new_private_message": "",
+                "web": {
+                    "new_private_message": {
+                        "body": ""
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "",
+                        "youHaveReceivedNewMessage": "",
+                        "viewMessage": "",
+                        "manageEmailSettings": ""
+                    }
+                }
             }
         }
     }
