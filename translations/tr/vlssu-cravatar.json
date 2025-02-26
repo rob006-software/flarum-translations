@@ -13,30 +13,30 @@
                 "defaults": {
                     "title": "Varsayılanlar",
                     "helptext": "Bir e-posta adresinde eşleşen Cravatar resmi yoksa ne olur? Cravatar, varsayılan olarak kullanabileceğiniz bir dizi yerleşik seçeneğe sahiptir. Bunların çoğu, istenen e-posta karmasını alıp o e-posta adresine özel temalı bir resim oluşturmak için kullanarak çalışır.",
-                    "mp_label": "",
-                    "identicon_label": "",
-                    "monsterid_label": "",
-                    "wavatar_label": "",
-                    "retro_label": "",
-                    "robohash_label": ""
+                    "mp_label": "mp: (gizemli-kişi) bir kişinin basit, karikatür tarzında silüetli dış hatları (eposta karma değerine göre değişmez)",
+                    "identicon_label": "identicon: geometrik bir desen eposta karma değerine dayalı",
+                    "monsterid_label": "monsterid: farklı renkler, yüzler vb. ile oluşturulmuş bir 'canavar'",
+                    "wavatar_label": "wavatar: farklı özellikler ve arkaplanlarla oluşturulmuş yüzler",
+                    "retro_label": "retro: 8-bit arcade tarzında pikselleştirilmiş harika yüzler",
+                    "robohash_label": "robohash: farklı renkler, yüzler vb. ile oluşturulmuş bir robot"
                 },
                 "rating": {
-                    "title": "",
-                    "helptext": "",
-                    "g_label": "",
-                    "pg_label": "",
-                    "r_label": "",
-                    "x_label": ""
+                    "title": "Derecelendirme",
+                    "helptext": "Cravatar, kullanıcıların görsellerini kendi derecelendirmelerine olanak tanır, böylece bir görselin belirli bir izleyici kitlesi için uygun olup olmadığını belirtebilirler. Varsayılan olarak, yalnızca 'G' dereceli görseller gösterilir, ancak daha yüksek dereceleri görmek istediğinizi belirtmedikçe bu şekilde devam eder. Aşağıdaki derecelendirmelerden birini belirterek, o derecelendirmeye kadar olan görselleri talep edebilirsiniz.",
+                    "g_label": "g: her tür izleyici kitlesi için tüm web sitelerinde görüntülenmeye uygun",
+                    "pg_label": "pg: kaba jestler, provokatif şekilde giyinmiş bireyler, hafif küfürler veya hafif şiddet içerebilir",
+                    "r_label": "r: sert küfürler, yoğun şiddet, çıplaklık veya sert uyuşturucu kullanımı gibi unsurlar içerebilir",
+                    "x_label": "x: sert cinsel imgeler veya son derece rahatsız edici şiddet içerebilir"
                 },
                 "force-default": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "Varsayılanı zorla",
+                    "helptext": "E-posta karma değeri özel bir kullanıcı tarafından yüklenen bir avatarla ilişkilendirilse bile, varsayılan bir setin kullanılmasını zorlar"
                 }
             }
         },
         "forum": {
             "settings": {
-                "edit-cravatar": ""
+                "edit-cravatar": "cravatar.cn üzerinde avatar yönetimi"
             }
         }
     }
