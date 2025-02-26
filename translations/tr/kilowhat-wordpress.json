@@ -32,8 +32,8 @@
                 "wordpress_login_full_page_help": "Varsayılan olarak, Flarum'dan giriş bağlantısına tıklamak, diğer OAuth yöntemleri gibi bir açılır pencerede Wordpress giriş sayfasını açacaktır. Bu ayar etkinleştirildiğinde, geçerli tarayıcı sekmesi Wordpress giriş sayfasına gidecek ve sonrasında Flarum'a yönlendirilecektir.\n",
                 "username_strategy": "Yeni Kullanıcılar için Kullanıcı Adı",
                 "username_strategy_options": {
-                    "user_login": "WordPress'den Gelenler için Kullanıcı Adı",
-                    "first_name": "WordPress'ten İlk İsim",
+                    "user_login": "Wordpress'den Gelenler için Kullanıcı Adı",
+                    "first_name": "Wordpress'ten İlk İsim",
                     "random": "Rastgele Kullanıcı Adı"
                 },
                 "username_strategy_help": "Flarum'da zaten varsa, kullanıcı adına bir sayı eklenecektir",
@@ -41,26 +41,26 @@
                 "force_username_choice_help": "Yukarıda seçilen kuralla varsayılan bir değer sağlanacaktır.",
                 "welcome_message": "Tanıtım mesajı",
                 "welcome_message_help": "Bu mesaj, kullanıcı forumu ilk ziyaret ettiğinde, etkinleştirilmişse kullanıcı adı seçimiyle birlikte gösterilecektir.",
-                "wordpress_login_only": "Yalnızca WordPress ile girişe izin ver",
-                "wordpress_login_only_help": "Flarum girişini devre dışı bırakır ve giriş gerektiğinde doğrudan WordPress giriş penceresini açar. Bu, \"Kayıt Olma\" iznini otomatik olarak Kapalı olarak ayarlayacaktır.\n",
-                "user_delete": "WordPress'te bir kullanıcı silindiğinde eylem",
+                "wordpress_login_only": "Yalnızca Wordpress ile girişe izin ver",
+                "wordpress_login_only_help": "Flarum girişini devre dışı bırakır ve giriş gerektiğinde doğrudan Wordpress giriş penceresini/sayfasını açar. Bu, \"Kayıt Olma\" iznini otomatik olarak Kapalı olarak ayarlayacaktır. “Kapalı” olarak kaldığından emin olun, aksi takdirde ziyaretçiler bağımsız Flarum hesapları oluşturabilir.\n",
+                "user_delete": "Wordpress'te bir kullanıcı silindiğinde eylem",
                 "user_delete_options": {
                     "ignore": "Yoksay (Flarum kullanıcısını koru)",
                     "delete": "Flarum kullanıcısını sil",
                     "suspend": "Flarum kullanıcısını süresiz olarak askıya al (Askıya alma uzantısı etkinleştirilmelidir)"
                 },
                 "user_delete_desc": "\"Sil\"i seçerseniz, Flarum'daki içeriği değil, yalnızca kullanıcı silinir.",
-                "role_group_sync": "",
-                "role_group_sync_help": "",
-                "section_comments_intro": "Bu özellik, WordPress yorumlarını bir Flarum iframe ile değiştirir. Ziyaretçiler artık yorum yapamaz. Tartışmalar yalnızca WordPress'te yorumların etkinleştirildiği gönderiler için oluşturulur. Yorumları etkinleştirmek veya devre dışı bırakmak, Flarum'un tartışma kilidi ile senkronize edilir. Bu özelliği etkinleştirdiğinizde blogunuz zaten gönderiler içeriyorsa, Flarum tartışmasının oluşturulabilmesi için her makale için yorumları yeniden etkinleştirmeniz ve devre dışı bırakmanız gerekir.\n",
+                "role_group_sync": "Rolden Gruba Senkronizasyon",
+                "role_group_sync_help": "Burada seçilen gruplar, uzantı tarafından otomatik olarak kullanıcılara eklenecek ve kullanıcılardan kaldırılacak, bu nedenle asla manuel olarak atamadığınız ve diğer uzantılar tarafından da yönetilmeyen özel Flarum grupları kullanmak muhtemelen en iyisidir. Hem güvenlik nedenlerinden hem de yanlışlıkla kilitlenmediğinizden emin olmak için muhtemelen yönetici grubunu bu şekilde atamamalısınız. Bir role birden fazla grup atayabilir ve bir grup birden fazla role eşlenebilir. Flarum <a>İzinler sayfasında</a> ek Flarum grupları oluşturabilirsiniz.\n",
+                "section_comments_intro": "Bu özellik, Wordpress yorumlarını bir Flarum iframe ile değiştirir. Ziyaretçiler artık yorum yapamaz. Tartışmalar yalnızca Wordpress'te yorumların etkinleştirildiği gönderiler için oluşturulur. Yorumları etkinleştirmek veya devre dışı bırakmak, Flarum'un tartışma kilidi ile senkronize edilir. Bu özelliği etkinleştirdiğinizde blogunuz zaten gönderiler içeriyorsa, Flarum tartışmasının oluşturulabilmesi için her makale için yorumları yeniden etkinleştirmeniz ve devre dışı bırakmanız gerekir.\n",
                 "enable_comments": "Yorum entegrasyonunu etkinleştir",
                 "excerpt_html_whitelist": "Alıntıda kullanılacak HTML etiketlerinin beyaz listesi (virgülle ayrılmış)",
                 "excerpt_html_nodes": "İçerik alıntısının uzunluğu (HTML etiketleri sayısı olarak)",
                 "excerpt_length": "İçerik alıntısının uzunluğu (karakter olarak)",
-                "post_thumbnail_summary": "",
-                "post_thumbnail_list": "",
-                "comment_author_sync": "",
-                "comment_author_sync_help": "",
+                "post_thumbnail_summary": "Wordpress gönderisinin küçük resmini alıntının üstünde göster",
+                "post_thumbnail_list": "Wordpress gönderi küçük resmini Flarum tartışma listesinde göster",
+                "comment_author_sync": "Tartışma yazarını SSO'dan atayın",
+                "comment_author_sync_help": "Wordpress yazarı SSO aracılığıyla bir Flarum hesabı oluşturduysa, bu Flarum hesabı yorum tartışmasının sahibi olarak ayarlanacaktır.",
                 "comment_tag": "Yeni yorum konuları için etiketleyin",
                 "comment_tag_none": "Etiket atama",
                 "comment_tag_custom": "Özel değerler",
@@ -129,22 +129,22 @@
             },
             "role-group-sync": {
                 "head": {
-                    "role": "",
-                    "group": ""
+                    "role": "Wordpress Rolü",
+                    "group": "Flarum Grubu"
                 },
                 "choose": {
-                    "role": "",
-                    "group": ""
+                    "role": "Wordpress Rolünü Seçin...",
+                    "group": "Bir grup seçin"
                 },
                 "custom": {
-                    "role": "",
-                    "group": ""
+                    "role": "Özel...",
+                    "group": "Özel..."
                 },
-                "selected-custom-group": "",
-                "delete": "",
+                "selected-custom-group": "Özel",
+                "delete": "Kuralı sil",
                 "role-loader": {
-                    "loading": "",
-                    "error": ""
+                    "loading": "Wordpress'ten roller yükleniyor...",
+                    "error": "Wordpress'ten rol listesini yüklerken bir sorun oluştu. Rol adlarını hala manuel olarak girebilirsiniz."
                 }
             }
         },
@@ -157,11 +157,11 @@
                 "not_now": "Atla ve ziyareti olarak okumaya devam et"
             },
             "instant-login": {
-                "welcome_known_user": "",
-                "welcome_unknown_user": "",
-                "avatar_alt_text": "",
-                "message": "",
-                "button": ""
+                "welcome_known_user": "Tekrar hoş geldin, {avatar} <strong>{name}</strong>!",
+                "welcome_unknown_user": "Tekrar hoşgeldin!",
+                "avatar_alt_text": "Wordpress Avatar",
+                "message": "Forumu ana web site hesabınızla kullanabilirsiniz",
+                "button": "Şimdi giriş yapın ve yenileyin"
             },
             "edit-user-modal": {
                 "warning": "Bu kullanıcı Wordpress ile senkronize tutulur. E-posta ve şifreyi Wordpress'ten düzenlemelisiniz.\n",
@@ -174,10 +174,10 @@
                 "edit_on_wordpress": "Ana web sitesinde e-posta ve şifreyi değiştirin"
             },
             "log_in": {
-                "with_wordpress_button": "WordPress ile Giriş Yap"
+                "with_wordpress_button": "Wordpress ile Giriş Yap"
             },
             "summary-post": {
-                "head_label": "WordPress Gönderisi",
+                "head_label": "Wordpress Gönderisi",
                 "blog_link": "Blog'da oku",
                 "read_more": "Devamını oku"
             },
@@ -189,30 +189,30 @@
                 "message": "Sayfa sizi {href} sayfasına yönlendirmeye çalışıyor",
                 "open": "Bağlantıyı açın"
             },
-            "thumbnail_alt_fallback": ""
+            "thumbnail_alt_fallback": "Wordpress gönderi küçük resmi"
         },
         "api": {
             "blocked_actions": {
-                "login": "Bu hesap WordPress ile ilişkikendirildi. Bağlanmak için ana siteden giriş yap.",
-                "password_reset": "Bu hesap WordPress ile ilişkilendirildi. Şifreyi sıfırlamak için ana siteyi kullan.",
-                "email_change": "Bu hesap WordPress ile ilişkilendirildi. Elektronik postanı değiştirmek için ana siteyi kullan."
+                "login": "Bu hesap Wordpress ile ilişkikendirildi. Bağlanmak için ana siteden giriş yap.",
+                "password_reset": "Bu hesap Wordpress ile ilişkilendirildi. Şifreyi sıfırlamak için ana siteyi kullan.",
+                "email_change": "Bu hesap Wordpress ile ilişkilendirildi. Epostanı değiştirmek için ana siteyi kullan."
             },
             "health": {
                 "suspend-extension-required": "\"Kullanıcı silme\" işleminde eylemin \"Askıya al\" seçeneğini kullanmak için Askıya alma uzantısı etkinleştirilmelidir",
                 "cookie-domain-format": "Çerez etki alanı, geçerli bir etki alanı gibi görünmüyor. Bunun herhangi bir protokol veya yol içermeyen bir etki alanı olduğunu kontrol edin",
                 "login-only-signup-open": "\"Yalnızca Wordpress ile oturum açmaya izin ver\" ayarının tam olarak etkili olması için Flarum izinleri altında Kaydolma özelliğini devre dışı bırakmanız gerekir",
-                "role-group-sync-syntax": "",
-                "role-group-sync-incomplete": "",
-                "role-group-sync-invalid-group": "",
-                "role-group-sync-invalid-role": "",
+                "role-group-sync-syntax": "Rol grup senkronizasyon ayarlarında kodlama sorunu var",
+                "role-group-sync-incomplete": "Rol grup senkronizasyon ayarları tamamen doldurulmamış",
+                "role-group-sync-invalid-group": "Rol grup senkronizasyonu için geçersiz Flarum grup kimliği seçildi: {id}",
+                "role-group-sync-invalid-role": "Grup senkronizasyonu için geçersiz Wordpress rolü seçildi: {role}",
                 "lock-extension-required": "Yorumlar entegrasyonunu kullanmak için Kilit uzantısı etkinleştirilmelidir",
                 "tags-extension-required": "\"Yeni yorum dizileri için etiketle\" seçeneğini kullanmak için Etiketler uzantısı etkinleştirilmelidir",
                 "tag-not-exist": "\"Yeni yorum dizileri için etiket kimlikleri\" seçeneği için seçilen etiket kimliği {id} mevcut değil",
                 "debug-mode": "Flarum hata ayıklama modu etkinleştirildi. Hata ayıklamayı bitirdikten sonra devre dışı bırakın",
                 "config-url-trailing-slash": "config.php içinde tanımlanan Flarum URL'sinin sonunda eğik çizgi olmamalıdır (geçerli değer: \"{url}\")",
                 "config-url-https": "config.php içinde tanımlanan Flarum URL'si HTTPS olmalıdır (geçerli değer: \"{url}\")",
-                "default-actor-not-set": "",
-                "default-actor-not-found": "",
+                "default-actor-not-set": "\"Varsayılan Aktör\" ayarı doldurulmalıdır",
+                "default-actor-not-found": "\"Varsayılan Aktör\" ayarı geçerli bir kullanıcıya atıfta bulunmuyor",
                 "api-key-missing": "\"Flarum API Anahtarı\" eksik. Yönetici panelini yenilemeyi deneyin ve olası hatalar için günlük dosyasını kontrol edin",
                 "wordpress-url-missing": "\"Wordpress URL\" ayarı doldurulmalıdır",
                 "wordpress-url-invalid": "\"Wordpress URL\" ayarı geçerli bir URL gibi görünmüyor (geçerli değer: \"{url}\")",
@@ -221,7 +221,7 @@
                 "wordpress-url-https": "\"Wordpress URL\" ayarı HTTPS olmalıdır (geçerli değer: \"{url}\")",
                 "wordpress-url-mismatch": "Flarum'daki \"Wordpress URL\" ayarı, Wordpress'teki \"WordPress Adresi (URL)\" ayarıyla eşleşmiyor (beklenen: \"{expected}\", gerçek: \"{actual}\")",
                 "flarum-url-mismatch": "Wordpress'teki \"Flarum URL\" ayarı, Flarum config.php'de yapılandırılan URL ile eşleşmiyor (beklenen: \"{expected}\", gerçek: \"{actual}\")",
-                "api-key-mismatch": "Wordpress'teki \"Flarum API Anahtarı\" ayarı, Flarum'daki \"Flarum API Anahtarı\" ayarıyla eşleşmiyor (beklenen: \"{expected}\", gerçek: \"{actual}\")",
+                "api-key-mismatch": "Wordpress'teki \"Paylaşılan API Anahtarı\" ayarı, Flarum'daki \"Paylaşılan API Anahtarı\" ayarıyla eşleşmiyor (beklenen: \"{expected}\", gerçek: \"{actual}\")",
                 "user-id-not-found": "Wordpress'teki \"Flarum Kullanıcı Kimliği\" ayarı, bilinen herhangi bir Flarum kullanıcısıyla eşleşmiyor (geçerli değer: \"{actual}\"). Şu anda oturum açmış olan kullanıcıyı kullanmak için \"{suggested}\" kimliğini kullanabilirsiniz.\n",
                 "user-id-not-admin": "Wordpress'teki \"Flarum Kullanıcı Kimliği\" ayarı bir Flarum yöneticisiyle eşleşmiyor (geçerli değer: \"{actual}\"). Şu anda oturum açmış olan kullanıcıyı kullanmak için \"{suggested}\" kimliğini kullanabilirsiniz.\n",
                 "sso-mismatch-flarum": "SSO entegrasyonu Flarum'da etkinleştirildi, ancak Wordpress'te değil",
@@ -229,21 +229,21 @@
                 "comments-mismatch-flarum": "Yorumlar entegrasyonu Flarum'da etkin, ancak Wordpress'te değil",
                 "comments-mismatch-wordpress": "Yorumlar entegrasyonu Wordpress'te etkin, ancak Flarum'da değil",
                 "api-error-json": "Wordpress API'sine erişmeye çalışmak bir hatayla sonuçlandı: {message} - Body: {body}",
-                "api-error-401": "Wordpress API'sine erişmeye çalışmak 401 hatasıyla sonuçlandı. Flarum'daki \"Wordpress admin kullanıcı adını\" ve Wordpress'teki \"Flarum API Anahtarını\" iki kez kontrol edin",
+                "api-error-401": "WordPress API'sine erişmeye çalışmak 401 hatasıyla sonuçlandı. \"Paylaşılan API Anahtarı\"nın Flarum ve WordPress ayarları arasında eşleştiğini doğrulayın",
                 "api-error-other": "Wordpress API'sine erişmeye çalışmak bir hatayla sonuçlandı: {message}",
                 "wordpress-username-missing": "\"Wordpress yönetici kullanıcı adı\" ayarı doldurulmalıdır",
                 "cookie-domain-mismatch": "Wordpress'teki \"Çerez alanı\" ayarı, Flarum'daki \"Çerez Alanı\" ayarıyla eşleşmiyor (Wordpress değeri \"{wordpress}\", Flarum değeri \"{flarum}\")"
             },
             "wizard": {
-                "already_installed": "Flarum zaten WordPress'e bağlı. Sihirbazı tekrar çalıştırın, Flarum'daki \"WordPress Bağlantısını\" ve WordPress'teki \"Flarum API Anahtarını\" silin.\n",
+                "already_installed": "Flarum zaten Wordpress'e bağlı. Sihirbazı tekrar çalıştırın, Flarum'daki \"WordPress Bağlantısını\" ve WordPress'teki \"Flarum Paylaşılan API Anahtarını\" silin.\n",
                 "api_unauthorized": "Verilen kimlik bilgileriyle kimlik doğrulaması yapamadık. URL'yi, kullanıcı adını ve şifreyi iki kez kontrol edin. Daha fazla sorun giderme adımı için belgelere bakın.\n",
-                "api_error_generic": "",
+                "api_error_generic": "Wordpress eklentisi kurulum uç noktasına bir POST isteği gerçekleştirirken hata oluştu ({exception}). Flarum Integration WordPress eklentisinin kurulu ve etkinleştirilmiş olduğundan emin olun.\n",
                 "invalid_wordpress_url": "Wordpress'teki \"WordPress Adresi (URL)\" ayarı geçerli bir URL ({actual}) gibi görünmüyor.",
                 "api_error_get": "Wordpress ayarlarına ({exception}) bir GET isteği gerçekleştirirken hata oluştu.",
                 "api_error_post": "Wordpress ayarlarına POST isteği yapılırken hata oluştu ({exception}).",
                 "plugin_not_installed": "Wordpress eklentisi, o Wordpress sitesinde yüklü veya etkin görünmüyor. En az 1.2.0 sürümünün kurulu olduğundan emin olun.\n"
             },
-            "sync_setting_error": ""
+            "sync_setting_error": "Ayarların Wordpress ile senkronize edilmesinde hata. Wordpress tarafındaki onay kutularının Flarum'daki değerlerle aynı değerlere ayarlandığını manuel olarak kontrol edin. Hata: {exception}.\n"
         },
         "views": {
             "error": {
