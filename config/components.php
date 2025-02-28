@@ -1398,7 +1398,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-user-badges/v1.1.0/locale/en.yaml',
 	],
 	'vkarchevskyi-fof-passport' => [
-		'tag' => 'https://raw.githubusercontent.com/vkarchevskyi/fof-passport/v1.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/vkarchevskyi/fof-passport/v1.0.3/locale/en.yml',
 	],
 	'vlssu-cravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.2.1/resources/locale/en.yml',
