@@ -37,17 +37,17 @@
             },
             "notifications": {
                 "message_received": "",
-                "new_private_message": "",
+                "new_private_message": "Seseorang mengirim pesan kepada saya",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "Pesan dari {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
+                        "subject": "Pesan dari {user}",
+                        "youHaveReceivedNewMessage": "Anda telah menerima pesan baru dari {user}!",
+                        "viewMessage": "Lihat pesan",
                         "manageEmailSettings": ""
                     }
                 }
