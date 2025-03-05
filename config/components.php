@@ -1275,7 +1275,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/OrdinaryJellyfish/flarum-dicebear/1.1.1/locale/en.yml',
 	],
 	'ordinaryjellyfish-sentra' => [
-		'tag' => 'https://raw.githubusercontent.com/OrdinaryJellyfish/sentra/0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/OrdinaryJellyfish/sentra/0.2.1/locale/en.yml',
 	],
 	'peruguitar-user-portrait' => [
 		'tag' => 'https://raw.githubusercontent.com/Anexsoft/peruguitar-flarum-ext-user-portrait/1.0.4/locale/en.yml',
