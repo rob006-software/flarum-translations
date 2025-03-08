@@ -168,7 +168,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/blt950/flarum-ext-oauth-generic/v1.0.0/locale/en.yml',
 	],
 	'cadiducho-bbcode' => [
-		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.2/resources/locale/en.yml',
 	],
 	'cccyun-clogin-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
