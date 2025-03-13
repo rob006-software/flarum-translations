@@ -1313,6 +1313,9 @@ return [
 	'shebaoting-repost' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/Repost/v0.4.0/locale/en.yml',
 	],
+	'skynettechnologies-all-in-one-accessibility' => [
+		'tag' => 'https://raw.githubusercontent.com/skynettechnologies/flarum-all-in-one-accessibility/1.0.0/resources/locale/en.yml',
+	],
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.3.0.1/locale/en.yml',
 	],
