@@ -12,14 +12,14 @@
         },
         "lib": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Connettiti come altro utente",
+                "label": "Da un grande potere derivano grandi responsabilità. Continuando, diventerai {username} finché non ti disconnetterai.",
+                "placeholder_optional": "(Opzionale) Fornire la motivazione per passare a questo utente",
+                "placeholder_required": "Bisogna fornire il motivo per cui si vuole passare a questo utente prima di procedere",
+                "impersonate_username": "Connettiti come {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Connettiti come utente"
             }
         },
         "forum": {
