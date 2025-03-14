@@ -22,7 +22,7 @@
                     "permission": "Perizinan Jenis Notifikasi",
                     "color": "Warna Jenis Notifikasi",
                     "default_url": "Link Default",
-                    "default_recipients": "",
+                    "default_recipients": "Penerima Default",
                     "sort_order": "",
                     "active": "Aktif"
                 },
@@ -56,9 +56,9 @@
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
+            "message_required": "Pesan dibutuhkan.",
+            "user_ids_required": "ID pengguna dibutuhkan.",
+            "subject_id_required": "Jenis Notifikasi dibutuhkan.",
             "no_valid_recipients": "Tidak ditemukan penerima yang valid."
         }
     }
