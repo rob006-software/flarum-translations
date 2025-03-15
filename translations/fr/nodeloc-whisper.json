@@ -36,19 +36,19 @@
                 "send_success": "Le message a été envoyé"
             },
             "notifications": {
-                "message_received": "",
-                "new_private_message": "",
+                "message_received": "Test",
+                "new_private_message": "Quelqu'un m'a envoyé un message",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "Message de {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
-                        "manageEmailSettings": ""
+                        "subject": "Message de {user}",
+                        "youHaveReceivedNewMessage": "Vous avez reçu un nouveau message de {user} !",
+                        "viewMessage": "Voir le message",
+                        "manageEmailSettings": "Gérer les paramètres de messagerie"
                     }
                 }
             }
