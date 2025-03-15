@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "trim_title": "",
-                "trim_help": "",
+                "trim_help": "Qui si può configurare per quanto tempo (in minuti) si vuole che Horizon mantenga\n i lavori recenti non riusciti. In genere, i lavori recenti vengono conservati per un'ora,\nmentre tutti i lavori non riusciti vengono archiviati per un'intera settimana.\n",
                 "trim_recent": "",
                 "trim_recent_help": "",
                 "trim_pending": "",
@@ -18,10 +18,10 @@
                 "trim_monitored_help": ""
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
+                "auto_refresh": "Aggiornamento automatico",
+                "heading": "Panoramica coda",
+                "full_dashboard": "Pannello di controllo Horizon",
+                "refresh": "Ricarica",
                 "data": {
                     "redis-used-memory": "",
                     "redis-peak-memory": "",
@@ -34,12 +34,12 @@
                     "jobs-past-hour": "",
                     "failed-last-seconds": "",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Stato",
+                        "running": "In esecuzione",
+                        "inactive": "Inattivo"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
+                    "total-processes": "Processi totali",
+                    "max-wait-time": "Tempo max attesa",
                     "max-runtime": "",
                     "max-throughput": ""
                 }
