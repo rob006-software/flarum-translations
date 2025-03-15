@@ -55,7 +55,7 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "edit_title": "Editar las etiquetas para '{title}'",
+                "edit_title": "Editar las etiquetas para {title}",
                 "title": "Elige las etiquetas para su discusión",
                 "bypass_requirements": "Omitir requisitos de etiquetas",
                 "choose_primary_placeholder": "{count, plural, one {Elige una etiqueta principal} other {Elige # etiquetas primarias}}",
@@ -106,7 +106,7 @@
         "validation": {
             "attributes": {
                 "name": "nombre",
-                "slug": "",
+                "slug": "slug",
                 "is_hidden": "oculto",
                 "description": "descripción",
                 "color": "color",
