@@ -19,8 +19,8 @@
                     "description": "Descripción del tipo de notificación",
                     "icon": "Icono por defecto",
                     "default_message_key": "Mensaje por defecto",
-                    "permission": "Permiso de Tipo de notificación",
-                    "color": "Color del Tipo de notificación",
+                    "permission": "Permiso sobre tipo de notificación",
+                    "color": "Color sobre tipo de notificación",
                     "default_url": "Enlace por defecto",
                     "default_recipients": "Destinatarios por defecto",
                     "sort_order": "Ordenar por",
@@ -42,7 +42,7 @@
                 "recipients_placeholder": "Escribe un nombre de usuario o nombre de grupo...",
                 "message_label": "Mensaje",
                 "url_label": "Enlace de destino",
-                "url_placeholder": "https://www.example.com",
+                "url_placeholder": "https://www.ejemplo.com",
                 "submit_button": "Enviar notificación",
                 "notification_sent_message": "¡Se han enviado notificaciones a {recipientsCount} usuarios!",
                 "notification_type_label": "Tipo de notificación",
@@ -57,7 +57,7 @@
         },
         "api": {
             "message_required": "El mensaje es obligatorio.",
-            "user_ids_required": "Se requieren ID de usuario.",
+            "user_ids_required": "El ID de usuario es obligatorio.",
             "subject_id_required": "El tipo de notificación es obligatorio.",
             "no_valid_recipients": "No se encontraron destinatarios válidos."
         }
