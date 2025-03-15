@@ -2,18 +2,18 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Crear notas de moderación",
+                "viewnotes": "Ver notas de moderación",
+                "deletenotes": "Eliminar notas de moderación"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "No se permite una nota vacía.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
+                "created_text": "{username} creó esta nota el {date}",
+                "add_button": "Nueva nota",
+                "create-heading": "Crear una nueva nota de moderación",
+                "dismiss_button": "Hecho",
                 "input_heading": "",
                 "noNotes": "",
                 "submit_button": "",
