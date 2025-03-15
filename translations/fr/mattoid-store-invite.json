@@ -4,6 +4,8 @@
             "settings": {
                 "group-view": "Afficher les produits aux utilisateurs",
                 "group-admin-view": "Permissions d'audit",
+                "invite-calm-down-period-help": "",
+                "invite-calm-down-period": "",
                 "calm-down-period-help": "Après le rejet de la demande, il n'est pas possible d'introduire une nouvelle demande pendant X jours à compter de la date de rejet",
                 "calm-down-period": "Demande de délai de réflexion (en jours)",
                 "invite-validity-period": "Période de validité du code d'invitation (en jours)",
@@ -60,7 +62,8 @@
                 "username-inconsistency": "Le nom d'utilisateur ne correspond pas aux informations de l'invitation. Veuillez vous inscrire en utilisant le nom d'utilisateur fourni dans le courriel",
                 "exception": "La révision automatique a échouée [{message}]",
                 "email-not-exist": "L'adresse de courriel ne peut pas être vide",
-                "link-not-exist": "le lien de l'invité ne peut pas être vide"
+                "link-not-exist": "le lien de l'invité ne peut pas être vide",
+                "blacklist": ""
             }
         },
         "lib": {
