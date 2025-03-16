@@ -4,8 +4,8 @@
             "settings": {
                 "group-view": "Menampilkan produk ke pengguna",
                 "group-admin-view": "Izin audit",
-                "invite-calm-down-period-help": "",
-                "invite-calm-down-period": "",
+                "invite-calm-down-period-help": "Setelah undangan dikirimkan, pengajuan ulang tidak diperbolehkan selama N hari sejak tanggal persetujuan",
+                "invite-calm-down-period": "Periode masa tunggu undangan (hari)",
                 "calm-down-period-help": "Setelah pengajuan ditolak, tidak diperbolehkan untuk mengajukan permohonan kembali selama N hari sejak tanggal ditolaknya permohonan",
                 "calm-down-period": "Periode jeda pengajuan",
                 "invite-validity-period": "Masa berlaku kode undangan (hari)",
@@ -63,7 +63,7 @@
                 "exception": "Tinjauan otomatis gagal [{message}]",
                 "email-not-exist": "Email tidak boleh kosong",
                 "link-not-exist": "tautan undangan tidak boleh kosong",
-                "blacklist": ""
+                "blacklist": "Pengguna dalam daftar hitam, undangan dilarang!"
             }
         },
         "lib": {
