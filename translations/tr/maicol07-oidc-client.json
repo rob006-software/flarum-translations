@@ -34,20 +34,20 @@
                     "code_challenge_method": "Kod zorluk yöntemi",
                     "response_type": "Sağlayıcının yetkilendirmeye yanıt türü",
                     "id_token_signing_alg": "ID token imzalama algoritması",
-                    "authorization_response_iss_parameter_supported": "",
-                    "token_endpoint_auth_method": ""
+                    "authorization_response_iss_parameter_supported": "Yetkilendirme yanıtı iss parametresi destekleniyor",
+                    "token_endpoint_auth_method": "Token uç noktası kimlik doğrulama yöntemi"
                 },
                 "other": {
-                    "title": "",
-                    "provider_name": "",
-                    "linker_claim": "",
-                    "manage_account_url": "",
-                    "manage_account_btn_open_in_new_tab": "",
-                    "sso_mode": "",
-                    "logout_from_provider": "",
-                    "remove_signup_btn": "",
-                    "sync_avatars": "",
-                    "time_drift": ""
+                    "title": "Diğer ayarlar",
+                    "provider_name": "OIDC ile ilgili butonlarda görüntülenecek sağlayıcı adı",
+                    "linker_claim": "Bağlantı talebi",
+                    "manage_account_url": "Hesap yönetimi bağlantısı",
+                    "manage_account_btn_open_in_new_tab": "Hesap yönetimi sayfasını yeni bir sekmede aç",
+                    "sso_mode": "SSO modu",
+                    "logout_from_provider": "Sağlayıcıdan çıkış yap (SSO modu etkinleştirildiğinde)",
+                    "remove_signup_btn": "Kayıt ol düğmesini kaldır",
+                    "sync_avatars": "Kullanıcı avatarını senkronize et",
+                    "time_drift": "JWT Zaman kayması"
                 },
                 "provider_name": "OpenID Connect sağlayıcı adı",
                 "client_settings_title": "İstemci ayarları",
