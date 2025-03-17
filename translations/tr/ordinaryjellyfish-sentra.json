@@ -4,39 +4,39 @@
             "view_documentation": "Belgeleri İncele",
             "api_key": "API Anahtarı",
             "endpoint": "Uç nokta",
-            "enable": "",
+            "enable": "Etkinleştir",
             "permissions": {
-                "bypass": ""
+                "bypass": "Sentra'yı Atla"
             },
             "services": {
-                "heading": "",
-                "content_safety": "",
-                "content_safety_help": "",
+                "heading": "Hizmetler",
+                "content_safety": "Azure AI İçerik Güvenliği",
+                "content_safety_help": "Azure AI İçerik Güvenliği, metin ve görsellerde potansiyel olarak rahatsız edici veya istenmeyen içeriği tespit eden bir hizmettir.",
                 "content_safety_settings": {
-                    "analyze_images": ""
+                    "analyze_images": "Görselleri Analiz Et"
                 }
             },
             "modules": {
-                "heading": "",
-                "requires": "",
-                "requires_error": "",
-                "post_shield": "",
-                "post_shield_help": "",
+                "heading": "Modüller",
+                "requires": "<b>{services}</b> gereklidir",
+                "requires_error": "Lütfen bu modülü kullanabilmek için tüm gerekli hizmetleri etkinleştirin ve yapılandırın.",
+                "post_shield": "Gönderi Kalkanı",
+                "post_shield_help": "Gönderi Kalkanı, gönderilerde potansiyel olarak rahatsız edici veya istenmeyen içeriği tespit etmek için kullanılan bir modüldür. Tam gönderi içeriğini, Azure AI İçerik Güvenliği ayarlarında etkinleştirilmişse görselleri de analiz eder.",
                 "post_shield_settings": {
-                    "harm_categories": "",
-                    "severity_level": "",
-                    "severity_level_low": "",
-                    "severity_level_medium": "",
-                    "severity_level_high": "",
-                    "severity_level_unknown": ""
+                    "harm_categories": "Zarar Kategorileri",
+                    "severity_level": "Şiddet Tetikleme Seviyesi",
+                    "severity_level_low": "Düşük",
+                    "severity_level_medium": "Orta",
+                    "severity_level_high": "Yüksek",
+                    "severity_level_unknown": "Bilinmiyor"
                 }
             }
         },
         "lib": {
             "post_shield": {
-                "Hate": "",
-                "Hate_help": "",
-                "Sexual": "",
+                "Hate": "Nefret ve Eşitlik",
+                "Hate_help": "Belirli grupların ayırt edici özelliklerine dayalı olarak bir kişi veya kimlik grubuna saldıran veya ayrımcı dil kullanan içerik.",
+                "Sexual": "Seksüel",
                 "Sexual_help": "",
                 "Violence": "",
                 "Violence_help": "",
