@@ -3,41 +3,41 @@
         "admin": {
             "settings": {
                 "price": "Fiyat",
-                "reward": "",
-                "max_number": "",
-                "expires": "",
-                "key_count": ""
+                "reward": "Ödül",
+                "max_number": "Maksimum sayı",
+                "expires": "Son kullanım",
+                "key_count": "Yeni üyelerin ücretsiz davetiye sayısı"
             },
             "permissions": {
-                "referral_key": ""
+                "referral_key": "Davet etme yetkisi"
             },
             "items": {
-                "add": ""
+                "add": "Ekle"
             }
         },
         "forum": {
-            "referral": "",
-            "inviter": "",
-            "purchase_invite_code": "",
-            "free_invite_code": "",
-            "purchase_help_tip": "",
-            "free_help_tip": "",
-            "purchase_max_tip": "",
-            "purchase_expire_tip": "",
-            "create_time": "",
-            "invite_code": "",
-            "next_available": "",
-            "claim_now": "",
-            "wait_to_claim": "",
-            "count": "",
-            "cost": "",
-            "claim_failed": "",
-            "registers": "",
-            "actives": "",
-            "is_expire": "",
+            "referral": "Davet",
+            "inviter": "Davet Eden {inviter}",
+            "purchase_invite_code": "Davet Kodu Al",
+            "free_invite_code": "Ücretsiz Davet Kodu",
+            "purchase_help_tip": "Her davet kodu {invite_code_price} enerjiye mal olur. Başarıyla davet edilen her kullanıcı için {invite_code_reward} enerji ile ödüllendirilirsiniz.",
+            "free_help_tip": "Her {days} günde {amount} davet kodu alabilirsiniz.",
+            "purchase_max_tip": "Satın AlımMiktarı (bir seferde en fazla {invite_code_max_number})",
+            "purchase_expire_tip": "Davet kodunun {invite_code_expires} gün içinde süresi dolacak",
+            "create_time": "Oluşturma Zamanı",
+            "invite_code": "Davet Kodu",
+            "next_available": "Yeni ücretsiz davet kodu oluşturmak için {hours} saat beklemeniz gerekiyor.",
+            "claim_now": "Şimdi Talep Et",
+            "wait_to_claim": "Talep Etmek İçin Bekle",
+            "count": "Kalan miktar",
+            "cost": "Maliyet",
+            "claim_failed": "Alım başarısız oldu.",
+            "registers": "Kayıtlar",
+            "actives": "Aktifler",
+            "is_expire": "Süresi Dolan?",
             "sign_up": {
-                "no_invite_text": "",
-                "get_invite_link_text": ""
+                "no_invite_text": "Davet kodu yok mu?",
+                "get_invite_link_text": "Davet almak için buraya tıklayın"
             }
         }
     }
