@@ -2,12 +2,12 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": "Näytettävien käyttäjien enimmäismäärä"
+                "cache_ttl": "Käyttäjälistan välimuistin pituus (sekunteina)",
+                "last_seen_interval": "Viimeksi nähty aikaväli, jonka perusteella käyttäjä katsotaan paikalla olevaksi (minuuteissa)",
+                "max_users": "Enimmäismäärä näytettäviä käyttäjiä"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Näytä käyttäjät paikalla vimpain"
             }
         },
         "forum": {
