@@ -12,14 +12,14 @@
         },
         "lib": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Kirjaudu toisena käyttäjänä",
+                "label": "Suuren vallan myötä tulee suuri vastuu. Jatkamalla sinusta tulee {username}, kunnes kirjaudut ulos.",
+                "placeholder_optional": "(Valinnainen) Ilmoita syy täksi käyttäjäksi siirtymiselle",
+                "placeholder_required": "Sinun täytyy ilmoittaa syy vaihdolle ennen kuin jatkat",
+                "impersonate_username": "Kirjaudu {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Kirjaudu käyttäjänä"
             }
         },
         "forum": {
