@@ -3,28 +3,28 @@
         "admin": {
             "dashboard": {
                 "maintenance_widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Huoltotila aktiivinen",
+                    "detail": "Huollon ollessa käynnissä vain sallitut käyttäjät pääsee foorumille."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Voi ohittaa huoltotilan"
             },
             "settings": {
                 "maintenance_mode_enabled": {
-                    "label": ""
+                    "label": "Huoltotila"
                 }
             }
         },
         "views": {
             "default": {
-                "title": "",
-                "header": "",
-                "body": ""
+                "title": "Huolto",
+                "header": "Sivustoa huolletaan parhaillaan.",
+                "body": "<p>Suoritamme parhaillaan huolto toimenpiteitä. Tule takaisin hieman myöhemmin.</p>\n"
             }
         },
         "api": {
-            "title": ""
+            "title": "Huolto käynnissä. Tule takaisin myöhemmin."
         }
     }
 }
