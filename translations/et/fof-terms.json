@@ -22,7 +22,7 @@
                 "set-to-now": "Määra kohe"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "See kustutab andmebaasist jäädavalt poliitika {name} ja sellega seostatud nõustumised. Palun veendu, et oled teinud neist kuupäevadest varukoopia juhuks, kui vajad neid juriidilistel põhjustel. Oled sa kindel, et soovid selle poliitika kustutada?\n"
             },
             "policies": {
                 "name": "Nimi",
@@ -33,9 +33,9 @@
                 "update-message-help": "Sõnum, mida näidatakse olemasolevatele kasutajatele, kes pole veel viimaseid eeskirju aktsepteerinud.",
                 "terms-updated-at": "Uuendatud",
                 "terms-updated-at-placeholder": "AAAA-KK-PP (hh:mm:ss)",
-                "terms-updated-at-help": "",
+                "terms-updated-at-help": "Viimase kasutustingimuse uuendamise kuupäev. Selle väärtuse määramisega peavad kõik kasutajad, kes on sellega nõustunud enne seda kuupäeva, sellega uuesti nõustuma. See peab olema minevikus (muidu ei saa kasutajad kunagi nõustumise valikust edasi).\n",
                 "export-url": "Eksportimise URL",
-                "export-url-help": "",
+                "export-url-help": "Kõik kasutajad, kellel on õigus \"Poliitikate andmete eksportimine\" saavad ligi URL-idele, millel on nimekiri kasutajatest, kes on selle poliitikaga nõustunud. Lisainfot saadaolevate valikute kohta leiad <a>lisaprogrammi wikist</a>.\n",
                 "optional": "Valikuline poliitika",
                 "optional-help": "Kui see valik on sisse lülitatud, siis saavad kasutajad foorumis tegutseda ka ilma selle poliitikaga nõutumata."
             },
