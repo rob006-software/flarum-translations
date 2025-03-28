@@ -711,6 +711,9 @@ return [
 	'fof-subscribed' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/1.1.4/resources/locale/en.yml',
 	],
+	'fof-synopsis' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/synopsis/1.0.0/resources/locale/en.yml',
+	],
 	'fof-terms' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/1.4.2/resources/locale/en.yml',
 	],
