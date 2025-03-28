@@ -1,30 +1,30 @@
 {
     "yippy-auth-ldap": {
         "forum": {
-            "account_found": "",
-            "log_in_with": "",
-            "log_out": "",
+            "account_found": "{server} içinde hesap bulundu",
+            "log_in_with": "{server} ile giriş yap",
+            "log_out": "=> core.ref.log_out",
             "errors": {
-                "core_csrf_token_mismatch": "",
-                "search_filter_is_invalid": "",
-                "not_authenticated": "",
-                "csrf_token_mismatch": "",
+                "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
+                "search_filter_is_invalid": "Geçersiz `LDAP arama alanları` nedeniyle {server} için arama filtresi uygulanamıyor, uzantı ayarlarını düzeltin.",
+                "not_authenticated": "Geçersiz kimlik bilgisi nedeniyle {server} bağlanılamıyor, uzantı ayarlarını düzeltin.",
+                "csrf_token_mismatch": "Çok uzun süredir etkin değilsiniz, lütfen sayfayı yenileyin ve tekrar deneyin",
                 "domains": {
-                    "no_domains": "",
-                    "empty_host": "",
-                    "empty_base_dn": "",
-                    "empty_user_username": "",
-                    "empty_search_field": "",
-                    "username_field_does_not_exist": "",
-                    "mail_field_does_not_exist": ""
+                    "no_domains": "Yönetici ayarlarında hiçbir alan adı ayarlanmamış, uzantı ayarlarını düzeltin.",
+                    "empty_host": "{domain_index} alanında hiçbir Alan Adı veya sunucu IP adresi ayarlanmamış, uzantı ayarlarını düzeltin.",
+                    "empty_base_dn": "{domain_index} alanında hiçbir Temel DN ayarlanmamış, uzantı ayarlarını düzeltin.",
+                    "empty_user_username": "{domain_index} alanında Flarum Kullanıcı Profili - 'Kullanıcı adı alanı' boş, uzantı ayarlarını düzeltin.",
+                    "empty_search_field": "{domain_index} alanında LDAP Hesap Arama - 'Arama alanı' boş, uzantı ayarlarını düzeltin.",
+                    "username_field_does_not_exist": "{domain_index} alanında Flarum Kullanıcı Profili için kullanıcı adı bulunamıyor - `{data}` ile `Kullanıcı adı alanı`, uzantı ayarlarını düzeltin.",
+                    "mail_field_does_not_exist": "{domain_index} alanında Flarum Kullanıcı Profili için posta bulunamıyor - `{data}` ile `E-posta alanı`, uzantı ayarlarını düzeltin."
                 },
                 "account": {
-                    "invalid_inputs": "",
-                    "not_found": "",
-                    "incorrect_details": "",
-                    "password_expired": "",
-                    "disabled": "",
-                    "expired": "",
+                    "invalid_inputs": "Giriş alanları boş olamaz",
+                    "not_found": "{server} içinde hesabınız bulunamadı.",
+                    "incorrect_details": "Yanlış şifre girildi.",
+                    "password_expired": "Şifrenizin süresi doldu.",
+                    "disabled": "Hesabınız devre dışı bırakıldı, {server} yöneticinizle iletişime geçin.",
+                    "expired": "Hesabınızın süresi doldu, {server} yöneticinizle iletişime geçin.",
                     "locked": ""
                 }
             }
@@ -48,33 +48,33 @@
                     },
                     "data": {
                         "host": "",
-                        "host_help": "",
-                        "base_dn": "",
-                        "base_dn_help": "",
-                        "filter": "",
-                        "filter_help": "",
-                        "port": "",
-                        "port_help": "",
-                        "version": "",
-                        "version_help": "",
-                        "follow_referrals": "",
-                        "use_ssl": "",
-                        "use_tls": "",
-                        "admin_dn": "",
-                        "admin_dn_help": "",
-                        "admin_password": "",
-                        "admin_password_help": "",
-                        "search_user_fields": "",
-                        "search_user_fields_help": "",
-                        "user_username": "",
-                        "user_mail": "",
-                        "user_mail_help": "",
-                        "user_nickname_fields": "",
-                        "user_nickname_fields_help": ""
+                        "host_help": "Virgülle ayrılmış",
+                        "base_dn": "Base DN'ler",
+                        "base_dn_help": "Noktalı virgülle ayrılmış",
+                        "filter": "Uygulanacak filtre",
+                        "filter_help": "Tercihe bağlı, 'Arama alanları' filtreden hariç tutulmalıdır. Örneğin, filtreyi '(objectclass=user)' olarak girmek ve 'Arama alanları' içinde 'uid' seçmek, filtreyi şu şekilde değiştirecektir: '(&(objectclass=user)(uid=[Kullanıcı Girdisi]))\"",
+                        "port": "Bağlantı Noktası",
+                        "port_help": "SSL olmayan (Bağlantı Noktası 389) veya SSL (Bağlantı Noktası 636).",
+                        "version": "LDAP Sürümü",
+                        "version_help": "Yalnızca 2 veya 3 olarak ayarlanabilir (varsayılan 3'tür).",
+                        "follow_referrals": "LDAP sunucusuna bağlanmak için yönlendirmeleri izleyin",
+                        "use_ssl": "SSL Kullan",
+                        "use_tls": "TLS Kullan",
+                        "admin_dn": "Ayırt Edilmiş Adlar (DN'ler)",
+                        "admin_dn_help": "Anonim bağlama için boş bırakın",
+                        "admin_password": "Şifre",
+                        "admin_password_help": "Anonim bağlama için boş bırakın",
+                        "search_user_fields": "Arama alanları",
+                        "search_user_fields_help": "Açılır menü seçeneklerini kullanarak birden çok arama alanı seçin; örneğin \"mail\" seçimi yalnızca e-postaya izin verirken, \"uid,mail\" hem e-postaya hem de kullanıcı adına izin verir.",
+                        "user_username": "Kullanıcı adı alanını ata",
+                        "user_mail": "E-posta alanını ata",
+                        "user_mail_help": "Kullanıcıların kayıt sırasında kendi e-postalarını ayarlamalarına izin vermek için boş bırakın",
+                        "user_nickname_fields": "Alanlarla Takma Ad Ata",
+                        "user_nickname_fields_help": "Takma ad (Nickname) uzantısı etkinleştirilmelidir, açılır menü seçeneklerini kullanarak Takma Adı birden çok LDAP alanı ile derleyin. Örneğin, \"givenname,sn\" seçimi \"[Ad] [Soyad]\"ı takma adları olarak atayacaktır"
                     }
                 },
-                "onlyUse": "",
-                "display_detailed_error": ""
+                "onlyUse": "Flarum standart giriş yöntemini gizle",
+                "display_detailed_error": "Başarısız oturum açma girişimleri için ayrıntılı LDAP hatalarını görüntüle"
             }
         }
     }
