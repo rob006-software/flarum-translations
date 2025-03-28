@@ -2,12 +2,12 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "return_key_help": "",
-                "show_read_receipts": "",
-                "show_read_receipts_help": "",
-                "sender_background_color": "",
-                "recipient_background_color": "",
+                "return_key": "Giriş tuşu mesaj gönderir",
+                "return_key_help": "Giriş tuşuna (Enter tuşuna) basıldığında mesaj gönderilecek şekilde ayarlayın. Bu devre dışı bırakılırsa, Giriş tuşuna basıldığında yeni bir satır başlatılır ve kullanıcının mesajı göndermek için \"Mesaj gönder\" düğmesini tıklaması gerekir.",
+                "show_read_receipts": "Okundu bilgisi göster",
+                "show_read_receipts_help": "Alıcı mesajı okuduğunda mesajın yanında bir onay kutusu göster.",
+                "sender_background_color": "Gönderilen mesajların arka plan rengi:",
+                "recipient_background_color": "Alınan mesajların arka plan rengi:",
                 "sender_text_color": "",
                 "recipient_text_color": "",
                 "enable_custom_colors": ""
