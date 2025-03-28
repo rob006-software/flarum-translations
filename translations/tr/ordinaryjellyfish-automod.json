@@ -5,32 +5,32 @@
                 "bypass": "Automod filtrelerini atla"
             },
             "settings": {
-                "threshold": "",
-                "threshold_help": "",
-                "moderate_categories_label": "",
-                "moderate_categories_label_help": "",
-                "moderate_categories_enable": "",
-                "service_account": "",
-                "filter_label": "",
-                "filter_help": "",
-                "filter_enable": "",
+                "threshold": "Güven Eşiği",
+                "threshold_help": "Güven eşiği 0,00 ile 1,00 arasındadır ve girdinin veya yanıtın belirli bir kategoriye ait olma olasılığını yansıtır. Daha düşük bir eşik daha az yanlış pozitife neden olur, ancak daha fazla yanlış negatife de neden olabilir. Daha yüksek bir eşik daha fazla yanlış pozitife neden olur, ancak daha az yanlış negatife de neden olabilir.",
+                "moderate_categories_label": "Moderasyon Kategorileri",
+                "moderate_categories_label_help": "Etkinleştirildiğinde ve güven kurallarıyla karşılandığında içeriği otomatik olarak moderasyon için işaretleyecek kategoriler.",
+                "moderate_categories_enable": "Moderasyon Kategorilerini Etkinleştir",
+                "service_account": "Hizmet Hesabı",
+                "filter_label": "Belirlenmiş Filtreler",
+                "filter_help": "Bunlar, forumunuzu güvende tutmaya yardımcı olmak için kişisel olarak oluşturduğum filtrelerdir. Etkinleştirilen filtreler, moderasyon kategorileri gibi otomatik olarak işaretleyecektir.",
+                "filter_enable": "Belirlenmiş Filtreleri Etkinleştir",
                 "filters": {
-                    "doxxing": "",
-                    "doxxing_help": "",
-                    "flag_unsafe_images": "",
-                    "flag_unsafe_images_help": ""
+                    "doxxing": "İfşa",
+                    "doxxing_help": "Bir birey veya kuruluş hakkında daha önce özel olan kişisel bilgileri, genellikle kötü niyetle, kamuoyuna açıklama eylemi.",
+                    "flag_unsafe_images": "Uygunsuz Görsel",
+                    "flag_unsafe_images_help": "Google Güvenli Arama algılamasını çalıştırır ve güvenli olmayan görüntüleri işaretler. Yorumunuzu gönderirken bunun biraz gecikmeye neden olabileceğini unutmayın."
                 }
             }
         },
         "lib": {
             "moderate_categories": {
-                "toxic": "",
-                "toxic_help": "",
-                "derogatory": "",
-                "derogatory_help": "",
-                "violent": "",
-                "violent_help": "",
-                "sexual": "",
+                "toxic": "Toksik",
+                "toxic_help": "Kaba, saygısız veya mantıksız içerik.",
+                "derogatory": "Aşağılayıcı",
+                "derogatory_help": "Kimliği ve/veya korunan nitelikleri hedef alan olumsuz veya zararlı yorumlar.",
+                "violent": "Şiddet",
+                "violent_help": "Bir bireye veya gruba yönelik şiddeti veya genel vahşet tasvirlerini açıklar.",
+                "sexual": "Cinsel",
                 "sexual_help": "",
                 "insult": "",
                 "insult_help": "",
@@ -45,21 +45,21 @@
                 "health": "",
                 "health_help": "",
                 "religion": "",
-                "religion_help": "",
-                "drugs": "",
-                "drugs_help": "",
-                "war": "",
-                "war_help": "",
-                "finance": "",
-                "finance_help": "",
-                "politics": "",
-                "politics_help": "",
-                "legal": "",
-                "legal_help": ""
+                "religion_help": "Doğaüstü yasa ve varlık olasılığı ile ilgilenen inanç sistemleri; din, inanç, itikat, ruhani uygulama, kiliseler ve ibadethaneler. Astroloji ve okültizmi içerir.",
+                "drugs": "Yasadışı Uyuşturucu",
+                "drugs_help": "Eğlence amaçlı ve yasadışı uyuşturucular; uyuşturucu gereçleri ve yetiştiriciliği, \"head shop\"lar vb. Genellikle eğlence amaçlı kullanılan ilaçların tıbbi kullanımını (örneğin esrar) içerir.",
+                "war": "Savaş",
+                "war_help": "Savaş, askeri çatışmalar ve çok sayıda insanın karıştığı büyük fiziksel çatışmalar. Doğrudan bir savaş veya çatışmayla ilgili olmasa bile askeri hizmetlerin tartışılmasını içerir.",
+                "finance": "Finans",
+                "finance_help": "Tüketici ve işletme finansal hizmetleri, örneğin bankacılık, krediler, kredi, yatırım ve sigorta.",
+                "politics": "Politika",
+                "politics_help": "Siyasi haberler ve medya; sosyal, hükümet ve kamu politikalarının tartışılması.",
+                "legal": "Hukuk",
+                "legal_help": "Hukuk firmaları, hukuki bilgiler, temel hukuki materyaller, avukat yardımcılığı hizmetleri, hukuki yayınlar ve teknoloji, bilirkişiler, dava danışmanları ve diğer hukuki hizmet sağlayıcıları dahil olmak üzere hukukla ilgili içerik."
             }
         },
         "forum": {
-            "flag_reason": ""
+            "flag_reason": "Otomod bu gönderiyi şundan raporladı: {reason}"
         }
     }
 }
