@@ -35,16 +35,16 @@
                     "total_uses": "{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}",
                     "title": "Kode Undangan",
                     "help": {
-                        "key": "Key: Kode yang akan dimasukkan oleh pengguna saat melakukan pendaftaran.",
+                        "key": "Kunci: Kode yang akan digunakan pengguna saat mendaftar.",
                         "group": "Grup: Grup yang akan ditambahkan ke pengguna saat mereka melakukan pendaftaran.",
                         "max": "Maks Penggunaan: Jumlah maksimum penggunaan kode, atur ke 0 untuk penggunaan tanpa batas",
                         "activates": "Aktivasi Pengguna: Secara otomatis mengaktifkan pengguna ketika mereka melakukan pendaftaran."
                     },
                     "warning": "Kode undangan ini telah digunakan berkali-kali.",
-                    "key": "Key",
+                    "key": "Kunci",
                     "max_uses": "Maks Penggunaan",
                     "heading": {
-                        "key": "Key",
+                        "key": "Kunci",
                         "group": "Grup",
                         "activate": "Aktivasi Pengguna",
                         "max_uses": "Maks Penggunaan"
@@ -58,8 +58,8 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": "Kode yang akan diketikkan pengguna saat mendaftar."
+                        "label": "Kunci",
+                        "help": "Kode yang akan digunakan pengguna saat mendaftar."
                     },
                     "group": {
                         "label": "Grup",
@@ -141,14 +141,14 @@
                     "group": "=> fof-doorman.admin.ref.fields.group.label",
                     "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
                     "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "manage": "Kelola",
+                    "uses": "Penggunaan",
+                    "created_by": "Dibuat Oleh"
                 },
                 "content": {
                     "invalid_column": "=> core.admin.users.grid.columns.invalid_column",
                     "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
-                    "warning": "",
+                    "warning": "Kode undangan ini telah digunakan sebanyak maksimalnya.",
                     "delete": "Apakah Anda yakin ingin menghapus kode undangan “{key}”?",
                     "uses": {
                         "used_times": "{remaining, plural, =0 {Penggunaan tidak terbatas} one {{remainingUses} kali penggunaan tersisa} other {{remainingUses} kali penggunaan tersisa}}",
@@ -167,7 +167,7 @@
             }
         },
         "email": {
-            "subject": "",
+            "subject": "Undangan Untuk Bergabung",
             "body": "Halo,\n\nAnda telah diundang untuk mendaftar ke {forum}.\n\nJika Anda sudah siap untuk membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:\n\nUrl: {url}\nKode undangan: {code}\n\nJika Anda menerima email ini karena terjadi kesalahan, harap abaikan email ini.\n"
         }
     }
