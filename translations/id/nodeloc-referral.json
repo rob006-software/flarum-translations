@@ -5,24 +5,40 @@
                 "price": "Harga",
                 "reward": "Reward",
                 "max_number": "Angka maksimal",
-                "expires": "Kedaluwarsa"
+                "expires": "Kedaluwarsa",
+                "key_count": "Berapa banyak undangan gratis untuk anggota baru"
             },
             "permissions": {
                 "referral_key": "Siapa yang dapat mengundang"
+            },
+            "items": {
+                "add": "Tambah"
             }
         },
         "forum": {
             "referral": "Referral",
+            "inviter": "",
             "purchase_invite_code": "Kode Undangan Pembelian",
+            "free_invite_code": "Kode Undangan Gratis",
             "purchase_help_tip": "Setiap kode undangan dikenakan biaya {invite_code_price} energi. Untuk setiap pengguna yang berhasil diundang, Anda akan diberi hadiah {invite_code_reward} energi.",
+            "free_help_tip": "Anda bisa mendapatkan {amount} kode undangan setiap {days} hari.",
             "purchase_max_tip": "Kuantitas Pembelian (hingga {invite_code_max_number} sekaligus)",
             "purchase_expire_tip": "Kode undangan akan kedaluwarsa dalam {invite_code_expires} hari",
             "create_time": "Waktu pembuatan",
             "invite_code": "Kode undangan",
+            "next_available": "Anda harus menunggu selama {hours} jam untuk membuat kode undangan gratis yang baru.",
+            "claim_now": "Klaim Sekarang",
+            "wait_to_claim": "Tunggu untuk Mengklaim",
             "count": "Tersedia",
             "cost": "Biaya",
+            "claim_failed": "Klaim gagal.",
+            "registers": "Register",
             "actives": "Aktif",
-            "is_expire": "Kedaluwarsa?"
+            "is_expire": "Kedaluwarsa?",
+            "sign_up": {
+                "no_invite_text": "Tidak punya kode undangan?",
+                "get_invite_link_text": "Klik di sini untuk mendapatkannya"
+            }
         }
     }
 }

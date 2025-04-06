@@ -4,10 +4,12 @@
             "settings": {
                 "group-view": "向使用者展示產品",
                 "group-admin-view": "審核權限",
+                "invite-calm-down-period-help": "",
+                "invite-calm-down-period": "",
                 "calm-down-period-help": "申請被拒絕後，自拒絕之日起N天內不得再申請",
                 "calm-down-period": "申請冷靜期（天）",
-                "invite-validity-period": "",
-                "invite-validity-period-help": "",
+                "invite-validity-period": "邀請碼有效期（天）",
+                "invite-validity-period-help": "審核通過後，超過時限的驗證碼將自動失效",
                 "show-index": "新增到主頁",
                 "show-index-help": "在主頁上顯示評論選單",
                 "price": "扣除費用",
@@ -60,7 +62,8 @@
                 "username-inconsistency": "",
                 "exception": "",
                 "email-not-exist": "",
-                "link-not-exist": ""
+                "link-not-exist": "",
+                "blacklist": ""
             }
         },
         "lib": {
@@ -83,11 +86,17 @@
             "item-query": "",
             "item-total-num": "",
             "item-pass-total-num": "",
+            "item-reject-total-num": "",
             "item-invite-code": "",
             "item-post-num": "",
             "item-user-create-time": "",
+            "item-create-time": "",
             "item-last-year-total-num": "",
-            "item-last-year-pass-num": ""
+            "item-last-year-pass-num": "",
+            "item-last-year-reject-num": "",
+            "item-this-year-total-num": "",
+            "item-this-year-pass-num": "",
+            "item-this-year-reject-num": ""
         }
     }
 }

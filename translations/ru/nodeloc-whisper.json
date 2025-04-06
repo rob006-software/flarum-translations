@@ -34,6 +34,23 @@
                 "text_placeholder": "Наберите ваше сообщение",
                 "send": "Отправить сообщение",
                 "send_success": "Сообщение успешно отправлено"
+            },
+            "notifications": {
+                "message_received": "",
+                "new_private_message": "",
+                "web": {
+                    "new_private_message": {
+                        "body": ""
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "",
+                        "youHaveReceivedNewMessage": "",
+                        "viewMessage": "",
+                        "manageEmailSettings": ""
+                    }
+                }
             }
         }
     }

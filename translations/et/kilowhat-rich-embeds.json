@@ -25,32 +25,32 @@
                 "imageProxy": "OpenGraph piltide vaheserver",
                 "imageProxyHelp": "",
                 "cacheProxy": "Hoia pildid vaheserveris",
-                "cacheProxyHelp": "",
+                "cacheProxyHelp": "Pildid pannakse kettale vahemällu vastavalt nende HTTP päisele",
                 "withoutOpengraph": "",
-                "withoutOpengraphHelp": "",
+                "withoutOpengraphHelp": "Pealkiri, kirjeldus ja pilt eemaldatakse lehe HTML-ist",
                 "blacklist": "URL-ide must nimekiri",
                 "blacklistHelp": "",
                 "whitelist": "URL-ide valge nimekiri",
                 "whitelistHelp": "",
-                "imageEmbeds": "",
+                "imageEmbeds": "Piltide rikkalik põimimine",
                 "imageEmbedsHelp": "",
-                "flarumApiPreviews": "",
+                "flarumApiPreviews": "Lülita Flarumi edasijõudnud eelvaated sisse",
                 "flarumApiPreviewsHelp": "",
                 "githubApiKey": "GitHub API võti",
                 "githubApiKeyHelp": "",
                 "githubOrgWhitelist": "Organisatsioonide valge nimekiri",
                 "githubOrgWhitelistHelp": "",
-                "googleApiAuthConfig": "",
+                "googleApiAuthConfig": "Google SDK Auth Config asukoht või JSON",
                 "googleApiAuthConfigHelp": "",
                 "googleApiKey": "Google SDK API võti",
                 "googleApiKeyHelp": "",
-                "youtubePlayer": "",
+                "youtubePlayer": "Luba Youtube videote esitamine eelvaates",
                 "youtubePlayerHelp": "",
                 "youtubeNoCookie": "Kasuta YouTube ilma küpsisteda iframe domeeni",
                 "youtubeNoCookieHelp": "",
                 "youtubeApiPreviews": "",
                 "youtubeApiPreviewsHelp": "",
-                "googledriveApiPreviews": "",
+                "googledriveApiPreviews": "Kasuta võimekat API-toega Google Drive eelvaateid",
                 "googledriveApiPreviewsHelp": ""
             },
             "section": {
@@ -66,7 +66,7 @@
                 "useOnOwnPost": "",
                 "disableOnOwnPost": "",
                 "refreshOnOwnPost": "",
-                "disableOnAnyPost": "",
+                "disableOnAnyPost": "Põimimised väljalülitamine ükskõik millises postituses",
                 "refreshOnAnyPost": ""
             },
             "preview": {
@@ -132,11 +132,11 @@
                         }
                     },
                     "pull": {
-                        "type": "",
+                        "type": "Tõmbamisi",
                         "stats": {
                             "commentCount": "Kommentaare",
                             "reviewCount": "Ülevaateid",
-                            "commitCount": "",
+                            "commitCount": "Panustamisi",
                             "createdAt": "Loodud"
                         }
                     },
@@ -148,7 +148,7 @@
                         "stats": {
                             "openIssueCount": "Avatud probleemid",
                             "subscriberCount": "Vaatajaid",
-                            "stargazerCount": "",
+                            "stargazerCount": "Tähti",
                             "forkCount": ""
                         }
                     }
@@ -157,12 +157,12 @@
                     "siteName": "YouTube",
                     "video": {
                         "type": "Video",
-                        "thumbnailAlt": "",
+                        "thumbnailAlt": "Video pisipilt",
                         "stats": {
                             "viewCount": "Vaatamisi",
                             "likeCount": "Meeldimisi",
                             "commentCount": "Kommentaare",
-                            "publishedAt": ""
+                            "publishedAt": "Avaldatud"
                         }
                     }
                 },
@@ -170,7 +170,7 @@
                     "siteName": "Google Drive",
                     "file": {
                         "type": "Fail",
-                        "thumbnailAlt": "",
+                        "thumbnailAlt": "Google Drive-i faili eelvaade",
                         "stats": {
                             "size": "Failisuurus",
                             "createdTime": "Loodud",

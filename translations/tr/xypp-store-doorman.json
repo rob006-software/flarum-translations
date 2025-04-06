@@ -1,26 +1,26 @@
 {
     "xypp-store-doorman": {
         "forum": {
-            "key-not-found": "",
-            "key": "",
+            "key-not-found": "Anahtar bulunamadı",
+            "key": "Davet anahtarı",
             "create": {
-                "select": "",
-                "count": "",
-                "group": "",
-                "activate": "",
-                "submit": "",
-                "title": ""
+                "select": "Veri Seç",
+                "count": "Kullanım süreleri",
+                "group": "Kayıttan sonra grup",
+                "activate": "Otomatik Etkinleştirme",
+                "submit": "Onayla",
+                "title": "Veri Seç"
             },
             "send": {
-                "title": "",
-                "cancel": "",
-                "submit": "",
-                "email": "",
-                "url": "",
-                "failed": ""
+                "title": "Davet E-postası Gönder",
+                "cancel": "İptal",
+                "submit": "Gönder",
+                "email": "E-posta",
+                "url": "Davet Bağlantısı",
+                "failed": "E-posta gönderilemedi"
             },
-            "showcase": "",
-            "has_used": ""
+            "showcase": "Kaydolduktan sonra {count} kez davet edebilir, {group} grubuna katılabilir, otomatik aktif etme: {activate}",
+            "has_used": "{count} kez kullanıldı"
         }
     }
 }

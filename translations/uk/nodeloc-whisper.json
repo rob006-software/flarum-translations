@@ -34,6 +34,23 @@
                 "text_placeholder": "Введіть своє повідомлення",
                 "send": "Надіслати повідомлення",
                 "send_success": "Повідомлення відправлено успішно"
+            },
+            "notifications": {
+                "message_received": "",
+                "new_private_message": "",
+                "web": {
+                    "new_private_message": {
+                        "body": ""
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "",
+                        "youHaveReceivedNewMessage": "",
+                        "viewMessage": "",
+                        "manageEmailSettings": ""
+                    }
+                }
             }
         }
     }

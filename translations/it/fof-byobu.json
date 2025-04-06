@@ -23,7 +23,7 @@
                 "make_public": "Sei sicuro di voler rimuovere i destinatari e rendere visibile questa discussione a chiunque possa visualizzare il tag assegnato?"
             },
             "hero": {
-                "title": ""
+                "title": "=> fof-byobu.forum.nav.nav_item"
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} Destinatario} other {{count} Destinatari}}",
@@ -87,7 +87,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Crea discussioni private con gli utenti",
-                "add_more_than_two_user_recipients": "",
+                "add_more_than_two_user_recipients": "Aggiungi più di 2 destinatari utente alla discussione privata",
                 "create_private_discussions_with_groups": "Crea discussioni private con i gruppi",
                 "create_private_discussions_with_blocking_users": "Crea discussioni private con gli utenti che le bloccano",
                 "edit_user_recipients": "Modifica gli utenti che partecipano a discussioni private",
@@ -97,21 +97,21 @@
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Impostazioni generali",
+                    "help": "Queste impostazioni controllano le funzionalità di base di byobu."
                 },
                 "icon": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Impostazioni icone",
+                    "help": "Queste impostazioni controllano le icone utilizzate da byobu sul forum."
                 },
                 "badge-icon": "Badge Discussione Byobu",
                 "enable-make-public-option": "Abilita la funzione \"Rendi pubblico\"",
                 "enable-make-public-option-help": "Aggiunge la possibilità per chi ha il permesso di rimuovere tutti i destinatari, assegnare un nuovo tag e rendere la discussione pubblicamente visibile (secondo le impostazioni di visibilità del tag scelto).",
                 "post-event-icon": "Eventi Post Byobu",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "delete_on_last_recipient_left": "Cancella le DP quando esce l'ultimo utente",
+                "delete_on_last_recipient_left_help": "Se abilitata, le Discussioni Private saranno eliminate definitivamente dal database quando l'ultimo utente se ne andrà. Altrimenti, le DP saranno eliminate in modo soft/nascoste.",
+                "hide_from_all_discussions_page": "Nascondi le DP dalla pagina \"Tutte le discussioni\"",
+                "hide_from_all_discussions_page_help": "Le discussioni private saranno accessibili solo dalla pagina \"Discussioni private\" o dal profilo utente"
             }
         },
         "email": {

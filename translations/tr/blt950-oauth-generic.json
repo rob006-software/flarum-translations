@@ -4,34 +4,34 @@
             "settings": {
                 "providers": {
                     "generic": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "scopes_label": "",
-                        "authorization_endpoint_label": "",
-                        "token_endpoint_label": "",
-                        "user_information_endpoint_label": "",
-                        "id_parameter_label": "",
-                        "display_name_parameter_label": "",
-                        "email_address_parameter_label": "",
-                        "force_userid_label": "",
-                        "force_name_label": "",
-                        "force_email_label": ""
+                        "description": "Özel OAuth2 sağlayıcınıza göre oturum açmayı ayarlayın.",
+                        "client_id_label": "İstemci Kimliği",
+                        "client_secret_label": "İstemci gizli anahtarı",
+                        "scopes_label": "Kapsam",
+                        "authorization_endpoint_label": "Yetkilendirme Son Noktası",
+                        "token_endpoint_label": "Jeton Son Noktası",
+                        "user_information_endpoint_label": "Kullanıcı Bilgisi Son Noktası",
+                        "id_parameter_label": "Kullanıcı Kimliği Parametresi",
+                        "display_name_parameter_label": "Görünen Ad Parametresi",
+                        "email_address_parameter_label": "E-posta Adresi Parametresi",
+                        "force_userid_label": "Kullanıcı Kimliğini Zorla (0 = hayır, 1 = evet)",
+                        "force_name_label": "Görüntülenen Adı Zorla (0 = hayır, 1 = evet)",
+                        "force_email_label": "E-posta Adresini Zorla (0 = hayır, 1 = evet)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_generic_button": ""
+                "with_generic_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "generic": ""
+                "generic": "=> fof-oauth.lib.providers.generic"
             }
         },
         "lib": {
             "providers": {
-                "generic": ""
+                "generic": "Genel"
             }
         }
     }

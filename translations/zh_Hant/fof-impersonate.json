@@ -13,13 +13,13 @@
         "lib": {
             "modal": {
                 "title": "以其他使用者登入",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "label": "能力越大，責任越大。直到下次登出前，你將以用戶 \"{username}\" 的身份登錄。",
+                "placeholder_optional": "（可選）切換到此使用者的理由",
+                "placeholder_required": "繼續操作前，請提供理由",
+                "impersonate_username": "以 \"{username}\" 身份登入"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "以用戶身份登入"
             }
         },
         "forum": {

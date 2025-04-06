@@ -1,29 +1,29 @@
 {
     "nearata-embed-twitch": {
         "admin": {
-            "allowfullscreen": "",
-            "autoplay": "",
+            "allowfullscreen": "Salli kokoruutu",
+            "autoplay": "Automaattinen toisto",
             "permissions": {
-                "create_twitch": ""
+                "create_twitch": "Upota Twitch"
             }
         },
         "forum": {
             "modal": {
                 "label": {
-                    "collection": "",
-                    "channel": "",
-                    "layout": "",
-                    "type": "",
-                    "video": ""
+                    "collection": "Collection ID",
+                    "channel": "Kanavan nimi",
+                    "layout": "Ulkoasu",
+                    "type": "Sisällön tyyppi",
+                    "video": "Videon ID"
                 },
-                "save_changes": "",
+                "save_changes": "Tallenna asetukset",
                 "options": {
-                    "channel": "",
-                    "video": "",
-                    "collection": ""
+                    "channel": "Kanava",
+                    "video": "Video",
+                    "collection": "Kokoelma"
                 }
             },
-            "button_tooltip_title": ""
+            "button_tooltip_title": "Upota Twitch"
         }
     }
 }

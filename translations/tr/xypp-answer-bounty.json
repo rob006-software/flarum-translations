@@ -2,35 +2,35 @@
     "xypp-answer-bounty": {
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "submit": "",
-                "clear": ""
+                "title": "Ödül Ayarla",
+                "label": "Miktar",
+                "submit": "Gönder",
+                "clear": "Temizle"
             },
             "composer": {
-                "set": "",
-                "edit": ""
+                "set": "Ödül Ayarla",
+                "edit": "Ödül({bounty})"
             },
             "discussion": {
-                "edit": "",
-                "set": ""
+                "edit": "Ödülü Düzenle ({bounty})",
+                "set": "Ödül Ayarla"
             },
-            "tip": "",
-            "tip-ans": "",
-            "badge": ""
+            "tip": "Bu tartışma, <span>{money}</span> ödülüyle en iyi cevabı arıyor.",
+            "tip-ans": "Ödül Gönderildi <span>{money}</span>",
+            "badge": "Ödül"
         },
         "admin": {
             "permissions": {
-                "moderate": "",
-                "use": ""
+                "moderate": "Diğerlerinin Ödülünü Yönet",
+                "use": "Ödül Ayarla"
             }
         },
         "api": {
-            "bounty": "",
-            "bounty_clear": "",
-            "bounty_set": "",
-            "not_enough_money": "",
-            "bounty_sent": ""
+            "bounty": "En İyi Cevabınız İçin Ödül",
+            "bounty_clear": "Ödülü Temizle",
+            "bounty_set": "Ödül Ayarla",
+            "not_enough_money": "Ödül belirlemek için yeterli paranız yok.",
+            "bounty_sent": "Ödül gönderildi. Lütfen yeni bir ödül belirlemeden önce en iyi cevabı kaldırın."
         }
     }
 }

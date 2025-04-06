@@ -32,7 +32,7 @@
                 },
                 "firebase_config": {
                     "heading": "Firebase",
-                    "help_text": "",
+                    "help_text": "Kui soovid lisada teavituste tuge oma rakendusele Apple rakenduste poes, siis pead kasutama Firebase-i, et lisada teavitused oma rakendusse. Genereeri oma Firebase teenuse seadistused ja laadi need üles siia.",
                     "see_documentation_here": "Vaata dokumentatsiooni siin",
                     "upload_successful": "Sinu Firebase seaded on edukalt uuendatud",
                     "upload_file": "Laadi üles"
@@ -44,11 +44,11 @@
                     "push_notif_preference_default_to_email_text": "Kui see on sisse lülitatud, siis mobiiliteavitusi lülitatakse automaatselt sisse samades kohtades, kus teavitused meilile on vaikimisi sisse lülitatud. Kui see funktsioon on välja lülitatud, siis on kasutajate jaoks mobiiliteavitused automaatselt välja lülitatud.",
                     "user_max_subscriptions_label": "Maks, push teavituste arv kasutaja kohta",
                     "user_max_subscriptions_text": "",
-                    "window_controls_overlay_label": "",
+                    "window_controls_overlay_label": "Kas kasutada Windowsi juhtelementide ülepaigutust?",
                     "window_controls_overlay_text": ""
                 },
                 "heading": "Veebirakenduse seadistamine",
-                "text": "",
+                "text": "Seadista oma Flarum sait nii, et see töötaks veebirakendusena (PWA)! Pea meeles, et see ei lisa sinu saiti automaatselt rakenduste poodi. See tähendab hoopis, et saidi kasutajatel on sinu saidil valik 'Lisa koduekraanile'. Pakume mõningaid staatuse kontrollimise võimalusi, aga parim viis seda testida on see paigaldada ja ise järgi proovida (otsi Googleist juhendeid, kuidas veebirakendusi paigaldada). Samuti pea meeles, et 'paigalda see PWA' hüpikaknad on veebisirvija kontrolli all ja seda ei saa käivitada arendajad, adminid või programmid. Soovitame lisada PWA paigaldamise juhendi ka sinu saidi dokumentatsiooni.",
                 "status_check_heading": "Staatuse kontrollimine",
                 "logo_heading": "Logod ja ikoonid",
                 "logo_text": "Sa pead laadima üles vähemalt ühe logo, et sinu veebirakendus oleks installitav. Kõik logod peavad olema ruudukujulised. Kui nad pole ruudukujulised, siis nende suuruse muutmise ajal proportsioonid muutuvad ning pilt venitatakse välja.\n\nAll on saadaval mitmeid suuruse valikuid. Soovitatav on laadida üles nii palju erinevaid variant, kui võimalik, kuna siis toetab see palju rohkemaid seadmeid.\n\nSa võid laadida üles ka 1 suure logo, mida kasutatakse väiksemate loomiseks. Näiteks võid laadida üles 1000px x 1000px logo KÕIGISSE faili väljadesse. Teisalt, kui laadid 50px x 50px logo 512x512 välja, siis venitatakse seda ikka väga palju.\n",
@@ -58,7 +58,7 @@
             },
             "status": {
                 "config_no_https": "URL sinu config.php failis ei kasuta eesliidet HTTPS. HTTPS nõutud, et veebirakendus töötaks.",
-                "possible_https_disabled": "",
+                "possible_https_disabled": "Võib olla, et sinu sait ei kasuta HTTPS-i. Vahemälu tühjendamine (adminiliides => tööriistad) võib siin aidata. Kui HTTPS on lubatud, siis võid seda teadet ignoreerida. Kui see pole lubatud, siis pea meeles, et HTTPS on nõutud veebirakenduste (PWA) töötamiseks.",
                 "no_logo": "Sa pead laadima üles vähemalt ühe logo suurusega 144x144px, et sinu veebirakendus oleks installitav.",
                 "no_name": "Sinu rakenduse töötamiseks on vaja selle täispikka nime.",
                 "no_vapid_keys": "VAPID võtmeid ei leitud. Need on vajalikud teavituste töötamiseks.VAPID võtmed saad nullida selle lehe allosas.",

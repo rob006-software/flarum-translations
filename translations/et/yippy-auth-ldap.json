@@ -11,10 +11,10 @@
                 "csrf_token_mismatch": "Oled liiga kaua aega mitteaktiivne olnud. Palun värskenda lehekülge ja proovi siis uuesti",
                 "domains": {
                     "no_domains": "Admini seadetes pole domeeni määratud. Muuda lisaprogrammi seadeid.",
-                    "empty_host": "",
+                    "empty_host": "Domeenil {domain_index} pole domeene või IP-aadresse määratud. Muuda rakenduse seadeid.",
                     "empty_base_dn": "",
-                    "empty_user_username": "",
-                    "empty_search_field": "",
+                    "empty_user_username": "Domeenil {domain_index} on tühi Flarumi kasutajaprofiili 'Kasutajanime väli'. Muuda rakenduse seadeid.",
+                    "empty_search_field": "Domeenil {domain_index} on tühi LDAP konto otsingu 'Otsinguväli'. Muuda rakenduse seadeid.",
                     "username_field_does_not_exist": "",
                     "mail_field_does_not_exist": ""
                 },
@@ -64,11 +64,11 @@
                         "admin_dn_help": "Anonüümseks sidumiseks jäta tühjaks",
                         "admin_password": "Parool",
                         "admin_password_help": "",
-                        "search_user_fields": "",
+                        "search_user_fields": "Otsinguväljad",
                         "search_user_fields_help": "",
                         "user_username": "Määra kasutajanime väli",
                         "user_mail": "Määra e-posti väli",
-                        "user_mail_help": "",
+                        "user_mail_help": "Jäta tühjaks, et lubada kasutajal liitumisel omaenda e-posti aadressi määrata",
                         "user_nickname_fields": "Määra hüüdnime väli",
                         "user_nickname_fields_help": ""
                     }

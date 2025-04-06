@@ -54,7 +54,121 @@
                         "switch-label": "Tee kutse koodi kasutamine liitumisel vabatahtlikuks"
                     }
                 }
+            },
+            "ref": {
+                "fields": {
+                    "key": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "group": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "max_uses": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "activates_user": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
+            },
+            "modals": {
+                "create_doorkey": {
+                    "title": "",
+                    "key": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "group": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "max_uses": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "activates_user": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "submit_button": "",
+                    "submit_and_create_another_button": ""
+                },
+                "edit_doorkey": {
+                    "title": "",
+                    "key": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "group": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "max_uses": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "activates_user": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "submit_button": ""
+                },
+                "send_invites": {
+                    "title": "",
+                    "group": "",
+                    "help": "",
+                    "placeholder": "",
+                    "invalid_emails": "",
+                    "max_use_conflict": "",
+                    "send": "",
+                    "success": ""
+                }
+            },
+            "settings": {
+                "search": "",
+                "total_doorkeys": "",
+                "create_doorkey_button": "",
+                "optional_usage": ""
+            },
+            "list": {
+                "columns": {
+                    "id": "",
+                    "key": "",
+                    "group": "",
+                    "max_uses": "",
+                    "activates_user": "",
+                    "manage": "",
+                    "uses": "",
+                    "created_by": ""
+                },
+                "content": {
+                    "invalid_column": "",
+                    "no_group": "",
+                    "warning": "",
+                    "delete": "",
+                    "uses": {
+                        "used_times": "",
+                        "total_uses": ""
+                    },
+                    "no_created_by": ""
+                },
+                "pagination": {
+                    "first_page_button": "",
+                    "back_button": "",
+                    "page_counter": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "next_button": "",
+                    "last_page_button": ""
+                }
             }
+        },
+        "email": {
+            "subject": "",
+            "body": ""
         }
     }
 }

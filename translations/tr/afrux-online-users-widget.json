@@ -2,12 +2,12 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
+                "cache_ttl": "Üye listesini önbelleğe alma süresi (saniye)",
+                "last_seen_interval": "Üyenin çevrimiçi olarak kabul edileceği süre (dakika)",
                 "max_users": "Gösterilecek En Fazla Kullanıcı"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Çevrimiçi Üyeler Widget'ını Göster"
             }
         },
         "forum": {

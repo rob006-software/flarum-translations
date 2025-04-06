@@ -31,18 +31,18 @@
                     "reset_vapid_success": "Ключи VAPID успешно сброшены. {count} подписок были сброшены. Перезагрузите страницу, чтобы увидеть обновленный отчет о проверке состояния."
                 },
                 "firebase_config": {
-                    "heading": "",
-                    "help_text": "",
-                    "see_documentation_here": "",
-                    "upload_successful": "",
-                    "upload_file": ""
+                    "heading": "Firebase",
+                    "help_text": "Для добавления поддержки рассылки уведомлений при публикации вашего приложения в Apple app store, вам надо использовать сервис пуш-уведомлений Firebase. Пожалуйста, сгенерируйте ваш Firebase Service Config и загрузите его сюда.",
+                    "see_documentation_here": "Посмотреть документацию здесь",
+                    "upload_successful": "Ваша Firebase конфигурация успешно загружена",
+                    "upload_file": "Загрузить файл"
                 },
                 "other": {
                     "heading": "Иное",
                     "force_portrait_text": "Принудительная портретная ориентация?",
                     "push_notif_preference_default_to_email_label": "",
-                    "push_notif_preference_default_to_email_text": "",
-                    "user_max_subscriptions_label": "",
+                    "push_notif_preference_default_to_email_text": "Если включено, пользователи будут получать пуш-уведомления для всех типов уведомлений, для которых по умолчанию установлены оповещения по эл.почте. Если выключено, пуш-уведомления по умолчанию будут выключены.",
+                    "user_max_subscriptions_label": "Максимальное число пуш-подписок на пользователя",
                     "user_max_subscriptions_text": "",
                     "window_controls_overlay_label": "",
                     "window_controls_overlay_text": ""

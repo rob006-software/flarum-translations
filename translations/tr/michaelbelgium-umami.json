@@ -2,30 +2,30 @@
     "michaelbelgium-umami": {
         "admin": {
             "widget": {
-                "live": "",
-                "views": "",
-                "visits": "",
-                "visitors": ""
+                "live": "Canlı",
+                "views": "Görüntülenme",
+                "visits": "Ziyaret",
+                "visitors": "Ziyaretçi"
             },
             "settings": {
                 "errors": {
-                    "no_connection": ""
+                    "no_connection": "İstatistikler alınamadı, lütfen API kimlik bilgilerinizi kontrol edin."
                 },
                 "site_id": {
-                    "label": "",
-                    "help": ""
+                    "label": "Website ID",
+                    "help": "Bu Flarum örneğinin Umami üzerindeki site ID'si. Bunu, Umami'deki site ayarlarının detaylarında bulabilirsiniz."
                 },
                 "domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Alan adı",
+                    "help": "Umami'nin bulunduğu alan adı."
                 },
                 "username": {
-                    "label": "",
-                    "help": ""
+                    "label": "Hesap kullanıcı adı",
+                    "help": "Opsiyonel. Yukarıdaki alan adı üzerindeki bir Umami hesabının kullanıcı adı. (admin paneli widget'ı için kullanılır)"
                 },
                 "password": {
-                    "label": "",
-                    "help": ""
+                    "label": "Hesap şifresi",
+                    "help": "Opsiyonel. Yukarıdaki kullanıcı adının şifresi. (admin paneli widget'ı için kullanılır)"
                 }
             }
         }

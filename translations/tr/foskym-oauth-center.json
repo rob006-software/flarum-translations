@@ -2,33 +2,33 @@
     "foskym-oauth-center": {
         "admin": {
             "permission": {
-                "use_oauth": ""
+                "use_oauth": "OAuth'u kullan"
             },
             "page": {
-                "index": "",
-                "clients": "",
-                "scopes": "",
-                "tokens": ""
+                "index": "anasayfa",
+                "clients": "Hizmetleri Yönet",
+                "scopes": "Kapsamları Yönet",
+                "tokens": "Belirteçleri Yönet"
             },
             "settings": {
-                "display_mode": "",
-                "access_lifetime": "",
-                "allow_implicit": "",
-                "enforce_state": "",
-                "require_exact_redirect_uri": "",
-                "authorization_method_fetch": "",
-                "allow_delete_records": ""
+                "display_mode": "Görüntüleme Modu",
+                "access_lifetime": "Erişim Belirteci Ömrü (saniye)",
+                "allow_implicit": "Örtülü İzne İzin Ver (response_type=token)",
+                "enforce_state": "Durum Doğrulamasını Zorla (durum parametresi)",
+                "require_exact_redirect_uri": "Tam Yönlendirme Bağlantısı Gerektir",
+                "authorization_method_fetch": "Yetkilendirme Yöntemi Getirme (Doğrudan Yönlendirme Yapılmıyor)",
+                "allow_delete_records": "Yetkilendirme Kayıtlarının Silinmesine İzin Ver"
             },
             "clients": {
-                "client_id": "",
-                "client_secret": "",
-                "redirect_uri": "",
-                "grant_types": "",
-                "scope": "",
-                "client_name": "",
-                "client_desc": "",
-                "client_icon": "",
-                "client_home": "",
+                "client_id": "İstemci Kimliği",
+                "client_secret": "İstemci Gizli Anahtarı",
+                "redirect_uri": "Yönlendirme Bağlantısı",
+                "grant_types": "İzin Türleri",
+                "scope": "Kapsam",
+                "client_name": "İsim",
+                "client_desc": "Açıklama",
+                "client_icon": "Simge",
+                "client_home": "Anasayfa",
                 "add_button": "",
                 "edit_client": ""
             },

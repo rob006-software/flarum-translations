@@ -2,38 +2,55 @@
     "nodeloc-whisper": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "title": ""
+                "return_key": "Enter tuşu mesaj gönderir",
+                "title": "Mesaj Ayarları"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "Özel sohbet başlat"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Sohbetler"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Mesaj Gönder",
+                "help": "Sohbeti başlatmak için bir kullanıcı adı yazmaya başlayın.",
+                "help_start": "{username} kullanıcısına mesaj gönder.",
+                "search_recipients": "Kullanıcı adı girin...",
+                "submit": "Gönder",
+                "copied": "Mesajınız panoya kopyalandı.",
+                "more_users": "Aradığınız kullanıcıyı görmüyorsanız, özel mesajlaşma ayarları yapılmamış demektir.",
+                "already": "Zaten {username} ile bir sohbetiniz var."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "send_success": ""
+                "messages_single": "Yeni sohbet",
+                "messages_multiple": "{count} toplam mesaj",
+                "chat_with": "Mesaj Gönder",
+                "start": "Sohbet Başlat",
+                "start_of_conversation": "Sohbet Başlangıcı",
+                "read": "Okundu",
+                "cant_start": "Sohbet Başlatılamıyor",
+                "text_placeholder": "Mesajınızı yazın",
+                "send": "Mesaj Gönder",
+                "send_success": "Mesaj başarıyla gönderildi"
+            },
+            "notifications": {
+                "message_received": "Deneme",
+                "new_private_message": "Biri sana mesaj attı",
+                "web": {
+                    "new_private_message": {
+                        "body": "{fromUser}'dan mesaj"
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "{user}'dan mesaj",
+                        "youHaveReceivedNewMessage": "{user} adlı kişiden yeni bir mesaj aldınız!",
+                        "viewMessage": "Mesajı Görüntüle",
+                        "manageEmailSettings": "E-posta ayarlarını yönet"
+                    }
+                }
             }
         }
     }

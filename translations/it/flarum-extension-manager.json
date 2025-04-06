@@ -167,23 +167,23 @@
         },
         "validation": {
             "attributes": {
-                "minimum_stability": "",
-                "repositories": "",
-                "repositories.*": "",
-                "repositories.*.type": "",
-                "repositories.*.url": "",
-                "extension_id": "",
-                "update_mode": "",
-                "package": "",
-                "version": "",
-                "github_oauth": "",
-                "github_oauth.*": "",
-                "gitlab_oauth": "",
-                "gitlab_oauth.*": "",
-                "gitlab_token": "",
-                "gitlab_token.*": "",
-                "bearer": "",
-                "bearer.*": ""
+                "minimum_stability": "stabilità minima",
+                "repositories": "repository",
+                "repositories.*": "repository",
+                "repositories.*.type": "tipo repository",
+                "repositories.*.url": "URL repository",
+                "extension_id": "ID estensione",
+                "update_mode": "modalità aggiornamento",
+                "package": "pacchetto",
+                "version": "versione",
+                "github_oauth": "OAuth GitHub",
+                "github_oauth.*": "OAuth GitHub",
+                "gitlab_oauth": "OAuth GitLab",
+                "gitlab_oauth.*": "OAuth GitLab",
+                "gitlab_token": "Token GitLab",
+                "gitlab_token.*": "Token GitLab",
+                "bearer": "Bearer HTTP",
+                "bearer.*": "Bearer HTTP"
             }
         }
     }

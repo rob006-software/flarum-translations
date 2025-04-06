@@ -5,24 +5,40 @@
                 "price": "Prix",
                 "reward": "Récompense",
                 "max_number": "Nombre maximum",
-                "expires": "Expiration"
+                "expires": "Expiration",
+                "key_count": "Combien d'invitations gratuites pour les nouveaux membres"
             },
             "permissions": {
                 "referral_key": "Qui peut inviter"
+            },
+            "items": {
+                "add": "Ajouter"
             }
         },
         "forum": {
             "referral": "Référence",
+            "inviter": "Inviteur {inviter}",
             "purchase_invite_code": "Acheter un code d'invitation",
+            "free_invite_code": "Code d'invitation gratuit",
             "purchase_help_tip": "Chaque code d'invitation coûte {invite_code_price} énergie(s). Pour chaque utilisateur invité avec succès, vous recevrez {invite_code_reward} énergie(s).",
+            "free_help_tip": "Vous pouvez obtenir {amount} codes d'invitation tous les {days} jours.",
             "purchase_max_tip": "Acheter en quantité (jusqu'à {invite_code_max_number} à la fois)",
             "purchase_expire_tip": "Le code d'invitation expirera dans {invite_code_expires} jour(s)",
             "create_time": "Créer du temps",
             "invite_code": "Code d'invitation",
+            "next_available": "Vous devez attendre {hours} heures pour créer un nouveau code d'invitation gratuit.",
+            "claim_now": "Réclamer maintenant",
+            "wait_to_claim": "Attendre pour réclamer",
             "count": "Compte à rebours",
             "cost": "Coût",
+            "claim_failed": "Échec de la réclamation.",
+            "registers": "Registres",
             "actives": "Actifs",
-            "is_expire": "Expiré ?"
+            "is_expire": "Expiré ?",
+            "sign_up": {
+                "no_invite_text": "Pas de code d'invitation ?",
+                "get_invite_link_text": "Cliquez ici pour en obtenir un"
+            }
         }
     }
 }

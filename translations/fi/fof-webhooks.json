@@ -70,10 +70,10 @@
                     "extra_text_help": "Webhookin mukana lähetettävä ylimääräinen teksti.",
                     "group_label": "Ryhmä",
                     "group_help": "Lähetä resurssit, jotka vain tämä ryhmä voi nähdä",
-                    "name_label": "",
-                    "name_help": "",
+                    "name_label": "Nimi",
+                    "name_help": "Webhookin nimi. Tätä käytetään esimerkiksi Discordin käyttäjänimenä, Slack botin nimenä tai muissa vastaavissa.",
                     "events_label": "Tapahtumat",
-                    "include_matching_tags_label": ""
+                    "include_matching_tags_label": "Sisällytä täsmäävät avainsanat -- webhookeille, jotka on rajoitettu avainsanoilla, näytä vain jotka täsmäävät"
                 },
                 "services": {
                     "discord": "Discord",

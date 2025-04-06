@@ -3,19 +3,19 @@
         "admin": {
             "permissions": {
                 "set_virtual_authors": "Добавить виртуальных авторов в дискуссии",
-                "view_virtual_authors_page": ""
+                "view_virtual_authors_page": "Показывать страницу детализации всех виртуальных авторов"
             },
             "settings": {
-                "errored": "",
+                "errored": "Не удалось загрузить виртуальных авторов с сервера.",
                 "create_new": "Создать нового виртуального автора",
-                "auto_save_message": "",
-                "search_placeholder": "",
-                "link_to_va_from_discussion": "",
-                "authors_in_sidebar": "",
-                "authors_in_sidebar_help": "",
-                "virtual_authors_page_disabled": "",
-                "virtual_authors_page_disabled_help": "",
-                "discussion_badge": "",
+                "auto_save_message": "Создание новых и редактирование существующих виртуальных авторов сохраняется автоматически.",
+                "search_placeholder": "Поиск по имени",
+                "link_to_va_from_discussion": "Показать ссылку на все дискуссии от виртуального автора в поле \"Автор\"",
+                "authors_in_sidebar": "Показать авторов в боковой панели, а не над первым сообщением",
+                "authors_in_sidebar_help": "Это не действует в расширении Блог.",
+                "virtual_authors_page_disabled": "Закрыть перечень виртуальных авторов для всех пользователей.",
+                "virtual_authors_page_disabled_help": "Это перекрывает все разрешения, установленные для данной опции.",
+                "discussion_badge": "Показать жетон на дискуссиях с Виртуальными авторами",
                 "prev": "Предыдущая страница",
                 "next": "Следующая страница"
             },
@@ -36,54 +36,54 @@
                 "submit_edit": "Сохранить изменения",
                 "submit_new": "Создать виртуального автора",
                 "fields": {
-                    "name": "",
-                    "description": ""
+                    "name": "Показывать имя",
+                    "description": "Описание (об авторе)"
                 }
             },
-            "discussion-badge": ""
+            "discussion-badge": "{count, plural, one {имеет Виртуального автора}, other {имеет Виртуальных авторов}}"
         },
         "forum": {
             "virtual_author_page": {
-                "meta_title": "",
-                "credited_discussions": "",
-                "discussion_count": ""
+                "meta_title": "{displayName} - Авторы",
+                "credited_discussions": "Дискуссии, созданные {displayName}",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
             },
             "virtual_authors_list": {
-                "sidebar_link": "",
-                "empty_text": "",
-                "title": "",
-                "meta_title": "",
-                "filter_name_placeholder": "",
-                "discussion_count": "",
-                "no_description": ""
+                "sidebar_link": "Авторы",
+                "empty_text": "Похоже, здесь нет авторов.",
+                "title": "Все авторы",
+                "meta_title": "Все авторы",
+                "filter_name_placeholder": "Фильтр по имени",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "Этот автор в режиме инкогнито."
             },
             "virtual_authors_panel": {
-                "heading": "",
-                "error": "",
-                "item_link_tooltip": ""
+                "heading": "Авторы",
+                "error": "Не удалось загрузить авторов.",
+                "item_link_tooltip": "Показать все дискуссии от {displayName}"
             },
             "discussion_controls": {
-                "set_virtual_authors": ""
+                "set_virtual_authors": "Установить виртуальных авторов"
             },
             "set_modal": {
-                "title": "",
-                "existing": "",
-                "add_new": "",
-                "none_existing": "",
-                "search": "",
-                "credit_placeholder": "",
-                "delete_confirmation": "",
-                "delete_button": "",
-                "add_button": "",
-                "added_button": "",
-                "no_description": "",
-                "virtual_author_exists": "",
-                "save": ""
+                "title": "Установить виртуальных авторов",
+                "existing": "Существующие виртуальные авторы",
+                "add_new": "Выберите новых виртуальных авторов",
+                "none_existing": "Виртуальные авторы не выбраны.",
+                "search": "Поиск виртуального автора",
+                "credit_placeholder": "Авторство (опционально)",
+                "delete_confirmation": "Удалить виртуального автора из дискуссии?",
+                "delete_button": "Удалить",
+                "add_button": "Добавить",
+                "added_button": "Добавлено",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "virtual_author_exists": "Уже выбрано!",
+                "save": "Сохранить изменения"
             }
         },
         "ref": {
-            "no_description": "",
-            "discussion_count": ""
+            "no_description": "(описание не установлено)",
+            "discussion_count": "{count, plural, one {# дискуссии}, other {# дискуссий}}"
         }
     }
 }

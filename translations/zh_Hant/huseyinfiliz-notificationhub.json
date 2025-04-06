@@ -2,64 +2,64 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "通知類型"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "向所有用戶發送通知",
+                "send_user": "向特定用戶發送通知"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "添加通知類型",
+                "no_data": "尚未設置通知類型。",
+                "delete_confirm": "確定要刪除此通知類型及其所有相關通知嗎？",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
-                    "active": ""
+                    "actions": "執行",
+                    "name": "通知類型名稱",
+                    "excerpt_key": "默認摘要",
+                    "description": "通知類型描述",
+                    "icon": "默認圖示",
+                    "default_message_key": "默認消息",
+                    "permission": "通知類型權限",
+                    "color": "通知類型顏色",
+                    "default_url": "默認連結",
+                    "default_recipients": "默認收件人",
+                    "sort_order": "順序排序",
+                    "active": "啟用"
                 },
-                "save": "",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "save": "保存",
+                "edit_notification_type": "編輯消息類型",
+                "add_notification_type": "新增通知類型"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "發送通知",
+                "notification_all": "發送通知"
             },
             "modal_notification": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": ""
+                "title_text": "發送通知",
+                "recipients_label": "收件人",
+                "recipients_placeholder": "輸入用戶或群組名稱...",
+                "message_label": "訊息",
+                "url_label": "目標連結",
+                "url_placeholder": "https://www.example.com",
+                "submit_button": "發送通知",
+                "notification_sent_message": "通知已發送給 {recipientsCount} 位用戶！",
+                "notification_type_label": "通知類型",
+                "no_notification_types": "未找到啟用的通知類型。",
+                "preview_title": "通知預覽",
+                "preview_message_placeholder": "通知訊息.."
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "用戶",
+                "group": "群組"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": ""
+            "message_required": "需要留言。",
+            "user_ids_required": "需要用戶ID。",
+            "subject_id_required": "需要指定通知類型。",
+            "no_valid_recipients": "未找到有效收件人。"
         }
     }
 }

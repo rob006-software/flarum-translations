@@ -2,28 +2,28 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "Bildiriş növləri"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "Bütün istifadəçilərə bildiriş göndərin",
+                "send_user": "Fərdi istifadəçilərə bildiriş göndərin"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "Bildiriş növü əlavə edin",
+                "no_data": "Hələ bildiriş növləri yoxdur.",
+                "delete_confirm": "Bu bildiriş növünü və onunla əlaqəli bütün bildirişləri silmək istədiyinizə əminsiniz?",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
+                    "actions": "Fəaliyyətlər",
+                    "name": "Bildiriş Növü Adı",
+                    "excerpt_key": "Defolt Çıxarış",
+                    "description": "Bildiriş növü təsviri",
+                    "icon": "Defolt İkon",
+                    "default_message_key": "Defolt Mesaj",
+                    "permission": "Bildiriş növü icazəsi",
+                    "color": "Bildiriş Növü Rəngi",
+                    "default_url": "Defolt Link",
+                    "default_recipients": "Defolt Alıcılar",
+                    "sort_order": "Sırala",
                     "active": ""
                 },
                 "save": "",

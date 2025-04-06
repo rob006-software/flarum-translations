@@ -46,7 +46,7 @@
             },
             "warning_list": {
                 "add_button": "Uus hoiatus",
-                "no_warnings": "",
+                "no_warnings": "Näib, et siin pole mingeid hoiatusi.",
                 "warnings": "",
                 "warnings_no_strikes": ""
             },
@@ -58,11 +58,11 @@
                 "linked_post": "Lingitud postitus"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
+                "confirmation_message": "Sinu hoiatus on salvestatud. Selle nägemiseks värskenda lehekülge.",
+                "heading": "Hoiata kasutajat <strong>{username}</strong>",
                 "strikes_heading": "",
                 "public_comment_heading": "",
-                "private_comment_heading": "",
+                "private_comment_heading": "Miks saab kasutaja <strong>{username}</strong> neid hoiatusi? Need kommentaarid on nähtavad AINULT teistele moderaatoritele.",
                 "submit_button": "Salvesta hoiatus"
             }
         }

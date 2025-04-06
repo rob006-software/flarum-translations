@@ -4,19 +4,19 @@
             "settings": {
                 "title": "Seaded",
                 "initialmoney": "Algne rahasumma uuel kasutajal",
-                "moneyforpost": "",
+                "moneyforpost": "Uue postituse eest antud raha",
                 "moneyfordiscussion": "Uue vestluse eest antud raha",
                 "moneyname": "Selle raha nimi (nt: [money] punkti)",
-                "postminimumlength": "",
+                "postminimumlength": "Postituse minimaalne pikkus raha saamiseks (0 et välja lülitada)",
                 "noshowzero": "Ära näita, kui väärtus on null",
-                "autoremove": "",
-                "moneyforlike": "",
-                "helpextensionlikes": "",
+                "autoremove": "Uuenda raha automaatselt",
+                "moneyforlike": "Raha antud, kui postitusele lisatakse meeldimine",
+                "helpextensionlikes": "Nõuab lisaprogrammi <code>flarum/likes</code>",
                 "extra_char_threshold": "Märkide lävi",
-                "extra_char_threshold_help": "",
+                "extra_char_threshold_help": "Minimaalne märkide arv enne kui lisapunkte rakendatakse.",
                 "extra_char_increment": "Märkide kasvamine",
                 "extra_char_increment_help": "",
-                "extra_char_points": "",
+                "extra_char_points": "Punkte kasvu kohta",
                 "extra_char_points_help": ""
             },
             "permissions": {
@@ -47,7 +47,7 @@
             "log_balance": "Saldo",
             "log_description": "Kirjeldus",
             "log_type_deposit": "Deposiit",
-            "log_type_withdrawal": "",
+            "log_type_withdrawal": "Mahaarvamine",
             "log_type_transfer": "Ülekanne",
             "log_type_reward": "Tasu",
             "no_money_logs": "Raha logid pole saadaval",
@@ -57,18 +57,18 @@
                 "created_reply": "Lõi vastuse › <a href=\"{url}\">{title}</a>",
                 "reply_received": "Sai vastuse kasutajaöt {username} › <a href=\"{url}\">{title}</a>",
                 "liked": "Märkis kasutaja {user} postituse meeldivaks › <a href=\"{url}\">{title}</a>",
-                "liked_by": "",
-                "unliked_post": "",
-                "unliked_by": "",
+                "liked_by": "Kasutajale {username} meeldis postitus› <a href=\"{url}\">{title}</a>",
+                "unliked_post": "Märkis postituse mittemeeldivaks › <a href=\"{url}\">{title}</a>",
+                "unliked_by": "Kasutajale {username} ei meeldinud postitus › <a href=\"{url}\">{title}</a>",
                 "initial_registration": "",
                 "admin_updated": "",
-                "discussion_started": "",
+                "discussion_started": "Alustas vestlust › <a href=\"{url}\">{title}</a>",
                 "discussion_restored": "Taastas vestluse › <a href=\"{url}\">{title}</a>",
                 "discussion_hidden": "Peitis vestluse › <a href=\"{url}\">{title}</a>",
                 "discussion_deleted": "Kustutas vestluse › <a href=\"{url}\">{title}</a>",
                 "posted_reply": "Vastas vestlusele › <a href=\"{url}\">{title}</a>",
                 "extra_characters": "",
-                "no_permission": ""
+                "no_permission": "Sul pole teiste kasutajate punktide nägemiseks õiguseid."
             },
             "logs_type": {
                 "discussion_started": "Vestlus alustatud",
@@ -87,7 +87,7 @@
             },
             "point_log": {
                 "title": "Punkide muutmise andmed",
-                "link": "",
+                "link": "Punktide andmed",
                 "empty_text": "",
                 "table": {
                     "headers": {
@@ -98,7 +98,7 @@
                     }
                 },
                 "load_more": "Loe lisa",
-                "no_permission": ""
+                "no_permission": "Sul pole teiste kasutajate punktide nägemiseks õiguseid."
             }
         }
     }

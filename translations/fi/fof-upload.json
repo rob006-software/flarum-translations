@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Kaikki käyttäjän siirtämät tiedostot.",
+                    "anonymize_description": "Poistaa käyttäjän viittauksen siirretyistä tiedostoista. Tiedostot itsessään pysyy saatavilla käyttäjille, joilla on pääsy niihin ennen anonymisointia.",
+                    "delete_description": "Poistaa kaikki käyttäjän siirtämät tiedostot."
                 }
             }
         }
@@ -131,8 +131,8 @@
                 "text-preview_description": "Asettaa esikatselun (ensimmäiset 5 riviä) tekstitiedostosta. Tämän kanssa tulee mahdollisuus nähdä koko tiedoston sisältö.\n"
             },
             "upload_methods": {
-                "aws-s3": "S3/Yhteensopiva",
-                "awss3": "",
+                "aws-s3": "S3 tai Yhteensopiva",
+                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Paikallinen",
                 "ovh-svfs": "OVH SVFS",

@@ -34,6 +34,23 @@
                 "text_placeholder": "Ketik pesan Anda",
                 "send": "Kirim Pesan",
                 "send_success": "Pesan berhasil terkirim"
+            },
+            "notifications": {
+                "message_received": "Test",
+                "new_private_message": "Seseorang mengirim pesan kepada saya",
+                "web": {
+                    "new_private_message": {
+                        "body": "Pesan dari {fromUser}"
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "Pesan dari {user}",
+                        "youHaveReceivedNewMessage": "Anda telah menerima pesan baru dari {user}!",
+                        "viewMessage": "Lihat pesan",
+                        "manageEmailSettings": "Mengelola pengaturan email"
+                    }
+                }
             }
         }
     }

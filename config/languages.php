@@ -199,6 +199,7 @@ return [
 		'!huoxin-auto-follow-discussion',
 		'!imdong-spam-alert',
 		'!imdong-visible-to-op-only',
+		'!kk14569-anti-gmail-alias',
 		'!mattoid-store',
 		'!mattoid-store-auto-check-in',
 		'!mattoid-store-check-in',

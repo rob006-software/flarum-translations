@@ -12,24 +12,24 @@
                 "with_qq_button": "QQ"
             },
             "buttons": {
-                "unlink": "",
-                "link": "",
-                "login": ""
+                "unlink": "QQ Kaldır",
+                "link": "QQ Bağla",
+                "login": "=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button"
             },
             "modals": {
                 "unlink": {
-                    "title": "",
+                    "title": "QQ Kaldır",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "QQ hesabınızın bağını kaldırmak istediğinizden emin misiniz?",
+                        "no_providers": "Başka bir giriş yönteminiz yok. Lütfen önce hesap şifrenizi sıfırlayın."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Kaldır",
+                        "cancel": "İptal"
                     }
                 },
                 "link": {
-                    "title": ""
+                    "title": "QQ Bağla"
                 }
             }
         }

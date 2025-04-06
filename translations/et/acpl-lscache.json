@@ -10,7 +10,7 @@
             "serve_stale_help": "",
             "purge_on_discussion_update_label": "",
             "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
+            "cache_exclude_label": "Jäta kaustad vahemälust välja",
             "cache_exclude_help": "",
             "drop_qs_label": "",
             "drop_qs_help": "",
@@ -27,8 +27,8 @@
             }
         },
         "lib": {
-            "purge_success": "LiteSpeed serverit on teavitatud, et LSCache sissekanded kustutataks",
-            "purge_all_success": "LiteSpeed serverit on teavitatud, et kõik LSCache sissekanded kustutataks"
+            "purge_success": "LiteSpeed serverit on teavitatud, et LSCache sissekanded kustutataks.",
+            "purge_all_success": "LiteSpeed serverit on teavitatud, et kõik LSCache sissekanded kustutataks."
         },
         "ref": {
             "purge_cache": "Tühjenda LSCache"

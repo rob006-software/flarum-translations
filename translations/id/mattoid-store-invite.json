@@ -4,6 +4,8 @@
             "settings": {
                 "group-view": "Menampilkan produk ke pengguna",
                 "group-admin-view": "Izin audit",
+                "invite-calm-down-period-help": "Setelah undangan dikirimkan, pengajuan ulang tidak diperbolehkan selama N hari sejak tanggal persetujuan",
+                "invite-calm-down-period": "Periode masa tunggu undangan (hari)",
                 "calm-down-period-help": "Setelah pengajuan ditolak, tidak diperbolehkan untuk mengajukan permohonan kembali selama N hari sejak tanggal ditolaknya permohonan",
                 "calm-down-period": "Periode jeda pengajuan",
                 "invite-validity-period": "Masa berlaku kode undangan (hari)",
@@ -60,7 +62,8 @@
                 "username-inconsistency": "Username tidak sesuai dengan informasi undangan. Silakan lakukan pendaftaran menggunakan username yang diberikan dalam email",
                 "exception": "Tinjauan otomatis gagal [{message}]",
                 "email-not-exist": "Email tidak boleh kosong",
-                "link-not-exist": "tautan undangan tidak boleh kosong"
+                "link-not-exist": "tautan undangan tidak boleh kosong",
+                "blacklist": "Pengguna dalam daftar hitam, undangan dilarang!"
             }
         },
         "lib": {
@@ -83,11 +86,17 @@
             "item-query": "Cari berdasarkan pengundang/penerima/email",
             "item-total-num": "Akumulasi jumlah pengiriman",
             "item-pass-total-num": "Akumulasi jumlah pengiriman yang lolos",
+            "item-reject-total-num": "Akumulasi jumlah yang ditolak",
             "item-invite-code": "Undangan",
             "item-post-num": "",
             "item-user-create-time": "Waktu Bergabung Pengguna",
+            "item-create-time": "Tanggal Pembuatan",
             "item-last-year-total-num": "Jumlah pengajuan pada tahun sebelumnya",
-            "item-last-year-pass-num": ""
+            "item-last-year-pass-num": "Jumlah yang Lolos di Tahun Lalu",
+            "item-last-year-reject-num": "Jumlah yang Ditolak di Tahun Lalu",
+            "item-this-year-total-num": "Jumlah commit tahun ini",
+            "item-this-year-pass-num": "Jumlah yang lolos tahun ini",
+            "item-this-year-reject-num": "Jumlah yang ditolak tahun ini"
         }
     }
 }

@@ -34,6 +34,23 @@
                 "text_placeholder": "Saisissez votre message",
                 "send": "Envoyer le message",
                 "send_success": "Le message a été envoyé"
+            },
+            "notifications": {
+                "message_received": "Test",
+                "new_private_message": "Quelqu'un m'a envoyé un message",
+                "web": {
+                    "new_private_message": {
+                        "body": "Message de {fromUser}"
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "Message de {user}",
+                        "youHaveReceivedNewMessage": "Vous avez reçu un nouveau message de {user} !",
+                        "viewMessage": "Voir le message",
+                        "manageEmailSettings": "Gérer les paramètres de messagerie"
+                    }
+                }
             }
         }
     }

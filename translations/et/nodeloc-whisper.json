@@ -34,6 +34,23 @@
                 "text_placeholder": "Kirjuta oma sõnum",
                 "send": "Saada sõnum",
                 "send_success": "Sõnum on saadetud"
+            },
+            "notifications": {
+                "message_received": "",
+                "new_private_message": "",
+                "web": {
+                    "new_private_message": {
+                        "body": ""
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "",
+                        "youHaveReceivedNewMessage": "",
+                        "viewMessage": "",
+                        "manageEmailSettings": ""
+                    }
+                }
             }
         }
     }

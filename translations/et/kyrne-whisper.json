@@ -4,7 +4,7 @@
             "settings": {
                 "return_key": "Võtme tagastamine saadab sõnumi",
                 "title": "Sosistaja seaded",
-                "set_own_password": ""
+                "set_own_password": "Luba kasutajatel luua omaenda parool - SSO ühilduvus"
             },
             "permissions": {
                 "start_label": "Privaatsete vestluste alustamine"
@@ -39,10 +39,10 @@
             },
             "user_modal_alert": "",
             "chat": {
-                "chat_with": "",
-                "messages_multiple": "",
-                "messages_single": "",
-                "start": "",
+                "chat_with": "Vestle kasutajaga {username}",
+                "messages_multiple": "Kokku {count} sõnumit",
+                "messages_single": "Uus vestlus",
+                "start": "Alusta vestlust",
                 "read": "Loetud",
                 "cant_start": "Ei saa alustada vestlust",
                 "text_placeholder": "Kirjuta oma sõnum",
