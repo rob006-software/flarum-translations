@@ -28,8 +28,9 @@
                     "redis-max-memory": "Memori Maksimum Redis",
                     "redis-memory-policy": "Kebijakan Memori Redis",
                     "redis-memory-policy-tooltip": "Kebijakan memori adalah cara Redis akan memilih apa yang akan dihapus ketika \nbatas maksimal memori tercapai. Standarnya adalah `noeviction`: Nilai-nilai baru \ntidak akan disimpan ketika batas memori tercapai. Klik untuk melihat dokumentasi.\n",
-                    "redis-cpu-user": "Pengguna CPU Redis",
-                    "redis-cpu-sys": "Sistem CPU Redis",
+                    "redis-ops-per-sec": "",
+                    "redis-connected-clients": "",
+                    "redis-blocked-clients": "",
                     "jobs-per-minute": "Job per menit",
                     "jobs-past-hour": "Job di Jam Terakhir",
                     "failed-last-seconds": "Job yang Gagal dalam Beberapa Detik Terakhir",
@@ -41,7 +42,9 @@
                     "total-processes": "Total Proses",
                     "max-wait-time": "Maksimum Waktu Tunggu",
                     "max-runtime": "Maksimum Waktu Berjalan",
-                    "max-throughput": "Hasil Maksimum"
+                    "max-throughput": "Hasil Maksimum",
+                    "redis-cpu-user": "Pengguna CPU Redis",
+                    "redis-cpu-sys": "Sistem CPU Redis"
                 }
             }
         }

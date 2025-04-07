@@ -28,8 +28,9 @@
                     "redis-max-memory": "Redis maks. mälu",
                     "redis-memory-policy": "Redis mälu poliitika",
                     "redis-memory-policy-tooltip": "Mälu poliitika määrab kuidas Redis valib mida eemaldada kui\nmälulimiit (maxmemory) on täis. Vaikeväärtus on `noeviction`: Uusi väärtuseid \nei salvestata, kui mälulimiit on täis. Kliki dokumentatsiooni vaatamiseks.\n",
-                    "redis-cpu-user": "Redis Protsessori kasutus",
-                    "redis-cpu-sys": "Redis protsessori süsteem",
+                    "redis-ops-per-sec": "",
+                    "redis-connected-clients": "",
+                    "redis-blocked-clients": "",
                     "jobs-per-minute": "Töid minutis",
                     "jobs-past-hour": "Töid viimase tunni jooksul",
                     "failed-last-seconds": "Ebaõnnestunud tööd viimase sekundi jooksul",
@@ -41,7 +42,9 @@
                     "total-processes": "Protsesse kokku",
                     "max-wait-time": "Maks. ootamise aeg",
                     "max-runtime": "Maks. käivitusaeg",
-                    "max-throughput": "Maks. läbilaskevõime"
+                    "max-throughput": "Maks. läbilaskevõime",
+                    "redis-cpu-user": "Redis Protsessori kasutus",
+                    "redis-cpu-sys": "Redis protsessori süsteem"
                 }
             }
         }

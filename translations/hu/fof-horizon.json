@@ -28,8 +28,9 @@
                     "redis-max-memory": "A Redis memóriakorlátja",
                     "redis-memory-policy": "A Redis memória-házirendje",
                     "redis-memory-policy-tooltip": "A memória-házirend dönti el, hogy a Redis minek az eltávolítását választja,\nha eléri a memóriakorlátot. Az alapértelmezett a `noeviction`: Az új értékek\nnem lesznek mentve. Kattintson a dokumentáció megtekintéséhez.\n",
-                    "redis-cpu-user": "A Redis felhasználói CPU-használata",
-                    "redis-cpu-sys": "A Redis rendszerszintű CPU-használata",
+                    "redis-ops-per-sec": "",
+                    "redis-connected-clients": "",
+                    "redis-blocked-clients": "",
                     "jobs-per-minute": "Feladatok száma percenként",
                     "jobs-past-hour": "Feladatok száma óránként",
                     "failed-last-seconds": "Sikertelen feladatok az elmúlt néhány másodpercben",
@@ -41,7 +42,9 @@
                     "total-processes": "Összes folyamat",
                     "max-wait-time": "Leghosszabb várakozási idő",
                     "max-runtime": "Leghosszabb futásidő",
-                    "max-throughput": "Legnagyobb áteresztőképesség"
+                    "max-throughput": "Legnagyobb áteresztőképesség",
+                    "redis-cpu-user": "A Redis felhasználói CPU-használata",
+                    "redis-cpu-sys": "A Redis rendszerszintű CPU-használata"
                 }
             }
         }

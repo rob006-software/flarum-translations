@@ -28,8 +28,9 @@
                     "redis-max-memory": "Maximaler Redis-Arbeitsspeicher",
                     "redis-memory-policy": "Redis-Arbeitsspeicherrichtlinie",
                     "redis-memory-policy-tooltip": "Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,\nwenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte\nwerden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicke hier, um die Dokumentation anzuzeigen.\n",
-                    "redis-cpu-user": "Redis CPU-Nutzer",
-                    "redis-cpu-sys": "",
+                    "redis-ops-per-sec": "",
+                    "redis-connected-clients": "",
+                    "redis-blocked-clients": "",
                     "jobs-per-minute": "Jobs pro Minute",
                     "jobs-past-hour": "Jobs der letzten Stunde",
                     "failed-last-seconds": "",
@@ -41,7 +42,8 @@
                     "total-processes": "",
                     "max-wait-time": "",
                     "max-runtime": "",
-                    "max-throughput": ""
+                    "max-throughput": "",
+                    "redis-cpu-user": "Redis CPU-Nutzer"
                 }
             }
         }

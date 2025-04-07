@@ -28,8 +28,9 @@
                     "redis-max-memory": "Redis Maks Bellek",
                     "redis-memory-policy": "Redis Bellek Politikası",
                     "redis-memory-policy-tooltip": "Bellek politikası, Redis'in maxmemory sınırına ulaşıldığında neyi\nkaldıracağına nasıl karar vereceğini belirler. Varsayılanı `noeviction`:\nBellek sınırı aşıldığında yeni değerler kaydedilmez. Belgeler için tıklayın.\n",
-                    "redis-cpu-user": "Redis CPU Kullanıcı",
-                    "redis-cpu-sys": "Redis CPU Sistem",
+                    "redis-ops-per-sec": "",
+                    "redis-connected-clients": "",
+                    "redis-blocked-clients": "",
                     "jobs-per-minute": "Dakika Başına İş Sayısı",
                     "jobs-past-hour": "Saat Başına İş Sayısı",
                     "failed-last-seconds": "Birkaç Saniyeden Sonra Başarısız Olan İşler",
@@ -41,7 +42,9 @@
                     "total-processes": "Toplam Süreç",
                     "max-wait-time": "Maksimum Bekleme Süresi",
                     "max-runtime": "Maksimum Çalışma Süresi",
-                    "max-throughput": "Maksimum Verim"
+                    "max-throughput": "Maksimum Verim",
+                    "redis-cpu-user": "Redis CPU Kullanıcı",
+                    "redis-cpu-sys": "Redis CPU Sistem"
                 }
             }
         }

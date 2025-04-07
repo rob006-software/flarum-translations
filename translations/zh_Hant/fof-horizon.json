@@ -28,8 +28,9 @@
                     "redis-max-memory": "Redis 最大內存",
                     "redis-memory-policy": "Redis 記憶體策略",
                     "redis-memory-policy-tooltip": "記憶體策略是 Redis 在以下情況下選擇刪除內容的方式：\n已達到最大記憶體限制。 預設為“noeviction”：新值 \n當達到記憶體限制時不會保存。 按一下查看文件。\n",
-                    "redis-cpu-user": "Redis CPU 用戶",
-                    "redis-cpu-sys": "Redis CPU系統",
+                    "redis-ops-per-sec": "",
+                    "redis-connected-clients": "",
+                    "redis-blocked-clients": "",
                     "jobs-per-minute": "每分鐘作業數",
                     "jobs-past-hour": "過去一小時的工作",
                     "failed-last-seconds": "過去幾秒鐘失敗的作業",
@@ -41,7 +42,9 @@
                     "total-processes": "所有進程",
                     "max-wait-time": "最大等待時間",
                     "max-runtime": "最大執行時間",
-                    "max-throughput": "最大吞吐量"
+                    "max-throughput": "最大吞吐量",
+                    "redis-cpu-user": "Redis CPU 用戶",
+                    "redis-cpu-sys": "Redis CPU系統"
                 }
             }
         }
