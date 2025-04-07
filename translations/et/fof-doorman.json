@@ -58,117 +58,117 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "Võti",
+                        "help": "Kood, mille kasutaja peab liitumisel sisestama."
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "Grupp",
+                        "help": "Grupp, millesse kasutaja pärast selle koodiga registreerumist automaatselt lisatakse."
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "Maks. kasutajaid",
+                        "help": "Koodi kasutamiste maksimaalne arv. Sisesta 0, et piirangut mitte lisada"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "Aktiveerib kasutajad",
+                        "help": "Aktiveerib kasutaja liitumisel alati."
                     }
                 }
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "",
+                    "title": "Loo uus kutse kood",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "Loo kutse kood",
+                    "submit_and_create_another_button": "Loo ja lisa veel üks"
                 },
                 "edit_doorkey": {
-                    "title": "",
+                    "title": "Muuda kutse koodi",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": ""
+                    "submit_button": "Salvesta muudatused"
                 },
                 "send_invites": {
-                    "title": "",
-                    "group": "",
-                    "help": "",
-                    "placeholder": "",
-                    "invalid_emails": "",
-                    "max_use_conflict": "",
-                    "send": "",
-                    "success": ""
+                    "title": "Saada kutsete koodid",
+                    "group": "Saadetakse kutsed grupile {group}",
+                    "help": "Aadresside eraldamiseks võid kasutada koma, tühikut või koma ja tühikut. Sisesta iga e-posti aadress eraldi või kopeeri e-posti aadresside nimekiri siia ja vajuta tühikut, et need lisada.",
+                    "placeholder": "Sisesta e-posti aadressid siia",
+                    "invalid_emails": "Need e-posti aadressid on vigased: {emails}",
+                    "max_use_conflict": "E-posti aadresside arv on suurem, kui selle koodi maksimaalne lubatud kasutamiskordade arv.",
+                    "send": "Saada kirjad",
+                    "success": "Kirjad on saadetud"
                 }
             },
             "settings": {
-                "search": "",
-                "total_doorkeys": "",
-                "create_doorkey_button": "",
-                "optional_usage": ""
+                "search": "Otsi võtmeid",
+                "total_doorkeys": "Võtmeid kokku: {count}",
+                "create_doorkey_button": "Loo kutse kood",
+                "optional_usage": "Tee kutse kood liitumisel valikuliseks"
             },
             "list": {
                 "columns": {
-                    "id": "",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "id": "ID",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Halda",
+                    "uses": "Kasutamisi",
+                    "created_by": "Lisas"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
-                    "warning": "",
-                    "delete": "",
+                    "invalid_column": "=> core.admin.users.grid.columns.invalid_column",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "Selle kutse koodi kasutamise limiit on täis.",
+                    "delete": "Oled sa kindel, et soovid kustutada kutse koodi \"{key}\"?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {Piiramatu} one {{remainingUses} kasutamine järgi} other {{remainingUses} kasutamist järgi}}",
+                        "total_uses": "{totalUses, plural, one {Kasutatud {totalUses} kord} other {Kasutatud {totalUses} korda}}"
                     },
-                    "no_created_by": ""
+                    "no_created_by": "Tundmatu kasutaja"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.admin.users.pagination.first_page_button",
+                    "back_button": "=> core.admin.users.pagination.back_button",
+                    "page_counter": "=> core.admin.users.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.admin.users.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.admin.users.pagination.next_button",
+                    "last_page_button": "=> core.admin.users.pagination.last_page_button"
                 }
             }
         },
         "email": {
-            "subject": "",
-            "body": ""
+            "subject": "Kutsu liituma",
+            "body": "Tere,\n\nSind on kutsutud liituma foorumiga {forum}.\n\nKui oled valmis oma kontot looma, siis lihtsalt kliki alloleval lingil ja sisesta liitumisel allolev kutse kood.\n\nLink: {url}\nKutse kood: {code}\n\nKui tundub, et see kiri saadeti sulle kogemata, siis lihtsalt ignoreeri seda.\n"
         }
     }
 }
