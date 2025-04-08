@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Todos los archivos subidos por el usuario.",
+                    "anonymize_description": "Elimina la referencia del usuario de los archivos subidos. Los archivos permanecen accesibles para los usuarios que podían verlos antes de la anonimización.",
+                    "delete_description": "Elimina todos los archivos subidos por el usuario."
                 }
             }
         }
@@ -131,8 +131,8 @@
                 "text-preview_description": "Inserta una vista previa (primeras 5 líneas) del archivo de texto, con una opción para expandir para revelar el contenido completo del archivo.\n"
             },
             "upload_methods": {
-                "aws-s3": "S3/Compatible",
-                "awss3": "",
+                "aws-s3": "S3 o compatible",
+                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",
