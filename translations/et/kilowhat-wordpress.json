@@ -61,11 +61,11 @@
                 "post_thumbnail_list": "Näita WordPressi postituse pisipilti Flarumi vestluste nimekirjas",
                 "comment_author_sync": "Määra vestluse autor SSO-st",
                 "comment_author_sync_help": "",
-                "comment_tag": "",
+                "comment_tag": "Uute kommentaaride lõime silt",
                 "comment_tag_none": "Ära määra sildile",
                 "comment_tag_custom": "Kohandatud väärtused",
                 "comment_tag_custom_help": "Komadega eraldatud nimekiri siltide ID-dest",
-                "summary_as_last_post": "",
+                "summary_as_last_post": "Määra viimane postitus vestluses kui kokkuvõttev postitus",
                 "summary_as_last_post_help": "",
                 "use_post_date": "Kasuta Wordpressi postituse kuupäeva vestluse loomise ajana",
                 "use_post_date_help": "",
@@ -143,7 +143,7 @@
                 "delete": "Kustuta reegel",
                 "role-loader": {
                     "loading": "WordPressi rollide laadimine...",
-                    "error": ""
+                    "error": "Rollide valimisel WordPressist tekkis tõrge. Saad siiski veel käsitsi rollide nimed sisestada."
                 }
             }
         },
@@ -167,7 +167,7 @@
                 "edit_in_wordpress": "Muuda WordPressis",
                 "should_not_edit_email": "Peaksid muutma e-posti aadressi WordPressis. <a>Muuda sellegipoolest</a>",
                 "unlink": "Eemalda kasutaja seos WordPressi kasutajaga",
-                "unlink_help": ""
+                "unlink_help": "Kui see e-posti aadress kattub WordPressi kasutaja e-posti aadressiga, siis see lingitakse uuesti järgmisel korral, kui kasutaja logib WordPressi saidile sisse."
             },
             "settings": {
                 "edit_on_wordpress": "Muuda peamise veebisaidi parooli peamisel veebisaidil"
@@ -194,14 +194,14 @@
             "blocked_actions": {
                 "login": "Sinu konto on seotud WordPressiga. Kasuta ühendamiseks peamise veebisaidi sisselogimisvormi.",
                 "password_reset": "Sinu konto on seotud WordPressiga. Kasuta parooli taastamiseks peamise veebisaidi sisselogimisvormi.",
-                "email_change": ""
+                "email_change": "See konto on seotud WordPressiga. Kasuta oma e-posti aadressi muutmiseks peamist veebisaidi profiili."
             },
             "health": {
                 "suspend-extension-required": "",
                 "cookie-domain-format": "",
                 "login-only-signup-open": "",
-                "role-group-sync-syntax": "",
-                "role-group-sync-incomplete": "",
+                "role-group-sync-syntax": "Rolli ja grupi sünkroonimise seadetes on kodeerimise probleem",
+                "role-group-sync-incomplete": "Rolli ja grupi sünkroonimise seaded pole kõik täidetud",
                 "role-group-sync-invalid-group": "",
                 "role-group-sync-invalid-role": "",
                 "lock-extension-required": "",
