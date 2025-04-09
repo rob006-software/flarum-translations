@@ -2,8 +2,8 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {Näita # uuendatud vestlust} other {Näita # uuendatud vestlust}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# vestluses on} other {# vestluses on}} uuuendatud tegevusi ja need avaldatakse {releaseTimeout} sekundi pärast. Kliki, et kohe näidata."
             },
             "typing-indicator": {
                 "anonymous-user": "[Anonüümne]",
