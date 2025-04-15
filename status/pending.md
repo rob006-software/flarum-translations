@@ -187,6 +187,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `pplulee-userip` | [![#1164 (open)](https://img.shields.io/badge/PR-%231164-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1164) |
+There are no dead branches.
