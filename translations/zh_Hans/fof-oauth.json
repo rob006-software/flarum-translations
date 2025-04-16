@@ -23,6 +23,9 @@
                 "popup_height_help": "设置 OAuth 弹窗的高度，此设置对「全屏弹出窗口」无效。",
                 "providers": {
                     "callback_url_text": "根据需要可将回调 URL 设为 {url}。",
+                    "group_label": "",
+                    "group_help": "",
+                    "no_group_label": "",
                     "discord": {
                         "description": "前往 {link} 创建应用，并在 OAuth2 选项卡中添加重定向 URL。",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
