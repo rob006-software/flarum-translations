@@ -1246,6 +1246,9 @@ return [
 	'nodeloc-ignore-hidden-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ignore-hidden-tags/1.0/locale/en.yml',
 	],
+	'nodeloc-leaderboard' => [
+		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ext-leaderboard/0.4/resources/locale/en.yml',
+	],
 	'nodeloc-lottery' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/lottery/0.0.5/resources/locale/en.yml',
 	],
