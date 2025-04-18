@@ -1450,6 +1450,9 @@ return [
 	'xypp-pay-to-read' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-pay-to-read/v2.0.0/locale/en.yml',
 	],
+	'xypp-qqwx-redirect-page' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-qqwx-redirect-page/v1.0.1/locale/en.yml',
+	],
 	'xypp-sticky-card' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-sticky-card/v1.1.0/locale/en.yml',
 	],
