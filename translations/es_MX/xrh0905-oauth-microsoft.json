@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "microsoft": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_microsoft_button": ""
+            },
+            "providers": {
+                "microsoft": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "microsoft": ""
+            }
+        }
+    }
+}
