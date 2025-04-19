@@ -256,6 +256,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'es_MX' => [
+		'type' => 'language',
+		'language' => 'es_MX',
+		'repository' => 'git@github.com:flarum-lang/spanish-mexico.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'et' => [
 		'type' => 'language',
 		'language' => 'et',

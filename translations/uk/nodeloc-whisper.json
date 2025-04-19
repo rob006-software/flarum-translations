@@ -36,19 +36,19 @@
                 "send_success": "Повідомлення відправлено успішно"
             },
             "notifications": {
-                "message_received": "",
-                "new_private_message": "",
+                "message_received": "Тест",
+                "new_private_message": "Хтось написав мені",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "Повідомлення від {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
-                        "manageEmailSettings": ""
+                        "subject": "Повідомлення від {user}",
+                        "youHaveReceivedNewMessage": "Ви отримали нове повідомлення від {user}!",
+                        "viewMessage": "Переглянути повідомлення",
+                        "manageEmailSettings": "Керування налаштуваннями електронної пошти"
                     }
                 }
             }

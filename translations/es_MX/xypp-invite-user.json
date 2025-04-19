@@ -1,0 +1,76 @@
+{
+    "xypp-invite-user": {
+        "forum": {
+            "page": {
+                "title": "",
+                "code": {
+                    "title": "",
+                    "code": "",
+                    "url": ""
+                },
+                "my": {
+                    "title": "",
+                    "code": "",
+                    "inviter": "",
+                    "accept": "",
+                    "no-inviter": ""
+                },
+                "invite": {
+                    "title": "",
+                    "username": "",
+                    "avatar": "",
+                    "empty": "",
+                    "time": ""
+                },
+                "no_tip": ""
+            },
+            "confirm": {
+                "title": "",
+                "msg": "",
+                "alert": "",
+                "accept": "",
+                "success": ""
+            },
+            "invite": "",
+            "notification": {
+                "user_invited": "",
+                "user_invited_label": ""
+            },
+            "condition": {
+                "user_invite": "",
+                "user_be_invited": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "reward_invite": {
+                    "title": "",
+                    "description": ""
+                },
+                "reward_be_invited": {
+                    "title": "",
+                    "description": ""
+                },
+                "invite_each_other": {
+                    "title": "",
+                    "description": ""
+                },
+                "invite_new_user_only": {
+                    "title": "",
+                    "description": ""
+                }
+            },
+            "condition": {
+                "user_invite": "",
+                "user_be_invited": ""
+            }
+        },
+        "api": {
+            "invited_by_user_id_is_self": "",
+            "has_already_be_invited": "",
+            "invited_by_user_id_is_empty": "",
+            "invited_each_other": "",
+            "invited_an_elder_user": ""
+        }
+    }
+}

@@ -621,6 +621,15 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/spanish-mexico">Spanish (Mexico)</a></td>
+		<td> - </td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/es_MX.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/es_MX/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/swedish">Swedish</a></td>
 		<td><a href="https://github.com/Dzenan">Dzenan</a>, <a href="https://github.com/gustjoha">gustjoha</a></td>
 		<td align="right">
@@ -819,6 +828,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-gamification`](https://weblate.rob006.net/projects/flarum/fof-gamification) | [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) |
 | [`fof-geoip`](https://weblate.rob006.net/projects/flarum/fof-geoip) | [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) |
 | [`fof-github-sponsors`](https://weblate.rob006.net/projects/flarum/fof-github-sponsors) | [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) |
+| [`fof-horizon`](https://weblate.rob006.net/projects/flarum/fof-horizon) | [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) |
 | [`fof-html-errors`](https://weblate.rob006.net/projects/flarum/fof-html-errors) | [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors) |
 | [`fof-ignore-users`](https://weblate.rob006.net/projects/flarum/fof-ignore-users) | [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) |
 | [`fof-impersonate`](https://weblate.rob006.net/projects/flarum/fof-impersonate) | [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) |
@@ -895,7 +905,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-database-queue`](https://weblate.rob006.net/projects/flarum/blomstra-database-queue) | [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue) |
 | [`blomstra-flag-duplicates`](https://weblate.rob006.net/projects/flarum/blomstra-flag-duplicates) | [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate) |
 | [`blomstra-fontawesome`](https://weblate.rob006.net/projects/flarum/blomstra-fontawesome) | [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome) |
-| [`blomstra-horizon`](https://weblate.rob006.net/projects/flarum/blomstra-horizon) | [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon) |
 | [`blomstra-mark-unread`](https://weblate.rob006.net/projects/flarum/blomstra-mark-unread) | [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread) |
 | [`blomstra-oauth-apple`](https://weblate.rob006.net/projects/flarum/blomstra-oauth-apple) | [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple) |
 | [`blomstra-oauth-slack`](https://weblate.rob006.net/projects/flarum/blomstra-oauth-slack) | [`blomstra/oauth-slack`](https://github.com/blomstra/flarum-ext-oauth-slack) |

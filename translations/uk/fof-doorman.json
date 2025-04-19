@@ -54,7 +54,121 @@
                         "switch-label": "Зробити код запрошення необов'язковим при реєстрації"
                     }
                 }
+            },
+            "ref": {
+                "fields": {
+                    "key": {
+                        "label": "Ключ",
+                        "help": ""
+                    },
+                    "group": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "max_uses": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "activates_user": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
+            },
+            "modals": {
+                "create_doorkey": {
+                    "title": "",
+                    "key": {
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
+                    },
+                    "group": {
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
+                    },
+                    "max_uses": {
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
+                    },
+                    "activates_user": {
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
+                    },
+                    "submit_button": "",
+                    "submit_and_create_another_button": ""
+                },
+                "edit_doorkey": {
+                    "title": "",
+                    "key": {
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
+                    },
+                    "group": {
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
+                    },
+                    "max_uses": {
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
+                    },
+                    "activates_user": {
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
+                    },
+                    "submit_button": ""
+                },
+                "send_invites": {
+                    "title": "",
+                    "group": "",
+                    "help": "",
+                    "placeholder": "",
+                    "invalid_emails": "",
+                    "max_use_conflict": "",
+                    "send": "",
+                    "success": ""
+                }
+            },
+            "settings": {
+                "search": "",
+                "total_doorkeys": "",
+                "create_doorkey_button": "",
+                "optional_usage": ""
+            },
+            "list": {
+                "columns": {
+                    "id": "ID",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "",
+                    "uses": "",
+                    "created_by": ""
+                },
+                "content": {
+                    "invalid_column": "=> core.admin.users.grid.columns.invalid_column",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "",
+                    "delete": "",
+                    "uses": {
+                        "used_times": "",
+                        "total_uses": ""
+                    },
+                    "no_created_by": ""
+                },
+                "pagination": {
+                    "first_page_button": "=> core.admin.users.pagination.first_page_button",
+                    "back_button": "=> core.admin.users.pagination.back_button",
+                    "page_counter": "=> core.admin.users.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.admin.users.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.admin.users.pagination.next_button",
+                    "last_page_button": "=> core.admin.users.pagination.last_page_button"
+                }
             }
+        },
+        "email": {
+            "subject": "",
+            "body": ""
         }
     }
 }

@@ -1,0 +1,81 @@
+{
+    "yippy-auth-ldap": {
+        "forum": {
+            "account_found": "",
+            "log_in_with": "",
+            "log_out": "",
+            "errors": {
+                "core_csrf_token_mismatch": "",
+                "search_filter_is_invalid": "",
+                "not_authenticated": "",
+                "csrf_token_mismatch": "",
+                "domains": {
+                    "no_domains": "",
+                    "empty_host": "",
+                    "empty_base_dn": "",
+                    "empty_user_username": "",
+                    "empty_search_field": "",
+                    "username_field_does_not_exist": "",
+                    "mail_field_does_not_exist": ""
+                },
+                "account": {
+                    "invalid_inputs": "",
+                    "not_found": "",
+                    "incorrect_details": "",
+                    "password_expired": "",
+                    "disabled": "",
+                    "expired": "",
+                    "locked": ""
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "",
+                "method_name": "",
+                "domains": {
+                    "title": "",
+                    "description": "",
+                    "add": "",
+                    "banner": "",
+                    "header": {
+                        "server": "",
+                        "admin": "",
+                        "search_fields": "",
+                        "search_fields_description": "",
+                        "flarum": "",
+                        "flarum_description": ""
+                    },
+                    "data": {
+                        "host": "",
+                        "host_help": "",
+                        "base_dn": "",
+                        "base_dn_help": "",
+                        "filter": "",
+                        "filter_help": "",
+                        "port": "",
+                        "port_help": "",
+                        "version": "",
+                        "version_help": "",
+                        "follow_referrals": "",
+                        "use_ssl": "",
+                        "use_tls": "",
+                        "admin_dn": "",
+                        "admin_dn_help": "",
+                        "admin_password": "",
+                        "admin_password_help": "",
+                        "search_user_fields": "",
+                        "search_user_fields_help": "",
+                        "user_username": "",
+                        "user_mail": "",
+                        "user_mail_help": "",
+                        "user_nickname_fields": "",
+                        "user_nickname_fields_help": ""
+                    }
+                },
+                "onlyUse": "",
+                "display_detailed_error": ""
+            }
+        }
+    }
+}

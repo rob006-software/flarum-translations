@@ -23,6 +23,9 @@
                 "popup_height_help": "Set the height of the OAuth popup window. This setting will be ignored if \"Use Fullscreen Popup for OAuth\" is enabled.",
                 "providers": {
                     "callback_url_text": "If necessary, set the callback URL to {url}.",
+                    "group_label": "Assign Group",
+                    "group_help": "Select a group to automatically assign to users who register using this provider.",
+                    "no_group_label": "No group assignment",
                     "discord": {
                         "description": "Create an app at {link}. Add the redirect URL in the OAuth2 tab.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",

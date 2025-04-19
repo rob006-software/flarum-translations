@@ -5,7 +5,7 @@
                 "allow_option_image": "Luba iga loterii valikule lisada pildi URL",
                 "max_options": "Maksimaalne valikute arv loterii kohta",
                 "options_color_blend": "Teksti värvi sulatamine loterii valikutes",
-                "options_color_blend_help": ""
+                "options_color_blend_help": "Kasuta seda värvisegamiseks, et teha loterii valikute lugemine loetavamaks. Lülita see valik välja, kui see ei sobi sinu foorumi välimusega või hoopis vähendab loetavust."
             },
             "permissions": {
                 "seeParticipants": "Vaata osalejaid",
@@ -89,7 +89,7 @@
             },
             "tooltip": {
                 "badge": "loterii",
-                "votes": ""
+                "votes": "{count, plural, one {# hääl} other {# häält}}"
             },
             "participants_modal": {
                 "title": "Osalejad",
