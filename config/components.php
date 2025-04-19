@@ -841,9 +841,6 @@ return [
 	'ianm-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/syndication/1.3.4/resources/locale/en.yml',
 	],
-	'ianm-synopsis' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/1.3.7/resources/locale/en.yml',
-	],
 	'ianm-translate' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/ianm-translate.yml',
 	],
