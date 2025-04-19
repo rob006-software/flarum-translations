@@ -859,6 +859,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-split`](https://weblate.rob006.net/projects/flarum/fof-split) | [`fof/split`](https://github.com/FriendsOfFlarum/split) |
 | [`fof-stopforumspam`](https://weblate.rob006.net/projects/flarum/fof-stopforumspam) | [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam) |
 | [`fof-subscribed`](https://weblate.rob006.net/projects/flarum/fof-subscribed) | [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) |
+| [`fof-synopsis`](https://weblate.rob006.net/projects/flarum/fof-synopsis) | [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis) |
 | [`fof-terms`](https://weblate.rob006.net/projects/flarum/fof-terms) | [`fof/terms`](https://github.com/FriendsOfFlarum/terms) |
 | [`fof-upload`](https://weblate.rob006.net/projects/flarum/fof-upload) | [`fof/upload`](https://github.com/FriendsOfFlarum/upload) |
 | [`fof-user-bio`](https://weblate.rob006.net/projects/flarum/fof-user-bio) | [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) |
@@ -1059,7 +1060,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-oauth-reddit`](https://weblate.rob006.net/projects/flarum/ianm-oauth-reddit) | [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit) |
 | [`ianm-oauth-twitch`](https://weblate.rob006.net/projects/flarum/ianm-oauth-twitch) | [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch) |
 | [`ianm-syndication`](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication) |
-| [`ianm-synopsis`](https://weblate.rob006.net/projects/flarum/ianm-synopsis) | [`ianm/synopsis`](https://github.com/imorland/synopsis) |
 | [`ianm-twofactor`](https://weblate.rob006.net/projects/flarum/ianm-twofactor) | [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) |
 | [`imdong-spam-alert`](https://weblate.rob006.net/projects/flarum/imdong-spam-alert) | [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert) |
 | [`imdong-visible-to-op-only`](https://weblate.rob006.net/projects/flarum/imdong-visible-to-op-only) | [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only) |
