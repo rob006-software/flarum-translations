@@ -1890,6 +1890,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/spanish-mexico">Spanish (Mexico)</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/spanish-mexico/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/spanish-mexico" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/spanish-mexico/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/spanish-mexico/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/spanish-mexico/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/spanish-mexico" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/spanish-mexico/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/spanish-mexico" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/es_MX.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/es_MX/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/swedish">Swedish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/swedish/tags">
