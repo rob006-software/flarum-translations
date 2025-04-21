@@ -4,15 +4,15 @@
             "appearance": {
                 "colored_header_label": "ფერადი სათაური",
                 "colors_heading": "ფერები",
-                "colors_primary_label": "პირველხარისხოვანი ფერი",
-                "colors_secondary_label": "მეორეხარისხოვანი ფერი",
+                "colors_primary_label": "ძირითადი ფერი",
+                "colors_secondary_label": "მეორადი ფერი",
                 "colors_text": "აირჩიეთ ორი ფერი თქვენი ფორუმის თემატიკაზე. პირველი გამოყენებული იქნება ხაზგასმული ფერის სახით, ხოლო მეორე გამოყენებული იქნება ფონის ელემენტების სტილის შესაქმნელად.",
-                "custom_footer_heading": "სასურველი ქვე-კლონტიტული",
+                "custom_footer_heading": "მომხმარებლის ქვედა კლონტიტული",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
-                "custom_header_heading": "სასურველი სათაური",
+                "custom_header_heading": "მორგებული სათაური",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_cannot_use_less_features": "@import და data-uri არ არის დაშვებული საკუთარ LESS-ში.",
-                "custom_styles_heading": "სასურველი სტილები",
+                "custom_styles_heading": "მორგებული სტილები",
                 "custom_styles_text": "მოირგეთ თქვენი ფორუმის გარეგნობა და დაამატეთ თქვენი საკუთარი Less/CSS კოდი, რომელიც უნდა იქნას გამოყენებული Flarum- ის სტანდარტულ სტილებზე.",
                 "dark_mode_label": "მუქი რეჟიმი",
                 "description": "მოირგეთ თქვენი ფორუმის ფერები, ლოგოები და სხვა ცვლადები.",
@@ -198,7 +198,7 @@
                 "delete_posts_label": "პოსტების წაშლა",
                 "description": "დააკონფიგურირეთ ვინ რას ხედავს და რას აკეთებს.",
                 "edit_posts_label": "პოსტების რედაქტირება",
-                "edit_users_label": "მომხმარებლების რედაქტირება",
+                "edit_users_label": "მომხმარებლის ატრიბუტების ჩასწორება",
                 "edit_users_credentials_label": "",
                 "edit_users_groups_label": "",
                 "global_heading": "გლობალური",
@@ -222,7 +222,7 @@
             "permissions_controls": {
                 "allow_indefinitely_button": "განუსაზღვრელად",
                 "allow_never_button": "",
-                "allow_some_minutes_button": "{count} წუთით| {count} წუთის განმავლობაში",
+                "allow_some_minutes_button": "{count, plural, one {# წუთით} other {# წუთით}}",
                 "allow_ten_minutes_button": "10 წუთის განმავლობაში",
                 "allow_until_reply_button": "შემდეგ პასუხამდე",
                 "everyone_button": "ყველა",
@@ -354,7 +354,7 @@
             "forgot_password": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "email_sent_message": "ჩვენ გამოგიგზავნეთ ელ.წერილი, რომელიც შეიცავს ბმულს თქვენი პაროლის გადასაყენებლად. შეამოწმეთ თქვენი სპამის საქაღალდე, თუ არ მიიღებთ მომდევნო ერთ ან ორ წუთში.",
+                "email_sent_message": "თუ თქვენი შეყვანილი ელფოსტა დარეგისტრირებულია ამ საიტზე, ჩვენ გამოგიგზავნეთ ელფოსტა, რომელიც შეიცავს ბმულს თქვენი პაროლის ჩამოსაყრელად. შეამოწმეთ თქვენი სპამის საქაღალდე, თუ არ მიიღებთ მომდევნო ერთ ან ორ წუთში.",
                 "not_found_message": "ელ.ფოსტის მისამართზე რეგისტრირებული მომხმარებელი არ არის.",
                 "submit_button": "პაროლის აღდგენა",
                 "text": "შეიყვანეთ თქვენი ელ.ფოსტის მისამართი და ჩვენ გამოგიგზავნით ბმულს თქვენი პაროლის დასაყენებლად.",
@@ -431,11 +431,11 @@
                 "now_link": "ახლა",
                 "original_post_link": "ორიგინალი პოსტი",
                 "unread_text": "{count} წაუკითხავი",
-                "viewing_text": "{count} პოსტიდან {count} პოსტი | {index} სულ {count} პოსტიდან"
+                "viewing_text": "{count, plural, one {{index} პოსტი {formattedCount}-დან} other {{index} პოსტი {formattedCount}-დან}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "ძველი სათაური იყო: \"{old}\"",
-                "discussion_renamed_text": "{username} შეცვალა სათაური და გახდა {new}.",
+                "discussion_renamed_text": "{username}-მა შეცვალა სათაური და გახდა {new} {time}.",
                 "load_more_button": "",
                 "reply_placeholder": "",
                 "time_lapsed_text": "{period} შემდეგ"
@@ -635,7 +635,7 @@
             "content": {
                 "javascript_disabled_message": "ეს საიტი საუკეთესოდ ჩანს თანამედროვე ბრაუზერში, რომელშიც ჩართულია JavaScript.",
                 "load_error_message": "ამ საიტის სრული ვერსიის ჩატვირთვისას მოხდა რაღაც შეცდომა. ცადეთ შეცვალოთ ეს გვერდი შეცდომის გამოსასწორებლად.",
-                "loading_text": "იტვირთება..."
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "",
@@ -739,7 +739,7 @@
             "security": "",
             "settings": "პარამეტრები",
             "sign_up": "რეგისტრაცია",
-            "some_others": "{count} სხვა|{count} სხვები",
+            "some_others": "{count, plural, one {# სხვა} other {# სხვა}}",
             "start_a_discussion": "დისკუსიის დაწყება",
             "username": "მომხმარებლის სახელი",
             "users": "მომხმარებლები",
