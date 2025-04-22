@@ -60,7 +60,7 @@
                 "boolean": "Jelölőmező",
                 "email": "E-mail",
                 "select": "Legördülő",
-                "url": "URL"
+                "url": "Webcím"
             }
         }
     },
@@ -68,9 +68,9 @@
         "lib": {
             "data": {
                 "masqueradeanswers": {
-                    "export_description": "",
-                    "delete_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Exportálja a felhasználó profilmezőjének válaszait",
+                    "delete_description": "Eltávolítja a felhasználó összes profilmezőjének válaszait",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
                 }
             }
         }
