@@ -26,26 +26,26 @@
         "forum": {
             "title": "Sorun Takibi",
             "header": {
-                "back_to_issues_tooltip": ""
+                "back_to_issues_tooltip": "Sorunlara Dön"
             },
-            "last_updated": "",
-            "issue_opened_by": "",
-            "progress": "",
-            "new_issue": "",
-            "cannot_create_issue": "",
+            "last_updated": "Son güncelleme {time}",
+            "issue_opened_by": "Sorun {time} tarihinde {username} tarafından açıldı",
+            "progress": "İlerleme",
+            "new_issue": "Yeni Sorun",
+            "cannot_create_issue": "Sadece Okunur",
             "discussion": {
-                "issue_link": ""
+                "issue_link": "Görüntüle"
             },
             "composer": {
-                "title": "",
-                "title_placeholder": "",
-                "body_placeholder": "",
-                "submit_button": "",
-                "discard_confirmation": ""
+                "title": "Yeni bir sorun oluştur",
+                "title_placeholder": "Sorun Başlığı",
+                "body_placeholder": "Sorun Açıklaması",
+                "submit_button": "Sorunu Gönder",
+                "discard_confirmation": "Bu sorunu iptal etmek istediğinize emin misiniz?"
             },
             "sort": {
-                "latest_button": "",
-                "oldest_button": "",
+                "latest_button": "En son",
+                "oldest_button": "En eski",
                 "newest_button": "En Yeni"
             },
             "hero": {
