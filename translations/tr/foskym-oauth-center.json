@@ -29,53 +29,53 @@
                 "client_desc": "Açıklama",
                 "client_icon": "Simge",
                 "client_home": "Anasayfa",
-                "add_button": "",
-                "edit_client": ""
+                "add_button": "İstemci Ekle",
+                "edit_client": "İstemciyi Düzenle"
             },
             "scopes": {
-                "scope": "",
-                "resource_path": "",
-                "method": "",
-                "is_default": "",
-                "scope_name": "",
-                "scope_icon": "",
-                "scope_desc": "",
-                "visible_fields": "",
-                "add_button": "",
-                "edit_scope": ""
+                "scope": "Kapsam",
+                "resource_path": "Kaynak Yolu",
+                "method": "Metot",
+                "is_default": "Varsayılan",
+                "scope_name": "Ad",
+                "scope_icon": "Simge",
+                "scope_desc": "Açıklama",
+                "visible_fields": "Görünür Alanlar",
+                "add_button": "Kapsam Ekle",
+                "edit_scope": "Kapsamı Düzenle"
             },
             "tokens": {
-                "add_token": "",
-                "delete_token": ""
+                "add_token": "Belirteç Ekle",
+                "delete_token": "Belirteci Sil"
             },
             "action": {
-                "delete_all_records_button": "",
-                "delete_all_records_confirm": "",
-                "delete_all_records_success": ""
+                "delete_all_records_button": "Tüm kayıtları sil",
+                "delete_all_records_confirm": "Tüm kayıtları silmeyi onayla",
+                "delete_all_records_success": "Tüm kayıtlar başarıyla silindi"
             }
         },
         "forum": {
             "page": {
                 "title": {
-                    "authorize": ""
+                    "authorize": "Yetkilendir"
                 },
                 "label": {
-                    "authorized": ""
+                    "authorized": "Yetkilendirilmiş Kayıtlar"
                 }
             },
             "authorize": {
-                "require_these_scopes": "",
-                "access": "",
-                "agree": "",
-                "deny": ""
+                "require_these_scopes": "Bu kapsamları gerektir",
+                "access": "Erişim",
+                "agree": "Kabul Et",
+                "deny": "Reddet"
             },
             "authorized": {
-                "no_records": "",
-                "no_more_records": "",
-                "load_more": "",
-                "delete_button": "",
-                "delete_all_button": "",
-                "delete_all_confirm": ""
+                "no_records": "Kayıt yok",
+                "no_more_records": "Daha fazla kayıt yok",
+                "load_more": "Daha Fazla Yükle",
+                "delete_button": "Bu kaydı sil",
+                "delete_all_button": "Tüm kayıtları sil",
+                "delete_all_confirm": "Tüm kayıtları silmeyi onayla"
             }
         }
     }
