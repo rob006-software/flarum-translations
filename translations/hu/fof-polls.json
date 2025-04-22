@@ -51,7 +51,7 @@
                 "submit_button": "Szavazás",
                 "start_poll_button": "Globális szavazás indítása",
                 "cannot_start_poll_button": "A szavazás nem indítható el",
-                "total_votes": ""
+                "total_votes": "{count, plural, one {# szavazat lett leadva} other {# szavazat lett leadva}}"
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
