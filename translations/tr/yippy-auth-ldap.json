@@ -25,29 +25,29 @@
                     "password_expired": "Şifrenizin süresi doldu.",
                     "disabled": "Hesabınız devre dışı bırakıldı, {server} yöneticinizle iletişime geçin.",
                     "expired": "Hesabınızın süresi doldu, {server} yöneticinizle iletişime geçin.",
-                    "locked": ""
+                    "locked": "Hesabınız kilitlenmiş, {server} yönetimiyle iletişime geçin."
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "method_name": "",
+                "title": "LDAP Ayarları",
+                "method_name": "LDAP sunucu adı (\"Giriş Yap\" sonrasında görünecek)",
                 "domains": {
-                    "title": "",
-                    "description": "",
-                    "add": "",
-                    "banner": "",
+                    "title": "LDAP Alanları",
+                    "description": "Tüm kullanılabilir LDAP alanlarını girin, böylece Flarum girişi için kullanabilir",
+                    "add": "Alan Ekle",
+                    "banner": "Alan {index}",
                     "header": {
-                        "server": "",
-                        "admin": "",
-                        "search_fields": "",
-                        "search_fields_description": "",
-                        "flarum": "",
-                        "flarum_description": ""
+                        "server": "LDAP Sunucu Ayarları",
+                        "admin": "LDAP Yöneticisi",
+                        "search_fields": "LDAP Hesap Araması",
+                        "search_fields_description": "Kullanıcının sağladığı Kullanıcı Adı ile karşılaştırılacak LDAP alanlarının bir listesini oluşturun.",
+                        "flarum": "Flarum Kullanıcı Profili",
+                        "flarum_description": "LDAP hesabı bulunduğunda, ilgili alanları kayıt sırasında Flarum Kullanıcı Profili'ne atayabilirsiniz."
                     },
                     "data": {
-                        "host": "",
+                        "host": "Alanlar veya sunucu IP adresleri",
                         "host_help": "Virgülle ayrılmış",
                         "base_dn": "Base DN'ler",
                         "base_dn_help": "Noktalı virgülle ayrılmış",
