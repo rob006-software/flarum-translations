@@ -58,117 +58,117 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "Anahtar",
+                        "help": "Kullanıcının kaydolurken gireceği kod."
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "Grup",
+                        "help": "Davet kodunu kullanarak kaydolduğunda kullanıcının ekleneceği grup."
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "Maks Kullanım",
+                        "help": "Kodun kullanılabileceği maksimum sayı. Sınırsız kullanım için 0 olarak ayarlayın"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "Kullanıcıyı Aktif Et",
+                        "help": "Kullanıcı kaydolduğunda otomatik olarak aktif eder."
                     }
                 }
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "",
+                    "title": "Yeni Davet Kodu Oluştur",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "Davet Kodu Oluştur",
+                    "submit_and_create_another_button": "Oluştur ve bir tane daha ekle"
                 },
                 "edit_doorkey": {
-                    "title": "",
+                    "title": "Davet Kodunu Düzenle",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": ""
+                    "submit_button": "Değişiklikleri Kaydet"
                 },
                 "send_invites": {
-                    "title": "",
-                    "group": "",
-                    "help": "",
-                    "placeholder": "",
-                    "invalid_emails": "",
-                    "max_use_conflict": "",
-                    "send": "",
-                    "success": ""
+                    "title": "Davet Kodları Gönder",
+                    "group": "{group} grubu için davetler gönderiliyor",
+                    "help": "Virgül, boşluk veya virgül+boşluk ile ayrılmış listeyi kabul eder. Tek bir e-posta yazın veya bir liste yapıştırın, ardından eklemek için boşluk tuşuna basın.",
+                    "placeholder": "E-postaları buraya girin",
+                    "invalid_emails": "Aşağıdaki e-posta(lar) geçersiz: {emails}",
+                    "max_use_conflict": "E-posta sayısı, bu kodun maksimum kullanım sayısını aşıyor.",
+                    "send": "E-postaları Gönder",
+                    "success": "E-postalar başarıyla gönderildi"
                 }
             },
             "settings": {
-                "search": "",
-                "total_doorkeys": "",
-                "create_doorkey_button": "",
-                "optional_usage": ""
+                "search": "Davet kodlarını ara",
+                "total_doorkeys": "Toplam davet kodu: {count}",
+                "create_doorkey_button": "Davet Kodu Oluştur",
+                "optional_usage": "Kaydolurken davet kodunu isteğe bağlı yap"
             },
             "list": {
                 "columns": {
-                    "id": "",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "id": "ID",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Yönet",
+                    "uses": "Kullanım Sayısı",
+                    "created_by": "Oluşturan"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
-                    "warning": "",
-                    "delete": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "Bu davet kodu maksimum kullanım sayısına ulaştı.",
+                    "delete": "\"{key}\" davet kodunu silmek istediğinizden emin misiniz?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {Sınırsız kullanım} one {{remainingUses} kullanım kaldı} other {{remainingUses} kullanım kaldı}}",
+                        "total_uses": "{totalUses, plural, one {1 kez kullanıldı} other {{totalUses} kez kullanıldı}}"
                     },
-                    "no_created_by": ""
+                    "no_created_by": "Bilinmeyen Kullanıcı"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.admin.users.pagination.first_page_button",
+                    "back_button": "=> core.admin.users.pagination.back_button",
+                    "page_counter": "=> core.admin.users.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.admin.users.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.admin.users.pagination.next_button",
+                    "last_page_button": "=> core.admin.users.pagination.last_page_button"
                 }
             }
         },
         "email": {
-            "subject": "",
-            "body": ""
+            "subject": "Katılmaya Davet",
+            "body": "Merhaba,\n\n{forum} adresine kaydolmaya davet edildiniz.\n\nHesabınızı oluşturmaya hazır olduğunuzda, aşağıdaki bağlantıya tıklayın ve kaydolurken kodu girin:\n\nUrl: {url}\nDavet kodu: {code}\n\nEğer bu e-postayı yanlışlıkla aldıysanız, lütfen dikkate almayın.\n"
         }
     }
 }
