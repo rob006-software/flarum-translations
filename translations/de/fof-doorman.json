@@ -6,7 +6,7 @@
                 "body": "Hallo,\n\nDu wurdest für eine Registrierung in {forum} eingeladen.\n\nWenn du bereit bist, dir ein Konto zu erstellen, klicke einfach auf den folgenden Link und gebe den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nIgnoriere diese E-Mail sollte sie fälschlicherweise versandt worden sein.\n"
             },
             "sign_up": {
-                "invalid_doorkey": "Der von Dir eingegebene Einladungscode ist ungültig.",
+                "invalid_doorkey": "Der von dir eingegebene Einladungscode ist ungültig.",
                 "doorkey_required": "Bitte gebe einen Einladungscode ein.",
                 "doorman_placeholder": "Einladungscode",
                 "doorman_placeholder_optional": "Einladungscode (optional)"
@@ -23,7 +23,7 @@
                 "send": "E-Mails senden",
                 "success": "E-Mails erfolgreich gesendet"
             },
-            "invalid_doorkey": "Der von Dir angegebene Einladungscode ist ungültig.",
+            "invalid_doorkey": "Der von dir angegebene Einladungscode ist ungültig.",
             "doorkey_required": "Du musst einen Einladungscode angeben",
             "nav": {
                 "desc": "Erstelle Einladungscodes für Benutzer, um sich anzumelden und einer Gruppe zugewiesen zu werden"
@@ -58,12 +58,12 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "Schlüssel",
+                        "help": "Code, den Nutzer bei der Registrierung verwenden."
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "Gruppe",
+                        "help": "Die Gruppe, zu der Benutzer bei Verwendung dieses Einladungscodes zur Registrierung hinzugefügt wird."
                     },
                     "max_uses": {
                         "label": "",
@@ -77,7 +77,7 @@
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "",
+                    "title": "Neuen Einladungscode erstellen",
                     "key": {
                         "label": "",
                         "help": ""
@@ -94,7 +94,7 @@
                         "label": "",
                         "help": ""
                     },
-                    "submit_button": "",
+                    "submit_button": "Einladungscode erstellen",
                     "submit_and_create_another_button": ""
                 },
                 "edit_doorkey": {
@@ -131,7 +131,7 @@
             "settings": {
                 "search": "",
                 "total_doorkeys": "",
-                "create_doorkey_button": "",
+                "create_doorkey_button": "Einladungscode erstellen",
                 "optional_usage": ""
             },
             "list": {
