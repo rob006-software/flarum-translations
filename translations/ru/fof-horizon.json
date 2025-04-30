@@ -18,10 +18,10 @@
                 "trim_monitored_help": ""
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
+                "auto_refresh": "Автоматическое обновление",
+                "heading": "Обзор очереди",
                 "full_dashboard": "",
-                "refresh": "",
+                "refresh": "Обновить",
                 "data": {
                     "redis-used-memory": "",
                     "redis-peak-memory": "",
@@ -35,14 +35,14 @@
                     "jobs-past-hour": "",
                     "failed-last-seconds": "",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Статус",
+                        "running": "Выполняется",
+                        "inactive": "Неактивен"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-runtime": "",
-                    "max-throughput": ""
+                    "total-processes": "Всего процессов",
+                    "max-wait-time": "Макс. время ожидания",
+                    "max-runtime": "Макс. время выполнения",
+                    "max-throughput": "Макс. пропускная способность"
                 }
             }
         }
