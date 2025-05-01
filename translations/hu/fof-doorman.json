@@ -58,117 +58,117 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "Kulcs",
+                        "help": "A kód, melyet a felhasználó a regisztrációkor ad meg."
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "Csoport",
+                        "help": "A csoport, melyhez a felhasználó hozzá lesz rendelve, ha a meghívókóddal regisztrál."
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "Használati korlát",
+                        "help": "Legfeljebb hányszor használható a kód. Állítsa 0-ra a korlátlan számú használathoz."
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "Aktiválja a felhasználót",
+                        "help": "Automatikusan aktiválja a felhasználót, amikor regisztrál."
                     }
                 }
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "",
+                    "title": "Új meghívókód létrehozása",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "Meghívókód létrehozása",
+                    "submit_and_create_another_button": "Létrehozás és még egy hozzáadása"
                 },
                 "edit_doorkey": {
-                    "title": "",
+                    "title": "Meghívókód szerkesztése",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": ""
+                    "submit_button": "Változtatások mentése"
                 },
                 "send_invites": {
-                    "title": "",
-                    "group": "",
-                    "help": "",
-                    "placeholder": "",
-                    "invalid_emails": "",
-                    "max_use_conflict": "",
-                    "send": "",
-                    "success": ""
+                    "title": "Meghívókódok elküldése",
+                    "group": "Meghívók küldése a(z) {group} csoportnak",
+                    "help": "Vesszővel, szóközzel vagy mindkettővel elválasztott listát fogad el. Írjon be egy e-mail-címet, vagy illesszen be egy listát, majd nyomjon szóközt a hozzáadásukhoz.",
+                    "placeholder": "Itt adja meg az e-mail-címeket",
+                    "invalid_emails": "A következő e-mail-címek érvénytelenek: {emails}",
+                    "max_use_conflict": "Az e-mail-címek száma meghaladja a kód használati korlátját.",
+                    "send": "E-mailek elküldése",
+                    "success": "Az e-mailek sikeresen elküldve"
                 }
             },
             "settings": {
-                "search": "",
-                "total_doorkeys": "",
-                "create_doorkey_button": "",
-                "optional_usage": ""
+                "search": "Ajtókulcsok keresése",
+                "total_doorkeys": "Összes ajtókulcs: {count}",
+                "create_doorkey_button": "Meghívókód létrehozása",
+                "optional_usage": "A meghívókód választhatóvá tétele a regisztrációkor"
             },
             "list": {
                 "columns": {
-                    "id": "",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "id": "Azonosító",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Kezelés",
+                    "uses": "Használatok",
+                    "created_by": "Létrehozta:"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
-                    "warning": "",
-                    "delete": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "Ezt a meghívókódot már teljesen felhasználták.",
+                    "delete": "Biztos, hogy törli a(z) „{key}” meghívókódot?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {Korlátlan használat} one {{remainingUses} használat maradt} other {{remainingUses} használat maradt}}",
+                        "total_uses": "{totalUses, plural, one {{totalUses} alkalommal használva} other {{totalUses} alkalommal használva}}"
                     },
-                    "no_created_by": ""
+                    "no_created_by": "Ismeretlen felhasználó"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.admin.users.pagination.first_page_button",
+                    "back_button": "=> core.admin.users.pagination.back_button",
+                    "page_counter": "=> core.admin.users.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.admin.users.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.admin.users.pagination.next_button",
+                    "last_page_button": "=> core.admin.users.pagination.last_page_button"
                 }
             }
         },
         "email": {
-            "subject": "",
-            "body": ""
+            "subject": "Meghívás, hogy csatlakozzon",
+            "body": "Üdv,\n\nMeghívták, hogy csatlakozzon ehhez a fórumhoz: {forum}.\n\nHa készen áll, hogy létrehozza a fiókját, csak kattintson a következő hivatkozásra, és adja meg a kódot a regisztráció során:\n\nWebcím: {url}\nMeghívókód: {code}\n\nHa tévedésből kapta ezt a levelet, hagyja figyelmen kívül.\n"
         }
     }
 }
