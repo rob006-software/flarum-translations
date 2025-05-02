@@ -37,7 +37,7 @@
                 "submit_button": "Bevestig abonnement"
             },
             "hero": {
-                "title": ""
+                "title": "=> flarum-subscriptions.forum.index.following_link"
             },
             "notifications": {
                 "new_discussion_text": "{username} start",
@@ -86,8 +86,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Exporteert details van het abonnementsniveau voor een tag, indien aanwezig.",
+                    "anonymize_description": "Verwijdert het abonnement van de gebruiker op de tag."
                 }
             }
         }
