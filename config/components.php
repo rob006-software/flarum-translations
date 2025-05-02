@@ -690,6 +690,7 @@ return [
 	],
 	'fof-sentry' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/1.3.3/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/1.4.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-share-social' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/1.2.0/resources/locale/en.yml',
