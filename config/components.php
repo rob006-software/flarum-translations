@@ -539,9 +539,6 @@ return [
 	'flarum-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.8.4/locale/en.yml',
 	],
-	'flarumite-simple-discussion-views' => [
-		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/1.2.4/resources/locale/en.yml',
-	],
 	'flarumite-simple-spoilers' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-spoilers/1.0.0/resources/locale/en.yml',
 	],
@@ -583,6 +580,9 @@ return [
 	],
 	'fof-discussion-thumbnail' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-thumbnail/1.1.3/resources/locale/en.yml',
+	],
+	'fof-discussion-views' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-views/1.0.0/resources/locale/en.yml',
 	],
 	'fof-disposable-emails' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/1.0.0/locale/en.yml',
