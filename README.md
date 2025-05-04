@@ -817,6 +817,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-default-user-preferences`](https://weblate.rob006.net/projects/flarum/fof-default-user-preferences) | [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) |
 | [`fof-discussion-language`](https://weblate.rob006.net/projects/flarum/fof-discussion-language) | [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) |
 | [`fof-discussion-thumbnail`](https://weblate.rob006.net/projects/flarum/fof-discussion-thumbnail) | [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail) |
+| [`fof-discussion-views`](https://weblate.rob006.net/projects/flarum/fof-discussion-views) | [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) |
 | [`fof-disposable-emails`](https://weblate.rob006.net/projects/flarum/fof-disposable-emails) | [`fof/disposable-emails`](https://github.com/FriendsOfFlarum/disposable-emails) |
 | [`fof-doorman`](https://weblate.rob006.net/projects/flarum/fof-doorman) | [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) |
 | [`fof-drafts`](https://weblate.rob006.net/projects/flarum/fof-drafts) | [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) |
@@ -1023,7 +1024,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`flamarkt-backoffice`](https://weblate.rob006.net/projects/flarum/flamarkt-backoffice) | [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice) |
 | [`flamarkt-matomo`](https://weblate.rob006.net/projects/flarum/flamarkt-matomo) | [`flamarkt/matomo`](https://github.com/flamarkt/matomo) |
 | [`flamarkt-taxonomies`](https://weblate.rob006.net/projects/flarum/flamarkt-taxonomies) | [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies) |
-| [`flarumite-simple-discussion-views`](https://weblate.rob006.net/projects/flarum/flarumite-simple-discussion-views) | [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views) |
 | [`flarumite-simple-spoilers`](https://weblate.rob006.net/projects/flarum/flarumite-simple-spoilers) | [`flarumite/simple-spoilers`](https://github.com/flarumite/simple-spoilers) |
 | [`foskym-activity-graph`](https://weblate.rob006.net/projects/flarum/foskym-activity-graph) | [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph) |
 | [`foskym-better-user-directory`](https://weblate.rob006.net/projects/flarum/foskym-better-user-directory) | [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory) |
