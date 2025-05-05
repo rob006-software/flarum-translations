@@ -1196,9 +1196,6 @@ return [
 	'muhammedsaidckr-gemini' => [
 		'tag' => 'https://raw.githubusercontent.com/muhammedsaidckr/flarum-gemini/v1.0.4/locale/en.yml',
 	],
-	'nearata-auth-minecraft' => [
-		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-auth-minecraft/v3.0.1/locale/en.yml',
-	],
 	'nearata-cakeday' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-cakeday/v2.2.0/locale/en.yml',
 	],
