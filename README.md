@@ -902,6 +902,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`askvortsov-pwa`](https://weblate.rob006.net/projects/flarum/askvortsov-pwa) | [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) |
 | [`askvortsov-rich-text`](https://weblate.rob006.net/projects/flarum/askvortsov-rich-text) | [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) |
 | [`askvortsov-saml`](https://weblate.rob006.net/projects/flarum/askvortsov-saml) | [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml) |
+| [`blazite-turnstile`](https://weblate.rob006.net/projects/flarum/blazite-turnstile) | [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile) |
 | [`blessing-oauth-client`](https://weblate.rob006.net/projects/flarum/blessing-oauth-client) | [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client) |
 | [`blomstra-conversations`](https://weblate.rob006.net/projects/flarum/blomstra-conversations) | [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations) |
 | [`blomstra-database-queue`](https://weblate.rob006.net/projects/flarum/blomstra-database-queue) | [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue) |
@@ -915,7 +916,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-secondary-tags-toggler`](https://weblate.rob006.net/projects/flarum/blomstra-secondary-tags-toggler) | [`blomstra/secondary-tags-toggler`](https://github.com/blomstra/flarum-ext-secondary-tags-toggler) |
 | [`blomstra-sort-order-toggle`](https://weblate.rob006.net/projects/flarum/blomstra-sort-order-toggle) | [`blomstra/sort-order-toggle`](https://github.com/blomstra/flarum-ext-sort-order-toggle) |
 | [`blomstra-trello`](https://weblate.rob006.net/projects/flarum/blomstra-trello) | [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello) |
-| [`blomstra-turnstile`](https://weblate.rob006.net/projects/flarum/blomstra-turnstile) | [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile) |
 | [`blomstra-user-filter`](https://weblate.rob006.net/projects/flarum/blomstra-user-filter) | [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter) |
 | [`blomstra-usercard-stats`](https://weblate.rob006.net/projects/flarum/blomstra-usercard-stats) | [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats) |
 | [`blomstra-web3`](https://weblate.rob006.net/projects/flarum/blomstra-web3) | [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3) |
