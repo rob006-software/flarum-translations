@@ -701,9 +701,6 @@ return [
 	'fof-socialprofile' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/1.2.0/resources/locale/en.yml',
 	],
-	'fof-spamblock' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/1.1.2/locale/en.yml',
-	],
 	'fof-split' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/1.1.1/locale/en.yml',
 	],
