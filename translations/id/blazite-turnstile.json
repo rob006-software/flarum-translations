@@ -1,0 +1,20 @@
+{
+    "blazite-turnstile": {
+        "admin": {
+            "settings": {
+                "help_text": "Buat Turnstile key di akun Cloudflare Anda <a>di sini</a>.",
+                "site_key": "Site key",
+                "secret_key": "Secret key",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            }
+        },
+        "forum": {
+            "not_loaded_error": "Gagal memuat Cloudflare Turnstile. Silakan refresh halaman, dan periksa adblocker Anda."
+        }
+    },
+    "validation": {
+        "turnstile": "Kita tidak bisa memverifikasi apakah Anda robot atau bukan. Silakan refresh halaman dan coba lagi."
+    }
+}

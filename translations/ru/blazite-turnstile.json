@@ -1,0 +1,20 @@
+{
+    "blazite-turnstile": {
+        "admin": {
+            "settings": {
+                "help_text": "",
+                "site_key": "Ключ сайта",
+                "secret_key": "Секретный ключ",
+                "signup": "",
+                "signin": "",
+                "forgot": ""
+            }
+        },
+        "forum": {
+            "not_loaded_error": "Ошибка загрузки Cloudflare Turnstile. Пожалуйста обновите страницу и проверьте, не включен ли блокировщик рекламы."
+        }
+    },
+    "validation": {
+        "turnstile": "Мы не можем проверить, не робот ли вы. Пожалуйста, обновите страницу и попробуйте еще раз."
+    }
+}

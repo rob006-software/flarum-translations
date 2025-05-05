@@ -97,6 +97,9 @@ return [
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.4.0/resources/locale/en.yml',
 	],
+	'blazite-turnstile' => [
+		'tag' => 'https://raw.githubusercontent.com/blazite/flarum-ext-turnstile/1.0.0/locale/en.yml',
+	],
 	'blessing-oauth-client' => [
 		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.2/locale/en.yml',
 	],
@@ -145,9 +148,6 @@ return [
 	],
 	'blomstra-trello' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-trello/0.3.2/locale/en.yml',
-	],
-	'blomstra-turnstile' => [
-		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-turnstile/0.1.6/locale/en.yml',
 	],
 	'blomstra-user-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-user-filter/0.1.4/locale/en.yml',
