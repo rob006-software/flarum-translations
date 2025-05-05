@@ -11,10 +11,12 @@
             }
         },
         "forum": {
-            "not_loaded_error": "Échec du chargement de Cloudflare Turnstile. Veuillez rafraîchir la page et vérifier votre bloqueur de publicités."
+            "not_loaded_error": "Échec du chargement de Cloudflare Turnstile. Veuillez rafraîchir la page et vérifier votre bloqueur de publicités.",
+            "validation_error": ""
         }
     },
     "validation": {
-        "turnstile": "Nous n'avons pas pu vérifier si vous êtes un robot ou non. Veuillez rafraîchir la page puis réessayer."
+        "turnstile": "Nous n'avons pas pu vérifier si vous êtes un robot ou non. Veuillez rafraîchir la page puis réessayer.",
+        "required": ""
     }
 }

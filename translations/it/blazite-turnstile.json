@@ -11,10 +11,12 @@
             }
         },
         "forum": {
-            "not_loaded_error": "Impossibile caricare Cloudflare Turnstile. Aggiorna la pagina e controlla eventuali adblocker."
+            "not_loaded_error": "Impossibile caricare Cloudflare Turnstile. Aggiorna la pagina e controlla eventuali adblocker.",
+            "validation_error": ""
         }
     },
     "validation": {
-        "turnstile": "Non siamo riusciti a verificare se tu sia un robot o meno. Per favore ricarica la pagina e riprova."
+        "turnstile": "Non siamo riusciti a verificare se tu sia un robot o meno. Per favore ricarica la pagina e riprova.",
+        "required": ""
     }
 }

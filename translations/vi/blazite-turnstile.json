@@ -11,10 +11,12 @@
             }
         },
         "forum": {
-            "not_loaded_error": "Không thể tải Cloudflare Turnstile. Vui lòng làm mới trang và kiểm tra trình chặn quảng cáo của bạn."
+            "not_loaded_error": "Không thể tải Cloudflare Turnstile. Vui lòng làm mới trang và kiểm tra trình chặn quảng cáo của bạn.",
+            "validation_error": ""
         }
     },
     "validation": {
-        "turnstile": "Chúng tôi không thể xác minh xem bạn có phải là người máy hay không. Hãy làm mới trang và thử lại."
+        "turnstile": "Chúng tôi không thể xác minh xem bạn có phải là người máy hay không. Hãy làm mới trang và thử lại.",
+        "required": ""
     }
 }

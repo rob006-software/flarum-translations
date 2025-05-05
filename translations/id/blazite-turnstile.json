@@ -11,10 +11,12 @@
             }
         },
         "forum": {
-            "not_loaded_error": "Gagal memuat Cloudflare Turnstile. Silakan refresh halaman, dan periksa adblocker Anda."
+            "not_loaded_error": "Gagal memuat Cloudflare Turnstile. Silakan refresh halaman, dan periksa adblocker Anda.",
+            "validation_error": ""
         }
     },
     "validation": {
-        "turnstile": "Kita tidak bisa memverifikasi apakah Anda robot atau bukan. Silakan refresh halaman dan coba lagi."
+        "turnstile": "Kita tidak bisa memverifikasi apakah Anda robot atau bukan. Silakan refresh halaman dan coba lagi.",
+        "required": ""
     }
 }
