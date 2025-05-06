@@ -1,27 +1,27 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "discussions_bin": "",
-            "posts_bin": "",
+            "discussions_bin": "Корзина дискуссий",
+            "posts_bin": "Корзина сообщений",
             "search_placeholder": "Поиск дискуссии",
-            "search_post_placeholder": "",
+            "search_post_placeholder": "Поиск сообщения",
             "search_help_text": "Поиск слов в заголовках тем и сообщениях в дискуссиях",
-            "search_post_help_text": "",
+            "search_post_help_text": "Поиск слов в скрытых сообщениях",
             "total_hidden_discussions": "Полностью скрытые дискуссии",
-            "total_hidden_posts": "",
+            "total_hidden_posts": "Всего скрытых сообщений",
             "empty_list": "В корзине нет дискуссий.",
             "hidden_discussions": "Скрытые дискуссии",
             "discussion_id": "ID",
             "discussion_title": "Заголовок дискуссии",
             "discussion_link_tooltip": "Просмотреть дискуссию",
-            "author": "",
+            "author": "Автор",
             "unknownn_user": "Неизвестный пользователь",
             "created_at": "Создано в",
             "hidden_at": "Скрыто в",
             "unknown_date": "Неизвестная дата",
             "actions": "Действия",
             "restore_tooltip": "Восстановить дискуссию",
-            "restore_post_tooltip": "",
+            "restore_post_tooltip": "Восстановить сообщение",
             "restore_discussion": {
                 "title": "Восстановить дискуссию",
                 "confirmation": "Вы уверены, что хотите восстановить дискуссию:",
@@ -29,10 +29,10 @@
                 "success": "Дискуссия успешно восстановлена"
             },
             "restore_post": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Восстановить сообщение",
+                "confirmation": "Вы уверены, что хотите восстановить это сообщение из дискуссии ",
+                "restore_button": "Восстановить это сообщение",
+                "success": "Сообщение успешно восстановлено"
             },
             "delete_discussion": {
                 "title": "Удалить окончательно",
@@ -41,17 +41,17 @@
                 "success": "Дискуссия успешно удалена"
             },
             "delete_post": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Удалить навсегда",
+                "confirmation": "Вы уверены, что хотите <u>навсегда удалить</u> это сообщение (необратимо):",
+                "delete_button": "Навсегда удалить это сообщение",
+                "success": "Сообщение успешно удалено"
             },
             "delete_tooltip": "Удалить дискуссию",
-            "delete_post_tooltip": "",
+            "delete_post_tooltip": "Удалить сообщение",
             "bulk_actions": "Действия для выбранных дискуссий: ",
-            "bulk_post_actions": "",
+            "bulk_post_actions": "Действия для выбранных сообщений: ",
             "bulk_restore_label": "Восстановить выбранные дискуссии",
-            "bulk_post_restore_label": "",
+            "bulk_post_restore_label": "Восстановить выбранные сообщения",
             "mass_restore_modal": {
                 "title": "Восстановить выбранные дискуссии",
                 "text_start": "Вы уверены, что хотите восстановить эти ",
@@ -60,28 +60,28 @@
                 "success": "Выбранные дискуссии успешно восстановлены"
             },
             "mass_restore_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Восстановить выбранные сообщения",
+                "text_start": "Вы уверены, что хотите восстановить эти ",
+                "text_end": " выбранные сообщения?",
+                "submit_button": "Восстановить эти сообщения",
+                "success": "Выбранные сообщения успешно восстановлены"
             },
             "mass_delete_modal": {
                 "title": "Окончательно удалить эти дискуссии",
-                "text_start": "Вы уверены, что хотите  <u>окончательно удалить</u> эти ",
+                "text_start": "Вы уверены, что хотите <u>удалить навсегда</u> эти ",
                 "text_end": " выбранные дискуссии?",
                 "submit_button": "Окончательно удалить эти дискуссии",
                 "success": "Выбранные дискуссии успешно удалены"
             },
             "mass_delete_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Удалите навсегда эти сообщения",
+                "text_start": "Вы уверены, что хотите <u>удалить навсегда</u> эти ",
+                "text_end": " выбранные сообщения?",
+                "submit_button": "Навсегда удалить эти сообщения",
+                "success": "Успешно удалены выбранные сообщения"
             },
             "bulk_delete_label": "Удалить выбранные дискуссии",
-            "bulk_post_delete_label": "",
+            "bulk_post_delete_label": "Удалить выбранные сообщения",
             "pagination": {
                 "first_page_button": "Перейти на первую страницу",
                 "back_button": "Назад на предыдущую страницу",
@@ -92,12 +92,12 @@
             },
             "mass_help_text": "Пожалуйста ждите обновления страницы после подтверждения группового удаления или восстановления",
             "grid": {
-                "invalid_column_content": ""
+                "invalid_column_content": "Недопустимый контент!"
             },
             "post": {
-                "id": "",
-                "title": "",
-                "open_post": ""
+                "id": "ID",
+                "title": "Текст сообщения",
+                "open_post": "Открыть сообщение"
             },
             "title": "Корзина",
             "discussion_author": "Автор"
