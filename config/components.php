@@ -701,14 +701,8 @@ return [
 	'fof-socialprofile' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/1.2.0/resources/locale/en.yml',
 	],
-	'fof-spamblock' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/1.1.2/locale/en.yml',
-	],
 	'fof-split' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/1.1.1/locale/en.yml',
-	],
-	'fof-stopforumspam' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/stopforumspam/1.2.4/resources/locale/en.yml',
 	],
 	'fof-subscribed' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/1.1.4/resources/locale/en.yml',
