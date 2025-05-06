@@ -856,9 +856,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-share-social`](https://weblate.rob006.net/projects/flarum/fof-share-social) | [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) |
 | [`fof-sitemap`](https://weblate.rob006.net/projects/flarum/fof-sitemap) | [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) |
 | [`fof-socialprofile`](https://weblate.rob006.net/projects/flarum/fof-socialprofile) | [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile) |
-| [`fof-spamblock`](https://weblate.rob006.net/projects/flarum/fof-spamblock) | [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock) |
 | [`fof-split`](https://weblate.rob006.net/projects/flarum/fof-split) | [`fof/split`](https://github.com/FriendsOfFlarum/split) |
-| [`fof-stopforumspam`](https://weblate.rob006.net/projects/flarum/fof-stopforumspam) | [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam) |
 | [`fof-subscribed`](https://weblate.rob006.net/projects/flarum/fof-subscribed) | [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) |
 | [`fof-synopsis`](https://weblate.rob006.net/projects/flarum/fof-synopsis) | [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis) |
 | [`fof-terms`](https://weblate.rob006.net/projects/flarum/fof-terms) | [`fof/terms`](https://github.com/FriendsOfFlarum/terms) |
@@ -1160,7 +1158,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`miniflar-sidenav-download-button`](https://weblate.rob006.net/projects/flarum/miniflar-sidenav-download-button) | [`miniflar/sidenav-download-button`](https://github.com/miniflar/sidenav-download-button) |
 | [`miniflar-top-like-givers-widget`](https://weblate.rob006.net/projects/flarum/miniflar-top-like-givers-widget) | [`miniflar/top-like-givers-widget`](https://github.com/miniflar/top-like-givers-widget) |
 | [`muhammedsaidckr-gemini`](https://weblate.rob006.net/projects/flarum/muhammedsaidckr-gemini) | [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini) |
-| [`nearata-auth-minecraft`](https://weblate.rob006.net/projects/flarum/nearata-auth-minecraft) | [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft) |
 | [`nearata-cakeday`](https://weblate.rob006.net/projects/flarum/nearata-cakeday) | [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday) |
 | [`nearata-cloudflare`](https://weblate.rob006.net/projects/flarum/nearata-cloudflare) | [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare) |
 | [`nearata-copy-code-to-clipboard`](https://weblate.rob006.net/projects/flarum/nearata-copy-code-to-clipboard) | [`nearata/flarum-ext-copy-code-to-clipboard`](https://github.com/Nearata/flarum-ext-copy-code-to-clipboard) |
