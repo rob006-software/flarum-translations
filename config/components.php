@@ -1307,6 +1307,9 @@ return [
 	'shebaoting-repost' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/Repost/v0.4.0/locale/en.yml',
 	],
+	'shebaoting-rss' => [
+		'tag' => 'https://raw.githubusercontent.com/shebaoting/rss/0.3.1/locale/en.yml',
+	],
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.3.0.1/locale/en.yml',
 	],
