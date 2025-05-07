@@ -1310,6 +1310,9 @@ return [
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.3.0.1/locale/en.yml',
 	],
+	'subasteve-action-log' => [
+		'tag' => 'https://raw.githubusercontent.com/subasteve/flarum-action-log/v0.1.5/resources/locale/en.yml',
+	],
 	'swaggymacro-only-starter' => [
 		'tag' => 'https://raw.githubusercontent.com/SwaggyMacro/OnlyStarter/0.6.6/resources/locale/en.yml',
 	],
