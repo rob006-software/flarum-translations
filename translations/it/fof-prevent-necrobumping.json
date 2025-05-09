@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "Questa discussione è più vecchia di <b> {time} </b>.",
                     "description": "È molto probabile che non abbia bisogno di ulteriori risposte e quindi un up non servirebbe a nulla.",
+                    "cta": "",
+                    "cta_button": "",
                     "checkbox_label": "Sono consapevole che questa discussione è piuttosto vecchia, ma vorrei comunque rispondere.",
                     "error": "Questa discussione è troppo vecchia per rispondere."
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
                 "days_label": "Giorni",
                 "days_help": "Una discussione verrà contrassegnata come vecchia quando il numero di giorni specificato è trascorso dall'ultimo post di quella discussione è stato pubblicato. Usa <code> 0 </code> per disabilitarlo di default.",
                 "message_title_label": "Titolo messaggio personalizzato",

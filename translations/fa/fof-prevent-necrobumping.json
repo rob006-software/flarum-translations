@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "این بحث برای بیشتر از <b>{time}</b> قبل است.",
                     "description": "بسیار محتمل است که نیازی به بحث بیشتر نداشته باشد و بنابراین ضربه زدن به آن هیچ هدفی ندارد.",
+                    "cta": "",
+                    "cta_button": "",
                     "checkbox_label": "من می دانم که این بحث نسبتا قدیمی است، اما هنوز هم می خواهم پاسخ بدهم.",
                     "error": "این بحث برای پاسخ دادن به آن خیلی قدیمی است."
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
                 "days_label": "روزها",
                 "days_help": "",
                 "message_title_label": "",

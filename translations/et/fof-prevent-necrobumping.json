@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "See vestlus on rohkem kui <b>{time}</b> vana.",
                     "description": "Võimalik, et edasine vestlus pole enam vajalik ning see teema taaselustamine ei ole vajalik.",
+                    "cta": "",
+                    "cta_button": "",
                     "checkbox_label": "Olen teadlik, et vestlus on vana, aga sooviksin sellele siiski vastata.",
                     "error": "See vestlus on liiga vana, et sellele vastata."
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
                 "days_label": "Päeva",
                 "days_help": "",
                 "message_title_label": "Kohandatud sõnumi pealkiri",

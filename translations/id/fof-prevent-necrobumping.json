@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "Diskusi ini berusia lebih dari <b>{time}</b>.",
                     "description": "Kemungkinan besar hal ini tidak perlu didiskusikan lebih lanjut dan dengan demikian tidak ada gunanya untuk membahasnya.",
+                    "cta": "",
+                    "cta_button": "",
                     "checkbox_label": "Saya sadar bahwa diskusi ini sudah agak lama, tetapi saya masih ingin menjawabnya.",
                     "error": "Diskusi ini sudah terlalu lama untuk dijawab."
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
                 "days_label": "Hari",
                 "days_help": "Diskusi akan ditandai sebagai sudah lama ketika jumlah hari yang ditentukan telah terlewati sejak post terakhir pada diskusi tersebut diposting. Gunakan <code>0</code> untuk menonaktifkannya secara default.",
                 "message_title_label": "Judul Pesan",

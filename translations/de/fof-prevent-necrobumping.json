@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "Diese Diskussion ist mehr als <b>{time}</b> alt.",
                     "description": "Es ist sehr wahrscheinlich, dass es keiner weiteren Diskussion bedarf und daher ist es nicht sinnvoll, die Diskussion wieder zu beleben.",
+                    "cta": "",
+                    "cta_button": "",
                     "checkbox_label": "Ich bin mir bewusst, dass diese Diskussion schon ziemlich alt ist, aber ich möchte trotzdem antworten.",
                     "error": "Diese Diskussion ist zu alt, um darauf zu antworten."
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
                 "days_label": "Tage",
                 "days_help": "Eine Diskussion wird als alt markiert, wenn die angegebene Anzahl von Tagen seit dem letzten Beitrag zu dieser Diskussion vergangen ist. Verwende <code>0</code>, um dies standardmäßig zu deaktivieren.",
                 "message_title_label": "Benutzerdefinierte Nachricht Titel",
