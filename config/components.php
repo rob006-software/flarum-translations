@@ -1302,7 +1302,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarum-hideprofile/0.0.6/resources/locale/en.yml',
 	],
 	'shebaoting-dependency-collector' => [
-		'tag' => 'https://raw.githubusercontent.com/shebaoting/dependency-collector/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/shebaoting/dependency-collector/v1.2.3/locale/en.yml',
 	],
 	'shebaoting-money' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/money/v0.8.0/locale/en.yml',
