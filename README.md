@@ -1193,6 +1193,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sas_sam-regrole`](https://weblate.rob006.net/projects/flarum/sas_sam-regrole) | [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole) |
 | [`serakoi-hideprofile`](https://weblate.rob006.net/projects/flarum/serakoi-hideprofile) | [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile) |
 | [`serakoi-flarumstaffbadge`](https://weblate.rob006.net/projects/flarum/serakoi-flarumstaffbadge) | [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge) |
+| [`shebaoting-dependency-collector`](https://weblate.rob006.net/projects/flarum/shebaoting-dependency-collector) | [`shebaoting/dependency-collector`](https://github.com/shebaoting/dependency-collector) |
 | [`shebaoting-money`](https://weblate.rob006.net/projects/flarum/shebaoting-money) | [`shebaoting/money`](https://github.com/shebaoting/money) |
 | [`shebaoting-repost`](https://weblate.rob006.net/projects/flarum/shebaoting-repost) | [`shebaoting/repost`](https://github.com/shebaoting/Repost) |
 | [`spookygames-auth-keycloak`](https://weblate.rob006.net/projects/flarum/spookygames-auth-keycloak) | [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak) |
