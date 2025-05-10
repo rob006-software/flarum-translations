@@ -208,6 +208,7 @@ return [
 		'!nodeloc-dislikes',
 		'!nodeloc-lottery',
 		'!nodeloc-whisper',
+		'!shebaoting-dependency-collector',
 		'!shebaoting-money',
 		'!shebaoting-repost',
 		'!tohsakarat-post-camera',
