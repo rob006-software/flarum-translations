@@ -1275,7 +1275,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Anexsoft/peruguitar-flarum-ext-user-portrait/1.0.4/locale/en.yml',
 	],
 	'piwind-more-bbcode' => [
-		'tag' => 'https://raw.githubusercontent.com/piwind/flarum-more-bbcode/v2.1.9/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/piwind/flarum-more-bbcode/v2.2.1/resources/locale/en.yml',
 	],
 	'ralkage-hcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.0.0/resources/locale/en.yml',
