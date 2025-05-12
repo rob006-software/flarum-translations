@@ -5,8 +5,8 @@
                 "warning": {
                     "title": "Bu tartışma <b>{time}</b>'den eski.",
                     "description": "Bu tartışma oldukça eskimiş ve muhtemelen daha fazla tartışılmaya uygun değil.",
-                    "cta": "",
-                    "cta_button": "",
+                    "cta": "Yeni bir tartışma başlatmak ister misiniz?",
+                    "cta_button": "=> core.ref.start_a_discussion",
                     "checkbox_label": "Bu tartışmanın oldukça eski olduğunu ancak yine de yanıt vermek istediğimi onaylıyorum.",
                     "error": "Bu tartışma yanıtlayamayacağınız kadar eski."
                 }
@@ -14,8 +14,8 @@
         },
         "admin": {
             "settings": {
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
+                "show_discussion_cta_label": "Eylem Çağrısını Göster",
+                "show_discussion_cta_help": "Belirlenen süreden daha eski tartışmalara yanıt verilirken, özel bir açıklama tanımlanmadıysa; kullanıcıya eylem çağrısını göster.",
                 "days_label": "Gün",
                 "days_help": "Bir tartışma, söz konusu tartışmadaki son gönderiden bu yana belirtilen gün sayısı geçtiğinde eski olarak işaretlenir. Varsayılan olarak etkisizleştirmek için <code>0</code> değerini kullanın.",
                 "message_title_label": "Özel Mesaj Başlığı",
