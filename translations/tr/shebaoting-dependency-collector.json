@@ -50,10 +50,10 @@
                 "approved_at": "Onaylanma Tarihi",
                 "tags": "Etiketler",
                 "tag_name": "İsim",
-                "tag_slug": "Kısa Ad",
+                "tag_slug": "Adres Kısa Adı",
                 "tag_color_icon": "Renk ve Simge",
                 "tag_item_count": "Öğeler",
-                "actions": "İşlemler",
+                "actions": "Eylemler",
                 "tag_color": "Renk",
                 "tag_icon": "Simge"
             },
@@ -66,17 +66,17 @@
                 "approve": "Bağımlılığı onayla",
                 "reject": "Bağımlılığı reddet",
                 "delete": "Bağımlılığı sil",
-                "delete_tag": "Etiket \"{name}\" silinsin mi? Bu işlem, etiketi tüm ilişkili bağımlılıklardan kaldırır."
+                "delete_tag": "\"{name}\" etiketi silinsin mi? Bu işlem, etiketi tüm ilişkili bağımlılıklardan kaldırır."
             },
             "modal": {
-                "edit_tag_title": "Etiketi Düzenle - {name}",
+                "edit_tag_title": "{name} - Etiketi Düzenle",
                 "create_tag_title": "Yeni Etiket Oluştur",
                 "tag_name_label": "İsim",
-                "tag_slug_label": "Kısa Ad",
+                "tag_slug_label": "Adres Kısa Adı",
                 "tag_description_label": "Açıklama (İsteğe Bağlı)",
                 "tag_color_label": "Renk (örneğin,",
                 "tag_icon_label": "Simge (örneğin, fas fa-code)",
-                "tag_icon_help": "<a>Font Awesome</a> üzerinden simgelere göz atın."
+                "tag_icon_help": "<a>Font Awesome</a>'da simgelere göz atın."
             },
             "permissions": {
                 "submit_label": "Bağımlılık gönder",
