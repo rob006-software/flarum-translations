@@ -1,89 +1,89 @@
 {
     "shebaoting-dependency-collector": {
         "forum": {
-            "nav_title": "",
+            "nav_title": "Bağımlılıklar",
             "list": {
-                "submit_button": "",
-                "filter_by_tag": "",
-                "all_tags": "",
-                "empty_text": "",
-                "my_favorites_button": ""
+                "submit_button": "Bağımlılık Gönder",
+                "filter_by_tag": "Etikete Göre Filtrele",
+                "all_tags": "Tümü",
+                "empty_text": "Hiç bağımlılık bulunamadı.",
+                "my_favorites_button": "Favorilerim"
             },
             "item": {
-                "pending_approval": "",
-                "delete_button_label": "",
-                "delete_confirmation_title": "",
-                "delete_confirmation_text": "",
-                "favorite_button_label": "",
-                "unfavorite_button_label": ""
+                "pending_approval": "Onay Bekliyor",
+                "delete_button_label": "Sil",
+                "delete_confirmation_title": "Bağımlılığı Sil",
+                "delete_confirmation_text": "Bu bağımlılığı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+                "favorite_button_label": "Favorilere Ekle",
+                "unfavorite_button_label": "Favorilerden Kaldır"
             },
             "modal": {
-                "submit_title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "link_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "tags_label": "",
-                "tags_help": "",
-                "submit_button": ""
+                "submit_title": "Yeni Bağımlılık Gönder",
+                "title_label": "Başlık",
+                "title_placeholder": "örneğin, Awesome Library",
+                "link_label": "Bağlantı",
+                "description_label": "Açıklama",
+                "description_placeholder": "Bu bağımlılığın ne işe yaradığını kısaca özetleyin.",
+                "tags_label": "Eklenti Etiketleri",
+                "tags_help": "En az bir ilgili etiket seçin.",
+                "submit_button": "Gönder"
             }
         },
         "admin": {
             "nav": {
-                "title": "",
-                "description": ""
+                "title": "Bağımlılık Toplayıcı",
+                "description": "Gönderilen bağımlılıkları ve eklenti etiketlerini yönetin."
             },
             "page": {
-                "pending_items_title": "",
-                "no_pending_items": "",
-                "approved_items_title": "",
-                "no_approved_items": "",
-                "manage_tags_title": "",
-                "no_plugin_tags": ""
+                "pending_items_title": "İncelenmesi Gereken Bağımlılıklar",
+                "no_pending_items": "İncelenmek üzere bekleyen bağımlılık yok.",
+                "approved_items_title": "Onaylanmış Bağımlılıklar",
+                "no_approved_items": "Henüz onaylanmış bağımlılık yok.",
+                "manage_tags_title": "Eklenti Etiketlerini Yönet",
+                "no_plugin_tags": "Henüz eklenti etiketi oluşturulmamış."
             },
             "table": {
-                "title": "",
-                "submitted_by": "",
-                "submitted_at": "",
-                "approved_by": "",
-                "approved_at": "",
-                "tags": "",
-                "tag_name": "",
-                "tag_slug": "",
-                "tag_color_icon": "",
-                "tag_item_count": "",
-                "actions": "",
-                "tag_color": "",
-                "tag_icon": ""
+                "title": "Başlık",
+                "submitted_by": "Gönderen",
+                "submitted_at": "Gönderilme Tarihi",
+                "approved_by": "Onaylayan",
+                "approved_at": "Onaylanma Tarihi",
+                "tags": "Etiketler",
+                "tag_name": "İsim",
+                "tag_slug": "Kısa Ad",
+                "tag_color_icon": "Renk ve Simge",
+                "tag_item_count": "Öğeler",
+                "actions": "İşlemler",
+                "tag_color": "Renk",
+                "tag_icon": "Simge"
             },
             "actions": {
-                "create_tag": "",
-                "approve": "",
-                "reject": ""
+                "create_tag": "Etiket Oluştur",
+                "approve": "Onayla",
+                "reject": "Reddet"
             },
             "confirm": {
-                "approve": "",
-                "reject": "",
-                "delete": "",
-                "delete_tag": ""
+                "approve": "Bağımlılığı onayla",
+                "reject": "Bağımlılığı reddet",
+                "delete": "Bağımlılığı sil",
+                "delete_tag": "Etiket \"{name}\" silinsin mi? Bu işlem, etiketi tüm ilişkili bağımlılıklardan kaldırır."
             },
             "modal": {
-                "edit_tag_title": "",
-                "create_tag_title": "",
-                "tag_name_label": "",
-                "tag_slug_label": "",
-                "tag_description_label": "",
-                "tag_color_label": "",
-                "tag_icon_label": "",
-                "tag_icon_help": ""
+                "edit_tag_title": "Etiketi Düzenle - {name}",
+                "create_tag_title": "Yeni Etiket Oluştur",
+                "tag_name_label": "İsim",
+                "tag_slug_label": "Kısa Ad",
+                "tag_description_label": "Açıklama (İsteğe Bağlı)",
+                "tag_color_label": "Renk (örneğin,",
+                "tag_icon_label": "Simge (örneğin, fas fa-code)",
+                "tag_icon_help": "<a>Font Awesome</a> üzerinden simgelere göz atın."
             },
             "permissions": {
-                "submit_label": "",
-                "moderate_label": "",
-                "manage_tags_label": "",
-                "delete_label": "",
-                "favorite_items_label": ""
+                "submit_label": "Bağımlılık gönder",
+                "moderate_label": "Bağımlılıkları denetle (onayla, reddet, düzenle, sil)",
+                "manage_tags_label": "Eklenti etiketlerini yönet",
+                "delete_label": "Bağımlılıkları sil",
+                "favorite_items_label": "Bağımlılıkları favorile"
             }
         }
     }
