@@ -2,47 +2,47 @@
     "fof-horizon": {
         "admin": {
             "settings": {
-                "trim_title": "",
+                "trim_title": "Verwijder instellingen",
                 "trim_help": "",
-                "trim_recent": "",
+                "trim_recent": "Recente opdrachten verwijderen",
                 "trim_recent_help": "",
-                "trim_pending": "",
+                "trim_pending": "Afwachtende opdrachten verwijderen",
                 "trim_pending_help": "",
-                "trim_completed": "",
+                "trim_completed": "Voltooide opdrachten verwijderen",
                 "trim_completed_help": "",
-                "trim_recent_failed": "",
+                "trim_recent_failed": "Recent gefaalde opdrachten verwijderen",
                 "trim_recent_failed_help": "",
-                "trim_failed": "",
+                "trim_failed": "Mislukte opdrachten verwijderen",
                 "trim_failed_help": "",
-                "trim_monitored": "",
+                "trim_monitored": "Gemonitorde opdrachten verwijderen",
                 "trim_monitored_help": ""
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
+                "auto_refresh": "Automatisch vernieuwen",
+                "heading": "Overzicht wachtrijen",
+                "full_dashboard": "Horizon Dashboard",
+                "refresh": "Vernieuw",
                 "data": {
                     "redis-used-memory": "",
                     "redis-peak-memory": "",
                     "redis-max-memory": "",
                     "redis-memory-policy": "",
                     "redis-memory-policy-tooltip": "",
-                    "redis-ops-per-sec": "",
-                    "redis-connected-clients": "",
-                    "redis-blocked-clients": "",
-                    "jobs-per-minute": "",
-                    "jobs-past-hour": "",
-                    "failed-last-seconds": "",
+                    "redis-ops-per-sec": "Operaties per seconde",
+                    "redis-connected-clients": "Verbonden clients",
+                    "redis-blocked-clients": "Geblokkeerde clients",
+                    "jobs-per-minute": "Opdrachten per minuut",
+                    "jobs-past-hour": "Opdrachten afgelopen uur",
+                    "failed-last-seconds": "Gefaalde opdrachten afgelopen paar seconden",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Status",
+                        "running": "Draaiend",
+                        "inactive": "Inactief"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-runtime": "",
-                    "max-throughput": ""
+                    "total-processes": "Totaal aantal processen",
+                    "max-wait-time": "Maximale wachttijd",
+                    "max-runtime": "Maximale looptijd",
+                    "max-throughput": "Maximale doorvoer"
                 }
             }
         }
