@@ -2,57 +2,57 @@
     "flarum-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "GDPR gegevensoverzicht",
+                "description": "Status van verschillende GDPR acties en integraties",
                 "data_types": {
-                    "title": "",
-                    "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "title": "Gegevenstypen",
+                    "help_text": "Dit zijn de momenteel geregistreerde gegevenstypes. Elk type wordt opgesomd samen met de bijbehorende export-, anonimiserings- en verwijderingsacties. Als een extensie gegevens verwerkt die onder de GDPR-regelgeving vallen, moet deze zijn gegevenstypen registreren bij <code>flarum/gdpr</code>.\nGegevens die zijn opgeslagen in de <code>user</code> tabel worden apart behandeld, bekijk de gegevens uit de gebruikerstabel hieronder.\n",
+                    "type": "Type",
+                    "export_description": "Exporteer Actie",
+                    "anonymize_description": "Anonimiseer Actie",
+                    "delete_description": "Verwijder Actie",
+                    "extension": "Extensie"
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
-                    "extension_settings_button": ""
+                    "heading": "AVG (GDPR) Instellingen",
+                    "help_text": "Op zoek naar de AVG/GDPR instellingen? Deze kun je vinden op de extensiepagina.",
+                    "extension_settings_button": "GDPR Instellingen"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Gebruikerstabel gegevens",
+                    "help_text": "In de meeste gevallen worden kolommen die zijn toegevoegd aan de <code>user</code> tabel automatisch afgehandeld, zowel voor het exporteren van gegevens als voor het wissen.\nEr zijn echter enkele speciale gevallen, die hieronder worden opgesomd.\n"
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "GDPR Integraties"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "process_erasure": "Verwerk wisverzoeken",
+                "process_export_for_others": "Gegevensexports voor andere gebruikers aanvragen en ontvangen",
+                "see_anonymized_user_badges": "Bekijk geanonimiseerde gebruikersbadges"
             },
             "settings": {
-                "allow_anonymization": "",
-                "allow_anonymization_help": "",
-                "allow_deletion": "",
-                "allow_deletion_help": "",
-                "default_anonymous_username": "",
-                "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "",
+                "allow_anonymization": "Anonimiseren toestaan voor wisverzoeken",
+                "allow_anonymization_help": "De standaardoptie en aanbevolen voor de meeste gemeenschappen. In deze modus worden berichten/commentaren zoveel mogelijk behouden, zoals toegestaan door de AVG/GDPR, maar alle gebruiker identificeerbare informatie wordt verwijderd.",
+                "allow_deletion": "Verwijderen toestaan voor wisverzoeken",
+                "allow_deletion_help": "Een veel striktere optie. In deze modus worden alle berichten/commentaren verwijderd en de gebruiker wordt verwijderd uit de database. Met voorzichtigheid gebruiken.",
+                "default_anonymous_username": "Standaardgebruikersnaam voor geanonimiseerde gebruikers",
+                "default_anonymous_username_help": "Wanneer een gebruiker wordt geanonimiseerd, wordt zijn gebruikersnaam vervangen door deze waarde, plus de ID van het anonimiseringsverzoek, bijvoorbeeld <code>Anoniem123</code>.",
+                "default_erasure": "Standaardactie voor wisverzoeken",
+                "default_erasure_help": "Wat moet de standaardactie zijn voor wisverzoeken?",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "Anonimisering",
+                    "deletion": "Verwijderen"
                 },
                 "gdpr_page": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Gegevensintegratie en acties",
+                    "help_text": "Voordat je beslist welke acties je op je forum wilt gebruiken, is het essentieel om te begrijpen welke gegevens worden geïntegreerd en hoe deze worden verwerkt voor zowel anonimisering als verwijdering. Bezoek het GDPR-overzicht om te begrijpen hoe gegevens worden verwerkt en welke optionele extensies hun gegevens hebben geregistreerd voor verwerking door deze extensie."
                 }
             },
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "export": ""
+                        "export": "Exporteer gegevens voor {username}"
                     }
                 }
             }
@@ -60,112 +60,112 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Verwijdert de avatar van de gebruiker van het bestandssysteem.",
+                    "export_description": "Haalt de avatar van de gebruiker op van het bestandssysteem en voegt deze toe aan de export."
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "Exporteert alle discussies die de gebruiker is gestart. Gegevens zijn beperkt tot de titel en aanmaakdatum."
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "Exporteert de forumtitel, url, gebruikersnaam, e-mail en de huidige datum."
                 },
-                "no_action": "",
+                "no_action": "Geen actie ondernomen.",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Verwijdert het IP adres van alle berichten die gebruiker heeft gemaakt.",
+                    "delete_description": "Verwijdert alle berichten die de gebruiker heeft gemaakt.",
+                    "export_description": "Exporteert alle berichten die de gebruiker heeft gemaakt. Gegevens zijn beperkt tot de content, aanmaakdatum, IP adres en discussie ID."
                 },
                 "tokens": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Verwijderd alle tokens die de gebruiker heeft aangemaakt.",
+                    "export_description": "Exporteert alle tokens die de gebruiker heeft aangemaakt. Gegevens zijn beperkt tot aanmaakdatum en token type."
                 },
                 "user": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Leegt alle kolommen in de gebruikerstabel. Kolommen die niet geleegd kunnen worden zullen op hun standaardwaarde worden gezet of op speciale waarden. Wachtwoord wordt veranderd, voorkeursinstellingen worden teruggezet naar de standaardwaarden en alle groepen worden verwijderd.",
+                    "delete_description": "Verwijdert de gebruiker van de database.",
+                    "export_description": "Exporteert gegevens van de gebruikerstabel. Alle kolommen, behalve het ID en wachtwoord."
                 }
             },
             "request_data": {
-                "title": "",
-                "text": "",
-                "request_button": ""
+                "title": "Gegevens opvragen voor {username}",
+                "text": "Er wordt een zipbestand voor je klaargemaakt. Zodra deze klaar is zul je een notificatie ontvangen met een downloadlink. De link blijft één dag actief.\n",
+                "request_button": "Aanvragenarchief"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
-                "body": ""
+                "subject": "Bevestig je account wisverzoek",
+                "body": "Hey {display_name}!\n\nIemand (hopelijk jij) heeft een verzoek ingediend om het account `{display_name}` te wissen.\n\nVolg de link om deze actie te bevestigen, waarna je verzoek door ons team zal worden verwerkt.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Account verwijderen is voltooid",
+                    "body": "Hey {display_name},\n\nDit is een automatische en definitieve melding dat je account is verwijderd.\n"
                 },
                 "anonymization": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Accountanonimisering is voltooid",
+                    "body": "Hey {display_name},\n\nDit is een automatische en definitieve melding dat je account is geanonimiseerd.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
-                "body": ""
+                "subject": "Account wisverzoek is geannuleerd",
+                "body": "Hey {display_name},\n\nDit is een automatische melding dat je de annulering van je account verwijderingsverzoek is verwerkt.\n\nJe account zal niet worden verwijderd.\n"
             },
             "export_available": {
-                "subject": "",
-                "body": ""
+                "subject": "Gegevensexport beschikbaar",
+                "body": "Hey {display_name}!\n\nJe hebt een export aangevraagd van de accountgegevens voor {username}. Deze export is succesvol gegenereerd en is nu beschikbaar.\n\n{url}\n\nDeze export zal beschikbaar blijven tot {destroys_at}.\n"
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Geanonimiseerde gebruiker"
             },
             "delete_user": {
-                "title": "",
-                "text": "",
-                "modal_delete_button": "",
-                "delete_button": ""
+                "title": "Wis {username}'s account",
+                "text": "Weet je zeker dat je {username}'s account wilt wissen?\n\nDeze actie kan niet ongedaan worden gemaakt.\n",
+                "modal_delete_button": "Wis met de standaard actie",
+                "delete_button": "Wissen"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Er zijn geen account wisverzoeken",
+                "item_text": "{name} heeft een wisverzoek ingediend",
+                "tooltip": "Wis accountverzoeken",
+                "title": "Wis accountverzoeken"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Je hebt bevestigd dat je je account wilt laten verwijderen. Er zal binnen 30 dagen actie worden ondernomen, zoals vereist door de GDPR.",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Persoonlijke gegevens"
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "Exporteer gegevens",
+                "export_data_help": "Als je een gegevensexport aanvraagt, krijg je een downloadbare kopie van alle informatie die aan je account is gekoppeld. Dit omvat berichten, commentaar en profielgegevens.",
+                "request_erasure_button": "Wis account",
+                "request_erasure_help": "Een wisverzoek indienen zal je account en bijbehorende gegevens permanent verwijderen. Deze actie is niet onomkeerbaar. Voordat je verder gaat, zorg ervoor dat je alle content die je wilt behouden hebt opgeslagen."
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "confirm": "Weet je zeker dat je {name}'s account wilt wissen onder {mode} modus?",
+                "title": "Verwerk wisverzoek",
+                "text": "{name} heeft een account verwijderingsverzoek ingediend.",
+                "comments_label": "Commentaar (optioneel)",
+                "anonymization_button": "Anonimiseer gebruiker",
+                "deletion_button": "Verwijder gebruiker"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Wisverzoek indienen",
+                "reason": "Je hebt de volgende reden opgegeven: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Je hebt een email ontvangen om je verzoek tot het wissen van je account te bevestigen.\n",
+                    "user_confirmed": "Je hebt het verzoek tot wissen van je account bevestigd. Er zal actie worden ondernomen binnen 30 dagen zoals vereist door de GDPR.\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "Na ontvangst en bevestiging zal een beheerder je verzoek binnen 30 dagen beoordelen, zoals vereist door de GDPR.",
+                "password_label": "Bevestig wachtwoord",
+                "reason_label": "Reden (optioneel)",
+                "cancel_button": "Annuleer verzoek",
+                "request_button": "Wisverzoek indienen"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "De gegevensexport voor {username} is nu klaar om te worden gedownload."
             },
-            "export_file": ""
+            "export_file": "Export van gebruikersgegevens voor {username} ({email}) voorbereid op {date} van {forumTitle} ({url})"
         }
     }
 }
