@@ -1139,7 +1139,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Compatible with recent Flarum">🟢</span><span title="Extension is abandoned">❗</span>
 			<a href="https://github.com/AntoineFr/flarum-ext-online" title="antoinefr/flarum-ext-online"><code>antoinefr/flarum-ext-online</code></a>
 		</td>
 		<td align="center">102<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
