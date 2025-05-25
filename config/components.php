@@ -1052,6 +1052,9 @@ return [
 	'katosdev-signature' => [
 		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/1.6/locale/en.yml',
 	],
+	'kelaspajak-range-levels' => [
+		'tag' => 'https://raw.githubusercontent.com/kelaspajak/flarum-range-levels/v3.4.0/locale/en.yml',
+	],
 	'kilowhat-audit-free' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.7.0/resources/locale/en.yml',
 	],
