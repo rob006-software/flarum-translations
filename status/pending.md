@@ -195,6 +195,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `nodeloc-referral` | [![#1364 (open)](https://img.shields.io/badge/PR-%231364-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1364) |
+There are no dead branches.
