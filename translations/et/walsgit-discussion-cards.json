@@ -1,7 +1,8 @@
 {
     "walsgit_discussion_cards": {
         "forum": {
-            "replies": "Vastuseid: {count}"
+            "replies": "Vastuseid: {count}",
+            "unreadReplies": ""
         },
         "admin": {
             "settings": {
@@ -41,6 +42,7 @@
                     "otherOptions_title": "Valikud, mis nõuavad teiste lisaprogrammide olemasolu",
                     "otherOptions_info": "Järgnevad valikud nõuavad töötamiseks teisi lisaprogramme. <strong>OLULINE: palun loe <u>kogul</u> infot iga üksiku valiku kohta ja soorita enne nende aktiveerimist nõutud sammud</strong>.",
                     "showViews_title_start": "Kui sul on lisaprogramm ",
+                    "showViews_title_or": "",
                     "showViews_title_end": " paigaldatud ja aktiveeritud, siis saad määrata järgmise (1) valiku:",
                     "viewsExtension_notInstalled": "{icon} Valiku töötamiseks on vaja see lisaprogramm paigaldada ja aktiveerida.",
                     "viewsExtension_notActivated": "{icon} Valiku töötamiseks on vaja see lisaprogramm aktiveerida.",

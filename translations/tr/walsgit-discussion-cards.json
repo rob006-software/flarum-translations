@@ -1,7 +1,8 @@
 {
     "walsgit_discussion_cards": {
         "forum": {
-            "replies": "Yanıtlar: {count}"
+            "replies": "Yanıtlar: {count}",
+            "unreadReplies": ""
         },
         "admin": {
             "settings": {
@@ -41,6 +42,7 @@
                     "otherOptions_title": "Diğer eklentiler gerektiren seçenekler",
                     "otherOptions_info": "Aşağıdaki seçeneklerin çalışması için başka eklentilerin kurulu ve etkin olması gerekecektir. <strong>ÖNEMLİ: Lütfen her bir seçenek için <u>tüm</u> bilgileri okuyun ve bunları etkinleştirmeden önce gerekli adımları uygulayın</strong>.",
                     "showViews_title_start": " ",
+                    "showViews_title_or": "",
                     "showViews_title_end": " eklentisi yüklü ve etkin olduğunda, aşağıdaki (1) seçeneği ayarlayabilirsiniz:",
                     "viewsExtension_notInstalled": "{icon} Bu ayarın çalışması için bu eklentinin yüklü ve etkin olması gerekiyor.",
                     "viewsExtension_notActivated": "{icon} Bu ayarın çalışması için bu eklentinin etkin olması gerekiyor.",
