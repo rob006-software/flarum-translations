@@ -2,13 +2,16 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": "Mise en page de conception de discussion"
+                "design_default": "Mise en page de conception de discussion",
+                "display_themes": ""
             },
             "helps": {
-                "design_default": "Sélectionner une mise en page de conception par défaut"
+                "design_default": "Sélectionner une mise en page de conception par défaut",
+                "display_themes": ""
             },
             "options": {
                 "design_options": {
+                    "none": "",
                     "sticky_note": "Note épinglée",
                     "sticky_note_tag": "Note épinglée (étiquette primaire)",
                     "sticky_note_tab": "Note épinglée (onglet primaire)",
@@ -32,7 +35,15 @@
                     "flat_border": "Bordure plate",
                     "flat_border_tag": "Bordure plate (étiquette primaire)",
                     "flat_border_tab": "Bordure plate (onglet primaire)",
-                    "flat_border_banner": "Bordure plate (bannière primaire)"
+                    "flat_border_banner": "Bordure plate (bannière primaire)",
+                    "rounded_flat": "",
+                    "rounded_flat_tag": "",
+                    "rounded_flat_tab": "",
+                    "rounded_flat_banner": "",
+                    "rounded_flat_border": "",
+                    "rounded_flat_border_tag": "",
+                    "rounded_flat_border_tab": "",
+                    "rounded_flat_border_banner": ""
                 }
             },
             "designs": {

@@ -2,13 +2,16 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": "主题帖布局"
+                "design_default": "主题帖布局",
+                "display_themes": ""
             },
             "helps": {
-                "design_default": "选择一个默认布局"
+                "design_default": "选择一个默认布局",
+                "display_themes": ""
             },
             "options": {
                 "design_options": {
+                    "none": "",
                     "sticky_note": "便笺",
                     "sticky_note_tag": "便笺（突出标签）",
                     "sticky_note_tab": "便笺（突出页签）",
@@ -32,7 +35,15 @@
                     "flat_border": "扁平描边",
                     "flat_border_tag": "扁平描边（突出标签）",
                     "flat_border_tab": "扁平描边（突出页签）",
-                    "flat_border_banner": "扁平描边（突出页脚）"
+                    "flat_border_banner": "扁平描边（突出页脚）",
+                    "rounded_flat": "",
+                    "rounded_flat_tag": "",
+                    "rounded_flat_tab": "",
+                    "rounded_flat_banner": "",
+                    "rounded_flat_border": "",
+                    "rounded_flat_border_tag": "",
+                    "rounded_flat_border_tab": "",
+                    "rounded_flat_border_banner": ""
                 }
             },
             "designs": {

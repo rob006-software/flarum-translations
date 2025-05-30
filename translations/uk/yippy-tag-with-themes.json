@@ -2,13 +2,16 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": "Макет дизайну дискусії"
+                "design_default": "Макет дизайну дискусії",
+                "display_themes": ""
             },
             "helps": {
-                "design_default": "Обрати макет дизайну за налаштуванням"
+                "design_default": "Обрати макет дизайну за налаштуванням",
+                "display_themes": ""
             },
             "options": {
                 "design_options": {
+                    "none": "",
                     "sticky_note": "Наліпка",
                     "sticky_note_tag": "Наліпка (основний тег)",
                     "sticky_note_tab": "Наліпка (основна вкладка)",
@@ -32,7 +35,15 @@
                     "flat_border": "Плоский бордюр",
                     "flat_border_tag": "Плоский бордюр (основний тег)",
                     "flat_border_tab": "Плоский бордюр (основна вкладка)",
-                    "flat_border_banner": "Плоский бордюр (основний банер)"
+                    "flat_border_banner": "Плоский бордюр (основний банер)",
+                    "rounded_flat": "",
+                    "rounded_flat_tag": "",
+                    "rounded_flat_tab": "",
+                    "rounded_flat_banner": "",
+                    "rounded_flat_border": "",
+                    "rounded_flat_border_tag": "",
+                    "rounded_flat_border_tab": "",
+                    "rounded_flat_border_banner": ""
                 }
             },
             "designs": {

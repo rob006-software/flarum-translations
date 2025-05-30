@@ -2,13 +2,16 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": "Tartışma Tasarımı Düzeni"
+                "design_default": "Tartışma Tasarımı Düzeni",
+                "display_themes": ""
             },
             "helps": {
-                "design_default": "Varsayılan bir tasarım düzeni seçin"
+                "design_default": "Varsayılan bir tasarım düzeni seçin",
+                "display_themes": ""
             },
             "options": {
                 "design_options": {
+                    "none": "",
                     "sticky_note": "Yapışkan Not",
                     "sticky_note_tag": "Yapışkan Not (Birincil Etiket)",
                     "sticky_note_tab": "Yapışkan Not (Birincil Sekme)",
@@ -32,7 +35,15 @@
                     "flat_border": "Düz Kenar",
                     "flat_border_tag": "Düz Kenar (Ana Etiket)",
                     "flat_border_tab": "Düz Kenar (Ana Sekme)",
-                    "flat_border_banner": "Düz Kenar (Ana Afiş)"
+                    "flat_border_banner": "Düz Kenar (Ana Afiş)",
+                    "rounded_flat": "",
+                    "rounded_flat_tag": "",
+                    "rounded_flat_tab": "",
+                    "rounded_flat_banner": "",
+                    "rounded_flat_border": "",
+                    "rounded_flat_border_tag": "",
+                    "rounded_flat_border_tab": "",
+                    "rounded_flat_border_banner": ""
                 }
             },
             "designs": {

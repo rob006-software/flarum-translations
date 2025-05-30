@@ -2,13 +2,16 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": "討論設計佈局"
+                "design_default": "討論設計佈局",
+                "display_themes": ""
             },
             "helps": {
-                "design_default": "選擇預設設計佈局"
+                "design_default": "選擇預設設計佈局",
+                "display_themes": ""
             },
             "options": {
                 "design_options": {
+                    "none": "",
                     "sticky_note": "便箋",
                     "sticky_note_tag": "便籤（主標籤）",
                     "sticky_note_tab": "便籤（主選項卡）",
@@ -32,7 +35,15 @@
                     "flat_border": "平框",
                     "flat_border_tag": "扁平邊框（主標籤）",
                     "flat_border_tab": "平面邊框（主選項卡）",
-                    "flat_border_banner": "平面邊框（主橫幅）"
+                    "flat_border_banner": "平面邊框（主橫幅）",
+                    "rounded_flat": "",
+                    "rounded_flat_tag": "",
+                    "rounded_flat_tab": "",
+                    "rounded_flat_banner": "",
+                    "rounded_flat_border": "",
+                    "rounded_flat_border_tag": "",
+                    "rounded_flat_border_tab": "",
+                    "rounded_flat_border_banner": ""
                 }
             },
             "designs": {

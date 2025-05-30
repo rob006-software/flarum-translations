@@ -2,13 +2,16 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": "Layout Desain Diskusi"
+                "design_default": "Layout Desain Diskusi",
+                "display_themes": ""
             },
             "helps": {
-                "design_default": "Pilih layout desain default"
+                "design_default": "Pilih layout desain default",
+                "display_themes": ""
             },
             "options": {
                 "design_options": {
+                    "none": "",
                     "sticky_note": "Sticky Note",
                     "sticky_note_tag": "Sticky Note (Tag Primer)",
                     "sticky_note_tab": "Sticky Note (Tab Primer)",
@@ -32,7 +35,15 @@
                     "flat_border": "Flat Border",
                     "flat_border_tag": "Flat Border (Tag Primer)",
                     "flat_border_tab": "Flat Border (Tab Primer)",
-                    "flat_border_banner": "Flat Border (Banner Utama)"
+                    "flat_border_banner": "Flat Border (Banner Utama)",
+                    "rounded_flat": "",
+                    "rounded_flat_tag": "",
+                    "rounded_flat_tab": "",
+                    "rounded_flat_banner": "",
+                    "rounded_flat_border": "",
+                    "rounded_flat_border_tag": "",
+                    "rounded_flat_border_tab": "",
+                    "rounded_flat_border_banner": ""
                 }
             },
             "designs": {

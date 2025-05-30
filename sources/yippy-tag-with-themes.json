@@ -2,13 +2,16 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": "Discussion Design Layout"
+                "design_default": "Discussion Design Layout",
+                "display_themes": "Enable Tag for Themes Permission"
             },
             "helps": {
-                "design_default": "Select a default design layout"
+                "design_default": "Select a default design layout",
+                "display_themes": "Only allow themes for specific groups"
             },
             "options": {
                 "design_options": {
+                    "none": "None",
                     "sticky_note": "Sticky Note",
                     "sticky_note_tag": "Sticky Note (Primary Tag)",
                     "sticky_note_tab": "Sticky Note (Primary Tab)",
@@ -32,7 +35,15 @@
                     "flat_border": "Flat Border",
                     "flat_border_tag": "Flat Border (Primary Tag)",
                     "flat_border_tab": "Flat Border (Primary Tab)",
-                    "flat_border_banner": "Flat Border (Primary Banner)"
+                    "flat_border_banner": "Flat Border (Primary Banner)",
+                    "rounded_flat": "Rounded Flat",
+                    "rounded_flat_tag": "Rounded Flat (Primary Tag)",
+                    "rounded_flat_tab": "Rounded Flat (Primary Tab)",
+                    "rounded_flat_banner": "Rounded Flat (Primary Banner)",
+                    "rounded_flat_border": "Rounded Flat Border",
+                    "rounded_flat_border_tag": "Rounded Flat Border (Primary Tag)",
+                    "rounded_flat_border_tab": "Rounded Flat Border (Primary Tab)",
+                    "rounded_flat_border_banner": "Rounded Flat Border (Primary Banner)"
                 }
             },
             "designs": {
