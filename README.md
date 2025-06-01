@@ -1289,6 +1289,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`maicol07-oidc-client`](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client) | [`maicol07/flarum-oidc-client`](https://flarum.org/extension/maicol07/flarum-oidc-client) |
 | [`ordinaryjellyfish-automod`](https://weblate.rob006.net/projects/flarum/ordinaryjellyfish-automod) | [`ordinaryjellyfish/automod`](https://flarum.org/extension/ordinaryjellyfish/automod) |
 | [`v17development-support`](https://weblate.rob006.net/projects/flarum/v17development-support) | [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support) |
+| [`xypp-pay-cccyun`](https://weblate.rob006.net/projects/flarum/xypp-pay-cccyun) | [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun) |
 | [`ziiven-decoration-store`](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store) | [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store) |
 | [`ziiven-pay-to-see`](https://weblate.rob006.net/projects/flarum/ziiven-pay-to-see) | [`ziiven/flarum-pay-to-see`](https://flarum.org/extension/ziiven/flarum-pay-to-see) |
 
