@@ -1089,7 +1089,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/whisper/0.1.4/resources/locale/en.yml',
 	],
 	'leonmmcoset-scratch-ifream' => [
-		'tag' => 'https://raw.githubusercontent.com/Leonmmcoset/scratch-ifream/0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Leonmmcoset/scratch-ifream/1.0/locale/en.yml',
 	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
