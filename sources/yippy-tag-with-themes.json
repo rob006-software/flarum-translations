@@ -50,7 +50,11 @@
                 "title": "Customised Design Theme for Tags",
                 "description": "Provide a list of rules for displaying different themes for specific tags",
                 "add": "Add Design for Tags",
-                "banner": "Design Theme {index}",
+                "banner": "Design Theme {index} - [{isEnabled}]",
+                "is_enabled": {
+                    "enabled": "Enable",
+                    "disabled": "Disabled"
+                },
                 "header": {
                     "theme": "Custom Theme",
                     "color_theme": "Customise Default Color Scheme"
