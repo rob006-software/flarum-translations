@@ -38,6 +38,10 @@
                     "description": "Tüm kullanılabilir LDAP alanlarını girin, böylece Flarum girişi için kullanabilir",
                     "add": "Alan Ekle",
                     "banner": "Alan {index}",
+                    "is_enabled": {
+                        "enabled": "",
+                        "disabled": ""
+                    },
                     "header": {
                         "server": "LDAP Sunucu Ayarları",
                         "admin": "LDAP Yöneticisi",
@@ -70,7 +74,8 @@
                         "user_mail": "E-posta alanını ata",
                         "user_mail_help": "Kullanıcıların kayıt sırasında kendi e-postalarını ayarlamalarına izin vermek için boş bırakın",
                         "user_nickname_fields": "Alanlarla Takma Ad Ata",
-                        "user_nickname_fields_help": "Takma ad (Nickname) uzantısı etkinleştirilmelidir, açılır menü seçeneklerini kullanarak Takma Adı birden çok LDAP alanı ile derleyin. Örneğin, \"givenname,sn\" seçimi \"[Ad] [Soyad]\"ı takma adları olarak atayacaktır"
+                        "user_nickname_fields_help": "Takma ad (Nickname) uzantısı etkinleştirilmelidir, açılır menü seçeneklerini kullanarak Takma Adı birden çok LDAP alanı ile derleyin. Örneğin, \"givenname,sn\" seçimi \"[Ad] [Soyad]\"ı takma adları olarak atayacaktır",
+                        "is_enabled": ""
                     }
                 },
                 "onlyUse": "Flarum standart giriş yöntemini gizle",

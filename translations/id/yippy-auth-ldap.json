@@ -38,6 +38,10 @@
                     "description": "Masukkan semua domain LDAP yang tersedia untuk digunakan Flarum untuk login",
                     "add": "Tambah Domain",
                     "banner": "Domain {index}",
+                    "is_enabled": {
+                        "enabled": "",
+                        "disabled": ""
+                    },
                     "header": {
                         "server": "Pengaturan Server LDAP",
                         "admin": "Admin LDAP",
@@ -70,7 +74,8 @@
                         "user_mail": "Menetapkan kolom Email",
                         "user_mail_help": "Biarkan kosong untuk mengizinkan Pengguna mengatur email mereka sendiri saat pendaftaran",
                         "user_nickname_fields": "Menetapkan Nickname dengan kolom",
-                        "user_nickname_fields_help": "Ekstensi Nickname harus diaktifkan, kompilasi Nickname dengan beberapa bidang LDAP menggunakan opsi dropdown. Misalnya memilih \"givenname,sn\" akan menetapkan \"[Nama Depan] [Nama Belakang]\" sebagai Nama Panggilan mereka"
+                        "user_nickname_fields_help": "Ekstensi Nickname harus diaktifkan, kompilasi Nickname dengan beberapa bidang LDAP menggunakan opsi dropdown. Misalnya memilih \"givenname,sn\" akan menetapkan \"[Nama Depan] [Nama Belakang]\" sebagai Nama Panggilan mereka",
+                        "is_enabled": ""
                     }
                 },
                 "onlyUse": "Sembunyikan metode login standar Flarum",

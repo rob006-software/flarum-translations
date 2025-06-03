@@ -38,6 +38,10 @@
                     "description": "",
                     "add": "Lisa domeen",
                     "banner": "Domeen {index}",
+                    "is_enabled": {
+                        "enabled": "",
+                        "disabled": ""
+                    },
                     "header": {
                         "server": "LDAP serveri seaded",
                         "admin": "LDAP admin",
@@ -70,7 +74,8 @@
                         "user_mail": "Määra e-posti väli",
                         "user_mail_help": "Jäta tühjaks, et lubada kasutajal liitumisel omaenda e-posti aadressi määrata",
                         "user_nickname_fields": "Määra hüüdnime väli",
-                        "user_nickname_fields_help": ""
+                        "user_nickname_fields_help": "",
+                        "is_enabled": ""
                     }
                 },
                 "onlyUse": "Peida tavapärane Flarumi sisselogimise viis",
