@@ -4,28 +4,28 @@
             "add_money": {
                 "button": "",
                 "title": "",
-                "amount": "",
+                "amount": "Summa",
                 "cost": "",
-                "confirm": ""
+                "confirm": "Maksa"
             },
             "history": {
                 "title": "",
-                "pay": "",
-                "status_pending": "",
-                "status_success": "",
-                "status_expired": "",
+                "pay": "Maksa",
+                "status_pending": "Ootel",
+                "status_success": "Korras",
+                "status_expired": "Aegunus",
                 "amount": "",
-                "create": "",
-                "expire": ""
+                "create": "Loo",
+                "expire": "Aegub"
             },
             "recharge-modal": {
                 "title": "",
-                "amount": "",
+                "amount": "Summa",
                 "money": "",
-                "confirm": ""
+                "confirm": "Maksa"
             },
             "pay-modal": {
-                "title": "",
+                "title": "Maksa",
                 "amount": "",
                 "tip": "",
                 "qr": "",
@@ -35,29 +35,29 @@
                 "wechat": "",
                 "open_wechat": "",
                 "back": "",
-                "done": "",
+                "done": "Valmis",
                 "invalid-amount": "",
                 "no-limit": ""
             },
-            "pay-done": "",
-            "pay-done-btn": ""
+            "pay-done": "Makse on sooritatud",
+            "pay-done-btn": "Mine ajaloo lehele"
         },
         "admin": {
             "permissions": {
                 "can-pay": ""
             },
             "settings": {
-                "pay-wxpay": "",
-                "pay-qqpay": "",
-                "pay-alipay": "",
-                "ignore_ssl": "",
+                "pay-wxpay": "Kasuta WeChat Pay-d",
+                "pay-qqpay": "Kasuta QQ Pay-d",
+                "pay-alipay": "Kasuta Alipay-d",
+                "ignore_ssl": "Ignoreeri SSL-i veateateid",
                 "money-rate": "",
-                "amount-max": "",
-                "amount-min": "",
-                "expired_minutes": "",
-                "ua-wechat": "",
-                "ua-alipay": "",
-                "ua-qq": "",
+                "amount-max": "Maksimaalne summa",
+                "amount-min": "Minimaalne summa",
+                "expired_minutes": "Aegumine (minutites)",
+                "ua-wechat": "WeChat UA",
+                "ua-alipay": "Alipay UA",
+                "ua-qq": "QQ UA",
                 "ua-mobile": "",
                 "use_proxy": "",
                 "key": "",
@@ -74,29 +74,29 @@
                 "pay-type": "",
                 "display": "",
                 "color": "",
-                "icon": ""
+                "icon": "Ikoon"
             }
         },
         "lib": {
-            "alipay": "",
-            "wxpay": "",
-            "qqpay": "",
+            "alipay": "Alipay",
+            "wxpay": "Wechat Pay",
+            "qqpay": "QQ Pay",
             "status": {
-                "pending": "",
-                "done": "",
-                "expire": ""
+                "pending": "Ootel",
+                "done": "Valmis",
+                "expire": "Aegunud"
             }
         },
         "api": {
-            "unknown_error": "",
-            "invalid_pay_type": "",
+            "unknown_error": "Tundmatu tõlrge",
+            "invalid_pay_type": "Vigane makse liik",
             "pay_type_disabled": "",
             "pay_item_name": "",
-            "payment_is_done": "",
-            "payment_is_expired": "",
-            "invalid_amount": "",
-            "verify_failed": "",
-            "unknown_pay_type": ""
+            "payment_is_done": "Makse on tehtud",
+            "payment_is_expired": "Makse on aegunud",
+            "invalid_amount": "Vigane summa",
+            "verify_failed": "Kinnitamine ebaõnnestus",
+            "unknown_pay_type": "Tundmatu makse liik"
         }
     }
 }
