@@ -1,89 +1,89 @@
 {
     "shebaoting-dependency-collector": {
         "forum": {
-            "nav_title": "",
+            "nav_title": "Sõltuvused",
             "list": {
-                "submit_button": "",
-                "filter_by_tag": "",
-                "all_tags": "",
-                "empty_text": "",
-                "my_favorites_button": ""
+                "submit_button": "Sisesta sõltuvus",
+                "filter_by_tag": "Filtreeri sildi järgi",
+                "all_tags": "Kõik",
+                "empty_text": "Ühtegi sõltuvust ei leitud.",
+                "my_favorites_button": "Minu lemmikud"
             },
             "item": {
-                "pending_approval": "",
-                "delete_button_label": "",
-                "delete_confirmation_title": "",
-                "delete_confirmation_text": "",
-                "favorite_button_label": "",
-                "unfavorite_button_label": ""
+                "pending_approval": "Ootab heakskiitu",
+                "delete_button_label": "Kustuta",
+                "delete_confirmation_title": "Kustuta sõltuvus",
+                "delete_confirmation_text": "Oled sa kindel, et soovid sõltuvuse kustutada? Seda tegevust ei saa tagasi võtta.",
+                "favorite_button_label": "Lemmik",
+                "unfavorite_button_label": "Eemalda lemmikutest"
             },
             "modal": {
-                "submit_title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "link_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "tags_label": "",
-                "tags_help": "",
-                "submit_button": ""
+                "submit_title": "Sisesta uus sõltuvus",
+                "title_label": "Pealkiri",
+                "title_placeholder": "nt. Awesome Library",
+                "link_label": "Link",
+                "description_label": "Kirjeldus",
+                "description_placeholder": "Lühike kirjeldus selle kohta, mida see sõltuvus teeb.",
+                "tags_label": "Plugina sildid",
+                "tags_help": "Vali vähemalt üks asjakohane silt.",
+                "submit_button": "OK"
             }
         },
         "admin": {
             "nav": {
-                "title": "",
-                "description": ""
+                "title": "Sõltuvuste kollekteerija",
+                "description": "Halda lisatud sõltuvusi ja plugina silte."
             },
             "page": {
-                "pending_items_title": "",
-                "no_pending_items": "",
-                "approved_items_title": "",
-                "no_approved_items": "",
-                "manage_tags_title": "",
-                "no_plugin_tags": ""
+                "pending_items_title": "Ootel sõltuvused, mis ootavad ülevaatamist",
+                "no_pending_items": "Pole ühtegi sõltuvust, mis ootaksid ülevaatamist.",
+                "approved_items_title": "Heakskiidetud sõltuvused",
+                "no_approved_items": "Praegu pole veel ühtegi heakskiidetud sõltuvust.",
+                "manage_tags_title": "Halda plugina silte",
+                "no_plugin_tags": "Plugina silte pole veel lisatud."
             },
             "table": {
-                "title": "",
-                "submitted_by": "",
-                "submitted_at": "",
-                "approved_by": "",
-                "approved_at": "",
-                "tags": "",
-                "tag_name": "",
-                "tag_slug": "",
-                "tag_color_icon": "",
-                "tag_item_count": "",
-                "actions": "",
-                "tag_color": "",
-                "tag_icon": ""
+                "title": "Pealkiri",
+                "submitted_by": "Lisas",
+                "submitted_at": "Lisatud",
+                "approved_by": "Heaks kiitis",
+                "approved_at": "Kiideti heaks",
+                "tags": "Sildid",
+                "tag_name": "Nimi",
+                "tag_slug": "Lühinimi",
+                "tag_color_icon": "Värv ja ikoon",
+                "tag_item_count": "Kirjed",
+                "actions": "Tegevused",
+                "tag_color": "Värv",
+                "tag_icon": "Ikoon"
             },
             "actions": {
-                "create_tag": "",
-                "approve": "",
-                "reject": ""
+                "create_tag": "Loo silt",
+                "approve": "Kiida heaks",
+                "reject": "Lükka tagasi"
             },
             "confirm": {
-                "approve": "",
-                "reject": "",
-                "delete": "",
-                "delete_tag": ""
+                "approve": "Kiida sõltuvus heaks",
+                "reject": "Lükka sõltuvus tagasi",
+                "delete": "Kustuta sõltuvus",
+                "delete_tag": "Kas kustutada silt \"{name}\"? See eemaldab selle kõikidest seotud sõltuvustest."
             },
             "modal": {
-                "edit_tag_title": "",
-                "create_tag_title": "",
-                "tag_name_label": "",
-                "tag_slug_label": "",
-                "tag_description_label": "",
-                "tag_color_label": "",
-                "tag_icon_label": "",
-                "tag_icon_help": ""
+                "edit_tag_title": "Muuda silti - {name}",
+                "create_tag_title": "Loo uus silt",
+                "tag_name_label": "Nimi",
+                "tag_slug_label": "Lühinimi",
+                "tag_description_label": "Kirjeldus (valikuline)",
+                "tag_color_label": "Värv (nt.,",
+                "tag_icon_label": "Ikoon (nt., fas fa-code)",
+                "tag_icon_help": "Otsi <a>Font Awesome</a> ikoone."
             },
             "permissions": {
-                "submit_label": "",
-                "moderate_label": "",
-                "manage_tags_label": "",
-                "delete_label": "",
-                "favorite_items_label": ""
+                "submit_label": "Lisa sõltuvusi",
+                "moderate_label": "Halda sõltuvusi (kiida heaks, lükka tagasi, muuda, kustuta)",
+                "manage_tags_label": "Halda plugina silte",
+                "delete_label": "Kustuta sõltuvusi",
+                "favorite_items_label": "Lemmiksõltuvused"
             }
         }
     }
