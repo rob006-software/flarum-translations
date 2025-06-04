@@ -2,7 +2,7 @@
     "walsgit_discussion_cards": {
         "forum": {
             "replies": "Balasan: {count}",
-            "unreadReplies": ""
+            "unreadReplies": "Balasan yang belum dibaca: {count}"
         },
         "admin": {
             "settings": {
@@ -29,10 +29,10 @@
                     "previewText_help": "Jika diaktifkan, akan menampilkan pesan pertama sebagai pratinjau pada kartu.",
                     "showAuthor_label": "Tampilkan penulis",
                     "showAuthor_help": "Jika diaktifkan, akan menampilkan penulis diskusi pada kartu.",
-                    "showReplies_label": "Tampilkan jumlah balasan",
-                    "showReplies_help": "Jika diaktifkan, akan menampilkan jumlah balasan pada kartu (dan avatar beberapa peserta dalam diskusi pada kartu utama).",
-                    "showRepliesOnRight_label": "Tampilkan balasan di sisi kanan judul kartu",
-                    "showRepliesOnRight_help": "Jika opsi ini diaktifkan, maka akan menempatkan jumlah balasan di sisi kanan judul kartu (non primer) pada layar besar (bukan di sisi kiri bawah gambar).",
+                    "showReplies_label": "Tampilkan jumlah balasan/balasanyang belum dibaca",
+                    "showReplies_help": "Jika diaktifkan, menunjukkan jumlah balasan (atau balasan yang belum dibaca dengan tanda * jika ada) pada kartu (dan avatar beberapa peserta dalam diskusi pada kartu utama).",
+                    "showRepliesOnRight_label": "Tampilkan jumlah balasan (atau balasan yang belum dibaca dengan * jika ada) di sisi kanan judul kartu",
+                    "showRepliesOnRight_help": "Jika opsi diaktifkan, ia menempatkan jumlah balasan (atau balasan yang belum dibaca dengan * jika ada) di sisi kanan judul kartu (bukan utama) pada layar besar (bukan di sisi kiri bawah gambar default).",
                     "showLastPostInfo_label": "Tampilkan info post terakhir",
                     "showLastPostInfo_help": "Jika opsi ini diaktifkan, maka akan ditampilkan pada kartu di bawah teks pratinjau (atau di bawah tag jika teks pratinjau tidak diaktifkan) username dari poster terakhir dari diskusi dan tanggalnya.",
                     "showBadges_label": "Tampilkan badge",
@@ -42,10 +42,10 @@
                     "otherOptions_title": "Opsi yang membutuhkan ekstensi lainnya",
                     "otherOptions_info": "Pilihan berikut akan memerlukan ekstensi lain untuk diinstal dan diaktifkan agar dapat berfungsi. <strong>PENTING: harap baca <u>semua</u> informasi untuk masing-masing opsi dan lakukan langkah-langkah yang diperlukan sebelum mengaktifkannya</strong>.",
                     "showViews_title_start": "Dengan ",
-                    "showViews_title_or": "",
+                    "showViews_title_or": " ATAU ",
                     "showViews_title_end": " ekstensi yang sudah terpasang dan diaktifkan, Anda dapat mengatur opsi (1) berikut ini:",
-                    "viewsExtension_notInstalled": "{icon} Ekstensi ini harus diinstal & diaktifkan agar pengaturan ini dapat berfungsi.",
-                    "viewsExtension_notActivated": "{icon} Ekstensi ini perlu diaktifkan agar pengaturan ini dapat berfungsi.",
+                    "viewsExtension_notInstalled": "{icon} Salah satu ekstensi ini perlu diinstal & diaktifkan agar pengaturan ini berfungsi.",
+                    "viewsExtension_notActivated": "{icon} Ekstensi Discussion Views perlu diaktifkan agar pengaturan ini berfungsi.",
                     "showViews_label": "Tampilkan tampilan",
                     "showViews_help": "Jika opsi diaktifkan, akan menampilkan jumlah tampilan pada kartu.",
                     "blogExtension_title_start": "Dengan ",
