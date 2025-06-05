@@ -127,20 +127,20 @@
                 "bbcode-image_description": "",
                 "just-url": "Enkel URL",
                 "just-url_description": "",
-                "text-preview": "",
-                "text-preview_description": ""
+                "text-preview": "Tekst voorbeeld",
+                "text-preview_description": "Voegt een voorbeeld (de eerste 5 regels) van het tekstbestand in, met de optie om uit te klappen om de volledige inhoud van het bestand weer te geven.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "awss3": "",
-                "imgur": "",
-                "local": "",
+                "aws-s3": "S3 of compatibel",
+                "awss3": "AWS S3",
+                "imgur": "Imgur",
+                "local": "Lokaal",
                 "ovh-svfs": "",
-                "qiniu": ""
+                "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
+                "title": "Inspecteer MIME",
+                "description": "FoF Upload gebruikt de <a>PHP Mime Detector</a> extensie voor veelgebruikte MIME types en PHP Fileinfo extensie als terugval optie.\nDe MIME waarde die wordt opgehaald door Fileinfo kan anders zijn dan die van server tot server.\n",
                 "select": "",
                 "laravel-validation": "",
                 "no-file-selected": "",
@@ -181,7 +181,7 @@
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
+                "forbidden_type": "Het uploaden van bestanden van dit type is niet toegestaan.",
                 "unsupported_type": "",
                 "could_not_detect_mime": "",
                 "max_upload_file_size_ini": "",
@@ -208,30 +208,30 @@
                 "modal_empty_desktop": "Je bestandenlijst is leeg. Klik de knop hierboven of sleep een bestand hier om een bestand te uploaden.",
                 "modal_empty_phone": "Je bestandenlijst is leeg. Tik op de knop hierboven om een bestand te uploaden.",
                 "select_file_a11y_label": "Selecteer bestand \"{fileName}\"",
-                "confirm_selection_btn": "",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Niets geselecteerd} one {Selecteer bestand} other {Selecteer bestanden}}",
                 "load_more_files_btn": "Meer bestanden laden",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "delete_file_a11y_label": "Verwijder bestand \"{fileName}\"",
+                "delete_confirmation": "Weet je zeker dat je \"{fileName}\" wilt verwijderen?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Verberg \"{fileName}\" van de mediabeheerder",
+                    "btn_a11y_label_show": "Geef \"{fileName}\" weer in de mediabeheerder",
+                    "hide_confirmation": "Weet je zeker dat je \"{fileName}\" wilt verbergen? Een bestand verbergen verwijdert het enkel uit je mediabeheer en blijft beschikbaar in bestaande berichten.",
+                    "hide_success": "Bestand verborgen",
+                    "show_confirmation": "Weet je zeker dat je \"{fileName}\" wilt weergeven? Een bestand weergeven maakt het zichtbaar in je mediabeheerder.",
+                    "show_success": "File zichtbaar",
+                    "hide_fail": "Kon bestand \"{fileName}\" niet verbergen",
+                    "show_fail": "Kon bestand \"{fileName}\" niet weergeven",
+                    "loading": "Bestand verbergen..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
+                    "btn_a11y_label_hide": "Maak \"{fileName}\" privé (zonder publieke URL)",
+                    "btn_a11y_label_show": "Maak \"{fileName}\" openbaar (met publieke URL)",
+                    "hide_confirmation": "Weet je zeker dat je \"{fileName}\" privé wilt maken? Als je een bestand privé maakt, wordt de openbare URL verwijderd, maar dit heeft geen invloed op bestaande berichten. Het zal ook niet langer zichtbaar zijn in de mediabeheerder voor onbevoegde gebruikers.",
                     "hide_success": "Bestand privé gemaakt",
-                    "show_confirmation": "",
-                    "show_success": "Bestand publiekelijk beschikbaar gemaakt",
+                    "show_confirmation": "Weet je zeker dat je \"{fileName}\" openbaar wilt maken? Door een bestand openbaar te maken wordt het toegankelijk voor iedereen met een publieke URL en kan iedereen het delen met behulp van de mediabeheerder.",
+                    "show_success": "Bestand openbaar beschikbaar gemaakt",
                     "hide_fail": "Kon het bestand \"{fileName}\" niet privé maken",
-                    "show_fail": "Kon het bestand \"{fileName}\" niet publiek maken",
+                    "show_fail": "Kon het bestand \"{fileName}\" niet openbaar maken",
                     "loading": "Bestand privé maken..."
                 }
             }
