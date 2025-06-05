@@ -1461,7 +1461,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v1.0.1/locale/en.yml',
 	],
 	'yippy-tag-with-themes' => [
-		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v1.0.15/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v2.0.0/locale/en.yml',
 	],
 	'ziiven-daily-check-in' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.7/locale/en.yml',
