@@ -3,155 +3,155 @@
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Algemene instellingen",
+                    "help": "Deze instellingen bepalen de basisfunctionaliteit van de Peilingen extensie."
                 },
                 "global_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Globale peilingen",
+                    "help": "Deze instellingen bepalen de globale peiling functionaliteit."
                 },
                 "image": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Afbeelding instellingen",
+                    "help": "Deze instellingen bepalen de afbeelding instellingen van peilingen."
                 },
-                "allow_option_image": "",
-                "allow_image_uploads": "",
-                "allow_image_uploads_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": "",
-                "image_height": "",
-                "image_width": ""
+                "allow_option_image": "Sta een afbeelding-URL toe voor elke peiling optie",
+                "allow_image_uploads": "Sta toe om afbeeldingen te uploaden voor peilingopties",
+                "allow_image_uploads_help": "Als dit is ingeschakeld, kunnen gebruikers afbeeldingen uploaden en een URL voor de afbeelding opgeven (als dit is ingeschakeld voor de opties, is dit altijd ingeschakeld voor de peiling zelf).",
+                "enable_global_polls": "Globale peilingen inschakelen",
+                "enable_global_polls_help": "Globale peilingen zijn niet gebonden aan een specifieke post en kan worden bezocht op een specifieke peilingspagina.",
+                "max_options": "Maximale hoeveelheid opties per peiling",
+                "options_color_blend": "Tekst kleur mengen in peilingopties",
+                "options_color_blend_help": "Gebruik deze functie om kleurmenging te gebruiken om de pollopties leesbaarder te maken. Schakel deze functie uit als deze problemen veroorzaakt met de weergave van je forum, waardoor de leesbaarheid afneemt.",
+                "image_height": "Afbeeldingshoogte aanpassen",
+                "image_width": "Afbeeldingsbreedte aanpassen"
             },
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
-                "start_global": "",
-                "self_edit": "",
-                "self_post_edit": "",
-                "upload_images": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": ""
+                "view_results_without_voting": "Bekijk resultaten zonder te stemmen",
+                "start": "Start een peiling",
+                "start_global": "Globale peiling starten",
+                "self_edit": "Bewerk gemaakte peilingen (vereist bericht bewerkrechten)",
+                "self_post_edit": "Bewerk *alle* peilingen van eigen berichten (vereist bericht bewerkrechten)",
+                "upload_images": "Gebruikers mogen afbeeldingen uploaden voor peilingen",
+                "vote": "Stemmen op peilingen",
+                "change_vote": "Stem wijzigen",
+                "moderate": "Bewerk & verwijder peilingen"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
-            "max_votes_allowed": "",
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "days_remaining": "Peiling eindigt {time}.",
+            "no_permission": "Je hebt geen toestemming om te stemmen",
+            "poll_ended": "Deze peiling is beëindigd.",
+            "public_poll": "Stemmers bekijken",
+            "max_votes_allowed": "Peiling staat toe om op {max, plural, one {# optie} other {# opties}} te stemmen.",
+            "polls_count": "{count, plural, one { {count} stem} other {{count} stemmen}}",
+            "poll_never_ends": "Peiling eindigt nooit",
+            "answers": "Antwoorden",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": "",
-                "start_poll_button": "",
-                "cannot_start_poll_button": "",
-                "total_votes": ""
+                "cannot_change_vote": "Je kunt je stem niet wijzigen nadat je hebt gestemd.",
+                "submit_button": "Stem",
+                "start_poll_button": "Start globale peiling",
+                "cannot_start_poll_button": "Kan geen peiling starten",
+                "total_votes": "{count, plural, one {# stem gegeven} other {# stemmen gegeven stemmen}}"
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Weet je zeker dat je deze peiling wilt verwijderen?",
+                "delete_success_message": "Peiling succesvol verwijdert.",
+                "delete_error_message": "Er ging iets mis tijdens het verwijderen van de peiling."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Peiling verwijderen",
+                "error": "Er was een foutmelding tijdens het opslaan van de peiling, contacteer een beheerder."
             },
             "polls_page": {
-                "title": ""
+                "title": "Peilingen"
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
+                "empty_text": "Het lijkt erop dat er nog geen community-brede peilingen zijn.",
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": "",
-                "no_permission_alert": ""
+                "add_poll": "=> fof-polls.forum.moderation.add",
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": "Je hebt geen toestemming om een peiling te starten."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Peiling toevoegen",
+                "edit_title": "Bewerk peiling",
+                "polls_manager": "Peilingbeheer",
+                "polls_preview": "Peiling bekijken",
+                "continue_editing": "Doorgaan met bewerken",
+                "success": "De peiling is succesvol opgeslagen."
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "image_option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "hide_votes_label_help": "",
-                "allow_change_vote_label": "",
-                "question_placeholder": "",
-                "subtitle_placeholder": "",
-                "submit": "",
-                "delete": "",
-                "error": "",
+                "add_title": "Peiling toevoegen",
+                "add_option_label": "Voeg een optie toe",
+                "date_placeholder": "Einddatum peiling (optioneel)",
+                "edit_title": "Bewerk peiling",
+                "include_question": "Je moet een vraag toevoegen",
+                "max": "Je kan maximaal {max} antwoorden hebben",
+                "min": "Je moet minimaal 2 antwoorden toevoegen",
+                "no_voters": "Geen stemmen",
+                "option_placeholder": "Antwoord",
+                "image_option_placeholder": "Afbeelding URL (optioneel)",
+                "options_label": "Antwoorden",
+                "public_poll_label": "Mensen laten zien wie er gestemd heeft",
+                "allow_multiple_votes_label": "Sta toe om op meerdere opties te stemmen",
+                "max_votes_label": "Maximale stemmen per gebruiker",
+                "max_votes_help": "Stel in op 0 om gebruikers op alle opties te laten stemmen.",
+                "hide_votes_label": "Verberg resultaten totdat de peiling is beëindigt",
+                "hide_votes_label_help": "De gebruiker die de peiling heeft gestart zal altijd de stemmen kunnen inzien.",
+                "allow_change_vote_label": "Gebruikers toestaan hun stem te wijzigen",
+                "question_placeholder": "Vraag",
+                "subtitle_placeholder": "Subtitel/beschrijving (optioneel)",
+                "submit": "Versturen",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
-                    "later_help": ""
+                    "label": "Peiling afbeelding",
+                    "help": "Upload een afbeelding om bij de peiling weer te geven (optioneel).",
+                    "alt_label": "Afbeelding alternatieve tekst",
+                    "alt_help_text": "Deze tekst is verplicht indien er een afbeelding is ingesteld, deze wordt namelijk weergegeven als de afbeelding niet kan worden geladen.",
+                    "later_help": "Je kan een afbeelding uploaden nadat de peiling is aangemaakt."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Afbeelding peiling antwoord",
+                    "help": "Upload een afbeelding om bij de peiling antwoord weer te geven (optioneel)."
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Antwoord toevoegen"
                     }
                 }
             },
             "moderation": {
-                "add": "",
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "add": "Peiling toevoegen",
+                "delete": "Peiling verwijderen",
+                "delete_confirm": "Weet je zeker dat je deze peiling wilt verwijderen?",
+                "edit": "Bewerk peiling"
             },
             "page": {
-                "nav": "",
-                "nav-all": ""
+                "nav": "Peilingen",
+                "nav-all": "Alle globale peilingen"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Actieve peilingen",
+                "ended-polls": "Beëindigde peilingen",
+                "no-active-polls": "Er zijn op dit moment geen actieve peilingen.",
+                "no-recent-polls": "Er zijn op dit moment geen recent beëindigde peilingen."
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Peiling",
+                "votes": "{count, plural, one {# stem} other {# stemmen}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Stemmers"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Verwijder afbeelding",
+                "upload_button": "Afbeelding uploaden"
             }
         }
     }
