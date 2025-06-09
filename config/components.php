@@ -333,7 +333,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.4.1/resources/locale/en.yml',
 	],
 	'club-1-content-permissions' => [
-		'tag' => 'https://raw.githubusercontent.com/club-1/flarum-ext-content-permissions/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/club-1/flarum-ext-content-permissions/v1.0.1/locale/en.yml',
 	],
 	'club-1-cross-references' => [
 		'tag' => 'https://raw.githubusercontent.com/club-1/flarum-ext-cross-references/v1.1.1/locale/en.yml',
