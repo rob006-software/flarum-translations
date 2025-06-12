@@ -3,15 +3,15 @@
         "admin": {
             "labels": {
                 "design_default": "Макет дизайну дискусії",
-                "display_themes": ""
+                "display_themes": "Увімкнути дозвіл на використання тегів для тем"
             },
             "helps": {
                 "design_default": "Обрати макет дизайну за налаштуванням",
-                "display_themes": ""
+                "display_themes": "Дозволяти теми лише для певних груп"
             },
             "options": {
                 "design_options": {
-                    "none": "",
+                    "none": "Жоден",
                     "sticky_note": "Наліпка",
                     "sticky_note_tag": "Наліпка (основний тег)",
                     "sticky_note_tab": "Наліпка (основна вкладка)",
@@ -36,24 +36,24 @@
                     "flat_border_tag": "Плоский бордюр (основний тег)",
                     "flat_border_tab": "Плоский бордюр (основна вкладка)",
                     "flat_border_banner": "Плоский бордюр (основний банер)",
-                    "rounded_flat": "",
-                    "rounded_flat_tag": "",
-                    "rounded_flat_tab": "",
-                    "rounded_flat_banner": "",
-                    "rounded_flat_border": "",
-                    "rounded_flat_border_tag": "",
-                    "rounded_flat_border_tab": "",
-                    "rounded_flat_border_banner": ""
+                    "rounded_flat": "Округлий плоский",
+                    "rounded_flat_tag": "Округлий плоский (первинний тег)",
+                    "rounded_flat_tab": "Округлий плоский (другорядний тег)",
+                    "rounded_flat_banner": "Округлий плоский (первинний банер)",
+                    "rounded_flat_border": "Закруглена плоска рамка",
+                    "rounded_flat_border_tag": "Закруглена плоска рамка (первинний тег)",
+                    "rounded_flat_border_tab": "Заокруглена плоска рамка (основна вкладка)",
+                    "rounded_flat_border_banner": "Заокруглена плоска рамка (основний банер)"
                 }
             },
             "designs": {
                 "title": "Індивідуальна тема дизайну для тегів",
                 "description": "Надайте список правил для відображення різних тем для певних тегів",
                 "add": "Додати дизайн для тегів",
-                "banner": "Тема дизайну {index}",
+                "banner": "Тема дизайну {index} - [{isEnabled}]",
                 "is_enabled": {
-                    "enabled": "",
-                    "disabled": ""
+                    "enabled": "Увімкнено",
+                    "disabled": "Вимкнено"
                 },
                 "header": {
                     "theme": "Спеціальна тема",
@@ -70,9 +70,9 @@
                     "outline_background_color": "Редагувати колір контуру",
                     "secondary_font_class": "Редагувати вторинний шрифт",
                     "unread_color": "Редагувати колір фону непрочитаного тексту",
-                    "opacity_background": "",
-                    "opacity_footer": "",
-                    "opacity_outline": "",
+                    "opacity_background": "Рівень непрозорості фону",
+                    "opacity_footer": "Рівень непрозорості нижнього колонтитула",
+                    "opacity_outline": "Рівень непрозорості контуру",
                     "is_enabled": "Увімкнути тему оформлення"
                 }
             }
