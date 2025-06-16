@@ -122,17 +122,17 @@
                     "group": "Надсилання запрошень для групи {group}",
                     "help": "Приймається список, розділений комами, пробілами або пробілами. Введіть окремий email або вставте список, а потім натисніть пробіл, щоб додати його/їх.",
                     "placeholder": "Вкажіть електронну пошту тут",
-                    "invalid_emails": "",
-                    "max_use_conflict": "",
+                    "invalid_emails": "Наступні адреси електронної пошти є недійсними: {emails}",
+                    "max_use_conflict": "Кількість електронних листів перевищує максимальну кількість використань для цього коду.",
                     "send": "Надіслати листи",
-                    "success": ""
+                    "success": "Електронні листи успішно відправлено"
                 }
             },
             "settings": {
-                "search": "",
-                "total_doorkeys": "",
-                "create_doorkey_button": "",
-                "optional_usage": ""
+                "search": "Пошук кодів",
+                "total_doorkeys": "Усього кодів: {count}",
+                "create_doorkey_button": "Створити код запрошення",
+                "optional_usage": "Зробіть код запрошення необов'язковим при реєстрації"
             },
             "list": {
                 "columns": {
@@ -141,20 +141,20 @@
                     "group": "=> fof-doorman.admin.ref.fields.group.label",
                     "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
                     "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "manage": "Керування",
+                    "uses": "Використання",
+                    "created_by": "Створено"
                 },
                 "content": {
                     "invalid_column": "=> core.admin.users.grid.invalid_column_content",
                     "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
-                    "warning": "",
-                    "delete": "",
+                    "warning": "Цей код запрошення було використано максимальну кількість разів.",
+                    "delete": "Ви впевнені, що хочете видалити код запрошення \"{key}\"?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {Необмежене використання} one {{remainingUses} використання} other {{remainingUses} використань}}",
+                        "total_uses": "{totalUses, plural, one {Використано разів: {totalUses}} other {Використано разів: {totalUses} }}"
                     },
-                    "no_created_by": ""
+                    "no_created_by": "Невідомий користувач"
                 },
                 "pagination": {
                     "first_page_button": "=> core.admin.users.pagination.first_page_button",
@@ -167,8 +167,8 @@
             }
         },
         "email": {
-            "subject": "",
-            "body": ""
+            "subject": "Запрошення приєднатися",
+            "body": "Привіт,\n\nВас запросили зареєструватися на {forum}.\n\nКоли ви будете готові створити свій обліковий запис, просто перейдіть за наступним посиланням і введіть код під час реєстрації:\n\nUrl: {url}\nКод запрошення: {code}\n\nЯкщо ви отримали цей лист помилково, ігноруйте його.\n"
         }
     }
 }
