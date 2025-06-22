@@ -2,39 +2,39 @@
     "clarkwinkelmann-discussion-open-position": {
         "admin": {
             "settings": {
-                "defaultOpenLastRead": "",
+                "defaultOpenLastRead": "فتح الموضوع عند اخر رد تم تم قراءته الأخير افتراضيًا",
                 "suggestFirstTime": "",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "افتح المواضيع دائمًا عند آخر رد تمت قراءتها",
+                    "unread": "افتح المواضيع فقط عند آخر مشاركة تمت قراءتها إذا كانت هناك ردود جديدة",
+                    "never": "افتح المواضيع دائمًا عند المنشور الأول"
                 }
             }
         },
         "forum": {
             "firstTimePrompt": {
-                "fromAlways": "",
-                "fromNever": "",
+                "fromAlways": "روابط المنشورات تؤدي إلى آخر منشور قرأته",
+                "fromNever": "روابط المنشورات تفتح عند أول مشاركة",
                 "openLastOptions": {
-                    "always": "",
-                    "never": ""
+                    "always": "افتح دائمًا عند آخر منشور قرأته بدلاً من ذلك",
+                    "never": "افتح دائمًا عند أول منشور بدلاً من ذلك"
                 },
-                "more": ""
+                "more": "خيارات أكثر"
             },
             "preferences": {
-                "discussionOpenLastRead": "",
+                "discussionOpenLastRead": "قائمة المواضيع",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "افتح المواضيع دائمًا عند آخر مشاركة تمت قراءتها",
+                    "unread": "افتح المواضيع فقط عند آخر مشاركة تمت قراءتها إذا كانت هناك ردود جديدة",
+                    "never": "افتح المواضيع دائمًا عند المنشور الأول"
                 }
             }
         },
         "ref": {
             "openLastOptions": {
-                "always": "",
-                "unread": "",
-                "never": ""
+                "always": "افتح المواضيع دائمًا عند آخر مشاركة تمت قراءتها",
+                "unread": "افتح المواضيع فقط عند آخر مشاركة تمت قراءتها إذا كانت هناك ردود جديدة",
+                "never": "افتح المواضيع دائمًا عند المنشور الأول"
             }
         }
     }
