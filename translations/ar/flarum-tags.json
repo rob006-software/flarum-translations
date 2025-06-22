@@ -2,7 +2,7 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "الاقسام"
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
@@ -15,11 +15,11 @@
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "الاسم اللّطيف على الرّابط",
-                "submit_button": "=> core.ref.save_changes",
+                "submit_button": "حفظ التغييرات",
                 "title": "إنشاء علامة"
             },
             "nav": {
-                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_button": "الاقسام",
                 "tags_text": "إدارة قائمة العلامات المتاحة لتنظيم المناقشات معها."
             },
             "permissions": {
@@ -44,74 +44,74 @@
                 "create_primary_tag_button": "إنشاء علامة أساسيّة",
                 "create_secondary_tag_button": "إنشاء علامة ثانويّة",
                 "edit_tag_label": "",
-                "primary_heading": "العلامات الأساسيّة",
-                "secondary_heading": "العلامات الثّانويّة",
-                "settings_heading": "الإعدادات"
+                "primary_heading": "الاقسام الرئيسية",
+                "secondary_heading": "الاقسام الثانوية",
+                "settings_heading": "الاعدادات"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "جميع العلامات",
-                "meta_title_text": "=> flarum-tags.ref.tags"
+                "meta_description_text": "كل الاقسام",
+                "meta_title_text": "الأقسام"
             },
             "choose_tags": {
-                "edit_title": "تعديل علامات {title}",
-                "title": "اختر علامات لمناقشتك",
+                "edit_title": "تعديل العلامات لـ {title}",
+                "title": "اختر قسم لموضوعك",
                 "bypass_requirements": "السّماح بتجاوز العلامة",
                 "choose_primary_placeholder": "{count, plural, one {تمّ اختيار علامة أساسيّة} other {تمّ اختيار # من العلامات الأساسيّة}}",
                 "choose_secondary_placeholder": "{count, plural, one {اختر علامة أساسية إضافيّة} other {اختر # من العلامات الأساسيّة}}",
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "اختيار علامة"
+                "choose_tags_link": "اختر قسم"
             },
             "discussion_controls": {
-                "edit_tags_button": "تعديل العلامات"
+                "edit_tags_button": "عدل القسم"
             },
             "header": {
                 "back_to_tags_tooltip": "العودة إلى قائمة العلامات"
             },
             "index": {
-                "more_link": "المزيد من العلامات ...",
-                "tags_link": "=> flarum-tags.ref.tags",
-                "untagged_link": "بدون علامة"
+                "more_link": "المزيد...",
+                "tags_link": "الأقسام",
+                "untagged_link": "غير مُعلَمه"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "تمّت إضافة علامة {tagsAdded} وإزالة علامة {tagsRemoved} من طرف {username}.",
-                "added_tags_text": "تمّت إضافة علامة {tagsAdded} من طرف {username}.",
-                "removed_tags_text": "تمّت إزالة علامة {tagsRemoved} من طرف {username}.",
-                "tags_text": "{count, plural, one {{tags} علامة} other {{tags} علامات}}"
+                "added_and_removed_tags_text": "قام {username} بإضافة {tagsAdded} وحذف {tagsRemoved} {time}.",
+                "added_tags_text": "أضاف {username} {tagsAdded} {time}.",
+                "removed_tags_text": "قام {username} بإزالة {tags Removed} {time}.",
+                "tags_text": "{count, plural, one {وسم {tags}} other {أوسمة {tags}}}"
             },
             "tag": {
-                "meta_description_text": "جميع المناقشات تحت علامة {tag}"
+                "meta_description_text": "جميع المناقشات التي تحتوي على العلامة {tag}"
             }
         },
         "lib": {
-            "deleted_tag_text": "تمّ الحدف",
+            "deleted_tag_text": "تم الحذف",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "تجاوز متطلبات العلامات",
+                "choose_primary_placeholder": "{count, plural, one {اختر قسم} other {اختر # اقسام}}",
+                "choose_secondary_placeholder": "{count, plural, one {اختر علامة واحدة أخرى} other {اختر # علامات أخرى}}",
+                "choose_tags_placeholder": "{count, plural, one {اختر علامة واحدة أخرى} other {اختر # علامات أخرى}}",
+                "submit_button": "حسناً",
+                "title": "اختر العلامات"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "اختر العلامات",
+            "choose_tags_placeholder": "{count, plural, one {اختر علامة واحدة أخرى} other {اختر # علامات أخرى}}",
             "name": "الاسم",
-            "tags": "العلامات"
+            "tags": "الأقسام"
         },
         "validation": {
             "attributes": {
-                "name": "",
+                "name": "الاسم",
                 "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
+                "is_hidden": "مخفي",
+                "description": "الوصف",
+                "color": "اللون",
+                "tag_count_primary": "عدد الأقسام الرئيسية",
+                "tag_count_secondary": "عدد الأقسام الثانوية"
             }
         }
     }
