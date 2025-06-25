@@ -23,7 +23,9 @@
                 "options_color_blend": "Pha trộn màu văn bản trong tùy chọn thăm dò ý kiến",
                 "options_color_blend_help": "Sử dụng tính năng này để sử dụng trộn màu để làm cho các tùy chọn thăm dò dễ đọc hơn. Tắt nếu tính năng này gây ra sự cố với giao diện diễn đàn của bạn, làm giảm khả năng đọc.",
                 "image_height": "Thay đổi kích thước chiều cao hình ảnh",
-                "image_width": "Thay đổi kích thước chiều rộng hình ảnh"
+                "image_width": "Thay đổi kích thước chiều rộng hình ảnh",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Xem kết quả mà không cần bỏ phiếu",
@@ -34,7 +36,9 @@
                 "upload_images": "Cho phép người dùng tải lên hình ảnh để thăm dò ý kiến",
                 "vote": "Bình chọn cuộc thăm dò",
                 "change_vote": "Thay đổi bình chọn",
-                "moderate": "Chỉnh sửa và xóa cuộc thăm dò"
+                "moderate": "Chỉnh sửa và xóa cuộc thăm dò",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
@@ -134,7 +138,8 @@
             },
             "page": {
                 "nav": "Cuộc thăm dò",
-                "nav-all": "Tất cả các cuộc thăm dò toàn cục"
+                "nav-all": "Tất cả các cuộc thăm dò toàn cục",
+                "nav-groups": ""
             },
             "showcase": {
                 "active-polls": "Các cuộc thăm dò đang diễn ra",
@@ -152,6 +157,35 @@
             "upload_image": {
                 "remove_button": "Xóa hình ảnh",
                 "upload_button": "Tải lên hình ảnh"
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

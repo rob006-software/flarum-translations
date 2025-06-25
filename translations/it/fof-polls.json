@@ -23,7 +23,9 @@
                 "options_color_blend": "Miscelazione colori del testo nel sondaggio",
                 "options_color_blend_help": "Usare questa opzione per la miscelazione dei colori in modo da rendere i sondaggi più leggibili. Disattivare se questa funzionalità causa problemi all'aspetto del forum, riducendone la leggibilità.",
                 "image_height": "Ridimensiona altezza immagine",
-                "image_width": "Ridimensiona larghezza immagine"
+                "image_width": "Ridimensiona larghezza immagine",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Vedi risultati senza votare",
@@ -34,7 +36,9 @@
                 "upload_images": "Consentire agli utenti di caricare immagini per i sondaggi",
                 "vote": "Votare nei Sondaggi",
                 "change_vote": "Cambia voto",
-                "moderate": "Modifica e rimozione sondaggi"
+                "moderate": "Modifica e rimozione sondaggi",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
@@ -134,7 +138,8 @@
             },
             "page": {
                 "nav": "",
-                "nav-all": ""
+                "nav-all": "",
+                "nav-groups": ""
             },
             "showcase": {
                 "active-polls": "",
@@ -152,6 +157,35 @@
             "upload_image": {
                 "remove_button": "",
                 "upload_button": ""
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

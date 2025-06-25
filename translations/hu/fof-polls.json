@@ -23,7 +23,9 @@
                 "options_color_blend": "Színkeverés használata a szavazási lehetőségek szövegénél",
                 "options_color_blend_help": "Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.",
                 "image_height": "Kép magasságának átméretezése",
-                "image_width": "Kép szélességének átméretezése"
+                "image_width": "Kép szélességének átméretezése",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
@@ -34,7 +36,9 @@
                 "upload_images": "Engedélyezés, hogy a felhasználók képeket töltsenek fel a szavazásaikhoz",
                 "vote": "Részvétel a szavazásokban",
                 "change_vote": "Szavazat módosítása",
-                "moderate": "Szavazások szerkesztése és törlése"
+                "moderate": "Szavazások szerkesztése és törlése",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
@@ -134,7 +138,8 @@
             },
             "page": {
                 "nav": "Szavazások",
-                "nav-all": "Összes globális szavazás"
+                "nav-all": "Összes globális szavazás",
+                "nav-groups": ""
             },
             "showcase": {
                 "active-polls": "Aktív szavazások",
@@ -152,6 +157,35 @@
             "upload_image": {
                 "remove_button": "Kép törlése",
                 "upload_button": "Kép feltöltése"
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

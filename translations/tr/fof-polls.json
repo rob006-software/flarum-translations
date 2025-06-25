@@ -23,7 +23,9 @@
                 "options_color_blend": "Anket seçeneklerinde renk karışımı metni",
                 "options_color_blend_help": "Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın.",
                 "image_height": "Resim yüksekliğini yeniden boyutlandır",
-                "image_width": "Resim genişliğini yeniden boyutlandır"
+                "image_width": "Resim genişliğini yeniden boyutlandır",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
@@ -34,7 +36,9 @@
                 "upload_images": "Kullanıcıların anketler için resim yüklemesine izin ver",
                 "vote": "Ankete oy ver",
                 "change_vote": "Oyu değiştir",
-                "moderate": "Anketi düzenle veya sil"
+                "moderate": "Anketi düzenle veya sil",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
@@ -134,7 +138,8 @@
             },
             "page": {
                 "nav": "Anketler",
-                "nav-all": "Tüm Genel Anketler"
+                "nav-all": "Tüm Genel Anketler",
+                "nav-groups": ""
             },
             "showcase": {
                 "active-polls": "Aktif Anketler",
@@ -152,6 +157,35 @@
             "upload_image": {
                 "remove_button": "Görseli Sil",
                 "upload_button": "Görsel Yükle"
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }
