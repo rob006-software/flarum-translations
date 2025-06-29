@@ -1245,6 +1245,9 @@ return [
 	'nodeloc-whisper' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/whisper/0.0.6/resources/locale/en.yml',
 	],
+	'nhanchaukp-login-to-see' => [
+		'tag' => 'https://raw.githubusercontent.com/nhanchaukp/flarum-login2see/v0.0.5/resources/locale/en.yml',
+	],
 	'nomiscz-auth-steam' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v1.0.2/resources/locale/en.yml',
 	],
