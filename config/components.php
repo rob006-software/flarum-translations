@@ -1120,7 +1120,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/littlecxm/flarum-reply-to-see/1.0.2/resources/locale/en.yml',
 	],
 	'ltydi-canbus-settings' => [
-		'tag' => 'https://raw.githubusercontent.com/LiuTengYing/CanBus-Settings/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/LiuTengYing/CanBus-Settings/v1.0.1/resources/locale/en.yml',
 	],
 	'madeyedeer-avatar-tools' => [
 		'tag' => 'https://raw.githubusercontent.com/MadEyeDeer/avatar-tools/v0.1.1/locale/en.yml',
