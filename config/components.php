@@ -356,6 +356,9 @@ return [
 	'danirod-plausible' => [
 		'tag' => 'https://raw.githubusercontent.com/danirod/flarum-plausible/v1.1.0/locale/en.yml',
 	],
+	'cpluscc-oauth-misskey' => [
+		'tag' => 'https://raw.githubusercontent.com/cpluscc/oauth-misskey/0.0.1/locale/en.yml',
+	],
 	'datitisev-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/datitisev-backup.yml',
 	],
