@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": "قفل المحادثات"
+                "lock_discussions_label": "قفل المواضيع"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": "مغلقة"
+                "locked_tooltip": "مغلق"
             },
             "discussion_controls": {
                 "lock_button": "قفل",
-                "unlock_button": "فقح القفل"
+                "unlock_button": "فتح"
             },
             "notifications": {
-                "discussion_locked_text": "تمّ قفل المحادثة بواسطة {username}"
+                "discussion_locked_text": "{username} مقفل"
             },
             "post_stream": {
-                "discussion_locked_text": "تمّ قفل المحادثة بواسطة {username}.",
-                "discussion_unlocked_text": "تمّ فتح قفل المحادثة بواسطة {username}."
+                "discussion_locked_text": "قام {username} بإغلاق المناقشة {time}.",
+                "discussion_unlocked_text": "قام {username} بفتح المناقشة {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": "إذا قام شخص بقفل محادثة بدأتُها"
+                "notify_discussion_locked_label": "عندما يغلق شخص ما موضوعًا بدأته"
             }
         }
     }

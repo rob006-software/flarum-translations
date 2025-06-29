@@ -2,20 +2,20 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": "المنشورات المثبّتة"
+                "sticky_discussions_label": "المواضيع المثبتة"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+                "sticky_tooltip": "مثبت"
             },
             "discussion_controls": {
-                "sticky_button": "=> flarum-sticky.ref.sticky",
-                "unsticky_button": "إزالة التّثبيت"
+                "sticky_button": "تثبيت",
+                "unsticky_button": "الغاء التثبيت"
             },
             "post_stream": {
-                "discussion_stickied_text": "قام(ت) {username} بتثبيت المناقشة.",
-                "discussion_unstickied_text": "قام(ت) {username} بإزالة تثيبت المناقشة."
+                "discussion_stickied_text": "{username} قام بتثبيت المناقشة {time}.",
+                "discussion_unstickied_text": "قام {username} بإلغاء تثبيت المناقشة {time}."
             }
         },
         "ref": {

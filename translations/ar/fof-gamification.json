@@ -9,44 +9,44 @@
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "الأصوات",
+            "vote_title": "إظهار من صوت",
             "nav": {
-                "name": ""
+                "name": "التصنيفات"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "مركز",
+                "name": "مستخدم",
+                "amount": " نقاط "
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} قام بالتصويت الإيجابي لمنشورك",
+                "downvote": "{username} قام بالتصويت السلبي على منشورك",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "عندما يتم التصويت على أحد مشاركاتي"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} نقطة } other {{count} نقاط }}"
                 },
                 "rank": "",
-                "votes_link": ""
+                "votes_link": "التصويتات"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "المصوتين السلبيين:",
+                "title": "المصوتين",
+                "upvotes_label": "المصوتين الإيجابيين:"
             },
-            "mod_item": "",
+            "mod_item": "عرض التصويتات",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "لا يوجد مصوتين حتى الآن",
+                "label": "المصوتين ",
+                "label_none": "لا يوجد مصوتين"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "التصويت الإيجابي على المنشور",
+                "downvote_button": "التصويت السلبي على المنشور"
             }
         },
         "admin": {
@@ -55,17 +55,17 @@
                 "see_votes_label": "",
                 "see_voters_label": "",
                 "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "upvote_notifications": "تلقي إشعارات عند التصويت الإيجابي",
+                "downvote_notifications": "تلقي إشعارات عند التصويت السلبي"
             },
             "page": {
                 "rankings": {
                     "blocked": {
                         "placeholder": "",
-                        "title": "",
+                        "title": "المستخدمون المتجاهلون",
                         "help": ""
                     },
-                    "title": "",
+                    "title": "صفحة التصنيفات",
                     "enable": "",
                     "custom_image_1": "",
                     "custom_image_2": "",
@@ -91,7 +91,7 @@
                     "first_post_only": "",
                     "allow_self_votes": ""
                 },
-                "save_settings": "",
+                "save_settings": "حفظ الاعدادات",
                 "convert": {
                     "button": "",
                     "help": "",
@@ -110,8 +110,8 @@
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "المجموعات المعينة تلقائيًا",
+                    "help": "ستُضاف المجموعات المحددة أو تُحذف تلقائيًا عند الحاجة عند تغير عدد نقاط المستخدم. إذا أجريتَ أي تغييرات على الإعدادات، فينبغي عليك تشغيل الأمر <code>php flarum fof:gamification:assign-groups</code> لتحديث المستخدمين الحاليين. إذا كنت ترغب في حذف قاعدة وإزالة جميع المستخدمين من المجموعة، فاضبط الحد الأدنى والحد الأقصى للقيم على سلسلة نصية فارغة، ثم احفظ الإعدادات، ثم شغّل أمر سطر الأوامر. أخيرًا، يمكنك حذف القاعدة بالكامل من الإعدادات.",
                     "column": {
                         "group": "",
                         "minPoints": "",
@@ -124,10 +124,10 @@
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "أهلاً {recipient_display_name}،\n\n صوّت {actor_display_name} للتو على منشورك في {discussion_title}.\n\nشاهده هنا: {discussion_url}"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "تم التصويت على مشاركتك بواسطة {display_name}"
             }
         }
     }

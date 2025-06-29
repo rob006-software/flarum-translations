@@ -36,7 +36,7 @@
                 "enabled_tags_help": "",
                 "remind_tags_label": "",
                 "remind_tags_help": "",
-                "tags_info": "",
+                "tags_info": "عند تفعيل وسم \"أفضل إجابة\"، يُمنح صلاحيات لكل مجموعة مستخدمين يمكنها تحديد الإجابات (مناقشة خاصة، أي نقاش). يمكن منح الصلاحيات بشكل عام (لأي وسم مُفعّل)، أو لكل وسم على حدة.",
                 "solution_search": "",
                 "solution_search_help": "",
                 "remove_solutions_from_main_search": "",
@@ -52,60 +52,60 @@
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "تمت الإجابة",
+            "this_best_answer": "تحديد أفضل إجابة",
+            "remove_best_answer": "إلغاء تحديد أفضل إجابة",
+            "best_answer_button": "أفضل إجابة",
+            "best_answer_label": "تم بواسطة <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "المنشور المحدد غير موجود في هذه المناقشة."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "حدد أفضل إجابة في هذه المناقشة {username}",
+                "content": "الرجاء اختيار أفضل إجابة إذا تمت الإجابة على سؤالك",
+                "awarded": "لقد تم تعيين مشاركتك كأفضل إجابة بواسطة {username}",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": "",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "قام شخص ما بوضع مشاركتي كأفضل إجابة",
+                    "best_answer_in_discussion": "تم وضع أفضل إجابة في موضوع شاركت فيه",
+                    "select_best_answer": "تذكير تلقائي لاختيار أفضل إجابة في موضوع بدأته"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "اطرح سؤالا",
+                "cannot_ask_question": "لا يمكن طرح سؤال",
+                "solved_link": "المناقشات المحلولة",
+                "unsolved_link": "المناقشات التي لم يتم حلها"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "جميع الأسئلة",
+                "solved_label": "الأسئلة المحلولة",
+                "unsolved_label": "أسئلة لم يتم حلها",
+                "accessible_label": "الاختيار المحلول/غير المحلول"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "عنوان السؤال"
             },
             "user": {
-                "best-answer-count": ""
+                "best-answer-count": "{count, plural, one { {count} أفضل إجابة} other {{count} أفضل الإجابات}}"
             },
             "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
+                "discussions_solutions_heading": "مناقشات مع الحلول",
+                "all_discussions_solutions_button": "ابحث في جميع المناقشات التي تحتوي على حلول لـ \"{query}\""
             },
             "discussion": {
-                "jump_to_best_answer_button": ""
+                "jump_to_best_answer_button": "عرض أفضل إجابة"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "لقد تم تعيين مشاركتك كأفضل إجابة بواسطة {display_name}",
+                "ba-set": "تم تعيين أفضل إجابة بواسطة {display_name}",
+                "select": "هل تمكنت من الحصول على إجابة لسؤالك؟"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "أهلاً {recipient_display_name}،\n\n أحسنت، عيّن {actor_display_name} مشاركتك كأفضل إجابة في المناقشة: {discussion_title}. شكرًا لمساعدتك.\n\nاطلع عليها هنا: {discussion_url}",
+                "ba-set": "أهلاً {recipient_display_name}،\n\n{actor_display_name} اختار أفضل إجابة في المناقشة: {discussion_title}، التي شاركتَ فيها.\n\nانظر هنا: {discussion_url}",
+                "select": "أهلاً {recipient_display_name}،\n\nأُتابع الأمر فقط؛ من المفترض أن يكون لديك الآن الكثير من الردود على سؤالك: {discussion_title}. نأمل أن يكون أحدهم قد ساعدك في حل مشكلتك.\n\nإذا كان الأمر كذلك، فسيكون من المفيد جدًا للأعضاء المستقبليين تحديد أفضل إجابة لسؤالك. سيساعد ذلك الأشخاص الذين يواجهون نفس المشكلة في العثور على الإجابة التي يحتاجونها، كما نشكر الأعضاء الذين ساعدوك كثيرًا. إنهم يُقدمون وقتهم تطوعاً، لذا من الجيد أن تُخبرهم أنهم بخير.\n\nتفضل بزيارة المناقشة هنا: {discussion_url}، واختر المشاركة الأنسب كأفضل إجابة.\n\nشكرًا!"
             }
         }
     },

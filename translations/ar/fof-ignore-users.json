@@ -2,23 +2,23 @@
     "fof-ignore-users": {
         "admin": {
             "permissions": {
-                "can_not_be_ignored_label": ""
+                "can_not_be_ignored_label": "لا يمكن تجاهلها"
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "المستخدمون المتجاهلون",
             "profile_page": {
-                "no_ignored": ""
+                "no_ignored": "يبدو أنك لم تتجاهل أحدًا."
             },
             "user_controls": {
-                "ignore_button": "",
-                "ignore_confirmation": "",
-                "unignore_button": "",
-                "unignore_confirmation": ""
+                "ignore_button": "تجاهل",
+                "ignore_confirmation": "هل أنت متأكد أنك تريد تجاهل هذا المستخدم؟",
+                "unignore_button": "إلغاء التجاهل",
+                "unignore_confirmation": "هل أنت متأكد أنك تريد إلغاء تجاهل هذا المستخدم؟"
             },
             "badge": {
-                "user_label": "",
-                "discussion_label": ""
+                "user_label": "مستخدم متجاهل",
+                "discussion_label": "تم البدء بواسطة مستخدم متجاهل"
             }
         }
     }

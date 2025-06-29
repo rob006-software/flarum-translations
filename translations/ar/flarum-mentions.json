@@ -11,32 +11,32 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "الإشارة إلى مستخدم أو منشور",
-                "reply_to_post_text": "الرّدّ على #{number}"
+                "mention_tooltip": "اذكر مستخدمًا أو مجموعة أو منشورًا",
+                "reply_to_post_text": "الرد على #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "الردود على هذه المشاركة",
+                "load_more_button": "تحميل المزيد"
             },
             "notifications": {
-                "others_text": "=> core.ref.some_others",
-                "post_mentioned_text": "{username} ردّ(ت) على منشورك",
-                "user_mentioned_text": "{username} أشار(ت) إليك",
-                "group_mentioned_text": ""
+                "others_text": "{count, plural, one {# آخر} other {# آخرون}}",
+                "post_mentioned_text": "رد {username} على مشاركتك",
+                "user_mentioned_text": "{username} أشار إليك",
+                "group_mentioned_text": "ذكر {username} مجموعة أنت عضو فيها"
             },
             "post": {
-                "mentioned_by_more_text": "",
-                "mentioned_by_self_text": "{users} ردّ على هذا.",
-                "mentioned_by_text": "{users} ردّ(ت) على هذا.",
-                "others_text": "=> core.ref.some_others",
-                "quote_button": "اقتباس",
-                "reply_link": "=> core.ref.reply",
-                "you_text": "=> core.ref.you"
+                "mentioned_by_more_text": "{count} ردود إضافية.",
+                "mentioned_by_self_text": "رد {users} على هذا.",
+                "mentioned_by_text": "رد {users} على هذا.",
+                "others_text": "{count, plural, one {# آخر} other {# آخرون}}",
+                "quote_button": "إقتباس",
+                "reply_link": "رّد",
+                "you_text": "أنت"
             },
             "settings": {
-                "notify_post_mentioned_label": "إذا قام شخص بالرّدّ على إحدى منشوراتي",
-                "notify_user_mentioned_label": "إذا قم شخص بالإشارة إليّ في منشور",
-                "notify_group_mentioned_label": ""
+                "notify_post_mentioned_label": "رد شخص ما على إحدى مشاركاتي",
+                "notify_user_mentioned_label": "يذكرني شخص ما في منشور",
+                "notify_group_mentioned_label": "ذكر شخص ما مجموعة أنا عضو فيها في منشور"
             },
             "user": {
                 "mentions_link": "الإشارات"
@@ -45,21 +45,21 @@
                 "deleted_text": "[مجهول]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[مجموعة غير معروفة]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "{replier_display_name} ردّ(ت) على منشورك في {title}",
-                "body": "مرحبا {recipient_display_name}! \n \nلقد قام(ت) {replier_display_name} بالرّدّ على منشورك (#{post_number}) في {title}. \n \nيُمكنك الوصول إلى المناقشة بالانتقال إليها عبر الرّابط الآتي: {url} \n \n--- \n \n{content}\n"
+                "subject": "رد {replier_display_name} على منشورك في {title}",
+                "body": "أهلاً {recipient_display_name}!\n\nردّ {replier_display_name} على منشورك (#{post_number}) في {title}.\n\n{url}\n\n---\n\n{content}"
             },
             "user_mentioned": {
-                "subject": "{mentioner_display_name} أشار(ت) إليك في {title}",
-                "body": "مرحبا {recipient_display_name}! \n \n لقد قام(ت) {mentioner_display_name} بالإشارة إليك في منشور في {title}. \n \nيُمكنك الوصول إلى المنشور عن طريق الانتقال بواسطة الرّابط الآتي: {url} \n \n--- \n \n{content}\n"
+                "subject": "أشار إليك {mentioner_display_name} في {title}",
+                "body": "أهلاً {recipient_display_name}!\n\nأشار إليك {mentioner_display_name} في منشور على {title}.\n\n{url}\n\n---\n\n{content}"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "ذكر {mentioner_display_name} مجموعة أنت عضو فيها في {title}",
+                "body": "أهلاً {recipient_display_name}!\n\nأشار {mentioner_display_name} إلى مجموعة أنت عضو فيها في {title}.\n\n{url}\n\n---\n\n{content}"
             }
         }
     }

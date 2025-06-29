@@ -2,52 +2,52 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "يقوم شخص ما بإنشاء منشور في وسم او قسم أتابعه",
+                "notify_new_post_label": "ينشر شخص ما في قسم او وسم أتابعه",
+                "notify_new_discussion_tag_label": "يقوم شخص ما بإعادة تغيير الوسم او القسم على منشور في قسم أتابعه"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "تابع",
+                "unfollow_tag_button": "توقف عن المتابعة",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "المواضيع التي تمت متابعتها",
+                    "following_tags_label": "الاقسام التي تمت متابعتها"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "متابعة",
+                "lurking_tag_tooltip": "مختبئ"
             },
             "sub_controls": {
-                "header": "",
-                "subscription_label": "",
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": "",
-                "submit_button": ""
+                "header": "الاشتراك في {tagName}",
+                "subscription_label": "حدد مستوى اشتراكك لـ {tagName}",
+                "follow_button": "تابع",
+                "following_button": "متابعة",
+                "following_text": "احصل على إشعار بجميع المنشورات الجديدة.",
+                "hiding_button": "إخفاء",
+                "hiding_text": "إخفاء المواضيع من الصفحة الرئيسية.",
+                "ignoring_button": "تجاهل",
+                "ignoring_text": "لا يتم إشعارك أبدًا.",
+                "lurking_button": "مختبئ",
+                "lurking_text": "احصل على إشعار بجميع المنشورات والردود الجديدة.",
+                "not_following_button": "غير متابع",
+                "not_following_text": "احصل على إشعار فقط عند @الإشارة إليك.",
+                "notify_alert_tooltip": "احصل على إشعار عند وجود مناقشات أو منشورات جديدة",
+                "notify_email_tooltip": "احصل على بريد إلكتروني عند وجود مناقشات أو منشورات جديدة",
+                "submit_button": "تأكيد الاشتراك"
             },
             "hero": {
-                "title": ""
+                "title": "المتابعات"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "بدأ {username}",
+                "new_post_text": "{username} نشر",
+                "new_discussion_tag_text": "{username} غيّر الوسم"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "متابعة الاقسام",
+                    "filter_label": "ما الذي يجب عرضه افتراضيًا في صفحة المتابعة"
                 }
             }
         },
@@ -65,20 +65,20 @@
                 "newDiscussionTag": ""
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "أهلاً {recipient_display_name}،\n\nبدأ {actor_display_name} موضوع في وسم تتابعه: {discussion_title}\n\nلعرض الموضوع الجديد، يُرجى زيارة الرابط التالي:\n{discussion_url}\n\n---\n\n{post_content}",
+                "newPostInTag": "أهلاً {recipient_display_name}،\n\nشارك {actor_display_name} في نقاش حول وسم تتابعه: {discussion_title}\n\nلعرض النشاط الجديد، يُرجى زيارة الرابط التالي:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nلن تتلقى أي إشعارات أخرى حول هذه المناقشة حتى تُحدّثها.",
+                "newDiscussionTag": "أهلاً {recipient_display_name}،\n\nغيّر {actor_display_name} للتو وسم موضوع {author_display_name} إلى وسم تتابعه {discussion_title}.\n\nلعرض الموضوع الجديد، يُرجى زيارة الرابط التالي:\n{discussion_url}"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "تابع",
+            "following": "متابعة",
+            "hiding": "إخفاء",
+            "ignoring": "تجاهل",
+            "lurking": "مختبئ",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "المواضيع التي تمت متابعتها",
+                "tags": "الاقسام التي تمت متابعتها"
             }
         }
     },

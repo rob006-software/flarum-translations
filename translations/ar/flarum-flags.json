@@ -13,30 +13,30 @@
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "شكرا على الإبلاغ عن هذا المنشور. سيقوم مشرفونا بالاطّلاع عليه في أقرب وقت.",
-                "dismiss_button": "=> core.ref.okay",
-                "reason_details_placeholder": "تفاصيل إضافيّة (اختياري)",
-                "reason_inappropriate_label": "غير لائق",
-                "reason_inappropriate_text": "هذه المشاركة عنيفة، أو مسيئة، أو تنتهك <a>إرشادات المنتدى</a>.",
-                "reason_missing_message": "يرجى تقديم بعض التفاصيل للمشرفين لدينا.",
+                "confirmation_message": "شكرًا لك على الإبلاغ عن هذه المشاركة. سينظر المشرفون في الأمر.",
+                "dismiss_button": "حسناً",
+                "reason_details_placeholder": "تفاصيل إضافية (اختياري)",
+                "reason_inappropriate_label": "غير مناسب",
+                "reason_inappropriate_text": "هذه التدوينة مسيئة أو بذئية أو تنتهك <a>إرشادات مجتمعنا</a>.",
+                "reason_missing_message": "يرجى تقديم بعض التفاصيل للمشرفين.",
                 "reason_off_topic_label": "خارج الموضوع",
-                "reason_off_topic_text": "هذه المشاركة ليست ذات صلة بالمناقشة الحاليّة ويجب نقلها إلى مكان آخر.",
-                "reason_other_label": "آخر (يُرجى التّحديد)",
-                "reason_spam_label": "بريد عشوائي",
-                "reason_spam_text": "هذا المنشور عبارة عن إعلان.",
-                "submit_button": "=> flarum-flags.ref.flag_post",
-                "title": "=> flarum-flags.ref.flag_post"
+                "reason_off_topic_text": "هذه التدوينة لا علاقة لها بالموضوع الحالي ويجب نقلها إلى مكان آخر.",
+                "reason_other_label": "أخرى (يرجى التحديد)",
+                "reason_spam_label": "رسائل مزعجة (سبام)",
+                "reason_spam_text": "هذه التدوينة عبارة عن إعلان.",
+                "submit_button": "الإبلاغ عن المنشور",
+                "title": "الإبلاغ عن المنشور"
             },
             "flagged_posts": {
-                "empty_text": "لا توجد إبلاغات",
+                "empty_text": "لا توجد بلاغات",
                 "item_text": "{username} في <em>{discussion}</em>",
-                "title": "=> flarum-flags.ref.flagged_posts",
-                "tooltip": "=> flarum-flags.ref.flagged_posts"
+                "title": "المنشورات المبلغ عنها",
+                "tooltip": "المنشورات المبلغ عنها"
             },
             "post": {
-                "dismiss_flag_button": "حذف الإبلاغ",
-                "flagged_by_text": "تمّ الإبلاغ بواسطة {username}",
-                "flagged_by_with_reason_text": "تمّ الإبلاغ بواسطة {username} بسبب {reason}"
+                "dismiss_flag_button": "تجاهل البلاغ",
+                "flagged_by_text": "تم الإبلاغ بواسطة {username}",
+                "flagged_by_with_reason_text": "تم الإبلاغ عنه بواسطة {username} باعتباره {reason}"
             },
             "post_controls": {
                 "flag_button": "إبلاغ"
@@ -44,7 +44,7 @@
         },
         "ref": {
             "flag_post": "الإبلاغ عن المنشور",
-            "flagged_posts": "المنشورات التي تمّ الإبلاغ عنها"
+            "flagged_posts": "المشاركات المبلغ عنها"
         }
     }
 }

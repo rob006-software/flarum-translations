@@ -35,75 +35,75 @@
         },
         "forum": {
             "user_2fa": {
-                "alert_message": ""
+                "alert_message": "يجب عليك تفعيل المصادقة الثنائية لمواصلة الوصول إلى حسابك."
             },
             "security": {
-                "two_factor_heading": "",
-                "two_factor_help": "",
-                "two_factor_apps": "",
-                "two_factor_enabled": "",
-                "two_factor_disabled": "",
-                "two_factor_title": "",
-                "enable_2fa_button": "",
-                "disable_2fa_button": "",
-                "enable_2fa_modal_text": "",
-                "qr_code_alt": "",
-                "enter_token": "",
-                "verify_button": "",
-                "loading_qr": "",
-                "backup_codes": "",
-                "backup_codes_instruction": "",
-                "saved_backup_codes_button": "",
-                "backup_codes_remaining": "",
-                "two_factor_enabled_confirmation": "",
-                "ok_button": "",
-                "confirm_disable_2fa_title": "",
-                "confirm_disable_2fa_text": "",
-                "confirm_disable_2fa_text_other_user": "",
-                "change_device_heading": "",
-                "change_device_title": "",
-                "change_device_description": "",
-                "change_device_button": "",
-                "verify_current_device_message": "",
-                "enter_current_token": "",
-                "scan_new_device_qr": "",
-                "verify_new_device_message": "",
-                "enter_new_token": "",
-                "new_backup_codes": "",
-                "device_changed_confirmation": "",
-                "continue_button": "",
-                "cannot_disable": "",
-                "cannot_disable_tooltip": "",
-                "cancel_button": "",
-                "qr_tab": "",
-                "manual_tab": "",
-                "scan_qr_instruction": "",
-                "manual_entry_instruction": ""
+                "two_factor_heading": "المصادقة الثنائية",
+                "two_factor_help": "توفر المصادقة الثنائية (2FA) طبقة أمان إضافية لحسابك. بمجرد تفعيلها، سيُطلب منك، بالإضافة إلى كلمة المرور، إدخال رمز من تطبيق المصادقة عند تسجيل الدخول أو تنفيذ إجراءات أخرى. يضمن هذا بقاء حسابك آمنًا، حتى في حال اختراق كلمة المرور، إذ سيحتاج المهاجمون أيضًا إلى رمز (يتغير كل 30 ثانية) للوصول إلى حسابك.",
+                "two_factor_apps": "التطبيقات مثل {google} و{authy} و{microsoft} والمزيد متاحة مجانًا.",
+                "two_factor_enabled": "تم تفعيل المصادقة الثنائية على هذا الحساب.",
+                "two_factor_disabled": "تم تعطيل المصادقة الثنائية على هذا الحساب.",
+                "two_factor_title": "الحالة:",
+                "enable_2fa_button": "تمكين المصادقة الثنائية",
+                "disable_2fa_button": "تعطيل المصادقة الثنائية",
+                "enable_2fa_modal_text": "قم بمسح رمز الاستجابة السريعة (QR) الموجود أدناه باستخدام تطبيق المصادقة الخاص بك، ثم أدخل الرمز المقدم لتمكين المصادقة الثنائية.",
+                "qr_code_alt": "رمز الاستجابة السريعة للمصادقة الثنائية",
+                "enter_token": "أدخل الرمز",
+                "verify_button": "تأكيد",
+                "loading_qr": "جاري تحميل رمز الاستجابة السريعة...",
+                "backup_codes": "رموز النسخ الاحتياطي الخاصة بك",
+                "backup_codes_instruction": "يرجى حفظ هذه الرموز في مكان آمن. يمكنك استخدامها للوصول إلى حسابك في حال فقدان طريقة المصادقة الأساسية. لن تظهر هذه الرموز مجددًا.",
+                "saved_backup_codes_button": "لقد قمت بحفظ هذه الرموز",
+                "backup_codes_remaining": "رموز النسخ الاحتياطي المتبقية:",
+                "two_factor_enabled_confirmation": "تم تفعيل المصادقة الثنائية بنجاح لحسابك.",
+                "ok_button": "نعم",
+                "confirm_disable_2fa_title": "تأكيد تعطيل المصادقة الثنائية",
+                "confirm_disable_2fa_text": "هل أنت متأكد أنك تريد تعطيل المصادقة الثنائية؟",
+                "confirm_disable_2fa_text_other_user": "هل أنت متأكد من رغبتك في تعطيل المصادقة الثنائية لحساب {username}؟ سيؤدي هذا إلى إزالة جميع رموز النسخ الاحتياطية وتعطيل المصادقة الثنائية لحسابه.",
+                "change_device_heading": "تغيير جهاز المصادقة",
+                "change_device_title": "تغيير الجهاز",
+                "change_device_description": "نقل المصادقة الثنائية إلى جهاز جديد",
+                "change_device_button": "تغيير الجهاز",
+                "verify_current_device_message": "الرجاء إدخال رمز من جهاز المصادقة الحالي الخاص بك للتحقق من هويتك.",
+                "enter_current_token": "Enter token from current device",
+                "scan_new_device_qr": "قم بمسح رمز الاستجابة السريعة هذا باستخدام جهاز المصادقة الجديد الخاص بك.",
+                "verify_new_device_message": "الآن أدخل الرمز من جهازك الجديد لإكمال التغيير.",
+                "enter_new_token": "أدخل الرمز من الجهاز الجديد",
+                "new_backup_codes": "رموز النسخ الاحتياطي الجديدة الخاصة بك",
+                "device_changed_confirmation": "لقد تم تغيير جهاز المصادقة الخاص بك بنجاح.",
+                "continue_button": "استمرار",
+                "cannot_disable": "لا يمكنك تعطيل المصادقة الثنائية وفقًا للإعدادات الحالية.",
+                "cannot_disable_tooltip": "لا يمكن تعطيل المصادقة الثنائية",
+                "cancel_button": "إلغاء",
+                "qr_tab": "مسح رمز الاستجابة السريعة",
+                "manual_tab": "الإعداد اليدوي",
+                "scan_qr_instruction": "قم بمسح رمز الاستجابة السريعة (QR) أعلاه باستخدام تطبيق المصادقة الخاص بك، ثم أدخل الرمز المقدم لتمكين المصادقة الثنائية.",
+                "manual_entry_instruction": "أدخل الرمز المقدم في تطبيق المصادقة الخاص بك، ثم أدخل الرمز الذي تم إنشاؤه لتمكين المصادقة الثنائية."
             },
             "log_in": {
-                "two_factor_placeholder": "",
-                "two_factor_required_message": ""
+                "two_factor_placeholder": "رمز المصادقة، على سبيل المثال، 123456",
+                "two_factor_required_message": "يجب أن يكون لديك رمز مصادقة ثنائية صالح للمتابعة."
             }
         },
         "email": {
             "subject": {
-                "status_changed": ""
+                "status_changed": "المصادقة الثنائية {type} لحسابك"
             },
             "body": {
-                "status_changed": ""
+                "status_changed": "مرحباً {recipient_display_name}،\n\nتم تفعيل المصادقة الثنائية {type} لحسابك على {forum_url}.\n\nإذا كنتَ قد بدأتَ هذا الإجراء، فلا داعي لاتخاذ أي خطوات أخرى. إذا لم تُصرّح بهذا التغيير، يُرجى التواصل مع إدارة المنتدى فوراً."
             },
             "status_type": {
-                "enabled": "",
-                "disabled": ""
+                "enabled": "ممكن",
+                "disabled": "معطل"
             }
         },
         "views": {
             "reset_password": {
-                "two_factor_token_label": ""
+                "two_factor_token_label": "رمز المصادقة الثنائية"
             },
             "two_factor_token": {
-                "title": "",
-                "submit_button": ""
+                "title": "المصادقة الثنائية",
+                "submit_button": "إرسال الرمز"
             }
         }
     },
