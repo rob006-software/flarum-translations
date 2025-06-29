@@ -47,7 +47,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/afrux/online-users-widget/v0.1.9/locale/en.yml',
 	],
 	'afrux-top-posters-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/afrux/top-posters-widget/v0.1.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/afrux/top-posters-widget/v0.1.5/locale/en.yml',
 	],
 	'akr-chevereto' => [
 		'tag' => 'https://raw.githubusercontent.com/AKR-Developers/flarum-chevereto/1.0.1/resources/locale/en.yml',
