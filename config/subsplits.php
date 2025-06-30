@@ -39,7 +39,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'v0.Major.Minor',
 		],
-		'maintainers' => ['neerugupta'],
+		'maintainers' => [], // ['neerugupta'], see https://github.com/flarum-lang/arabic/pull/6#issuecomment-3020290604
 	],
 	'ast' => [
 		'type' => 'language',
