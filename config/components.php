@@ -1089,7 +1089,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/whisper/0.1.4/resources/locale/en.yml',
 	],
 	'leot-ai-support-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/LiuTengYing/AI-Support-Widget/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/LiuTengYing/AI-Support-Widget/v1.0.2/locale/en.yml',
 	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
