@@ -109,8 +109,8 @@
             "permissions": {
                 "download_label": "",
                 "upload_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": "",
+                "view_user_uploads_label": "عرض تحميلات المستخدم",
+                "delete_uploads_of_others_label": "حذف تحميلات المستخدم",
                 "upload_shared_label": "",
                 "access_shared_label": ""
             },
@@ -153,86 +153,86 @@
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "مدير الوسائط",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "upload_shared": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": "",
-                "shared_media": ""
+                "attach": "إرفاق",
+                "upload": "رفع",
+                "upload_shared": "مشترك",
+                "user_uploads": "وسائط المستخدم",
+                "cancel": "إلغاء",
+                "media": "وسائط",
+                "shared_media": "الوسائط المشتركة"
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "خطأ",
+                "loading": "جاري الرفع",
+                "unauthorized": "لا يسمح لك بتنزيل الملفات"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "لا يتم قبول التحميلات التي يزيد حجمها عن {max} كيلوبايت."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
+                "expand": "توسيع المعاينة",
+                "collapse": "إخفاء المعاينة",
+                "error": "حدث خطأ أثناء معاينة الملف. ربما تم حذفه، أو أن معرف الملف المُدخل غير صالح.",
                 "no_snippet_preview": "",
                 "no_snippet": ""
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": "",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "forbidden_type": "لا يسمح برفع ملفات من هذا النوع.",
+                "unsupported_type": "محول التحميل لا يدعم نوع MIME المقدم: {mime}.",
+                "could_not_detect_mime": "تعذر تحديد نوع MIME لهذا الملف، يُرجى إعادة المحاولة.",
+                "max_upload_file_size_ini": "تم الوصول إلى الحد الأقصى لحجم الملف المرفوع من php.ini.",
+                "max_upload_file_size_form": "تم الوصول إلى الحد الأقصى لحجم الملف المرفوع من النموذج.",
+                "partial_upload": "تحميل جزئي.",
+                "no_file_uploaded": "لم يتم تحميل أي ملف.",
+                "no_upload_tmp_folder": "لا يوجد مجلد tmp لتحميل الملفات.",
+                "cannot_write_to_disk": "لا يمكن الكتابة على القرص.",
+                "upload_blocked_by_php_extension": "تم حظر التحميل بواسطة ملحق php.",
+                "no_files_made_it_to_upload": "يرجى تحميل الملفات التي لا يزيد حجمها عن {max} كيلوبايت."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "ملف مشترك جديد",
+                "dropzone": "اسحب وأفلِت الملفات هنا أو انقر للاستعراض",
+                "hide-from-media-gallery": "إخفاء من معرض الوسائط الخاص بالمستخدم",
+                "upload": "رفع"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "جاري تحميل الملفات...",
+                "empty": "لا توجد ملفات لعرضها.",
+                "release_to_upload": "أرسل لتحميل",
+                "modal_empty_desktop": "قائمة ملفاتك فارغة. انقر على الزر أو اسحب ملفًا هنا لتحميله.",
+                "modal_empty_phone": "قائمة ملفاتك فارغة. انقر على الزر أعلاه لتحميل ملف.",
+                "select_file_a11y_label": "حدد الملف \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {لم يتم اختيار أي ملف} one {اختيار الملف} other {اختيار الملفات}}",
+                "load_more_files_btn": "تحميل المزيد من الملفات",
+                "delete_file_a11y_label": "حذف الملف \"{fileName}\"",
+                "delete_confirmation": "هل أنت متأكد أنك تريد حذف \"{fileName}\"؟",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "إخفاء \"{fileName}\" من مدير الوسائط",
+                    "btn_a11y_label_show": "إظهار \"{fileName}\" في مدير الوسائط",
+                    "hide_confirmation": "هل أنت متأكد من رغبتك في إخفاء \"{fileName}\"؟ سيؤدي إخفاء ملف إلى إزالته من مدير الوسائط فقط، ولن يؤثر على المنشورات الحالية.",
+                    "hide_success": "الملف مخفي",
+                    "show_confirmation": "هل أنت متأكد من رغبتك في عرض \"{fileName}\"؟ سيؤدي عرض الملف إلى ظهوره في مدير الوسائط.",
+                    "show_success": "تم عرض الملف",
+                    "hide_fail": "لا يمكن من إخفاء الملف \"{fileName}\"",
+                    "show_fail": "لا يمكن عرض الملف \"{fileName}\"",
+                    "loading": "إخفاء الملف..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "جعل \"{fileName}\" خاصًا (لا يوجد عنوان URL عام)",
+                    "btn_a11y_label_show": "جعل \"{fileName}\" عامًا (مع عنوان URL عام)",
+                    "hide_confirmation": "هل أنت متأكد من رغبتك في جعل \"{fileName}\" خاصًا؟ سيؤدي جعل الملف خاصًا إلى إزالة رابطه العام، ولكنه لن يؤثر على المنشورات الحالية. كما أنه لن يكون مرئيًا للمستخدمين غير المصرح لهم في مدير الوسائط.",
+                    "hide_success": "تم جعل الملف خاصًا",
+                    "show_confirmation": "هل أنت متأكد من رغبتك في جعل \"{fileName}\" عامًا؟ هذا سيجعل الملف متاحًا لأي شخص لديه رابط عام، ويمكن لأي شخص مشاركته باستخدام مدير الوسائط.",
+                    "show_success": "الملف متاح للعامة",
+                    "hide_fail": "لم نتمكن من جعل الملف \"{fileName}\" خاصًا",
+                    "show_fail": "تعذّر جعل الملف \"{fileName}\" عامًا",
+                    "loading": "جعل الملف خاص..."
                 }
             }
         }

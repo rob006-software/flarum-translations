@@ -7,44 +7,44 @@
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "لقد تمّ تعليق مشاركتك في المنتدى لمدّة {timeReadable}",
-                "user_suspended_indefinite_text": "لقد تم تعليقمشاركتك في المنتدى إلى أجل غير مسمى",
-                "user_unsuspended_text": "لقد تمّ إلغاء تعليق مشاركتك في المنتدى"
+                "user_suspended_text": "لقد تم إيقافك لمدة {timeReadable}",
+                "user_suspended_indefinite_text": "لقد تم إيقافك إلى أجل غير مسمى",
+                "user_unsuspended_text": "لقد تم إلغاء إيقافك "
             },
             "suspension_info": {
-                "dismiss_button": "رفض",
-                "indefinite": "هذا تعليق لأجل غير مسمى",
-                "limited": "سيكون هذا التّعليق ساري المفعول حتّى {date}",
-                "title": "تمّ تعليق هذا الحساب"
+                "dismiss_button": "إلغاء",
+                "indefinite": "هذا إيقاف غير محدد",
+                "limited": "سيظل هذا الإيقاف ساري المفعول حتى {date}",
+                "title": "تم إيقاف هذا الحساب"
             },
             "suspend_user": {
-                "display_message": "الرّسالة المعروضة للمستخدم",
-                "indefinitely_label": "معلّق إلى أجل غير مسمى",
-                "limited_time_days_text": " من الأيّام",
-                "limited_time_label": "تعليق لفترة محدودة ...",
-                "not_suspended_label": "غير معلّق",
+                "display_message": "عرض الرسالة للمستخدم",
+                "indefinitely_label": "تم الإيقاف إلى أجل غير مسمى",
+                "limited_time_days_text": "أيام",
+                "limited_time_label": "موقوف لفترة محدودة...",
+                "not_suspended_label": "غير موقوف",
                 "placeholder_optional": "اختياري",
-                "reason": "سبب التّعليق",
-                "status_heading": "حالة التّعليق",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "تعليق {username}"
+                "reason": "سبب الإيقاف",
+                "status_heading": "حالة الإيقاف",
+                "submit_button": "حفظ التغييرات",
+                "title": "إيقاف {username}"
             },
             "user_badge": {
-                "suspended_tooltip": "مُعلّق"
+                "suspended_tooltip": "موقوف"
             },
             "user_controls": {
-                "suspend_button": "تعليق"
+                "suspend_button": "إيقاف"
             }
         },
         "email": {
-            "no_reason_given": "لم يتمّ تقديم أي أسباب حول هذا التّعليق.",
+            "no_reason_given": "لم يتم تقديم أي سبب لهذا الإيقاف.",
             "suspended": {
-                "subject": "لقد تمّ تعليق حسابك",
-                "body": "مرحبا {recipient_display_name}، \n \nلقد تمّ تعليق مشاركتك في المنتدى للأسباب الآتية: \n \n--- \n{suspension_message} \n---\n"
+                "subject": "لقد تم إيقاف حسابك",
+                "body": "أهلاً {recipient_display_name}،\n\nتم إيقاف حسابك للسبب التالي:\n\n---\n{suspension_message}\n---"
             },
             "unsuspended": {
-                "subject": "لقد تمّ إزالة التّعليق عن حسابك",
-                "body": "مرحبا {recipient_display_name}، \n \nلقد تمّ إزالة التّعليق عن حسابك. يُمكنك العودة إلى النّشاط على المنتدى بالانتقال عبر الرّابط الآتي: \n \n{forum_url}\n"
+                "subject": "لقد تم إلغاء إيقاف حسابك",
+                "body": "مرحباً {recipient_display_name}،\n\nتم إلغاء إيقاف حسابك. يمكنك العودة الأن بالضغط على الرابط التالي:\n\n{forum_url}"
             }
         },
         "validation": {

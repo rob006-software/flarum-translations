@@ -8,37 +8,37 @@
         },
         "forum": {
             "links": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "أرسل بريدًا إلكترونيًا إلى هذا المستخدم",
+                "mail_all": "إرسال بريد إلكتروني"
             },
             "modal_mail": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "subject_label": "",
-                "default_subject": "",
-                "message_label": "",
-                "as_html_label": "",
-                "submit_button": ""
+                "title_text": "إنشاء البريد",
+                "recipients_label": "المستلمون",
+                "recipients_placeholder": "إضافة المزيد من المستلمين...",
+                "subject_label": "الموضوع",
+                "default_subject": "رسالة من إدارة الموقع",
+                "message_label": "الرسالة",
+                "as_html_label": "إرسال بصيغة HTML",
+                "submit_button": "إرسال"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "تم إرسال البريد!",
+                "on_its_way": "تحية طيبة! بريدك في طريقه إلى {recipientsCount} مستلم!"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "مستخدم",
+                "group": "مجموعة",
+                "email": "بريد إلكتروني"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "لم يتم مطابقة أي مستلم"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "رسالة من إدارة الموقع"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "رسالة من إدارة الموقع"
         }
     }
 }
