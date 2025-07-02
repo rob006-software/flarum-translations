@@ -9,7 +9,7 @@
                     },
                     "id": {
                         "label": "Sõltuva osapoole ID",
-                        "help": ""
+                        "help": "Edastava osapoole ID on unikaalne sinu saidi identifikaator. See on domeeni nimini ilma eesliiteta. Näiteks, kui sinu veebisait on https://example.com, siis rp ID on example.com. Kui jätad selle tühjaks, siis kasutatakse praegust domeeni."
                     }
                 },
                 "timeout": {
@@ -32,7 +32,7 @@
                     },
                     "alias-modal": {
                         "title": "Ligipääsu võti on registreeritud!",
-                        "label": "Ja nüüd anname ligipääsu võtmele alias."
+                        "label": "Ja nüüd anname ligipääsu võtmele aliase."
                     },
                     "item": {
                         "revoke": "=> core.forum.security.revoke_access_token",
