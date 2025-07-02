@@ -3,7 +3,7 @@
         "admin": {
             "permissions": {
                 "manage_warnings": "Criar e remover avisos de moderação",
-                "view_warnings": "Ver avisos de moderador",
+                "view_warnings": "Ver avisos do moderador",
                 "delete_warnings": "Remover permanentemente avisos de moderação"
             }
         },
@@ -48,20 +48,20 @@
                 "add_button": "Novo aviso",
                 "no_warnings": "Parece que não existem avisos aqui.",
                 "warnings": "{strikes, plural, one {Avisos de Moderador: # Strike recebidos} other {Avisos de Moderador: # Strikes recebidos}}",
-                "warnings_no_strikes": "Avisos de Moderador: Nenhuma penalização recebida"
+                "warnings_no_strikes": "Avisos de moderador: Não recebeu penalizações"
             },
             "warning_list_item": {
-                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strikes, {time}}}",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> aviso, {time}} other {<strong>#</strong> avisos, {time}}}",
                 "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> aviso, {time} <strong>(removido)</strong>} other {<strong>#</strong> avisos, {time} <strong>(removidos)</strong>}}",
                 "public_comment": "Aviso",
                 "private_comment": "Moderador-Comentários visiveis",
                 "linked_post": ""
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
+                "confirmation_message": "O seu aviso foi guardado. Atualize a página para o ver.",
+                "heading": "Avisar <strong>{username}</strong>",
                 "strikes_heading": "",
-                "public_comment_heading": "",
+                "public_comment_heading": "Porque é que <strong>{username}</strong> merece estes avisos? Estes comentários serão visíveis para o utilizador e moderadores.",
                 "private_comment_heading": "",
                 "submit_button": ""
             }
