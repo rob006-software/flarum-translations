@@ -8,15 +8,15 @@
                 "max_label": "Tamanho máximo do pseudónimo",
                 "min_label": "Tamanho mínimo do pseudónimo",
                 "random_username_label": "Nomes de utilizador aleatórios",
-                "random_username_help": "Esta ação irá esconder o campo `nome de utilizador` no registo, em vez utilizará um número aleatório. Irá também tornar o campo `pseudónimo` obrigatório. Isto terá efeito apenas se a opção \"Permitir a configuração de pseudónimos no registro\" estiver ativa.",
+                "random_username_help": "Esta ação irá esconder o campo `nome de utilizador` no registo, ao invés disso, utilizará um número aleatório. Irá também tornar o campo `pseudónimo` obrigatório. Isto terá efeito apenas se a opção \"Permitir a configuração de pseudónimos no registo\" estiver ativa.",
                 "regex_label": "Expressão regular para validação",
-                "set_on_registration_label": "Permitir a configuração de nicknames no registro",
-                "unique_label": "Nicknames únicos requeridos"
+                "set_on_registration_label": "Permitir a configuração de pseudónimos no registo",
+                "unique_label": "Exigir pseudónimos únicos"
             },
-            "wrong_driver": "Deve selecionar \"nickname\" como driver de visualização na <a><strong>Pagina Básico</strong></a> para esta extensão ter efeito."
+            "wrong_driver": "Deve selecionar \"pseudónimo\" como driver de visualização na <a><strong>Pagina de informações básicas</strong></a> para esta extensão ter efeito."
         },
         "api": {
-            "invalid_nickname_message": "Esse nickname é invalido. Por favor contacte o administrador do forum para mais informações sobre as regras para nicknames."
+            "invalid_nickname_message": "Esse pseudónimo é invalido. Por favor contacte o administrador do forum para mais informações sobre as regras para pseudónimos."
         },
         "forum": {
             "change_nickname": {
@@ -35,8 +35,8 @@
             }
         },
         "ref": {
-            "change_nickname": "Alterar Nickname",
-            "nickname": "Nickname"
+            "change_nickname": "Alterar pseudónimo",
+            "nickname": "Pseudónimo"
         }
     }
 }
