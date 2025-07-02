@@ -2,7 +2,7 @@
     "walsgit_discussion_cards": {
         "forum": {
             "replies": "Vastuseid: {count}",
-            "unreadReplies": ""
+            "unreadReplies": "Lugemata vastuseid: {count}"
         },
         "admin": {
             "settings": {
@@ -22,16 +22,16 @@
                     "tabletCardWidth_label": "Peamiste kaartide laius tahvlis",
                     "tabletCardWidth_help": "Määra peamise kaardi laius (%) tahvelarvutil. (vahemikus 10 kuni 100)",
                     "cardOptions_title": "Kaardi valikud",
-                    "cardOptions_info": "",
+                    "cardOptions_info": "Määra mis infot peaks kaartidel näitama.",
                     "defaultImage_title": "Üldine vaikimisi pilt",
-                    "defaultImage_info": "",
+                    "defaultImage_info": "Siin saad muuta kaartidel vaikimisi kasutatavaid pilte, kui neid ei leita esimesest postitusest. <u>OLULINE</u>: <em>pane tähele, et pildi muutmine hülgab kõik varasemad salvestamata muudatused ning laadib lehekülje uuesti. Palun salvesta oma muudatused enne pildi muutmist</em> (või siis vastupidises järjekorras 😉). Sobivad pildivormingud on: JPG, PNG, GIF, BMP või WebP failid. Ideaalne resolutsioon: 400px x 225px (kõik üleslaetud pildid konverditakse PNG-failiks laiusega 400px, välja arvatud pildid, mille laius on väiksem ja sel juhul säilitatakse algne resolutsioon ilma seda suuremaks muutmata). Sõltuvalt sinu faili resolutsioonist võidakse pilti näidata kaardil kas kärbituna ja/või venitatuna.",
                     "previewText_label": "Eelvaate tekst",
                     "previewText_help": "Kui on aktiveeritud, siis näidatakse eelvaatekaardil esimese postituse algust.",
                     "showAuthor_label": "Näita autorit",
                     "showAuthor_help": "Kui see on aktiveeritus, siis näidatakse kaardil vestluse alustajat.",
-                    "showReplies_label": "Näita vastuste arvu",
-                    "showReplies_help": "Kui on aktiveeritud, siis näidatakse igal kaardil vastuste arvu (ja mõningate osalejate avatare).",
-                    "showRepliesOnRight_label": "Näita vastuseid kaardi pealkirjast paremal",
+                    "showReplies_label": "Näita vastuste/lugemata vastuste arvu",
+                    "showReplies_help": "Kui on aktiveeritud, siis näidatakse igal kaardil vastuste (või lugemata vastuste) arvu (ja mõningate osalejate avatare).",
+                    "showRepliesOnRight_label": "Näita vastuseid (või ligemata vastuseid) kaardi pealkirjast paremal",
                     "showRepliesOnRight_help": "",
                     "showLastPostInfo_label": "Näita viimase postituse infot",
                     "showLastPostInfo_help": "",
@@ -42,10 +42,10 @@
                     "otherOptions_title": "Valikud, mis nõuavad teiste lisaprogrammide olemasolu",
                     "otherOptions_info": "Järgnevad valikud nõuavad töötamiseks teisi lisaprogramme. <strong>OLULINE: palun loe <u>kogul</u> infot iga üksiku valiku kohta ja soorita enne nende aktiveerimist nõutud sammud</strong>.",
                     "showViews_title_start": "Kui sul on lisaprogramm ",
-                    "showViews_title_or": "",
+                    "showViews_title_or": " VÕI ",
                     "showViews_title_end": " paigaldatud ja aktiveeritud, siis saad määrata järgmise (1) valiku:",
-                    "viewsExtension_notInstalled": "{icon} Valiku töötamiseks on vaja see lisaprogramm paigaldada ja aktiveerida.",
-                    "viewsExtension_notActivated": "{icon} Valiku töötamiseks on vaja see lisaprogramm aktiveerida.",
+                    "viewsExtension_notInstalled": "{icon} Valiku töötamiseks on vaja üks neist lisaprogrammidest paigaldada ja aktiveerida.",
+                    "viewsExtension_notActivated": "{icon} Vestluse vaadete töötamiseks on vaja see lisaprogramm aktiveerida.",
                     "showViews_label": "Näita vaatamisi",
                     "showViews_help": "Kui see valik on sisse lülitatud, siis kaardil näidatakse vestluse vaatamiste arvu.",
                     "blogExtension_title_start": "Kui sul on paigaldatud lisaprogramm ",
