@@ -30,8 +30,8 @@
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Idioma padrão",
                 "description": "Defina o título, idioma e outras configurações básicas do fórum.",
-                "display_name_heading": "Nome de exibição do usuário",
-                "display_name_text": "Selecione o driver que deve ser usado para os nomes de exibição dos usuários. Por padrão, o nome de usuário é mostrado.",
+                "display_name_heading": "Nome de exibição do utilizador",
+                "display_name_text": "Selecione o driver que deve ser usado para os nomes de exibição dos utilizadores. Por padrão, o nome de utilizador é exibido.",
                 "forum_description_heading": "Descrição do Fórum",
                 "forum_description_text": "Digite uma ou duas frases curtas que descrevam sua comunidade. Isso aparecerá na metatag e aparecerá nos mecanismos de pesquisa.",
                 "forum_title_heading": "Título do Fórum",
@@ -205,8 +205,8 @@
                 "description": "Configure quem pode ver e fazer o quê.",
                 "edit_posts_label": "Editar postagens",
                 "edit_users_label": "Editar usuários",
-                "edit_users_credentials_label": "Editar credenciais de usuário",
-                "edit_users_groups_label": "Editar grupos de usuário",
+                "edit_users_credentials_label": "Editar credenciais de utilizador",
+                "edit_users_groups_label": "Editar grupos de utilizador",
                 "global_heading": "Global",
                 "moderate_heading": "Moderar",
                 "moderate_access_tokens_label": "Moderar tokens de acesso",
@@ -222,7 +222,7 @@
                 "title": "Permissões",
                 "view_forum_label": "Ver fórum (discussões e usuários)",
                 "view_hidden_groups_label": "Ver emblemas de grupo ocultos",
-                "view_last_seen_at_label": "Ver a última vez que o usuário visualizou",
+                "view_last_seen_at_label": "Ver sempre a última vez que o utilizador foi visto",
                 "view_post_ips_label": "Exibir endereços IP da postagem"
             },
             "permissions_controls": {
@@ -367,7 +367,7 @@
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
                 "email_sent_message": "Enviámos um e-mail com um link para redefinir sua senha. Verifique sua pasta de spam, se não a receber dentro de um ou dois minutos.",
-                "not_found_message": "Não há usuário registrado com esse endereço de e-mail.",
+                "not_found_message": "Não há utilizadores registados com esse endereço de e-mail.",
                 "submit_button": "Recuperar Senha",
                 "text": "Digite seu endereço de e-mail e enviaremos um link para redefinir sua senha.",
                 "title": "Esqueceu a senha"
@@ -412,7 +412,7 @@
                 "sign_up_text": "Não possui uma conta? <a>Inscreva-se</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Nome de usuário ou e-mail"
+                "username_or_email_placeholder": "Nome de utilizador ou e-mail"
             },
             "notifications": {
                 "delete_all_confirm": "Tem a certeza que pretende apagar todas as notificações? Esta operação é irreversível",
@@ -536,9 +536,9 @@
             "user_controls": {
                 "button": "Controles",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Tem certeza de que deseja excluir este usuário? Todas as postagens do usuário serão excluídas.",
-                "delete_error_message": "A exclusão do usuário <i>{username} ({email})</i> falhou",
-                "delete_success_message": "O usuário <i>{username} ({email})</i> foi excluído",
+                "delete_confirmation": "Tem certeza de que deseja apagar este utilizador? Todas as publicações do utilizador serão apagadas.",
+                "delete_error_message": "Erro a apagar o utilizador <i>{username} ({email})</i>",
+                "delete_success_message": "O utilizador <i>{username} ({email})</i> foi apagado",
                 "edit_button": "=> core.ref.edit",
                 "toggle_dropdown_accessible_label": "Abrir o menu de controle dos usuários"
             },
@@ -566,7 +566,7 @@
                 "label": "{label}:"
             },
             "edit_user": {
-                "activate_button": "Ativar o usuário",
+                "activate_button": "Ativar o utilizador",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Grupos",
@@ -681,7 +681,7 @@
             }
         },
         "api": {
-            "invalid_username_message": "O nome de usuário pode conter apenas letras, números e traços.",
+            "invalid_username_message": "O nome de utilizador pode conter apenas letras, números e hífens.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "O filtro {filter} deve ser numérico.",
                 "must_not_be_array_message": "O filtro {filter} não pode ser um array.",
@@ -722,7 +722,7 @@
             "delete_forever": "Deletar permanentemente",
             "discussions": "Discussões",
             "edit": "Editar",
-            "edit_user": "Editar usuário",
+            "edit_user": "Editar utilizador",
             "email": "E-mail",
             "extensions": "Extensões",
             "generic_confirmation_message": "Tem a certeza que pretende continuar? Esta acção não pode ser desfeita.",
@@ -753,7 +753,7 @@
             "sign_up": "Inscrever-se",
             "some_others": "{count, plural, one {# outro} other {# outros}}",
             "start_a_discussion": "Iniciar Discussão",
-            "username": "Nome de usuário",
+            "username": "Nome de utilizador",
             "users": "Usuários",
             "view": "Ver",
             "write_a_reply": "Escreva uma resposta...",
