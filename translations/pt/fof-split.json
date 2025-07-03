@@ -2,7 +2,7 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": ""
+                "split_discussion_label": "Separar mensagens de discussões"
             }
         },
         "forum": {
@@ -11,14 +11,14 @@
                 "was_split_from": ""
             },
             "split": {
-                "from": "",
-                "to": "",
-                "cancel": ""
+                "from": "Separar a partir daqui",
+                "to": "Separar até aqui",
+                "cancel": "Cancelar a separação"
             },
             "modal": {
-                "title": "",
-                "new_discussion_label": "",
-                "submit_button": ""
+                "title": "Separar a discussão",
+                "new_discussion_label": "Indicar o título da nova discussão",
+                "submit_button": "Separar"
             }
         }
     }
