@@ -7,13 +7,16 @@
                 "moneyfordiscussion": "Pieniądze przyznane za nową dyskusję",
                 "moneyname": "Nazwa dla pieniędzy (np. [money] punktów)",
                 "postminimumlength": "Minimalna długość posta kwalifikując go do otrzymania pieniędzy (ustaw 0 dla braku limitu)",
+                "ignore_notifying_users": "",
                 "noshowzero": "Nie pokazuj, jeśli wartość to zero",
                 "autoremove": "Automatycznie aktualizuj saldo",
+                "cascaderemove": "",
                 "moneyforlike": "Pieniądze przyznane, gdy post zostanie polubiony",
                 "helpextensionlikes": "Wymaga rozszerzenia <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "Edytuj pieniądze"
+                "edit_money_label": "Edytuj pieniądze",
+                "disable_money_label": ""
             },
             "autoremove": [
                 "Nigdy nie odbieraj pieniędzy",

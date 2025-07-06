@@ -7,13 +7,16 @@
                 "moneyfordiscussion": "Nauda iedota jaunai diskusijai",
                 "moneyname": "Naudas nosaukums (piem., [money] punkti)",
                 "postminimumlength": "Ziņas minimālais garums, lai saņemtu naudu (0, lai atspējotu)",
+                "ignore_notifying_users": "",
                 "noshowzero": "Nerādīt, ja vērtība ir nulle",
                 "autoremove": "Automātiski atjaunināt naudu",
+                "cascaderemove": "",
                 "moneyforlike": "Nauda, kas tiek piešķirta, kad ziņai patīk",
                 "helpextensionlikes": "Nepieciešams paplašinājums <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "Rediģēt naudu"
+                "edit_money_label": "Rediģēt naudu",
+                "disable_money_label": ""
             },
             "autoremove": [
                 "Nekad neizņemiet naudu",

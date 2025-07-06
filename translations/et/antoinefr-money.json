@@ -7,13 +7,16 @@
                 "moneyfordiscussion": "Uue vestluse alustamise eest antud raha",
                 "moneyname": "Raha nimetus (nt: [raha] punkti)",
                 "postminimumlength": "Postituse minimaalne pikkus raha saamiseks (0 et välja lülitada)",
+                "ignore_notifying_users": "",
                 "noshowzero": "Ära näita, kui väärtus on null",
                 "autoremove": "Uuenda raha automaatselt",
+                "cascaderemove": "",
                 "moneyforlike": "Postituse meeldimise eest antud raha",
                 "helpextensionlikes": "Nõuab lisaprogrammi <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "Muuda raha"
+                "edit_money_label": "Muuda raha",
+                "disable_money_label": ""
             },
             "autoremove": [
                 "Ära kunagi eemalda raha",

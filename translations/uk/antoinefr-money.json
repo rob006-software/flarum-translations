@@ -7,13 +7,16 @@
                 "moneyfordiscussion": "Гроші за нову дискусію",
                 "moneyname": "Назва коштів (наприклад: [money] очків)",
                 "postminimumlength": "Мінімальна довжина посту для отримання коштів (0 для відключення)",
+                "ignore_notifying_users": "",
                 "noshowzero": "Не показувати, якщо значення дорівнює нулю",
                 "autoremove": "Автоматично оновлювати кошти",
+                "cascaderemove": "",
                 "moneyforlike": "Гроші за вподобаний допис",
                 "helpextensionlikes": "Необхідне розширення <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "Редагувати кошти"
+                "edit_money_label": "Редагувати кошти",
+                "disable_money_label": ""
             },
             "autoremove": [
                 "Ніколи не знімати кошти",
