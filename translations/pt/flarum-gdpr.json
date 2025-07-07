@@ -2,37 +2,37 @@
     "flarum-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "Visão geral de dados RGPD",
+                "description": "Estado das várias ações e integrações do RGPD",
                 "data_types": {
-                    "title": "",
-                    "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "title": "Tipos de dados",
+                    "help_text": "Estes são os tipos de dados atualmente registados. Cada tipo encontra-se acompanhado da sua exportação associada, anonimização e ações de remoção. Se uma extensão trata cada dado que se encontre segundo a regulamentação do RGPD, deve registar os seus tipos de dados com o <code>flarum/gdpr</code>.\nDados armazenados na tabela <code>user</code> são tratados em separado, ver dados da tabela de utilizadores abaixo.\n",
+                    "type": "Tipo",
+                    "export_description": "Ação de exportação",
+                    "anonymize_description": "Ação de anonimização",
+                    "delete_description": "Ação de remoção",
+                    "extension": "Extensão"
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
-                    "extension_settings_button": ""
+                    "heading": "Definições do RGPD",
+                    "help_text": "À procura das definições do RGPD? Estas podem ser encontradas na página de extensões.",
+                    "extension_settings_button": "Definições do RGPD"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Dados da tabela de utilizadores",
+                    "help_text": "Na maioria dos casos, quaisquer colunas adicionadas à tabela <code>user</code> serão tratados automaticamente, quer na exportação ou remoção de dados.\nPorém, existem alguns casos especiais, que se encontram listados abaixo.\n"
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "Integrações do RGPD"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "process_erasure": "Processar pedidos de remoção",
+                "process_export_for_others": "Requisitar e receber exportação de dados para outros utilizadores",
+                "see_anonymized_user_badges": "Visualizar badges de utilizadores anonimizados"
             },
             "settings": {
-                "allow_anonymization": "",
+                "allow_anonymization": "Permitir anonimização para pedidos de remoção",
                 "allow_anonymization_help": "",
                 "allow_deletion": "",
                 "allow_deletion_help": "",
