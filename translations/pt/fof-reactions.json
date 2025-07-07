@@ -5,7 +5,7 @@
             "warning": "A tua reação foi convertida",
             "notification": "{username} reagiu com {reaction} à tua publicação",
             "settings": {
-                "notify_post_reacted_label": "Alguém reagiu a uma das minhas postagens"
+                "notify_post_reacted_label": "Alguém reagiu a uma das minhas publicações"
             },
             "reacting-own-post": "Não podes reagir à tua própria publicação",
             "modal": {
@@ -19,7 +19,7 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Reagir a uma publicação",
-                "see_reactions_label": "Ver quem reagiu a postagens",
+                "see_reactions_label": "Visualizar quem reagiu a publicações",
                 "delete_post_reactions_label": ""
             },
             "page": {
@@ -46,8 +46,8 @@
                     "converted": "Foram convertidos com sucesso {number} gostos"
                 },
                 "settings": {
-                    "react_own_posts_help": "Quando activo, carecendo de permissão, os utilizadores podem reagir às suas próprias postagens no forum. Para prevenir que os utilizadores reajam às suas postagens, desactive esta opção.",
-                    "react_own_posts_label": "Os utilizadores podem reagir às suas postagens",
+                    "react_own_posts_help": "Quando ativado, carecendo de permissão, os utilizadores podem reagir às suas próprias publicações no forum. Para prevenir que os utilizadores reajam às suas publicações, desative esta opção.",
+                    "react_own_posts_label": "Os utilizadores podem reagir às suas próprias publicações,",
                     "allow-anonymous": "",
                     "allow-anonymous-help": "",
                     "save_settings": "Gravar definições",
