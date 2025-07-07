@@ -166,26 +166,26 @@
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Apagar grupo de sondagens",
                     "groups_manager": "Gestor de grupos de sondagens",
-                    "view_group": "",
-                    "success": ""
+                    "view_group": "Visualizar grupo de sondagens",
+                    "success": "O grupo de sondagens foi guardado com sucesso."
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "Grupos de Sondagens",
+                    "start_poll_group_button": "Iniciar um grupo de sondagens",
+                    "cannot_start_poll_group_button": "Não foi possível iniciar um grupo de sondagens",
+                    "empty_text": "Parece que não existem grupos de sondagens.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Não existem sondagens neste grupo.",
+                    "add_poll_button": "Adicionar sondagem ao grupo"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "add_poll_label": "Adicionar sondagem",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Visualizar grupo de sondagens",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Tem a certeza de que seja apagar este grupo de sondagens?",
+                    "delete_success_message": "O grupo de sondagens foi apagado com sucesso.",
+                    "delete_error_message": "Ocorreu algo a tentar apagar o grupo de sondagens."
                 }
             }
         }
