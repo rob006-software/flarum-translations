@@ -33,10 +33,10 @@
                 "display_name_heading": "Nome de exibição do utilizador",
                 "display_name_text": "Selecione o driver que deve ser usado para os nomes de exibição dos utilizadores. Por padrão, o nome de utilizador é exibido.",
                 "forum_description_heading": "Descrição do Fórum",
-                "forum_description_text": "Digite uma ou duas frases curtas que descrevam sua comunidade. Isso aparecerá na metatag e aparecerá nos mecanismos de pesquisa.",
+                "forum_description_text": "Digite uma ou duas frases curtas que descrevam a comunidade. A descrição aparecerá na metatag e aparecerá nos mecanismos de pesquisa.",
                 "forum_title_heading": "Título do Fórum",
                 "home_page_heading": "Página Inicial",
-                "home_page_text": "Escolha a página que os usuários verão pela primeira vez quando visitarem seu fórum.",
+                "home_page_text": "Escolha a página que os utilizadores irão visualizar pela primeira vez quando visitarem o fórum.",
                 "show_language_selector_label": "Mostrar seletor de idioma",
                 "slug_driver_heading": "Driver Slug: {model}",
                 "slug_driver_text": "Selecione o driver que será utilizado para o slugging deste modelo.",
@@ -204,7 +204,7 @@
                 "delete_posts_label": "Excluir postagens",
                 "description": "Configure quem pode ver e fazer o quê.",
                 "edit_posts_label": "Editar postagens",
-                "edit_users_label": "Editar usuários",
+                "edit_users_label": "Editar utilizadores",
                 "edit_users_credentials_label": "Editar credenciais de utilizador",
                 "edit_users_groups_label": "Editar grupos de utilizador",
                 "global_heading": "Global",
@@ -220,7 +220,7 @@
                 "sign_up_label": "Registar",
                 "start_discussions_label": "Iniciar discussões",
                 "title": "Permissões",
-                "view_forum_label": "Ver fórum (discussões e usuários)",
+                "view_forum_label": "Visualizar fórum (discussões e utilizadores)",
                 "view_hidden_groups_label": "Ver emblemas de grupo ocultos",
                 "view_last_seen_at_label": "Ver sempre a última vez que o utilizador foi visto",
                 "view_post_ips_label": "Exibir endereços IP da postagem"
@@ -246,7 +246,7 @@
             },
             "users": {
                 "create_user_button": "Novo utilizador",
-                "description": "Uma lista detalhada de todos os usuários do fórum.",
+                "description": "Uma lista detalhada de todos os utilizadores do fórum.",
                 "grid": {
                     "columns": {
                         "display_name": {
@@ -432,10 +432,10 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Tem certeza de que deseja excluir esta postagem para sempre? Essa ação não pode ser desfeita.",
+                "delete_confirmation": "Você tem a certeza de que deseja apagar esta publicação para sempre? Esta ação não pode ser desfeita.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "Tem certeza de que deseja excluir esta postagem?",
+                "hide_confirmation": "Você tem a certeza de que deseja apagar esta publicação?",
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Abrir o menu do controle de postagens"
             },
@@ -540,7 +540,7 @@
                 "delete_error_message": "Erro a apagar o utilizador <i>{username} ({email})</i>",
                 "delete_success_message": "O utilizador <i>{username} ({email})</i> foi apagado",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "Abrir o menu de controle dos usuários"
+                "toggle_dropdown_accessible_label": "Abrir o menu dos controlos do utilizador"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -718,8 +718,8 @@
             "custom_footer_title": "Editar rodapé personalizado",
             "custom_header_text": "Adicione HTML a ser exibido na parte superior da página, acima do cabeçalho do próprio Flarum.",
             "custom_header_title": "Editar cabeçalho personalizado",
-            "delete": "Deletar",
-            "delete_forever": "Deletar permanentemente",
+            "delete": "Apagar",
+            "delete_forever": "Apagar permanentemente",
             "discussions": "Discussões",
             "edit": "Editar",
             "edit_user": "Editar utilizador",
@@ -750,11 +750,11 @@
             "search_users": "Procurar utilizadores",
             "security": "Segurança",
             "settings": "Configurações",
-            "sign_up": "Registo",
+            "sign_up": "Registar",
             "some_others": "{count, plural, one {# outro} other {# outros}}",
             "start_a_discussion": "Iniciar Discussão",
             "username": "Nome de utilizador",
-            "users": "Usuários",
+            "users": "Utilizadores",
             "view": "Ver",
             "write_a_reply": "Escreva uma resposta...",
             "you": "Você"
