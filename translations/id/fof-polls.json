@@ -24,8 +24,8 @@
                 "options_color_blend_help": "Gunakan ini untuk menggunakan pencampuran warna untuk membuat opsi polling lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan.",
                 "image_height": "Ubah ukuran tinggi gambar",
                 "image_width": "Ubah ukuran lebar gambar",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": ""
+                "enabled_poll_groups": "Aktifkan grup polling",
+                "enabled_poll_groups_help": "Grup polling memungkinkan Anda mengelompokkan polling global, dan menampilkannya di halaman khusus."
             },
             "permissions": {
                 "view_results_without_voting": "Melihat hasil tanpa melakukan voting",
@@ -37,9 +37,9 @@
                 "vote": "Memberikan vote pada polling",
                 "change_vote": "Mengganti vote",
                 "moderate": "Mengedit & menghapus polling",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_group": "Lihat grup polling",
+                "start_group": "Membuat grup polling",
+                "moderate_group": "Mengubah & menghapus grup polling"
             }
         },
         "forum": {
@@ -140,7 +140,7 @@
             "page": {
                 "nav": "Polling",
                 "nav-all": "Semua Polling Global",
-                "nav-groups": ""
+                "nav-groups": "Grup Polling"
             },
             "showcase": {
                 "active-polls": "Polling Aktif",
@@ -161,31 +161,31 @@
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
+                    "add_title": "Tambahkan Grup Polling",
+                    "edit_title": "Edit Grup Polling",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Hapus Grup Polling",
                     "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "view_group": "Lihat Grup Polling",
+                    "success": "Grup polling berhasil disimpan."
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "Grup Polling",
+                    "start_poll_group_button": "Memulai Grup Polling",
+                    "cannot_start_poll_group_button": "Tidak Dapat Memulai Grup Polling",
+                    "empty_text": "Sepertinya tidak ada grup polling di sini.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Tidak ada polling di grup ini.",
+                    "add_poll_button": "Tambahkan Polling ke Grup"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "add_poll_label": "Tambahkan Polling",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Lihat Grup Polling",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Apakah Anda yakin ingin menghapus grup polling ini?",
+                    "delete_success_message": "Grup polling berhasil dihapus.",
+                    "delete_error_message": "Terjadi kesalahan saat menghapus grup polling."
                 }
             }
         }
