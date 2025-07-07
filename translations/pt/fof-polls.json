@@ -3,169 +3,169 @@
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Definições gerais",
+                    "help": "Estas definições controlam as funcionalidades básicas da extensão Polls."
                 },
                 "global_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Sondagens globais",
+                    "help": "Estas definições controlam a funcionalidade de sondagens globais."
                 },
                 "image": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Definições de Imagem",
+                    "help": "Estas definições controlam as definições de imagens em sondagens."
                 },
-                "allow_option_image": "Permitir URL de imagem para cada opção da votação",
-                "allow_image_uploads": "",
-                "allow_image_uploads_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": "",
-                "image_height": "",
-                "image_width": "",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": ""
+                "allow_option_image": "Permitir endereço URL de imagem para cada opção da sondagem",
+                "allow_image_uploads": "Permitir o envio de imagens para sondagens e para as suas opções",
+                "allow_image_uploads_help": "Se ativado, os utilizadores serão capazes de enviar imagens bem como fornecer um endereço URL referente à imagem (se ativado nas definições, estará sempre ativado para a própria sondagem).",
+                "enable_global_polls": "Ativar sondagens globais",
+                "enable_global_polls_help": "As sondagens globais não são referentes a uma publicação específica e podem ser acedidas através de uma página de sondagens dedicada.",
+                "max_options": "Máximo número de opções por sondagem",
+                "options_color_blend": "Cor do texto com mistura de cores nas opções da sondagem",
+                "options_color_blend_help": "Utilize esta opção para misturar cores e fazer com que as opções da sondagem sejam mais legíveis. Desativar se esta função causar problemas com a aparência do fórum, reduzindo a legibilidade.",
+                "image_height": "Redimensionar a altura da imagem",
+                "image_width": "Redimensionar o comprimento da imagem",
+                "enabled_poll_groups": "Ativar grupos de sondagens",
+                "enabled_poll_groups_help": "Grupos de sondagens permitem que agrupe sondagens, sendo visualizadas numa página dedicada."
             },
             "permissions": {
-                "view_results_without_voting": "Ver resultados sem votar",
-                "start": "Iniciar uma votação",
-                "start_global": "",
-                "self_edit": "Permitir aos utilizadores para alterar as suas votações",
-                "self_post_edit": "",
-                "upload_images": "",
-                "vote": "Votar",
+                "view_results_without_voting": "Visualizar resultados sem votar",
+                "start": "Iniciar uma sondagem",
+                "start_global": "Iniciar uma sondagem global",
+                "self_edit": "Editar sondagens criadas (requer permissão para editar uma publicação)",
+                "self_post_edit": "Editar *todas* as sondagens em publicações pessoais (requer permissão para editar uma publicação)",
+                "upload_images": "Permitir aos utilizadores enviarem imagens para as sondagens",
+                "vote": "Votar nas sondagens",
                 "change_vote": "Alterar voto",
-                "moderate": "Editar e remover votações",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "moderate": "Editar e remover sondagens",
+                "view_group": "Visualizar grupos de sondagens",
+                "start_group": "Criar grupos de sondagens",
+                "moderate_group": "Editar e remover grupos de sondagens"
             }
         },
         "forum": {
-            "days_remaining": "A votação termina em {time}.",
+            "days_remaining": "A sondagem termina em {time}.",
             "no_permission": "Não tem permissões para votar",
-            "poll_ended": "Esta votação terminou.",
-            "public_poll": "Ver votantes",
-            "max_votes_allowed": "",
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "poll_ended": "Esta sondagem terminou.",
+            "public_poll": "Visualizar votantes",
+            "max_votes_allowed": "A sondagem permite votação em {max, plural, one {# opção} other {# opções}}.",
+            "polls_count": "{count, plural, one { {count} voto} other {{count} votos}}",
+            "poll_never_ends": "A sondagem nunca termina",
+            "answers": "Respostas",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": "",
-                "start_poll_button": "",
-                "cannot_start_poll_button": "",
-                "total_votes": ""
+                "cannot_change_vote": "Não podes alterar o teu voto após votares.",
+                "submit_button": "Votar",
+                "start_poll_button": "Iniciar sondagem global",
+                "cannot_start_poll_button": "Não foi possível iniciar a sondagem",
+                "total_votes": "{count, plural, one {# voto foi realizado} other {# votos foram realizados}}"
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Tem a certeza que seja apagar esta sondagem?",
+                "delete_success_message": "A sondagem foi apagada com sucesso.",
+                "delete_error_message": "Ocorreu algo enquanto se tentava apagar a sondagem."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Apagar sondagem",
+                "error": "Ocorreu um erro a guardar a sondagem, por favor, contacte um administrador."
             },
             "polls_page": {
-                "title": ""
+                "title": "Sondagens"
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
+                "empty_text": "Parece que não existem sondagens a decorrer na comunidade.",
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
-                "add_poll": "Adicionar Votação",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "Não possui permissões para iniciar uma sondagem."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Adicionar uma sondagem",
+                "edit_title": "Editar sondagem",
+                "polls_manager": "Gestor de sondagens",
+                "polls_preview": "Visualizar sondagem",
+                "continue_editing": "Continuar a editar",
+                "success": "A sondagem foi guardada com sucesso."
             },
             "modal": {
-                "add_title": "Adicionar Votação",
-                "add_option_label": "Adicionar uma Opção",
-                "date_placeholder": "Date de fim da Votação (Opcional)",
-                "edit_title": "Editar Votação",
+                "add_title": "Adicionar sondagem",
+                "add_option_label": "Adicionar uma opção",
+                "date_placeholder": "Data de fim da sondagem (opcional)",
+                "edit_title": "Editar sondagem",
                 "include_question": "É necessário incluir uma pergunta",
-                "max": "Pode ter no máximo 10 respostas",
+                "max": "Pode ter no máximo {max} respostas",
                 "min": "Tem que incluir no mínimo 2 respostas",
-                "no_voters": "Sem Votos",
+                "no_voters": "Sem votos",
                 "option_placeholder": "Resposta",
-                "image_option_placeholder": "URL da imagem (Opcional)",
+                "image_option_placeholder": "Endereço URL da imagem (opcional)",
                 "options_label": "Respostas",
-                "public_poll_label": "Permitir aos utilizadores ver quem votou",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "hide_votes_label_help": "",
-                "allow_change_vote_label": "",
+                "public_poll_label": "Permitir aos utilizadores visualizar quem votou",
+                "allow_multiple_votes_label": "Permitir que os utilizadores votem em múltiplas opções",
+                "max_votes_label": "Máximo de votações por utilizador",
+                "max_votes_help": "Definir a 0 para permitir aos utilizadores votarem em todas as opções.",
+                "hide_votes_label": "Ocultar votações até que a sondagem termine",
+                "hide_votes_label_help": "O utilizador que iniciou a sondagem poderá sempre visualizar os votos.",
+                "allow_change_vote_label": "Permitir aos utilizadores alterar o seu voto",
                 "question_placeholder": "Pergunta",
-                "subtitle_placeholder": "",
-                "submit": "Submeter",
-                "delete": "",
-                "error": "",
+                "subtitle_placeholder": "Subtítulo/Descrição (opcional)",
+                "submit": "Enviar",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
-                    "later_help": ""
+                    "label": "Imagem da sondagem",
+                    "help": "Envie uma imagem para ser exibida junto à sondagem (opcional).",
+                    "alt_label": "Texto alternativo da imagem",
+                    "alt_help_text": "O texto é necessário quando se deifne uma imagem, sendo exibido caso a imagem não possa ser carregada.",
+                    "later_help": "Poderá enviar uma imagem após a criação da sondagem."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Imagem de uma resposta da sondagem",
+                    "help": "Envie uma imagem para ser exibida junto da resposta da sondagem (opcional)."
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Adicionar resposta"
                     }
                 }
             },
             "moderation": {
-                "add": "",
-                "delete": "Remover votação",
-                "delete_confirm": "Tem a certeza que pretende apagar esta votação?",
-                "edit": "Editar votação"
+                "add": "Adicionar sondagem",
+                "delete": "Remover sondagem",
+                "delete_confirm": "Tem a certeza que pretende apagar esta sondagem?",
+                "edit": "Editar sondagem"
             },
             "page": {
-                "nav": "",
-                "nav-all": "",
-                "nav-groups": ""
+                "nav": "Sondagens",
+                "nav-all": "Todas as sondagens globais",
+                "nav-groups": "Grupos de sondagens"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Sondagens ativas",
+                "ended-polls": "Sondagens concluídas",
+                "no-active-polls": "Neste momento não existem sondagens ativas.",
+                "no-recent-polls": "Neste momento não existem sondagens que tenham terminado recentemente."
             },
             "tooltip": {
-                "badge": "Votação",
+                "badge": "Sondagem",
                 "votes": "{count, plural, one {# voto} other {# votos}}"
             },
             "votes_modal": {
                 "title": "Votantes"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Apagar imagem",
+                "upload_button": "Enviar imagem"
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
+                    "add_title": "Adicionar grupo de sondagens",
+                    "edit_title": "Editar grupo de sondagens",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Apagar grupo de sondagens",
+                    "groups_manager": "Gestor de grupos de sondagens",
                     "view_group": "",
                     "success": ""
                 },
