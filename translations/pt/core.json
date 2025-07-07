@@ -65,17 +65,17 @@
                         "session-driver": "Driver da sessão"
                     },
                     "scheduler": {
-                        "active": "Activo",
-                        "inactive": "Inactivo",
+                        "active": "Ativo",
+                        "inactive": "Inativo",
                         "never-run": "Nunca executado"
                     }
                 },
-                "title": "Dashboard",
+                "title": "Painel principal",
                 "tools_button": "Ferramentas"
             },
             "debug-warning": {
                 "detail": "Quando o modo <code>debug</code> está activo, o Flarum vai efectuar o rebuild do codigo <code>Javascript</code> e <code>CSS</code> a cada pedido, e pode potencialmente \"verter\" outras informações, como dados de acesso à Base de Dados, variáveis de ambiente, etc.\n\nÉ altamente recomendado desactivar o modo <code>debug</code> no ficheiro <code>config.php</code> em modo produtivo. Veja a <link>documentação Flarum</link> para mais informações.\n",
-                "label": "Modo debug activo"
+                "label": "Modo debug ativo"
             },
             "edit_css": {
                 "customize_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS a ser aplicado sobre os <a>estilos padrão</a>do Flarum.",
@@ -89,8 +89,8 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "Excluir grupo",
-                "delete_confirmation": "Tem certeza de que deseja excluir este grupo? Os membros do grupo NÃO serão excluídos.",
+                "delete_button": "Apagar grupo",
+                "delete_confirmation": "Tem a certeza de que deseja apagar este grupo? Os membros do grupo NÃO serão apagados.",
                 "hide_label": "Ocultar no fórum",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
@@ -137,7 +137,7 @@
                 "confirm_purge": "Limpar irá remover os dados da base de dados e ficheiros relacionados com a extensão. Não irá desinstalar a extensão; isso tem que ser efectuado usando o Composer. Tem a certeza que pretende continuar?",
                 "disabled": "Disabilitar",
                 "enable_to_see": "Ative a extensão para visualizar e alterar as configurações.",
-                "enabled": "Habilitar",
+                "enabled": "Ativado",
                 "info_links": {
                     "discuss": "Discussão",
                     "documentation": "Documentação",
@@ -193,17 +193,17 @@
                 "search_placeholder": "Buscar extensão"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "Permitir apagar as próprias postagens",
+                "allow_hide_own_posts_label": "Permitir apagar as próprias publicações",
                 "allow_post_editing_label": "Permitir edição de postagem",
                 "allow_renaming_label": "Permitir renomeação",
                 "create_access_token_label": "Criar token de acesso",
                 "create_heading": "Criar",
-                "delete_discussions_forever_label": "Excluir discussões para sempre",
-                "delete_discussions_label": "Excluir discussões",
-                "delete_posts_forever_label": "Excluir postagens para sempre",
-                "delete_posts_label": "Excluir postagens",
+                "delete_discussions_forever_label": "Apagar discussões definitivamente",
+                "delete_discussions_label": "Apagar discussões",
+                "delete_posts_forever_label": "Apagar publicações definitivamente",
+                "delete_posts_label": "Apagar publicações",
                 "description": "Configure quem pode ver e fazer o quê.",
-                "edit_posts_label": "Editar postagens",
+                "edit_posts_label": "Editar publicações",
                 "edit_users_label": "Editar utilizadores",
                 "edit_users_credentials_label": "Editar credenciais de utilizador",
                 "edit_users_groups_label": "Editar grupos de utilizador",
@@ -329,7 +329,7 @@
                 "title_placeholder": "Título da discussão"
             },
             "composer_edit": {
-                "discard_confirmation": "Você não salvou suas alterações. Deseja descartá-las?",
+                "discard_confirmation": "Você não guardou as suas alterações. Deseja descartá-las?",
                 "edited_message": "Sua edição foi feita.",
                 "post_link": "Postagem nº{number} em {discussion}",
                 "submit_button": "=> core.ref.save_changes",
@@ -346,7 +346,7 @@
                 "cannot_reply_button": "Sem permissão",
                 "cannot_reply_text": "Você não tem permissão para responder a esta discussão.",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Tem certeza de que deseja excluir esta discussão?",
+                "delete_confirmation": "Tem a certeza de que deseja apagar esta discussão?",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "log_in_to_reply_button": "Entre e responda",
                 "rename_button": "=> core.ref.rename",
@@ -437,13 +437,13 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Você tem a certeza de que deseja apagar esta publicação?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Abrir o menu do controle de postagens"
+                "toggle_dropdown_accessible_label": "Abrir o menu do controlo de publicações"
             },
             "post_scrubber": {
                 "now_link": "agora",
-                "original_post_link": "Post Original",
+                "original_post_link": "Publicação original",
                 "unread_text": "{count} não lida",
-                "viewing_text": "{count, plural, one {{index} de {formattedCount} postagem} other {{index} de {formattedCount} postagens}}"
+                "viewing_text": "{count, plural, one {{index} de {formattedCount} publicação} other {{index} de {formattedCount} publicações}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "O título antigo era: \"{old}\"",
@@ -691,19 +691,19 @@
         "email": {
             "activate_account": {
                 "subject": "Ative sua nova conta",
-                "body": "Olá {username}!\n\nAlguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.\n\nSe foi você mesmo, basta clicar no link abaixo e sua conta será ativada:\n{url}\n\nSe você não se cadastrou, por favor ignore este e-mail.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) se registou no fórum {forum} com este endereço de correio eletrónico.\n\nSe realizou este registo, basta clicar no endereço URL abaixo e a sua conta será ativada:\n{url}\n\nSe não se registou, por favor ignore este e-mail.\n"
             },
             "confirm_email": {
                 "subject": "Confirme seu novo endereço de e-mail",
-                "body": "Olá {username}!\n\nAlguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.\n\nSe foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:\n{url}\n\nSe você não solicitou isso, por favor ignore este e-mail.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) alterou o endereço de correio eletrónico no fórum {forum} para o qual está a receber este e-mail.\n\nSe efetuou esta alteração, basta clicar no endereço URL abaixo e o seu endereço será confirmado:\n{url}\n\nSe não solicitou esta alteração, por favor ignore este e-mail.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Olá {username}!\n\nAlguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.\n\nSe foi você mesmo, clique no link abaixo para redefinir sua senha:\n{url}\n\nSe você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) enviou um pedido de redefinição de senha para a sua conta no fórum {forum}.\n\nSe efetuou este pedido, clique no endereço URL abaixo para redefinir a sua senha:\n{url}\n\nSe não quiser alterar a sua senha, basta ignorar este e-mail e nada irá acontecer.\n"
             },
             "send_test": {
                 "subject": "Teste de e-mail Flarum",
-                "body": "Olá, {username}!\n\nEste é um e-mail de teste para confirmar se a configuração de e-mail do Flarum está funcionando corretamente.\n\nSe foi você, este e-mail significa que sua configuração funciona!\n\nSe não foi você, ignore este e-mail.\n"
+                "body": "Olá, {username}!\n\nEste é um e-mail de teste para confirmar se a configuração de e-mail do Flarum está a funcionar corretamente.\n\nSe efetuou este pedido, este e-mail significa que sua configuração funciona!\n\nSe não efetuou, ignore este e-mail.\n"
             }
         },
         "ref": {
@@ -746,7 +746,7 @@
             "reply": "Responder",
             "reset_your_password": "Redefinir sua senha",
             "restore": "Restaurar",
-            "save_changes": "Salvar Alterações",
+            "save_changes": "Guardar alterações",
             "search_users": "Procurar utilizadores",
             "security": "Segurança",
             "settings": "Configurações",
