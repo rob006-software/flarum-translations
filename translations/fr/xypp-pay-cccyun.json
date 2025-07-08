@@ -2,41 +2,41 @@
     "xypp-pay-cccyun": {
         "forum": {
             "add_money": {
-                "button": "",
-                "title": "",
-                "amount": "",
-                "cost": "",
-                "confirm": ""
+                "button": "Recharger",
+                "title": "Recharger de l'argent",
+                "amount": "Montant",
+                "cost": "Nécessite {cost} ￥ (CNY)",
+                "confirm": "Payer"
             },
             "history": {
-                "title": "",
-                "pay": "",
-                "status_pending": "",
-                "status_success": "",
-                "status_expired": "",
-                "amount": "",
-                "create": "",
-                "expire": ""
+                "title": "Historique des recharges",
+                "pay": "Payer",
+                "status_pending": "En attente",
+                "status_success": "Succès",
+                "status_expired": "Expiré",
+                "amount": "{amount} ￥",
+                "create": "Créer",
+                "expire": "Expirer"
             },
             "recharge-modal": {
-                "title": "",
-                "amount": "",
-                "money": "",
-                "confirm": ""
+                "title": "Recharger",
+                "amount": "Montant",
+                "money": "Coûte {amount} ￥",
+                "confirm": "Payer"
             },
             "pay-modal": {
-                "title": "",
-                "amount": "",
-                "tip": "",
-                "qr": "",
-                "qr-fail": "",
-                "window": "",
-                "open_window": "",
-                "wechat": "",
-                "open_wechat": "",
-                "back": "",
-                "done": "",
-                "invalid-amount": "",
+                "title": "Payer",
+                "amount": "{amount} ￥",
+                "tip": "Vous allez recharger {money} à {u}",
+                "qr": "Scanner le code QR pour compléter le paiement",
+                "qr-fail": "Échec du chargement du code QR",
+                "window": "Veuillez effectuer le paiement dans la nouvelle fenêtre",
+                "open_window": "S'il n'y a pas de fenêtre contextuelle, veuillez cliquer ici.",
+                "wechat": "Appeler WeChat pour payer",
+                "open_wechat": "Si aucun paiement n'apparaît, veuillez cliquer ici.",
+                "back": "Retour",
+                "done": "Effectué",
+                "invalid-amount": "Montant non valide (doit être compris entre {min} et {max})",
                 "no-limit": ""
             },
             "pay-done": "",
