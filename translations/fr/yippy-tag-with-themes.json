@@ -50,10 +50,10 @@
                 "title": "Thème personnalisé pour les étiquettes",
                 "description": "Permet de définir une liste de règles pour l'affichage de différents thèmes pour des étiquettes spécifiques",
                 "add": "Ajouter une conception pour les étiquettes",
-                "banner": "Thème de conception {index}",
+                "banner": "Thème de conception {index} - [{isEnabled}]",
                 "is_enabled": {
-                    "enabled": "",
-                    "disabled": ""
+                    "enabled": "Activer",
+                    "disabled": "Désactivé"
                 },
                 "header": {
                     "theme": "Thème personnalisé",
@@ -70,9 +70,9 @@
                     "outline_background_color": "Modifier la couleur du contour",
                     "secondary_font_class": "Modifier la police secondaire",
                     "unread_color": "Modifier la couleur d'arrière-plan des messages non lus",
-                    "opacity_background": "",
-                    "opacity_footer": "",
-                    "opacity_outline": "",
+                    "opacity_background": "Niveau d'opacité de l'arrière-plan",
+                    "opacity_footer": "Niveau d'opacité du pied de page",
+                    "opacity_outline": "Niveau d'opacité des contours",
                     "is_enabled": "Activer le thème de conception"
                 }
             }
