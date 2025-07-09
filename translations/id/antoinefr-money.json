@@ -7,16 +7,16 @@
                 "moneyfordiscussion": "Dana yang diberikan untuk diskusi baru",
                 "moneyname": "Nama money (contoh: [money] points)",
                 "postminimumlength": "Panjang postingan minimum untuk mendapatkan dana (0 untuk menonaktifkan)",
-                "ignore_notifying_users": "",
+                "ignore_notifying_users": "Saat memeriksa jumlah kata balasan, hanya fokus pada bagian konten",
                 "noshowzero": "Jangan tampilkan jika nilainya nol",
                 "autoremove": "Perbarui Dana secara otomatis",
-                "cascaderemove": "",
+                "cascaderemove": "Hapus dana untuk post saat diskusi dihapus",
                 "moneyforlike": "Dana yang diberikan ketika sebuah postingan disukai",
                 "helpextensionlikes": "Membutuhkan ekstensi <code>flarum/likes</code>"
             },
             "permissions": {
                 "edit_money_label": "Mengedit money",
-                "disable_money_label": ""
+                "disable_money_label": "Matikan money"
             },
             "autoremove": [
                 "Jangan pernah menghapus money",
