@@ -6,7 +6,7 @@
                 "title": "Isi Ulang Dana",
                 "amount": "Jumlah",
                 "cost": "",
-                "confirm": "Bayar"
+                "confirm": ""
             },
             "history": {
                 "title": "Riwayat Isi Ulang",
@@ -21,7 +21,7 @@
             "recharge-modal": {
                 "title": "Isi ulang",
                 "amount": "Jumlah",
-                "money": "",
+                "money": "Biaya ￥{amount}",
                 "confirm": ""
             },
             "pay-modal": {
@@ -65,7 +65,7 @@
                 "private-key": "",
                 "use-v2": "",
                 "pid": "",
-                "base_url": ""
+                "base_url": "URL Dasar (Diakhiri dengan /)"
             },
             "other": {
                 "confirm-delete": "Apakah Anda yakin untuk menghapus data ini?",
