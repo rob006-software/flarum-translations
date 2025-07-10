@@ -20,27 +20,27 @@
             "modal": {
                 "submit_title": "Kirim Dependensi Baru",
                 "title_label": "Judul",
-                "title_placeholder": "",
+                "title_placeholder": "misalnya, Awesome Library",
                 "link_label": "Link",
                 "description_label": "Deskripsi",
                 "description_placeholder": "Ringkasan singkat tentang apa yang dilakukan oleh dependensi ini.",
-                "tags_label": "",
+                "tags_label": "Tag Plugin",
                 "tags_help": "Pilih setidaknya satu tag yang relevan.",
                 "submit_button": "Submit"
             }
         },
         "admin": {
             "nav": {
-                "title": "",
-                "description": ""
+                "title": "Kolektor Dependensi",
+                "description": "Mengelola dependensi dan tag plugin yang dikirimkan."
             },
             "page": {
                 "pending_items_title": "Dependensi yang Menunggu Peninjauan",
                 "no_pending_items": "Tidak ada dependensi yang menunggu untuk ditinjau.",
                 "approved_items_title": "Dependensi yang Disetujui",
                 "no_approved_items": "Belum ada dependensi yang disetujui.",
-                "manage_tags_title": "",
-                "no_plugin_tags": ""
+                "manage_tags_title": "Mengelola Tag Plugin",
+                "no_plugin_tags": "Belum ada tag plugin yang dibuat."
             },
             "table": {
                 "title": "Judul",
@@ -81,7 +81,7 @@
             "permissions": {
                 "submit_label": "Submit dependensi",
                 "moderate_label": "Moderasi dependensi (menyetujui, menolak, mengedit, menghapus)",
-                "manage_tags_label": "",
+                "manage_tags_label": "Mengelola tag plugin",
                 "delete_label": "Hapus dependensi",
                 "favorite_items_label": "Dependensi favorit"
             }
