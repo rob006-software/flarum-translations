@@ -60,7 +60,7 @@
                 },
                 "google-cloud": {
                     "api_key": {
-                        "help": "Daftarkan diri Anda untuk mendapatkan API key di {link}. Driver ini menggunakan API V2 - Basic.",
+                        "help": "Daftarkan diri Anda untuk mendapatkan Kunci API di {link}. Driver ini menggunakan API V2 - Basic.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
@@ -74,7 +74,7 @@
                         "label": "Port Server"
                     },
                     "api_key": {
-                        "help": "(opsional) Jika server LibreTranslate Anda memerlukan API key, masukkan di sini.",
+                        "help": "(opsional) Jika server LibreTranslate Anda membutuhkan kunci API, masukkan di sini.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
@@ -161,7 +161,7 @@
                 "libre": "Libre Translate"
             },
             "settings": {
-                "api-key": "API Key"
+                "api-key": "Kunci API"
             }
         }
     }
