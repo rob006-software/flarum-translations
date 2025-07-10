@@ -14,7 +14,7 @@
                 "status_pending": "Tertunda",
                 "status_success": "Berhasil",
                 "status_expired": "Kedaluwarsa",
-                "amount": "",
+                "amount": "￥{amount}",
                 "create": "",
                 "expire": "Kedaluwarsa"
             },
@@ -26,7 +26,7 @@
             },
             "pay-modal": {
                 "title": "",
-                "amount": "",
+                "amount": "￥{amount}",
                 "tip": "Anda akan mengisi ulang {money} ke {u}",
                 "qr": "Pindai Kode QR untuk menyelesaikan pembayaran",
                 "qr-fail": "Gagal memuat Kode QR",
