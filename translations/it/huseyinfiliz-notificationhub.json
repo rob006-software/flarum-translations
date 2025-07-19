@@ -2,64 +2,64 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "Tipi di Notifica"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "Invia notifica a tutti gli utenti",
+                "send_user": "Invia notifica al singolo utente"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "Aggiungi Tipo di Notifica",
+                "no_data": "Nessun tipo di notifica.",
+                "delete_confirm": "Sei sicuro di voler cancellare questo tipo di notifica e tutte le notifiche associate?",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
-                    "active": ""
+                    "actions": "Azioni",
+                    "name": "Nome del Tipo di Notifica",
+                    "excerpt_key": "Estratto di default",
+                    "description": "Descrizione del Tipo di Notifica",
+                    "icon": "Icona di Default",
+                    "default_message_key": "Messaggio di Default",
+                    "permission": "Permesso del Tipo di Notifica",
+                    "color": "Colore del Tipo di Notifica",
+                    "default_url": "Collegamento di Default",
+                    "default_recipients": "Destinatari di Default",
+                    "sort_order": "Ordina",
+                    "active": "Attivo"
                 },
-                "save": "",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "save": "Salva",
+                "edit_notification_type": "Modifica Tipo di Notifica",
+                "add_notification_type": "Aggiungi Tipo di Notifica"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "Invia Notifica",
+                "notification_all": "Invia Notifica"
             },
             "modal_notification": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": ""
+                "title_text": "Invia Notifica",
+                "recipients_label": "Destinatari",
+                "recipients_placeholder": "Scrivi un nome utente o un gruppo...",
+                "message_label": "Messaggio",
+                "url_label": "Link di Destinazione",
+                "url_placeholder": "https://www.esempio.it",
+                "submit_button": "Invia Notifica",
+                "notification_sent_message": "La notifica è stata inviata a {recipientsCount} utenti!",
+                "notification_type_label": "Tipo di Notifica",
+                "no_notification_types": "Nessun tipo di notifica trovato.",
+                "preview_title": "Anteprima Notifica",
+                "preview_message_placeholder": "Messaggio di notifica..."
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "Utente",
+                "group": "Gruppo"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": ""
+            "message_required": "Messaggio obbligatorio.",
+            "user_ids_required": "ID utente obbligatori.",
+            "subject_id_required": "Tipo di Notifica obbligatorio.",
+            "no_valid_recipients": "Nessun destinatario valido."
         }
     }
 }
