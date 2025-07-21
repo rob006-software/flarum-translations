@@ -39,8 +39,8 @@
                     "add": "Alan Ekle",
                     "banner": "Alan {index} - [{isEnabled}]",
                     "is_enabled": {
-                        "enabled": "",
-                        "disabled": ""
+                        "enabled": "Etkinleştir",
+                        "disabled": "Devre dışı"
                     },
                     "header": {
                         "server": "LDAP Sunucu Ayarları",
@@ -75,9 +75,9 @@
                         "user_mail_help": "Kullanıcıların kayıt sırasında kendi e-postalarını ayarlamalarına izin vermek için boş bırakın",
                         "user_nickname_fields": "Alanlarla Takma Ad Ata",
                         "user_nickname_fields_help": "Takma ad (Nickname) uzantısı etkinleştirilmelidir, açılır menü seçeneklerini kullanarak Takma Adı birden çok LDAP alanı ile derleyin. Örneğin, \"givenname,sn\" seçimi \"[Ad] [Soyad]\"ı takma adları olarak atayacaktır",
-                        "permission_groups": "",
-                        "permission_groups_help": "",
-                        "is_enabled": ""
+                        "permission_groups": "Belirli İzinleri Ata",
+                        "permission_groups_help": "Bu, kayıt sırasında uygulanır",
+                        "is_enabled": "LDAP Sunucusunu Etkinleştir"
                     }
                 },
                 "onlyUse": "Flarum standart giriş yöntemini gizle",
