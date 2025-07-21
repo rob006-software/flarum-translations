@@ -2,7 +2,7 @@
     "walsgit_discussion_cards": {
         "forum": {
             "replies": "Yanıtlar: {count}",
-            "unreadReplies": ""
+            "unreadReplies": "Okunmamış yanıtlar: {count}"
         },
         "admin": {
             "settings": {
@@ -29,10 +29,10 @@
                     "previewText_help": "Etkinleştirilirse, ilk mesajın başlangıcını kartta bir önizleme olarak gösterir.",
                     "showAuthor_label": "Yazarı göster",
                     "showAuthor_help": "Etkinleştirilirse, tartışmanın yazarını kartlarda gösterir.",
-                    "showReplies_label": "Yanıt sayısını göster",
-                    "showReplies_help": "Etkinleştirilirse, kartlardaki yanıt sayısını (ve birincil kartlarda tartışmadaki bazı katılımcıların avatarlarını) gösterir.",
-                    "showRepliesOnRight_label": "Yanıtları kart başlığının sağında göster",
-                    "showRepliesOnRight_help": "Seçenek etkinleştirilirse, yanıt sayısını büyük ekranlarda (birincil olmayan) kartların başlığının sağ tarafına yerleştirir (görselin varsayılan sol alt tarafı yerine).",
+                    "showReplies_label": "Yanıtların ya da okunmamış yanıtların sayısını göster",
+                    "showReplies_help": "Etkinleştirildiğinde, kartlarda yanıtların sayısını (ve varsa * ile işaretlenmiş okunmamış yanıtların sayısını) gösterir (ve birincil kartlarda tartışmaya katılan bazı katılımcıların avatarlarını gösterir).",
+                    "showRepliesOnRight_label": "Kartın başlığının sağ tarafında yanıtların sayısını (ve varsa okunmamış yanıtları * ile) gösterin",
+                    "showRepliesOnRight_help": "Bu seçenek etkinleştirildiğinde, yanıtların sayısı (ve varsa * ile işaretlenmiş okunmamış yanıtlar) büyük ekranlarda (birincil olmayan) kartların başlığının sağ tarafına yerleştirilir (varsayılan olarak görüntünün sol alt tarafına değil).",
                     "showLastPostInfo_label": "Son gönderi bilgisini göster",
                     "showLastPostInfo_help": "Seçenek etkinleştirilirse, kartta önizleme metninin altında (veya önizleme metni etkin değilse etiketlerin altında) tartışmanın son gönderisini yapan kullanıcının kullanıcı adını ve tarihini görüntüler.",
                     "showBadges_label": "Rozetleri göster",
@@ -41,11 +41,11 @@
                     "markReadCards_help": "Etkinleştirilirse, okunmuş tartışmalar daha açık bir başlık ve metne sahip olacaktır.",
                     "otherOptions_title": "Diğer eklentiler gerektiren seçenekler",
                     "otherOptions_info": "Aşağıdaki seçeneklerin çalışması için başka eklentilerin kurulu ve etkin olması gerekecektir. <strong>ÖNEMLİ: Lütfen her bir seçenek için <u>tüm</u> bilgileri okuyun ve bunları etkinleştirmeden önce gerekli adımları uygulayın</strong>.",
-                    "showViews_title_start": " ",
-                    "showViews_title_or": "",
+                    "showViews_title_start": "Her iki durumda da ",
+                    "showViews_title_or": " YA DA ",
                     "showViews_title_end": " eklentisi yüklü ve etkin olduğunda, aşağıdaki (1) seçeneği ayarlayabilirsiniz:",
-                    "viewsExtension_notInstalled": "{icon} Bu ayarın çalışması için bu eklentinin yüklü ve etkin olması gerekiyor.",
-                    "viewsExtension_notActivated": "{icon} Bu ayarın çalışması için bu eklentinin etkin olması gerekiyor.",
+                    "viewsExtension_notInstalled": "{icon} Bu ayarın çalışması için bu uzantılardan birinin yüklenmesi ve etkinleştirilmesi gerekir.",
+                    "viewsExtension_notActivated": "{icon} Bu ayarın çalışması için Tartışma Görünümleri uzantısının etkinleştirilmesi gerekir.",
                     "showViews_label": "Görüntülenme sayısını göster",
                     "showViews_help": "Seçenek etkinleştirilirse, kartlardaki görüntülenme sayısını gösterir.",
                     "blogExtension_title_start": " ",
