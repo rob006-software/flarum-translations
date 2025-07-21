@@ -3,15 +3,15 @@
         "admin": {
             "labels": {
                 "design_default": "Tartışma Tasarımı Düzeni",
-                "display_themes": ""
+                "display_themes": "Temalar için Etiket İzni Etkinleştir"
             },
             "helps": {
                 "design_default": "Varsayılan bir tasarım düzeni seçin",
-                "display_themes": ""
+                "display_themes": "Yalnızca belirli gruplar için temalara izin ver"
             },
             "options": {
                 "design_options": {
-                    "none": "",
+                    "none": "Hiçbiri",
                     "sticky_note": "Yapışkan Not",
                     "sticky_note_tag": "Yapışkan Not (Birincil Etiket)",
                     "sticky_note_tab": "Yapışkan Not (Birincil Sekme)",
@@ -36,14 +36,14 @@
                     "flat_border_tag": "Düz Kenar (Ana Etiket)",
                     "flat_border_tab": "Düz Kenar (Ana Sekme)",
                     "flat_border_banner": "Düz Kenar (Ana Afiş)",
-                    "rounded_flat": "",
-                    "rounded_flat_tag": "",
-                    "rounded_flat_tab": "",
-                    "rounded_flat_banner": "",
-                    "rounded_flat_border": "",
-                    "rounded_flat_border_tag": "",
-                    "rounded_flat_border_tab": "",
-                    "rounded_flat_border_banner": ""
+                    "rounded_flat": "Yuvarlak Düz",
+                    "rounded_flat_tag": "Yuvarlatılmış Düz (Birincil Etiket)",
+                    "rounded_flat_tab": "Yuvarlatılmış Düz (Birincil Sekme)",
+                    "rounded_flat_banner": "Yuvarlak Düz (Ana Afiş)",
+                    "rounded_flat_border": "Yuvarlatılmış Düz Kenarlık",
+                    "rounded_flat_border_tag": "Yuvarlatılmış Düz Kenarlık (Birincil Etiket)",
+                    "rounded_flat_border_tab": "Yuvarlatılmış Düz Kenarlık (Birincil Sekme)",
+                    "rounded_flat_border_banner": "Yuvarlatılmış Düz Kenarlık (Birincil Afiş)"
                 }
             },
             "designs": {
@@ -52,8 +52,8 @@
                 "add": "Etiketler için Tasarım Ekle",
                 "banner": "Tasarım Teması {index} - [{isEnabled}]",
                 "is_enabled": {
-                    "enabled": "",
-                    "disabled": ""
+                    "enabled": "Etkinleştir",
+                    "disabled": "Devre dışı"
                 },
                 "header": {
                     "theme": "Özel Tema",
@@ -70,9 +70,9 @@
                     "outline_background_color": "Anahat Rengini Düzenle",
                     "secondary_font_class": "İkincil Yazı Tipini Düzenle",
                     "unread_color": "Okunmamış Arka Plan Rengini Düzenle",
-                    "opacity_background": "",
-                    "opacity_footer": "",
-                    "opacity_outline": "",
+                    "opacity_background": "Arka Plan Opaklık Seviyesi",
+                    "opacity_footer": "Altbilgi Opaklık Seviyesi",
+                    "opacity_outline": "Anahat Opaklık Seviyesi",
                     "is_enabled": "Tasarım Temasını Etkinleştir"
                 }
             }
