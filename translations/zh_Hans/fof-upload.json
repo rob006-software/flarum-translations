@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "用户上传的所有文件。",
+                    "anonymize_description": "去除所有已上传文件的用户关联。之前可访问这些文件的用户仍可访问。",
+                    "delete_description": "删除该用户上传的所有文件。"
                 }
             }
         }
