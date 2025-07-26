@@ -199,6 +199,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `lewuocvi-knox-checker` | [![#1300 (open)](https://img.shields.io/badge/PR-%231300-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1300) |
+There are no dead branches.
