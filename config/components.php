@@ -351,7 +351,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zDaleZ/flarum-msemoji/v1.0.0/locale/en.yml',
 	],
 	'dalez-twemoji' => [
-		'tag' => 'https://raw.githubusercontent.com/DellZHackintosh/flarum-twemoji/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zDaleZ/flarum-twemoji/v1.0.0/locale/en.yml',
 	],
 	'danirod-plausible' => [
 		'tag' => 'https://raw.githubusercontent.com/danirod/flarum-plausible/v1.1.0/locale/en.yml',
