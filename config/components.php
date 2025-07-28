@@ -348,7 +348,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zDaleZ/flarum-identityagent/v1.0.0/locale/en.yml',
 	],
 	'dalez-msemoji' => [
-		'tag' => 'https://raw.githubusercontent.com/zDaleZ/flarum-msemoji/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zDaleZ/flarum-msemoji/v1.0.1/locale/en.yml',
 	],
 	'dalez-twemoji' => [
 		'tag' => 'https://raw.githubusercontent.com/zDaleZ/flarum-twemoji/v1.0.0/locale/en.yml',
