@@ -12,9 +12,9 @@
                 "url_help": "Sinu YouTracki URL. Näidis: https://example.youtrack.cloud/",
                 "token_help": "Sinu YouTrack API püsiv kontrollkood. Võid selle omale luua YouTrack profiili seadetest.",
                 "project_help": "Projekti ID, mida sa soovid jälgida. Leiad selle projekti lehe URL-ist.",
-                "state_field_help": "",
+                "state_field_help": "Välja nimi sinu YouTrack projektis, mis näitab probleemi staatust.\nSeda kasutatakse probleemi staatuse tuvastamiseks.\nMuutuja [Resolved_State] asendatakse Lahendatud staatuse välja väärtusega.\nNäide: Lisatud,Avatud|Taasavatud,Arutluse all,Töös,[Resolved_State]\n",
                 "resolved_state_help": "Staatuse välja väärtus, mis näitab probleemi lahendamise staatust.\nNäidis: Done|Fixed|Resolved\n",
-                "fields_mapping_help": ""
+                "fields_mapping_help": "Sinu YouTrack projekti välja SimpleIssueCustomField sidumine tavaliste väljadega.\nVorming on: SimpleIssueCustomField Nimi:Normal Field Name\nNäide: Algne autor:author.display_name,Algse autori e-post:author.email,Algne täideviija:assignee.display_name\n"
             }
         }
     }
