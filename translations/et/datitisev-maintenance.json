@@ -20,7 +20,7 @@
                 "error_page_file_label": "Veateate lehekülje asukoht",
                 "error_page_file_hint": "Asukoht Flarumi põhikaustas - kus asuvad kaustad <code>vendor</code> ja <code>storage</code>.",
                 "error_page_label": "Veateate leht HTML/Blade",
-                "error_page_hint": ""
+                "error_page_hint": "Blade-ga saad kasutada muutujaid $app, $translator, $settings, $title ja $message."
             },
             "permissions": {
                 "allow_bypass_maintenance_label": "Mine hooldusrežiimist mööda (seade peab olema sisse lülitatud)"
