@@ -24,8 +24,8 @@
                 "options_color_blend_help": "Kasuta seda valikut, et teha küsitluse vastusevariandid paremini loetavaks. Lülita see valik välja, kui see põhjustab mingeid probleeme sinu foorumi välimusega.",
                 "image_height": "Muuda pildi kõrgust",
                 "image_width": "Muuda pildi laiust",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": ""
+                "enabled_poll_groups": "Lülita vestluste grupid sisse",
+                "enabled_poll_groups_help": "Küsitluste grupid võimaldavad üldiseid küsitlusi grupeerida ja neid koos vastaval lehel näidata."
             },
             "permissions": {
                 "view_results_without_voting": "Vaata tulemusi ilma hääletamata",
@@ -37,9 +37,9 @@
                 "vote": "Vasta küsitlusele",
                 "change_vote": "Muuda vastust",
                 "moderate": "Muuda ja eemalda küsitlusi",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_group": "Vaata vestluste gruppe",
+                "start_group": "Loo küsitluse grupp",
+                "moderate_group": "Muuda ja eemalda küsitluste gruppe"
             }
         },
         "forum": {
@@ -140,7 +140,7 @@
             "page": {
                 "nav": "Küsitlused",
                 "nav-all": "Kõik üldised küsitlused",
-                "nav-groups": ""
+                "nav-groups": "Küsitluste grupid"
             },
             "showcase": {
                 "active-polls": "Aktiivsed küsitlused",
@@ -161,31 +161,31 @@
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "add_title": "Lisa küsitluse grupp",
+                    "edit_title": "Muuda küsitluse gruppi",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Kustuta küsitluse grupp",
+                    "groups_manager": "Küsitluste gruppide haldamine",
+                    "view_group": "Vaata küsitluste gruppe",
+                    "success": "Küsitluste grupp on salvestatud."
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "Küsitluste grupid",
+                    "start_poll_group_button": "Alusta küsitluste gruppi",
+                    "cannot_start_poll_group_button": "Küsitluste gruppi ei saa alustada",
+                    "empty_text": "Näib, et siin pole küsitluste gruppe.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Selles grupis pole küsitlusi.",
+                    "add_poll_button": "Lisa küsitluste grupp"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "add_poll_label": "Lisa küsitlus",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Vaata küsitluste gruppi",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Oled sa kindel, et soovid selle küsitluste grupi kustutada?",
+                    "delete_success_message": "Küsitluste grupp on kustutatud.",
+                    "delete_error_message": "Küsitluste grupi kustutamisel läks midagi valesti."
                 }
             }
         }
