@@ -1126,7 +1126,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/maicol07-oidc-client.yml',
 	],
 	'maicol07-sso' => [
-		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.11.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.11.6/locale/en.yml',
 	],
 	'malago-achievements' => [
 		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-achievements/0.5.6/locale/en.yml',
