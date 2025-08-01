@@ -14,7 +14,7 @@
                     "delete_posts_label": "Hapus post",
                     "delete_posts_help": "Ini akan menghapus secara permanen semua postingan yang dibuat oleh pengguna ini. Ketika dinonaktifkan, postingan akan dihapus sementara.",
                     "heading": "Tindakan moderasi bawaan",
-                    "introduction": "Jika seorang pengguna ditandai sebagai pengirim spam, moderator dapat memilih beberapa tindakan untuk menghadapi kasus tertentu. Pengaturan ini membolehkan anda untuk mengatur kembali tindakan normal yang biasa diputuskan, untuk mempercepat proses, akan tetapi juga memperbolehkan sebagai variasi yang dibutuhkan.\n",
+                    "introduction": "Ketika seorang pengguna ditandai sebagai spammer, moderator dapat memilih dari berbagai tindakan untuk menangani kasus tertentu. Pengaturan ini memungkinkan Anda untuk menetapkan tindakan yang biasanya akan diambil secara umum, guna mempercepat proses, namun juga memungkinkan penyesuaian sesuai kebutuhan.\n",
                     "move_discussions_to_tags_label": "Memindahkan diskusi ke tag",
                     "move_discussions_to_tags_help": "Ini akan memindahkan semua diskusi yang dimulai oleh pengguna ini ke tag yang Anda tentukan. Hapus pilihan tag untuk membiarkan diskusi tetap berada di tag aslinya. Tidak berpengaruh jika opsi 'Hapus diskusi' diaktifkan."
                 },
@@ -25,7 +25,7 @@
                     "ip_label": "Periksa Alamat IP Spam",
                     "email_label": "Periksa Email Spam",
                     "frequency_label": "Batasan",
-                    "frequency_help": "Jumlah laporan spam diantara semua pemeriksaan aktif yang akan menggagalkan filter spam.\nMisal: Jika email mendapatkan 1 hit, dan ip mendapatkan 2 hit, maka akan ada total 3 hit. Jika ambang batas diatur ke 3 atau kurang, kami akan mencegah pendaftaran.\n",
+                    "frequency_help": "Jumlah laporan spam dari semua pemeriksaan yang diaktifkan yang akan memicu filter spam.\nContoh: Jika email memiliki 1 hit, dan IP memiliki 2 hit, totalnya akan menjadi 3 hit. Jika ambang batas diatur menjadi 3 atau kurang, kami akan mencegah pendaftaran.\n",
                     "api_key_label": "Kunci API",
                     "api_key_text": "Anda memiliki opsi untuk melaporkan pengirim spam ke StopForumSpam untuk menjaga komunitas forum yang lebih besar dari spam.",
                     "api_key_instructions_text": "<register>Daftar ke StopForumSpam</register>. Kemudian Anda perlu <key>mendapatkan Kunci API</key>.",
@@ -35,11 +35,11 @@
                     "region_europe_label": "Eropa",
                     "region_us_label": "Amerika Serikat",
                     "confidence_label": "Nilai Confidence",
-                    "confidence_help": "Nilai confidence adalah indikator yang cukup baik bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Tetapkan tingkat confidence Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari pengujian ' frequency ' di atas.",
+                    "confidence_help": "Nilai confidence merupakan indikator yang cukup baik untuk menunjukkan bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Atur tingkat confidence Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari hasil uji ‘frekuensi’ di atas.",
                     "email_hash_label": "Gunakan alamat email yang di-hash",
                     "email_hash_help": "Masukkan hash MD5 dari alamat email jika Anda tidak ingin menyertakan alamat email secara langsung. Metode ini akan melewati semua daftar hitam, normalisasi, dan obfuscation check.",
                     "sfs_lookup_label": "Mencari pendaftaran",
-                    "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database StopForumSpam ketika pengguna baru melakukan pendaftaran di forum Anda. Jika pengguna ditemukan ( username, alamat IP, email) dan data point tersebut diaktifkan bersama dengan SFS confidence level mencapai level yang Anda tentukan, maka pengguna tersebut akan dicegah untuk menyelesaikan pendaftarannya.",
+                    "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database StopForumSpam saat pengguna baru mendaftar di forum Anda. Jika pengguna tersebut terdeteksi (username, alamat IP, email) dan data tersebut diaktifkan bersama dengan tingkat SFS confidence mencapai tingkat yang Anda tentukan, mereka akan dicegah untuk menyelesaikan pendaftaran mereka.",
                     "report_blocked_registrations_label": "Laporkan pendaftaran yang diblokir",
                     "report_blocked_registrations_help": "Ketika sebuah pendaftaran diblokir oleh fitur Penelusuran Pendaftaran, kami akan melaporkan upaya tersebut ke StopForumSpam, sehingga aktivitas spammer dapat dikonfirmasi dengan lebih baik. Dibutuhkan kunci API StopForumSpam yang telah diatur (lihat di bawah)."
                 }
