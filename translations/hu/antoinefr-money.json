@@ -7,16 +7,16 @@
                 "moneyfordiscussion": "Új témáért adott pénz",
                 "moneyname": "A pénz neve (például [pénz] pontok)",
                 "postminimumlength": "A bejegyzés legrövidebb hossza, amely pénzt ér (0 a letiltáshoz)",
-                "ignore_notifying_users": "",
+                "ignore_notifying_users": "A válaszok szószámának ellenőrzésekor fókuszálás csak a tartalmi szakaszra",
                 "noshowzero": "Ne jelenítse meg, ha az érték nulla",
                 "autoremove": "Pénz automatikus frissítése",
-                "cascaderemove": "",
+                "cascaderemove": "Bejegyzésekhez tartozó pénz eltávolítása, ha a téma törlésre kerül",
                 "moneyforlike": "Az adott pénz, ha egy bejegyzést kedvelik",
                 "helpextensionlikes": "A <code>flarum/likes</code> bővítmény szükséges hozzá"
             },
             "permissions": {
                 "edit_money_label": "Pénz szerkesztése",
-                "disable_money_label": ""
+                "disable_money_label": "Pénz letiltása"
             },
             "autoremove": [
                 "Sose távolítsa el a pénzt",
