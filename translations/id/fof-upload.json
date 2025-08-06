@@ -97,10 +97,10 @@
                     "toggle": "Gambar watermark"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "Sanitasi SVG",
+                    "allow_animate": "Izinkan animasi SVG",
+                    "help": "Konfigurasikan cara file SVG diproses dan dibersihkan saat diunggah. File SVG dapat mengandung skrip berbahaya dan harus ditangani dengan hati-hati. File SVG yang diunggah akan dibersihkan saat diunggah, dan skrip serta tag berbahaya akan dihapus.",
+                    "allow_animate_help": "Mengaktifkan animasi SVG dapat menimbulkan kerentanan keamanan karena SVG animasi dapat mengandung kode berbahaya. Aktifkan pengaturan ini dengan risiko Anda sendiri dan hanya jika Anda mempercayai pengguna Anda."
                 },
                 "composer_buttons": {
                     "title": "Tombol",
