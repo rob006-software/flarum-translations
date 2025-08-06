@@ -5,8 +5,8 @@
                 "warning": {
                     "title": "Ez a téma több mint <b>{time}os</b>.",
                     "description": "Nagyon valószínű, hogy nincs szükség a további beszélgetésre, így a téma kiemelésének nincs értelme.",
-                    "cta": "",
-                    "cta_button": "",
+                    "cta": "Inkább új témát indít?",
+                    "cta_button": "=> core.ref.start_a_discussion",
                     "checkbox_label": "Tisztában vagyok vele, hogy ez a téma elég régi, de továbbra is szeretnék hozzászólni.",
                     "error": "Ez a téma túl régi ahhoz, hogy válaszoljon."
                 }
@@ -14,8 +14,8 @@
         },
         "admin": {
             "settings": {
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
+                "show_discussion_cta_label": "Felhívás megjelenítése",
+                "show_discussion_cta_help": "Felhívás megjelenítése ha olyan témára válaszolnak, amely a megadott számú napnál régebbi, és nincs hozzá egyéni leírás megadva.",
                 "days_label": "Napok",
                 "days_help": "A témák régiként lesznek megjelölve, ha a megadott számú nap eltelt a téma legutóbbi bejegyzése óta. Használja a <code>0</code>-t az alapértelmezés szerinti letiltáshoz.",
                 "message_title_label": "Egyéni üzenetcím",
