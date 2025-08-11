@@ -65,8 +65,8 @@
                         "session-driver": ""
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
+                        "active": "Активно",
+                        "inactive": "Неактивно",
                         "never-run": "Никогаш извршен(и)"
                     }
                 },
@@ -79,7 +79,7 @@
             },
             "edit_css": {
                 "customize_text": "",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "Измени CSS"
             },
             "edit_footer": {
@@ -142,14 +142,14 @@
                     "support": "Поддршка",
                     "website": "Сајт"
                 },
-                "no_permissions": "",
-                "no_settings": "",
+                "no_permissions": "Оваа екстензија нема привилегии.",
+                "no_settings": "Оваа екстензија нема подесувања.",
                 "open_modal": "Отвори подесувања",
                 "permissions_title": "Привилегии",
                 "purge_button": "Избриши",
                 "readme": {
                     "button_label": "README",
-                    "no_readme": "",
+                    "no_readme": "Оваа екстензија нема README документ.",
                     "title": "Документација за {extName}"
                 }
             },
@@ -196,7 +196,7 @@
                 "delete_discussions_label": "Бришење на дискусии",
                 "delete_posts_forever_label": "Трајно бришење на мислења",
                 "delete_posts_label": "Бришење на мислења",
-                "description": "",
+                "description": "Подеси кој што може да гледа и прави.",
                 "edit_posts_label": "",
                 "edit_users_label": "",
                 "edit_users_credentials_label": "",
