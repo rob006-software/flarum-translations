@@ -1245,6 +1245,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`xypp-user-decoration`](https://weblate.rob006.net/projects/flarum/xypp-user-decoration) | [`xypp/user-decoration`](https://github.com/zxy19/user-decoration) |
 | [`yippy-auth-ldap`](https://weblate.rob006.net/projects/flarum/yippy-auth-ldap) | [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap) |
 | [`yippy-tag-with-themes`](https://weblate.rob006.net/projects/flarum/yippy-tag-with-themes) | [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes) |
+| [`zhihe-primary-posts`](https://weblate.rob006.net/projects/flarum/zhihe-primary-posts) | [`zhihe/primary-posts`](https://github.com/echolocked/zhihe-primary-posts) |
 | [`ziiven-daily-check-in`](https://weblate.rob006.net/projects/flarum/ziiven-daily-check-in) | [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in) |
 | [`ziiven-fireworks`](https://weblate.rob006.net/projects/flarum/ziiven-fireworks) | [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks) |
 | [`ziiven-money-leaderboard`](https://weblate.rob006.net/projects/flarum/ziiven-money-leaderboard) | [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard) |
