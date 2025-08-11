@@ -227,6 +227,7 @@ return [
 		'!xypp-store-doorman',
 		'!xypp-store-group',
 		'!xypp-user-decoration',
+		'!zhihe-primary-posts',
 		'!ziiven-decoration-store',
 		'!ziiven-fireworks',
 		'!ziiven-money-leaderboard',
