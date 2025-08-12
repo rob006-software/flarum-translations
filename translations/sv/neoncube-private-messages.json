@@ -2,61 +2,61 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "return_key_help": "",
-                "show_read_receipts": "",
-                "show_read_receipts_help": "",
-                "sender_background_color": "",
-                "recipient_background_color": "",
-                "sender_text_color": "",
-                "recipient_text_color": "",
-                "enable_custom_colors": ""
+                "return_key": "Enter-knappen skickar meddelandet",
+                "return_key_help": "Detta gör så att Enter-knappen skickar ett meddelande. Om detta är avaktiverat görs istället en ny rad, och användaren behöver trycka på knappen \"Skicka meddelande\" för att sända.",
+                "show_read_receipts": "Visa när mottagaren har läst",
+                "show_read_receipts_help": "Visa en checkbox bredvid meddelandet när mottagaren har läst det.",
+                "sender_background_color": "Bakgrundsfärg för skickade meddelanden:",
+                "recipient_background_color": "Bakgrundsfärg för mottagna meddelanden:",
+                "sender_text_color": "Färg på texten för skickade meddelanden:",
+                "recipient_text_color": "Färg på texten för mottagna meddelanden:",
+                "enable_custom_colors": "Aktivera egna färger"
             },
             "permissions": {
-                "start_label": "",
-                "allow_users_to_receive_email_notifications": ""
+                "start_label": "Starta privata konversationer",
+                "allow_users_to_receive_email_notifications": "Tillåt användaren ta emot mejlmeddelanden när denne har fått ett privat meddelande"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Meddelanden"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Starta ett meddelande",
+                "help": "Skriv in ett användarnamn för att börja chatta.",
+                "help_start": "Skriv ditt första meddelande. Det här kommer vara det enda meddelandet som du kan skicka tills {username} svarar. Tryck på användare för att välja en annan mottagare.",
+                "search_recipients": "Skriv in användarnamn...",
+                "submit": "Skicka & Starta meddelande",
+                "copied": "Ditt meddelande har blivit kopierat till urklippet.",
+                "more_users": "Om du inte ser användaren som du letar efter, har de inte satt upp för privata meddelanden.",
+                "already": "Du har redan ett samtal med {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "message_read": ""
+                "messages_single": "Nytt samtal",
+                "messages_multiple": "Totalt antal meddelanden: {count}",
+                "chat_with": "Chatta med {username}",
+                "start": "Starta samtal",
+                "start_of_conversation": "Start av samtal",
+                "read": "Läs",
+                "cant_start": "Kan inte starta samtal",
+                "text_placeholder": "Skriv ditt meddelande",
+                "send": "Skicka meddelande",
+                "message_read": "Meddelandet har blivit läst"
             },
             "notifications": {
-                "message_received": "",
-                "new_private_message": "",
+                "message_received": "Testa",
+                "new_private_message": "Någon skickar meddelande till mig",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "Meddelande från {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
-                        "manageEmailSettings": ""
+                        "subject": "Meddelande från {user}",
+                        "youHaveReceivedNewMessage": "Du har tagit emot ett nytt meddelande från {user}!",
+                        "viewMessage": "Visa meddelande",
+                        "manageEmailSettings": "Hantera mejlinställningar"
                     }
                 }
             }
