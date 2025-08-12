@@ -8,51 +8,51 @@
                 "title": "=> fof-user-directory.forum.page.nav"
             },
             "search": {
-                "users_heading": "",
+                "users_heading": "Sök alla användare för \"{query}\"",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "Sök alla användare"
                 },
                 "kinds": {
-                    "group": "",
-                    "text": ""
+                    "group": "Grupp",
+                    "text": "Fritext"
                 }
             },
             "page": {
-                "nav": "",
-                "refresh_tooltip": "",
-                "load_more_button": "",
-                "empty_text": "",
-                "filter_button": "",
+                "nav": "Användarkatalogen",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Vi kunde inte hitta någon användare som matchade din sökning.",
+                "filter_button": "Filtrera grupper",
                 "usercard": {
-                    "discussion-count": "",
+                    "discussion-count": "{count, plural, one { {count} discussion} other {{count} discussions}}",
                     "post-count": ""
                 }
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "Visa användarkatalog"
             },
             "settings": {
-                "link": "",
-                "default-sort": "",
-                "use-small-cards": "",
-                "disable-global-search-source": "",
-                "link-group-mentions": ""
+                "link": "Lägg till länk på hemsida för användare att kunna se katalogen",
+                "default-sort": "Standardsortering",
+                "use-small-cards": "Använd små användarkort",
+                "disable-global-search-source": "Lägg inte till Användarkatalog till Flarums globala sökfält",
+                "link-group-mentions": "Länk för att uppmärksamma grupp i inlägg till Användarkatalogen"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": ""
+                "not_specified": "Använd Flarumstandarden",
+                "default": "Standard",
+                "username_az": "Användarnamn (a-z)",
+                "username_za": "Användarnamn (z-a)",
+                "newest": "Nyaste",
+                "oldest": "Äldsta",
+                "most_posts": "Mest inlägg",
+                "least_posts": "Minst inlägg",
+                "most_discussions": "Flest diskussioner",
+                "least_discussions": "Minst diskussioner"
             }
         }
     }
