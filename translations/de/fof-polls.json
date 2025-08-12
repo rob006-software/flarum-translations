@@ -12,34 +12,34 @@
                 },
                 "image": {
                     "heading": "Bildeinstellungen",
-                    "help": ""
+                    "help": "Diese Einstellungen steuern die Bildeinstellungen für Umfragen."
                 },
                 "allow_option_image": "Erlaube die Angabe einer Bild-URL für jede Umfrageoption",
-                "allow_image_uploads": "",
-                "allow_image_uploads_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
+                "allow_image_uploads": "Bilder-Uploads für Umfragen und deren Optionen erlauben",
+                "allow_image_uploads_help": "Wenn aktiviert, können Benutzer Bilder hochladen und zusätzlich eine Bild-URL angeben (wenn für Optionen aktiviert, ist dies immer für die Umfrage selbst aktiviert).",
+                "enable_global_polls": "Globale Umfragen aktivieren",
+                "enable_global_polls_help": "Globale Umfragen sind nicht an einen bestimmten Beitrag gebunden und können über eine spezielle Umfragen-Seite aufgerufen werden.",
                 "max_options": "Maximale Anzahl von Optionen pro Umfrage",
                 "options_color_blend": "Textfarbe in Umfrageoptionen für bessere Lesbarkeit anpassen",
                 "options_color_blend_help": "Mit dieser Funktion kannst du durch Farbmischen die Umfrageoptionen besser lesbar machen. Deaktiviere diese Funktion wenn sie dein Forum seltsam aussehen lässt und die Lesbarkeit verringert.",
-                "image_height": "",
-                "image_width": "",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": ""
+                "image_height": "Bildhöhe anpassen",
+                "image_width": "Bildbreite anpassen",
+                "enabled_poll_groups": "Umfragegruppen aktivieren",
+                "enabled_poll_groups_help": "Umfragegruppen ermöglichen es Ihnen, globale Umfragen zu gruppieren und auf einer speziellen Seite anzuzeigen."
             },
             "permissions": {
                 "view_results_without_voting": "Ergebnisse anzeigen ohne abzustimmen",
                 "start": "Umfragen starten",
-                "start_global": "",
+                "start_global": "Globale Umfrage starten",
                 "self_edit": "Erstellte Umfragen bearbeiten (erfordert die Berechtigung zum Bearbeiten von Beiträgen)",
                 "self_post_edit": "Bearbeiten *aller* Umfragen in eigenen Beiträgen (erfordert die Berechtigung zum Bearbeiten von Beiträgen)",
-                "upload_images": "",
+                "upload_images": "Nutzern erlauben, Bilder für Umfragen hochzuladen",
                 "vote": "In Umfragen abstimmen",
                 "change_vote": "Stimme ändern",
                 "moderate": "Umfragen bearbeiten & entfernen",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_group": "Umfragegruppen anzeigen",
+                "start_group": "Umfragegruppen erstellen",
+                "moderate_group": "Umfragegruppen bearbeiten & entfernen"
             }
         },
         "forum": {
@@ -50,31 +50,31 @@
             "max_votes_allowed": "In der Umfrage kann für {max, plural, one {# Option} other {# Optionen}} abgestimmt werden.",
             "polls_count": "",
             "poll_never_ends": "",
-            "answers": "",
+            "answers": "Antworten",
             "poll": {
                 "cannot_change_vote": "Du kannst deine Stimme nach dem Abstimmen nicht mehr ändern.",
                 "submit_button": "Abstimmen",
-                "start_poll_button": "",
-                "cannot_start_poll_button": "",
-                "total_votes": ""
+                "start_poll_button": "Globale Umfrage starten",
+                "cannot_start_poll_button": "Umfrage kann nicht gestartet werden",
+                "total_votes": "{count, plural, one {# Stimme wurde abgegeben} other {# Stimmen wurden abgegeben}}"
             },
             "poll_controls": {
                 "edit_label": "",
                 "delete_label": "",
                 "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "delete_confirmation": "Bist du sicher, dass du diese Umfrage löschen möchtest?",
+                "delete_success_message": "Umfrage erfolgreich gelöscht.",
+                "delete_error_message": "Beim Löschen der Umfrage ist etwas schiefgelaufen."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Umfrage löschen",
+                "error": "Beim Speichern der Umfrage ist ein Fehler aufgetreten, bitte kontaktieren Sie einen Administrator."
             },
             "polls_page": {
-                "title": ""
+                "title": "Umfragen"
             },
             "polls_list": {
-                "empty_text": "",
+                "empty_text": "Es sieht so aus, als gäbe es hier keine gemeinschaftsweiten Umfragen.",
                 "load_more_button": ""
             },
             "composer_discussion": {
@@ -83,12 +83,12 @@
                 "no_permission_alert": "Du verfügst nicht über die Berechtigung, eine Umfrage zu starten."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Umfrage hinzufügen",
+                "edit_title": "Umfrage bearbeiten",
+                "polls_manager": "Umfragenmanager",
+                "polls_preview": "Umfrage ansehen",
+                "continue_editing": "Bearbeitung fortsetzen",
+                "success": "Umfrage erfolgreich gespeichert."
             },
             "modal": {
                 "add_title": "Umfrage hinzufügen",
@@ -185,7 +185,7 @@
                     "delete_label": "",
                     "delete_confirmation": "",
                     "delete_success_message": "",
-                    "delete_error_message": ""
+                    "delete_error_message": "Beim Löschen der Umfragegruppe ist etwas schiefgelaufen."
                 }
             }
         }
