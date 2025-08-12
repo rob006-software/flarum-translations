@@ -1467,6 +1467,9 @@ return [
 	'zhihe-primary-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-primary-posts/v1.0.3/locale/en.yml',
 	],
+	'zhihe-restricted-posts' => [
+		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-restricted-posts/v1.0.0/locale/en.yml',
+	],
 	'ziiven-daily-check-in' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.7/locale/en.yml',
 	],
