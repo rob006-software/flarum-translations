@@ -2,54 +2,54 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "新しい認証方式",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "ホスト",
+                    "host_placeholder": "例: extiverse.com",
+                    "submit_button": "送信",
+                    "token_label": "トークン",
+                    "type_label": "種類",
+                    "unchanged_token_placeholder": "(未変更)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "本当にこの認証方式を削除しますか？",
+                "delete_label": "認証方式を削除",
+                "edit_label": "認証方式を編集",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "ホスト",
+                    "token": "トークン"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "認証方式が設定されていません。これは、プライベートリポジトリからのインストールを可能にする高度なオプション機能です。",
+                "remove_button_label": "認証方式を削除",
+                "title": "認証方式",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "リポジトリを追加",
+                "delete_repository_confirmation": "本当にこのリポジトリを削除しますか？このリポジトリからインストールされた全ての拡張機能は削除されます。",
+                "delete_repository_label": "リポジトリを削除",
+                "edit_repository_label": "リポジトリを編集",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "最低安定度",
+                    "help": "インストールが許可されるパッケージの種類。何をしているのか理解せずに、この設定を変更しないでください。",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stable (推奨)",
+                        "rc": "Release Candidate",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "リポジトリ",
+                    "help": "パッケージのインストール元となるリポジトリを追加します。これは高度な機能であり、信頼できないリポジトリは追加しないでください。サーバー上で悪意のあるコードを実行するために使用される可能性があります。\n",
                     "types": {
-                        "composer": "",
+                        "composer": "composer",
                         "vcs": "",
                         "path": ""
                     },
