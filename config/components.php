@@ -780,6 +780,9 @@ return [
 	'gtdxyz-login' => [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-login/1.0.2/locale/en.yml',
 	],
+	'hamcq-mathren' => [
+		'tag' => 'https://raw.githubusercontent.com/HamCQ/flarum-mathren/1.0.10/locale/en.yml',
+	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
