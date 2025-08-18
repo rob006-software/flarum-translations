@@ -109,7 +109,7 @@
                 "addresses_heading": "Adresser",
                 "description": "Konfigurer driveren, innstillinger, og adressene forumet ditt vil bruke for å sende epost.",
                 "driver_heading": "Velg en driver",
-                "driver_label": "",
+                "driver_label": "Driver",
                 "from_label": "Avsender",
                 "mail_encryption_label": "Kryptering",
                 "mail_host_label": "Vært",
@@ -477,11 +477,11 @@
                 "session_termination_failed": "En feil oppstod under terminering av sesjoner.",
                 "show_access_token": "Se token",
                 "terminate_all_other_sessions": "Avslutt alle andre sesjoner",
-                "terminate_all_other_sessions_confirmation": "",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
                 "terminate_session": "Avslutt",
-                "title": "",
+                "title": "=> core.ref.security",
                 "token_revoked": "Token trukket tilbake.",
-                "token_item_title": "",
+                "token_item_title": "{title} - {token}",
                 "token_title_placeholder": "/"
             },
             "settings": {
