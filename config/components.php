@@ -802,7 +802,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/private-profile/v1.1/locale/en.yml',
 	],
 	'huseyinfiliz-sticky-title' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/v0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/v0.5/locale/en.yml',
 	],
 	'ianm-boring-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/1.0.1/locale/en.yml',
