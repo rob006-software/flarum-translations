@@ -97,10 +97,10 @@
                     "toggle": "Filigran görseli"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "SVG Temizleyici",
+                    "allow_animate": "SVG animasyonlarına izin ver",
+                    "help": "SVG dosyalarının yüklendiğinde nasıl işlendiğini ve temizlendiğini yapılandırın. SVG dosyaları potansiyel olarak zararlı betikler içerebilir ve dikkatle ele alınmalıdır. Yüklenen SVG'ler yükleme sırasında temizlenir ve zararlı betikler ile etiketler kaldırılır.",
+                    "allow_animate_help": "SVG animasyonlarını etkinleştirmek güvenlik açıklarına yol açabilir çünkü animasyonlu SVG’ler kötü amaçlı kod içerebilir. Bu ayarı kendi sorumluluğunuzda etkinleştirin ve yalnızca kullanıcılarınıza güveniyorsanız kullanın."
                 },
                 "composer_buttons": {
                     "title": "Düzenleyici düğmeleri",
