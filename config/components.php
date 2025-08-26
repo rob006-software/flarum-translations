@@ -792,6 +792,9 @@ return [
 	'huseyinfiliz-flagify' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/flagify/0.1/locale/en.yml',
 	],
+	'huseyinfiliz-guest' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/guest/v2.1/locale/en.yml',
+	],
 	'huseyinfiliz-modern-footer' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v0.8/resources/locale/en.yml',
 	],
