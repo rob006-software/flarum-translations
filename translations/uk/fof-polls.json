@@ -24,8 +24,8 @@
                 "options_color_blend_help": "Використовуйте цю опцію для змішування кольорів, щоб зробити варіанти опитування більш читабельними. Вимкніть, якщо ця функція спричиняє проблеми із зовнішнім виглядом вашого форуму, погіршуючи його читабельність.",
                 "image_height": "Змінити висоту зображення",
                 "image_width": "Змінити ширину зображення",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": ""
+                "enabled_poll_groups": "Увімкнути групи опитування",
+                "enabled_poll_groups_help": "Групи опитувань дозволяють групувати глобальні опитування разом і відображати їх на окремій сторінці."
             },
             "permissions": {
                 "view_results_without_voting": "Перегляд результатів без голосування",
@@ -37,9 +37,9 @@
                 "vote": "Голосування в опитуваннях",
                 "change_vote": "Змінити голос",
                 "moderate": "Редагувати та видаляти опитування",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_group": "Переглянути групи опитувань",
+                "start_group": "Створити групи для опитування",
+                "moderate_group": "Редагувати та видаляти групи опитувань"
             }
         },
         "forum": {
@@ -140,7 +140,7 @@
             "page": {
                 "nav": "Опитування",
                 "nav-all": "Всі глобальні опитування",
-                "nav-groups": ""
+                "nav-groups": "Групи опитування"
             },
             "showcase": {
                 "active-polls": "Активні опитування",
@@ -161,31 +161,31 @@
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "add_title": "Додати групу опитування",
+                    "edit_title": "Редагувати групу опитування",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Видалити групу опитування",
+                    "groups_manager": "Менеджер груп опитування",
+                    "view_group": "Переглянути групу опитування",
+                    "success": "Групу опитування успішно збережено."
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "Групи опитування",
+                    "start_poll_group_button": "Створити групу для опитування",
+                    "cannot_start_poll_group_button": "Не вдається створити групу для опитування",
+                    "empty_text": "Виглядає так, що тут немає жодних груп опитування.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "У цій групі немає опитувань.",
+                    "add_poll_button": "Додати опитування до групи"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "add_poll_label": "Додати опитування",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Переглянути групу опитування",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Ви впевнені, що хочете видалити цю групу опитування?",
+                    "delete_success_message": "Групу опитування успішно видалено.",
+                    "delete_error_message": "Щось пішло не так під час видалення групи опитування."
                 }
             }
         }
