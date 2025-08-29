@@ -14,17 +14,17 @@
                     "heading": "Afbeelding instellingen",
                     "help": "Deze instellingen bepalen de afbeelding instellingen van peilingen."
                 },
-                "allow_option_image": "Sta een afbeelding-URL toe voor elke peiling optie",
-                "allow_image_uploads": "Sta toe om afbeeldingen te uploaden voor peilingopties",
+                "allow_option_image": "Sta een afbeelding-URL toe voor elke peiling-optie",
+                "allow_image_uploads": "Sta toe om afbeeldingen te uploaden voor peiling-opties",
                 "allow_image_uploads_help": "Als dit is ingeschakeld, kunnen gebruikers afbeeldingen uploaden en een URL voor de afbeelding opgeven (als dit is ingeschakeld voor de opties, is dit altijd ingeschakeld voor de peiling zelf).",
                 "enable_global_polls": "Globale peilingen inschakelen",
                 "enable_global_polls_help": "Globale peilingen zijn niet gebonden aan een specifieke post en kan worden bezocht op een specifieke peilingspagina.",
                 "max_options": "Maximale hoeveelheid opties per peiling",
-                "options_color_blend": "Tekst kleur mengen in peilingopties",
-                "options_color_blend_help": "Gebruik deze functie om kleurmenging te gebruiken om de pollopties leesbaarder te maken. Schakel deze functie uit als deze problemen veroorzaakt met de weergave van je forum, waardoor de leesbaarheid afneemt.",
+                "options_color_blend": "Tekst kleur mengen in peiling-opties",
+                "options_color_blend_help": "Gebruik deze functie om kleurmenging te gebruiken om de peiling-opties leesbaarder te maken. Schakel deze functie uit als deze problemen veroorzaakt met de weergave van je forum, waardoor de leesbaarheid afneemt.",
                 "image_height": "Afbeeldingshoogte aanpassen",
                 "image_width": "Afbeeldingsbreedte aanpassen",
-                "enabled_poll_groups": "Ingeschakelde peiling groepen",
+                "enabled_poll_groups": "Ingeschakelde peiling-groepen",
                 "enabled_poll_groups_help": "Selecteer welke groepen peilingen kunnen maken"
             },
             "permissions": {
@@ -37,9 +37,9 @@
                 "vote": "Stemmen op peilingen",
                 "change_vote": "Stem wijzigen",
                 "moderate": "Bewerk & verwijder peilingen",
-                "view_group": "Bekijk groep",
-                "start_group": "Start groep",
-                "moderate_group": "Beheer groep"
+                "view_group": "Bekijk peiling-groepen",
+                "start_group": "Maak peiling-groepen",
+                "moderate_group": "Bewerk & verwijder peiling-groepen"
             }
         },
         "forum": {
@@ -63,12 +63,12 @@
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Weet je zeker dat je deze peiling wilt verwijderen?",
-                "delete_success_message": "Peiling succesvol verwijdert.",
-                "delete_error_message": "Er ging iets mis tijdens het verwijderen van de peiling."
+                "delete_success_message": "Peiling succesvol verwijderd",
+                "delete_error_message": "Er ging iets mis tijdens het verwijderen van de peiling"
             },
             "poll_form": {
                 "delete": "Peiling verwijderen",
-                "error": "Er was een foutmelding tijdens het opslaan van de peiling, contacteer een beheerder."
+                "error": "Er was een foutmelding tijdens het opslaan van de peiling, contacteer een beheerder"
             },
             "polls_page": {
                 "title": "Peilingen"
@@ -165,15 +165,15 @@
                     "edit_title": "Peiling Bewerken",
                     "save_changes": "Wijzigingen Opslaan",
                     "delete": "Verwijderen",
-                    "groups_manager": "Groepen Beheerder",
-                    "view_group": "Bekijk Groep",
+                    "groups_manager": "Peiling-groepen Beheerder",
+                    "view_group": "Bekijk Peiling-groep",
                     "success": "Succesvol opgeslagen"
                 },
                 "list_page": {
-                    "title": "Peiling Groepen",
-                    "start_poll_group_button": "Start Peiling Groep",
-                    "cannot_start_poll_group_button": "Kan Geen Peiling Groep Starten",
-                    "empty_text": "Er zijn nog geen peiling groepen.",
+                    "title": "Peiling-groepen",
+                    "start_poll_group_button": "Start een Peiling-groep",
+                    "cannot_start_poll_group_button": "Kan Geen Peiling-groep Starten",
+                    "empty_text": "Er zijn nog geen peiling-groepen.",
                     "load_more_button": "Meer Laden",
                     "no_polls": "Geen peilingen in deze groep",
                     "add_poll_button": "Peiling Toevoegen"
@@ -183,9 +183,9 @@
                     "edit_label": "Bewerken",
                     "view_label": "Bekijken",
                     "delete_label": "Verwijderen",
-                    "delete_confirmation": "Weet je zeker dat je deze peiling groep wilt verwijderen?",
-                    "delete_success_message": "Peiling groep succesvol verwijderd.",
-                    "delete_error_message": "Er ging iets mis bij het verwijderen van de peiling groep."
+                    "delete_confirmation": "Weet je zeker dat je deze peiling-groep wilt verwijderen?",
+                    "delete_success_message": "Peiling-groep succesvol verwijderd.",
+                    "delete_error_message": "Er ging iets mis bij het verwijderen van de peiling-groep."
                 }
             }
         }
