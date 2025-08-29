@@ -17,6 +17,10 @@
                 "frequency_label": "Com que frequência o agendador deve recriar o mapa do site em cache?",
                 "risky_performance_improvements": "Habilitar melhorias arriscadas de desempenho",
                 "risky_performance_improvements_help": "Essas melhorias tornam o trabalho CRON mais rápido em conjuntos de dados de um milhão de linhas, mas podem quebrar compatibilidade com algumas extensões.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
                     "runtime": "Execução",
                     "multi_file": "Multi arquivo"

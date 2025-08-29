@@ -17,6 +17,10 @@
                 "frequency_label": "Con quale frequenza lo scheduler dovrebbe ricostruire la mappa del sito memorizzata nella cache?",
                 "risky_performance_improvements": "Consenti miglioramenti rischiosi delle prestazioni",
                 "risky_performance_improvements_help": "Questi miglioramenti rendono più veloce l'esecuzione del processo CRON su set di dati di milioni di righe, ma potrebbero interrompere la compatibilità con alcune estensioni.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
                     "runtime": "Runtime",
                     "multi_file": "Multi file",

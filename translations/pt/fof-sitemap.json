@@ -17,6 +17,10 @@
                 "frequency_label": "Com que periodicidade deve o cronograma reconstruir a cache do sitemap?",
                 "risky_performance_improvements": "Activar melhorias de performance arriscadas",
                 "risky_performance_improvements_help": "Estas melhorias fazem a tarefa do CRON correr mais depressa para dados na ordem de milhões de linhas mas pode quebrar compatibilidade com agumas extensões.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
                     "runtime": "Tempo de execução",
                     "multi_file": "Múltiplos ficheiros"

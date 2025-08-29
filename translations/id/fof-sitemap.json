@@ -17,6 +17,10 @@
                 "frequency_label": "Seberapa sering scheduler harus membangun ulang sitemap yang tersimpan dalam cache?",
                 "risky_performance_improvements": "Aktifkan peningkatan kinerja yang berisiko",
                 "risky_performance_improvements_help": "Peningkatan ini membuat pekerjaan CRON berjalan lebih cepat pada dataset jutaan baris, tetapi mungkin merusak kompatibilitas dengan beberapa ekstensi.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
                     "runtime": "Runtime",
                     "multi_file": "Multi-file"

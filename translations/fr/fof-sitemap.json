@@ -17,6 +17,10 @@
                 "frequency_label": "À quelle fréquence le planificateur doit-il reconstruire le plan du site basé sur le cache ?",
                 "risky_performance_improvements": "Activer l'amélioration des performances à risque",
                 "risky_performance_improvements_help": "Ces améliorations accélèrent l'exécution de la tâche CRON sur des ensembles de données de plusieurs millions de lignes, mais peuvent nuire à la compatibilité avec certaines extensions.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
                     "runtime": "Durée d'exécution",
                     "multi_file": "Fichiers multiples"

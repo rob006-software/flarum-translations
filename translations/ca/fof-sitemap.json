@@ -17,6 +17,10 @@
                 "frequency_label": "Amb quina freqüència cal que el scheduler reconstrueixi el sitemap?",
                 "risky_performance_improvements": "Activa millores de rendiment arriscades",
                 "risky_performance_improvements_help": "Aquestes millores fan que la tasca CRON corri més ràpid en conjunts de dades amb milions de fileres, però poden trencar la compatibilitat amb algunes extensions.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
                     "runtime": "En temps d'execució",
                     "multi_file": "En múltiples fitxers"
