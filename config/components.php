@@ -801,6 +801,9 @@ return [
 	'huseyinfiliz-private-profile' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/private-profile/v1.1/locale/en.yml',
 	],
+	'huseyinfiliz-sort-changer' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sort-changer/v1/locale/en.yml',
+	],
 	'ianm-boring-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/1.0.1/locale/en.yml',
 	],
