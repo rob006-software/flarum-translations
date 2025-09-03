@@ -2,10 +2,10 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "enable_batch_requests_label": "",
-                "enable_batch_requests_help": "",
-                "blacklist_label": "Blacklist",
-                "blacklist_help": "Gib eine kommagetrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.",
+                "enable_batch_requests_label": "Stapelverarbeitung einschalten",
+                "enable_batch_requests_help": "Die Leistung verbessern, indem mehrere Link-Vorschauen gleichzeitig verarbeitet werden. Wenn deaktiviert, werden Links nacheinander verarbeitet.",
+                "blacklist_label": "Sperrliste für Domains",
+                "blacklist_help": "Gib Domains oder URLs an, die keine Link-Vorschauen erzeugen sollen. Mehrere Einträge durch Kommas trennen.",
                 "blacklist_placeholder": "z.B. facebook.com,https://domain.com/path",
                 "whitelist_label": "Whitelist",
                 "whitelist_help": "Gib eine kommagetrennte Liste von Domains oder URLs ein, die eine Linkvorschau ermöglichen sollen.",
