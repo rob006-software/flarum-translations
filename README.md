@@ -1043,6 +1043,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`hikarilan-passkey-login`](https://weblate.rob006.net/projects/flarum/hikarilan-passkey-login) | [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login) |
 | [`huoxin-auto-follow-discussion`](https://weblate.rob006.net/projects/flarum/huoxin-auto-follow-discussion) | [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) |
 | [`huseyinfiliz-flagify`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-flagify) | [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify) |
+| [`huseyinfiliz-guest`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-guest) | [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest) |
 | [`huseyinfiliz-modern-footer`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-modern-footer) | [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) |
 | [`huseyinfiliz-notificationhub`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-notificationhub) | [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) |
 | [`huseyinfiliz-private-profile`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-private-profile) | [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) |
