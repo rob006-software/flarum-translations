@@ -4,6 +4,8 @@
             "settings": {
                 "exclude_users": "Jäta kõik kasutajaprofiilid sisukaardilt välja",
                 "exclude_users_help": "Vaikimisi indekseeritakse kõik nähtavad kasutajad",
+                "exclude_tags": "",
+                "exclude_tags_help": "",
                 "mode_label": "Režiim",
                 "mode_help": "Õige režiimi valimine vastavalt sinu foorumi suurusele on kriitlise tähtsusega.",
                 "mode_help_runtime_label": "Runtime režiim",
@@ -17,6 +19,10 @@
                 "frequency_label": "Kui sageli peaks ajastaja vahemälus oleva sisukaardi uuesti looma?",
                 "risky_performance_improvements": "Lülita sisse riskantsemad kiiruse parandamise võimalused",
                 "risky_performance_improvements_help": "Need parandused teevad CRON tööd kiiremaks miljoni reaga andmebaasides, aga võivad lõhkuda ühilduvuse mõningate lisaprogrammidega.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
                     "runtime": "Käivitamiseaeg",
                     "multi_file": "Mitu faili"

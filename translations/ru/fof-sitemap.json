@@ -4,6 +4,8 @@
             "settings": {
                 "exclude_users": "Исключить все профили пользователей из карты сайта",
                 "exclude_users_help": "По умолчанию все пользователи, видимые гостям, будут проиндексированы",
+                "exclude_tags": "",
+                "exclude_tags_help": "",
                 "mode_label": "Режим работы",
                 "mode_help": "Выберите режим работы, подходящий под размер Вашего форума.",
                 "mode_help_runtime_label": "При запросе",
@@ -17,6 +19,10 @@
                 "frequency_label": "Как часто планировщик должен обновлять кэшированную карту сайта?",
                 "risky_performance_improvements": "Разрешить рискованные улучшения производительности",
                 "risky_performance_improvements_help": "Эти улучшения делают работу CRON-планировщика быстрее на базах данных в миллионы строк, но могут привести к нарушению совместимости с некоторыми расширениями.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
                     "runtime": "При запросе",
                     "multi_file": "Несколько файлов",

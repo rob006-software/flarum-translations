@@ -4,6 +4,8 @@
             "settings": {
                 "exclude_users": "Apagar os perfis de utilizador do mapa do site",
                 "exclude_users_help": "Por defeito qualquer utilizador visível a convidados será indexado",
+                "exclude_tags": "",
+                "exclude_tags_help": "",
                 "mode_label": "Modo de operação",
                 "mode_help": "Selecionar o modo correcto para o tamanho do Forum é muito importante.",
                 "mode_help_runtime_label": "Modo em tempo de execução",
@@ -17,6 +19,10 @@
                 "frequency_label": "Com que periodicidade deve o cronograma reconstruir a cache do sitemap?",
                 "risky_performance_improvements": "Activar melhorias de performance arriscadas",
                 "risky_performance_improvements_help": "Estas melhorias fazem a tarefa do CRON correr mais depressa para dados na ordem de milhões de linhas mas pode quebrar compatibilidade com agumas extensões.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
                     "runtime": "Tempo de execução",
                     "multi_file": "Múltiplos ficheiros"

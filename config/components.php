@@ -595,7 +595,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/1.2.12/resources/locale/en.yml',
 	],
 	'fof-filter' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/filter/1.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/filter/1.2.1/resources/locale/en.yml',
 	],
 	'fof-follow-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/1.2.9/resources/locale/en.yml',
@@ -653,7 +653,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/1.6.0/resources/locale/en.yml',
 	],
 	'fof-oauth' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/oauth/1.7.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/oauth/1.7.2/resources/locale/en.yml',
 	],
 	'fof-open-collective' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/1.1.2/resources/locale/en.yml',
@@ -690,14 +690,13 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/1.1.3/resources/locale/en.yml',
 	],
 	'fof-sentry' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/1.3.3/resources/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/1.4.0-beta.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/1.4.0/resources/locale/en.yml',
 	],
 	'fof-share-social' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/1.2.0/resources/locale/en.yml',
 	],
 	'fof-sitemap' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/2.2.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/2.3.3/resources/locale/en.yml',
 	],
 	'fof-socialprofile' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/1.2.0/resources/locale/en.yml',
@@ -792,6 +791,9 @@ return [
 	'huseyinfiliz-flagify' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/flagify/0.1/locale/en.yml',
 	],
+	'huseyinfiliz-guest' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/guest/v2.1/locale/en.yml',
+	],
 	'huseyinfiliz-modern-footer' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v0.8/resources/locale/en.yml',
 	],
@@ -803,6 +805,9 @@ return [
 	],
 	'huseyinfiliz-sort-changer' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sort-changer/v1/locale/en.yml',
+	],
+	'huseyinfiliz-sticky-title' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/v1/locale/en.yml',
 	],
 	'ianm-boring-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/1.0.1/locale/en.yml',

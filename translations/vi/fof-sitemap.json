@@ -4,6 +4,8 @@
             "settings": {
                 "exclude_users": "Loại bỏ tất cả hồ sơ người dùng khỏi sitemap",
                 "exclude_users_help": "Mặc định bất kỳ người dùng nào đều cũng sẽ được lập chỉ mục",
+                "exclude_tags": "",
+                "exclude_tags_help": "",
                 "mode_label": "Chế độ hoạt động",
                 "mode_help": "Chọn chế độ chính xác cho quy mô diễn đàn của bạn là cực kỳ quan trọng.",
                 "mode_help_runtime_label": "Chế độ runtime",
@@ -17,6 +19,10 @@
                 "frequency_label": "Bao lâu thì trình lên lịch nên tạo lại sơ đồ trang được lưu trong bộ nhớ cache?",
                 "risky_performance_improvements": "Bật các cải tiến hiệu suất rủi ro",
                 "risky_performance_improvements_help": "Những cải tiến này làm cho công việc CRON chạy nhanh hơn trên tập dữ liệu hàng triệu hàng nhưng có thể phá vỡ khả năng tương thích với một số tiện ích mở rộng.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
                     "runtime": "Runtime",
                     "multi_file": "Nhiều tệp",
