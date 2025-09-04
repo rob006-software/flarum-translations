@@ -4,8 +4,8 @@
             "settings": {
                 "exclude_users": "Mengecualikan semua profil pengguna dari sitemap",
                 "exclude_users_help": "Secara default, setiap pengguna yang terlihat oleh tamu akan diindeks",
-                "exclude_tags": "",
-                "exclude_tags_help": "",
+                "exclude_tags": "Kecualikan semua halaman tag dari sitemap",
+                "exclude_tags_help": "Secara default, semua tag yang terlihat oleh pengunjung akan diindeks",
                 "mode_label": "Mode operasi",
                 "mode_help": "Memilih mode yang tepat untuk ukuran forum Anda, sangatlah penting.",
                 "mode_help_runtime_label": "Mode Runtime (Waktu Proses)",
@@ -19,10 +19,10 @@
                 "frequency_label": "Seberapa sering scheduler harus membangun ulang sitemap yang tersimpan dalam cache?",
                 "risky_performance_improvements": "Aktifkan peningkatan kinerja yang berisiko",
                 "risky_performance_improvements_help": "Peningkatan ini membuat pekerjaan CRON berjalan lebih cepat pada dataset jutaan baris, tetapi mungkin merusak kompatibilitas dengan beberapa ekstensi.",
-                "include_priority": "",
-                "include_priority_help": "",
-                "include_changefreq": "",
-                "include_changefreq_help": "",
+                "include_priority": "Sertakan nilai prioritas dalam sitemap",
+                "include_priority_help": "Nilai prioritas diabaikan oleh Google tetapi dapat digunakan oleh mesin pencari lain seperti Bing dan Yandex",
+                "include_changefreq": "Sertakan nilai frekuensi perubahan dalam sitemap",
+                "include_changefreq_help": "Nilai frekuensi perubahan diabaikan oleh Google tetapi dapat digunakan oleh mesin pencari lain untuk penjadwalan crawling",
                 "modes": {
                     "runtime": "Runtime",
                     "multi_file": "Multi-file"
