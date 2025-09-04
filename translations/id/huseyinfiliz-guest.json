@@ -1,19 +1,19 @@
 {
     "huseyinfiliz-guest": {
         "admin": {
-            "username_label": "",
-            "username_help": "",
-            "max_posts_label": "",
-            "max_posts_help": ""
+            "username_label": "Prefiks Username Tamu",
+            "username_help": "Prefiks untuk username tamu (misalnya, Tamu)",
+            "max_posts_label": "Jumlah Posting Maksimum untuk Tamu",
+            "max_posts_help": "Jumlah posting maksimum yang diizinkan untuk pengguna tamu"
         },
         "forum": {
-            "login_button": "",
-            "modal_title": "",
-            "welcome_message": "",
-            "modal_understood": "",
-            "max_posts_reached": "",
-            "login_error": "",
-            "rate_limit_error": ""
+            "login_button": "Masuk sebagai Tamu",
+            "modal_title": "Selamat Datang Tamu",
+            "welcome_message": "Selamat datang, pengguna tamu! Pengguna tamu dibatasi hingga tiga posting.",
+            "modal_understood": "Mengerti!",
+            "max_posts_reached": "Anda telah mencapai batas maksimum {max} posting untuk pengguna tamu. Silakan buat akun untuk melanjutkan.",
+            "login_error": "Login gagal. Silakan coba lagi.",
+            "rate_limit_error": "Tolong tunggu sebentar sebelum mencoba lagi."
         }
     }
 }
