@@ -1,19 +1,19 @@
 {
     "huseyinfiliz-guest": {
         "admin": {
-            "username_label": "",
-            "username_help": "",
-            "max_posts_label": "",
-            "max_posts_help": ""
+            "username_label": "Misafir Kullanıcı Adı Ön Eki",
+            "username_help": "Misafir kullanıcı adları için ön ek (ör. Misafir)",
+            "max_posts_label": "Maksimum Misafir Gönderisi",
+            "max_posts_help": "Misafir kullanıcıların gönderebileceği maksimum gönderi sayısı"
         },
         "forum": {
-            "login_button": "",
-            "modal_title": "",
-            "welcome_message": "",
-            "modal_understood": "",
-            "max_posts_reached": "",
-            "login_error": "",
-            "rate_limit_error": ""
+            "login_button": "Misafir Girişi",
+            "modal_title": "Hoş Geldin Misafir",
+            "welcome_message": "Hoş geldiniz, misafir kullanıcı. Misafirler en fazla üç gönderi paylaşabilir.",
+            "modal_understood": "Anlaşıldı!",
+            "max_posts_reached": "Misafir kullanıcılar için izin verilen maksimum {max} gönderiye ulaştınız. Devam etmek için lütfen bir hesap oluşturun.",
+            "login_error": "Giriş başarısız oldu. Lütfen tekrar deneyin.",
+            "rate_limit_error": "Lütfen tekrar denemeden önce biraz bekleyin."
         }
     }
 }
