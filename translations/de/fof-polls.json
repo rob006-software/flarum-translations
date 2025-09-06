@@ -48,8 +48,8 @@
             "poll_ended": "Diese Umfrage ist bereits beendet.",
             "public_poll": "Abstimmungsergebnis",
             "max_votes_allowed": "In der Umfrage kann für {max, plural, one {# Option} other {# Optionen}} abgestimmt werden.",
-            "polls_count": "",
-            "poll_never_ends": "",
+            "polls_count": "{count, plural, one { {count} Stimme} other { {count} Stimmen}}",
+            "poll_never_ends": "Umfrage endet nie",
             "answers": "Antworten",
             "poll": {
                 "cannot_change_vote": "Du kannst deine Stimme nach dem Abstimmen nicht mehr ändern.",
@@ -59,9 +59,9 @@
                 "total_votes": "{count, plural, one {# Stimme wurde abgegeben} other {# Stimmen wurden abgegeben}}"
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
+                "edit_label": "Bearbeiten",
+                "delete_label": "Löschen",
+                "view_label": "Anzeigen",
                 "delete_confirmation": "Bist du sicher, dass du diese Umfrage löschen möchtest?",
                 "delete_success_message": "Umfrage erfolgreich gelöscht.",
                 "delete_error_message": "Beim Löschen der Umfrage ist etwas schiefgelaufen."
@@ -75,7 +75,7 @@
             },
             "polls_list": {
                 "empty_text": "Es sieht so aus, als gäbe es hier keine gemeinschaftsweiten Umfragen.",
-                "load_more_button": ""
+                "load_more_button": "Mehr laden"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -107,27 +107,27 @@
                 "max_votes_label": "Maximale Stimmen pro Benutzer",
                 "max_votes_help": "Auf 0 festlegen, damit die Nutzer für alle Optionen stimmen können.",
                 "hide_votes_label": "Stimmen ausblenden, bis die Umfrage endet",
-                "hide_votes_label_help": "",
+                "hide_votes_label_help": "Der Benutzer, der die Umfrage gestartet hat, kann die Stimmen immer einsehen.",
                 "allow_change_vote_label": "Benutzern erlauben, ihre Stimme zu ändern",
                 "question_placeholder": "Frage",
-                "subtitle_placeholder": "",
+                "subtitle_placeholder": "Untertitel/Beschreibung (optional)",
                 "submit": "Speichern",
-                "delete": "",
-                "error": "",
+                "delete": "Löschen",
+                "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
-                    "later_help": ""
+                    "label": "Umfragebild",
+                    "help": "Laden Sie ein Bild hoch, das neben der Umfrage angezeigt werden soll (optional).",
+                    "alt_label": "Alt-Text für das Bild",
+                    "alt_help_text": "Dieser Text ist erforderlich, wenn ein Bild festgelegt wurde. Er wird angezeigt, falls das Bild nicht laden kann.",
+                    "later_help": "Sie können ein Bild hochladen, nachdem Sie die Umfrage erstellt haben."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Umfrage-Antwortbild",
+                    "help": "Laden Sie ein Bild hoch, das neben der Umfrage-Antwort angezeigt werden soll (optional)."
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Antwort hinzufügen"
                     }
                 }
             },
@@ -138,15 +138,15 @@
                 "edit": "Umfrage bearbeiten"
             },
             "page": {
-                "nav": "",
-                "nav-all": "",
-                "nav-groups": ""
+                "nav": "Umfragen",
+                "nav-all": "Alle globalen Umfragen",
+                "nav-groups": "Umfrage-Gruppen"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Aktive Umfragen",
+                "ended-polls": "Abgeschlossene Umfragen",
+                "no-active-polls": "Derzeit gibt es keine aktiven Umfragen.",
+                "no-recent-polls": "Derzeit gibt es keine kürzlich beendeten Umfragen."
             },
             "tooltip": {
                 "badge": "Umfrage",
@@ -156,35 +156,35 @@
                 "title": "=> fof-polls.forum.public_poll"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Bild löschen",
+                "upload_button": "Bild hochladen"
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "add_title": "Umfrage-Gruppe hinzufügen",
+                    "edit_title": "Umfrage-Gruppe bearbeiten",
+                    "save_changes": "Änderungen speichern",
+                    "delete": "Umfrage-Gruppe löschen",
+                    "groups_manager": "Umfrage-Gruppen-Manager",
+                    "view_group": "Umfrage-Gruppe anzeigen",
+                    "success": "Umfrage-Gruppe erfolgreich gespeichert."
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "Umfrage-Gruppen",
+                    "start_poll_group_button": "Eine Umfrage-Gruppe starten",
+                    "cannot_start_poll_group_button": "Kann keine Umfrage-Gruppe starten",
+                    "empty_text": "Es scheint, als gäbe es hier noch keine Umfrage-Gruppen.",
+                    "load_more_button": "Mehr laden",
+                    "no_polls": "In dieser Gruppe gibt es keine Umfragen.",
+                    "add_poll_button": "Umfrage zur Gruppe hinzufügen"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
+                    "add_poll_label": "Umfrage hinzufügen",
+                    "edit_label": "Bearbeiten",
+                    "view_label": "Umfrage-Gruppe anzeigen",
+                    "delete_label": "Löschen",
+                    "delete_confirmation": "Sind Sie sicher, dass Sie diese Umfrage-Gruppe löschen möchten?",
+                    "delete_success_message": "Umfrage-Gruppe erfolgreich gelöscht.",
                     "delete_error_message": "Beim Löschen der Umfragegruppe ist etwas schiefgelaufen."
                 }
             }
