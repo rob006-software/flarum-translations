@@ -2,61 +2,61 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "return_key_help": "",
-                "show_read_receipts": "",
-                "show_read_receipts_help": "",
-                "sender_background_color": "",
-                "recipient_background_color": "",
-                "sender_text_color": "",
-                "recipient_text_color": "",
-                "enable_custom_colors": ""
+                "return_key": "Eingabetaste sendet Nachricht",
+                "return_key_help": "Eingabetaste zum Senden der Nachricht verwenden. Wenn diese Option deaktiviert ist, fügt die Eingabetaste einen Zeilenumbruch ein, und der Benutzer muss zum Senden der Nachricht auf die Schaltfläche „Nachricht senden“ klicken.",
+                "show_read_receipts": "Lesebestätigungen anzeigen",
+                "show_read_receipts_help": "Ein Kontrollkästchen neben einer Nachricht anzeigen, wenn der Empfänger sie gelesen hat.",
+                "sender_background_color": "Hintergrundfarbe für gesendete Nachrichten:",
+                "recipient_background_color": "Hintergrundfarbe für empfangene Nachrichten:",
+                "sender_text_color": "Textfarbe für gesendete Nachrichten:",
+                "recipient_text_color": "Textfarbe für empfangene Nachrichten:",
+                "enable_custom_colors": "Benutzerdefinierte Farben aktivieren"
             },
             "permissions": {
-                "start_label": "",
-                "allow_users_to_receive_email_notifications": ""
+                "start_label": "Private Unterhaltungen starten",
+                "allow_users_to_receive_email_notifications": "E-Mail-Benachrichtigungen für private Nachrichten erlauben"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Unterhaltungen"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Unterhaltung beginnen",
+                "help": "Zum Starten eines Chats einen Benutzernamen eingeben.",
+                "help_start": "Geben Sie Ihre erste Nachricht ein. Dies ist die einzige Nachricht, die Sie senden können, bis {username} antwortet. Klicken Sie auf den Benutzer, um einen anderen Empfänger auszuwählen.",
+                "search_recipients": "Benutzername eingeben…",
+                "submit": "Senden & Unterhaltung beginnen",
+                "copied": "Ihre Nachricht wurde in die Zwischenablage kopiert.",
+                "more_users": "Wenn Sie den gesuchten Benutzer nicht finden, hat dieser das private Nachrichtensystem nicht eingerichtet.",
+                "already": "Sie haben bereits eine Unterhaltung mit {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "message_read": ""
+                "messages_single": "Neue Unterhaltung",
+                "messages_multiple": "{count} Nachrichten insgesamt",
+                "chat_with": "Chatten mit {username}",
+                "start": "Unterhaltung beginnen",
+                "start_of_conversation": "Beginn der Unterhaltung",
+                "read": "Lesen",
+                "cant_start": "Unterhaltung kann nicht gestartet werden",
+                "text_placeholder": "Geben Sie Ihre Nachricht ein",
+                "send": "Nachricht senden",
+                "message_read": "Nachricht wurde gelesen"
             },
             "notifications": {
-                "message_received": "",
-                "new_private_message": "",
+                "message_received": "Test",
+                "new_private_message": "Jemand schreibt mir",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "Nachricht von {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
-                        "manageEmailSettings": ""
+                        "subject": "Nachricht von {user}",
+                        "youHaveReceivedNewMessage": "Sie haben eine neue Nachricht von {user} erhalten!",
+                        "viewMessage": "Nachricht anzeigen",
+                        "manageEmailSettings": "E-Mail-Einstellungen verwalten"
                     }
                 }
             }
