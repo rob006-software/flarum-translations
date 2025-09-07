@@ -1241,18 +1241,6 @@ return [
 	'neoncube-private-messages' => [
 		'tag' => 'https://raw.githubusercontent.com/neoncube2/flarum-private-messages/1.5.4/resources/locale/en.yml',
 	],
-	'nodeloc-dislikes' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/Dislikes/1.0.1/locale/en.yml',
-	],
-	'nodeloc-ignore-hidden-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ignore-hidden-tags/1.0/locale/en.yml',
-	],
-	'nodeloc-telegram' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/telegram/0.3/resources/locale/en.yml',
-	],
-	'nodeloc-whisper' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/whisper/0.0.6/resources/locale/en.yml',
-	],
 	'nomiscz-auth-steam' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v1.0.2/resources/locale/en.yml',
 	],
