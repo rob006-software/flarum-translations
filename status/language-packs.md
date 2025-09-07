@@ -2002,6 +2002,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/tatar">Tatar</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/tatar/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/tatar" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/tatar/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/tatar/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/tatar/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/tatar" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/tatar/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/tatar" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/tt.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/tt/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td>⚠️ <a href="https://github.com/flarum-lang/telugu">Telugu</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/telugu/tags">
