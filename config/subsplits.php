@@ -113,6 +113,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'bs' => [
+		'type' => 'language',
+		'language' => 'bs',
+		'repository' => 'git@github.com:flarum-lang/bosnian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'ca' => [
 		'type' => 'language',
 		'language' => 'ca',
