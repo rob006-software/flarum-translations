@@ -940,6 +940,18 @@ return [
 		],
 		'maintainers' => ['tolgaaaltas', 'selmanozturk', 'huseyinfiliz'], // todo: temporary maintainer? https://discuss.flarum.org/d/27519-the-flarum-language-project/235
 	],
+	'tt' => [
+		'type' => 'language',
+		'language' => 'tt',
+		'repository' => 'git@github.com:flarum-lang/tatar.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['inov8ru'],
+	],
 	'ug' => [
 		'type' => 'language',
 		'language' => 'ug',
