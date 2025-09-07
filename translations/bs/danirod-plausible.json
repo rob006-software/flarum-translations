@@ -1,0 +1,33 @@
+{
+    "danirod-plausible": {
+        "admin": {
+            "validation": {
+                "domain": {
+                    "required": "",
+                    "regex": ""
+                },
+                "proxy_domain": {
+                    "regex": ""
+                }
+            },
+            "settings": {
+                "enable": {
+                    "label": "",
+                    "help": ""
+                },
+                "domain": {
+                    "label": "",
+                    "help": ""
+                },
+                "proxy_domain": {
+                    "label": "",
+                    "help": ""
+                },
+                "exclude_admin": {
+                    "label": "",
+                    "help": ""
+                }
+            }
+        }
+    }
+}

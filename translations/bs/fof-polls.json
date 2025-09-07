@@ -1,0 +1,193 @@
+{
+    "fof-polls": {
+        "admin": {
+            "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
+                "allow_option_image": "",
+                "allow_image_uploads": "",
+                "allow_image_uploads_help": "",
+                "enable_global_polls": "",
+                "enable_global_polls_help": "",
+                "max_options": "",
+                "options_color_blend": "",
+                "options_color_blend_help": "",
+                "image_height": "",
+                "image_width": "",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
+            },
+            "permissions": {
+                "view_results_without_voting": "",
+                "start": "",
+                "start_global": "",
+                "self_edit": "",
+                "self_post_edit": "",
+                "upload_images": "",
+                "vote": "",
+                "change_vote": "",
+                "moderate": "",
+                "view_group": "",
+                "start_group": "",
+                "moderate_group": ""
+            }
+        },
+        "forum": {
+            "days_remaining": "",
+            "no_permission": "",
+            "poll_ended": "",
+            "public_poll": "",
+            "max_votes_allowed": "",
+            "polls_count": "",
+            "poll_never_ends": "",
+            "answers": "",
+            "poll": {
+                "cannot_change_vote": "",
+                "submit_button": "",
+                "start_poll_button": "",
+                "cannot_start_poll_button": "",
+                "total_votes": ""
+            },
+            "poll_controls": {
+                "edit_label": "",
+                "delete_label": "",
+                "view_label": "",
+                "delete_confirmation": "",
+                "delete_success_message": "",
+                "delete_error_message": ""
+            },
+            "poll_form": {
+                "delete": "",
+                "error": ""
+            },
+            "polls_page": {
+                "title": ""
+            },
+            "polls_list": {
+                "empty_text": "",
+                "load_more_button": ""
+            },
+            "composer_discussion": {
+                "add_poll": "",
+                "edit_poll": "",
+                "no_permission_alert": ""
+            },
+            "compose": {
+                "add_title": "",
+                "edit_title": "",
+                "polls_manager": "",
+                "polls_preview": "",
+                "continue_editing": "",
+                "success": ""
+            },
+            "modal": {
+                "add_title": "",
+                "add_option_label": "",
+                "date_placeholder": "",
+                "edit_title": "",
+                "include_question": "",
+                "max": "",
+                "min": "",
+                "no_voters": "",
+                "option_placeholder": "",
+                "image_option_placeholder": "",
+                "options_label": "",
+                "public_poll_label": "",
+                "allow_multiple_votes_label": "",
+                "max_votes_label": "",
+                "max_votes_help": "",
+                "hide_votes_label": "",
+                "hide_votes_label_help": "",
+                "allow_change_vote_label": "",
+                "question_placeholder": "",
+                "subtitle_placeholder": "",
+                "submit": "",
+                "delete": "",
+                "error": "",
+                "poll_image": {
+                    "label": "",
+                    "help": "",
+                    "alt_label": "",
+                    "alt_help_text": "",
+                    "later_help": ""
+                },
+                "poll_option_image": {
+                    "label": "",
+                    "help": ""
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": ""
+                    }
+                }
+            },
+            "moderation": {
+                "add": "",
+                "delete": "",
+                "delete_confirm": "",
+                "edit": ""
+            },
+            "page": {
+                "nav": "",
+                "nav-all": "",
+                "nav-groups": ""
+            },
+            "showcase": {
+                "active-polls": "",
+                "ended-polls": "",
+                "no-active-polls": "",
+                "no-recent-polls": ""
+            },
+            "tooltip": {
+                "badge": "",
+                "votes": ""
+            },
+            "votes_modal": {
+                "title": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
+            }
+        }
+    }
+}
