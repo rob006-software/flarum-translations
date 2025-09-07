@@ -266,6 +266,34 @@
 		</td>
 	</tr>
 	<tr>
+		<td>⚠️ <a href="https://github.com/flarum-lang/bosnian">Bosnian</a></td>
+		<td align="right">
+			<a href="https://github.com/flarum-lang/bosnian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/bosnian" alt="last release" style="max-width: 160px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/bosnian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/bosnian/latest" alt="commits since last release" style="max-width: 150px;" />
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/flarum-lang/bosnian/pulls">
+				<img src="https://img.shields.io/github/issues-pr/flarum-lang/bosnian" alt="open pull requests" />
+			</a>
+		</td>
+		<td>
+			<a href="https://packagist.org/packages/flarum-lang/bosnian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/bosnian" alt="downloads (monthly)" />
+			</a>
+		</td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/bs.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/bs/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td>⚠️ <a href="https://github.com/flarum-lang/breton">Breton</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/breton/tags">
