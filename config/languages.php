@@ -163,6 +163,7 @@ return [
 		'!the-turk-mathren',
 		'!the-turk-quiet-edits',
 	]),
+	'tt' => getComponents(),
 	'ug' => getComponents(),
 	'uk' => getComponents(),
 	'ur' => getComponents(),
