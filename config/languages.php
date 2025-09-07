@@ -25,6 +25,7 @@ return [
 	'bg' => getComponents(),
 	'bn' => getComponents(),
 	'br' => getComponents(),
+	'bs' => getComponents(),
 	'ca' => getComponents(),
 	'ckb' => getComponents(),
 	'cs' => getComponents(),
