@@ -1244,9 +1244,6 @@ return [
 	'nodeloc-dislikes' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/Dislikes/1.0.1/locale/en.yml',
 	],
-	'nodeloc-ignore-hidden-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/flarum-ignore-hidden-tags/1.0/locale/en.yml',
-	],
 	'nodeloc-telegram' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/telegram/0.3/resources/locale/en.yml',
 	],
