@@ -1241,9 +1241,6 @@ return [
 	'neoncube-private-messages' => [
 		'tag' => 'https://raw.githubusercontent.com/neoncube2/flarum-private-messages/1.5.4/resources/locale/en.yml',
 	],
-	'nodeloc-dislikes' => [
-		'tag' => 'https://raw.githubusercontent.com/nodeloc/Dislikes/1.0.1/locale/en.yml',
-	],
 	'nodeloc-telegram' => [
 		'tag' => 'https://raw.githubusercontent.com/nodeloc/telegram/0.3/resources/locale/en.yml',
 	],
