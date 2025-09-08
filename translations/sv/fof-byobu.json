@@ -100,25 +100,25 @@
                     "help": "Dessa inställningar styr de grundläggande funktionerna i byobun."
                 },
                 "icon": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Ikoninställningar",
+                    "help": "Dessa inställningar kontrollerar ikonerna som används för byobu på forumet."
                 },
-                "badge-icon": "",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
-                "post-event-icon": "",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "badge-icon": "Byobu-diskussionsmärke",
+                "enable-make-public-option": "Aktivera möjligheten att \"publicera\"",
+                "enable-make-public-option-help": "Lägger till möjligheten för de som har behörighet att ta bort alla mottagare, tilldela en ny tagg och göra diskussionen offentligt synlig (enligt synlighetsinställningarna för den valda taggen).",
+                "post-event-icon": "Byobu Post-evenemang",
+                "delete_on_last_recipient_left": "Ta bort Privata Diskussioner när den sista användaren lämnar",
+                "delete_on_last_recipient_left_help": "Om aktiverat kommer PD:er att raderas permanent från databasen när den sista användaren lämnar. Annars kommer PD:n att raderas/döljas mjukt.",
+                "hide_from_all_discussions_page": "Dölj PD:er från sidan \"Alla diskussioner\"",
+                "hide_from_all_discussions_page_help": "Privata diskussioner kommer endast att vara tillgängliga från sidan \"Privata diskussioner\" eller användarprofilen."
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Privat Diskussion] {display_name} startade en ny privat diskussion med dig",
+                "private_discussion_replied": "[Privat Diskussion] {display_name} postat i en privat diskussion",
+                "recipient_removed": "[Privat Diskussion] {display_name} lämnade diskussionen",
+                "private_discussion_added": "[Privat Diskussion] {display_name} lade till dig i en privat diskussion"
             },
             "body": {
                 "private_discussion_created": "",
