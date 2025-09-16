@@ -1085,6 +1085,9 @@ return [
 	'kk14569-anti-gmail-alias' => [
 		'tag' => 'https://raw.githubusercontent.com/kk14569/flarum-anti-gmail-alias/v1.0.1/locale/en.yml',
 	],
+	'klxf-maintenance' => [
+		'tag' => 'https://raw.githubusercontent.com/klxf/flarum-maintenance/1.1.0/resources/locale/en.yml',
+	],
 	'krombox-oauth-wordpress' => [
 		'tag' => 'https://raw.githubusercontent.com/krombox/flarum-ext-oauth-wordpress/0.0.1/locale/en.yml',
 	],
