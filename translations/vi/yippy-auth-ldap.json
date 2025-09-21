@@ -1,87 +1,87 @@
 {
     "yippy-auth-ldap": {
         "forum": {
-            "account_found": "",
-            "log_in_with": "",
-            "log_out": "",
+            "account_found": "Đã tìm thấy tài khoản trong {server}",
+            "log_in_with": "Đăng nhập bằng {server}",
+            "log_out": "=> core.ref.log_out",
             "errors": {
-                "core_csrf_token_mismatch": "",
-                "search_filter_is_invalid": "",
-                "not_authenticated": "",
-                "csrf_token_mismatch": "",
+                "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
+                "search_filter_is_invalid": "Không thể tìm kiếm bộ lọc cho {server} do `Trường tìm kiếm LDAP` không hợp lệ, hãy chỉnh lại cài đặt tiện ích.",
+                "not_authenticated": "Không thể bind {server} do thông tin xác thực không hợp lệ, hãy chỉnh lại cài đặt tiện ích.",
+                "csrf_token_mismatch": "Bạn đã không hoạt động quá lâu, vui lòng làm mới trang và thử lại",
                 "domains": {
-                    "no_domains": "",
-                    "empty_host": "",
-                    "empty_base_dn": "",
-                    "empty_user_username": "",
-                    "empty_search_field": "",
-                    "username_field_does_not_exist": "",
-                    "mail_field_does_not_exist": ""
+                    "no_domains": "Thiết lập quản trị chưa đặt tên miền nào, hãy chỉnh lại cài đặt tiện ích.",
+                    "empty_host": "Tên miền {domain_index} chưa đặt Tên miền hoặc địa chỉ IP máy chủ, hãy chỉnh lại cài đặt tiện ích.",
+                    "empty_base_dn": "Tên miền {domain_index} chưa đặt Base DN, hãy chỉnh lại cài đặt tiện ích.",
+                    "empty_user_username": "Tên miền {domain_index} để trống Flarum Hồ sơ người dùng - 'Trường tên người dùng', hãy chỉnh lại cài đặt tiện ích.",
+                    "empty_search_field": "Tên miền {domain_index} để trống LDAP Tìm kiếm tài khoản - 'Trường tìm kiếm', hãy chỉnh lại cài đặt tiện ích.",
+                    "username_field_does_not_exist": "Tên miền {domain_index} không tìm thấy tên người dùng cho Flarum Hồ sơ người dùng - `Trường tên người dùng` với `{data}`, hãy chỉnh lại cài đặt tiện ích.",
+                    "mail_field_does_not_exist": "Tên miền {domain_index} không tìm thấy email cho Flarum Hồ sơ người dùng - `Trường Email` với `{data}`, hãy chỉnh lại cài đặt tiện ích."
                 },
                 "account": {
-                    "invalid_inputs": "",
-                    "not_found": "",
-                    "incorrect_details": "",
-                    "password_expired": "",
-                    "disabled": "",
-                    "expired": "",
-                    "locked": ""
+                    "invalid_inputs": "Các trường nhập không được để trống",
+                    "not_found": "Không thể tìm thấy tài khoản của bạn trong {server}.",
+                    "incorrect_details": "Mật khẩu nhập không chính xác.",
+                    "password_expired": "Mật khẩu của bạn đã hết hạn.",
+                    "disabled": "Tài khoản của bạn đã bị vô hiệu hóa, hãy liên hệ quản trị {server}.",
+                    "expired": "Tài khoản của bạn đã hết hạn, hãy liên hệ quản trị {server}.",
+                    "locked": "Tài khoản của bạn đã bị khóa, hãy liên hệ quản trị {server}."
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "method_name": "",
+                "title": "Cài đặt LDAP",
+                "method_name": "Tên máy chủ LDAP (sẽ hiển thị sau \"Đăng nhập bằng\")",
                 "domains": {
-                    "title": "",
-                    "description": "",
-                    "add": "",
-                    "banner": "",
+                    "title": "Tên miền LDAP",
+                    "description": "Nhập tất cả các tên miền LDAP khả dụng để Flarum dùng đăng nhập",
+                    "add": "Thêm tên miền",
+                    "banner": "Tên miền {index} - [{isEnabled}]",
                     "is_enabled": {
-                        "enabled": "",
-                        "disabled": ""
+                        "enabled": "Bật",
+                        "disabled": "Tắt"
                     },
                     "header": {
-                        "server": "",
-                        "admin": "",
-                        "search_fields": "",
-                        "search_fields_description": "",
-                        "flarum": "",
-                        "flarum_description": ""
+                        "server": "Cài đặt máy chủ LDAP",
+                        "admin": "Quản trị LDAP",
+                        "search_fields": "Tìm kiếm tài khoản LDAP",
+                        "search_fields_description": "Tạo danh sách các trường LDAP để so khớp với Tên người dùng do người dùng cung cấp.",
+                        "flarum": "Hồ sơ người dùng Flarum",
+                        "flarum_description": "Khi tìm thấy tài khoản LDAP, bạn có thể gán các trường tương ứng vào Hồ sơ người dùng Flarum khi đăng ký."
                     },
                     "data": {
-                        "host": "",
-                        "host_help": "",
-                        "base_dn": "",
-                        "base_dn_help": "",
-                        "filter": "",
-                        "filter_help": "",
-                        "port": "",
-                        "port_help": "",
-                        "version": "",
-                        "version_help": "",
-                        "follow_referrals": "",
-                        "use_ssl": "",
-                        "use_tls": "",
-                        "admin_dn": "",
-                        "admin_dn_help": "",
-                        "admin_password": "",
-                        "admin_password_help": "",
-                        "search_user_fields": "",
-                        "search_user_fields_help": "",
-                        "user_username": "",
-                        "user_mail": "",
-                        "user_mail_help": "",
-                        "user_nickname_fields": "",
-                        "user_nickname_fields_help": "",
-                        "permission_groups": "",
-                        "permission_groups_help": "",
-                        "is_enabled": ""
+                        "host": "Tên miền hoặc địa chỉ IP máy chủ",
+                        "host_help": "Phân tách bằng dấu phẩy",
+                        "base_dn": "Base DN",
+                        "base_dn_help": "Phân tách bằng dấu chấm phẩy",
+                        "filter": "Bộ lọc áp dụng",
+                        "filter_help": "Tùy chọn, phải loại trừ 'Trường tìm kiếm' trong bộ lọc. Ví dụ nhập bộ lọc '(objectclass=user)' và chọn 'uid' trong 'Trường tìm kiếm' sẽ sửa bộ lọc thành '(&(objectclass=user)(uid=[User's Input]))\"",
+                        "port": "Cổng",
+                        "port_help": "Không SSL (Cổng 389) hoặc SSL (Cổng 636).",
+                        "version": "Phiên bản LDAP",
+                        "version_help": "Chỉ có thể đặt 2 hoặc 3 (mặc định là 3).",
+                        "follow_referrals": "Theo dõi referrals để bind tới máy chủ LDAP",
+                        "use_ssl": "Dùng SSL",
+                        "use_tls": "Dùng TLS",
+                        "admin_dn": "Distinguished name (DN)",
+                        "admin_dn_help": "Để trống để bind ẩn danh",
+                        "admin_password": "Mật khẩu",
+                        "admin_password_help": "Để trống để bind ẩn danh",
+                        "search_user_fields": "Trường tìm kiếm",
+                        "search_user_fields_help": "Chọn nhiều trường tìm kiếm bằng danh sách xổ xuống, ví dụ chọn \"mail\" sẽ chỉ cho phép email, trong khi \"uid,mail\" sẽ cho phép email hoặc tên người dùng.",
+                        "user_username": "Gán trường Tên người dùng",
+                        "user_mail": "Gán trường Email",
+                        "user_mail_help": "Để trống để cho phép người dùng tự đặt email khi đăng ký",
+                        "user_nickname_fields": "Gán Biệt danh từ các trường",
+                        "user_nickname_fields_help": "Phải bật tiện ích mở rộng Biệt danh, ghép Biệt danh từ nhiều trường LDAP qua danh sách chọn. Ví dụ chọn \"givenname,sn\" sẽ gán \"[Tên] [Họ]\" làm Biệt danh",
+                        "permission_groups": "Gán Quyền cụ thể",
+                        "permission_groups_help": "Áp dụng khi đăng ký",
+                        "is_enabled": "Bật máy chủ LDAP"
                     }
                 },
-                "onlyUse": "",
-                "display_detailed_error": ""
+                "onlyUse": "Ẩn phương thức đăng nhập chuẩn của Flarum",
+                "display_detailed_error": "Hiển thị lỗi LDAP chi tiết cho các lần đăng nhập thất bại"
             }
         }
     }
