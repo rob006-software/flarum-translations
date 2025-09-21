@@ -2,239 +2,239 @@
     "kilowhat-cimaise": {
         "forum": {
             "nav": {
-                "albums": "",
-                "pictures": "",
-                "user-pictures": ""
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
             },
             "album-list": {
-                "title": "",
-                "new": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "=> kilowhat-cimaise.ref.albums",
+                "new": "Tạo album mới",
+                "empty": "Không có album",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "picture-list": {
-                "title": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "Tất cả hình ảnh",
+                "empty": "Không có hình ảnh",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
-                "loading": "",
-                "personal": "",
-                "community": "",
-                "discussion": ""
+                "upload": "Tải lên hình ảnh",
+                "empty": "Không có hình ảnh",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "Album cá nhân bởi <a>{username}</a>",
+                "community": "Album cộng đồng",
+                "discussion": "Đi đến thảo luận"
             },
             "picture-show": {
-                "loading": "",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
-                "download-cropped": "",
-                "download-original": "",
-                "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "Quay lại Album",
+                "download": "Tải xuống",
+                "previous": "Hình ảnh trước",
+                "next": "Hình ảnh tiếp theo",
+                "download-cropped": "Đã cắt {size}",
+                "download-original": "Tải xuống bản gốc",
+                "show-exif": "Tất cả dữ liệu EXIF",
+                "taken-at": "Chụp {ago}",
+                "published-at": "Xuất bản {ago}"
             },
             "upload-modal": {
-                "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
-                "drop-file": "",
-                "publishSilently": "",
-                "submit": "",
-                "submitInComposer": "",
-                "reload": ""
+                "title": "Tải lên hình ảnh trong album \"{title}\"",
+                "titleInComposer": "Chỉnh sửa hình ảnh",
+                "uploading": "Đang tải lên",
+                "processing": "Đang xử lý",
+                "select-file": "Chọn tệp",
+                "drop-file": "hoặc kéo và thả vào đây",
+                "publishSilently": "Xuất bản im lặng",
+                "submit": "Gửi",
+                "submitInComposer": "Tiếp tục",
+                "reload": "Tải lại danh sách bản nháp"
             },
             "new-album-modal": {
-                "title": ""
+                "title": "Album Mới"
             },
             "edit-album-modal": {
-                "title": ""
+                "title": "Chỉnh sửa Album \"{title}\""
             },
             "attach-album-modal": {
-                "title": "",
-                "selected": "",
-                "none-selected": "",
-                "search": "",
-                "no-results": "",
-                "select": "",
-                "unselect": "",
-                "submit": ""
+                "title": "Đính kèm album vào \"{title}\"",
+                "selected": "Đã chọn:",
+                "none-selected": "Không có",
+                "search": "Tìm kiếm",
+                "no-results": "Không có kết quả",
+                "select": "Chọn",
+                "unselect": "Bỏ chọn",
+                "submit": "Gửi"
             },
             "edit-album": {
-                "title": "",
-                "description": "",
-                "isCommunity": "",
-                "create": "",
-                "save": ""
+                "title": "Tiêu đề",
+                "description": "Mô tả",
+                "isCommunity": "Album cộng đồng (mọi người có thể đóng góp)",
+                "create": "Tạo Album",
+                "save": "Lưu Album"
             },
             "edit-picture": {
-                "title": "",
-                "description": ""
+                "title": "Tiêu đề",
+                "description": "Mô tả"
             },
             "album-thumbnail": {
-                "controls": "",
-                "edit": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "by-user": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "edit": "Chỉnh sửa",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Xóa Album \"{title}\"?",
+                "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
-                "by-user": "",
-                "in-album": ""
+                "by-user": "=> kilowhat-cimaise.ref.by-user",
+                "in-album": "Trong"
             },
             "picture-controls": {
-                "controls": "",
-                "editor": "",
-                "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "editor": "Chỉnh sửa cắt & mặt nạ",
+                "approve": "Phê duyệt",
+                "remove-favorite": "Bỏ Yêu thích",
+                "set-favorite": "Thêm vào Yêu thích",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Xóa Hình ảnh \"{title}\"?"
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
-                "author": ""
+                "title": "Nhấp để thêm tiêu đề",
+                "description": "Nhấp để thêm mô tả",
+                "author": "Nhấp để thêm tác giả"
             },
             "badge": {
-                "hidden": "",
-                "awaiting-approval": "",
-                "favorite": ""
+                "hidden": "Ẩn",
+                "awaiting-approval": "Chờ phê duyệt",
+                "favorite": "Yêu thích"
             },
             "picture-sort": {
-                "latest": "",
-                "oldest": "",
-                "latestTake": "",
-                "oldestTake": ""
+                "latest": "Tải lên mới nhất",
+                "oldest": "Tải lên cũ nhất",
+                "latestTake": "Chụp mới nhất",
+                "oldestTake": "Chụp cũ nhất"
             },
             "album-search": {
-                "title": ""
+                "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
-                "uploaded": ""
+                "uploaded": "{username} đã tải lên {count} hình ảnh"
             },
             "discussion-controls": {
-                "attach-album": ""
+                "attach-album": "Đính kèm hoặc gỡ album"
             },
             "license-label": {
-                "not-specified": "",
-                "not-specified-help": ""
+                "not-specified": "Không xác định",
+                "not-specified-help": "Kiểm tra điều khoản sử dụng trang web để biết bản quyền mặc định"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "viewExif": "",
-                "createPersonalAlbums": "",
-                "createCommunityAlbums": "",
-                "editOwnAlbum": "",
-                "hideOwnAlbum": "",
-                "uploadPictures": "",
-                "uploadPersonalPicturesWithoutApproval": "",
-                "uploadCommunityPicturesWithoutApproval": "",
-                "editOwnImage": "",
-                "editOwnPublishedImage": "",
-                "licenseOwnPublishedPicture": "",
-                "renameOwnPublishedPicture": "",
-                "hideOwnPicture": "",
-                "publishSilently": "",
-                "attachCimaiseAlbum": "",
-                "moderate": ""
+                "view": "Xem",
+                "viewExif": "Xem dữ liệu Exif (bao gồm vị trí địa lý)",
+                "createPersonalAlbums": "Tạo album cá nhân",
+                "createCommunityAlbums": "Tạo album cộng đồng",
+                "editOwnAlbum": "Thay đổi tiêu đề và mô tả album của mình",
+                "hideOwnAlbum": "Ẩn album của mình",
+                "uploadPictures": "Tải lên Hình ảnh",
+                "uploadPersonalPicturesWithoutApproval": "Tải lên hình ảnh không cần phê duyệt trong album cá nhân",
+                "uploadCommunityPicturesWithoutApproval": "Tải lên hình ảnh không cần phê duyệt trong album cộng đồng",
+                "editOwnImage": "Sử dụng trình chỉnh sửa hình ảnh trên hình ảnh của mình (cắt, mặt nạ và nhãn dán)",
+                "editOwnPublishedImage": "Sử dụng trình chỉnh sửa hình ảnh trên hình ảnh của mình sau khi xuất bản",
+                "licenseOwnPublishedPicture": "Thay đổi giấy phép hình ảnh của mình sau khi xuất bản",
+                "renameOwnPublishedPicture": "Thay đổi tiêu đề và mô tả hình ảnh của mình sau khi xuất bản",
+                "hideOwnPicture": "Ẩn hình ảnh của mình",
+                "publishSilently": "Xuất bản hình ảnh im lặng (không có bài đăng sự kiện)",
+                "attachCimaiseAlbum": "Thủ công đính kèm album vào thảo luận",
+                "moderate": "Kiểm duyệt"
             },
             "settings": {
-                "watermarkFile": "",
-                "watermarkFileHelp": "",
-                "watermarkPlacement": "",
+                "watermarkFile": "Hình ảnh watermark",
+                "watermarkFileHelp": "Hình ảnh được cung cấp sẽ được áp dụng 1:1 lên trên mỗi lần tải lên ngoại trừ bản xem trước nhỏ nhất.",
+                "watermarkPlacement": "Vị trí đặt watermark",
                 "watermarkPlacementOptions": {
-                    "topLeft": "",
-                    "bottomLeft": "",
-                    "topRight": "",
-                    "bottomRight": ""
+                    "topLeft": "Trên trái",
+                    "bottomLeft": "Dưới trái",
+                    "topRight": "Trên phải",
+                    "bottomRight": "Dưới phải"
                 },
-                "autoCreateDiscussionAlbum": "",
-                "autoCreateDiscussionAlbumHelp": "",
-                "neverSyncDiscussionAlbumTitles": "",
-                "neverSyncDiscussionAlbumTitlesHelp": "",
-                "columnTheme": "",
-                "columnThemeHelp": "",
-                "mapboxToken": "",
-                "mapboxTokenHelp": "",
-                "requireLicense": "",
-                "requireLicenseHelp": "",
-                "licenses": "",
-                "license-key": "",
-                "license-label": "",
-                "license-description": "",
-                "license-add": "",
-                "stickers": "",
-                "sticker-key": "",
-                "sticker-label": "",
-                "sticker-url": "",
-                "sticker-add": ""
+                "autoCreateDiscussionAlbum": "Tự động tạo album cho mỗi thảo luận mới",
+                "autoCreateDiscussionAlbumHelp": "Tự động tạo album mới với cùng tiêu đề như thảo luận và tác giả làm chủ sở hữu. Tính năng này bỏ qua quyền tạo album và áp dụng trong tất cả các thẻ.\n",
+                "neverSyncDiscussionAlbumTitles": "Không bao giờ đồng bộ tiêu đề thảo luận và album",
+                "neverSyncDiscussionAlbumTitlesHelp": "Theo mặc định, các album được liên kết có cùng tiêu đề chính xác với thảo luận sẽ được đổi tên khi tiêu đề thảo luận thay đổi. Nếu album được đổi tên thủ công, nó sẽ không bao giờ được đồng bộ lại với thảo luận.\n",
+                "columnTheme": "Chủ đề Cột",
+                "columnThemeHelp": "Sử dụng kiểu dáng bảng điều khiển bên khi hiển thị hình ảnh thay vì bảng điều khiển dưới.",
+                "mapboxToken": "Token Mapbox",
+                "mapboxTokenHelp": "Điền token hợp lệ để hiển thị bản đồ vị trí địa lý dưới meta hình ảnh.",
+                "requireLicense": "Yêu cầu chọn giấy phép từ danh sách bên dưới",
+                "requireLicenseHelp": "Theo mặc định người dùng có thể bỏ qua việc đặt giấy phép. Đảm bảo điều khoản sử dụng trang web của bạn bao gồm những gì có thể làm với phương tiện nơi giấy phép không được chỉ định.\n",
+                "licenses": "Giấy phép",
+                "license-key": "Khóa",
+                "license-label": "Nhãn",
+                "license-description": "Mô tả",
+                "license-add": "Thêm giấy phép",
+                "stickers": "Nhãn dán",
+                "sticker-key": "Khóa",
+                "sticker-label": "Nhãn",
+                "sticker-url": "URL",
+                "sticker-add": "Thêm nhãn dán"
             },
             "status": {
                 "pictures": {
-                    "section": "",
-                    "drafts": ""
+                    "section": "Hình ảnh",
+                    "drafts": "({count} bản nháp)"
                 },
                 "storage": {
-                    "section": "",
-                    "originals": "",
-                    "conversions": ""
+                    "section": "Lưu trữ (ước tính)",
+                    "originals": "Bản gốc: {size}",
+                    "conversions": "Chuyển đổi: {size}"
                 },
-                "refresh": "",
-                "loading": ""
+                "refresh": "Làm mới",
+                "loading": "Đang tải..."
             }
         },
         "api": {
             "post-edit": {
-                "cannotAttachToNonComment": "",
-                "cannotFindPicturesFromRelation": "",
-                "cannotAttachHasNoAlbum": "",
-                "cannotAttachAlreadySubmitted": "",
-                "cannotAttachFromExternalAlbum": "",
-                "cannotAttachUnauthorized": ""
+                "cannotAttachToNonComment": "Hình ảnh không thể được đính kèm thủ công vào các bài đăng không phải bình luận",
+                "cannotFindPicturesFromRelation": "Không thể tìm thấy tất cả hình ảnh được yêu cầu trong cơ sở dữ liệu",
+                "cannotAttachHasNoAlbum": "Thảo luận không có album đính kèm",
+                "cannotAttachAlreadySubmitted": "Không thể đính kèm hình ảnh {id} vì nó đã được gửi",
+                "cannotAttachFromExternalAlbum": "Không thể đính kèm hình ảnh {id} vì nó thuộc về album bên ngoài",
+                "cannotAttachUnauthorized": "Không thể đính kèm hình ảnh {id} vì nó không thuộc về bạn"
             },
             "picture-edit": {
                 "unauthorized": {
-                    "title": "",
-                    "description": "",
-                    "license": "",
-                    "author": "",
-                    "takenAt": "",
-                    "isDraftUnSubmit": "",
-                    "isDraftSubmit": "",
-                    "isApprovedUnApprove": "",
-                    "isApprovedApprove": "",
-                    "isHiddenRestore": "",
-                    "isHiddenHide": "",
-                    "isFavorite": "",
-                    "stickers": "",
-                    "crop": ""
+                    "title": "Tiêu đề không hợp lệ, chỉnh sửa không được ủy quyền",
+                    "description": "Mô tả không hợp lệ, chỉnh sửa không được ủy quyền",
+                    "license": "Giấy phép không hợp lệ, chỉnh sửa không được ủy quyền",
+                    "author": "Tác giả không hợp lệ, chỉnh sửa không được ủy quyền",
+                    "takenAt": "Ngày chụp không hợp lệ, chỉnh sửa không được ủy quyền",
+                    "isDraftUnSubmit": "Trạng thái bản nháp không hợp lệ, không được phép bỏ gửi",
+                    "isDraftSubmit": "Trạng thái bản nháp không hợp lệ, không được phép gửi",
+                    "isApprovedUnApprove": "Trạng thái phê duyệt không hợp lệ, không được phép bỏ phê duyệt",
+                    "isApprovedApprove": "Trạng thái phê duyệt không hợp lệ, không được phép phê duyệt",
+                    "isHiddenRestore": "Trạng thái ẩn không hợp lệ, không được phép khôi phục",
+                    "isHiddenHide": "Trạng thái ẩn không hợp lệ, không được phép ẩn",
+                    "isFavorite": "Trạng thái yêu thích không hợp lệ, chỉnh sửa không được ủy quyền",
+                    "stickers": "Nhãn dán không hợp lệ, chỉnh sửa không được ủy quyền",
+                    "crop": "Cắt không hợp lệ, chỉnh sửa không được ủy quyền"
                 }
             }
         },
         "ref": {
-            "albums": "",
-            "pictures": "",
-            "loading": "",
-            "load-more": "",
-            "controls": "",
-            "restore": "",
-            "hide": "",
-            "delete": "",
-            "by-user": ""
+            "albums": "Albums",
+            "pictures": "Hình ảnh",
+            "loading": "Đang tải...",
+            "load-more": "Tải thêm",
+            "controls": "Điều khiển",
+            "restore": "Khôi phục",
+            "hide": "Ẩn",
+            "delete": "Xóa",
+            "by-user": "Bởi"
         }
     }
 }
