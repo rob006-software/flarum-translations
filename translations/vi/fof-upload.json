@@ -97,10 +97,10 @@
                     "toggle": "Hình đóng dấu"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "Trình làm sạch SVG",
+                    "allow_animate": "Cho phép SVG chuyển động",
+                    "help": "Cấu hình cách xử lý và khử trùng tệp SVG khi tải lên. Tệp SVG có thể chứa các tập lệnh có khả năng gây hại và cần được xử lý cẩn thận. Các tệp SVG đã tải lên sẽ được khử trùng khi tải lên, đồng thời các tập lệnh và thẻ độc hại sẽ bị xóa.",
+                    "allow_animate_help": "Việc bật hoạt ảnh SVG có thể gây ra lỗ hổng bảo mật vì SVG có thể chứa mã độc. Vui lòng tự chịu rủi ro khi bật cài đặt này và chỉ bật khi bạn tin tưởng người dùng của mình."
                 },
                 "composer_buttons": {
                     "title": "Nút composer",
