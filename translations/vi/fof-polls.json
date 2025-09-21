@@ -24,8 +24,8 @@
                 "options_color_blend_help": "Sử dụng tính năng này để sử dụng trộn màu để làm cho các tùy chọn thăm dò dễ đọc hơn. Tắt nếu tính năng này gây ra sự cố với giao diện diễn đàn của bạn, làm giảm khả năng đọc.",
                 "image_height": "Thay đổi kích thước chiều cao hình ảnh",
                 "image_width": "Thay đổi kích thước chiều rộng hình ảnh",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": ""
+                "enabled_poll_groups": "Bật nhóm thăm dò ý kiến",
+                "enabled_poll_groups_help": "Nhóm thăm dò ý kiến cho phép bạn nhóm các cuộc thăm dò toàn cục lại với nhau và hiển thị chúng trên một trang chuyên dụng."
             },
             "permissions": {
                 "view_results_without_voting": "Xem kết quả mà không cần bỏ phiếu",
@@ -37,9 +37,9 @@
                 "vote": "Bình chọn cuộc thăm dò",
                 "change_vote": "Thay đổi bình chọn",
                 "moderate": "Chỉnh sửa và xóa cuộc thăm dò",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_group": "Xem nhóm thăm dò ý kiến",
+                "start_group": "Tạo nhóm thăm dò ý kiến",
+                "moderate_group": "Chỉnh sửa và xóa nhóm thăm dò ý kiến"
             }
         },
         "forum": {
@@ -140,7 +140,7 @@
             "page": {
                 "nav": "Cuộc thăm dò",
                 "nav-all": "Tất cả các cuộc thăm dò toàn cục",
-                "nav-groups": ""
+                "nav-groups": "Nhóm thăm dò ý kiến"
             },
             "showcase": {
                 "active-polls": "Các cuộc thăm dò đang diễn ra",
@@ -161,31 +161,31 @@
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "add_title": "Thêm nhóm thăm dò ý kiến",
+                    "edit_title": "Chỉnh sửa nhóm thăm dò ý kiến",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Xóa nhóm thăm dò ý kiến",
+                    "groups_manager": "Quản lý nhóm thăm dò ý kiến",
+                    "view_group": "Xem nhóm thăm dò ý kiến",
+                    "success": "Đã lưu nhóm thăm dò ý kiến thành công."
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "Nhóm thăm dò ý kiến",
+                    "start_poll_group_button": "Bắt đầu một nhóm thăm dò ý kiến",
+                    "cannot_start_poll_group_button": "Không thể bắt đầu nhóm thăm dò ý kiến",
+                    "empty_text": "Có vẻ như không có nhóm thăm dò ý kiến nào ở đây.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Không có cuộc thăm dò nào trong nhóm này.",
+                    "add_poll_button": "Thêm cuộc thăm dò vào nhóm"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "add_poll_label": "Thêm cuộc thăm dò",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Xem nhóm thăm dò ý kiến",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Bạn có chắc chắn muốn xóa nhóm thăm dò ý kiến này không?",
+                    "delete_success_message": "Đã xóa nhóm thăm dò ý kiến thành công.",
+                    "delete_error_message": "Đã xảy ra lỗi khi xóa nhóm thăm dò ý kiến."
                 }
             }
         }
