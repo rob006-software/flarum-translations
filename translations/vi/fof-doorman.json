@@ -58,117 +58,117 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "Mã",
+                        "help": "Mã người dùng sẽ nhập khi đăng ký."
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "Nhóm",
+                        "help": "Nhóm mà người dùng sẽ được thêm vào khi đăng ký bằng mã mời."
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "Số lần dùng tối đa",
+                        "help": "Số lần tối đa mã có thể được sử dụng. Đặt 0 để không giới hạn."
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "Kích hoạt người dùng",
+                        "help": "Tự động kích hoạt người dùng khi họ đăng ký."
                     }
                 }
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "",
+                    "title": "Tạo mã mời mới",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "Tạo mã mời",
+                    "submit_and_create_another_button": "Tạo và thêm mã khác"
                 },
                 "edit_doorkey": {
-                    "title": "",
+                    "title": "Chỉnh sửa mã mời",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": ""
+                    "submit_button": "Lưu thay đổi"
                 },
                 "send_invites": {
-                    "title": "",
-                    "group": "",
-                    "help": "",
-                    "placeholder": "",
-                    "invalid_emails": "",
-                    "max_use_conflict": "",
-                    "send": "",
-                    "success": ""
+                    "title": "Gửi mã mời",
+                    "group": "Gửi lời mời cho nhóm {group}",
+                    "help": "Chấp nhận danh sách phân tách bằng dấu phẩy, dấu cách, hoặc dấu phẩy kèm dấu cách. Nhập từng email hoặc dán một danh sách rồi nhấn phím cách để thêm.",
+                    "placeholder": "Nhập email tại đây",
+                    "invalid_emails": "Email không hợp lệ: {emails}",
+                    "max_use_conflict": "Số lượng email vượt quá số lần sử dụng tối đa của mã này.",
+                    "send": "Gửi email",
+                    "success": "Đã gửi email thành công"
                 }
             },
             "settings": {
-                "search": "",
-                "total_doorkeys": "",
-                "create_doorkey_button": "",
-                "optional_usage": ""
+                "search": "Tìm kiếm mã mời",
+                "total_doorkeys": "Tổng số mã mời: {count}",
+                "create_doorkey_button": "Tạo mã mời",
+                "optional_usage": "Cho phép bỏ qua mã mời khi đăng ký"
             },
             "list": {
                 "columns": {
-                    "id": "",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "id": "ID",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Quản lý",
+                    "uses": "Lượt dùng",
+                    "created_by": "Tạo bởi"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
-                    "warning": "",
-                    "delete": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "Mã mời này đã được sử dụng tối đa số lần.",
+                    "delete": "Bạn có chắc chắn muốn xóa mã mời \"{key}\" không?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {Không giới hạn lượt dùng} one {Còn {remainingUses} lượt} other {Còn {remainingUses} lượt}}",
+                        "total_uses": "{totalUses, plural, one {Đã dùng {totalUses} lần} other {Đã dùng {totalUses} lần}}"
                     },
-                    "no_created_by": ""
+                    "no_created_by": "Người dùng không xác định"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.admin.users.pagination.first_page_button",
+                    "back_button": "=> core.admin.users.pagination.back_button",
+                    "page_counter": "=> core.admin.users.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.admin.users.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.admin.users.pagination.next_button",
+                    "last_page_button": "=> core.admin.users.pagination.last_page_button"
                 }
             }
         },
         "email": {
-            "subject": "",
-            "body": ""
+            "subject": "Mời tham gia",
+            "body": "Xin chào,\n\nBạn đã được mời đăng ký {forum}.\n\nKhi bạn sẵn sàng tạo tài khoản, hãy nhấp vào liên kết sau và nhập mã khi đăng ký:\n\nUrl: {url}\nMã mời: {code}\n\nNếu bạn nhận được email này do nhầm lẫn, vui lòng bỏ qua.\n"
         }
     }
 }
