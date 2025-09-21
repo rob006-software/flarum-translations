@@ -1,21 +1,21 @@
 {
     "xypp-sticky-card": {
         "forum": {
-            "use-sticky-card": "",
-            "default": "",
-            "loading": "",
-            "used": "",
-            "not-used": "",
-            "no-card": "",
-            "giveup": "",
-            "success": "",
-            "already": "",
-            "sticky-card": "",
-            "sticky_card_take_effect": "",
-            "sticky_card_expire": ""
+            "use-sticky-card": "Sử dụng Thẻ Dính",
+            "default": "Mặc định",
+            "loading": "Đang tải...",
+            "used": "Đã sử dụng trên {0}",
+            "not-used": "Chưa sử dụng",
+            "no-card": "Không có thẻ nào có thể sử dụng.",
+            "giveup": "Từ bỏ Mua",
+            "success": "Sử dụng thành công",
+            "already": "Thảo luận đã được dính rồi.",
+            "sticky-card": "Thẻ Dính",
+            "sticky_card_take_effect": "{username} đã sử dụng Thẻ Dính",
+            "sticky_card_expire": "Thẻ Dính của {username} đã hết hạn"
         },
         "api": {
-            "already_sticky": ""
+            "already_sticky": "Thảo luận đã được dính rồi."
         }
     }
 }
