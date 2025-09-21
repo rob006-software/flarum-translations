@@ -8,7 +8,7 @@
             "title": "Bộ lọc",
             "bad_words_help": "Nhập chữ hoặc từ để lọc, mỗi từ một dòng. Nếu nội dung bài viết của người dùng chứa chuỗi bạn muốn lọc, thì chuỗi đó sẽ được gắn cờ để phê duyệt. Có khả năng chống chọi 133t.",
             "help2": "Khoảng thời gian tính bằng phút, trong đó các bài đăng từ cùng một người dùng trong cùng một cuộc thảo luận sẽ được tự động hợp nhất.",
-            "email_help": "Nội dung của email bị gắn cờ. Chấp nhận html hoặc plaintext.",
+            "email_help": "Nội dung email bị gắn cờ. Chấp nhận HTML hoặc văn bản thuần túy. Bạn có thể sử dụng %USERNAME% để chèn tên người dùng của người dùng có bài đăng bị gắn cờ.\n",
             "filter_label": "Các chuỗi để lọc",
             "countLabel": "Kiểm duyệt Tolorance",
             "cooldownLabel": "Hợp nhất thời gian cooldown của bài đăng",
@@ -17,7 +17,7 @@
                 "placeholder": "Các chuỗi được lọc",
                 "filter_title": "Các chuỗi để lọc",
                 "email_label": "Thiết lập email",
-                "email_help": "",
+                "email_help": "Để trống để sử dụng bản dịch. Bạn có thể sử dụng FoR Linguist để dịch email.",
                 "switch": {
                     "email": "Gửi email cho người dùng khi bài đăng được lọc",
                     "merge": "Tự động hợp nhất các bài đăng kép",
@@ -35,7 +35,7 @@
             },
             "email": {
                 "default_subject": "Về bài đăng gần đây của bạn",
-                "default_text": "Cảm ơn bạn đã đăng bài! Thật không may, bài viết của bạn đã bị gỡ bỏ vì chứa nội dung mà chúng tôi không muốn thấy trên diễn đàn của chúng tôi.\n\nNếu bạn tin rằng đây là một lỗi, bạn may mắn, mỗi bài viết bị gỡ bỏ sẽ được kiểm tra lại bởi các quản trị viên của chúng tôi. Nếu họ thấy rằng việc loại bỏ này là không đúng, họ sẽ khôi phục nó.\n\nCảm ơn bạn đã hiểu.\n"
+                "default_text": "%USERNAME%,\n\nCảm ơn bạn đã đăng bài! Rất tiếc, bài viết của bạn đã bị xóa vì chứa nội dung chúng tôi không muốn thấy trên diễn đàn.\n\nNếu bạn cho rằng đây là lỗi, bạn thật may mắn, mỗi bài viết bị xóa đều được ban quản trị của chúng tôi xem xét. Nếu họ phát hiện bài viết bị xóa sai, họ sẽ khôi phục lại.\n\nCảm ơn sự thông cảm của bạn.\n"
             },
             "help": "Nhập văn bản hoặc từ cần lọc, được phân tách bằng dấu phẩy + khoảng trắng. Nếu nội dung bài đăng của người dùng chứa chuỗi bạn muốn lọc, thì chuỗi đó sẽ được gắn cờ để phê duyệt. Có khả năng chống chọi 133t."
         }
