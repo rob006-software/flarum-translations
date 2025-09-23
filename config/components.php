@@ -696,7 +696,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/1.2.0/resources/locale/en.yml',
 	],
 	'fof-sitemap' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/2.3.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/2.4.0/resources/locale/en.yml',
 	],
 	'fof-socialprofile' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/1.2.0/resources/locale/en.yml',
