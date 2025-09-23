@@ -2,47 +2,47 @@
     "fof-horizon": {
         "admin": {
             "settings": {
-                "trim_title": "",
-                "trim_help": "",
-                "trim_recent": "",
-                "trim_recent_help": "",
-                "trim_pending": "",
-                "trim_pending_help": "",
-                "trim_completed": "",
-                "trim_completed_help": "",
-                "trim_recent_failed": "",
-                "trim_recent_failed_help": "",
-                "trim_failed": "",
-                "trim_failed_help": "",
-                "trim_monitored": "",
-                "trim_monitored_help": ""
+                "trim_title": "Cài đặt cắt bớt",
+                "trim_help": "Tại đây bạn có thể cấu hình khoảng thời gian (tính bằng phút) mà bạn muốn Horizon lưu giữ các công việc gần đây và các công việc thất bại. Thông thường, các công việc gần đây được giữ trong một giờ trong khi tất cả công việc thất bại được lưu trữ trong một tuần.\n",
+                "trim_recent": "Cắt bớt công việc gần đây",
+                "trim_recent_help": "Bảng này được dùng để hiển thị các công việc gần đây trong bảng điều khiển Horizon.\n",
+                "trim_pending": "Cắt bớt công việc đang chờ",
+                "trim_pending_help": "Bảng này được dùng để hiển thị các công việc đang chờ trong bảng điều khiển Horizon.\n",
+                "trim_completed": "Cắt bớt công việc đã hoàn thành",
+                "trim_completed_help": "Bảng này được dùng để hiển thị các công việc đã hoàn thành trong bảng điều khiển Horizon.\n",
+                "trim_recent_failed": "Cắt bớt công việc thất bại gần đây",
+                "trim_recent_failed_help": "Bảng này được dùng để hiển thị các công việc thất bại gần đây trong bảng điều khiển Horizon.\n",
+                "trim_failed": "Cắt bớt công việc thất bại",
+                "trim_failed_help": "Bảng này được dùng để hiển thị các công việc thất bại trong bảng điều khiển Horizon.\n",
+                "trim_monitored": "Cắt bớt công việc được giám sát",
+                "trim_monitored_help": "Bảng này được dùng để hiển thị các công việc được giám sát trong bảng điều khiển Horizon.\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
+                "auto_refresh": "Tự động làm mới",
+                "heading": "Tổng quan hàng đợi",
+                "full_dashboard": "Bảng điều khiển Horizon",
+                "refresh": "Làm mới",
                 "data": {
-                    "redis-used-memory": "",
-                    "redis-peak-memory": "",
-                    "redis-max-memory": "",
-                    "redis-memory-policy": "",
-                    "redis-memory-policy-tooltip": "",
-                    "redis-ops-per-sec": "",
-                    "redis-connected-clients": "",
-                    "redis-blocked-clients": "",
-                    "jobs-per-minute": "",
-                    "jobs-past-hour": "",
-                    "failed-last-seconds": "",
+                    "redis-used-memory": "Bộ nhớ đã dùng của bộ nhớ đệm",
+                    "redis-peak-memory": "Bộ nhớ đỉnh của bộ nhớ đệm",
+                    "redis-max-memory": "Bộ nhớ tối đa của bộ nhớ đệm",
+                    "redis-memory-policy": "Chính sách bộ nhớ bộ nhớ đệm",
+                    "redis-memory-policy-tooltip": "Chính sách bộ nhớ là cách bộ nhớ đệm chọn mục để loại bỏ khi đạt giới hạn maxmemory. Mặc định là `noeviction`: Giá trị mới sẽ không được lưu khi đạt giới hạn bộ nhớ. Nhấp để xem tài liệu.\n",
+                    "redis-ops-per-sec": "Hoạt động mỗi giây",
+                    "redis-connected-clients": "Khách hàng đã kết nối",
+                    "redis-blocked-clients": "Khách hàng bị chặn",
+                    "jobs-per-minute": "Công việc mỗi phút",
+                    "jobs-past-hour": "Công việc trong giờ qua",
+                    "failed-last-seconds": "Công việc thất bại trong vài giây qua",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Trạng thái",
+                        "running": "Đang chạy",
+                        "inactive": "Không hoạt động"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-runtime": "",
-                    "max-throughput": ""
+                    "total-processes": "Tổng số tiến trình",
+                    "max-wait-time": "Thời gian chờ tối đa",
+                    "max-runtime": "Thời gian chạy tối đa",
+                    "max-throughput": "Thông lượng tối đa"
                 }
             }
         }
