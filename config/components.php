@@ -1415,6 +1415,9 @@ return [
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.5/resources/locale/en.yaml',
 	],
+	'xiaoyi510-reply-to-see' => [
+		'tag' => 'https://raw.githubusercontent.com/xiaoyi510/flarum-reply-to-see/1.8.4/resources/locale/en.yml',
+	],
 	'xrh0905-oauth-microsoft' => [
 		'tag' => 'https://raw.githubusercontent.com/xrh0905/flarum-ext-oauth-microsoft/v1.0.1/locale/en.yml',
 	],
