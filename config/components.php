@@ -1097,6 +1097,9 @@ return [
 	'kyrne-whisper' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/whisper/0.1.4/resources/locale/en.yml',
 	],
+	'leanzo-discussion-thumbnail' => [
+		'tag' => 'https://raw.githubusercontent.com/LeanZo/discussion-thumbnail/v0.0.1/resources/locale/en.yml',
+	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
 	],
