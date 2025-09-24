@@ -1112,6 +1112,9 @@ return [
 	'litalino-geo-weather-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-geo-weather-widget/1.1.0/resources/locale/en.yml',
 	],
+	'litalino-mason' => [
+		'tag' => 'https://raw.githubusercontent.com/Litalino/mason/1.2.0/resources/locale/en.yml',
+	],
 	'litalino-more-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-more-bbcode/2.0.0/resources/locale/en.yml',
 	],
