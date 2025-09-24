@@ -1196,6 +1196,9 @@ return [
 	'miniflar-top-like-givers-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/miniflar/top-like-givers-widget/0.1.0/resources/locale/en.yml',
 	],
+	'mircle-group-list' => [
+		'tag' => 'https://raw.githubusercontent.com/xll98/flarum-ext-group-list/1.0.14/resources/locale/en.yml',
+	],
 	'muhammedsaidckr-gemini' => [
 		'tag' => 'https://raw.githubusercontent.com/muhammedsaidckr/flarum-gemini/v1.0.4/locale/en.yml',
 	],
