@@ -207,6 +207,7 @@ return [
 		'!mattoid-store-auto-check-in',
 		'!mattoid-store-check-in',
 		'!mattoid-store-invite',
+		'!mshuo-reply-to-see',
 		'!nodeloc-dislikes',
 		'!nodeloc-lottery',
 		'!nodeloc-whisper',
