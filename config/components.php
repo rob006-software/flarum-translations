@@ -344,6 +344,9 @@ return [
 	'convo-extensions-quick-reply' => [
 		'tag' => 'https://raw.githubusercontent.com/convo-extensions/flarum-ext-quick-reply/1.0.2/locale/en.yml',
 	],
+	'createchstudio-oauth-microsoft' => [
+		'tag' => 'https://raw.githubusercontent.com/CreatechStudio/flarum-ext-oauth-microsoft/v1.1.0/locale/en.yml',
+	],
 	'dalez-identityagent' => [
 		'tag' => 'https://raw.githubusercontent.com/zDaleZ/flarum-identityagent/v1.0.0/locale/en.yml',
 	],
