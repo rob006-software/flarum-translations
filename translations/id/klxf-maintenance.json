@@ -3,33 +3,33 @@
         "admin": {
             "dashboard": {
                 "maintenance-widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Mode Pemeliharaan Aktif",
+                    "detail": "Forum saat ini berada dalam mode pemeliharaan. Hanya pengguna dengan izin yang sesuai yang dapat mengakses forum."
                 }
             },
             "settings": {
                 "maintenance-mode-enabled": {
-                    "label": ""
+                    "label": "Aktifkan Mode Pemeliharaan"
                 },
                 "maintenance-mode-title": {
-                    "label": ""
+                    "label": "Judul Halaman Pemeliharaan"
                 },
                 "maintenance-mode-message": {
-                    "label": ""
+                    "label": "Pesan Halaman Pemeliharaan"
                 },
                 "maintenance-mode-html-template": {
-                    "label": "",
-                    "help": "",
-                    "reset-btn": "",
-                    "reset-help": ""
+                    "label": "Template HTML Halaman Pemeliharaan",
+                    "help": "Anda dapat menggunakan placeholder seperti <code>$message</code>, untuk detail lebih lanjut, lihat file README.",
+                    "reset-btn": "Reset ke Default",
+                    "reset-help": "Template akan berlaku setelah disimpan."
                 },
                 "maintenance-mode-auth": {
-                    "label": "",
-                    "help": ""
+                    "label": "Aktifkan Token Authentication",
+                    "help": "Anda dapat menggunakan developer token untuk login melalui <code>/maintenance/auth/$token</code>.."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Dapat melewatkan Mode Pemeliharaan"
             }
         }
     }
