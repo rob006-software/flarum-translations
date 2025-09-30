@@ -97,10 +97,10 @@
                     "toggle": "Lisa vesipilt"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "SVG puhastaja",
+                    "allow_animate": "Lülita SVG animatsioonid sisse",
+                    "help": "Seadista, kuidas SVG faile üleslaadimisel töödeldakse ja puhastatakse. SVG failid võivad sisaldada potentsiaalselt ohtlikke skripte ja seetõttu tuleks neisse ettevaatusega suhtuda. Üleslaetud SVG-d puhastatakse üleslaadimisel ja ohtlikud skriptid ja sildid eemaldatakse.",
+                    "allow_animate_help": "SVG animatsioonide sisselülitamine võib lisada turvariske, kuna SVG-s võib olla ohtlikku koodi. Lülita see funktsioon sisse ainult siis, kui usaldada oma kasutajaid."
                 },
                 "composer_buttons": {
                     "title": "Composeri nupud",
