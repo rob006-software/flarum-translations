@@ -10,26 +10,26 @@
                 },
                 "add": "Uus põhjus",
                 "explanationUrl": "Selgituse URL",
-                "explanationUrlHelp": ""
+                "explanationUrlHelp": "Valikuline. Näidatakse peidetud postituste all"
             },
             "permission": {
-                "collapse": ""
+                "collapse": "Peida postitused"
             }
         },
         "forum": {
             "postControl": {
                 "collapse": "Sulge",
-                "uncollapse": ""
+                "uncollapse": "Näita"
             },
             "modal": {
-                "title": "",
-                "uncollapse": ""
+                "title": "Peida postitus",
+                "uncollapse": "Näita"
             },
             "badge": {
-                "post": ""
+                "post": "Peidetud"
             },
             "stream": {
-                "hidden": "",
+                "hidden": "{count, plural, one {# postitus peideti põhjusel {reason}} other {# postitust peideti põhjusel {reason}}}",
                 "load": "Laadi rohkem",
                 "explanation": "Miks ma seda näen?"
             }
