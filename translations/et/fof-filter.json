@@ -8,7 +8,7 @@
             "title": "Filter",
             "bad_words_help": "Sisesta tekst või sõnad, mida filtreerida. Iga rea kohta üks. Kui kasutaja postitus sisaldab teksti, mida sa soovid filtreerida, siis märgitakse postitus ülevaatamiseks.",
             "help2": "Intervall minutites, mil sama kasutaja arutelud automaatselt liidetakse.",
-            "email_help": "Märgitud e-kirja sisu. Sobib nii HTML kui ka lihttekst.",
+            "email_help": "Märgitud e-kirja sisu. Sobib nii HTML kui ka lihttekst. Kasutajanime sisestamiseks kasuta muutujat %USERNAME%.\n",
             "filter_label": "Tekstid, mida filtreerida",
             "countLabel": "Sensori tolerantsus",
             "cooldownLabel": "Liida järjest tehtud postitused",
@@ -17,7 +17,7 @@
                 "placeholder": "Tekstid, mida filtreerida",
                 "filter_title": "Tekstid, mida filtreerida",
                 "email_label": "E-posti seaded",
-                "email_help": "",
+                "email_help": "Jäta tühjaks, et tõlget kasutada. Võid kasutada FoF Linguisti, et e-posti tõlkida.",
                 "switch": {
                     "email": "Saada kiri kasutajale, kui positutst filtreeritakse",
                     "merge": "Liisa topelt postitused automaatselt",
@@ -35,7 +35,7 @@
             },
             "email": {
                 "default_subject": "Seoses sinu viimase postitusega",
-                "default_text": "Aitäh, et postitasid foorumisse! Kahjuks sinu positus kustutati, kuna see sisaldas midagi, mida me oma foorumis näha ei soovi.\n\nKui arvad, et tegu on veaga, siis ära muretse. Iga eemaldatud positus vaadatakse moderaatori poolt üle. Kui nad jõuavad järeldusele, et posituse eemaldamine oli viga, siis sinu teema taastatakse foorumis.                \n\nAitäh mõistmise eest.\n"
+                "default_text": "%USERNAME%,\n\nAitäh, et postitasid foorumisse! Kahjuks sinu positus kustutati, kuna see sisaldas midagi, mida me oma foorumis näha ei soovi.\n\nKui arvad, et tegu on veaga, siis ära muretse. Iga eemaldatud positus vaadatakse moderaatori poolt üle. Kui nad jõuavad järeldusele, et posituse eemaldamine oli viga, siis sinu teema taastatakse foorumis.\n                \n\nAitäh mõistmise eest.\n"
             }
         }
     }
