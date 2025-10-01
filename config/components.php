@@ -1172,6 +1172,9 @@ return [
 	'mattoid-store-invite' => [
 		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-store-invite/1.3.6/locale/en.yml',
 	],
+	'michaelbelgium-ai-autoreply' => [
+		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-ai-autoreply/v1.0.0/locale/en.yml',
+	],
 	'michaelbelgium-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v7.3/locale/en.yml',
 	],
