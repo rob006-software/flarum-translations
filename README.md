@@ -1170,6 +1170,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`mattoid-store-auto-check-in`](https://weblate.rob006.net/projects/flarum/mattoid-store-auto-check-in) | [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in) |
 | [`mattoid-store-check-in`](https://weblate.rob006.net/projects/flarum/mattoid-store-check-in) | [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in) |
 | [`mattoid-store-invite`](https://weblate.rob006.net/projects/flarum/mattoid-store-invite) | [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite) |
+| [`michaelbelgium-ai-autoreply`](https://weblate.rob006.net/projects/flarum/michaelbelgium-ai-autoreply) | [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply) |
 | [`michaelbelgium-discussion-views`](https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views) | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) |
 | [`michaelbelgium-profile-views`](https://weblate.rob006.net/projects/flarum/michaelbelgium-profile-views) | [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) |
 | [`michaelbelgium-umami`](https://weblate.rob006.net/projects/flarum/michaelbelgium-umami) | [`michaelbelgium/flarum-umami`](https://github.com/MichaelBelgium/flarum-umami) |
