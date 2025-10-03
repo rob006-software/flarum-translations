@@ -1067,6 +1067,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huseyinfiliz-private-profile`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-private-profile) | [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) |
 | [`huseyinfiliz-sort-changer`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-sort-changer) | [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer) |
 | [`huseyinfiliz-sticky-title`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-sticky-title) | [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title) |
+| [`huseyinfiliz-traderfeedback`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-traderfeedback) | [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback) |
 | [`ianm-boring-avatars`](https://weblate.rob006.net/projects/flarum/ianm-boring-avatars) | [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars) |
 | [`ianm-follow-users`](https://weblate.rob006.net/projects/flarum/ianm-follow-users) | [`ianm/follow-users`](https://github.com/imorland/follow-users) |
 | [`ianm-gravatar`](https://weblate.rob006.net/projects/flarum/ianm-gravatar) | [`ianm/gravatar`](https://github.com/imorland/gravatar) |
