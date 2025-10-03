@@ -665,7 +665,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/passport/1.1.1/locale/en.yml',
 	],
 	'fof-polls' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/2.2.14/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/2.2.15/resources/locale/en.yml',
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/2.3.0-beta.6/resources/locale/en.yml',
 	],
 	'fof-pretty-mail' => [
