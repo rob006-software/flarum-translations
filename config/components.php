@@ -1010,6 +1010,9 @@ return [
 	'justoverclock-popular-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/popular-tags/0.1.3/locale/en.yml',
 	],
+	'justoverclock-profile-comments' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-profile-comments/1.3.0/locale/en.yml',
+	],
 	'justoverclock-profile-stories' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/profile-stories/1.3.4/locale/en.yml',
 	],
