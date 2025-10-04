@@ -2,20 +2,20 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "Бәяләү системасын куллан"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Бу көйләнмә кабызылса, кулланучылар үзләре язган хәбәрләренә бәяләү урнаштыра алачак.",
+                "like_own_posts_label": "Кулланучылар үзләре куйган хәбәрләрне бәяли ала"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_liked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} хәбәрегезне югары бәяләде"
             },
             "post": {
-                "like_link": "",
+                "like_link": "Ошый",
                 "liked_by_self_text": "",
                 "liked_by_text": "",
                 "others_link": "",
