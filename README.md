@@ -905,7 +905,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`akr-chevereto`](https://weblate.rob006.net/projects/flarum/akr-chevereto) | [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto) |
 | [`annonny-dice`](https://weblate.rob006.net/projects/flarum/annonny-dice) | [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice) |
 | [`antoinefr-money`](https://weblate.rob006.net/projects/flarum/antoinefr-money) | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) |
-| [`antoinefr-online`](https://weblate.rob006.net/projects/flarum/antoinefr-online) | [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online) |
 | [`archlinux-de-click-image`](https://weblate.rob006.net/projects/flarum/archlinux-de-click-image) | [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image) |
 | [`askvortsov-article-series`](https://weblate.rob006.net/projects/flarum/askvortsov-article-series) | [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series) |
 | [`askvortsov-auto-moderator`](https://weblate.rob006.net/projects/flarum/askvortsov-auto-moderator) | [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod) |
