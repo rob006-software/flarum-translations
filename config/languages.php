@@ -75,7 +75,6 @@ return [
 	'fr' => getComponents([
 		// translations included in extension
 		'!antoinefr-money',
-		'!antoinefr-online',
 		'!clarkwinkelmann-create-user-modal',
 		'!clarkwinkelmann-email-as-display-name',
 		'!clarkwinkelmann-emojionearea',
