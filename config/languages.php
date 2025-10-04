@@ -225,6 +225,7 @@ return [
 		'!vlssu-cravatar',
 		'!widayn-avatar-cropper',
 		'!xypp-answer-bounty',
+		'!xypp-collector',
 		'!xypp-forum-quests',
 		'!xypp-invite-user',
 		'!xypp-pay-to-read',
