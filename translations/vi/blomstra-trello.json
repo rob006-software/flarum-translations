@@ -3,82 +3,82 @@
         "admin": {
             "modals": {
                 "fields": {
-                    "board": "",
-                    "trello_label": "",
-                    "forum_tags": ""
+                    "board": "Chọn bảng Trello",
+                    "trello_label": "Chọn nhãn Trello",
+                    "forum_tags": "Chọn thẻ Diễn đàn để ánh xạ"
                 },
-                "no_available_labels_label": "",
-                "no_available_tags_label": ""
+                "no_available_labels_label": "Không có nhãn nào khả dụng",
+                "no_available_tags_label": "Không có thẻ diễn đàn nào khả dụng"
             },
             "permissions": {
-                "add_to_trello": ""
+                "add_to_trello": "Có thể liên kết một thảo luận với Trello"
             },
             "settings": {
-                "api_key_help": "",
-                "api_key_label": "",
-                "api_token_help": "",
-                "api_token_label": "",
-                "available_boards_label": "",
+                "api_key_help": "Nhập API key từ {link} để tiện ích mở rộng này có thể kết nối với Trello.",
+                "api_key_label": "API Key",
+                "api_token_help": "Nhập API token để tiện ích mở rộng này có thể kết nối với Trello. Truy cập {link} và nhấn <code>Tạo Token</code>",
+                "api_token_label": "API Token",
+                "available_boards_label": "Các bảng khả dụng",
                 "button": {
-                    "add": "",
-                    "remove": ""
+                    "add": "Thêm",
+                    "remove": "Xóa"
                 },
-                "default_board_help": "",
-                "default_board_label": "",
-                "guest_workspace": "",
-                "in_trello": "",
-                "include_secondary_tags_help": "",
-                "include_secondary_tags_label": "",
+                "default_board_help": "Bảng mặc định được chọn sẽ hiển thị sẵn trong hộp thoại Gửi tới Trello trong diễn đàn.",
+                "default_board_label": "Bảng mặc định",
+                "guest_workspace": "Không gian làm việc Khách",
+                "in_trello": "trên Trello",
+                "include_secondary_tags_help": "Khi tắt, chỉ những thẻ chính của thảo luận mới được gửi đến Trello. Khi bật, tất cả thẻ sẽ được gửi đến Trello.",
+                "include_secondary_tags_label": "Bao gồm thẻ phụ",
                 "label": {
-                    "general": "",
-                    "boards": "",
-                    "labels": ""
+                    "general": "Chung",
+                    "boards": "Cài đặt Bảng",
+                    "labels": "Cài đặt Nhãn"
                 },
                 "mapping": {
-                    "add_new": "",
-                    "mapping_description": "",
-                    "modal_title": "",
-                    "no_mappings_for_board": ""
+                    "add_new": "Thêm ánh xạ",
+                    "mapping_description": "sẽ trở thành",
+                    "modal_title": "Ánh xạ thẻ mới",
+                    "no_mappings_for_board": "Không có ánh xạ thẻ nào được gán cho bảng này"
                 },
-                "mappings_label": "",
-                "member_id_help": "",
-                "member_id_label": "",
-                "no_available_boards_label": "",
-                "no_label_name": "",
-                "no_selected_boards_label": "",
-                "selected_boards_label": "",
-                "save": "",
-                "tag": "",
-                "unmapped_warning_label": "",
-                "unmapped_warning_help": ""
+                "mappings_label": "Ánh xạ thẻ Diễn đàn sang nhãn Trello",
+                "member_id_help": "Nhập Trello Member ID để lấy danh sách bảng của tổ chức từ Trello. (https://trello.com/ten-trello-cua-ban)",
+                "member_id_label": "ID thành viên",
+                "no_available_boards_label": "Không có bảng nào khả dụng",
+                "no_label_name": "Không có tên nhãn",
+                "no_selected_boards_label": "Chưa có bảng nào được chọn",
+                "selected_boards_label": "Các bảng đã chọn",
+                "save": "Lưu thay đổi",
+                "tag": "Thẻ",
+                "unmapped_warning_label": "Cảnh báo về thẻ chưa ánh xạ",
+                "unmapped_warning_help": "Hiển thị cảnh báo khi gửi thảo luận đến Trello nếu thẻ Diễn đàn chưa được ánh xạ sang nhãn Trello"
             }
         },
         "forum": {
             "badges": {
                 "trello": {
-                    "tooltip": ""
+                    "tooltip": "Đã tồn tại trên Trello"
                 }
             },
             "controls": {
-                "send_to_trello_button": "",
-                "view_on_trello_button": ""
+                "send_to_trello_button": "Gửi tới Trello",
+                "view_on_trello_button": "Xem thẻ Trello"
             },
             "modals": {
                 "fields": {
-                    "board": "",
-                    "lane": "",
-                    "member": "",
-                    "member_selected": ""
+                    "board": "Chọn bảng Trello",
+                    "lane": "Chọn cột Trello",
+                    "member": "Chọn thành viên Trello",
+                    "member_selected": "{count, plural, one {# thành viên} other {# thành viên}} đã chọn"
                 },
-                "no_available_board_lanes": "",
-                "no_available_board_members": "",
-                "no_available_boards_label": "",
-                "no_mappings_for_board": "",
-                "title": ""
+                "no_available_board_lanes": "Không có cột nào khả dụng",
+                "no_available_board_members": "Không có thành viên nào khả dụng",
+                "no_available_boards_label": "Không có bảng nào khả dụng",
+                "no_mappings_for_board": "Bảng hiện tại chưa có ánh xạ nhãn Trello cho các thẻ diễn đàn",
+                "title": "Gửi tới Trello"
             }
         },
         "lib": {
-            "original_post": ""
+            "original_post": "Bài viết gốc"
         }
     }
 }

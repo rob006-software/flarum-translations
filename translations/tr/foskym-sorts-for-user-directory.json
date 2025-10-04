@@ -2,57 +2,57 @@
     "foskym-sorts-for-user-directory": {
         "admin": {
             "settings": {
-                "sort_by_nickname": "",
-                "sort_by_monthly_posts": "",
-                "sort_by_groups_count": "",
-                "sort_by_money": "",
-                "sort_by_likes_received": "",
-                "sort_by_recently_seen": "",
-                "sort_by_comments": "",
-                "sort_by_ziven_checkin": "",
-                "sort_by_invited_user": "",
-                "sort_by_badges_count": ""
+                "sort_by_nickname": "Kullanıcı adına göre sırala (Nicknames uzantısı gerekli)",
+                "sort_by_monthly_posts": "Aylık gönderilere/tartışmalara göre sırala (performans sorunlarına neden olabilir)",
+                "sort_by_groups_count": "Grup sayısına göre sırala",
+                "sort_by_money": "Paraya göre sırala (Antoinefr Money uzantısı gerekli)",
+                "sort_by_likes_received": "Alınan beğenilere göre sırala (Likes Received uzantısı gerekli)",
+                "sort_by_recently_seen": "Son görülme tarihine göre sırala",
+                "sort_by_comments": "Yorum sayısına göre sırala",
+                "sort_by_ziven_checkin": "Giriş yapma tarihine göre sırala (Ziven Daily Check In uzantısı gerekli)",
+                "sort_by_invited_user": "Davet edilen kullanıcı sayısına göre sırala (xypp Invite User uzantısı gerekli)",
+                "sort_by_badges_count": "Rozet sayısına göre sırala (v17development User Badges uzantısı gerekli)"
             },
-            "go_to_user_directory_extension": "",
-            "go_to_this_extension": ""
+            "go_to_user_directory_extension": "Daha fazla ayar için User Directory eklentisine git",
+            "go_to_this_extension": "Daha fazla sıralama ayarı için User Directory eklentisine git"
         },
         "forum": {
             "user_card": {
-                "monthly_discussions": "",
-                "monthly_comments": ""
+                "monthly_discussions": "Aylık tartışma {count}",
+                "monthly_comments": "Aylık yorum {count}"
             }
         },
         "lib": {
             "integrations": {
                 "antoinefr-money": {
-                    "least_money": "",
-                    "most_money": ""
+                    "least_money": "En az para",
+                    "most_money": "En çok para"
                 },
                 "clarkwinkelmann-likes-received": {
-                    "most_likes_received": "",
-                    "least_likes_received": ""
+                    "most_likes_received": "En çok beğeni alan",
+                    "least_likes_received": "En az beğeni alan"
                 },
                 "core": {
-                    "nickname_az": "",
-                    "nickname_za": "",
-                    "recently_seen": "",
-                    "least_recently_seen": "",
-                    "most_comments": "",
-                    "least_comments": "",
-                    "most_monthly_discussions": "",
-                    "most_monthly_comments": "",
-                    "most_groups_count": ""
+                    "nickname_az": "Kullanıcı adı (a-z)",
+                    "nickname_za": "Kullanıcı adı (z-a)",
+                    "recently_seen": "Son görülme",
+                    "least_recently_seen": "En az yakın zamanda görülen",
+                    "most_comments": "En çok yorum",
+                    "least_comments": "En az yorum",
+                    "most_monthly_discussions": "En çok aylık tartışma",
+                    "most_monthly_comments": "En çok aylık yorum",
+                    "most_groups_count": "En çok grup sayısı"
                 },
                 "ziven-daily-check-in": {
-                    "recently_checkin": "",
-                    "most_total_checkin": "",
-                    "most_total_continuous_checkin": ""
+                    "recently_checkin": "Son giriş",
+                    "most_total_checkin": "Toplamda en çok giriş yapan",
+                    "most_total_continuous_checkin": "En çok aralıksız giriş yapan"
                 },
                 "xypp-invite-user": {
-                    "most_invited_user": ""
+                    "most_invited_user": "En çok davet eden"
                 },
                 "v17development-user-badges": {
-                    "most_badges_count": ""
+                    "most_badges_count": "En çok rozet sayısı"
                 }
             }
         }
@@ -60,24 +60,24 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "nickname_az": "",
-                "nickname_za": "",
-                "most_money": "",
-                "least_money": "",
-                "most_likes_received": "",
-                "least_likes_received": "",
-                "recently_seen": "",
-                "least_recently_seen": "",
-                "most_comments": "",
-                "least_comments": "",
-                "recently_checkin": "",
-                "most_total_checkin": "",
-                "most_total_continuous_checkin": "",
-                "most_monthly_discussions": "",
-                "most_monthly_comments": "",
-                "most_groups_count": "",
-                "most_invited_user": "",
-                "most_badges_count": ""
+                "nickname_az": "=> foskym-sorts-for-user-directory.lib.integrations.core.nickname_az",
+                "nickname_za": "=> foskym-sorts-for-user-directory.lib.integrations.core.nickname_za",
+                "most_money": "=> foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.most_money",
+                "least_money": "=> foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.least_money",
+                "most_likes_received": "=> foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.most_likes_received",
+                "least_likes_received": "=> foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.least_likes_received",
+                "recently_seen": "=> foskym-sorts-for-user-directory.lib.integrations.core.recently_seen",
+                "least_recently_seen": "=> foskym-sorts-for-user-directory.lib.integrations.core.least_recently_seen",
+                "most_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_comments",
+                "least_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.least_comments",
+                "recently_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.recently_checkin",
+                "most_total_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_checkin",
+                "most_total_continuous_checkin": "=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_continuous_checkin",
+                "most_monthly_discussions": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_discussions",
+                "most_monthly_comments": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_comments",
+                "most_groups_count": "=> foskym-sorts-for-user-directory.lib.integrations.core.most_groups_count",
+                "most_invited_user": "=> foskym-sorts-for-user-directory.lib.integrations.xypp-invite-user.most_invited_user",
+                "most_badges_count": "=> foskym-sorts-for-user-directory.lib.integrations.v17development-user-badges.most_badges_count"
             }
         }
     }

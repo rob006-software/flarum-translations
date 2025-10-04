@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "Nhận email khi có thảo luận hoặc bài đăng mới",
                 "submit_button": "Xác nhận gói đăng ký"
             },
+            "hero": {
+                "title": "=> flarum-subscriptions.forum.index.following_link"
+            },
             "notifications": {
                 "new_discussion_text": "{username} đã đăng thảo luận mới",
                 "new_post_text": "{username} đã đăng trả lời mới",
@@ -76,6 +79,16 @@
             "filtering_options": {
                 "none": "Cuộc thảo luận đang theo dõi",
                 "tags": "Thẻ đang theo dõi"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Xuất thông tin chi tiết về cấp độ đăng ký của thẻ, nếu có.",
+                    "anonymize_description": "Xóa bỏ đăng ký của người dùng vào thẻ."
+                }
             }
         }
     },

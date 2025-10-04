@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "Ta dyskusja jest starsza niż <b>{time}</b>.",
                     "description": "Jest bardzo prawdopodobne, że nie jest potrzebna dalsza dyskusja na ten temat i podbijanie go jest bezcelowe.",
+                    "cta": "",
+                    "cta_button": "",
                     "checkbox_label": "Jestem świadomy, że ta dyskusja jest dość stara, ale chcę w niej odpowiedzieć pomimo to.",
                     "error": "Ta dyskusja jest zbyt stara, aby w niej odpowiedzieć."
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
                 "days_label": "Dni",
                 "days_help": "Dyskusja zostanie oznaczona jako stara, jeśli podana liczba dni minie od czasu opublikowania ostatniej odpowiedzi w tej dyskusji. Użyj <code>0</code>, aby domyślnie wyłączyć.",
                 "message_title_label": "Niestandardowy tytuł wiadomości",

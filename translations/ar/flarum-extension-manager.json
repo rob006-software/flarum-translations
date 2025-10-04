@@ -6,7 +6,7 @@
                 "add_modal": {
                     "host_label": "",
                     "host_placeholder": "",
-                    "submit_button": "",
+                    "submit_button": "إرسال ",
                     "token_label": "",
                     "type_label": "",
                     "unchanged_token_placeholder": ""
@@ -57,7 +57,7 @@
                         "name_label": "",
                         "type_label": "",
                         "url": "",
-                        "submit_button": ""
+                        "submit_button": "إرسال "
                     }
                 }
             },
@@ -142,7 +142,7 @@
                 }
             },
             "settings": {
-                "title": "",
+                "title": "الاعدادات",
                 "access_warning": "",
                 "debug_mode_warning": "",
                 "queue_jobs": "",
@@ -163,6 +163,27 @@
             "update_successful": "",
             "why_not_modal": {
                 "title": ""
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "",
+                "repositories": "",
+                "repositories.*": "",
+                "repositories.*.type": "",
+                "repositories.*.url": "",
+                "extension_id": "",
+                "update_mode": "",
+                "package": "",
+                "version": "",
+                "github_oauth": "",
+                "github_oauth.*": "",
+                "gitlab_oauth": "",
+                "gitlab_oauth.*": "",
+                "gitlab_token": "",
+                "gitlab_token.*": "",
+                "bearer": "",
+                "bearer.*": ""
             }
         }
     }

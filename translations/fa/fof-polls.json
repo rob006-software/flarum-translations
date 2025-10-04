@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "",
                 "allow_image_uploads": "",
                 "allow_image_uploads_help": "",
@@ -11,7 +23,9 @@
                 "options_color_blend": "",
                 "options_color_blend_help": "",
                 "image_height": "",
-                "image_width": ""
+                "image_width": "",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "مشاهده نتایج بدون رای گیری",
@@ -22,11 +36,14 @@
                 "upload_images": "",
                 "vote": "",
                 "change_vote": "",
-                "moderate": ""
+                "moderate": "",
+                "view_group": "",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
-            "days_remaining": "نظرسنجی در {time} به پایان می رسد.",
+            "days_remaining": "{time} نظرسنجی به اتمام رسید.",
             "no_permission": "شما اجازه رای دادن ندارید",
             "poll_ended": "این نظرسنجی به پایان رسید.",
             "public_poll": "مشاهده رای دهندگان",
@@ -38,7 +55,8 @@
                 "cannot_change_vote": "",
                 "submit_button": "",
                 "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "cannot_start_poll_button": "",
+                "total_votes": ""
             },
             "poll_controls": {
                 "edit_label": "",
@@ -78,7 +96,7 @@
                 "date_placeholder": "تاریخ پایان نظرسنجی (اختیاری)",
                 "edit_title": "ویرایش نظرسنجی",
                 "include_question": "شما باید یک سوال اضافه کنید",
-                "max": "شما می توانید حداکثر 10 پاسخ داشته باشید",
+                "max": "شما می توانید حداکثر {max} پاسخ داشته باشید",
                 "min": "شما باید حداقل 2 پاسخ را وارد کنید",
                 "no_voters": "بدون رای",
                 "option_placeholder": "پاسخ",
@@ -89,6 +107,7 @@
                 "max_votes_label": "",
                 "max_votes_help": "",
                 "hide_votes_label": "",
+                "hide_votes_label_help": "",
                 "allow_change_vote_label": "",
                 "question_placeholder": "سوال",
                 "subtitle_placeholder": "",
@@ -120,7 +139,8 @@
             },
             "page": {
                 "nav": "",
-                "nav-all": ""
+                "nav-all": "",
+                "nav-groups": ""
             },
             "showcase": {
                 "active-polls": "",
@@ -138,6 +158,35 @@
             "upload_image": {
                 "remove_button": "",
                 "upload_button": ""
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

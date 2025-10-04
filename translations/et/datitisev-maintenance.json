@@ -2,46 +2,46 @@
     "datitisev-maintenance": {
         "admin": {
             "dashboard": {
-                "enable_maintenance_mode_button": "",
-                "disable_maintenance_mode_button": ""
+                "enable_maintenance_mode_button": "Lülita hooldusrežiim sisse",
+                "disable_maintenance_mode_button": "Lülita hooldusrežiim välja"
             },
             "settings": {
-                "title": "",
-                "settings_notice": "",
-                "allow_bypass_label": "",
-                "allow_bypass_hint": "",
-                "prefer_db_label": "",
-                "prefer_db_hint": "",
-                "active_label": "",
-                "disable_admin_label": "",
-                "disable_api_label": "",
-                "title_label": "",
-                "message_label": "",
-                "error_page_file_label": "",
-                "error_page_file_hint": "",
-                "error_page_label": "",
-                "error_page_hint": ""
+                "title": "Hooldusrežiim",
+                "settings_notice": "Need seaded ei saa olla praegu kehtivad seaded. Veendu, et neid ei kirjutata faili <code>config.php</code> poolt üle.",
+                "allow_bypass_label": "Luba foorumi ja API hooldamisest mööda minna vastavalt õigustele",
+                "allow_bypass_hint": "Ei lähe mööda, kui andmebaas pole saadaval. Rakendatakse foorumile ja API-le (kui API pole faili <code>config.php</code> kaudu täielikult välja lülitatud). Kui see on välja lülitatud, siis adminid saavad ikka API-le ligi (Kui API pole just täielikult välja lülitatud) ja nii ei lukustata sind välja.",
+                "prefer_db_label": "Eelista andmebaasi seadeid failis <code>config.php</code> olevate asemel",
+                "prefer_db_hint": "Tavapäraselt kirjutavad failis <code>config.php</code> seaded üle siin olevad seaded. Lülita see valik sisse, kui soovid, et need valikud kirjutavad üle config failis olevad seaded nii, et neid kasutatakse ainult siis, kui andmebaas pole saadaval.",
+                "active_label": "Hooldusrežiimi staatus",
+                "disable_admin_label": "Keela admini ligipääs",
+                "disable_api_label": "Keela kogu API ligipääs",
+                "title_label": "Vealehe pealkiri",
+                "message_label": "Vealehe sõnum",
+                "error_page_file_label": "Veateate lehekülje asukoht",
+                "error_page_file_hint": "Asukoht Flarumi põhikaustas - kus asuvad kaustad <code>vendor</code> ja <code>storage</code>.",
+                "error_page_label": "Veateate leht HTML/Blade",
+                "error_page_hint": "Blade-ga saad kasutada muutujaid $app, $translator, $settings, $title ja $message."
             },
             "permissions": {
-                "allow_bypass_maintenance_label": ""
+                "allow_bypass_maintenance_label": "Mine hooldusrežiimist mööda (seade peab olema sisse lülitatud)"
             }
         },
         "lib": {
-            "maintenance_active_message": "",
-            "maintenance_active_not_db_message": "",
-            "maintenance_active_disabled_api_message": ""
+            "maintenance_active_message": "See foorum on hetkel hooldamisel.",
+            "maintenance_active_not_db_message": "Hooldusrežiim on lülitatud sisse kasutades <code>config.php</code> faili.",
+            "maintenance_active_disabled_api_message": "API on praegu kõigi jaoks välja lülitatud."
         },
         "views": {
             "error": {
-                "title": "",
-                "message": ""
+                "title": "Hooldus",
+                "message": "Teeme praegu veidi hooldustöid. Oleme varsti tagasi!"
             }
         }
     },
     "core": {
         "lib": {
             "error": {
-                "maintenance_message": ""
+                "maintenance_message": "Foorum on praegu hooldusrežiimis."
             }
         }
     }

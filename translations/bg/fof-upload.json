@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Всички файлове, качени от потребителя.",
-                    "anonymize_description": "Премахва потребителската препратка от качените файлове. Самите файлове остават достъпни за потребителите, които могат да ги видят преди анонимизиране.",
-                    "delete_description": "Изтрива всички файлове, качени от потребителя."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -96,6 +96,12 @@
                     "title": "Изображения с воден знак",
                     "toggle": "Изображения с воден знак"
                 },
+                "svg-sanitizer": {
+                    "title": "",
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
+                },
                 "composer_buttons": {
                     "title": "Бутони за съставяне",
                     "options": {
@@ -132,6 +138,7 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/Съвместим",
+                "awss3": "",
                 "imgur": "*Imgur*",
                 "local": "Локален",
                 "ovh-svfs": "*OVH SVFS*",
@@ -249,6 +256,17 @@
                     "hide_fail": "",
                     "show_fail": "",
                     "loading": ""
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Всички файлове, качени от потребителя.",
+                    "anonymize_description": "Премахва потребителската препратка от качените файлове. Самите файлове остават достъпни за потребителите, които могат да ги видят преди анонимизиране.",
+                    "delete_description": "Изтрива всички файлове, качени от потребителя."
                 }
             }
         }

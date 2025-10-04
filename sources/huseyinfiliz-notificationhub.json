@@ -1,0 +1,65 @@
+{
+    "huseyinfiliz-notificationhub": {
+        "admin": {
+            "title": {
+                "page_title": "Notification Types"
+            },
+            "permissions": {
+                "send_all": "Send notifications to all users",
+                "send_user": "Send notifications to individual users"
+            },
+            "settings": {
+                "add_button": "Add Notification Type",
+                "no_data": "No notification types yet.",
+                "delete_confirm": "Are you sure you want to delete this notification type and all its associated notifications?",
+                "fields": {
+                    "actions": "Actions",
+                    "name": "Notification Type Name",
+                    "excerpt_key": "Default Excerpt",
+                    "description": "Notification Type Description",
+                    "icon": "Default Icon",
+                    "default_message_key": "Default Message",
+                    "permission": "Notification Type Permission",
+                    "color": "Notification Type Color",
+                    "default_url": "Default Link",
+                    "default_recipients": "Default Recipients",
+                    "sort_order": "Sort Order",
+                    "active": "Active"
+                },
+                "save": "Save",
+                "edit_notification_type": "Edit Notification Type",
+                "add_notification_type": "Add Notification Type"
+            }
+        },
+        "forum": {
+            "links": {
+                "notification_individual": "Send Notification",
+                "notification_all": "Send Notification"
+            },
+            "modal_notification": {
+                "title_text": "Send Notification",
+                "recipients_label": "Recipients",
+                "recipients_placeholder": "Type a username or group name...",
+                "message_label": "Message",
+                "url_label": "Target Link",
+                "url_placeholder": "https://www.example.com",
+                "submit_button": "Send Notification",
+                "notification_sent_message": "Notifications have been sent to {recipientsCount} users!",
+                "notification_type_label": "Notification Type",
+                "no_notification_types": "No active notification types found.",
+                "preview_title": "Notification Preview",
+                "preview_message_placeholder": "Notification message.."
+            },
+            "recipient_kinds": {
+                "user": "User",
+                "group": "Group"
+            }
+        },
+        "api": {
+            "message_required": "Message is required.",
+            "user_ids_required": "User IDs are required.",
+            "subject_id_required": "Notification Type is required.",
+            "no_valid_recipients": "No valid recipients were found."
+        }
+    }
+}

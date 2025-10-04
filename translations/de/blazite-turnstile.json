@@ -1,0 +1,22 @@
+{
+    "blazite-turnstile": {
+        "admin": {
+            "settings": {
+                "help_text": "Turnstile-Schlüssel in deinem Cloudflare-Konto <a>hier</a> erstellen.",
+                "site_key": "Website-Schlüssel",
+                "secret_key": "Geheimer Schlüssel",
+                "signup": "",
+                "signin": "",
+                "forgot": ""
+            }
+        },
+        "forum": {
+            "not_loaded_error": "Cloudflare Turnstile konnte nicht geladen werden. Bitte die Seite aktualisieren und prüfen, ob ein Adblocker aktiv ist.",
+            "validation_error": "Bitte die Turnstile-Prüfung abschließen."
+        }
+    },
+    "validation": {
+        "turnstile": "Wir konnten nicht überprüfen, ob du ein Roboter bist. Bitte die Seite aktualisieren und erneut versuchen.",
+        "required": "Bitte die Turnstile-Prüfung abschließen."
+    }
+}

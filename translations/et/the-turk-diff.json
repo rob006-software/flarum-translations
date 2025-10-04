@@ -1,84 +1,84 @@
 {
     "the-turk-diff": {
         "forum": {
-            "revisions": "",
-            "emptyText": "",
-            "editedText": "",
-            "deletedText": "",
+            "revisions": "{revisionCount, plural, one {{revisionCount} versioon} other {{revisionCount} versiooni}}",
+            "emptyText": "Muudatusi pole",
+            "editedText": "=> core.forum.post.edited_text",
+            "deletedText": "(kustutatud)",
             "tooltips": {
-                "mostRecent": "",
-                "originalContent": "",
-                "revisionWithNumber": "",
-                "sideBySide": "",
-                "inline": "",
-                "combined": "",
-                "preview": ""
+                "mostRecent": "viimased",
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
+                "sideBySide": "Kõrvuti",
+                "inline": "Rida-realt",
+                "combined": "Kombineeritud",
+                "preview": "=> core.forum.composer.preview_tooltip"
             },
-            "optionsButton": "",
-            "deleteButton": "",
-            "rollbackButton": "",
-            "rollbackToOriginalButton": "",
-            "revertChangesButton": "",
-            "confirmRollback": "",
-            "confirmDelete": "",
-            "rollbackErrorMessage": "",
-            "deleteErrorMessage": "",
-            "rollbackSuccessMessage": "",
-            "deleteSuccessMessage": "",
-            "editedInfo": "",
-            "deletedInfo": "",
-            "createdInfo": "",
-            "revisionInfo": "",
-            "noDiff": "",
+            "optionsButton": "Valikud",
+            "deleteButton": "=> core.forum.post_controls.delete_button",
+            "rollbackButton": "Mine tagasi versioonile {number}",
+            "rollbackToOriginalButton": "Taasta algne",
+            "revertChangesButton": "Tühista muudatused",
+            "confirmRollback": "Oled sa kindel, et soovid oma praegust postitust muuda?",
+            "confirmDelete": "Oled sa kindel, et soovid kustutada selle muudatuse sisu ajaloost?",
+            "rollbackErrorMessage": "Muudatuste tagasivõtmine ebaõnnestus.",
+            "deleteErrorMessage": "Redaktori sisu kustutamine ebaõnnestus.",
+            "rollbackSuccessMessage": "Sinu muudatused võeti tagasi.",
+            "deleteSuccessMessage": "Redaktori sisu kustutati.",
+            "editedInfo": "=> core.forum.post.edited_tooltip",
+            "deletedInfo": "{username} kustutas selle sisu {ago}",
+            "createdInfo": "{username} lisas {ago}",
+            "revisionInfo": "Muudetud {revisionCount, plural, one {{revisionCount} kord} other {{revisionCount} korda}}, uuemad on üleval",
+            "noDiff": "Nende kahe sisu vahel ei leitud mingeid erinevusi.",
             "differences": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
-                "sentence": ""
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
+                "sentence": "Vaatad erinevusi {old} ja {new} vahel"
             },
             "previewMode": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
-                "sentence": ""
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
+                "sentence": "Sisu {content} eelvaade"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Erinevuste seaded",
                 "onlyUnsigned": "",
                 "usePoint": "",
-                "separateBlock": "",
-                "mainPostOnly": "",
-                "textFormatting": "",
-                "detailLevel": "",
+                "separateBlock": "Näita erinevuste võrdlemisel tekstiosade vahel eraldajaid",
+                "mainPostOnly": "Säilita ainult peamise postituse versioone",
+                "textFormatting": "Luba eelvaates teksti vormindamine",
+                "detailLevel": "Ükssikasjade tase",
                 "noneLevel": "",
-                "lineLevel": "",
-                "wordLevel": "",
-                "charLevel": "",
-                "neighborLines": "",
+                "lineLevel": "Rea tasemel",
+                "wordLevel": "Sõna tasemel",
+                "charLevel": "Märgi tasemel",
+                "neighborLines": "Naaber read",
                 "neighborLinesHelp": "",
                 "mergeThreshold": "",
                 "mergeThresholdHelp": "",
-                "dbOptimisation": "",
-                "archiveOlds": "",
+                "dbOptimisation": "Andmebaasi optimeerimine",
+                "archiveOlds": "Arhiveeri vanad versioonid",
                 "archiveOldsInfo": "",
                 "useCrons": "",
                 "useCronsHelp": "",
                 "archiveInfo": ""
             },
             "permissions": {
-                "viewEditHistory": "",
-                "deleteEditHistory": "",
-                "selfDeleteEditHistory": "",
-                "rollbackEditHistory": "",
-                "selfRollbackEditHistory": ""
+                "viewEditHistory": "Vaata vestluse ajalugu",
+                "deleteEditHistory": "Teiste muudatuste ajaloo kustutamine",
+                "selfDeleteEditHistory": "Omaenda vestluse ajaloo kustutamine",
+                "rollbackEditHistory": "Teiste muudatuste tühistamine",
+                "selfRollbackEditHistory": "Omaenda muudatuste tühistamine"
             }
         },
         "ref": {
-            "originalContent": "",
-            "currentContent": "",
-            "revisionWithNumber": ""
+            "originalContent": "algne sisu",
+            "currentContent": "praegune sisu",
+            "revisionWithNumber": "versioon {number}"
         }
     }
 }

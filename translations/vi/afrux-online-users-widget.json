@@ -2,7 +2,12 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "max_users": "Số người dùng tối đa để hiển thị"
+                "cache_ttl": "Thời gian lưu trữ danh sách người dùng (tính bằng giây)",
+                "last_seen_interval": "Khoảng thời gian nhìn thấy lần cuối để xem xét người dùng trực tuyến (tính bằng phút)",
+                "max_users": "Số người dùng hiển thị tối đa"
+            },
+            "permissions": {
+                "view_online_users_widget": "Tiện ích Xem Người dùng Trực tuyến"
             }
         },
         "forum": {

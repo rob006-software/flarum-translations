@@ -2,28 +2,28 @@
     "imdong-spam-alert": {
         "admin": {
             "permissions": {
-                "set-spam": "",
-                "see-spam-info": ""
+                "set-spam": "Đánh dấu Spam",
+                "see-spam-info": "Xem thông tin Spam"
             },
             "settings": {
-                "btn-name": "",
-                "btn-name-help": "",
-                "to-folding-number": "",
-                "to-folding-number-help": ""
+                "btn-name": "Spam",
+                "btn-name-help": "Tên của nút này hiển thị cho người dùng là \"Spam\" theo mặc định.",
+                "to-folding-number": "Ngưỡng Gấp Tự động",
+                "to-folding-number-help": "Tự động thu gọn nội dung ẩn khi được đánh dấu bởi bao nhiêu người, đặt thành 0 để không tự động thu gọn"
             }
         },
         "forum": {
             "post": {
-                "btn-set-spam": "",
-                "btn-unset-spam": "",
-                "spam-hide-tips": ""
+                "btn-set-spam": "Đánh dấu Spam",
+                "btn-unset-spam": "Bỏ đánh dấu Spam",
+                "spam-hide-tips": "Spam đã bị ẩn"
             },
             "notification": {
-                "content": "",
-                "excerpt": ""
+                "content": "Trả lời đã được gấp vì bị đánh dấu là rác nhiều lần",
+                "excerpt": "Vui lòng tuân thủ quy định của trang, chẳng hạn như liên tục đánh dấu rác có thể bị trừng phạt có hệ thống."
             },
             "settings": {
-                "notify_post_spam_hide_label": ""
+                "notify_post_spam_hide_label": "Rác đã bị ẩn do thẻ"
             }
         }
     }

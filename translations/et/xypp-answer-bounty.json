@@ -1,0 +1,36 @@
+{
+    "xypp-answer-bounty": {
+        "forum": {
+            "modal": {
+                "title": "Määra autasu",
+                "label": "Summa",
+                "submit": "Saada",
+                "clear": "Tühjenda"
+            },
+            "composer": {
+                "set": "Määra autasu",
+                "edit": "Autasu ({bounty})"
+            },
+            "discussion": {
+                "edit": "Muuta autasu ({bounty})",
+                "set": "Määra autasu"
+            },
+            "tip": "See vestlus otsib parimat vastus ja pakub autasu <span>{money}</span>.",
+            "tip-ans": "Määra autasu <span>{money}</span>",
+            "badge": "Autasu"
+        },
+        "admin": {
+            "permissions": {
+                "moderate": "Teiste autasude muutmine",
+                "use": "Määra autasu"
+            }
+        },
+        "api": {
+            "bounty": "Autasu sinu parima vastuse eest",
+            "bounty_clear": "Tühjenda autasu",
+            "bounty_set": "Määra autasu",
+            "not_enough_money": "Sul pole piisavalt raha autasu määramiseks.",
+            "bounty_sent": "Autasu on saadetud. Palun uue parima vastuse määramist eemalda parima vastuse märgistus eelmiselt."
+        }
+    }
+}

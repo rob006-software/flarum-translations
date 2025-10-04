@@ -43,6 +43,7 @@
                 "about_tags_text": "Žymos naudojamos diskusijoms skirstyti į kategorijas. Pirminės žymos yra kaip tradicinės forumo kategorijos: jas galima suskirstyti į dviejų lygių hierarchiją. Antrinės žymos neturi hierarchijos ar tvarkos ir yra naudingos mikrokategorijoms.",
                 "create_primary_tag_button": "Sukurkite pirminę žymą",
                 "create_secondary_tag_button": "Sukurkite antrinę žymą",
+                "edit_tag_label": "",
                 "primary_heading": "Pirminės žymos",
                 "secondary_heading": "Antrinės žymos",
                 "settings_heading": "Nustatymai"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "",
             "name": "Pavadinimas",
             "tags": "Žymės"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

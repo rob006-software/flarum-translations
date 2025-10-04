@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "Разрешете на URL изображението да се предоставя за всяка анкетна опция",
                 "allow_image_uploads": "",
                 "allow_image_uploads_help": "",
@@ -11,7 +23,9 @@
                 "options_color_blend": "Текст за преливане на цветове в опциите за анкета",
                 "options_color_blend_help": "Използвайте това, за да използвате смесване на цветове, за да направите опциите за анкета по-четими. Деактивирайте, ако тази функция създава проблеми с външния вид на вашия форум, намалявайки четливостта.",
                 "image_height": "",
-                "image_width": ""
+                "image_width": "",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Вижте резултатите без гласуване",
@@ -22,7 +36,10 @@
                 "upload_images": "",
                 "vote": "Гласувайте в анкети",
                 "change_vote": "Промяна на вота",
-                "moderate": "Редактиране и премахване на анкети"
+                "moderate": "Редактиране и премахване на анкети",
+                "view_group": "",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
@@ -38,7 +55,8 @@
                 "cannot_change_vote": "Не можете да промените гласа си след гласуване.",
                 "submit_button": "Гласувай",
                 "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "cannot_start_poll_button": "",
+                "total_votes": ""
             },
             "poll_controls": {
                 "edit_label": "",
@@ -89,6 +107,7 @@
                 "max_votes_label": "Максимум гласове на потребител",
                 "max_votes_help": "Задайте 0, за да позволите на потребителите да гласуват за всички опции.",
                 "hide_votes_label": "Скриване на гласовете до края на анкетата",
+                "hide_votes_label_help": "",
                 "allow_change_vote_label": "Позволете на потребителите да променят вота си",
                 "question_placeholder": "Въпрос",
                 "subtitle_placeholder": "",
@@ -120,7 +139,8 @@
             },
             "page": {
                 "nav": "",
-                "nav-all": ""
+                "nav-all": "",
+                "nav-groups": ""
             },
             "showcase": {
                 "active-polls": "",
@@ -138,6 +158,35 @@
             "upload_image": {
                 "remove_button": "",
                 "upload_button": ""
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

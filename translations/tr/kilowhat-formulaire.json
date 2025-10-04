@@ -48,8 +48,8 @@
                 },
                 "uniformComposerLayout": "Tek tip tartışma oluşturucu düzeni",
                 "uniformComposerLayoutHelp": "Etiketlerin, başlık ve içerik alanlarının stilini Formulaire ile eşleşecek şekilde değiştirir. Bu düzen daha da fazla yer kaplayacağından, <a>Composer Page</a> uzantısını yükleyip etkinleştirmeniz önerilir.\n",
-                "noByobuFields": "",
-                "noByobuFieldsHelp": ""
+                "noByobuFields": "Byobu eklentisinin özel tartışmalarında, tartışma alanlarını dahil etmeyin",
+                "noByobuFieldsHelp": "Varsayılan olarak; etiketle sınırlandırılmayan tartışma alanları, özel tartışmalar da dahil olmak üzere tüm tartışmalara uygulanacaktır."
             }
         },
         "forum": {
@@ -390,7 +390,7 @@
             "unknown-form": "Tanınmayan form kimliği {id}",
             "unauthorized-form": "{id} form kimliğini doldurmak için gerekli izinlere sahip değilsiniz",
             "unauthorized-scoped-form": "{id} form kimliğini mevcut etiket kombinasyonuyla dolduramazsınız",
-            "unsupported-discussion-form": "",
+            "unsupported-discussion-form": "Bu tür bir tartışmada {id} formunu dolduramazsınız",
             "file-already-belongs-form": "{id} dosyası başka bir forma ait",
             "file-already-belongs-submission": "{id} dosyası başka bir gönderiye ait",
             "export": {

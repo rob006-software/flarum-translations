@@ -1,8 +1,18 @@
 {
     "v17development-flarum-seo": {
+        "admin": {
+            "permissions": {
+                "configure_seo": "Cho phép cấu hình SEO"
+            }
+        },
         "forum": {
             "profile_title": "Trang cá nhân của {username}",
-            "profile_description": "Trang cá nhân của {username} | {discussion_count} cuộc thảo luận | {comment_count} bài viết"
+            "profile_description": "Trang cá nhân của {username} | {discussion_count} cuộc thảo luận | {comment_count} bài viết",
+            "controls": {
+                "configure_seo": "Cấu hình SEO",
+                "update_seo": "Cập nhật SEO",
+                "reset_seo": "Đặt lại SEO"
+            }
         }
     },
     "v17development-flarum-seov17development-flarum-seo": {

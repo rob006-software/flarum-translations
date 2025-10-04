@@ -20,7 +20,7 @@
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Lūdzu, ievadiet heksadecimālo krāsu kodu.",
-                "favicon_heading": "Favicon",
+                "favicon_heading": "Favikona",
                 "favicon_text": "Augšupielādējiet attēlu, kas tiks parādīts kā foruma saīsnes ikona.",
                 "logo_heading": "Logo",
                 "logo_text": "Augšupielādējiet attēlu, kas tiks parādīts foruma nosaukuma vietā.",
@@ -248,8 +248,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "Rediģēt {username}"
+                            "tooltip": "Rediģēt {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -262,6 +262,9 @@
                         },
                         "join_time": {
                             "title": "Pievienojās"
+                        },
+                        "user_actions": {
+                            "title": "Darbības"
                         },
                         "user_id": {
                             "title": "ID"
@@ -593,6 +596,11 @@
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "D MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY"
             },
             "series": {
                 "glue_text": ", ",

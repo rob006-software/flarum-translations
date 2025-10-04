@@ -37,7 +37,11 @@
                     "title": "Domaines LDAP",
                     "description": "Saisissez tous les domaines LDAP disponibles que Flarum doit utiliser pour se connecter",
                     "add": "Ajouter un domaine",
-                    "banner": "Domaine {index}",
+                    "banner": "Domaine {index} - [{isEnabled}]",
+                    "is_enabled": {
+                        "enabled": "Activer",
+                        "disabled": "Désactivé"
+                    },
                     "header": {
                         "server": "Paramètres du serveur LDAP",
                         "admin": "Administrateur LDAP",
@@ -70,7 +74,10 @@
                         "user_mail": "Attribuer un champ d'adresse de courriel",
                         "user_mail_help": "Laissez vide pour permettre aux utilisateurs de définir leur propre adresse de courriel lors de l'inscription",
                         "user_nickname_fields": "Attribuer un pseudonyme avec des champs",
-                        "user_nickname_fields_help": "L'extension de pseudonyme doit être activée, compiler le pseudonyme avec plusieurs champs LDAP en utilisant les options du menu déroulant. Par exemple, en sélectionnant « givenname,sn », le pseudonyme sera « [Prénom] [Nom] »"
+                        "user_nickname_fields_help": "L'extension de pseudonyme doit être activée, compiler le pseudonyme avec plusieurs champs LDAP en utilisant les options du menu déroulant. Par exemple, en sélectionnant « givenname,sn », le pseudonyme sera « [Prénom] [Nom] »",
+                        "permission_groups": "Attribuer des autorisations spécifiques",
+                        "permission_groups_help": "Cela est appliqué lors de l'inscription",
+                        "is_enabled": "Activer le serveur LDAP"
                     }
                 },
                 "onlyUse": "Masquer la méthode de connexion standard de Flarum",

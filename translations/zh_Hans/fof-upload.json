@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "所有由用户上传的文件。",
-                    "anonymize_description": "解除文件与用户的关联，保留文件本身的可访问。",
-                    "delete_description": "删除由用户上传的所有文件。"
+                    "export_description": "用户上传的所有文件。",
+                    "anonymize_description": "去除所有已上传文件的用户关联。之前可访问这些文件的用户仍可访问。",
+                    "delete_description": "删除该用户上传的所有文件。"
                 }
             }
         }
@@ -96,6 +96,12 @@
                     "title": "图片水印",
                     "toggle": "开启"
                 },
+                "svg-sanitizer": {
+                    "title": "",
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
+                },
                 "composer_buttons": {
                     "title": "编辑器按钮",
                     "options": {
@@ -132,6 +138,7 @@
             },
             "upload_methods": {
                 "aws-s3": "AWS S3 或 S3 兼容",
+                "awss3": "",
                 "imgur": "Imgur",
                 "local": "本地",
                 "ovh-svfs": "OVH SVFS",
@@ -252,6 +259,17 @@
                     "hide_fail": "转换私密文件失败",
                     "show_fail": "转为公共文件失败",
                     "loading": "正在转换私密文件……"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "所有由用户上传的文件。",
+                    "anonymize_description": "解除文件与用户的关联，保留文件本身的可访问。",
+                    "delete_description": "删除由用户上传的所有文件。"
                 }
             }
         }

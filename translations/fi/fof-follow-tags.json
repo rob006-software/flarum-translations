@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "Saa sähköposti , kun on uusia keskusteluita tai viestejä",
                 "submit_button": "Vahvista tilaus"
             },
+            "hero": {
+                "title": "=> flarum-subscriptions.forum.index.following_link"
+            },
             "notifications": {
                 "new_discussion_text": "{username} aloitti",
                 "new_post_text": "{username} kirjoitti",
@@ -76,6 +79,16 @@
             "filtering_options": {
                 "none": "Seuratut keskustelut",
                 "tags": "Seuratut avainsanat"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Vie tiedot avainsanan tilaus tiedoista, jos saatavilla.",
+                    "anonymize_description": "Poistaa käyttäjän tilauksen avainsanaan."
+                }
             }
         }
     },

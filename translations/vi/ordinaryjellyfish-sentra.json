@@ -1,0 +1,52 @@
+{
+    "ordinaryjellyfish-sentra": {
+        "admin": {
+            "view_documentation": "Xem tài liệu",
+            "api_key": "Khóa API",
+            "endpoint": "Điểm cuối",
+            "enable": "Bật",
+            "permissions": {
+                "bypass": "Bỏ qua Sentra"
+            },
+            "services": {
+                "heading": "Dịch vụ",
+                "content_safety": "Azure AI Content Safety",
+                "content_safety_help": "Azure AI Content Safety là dịch vụ phát hiện nội dung có thể gây phản cảm hoặc không mong muốn trong văn bản và hình ảnh.",
+                "content_safety_settings": {
+                    "analyze_images": "Phân tích hình ảnh"
+                }
+            },
+            "modules": {
+                "heading": "Mô-đun",
+                "requires": "Yêu cầu <b>{services}</b>",
+                "requires_error": "Vui lòng bật và cấu hình tất cả dịch vụ cần thiết để sử dụng mô-đun này.",
+                "post_shield": "Post Shield",
+                "post_shield_help": "Post Shield là mô-đun phát hiện nội dung có thể gây phản cảm hoặc không mong muốn trong bài viết. Phân tích toàn bộ nội dung bài viết, bao gồm cả hình ảnh nếu được bật trong cài đặt Azure AI Content Safety.",
+                "post_shield_settings": {
+                    "harm_categories": "Danh mục gây hại",
+                    "severity_level": "Mức độ kích hoạt",
+                    "severity_level_low": "Thấp",
+                    "severity_level_medium": "Trung bình",
+                    "severity_level_high": "Cao",
+                    "severity_level_unknown": "Không xác định"
+                }
+            }
+        },
+        "lib": {
+            "post_shield": {
+                "Hate": "Thù ghét và phân biệt",
+                "Hate_help": "Nội dung tấn công hoặc sử dụng ngôn từ phân biệt đối xử liên quan đến một cá nhân hoặc nhóm dựa trên các thuộc tính khác biệt nhất định.",
+                "Sexual": "Tình dục",
+                "Sexual_help": "Ngôn từ liên quan đến cơ quan giải phẫu và bộ phận sinh dục, quan hệ tình cảm và hành vi tình dục, hành vi được miêu tả bằng thuật ngữ gợi dục hoặc âu yếm, bao gồm cả hành vi bị cưỡng ép hoặc bạo lực tình dục trái ý muốn.",
+                "Violence": "Bạo lực",
+                "Violence_help": "Ngôn từ liên quan đến các hành động thể chất nhằm làm tổn thương, gây thương tích, phá hoại hoặc giết ai đó hoặc thứ gì đó; mô tả vũ khí, súng và các thực thể liên quan.",
+                "SelfHarm": "Tự gây hại",
+                "SelfHarm_help": "Ngôn từ liên quan đến các hành động thể chất nhằm cố tình làm tổn thương, gây thương tích cho cơ thể hoặc tự sát."
+            }
+        },
+        "forum": {
+            "flag_reason": "Sentra đã gắn cờ bài viết này vì {reason}",
+            "flag_detail": "Bài viết đáp ứng tiêu chí cho {categories} với mức độ nghiêm trọng tương ứng {severities}"
+        }
+    }
+}

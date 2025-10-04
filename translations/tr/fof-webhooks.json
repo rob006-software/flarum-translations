@@ -70,7 +70,10 @@
                     "extra_text_help": "Gönderilen webhooka eklenecek ekstra metin.",
                     "group_label": "Grup",
                     "group_help": "Bu grup tarafından görülebilecek kaynakları gönderin",
-                    "events_label": "Etkinlikler"
+                    "name_label": "Adı",
+                    "name_help": "Webhook'un adı. Bu, Discord kullanıcı adı, Slack bot adı gibi şeyler için kullanılacaktır.",
+                    "events_label": "Etkinlikler",
+                    "include_matching_tags_label": "Eşleşen etiketleri dahil et -- belirli etiketlerle sınırlı webhook'lar için, olayın hangi etiketlerle eşleştiğini göster"
                 },
                 "services": {
                     "discord": "Discord",

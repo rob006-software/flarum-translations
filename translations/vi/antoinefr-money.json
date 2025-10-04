@@ -7,13 +7,16 @@
                 "moneyfordiscussion": "Số tiền cho một cuộc thảo luận mới",
                 "moneyname": "Tên của tiền (ví dụ: [money] điểm)",
                 "postminimumlength": "Độ dài bài viết tối thiểu để nhận tiền (0 để tắt)",
+                "ignore_notifying_users": "Khi kiểm tra số lượng từ của câu trả lời, chỉ tập trung vào phần nội dung",
                 "noshowzero": "Không hiển thị nếu giá trị bằng 0",
                 "autoremove": "Tự động cập nhật tiền",
+                "cascaderemove": "Xóa tiền cho các bài đăng khi một cuộc thảo luận bị xóa",
                 "moneyforlike": "Cộng tiền khi có bài viết được thích",
                 "helpextensionlikes": "Yêu cầu bật tiện ích <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "Chỉnh sửa tiền"
+                "edit_money_label": "Chỉnh sửa tiền",
+                "disable_money_label": "Vô hiệu hóa tiền"
             },
             "autoremove": [
                 "Không bao giờ trừ tiền",

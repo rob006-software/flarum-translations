@@ -23,7 +23,7 @@
                     "not_found": "Tidak dapat menemukan akun Anda di {server}.",
                     "incorrect_details": "Password yang dimasukkan salah.",
                     "password_expired": "Password Anda telah kedaluwarsa.",
-                    "disabled": "Akun Anda dinonaktifkan, hubungi administrasi {server} Anda.",
+                    "disabled": "Akun Anda telah dinonaktifkan, hubungi administrasi {server} Anda.",
                     "expired": "Akun Anda telah kedaluwarsa, hubungi administrasi {server} Anda.",
                     "locked": "Akun Anda terkunci, hubungi administrasi {server} Anda."
                 }
@@ -37,7 +37,11 @@
                     "title": "Domain LDAP",
                     "description": "Masukkan semua domain LDAP yang tersedia untuk digunakan Flarum untuk login",
                     "add": "Tambah Domain",
-                    "banner": "Domain {index}",
+                    "banner": "Domain {index} - [{isEnabled}]",
+                    "is_enabled": {
+                        "enabled": "Aktifkan",
+                        "disabled": "Tidak aktif"
+                    },
                     "header": {
                         "server": "Pengaturan Server LDAP",
                         "admin": "Admin LDAP",
@@ -70,7 +74,10 @@
                         "user_mail": "Menetapkan kolom Email",
                         "user_mail_help": "Biarkan kosong untuk mengizinkan Pengguna mengatur email mereka sendiri saat pendaftaran",
                         "user_nickname_fields": "Menetapkan Nickname dengan kolom",
-                        "user_nickname_fields_help": "Ekstensi Nickname harus diaktifkan, kompilasi Nickname dengan beberapa bidang LDAP menggunakan opsi dropdown. Misalnya memilih \"givenname,sn\" akan menetapkan \"[Nama Depan] [Nama Belakang]\" sebagai Nama Panggilan mereka"
+                        "user_nickname_fields_help": "Ekstensi Nickname harus diaktifkan, kompilasi Nickname dengan beberapa bidang LDAP menggunakan opsi dropdown. Misalnya memilih \"givenname,sn\" akan menetapkan \"[Nama Depan] [Nama Belakang]\" sebagai Nama Panggilan mereka",
+                        "permission_groups": "Tetapkan Izin Tertentu",
+                        "permission_groups_help": "Ini diterapkan saat pendaftaran",
+                        "is_enabled": "Aktifkan Server LDAP"
                     }
                 },
                 "onlyUse": "Sembunyikan metode login standar Flarum",

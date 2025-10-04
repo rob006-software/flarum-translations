@@ -2,34 +2,35 @@
     "maicol07-sso": {
         "admin": {
             "settings": {
-                "title": "",
-                "provider_mode": "",
-                "client_name": "",
-                "client_name_help": "",
-                "client_url": "",
-                "client_url_help": "",
-                "client_api_key": "",
-                "client_api_key_help": "",
-                "client_password_token": "",
-                "client_password_token_help": "",
-                "client_verify_ssl": "",
-                "client_verify_ssl_help": "",
-                "signup_url": "",
-                "login_url": "",
-                "logout_url": "",
-                "remove_login_btn": "",
-                "remove_signup_btn": "",
-                "manage_account_url": "",
-                "manage_account_btn_open_in_new_tab": "",
-                "cookies_prefix": "",
-                "jwt_section_subtitle": "",
-                "jwt_iss": "",
-                "jwt_signer_key": "",
-                "jwt_signing_algorithm": ""
+                "title": "SSO seaded",
+                "provider_mode": "Kasuta seda valikut, et kasutada teenusepakkuja režiimi (SSO kahe Flarumi saidi vahel). Võimaldab kahele Flarumi saidile logida sisse selle Flarumi saidi kasutajakontoga. See lülitab välja tavapärase SSO funktsiooni teiste veebisaitidega kasuatmiseks.",
+                "client_name": "Nimi",
+                "client_name_help": "Flarumi saidi nimi",
+                "client_url": "URL",
+                "client_url_help": "Flarumi saidi URL",
+                "client_api_key": "API võti",
+                "client_api_key_help": "Sinu Flarumi saidi API võti.",
+                "client_password_token": "Parooli kontrollkood",
+                "client_password_token_help": "Juhuslik parooli kontrollkood, mida kasutatakse Flarumi saidile sisselogimiseks.",
+                "client_verify_ssl": "Kinnita SSL",
+                "client_verify_ssl_help": "Kinnita Flarumi saidi SSL-i staatus, kui sellele tehakse päringuid (soovitatud).",
+                "signup_url": "Liitumise URL",
+                "login_url": "Sisselogimise URL",
+                "logout_url": "Väljalogimise URL",
+                "remove_login_btn": "Eemalda sisselogimise nupp",
+                "remove_signup_btn": "Eemalda liitumise nupp",
+                "manage_account_url": "Konto haldamise URL",
+                "manage_account_btn_open_in_new_tab": "Ava konto haldamine uuel vahekaardil",
+                "cookies_prefix": "Küpsiste nime eesliide",
+                "jwt_section_subtitle": "JWT laienduse seaded",
+                "jwt_iss": "Määraja domeen",
+                "jwt_signer_key": "Allkirjastaja võti",
+                "jwt_signing_algorithm": "Allkirjastamise viis"
             }
         },
         "forum": {
-            "manage_account_btn": ""
+            "manage_account_btn": "Halda kontot",
+            "no_login_url_error": ""
         }
     }
 }

@@ -250,8 +250,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "编辑 {username}"
+                            "tooltip": "编辑 {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -264,6 +264,9 @@
                         },
                         "join_time": {
                             "title": "注册时间"
+                        },
+                        "user_actions": {
+                            "title": "操作"
                         },
                         "user_id": {
                             "title": "ID"
@@ -575,7 +578,7 @@
                 "generic_cross_origin_message": "跨域请求时出现问题，请刷新页面后重试。",
                 "missing_dependencies_message": "无法启用「{extension}」，请先启用依赖扩展「{extensions}」",
                 "not_found_message": "您请求的资源不存在。",
-                "payload_too_large_message": "请求负载过大。",
+                "payload_too_large_message": "上传内容过大。",
                 "permission_denied_message": "您没有权限进行此操作。",
                 "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。",
                 "render_failed_message": "抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看论坛日志文件查看详情。"
@@ -596,6 +599,11 @@
             "number_suffix": {
                 "kilo_text": "千",
                 "mega_text": "百万"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "MMMD日",
+                "humanTimeLong": "ll",
+                "scrubber": "YYYY年MMM"
             },
             "series": {
                 "glue_text": "， ",

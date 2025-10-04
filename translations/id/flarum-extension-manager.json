@@ -164,6 +164,27 @@
             "why_not_modal": {
                 "title": "Mengapa Tidak Dapat Diperbarui"
             }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "",
+                "repositories": "",
+                "repositories.*": "",
+                "repositories.*.type": "",
+                "repositories.*.url": "",
+                "extension_id": "",
+                "update_mode": "",
+                "package": "",
+                "version": "",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab Token",
+                "gitlab_token.*": "GitLab Token",
+                "bearer": "HTTP Bearer",
+                "bearer.*": "HTTP Bearer"
+            }
         }
     }
 }

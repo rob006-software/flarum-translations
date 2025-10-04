@@ -60,6 +60,18 @@
                 "confirm_disable_2fa_title": "Kétlépcsős hitelesítés kikapcsolásának megerősítése",
                 "confirm_disable_2fa_text": "Biztos, hogy kikapcsolja a kétlépcsős hitelesítést?",
                 "confirm_disable_2fa_text_other_user": "Biztos, hogy kikapcsolja a kétlépcsős hitelesítést {username} számára? Ez eltávolítja a biztonsági kódokat, és kikapcsolja a 2FA-t a fiókjához.",
+                "change_device_heading": "Hitelesítési eszköz módosítása",
+                "change_device_title": "Eszköz módosítása",
+                "change_device_description": "2FA áthelyezése új eszközre",
+                "change_device_button": "Eszköz módosítása",
+                "verify_current_device_message": "Adjon meg egy tokent a jelenlegi hitelesítési eszközéről, hogy megerősítse a személyazonosságát.",
+                "enter_current_token": "Adjon meg egy tokent a jelenlegi eszközéről",
+                "scan_new_device_qr": "Olvassa le ezt a QR-kódot a jelenlegi hitelesítési eszközén.",
+                "verify_new_device_message": "Most adjon meg egy tokent az új eszközéről, hogy befejezze a módosítást.",
+                "enter_new_token": "Adjon meg egy tokent az új eszközéről",
+                "new_backup_codes": "Új tartalék biztonsági kódok",
+                "device_changed_confirmation": "A hitelesítési eszköze sikeresen megváltozott.",
+                "continue_button": "Folytatás",
                 "cannot_disable": "A jelenlegi konfiguráció azt diktálja, hogy nem kapcsolhatja ki a kétlépcsős hitelesítést.",
                 "cannot_disable_tooltip": "A 2FA nem kapcsolható ki",
                 "cancel_button": "Mégse",
@@ -92,6 +104,16 @@
             "two_factor_token": {
                 "title": "Kétlépcsős hitelesítés",
                 "submit_button": "Token beküldése"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "Exportálja a 2FA állapotát, és a titkosított tartalék biztonsági kódokat.",
+                    "delete_description": "Törli az összes 2FA-val kapcsolatos adatot."
+                }
             }
         }
     },

@@ -9,7 +9,7 @@
             "title": "Filtre",
             "bad_words_help": "Her satırda bir tane olacak şekilde filtrelenecek metin veya sözcükleri girin. Bir kullanıcının gönderisinin içeriği filtrelemek istediğiniz bir dize içeriyorsa, onay için işaretlenir. 133t'ye karşı dayanıklıdır.",
             "help2": "Peş peşe atılan gönderilerin birleştirilmesi dakika cinsinden belirlenmelidir.",
-            "email_help": "İşaretlenmiş e-posta içeriği. HTML ve düz metin geçerlidir.",
+            "email_help": "İşaretlenmiş e-posta içeriği. HTML ve düz metin geçerlidir. İşaretlenen gönderinin kullanıcısının adını eklemek için %USERNAME% kullanabilirsiniz.\n",
             "filter_label": "Filtrelenecek kelimeler",
             "countLabel": "Sansür Toleransı",
             "cooldownLabel": "Peş peşe birleştirme süresi",
@@ -18,6 +18,7 @@
                 "placeholder": "Filtrelenecek kelimeler",
                 "filter_title": "Kelime Filtreleme",
                 "email_label": "E-Posta Ayarları",
+                "email_help": "Çevirilerin kullanılmasına izin vermek için boş bırakın. E-postayı çevirmek için FoF Linguist kullanabilirsiniz.",
                 "switch": {
                     "email": "Filtreye takılan gönderileri e-posta ile kullanıcıya bildir",
                     "merge": "Çift gönderileri otomatik birleştir",
@@ -35,7 +36,7 @@
             },
             "email": {
                 "default_subject": "Son Gönderiniz Hakkında",
-                "default_text": "Gönderiniz için teşekkürler! Ancak forumumuzda görmek istemediğimiz bazı ifadeler içerdiği için şimdilik gönderiniz şimdilik yayından kaldırıldı.\n\nEğer bunun bir hata düşünüyorsanız şanslısınız, kaldırılan her gönderi moderatörlerimiz tarafından incelenmektedir. Eğer bir yanlışlık varsa gönderiniz tekrar yayına alınacaktır.\n\n\nAnlayışınız için teşekkürler.\n"
+                "default_text": "%USERNAME%,\n\nGönderiniz için teşekkür ederiz! Ne yazık ki, gönderiniz forumlarımızda görmek istemediğimiz bir şey içerdiği için kaldırıldı.\n\nBunun bir hata olduğuna inanıyorsanız, şanslısınız, kaldırılan her gönderi moderatörlerimiz tarafından incelenir. Bunun yanlış bir şekilde kaldırıldığını tespit ederlerse, geri yüklerler.\n\nAnlayışınız için teşekkür ederiz.\n"
             },
             "help": "Girilen terimler virgül ve boşlukla ayrılmalıdır."
         }

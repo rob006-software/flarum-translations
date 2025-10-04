@@ -2,20 +2,20 @@
     "flarum-twemoji": {
         "forum": {
             "composer": {
-                "emoji_tooltip": "",
-                "type_to_search_text": ""
+                "emoji_tooltip": "Emoji ekle",
+                "type_to_search_text": "Bir emoji arayın"
             }
         },
         "admin": {
             "settings": {
-                "base": "",
-                "folder": "",
-                "ext": "",
-                "basehelp": "",
-                "baseph": "",
-                "folderph": "",
-                "extph": "",
-                "disable_autocomplete": ""
+                "base": "Temel (Sağlayıcı)",
+                "folder": "Klasör",
+                "ext": "Uzantı",
+                "basehelp": "İpuçları: $ yazın, otomatik sürüm numarasıyla değiştirilecektir. Harfe duyarlı.",
+                "baseph": "Örneğin: https://flarumtr.com/",
+                "folderph": "Örneğin: svg",
+                "extph": "Örneğin: .gif",
+                "disable_autocomplete": "Otomatik Tamamlamayı Devre Dışı Bırak"
             }
         }
     }

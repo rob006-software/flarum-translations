@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "",
                 "allow_image_uploads": "",
                 "allow_image_uploads_help": "",
@@ -11,7 +23,9 @@
                 "options_color_blend": "",
                 "options_color_blend_help": "",
                 "image_height": "",
-                "image_width": ""
+                "image_width": "",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "",
@@ -22,7 +36,10 @@
                 "upload_images": "",
                 "vote": "",
                 "change_vote": "",
-                "moderate": ""
+                "moderate": "",
+                "view_group": "",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
@@ -38,7 +55,8 @@
                 "cannot_change_vote": "Ses bereniňizden soň sesiňizi üýtgedip bilmersiňiz.",
                 "submit_button": "Ses ber",
                 "start_poll_button": "Global saýlaw başla",
-                "cannot_start_poll_button": "Saýlaw başlap bolmady"
+                "cannot_start_poll_button": "Saýlaw başlap bolmady",
+                "total_votes": ""
             },
             "poll_controls": {
                 "edit_label": "Düzet",
@@ -89,6 +107,7 @@
                 "max_votes_label": "Her ulanyjy üçin iň köp ses sany",
                 "max_votes_help": "Ähli wariantlary saýlap bolar ýaly etmek üçin 0 giriz.",
                 "hide_votes_label": "Saýlawyň soňuna çenli sesleri gizle",
+                "hide_votes_label_help": "",
                 "allow_change_vote_label": "Ulanyjylar sesini üýtgedip biler",
                 "question_placeholder": "Sorag",
                 "subtitle_placeholder": "Subtitr/Düşündiriş (islege görä)",
@@ -120,7 +139,8 @@
             },
             "page": {
                 "nav": "Saýlawlar",
-                "nav-all": "Ähli global saýlawlar"
+                "nav-all": "Ähli global saýlawlar",
+                "nav-groups": ""
             },
             "showcase": {
                 "active-polls": "Işjeň saýlawlar",
@@ -138,6 +158,35 @@
             "upload_image": {
                 "remove_button": "Suraty aýyr",
                 "upload_button": "Surat saýla"
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

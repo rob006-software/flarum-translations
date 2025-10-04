@@ -1,0 +1,93 @@
+{
+    "walsgit_discussion_cards": {
+        "forum": {
+            "replies": "Trả lời: {count}",
+            "unreadReplies": "Trả lời chưa đọc: {count}"
+        },
+        "admin": {
+            "settings": {
+                "general": {
+                    "where_title": "Ở đâu?",
+                    "where_info": "Đặt nơi bạn muốn sử dụng thẻ thảo luận.",
+                    "allowedTags_label": "Chọn thẻ",
+                    "allowedTags_help": "Thẻ thảo luận sẽ được kích hoạt và hiển thị cho các trang thẻ đã chọn.",
+                    "onIndexPage_label": "Kích hoạt thẻ trên Trang Chỉ mục",
+                    "onIndexPage_help": "Nếu được kích hoạt, trang <em>tất cả thảo luận</em> sẽ hiển thị thẻ.",
+                    "primaryCardOptions_title": "Tùy chọn Thẻ Chính",
+                    "primaryCardOptions_info": "Đặt xem bạn có muốn sử dụng thẻ chính (thẻ lớn hơn ở đầu mỗi trang sử dụng thẻ thảo luận) hay không và như thế nào. 0 để không sử dụng.",
+                    "primaryCards_label": "Số lượng thẻ chính",
+                    "primaryCards_help": "Số lượng thẻ lớn hơn hiển thị ở đầu mỗi trang sử dụng thẻ thảo luận. (số dương 0 trở lên)",
+                    "desktopCardWidth_label": "Chiều rộng thẻ chính trên máy tính",
+                    "desktopCardWidth_help": "Đặt chiều rộng (tính bằng %) của thẻ chính trên máy tính. (từ 10 đến 100)",
+                    "tabletCardWidth_label": "Chiều rộng thẻ chính trên máy tính bảng",
+                    "tabletCardWidth_help": "Đặt chiều rộng (tính bằng %) của thẻ chính trên máy tính bảng. (từ 10 đến 100)",
+                    "cardOptions_title": "Tùy chọn thẻ",
+                    "cardOptions_info": "Đặt dữ liệu/thông tin nào nên hiển thị trên thẻ.",
+                    "defaultImage_title": "Hình ảnh mặc định chung",
+                    "defaultImage_info": "Ở đây bạn có thể thay đổi hình ảnh mặc định để sử dụng trên thẻ khi không tìm thấy hình ảnh nào trong tin nhắn đầu tiên của thảo luận. <u>QUAN TRỌNG</u>: <em>lưu ý rằng việc thay đổi hình ảnh sẽ loại bỏ mọi thay đổi cài đặt chưa lưu khác mà bạn đã thực hiện và sẽ tự động tải lại trang. Vui lòng lưu các thay đổi của bạn trước khi thay đổi hình ảnh</em> (hoặc ngược lại 😉). Định dạng được chấp nhận: tệp JPG, PNG, GIF, BMP hoặc WebP. Độ phân giải lý tưởng: 400px x 225px (tất cả hình ảnh được tải lên sẽ được chuyển đổi thành tệp PNG và thay đổi kích thước thành chiều rộng 400px, ngoại trừ hình ảnh có chiều rộng nhỏ hơn, sẽ giữ độ phân giải ban đầu và không được phóng to). Tùy thuộc vào độ phân giải của tệp, hình ảnh có thể được hiển thị cắt và/hoặc kéo dài trên thẻ.",
+                    "previewText_label": "Văn bản xem trước",
+                    "previewText_help": "Nếu được kích hoạt, hiển thị phần đầu của tin nhắn đầu tiên như một bản xem trước trên thẻ.",
+                    "showAuthor_label": "Hiển thị tác giả",
+                    "showAuthor_help": "Nếu được kích hoạt, hiển thị tác giả của thảo luận trên thẻ.",
+                    "showReplies_label": "Hiển thị số lượng trả lời/trả lời chưa đọc",
+                    "showReplies_help": "Nếu được kích hoạt, hiển thị số lượng trả lời (hoặc trả lời chưa đọc với * nếu có) trên thẻ (và hình đại diện của một số người tham gia trong thảo luận trên thẻ chính).",
+                    "showRepliesOnRight_label": "Hiển thị số lượng trả lời (hoặc trả lời chưa đọc với * nếu có) ở phía bên phải tiêu đề thẻ",
+                    "showRepliesOnRight_help": "Nếu tùy chọn được bật, nó đặt số lượng trả lời (hoặc trả lời chưa đọc với * nếu có) ở phía bên phải tiêu đề của thẻ (không phải thẻ chính) trên màn hình lớn (thay vì phía dưới bên trái mặc định của hình ảnh).",
+                    "showLastPostInfo_label": "Hiển thị thông tin bài viết cuối",
+                    "showLastPostInfo_help": "Nếu tùy chọn được bật, nó sẽ hiển thị trên thẻ dưới văn bản xem trước (hoặc dưới thẻ nếu văn bản xem trước không được kích hoạt) tên người dùng của người đăng cuối cùng của thảo luận và ngày của nó.",
+                    "showBadges_label": "Hiển thị huy hiệu",
+                    "showBadges_help": "Nếu được kích hoạt, hiển thị huy hiệu ở góc trên bên trái của thẻ.",
+                    "markReadCards_label": "Phân biệt thẻ của thảo luận đã đọc/chưa đọc",
+                    "markReadCards_help": "Nếu được kích hoạt, thảo luận đã đọc sẽ có tiêu đề và văn bản nhạt hơn.",
+                    "otherOptions_title": "Tùy chọn yêu cầu tiện ích mở rộng khác",
+                    "otherOptions_info": "Các tùy chọn sau sẽ yêu cầu các tiện ích mở rộng khác được cài đặt và kích hoạt để chúng hoạt động. <strong>QUAN TRỌNG: vui lòng đọc <u>tất cả</u> thông tin cho từng tùy chọn riêng lẻ và thực hiện các bước cần thiết trước khi kích hoạt chúng</strong>.",
+                    "showViews_title_start": "Với tiện ích mở rộng ",
+                    "showViews_title_or": " HOẶC ",
+                    "showViews_title_end": " được cài đặt và kích hoạt, bạn có thể đặt tùy chọn (1) sau:",
+                    "viewsExtension_notInstalled": "{icon} Một trong những tiện ích mở rộng này cần được cài đặt & kích hoạt để cài đặt này hoạt động.",
+                    "viewsExtension_notActivated": "{icon} Tiện ích mở rộng Discussion Views cần được kích hoạt để cài đặt này hoạt động.",
+                    "showViews_label": "Hiển thị lượt xem",
+                    "showViews_help": "Nếu tùy chọn được bật, hiển thị số lượng lượt xem trên thẻ.",
+                    "blogExtension_title_start": "Với tiện ích mở rộng ",
+                    "blogExtension_title_end": " được cài đặt và kích hoạt, bạn có thể đặt (2) tùy chọn sau:",
+                    "blogExtension_notInstalled": "{icon} Tiện ích mở rộng này cần được cài đặt & kích hoạt để các cài đặt này hoạt động.",
+                    "blogExtension_notActivated": "{icon} Tiện ích mở rộng này cần được kích hoạt để các cài đặt này hoạt động.",
+                    "useBlogImages_label": "Sử dụng hình ảnh mặc định và nổi bật của blog",
+                    "useBlogImages_help": "Nếu tùy chọn được bật, hình ảnh thẻ cho mỗi bài đăng blog sẽ được đặt thành: hình ảnh nổi bật của bài đăng blog; nếu không có, thành hình ảnh đầu tiên được tìm thấy trong nội dung blog; nếu không có, thành hình ảnh mặc định của tiện ích mở rộng blog; nếu không có, thành hình ảnh mặc định thẻ của thẻ thảo luận; nếu không có, thành hình ảnh mặc định chính của thẻ thảo luận. Lưu ý rằng cài đặt tùy chỉnh cho thẻ được sử dụng làm thẻ blog sẽ tất nhiên bị bỏ qua nếu bạn chọn chuyển hướng thẻ blog trong cài đặt tiện ích mở rộng Flarum Blog.",
+                    "useBlogSummary_label": "Sử dụng tóm tắt bài đăng blog làm văn bản xem trước",
+                    "useBlogSummary_help": "Nếu tùy chọn này và văn bản xem trước được bật, thẻ cho bài đăng blog sẽ hiển thị phần đầu của tóm tắt bài đăng blog làm văn bản xem trước thay vì phần đầu của văn bản bài đăng blog.",
+                    "repostExtension_title_start": "Với tiện ích mở rộng ",
+                    "repostExtension_title_end": " được cài đặt và kích hoạt, bạn có thể đặt tùy chọn (1) sau:",
+                    "repostExtension_notInstalled": "{icon} Tiện ích mở rộng này cần được cài đặt & kích hoạt để cài đặt này hoạt động.",
+                    "repostExtension_notActivated": "{icon} Tiện ích mở rộng này cần được kích hoạt để cài đặt này hoạt động.",
+                    "allowRepostLinks_label": "Cho phép hành vi liên kết Repost trên thẻ",
+                    "allowRepostLinks_help": "Nếu tùy chọn này được bật (cùng với tiện ích mở rộng Repost), thẻ cho thảo luận bắt đầu bằng url, sẽ mở url khi tiêu đề của thẻ được nhấp vào, trong khi thảo luận sẽ mở, như thường lệ, nếu bất kỳ phần nào khác của thẻ được nhấp vào."
+                }
+            },
+            "tags": {
+                "options_heading": "Thẻ Thảo luận",
+                "activation_button": "Kích hoạt cho thẻ này",
+                "deactivation_button": "Hủy kích hoạt cho thẻ này",
+                "defaultImage_title": "Hình ảnh mặc định",
+                "defaultImage_info": "Đặt hoặc thay đổi hình ảnh thẻ mặc định cho trang thẻ này. Xem cài đặt chung của Thẻ Thảo luận để biết chi tiết về định dạng tệp & độ phân giải được chấp nhận.",
+                "options_button": "Cài đặt thẻ thảo luận khác"
+            },
+            "tag_modal": {
+                "title": "Cài đặt Thẻ Thảo luận cho ",
+                "intro_text": "Ở đây bạn có thể đặt các cài đặt thẻ thảo luận khác nhau cho trang thẻ hiện tại.",
+                "primaryCards_label": "Số lượng thẻ chính",
+                "primaryCards_help": "Số lượng thẻ lớn hơn hiển thị ở đầu trang (cài đặt toàn cục: {default}, tối thiểu: 0).",
+                "desktopCardWidth_label": "Chiều rộng thẻ chính trên máy tính",
+                "desktopCardWidth_help": "Đặt chiều rộng (tính bằng %) của thẻ chính trên máy tính (cài đặt toàn cục: {default}%, tối thiểu: 10% & tối đa: 100%).",
+                "tabletCardWidth_label": "Chiều rộng thẻ chính trên máy tính bảng",
+                "tabletCardWidth_help": "Đặt chiều rộng (tính bằng %) của thẻ chính trên máy tính bảng (cài đặt toàn cục: {default}%, tối thiểu: 10% & tối đa: 100%).",
+                "submit_button": "Lưu"
+            },
+            "errors": {
+                "primaryCards": "Số lượng thẻ chính phải là số dương (0 trở lên)",
+                "desktopCardWidth": "Chiều rộng thẻ chính trên máy tính phải là số từ 10 đến 100",
+                "tabletCardWidth": "Chiều rộng thẻ chính trên máy tính bảng phải là số từ 10 đến 100"
+            }
+        }
+    }
+}

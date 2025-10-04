@@ -2,37 +2,37 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "Nivel {tier}: desde {from} hasta {to} publicaciones",
                 "icon-manager": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Administrador de iconos",
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
-                    "title": "",
-                    "help": ""
+                    "title": "Administrador de etiquetas de texto",
+                    "help": "Personalizar los nombres de los niveles"
                 }
             },
-            "levelOne": "",
-            "levelOne-help": "",
-            "levelTwo": "",
-            "levelTwo-help": "",
-            "levelThree": "",
-            "levelThree-help": "",
-            "levelFour": "",
-            "levelFour-help": "",
-            "levelFive": "",
-            "levelFive-help": "",
-            "levelSix": "",
-            "levelSix-help": ""
+            "levelOne": "Cambiar icono para el nivel 1 - \"El bebé\"",
+            "levelOne-help": "Pega aquí el ícono de Fontawesome que quieras mostrar para el nivel 1 (por ejemplo, \"fas fa-square\")",
+            "levelTwo": "Cambiar el icono para el nivel 2: \"El novato\"",
+            "levelTwo-help": "Pega aquí el ícono de Fontawesome que quieras mostrar para el nivel 2 (por ejemplo, \"fas fa-square\")",
+            "levelThree": "Cambiar el icono para el nivel 3: \"El Hablador\"",
+            "levelThree-help": "Pega aquí el ícono de Fontawesome que quieras mostrar para el nivel 3 (por ejemplo, \"fas fa-square\")",
+            "levelFour": "Cambiar icono para el nivel 4 - \"El profesor\"",
+            "levelFour-help": "Pega aquí el ícono de Fontawesome que quieras mostrar para el nivel 4 (por ejemplo, \"fas fa-square\")",
+            "levelFive": "Cambiar ícono para el nivel 5: \"¡El Monstruo!\"",
+            "levelFive-help": "Pega aquí el ícono de Fontawesome que quieras mostrar para el nivel 5 (por ejemplo, \"fas fa-square\")",
+            "levelSix": "Cambiar ícono para el nivel 6: \"¡El Gurú!\"",
+            "levelSix-help": "Pega aquí el ícono de Fontawesome que quieras mostrar para el nivel 6 (por ejemplo, \"fas fa-square\")"
         },
         "forum": {
-            "less10post": "",
-            "less50post": "",
-            "less100post": "",
-            "less300post": "",
-            "less600post": "",
-            "less1000post": "",
-            "hasWritten": ""
+            "less10post": "El bebé",
+            "less50post": "El novato",
+            "less100post": "El hablador",
+            "less300post": "El profesor",
+            "less600post": "¡El monstruo!",
+            "less1000post": "¡El gurú!",
+            "hasWritten": "{count, plural, one {# publicación escrita} other {# publicaciones escritas}}"
         }
     }
 }

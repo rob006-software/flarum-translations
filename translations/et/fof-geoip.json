@@ -1,47 +1,58 @@
 {
     "fof-geoip": {
         "admin": {
+            "permissions": {
+                "see_country": "Näita alati IP-aadressi riiki"
+            },
             "settings": {
-                "title": "",
-                "service_label": "",
-                "service_ipdata_label": "",
-                "service_ipdata_description": "",
-                "service_ipapi_label": "",
-                "service_ipapi_description": "",
-                "service_ipapi-pro_label": "",
-                "service_ipapi-pro_description": "",
-                "service_iplocation_label": "",
-                "service_iplocation_description": "",
-                "service_ipsevenex_label": "",
-                "service_ipsevenex_description": "",
-                "access_key_label": "",
-                "quota_label": "",
-                "show_flag_label": "",
-                "show_flag_help": ""
+                "general": {
+                    "heading": "Üldised seaded",
+                    "help": "Need seaded määravad lisaprogrammi üldise käitumise."
+                },
+                "providers": {
+                    "heading": "IP kontrollimise teenus",
+                    "help": "Vali teenus, mida kasutada IP kontrollimiseks. Mõningatel teenustel on piirangud, seega vaata teenuse dokumentatsioonist lisainfot."
+                },
+                "service_label": "Teenus",
+                "service_ipdata_label": "IP-andmed",
+                "service_ipdata_description": "Kasuta teenust <b>https://ipdata.co</b>, et teha kuni 1500 tasuta päringut päevas. Saadaval on ka tasulised paketid kõrgema limiidiga.",
+                "service_ipapi_label": "IP API",
+                "service_ipapi_description": "Kasuta teenust <b>http://ip-api.com</b>, et teha kuni 45 tasuta päringut minutis. Kui teed rohkem päringuid, siis need jäetakse järjekorda ja täidetakse kui limiit aegub.",
+                "service_ipapi-pro_label": "IP API pro",
+                "service_ipapi-pro_description": "Kasuta teenust <b>https://members.ip-api.com/#pricing</b>. Pro paketil kasutuspiirangut pole.",
+                "service_iplocation_label": "IP asukoht",
+                "service_iplocation_description": "Kasuta saiti <b>https://www.iplocation.net/</b>, et hankida riigi ja ISP andmed. Kontrollimiste limiit pole teada.",
+                "service_ipsevenex_label": "7x Geolocation API",
+                "service_ipsevenex_description": "Kasuta tasuta API koodi saidilt <b>https://7x.ax</b>, et hallata kuni 20 päringut minuti kohta. Tasulistel plaanidel on saadaval ka kõrgem kasutuslimiit.",
+                "access_key_label": "Ligipääsu võti",
+                "quota_label": "Kontrollimise piirang",
+                "show_flag_label": "Näita iga postituse juures riigi lipu",
+                "show_flag_help": "Näita postituse autori aadressi vastavalt nende IP-le, aga samas ära näita nende IP-aadressi. Kasutaja peab selle valiku ka oma eelistustest sisse lülitama."
             }
         },
         "forum": {
             "alerts": {
-                "ip_copied": ""
+                "ip_copied": "Kopeeritud IP aadress"
             },
-            "map_button_label": "",
+            "copy_ip_label": "Kopeeri IP lõikelauale",
+            "map_button_label": "IP info",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "title": "IP informatsioon",
+                "ip_address": "IP aadress",
+                "country_code": "Riigikood",
+                "zip_code": "Postiindeks",
+                "isp": "ISP",
+                "as": "ASN",
+                "mobile": "Mobiilivõrk",
+                "organization": "Organisatsioon",
+                "threat_level": "Ohu tase",
+                "threat_types": "Ohu liik",
+                "error": "Veateade",
+                "not_enough_data": "Kaardi joonistamiseks pole piisavalt infot"
             },
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "Näita selle riigi lippu vastavalt minu IP aadressile"
                 }
             }
         }
@@ -49,8 +60,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
-                "showIPCountry-help": ""
+                "showIPCountry": "Näita kasutajate postituste juures riigi lippu",
+                "showIPCountry-help": "See põhineb postitamise ajal kasutatud IP-aadressile. Riigi lipp (kui selle kasutamine on sisse lülitatud) on nähtav kõigile kasutajatele. Adminid näevad IP-aadressi."
             }
         }
     }

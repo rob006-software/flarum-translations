@@ -1,118 +1,118 @@
 {
     "xypp-store": {
         "forum": {
-            "time_segs": "",
-            "store": "",
-            "purchase-history": "",
-            "create": "",
-            "purchase": "",
-            "edit_button": "",
-            "show_case": "",
-            "price_free": "",
+            "time_segs": "ngày|giờ|phút",
+            "store": "Cửa hàng",
+            "purchase-history": "Đã mua",
+            "create": "Tạo vật phẩm",
+            "purchase": "Mua",
+            "edit_button": "Sửa",
+            "show_case": "Trưng bày",
+            "price_free": "Miễn phí",
             "provider": {
-                "all": "",
+                "all": "Tất cả",
                 "error": {
-                    "title": "",
-                    "no-preview": ""
+                    "title": "Nhà cung cấp không xác định",
+                    "no-preview": "Không có xem trước"
                 }
             },
             "unavailable": {
                 "common": {
-                    "unknown": "",
-                    "no_rest": ""
+                    "unknown": "Không thể mua",
+                    "no_rest": "Hết hàng"
                 }
             },
             "create-modal": {
-                "title": "",
-                "name": "",
-                "desc": "",
-                "price": "",
-                "provider": "",
-                "provider_data": "",
-                "use_cnt": "",
-                "expire_time": "",
-                "expire_time_tip": "",
-                "rest_cnt": "",
-                "rest_cnt_tip": "",
-                "edit-title": "",
-                "edit-button": "",
-                "button": "",
-                "success": "",
-                "confirm_delete": "",
-                "delete-button": "",
+                "title": "Tạo vật phẩm",
+                "name": "Tên",
+                "desc": "Mô tả",
+                "price": "Giá",
+                "provider": "Nhà cung cấp",
+                "provider_data": "Dữ liệu nhà cung cấp",
+                "use_cnt": "Số lần có thể sử dụng",
+                "expire_time": "Thời gian hết hạn",
+                "expire_time_tip": "Để trống để tắt, hoặc đặt thành số để hết hạn sau số giây đó.",
+                "rest_cnt": "Số lượng còn lại",
+                "rest_cnt_tip": "Để trống để vô hạn, hoặc đặt thành số để giới hạn số lượng.",
+                "edit-title": "Sửa vật phẩm #{0}",
+                "edit-button": "Sửa",
+                "button": "Tạo",
+                "success": "Vật phẩm đã được tạo",
+                "confirm_delete": "Chắc chắn xóa vật phẩm này?",
+                "delete-button": "Xóa",
                 "providers": {
-                    "unknown": "",
-                    "unknown_data": "",
-                    "no_select_data": "",
-                    "special_data": ""
+                    "unknown": "Chọn nhà cung cấp",
+                    "unknown_data": "Cần chọn nhà cung cấp trước",
+                    "no_select_data": "Chọn dữ liệu nhà cung cấp",
+                    "special_data": "Dữ liệu đã chọn"
                 },
-                "provider_data_error": "",
-                "provider_data_default": ""
+                "provider_data_error": "Vui lòng chọn nhà cung cấp và dữ liệu",
+                "provider_data_default": "Dữ liệu mặc định"
             },
-            "purchase-confirm": "",
+            "purchase-confirm": "Xác nhận mua?",
             "item": {
-                "rest_cnt": "",
-                "use_cnt": "",
-                "expire": "",
-                "no_available": "",
-                "infinity_count": "",
-                "not_found": ""
+                "rest_cnt": "Còn lại {0}",
+                "use_cnt": "Sử dụng {0} lần",
+                "expire": "Thời hạn {0}",
+                "no_available": "Không có vật phẩm khả dụng",
+                "infinity_count": "Không giới hạn khả dụng",
+                "not_found": "Không tìm thấy vật phẩm"
             },
             "history": {
-                "no_record": "",
-                "delete_button": "",
-                "confirm_delete": "",
-                "title": "",
-                "use": "",
-                "rest_cnt": "",
-                "infinity_use": "",
-                "expire": "",
-                "forever": "",
-                "confirm_use": "",
-                "unable_to_use": "",
-                "not_found": ""
+                "no_record": "Chưa mua gì",
+                "delete_button": "Xóa",
+                "confirm_delete": "Chắc chắn xóa vật phẩm bạn đã mua?",
+                "title": "Đã mua",
+                "use": "Sử dụng",
+                "rest_cnt": "Có thể sử dụng {0} lần",
+                "infinity_use": "Sử dụng không giới hạn",
+                "expire": "Hết hạn lúc {0}",
+                "forever": "Khả dụng mãi mãi",
+                "confirm_use": "Xác nhận sử dụng?",
+                "unable_to_use": "Vật phẩm này không thể sử dụng",
+                "not_found": "Không tìm thấy vật phẩm"
             },
             "query-modal": {
                 "purchase": {
-                    "title": ""
+                    "title": "Mua vật phẩm"
                 },
                 "use": {
-                    "title": ""
+                    "title": "Sử dụng vật phẩm"
                 }
             },
             "use_result": {
-                "success": "",
+                "success": "Thành công",
                 "fail": {
-                    "unknown": "",
-                    "error": "",
-                    "not_enough": "",
-                    "cannot": "",
-                    "fail_expire": "",
-                    "id_not_found": "",
-                    "expired": ""
+                    "unknown": "Lỗi không xác định",
+                    "error": "Lỗi khi sử dụng vật phẩm",
+                    "not_enough": "Không đủ số lần sử dụng",
+                    "cannot": "Không thể sử dụng vật phẩm này",
+                    "fail_expire": "Lỗi khi cố gắng hết hạn vật phẩm này",
+                    "id_not_found": "Không tìm thấy ID vật phẩm",
+                    "expired": "Vật phẩm đã hết hạn"
                 }
             },
             "purchase_result": {
-                "success": "",
+                "success": "Thành công",
                 "fail": {
-                    "unknown": "",
-                    "not_enough_item": "",
-                    "cannot": "",
-                    "not_enough_money": ""
+                    "unknown": "Lỗi không xác định",
+                    "not_enough_item": "Không đủ vật phẩm",
+                    "cannot": "Không thể mua vật phẩm này",
+                    "not_enough_money": "Không đủ tiền"
                 }
             },
             "edit-result": {
                 "fail": {
-                    "not-found": ""
+                    "not-found": "Không tìm thấy vật phẩm"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "add-item": "",
-                "remove-item": "",
-                "view-history": "",
-                "remove-history": ""
+                "add-item": "Thêm vật phẩm cửa hàng",
+                "remove-item": "Xóa vật phẩm cửa hàng",
+                "view-history": "Xem lịch sử mua của người khác",
+                "remove-history": "Xóa lịch sử mua của người khác"
             }
         }
     }

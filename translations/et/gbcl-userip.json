@@ -1,22 +1,22 @@
 {
     "gbcl-userip": {
         "forum": {
-            "unknownNotice": ""
+            "unknownNotice": "Tundmatu"
         },
         "admin": {
             "permissions": {
-                "view_ip_info_label": ""
+                "view_ip_info_label": "Näita IP infot"
             },
             "service": {
-                "label": "",
+                "label": "Teenus",
                 "ipsb": {
-                    "label": "",
-                    "description": ""
+                    "label": "IP.SB",
+                    "description": "Kasuta aadressi <b>https://ip.sb</b>, et saada tasuta IP asukoha infot (ära unusta limiiti)"
                 },
                 "ipinfo": {
-                    "label": "",
-                    "description": "",
-                    "key": ""
+                    "label": "IpInfo",
+                    "description": "Kasuta aadressi <b>https://ipinfo.io</b>, et saada täpsemat IP infot (kontrollkood on nõutud)",
+                    "key": "IpInfo kontrollkood (Nõutud)"
                 }
             }
         }

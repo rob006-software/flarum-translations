@@ -3,10 +3,18 @@
         "admin": {
             "settings": {
                 "return_key": "",
-                "title": ""
+                "return_key_help": "",
+                "show_read_receipts": "",
+                "show_read_receipts_help": "",
+                "sender_background_color": "",
+                "recipient_background_color": "",
+                "sender_text_color": "",
+                "recipient_text_color": "",
+                "enable_custom_colors": ""
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "",
+                "allow_users_to_receive_email_notifications": ""
             }
         },
         "forum": {
@@ -32,11 +40,25 @@
                 "read": "",
                 "cant_start": "",
                 "text_placeholder": "",
-                "send": ""
+                "send": "",
+                "message_read": ""
             },
             "notifications": {
                 "message_received": "",
-                "notify_message_received": ""
+                "new_private_message": "",
+                "web": {
+                    "new_private_message": {
+                        "body": ""
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "",
+                        "youHaveReceivedNewMessage": "",
+                        "viewMessage": "",
+                        "manageEmailSettings": ""
+                    }
+                }
             }
         }
     }

@@ -7,7 +7,7 @@
             },
             "buttons": {
                 "view-profile": "Vedi profilo",
-                "edit-profile": "",
+                "edit-profile": "Modifica profilo",
                 "save-profile": "Salva"
             },
             "fields": {
@@ -29,7 +29,7 @@
                 "delete-field": "Cancella campo"
             },
             "permissions": {
-                "edit-others-profile": "",
+                "edit-others-profile": "Modifica il profilo di altri utenti",
                 "have-profile": "Ha un profilo masquerade",
                 "view-profile": "Vedi profilo masquerade"
             },
@@ -61,6 +61,17 @@
                 "email": "Email",
                 "select": "Menu a discesa",
                 "url": "URL"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masqueradeanswers": {
+                    "export_description": "Esporta le risposte nei campi del profilo utente",
+                    "delete_description": "Rimuove tutte le risposte dei campi profilo dall'account utente",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
             }
         }
     }

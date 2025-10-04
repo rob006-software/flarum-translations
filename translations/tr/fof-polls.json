@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "Genel Ayarlar",
+                    "help": "Bu ayarlar Anketler uzantısının temel özelliklerini kontrol eder."
+                },
+                "global_polls": {
+                    "heading": "Genel Anketler",
+                    "help": "Bu ayarlar genel anketler özelliğini kontrol eder."
+                },
+                "image": {
+                    "heading": "Görsel Ayarları",
+                    "help": "Bu ayarlar anketler için görsel ayarlarını kontrol eder."
+                },
                 "allow_option_image": "Her anket seçeneği için bir resim URL'sinin sağlanmasına izin ver",
                 "allow_image_uploads": "Anketler ve seçenekleri için resim yüklemeye izin ver",
                 "allow_image_uploads_help": "Etkinleştirilirse, kullanıcılar resim yüklemenin yanı sıra bir resim URL'si de sağlayabilirler (seçenekler için etkinleştirilirse, anketin kendisi için her zaman etkinleştirilir).",
@@ -11,7 +23,9 @@
                 "options_color_blend": "Anket seçeneklerinde renk karışımı metni",
                 "options_color_blend_help": "Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın.",
                 "image_height": "Resim yüksekliğini yeniden boyutlandır",
-                "image_width": "Resim genişliğini yeniden boyutlandır"
+                "image_width": "Resim genişliğini yeniden boyutlandır",
+                "enabled_poll_groups": "Anket gruplarını etkinleştir",
+                "enabled_poll_groups_help": "Anket grupları, genel anketleri bir araya getirmenize ve bunları özel bir sayfada görüntülemenize olanak tanır."
             },
             "permissions": {
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
@@ -22,7 +36,10 @@
                 "upload_images": "Kullanıcıların anketler için resim yüklemesine izin ver",
                 "vote": "Ankete oy ver",
                 "change_vote": "Oyu değiştir",
-                "moderate": "Anketi düzenle veya sil"
+                "moderate": "Anketi düzenle veya sil",
+                "view_group": "Anket gruplarını görüntüle",
+                "start_group": "Anket grupları oluşturun",
+                "moderate_group": "Anket gruplarını düzenle veya kaldır"
             }
         },
         "forum": {
@@ -38,7 +55,8 @@
                 "cannot_change_vote": "Oy kullandıktan sonra oyunuzu değiştiremezsiniz.",
                 "submit_button": "Oyla",
                 "start_poll_button": "Genel Anket Başlat",
-                "cannot_start_poll_button": "Genel Anket Başlatılamıyor"
+                "cannot_start_poll_button": "Genel Anket Başlatılamıyor",
+                "total_votes": "{count, plural, one {# oy verildi} other {# oy verildi}}"
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
@@ -89,6 +107,7 @@
                 "max_votes_label": "Kullanıcı başına azami oylar",
                 "max_votes_help": "Kullanıcıların tüm seçeneklere oy verebilmesini istiyorsanız 0 olarak belirleyin.",
                 "hide_votes_label": "Anket bitene kadar oyları gizle",
+                "hide_votes_label_help": "Anketi başlatan kullanıcı her zaman oyları görebilecek.",
                 "allow_change_vote_label": "Kullanıcıların oylarını değiştirmesine izin ver",
                 "question_placeholder": "Soru",
                 "subtitle_placeholder": "Alt başlık/Açıklama (tercihe bağlı)",
@@ -120,7 +139,8 @@
             },
             "page": {
                 "nav": "Anketler",
-                "nav-all": "Tüm Genel Anketler"
+                "nav-all": "Tüm Genel Anketler",
+                "nav-groups": "Anket Grupları"
             },
             "showcase": {
                 "active-polls": "Aktif Anketler",
@@ -138,6 +158,35 @@
             "upload_image": {
                 "remove_button": "Görseli Sil",
                 "upload_button": "Görsel Yükle"
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "Anket Grubu Ekle",
+                    "edit_title": "Anket Grubunu Düzenle",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Anket Grubunu Sil",
+                    "groups_manager": "Anket Grupları Yöneticisi",
+                    "view_group": "Anket Grubunu Görüntüle",
+                    "success": "Anket grubu başarıyla kaydedildi."
+                },
+                "list_page": {
+                    "title": "Anket Grupları",
+                    "start_poll_group_button": "Bir Anket Grubu Oluşturun",
+                    "cannot_start_poll_group_button": "Anket Grubu Başlatılamıyor",
+                    "empty_text": "Burada anket grubu yok gibi görünüyor.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Bu grupta anket yok.",
+                    "add_poll_button": "Gruba Anket Ekle"
+                },
+                "controls": {
+                    "add_poll_label": "Anket Ekle",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Anket Grubunu Görüntüle",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Bu anket grubunu silmek istediğinizden emin misiniz?",
+                    "delete_success_message": "Anket grubu başarıyla silindi.",
+                    "delete_error_message": "Anket grubunu silerken bir sorun oluştu."
+                }
             }
         }
     }

@@ -1,25 +1,25 @@
 {
     "davwheat-share": {
         "admin": {
-            "browser_support_notice": "",
+            "browser_support_notice": "Valik \"Jaga\" on nähtav ainult seadmetes, mis toetavad Web Share API-t <a>Erinevate veebilehitsejate tuge näed siit.</a>",
             "display_options": {
-                "icon": "",
-                "text": "",
-                "menu": ""
+                "icon": "Ainult ikoonid",
+                "text": "Ainult tekst",
+                "menu": "Tegevuste menüüs"
             },
-            "display_options_label": "",
-            "button_preview_header": "",
+            "display_options_label": "Jagamise nupu stiil",
+            "button_preview_header": "Eelvaade",
             "preview": {
-                "reply": "",
+                "reply": "Vasta",
                 "dropdown": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "Muuda",
+                    "delete": "Kustuta"
                 }
             }
         },
         "lib": {
-            "share": "",
-            "share_a11y_label": ""
+            "share": "Jaga",
+            "share_a11y_label": "Jaga postitust"
         }
     }
 }

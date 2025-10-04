@@ -1,83 +1,83 @@
 {
     "xypp-user-decoration": {
         "forum": {
-            "decoration-no-available": "",
-            "decorations": "",
+            "decoration-no-available": "Kullanılabilir dekorasyon yok",
+            "decorations": "Dekorasyonlar",
             "decoration-box": {
-                "error": "",
-                "avatar": "",
-                "name": "",
-                "post": "",
-                "card": "",
-                "loading": "",
-                "closed": "",
-                "no-login": ""
+                "error": "Bilinmeyen Tür",
+                "avatar": "Avatar Stili",
+                "name": "Kullanıcı Adı Stili",
+                "post": "Gönderi Stili",
+                "card": "Kullanıcı Kartı Stili",
+                "loading": "Yükleniyor",
+                "closed": "Kapalı",
+                "no-login": "Önizlemek için giriş yapın"
             },
             "decoration": {
-                "delete_button": "",
-                "remove_button": "",
-                "change_button": "",
-                "delete_confirm": ""
+                "delete_button": "Sil",
+                "remove_button": "Kaldır",
+                "change_button": "Değiştir",
+                "delete_confirm": "Bu dekorasyonu silmek istediğinizden emin misiniz?"
             },
             "page": {
-                "show-decorations": ""
+                "show-decorations": "Dekorasyonlar"
             },
             "modal": {
-                "title": "",
-                "tip": "",
-                "loading": "",
-                "button": ""
+                "title": "Dekorasyon Teklif Et",
+                "tip": "Lütfen bir dekorasyon seçin",
+                "loading": "Yükleniyor",
+                "button": "Teklif Et"
             },
-            "create": "",
-            "create-success": "",
+            "create": "Oluştur",
+            "create-success": "Dekorasyon başarıyla oluşturuldu",
             "create-modal": {
-                "edit-title": "",
-                "edit-button": "",
-                "title": "",
+                "edit-title": "Dekorasyonu Düzenle#{0}",
+                "edit-button": "Düzenle",
+                "title": "Dekorasyon Oluştur",
                 "type": {
-                    "title": "",
-                    "avatar": "",
-                    "username": "",
-                    "post": "",
-                    "usercard": ""
+                    "title": "Tür",
+                    "avatar": "Avatar",
+                    "username": "Kullanıcı Adı",
+                    "post": "Gönderi",
+                    "usercard": "Kullanıcı Kartı"
                 },
-                "name": "",
-                "desc": "",
-                "style": "",
-                "tip": "",
-                "button": "",
-                "delete-button": ""
+                "name": "ad",
+                "desc": "Açıklama",
+                "style": "Stil Sayfası",
+                "tip": "Hedefi seçmek için .base seçiciyi kullanın, yeni öğe eklemek için .element-xxx kullanın",
+                "button": "Oluştur",
+                "delete-button": "Sil"
             },
-            "delete_confirm": "",
-            "delete-success": "",
+            "delete_confirm": "Bu dekorasyonu silmek istediğinizden emin misiniz?",
+            "delete-success": "Silme Başarılı",
             "user_controls": {
-                "offer": ""
+                "offer": "Dekorasyon teklif et"
             }
         },
         "admin": {
             "permissions": {
-                "view_decoration": "",
-                "delete_decoration": "",
-                "offer_decoration": "",
-                "create_decoration": "",
-                "view-all": ""
+                "view_decoration": "Diğerlerinin dekorasyonunu görüntüle",
+                "delete_decoration": "Diğerlerinin dekorasyonunu sil",
+                "offer_decoration": "Dekorasyon teklif et",
+                "create_decoration": "Dekorasyon oluştur/düzenle",
+                "view-all": "Tüm dekorasyonları görüntüle"
             },
             "settings": {
                 "username_hijack": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Kullanıcı Adı Ele Geçirme",
+                    "desc": "Bu eklenti, kullanıcı modelinin kullanıcı adı yöntemini ele geçirmeye çalışacak ve kullanıcıyı tanımak için bazı kimlik bilgileri ekleyecektir. Eğer başka bir eklenti bu ele geçirme nedeniyle çökerse, sorunu çözmek için bu fonksiyonu devre dışı bırakabilirsiniz."
                 },
                 "avatar_hijack": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Avatar Ele Geçirme",
+                    "desc": "Bu eklenti, kullanıcı modelinin avatar yöntemini ele geçirmeye çalışacak ve kullanıcıyı tanımak için bazı kimlik bilgileri ekleyecektir. Eğer başka bir eklenti bu ele geçirme nedeniyle çökerse, sorunu çözmek için bu fonksiyonu devre dışı bırakabilirsiniz."
                 },
                 "view-all": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Tümünü Görüntüle",
+                    "desc": "Tümünü görüntüleme izni etkin mi?"
                 },
                 "no_decorate_class_filter": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Dekorasyon Olmayan Sınıf Filtresi",
+                    "desc": "İçindeki avatarların/kullanıcı adlarının dekorasyon tarafından etkilenmesini engelleyen sınıf adları. Her satırda bir tane, nokta öneki olmadan"
                 }
             }
         }
@@ -85,16 +85,16 @@
     "xypp-store": {
         "forum": {
             "type": {
-                "decoration": ""
+                "decoration": "Dekorasyon"
             },
             "unavailable": {
                 "decoration": {
-                    "dumplicate": ""
+                    "dumplicate": "Zaten Sahip"
                 }
             },
             "create-modal": {
                 "providers": {
-                    "decoration": ""
+                    "decoration": "Dekorasyon"
                 }
             }
         }

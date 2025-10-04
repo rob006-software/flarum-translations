@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "",
                 "terms-updated-at-help": "",
                 "export-url": "",
-                "export-url-help": ""
+                "export-url-help": "",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "",
@@ -45,33 +47,38 @@
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "أوافق على <a>{policy}</a> ",
+                "must-accept": "يجب قبول {policy}."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "تحديث الشروط",
+                "updated-at": "تم تحديث الشروط في {date}",
+                "updated-recently": "تم تحديث الشروط منذ زيارتك الأخيرة",
+                "i-accept": "أوافق على <a>{policy}</a> الجديدة",
+                "accept": "تأكيد",
+                "close": "شكرا لقبولك، يمكنك الآن العودة"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "حالة قبول المستخدم للشروط {username}",
+                "accepted-at": "تم قبوله {date}",
+                "not-accepted": "لم يتم قبوله"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "لقد قمنا بتقييد الوصول إلى حسابك مؤقتًا قم بالاطلاع على الشروط الجديدة.",
+                "can-accept-message": "لقد قمنا مؤخرًا بتحديث الشروط. يجب عليك قبولها لمواصلة استخدام هذا الموقع.",
+                "can-accept-optional-message": "لقد قمنا مؤخرًا بتحديث الشروط. يمكنك مراجعتها متى شئت.",
+                "review": "انقر هنا لمراجعة الشروط الجديدة وقبولها",
+                "close": "اغلاق"
+            },
+            "user_settings": {
+                "optional_policies_label": "السياسات"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "حالة قبول الشروط"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

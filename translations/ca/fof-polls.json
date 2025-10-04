@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "global_polls": {
+                    "heading": "",
+                    "help": ""
+                },
+                "image": {
+                    "heading": "",
+                    "help": ""
+                },
                 "allow_option_image": "Permet que es proporcioni l'adreça web d'una imatge per a cada opció de l'enquesta",
                 "allow_image_uploads": "",
                 "allow_image_uploads_help": "",
@@ -11,7 +23,9 @@
                 "options_color_blend": "Combina colors a les opcions de l'enquesta",
                 "options_color_blend_help": "Activa aquesta funció per permetre la barreja de colors per fer que les opcions de l'enquesta siguin més llegibles. Desactiva-la si causa problemes amb l'aparença del teu fòrum, reduint-ne la llegibilitat.",
                 "image_height": "",
-                "image_width": ""
+                "image_width": "",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Veure resultats sense votar",
@@ -22,7 +36,10 @@
                 "upload_images": "",
                 "vote": "Votar a les enquestes",
                 "change_vote": "Canviar vot",
-                "moderate": "Editar i esborrar enquestes"
+                "moderate": "Editar i esborrar enquestes",
+                "view_group": "",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
@@ -38,7 +55,8 @@
                 "cannot_change_vote": "No pots canviar el teu vot un cop emès.",
                 "submit_button": "Votar",
                 "start_poll_button": "Començar enquesta global",
-                "cannot_start_poll_button": "No es pot començar l'enquesta"
+                "cannot_start_poll_button": "No es pot començar l'enquesta",
+                "total_votes": ""
             },
             "poll_controls": {
                 "edit_label": "Editar",
@@ -89,6 +107,7 @@
                 "max_votes_label": "Màxim de vots per usuari",
                 "max_votes_help": "Entrar 0 per permetre que els usuaris votin totes les opcions.",
                 "hide_votes_label": "Amagar els vots fins que acabi l'enquesta",
+                "hide_votes_label_help": "",
                 "allow_change_vote_label": "Permetre que els usuaris canviïn el seu vot",
                 "question_placeholder": "Pregunta",
                 "subtitle_placeholder": "Subtítol/Descripció (opcional)",
@@ -120,7 +139,8 @@
             },
             "page": {
                 "nav": "Enquestes",
-                "nav-all": "Afegir enquestes globals"
+                "nav-all": "Afegir enquestes globals",
+                "nav-groups": ""
             },
             "showcase": {
                 "active-polls": "Activar enquestes",
@@ -138,6 +158,35 @@
             "upload_image": {
                 "remove_button": "Esborrar imatge",
                 "upload_button": "Escollir imatge"
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

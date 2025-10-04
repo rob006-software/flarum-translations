@@ -2,35 +2,35 @@
     "clarkwinkelmann-vote-with-money": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": ""
+                "preselection": "Các mức chọn sẵn (ngăn cách bằng dấu phẩy, tùy chọn)",
+                "min": "Giá trị tối thiểu",
+                "max": "Giá trị tối đa"
             }
         },
         "forum": {
             "vote": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "Xác nhận bình chọn",
+                "target": "Xác nhận cam kết của bạn cho lựa chọn \"{answer}\". Bạn sẽ không thể thay đổi bình chọn sau này.\n",
+                "optionCustom": "Tùy chỉnh",
+                "balance": "Số dư của bạn: {amount}",
                 "label": {
-                    "custom": ""
+                    "custom": "Số tiền tùy chỉnh"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "Gửi",
+                "success": "Bình chọn đã được gửi!"
             },
             "poll": {
-                "voteWithMoney": "",
-                "min": "",
-                "max": ""
+                "voteWithMoney": "Bình chọn bằng tiền",
+                "min": "Cam kết tối thiểu (tùy chọn)",
+                "max": "Cam kết tối đa (tùy chọn)"
             }
         },
         "api": {
             "error": {
-                "cannotCancel": "",
-                "cannotChange": "",
-                "notEnoughFunds": "",
-                "cannotChangePollType": ""
+                "cannotCancel": "Không thể hủy bình chọn.",
+                "cannotChange": "Không thể thay đổi bình chọn.",
+                "notEnoughFunds": "Không đủ tiền.",
+                "cannotChangePollType": "Không thể thay đổi loại cuộc bình chọn sau khi đã có bình chọn."
             }
         }
     }

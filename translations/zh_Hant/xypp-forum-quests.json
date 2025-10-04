@@ -1,37 +1,26 @@
 {
     "xypp-forum-quests": {
         "forum": {
-            "reward_not_found": "",
-            "condition_not_found": "",
+            "reward_not_found": "未找到獎勵 {reward}",
+            "condition_not_found": "未找到條件 {condition}",
             "notification": {
-                "quest_done": "",
-                "quest_done_label": ""
-            },
-            "condition": {
-                "condition": "",
-                "format": "",
-                "and": "",
-                "span": ""
-            },
-            "reward": {
-                "reward": "",
-                "format": "",
-                "and": ""
+                "quest_done": "您剛剛完成任務{name}！",
+                "quest_done_label": "任務完成"
             },
             "quest": {
-                "quest": "",
-                "load_more": "",
-                "done": ""
+                "quest": "尋求",
+                "load_more": "載入更多",
+                "done": "[完成]"
             },
             "re_available": {
-                "none": "",
-                "day": "",
-                "hour": ""
+                "none": "僅一次",
+                "day": "前 {value} 天可重複使用",
+                "hour": "{value} 小時後重新可用"
             },
             "condition_view": {
-                "button": "",
-                "title": "",
-                "name": "",
+                "button": "查看條件",
+                "title": "條件視圖",
+                "name": "名稱",
                 "value": "",
                 "span": "",
                 "set_span": ""
@@ -65,15 +54,6 @@
                 "hidden": "",
                 "condition": "",
                 "reward": "",
-                "condition-name": "",
-                "condition-operator": "",
-                "condition-value": "",
-                "condition-span": "",
-                "condition-alter_name": "",
-                "reward-name": "",
-                "reward-value": "",
-                "reward-get_value": "",
-                "reward-alter_name": "",
                 "button": "",
                 "button-edit": "",
                 "new_item": "",
@@ -86,7 +66,6 @@
             }
         },
         "api": {
-            "condition_not_allow_frontend": "",
             "no_manual_update": "",
             "manual_condition_cannot_hidden": ""
         }

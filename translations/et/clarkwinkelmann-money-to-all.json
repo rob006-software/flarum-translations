@@ -2,27 +2,27 @@
     "clarkwinkelmann-money-to-all": {
         "lib": {
             "modal": {
-                "title": "",
-                "amount": "",
-                "notify": "",
-                "message": "",
-                "messagePlaceholder": "",
-                "messageHelp": "",
-                "suspended": "",
-                "lastActivity": "",
-                "preview": "",
-                "submit": "",
-                "success": ""
+                "title": "Saada raha kõigile kasutajatele",
+                "amount": "Kogus",
+                "notify": "Saada veebiteavitus kasutajatele",
+                "message": "Sõnum",
+                "messagePlaceholder": "Lisa teavituse juurde sõnum",
+                "messageHelp": "Valikuline. See sõnum kirjutab õle vaikimisi teavituste sõnumi. Maini tekstis ka summat, kuna muidu ei näidata seda kusagil.",
+                "suspended": "Kaasa külmutatud kasutajad",
+                "lastActivity": "Piira kasutajatele, kes on aktiivsed pärast järgnevat kuupäeva",
+                "preview": "Praegused seaded vastavad {count} kasutajale.",
+                "submit": "Saada",
+                "success": "{count} kasutajale saadeti raha!"
             }
         },
         "admin": {
             "settings": {
-                "send": ""
+                "send": "Saada raha kõigile kasutajatele"
             }
         },
         "forum": {
             "notification": {
-                "moneyReceived": ""
+                "moneyReceived": "Said just {amount}"
             }
         }
     }

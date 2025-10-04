@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "新しいスレッドの作成や投稿があった場合にメールで通知する",
                 "submit_button": "購読確認"
             },
+            "hero": {
+                "title": ""
+            },
             "notifications": {
                 "new_discussion_text": "{username}さんがスレッドを作成しました",
                 "new_post_text": "{username}さんが登録しました",
@@ -76,6 +79,16 @@
             "filtering_options": {
                 "none": "フォローしているスレッド",
                 "tags": "フォローしているタグ"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "",
+                    "anonymize_description": ""
+                }
             }
         }
     },

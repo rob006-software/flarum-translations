@@ -2,56 +2,56 @@
     "ianm-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
-                "discussion_last_posts": "",
-                "user_last_posts": ""
+                "forum_activity": "Actividad del foro",
+                "forum_new_discussions": "Nuevas discusiones del foro",
+                "tag_activity": "Actividad para la etiqueta {tag}",
+                "tag_new_discussions": "Discusiones en la etiqueta {tag}",
+                "discussion_last_posts": "Esta discusión",
+                "user_last_posts": "Publicaciones y comentarios de este usuario"
             },
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": ""
+                        "title_reply": "Re: {discussion}"
                     }
                 },
                 "titles": {
-                    "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": "",
-                    "user_title": "",
-                    "user_subtitle": ""
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Últimos mensajes en el foro",
+                    "main_d_title": "Nuevas discusiones en {forum_name}",
+                    "main_d_subtitle": "Las discusiones más recientes en el foro",
+                    "tag_title": "Actividad en la etiqueta {tag}",
+                    "tag_subtitle": "Últimas publicaciones en la etiqueta {tag}",
+                    "tag_d_title": "Nuevas discusiones en la etiqueta {tag}",
+                    "tag_d_subtitle": "Las discusiones más recientes en la etiqueta {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Últimos mensajes en esta discusión",
+                    "user_title": "{username}",
+                    "user_subtitle": "Últimos mensajes y comentarios de este usuario."
                 }
             },
             "discussion": {
-                "feed_link": ""
+                "feed_link": "Feed"
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
-                    "label": "",
-                    "help": ""
+                    "label": "Feeds de texto completo",
+                    "help": "Si está desactivada, los feeds solo contendrán extractos de las publicaciones y los usuarios tendrán que ir al foro para leer todo. Recomendaría dejar esta opción activa para respetar a las personas que siguen el foro desde un agregador RSS, si lo hay."
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Feeds formateados",
+                    "help": "Marca esta opción para conservar el código HTML en los feeds generados. Si está deshabilitada, los feeds se mostrarán en texto sin formato."
                 },
-                "entries-count": "",
+                "entries-count": "¿Cuántas entradas por feed?",
                 "forum-icons": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mostrar enlaces feed Atom/RSS en el foro",
+                    "help": "Muestra íconos en todas las Discusiones, Etiquetas y Discusiones para permitir un fácil acceso a los feeds."
                 },
                 "forum-link-format": {
-                    "label": "",
-                    "help": ""
+                    "label": "Formato feed del foro",
+                    "help": "Selecciona qué formato (Atom o RSS) debe usarse cuando se muestren los enlaces en el foro."
                 }
             }
         }

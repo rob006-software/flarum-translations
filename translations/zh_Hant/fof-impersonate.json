@@ -10,6 +10,18 @@
                 "no_settings_available": "目前沒有更多選項可用。請嘗試安裝擴充套件 fof/moderator-notes"
             }
         },
+        "lib": {
+            "modal": {
+                "title": "以其他使用者登入",
+                "label": "能力越大，責任越大。直到下次登出前，你將以用戶 \"{username}\" 的身份登錄。",
+                "placeholder_optional": "（可選）切換到此使用者的理由",
+                "placeholder_required": "繼續操作前，請提供理由",
+                "impersonate_username": "以 \"{username}\" 身份登入"
+            },
+            "user_controls": {
+                "impersonate_button": "以用戶身份登入"
+            }
+        },
         "forum": {
             "modal": {
                 "title": "登入到他人帳戶",

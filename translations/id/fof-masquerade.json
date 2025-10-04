@@ -63,5 +63,16 @@
                 "url": "URL"
             }
         }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masqueradeanswers": {
+                    "export_description": "Ekspor kolom jawaban profil pengguna",
+                    "delete_description": "Menghapus semua kolom jawaban profil dari akun pengguna",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
     }
 }

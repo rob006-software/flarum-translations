@@ -2,63 +2,63 @@
     "foskym-activity-graph": {
         "admin": {
             "settings": {
-                "count_comments": "",
-                "count_discussions": "",
-                "count_likes": "",
-                "count_custom_levels_exp_logs": "",
-                "count_invite_user_invites": "",
-                "count_store_purchases": "",
-                "count_polls_create_polls": "",
-                "count_polls_votes": "",
-                "count_username_requests_username": "",
-                "count_username_requests_nickname": "",
-                "count_best_answer_marked": "",
-                "count_badges_assigned": "",
-                "count_achievements_achieved": "",
-                "count_quest_done": "",
-                "tooltip_position": "",
+                "count_comments": "Yorumları Say",
+                "count_discussions": "Tartışmaları Say",
+                "count_likes": "Beğenileri Say",
+                "count_custom_levels_exp_logs": "Özel Seviye TP Kayıtlarını Say (foskym/flarum-custom-levels gerekli)",
+                "count_invite_user_invites": "Kullanıcı Davetlerini Say (xypp/flarum-invite-user gerekli)",
+                "count_store_purchases": "Mağaza Satın Almalarını Say (xypp/store gerekli)",
+                "count_polls_create_polls": "Oluşturulan Anketleri Say (fof/polls gerekli)",
+                "count_polls_votes": "Anket Oylarını Say (fof/polls gerekli)",
+                "count_username_requests_username": "Kullanıcı Adı Değişikliği İsteklerini Say (fof/username-requests gerekli)",
+                "count_username_requests_nickname": "Takma Ad Değişikliği İsteklerini Say (fof/username-requests ve flarum-nicknames gerekli)",
+                "count_best_answer_marked": "En İyi Cevap Olarak İşaretlenenleri Say (fof/best-answer gerekli)",
+                "count_badges_assigned": "Atanan Rozetleri Say (v17development/flarum-user-badges gerekli)",
+                "count_achievements_achieved": "Kazanılan Başarıları Say (malago/achievements gerekli)",
+                "count_quest_done": "Tamamlanan Görevleri Say (xypp/forum-quests gerekli)",
+                "tooltip_position": "Araç İpucu Konumu",
                 "tooltip_position_options": {
-                    "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "top": "Üst",
+                    "right": "Sağ",
+                    "bottom": "Alt",
+                    "left": "Sol"
                 },
-                "times_display_format": "",
-                "times_display_format_help": "",
-                "from_year": "",
-                "from_year_help": ""
+                "times_display_format": "Sayı Görüntüleme Biçimi",
+                "times_display_format_help": "Etkinlik grafiğinde sayıları görüntülemek için kullanılır, örneğin \"kez\", \"[count] kez\"",
+                "from_year": "Başlangıç Yılı",
+                "from_year_help": "Etkinlik grafiğinin başlangıç yılı"
             },
             "permissons": {
-                "query-others-activity-graph": ""
+                "query-others-activity-graph": "Diğerlerinin Etkinlik Grafiğini Sorgula"
             }
         },
         "forum": {
             "label": {
-                "activity_graph": "",
-                "total_times": "",
-                "name_map": "",
+                "activity_graph": "Etkinlik Grafiği",
+                "total_times": "Bu yıl toplam {total}",
+                "name_map": "tr",
                 "categories": {
-                    "comments": "",
-                    "discussions": "",
-                    "likes": "",
-                    "custom_levels_exp_logs": "",
-                    "invite_user_invites": "",
-                    "store_purchases": "",
-                    "polls_create_polls": "",
-                    "polls_votes": "",
-                    "username_requests_username": "",
-                    "username_requests_nickname": "",
-                    "best_answer_marked": "",
-                    "badges_assigned": "",
-                    "achievements_achieved": "",
-                    "quest_done": ""
+                    "comments": "Yorumlar",
+                    "discussions": "Tartışmalar",
+                    "likes": "Beğeniler",
+                    "custom_levels_exp_logs": "TP Değişiklikleri",
+                    "invite_user_invites": "Davetler",
+                    "store_purchases": "Mağaza Satın Almaları",
+                    "polls_create_polls": "Oluşturulan Anketler",
+                    "polls_votes": "Anket Oyları",
+                    "username_requests_username": "Kullanıcı Adı Değişikliği İstekleri",
+                    "username_requests_nickname": "Kullanıcı Adı Değişikliği İstekleri",
+                    "best_answer_marked": "En İyi Cevap Olarak İşaretlenen",
+                    "badges_assigned": "Atanan Rozetler",
+                    "achievements_achieved": "Kazanılan Başarılar",
+                    "quest_done": "Tamamlanan Görevler"
                 }
             }
         },
         "lib": {
             "defaults": {
                 "times_display_format": [
-                    ""
+                    "sayı"
                 ]
             }
         }

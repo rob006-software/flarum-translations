@@ -2,75 +2,93 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "Ajustes Generales",
+                    "help": "Estos ajustes controlan las características básicas de la extensión Encuestas."
+                },
+                "global_polls": {
+                    "heading": "Encuestas Globales",
+                    "help": "Estos ajustes controlan la función de sondeo global."
+                },
+                "image": {
+                    "heading": "Ajustes de Imagen",
+                    "help": "Estos ajustes controlan la configuración de la imagen para las encuestas."
+                },
                 "allow_option_image": "Permitir una URL de imagen para cada opción de encuesta",
-                "allow_image_uploads": "",
-                "allow_image_uploads_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": "",
-                "image_height": "",
-                "image_width": ""
+                "allow_image_uploads": "Permitir la carga de imágenes para las encuestas y sus opciones",
+                "allow_image_uploads_help": "Si se activa, los usuarios podrán subir imágenes además de proporcionar una URL de la imagen (si se activa para las opciones, siempre se activa para la propia encuesta).",
+                "enable_global_polls": "Activar encuestas globales",
+                "enable_global_polls_help": "Las encuestas globales no están vinculadas a una entrada específica, y se puede acceder a ellas desde una página dedicada a las encuestas.",
+                "max_options": "Número máximo de opciones por encuesta",
+                "options_color_blend": "Texto con mezcla de colores en las opciones de la encuesta",
+                "options_color_blend_help": "Use esta opción para mezclar colores y hacer las opciones de la encuesta más legibles. Desactivar si esta función causa problemas con la apariencia de su foro, reduciendo la legibilidad.",
+                "image_height": "Redimensionar la altura de la imagen",
+                "image_width": "Redimensionar el ancho de la imagen",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Ver los resultados sin votar",
                 "start": "Iniciar una encuesta",
-                "start_global": "",
-                "self_edit": "Permitir a los usuarios editar sus propias encuestas",
-                "self_post_edit": "",
-                "upload_images": "",
+                "start_global": "Iniciar una encuesta global",
+                "self_edit": "Editar encuestas creadas (requiere permiso de edición de post)",
+                "self_post_edit": "Editar *todas* las encuestas de los mensajes propios (requiere permiso de edición de mensajes)",
+                "upload_images": "Permitir a los usuarios subir imágenes para las encuestas",
                 "vote": "Votar en las encuestas",
                 "change_vote": "Cambiar el voto",
-                "moderate": "Editar y eliminar encuestas"
+                "moderate": "Editar y eliminar encuestas",
+                "view_group": "",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
-            "days_remaining": "La encuesta termina en {hora}.",
+            "days_remaining": "La encuesta termina en {time}.",
             "no_permission": "No tienes permiso para votar",
             "poll_ended": "Esta encuesta ha terminado.",
             "public_poll": "Ver los votantes",
-            "max_votes_allowed": "",
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "max_votes_allowed": "La encuesta permite votar por {max, plural, one {# option} other {# options}}.",
+            "polls_count": "{count, plural, one { {count} vote} other {{count} votes}}",
+            "poll_never_ends": "La encuesta nunca termina",
+            "answers": "Respuestas",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": "",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "cannot_change_vote": "No puede cambiar su voto después de votar.",
+                "submit_button": "Votar",
+                "start_poll_button": "Iniciar encuesta global",
+                "cannot_start_poll_button": "No se puede iniciar la encuesta",
+                "total_votes": "{count, plural, one {# vote was given} other {# votes were given}}"
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "¿Seguro que quieres borrar esta encuesta?",
+                "delete_success_message": "Encuesta borrada con éxito.",
+                "delete_error_message": "Algo ha ido mal al borrar la encuesta."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Borrar encuesta",
+                "error": "Se ha producido un error al guardar la encuesta, póngase en contacto con cualquier administrador."
             },
             "polls_page": {
-                "title": ""
+                "title": "Encuestas"
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
+                "empty_text": "Parece que aquí no hay encuestas en toda la comunidad.",
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
-                "add_poll": "Añadir encuesta",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "No tiene permiso para iniciar una encuesta."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Añadir una encuesta",
+                "edit_title": "Editar encuesta",
+                "polls_manager": "Gestor de encuestas",
+                "polls_preview": "Ver encuesta",
+                "continue_editing": "Seguir editando",
+                "success": "Encuesta guardada correctamente."
             },
             "modal": {
                 "add_title": "Añadir una encuesta",
@@ -78,55 +96,57 @@
                 "date_placeholder": "Fecha de finalización de la encuesta (opcional)",
                 "edit_title": "Editar la encuesta",
                 "include_question": "Debe incluir una pregunta",
-                "max": "Puede tener un máximo de 10 respuestas",
+                "max": "Puede tener un máximo de {max} respuestas",
                 "min": "Debe incluir un mínimo de 2 respuestas",
                 "no_voters": "Sin votos",
                 "option_placeholder": "Respuesta",
                 "image_option_placeholder": "URL de la imagen (opcional)",
                 "options_label": "Respuestas",
                 "public_poll_label": "Permitir que la gente vea quién ha votado",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "allow_change_vote_label": "",
+                "allow_multiple_votes_label": "Permitir votar a varias opciones",
+                "max_votes_label": "Número máximo de votos por usuario",
+                "max_votes_help": "Establecer a 0 para permitir a los usuarios votar por todas las opciones.",
+                "hide_votes_label": "Ocultar los votos hasta que finalice la encuesta",
+                "hide_votes_label_help": "El usuario que inició la encuesta siempre podrá ver los votos.",
+                "allow_change_vote_label": "Permitir a los usuarios cambiar su voto",
                 "question_placeholder": "Pregunta",
-                "subtitle_placeholder": "",
+                "subtitle_placeholder": "Subtítulo/Descripción (opcional)",
                 "submit": "Enviar",
-                "delete": "",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
-                    "later_help": ""
+                    "label": "Imagen de la encuesta",
+                    "help": "Cargue una imagen que se mostrará junto a la encuesta (opcional).",
+                    "alt_label": "Texto alternativo de la imagen",
+                    "alt_help_text": "Este texto es necesario cuando se establece una imagen, se mostrará si la imagen no se carga.",
+                    "later_help": "Podrás subir una imagen después de crear la encuesta."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Imagen de respuesta a la encuesta",
+                    "help": "Suba una imagen para que aparezca junto a la respuesta de la encuesta (opcional)."
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Añadir respuesta"
                     }
                 }
             },
             "moderation": {
-                "add": "",
+                "add": "Añadir encuesta",
                 "delete": "Eliminar la encuesta",
                 "delete_confirm": "¿Estás seguro de que quieres eliminar esta encuesta?",
                 "edit": "Editar la encuesta"
             },
             "page": {
-                "nav": "",
-                "nav-all": ""
+                "nav": "Encuestas",
+                "nav-all": "Todas las encuestas globales",
+                "nav-groups": ""
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Encuestas activas",
+                "ended-polls": "Encuestas concluidas",
+                "no-active-polls": "En este momento no hay encuestas activas.",
+                "no-recent-polls": "En este momento no hay encuestas recién terminadas."
             },
             "tooltip": {
                 "badge": "Encuesta",
@@ -136,8 +156,37 @@
                 "title": "Votantes"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Borrar imagen",
+                "upload_button": "Cargar imagen"
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

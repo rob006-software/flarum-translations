@@ -1,8 +1,18 @@
 {
     "v17development-flarum-seo": {
+        "admin": {
+            "permissions": {
+                "configure_seo": "Разрешить настройку SEO"
+            }
+        },
         "forum": {
             "profile_title": "Профиль {username}",
-            "profile_description": "Профиль {username} | {discussion_count} дискуссий | {comment_count} сообщений"
+            "profile_description": "Профиль {username} | {discussion_count} дискуссий | {comment_count} сообщений",
+            "controls": {
+                "configure_seo": "Настройка SEO",
+                "update_seo": "Обновление SEO",
+                "reset_seo": "Сброс SEO"
+            }
         }
     }
 }

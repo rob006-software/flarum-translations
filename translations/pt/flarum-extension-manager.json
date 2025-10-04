@@ -2,10 +2,10 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Novo método de autenticação",
                 "add_modal": {
                     "host_label": "",
-                    "host_placeholder": "",
+                    "host_placeholder": "exemplo: extiverse.com",
                     "submit_button": "",
                     "token_label": "",
                     "type_label": "",
@@ -163,6 +163,27 @@
             "update_successful": "",
             "why_not_modal": {
                 "title": ""
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "",
+                "repositories": "",
+                "repositories.*": "",
+                "repositories.*.type": "",
+                "repositories.*.url": "",
+                "extension_id": "",
+                "update_mode": "",
+                "package": "",
+                "version": "",
+                "github_oauth": "",
+                "github_oauth.*": "",
+                "gitlab_oauth": "",
+                "gitlab_oauth.*": "",
+                "gitlab_token": "",
+                "gitlab_token.*": "",
+                "bearer": "",
+                "bearer.*": ""
             }
         }
     }

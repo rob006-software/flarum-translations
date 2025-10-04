@@ -2,246 +2,246 @@
     "kilowhat-wordpress": {
         "admin": {
             "settings": {
-                "section_general_intro": "",
-                "api_key": "",
-                "api_key_reset": "",
-                "api_key_reset_confirm": "",
-                "wordpress_url": "",
-                "default_actor": "",
-                "default_actor_placeholder_invalid": "",
-                "default_actor_placeholder_search": "",
-                "default_actor_help": "",
-                "report_http_errors": "",
-                "report_http_errors_help": "",
-                "section_sso_intro": "",
-                "enable_sso": "",
-                "login_method": "",
-                "login_method_help": "",
+                "section_general_intro": "Perusasetukset pitää määrittää, jotta lisäosa toimii.",
+                "api_key": "Jaettu API avain",
+                "api_key_reset": "Luo uusi API avain",
+                "api_key_reset_confirm": "Haluatko varmasti luoda uuden jaetun API avaimen. Vanha ei enää toimi ja se pitää käsin päivittää WordPress lisäosan asetuksista.\n",
+                "wordpress_url": "WordPress URL",
+                "default_actor": "Oletus toimija",
+                "default_actor_placeholder_invalid": "Mahdollinen virheellinen arvo: {value} - Kirjoita etsiäksesi käyttäjää...",
+                "default_actor_placeholder_search": "Kirjoita etsiäksesi käyttäjää...",
+                "default_actor_help": "Tämä Flarum-käyttäjä määritetään kaikkien keskeytys-, lukitus- ja poistotoimien suorittajaksi. Sitä käytetään myös keskustelujen ja viestien omistajana, ellei “Määritä keskustelun kirjoittaja SSO:sta” ole käytössä.\n",
+                "report_http_errors": "Lähetä WordPress REST API HTTP virheet määritettyyn Flarumin ilmoittajaan",
+                "report_http_errors_help": "Tämän asetuksen arvosta riippumatta pyynnöt kirjataan aina tekstinä oletuslokitiedostoon. Tämä vaihtoehto on hyödyllinen, jos haluat, että API-virheet lähetetään Sentryyn tai muihin seurantatyökaluihin poikkeuksina, joissa on pinolokit.\n",
+                "section_sso_intro": "Tämä ominaisuus yhdistää WordPress-käyttäjät saumattomasti Flarumiin. Käyttäjälle luodaan automaattisesti tili, joka pysyy synkronoituna WordPressin kanssa. Jos Flarumissa on jo olemassa olevia tilejä, ne yhdistetään automaattisesti sähköpostiosoitteen perusteella. Jos poistat käyttäjän Flarumista, tili luodaan uudelleen seuraavan WordPress-kirjautumisen yhteydessä. Flarum-käyttäjän estämiseksi tilin voi asettaa jäädytetyksi Flarumissa.\n",
+                "enable_sso": "Ota käyttöön SSO integraatio",
+                "login_method": "Yleinen kirjautumistapa",
+                "login_method_help": "“Keksi” toimii vain, jos WordPress ja Flarum jakavat saman ylätason verkkotunnuksen. “Ohjaus” aiheuttaa uudelleenohjauksen jokaisen WordPress-kirjautumisen jälkeen, vaikka käyttäjä ei aikoisikaan vierailla foorumilla. “Piilotettu Iframe” muodostaa yhteyden vain Flarumia selatessa, mikä aiheuttaa sivun päivityksen ensimmäisellä latauskerralla. Yhdistettynä alla olevaan “Iframe viive” -asetukseen tätä voidaan käyttää kirjautumiseen vain tarvittaessa.\n",
                 "login_method_options": {
-                    "cookie": "",
-                    "redirect": "",
-                    "iframe": ""
+                    "cookie": "Keksi",
+                    "redirect": "Ohjaus",
+                    "iframe": "Piilotettu iframe"
                 },
-                "cookie_domain": "",
-                "cookie_domain_help": "",
-                "iframe_redirect_delay": "",
-                "iframe_redirect_delay_help": "",
-                "wordpress_login_path": "",
-                "wordpress_login_path_help": "",
-                "wordpress_login_full_page": "",
-                "wordpress_login_full_page_help": "",
-                "username_strategy": "",
+                "cookie_domain": "Keksin verkko-osoite",
+                "cookie_domain_help": "Tätä asetusta käytetään vain “Keksi”-kirjautumismekanismin kanssa. Sinun tarvitsee asettaa tämä arvo vain, jos molemmat verkkosivustot ovat eri aliverkkotunnuksissa.\n",
+                "iframe_redirect_delay": "iframe ohjauksen viive (millisekuntia)",
+                "iframe_redirect_delay_help": "Tätä asetusta käytetään vain “Piilotettu Iframe” -kirjautumismekanismin kanssa. Määrittää, kuinka kauan Flarumin sivun lataamisen jälkeen lisäosa yrittää vielä kirjautua sisään ja päivittää sivun ilman käyttäjän toimenpiteitä. Jos WordPressin vastaaminen kestää kauemmin kuin tämä arvo, käyttäjälle näytetään vain kehotus kirjautua sisään ja päivittää sivu. Aseta arvo nollaksi, jos haluat aina ehdottaa kirjautumista sen sijaan, että sivu päivittyisi automaattisesti.\n",
+                "wordpress_login_path": "WordPress kirjautumispolku",
+                "wordpress_login_path_help": "Vain tarpeellinen jos uudelleennimeät kirjautumisen polun käsin tai lisäosan kautta",
+                "wordpress_login_full_page": "Avaa WordPress kirjautumissivu popupin sijaan",
+                "wordpress_login_full_page_help": "Oletuksena Flarumin kirjautumislinkin napsauttaminen avaa WordPressin kirjautumissivun ponnahdusikkunaan, kuten muutkin OAuth-menetelmät. Kun tämä asetus on käytössä, nykyinen selaimen välilehti siirtyy WordPressin kirjautumissivulle ja ohjautuu sen jälkeen takaisin Flarumiin.\n",
+                "username_strategy": "Käyttäjänimi uusille käyttäjille",
                 "username_strategy_options": {
-                    "user_login": "",
-                    "first_name": "",
-                    "random": ""
+                    "user_login": "Käyttäjänimi WordPressistä",
+                    "first_name": "Ensimmäinen nimi WordPressistä",
+                    "random": "Satunnainen käyttäjänimi"
                 },
-                "username_strategy_help": "",
-                "force_username_choice": "",
-                "force_username_choice_help": "",
-                "welcome_message": "",
-                "welcome_message_help": "",
-                "wordpress_login_only": "",
-                "wordpress_login_only_help": "",
-                "user_delete": "",
+                "username_strategy_help": "Numero lisätään käyttäjänimen jälkeen, jos se on jo olemassa Flarumissa",
+                "force_username_choice": "Pakota käyttäjä valitsemaan käyttäjänimen ensimmäisellä käynnillä",
+                "force_username_choice_help": "Oletusarvo annetaan yllä valitun säännön mukaisesti.",
+                "welcome_message": "Tervetulosviesti",
+                "welcome_message_help": "Tämä viesti näytetään ensimmäisellä kerralla, kun käyttäjä vierailee foorumilla, yhdessä käyttäjätunnuksen valinnan kanssa, jos se on otettu käyttöön.",
+                "wordpress_login_only": "Salli vain WordPress kirjautuminen",
+                "wordpress_login_only_help": "Poistaa Flarumin kirjautumisen käytöstä ja avaa suoraan WordPressin kirjautumisikkunan/sivun, kun kirjautuminen pyydetään. Kun tätä asetusta muutetaan, lisäosa yrittää asettaa “Rekisteröityminen”-luvan “Suljetuksi”. Varmista, että se pysyy “Suljettuna”, muuten vierailijat voivat luoda itsenäisiä Flarum-tilejä.\n",
+                "user_delete": "Toiminto, kun käyttäjä poistetaan WordPressissä",
                 "user_delete_options": {
-                    "ignore": "",
-                    "delete": "",
-                    "suspend": ""
+                    "ignore": "Älä huomioi (pidä Flarum käyttäjä)",
+                    "delete": "Poista Flarum käyttäjä",
+                    "suspend": "Jäädytä Flarum käyttäjä määrittämättömäksi ajaksi (Suspend lisäosa pitää olla käytössä)"
                 },
-                "user_delete_desc": "",
-                "role_group_sync": "",
-                "role_group_sync_help": "",
-                "section_comments_intro": "",
-                "enable_comments": "",
-                "excerpt_html_whitelist": "",
-                "excerpt_html_nodes": "",
-                "excerpt_length": "",
-                "post_thumbnail_summary": "",
-                "post_thumbnail_list": "",
-                "comment_author_sync": "",
-                "comment_author_sync_help": "",
-                "comment_tag": "",
-                "comment_tag_none": "",
-                "comment_tag_custom": "",
-                "comment_tag_custom_help": "",
-                "summary_as_last_post": "",
-                "summary_as_last_post_help": "",
-                "use_post_date": "",
-                "use_post_date_help": "",
-                "post_hide": "",
+                "user_delete_desc": "Jos valitset \"poista\", vain käyttäjä poistetaan, ei sisältöä Flarum foorumilla.",
+                "role_group_sync": "Roolin ja ryhmän välinen synkronointi",
+                "role_group_sync_help": "Täällä valitut ryhmät lisätään ja poistetaan käyttäjiltä automaattisesti lisäosan toimesta, joten on todennäköisesti parasta käyttää määritettyjä Flarum-ryhmiä, joita et koskaan määritä manuaalisesti eikä niitä hallitse muut lisäosat. Et todennäköisesti halua määrittää järjestelmänvalvojaryhmää tällä tavalla, sekä turvallisuussyistä että varmistaaksesi, ettet vahingossa lukita itseäsi ulos. Voit määrittää useita ryhmiä roolille, ja ryhmä voidaan liittää useampaan rooliin. Voit luoda lisää Flarum-ryhmiä Flarumin <a>oikeudet-sivulla</a>.\n",
+                "section_comments_intro": "Tämä ominaisuus korvataan WordPress-kommentit Flarum-iframe:lla. Vieraskirjoittaminen ei ole enää mahdollista. Keskusteluja luodaan vain niille viesteille, joissa kommentit on otettu käyttöön WordPressissä. Kommenttien ottaminen käyttöön tai pois käytöstä synkronoidaan Flarumin keskustelun lukituksen kanssa. Jos blogissasi on jo postauksia, kun otat tämän ominaisuuden käyttöön, sinun täytyy ottaa kommentit käyttöön ja pois käytöstä jokaisessa artikkelissa, jotta Flarum-keskustelu luodaan.\n",
+                "enable_comments": "Ota käyttöön kommenttien integrointi",
+                "excerpt_html_whitelist": "Sallitut HTML tagit, jotka pidetään lyhennelmässä (erottele pilkulla)",
+                "excerpt_html_nodes": "Lyhennelmän pituus (numero HTML nodejen määrästä)",
+                "excerpt_length": "Lyhennelmän pituus (merkkeinä)",
+                "post_thumbnail_summary": "Näytä WordPress artikkelin kuva lyhennelmän yläpuolella",
+                "post_thumbnail_list": "Näytä WordPress artikkelin kuva Flarumin keskustelu listassa",
+                "comment_author_sync": "Aseta keskustelun kirjoittaja SSO:ta käyttäen",
+                "comment_author_sync_help": "Jos WordPress käyttäjä on luonut Flarumin tilin käyttäen SSO:ta, tämä Flarum tili määritetään keskustelun kirjoittajaksi.",
+                "comment_tag": "Avainsana uudelle viestiketjulle",
+                "comment_tag_none": "Älä määritä avainsanaa",
+                "comment_tag_custom": "Räätälöidyt arvot",
+                "comment_tag_custom_help": "Pilkuin eroteltu lista avainsanojen ID:stä",
+                "summary_as_last_post": "Aseta lyhennelmä viesti viimeiseksi viestiksi uudessa keskustelussa",
+                "summary_as_last_post_help": "Tämä saa uudet kommenttikeskustelut nousemaan Flarumin keskustelulistalla ylimmäksi heti, kun WordPress-postaus julkaistaan. Oletuksena keskustelu nousisi ylimmäksi vasta, kun ensimmäinen käyttäjä on kirjoittanut kommentin.\n",
+                "use_post_date": "Käytä WordPress artikkelin päivämäärää keskustelun luontipäivänä",
+                "use_post_date_help": "Oletuksena Flarum-keskustelut käyttävät luontiaikanaan nykyhetkeä. Tämä vaihtoehto sallii keskustelujen luomisen menneellä päivämäärällä, jos WordPress-postauksella on myös menneisyydessä oleva päivämäärä.\n",
+                "post_hide": "Toiminto, kun WordPress artikkeli on piilotettu (siirretty roskakoriin tai luonnokseksi)",
                 "post_hide_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "Älä huomioi (lukitse keskustelu riippuen Salli kommentit arvosta)",
+                    "lock": "Lukitse keskustelu Flarumissa",
+                    "hide": "Piilota keskustelu Flarumissa",
+                    "delete": "Poista keskustelu pysyvästi Flarumissa"
                 },
-                "post_delete": "",
+                "post_delete": "Toiminto, kun WordPress artikkeli poistetaan pysyvästi",
                 "post_delete_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "Älä huomioi (pidä Flarumin keskustelun nykyinen tila)",
+                    "lock": "Pidä Flarumin keskustelu ja lukitse",
+                    "hide": "Piilota keskustelu Flarumissa",
+                    "delete": "Poista keskustelu pysyvästi Flarumissa"
                 }
             },
             "tabs": {
-                "wizard": "",
-                "general": "",
-                "sso": "",
-                "comments": "",
-                "enabled": "",
-                "disabled": ""
+                "wizard": "Asennusvelho",
+                "general": "Yleiset asetukset",
+                "sso": "SSO Integraatio",
+                "comments": "Kommentit integraatio",
+                "enabled": "Käytössä",
+                "disabled": "Pois käytöstä"
             },
             "appearance": {
-                "edit_css_button": ""
+                "edit_css_button": "Muokkaa räätälöityä CSS vain WordPress upotuksissa"
             },
             "edit_css": {
-                "title": "",
-                "customize_text": ""
+                "title": "Muokkaa räätälöityä upotus CSS koodia",
+                "customize_text": "Sinun määrittämät LESS/CSS koodit tulee Flarumin <a>oletustyylien</a> lisäksi vain WordPress iframen sisälle."
             },
             "permissions": {
-                "gambits": ""
+                "gambits": "WordPressin kolmannen osapuolen gambitit (katso dokumentaatio)"
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "no-unsaved-changes": "",
-                "save": ""
+                "validation-errors": "Löysimme virheitä annetuissa arvoissa",
+                "unsaved-changes": "Sinulla on tallentamattomia muutoksia",
+                "saved-at": "Tallennettu {ago}",
+                "no-unsaved-changes": "Kaikki on tallennettu",
+                "save": "Tallenna"
             },
             "health": {
-                "title": "",
-                "check": "",
-                "errors": "",
-                "healthy": "",
-                "not-run": "",
-                "request-error": ""
+                "title": "Terveystarkistus",
+                "check": "Tarkista nyt",
+                "errors": "Löysimme joitain ongelmia.",
+                "healthy": "Kaikki näyttää hyvältä!",
+                "not-run": "Terveystarkistus tulee käytettäväksi, kun yhdistät WordPressin ja Flarumin.",
+                "request-error": "Terveystarkistuksen suoritus epäonnistui."
             },
             "wizard": {
-                "intro": "",
-                "wordpress_url": "",
-                "wordpress_url_help": "",
-                "wordpress_username": "",
-                "wordpress_password": "",
-                "wordpress_password_help": "",
-                "install": ""
+                "intro": "Kiitos, että ostit premium WordPress -lisäosani! Täytä tunnuksesi alla, jotta voit yhdistää Flarumin ja WordPressin automaattisesti.\n",
+                "wordpress_url": "WordPress URL",
+                "wordpress_url_help": "Linkki WordPressin etusivulle",
+                "wordpress_username": "WordPressin ylläpitäjän tunnus",
+                "wordpress_password": "WordPressin ylläpitäjän salasana",
+                "wordpress_password_help": "Salasanaa käytetään vain alkumääritykseen ja sitä ei tallenneta.",
+                "install": "Asenna"
             },
             "role-group-sync": {
                 "head": {
-                    "role": "",
-                    "group": ""
+                    "role": "WordPressin rooli",
+                    "group": "Flarumin ryhmä"
                 },
                 "choose": {
-                    "role": "",
-                    "group": ""
+                    "role": "Valitse WordPressin rooli...",
+                    "group": "Valitse ryhmä"
                 },
                 "custom": {
-                    "role": "",
-                    "group": ""
+                    "role": "Muokattu...",
+                    "group": "Muokattu..."
                 },
-                "selected-custom-group": "",
-                "delete": "",
+                "selected-custom-group": "Muokattu",
+                "delete": "Poista sääntö",
                 "role-loader": {
-                    "loading": "",
-                    "error": ""
+                    "loading": "Ladataan WordPressin rooleja...",
+                    "error": "Oli ongelma WordPressien roolien latauksessa. Voit silti käsin syöttää roolien nimet."
                 }
             }
         },
         "forum": {
             "welcome-modal": {
-                "title": "",
-                "default_message": "",
-                "username": "",
-                "submit": "",
-                "not_now": ""
+                "title": "Tervetuloa!",
+                "default_message": "Tervetuloa foorumille. Valitse tunnus ja olet valmis!",
+                "username": "Valitse käyttäjätunnus",
+                "submit": "Ota käyttöön foorumin tili",
+                "not_now": "Ohita ja jatka vieraana"
             },
             "instant-login": {
-                "welcome_known_user": "",
-                "welcome_unknown_user": "",
-                "avatar_alt_text": "",
-                "message": "",
-                "button": ""
+                "welcome_known_user": "Tervetuloa takaisin, {avatar} <strong>{name}</strong>!",
+                "welcome_unknown_user": "Tervetuloa takaisin!",
+                "avatar_alt_text": "WordPress avatar",
+                "message": "Voit käyttää foorumia pääsivun tililläsi",
+                "button": "Kirjaudu nyt ja päivitä"
             },
             "edit-user-modal": {
-                "warning": "",
-                "edit_in_wordpress": "",
-                "should_not_edit_email": "",
-                "unlink": "",
-                "unlink_help": ""
+                "warning": "Tämä käyttäjä synkronoidaan WordPressin kanssa. Voit muokata sähköpostia ja salasanaa WordPressin puolelta.\n",
+                "edit_in_wordpress": "Muokkaa WordPressissä",
+                "should_not_edit_email": "Sinun pitäisi muokata sähköpostia WordPressissä. <a>Muokkaa silti</a>",
+                "unlink": "Poista tämän käyttäjän linkitys WordPress käyttäjästä",
+                "unlink_help": "Jos sähköposti täsmää WordPress käyttäjään, se linkitetaan seuraavan kerran uudelleen kun käyttäjä yhdistää WordPressiin."
             },
             "settings": {
-                "edit_on_wordpress": ""
+                "edit_on_wordpress": "Vaihda sähköposti ja salasana pääsivustolla"
             },
             "log_in": {
-                "with_wordpress_button": ""
+                "with_wordpress_button": "Kirjaudu WordPressiä käyttäen"
             },
             "summary-post": {
-                "head_label": "",
-                "blog_link": "",
-                "read_more": ""
+                "head_label": "WordPress artikkeli",
+                "blog_link": "Lue blogissa",
+                "read_more": "Lue lisää"
             },
             "embed": {
-                "title": ""
+                "title": "Kommentit"
             },
             "embed-link-modal": {
-                "title": "",
-                "message": "",
-                "open": ""
+                "title": "Poistu kommenttiketjusta",
+                "message": "Sivu yrittää ohjata sinua osoitteeseen {href}",
+                "open": "Avaa linkki"
             },
-            "thumbnail_alt_fallback": ""
+            "thumbnail_alt_fallback": "WordPress artikkelin kuva"
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "password_reset": "",
-                "email_change": ""
+                "login": "Tämä tili on liitetty WordPressiin. Käytä pääsivun kirjautumislomaketta yhdistääksesi.",
+                "password_reset": "Tämä tili on liitetty WordPressiin. Käytä pääsivun kirjautumislomaketta nollataksesi salasanan.",
+                "email_change": "Tämä tili on liitetty WordPressiin. Käytä pääsivun profiilisivua vaihtaaksesi sähköpostin."
             },
             "health": {
-                "suspend-extension-required": "",
-                "cookie-domain-format": "",
-                "login-only-signup-open": "",
-                "role-group-sync-syntax": "",
-                "role-group-sync-incomplete": "",
-                "role-group-sync-invalid-group": "",
-                "role-group-sync-invalid-role": "",
-                "lock-extension-required": "",
-                "tags-extension-required": "",
-                "tag-not-exist": "",
-                "debug-mode": "",
-                "config-url-trailing-slash": "",
-                "config-url-https": "",
-                "default-actor-not-set": "",
-                "default-actor-not-found": "",
-                "api-key-missing": "",
-                "wordpress-url-missing": "",
-                "wordpress-url-invalid": "",
-                "wordpress-url-index-php": "",
-                "wordpress-url-trailing-slash": "",
-                "wordpress-url-https": "",
-                "wordpress-url-mismatch": "",
-                "flarum-url-mismatch": "",
-                "api-key-mismatch": "",
-                "user-id-not-found": "",
-                "user-id-not-admin": "",
-                "sso-mismatch-flarum": "",
-                "sso-mismatch-wordpress": "",
-                "comments-mismatch-flarum": "",
-                "comments-mismatch-wordpress": "",
-                "api-error-json": "",
-                "api-error-401": "",
-                "api-error-other": ""
+                "suspend-extension-required": "Suspend lisäosa pitää olla käytössä, jotta voit käyttää \"Jäädytä\" vaihtoehtoa \"Toiminto käyttäjänpoistossa\"",
+                "cookie-domain-format": "Keksin osoite ei näytä olevan oikea osoite. Tarkista että se on pelkkä osoite ilman protokollaa tai polkua",
+                "login-only-signup-open": "Sinun täytyy ottaa pois käytöstä rekisteröitymisen määre Flarumin oikeuksista jotta \"Salli vain WordPress kirjautuminen\" toimii täysin",
+                "role-group-sync-syntax": "Roolin ja ryhmän välisessä synkronoinnissa on enkoodaus ongelma",
+                "role-group-sync-incomplete": "Roolin ja ryhmän synkronointiasetukset ei ole määritetty kokonaan",
+                "role-group-sync-invalid-group": "Virheellinen Flarumin ryhmän ID määritetty roolin ja ryhmän synkronoinnissa: {id}",
+                "role-group-sync-invalid-role": "Virheellinen WordPressin rooli valittuna roolin ja ryhmän synkronoinnissa: {role}",
+                "lock-extension-required": "Lukitse lisäosa pitää olla käytössä, jotta voit käyttää kommentit integraatiota",
+                "tags-extension-required": "Avainsanat lisäosa pitää olla käytössä, jotta voit käyttää \"Avainsana uudelle keskustelulle\" asetusta",
+                "tag-not-exist": "Avainsana ID {id} joka on valittu \"Avainsana uudelle keskustelulle\" sitä ei ole olemassa",
+                "debug-mode": "Flarumin debug tila on käytössä. Ota se pois käytöstä kun lopetat debuggauksen",
+                "config-url-trailing-slash": "Flarumin osoite config.php tiedostossa ei saisi sisältää lopussa olevaa kauttaviivaa (nykyinen arvo: \"{url}\")",
+                "config-url-https": "Flarumin osoite config.php tiedostossa pitäisi olla HTTPS alkuinen (nykyinen arvo: \"{url}\")",
+                "default-actor-not-set": "\"Oletus toimija\" asetus pitää olla määritetty",
+                "default-actor-not-found": "\"Oletus toimija\" asetus ei viittaa oikeaan käyttäjään",
+                "api-key-missing": "\"Flarum API avain\" puuttuu. Yritä päivittää hallintapaneeli ja tarkista loki tiedostot virheiden varalta",
+                "wordpress-url-missing": "\"WordPress URL\" asetus pitää olla asetettu",
+                "wordpress-url-invalid": "\"WordPress URL\" asetus ei näytö osoittavan oikeaan osoitteeseen (nykyinen arvo: \"{url}\")",
+                "wordpress-url-index-php": "\"WordPress URL\" asetus ei saa sisältää \"/index.php\" arvoa (nykyinen arvo: \"{url}\")",
+                "wordpress-url-trailing-slash": "\"WordPress URL\" arvo ei saa sisältää päättyvää kauttaviivaa (nykyinen arvo: \"{url}\")",
+                "wordpress-url-https": "\"WordPress URL\" asetus pitäisi sisältää HTTPS (nykyinen arvo: \"{url}\")",
+                "wordpress-url-mismatch": "\"WordPress URL\" asetus Flarumissa ei täsmää \"WordPressin osoite (URL)\" asetusta WordPressissä (odotettu: \"{expected}\", saatu: \"{actual}\")",
+                "flarum-url-mismatch": "\"Flarum URL\" asetus WordPressissä ei täsmää Flarumin config.php:ssä määritetty arvoa (odotettu \"{expected}\", saatu: \"{actual}\")",
+                "api-key-mismatch": "\"Jaettu API avain\" asetus WordPressissä ei täsmää \"Jaettu API avain\" asetusta Flarumissa (odotettu: \"{expected}\", saatu: \"{actual}\")",
+                "user-id-not-found": "\"Flarum käyttäjä ID\" arvo WordPressissä ei täsmää mitään Flarumin käyttäjää (nykyinen arvo: \"{actual}\"). Käyttääksesi nykyistä kirjautunutta käyttäjää voit käyttää ID:tä \"{suggested}\"\n",
+                "user-id-not-admin": "\"Flarum käyttäjän ID\" arvo WordPressissä ei vastaa Flarumin ylläpitäjää (nykyinen arvo: \"{actual}\"). Käyttääksesi nykyistä kirjautunutta käyttäjää voit käyttää ID:tä \"{suggested}\"\n",
+                "sso-mismatch-flarum": "SSO integraatio on käytössä Flarumissa, mutta ei WordPressisä",
+                "sso-mismatch-wordpress": "SSO integraatio on käytössä WordPressissä, mutta ei Flarumissa",
+                "comments-mismatch-flarum": "Kommentit integraatio on käytössä Flarumissa, mutta ei WordPressissä",
+                "comments-mismatch-wordpress": "Kommentit integraatio on käytössä WordPressissä, mutta ei Flarumissa",
+                "api-error-json": "WordPress API:n käyttö palautti virheen: {message} - Body: {body}",
+                "api-error-401": "WordPressin API palautti virheen 401. Vahvista, että \"Jaettu API avain\" täsmää Flarumin ja WordPressin asetuksissa",
+                "api-error-other": "WordPressin API palautti virheen: {message}"
             },
             "wizard": {
-                "already_installed": "",
-                "api_unauthorized": "",
-                "api_error_generic": "",
-                "invalid_wordpress_url": ""
+                "already_installed": "Flarum on jo yhdistetty WordPressin kanssa. Suorittaksesi asennusvelho uudelleen, poista \"WordPress URL\" asetus Flarumissa ja \"Flarumin jaettu API avain\" asetus WordPressissä.\n",
+                "api_unauthorized": "Emme voineet autentikoida käyttäen annettuja tunnuksia. Tarkista, että URL, tunnus ja salasana on oikein. Tarkista dokumentaatiosta vinkkejä virheen löytämiseen.\n",
+                "api_error_generic": "Virhe suorittaessa POST pyyntöä WordPress lisäosan määrityksen osoitteeseen ({exception}). Varmista, että Flarum integraatio WordPress lisäosa on asennettu ja otettu käyttöön.\n",
+                "invalid_wordpress_url": "\"WordPressin osoite (URL)\" määre WordPressisä ei näytä olevan oikea URL ({actual})."
             },
-            "sync_setting_error": ""
+            "sync_setting_error": "Virhe asetusten synkronoinnissa WordPressin kanssa. Tarkista käsin, että asetukset WordPressin päässä ovat samat, kuin Flarumin. Virhe: {exception}.\n"
         },
         "views": {
             "error": {
-                "missing_wordpress_embed": ""
+                "missing_wordpress_embed": "Tällä artikkelilla ei näytä olevan vielä keskusteluketjua. Jos olet ylläpitäjä, julkaise artikkeli tai poista kommentit käytöstä ja ota ne takaisin käyttöön aloittaaksesi keskusteluketjun.\n"
             }
         }
     }

@@ -1,0 +1,171 @@
+{
+    "flarum-gdpr": {
+        "admin": {
+            "gdpr_page": {
+                "heading": "GDPR-tietojen yleiskatsaus",
+                "description": "Eri GDPR toimintojen ja integraatioiden tila",
+                "data_types": {
+                    "title": "Tietotyypit",
+                    "help_text": "Tässä ovat tällä hetkellä rekisteröidyt tietotyypit. Jokainen tyyppi on listattu siihen kuuluvalla vienti, anonymisointi sekä poisto toiminnoilla. Jos lisäosa hallitsee tietoa mikä kuuluu GDRP alle, sen pitäisi rekisteröidä tietotyyppi <code>flarum/gdpr</code> kanssa.\nTieto <code>user</code> taulussa on käsitelty erikseen, katso käyttäjätaulun tiedot alta.\n",
+                    "type": "Tyyppi",
+                    "export_description": "Vienti toiminto",
+                    "anonymize_description": "Anonymisointi toiminto",
+                    "delete_description": "Poisto toiminto",
+                    "extension": "Lisäosa"
+                },
+                "settings": {
+                    "heading": "GRPD asetukset",
+                    "help_text": "Etsitkö GDPR asetuksia? Ne löytyy lisäosan sivulta.",
+                    "extension_settings_button": "GDPR asetukset"
+                },
+                "user_table_data": {
+                    "title": "Käyttäjä taulun tiedot",
+                    "help_text": "Enimmäkseen kaikki <code>user</code>-tauluun lisätyt sarakkeet käsitellään automaattisesti, sekä tietojen vientiä että poistamista varten.\nKuitenkin on joitain erityistapauksia, jotka on lueteltu alla.\n"
+                }
+            },
+            "nav": {
+                "gdpr_button": "GDPR integraatiot"
+            },
+            "permissions": {
+                "process_erasure": "Käsittele tyhjennys pyynnöt",
+                "process_export_for_others": "Pyydä ja vastaanota data vientejä muilta käyttäjiltä",
+                "see_anonymized_user_badges": "Näe anonymisoitu käyttäjä merkit"
+            },
+            "settings": {
+                "allow_anonymization": "Salli tyhjennyspyyntöjen anonymisointi",
+                "allow_anonymization_help": "Oletusvaihtoehto, ja suositeltava useimmille yhteisöille. Tässä tilassa viestit/kommentit säilytetään mahdollisimman paljon GDPR:n sallimissa rajoissa, mutta kaikki käyttäjän tunnistettavat tiedot poistetaan.",
+                "allow_deletion": "Salli poistot tyhjennyspyynnöille",
+                "allow_deletion_help": "Paljon tiukempi vaihtoehto. Tässä tilassa kaikki viestit/kommentit poistetaan, ja käyttäjä poistetaan tietokannasta. Käytä varoen.",
+                "default_anonymous_username": "Oletus käyttäjätunnus anonymisoiduille käyttäjille",
+                "default_anonymous_username_help": "Kun käyttäjä anonymisoidaan, heidän käyttäjätunnuksensa korvataan tällä arvolla, johon lisätään anonymisointipyyntöön liittyvä ID, esimerkiksi <code>Anonyymi123</code>.",
+                "default_erasure": "Oletus toiminto tyhjennyspyynnöille",
+                "default_erasure_help": "Mikä toiminto pitäisi oletuksena olla tyhjennyspyynnöissä?",
+                "default_erasure_options": {
+                    "anonymization": "Anonymisaatio",
+                    "deletion": "Poisto"
+                },
+                "gdpr_page": {
+                    "title": "Tietojen integrointi ja toiminnot",
+                    "help_text": "Ennen kuin päätät, mitä toimintoja käyttää foorumillasi, on tärkeää ymmärtää, mitkä tiedot on integroitu ja miten niitä käsitellään sekä anonymisoinnin että poistamisen osalta. Vieraile GDPR-yleiskatsauksessa ymmärtääksesi, miten tietoja käsitellään ja mitkä valinnaiset lisäosat ovat rekisteröineet tietonsa tämän lisäosan käsiteltäväksi."
+                }
+            },
+            "userlist": {
+                "columns": {
+                    "gdpr_actions": {
+                        "export": "Vie data tunnukselle {username}"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "data": {
+                "avatar": {
+                    "delete_description": "Poistaa käyttäjän avatarin järjestelmästä.",
+                    "export_description": "Hakee käyttäjän avatarin tiedostojärjestelmästä ja sisällyttää sen vientiin."
+                },
+                "discussions": {
+                    "export_description": "Vie kaikki käyttäjän aloittamat keskustelut. Tieto rajattu otsikkoon ja luontipäivään."
+                },
+                "forum": {
+                    "export_description": "Vie foorumin otsikon, osoitteen, käyttäjätunnuksen ja nykyisen päivämäärän."
+                },
+                "no_action": "Ei toimintoja tehty.",
+                "posts": {
+                    "anonymize_description": "Poistaa IP osoitteen kaikista käyttäjän viesteistä.",
+                    "delete_description": "Poistaa kaikki käyttäjän tekemät viestit.",
+                    "export_description": "Vie kaikki käyttäjän tekemät viestit. Data rajoitettu sisältöön, luontipäivään, IP osoitteeseen sekä keskustelun ID:seen."
+                },
+                "tokens": {
+                    "delete_description": "Poistaa kaikki tunnisteet mitä käyttäjä on luonut.",
+                    "export_description": "Vie kaikki käyttäjän luomat tunnisteet. Data rajoitettu luonti päivään sekä tunnisteen tyyppiin."
+                },
+                "user": {
+                    "anonymize_description": "Asettaa kaikki sarakkeet käyttäjätaulussa null arvoksi. Ei null arvoiset sarakkeet asetetaan oletusarvoihinsa tai erityisarvoihinsa. Salasana muutetaan, asetukset palautetaan oletusarvoiksi ja kaikki ryhmät poistetaan.",
+                    "delete_description": "Poistaa käyttäjän tietokannasta.",
+                    "export_description": "Vie tiedon käyttäjät taulusta. Kaikki paitsi id ja salasana."
+                }
+            },
+            "request_data": {
+                "title": "Pyydä tiedot käyttäjälle {username}",
+                "text": "Sinulle valmistellaan zip-arkisto. Kun se on valmis, saat ilmoituksen latauslinkillä. Linkki pysyy aktiivisena yhden päivän ajan.\n",
+                "request_button": "Pyydä arkistoa"
+            }
+        },
+        "email": {
+            "confirm_erasure": {
+                "subject": "Vahvista tilisi tyhjennys pyyntö",
+                "body": "Hei {display_name}!\n\nJoku (toivottavasti sinä) on juuri pyytänyt poistaa tilin `{display_name}`.\n\nVahvistaaksesi tämän toimenpiteen, seuraa alla olevaa linkkiä, jonka jälkeen pyyntösi käsitellään tiimimme toimesta.\n\n{erasure_confirm_url}\n"
+            },
+            "erasure_completed": {
+                "deletion": {
+                    "subject": "Tilin poisto suoritettu",
+                    "body": "Hei {display_name}!\n\nTämä on automaattinen ja viimeinen ilmoitus siitä, että tilisi on poistettu.\n"
+                },
+                "anonymization": {
+                    "subject": "Tilin anonymisointi suoritettu",
+                    "body": "Hei {display_name}!\n\nTämä on automaattinen ja viimeinen ilmoitus siitä, että tilisi on anonymisoitu.\n"
+                }
+            },
+            "erasure_cancelled": {
+                "subject": "Tilin tyhjennyspyyntö peruttu",
+                "body": "Hei {display_name}!\n\nTämä on automaattinen ilmoitus siitä, että sinun pyyntösi peruuttaa tilin poisto on käsitelty.\n\nTiliäsi ei poisteta.\n"
+            },
+            "export_available": {
+                "subject": "Datan vienti on saatavilla",
+                "body": "Hei {display_name}!\n\nPyysit tilin tiedon viennin käyttäjälle {username}. Tämä vienti on luotu onnistuneesti ja on nyt saatavilla:\n\n{url}\n\nTämä vienti pysyy saatavilla kunnes {destroys_at}.\n"
+            }
+        },
+        "forum": {
+            "badges": {
+                "anonymized_user": "Anonyymi käyttäjä"
+            },
+            "delete_user": {
+                "title": "Tyhjennä {username} tili",
+                "text": "Haluatko varmasti tyhjentää tunnuksen {username} tilin?\n\nTätä toimintoa ei voi peruuttaa.\n",
+                "modal_delete_button": "Tyhjennä käyttäen oletustoimintoa",
+                "delete_button": "Tyhjennä"
+            },
+            "erasure_requests": {
+                "empty_text": "Ei odottavia tilin tyhjennyspyyntöjä",
+                "item_text": "{name} pyysi tilin tyhjennystä",
+                "tooltip": "Tilin tyhjennyspyynnöt",
+                "title": "Tilin tyhjennyspyynnöt"
+            },
+            "erasure_request_confirmed": "Olet vahvistanut tilisi poistopyynnön. Toimenpide toteutetaan 30 päivän kuluessa, kuten GDPR vaatii.",
+            "settings": {
+                "data": {
+                    "heading": "Henkilökohtaiset tiedot"
+                },
+                "export_data_button": "Vie tiedot",
+                "export_data_help": "Tietojen viennin pyytäminen tarjoaa sinulle ladattavan kopion kaikista tilisi tietoihin liittyvistä tiedoista. Tämä sisältää viestit, kommentit ja profiilitiedot.",
+                "request_erasure_button": "Tyhjennä tili",
+                "request_erasure_help": "Poistopyynnön tekeminen poistaa pysyvästi tilisi ja kaikki siihen liittyvät tiedot. Tämä toimenpide on palautumaton. Ennen jatkamista varmista, että olet tallentanut kaiken sisällön, jonka haluat säilyttää."
+            },
+            "process_erasure": {
+                "confirm": "Haluatko varmasti poistaa käyttäjän {name} tilin käyttäen {mode} tilaa?",
+                "title": "Käsittele poistopyynnöt",
+                "text": "{name} on pyytänyt tilin poistoa.",
+                "comments_label": "Kommentit (valinnainen)",
+                "anonymization_button": "Anonymisoi käyttäjä",
+                "deletion_button": "Poista käyttäjä"
+            },
+            "request_erasure": {
+                "title": "Pyydä tilin poistoa",
+                "reason": "Sinä annoit seuraavan syyn: {reason}",
+                "status": {
+                    "awaiting_user_confirmation": "Sinun pitäisi olla saanut sähköposti, jossa vahvista tilin poistopyynnön.\n",
+                    "user_confirmed": "Olet vahvistanut tilisi poistopyynnön. Toimenpide toteutetaan 30 päivän kuluessa, kuten GDPR vaatii.\n"
+                },
+                "text": "Kun pyyntö on vastaanotettu ja vahvistettu, ylläpitäjä tarkistaa sen 30 päivän kuluessa, kuten GDPR vaatii.",
+                "password_label": "Vahvista salasana",
+                "reason_label": "Syy (valinnainen)",
+                "cancel_button": "Peruuta pyyntö",
+                "request_button": "Pyydä tyhjennystä"
+            },
+            "notification": {
+                "export-ready": "Sinun datan vienti käyttäjälle {username} on valmis ladattavaksi."
+            },
+            "export_file": "Käyttäjän vienti tunnukselle {username}({email}) on valmistettu {date} foorumilla {forumTitle} ({url})"
+        }
+    }
+}

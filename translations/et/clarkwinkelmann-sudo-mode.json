@@ -2,21 +2,21 @@
     "clarkwinkelmann-sudo-mode": {
         "admin": {
             "settings": {
-                "duration": ""
+                "duration": "Kui kaua (sekundites) adminirežiim aktiivsena püsib"
             }
         },
         "lib": {
             "sudo": {
-                "title": "",
-                "message": "",
-                "password": "",
-                "submit": ""
+                "title": "Kinnita ligipääs",
+                "message": "Sisesta oma parool, et siseneda adminirežiimi. Mõne tunni pärast palutakse sul end uuesti tuvastada.\n",
+                "password": "Parool",
+                "submit": "Saada"
             }
         },
         "api": {
             "errors": {
-                "cookieOnly": "",
-                "incorrectPassword": ""
+                "cookieOnly": "Saadaval ainult küpsiste korral",
+                "incorrectPassword": "Parool on vigane"
             }
         }
     }

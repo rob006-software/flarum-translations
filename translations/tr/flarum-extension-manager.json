@@ -164,6 +164,27 @@
             "why_not_modal": {
                 "title": "Neden Güncellenmiyor"
             }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "minimum kararlılık",
+                "repositories": "depolar",
+                "repositories.*": "depolar",
+                "repositories.*.type": "depo türü",
+                "repositories.*.url": "depo bağlantısı",
+                "extension_id": "uzantı ID'si",
+                "update_mode": "güncelleme modu",
+                "package": "paket",
+                "version": "sürüm",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab Erişim Anahtarı",
+                "gitlab_token.*": "GitLab Erişim Anahtarı",
+                "bearer": "HTTP Taşıyıcısı",
+                "bearer.*": "HTTP Taşıyıcısı"
+            }
         }
     }
 }

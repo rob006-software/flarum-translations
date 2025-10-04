@@ -42,10 +42,10 @@
             "upload-modal": {
                 "title": "Upload gambar dalam album \"{title}\"",
                 "titleInComposer": "Edit gambar",
-                "uploading": "Mengunggah",
+                "uploading": "Mengupload",
                 "processing": "Memproses",
                 "select-file": "Pilih file",
-                "drop-file": "atau seret dan letakkan di sini",
+                "drop-file": "atau tarik dan lepaskan di sini",
                 "publishSilently": "Publikasikan secara diam-diam",
                 "submit": "Submit",
                 "submitInComposer": "Lanjutkan",
@@ -122,7 +122,7 @@
                 "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
-                "uploaded": "{username} mengunggah {count} gambar"
+                "uploaded": "{username} mengupload {count} gambar"
             },
             "discussion-controls": {
                 "attach-album": "Lampirkan atau lepaskan album"
@@ -140,9 +140,9 @@
                 "createCommunityAlbums": "Membuat album komunitas",
                 "editOwnAlbum": "Mengubah judul dan deskripsi album sendiri",
                 "hideOwnAlbum": "Menyembunyikan album sendiri",
-                "uploadPictures": "Mengunggah Gambar",
-                "uploadPersonalPicturesWithoutApproval": "Mengunggah gambar tanpa persetujuan di album pribadi",
-                "uploadCommunityPicturesWithoutApproval": "Mengunggah gambar tanpa persetujuan di album komunitas",
+                "uploadPictures": "Upload Gambar",
+                "uploadPersonalPicturesWithoutApproval": "Upload gambar tanpa persetujuan di album pribadi",
+                "uploadCommunityPicturesWithoutApproval": "Upload gambar tanpa persetujuan di album komunitas",
                 "editOwnImage": "Gunakan editor gambar pada gambar Anda sendiri (crop, mask, dan stiker)",
                 "editOwnPublishedImage": "Gunakan editor gambar pada gambar Anda sendiri setelah dipublikasikan",
                 "licenseOwnPublishedPicture": "Mengubah lisensi gambar sendiri setelah diterbitkan",
@@ -213,13 +213,13 @@
                     "license": "Lisensi tidak valid, edit tidak diizinkan",
                     "author": "Penulis tidak valid, edit tidak diizinkan",
                     "takenAt": "Tanggal pengambilan tidak valid, edit tidak diizinkan",
-                    "isDraftUnSubmit": "Pernyataan konsep tidak valid, tidak diizinkan untuk membatalkan pengajuan",
-                    "isDraftSubmit": "Pernyataan konsep tidak valid, tidak diizinkan untuk diserahkan",
-                    "isApprovedUnApprove": "Pernyataan persetujuan tidak valid, tidak diizinkan untuk membatalkan persetujuan",
-                    "isApprovedApprove": "Pernyataan persetujuan tidak valid, tidak diizinkan untuk menyetujui",
-                    "isHiddenRestore": "Pernyataan sembunyikan tidak valid, tidak diizinkan untuk memulihkan",
-                    "isHiddenHide": "Pernyataan sembunyikan tidak valid, tidak diizinkan untuk menyembunyikan",
-                    "isFavorite": "Pernyataan favorit tidak valid, pengeditan tidak diizinkan",
+                    "isDraftUnSubmit": "Status konsep tidak valid, tidak diizinkan untuk membatalkan pengajuan",
+                    "isDraftSubmit": "Status konsep tidak valid, tidak diizinkan untuk mengirim",
+                    "isApprovedUnApprove": "Status persetujuan tidak valid, tidak diizinkan untuk membatalkan persetujuan",
+                    "isApprovedApprove": "Status persetujuan tidak valid, tidak diizinkan untuk menyetujui",
+                    "isHiddenRestore": "Status sembunyikan tidak valid, tidak diizinkan untuk memulihkan",
+                    "isHiddenHide": "Status sembunyikan tidak valid, tidak diizinkan untuk menyembunyikan",
+                    "isFavorite": "Status favorit tidak valid, pengeditan tidak diizinkan",
                     "stickers": "Sticker tidak valid, pengeditan tidak diizinkan",
                     "crop": "Pemotongan tidak valid, pengeditan tidak diizinkan"
                 }

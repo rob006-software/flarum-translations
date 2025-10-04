@@ -248,8 +248,8 @@
                         },
                         "edit_user": {
                             "button": "",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": ""
+                            "tooltip": "",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -262,6 +262,9 @@
                         },
                         "join_time": {
                             "title": "Тіркелді"
+                        },
+                        "user_actions": {
+                            "title": ""
                         },
                         "user_id": {
                             "title": "ID"
@@ -593,6 +596,11 @@
             "number_suffix": {
                 "kilo_text": "К",
                 "mega_text": "М"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": ", ",

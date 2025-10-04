@@ -7,13 +7,16 @@
                 "moneyfordiscussion": "每篇貼文可取得",
                 "moneyname": "貨幣名稱（例如： [money] 元）",
                 "postminimumlength": "可取得獎勵的最小貼文長度（0 表示不限制）",
+                "ignore_notifying_users": "",
                 "noshowzero": "若值為 0 則不顯示",
                 "autoremove": "自動更新資產",
+                "cascaderemove": "",
                 "moneyforlike": "獲得按讚時獎勵資產",
                 "helpextensionlikes": "需要 <code>flarum/likes</code> 擴充套件"
             },
             "permissions": {
-                "edit_money_label": "修改資產"
+                "edit_money_label": "修改資產",
+                "disable_money_label": ""
             },
             "autoremove": [
                 "永不移除資產",

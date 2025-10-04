@@ -70,6 +70,16 @@
             "reason_label": "Syy"
         }
     },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "bannedipdata": {
+                    "export_description": "Jos IP esto liittyy käyttäjään (esim. käyttäjä on estetty IP:n perusteella), käyttäjän IP osoite sisällytetään vientiin sen lisäksi eston syy ja luonti päivä lisätään.",
+                    "anonymize_description": "Mikä tahansa IP osoite joka linkittyy käyttäjään erotetaan siitä, mutta itse IP osoite pysyy estettynä syyn lisäksi. Pidä huolta ettei syy kentässä ole mitään yksityistä tietoa."
+                }
+            }
+        }
+    },
     "blomstra-gdpr": {
         "lib": {
             "data": {

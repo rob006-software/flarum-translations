@@ -38,6 +38,10 @@
                     "description": "",
                     "add": "",
                     "banner": "",
+                    "is_enabled": {
+                        "enabled": "",
+                        "disabled": ""
+                    },
                     "header": {
                         "server": "",
                         "admin": "",
@@ -70,7 +74,10 @@
                         "user_mail": "",
                         "user_mail_help": "",
                         "user_nickname_fields": "",
-                        "user_nickname_fields_help": ""
+                        "user_nickname_fields_help": "",
+                        "permission_groups": "",
+                        "permission_groups_help": "",
+                        "is_enabled": ""
                     }
                 },
                 "onlyUse": "",

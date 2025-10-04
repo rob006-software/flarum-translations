@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Alle geüploade bestanden van deze gebruiker.",
+                    "anonymize_description": "Verwijderd de referentie tot deze gebruiker van de geüploade bestanden. De bestanden zelf blijven toegankelijk voor gebruikers die toegang hadden vóór de anonymisering.",
+                    "delete_description": "Verwijder alle bestanden die door deze gebruiker zijn geüpload."
                 }
             }
         }
@@ -13,109 +13,115 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Gedeelde uploads"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Upload bestanden die door alle gebruikers kunnen worden gebruikt.",
+                "introduction": "Gedeelde uploads zijn bestanden die door alle gebruikers van je forum kunnen worden gebruikt. Ze worden niet aan een bericht gekoppeld, maar kunnen in berichten worden ingevoegd met behulp van de mediabeheer.\n\n<strong>Waarschuwing:</strong> Gedeelde uploads zijn niet beveiligd met rechten. Iedereen met de URL kan deze bekijken.\n",
+                "no-files": "Er zijn nog geen gedeelde bestanden geüpload.",
+                "title": "Gedeelde uploads",
+                "upload-new-button": "Nieuw bestand uploaden"
             },
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Upload",
+                "description": "Stel uploaddienst en voorkeuren in."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "custom_s3_url": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Schakel het loggen van elke download door gebruikers van je forum uit. Als je dit ingeschakeld laat, kun je het aantal downloads en andere statistieken in de toekomst bekijken.\n",
+                "disable-hotlink-protection": "Hotlinkbeveiliging voorkomt het openen van downloads van andere websites. De huidige methode vereist een csrf-token en bericht-id.\n",
+                "download_templates": "Download templates geven aan hoe uploads worden weergegeven op je forum, zoals voorbeeld, knoppen. Momenteel beschikbaar:\n",
+                "mime_types": "Configureer hier je mogelijkheden. Elke reguliere mime-expressie wordt verwerkt door een specifieke uploadadapter en downloadtemplate.\n",
+                "resize": "Kies of je afbeeldingsformaat wilt wijzigen voordat deze worden geüpload. Je kan een maximale breedte en hoogte instellen in pixels. De afbeelding behoud de verhouding na het schalen.\n",
+                "client_extension": "Standaard kiest Upload een veilige bestandsextensie op basis van het MIME-type.\nVoor sommige bestandstypen gebaseerd op ZIP of binaire gegevens kan dit betekenen dat een algemene extensies worden gebruikt in plaats van de verwachte extensie.\nHier kun je een door komma gescheiden lijst van bestandextensies invoeren die letterlijk behouden blijven.\n",
+                "watermark": "Kies of afbeeldingen een watermerk moeten krijgen tijdens het uploaden. Watermerken worden, behalve bij GIFs, toegevoegd op basis van je voorkeur hieronder.\n",
+                "s3_compatible_storage": "De volgende optie is enkel verplicht wanneer er een S3-compatibele opslag wordt gebruikt. Als je AWS gebruikt kun je deze leeglaten.\n",
+                "s3_acl": "De ACL die zal worden toegepast op het geüploade object (standaard: privé). Voor mogelijke waarden, bekijk https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "custom_s3_url": "Gebruik deze instelling als je een S3-compatibele dienst gebruikt die een specifieke URL-indeling vereist (bijvoorbeeld Backblaze B2), of wanneer je problemen ondervindt met de standaard URL-indeling. Deze instelling is over het algemeen niet nodig voor de meeste diensten. Zorg ervoor dat de URL het protocol (https://) bevat en correct is geformatteerd. Voorbeeld: https://your-bucket.s3.your-region.backblazeb2.com\n",
+                "s3_instance_profile": "Laat de sleutel en geheime sleutel leeg om de profiel instantiegegevens te gebruiken.\n",
+                "composer_buttons": "Standaard zijn zowel de mediabeheerknop als de uploadknop zichtbaar. Je kunt er ook voor kiezen om enkel één knop weer te geven.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": "",
-                    "custom_url": ""
+                    "bucket": "Bucket",
+                    "key": "Sleutel",
+                    "region": "Regio",
+                    "secret": "Geheime sleutel",
+                    "title": "AWS S3 opslaginstellingen",
+                    "advanced_title": "Geavanceerde S3 opslaginstellingen",
+                    "endpoint": "Endpoint",
+                    "use_path_style_endpoint": "Gebruik s3 pad-stijl endpoint",
+                    "acl": "Access Control List (ACL)",
+                    "custom_url": "Aangepaste S3 URL"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Schakel downloadlog uit",
+                    "toggle": "Uitschakelen"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Hotlinkbeveiliging uitschakelen",
+                    "toggle": "Uitschakelen"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": "",
-                    "tos": ""
+                    "client_id": "Imgur klant-ID",
+                    "title": "Imgur afbeeldingsopslag instellingen",
+                    "tos": "Het is jouw verantwoordelijkheid om ervoor te zorgen dat je forumgebruikers aan de Imgur's <a>Servicevoorwaarden</a> voldoen"
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "Inhoud afleverings-URL (voorvoegsels voor bestanden)",
+                    "title": "Lokale opslaginstellingen"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Qiniu opslaginstellingen",
+                    "key": "Sleutel",
+                    "secret": "Geheime sleutel",
+                    "bucket": "Bucket"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": "",
+                    "max_file_size": "Maximale bestandsgrootte (in kilobytes)",
+                    "mime_types": "Configureer je mime-type, upload adapter mapping",
+                    "title": "Generieke voorkeuren",
                     "php_ini_values": ""
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Maximale afbeeldingsbreedte/hoogte",
+                    "title": "Afbeeldingsformaat wijzigen",
+                    "toggle": "Wijzig afbeeldingsformaat"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Door gebruiker opgegeven bestandsextensies"
                 },
                 "watermark": {
-                    "file": "",
-                    "position": "",
+                    "file": "Upload je watermerk-afbeelding",
+                    "position": "Watermerk positie",
+                    "title": "Watermerk afbeeldingen",
+                    "toggle": "Afbeeldingen van watermerk voorzien"
+                },
+                "svg-sanitizer": {
                     "title": "",
-                    "toggle": ""
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
                 },
                 "composer_buttons": {
                     "title": "",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Beiden",
+                        "upload-btn": "Enkel uploadknop",
+                        "media-btn": "Enkel mediabeheerknop"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Test bestand MIME-type"
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": "",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "download_label": "Download bestanden",
+                "upload_label": "Upload bestanden",
+                "view_user_uploads_label": "Bekijk gebruikersuploads",
+                "delete_uploads_of_others_label": "Verwijder gebruikersuploads",
+                "upload_shared_label": "Upload gedeelde bestanden",
+                "access_shared_label": "Toegang tot gedeelde bestanden in mediabeheer"
             },
             "templates": {
-                "file": "",
+                "file": "Standaard bestand downloadtemplate",
                 "file_description": "",
                 "image": "",
                 "image_description": "",
@@ -125,21 +131,22 @@
                 "markdown-image_description": "",
                 "bbcode-image": "",
                 "bbcode-image_description": "",
-                "just-url": "",
+                "just-url": "Enkel URL",
                 "just-url_description": "",
-                "text-preview": "",
-                "text-preview_description": ""
+                "text-preview": "Tekst voorbeeld",
+                "text-preview_description": "Voegt een voorbeeld (de eerste 5 regels) van het tekstbestand in, met de optie om uit te klappen om de volledige inhoud van het bestand weer te geven.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
+                "aws-s3": "S3 of compatibel",
+                "awss3": "AWS S3",
+                "imgur": "Imgur",
+                "local": "Lokaal",
                 "ovh-svfs": "",
-                "qiniu": ""
+                "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
+                "title": "Inspecteer MIME",
+                "description": "FoF Upload gebruikt de <a>PHP Mime Detector</a> extensie voor veelgebruikte MIME types en PHP Fileinfo extensie als terugval optie.\nDe MIME waarde die wordt opgehaald door Fileinfo kan anders zijn dan die van server tot server.\n",
                 "select": "",
                 "laravel-validation": "",
                 "no-file-selected": "",
@@ -148,90 +155,90 @@
                 "mime-detector": "",
                 "mime-fileinfo": "",
                 "guessed-extension": "",
-                "not-available": ""
+                "not-available": "Geen resultaat"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Mediabeheer",
             "buttons": {
                 "attach": "",
-                "upload": "",
-                "upload_shared": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": "",
-                "shared_media": ""
+                "upload": "Uploaden",
+                "upload_shared": "Gedeeld",
+                "user_uploads": "Gebruikersuploads",
+                "cancel": "Annuleer",
+                "media": "Mijn media",
+                "shared_media": "Gedeelde media"
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Fout",
+                "loading": "Uploaden",
+                "unauthorized": "Je bent niet gemachtigd om bestanden te downloaden"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "Uploads boven de {max} kb zijn niet geaccepteerd."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
+                "expand": "Voorbeeld uitklappen",
+                "collapse": "Voorbeeld inklappen",
                 "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "no_snippet_preview": "<voorbeeld zal hier worden weergegeven na plaatsen>",
+                "no_snippet": "<geen voorbeeldfragment beschikbaar>"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
+                "forbidden_type": "Het uploaden van bestanden van dit type is niet toegestaan.",
                 "unsupported_type": "",
                 "could_not_detect_mime": "",
                 "max_upload_file_size_ini": "",
                 "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "partial_upload": "Gedeeltelijk geüpload.",
+                "no_file_uploaded": "Geen bestand geüpload.",
+                "no_upload_tmp_folder": "Geen tmp-map om bestanden naartoe te uploaden.",
+                "cannot_write_to_disk": "Kan niet naar opslagruimte schrijven.",
+                "upload_blocked_by_php_extension": "Een PHP-extensie heeft de upload geblokkeerd.",
+                "no_files_made_it_to_upload": "Upload alsjeblieft geen bestanden groter dan {max} kb."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Nieuw gedeelde bestand",
+                "dropzone": "Sleep bestanden hierheen of klik om te bladeren",
+                "hide-from-media-gallery": "Verberg van gebruikers mediagalerij",
+                "upload": "Upload"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Bestanden laden...",
+                "empty": "Er zijn geen afbeeldingen om weer te geven.",
+                "release_to_upload": "Laat los om te uploaden",
+                "modal_empty_desktop": "Je bestandenlijst is leeg. Klik de knop hierboven of sleep een bestand hier om een bestand te uploaden.",
+                "modal_empty_phone": "Je bestandenlijst is leeg. Tik op de knop hierboven om een bestand te uploaden.",
+                "select_file_a11y_label": "Selecteer bestand \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Niets geselecteerd} one {Selecteer bestand} other {Selecteer bestanden}}",
+                "load_more_files_btn": "Meer bestanden laden",
+                "delete_file_a11y_label": "Verwijder bestand \"{fileName}\"",
+                "delete_confirmation": "Weet je zeker dat je \"{fileName}\" wilt verwijderen?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Verberg \"{fileName}\" van de mediabeheerder",
+                    "btn_a11y_label_show": "Geef \"{fileName}\" weer in de mediabeheerder",
+                    "hide_confirmation": "Weet je zeker dat je \"{fileName}\" wilt verbergen? Een bestand verbergen verwijdert het enkel uit je mediabeheer en blijft beschikbaar in bestaande berichten.",
+                    "hide_success": "Bestand verborgen",
+                    "show_confirmation": "Weet je zeker dat je \"{fileName}\" wilt weergeven? Een bestand weergeven maakt het zichtbaar in je mediabeheerder.",
+                    "show_success": "File zichtbaar",
+                    "hide_fail": "Kon bestand \"{fileName}\" niet verbergen",
+                    "show_fail": "Kon bestand \"{fileName}\" niet weergeven",
+                    "loading": "Bestand verbergen..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Maak \"{fileName}\" privé (zonder publieke URL)",
+                    "btn_a11y_label_show": "Maak \"{fileName}\" openbaar (met publieke URL)",
+                    "hide_confirmation": "Weet je zeker dat je \"{fileName}\" privé wilt maken? Als je een bestand privé maakt, wordt de openbare URL verwijderd, maar dit heeft geen invloed op bestaande berichten. Het zal ook niet langer zichtbaar zijn in de mediabeheerder voor onbevoegde gebruikers.",
+                    "hide_success": "Bestand privé gemaakt",
+                    "show_confirmation": "Weet je zeker dat je \"{fileName}\" openbaar wilt maken? Door een bestand openbaar te maken wordt het toegankelijk voor iedereen met een publieke URL en kan iedereen het delen met behulp van de mediabeheerder.",
+                    "show_success": "Bestand openbaar beschikbaar gemaakt",
+                    "hide_fail": "Kon het bestand \"{fileName}\" niet privé maken",
+                    "show_fail": "Kon het bestand \"{fileName}\" niet openbaar maken",
+                    "loading": "Bestand privé maken..."
                 }
             }
         }

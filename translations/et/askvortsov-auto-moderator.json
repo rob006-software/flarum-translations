@@ -2,87 +2,87 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "",
-                "add_to_group": "",
-                "remove_from_group": "",
-                "suspend": "",
-                "unsuspend": ""
+                "activate_email": "Aktiveeri e-post",
+                "add_to_group": "Lisa gruppi",
+                "remove_from_group": "Eemalda grupist",
+                "suspend": "Külmuta",
+                "unsuspend": "Emalda külmutamine"
             },
             "metric_drivers": {
-                "discussions_entered": "",
-                "discussions_participated": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": ""
+                "discussions_entered": "Vestlusesse sisenetud",
+                "discussions_participated": "Vestluses osalenud",
+                "discussions_started": "Vestlusi alustanud",
+                "posts_made": "Tehtud postitusi",
+                "likes_given": "Meeldimisi antud",
+                "likes_received": "Meeldimisi saadud",
+                "best_answers": "Parimad vastused",
+                "moderator_strikes": "Hoiatusi moderaatorilt"
             },
             "requirement_drivers": {
-                "email_confirmed": "",
-                "in_group": "",
-                "suspended": "",
-                "email_matches_regex": ""
+                "email_confirmed": "Kinnitatud e-post",
+                "in_group": "Grupis",
+                "suspended": "Külmutatud",
+                "email_matches_regex": "E-posti aadress vastab mustrile"
             },
             "in_group_settings": {
-                "regex": ""
+                "regex": "Sobiva e-posti aadressi muster (kaldkriipsud pole lubatud)"
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Vali grupp"
             },
             "suspend_selector": {
-                "days": "",
-                "indefinitely": ""
+                "days": "Mitmeks päevaks külmutada",
+                "indefinitely": "Külmutada jäädavalt?"
             },
             "criterion_status": {
-                "heading": "",
-                "invalid": "",
-                "no_actions": "",
-                "no_metrics_or_reqs": "",
-                "valid": "",
-                "action_validation_errors": "",
-                "requirement_validation_errors": ""
+                "heading": "Staatuse kontroll",
+                "invalid": "Kriteerium on vigane. Palun kontrolli draiveri veateateid.",
+                "no_actions": "Selle kriteeriumi jaoks pole toiminguid seadistatud. Midagi ei juhtu, kui kasutaja vastab sellele kriteeriumile või siis enam ei vasta sellele.",
+                "no_metrics_or_reqs": "Selle nõude jaoks pole kriteeriumeid määratud. See tähendab, et see kriteerium rakendatakse KÕIGILE kasutajatele.",
+                "valid": "See kriteerium on korrektne!",
+                "action_validation_errors": "Tegevuse draiveri kontrollimisel tekkisid järgmised vead:",
+                "requirement_validation_errors": "Nõude draiveri kontrollimisel tekkisid järgmised vead:"
             },
             "criterion_page": {
-                "driver_missing_ext": "",
-                "back": "",
-                "name_label": "",
-                "icon_label": "",
-                "description_label": "",
-                "new_criterion": "",
-                "negated": "",
-                "loading": "",
-                "delete_button": "",
-                "metrics_and_requirements_label": "",
-                "metrics_and_requirements_help": "",
-                "metrics_heading": "",
-                "requirements_heading": "",
-                "add_metric": "",
-                "actions_label": "",
-                "actions_help": "",
-                "actions_on_gain_heading": "",
-                "actions_on_loss_heading": "",
-                "add_action": ""
+                "driver_missing_ext": "See draiver sõltub lisaprogrammist, mida pole paigaldatud.",
+                "back": "Tagasi kriteeriumite nimekirja",
+                "name_label": "Nimi",
+                "icon_label": "Ikoon",
+                "description_label": "Kirjeldus",
+                "new_criterion": "Loo kriteerium",
+                "negated": "Eitatud?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Parameetrid ja nõuded",
+                "metrics_and_requirements_help": "Need määravad, kas kasutajad vastavad sellele kriteeriumile või mitte. Jälgitakse väärtuste vahemikku, nõuded on jah tingimused.",
+                "metrics_heading": "Parameetrid",
+                "requirements_heading": "Nõuded",
+                "add_metric": "Lisa parameeter",
+                "actions_label": "Tegevused",
+                "actions_help": "Tegevus käivitatakse, kui kasutaja hakkab vastama uuele kriteeriumile. Kui kasutaja ei vasta enam nõuetele, siis sellest johtuvalt võidakse käivitada muid tegevusi.",
+                "actions_on_gain_heading": "Tegevus, kui vastab nõuetele",
+                "actions_on_loss_heading": "Tegevus, kui ei vasta enam nõuetele",
+                "add_action": "Lisa tegevus"
             },
             "undefined_driver_item": {
-                "text": ""
+                "text": "VIGA! Draiver <strong>{driverName}</strong> pole määratletud. Ilmselt lisas selle lisaprogramm, mis pole praegu enam paigaldatud. Pead selle lisaprogrammi uuesti paigaldama või selle draiveri eemaldama, et kriteerium oleks taas kehtiv."
             },
             "automoderator_page": {
-                "criterion_invalid": "",
-                "list_heading": "",
-                "create_criterion_button": ""
+                "criterion_invalid": "Kriteerium on vigane. Lisainfo saamiseks kontrolli palun selle seadeid",
+                "list_heading": "Kriteerium",
+                "create_criterion_button": "Loo uus kriteerium"
             },
             "automoderator_instructions": {
-                "header": "",
-                "text": ""
+                "header": "Lisaprogrammi juhendid",
+                "text": "<li>Tl;dr: Kui kasutaja vastab kriteeriumile X, siis soorita toiming Y. Kui kasutaja ei vasta enam kriteeriumile X, siis soorita toiming Z.</li>\n<li><strong>Kriteerium:</strong> Kriteerium on selle lisaprogrammi tuum. Need on komplekt numbreid ja nõudeid. Kui kasutaja vastab kriteeriumile, siis \"vastab nõuetele\" tegevusega käivitatakse tegevus selle kriteeriumi jaoks. Kui kasutaja ei vasta enam kriteeriumile, siis käivitatakse \"ei vasta nõuetele\" tegevused.</li>\n<ul>\n  <li><strong>Parameetrid:</strong> Numbriline tingimus. Näiteks postituste arv või saadud meeldimiste arv. Kriteerium võib nõuda erinevate numbrite vahemikku või miinimum või maksimum väärtust.</li>\n  <li><strong>Nõue:</strong> Abstraktne tingimus. Näiteks, kui e-posti aadress peab vastama mingile kindlale regulaaravaldisele, et seda kontot ei külmutatakse.</li>\n</ul>\n<li><strong>Toimingud:</strong> Midagi, mis toimub automaatselt, kui kriteeriumile vatatakse või enam ei vastata. See võib olla misiganes nagu näiteks kasutaja lisamine või eemaldamine grupist või kasutajakonto külmutamine.</li>\n<li><strong>Päästik:</strong> Sündmused, mis võib viia kasutaja kriteeriumi gruppide ülevaatamisele. Need on osa numbritest ja nõuetest. Kõiki kriteeriumeid hinnatakse sisselogimisel: see on \"universaalne päästik\".</li>\n<li>\"Ei vasta nõuetele\" tegevused käivitatakse alati enne kui \"vastab nõuetele\" tegevus. Sellisel viisil sooritatakse toiming \"vastab nõuetele\" vähemalt ühe kriteeriumi alusel.</li>\n<li>Pea meeles, et tegevused käivitatakse ainult \"ei vasta nõuetele\" või \"vastab nõuetele\". Andmete käsitsi muutmine ei käivita kriteeriumi \"vastab nõuetele\" uuesti rakendamist.</li>\n<li>Kui kustutad \"on loss\" kriteeriumi, siis seda tegevust EI käivitata kasutajatel, kes vastavad sellele kriteeriumile.</li>\n<li>Kui kasutad kriteeriumi gruppide haldamiseks, siis soovitame sul hoida gruppide poolt hallatavaid gruppe eraldi. Neisse gruppideese ei saa kasutajaid käsitsi lisada või eemaldada.</li>\n"
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "Grupi ID",
             "managed_groups": {
-                "header": "",
-                "group_item": "",
-                "groups_not_editable": ""
+                "header": "Hallatud grupid:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Ebakõlade vältimiseks ei saa automaatse moderaatori kriteeriiumi poolt hallatavaid gruppe kasutajatele käsitsi lisada või eemaldada."
             }
         }
     }

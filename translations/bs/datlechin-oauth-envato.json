@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "envato": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_envato_button": ""
+            },
+            "providers": {
+                "envato": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "envato": ""
+            }
+        }
+    }
+}

@@ -33,10 +33,10 @@
                 },
                 "firebase_config": {
                     "heading": "",
-                    "help_text": "",
-                    "see_documentation_here": "",
-                    "upload_successful": "",
-                    "upload_file": ""
+                    "help_text": "Um die Unterstützung für Push-Benachrichtigungen bei der Veröffentlichung deiner App im Apple App Store hinzuzufügen, musst du Firebase verwenden, um Push-Benachrichtigungen zu deiner Anwendung hinzuzufügen. Bitte erstelle deine Firebase Service Config und lade sie hier hoch.",
+                    "see_documentation_here": "Siehe Dokumentationen hier",
+                    "upload_successful": "Deine Firebase-Konfiguration wurde erfolgreich hochgeladen",
+                    "upload_file": "Datei hochladen"
                 },
                 "other": {
                     "heading": "Anderes",
@@ -45,8 +45,8 @@
                     "push_notif_preference_default_to_email_text": "Bei true verfügen die Nutzer/innen über standardmäßig aktivierte Push-Benachrichtigungen für alle Benachrichtigungsarten, bei denen E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Bei false verfügen die Nutzer/innen standardmäßig über deaktivierte Push-Benachrichtigungen.",
                     "user_max_subscriptions_label": "Maximale Push-Abonnements pro Benutzer",
                     "user_max_subscriptions_text": "Wie viele Push-Abonnements sollte jeder Nutzer gleichzeitig haben können? Wenn ein Nutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Nutzer verwendet hat.",
-                    "window_controls_overlay_label": "",
-                    "window_controls_overlay_text": ""
+                    "window_controls_overlay_label": "Überlagerung von Fenstersteuerungen aktivieren?",
+                    "window_controls_overlay_text": "Wenn dies der Fall ist, können die Nutzer/innen durch das Ausblenden der nativen Titelleiste ein noch intensiveres, natives Erlebnis erhalten. Ob Window Controls Overlay aktiviert ist oder nicht, hängt von den Benutzereinstellungen und der Browserkompatibilität ab. Du musst deine Titelleiste anpassen, indem du CSS/JS hinzufügst, nachdem du sie aktiviert hast, sonst überlagern die Steuerelemente einige Elemente der oberen Navigationsleiste deines Forums und das Fenster lässt sich fast nicht mehr verschieben, was zu einer schlechten Erfahrung führt.\n\nSiehe auch: <compatibilitylink>Die Kompatibilität von Window Controls Overlay</compatibilitylink> & <learnlink>Über Window Controls Overlay in Microsoft Learn</learnlink>\n"
                 },
                 "heading": "Progressive Web App Konfiguration",
                 "text": "Konfiguriere deine Flarum Seite, damit sie als progressive Web App läuft! Bitte beachte, dass dies deine Seite nicht automatisch in den App Store bringt. Stattdessen bedeutet dies, dass Nutzer für deine Website die Option \"Zum Homescreen hinzufügen\" erhalten. Wir bieten einige Statusüberprüfungen an, aber der beste Weg dies zu testen ist selber eine Test-Installation durchzuführen (suche auf Google nach einer Anleitung, wie man Progressive Web Apps installiert). Bitte bedenke auch, dass \"installiere diese PWA\"-Popups von Browsern gesteuert werden und nicht von Entwicklern/Admins/Programmen ausgelöst werden können. Es ist empfohlen, eine Anleitung für die Installation einer PWA in die Dokumentation deiner Seite aufzunehmen.",

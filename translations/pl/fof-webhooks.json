@@ -70,7 +70,10 @@
                     "extra_text_help": "Dodatkowy tekst, który zostanie dołączony podczas wysyłania webhooka.",
                     "group_label": "Grupa",
                     "group_help": "Wyślij zasoby, do których ma dostęp ta grupa",
-                    "events_label": "Zdarzenia"
+                    "name_label": "Nazwa",
+                    "name_help": "Nazwa webhooka. Ta wartość będzie używana jako np. nazwa użytkownika Discord, nazwa bota Slack, itp.",
+                    "events_label": "Zdarzenia",
+                    "include_matching_tags_label": ""
                 },
                 "services": {
                     "discord": "Discord",

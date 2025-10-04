@@ -5,36 +5,36 @@
             "appurl_help": "http:// veya https:// ile başlamalı ve / ile bitmelidir",
             "appid_label": "APPID",
             "appkey_label": "APPKEY",
-            "openqq_label": "",
-            "openwx_label": "",
-            "opensina_label": ""
+            "openqq_label": "QQ Girişini Aç",
+            "openwx_label": "WeChat Girişini Aç",
+            "opensina_label": "Weibo Girişini Aç"
         },
         "forum": {
-            "with_qq_button": "",
-            "with_wx_button": "",
-            "with_sina_button": "",
+            "with_qq_button": "QQ Girişi",
+            "with_wx_button": "WeChat Girişi",
+            "with_sina_button": "Weibo Girişi",
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": "",
-                "unlinked": ""
+                "already_linked": "Üçüncü Hesap zaten bağlanmış!",
+                "already_used": "Üçüncü Hesap zaten başka bir kullanıcıya bağlı!",
+                "link_success": "Üçüncü Hesap başarıyla bağlandı.",
+                "unlink_success": "Üçüncü Hesap başarıyla kaldırıldı.",
+                "error": "Bir şeyler yolunda gitmedi, lütfen daha sonra tekrar deneyin!",
+                "unlinked": "Üçüncü Hesap, bu siteye ait hesaba bağlı değil. Lütfen önce kaydolun ve ardından bağlayın."
             },
             "modals": {
-                "link_qq": "",
-                "unlink_qq": "",
-                "confirm_qq": "",
-                "link_wx": "",
-                "unlink_wx": "",
-                "confirm_wx": "",
-                "link_sina": "",
-                "unlink_sina": "",
-                "confirm_sina": "",
-                "no_providers": "",
+                "link_qq": "QQ Hesabını Bağla",
+                "unlink_qq": "QQ Hesabını Kaldır",
+                "confirm_qq": "QQ hesabınızı bağlantısını kaldırmak istediğinizden emin misiniz?",
+                "link_wx": "WeChat Hesabını Bağla",
+                "unlink_wx": "WeChat Hesabını Kaldır",
+                "confirm_wx": "WeChat hesabınızın bağlantısını kaldırmak istediğinizden emin misiniz?",
+                "link_sina": "Weibo Hesabını Bağla",
+                "unlink_sina": "Weibo Hesabını Kaldır",
+                "confirm_sina": "WeChat hesabınızın bağlantısını kaldırmak istediğinizden emin misiniz?",
+                "no_providers": "Başka giriş sağlayıcınız yok! Muhtemelen şifrenizi sıfırlamanız gerekecek.",
                 "buttons": {
-                    "confirm": "",
-                    "cancel": ""
+                    "confirm": "Evet, bağlantıyı kaldır",
+                    "cancel": "Hayır!"
                 }
             }
         }

@@ -10,6 +10,18 @@
                 "no_settings_available": "Ei asetusta saatavilla. Yritä asentaa fof/moderator-notes"
             }
         },
+        "lib": {
+            "modal": {
+                "title": "Kirjaudu toisena käyttäjänä",
+                "label": "Suuren vallan myötä tulee suuri vastuu. Jatkamalla sinusta tulee {username}, kunnes kirjaudut ulos.",
+                "placeholder_optional": "(Valinnainen) Ilmoita syy täksi käyttäjäksi siirtymiselle",
+                "placeholder_required": "Sinun täytyy ilmoittaa syy vaihdolle ennen kuin jatkat",
+                "impersonate_username": "Kirjaudu {username}"
+            },
+            "user_controls": {
+                "impersonate_button": "Kirjaudu käyttäjänä"
+            }
+        },
         "forum": {
             "modal": {
                 "title": "Kirjaudu toisena käyttäjänä",

@@ -1,10 +1,10 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
                     "export_description": "",
-                    "anonymize_description": "",
+                    "anonymize_description": "Remover a referência ao utilizador dos ficheiros enviados. Os próprios ficheiros permanecerão acessíveis aos utilizadores que podiam visualizar antes da anonimização.",
                     "delete_description": ""
                 }
             }
@@ -96,6 +96,12 @@
                     "title": "",
                     "toggle": ""
                 },
+                "svg-sanitizer": {
+                    "title": "",
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
+                },
                 "composer_buttons": {
                     "title": "",
                     "options": {
@@ -132,6 +138,7 @@
             },
             "upload_methods": {
                 "aws-s3": "",
+                "awss3": "",
                 "imgur": "",
                 "local": "",
                 "ovh-svfs": "",

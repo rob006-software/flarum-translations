@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "یک محدوده تاریخ سفارشی را برای نمایش آمار انتخاب کنید. بارگیری داده ها ممکن است طول بکشد\nچند دقیقه در انجمن ها با فعالیت زیاد.\n",
+                "end_date": "تاریخ پایان (شامل)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "تاریخ پایان باید بعد از تاریخ شروع باشد."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "تاریخ شروع (شامل)",
+                "submit_button": "محدوده تاریخ را تأیید کنید",
+                "title": "محدوده تاریخ سفارشی را انتخاب کنید"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
+                "export_chart_button": "خروجی نمودار به SVG",
+                "last_12_months_label": "12 ماه گذشته",
+                "last_28_days_label": "28 روز گذشته",
+                "last_7_days_label": "7 روز گذشته",
+                "mini_heading": "آمار انجمن",
+                "previous_28_days_label": "28 روز قبل",
+                "previous_7_days_label": "7 روز قبل",
+                "custom_label": "انتخاب محدوده سفارشی...",
+                "custom_label_specified": "{fromDate} تا {toDate}",
+                "loading": "=> core.ref.loading",
                 "posts_heading": "نوشته‌ها",
-                "today_label": "",
-                "total_label": "",
+                "today_label": "امروز",
+                "total_label": "مجموع",
                 "users_heading": "کاربران",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "view_full": "مشاهده آمار بیشتر",
+                "no_data": "هیچ داده ای برای این محدوده تاریخ در دسترس نیست.",
+                "current_period": "دوره فعلی",
+                "previous_period": "دوره قبل"
             }
         }
     }

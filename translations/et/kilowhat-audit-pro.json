@@ -2,157 +2,157 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "Vaata auditi logi",
+                "viewLimited": "Vaata piiratud auditi logi"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Audit",
+                "free": "Tasuta",
+                "pro": "Pro",
+                "upgrade": "Uuenda PRO versioonile"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "Seadista",
+                "title": "Piiratud ligipääsu seaded",
+                "introduction": "Vali, mida piiratud ligipääsuga kasutajad võivad näha",
+                "requiresExtension": "Nõuab lisaprogrammi {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Vaata IP aadressi"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
+                "all-audit": "Augiti logi",
+                "discussion-audit": "Logi audit",
+                "user-audit": "Auditi logi (konto muudatused)",
                 "actor-audit": ""
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
+                "all-title": "Logi audit",
+                "discussion-title": "Vestluste auditi logi",
+                "user-title": "Kasutaja auditi logi",
                 "actor-title": ""
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterPlaceholder": "Filtreeri logisidi",
+                "filterApply": "Rakenda",
+                "empty": "Tulemusi pole",
+                "loadMore": "Laadi rohkem",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Vestlus #{id}",
+                    "group": "Grupp #{id}",
+                    "post": "Postitus #{id}",
+                    "tag": "Silt #{id}",
+                    "user": "KAsutaja #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "KOmmentaar",
+                    "post": "Postitus"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(väärtust pole)",
+                "noReason": "(põhjust pole)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Veebisessioon",
+                    "api_key": "API võti",
+                    "access_token": "Ligipääsukood",
+                    "cli": "Käsurida",
+                    "unknown": "Tundmatu klient"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
+                    "hideRaw": "Peida logi toorandmed",
+                    "showRaw": "Näita logi toorandmeid",
                     "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "filterIp": "Näita selle IP logisid",
+                    "filterClient": "Näita selle kliendi tüübi logisid",
+                    "filterAction": "Näita sama toimingu logisid",
+                    "filterUser": "Näita logisid, mis mõjutavad sama kasutajat",
+                    "filterDiscussion": "Näita logisid, mis mõjutavad sama vestlust"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
+                "audit_log_cleared": "Auditi logist kustutati {deleted_count} sissekannet",
+                "cache_cleared": "Tühjendas vahemälu käsitsi",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
-                    "merged_away": "",
-                    "merged_into": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
+                    "created": "Alustas vestlust {discussion}",
+                    "create_date_changed": "Muutis vestluse {discussion} alguskuupäeva. Vana {old_date}. Uus {new_date}",
+                    "deleted": "Kustutas vestluse {discussion}",
+                    "hidden": "Peitis vestluse {discussion}",
+                    "locked": "Lukustas vestluse {discussion}",
+                    "merged_away": "Liitis vestluse {discussion} vestlusega {new_discussion}",
+                    "merged_into": "Liitis {post_count} postitust vestlusest {original_discussion_ids_count} vestlusega {discussion}",
+                    "renamed": "Nimetas vestluse ümber. Vana pealkiri: {old_title} Uus pealkiri: {new_title}",
+                    "restored": "Taastas vestluse {discussion}",
+                    "split_away": "Jagas {post_count} postitust vestlusest {discussion} uude vestlusesse {new_discussion}",
+                    "split_into": "Jaga {post_count} postitust uude vestlusesse {discussion}",
                     "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
+                    "tagged": "Vestluse {discussion} sildid on uuendatud. Vanad: {old_tags}. Uued: {new_tags}",
+                    "unlocked": "Avatud vestlus {discussion}",
                     "unstickied": "",
-                    "user_changed": ""
+                    "user_changed": "Vestluse {discussion} autorit muudeti. Vana: {old_user} Uus: {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": ""
+                    "disabled": "Lisaprogrammi {package} välja lülitamine",
+                    "enabled": "Lülitas sisse lisaprogrammi {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Blokeeris IP-aadressi {ip}",
+                    "unbanned": "Eemaldas blokeeringu IP-aadressilt {ip}"
                 },
-                "permission_changed": "",
+                "permission_changed": "Õigust {permission} on muudetud. Vana grupp: {old_groups} Uus grupp: {new_groups}",
                 "post": {
-                    "approved": "",
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "dismissed_flags": "",
-                    "edit_date_changed": "",
-                    "flagged": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "approved": "Kiitis heaks kasutaja {postuser} postituse {post} vestluses {discussion}",
+                    "created": "Lisas postituse {post} vestluses {discussion}",
+                    "create_date_changed": "Kasutaja {postuser} postituse {post} alustamise kuupäeva muudeti. Vana kuupäev: {old_date} Uus kuupäev: {new_date}",
+                    "deleted": "Kustutas kasutaja {postuser} postituse {post} vestluses {discussion}",
+                    "dismissed_flags": "Eirati kasutaja {postuser} postituse {post} märkimist sobimatuks vestluses {discussion}",
+                    "edit_date_changed": "Muutis kasutaja {postuser} postituse {post} muutmise kuupäeva. Vana {old_date}. Uus {new_date}",
+                    "flagged": "Märkis kasutaja {postuser} postituse {post} vestluses {discussion} sobimatuks. Põhjus {reason}",
+                    "hidden": "Peitis kasutaja {postuser} postituse {post} vestluses {discussion}",
+                    "restored": "Taastas kasutaja {postuser} postituse {post} vestluses {discussion}",
+                    "revised": "Vaatas üle kasutaja {postuser} postituse {post} vestluses {discussion}",
+                    "user_changed": "Muutis postituse {post} autorit. Vana {old_user}. Uus {new_user}"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "Muutis seadeid {key}",
+                "setting_changed_with_values": "Muutis seadet {key}. Vana väärtus {old_value}. Uus väärtus {new_value}",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "Lisas sildi {tag}",
+                    "deleted": "Kustutas sildi {tag}",
+                    "updated": "Uuendas silti {tag}"
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "nickname_changed": "",
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "provider_connected": "",
-                    "suspended": "",
-                    "unsuspended": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "activated": "Aktiveeris kasutaja {username} konto käsitsi",
+                    "activated_with_email": "Aktiveeris kasutaja {username} konti lingiga",
+                    "avatar_changed": "Muutis {username} avatari",
+                    "avatar_removed": "Eemaldas {username} avatari",
+                    "bio_changed": "Muudis kasutaja {username} lühikirjeldust",
+                    "created": "Lõi kasutaja {username} konto",
+                    "deleted": "Kustutas kasutaja {username}",
+                    "email_changed": "Muutis kasutaja {username} e-posti aadressi. Vana {old_email}. Uus {new_email}",
+                    "email_change_requested": "Soovis saada kasutaja {username} uueks e-posti aadressiks {new_email}",
+                    "groups_changed": "Muutis kasutaja {username} gruppe. Vanad: {old_groups}. Uued: {new_groups}",
+                    "impersonated": "Kehastas kasutajat {username}",
+                    "logged_in": "Logis sisse kasutaja {username} kontoga",
+                    "logged_in_with_provider": "Logis sisse kasutaja {username} kontole teenusega {provider}",
+                    "logged_out": "Logis välja kasutaja {username} kontolt",
+                    "nickname_changed": "Muutis kasutaja {username} hüüdnime. Vana: {old_nickname}. Uus: {new_nickname}",
+                    "nickname_requested": "Nõudis uut hüüdnime {new_nickname} kasutajale {username}",
+                    "nickname_request_approved": "Kiitis heaks kasutaja {username} hüüdnime vahetamise. Vana: {old_nickname}. Uus: {new_nickname}",
+                    "nickname_request_rejected": "Lükkas tagasi kasutaja {username} hüüdnime muutmise soovi",
+                    "password_changed": "Muutis kasutaja {username} parooli",
+                    "password_change_requested": "Nõudis kasutaja {username} parooli muutmist",
+                    "provider_connected": "Ühendas teenuse {provider} kasutaja {username} kontoga",
+                    "suspended": "Külmutas kasutaja {username} kuni {until}",
+                    "unsuspended": "Kasutaja {username} külmutamine eemaldati",
+                    "username_changed": "Muutis kasutaja {username} kasutajanime. Vana: {old_username}. Uus:{new_username}",
+                    "username_requested": "Nõudis uut kasutajanime {new_username} kasutajale {username}",
+                    "username_request_approved": "Kiitis heaks kasutaja {username} kasutajanime muutmise. Vana kasutajanimi oli {old_username}, uus on {new_username}",
+                    "username_request_rejected": "Lükkas tagasi kasutaja {username} kasutajanime muutmise"
                 }
             }
         }

@@ -2,167 +2,188 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Uusi autentikointi tapa",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Isäntä",
+                    "host_placeholder": "esimerkki: extiverse.com",
+                    "submit_button": "Lähetä",
+                    "token_label": "Tunniste (token)",
+                    "type_label": "Tyyppi",
+                    "unchanged_token_placeholder": "(muuttumaton)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Haluatko varmasti poistaa tämän autentikointi tavan?",
+                "delete_label": "Poista autentikointi tapa",
+                "edit_label": "Muokkaa autentikointi tapaa",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Isäntä",
+                    "token": "Tunniste (token)"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Ei autentikointi tapoja määritettynä. Tämä on valinnainen edistynyt ominaisuus, jolla voidaan asentaa lisäosia yksityisistä varastoista.",
+                "remove_button_label": "Poista autentikointi tapa",
+                "title": "Autentikointi tavat",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Lisää varasto",
+                "delete_repository_confirmation": "Haluatko varmasti poistaa tämän varaston? Kaikki asennetut lisäosat tästä varastosta poistetaan.",
+                "delete_repository_label": "Poista varasto",
+                "edit_repository_label": "Muokkaa varastoa",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Vähimmäis vakaus",
+                    "help": "Asennettavaksi sallittujen pakettien tyyppi. Älä muuta tätä, ellei tiedät, mitä teet.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Vakaa (suositeltu)",
+                        "rc": "Julkaisuehdokas",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Varastot",
+                    "help": "Lisää lisävarastoja pakettien asentamista varten. Tämä on edistynyt ominaisuus, älä lisää epäluotettavia varastoja, sillä niitä voidaan käyttää haitallisen koodin suorittamiseen palvelimellasi.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "polku"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Nimi",
+                        "type_label": "Tyyppi",
+                        "url": "URL",
+                        "submit_button": "Lähetä"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Suoritus epäonnistui. Tarkista Composer-lokit tiedostosta storage/logs/composer.",
+                "extension_already_installed": "Lisäosa on jo asennettuna.",
+                "extension_not_directly_dependency": "Laajennus on asennettu toisen laajennuksen riippuvuudeksi, eikä sitä voida poistaa suoraan.",
+                "extension_not_installed": "Lisäosaa ei löytynyt.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "Laajennus on todennäköisesti yhteensopimaton nykyisen Flarum-instanssisi kanssa.",
+                    "extension_not_found": "Lisäosaa ei löytynyt tai sitä ei ole olemassa.",
+                    "extensions_incompatible_with_new_major": "Jotkut asennetut laajennukset eivät ole yhteensopivia uusimman pääversion kanssa. Odota, kunnes laajennukset päivitetään yhteensopiviksi tekijöiden toimesta, tai poista ne ennen jatkamista.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
-                "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "check_why_it_failed_updating": "Näytä miksi sitä ei päivitetty viimeisimpään.",
+                "install": "Asenna uusi lisäosa",
+                "install_help": "Syötä lisäosan paketin nimi jatkaaksesi. Voit määrittää <semantic_link>semanttisen version</semantic_link> käyttäen muotoa <code>vendor/package-name:version</code>. Vieraile {extiverse} selataksesi lisäosia.\n",
+                "proceed": "Jatka",
+                "remove": "Poista lisäosa",
+                "successful_install": "{extension} asennettiin onnistuneesti, ohjataan..",
+                "successful_remove": "Lisäosa poistettiin onnistuneesti.",
+                "successful_update": "{extension} päivitettiin onnistuneesti, ohjataan..",
+                "update": "Päivitä",
+                "update_soft_label": "Kevyt päivitys",
+                "update_hard_label": "Pakotettu päivitys"
             },
-            "file_permissions": "",
+            "file_permissions": "Lisäosien hallinta tarvitsee luku- ja kirjoitusoikeudet seuraaviin tiedostoihin ja hakemistoihin: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "Suuret Flarum-päivitykset eivät ole taaksepäin yhteensopivia, mikä tarkoittaa, että osa nykyisistä asennetuista lisäosistasi ja käsin tehdyistä muutoksistasi ei välttämättä toimi tämän uuden version kanssa. Varmista, että teet varmuuskopion tietokannastasi ja tiedostoistasi ennen jatkamista.\n",
+                "dry_run": "Testiajo",
+                "dry_run_help": "Testiajo emuloi päivitystä, jotta näet voiko päivityksen suorittaa turvallisesti, tämä ei tarkoita, että sinun manuaalisesti tekemät räätälöidyt muokkaukset toimii uusimman version kanssa.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "Viimeisin suuri päivitys epäonnistui, osa asennetuista lisäosista ei ole yhteensopivia uuden pääversion kanssa.",
+                    "why": "Lue lisää"
                 },
-                "title": "",
-                "update": ""
+                "title": "Flarum {version} päivitys saatavilla",
+                "update": "Päivitä"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Tämä päivittää myös muut lisäosat/paketit joihin on saatavilla päivityksiä."
             },
             "sections": {
                 "control": {
-                    "title": ""
+                    "title": "Hallinta"
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Tiedot",
+                        "elapsed_time": "Suoritettu",
+                        "peak_memory_used": "Korkein muistinkäyttö",
+                        "operation": "Toiminto",
+                        "package": "Paketti",
+                        "status": "Tila"
                     },
-                    "none": "",
+                    "none": "Tehtäviä ei ole vielä.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Asenna lisäosa",
+                        "extension_remove": "Poista lisäosa",
+                        "extension_update": "Päivitä lisäosa",
+                        "update_check": "Tarkista päivitykset",
+                        "update_global": "Päivitä kaikki sovelluksen paketit",
+                        "update_major": "Suuri päivitys",
+                        "update_minor": "Pieni päivitys",
+                        "why_not": "Analysoi miksi pakettia ei voi päivittää"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Tuntematon",
+                        "command": "Composer komento",
+                        "guessed_cause": "Syy",
+                        "output": "Tulos"
                     },
-                    "refresh": "",
+                    "refresh": "Päivitä tehtävälista",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Onnistui",
+                        "failure": "Epäonnistui",
+                        "pending": "Odottaa",
+                        "running": "Suoritetaan"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Tehtävä alkoi juuri",
+                    "title": "Jono"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
-                "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "title": "=> core.ref.settings",
+                "access_warning": "Ole varovainen, kenelle myönnät pääsyn ylläpitoalueelle. Lisäosahallintaa voivat väärinkäyttää huonot tahot asentaakseen paketteja, jotka voivat johtaa turvallisuusongelmiin.",
+                "debug_mode_warning": "Ajaessasi debug-tilassa, lisäosahallinta ei voi oikein asentaa tai päivittää paikallisia kehityspaketteja. Käytä sen sijaan komentoriviliittymää tällaisten tehtävien suorittamiseen.",
+                "queue_jobs": "Suorita toimintoja taustajonoa käyttäen",
+                "queue_jobs_help": "Voit lukea lisää <a href='{basic_impl_link}'>perus jonon</a> toteutuksesta tai <a href='{adv_impl_link}'>kehittyneemmän jonon</a> toteutuksesta. Pidä huolta, että jonon PHP versio on {php_version}. Pidä myös huolta että <a href='{folder_perms_link}'>kansion oikeudet</a> on määritetty oikein.\n",
+                "task_retention_days": "Tehtävien säilytyspäivät",
+                "task_retention_days_help": "Päivien määrä, jonka aikana suoritettuja tehtäviä säilytetään tietokannassa. Tätä vanhemmat tehtävät poistetaan. Aseta arvoksi 0 säilyttääksesi kaikki tehtävät.\n"
             },
             "updater": {
-                "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "up_to_date": "Kaikki on ajantasalla!",
+                "check_for_updates": "Tarkista päivitykset",
+                "flarum": "Flarum ydin",
+                "global_update_successful": "Kaikki paketit päivitettiin onnistuneesti.",
+                "last_update_checked_at": "Viimeisin päivitystarkistus: ",
+                "run_global_update": "Suorita yleinen päivitys",
+                "updater_title": "Päivitykset",
+                "updater_help": "Suorittaa tarkistuksen uusista päivityksistä Flarumille ja lisäosille."
             },
-            "update_successful": "",
+            "update_successful": "Flarum onnistuneesti päivitetty.",
             "why_not_modal": {
-                "title": ""
+                "title": "Miksi se ei päivittynyt"
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "Vähimmäistabiliteetti",
+                "repositories": "varastot",
+                "repositories.*": "varastot",
+                "repositories.*.type": "varasto tyyppi",
+                "repositories.*.url": "varaston URL",
+                "extension_id": "lisäosan ID",
+                "update_mode": "päivitystila",
+                "package": "paketti",
+                "version": "versio",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab Token",
+                "gitlab_token.*": "GitLab Token",
+                "bearer": "HTTP Bearer",
+                "bearer.*": "HTTP Bearer"
             }
         }
     }

@@ -2,7 +2,7 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": "Poner la chincheta a discusiones"
+                "sticky_discussions_label": "Discusiones ancladas"
             }
         },
         "forum": {
@@ -14,8 +14,8 @@
                 "unsticky_button": "Quitar la chincheta"
             },
             "post_stream": {
-                "discussion_stickied_text": "{username} puso la chincheta a la discusión.",
-                "discussion_unstickied_text": "{username} quitó la chincheta a la discusión."
+                "discussion_stickied_text": "{username} puso la chincheta a la discusión {time}.",
+                "discussion_unstickied_text": "{username} quitó la chincheta a la discusión {time}."
             }
         },
         "ref": {

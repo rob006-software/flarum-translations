@@ -2,6 +2,18 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "常规设置",
+                    "help": "这些设置控制投票扩展的基本功能。"
+                },
+                "global_polls": {
+                    "heading": "全站投票",
+                    "help": "这些设置控制全局投票功能。"
+                },
+                "image": {
+                    "heading": "图片设置",
+                    "help": "这些设置控制投票的图片。"
+                },
                 "allow_option_image": "允许设置选项图片链接",
                 "allow_image_uploads": "允许上传头图和选项图片",
                 "allow_image_uploads_help": "启用此项以允许上传图片用于头图和选项。",
@@ -11,7 +23,9 @@
                 "options_color_blend": "混合文本色",
                 "options_color_blend_help": "启用此项，改善选项文本样式的可读性。如果此功能影响论坛样式，请禁用。",
                 "image_height": "调整图片高度",
-                "image_width": "调整图片宽度"
+                "image_width": "调整图片宽度",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "无需参与投票即可查看结果",
@@ -22,7 +36,10 @@
                 "upload_images": "允许上传投票头图和选项图",
                 "vote": "参与投票",
                 "change_vote": "修改投票",
-                "moderate": "编辑或删除投票"
+                "moderate": "编辑或删除投票",
+                "view_group": "",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
@@ -38,7 +55,8 @@
                 "cannot_change_vote": "投票后不能更改。",
                 "submit_button": "投票",
                 "start_poll_button": "发起全站投票",
-                "cannot_start_poll_button": "无法发起投票"
+                "cannot_start_poll_button": "无法发起投票",
+                "total_votes": ""
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
@@ -89,6 +107,7 @@
                 "max_votes_label": "每个用户最多可投票数",
                 "max_votes_help": "设置为 0，允许用户为每个选项投票。",
                 "hide_votes_label": "隐藏投票直到投票结束",
+                "hide_votes_label_help": "发起投票者将始终能够看到投票结果。",
                 "allow_change_vote_label": "允许用户更改其投票",
                 "question_placeholder": "问题",
                 "subtitle_placeholder": "副标题/描述（可选）",
@@ -120,7 +139,8 @@
             },
             "page": {
                 "nav": "投票",
-                "nav-all": "全站投票"
+                "nav-all": "全站投票",
+                "nav-groups": ""
             },
             "showcase": {
                 "active-polls": "进行中",
@@ -138,6 +158,35 @@
             "upload_image": {
                 "remove_button": "删除图片",
                 "upload_button": "上传图片"
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

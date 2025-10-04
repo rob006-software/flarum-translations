@@ -1,6 +1,6 @@
 {
     "validation": {
-        "accepted": "يجب قبول الـ :atribute.",
+        "accepted": "يجب قبول :attribute",
         "active_url": "",
         "after": "",
         "after_or_equal": "",
@@ -17,7 +17,7 @@
             "array": ""
         },
         "boolean": "",
-        "confirmed": "",
+        "confirmed": "لا يتطابق تأكيد :attribute.",
         "date": "",
         "date_equals": "",
         "date_format": "",
@@ -26,7 +26,7 @@
         "digits_between": "",
         "dimensions": "",
         "distinct": "",
-        "email": "",
+        "email": "يجب أن يكون :attribute عنوان بريد إلكتروني صالحًا.",
         "ends_with": "",
         "exists": "",
         "file": "",
@@ -71,8 +71,8 @@
             "string": "",
             "array": ""
         },
-        "mimes": "",
-        "mimetypes": "",
+        "mimes": "يجب أن يكون :attribute ملفًا من نوع: :values.",
+        "mimetypes": "يجب أن يكون :attribute ملفًا من نوع: :values.",
         "min": {
             "numeric": "",
             "file": "",
@@ -83,10 +83,10 @@
         "not_in": "",
         "not_regex": "",
         "numeric": "",
-        "password": "",
+        "password": "كلمة المرور غير صحيحة.",
         "present": "",
         "regex": "",
-        "required": "",
+        "required": "حقل :attribute مطلوب.",
         "required_if": "",
         "required_unless": "",
         "required_with": "",
@@ -112,8 +112,8 @@
         "uuid": "",
         "attributes": {
             "username": "",
-            "password": "",
-            "email": "",
+            "password": "كلمة المرور",
+            "email": "البريد الإلكتروني",
             "title": "",
             "content": "",
             "name_singular": "",

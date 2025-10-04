@@ -2,34 +2,34 @@
     "fof-recaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": "",
-                "type_help": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "help_text": "Hangi oma Google reCAPTCHA kasutajaandmed <a>siit</a>.",
+                "secret_key_label": "Salavõti",
+                "site_key_label": "Saidi võti",
+                "type_label": "reCAPTCHA liik",
+                "type_help": "See lisaprogramm toetab ainult reCAPTCHA v2-te. Valitud liik peab olema sama, mis on reCAPTCHA kasutajakontol.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "Testi reCAPTCHA-t",
+                "help_text": "See test kasutab üleval näidatud väärtuseid. Veendu, et sa laadiksid testi pärast seadete muutmist ja ära unusta pärast testi läbimist seadeid salvestada!\nAll näidatav ei pruugi kajastada salvestatud seadeid.\n",
+                "success_message": "Korras! reCAPTCHA on korrektselt seadistatud.",
+                "load_test_button": "Laadi",
+                "submit_button": "Saada",
+                "reload_button": "Laadi uuesti"
             },
             "permissions": {
-                "post_without_captcha": ""
+                "post_without_captcha": "Postituste ja vestluste loomine ilma capthata"
             }
         },
         "forum": {
-            "error": "",
-            "unknown_error": ""
+            "error": "reCAPTCHA edastamisel tekkis tõrge. Proovi uuesti.",
+            "unknown_error": "Tekkis tundmatu tõrge. Kontrolli Captchat ja proovi siis uuesti."
         }
     },
     "validation": {
-        "recaptcha": "",
-        "recaptcha-unknown": ""
+        "recaptcha": "reCAPTCHA kontroll ebaõnnestus.",
+        "recaptcha-unknown": "reCAPTCHA kinnitamisel tekkis tundmatu tõrge ({errors})."
     }
 }

@@ -5,6 +5,12 @@
                 "emoji_tooltip": "Emoji einfügen",
                 "type_to_search_text": "Tippen, um nach Emojis zu suchen"
             }
+        },
+        "admin": {
+            "settings": {
+                "cdn_label": "CDN-Mirror-Adresse",
+                "cdn_help": "z.B. https://cdn.jsdelivr.net/gh/twitter/twemoji@[version]/assets/, Die aktuelle Version ist: {version}"
+            }
         }
     }
 }

@@ -2,25 +2,25 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Se biografi",
+                "editOwn": "Ändra egen biografi",
+                "editAny": "Ändra biografi, vilken som helst"
             },
             "setting": {
-                "bioLimit": "",
-                "maxLines": "",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "bioLimit": "Begränsa antal tecken i biografin",
+                "maxLines": "Högst antal rader som ska visas åt gången",
+                "allowFormatting": "Tillåt formatering i biografin",
+                "allowFormatting_help": "Denna formatering är avsiktligt separat från formatering av inlägg. Om BBCode- och/eller Markdown-tilläggen är aktiverade kommer de att vara tillgängliga för att formatera biografin. Inga bilder eller inbäddningar är tillåtna. Tillägg som läggs till i Flarum-formateraren måste *uttryckligen* lägga till stöd för biografiformateraren."
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": "",
+            "userbioPlaceholder": "Skriv nånting om dig själv",
+            "userbioPlaceholderOtherUser": "Skriv en biografi för {username}",
             "profile": {
-                "cancel_confirm": "",
-                "cancel_button": "",
-                "save_button": "",
-                "edit_bio_label": ""
+                "cancel_confirm": "Är du säker på att du vill avbryta ändringen i din biografi? Du kommer att förlora alla ändringar som du har gjort.",
+                "cancel_button": "Avbryt",
+                "save_button": "Spara",
+                "edit_bio_label": "Ändra biografi"
             }
         }
     }

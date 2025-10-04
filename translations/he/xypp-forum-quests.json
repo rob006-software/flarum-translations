@@ -7,17 +7,6 @@
                 "quest_done": "",
                 "quest_done_label": ""
             },
-            "condition": {
-                "condition": "",
-                "format": "",
-                "and": "",
-                "span": ""
-            },
-            "reward": {
-                "reward": "",
-                "format": "",
-                "and": ""
-            },
             "quest": {
                 "quest": "",
                 "load_more": "",
@@ -65,15 +54,6 @@
                 "hidden": "",
                 "condition": "",
                 "reward": "",
-                "condition-name": "",
-                "condition-operator": "",
-                "condition-value": "",
-                "condition-span": "",
-                "condition-alter_name": "",
-                "reward-name": "",
-                "reward-value": "",
-                "reward-get_value": "",
-                "reward-alter_name": "",
                 "button": "",
                 "button-edit": "",
                 "new_item": "",
@@ -86,7 +66,6 @@
             }
         },
         "api": {
-            "condition_not_allow_frontend": "",
             "no_manual_update": "",
             "manual_condition_cannot_hidden": ""
         }

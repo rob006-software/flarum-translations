@@ -4,9 +4,9 @@
             "settings": {
                 "providers": {
                     "reddit": {
-                        "description": "用Reddit注册你的论坛{link}",
-                        "client_id_label": "客户端 ID",
-                        "client_secret_label": "客户秘密"
+                        "description": "前往 Reddit 注册你的论坛：{link}",
+                        "client_id_label": "Client ID",
+                        "client_secret_label": "Client secret"
                     }
                 }
             }
@@ -16,12 +16,12 @@
                 "with_reddit_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "reddit": ""
+                "reddit": "=> fof-oauth.lib.providers.reddit"
             }
         },
         "lib": {
             "providers": {
-                "reddit": ""
+                "reddit": "Reddit"
             }
         }
     }

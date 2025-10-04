@@ -1,121 +1,121 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
-            "show_badges_on_user_card": "",
-            "number_of_badges_on_user_card": "",
-            "number_of_badges_on_user_card_help": "",
+            "uncategorized": "Liigitamata",
+            "new_badge": "Uus aumärk",
+            "create_category": "Loo kategooria",
+            "update_badge": "Uuenda aumärki",
+            "update_category": "Uuenda kategooriat",
+            "edit_category": "Muuda kategooriat",
+            "nothing_here_yet": "Sa pole veel ühtegi aumärki või kategooriat loonud.",
+            "show_badges_on_user_card": "Näita kasutaja kaardil aumärki",
+            "number_of_badges_on_user_card": "Aumärkide arv",
+            "number_of_badges_on_user_card_help": "Kasutajakaardil näidatavate aumärkide arv",
             "permissions": {
-                "badge_detail_users": "",
-                "give_badge": "",
-                "take_badge": "",
-                "edit_own_card_badges": "",
-                "edit_card_badges": ""
+                "badge_detail_users": "Aumärgi lehel kasutajate nägemine",
+                "give_badge": "Kasutajale aumärgi andmine",
+                "take_badge": "Kasutajalt aumärgi võtmine",
+                "edit_own_card_badges": "Omaenda aumärkide muutmine kasutajakaardil",
+                "edit_card_badges": "Aumärkide muutmine kasutajakaardil"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Kinnita",
+                "no": "Ei",
+                "yes": "Jah"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Oled sa kindel, et soovid selle aumärgi kustutada? See kustutatakse kõigilt kasutajatelt ja see on pöördumatu.",
+                "delete_category": "Oled sa kindel, et soovid selle kategooria kustutada? Kui selles kategoorias on aumärke, siis need märgitakse kui 'liigitamata'."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": "",
-                "is_image": "",
-                "is_image_description": "",
-                "image": "",
-                "image_placeholder": "",
-                "icon_color": "",
-                "background_color": "",
-                "label_color": ""
+                "name": "Aumärgi nimi",
+                "icon": "Aumärgi ikoon",
+                "description": "Aumärgi kirjeldus",
+                "visible": "Nähtav",
+                "visible_description": "Lülita see aumärk sisse. Kui see on välja lülitatud, siis see pole nähtav.",
+                "is_image": "Aumärk on pilt",
+                "is_image_description": "Kasuta vaikimisi aumärgi asemel pilti",
+                "image": "Aumärgi pildi URL",
+                "image_placeholder": "Sisesta aumärgi pildi URL",
+                "icon_color": "Ikooni värv",
+                "background_color": "Taustavärv",
+                "label_color": "Teksti värv"
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "blockview": "",
-                "blockview_description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Kategooria nimi",
+                "description": "Kategooria kirjeldus",
+                "blockview": "Ploki-vaade",
+                "blockview_description": "Näita kategooria aumärke sildi ülevaates aumärke kategooriates. Kui see on välja lülitatud, siis näidatakse aumärke tabelina.",
+                "enabled": "Sisse lülitatud",
+                "enabled_description": "Lülita see kategooria sisse. Kui see on välja lülitatud, siis kategooria ja selles olevad aumärgid peidetakse."
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "Autasusta kasutajaid aumärgiga automaatselt",
+                    "content": "See lisaprogramm pakub rohkem funktsioone kui sul on paigaldatud ja aktiveeritud lisaprogramm <a>Auto Moderator</a>. Kui paigaldad selle lisaprogrammi, siis saavad kasutajad automaatselt autasuks aumärke ilma kogukonna moderaatori vahelesegamiseta!",
+                    "install": "Paigalda",
+                    "dismiss": "Ära näita uuesti"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "Aumärgi ID",
+                    "give_badge": "Anna aumärk",
+                    "remove_badge": "Eemalda aumärk"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Omab aumärki"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Saadud aumärgid"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Vali aumärk",
+                    "loading_badges": "Aumärkide laadimine"
                 }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
-            "no_received": "",
-            "uncategorized": "",
-            "save_changes": "",
+            "badge_information": "Aumärgi info",
+            "all_badges": "Vaata kõiki aumärke",
+            "all_users": "Vaata kõiki kasutajaid",
+            "give_badge": "Anna aumärk",
+            "update_badge": "Uuenda aumärk",
+            "select_badge": "Vali aumärk",
+            "user_has_badge": "Sellel kasutajal on juba see aumärk.",
+            "user_no_badges": "Sellel kasutajal pole veel ühtegi aumärki.",
+            "no_received": "Ükski kasutaja pole veel seda aumärki teeninud.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "Salvesta muudatused",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "received_on": "",
-                "badge_details": "",
-                "earned_count": "",
-                "earned_by_count": "",
-                "others_link": ""
+                "badge": "Aumärk",
+                "badges": "Aumärgid",
+                "name": "Aumärgi nimi",
+                "description": "Aumärgi kirjeldus",
+                "earning_reason": "Aumärgi väljateenimise põhjus",
+                "update_earning_reason": "Uuenda väljateenimise põhjust",
+                "no_earning_reason": "Väljateenimise põhjust pole sisestatud",
+                "earned_on": "Aumärk teeniti",
+                "category": "Aumärgi kategooria",
+                "received_on": "Saadud {date}",
+                "badge_details": "Aumärgi üksikasjad",
+                "earned_count": "{count, plural, one {<b># kasutaja</b> on selle aumärgi välja teeninud} other {<b># kasutajat</b> on selle aumärgi välja teeninud}}",
+                "earned_by_count": "{count, plural, one {Teenis <b># kasutaja</b>} other {Teenis <b># kasutajat</b>}}",
+                "others_link": "+ veel {count}"
             },
             "badges_in_card": {
-                "title": "",
-                "manage_badges": "",
-                "description": "",
-                "select_limit": "",
-                "hit_limit": ""
+                "title": "Aumärgid kasutaja kaardil",
+                "manage_badges": "Halda aumärke",
+                "description": "Võid oma kasutajakaardil näha olevaid aumärke muuta valides oma aumärkide vahel. Kui sa ei vali midagi, siis valitakse need automaatselt.",
+                "select_limit": "Võid valida {limit, plural, one {<b>ühe aumärgi</b>} other {<b># aumärki</b>}}, mis on nähtavad sin ukasutaja kaardil.",
+                "hit_limit": "Sinu kaardil on ruumi ainult <b> {limit, plural, one {<b>ühele aumärgile</b>} other {<b># aumärgile</b>}}</b>. Tühista mõne eelneva aumärgi valimine, et sellele ruumi teha."
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "Eemalda kasutajalt aumärke",
+                "remove_badge_confirm": "Oled sa kindel, et soovid kasutajalt selle aumärgi eemaldada?",
+                "give_badge": "Anna aumärk"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "Said uue aumärgi",
+                "settings": "Sain aumärgi"
             }
         }
     }

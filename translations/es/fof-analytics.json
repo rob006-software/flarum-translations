@@ -3,35 +3,35 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Habilitar Google Analytics (UA/GA4)",
+                    "optTrackingCode": "Optimizar código de seguimiento (opcional)",
+                    "googleTrackingCode": "ID del Código de seguimiento",
+                    "googleGTMCode": "ID del código GTM (opcional)",
+                    "statusPiwik": "Habilitar Matomo",
+                    "piwikUrl": "Dominio o URL de Matomo",
+                    "piwikSiteId": "ID del sitio",
+                    "piwikTrackSubdomain": "Rastrear visitantes en todos los subdominios de Flarum",
+                    "piwikPrependDomain": "Anteponga el dominio del sitio al título de la página al realizar el seguimiento",
+                    "piwikHideAliasUrl": "En el informe \"Enlaces salientes\", oculta los clics de los nombres de las URLs conocidas",
+                    "piwikAliasUrl": "Nombre de la URL",
+                    "piwikTrackAccounts": "Rastrear cuentas de usuarios individuales",
+                    "piwikAuthToken": "Token de autenticación"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Completa este token para habilitar un widget de estadísticas de Matomo en el panel de administración.\nPuede encontrarlo en Configuración > Personal > Token de autenticación de API.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "No rastrear",
+                    "username": "Rastrear por nombre de usuario",
+                    "email": "Rastrear por email"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }

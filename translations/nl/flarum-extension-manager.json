@@ -164,6 +164,27 @@
             "why_not_modal": {
                 "title": "Waarom wordt het niet bijgewerkt"
             }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "minimale stabiliteit",
+                "repositories": "repositories",
+                "repositories.*": "repositories",
+                "repositories.*.type": "repositorie type",
+                "repositories.*.url": "repositorie URL",
+                "extension_id": "extensie ID",
+                "update_mode": "update modus",
+                "package": "paket",
+                "version": "versie",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab Token",
+                "gitlab_token.*": "GitLab Token",
+                "bearer": "HTTP Bearer",
+                "bearer.*": "HTTP Bearer"
+            }
         }
     }
 }

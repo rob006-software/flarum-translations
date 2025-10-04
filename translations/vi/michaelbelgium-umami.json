@@ -2,30 +2,30 @@
     "michaelbelgium-umami": {
         "admin": {
             "widget": {
-                "live": "",
-                "views": "",
-                "visits": "",
-                "visitors": ""
+                "live": "Trực tiếp",
+                "views": "Lượt xem trang",
+                "visits": "Lượt truy cập",
+                "visitors": "Khách truy cập"
             },
             "settings": {
                 "errors": {
-                    "no_connection": ""
+                    "no_connection": "Không thể lấy thống kê, vui lòng kiểm tra thông tin xác thực API của bạn."
                 },
                 "site_id": {
-                    "label": "",
-                    "help": ""
+                    "label": "ID Trang web",
+                    "help": "ID trang web của phiên bản Flarum này trên Umami. Bạn có thể tìm thấy điều này trong chi tiết cài đặt trang web trên Umami."
                 },
                 "domain": {
-                    "label": "",
-                    "help": ""
+                    "label": "Tên miền",
+                    "help": "Tên miền nơi Umami được đặt."
                 },
                 "username": {
-                    "label": "",
-                    "help": ""
+                    "label": "Tên người dùng tài khoản",
+                    "help": "Tùy chọn. Tên người dùng của tài khoản umami trên tên miền ở trên. (được sử dụng cho widget bảng điều khiển quản trị)"
                 },
                 "password": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mật khẩu tài khoản",
+                    "help": "Tùy chọn. Mật khẩu của tên người dùng ở trên. (được sử dụng cho widget bảng điều khiển quản trị)"
                 }
             }
         }

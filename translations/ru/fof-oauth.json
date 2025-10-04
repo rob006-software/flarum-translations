@@ -15,6 +15,8 @@
                 "only_icons_label": "Отображать только иконки на кнопках входа (альтернативный макет)",
                 "update_email_from_provider_label": "Обновлять адрес email от провайдера",
                 "update_email_from_provider_help": "Адрес email пользователя будет обновляться в соответствии с адресом, предоставленным провайдером OAuth при каждом входе на форум. Не все провайдеры предоставляют обновлённый адрес email и, в этом случае, этот параметр не будет иметь никакого влияния на подобных провайдеров.",
+                "disable_avatars_label": "",
+                "disable_avatars_help": "",
                 "fullscreen_popup_label": "Полноэкранное окно для OAuth",
                 "fullscreen_popup_help": "Вход OAuth откроется в полноэкранном режиме. При включении этого параметра, настройки ширины и высоты будут игнорироваться.",
                 "popup_width_label": "Ширина окна OAuth",
@@ -23,6 +25,9 @@
                 "popup_height_help": "Укажите высоту всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено \"Полноэкранное окно для OAuth\".",
                 "providers": {
                     "callback_url_text": "При необходимости, укажите callback URL в {url}.",
+                    "group_label": "",
+                    "group_help": "",
+                    "no_group_label": "",
                     "discord": {
                         "description": "Создайте приложение по ссылке {link}. Добавьте URL перенаправления на вкладке OAuth2.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -80,6 +85,7 @@
                         "label": "Связанные аккаунты",
                         "last-used-label": "Последний раз использовался",
                         "link-created-label": "Соединение установлено",
+                        "identification-label": "{provider} ID",
                         "orphaned-account": "Ранее Вы входили через этого провайдера, но форум отключил вход с помощью этого метода.",
                         "help": "Связанные аккаунты позволяют Вам входить на форум при помощи других провайдеров.",
                         "identifier-label": "{provider} ID",

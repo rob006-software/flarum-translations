@@ -1,5 +1,5 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
@@ -96,6 +96,12 @@
                     "title": "Obrázky s vodoznakem",
                     "toggle": "Obrázky s vodoznakem"
                 },
+                "svg-sanitizer": {
+                    "title": "",
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
+                },
                 "composer_buttons": {
                     "title": "Tlačítka skladatele",
                     "options": {
@@ -132,6 +138,7 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/Kompatibilní",
+                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Místní",
                 "ovh-svfs": "OVH SVFS",

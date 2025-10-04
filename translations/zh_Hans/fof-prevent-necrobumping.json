@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "此贴已闲置 <b>{time}</b> 之久。",
                     "description": "很可能已经没有回复的必要了。",
+                    "cta": "",
+                    "cta_button": "",
                     "checkbox_label": "我已知晓此主题过时，但仍有回复的必要。",
                     "error": "这个主题太久远了，请勿挖坟。"
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
                 "days_label": "默认天数",
                 "days_help": "如果一个主题超过 n 天没有新回复，则将这个主题标记为旧贴。<code>0</code> 表示禁用。",
                 "message_title_label": "自定义警告标题",

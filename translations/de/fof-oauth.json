@@ -15,6 +15,8 @@
                 "only_icons_label": "Zeige nur die Symbole ohne Text auf den Einloggen-Buttons (alternatives Layout)",
                 "update_email_from_provider_label": "E-Mail Adresse vom Anbieter aktualisieren",
                 "update_email_from_provider_help": "Wenn diese Option aktiviert ist, wird die E-Mail-Adresse des Nutzers bei jeder Anmeldung im Forum aktualisiert, damit sie mit der vom OAuth-Anbieter angegebenen Adresse übereinstimmt. Nicht alle Anbieter stellen die aktualisierte E-Mail-Adresse zur Verfügung. In diesem Fall hat diese Einstellung bei diesen Anbietern keine Auswirkungen.",
+                "disable_avatars_label": "",
+                "disable_avatars_help": "",
                 "fullscreen_popup_label": "",
                 "fullscreen_popup_help": "",
                 "popup_width_label": "",
@@ -23,6 +25,9 @@
                 "popup_height_help": "",
                 "providers": {
                     "callback_url_text": "Wenn nötig, setze die Rückruf-URL (callback) zu {url}.",
+                    "group_label": "",
+                    "group_help": "",
+                    "no_group_label": "",
                     "discord": {
                         "description": "Erstelle eine Applikation unter {link}. Füge die Umleitungs-URL (redirect) im OAuth2 Menüpunkt hinzu.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -80,6 +85,7 @@
                         "label": "Verknüpfte Konten",
                         "last-used-label": "Zuletzt verwendet",
                         "link-created-label": "Link erstellt",
+                        "identification-label": "",
                         "orphaned-account": "Du hast dich zuvor über diesen Anbieter angemeldet, jedoch hat das Forum die Anmeldung mit dieser Methode seitdem deaktiviert.",
                         "help": "Diese verknüpften Konten ermöglichen es dir, dich mit anderen Anbietern im Forum anzumelden.",
                         "identifier-label": "{provider} ID",

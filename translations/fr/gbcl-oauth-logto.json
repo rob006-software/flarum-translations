@@ -1,0 +1,29 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "logto": {
+                        "description": "Enregistrez votre forum avec Logto {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "logto_domain_label": "URL de votre application Logto (en excluant le protocole HTTP)"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_logto_button": "Se connecter avec Logto"
+            },
+            "providers": {
+                "logto": "=> fof-oauth.lib.providers.logto"
+            }
+        },
+        "lib": {
+            "providers": {
+                "logto": "Logto"
+            }
+        }
+    }
+}

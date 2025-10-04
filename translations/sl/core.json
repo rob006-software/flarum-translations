@@ -248,8 +248,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "Uredi {username}"
+                            "tooltip": "Uredi {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -262,6 +262,9 @@
                         },
                         "join_time": {
                             "title": "Pridružen"
+                        },
+                        "user_actions": {
+                            "title": "Dejanja"
                         },
                         "user_id": {
                             "title": "ID"
@@ -400,7 +403,7 @@
                 "username_or_email_placeholder": "Uporabniško ime ali e-pošta"
             },
             "notifications": {
-                "delete_all_confirm": "Ali ste prepričani, da želite izbrisati vse obvestila? Ta akcija je nepovratna.",
+                "delete_all_confirm": "Ali ste prepričani, da želite izbrisati vsa obvestila? Tega dejanja ni mogoče razveljaviti.",
                 "delete_all_tooltip": "Izbriši vsa obvestila",
                 "discussion_renamed_text": "{username} je spremenil naslov",
                 "empty_text": "Ni obvestil",
@@ -593,6 +596,11 @@
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "DD.MM",
+                "humanTimeLong": "ll",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": ", ",

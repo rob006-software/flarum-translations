@@ -1,6 +1,14 @@
 {
     "ianm-translate": {
         "admin": {
+            "glossary": {
+                "button": "Glosarium",
+                "create_button": "Buat istilah baru",
+                "section": {
+                    "heading": "Konfigurasi Glosarium",
+                    "help": "Kata-kata atau istilah glosarium didefinisikan sehingga layanan penerjemahan tidak akan menerjemahkannya. Hal ini berguna untuk kata benda yang tepat, istilah teknis, atau kata lain yang tidak boleh diterjemahkan."
+                }
+            },
             "permission": {
                 "refresh-translation": "Memaksa penerjemahan ulang dari terjemahan yang di-cache",
                 "translate-to-locale": "Menampilkan terjemahan dalam bahasa saat ini",
@@ -8,8 +16,25 @@
                 "edit-translation": "Edit terjemahan secara manual"
             },
             "settings": {
+                "general": {
+                    "heading": "Pengaturan Umum",
+                    "help": "Pengaturan ini mengontrol perilaku umum sistem penerjemahan."
+                },
+                "seo": {
+                    "heading": "Pengaturan SEO",
+                    "help": "Pengaturan ini mengontrol perilaku sistem penerjemahan yang berhubungan dengan pengoptimalan mesin pencari.",
+                    "default-lang": "Mencocokkan bahasa default forum",
+                    "default-lang-help": "Ketika diaktifkan, bahasa default forum akan ditambahkan ke dalam path untuk tag hreflang <code>x-default</code>."
+                },
+                "providers": {
+                    "heading": "Pengaturan Penyedia Layanan Penerjemahan",
+                    "help": "Pilih penyedia terjemahan yang Anda sukai dan konfigurasikan pengaturannya di sini."
+                },
+                "button": "Pengaturan",
                 "seemless": "Terjemahan Yang Mulus",
                 "seemless-help": "Fitur beta. Ketika diaktifkan, semua konten pengguna akan diterjemahkan secara otomatis ke semua bahasa forum yang tersedia. Ketika pengguna melihat konten multi-bahasa, terjemahan akan ditampilkan secara otomatis.",
+                "multi-lang-search": "Pencarian multi-bahasa",
+                "multi-lang-search-help": "Ketika diaktifkan, pencarian akan menyertakan semua terjemahan konten.",
                 "deepl": {
                     "api_key": {
                         "help": "Daftar di {link}. Driver akan secara otomatis mendeteksi jenis key free/pro.",
@@ -35,7 +60,7 @@
                 },
                 "google-cloud": {
                     "api_key": {
-                        "help": "Daftarkan diri Anda untuk mendapatkan API key di {link}. Driver ini menggunakan API V2 - Basic.",
+                        "help": "Daftarkan diri Anda untuk mendapatkan Kunci API di {link}. Driver ini menggunakan API V2 - Basic.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
@@ -49,7 +74,7 @@
                         "label": "Port Server"
                     },
                     "api_key": {
-                        "help": "(opsional) Jika server LibreTranslate Anda memerlukan API key, masukkan di sini.",
+                        "help": "(opsional) Jika server LibreTranslate Anda membutuhkan kunci API, masukkan di sini.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
@@ -60,16 +85,15 @@
                 "use-native-locale-names": "Gunakan nama lokal asli",
                 "use-native-locale-names-help": "Saat diaktifkan, nama lokal asli akan digunakan sebagai pengganti versi lokal nama saat ini.",
                 "translate-polls": "Menerjemahkan polling",
-                "translate-polls-help": "Jika diaktifkan, judul polling, subjudul, teks alternatif gambar, dan opsi jawaban akan diterjemahkan secara otomatis saat polling dibuat atau diedit.",
+                "translate-polls-help": "Jika diaktifkan, judul polling, subtitel, teks alt gambar, dan opsi jawaban akan diterjemahkan secara otomatis saat polling dibuat atau diedit.",
+                "translate-quiz": "Menerjemahkan kuis",
+                "translate-quiz-help": "Jika diaktifkan, judul kuis, subtitel, penjelasan jawaban yang benar, dan pilihan jawaban akan diterjemahkan secara otomatis saat kuis dibuat atau diedit.",
                 "provider": "Penyedia terjemahan",
                 "readme-info": "Lihat dokumentasi README untuk informasi lebih lanjut.",
                 "readme-none": "Tidak ada pengaturan tambahan yang diperlukan untuk driver ini."
             }
         },
         "forum": {
-            "composer": {
-                "multi-languages": "Petunjuk: Anda dapat mengetikkan pilihan bahasa Anda, forum akan menerjemahkannya untuk Anda."
-            },
             "unknown-language": "[tidak terdeteksi]",
             "detected-language": "Post ini dalam bahasa {postLang}",
             "translate-button-label": "Terjemahan",
@@ -81,15 +105,30 @@
             "manage-translations": {
                 "translations-label": "Terjemahan",
                 "button-label": "Kelola terjemahan",
-                "poll": {
-                    "image-alt": "Teks ALT gambar polling (jika ada)",
-                    "option": "Opsi polling {number}",
-                    "original-title": "Bahasa asli",
-                    "subtitle": "Subjudul polling",
-                    "title": "Mengelola terjemahan Polling",
-                    "question": "Pertanyaan polling"
+                "original-language": "Bahasa asli ({detectedLang})",
+                "discussion": {
+                    "title": "Mengelola terjemahan judul diskusi"
                 },
-                "save-changes": "=> core.ref.save_changes"
+                "post": {
+                    "title": "Mengelola terjemahan Post"
+                },
+                "poll": {
+                    "image-alt": "Teks ALT gambar (jika ada)",
+                    "option": "Opsi {number}",
+                    "subtitle": "Subjudul",
+                    "title": "Mengelola terjemahan Polling",
+                    "question": "Pertanyaan",
+                    "question-language": "Pertanyaan polling ({language})",
+                    "original-title": "Bahasa asli"
+                },
+                "save-changes": "=> core.ref.save_changes",
+                "quiz": {
+                    "title": "Mengelola terjemahan Kuis",
+                    "question": "Pertanyaan",
+                    "subtitle": "Subtitel",
+                    "option": "Jawaban {number}",
+                    "answer-additional": "Penjelasan jawaban yang benar"
+                }
             },
             "discussion": {
                 "post": {
@@ -109,6 +148,9 @@
                         "label": "Selalu tampilkan bahasa"
                     }
                 }
+            },
+            "composer": {
+                "multi-languages": "Petunjuk: Anda dapat mengetikkan pilihan bahasa Anda, forum akan menerjemahkannya untuk Anda."
             }
         },
         "lib": {
@@ -119,7 +161,7 @@
                 "libre": "Libre Translate"
             },
             "settings": {
-                "api-key": "API Key"
+                "api-key": "Kunci API"
             }
         }
     }

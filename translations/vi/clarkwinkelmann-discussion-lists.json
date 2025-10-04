@@ -2,67 +2,67 @@
     "clarkwinkelmann-discussion-lists": {
         "admin": {
             "settings": {
-                "collapseSeries": ""
+                "collapseSeries": "Thu gọn chỉ mục chuỗi theo mặc định"
             },
             "permissions": {
-                "viewPublic": "",
-                "createPrivate": "",
-                "createPublic": "",
-                "createSeriesFromOwn": "",
-                "createSeriesFromAny": "",
-                "moderate": "",
-                "viewPrivate": ""
+                "viewPublic": "Xem danh sách thảo luận công khai",
+                "createPrivate": "Tạo danh sách thảo luận riêng tư",
+                "createPublic": "Tạo danh sách thảo luận công khai",
+                "createSeriesFromOwn": "Tạo chuỗi thảo luận từ nội dung của riêng mình",
+                "createSeriesFromAny": "Tạo chuỗi thảo luận từ nội dung của bất kỳ người dùng nào",
+                "moderate": "Chỉnh sửa và xóa bất kỳ danh sách thảo luận nào",
+                "viewPrivate": "Xem tất cả danh sách thảo luận riêng tư"
             }
         },
         "forum": {
             "edit": {
-                "title": "",
-                "name": "",
-                "visibility": "",
+                "title": "Chỉnh sửa danh sách",
+                "name": "Tên",
+                "visibility": "Chế độ hiển thị",
                 "visibilityOptions": {
-                    "private": "",
-                    "public": "",
-                    "series": ""
+                    "private": "Danh sách riêng tư",
+                    "public": "Danh sách công khai",
+                    "series": "Chuỗi công khai"
                 },
-                "ordering": "",
+                "ordering": "Sắp xếp",
                 "orderingOptions": {
-                    "manual": "",
-                    "createdAsc": "",
-                    "createdDesc": "",
-                    "addedAsc": "",
-                    "addedDesc": ""
+                    "manual": "Thủ công",
+                    "createdAsc": "Ngày tạo thảo luận (cũ nhất đến mới nhất)",
+                    "createdDesc": "Ngày tạo thảo luận (mới nhất đến cũ nhất)",
+                    "addedAsc": "Ngày thêm vào danh sách (cũ nhất đến mới nhất)",
+                    "addedDesc": "Ngày thêm vào danh sách (mới nhất đến cũ nhất)"
                 },
-                "save": "",
-                "delete": "",
-                "deleteConfirmation": ""
+                "save": "Lưu",
+                "delete": "Xóa",
+                "deleteConfirmation": "Bạn có chắc chắn muốn xóa vĩnh viễn danh sách này không?"
             },
             "discussion": {
-                "add": "",
-                "new": ""
+                "add": "Thêm vào danh sách",
+                "new": "Danh sách mới"
             },
             "profile": {
-                "link": ""
+                "link": "Danh sách"
             },
             "badge": {
-                "private": "",
-                "series": ""
+                "private": "Danh sách riêng tư",
+                "series": "Chuỗi công khai"
             },
             "series": {
-                "kind": "",
-                "expand": "",
-                "visit": ""
+                "kind": "Chuỗi",
+                "expand": "Mở rộng",
+                "visit": "Hiển thị tất cả"
             }
         },
         "api": {
-            "manualLimit": "",
-            "seriesAnyAddNotAllowed": "",
-            "seriesAnyConversionNotAllowed": ""
+            "manualLimit": "Danh sách được sắp xếp thủ công không thể chứa nhiều hơn 50 thảo luận",
+            "seriesAnyAddNotAllowed": "Bạn chỉ có thể thêm thảo luận của riêng mình vào danh sách chuỗi",
+            "seriesAnyConversionNotAllowed": "Không thể chuyển danh sách thành chuỗi vì nó chứa các thảo luận không phải của bạn"
         }
     },
     "core": {
         "forum": {
             "index_sort": {
-                "discussionListDefault_button": ""
+                "discussionListDefault_button": "Thứ tự trong danh sách"
             }
         }
     }

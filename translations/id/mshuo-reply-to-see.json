@@ -1,0 +1,28 @@
+{
+    "mshuo-reply-to-see": {
+        "admin": {
+            "settings": {
+                "reply-type-lable": "Opsi tampilan balasan",
+                "reply-type-lable-helpText": "Balas ke topik: Bergabunglah dalam diskusi untuk melihat konten tersembunyi, Balas ke post yang ditentukan: Harus membalas langsung ke post yang berisi konten tersembunyi",
+                "theme-type-parse-lable": "Mode pemrosesan post saat membalas topik",
+                "theme-type-parse-helpText": "Hanya aktif jika “Opsi tampilan balasan” disetel ke “Balas ke Topik”"
+            },
+            "permissions": {
+                "reply-to-see-lable": "Lihat konten tersembunyi tanpa membalas"
+            },
+            "reply-type": [
+                "Balas ke topik untuk menampilkan konten tersembunyi (Default)",
+                "Balas ke post yang ditentukan untuk menampilkan konten tersembunyi"
+            ],
+            "theme-type-parse": [
+                "Hanya post pertama (Default, performa terbaik)",
+                "Semua post"
+            ]
+        },
+        "forum": {
+            "must-reply-specific": "Balas untuk membuka",
+            "must-reply-theme": "Ikuti diskusi untuk melihat",
+            "insert-reply-to-see": "Balas untuk membuka konten tersembunyi"
+        }
+    }
+}

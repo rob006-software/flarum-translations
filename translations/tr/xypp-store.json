@@ -1,118 +1,118 @@
 {
     "xypp-store": {
         "forum": {
-            "time_segs": "",
-            "store": "",
-            "purchase-history": "",
-            "create": "",
-            "purchase": "",
-            "edit_button": "",
-            "show_case": "",
-            "price_free": "",
+            "time_segs": "gün|saat|dakika",
+            "store": "Mağaza",
+            "purchase-history": "Satın Alınanlar",
+            "create": "Öğe Oluştur",
+            "purchase": "Satın Al",
+            "edit_button": "Düzenle",
+            "show_case": "Vitrin",
+            "price_free": "Ücretsiz",
             "provider": {
-                "all": "",
+                "all": "Hepsi",
                 "error": {
-                    "title": "",
-                    "no-preview": ""
+                    "title": "Bilinmeyen sağlayıcı",
+                    "no-preview": "Önizleme yok"
                 }
             },
             "unavailable": {
                 "common": {
-                    "unknown": "",
-                    "no_rest": ""
+                    "unknown": "Satın Alınamaz",
+                    "no_rest": "Stok yok"
                 }
             },
             "create-modal": {
-                "title": "",
-                "name": "",
-                "desc": "",
-                "price": "",
-                "provider": "",
-                "provider_data": "",
-                "use_cnt": "",
-                "expire_time": "",
-                "expire_time_tip": "",
-                "rest_cnt": "",
-                "rest_cnt_tip": "",
-                "edit-title": "",
-                "edit-button": "",
-                "button": "",
-                "success": "",
-                "confirm_delete": "",
-                "delete-button": "",
+                "title": "Öğe Oluştur",
+                "name": "Ad",
+                "desc": "Açıklama",
+                "price": "Fiyat",
+                "provider": "Sağlayıcı",
+                "provider_data": "Sağlayıcı Verisi",
+                "use_cnt": "Kullanım sayısı",
+                "expire_time": "Son Kullanma Süresi",
+                "expire_time_tip": "Devre dışı bırakmak için boş bırakın veya belirtilen sayıda saniye sonra sona ermesi için bir sayı ayarlayın.",
+                "rest_cnt": "Kalan Sayı",
+                "rest_cnt_tip": "Sınırsız olması için boş bırakın veya sayıyı sınırlamak için bir sayı ayarlayın.",
+                "edit-title": "Öğeyi Düzenle#{0}",
+                "edit-button": "Düzenle",
+                "button": "Oluştur",
+                "success": "Öğe oluşturuldu",
+                "confirm_delete": "Bu öğeyi silmek istediğinizden emin misiniz?",
+                "delete-button": "Sil",
                 "providers": {
-                    "unknown": "",
-                    "unknown_data": "",
-                    "no_select_data": "",
-                    "special_data": ""
+                    "unknown": "Sağlayıcı Seçin",
+                    "unknown_data": "Önce sağlayıcı seçmeniz gerekiyor",
+                    "no_select_data": "Sağlayıcı Verisi Seçin",
+                    "special_data": "Veri Seçildi"
                 },
-                "provider_data_error": "",
-                "provider_data_default": ""
+                "provider_data_error": "Lütfen sağlayıcı ve veri seçin",
+                "provider_data_default": "Varsayılan veri"
             },
-            "purchase-confirm": "",
+            "purchase-confirm": "Satın almayı onayla?",
             "item": {
-                "rest_cnt": "",
-                "use_cnt": "",
-                "expire": "",
-                "no_available": "",
-                "infinity_count": "",
-                "not_found": ""
+                "rest_cnt": "Kalan {0}",
+                "use_cnt": "Kullan {0} kez",
+                "expire": "{0} süreyle geçerli",
+                "no_available": "Kullanılabilir öğe yok",
+                "infinity_count": "Sınırsız kullanım",
+                "not_found": "Öğe bulunamadı"
             },
             "history": {
-                "no_record": "",
-                "delete_button": "",
-                "confirm_delete": "",
-                "title": "",
-                "use": "",
-                "rest_cnt": "",
-                "infinity_use": "",
-                "expire": "",
-                "forever": "",
-                "confirm_use": "",
-                "unable_to_use": "",
-                "not_found": ""
+                "no_record": "Satın alınan öğe yok",
+                "delete_button": "Sil",
+                "confirm_delete": "Satın aldığınız bu öğeyi silmek istediğinizden emin misiniz?",
+                "title": "Satın Alınanlar",
+                "use": "Kullan",
+                "rest_cnt": "{0} kez kullanılabilir",
+                "infinity_use": "Sınırsız kullanım",
+                "expire": "{0} tarihinde sona erer",
+                "forever": "Sonsuza kadar geçerli",
+                "confirm_use": "Kullanmayı onayla?",
+                "unable_to_use": "Bu öğe kullanılamaz",
+                "not_found": "Öğe bulunamadı"
             },
             "query-modal": {
                 "purchase": {
-                    "title": ""
+                    "title": "Öğeyi Satın Al"
                 },
                 "use": {
-                    "title": ""
+                    "title": "Öğeyi Kullan"
                 }
             },
             "use_result": {
-                "success": "",
+                "success": "Başarılı",
                 "fail": {
-                    "unknown": "",
-                    "error": "",
-                    "not_enough": "",
-                    "cannot": "",
-                    "fail_expire": "",
-                    "id_not_found": "",
-                    "expired": ""
+                    "unknown": "Bilinmeyen Hata",
+                    "error": "Öğe kullanılırken hata oluştu",
+                    "not_enough": "Yeterli kullanım hakkı yok",
+                    "cannot": "Bu öğe kullanılamaz",
+                    "fail_expire": "Bu öğe sona ererken hata oluştu",
+                    "id_not_found": "Öğe kimliği bulunamadı",
+                    "expired": "Öğenin süresi doldu"
                 }
             },
             "purchase_result": {
-                "success": "",
+                "success": "Başarılı",
                 "fail": {
-                    "unknown": "",
-                    "not_enough_item": "",
-                    "cannot": "",
-                    "not_enough_money": ""
+                    "unknown": "Bilinmeyen Hata",
+                    "not_enough_item": "Yeterli öğe yok",
+                    "cannot": "Bu öğe satın alınamaz",
+                    "not_enough_money": "Yeterli para yok"
                 }
             },
             "edit-result": {
                 "fail": {
-                    "not-found": ""
+                    "not-found": "Öğe bulunamadı"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "add-item": "",
-                "remove-item": "",
-                "view-history": "",
-                "remove-history": ""
+                "add-item": "Mağaza Öğesi Ekle",
+                "remove-item": "Mağaza Öğesi Kaldır",
+                "view-history": "Diğerlerinin satın aldıklarını görüntüle",
+                "remove-history": "Diğerlerinin satın aldıklarını sil"
             }
         }
     }

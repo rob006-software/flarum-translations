@@ -1,0 +1,65 @@
+{
+    "huseyinfiliz-notificationhub": {
+        "admin": {
+            "title": {
+                "page_title": "Bildirim Türleri"
+            },
+            "permissions": {
+                "send_all": "Üye gruplarına bildirim gönderebilir",
+                "send_user": "Üyelere bildirim gönderebilir"
+            },
+            "settings": {
+                "add_button": "Bildirim Türü Ekle",
+                "no_data": "Henüz bildirim türü eklenmemiş.",
+                "delete_confirm": "Bildirim türünü ve ilişkili tüm bildirimleri silmek istediğinizden emin misiniz?",
+                "fields": {
+                    "actions": "Eylemler",
+                    "name": "Bildirim Türünün Adı",
+                    "excerpt_key": "Varsayılan Alıntı",
+                    "description": "Bildirim Türünün Açıklaması",
+                    "icon": "Varsayılan Simge",
+                    "default_message_key": "Varsayılan Mesaj",
+                    "permission": "Bildirim Türünün İzinleri",
+                    "color": "Bildirim Türünün Rengi",
+                    "default_url": "Varsayılan Bağlantı",
+                    "default_recipients": "Varsayılan Alıcılar",
+                    "sort_order": "Sıralaması",
+                    "active": "Aktif"
+                },
+                "save": "Kaydet",
+                "edit_notification_type": "Bildirim Türünü Düzenle",
+                "add_notification_type": "Bildirim Türü Ekle"
+            }
+        },
+        "forum": {
+            "links": {
+                "notification_individual": "Bildirim Gönder",
+                "notification_all": "Bildirim Gönder"
+            },
+            "modal_notification": {
+                "title_text": "Bildirim Gönder",
+                "recipients_label": "Alıcılar",
+                "recipients_placeholder": "Kullanıcı adı veya grup adı yazın...",
+                "message_label": "Mesaj",
+                "url_label": "Hedef Bağlantı",
+                "url_placeholder": "https://www.ornek.com",
+                "submit_button": "Bildirim Gönder",
+                "notification_sent_message": "{recipientsCount} kullanıcıya bildirim gönderildi!",
+                "notification_type_label": "Bildirim Türü",
+                "no_notification_types": "Aktif bildirim türü bulunamadı.",
+                "preview_title": "Bildirim Önizlemesi",
+                "preview_message_placeholder": "Bildirim mesajı.."
+            },
+            "recipient_kinds": {
+                "user": "Kullanıcı",
+                "group": "Grup"
+            }
+        },
+        "api": {
+            "message_required": "Mesaj gereklidir.",
+            "user_ids_required": "Kullanıcı kimlikleri gereklidir.",
+            "subject_id_required": "Bildirim Türü gereklidir.",
+            "no_valid_recipients": "Geçerli alıcı bulunamadı."
+        }
+    }
+}

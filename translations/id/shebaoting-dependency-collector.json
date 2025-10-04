@@ -1,0 +1,90 @@
+{
+    "shebaoting-dependency-collector": {
+        "forum": {
+            "nav_title": "Dependensi",
+            "list": {
+                "submit_button": "Submit Dependensi",
+                "filter_by_tag": "Filter berdasarkan Tag",
+                "all_tags": "Semua",
+                "empty_text": "Tidak ada dependensi yang ditemukan.",
+                "my_favorites_button": "Favorit Saya"
+            },
+            "item": {
+                "pending_approval": "Menunggu Persetujuan",
+                "delete_button_label": "Hapus",
+                "delete_confirmation_title": "Hapus Dependensi",
+                "delete_confirmation_text": "Apakah Anda yakin ingin menghapus dependensi ini? Tindakan ini tidak dapat dibatalkan.",
+                "favorite_button_label": "Favorit",
+                "unfavorite_button_label": "Tidak Favorit"
+            },
+            "modal": {
+                "submit_title": "Kirim Dependensi Baru",
+                "title_label": "Judul",
+                "title_placeholder": "misalnya, Awesome Library",
+                "link_label": "Link",
+                "description_label": "Deskripsi",
+                "description_placeholder": "Ringkasan singkat tentang apa yang dilakukan oleh dependensi ini.",
+                "tags_label": "Tag Plugin",
+                "tags_help": "Pilih setidaknya satu tag yang relevan.",
+                "submit_button": "Submit"
+            }
+        },
+        "admin": {
+            "nav": {
+                "title": "Kolektor Dependensi",
+                "description": "Mengelola dependensi dan tag plugin yang dikirimkan."
+            },
+            "page": {
+                "pending_items_title": "Dependensi yang Menunggu Peninjauan",
+                "no_pending_items": "Tidak ada dependensi yang menunggu untuk ditinjau.",
+                "approved_items_title": "Dependensi yang Disetujui",
+                "no_approved_items": "Belum ada dependensi yang disetujui.",
+                "manage_tags_title": "Mengelola Tag Plugin",
+                "no_plugin_tags": "Belum ada tag plugin yang dibuat."
+            },
+            "table": {
+                "title": "Judul",
+                "submitted_by": "Diajukan Oleh",
+                "submitted_at": "Dikirimkan Pada",
+                "approved_by": "Disetujui Oleh",
+                "approved_at": "Disetujui Pada",
+                "tags": "Tag",
+                "tag_name": "Nama",
+                "tag_slug": "",
+                "tag_color_icon": "Warna & Ikon",
+                "tag_item_count": "Item",
+                "actions": "Tindakan",
+                "tag_color": "Warna",
+                "tag_icon": "Ikon"
+            },
+            "actions": {
+                "create_tag": "Buat Tag",
+                "approve": "Setujui",
+                "reject": "Tolak"
+            },
+            "confirm": {
+                "approve": "Setujui dependensi",
+                "reject": "Tolak dependensi",
+                "delete": "Hapus dependensi",
+                "delete_tag": "Hapus tag “{name}”? Ini akan menghapusnya dari semua dependensi terkait."
+            },
+            "modal": {
+                "edit_tag_title": "Edit Tag - {name}",
+                "create_tag_title": "Membuat Tag Baru",
+                "tag_name_label": "Nama",
+                "tag_slug_label": "",
+                "tag_description_label": "Deskripsi (Opsional)",
+                "tag_color_label": "",
+                "tag_icon_label": "Ikon (mis., fas fa-code)",
+                "tag_icon_help": "Temukan ikon di <a>Font Awesome</a>."
+            },
+            "permissions": {
+                "submit_label": "Submit dependensi",
+                "moderate_label": "Moderasi dependensi (menyetujui, menolak, mengedit, menghapus)",
+                "manage_tags_label": "Mengelola tag plugin",
+                "delete_label": "Hapus dependensi",
+                "favorite_items_label": "Dependensi favorit"
+            }
+        }
+    }
+}

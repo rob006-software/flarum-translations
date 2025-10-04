@@ -1,8 +1,18 @@
 {
     "v17development-flarum-seo": {
+        "admin": {
+            "permissions": {
+                "configure_seo": ""
+            }
+        },
         "forum": {
             "profile_title": "Profil uživatele {username}",
-            "profile_description": "Profil: {username} | diskuzí: {discussion_count} | příspěvků: {comment_count}"
+            "profile_description": "Profil: {username} | diskuzí: {discussion_count} | příspěvků: {comment_count}",
+            "controls": {
+                "configure_seo": "",
+                "update_seo": "",
+                "reset_seo": ""
+            }
         }
     }
 }

@@ -1,6 +1,14 @@
 {
     "ianm-translate": {
         "admin": {
+            "glossary": {
+                "button": "",
+                "create_button": "",
+                "section": {
+                    "heading": "",
+                    "help": ""
+                }
+            },
             "permission": {
                 "refresh-translation": "",
                 "translate-to-locale": "",
@@ -9,8 +17,25 @@
                 "translate": "Guarda traduzioni"
             },
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "seo": {
+                    "heading": "",
+                    "help": "",
+                    "default-lang": "",
+                    "default-lang-help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
+                "button": "",
                 "seemless": "",
                 "seemless-help": "",
+                "multi-lang-search": "",
+                "multi-lang-search-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "",
@@ -62,6 +87,8 @@
                 "use-native-locale-names-help": "",
                 "translate-polls": "",
                 "translate-polls-help": "",
+                "translate-quiz": "",
+                "translate-quiz-help": "",
                 "provider": "Motore del provider di traduzioni",
                 "readme-info": "",
                 "readme-none": "",
@@ -70,9 +97,6 @@
             }
         },
         "forum": {
-            "composer": {
-                "multi-languages": ""
-            },
             "unknown-language": "[non rilevato]",
             "detected-language": "Questo post è in {postLang}",
             "translate-button-label": "",
@@ -84,15 +108,29 @@
             "manage-translations": {
                 "translations-label": "",
                 "button-label": "",
+                "original-language": "",
+                "discussion": {
+                    "title": ""
+                },
+                "post": {
+                    "title": ""
+                },
                 "poll": {
                     "image-alt": "",
                     "option": "",
-                    "original-title": "",
                     "subtitle": "",
                     "title": "",
-                    "question": ""
+                    "question": "",
+                    "question-language": ""
                 },
-                "save-changes": ""
+                "save-changes": "",
+                "quiz": {
+                    "title": "",
+                    "question": "",
+                    "subtitle": "",
+                    "option": "",
+                    "answer-additional": ""
+                }
             },
             "discussion": {
                 "post": {

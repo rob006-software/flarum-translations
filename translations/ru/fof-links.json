@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Удалить ссылку",
                 "delete_link_confirmation": "Вы уверены, что хотите удалить ссылку?",
-                "everyone-label": "Все",
-                "guests-label": "Гости",
                 "internal_link": "Это внутренняя ссылка?",
-                "members-label": "Пользователи",
                 "open_newtab": "Открывать в новом окне",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -20,11 +17,20 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Атрибут <code>rel=\"me\"</code> позволяет подтвердить личность на других сайтах",
-                "visibility": "Видимость ссылки"
+                "visibility": "Видимость ссылки",
+                "visibility.help": "По умолчанию ссылки видны только <code>{admin}</code> пользователям. Настройте разрешения, указав, кто может видеть эту ссылку.",
+                "visibility.help-disabled": "Сохранить ссылку до изменения настроек видимости.",
+                "visibility.label": "Видимость ссылки",
+                "visibility.guest-only.label": "Только {guest} ?",
+                "visibility.guest-only.help": "Эту ссылку может видеть только {guest}. Разрешение выше должно быть установлено в '{everyone}'.",
+                "everyone-label": "Все",
+                "guests-label": "Гости",
+                "members-label": "Пользователи"
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
-                "links": "=> fof-links.ref.links"
+                "links": "=> fof-links.ref.links",
+                "preconfigured": "На этом форуме ссылки сконфигурированы заранее и не могут быть изменены."
             },
             "settings": {
                 "show_icons_only_on_tablet": "Отображать значки только на экранах планшетов"

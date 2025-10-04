@@ -2,76 +2,76 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "",
-                "colors_heading": "",
-                "colors_primary_label": "",
-                "colors_secondary_label": "",
-                "colors_text": "",
-                "custom_footer_heading": "",
-                "custom_footer_text": "",
-                "custom_header_heading": "",
-                "custom_header_text": "",
-                "custom_styles_cannot_use_less_features": "",
-                "custom_styles_heading": "",
-                "custom_styles_text": "",
-                "dark_mode_label": "",
-                "description": "",
-                "edit_css_button": "",
-                "edit_footer_button": "",
-                "edit_header_button": "",
-                "enter_hex_message": "",
-                "favicon_heading": "",
-                "favicon_text": "",
-                "logo_heading": "",
-                "logo_text": "",
-                "title": ""
+                "colored_header_label": "Kolorita Kapo",
+                "colors_heading": "Koloroj",
+                "colors_primary_label": "Unuaranga Koloro",
+                "colors_secondary_label": "Duaranga Koloro",
+                "colors_text": "Elektu du kolorojn por temigi vian forumon. La unua estos uzata kiel elstara koloro, dum la dua estos uzata por stiligi fonelementojn.",
+                "custom_footer_heading": "Propra Piedo",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "Propra Kapo",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_cannot_use_less_features": "La funkcioj @import kaj data-uri ne estas permesitaj en kutimo LESS.",
+                "custom_styles_heading": "Propraj Stiloj",
+                "custom_styles_text": "Agordu la aspekton de via forumo aldonante vian propran Less/CSS-kodon por esti aplikata al la defaŭltaj stiloj de Flarum.",
+                "dark_mode_label": "Malhela Reĝimo",
+                "description": "Agordu la kolorojn, emblemojn kaj aliajn variablojn de via forumo.",
+                "edit_css_button": "Redaktu Propran CSS",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "Bonvolu enigi deksesuma kolorkodo.",
+                "favicon_heading": "Retpaĝsimbolo",
+                "favicon_text": "Alŝutu bildon por esti montrata kiel la ŝparvoja piktogramo de la forumo.",
+                "logo_heading": "Emblemo",
+                "logo_text": "Alŝutu bildon por esti montrata anstataŭ la titolo de la forumo.",
+                "title": "Aspekto"
             },
             "basics": {
-                "all_discussions_label": "",
-                "default_language_heading": "",
-                "description": "",
-                "display_name_heading": "",
-                "display_name_text": "",
-                "forum_description_heading": "",
-                "forum_description_text": "",
-                "forum_title_heading": "",
-                "home_page_heading": "",
-                "home_page_text": "",
-                "show_language_selector_label": "",
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "Defaŭlta Lingvo",
+                "description": "Agordu vian foruman titolon, lingvon kaj aliajn bazajn agordojn.",
+                "display_name_heading": "Uzanta Afiŝnomo",
+                "display_name_text": "Elektu la pelilon, kiu devus esti uzata por la montraj nomoj de uzantoj. Defaŭlte, la uzantnomo estas montrata.",
+                "forum_description_heading": "Foruma Priskribo",
+                "forum_description_text": "Enigu mallongan frazon aŭ du, kiuj priskribas vian komunumon. Ĉi tio aperos en la meta-etikedo kaj aperos en serĉiloj.",
+                "forum_title_heading": "Foruma Titolo",
+                "home_page_heading": "Hejmpaĝo",
+                "home_page_text": "Elektu la paĝon, kiun uzantoj vidos unue kiam ili vizitos vian forumon.",
+                "show_language_selector_label": "Montru lingvoselektilon",
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
-                "title": "",
-                "welcome_banner_heading": "",
-                "welcome_banner_text": ""
+                "title": "Bazaj agordoj",
+                "welcome_banner_heading": "Bonvena Standardo",
+                "welcome_banner_text": "Agordu la tekston, kiu aperas en la standardo sur la paĝo Ĉiuj Diskutoj. Uzu ĉi tion por bonvenigi gastojn al via forumo."
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "Postuli uzanton konfirmi ĉi tiun retpoŝton",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "Kreu kaj aldonu alian",
+                "submit_button": "Krei uzanton",
+                "title": "Krei novan uzanton",
+                "use_random_password": "Generu hazardan pasvorton",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
-                "clear_cache_button": "",
-                "description": "",
-                "io_error_message": "",
+                "clear_cache_button": "Malplenigi kaŝmemoron",
+                "description": "Rapida ekrigardo al forumo.",
+                "io_error_message": "Ne eblis skribi al dosiersistemo. Kontrolu viajn dosiersistemajn permesojn kaj provu denove. Aŭ provu plenumi per komandlinio.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Planilo",
+                        "queue-driver": "Vica pelilo",
+                        "session-driver": "Sesia pelilo"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Aktiva",
+                        "inactive": "Neaktiva",
+                        "never-run": "Neniam iris"
                     }
                 },
-                "title": "",
-                "tools_button": ""
+                "title": "Panelo",
+                "tools_button": "Iloj"
             },
             "debug-warning": {
                 "detail": "",
@@ -79,11 +79,11 @@
             },
             "edit_css": {
                 "customize_text": "",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": ""
             },
             "edit_footer": {
-                "customize_text": "",
+                "customize_text": "=> core.ref.custom_footer_text",
                 "submit_button": "",
                 "title": ""
             },
@@ -248,8 +248,8 @@
                         },
                         "edit_user": {
                             "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "tooltip": "",
+                            "title": ""
                         },
                         "email": {
                             "title": "",
@@ -261,6 +261,9 @@
                             "title": ""
                         },
                         "join_time": {
+                            "title": ""
+                        },
+                        "user_actions": {
                             "title": ""
                         },
                         "user_id": {
@@ -593,6 +596,11 @@
             "number_suffix": {
                 "kilo_text": "",
                 "mega_text": ""
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": "",

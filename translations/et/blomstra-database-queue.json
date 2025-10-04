@@ -2,29 +2,29 @@
     "blomstra-database-queue": {
         "admin": {
             "settings": {
-                "backoff_label": "",
-                "backoff_help": "",
-                "memory_label": "",
-                "memory_help": "",
-                "rest_label": "",
-                "rest_help": "",
-                "retries_label": "",
-                "retries_help": "",
-                "timeout_label": "",
-                "timeout_help": ""
+                "backoff_label": "Tõmba tagasi",
+                "backoff_help": "Sekundite arv, mida oodata enne, kui tundmatu erandiga tööd proovitakse uuesti.\n",
+                "memory_label": "Mälu",
+                "memory_help": "Mälu limiit megabaitides.\n",
+                "rest_label": "Puhkus",
+                "rest_help": "Puhkeperioodi pikkus sekundites ega töö vahel.\n",
+                "retries_label": "Uuesti proovismisi",
+                "retries_help": "Mitu korda tööd uuesti proovitakse enne, kui see märgitakse ebaõnnestunuks.\n",
+                "timeout_label": "Aegumine",
+                "timeout_help": "Mitu sekundit võib alamprosess töötada.\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "refresh": "",
+                "auto_refresh": "Automaatne värskendamine",
+                "heading": "Järjekorra ülevaade",
+                "refresh": "Värskenda",
                 "data": {
-                    "queue-name": "",
-                    "pending-jobs": "",
-                    "failed-jobs": "",
+                    "queue-name": "Järjekord",
+                    "pending-jobs": "Ootel tööd",
+                    "failed-jobs": "Ebaõnnestunud tööd",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Staatus",
+                        "running": "Käimas",
+                        "inactive": "Mitteaktiivne"
                     }
                 }
             }
