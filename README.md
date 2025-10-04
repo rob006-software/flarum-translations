@@ -1133,6 +1133,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-newsletter`](https://weblate.rob006.net/projects/flarum/justoverclock-newsletter) | [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter) |
 | [`justoverclock-og-meta-tag`](https://weblate.rob006.net/projects/flarum/justoverclock-og-meta-tag) | [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag) |
 | [`justoverclock-popular-tags`](https://weblate.rob006.net/projects/flarum/justoverclock-popular-tags) | [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags) |
+| [`justoverclock-profile-comments`](https://weblate.rob006.net/projects/flarum/justoverclock-profile-comments) | [`justoverclock/profile-comments`](https://github.com/justoverclockl/flarum-profile-comments) |
 | [`justoverclock-profile-stories`](https://weblate.rob006.net/projects/flarum/justoverclock-profile-stories) | [`justoverclock/profile-stories`](https://github.com/justoverclockl/profile-stories) |
 | [`justoverclock-random-post`](https://weblate.rob006.net/projects/flarum/justoverclock-random-post) | [`justoverclock/random-post`](https://github.com/justoverclockl/random-post) |
 | [`justoverclock-staff-members-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-staff-members-widget) | [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget) |
@@ -1221,6 +1222,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`shebaoting-money`](https://weblate.rob006.net/projects/flarum/shebaoting-money) | [`shebaoting/money`](https://github.com/shebaoting/money) |
 | [`shebaoting-repost`](https://weblate.rob006.net/projects/flarum/shebaoting-repost) | [`shebaoting/repost`](https://github.com/shebaoting/Repost) |
 | [`spookygames-auth-keycloak`](https://weblate.rob006.net/projects/flarum/spookygames-auth-keycloak) | [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak) |
+| [`startracex-dark`](https://weblate.rob006.net/projects/flarum/startracex-dark) | [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark) |
 | [`swaggymacro-only-starter`](https://weblate.rob006.net/projects/flarum/swaggymacro-only-starter) | [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter) |
 | [`sycho-advanced-extension-categories`](https://weblate.rob006.net/projects/flarum/sycho-advanced-extension-categories) | [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories) |
 | [`sycho-force-password-reset`](https://weblate.rob006.net/projects/flarum/sycho-force-password-reset) | [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset) |
