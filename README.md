@@ -1266,6 +1266,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`xypp-store-auto-checkin`](https://weblate.rob006.net/projects/flarum/xypp-store-auto-checkin) | [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin) |
 | [`xypp-store-doorman`](https://weblate.rob006.net/projects/flarum/xypp-store-doorman) | [`xypp/store-doorman`](https://github.com/zxy19/flarum-store-doorman) |
 | [`xypp-store-group`](https://weblate.rob006.net/projects/flarum/xypp-store-group) | [`xypp/store-group`](https://github.com/zxy19/flarum-store-group) |
+| [`xypp-store-virtual-item`](https://weblate.rob006.net/projects/flarum/xypp-store-virtual-item) | [`xypp/store-virtual-item`](https://github.com/zxy19/store-virtual-item) |
 | [`xypp-user-decoration`](https://weblate.rob006.net/projects/flarum/xypp-user-decoration) | [`xypp/user-decoration`](https://github.com/zxy19/user-decoration) |
 | [`yippy-auth-ldap`](https://weblate.rob006.net/projects/flarum/yippy-auth-ldap) | [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap) |
 | [`yippy-tag-with-themes`](https://weblate.rob006.net/projects/flarum/yippy-tag-with-themes) | [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes) |
