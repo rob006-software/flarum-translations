@@ -3,11 +3,11 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "desc": "Lấy khóa API của bạn ở <a>https://opencollective.com/applications</a>.",
-                "use_legacy_api_key_label": "",
-                "use_legacy_api_key_help": "",
-                "api_key_label": "Mã khoá API",
-                "personal_token_label": "",
+                "desc": "Lấy mã token cá nhân của bạn ở <a>https://opencollective.com/applications</a> trong mục Settings > For Developers. Không chọn bất kỳ phạm vi bổ sung nào - giữ nguyên lựa chọn mặc định là trống.\n",
+                "use_legacy_api_key_label": "Sử dụng Khóa API Ứng dụng Cũ",
+                "use_legacy_api_key_help": "Nếu bạn có khóa API cũ, bạn có thể tiếp tục sử dụng khóa đó, nhưng bạn nên chuyển sang Mã thông báo cá nhân. Hiện tại, mã thông báo cá nhân có vẻ hoạt động ở chế độ Khóa API (tức là tiêu đề \"API-Key\"), nhưng điều này không được ghi chép lại.\n",
+                "api_key_label": "Mã khóa API ứng dụng (đã lỗi thời)",
+                "personal_token_label": "Mã token báo cá nhân",
                 "slug_label": "Slug Collective",
                 "group_label": "Nhóm để gán"
             }

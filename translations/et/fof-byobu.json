@@ -3,125 +3,128 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Privaatne vestlus"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Saajad",
+                "submit": "OK",
+                "edit_recipients": "Muuda saajaid",
+                "send_pd": "Saada kasutajale {username} sõnum",
+                "cancel": "Loobu",
+                "make_public": "Tee see vestlus avalikuks",
+                "remove_from_discussion": "Jäta see vestlus privaatseks"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Postita privaatne vestlus",
+                "title_placeholder": "Privaatse vestluse pealkiri"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Oled sa kindel, et soovid eemaldada saatjad ja teha see vestlus nähtavaks kõigile, kes näevad selle sildiga vestlusi?"
+            },
+            "hero": {
+                "title": "=> fof-byobu.forum.nav.nav_item"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {{count} osaleja} other {{count} osalejat}}"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Arutle privaatselt",
+                "nav_item": "Privaatsed vestlused"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Osaleja valimiseks hakka kasutajanime trükkima..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Õiguste grupis"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Uuenda {title} osalejaid",
+                    "add_recipients": "Lisa oma vestlusesse saajaid"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Valitud kasutajad",
+                    "search_field": "Otsi kasutajaid"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "See vestlus on nähtav ainult kasutajatele, keda sa oled siin valinud. Lisaks sinule peab olema valitud vähemalt 1 saaja.",
+                    "update_recipients": "See vestlus on nähtav ainult kasutajatele, keda sa siin valid.",
+                    "selected_users": "Kliki kasutaja nimel, et teda eemaldada.",
+                    "click_user_to_remove_tooltip": "Eemaldamiseks kliki"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} lisas vestlusesse osalejad {added} ja eemaldas {removed}.",
+                    "added": "{username} lisas saaja {added}.",
+                    "made_public": "{username} eemaldas kõik osalejad ja tegi vestluse avalikuks",
+                    "removed": "{username} eemaldas saaja {removed}.",
+                    "removed_self": "{username} lahkus privaatsest vestlusest."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Blokeeri privaatsed vestlused"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Privaatsed vestlused",
+                "dropdown_label": "Privaatsed vestlused"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "Keegi kaasas mind uude privaatsesse vestlusesse",
+                "pd_reply_label": "Keegi postitatas privaatsesse vestlusesse, milles ma osalen",
+                "pd_reply_text": "{username} postitas privaatsesse vestlusesse, millest sa oled osa",
+                "pd_text": "{username} alustas sinuga privaatset vestlust",
+                "pd_user_left_label": "Kasutaja lahkus privaatsest vestlusest, milles sa osaled",
+                "pd_user_left_text": "{username} lahkus privaatsest vestlusest",
+                "pd_added_text": "{username} lisas sind privaatsesse vestlusesse",
+                "pd_added_label": "Keegi lisas mind olemasolevasse privaatsesse vestlusesse"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "add_more_than_two_user_recipients": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "Privaatsete vestluste loomine kasutajatega",
+                "add_more_than_two_user_recipients": "Rohkem kui 2 kasutaja lisamine privaatsesse vestlusesse",
+                "create_private_discussions_with_groups": "Privaatsete vestluste loomine gruppidega",
+                "create_private_discussions_with_blocking_users": "Privaatsete vestluste loomine kasutajatega, kes seda blokeerivad",
+                "edit_user_recipients": "Privaatsest vestlusest osavõtvate kasutajate muutmine",
+                "edit_group_recipients": "Privaatsest vestlusest osavõtvate gruppide muutmine",
+                "make_private_into_public": "Muuda privaatne vestlus avalikuks",
+                "view_private_discussions-when-flagged": "Teiste kasutajate privaatsete vestluste vaatamine, kui see on sobimatuks märgitud"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Üldised seaded",
+                    "help": "Need seaded juhivad byobu peamisi funktsioone."
                 },
                 "icon": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Ikooni seaded",
+                    "help": "Need seaded määravad foorumis kasutatavad byobu ikoonid."
                 },
-                "badge-icon": "",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
-                "post-event-icon": "",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "badge-icon": "Byobu vestluse märk",
+                "enable-make-public-option": "Lülita sisse võimalus teha vestlusi avalikuks",
+                "enable-make-public-option-help": "Lisab neile, kel on selleks õigus, võimaluse eemaldada kõiki osalejaid, määrata uusi silte ja teha vestlus avalikuks (vastavalt valitud sildi nähtavuse seadetele).",
+                "post-event-icon": "Byobu postituste sündmused",
+                "delete_on_last_recipient_left": "Kustutab privaatse vestluse, kui viimane kasutaja lahkub",
+                "delete_on_last_recipient_left_help": "Kui see valik on sisse lülitatud, siis privaatsed vestlused kustutatakse jäädavalt andmebaasist, kui viimane kasutaja sellest lahkub. Kui see valik pole sisse lülitatud, siis vestlused pannakse prügikasti või peidetakse.",
+                "hide_from_all_discussions_page": "Peida privaatsed vestlused \"Kõigi vestluste\" lehelt",
+                "hide_from_all_discussions_page_help": "Privaatsed vestlused on saadaval ainult \"Privaatsete vestluste\" lehelt kasutajaprofiilil"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Privaatne vestlus] {display_name} alustas sinuga privaatset vestlust",
+                "private_discussion_replied": "[Privaatne vestlus] {display_name} postitas privaatsesse vestlusesse",
+                "recipient_removed": "[Privaatne vestlus] {display_name} lahkus vestlusest",
+                "private_discussion_added": "[Privatne vestlus] {display_name} lisas sind privaatsesse vestlusesse"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Tere {recipient_display_name},\n\n{actor_display_name} alustas sinuga privaatset vestlust: {discussion_title}.\n\nVaata seda siit:\n{discussion_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima.\n",
+                "private_discussion_replied": "Tere {recipient_display_name},\n\n{actor_display_name} postitas privaatses vestluses, milles sa osaled: {discussion_title}.\n\nVaata seda siit:\n{post_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima{actor_display_name}.\n",
+                "recipient_removed": "Tere {recipient_display_name},\n\n{actor_display_name} lahkus privaatsest vestlusest; {discussion_title}. Nad ei näe enam selle vestluse sisu.\n\nVaata seda siit:\n{discussion_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima.\n",
+                "private_discussion_added": "Tere {recipient_display_name},\n\n{actor_display_name} lisas sind olemasolevasse privaatsesse vestlusesse: {discussion_title}.\n\nVaata seda siit:\n{discussion_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima.\n"
             }
         }
     }

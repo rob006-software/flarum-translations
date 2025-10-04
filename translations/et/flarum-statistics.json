@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Vali kohandatud kuupäevade vahemik, mille kohta statistikat vaadata.\nSuurte foorumite korral võib laadimine võtta aega mitu minutit.\n",
+                "end_date": "Lõpu kuupäev (kaasa arvatud)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Lõpu kuupäev peab olema pärast alguse kuupäeva."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Alguse kuupäev (kaasa arvatud)",
+                "submit_button": "Kinnita kuupäevade vahemik",
+                "title": "Vali kohandatud vahemik"
             },
             "statistics": {
                 "discussions_heading": "=> core.ref.discussions",
-                "export_chart_button": "",
+                "export_chart_button": "Ekspordi graafik SVG-na",
                 "last_12_months_label": "Viimased 12 kuud",
                 "last_28_days_label": "Viimased 4 nädalat",
                 "last_7_days_label": "Viimane nädal",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
+                "mini_heading": "Foorumi statistika",
+                "previous_28_days_label": "Viimased 28 päeva",
+                "previous_7_days_label": "Viimased 7 päeva",
+                "custom_label": "Kohandatud ajavahemik...",
+                "custom_label_specified": "{fromDate} kuni {toDate}",
+                "loading": "Laadimine",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Täna",
                 "total_label": "Kokku",
                 "users_heading": "=> core.ref.users",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "view_full": "Vaata veel statistikat",
+                "no_data": "Selle vahemiku jaoks pole andmeid saadaval.",
+                "current_period": "Praegune periood",
+                "previous_period": "Eelmine periood"
             }
         }
     }

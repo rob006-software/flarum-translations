@@ -2,7 +2,12 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "max_users": "Max Users To Show"
+                "cache_ttl": "Time to cache the users list (in seconds)",
+                "last_seen_interval": "Last seen interval to consider a user online (in minutes)",
+                "max_users": "Max shown users"
+            },
+            "permissions": {
+                "view_online_users_widget": "View Online Users Widget"
             }
         },
         "forum": {

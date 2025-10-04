@@ -6,7 +6,7 @@
                 "secret_key_label": "Chave Secreta",
                 "site_key_label": "Chave do Site",
                 "type_label": "Tipo reCAPTCHA",
-                "type_help": "",
+                "type_help": "Esta extensão suporta apenas o reCAPTCHA v2. O tipo selecionado deve corresponder ao tipo das suas credenciais do reCAPTCHA.",
                 "signup": "",
                 "signin": "",
                 "forgot": ""
@@ -17,7 +17,7 @@
                 "success_message": "",
                 "load_test_button": "",
                 "submit_button": "",
-                "reload_button": ""
+                "reload_button": "Recarregar"
             },
             "permissions": {
                 "post_without_captcha": "Crie postagens e discussões sem captcha"

@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Tous les fichiers transférés par l'utilisateur.",
-                    "anonymize_description": "Supprime la référence de l'utilisateur des fichiers transférés. Les fichiers eux-mêmes restent accessibles aux utilisateurs qui pouvaient les consulter avant l'anonymisation.",
-                    "delete_description": "Supprime tous les fichiers transférés par l'utilisateur."
+                    "export_description": "Tous les fichiers téléchargés par l'utilisateur.",
+                    "anonymize_description": "Supprime la référence de l'utilisateur des fichiers téléchargés. Les fichiers eux-mêmes restent accessibles aux utilisateurs qui pouvaient les consulter avant l'anonymisation.",
+                    "delete_description": "Supprime tous les fichiers téléchargés par l'utilisateur."
                 }
             }
         }
@@ -96,6 +96,12 @@
                     "title": "Images en filigrane",
                     "toggle": "Images en filigrane"
                 },
+                "svg-sanitizer": {
+                    "title": "",
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
+                },
                 "composer_buttons": {
                     "title": "Boutons du compositeur",
                     "options": {
@@ -131,7 +137,8 @@
                 "text-preview_description": "Insère un aperçu (5 premières lignes) du fichier texte, avec une option de développement pour révéler le contenu complet du fichier.\n"
             },
             "upload_methods": {
-                "aws-s3": "Compatible avec Amazon S3",
+                "aws-s3": "S3 ou compatible",
+                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",
@@ -249,6 +256,17 @@
                     "hide_fail": "Impossible de rendre le fichier « {fileName} » privé",
                     "show_fail": "Impossible de rendre le fichier « {fileName} » public",
                     "loading": "En train de rendre le fichier privé…"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Tous les fichiers transférés par l'utilisateur.",
+                    "anonymize_description": "Supprime la référence de l'utilisateur des fichiers transférés. Les fichiers eux-mêmes restent accessibles aux utilisateurs qui pouvaient les consulter avant l'anonymisation.",
+                    "delete_description": "Supprime tous les fichiers transférés par l'utilisateur."
                 }
             }
         }

@@ -2,33 +2,33 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Crear notas de moderación",
+                "viewnotes": "Ver notas de moderación",
+                "deletenotes": "Eliminar notas de moderación"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "No se permite una nota vacía.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": "",
-                "filter_by_me": ""
+                "created_text": "{username} creó esta nota el {date}",
+                "add_button": "Nueva nota",
+                "create-heading": "Crear una nueva nota de moderación",
+                "dismiss_button": "Hecho",
+                "input_heading": "Introduce tus notas para <strong>{username}</strong> (se admite Markdown)",
+                "noNotes": "Parece que no hay notas aquí.",
+                "submit_button": "Guardar notas",
+                "delete": "Borrar",
+                "confirm": "¿Estás seguro que quieres eliminar esta nota?",
+                "filter_by_me": "Solo notas que he creado"
             },
             "user": {
-                "notes": ""
+                "notes": "Notas de moderación"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_Cambié a este usuario:_ {reason}",
+            "auto_note_actor": "_Cambiado a_ @{username}: {reason}",
+            "no_reason_provided": "No se proporcionó ninguna razón"
         }
     }
 }

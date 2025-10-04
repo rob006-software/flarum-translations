@@ -2,7 +2,12 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
+                "cache_ttl": "快取使用者清單的時間（以秒為單位）",
+                "last_seen_interval": "將使用者視為線上的上次上線時間間隔（以分鐘為單位）",
                 "max_users": "允許展示人數"
+            },
+            "permissions": {
+                "view_online_users_widget": "查看在線使用者小部件"
             }
         },
         "forum": {

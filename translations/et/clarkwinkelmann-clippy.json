@@ -2,23 +2,23 @@
     "clarkwinkelmann-clippy": {
         "admin": {
             "settings": {
-                "cdn": "",
+                "cdn": "CDN",
                 "cdn-options": {
-                    "s3": "",
-                    "jsdelivr": "",
-                    "custom": ""
+                    "s3": "Amazon S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "Kohandatud"
                 },
-                "path": "",
-                "path-help": "",
-                "agent": "",
-                "agent-help": "",
-                "events": "",
-                "events-help": ""
+                "path": "Kohandatud CDN asukoht",
+                "path-help": "Täielik ilma selle lõpus oleva kaldkriipsuta URL kaustale, milles on <a>clippy.js repository</a> sisu.",
+                "agent": "Agent",
+                "agent-help": "Igal agendil on oma animatsioonid. Agendi muutmine kustutab kõik ühilduvad animatsioonid sinu seadetest.",
+                "events": "Sündmused",
+                "events-help": "Vali mis animatsioone ja kõnemulle näidatakse iga nende sündmuste puhul"
             },
             "events": {
-                "name": "",
-                "animation": "",
-                "text": ""
+                "name": "Sündmus",
+                "animation": "Animatsioon",
+                "text": "Tekst"
             }
         }
     }

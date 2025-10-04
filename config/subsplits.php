@@ -39,7 +39,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'v0.Major.Minor',
 		],
-		'maintainers' => ['neerugupta'],
+		'maintainers' => [], // ['neerugupta'], see https://github.com/flarum-lang/arabic/pull/6#issuecomment-3020290604
 	],
 	'ast' => [
 		'type' => 'language',
@@ -105,6 +105,18 @@ return [
 		'type' => 'language',
 		'language' => 'br',
 		'repository' => 'git@github.com:flarum-lang/breton.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
+	'bs' => [
+		'type' => 'language',
+		'language' => 'bs',
+		'repository' => 'git@github.com:flarum-lang/bosnian.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
@@ -256,6 +268,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'es_MX' => [
+		'type' => 'language',
+		'language' => 'es_MX',
+		'repository' => 'git@github.com:flarum-lang/spanish-mexico.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'et' => [
 		'type' => 'language',
 		'language' => 'et',
@@ -264,9 +288,9 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => [],
+		'maintainers' => ['JoomlaEstonia'],
 	],
 	'eu' => [
 		'type' => 'language',
@@ -626,7 +650,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => [],
+		'maintainers' => ['tormi-github'],
 	],
 	'ne' => [
 		'type' => 'language',
@@ -828,7 +852,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'Major.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -926,7 +950,19 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['tolgaaaltas', 'selmanozturk'], // todo: temporary maintainer? https://discuss.flarum.org/d/27519-the-flarum-language-project/235
+		'maintainers' => ['tolgaaaltas', 'selmanozturk', 'huseyinfiliz'], // todo: temporary maintainer? https://discuss.flarum.org/d/27519-the-flarum-language-project/235
+	],
+	'tt' => [
+		'type' => 'language',
+		'language' => 'tt',
+		'repository' => 'git@github.com:flarum-lang/tatar.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['inov8ru'],
 	],
 	'ug' => [
 		'type' => 'language',

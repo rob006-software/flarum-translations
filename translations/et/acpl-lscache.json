@@ -1,21 +1,37 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
+            "cache_enabled_label": "Lülita LSCache sisse",
             "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
+            "public_cache_ttl_label": "Vaikimisi avalik vahemälu TTL",
             "public_cache_ttl_help": "",
             "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
+            "serve_stale_label": "Edasta seismajäänud sisu",
             "serve_stale_help": "",
             "purge_on_discussion_update_label": "",
             "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
+            "cache_exclude_label": "Jäta kaustad vahemälust välja",
             "cache_exclude_help": "",
             "drop_qs_label": "",
             "drop_qs_help": "",
-            "purge_all": "",
-            "purge_all_success": ""
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
+            "permissions": {
+                "purge": "=> acpl-lscache.ref.purge_cache"
+            }
+        },
+        "forum": {
+            "purge": {
+                "discussion": "=> acpl-lscache.ref.purge_cache"
+            }
+        },
+        "lib": {
+            "purge_success": "LiteSpeed serverit on teavitatud, et LSCache sissekanded kustutataks.",
+            "purge_all_success": "LiteSpeed serverit on teavitatud, et kõik LSCache sissekanded kustutataks."
+        },
+        "ref": {
+            "purge_cache": "Tühjenda LSCache"
         }
     }
 }

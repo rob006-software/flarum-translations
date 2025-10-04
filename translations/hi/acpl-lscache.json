@@ -14,8 +14,24 @@
             "cache_exclude_help": "",
             "drop_qs_label": "क्वेरी स्ट्रिंग ड्रॉप करे",
             "drop_qs_help": "",
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
             "purge_all": "",
+            "permissions": {
+                "purge": ""
+            }
+        },
+        "forum": {
+            "purge": {
+                "discussion": ""
+            }
+        },
+        "lib": {
+            "purge_success": "",
             "purge_all_success": ""
+        },
+        "ref": {
+            "purge_cache": ""
         }
     }
 }

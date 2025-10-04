@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "error": {
-                    "403": "",
-                    "404": "",
-                    "500": "",
-                    "503": ""
+                    "403": "403 Keelatud",
+                    "404": "404 Ei leitud",
+                    "500": "500 Serveri sisemine tõrge",
+                    "503": "503 Teenus pole saadaval (hooldustööd)"
                 },
                 "placeholder": {
-                    "empty_for_default": ""
+                    "empty_for_default": "Jäta tühjaks, kui soovid kasutada Flarumi vaikimisi veateateid"
                 }
             }
         }

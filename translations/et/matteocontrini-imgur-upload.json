@@ -2,22 +2,22 @@
     "imgur-upload": {
         "admin": {
             "settings": {
-                "hide-markdown-image": "",
-                "allow-paste": "",
+                "hide-markdown-image": "Peida Markdown pildi nupp",
+                "allow-paste": "Luba pildi üleslaadimine lõikelaualt kopeerimisega",
                 "embed-type": {
-                    "title": "",
-                    "preview-with-link": "",
-                    "preview-without-link": "",
-                    "full-with-link": "",
-                    "full-without-link": ""
+                    "title": "Põimimise liik",
+                    "preview-with-link": "Eelvaade (1024px) lingiga täis-suuruses pildile",
+                    "preview-without-link": "Eelvaade ilma lingita",
+                    "full-with-link": "Täis-suuruses pilt lingiga",
+                    "full-without-link": "Täissuuruses pilt ilma lingita"
                 }
             }
         },
         "forum": {
-            "upload": "",
-            "loading": "",
-            "done": "",
-            "error": ""
+            "upload": "Üleslaadimiseks vajuta või kopeeri siia",
+            "loading": "Üleslaadimine...",
+            "done": "Valmis!",
+            "error": "Viga"
         }
     }
 }

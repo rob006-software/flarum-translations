@@ -2,16 +2,16 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": ""
+                "see_country": "Az IP-cím országának megjelenítése mindig"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Általános beállítások",
+                    "help": "Ezek a beállítások vezérlik a bővítmény általános viselkedését."
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "IP-cím-lekérdezési szolgáltatás",
+                    "help": "Válasszon egy szolgáltatást az IP-címek lekérdezéséhez. Egyes szolgáltatások forgalomkorlátozással rendelkeznek, így további részletekért ellenőrizze a szolgáltatás dokumentációját."
                 },
                 "service_label": "Szolgáltatás",
                 "service_ipdata_label": "IPData",
@@ -27,7 +27,7 @@
                 "access_key_label": "Hozzáférési kulcs",
                 "quota_label": "Kvóta lekérdezése",
                 "show_flag_label": "Országzászlók megjelenítése minden bejegyzésnél",
-                "show_flag_help": "A bejegyzés szerzője IP-címéhez tartozó országzászló megjelenítése az IP-cím közzététele nélkül.",
+                "show_flag_help": "A bejegyzés szerzője IP-címéhez tartozó országzászló megjelenítése az IP-cím közzététele nélkül, ha a szerző ezt kérte a beállításaiban.",
                 "title": "FriendsOfFlarum GeoIP",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "Használja a <b>https://ipstack.com</b> szolgáltatást, hogy havi 10000 lekérést indítson ingyenesen. A fizetős csomagok kapcsolati információkat (internetszolgáltató, szervezet) és kockázati szintet is tartalmaznak.",
@@ -40,7 +40,7 @@
             "alerts": {
                 "ip_copied": "IP-cím másolva"
             },
-            "copy_ip_label": "",
+            "copy_ip_label": "IP-cím másolása a vágólapra",
             "map_button_label": "IP információ",
             "map_modal": {
                 "title": "IP információ",

@@ -1,0 +1,28 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "twitch": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_twitch_button": ""
+            },
+            "providers": {
+                "twitch": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "twitch": ""
+            }
+        }
+    }
+}

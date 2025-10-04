@@ -2,43 +2,49 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "exclude_users": "",
-                "exclude_users_help": "",
-                "mode_label": "",
-                "mode_help": "",
-                "mode_help_runtime_label": "",
-                "mode_help_runtime": "",
-                "mode_help_schedule": "",
-                "mode_help_schedule_setup": "",
-                "mode_help_large": "",
-                "mode_help_multi_label": "",
-                "mode_help_multi": "",
-                "advanced_options_label": "",
-                "frequency_label": "",
-                "risky_performance_improvements": "",
-                "risky_performance_improvements_help": "",
+                "exclude_users": "Jäta kõik kasutajaprofiilid sisukaardilt välja",
+                "exclude_users_help": "Vaikimisi indekseeritakse kõik nähtavad kasutajad",
+                "exclude_tags": "",
+                "exclude_tags_help": "",
+                "mode_label": "Režiim",
+                "mode_help": "Õige režiimi valimine vastavalt sinu foorumi suurusele on kriitlise tähtsusega.",
+                "mode_help_runtime_label": "Runtime režiim",
+                "mode_help_runtime": "Väiksed foorumid, mis on täenäoliselt jagatud veebimajutuse keskkonnas ning neis on vestlusei, kasutjaid ja silte kokku vähem kui 10 000 ühiikut. Sisukaart luuakse automaatselt iga päringu ajal.",
+                "mode_help_schedule": "Järgnevavd režiimid lisavad oma ülesanded Flarumi ajastajasse.",
+                "mode_help_schedule_setup": "Kui Flarumi ajastaja pole korrektselt seadistatud, siis järgnevad režiimid ei tööta. Vaata siit <a>lisaintof</a>.",
+                "mode_help_large": "50 000 on sisukaardi tehniline limiit. Kui rul on rohkem sissekandeid, siis kasuta seda valikut!",
+                "mode_help_multi_label": "Mitme-faili režiim",
+                "mode_help_multi": "Parim suurtele foorumitele alates 10 000 kirjest. Mitmeosalised kokkupakitud sisukaardifailid luuakse ja säilitatakse kaustas /public",
+                "advanced_options_label": "Lisavalikud",
+                "frequency_label": "Kui sageli peaks ajastaja vahemälus oleva sisukaardi uuesti looma?",
+                "risky_performance_improvements": "Lülita sisse riskantsemad kiiruse parandamise võimalused",
+                "risky_performance_improvements_help": "Need parandused teevad CRON tööd kiiremaks miljoni reaga andmebaasides, aga võivad lõhkuda ühilduvuse mõningate lisaprogrammidega.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
-                    "runtime": "",
-                    "multi_file": ""
+                    "runtime": "Käivitamiseaeg",
+                    "multi_file": "Mitu faili"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "Iga tund",
+                    "twice_daily": "Kaks korda päevas",
+                    "daily": "Iga päev"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Soft 404 ennetamine",
+                    "help": "Kui mudelis on vähe või pole üldse asjakohast sisu, siis Google ja muud robotid võivad märkida need \"soft 404\" lehekülgedeks. Selle elimineerimiseks, määra minimaalne kirjete arv, mida on vajalik iga sissekande tegemiseks.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Kasutaja: Minimaalne kommentaaride/postituste arv",
+                            "minimum_item_threshold_help": "Minimaalne kommentaaride/postituste arv, mis peaks kasutajal olema, et nende profiil lisataks sisukaardile."
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Silt: Minimaalne vestluste arv",
+                            "minimum_item_threshold_help": "Minimaalne vestluste arv sildi all, et seda saaks lisada sisukaardil."
                         }
                     }
                 }

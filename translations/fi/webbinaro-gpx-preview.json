@@ -2,11 +2,11 @@
     "gpx-preview": {
         "admin": {
             "templates": {
-                "gpx": "",
-                "gpx.file_description": ""
+                "gpx": "GPX reitin esikatselu",
+                "gpx.file_description": "Upottaa Google kartan, jossa on siirretty GPX tiedosto asetettuna."
             },
             "settings": {
-                "gkey": ""
+                "gkey": "Google API avain, jolla on pääsy Maps API."
             }
         }
     }

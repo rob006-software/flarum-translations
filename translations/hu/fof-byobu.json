@@ -22,6 +22,9 @@
             "confirm": {
                 "make_public": "Valóban eltávolítja a résztvevőket és mindenki számára láthatóvá teszi a témát, akik láthatják a hozzárendelt címkét?"
             },
+            "hero": {
+                "title": "=> fof-byobu.forum.nav.nav_item"
+            },
             "labels": {
                 "recipients": "{count, plural, one {{count} címzett} other {{count} címzett}}"
             },
@@ -93,12 +96,12 @@
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Általános beállítások",
+                    "help": "Ezek a beállítások vezérlik a byobu alapvető funkcióit."
                 },
                 "icon": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Ikonbeállítások",
+                    "help": "Ezek a beállítások vezérlik a byobu által használt ikonokat a fórumban."
                 },
                 "badge-icon": "Byobu témajelvény",
                 "enable-make-public-option": "Engedélyezi a „nyilvánossá tétel” lehetőséget",

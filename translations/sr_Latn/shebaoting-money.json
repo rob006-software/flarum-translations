@@ -11,7 +11,13 @@
                 "noshowzero": "",
                 "autoremove": "",
                 "moneyforlike": "",
-                "helpextensionlikes": ""
+                "helpextensionlikes": "",
+                "extra_char_threshold": "",
+                "extra_char_threshold_help": "",
+                "extra_char_increment": "",
+                "extra_char_increment_help": "",
+                "extra_char_points": "",
+                "extra_char_points_help": ""
             },
             "permissions": {
                 "edit_money_label": ""
@@ -59,7 +65,10 @@
                 "discussion_started": "",
                 "discussion_restored": "",
                 "discussion_hidden": "",
-                "discussion_deleted": ""
+                "discussion_deleted": "",
+                "posted_reply": "",
+                "extra_characters": "",
+                "no_permission": ""
             },
             "logs_type": {
                 "discussion_started": "",
@@ -75,6 +84,21 @@
                 "admin_updated": "",
                 "registration": "",
                 "discussion_replied": ""
+            },
+            "point_log": {
+                "title": "",
+                "link": "",
+                "empty_text": "",
+                "table": {
+                    "headers": {
+                        "date": "",
+                        "amount": "",
+                        "balance": "",
+                        "reason": ""
+                    }
+                },
+                "load_more": "",
+                "no_permission": ""
             }
         }
     }

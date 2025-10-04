@@ -1,70 +1,70 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "Não podes usar esta reação agora, por favor refresca a página",
+            "disabled-reaction": "Não podes usar esta reação agora, por favor atualiza a página",
             "warning": "A tua reação foi convertida",
-            "notification": "{username} reagiu com {reaction} à tua postagem",
+            "notification": "{username} reagiu com {reaction} à tua publicação",
             "settings": {
-                "notify_post_reacted_label": "Alguém reagiu a uma das minhas postagens"
+                "notify_post_reacted_label": "Alguém reagiu a uma das minhas publicações"
             },
-            "reacting-own-post": "Não podes reagir a uma postagem própria",
+            "reacting-own-post": "Não podes reagir à tua própria publicação",
             "modal": {
                 "title": "Reações",
-                "anonymous_count": "",
-                "no_reactions": ""
+                "anonymous_count": "{count, plural, one {# utilizador anónimo} other {# utilizadores anónimos}}",
+                "no_reactions": "Ainda não há reações"
             },
             "mod_item": "Ver Reações",
             "react_button_label": "Reagir"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "Reagir a uma postagem",
-                "see_reactions_label": "Ver quem reagiu a postagens",
-                "delete_post_reactions_label": ""
+                "react_posts_label": "Reagir às publicações",
+                "see_reactions_label": "Visualizar quem reagiu às publicações",
+                "delete_post_reactions_label": "Eliminar reações nas publicações"
             },
             "page": {
                 "cdn": {
-                    "title": "",
-                    "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "title": "CDN",
+                    "help": "Por predefinição, os recursos das reações são servidos a partir da CDN da Cloudflare. Também tens a opção de especificar outro endereço de CDN\n conforme necessário. <code>[codepoint]</code> será substituído pelo codepoint do emoji.\n\nPor exemplo, para mudar para Noto Emoji via jsdelivr, deves inserir <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Este campo NUNCA deve ser deixado vazio.\n",
+                    "label": "URL",
+                    "default-url": "Predefinido: {url}"
                 },
                 "reactions": {
-                    "title": "Reações customizadas",
-                    "reactions": "Reações actuais",
-                    "Helptext": "Indica o nome (identificador) do emoji ou icone font-awesome e seleciona o type que pretendes.",
+                    "title": "Reações personalizadas",
+                    "reactions": "Reações atuais",
+                    "Helptext": "Indica o nome (identificador) do emoji ou do ícone font-awesome e seleciona o tipo que pretendes.",
                     "help": {
                         "display": "Mostrar",
                         "identifier": "Identificador"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "Tens a certeza de que queres eliminar esta reação? Esta ação não pode ser anulada."
                 },
                 "convert": {
-                    "help": "Se acabou de actualizar a extensão, as suas reações necessitam ser convertidas. Se acabou de instalar a extensão, pode ignorar esta mensagem.",
+                    "help": "Se acabaste de atualizar a extensão, as tuas reações precisam de ser convertidas. Se acabaste de instalar a extensão, podes ignorar esta mensagem.",
                     "button": "Converter reações antigas",
-                    "converting": "As tuas reações estão a ser convertidas. Refresca o site daqui a alguns minutos para ver se o processo terminou. ( O tempo de conversão poderá demorar algum tempo, dependendo do número total de reações)",
+                    "converting": "As tuas reações estão a ser convertidas. Atualiza o site daqui a alguns minutos para verificar se o processo terminou. (O tempo de conversão pode demorar, dependendo do número total de reações)",
                     "converted": "Foram convertidos com sucesso {number} gostos"
                 },
                 "settings": {
-                    "react_own_posts_help": "Quando activo, carecendo de permissão, os utilizadores podem reagir às suas próprias postagens no forum. Para prevenir que os utilizadores reajam às suas postagens, desactive esta opção.",
-                    "react_own_posts_label": "Os utilizadores podem reagir às suas postagens",
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": "",
+                    "react_own_posts_help": "Quando ativado, e sujeito a permissões, os utilizadores podem reagir às suas próprias publicações no fórum. Para impedir que os utilizadores reajam às suas publicações, desativa esta opção.",
+                    "react_own_posts_label": "Os utilizadores podem reagir às suas próprias publicações",
+                    "allow-anonymous": "Permitir reações anónimas (convidados)",
+                    "allow-anonymous-help": "Se ativado, os convidados e utilizadores anónimos poderão reagir às publicações. Nota que as reações anónimas não serão associadas a um perfil de utilizador e serão agregadas na lista de reações.",
                     "save_settings": "Gravar definições",
                     "integrations": {
                         "legend": "Integrações",
-                        "warning": "A mesma reação <strong>não pode</strong> ser convertida para um gosto <strong> e um</strong> voto a favor",
+                        "warning": "A mesma reação <strong>não pode</strong> ser convertida num gosto <strong>e</strong> num voto a favor",
                         "gamification": {
                             "legend": "Gamificação",
                             "upvoteLabel": "Converter reações em votos a favor",
-                            "upvoteHelptext": "Indica o identificador da reação que pretende converter automaticamente para um voto a favor",
+                            "upvoteHelptext": "Indica o identificador da reação que queres converter automaticamente num voto a favor",
                             "downvoteLabel": "Converter reações em votos contra",
-                            "downvoteHelptext": "Indica o identificador da reação que pretende converter automaticamente para um voto contra"
+                            "downvoteHelptext": "Indica o identificador da reação que queres converter automaticamente num voto contra"
                         },
                         "likes": {
                             "legend": "Gostos",
-                            "Label": "Converter reações em Gostos",
-                            "Helptext": "Indica o identificador da reação que pretende converter automaticamente para um gosto"
+                            "Label": "Converter reações em gostos",
+                            "Helptext": "Indica o identificador da reação que queres converter automaticamente num gosto"
                         }
                     }
                 }

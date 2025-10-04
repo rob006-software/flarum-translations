@@ -13,7 +13,12 @@
                 "set_on_registration_label": "Einstellen von Spitznamen bei der Registrierung zulassen",
                 "unique_label": "Einzigartige Spitznamen erforderlich"
             },
-            "wrong_driver": "Du musst \"nickname\" als den Anzeigenamen-Treiber in den <a><strong>Grundeinstellungen</strong></a> auswählen, damit diese Erweiterung wirksam wird."
+            "wrong_driver": "Du musst \"nickname\" als den Anzeigenamen-Treiber in den <a><strong>Grundeinstellungen</strong></a> auswählen, damit diese Erweiterung wirksam wird.",
+            "basics": {
+                "display_name_driver_options": {
+                    "nickname": "Spitzname"
+                }
+            }
         },
         "api": {
             "invalid_nickname_message": "Dieser Spitzname ist ungültig. Bitte wende dich an deinen Forenadministrator, um weitere Informationen zu den Regeln für Spitznamen zu erhalten."

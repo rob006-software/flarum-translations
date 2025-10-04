@@ -2,83 +2,88 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Kasutustingimuste seaded",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "Lisatekst liitumise vormil",
+                    "hide-updated-at": "Ära näita kasutustingimuste uuendamise kuupäeva, kui uuendus on saadaval",
+                    "date-format": "Kuupäeva vorming",
+                    "date-format-help": "Võid lisada ükskõik, mid kuupäeva <a>Day.js</a> vormingus. Vaikeväärtuse kasutamiseks jäta tühjaks."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Eeskirjad"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Uus eeskiri",
+                "edit-policy": "Muuda eeskirja",
+                "add-policy": "Lisa eeskiri",
+                "save-policy": "Salvesta eeskiri",
+                "delete-policy": "Kustuta eeskiri",
+                "set-to-now": "Määra kohe"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "See kustutab andmebaasist jäädavalt poliitika {name} ja sellega seostatud nõustumised. Palun veendu, et oled teinud neist kuupäevadest varukoopia juhuks, kui vajad neid juriidilistel põhjustel. Oled sa kindel, et soovid selle poliitika kustutada?\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
-                "export-url": "",
-                "export-url-help": "",
-                "optional": "",
-                "optional-help": ""
+                "name": "Nimi",
+                "name-help": "Seda nime näidatakse märkekasti kõrval ja uuenduse hüpikakna pealkirjana.",
+                "url": "URL",
+                "url-help": "URL, millelt saab kasutustingimusi lugeda. Avab klikkides uue vahekaardi.",
+                "update-message": "Uuenduse sõnum",
+                "update-message-help": "Sõnum, mida näidatakse olemasolevatele kasutajatele, kes pole veel viimaseid eeskirju aktsepteerinud.",
+                "terms-updated-at": "Uuendatud",
+                "terms-updated-at-placeholder": "AAAA-KK-PP (hh:mm:ss)",
+                "terms-updated-at-help": "Viimase kasutustingimuse uuendamise kuupäev. Selle väärtuse määramisega peavad kõik kasutajad, kes on sellega nõustunud enne seda kuupäeva, sellega uuesti nõustuma. See peab olema minevikus (muidu ei saa kasutajad kunagi nõustumise valikust edasi).\n",
+                "export-url": "Eksportimise URL",
+                "export-url-help": "Kõik kasutajad, kellel on õigus \"Poliitikate andmete eksportimine\" saavad ligi URL-idele, millel on nimekiri kasutajatest, kes on selle poliitikaga nõustunud. Lisainfot saadaolevate valikute kohta leiad <a>lisaprogrammi wikist</a>.\n",
+                "optional": "Valikuline poliitika",
+                "optional-help": "Kui see valik on sisse lülitatud, siis saavad kasutajad foorumis tegutseda ka ilma selle poliitikaga nõutumata."
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "Vaata kasutaja poliitikate staatust",
+                "postpone-policies-accept": "Uute kasutustingimustega nõustumist saab edasi lükata",
+                "export-policies": "Kõikide kasutajate ja poliitikate andmete eksportimine"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Nõustun poliitikaga <a>{policy}</a>",
+                "must-accept": "Poliitikaga {policy} peab nõustuma."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "Kasutustingimuste uuendamine",
+                "updated-at": "Kasutustingimus muudeti {date}",
+                "updated-recently": "Kasutustingimusi muudeti pärast sinu viimast külastust",
+                "i-accept": "Nõustun uue poliitikaga <a>{policy}</a>",
+                "accept": "Kinnita",
+                "close": "Aitäh, et nõustusid. Nüüd saad minna tagasi foorumisse"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "Kasutustingimustega nõustumise staatus kasutajal {username}",
+                "accepted-at": "Nõustunud {date}",
+                "not-accepted": "Pole aktsepteerinud"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Oleme ajutiselt piiranud sinu ligipääsu foorumile, kuni sa vaatad üle uued kasutustingimused.",
+                "can-accept-message": "Uuendasime hiljuti kasutustingimusi. Selle veebisaidi edasi kasutamisekd pead nendega nõustuma.",
+                "can-accept-optional-message": "Uuendasime hiljuti kasutustingimusi. Vaata need sulle sobival ajal üle.",
+                "review": "Kliki siia, et vaadata uues kasutustingimused üle ja nendega nõustuda",
+                "close": "Sulge"
+            },
+            "user_settings": {
+                "optional_policies_label": "Eeskirjad"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Kasutustingimustega nõustumise staatus"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Üksikasjad selle kohta, kas kasutaja on tingimustega nõustunud",
+                    "delete_description": "Eemaldab kasutaja nõustumise kasutustingimustega"
                 }
             }
         }

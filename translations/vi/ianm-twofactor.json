@@ -4,7 +4,7 @@
             "edit_group": {
                 "2fa_label": "Yêu cầu xác thực hai yếu tố (2FA)",
                 "2fa_help": "Yêu cầu thành viên của nhóm này bật Xác thực Hai Yếu Tố (2FA) cho tài khoản của họ.",
-                "admin_2fa_help": "Các thành viên của {adminName} phải luôn luôn bật 2FA."
+                "admin_2fa_help": "Các thành viên của {adminName} phải luôn bật 2FA."
             },
             "permissions": {
                 "see_two_factor_status_label": "Xem trạng thái 2FA của các người dùng khác",
@@ -53,13 +53,25 @@
                 "loading_qr": "Đang tải mã QR...",
                 "backup_codes": "Các mã sao lưu của bạn",
                 "backup_codes_instruction": "Vui lòng lưu các mã này ở một nơi an toàn. Chúng có thể được sử dụng để truy cập vào tài khoản của bạn nếu bạn mất phương thức xác thực chính. Chúng sẽ không được hiển thị lại.",
-                "saved_backup_codes_button": "Tôi đã lưu các mã này.",
+                "saved_backup_codes_button": "Tôi đã lưu các mã này",
                 "backup_codes_remaining": "Số lượng mã sao lưu còn lại:",
                 "two_factor_enabled_confirmation": "Xác thực Hai Yếu Tố đã được bật thành công cho tài khoản của bạn.",
                 "ok_button": "OK",
                 "confirm_disable_2fa_title": "Xác nhận vô hiệu hóa Xác thực Hai Yếu Tố",
                 "confirm_disable_2fa_text": "Bạn chắc chắn muốn vô hiệu hóa Xác thực Hai Yếu Tố?",
                 "confirm_disable_2fa_text_other_user": "Bạn chắc chắn muốn vô hiệu hóa Xác thực Hai Yếu Tố cho {username}? Hành động này sẽ xóa tất cả các mã sao lưu và vô hiệu hóa 2FA cho tài khoản của họ.",
+                "change_device_heading": "Thay đổi thiết bị xác thực",
+                "change_device_title": "Thay đổi thiết bị",
+                "change_device_description": "Chuyển 2FA sang thiết bị mới",
+                "change_device_button": "Thay đổi thiết bị",
+                "verify_current_device_message": "Vui lòng nhập mã token từ thiết bị xác thực hiện tại của bạn để xác minh danh tính.",
+                "enter_current_token": "Nhập mã token từ thiết bị hiện tại",
+                "scan_new_device_qr": "Quét mã QR này bằng thiết bị xác thực mới của bạn.",
+                "verify_new_device_message": "Bây giờ hãy nhập mã token từ thiết bị mới của bạn để hoàn tất việc thay đổi.",
+                "enter_new_token": "Nhập mã token từ thiết bị mới",
+                "new_backup_codes": "Mã sao lưu mới của bạn",
+                "device_changed_confirmation": "Thiết bị xác thực của bạn đã được thay đổi thành công.",
+                "continue_button": "Tiếp tục",
                 "cannot_disable": "Cấu hình hiện tại quy định bạn không thể vô hiệu hóa Xác thực Hai Yếu Tố.",
                 "cannot_disable_tooltip": "Không thể tắt 2FA",
                 "cancel_button": "Hủy bỏ",
@@ -92,6 +104,16 @@
             "two_factor_token": {
                 "title": "Xác thực Hai Yếu Tố",
                 "submit_button": "Gửi mã token"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "Xuất trạng thái 2FA và mã sao lưu được mã hóa.",
+                    "delete_description": "Xóa tất cả dữ liệu liên quan đến 2FA."
+                }
             }
         }
     },

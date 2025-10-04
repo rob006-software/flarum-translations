@@ -1,0 +1,134 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "hot_button": "",
+                "votes_button": ""
+            }
+        }
+    },
+    "fof-gamification": {
+        "forum": {
+            "votes": "",
+            "vote_title": "",
+            "nav": {
+                "name": ""
+            },
+            "ranking": {
+                "rank": "",
+                "name": "",
+                "amount": ""
+            },
+            "notification": {
+                "upvote": "",
+                "downvote": "",
+                "prefrences": {
+                    "vote": ""
+                }
+            },
+            "user": {
+                "card": {
+                    "points": ""
+                },
+                "rank": "",
+                "votes_link": ""
+            },
+            "modal": {
+                "downvotes_label": "",
+                "title": "",
+                "upvotes_label": ""
+            },
+            "mod_item": "",
+            "voters": {
+                "none": "",
+                "label": "",
+                "label_none": ""
+            },
+            "post": {
+                "upvote_button": "",
+                "downvote_button": ""
+            }
+        },
+        "admin": {
+            "permissions": {
+                "vote_label": "",
+                "see_votes_label": "",
+                "see_voters_label": "",
+                "see_ranking_page": "",
+                "upvote_notifications": "",
+                "downvote_notifications": ""
+            },
+            "page": {
+                "rankings": {
+                    "blocked": {
+                        "placeholder": "",
+                        "title": "",
+                        "help": ""
+                    },
+                    "title": "",
+                    "enable": "",
+                    "custom_image_1": "",
+                    "custom_image_2": "",
+                    "custom_image_3": ""
+                },
+                "alt_votes": {
+                    "icon_name": ""
+                },
+                "votes": {
+                    "points_title": "",
+                    "points_placeholder": "",
+                    "color_holder": "",
+                    "auto_upvote": "",
+                    "rate_limit": "",
+                    "discussion_page": "",
+                    "alternate_layout": "",
+                    "alternate_post_layout": "",
+                    "title": "",
+                    "vote_color": "",
+                    "icon_name": "",
+                    "icon_help": "",
+                    "upvotes_only": "",
+                    "first_post_only": "",
+                    "allow_self_votes": ""
+                },
+                "save_settings": "",
+                "convert": {
+                    "button": "",
+                    "help": "",
+                    "converting": "",
+                    "converted": ""
+                },
+                "ranks": {
+                    "title": "",
+                    "ranks": "",
+                    "number_title": "",
+                    "help": {
+                        "color": "",
+                        "help": "",
+                        "points": "",
+                        "name": ""
+                    }
+                },
+                "groups": {
+                    "title": "",
+                    "help": "",
+                    "column": {
+                        "group": "",
+                        "minPoints": "",
+                        "maxPoints": ""
+                    },
+                    "add": "",
+                    "delete": ""
+                }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": ""
+            },
+            "subject": {
+                "postVoted": ""
+            }
+        }
+    }
+}

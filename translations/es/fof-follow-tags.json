@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "Recibir un correo electrónico cuando haya nuevas discusiones o publicaciones",
                 "submit_button": "Confirmar suscripción"
             },
+            "hero": {
+                "title": "=> flarum-subscriptions.forum.index.following_link"
+            },
             "notifications": {
                 "new_discussion_text": "{username} inició",
                 "new_post_text": "{username} ha creado una discusión",
@@ -76,6 +79,16 @@
             "filtering_options": {
                 "none": "Discusiones seguidas",
                 "tags": "Etiquetas seguidas"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Exporta detalles del nivel de suscripción de una etiqueta, si existe.",
+                    "anonymize_description": "Elimina la suscripción del usuario a la etiqueta."
+                }
             }
         }
     },

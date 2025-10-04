@@ -3,125 +3,128 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Privat diskussion"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Mottagare",
+                "submit": "OK",
+                "edit_recipients": "Ändra mottagare",
+                "send_pd": "Skicka {username} ett meddelande",
+                "cancel": "Avbryt",
+                "make_public": "Gör den här diskussionen publik",
+                "remove_from_discussion": "Lämna den här privata diskussionen"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Posta Privat Diskussion",
+                "title_placeholder": "Titel för Privat Diskussion"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Är du säker på att du vill ta bort mottagaren och göra denna diskussion synlig för alla som kan se den tilldelade taggen?"
+            },
+            "hero": {
+                "title": "=> fof-byobu.forum.nav.nav_item"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {{count} Recipient} other {{count} Recipients}}"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Diskutera Privat",
+                "nav_item": "Privata Diskussioner"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Sök mottagare genom att skriva de tre första bokstäverna..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Behörighetsgrupper"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Uppdatera mottagare av {title}",
+                    "add_recipients": "Lägg till mottagare i din diskussion"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Valda användare",
+                    "search_field": "Sök efter användare"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "Den här diskussionen kommer endast att vara synlig för de användare du väljer här. Minst en mottagare (förutom dig själv) krävs.",
+                    "update_recipients": "Den här diskussionen kommer bara att vara synlig för de användare du väljer här.",
+                    "selected_users": "Klicka på en användares namn för att ta bort dem.",
+                    "click_user_to_remove_tooltip": "Klicka för att ta bort"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} la till mottagaren {added} och tog bort {removed}.",
+                    "added": "{username} la till mottagaren {added}.",
+                    "made_public": "{username} tog bort alla mottagare och gjorde diskussionen pubik",
+                    "removed": "{username} tog bort mottagare {removed}.",
+                    "removed_self": "{username} lämnade den privata diskussionen."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Blockera privata diskussioner"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Privata Diskussioner",
+                "dropdown_label": "Privata Diskussioner"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "Någon inkluderar mig i en ny privat diskussion",
+                "pd_reply_label": "Någon postar i en privat diskussion som jag är mottagare av",
+                "pd_reply_text": "{username} har postat i en privat diskussion du är en del av",
+                "pd_text": "{username} startade en ny privat diskussion med dig",
+                "pd_user_left_label": "En mottagande användare lämnar en privat diskussion som jag är en del av",
+                "pd_user_left_text": "{username} lämna den privata diskussionen",
+                "pd_added_text": "{username} lade till dig i en privat diskussion",
+                "pd_added_label": "Någon lägger till mig i en befintlig privat diskussion"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "add_more_than_two_user_recipients": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "Skapa privata diskussioner med användare",
+                "add_more_than_two_user_recipients": "Lägg till fler än 2 mottagare i privat diskussion",
+                "create_private_discussions_with_groups": "Skapa privata diskussioner med grupper",
+                "create_private_discussions_with_blocking_users": "Skapa privata diskussioner med användare som blockerar det",
+                "edit_user_recipients": "Redigera användare som deltar i privata diskussioner",
+                "edit_group_recipients": "Redigera grupper som deltar i privata diskussioner",
+                "make_private_into_public": "Förvandla en privat diskussion till en offentlig diskussion",
+                "view_private_discussions-when-flagged": "Visa privata diskussioner med andra användare om de är flaggade"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Allmänna inställningar",
+                    "help": "Dessa inställningar styr de grundläggande funktionerna i byobun."
                 },
                 "icon": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Ikoninställningar",
+                    "help": "Dessa inställningar kontrollerar ikonerna som används för byobu på forumet."
                 },
-                "badge-icon": "",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
-                "post-event-icon": "",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "badge-icon": "Byobu-diskussionsmärke",
+                "enable-make-public-option": "Aktivera möjligheten att \"publicera\"",
+                "enable-make-public-option-help": "Lägger till möjligheten för de som har behörighet att ta bort alla mottagare, tilldela en ny tagg och göra diskussionen offentligt synlig (enligt synlighetsinställningarna för den valda taggen).",
+                "post-event-icon": "Byobu Post-evenemang",
+                "delete_on_last_recipient_left": "Ta bort Privata Diskussioner när den sista användaren lämnar",
+                "delete_on_last_recipient_left_help": "Om aktiverat kommer PD:er att raderas permanent från databasen när den sista användaren lämnar. Annars kommer PD:n att raderas/döljas mjukt.",
+                "hide_from_all_discussions_page": "Dölj PD:er från sidan \"Alla diskussioner\"",
+                "hide_from_all_discussions_page_help": "Privata diskussioner kommer endast att vara tillgängliga från sidan \"Privata diskussioner\" eller användarprofilen."
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Privat Diskussion] {display_name} startade en ny privat diskussion med dig",
+                "private_discussion_replied": "[Privat Diskussion] {display_name} postat i en privat diskussion",
+                "recipient_removed": "[Privat Diskussion] {display_name} lämnade diskussionen",
+                "private_discussion_added": "[Privat Diskussion] {display_name} lade till dig i en privat diskussion"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Hej {recipient_display_name},\n\n{actor_display_name} startade en ny privat diskussion med dig som mottagare: {discussion_title}.\n\nSe det här:\n{discussion_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n",
+                "private_discussion_replied": "Hej {recipient_display_name},\n\n{actor_display_name} postade i en privat diskussion med dig som mottagare: {discussion_title}.\n\nSe det här:\n{post_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n",
+                "recipient_removed": "Hej {recipient_display_name},\n\n{actor_display_name} lämnade den privata diskussionen: {discussion_title}. De kommer inte längre att kunna se något av dess innehåll.\n\nSe det här:\n{discussion_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n",
+                "private_discussion_added": "Hej {recipient_display_name},\n\n{actor_display_name} la till dig i en existerande privat diskussion: {discussion_title}.\n\nSe det här:\n{discussion_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n"
             }
         }
     }

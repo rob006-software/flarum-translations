@@ -2,64 +2,64 @@
     "ordinaryjellyfish-automod": {
         "admin": {
             "permissions": {
-                "bypass": ""
+                "bypass": "Eira automod filtreid"
             },
             "settings": {
-                "threshold": "",
-                "threshold_help": "",
-                "moderate_categories_label": "",
-                "moderate_categories_label_help": "",
-                "moderate_categories_enable": "",
-                "service_account": "",
-                "filter_label": "",
-                "filter_help": "",
-                "filter_enable": "",
+                "threshold": "Kindluse lävi",
+                "threshold_help": "Kindluse lävi on vahemikus 0.00 ja 1.00 märkides, kui kindel ollakse, et vastus kuulub antud kategooriasse. Madalam lävi annab vähem valehäireid aga samas võib ka palju halbu tulemusi läbi lasta. Kõrgem lävi võib olla sisu probleemseks märkimisel liiga agar, aga samas ei anna see nii palju valehäireid.",
+                "moderate_categories_label": "Modereeri kategooriaid",
+                "moderate_categories_label_help": "Kategooriad, mis märgivad sisu automaatselt modereerimist vajavaks, kui need on sisse lülitatud ja vastavad kindluse reeglile.",
+                "moderate_categories_enable": "Lülita kategooriate modereerimine sisse",
+                "service_account": "Teenuse konto",
+                "filter_label": "Eelseadistatud filtrid",
+                "filter_help": "Need on filtrid, mis ma isiklikult tegin foorumi turvalisena hoidmiseks. Sisse lülitatud filtrid toimivad täpselt samamoodi nagu modereerimise kategooriad.",
+                "filter_enable": "Eelseadistatud filtrid",
                 "filters": {
-                    "doxxing": "",
-                    "doxxing_help": "",
-                    "flag_unsafe_images": "",
-                    "flag_unsafe_images_help": ""
+                    "doxxing": "Privaatse info avaldamine",
+                    "doxxing_help": "Algselt privaatse info avalik avaldamine üksikisiku või organisatsiooni kohta. Tavaliselt kuritahtliku eesmärgiga.",
+                    "flag_unsafe_images": "Ebaturvalised pildid",
+                    "flag_unsafe_images_help": "Käivitab Google pildiotsingu turvalisusfiltriga ning märgib pildid, mis pole turvalised. Pea meeles, et see võib lisada viivituse postituse ilmumisele."
                 }
             }
         },
         "lib": {
             "moderate_categories": {
-                "toxic": "",
-                "toxic_help": "",
-                "derogatory": "",
-                "derogatory_help": "",
-                "violent": "",
-                "violent_help": "",
-                "sexual": "",
-                "sexual_help": "",
-                "insult": "",
-                "insult_help": "",
-                "profanity": "",
-                "profanity_help": "",
-                "death": "",
-                "death_help": "",
-                "weapons": "",
-                "weapons_help": "",
-                "public_safety": "",
-                "public_safety_help": "",
-                "health": "",
-                "health_help": "",
-                "religion": "",
-                "religion_help": "",
-                "drugs": "",
-                "drugs_help": "",
-                "war": "",
-                "war_help": "",
-                "finance": "",
-                "finance_help": "",
-                "politics": "",
-                "politics_help": "",
-                "legal": "",
-                "legal_help": ""
+                "toxic": "Toksiline",
+                "toxic_help": "Sisu, mis on ebaviisakas, mittelugupidav ja ebamõistlik.",
+                "derogatory": "Alavääristav",
+                "derogatory_help": "Negatiivsed või halvustavad sõnumid, mis on sihitud kellegi vastu.",
+                "violent": "Vägivaldne",
+                "violent_help": "Vägivalla õhutamine isiku või grupi vastu. Ka üldine vägivallale suunatud jutt.",
+                "sexual": "Seksuaalne",
+                "sexual_help": "Sisaldab viiteid seksuaalsetele aktidele või muule sellelaadsele sisule.",
+                "insult": "Solvav",
+                "insult_help": "Solvav, viha õhutav või negatiivne kommentaar inimese või inimeste grupi aadressil.",
+                "profanity": "Ropendamine",
+                "profanity_help": "Vulgaarne kõne nagu näiteks ropendamine.",
+                "death": "Surm või traagilised sündmused",
+                "death_help": "Inimeste surm, tragöödiad, õnnetused, katastroovid või endavigastamine.",
+                "weapons": "Relvad",
+                "weapons_help": "Sisu, mis mainib nugasid, tulirelvasid või nendega seotud lisatarvikuid nagu kuulid jms.",
+                "public_safety": "Avalik turvalisus",
+                "public_safety_help": "Teenused ja organisatsioonid, mis pakuvad leevendust ja tagavad avalikku turvalisust.",
+                "health": "Tervis",
+                "health_help": "Inimese tervis, kaasa arvatud: tervisehädad, haigused, teraapiad, ravimid, vaktsineerimised, meditsiinipraktikad ja info ravimeetodite kohta kaasa arvatud tugigrupid.",
+                "religion": "Religioon ja uskumused",
+                "religion_help": "Uskumused, mis on seotud üleloomulikuga nagu; religioonid, usk, uskumused, spiritualism, kirikud ja kummardamiskohad. Kaasa arvatud astroloogia ja okultism.",
+                "drugs": "Narkootikumid",
+                "drugs_help": "Ebaseaduslikud narkootikumid; Kõik narkootikumidega seonduv, nende kasvatamine jms. Hõlmab ka meditsiiniliste ravimite kasutamist mittesihtotstarbel (nt. kanep).",
+                "war": "Sõjad ja relvastatud konfliktid",
+                "war_help": "Sõda, sõjalised konfliktid ja suuremad füüsilised konfliktid suure hulga inimeste vahel. Hõlmab ka vestlusi militaarteenuste pakkujatest isegi kui need pole otseselt seotud sõja või konfliktiga.",
+                "finance": "Finantsasjad",
+                "finance_help": "Klientide ja äriga seotud teenused nagu pangandus, laenud, krediit, investeerimine ja kindlustus.",
+                "politics": "Poliitika",
+                "politics_help": "Poliitilised uudised ja meedia; vestlused sotsiaalsetel teemadel, valitsuse poliitikad.",
+                "legal": "Juriidiline",
+                "legal_help": "Seadusega seotud sisu, kaada arvatud advokaadifirmad, esmased juriidilised materjalid, juriidilised teenused, juriidilised väljaanded ja tehnoloogia, eksporttunnistajad, juristid ja muud juriidiliste teenuste pakkujad."
             }
         },
         "forum": {
-            "flag_reason": ""
+            "flag_reason": "Automaatne moderaator märkis selle postituse. Põhjus: {reason}"
         }
     }
 }

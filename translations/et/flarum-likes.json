@@ -5,8 +5,8 @@
                 "like_posts_label": "Postituste meeldivaks märkimine"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Kui see on sisse lülitatud, siis saavad kasutajad märkida ka omaenda postitusi meeldivaks. Selle vältimiseks lülita see valik välja.",
+                "like_own_posts_label": "Kasutajad võivad märkida oma postitusi meeldivaks"
             }
         },
         "forum": {
@@ -17,20 +17,20 @@
             "post": {
                 "like_link": "Mulle meeldib",
                 "liked_by_self_text": "Kasutajatele {users} meeldib see.",
-                "liked_by_text": "{count, plural, one {Kasutajale {users} meeldib see} other {Kasutajatele {users} meeldib see}}",
+                "liked_by_text": "{count, plural, one {Kasutajale {users} meeldib see} other {Kasutajatele {users} meeldib see}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Mulle enam ei meeldi",
                 "you_text": "=> core.ref.you"
             },
             "post_likes": {
                 "title": "Kasutajad, kellele see meeldib",
-                "load_more_button": ""
+                "load_more_button": "Laadi rohkem"
             },
             "settings": {
                 "notify_post_liked_label": "Kellelegi meeldib üks minu postitustest"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Meeldimised"
             }
         }
     }

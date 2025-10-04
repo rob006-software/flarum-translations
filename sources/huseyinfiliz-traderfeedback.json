@@ -1,0 +1,200 @@
+{
+    "huseyinfiliz-traderfeedback": {
+        "api": {
+            "validation": {
+                "negative_not_allowed": "Negative feedback is not allowed.",
+                "self_feedback": "You cannot give feedback to yourself.",
+                "min_days": "You must be a member for at least {days} days to give feedback.",
+                "min_posts": "You must have at least {posts} posts to give feedback.",
+                "already_given": "You have already given feedback for this discussion.",
+                "discussion_not_found": "The specified discussion does not exist.",
+                "discussion_required": "Discussion URL or ID is required for feedback.",
+                "already_reported": "You have already reported this feedback.",
+                "rate_limit_feedback": "Please wait {seconds} seconds before submitting another feedback.",
+                "rate_limit_report": "Please wait {seconds} seconds before submitting another report."
+            }
+        },
+        "forum": {
+            "nav": {
+                "feedback_link": "Trader Feedback"
+            },
+            "form": {
+                "title": "Give feedback to {username}",
+                "type_label": "Feedback Type",
+                "type_positive": "Positive",
+                "type_neutral": "Neutral",
+                "type_negative": "Negative",
+                "role_label": "Your Role",
+                "role_buyer": "Buyer",
+                "role_seller": "Seller",
+                "role_trader": "Trader",
+                "discussion_label": "Discussion URL/ID",
+                "discussion_placeholder": "e.g., https://forum.com/d/155 or 155",
+                "discussion_help": "Enter the discussion URL or ID related to this trade",
+                "comment_label": "Comment",
+                "comment_placeholder": "Describe your trading experience with this user",
+                "submit_button": "Submit Feedback",
+                "error_too_short": "Comment must be at least {min} characters",
+                "error_too_long": "Comment must be at most {max} characters",
+                "error_discussion_required": "Discussion URL or ID is required",
+                "error_submit": "Error submitting feedback",
+                "success": "Feedback submitted successfully"
+            },
+            "user_card": {
+                "score_tooltip": "Trader Score",
+                "positive_tooltip": "Positive Feedbacks",
+                "neutral_tooltip": "Neutral Feedbacks",
+                "negative_tooltip": "Negative Feedbacks"
+            },
+            "feedback_page": {
+                "stats": {
+                    "score": "Score",
+                    "total": "Total Feedbacks",
+                    "positive": "Positive",
+                    "neutral": "Neutral",
+                    "negative": "Negative"
+                },
+                "no_feedback": "This user has not received any feedback yet",
+                "give_feedback_button": "Give Feedback",
+                "give_feedback_button_short": "Give",
+                "filter": {
+                    "all": "All Feedbacks",
+                    "positive": "Positive Only",
+                    "neutral": "Neutral Only",
+                    "negative": "Negative Only",
+                    "as_buyer": "As Buyer",
+                    "as_seller": "As Seller",
+                    "as_trader": "As Trader"
+                },
+                "sort": {
+                    "newest": "Newest First",
+                    "oldest": "Oldest First"
+                }
+            },
+            "feedback_item": {
+                "as_buyer": "as Buyer",
+                "as_seller": "as Seller",
+                "as_trader": "as Trader",
+                "report_button": "Report",
+                "delete_button": "Delete",
+                "edit_button": "Edit",
+                "confirm_delete": "Are you sure you want to delete this feedback?",
+                "delete_success": "Feedback deleted successfully",
+                "delete_error": "Failed to delete feedback",
+                "discussion_link": "View Discussion",
+                "discussion_link_short": "View",
+                "discussion_deleted": "Discussion deleted",
+                "discussion_locked": "Discussion locked",
+                "no_comment": "No comment provided",
+                "no_permission_report": "You don't have permission to perform this action",
+                "unknown_user": "Unknown User",
+                "user_id_format": "User #{id}"
+            },
+            "report_modal": {
+                "title": "Report Feedback",
+                "reason_label": "Reason",
+                "reason_placeholder": "Please provide a reason for reporting this feedback",
+                "submit_button": "Submit Report",
+                "success": "Feedback reported successfully",
+                "error": "Failed to report feedback"
+            },
+            "notifications": {
+                "new_feedback_title": "{username} gave you {type} feedback",
+                "feedback_approved_title": "Your feedback to {username} was approved",
+                "feedback_rejected_title": "Your feedback to {username} was rejected"
+            },
+            "settings": {
+                "notify_new_feedback_label": "Someone gives me feedback",
+                "notify_feedback_approved_label": "My feedback is approved",
+                "notify_feedback_rejected_label": "My feedback is rejected"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "give_feedback": "Give trader feedback",
+                "moderate_feedback": "Moderate trader feedback",
+                "report_feedback": "Report feedback",
+                "delete_feedback": "Delete feedback"
+            },
+            "tabs": {
+                "settings": "Settings",
+                "approvals": "Pending Approvals",
+                "reports": "Reports"
+            },
+            "settings": {
+                "title": "Trader Feedback Settings",
+                "help_text": "Configure the trader feedback system",
+                "section_general": "General Settings",
+                "section_discussion": "Discussion Settings",
+                "section_comment": "Comment Settings",
+                "section_requirements": "User Requirements",
+                "allow_negative_label": "Allow negative feedback",
+                "require_approval_label": "Require approval for feedback",
+                "require_discussion_label": "Require discussion URL/ID",
+                "require_discussion_help": "Users must provide a discussion link when giving feedback",
+                "one_per_discussion_label": "One feedback per discussion",
+                "one_per_discussion_help": "Limit users to one feedback per discussion between same users",
+                "min_length_label": "Minimum comment length",
+                "max_length_label": "Maximum comment length",
+                "submit_button": "Save Settings",
+                "min_days_label": "Minimum membership days",
+                "min_days_help": "Users must be a member for this many days before giving feedback (0 = disabled)",
+                "min_posts_label": "Minimum posts required",
+                "min_posts_help": "Users must have this many posts before giving feedback (0 = disabled)",
+                "show_badge_in_posts_label": "Show trader badge in posts",
+                "show_badge_in_posts_help": "Display user's trader score next to their username in forum posts"
+            },
+            "dashboard": {
+                "title": "Trader Feedback Statistics",
+                "total_feedbacks": "Total Feedbacks",
+                "positive_feedbacks": "Positive Feedbacks",
+                "neutral_feedbacks": "Neutral Feedbacks",
+                "negative_feedbacks": "Negative Feedbacks",
+                "pending_approvals": "Pending Approvals",
+                "reported_feedbacks": "Reported Feedbacks"
+            },
+            "roles": {
+                "buyer": "Buyer",
+                "seller": "Seller",
+                "trader": "Trader"
+            },
+            "reports": {
+                "title": "Reported Feedbacks",
+                "no_reports": "No reported feedbacks",
+                "load_error": "Failed to load reports",
+                "user_reported": "Reported by {username}",
+                "unknown_user": "Unknown",
+                "user_id_format": "User #{id}",
+                "reason_label": "Reason:",
+                "reported_feedback_label": "Reported Feedback",
+                "approve_button": "Approve",
+                "reject_button": "Reject",
+                "dismiss_button": "Dismiss Report",
+                "delete_button": "Delete Feedback",
+                "confirm_approve": "Are you sure you want to approve this feedback?",
+                "confirm_reject": "Are you sure you want to reject this feedback?",
+                "confirm_dismiss": "Are you sure you want to dismiss this report?",
+                "confirm_delete": "Are you sure you want to delete this feedback? This action cannot be undone.",
+                "dismissed_success": "Report dismissed successfully",
+                "dismissed_error": "Failed to dismiss report",
+                "deleted_success": "Feedback deleted successfully",
+                "deleted_error": "Failed to delete feedback"
+            },
+            "approvals": {
+                "title": "Pending Approvals",
+                "no_approvals": "No pending approvals",
+                "unknown_user": "Unknown",
+                "user_id_format": "User #{id}",
+                "view_discussion": "View Discussion",
+                "approve_button": "Approve",
+                "reject_button": "Reject",
+                "confirm_approve": "Are you sure you want to approve this feedback?",
+                "confirm_reject": "Are you sure you want to reject this feedback?",
+                "approved_success": "Feedback approved successfully",
+                "approved_error": "Failed to approve feedback",
+                "rejected_success": "Feedback rejected successfully",
+                "rejected_error": "Failed to reject feedback"
+            }
+        }
+    }
+}

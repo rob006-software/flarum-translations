@@ -4,39 +4,39 @@
             "appearance": {
                 "colored_header_label": "Cabeçalho colorido",
                 "colors_heading": "Cores",
-                "colors_primary_label": "Cor Primária",
-                "colors_secondary_label": "Cor Secundária",
-                "colors_text": "Escolha duas cores para o tema do seu fórum. O primeiro será usado como uma cor de destaque, enquanto o segundo será usado para estilizar elementos de fundo.",
+                "colors_primary_label": "Cor primária",
+                "colors_secondary_label": "Cor secundária",
+                "colors_text": "Escolha duas cores para o tema do seu fórum. A primeira será utilizada para cor de destaque e a segunda será utilizada para cor dos elementos em plano de fundo.",
                 "custom_footer_heading": "Rodapé personalizado",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Cabeçalho personalizado",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_cannot_use_less_features": "As funcionalidades @import e data-uri não são permitidas no LESS customizado.",
                 "custom_styles_heading": "Estilos personalizados",
-                "custom_styles_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS a ser aplicado sobre os estilos padrão do Flarum.",
+                "custom_styles_text": "Personalize a aparência do seu fórum adicionando o seu próprio código Less / CSS a ser aplicado sobre os estilos padrão do Flarum.",
                 "dark_mode_label": "Modo escuro",
                 "description": "Personalize as cores, logotipos e outras variáveis do seu fórum.",
                 "edit_css_button": "Editar CSS personalizado",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Digite um código de cor hexadecimal.",
-                "favicon_heading": "Icone URL",
-                "favicon_text": "Carregue uma imagem para ser exibida como ícone de atalho do fórum.",
-                "logo_heading": "Logotipo",
-                "logo_text": "Carregue uma imagem para ser exibida no lugar do título do fórum.",
+                "favicon_heading": "Favicon",
+                "favicon_text": "Envie a imagem a ser visualizada como ícone do fórum pelo navegador.",
+                "logo_heading": "Logótipo",
+                "logo_text": "Envie a imagem a ser visualizada no lugar do título do fórum.",
                 "title": "Aparência"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Idioma padrão",
                 "description": "Defina o título, idioma e outras configurações básicas do fórum.",
-                "display_name_heading": "Nome de exibição do usuário",
-                "display_name_text": "Selecione o driver que deve ser usado para os nomes de exibição dos usuários. Por padrão, o nome de usuário é mostrado.",
-                "forum_description_heading": "Descrição do Fórum",
-                "forum_description_text": "Digite uma ou duas frases curtas que descrevam sua comunidade. Isso aparecerá na metatag e aparecerá nos mecanismos de pesquisa.",
-                "forum_title_heading": "Título do Fórum",
-                "home_page_heading": "Página Inicial",
-                "home_page_text": "Escolha a página que os usuários verão pela primeira vez quando visitarem seu fórum.",
+                "display_name_heading": "Nome de exibição do utilizador",
+                "display_name_text": "Selecione o driver que deve ser utilizado para os nomes de exibição dos utilizadores. Por omissão, é exibido o nome de utilizador.",
+                "forum_description_heading": "Descrição do fórum",
+                "forum_description_text": "Digite uma ou duas frases curtas que descrevam a comunidade. A descrição aparecerá na metatag e aparecerá nos mecanismos de pesquisa.",
+                "forum_title_heading": "Título do fórum",
+                "home_page_heading": "Página inicial",
+                "home_page_text": "Escolha a página que os utilizadores irão visualizar pela primeira vez quando visitarem o fórum.",
                 "show_language_selector_label": "Mostrar seletor de idioma",
                 "slug_driver_heading": "Driver Slug: {model}",
                 "slug_driver_text": "Selecione o driver que será utilizado para o slugging deste modelo.",
@@ -46,7 +46,7 @@
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
-                "email_confirmed_label": "Obriga o utilizador a confirmar este email",
+                "email_confirmed_label": "Obriga o utilizador a confirmar este endereço de correio eletrónico",
                 "password_placeholder": "=> core.ref.password",
                 "submit_and_create_another_button": "Criar e adicionar outro",
                 "submit_button": "Criar utilizador",
@@ -65,17 +65,17 @@
                         "session-driver": "Driver da sessão"
                     },
                     "scheduler": {
-                        "active": "Activo",
-                        "inactive": "Inactivo",
+                        "active": "Ativo",
+                        "inactive": "Inativo",
                         "never-run": "Nunca executado"
                     }
                 },
-                "title": "Dashboard",
+                "title": "Painel principal",
                 "tools_button": "Ferramentas"
             },
             "debug-warning": {
                 "detail": "Quando o modo <code>debug</code> está activo, o Flarum vai efectuar o rebuild do codigo <code>Javascript</code> e <code>CSS</code> a cada pedido, e pode potencialmente \"verter\" outras informações, como dados de acesso à Base de Dados, variáveis de ambiente, etc.\n\nÉ altamente recomendado desactivar o modo <code>debug</code> no ficheiro <code>config.php</code> em modo produtivo. Veja a <link>documentação Flarum</link> para mais informações.\n",
-                "label": "Modo debug activo"
+                "label": "Modo debug ativo"
             },
             "edit_css": {
                 "customize_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS a ser aplicado sobre os <a>estilos padrão</a>do Flarum.",
@@ -89,8 +89,8 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "Excluir grupo",
-                "delete_confirmation": "Tem certeza de que deseja excluir este grupo? Os membros do grupo NÃO serão excluídos.",
+                "delete_button": "Apagar grupo",
+                "delete_confirmation": "Tem a certeza de que deseja apagar este grupo? Os membros do grupo NÃO serão apagados.",
                 "hide_label": "Ocultar no fórum",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
@@ -137,7 +137,7 @@
                 "confirm_purge": "Limpar irá remover os dados da base de dados e ficheiros relacionados com a extensão. Não irá desinstalar a extensão; isso tem que ser efectuado usando o Composer. Tem a certeza que pretende continuar?",
                 "disabled": "Disabilitar",
                 "enable_to_see": "Ative a extensão para visualizar e alterar as configurações.",
-                "enabled": "Habilitar",
+                "enabled": "Ativado",
                 "info_links": {
                     "discuss": "Discussão",
                     "documentation": "Documentação",
@@ -193,20 +193,20 @@
                 "search_placeholder": "Buscar extensão"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "Permitir apagar as próprias postagens",
+                "allow_hide_own_posts_label": "Permitir apagar as próprias publicações",
                 "allow_post_editing_label": "Permitir edição de postagem",
                 "allow_renaming_label": "Permitir renomeação",
                 "create_access_token_label": "Criar token de acesso",
                 "create_heading": "Criar",
-                "delete_discussions_forever_label": "Excluir discussões para sempre",
-                "delete_discussions_label": "Excluir discussões",
-                "delete_posts_forever_label": "Excluir postagens para sempre",
-                "delete_posts_label": "Excluir postagens",
+                "delete_discussions_forever_label": "Apagar discussões definitivamente",
+                "delete_discussions_label": "Apagar discussões",
+                "delete_posts_forever_label": "Apagar publicações definitivamente",
+                "delete_posts_label": "Apagar publicações",
                 "description": "Configure quem pode ver e fazer o quê.",
-                "edit_posts_label": "Editar postagens",
-                "edit_users_label": "Editar usuários",
-                "edit_users_credentials_label": "Editar credenciais de usuário",
-                "edit_users_groups_label": "Editar grupos de usuário",
+                "edit_posts_label": "Editar publicações",
+                "edit_users_label": "Editar utilizadores",
+                "edit_users_credentials_label": "Editar credenciais de utilizador",
+                "edit_users_groups_label": "Editar grupos de utilizador",
                 "global_heading": "Global",
                 "moderate_heading": "Moderar",
                 "moderate_access_tokens_label": "Moderar tokens de acesso",
@@ -217,12 +217,12 @@
                 "rename_discussions_label": "Renomear discussões",
                 "reply_to_discussions_label": "Responder às discussões",
                 "search_users_label": "=> core.ref.search_users",
-                "sign_up_label": "Inscrever-se",
+                "sign_up_label": "Registar",
                 "start_discussions_label": "Iniciar discussões",
                 "title": "Permissões",
-                "view_forum_label": "Ver fórum (discussões e usuários)",
+                "view_forum_label": "Visualizar fórum (discussões e utilizadores)",
                 "view_hidden_groups_label": "Ver emblemas de grupo ocultos",
-                "view_last_seen_at_label": "Ver a última vez que o usuário visualizou",
+                "view_last_seen_at_label": "Ver sempre a última vez que o utilizador foi visto",
                 "view_post_ips_label": "Exibir endereços IP da postagem"
             },
             "permissions_controls": {
@@ -246,7 +246,7 @@
             },
             "users": {
                 "create_user_button": "Novo utilizador",
-                "description": "Uma lista detalhada de todos os usuários do fórum.",
+                "description": "Uma lista detalhada de todos os utilizadores do fórum.",
                 "grid": {
                     "columns": {
                         "display_name": {
@@ -270,7 +270,7 @@
                             "title": "Entrou"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "Ações"
                         },
                         "user_id": {
                             "title": "ID"
@@ -329,7 +329,7 @@
                 "title_placeholder": "Título da discussão"
             },
             "composer_edit": {
-                "discard_confirmation": "Você não salvou suas alterações. Deseja descartá-las?",
+                "discard_confirmation": "Você não guardou as suas alterações. Deseja descartá-las?",
                 "edited_message": "Sua edição foi feita.",
                 "post_link": "Postagem nº{number} em {discussion}",
                 "submit_button": "=> core.ref.save_changes",
@@ -346,7 +346,7 @@
                 "cannot_reply_button": "Sem permissão",
                 "cannot_reply_text": "Você não tem permissão para responder a esta discussão.",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Tem certeza de que deseja excluir esta discussão?",
+                "delete_confirmation": "Tem a certeza de que deseja apagar esta discussão?",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "log_in_to_reply_button": "Entre e responda",
                 "rename_button": "=> core.ref.rename",
@@ -367,7 +367,7 @@
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
                 "email_sent_message": "Enviámos um e-mail com um link para redefinir sua senha. Verifique sua pasta de spam, se não a receber dentro de um ou dois minutos.",
-                "not_found_message": "Não há usuário registrado com esse endereço de e-mail.",
+                "not_found_message": "Não há utilizadores registados com esse endereço de e-mail.",
                 "submit_button": "Recuperar Senha",
                 "text": "Digite seu endereço de e-mail e enviaremos um link para redefinir sua senha.",
                 "title": "Esqueceu a senha"
@@ -412,7 +412,7 @@
                 "sign_up_text": "Não possui uma conta? <a>Inscreva-se</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Nome de usuário ou e-mail"
+                "username_or_email_placeholder": "Nome de utilizador ou e-mail"
             },
             "notifications": {
                 "delete_all_confirm": "Tem a certeza que pretende apagar todas as notificações? Esta operação é irreversível",
@@ -432,18 +432,18 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Tem certeza de que deseja excluir esta postagem para sempre? Essa ação não pode ser desfeita.",
+                "delete_confirmation": "Você tem a certeza de que deseja apagar esta publicação para sempre? Esta ação não pode ser desfeita.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "Tem certeza de que deseja excluir esta postagem?",
+                "hide_confirmation": "Você tem a certeza de que deseja apagar esta publicação?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Abrir o menu do controle de postagens"
+                "toggle_dropdown_accessible_label": "Abrir o menu do controlo de publicações"
             },
             "post_scrubber": {
                 "now_link": "agora",
-                "original_post_link": "Post Original",
+                "original_post_link": "Publicação original",
                 "unread_text": "{count} não lida",
-                "viewing_text": "{count, plural, one {{index} de {formattedCount} postagem} other {{index} de {formattedCount} postagens}}"
+                "viewing_text": "{count, plural, one {{index} de {formattedCount} publicação} other {{index} de {formattedCount} publicações}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "O título antigo era: \"{old}\"",
@@ -536,11 +536,11 @@
             "user_controls": {
                 "button": "Controles",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Tem certeza de que deseja excluir este usuário? Todas as postagens do usuário serão excluídas.",
-                "delete_error_message": "A exclusão do usuário <i>{username} ({email})</i> falhou",
-                "delete_success_message": "O usuário <i>{username} ({email})</i> foi excluído",
+                "delete_confirmation": "Tem certeza de que deseja apagar este utilizador? Todas as publicações do utilizador serão apagadas.",
+                "delete_error_message": "Erro a apagar o utilizador <i>{username} ({email})</i>",
+                "delete_success_message": "O utilizador <i>{username} ({email})</i> foi apagado",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "Abrir o menu de controle dos usuários"
+                "toggle_dropdown_accessible_label": "Abrir o menu dos controlos do utilizador"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -566,7 +566,7 @@
                 "label": "{label}:"
             },
             "edit_user": {
-                "activate_button": "Ativar o usuário",
+                "activate_button": "Ativar o utilizador",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Grupos",
@@ -610,9 +610,9 @@
                 "mega_text": "M"
             },
             "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+                "humanTimeShort": "D MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY"
             },
             "series": {
                 "glue_text": ", ",
@@ -681,7 +681,7 @@
             }
         },
         "api": {
-            "invalid_username_message": "O nome de usuário pode conter apenas letras, números e traços.",
+            "invalid_username_message": "O nome de utilizador pode conter apenas letras, números e hífens.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "O filtro {filter} deve ser numérico.",
                 "must_not_be_array_message": "O filtro {filter} não pode ser um array.",
@@ -691,19 +691,19 @@
         "email": {
             "activate_account": {
                 "subject": "Ative sua nova conta",
-                "body": "Olá {username}!\n\nAlguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.\n\nSe foi você mesmo, basta clicar no link abaixo e sua conta será ativada:\n{url}\n\nSe você não se cadastrou, por favor ignore este e-mail.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) se registou no fórum {forum} com este endereço de correio eletrónico.\n\nSe realizou este registo, basta clicar no endereço URL abaixo e a sua conta será ativada:\n{url}\n\nSe não se registou, por favor ignore este e-mail.\n"
             },
             "confirm_email": {
                 "subject": "Confirme seu novo endereço de e-mail",
-                "body": "Olá {username}!\n\nAlguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.\n\nSe foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:\n{url}\n\nSe você não solicitou isso, por favor ignore este e-mail.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) alterou o endereço de correio eletrónico no fórum {forum} para o qual está a receber este e-mail.\n\nSe efetuou esta alteração, basta clicar no endereço URL abaixo e o seu endereço será confirmado:\n{url}\n\nSe não solicitou esta alteração, por favor ignore este e-mail.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Olá {username}!\n\nAlguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.\n\nSe foi você mesmo, clique no link abaixo para redefinir sua senha:\n{url}\n\nSe você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) enviou um pedido de redefinição de senha para a sua conta no fórum {forum}.\n\nSe efetuou este pedido, clique no endereço URL abaixo para redefinir a sua senha:\n{url}\n\nSe não quiser alterar a sua senha, basta ignorar este e-mail e nada irá acontecer.\n"
             },
             "send_test": {
                 "subject": "Teste de e-mail Flarum",
-                "body": "Olá, {username}!\n\nEste é um e-mail de teste para confirmar se a configuração de e-mail do Flarum está funcionando corretamente.\n\nSe foi você, este e-mail significa que sua configuração funciona!\n\nSe não foi você, ignore este e-mail.\n"
+                "body": "Olá, {username}!\n\nEste é um e-mail de teste para confirmar se a configuração de e-mail do Flarum está a funcionar corretamente.\n\nSe efetuou este pedido, este e-mail significa que sua configuração funciona!\n\nSe não efetuou, ignore este e-mail.\n"
             }
         },
         "ref": {
@@ -718,11 +718,11 @@
             "custom_footer_title": "Editar rodapé personalizado",
             "custom_header_text": "Adicione HTML a ser exibido na parte superior da página, acima do cabeçalho do próprio Flarum.",
             "custom_header_title": "Editar cabeçalho personalizado",
-            "delete": "Deletar",
-            "delete_forever": "Deletar permanentemente",
+            "delete": "Apagar",
+            "delete_forever": "Apagar permanentemente",
             "discussions": "Discussões",
             "edit": "Editar",
-            "edit_user": "Editar usuário",
+            "edit_user": "Editar utilizador",
             "email": "E-mail",
             "extensions": "Extensões",
             "generic_confirmation_message": "Tem a certeza que pretende continuar? Esta acção não pode ser desfeita.",
@@ -746,15 +746,15 @@
             "reply": "Responder",
             "reset_your_password": "Redefinir sua senha",
             "restore": "Restaurar",
-            "save_changes": "Salvar Alterações",
+            "save_changes": "Guardar alterações",
             "search_users": "Procurar utilizadores",
             "security": "Segurança",
             "settings": "Configurações",
-            "sign_up": "Inscrever-se",
+            "sign_up": "Registar",
             "some_others": "{count, plural, one {# outro} other {# outros}}",
             "start_a_discussion": "Iniciar Discussão",
-            "username": "Nome de usuário",
-            "users": "Usuários",
+            "username": "Nome de utilizador",
+            "users": "Utilizadores",
             "view": "Ver",
             "write_a_reply": "Escreva uma resposta...",
             "you": "Você"

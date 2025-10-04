@@ -1,15 +1,15 @@
 {
     "flarum-ext-purify": {
         "forum": {
-            "obscure": ""
+            "obscure": "[Puhdistettu]"
         },
         "admin": {
-            "badWords": "",
-            "additemdesc": "",
-            "hidemail": "",
-            "customreg": "",
-            "customregexp": "",
-            "customregexpdesc": ""
+            "badWords": "Lisää sanoja estolistalle",
+            "additemdesc": "erottele jokainen sana pilkulla (esim. sana1,sana2,sana3)",
+            "hidemail": "Piilota sähköposti automaattisesti",
+            "customreg": "Käytä säännöllistä lauseketta",
+            "customregexp": "Käytä säännöllistä lauseketta",
+            "customregexpdesc": "Syötä tähän säännöllinen lauseke joka täsmää tarpeitasi (esim. (flarum|paras|lisäosa) piilottaaksesi nämä 3 sanaa)"
         }
     }
 }

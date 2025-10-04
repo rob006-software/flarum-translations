@@ -2,42 +2,42 @@
     "flamarkt-taxonomies": {
         "admin": {
             "menu": {
-                "title": "",
-                "discussions": "",
-                "users": "",
-                "products": ""
+                "title": "Tassonomie",
+                "discussions": "Tassonomie discussioni",
+                "users": "Tassonomie utente",
+                "products": "Tassonomie prodotti"
             },
             "page": {
-                "title": "",
+                "title": "Tassonomie",
                 "create": {
-                    "taxonomy": "",
-                    "term": ""
+                    "taxonomy": "Crea tassonomia",
+                    "term": "Crea termine"
                 },
-                "reset-term-order": ""
+                "reset-term-order": "Reimposta elenco termini in ordine alfabetico"
             },
             "edit-taxonomy": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Crea tassonomia",
+                    "edit": "Modifica tassonomia"
                 },
                 "section": {
-                    "info": "",
+                    "info": "Informazioni",
                     "filling": "",
                     "browsing": "",
-                    "scope": ""
+                    "scope": "Ambito"
                 },
                 "field": {
-                    "type": "",
-                    "typeDescription": "",
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": "",
-                    "showLabel": "",
-                    "showLabelDescription": "",
-                    "enableFilter": "",
+                    "type": "Tipo",
+                    "typeDescription": "Le tassonomie possono essere utilizzate su più risorse Flarum. Il tipo non può essere modificato dopo la creazione. È possibile utilizzare nomi e slug identici per tassonomie di tipi diversi.\n",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
+                    "showLabel": "Mostra l'etichetta della tassonomia insieme al termine",
+                    "showLabelDescription": "Stile visualizzazione dell'elenco e dell'eroe delle discussioni. Attualmente non usato per altri tipi di risorse.\n",
+                    "enableFilter": "Abilita filtri API/stringhe-query",
                     "enableFilterDescription": "",
                     "showFilter": "",
                     "showFilterDescription": "",

@@ -2,13 +2,16 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": ""
+                "design_default": "",
+                "display_themes": ""
             },
             "helps": {
-                "design_default": ""
+                "design_default": "",
+                "display_themes": ""
             },
             "options": {
                 "design_options": {
+                    "none": "",
                     "sticky_note": "",
                     "sticky_note_tag": "",
                     "sticky_note_tab": "",
@@ -32,7 +35,15 @@
                     "flat_border": "",
                     "flat_border_tag": "",
                     "flat_border_tab": "",
-                    "flat_border_banner": ""
+                    "flat_border_banner": "",
+                    "rounded_flat": "",
+                    "rounded_flat_tag": "",
+                    "rounded_flat_tab": "",
+                    "rounded_flat_banner": "",
+                    "rounded_flat_border": "",
+                    "rounded_flat_border_tag": "",
+                    "rounded_flat_border_tab": "",
+                    "rounded_flat_border_banner": ""
                 }
             },
             "designs": {
@@ -40,6 +51,10 @@
                 "description": "",
                 "add": "",
                 "banner": "",
+                "is_enabled": {
+                    "enabled": "",
+                    "disabled": ""
+                },
                 "header": {
                     "theme": "",
                     "color_theme": ""
@@ -55,6 +70,9 @@
                     "outline_background_color": "",
                     "secondary_font_class": "",
                     "unread_color": "",
+                    "opacity_background": "",
+                    "opacity_footer": "",
+                    "opacity_outline": "",
                     "is_enabled": ""
                 }
             }

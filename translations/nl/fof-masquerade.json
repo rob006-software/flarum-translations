@@ -63,5 +63,16 @@
                 "url": "Link"
             }
         }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masqueradeanswers": {
+                    "export_description": "Exporteert de antwoorden op het profielveld van de gebruiker",
+                    "delete_description": "Verwijdert alle antwoorden op profielvelden uit het account van de gebruiker",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
     }
 }

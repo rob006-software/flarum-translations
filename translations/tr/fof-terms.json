@@ -66,10 +66,25 @@
             "update-alert": {
                 "must-accept-message": "Yeni şartlara göz atana kadar hesabınıza erişimi kısıtladık.",
                 "can-accept-message": "Yakın zamanda şartları güncelledik. Siteyi kullanmaya devam etmek için şartları kabul etmelisiniz.",
-                "review": "Yeni şartları incelemek ve kabul etmek için buraya tıklayın"
+                "can-accept-optional-message": "Şartları yakın zamanda güncelledik. Bunları istediğiniz zaman inceleyebilirsiniz.",
+                "review": "Yeni şartları incelemek ve kabul etmek için buraya tıklayın",
+                "close": "Kapat"
+            },
+            "user_settings": {
+                "optional_policies_label": "Politikalar"
             },
             "user_controls": {
                 "state_button": "Şartları kabul etme durumu"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "userpolicydata": {
+                    "export_description": "Kullanıcının şartları kabul ettiğine dair ayrıntılar",
+                    "delete_description": "Kullanıcının şartları kabul etme yükümlülüğünü kaldırır"
+                }
             }
         }
     },

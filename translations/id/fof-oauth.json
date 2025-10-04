@@ -15,14 +15,19 @@
                 "only_icons_label": "Hanya menampilkan ikon (tata letak alternatif)",
                 "update_email_from_provider_label": "Memperbarui alamat email dari provider",
                 "update_email_from_provider_help": "Jika diaktifkan, alamat email pengguna akan diperbarui agar sesuai dengan yang disediakan oleh provider OAuth pada setiap login ke forum. Tidak semua penyedia menyediakan email yang diperbarui, dalam hal ini pengaturan ini tidak akan berpengaruh pada penyedia tersebut.",
+                "disable_avatars_label": "Nonaktifkan avatar dari provider",
+                "disable_avatars_help": "Jika diaktifkan, avatar pengguna tidak akan diperbarui agar sesuai dengan avatar provider saat pendaftaran. Perhatikan bahwa ini hanya berlaku untuk pendaftaran baru dan tidak akan mengubah avatar pengguna yang sudah ada.\n",
                 "fullscreen_popup_label": "Gunakan Popup Layar Penuh untuk OAuth",
                 "fullscreen_popup_help": "Ketika diaktifkan, login OAuth akan terbuka dalam popup layar penuh. Jika ini diaktifkan, pengaturan lebar dan tinggi akan diabaikan.",
                 "popup_width_label": "Lebar Popup OAuth",
-                "popup_width_help": "Mengatur lebar jendela popup OAuth. Pengaturan ini akan diabaikan jika \"Gunakan Popup Layar Penuh untuk OAuth\" diaktifkan.",
+                "popup_width_help": "Mengatur lebar kotak popup OAuth. Pengaturan ini akan diabaikan jika “Gunakan Popup Layar Penuh untuk OAuth” diaktifkan.",
                 "popup_height_label": "Tinggi Popup OAuth",
-                "popup_height_help": "Mengatur ketinggian jendela popup OAuth. Pengaturan ini akan diabaikan jika \"Gunakan Popup Layar Penuh untuk OAuth\" diaktifkan.",
+                "popup_height_help": "Mengatur ketinggian kotak popup OAuth. Pengaturan ini akan diabaikan jika \"Gunakan Popup Layar Penuh untuk OAuth\" diaktifkan.",
                 "providers": {
                     "callback_url_text": "Jika memungkinkan, atur URL callback ke {url}.",
+                    "group_label": "Tetapkan Grup",
+                    "group_help": "Pilih grup yang akan ditetapkan secara otomatis ke pengguna yang mendaftar menggunakan penyedia ini.",
+                    "no_group_label": "Tidak ada penetapan grup",
                     "discord": {
                         "description": "Buatlah aplikasi di {link}. Tambahkan URL pengalihan di tab OAuth2.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -46,7 +51,7 @@
                     },
                     "twitter": {
                         "description": "Buatlah aplikasi di {link}. Anda perlu menetapkan URL untuk Ketentuan Layanan dan Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.",
-                        "api_key_label": "API Key",
+                        "api_key_label": "Kunci API",
                         "api_secret_label": "API Secret"
                     },
                     "google": {

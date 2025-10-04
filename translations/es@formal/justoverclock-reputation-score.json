@@ -1,6 +1,19 @@
 {
     "justoverclock-reputation-score": {
         "admin": {
+            "tagMinimumReputationLabel": "",
+            "tagMinimumReputationLabelHelp": "",
+            "resetRewardsButton": "",
+            "resetRewardsButtonHelp": "",
+            "resetRewardDisclaimer": "",
+            "resetRewardsSuccess": "",
+            "resetRewardsError": "",
+            "oneYearSeniority": "",
+            "threeYearSeniority": "",
+            "fiveYearSeniority": "",
+            "posts": "",
+            "discussions": "",
+            "like": "",
             "pointsIncreased": "",
             "pointsDecreased": "",
             "historyPostDeleted": "",
@@ -11,6 +24,13 @@
             "historyBestAnswerUnset": "",
             "historyDiscussionCreated": "",
             "historyDiscussionClosed": "",
+            "historyFlagCreated": "",
+            "permission": {
+                "canEarnReputationForDiscussion": "",
+                "canEarnReputationForPost": "",
+                "canEarnReputationForLikes": "",
+                "canPostWithReputation": ""
+            },
             "settings": {
                 "maxPoints": "",
                 "maxPointsHelp": "",
@@ -21,10 +41,22 @@
                 "likePoints": "",
                 "likePointsHelp": "",
                 "postPoints": "",
-                "postPointsHelp": ""
+                "postPointsHelp": "",
+                "flagPoints": "",
+                "flagPointsHelp": "",
+                "minReputationThreshold": "",
+                "minReputationThresholdHelp": "",
+                "postRewardThreshold": "",
+                "postRewardThresholdHelp": "",
+                "discussionRewardThreshold": "",
+                "discussionRewardThresholdHelp": "",
+                "seniorityRewardThreshold": "",
+                "seniorityRewardThresholdHelp": ""
             }
         },
         "forum": {
+            "notEnoughReputationMessage": "",
+            "emptyReputationHistory": "",
             "reputation": "",
             "reputationBar": "",
             "trust": "",
@@ -35,7 +67,11 @@
             "discussionCount": "",
             "totalPosts": "",
             "reputationHistory": "",
-            "reputationHistoryPageTitle": ""
+            "reputationHistoryPageTitle": "",
+            "xPostsReached": "",
+            "tagReputationWarning": "",
+            "tagReputationWarningTitle": "",
+            "firstLoginModalContent": ""
         }
     }
 }

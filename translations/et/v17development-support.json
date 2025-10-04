@@ -1,319 +1,319 @@
 {
     "v17development-flarum-support": {
         "forum": {
-            "knowledge_base": "",
-            "ask_a_question_on_forums": "",
-            "return_to_home": "",
-            "ask_your_question_on_forum": "",
-            "or": "",
-            "settings": "",
-            "send": "",
-            "create": "",
-            "discard": "",
-            "reopen": "",
-            "support_tickets": "",
-            "admin_overview": "",
+            "knowledge_base": "Teabebaas",
+            "ask_a_question_on_forums": "Küsi küsimus foorumis",
+            "return_to_home": "Tagasi teabebaasi avalehele",
+            "ask_your_question_on_forum": "Küsi oma küsimus foorumis",
+            "or": "või",
+            "settings": "=> core.ref.settings",
+            "send": "Saada",
+            "create": "Loo",
+            "discard": "Loobu",
+            "reopen": "ava uuesti",
+            "support_tickets": "Kasutajatoe piletid",
+            "admin_overview": "Ava admini ülevaade",
             "hero": {
-                "help_question": "",
-                "check_forum": ""
+                "help_question": "Millega me saame sulle abiks olla?",
+                "check_forum": "Kui sa ei leia, mida sa otsid, siis <a>vaata meie foorumit</a>"
             },
             "overview": {
-                "knowledge_base_overview": "",
-                "back_to": "",
-                "back_to_overview": "",
-                "back_to_main_categories": "",
-                "loading_articles": "",
-                "no_categories_found": "",
-                "category_not_found": "",
-                "no_articles_found": "",
+                "knowledge_base_overview": "Teabebaasi ülevaade",
+                "back_to": "Tagasi kategooriasse {category}",
+                "back_to_overview": "Tagasi teabebaasi ülevaatesse",
+                "back_to_main_categories": "Tagasi peamisesse kategooriasse",
+                "loading_articles": "Artiklite laadimine",
+                "no_categories_found": "Vabandust, aga siit ei leitud ühtegi kategooriat...",
+                "category_not_found": "Kategooriat ei leitud",
+                "no_articles_found": "Sellest kategooriast ei leitud ühtegi kategooriat",
                 "tools": {
-                    "new_article": "",
-                    "rename_category": "",
-                    "edit_description": "",
-                    "change_icon": "",
-                    "recount_articles": ""
+                    "new_article": "Uus artikkel",
+                    "rename_category": "Nimeta kategooria ümber",
+                    "edit_description": "Muuda kirjeldust",
+                    "change_icon": "Muud aikooni",
+                    "recount_articles": "Loe artiklite arv üle"
                 }
             },
             "article_events": {
-                "article_hidden": "",
-                "article_public": "",
-                "article_modified": ""
+                "article_hidden": "{username} peitis artikli",
+                "article_public": "{username} tegi artikli avalikuks",
+                "article_modified": "{username} muutis seda artiklit."
             },
             "search": {
-                "title": "",
-                "back_to_search_results": "",
-                "search_knowledge_base": "",
-                "searching": "",
-                "searching_for": "",
-                "searched_for": "",
-                "use_searchbox_below": "",
-                "no_results": ""
+                "title": "Otsi",
+                "back_to_search_results": "Tagasi otsingutulemustesse",
+                "search_knowledge_base": "Tagasi teabebaasi",
+                "searching": "Otsimine",
+                "searching_for": "Sõna {searchterm} otsing",
+                "searched_for": "Otsisid sõna {searchterm}. See andis {results} tulemust.",
+                "use_searchbox_below": "Kasuta allolevat otsingut, et otsida meie teabebaasist.",
+                "no_results": "Otsing sõnaga {searchterm} ei andnud tulemusi."
             },
             "not_found": {
-                "title": "",
-                "description": "",
-                "solution": ""
+                "title": "Kirjet ei leitud",
+                "description": "Vabandust, aga selles kohas pole enam seda artiklit või kategooriat.",
+                "solution": "Otsimiseks võid kasutada üleval olevat otsingulahtrit."
             },
             "article": {
-                "article": "",
-                "articles": "",
-                "hidden": "",
-                "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "article": "Artikkel",
+                "articles": "Artiklid",
+                "hidden": "Peidetud",
+                "created_at": "Loodud {date}",
+                "author": "Autor",
+                "authors": "Autorid",
+                "last_modified": "Viimati muudetud {date}",
+                "not_found": "Artiklit ei leitud",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "Jaga artiklit",
+                    "perma_link": "Püsilink sellele artiklile:"
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
-                    "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
-                    "view_ratings": ""
+                    "rename_article": "Nimeta artikkel ümber",
+                    "edit_article": "Muuda artiklit",
+                    "edit_tags": "Muuda artikli silte",
+                    "audit_log": "Vaata auditi logi",
+                    "hide_article": "Peida artikkel",
+                    "recover_article": "Taasta artikkel",
+                    "delete_forever": "Kustuta igaveseks",
+                    "view_ratings": "Vaata hinnanguid"
                 }
             },
             "support_ratings": {
-                "score": "",
-                "helful_article": "",
-                "helful_support": "",
-                "feedback": "",
-                "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "score": "Punktid",
+                "helful_article": "Kas see artikkel oli sulle abiks?",
+                "helful_support": "Oled sa rahul sellega, kuidas sinu kasutajatoe piletit käsitleti?",
+                "feedback": "Aitäh sulle ülevaate eest. Kas sul on ka mingit tagasisidet?",
+                "feedback_not_helpful": "Kurb kuulda, et see artikkel polnud abiks. Mida sa otsisid?",
+                "enter_feedback": "Sisesta oma tagasiside siia",
+                "finished": "Aitäh! Sinu tagasiside on salvestatud.",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "Oih, midagi läks valesti. Sa ei saa seda artiklit või piletit hinnata.",
+                    "guest": "Palun logi sisse enne, kui sa hindad seda artiklid.",
+                    "invalid_points": "Vigane hinnang. Palun proovi uuesti.",
+                    "cannot_rate_article": "Sa ei saa seda artiklit hinnata.",
+                    "neutral_emoji_disabled": "Neutraalne emoji on välja lülitatud.",
+                    "missing_article_id": "Puuduv või vigane artikli ID"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "Näita artiklite hinnanguid madalamast kõrgeimani",
+                    "description": "Näita ainult artikleid, mis on saanud tagasisidet sorteerides alates madalaimast hinnatud artiklist."
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
-                    "loading_auditlog": ""
+                    "title": "Artikli auditi logi",
+                    "article_created": "Artikkel loodi",
+                    "no_more_events": "Ühtegi sündmust ei leitud",
+                    "loading_auditlog": "Auditi logi laadimine"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
-                    "confirm_delete_rating": "",
-                    "feedback": "",
-                    "rating": "",
-                    "username": "",
-                    "rated_on": ""
+                    "title": "Artikli hinnangud",
+                    "loading_ratings": "Hinnangute laadimine",
+                    "no_ratings_found": "Sinuotsinguparameetritele vastavat hinnangut ei leitud",
+                    "article_not_rated": "Seda artiklit pole veel hinnatud.",
+                    "confirm_delete_rating": "Oled sa kindel, et tahad selle hinnangu kustutada?",
+                    "feedback": "Tagasiside",
+                    "rating": "Hinnang",
+                    "username": "=> core.ref.username",
+                    "rated_on": "Hinnatud"
                 }
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Sinu suunamine teabebaasi artiklile...",
+                    "link": "Kui leht ei suuna sind ümber, siis <a>kliki siia</a>"
                 }
             },
             "composer": {
-                "compose_article": "",
-                "compose_ticket": "",
-                "new_article_title": "",
-                "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "warning_save_changes": "",
-                "article_saved": ""
+                "compose_article": "Koosta artikkel",
+                "compose_ticket": "Koosta pilet",
+                "new_article_title": "Uue artikli pealkiri",
+                "enter_message_here": "Sisesta oma sõnum siia",
+                "publish_article": "Avalda artikkel",
+                "publish_article_hint": "Avalda artikkel pärast postitamist.",
+                "manage_tags": "Avalda silte",
+                "write": "Kirjuta",
+                "view": "Vaata",
+                "nothing_to_preview": "Pole midagi näidata",
+                "warning_save_changes": "HOIATUS: Oled sellelt lehelt ilma oma muudatusi salvestamata lahkumas. Kas sa soovid oma muudatused enne lahkumist salvestada?\n\n[OK] = Jah, salvesta. [CANCEL] = Ei, ära salvesta\n",
+                "article_saved": "Artikkel on salvestatud"
             },
             "tickets": {
-                "ticket": "",
-                "subject": "",
-                "ticket_does_not_exist": "",
-                "return_to_overview": "",
-                "ticket_overview": "",
-                "opened_on": "",
-                "ticket_activity": "",
-                "reminders_sent": "",
+                "ticket": "Pilet",
+                "subject": "Teema",
+                "ticket_does_not_exist": "Küsitud tagasitoe pileteid ei leitud.",
+                "return_to_overview": "Tagasi piletite ülevaatesse",
+                "ticket_overview": "Pileti ülevaade",
+                "opened_on": "Avatud",
+                "ticket_activity": "Kasutajalt {username}, viimane tegevus {date}",
+                "reminders_sent": "{count, plural, one {Saadeti üks meeldetuletus} other {# meeldetuletust saadetud}}",
                 "convert_to_ticket": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Konverdi piletiks",
+                    "confirm": "Oled sa kindel, et soovid selle vestluse piletiks konvertida?",
+                    "event": "Vestlus {ticket_title} on konverditud piletiks"
                 },
                 "convert_to_discussion": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Konverdi vestluseks",
+                    "confirm": "Oled sa kindel, et soovid teisendada selle pileti avalikuks vestluseks? Kui keegi on jaganud privaatset infot, siis see tehakse ka avalikuks.",
+                    "event": "Pilet {ticket_title} on teisendatud vestluseks\n\nKas soovid kohe sellele vestlusele minna?\n"
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "Uus",
+                        "description": "See on vastamata pilet"
                     },
                     "open": {
-                        "title": "",
-                        "description": ""
+                        "title": "Ava",
+                        "description": "Sellel piletil on uus vastus ja see ootab sinu vastust."
                     },
                     "pending": {
-                        "title": "",
-                        "description": "",
-                        "description_user": ""
+                        "title": "Ootel",
+                        "description": "See pilet ootab kasutaja vastust.",
+                        "description_user": "Ootame sinu vastust väi, et pilet märgitakse lahendatuks."
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
-                        "is_closed": "",
-                        "close_after_posting": "",
-                        "is_auto_closed": ""
+                        "title": "Suletud",
+                        "description": "See pilet on suletud.",
+                        "is_closed": "Kui pilet on suletud, siis sellele vastamine avab selle uuesti. Soovitame pileti uuesti avada ainult siis, kui probleem pole lahendatud. Kui see on uus probleem, siis palun ava uus pilet.",
+                        "close_after_posting": "Sulge pilet pärast postitamist",
+                        "is_auto_closed": "See pilet on mitteaktiivsuse tõttu suletud."
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "Ootel",
+                        "description": "See pilet on ootel."
                     },
                     "duplicate": {
-                        "title": "",
-                        "description": ""
+                        "title": "Tee koopia",
+                        "description": "See pilet on märgitud kui duplikaat."
                     },
                     "solved": {
-                        "title": "",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "title": "Lahendatud",
+                        "description": "See pilet on märgitud lahendatuks",
+                        "mark_as_solved": "Märgi see pilet lahendatuks"
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
-                    "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
-                    "update_status": "",
-                    "close_ticket": "",
-                    "update_note": ""
+                    "view_ticket": "Vaata piletit",
+                    "update_subject": "Uuenda teemat",
+                    "assign_me": "Määra mulle",
+                    "remove_me": "Eemalda mind",
+                    "update_status": "Uuenda pileti staatust",
+                    "close_ticket": "Sulge pilet",
+                    "update_note": "Uuenda privaatset märkust"
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
-                    "ticket_new": "",
-                    "ticket_updated": ""
+                    "title": "Pileti teavitused",
+                    "no_tickets": "Pileti teavitusi pole",
+                    "ticket_new": "{username} lõi pileti {ticket}",
+                    "ticket_updated": "{username} vastas piletile {ticket}"
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
-                        "description": ""
+                        "title": "Keel",
+                        "placeholder": "Vali keel",
+                        "empty": "Keelt pole valitud",
+                        "description": "Sinu kasutajatoe piletit käsitletakse keeles {language}."
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
-                        "description": ""
+                        "title": "Teema",
+                        "placeholder": "Pileti teema",
+                        "description": "Proovi kirjeldada oma probleemi ühe lühikese lausega."
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Pileti info",
+                        "placeholder": "Kirjuta meile, millega saame sind aidata"
                     },
                     "status": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Staatus",
+                        "placeholder": "Pileti staatus"
                     },
                     "assignees": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Määratud kasutajatele",
+                        "placeholder": "Pileti staatus"
                     },
                     "private_note": {
-                        "title": "",
-                        "info": "",
-                        "tip": "",
-                        "placeholder": "",
-                        "edit_button": ""
+                        "title": "Privaatsed märkmed",
+                        "info": "Privaatsed märkmed on nähtavad ainult teistele kasutajatuge pakkujatele. See pole kliendile nähtav.",
+                        "tip": "VIHJE: Kui töötad mitme inimesega ühe pileti kallal, siis lisa märkmele oma nimi ja kuupäev.",
+                        "placeholder": "Näiteks: 1. mai 2025 - Nimi: Kliendi kustutamine andmebaasist",
+                        "edit_button": "Muuda märkust"
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
-                    "not_allowed": ""
+                    "title": "Kirjuta uus pilet",
+                    "private_support": "Privaatse kasutajatoe jaoks võid luua uue pileti meie kasutajatoe platformil. Mitte-privaatseid küsimusi võid arutada <a>meie avalikus foorumis</a>.",
+                    "not_allowed": "Sa ei saa praegu uut piletit avada"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "Laadi rohkem pileteid"
                 },
                 "my_tickets": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": ""
+                    "title": "Minu piletid",
+                    "description": "Sellelt lehelt leiad kõik oma privaatsed piletid.",
+                    "no_tickets": "Sul pole veel ühtegi piletit."
                 },
                 "overview": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": "",
-                    "all_tickets": "",
-                    "selection_unfiltered": "",
-                    "selection_open": "",
-                    "selection_closed": "",
-                    "refresh": "",
+                    "title": "Piletite ülevaade",
+                    "description": "Naerata, sa oled kangelane, kes aitab inimeste päeval korda minna.",
+                    "no_tickets": "Sinu kriteeriumitele vastavaid pileteid pole. See näitab ilmselt seda, et teed head tööd!",
+                    "all_tickets": "Kõik piletid",
+                    "selection_unfiltered": "Filtreerimata",
+                    "selection_open": "Avatud piletid",
+                    "selection_closed": "Suletud piletid",
+                    "refresh": "Värskenda",
                     "filter": {
                         "status": {
-                            "title": "",
-                            "filter_count": ""
+                            "title": "Pileti staatus",
+                            "filter_count": "{count, plural, one {# filter} other {# filtrit}}"
                         },
                         "language": {
-                            "any": ""
+                            "any": "Iga keel"
                         },
                         "assignees": {
-                            "title": "",
-                            "search": "",
-                            "unassigned": ""
+                            "title": "Filtreeri, kellele on määratud",
+                            "search": "Otsi, kellele on määratud",
+                            "unassigned": "Määramata"
                         }
                     },
                     "sort": {
-                        "newest": "",
-                        "oldest": "",
-                        "recent_activity": "",
-                        "least_recent": ""
+                        "newest": "Uuemad eespool",
+                        "oldest": "Vanimad enne",
+                        "recent_activity": "Viimased tegevused",
+                        "least_recent": "Viimase tegevusega eespool"
                     }
                 }
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "",
-                    "content": ""
+                    "name": "Keegi vastas minu piletile",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "",
-                    "content": ""
+                    "name": "Minu pilet lahendati",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} vastas sinu piletile #{ticket_id}",
+                "body": "Tere {recipient_display_name},\n\n{replier_display_name} vastas sinu piletile #{ticket_id} (teema \"{subject}\").\n\nVastamiseks kasuta allolevat linki:\n{url}\n\nOotema sinu vastust või seda, et märgid pileti lahendatuks.\n"
             },
             "ticket_status_update": {
-                "subject": "",
-                "body": ""
+                "subject": "Pileti #{ticket_id} uus staatus on {new_status}",
+                "body": "Tere {recipient_display_name},\n\nSinu pileti #{ticket_id} uus staatus on {new_status}.\n\nLink sinu piletile:\n{url}\n"
             },
             "ticket_resolved": {
-                "subject": "",
-                "body": ""
+                "subject": "Pilet #{ticket_id} on märgitud lahendatuks",
+                "body": "Tere {recipient_display_name},\n\nSinu pilet #{ticket_id} on märgitud lahendatuks. See tähendab, et see on nüüd suletud.\n\nLink sinu piletile:\n{url}\n\nKui see tundub olevat viga, siis saad pileti uuesti avada sellele vastates.\n"
             },
             "ticket_pending_reply": {
-                "subject": "",
-                "body": ""
+                "subject": "Pilet #{ticket_id} ootab sinu vastust",
+                "body": "Tere {recipient_display_name},\n\n{replier_display_name} vastas mõni aeg tagasi sinu piletile #{ticket_id} (kuupäeval {replied_date}) ja me ootame sinu vastust.\n\nSinu pileti link on:\n{url}\n\nKui probleem on lahendatud, siis märgi see pilet lahendatuks.\n"
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
-                "body": ""
+                "subject": "Pilet #{ticket_id} on tegevusetuse tõttu suletud",
+                "body": "Tere {recipient_display_name},\n\n{replier_display_name} vastas mõni aeg tagasi sinu piletile #{ticket_id}. Kahjuks pole me sinu käest vastust saanud. Sinu pilet on vastuse viibimise tõttu automaatselt suletud.\n\nKui soovid vastata, siis sinu pileti link on:\n{url}\n"
             }
         }
     }

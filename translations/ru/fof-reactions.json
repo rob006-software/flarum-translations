@@ -11,7 +11,7 @@
             "modal": {
                 "title": "Реакции",
                 "anonymous_count": "{count, plural, one {# анонимный пользователь} other {# анонимных пользователей}}",
-                "no_reactions": ""
+                "no_reactions": "Пока нет реакций"
             },
             "mod_item": "Смотреть реакции",
             "react_button_label": "Реакция"
@@ -20,7 +20,7 @@
             "permissions": {
                 "react_posts_label": "Реагировать на сообщения",
                 "see_reactions_label": "Смотреть, кто реагировал на сообщения",
-                "delete_post_reactions_label": ""
+                "delete_post_reactions_label": "Удалить реакции на сообщения"
             },
             "page": {
                 "cdn": {
@@ -37,7 +37,7 @@
                         "display": "Отображение",
                         "identifier": "Идентификатор"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "Вы уверены, что хотите удалить эту реакцию? Это действие нельзя отменить."
                 },
                 "convert": {
                     "help": "Если Вы обновили расширение, то Ваши реакции следует конвертировать. Если Вы установили расширение впервые, проигнорируйте это предупреждение.",

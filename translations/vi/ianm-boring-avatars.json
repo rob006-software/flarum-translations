@@ -2,28 +2,28 @@
     "ianm-boring-avatars": {
         "admin": {
             "settings": {
-                "color1": "",
-                "color2": "",
-                "color3": "",
-                "color4": "",
-                "color5": "",
-                "identifier": "",
-                "identifier_help": "",
-                "identifier_id": "",
-                "identifier_display_name": "",
-                "identifier_email": "",
-                "theme": "",
-                "theme_help": ""
+                "color1": "Màu 1",
+                "color2": "Màu 2",
+                "color3": "Màu 3",
+                "color4": "Màu 4",
+                "color5": "Màu 5",
+                "identifier": "Định danh",
+                "identifier_help": "Được sử dụng để tạo avatar duy nhất cho mỗi người dùng.\n",
+                "identifier_id": "ID Người dùng",
+                "identifier_display_name": "Tên hiển thị",
+                "identifier_email": "Email",
+                "theme": "Chủ đề",
+                "theme_help": "Chủ đề được sử dụng cho boring avatars.\n"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "boringavatar": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Thêm boring avatar vào file zip xuất dữ liệu.",
+                    "anonymize_description": "Xóa boring avatar, và tạo lại một avatar ngẫu nhiên mới.",
+                    "delete_description": "Xóa boring avatar."
                 }
             }
         }

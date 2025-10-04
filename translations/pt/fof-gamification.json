@@ -2,7 +2,7 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Tendendo",
+                "hot_button": "Em destaque",
                 "votes_button": "Votos a favor"
             }
         }
@@ -10,7 +10,7 @@
     "fof-gamification": {
         "forum": {
             "votes": "Votos",
-            "vote_title": "Mostar quem votou",
+            "vote_title": "Exibir quem votou",
             "nav": {
                 "name": "Classificações"
             },
@@ -21,7 +21,7 @@
             },
             "notification": {
                 "upvote": "{username} votou a favor da sua publicação",
-                "downvote": "{username} votou contra a tua publicação",
+                "downvote": "{username} votou contra a sua publicação",
                 "prefrences": {
                     "vote": "Quando uma das minhas publicações for votada"
                 }
@@ -38,9 +38,9 @@
                 "title": "Votantes",
                 "upvotes_label": "Votantes a favor:"
             },
-            "mod_item": "Ver votantes",
+            "mod_item": "Visualizar votantes",
             "voters": {
-                "none": "Não tem votantes",
+                "none": "Ainda ninguém votou",
                 "label": "Votantes",
                 "label_none": "Sem votantes"
             },
@@ -51,22 +51,22 @@
         },
         "admin": {
             "permissions": {
-                "vote_label": "Votar a favor/contra postagens",
-                "see_votes_label": "Ver contagem de votos a favor/contra",
-                "see_voters_label": "Ver quem votou",
-                "see_ranking_page": "Ver a página de ranking",
+                "vote_label": "Votar a favor/contra publicações",
+                "see_votes_label": "Visualizar contagem de votos a favor/contra",
+                "see_voters_label": "Visualizar quem votou",
+                "see_ranking_page": "Visualizar a página de ranking",
                 "upvote_notifications": "Receber notificações de votos a favor",
                 "downvote_notifications": "Receber notificações de votos contra"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "admin, user1, user2",
+                        "placeholder": "admin, utilizador1, utilizador2",
                         "title": "Ignorar utilizadores",
-                        "help": "Estes utilizadores não serão mostrados na página de classificação. Nomes de utilizadores devem ser separados por virgula seguido de espaço."
+                        "help": "Estes utilizadores não serão exibidos na página de classificação. Nomes de utilizadores devem ser separados por virgula seguido de um espaço."
                     },
                     "title": "Página de classificação",
-                    "enable": "Activar imagens customizadas",
+                    "enable": "Ativar imagens customizadas",
                     "custom_image_1": "Imagem do primeiro classificado",
                     "custom_image_2": "Imagem do segundo classificado",
                     "custom_image_3": "Imagem do terceiro classificado"
@@ -78,23 +78,23 @@
                     "points_title": "Marcador de pontos",
                     "points_placeholder": "Pontos: ",
                     "color_holder": "#ffffff",
-                    "auto_upvote": "Votar automaticamente a favor quando postar",
-                    "rate_limit": "Impor um limite de tempo de votação (10 segundos)",
-                    "discussion_page": "Ver o total de votos na postagem original na lista de discussões",
-                    "alternate_layout": "Usar um layout alternativo de votação na lista de discussão",
-                    "alternate_post_layout": "Utilizar layout alternativo nas postagens",
+                    "auto_upvote": "Votar automaticamente a favor quando publicar",
+                    "rate_limit": "Impor um limite de tempo entre votações (10 segundos)",
+                    "discussion_page": "Visualizar o total de votos da publicação original na lista de discussões",
+                    "alternate_layout": "Utilizar um layout alternativo para a votação na lista de discussões",
+                    "alternate_post_layout": "Utilizar layout alternativo nas publicações",
                     "title": "Votos",
                     "vote_color": "Cor de voto",
-                    "icon_name": "Icone voto a favor/contra",
+                    "icon_name": "Ícone para voto a favor/contra",
                     "icon_help": "Indique qualquer ícone Font-Awesome que tem como sufixo -up e -down. Exemplos: arrow, thumbs, chevron",
                     "upvotes_only": "Permitir apenas votos a favor",
-                    "first_post_only": "Permitir apenas votos a favor/contra na primeira postagem da discussão",
-                    "allow_self_votes": "Os utilizadores podem votar nas suas próprias postagens"
+                    "first_post_only": "Permitir apenas votos a favor/contra na primeira publicação da discussão",
+                    "allow_self_votes": "Os utilizadores podem votar nas suas próprias publicações"
                 },
                 "save_settings": "Guardar definições",
                 "convert": {
                     "button": "Converter gostos em votos a favor",
-                    "help": "Converter gostos prévios de flarum-ext-likes em votos a favor, assim como calcular os votos das discussões actuais.",
+                    "help": "Converter gostos anteriores provenientes do flarum-ext-likes em votos a favor, assim como calcular os votos das discussões actuais.",
                     "converting": "Os seus gostos estão a ser convertidos. Refresca o sitio daqui a alguns minutos para ver se o processo terminou. (O tempo de conversão pode ser elevado dependendo do numero total de gostos do seu forum)",
                     "converted": "Foram convertidos com sucesso {number} gostos"
                 },
@@ -124,10 +124,10 @@
         },
         "email": {
             "body": {
-                "postVoted": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de votar na sua postagem {discussion_title}.\n\nPode aceder aqui: {discussion_url}\n"
+                "postVoted": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de votar na sua publicação {discussion_title}.\n\nPode aceder aqui: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": "A sua postagem recebeu um voto de {display_name}"
+                "postVoted": "A sua publicação recebeu um voto de {display_name}"
             }
         }
     }

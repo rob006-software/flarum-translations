@@ -2,27 +2,28 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Vaata sotsiaalmeedia profiili",
+                "editOwn": "Omaenda sotsiaalse profiili muutmine",
+                "editAny": "Sotsiaalmeedia nuppude muutmine"
             },
             "settings": {
-                "allow_external_favicons_label": ""
+                "allow_external_favicons_label": "Luba väliste veebisaidi ikoonide kasutamist (kasutab välise teenusepakkuja faviconi API-t)",
+                "favicon_provider_label": "Välise Faviconi teenuse pakkuja"
             }
         },
         "forum": {
             "edit": {
-                "edit": "",
-                "add": "",
-                "headtitle": "",
-                "title": "",
-                "url": "",
-                "submit": "",
-                "delete": "",
-                "deletetitle": "",
-                "save_disabled_fetching_favicons": "",
-                "favicon": "",
-                "grey_favicon": ""
+                "edit": "Muuda oma sotsiaalmeedianuppe",
+                "add": "Lisa nupud oma sotsiaalmeedia saitidele",
+                "headtitle": "Muuda nuppe",
+                "title": "Pealkiri",
+                "url": "URL",
+                "submit": "Salvesta",
+                "delete": "Kustuta",
+                "deletetitle": "Kustuta nupp",
+                "save_disabled_fetching_favicons": "Tõmmatakse ühte või rohkemat ikooni. Palun oota.",
+                "favicon": "Favicon",
+                "grey_favicon": "Hall Favicon"
             }
         }
     }

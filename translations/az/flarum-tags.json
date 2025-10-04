@@ -43,6 +43,7 @@
                 "about_tags_text": "Etiketlər müzakirələri təsnif etmək üçün istifadə olunur. Birincil etiketlər ənənəvi forum kateqoriyalarına bənzəyir: iki səviyyəli bir iyerarxiyada yerləşdirilə bilər. İkincili etiketlərin iyerarxiyası və nizamı yoxdur və mikro-kateqoriyalar üçün faydalıdır.",
                 "create_primary_tag_button": "Əsas Etiket yarat",
                 "create_secondary_tag_button": "İkincil Etiket yarat",
+                "edit_tag_label": "",
                 "primary_heading": "Əsas Etiketlər",
                 "secondary_heading": "İkincil Etiketlər",
                 "settings_heading": "Parametrlər"
@@ -100,6 +101,17 @@
             "choose_tags_placeholder": "{count, plural, one {Daha 1 etiket seçin} other {Daha # etiket seçin}}",
             "name": "Ad",
             "tags": "Etiketlər"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

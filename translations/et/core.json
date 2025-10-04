@@ -11,7 +11,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Kohandatud päis",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "",
+                "custom_styles_cannot_use_less_features": "@import ja data-uri funktsioonide kasutamine pole kohandatud LESS-is lubatud.",
                 "custom_styles_heading": "Kohandatud stiil",
                 "custom_styles_text": "Kohanda oma foorumi välimust enda Less/CSS koodi abil, mida kasutatakse lisaks Flarumi vaikimisi stiilidele.",
                 "dark_mode_label": "Tume töörežiim",
@@ -45,14 +45,14 @@
                 "welcome_banner_text": "Sisesta tekst, mida kuvatakse 'Kõikide teemade' lehe päises. Kasuta seda oma foorumi külaliste tervitamiseks."
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "E-post",
+                "email_confirmed_label": "Nõua kasutajal selle e-posti kinnitamist",
+                "password_placeholder": "Parool",
+                "submit_and_create_another_button": "Loo ja lisa veel üks",
+                "submit_button": "Loo kasutaja",
+                "title": "Loo uus kasutaja",
+                "use_random_password": "Genereeri parool",
+                "username_placeholder": "Kasutajanimi"
             },
             "dashboard": {
                 "clear_cache_button": "Puhasta vahemälu",
@@ -60,14 +60,14 @@
                 "io_error_message": "Failisüsteemi kirjutamine ebaõnnestus. Kontrollige oma failisüsteemi õiguseid ja proovige uuesti. Või proovige jooksutada käsurealt.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "scheduler-status": "Ajastaja",
+                        "queue-driver": "Järjekorra draiver",
+                        "session-driver": "Sessiooni draiver"
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Aktiivne",
+                        "inactive": "Mitteaktiivne",
+                        "never-run": "Ära käivita kunagi"
                     }
                 },
                 "title": "Juhtpaneel",
@@ -90,7 +90,7 @@
             "edit_group": {
                 "color_label": "=> core.ref.color",
                 "delete_button": "Kustuta grupp",
-                "delete_confirmation": "Oled kindel, et tahad selle grupi kustutada? Grupi liikmeid ei kustutata.",
+                "delete_confirmation": "Oled sa kindel, et tahad selle grupi kustutada? Grupi liikmeid ei kustutata.",
                 "hide_label": "Peida foorumis",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
@@ -130,7 +130,7 @@
             },
             "extension": {
                 "configure_scopes": "Kõik õigused",
-                "confirm_purge": "Eemaldatakse kõik andmebaasi kirjed ja lisad, mis seostuvad selle laiendusega. See ei kustuta laiendust; seda tuleb teha kasutades Composerit. Olete kindel, et soovite jätkata?",
+                "confirm_purge": "Eemaldatakse kõik andmebaasi kirjed ja lisad, mis seostuvad selle laiendusega. See ei kustuta laiendust; seda tuleb teha kasutades Composerit. Oled sa kindel, et soovid jätkata?",
                 "disabled": "Keelatud",
                 "enable_to_see": "Luba laiendusel näha ja muuta seadeid.",
                 "enabled": "Lubatud",
@@ -138,7 +138,7 @@
                     "discuss": "Aruta",
                     "documentation": "Dokumentatsioon",
                     "donate": "Anneta",
-                    "source": "Kood",
+                    "source": "Lähtekood",
                     "support": "Tugi",
                     "website": "Veebileht"
                 },
@@ -148,8 +148,8 @@
                 "permissions_title": "Õigused",
                 "purge_button": "Eemalda",
                 "readme": {
-                    "button_label": "README",
-                    "no_readme": "Sellel laiendusel ei paista README faili olevat",
+                    "button_label": "LOE MIND",
+                    "no_readme": "Sellel laiendusel ei paista LOE MIND faili olevat",
                     "title": "{extName} dokumentatsioon"
                 }
             },
@@ -166,10 +166,10 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "Tuvastamine",
-                    "core": "Põhikonfiguratsioon",
-                    "discussion": "Teema",
-                    "feature": "Laiendused",
+                    "authentication": "Autentimine",
+                    "core": "Põhiseaded",
+                    "discussion": "Vestlus",
+                    "feature": "Funktsioonid",
                     "formatting": "Vormindus",
                     "language": "Keeled",
                     "moderation": "Modereerimine",
@@ -187,41 +187,41 @@
                 "search_placeholder": "Otsi laiendusi"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "Luba oma postituste kustutamine",
                 "allow_post_editing_label": "Postituse muutmine",
-                "allow_renaming_label": "Ümbernimetamine",
-                "create_access_token_label": "",
+                "allow_renaming_label": "Luba ümber nimetamine",
+                "create_access_token_label": "Loo ligipääsukood",
                 "create_heading": "Uue loomine",
-                "delete_discussions_forever_label": "Teemade kustutamine igaveseks",
-                "delete_discussions_label": "Teemade kustutamine",
+                "delete_discussions_forever_label": "Vestluste kustutamine jäädavalt",
+                "delete_discussions_label": "Vestluste kustutamine",
                 "delete_posts_forever_label": "Postituste kustutamine igaveseks",
                 "delete_posts_label": "Postituste kustutamine",
-                "description": "Seadista, kes näeb ja saab teha mida.",
+                "description": "Seadista, kes mida näeb ja mida teha saab.",
                 "edit_posts_label": "Postituste muutmine",
                 "edit_users_label": "Kasutajate muutmine",
                 "edit_users_credentials_label": "Kasutajanime ja parooli muutmine",
                 "edit_users_groups_label": "Kasutajagruppide muutmine",
                 "global_heading": "Vaikimisi",
                 "moderate_heading": "Modereerimine",
-                "moderate_access_tokens_label": "",
+                "moderate_access_tokens_label": "Halda ligipääsukoode",
                 "new_group_button": "Uus grupp",
                 "participate_heading": "Osalemine",
                 "post_without_throttle_label": "Ilma vahepausita vastamine",
                 "read_heading": "Vaatamine",
-                "rename_discussions_label": "Teemade ümbernimetamine",
-                "reply_to_discussions_label": "Teemadele vastamine",
+                "rename_discussions_label": "Vestluste ümbernimetamine",
+                "reply_to_discussions_label": "Vestlustele vastamine",
                 "search_users_label": "Kasutajate otsimine",
                 "sign_up_label": "Registreerumine",
-                "start_discussions_label": "Uute teemade alustamine",
+                "start_discussions_label": "Uute vestluste alustamine",
                 "title": "Õigused",
-                "view_forum_label": "Teemade ja kasutajate näitamine",
-                "view_hidden_groups_label": "Peidetud gruppide näitamine",
-                "view_last_seen_at_label": "Kasutaja viimati lehel olemise näitamine",
+                "view_forum_label": "Vestluste ja kasutajate vaatamine",
+                "view_hidden_groups_label": "Peidetud gruppide vaatamine",
+                "view_last_seen_at_label": "Kasutaja viimati lehel olemise vaatamine",
                 "view_post_ips_label": "Postituse IP-aadressi näitamine"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Määramata ajaks",
-                "allow_never_button": "",
+                "allow_never_button": "Mitte kunagi",
                 "allow_some_minutes_button": "{count, plural, one {# minut} other {# minutit}}",
                 "allow_ten_minutes_button": "10 minutit",
                 "allow_until_reply_button": "Kuni järgmise vastuseni",
@@ -239,16 +239,16 @@
                 "upload_button": "Vali pilt..."
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "Uus kasutaja",
                 "description": "Foorumi kõikide kasutajate loend.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Näidatav nimi"
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "tooltip": "Muuda {username} kasutajat",
+                            "tooltip": "Muuda kasutajat {username}",
                             "title": "=> core.ref.edit_user"
                         },
                         "email": {
@@ -264,7 +264,7 @@
                             "title": "Liitus"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "Toimingud"
                         },
                         "user_id": {
                             "title": "ID"
@@ -278,15 +278,15 @@
                 },
                 "pagination": {
                     "back_button": "Eelmine",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
+                    "first_button": "Mine esimesele leheküljele",
+                    "go_to_page_textbox_a11y_label": "Mine otse leheküljele number",
+                    "last_button": "Mine viimasele lehele",
                     "next_button": "Järgmine",
                     "page_counter": "Leht {current}/{total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "Otsi kasutajaid",
                 "title": "=> core.ref.users",
-                "total_users": "Kokku kasutajaid: {count}"
+                "total_users": "Kasutajaid kokku: {count}"
             }
         },
         "forum": {
@@ -313,38 +313,38 @@
             "composer_discussion": {
                 "body_placeholder": "Kirjuta teade...",
                 "discard_confirmation": "Sa ei ole oma teemat veel postitanud. Kas tahad sellest loobuda?",
-                "submit_button": "Postita teema",
+                "submit_button": "Alusta vestlust",
                 "title": "=> core.ref.start_a_discussion",
-                "title_placeholder": "Teema pealkiri"
+                "title_placeholder": "Vestluse pealkiri"
             },
             "composer_edit": {
-                "discard_confirmation": "Sa ei ole oma muudatusi veel salvestanud. Kas soovid neist loobuda?",
+                "discard_confirmation": "Sa pole oma muudatusi veel salvestanud. Kas soovid neist loobuda?",
                 "edited_message": "Muudatus tehtud.",
-                "post_link": "Postitus #{number} teemas {discussion}",
+                "post_link": "Postitus #{number} vestluses {discussion}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "Sa ei ole oma vastust vee postitanud. Kas soovid sellest loobuda?",
+                "discard_confirmation": "Sa pole oma vastust veel postitanud. Kas soovid sellest loobuda?",
                 "posted_message": "Vastus postitatud.",
                 "submit_button": "Saada vastus",
                 "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
                 "cannot_reply_button": "Ei saa vastata",
-                "cannot_reply_text": "Sul pole õigust siia teemasse vastata.",
+                "cannot_reply_text": "Sul pole õigust sellele vestlusele vastata.",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Oled kindel, et soovid selle teema kustutada?",
+                "delete_confirmation": "Oled sa kindel, et soovid selle vestluse kustutada?",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "log_in_to_reply_button": "Vastamiseks logi sisse",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Näita teema käskluste menüüd"
+                "toggle_dropdown_accessible_label": "Näita vestluse käskluste menüüd"
             },
             "discussion_list": {
-                "empty_text": "Siin ei ole veel ühtegi teemat.",
+                "empty_text": "Siin ei ole veel ühtegi vestlust.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} vastas {ago}",
                 "started_text": "{username} alustas {ago}",
@@ -356,13 +356,13 @@
                 "email_placeholder": "=> core.ref.email",
                 "email_sent_message": "Saatsime sulle meilile paroolivahetuse lingi. Vaata ka oma spämmikausta, kui see minuti või paari jooksul saabunud pole.",
                 "not_found_message": "Sellise meiliaadressiga kasutajat meil ei ole.",
-                "submit_button": "Unustasin parooli",
+                "submit_button": "Taasta parool",
                 "text": "Sisesta oma meiliaadress ja me saadame sinna paroolimuutmise lingi.",
                 "title": "Unustasin parooli"
             },
             "header": {
                 "admin_button": "Administreerimine",
-                "back_to_index_tooltip": "Tagasi teemade loetellu",
+                "back_to_index_tooltip": "Tagasi vestluste nimekirja",
                 "locale_dropdown_accessible_label": "Muuda foorumi asukohaseadeid",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
@@ -377,7 +377,7 @@
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
                 "cannot_start_discussion_button": "Ei saa uut teemat alustada",
-                "mark_all_as_read_confirmation": "Oled kindel, et soovid kõik teemad loetuks märkida?",
+                "mark_all_as_read_confirmation": "Oled sa kindel, et soovid kõik vestlused loetuks märkida?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Värskenda",
@@ -389,21 +389,21 @@
                 "newest_button": "Uuemad",
                 "oldest_button": "Vanemad",
                 "relevance_button": "Tähtsuse järgi",
-                "toggle_dropdown_accessible_label": "Muuda teemade järjestust",
+                "toggle_dropdown_accessible_label": "Muuda vestluste järjestust",
                 "top_button": "Aktiivsemad"
             },
             "log_in": {
                 "forgot_password_link": "Unustasid parooli?",
-                "invalid_login_message": "Sinu sisselogimisandmed ei olnud õiged.",
+                "invalid_login_message": "Sinu sisselogimisandmed polnud õiged.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "Jäta mind meelde",
-                "sign_up_text": "Pole kontot? <a>Registreeri</a>",
+                "sign_up_text": "Pole kontot? <a>Registreeru</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "Kasutajanimi või meiliaadress"
             },
             "notifications": {
-                "delete_all_confirm": "Olete kindel, et soovite kustutada kõik teavitused? Teavitusi ei ole võimalik taastada",
+                "delete_all_confirm": "Oled sa kindel, et soovid kustutada kõik teavitused? Teavitusi pole võimalik taastada",
                 "delete_all_tooltip": "Kustuta kõik teated",
                 "discussion_renamed_text": "{username} muutis pealkirja",
                 "empty_text": "Teateid pole",
@@ -420,10 +420,10 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Oled kindel, et soovid selle postituse igaveseks kustutada? Seda toimingut ei saa tagasi võtta.",
+                "delete_confirmation": "Oled sa kindel, et soovid selle postituse igaveseks kustutada? Seda toimingut ei saa tagasi võtta.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "Oled kindel, et soovid selle postituse kustutada?",
+                "hide_confirmation": "Oled sa kindel, et soovid selle postituse kustutada?",
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Näita postituse juhtmenüüd"
             },
@@ -435,14 +435,14 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Vana pealkiri oli: \"{old}\"",
-                "discussion_renamed_text": "{username} muutis pealkirjaks {new}.",
+                "discussion_renamed_text": "{username} muutis pealkirjaks {new} ({time}).",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} hiljem"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
-                "title": "Nimeta teema ringi"
+                "title": "Nimeta vestlus ümber"
             },
             "search": {
                 "all_discussions_button": "Otsi kõikidest teemadest \"{query}\"",
@@ -450,39 +450,39 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
-                "developer_tokens_heading": "",
-                "empty_text": "",
+                "browser_on_operating_system": "{browser} operatsioonisüsteemil {os}",
+                "cannot_terminate_current_session": "Praegust aktiivset sessiooni ei saa sulgeda. Proovi hoopis väljalogimist.",
+                "created": "Loodud",
+                "current_active_session": "Praegune aktiivne sessioon",
+                "developer_tokens_heading": "Arendaja ligipääsukoodid",
+                "empty_text": "Näib, et siin pole midagi vaadata.",
                 "global_logout": {
-                    "heading": "",
-                    "help_text": "",
-                    "log_out_button": ""
+                    "heading": "Üldine väljalogimine",
+                    "help_text": "Tühjendab praegused küpsiste sessioonid, lõpetab kõik sessioonid, eemaldab arendajate ligipääsukoodid ning tühistab kõik kinnitust küsivad e-kirjad ja parooli taastamise e-kirjad.",
+                    "log_out_button": "Logi välja"
                 },
-                "hide_access_token": "",
-                "last_activity": "",
-                "never": "",
-                "new_access_token_button": "",
+                "hide_access_token": "Peida kontrollkood",
+                "last_activity": "Viimane tegevus",
+                "never": "Mitte kunagi",
+                "new_access_token_button": "Uus kontrollkood",
                 "new_access_token_modal": {
-                    "submit_button": "",
-                    "title": "",
-                    "title_placeholder": ""
+                    "submit_button": "Loo kontrollkood",
+                    "title": "Uus kontrollkood",
+                    "title_placeholder": "Pealkiri"
                 },
-                "revoke_access_token": "",
-                "revoke_access_token_confirmation": "",
-                "sessions_heading": "",
-                "session_terminated": "",
-                "session_termination_failed": "",
-                "show_access_token": "",
-                "terminate_all_other_sessions": "",
-                "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
-                "title": "",
-                "token_revoked": "",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "revoke_access_token": "Eemalda",
+                "revoke_access_token_confirmation": "Kinnituskiri",
+                "sessions_heading": "Aktiivsed sessioonid",
+                "session_terminated": "{count, plural, one {Session lõpetatud} other {# Sessions lõpetatud}}.",
+                "session_termination_failed": "Sinu sessiooni lõpetamisel tekkis tõrge.",
+                "show_access_token": "Vaata kontrollkoodi",
+                "terminate_all_other_sessions": "Lõpeta kõik teised sessioonid",
+                "terminate_all_other_sessions_confirmation": "Kinnitussõnum",
+                "terminate_session": "Lõpeta",
+                "title": "Turvalisus",
+                "token_revoked": "Kontrollkood on eemaldatud.",
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "Konto",
@@ -492,8 +492,8 @@
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Veeb",
-                "notify_discussion_renamed_label": "Keegi nimetab minu alustatud teema ringi",
-                "privacy_disclose_online_label": "Näita teistele, kui ma olen lehel sees",
+                "notify_discussion_renamed_label": "Keegi nimetab minu alustatud vestluse ümber",
+                "privacy_disclose_online_label": "Näita teistele, kui ma olen lehel",
                 "privacy_heading": "Privaatsus",
                 "title": "=> core.ref.settings"
             },
@@ -512,19 +512,19 @@
                 "avatar_upload_button": "Laadi üles",
                 "avatar_upload_tooltip": "Laadi üles uus avatar",
                 "discussions_link": "=> core.ref.discussions",
-                "in_discussion_text": "Teemas {discussion}",
+                "in_discussion_text": "Vestluses {discussion}",
                 "joined_date_text": "Liitus {ago}",
-                "online_text": "Sees",
-                "posts_empty_text": "Siin ei ole ühtegi postitust.",
+                "online_text": "Saidil",
+                "posts_empty_text": "Siin pole ühtegi postitust.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "Turvalisus",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
                 "button": "Juhtpaneel",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Oled kindel, et soovid antud kasutaja kustutada? Kasutaja postitusi ei kustutata.",
+                "delete_confirmation": "Oled kindel, et soovid antud kasutaja kustutada? Kasutaja postitusi EI kustutata.",
                 "delete_error_message": "Kasutaja <i>{username} ({email})</i> kustutamine ebaõnnestus",
                 "delete_success_message": "Kasutaja <i>{username} ({email})</i> on kustutatud",
                 "edit_button": "=> core.ref.edit",
@@ -551,7 +551,7 @@
                 "toggle_dropdown_accessible_label": "Näita menüüd"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "Aktiveeri kasutaja",
@@ -565,20 +565,20 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": "Sul ei ole õigust seda kasutajat muuta."
+                "nothing_available": "Sul pole õigust seda kasutajat muuta."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "Tuvastati probleemsed sõltuvused: {extensions}. Katkestamine. Palun lülita üks lisaprogrammidest välja ja proovi siis uuesti.",
                 "dependent_extensions_message": "{extension} laiendust ei saa keelata enne nende laienduste keelamist: {extensions}",
                 "extension_initialiation_failed_message": "{extension} paigaldamine ebaõnnestus - lisainformatsiooni võid leida brauseri konsoolist.",
                 "generic_message": "Oih! Juhtus ootamatu viga. Palun laadi leht uuesti ja proovi veel kord.",
-                "generic_cross_origin_message": "",
+                "generic_cross_origin_message": "Ups! Päringuga läks midagi valesti. Palun laadi lehekülg ja proovi uuesti.",
                 "missing_dependencies_message": "{extension} laiendust ei saa lubada enne nende laienduste lubamist: {extensions}",
                 "not_found_message": "Nõutud ressurssi ei leitud.",
                 "payload_too_large_message": "Teostatud päring oli liiga mahukas.",
-                "permission_denied_message": "Sul ei ole selle jaoks õigust.",
-                "rate_limit_exceeded_message": "Postitad liiga kiiresti. Proovi mõne sekundi pärast uuest.",
-                "render_failed_message": "Vabandage, sisu kuvamisel tekkis viga. Kui olete kasutaja, siis proovige hiljem uuesti. Kui olete foorumi administraator, siis kontrollige Flarumi logifaile, kust leiab lisainformatsiooni."
+                "permission_denied_message": "Sul ei ole selle jaoks õigusi.",
+                "rate_limit_exceeded_message": "Postitad liiga kiiresti. Proovi mõne sekundi pärast uuesti.",
+                "render_failed_message": "Vabandust, sisu kuvamisel tekkis tõrge. Kui oled kasutaja, siis proovi hiljem uuesti. Kui oled foorumi administraator, siis kontrolli Flarumi logifaile, kust on lisainformatsiooni."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -594,13 +594,13 @@
                 "drawer_button": "Ava navigatsioon"
             },
             "number_suffix": {
-                "kilo_text": "k",
+                "kilo_text": "K",
                 "mega_text": "M"
             },
             "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+                "humanTimeShort": "D MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY"
             },
             "series": {
                 "glue_text": ", ",
@@ -615,9 +615,9 @@
             "admin": {
                 "extensions": {
                     "caption": "=> core.ref.extensions",
-                    "disable": "Keela",
+                    "disable": "Lülita välja",
                     "empty": "Laiendusi ei ole paigaldatud",
-                    "enable": "Luba",
+                    "enable": "Lülita sisse",
                     "name": "Laienduse nimi",
                     "package_name": "Paketi nimi",
                     "version": "Versioon"
@@ -629,8 +629,8 @@
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
-                "text": "",
-                "title": ""
+                "text": "Kliki alloleval nupul, et kinnitada oma konto e-maili aadress.",
+                "title": "Kinnita e-post"
             },
             "content": {
                 "javascript_disabled_message": "Seda lehte on soovitatav külastada kaasaegse veebilehitsejaga, kus on JavaScript lubatud.",
@@ -642,12 +642,12 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "Sa pole olnud kaua aktiivne.",
+                "csrf_token_mismatch": "Oled olnud liiga kaua mitteaktiivne.",
                 "csrf_token_mismatch_return_link": "Mine tagasi, et uuesti proovida",
                 "invalid_confirmation_token": "See kinnituslink pole õige või seda on juba kasutatud.",
                 "not_authenticated": "Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.",
                 "not_found": "Nõutud lehte ei leitud.",
-                "not_found_return_link": "Mine tagasi {forum} lehele",
+                "not_found_return_link": "Mine tagasi lehele {forum}",
                 "permission_denied": "Sul pole sellele lehele ligipääsuõigust.",
                 "unknown": "Lehel laadimisel tekkis viga."
             },
@@ -671,9 +671,9 @@
         "api": {
             "invalid_username_message": "Kasutajanimes võivad olla vaid tähed, numbrid ja sidekriips.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "Filter {filter} peab olema number.",
+                "must_not_be_array_message": "Filter {filter} ei tohi olla andmemassiiv.",
+                "must_not_be_multidimensional_array_message": "Filter {filter} ei tohi olla mitmemõõduline andmemassiiv."
             }
         },
         "email": {
@@ -695,12 +695,12 @@
             }
         },
         "ref": {
-            "all_discussions": "Kõik teemad",
+            "all_discussions": "Kõik vestlused",
             "change_email": "Muuda meiliaadressi",
             "change_password": "Muuda parooli",
             "color": "Värv",
             "confirm_password": "Kinnita parool",
-            "confirm_email": "",
+            "confirm_email": "Kinnita e-mail",
             "confirmation_email_sent": "Saatsime kinnituskirja {email} aadressile. Kui seda ei tule, vaadake ka oma spämmikausta.",
             "custom_footer_text": "Lisa lehe jalusesse kõige lõppu see HTML.",
             "custom_footer_title": "Kohandatud jalus",
@@ -708,21 +708,21 @@
             "custom_header_title": "Kohandatud päis",
             "delete": "Kustuta",
             "delete_forever": "Kustuta igaveseks",
-            "discussions": "Teemad",
+            "discussions": "Vestlused",
             "edit": "Muuda",
             "edit_user": "Muuda kasutajat",
-            "email": "Meil",
-            "extensions": "",
-            "generic_confirmation_message": "",
+            "email": "E-post",
+            "extensions": "Laiendused",
+            "generic_confirmation_message": "Oled sa kindel, et soovid jätkata? Seda toimingut ei saa tühistada.",
             "icon": "Ikoon",
-            "icon_text": "Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> <code>fas fa-</code> algusega.",
-            "load_more": "Laadi juurde",
-            "loading": "Laadin...",
+            "icon_text": "Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> <code>fas fa-</code> eesliitega.",
+            "load_more": "Laadi rohkem",
+            "loading": "Laadimine...",
             "log_in": "Sisene",
             "log_out": "Välju",
             "mark_all_as_read": "Märgi kõik loetuks",
-            "never": "",
-            "new_token": "",
+            "never": "Mitte kunagi",
+            "new_token": "Uus kontrollkood",
             "next_page": "Järgmine lehekülg",
             "notifications": "Teavitused",
             "okay": "OK",
@@ -730,17 +730,17 @@
             "posts": "Postitused",
             "previous_page": "Eelmine lehekülg",
             "remove": "Eemalda",
-            "rename": "Nimeta ringi",
+            "rename": "Nimeta ümber",
             "reply": "Vasta",
             "reset_your_password": "Taasta parool",
             "restore": "Taasta",
             "save_changes": "Salvesta muudatused",
-            "search_users": "",
-            "security": "",
+            "search_users": "Otsi kasutajaid",
+            "security": "Turvalisus",
             "settings": "Seaded",
             "sign_up": "Registreeru",
             "some_others": "{count, plural, one {# teine} other {# teist}}",
-            "start_a_discussion": "Alusta uut teemat",
+            "start_a_discussion": "Alusta uut vestlust",
             "username": "Kasutajanimi",
             "users": "Kasutajad",
             "view": "Vaata",

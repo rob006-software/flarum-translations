@@ -70,7 +70,10 @@
                     "extra_text_help": "Texto adicional para incluir en el webhook enviado.",
                     "group_label": "Grupo",
                     "group_help": "Enviar recursos que este grupo pueda ver",
-                    "events_label": "Eventos"
+                    "name_label": "",
+                    "name_help": "",
+                    "events_label": "Eventos",
+                    "include_matching_tags_label": ""
                 },
                 "services": {
                     "discord": "Discord",

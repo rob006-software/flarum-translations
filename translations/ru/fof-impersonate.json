@@ -12,14 +12,14 @@
         },
         "lib": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Войти как другой пользователь",
+                "label": "С большой силой приходит большая ответственность. Продолжая, вы станете {username}, пока не выйдете из системы.",
+                "placeholder_optional": "(Необязательно) Укажите причину перехода на этого пользователя",
+                "placeholder_required": "Прежде чем продолжить, вы должны указать причину переключения на этого пользователя",
+                "impersonate_username": "Войти как {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Войти как пользователь"
             }
         },
         "forum": {

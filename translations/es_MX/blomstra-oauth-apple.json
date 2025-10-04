@@ -1,0 +1,35 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "apple": {
+                        "description": "",
+                        "client_id_label": "",
+                        "key_file_id_label": "",
+                        "keyfile_upload_label": "",
+                        "keyfile_upload_help": "",
+                        "keyfile_upload": {
+                            "upload_button": "",
+                            "remove_button": ""
+                        },
+                        "team_id_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_apple_button": ""
+            },
+            "providers": {
+                "apple": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "apple": ""
+            }
+        }
+    }
+}

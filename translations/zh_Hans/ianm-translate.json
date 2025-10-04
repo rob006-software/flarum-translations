@@ -21,6 +21,12 @@
                     "heading": "常规设置",
                     "help": "这些设置控制翻译系统的一些基本能力。"
                 },
+                "seo": {
+                    "heading": "",
+                    "help": "",
+                    "default-lang": "",
+                    "default-lang-help": ""
+                },
                 "providers": {
                     "heading": "翻译服务设置",
                     "help": "选择并配置一个合适的翻译服务。"
@@ -28,6 +34,8 @@
                 "button": "设置",
                 "seemless": "自动翻译",
                 "seemless-help": "测试功能。启用此项，自动翻译所有用户内容为论坛可选语言。用户查看多语言内容时，自动显示译文。",
+                "multi-lang-search": "",
+                "multi-lang-search-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "前往 {link} 注册。扩展程序将自动检测免费或付费订阅类型。",
@@ -79,6 +87,8 @@
                 "use-native-locale-names-help": "启用此项，使用原始名称替代当前语言名称。",
                 "translate-polls": "翻译投票",
                 "translate-polls-help": "启用此项，自动翻译投票的标题、副标题、图像替代文本和选项。",
+                "translate-quiz": "",
+                "translate-quiz-help": "",
                 "provider": "翻译服务提供商",
                 "readme-info": "查看 README 文档获取更多信息。",
                 "readme-none": "此驱动程序无额外设置。",
@@ -98,15 +108,30 @@
             "manage-translations": {
                 "translations-label": "译文",
                 "button-label": "管理译文",
+                "original-language": "",
+                "discussion": {
+                    "title": ""
+                },
+                "post": {
+                    "title": ""
+                },
                 "poll": {
                     "image-alt": "投票图片替代文本（如有）",
                     "option": "投票选项 {number}",
-                    "original-title": "原始语言",
                     "subtitle": "投票副标题",
                     "title": "管理投票译文",
-                    "question": "投票问题"
+                    "question": "投票问题",
+                    "question-language": "",
+                    "original-title": "原始语言"
                 },
-                "save-changes": "=> core.ref.save_changes"
+                "save-changes": "=> core.ref.save_changes",
+                "quiz": {
+                    "title": "",
+                    "question": "",
+                    "subtitle": "",
+                    "option": "",
+                    "answer-additional": ""
+                }
             },
             "discussion": {
                 "post": {

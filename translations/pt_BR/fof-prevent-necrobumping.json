@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "Esta discussão é mais antiga que <b>{time}</b>.",
                     "description": "É muito provável que não precise de mais discussão e, portanto, esbarrar nele não serve para nada.",
+                    "cta": "",
+                    "cta_button": "",
                     "checkbox_label": "Estou ciente que esta discussão é bastante antiga, mas ainda assim gostaria de responder.",
                     "error": "Esta discussão é muito antiga para responder."
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
                 "days_label": "Dias",
                 "days_help": "Uma discussão será marcada como antiga quando a quantidade de dias especificada tiver passado desde que a última postagem dessa discussão foi postada. Use <code>0</code> para desativá-lo por padrão.",
                 "message_title_label": "Título da Mensagem Personalizada",

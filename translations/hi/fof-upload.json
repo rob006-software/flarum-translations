@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "उपयोगकर्ता द्वारा अपलोड की गई सभी फ़ाइलें।",
-                    "anonymize_description": "अपलोड की गई फ़ाइलों से उपयोगकर्ता संदर्भ हटा देता है। फ़ाइलें स्वयं उन उपयोगकर्ताओं के लिए पहुंच योग्य रहती हैं जो उन्हें अज्ञातीकरण से पहले देख सकते हैं।",
-                    "delete_description": "उपयोगकर्ता द्वारा अपलोड की गई सभी फ़ाइलें हटा देता है।"
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -96,6 +96,12 @@
                     "title": "वोर्टमर्क इमागेस",
                     "toggle": "वोर्टमर्क इमागेस"
                 },
+                "svg-sanitizer": {
+                    "title": "",
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
+                },
                 "composer_buttons": {
                     "title": "कम्पोज़र के बूटटोनस",
                     "options": {
@@ -132,6 +138,7 @@
             },
             "upload_methods": {
                 "aws-s3": "",
+                "awss3": "",
                 "imgur": "",
                 "local": "",
                 "ovh-svfs": "",
@@ -232,6 +239,17 @@
                     "hide_fail": "",
                     "show_fail": "",
                     "loading": ""
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "उपयोगकर्ता द्वारा अपलोड की गई सभी फ़ाइलें।",
+                    "anonymize_description": "अपलोड की गई फ़ाइलों से उपयोगकर्ता संदर्भ हटा देता है। फ़ाइलें स्वयं उन उपयोगकर्ताओं के लिए पहुंच योग्य रहती हैं जो उन्हें अज्ञातीकरण से पहले देख सकते हैं।",
+                    "delete_description": "उपयोगकर्ता द्वारा अपलोड की गई सभी फ़ाइलें हटा देता है।"
                 }
             }
         }

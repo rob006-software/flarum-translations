@@ -2,40 +2,40 @@
     "flarum-calendar": {
         "forum": {
             "button": {
-                "landing": "",
-                "create": "",
-                "login": ""
+                "landing": "Sündmuste kalender",
+                "create": "Uus sündmus",
+                "login": "Lisa oma sündmus "
             },
             "modal": {
-                "title_create": "",
-                "title_edit": "",
-                "title_label": "",
-                "dates_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "requirement_message": "",
-                "submit": ""
+                "title_create": "Loo uus kalendri sündmus",
+                "title_edit": "Muuda sündmuse üksikasju",
+                "title_label": "Mis",
+                "dates_label": "Millal",
+                "description_label": "Üksikasjad",
+                "description_placeholder": "Sündmuse üksikasjad",
+                "requirement_message": "Sündmusel peab olema nimi ja kirjeldus",
+                "submit": "OK"
             },
             "event": {
-                "details": "",
-                "hosted_by": "",
-                "starts": "",
-                "ends": "",
-                "confirm_delete": "",
-                "deleted": ""
+                "details": "Lisainfo selle sündmuse kohta",
+                "hosted_by": "Võõrustaja:",
+                "starts": "Algab:",
+                "ends": "Lõpeb:",
+                "confirm_delete": "Oled sa kindel, et soovid selle vestluse kustutada?",
+                "deleted": "See sündmus on kustuatud"
             }
         },
         "admin": {
             "settings": {
-                "hide_host": ""
+                "hide_host": "Peida võõrustaja"
             },
             "permissions": {
-                "add": "",
-                "moderate": "",
-                "view": ""
+                "add": "Uute kalendri sündmuste loomine",
+                "moderate": "Kalendri sündmuste muutmine või eemaldamine (kõik kasutajad saavad oma sündmuseid muuta)",
+                "view": "Vaata sündmuseid"
             },
             "basics": {
-                "homepage": ""
+                "homepage": "Praegune kuu"
             }
         }
     }

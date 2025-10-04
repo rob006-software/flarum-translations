@@ -2,138 +2,162 @@
     "ianm-translate": {
         "admin": {
             "glossary": {
-                "button": "",
-                "create_button": "",
+                "button": "Từ điển",
+                "create_button": "Tạo thuật ngữ mới",
                 "section": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Cấu hình từ điển",
+                    "help": "Các từ hoặc thuật ngữ từ điển được định nghĩa để dịch vụ dịch thuật sẽ không dịch chúng. Điều này hữu ích cho danh từ riêng, thuật ngữ kỹ thuật hoặc các từ khác không nên được dịch."
                 }
             },
             "permission": {
-                "refresh-translation": "",
-                "translate-to-locale": "",
-                "translate-to-all-locales": "",
-                "edit-translation": ""
+                "refresh-translation": "Buộc dịch lại bản dịch đã lưu trong bộ nhớ cache",
+                "translate-to-locale": "Xem bản dịch trong ngôn ngữ hiện tại",
+                "translate-to-all-locales": "Xem bản dịch trong bất kỳ ngôn ngữ diễn đàn nào",
+                "edit-translation": "Chỉnh sửa bản dịch thủ công"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Cài đặt chung",
+                    "help": "Các cài đặt này kiểm soát hành vi chung của hệ thống dịch thuật."
+                },
+                "seo": {
+                    "heading": "Cài đặt SEO",
+                    "help": "Các cài đặt này kiểm soát hành vi của hệ thống dịch thuật liên quan đến tối ưu hóa công cụ tìm kiếm.",
+                    "default-lang": "Khớp với ngôn ngữ mặc định của diễn đàn",
+                    "default-lang-help": "Khi được bật, ngôn ngữ mặc định của diễn đàn sẽ được thêm vào đường dẫn cho thẻ hreflang <code>x-default</code>."
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Cài đặt nhà cung cấp dịch thuật",
+                    "help": "Chọn nhà cung cấp dịch thuật ưa thích của bạn và cấu hình các cài đặt của nó ở đây."
                 },
-                "button": "",
-                "seemless": "",
-                "seemless-help": "",
+                "button": "Cài đặt",
+                "seemless": "Dịch thuật liền mạch",
+                "seemless-help": "Tính năng Beta. Khi được bật, tất cả nội dung người dùng sẽ được dịch tự động sang tất cả các ngôn ngữ diễn đàn có sẵn khác. Khi người dùng xem nội dung đa ngôn ngữ, bản dịch sẽ được hiển thị tự động.",
+                "multi-lang-search": "Tìm kiếm đa ngôn ngữ",
+                "multi-lang-search-help": "Khi được bật, tìm kiếm sẽ bao gồm tất cả các bản dịch của nội dung.",
                 "deepl": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "Đăng ký tại {link}. Trình điều khiển sẽ tự động phát hiện loại khóa miễn phí/pro.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "en_choice": {
-                        "help": "",
-                        "label": "",
+                        "help": "Khi dịch sang tiếng Anh, chọn biến thể nào nên được sử dụng.",
+                        "label": "Biến thể tiếng Anh",
                         "options": {
-                            "en-US": "",
-                            "en-GB": ""
+                            "en-US": "English (US) en-US",
+                            "en-GB": "English (UK) en-GB"
                         }
                     },
                     "formality": {
-                        "help": "",
-                        "label": "",
+                        "help": "Ở nơi có sẵn, bản dịch có thể sử dụng các mức độ trang trọng khác nhau. Chọn sở thích của bạn ở đây.",
+                        "label": "Trang trọng",
                         "options": {
-                            "default": "",
-                            "prefer_less": "",
-                            "prefer_more": ""
+                            "default": "Mặc định",
+                            "prefer_less": "Ít trang trọng hơn",
+                            "prefer_more": "Trang trọng hơn"
                         }
                     }
                 },
                 "google-cloud": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "Đăng ký để lấy khóa API tại {link}. Trình điều khiển này sử dụng API V2 - Basic.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "libre": {
                     "url": {
-                        "help": "",
-                        "label": ""
+                        "help": "URL của máy chủ LibreTranslate. Nếu bạn đang chạy phiên bản riêng, hãy nhập URL ở đây. Schema phải là `http` hoặc `https`.",
+                        "label": "URL máy chủ"
                     },
                     "port": {
-                        "help": "",
-                        "label": ""
+                        "help": "Cổng của máy chủ LibreTranslate. Nếu bạn đang chạy phiên bản riêng, hãy nhập cổng ở đây.",
+                        "label": "Cổng máy chủ"
                     },
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "(tùy chọn) Nếu máy chủ LibreTranslate của bạn yêu cầu khóa API, hãy nhập nó ở đây.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "translate-all-enabled": "",
-                "translate-all-help": "",
-                "bind-browser-language": "",
-                "bind-browser-language-help": "",
-                "use-native-locale-names": "",
-                "use-native-locale-names-help": "",
-                "translate-polls": "",
-                "translate-polls-help": "",
-                "provider": "",
-                "readme-info": "",
-                "readme-none": ""
+                "translate-all-enabled": "Bật tất cả ngôn ngữ dịch thuật",
+                "translate-all-help": "Khi được bật, người dùng quản trị và những người khác có quyền có thể dịch nội dung sang bất kỳ ngôn ngữ diễn đàn nào đã cài đặt.",
+                "bind-browser-language": "Thêm ngôn ngữ trình duyệt",
+                "bind-browser-language-help": "Khi được bật, ngôn ngữ trình duyệt của người dùng sẽ được thêm vào danh sách các ngôn ngữ có sẵn để dịch thuật.",
+                "use-native-locale-names": "Sử dụng tên ngôn ngữ gốc",
+                "use-native-locale-names-help": "Khi được bật, tên ngôn ngữ gốc sẽ được sử dụng thay vì phiên bản tên ngôn ngữ hiện tại.",
+                "translate-polls": "Dịch thăm dò ý kiến",
+                "translate-polls-help": "Khi được bật, tiêu đề thăm dò ý kiến, phụ đề, văn bản alt hình ảnh và các tùy chọn trả lời sẽ được dịch tự động khi thăm dò ý kiến được tạo hoặc chỉnh sửa.",
+                "translate-quiz": "Dịch câu đố",
+                "translate-quiz-help": "Khi được bật, tiêu đề câu đố, phụ đề, giải thích câu trả lời đúng và các tùy chọn trả lời sẽ được dịch tự động khi câu đố được tạo hoặc chỉnh sửa.",
+                "provider": "Nhà cung cấp dịch thuật",
+                "readme-info": "Xem tài liệu README để biết thông tin mở rộng.",
+                "readme-none": "Không cần cài đặt bổ sung nào cho trình điều khiển này."
             }
         },
         "forum": {
-            "unknown-language": "",
-            "detected-language": "",
-            "translate-button-label": "",
-            "refresh-translation": "",
+            "unknown-language": "[không phát hiện]",
+            "detected-language": "Bài đăng này bằng {postLang}",
+            "translate-button-label": "Dịch",
+            "refresh-translation": "Làm mới bản dịch",
             "original-content": {
-                "title": "",
-                "view": ""
+                "title": "Nội dung gốc",
+                "view": "Xem nội dung gốc"
             },
             "manage-translations": {
-                "translations-label": "",
-                "button-label": "",
-                "poll": {
-                    "image-alt": "",
-                    "option": "",
-                    "original-title": "",
-                    "subtitle": "",
-                    "title": "",
-                    "question": ""
+                "translations-label": "Bản dịch",
+                "button-label": "Quản lý bản dịch",
+                "original-language": "Ngôn ngữ gốc ({detectedLang})",
+                "discussion": {
+                    "title": "Quản lý bản dịch tiêu đề thảo luận"
                 },
-                "save-changes": ""
+                "post": {
+                    "title": "Quản lý bản dịch bài đăng"
+                },
+                "poll": {
+                    "image-alt": "Văn bản ALT hình ảnh (nếu có)",
+                    "option": "Tùy chọn {number}",
+                    "subtitle": "Phụ đề",
+                    "title": "Quản lý bản dịch thăm dò ý kiến",
+                    "question": "Câu hỏi",
+                    "question-language": "Câu hỏi thăm dò ý kiến ({language})"
+                },
+                "save-changes": "=> core.ref.save_changes",
+                "quiz": {
+                    "title": "Quản lý bản dịch câu đố",
+                    "question": "Câu hỏi",
+                    "subtitle": "Phụ đề",
+                    "option": "Trả lời {number}",
+                    "answer-additional": "Giải thích câu trả lời đúng"
+                }
             },
             "discussion": {
                 "post": {
-                    "close-translation": "",
-                    "translated-header": "",
-                    "translated-updated": ""
+                    "close-translation": "Đóng bản dịch",
+                    "translated-header": "Bản dịch AI từ {from} sang {to}",
+                    "translated-updated": "Bản dịch được cập nhật lần cuối {time} sử dụng {provider}"
                 },
                 "title": {
-                    "detected-language": ""
+                    "detected-language": "{postLang}"
                 }
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Dịch thuật",
                     "source-language": {
-                        "help": "",
-                        "label": ""
+                        "help": "Khi tắt, chỉ nội dung có thể dịch được viết bằng ngôn ngữ khác với ngôn ngữ diễn đàn hiện tại sẽ được gắn nhãn. Để gắn nhãn tất cả nội dung với ngôn ngữ được phát hiện của nó, hãy bật cài đặt này.",
+                        "label": "Luôn hiển thị ngôn ngữ"
                     }
                 }
             }
         },
         "lib": {
             "providers": {
-                "deepl": "",
-                "google-free": "",
-                "google-cloud": "",
-                "libre": ""
+                "deepl": "DeepL",
+                "google-free": "Google Translate",
+                "google-cloud": "Google Cloud Translate",
+                "libre": "Libre Translate"
             },
             "settings": {
-                "api-key": ""
+                "api-key": "Khóa API"
             }
         }
     }

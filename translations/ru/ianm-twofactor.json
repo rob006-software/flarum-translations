@@ -2,105 +2,117 @@
     "ianm-twofactor": {
         "admin": {
             "edit_group": {
-                "2fa_label": "Требуется ДФА",
-                "2fa_help": "Требовать от членов этой группы включить двухфакторную авторизацию (ДФА) для их аккаунтов.",
-                "admin_2fa_help": "Члены группы {adminName} должны всегда оставлять ДФА включенной."
+                "2fa_label": "Требуется 2FA",
+                "2fa_help": "Требовать от участников этой группы включить двухфакторную аутентификацию (2FA) для своей учетной записи.",
+                "admin_2fa_help": "У участников {adminName} всегда должна быть включена 2FA."
             },
             "permissions": {
-                "see_two_factor_status_label": "Посмотреть статус ДФА других пользователей",
-                "manage_others_label": "Управлять ДФА других пользователей"
+                "see_two_factor_status_label": "Просмотр статуса 2FA других пользователей",
+                "manage_others_label": "Управлять 2FA других пользователей"
             },
             "settings": {
                 "groups": {
-                    "title": "Группы с требуемой ДФА",
-                    "help": ""
+                    "title": "Группы, требующие 2FA",
+                    "help": "Требовать от участников этих групп включения двухфакторной аутентификации (2FA) для своей учетной записи. Пользователь из требуемой группы не может отключить 2FA."
                 },
-                "forum_logo_qr": "",
-                "forum_logo_qr_help": "",
-                "forum_logo_qr_width": "",
-                "forum_logo_qr_width_help": "",
-                "logo_qr": "",
-                "logo_qr_help": "",
+                "forum_logo_qr": "Встроить логотип форума в QR-код",
+                "forum_logo_qr_help": "Вставьте логотип форума в QR-код, отображаемый при включении 2FA. Это может помочь пользователям правильно определить QR-код для сканирования.",
+                "forum_logo_qr_width": "Ширина QR-кода логотипа форума",
+                "forum_logo_qr_width_help": "Ширина логотипа форума, встроенного в QR-код, отображаемого при включении 2FA. Максимум 200.",
+                "logo_qr": "Логотип на QR-коде",
+                "logo_qr_help": "Если логотип был загружен, он будет встроен в QR-код. Чтобы использовать логотип форума, оставьте поле пустым.",
                 "tokens": {
-                    "heading": "",
-                    "help": "",
-                    "kill_inactive_tokens": "",
-                    "kill_inactive_tokens_help": "",
-                    "kill_inactive_tokens_age_days": "",
-                    "kill_inactive_tokens_age_days_help": "",
-                    "also_kill_developer_tokens": "",
-                    "also_kill_developer_tokens_help": ""
+                    "heading": "Токены доступа",
+                    "help": "Для повышения безопасности вы можете управлять здесь дополнительным поведением, связанным с токенами доступа.",
+                    "kill_inactive_tokens": "Удалить неактивные токены",
+                    "kill_inactive_tokens_help": "Автоматически удалять токены доступа, которые неактивны в течение определенного периода времени.",
+                    "kill_inactive_tokens_age_days": "Удалить неактивные токены через (дней)",
+                    "kill_inactive_tokens_age_days_help": "Количество дней бездействия, после которого токены доступа будут удалены.",
+                    "also_kill_developer_tokens": "Также удалять токены разработчиков",
+                    "also_kill_developer_tokens_help": "Также удаляйте токены доступа разработчиков, которые были неактивны в течение указанного периода времени."
                 }
             }
         },
         "forum": {
             "user_2fa": {
-                "alert_message": ""
+                "alert_message": "Вы должны включить 2FA, чтобы сохранить доступ к своей учетной записи."
             },
             "security": {
-                "two_factor_heading": "ДФА",
-                "two_factor_help": "",
-                "two_factor_apps": "",
-                "two_factor_enabled": "ДФА для этого аккаунта включена.",
-                "two_factor_disabled": "ДФА для этого аккаунта отключена.",
+                "two_factor_heading": "2FA",
+                "two_factor_help": "Двухфакторная аутентификация (2FA) обеспечивает дополнительный уровень безопасности вашей учетной записи. После включения в дополнение к вашему паролю вам потребуется ввести токен из вашего приложения аутентификации при входе в систему или выполнении некоторых других действий. Это гарантирует, что ваша учетная запись останется в безопасности, даже если ваш пароль будет взломан, поскольку злоумышленникам также понадобится код (который меняется каждые 30 секунд) для доступа к вашей учетной записи.",
+                "two_factor_apps": "Такие приложения, как {google}, {authy}, {microsoft} и другие, доступны бесплатно.",
+                "two_factor_enabled": "В этой учетной записи включена 2FA.",
+                "two_factor_disabled": "В этом аккаунте отключена 2FA.",
                 "two_factor_title": "Статус:",
-                "enable_2fa_button": "Включить ДФА",
-                "disable_2fa_button": "Выключить ДФА",
-                "enable_2fa_modal_text": "",
-                "qr_code_alt": "",
+                "enable_2fa_button": "Включить 2FA",
+                "disable_2fa_button": "Выключить 2FA",
+                "enable_2fa_modal_text": "Отсканируйте QR-код ниже с помощью приложения для аутентификации, затем введите предоставленный токен, чтобы включить двухфакторную аутентификацию.",
+                "qr_code_alt": "QR-код для двухфакторной аутентификации",
                 "enter_token": "Введите ключ",
                 "verify_button": "Проверка",
-                "loading_qr": "Загрузка QR кода...",
-                "backup_codes": "",
-                "backup_codes_instruction": "",
-                "saved_backup_codes_button": "",
-                "backup_codes_remaining": "",
-                "two_factor_enabled_confirmation": "",
-                "ok_button": "",
-                "confirm_disable_2fa_title": "",
-                "confirm_disable_2fa_text": "",
-                "confirm_disable_2fa_text_other_user": "",
-                "cannot_disable": "",
-                "cannot_disable_tooltip": "",
-                "cancel_button": "",
-                "qr_tab": "",
-                "manual_tab": "",
-                "scan_qr_instruction": "",
-                "manual_entry_instruction": ""
+                "loading_qr": "Загрузка QR-кода...",
+                "backup_codes": "Ваши резервные коды",
+                "backup_codes_instruction": "Пожалуйста, сохраните эти коды в надежном месте. Они могут быть использованы для доступа к вашей учетной записи, если вы потеряете свой основной метод аутентификации. Они больше не будут отображаться.",
+                "saved_backup_codes_button": "Я сохранил эти коды",
+                "backup_codes_remaining": "Осталось резервных кодов:",
+                "two_factor_enabled_confirmation": "Двухфакторная аутентификация успешно включена для вашей учетной записи.",
+                "ok_button": "Хорошо",
+                "confirm_disable_2fa_title": "Подтвердите отключение двухфакторной аутентификации",
+                "confirm_disable_2fa_text": "Вы уверены, что хотите отключить двухфакторную аутентификацию?",
+                "confirm_disable_2fa_text_other_user": "Вы уверены, что хотите отключить двухфакторную аутентификацию для {username}? Это удалит все резервные коды и отключит 2FA для его учетной записи.",
+                "change_device_heading": "Изменить устройство аутентификации",
+                "change_device_title": "Изменить устройство",
+                "change_device_description": "Перенести 2FA на новое устройство",
+                "change_device_button": "Изменить устройство",
+                "verify_current_device_message": "Пожалуйста, введите токен с текущего устройства аутентификации, чтобы подтвердить свою личность.",
+                "enter_current_token": "Введите токен с текущего устройства",
+                "scan_new_device_qr": "Отсканируйте этот QR-код с помощью нового устройства аутентификации.",
+                "verify_new_device_message": "Теперь введите токен с нового устройства, чтобы завершить изменение.",
+                "enter_new_token": "Введите токен с нового устройства",
+                "new_backup_codes": "Ваши новые резервные коды",
+                "device_changed_confirmation": "Ваше устройство аутентификации успешно изменено.",
+                "continue_button": "Продолжить",
+                "cannot_disable": "Текущая конфигурация предполагает, что отключить двухфакторную аутентификацию невозможно.",
+                "cannot_disable_tooltip": "Невозможно отключить 2FA",
+                "cancel_button": "Отмена",
+                "qr_tab": "Сканировать QR-код",
+                "manual_tab": "Ручная настройка",
+                "scan_qr_instruction": "Отсканируйте QR-код выше с помощью вашего приложения для аутентификации, затем введите предоставленный токен, чтобы включить двухфакторную аутентификацию.",
+                "manual_entry_instruction": "Введите предоставленный код в приложение аутентификации, затем введите сгенерированный токен, чтобы включить двухфакторную аутентификацию."
             },
             "log_in": {
-                "two_factor_placeholder": "",
-                "two_factor_required_message": ""
+                "two_factor_placeholder": "Токен 2FA, например, 123456",
+                "two_factor_required_message": "Для продолжения требуется действительный токен 2FA."
             }
         },
         "email": {
             "subject": {
-                "status_changed": ""
+                "status_changed": "Двухфакторная аутентификация {type} для вашей учетной записи"
             },
             "body": {
-                "status_changed": ""
+                "status_changed": "Здравствуйте, {recipient_display_name},\n\nДвухфакторная аутентификация была {type} для вашего аккаунта на {forum_url}.\n\nЕсли вы инициировали это действие, никаких дальнейших шагов не требуется. Если вы этого не делали, немедленно свяжитесь с администраторами форума.\n"
             },
             "status_type": {
-                "enabled": "",
-                "disabled": ""
+                "enabled": "включено",
+                "disabled": "отключен"
             }
         },
         "views": {
             "reset_password": {
-                "two_factor_token_label": ""
+                "two_factor_token_label": "Токен 2FA"
             },
             "two_factor_token": {
-                "title": "",
-                "submit_button": ""
+                "title": "Двухфакторная аутентификация",
+                "submit_button": "Отправить токен"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "twofactordata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Экспортирует статус 2FA и зашифрованные резервные коды.",
+                    "delete_description": "Удаляет все данные, связанные с 2FA."
                 }
             }
         }

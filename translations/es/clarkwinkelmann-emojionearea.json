@@ -2,7 +2,19 @@
     "clarkwinkelmann-emojionearea": {
         "forum": {
             "picker_button": "Selector de Emojis",
-            "search_placeholder": "Búsqueda..."
+            "search_placeholder": "Búsqueda...",
+            "filters": {
+                "tones": "",
+                "recent": "",
+                "smileys_people": "",
+                "animals_nature": "",
+                "food_drink": "",
+                "activity": "",
+                "travel_places": "",
+                "objects": "",
+                "symbols": "",
+                "flags": ""
+            }
         },
         "admin": {
             "settings": {
@@ -11,6 +23,7 @@
                 "enableTones": "Activar matices",
                 "filtersPosition": "Mover categorías abajo",
                 "searchPosition": "Mover búsqueda y matices abajo",
+                "closeOnPick": "",
                 "hideFlarumButton": "Ocultar el botón nativo Emoji de Flarum"
             }
         }

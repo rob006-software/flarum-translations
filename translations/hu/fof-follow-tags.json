@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "E-mail küldése, ha új témák vagy hozzászólások vannak",
                 "submit_button": "Feliratkozás megerősítése"
             },
+            "hero": {
+                "title": "=> flarum-subscriptions.forum.index.following_link"
+            },
             "notifications": {
                 "new_discussion_text": "{username} indította",
                 "new_post_text": "{username} bejegy",
@@ -76,6 +79,16 @@
             "filtering_options": {
                 "none": "Követett témák",
                 "tags": "Követett címkék"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Exportálja a címkéhez tartozó feliratkozási szint részleteit, ha az létezik.",
+                    "anonymize_description": "Eltávolítja a felhasználó feliratkozását a címkétől."
+                }
             }
         }
     },

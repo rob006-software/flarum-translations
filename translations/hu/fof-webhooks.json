@@ -70,7 +70,10 @@
                     "extra_text_help": "A webhook elküldésekor megadandó további szöveg.",
                     "group_label": "Csoport",
                     "group_help": "A csoport által látható erőforrások elküldése",
-                    "events_label": "Események"
+                    "name_label": "Név",
+                    "name_help": "A webhook neve. Ez olyan dolgokhoz lesz használva, mint a Discord felhasználóv, Slack bot neve, stb.",
+                    "events_label": "Események",
+                    "include_matching_tags_label": "Megfelelő címkék belevétele -- az adott címkékre korlátozott webhookok esetén az esemény megfelelő címkéinek megjelenítése"
                 },
                 "services": {
                     "discord": "Discord",

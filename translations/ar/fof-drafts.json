@@ -13,51 +13,61 @@
             }
         },
         "console": {
-            "scheduled_drafts_disabled": ""
+            "scheduled_drafts_disabled": "تم تعطيل المسودات المجدولة حاليًا في الإعدادات."
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "جدولة المسودة"
         },
         "forum": {
             "composer": {
-                "title": "",
-                "saving": "",
-                "saved": "",
-                "exit_alert": "",
-                "discard_empty_draft_alert": ""
+                "title": "حفظ المسودة",
+                "saving": "حفظ...",
+                "saved": "تم الحفظ!",
+                "exit_alert": "تجاهل التغييرات في المسودة؟",
+                "discard_empty_draft_alert": "التخلص من المسودة الفارغة؟"
             },
             "dropdown": {
-                "empty_text": "",
-                "title": "",
-                "delete_all_button": "",
-                "delete_button": "",
-                "schedule_button": "",
-                "scheduled_icon_tooltip": "",
+                "empty_text": "لم تقم بحفظ أي مسودات",
+                "title": "المسودات",
+                "delete_all_button": "حذف جميع المسودات",
+                "delete_button": "حذف المسودة",
+                "schedule_button": "جدولة المسودة",
+                "scheduled_icon_tooltip": "مجدولة في {datetime}",
                 "scheduled_icon_tooltip_formatter": "",
-                "tooltip": "",
-                "alert": "",
-                "delete_all_alert": ""
+                "tooltip": "المسودات",
+                "alert": "هل أنت متأكد أنك تريد حذف مسودتك؟",
+                "delete_all_alert": "هل أنت متأكد أنك تريد حذف كافة المسودات الخاصة بك؟"
             },
             "schedule_draft_modal": {
-                "title": "",
-                "text": "",
-                "scheduled_text": "",
-                "scheduled_error": "",
-                "unschedule_button": "",
-                "unschedule_warning": "",
-                "reschedule_button": "",
-                "schedule_button": "",
-                "schedule_time_preview": "",
+                "title": "جدولة المسودة",
+                "text": "قم بجدولة مسودتك للنشر تلقائيًا في وقت لاحق!",
+                "scheduled_text": "مجدولة حاليًا للنشر في {datetime}.",
+                "scheduled_error": "غير قادر على جدولة المسودة: {error}.",
+                "unschedule_button": "إلغاء الجدولة",
+                "unschedule_warning": "هل أنت متأكد أنك تريد إلغاء جدولة هذه المسودة؟",
+                "reschedule_button": "إعادة الجدولة",
+                "schedule_button": "جدول",
+                "schedule_time_preview": "سيتم نشر هذه المسودة تلقائيًا في <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "schedule_time_preview_invalid": "التاريخ و/أو الوقت غير صالح"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "",
-                    "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "drafts_heading": "المسودات",
+                    "draft_autosave_enable": "تمكين الحفظ التلقائي للمسودة؟",
+                    "draft_autosave_interval_label": "فترة الحفظ التلقائي (بالثواني)",
+                    "draft_autosave_interval_button": "تحديث الفترة",
+                    "draft_autosave_interval_invalid": "يجب أن يكون الفاصل الزمني عددًا صحيحًا أكبر من 4."
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "drafts": {
+                    "export_description": "",
+                    "delete_description": ""
                 }
             }
         }

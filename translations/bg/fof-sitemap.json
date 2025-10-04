@@ -4,6 +4,8 @@
             "settings": {
                 "exclude_users": "Изключи всички потребителски профили от картата на сайта",
                 "exclude_users_help": "По подразбиране всеки потребител, видим за гостите, ще бъде индексиран",
+                "exclude_tags": "",
+                "exclude_tags_help": "",
                 "mode_label": "Режим на работа",
                 "mode_help": "Изборът на правилния режим за вашия размер на форума е жизнено важен.",
                 "mode_help_runtime_label": "Режим на изпълнение",
@@ -17,6 +19,10 @@
                 "frequency_label": "Колко често планировчикът трябва да изгражда отново кешираната карта на сайта?",
                 "risky_performance_improvements": "Активиране на рискови подобрения на производителността",
                 "risky_performance_improvements_help": "Тези подобрения правят CRON да работи по-бързо при набори от данни с милиони редове, но може да наруши съвместимостта с някои разширения.",
+                "include_priority": "",
+                "include_priority_help": "",
+                "include_changefreq": "",
+                "include_changefreq_help": "",
                 "modes": {
                     "runtime": "Време за изпълнение",
                     "multi_file": "Мулти файл"

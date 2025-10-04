@@ -1,0 +1,52 @@
+{
+    "ordinaryjellyfish-sentra": {
+        "admin": {
+            "view_documentation": "Ver documentação",
+            "api_key": "",
+            "endpoint": "",
+            "enable": "",
+            "permissions": {
+                "bypass": ""
+            },
+            "services": {
+                "heading": "",
+                "content_safety": "",
+                "content_safety_help": "",
+                "content_safety_settings": {
+                    "analyze_images": ""
+                }
+            },
+            "modules": {
+                "heading": "",
+                "requires": "",
+                "requires_error": "",
+                "post_shield": "",
+                "post_shield_help": "",
+                "post_shield_settings": {
+                    "harm_categories": "",
+                    "severity_level": "",
+                    "severity_level_low": "",
+                    "severity_level_medium": "",
+                    "severity_level_high": "",
+                    "severity_level_unknown": ""
+                }
+            }
+        },
+        "lib": {
+            "post_shield": {
+                "Hate": "",
+                "Hate_help": "",
+                "Sexual": "",
+                "Sexual_help": "",
+                "Violence": "",
+                "Violence_help": "",
+                "SelfHarm": "",
+                "SelfHarm_help": ""
+            }
+        },
+        "forum": {
+            "flag_reason": "",
+            "flag_detail": ""
+        }
+    }
+}

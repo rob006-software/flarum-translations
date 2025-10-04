@@ -20,6 +20,12 @@
                     "heading": "",
                     "help": ""
                 },
+                "seo": {
+                    "heading": "",
+                    "help": "",
+                    "default-lang": "",
+                    "default-lang-help": ""
+                },
                 "providers": {
                     "heading": "",
                     "help": ""
@@ -27,6 +33,8 @@
                 "button": "",
                 "seemless": "",
                 "seemless-help": "",
+                "multi-lang-search": "",
+                "multi-lang-search-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "",
@@ -78,6 +86,8 @@
                 "use-native-locale-names-help": "",
                 "translate-polls": "",
                 "translate-polls-help": "",
+                "translate-quiz": "",
+                "translate-quiz-help": "",
                 "provider": "Провайдер перевода",
                 "readme-info": "Посмотреть README документацию для более подробной информации.",
                 "readme-none": ""
@@ -95,15 +105,29 @@
             "manage-translations": {
                 "translations-label": "",
                 "button-label": "",
+                "original-language": "",
+                "discussion": {
+                    "title": ""
+                },
+                "post": {
+                    "title": ""
+                },
                 "poll": {
                     "image-alt": "",
                     "option": "",
-                    "original-title": "",
                     "subtitle": "",
                     "title": "",
-                    "question": ""
+                    "question": "",
+                    "question-language": ""
                 },
-                "save-changes": ""
+                "save-changes": "",
+                "quiz": {
+                    "title": "",
+                    "question": "",
+                    "subtitle": "",
+                    "option": "",
+                    "answer-additional": ""
+                }
             },
             "discussion": {
                 "post": {

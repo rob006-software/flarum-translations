@@ -22,6 +22,9 @@
             "confirm": {
                 "make_public": "Czy jesteś pewien, że chcesz usunąć uczestników i uczynić tę dyskusję widoczną dla każdego, kto może zobaczyć przypisany tag?"
             },
+            "hero": {
+                "title": "=> fof-byobu.forum.nav.nav_item"
+            },
             "labels": {
                 "recipients": "{count, plural, one {{count} uczestnik} other {{count} uczestników}}"
             },
@@ -93,12 +96,12 @@
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Ogólne ustawienia",
+                    "help": "Te ustawienia kontrolują podstawowe funkcje Byobu."
                 },
                 "icon": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Ustawienia ikon",
+                    "help": "Te ustawienia kontrolują ikony używane przez forum."
                 },
                 "badge-icon": "Ikona w etykiecie dyskusji Byobu",
                 "enable-make-public-option": "Włącz możliwość upublicznienia prywatnej dyskusji",

@@ -4,6 +4,8 @@
             "settings": {
                 "group-view": "",
                 "group-admin-view": "",
+                "invite-calm-down-period-help": "",
+                "invite-calm-down-period": "",
                 "calm-down-period-help": "",
                 "calm-down-period": "",
                 "invite-validity-period": "",
@@ -23,7 +25,9 @@
                 "mail-template": "",
                 "group-blacklist-view": "",
                 "group": "",
-                "group-help": ""
+                "group-help": "",
+                "post-num": "",
+                "post-num-help": ""
             }
         },
         "forum": {
@@ -58,7 +62,8 @@
                 "username-inconsistency": "",
                 "exception": "",
                 "email-not-exist": "",
-                "link-not-exist": ""
+                "link-not-exist": "",
+                "blacklist": ""
             }
         },
         "lib": {
@@ -81,7 +86,17 @@
             "item-query": "",
             "item-total-num": "",
             "item-pass-total-num": "",
-            "item-invite-code": ""
+            "item-reject-total-num": "",
+            "item-invite-code": "",
+            "item-post-num": "",
+            "item-user-create-time": "",
+            "item-create-time": "",
+            "item-last-year-total-num": "",
+            "item-last-year-pass-num": "",
+            "item-last-year-reject-num": "",
+            "item-this-year-total-num": "",
+            "item-this-year-pass-num": "",
+            "item-this-year-reject-num": ""
         }
     }
 }

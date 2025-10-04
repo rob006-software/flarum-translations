@@ -38,6 +38,8 @@ jobs:
 
       - name: Update
         run: builder/yii translations/update "@app/../config.php" --update=0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Diff
         run: git add -A . && git diff HEAD

@@ -264,7 +264,7 @@
                             "title": "Pridružen"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "Dejanja"
                         },
                         "user_id": {
                             "title": "ID"
@@ -403,7 +403,7 @@
                 "username_or_email_placeholder": "Uporabniško ime ali e-pošta"
             },
             "notifications": {
-                "delete_all_confirm": "Ali ste prepričani, da želite izbrisati vse obvestila? Ta akcija je nepovratna.",
+                "delete_all_confirm": "Ali ste prepričani, da želite izbrisati vsa obvestila? Tega dejanja ni mogoče razveljaviti.",
                 "delete_all_tooltip": "Izbriši vsa obvestila",
                 "discussion_renamed_text": "{username} je spremenil naslov",
                 "empty_text": "Ni obvestil",
@@ -598,8 +598,8 @@
                 "mega_text": "M"
             },
             "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
+                "humanTimeShort": "DD.MM",
+                "humanTimeLong": "ll",
                 "scrubber": ""
             },
             "series": {

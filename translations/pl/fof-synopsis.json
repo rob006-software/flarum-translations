@@ -1,0 +1,36 @@
+{
+    "fof-synopsis": {
+        "admin": {
+            "settings": {
+                "disable-when-searching": {
+                    "label": "Wyłącz podsumowanie w wynikach wyszukiwania",
+                    "help": "Jeśli włączone, fragment najbardziej trafnego posta będzie użyty zamiast podsumowania."
+                },
+                "excerpt-length": {
+                    "label": "Długość podsumowania",
+                    "help": "Liczba znaków, które powinny być wykorzystane do wygenerowania podsumowania posta."
+                },
+                "rich-excerpts": {
+                    "label": "Włącz zaawansowane formatowanie treści dla podsumowań",
+                    "help": "Jeśli włączone, obrazki, osadzone media oraz inne nietekstowe elementy będą zawarte w podsumowaniu."
+                },
+                "excerpt-type": {
+                    "label": "Który post powinien być wyświetlany w podsumowaniu?",
+                    "help": "Wybierz, który post powinien być wykorzystany jako treść podsumowania."
+                },
+                "first-label": "Pierwszy post",
+                "last-label": "Ostatni post",
+                "tags-enabled": "Masz włączone rozszerzenie <code>flarum/tags</code>. Te ustawienia będą traktowane jako domyślne i poszczególne tagi mogą je nadpisać."
+            }
+        },
+        "forum": {
+            "user": {
+                "settings": {
+                    "summaries-heading": "Podsumowanie",
+                    "show-summaries": "Wyświetlaj fragment dla każdej dyskusji na liście dyskusji (desktop/tablet)",
+                    "show-summaries-mobile": "Wyświetlaj fragment dla każdej dyskusji na liście dyskusji (mobile)"
+                }
+            }
+        }
+    }
+}

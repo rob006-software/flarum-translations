@@ -1,0 +1,171 @@
+{
+    "flarum-gdpr": {
+        "admin": {
+            "gdpr_page": {
+                "heading": "Visão geral de dados RGPD",
+                "description": "Estado das várias ações e integrações do RGPD",
+                "data_types": {
+                    "title": "Tipos de dados",
+                    "help_text": "Estes são os tipos de dados atualmente registados. Cada tipo encontra-se acompanhado da sua exportação associada, anonimização e ações de remoção. Se uma extensão trata cada dado que se encontre segundo a regulamentação do RGPD, deve registar os seus tipos de dados com o <code>flarum/gdpr</code>.\nDados armazenados na tabela <code>user</code> são tratados em separado, ver dados da tabela de utilizadores abaixo.\n",
+                    "type": "Tipo",
+                    "export_description": "Ação de exportação",
+                    "anonymize_description": "Ação de anonimização",
+                    "delete_description": "Ação de remoção",
+                    "extension": "Extensão"
+                },
+                "settings": {
+                    "heading": "Definições do RGPD",
+                    "help_text": "À procura das definições do RGPD? Estas podem ser encontradas na página de extensões.",
+                    "extension_settings_button": "Definições do RGPD"
+                },
+                "user_table_data": {
+                    "title": "Dados da tabela de utilizadores",
+                    "help_text": "Na maioria dos casos, quaisquer colunas adicionadas à tabela <code>user</code> serão tratados automaticamente, quer na exportação ou remoção de dados.\nPorém, existem alguns casos especiais, que se encontram listados abaixo.\n"
+                }
+            },
+            "nav": {
+                "gdpr_button": "Integrações do RGPD"
+            },
+            "permissions": {
+                "process_erasure": "Processar pedidos de remoção",
+                "process_export_for_others": "Requisitar e receber exportação de dados para outros utilizadores",
+                "see_anonymized_user_badges": "Visualizar badges de utilizadores anonimizados"
+            },
+            "settings": {
+                "allow_anonymization": "Permitir anonimização para pedidos de remoção",
+                "allow_anonymization_help": "",
+                "allow_deletion": "",
+                "allow_deletion_help": "",
+                "default_anonymous_username": "",
+                "default_anonymous_username_help": "",
+                "default_erasure": "",
+                "default_erasure_help": "",
+                "default_erasure_options": {
+                    "anonymization": "",
+                    "deletion": ""
+                },
+                "gdpr_page": {
+                    "title": "",
+                    "help_text": ""
+                }
+            },
+            "userlist": {
+                "columns": {
+                    "gdpr_actions": {
+                        "export": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "data": {
+                "avatar": {
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "discussions": {
+                    "export_description": ""
+                },
+                "forum": {
+                    "export_description": ""
+                },
+                "no_action": "",
+                "posts": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "tokens": {
+                    "delete_description": "",
+                    "export_description": ""
+                },
+                "user": {
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
+                }
+            },
+            "request_data": {
+                "title": "",
+                "text": "",
+                "request_button": ""
+            }
+        },
+        "email": {
+            "confirm_erasure": {
+                "subject": "",
+                "body": ""
+            },
+            "erasure_completed": {
+                "deletion": {
+                    "subject": "",
+                    "body": ""
+                },
+                "anonymization": {
+                    "subject": "",
+                    "body": ""
+                }
+            },
+            "erasure_cancelled": {
+                "subject": "",
+                "body": ""
+            },
+            "export_available": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "forum": {
+            "badges": {
+                "anonymized_user": ""
+            },
+            "delete_user": {
+                "title": "",
+                "text": "",
+                "modal_delete_button": "",
+                "delete_button": ""
+            },
+            "erasure_requests": {
+                "empty_text": "",
+                "item_text": "",
+                "tooltip": "",
+                "title": ""
+            },
+            "erasure_request_confirmed": "",
+            "settings": {
+                "data": {
+                    "heading": ""
+                },
+                "export_data_button": "",
+                "export_data_help": "",
+                "request_erasure_button": "",
+                "request_erasure_help": ""
+            },
+            "process_erasure": {
+                "confirm": "",
+                "title": "",
+                "text": "",
+                "comments_label": "",
+                "anonymization_button": "",
+                "deletion_button": ""
+            },
+            "request_erasure": {
+                "title": "",
+                "reason": "",
+                "status": {
+                    "awaiting_user_confirmation": "",
+                    "user_confirmed": ""
+                },
+                "text": "",
+                "password_label": "",
+                "reason_label": "",
+                "cancel_button": "",
+                "request_button": ""
+            },
+            "notification": {
+                "export-ready": ""
+            },
+            "export_file": ""
+        }
+    }
+}

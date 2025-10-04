@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "Vse datoteke, ki jih je naložil uporabnik.",
-                    "anonymize_description": "Odstrani sklic na uporabnika iz naloženih datotek. Datoteke ostanejo dostopne uporabnikom, ki so jih videli pred anonimizacijo.",
-                    "delete_description": "Izbriše vse datoteke, ki jih je naložil uporabnik."
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -96,6 +96,12 @@
                     "title": "Vodne oznake na slikah",
                     "toggle": "Vodne oznake na slikah"
                 },
+                "svg-sanitizer": {
+                    "title": "",
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
+                },
                 "composer_buttons": {
                     "title": "Gumbi v urejevalniku",
                     "options": {
@@ -132,6 +138,7 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/združljivo",
+                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Lokalno",
                 "ovh-svfs": "OVH SVFS",
@@ -232,6 +239,17 @@
                     "hide_fail": "Ni bilo mogoče narediti datoteke \"{fileName}\" zasebne",
                     "show_fail": "Ni bilo mogoče narediti datoteke \"{fileName}\" javne",
                     "loading": "Naredim datoteko zasebno..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Vse datoteke, ki jih je naložil uporabnik.",
+                    "anonymize_description": "Odstrani sklic na uporabnika iz naloženih datotek. Datoteke ostanejo dostopne uporabnikom, ki so jih videli pred anonimizacijo.",
+                    "delete_description": "Izbriše vse datoteke, ki jih je naložil uporabnik."
                 }
             }
         }

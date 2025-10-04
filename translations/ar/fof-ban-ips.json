@@ -1,19 +1,19 @@
 {
     "fof-ban-ips": {
         "forum": {
-            "ban_ip_button": "",
-            "unban_ip_button": "",
+            "ban_ip_button": "حظر عنوان IP",
+            "unban_ip_button": "إلغاء حظر عنوان IP",
             "modal": {
-                "ban_options_only_ip": "",
-                "ban_options_all_ip": "",
-                "ban_ip_no_users": ""
+                "ban_options_only_ip": "حظر عنوان IP الحالي فقط (<code>{ip}</code>)",
+                "ban_options_all_ip": "حظر جميع عناوين IP المستخدمة بواسطة {username}",
+                "ban_ip_no_users": "لن يتم حظر أي شخص آخر"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "محظور"
             },
             "user_controls": {
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "حظر",
+                "unban_button": "رفع الحظر"
             }
         },
         "admin": {
@@ -36,41 +36,41 @@
             "empty_text": ""
         },
         "error": {
-            "banned_ip_message": "",
-            "no_ips_found_message": ""
+            "banned_ip_message": "فشلت عملية التفويض.",
+            "no_ips_found_message": "لم يتم العثور على عنوان IP للمستخدم."
         },
         "lib": {
             "modal": {
-                "title": "",
-                "unban_title": "",
-                "address_label": "",
-                "reason_label": "",
-                "check_button": "",
-                "save_button": "",
-                "ban_ip_confirmation": "",
-                "ban_ip_users": "",
-                "unban_ip_confirmation": "",
-                "unban_options_only_ip": "",
-                "unban_options_all_ip": "",
-                "unban_ip_no_users": "",
-                "unban_ip_users": "",
-                "unbanned_ips": "",
-                "ban_button": "",
-                "unban_button": ""
+                "title": "حظر عناوين IP",
+                "unban_title": "إلغاء حظر عناوين IP",
+                "address_label": "عنوان IP",
+                "reason_label": "السبب",
+                "check_button": "فحص",
+                "save_button": "حفظ",
+                "ban_ip_confirmation": "هل أنت متأكد من أنك تريد حظر عنوان IP هذا من الاستخدام في المنتدى؟ سيؤدي هذا إلى منع المستخدمين الذين يحملون هذا العنوان من تسجيل الدخول والتسجيل.",
+                "ban_ip_users": "{count, plural, one {سيتم حظر المستخدم {users} } other {سيتم حظر المستخدمين {users} }}",
+                "unban_ip_confirmation": "هل أنت متأكد أنك تريد إلغاء حظر هذا المستخدم وجميع المستخدمين الآخرين غير المحظورين بواسطة عناوين IP أخرى؟",
+                "unban_options_only_ip": "إلغاء حظر عنوان IP الحالي فقط (<code>{ip}</code>)",
+                "unban_options_all_ip": "إلغاء حظر جميع عناوين IP المستخدمة بواسطة <i>{username}</i>",
+                "unban_ip_no_users": "لن يتم رفع الحظر عن أي شخص آخر",
+                "unban_ip_users": "{count, plural, one {المستخدم {users} سيتم رفع الحظر عنه} other {المستخدمين {users} سيتم رفع الحظر عنهم}}",
+                "unbanned_ips": "إلغاء الحظر <code>{ips}</code>.",
+                "ban_button": "حظر",
+                "unban_button": "رفع الحظر"
             }
         },
         "ref": {
-            "ban_label": "",
-            "ban_ip_addresses": "",
-            "ban_ip_button": "",
-            "unban_label": "",
-            "unban_ip_addresses": "",
-            "unban_ip_button": "",
-            "address_label": "",
-            "reason_label": ""
+            "ban_label": "حظر",
+            "ban_ip_addresses": "حظر عناوين IP",
+            "ban_ip_button": "حظر عنوان IP",
+            "unban_label": "رفع الحظر",
+            "unban_ip_addresses": "إلغاء حظر عناوين IP",
+            "unban_ip_button": "إلغاء حظر عنوان IP",
+            "address_label": "عنوان IP",
+            "reason_label": "السبب"
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "bannedipdata": {

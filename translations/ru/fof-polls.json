@@ -3,38 +3,43 @@
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Основные настройки",
+                    "help": "Эти настройки управляют базовыми возможностями опросов."
                 },
                 "global_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Общие опросы",
+                    "help": "Эта настройка управляет глобальными опросами."
                 },
                 "image": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Настройки изображений",
+                    "help": "Настройка картинок к опросам."
                 },
                 "allow_option_image": "Разрешить изображение (URL) для каждого варианта опроса",
-                "allow_image_uploads": "",
-                "allow_image_uploads_help": "",
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
+                "allow_image_uploads": "Доступные к загрузке изображения и их опции",
+                "allow_image_uploads_help": "Если этот параметр включен, пользователи смогут загружать изображения, а также указывать URL-адрес изображения (если он включен для параметров, всегда включайте его для самого опроса).",
+                "enable_global_polls": "Включить общие опросы",
+                "enable_global_polls_help": "Общие опросы не привязаны к конкретному сообщению, и доступ к ним можно получить со специальной страницы опросов.",
                 "max_options": "Максимальное количество вариантов опроса",
                 "options_color_blend": "Цветной текст в вариантах опроса",
                 "options_color_blend_help": "Параметр позволяет улучшить читабельность вариантов опроса. Отключите, если эта функция вызывает проблемы с внешнем видом Вашего форума и ухудшает читабельность.",
-                "image_height": "",
-                "image_width": ""
+                "image_height": "Изменить высоту изображения",
+                "image_width": "Изменить ширину изображения",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Смотреть результаты без голосования",
                 "start": "Создавать опросы",
-                "start_global": "",
+                "start_global": "Начать общий опрос",
                 "self_edit": "Редактировать свои опросы (требуется разрешение на редактирование сообщений)",
                 "self_post_edit": "Редактировать *все* опросы в своих сообщениях (требуется разрешение на редактирование сообщений)",
-                "upload_images": "",
+                "upload_images": "Разрешить пользователям загружать изображения для опросов",
                 "vote": "Голосовать в опросах",
                 "change_vote": "Изменять голос",
-                "moderate": "Редактировать / удалять опросы"
+                "moderate": "Редактировать / удалять опросы",
+                "view_group": "",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
@@ -43,33 +48,34 @@
             "poll_ended": "Опрос завершён.",
             "public_poll": "Посмотреть голоса",
             "max_votes_allowed": "Опрос позволяет голосовать за {max, plural, one {# вариант} other {# вариантов}}.",
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "polls_count": "{count, plural, one { {count} голос} other {{count} голосов}}",
+            "poll_never_ends": "Опрос без даты окончания",
+            "answers": "Ответы",
             "poll": {
                 "cannot_change_vote": "Вы не можете поменять свой голос после голосования.",
                 "submit_button": "Голосовать",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "start_poll_button": "Начать общий опрос",
+                "cannot_start_poll_button": "Невозможно начть опрос",
+                "total_votes": "{count, plural, one {# голос получен} other {# голосов получено}}"
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Удалить опрос?",
+                "delete_success_message": "Опрос удалён.",
+                "delete_error_message": "Что-то пошло не так при удалении опроса."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Удалить опрос",
+                "error": "Произошла ошибка при сохранении опроса, пожалуйста, свяжитесь с администратором."
             },
             "polls_page": {
-                "title": ""
+                "title": "Опросы"
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
+                "empty_text": "Похоже, что здесь нет опросов.",
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
@@ -77,12 +83,12 @@
                 "no_permission_alert": "У Вас нет разрешения на создание опроса."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Добавить опрос",
+                "edit_title": "Редактировать опрос",
+                "polls_manager": "Менеджер опросов",
+                "polls_preview": "Смотреть опрос",
+                "continue_editing": "Продолжить редактирование",
+                "success": "Опрос успешно сохранён."
             },
             "modal": {
                 "add_title": "Добавить опрос",
@@ -101,26 +107,27 @@
                 "max_votes_label": "Максимально голосов на участника",
                 "max_votes_help": "Установите значение 0, чтобы разрешить участнику голосовать за все варианты.",
                 "hide_votes_label": "Скрыть голоса до завершения опроса",
+                "hide_votes_label_help": "Пользователь, начавший опрос, всегда сможет увидеть результаты голосования.",
                 "allow_change_vote_label": "Разрешить участникам изменять свой голос",
                 "question_placeholder": "Вопрос",
-                "subtitle_placeholder": "",
+                "subtitle_placeholder": "Описание (опционально)",
                 "submit": "Сохранить",
-                "delete": "",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
-                    "later_help": ""
+                    "label": "Изображение к опросу",
+                    "help": "Загрузите изображение, которое будет отображаться рядом с опросом (необязательно).",
+                    "alt_label": "Описание изображения",
+                    "alt_help_text": "Этот текст необходим при настройке изображения, он будет отображаться, если изображение не загрузится.",
+                    "later_help": "Вы сможете загрузить изображение после создания опроса."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Изображение к ответу",
+                    "help": "Загрузите изображение, которое будет отображаться рядом с ответом на опрос (необязательно)."
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Добавить ответ"
                     }
                 }
             },
@@ -131,14 +138,15 @@
                 "edit": "Изменить опрос"
             },
             "page": {
-                "nav": "",
-                "nav-all": ""
+                "nav": "Опросы",
+                "nav-all": "Все общие опросы",
+                "nav-groups": ""
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Текущие опросы",
+                "ended-polls": "Завершенные опросы",
+                "no-active-polls": "Нет опросов на текущий момент.",
+                "no-recent-polls": "На данный момент нет недавно завершившихся опросов."
             },
             "tooltip": {
                 "badge": "Опрос",
@@ -148,8 +156,37 @@
                 "title": "Участники опроса"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Удалить изображение",
+                "upload_button": "Загрузить"
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

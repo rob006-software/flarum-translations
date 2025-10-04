@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "Táto diskusia je stará viac ako <b>{time}</b>.",
                     "description": "Je veľmi pravdepodobné že nepotrebuje žiadnu ďalšiu diskusiu a preto odpovedanie nemá žiadny význam.",
+                    "cta": "",
+                    "cta_button": "",
                     "checkbox_label": "Som si vedomý že táto diskusia je stará, ale aj tak by som rád odpovedal.",
                     "error": "Táto diskusia je moc stará pre odpoveď."
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
                 "days_label": "Dní",
                 "days_help": "Diskusia bude označená ako stará keď prešlo množstvo špecifikovaných dní od dátumu posledného príspevku v tej diskusii. Použi <code>0</code> pre zakázanie.",
                 "message_title_label": "Vlastný titulok správy",

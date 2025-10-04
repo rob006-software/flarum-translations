@@ -2,39 +2,39 @@
     "nomiscz-auth-wechat": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "Logi sisse WeChatiga",
+                "link": "Seo WeChat konto",
+                "unlink": "Eemalda seos WeChatiga"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": ""
+                "already_linked": "WeChat konto on juba sinuga seotud!",
+                "already_used": "WeLinki konto on juba teise kasutajaga seotud!",
+                "link_success": "WeChat kontoga seostamine on tehtud.",
+                "unlink_success": "WeChat kontoga seostamine on eemaldatud.",
+                "error": "Midagi läks valesti, palun proovi hiljem uuesti!"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "Seosta WeChat kontoga"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "Eemalda seos WeChat kontoga",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "Oled sa kindel, et soovid eemaldada seose oma WeChat kontoga?",
+                        "no_providers": "Sul pole ühtegi teist sisselogimisagenti! Tõenäoliselt pead oma konto parooli käsitsi taastama."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Jah, eemalda seos kontoga",
+                        "cancel": "Ei!"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "api_app_id": "",
-                "api_app_secret": ""
+                "title": "WeChat autentimise seaded",
+                "api_app_id": "API rakenduse ID",
+                "api_app_secret": "API rakenduse salasõna"
             }
         }
     }

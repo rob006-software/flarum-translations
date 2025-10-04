@@ -2,52 +2,52 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "",
-                "single-column": "",
-                "theme": "",
-                "theme-auto": "",
-                "indent": "",
-                "npm-install-command": "",
-                "webpack-command": "",
-                "empty-for-default": "",
-                "validate-live": "",
-                "compile-automatically": ""
+                "title": "Scratchpadi seaded",
+                "single-column": "Grupeeri redaktorid ühe veeruna, mitte kolmena",
+                "theme": "CodeMirrori teema (mõju nägemiseks on vaja leht uuesti laadida)",
+                "theme-auto": "Automaatne (vaikimis on hele teema, dracula on tume teema)",
+                "indent": "Tühikute arv taandes",
+                "npm-install-command": "NPM paigaldamise käsk",
+                "webpack-command": "Webpacki käsk",
+                "empty-for-default": "Vaikimisi käsu jaoks jäta tühjaks",
+                "validate-live": "Esita päring kontrollida LESS-i ja PHP-d enne salvestamist",
+                "compile-automatically": "Kompileeri JS salvestamisel automaatselt"
             },
             "controls": {
-                "refresh": "",
-                "save": "",
-                "compile": "",
-                "settings": "",
-                "new": "",
-                "new-confirmation": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "enable": "",
-                "disable": ""
+                "refresh": "Värskenda",
+                "save": "Salvesta",
+                "compile": "Compile JS",
+                "settings": "Redaktori seaded",
+                "new": "Uus",
+                "new-confirmation": "Praegune scratchpad pole salvestatud. Kas hüljata see ja alustada uut?",
+                "delete": "Kustuta",
+                "delete-confirmation": "Kas kustutada \"{title}\" ?",
+                "enable": "Sisse lülitamiseks kliki",
+                "disable": "Välja lülitamiseks kliki"
             },
             "fields": {
-                "title": "",
-                "admin_js": "",
-                "forum_js": "",
-                "admin_less": "",
-                "forum_less": "",
-                "php": ""
+                "title": "Scratchpadi nimi",
+                "admin_js": "Admini JS",
+                "forum_js": "Foorumi JS",
+                "admin_less": "Admini Less",
+                "forum_less": "Foorumi Less",
+                "php": "PHP"
             },
             "placeholders": {
-                "untitled": "",
-                "php-comment": "",
-                "js-log": ""
+                "untitled": "Pealkirjata",
+                "php-comment": "Registreeri laiendajad siin",
+                "js-log": "Tere, {frontend}!"
             },
             "compilation-alert": {
-                "success": "",
-                "failure": "",
-                "view-output": ""
+                "success": "Kompileeritud!",
+                "failure": "Kompileerimine ebaõnnestus!",
+                "view-output": "Vaata väljundit"
             },
             "compilation-modal": {
-                "title": "",
-                "webpack": "",
-                "npm": "",
-                "npm-not-run": ""
+                "title": "Kompileerimise väljund",
+                "webpack": "Webpacki väljund",
+                "npm": "NPM väljund",
+                "npm-not-run": "NPM ei käivitunud"
             }
         }
     }

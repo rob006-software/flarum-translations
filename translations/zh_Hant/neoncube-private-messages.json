@@ -2,7 +2,17 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": "返回鍵發送訊息"
+                "return_key": "返回鍵發送訊息",
+                "return_key_help": "使其按回車鍵（“Enter”鍵）發送消息。如果禁用此功能，則按回車鍵將開始新行，用戶必須按兩下「發送消息」按鈕才能發送消息。",
+                "show_read_receipts": "顯示已讀回執",
+                "show_read_receipts_help": "當收件者閱讀郵件時，在郵件旁邊顯示一個複選框。",
+                "sender_background_color": "",
+                "recipient_background_color": "",
+                "sender_text_color": "",
+                "recipient_text_color": "",
+                "enable_custom_colors": "",
+                "message_recipient_background_color": "收件者郵件的自訂顏色",
+                "message_recipient_background_color_help": "."
             },
             "permissions": {
                 "start_label": "發送私信",
@@ -32,7 +42,8 @@
                 "read": "",
                 "cant_start": "",
                 "text_placeholder": "",
-                "send": ""
+                "send": "",
+                "message_read": ""
             },
             "notifications": {
                 "message_received": "",

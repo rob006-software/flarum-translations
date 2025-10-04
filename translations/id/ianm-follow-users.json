@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "followuser": {
                     "export_description": "Mengekspor detail pengguna yang diikuti dan pengguna yang mengikuti.",
-                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "Menghapus semua data yang terkait dengan mengikuti pengguna."
+                    "anonymize_description": "=> flarum-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Menghapus semua data yang terkait dengan pengguna yang mengikuti."
                 }
             }
         }
@@ -60,9 +60,9 @@
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "Pilih tingkat mengikuti untuk {username}",
+                    "title": "Pilih tingkatan mengikuti untuk {username}",
                     "description": "Pilih bagaimana Anda ingin mengikuti <em>{username}</em>.",
-                    "follow_levels_heading": "Level mengikuti",
+                    "follow_levels_heading": "Tingkatan mengikuti",
                     "follow_select_label": "Jenis mengikuti",
                     "no_user_attr_provided_err": "Uh oh, ada yang salah saat membuka jendela modal ini.",
                     "no_user_attr_provided_err_debug": "Tidak ada atribut `pengguna` yang dapat diteruskan ke dalam jendela modal SelectFollowUserLevel saat dibuat. Jendela modal tidak dapat dirender.",
@@ -82,7 +82,7 @@
         "lib": {
             "following_link": "Mengikuti",
             "follow": "Ikuti",
-            "change_follow_type": "Ubah jenis ikuti",
+            "change_follow_type": "Ubah tingkat mengikuti",
             "unfollow": "Berhenti mengikuti",
             "follow_levels": {
                 "unfollow": {
@@ -96,6 +96,17 @@
                 "lurk": {
                     "name": "Ikuti semua",
                     "description": "Menerima notifikasi ketika <em>{username}</em> memulai diskusi baru atau memposting di dalam diskusi.\n"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "Mengekspor detail pengguna yang diikuti dan pengguna yang mengikuti.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Menghapus semua data yang terkait dengan mengikuti pengguna."
                 }
             }
         }

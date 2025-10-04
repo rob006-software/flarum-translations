@@ -2,75 +2,75 @@
     "xypp-invite-user": {
         "forum": {
             "page": {
-                "title": "",
+                "title": "Lời mời",
                 "code": {
-                    "title": "",
-                    "code": "",
-                    "url": ""
+                    "title": "Mời Người dùng",
+                    "code": "Mã mời",
+                    "url": "URL mời"
                 },
                 "my": {
-                    "title": "",
-                    "code": "",
-                    "inviter": "",
-                    "accept": "",
-                    "no-inviter": ""
+                    "title": "Người dùng tôi đã mời",
+                    "code": "Nhập mã mời",
+                    "inviter": "Bạn đã chấp nhận người dùng này làm người mời.",
+                    "accept": "Chấp nhận",
+                    "no-inviter": "Người dùng này chưa chấp nhận lời mời nào."
                 },
                 "invite": {
-                    "title": "",
-                    "username": "",
-                    "avatar": "",
-                    "empty": "",
-                    "time": ""
+                    "title": "Người dùng được tôi mời",
+                    "username": "Tên người dùng",
+                    "avatar": "Ảnh đại diện",
+                    "empty": "Bạn chưa mời người dùng nào.",
+                    "time": "Thời gian mời"
                 },
-                "no_tip": ""
+                "no_tip": "Không hiển thị cửa sổ người mời cho tôi nữa"
             },
             "confirm": {
-                "title": "",
-                "msg": "",
-                "alert": "",
-                "accept": "",
-                "success": ""
+                "title": "Xác nhận Lời mời",
+                "msg": "Người dùng {username} đã mời bạn vào diễn đàn. Nhấn nút bên dưới để chấp nhận người này làm người mời bạn.",
+                "alert": "Bạn chỉ có thể chấp nhận một người làm người mời. Bạn có thể đóng cửa sổ này trong hồ sơ -> lời mời",
+                "accept": "Chấp nhận",
+                "success": "Thành công."
             },
-            "invite": "",
+            "invite": "Mời",
             "notification": {
-                "user_invited": "",
-                "user_invited_label": ""
+                "user_invited": "{username} vừa chấp nhận lời mời của bạn.",
+                "user_invited_label": "Lời mời đã được chấp nhận"
             },
             "condition": {
-                "user_invite": "",
-                "user_be_invited": ""
+                "user_invite": "Mời Người dùng",
+                "user_be_invited": "Được mời"
             }
         },
         "admin": {
             "settings": {
                 "reward_invite": {
-                    "title": "",
-                    "description": ""
+                    "title": "Phần thưởng cho việc mời",
+                    "description": "Phần thưởng cho người mời. (Yêu cầu antoinefr/flarum-ext-money)"
                 },
                 "reward_be_invited": {
-                    "title": "",
-                    "description": ""
+                    "title": "Phần thưởng cho người được mời",
+                    "description": "Phần thưởng cho người được mời. (Yêu cầu antoinefr/flarum-ext-money)"
                 },
                 "invite_each_other": {
-                    "title": "",
-                    "description": ""
+                    "title": "Mời lẫn nhau",
+                    "description": "Người dùng có thể mời lại người đã mời mình hay không."
                 },
                 "invite_new_user_only": {
-                    "title": "",
-                    "description": ""
+                    "title": "Chỉ cho phép mời người dùng mới",
+                    "description": "Không cho phép mời người dùng có thời gian đăng ký ngắn hơn chính mình."
                 }
             },
             "condition": {
-                "user_invite": "",
-                "user_be_invited": ""
+                "user_invite": "Mời Người dùng",
+                "user_be_invited": "Được mời"
             }
         },
         "api": {
-            "invited_by_user_id_is_self": "",
-            "has_already_be_invited": "",
-            "invited_by_user_id_is_empty": "",
-            "invited_each_other": "",
-            "invited_an_elder_user": ""
+            "invited_by_user_id_is_self": "Bạn không thể tự mời chính mình.",
+            "has_already_be_invited": "Bạn đã chấp nhận lời mời từ người khác rồi.",
+            "invited_by_user_id_is_empty": "ID người mời đang trống.",
+            "invited_each_other": "Bạn không thể được mời bởi người bạn đã mời.",
+            "invited_an_elder_user": "Thời gian đăng ký của người mời nhiều hơn bạn."
         }
     }
 }

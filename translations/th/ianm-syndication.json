@@ -2,56 +2,56 @@
     "ianm-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
-                "discussion_last_posts": "",
-                "user_last_posts": ""
+                "forum_activity": "กิจกรรมในฟอรั่ม",
+                "forum_new_discussions": "การสนทนาใหม่ของฟอรั่ม",
+                "tag_activity": "กิจกรรมสำหรับแท็ก {tag}",
+                "tag_new_discussions": "การสนทนาในแท็ก {tag}",
+                "discussion_last_posts": "การสนทนานี้",
+                "user_last_posts": "โพสต์ & ความคิดเห็นโดยผู้ใช้นี้"
             },
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": ""
+                        "title_reply": "ตอบกลับ: {discussion}"
                     }
                 },
                 "titles": {
-                    "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": "",
-                    "user_title": "",
-                    "user_subtitle": ""
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "โพสต์ล่าสุดในฟอรั่ม",
+                    "main_d_title": "การสนทนาใหม่ใน {forum_name}",
+                    "main_d_subtitle": "การสนทนาใหม่ล่าสุดในฟอรั่ม",
+                    "tag_title": "กิจกรรมในแท็ก {tag}",
+                    "tag_subtitle": "โพสต์ล่าสุดในแท็ก {tag}",
+                    "tag_d_title": "การสนทนาใหม่ในแท็ก {tag}",
+                    "tag_d_subtitle": "การสนทนาใหม่ล่าสุดในแท็ก {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "ข้อความล่าสุดในการสนทนานี้",
+                    "user_title": "{username}",
+                    "user_subtitle": "โพสต์ & ความคิดเห็นล่าสุดโดยผู้ใช้นี้"
                 }
             },
             "discussion": {
-                "feed_link": ""
+                "feed_link": "ฟีด"
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
-                    "label": "",
-                    "help": ""
+                    "label": "ฟีดข้อคามเต็ม",
+                    "help": "หากปิดใช้งาน ฟีดจะใช้ข้อความจากโพสต์บางส่วนเท่านั้น และผู้ใช้จะต้องเข้าไปยังฟอรั่มเพื่ออ่านทั้งหมด เราแนะนำให้เปิดตัวเลือกนี้ไว้สำหรับคนที่ติดตามฟอรั่มจากตัวรวบรวมฟีดหากมี"
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "การจัดรูปแบบฟีด",
+                    "help": "ติ๊กตัวเลือกนี้เพื่อคง HTML ไว้ในการสร้างฟีด หากปิดใช้งาน ฟีดจะเป็นข้อความล้วน"
                 },
-                "entries-count": "",
+                "entries-count": "จำนวนรายการต่อฟีด?",
                 "forum-icons": {
-                    "label": "",
-                    "help": ""
+                    "label": "แสดงลิงก์ฟีด Atom/RSS บนฟอรั่ม",
+                    "help": "แสดงไอคอนในทุกการสนทนาและแท็กเพื่อให้เข้าถึงฟีดได้ง่ายขึ้น"
                 },
                 "forum-link-format": {
-                    "label": "",
-                    "help": ""
+                    "label": "รูปแบบฟีดฟอรั่ม",
+                    "help": "เลือกรูปแบบ (Atom หรือ RSS) ที่จะใช้ลิงก์เมื่อแสดงบนฟอรั่ม"
                 }
             }
         }

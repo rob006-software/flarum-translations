@@ -22,6 +22,9 @@
             "confirm": {
                 "make_public": "Bạn có chắc chắn muốn xóa người nhận và hiển thị cuộc thảo luận này cho bất kỳ ai có thể xem thẻ được chỉ định không?"
             },
+            "hero": {
+                "title": "=> fof-byobu.forum.nav.nav_item"
+            },
             "labels": {
                 "recipients": "{count, plural, one {{count} người nhận} other {{count} người nhận}}"
             },
@@ -94,12 +97,12 @@
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Cài đặt chung",
+                    "help": "Các thiết lập này kiểm soát các tính năng cơ bản của byobu."
                 },
                 "icon": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Cài đặt biểu tượng",
+                    "help": "Các thiết lập này kiểm soát các biểu tượng được sử dụng bởi thành viên trên diễn đàn."
                 },
                 "badge-icon": "Huy hiệu thảo luận của Byobu",
                 "enable-make-public-option": "Bật tuỳ chọn \"đặt ở chế độ công khai\"",

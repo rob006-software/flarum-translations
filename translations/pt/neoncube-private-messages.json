@@ -2,52 +2,61 @@
     "neoncube-private-messages": {
         "admin": {
             "settings": {
-                "return_key": ""
+                "return_key": "Enviar mensagem com a tecla Enter",
+                "return_key_help": "Permite que ao pressionar a tecla Enter seja enviada a mensagem. Se esta opção estiver desativada, a tecla Enter criará uma nova linha e o utilizador terá de clicar no botão \"Enviar mensagem\" para enviar.",
+                "show_read_receipts": "Mostrar recibos de leitura",
+                "show_read_receipts_help": "Mostra um indicador junto à mensagem quando o destinatário a leu.",
+                "sender_background_color": "Cor de fundo das mensagens enviadas:",
+                "recipient_background_color": "Cor de fundo das mensagens recebidas:",
+                "sender_text_color": "Cor do texto das mensagens enviadas:",
+                "recipient_text_color": "Cor do texto das mensagens recebidas:",
+                "enable_custom_colors": "Ativar cores personalizadas"
             },
             "permissions": {
-                "start_label": "",
-                "allow_users_to_receive_email_notifications": ""
+                "start_label": "Iniciar conversas privadas",
+                "allow_users_to_receive_email_notifications": "Permitir que os utilizadores recebam notificações por email quando recebem uma mensagem privada"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Conversas"
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Iniciar Conversa",
+                "help": "Começa a escrever o nome de utilizador para iniciar o chat.",
+                "help_start": "Escreve a tua primeira mensagem. Esta será a única que podes enviar até {username} responder. Clica no utilizador para escolher outro destinatário.",
+                "search_recipients": "Introduz o nome de utilizador...",
+                "submit": "Enviar e Iniciar Conversa",
+                "copied": "A tua mensagem foi copiada para a área de transferência.",
+                "more_users": "Se não vires o utilizador que procuras, é porque não tem mensagens privadas ativadas.",
+                "already": "Já tens uma conversa com {username}."
             },
             "chat": {
-                "messages_single": "",
-                "messages_multiple": "",
-                "chat_with": "",
-                "start": "",
-                "start_of_conversation": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": ""
+                "messages_single": "Nova conversa",
+                "messages_multiple": "{count} mensagens no total",
+                "chat_with": "Conversa com {username}",
+                "start": "Iniciar Conversa",
+                "start_of_conversation": "Início da Conversa",
+                "read": "Lida",
+                "cant_start": "Não é possível iniciar a conversa",
+                "text_placeholder": "Escreve a tua mensagem",
+                "send": "Enviar Mensagem",
+                "message_read": "A mensagem foi lida"
             },
             "notifications": {
-                "message_received": "",
-                "new_private_message": "",
+                "message_received": "Teste",
+                "new_private_message": "Alguém envia-me uma mensagem",
                 "web": {
                     "new_private_message": {
-                        "body": ""
+                        "body": "Mensagem de {fromUser}"
                     }
                 },
                 "email": {
                     "new_private_message": {
-                        "subject": "",
-                        "youHaveReceivedNewMessage": "",
-                        "viewMessage": "",
-                        "manageEmailSettings": ""
+                        "subject": "Mensagem de {user}",
+                        "youHaveReceivedNewMessage": "Recebeste uma nova mensagem de {user}!",
+                        "viewMessage": "Ver mensagem",
+                        "manageEmailSettings": "Gerir definições de email"
                     }
                 }
             }

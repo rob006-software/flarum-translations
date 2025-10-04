@@ -1,0 +1,93 @@
+{
+    "walsgit_discussion_cards": {
+        "forum": {
+            "replies": "Yanıtlar: {count}",
+            "unreadReplies": "Okunmamış yanıtlar: {count}"
+        },
+        "admin": {
+            "settings": {
+                "general": {
+                    "where_title": "Nerede?",
+                    "where_info": "Tartışma kartlarını nerede kullanmak istediğinizi ayarlayın.",
+                    "allowedTags_label": "Etiketleri seçin",
+                    "allowedTags_help": "Tartışma kartları seçilen etiket sayfaları için etkinleştirilecek ve gösterilecektir.",
+                    "onIndexPage_label": "Ana Sayfada kartları etkinleştir",
+                    "onIndexPage_help": "Etkinleştirilirse, <em>tüm tartışmalar</em> sayfası kartları gösterecektir.",
+                    "primaryCardOptions_title": "Birincil Kart seçenekleri",
+                    "primaryCardOptions_info": "Birincil kartları (tartışma kartlarını kullanan her sayfanın üstündeki daha büyük kartlar) kullanıp kullanmayacağınızı ve nasıl kullanmak istediğinizi ayarlayın. Hiçbiri için 0.",
+                    "primaryCards_label": "Birincil kart sayısı",
+                    "primaryCards_help": "Tartışma kartlarını kullanan her sayfanın üstünde gösterilen daha büyük kart sayısı. (pozitif sayı, 0 veya daha fazla)",
+                    "desktopCardWidth_label": "Masaüstünde birincil kart genişliği",
+                    "desktopCardWidth_help": "Masaüstünde birincil kartların genişliğini (%) ayarlayın. (10 ile 100 arasında)",
+                    "tabletCardWidth_label": "Tabletlerde birincil kart genişliği",
+                    "tabletCardWidth_help": "Tabletlerde birincil kartların genişliğini (%) ayarlayın. (10 ile 100 arasında)",
+                    "cardOptions_title": "Kart seçenekleri",
+                    "cardOptions_info": "Kartlarda hangi veri/bilgilerin gösterileceğini ayarlayın.",
+                    "defaultImage_title": "Genel varsayılan görsel",
+                    "defaultImage_info": "Burada, tartışmanın ilk mesajında hiçbir görsel bulunamadığında kartlarda kullanılacak varsayılan görseli değiştirebilirsiniz. <u>ÖNEMLİ</u>: <em>Görseli değiştirmek, yaptığınız kaydedilmemiş diğer ayar değişikliklerini atacak ve sayfayı otomatik olarak yeniden yükleyecektir. Lütfen görseli değiştirmeden önce değişikliklerinizi kaydedin</em> (veya tam tersi 😉). Kabul edilen formatlar: JPG, PNG, GIF, BMP veya WebP dosyaları. İdeal çözünürlük: 400px x 225px (tüm yüklenen görseller bir PNG dosyasına dönüştürülecek ve 400px genişliğe yeniden boyutlandırılacaktır; daha küçük genişliğe sahip görseller hariç, bunlar kendi orijinal çözünürlüklerini koruyacak ve büyütülmeyecektir). Dosyanızın çözünürlüğüne bağlı olarak, görsel kartlarda kırpılmış ve/veya gerilmiş olarak gösterilebilir.",
+                    "previewText_label": "Önizleme metni",
+                    "previewText_help": "Etkinleştirilirse, ilk mesajın başlangıcını kartta bir önizleme olarak gösterir.",
+                    "showAuthor_label": "Yazarı göster",
+                    "showAuthor_help": "Etkinleştirilirse, tartışmanın yazarını kartlarda gösterir.",
+                    "showReplies_label": "Yanıtların ya da okunmamış yanıtların sayısını göster",
+                    "showReplies_help": "Etkinleştirildiğinde, kartlarda yanıtların sayısını (ve varsa * ile işaretlenmiş okunmamış yanıtların sayısını) gösterir (ve birincil kartlarda tartışmaya katılan bazı katılımcıların avatarlarını gösterir).",
+                    "showRepliesOnRight_label": "Kartın başlığının sağ tarafında yanıtların sayısını (ve varsa okunmamış yanıtları * ile) gösterin",
+                    "showRepliesOnRight_help": "Bu seçenek etkinleştirildiğinde, yanıtların sayısı (ve varsa * ile işaretlenmiş okunmamış yanıtlar) büyük ekranlarda (birincil olmayan) kartların başlığının sağ tarafına yerleştirilir (varsayılan olarak görüntünün sol alt tarafına değil).",
+                    "showLastPostInfo_label": "Son gönderi bilgisini göster",
+                    "showLastPostInfo_help": "Seçenek etkinleştirilirse, kartta önizleme metninin altında (veya önizleme metni etkin değilse etiketlerin altında) tartışmanın son gönderisini yapan kullanıcının kullanıcı adını ve tarihini görüntüler.",
+                    "showBadges_label": "Rozetleri göster",
+                    "showBadges_help": "Etkinleştirilirse, kartların sol üst köşesinde rozetleri gösterir.",
+                    "markReadCards_label": "Okunmuş/okunmamış tartışma kartlarını ayırt et",
+                    "markReadCards_help": "Etkinleştirilirse, okunmuş tartışmalar daha açık bir başlık ve metne sahip olacaktır.",
+                    "otherOptions_title": "Diğer eklentiler gerektiren seçenekler",
+                    "otherOptions_info": "Aşağıdaki seçeneklerin çalışması için başka eklentilerin kurulu ve etkin olması gerekecektir. <strong>ÖNEMLİ: Lütfen her bir seçenek için <u>tüm</u> bilgileri okuyun ve bunları etkinleştirmeden önce gerekli adımları uygulayın</strong>.",
+                    "showViews_title_start": "Her iki durumda da ",
+                    "showViews_title_or": " YA DA ",
+                    "showViews_title_end": " eklentisi yüklü ve etkin olduğunda, aşağıdaki (1) seçeneği ayarlayabilirsiniz:",
+                    "viewsExtension_notInstalled": "{icon} Bu ayarın çalışması için bu uzantılardan birinin yüklenmesi ve etkinleştirilmesi gerekir.",
+                    "viewsExtension_notActivated": "{icon} Bu ayarın çalışması için Tartışma Görünümleri uzantısının etkinleştirilmesi gerekir.",
+                    "showViews_label": "Görüntülenme sayısını göster",
+                    "showViews_help": "Seçenek etkinleştirilirse, kartlardaki görüntülenme sayısını gösterir.",
+                    "blogExtension_title_start": " ",
+                    "blogExtension_title_end": " eklentisi yüklü ve etkin olduğunda, aşağıdaki (2) seçenekleri ayarlayabilirsiniz:",
+                    "blogExtension_notInstalled": "{icon} Bu ayarların çalışması için bu eklentinin yüklü ve etkin olması gerekiyor.",
+                    "blogExtension_notActivated": "{icon} Bu ayarların çalışması için bu eklentinin etkin olması gerekiyor.",
+                    "useBlogImages_label": "Blogun varsayılan ve öne çıkan görsellerini kullan",
+                    "useBlogImages_help": "Seçenek etkinleştirilirse, her blog yazısı için kartların görseli şunlara ayarlanacaktır: blog yazısının öne çıkan görseli; yoksa, blog içeriğinin ilk bulunan görseli; yoksa, blog eklentisinin varsayılan görseli; yoksa, tartışma kartlarının etiket varsayılan görseli; yoksa, tartışma kartlarının ana varsayılan görseli. Flarum Blog eklentisi ayarlarında blog etiketlerini yönlendirmeyi seçerseniz, blog etiketleri olarak kullanılan etiketlere ait özel ayarların tabii ki göz ardı edileceğini unutmayın.",
+                    "useBlogSummary_label": "Blog yazısının özetini önizleme metni olarak kullan",
+                    "useBlogSummary_help": "Bu seçenek ve önizleme metni etkinleştirilirse, blog yazıları için kartlar, blog yazısı metninin başlangıcı yerine blog yazısının özetinin başlangıcını önizleme metni olarak gösterecektir.",
+                    "repostExtension_title_start": " ",
+                    "repostExtension_title_end": " eklentisi yüklü ve etkin olduğunda, aşağıdaki (1) seçeneği ayarlayabilirsiniz:",
+                    "repostExtension_notInstalled": "{icon} Bu ayarın çalışması için bu eklentinin yüklü ve etkin olması gerekiyor.",
+                    "repostExtension_notActivated": "{icon} Bu ayarın çalışması için bu eklentinin etkin olması gerekiyor.",
+                    "allowRepostLinks_label": "Kartlarda Repost bağlantıları davranışına izin ver",
+                    "allowRepostLinks_help": "Bu seçenek (Repost eklentisi ile birlikte) etkinleştirilirse, bir URL ile başlayan tartışmaların kartları, kartın başlığına tıklandığında URL'yi açacak, kartın başka bir kısmına tıklandığında ise tartışma her zamanki gibi açılacaktır."
+                }
+            },
+            "tags": {
+                "options_heading": "Tartışma Kartları",
+                "activation_button": "Bu etiket için etkinleştir",
+                "deactivation_button": "Bu etiket için devre dışı bırak",
+                "defaultImage_title": "Varsayılan görsel",
+                "defaultImage_info": "Bu etiket sayfası için varsayılan kart görselini ayarlayın veya değiştirin. Kabul edilen dosya formatları ve çözünürlükler hakkında ayrıntılar için Tartışma Kartları genel ayarlarına bakın.",
+                "options_button": "Diğer tartışma kartı ayarları"
+            },
+            "tag_modal": {
+                "title": "Tartışma Kartı Ayarları: ",
+                "intro_text": "Burada mevcut etiket sayfası için farklı tartışma kartı ayarları yapabilirsiniz.",
+                "primaryCards_label": "Birincil kart sayısı",
+                "primaryCards_help": "Sayfanın üstünde gösterilen daha büyük kart sayısı (genel ayar : {default}, min: 0).",
+                "desktopCardWidth_label": "Masaüstünde birincil kart genişliği",
+                "desktopCardWidth_help": "Masaüstünde birincil kartların genişliğini (%) ayarlayın (genel ayar: %{default}, min: %10 & maks: %100).",
+                "tabletCardWidth_label": "Tabletlerde birincil kart genişliği",
+                "tabletCardWidth_help": "Tabletlerde birincil kartların genişliğini (%) ayarlayın (genel ayar: %{default}, min: %10 & maks: %100).",
+                "submit_button": "Kaydet"
+            },
+            "errors": {
+                "primaryCards": "Birincil kart sayısı pozitif bir sayı olmalıdır (0 veya daha büyük)",
+                "desktopCardWidth": "Masaüstünde birincil kart genişliği 10 ile 100 arasında bir sayı olmalıdır",
+                "tabletCardWidth": "Tabletlerde birincil kart genişliği 10 ile 100 arasında bir sayı olmalıdır"
+            }
+        }
+    }
+}

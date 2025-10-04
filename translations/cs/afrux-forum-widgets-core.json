@@ -1,10 +1,10 @@
 {
     "afrux-forum-widgets-core": {
         "admin": {
-            "cache_not_writable_warning": "",
+            "cache_not_writable_warning": "Do mezipaměti nelze v současné době zapisovat, což znemožní fungování některých widgetů. Opravte oprávnění adresáře úložiště.",
             "settings": {
                 "prefer_data_with_initial_load": "",
-                "prefer_data_with_initial_load_help": ""
+                "prefer_data_with_initial_load_help": "Namísto načítání dat widgetu po prvním načtení stránky odesláním požadavků API, se data načtou (pokud je to možné) při prvním načtení."
             }
         }
     }

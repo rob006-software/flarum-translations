@@ -8,8 +8,8 @@
                 "client_name_help": "Nama Flarum instance",
                 "client_url": "URL",
                 "client_url_help": "URL Flarum instance",
-                "client_api_key": "API key",
-                "client_api_key_help": "API key dari Flarum instance Anda.",
+                "client_api_key": "Kunci API",
+                "client_api_key_help": "Kunci API dari Flarum instance Anda.",
                 "client_password_token": "Token password",
                 "client_password_token_help": "Token password acak untuk digunakan dengan Flarum instance signup.",
                 "client_verify_ssl": "Verifikasi SSL",
@@ -29,7 +29,8 @@
             }
         },
         "forum": {
-            "manage_account_btn": "Kelola akun"
+            "manage_account_btn": "Kelola akun",
+            "no_login_url_error": "Tidak ada URL login yang ditentukan, silakan periksa pengaturan SSO!"
         }
     }
 }

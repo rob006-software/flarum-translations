@@ -1,10 +1,10 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
                     "export_description": "Kaikki käyttäjän siirtämät tiedostot.",
-                    "anonymize_description": "Poistaa käyttäjän tiedon siirretyistä tiedostoista. Tiedostot pysyvät saatavilla käyttäjille, jotka pystyivät katsomaan niitä ennen anonymisaatiota.",
+                    "anonymize_description": "Poistaa käyttäjän viittauksen siirretyistä tiedostoista. Tiedostot itsessään pysyy saatavilla käyttäjille, joilla on pääsy niihin ennen anonymisointia.",
                     "delete_description": "Poistaa kaikki käyttäjän siirtämät tiedostot."
                 }
             }
@@ -96,6 +96,12 @@
                     "title": "Kuvien vesileimat",
                     "toggle": "Laita kuviin vesileima"
                 },
+                "svg-sanitizer": {
+                    "title": "",
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
+                },
                 "composer_buttons": {
                     "title": "Tekstieditorin napit",
                     "options": {
@@ -131,7 +137,8 @@
                 "text-preview_description": "Asettaa esikatselun (ensimmäiset 5 riviä) tekstitiedostosta. Tämän kanssa tulee mahdollisuus nähdä koko tiedoston sisältö.\n"
             },
             "upload_methods": {
-                "aws-s3": "S3/Yhteensopiva",
+                "aws-s3": "S3 tai Yhteensopiva",
+                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Paikallinen",
                 "ovh-svfs": "OVH SVFS",
@@ -249,6 +256,17 @@
                     "hide_fail": "Ei voitu asettaa tiedostoa \"{fileName}\" yksityiseksi",
                     "show_fail": "Ei voitu asettaa tiedostoa \"{fileName}\" julkiseksi",
                     "loading": "Asetetaan tiedostoa yksityiseksi..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "Kaikki käyttäjän siirtämät tiedostot.",
+                    "anonymize_description": "Poistaa käyttäjän tiedon siirretyistä tiedostoista. Tiedostot pysyvät saatavilla käyttäjille, jotka pystyivät katsomaan niitä ennen anonymisaatiota.",
+                    "delete_description": "Poistaa kaikki käyttäjän siirtämät tiedostot."
                 }
             }
         }

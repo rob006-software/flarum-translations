@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "有新貼文或新回覆時發送郵件提醒",
                 "submit_button": "確認訂閱"
             },
+            "hero": {
+                "title": ""
+            },
             "notifications": {
                 "new_discussion_text": "{username} 發佈了新貼文",
                 "new_post_text": "{username} 發佈了新回覆",
@@ -76,6 +79,16 @@
             "filtering_options": {
                 "none": "關注的主題",
                 "tags": "關注的標籤"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "",
+                    "anonymize_description": ""
+                }
             }
         }
     },

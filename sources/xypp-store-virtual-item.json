@@ -1,0 +1,47 @@
+{
+    "xypp-store-virtual-item": {
+        "admin": {
+            "table": {
+                "all": "All",
+                "check": "-",
+                "id": "Id",
+                "name": "Name",
+                "key": "Key",
+                "assign": "Assign",
+                "operation": "Operation",
+                "delete": "Delete",
+                "create": "Create",
+                "delete_batch": "Batch Delete({count} in total)",
+                "load_more": "Load More",
+                "remove_confirm": "Are you sure to delete?"
+            },
+            "create": {
+                "title": "Create virtual item",
+                "name": "Item name",
+                "key": "Key",
+                "content": "Content",
+                "fillTip": "Put your key/content below. ",
+                "submit": "Create",
+                "add": "Add",
+                "convert": "Convert Key:Content",
+                "key_required": "Empty key is not allowed"
+            }
+        },
+        "forum": {
+            "store": {
+                "name": "Virtual Item"
+            },
+            "select": {
+                "title": "Configure",
+                "name": "Current selected item name: {name}",
+                "icon": "Icon",
+                "desc": "Description",
+                "rest": "Show the rest count by storage.",
+                "submit": "Submit"
+            }
+        },
+        "api": {
+            "no-available": "No available item"
+        }
+    }
+}

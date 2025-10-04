@@ -16,72 +16,72 @@
                     "heading": "Moderoinnin oletus toimet",
                     "introduction": "Kun käyttäjä merkitään roskapostittajaksi, moderaattorit voivat valita käytössä olevista toimista miten toimia kyseisessä tilanteessa. Nämä asetukset asettavat oletukset tähän tilanteeseen, prosessin nopeuttamiseksi, mutta voidaan myös säätää tapauskohtaiseksi.\n",
                     "move_discussions_to_tags_label": "Siirrä keskustelut avainsanaan",
-                    "move_discussions_to_tags_help": ""
+                    "move_discussions_to_tags_help": "Tämä siirtää kaikki tämän käyttäjän aloittamat keskustelut määrittämiisi avainsanoihin. Tyhjennä avainsanavalinta jättääksesi keskustelut niiden alkuperäisiin avainsanoihin. Ei vaikuta, jos ‘Poista keskustelut’ -vaihtoehto on otettu käyttöön."
                 },
                 "stopforumspam": {
-                    "heading": "",
-                    "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
-                    "frequency_label": "",
-                    "frequency_help": "",
-                    "api_key_label": "",
-                    "api_key_text": "",
-                    "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
-                    "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
-                    "confidence_help": "",
-                    "email_hash_label": "",
-                    "email_hash_help": "",
-                    "sfs_lookup_label": "",
-                    "sfs_lookup_help": "",
-                    "report_blocked_registrations_label": "",
-                    "report_blocked_registrations_help": ""
+                    "heading": "StopForumSpam",
+                    "introduction": "Tarkistaa uudet rekisteröitymiset <a>StopForumSpam</a> tietokantaa vasten. Jos <code>confidence</code> tai <code>frequency</code> rajat tulee vastaan, käyttäjä ei voi rekisteröityä foorumillesi.\n\nSSO rekisteröinti <code>fof/oauth</code> ja <code>fof/passport</code> kautta on myös tuettu. Muut SSO toimijat voi toimia, mutta niitä ei ole testattu.\n",
+                    "username_label": "Käyttäjätunnuksen roskapostitarkistus",
+                    "ip_label": "IP osoitteen roskapostitarkistus",
+                    "email_label": "Sähköpostin roskapostitarkistus",
+                    "frequency_label": "Kynnysarvo",
+                    "frequency_help": "Spämmi-ilmoitusten määrä kaikkien käytössä olevien tarkistusten välillä, joka laukaisee roskapostisuodattimen.\nEsim: Jos sähköpostissa on 1 osuma ja IP-osoitteessa 2 osumaa, yhteensä on 3 osumaa. Jos kynnysarvo on asetettu 3:een tai vähemmän, estämme rekisteröinnin.\n",
+                    "api_key_label": "API avain",
+                    "api_key_text": "Sinulla on mahdollisuus ilmoittaa roskapostittajat StopForumSpam saadaksesi isomman yhteisön vapaaksi roskapostista.",
+                    "api_key_instructions_text": "<register>Rekisteröidy StopForumSpam sivuille</register>. Sieltä voit <key>hankkia API avaimen</key>.",
+                    "regional_endpoint_label": "Maantieteellinen pääsy",
+                    "regional_endpoint_help": "Oletuksena ohjaamme haun lähimpään alueelliseen palvelimeen tarjotaksemme nopeimman vastauksen. Jos haluat rajoittaa liikennettä tiettyyn alueeseen, kuten yrityksen tai maan tietosuojakäytäntöjen noudattamiseksi, voit pakottaa yhteyden tiettyyn alueeseen.",
+                    "region_closest_label": "Lähin",
+                    "region_europe_label": "Eurooppa",
+                    "region_us_label": "Yhdysvallat",
+                    "confidence_label": "Luottamus",
+                    "confidence_help": "Luottamuspisteet ovat melko hyvä indikaattori siitä, että testattava kenttä saattaa johtaa ei-toivottuun toimintaan. Aseta luottamustasosi prosentteina. Jos kenttä on yhtä suuri tai suurempi kuin tämä luku, rekisteröinti estetään, riippumatta yllä olevasta ‘taajuustestistä’.",
+                    "email_hash_label": "Käytä hashattua sähköpostiosoitetta",
+                    "email_hash_help": "Välitä sähköpostiosoitteen MD5-hash, jos et halua välittää itse sähköpostiosoitetta. Tämä menetelmä ohittaa kaikki mustalistat, normalisoinnit ja hämäyksen ohitustarkistukset.",
+                    "sfs_lookup_label": "Rekisteröintien haku",
+                    "sfs_lookup_help": "Jos otettu käyttöön, tarkistamme StopForumSpam-tietokannan, kun uusi käyttäjä rekisteröityy foorumillesi. Jos käyttäjä löytyy (käyttäjätunnus, IP-osoite, sähköpostiosoite) ja tämä tietopiste on otettu käyttöön yhdessä SFS:n luottamustason saavuttamisen kanssa, käyttäjä estetään viimeistelemästä rekisteröintiään.",
+                    "report_blocked_registrations_label": "Raportoi estetyt rekisteröinnit",
+                    "report_blocked_registrations_help": "Kun rekisteröinti estetään Rekisteröintien haku -ominaisuuden avulla, ilmoitamme yrityksestä takaisin StopForumSpam-palveluun, jotta roskapostittajan toiminta voidaan varmemmin vahvistaa. Tämä vaatii StopForumSpam API-avaimen asettamisen (katso alla)."
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
-                "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "button": "Estetyt rekisteröinnit",
+                "title": "Estetyt rekisteröinnit",
+                "no-records": "Ei löytynyt estettyjä rekisteröintejä.",
+                "help": "Tällä sivulla näkyvät kaikki rekisteröinnit, jotka on estetty StopForumSpam-palvelun avulla. Voit tarkastella kunkin rekisteröinnin yksityiskohtia, ja jos haluat, voit poistaa tietueen tietokannasta.\n",
+                "attempted-at": "Yritetty",
+                "ip": "IP osoite",
+                "email": "Sähköposti",
+                "username": "Käyttäjätunnus",
+                "login-provider": "Sisäänkirjautumisen tarjoaja",
+                "login-provider-data": "Sisäänkirjautumisen tarjoajan tiedot",
+                "sfs-data": "StopForumSpam tiedot",
+                "delete_entry": "Poista merkintä"
             }
         },
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "Rekisteröintisi tiedot on löydetty roskapostin estotietokannasta, joten rekisteröintisi on estetty."
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
-                "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
-                "report_to_sfs_help": ""
+                "hard_delete_discussions_label": "Poista keskustelut",
+                "hard_delete_discussions_help": "Tämä poistaa pysyvästi kaikki tämän käyttäjän aloittamat keskustelut. Kun tämä on poistettu käytöstä, keskustelut piilotetaan sen sijaan.",
+                "hard_delete_posts_label": "Poista viestit",
+                "hard_delete_posts_help": "Tämä poistaa pysyvästi kaikki tämän käyttäjän tekemät viestit (kommentit, vastaukset, jne.). Kun tämä on poistettu käytöstä, viestit piilotetaan sen sijaan.",
+                "hard_delete_user_label": "Poista käyttäjä",
+                "hard_delete_user_help": "Tämä poistaa käyttäjän kokonaan. Kun poistettu käytössä, käyttäjä estetään sen sijaan.",
+                "intro": "Kun merkitset käyttäjän roskapostittajaksi, useita toimenpiteitä suoritetaan, jotka riippuvat foorumillasi saatavilla olevista lisäosista.",
+                "move_discussions_tag_label": "Siirrä keskustelu karanteeni avainsanaan",
+                "move_discussions_tag_help": "Tämä siirtää kaikki tämän käyttäjän aloittamat keskustelut avainsanaan, jonka olet määrittänyt foorumin asetuksissa. Kun tämä on poistettu käytöstä, keskustelut jäävät nykyisiin avainsanoihinsa.",
+                "process_button": "Suorita",
+                "title": "Merkitse {username} roskapostittajaksi",
+                "report_to_sfs_label": "Raportoi StopForumSpam palveluun",
+                "report_to_sfs_help": "Tämä raportoi käyttäjän perus tiedot (käyttäjätunnus, sähköpostiosoite, IP-osoite) StopForumSpam-palveluun. Tämä auttaa estämään käyttäjää rekisteröitymästä muille foorumeille, jotka käyttävät StopForumSpam-palvelua."
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "Roskapostittaja"
             }
         }
     }

@@ -2,24 +2,24 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": ""
+                "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "",
-                "delete_tag_button": "",
-                "delete_tag_confirmation": "",
-                "description_label": "",
-                "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "name_placeholder": "",
-                "slug_label": "",
-                "submit_button": "",
-                "title": ""
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Dzēst birku",
+                "delete_tag_confirmation": "Vai tiešām vēlaties dzēst šo birku? Diskusijas, kas atzīmētas ar šo birku, NETIKS dzēstas.",
+                "description_label": "Apraksts",
+                "hide_label": "Slēpt diskusijas ar šo birku no vispārējā saraksta (Visām diskusijām)",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Īsais nosaukums",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Izveidot birku"
             },
             "nav": {
-                "tags_button": "",
+                "tags_button": "=> flarum-tags.ref.tags",
                 "tags_text": ""
             },
             "permissions": {
@@ -43,6 +43,7 @@
                 "about_tags_text": "",
                 "create_primary_tag_button": "",
                 "create_secondary_tag_button": "",
+                "edit_tag_label": "",
                 "primary_heading": "",
                 "secondary_heading": "",
                 "settings_heading": ""
@@ -97,6 +98,17 @@
             "choose_tags_placeholder": "",
             "name": "",
             "tags": ""
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

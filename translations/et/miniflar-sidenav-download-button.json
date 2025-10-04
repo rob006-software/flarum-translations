@@ -2,25 +2,25 @@
     "miniflar-sidenav-download-button": {
         "admin": {
             "permissions": {
-                "view_download_button_label": ""
+                "view_download_button_label": "Vaata külgribal allalaadimise nuppu"
             },
             "settings": {
                 "labels": {
-                    "add_separator": "",
-                    "disable_widget": ""
+                    "add_separator": "Lisada eraldaja?",
+                    "disable_widget": "Lülita Flarumi vidin välja ja kasuta hoopis Afrux toega vidinat"
                 },
-                "button_order_heading": "",
-                "button_order_text": "",
-                "separator_order_heading": "",
-                "separator_order_text": "",
-                "button_link_heading": "",
-                "button_link_text": "",
-                "enter_link_message": ""
+                "button_order_heading": "Nuppude järjekord",
+                "button_order_text": "Muuda seda seadet, et kohandada selle vidina paigutust oma Flarumi külgribal. Mida kõrgem on number, seda kõrgemal on see vidin külgribal (see väärtus võib olla nii positiivne kui ka negatiivne).",
+                "separator_order_heading": "Eraldaja järjekord",
+                "separator_order_text": "Muuda seda seadet, et kohandada eraldaja paigutust oma Flarumi külgribal. Mida kõrgem on number, seda kõrgemal on eraldaja külgribal (see väärtus võib olla nii positiivne kui ka negatiivne).",
+                "button_link_heading": "Allalaadimise link",
+                "button_link_text": "Sisesta korrektne URL (nt. https://sinusait.ee).",
+                "enter_link_message": "Palun sisesta korrektne URL."
             }
         },
         "forum": {
             "index": {
-                "download_button": ""
+                "download_button": "Laadi alla"
             }
         }
     }

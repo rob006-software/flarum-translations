@@ -60,6 +60,18 @@
                 "confirm_disable_2fa_title": "Confirmer la désactivation de l'authentification à deux facteurs",
                 "confirm_disable_2fa_text": "Êtes-vous sûr de vouloir désactiver l'authentification à deux facteurs ?",
                 "confirm_disable_2fa_text_other_user": "Êtes-vous sûr de vouloir désactiver l'authentification à deux facteurs pour {username} ? Cela supprimera tous les codes de sauvegarde et désactivera l'authentification à deux facteurs pour son compte.",
+                "change_device_heading": "Modifier l'appareil d'authentification",
+                "change_device_title": "Modifier l'appareil",
+                "change_device_description": "Déplacer l'A2F vers un nouvel appareil",
+                "change_device_button": "Modifier l'appareil",
+                "verify_current_device_message": "Veuillez saisir un jeton de votre appareil d'authentification actuel pour vérifier votre identité.",
+                "enter_current_token": "Saisir le jeton de l'appareil actuel",
+                "scan_new_device_qr": "Scannez ce code QR avec votre nouvel appareil d'authentification.",
+                "verify_new_device_message": "Saisissez maintenant un jeton à partir de votre nouvel appareil pour terminer la modification.",
+                "enter_new_token": "Saisir le jeton à partir du nouvel appareil",
+                "new_backup_codes": "Vos nouveaux codes de sauvegarde",
+                "device_changed_confirmation": "Votre appareil d'authentification a été modifié avec succès.",
+                "continue_button": "Continuer",
                 "cannot_disable": "La configuration actuelle ne permet pas de désactiver l'authentification à deux facteurs.",
                 "cannot_disable_tooltip": "Impossible de désactiver l'A2F",
                 "cancel_button": "Annuler",
@@ -92,6 +104,16 @@
             "two_factor_token": {
                 "title": "Authentification à deux facteurs",
                 "submit_button": "Envoyer le jeton"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "Exporte le statut A2F et les codes de sauvegarde chiffrés.",
+                    "delete_description": "Supprime toutes les données relatives à l'A2F."
+                }
             }
         }
     },

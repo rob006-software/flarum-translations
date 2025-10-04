@@ -1,61 +1,104 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "title": "",
-            "search_placeholder": "",
-            "search_help_text": "",
-            "total_hidden_discussions": "",
-            "empty_list": "",
-            "hidden_discussions": "",
-            "discussion_id": "",
-            "discussion_title": "",
-            "discussion_link_tooltip": "",
-            "discussion_author": "",
-            "unknownn_user": "",
-            "created_at": "",
-            "hidden_at": "",
-            "unknown_date": "",
-            "actions": "",
-            "restore_tooltip": "",
+            "discussions_bin": "Thùng rác thảo luận",
+            "posts_bin": "Thùng rác bài đăng",
+            "search_placeholder": "Tìm kiếm thảo luận",
+            "search_post_placeholder": "Tìm kiếm bài đăng",
+            "search_help_text": "Tìm kiếm từ trong tiêu đề cũng như trong tin nhắn của các thảo luận",
+            "search_post_help_text": "Tìm kiếm từ trong các bài đăng bị ẩn",
+            "total_hidden_discussions": "Tổng số thảo luận bị ẩn",
+            "total_hidden_posts": "Tổng số bài đăng bị ẩn",
+            "empty_list": "Không có thảo luận nào trong thùng rác.",
+            "hidden_discussions": "Thảo luận bị ẩn",
+            "discussion_id": "ID",
+            "discussion_title": "Tiêu đề thảo luận",
+            "discussion_link_tooltip": "Xem thảo luận",
+            "author": "Tác giả",
+            "unknownn_user": "Người dùng không xác định",
+            "created_at": "Tạo lúc",
+            "hidden_at": "Ẩn lúc",
+            "unknown_date": "Ngày không xác định",
+            "actions": "Hành động",
+            "restore_tooltip": "Khôi phục thảo luận",
+            "restore_post_tooltip": "Khôi phục bài đăng",
             "restore_discussion": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Khôi phục thảo luận",
+                "confirmation": "Bạn có chắc chắn muốn khôi phục thảo luận này:",
+                "restore_button": "Khôi phục thảo luận này",
+                "success": "Đã khôi phục thành công thảo luận"
+            },
+            "restore_post": {
+                "title": "Khôi phục bài đăng",
+                "confirmation": "Bạn có chắc chắn muốn khôi phục bài đăng này từ thảo luận ",
+                "restore_button": "Khôi phục bài đăng này",
+                "success": "Đã khôi phục thành công bài đăng"
             },
             "delete_discussion": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Xóa vĩnh viễn",
+                "confirmation": "Bạn có chắc chắn muốn <u>xóa vĩnh viễn</u> thảo luận này (không thể hoàn tác):",
+                "delete_button": "Xóa vĩnh viễn thảo luận này",
+                "success": "Đã xóa thành công thảo luận"
             },
-            "delete_tooltip": "",
-            "bulk_actions": "",
-            "bulk_restore_label": "",
+            "delete_post": {
+                "title": "Xóa vĩnh viễn",
+                "confirmation": "Bạn có chắc chắn muốn <u>xóa vĩnh viễn</u> bài đăng này (không thể hoàn tác):",
+                "delete_button": "Xóa vĩnh viễn bài đăng này",
+                "success": "Đã xóa thành công bài đăng"
+            },
+            "delete_tooltip": "Xóa thảo luận",
+            "delete_post_tooltip": "Xóa bài đăng",
+            "bulk_actions": "Hành động cho các thảo luận đã chọn : ",
+            "bulk_post_actions": "Hành động cho các bài đăng đã chọn : ",
+            "bulk_restore_label": "Khôi phục các thảo luận đã chọn",
+            "bulk_post_restore_label": "Khôi phục các bài đăng đã chọn",
             "mass_restore_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Khôi phục các thảo luận đã chọn",
+                "text_start": "Bạn có chắc chắn muốn khôi phục ",
+                "text_end": " thảo luận đã chọn?",
+                "submit_button": "Khôi phục các thảo luận này",
+                "success": "Đã khôi phục thành công các thảo luận đã chọn"
+            },
+            "mass_restore_post_modal": {
+                "title": "Khôi phục các bài đăng đã chọn",
+                "text_start": "Bạn có chắc chắn muốn khôi phục ",
+                "text_end": " bài đăng đã chọn?",
+                "submit_button": "Khôi phục các bài đăng này",
+                "success": "Đã khôi phục thành công các bài đăng đã chọn"
             },
             "mass_delete_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Xóa vĩnh viễn các thảo luận này",
+                "text_start": "Bạn có chắc chắn muốn <u>xóa vĩnh viễn</u> ",
+                "text_end": " thảo luận đã chọn?",
+                "submit_button": "Xóa vĩnh viễn các thảo luận này",
+                "success": "Đã xóa thành công các thảo luận đã chọn"
             },
-            "bulk_delete_label": "",
+            "mass_delete_post_modal": {
+                "title": "Xóa vĩnh viễn các bài đăng này",
+                "text_start": "Bạn có chắc chắn muốn <u>xóa vĩnh viễn</u> ",
+                "text_end": " bài đăng đã chọn?",
+                "submit_button": "Xóa vĩnh viễn các bài đăng này",
+                "success": "Đã xóa thành công các bài đăng đã chọn"
+            },
+            "bulk_delete_label": "Xóa các thảo luận đã chọn",
+            "bulk_post_delete_label": "Xóa các bài đăng đã chọn",
             "pagination": {
-                "first_page_button": "",
-                "back_button": "",
-                "page_counter": "",
-                "go_to_page_textbox_a11y_label": "",
-                "next_button": "",
-                "last_page_button": ""
+                "first_page_button": "Đi đến trang đầu",
+                "back_button": "Quay lại trang trước",
+                "page_counter": "Trang {current} của {total}",
+                "go_to_page_textbox_a11y_label": "Đi trực tiếp đến số trang",
+                "next_button": "Đi đến trang tiếp theo",
+                "last_page_button": "Đi đến trang cuối"
             },
-            "mass_help_text": ""
+            "mass_help_text": "Vui lòng đợi trang làm mới sau khi xác nhận khôi phục hoặc xóa hàng loạt",
+            "grid": {
+                "invalid_column_content": "Nội dung không hợp lệ!"
+            },
+            "post": {
+                "id": "ID",
+                "title": "Văn bản bài đăng",
+                "open_post": "Mở bài đăng"
+            }
         }
     }
 }

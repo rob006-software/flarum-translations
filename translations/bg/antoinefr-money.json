@@ -7,13 +7,16 @@
                 "moneyfordiscussion": "Пари, предоставени за нова дискусия",
                 "moneyname": "Име на валутата (пример: [пари] точки)",
                 "postminimumlength": "Минимална дължина на публикацията за получаване на парите (0, за да се деактивира)",
+                "ignore_notifying_users": "",
                 "noshowzero": "Не показвайте, ако стойността е нула",
                 "autoremove": "Автоматично обновяване на парите",
+                "cascaderemove": "",
                 "moneyforlike": "Пари, предоставени при харесване на публикацията",
                 "helpextensionlikes": "Изисква разширението <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "Редакция на парите"
+                "edit_money_label": "Редакция на парите",
+                "disable_money_label": ""
             },
             "autoremove": [
                 "Никога не премахвайте пари",

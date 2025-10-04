@@ -38,6 +38,10 @@
                     "description": "輸入 Flarum 用於登入的所有可用 LDAP 網域",
                     "add": "新增域名",
                     "banner": "網域 {index}",
+                    "is_enabled": {
+                        "enabled": "",
+                        "disabled": ""
+                    },
                     "header": {
                         "server": "LDAP 伺服器設定",
                         "admin": "LDAP 管理員",
@@ -70,7 +74,10 @@
                         "user_mail": "分配電子郵件字段",
                         "user_mail_help": "留空以允許用戶在註冊期間設定自己的電子郵件",
                         "user_nickname_fields": "使用字段分配暱稱",
-                        "user_nickname_fields_help": "必須啟用暱稱擴展，使用下拉選項編譯具有多個 LDAP 欄位的暱稱。 例如，選擇“givenname,sn”將指定“[名字] [姓氏]”作為他們的暱稱"
+                        "user_nickname_fields_help": "必須啟用暱稱擴展，使用下拉選項編譯具有多個 LDAP 欄位的暱稱。 例如，選擇“givenname,sn”將指定“[名字] [姓氏]”作為他們的暱稱",
+                        "permission_groups": "",
+                        "permission_groups_help": "",
+                        "is_enabled": ""
                     }
                 },
                 "onlyUse": "隱藏 Flarum 標準登入方法",

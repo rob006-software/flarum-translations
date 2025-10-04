@@ -1,5 +1,5 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
@@ -96,6 +96,12 @@
                     "title": "Suv belgisi rasmlari",
                     "toggle": "Suv belgisi rasmlari"
                 },
+                "svg-sanitizer": {
+                    "title": "",
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
+                },
                 "composer_buttons": {
                     "title": "Kompozitor tugmalari",
                     "options": {
@@ -132,6 +138,7 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/mos keladi",
+                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Lokal",
                 "ovh-svfs": "OVH SVFS",
