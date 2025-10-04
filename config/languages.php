@@ -199,6 +199,7 @@ return [
 		'!xypp-store-auto-checkin',
 		'!xypp-store-doorman',
 		'!xypp-store-group',
+		'!xypp-store-virtual-item',
 		'!xypp-user-decoration',
 		'!ziiven-fireworks',
 		'!ziiven-money-leaderboard',
