@@ -58,9 +58,6 @@ return [
 	'antoinefr-money' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v1.4.0/locale/en.yml',
 	],
-	'antoinefr-online' => [
-		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/v1.0.1/locale/en.yml',
-	],
 	'archlinux-de-click-image' => [
 		'tag' => 'https://raw.githubusercontent.com/archlinux-de/flarum-click-image/1.1.2/locale/en.yml',
 	],
