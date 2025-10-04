@@ -2,7 +2,12 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
+                "cache_ttl": "Felhasználólista gyorsítótárazási ideje (másodpercben)",
+                "last_seen_interval": "A felhasználó online állapotúnak tekintésének időköze (percben)",
                 "max_users": "Megjelenítendő felhasználók legnagyobb száma"
+            },
+            "permissions": {
+                "view_online_users_widget": "Online felhasználók moduljának megtekintése"
             }
         },
         "forum": {

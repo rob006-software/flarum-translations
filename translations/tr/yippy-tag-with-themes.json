@@ -2,60 +2,78 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": ""
+                "design_default": "Tartışma Tasarımı Düzeni",
+                "display_themes": "Temalar için Etiket İzni Etkinleştir"
             },
             "helps": {
-                "design_default": ""
+                "design_default": "Varsayılan bir tasarım düzeni seçin",
+                "display_themes": "Yalnızca belirli gruplar için temalara izin ver"
             },
             "options": {
                 "design_options": {
-                    "sticky_note": "",
-                    "sticky_note_tag": "",
-                    "sticky_note_tab": "",
-                    "sticky_note_banner": "",
-                    "sticky_note_outline": "",
-                    "sticky_note_outline_tag": "",
-                    "sticky_note_outline_tab": "",
-                    "sticky_note_outline_banner": "",
-                    "basic": "",
-                    "basic_tag": "",
-                    "basic_tab": "",
-                    "basic_banner": "",
-                    "basic_outline": "",
-                    "basic_outline_tag": "",
-                    "basic_outline_tab": "",
-                    "basic_outline_banner": "",
-                    "flat": "",
-                    "flat_tag": "",
-                    "flat_tab": "",
-                    "flat_banner": "",
-                    "flat_border": "",
-                    "flat_border_tag": "",
-                    "flat_border_tab": "",
-                    "flat_border_banner": ""
+                    "none": "Hiçbiri",
+                    "sticky_note": "Yapışkan Not",
+                    "sticky_note_tag": "Yapışkan Not (Birincil Etiket)",
+                    "sticky_note_tab": "Yapışkan Not (Birincil Sekme)",
+                    "sticky_note_banner": "Yapışkan Not (Birincil Afiş)",
+                    "sticky_note_outline": "Yapışkan Not Anahattı",
+                    "sticky_note_outline_tag": "Yapışkan Not Anahattı (Birincil Etiket)",
+                    "sticky_note_outline_tab": "Yapışkan Not Anahattı (Birincil Sekme)",
+                    "sticky_note_outline_banner": "Yapışkan Not Anahattı (Birincil Afiş)",
+                    "basic": "Temel",
+                    "basic_tag": "Temel (Birincil Etiket)",
+                    "basic_tab": "Temel (Birincil Sekme)",
+                    "basic_banner": "Temel (Birincil Afiş)",
+                    "basic_outline": "Temel Anahat",
+                    "basic_outline_tag": "Temel Anahat (Birincil Etiket)",
+                    "basic_outline_tab": "Temel Anahat (Birincil Sekme)",
+                    "basic_outline_banner": "Temel Anahat (Birincil Afiş)",
+                    "flat": "Düz",
+                    "flat_tag": "Düz (Birincil Etiket)",
+                    "flat_tab": "Düz (Ana Sekme)",
+                    "flat_banner": "Düz (Ana Afiş)",
+                    "flat_border": "Düz Kenar",
+                    "flat_border_tag": "Düz Kenar (Ana Etiket)",
+                    "flat_border_tab": "Düz Kenar (Ana Sekme)",
+                    "flat_border_banner": "Düz Kenar (Ana Afiş)",
+                    "rounded_flat": "Yuvarlak Düz",
+                    "rounded_flat_tag": "Yuvarlatılmış Düz (Birincil Etiket)",
+                    "rounded_flat_tab": "Yuvarlatılmış Düz (Birincil Sekme)",
+                    "rounded_flat_banner": "Yuvarlak Düz (Ana Afiş)",
+                    "rounded_flat_border": "Yuvarlatılmış Düz Kenarlık",
+                    "rounded_flat_border_tag": "Yuvarlatılmış Düz Kenarlık (Birincil Etiket)",
+                    "rounded_flat_border_tab": "Yuvarlatılmış Düz Kenarlık (Birincil Sekme)",
+                    "rounded_flat_border_banner": "Yuvarlatılmış Düz Kenarlık (Birincil Afiş)"
                 }
             },
             "designs": {
-                "title": "",
-                "description": "",
-                "add": "",
-                "banner": "",
+                "title": "Etiketler için Özel Tasarım Teması",
+                "description": "Belirli etiketler için farklı temaların görüntülenmesiyle ilgili kuralların bir listesini sağlayın",
+                "add": "Etiketler için Tasarım Ekle",
+                "banner": "Tasarım Teması {index} - [{isEnabled}]",
+                "is_enabled": {
+                    "enabled": "Etkinleştir",
+                    "disabled": "Devre dışı"
+                },
                 "header": {
-                    "theme": "",
-                    "color_theme": ""
+                    "theme": "Özel Tema",
+                    "color_theme": "Varsayılan Renk Şemasını Özelleştir"
                 },
                 "data": {
-                    "themeName": "",
-                    "tags": "",
-                    "tags_help": "",
-                    "primary_background_color": "",
-                    "primary_font_class": "",
-                    "child_background_color": "",
-                    "child_font_class": "",
-                    "outline_background_color": "",
-                    "secondary_font_class": "",
-                    "unread_color": "",
-                    "is_enabled": ""
+                    "themeName": "Tema Seçin",
+                    "tags": "Seçili Birincil Etiketler",
+                    "tags_help": "Bu özelleştirilmiş tasarım teması için bir veya daha fazla etiket seçin",
+                    "primary_background_color": "Birincil Arka Plan Rengini Düzenleme",
+                    "primary_font_class": "Birincil Yazı Tipini Düzenle",
+                    "child_background_color": "Alt Arka Plan Rengini Düzenle",
+                    "child_font_class": "Alt Yazı Tipini Düzenle",
+                    "outline_background_color": "Anahat Rengini Düzenle",
+                    "secondary_font_class": "İkincil Yazı Tipini Düzenle",
+                    "unread_color": "Okunmamış Arka Plan Rengini Düzenle",
+                    "opacity_background": "Arka Plan Opaklık Seviyesi",
+                    "opacity_footer": "Altbilgi Opaklık Seviyesi",
+                    "opacity_outline": "Anahat Opaklık Seviyesi",
+                    "is_enabled": "Tasarım Temasını Etkinleştir"
                 }
             }
         }

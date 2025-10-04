@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "Cuộc thảo luận này đã hơn <b>{time}</b>.",
                     "description": "Rất có thể là nó không cần thảo luận thêm và do đó, nó không có mục đích gì.",
+                    "cta": "Bạn có muốn bắt đầu một cuộc thảo luận mới không?",
+                    "cta_button": "=> core.ref.start_a_discussion",
                     "checkbox_label": "Tôi biết rằng cuộc thảo luận này đã khá cũ nhưng vẫn muốn trả lời.",
                     "error": "Cuộc thảo luận này quá cũ để trả lời."
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "Hiển thị lời kêu gọi hành động",
+                "show_discussion_cta_help": "Hiển thị lời kêu gọi hành động khi trả lời một cuộc thảo luận đã diễn ra quá thời gian quy định và không có mô tả tùy chỉnh nào được thiết lập.",
                 "days_label": "Ngày",
                 "days_help": "Một cuộc thảo luận sẽ được đánh dấu là cũ khi số ngày được chỉ định đã trôi qua kể từ khi bài viết cuối cùng về cuộc thảo luận đó được đăng. Sử dụng <code>0</code> để tắt nó theo mặc định.",
                 "message_title_label": "Tiêu đề tin nhắn tùy chỉnh",

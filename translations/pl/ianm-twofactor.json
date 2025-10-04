@@ -22,14 +22,14 @@
                 "logo_qr": "Logo na kodzie QR",
                 "logo_qr_help": "Jeśli logo zostało przesłane, zostanie ono osadzone na kodzie QR. Pozostaw puste, aby użyć logo forum.",
                 "tokens": {
-                    "heading": "",
-                    "help": "",
-                    "kill_inactive_tokens": "",
-                    "kill_inactive_tokens_help": "",
-                    "kill_inactive_tokens_age_days": "",
-                    "kill_inactive_tokens_age_days_help": "",
-                    "also_kill_developer_tokens": "",
-                    "also_kill_developer_tokens_help": ""
+                    "heading": "Tokeny dostępu",
+                    "help": "W celu zwiększenia bezpieczeństwa możesz tutaj zarządzać dodatkowymi zachowaniami związanymi z tokenami dostępu.",
+                    "kill_inactive_tokens": "Zabij nieaktywne tokeny",
+                    "kill_inactive_tokens_help": "Automatycznie zabija tokeny dostępu, które były nieaktywne przez określony czas.",
+                    "kill_inactive_tokens_age_days": "Zabij nieaktywne tokeny po (dniach)",
+                    "kill_inactive_tokens_age_days_help": "Liczba dni braku aktywności, po których tokeny dostępu zostaną usunięte.",
+                    "also_kill_developer_tokens": "Zabij także tokeny developerskie",
+                    "also_kill_developer_tokens_help": "Zabija również tokeny dostępu dewelopera, które były nieaktywne przez określony czas."
                 }
             }
         },
@@ -60,6 +60,18 @@
                 "confirm_disable_2fa_title": "Potwierdzenie wyłączenia uwierzytelniania dwuskładnikowego",
                 "confirm_disable_2fa_text": "Czy na pewno chcesz wyłączyć uwierzytelnianie dwuskładnikowe?",
                 "confirm_disable_2fa_text_other_user": "Czy na pewno chcesz wyłączyć uwierzytelnianie dwuskładnikowe dla {username}? Spowoduje to usunięcie wszystkich kodów zapasowych i wyłączenie 2FA dla konta użytkownika.",
+                "change_device_heading": "Zmień urządzenie uwierzytelniające",
+                "change_device_title": "Zmień urządzenie",
+                "change_device_description": "Przenieś 2FA na nowe urządzenie",
+                "change_device_button": "Zmień urządzenie",
+                "verify_current_device_message": "Wprowadź token z bieżącego urządzenia uwierzytelniającego, aby zweryfikować swoją tożsamość.",
+                "enter_current_token": "Wprowadź token z bieżącego urządzenia",
+                "scan_new_device_qr": "Zeskanuj ten kod QR za pomocą nowego urządzenia uwierzytelniającego.",
+                "verify_new_device_message": "Teraz wprowadź token z nowego urządzenia, aby zakończyć zmianę.",
+                "enter_new_token": "Wprowadź token z nowego urządzenia",
+                "new_backup_codes": "Twoje nowe kody zapasowe",
+                "device_changed_confirmation": "Urządzenie uwierzytelniające zostało pomyślnie zmienione.",
+                "continue_button": "Kontynuuj",
                 "cannot_disable": "Bieżąca konfiguracja uniemożliwia wyłączenie uwierzytelniania dwuskładnikowego.",
                 "cannot_disable_tooltip": "Nie można wyłączyć 2FA",
                 "cancel_button": "Anuluj",
@@ -92,6 +104,16 @@
             "two_factor_token": {
                 "title": "Uwierzytelnianie dwuskładnikowe",
                 "submit_button": "Prześlij token"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "twofactordata": {
+                    "export_description": "Eksportuje status 2FA i zaszyfrowane kody kopii zapasowych.",
+                    "delete_description": "Usuwa wszystkie dane związane z 2FA."
+                }
             }
         }
     },

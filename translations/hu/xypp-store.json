@@ -1,118 +1,118 @@
 {
     "xypp-store": {
         "forum": {
-            "time_segs": "",
-            "store": "",
-            "purchase-history": "",
-            "create": "",
-            "purchase": "",
-            "edit_button": "",
-            "show_case": "",
-            "price_free": "",
+            "time_segs": "nap|óra|perc",
+            "store": "Áruház",
+            "purchase-history": "Megvásárolva",
+            "create": "Elem létrehozása",
+            "purchase": "Vásárlás",
+            "edit_button": "Szerkesztés",
+            "show_case": "Kiemelés",
+            "price_free": "Ingyenes",
             "provider": {
-                "all": "",
+                "all": "Összes",
                 "error": {
-                    "title": "",
-                    "no-preview": ""
+                    "title": "Ismeretlen szolgáltató",
+                    "no-preview": "Nincs előnézet"
                 }
             },
             "unavailable": {
                 "common": {
-                    "unknown": "",
-                    "no_rest": ""
+                    "unknown": "Nem vásárolható meg",
+                    "no_rest": "Nincs több"
                 }
             },
             "create-modal": {
-                "title": "",
-                "name": "",
-                "desc": "",
-                "price": "",
-                "provider": "",
-                "provider_data": "",
-                "use_cnt": "",
-                "expire_time": "",
-                "expire_time_tip": "",
-                "rest_cnt": "",
-                "rest_cnt_tip": "",
-                "edit-title": "",
-                "edit-button": "",
-                "button": "",
-                "success": "",
-                "confirm_delete": "",
-                "delete-button": "",
+                "title": "Elem létrehozása",
+                "name": "Név",
+                "desc": "Leírás",
+                "price": "Ár",
+                "provider": "Szolgáltató",
+                "provider_data": "Szolgáltató adatai",
+                "use_cnt": "Hányszor használható",
+                "expire_time": "Lejárati idő",
+                "expire_time_tip": "A letiltáshoz állítsa üresre, vagy adja meg, hogy hány másodperc múlva jár le.",
+                "rest_cnt": "Fennmaradó használatok",
+                "rest_cnt_tip": "A végtelenre állításhoz állítsa üresre, vagy adjon meg egy számot a darabszám korlátozásához.",
+                "edit-title": "{0}. elem szerkesztése",
+                "edit-button": "Szerkesztés",
+                "button": "Létrehozás",
+                "success": "Elem létrehozva",
+                "confirm_delete": "Biztos, hogy törli ezt az elemet?",
+                "delete-button": "Törlés",
                 "providers": {
-                    "unknown": "",
-                    "unknown_data": "",
-                    "no_select_data": "",
-                    "special_data": ""
+                    "unknown": "Válasszon szolgáltatót",
+                    "unknown_data": "Először ki kell választania a szolgáltatót",
+                    "no_select_data": "Válasszon szolgáltatói adatokat",
+                    "special_data": "Adatok kiválasztva"
                 },
-                "provider_data_error": "",
-                "provider_data_default": ""
+                "provider_data_error": "Válassza ki a szolgáltatót és az adatokat",
+                "provider_data_default": "Alapértelmezett adatok"
             },
-            "purchase-confirm": "",
+            "purchase-confirm": "Megerősíti a vásárlást?",
             "item": {
-                "rest_cnt": "",
-                "use_cnt": "",
-                "expire": "",
-                "no_available": "",
-                "infinity_count": "",
-                "not_found": ""
+                "rest_cnt": "{0} maradt",
+                "use_cnt": "{0} használat",
+                "expire": "A(z) {0} lejárata",
+                "no_available": "Nincs elérhető elem",
+                "infinity_count": "Korlátlanul elérhető",
+                "not_found": "Az elem nem található"
             },
             "history": {
-                "no_record": "",
-                "delete_button": "",
-                "confirm_delete": "",
-                "title": "",
-                "use": "",
-                "rest_cnt": "",
-                "infinity_use": "",
-                "expire": "",
-                "forever": "",
-                "confirm_use": "",
-                "unable_to_use": "",
-                "not_found": ""
+                "no_record": "Semmi sem lett megvásárolva",
+                "delete_button": "Törlés",
+                "confirm_delete": "Biztos, hogy törli ezt a megvett elemet?",
+                "title": "Megvásárolva",
+                "use": "Használat",
+                "rest_cnt": "{0} alkalommal használható",
+                "infinity_use": "Korlátlan használat",
+                "expire": "Lejár: {0}",
+                "forever": "Örökké elérhető",
+                "confirm_use": "Megerősíti, hogy használja?",
+                "unable_to_use": "Ez az elem nem használható",
+                "not_found": "Az elem nem található"
             },
             "query-modal": {
                 "purchase": {
-                    "title": ""
+                    "title": "Elem megvásárlása"
                 },
                 "use": {
-                    "title": ""
+                    "title": "Elem használata"
                 }
             },
             "use_result": {
-                "success": "",
+                "success": "Sikeres",
                 "fail": {
-                    "unknown": "",
-                    "error": "",
-                    "not_enough": "",
-                    "cannot": "",
-                    "fail_expire": "",
-                    "id_not_found": "",
-                    "expired": ""
+                    "unknown": "Ismeretlen hiba",
+                    "error": "Hiba az elem használata során",
+                    "not_enough": "Nem maradt több használat",
+                    "cannot": "Ez az elem nem használható",
+                    "fail_expire": "Hiba az elem lejárata során",
+                    "id_not_found": "Az elemazonosító nem található",
+                    "expired": "Az elem lejárt"
                 }
             },
             "purchase_result": {
-                "success": "",
+                "success": "Sikeres",
                 "fail": {
-                    "unknown": "",
-                    "not_enough_item": "",
-                    "cannot": "",
-                    "not_enough_money": ""
+                    "unknown": "Ismeretlen hiba",
+                    "not_enough_item": "Nincs elég elem",
+                    "cannot": "Nem lehet megvenni ezt az elemet",
+                    "not_enough_money": "Nincs elegendő pénz"
                 }
             },
             "edit-result": {
                 "fail": {
-                    "not-found": ""
+                    "not-found": "Az elem nem található"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "add-item": "",
-                "remove-item": "",
-                "view-history": "",
-                "remove-history": ""
+                "add-item": "Áruházi elem hozzáadása",
+                "remove-item": "Áruházi elem eltávolítása",
+                "view-history": "Mások megvásárolt elemeinek megtekintése",
+                "remove-history": "Mások megvásárolt elemeinek törlése"
             }
         }
     }

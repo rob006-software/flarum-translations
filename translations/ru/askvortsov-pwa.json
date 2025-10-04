@@ -31,18 +31,18 @@
                     "reset_vapid_success": "Ключи VAPID успешно сброшены. {count} подписок были сброшены. Перезагрузите страницу, чтобы увидеть обновленный отчет о проверке состояния."
                 },
                 "firebase_config": {
-                    "heading": "",
-                    "help_text": "",
-                    "see_documentation_here": "",
-                    "upload_successful": "",
-                    "upload_file": ""
+                    "heading": "Firebase",
+                    "help_text": "Для добавления поддержки рассылки уведомлений при публикации вашего приложения в Apple app store, вам надо использовать сервис пуш-уведомлений Firebase. Пожалуйста, сгенерируйте ваш Firebase Service Config и загрузите его сюда.",
+                    "see_documentation_here": "Посмотреть документацию здесь",
+                    "upload_successful": "Ваша Firebase конфигурация успешно загружена",
+                    "upload_file": "Загрузить файл"
                 },
                 "other": {
                     "heading": "Иное",
                     "force_portrait_text": "Принудительная портретная ориентация?",
                     "push_notif_preference_default_to_email_label": "",
-                    "push_notif_preference_default_to_email_text": "",
-                    "user_max_subscriptions_label": "",
+                    "push_notif_preference_default_to_email_text": "Если включено, пользователи будут получать пуш-уведомления для всех типов уведомлений, для которых по умолчанию установлены оповещения по эл.почте. Если выключено, пуш-уведомления по умолчанию будут выключены.",
+                    "user_max_subscriptions_label": "Максимальное число пуш-подписок на пользователя",
                     "user_max_subscriptions_text": "",
                     "window_controls_overlay_label": "",
                     "window_controls_overlay_text": ""
@@ -70,7 +70,7 @@
         "forum": {
             "alerts": {
                 "optin": "У Вас включены push-уведомления, но Вы не настроили это устройство.",
-                "optin_button": "Сконфигурировать"
+                "optin_button": "Настроить"
             },
             "discussion_controls": {
                 "share_button": "Поделиться"
@@ -88,7 +88,7 @@
                 "push_header": "Пуш",
                 "pwa_notifications": {
                     "access_default": "Из-за ограничений браузера вы должны согласиться на получение push-уведомлений на этом устройстве.",
-                    "access_default_button": "Выбрать в",
+                    "access_default_button": "Подписаться",
                     "access_denied": "Вы должны изменить настройки браузера, чтобы получать push-уведомления на этом устройстве.",
                     "access_denied_button": "Узнать, как",
                     "no_browser_support": "Этот браузер не поддерживает push-уведомления для прогрессивных веб-приложений.",

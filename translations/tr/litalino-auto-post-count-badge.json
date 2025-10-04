@@ -2,43 +2,43 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "Seviye {tier} : {from} ile {to} gönderi arasında",
                 "icon-manager": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Simge Yöneticisi",
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
-                    "title": "",
-                    "help": ""
+                    "title": "Metin Etiketi Yöneticisi",
+                    "help": "Seviye isimlerini özelleştir"
                 },
                 "color": {
-                    "bg1": "",
-                    "bg2": ""
+                    "bg1": "Arka Plan 1",
+                    "bg2": "Arka Plan 2"
                 }
             },
-            "levelOne": "",
-            "levelOne-help": "",
-            "levelTwo": "",
-            "levelTwo-help": "",
-            "levelThree": "",
-            "levelThree-help": "",
-            "levelFour": "",
-            "levelFour-help": "",
-            "levelFive": "",
-            "levelFive-help": "",
-            "levelSix": "",
-            "levelSix-help": ""
+            "levelOne": "Seviye 1 için simgeyi değiştir - \"Yeni Üye\"",
+            "levelOne-help": "Seviye 1 için göstermek istediğiniz FontAwesome simgesini buraya yapıştırın (örnek \"fas fa-square\")",
+            "levelTwo": "Seviye 2 için simgeyi değiştir - \"The Newbie\"",
+            "levelTwo-help": "Seviye 2 için göstermek istediğiniz FontAwesome simgesini buraya yapıştırın (örnek \"fas fa-square\")",
+            "levelThree": "Seviye 3 için simgeyi değiştir - \"The Talker\"",
+            "levelThree-help": "Seviye 3 için göstermek istediğiniz FontAwesome simgesini buraya yapıştırın (örnek \"fas fa-square\")",
+            "levelFour": "Seviye 4 için simgeyi değiştir - \"The Teacher\"",
+            "levelFour-help": "Seviye 4 için göstermek istediğiniz FontAwesome simgesini buraya yapıştırın (örnek \"fas fa-square\")",
+            "levelFive": "Seviye 5 için simgeyi değiştir - \"The Monster!\"",
+            "levelFive-help": "Seviye 5 için göstermek istediğiniz FontAwesome simgesini buraya yapıştırın (örnek \"fas fa-square\")",
+            "levelSix": "Seviye 6 için simgeyi değiştir - \"The Guru!\"",
+            "levelSix-help": "Seviye 6 için göstermek istediğiniz FontAwesome simgesini buraya yapıştırın (örnek \"fas fa-square\")"
         },
         "forum": {
-            "less10post": "",
-            "less50post": "",
-            "less100post": "",
-            "less300post": "",
-            "less600post": "",
-            "less1000post": "",
-            "hasWritten": "",
-            "nextBadge": "",
-            "posts": ""
+            "less10post": "Yeni Üye",
+            "less50post": "Çaylak",
+            "less100post": "Konuşkan",
+            "less300post": "Rehber",
+            "less600post": "Efsane!",
+            "less1000post": "Uzman!",
+            "hasWritten": "Şu an: {count, plural, one {# gönderi yazdı} other {# gönderi yazdı}}",
+            "nextBadge": "Sonraki etiket",
+            "posts": "gönderi"
         }
     }
 }

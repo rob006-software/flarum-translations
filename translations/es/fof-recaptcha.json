@@ -6,18 +6,18 @@
                 "secret_key_label": "Clave Secreta",
                 "site_key_label": "Clave de Sitio",
                 "type_label": "Tipo de reCAPTCHA",
-                "type_help": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "type_help": "Esta extensión solo es compatible con reCAPTCHA v2. El tipo seleccionado debe coincidir con el tipo de sus credenciales de reCAPTCHA.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "Prueba reCAPTCHA",
+                "help_text": "Esta prueba utilizará los valores actuales ingresados anteriormente. Asegúrate de volver a cargar la prueba después de modificar la configuración y no olvides guardarla una vez que la prueba pase.\nEs posible que la siguiente información no refleje la configuración guardada.\n",
+                "success_message": "¡Éxito! reCAPTCHA está configurado correctamente.",
+                "load_test_button": "Cargar",
+                "submit_button": "Enviar",
+                "reload_button": "Recargar"
             },
             "permissions": {
                 "post_without_captcha": "Crear posts y discusiones sin captcha"
@@ -25,11 +25,11 @@
         },
         "forum": {
             "error": "Hubo un error al enviar reCAPTCHA. Vuelve a intentarlo.",
-            "unknown_error": ""
+            "unknown_error": "Ocurrió un error desconocido. Verifica el captcha y vuelve a intentarlo."
         }
     },
     "validation": {
         "recaptcha": "La validación de reCAPTCHA falló.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "Se produjo un error desconocido al validar reCAPTCHA ({errors})."
     }
 }

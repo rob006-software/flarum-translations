@@ -1,6 +1,14 @@
 {
     "ianm-translate": {
         "admin": {
+            "glossary": {
+                "button": "Glossary",
+                "create_button": "Create new term",
+                "section": {
+                    "heading": "Glossary Configuration",
+                    "help": "Glossary words or terms are defined so that the translation service will not translate them. This is useful for proper nouns, technical terms, or other words that should not be translated."
+                }
+            },
             "permission": {
                 "refresh-translation": "Force a re-translate of a cached translation",
                 "translate-to-locale": "View translation in current locale",
@@ -8,8 +16,25 @@
                 "edit-translation": "Manually edit a translation"
             },
             "settings": {
+                "general": {
+                    "heading": "General Settings",
+                    "help": "These settings control the general behavior of the translation system."
+                },
+                "seo": {
+                    "heading": "SEO Settings",
+                    "help": "These settings control the behavior of the translation system with respect to search engine optimization.",
+                    "default-lang": "Match forum default language",
+                    "default-lang-help": "When enabled, the forum default language will be added to the path for the <code>x-default</code> hreflang tag."
+                },
+                "providers": {
+                    "heading": "Translation Provider Settings",
+                    "help": "Select your preferred translation provider and configure its settings here."
+                },
+                "button": "Settings",
                 "seemless": "Seamless Translation",
                 "seemless-help": "Beta feature. When enabled, all user content will be translated automatically to all other available forum languages. When a user views multi-language content, translations will be displayed automaticlly.",
+                "multi-lang-search": "Multi-language search",
+                "multi-lang-search-help": "When enabled, the search will include all translations of the content.",
                 "deepl": {
                     "api_key": {
                         "help": "Register at {link}. Driver will auto detect free/pro key type.",
@@ -60,16 +85,15 @@
                 "use-native-locale-names": "Use native locale names",
                 "use-native-locale-names-help": "When enabled, the native locale name will be used instead of the current locale version of the name.",
                 "translate-polls": "Translate polls",
-                "translate-polls-help": "When enabled, polls titles, subtitle, image alt text and answer options will be translated automatically when a poll is created or edited.",
+                "translate-polls-help": "When enabled, the poll title, subtitle, image alt text and answer options will be automatically translated when a poll is created or edited.",
+                "translate-quiz": "Translate quizzes",
+                "translate-quiz-help": "When enabled, the quiz title, subtitle, correct answer explanation and answer options will be automatically translated when a quiz is created or edited.",
                 "provider": "Translation provider",
                 "readme-info": "See the README documention for extended information.",
                 "readme-none": "No additional settings are required for this driver."
             }
         },
         "forum": {
-            "composer": {
-                "multi-languages": "Hint: you may type in your choice of language, the forum will translate it for you."
-            },
             "unknown-language": "[not detected]",
             "detected-language": "This post is in {postLang}",
             "translate-button-label": "Translate",
@@ -81,15 +105,29 @@
             "manage-translations": {
                 "translations-label": "Translations",
                 "button-label": "Manage translations",
-                "poll": {
-                    "image-alt": "Poll image ALT text (if any)",
-                    "option": "Poll option {number}",
-                    "original-title": "Original language",
-                    "subtitle": "Poll subtitle",
-                    "title": "Manage Poll translations",
-                    "question": "Poll question"
+                "original-language": "Original language ({detectedLang})",
+                "discussion": {
+                    "title": "Manage discussion title translations"
                 },
-                "save-changes": "=> core.ref.save_changes"
+                "post": {
+                    "title": "Manage Post translations"
+                },
+                "poll": {
+                    "image-alt": "Image ALT text (if any)",
+                    "option": "Option {number}",
+                    "subtitle": "Subtitle",
+                    "title": "Manage Poll translations",
+                    "question": "Question",
+                    "question-language": "Poll question ({language})"
+                },
+                "save-changes": "=> core.ref.save_changes",
+                "quiz": {
+                    "title": "Manage Quiz translations",
+                    "question": "Question",
+                    "subtitle": "Subtitle",
+                    "option": "Answer {number}",
+                    "answer-additional": "Correct answer explanation"
+                }
             },
             "discussion": {
                 "post": {

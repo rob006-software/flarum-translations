@@ -1,0 +1,105 @@
+{
+    "shebaoting-money": {
+        "admin": {
+            "settings": {
+                "title": "Settings",
+                "initialmoney": "Initial Money for New Users",
+                "moneyforpost": "Money given for a new post",
+                "moneyfordiscussion": "Money given for a new discussion",
+                "moneyname": "Name of the money (ex: [money] points)",
+                "postminimumlength": "Post minimum length to get the money (0 to disable)",
+                "noshowzero": "Do not show if the value is zero",
+                "autoremove": "Automatically update money",
+                "moneyforlike": "Money given when a post is liked",
+                "helpextensionlikes": "Requires the <code>flarum/likes</code> extension",
+                "extra_char_threshold": "Character Threshold",
+                "extra_char_threshold_help": "The minimum number of characters before extra points are applied.",
+                "extra_char_increment": "Character Increment",
+                "extra_char_increment_help": "Every X characters beyond the threshold will trigger a point change.",
+                "extra_char_points": "Points per Increment",
+                "extra_char_points_help": "The number of points to add or deduct for each increment."
+            },
+            "permissions": {
+                "edit_money_label": "Edit money"
+            },
+            "autoremove": [
+                "Never remove money",
+                "When a discussion/post is hidden or restored (default)",
+                "When a discussion/post is deleted"
+            ],
+            "automoderator": {
+                "metric_name": "Money",
+                "action_name": "Give money"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "Edit money"
+            },
+            "modal": {
+                "title": "{username}'s money",
+                "current": "Current:",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "log_time": "Time",
+            "log_type": "Type",
+            "log_amount": "Amount",
+            "log_balance": "Balance",
+            "log_description": "Description",
+            "log_type_deposit": "Deposit",
+            "log_type_withdrawal": "Withdrawal",
+            "log_type_transfer": "Transfer",
+            "log_type_reward": "Reward",
+            "no_money_logs": "No money logs available",
+            "load_more": "Load more",
+            "logs_description": {
+                "created_discussion": "Created a discussion › <a href=\"{url}\">{title}</a>",
+                "created_reply": "Created a reply › <a href=\"{url}\">{title}</a>",
+                "reply_received": "Received a reply from {username} › <a href=\"{url}\">{title}</a>",
+                "liked": "Liked a post › <a href=\"{url}\">{title}</a> by {user}",
+                "liked_by": "Post liked by {username} › <a href=\"{url}\">{title}</a>",
+                "unliked_post": "Unliked a post › <a href=\"{url}\">{title}</a>",
+                "unliked_by": "Post unliked by {username} › <a href=\"{url}\">{title}</a>",
+                "initial_registration": "Received initial points upon registration.",
+                "admin_updated": "Admin updated points, amount changed by {amount}.",
+                "discussion_started": "Started a discussion › <a href=\"{url}\">{title}</a>",
+                "discussion_restored": "Restored a discussion › <a href=\"{url}\">{title}</a>",
+                "discussion_hidden": "Hidden a discussion › <a href=\"{url}\">{title}</a>",
+                "discussion_deleted": "Deleted a discussion › <a href=\"{url}\">{title}</a>",
+                "posted_reply": "Replied to a discussion › <a href=\"{url}\">{title}</a>",
+                "extra_characters": "Content exceeded the threshold by {extra_chars} characters, {points} points have been {action}.",
+                "no_permission": "You do not have permission to view others' point records."
+            },
+            "logs_type": {
+                "discussion_started": "Discussion Started",
+                "post_created": "Post Created",
+                "post_restored": "Post Restored",
+                "post_hidden": "Post Hidden",
+                "post_deleted": "Post Deleted",
+                "discussion_restored": "Discussion Restored",
+                "discussion_hidden": "Discussion Hidden",
+                "discussion_deleted": "Discussion Deleted",
+                "liked": "Liked Post",
+                "liked_by_others": "Post Liked by Another User",
+                "admin_updated": "Admin Updated",
+                "registration": "Registration Bonus",
+                "discussion_replied": "Replied in Discussion"
+            },
+            "point_log": {
+                "title": "Point Change Records",
+                "link": "Point Records",
+                "empty_text": "No point change records found.",
+                "table": {
+                    "headers": {
+                        "date": "Date",
+                        "amount": "Amount",
+                        "balance": "Balance",
+                        "reason": "Reason"
+                    }
+                },
+                "load_more": "Load more",
+                "no_permission": "You do not have permission to view others' point records."
+            }
+        }
+    }
+}

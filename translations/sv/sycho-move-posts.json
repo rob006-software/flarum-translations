@@ -2,20 +2,20 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Flyttat diskussionsinnehåll (första inlägg)",
+                "moved_first_post_content_help": "När du har en diskussion med bara ett inlägg, kommer flytt av det inlägget att resultera i att den första diskussionens första inlägg redigeras så att det pekar på den nya diskussionen. Du kan redigera innehållet i det inlägget här.\n",
+                "group_sequential_posts": "Gruppens sekventiella inlägg flyttade händelseinläggen till ett."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Flyttad"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
                 "move_old_post_to_newer_discussion": ""

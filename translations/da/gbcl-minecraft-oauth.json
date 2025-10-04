@@ -1,0 +1,35 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "minecraft": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_minecraft_button": ""
+            },
+            "providers": {
+                "minecraft": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "minecraft": ""
+            }
+        }
+    },
+    "gbcl-minecraft-oauth": {
+        "forum": {
+            "error": {
+                "profile_does_not_exist": ""
+            }
+        }
+    }
+}

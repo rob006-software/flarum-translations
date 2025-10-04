@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "Ontvang een email wanneer en nieuwe discussies of reacties zijn",
                 "submit_button": "Bevestig abonnement"
             },
+            "hero": {
+                "title": "=> flarum-subscriptions.forum.index.following_link"
+            },
             "notifications": {
                 "new_discussion_text": "{username} start",
                 "new_post_text": "{username} post",
@@ -76,6 +79,16 @@
             "filtering_options": {
                 "none": "Gevolgde Discussies",
                 "tags": "Gevolgde Tags"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Exporteert details van het abonnementsniveau voor een tag, indien aanwezig.",
+                    "anonymize_description": "Verwijdert het abonnement van de gebruiker op de tag."
+                }
             }
         }
     },

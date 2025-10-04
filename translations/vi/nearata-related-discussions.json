@@ -2,27 +2,27 @@
     "nearata-related-discussions": {
         "admin": {
             "settings": {
-                "allow_guests": "",
-                "generator": "",
+                "allow_guests": "Cho phép khách",
+                "generator": "Trình tạo",
                 "generator_options": {
-                    "random": "",
-                    "title": ""
+                    "random": "Ngẫu nhiên",
+                    "title": "Theo tiêu đề"
                 },
-                "max_discussions": "",
-                "max_discussions_help": "",
-                "position": "",
+                "max_discussions": "Số thảo luận tối đa",
+                "max_discussions_help": "Mặc định là <strong>5</strong>.",
+                "position": "Vị trí",
                 "position_options": {
-                    "first_post": "",
-                    "last_post": "",
-                    "reply_block": ""
+                    "first_post": "Sau bài viết đầu tiên",
+                    "last_post": "Sau bài viết cuối cùng",
+                    "reply_block": "Sau khối trả lời"
                 },
-                "cache": "",
-                "cache_help": ""
+                "cache": "Bộ nhớ đệm",
+                "cache_help": "Định dạng phải là <strong>0-31d0-23h0-59m</strong>"
             }
         },
         "forum": {
-            "discussion_list_title": "",
-            "no_results": ""
+            "discussion_list_title": "Các thảo luận liên quan",
+            "no_results": "Không tìm thấy thảo luận liên quan nào"
         }
     }
 }

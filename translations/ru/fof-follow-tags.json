@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "Получать e-mail, когда появляются новые дискуссии или сообщения",
                 "submit_button": "Подтвердить подписку"
             },
+            "hero": {
+                "title": "=> flarum-subscriptions.forum.index.following_link"
+            },
             "notifications": {
                 "new_discussion_text": "{username} создал(а)",
                 "new_post_text": "{username} ответил(а)",
@@ -76,6 +79,16 @@
             "filtering_options": {
                 "none": "Наблюдаемые обсуждения",
                 "tags": "Наблюдаемые теги"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Экспортирует детали уровня подписки на тег, если есть.",
+                    "anonymize_description": "Удаляет подписку пользователя на тег."
+                }
             }
         }
     },

@@ -2,32 +2,32 @@
     "askvortsov-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "",
-                "manage_all_reply_templates": ""
+                "manage_own_discussion_reply_templates": "Halda vastuste malle neis vestlustes",
+                "manage_all_reply_templates": "Halda vastuse malle kõigis vestlustes"
             },
             "settings": {
-                "no_tag_template": "",
-                "append_template_on_tag_change": "",
-                "append_template_on_tag_change_help": ""
+                "no_tag_template": "Vaikimisi mall (kasutatakse, kui vestlust alustatakse ilma silte valimata):",
+                "append_template_on_tag_change": "Kas muuta malli sildi muutmisel?",
+                "append_template_on_tag_change_help": "Kui silte muudetakse, siis kas uus mall võetakse kasutusele isegi siis, kui kasutaja on kirjutamist juba alustanud? Sõltumata sellest seadest, kui silte muudetakse ning kasutaja pole veel teksti sisestanud, siis malli muudetakse vastavalt valitud sildile."
             },
             "tags": {
-                "tag_template_heading": "",
-                "tag_template_text": "",
-                "tag_template_button": ""
+                "tag_template_heading": "Vestluse mall",
+                "tag_template_text": "Halda malle selle sildi uute vestluste korral.",
+                "tag_template_button": "Muuda malli"
             },
             "tag_template_modal": {
-                "title": "",
-                "customize_text": "",
-                "submit_button": ""
+                "title": "Vestluse mall",
+                "customize_text": "Halda malle selle sildi uute vestluste korral.",
+                "submit_button": "Salvesta mall"
             }
         },
         "forum": {
             "discussion_controls": {
-                "reply_template_button": ""
+                "reply_template_button": "Muuda vastamise malli"
             },
             "reply_template": {
-                "title": "",
-                "submit_button": ""
+                "title": "Muuda vastamise malli",
+                "submit_button": "Salvesta vastamise mall"
             }
         }
     }

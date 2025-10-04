@@ -43,6 +43,7 @@
                 "about_tags_text": "แท็กใช้เพื่อจัดหมวดหมู่ของกระทู้ แท็กหลักก็เหมือนกับหมวดหมู่ฟอรัมทั่วไป โดยสามารถจัดเรียงเป็นลำดับชั้นสองระดับได้ แท็กรองไม่มีลำดับชั้นหรือลำดับ และมีประโยชน์สำหรับการจัดหมวดหมู่ย่อย",
                 "create_primary_tag_button": "สร้างเเท็กหลัก",
                 "create_secondary_tag_button": "สร้างเเท็กรอง",
+                "edit_tag_label": "",
                 "primary_heading": "เเท็กหลัก",
                 "secondary_heading": "เเท็กรอง",
                 "settings_heading": "การตั้งค่า"
@@ -100,6 +101,17 @@
             "choose_tags_placeholder": "",
             "name": "ชื่อแท็ก",
             "tags": "แท็ก"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

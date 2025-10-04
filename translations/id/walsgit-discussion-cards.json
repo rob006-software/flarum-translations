@@ -1,0 +1,93 @@
+{
+    "walsgit_discussion_cards": {
+        "forum": {
+            "replies": "Balasan: {count}",
+            "unreadReplies": "Balasan yang belum dibaca: {count}"
+        },
+        "admin": {
+            "settings": {
+                "general": {
+                    "where_title": "Di mana?",
+                    "where_info": "Tetapkan di mana Anda ingin menggunakan kartu diskusi.",
+                    "allowedTags_label": "Pilih tag",
+                    "allowedTags_help": "Kartu diskusi akan diaktifkan dan ditampilkan untuk halaman tag yang dipilih.",
+                    "onIndexPage_label": "Aktifkan kartu di Halaman Indeks",
+                    "onIndexPage_help": "Jika diaktifkan, halaman <em>semua diskusi</em> akan menampilkan kartu.",
+                    "primaryCardOptions_title": "Opsi Kartu Utama",
+                    "primaryCardOptions_info": "Tetapkan apakah dan bagaimana Anda ingin menggunakan kartu utama (kartu yang lebih besar di bagian atas setiap halaman menggunakan kartu diskusi). 0 untuk tidak ada.",
+                    "primaryCards_label": "Jumlah kartu utama",
+                    "primaryCards_help": "Jumlah kartu yang lebih besar ditampilkan di bagian atas setiap halaman menggunakan kartu diskusi. (angka positif 0 atau lebih)",
+                    "desktopCardWidth_label": "Lebar kartu utama di desktop",
+                    "desktopCardWidth_help": "Mengatur lebar (dalam %) kartu utama di desktop. (antara 10 dan 100)",
+                    "tabletCardWidth_label": "Lebar kartu utama pada tablet",
+                    "tabletCardWidth_help": "Mengatur lebar (dalam %) kartu utama pada tablet. (antara 10 dan 100)",
+                    "cardOptions_title": "Opsi kartu",
+                    "cardOptions_info": "Tetapkan data/info apa yang akan ditampilkan pada kartu.",
+                    "defaultImage_title": "Gambar default umum",
+                    "defaultImage_info": "Di sini Anda dapat mengubah gambar default yang akan digunakan pada kartu saat tidak ada gambar yang ditemukan pada pesan pertama diskusi. <u>PENTING</u>: <em>perlu diketahui bahwa mengubah gambar akan membuang semua perubahan pengaturan lain yang belum disimpan yang Anda buat dan akan memuat ulang halaman secara otomatis. Harap simpan perubahan Anda sebelum mengubah gambar</em> (atau sebaliknya 😉). Format yang diterima: file JPG, PNG, GIF, BMP atau WebP. Resolusi ideal: 400px x 225px (semua gambar yang diunggah akan dikonversi ke file PNG dan diubah ukurannya menjadi lebar 400px, kecuali untuk gambar dengan lebar lebih kecil, yang akan mempertahankan resolusi awal, dan tidak akan ditingkatkan). Bergantung pada resolusi file Anda, gambar dapat ditampilkan terpotong dan/atau diregangkan pada kartu.",
+                    "previewText_label": "Teks pratinjau",
+                    "previewText_help": "Jika diaktifkan, akan menampilkan pesan pertama sebagai pratinjau pada kartu.",
+                    "showAuthor_label": "Tampilkan penulis",
+                    "showAuthor_help": "Jika diaktifkan, akan menampilkan penulis diskusi pada kartu.",
+                    "showReplies_label": "Tampilkan jumlah balasan/balasanyang belum dibaca",
+                    "showReplies_help": "Jika diaktifkan, menunjukkan jumlah balasan (atau balasan yang belum dibaca dengan tanda * jika ada) pada kartu (dan avatar beberapa peserta dalam diskusi pada kartu utama).",
+                    "showRepliesOnRight_label": "Tampilkan jumlah balasan (atau balasan yang belum dibaca dengan * jika ada) di sisi kanan judul kartu",
+                    "showRepliesOnRight_help": "Jika opsi diaktifkan, ia menempatkan jumlah balasan (atau balasan yang belum dibaca dengan * jika ada) di sisi kanan judul kartu (bukan utama) pada layar besar (bukan di sisi kiri bawah gambar default).",
+                    "showLastPostInfo_label": "Tampilkan info post terakhir",
+                    "showLastPostInfo_help": "Jika opsi ini diaktifkan, maka akan ditampilkan pada kartu di bawah teks pratinjau (atau di bawah tag jika teks pratinjau tidak diaktifkan) username dari poster terakhir dari diskusi dan tanggalnya.",
+                    "showBadges_label": "Tampilkan badge",
+                    "showBadges_help": "Jika diaktifkan, akan menampilkan badge di sudut kiri atas kartu.",
+                    "markReadCards_label": "Bedakan kartu diskusi yang sudah/belum dibaca",
+                    "markReadCards_help": "Jika diaktifkan, diskusi yang sudah dibaca akan memiliki judul dan teks yang lebih kecil.",
+                    "otherOptions_title": "Opsi yang membutuhkan ekstensi lainnya",
+                    "otherOptions_info": "Pilihan berikut akan memerlukan ekstensi lain untuk diinstal dan diaktifkan agar dapat berfungsi. <strong>PENTING: harap baca <u>semua</u> informasi untuk masing-masing opsi dan lakukan langkah-langkah yang diperlukan sebelum mengaktifkannya</strong>.",
+                    "showViews_title_start": "Dengan ",
+                    "showViews_title_or": " ATAU ",
+                    "showViews_title_end": " ekstensi yang sudah terpasang dan diaktifkan, Anda dapat mengatur opsi (1) berikut ini:",
+                    "viewsExtension_notInstalled": "{icon} Salah satu ekstensi ini perlu diinstal & diaktifkan agar pengaturan ini berfungsi.",
+                    "viewsExtension_notActivated": "{icon} Ekstensi Discussion Views perlu diaktifkan agar pengaturan ini berfungsi.",
+                    "showViews_label": "Tampilkan tampilan",
+                    "showViews_help": "Jika opsi diaktifkan, akan menampilkan jumlah tampilan pada kartu.",
+                    "blogExtension_title_start": "Dengan ",
+                    "blogExtension_title_end": " ekstensi yang sudah terpasang dan diaktifkan, Anda dapat mengatur (2) opsi berikut ini:",
+                    "blogExtension_notInstalled": "{icon} Ekstensi ini harus diinstal & diaktifkan agar pengaturan ini dapat berfungsi.",
+                    "blogExtension_notActivated": "{icon} Ekstensi ini perlu diaktifkan agar pengaturan ini dapat berfungsi.",
+                    "useBlogImages_label": "Gunakan gambar default dan gambar favorit blog",
+                    "useBlogImages_help": "Jika opsi ini diaktifkan, gambar kartu untuk setiap postingan blog akan diatur ke: gambar favorit postingan blog; jika tidak ada, ke gambar yang pertama kali ditemukan dari konten blog; jika tidak ada, ke gambar default ekstensi blog; jika tidak ada, ke gambar default tag kartu diskusi; jika tidak ada, ke gambar default utama kartu diskusi. Perhatikan bahwa pengaturan khusus untuk tag yang digunakan sebagai tag blog tentu saja akan diabaikan jika Anda memilih untuk mengalihkan tag blog dalam pengaturan ekstensi Flarum Blog.",
+                    "useBlogSummary_label": "Gunakan ringkasan postingan blog sebagai teks pratinjau",
+                    "useBlogSummary_help": "Jika opsi ini dan teks pratinjau diaktifkan, kartu untuk postingan blog akan menampilkan awal ringkasan postingan blog sebagai teks pratinjau, bukan awal teks postingan blog.",
+                    "repostExtension_title_start": "Dengan ",
+                    "repostExtension_title_end": " ekstensi terpasang dan diaktifkan, Anda dapat mengatur opsi (1) berikut ini:",
+                    "repostExtension_notInstalled": "{icon} Ekstensi ini harus dipasang & diaktifkan agar pengaturan ini dapat berfungsi.",
+                    "repostExtension_notActivated": "{icon} Ekstensi ini harus diaktifkan agar pengaturan ini dapat berfungsi.",
+                    "allowRepostLinks_label": "Izinkan perilaku link Repost pada kartu",
+                    "allowRepostLinks_help": "Jika opsi ini diaktifkan (bersama dengan ekstensi Repost), kartu untuk diskusi yang dimulai dengan sebuah url, akan membuka url tersebut ketika judul kartu diklik, sedangkan diskusi akan terbuka, seperti biasa, jika bagian lain dari kartu diklik."
+                }
+            },
+            "tags": {
+                "options_heading": "Kartu Diskusi",
+                "activation_button": "Aktifkan untuk tag ini",
+                "deactivation_button": "Nonaktifkan untuk tag ini",
+                "defaultImage_title": "Gambar default",
+                "defaultImage_info": "Mengatur atau mengubah gambar kartu default untuk halaman tag ini. Lihat pengaturan umum Kartu Diskusi untuk rincian tentang format & resolusi file yang diterima.",
+                "options_button": "Pengaturan kartu diskusi lainnya"
+            },
+            "tag_modal": {
+                "title": "Pengaturan Kartu Diskusi untuk ",
+                "intro_text": "Di sini Anda dapat mengatur pengaturan kartu diskusi yang berbeda untuk halaman tag saat ini.",
+                "primaryCards_label": "Jumlah kartu utama",
+                "primaryCards_help": "Jumlah kartu yang lebih besar ditampilkan di bagian atas halaman (pengaturan global: {default}, min: 0).",
+                "desktopCardWidth_label": "Lebar kartu utama di desktop",
+                "desktopCardWidth_help": "Tetapkan lebar (dalam %) kartu utama di desktop (pengaturan global: {default}%, min: 10% & maks: 100%).",
+                "tabletCardWidth_label": "Lebar kartu utama pada tablet",
+                "tabletCardWidth_help": "Tetapkan lebar (dalam %) kartu utama pada tablet (pengaturan global: {default}%, min: 10% & maks: 100%).",
+                "submit_button": "Simpan"
+            },
+            "errors": {
+                "primaryCards": "Jumlah kartu utama harus berupa angka positif (0 atau lebih besar)",
+                "desktopCardWidth": "Lebar kartu utama di desktop harus berupa angka antara 10 dan 100",
+                "tabletCardWidth": "Lebar kartu utama pada tablet harus berupa angka antara 10 dan 100"
+            }
+        }
+    }
+}

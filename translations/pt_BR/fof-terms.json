@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "DD-MM-YYYY (hh:mm:ss)",
                 "terms-updated-at-help": "A data da última atualização de termos. Definir esse valor exigirá que todos os usuários que aceitaram antes dessa data aceitem novamente. Deve estar no passado (caso contrário, os usuários nunca conseguiriam aceitar após a data e passar do modal).\n",
                 "export-url": "Exportar URL",
-                "export-url-help": "Qualquer usuário com permissão \"Exportar todos os dados de políticas\" pode acessar esses URLs para baixar a lista de usuários que aceitaram esta política. Você pode encontrar mais detalhes sobre as opções disponíveis no <a>wiki da extensão</a>.\n"
+                "export-url-help": "Qualquer usuário com permissão \"Exportar todos os dados de políticas\" pode acessar esses URLs para baixar a lista de usuários que aceitaram esta política. Você pode encontrar mais detalhes sobre as opções disponíveis no <a>wiki da extensão</a>.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "Veja o estado das políticas do usuário",
@@ -64,14 +66,19 @@
             "update-alert": {
                 "must-accept-message": "Restringimos temporariamente o acesso à sua conta enquanto você verifica os novos termos.",
                 "can-accept-message": "Recentemente, atualizamos os termos. Você deve aceitá-los para continuar usando este site.",
-                "review": "Clique aqui para revisar e aceitar os novos termos"
+                "can-accept-optional-message": "",
+                "review": "Clique aqui para revisar e aceitar os novos termos",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "Estado de aceite dos termos"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

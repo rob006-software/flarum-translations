@@ -9,14 +9,14 @@
             "edit_category": "Kategorie bearbeiten",
             "nothing_here_yet": "Du hast noch keine Kategorien oder Abzeichen erstellt.",
             "show_badges_on_user_card": "Abzeichen auf der Benutzerkarte anzeigen",
-            "number_of_badges_on_user_card": "",
-            "number_of_badges_on_user_card_help": "",
+            "number_of_badges_on_user_card": "Anzahl der Abzeichen",
+            "number_of_badges_on_user_card_help": "Anzahl der Abzeichen auf der Benutzerkarte",
             "permissions": {
                 "badge_detail_users": "Kann Benutzer auf der Badge-Detailseite sehen",
                 "give_badge": "Abzeichen für Benutzer hinzufügen",
                 "take_badge": "Abzeichen von Benutzer entfernen",
-                "edit_own_card_badges": "",
-                "edit_card_badges": ""
+                "edit_own_card_badges": "Eigene Abzeichen auf der Benutzerkarte bearbeiten",
+                "edit_card_badges": "Abzeichen der Benutzerkarte bearbeiten"
             },
             "confirm_dialog": {
                 "title": "Bestätigen",
@@ -84,7 +84,7 @@
             "user_no_badges": "Der Benutzer hat noch keine Abzeichen erhalten.",
             "no_received": "Kein Benutzer hat dieses Abzeichen verdient.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
-            "save_changes": "",
+            "save_changes": "Änderungen speichern",
             "badge": {
                 "badge": "Abzeichen",
                 "badges": "Abzeichen",
@@ -102,11 +102,11 @@
                 "others_link": ""
             },
             "badges_in_card": {
-                "title": "",
-                "manage_badges": "",
-                "description": "",
-                "select_limit": "",
-                "hit_limit": ""
+                "title": "Abzeichen auf der Benutzerkarte",
+                "manage_badges": "Abzeichen verwalten",
+                "description": "Du kannst die sichtbaren Abzeichen in deiner Nutzerkarte durch eines deiner anderen Abzeichen ersetzen. Wenn du keine auswählst, werden sie automatisch ausgewählt.",
+                "select_limit": "Du kannst {limit, plural, one {<b>ein Abzeichen</b>}  {<b># Abzeichen</b>}}auswählen, die in deiner Benutzerkarte sichtbar sein sollen.",
+                "hit_limit": "Es ist nur Platz für <b>{limit, plural, one {<b>ein Abzeichen</b>} oder {<b># Abzeichen</b>}}</b> in deiner Karte. Deaktiviere ein Abzeichen, um Platz für diesen zu schaffen."
             },
             "moderation": {
                 "remove_badge": "Abzeichen vom Benutzer entfernen",

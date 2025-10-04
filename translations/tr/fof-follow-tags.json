@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "Yeni bir tartışma veya gönderi olduğunda e-posta ile bildir",
                 "submit_button": "Aboneliği onayla"
             },
+            "hero": {
+                "title": "=> flarum-subscriptions.forum.index.following_link"
+            },
             "notifications": {
                 "new_discussion_text": "{username} başlattı",
                 "new_post_text": "{username} gönderdi",
@@ -76,6 +79,16 @@
             "filtering_options": {
                 "none": "Takip Edilen Tartışmalar",
                 "tags": "Takip Edilen Etiketler"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Bir etiketin abonelik düzeyi varsa, bu düzeyin ayrıntılarını dışa aktarır.",
+                    "anonymize_description": "Kullanıcının etikete olan aboneliğini kaldırır."
+                }
             }
         }
     },

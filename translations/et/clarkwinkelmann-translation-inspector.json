@@ -2,27 +2,27 @@
     "clarkwinkelmann-translation-inspector": {
         "admin": {
             "permissions": {
-                "inspect": ""
+                "inspect": "Kontrolli tõlkeid"
             }
         },
         "lib": {
             "modal": {
-                "title": "",
-                "key": "",
-                "original": "",
-                "actual": "",
-                "extension": "",
-                "extension-unknown": "",
-                "path": "",
-                "edit": ""
+                "title": "Tõlke inspekteerija",
+                "key": "Tõlke võti",
+                "original": "Algne inglisekeelne tõlge",
+                "actual": "tõlked praeguses keeles",
+                "extension": "Määras",
+                "extension-unknown": "Tundmatu lisaprogramm",
+                "path": "Määratud kohas",
+                "edit": "Muuda GitHubis"
             },
             "tooltip": {
-                "title": "",
-                "description": "",
-                "cancel": ""
+                "title": "Inspekteeri tõlget",
+                "description": "Kliki tõlkele, mida soovid inspekteerida",
+                "cancel": "Loobu"
             },
             "nav": {
-                "inspect": ""
+                "inspect": "Inspekteeri tõlget"
             }
         }
     }

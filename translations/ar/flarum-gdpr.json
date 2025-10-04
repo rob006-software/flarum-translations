@@ -1,0 +1,197 @@
+{
+    "flarum-gdpr": {
+        "admin": {
+            "gdpr_page": {
+                "heading": "",
+                "description": "",
+                "data_types": {
+                    "title": "",
+                    "help_text": "",
+                    "type": "",
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "extension": ""
+                },
+                "settings": {
+                    "heading": "",
+                    "help_text": "",
+                    "extension_settings_button": ""
+                },
+                "user_table_data": {
+                    "title": "",
+                    "help_text": ""
+                }
+            },
+            "nav": {
+                "gdpr_button": ""
+            },
+            "permissions": {
+                "process_erasure": "",
+                "process_export_for_others": "",
+                "see_anonymized_user_badges": ""
+            },
+            "settings": {
+                "allow_anonymization": "",
+                "allow_anonymization_help": "",
+                "allow_deletion": "",
+                "allow_deletion_help": "",
+                "default_anonymous_username": "",
+                "default_anonymous_username_help": "",
+                "default_erasure": "",
+                "default_erasure_help": "",
+                "default_erasure_options": {
+                    "anonymization": "",
+                    "deletion": ""
+                },
+                "gdpr_page": {
+                    "title": "",
+                    "help_text": ""
+                }
+            },
+            "userlist": {
+                "columns": {
+                    "gdpr_actions": {
+                        "export": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "data": {
+                "avatar": {
+                    "delete_description": "يقوم بحذف صورة المستخدم الرمزية من نظام الملفات.",
+                    "export_description": "يقوم باسترجاع صورة المستخدم الرمزية من نظام الملفات وإضافتها إلى التصدير."
+                },
+                "discussions": {
+                    "export_description": "يُصدِّر جميع المناقشات التي بدأها المستخدم. تقتصر البيانات على العنوان وتاريخ الإنشاء."
+                },
+                "forum": {
+                    "export_description": "يقوم بتصدير عنوان المنتدى، وعنوان URL، واسم المستخدم، والبريد الإلكتروني، والتاريخ الحالي."
+                },
+                "no_action": "لم يتم اتخاذ أي إجراء.",
+                "posts": {
+                    "anonymize_description": "يقوم بإزالة عنوان IP من جميع المشاركات التي قام بها المستخدم.",
+                    "delete_description": "حذف جميع المشاركات التي قام بها المستخدم.",
+                    "export_description": "يُصدّر جميع منشورات المستخدم. تقتصر البيانات على المحتوى وتاريخ الإنشاء وعنوان IP ورقم المناقشة."
+                },
+                "tokens": {
+                    "delete_description": "يحذف جميع الرموز (tokens) التي أنشأها المستخدم.",
+                    "export_description": "يُصدّر جميع الرموز (tokens) التي أنشأها المستخدم. تقتصر البيانات على تاريخ الإنشاء ونوع الرمز."
+                },
+                "user": {
+                    "anonymize_description": "يُعيِّن جميع أعمدة جدول المستخدم إلى قيمة فارغة. تُعيَّن الأعمدة غير القابلة للقيمة الفارغة إلى قيمها الافتراضية أو قيم خاصة. تُغيَّر كلمة المرور، وتُعيَّن التفضيلات إلى القيمة الافتراضية، وتُزال جميع المجموعات.",
+                    "delete_description": "حذف المستخدم من قاعدة البيانات.",
+                    "export_description": "يُصدّر البيانات من جدول المستخدم. جميع الأعمدة باستثناء المعرّف وكلمة المرور."
+                },
+                "bannedipdata": {
+                    "anonymize_description": "سيتم فصل أي عناوين IP مرتبطة بالمستخدم، ولكن سيبقى عنوان IP نفسه محظورًا، مع ذكر السبب. تأكد من عدم تخزين أي بيانات تعريف شخصية (PII) في حقل \"السبب\".",
+                    "export_description": "إذا تم ربط سجل حظر IP بمستخدم (أي تم حظر المستخدم بواسطة IP)، فسيتم تضمين عنوان IP الخاص بالمستخدم في التصدير، إلى جانب سبب الحظر وتاريخ الإنشاء."
+                },
+                "drafts": {
+                    "delete_description": "حذف كافة المسودات التي أنشأها المستخدم.",
+                    "export_description": "جميع المسودات التي أنشأها المستخدم."
+                },
+                "followuser": {
+                    "anonymize_description": "يحذف جميع البيانات المتعلقة بالمستخدمين المتابعين.",
+                    "delete_description": "يحذف جميع البيانات المتعلقة بالمستخدمين المتابعين.",
+                    "export_description": "تصدير تفاصيل المستخدمين الذين يتابعهم والمستخدمين الذين يتابعونه."
+                },
+                "tagsubscription": {
+                    "anonymize_description": "يقوم بإزالة اشتراك المستخدم في القسم.",
+                    "export_description": "تصدير تفاصيل مستوى الاشتراك للقسم، إذا كانت موجودة."
+                },
+                "uploads": {
+                    "anonymize_description": "يُزيل مرجع المستخدم من الملفات المُحمّلة. تبقى الملفات نفسها متاحةً للمستخدمين الذين كانوا قادرين على رؤيتها قبل إخفاء هويتهم.",
+                    "delete_description": "حذف كافة الملفات التي قام المستخدم بتحميلها.",
+                    "export_description": "جميع الملفات التي قام المستخدم بتحميلها."
+                },
+                "userpolicydata": {
+                    "delete_description": "يزيل موافقة المستخدم على الشروط",
+                    "export_description": "تفاصيل حول قبول المستخدم للشروط"
+                }
+            },
+            "request_data": {
+                "title": "طلب البيانات لـ {username}",
+                "text": "سيتم تجهيز أرشيف مضغوط لك. بمجرد اكتماله، ستتلقى إشعارًا برابط التنزيل. سيبقى الرابط نشطًا ليوم واحد.",
+                "request_button": "طلب الأرشيف"
+            }
+        },
+        "email": {
+            "confirm_erasure": {
+                "subject": "تأكيد طلب حذف حسابك",
+                "body": "أهلاً {display_name}!\n\nطلب أحدهم حذف حساب `{display_name}` نأمل أن تكون أنت.\n\nلتأكيد هذا الإجراء، يُرجى اتباع الرابط التالي، وبعد ذلك سيُعالج فريقنا طلبك.\n\n{erasure_confirm_url}"
+            },
+            "erasure_completed": {
+                "deletion": {
+                    "subject": "تم حذف الحساب",
+                    "body": "أهلاً {display_name}!\n\nهذا إشعار تلقائي ونهائي بحذف حسابك."
+                },
+                "anonymization": {
+                    "subject": "تم الانتهاء من إخفاء هوية الحساب",
+                    "body": "أهلاً {display_name}!\n\nهذا إشعار تلقائي ونهائي يُفيد بأن تم إخفاء هوية حسابك."
+                }
+            },
+            "erasure_cancelled": {
+                "subject": "تم إلغاء طلب حذف الحساب",
+                "body": "أهلاً {display_name}!\n\nهذا إشعار تلقائي يفيد بأنه قد تمت معالجة طلبك لإلغاء حذف حسابك.\n\nلن يُحذف حسابك بعد الآن."
+            },
+            "export_available": {
+                "subject": "تصدير البيانات متاح",
+                "body": "أهلاً {display_name}!\n\nلقد طلبتَ تصدير بيانات حساب {username}. تم ​​إنشاء هذا التصدير بنجاح وهو متاح الآن:\n\n{url}\n\nسيبقى هذا التصدير متاحًا حتى {destroys_at}."
+            }
+        },
+        "forum": {
+            "badges": {
+                "anonymized_user": "مستخدم مجهول الهوية"
+            },
+            "delete_user": {
+                "title": "مسح حساب {username}",
+                "text": "هل أنت متأكد من رغبتك في حذف حساب {username}؟\n\nهذا الإجراء لا رجعة فيه.",
+                "modal_delete_button": "مسح باستخدام الإجراء الافتراضي",
+                "delete_button": "مسح"
+            },
+            "erasure_requests": {
+                "empty_text": "لا توجد طلبات معلقة لمسح الحساب",
+                "item_text": "طلب {name} مسح الحساب",
+                "tooltip": "طلبات مسح الحساب",
+                "title": "طلبات مسح الحساب"
+            },
+            "erasure_request_confirmed": "لقد أكّدتَ طلب حذف حسابك. سيتم اتخاذ الإجراء خلال 30 يومًا.",
+            "settings": {
+                "data": {
+                    "heading": "البيانات الشخصية"
+                },
+                "export_data_button": "تصدير البيانات",
+                "export_data_help": "سيوفر لك طلب تصدير البيانات نسخة قابلة للتنزيل من جميع المعلومات المرتبطة بحسابك، بما في ذلك المنشورات والتعليقات وتفاصيل الملف الشخصي.",
+                "request_erasure_button": "مسح الحساب",
+                "request_erasure_help": "سيؤدي طلب الحذف إلى حذف حسابك نهائيًا وجميع البيانات المرتبطة به. هذا الإجراء لا رجعة فيه. قبل المتابعة، تأكد من حفظ أي محتوى ترغب بالاحتفاظ به."
+            },
+            "process_erasure": {
+                "confirm": "هل أنت متأكد أنك تريد مسح حساب {name} في وضع {mode}؟",
+                "title": " عملية طلب المسح",
+                "text": "طلب {name} مسح الحساب.",
+                "comments_label": "التعليقات (اختياري)",
+                "anonymization_button": "إخفاء هوية المستخدم",
+                "deletion_button": "حذف المستخدم"
+            },
+            "request_erasure": {
+                "title": "طلب مسح الحساب",
+                "reason": "لقد قدمت السبب التالي: {reason}",
+                "status": {
+                    "awaiting_user_confirmation": "يجب أن تكون قد تلقيت بريدًا إلكترونيًا لتأكيد طلب مسح حسابك.",
+                    "user_confirmed": "لقد أكّدتَ طلب حذف حسابك. سيتم اتخاذ الإجراء خلال 30 يومًا."
+                },
+                "text": "لقد أكّدتَ طلب حذف حسابك. سيتم اتخاذ الإجراء خلال 30 يومًا.",
+                "password_label": "تأكيد كلمة المرور",
+                "reason_label": "السبب (اختياري)",
+                "cancel_button": "إلغاء الطلب",
+                "request_button": "طلب المسح"
+            },
+            "notification": {
+                "export-ready": "أصبحت بيانات التصدير الخاصة بك لـ {username} جاهزة للتنزيل الآن."
+            },
+            "export_file": "تصدير بيانات المستخدم لـ {username} ({email}) المُعدّة في {date} من {forumTitle} ({url})"
+        }
+    }
+}

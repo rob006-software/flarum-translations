@@ -2,32 +2,32 @@
     "guest-posting": {
         "forum": {
             "alert": {
-                "create-account": "",
-                "create-account-votes-only": "",
-                "create-account-posts-and-votes": "",
-                "signup": ""
+                "create-account": "Loo kohe konto ja impordi oma {count} postitust!",
+                "create-account-votes-only": "Loo kohe konto ja impordi oma {count} vastust!",
+                "create-account-posts-and-votes": "Loo kohe konto ja impordi oma {postCount} postitust ja {voteCount} vastust!",
+                "signup": "Liitu"
             },
             "modal": {
-                "import": "",
-                "import-votes": ""
+                "import": "Impordi minu {count} külalisena tehtud postitust",
+                "import-votes": "Impordi minu {postCount} külalisena tehtud postitust ja {voteCount} häält"
             },
             "badge": {
-                "guest": ""
+                "guest": "Külaline"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "enableImport": "",
-                "sessionLifetime": "",
-                "usernames": ""
+                "title": "Külalise postitamise seaded",
+                "enableImport": "Luba olemasolevate postituste eksportimine liitumisel",
+                "sessionLifetime": "Külalise sessiooni pikkus tundides",
+                "usernames": "Juhuslikud kasutajanimed külalistele"
             }
         }
     },
     "core": {
         "lib": {
             "username": {
-                "deleted_text": ""
+                "deleted_text": "Külaline"
             }
         }
     }

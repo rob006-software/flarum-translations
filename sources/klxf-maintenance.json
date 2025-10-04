@@ -1,0 +1,36 @@
+{
+    "klxf-maintenance": {
+        "admin": {
+            "dashboard": {
+                "maintenance-widget": {
+                    "title": "Maintenance Mode Active",
+                    "detail": "The forum is currently in maintenance mode. Only users with the appropriate permission can access the forum."
+                }
+            },
+            "settings": {
+                "maintenance-mode-enabled": {
+                    "label": "Enable Maintenance Mode"
+                },
+                "maintenance-mode-title": {
+                    "label": "Maintenance Page Title"
+                },
+                "maintenance-mode-message": {
+                    "label": "Maintenance Page Message"
+                },
+                "maintenance-mode-html-template": {
+                    "label": "Maintenance Page HTML Template",
+                    "help": "You can use placeholders like <code>$message</code>, for more details check the README file.",
+                    "reset-btn": "Reset to Default",
+                    "reset-help": "Reset template will take effect after saving."
+                },
+                "maintenance-mode-auth": {
+                    "label": "Enable Token Authentication",
+                    "help": "You can use developer tokens to login via <code>/maintenance/auth/$token</code>."
+                }
+            },
+            "permissions": {
+                "bypass": "Can bypass Maintenance Mode"
+            }
+        }
+    }
+}

@@ -1,10 +1,10 @@
 {
     "afrux-forum-widgets-core": {
         "admin": {
-            "cache_not_writable_warning": "",
+            "cache_not_writable_warning": "Bufferen er for øyeblikket ikke skrivbar, dette vil forhindre at visse widgets fungerer. Rett opp lagringskatalogens tillatelser.",
             "settings": {
-                "prefer_data_with_initial_load": "",
-                "prefer_data_with_initial_load_help": ""
+                "prefer_data_with_initial_load": "Foretrekk å laste inn alle widgetdata med første sidesvar.",
+                "prefer_data_with_initial_load_help": "I stedet for å laste inn widgetdata etter første sideinnlasting ved å sende API-forespørsler, vil dataene (når det er mulig) lastes inn med den første innlastingen."
             }
         }
     }

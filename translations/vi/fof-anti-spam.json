@@ -2,86 +2,86 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Đánh dấu người dùng là spammer"
             },
             "settings": {
-                "button": "",
+                "button": "Cài đặt",
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
-                    "delete_posts_help": "",
-                    "heading": "",
-                    "introduction": "",
-                    "move_discussions_to_tags_label": "",
-                    "move_discussions_to_tags_help": ""
+                    "delete_user_label": "Xóa người dùng",
+                    "delete_user_help": "Thao tác này sẽ xóa vĩnh viễn người dùng. Khi tắt, người dùng sẽ bị tạm ngưng thay vì xóa.",
+                    "delete_discussions_label": "Xóa thảo luận",
+                    "delete_discussions_help": "Thao tác này sẽ xóa vĩnh viễn tất cả thảo luận do người dùng này tạo. Khi tắt, thảo luận sẽ được xóa mềm.",
+                    "delete_posts_label": "Xóa bài viết",
+                    "delete_posts_help": "Thao tác này sẽ xóa vĩnh viễn tất cả bài viết (bình luận, trả lời, v.v.) của người dùng này. Khi tắt, bài viết sẽ được xóa mềm.",
+                    "heading": "Hành động kiểm duyệt mặc định",
+                    "introduction": "Khi một người dùng bị đánh dấu là spammer, người kiểm duyệt có thể chọn nhiều cách xử lý khác nhau. Các cài đặt này cho phép bạn đặt sẵn các hành động thường dùng để tăng tốc quy trình, đồng thời vẫn có thể linh hoạt điều chỉnh khi cần.\n",
+                    "move_discussions_to_tags_label": "Chuyển thảo luận sang thẻ",
+                    "move_discussions_to_tags_help": "Sẽ chuyển tất cả thảo luận do người dùng này tạo sang thẻ bạn chỉ định. Xóa lựa chọn thẻ để giữ thảo luận ở thẻ gốc. Không có hiệu lực nếu tùy chọn 'Xóa thảo luận' được bật."
                 },
                 "stopforumspam": {
-                    "heading": "",
-                    "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
-                    "frequency_label": "",
-                    "frequency_help": "",
-                    "api_key_label": "",
-                    "api_key_text": "",
-                    "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
-                    "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
-                    "confidence_help": "",
-                    "email_hash_label": "",
-                    "email_hash_help": "",
-                    "sfs_lookup_label": "",
-                    "sfs_lookup_help": "",
-                    "report_blocked_registrations_label": "",
-                    "report_blocked_registrations_help": ""
+                    "heading": "StopForumSpam",
+                    "introduction": "Kiểm tra đăng ký người dùng mới với cơ sở dữ liệu <a>StopForumSpam</a>. Nếu đạt ngưỡng <code>confidence</code> hoặc <code>frequency</code>, người dùng sẽ không thể hoàn tất đăng ký trên diễn đàn của bạn.\n\nĐăng ký SSO qua <code>fof/oauth</code> và <code>fof/passport</code> cũng được hỗ trợ. Các nhà cung cấp SSO khác có thể hoạt động nhưng chưa được kiểm thử.\n",
+                    "username_label": "Kiểm tra spam theo Tên người dùng",
+                    "ip_label": "Kiểm tra spam theo Địa chỉ IP",
+                    "email_label": "Kiểm tra spam theo Email",
+                    "frequency_label": "Ngưỡng",
+                    "frequency_help": "Số lượng báo cáo spam giữa tất cả các kiểm tra đã bật để kích hoạt bộ lọc spam.\nVD: Nếu email có 1 lần trúng, và IP có 2 lần trúng, tổng sẽ là 3. Nếu ngưỡng đặt là 3 hoặc thấp hơn, chúng tôi sẽ chặn đăng ký.\n",
+                    "api_key_label": "API Key",
+                    "api_key_text": "Bạn có thể báo cáo spammer lên StopForumSpam để giúp cộng đồng diễn đàn rộng hơn tránh spam.",
+                    "api_key_instructions_text": "<register>Đăng ký StopForumSpam</register>. Sau đó bạn cần <key>lấy API key</key>.",
+                    "regional_endpoint_label": "Truy cập theo khu vực",
+                    "regional_endpoint_help": "Mặc định chúng tôi tra cứu tại máy chủ khu vực gần nhất để có phản hồi nhanh nhất. Nếu bạn muốn giới hạn lưu lượng tới một khu vực cụ thể (ví dụ để tuân thủ quy định quyền riêng tư của công ty/quốc gia), bạn có thể buộc kết nối tới khu vực đó.",
+                    "region_closest_label": "Gần nhất",
+                    "region_europe_label": "Châu Âu",
+                    "region_us_label": "Hoa Kỳ",
+                    "confidence_label": "Độ tin cậy",
+                    "confidence_help": "Điểm độ tin cậy là chỉ báo khá tốt cho thấy trường đang kiểm tra có thể dẫn tới hoạt động không mong muốn. Đặt mức độ tin cậy theo phần trăm. Nếu trường đạt hoặc vượt mức này, đăng ký sẽ bị chặn bất kể bài kiểm tra 'frequency' ở trên.",
+                    "email_hash_label": "Dùng email đã băm",
+                    "email_hash_help": "Gửi giá trị băm MD5 của địa chỉ email nếu bạn không muốn gửi email thô. Cách này bỏ qua tất cả blacklist, chuẩn hóa và các kiểm tra vượt che giấu.",
+                    "sfs_lookup_label": "Tra cứu đăng ký",
+                    "sfs_lookup_help": "Nếu bật, chúng tôi sẽ kiểm tra cơ sở dữ liệu StopForumSpam khi có người dùng mới đăng ký. Nếu tìm thấy người dùng (tên, IP, email) và điểm dữ liệu đó được bật cùng với mức độ tin cậy SFS đạt ngưỡng bạn định nghĩa, họ sẽ không thể hoàn tất đăng ký.",
+                    "report_blocked_registrations_label": "Báo cáo các đăng ký bị chặn",
+                    "report_blocked_registrations_help": "Khi đăng ký bị chặn bởi tính năng Tra cứu đăng ký, chúng tôi sẽ báo cáo nỗ lực đó về StopForumSpam để xác thực hoạt động spam tốt hơn. Yêu cầu có API key StopForumSpam (xem bên dưới)."
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
-                "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "button": "Đăng ký bị chặn",
+                "title": "Đăng ký bị chặn",
+                "no-records": "Không tìm thấy đăng ký bị chặn.",
+                "help": "Trang này hiển thị tất cả đăng ký đã bị dịch vụ StopForumSpam chặn. Bạn có thể xem chi tiết từng đăng ký và xóa bản ghi khỏi cơ sở dữ liệu nếu muốn.\n",
+                "attempted-at": "Thời điểm thử đăng ký",
+                "ip": "Địa chỉ IP",
+                "email": "Địa chỉ Email",
+                "username": "Tên người dùng",
+                "login-provider": "Nhà cung cấp đăng nhập",
+                "login-provider-data": "Dữ liệu nhà cung cấp đăng nhập",
+                "sfs-data": "Dữ liệu StopForumSpam",
+                "delete_entry": "Xóa bản ghi"
             }
         },
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "Chi tiết đăng ký của bạn đã được tìm thấy trong cơ sở dữ liệu ngăn chặn spam, vì vậy đăng ký đã bị chặn."
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
-                "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
-                "report_to_sfs_help": ""
+                "hard_delete_discussions_label": "Xóa thảo luận",
+                "hard_delete_discussions_help": "Thao tác này sẽ xóa vĩnh viễn tất cả thảo luận do người dùng này tạo. Khi tắt, thảo luận sẽ bị ẩn.",
+                "hard_delete_posts_label": "Xóa bài viết",
+                "hard_delete_posts_help": "Thao tác này sẽ xóa vĩnh viễn tất cả bài viết (bình luận, trả lời, v.v.) của người dùng này. Khi tắt, bài viết sẽ bị ẩn.",
+                "hard_delete_user_label": "Xóa người dùng",
+                "hard_delete_user_help": "Thao tác này sẽ xóa vĩnh viễn người dùng. Khi tắt, người dùng sẽ bị tạm ngưng.",
+                "intro": "Khi đánh dấu một người dùng là spammer, một số hành động sẽ được thực hiện, tùy thuộc vào các tiện ích mở rộng có sẵn trên diễn đàn của bạn.",
+                "move_discussions_tag_label": "Chuyển thảo luận sang thẻ cách ly",
+                "move_discussions_tag_help": "Sẽ chuyển tất cả thảo luận do người dùng này tạo sang thẻ bạn đã chỉ định trong phần cài đặt diễn đàn. Khi tắt, thảo luận sẽ giữ nguyên thẻ hiện tại.",
+                "process_button": "Xử lý",
+                "title": "Đánh dấu {username} là spammer",
+                "report_to_sfs_label": "Báo cáo lên StopForumSpam",
+                "report_to_sfs_help": "Sẽ báo cáo các thông tin cơ bản của người dùng (tên, email, địa chỉ IP) lên StopForumSpam. Điều này giúp ngăn người dùng đăng ký ở các diễn đàn khác sử dụng dịch vụ StopForumSpam."
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "Spammer"
             }
         }
     }

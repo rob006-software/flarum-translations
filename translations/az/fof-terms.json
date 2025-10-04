@@ -35,7 +35,9 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "Son şərtlərin yenilənmə tarixi. Bu dəyərin təyin edilməsi həmin tarixdən əvvəl qəbul etmiş bütün istifadəçilərin yenidən qəbul etmələrini tələb edəcək. Keçmişdə olmalıdır (əks halda istifadəçilər tarixdən sonra heç vaxt qəbul edə və modalı keçə bilməyəcəklər).\n",
                 "export-url": "Eksport URL",
-                "export-url-help": "\"Bütün siyasət məlumatlarını ixrac et\" icazəsi olan istənilən istifadəçi bu siyasəti qəbul edən istifadəçilərin siyahısını endirmək üçün həmin URL-lərə daxil ola bilər. Mövcud seçimlər haqqında ətraflı məlumatı <a>uzatma vikisində</a> tapa bilərsiniz.\n"
+                "export-url-help": "\"Bütün siyasət məlumatlarını ixrac et\" icazəsi olan istənilən istifadəçi bu siyasəti qəbul edən istifadəçilərin siyahısını endirmək üçün həmin URL-lərə daxil ola bilər. Mövcud seçimlər haqqında ətraflı məlumatı <a>uzatma vikisində</a> tapa bilərsiniz.\n",
+                "optional": "",
+                "optional-help": ""
             },
             "permissions": {
                 "see-user-policies-state": "İstifadəçi siyasətləri vəziyyətinə bax",
@@ -64,14 +66,19 @@
             "update-alert": {
                 "must-accept-message": "Siz yeni şərtlərlə tanış olana qədər hesabınıza girişi müvəqqəti olaraq məhdudlaşdırdıq.",
                 "can-accept-message": "Biz bu yaxınlarda şərtləri yenilədik. Bu vebsaytdan istifadə etməyə davam etmək üçün onları qəbul etməlisiniz.",
-                "review": "Yeni şərtləri nəzərdən keçirmək və qəbul etmək üçün bura klikləyin"
+                "can-accept-optional-message": "",
+                "review": "Yeni şərtləri nəzərdən keçirmək və qəbul etmək üçün bura klikləyin",
+                "close": ""
+            },
+            "user_settings": {
+                "optional_policies_label": ""
             },
             "user_controls": {
                 "state_button": "Şərtlərin qəbul vəziyyəti"
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "userpolicydata": {

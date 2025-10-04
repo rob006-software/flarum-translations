@@ -1,8 +1,18 @@
 {
     "v17development-flarum-seo": {
+        "admin": {
+            "permissions": {
+                "configure_seo": "Дозволити налаштовувати SEO"
+            }
+        },
         "forum": {
             "profile_title": "Обліковий запис {username}",
-            "profile_description": "Обліковий запис {username} | {discussion_count} дискусій | {comment_count} постів"
+            "profile_description": "Обліковий запис {username} | {discussion_count} дискусій | {comment_count} постів",
+            "controls": {
+                "configure_seo": "Налаштувати SEO",
+                "update_seo": "Оновити SEO",
+                "reset_seo": "Перезавантажити SEO"
+            }
         }
     }
 }

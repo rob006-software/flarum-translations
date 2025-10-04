@@ -46,6 +46,11 @@
                 "subject": "Twoje konto zostało odbanowane",
                 "body": "Witaj {recipient_display_name},\n\nTwoje konto zostało odbanowane. Aby wrócić na forum, kliknij poniższy link:\n{forum_url}\n"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": "zbanowany do"
+            }
         }
     }
 }

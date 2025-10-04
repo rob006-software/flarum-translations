@@ -2,13 +2,16 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": "Layout Desain Diskusi"
+                "design_default": "Layout Desain Diskusi",
+                "display_themes": "Aktifkan Tag untuk Izin Tema"
             },
             "helps": {
-                "design_default": "Pilih layout desain default"
+                "design_default": "Pilih layout desain default",
+                "display_themes": "Hanya izinkan tema untuk grup tertentu"
             },
             "options": {
                 "design_options": {
+                    "none": "Tidak ada",
                     "sticky_note": "Sticky Note",
                     "sticky_note_tag": "Sticky Note (Tag Primer)",
                     "sticky_note_tab": "Sticky Note (Tab Primer)",
@@ -32,14 +35,26 @@
                     "flat_border": "Flat Border",
                     "flat_border_tag": "Flat Border (Tag Primer)",
                     "flat_border_tab": "Flat Border (Tab Primer)",
-                    "flat_border_banner": "Flat Border (Banner Utama)"
+                    "flat_border_banner": "Flat Border (Banner Utama)",
+                    "rounded_flat": "",
+                    "rounded_flat_tag": "Rounded Flat (Tag Primer)",
+                    "rounded_flat_tab": "Rounded Flat (Tab Primer)",
+                    "rounded_flat_banner": "Rounded Flat (Banner Utama)",
+                    "rounded_flat_border": "",
+                    "rounded_flat_border_tag": "Rounded Flat Border (Tag Primer)",
+                    "rounded_flat_border_tab": "Rounded Flat Border (Tab Primer)",
+                    "rounded_flat_border_banner": "Rounded Flat Border (Banner Utama)"
                 }
             },
             "designs": {
                 "title": "Tema Desain Khusus untuk Tag",
                 "description": "Menyediakan daftar aturan untuk menampilkan tema yang berbeda untuk tag tertentu",
                 "add": "Tambahkan Desain untuk Tag",
-                "banner": "Tema Desain {index}",
+                "banner": "Tema Desain {index} - [{isEnabled}]",
+                "is_enabled": {
+                    "enabled": "Aktifkan",
+                    "disabled": "Tidak aktif"
+                },
                 "header": {
                     "theme": "Tema Khusus",
                     "color_theme": "Sesuaikan Skema Warna Default"
@@ -55,6 +70,9 @@
                     "outline_background_color": "Warna Garis",
                     "secondary_font_class": "Font Sekunder",
                     "unread_color": "Warna Background Yang Belum Dibaca",
+                    "opacity_background": "Tingkat Opacity dari Background",
+                    "opacity_footer": "Tingkat Opacity dari Footer",
+                    "opacity_outline": "Tingkat Opacity dari Outline",
                     "is_enabled": "Aktifkan Tema Desain"
                 }
             }

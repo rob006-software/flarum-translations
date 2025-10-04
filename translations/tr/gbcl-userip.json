@@ -8,15 +8,15 @@
                 "view_ip_info_label": "IP Bilgisini Görüntüle"
             },
             "service": {
-                "label": "",
+                "label": "Servis",
                 "ipsb": {
-                    "label": "",
-                    "description": ""
+                    "label": "IP.SB",
+                    "description": "Ücretsiz IP konum bilgisi almak için <b>https://ip.sb</b> adresini kullanın (lütfen oran sınırını dikkate alın)"
                 },
                 "ipinfo": {
-                    "label": "",
-                    "description": "",
-                    "key": ""
+                    "label": "IpInfo",
+                    "description": "Daha doğru IP bilgisi almak için <b>https://ipinfo.io</b> adresini kullanın (token anahtarı gereklidir)",
+                    "key": "IpInfo Token Anahtarı (Zorunlu)"
                 }
             }
         }

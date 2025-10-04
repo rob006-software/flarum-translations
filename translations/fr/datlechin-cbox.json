@@ -2,12 +2,12 @@
     "datlechin-cbox": {
         "admin": {
             "settings": {
-                "description": "",
-                "secret": "",
-                "box_id": "",
-                "box_tag": "",
-                "show_when_user_not_login": "",
-                "show_when_user_not_login_help": ""
+                "description": "Votre Cbox doit être la version Pro. Naviguez dans <strong>Utilisateurs</strong> -> <strong>Intégration des utilisateurs</strong> pour activer l'intégration et obtenir les informations nécessaires.",
+                "secret": "Clé secrète",
+                "box_id": "Identifiant de la zone",
+                "box_tag": "Étiquette de la zone",
+                "show_when_user_not_login": "Afficher lorsque l'utilisateur n'est pas connecté",
+                "show_when_user_not_login_help": "Afficher la boîte de dialogue même si l'utilisateur n'est pas connecté"
             }
         }
     }

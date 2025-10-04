@@ -43,6 +43,7 @@
                 "about_tags_text": "תגיות משמשות לסיווג דיונים. תגיות ראשיות הן כמו קטגוריות בפורומים: הן יכולות להיות מסודרות בהיררכיה דו שלבית. תגיות משניות הן חסרות היררכיה או סדר, ושימושיות לסידור משני בקטגוריות.",
                 "create_primary_tag_button": "יצירת תגית ראשית",
                 "create_secondary_tag_button": "יצירת תגית משנית",
+                "edit_tag_label": "",
                 "primary_heading": "תגיות ראשיות",
                 "secondary_heading": "תגיות משניות",
                 "settings_heading": "הגדרות"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "",
             "name": "שם",
             "tags": "תגיות"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

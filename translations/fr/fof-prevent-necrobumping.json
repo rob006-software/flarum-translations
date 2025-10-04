@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "Cette discussion est âgée de plus de <b>{time}</b>.",
                     "description": "Il est très probable qu'il n'y ait pas lieu d'en discuter davantage et qu'il ne serve donc à rien de remettre le sujet sur le tapis.",
+                    "cta": "Souhaitez-vous plutôt démarrer une nouvelle discussion ?",
+                    "cta_button": "=> core.ref.start_a_discussion",
                     "checkbox_label": "Je suis conscient que cette discussion est assez ancienne, mais j'aimerais tout de même y répondre.",
                     "error": "Cette discussion est trop ancienne pour y répondre."
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "Afficher l'appel à l'action",
+                "show_discussion_cta_help": "Afficher un appel à l'action lorsque l'on répond à une discussion qui date de plus du nombre de jours spécifié et qu'aucune description personnalisée n'est définie.",
                 "days_label": "Jours",
                 "days_help": "Une discussion sera marquée comme ancienne lorsque le nombre de jours spécifié se sera écoulé depuis que le dernier message de cette discussion ait été publié. Saisissez <code>0</code> pour désactiver cette fonctionnalité par défaut.",
                 "message_title_label": "Titre de message personnalisé",

@@ -3,28 +3,28 @@
         "admin": {
             "dashboard": {
                 "maintenance_widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Hooldusrežiim on aktiivne",
+                    "detail": "Hooldustööde ajal saavad ainult volitatud kasutajat foorumit vaadata."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Võib eirata hooldusrežiimi"
             },
             "settings": {
                 "maintenance_mode_enabled": {
-                    "label": ""
+                    "label": "Hooldusrežiim"
                 }
             }
         },
         "views": {
             "default": {
-                "title": "",
-                "header": "",
-                "body": ""
+                "title": "Hooldus",
+                "header": "Suletud hooldustöödeks.",
+                "body": "<p>Sooritame hetkel hooldustöid. Palun tule hiljem tagasi.</p>\n"
             }
         },
         "api": {
-            "title": ""
+            "title": "Hetkel oleme hooldustöödeks suletud. Palun tule hiljem tagasi."
         }
     }
 }

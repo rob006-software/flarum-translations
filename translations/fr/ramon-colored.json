@@ -1,0 +1,57 @@
+{
+    "colored": {
+        "admin": {
+            "settings": {
+                "tag_mode_label": "Mode de couleur des étiquettes",
+                "tag_mode_first": "Première étiquette",
+                "tag_mode_second": "Seconde étiquette",
+                "tag_mode_custom": "Personnalisée",
+                "tag_position_label": "Position de l'étiquette",
+                "tag_position_help": "Sélectionner la position de l'étiquette pour la personnaliser.",
+                "custom_css_label": "CSS personnalisé",
+                "custom_css_help": "Ajoutez ici les styles CSS personnalisés que vous souhaitez appliquer.",
+                "transition_delay_label": "Vitesse d'animation",
+                "transition_delay_help": "Sélectionner la vitesse de transition des couleurs",
+                "transition_speeds": {
+                    "fast": "Rapide (0,1 seconde)",
+                    "normal": "Normal (0,5 seconde)",
+                    "slow": "Lent (1 seconde)"
+                },
+                "transition_custom_label": "Vitesse personnalisée",
+                "transition_custom_help": "Saisir la durée de transition personnalisée en secondes (« 0,7 » par exemple)",
+                "elements": {
+                    "header_label": "Bordure de l'en-tête",
+                    "header_help": "Activer la coloration de l'en-tête.",
+                    "header_description": "Ajoute une bordure colorée en haut de l'en-tête du forum",
+                    "hero_label": "Bannière principale",
+                    "hero_help": "Activer la coloration de la section du bandeau.",
+                    "hero_description": "Colore l'arrière-plan de la bannière de la page principale",
+                    "navigation_label": "Barre de navigation",
+                    "navigation_help": "Activer la coloration de la barre de navigation.",
+                    "navigation_description": "Ajoute une bordure colorée à la barre de navigation",
+                    "button_label": "Éléments primaires",
+                    "button_help": "Activer la coloration des éléments primaires",
+                    "button_description": "Applique la couleur aux éléments primaires tels que les boutons, les liens et les éléments de menu",
+                    "usercard_label": "Carte d'utilisateur",
+                    "usercard_help": "Activer la coloration des cartes d'utilisateur.",
+                    "usercard_description": "Ajoute une bordure colorée aux cartes d'utilisateur",
+                    "post_label": "Messages",
+                    "post_help": "Activer la coloration des messages.",
+                    "post_description": "Ajoute une bordure colorée sur le côté des messages",
+                    "alerts_label": "Alertes",
+                    "alerts_help": "Activer la coloration des alertes.",
+                    "alerts_description": "Ajoute une bordure colorée aux notifications du système",
+                    "dropdown_label": "Menus déroulants",
+                    "dropdown_help": "Activer la coloration des menus déroulants.",
+                    "dropdown_description": "Applique une couleur à l'arrière-plan des menus déroulants",
+                    "composer_label": "Éditeur de texte",
+                    "composer_help": "Activer la coloration pour le compositeur de messages.",
+                    "composer_description": "Applique une couleur à l'arrière-plan de l'éditeur de texte",
+                    "custom_label": "CSS personnalisé",
+                    "custom_help": "Permet l'utilisation de feuilles de style CSS personnalisées."
+                }
+            },
+            "donate": "Soutenir cette extension"
+        }
+    }
+}

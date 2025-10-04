@@ -2,13 +2,16 @@
     "yippy-tag-with-themes": {
         "admin": {
             "labels": {
-                "design_default": "討論設計佈局"
+                "design_default": "討論設計佈局",
+                "display_themes": ""
             },
             "helps": {
-                "design_default": "選擇預設設計佈局"
+                "design_default": "選擇預設設計佈局",
+                "display_themes": ""
             },
             "options": {
                 "design_options": {
+                    "none": "",
                     "sticky_note": "便箋",
                     "sticky_note_tag": "便籤（主標籤）",
                     "sticky_note_tab": "便籤（主選項卡）",
@@ -32,7 +35,15 @@
                     "flat_border": "平框",
                     "flat_border_tag": "扁平邊框（主標籤）",
                     "flat_border_tab": "平面邊框（主選項卡）",
-                    "flat_border_banner": "平面邊框（主橫幅）"
+                    "flat_border_banner": "平面邊框（主橫幅）",
+                    "rounded_flat": "",
+                    "rounded_flat_tag": "",
+                    "rounded_flat_tab": "",
+                    "rounded_flat_banner": "",
+                    "rounded_flat_border": "",
+                    "rounded_flat_border_tag": "",
+                    "rounded_flat_border_tab": "",
+                    "rounded_flat_border_banner": ""
                 }
             },
             "designs": {
@@ -40,6 +51,10 @@
                 "description": "提供為特定標籤顯示不同主題的規則列表",
                 "add": "新增標籤設計",
                 "banner": "設計主題 {index}",
+                "is_enabled": {
+                    "enabled": "",
+                    "disabled": ""
+                },
                 "header": {
                     "theme": "自訂主題",
                     "color_theme": "自訂預設配色方案"
@@ -55,6 +70,9 @@
                     "outline_background_color": "編輯輪廓顏色",
                     "secondary_font_class": "編輯輔助字體",
                     "unread_color": "編輯未讀背景顏色",
+                    "opacity_background": "",
+                    "opacity_footer": "",
+                    "opacity_outline": "",
                     "is_enabled": "啟用設計主題"
                 }
             }

@@ -2,25 +2,25 @@
     "clarkwinkelmann-external-email-validation": {
         "admin": {
             "settings": {
-                "method": "",
-                "uri": "",
-                "uri-help": "",
-                "body": "",
-                "body-help": "",
-                "headers": "",
-                "headers-help": "",
+                "method": "Nõude meetod",
+                "uri": "Nõude URI",
+                "uri-help": "Võid sisestada lühikoode, mis asendatakse e-posti väärtusega. Vaata lisainfot README-failist.",
+                "body": "Nõude sisu",
+                "body-help": "Võid sisestada lühikoode, mis asendatakse e-posti väärtusega. Vaata lisainfot README-failist.",
+                "headers": "Päringu päised",
+                "headers-help": "Üks päis rea kohta",
                 "use-response-status": "",
                 "use-response-status-help": "",
                 "response-success-key": "",
                 "response-success-key-help": "",
-                "default-error-message": "",
+                "default-error-message": "Vaikimisi veateade",
                 "default-error-message-help": "",
                 "response-error-key": "",
                 "response-error-key-help": ""
             }
         },
         "api": {
-            "email-validation-error": ""
+            "email-validation-error": "E-posti aadress ei läbinud välist kontrolli."
         }
     }
 }

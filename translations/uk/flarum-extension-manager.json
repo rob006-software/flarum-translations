@@ -164,6 +164,27 @@
             "why_not_modal": {
                 "title": "Чому не оновлюється"
             }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "мінімальна стабільність",
+                "repositories": "репозиторії",
+                "repositories.*": "репозиторії",
+                "repositories.*.type": "тип репозиторія",
+                "repositories.*.url": "URL репозиторію",
+                "extension_id": "ID розширення",
+                "update_mode": "режим оновлення",
+                "package": "пакет",
+                "version": "версія",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab Token",
+                "gitlab_token.*": "GitLab Token",
+                "bearer": "HTTP Bearer",
+                "bearer.*": "HTTP Bearer"
+            }
         }
     }
 }

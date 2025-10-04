@@ -7,8 +7,13 @@
         },
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
                 "modal": {
                     "always_show_theme_toggle_on_header": "フォーラムのヘッダーに常にテーマ切り替えボタンを表示する",
+                    "show_theme_toggle_in_solid": "",
                     "default_theme": "デフォルトテーマ",
                     "default_theme_helper": "デフォルトのテーマは、新規ユーザー、ゲスト、およびプリファレンスを設定していないユーザーに対して自動的に設定されます。",
                     "theme_auto": "=> fof-nightmode.ref.auto",

@@ -2,51 +2,51 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Ny autentiseringsmetode",
                 "add_modal": {
-                    "host_label": "",
-                    "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "host_label": "Vert",
+                    "host_placeholder": "eksempel: extiverse.com",
+                    "submit_button": "Send inn",
+                    "token_label": "Token",
+                    "type_label": "Type",
+                    "unchanged_token_placeholder": "(uendret)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Er du sikker på at du ønsker å slette denne autentiseringsmetoden?",
+                "delete_label": "Slett autentiseringsmetode",
+                "edit_label": "Endre autentiseringsmetode",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Vert",
+                    "token": "Token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Ingen konfigurerte autentiseringsmetoder. Dette er en valgfri avansert funksjon for å installere fra private reservoar.",
+                "remove_button_label": "Fjern autentiseringsmetode",
+                "title": "Autentiseringsmetoder",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bærer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Legg til reservoar",
+                "delete_repository_confirmation": "Er du sikker på at du vil slette dette reservoaret? Alle utvidelser installert fra dette reservoaret vil bli fjernet.",
+                "delete_repository_label": "Slett reservoar",
+                "edit_repository_label": "Endre reservoar",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Minimum stabilitet",
+                    "help": "Typen pakker som kan installeres. Ikke endre dette om du ikke vet hva du gjør.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stabil (Anbefales)",
+                        "rc": "Lanseringskandidat",
+                        "beta": "Beta",
+                        "alpha": "Alfa",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
+                    "label": "Reservoarer",
                     "help": "",
                     "types": {
                         "composer": "",
@@ -163,6 +163,27 @@
             "update_successful": "",
             "why_not_modal": {
                 "title": ""
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "",
+                "repositories": "",
+                "repositories.*": "",
+                "repositories.*.type": "",
+                "repositories.*.url": "",
+                "extension_id": "",
+                "update_mode": "",
+                "package": "",
+                "version": "",
+                "github_oauth": "",
+                "github_oauth.*": "",
+                "gitlab_oauth": "",
+                "gitlab_oauth.*": "",
+                "gitlab_token": "",
+                "gitlab_token.*": "",
+                "bearer": "",
+                "bearer.*": ""
             }
         }
     }

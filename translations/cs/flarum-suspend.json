@@ -46,6 +46,11 @@
                 "subject": "Pozastavení vašeho účtu bylo zrušeno",
                 "body": "Ahoj {recipient_display_name},\n\nBylo vám zrušeno pozastavení činnosti. Na fórum se můžete vrátit kliknutím na následující odkaz:\n\n{forum_url}\n"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": ""
+            }
         }
     }
 }

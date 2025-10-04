@@ -1,8 +1,18 @@
 {
     "fof-geoip": {
         "admin": {
+            "permissions": {
+                "see_country": ""
+            },
             "settings": {
-                "title": "",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
                 "service_label": "සේවාව",
                 "service_ipdata_label": "",
                 "service_ipdata_description": "",
@@ -15,13 +25,16 @@
                 "service_ipsevenex_label": "",
                 "service_ipsevenex_description": "",
                 "access_key_label": "",
-                "quota_label": ""
+                "quota_label": "",
+                "show_flag_label": "",
+                "show_flag_help": ""
             }
         },
         "forum": {
             "alerts": {
                 "ip_copied": ""
             },
+            "copy_ip_label": "",
             "map_button_label": "",
             "map_modal": {
                 "title": "",
@@ -36,6 +49,19 @@
                 "threat_types": "",
                 "error": "",
                 "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

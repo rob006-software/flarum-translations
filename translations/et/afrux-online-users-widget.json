@@ -2,13 +2,18 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "max_users": ""
+                "cache_ttl": "Kui kaua kasutajate nimekirja vahemälus hoitakse (sekundites)",
+                "last_seen_interval": "Viimati nägemise intervall, mil kasutajat peetakse veel veebilehel olevaks (minutites)",
+                "max_users": "Maks. näidatavate kasutajate arv"
+            },
+            "permissions": {
+                "view_online_users_widget": "Veeta veebis olevate kasutajate vidinat"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "Kasutajad saidil",
+                "empty": "Ükski kasutaja pole praegu saidil."
             }
         }
     }

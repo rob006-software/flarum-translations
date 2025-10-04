@@ -43,6 +43,7 @@
                 "about_tags_text": "Les etiquetes s'utilitzen per categoritzar debats. Les etiquetes primàries són com les categories tradicionals dels fòrums: poden organitzar-se en una jerarquia de dos nivells. Les etiquetes secundàries no tenen jerarquia o ordre, i són útils per a la microcategorització.",
                 "create_primary_tag_button": "Crear etiqueta primària",
                 "create_secondary_tag_button": "Crear etiqueta secundària",
+                "edit_tag_label": "",
                 "primary_heading": "Etiquetes primàries",
                 "secondary_heading": "Etiquetes secundàries",
                 "settings_heading": "Configuració"
@@ -97,6 +98,17 @@
             "choose_tags_placeholder": "{count, plural, one {Triar una etiqueta més} other {Triar # etiquetes més}}",
             "name": "Nom",
             "tags": "Etiquetes"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

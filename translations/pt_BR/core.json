@@ -6,14 +6,14 @@
                 "colors_heading": "Cores",
                 "colors_primary_label": "Cor Primária",
                 "colors_secondary_label": "Cor Secundária",
-                "colors_text": "Escolha duas cores para o tema do seu fórum. O primeiro será usado como uma cor de destaque, enquanto a segunda será usado para estilizar elementos de fundo.",
+                "colors_text": "Escolha duas cores para personalizar seu fórum. A primeira será usada como cor de destaque, enquanto a segunda será usada para estilizar elementos de fundo.",
                 "custom_footer_heading": "Rodapé personalizado",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Cabeçalho personalizado",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_cannot_use_less_features": "Os recursos @import e data-uri não são permitidos no LESS customizado.",
                 "custom_styles_heading": "CSS personalizado",
-                "custom_styles_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS para ser aplicado sobre os estilos padrão do Flarum.",
+                "custom_styles_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less/CSS para ser aplicado sobre os estilos padrão do Flarum.",
                 "dark_mode_label": "Modo escuro",
                 "description": "Personalize as cores, logotipos e outras variáveis do seu fórum.",
                 "edit_css_button": "Editar CSS personalizado",
@@ -33,7 +33,7 @@
                 "display_name_heading": "Nome de Exibição do Usuário",
                 "display_name_text": "Selecione o driver que deve ser usado para os nomes de exibição dos usuários. Por padrão, o nome de usuário é mostrado.",
                 "forum_description_heading": "Descrição do Fórum",
-                "forum_description_text": "Digite uma ou duas frases curtas que descrevam sua comunidade. Isso aparecerá na meta tag e aparecerá nos mecanismos de busca.",
+                "forum_description_text": "Digite uma ou duas frases curtas que descrevam sua comunidade. Isto aparecerá na meta tag e nos mecanismos de busca.",
                 "forum_title_heading": "Título do Fórum",
                 "home_page_heading": "Página Inicial",
                 "home_page_text": "Escolha a página que os usuários verão pela primeira vez quando visitarem seu fórum.",
@@ -45,19 +45,19 @@
                 "welcome_banner_text": "Configure o texto exibido no banner na página Todas as discussões. Use isso para receber convidados no seu fórum."
             },
             "create_user": {
-                "email_placeholder": "",
-                "email_confirmed_label": "",
-                "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
-                "title": "",
-                "use_random_password": "",
-                "username_placeholder": ""
+                "email_placeholder": "=> core.ref.email",
+                "email_confirmed_label": "Exigir que o usuário confirme este e-mail",
+                "password_placeholder": "=> core.ref.password",
+                "submit_and_create_another_button": "Criar e adicionar outro",
+                "submit_button": "Criar usuário",
+                "title": "Criar novo usuário",
+                "use_random_password": "Gerar senha aleatória",
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "Limpar cache",
-                "description": "Resumo do seu fórum.",
-                "io_error_message": "Não foi possível gravar no sistema de arquivos. Verifique as permissões e tente novamente. Ou tente executar a partir da linha de comando.",
+                "description": "Seu fórum em uma visão geral.",
+                "io_error_message": "Não foi possível escrever no sistema de arquivos. Verifique as permissões e tente novamente ou execute pela linha de comando.",
                 "status": {
                     "headers": {
                         "scheduler-status": "Agendador",
@@ -115,12 +115,12 @@
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domínio",
                 "mail_mailgun_region_label": "Região",
-                "mail_mailgun_secret_label": "Chave Secreta",
+                "mail_mailgun_secret_label": "Chave secreta",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Porta",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Configurações do Mailgun",
-                "not_sending_message": "Flarum atualmente não envia e-mails. Isso pode ocorrer devido ao driver selecionado ou a erros de configuração.",
+                "not_sending_message": "O Flarum não está enviando e-mails no momento. Isso pode ocorrer devido ao driver selecionado ou erros em sua configuração.",
                 "send_test_mail_button": "Enviar",
                 "send_test_mail_heading": "Enviar teste de e-mail",
                 "send_test_mail_success": "Teste de e-mail enviado com sucesso!",
@@ -193,7 +193,7 @@
                 "search_placeholder": "Buscar Extensão"
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
+                "allow_hide_own_posts_label": "Permitir excluir suas próprias postagens",
                 "allow_post_editing_label": "Permitir edição de postagem",
                 "allow_renaming_label": "Permitir renomeação",
                 "create_access_token_label": "Criar token de acesso",
@@ -204,7 +204,7 @@
                 "delete_posts_label": "Excluir postagens",
                 "description": "Configure quem pode ver e fazer o quê.",
                 "edit_posts_label": "Editar postagens",
-                "edit_users_label": "Editar usuários",
+                "edit_users_label": "Editar atributos do usuário",
                 "edit_users_credentials_label": "Editar credenciais de usuário",
                 "edit_users_groups_label": "Editar grupos de usuário",
                 "global_heading": "Global",
@@ -222,12 +222,12 @@
                 "title": "Permissões",
                 "view_forum_label": "Ver fórum (discussões e usuários)",
                 "view_hidden_groups_label": "Ver emblemas de grupo ocultos",
-                "view_last_seen_at_label": "Ver a última vez que o usuário visualizou",
+                "view_last_seen_at_label": "Sempre ver quando o usuário foi visto pela última vez",
                 "view_post_ips_label": "Exibir endereços IP da postagem"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinidamente",
-                "allow_never_button": "",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {Por # minuto} other {Por # minutos}}",
                 "allow_ten_minutes_button": "Por 10 minutos",
                 "allow_until_reply_button": "Até a próxima resposta",
@@ -245,7 +245,7 @@
                 "upload_button": "Escolha uma imagem..."
             },
             "users": {
-                "create_user_button": "",
+                "create_user_button": "Novo Usuário",
                 "description": "Uma lista detalhada de todos os usuários do fórum.",
                 "grid": {
                     "columns": {
@@ -254,8 +254,8 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "title": "=> core.ref.edit_user",
-                            "tooltip": "Editar {username}"
+                            "tooltip": "Editar {username}",
+                            "title": "=> core.ref.edit_user"
                         },
                         "email": {
                             "title": "=> core.ref.email",
@@ -268,6 +268,9 @@
                         },
                         "join_time": {
                             "title": "Entrou"
+                        },
+                        "user_actions": {
+                            "title": "Ações"
                         },
                         "user_id": {
                             "title": "ID"
@@ -357,7 +360,7 @@
                 "replied_text": "{username} respondeu {ago}",
                 "started_text": "{username} iniciou {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# resposta} other {# respostas}}",
-                "unread_replies_a11y_label": "{count, plural, one {# resposta não lida} other {# respostas não lidas}}. Marcar como não lindo {count, plural, one {resposta} other {respostas}} as read.",
+                "unread_replies_a11y_label": "{count, plural, one {# resposta não lida} other {# respostas não lidas}}. Marcar como lida(s) {count, plural, one {a resposta} other {as respostas}}",
                 "mark_as_read_tooltip": "Marcar como Lido"
             },
             "forgot_password": {
@@ -406,7 +409,7 @@
                 "invalid_login_message": "Seus detalhes de login estão incorretos.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "Lembrar de mim",
-                "sign_up_text": "Não possui uma conta? <a>Inscreva-se</a>",
+                "sign_up_text": "Não tem uma conta? <a>Inscreva-se</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "Nome de usuário ou e-mail"
@@ -467,12 +470,12 @@
                 "empty_text": "Parece que não há nada para ver aqui.",
                 "global_logout": {
                     "heading": "Logout Global",
-                    "help_text": "Limpa a sessão de cookie atual, encerra todas as sessões, revoga tokens de desenvolvedor e invalida quaisquer confirmações por e-mail ou e-mails de redefinição de senha.",
+                    "help_text": "Limpa a sessão atual, encerra todas as sessões, revoga tokens de desenvolvedor e invalida quaisquer e-mails de confirmação ou redefinição de senha.",
                     "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "Ocultar Token",
                 "last_activity": "Última atividade",
-                "never": "Nunca",
+                "never": "=> core.ref.never",
                 "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
                     "submit_button": "Criar Token",
@@ -577,7 +580,7 @@
                 "nothing_available": "Você não tem permissão para editar este usuário."
             },
             "error": {
-                "circular_dependencies_message": "",
+                "circular_dependencies_message": "Dependências circulares detectadas: {extensions}. Abortando. Desative uma das extensões e tente novamente.",
                 "dependent_extensions_message": "Não é possível desativar {extension} até que as seguintes extensões dependentes sejam desativadas: {extensions}",
                 "extension_initialiation_failed_message": "{extension} não inicializou, verifique o console do navegador para obter mais informações.",
                 "generic_message": "Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.",
@@ -605,6 +608,11 @@
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "D MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY"
             },
             "series": {
                 "glue_text": ", ",
@@ -675,9 +683,9 @@
         "api": {
             "invalid_username_message": "O nome de usuário pode conter apenas letras, números e traços.",
             "invalid_filter_type": {
-                "must_be_numeric_message": "",
-                "must_not_be_array_message": "",
-                "must_not_be_multidimensional_array_message": ""
+                "must_be_numeric_message": "O filtro {filter} deve ser numérico.",
+                "must_not_be_array_message": "O filtro {filter} não deve ser um array.",
+                "must_not_be_multidimensional_array_message": "O filtro {filter} não deve ser um array multidimensional."
             }
         },
         "email": {
@@ -705,7 +713,7 @@
             "color": "Cor",
             "confirm_password": "Confirme a Senha",
             "confirm_email": "Confirmar E-mail",
-            "confirmation_email_sent": "Enviámos um e-mail de confirmação para {email}. Se não chegar logo, verifique sua pasta de spam.",
+            "confirmation_email_sent": "Enviamos um e-mail de confirmação para {email}. Se não recebê-lo logo, verifique sua pasta de spam.",
             "custom_footer_text": "Adicione HTML a ser exibido na parte inferior da página.",
             "custom_footer_title": "Editar rodapé personalizado",
             "custom_header_text": "Adicione HTML a ser exibido na parte superior da página, acima do cabeçalho do próprio Flarum.",
@@ -725,7 +733,7 @@
             "log_in": "Entrar",
             "log_out": "Sair",
             "mark_all_as_read": "Marcar tudo como lido",
-            "never": "",
+            "never": "Nunca",
             "new_token": "Novo token",
             "next_page": "Próxima página",
             "notifications": "Notificações",

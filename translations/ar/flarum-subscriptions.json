@@ -2,49 +2,49 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "=> flarum-subscriptions.ref.following",
-                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+                "following_tooltip": "متابعة",
+                "ignoring_tooltip": "تجاهل"
             },
             "discussion_controls": {
-                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "follow_button": "تابع",
                 "unfollow_button": "إلغاء المتابعة",
-                "unignore_button": "إلغاء التّجاهل"
+                "unignore_button": "إلغاء التجاهل"
             },
             "following": {
-                "meta_title_text": "=> flarum-subscriptions.ref.following"
+                "meta_title_text": "متابعة"
             },
             "index": {
-                "following_link": "=> flarum-subscriptions.ref.following"
+                "following_link": "المتابعات"
             },
             "notifications": {
-                "new_post_text": "قام(ت) {username} بالنّشر"
+                "new_post_text": "{username} نشر"
             },
             "settings": {
-                "follow_after_reply_label": "متابعة المنشورات التي قمت بالرّدّ عليها تلقائيّا",
-                "notify_for_all_posts_label": "الإعلام عن كلّ منشور جديد بدلاً من المنشور الأخير فقط في المناقشة",
-                "notify_new_post_label": "إذا قام شخص بالنّشر في مناقشة أتابعها"
+                "follow_after_reply_label": "متابعة المنشورات التي أرد عليها تلقائيًا",
+                "notify_for_all_posts_label": "إشعار بكل مشاركة جديده بدلاً من آخر مشاركة فقط في الموضوع",
+                "notify_new_post_label": "نشر شخص ما في موضوع  أتابعه"
             },
             "sub_controls": {
-                "follow_button": "=> flarum-subscriptions.ref.follow",
-                "following_button": "=> flarum-subscriptions.ref.following",
-                "following_text": "الإشعار بجميع الرّدود.",
-                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
-                "ignoring_text": "عدم الإشعار أبدا. الإخفاء من قائمة المناقشات.",
-                "not_following_button": "إلغاء المتابعة",
-                "not_following_text": "الإشعار فقط عندما تتمّ @الإشارة.",
-                "notify_alert_tooltip": "الحصول على إشعار المنتدى عندما تكون هناك مشاركات جديدة",
-                "notify_email_tooltip": "الحصول على بريد إلكتروني عندما تكون هناك مشاركات جديدة"
+                "follow_button": "تابع",
+                "following_button": "متابعة",
+                "following_text": "احصل على إشعار بجميع الردود.",
+                "ignoring_button": "تجاهل",
+                "ignoring_text": "لا تتلقى إشعارًا أبدًا. اخفاء من قائمة المنشورات.",
+                "not_following_button": "غير متابع",
+                "not_following_text": "احصل على إشعار فقط عند @الإشارة إليك.",
+                "notify_alert_tooltip": "احصل على إشعار عند وجود مشاركات جديدة",
+                "notify_email_tooltip": "احصل على بريد إلكتروني عند وجود مشاركات جديدة"
             }
         },
         "email": {
             "new_post": {
                 "subject": "[منشور جديد] {title}",
-                "body": "مرحبا {recipient_display_name} \n \nقام(ت) {poster_display_name} بالنّشر في مناقشة: {title} التي تتمّ متابعتها من طرفك. \n \nلمشاهدة النّشاط الجديد، يُمكنك الانتقال عبر الرّابط الآتي: {url} \n \n--- \n \n{content} \n \n--- \n \nلن يتمّ إرسال أي إشعارات أخرى حول هذه المناقشة حتى يتمّ الاطّلاع من طرفك عليها.\n"
+                "body": "أهلاً {recipient_display_name}!\n\nنشر {poster_display_name} منشورًا في موضوع تتابعه: {title}.\n\nلعرض النشاط الجديد، يُرجى زيارة الرابط التالي:\n{url}\n\n---\n\n{content}\n\n---\n\nلن تتلقى أي إشعارات أخرى حول هذا الموضوع حتى تُحدّثها."
             }
         },
         "ref": {
-            "follow": "متابعة",
-            "following": "المتابعون",
+            "follow": "تابع",
+            "following": "متابعة",
             "ignoring": "تجاهل"
         }
     }

@@ -1,94 +1,73 @@
 {
     "xypp-forum-quests": {
         "forum": {
-            "reward_not_found": "",
-            "condition_not_found": "",
+            "reward_not_found": "Không tìm thấy phần thưởng {reward}",
+            "condition_not_found": "Không tìm thấy điều kiện {condition}",
             "notification": {
-                "quest_done": "",
-                "quest_done_label": ""
-            },
-            "condition": {
-                "condition": "",
-                "format": "",
-                "and": "",
-                "span": ""
-            },
-            "reward": {
-                "reward": "",
-                "format": "",
-                "and": ""
+                "quest_done": "Bạn vừa hoàn thành nhiệm vụ {name}!",
+                "quest_done_label": "Nhiệm vụ đã hoàn thành"
             },
             "quest": {
-                "quest": "",
-                "load_more": "",
-                "done": ""
+                "quest": "Nhiệm vụ",
+                "load_more": "Tải thêm",
+                "done": "[Hoàn thành]"
             },
             "re_available": {
-                "none": "",
-                "day": "",
-                "hour": ""
+                "none": "Chỉ một lần",
+                "day": "Có thể làm lại sau {value} ngày",
+                "hour": "Có thể làm lại sau {value} giờ"
             },
             "condition_view": {
-                "button": "",
-                "title": "",
-                "name": "",
-                "value": "",
-                "span": "",
-                "set_span": ""
+                "button": "Xem điều kiện",
+                "title": "Điều kiện",
+                "name": "Tên",
+                "value": "Giá trị",
+                "span": "Trong khoảng",
+                "set_span": "Đặt khoảng"
             },
             "quest_done": {
-                "all": "",
-                "true": "",
-                "false": ""
+                "all": "Tất cả",
+                "true": "Đã hoàn thành",
+                "false": "Chưa hoàn thành"
             }
         },
         "admin": {
-            "settings": "",
-            "timezone": "",
-            "allow_update": "",
-            "data": "",
+            "settings": "Cài đặt",
+            "timezone": "Múi giờ",
+            "allow_update": "Cho phép người dùng tự cập nhật thủ công",
+            "data": "Dữ liệu",
             "table": {
-                "id": "",
-                "name": "",
-                "description": "",
-                "operation": "",
-                "load_more": "",
-                "remove_confirm": "",
-                "create": ""
+                "id": "#",
+                "name": "Tên",
+                "description": "Mô tả",
+                "operation": "Thao tác",
+                "load_more": "Tải thêm",
+                "remove_confirm": "Bạn có chắc muốn xóa nhiệm vụ này?",
+                "create": "Tạo"
             },
             "create-modal": {
-                "title": "",
-                "edit": "",
-                "name": "",
-                "description": "",
-                "icon": "",
-                "hidden": "",
-                "condition": "",
-                "reward": "",
-                "condition-name": "",
-                "condition-operator": "",
-                "condition-value": "",
-                "condition-span": "",
-                "condition-alter_name": "",
-                "reward-name": "",
-                "reward-value": "",
-                "reward-get_value": "",
-                "reward-alter_name": "",
-                "button": "",
-                "button-edit": "",
-                "new_item": "",
-                "re_available": ""
+                "title": "Tạo nhiệm vụ",
+                "edit": "Chỉnh sửa nhiệm vụ",
+                "name": "Tên",
+                "description": "Mô tả",
+                "icon": "Biểu tượng",
+                "hidden": "Ẩn",
+                "condition": "Điều kiện",
+                "reward": "Phần thưởng",
+                "button": "Tạo",
+                "button-edit": "Chỉnh sửa",
+                "new_item": "Mục mới",
+                "re_available": "Có thể làm lại"
             },
             "re_available": {
-                "none": "",
-                "day": "",
-                "hour": ""
+                "none": "Một lần",
+                "day": "Trước X ngày",
+                "hour": "Sau X giờ"
             }
         },
         "api": {
-            "condition_not_allow_frontend": "",
-            "no_manual_update": "",
-            "manual_condition_cannot_hidden": ""
+            "no_manual_update": "Không cần cập nhật thủ công",
+            "manual_condition_cannot_hidden": "Điều kiện thủ công không thể dùng trong nhiệm vụ ẩn: {condition}"
         }
     }
 }

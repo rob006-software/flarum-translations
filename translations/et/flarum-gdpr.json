@@ -1,0 +1,171 @@
+{
+    "flarum-gdpr": {
+        "admin": {
+            "gdpr_page": {
+                "heading": "GDPR andmete ülevaade",
+                "description": "GDPR tegevuste ja integreerimiste staatus",
+                "data_types": {
+                    "title": "Andmete liigid",
+                    "help_text": "Need on hetkel registreeritud andmete liigid. Iga liik on loetletud koos seotud ekspotimise, anonümiseerimise ja kustutamise toimingutega. Kui lisaprogramm käsitleb andmeid, mis käivad GDPR regulatsioonide alla, siis need andmeliigid peaks registreerima lisaprogrammis <code>flarum/gdpr</code>.\nTabelis <code>kasutaja</code> salvestatud andmeid käsitletakse eraldi. Vaata kasutaja tabeli andmeid altpoolt.\n",
+                    "type": "Liik",
+                    "export_description": "Eksportimise tegevus",
+                    "anonymize_description": "Anonümiseeri tegevus",
+                    "delete_description": "Kustutamise tegevus",
+                    "extension": "Lisaprogramm"
+                },
+                "settings": {
+                    "heading": "GDPR-i seaded",
+                    "help_text": "Otsid GDPR seadeid? Leiad need lisaprogrammi lehelt.",
+                    "extension_settings_button": "GDPR-i seaded"
+                },
+                "user_table_data": {
+                    "title": "Kasutaja tabeli andmed",
+                    "help_text": "Enamasti tabeli <code>kasutaja</code> lisatud veerge hallatakse automaatselt ning andmete eksportimisel kui ka kustutamisel.\nAga on ka erandeid, mis on loetletud all.\n"
+                }
+            },
+            "nav": {
+                "gdpr_button": "GDPR-i integreerimised"
+            },
+            "permissions": {
+                "process_erasure": "Protsessi kustutamise nõuded",
+                "process_export_for_others": "Küsi ja hangi andmete eksporte teistele kasutajatele",
+                "see_anonymized_user_badges": "Vaata anonümiseeritud kasutajate silte"
+            },
+            "settings": {
+                "allow_anonymization": "Luba kustutamise päringute korral anonümiseerimine",
+                "allow_anonymization_help": "Vaikimisi valik ja enamikes kogukondades soovitatud valik. Selles režiimis säilitatakse postitused ja vestlused nii palju kui GDPR võimaldab, aga kõik info, mille järgi kasutajat on võimalik tuvastada eemaldatakse.",
+                "allow_deletion": "Luba soovi korral kustutamine",
+                "allow_deletion_help": "Palju rangem valik. Selles režiimis kustutatakse kõik postitused ja vestlused ning kasutaja eemaldatakse andmebaasist. Kasuta ettevaatusega.",
+                "default_anonymous_username": "Anonümiseeritud kasutajate vaikimisi kasutajanimi",
+                "default_anonymous_username_help": "Kui kasutaja on anonümiseeritud, siis asendatakse nende kasutajanimi selle väärtusega ning sellele lisatakse nende anonümiseerimispäringu ID nr. Näiteks <code>Anonüümne123</code>.",
+                "default_erasure": "Vaikimisi tegevus kustutamise päringu korral",
+                "default_erasure_help": "Mis peaks olema vaikimisi tegevus kustutamise päringu korral?",
+                "default_erasure_options": {
+                    "anonymization": "Anonümiseerimine",
+                    "deletion": "Kustutamine"
+                },
+                "gdpr_page": {
+                    "title": "Andmete integreerimine ja tegevused",
+                    "help_text": "Enne, kui otsustad, millist toimingut sa oma foorumis kasutad, on oluline, et sa mõistad, mis andmed on kaasatud ning kuidas neid käsitletakse nii anonümiseerimisel kui ka kustutamisel. Vaata GDPR ülevaadet, et mõista kuidas andmeid käsitletakse ja mis valikulised lisaprogrammid on registreerinud andmed selle lisaprogrammi alla."
+                }
+            },
+            "userlist": {
+                "columns": {
+                    "gdpr_actions": {
+                        "export": "Ekspordi kasutaja {username} andmed"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "data": {
+                "avatar": {
+                    "delete_description": "Kustutab selle kasutaja avatari failisüsteemist.",
+                    "export_description": "Tõmbab failisüsteemist kasutaja avatari ning kaasab selle eksportimisel."
+                },
+                "discussions": {
+                    "export_description": "Ekspordi kõik vestlused, mida kasutaja on alustanud. Andmed on piiratud pealkirja loomise kuupäevaga."
+                },
+                "forum": {
+                    "export_description": "Ekspordi foorumi pealkiri, URL, kasutajanimi, e-post ja praegune kuupäev."
+                },
+                "no_action": "Mingit tegevust ei sooritatud.",
+                "posts": {
+                    "anonymize_description": "Eemaldab IP aadressid kõigist postitustest, mida kasutaja on teinud.",
+                    "delete_description": "Kustutab kõik postitused, mida kasutaja on teinud.",
+                    "export_description": "Ekspordib kõik postitused, mida kasutaja on teinud. Andmed sisaldavad ainult sisu, loomise kuupäeva, IP aadresse ja arutelu ID-d."
+                },
+                "tokens": {
+                    "delete_description": "Kustutab kõik kontrollkoodid, mida kasutaja on loonud.",
+                    "export_description": "Ekspordib kõik kasutajakoodid, mida kasutaja on loonud. Andmed on piiratud loomise kuupäeva ja kontrollkoodi liigiga."
+                },
+                "user": {
+                    "anonymize_description": "Nullib kõik veerud kasutaja tabelis. Mitte-nullitavad veerud asendatakse vaike- või eriväärtustega. Parool muudetakse, eelistused määratakse vaikimisi seadetele ja kõik grupid eemaldatakse.",
+                    "delete_description": "Kustutab kasutaja andmebaasist.",
+                    "export_description": "Ekspordib andmed kasutaja tabelist. Kõik veerud välja arvatud ID ja parool."
+                }
+            },
+            "request_data": {
+                "title": "Ekspordi kasutaja {username} andmed",
+                "text": "Sinu jaoks valmistatakse ZIP-fail. Kui see on valmis, siis saadetakse sulle teavitus allalaadimise lingiga. Link on aktiivne üks päev.\n",
+                "request_button": "Nõude ZIP-fail"
+            }
+        },
+        "email": {
+            "confirm_erasure": {
+                "subject": "Kinnita oma konto kustutamise nõue",
+                "body": "Tere {display_name}!\n\nKeegi (loodetavasti sina) palusid kustutada konto `{display_name}`.\n\nSelle toimingu kinnitamiseks kliki palun järgnevale lingile ning seejärel meie meeskond tegeleb sinu päringuga.\n\n{erasure_confirm_url}\n"
+            },
+            "erasure_completed": {
+                "deletion": {
+                    "subject": "Konto kustutamine on lõpetatud",
+                    "body": "Tere {display_name}!\n\nSee on automaatne ja viimane teade, et sinu konto on kustutatud.\n"
+                },
+                "anonymization": {
+                    "subject": "Konto anonümiseerimine on lõpetatud",
+                    "body": "Tere {display_name}!\n\nSee on automaatne ja viimane teade, et sinu konto on anonümiseeritud.\n"
+                }
+            },
+            "erasure_cancelled": {
+                "subject": "Konto tühistamise päring on tühistatud",
+                "body": "Tere {display_name}!\n\nSee on automaatne teavitus, et sinu soov konto kustutamine katkestada on töödeldud.\n\nSinu konto kustutamine pole enam töös.\n"
+            },
+            "export_available": {
+                "subject": "Andmete eksport on saadaval",
+                "body": "Tere {display_name}!\n\nPalusid eksportida oma kasutajakontoga {username} seotud andmed. Andmed on eksporditud ning need on nüüd saadaval:\n\n{url}\n\nSee eksport on saadaval kuni {destroys_at}.\n"
+            }
+        },
+        "forum": {
+            "badges": {
+                "anonymized_user": "Anonümiseeritud kasutaja"
+            },
+            "delete_user": {
+                "title": "Kustuta kasutajakonto {username}",
+                "text": "Oled sa kindel, et soovid kustutada kasutaja {username} konto?\n\nSee tegevus on pöördumatu.\n",
+                "modal_delete_button": "Kustuta kasutades vaikimisi tegevust",
+                "delete_button": "Kustuta"
+            },
+            "erasure_requests": {
+                "empty_text": "Ühtegi ootel olevat konto kustutamise nõuet pole",
+                "item_text": "{name} nõudis oma konto kustutamist",
+                "tooltip": "Konto kustutamise nõuded",
+                "title": "Lonto kustuamise nõuded"
+            },
+            "erasure_request_confirmed": "Oled kinnitanud oma konto kustutamise soovi. See toiming tehakse ära 30 päeva jooksul vastavalt GDPR nõuetele.",
+            "settings": {
+                "data": {
+                    "heading": "Isiklikud andmed"
+                },
+                "export_data_button": "Ekspordi andmed",
+                "export_data_help": "Andmete eksportimine väljastab allalaaditava faili, milles on kõik sinu kontoga seotud informatsioon. See hõlmab postitusi, kommentaare ja profiili andmeid.",
+                "request_erasure_button": "Kusuta konto",
+                "request_erasure_help": "Andmete kustutamise korral kustutatakse kõik sinu konto ja sellega seotud andmed. See toiming on pöördumatu. Enne jätkamist veendu, et oled salvestanud kõik info mida sa soovid alles hoida."
+            },
+            "process_erasure": {
+                "confirm": "Oled sa kindel, et soovid kustutada kasutaja {name} konto režiimis {mode}?",
+                "title": "Protsessi kustutamise nõue",
+                "text": "{name} on küsinud konto kustutamist.",
+                "comments_label": "Kommentaarid (valikuline)",
+                "anonymization_button": "Anonümiseeri kasutaja",
+                "deletion_button": "Kustuta kasutaja"
+            },
+            "request_erasure": {
+                "title": "Nõua konto kustutamist",
+                "reason": "Sa sisestasid järgmise põhjuse: {reason}",
+                "status": {
+                    "awaiting_user_confirmation": "Sa peaks olema saanud kirja, millega saad kinnitada oma konto kustutamise soovi.\n",
+                    "user_confirmed": "Oled kinnitanud oma konto kustutamise soovi. See toiming tehakse ära 30 päeva jooksul vastavalt GDPR nõuetele.\n"
+                },
+                "text": "Kui su soov on kätte saadud ja kinnitanud siis admin vaatab sinu päringu 30 päeva jooksul üle vastavalt GDPR nõuetele.",
+                "password_label": "Kinnita parooli",
+                "reason_label": "Põhjus (valikuline)",
+                "cancel_button": "Tühista päring",
+                "request_button": "Nõua kustutamist"
+            },
+            "notification": {
+                "export-ready": "Sinu andmete eksport kasutajakonto {username} andmetega on valmis allalaadimiseks."
+            },
+            "export_file": "Kasutaja {username} ({email}) andmed, mis on eksporditud {date} foorumist {forumTitle} ({url})"
+        }
+    }
+}

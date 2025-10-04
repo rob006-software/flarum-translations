@@ -1,0 +1,36 @@
+{
+    "xypp-answer-bounty": {
+        "forum": {
+            "modal": {
+                "title": "Set Bounty",
+                "label": "Amount",
+                "submit": "Submit",
+                "clear": "Clear"
+            },
+            "composer": {
+                "set": "Set Bounty",
+                "edit": "Bounty({bounty})"
+            },
+            "discussion": {
+                "edit": "Edit Bounty ({bounty})",
+                "set": "Set Bounty"
+            },
+            "tip": "This discussion is seeking the best answer with a bounty of <span>{money}</span>.",
+            "tip-ans": "Sent Bounty <span>{money}</span>",
+            "badge": "Bounty"
+        },
+        "admin": {
+            "permissions": {
+                "moderate": "Moderate Other's Bounty",
+                "use": "Set Bounty"
+            }
+        },
+        "api": {
+            "bounty": "Bounty for your Best Answer",
+            "bounty_clear": "Clear Bounty",
+            "bounty_set": "Set Bounty",
+            "not_enough_money": "You don't have enough money to set a bounty.",
+            "bounty_sent": "Bounty has sent. Please unset best answer before set new one."
+        }
+    }
+}

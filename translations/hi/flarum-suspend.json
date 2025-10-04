@@ -46,6 +46,11 @@
                 "subject": "आपका खाता निलंबित कर दिया गया है",
                 "body": "नमस्ते {recipient_display_name},\n\nआपको निलंबित कर दिया गया है. आप निम्नलिखित लिंक पर क्लिक करके फोरम पर वापस जा सकते हैं:\n\n{forum_url}\n"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": ""
+            }
         }
     }
 }

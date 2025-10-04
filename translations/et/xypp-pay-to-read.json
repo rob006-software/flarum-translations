@@ -2,35 +2,35 @@
     "xypp-pay-to-read": {
         "admin": {
             "permission": {
-                "bypass": ""
+                "bypass": "Maksmise eiramine."
             }
         },
         "forum": {
-            "preview": "",
-            "nopaidTip": "",
-            "haspaidTip": "",
-            "paymentTip": "",
-            "paymentTipMail": "",
-            "payment-notfound": "",
+            "preview": "Lugemiseks maksa eelvaade",
+            "nopaidTip": "Keegi pole maksnud",
+            "haspaidTip": "{0} kasutajat maksid",
+            "paymentTip": "Sisu, mille vaatamiseks tuleb maksta",
+            "paymentTipMail": "Sisu, mille vaatamiseks tuleb maksta on peidetud. Vaata algset postitust.",
+            "payment-notfound": "Makset nr#{0} ei leitud. Kontrolli postituse ID-d või lihtsalt eemalda 'ID={0}'",
             "payment-req": {
-                "text": "",
-                "btn": ""
+                "text": "Autor on märkinud, et selle sisu vaatamise eest on vaja maksta. Hind on {0}",
+                "btn": "Maksa"
             },
             "payment": {
-                "title": "",
-                "tip": "",
-                "btn": "",
-                "loading": ""
+                "title": "Makse kinnitus",
+                "tip": "Selle sisu vaatamine maksab {0}, sul on hetkel {1}. Oled nõus?",
+                "btn": "Maksa",
+                "loading": "Makse info laadimine"
             },
             "error": {
-                "paid": "",
-                "missing": "",
-                "no_enough_money": "",
-                "internal_err": ""
+                "paid": "Oled selle sisu eest maksnud. Lihtsalt värskenda lehekülge.",
+                "missing": "Sellist sisu pole.",
+                "no_enough_money": "Sul pole piisavalt raha.",
+                "internal_err": "Sisemine tõrge."
             },
             "editor": {
-                "help": "",
-                "label": ""
+                "help": "Määra ID või sisesta 0, et luua uus sisu, mille lugemise eest peab maksma. Ära muuda algset ID-d, muidu ei saa need kasutajad, kes on juba maksnud seda enam lugeda.",
+                "label": "Sisesta \"lugemiseks peab maksma\""
             }
         }
     }

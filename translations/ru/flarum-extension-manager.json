@@ -164,6 +164,27 @@
             "why_not_modal": {
                 "title": "Почему не обновляется?"
             }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "минимальная стабильность",
+                "repositories": "репозитории",
+                "repositories.*": "репозитории",
+                "repositories.*.type": "тип репозитория",
+                "repositories.*.url": "URL репозитория",
+                "extension_id": "ID расширения",
+                "update_mode": "Режим обновления",
+                "package": "пакет",
+                "version": "версия",
+                "github_oauth": "Открытая авторизация через GitHub",
+                "github_oauth.*": "Открытая авторизация через GitHub",
+                "gitlab_oauth": "Открытая авторизация через GitLab",
+                "gitlab_oauth.*": "Открытая авторизация через GitLab",
+                "gitlab_token": "Ключ GitLab",
+                "gitlab_token.*": "Ключ GitLab",
+                "bearer": "Ключевые данные HTTP",
+                "bearer.*": "Ключевые данные HTTP"
+            }
         }
     }
 }

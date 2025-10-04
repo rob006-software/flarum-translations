@@ -5,6 +5,8 @@
                 "warning": {
                     "title": "このトピックは <b>{time}</b> 以上議論されていません。",
                     "description": "新しい議論に値しないかもしれないので、返信は必要ありません。",
+                    "cta": "",
+                    "cta_button": "",
                     "checkbox_label": "私はこのトピックが長い間投稿されていることを知っていますが、まだ返信したいです。",
                     "error": "このトピックは古すぎて返信できません。"
                 }
@@ -12,6 +14,8 @@
         },
         "admin": {
             "settings": {
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
                 "days_label": "天数",
                 "days_help": "スレッドに x 日以上新しい返信がない場合、スレッドは古い投稿としてマークされます。 <code>0</code> は無効を意味します。",
                 "message_title_label": "カスタム警告タイトル",

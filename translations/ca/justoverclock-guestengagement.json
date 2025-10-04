@@ -1,25 +1,25 @@
 {
     "flarum-ext-guestengagement": {
         "forum": {
-            "signupbtn": "",
-            "hello": "",
-            "whenucreate": "",
-            "uwillreceive": "",
-            "hellops": "",
-            "whenucreateps": "",
-            "uwillreceiveps": ""
+            "signupbtn": "Registrar-se",
+            "hello": "Ei! Sembla que t'interessa aquest fòrum, però que encara no tens compte d'usuari (o no l'estàs utilitzant).",
+            "whenucreate": "Quan creïs el teu propi compte d'usuari (o quan l'utilitzis si ja el tens), podràs escriure les teves pròpies publicacions, respondre les dels altres, o anar directament al punt on havies deixat les converses.",
+            "uwillreceive": "Podràs rebre notificacions (aquí o per correu electrònic) quan algú et respongui. També podràs enviar \"M'agrada\" o altres reaccions als missatges publicats.",
+            "hellops": "Ei! Sembla que t'interessa aquesta publicació!",
+            "whenucreateps": "Quan creïs el teu propi compte d'usuari (o quan l'utilitzis si ja el tens), podràs escriure les teves pròpies publicacions, respondre les dels altres, o",
+            "uwillreceiveps": "rebre notificacions (aquí o per correu electrònic) quan algú et respongui. També podràs enviar \"M'agrada\" o altres reaccions als missatges publicats."
         },
         "admin": {
-            "afterxpost": "",
-            "afterxpostdesc": "",
-            "autohide": "",
-            "autohidedesc": "",
-            "changetextbox": "",
-            "changetextboxdesc": "",
-            "maintitle": "",
-            "maintitledesc": "",
-            "enablealbox": "",
-            "enablepostbox": ""
+            "afterxpost": "Mostrar un requadre d'alerta després de la publicació número X",
+            "afterxpostdesc": "Entrar número. El valor per defecte és 0 (el requadre es mostrarà abans de la primera publicació)",
+            "autohide": "Amagar requadre automàticament després d'X segons",
+            "autohidedesc": "Valor en mil·lisegons. Per exemple, per a 5 segons, escriure 5000",
+            "changetextbox": "Canviar el text del requadre",
+            "changetextboxdesc": "Aquí pots canviar el text per al requadre situat ENTRE PUBLICACIONS",
+            "maintitle": "Canviar el TÍTOL del requadre",
+            "maintitledesc": "Aquí pots canviar el títol per al requadre situat ENTRE PUBLICACIONS",
+            "enablealbox": "Permetre/Inhibir el requadre a la pàgina principal",
+            "enablepostbox": "Permetre/Inhibir el requadre ENTRE PUBLICACIONS"
         }
     }
 }

@@ -1,0 +1,36 @@
+{
+    "xypp-answer-bounty": {
+        "forum": {
+            "modal": {
+                "title": "Tetapkan Hadiah",
+                "label": "Jumlah",
+                "submit": "Kirim",
+                "clear": "Bersihkan"
+            },
+            "composer": {
+                "set": "Tetapkan Hadiah",
+                "edit": "Hadiah ({bounty})"
+            },
+            "discussion": {
+                "edit": "Edit Hadiah ({bounty})",
+                "set": "Tetapkan Hadiah"
+            },
+            "tip": "Diskusi ini mencari jawaban terbaik dengan hadiah <span>{money}</span>.",
+            "tip-ans": "Hadiah Terkirim <span>{money}</span>",
+            "badge": "Hadiah"
+        },
+        "admin": {
+            "permissions": {
+                "moderate": "Moderasi Hadiah Orang Lain",
+                "use": "Tetapkan Hadiah"
+            }
+        },
+        "api": {
+            "bounty": "Hadiah untuk Jawaban Terbaik Anda",
+            "bounty_clear": "Hapus Hadiah",
+            "bounty_set": "Tetapkan Hadiah",
+            "not_enough_money": "Anda tidak memiliki cukup money untuk menetapkan hadiah.",
+            "bounty_sent": "Hadiah telah terkirim. Harap batalkan penetapan jawaban terbaik sebelum menetapkan yang baru."
+        }
+    }
+}

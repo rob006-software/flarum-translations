@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "Получи имейл когато има нови дискусии или публикации",
                 "submit_button": "Потвърдете абонамента"
             },
+            "hero": {
+                "title": ""
+            },
             "notifications": {
                 "new_discussion_text": "{username} започна",
                 "new_post_text": "{username} публикува",
@@ -76,6 +79,16 @@
             "filtering_options": {
                 "none": "Последвани Дискусии",
                 "tags": "Последвани Тагове"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "",
+                    "anonymize_description": ""
+                }
             }
         }
     },

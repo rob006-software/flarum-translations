@@ -2,34 +2,34 @@
     "hehongyuanlove-auth-qq": {
         "admin": {
             "qq_settings": {
-                "client_id_label": "",
-                "client_secret_label": "",
-                "title": ""
+                "client_id_label": "Rakenduse ID",
+                "client_secret_label": "Rakenduse salasõna",
+                "title": "QQ seaded"
             }
         },
         "forum": {
             "log_in": {
-                "with_qq_button": ""
+                "with_qq_button": "QQ"
             },
             "buttons": {
-                "unlink": "",
-                "link": "",
-                "login": ""
+                "unlink": "Eemalda seos QQ-ga",
+                "link": "Seosta QQ-ga",
+                "login": "=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button"
             },
             "modals": {
                 "unlink": {
-                    "title": "",
+                    "title": "Eemalda seos QQ-ga",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "Oled sa kindel, et soovid eemaldada seose oma QQ-kontoga?",
+                        "no_providers": "Sul pole ühtegi muud sisselogimise meetodit. Palun nulli eelnevalt oma parool."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Eemalda seos",
+                        "cancel": "Loobu"
                     }
                 },
                 "link": {
-                    "title": ""
+                    "title": "Seosta QQ-ga"
                 }
             }
         }

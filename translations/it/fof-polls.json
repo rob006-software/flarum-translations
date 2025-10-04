@@ -2,27 +2,44 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "Impostazioni generali",
+                    "help": "Queste impostazioni controllano le funzionalità di base dell'estensione Polls."
+                },
+                "global_polls": {
+                    "heading": "Sondaggi globali",
+                    "help": "Queste impostazioni controllano la funzionalità dei sondaggi globali."
+                },
+                "image": {
+                    "heading": "Impostazioni immagini",
+                    "help": "Queste impostazioni controllano le impostazioni delle immagini per i sondaggi."
+                },
                 "allow_option_image": "",
                 "allow_image_uploads": "",
                 "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
                 "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": "",
-                "image_height": "",
-                "image_width": ""
+                "options_color_blend": "Miscelazione colori del testo nel sondaggio",
+                "options_color_blend_help": "Usare questa opzione per la miscelazione dei colori in modo da rendere i sondaggi più leggibili. Disattivare se questa funzionalità causa problemi all'aspetto del forum, riducendone la leggibilità.",
+                "image_height": "Ridimensiona altezza immagine",
+                "image_width": "Ridimensiona larghezza immagine",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Vedi risultati senza votare",
                 "start": "Avviare un sondaggio",
-                "start_global": "",
-                "self_edit": "Consenti agli utenti di modificare i propri sondaggi",
-                "self_post_edit": "",
-                "upload_images": "",
+                "start_global": "Avvia un sondaggio globale",
+                "self_edit": "Modifica i sondaggi creati (richiede l'autorizzazione alla modifica del post)",
+                "self_post_edit": "Modifica *tutti* i sondaggi sui tuoi post (richiede l'autorizzazione di modifica dei post)",
+                "upload_images": "Consentire agli utenti di caricare immagini per i sondaggi",
                 "vote": "Votare nei Sondaggi",
                 "change_vote": "Cambia voto",
-                "moderate": "Modifica e rimozione sondaggi"
+                "moderate": "Modifica e rimozione sondaggi",
+                "view_group": "",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
@@ -30,47 +47,48 @@
             "no_permission": "Non possiedi i permessi per votare",
             "poll_ended": "Questo sondaggio è terminato.",
             "public_poll": "Visualizza votanti",
-            "max_votes_allowed": "",
+            "max_votes_allowed": "Il sondaggio consente di votare per {max, plural, one {# option} other {# options}}.",
             "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "poll_never_ends": "Il sondaggio non finisce mai",
+            "answers": "Risposte",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": "",
-                "start_poll_button": "",
-                "cannot_start_poll_button": ""
+                "cannot_change_vote": "Impossibile modificare il voto dopo averlo espresso.",
+                "submit_button": "Voto",
+                "start_poll_button": "Avvia sondaggio globale",
+                "cannot_start_poll_button": "Impossibile avviare il sondaggio",
+                "total_votes": ""
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": ""
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Sei sicuro di voler eliminare questo sondaggio?",
+                "delete_success_message": "Sondaggio eliminato con successo.",
+                "delete_error_message": "Si è verificato un errore durante l'eliminazione del sondaggio."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Elimina sondaggio",
+                "error": "Si è verificato un errore durante il salvataggio del sondaggio. Contattare un amministratore."
             },
             "polls_page": {
-                "title": ""
+                "title": "Sondaggi"
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": ""
+                "empty_text": "Sembra che qui non ci siano sondaggi a livello di comunità.",
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
-                "add_poll": "Sondaggio",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "Non hai l'autorizzazione per avviare un sondaggio."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": ""
+                "add_title": "Aggiungi sondaggio",
+                "edit_title": "Modifica sondaggio",
+                "polls_manager": "Gestione sondaggi",
+                "polls_preview": "Visualizza sondaggio",
+                "continue_editing": "Continua la modifica",
+                "success": "Sondaggio salvato con successo."
             },
             "modal": {
                 "add_title": "Aggiungi Sondaggio",
@@ -78,17 +96,18 @@
                 "date_placeholder": "Data fine sondaggio (Opzionale)",
                 "edit_title": "Modifica Sondaggio",
                 "include_question": "Devi includere una domanda",
-                "max": "Puoi avere un massimo di 10 risposte",
+                "max": "Puoi avere un massimo di {max} risposte",
                 "min": "Devi includere un minimo di 2 risposte",
                 "no_voters": "Nessun voto",
                 "option_placeholder": "Risposta",
-                "image_option_placeholder": "",
+                "image_option_placeholder": "URL immagine (facoltativo)",
                 "options_label": "Risposte",
                 "public_poll_label": "Consenti alle persone di vedere chi ha votato",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
+                "allow_multiple_votes_label": "Consenti alle persone di votare per più opzioni",
+                "max_votes_label": "Numero massimo di voti per utente",
+                "max_votes_help": "Impostare su 0 per consentire agli utenti di votare per tutte le opzioni.",
+                "hide_votes_label": "Nascondi i voti fino alla fine del sondaggio",
+                "hide_votes_label_help": "L'utente che ha avviato il sondaggio potrà sempre vedere i voti.",
                 "allow_change_vote_label": "",
                 "question_placeholder": "Domanda",
                 "subtitle_placeholder": "",
@@ -120,7 +139,8 @@
             },
             "page": {
                 "nav": "",
-                "nav-all": ""
+                "nav-all": "",
+                "nav-groups": ""
             },
             "showcase": {
                 "active-polls": "",
@@ -138,6 +158,35 @@
             "upload_image": {
                 "remove_button": "",
                 "upload_button": ""
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

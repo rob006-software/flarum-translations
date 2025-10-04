@@ -43,6 +43,7 @@
                 "about_tags_text": "Kategoriýalar gürrüňleri toparlamak üçin ulanylýar. Esasy kategoriýalar adaty forum kategoriýalary ýaly: olar iki-derejeli iýerarhiýa düzülip bilerler. Ikilenji kategoriýalaryň tertibi ýa-da iýerarhiýasy ýok, we olar mikro-kategoriýalaşdyrmak üçin amatly.",
                 "create_primary_tag_button": "Esasy Kategoriýa Döret",
                 "create_secondary_tag_button": "Ikilenji Kategoriýa Döret",
+                "edit_tag_label": "",
                 "primary_heading": "Esasy Kategoriýalar",
                 "secondary_heading": "Ikilenji Kategoriýalar",
                 "settings_heading": "Sazlamalar"
@@ -97,6 +98,17 @@
             "choose_tags_placeholder": "{count, plural, one {Ýene 1 kategoriýa saýla} other {Ýene # kategoriýa saýla}}",
             "name": "Ady",
             "tags": "Kategoriýalar"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

@@ -2,7 +2,7 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "Zakleni razprave"
             }
         },
         "forum": {
@@ -14,14 +14,14 @@
                 "unlock_button": "Odkleni"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} je zaklenil"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} je zaklenil razpravo {time}.",
+                "discussion_unlocked_text": "{username} je odklenil razpravo {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Nekdo je zaklenil razpravo, ki sem jo začel"
             }
         }
     }

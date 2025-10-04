@@ -2,7 +2,7 @@
     "clarkwinkelmann-vote-with-money": {
         "admin": {
             "settings": {
-                "preselection": "预选金额（逗号分隔，可选）",
+                "preselection": "预设金额（逗号分隔，可选）",
                 "min": "最低值",
                 "max": "最大值"
             }
@@ -10,27 +10,27 @@
         "forum": {
             "vote": {
                 "title": "确认投票",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "target": "确定要投票给「{answer}」吗？投票后无法修改。\n",
+                "optionCustom": "自定义",
+                "balance": "余额 {amount}",
                 "label": {
-                    "custom": ""
+                    "custom": "自定义金额"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "提交",
+                "success": "投票已提交！"
             },
             "poll": {
-                "voteWithMoney": "",
-                "min": "",
-                "max": ""
+                "voteWithMoney": "带财富投票",
+                "min": "最小金额（可选）",
+                "max": "最大金额（可选）"
             }
         },
         "api": {
             "error": {
-                "cannotCancel": "",
-                "cannotChange": "",
-                "notEnoughFunds": "",
-                "cannotChangePollType": ""
+                "cannotCancel": "无法取消投票。",
+                "cannotChange": "无法修改投票。",
+                "notEnoughFunds": "资金不足。",
+                "cannotChangePollType": "产生有效票数后不能修改投票类型。"
             }
         }
     }

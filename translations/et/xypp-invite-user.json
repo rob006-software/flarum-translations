@@ -1,0 +1,76 @@
+{
+    "xypp-invite-user": {
+        "forum": {
+            "page": {
+                "title": "kutsu",
+                "code": {
+                    "title": "Kutsu kasutaja",
+                    "code": "Kutse kood",
+                    "url": "Kutse link"
+                },
+                "my": {
+                    "title": "Minu kutsutud kasutaja",
+                    "code": "Sisesta kutse kood",
+                    "inviter": "Oled aktsepteerinud kasutaja kui sinu kutsutud kasutaja.",
+                    "accept": "Aktsepteeri",
+                    "no-inviter": "See kasutaja pole aktsepteerinud ühtegi kutsutud kasutajat."
+                },
+                "invite": {
+                    "title": "Minu poolt kutsutud kasutajad",
+                    "username": "Kasutajanimi",
+                    "avatar": "Avatar",
+                    "empty": "Sa pole veel ühtegi kasutajat kutsunud.",
+                    "time": "Kutsumise aeg"
+                },
+                "no_tip": "Ära näita mulle kunagi kutsuja hüpikakent"
+            },
+            "confirm": {
+                "title": "Kinnita kutsumine",
+                "msg": "Kasutaja {username} kutsus sind foorumisse. Kliki allolevale nupule, et kutse vastu võtta.",
+                "alert": "Saad märkida ainult ühe kasutaja, kes sulle kutse saatis. Võid selle akna sulgeda oma profiilist->kutse",
+                "accept": "Aktsepteeri",
+                "success": "Korras."
+            },
+            "invite": "Kutsu",
+            "notification": {
+                "user_invited": "{username} võttis just su kutse vastu.",
+                "user_invited_label": "Kutse võeti vastu"
+            },
+            "condition": {
+                "user_invite": "Kutsu kasutaja",
+                "user_be_invited": "Saa kutse"
+            }
+        },
+        "admin": {
+            "settings": {
+                "reward_invite": {
+                    "title": "Autasusta kutsumist",
+                    "description": "Tasu kutsujale. (Nõuab lisaprogrammi antoinefr/flarum-ext-money)"
+                },
+                "reward_be_invited": {
+                    "title": "Autasuta valmistust saada kutse",
+                    "description": "Tasu kutsutule. (Nõuab lisaprogrammi antoinefr/flarum-ext-money)"
+                },
+                "invite_each_other": {
+                    "title": "Üksteise kutsumine",
+                    "description": "Kasutajad saavad kutsuda kasutajaid, kes kutsusid neid."
+                },
+                "invite_new_user_only": {
+                    "title": "Luba ainult uute kasutajate kutsumine",
+                    "description": "Ära luba kasutajatel kutsuda kasutajaid, kelle registreerimise aeg on hilisem kui neil endil."
+                }
+            },
+            "condition": {
+                "user_invite": "Kutsu kasutajaid",
+                "user_be_invited": "Kutsu mind"
+            }
+        },
+        "api": {
+            "invited_by_user_id_is_self": "Sa ei saa iseennast kutsuda.",
+            "has_already_be_invited": "Oled juba aktsepteerinud teise kasutaja kutse.",
+            "invited_by_user_id_is_empty": "Kutsutud kasutaja ID on tühi.",
+            "invited_each_other": "Sind ei saa kutsuda kasutaja, kelle sa ise kutsusid.",
+            "invited_an_elder_user": "Kutsuja registreerumise aeg varasem, kui sinu oma."
+        }
+    }
+}

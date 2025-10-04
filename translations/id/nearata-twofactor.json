@@ -5,32 +5,32 @@
                 "generate_app_backups": "Buat kode backup aplikasi"
             },
             "permissions": {
-                "can_enable_twofactor": "Dapat mengaktifkan Two Factor"
+                "can_enable_twofactor": "Dapat mengaktifkan Two Factor (2FA)"
             }
         },
         "forum": {
             "settings": {
-                "section_title": "Autentikasi Dua Faktor",
+                "section_title": "Autentikasi Dua Faktor (2FA)",
                 "configured": "Terkonfigurasi",
                 "not_configured": "Tidak Terkonfigurasi",
                 "app": {
                     "button_label": "Aplikasi autentikasi",
                     "button_help": "Anda akan menerima kode akses melalui aplikasi autentikasi Anda.",
                     "setup": {
-                        "title": "Menyiapkan Aplikasi Otentikasi",
+                        "title": "Menyiapkan Aplikasi Autentikasi",
                         "password_placeholder": "Password",
                         "passcode_placeholder": "6-digit passcode",
                         "close_button_label": "Tutup",
                         "invalid_passcode": "Password atau passcode tidak valid.",
                         "disable": {
-                            "enter_code_disable": "Masukkan kode untuk menonaktifkan Aplikasi Autentikasi Dua Faktor.",
+                            "enter_code_disable": "Masukkan kode untuk menonaktifkan Aplikasi Autentikasi Dua Faktor (2FA).",
                             "button_label": "Matikan",
                             "success": "Aplikasi Autentikasi dinonaktifkan."
                         },
                         "enable": {
                             "button_label": "Aktifkan",
                             "success": "Aplikasi Autentikasi diaktifkan.",
-                            "scan_qr": "Scan kode QR ini dengan perangkat autentikasi dua faktor untuk mengatur akun Anda.",
+                            "scan_qr": "Scan kode QR ini dengan perangkat autentikasi dua faktor (2FA) untuk mengatur akun Anda.",
                             "enter_code_manually": "Sebagai gantinya, masukkan secara manual",
                             "backups": {
                                 "message": "Simpan kode pemulihan ini di tempat yang aman. Jika Anda kehilangan perangkat yang diaktifkan dengan dua faktor, kode sekali pakai ini dapat digunakan sesuai urutan yang tertera untuk masuk ke akun Anda.\n",
@@ -43,7 +43,7 @@
                 }
             },
             "login": {
-                "title": "Autentikasi Dua Faktor",
+                "title": "Autentikasi Dua Faktor (2FA)",
                 "placeholder_label": "Pilih metode autentikasi...",
                 "submit_button_label": "Login",
                 "auth_buttons": {
@@ -57,7 +57,7 @@
         },
         "lib": {
             "edit_user": {
-                "section_title": "Autentikasi Dua Faktor",
+                "section_title": "Autentikasi Dua Faktor (2FA)",
                 "disable_confirmation": "Apakah Anda yakin? Anda akan menonaktifkan metode autentikasi ini untuk pengguna.",
                 "placeholder_text": "Tidak ada yang perlu dinonaktifkan",
                 "app": {

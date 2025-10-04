@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "Dapatkan email ketika ada diskusi atau postingan baru",
                 "submit_button": "Konfirmasi berlangganan"
             },
+            "hero": {
+                "title": "=> flarum-subscriptions.forum.index.following_link"
+            },
             "notifications": {
                 "new_discussion_text": "{username} memulai",
                 "new_post_text": "{username} memposting",
@@ -76,6 +79,16 @@
             "filtering_options": {
                 "none": "Mengikuti Diskusi",
                 "tags": "Mengikuti Tag"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Ekspor rincian tingkat langganan untuk sebuah tag, jika ada.",
+                    "anonymize_description": "Menghapus langganan pengguna ke sebuah tag."
+                }
             }
         }
     },

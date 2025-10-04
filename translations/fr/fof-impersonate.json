@@ -10,6 +10,18 @@
                 "no_settings_available": "Aucun paramètre n'est actuellement disponible. Essayez d'installer l'extension fof/moderator-notes"
             }
         },
+        "lib": {
+            "modal": {
+                "title": "Se connecter en tant qu'autre utilisateur",
+                "label": "Un grand pouvoir implique de grandes responsabilités. En continuant, vous deviendrez {username} jusqu'à ce que vous vous déconnectiez.",
+                "placeholder_optional": "(Facultatif) Indiquez la raison pour laquelle vous vous êtes connecté en tant que cet utilisateur",
+                "placeholder_required": "Vous devez indiquer la raison pour laquelle vous vous êtes connecté en tant que cet utilisateur avant de poursuivre",
+                "impersonate_username": "Se connecter en tant que {username}"
+            },
+            "user_controls": {
+                "impersonate_button": "Se connecter en tant qu'utilisateur"
+            }
+        },
         "forum": {
             "modal": {
                 "title": "Se connecter en tant qu'autre utilisateur",

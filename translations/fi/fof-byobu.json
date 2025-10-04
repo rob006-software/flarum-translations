@@ -22,6 +22,9 @@
             "confirm": {
                 "make_public": "Haluatko varmasti poistaa vastaanottajat ja tehdä tästä keskustelusta julkinen kaikille, jotka voi nähdä määritellyn avainsanan?"
             },
+            "hero": {
+                "title": "=> fof-byobu.forum.nav.nav_item"
+            },
             "labels": {
                 "recipients": "{count, plural, one {{count} vastaanottaja} other {{count} vastaanottajaa}}"
             },
@@ -92,6 +95,14 @@
                 "view_private_discussions-when-flagged": "Nähdä muiden yksityiset keskustelut jos raportoitu"
             },
             "settings": {
+                "general": {
+                    "heading": "Yleiset asetukset",
+                    "help": "Näillä asetuksilla hallitaan Byobun perusominaisuuksia."
+                },
+                "icon": {
+                    "heading": "Ikonien asetukset",
+                    "help": "Näillä asetuksilla hallitaan Byobun käyttämiä ikoneita foorumilla."
+                },
                 "badge-icon": "Byobu keskusteluikoni",
                 "enable-make-public-option": "Ota käyttöön \"tee julkiseksi\" ominaisuus",
                 "enable-make-public-option-help": "Ottaa käyttöön mahdollisuuden niille joilla on oikeus: poistaa kaikki vastaanottajat ja asettaa uuden avainsanan sekä asettaa keskustelun julkiseksi (riippuen avainsanan näkyvyysasetuksista).",

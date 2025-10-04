@@ -2,7 +2,7 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": "Cerrar discusiones"
+                "lock_discussions_label": "Bloquear discusiones"
             }
         },
         "forum": {
@@ -11,14 +11,14 @@
             },
             "discussion_controls": {
                 "lock_button": "Cerrar",
-                "unlock_button": "Abrir"
+                "unlock_button": "Desbloquear"
             },
             "notifications": {
                 "discussion_locked_text": "{username} cerró"
             },
             "post_stream": {
-                "discussion_locked_text": "{username} cerró la discusión.",
-                "discussion_unlocked_text": "{username} abrió la discusión."
+                "discussion_locked_text": "{username} cerró la discusión {time}.",
+                "discussion_unlocked_text": "{username} abrió la discusión {time}."
             },
             "settings": {
                 "notify_discussion_locked_label": "Alguien cerró una discusión que tú creaste"

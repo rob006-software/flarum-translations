@@ -2,7 +2,19 @@
     "clarkwinkelmann-emojionearea": {
         "forum": {
             "picker_button": "Избор на емотикони",
-            "search_placeholder": "Търсене..."
+            "search_placeholder": "Търсене...",
+            "filters": {
+                "tones": "",
+                "recent": "",
+                "smileys_people": "",
+                "animals_nature": "",
+                "food_drink": "",
+                "activity": "",
+                "travel_places": "",
+                "objects": "",
+                "symbols": "",
+                "flags": ""
+            }
         },
         "admin": {
             "settings": {
@@ -11,6 +23,7 @@
                 "enableTones": "Активиране на тонове",
                 "filtersPosition": "Преместете категориите най-долу",
                 "searchPosition": "Преместете търсенето и тоновете най-долу",
+                "closeOnPick": "",
                 "hideFlarumButton": "Скриване на бутона за избор на емотикони на Flarum"
             }
         }

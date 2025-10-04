@@ -4,8 +4,12 @@
             "settings": {
                 "group-view": "Menampilkan produk ke pengguna",
                 "group-admin-view": "Izin audit",
+                "invite-calm-down-period-help": "Setelah undangan dikirimkan, pengajuan ulang tidak diperbolehkan selama N hari sejak tanggal persetujuan",
+                "invite-calm-down-period": "Periode masa tunggu undangan (hari)",
                 "calm-down-period-help": "Setelah pengajuan ditolak, tidak diperbolehkan untuk mengajukan permohonan kembali selama N hari sejak tanggal ditolaknya permohonan",
                 "calm-down-period": "Periode jeda pengajuan",
+                "invite-validity-period": "Masa berlaku kode undangan (hari)",
+                "invite-validity-period-help": "Setelah tinjauan disetujui, kode verifikasi yang melebihi batas waktu akan secara otomatis menjadi tidak valid",
                 "show-index": "Tambahkan ke halaman depan",
                 "show-index-help": "Menampilkan menu ulasan di halaman depan",
                 "price": "Pengurangan biaya",
@@ -18,7 +22,12 @@
                 "auto-review-help": "Setelah pemeriksaan, sistem akan secara otomatis menyetujui dan menyelesaikan proses peninjauan",
                 "auto-review-username": "Tinjau pengguna secara otomatis",
                 "auto-review-username-help": "Ketika peninjauan otomatis diaktifkan, sistem akan memeriksa kueri pengguna yang dimasukkan",
-                "mail-template": "Halo [user], Kode undangan Anda adalah [code]"
+                "mail-template": "Halo [user], Kode undangan Anda adalah [code]",
+                "group-blacklist-view": "Grup daftar hitam pengguna (pengguna dalam grup ini tidak akan dapat membeli produk)",
+                "group": "Daftarkan Grup Pengguna",
+                "group-help": "Setelah mendaftar, pengguna secara default menjadi anggota grup pengguna",
+                "post-num": "",
+                "post-num-help": "Jika jumlah post kurang dari nilai saat ini, halaman ulasan akan menampilkan nilai dalam warna merah"
             }
         },
         "forum": {
@@ -29,13 +38,14 @@
             "remark-help": "Hanya dapat dilihat oleh diri sendiri dan manajemen (dapat dikosongkan).",
             "username": "Username undangan",
             "username-help": "Username undangan tidak terhubung dengan username yang terdaftar di forum",
-            "link": "",
+            "link": "Tautan undangan pribadi",
             "link-help": "Konfirmasi informasi undangan oleh peninjau (informasi ini hanya dapat dilihat oleh peninjau dan bagian yang mengeluarkan)",
-            "link-2": "",
+            "link-2": "Tautan Undangan 2",
             "link-2-help": "Konfirmasi informasi undangan oleh peninjau (informasi ini hanya dapat dilihat oleh peninjau dan bagian yang mengeluarkan)",
             "invite": "Tinjauan undangan",
             "my-invite": "Undanganku",
             "system-review": "Sistem peninjauan otomatis",
+            "confirm-invite-price": "Harga Kirim Undangan",
             "confirm-adopt": "konfirmasi",
             "confirm-refuse": "tolak",
             "mail": {
@@ -50,15 +60,18 @@
                 "lock-resources": "Resource saat ini terkunci. Silakan coba lagi nanti",
                 "email-inconsistency": "Email dan informasi undangan tidak sama. Silakan gunakan email yang menerima kode undangan",
                 "username-inconsistency": "Username tidak sesuai dengan informasi undangan. Silakan lakukan pendaftaran menggunakan username yang diberikan dalam email",
-                "exception": "Tinjauan otomatis gagal [{message}]"
+                "exception": "Tinjauan otomatis gagal [{message}]",
+                "email-not-exist": "Email tidak boleh kosong",
+                "link-not-exist": "tautan undangan tidak boleh kosong",
+                "blacklist": "Pengguna dalam daftar hitam, undangan dilarang!"
             }
         },
         "lib": {
             "item-user": "Pengundang",
             "item-email": "Email undangan",
             "item-username": "Username undangan",
-            "item-link": "",
-            "item-link-2": "",
+            "item-link": "Tautan undangan pribadi",
+            "item-link-2": "Tautan Undangan 2",
             "item-apply-rmark": "Terapkan Catatan",
             "item-confirm-status": "Status review",
             "item-confirm-user": "Peninjau",
@@ -70,7 +83,20 @@
             "item-status-confirm": "Belum diaudit",
             "item-status-adopt": "diterapkan",
             "item-status-refuse": "ditolak",
-            "item-query": "Cari berdasarkan pengundang/penerima/email"
+            "item-query": "Cari berdasarkan pengundang/penerima/email",
+            "item-total-num": "Akumulasi jumlah pengiriman",
+            "item-pass-total-num": "Akumulasi jumlah pengiriman yang lolos",
+            "item-reject-total-num": "Akumulasi jumlah yang ditolak",
+            "item-invite-code": "Undangan",
+            "item-post-num": "",
+            "item-user-create-time": "Waktu Bergabung Pengguna",
+            "item-create-time": "Tanggal Pembuatan",
+            "item-last-year-total-num": "Jumlah pengajuan pada tahun sebelumnya",
+            "item-last-year-pass-num": "Jumlah yang Lolos di Tahun Lalu",
+            "item-last-year-reject-num": "Jumlah yang Ditolak di Tahun Lalu",
+            "item-this-year-total-num": "Jumlah commit tahun ini",
+            "item-this-year-pass-num": "Jumlah yang lolos tahun ini",
+            "item-this-year-reject-num": "Jumlah yang ditolak tahun ini"
         }
     }
 }

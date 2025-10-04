@@ -1,5 +1,5 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
@@ -96,6 +96,12 @@
                     "title": "Filigrana (watermark) sulle immagini",
                     "toggle": "Attiva filigrana (watermark)"
                 },
+                "svg-sanitizer": {
+                    "title": "",
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
+                },
                 "composer_buttons": {
                     "title": "Bottoni Composer",
                     "options": {
@@ -132,6 +138,7 @@
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",
+                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Locale",
                 "ovh-svfs": "OVH SVFS",

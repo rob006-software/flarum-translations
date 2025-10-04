@@ -164,6 +164,27 @@
             "why_not_modal": {
                 "title": "Miért nem frissül?"
             }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "minimális stabilitás",
+                "repositories": "tárolók",
+                "repositories.*": "tárolók",
+                "repositories.*.type": "tároló típusa",
+                "repositories.*.url": "tároló webcíme",
+                "extension_id": "bővítményazonosító",
+                "update_mode": "frissítési mód",
+                "package": "csomag",
+                "version": "verzió",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab token",
+                "gitlab_token.*": "GitLab token",
+                "bearer": "HTTP Bearer",
+                "bearer.*": "HTTP Bearer"
+            }
         }
     }
 }

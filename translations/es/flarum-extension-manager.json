@@ -164,6 +164,27 @@
             "why_not_modal": {
                 "title": "¿Por qué no se actualiza?"
             }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "estabilidad mínima",
+                "repositories": "repositorios",
+                "repositories.*": "repositorios",
+                "repositories.*.type": "tipo de repositorio",
+                "repositories.*.url": "URL del repositorio",
+                "extension_id": "ID de extensión",
+                "update_mode": "modo de actualización",
+                "package": "paquete",
+                "version": "versión",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab Token",
+                "gitlab_token.*": "GitLab Token",
+                "bearer": "HTTP Bearer",
+                "bearer.*": "HTTP Bearer"
+            }
         }
     }
 }

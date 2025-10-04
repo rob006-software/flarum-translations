@@ -2,15 +2,28 @@
     "clarkwinkelmann-emojionearea": {
         "forum": {
             "picker_button": "表情",
-            "search_placeholder": "搜尋..."
+            "search_placeholder": "搜尋...",
+            "filters": {
+                "tones": "多樣性",
+                "recent": "最近",
+                "smileys_people": "笑臉 & 人物",
+                "animals_nature": "動物 & 自然",
+                "food_drink": "食物 & 飲料",
+                "activity": "啟用",
+                "travel_places": "觀光 & 地點",
+                "objects": "物件",
+                "symbols": "符號",
+                "flags": "旗誌"
+            }
         },
         "admin": {
             "settings": {
-                "enableSearch": "啟用搜尋",
-                "enableRecent": "啟用最近使用",
+                "enableSearch": "顯示搜尋框",
+                "enableRecent": "顯示最近使用",
                 "enableTones": "啟用膚色選取",
                 "filtersPosition": "類別顯示於底部",
                 "searchPosition": "搜尋和膚色顯示於底部",
+                "closeOnPick": "選定表情符號後關閉選擇器",
                 "hideFlarumButton": "隱藏 Flarum 預設表情按鈕"
             }
         }

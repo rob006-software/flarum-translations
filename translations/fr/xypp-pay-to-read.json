@@ -2,35 +2,35 @@
     "xypp-pay-to-read": {
         "admin": {
             "permission": {
-                "bypass": ""
+                "bypass": "Contourner le paiement."
             }
         },
         "forum": {
-            "preview": "",
-            "nopaidTip": "",
-            "haspaidTip": "",
-            "paymentTip": "",
-            "paymentTipMail": "",
-            "payment-notfound": "",
+            "preview": "Prévisualisation de la lecture payante",
+            "nopaidTip": "Personne n'a payé",
+            "haspaidTip": "{0} utilisateurs ont payé",
+            "paymentTip": "Contenu payant",
+            "paymentTipMail": "Le contenu payant est masqué. Veuillez consulter le message original.",
+            "payment-notfound": "Paiement ID#{0} introuvable. Veuillez vérifier l'identifiant dans le message ou supprimez simplement « id={0} ».",
             "payment-req": {
-                "text": "",
-                "btn": ""
+                "text": "L'auteur a défini le contenu à payer. Prix : {0}",
+                "btn": "Payer"
             },
             "payment": {
-                "title": "",
-                "tip": "",
-                "btn": "",
-                "loading": ""
+                "title": "Confirmation de paiement",
+                "tip": "Payer pour ce contenu coûtera {0}, vous disposez actuellement de {1}. Confirmez-vous ?",
+                "btn": "Payer",
+                "loading": "Chargement des informations de paiement"
             },
             "error": {
-                "paid": "",
-                "missing": "",
-                "no_enough_money": "",
-                "internal_err": ""
+                "paid": "Vous avez payé pour ce contenu. Il suffit de rafraîchir la page.",
+                "missing": "Aucun contenu de ce type.",
+                "no_enough_money": "Vous n'avez pas suffisamment d'argent.",
+                "internal_err": "Erreur interne."
             },
             "editor": {
-                "help": "",
-                "label": ""
+                "help": "Définir l'identifiant sur 0 ou laissez le champ vide pour créer un nouveau contenu payant, sans modifier l'identifiant original, afin que les utilisateurs qui ont déjà payé puissent lire le contenu.",
+                "label": "Payer pour lire"
             }
         }
     }

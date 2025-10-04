@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "ユーザーによってアップロードされたすべてのファイル。",
-                    "anonymize_description": "アップロードされたファイルからユーザー参照情報を削除します。ファイル閲覧可能なユーザーはアクセス可能なままとなります。",
-                    "delete_description": "ユーザーがアップロードしたすべてのファイルを削除します。"
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
                 }
             }
         }
@@ -96,6 +96,12 @@
                     "title": "電子透かし",
                     "toggle": "電子透かしの有効化"
                 },
+                "svg-sanitizer": {
+                    "title": "",
+                    "allow_animate": "",
+                    "help": "",
+                    "allow_animate_help": ""
+                },
                 "composer_buttons": {
                     "title": "Composer ボタン",
                     "options": {
@@ -132,6 +138,7 @@
             },
             "upload_methods": {
                 "aws-s3": "S3互換",
+                "awss3": "",
                 "imgur": "Imgur",
                 "local": "ローカル",
                 "ovh-svfs": "OVH SVFS",
@@ -232,6 +239,17 @@
                     "hide_fail": "ファイル「{fileName}」を非公開にできませんでした",
                     "show_fail": "ファイル「{fileName}」を公開できませんでした",
                     "loading": "ファイルを非公開にしています..."
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "uploads": {
+                    "export_description": "ユーザーによってアップロードされたすべてのファイル。",
+                    "anonymize_description": "アップロードされたファイルからユーザー参照情報を削除します。ファイル閲覧可能なユーザーはアクセス可能なままとなります。",
+                    "delete_description": "ユーザーがアップロードしたすべてのファイルを削除します。"
                 }
             }
         }

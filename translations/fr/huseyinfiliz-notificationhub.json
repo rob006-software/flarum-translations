@@ -1,0 +1,65 @@
+{
+    "huseyinfiliz-notificationhub": {
+        "admin": {
+            "title": {
+                "page_title": "Types de notification"
+            },
+            "permissions": {
+                "send_all": "Envoyer des notifications à tous les utilisateurs",
+                "send_user": "Envoyer des notifications à des utilisateurs individuels"
+            },
+            "settings": {
+                "add_button": "Ajouter un type de notification",
+                "no_data": "Il n'y a pas encore de type de notification.",
+                "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce type de notification et toutes les notifications qui lui sont associées ?",
+                "fields": {
+                    "actions": "Actions",
+                    "name": "Nom du type de notification",
+                    "excerpt_key": "Extrait par défaut",
+                    "description": "Description du type de notification",
+                    "icon": "Icône par défaut",
+                    "default_message_key": "Message par défaut",
+                    "permission": "Permission du type de notification",
+                    "color": "Couleur du type de notification",
+                    "default_url": "Lien par défaut",
+                    "default_recipients": "Destinataires par défaut",
+                    "sort_order": "Ordre de tri",
+                    "active": "Actif"
+                },
+                "save": "Enregistrer",
+                "edit_notification_type": "Modifier le type de notification",
+                "add_notification_type": "Ajouter un type de notification"
+            }
+        },
+        "forum": {
+            "links": {
+                "notification_individual": "Envoyer une notification",
+                "notification_all": "Envoyer une notification"
+            },
+            "modal_notification": {
+                "title_text": "Envoyer une notification",
+                "recipients_label": "Destinataires",
+                "recipients_placeholder": "Saisissez un nom d'utilisateur ou un nom de groupe...",
+                "message_label": "Message",
+                "url_label": "Lien cible",
+                "url_placeholder": "https://www.exemple.com",
+                "submit_button": "Envoyer une notification",
+                "notification_sent_message": "Des notifications ont été envoyées aux utilisateurs {recipientsCount} !",
+                "notification_type_label": "Type de notification",
+                "no_notification_types": "Aucun type de notification active n'a été trouvé.",
+                "preview_title": "Prévisualisation de la notification",
+                "preview_message_placeholder": "Message de notification"
+            },
+            "recipient_kinds": {
+                "user": "Utilisateur",
+                "group": "Groupe"
+            }
+        },
+        "api": {
+            "message_required": "Un message est requis.",
+            "user_ids_required": "Des identifiants d'utilisateur sont requis.",
+            "subject_id_required": "Le type de notification est requis.",
+            "no_valid_recipients": "Aucun destinataire valide n'a été trouvé."
+        }
+    }
+}

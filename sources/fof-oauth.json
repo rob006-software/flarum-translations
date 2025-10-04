@@ -15,6 +15,8 @@
                 "only_icons_label": "Only show the Log In Button icons (alternative layout)",
                 "update_email_from_provider_label": "Update email address from provider",
                 "update_email_from_provider_help": "If enabled, the user's email address will be updated to match the one provided by the OAuth provider on each login to the forum. Not all providers provide the updated email, in which case this setting will not have any effect with those providers.",
+                "disable_avatars_label": "Disable avatars from provider",
+                "disable_avatars_help": "If enabled, the user's avatar will not be updated to match the provider's avatar on signup. Note that this only affects future signups, and will not change the avatar of existing users.\n",
                 "fullscreen_popup_label": "Use Fullscreen Popup for OAuth",
                 "fullscreen_popup_help": "When enabled, the OAuth login will open in a fullscreen popup. If this is enabled, the width and height settings will be ignored.",
                 "popup_width_label": "OAuth Popup Width",
@@ -23,6 +25,9 @@
                 "popup_height_help": "Set the height of the OAuth popup window. This setting will be ignored if \"Use Fullscreen Popup for OAuth\" is enabled.",
                 "providers": {
                     "callback_url_text": "If necessary, set the callback URL to {url}.",
+                    "group_label": "Assign Group",
+                    "group_help": "Select a group to automatically assign to users who register using this provider.",
+                    "no_group_label": "No group assignment",
                     "discord": {
                         "description": "Create an app at {link}. Add the redirect URL in the OAuth2 tab.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -80,6 +85,7 @@
                         "label": "Linked accounts",
                         "last-used-label": "Last used",
                         "link-created-label": "Link created",
+                        "identification-label": "{provider} ID",
                         "orphaned-account": "You have signed in through this provider previously, but this forum has disabled sign-in with this method since.",
                         "help": "These linked accounts allow you to sign into the forum using other providers.",
                         "identifier-label": "{provider} ID",

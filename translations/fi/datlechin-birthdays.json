@@ -23,18 +23,18 @@
             },
             "change_dob": {
                 "title": "Muokkaa syntymäpäivää",
-                "date_of_birth_text": "Syntymäpäivä",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
                 "change_dob_label": "Muuta syntymäpäivä",
-                "dob_heading": "Syntymäpäivä",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "Näytä päivä ja kuukausi",
                 "show_dob_year_label": "Näytä syntymävuosi",
                 "show_dob_year_help": "Tämä näyttää sinun iän muille."
             },
             "edit_user": {
-                "dob_heading": "Syntymäpäivä"
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "nav": {
                 "nav_item": "Syntymäpäivät tänään"
@@ -44,7 +44,7 @@
                 "post_count": "{count, plural, one {Viesti: #} other {Viestiä: #}}"
             },
             "sign_up": {
-                "dob_placeholder": ""
+                "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
             },
             "header": {
                 "edit_dob_button": "Muokkaa syntymäpäivää"
@@ -55,7 +55,7 @@
             "invalid_age_message": "Sinun täytyy olla vähintään {minAge} vuotta vanha."
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "Syntymäpäivä"
         }
     }
 }

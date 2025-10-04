@@ -21,7 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "Otomatis mengikuti diskusi yang Saya balas",
-                "notify_for_all_posts_label": "Memberitahukan tentang setiap postingan baru, bukan hanya postingan terakhir dalam sebuah diskusi",
+                "notify_for_all_posts_label": "Beritahu tentang setiap postingan baru, bukan hanya yang terakhir dalam diskusi",
                 "notify_new_post_label": "Seseorang memposting dalam sebuah diskusi yang Saya ikuti"
             },
             "sub_controls": {
@@ -39,7 +39,13 @@
         "email": {
             "new_post": {
                 "subject": "[Post Baru] {title}",
-                "body": "Halo {recipient_display_name}!\n\n{poster_display_name} telah membuat post dalam diskusi yang Anda ikuti: {title}.\n\nUntuk melihatnya, kunjungi link berikut ini:\n{url}\n\n---\n\n{content}\n\n---\n\nAnda tidak akan menerima notifikasi lagi tentang diskusi ini sampai Anda mendapatkan informasi terbaru.\n"
+                "body": "Halo {recipient_display_name}!\n\n{poster_display_name} telah membuat post dalam diskusi yang Anda ikuti: {title}.\n\nUntuk melihatnya, kunjungi link berikut ini:\n{url}\n\n---\n\n{content}\n\n---\n\nAnda tidak akan menerima notifikasi lagi tentang diskusi ini sampai Anda mendapatkan informasi terbaru.\n",
+                "plain": {
+                    "body": "{poster_display_name} baru saja memposting dalam diskusi yang Anda ikuti: {title}.\n\nUntuk melihat aktivitas terbaru, lihat link berikut ini:\n{url}\n\n---\n\n{content}\n\n---\n\nAnda tidak akan menerima pemberitahuan lagi mengenai diskusi ini hingga Anda mendapatkan informasi terkini.\n"
+                },
+                "html": {
+                    "body": "{poster_display_name} baru saja memposting dalam diskusi yang Anda ikuti: [{title}]({url}).\n\nAnda tidak akan menerima pemberitahuan apa pun tentang diskusi ini hingga Anda mendapatkan informasi terkini.\n"
+                }
             }
         },
         "ref": {

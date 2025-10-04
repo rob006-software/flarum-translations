@@ -29,7 +29,7 @@
                 }
             },
             "composer": {
-                "add_repository_label": "Přidat Repozitář",
+                "add_repository_label": "Přidat repozitář",
                 "delete_repository_confirmation": "Opravdu chcete tento repozitář odstranit? Všechna rozšíření nainstalovaná z tohoto repozitáře budou odstraněna.",
                 "delete_repository_label": "Odstranění repozitáře",
                 "edit_repository_label": "Upravit repozitář",
@@ -163,6 +163,27 @@
             "update_successful": "Flarum bylo úspěšně aktualizováno.",
             "why_not_modal": {
                 "title": "Proč se neaktualizuje"
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "",
+                "repositories": "",
+                "repositories.*": "",
+                "repositories.*.type": "",
+                "repositories.*.url": "",
+                "extension_id": "",
+                "update_mode": "",
+                "package": "balíček",
+                "version": "verze",
+                "github_oauth": "",
+                "github_oauth.*": "",
+                "gitlab_oauth": "",
+                "gitlab_oauth.*": "",
+                "gitlab_token": "",
+                "gitlab_token.*": "",
+                "bearer": "",
+                "bearer.*": ""
             }
         }
     }

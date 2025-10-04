@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "Get an email when there are new discussions or posts",
                 "submit_button": "Confirm subscription"
             },
+            "hero": {
+                "title": "=> flarum-subscriptions.forum.index.following_link"
+            },
             "notifications": {
                 "new_discussion_text": "{username} started",
                 "new_post_text": "{username} posted",
@@ -79,7 +82,7 @@
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "tagsubscription": {

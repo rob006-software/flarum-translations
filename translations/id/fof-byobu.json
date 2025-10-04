@@ -22,6 +22,9 @@
             "confirm": {
                 "make_public": "Apakah Anda yakin ingin menghapus penerima dan membuat diskusi ini dapat dilihat oleh siapa saja yang dapat melihat tag yang ditetapkan?"
             },
+            "hero": {
+                "title": "=> fof-byobu.forum.nav.nav_item"
+            },
             "labels": {
                 "recipients": "{count, plural, one {{count} Penerima} other {{count} Penerima}}"
             },
@@ -92,6 +95,14 @@
                 "view_private_discussions-when-flagged": "Melihat diskusi pribadi pengguna lain jika ditandai"
             },
             "settings": {
+                "general": {
+                    "heading": "Pengaturan Umum",
+                    "help": "Pengaturan ini mengontrol fitur dasar byobu."
+                },
+                "icon": {
+                    "heading": "Pengaturan Ikon",
+                    "help": "Pengaturan ini mengontrol ikon yang digunakan oleh byobu di forum."
+                },
                 "badge-icon": "Badge Diskusi Byobu",
                 "enable-make-public-option": "Aktifkan kemampuan \"jadikan publik\"",
                 "enable-make-public-option-help": "Menambahkan kemampuan bagi mereka yang memiliki izin untuk menghapus semua penerima, menetapkan tag baru, dan membuat diskusi dapat dilihat oleh publik (sesuai dengan pengaturan visibilitas tag yang dipilih).",

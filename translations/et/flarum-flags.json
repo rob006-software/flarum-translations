@@ -20,7 +20,7 @@
                 "reason_inappropriate_text": "See postitus on solvav, kuritahtlik või vastuolus <a>foorumi kasutusreeglitega</a>.",
                 "reason_missing_message": "Kirjuta palun meie moderaatoritele mõni täpsustav üksikasi.",
                 "reason_off_topic_label": "Teemaväline",
-                "reason_off_topic_text": "See postitus pole antud teemaga seotud ja peaks asuma mujal.",
+                "reason_off_topic_text": "See postitus pole antud vestlusega seotud ja peaks asuma mujal.",
                 "reason_other_label": "Muu (palun täpsusta)",
                 "reason_spam_label": "Spämm",
                 "reason_spam_text": "See postitus on reklaam.",
@@ -29,14 +29,14 @@
             },
             "flagged_posts": {
                 "empty_text": "Raporteeritud postitusi pole",
-                "item_text": "{username} teemas <em>{discussion}</em>",
+                "item_text": "{username} vestluse <em>{discussion}</em>",
                 "title": "=> flarum-flags.ref.flagged_posts",
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
                 "dismiss_flag_button": "Eemalda lipuke",
                 "flagged_by_text": "Raporteeritud {username} poolt",
-                "flagged_by_with_reason_text": "Raporteeritud {username} poolt nagu {reason}"
+                "flagged_by_with_reason_text": "Raporteeritud {username} poolt põhjusega {reason}"
             },
             "post_controls": {
                 "flag_button": "Raporteeri"

@@ -2,32 +2,33 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Loo moderaatori märkmed",
+                "viewnotes": "Vaata moderaatori märkmeid",
+                "deletenotes": "Kustuta moderaatori märkmed"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "Tühja märkme kasutamine pole lubatud.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": ""
+                "created_text": "{username} lisas selle mäkrme {date}",
+                "add_button": "Uus märkus",
+                "create-heading": "Loo uus moderaatori märkus",
+                "dismiss_button": "Valmis",
+                "input_heading": "Sisesta oma märkmed kasutaja <strong>{username}</strong> kohta, (markdowni kasutamine on lubatud)",
+                "noNotes": "Näib, et siin pole mingeid märkmeid.",
+                "submit_button": "Salvesta märkus",
+                "delete": "Kustuta",
+                "confirm": "Oled sa kindel, et soovid selle märkme kustutada?",
+                "filter_by_me": "Ainult märkmed, mida ma ise lisasin"
             },
             "user": {
-                "notes": ""
+                "notes": "Moderaatori märkmed"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_Lülitusin sellele kasutajale:_ {reason}",
+            "auto_note_actor": "_Lülitusin kasutajale_ @{username}: {reason}",
+            "no_reason_provided": "Põhjust pole lisatud"
         }
     }
 }

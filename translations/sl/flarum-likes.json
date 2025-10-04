@@ -2,32 +2,32 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "Všečkaj objave"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Ko je omogočeno in glede na dovoljenja, lahko uporabniki všečkajo lastne objave na forumu. Če želite preprečiti, da bi uporabniki všečkali lastne objave, onemogočite to nastavitev.",
+                "like_own_posts_label": "Uporabniki lahko všečkajo lastne objave"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
+                "others_text": "=> core.ref.some_others",
                 "post_liked_text": "{username} je všečkal tvojo objavo"
             },
             "post": {
-                "like_link": "Všeč",
-                "liked_by_self_text": "{users} je to všeč.",
-                "liked_by_text": "",
-                "others_link": "",
-                "unlike_link": "Ni všeč",
-                "you_text": ""
+                "like_link": "Všečkaj",
+                "liked_by_self_text": "{users} si všečkal.",
+                "liked_by_text": "{count, plural, one {{users} je všečkal} other {{users} je všečkalo}}.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Odvšečkaj",
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": "Uporabniki, ki so to všečkali",
-                "load_more_button": ""
+                "title": "Uporabniki, ki so všečkali",
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "Nekdo je všečkal eno mojih objav"
             },
             "user": {
                 "likes_link": "Všečki"

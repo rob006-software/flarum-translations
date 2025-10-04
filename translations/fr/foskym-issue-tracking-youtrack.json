@@ -2,19 +2,19 @@
     "foskym-issue-tracking-youtrack": {
         "admin": {
             "fields": {
-                "heading": "",
-                "url_label": "",
-                "token_label": "",
-                "project_label": "",
-                "state_field_label": "",
-                "resolved_state_label": "",
-                "fields_mapping_label": "",
-                "url_help": "",
-                "token_help": "",
-                "project_help": "",
-                "state_field_help": "",
-                "resolved_state_help": "",
-                "fields_mapping_help": ""
+                "heading": "Suivi des problèmes : YouTrack",
+                "url_label": "URL de YouTrack",
+                "token_label": "Jeton YouTrack",
+                "project_label": "Identifiant du projet YouTrack",
+                "state_field_label": "Champ de l'état",
+                "resolved_state_label": "État résolu",
+                "fields_mapping_label": "Cartographie des champs",
+                "url_help": "L'URL de votre instance YouTrack. Par exemple : https://exemple.youtrack.cloud/",
+                "token_help": "Le jeton permanent pour l'API de YouTrack. Vous pouvez en créer un dans les paramètres de votre profil YouTrack.",
+                "project_help": "L'identifiant du projet que vous souhaitez suivre. Vous le trouverez dans l'URL de la page du projet.",
+                "state_field_help": "Le nom du champ dans votre projet YouTrack qui représente l'état d'un problème.\nIl sera utilisé pour déterminer l'état d'avancement du problème.\nLa variable [Resolved_State] sera remplacée par la valeur du champ de l'état résolu.\nPar exemple : Soumis, Ouvert|Réouvert, À discuter, En cours, [Resolved_State]\n",
+                "resolved_state_help": "La valeur du champ d'état qui représente un problème résolu.\nPar exemple : Terminé|Réglé|Résolu\n",
+                "fields_mapping_help": "La correspondance entre les champs du SimpleIssueCustomField de votre projet YouTrack et les champs normaux.\nLe format est le suivant : SimpleIssueCustomField Name:Normal Field Name\nPar exemple : Original Author:author.display_name,Original Author Email:author.email,Original Assignee:assignee.display_name\n"
             }
         }
     }

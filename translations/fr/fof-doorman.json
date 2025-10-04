@@ -54,7 +54,121 @@
                         "switch-label": "Rendre le code d'invitation facultatif lors de l'inscription"
                     }
                 }
+            },
+            "ref": {
+                "fields": {
+                    "key": {
+                        "label": "Clé",
+                        "help": "Code que l'utilisateur saisira lors de l'inscription."
+                    },
+                    "group": {
+                        "label": "Groupe",
+                        "help": "Le groupe auquel l'utilisateur sera ajouté lors de son inscription à l'aide du code d'invitation."
+                    },
+                    "max_uses": {
+                        "label": "Utilisations maximales",
+                        "help": "Le nombre maximum de fois que le code peut être utilisé. Définissez la valeur sur 0 pour des utilisations illimitées"
+                    },
+                    "activates_user": {
+                        "label": "Activation de l'utilisateur",
+                        "help": "Active automatiquement l'utilisateur lorsqu'il s'inscrit."
+                    }
+                }
+            },
+            "modals": {
+                "create_doorkey": {
+                    "title": "Créer un nouveau code d'invitation",
+                    "key": {
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
+                    },
+                    "group": {
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
+                    },
+                    "max_uses": {
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
+                    },
+                    "activates_user": {
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
+                    },
+                    "submit_button": "Créer un code d'invitation",
+                    "submit_and_create_another_button": "Créer et en ajouter un autre"
+                },
+                "edit_doorkey": {
+                    "title": "Modifier le code d'invitation",
+                    "key": {
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
+                    },
+                    "group": {
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
+                    },
+                    "max_uses": {
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
+                    },
+                    "activates_user": {
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
+                    },
+                    "submit_button": "Enregistrer les modifications"
+                },
+                "send_invites": {
+                    "title": "Envoyer les codes d'invitation",
+                    "group": "Envoi d'invitations pour le groupe {group}",
+                    "help": "Accepte une liste séparée par une virgule, un espace ou une virgule-espace. Saisissez une adresse de courriel individuelle ou collez une liste, puis appuyez sur espace pour l'ajouter ou les ajouter.",
+                    "placeholder": "Saisir ici les adresses de courriel",
+                    "invalid_emails": "Les adresses de courriel suivantes ne sont pas valides : {emails}",
+                    "max_use_conflict": "Le nombre d'adresses de courriel dépasse le nombre maximum d'utilisations pour ce code.",
+                    "send": "Envoyer les courriels",
+                    "success": "Courriels envoyés avec succès"
+                }
+            },
+            "settings": {
+                "search": "Rechercher des clés de porte",
+                "total_doorkeys": "Nombre total de clés de porte : {count}",
+                "create_doorkey_button": "Créer un code d'invitation",
+                "optional_usage": "Rendre le code d'invitation facultatif lors de l'inscription"
+            },
+            "list": {
+                "columns": {
+                    "id": "Identifiant",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Gérer",
+                    "uses": "Utilisations",
+                    "created_by": "Créé par"
+                },
+                "content": {
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "Ce code d'invitation a été utilisé le nombre maximum de fois.",
+                    "delete": "Êtes-vous sûr de vouloir supprimer le code d'invitation « {key} » ?",
+                    "uses": {
+                        "used_times": "{remaining, plural, =0 {Utilisations illimitées} one {{remainingUses} utilisation restante} other {{remainingUses} utilisations restantes}}",
+                        "total_uses": "{totalUses, plural, one {Utilisé {totalUses} fois} other {Utilisé {totalUses} fois}}"
+                    },
+                    "no_created_by": "Utilisateur inconnu"
+                },
+                "pagination": {
+                    "first_page_button": "=> core.admin.users.pagination.first_page_button",
+                    "back_button": "=> core.admin.users.pagination.back_button",
+                    "page_counter": "=> core.admin.users.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.admin.users.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.admin.users.pagination.next_button",
+                    "last_page_button": "=> core.admin.users.pagination.last_page_button"
+                }
             }
+        },
+        "email": {
+            "subject": "Inviter à s'inscrire",
+            "body": "Bonjour,\n\nVous avez été invité à vous inscrire sur {forum}.\n\nLorsque vous serez prêt à créer votre compte, il vous suffira de cliquer sur le lien suivant et d'entrer le code lors de l'inscription :\n\nLien : {url}\nCode d'invitation : {code}\n\nSi vous avez reçu ce message par erreur, veuillez l'ignorer.\n"
         }
     }
 }

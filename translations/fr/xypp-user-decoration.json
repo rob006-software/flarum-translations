@@ -1,83 +1,83 @@
 {
     "xypp-user-decoration": {
         "forum": {
-            "decoration-no-available": "",
-            "decorations": "",
+            "decoration-no-available": "Aucune décoration disponible",
+            "decorations": "Décorations",
             "decoration-box": {
-                "error": "",
-                "avatar": "",
-                "name": "",
-                "post": "",
-                "card": "",
-                "loading": "",
-                "closed": "",
-                "no-login": ""
+                "error": "Type inconnu",
+                "avatar": "Style d'avatar",
+                "name": "Style du nom d'utilisateur",
+                "post": "Style de message",
+                "card": "Style de carte d'utilisateur",
+                "loading": "Chargement",
+                "closed": "Fermé",
+                "no-login": "Se connecter pour prévisualiser"
             },
             "decoration": {
-                "delete_button": "",
-                "remove_button": "",
-                "change_button": "",
-                "delete_confirm": ""
+                "delete_button": "Supprimer",
+                "remove_button": "Supprimer",
+                "change_button": "Modifier",
+                "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette décoration ?"
             },
             "page": {
-                "show-decorations": ""
+                "show-decorations": "Décorations"
             },
             "modal": {
-                "title": "",
-                "tip": "",
-                "loading": "",
-                "button": ""
+                "title": "Proposer une décoration",
+                "tip": "Veuillez sélectionner une décoration",
+                "loading": "Chargement",
+                "button": "Proposer"
             },
-            "create": "",
-            "create-success": "",
+            "create": "Créer",
+            "create-success": "Décoration créée avec succès",
             "create-modal": {
-                "edit-title": "",
-                "edit-button": "",
-                "title": "",
+                "edit-title": "Modifier la décoration#{0}",
+                "edit-button": "Modifier",
+                "title": "Créer une décoration",
                 "type": {
-                    "title": "",
-                    "avatar": "",
-                    "username": "",
-                    "post": "",
-                    "usercard": ""
+                    "title": "Type",
+                    "avatar": "Avatar",
+                    "username": "Nom d'utilisateur",
+                    "post": "Message",
+                    "usercard": "Carte d'utilisateur"
                 },
-                "name": "",
-                "desc": "",
-                "style": "",
-                "tip": "",
-                "button": "",
-                "delete-button": ""
+                "name": "nom",
+                "desc": "Description",
+                "style": "Feuille de style",
+                "tip": "Utiliser le sélecteur .base pour sélectionner la cible, .element-xxx pour ajouter un nouvel élément",
+                "button": "Créer",
+                "delete-button": "Supprimer"
             },
-            "delete_confirm": "",
-            "delete-success": "",
+            "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette décoration ?",
+            "delete-success": "Supprimé avec succès",
             "user_controls": {
-                "offer": ""
+                "offer": "Proposer une décoration"
             }
         },
         "admin": {
             "permissions": {
-                "view_decoration": "",
-                "delete_decoration": "",
-                "offer_decoration": "",
-                "create_decoration": "",
-                "view-all": ""
+                "view_decoration": "Voir la décoration des autres",
+                "delete_decoration": "Supprimer la décoration des autres",
+                "offer_decoration": "Proposer une décoration",
+                "create_decoration": "Créer et modifier une décoration",
+                "view-all": "Voir toutes les décorations"
             },
             "settings": {
                 "username_hijack": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Détournement du nom d'utilisateur",
+                    "desc": "Ce plugin essaiera de détourner la méthode du nom d'utilisateur du modèle d'utilisateur et d'insérer des informations d'identité pour reconnaître l'utilisateur. Si un autre plugin a planté à cause du détournement, vous pouvez désactiver cette fonction pour résoudre le problème."
                 },
                 "avatar_hijack": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Détournement de l'avatar",
+                    "desc": "Ce plugin tente de détourner la méthode de l'avatar du modèle de l'utilisateur et d'insérer des informations d'identité pour reconnaître l'utilisateur. Si un autre plugin a planté à cause du détournement, vous pouvez désactiver cette fonction pour résoudre le problème."
                 },
                 "view-all": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Voir tout",
+                    "desc": "L'autorisation de tout voir est-elle activée ?"
                 },
                 "no_decorate_class_filter": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Filtre de classe non décoratif",
+                    "desc": "Les noms de classe qui empêchent les avatars et les noms d'utilisateur à l'intérieur d'être déformés par la décoration. Une pré-ligne sans point de préfixe"
                 }
             }
         }
@@ -85,16 +85,16 @@
     "xypp-store": {
         "forum": {
             "type": {
-                "decoration": ""
+                "decoration": "Décoration"
             },
             "unavailable": {
                 "decoration": {
-                    "dumplicate": ""
+                    "dumplicate": "Possède"
                 }
             },
             "create-modal": {
                 "providers": {
-                    "decoration": ""
+                    "decoration": "Décoration"
                 }
             }
         }

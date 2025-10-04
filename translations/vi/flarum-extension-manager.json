@@ -164,6 +164,27 @@
             "why_not_modal": {
                 "title": "Tại sao nó không cập nhật"
             }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "độ ổn định tối thiểu",
+                "repositories": "kho lưu trữ",
+                "repositories.*": "kho lưu trữ",
+                "repositories.*.type": "loại kho lưu trữ",
+                "repositories.*.url": "URL kho lưu trữ",
+                "extension_id": "ID tiện ích mở rộng",
+                "update_mode": "chế độ cập nhật",
+                "package": "gói",
+                "version": "phiên bản",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab Token",
+                "gitlab_token.*": "GitLab Token",
+                "bearer": "HTTP Bearer",
+                "bearer.*": "HTTP Bearer"
+            }
         }
     }
 }
