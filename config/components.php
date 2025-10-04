@@ -1208,6 +1208,9 @@ return [
 	'mshuo-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/MShuoo/reply-to-see/v1.0.3/locale/en.yml',
 	],
+	'muhammedsaidckr-chatgpt' => [
+		'tag' => 'https://raw.githubusercontent.com/muhammedsaidckr/flarum-chatgpt/v1.3.2/locale/en.yml',
+	],
 	'muhammedsaidckr-gemini' => [
 		'tag' => 'https://raw.githubusercontent.com/muhammedsaidckr/flarum-gemini/v1.0.4/locale/en.yml',
 	],
