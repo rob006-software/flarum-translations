@@ -1,0 +1,85 @@
+{
+    "xypp-collector": {
+        "forum": {
+            "reward_not_found": "Reward {reward} not found",
+            "condition_not_found": "Condition {condition} not found",
+            "condition": {
+                "condition": "Condition",
+                "format": "<b>{name}:{calculate}</b> {operator}{value} {span} ",
+                "and": " and ",
+                "span": "In {span} days"
+            },
+            "reward": {
+                "reward": "Reward",
+                "format": "<b>{name}</b>:{value}",
+                "and": " and "
+            }
+        },
+        "admin": {
+            "settings": "Settings",
+            "allow_update": "Allow user update manually",
+            "max_keep": "Max Record Days",
+            "use_custom": "Use Custom",
+            "custom_global_update": "Custom Update with Global",
+            "custom_normal_update": "Custom Update with normal condition",
+            "auto_update": "Auto Update Custom Condition pre day",
+            "auto_update_hour": "The Hour when Auto Update happen (In local time)",
+            "limited_accumulation_support": "This condition is not able to get all data in recalculate. It will ask you when running the command.",
+            "emit_control": {
+                "title": "Update Emitter and Recalculate",
+                "event": "Event",
+                "update": "Update Command",
+                "manual": "Manual",
+                "abs": "Recalculate",
+                "name": "Name"
+            },
+            "list": {
+                "condition": "Condition",
+                "reward": "Reward",
+                "condition-name": "Condition Name",
+                "condition-operator": "Operator",
+                "condition-value": "Value",
+                "condition-span": "Time Span",
+                "condition-calculate": "Calculate",
+                "condition-alter_name": "Display Name",
+                "reward-name": "Reward Name",
+                "reward-value": "Value",
+                "reward-get_value": "Get Value",
+                "reward-alter_name": "Display Name",
+                "new_item": "New Item"
+            },
+            "custom": {
+                "title": "Custom Condition",
+                "name": "Name",
+                "add": "New",
+                "display_name": "Display Name",
+                "evaluation": "Evaluation",
+                "button-edit": "Edit",
+                "button": "Create",
+                "delete-confirm": "Are you sure to delete this item?"
+            },
+            "permissions": {
+                "view-condition": "View Condition Value"
+            }
+        },
+        "api": {
+            "condition_not_allow_frontend": "Condition cannot be trigger in frontend",
+            "no_manual_update": "No manual update needed"
+        },
+        "lib": {
+            "calculate": {
+                "sum": "Sum",
+                "max": "Max",
+                "days": "Count Days"
+            },
+            "operator": {
+                "ge": ">=",
+                "gt": ">",
+                "le": "<=",
+                "lt": "<",
+                "eq": "=",
+                "ne": "!="
+            }
+        }
+    }
+}
