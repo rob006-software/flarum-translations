@@ -194,6 +194,7 @@ return [
 		'!foskym-issue-tracking-youtrack',
 		'!foskym-nickname-group-formatter',
 		'!foskym-oauth-center',
+		'!foskym-pagination',
 		'!foskym-sorts-for-user-directory',
 		'!gbcl-minecraft-oauth',
 		'!gbcl-oauth-logto',
