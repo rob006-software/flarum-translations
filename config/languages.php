@@ -80,6 +80,7 @@ return [
 		'!clarkwinkelmann-email-as-display-name',
 		'!clarkwinkelmann-emojionearea',
 		'!clarkwinkelmann-passwordless',
+		'!club-1-content-permissions',
 		'!club-1-cross-references',
 		'!club-1-server-side-highlight',
 		'!kilowhat-formulaire',
