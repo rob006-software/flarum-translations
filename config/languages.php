@@ -232,6 +232,7 @@ return [
 		'!xypp-store-auto-checkin',
 		'!xypp-store-doorman',
 		'!xypp-store-group',
+		'!xypp-store-virtual-item',
 		'!xypp-user-decoration',
 		'!zhihe-primary-posts',
 		'!ziiven-decoration-store',
