@@ -749,6 +749,9 @@ return [
 	'foskym-oauth-center' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-oauth-center/v1.3.0/locale/en.yml',
 	],
+	'foskym-pagination' => [
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-pagination/v0.3.0/resources/locale/en.yml',
+	],
 	'foskym-sorts-for-user-directory' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-sorts-for-user-directory/v0.3.2/locale/en.yml',
 	],
