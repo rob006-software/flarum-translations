@@ -1182,6 +1182,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`miniflar-sidenav-download-button`](https://weblate.rob006.net/projects/flarum/miniflar-sidenav-download-button) | [`miniflar/sidenav-download-button`](https://github.com/miniflar/sidenav-download-button) |
 | [`miniflar-top-like-givers-widget`](https://weblate.rob006.net/projects/flarum/miniflar-top-like-givers-widget) | [`miniflar/top-like-givers-widget`](https://github.com/miniflar/top-like-givers-widget) |
 | [`mshuo-reply-to-see`](https://weblate.rob006.net/projects/flarum/mshuo-reply-to-see) | [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see) |
+| [`muhammedsaidckr-chatgpt`](https://weblate.rob006.net/projects/flarum/muhammedsaidckr-chatgpt) | [`muhammedsaidckr/flarum-chatgpt`](https://github.com/muhammedsaidckr/flarum-chatgpt) |
 | [`muhammedsaidckr-gemini`](https://weblate.rob006.net/projects/flarum/muhammedsaidckr-gemini) | [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini) |
 | [`nearata-cakeday`](https://weblate.rob006.net/projects/flarum/nearata-cakeday) | [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday) |
 | [`nearata-cloudflare`](https://weblate.rob006.net/projects/flarum/nearata-cloudflare) | [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare) |
