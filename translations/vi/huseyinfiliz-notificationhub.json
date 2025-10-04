@@ -1,0 +1,65 @@
+{
+    "huseyinfiliz-notificationhub": {
+        "admin": {
+            "title": {
+                "page_title": "Các loại thông báo"
+            },
+            "permissions": {
+                "send_all": "Gửi thông báo đến tất cả người dùng",
+                "send_user": "Gửi thông báo đến từng người dùng"
+            },
+            "settings": {
+                "add_button": "Thêm loại thông báo",
+                "no_data": "Chưa có loại thông báo nào.",
+                "delete_confirm": "Bạn có chắc chắn muốn xóa loại thông báo này và tất cả các thông báo liên quan không?",
+                "fields": {
+                    "actions": "Hành động",
+                    "name": "Tên loại thông báo",
+                    "excerpt_key": "Trích dẫn mặc định",
+                    "description": "Mô tả loại thông báo",
+                    "icon": "Biểu tượng mặc định",
+                    "default_message_key": "Tin nhắn mặc định",
+                    "permission": "Quyền loại thông báo",
+                    "color": "Màu loại thông báo",
+                    "default_url": "Liên kết mặc định",
+                    "default_recipients": "Người nhận mặc định",
+                    "sort_order": "Thứ tự sắp xếp",
+                    "active": "Kích hoạt"
+                },
+                "save": "Lưu",
+                "edit_notification_type": "Chỉnh sửa loại thông báo",
+                "add_notification_type": "Thêm loại thông báo"
+            }
+        },
+        "forum": {
+            "links": {
+                "notification_individual": "Gửi thông báo",
+                "notification_all": "Gửi thông báo"
+            },
+            "modal_notification": {
+                "title_text": "Gửi thông báo",
+                "recipients_label": "Người nhận",
+                "recipients_placeholder": "Nhập tên người dùng hoặc tên nhóm...",
+                "message_label": "Tin nhắn",
+                "url_label": "Liên kết đích",
+                "url_placeholder": "https://www.example.com",
+                "submit_button": "Gửi thông báo",
+                "notification_sent_message": "Thông báo đã được gửi đến {recipientsCount} người dùng!",
+                "notification_type_label": "Loại thông báo",
+                "no_notification_types": "Không tìm thấy loại thông báo nào đang hoạt động.",
+                "preview_title": "Xem trước thông báo",
+                "preview_message_placeholder": "Nội dung thông báo.."
+            },
+            "recipient_kinds": {
+                "user": "Người dùng",
+                "group": "Nhóm"
+            }
+        },
+        "api": {
+            "message_required": "Tin nhắn là bắt buộc.",
+            "user_ids_required": "ID người dùng là bắt buộc.",
+            "subject_id_required": "Loại thông báo là bắt buộc.",
+            "no_valid_recipients": "Không tìm thấy người nhận hợp lệ."
+        }
+    }
+}

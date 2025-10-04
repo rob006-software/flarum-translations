@@ -1,0 +1,66 @@
+{
+    "foskym-activity-graph": {
+        "admin": {
+            "settings": {
+                "count_comments": "Compter les commentaires",
+                "count_discussions": "Compter les discussions",
+                "count_likes": "Compter les mentions j'aime",
+                "count_custom_levels_exp_logs": "Journaux de niveaux personnalisés (nécessite foskym/flarum-custom-levels)",
+                "count_invite_user_invites": "Compter les invitations d'utilisateurs (nécessite xypp/flarum-invite-user)",
+                "count_store_purchases": "Compter les achats en magasin (nécessite xypp/store)",
+                "count_polls_create_polls": "Compter les sondages créés (nécessite fof/polls)",
+                "count_polls_votes": "Compter les votes des sondages (nécessite fof/polls)",
+                "count_username_requests_username": "Compter les demandes de changement de nom d'utilisateur (nécessite fof/username-requests)",
+                "count_username_requests_nickname": "Compter les demandes de changement de pseudonyme (nécessite fof/username-requests et flarum-nicknames)",
+                "count_best_answer_marked": "Compter les meilleures réponses marquées (nécessite fof/best-answer)",
+                "count_badges_assigned": "Compter les badges attribués (nécessite v17development/flarum-user-badges)",
+                "count_achievements_achieved": "Compter les succès obtenus (nécessite malago/achievements)",
+                "count_quest_done": "Compter les quêtes effectuées (nécessite xypp/forum-quests)",
+                "tooltip_position": "Position de l'infobulle",
+                "tooltip_position_options": {
+                    "top": "Haut",
+                    "right": "Droite",
+                    "bottom": "Bas",
+                    "left": "Gauche"
+                },
+                "times_display_format": "Format d'affichage de l'heure",
+                "times_display_format_help": "Utilisé pour afficher les temps dans le graphique d'activité, par exemple, « fois », « [count] fois »",
+                "from_year": "Depuis l'année",
+                "from_year_help": "L'année de début du graphique d'activité"
+            },
+            "permissons": {
+                "query-others-activity-graph": "Interroger le graphique d'activité des autres"
+            }
+        },
+        "forum": {
+            "label": {
+                "activity_graph": "Graphique d'activité",
+                "total_times": "{total} au total pour cette année",
+                "name_map": "en",
+                "categories": {
+                    "comments": "Commentaires",
+                    "discussions": "Discussions",
+                    "likes": "J'aime",
+                    "custom_levels_exp_logs": "Changements de niveaux",
+                    "invite_user_invites": "Invitations",
+                    "store_purchases": "Achats en magasin",
+                    "polls_create_polls": "Sondages créés",
+                    "polls_votes": "Votes par sondage",
+                    "username_requests_username": "Demandes de changement de nom d'utilisateur",
+                    "username_requests_nickname": "Demandes de changement de pseudonyme",
+                    "best_answer_marked": "Meilleure réponse marquée",
+                    "badges_assigned": "Badges attribués",
+                    "achievements_achieved": "Succès obtenus",
+                    "quest_done": "Quêtes effectuées"
+                }
+            }
+        },
+        "lib": {
+            "defaults": {
+                "times_display_format": [
+                    "fois"
+                ]
+            }
+        }
+    }
+}

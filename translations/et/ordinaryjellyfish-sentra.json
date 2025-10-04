@@ -1,0 +1,52 @@
+{
+    "ordinaryjellyfish-sentra": {
+        "admin": {
+            "view_documentation": "Vaata dokumentatsiooni",
+            "api_key": "API võti",
+            "endpoint": "Lõpp-punkt",
+            "enable": "Lülita sisse",
+            "permissions": {
+                "bypass": "Eira Sentrat"
+            },
+            "services": {
+                "heading": "Teenused",
+                "content_safety": "Azure AI sisu turvalisus",
+                "content_safety_help": "Azure AI sisu turvalisus on teenus, mis tuvastab potentsiaalset solvavat või soovimatut sisu ja pilte.",
+                "content_safety_settings": {
+                    "analyze_images": "Analüüsi pilte"
+                }
+            },
+            "modules": {
+                "heading": "Moodulid",
+                "requires": "Nõuab teenuseid <b>{services}</b>",
+                "requires_error": "Selle mooduli kasutamiseks pead kõik nõutud teenused sisse lülitama ja seadistama.",
+                "post_shield": "Postitamise kilp",
+                "post_shield_help": "Postitamise kilp on moodul, mis tuvastab postitustes potentsiaalselt solvavat või soovimatut sisu. Analüüsib postituse sisu ja kui Azure AI sisu turvalisuse seaded on sisse lülitatud, siis ka pilte.",
+                "post_shield_settings": {
+                    "harm_categories": "Kahjulikud kategooriad",
+                    "severity_level": "Päästiku tase",
+                    "severity_level_low": "Madal",
+                    "severity_level_medium": "Keskmine",
+                    "severity_level_high": "Kõrge",
+                    "severity_level_unknown": "Tundmatu"
+                }
+            }
+        },
+        "lib": {
+            "post_shield": {
+                "Hate": "Vihkamine ja õiglus",
+                "Hate_help": "Ründav või diskrimineeriv kõne, mis viitab halvustavalt isikule või inimeste grupile nende erinevuse või muude omaduste tõttu.",
+                "Sexual": "Seksuaalne",
+                "Sexual_help": "Kõne, mis on seotud suguorganite, romantiliste suhete või seksuaalaktidega, kaasa arvatud seksuaalne vägivald.",
+                "Violence": "Vägivald",
+                "Violence_help": "Kõne mis on seotud füüsilise vägivallaga, mis on seotud kellegi vigastamise või tapmisega, kirjeldab relvi, tulirelvi või nendega seotud isikuid.",
+                "SelfHarm": "Enesevigastamine",
+                "SelfHarm_help": "Kõne mis on seotud füüsilise vägivallaga, mis on seotud enda vigastamise või enesetapuga."
+            }
+        },
+        "forum": {
+            "flag_reason": "Sentra märkis selle postituse sobimatuks. Põhjus: {reason}",
+            "flag_detail": "Positus vastas kriteeriumile {categories}. Tase: {severities}"
+        }
+    }
+}

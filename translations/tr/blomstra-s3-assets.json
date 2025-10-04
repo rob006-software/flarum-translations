@@ -9,6 +9,34 @@
                 "s3key": {
                     "label": "Anahtar",
                     "help": "yardım"
+                },
+                "s3secret": {
+                    "label": "Gizli",
+                    "help": "S3 gizli erişim anahtarı"
+                },
+                "s3region": {
+                    "label": "Bölge",
+                    "help": "S3 bölge"
+                },
+                "s3bucket": {
+                    "label": "Bucket",
+                    "help": "S3 bucket"
+                },
+                "s3acl": {
+                    "label": "GEE (ACL)",
+                    "help": "Bu bucket'a ait GEE (ACL)'yi belirtin"
+                },
+                "s3url": {
+                    "label": "Bağlantı",
+                    "help": "S3 Bağlantı"
+                },
+                "s3endpoint": {
+                    "label": "Uç nokta",
+                    "help": "S3 Uç Noktası"
+                },
+                "s3path-style-endpoint": {
+                    "label": "S3 yol tarzı uç nokta",
+                    "help": "Yol tarzı depolamaya geç"
                 }
             }
         }

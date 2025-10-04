@@ -2,86 +2,86 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Felhasználó megjelölése kéretlen tartalmat küldőként"
             },
             "settings": {
-                "button": "",
+                "button": "Beállítások",
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
-                    "delete_posts_help": "",
-                    "heading": "",
-                    "introduction": "",
-                    "move_discussions_to_tags_label": "",
-                    "move_discussions_to_tags_help": ""
+                    "delete_user_label": "Felhasználó törlése",
+                    "delete_user_help": "Ez végleg törli a felhasználót. Ha ki van kapcsolva, akkor a felhasználó fel lesz függesztve.",
+                    "delete_discussions_label": "Témák törlése",
+                    "delete_discussions_help": "Ez végleg törli a felhasználó által indított összes témát. Ha ki van kapcsolva, akkor a témák csak logikailag lesznek törölve.",
+                    "delete_posts_label": "Bejegyzések törlése",
+                    "delete_posts_help": "Ez végleg törli a felhasználó által készített összes bejegyzést. Ha ki van kapcsolva, akkor a bejegyzések csak logikailag lesznek törölve.",
+                    "heading": "Alapértelmezett moderálási műveletek",
+                    "introduction": "Ha egy felhasználó kéretlen tartalmat küldőként lesz megjelölve, akkor a moderátorok különböző műveletek közül választhatnak az adott eset kezelése során. Ezek a beállítások lehetővé teszi, hogy előre beállítsa a szokásos műveleteket, hogy meggyorsítsa a folyamatot, de különféle változatok is lehetségesek.\n",
+                    "move_discussions_to_tags_label": "Témák áthelyezése címkékhez",
+                    "move_discussions_to_tags_help": "Ez áthelyezi a felhasználó által indított témákat a megadott címkékhez. Törölje ki a címkék kiválasztását, hogy meghagyja az eredeti címkéit. Nincs hatása, ha a „Témák törlése” beállítás be van kapcsolva."
                 },
                 "stopforumspam": {
-                    "heading": "",
-                    "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
-                    "frequency_label": "",
-                    "frequency_help": "",
-                    "api_key_label": "",
-                    "api_key_text": "",
-                    "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
-                    "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
-                    "confidence_help": "",
-                    "email_hash_label": "",
-                    "email_hash_help": "",
-                    "sfs_lookup_label": "",
-                    "sfs_lookup_help": "",
-                    "report_blocked_registrations_label": "",
-                    "report_blocked_registrations_help": ""
+                    "heading": "StopForumSpam",
+                    "introduction": "Az új felhasználó regisztrációk ellenőrzése a <a>StopForumSpam</a> adatbázisában. Ha eléri a <code>megbízhatósági</code> vagy <code>gyakorisági</code> határértéket, akkor a felhasználó fórumregisztrációja nem fog sikerülni.\n\nA <code>fof/oauth</code> és a <code>fof/passport</code> által biztosított SSO-s regisztráció is támogatott. Más SSO szolgáltatóknak is működniük kellene, de ezek nincsenek tesztelve..\n",
+                    "username_label": "Felhasználónév alapú ellenőrzés",
+                    "ip_label": "IP-cím alapú ellenőrzés",
+                    "email_label": "E-mail alapú ellenőrzés",
+                    "frequency_label": "Határérték",
+                    "frequency_help": "A jelentések száma az összes engedélyezett ellenőrzésnél, amely aktiválja a kéretlen tartalom szűrőjét.\nPéldául ha az e-mail esetén 1 találat van, az IP-címnél 2, akkor összesen 3 találat lesz. Ha a korlát 3-ra, vagy annál kevesebbre van állítva, akkor ez megakadályozza a regisztrációt.\n",
+                    "api_key_label": "API-kulcs",
+                    "api_key_text": "Jelentheti a kéretlen tartalmat küldőket a StopForumSpamnek, hogy a nagyobb közösség is kéretlen tartalmaktól mentes lehessen.",
+                    "api_key_instructions_text": "<register>Regisztráljon a StopForumSpamen</register>. Ezután egy <key>API-kulcsot kell szereznie</key>.",
+                    "regional_endpoint_label": "Földrajzi hozzáférés",
+                    "regional_endpoint_help": "Alapértelmezetten a keresést a legközelebbi regionális kiszolgáló felé továbbítjuk, hogy a leggyorsabb választ biztosítsuk. Ha a forgalmat egy adott régióra korlátozná, például vállalati vagy országfüggő adatvédelmi szabályozások miatt, akkor ezt kikényszerítheti.",
+                    "region_closest_label": "Legközelebbi",
+                    "region_europe_label": "Európa",
+                    "region_us_label": "Egyesült Államok",
+                    "confidence_label": "Megbízhatóság",
+                    "confidence_help": "A megbízhatósági pontszám meglehetősen jó mérőszáma annak, hogy a tesztelt mező kéretlen tevékenységet eredményezne. Százalékként állítsa be. Ha a mező ennél az értéknél nagyobb, vagy vele egyenlő, akkor a regisztráció meg lesz akadályozva, függetlenül a fenti „gyakorisági” teszttől.",
+                    "email_hash_label": "Az e-mail-cím ujjlenyomatának használata",
+                    "email_hash_help": "Az e-mail-cím MD5 ujjlenyomatának átadása, ha nem akarja magát az e-mail-címet átadni. Ez a módszer megkerüli az összes feketelistázást, normalizálási és obfuszkációmegkerülési ellenőrzést.",
+                    "sfs_lookup_label": "Regisztrációk megkeresése",
+                    "sfs_lookup_help": "Ha engedélyezve van, akkor regisztrációkor megkeresésre kerül a felhasználó a StopForumSpam adatbázisában. Ha a felhasználó megtalálható (felhasználónév, IP-cím vagy e-mail alapján), akkor ezek az adatpontok engedélyezve lesznek, és ha elérik a megadott SFS megbízhatósági szintet, akkor nem fogják tudni elvégezni a regisztrációt.",
+                    "report_blocked_registrations_label": "Megakadályozott regisztrációk jelentése",
+                    "report_blocked_registrations_help": "Ha a Regisztrációk megkeresése funkció megakadályoz egy felhasználót a regisztrációban, akkor a próbálkozás jelentésre kerül a StopForumSpam számára, így a kéretlen tartalmat küldő tevékenysége jobban megerősíthető. Ehhez a StopForumSpam API-kulcsának beállítása szükséges (lásd alább)."
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
-                "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "button": "Megakadályozott regisztrációk",
+                "title": "Megakadályozott regisztrációk",
+                "no-records": "Nem találhatók megakadályozott regisztrációk.",
+                "help": "Ez az oldal a StopForumSpam szolgáltatás által megakadályozott összes regisztrációt jeleníti meg. Megtekintheti az egyes regisztrációk részleteit, és igény szerint törölheti a rekordokat az adatbázisból.\n",
+                "attempted-at": "Kísérlet ideje:",
+                "ip": "IP-cím",
+                "email": "E-mail-cím",
+                "username": "Felhasználónév",
+                "login-provider": "Bejelentkezési szolgáltató",
+                "login-provider-data": "Bejelentkezési szolgáltató adatai",
+                "sfs-data": "StopForumSpam adatok",
+                "delete_entry": "Bejegyzés törlése"
             }
         },
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "A regisztráció részletei megtalálhatók a kéretlen tartalmakat megelőző adatbázisban, így a regisztráció meg lett akadályozva."
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
-                "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
-                "report_to_sfs_help": ""
+                "hard_delete_discussions_label": "Témák törlése",
+                "hard_delete_discussions_help": "Ez végleg törli a felhasználó által létrehozott összes témát. Ha le van tiltva, akkor a témák csak el lesznek rejtve.",
+                "hard_delete_posts_label": "Bejegyzések törlése",
+                "hard_delete_posts_help": "Ez végleg törli a felhasználó által létrehozott összes bejegyzést (hozzászólást, választ stb.). Ha le van tiltva, akkor a bejegyzések csak el lesznek rejtve.",
+                "hard_delete_user_label": "Felhasználó törlése",
+                "hard_delete_user_help": "Ez végleg törli a felhasználót. Ha ki van kapcsolva, akkor a felhasználó fel lesz függesztve.",
+                "intro": "Ha kéretlen tartalmat küldőként jelöli meg a felhasználót, akkor több művelet is történik, amely a fórumon elérhető bővítményeken múlik.",
+                "move_discussions_tag_label": "Témát áthelyezése karanténben lévő címkékhez",
+                "move_discussions_tag_help": "Ez áthelyezi a felhasználó által indított összes témát a fórumbeállításokban megadott címkéhez. Ha ki van kapcsolva, akkor a témák a jelenlegi címkéknél maradnak.",
+                "process_button": "Folyamat",
+                "title": "{username} megjelölési kéretlen tartalmat küldőként",
+                "report_to_sfs_label": "Jelentés a StopForumSpamnek",
+                "report_to_sfs_help": "Ez jelenti a felhasználó alapvető részleteit (felhasználónév, e-mail-cím, IP-cím) a StopForumSpamnek. Ez megakadályozza, hogy a felhasználó más, StopForumSpam szolgáltatást használó fórumokra regisztráljon."
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "Kéretlen tartalmat küldő"
             }
         }
     }

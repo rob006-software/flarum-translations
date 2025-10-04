@@ -1,0 +1,65 @@
+{
+    "foskym-issue-tracking": {
+        "admin": {
+            "provider_heading": "Platform Provider",
+            "enable_comment_sync_label": "Create comments in the issue tracker when a post is created",
+            "enable_create_issue_label": "Allow users to create issues in Flarum",
+            "enable_auto_import_label": "Automatically import issues to Flarum while reading issues",
+            "enable_import_by_username_label": "Import issues by username",
+            "enable_import_by_display_name_label": "Import issues by display name",
+            "default_import_by_email_help": "By default, issues are imported by email. You can enable importing by username or display name. Manual import settings are in sync with these two. If user does not exist, the issue will be imported by the manual actor or the default admin.",
+            "action": {
+                "heading": "Action",
+                "test_connection_button": "Test Connection",
+                "test_connection_success": "Connection successful",
+                "import_issues_button": "Import Issues",
+                "import_issues_success": "Issues imported successfully",
+                "import_issues_confirmation": "Are you sure you want to import all issues?",
+                "delete_imported_issues_button": "Delete Imported Issues",
+                "delete_imported_issues_success": "Imported issues deleted successfully",
+                "delete_imported_issues_confirmation": "Are you sure you want to delete all imported issues?",
+                "delete_all_issues_button": "Delete All Issues",
+                "delete_all_issues_success": "All issues deleted successfully",
+                "delete_all_issues_confirmation": "Are you sure you want to delete all issues?"
+            }
+        },
+        "forum": {
+            "title": "Issue Tracking",
+            "header": {
+                "back_to_issues_tooltip": "Back to Issues"
+            },
+            "last_updated": "Last updated {time}",
+            "issue_opened_by": "Issue opened on {time} by {username}",
+            "progress": "Progress",
+            "new_issue": "New Issue",
+            "cannot_create_issue": "Read Only",
+            "discussion": {
+                "issue_link": "View it"
+            },
+            "composer": {
+                "title": "Create a new issue",
+                "title_placeholder": "Issue Title",
+                "body_placeholder": "Issue Description",
+                "submit_button": "Submit Issue",
+                "discard_confirmation": "Are you sure you want to discard this issue?"
+            },
+            "sort": {
+                "latest_button": "Latest",
+                "oldest_button": "Oldest",
+                "newest_button": "Newest"
+            },
+            "hero": {
+                "last_updated": "=> foskym-issue-tracking.forum.last_updated",
+                "unresolved": "Unresolved",
+                "resolved": "Resolved",
+                "tasks_done": "{number} of {total}",
+                "complete": "{progress} Complete"
+            },
+            "provider": {
+                "error": {
+                    "title": "Provider Error"
+                }
+            }
+        }
+    }
+}

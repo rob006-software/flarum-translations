@@ -1,0 +1,65 @@
+{
+    "foskym-issue-tracking": {
+        "admin": {
+            "provider_heading": "Platform Sağlayıcı",
+            "enable_comment_sync_label": "Bir gönderi oluşturulduğunda sorun izleyicide yorumlar oluştur",
+            "enable_create_issue_label": "Kullanıcıların Flarum'da sorun oluşturmasına izin ver",
+            "enable_auto_import_label": "Sorunları okurken otomatik olarak Flarum'a aktar",
+            "enable_import_by_username_label": "Kullanıcı adına göre sorunları içe aktar",
+            "enable_import_by_display_name_label": "Görünen ada göre sorunları içe aktar",
+            "default_import_by_email_help": "Varsayılan olarak sorunlar e-posta ile içe aktarılır. Kullanıcı adına veya görünen ada göre içe aktarmayı etkinleştirebilirsiniz. Manuel içe aktarma ayarları bu ikisiyle senkronizedir. Kullanıcı mevcut değilse, sorun manuel aktör veya varsayılan yönetici tarafından içe aktarılır.",
+            "action": {
+                "heading": "Eylem",
+                "test_connection_button": "Bağlantıyı Test Et",
+                "test_connection_success": "Bağlantı başarılı",
+                "import_issues_button": "Sorunları İçe Aktar",
+                "import_issues_success": "Sorunlar başarıyla içe aktarıldı",
+                "import_issues_confirmation": "Tüm sorunları içe aktarmak istediğinizden emin misiniz?",
+                "delete_imported_issues_button": "İçe Aktarılan Sorunları Sil",
+                "delete_imported_issues_success": "İçe aktarılan sorunlar başarıyla silindi",
+                "delete_imported_issues_confirmation": "İçe aktarılan tüm sorunları silmek istediğinizden emin misiniz?",
+                "delete_all_issues_button": "Tüm Sorunları Sil",
+                "delete_all_issues_success": "Tüm sorunlar başarıyla silindi",
+                "delete_all_issues_confirmation": "Tüm sorunları silmek istediğinizden emin misiniz?"
+            }
+        },
+        "forum": {
+            "title": "Sorun Takibi",
+            "header": {
+                "back_to_issues_tooltip": "Sorunlara Dön"
+            },
+            "last_updated": "Son güncelleme {time}",
+            "issue_opened_by": "Sorun {time} tarihinde {username} tarafından açıldı",
+            "progress": "İlerleme",
+            "new_issue": "Yeni Sorun",
+            "cannot_create_issue": "Sadece Okunur",
+            "discussion": {
+                "issue_link": "Görüntüle"
+            },
+            "composer": {
+                "title": "Yeni bir sorun oluştur",
+                "title_placeholder": "Sorun Başlığı",
+                "body_placeholder": "Sorun Açıklaması",
+                "submit_button": "Sorunu Gönder",
+                "discard_confirmation": "Bu sorunu iptal etmek istediğinize emin misiniz?"
+            },
+            "sort": {
+                "latest_button": "En son",
+                "oldest_button": "En eski",
+                "newest_button": "En Yeni"
+            },
+            "hero": {
+                "last_updated": "=> foskym-issue-tracking.forum.last_updated",
+                "unresolved": "Çözülmemiş",
+                "resolved": "Çözülmüş",
+                "tasks_done": "{number} / {total}",
+                "complete": "{progress} Tamamlandı"
+            },
+            "provider": {
+                "error": {
+                    "title": "Sağlayıcı Hatası"
+                }
+            }
+        }
+    }
+}

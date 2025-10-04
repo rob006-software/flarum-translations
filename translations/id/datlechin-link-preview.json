@@ -2,24 +2,26 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "Daftar Hitam",
-                "blacklist_help": "Masukkan daftar domain atau url yang dipisahkan dengan koma untuk dikecualikan dari pratinjau tautan.",
-                "blacklist_placeholder": "contohnya facebook.com,https://domain.com/path",
-                "whitelist_label": "Daftar Putih",
-                "whitelist_help": "Masukkan daftar domain atau url yang dipisahkan dengan koma untuk memungkinkan pratinjau link.",
-                "whitelist_placeholder": "contohnya facebook.com,https://domain.com/path",
-                "convert_media_urls_label": "Mengonversi URL media",
-                "convert_media_urls_help": "Jika diaktifkan, ini akan mengonversi semua URL media menjadi pratinjau link.",
-                "use_google_favicons_label": "Gunakan Google Favicon API",
-                "use_google_favicons_help": "Jika diaktifkan, akan menggunakan layanan Google di bagian frontend untuk mendapatkan favicon dari situs yang bersangkutan.",
-                "cache_time_label": "Waktu Cache",
-                "cache_time_help": "Jumlah menit link yang dirayapi akan disimpan dalam cache sebelum diakses kembali. Atur ke 0 untuk menonaktifkan cache link. Defaultnya adalah 60 menit jika tidak diatur.",
-                "open_links_in_new_tab_label": "Buka link di tab baru",
-                "open_links_in_new_tab_help": "Jika diaktifkan, link akan dibuka di tab baru."
+                "enable_batch_requests_label": "Aktifkan Pemrosesan Massal",
+                "enable_batch_requests_help": "Tingkatkan kinerja dengan memproses beberapa pratinjau link secara bersamaan. Apabila dinonaktifkan, tautan akan diproses satu per satu.",
+                "blacklist_label": "Daftar Hitam Domain",
+                "blacklist_help": "Tentukan domain atau URL yang tidak boleh menghasilkan pratinjau tautan. Gunakan koma untuk memisahkan beberapa entri.",
+                "blacklist_placeholder": "Contoh: facebook.com, twitter.com/specific-page",
+                "whitelist_label": "Daftar Putih Domain",
+                "whitelist_help": "Hanya buat pratinjau untuk domain atau URL ini. Biarkan kosong untuk mengizinkan semua domain yang tidak masuk ke dalam daftar hitam.",
+                "whitelist_placeholder": "Contoh: trusted-site.com, specific-domain.org/path",
+                "convert_media_urls_label": "Pratinjau URL Media",
+                "convert_media_urls_help": "Hasilkan pratinjau untuk URL yang mengarah ke file media (gambar, video, dll.).",
+                "use_google_favicons_label": "Tampilkan Ikon Situs",
+                "use_google_favicons_help": "Tampilkan favicon situs web menggunakan layanan Google Favicon untuk meningkatkan pengenalan visual.",
+                "cache_time_label": "Durasi Cache (menit)",
+                "cache_time_help": "Berapa lama menyimpan pratinjau link sebelum melakukan penyegaran. Atur ke 0 untuk menonaktifkan cache. Default: 60 menit.",
+                "open_links_in_new_tab_label": "Buka Link di Tab Baru",
+                "open_links_in_new_tab_help": "Selalu buka link pratinjau di tab baru."
             }
         },
         "forum": {
-            "site_cannot_be_reached": "Situs ini tidak dapat dijangkau."
+            "site_cannot_be_reached": "Tidak dapat memuat pratinjau. Silakan periksa URL dan coba lagi."
         }
     }
 }

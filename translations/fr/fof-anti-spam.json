@@ -40,8 +40,8 @@
                     "email_hash_help": "Transmettez un hachage MD5 de l'adresse de courriel si vous souhaitez ne pas transmettre l'adresse électronique elle-même. Cette méthode permet de contourner tous les contrôles de listes noires, de normalisation et de contournement de l'obscurcissement.",
                     "sfs_lookup_label": "Consulter les inscriptions",
                     "sfs_lookup_help": "Si cette option est activée, nous vérifierons la base de données de StopForumSpam lorsqu'un nouvel utilisateur s'inscrit sur votre forum. Si l'utilisateur est trouvé (nom d'utilisateur, adresse IP, adresse de courriel) et que ce point de données est activé et que le niveau de confiance de SFS atteint le niveau que vous avez défini, l'utilisateur ne pourra pas finaliser son inscription.",
-                    "report_blocked_registrations_label": "",
-                    "report_blocked_registrations_help": ""
+                    "report_blocked_registrations_label": "Signaler les inscriptions bloquées",
+                    "report_blocked_registrations_help": "Lorsqu'une inscription est bloquée par la fonction de consultation des inscriptions, la tentative est signalée à StopForumSpam afin de mieux confirmer l'activité indésirable. Une clé API StopForumSpam doit être définie (voir ci-dessous)."
                 }
             },
             "blocked_registrations": {

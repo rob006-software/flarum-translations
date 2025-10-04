@@ -1,0 +1,190 @@
+{
+    "flarum-extension-manager": {
+        "admin": {
+            "auth_config": {
+                "add_label": "新しい認証方式",
+                "add_modal": {
+                    "host_label": "ホスト",
+                    "host_placeholder": "例: extiverse.com",
+                    "submit_button": "送信",
+                    "token_label": "トークン",
+                    "type_label": "種類",
+                    "unchanged_token_placeholder": "(未変更)"
+                },
+                "delete_confirmation": "本当にこの認証方式を削除しますか？",
+                "delete_label": "認証方式を削除",
+                "edit_label": "認証方式を編集",
+                "fields": {
+                    "host": "ホスト",
+                    "token": "トークン"
+                },
+                "no_auth_methods_configured": "認証方式が設定されていません。これは、プライベートリポジトリからのインストールを可能にする高度なオプション機能です。",
+                "remove_button_label": "認証方式を削除",
+                "title": "認証方式",
+                "types": {
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
+                }
+            },
+            "composer": {
+                "add_repository_label": "リポジトリを追加",
+                "delete_repository_confirmation": "本当にこのリポジトリを削除しますか？このリポジトリからインストールされた全ての拡張機能は削除されます。",
+                "delete_repository_label": "リポジトリを削除",
+                "edit_repository_label": "リポジトリを編集",
+                "title": "Composer",
+                "minimum_stability": {
+                    "label": "最低安定度",
+                    "help": "インストールが許可されるパッケージの種類。何をしているのか理解せずに、この設定を変更しないでください。",
+                    "options": {
+                        "stable": "Stable (推奨)",
+                        "rc": "Release Candidate",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
+                    }
+                },
+                "repositories": {
+                    "label": "リポジトリ",
+                    "help": "パッケージのインストール元となるリポジトリを追加します。これは高度な機能であり、信頼できないリポジトリは追加しないでください。サーバー上で悪意のあるコードを実行するために使用される可能性があります。\n",
+                    "types": {
+                        "composer": "composer",
+                        "vcs": "",
+                        "path": ""
+                    },
+                    "add_modal": {
+                        "name_label": "",
+                        "type_label": "",
+                        "url": "",
+                        "submit_button": ""
+                    }
+                }
+            },
+            "exceptions": {
+                "composer_command_failure": "",
+                "extension_already_installed": "",
+                "extension_not_directly_dependency": "",
+                "extension_not_installed": "",
+                "guessed_cause": {
+                    "extension_incompatible_with_instance": "",
+                    "extension_not_found": "",
+                    "extensions_incompatible_with_new_major": ""
+                }
+            },
+            "extensions": {
+                "check_why_it_failed_updating": "",
+                "install": "",
+                "install_help": "",
+                "proceed": "",
+                "remove": "",
+                "successful_install": "",
+                "successful_remove": "",
+                "successful_update": "",
+                "update": "",
+                "update_soft_label": "",
+                "update_hard_label": ""
+            },
+            "file_permissions": "",
+            "major_updater": {
+                "description": "",
+                "dry_run": "",
+                "dry_run_help": "",
+                "failure": {
+                    "desc": "",
+                    "why": ""
+                },
+                "title": "",
+                "update": ""
+            },
+            "minor_update_confirmation": {
+                "content": ""
+            },
+            "sections": {
+                "control": {
+                    "title": ""
+                },
+                "queue": {
+                    "columns": {
+                        "details": "",
+                        "elapsed_time": "",
+                        "peak_memory_used": "",
+                        "operation": "",
+                        "package": "",
+                        "status": ""
+                    },
+                    "none": "",
+                    "operations": {
+                        "extension_install": "",
+                        "extension_remove": "",
+                        "extension_update": "",
+                        "update_check": "",
+                        "update_global": "",
+                        "update_major": "",
+                        "update_minor": "",
+                        "why_not": ""
+                    },
+                    "output_modal": {
+                        "cause_unknown": "",
+                        "command": "",
+                        "guessed_cause": "",
+                        "output": ""
+                    },
+                    "refresh": "",
+                    "statuses": {
+                        "success": "",
+                        "failure": "",
+                        "pending": "",
+                        "running": ""
+                    },
+                    "task_just_started": "",
+                    "title": ""
+                }
+            },
+            "settings": {
+                "title": "",
+                "access_warning": "",
+                "debug_mode_warning": "",
+                "queue_jobs": "",
+                "queue_jobs_help": "",
+                "task_retention_days": "",
+                "task_retention_days_help": ""
+            },
+            "updater": {
+                "up_to_date": "",
+                "check_for_updates": "",
+                "flarum": "",
+                "global_update_successful": "",
+                "last_update_checked_at": "",
+                "run_global_update": "",
+                "updater_title": "",
+                "updater_help": ""
+            },
+            "update_successful": "",
+            "why_not_modal": {
+                "title": ""
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "",
+                "repositories": "",
+                "repositories.*": "",
+                "repositories.*.type": "",
+                "repositories.*.url": "",
+                "extension_id": "",
+                "update_mode": "",
+                "package": "",
+                "version": "",
+                "github_oauth": "",
+                "github_oauth.*": "",
+                "gitlab_oauth": "",
+                "gitlab_oauth.*": "",
+                "gitlab_token": "",
+                "gitlab_token.*": "",
+                "bearer": "",
+                "bearer.*": ""
+            }
+        }
+    }
+}

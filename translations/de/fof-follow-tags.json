@@ -20,7 +20,7 @@
             },
             "sub_controls": {
                 "header": "Dein Abo von \"{tagName}\"",
-                "subscription_label": "Wähle die Art aus, wie du \"{tagName}\" abonnierst:",
+                "subscription_label": "Wähle die Art aus, wie du \"{tagName}\" abonnierst",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Über alle neuen Diskussionen benachricht werden.",
@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "Erhalte eine E-Mail, wenn neue Diskussionen oder Beiträge existieren",
                 "submit_button": "Abo bestätigen"
             },
+            "hero": {
+                "title": ""
+            },
             "notifications": {
                 "new_discussion_text": "{username} gestartet",
                 "new_post_text": "{username} gepostet",
@@ -44,13 +47,13 @@
             "user": {
                 "settings": {
                     "heading": "Follow Tags",
-                    "filter_label": "Was standardmäßig auf der folgenden Seite angezeigt werden soll"
+                    "filter_label": "Was standardmäßig auf der \"Folgen\"-Seite angezeigt werden soll"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "Standardfilterung der folgenden Seiten",
+                "following_page_default_label": "Standardfilterung der \"Folgen\"-Seiten",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
@@ -79,12 +82,12 @@
             }
         }
     },
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Exportiert die Details der Abonnementstufe für einen Tag, falls eine solche existiert.",
+                    "anonymize_description": "Entfernt das Abonnement des Nutzers für den Tag."
                 }
             }
         }

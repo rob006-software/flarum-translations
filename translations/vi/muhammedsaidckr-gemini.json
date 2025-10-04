@@ -1,0 +1,27 @@
+{
+    "muhammedsaidckr-gemini": {
+        "admin": {
+            "settings": {
+                "api_key_label": "Khóa API",
+                "api_key_help": "Lấy khóa API Gemini từ <a>google.gemini.com</a>.",
+                "model_label": "Mô hình",
+                "model_help": "Chọn mô hình sẽ được sử dụng.",
+                "role_label": "Vai trò",
+                "role_help": "Chọn vai trò sẽ được sử dụng để tạo câu trả lời.",
+                "prompt_label": "Prompt",
+                "prompt_help": "Nhập prompt sẽ được sử dụng để tạo câu trả lời. Biến [title] cần được giữ nguyên.",
+                "user_prompt_label": "Prompt người dùng",
+                "user_prompt_help": "Nhập ID người dùng sẽ được sử dụng để tạo câu trả lời. Mặc định là người bắt đầu cuộc thảo luận.",
+                "user_prompt_badge_label": "Huy hiệu prompt người dùng",
+                "user_prompt_badge_help": "Văn bản sẽ được hiển thị bên cạnh prompt người dùng.",
+                "enable_on_discussion_started_label": "Bật khi thảo luận bắt đầu",
+                "enable_on_discussion_started_help": "Cuộc thảo luận sẽ nhận được một câu trả lời dựa trên nội dung của bài viết đầu tiên khi cuộc thảo luận được bắt đầu.",
+                "enabled_tags_label": "Thẻ đã bật",
+                "enabled_tags_help": "Chọn thẻ nào sẽ được sử dụng để tạo câu trả lời."
+            },
+            "permissions": {
+                "use_gemini_assistant_label": "Sử dụng Gemini Assistant"
+            }
+        }
+    }
+}

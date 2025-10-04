@@ -2,54 +2,54 @@
     "askvortsov-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Kategorier"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Behålla länken till tagg-sidan i navigationsfältet?",
+                "child_bare_icon": "Rena ikoner för underkategorier?",
+                "compact_mobile_mode": "Kompakt mobilt läge",
+                "full_page_desktop": "Helsidesvisning?",
+                "parent_remove_icon": "Gömma ikoner för högsta nivåns taggar?",
+                "parent_remove_description": "Gömma beskrivningar för högsta nivåns taggar?",
+                "parent_remove_stats": "Gömma statistik för högsta nivåns taggar?",
+                "parent_remove_last_discussion": "Gömma senaste diskussionerna för högsta nivåns taggar?",
+                "small_forum_optimized": "Optimera för små forum?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Ska ikonerna för underkategorier visas utan rund bakgrund?",
+                "full_page_desktop": "Ska navigationsmenyn i sidofältet ändras till en rad (som på den traditionella tagg-sidan)? Detta kommer också widget-ikoner (så som Friends of Flarum Forum Statistics) från kategorisidans navigationsfält.",
+                "small_forum_optimized": "Antalet diskussioner/inlägg kommer att bli mer korrekt, men mellanstora och stora forum kommer att bli betydligt långsammare."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigation",
+                "layout": "Layout",
+                "parent_display": "Visning av högre kategori",
+                "child_display": "Visning av underkategori",
+                "performance": "Prestanda"
             },
-            "title": ""
+            "title": "Inställningar för kategorier"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Alla kategorier",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Tillbaka till kategorier"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> askvortsov-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Diskussioner",
+                "post_label": "Inlägg"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Inga diskussioner (Ännu!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategorier"
         }
     }
 }

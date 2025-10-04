@@ -6,7 +6,7 @@
                 "body": "Hallo,\n\nDu wurdest für eine Registrierung in {forum} eingeladen.\n\nWenn du bereit bist, dir ein Konto zu erstellen, klicke einfach auf den folgenden Link und gebe den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nIgnoriere diese E-Mail sollte sie fälschlicherweise versandt worden sein.\n"
             },
             "sign_up": {
-                "invalid_doorkey": "Der von Dir eingegebene Einladungscode ist ungültig.",
+                "invalid_doorkey": "Der von dir eingegebene Einladungscode ist ungültig.",
                 "doorkey_required": "Bitte gebe einen Einladungscode ein.",
                 "doorman_placeholder": "Einladungscode",
                 "doorman_placeholder_optional": "Einladungscode (optional)"
@@ -23,7 +23,7 @@
                 "send": "E-Mails senden",
                 "success": "E-Mails erfolgreich gesendet"
             },
-            "invalid_doorkey": "Der von Dir angegebene Einladungscode ist ungültig.",
+            "invalid_doorkey": "Der von dir angegebene Einladungscode ist ungültig.",
             "doorkey_required": "Du musst einen Einladungscode angeben",
             "nav": {
                 "desc": "Erstelle Einladungscodes für Benutzer, um sich anzumelden und einer Gruppe zugewiesen zu werden"
@@ -54,7 +54,121 @@
                         "switch-label": "Setze den Einladungscode bei der Anmeldung auf optional"
                     }
                 }
+            },
+            "ref": {
+                "fields": {
+                    "key": {
+                        "label": "Schlüssel",
+                        "help": "Code, den Nutzer bei der Registrierung verwenden."
+                    },
+                    "group": {
+                        "label": "Gruppe",
+                        "help": "Die Gruppe, zu der Benutzer bei Verwendung dieses Einladungscodes zur Registrierung hinzugefügt wird."
+                    },
+                    "max_uses": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "activates_user": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
+            },
+            "modals": {
+                "create_doorkey": {
+                    "title": "Neuen Einladungscode erstellen",
+                    "key": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "group": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "max_uses": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "activates_user": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "submit_button": "Einladungscode erstellen",
+                    "submit_and_create_another_button": ""
+                },
+                "edit_doorkey": {
+                    "title": "",
+                    "key": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "group": {
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
+                    },
+                    "max_uses": {
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
+                    },
+                    "activates_user": {
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
+                    },
+                    "submit_button": "Änderungen speichern"
+                },
+                "send_invites": {
+                    "title": "Einladungscodes senden",
+                    "group": "Einladungen für Gruppe {group} senden",
+                    "help": "Akzeptiert wird eine Komma-, Leerzeichen- oder Komma-Leerzeichen-separierte Liste. Gib eine einzelne E-Mail ein oder füge eine Liste ein gefolgt von einem Leerzeichen, um sie hinzuzufügen.",
+                    "placeholder": "E-Mails hier eingeben",
+                    "invalid_emails": "Die folgende(n) E-Mail(s) sind ungültig: {emails}",
+                    "max_use_conflict": "Die Anzahl der E-Mails übersteigt die erlaubte Anzahl für diesen Code.",
+                    "send": "E-Mails senden",
+                    "success": "E-Mails erfolgreich gesendet"
+                }
+            },
+            "settings": {
+                "search": "",
+                "total_doorkeys": "",
+                "create_doorkey_button": "Einladungscode erstellen",
+                "optional_usage": ""
+            },
+            "list": {
+                "columns": {
+                    "id": "",
+                    "key": "",
+                    "group": "",
+                    "max_uses": "",
+                    "activates_user": "",
+                    "manage": "",
+                    "uses": "",
+                    "created_by": ""
+                },
+                "content": {
+                    "invalid_column": "",
+                    "no_group": "",
+                    "warning": "",
+                    "delete": "Soll der Einladungscode \"{key}\" gelöscht werden?",
+                    "uses": {
+                        "used_times": "",
+                        "total_uses": ""
+                    },
+                    "no_created_by": ""
+                },
+                "pagination": {
+                    "first_page_button": "",
+                    "back_button": "",
+                    "page_counter": "",
+                    "go_to_page_textbox_a11y_label": "",
+                    "next_button": "",
+                    "last_page_button": ""
+                }
             }
+        },
+        "email": {
+            "subject": "",
+            "body": ""
         }
     }
 }

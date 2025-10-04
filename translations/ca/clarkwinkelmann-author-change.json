@@ -2,30 +2,30 @@
     "clarkwinkelmann-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Editar autor i data"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "title-post": "Editar autor i data de la publicació",
+                "title-discussion": "Editar autor i data del debat",
+                "user": "Autor",
+                "created_at": "Data de creació",
+                "edited_at": "Data d'edició",
+                "sync-with-discussion": "Sincronitzar amb el debat",
+                "sync-with-post": "Sincronitzar amb la primera publicació",
+                "sync-impossible": "No es pot trobar la primera publicació. Prova a pujar fins a l'inici del debat.",
+                "submit": "Desar",
+                "cancel": "Cancel·lar"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Cercar usuaris",
+                "type-more": "Escriu 3 caràcters per cercar a la base de dades",
+                "no-results": "Sense resultats"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Actualitzar autor del debat i de la publicació",
+                "edit-date": "Actualitzar data del debat i de la publicació"
             }
         }
     }

@@ -2,19 +2,19 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "",
-                "title": "",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "api_key_label": "API ئاچقۇچى",
+                "title": "Akismet تەڭشەكلىرى",
+                "delete_blatant_spam_label": "ئۆزلۈكىدىن ئوپئوچۇق زىيانلىق پروگراممىلارنى ئۆچۈرۈش",
+                "delete_blatant_spam_help": "ئەگەر Akismet ئىنكاسنى ئوپئوچۇق زىيانلىق يازما دەپ بەلگىلەسە، بەلگىلەشنىڭ ئورنىغا، يازمىنى ئۆزلۈكىدىن ئۆچۈرۈش"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Akismetنى ئايلىنىپ ئۆتۈش"
             }
         },
         "forum": {
             "post": {
-                "akismet_flagged_text": "",
-                "not_spam_button": ""
+                "akismet_flagged_text": "Akismet تەرىپىدىن زىيانلىق دەپ بەلگىلەندى",
+                "not_spam_button": "زىيانلىق ئەمەس"
             }
         }
     }

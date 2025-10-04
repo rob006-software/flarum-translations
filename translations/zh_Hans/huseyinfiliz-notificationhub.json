@@ -1,0 +1,65 @@
+{
+    "huseyinfiliz-notificationhub": {
+        "admin": {
+            "title": {
+                "page_title": "通知类型"
+            },
+            "permissions": {
+                "send_all": "向所有用户发送通知",
+                "send_user": "向特定用户发送通知"
+            },
+            "settings": {
+                "add_button": "添加通知类型",
+                "no_data": "尚未设置通知类型。",
+                "delete_confirm": "确定要删除此通知类型及其所有相关通知吗？",
+                "fields": {
+                    "actions": "",
+                    "name": "通知类型名称",
+                    "excerpt_key": "默认摘要",
+                    "description": "通知类型描述",
+                    "icon": "默认图标",
+                    "default_message_key": "默认消息",
+                    "permission": "通知类型权限",
+                    "color": "通知类型颜色",
+                    "default_url": "默认链接",
+                    "default_recipients": "默认收件人",
+                    "sort_order": "排序顺序",
+                    "active": ""
+                },
+                "save": "保存",
+                "edit_notification_type": "编辑消息类型",
+                "add_notification_type": "=> huseyinfiliz-notificationhub.admin.settings.add_button"
+            }
+        },
+        "forum": {
+            "links": {
+                "notification_individual": "发送通知",
+                "notification_all": "=> huseyinfiliz-notificationhub.forum.links.notification_individual"
+            },
+            "modal_notification": {
+                "title_text": "=> huseyinfiliz-notificationhub.forum.links.notification_individual",
+                "recipients_label": "收件人",
+                "recipients_placeholder": "",
+                "message_label": "",
+                "url_label": "",
+                "url_placeholder": "",
+                "submit_button": "",
+                "notification_sent_message": "",
+                "notification_type_label": "",
+                "no_notification_types": "",
+                "preview_title": "",
+                "preview_message_placeholder": ""
+            },
+            "recipient_kinds": {
+                "user": "",
+                "group": ""
+            }
+        },
+        "api": {
+            "message_required": "",
+            "user_ids_required": "",
+            "subject_id_required": "",
+            "no_valid_recipients": ""
+        }
+    }
+}

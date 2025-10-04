@@ -46,6 +46,11 @@
                 "subject": "Din konto er blevet suspenderet",
                 "body": "Hej {recipient_display_name},\n\nVi har fjernet din suspendering. Du kan gå tilbage til forummet ved at klikke på følgende link:\n\n{forum_url}\n"
             }
+        },
+        "validation": {
+            "attributes": {
+                "suspendedUntil": ""
+            }
         }
     }
 }

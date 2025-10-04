@@ -1,37 +1,37 @@
 {
     "clarkwinkelmann-popular-discussion-badge": {
         "forum": {
-            "badge_label": ""
+            "badge_label": "Beliebt"
         },
         "admin": {
             "settings": {
-                "mode": "",
-                "mode_help": "",
+                "mode": "Funktionsweise",
+                "mode_help": "Der Frontend-Modus ist eine effiziente Lösung, die nicht auf die Datenbank zurückgreift. Der Scheduler-Modus erfordert eine CRON-Einrichtung und erlaubt Zeitspannen in den Bedingungen.\n",
                 "mode_options": {
-                    "frontend": "",
-                    "scheduler": ""
+                    "frontend": "Frontend",
+                    "scheduler": "Scheduler (CRON)"
                 },
                 "scheduler_frequency": "",
                 "scheduler_frequency_help": "",
                 "scheduler_frequency_options": {
-                    "everyFiveMinutes": "",
-                    "everyTenMinutes": "",
-                    "everyFifteenMinutes": "",
-                    "everyThirtyMinutes": "",
-                    "hourly": ""
+                    "everyFiveMinutes": "Alle 5 Minuten",
+                    "everyTenMinutes": "Alle 10 Minuten",
+                    "everyFifteenMinutes": "Alle 15 Minuten",
+                    "everyThirtyMinutes": "Alle 30 Minuten",
+                    "hourly": "Einmal die Stunde"
                 },
-                "conditions": "",
+                "conditions": "Bedingungen für das Beliebt-Abzeichen",
                 "conditions_help": "",
-                "add": "",
-                "comments": "",
-                "comments_placeholder": "",
-                "views": "",
-                "views_placeholder": "",
+                "add": "Neue Bedingung hinzufügen",
+                "comments": "Kommentare",
+                "comments_placeholder": "0",
+                "views": "Aufrufe",
+                "views_placeholder": "0",
                 "within": "",
                 "within_placeholder": "",
                 "hours": "",
-                "and": "",
-                "or": ""
+                "and": "UND",
+                "or": "ODER"
             }
         }
     }

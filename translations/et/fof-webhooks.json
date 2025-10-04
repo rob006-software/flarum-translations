@@ -2,35 +2,35 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Alustas vestlust `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Nimetas vestluse `{1}` ümber",
+                    "description": "Uus pealkiri: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Peitis vestluse `{1}`",
+                "restored": "Taastas vestluse `{1}`",
+                "deleted": "Kustutas vestluse `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Lõi grupi `{1}`",
+                "renamed": "Nimetas ümber grupi. Uus nimi on `{1}`",
+                "deleted": "Kustutas grupi `{1}`"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": "",
-                "approved": ""
+                "posted": "Uus postitus`{1}`",
+                "revised": "Muutis postitust `{1}`",
+                "hidden": "Peitus postituse `{1}`",
+                "restored": "Taastas postituse vestluses `{1}`",
+                "deleted": "Kustutas postituse silidiga `{1}`",
+                "approved": "Kiitis heaks postituse sildiga `{1}`"
             },
             "user": {
-                "registered": "",
+                "registered": "Uus kasutaja on registreeritud",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Muutis `{1}` kasutajanime",
+                    "description": "Uus kasutajanimi: {1}"
                 },
-                "deleted": ""
+                "deleted": "Kustutas kasutaja `{1}`"
             }
         },
         "adapters": {
@@ -40,8 +40,8 @@
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": "",
+                "service_not_found": "Teenust \"{service}\" ei leitud.",
+                "url_invalid": "URL ei sobi valitud teenuse jaoks.",
                 "tag_invalid": "",
                 "tag_disabled": ""
             },
@@ -49,10 +49,10 @@
                 "desc": ""
             },
             "settings": {
-                "debug_label": "",
+                "debug_label": "Veatuvastus",
                 "debug_help": "",
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "Ükskõik, milline silt"
                 },
                 "help": {
                     "disabled": "",
@@ -63,63 +63,66 @@
                 "modal": {
                     "title": "",
                     "description": "",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
+                    "use_plain_text_label": "Vähenda vormindamist postituse sisus",
+                    "max_post_content_length_label": "Maksimaalne postituse sisu pikkus",
                     "max_post_content_length_help": "",
-                    "extra_text_label": "",
+                    "extra_text_label": "Lisa tekst",
                     "extra_text_help": "",
-                    "group_label": "",
+                    "group_label": "Grupp",
                     "group_help": "",
-                    "events_label": ""
+                    "name_label": "Nimi",
+                    "name_help": "",
+                    "events_label": "Sündmused",
+                    "include_matching_tags_label": ""
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
-                    "microsoft-teams": ""
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Flarum foorum",
+                            "started": "Algas",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Flarumi grupp",
+                            "created": "Loodud",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Flarumi postitus",
+                            "posted": "Postitatud",
+                            "revised": "Muudetud",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Flarumi kasutaja",
+                            "registered": "Registreerunud",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Flarumi heakskiit",
+                            "postwasapproved": "Postitud on heaks kiidetud"
                         }
                     }
                 }
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Kustutatud",
+            "hidden": "Peidetud",
+            "renamed": "Ümber nimetatud",
+            "restored": "Taastatud"
         }
     }
 }

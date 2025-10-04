@@ -43,6 +43,7 @@
                 "about_tags_text": "Mærkater bruges til at kategorisere diskussioner. Primære mærkater er som traditionelle forumkategorier: de kan arrangeres i et to-niveau hierarki. Sekundære mærkater har ikke hierarki eller rækkefølge og er nyttige til mikrokategorisering.",
                 "create_primary_tag_button": "Opret primært mærkat",
                 "create_secondary_tag_button": "Opret sekundært mærkat",
+                "edit_tag_label": "",
                 "primary_heading": "Primære mærkater",
                 "secondary_heading": "Sekundære mærkater",
                 "settings_heading": "Indstillinger"
@@ -101,6 +102,17 @@
             "choose_tags_placeholder": "",
             "name": "Navn",
             "tags": "Mærkater"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

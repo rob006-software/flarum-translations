@@ -2,86 +2,86 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Marcar l'usuari com a spammer"
             },
             "settings": {
-                "button": "",
+                "button": "Configuració",
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
-                    "delete_posts_help": "",
-                    "heading": "",
-                    "introduction": "",
-                    "move_discussions_to_tags_label": "",
-                    "move_discussions_to_tags_help": ""
+                    "delete_user_label": "Esborrar usuari",
+                    "delete_user_help": "Aquesta acció esborrarà el compte d'usuari definitivament. Quan estigui desactivada, només se suspendrà.",
+                    "delete_discussions_label": "Esborrar debats",
+                    "delete_discussions_help": "Aquesta acció esborrarà definitivament tots els debats iniciats per aquest usuari. Quan estigui desactivada, només quedaran ocults.",
+                    "delete_posts_label": "Esborrar publicacions",
+                    "delete_posts_help": "Aquesta acció esborrarà definitivament totes les publicacions fetes per aquest usuari. Quan estigui desactivada, només quedaran ocultes.",
+                    "heading": "Accions de moderació per defecte",
+                    "introduction": "Quan un usuari es marca com a spammer, els moderadors poden triar entre diverses accions sobre com tractar el cas d'ús concret. Aquests paràmetres et permeten establir prèviament les accions que faràs normalment, per accelerar el procés, però també permeten variacions segons sigui necessari.\n",
+                    "move_discussions_to_tags_label": "Moure debats a altres etiquetes",
+                    "move_discussions_to_tags_help": "Aquesta acció mourà tots els debats iniciats per aquest usuari a la etiqueta o etiquetes que indiquis. Esborra la selecció d'etiquetes per deixar els debats a les seves etiquetes originals. No té cap efecte si l'opció \"Suprimeix els debats\" està activada."
                 },
                 "stopforumspam": {
-                    "heading": "",
-                    "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
-                    "frequency_label": "",
-                    "frequency_help": "",
-                    "api_key_label": "",
-                    "api_key_text": "",
-                    "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
-                    "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
-                    "confidence_help": "",
-                    "email_hash_label": "",
-                    "email_hash_help": "",
-                    "sfs_lookup_label": "",
-                    "sfs_lookup_help": "",
-                    "report_blocked_registrations_label": "",
-                    "report_blocked_registrations_help": ""
+                    "heading": "StopForumSpam",
+                    "introduction": "Comprova els registres d'usuaris nous a la base de dades <a>StopForumSpam</a>. Si els llindars <code>confiança</code> o <code>freqüència</code> són ultrapassats, l'usuari no podrà registrar-se al fòrum.\n\nTambé es suporten els registres mitjançant les extensions de SSO <code>fof/oauth</code> i <code>fof/passport</code>. Altres proveïdors d'inici de sessió mitjançant SSO (Single Sign On = Inici de sessió únic), també haurien de funcionar, però no s'han provat.\n",
+                    "username_label": "Comprovació de spam del nom d'usuari",
+                    "ip_label": "Comprovació de spam de l'adreça IP",
+                    "email_label": "Comprovació de spam del correu",
+                    "frequency_label": "Llindar",
+                    "frequency_help": "El nombre d'informes de spam entre totes les comprovacions activades activarà el filtre de prevenció.\nPer exemple: si el correu té 1 informe de spam i l'adreça IP en té 2, seran 3 en total. Si el llindar és 3 o inferior, no es permetrà registrar-se a l'usuari.\n",
+                    "api_key_label": "Clau API",
+                    "api_key_text": "Tens l'opció de notificar els spammers a StopForumSpam per tal de facilitar que altres fòrums d'arreu també puguin reduir el spam que reben.",
+                    "api_key_instructions_text": "<register>Registra't a StopForumSpam</register>. Et caldrà <key>obtenir una clau API</key>.",
+                    "regional_endpoint_label": "Accés geogràfic",
+                    "regional_endpoint_help": "Per defecte, utilitzarem el servidor regional més proper per proporcionar la resposta més ràpida. Si necessites restringir el trànsit a una regió específica, per exemple per complir amb les regulacions de privadesa de la teva empresa o país, pots forçar la connexió a una regió específica.",
+                    "region_closest_label": "Més proper",
+                    "region_europe_label": "Europa",
+                    "region_us_label": "Estats Units",
+                    "confidence_label": "Confiança",
+                    "confidence_help": "La puntuació de confiança és un indicador raonablement bo de que el contingut que es comprova donaria lloc a una activitat no desitjada. Estableix el teu nivell de confiança com a percentatge. Si el camp és igual o superior a aquesta xifra, el registre es bloquejarà, independentment de la prova de \"freqüència\" anterior.",
+                    "email_hash_label": "Utilitza l'adreça de correu, com a cadena encriptada hash",
+                    "email_hash_help": "Passa un valor codificat hash MD5 de l'adreça de correu electrònic, si no vols passar l'adreça de correu electrònic en si. Aquest mètode evita totes les comprovacions de llistes negres, normalització i ofuscació.",
+                    "sfs_lookup_label": "Cerca inscripcions",
+                    "sfs_lookup_help": "Si està activat, comprovarem la base de dades StopForumSpam quan un nou usuari es registri al teu fòrum. Si es troba l'usuari (nom d'usuari, adreça IP, correu electrònic) i aquest punt de dades està habilitat juntament amb el nivell de confiança SFS que arriba al teu nivell definit, se li impedirà completar el seu registre.",
+                    "report_blocked_registrations_label": "Informar d'inscripcions bloquejades",
+                    "report_blocked_registrations_help": "Quan la funció de cerca d'inscripcions en bloqueja una, informarem de l'intent a StopForumSpam, de manera que l'activitat dels spammers es pugui confirmar millor. Cal establir una clau de l'API StopForumSpam (vegeu més avall)."
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
-                "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "button": "Inscripcions bloquejades",
+                "title": "Inscripcions bloquejades",
+                "no-records": "No s'ha trobat cap inscripció bloquejada.",
+                "help": "Aquesta pàgina mostra totes les inscripcions que han estat bloquejades pel servei StopForumSpam. Pots veure els detalls de cada inscripció i, si vols, pots esborrar el registre de la base de dades.\n",
+                "attempted-at": "Intentat el",
+                "ip": "Adreça IP",
+                "email": "Adreça de correu electrònic",
+                "username": "Nom d'usuari",
+                "login-provider": "Proveïdor de servei d'inici de sessió",
+                "login-provider-data": "Dades del proveïdor del servei d'inici de sessió",
+                "sfs-data": "Dades de StopForumSpam",
+                "delete_entry": "Esborrar entrada"
             }
         },
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "La teva inscripció ha estat bloquejada perquè s'han trobat detalls de les teves dades a una base de dades de prevenció de correu brossa."
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
-                "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
-                "report_to_sfs_help": ""
+                "hard_delete_discussions_label": "Esborrar debats",
+                "hard_delete_discussions_help": "Aquesta acció esborrarà definitivament tots els debats iniciats per aquest usuari. Quan estigui desactivada, només quedaran ocults.",
+                "hard_delete_posts_label": "Esborrar publicacions",
+                "hard_delete_posts_help": "Aquesta acció esborrarà definitivament totes les publicacions (comentaris, respostes, etc) fetes per aquest usuari. Quan estigui desactivada, només quedaran ocultes.",
+                "hard_delete_user_label": "Esborrar usuari",
+                "hard_delete_user_help": "Aquesta acció esborrarà definitivament aquest compte d'usuari. Quan estigui desactivada, només quedarà suspès.",
+                "intro": "Quan es marqui un usuari com a spammer, es produiran diferents accions, les quals dependran de les extensions actives al teu fòrum.",
+                "move_discussions_tag_label": "Moure debats a l'etiqueta utilitzada per als continguts en quarentena",
+                "move_discussions_tag_help": "Aquesta acció mourà tots els debats iniciats per aquest usuari a l'etiqueta que hagis especificat a la configuració del fòrum. Quan estigui desactivada, els debats romandran amb les etiquetes actuals.",
+                "process_button": "Processar",
+                "title": "Marcar {username} com a spammer",
+                "report_to_sfs_label": "Notificar a StopForumSpam",
+                "report_to_sfs_help": "Aquesta acció informarà dels detalls bàsics del compte (nom d'usuari, correu electrònic i adreça IP) a StopForumSpam. Això evitarà que l'usuari es registri en altres fòrums que utilitzin el servei de StopForumSpam."
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "Spammer"
             }
         }
     }

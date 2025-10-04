@@ -2,25 +2,33 @@
     "serakoi-flarumstaffbadge": {
         "admin": {
             "staffBadge": {
-                "label": "",
-                "help": ""
+                "label": "Personali märgi tekst",
+                "help": "Personali märgi tekst (PERSONAL)"
             },
             "staffBadgeTextColor": {
-                "label": "",
-                "help": ""
+                "label": "Personali märgi värv",
+                "help": "Sildi värv (vaike"
             },
             "staffBadgeTextBg": {
-                "label": "",
-                "help": ""
+                "label": "Personali sildi taustavärv",
+                "help": "Märgi värv (vaikeväärtus in 'rgb(70, 209, 96)')"
+            },
+            "permissions": {
+                "canEditStaffBadge": {
+                    "label": "Võib personalimärki muuta"
+                },
+                "canEditTagList": {
+                    "label": "Võib siltide nimekirja muuta"
+                }
             }
         },
         "forum": {
             "edit_user": {
-                "heading": "",
-                "placeholder": "",
+                "heading": "Personali märgi kasutamine on sisse lülitatud",
+                "placeholder": "Märgi aktiveerimiseks vali sisendiks 'tõene'",
                 "tagList": {
-                    "heading": "",
-                    "placeholder": ""
+                    "heading": "Kasutaja siltide nimekiri",
+                    "placeholder": "Eralda komaga ,"
                 }
             }
         }

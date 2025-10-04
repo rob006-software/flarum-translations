@@ -3,11 +3,11 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
-                "dsn_help": "如果你使用一個中繼DSN作為主要的DSN，不要勾選 \"用戶反饋\"，因為它將不會起作用。",
+                "dsn_help": "如果你使用一個中繼DSN作為主要的DSN，不要勾選 \"用戶回饋\"，因為它將不會起作用。",
                 "dsn_backend_label": "Sentry DSN (僅後端)",
                 "dsn_backend_help": "這個DSN將只用於處理後端錯誤。如果你想用一個不同的項目來處理後端錯誤，或者想用一個Relay來發送後端錯誤到Sentry（例如，為了提高性能），這很有用。",
                 "environment_label": "Sentry 監控環境",
-                "user_feedback_label": "使用者反饋",
+                "user_feedback_label": "使用者回饋",
                 "send_user_emails_label": "發送 Sentry 報告時包含用戶郵箱？",
                 "monitor_performance_label": "後端性能監測率 (0 - 100)",
                 "profile_rate_label": "後端分析率 (0 - 100)",

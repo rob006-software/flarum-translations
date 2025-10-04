@@ -1,0 +1,50 @@
+{
+    "fof-horizon": {
+        "admin": {
+            "settings": {
+                "trim_title": "Verwijder instellingen",
+                "trim_help": "Hier kan je instellen hoe lang (in minuten) gewenst is dat Horizon de recente\nen mislukte taken bewaart. Meestal worden recente taken een uur bewaard,\nterwijl alle mislukte taken een hele week worden bewaard.\n",
+                "trim_recent": "Recente opdrachten verwijderen",
+                "trim_recent_help": "Deze tabel wordt gebruikt om recente taken weer te geven in het Horizon dashboard.\n",
+                "trim_pending": "Afwachtende opdrachten verwijderen",
+                "trim_pending_help": "Deze tabel wordt gebruikt voor afwachtende opdrachten weer te geven in het Horizon dashboard.\n",
+                "trim_completed": "Voltooide opdrachten verwijderen",
+                "trim_completed_help": "Deze tabel wordt gebruikt om voltooide opdrachten weer te geven in het Horizon dashboard.\n",
+                "trim_recent_failed": "Recent gefaalde opdrachten verwijderen",
+                "trim_recent_failed_help": "Deze tabel wordt gebruikt om recent gefaalde opdrachten weer te geven in het Horizon dashboard.\n",
+                "trim_failed": "Mislukte opdrachten verwijderen",
+                "trim_failed_help": "Deze tabel wordt gebruikt om gefaalde taken weer te geven in het Horizon dashboard.\n",
+                "trim_monitored": "Gemonitorde opdrachten verwijderen",
+                "trim_monitored_help": "Deze tabel wordt gebruikt om gemonitorde taken weer te geven in het Horizon dashboard.\n"
+            },
+            "stats": {
+                "auto_refresh": "Automatisch vernieuwen",
+                "heading": "Overzicht wachtrijen",
+                "full_dashboard": "Horizon Dashboard",
+                "refresh": "Vernieuw",
+                "data": {
+                    "redis-used-memory": "Cache opslag Gebruikt geheugen",
+                    "redis-peak-memory": "Cache opslag Piek geheugen",
+                    "redis-max-memory": "Cache opslag Maximaal geheugen",
+                    "redis-memory-policy": "Geheugenbeleid voor cacheopslag",
+                    "redis-memory-policy-tooltip": "Het geheugenbeleid is de manier waarop de cacheopslag wordt geselecteerd wat er verwijderd moet worden\nwanneer de maximale geheugenlimiet is bereikt. De standaardwaarde is `noeviction`: Nieuwe waarden\nworden niet opgeslagen als het geheugenlimiet is bereikt. Klik om de notificatie te bekijken.\n",
+                    "redis-ops-per-sec": "Operaties per seconde",
+                    "redis-connected-clients": "Verbonden clients",
+                    "redis-blocked-clients": "Geblokkeerde clients",
+                    "jobs-per-minute": "Opdrachten per minuut",
+                    "jobs-past-hour": "Opdrachten afgelopen uur",
+                    "failed-last-seconds": "Gefaalde opdrachten afgelopen paar seconden",
+                    "status": {
+                        "label": "Status",
+                        "running": "Draaiend",
+                        "inactive": "Inactief"
+                    },
+                    "total-processes": "Totaal aantal processen",
+                    "max-wait-time": "Maximale wachttijd",
+                    "max-runtime": "Maximale looptijd",
+                    "max-throughput": "Maximale doorvoer"
+                }
+            }
+        }
+    }
+}

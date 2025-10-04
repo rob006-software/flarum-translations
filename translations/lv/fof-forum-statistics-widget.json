@@ -2,28 +2,28 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "Foruma statistika",
+                "discussions_count": "Diskusijas: {discussionsCount}",
+                "posts_count": "Ziņas: {postsCount}",
+                "users_count": "Dalībnieki: {usersCount}",
+                "latest_member": "Jaunākais dalībnieks: "
             }
         },
         "admin": {
             "settings": {
-                "cache_duration_label": "",
-                "cache_duration_help": "",
-                "flush_cache_on_new_registration_label": "",
-                "flush_cache_on_new_registration_help": "",
-                "widget_ignore_private_discussions_label": "",
-                "widget_order_label": "",
-                "widget_helper_text": ""
+                "cache_duration_label": "Kešatmiņas ilgums",
+                "cache_duration_help": "Norādiet, cik ilgi logrīka statistika ir jāsaglabā kešatmiņā (sekundēs). <code>0</code>, lai atspējotu saglabāšanu kešatmiņā (nav ieteicams).",
+                "flush_cache_on_new_registration_label": "Izskalojiet statistikas kešatmiņu jaunai reģistrācijai",
+                "flush_cache_on_new_registration_help": "Ja tas ir iespējots, statistikas kešatmiņa tiks izskalota, kad forumā reģistrēsies jauns lietotājs.",
+                "widget_ignore_private_discussions_label": "Ignorējiet privātās diskusijas",
+                "widget_order_label": "Logrīku secība",
+                "widget_helper_text": "Rediģējiet šo iestatījumu, lai pielāgotu šī logrīka pozīciju jūsu Flarum foruma sānu navigācijas sadaļā. Jo lielāks skaitlis, jo augstāks šis logrīks būs sidenav vienumu sarakstā (šī vērtība var būt pozitīva vai negatīva)."
             },
             "permissions": {
-                "view_discussions_count_label": "",
-                "view_posts_count_label": "",
-                "view_users_count_label": "",
-                "view_lastest_member_label": ""
+                "view_discussions_count_label": "Skatīt foruma statistikas logrīku diskusiju skaitu",
+                "view_posts_count_label": "Skatīt foruma statistikas logrīku ziņu skaitu",
+                "view_users_count_label": "Skatīt foruma statistikas logrīku lietotāju skaitu",
+                "view_lastest_member_label": "Skatīt foruma statistikas logrīku jaunākais dalībnieks"
             }
         }
     }

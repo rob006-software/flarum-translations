@@ -5,7 +5,12 @@
                 "show_progress_label": "",
                 "show_progress_help": "",
                 "allow_close_label": "",
-                "allow_close_help": ""
+                "allow_close_help": "",
+                "skip_null_elements_label": "",
+                "skip_null_elements_help": ""
+            },
+            "permissions": {
+                "reset_tour_guide": ""
             },
             "edit_modal": {
                 "edit_step": "",
@@ -13,18 +18,26 @@
                 "delete_step": "",
                 "delete_step_confirmation": ""
             },
+            "add_step": "",
             "title": "",
             "title_placeholder": "",
             "description": "",
             "description_placeholder": "",
             "target": "",
-            "target_placeholder": ""
+            "target_placeholder": "",
+            "trigger_click": "",
+            "yes": "",
+            "no": ""
         },
         "forum": {
             "progress_text": "",
             "next_btn_text": "",
             "prev_btn_text": "",
-            "done_btn_text": ""
+            "done_btn_text": "",
+            "user_controls": {
+                "reset_tour_guide": "",
+                "reset_tour_guide_confirmation": ""
+            }
         }
     }
 }

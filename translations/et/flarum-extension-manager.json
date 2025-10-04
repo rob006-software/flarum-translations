@@ -1,0 +1,190 @@
+{
+    "flarum-extension-manager": {
+        "admin": {
+            "auth_config": {
+                "add_label": "Uus autentimisviis",
+                "add_modal": {
+                    "host_label": "Host",
+                    "host_placeholder": "näidis: extiverse.com",
+                    "submit_button": "Saada",
+                    "token_label": "Kontrollkood",
+                    "type_label": "Liik",
+                    "unchanged_token_placeholder": "(muutmata)"
+                },
+                "delete_confirmation": "Oled sa kindel, et soovid seda autentimisviisi kustutada?",
+                "delete_label": "Kustuta autentimisviis",
+                "edit_label": "Muuda autentimisviisi",
+                "fields": {
+                    "host": "Host",
+                    "token": "Kontrollkood"
+                },
+                "no_auth_methods_configured": "Ühtegi autentimisviisi pole seadistatud. See on valikuline funktsioon edasijõudnutele, mis võimaldab paigaldada privaatsetest hoidlatest.",
+                "remove_button_label": "Eemalda autentimisviis",
+                "title": "Autentimiseviisid",
+                "types": {
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab kontrollkood",
+                    "bearer": "HTTP Bearer"
+                }
+            },
+            "composer": {
+                "add_repository_label": "Lisa hoidla",
+                "delete_repository_confirmation": "Oled sa kindel, et soovid seda hoidlat kustutada? Kõik laiendused, mis on sellest hoidlast paigaldatud eemaldatakse.",
+                "delete_repository_label": "Kustuta hoidla",
+                "edit_repository_label": "Muuda hoidlat",
+                "title": "Composer",
+                "minimum_stability": {
+                    "label": "Minimaalne stabiilsus",
+                    "help": "Seda liiki pakette pole lubatud paigaldada. Muuda seda ainult siis kui sa tõesti tead, mida sa teed.",
+                    "options": {
+                        "stable": "Stabiilne (soovitatud)",
+                        "rc": "Väljalaske kandidaat",
+                        "beta": "Beeta",
+                        "alpha": "Alfa",
+                        "dev": "Arendusversioon"
+                    }
+                },
+                "repositories": {
+                    "label": "Hoidlad",
+                    "help": "Lisa hoidlaid, millest lisaprogramme paigaldada. See on funktsioon asjatundjatele. Ära lisa hoidlaid, mis pole usaldusväärsed, kuna selle kaudu võidakse sinu serveris käivitada pahatahtliku koodi.\n",
+                    "types": {
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "kaust"
+                    },
+                    "add_modal": {
+                        "name_label": "Nimi",
+                        "type_label": "Liik",
+                        "url": "URL",
+                        "submit_button": "OK"
+                    }
+                }
+            },
+            "exceptions": {
+                "composer_command_failure": "Käivitamine ebaõnnestus. Heida pilk composeri logidele kaustas storage/logs/composer.",
+                "extension_already_installed": "Laiendus on juba paigaldatud.",
+                "extension_not_directly_dependency": "Laiendus on paigaldatud kui mõne teise laienduse sõltuvus. Seda ei saa otse eemaldada.",
+                "extension_not_installed": "Laiendust ei leitud.",
+                "guessed_cause": {
+                    "extension_incompatible_with_instance": "Lisa tõenäoliselt ühildub sinu Flarumi versiooniga.",
+                    "extension_not_found": "Seda lisa ei leitud või seda pole olemas.",
+                    "extensions_incompatible_with_new_major": "Mõned paigaldatud lisaprogrammid pole uusima versiooniga ühilduvad. Oota, kuni arendajad on oma lisaprogramme uuendanud või eemalda need lisaprogrammid enne jätkamist.\n"
+                }
+            },
+            "extensions": {
+                "check_why_it_failed_updating": "Näita, miks see ei uuenda viimasele versioonile.",
+                "install": "Paigalda uus laiendus",
+                "install_help": "Enne jätkamist sisesta lisaprogrammi paketi nimi. Võid sisestada <semantic_link>semantilise versiooni</semantic_link> kasutades vormingut <code>arendaja/paketi nimi:versioon</code>. Lisaprogramme võid vaadata siit: {extiverse}.\n",
+                "proceed": "Jätka",
+                "remove": "Eemalda",
+                "successful_install": "{extension} paigaldati edukalt, ümbersuunamine..",
+                "successful_remove": "Laiendus on eemaldatud.",
+                "successful_update": "{extension} uuendati, ümbersuunamine...",
+                "update": "Uuenda",
+                "update_soft_label": "",
+                "update_hard_label": ""
+            },
+            "file_permissions": "Lisaprogrammide haldur vajab kirjutusõigust järgnevates failides ja kaustades: composer.json, composer.lock, vendor, storage, storage/.composer\n",
+            "major_updater": {
+                "description": "Peamised Flarumi uuendused pole tagasiühilduvad, mis tähendab, et sinu praegu paigaldatud lisaprogrammid ja käsitsi tehtud muudatused ei pruugi selle uue versiooniga töötada. Palun veendu, et oled teinud varukoopia oma andmebaasist ja failidest enne, kui sa jätkad.\n",
+                "dry_run": "Prooviuuendus",
+                "dry_run_help": "Prooviuuendus emuleerib uuendamise protsessi, et näha, kas uuendus toimiks turvaliselt. See ei tähenda, et käsitsi tehtud kohendused töötaksid uuema versiooniga.",
+                "failure": {
+                    "desc": "Viimane suurem uuendus ebaõnnestus. Mõned paigaldatud lisaprogrammid ei ühildu uue peamise versiooniga.",
+                    "why": "Otsi lisainfot"
+                },
+                "title": "Suur Flarumi {version} uuendus on saadaval",
+                "update": "Uuenda"
+            },
+            "minor_update_confirmation": {
+                "content": "See uuendab ka teised lisaprogrammid ja pakid uusimate saadaolevate versioonidega."
+            },
+            "sections": {
+                "control": {
+                    "title": "Haldaja"
+                },
+                "queue": {
+                    "columns": {
+                        "details": "Üksikasjad",
+                        "elapsed_time": "Lõpetatud",
+                        "peak_memory_used": "Kõrgeim mälukasutus",
+                        "operation": "Tegevus",
+                        "package": "Pakk",
+                        "status": "Staatus"
+                    },
+                    "none": "Ühtegi ülesannet pole veel.",
+                    "operations": {
+                        "extension_install": "Paigalda laiendus",
+                        "extension_remove": "Eemalda laiendus",
+                        "extension_update": "Uuenda laiendust",
+                        "update_check": "Kontrolli uuendusi",
+                        "update_global": "Uuenda kõiki tarkvarapakette",
+                        "update_major": "Peamine uuendus",
+                        "update_minor": "Väike uuendus",
+                        "why_not": "Analüüsi, miks paketti ei saa uuendada"
+                    },
+                    "output_modal": {
+                        "cause_unknown": "Tundmatu",
+                        "command": "Composeri käsk",
+                        "guessed_cause": "Põhjus",
+                        "output": "Väljund"
+                    },
+                    "refresh": "Värskenda ülesannete nimekirja",
+                    "statuses": {
+                        "success": "Korras",
+                        "failure": "Ebaõnnestus",
+                        "pending": "Ootel",
+                        "running": "Käimas"
+                    },
+                    "task_just_started": "Ülesanne just algas",
+                    "title": "Järjekord"
+                }
+            },
+            "settings": {
+                "title": "Seaded",
+                "access_warning": "Palun ole ettevaatlik, kui annad ligipääsu adminiliidesele, kuna lisaprogrammide haldurit on võimalik kasutada ka pahatahtlikult ning see võib viia turvaprobleemideni.",
+                "debug_mode_warning": "Sa töötad veatuvastusrežiimis. Lisaprogrammide haldur ei saa kohalikke pakke korrektselt paigaldada ja uuendada. Palun kasuta selle asemel käsurida.",
+                "queue_jobs": "Käivita toimingud järjekorras taustal",
+                "queue_jobs_help": "Võid lugeda lisainfot <a href='{basic_impl_link}'>lihtjärjekorra</a> või <a href='{adv_impl_link}'>lisavõimalustega järjekorra</a> kasutamise kohta. Veendu, et järjekorra jaoks kasutatav PHP versioon oleks {php_version}. Veendu, et <a href='{folder_perms_link}'>kaustade õigused</a> oleks korrektselt seadistatud.\n",
+                "task_retention_days": "Ülesande säilitamise aeg päevades",
+                "task_retention_days_help": "Päevade arv, mil lõpetatud ülesandeid hoitakse andmebaasis alles. Vanemad ülesanded kustutatakse. Kõikide ülesannete alleshoidmiseks sisesta 0.\n"
+            },
+            "updater": {
+                "up_to_date": "Kõik on ajakohane!",
+                "check_for_updates": "Kontrolli uuendusi",
+                "flarum": "Flarumi tuum",
+                "global_update_successful": "Kõik paketid on uuendatud.",
+                "last_update_checked_at": "Viimane uuenduste kontroll: ",
+                "run_global_update": "Käivita üldine uuendamine",
+                "updater_title": "Uuendused",
+                "updater_help": "Otsib Flarumi ja lisaprogrammide uuendusi."
+            },
+            "update_successful": "Flarum on uuendatud.",
+            "why_not_modal": {
+                "title": "Mis see ei uuenda"
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "minimaalne stabiilsus",
+                "repositories": "hoidlad",
+                "repositories.*": "hoidlad",
+                "repositories.*.type": "hoidla liik",
+                "repositories.*.url": "hoidla URL",
+                "extension_id": "laienduse ID",
+                "update_mode": "uuendamise režiim",
+                "package": "pakett",
+                "version": "versioon",
+                "github_oauth": "GitHub OAuth",
+                "github_oauth.*": "GitHub OAuth",
+                "gitlab_oauth": "GitLab OAuth",
+                "gitlab_oauth.*": "GitLab OAuth",
+                "gitlab_token": "GitLab Token",
+                "gitlab_token.*": "GitLab Token",
+                "bearer": "HTTP Bearer",
+                "bearer.*": "HTTP Bearer"
+            }
+        }
+    }
+}

@@ -4,7 +4,7 @@
             "settings": {
                 "providers": {
                     "slack": {
-                        "description": "使用 Slack {link} 注冊您的論壇",
+                        "description": "使用 Slack {link} 註冊您的論壇",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
@@ -13,7 +13,7 @@
         },
         "forum": {
             "log_in": {
-                "with_slack_button": "Slack 賬號登錄"
+                "with_slack_button": "Slack 帳號登入"
             },
             "providers": {
                 "slack": "=> fof-oauth.lib.providers.slack"

@@ -36,6 +36,9 @@
                 "notify_email_tooltip": "Отримувати електронну пошту, коли з'являються нові обговорення або повідомлення",
                 "submit_button": "Підтвердити підписку"
             },
+            "hero": {
+                "title": "=> flarum-subscriptions.forum.index.following_link"
+            },
             "notifications": {
                 "new_discussion_text": "{username} розпочав",
                 "new_post_text": "{username} дописав",
@@ -79,12 +82,22 @@
             }
         }
     },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Експортувати деталі рівня підписки для тегу, якщо він існує.",
+                    "anonymize_description": "Видалена підписка користувача на тег."
+                }
+            }
+        }
+    },
     "blomstra-gdpr": {
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "Експорт даних про рівень підписки для мітки, якщо такий існує.",
-                    "anonymize_description": "Видалити підписку користувача на мітку."
+                    "export_description": "Експорт даних про рівень підписки для тегу, якщо такий існує.",
+                    "anonymize_description": "Видалити підписку користувача на тег."
                 }
             }
         }

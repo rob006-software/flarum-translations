@@ -1,0 +1,88 @@
+{
+    "yippy-auth-ldap": {
+        "forum": {
+            "account_found": "Serverist {server} leiti konto",
+            "log_in_with": "Logi sisse serveriga {server}",
+            "log_out": "=> core.ref.log_out",
+            "errors": {
+                "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
+                "search_filter_is_invalid": "",
+                "not_authenticated": "Sidumise serverit {server} ei leitud valede kasutajaandmete tõttu. Muuda lisaprogrammi seadeid.",
+                "csrf_token_mismatch": "Oled liiga kaua aega mitteaktiivne olnud. Palun värskenda lehekülge ja proovi siis uuesti",
+                "domains": {
+                    "no_domains": "Admini seadetes pole domeeni määratud. Muuda lisaprogrammi seadeid.",
+                    "empty_host": "Domeenil {domain_index} pole domeene või IP-aadresse määratud. Muuda rakenduse seadeid.",
+                    "empty_base_dn": "",
+                    "empty_user_username": "Domeenil {domain_index} on tühi Flarumi kasutajaprofiili 'Kasutajanime väli'. Muuda rakenduse seadeid.",
+                    "empty_search_field": "Domeenil {domain_index} on tühi LDAP konto otsingu 'Otsinguväli'. Muuda rakenduse seadeid.",
+                    "username_field_does_not_exist": "",
+                    "mail_field_does_not_exist": ""
+                },
+                "account": {
+                    "invalid_inputs": "Sisendväljad ei saa olla tühjad",
+                    "not_found": "Sinu kontot ei leitud serverist {server}.",
+                    "incorrect_details": "Sisestati vigane parool.",
+                    "password_expired": "Sinu parool on aegunud.",
+                    "disabled": "Sinu konto on välja lülitatud, võta ühendust {server} administraatoriga.",
+                    "expired": "Sinu konto on aegunud, võta ühendust {server} administraatoriga.",
+                    "locked": "Sinu konto on lukustatud, võta ühendust {server} administraatoriga."
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "LDAP seaded",
+                "method_name": "LDAP serveri nimi (näidatakse pärast teksti \"Logi sisse kasutades\")",
+                "domains": {
+                    "title": "LDAP domeen",
+                    "description": "",
+                    "add": "Lisa domeen",
+                    "banner": "Domeen {index} - [{isEnabled}]",
+                    "is_enabled": {
+                        "enabled": "",
+                        "disabled": ""
+                    },
+                    "header": {
+                        "server": "LDAP serveri seaded",
+                        "admin": "LDAP admin",
+                        "search_fields": "LDAP konto otsing",
+                        "search_fields_description": "Loo nimekiri LDAP väljadest, mida võrrelda kasutaja poolt antud kasutajanimega.",
+                        "flarum": "Flarumi kasutaja profiil",
+                        "flarum_description": ""
+                    },
+                    "data": {
+                        "host": "Domeenis või serveri IP-aadressid",
+                        "host_help": "Komadega eraldatud",
+                        "base_dn": "Baas DN-id",
+                        "base_dn_help": "Semikooloniga eraldatud",
+                        "filter": "Filter, mida rakendada",
+                        "filter_help": "",
+                        "port": "Port",
+                        "port_help": "Mitte-SSL (port 389) või SSL (port 636).",
+                        "version": "LDAP versioon",
+                        "version_help": "Võib olla ainult 2 või 3 (vaikeväärtus on 3).",
+                        "follow_referrals": "",
+                        "use_ssl": "Kasuta SSL-i",
+                        "use_tls": "Kasuta TSL-i",
+                        "admin_dn": "",
+                        "admin_dn_help": "Anonüümseks sidumiseks jäta tühjaks",
+                        "admin_password": "Parool",
+                        "admin_password_help": "",
+                        "search_user_fields": "Otsinguväljad",
+                        "search_user_fields_help": "",
+                        "user_username": "Määra kasutajanime väli",
+                        "user_mail": "Määra e-posti väli",
+                        "user_mail_help": "Jäta tühjaks, et lubada kasutajal liitumisel omaenda e-posti aadressi määrata",
+                        "user_nickname_fields": "Määra hüüdnime väli",
+                        "user_nickname_fields_help": "",
+                        "permission_groups": "",
+                        "permission_groups_help": "",
+                        "is_enabled": ""
+                    }
+                },
+                "onlyUse": "Peida tavapärane Flarumi sisselogimise viis",
+                "display_detailed_error": ""
+            }
+        }
+    }
+}

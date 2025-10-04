@@ -1,0 +1,21 @@
+{
+    "foskym-issue-tracking-youtrack": {
+        "admin": {
+            "fields": {
+                "heading": "Sorun Takibi: YouTrack",
+                "url_label": "YouTrack Bağlantısı",
+                "token_label": "YouTrack Token",
+                "project_label": "YouTrack Proje ID",
+                "state_field_label": "Durum Alanı",
+                "resolved_state_label": "Çözüldü Durumu",
+                "fields_mapping_label": "Alan Eşlemesi",
+                "url_help": "YouTrack örneğinizin bağlantısı. Örnek: https://example.youtrack.cloud/",
+                "token_help": "YouTrack API'si için kalıcı token. Bir tane oluşturmak için YouTrack profil ayarlarınıza gidebilirsiniz.",
+                "project_help": "Takip etmek istediğiniz projenin ID'si. Bunu, proje sayfasının bağlantısında bulabilirsiniz.",
+                "state_field_help": "YouTrack projenizdeki, bir sorunun durumunu temsil eden alanın adı.\nBu, sorunun ilerlemesini belirlemek için kullanılacaktır.\n[Resolved_State] değişkeni, Çözüldü Durumu alanının değeri ile değiştirilecektir.\nÖrnek: Gönderildi,Açık|Yeniden Açıldı,Tartışılacak,Devam Ediyor,[Resolved_State]\n",
+                "resolved_state_help": "Çözülen bir sorunu temsil eden durum alanının değeri.\nÖrnek: Tamamlandı|Düzeltildi|Çözüldü\n",
+                "fields_mapping_help": "YouTrack projenizdeki SimpleIssueCustomField alanlarının Normal alanlara eşlemesi.\nFormat: SimpleIssueCustomField Adı:Normal Alan Adı\nÖrnek: Orijinal Yazar:yazar.adı_soyadı,Orijinal Yazar E-postası:yazar.e-posta,Orijinal Atanan:atanan.adı_soyadı\n"
+            }
+        }
+    }
+}

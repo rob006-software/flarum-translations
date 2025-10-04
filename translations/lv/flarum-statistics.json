@@ -2,35 +2,35 @@
     "flarum-statistics": {
         "admin": {
             "date_selection_modal": {
-                "description": "",
-                "end_date": "",
+                "description": "Izvēlieties pielāgotu datumu diapazonu, kurā rādīt statistiku. Datu ielāde var aizņemt\nvairākas minūtes forumos ar lielu aktivitāti.\n",
+                "end_date": "Beigu datums (ieskaitot)",
                 "errors": {
-                    "end_before_start": ""
+                    "end_before_start": "Beigu datumam ir jābūt pēc sākuma datuma."
                 },
-                "start_date": "",
-                "submit_button": "",
-                "title": ""
+                "start_date": "Sākuma datums (ieskaitot)",
+                "submit_button": "Apstipriniet datumu diapazonu",
+                "title": "Izvēlieties pielāgotu datumu diapazonu"
             },
             "statistics": {
-                "discussions_heading": "",
-                "export_chart_button": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "mini_heading": "",
-                "previous_28_days_label": "",
-                "previous_7_days_label": "",
-                "custom_label": "",
-                "custom_label_specified": "",
-                "loading": "",
-                "posts_heading": "",
-                "today_label": "",
-                "total_label": "",
-                "users_heading": "",
-                "view_full": "",
-                "no_data": "",
-                "current_period": "",
-                "previous_period": ""
+                "discussions_heading": "=> core.ref.discussions",
+                "export_chart_button": "Eksportēt diagrammu uz SVG",
+                "last_12_months_label": "Pēdējie 12 mēneši",
+                "last_28_days_label": "Pēdējās 28 dienas",
+                "last_7_days_label": "Pēdējās 7 dienas",
+                "mini_heading": "Foruma statistika",
+                "previous_28_days_label": "Iepriekšējās 28 dienas",
+                "previous_7_days_label": "Iepriekšējās 7 dienas",
+                "custom_label": "Izvēlieties pielāgotu diapazonu...",
+                "custom_label_specified": "{fromDate} līdz {toDate}",
+                "loading": "=> core.ref.loading",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "Šodien",
+                "total_label": "Kopā",
+                "users_heading": "=> core.ref.users",
+                "view_full": "Skatīt vairāk statistikas",
+                "no_data": "Nav pieejami dati par šo datumu diapazonu.",
+                "current_period": "Pašreizējais periods",
+                "previous_period": "Iepriekšējais periods"
             }
         }
     }

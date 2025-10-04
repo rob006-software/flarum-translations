@@ -3,14 +3,14 @@
         "forum": {
             "modal": {
                 "error": {
-                    "failed_to_load_cropper": "Gagal memuat pemangkas gambar.",
-                    "generic_resize": "Ada yang tidak beres sewaktu memangkas & mengubah ukuran gambar.",
-                    "get_image_data": "Gagal memangkas. Pastikan perlindungan sidik jari browser Anda dinonaktifkan.",
+                    "failed_to_load_cropper": "Gagal memuat pemotong gambar.",
+                    "generic_resize": "Terjadi kesalahan saat memotong dan mengubah ukuran gambar.",
+                    "get_image_data": "Gagal memotong. Pastikan perlindungan sidik jari browser Anda dinonaktifkan.",
                     "generic": "Terjadi kesalahan saat memangkas gambar."
                 },
-                "help_text": "Pengunggahan gambar mungkin gagal jika pengaturan privasi browser Anda sangat ketat. Jika Anda mengalami masalah, coba nonaktifkan perlindungan sidik jari. Jika tidak, Anda dapat <disableResize>menonaktifkan kompresi gambar yang pangkas</disableResize> atau <disableCrop>menonaktifkan pemangkasan secara keseluruhan</disableCrop>.\n",
-                "submit_button": "Unggah",
-                "submit_crop_button": "Pangkas & Unggah"
+                "help_text": "Pengunggahan gambar mungkin gagal jika pengaturan privasi browser Anda sangat ketat. Jika Anda mengalami masalah, coba nonaktifkan perlindungan sidik jari. Jika tidak, Anda dapat <disableResize>menonaktifkan kompresi gambar yang dipotong</disableResize> atau <disableCrop>menonaktifkan pemotongan seluruhnya</disableCrop>.\n",
+                "submit_button": "Upload",
+                "submit_crop_button": "Pangkas & Upload"
             }
         }
     }

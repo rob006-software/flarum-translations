@@ -1,0 +1,102 @@
+{
+    "xypp-user-decoration": {
+        "forum": {
+            "decoration-no-available": "Dekoratsioone pole saadaval",
+            "decorations": "Dekoratsioonid",
+            "decoration-box": {
+                "error": "Tundmatu liik",
+                "avatar": "Avatari stiil",
+                "name": "Kasutajanime stiil",
+                "post": "Postituse stiil",
+                "card": "Kasutaja kaardi stiil",
+                "loading": "Laadimine",
+                "closed": "Suletud",
+                "no-login": "Eelvaate nägemiseks logi sisse"
+            },
+            "decoration": {
+                "delete_button": "Kustuta",
+                "remove_button": "Eemalda",
+                "change_button": "Muuda",
+                "delete_confirm": "Oled sa kindel, et soovid seda dekoratsiooni kustutada?"
+            },
+            "page": {
+                "show-decorations": "Dekoratsioonid"
+            },
+            "modal": {
+                "title": "Paku dekoratsiooni",
+                "tip": "Palun vali dekoratsioon",
+                "loading": "Laadimine",
+                "button": "Pakkumine"
+            },
+            "create": "Loo",
+            "create-success": "Dekoratsioon on loodud",
+            "create-modal": {
+                "edit-title": "Muuda dekoratsiooni #{0}",
+                "edit-button": "Muuda",
+                "title": "Loo dekoratsioon",
+                "type": {
+                    "title": "Liik",
+                    "avatar": "Avatar",
+                    "username": "Kasutajanimi",
+                    "post": "Postitus",
+                    "usercard": "Kasutaja kaart"
+                },
+                "name": "nimi",
+                "desc": "Kirjeldus",
+                "style": "Stiilileht",
+                "tip": "Kasuta klassi .base et valida sihtsilt, kasuta silti .element-xxx et lisada uus element",
+                "button": "Loo",
+                "delete-button": "Kustuta"
+            },
+            "delete_confirm": "Oled sa kindel, et soovid selle kaunistuse kustutada?",
+            "delete-success": "Kustutatud",
+            "user_controls": {
+                "offer": "Paku dekoratsiooni"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_decoration": "Teiste dekoratsioonide vaatamine",
+                "delete_decoration": "Kustuta teised dekoratsioonid",
+                "offer_decoration": "Paku dekoratsiooni",
+                "create_decoration": "Loo/Muuda dekoratsiooni",
+                "view-all": "Vaata kõiki dekoratsioone"
+            },
+            "settings": {
+                "username_hijack": {
+                    "title": "Kasutajanime kaaperdamine",
+                    "desc": "See plugin proovib kaaperdada kasutajanime meetodit kasutaja mudelis ning sisestada isikuinfot, mille järgi kasutajat tuvastada. Kui mõni plugin on selle tõttu kokku jooksnud, siis võid selle funktsiooni välja lülitatud."
+                },
+                "avatar_hijack": {
+                    "title": "Avatari kaaperdamine",
+                    "desc": "See plugin proovib kaaperdada avatari meetodit kasutaja mudelis ning sisestada isikuinfot, mille järgi kasutajat tuvastada. Kui mõni plugin on selle tõttu kokku jooksnud, siis võid selle funktsiooni välja lülitatud."
+                },
+                "view-all": {
+                    "title": "Vaata kõiki",
+                    "desc": "Kas kõigi vaatamise õigus on sisse lülitatud?"
+                },
+                "no_decorate_class_filter": {
+                    "title": "Dekoreerimise klassi filtrit pole",
+                    "desc": "Klassi nimed, mis takistavad avataride ja kasutajanimede moondumist dekoratsioonide sees. Üks rea kohta ja ilma punktita selle alguses"
+                }
+            }
+        }
+    },
+    "xypp-store": {
+        "forum": {
+            "type": {
+                "decoration": "Dekoratsioon"
+            },
+            "unavailable": {
+                "decoration": {
+                    "dumplicate": "On enda oma"
+                }
+            },
+            "create-modal": {
+                "providers": {
+                    "decoration": "Dekoratsioon"
+                }
+            }
+        }
+    }
+}

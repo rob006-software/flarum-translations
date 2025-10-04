@@ -21,12 +21,9 @@
                 "birthday_text": "Doğum Günü: {date}",
                 "age_text": "Yaş: {age}"
             },
-            "header": {
-                "edit_dob_button": "Doğum Tarihini Düzenle"
-            },
             "change_dob": {
                 "title": "Doğum Tarihini Düzenle",
-                "date_of_birth_text": "Doğum tarihi",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes",
                 "show_dob_date": "Doğum gününü ve ayını göster",
                 "show_dob_year": "Doğum yılını göster",
@@ -34,14 +31,14 @@
             },
             "settings": {
                 "change_dob_label": "Doğum Tarihini Değiştir",
-                "dob_heading": "Doğum Günü",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "Doğum gününü ve ayını göster",
                 "show_dob_year_label": "Doğum yılını göster",
                 "show_dob_year_help": "Bu, insanların yaşınızı görmesini sağlayacaktır.",
                 "birthday_heading": "Doğum tarihi"
             },
             "edit_user": {
-                "dob_heading": "Doğum Günü",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "birthdays_heading": "Doğum tarihi"
             },
             "nav": {
@@ -50,11 +47,20 @@
             "page": {
                 "discussion_count": "{count, plural, one {Tartışma: #} other {Tartışmalar: #}}",
                 "post_count": "{count, plural, one {İleti: #} other {İletiler: #}}"
+            },
+            "sign_up": {
+                "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
+            },
+            "header": {
+                "edit_dob_button": "Doğum Tarihini Düzenle"
             }
         },
         "api": {
             "invalid_dob_message": "Geçersiz doğum tarihi",
             "invalid_age_message": "Yaşınız en az {minAge} olmalıdır."
+        },
+        "ref": {
+            "date_of_birth": "Doğum Günü"
         }
     }
 }

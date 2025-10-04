@@ -3,15 +3,20 @@
         "admin": {
             "configure_button_label": "FoF OAuth ile Ayarlayın",
             "settings_accessibility_label": "{name} ayarları",
+            "permissions": {
+                "moderate_user_providers": "Kullanıcının bağlı hesaplarını denetle"
+            },
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "Gelişmiş",
+                    "log-oauth-errors-label": "OAuth hatalarını günlüğe kaydet",
+                    "log-oauth-errors-help": "Etkinleştirilirse OAuth hataları Flarum günlüğüne kaydedilecektir. Bu, OAuth sorunlarının ayıklanmasına yardımcı olabilir ancak aynı zamanda hassas bilgiler de içerebilir."
                 },
                 "only_icons_label": "Yalnızca Oturum Aç Düğmesi simgelerini göster (alternatif düzen)",
                 "update_email_from_provider_label": "Sağlayıcıdan gelen e-posta adresini güncelle",
                 "update_email_from_provider_help": "Etkinleştirilirse, kullanıcının e-posta adresi, foruma her girişte OAuth sağlayıcısı tarafından sağlanan adresle eşleşecek şekilde güncellenecektir. Tüm sağlayıcılar güncel e-postayı sağlamaz; bu durumda bu ayarın bu sağlayıcılar üzerinde herhangi bir etkisi olmaz.",
+                "disable_avatars_label": "Sağlayıcıdan avatarları devre dışı bırak",
+                "disable_avatars_help": "Etkinleştirilirse, kullanıcının avatarı kayıt sırasında sağlayıcının avatarıyla eşleşmeyecektir. Bunun yalnızca gelecekteki kayıtları etkilediğini ve mevcut kullanıcıların avatarlarını değiştirmeyeceğini unutmayın.\n",
                 "fullscreen_popup_label": "OAuth için Tam Ekran Açılır Penceresini Kullan",
                 "fullscreen_popup_help": "Etkinleştirildiğinde, OAuth girişi tam ekran bir açılır pencerede açılacaktır. Bu etkinleştirilirse genişlik ve yükseklik ayarları dikkate alınmaz.",
                 "popup_width_label": "OAuth Açılır Pencere Genişliği",
@@ -20,6 +25,9 @@
                 "popup_height_help": "OAuth açılır penceresinin yüksekliğini ayarlayın. \"OAuth için Tam Ekran Açılır Penceresini Kullan\" seçeneği etkinleştirilirse bu ayar göz ardı edilecektir.",
                 "providers": {
                     "callback_url_text": "Gerekirse, geri arama bağlantısını {url} olarak ayarlayın.",
+                    "group_label": "Grup Ataması",
+                    "group_help": "Bu sağlayıcıyı kullanarak kayıt olan kullanıcılara otomatik olarak atanacak grubu seçin.",
+                    "no_group_label": "Grup ataması yok",
                     "discord": {
                         "description": "{link} adresinde bir uygulama oluşturun. Yönlendirme bağlantısını OAuth2 sekmesine ekleyin.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -50,7 +58,7 @@
                         "description": "{link} bağlantısında bir uygulama oluşturun.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": ""
+                        "hosted_domain_label": "Barındırılan Alan Adı (G Suite/Google Apps İşletme Sürümü, isteğe bağlı)"
                     },
                     "linkedin": {
                         "description": "{link} adresinde bir uygulama oluştur.",
@@ -77,6 +85,7 @@
                         "label": "Bağlı hesaplar",
                         "last-used-label": "Son kullanılma",
                         "link-created-label": "Bağlantı oluşturuldu",
+                        "identification-label": "{provider} ID",
                         "orphaned-account": "Daha önce bu sağlayıcı aracılığıyla oturum açtınız, ancak bu forum o zamandan beri bu yöntemle oturum açmayı devre dışı bıraktı.",
                         "help": "Bu bağlantılı hesaplar, diğer sağlayıcıları kullanarak forumda oturum açmanıza izin verir.",
                         "identifier-label": "{provider} ID",

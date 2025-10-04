@@ -10,6 +10,18 @@
                 "no_settings_available": "Al momento non sono disponibili impostazioni. Prova a installare fof/moderator-notes"
             }
         },
+        "lib": {
+            "modal": {
+                "title": "Connettiti come altro utente",
+                "label": "Da un grande potere derivano grandi responsabilità. Continuando, diventerai {username} finché non ti disconnetterai.",
+                "placeholder_optional": "(Opzionale) Fornire la motivazione per passare a questo utente",
+                "placeholder_required": "Bisogna fornire il motivo per cui si vuole passare a questo utente prima di procedere",
+                "impersonate_username": "Connessione come {username}"
+            },
+            "user_controls": {
+                "impersonate_button": "Connessione come utente"
+            }
+        },
         "forum": {
             "modal": {
                 "title": "Loggati come altro utente",

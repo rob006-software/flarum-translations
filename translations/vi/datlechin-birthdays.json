@@ -21,12 +21,9 @@
                 "birthday_text": "Sinh nhật: {date}",
                 "age_text": "Tuổi: {age}"
             },
-            "header": {
-                "edit_dob_button": "Sửa ngày sinh"
-            },
             "change_dob": {
                 "title": "Chỉnh sửa ngày sinh",
-                "date_of_birth_text": "Ngày sinh",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes",
                 "show_dob_date": "Hiển thị ngày và tháng sinh",
                 "show_dob_year": "Hiển thị năm sinh",
@@ -34,14 +31,14 @@
             },
             "settings": {
                 "change_dob_label": "Sửa ngày sinh",
-                "dob_heading": "Ngày sinh",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "Hiển thị ngày tháng sinh",
                 "show_dob_year_label": "Hiển thị năm sinh",
                 "show_dob_year_help": "Cho phép mọi người có thể nhìn thấy tuổi của bạn.",
                 "birthday_heading": "Sinh nhật"
             },
             "edit_user": {
-                "dob_heading": "Ngày sinh",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "birthdays_heading": "Ngày sinh"
             },
             "nav": {
@@ -50,11 +47,20 @@
             "page": {
                 "discussion_count": "{count, plural, one {Cuộc thảo luận: #} other {Cuộc thảo luận: #}}",
                 "post_count": "{count, plural, one {Bài viết: #} other {Bài viết: #}}"
+            },
+            "sign_up": {
+                "dob_placeholder": "=> datlechin-birthdays.ref.date_of_birth"
+            },
+            "header": {
+                "edit_dob_button": "Sửa ngày sinh"
             }
         },
         "api": {
             "invalid_dob_message": "Ngày sinh của bạn không hợp lệ",
             "invalid_age_message": "Tuổi của bạn phải từ {minAge} tuổi trở lên."
+        },
+        "ref": {
+            "date_of_birth": "Ngày sinh"
         }
     }
 }

@@ -39,7 +39,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'v0.Major.Minor',
 		],
-		'maintainers' => ['neerugupta'],
+		'maintainers' => [], // ['neerugupta'], see https://github.com/flarum-lang/arabic/pull/6#issuecomment-3020290604
 	],
 	'ast' => [
 		'type' => 'language',
@@ -113,6 +113,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'bs' => [
+		'type' => 'language',
+		'language' => 'bs',
+		'repository' => 'git@github.com:flarum-lang/bosnian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'ca' => [
 		'type' => 'language',
 		'language' => 'ca',
@@ -123,7 +135,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => ['pepoliveras'],
+		'maintainers' => ['pepoliveras', 'joanaranda'],
 	],
 	'ckb' => [
 		'type' => 'language',
@@ -147,7 +159,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
-		'maintainers' => [],
+		'maintainers' => ['YelehaUwU'],
 	],
 	'cy' => [
 		'type' => 'language',
@@ -256,6 +268,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'es_MX' => [
+		'type' => 'language',
+		'language' => 'es_MX',
+		'repository' => 'git@github.com:flarum-lang/spanish-mexico.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'et' => [
 		'type' => 'language',
 		'language' => 'et',
@@ -264,9 +288,9 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => [],
+		'maintainers' => ['JoomlaEstonia'],
 	],
 	'eu' => [
 		'type' => 'language',
@@ -288,9 +312,9 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '0.Major.Minor',
+			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => [], // ['amirrezakhakpour'], see https://github.com/flarum-lang/persian/pull/3#issuecomment-1311840100
+		'maintainers' => ['behdanisohrab'],
 	],
 	'fi' => [
 		'type' => 'language',
@@ -374,7 +398,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => '0.Major.Minor',
 		],
-		'maintainers' => [], // ['meetdilip'], see https://github.com/flarum-lang/hindi/pull/3#issuecomment-1311826819
+		'maintainers' => ['ItsNeil17'],
 	],
 	'hr' => [
 		'type' => 'language',
@@ -626,7 +650,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => [],
+		'maintainers' => ['tormi-github'],
 	],
 	'ne' => [
 		'type' => 'language',
@@ -746,7 +770,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['KitsuneSolar', 'uidhub'],
+		'maintainers' => ['KaiKimera'],
 	],
 	'sc' => [
 		'type' => 'language',
@@ -828,7 +852,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'Major.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -926,7 +950,19 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
 		],
-		'maintainers' => ['tolgaaaltas', 'selmanozturk'], // todo: temporary maintainer? https://discuss.flarum.org/d/27519-the-flarum-language-project/235
+		'maintainers' => ['tolgaaaltas', 'selmanozturk', 'huseyinfiliz'], // todo: temporary maintainer? https://discuss.flarum.org/d/27519-the-flarum-language-project/235
+	],
+	'tt' => [
+		'type' => 'language',
+		'language' => 'tt',
+		'repository' => 'git@github.com:flarum-lang/tatar.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['inov8ru'],
 	],
 	'ug' => [
 		'type' => 'language',

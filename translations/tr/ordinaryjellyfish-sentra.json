@@ -1,0 +1,52 @@
+{
+    "ordinaryjellyfish-sentra": {
+        "admin": {
+            "view_documentation": "Belgeleri İncele",
+            "api_key": "API Anahtarı",
+            "endpoint": "Uç nokta",
+            "enable": "Etkinleştir",
+            "permissions": {
+                "bypass": "Sentra'yı Atla"
+            },
+            "services": {
+                "heading": "Hizmetler",
+                "content_safety": "Azure AI İçerik Güvenliği",
+                "content_safety_help": "Azure AI İçerik Güvenliği, metin ve görsellerde potansiyel olarak rahatsız edici veya istenmeyen içeriği tespit eden bir hizmettir.",
+                "content_safety_settings": {
+                    "analyze_images": "Görselleri Analiz Et"
+                }
+            },
+            "modules": {
+                "heading": "Modüller",
+                "requires": "<b>{services}</b> gereklidir",
+                "requires_error": "Lütfen bu modülü kullanabilmek için tüm gerekli hizmetleri etkinleştirin ve yapılandırın.",
+                "post_shield": "Gönderi Kalkanı",
+                "post_shield_help": "Gönderi Kalkanı, gönderilerde potansiyel olarak rahatsız edici veya istenmeyen içeriği tespit etmek için kullanılan bir modüldür. Tam gönderi içeriğini, Azure AI İçerik Güvenliği ayarlarında etkinleştirilmişse görselleri de analiz eder.",
+                "post_shield_settings": {
+                    "harm_categories": "Zarar Kategorileri",
+                    "severity_level": "Şiddet Tetikleme Seviyesi",
+                    "severity_level_low": "Düşük",
+                    "severity_level_medium": "Orta",
+                    "severity_level_high": "Yüksek",
+                    "severity_level_unknown": "Bilinmiyor"
+                }
+            }
+        },
+        "lib": {
+            "post_shield": {
+                "Hate": "Nefret ve Eşitlik",
+                "Hate_help": "Belirli grupların ayırt edici özelliklerine dayalı olarak bir kişi veya kimlik grubuna saldıran veya ayrımcı dil kullanan içerik.",
+                "Sexual": "Seksüel",
+                "Sexual_help": "Cinsel, anatomik organlar ve cinsel organlar, romantik ilişkiler ve cinsel eylemlerle ilgili dili tanımlar, cinsel veya sevgi dolu terimlerle tasvir edilen, saldırı olarak tasvir edilenler veya zorla cinsel şiddet uygulayanların isteklerine karşı hareket eder.",
+                "Violence": "Şiddet",
+                "Violence_help": "Birini veya bir şeyi incitmeyi, yaralamayı, hasar vermeyi veya öldürmeyi amaçlayan fiziksel eylemlerle ilgili dil; silahları, tabancaları ve bunlarla ilişkili varlıkları tanımlar.",
+                "SelfHarm": "Kendine Zarar Verme",
+                "SelfHarm_help": "Kendine zarar verme, kasıtlı olarak yaralanmak, vücuduna zarar vermek veya kendini öldürmek için yapılan fiziksel eylemlerle ilgili dili açıklar."
+            }
+        },
+        "forum": {
+            "flag_reason": "Sentra, bu gönderiyi {reason} nedeniyle işaretledi",
+            "flag_detail": "Gönderi, {severities} ile ilgili {categories} kriterlerine uymaktadır"
+        }
+    }
+}

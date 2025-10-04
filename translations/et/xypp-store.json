@@ -1,0 +1,119 @@
+{
+    "xypp-store": {
+        "forum": {
+            "time_segs": "päevad|tunnid|minutid",
+            "store": "Pood",
+            "purchase-history": "Ostetud",
+            "create": "Loo kirje",
+            "purchase": "Osta",
+            "edit_button": "Muuda",
+            "show_case": "Vitriin",
+            "price_free": "Tasuta",
+            "provider": {
+                "all": "Kõik",
+                "error": {
+                    "title": "Tundmatu teenusepakkuja",
+                    "no-preview": "Eelvaadet pole"
+                }
+            },
+            "unavailable": {
+                "common": {
+                    "unknown": "Ei saa osta",
+                    "no_rest": "Pole enam järgi"
+                }
+            },
+            "create-modal": {
+                "title": "Loo kirje",
+                "name": "Nimi",
+                "desc": "Kirjeldus",
+                "price": "Hind",
+                "provider": "Teenusepakkuja",
+                "provider_data": "Teenusepakkuja andmed",
+                "use_cnt": "Mitu korda saab kasutada",
+                "expire_time": "Aegumine",
+                "expire_time_tip": "Jäta tühjaks, et välja lülitada või määra number, mis näitab aegumist sekundites.",
+                "rest_cnt": "Järgi",
+                "rest_cnt_tip": "Jäta see tühjaks, et aegumist poleks. Või määra soovitud number.",
+                "edit-title": "Muuda kirjet #{0}",
+                "edit-button": "Muuda",
+                "button": "Loo",
+                "success": "Kirje on loodud",
+                "confirm_delete": "Oled sa kindel, et soovid selle kirje kustutada?",
+                "delete-button": "Kusuta",
+                "providers": {
+                    "unknown": "Vali teenusepakkuja",
+                    "unknown_data": "Pead esmalt valima teenusepakkuja",
+                    "no_select_data": "Vali teenusepakkuja andmed",
+                    "special_data": "Valitud andmed"
+                },
+                "provider_data_error": "Palun vali teenusepakkuja ja andmed",
+                "provider_data_default": "Vaikimisi andmed"
+            },
+            "purchase-confirm": "Kinnitada ost?",
+            "item": {
+                "rest_cnt": "Järgi {0}",
+                "use_cnt": "Kasuta {0} korda",
+                "expire": "{0} kestus",
+                "no_available": "Ühtegi kirjet pole saadaval",
+                "infinity_count": "Piiramatu saadavus",
+                "not_found": "Kirjet ei leitud"
+            },
+            "history": {
+                "no_record": "Ostu pole",
+                "delete_button": "Kustuta",
+                "confirm_delete": "Oled sa kindel, et soovid kustutada kirje, mille sa otsid?",
+                "title": "Ostetud",
+                "use": "Kasuta",
+                "rest_cnt": "Saab kasutada {0} korda",
+                "infinity_use": "Piiramatu kasutus",
+                "expire": "Aegub {0}",
+                "forever": "Saadaval alati",
+                "confirm_use": "Kinnitada kasutamist?",
+                "unable_to_use": "Seda kirjet ei saa kasutada",
+                "not_found": "Kirjet ei leitud"
+            },
+            "query-modal": {
+                "purchase": {
+                    "title": "Osta kirje"
+                },
+                "use": {
+                    "title": "Kasuta kirjet"
+                }
+            },
+            "use_result": {
+                "success": "Korras",
+                "fail": {
+                    "unknown": "Tundmatu viga",
+                    "error": "Viga kirje kasutamisel",
+                    "not_enough": "Pole kasutamiseks piisavalt",
+                    "cannot": "Ei saa seda kirjet kasutada",
+                    "fail_expire": "Selle kirje aegumise märkimine ebaõnnestus",
+                    "id_not_found": "Kirje ID-d ei leitud",
+                    "expired": "Kirje on aegunud"
+                }
+            },
+            "purchase_result": {
+                "success": "Korras",
+                "fail": {
+                    "unknown": "Tundmatu tõrge",
+                    "not_enough_item": "Kirjeid pole piisavalt",
+                    "cannot": "Seda kirjet ei saa kustutada",
+                    "not_enough_money": "Pole piisavalt raha"
+                }
+            },
+            "edit-result": {
+                "fail": {
+                    "not-found": "Kirjet ei leitud"
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "add-item": "Poe kirjete lisamine",
+                "remove-item": "Poe kirjete eemaldamine",
+                "view-history": "Teiste ostude vaatamine",
+                "remove-history": "Teiste ostude kustutamine"
+            }
+        }
+    }
+}

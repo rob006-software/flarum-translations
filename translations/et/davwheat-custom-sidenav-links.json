@@ -4,71 +4,71 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "Vaate seaded",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "\"Siltide\" nupu kohal",
+                                "below-tags-link": "\"Siltide\" nupu all"
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "Lingi asukoht",
+                            "top_spacer": "Näita ülemist eraldajat",
+                            "bottom_spacer": "Näita alumist eraldajat"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "Kohanda linke",
+                        "add_link_btn": "Lisa uus link",
+                        "confirm_delete": "Kinnita lingi \"{link}\" kustutamine",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "Pead need vead parandama enne, kui saad oma muudatused salvestada."
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "Asukoht",
+                                "icon": "Lingi ikoon",
+                                "text": "Lingi tekst",
+                                "url": "Lingi URL",
+                                "internal": "On Flarumi URL?",
+                                "delete": "Eemalda"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "Minu lahe sait",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Liiguta üles",
+                                "move_down": "Liiguta alla",
+                                "icon_preview": "Ikoon eelvaade"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "Salvesta seaded",
+                            "saving": "Muudatuste salvestamine...",
+                            "saved": "Pole muudatusi, mida salvestada",
+                            "fix_errors": "Paranda vead enne salvestamist"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Lisa uus link",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Lisa link",
+                            "loading": "Lingi lisamine",
+                            "fix_url": "Vigane URL",
+                            "invalid_form": "Täida kõik väljad"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }

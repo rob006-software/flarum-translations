@@ -2,52 +2,52 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "",
-                "single-column": "",
-                "theme": "",
-                "theme-auto": "",
-                "indent": "",
-                "npm-install-command": "",
-                "webpack-command": "",
-                "empty-for-default": "",
-                "validate-live": "",
-                "compile-automatically": ""
+                "title": "Налаштування скретчпаду",
+                "single-column": "Згрупувати редакторів в одну колонку замість 3",
+                "theme": "Тема CodeMirror (для набуття чинності необхідно оновити)",
+                "theme-auto": "Авто (за налаштуванням на світлій темі, штрих - на темній)",
+                "indent": "Кількість пробілів для відступу",
+                "npm-install-command": "Команда встановлення NPM",
+                "webpack-command": "Команда Webpack",
+                "empty-for-default": "Залиште порожнім для команди за налаштуванням",
+                "validate-live": "Виконайте запит на головну сторінку для перевірки Less і PHP перед збереженням",
+                "compile-automatically": "Автоматична компіляція JS при збереженні"
             },
             "controls": {
-                "refresh": "",
-                "save": "",
-                "compile": "",
-                "settings": "",
-                "new": "",
-                "new-confirmation": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "enable": "",
-                "disable": ""
+                "refresh": "Оновити",
+                "save": "Зберегти",
+                "compile": "Компіляція JS",
+                "settings": "Налаштування редактора",
+                "new": "Новий",
+                "new-confirmation": "Поточний скретчпад не збережено. Скинути його і створити новий?",
+                "delete": "Видалити",
+                "delete-confirmation": "Видалити «{title}»?",
+                "enable": "Натисніть, щоб увімкнути",
+                "disable": "Натисніть, щоб вимкнути"
             },
             "fields": {
-                "title": "",
-                "admin_js": "",
-                "forum_js": "",
-                "admin_less": "",
-                "forum_less": "",
-                "php": ""
+                "title": "Назва скретчпаду",
+                "admin_js": "Адмін JS",
+                "forum_js": "Форум JS",
+                "admin_less": "Адмін Less",
+                "forum_less": "Форум Less",
+                "php": "PHP"
             },
             "placeholders": {
-                "untitled": "",
-                "php-comment": "",
-                "js-log": ""
+                "untitled": "Без назви",
+                "php-comment": "Зареєструвати ретранслятори тут",
+                "js-log": "Привіт, {frontend}!"
             },
             "compilation-alert": {
-                "success": "",
-                "failure": "",
-                "view-output": ""
+                "success": "Скомпільовано!",
+                "failure": "Компіляція завершилася невдало!",
+                "view-output": "Переглянути вихідні дані"
             },
             "compilation-modal": {
-                "title": "",
-                "webpack": "",
-                "npm": "",
-                "npm-not-run": ""
+                "title": "Вихідні дані компіляції",
+                "webpack": "Вихідні дані Webpack",
+                "npm": "Вихідні дані NPM",
+                "npm-not-run": "NPM не запустився"
             }
         }
     }

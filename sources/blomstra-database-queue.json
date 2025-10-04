@@ -1,6 +1,18 @@
 {
     "blomstra-database-queue": {
         "admin": {
+            "settings": {
+                "backoff_label": "Backoff",
+                "backoff_help": "The number of seconds to wait before retrying a job that encountered an uncaught exception.\n",
+                "memory_label": "Memory",
+                "memory_help": "The memory limit in megabytes.\n",
+                "rest_label": "Rest",
+                "rest_help": "The number of seconds to rest between jobs.\n",
+                "retries_label": "Retries",
+                "retries_help": "The number of times to attempt a job before logging it failed.\n",
+                "timeout_label": "Timeout",
+                "timeout_help": "The number of seconds a child process can run.\n"
+            },
             "stats": {
                 "auto_refresh": "Auto Refresh",
                 "heading": "Queue Overview",

@@ -3,12 +3,15 @@
         "admin": {
             "settings": {
                 "canonical-urls": "Käytä canonical osoitetta jakamiseen",
-                "plain-copy": "Näytä osoite kopioinnissa"
+                "plain-copy": "Näytä osoite kopioinnissa",
+                "default-option": "Oletus jako valinta",
+                "default-option-help": "Valitsemalla oletus jako valinnan, muuntaa modaali ikkunan alasvetovalikoksi.\nJos \"Oletus valinta\" on valittuna, näyttää sen jos selain tukee, muuten käytetään alkuperäistä modaalia.\n"
             }
         },
         "forum": {
             "discussion": {
-                "share_button": "Jaa"
+                "share_button": "Jaa",
+                "share_dropdown_accessible_label": "Vaihda keskustelun jako alasvetovalikoksi"
             },
             "modal": {
                 "title": "Jaa",

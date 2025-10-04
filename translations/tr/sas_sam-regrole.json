@@ -1,0 +1,30 @@
+{
+    "sas_sam-regrole": {
+        "admin": {
+            "settings": {
+                "allowed_roles_label": "İzin Verilen Roller",
+                "allowed_roles_text": "Kullanıcıların kendilerine atayabileceği roller seçin.",
+                "other_options_heading": "Diğer Seçenekler",
+                "allow_multiple_roles_label": "Kullanıcıların birden fazla rol atanmasına izin ver",
+                "force_users_label": "Kullanıcıların en az bir rolü kendilerine atamaları zorunlu olsun",
+                "force_users_text": "Eğer etkinleştirilirse, yukarıda seçilen rollerden hiçbirine sahip olmayan kullanıcılar askıya alınacak ve kendilerine bir rol atayana kadar forumu kullanamayacaklardır (kullanıcı gruplarını düzenleme iznine sahip olan kullanıcılar hariç tutulacaktır)."
+            }
+        },
+        "forum": {
+            "suspended_temporarily_message": "Hesabınız, bir rol seçene kadar geçici olarak askıya alındı.",
+            "choose_role_button_label": "=> sas_sam-regrole.ref.choose_a_role",
+            "required_role_message": "Bir rol seçmelisiniz.",
+            "choose_role_modal": {
+                "choose_role_heading": "=> sas_sam-regrole.ref.choose_a_role",
+                "choose_role_text": "Forumumuzu kullanmaya devam edebilmek için lütfen bir rol seçin.",
+                "save_button": "=> core.ref.save_changes"
+            },
+            "sign_up_modal": {
+                "choose_role_heading": "=> sas_sam-regrole.ref.choose_a_role"
+            }
+        },
+        "ref": {
+            "choose_a_role": "Bir Rol Seçin"
+        }
+    }
+}

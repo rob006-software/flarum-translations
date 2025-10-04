@@ -3,6 +3,9 @@
         "admin": {
             "configure_button_label": "",
             "settings_accessibility_label": "",
+            "permissions": {
+                "moderate_user_providers": ""
+            },
             "settings": {
                 "advanced": {
                     "heading": "",
@@ -12,6 +15,8 @@
                 "only_icons_label": "",
                 "update_email_from_provider_label": "",
                 "update_email_from_provider_help": "",
+                "disable_avatars_label": "",
+                "disable_avatars_help": "",
                 "fullscreen_popup_label": "",
                 "fullscreen_popup_help": "",
                 "popup_width_label": "",
@@ -20,6 +25,9 @@
                 "popup_height_help": "",
                 "providers": {
                     "callback_url_text": "",
+                    "group_label": "",
+                    "group_help": "",
+                    "no_group_label": "",
                     "discord": {
                         "description": "",
                         "client_id_label": "",
@@ -77,6 +85,7 @@
                         "label": "",
                         "last-used-label": "",
                         "link-created-label": "",
+                        "identification-label": "",
                         "orphaned-account": "",
                         "help": "",
                         "identifier-label": "",

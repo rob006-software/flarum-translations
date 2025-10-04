@@ -26,7 +26,7 @@
                     "comment": "评论（公开）"
                 },
                 "submit": "提交",
-                "success": "已打赏给发帖作者！"
+                "success": "已打赏作者！"
             },
             "profile": {
                 "nav": "打赏",
@@ -35,20 +35,20 @@
             "post": {
                 "action": "打赏",
                 "disallowedOwn": "您不能打赏自己的帖子。",
-                "disallowedOther": "你不能打赏这个帖子。可能作者是匿名的或已被注销。",
+                "disallowedOther": "你不能打赏这个帖子。该作者可能已匿名或注销。",
                 "section": "打赏"
             },
             "record": {
                 "from": "来自",
-                "to": "于",
-                "post": "于“{title}”中讨论的<a>#{number} 帖</a>",
+                "to": "给",
+                "post": "给「{title}」主题的 <a>#{number} 帖</a>",
                 "comment": "评论："
             }
         },
         "api": {
             "error": {
-                "decimals": "金额限制为 {decimals} 小数。",
-                "notEnoughFunds": "没有足够的资金。"
+                "decimals": "金额精确到 {decimals} 位小数。",
+                "notEnoughFunds": "没有足够的金额。"
             }
         }
     }

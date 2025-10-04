@@ -1,0 +1,73 @@
+{
+    "xypp-forum-quests": {
+        "forum": {
+            "reward_not_found": "Récompense {reward} introuvable",
+            "condition_not_found": "Condition {condition} introuvable",
+            "notification": {
+                "quest_done": "Vous venez d'accomplir la quête {name} !",
+                "quest_done_label": "Quête accomplie"
+            },
+            "quest": {
+                "quest": "Quête",
+                "load_more": "Charger davantage",
+                "done": "[Accomplie]"
+            },
+            "re_available": {
+                "none": "Une fois seulement",
+                "day": "Disponible à nouveau avant {value} jours",
+                "hour": "Disponible à nouveau après {value} heures"
+            },
+            "condition_view": {
+                "button": "Voir la condition",
+                "title": "Vue d'ensemble des conditions",
+                "name": "Nom",
+                "value": "Valeur",
+                "span": "En portée",
+                "set_span": "Hors de portée"
+            },
+            "quest_done": {
+                "all": "Toutes",
+                "true": "Accomplie",
+                "false": "Non"
+            }
+        },
+        "admin": {
+            "settings": "Paramètres",
+            "timezone": "Fuseau horaire",
+            "allow_update": "Autoriser la mise à jour manuelle par l'utilisateur",
+            "data": "Données",
+            "table": {
+                "id": "#",
+                "name": "Nom",
+                "description": "Description",
+                "operation": "Fonctionnement",
+                "load_more": "Charger davantage",
+                "remove_confirm": "Êtes-vous sûr de vouloir supprimer cette quête ?",
+                "create": "Créer"
+            },
+            "create-modal": {
+                "title": "Créer une quête",
+                "edit": "Modifier la quête",
+                "name": "Nom",
+                "description": "Description",
+                "icon": "Icône",
+                "hidden": "Masqué",
+                "condition": "Condition",
+                "reward": "Récompenser",
+                "button": "Créer",
+                "button-edit": "Modifier",
+                "new_item": "Nouvel élément",
+                "re_available": "Disponible à nouveau"
+            },
+            "re_available": {
+                "none": "Une fois",
+                "day": "Avant X jours",
+                "hour": "Après X heures"
+            }
+        },
+        "api": {
+            "no_manual_update": "Aucune mise à jour manuelle n'est nécessaire",
+            "manual_condition_cannot_hidden": "La condition manuelle ne peut pas être utilisée dans les tâches cachées : {condition}"
+        }
+    }
+}

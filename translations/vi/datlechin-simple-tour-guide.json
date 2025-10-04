@@ -2,29 +2,42 @@
     "datlechin-simple-tour-guide": {
         "admin": {
             "settings": {
-                "show_progress_label": "",
-                "show_progress_help": "",
-                "allow_close_label": "",
-                "allow_close_help": ""
+                "show_progress_label": "Hiển thị tiến trình",
+                "show_progress_help": "Điều này sẽ hiển thị bước hiện tại và tổng số bước ở đầu popover.",
+                "allow_close_label": "Cho phép đóng",
+                "allow_close_help": "Cho phép người dùng đóng popover bằng cách nhấp vào nền.",
+                "skip_null_elements_label": "Bỏ qua phần tử null",
+                "skip_null_elements_help": "Bỏ qua các bước mà mục tiêu không khớp với phần tử HTML nào. Bạn có thể dùng điều này để nhắm mục tiêu theo ngôn ngữ như 'html[lang=\"es\"] my-selector'. Điều này cũng ẩn nút Trước để nhất quán, và bạn nên ẩn tiến trình."
+            },
+            "permissions": {
+                "reset_tour_guide": "Đặt lại tour hướng dẫn"
             },
             "edit_modal": {
-                "edit_step": "",
-                "create_step": "",
-                "delete_step": "",
-                "delete_step_confirmation": ""
+                "edit_step": "Chỉnh sửa {title}",
+                "create_step": "Tạo bước mới",
+                "delete_step": "Xóa bước",
+                "delete_step_confirmation": "Bạn có chắc chắn muốn xóa bước này không?"
             },
-            "title": "",
-            "title_placeholder": "",
-            "description": "",
-            "description_placeholder": "",
-            "target": "",
-            "target_placeholder": ""
+            "add_step": "Thêm bước mới",
+            "title": "Tiêu đề",
+            "title_placeholder": "Tiêu đề của bước.",
+            "description": "Mô tả",
+            "description_placeholder": "Mô tả cho bước.",
+            "target": "Mục tiêu",
+            "target_placeholder": "Phần tử mục tiêu của bước (vd: #element-id).",
+            "trigger_click": "Kích hoạt nhấp chuột",
+            "yes": "Có",
+            "no": "Không"
         },
         "forum": {
-            "progress_text": "",
-            "next_btn_text": "",
-            "prev_btn_text": "",
-            "done_btn_text": ""
+            "progress_text": "{current} trên {total}",
+            "next_btn_text": "Tiếp",
+            "prev_btn_text": "Trước",
+            "done_btn_text": "Hoàn tất",
+            "user_controls": {
+                "reset_tour_guide": "Bắt đầu lại tour",
+                "reset_tour_guide_confirmation": "Bạn có chắc chắn muốn buộc người dùng này bắt đầu lại tour không?"
+            }
         }
     }
 }

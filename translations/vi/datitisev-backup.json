@@ -17,6 +17,9 @@
                 "zip": "Lưu trữ Zip"
             },
             "settings_button": "Cấu hình",
+            "delete_button": "Xóa",
+            "delete_confirmation": "Bạn có chắc chắn muốn xóa “{name}” ({adapter}) không?",
+            "create_button": "Thêm adapter mới",
             "required_package_button": "Thiết lập",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Cấu hình {adapter}",
+                "name_label": "Tên vị trí",
                 "local": {
                     "target": {
                         "label": "Đường dẫn",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Mã khoá",
-                            "description": "Mã khoá đăng nhập AWS"
-                        },
-                        "secret": {
-                            "label": "Mã bí mật",
-                            "description": "Mã bí mật đăng nhập AWS"
-                        }
+                    "credentials-key": {
+                        "label": "Khóa",
+                        "description": "Khóa thông tin xác thực AWS"
+                    },
+                    "credentials-secret": {
+                        "label": "Khóa bí mật",
+                        "description": "Khóa bí mật thông tin xác thực AWS"
                     },
                     "region": {
                         "label": "Khu vực",
@@ -101,6 +103,16 @@
                     "path-prefix": {
                         "label": "Tiền tố đường dẫn",
                         "description": "Tiền tố đường dẫn mặc định tùy chọn cho các tệp."
+                    },
+                    "credentials": {
+                        "key": {
+                            "label": "Mã khoá",
+                            "description": "Mã khoá đăng nhập AWS"
+                        },
+                        "secret": {
+                            "label": "Mã bí mật",
+                            "description": "Mã bí mật đăng nhập AWS"
+                        }
                     }
                 },
                 "dropbox": {
@@ -129,6 +141,26 @@
                     }
                 },
                 "gdrive": {
+                    "client-id": {
+                        "label": "ID khách hàng",
+                        "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và truy xuất ID khách hàng và bí mật khách hàng của bạn.\n"
+                    },
+                    "client-secret": {
+                        "label": "Mã bí mật khách hàng",
+                        "description": " "
+                    },
+                    "refresh-token": {
+                        "label": "Làm mới token",
+                        "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md để lấy mã làm mới cho ứng dụng Google oAuth của bạn.\n"
+                    },
+                    "folder": {
+                        "label": "ID thư mục",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "Đã kết nối thành công với Google Drive! Lưu các thay đổi để lưu trữ cài đặt.",
+                        "test_button": "Kiểm tra kết nối"
+                    },
                     "client": {
                         "id": {
                             "label": "ID khách hàng",
@@ -138,14 +170,6 @@
                             "label": "Mã bí mật khách hàng",
                             "description": " "
                         }
-                    },
-                    "refresh-token": {
-                        "label": "Làm mới token",
-                        "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md để lấy mã làm mới cho ứng dụng Google oAuth của bạn.\n"
-                    },
-                    "folder": {
-                        "label": "ID thư mục",
-                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {

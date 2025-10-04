@@ -7,13 +7,17 @@
             "page": {
                 "index": "家園",
                 "clients": "管理客戶",
-                "scopes": "管理範圍"
+                "scopes": "管理範圍",
+                "tokens": "管理 Tokens"
             },
             "settings": {
+                "display_mode": "顯示模式",
                 "access_lifetime": "訪問令牌生命週期（秒）",
                 "allow_implicit": "允許隱式授予（response_type=token）",
                 "enforce_state": "強制狀態驗證（狀態參數）",
-                "require_exact_redirect_uri": "需要精確的重定向 URI"
+                "require_exact_redirect_uri": "需要精確的重定向 URI",
+                "authorization_method_fetch": "授權方法提取（不直接重定向到）",
+                "allow_delete_records": "允許刪除授權記錄"
             },
             "clients": {
                 "client_id": "客戶ID",
@@ -25,7 +29,8 @@
                 "client_desc": "描述",
                 "client_icon": "圖示",
                 "client_home": "主頁",
-                "add_button": "新增客戶端"
+                "add_button": "新增客戶端",
+                "edit_client": "編輯用戶端"
             },
             "scopes": {
                 "scope": "範圍",
@@ -35,7 +40,18 @@
                 "scope_name": "名稱",
                 "scope_icon": "圖示",
                 "scope_desc": "描述",
-                "add_button": "添加範圍"
+                "visible_fields": "可見區域",
+                "add_button": "增加範圍",
+                "edit_scope": "編輯範圍"
+            },
+            "tokens": {
+                "add_token": "添加令牌",
+                "delete_token": "刪除令牌"
+            },
+            "action": {
+                "delete_all_records_button": "",
+                "delete_all_records_confirm": "",
+                "delete_all_records_success": ""
             }
         },
         "forum": {
@@ -48,9 +64,18 @@
                 }
             },
             "authorize": {
+                "require_these_scopes": "需要這些範圍",
                 "access": "進入",
                 "agree": "同意",
                 "deny": "否定"
+            },
+            "authorized": {
+                "no_records": "暫無紀錄",
+                "no_more_records": "暫無相關記錄",
+                "load_more": "載入更多",
+                "delete_button": "",
+                "delete_all_button": "",
+                "delete_all_confirm": ""
             }
         }
     }

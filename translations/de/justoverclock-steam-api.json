@@ -1,33 +1,34 @@
 {
     "justoverclock-steam-api": {
         "admin": {
-            "steamApiKey": "",
-            "steamApiKey-help": ""
+            "steamApiKey": "Steam API Schlüssel",
+            "steamApiKey-help": "Deinen kostenlosen API Schlüssel bekommst du auf https://steamcommunity.com/dev/apikey"
         },
         "forum": {
-            "steamId": "",
-            "steamIdSaved": "",
-            "LatestGamesPlayed": "",
-            "statusOffline": "",
-            "statusOnline": "",
-            "statusBusy": "",
-            "statusAway": "",
-            "statusSnooze": "",
-            "statusTrade": "",
-            "statusPlay": "",
-            "lastLogin": "",
-            "status": "",
-            "country": "",
-            "gamesOwned": "",
-            "visitProfile": "",
-            "realName": "",
-            "accountCreated": "",
-            "noGamesAvailable": "",
-            "noCountry": "",
-            "lastLogOff": "",
-            "privateProfile": "",
-            "publicProfile": "",
-            "profile": ""
+            "steamId": "Steam Profilname oder Profil-URL",
+            "steamIdSaved": "Steam-ID erfolgreich gespeichert",
+            "LatestGamesPlayed": "Zuletzt gespielte Spiele",
+            "statusOffline": "Offline",
+            "statusOnline": "Online",
+            "statusBusy": "Beschäftigt",
+            "statusAway": "Abwesend",
+            "statusSnooze": "Schlummert",
+            "statusTrade": "Sucht nach Handel",
+            "statusPlay": "Sucht nach Mitspieler",
+            "lastLogin": "Letzter Login: ",
+            "lastLogoff": "Letzter Logout: ",
+            "status": "Status: ",
+            "country": "Land: ",
+            "gamesOwned": "Spiele im Besitz: ",
+            "visitProfile": "Profil ansehen",
+            "realName": "Richtiger Name: ",
+            "accountCreated": "Mitglied seit: ",
+            "noGamesAvailable": "Keine Spiele in den letzten zwei Wochen gespielt.",
+            "noCountry": "Nicht angegeben",
+            "lastLogOff": "Letzter Logout: ",
+            "privateProfile": "Private Profil",
+            "publicProfile": "Öffentliches Profil",
+            "profile": "Profil: "
         }
     }
 }

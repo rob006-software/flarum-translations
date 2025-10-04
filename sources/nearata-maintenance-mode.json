@@ -1,0 +1,30 @@
+{
+    "nearata-maintenance-mode": {
+        "admin": {
+            "dashboard": {
+                "maintenance_widget": {
+                    "title": "Maintenance mode active",
+                    "detail": "During the maintenance, only authorised users can view the forum."
+                }
+            },
+            "permissions": {
+                "bypass": "Can bypass Maintenance Mode"
+            },
+            "settings": {
+                "maintenance_mode_enabled": {
+                    "label": "Maintenance Mode"
+                }
+            }
+        },
+        "views": {
+            "default": {
+                "title": "Maintenance",
+                "header": "Currently down for maintenance.",
+                "body": "<p>We're performing some maintenance at the moment. Please come back later.</p>\n"
+            }
+        },
+        "api": {
+            "title": "Currently down for maintenance. Please come back later."
+        }
+    }
+}

@@ -43,6 +43,7 @@
                 "about_tags_text": "",
                 "create_primary_tag_button": "",
                 "create_secondary_tag_button": "",
+                "edit_tag_label": "",
                 "primary_heading": "",
                 "secondary_heading": "",
                 "settings_heading": "සැකසුම්"
@@ -98,6 +99,17 @@
             "choose_tags_placeholder": "",
             "name": "නම",
             "tags": ""
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

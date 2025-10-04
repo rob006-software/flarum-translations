@@ -1,10 +1,10 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
+            "cache_enabled_label": "LSCache نى ئېچىش",
+            "cache_enabled_help": "تور بەتنىڭ ساقلىغۇچىنى سىناش ئۇسۇلى ھەققىدە <a>ئۇچۇر بېتى</a>نى كۆرۈڭ. دىققەت: ساقلىغۇچىنى ئۆچۈرۈۋەتكەندە، بۇ تور بەت ئۈچۈن بارلىق ساقلانغان ئۇچۇرلار ئۆچۈرۈلىدۇ.",
+            "public_cache_ttl_label": "كۆپچىلىك ساقلىغۇچىنىڭ سۈكۈتتىكى TTL قىممىتى",
+            "public_cache_ttl_help": "ئوچۇق بەتلەرنىڭ قانچە سېكۇنت ساقلىنىشى كېرەكلىكىنى بەلگىلەڭ. سۈكۈتتىكى قىممەت 604800 سېكۇنتتۇر (بىر ھەپتە).",
             "clearing_cache_listener_label": "",
             "serve_stale_label": "",
             "serve_stale_help": "",
@@ -14,8 +14,24 @@
             "cache_exclude_help": "",
             "drop_qs_label": "",
             "drop_qs_help": "",
+            "status_codes_cache_label": "",
+            "status_codes_cache_help": "",
             "purge_all": "",
+            "permissions": {
+                "purge": ""
+            }
+        },
+        "forum": {
+            "purge": {
+                "discussion": ""
+            }
+        },
+        "lib": {
+            "purge_success": "",
             "purge_all_success": ""
+        },
+        "ref": {
+            "purge_cache": ""
         }
     }
 }

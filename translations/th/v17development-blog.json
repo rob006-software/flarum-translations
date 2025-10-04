@@ -1,121 +1,121 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "บล็อก",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "เขียนและแก้ไขบทความในบล็อก",
+                "auto_approve_posts": "โพสต์บทความโดยไม่ต้องอนุมัติ",
+                "approve_posts": "สามารถอนุมัติบทความบล็อกได้"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "featured_count_label": "",
-                "featured_count_text": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
-                "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
-                "add_sidebar_nav_text": "",
-                "categories_heading": "",
-                "hide_tags_in_taglist_label": "",
-                "hide_tags_in_taglist_text": "",
-                "show_tag_hierarchy_label": "",
-                "show_tag_hierarchy_text": "",
-                "redirects_heading": "",
-                "redirect_articles_label": "",
-                "redirect_articles_text": "",
-                "redirect_tags_label": "",
-                "redirect_tags_text": "",
-                "default_article_image_label": "",
-                "default_article_image_text": "",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "no_categories_selected": "ไม่ได้เลือกหมวดหมู่",
+                "selected_category_count": "{count, plural, one {คุณได้เลือก # หมวดหมู่} other {คุณได้เลือก # หมวดหมู่แล้ว}}",
+                "select_categories_button": "เลือกหมวดหมู่บล็อก",
+                "blog_heading": "บล็อก",
+                "featured_count_label": "กระทู้แนะนำสูงสุด",
+                "featured_count_text": "ควรแสดงจำนวนโพสต์เท่าใดในตารางขนาดใหญ่ที่ด้านบนของหน้าบล็อก?",
+                "allow_comments_label": "อนุญาติแสดงความคิดเห็น",
+                "allow_comments_text": "ตามค่าเริ่มต้น อนุญาตให้แสดงความคิดเห็นในโพสต์บนบล็อก เมื่อปิดใช้งาน จะสามารถเปิดใช้งานทีละโพสต์ในบล็อกได้ <b>หมายเหตุ:</b> การเปลี่ยนการตั้งค่านี้จะไม่ส่งผลต่อบทความในบล็อกที่มีอยู่แล้ว",
+                "require_review_label": "โพสต์ในบล็อกต้องมีการตรวจสอบ",
+                "require_review_text": "เมื่อโพสต์บทความ จะไม่สามารถมองเห็นได้โดยตรง และจำเป็นต้องได้รับการตรวจสอบโดยผู้ดูแล",
+                "hide_on_discussion_list_label": "ไม่แสดงในรายการสนทนา",
+                "hide_on_discussion_list_text": "ซ่อนโพสต์บล็อกจากรายการสนทนา",
+                "add_sidebar_nav_label": "เพิ่มลงในการนำทางแถบด้านข้าง",
+                "add_sidebar_nav_text": "รวมลิงก์ไปยังบล็อกไว้ในเมนูนำทางของแถบด้านข้าง",
+                "categories_heading": "หมวดหมู่",
+                "hide_tags_in_taglist_label": "ซ่อนแท็กในรายการแท็ก",
+                "hide_tags_in_taglist_text": "เมื่อเปิดใช้งาน ส่วนขยายนี้จะซ่อนแท็กบล็อกจากหน้าแรกของคุณ",
+                "show_tag_hierarchy_label": "แสดงลำดับชั้นของแท็ก",
+                "show_tag_hierarchy_text": "เพิ่มระยะห่างให้กับหมวดหมู่ย่อยและกำหนดลำดับชั้นให้กับรายการหมวดหมู่",
+                "redirects_heading": "เปลี่ยนเส้นทาง",
+                "redirect_articles_label": "เปลี่ยนเส้นทางบทความบล็อก",
+                "redirect_articles_text": "เมื่อเปิดใช้งาน ส่วนขยายนี้จะเปลี่ยนเส้นทาง URL การสนทนาดั้งเดิมไปยัง URL บล็อก",
+                "redirect_tags_label": "เปลี่ยนเส้นทางแท็กบล็อก",
+                "redirect_tags_text": "เมื่อเปิดใช้งาน ส่วนขยายนี้จะเปลี่ยนเส้นทาง URL แท็กบล็อกไปยัง URL หมวดหมู่บล็อก",
+                "default_article_image_label": "รูปภาพบทความเริ่มต้น",
+                "default_article_image_text": "เลือกรูปภาพบทความเริ่มต้นที่จะแสดงเมื่อไม่ได้ตั้งค่ารูปภาพ",
+                "add_hero_label": "แสดงแบนเนอร์ต้อนรับ",
+                "add_hero_text": "แสดงแบนเนอร์ต้อนรับบนหน้าบล็อกหากยังไม่ปิด"
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
-            "forum_nav": "",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "blog": "บล็อก",
+            "read_more": "อ่านเพิ่มเติม",
+            "hidden": "ซ่อน",
+            "recent_posts": "โพสต์บล็อกล่าสุด",
+            "categories": "หมวดหมู่",
+            "forum_nav": "แถบนำทางฟอรัม",
+            "return_to_overview": "กลับไปที่ภาพรวมของบล็อก ",
+            "no_more_posts": "ไม่มีโพสต์ในบล็อกอีกต่อไป",
+            "category_empty": "ไม่มีโพสต์บล็อกในหมวดหมู่นี้",
             "compose": {
-                "write_article": ""
+                "write_article": "เขียนบทความ"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "ไอดีหาย"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "ชื่อหัวข้อ",
+                "slug": "ลิงค์",
+                "summary": "สรุป"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "ความคิดเห็น",
+                "locked": "ส่วนความคิดเห็นถูกปิดใช้งานสำหรับบทความนี้"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review_title": "รอการตรวจสอบ",
+                "pending_review": "บทความนี้อยู่ระหว่างการพิจารณาและยังไม่ได้เผยแพร่",
+                "approve_article": "อนุมัติบทความ",
+                "approve_article_approved": "บทความนี้ได้รับการอนุมัติและเผยแพร่แล้ว"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "เปลี่ยนชื่อบทความ",
+                "edit_article": "แก้ไขบทความ",
+                "update_category": "อัปเดตหมวดหมู่",
+                "article_settings": "การตั้งค่าบทความ",
+                "approve_article": "อนุมัติบทความ",
+                "hide_article": "ซ่อนบทความ",
+                "recover_article": "กู้คืนบทความ",
+                "delete_forever": "ลบถาวร",
+                "enable_comments": "เปิดใช้งานความคิดเห็น",
+                "disable_comments": "ปิดการใช้งานความคิดเห็น"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "กำลังนำคุณไปยังบทความในบล็อกของเรา...",
+                    "link": "<a>คลิกที่นี่</a> หากเพจไม่เปลี่ยนเส้นทางคุณ"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "ไม่มีชื่อเรื่อง",
+                "enter_message_here": "ป้อนข้อความของคุณที่นี่",
+                "post_article": "โพสต์บทความ",
+                "select_category": "เลือกหมวดหมู่",
+                "edit_categories": "แก้ไขหมวดหมู่",
+                "update_settings": "อัปเดตการตั้งค่าบล็อก",
+                "write": "เขียน",
+                "view": "ดู",
+                "nothing_to_preview": "ไม่มีอะไรให้ดูตัวอย่าง",
+                "comment_section": "ส่วนความคิดเห็นไม่พร้อมใช้งานเมื่อเขียนบทความ",
+                "no_blog_tags_selected": "แท็กใดที่คุณเลือกไม่ใช่แท็กบล็อก โปรดเลือกอย่างน้อยหนึ่งรายการ",
+                "post_without_blog_info": "คุณแน่ใจหรือไม่ว่าต้องการโพสต์โพสต์ในบล็อกนี้ คุณยังไม่ได้ป้อนข้อมูลสรุปหรือรูปภาพของบล็อก"
             },
             "article_settings": {
-                "title": "",
+                "title": "การตั้งค่าโพสต์บล็อก",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "สรุปบทความ",
+                        "placeholder": "กรุณาใส่ข้อมูลสรุป",
+                        "helper_text": "ข้อมูลสรุปนี้จะมองเห็นได้ในหน้าภาพรวมของบล็อก และจะนำไปใช้เพื่อวัตถุประสงค์ในการทำ SEO"
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "รูปภาพบทความ",
+                        "helper_text": "ความละเอียดภาพที่ดีที่สุดสำหรับโซเชียลมีเดีย: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "โพสต์ไฮไลท์",
+                        "helper_text": "ให้ภาพใหญ่แก่โพสต์นี้ในหน้าภาพรวมของบล็อก"
                     }
                 }
             }

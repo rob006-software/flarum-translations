@@ -268,8 +268,8 @@
                         },
                         "edit_user": {
                             "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "tooltip": "",
+                            "title": ""
                         },
                         "email": {
                             "title": "",
@@ -281,6 +281,9 @@
                             "title": ""
                         },
                         "join_time": {
+                            "title": ""
+                        },
+                        "user_actions": {
                             "title": ""
                         },
                         "user_id": {
@@ -634,6 +637,11 @@
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "datetime_formats": {
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": ""
             },
             "series": {
                 "glue_text": ", ",

@@ -2,64 +2,64 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "समूहों का उल्लेख करें"
             },
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "उपयोगकर्ता नाम उल्लेख प्रारूप की अनुमति दें (@username)",
+                "allow_username_format_text": "उपयोगकर्ता उल्लेखों के लिए वर्तमान प्रारूप @\"प्रदर्शन नाम\"#ID है।\nयह सेटिंग @Username के पुराने प्रारूप का उपयोग करने की अनुमति देती है, हालाँकि इसे सहेजने पर यह अभी भी नए प्रारूप में परिवर्तित हो जाएगा।\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "किसी उपयोगकर्ता, समूह या पोस्ट का उल्लेख करें",
+                "reply_to_post_text": "#{number} का उत्तर दें"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "इस पोस्ट का उत्तर",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": "",
-                "group_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} ने आपकी पोस्ट का उत्तर दिया",
+                "user_mentioned_text": "{username} ने आपका उल्लेख किया",
+                "group_mentioned_text": "{username} ने उस समूह का उल्लेख किया है जिसके आप सदस्य हैं"
             },
             "post": {
-                "mentioned_by_more_text": "",
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_more_text": "अधिक उत्तर {count} करें।",
+                "mentioned_by_self_text": "इस पर {users} ने जवाब दिया।",
+                "mentioned_by_text": "इस पर {users} ने जवाब दिया।",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "उद्धरण",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": "",
-                "notify_group_mentioned_label": ""
+                "notify_post_mentioned_label": "कोई मेरी पोस्ट का उत्तर देता है",
+                "notify_user_mentioned_label": "किसी ने पोस्ट में मेरा उल्लेख किया है",
+                "notify_group_mentioned_label": "किसी ने पोस्ट में उस समूह का उल्लेख किया है जिसका मैं सदस्य हूं"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "का उल्लेख है"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[अज्ञात]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[अज्ञात समूह]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} ने आपकी पोस्ट का उत्तर {title} में दिया",
+                "body": "अरे {recipient_display_name}!\n\n{replier_display_name} ने आपकी पोस्ट (#{post_number}) का उत्तर {title} में दिया।\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} ने {title} में आपका उल्लेख किया है",
+                "body": "अरे {recipient_display_name}!\n\n{mentioner_display_name} ने {title} की एक पोस्ट में आपका उल्लेख किया है.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} ने {title} में उस समूह का उल्लेख किया है जिसके आप सदस्य हैं",
+                "body": "अरे {recipient_display_name}!\n\n{mentioner_display_name} ने {title} में उस समूह का उल्लेख किया है जिसके आप सदस्य हैं।\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

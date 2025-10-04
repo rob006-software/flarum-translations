@@ -1,18 +1,51 @@
 {
+    "justoverclock-newsletter": {
+        "admin": {
+            "ctaText": "",
+            "newsLetterOptOutFooter": "",
+            "newsLetterOptOutFooterUnsubscribe": "",
+            "newsletterCountText": "",
+            "newsletterCountTextTwo": "",
+            "textOrHtml": "",
+            "emailTitle": "",
+            "sendingText": "",
+            "sendEmailButtonText": "",
+            "emailSentSuccessMessage": "",
+            "emailSentErrorMessage": "",
+            "noNewsletterSent": "",
+            "totalSubscribers": "",
+            "totalSubscribersCount": "",
+            "lastNewsletterSent": "",
+            "lastNewsletterSentDescription": "",
+            "lastNewsletterSentText": ""
+        },
+        "forum": {
+            "optOutPlaceholder": "",
+            "optOutPageTitle": "",
+            "optOutPageDescription": "",
+            "newsLetterTitle": "",
+            "newsLetterDescription": "",
+            "newsLetterModalTitle": "",
+            "consent": "",
+            "subscribe": "",
+            "unSubscribe": "",
+            "emailRequired": "",
+            "invalidEmailHint": "",
+            "emailNotFound": "",
+            "subscriberDeleted": "",
+            "subscriberExist": "",
+            "successMessage": "",
+            "successUnsubscribedMessage": "",
+            "dataProcessingModalContent": ""
+        }
+    },
     "flarum-ext-newsletter": {
         "admin": {
-            "pubacc": "",
-            "pubaccdesc": "",
-            "listn": "Име на списък",
-            "listndesc": ""
+            "listn": "Име на списък"
         },
         "forum": {
             "subscribe": "Абонирайсе за нашия бюлетин. Моля, въведи своя имейл и натисни Изпрати.",
-            "submitbutton": "Изпрати",
-            "modalthanku": "",
-            "modaltext": "",
-            "accept": "",
-            "prconsent": ""
+            "submitbutton": "Изпрати"
         }
     }
 }

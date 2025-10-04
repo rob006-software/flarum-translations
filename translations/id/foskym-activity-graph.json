@@ -1,0 +1,66 @@
+{
+    "foskym-activity-graph": {
+        "admin": {
+            "settings": {
+                "count_comments": "Jumlah Komentar",
+                "count_discussions": "Jumlah Diskusi",
+                "count_likes": "Jumlah Suka (like)",
+                "count_custom_levels_exp_logs": "Log Level Exp Khusus (membutuhkan foskym/flarum-custom-levels)",
+                "count_invite_user_invites": "Jumlah Undangan Pengguna (membutuhkan xypp/flarum-invite-user)",
+                "count_store_purchases": "Jumlah Pembelian Toko (membutuhkan xypp/store)",
+                "count_polls_create_polls": "Jumlah Polling yang Dibuat (membutuhkan fof/polls)",
+                "count_polls_votes": "Jumlah Suara Polling (membutuhkan fof/polls)",
+                "count_username_requests_username": "Jumlah Permintaan Perubahan Username (membutuhkan fof/username-requests)",
+                "count_username_requests_nickname": "Jumlah Permintaan Perubahan Nickname (membutuhkan fof/username-requests dan flarum-nicknames)",
+                "count_best_answer_marked": "Jumlah Jawaban Terbaik yang Ditandai (membutuhkan fof/best-answer)",
+                "count_badges_assigned": "Jumlah Badge yang Ditetapkan (membutuhkan v17development/flarum-user-badges)",
+                "count_achievements_achieved": "Jumlah Achievement yang Telah Dicapai (membutuhkan malago/achievements)",
+                "count_quest_done": "Jumlah Quest yang Telah Selesai (membutuhkan xypp/forum-quests)",
+                "tooltip_position": "Posisi Tooltip",
+                "tooltip_position_options": {
+                    "top": "Atas",
+                    "right": "Kanan",
+                    "bottom": "Bawah",
+                    "left": "Kiri"
+                },
+                "times_display_format": "Format Tampilan Waktu",
+                "times_display_format_help": "Digunakan untuk menampilkan waktu dalam grafik aktivitas, misalnya, “times”, “[count] times”",
+                "from_year": "Dari Tahun",
+                "from_year_help": "Tahun awal dari grafik aktivitas"
+            },
+            "permissons": {
+                "query-others-activity-graph": "Query Grafik Aktivitas Lainnya"
+            }
+        },
+        "forum": {
+            "label": {
+                "activity_graph": "Grafik Aktivitas",
+                "total_times": "Total {total} di tahun ini",
+                "name_map": "en",
+                "categories": {
+                    "comments": "Komentar",
+                    "discussions": "Diskusi",
+                    "likes": "Suka",
+                    "custom_levels_exp_logs": "Perubahan Exp",
+                    "invite_user_invites": "Undangan",
+                    "store_purchases": "Pembelian Toko",
+                    "polls_create_polls": "Polling",
+                    "polls_votes": "Suara Polling",
+                    "username_requests_username": "Permintaan Perubahan Username",
+                    "username_requests_nickname": "Permintaan Perubahan Nickname",
+                    "best_answer_marked": "Jawaban Terbaik",
+                    "badges_assigned": "Badge",
+                    "achievements_achieved": "Achievement",
+                    "quest_done": "Quest"
+                }
+            }
+        },
+        "lib": {
+            "defaults": {
+                "times_display_format": [
+                    ""
+                ]
+            }
+        }
+    }
+}

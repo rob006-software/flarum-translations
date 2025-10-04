@@ -1,8 +1,18 @@
 {
     "fof-geoip": {
         "admin": {
+            "permissions": {
+                "see_country": ""
+            },
             "settings": {
-                "title": "FriendsOFFlarum GeoIP",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
                 "service_label": "",
                 "service_ipdata_label": "",
                 "service_ipdata_description": "",
@@ -12,14 +22,20 @@
                 "service_ipapi-pro_description": "",
                 "service_iplocation_label": "",
                 "service_iplocation_description": "",
+                "service_ipsevenex_label": "",
+                "service_ipsevenex_description": "",
                 "access_key_label": "",
-                "quota_label": ""
+                "quota_label": "",
+                "show_flag_label": "",
+                "show_flag_help": "",
+                "title": "FriendsOFFlarum GeoIP"
             }
         },
         "forum": {
             "alerts": {
                 "ip_copied": ""
             },
+            "copy_ip_label": "",
             "map_button_label": "",
             "map_modal": {
                 "title": "",
@@ -32,7 +48,21 @@
                 "organization": "",
                 "threat_level": "",
                 "threat_types": "",
-                "error": ""
+                "error": "",
+                "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

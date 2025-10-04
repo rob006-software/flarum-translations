@@ -2,60 +2,60 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
-                "defaultAnonymity": "",
+                "defaultAnonymity": "Uus sisu on vaikimisi anonüümne",
                 "defaultAnonymityWhenAbleToSwitch": "",
-                "alwaysAnonymiseEdits": "",
+                "alwaysAnonymiseEdits": "Alati anonümiseeri muutmisi",
                 "alwaysAnonymiseEditsHelp": "",
-                "composerHelpTextPosition": "",
-                "composerHelpTextPositionVisible": "",
-                "composerHelpTextPositionTooltip": "",
-                "composerHelpTextPositionHidden": "",
+                "composerHelpTextPosition": "Koostaja abiinfo teksti asukoht",
+                "composerHelpTextPositionVisible": "Nähtav (sildi all)",
+                "composerHelpTextPositionTooltip": "Vihje (sildi järel)",
+                "composerHelpTextPositionHidden": "Peidetud",
                 "composerHelpTextPositionHelp": "",
-                "avatars": "",
+                "avatars": "Anonüümsed avatarid",
                 "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "avatarFormId": "Formi ID",
+                "avatarFieldKey": "Välja võti",
+                "avatarFieldValue": "Välja väärtus",
+                "avatarAvatarUrl": "Avatari URL",
+                "avatarAdd": "Lisa avatari reegel"
             },
             "permissions": {
                 "use": "",
-                "reveal": "",
+                "reveal": "Anonüümsete vestluste ja postituste tegelike autorite nägemine",
                 "moderate": ""
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
-                "anonymizeHelp": ""
+                "anonymize": "Postita anonüümselt",
+                "anonymizeHelp": "Moderaatorid teavad, et sina oled see, kes selle sisu lõi"
             },
             "discussionControls": {
-                "anonymize": "",
+                "anonymize": "Anonümiseeri",
                 "anonymizeConfirmation": "",
-                "deanonymize": "",
+                "deanonymize": "Eemalda anonümiseerimine",
                 "deanonymizeConfirmation": ""
             },
             "postControls": {
-                "anonymize": "",
+                "anonymize": "Anonümiseeri",
                 "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "deanonymize": "Eemalda anonümiseerimine",
+                "deanonymizeConfirmation": "See teeb postituse algse autori uuesti avalikuks. Kas jätkan?"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "Viimati vastatud {ago} tagasi"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
+                "mine": "Mina",
+                "mineHelp": "Seda infot näed ainult sina",
+                "profile": "Nähtav ainult sulle",
                 "profileHelp": ""
             }
         },
         "lib": {
             "userMeta": {
-                "initials": "",
-                "username": ""
+                "initials": "?",
+                "username": "Anonüümne"
             }
         }
     }

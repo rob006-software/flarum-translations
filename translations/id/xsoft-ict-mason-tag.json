@@ -35,7 +35,7 @@
                 "show-user-answers": "Tampilkan jawaban yang tidak disarankan ({count})"
             },
             "fields": {
-                "add": "Tambahkan kolom{field}",
+                "add": "Tambahkan kolom {field}",
                 "edit": "Edit kolom {field}",
                 "required": "Dibutuhkan",
                 "name": "Nama kolom",
@@ -74,7 +74,7 @@
                 "hide-empty-fields-section-help": "Secara default jika user dapat mengedit kolom atau judul yang telah ditetapkan, bagian tersebut akan selalu ditampilkan, meskipun semua kolom disembunyikan. Dengan mengaktifkan opsi ini, bagian tersebut akan disembunyikan dan tombol \"edit kolom\" hanya akan tersedia di dalam menu dropdown \"balasan\" ketika semua kolom kosong.\n",
                 "tags-as-field": "Tampilkan tag selector sebagai kolom",
                 "tags-as-field-help": "Ini akan menyembunyikan tag selector default dan menampilkan kolom dropdown khusus sebagai gantinya. Ini hanya akan berfungsi jika Anda mengizinkan hingga satu tag primer dan satu tag sekunder!\n",
-                "tags-field-name": "",
+                "tags-field-name": "Label kolom tag",
                 "tags-field-name-placeholder": "=> xsoft-mason-tag.forum.tags.tags-label",
                 "composer-height": "Tinggi Area Penulisan",
                 "composer-height-placeholder": "320",
@@ -87,7 +87,7 @@
                 "settings": "Pengaturan",
                 "fields": "Kolom",
                 "field-settings": "Pengaturan kolom",
-                "field-answers": ""
+                "field-answers": "Kolom jawaban"
             },
             "permissions": {
                 "see-own-fields": "Melihat kolom pada diskusi sendiri yang sudah ada",

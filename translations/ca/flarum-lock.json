@@ -2,7 +2,7 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": "Tancar discussions"
+                "lock_discussions_label": "Tancar debats"
             }
         },
         "forum": {
@@ -14,14 +14,14 @@
                 "unlock_button": "Obrir"
             },
             "notifications": {
-                "discussion_locked_text": "{username} ha tancat la discussió"
+                "discussion_locked_text": "{username} ha tancat el debat"
             },
             "post_stream": {
-                "discussion_locked_text": "{username} ha tancat la discussió {time}.",
-                "discussion_unlocked_text": "{username} ha obert la discussió {time}."
+                "discussion_locked_text": "{username} ha tancat el debat {time}.",
+                "discussion_unlocked_text": "{username} ha obert el debat {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": "Algú ha tancat una discussió que havies creat"
+                "notify_discussion_locked_label": "Algú ha tancat un debat que havies creat"
             }
         }
     }

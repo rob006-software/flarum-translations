@@ -7,18 +7,21 @@
                 "moneyfordiscussion": "Geld gegeben für eine neue Diskussion",
                 "moneyname": "Name des Geldes (zB: [money] Punkte)",
                 "postminimumlength": "Mindestlänge des Beitrags, um das Geld zu erhalten (0 zum deaktivieren)",
+                "ignore_notifying_users": "",
                 "noshowzero": "Nicht zeigen, wenn der Betrag Null ist",
-                "autoremove": "",
+                "autoremove": "Automatisches Aktualisieren von Geld",
+                "cascaderemove": "",
                 "moneyforlike": "Gegebenes Geld, wenn ein Beitrag geliked wird",
                 "helpextensionlikes": "Erfordert die <code>flarum/likes</code> Erweiterung"
             },
             "permissions": {
-                "edit_money_label": "Geld bearbeiten"
+                "edit_money_label": "Geld bearbeiten",
+                "disable_money_label": ""
             },
             "autoremove": [
-                "",
-                "",
-                ""
+                "Geld niemals entfernen",
+                "Wenn eine Diskussion/ein Beitrag versteckt oder wiederhergestellt wird (Standard)",
+                "Wenn eine Diskussion/ein Beitrag gelöscht wird"
             ],
             "automoderator": {
                 "metric_name": "Geld",

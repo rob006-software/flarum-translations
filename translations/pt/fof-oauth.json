@@ -3,6 +3,9 @@
         "admin": {
             "configure_button_label": "Configurar com FoF OAuth",
             "settings_accessibility_label": "{name} definições",
+            "permissions": {
+                "moderate_user_providers": ""
+            },
             "settings": {
                 "advanced": {
                     "heading": "",
@@ -12,6 +15,8 @@
                 "only_icons_label": "Mostrar apenas ícones dos botões de login (layout alternativo)",
                 "update_email_from_provider_label": "",
                 "update_email_from_provider_help": "",
+                "disable_avatars_label": "",
+                "disable_avatars_help": "",
                 "fullscreen_popup_label": "",
                 "fullscreen_popup_help": "",
                 "popup_width_label": "",
@@ -20,6 +25,9 @@
                 "popup_height_help": "",
                 "providers": {
                     "callback_url_text": "Se necessário, definir o URL de callback para {url}.",
+                    "group_label": "",
+                    "group_help": "",
+                    "no_group_label": "",
                     "discord": {
                         "description": "Criei uma aplicação no seguinte endereço {link}. Adicione o endereço de redirecionamento no tabulador OAuth2.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -77,6 +85,7 @@
                         "label": "Contas associadas",
                         "last-used-label": "Usado em",
                         "link-created-label": "Hiperligação criada",
+                        "identification-label": "",
                         "orphaned-account": "Ligou-se anteriormente com este provedor, mas este forum entretanto desactivou a opção de entrar com este método.",
                         "help": "Estas contas ligadas permitem que efectue o login no forum usando outros provedores.",
                         "identifier-label": "ID {provider}",

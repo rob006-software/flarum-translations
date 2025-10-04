@@ -43,6 +43,7 @@
                 "about_tags_text": "चर्चाओं को वर्गीकृत करने के लिए टैग का उपयोग किया जाता है। प्राथमिक टैग पारंपरिक फ़ोरम श्रेणियों की तरह होते हैं: उन्हें दो-स्तरीय पदानुक्रम में व्यवस्थित किया जा सकता है। द्वितीयक टैग में पदानुक्रम या क्रम नहीं होता है, और सूक्ष्म-वर्गीकरण के लिए उपयोगी होते हैं।",
                 "create_primary_tag_button": "प्राथमिक टैग बनाएं",
                 "create_secondary_tag_button": "द्वितीयक टैग बनाएँ",
+                "edit_tag_label": "",
                 "primary_heading": "प्राथमिक टैग",
                 "secondary_heading": "द्वितीयक टैग",
                 "settings_heading": "सेटिंग"
@@ -97,6 +98,17 @@
             "choose_tags_placeholder": "{count, plural, one {एक और टैग चुनें} other {# और टैग चुनें}}",
             "name": "नाम",
             "tags": "टैग"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

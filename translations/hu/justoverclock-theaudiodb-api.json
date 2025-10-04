@@ -1,16 +1,16 @@
 {
     "justoverclock-theaudiodb-api": {
         "admin": {
-            "langcode": "",
-            "langcode-help": "",
-            "apiKey": "",
-            "apiKeyHelp": ""
+            "langcode": "Nyelvkód",
+            "langcode-help": "Írja ide a nyelvkódokat (támogatott kódok: EN, DE, FR, CN, IT, JP, RU, ES, PT, SE, NL, HU, NO, IL, PL)",
+            "apiKey": "Szerezzen egy API-kulcsot itt: https://www.theaudiodb.com/api_apply.php",
+            "apiKeyHelp": "API-kulcs szükséges a kérés feladásához és az adatok lekéréséhez."
         },
         "forum": {
-            "genres": "",
-            "intFormedYear": "",
-            "countryart": "",
-            "notAv": ""
+            "genres": "Műfajok",
+            "intFormedYear": "Csoport megalakulása:",
+            "countryart": "Ország",
+            "notAv": "Hoppá! Sajnos a leírás nem érhető el az Ön nyelvén… Közreműködhet a TheAudioDb.com tartalmában azáltal, hogy hozzáadja az előadó információit az Ön nyelvén…"
         }
     }
 }

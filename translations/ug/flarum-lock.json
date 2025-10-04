@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "تېمىنى قۇلۇپلاش"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "قۇلۇپلانغان"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "قۇلۇپلاش",
+                "unlock_button": "ئېچىش"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} قۇلۇپلىدى"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} تېمىنى قۇلۇپلىدى {time}.",
+                "discussion_unlocked_text": "{username} تېمىنى ئاچتى{time}."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "بىرسى مەن باشلىغان تېمىنى قۇلۇپلىدى"
             }
         }
     }

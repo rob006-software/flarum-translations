@@ -7,8 +7,8 @@
             },
             "discussion_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
-                "unfollow_button": "Deixar de Seguir",
-                "unignore_button": "Deixar de Ignorar"
+                "unfollow_button": "Deixar de seguir",
+                "unignore_button": "Deixar de ignorar"
             },
             "following": {
                 "meta_title_text": "=> flarum-subscriptions.ref.following"
@@ -17,35 +17,35 @@
                 "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": "{username} postou"
+                "new_post_text": "{username} publicou"
             },
             "settings": {
-                "follow_after_reply_label": "Seguir automaticamente discussões que eu responder",
-                "notify_for_all_posts_label": "Notificar sobre cada nova postagem e não só sobre a ultima discussão",
-                "notify_new_post_label": "Alguém posta numa discussão que estou seguindo"
+                "follow_after_reply_label": "Seguir automaticamente discussões às quais responda",
+                "notify_for_all_posts_label": "Notificar sobre cada nova publicação e não só sobre a ultima numa discussão",
+                "notify_new_post_label": "Alguém publica numa discussão que estou a seguir"
             },
             "sub_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
                 "following_button": "=> flarum-subscriptions.ref.following",
-                "following_text": "Seja notificado de todas as respostas.",
+                "following_text": "Ser notificado de todas as respostas.",
                 "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
-                "ignoring_text": "Nunca seja notificado. Oculta da lista de discussão.",
-                "not_following_button": "Não Seguindo",
-                "not_following_text": "Seja notificado apenas quando @mencionado.",
-                "notify_alert_tooltip": "Receber uma notificação no fórum quando houver novos posts",
-                "notify_email_tooltip": "Receber um email quando houver novos posts"
+                "ignoring_text": "Nunca ser notificado. Ocultar da lista de discussões.",
+                "not_following_button": "Não está a seguir",
+                "not_following_text": "Ser notificado apenas quando @mencionado.",
+                "notify_alert_tooltip": "Receber uma notificação no fórum quando existirem novas publicações",
+                "notify_email_tooltip": "Receber um email quando existirem novas publicações"
             }
         },
         "email": {
             "new_post": {
-                "subject": "[Nova Postagem] {title}",
-                "body": "Olá {recipient_display_name}!\n\n{poster_display_name} colocou uma postagem numa discussão que estás a seguir: {title}.\n\nPara ver a nova actividade, segue o seguinte link:\n{url}\n\n---\n\n{content}\n\n---\n\nNão vai receber novas notificações sobre esta discussão até estar actualizado.\n"
+                "subject": "[Nova publicação] {title}",
+                "body": "Olá {recipient_display_name}!\n\n{poster_display_name} colocou uma publicação numa discussão que estás a seguir: {title}.\n\nPara visualizar a nova atividade, podes visitar o seguinte endereço:\n{url}\n\n---\n\n{content}\n\n---\n\nNão vai receber novas notificações sobre esta discussão até se manter a par.\n"
             }
         },
         "ref": {
             "follow": "Seguir",
-            "following": "Seguindo",
-            "ignoring": "Ignorando"
+            "following": "A seguir",
+            "ignoring": "A ignorar"
         }
     }
 }

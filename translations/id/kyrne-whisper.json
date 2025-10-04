@@ -2,7 +2,7 @@
     "kyrne-whisper": {
         "admin": {
             "settings": {
-                "return_key": "Tombol return (kembali) mengirim pesan",
+                "return_key": "Tombol return untuk mengirim pesan",
                 "title": "Pengaturan Whisper",
                 "set_own_password": "Biarkan pengguna membuat password mereka sendiri - Kompatibilitas SSO"
             },
@@ -31,10 +31,10 @@
                 "title": "Mulai Percakapan",
                 "help": "Ketik username untuk memulai obrolan.",
                 "help_start": "Ketik pesan pertama Anda. Ini akan menjadi satu-satunya pesan yang dapat Anda kirim hingga {username} merespons. Klik pengguna untuk memilih penerima lainnya.",
-                "search_recipients": "Masukkan username...",
+                "search_recipients": "Ketik username...",
                 "submit": "Kirim & Mulai Percakapan",
                 "copied": "Pesan Anda telah disalin ke clipboard.",
-                "more_users": "Jika Anda tidak melihat pengguna yang Anda cari, berarti mereka tidak memiliki pengaturan pesan pribadi.",
+                "more_users": "Jika Anda tidak melihat pengguna yang Anda cari, artinya mereka tidak memiliki pengaturan pesan pribadi.",
                 "already": "Anda sudah memiliki percakapan dengan {username}."
             },
             "user_modal_alert": "{username} memiliki pengaturan pesan pribadi, password mereka tidak dapat diubah dengan aman.",
@@ -52,7 +52,7 @@
                 "cant_send": "Anda tidak dapat mengirim pesan hingga {username} merespons (hanya pesan pertama)",
                 "cant_send_toomany": "Mohon tunggu balasan dari {username} sebelum mengirim pesan lagi",
                 "failed_to_decrypt": "[Gagal mendekripsi]",
-                "start_of_conversation": "Awal Percakapan"
+                "start_of_conversation": "Mulai Percakapan"
             }
         }
     }

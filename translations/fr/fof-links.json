@@ -4,10 +4,7 @@
             "edit_link": {
                 "delete_link_button": "Supprimer le lien",
                 "delete_link_confirmation": "Êtes-vous sûr de vouloir supprimer ce lien ?",
-                "everyone-label": "Tout le monde",
-                "guests-label": "Invités",
                 "internal_link": "Est-ce un lien interne ?",
-                "members-label": "Utilisateurs enregistrés",
                 "open_newtab": "Ouvrir le lien dans un nouvel onglet",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -15,14 +12,25 @@
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
+                "icon_additional_text": "Si vous souhaitez utiliser une icône de marque, le préfixe est <code>fab fa-</code>.",
                 "url_description": "Laissez vide pour afficher comme un label.",
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
-                "visibility": "Visibilité du lien"
+                "use_rel_me": "Ajoutez l'attribut <code>rel=\"me\"</code> pour vérifier l'identité sur d'autres sites",
+                "visibility": "Visibilité du lien",
+                "visibility.help": "Par défaut, les liens ne sont visibles que par 1<code>{admin}</code> utilisateurs. Ajustez les permissions pour spécifier qui peut voir ce lien.",
+                "visibility.help-disabled": "Enregistrez le lien avant de modifier les paramètres de visibilité.",
+                "visibility.label": "Visibilité des liens",
+                "visibility.guest-only.label": "Uniquement {guest} ?",
+                "visibility.guest-only.help": "Seul {guest} peut voir ce lien. L'autorisation ci-dessus doit être définie sur « {everyone} ».",
+                "everyone-label": "Tout le monde",
+                "guests-label": "Invités",
+                "members-label": "Utilisateurs enregistrés"
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
-                "links": "=> fof-links.ref.links"
+                "links": "=> fof-links.ref.links",
+                "preconfigured": "Les liens sur ce forum ont été préconfigurés et ne peuvent pas être modifiés ici."
             },
             "settings": {
                 "show_icons_only_on_tablet": "Afficher uniquement les icônes sur les écrans de tablettes",

@@ -1,24 +1,26 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "لا يمكنك استخدام هذا التفاعل الآن، يرجى تحديث الصفحة",
+            "warning": "لقد تم تحويل رد فعلك",
+            "notification": "تفاعل {username} مع منشورك بـ {reaction}",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "عندما يتفاعل شخص ما بالرموز تعبيرية مع إحدى منشوراتي"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "لا يمكنك التفاعل مع منشورك",
             "modal": {
-                "title": "",
-                "anonymous_count": ""
+                "title": "التفاعلات",
+                "anonymous_count": "{count, plural, one {# مستخدم مجهول} other {# مستخدمين مجهولين}}",
+                "no_reactions": "لا توجد تفاعلات حتى الآن"
             },
-            "mod_item": "",
-            "react_button_label": ""
+            "mod_item": "عرض التفاعلات",
+            "react_button_label": "تفاعل"
         },
         "admin": {
             "permissions": {
                 "react_posts_label": "",
-                "see_reactions_label": ""
+                "see_reactions_label": "",
+                "delete_post_reactions_label": ""
             },
             "page": {
                 "cdn": {
@@ -34,7 +36,8 @@
                     "help": {
                         "display": "",
                         "identifier": ""
-                    }
+                    },
+                    "delete_confirmation": ""
                 },
                 "convert": {
                     "help": "",

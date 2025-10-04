@@ -1,0 +1,76 @@
+{
+    "xypp-invite-user": {
+        "forum": {
+            "page": {
+                "title": "邀請",
+                "code": {
+                    "title": "邀請用戶",
+                    "code": "邀請碼",
+                    "url": "邀請網址"
+                },
+                "my": {
+                    "title": "我的邀請用戶",
+                    "code": "輸入邀請碼",
+                    "inviter": "您已接受該使用者為您的邀請使用者。",
+                    "accept": "接受",
+                    "no-inviter": "該用戶尚未接受任何邀請用戶。"
+                },
+                "invite": {
+                    "title": "我邀請的使用者",
+                    "username": "使用者名",
+                    "avatar": "用戶",
+                    "empty": "您還沒有邀請任何用戶。",
+                    "time": ""
+                },
+                "no_tip": ""
+            },
+            "confirm": {
+                "title": "",
+                "msg": "",
+                "alert": "",
+                "accept": "",
+                "success": ""
+            },
+            "invite": "",
+            "notification": {
+                "user_invited": "",
+                "user_invited_label": ""
+            },
+            "condition": {
+                "user_invite": "",
+                "user_be_invited": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "reward_invite": {
+                    "title": "",
+                    "description": ""
+                },
+                "reward_be_invited": {
+                    "title": "",
+                    "description": ""
+                },
+                "invite_each_other": {
+                    "title": "",
+                    "description": ""
+                },
+                "invite_new_user_only": {
+                    "title": "",
+                    "description": ""
+                }
+            },
+            "condition": {
+                "user_invite": "",
+                "user_be_invited": ""
+            }
+        },
+        "api": {
+            "invited_by_user_id_is_self": "",
+            "has_already_be_invited": "",
+            "invited_by_user_id_is_empty": "",
+            "invited_each_other": "",
+            "invited_an_elder_user": ""
+        }
+    }
+}

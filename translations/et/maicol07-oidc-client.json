@@ -3,60 +3,60 @@
         "admin": {
             "settings": {
                 "client": {
-                    "title": "",
-                    "subtitle": "",
-                    "id": "",
-                    "secret": "",
-                    "enable_pkce": "",
+                    "title": "Kliendi seaded",
+                    "subtitle": "Sisesta siia sinu OpenID ühenduse teenusepakkujalt saadud andmed. Lisainfot vaata dokumentatsioonist.\n",
+                    "id": "Kliendi ID",
+                    "secret": "Kliendi salasõna",
+                    "enable_pkce": "Lülita PKCE sisse (soovitatud)",
                     "enable_nonce": "",
-                    "http_proxy": "",
-                    "cert_path": "",
-                    "verify_ssl": "",
-                    "timeout": "",
+                    "http_proxy": "HTTP proksiserver",
+                    "cert_path": "Sertifikaadi asukoht (kui kasutad enda poolt allkirjastatud sertifikaati)",
+                    "verify_ssl": "Päringute ajal SSL-i kontrollimine",
+                    "timeout": "Päringu aegumine",
                     "allow_implicit_flow": "",
                     "skip_email_verified_check": ""
                 },
-                "callback_title": "",
+                "callback_title": "Tagasihelistamise URL-id",
                 "callback_subtitle": "",
                 "callback_logout_note": "",
                 "provider": {
-                    "title": "",
+                    "title": "Teenusepakkuja seaded",
                     "subtitle": "",
-                    "url": "",
+                    "url": "Teenusepakkuja URL",
                     "endpoints": {
-                        "authorize": "",
-                        "token": "",
-                        "userinfo": "",
-                        "logout": "",
-                        "jwks": ""
+                        "authorize": "Autoriseerimise lõpp-punkti URL",
+                        "token": "Kontrollkoodi lõpp-punkti URL",
+                        "userinfo": "Kasutajainfo lõpp-punkti URL",
+                        "logout": "Sessiooni lõppemise (väljalogimise) lõpp-punkti URL",
+                        "jwks": "JWKS lõpp-punkti URL"
                     },
-                    "issuer": "",
-                    "code_challenge_method": "",
+                    "issuer": "Väljaandja URL",
+                    "code_challenge_method": "Koodi väljakutse meetod",
                     "response_type": "",
-                    "id_token_signing_alg": "",
+                    "id_token_signing_alg": "ID kontrollkoodi allkirjastamise algoritm",
                     "authorization_response_iss_parameter_supported": "",
-                    "token_endpoint_auth_method": ""
+                    "token_endpoint_auth_method": "Kontrollkoodi lõpp-punkti autentimisviis"
                 },
                 "other": {
-                    "title": "",
+                    "title": "Muud seaded",
                     "provider_name": "",
                     "linker_claim": "",
-                    "manage_account_url": "",
-                    "manage_account_btn_open_in_new_tab": "",
-                    "sso_mode": "",
-                    "logout_from_provider": "",
-                    "remove_signup_btn": "",
-                    "sync_avatars": "",
-                    "time_drift": ""
+                    "manage_account_url": "Konto haldamise URL",
+                    "manage_account_btn_open_in_new_tab": "Ava konto haldamise lehekülg uuel vahekaardil",
+                    "sso_mode": "SSO režiim",
+                    "logout_from_provider": "Väljalogimise teenusepakkuja (kui SSO režiim on sisse lülitatud)",
+                    "remove_signup_btn": "Eemalda liitumise nupp",
+                    "sync_avatars": "Sünkrooni kasutaja avatar",
+                    "time_drift": "JWT ajanihe"
                 }
             }
         },
         "forum": {
             "buttons": {
-                "manage_account": "",
-                "login": "",
-                "connect_account": "",
-                "disconnect_account": ""
+                "manage_account": "Halda kontot",
+                "login": "Logi sisse kontole {name}",
+                "connect_account": "Ühenda kontoga {name}",
+                "disconnect_account": "Katkesta ühendus kontoga {name}"
             }
         }
     }

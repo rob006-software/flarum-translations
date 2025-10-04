@@ -1,13 +1,13 @@
 {
     "username-blacklist": {
         "forum": {
-            "modal-title": "",
-            "modal-body-first-line": "",
-            "modal-body-second-line": ""
+            "modal-title": "Avís!",
+            "modal-body-first-line": "Avís: aquest nom d'usuari està <strong>bloquejat per l'administrador</strong>",
+            "modal-body-second-line": "Si us plau, tria un altre nom d'usuari que no trenqui les normes de la comunitat i prova novament."
         },
         "admin": {
-            "blackList": "",
-            "blackList-help": ""
+            "blackList": "Nom d'usuari no permès",
+            "blackList-help": "Escriu aquí els noms d'usuari que vulguis bloquejar durant la fase de registre (separats per comes)"
         }
     }
 }

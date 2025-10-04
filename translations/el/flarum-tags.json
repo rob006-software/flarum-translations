@@ -43,6 +43,7 @@
                 "about_tags_text": "Οι κατηγορίες χρησιμοποιούνται για την κατηγοριοποίηση των συζητήσεων. Οι κύριες κατηγορίες είναι όπως οι παραδοσιακές κατηγορίες φόρουμ: μπορούν να ταξινομηθούν σε μια ιεραρχία δύο επιπέδων. Οι υποκατηγορίες δεν έχουν ιεραρχία ή σειρά και είναι χρήσιμες για μικρο-κατηγοριοποίηση των θεμάτων.",
                 "create_primary_tag_button": "Δημιουργία κύριας κατηγορίας",
                 "create_secondary_tag_button": "Δημιουργία υποκατηγορίας",
+                "edit_tag_label": "",
                 "primary_heading": "Κύριες κατηγορίες",
                 "secondary_heading": "Υποκατηγορίες",
                 "settings_heading": "Ρυθμίσεις"
@@ -100,6 +101,17 @@
             "choose_tags_placeholder": "",
             "name": "Όνομα",
             "tags": "Κατηγορίες"
+        },
+        "validation": {
+            "attributes": {
+                "name": "",
+                "slug": "",
+                "is_hidden": "",
+                "description": "",
+                "color": "",
+                "tag_count_primary": "",
+                "tag_count_secondary": ""
+            }
         }
     }
 }

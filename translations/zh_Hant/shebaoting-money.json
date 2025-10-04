@@ -1,0 +1,105 @@
+{
+    "shebaoting-money": {
+        "admin": {
+            "settings": {
+                "title": "設置",
+                "initialmoney": "新用戶初始資金",
+                "moneyforpost": "為新職位提供資金",
+                "moneyfordiscussion": "為新的討論提供資金",
+                "moneyname": "貨幣名稱（例如：[貨幣]點）",
+                "postminimumlength": "獲得金錢的發布最小長度（0 禁用）",
+                "noshowzero": "如果值為零則不顯示",
+                "autoremove": "自動更新資金",
+                "moneyforlike": "當貼文被按讚時給予金錢",
+                "helpextensionlikes": "需要 <code>flarum/likes</code> 擴展",
+                "extra_char_threshold": "",
+                "extra_char_threshold_help": "",
+                "extra_char_increment": "",
+                "extra_char_increment_help": "",
+                "extra_char_points": "",
+                "extra_char_points_help": ""
+            },
+            "permissions": {
+                "edit_money_label": "編輯資金"
+            },
+            "autoremove": [
+                "從不移除金錢",
+                "當討論/帖子被隱藏或恢復時（預設）",
+                ""
+            ],
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": ""
+            },
+            "modal": {
+                "title": "",
+                "current": "",
+                "submit_button": ""
+            },
+            "log_time": "",
+            "log_type": "",
+            "log_amount": "",
+            "log_balance": "",
+            "log_description": "",
+            "log_type_deposit": "",
+            "log_type_withdrawal": "",
+            "log_type_transfer": "",
+            "log_type_reward": "",
+            "no_money_logs": "",
+            "load_more": "",
+            "logs_description": {
+                "created_discussion": "",
+                "created_reply": "",
+                "reply_received": "",
+                "liked": "",
+                "liked_by": "",
+                "unliked_post": "",
+                "unliked_by": "",
+                "initial_registration": "",
+                "admin_updated": "",
+                "discussion_started": "",
+                "discussion_restored": "",
+                "discussion_hidden": "",
+                "discussion_deleted": "",
+                "posted_reply": "",
+                "extra_characters": "",
+                "no_permission": ""
+            },
+            "logs_type": {
+                "discussion_started": "",
+                "post_created": "",
+                "post_restored": "",
+                "post_hidden": "",
+                "post_deleted": "",
+                "discussion_restored": "",
+                "discussion_hidden": "",
+                "discussion_deleted": "",
+                "liked": "",
+                "liked_by_others": "",
+                "admin_updated": "",
+                "registration": "",
+                "discussion_replied": ""
+            },
+            "point_log": {
+                "title": "",
+                "link": "",
+                "empty_text": "",
+                "table": {
+                    "headers": {
+                        "date": "",
+                        "amount": "",
+                        "balance": "",
+                        "reason": ""
+                    }
+                },
+                "load_more": "",
+                "no_permission": ""
+            }
+        }
+    }
+}

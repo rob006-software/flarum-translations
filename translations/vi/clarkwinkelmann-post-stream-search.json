@@ -2,43 +2,43 @@
     "clarkwinkelmann-post-stream-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "sideNavAccess": "",
-                "sideNavAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Truy cập từ menu thả xuống trong thảo luận",
+                "dropdownAccessHelp": "Nếu tắt, thanh công cụ chỉ khả dụng thông qua phím tắt hoặc các phím tắt khác được bật bên dưới.",
+                "sideNavAccess": "Truy cập từ thanh điều hướng bên của thảo luận",
+                "sideNavAccessHelp": "Giống như cài đặt trước nhưng nút sẽ được thêm riêng trong thanh bên thay vì menu thả xuống.",
+                "authorQuickFilter": "Bộ lọc nhanh theo tác giả bài viết",
+                "authorQuickFilterHelp": "Một phím tắt sẽ được thêm vào menu thả xuống của mỗi bài để lọc theo người dùng đó.",
+                "originalPosterBadge": "Hiển thị huy hiệu OP tương tác",
+                "originalPosterBadgeHelp": "Một huy hiệu sẽ được thêm cạnh các bài viết của người tạo thảo luận. Nhấp vào huy hiệu sẽ tự động lọc theo người dùng đó."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "noResults": "Không có bài viết nào khớp với tìm kiếm trong thảo luận này",
+                "unmatchedGap": "{count, plural, one {1 bài viết không khớp bị ẩn} other {{count} bài viết không khớp bị ẩn}}",
+                "otherAuthorsGap": "{count, plural, one {1 bài viết của tác giả khác bị ẩn} other {{count} bài viết của tác giả khác bị ẩn}}"
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "Tìm trong thảo luận...",
+                "authorPlaceholder": "Lọc theo tác giả...",
+                "summary": "{matching} trên tổng {total} kết quả khớp",
+                "pin": "Luôn mở thanh công cụ lọc trong thảo luận",
+                "close": "Xóa bộ lọc và đóng thanh công cụ",
+                "clear": "Xóa bộ lọc"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Tìm trong thảo luận"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Chỉ hiển thị phản hồi từ tác giả này"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "Người tạo thảo luận",
+                "opBadgeTooltip": "Nhấp để chỉ hiển thị phản hồi từ người dùng này"
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "Không thể đi đến bài viết",
+                "action": "Thử xóa bộ lọc"
             }
         }
     }

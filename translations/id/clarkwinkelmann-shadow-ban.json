@@ -2,37 +2,37 @@
     "clarkwinkelmann-shadow-ban": {
         "admin": {
             "setting": {
-                "hideUsers": "Sembunyikan profil user yang terkena shadow ban"
+                "hideUsers": "Sembunyikan profil pengguna yang diblokir secara shadow"
             },
             "permission": {
-                "ban": "Meng-shadow ban user",
-                "hide": "Meng-shadow hide diskusi dan post"
+                "ban": "Memblokir pengguna secara shadow",
+                "hide": "Menyembunyikan diskusi dan post secara shadow"
             }
         },
         "forum": {
             "discussionControl": {
-                "hide": "Shadow hide",
+                "hide": "Sembunyikan shadow",
                 "restore": "Pulihkan shadow"
             },
             "postControl": {
-                "hide": "Shadow hide",
+                "hide": "Sembunyikan shadow",
                 "restore": "Pulihkan shadow"
             },
             "userControl": {
-                "ban": "Shadow ban"
+                "ban": "Blokir shadow"
             },
             "banUser": {
                 "title": "Tangguhkan {username}",
                 "until": "Hingga tanggal (UTC)",
                 "quick": "Pilihan cepat",
-                "quickChoiceReset": "Tidak ditangguhkan",
+                "quickChoiceReset": "Tidak diblokir",
                 "quickChoiceDays": "{count, plural, one {# hari} other {# hari}}",
                 "submit": "Simpan"
             },
             "badge": {
-                "user": "Shadow banned",
-                "discussion": "Shadow hidden",
-                "post": "Shadow hidden"
+                "user": "Shadow diblokir",
+                "discussion": "Shadow disembunyikan",
+                "post": "Shadow disembunyikan"
             }
         }
     }

@@ -3,13 +3,13 @@
         "forum": {
             "modal": {
                 "error": {
-                    "failed_to_load_cropper": "",
-                    "generic_resize": "",
-                    "get_image_data": ""
+                    "failed_to_load_cropper": "A képvágó betöltése sikertelen.",
+                    "generic_resize": "Hiba történt a kép vágása és átméretezése során.",
+                    "get_image_data": "A vágás sikertelen. Győződjön meg arról, hogy a böngésző ujjlenyomat-készítési védelme ki van kapcsolva."
                 },
-                "help_text": "",
-                "submit_button": "",
-                "submit_crop_button": ""
+                "help_text": "A képfeltöltés sikertelen lehet, ha a böngésző adatvédelmi beállításai nagyon szigorúak. Ha problémája van, próbálja meg kikapcsolni az ujjlenyomat-készítés elleni védelmét. Egyébként <disableResize>letilthatja a vágott kép tömörítését</disableResize> vagy <disableCrop>teljesen kikapcsolhatja a vágást</disableCrop>.\n",
+                "submit_button": "Feltöltés",
+                "submit_crop_button": "Vágás és feltöltés"
             }
         }
     }

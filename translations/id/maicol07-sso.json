@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "title": "Pengaturan SSO",
-                "provider_mode": "Aktifkan opsi ini untuk menggunakan mode provider (SSO antar Flarum instance). Mengizinkan Flarum instance lain untuk login sebagai user Flarum instance ini. Ini akan menonaktifkan fitur SSO standar dengan situs web lain.",
+                "provider_mode": "Aktifkan opsi ini untuk menggunakan mode provider (SSO antar Flarum instance). Mengizinkan Flarum instance lain untuk masuk sebagai pengguna Flarum instance ini. Ini akan menonaktifkan fitur SSO standar dengan situs web lain.",
                 "client_name": "Nama",
                 "client_name_help": "Nama Flarum instance",
                 "client_url": "URL",
                 "client_url_help": "URL Flarum instance",
-                "client_api_key": "API key",
-                "client_api_key_help": "API key dari Flarum instance Anda.",
+                "client_api_key": "Kunci API",
+                "client_api_key_help": "Kunci API dari Flarum instance Anda.",
                 "client_password_token": "Token password",
                 "client_password_token_help": "Token password acak untuk digunakan dengan Flarum instance signup.",
                 "client_verify_ssl": "Verifikasi SSL",
@@ -22,14 +22,15 @@
                 "manage_account_url": "Kelola URL akun",
                 "manage_account_btn_open_in_new_tab": "Buka manajemen akun di tab baru",
                 "cookies_prefix": "Prefiks nama cookie",
-                "jwt_section_subtitle": "Pengaturan JWT Addon",
-                "jwt_iss": "",
+                "jwt_section_subtitle": "Pengaturan Add-on JWT",
+                "jwt_iss": "Domain JWT Issuer (iss)",
                 "jwt_signer_key": "Kunci penanda tangan",
                 "jwt_signing_algorithm": "Metode Penandatanganan"
             }
         },
         "forum": {
-            "manage_account_btn": "Kelola akun"
+            "manage_account_btn": "Kelola akun",
+            "no_login_url_error": "Tidak ada URL login yang ditentukan, silakan periksa pengaturan SSO!"
         }
     }
 }

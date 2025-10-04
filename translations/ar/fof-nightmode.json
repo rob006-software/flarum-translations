@@ -1,45 +1,50 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "تلقائي (بناءً على خيارات المتصفح أو الجهاز)",
+            "light": "الوضع النهاري",
+            "dark": "الوضع الليلي"
         },
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
                 "modal": {
                     "always_show_theme_toggle_on_header": "",
+                    "show_theme_toggle_in_solid": "",
                     "default_theme": "",
                     "default_theme_helper": "",
                     "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "theme_light": "الوضع النهاري",
+                    "theme_dark": "الوضع الليلي"
                 }
             }
         },
         "forum": {
-            "day": "",
-            "night": "",
+            "day": "الوضع النهاري",
+            "night": "الوضع الليلي",
             "header": {
-                "nightmode_button": ""
+                "nightmode_button": "تبديل المظهر"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
-                    "auto_unsupported": "",
+                    "heading": "المظهر",
+                    "description": "اختر لون المظهر الذي تريد استخدامه.",
+                    "description2": "سيتم ربط هذا المظهر بحسابك وسيتم تطبيقه على جميع أجهزتك ما لم تقم بتشغيل المفتاح أدناه لكل جهاز إعدادات.",
+                    "device_specific_setting_checkbox": "استخدم لكل جهاز إعدادات",
+                    "device_specific_setting_checkbox_tooltip": "سيتم حفظ اختيارك للمظهر بشكل فردي لكل جهاز من أجهزتك.",
+                    "auto_unsupported": "لا يدعم متصفحك الوضع الداكن التلقائي.",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "تلقائي (بناءً على خيارات المتصفح أو الجهاز)",
+                        "day": "الوضع النهاري",
+                        "night": "الوضع الليلي"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "سيتم اختيار مظهرك تلقائيًا بناءً على إعدادات متصفحك أو جهازك. على سبيل المثال، إذا كان الوضع المظلم مُفعّلًا على نظام iOS، فسيكون النظام مظلمًا أيضًا.",
+                        "day": "التجربة الكلاسيكية التي اعتدت عليها. أحببتها وجربتها.",
+                        "night": "أنت من هواة السهر. تراقب المحتوى ليلًا، بينما تنام الطيور وتصطاد الثعالب. أو ربما تفضل الألوان الداكنة!"
                     }
                 }
             }

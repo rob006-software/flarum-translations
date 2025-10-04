@@ -1,0 +1,65 @@
+{
+    "foskym-issue-tracking": {
+        "admin": {
+            "provider_heading": "Fournisseur de plateforme",
+            "enable_comment_sync_label": "Créer des commentaires dans l'outil de suivi des problèmes lorsqu'un message est créé",
+            "enable_create_issue_label": "Permettre aux utilisateurs de créer des problèmes dans Flarum",
+            "enable_auto_import_label": "Importation automatique des numéros dans Flarum lors de la lecture des numéros",
+            "enable_import_by_username_label": "Importer les problèmes par nom d'utilisateur",
+            "enable_import_by_display_name_label": "Importer les problèmes par nom d'affichage",
+            "default_import_by_email_help": "Par défaut, les problèmes sont importés par courriel. Vous pouvez activer l'importation par nom d'utilisateur ou par nom d'affichage. Les paramètres d'importation manuelle sont synchronisés avec ces deux paramètres. Si l'utilisateur n'existe pas, le problème sera importé par l'acteur manuel ou l'administrateur par défaut.",
+            "action": {
+                "heading": "Action",
+                "test_connection_button": "Test de connexion",
+                "test_connection_success": "Connecté",
+                "import_issues_button": "Importer les problèmes",
+                "import_issues_success": "Problèmes importés avec succès",
+                "import_issues_confirmation": "Êtes-vous sûr de vouloir importer tous les problèmes ?",
+                "delete_imported_issues_button": "Supprimer les problèmes importés",
+                "delete_imported_issues_success": "Les problèmes importés ont été supprimés avec succès",
+                "delete_imported_issues_confirmation": "Êtes-vous sûr de vouloir supprimer tous les problèmes importés ?",
+                "delete_all_issues_button": "Supprimer tous les problèmes",
+                "delete_all_issues_success": "Tous les problèmes ont été supprimés avec succès",
+                "delete_all_issues_confirmation": "Êtes-vous sûr de vouloir supprimer tous les problèmes ?"
+            }
+        },
+        "forum": {
+            "title": "Suivi des problèmes",
+            "header": {
+                "back_to_issues_tooltip": "Retour aux problèmes"
+            },
+            "last_updated": "Dernière mise à jour le {time}",
+            "issue_opened_by": "Problème ouvert le {time} par {username}",
+            "progress": "Progression",
+            "new_issue": "Nouveau problème",
+            "cannot_create_issue": "Lecture seule",
+            "discussion": {
+                "issue_link": "Consulter"
+            },
+            "composer": {
+                "title": "Rapporter un nouveau problème",
+                "title_placeholder": "Titre du problème",
+                "body_placeholder": "Description du problème",
+                "submit_button": "Soumettre un problème",
+                "discard_confirmation": "Êtes-vous sûr de vouloir abandonner ce problème ?"
+            },
+            "sort": {
+                "latest_button": "Nouveauté",
+                "oldest_button": "Ancienneté",
+                "newest_button": "Récent"
+            },
+            "hero": {
+                "last_updated": "=> foskym-issue-tracking.forum.last_updated",
+                "unresolved": "Non résolu",
+                "resolved": "Résolu",
+                "tasks_done": "{number} sur {total}",
+                "complete": "{progress} achevé"
+            },
+            "provider": {
+                "error": {
+                    "title": "Erreur du fournisseur"
+                }
+            }
+        }
+    }
+}

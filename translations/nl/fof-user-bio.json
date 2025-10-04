@@ -2,20 +2,26 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "Bekijk profiel",
-                "editOwn": "Wijzig eigen profiel",
-                "editAny": "Wijzig elk profiel"
+                "view": "Bekijk biografie",
+                "editOwn": "Wijzig eigen biografie",
+                "editAny": "Wijzig elk biografie"
             },
             "setting": {
-                "bioLimit": "Maximum aantal tekens profiel",
-                "maxLines": "",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "bioLimit": "Maximum aantal tekens biografie",
+                "maxLines": "Maximaal aantal regels dat tegelijk kan worden weergegeven",
+                "allowFormatting": "Opmaak in bio toestaan",
+                "allowFormatting_help": "Door het ontwerp staat deze opmaak los van de postopmaak. Als de BBCode- en/of Markdown-extensies zijn ingeschakeld, zijn ze beschikbaar om de biografie te formatteren. Afbeeldingen of insluitingen zijn niet toegestaan. Extensies die bijdragen aan de Flarum-formatter moeten *expliciet* ondersteuning voor de bio-formatter toevoegen."
             }
         },
         "forum": {
             "userbioPlaceholder": "Schrijf iets over jezelf",
-            "userbioPlaceholderOtherUser": "Schrijf informatie over {username}"
+            "userbioPlaceholderOtherUser": "Schrijf informatie over {username}",
+            "profile": {
+                "cancel_confirm": "Weet je zeker dat je het bewerken van je biografie wilt annuleren? Alle wijzigingen die u heeft aangebracht, gaan verloren.",
+                "cancel_button": "Annuleren",
+                "save_button": "Opslaan",
+                "edit_bio_label": "Wijzig biografie"
+            }
         }
     }
 }

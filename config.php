@@ -17,6 +17,7 @@ return [
 	'dir' => __DIR__,
 	'sourcesDir' => __DIR__ . '/sources',
 	'translationsDir' => __DIR__ . '/translations',
+	'metadataDir' => __DIR__ . '/metadata',
 	'components' => require __DIR__ . '/config/components.php',
 	'languages' => require __DIR__ . '/config/languages.php',
 	'subsplits' => require __DIR__ . '/config/subsplits.php',

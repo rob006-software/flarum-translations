@@ -19,13 +19,13 @@
             },
             "viewlist": {
                 "title": "最近の閲覧者",
-                "guest": ""
+                "guest": "ゲスト"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} が閲覧しました。",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "最後にこのディスカッションを閲覧したユーザー"
             }
         },
         "admin": {
@@ -36,19 +36,19 @@
             "settings": {
                 "title": "スレッド閲覧数の設定",
                 "track_unique_label": "ユニークアクセスでカウントする",
-                "track_unique_text": "",
-                "track_guests_label": "",
+                "track_unique_text": "IPアドレスに基づいた閲覧数の増加",
+                "track_guests_label": "ゲストを追跡する",
                 "abbr_numbers_label": "閲覧数を省略する",
-                "abbr_numbers_text": "",
+                "abbr_numbers_text": "有効な場合、高閲覧数は省略されます（例：1000 = 1K）",
                 "show_filter_label": "閲覧数による並び替えを有効化する",
                 "max_viewcount_label": "最近の閲覧者の最大数",
-                "max_viewcount_text": "",
+                "max_viewcount_text": "閲覧者リストの最大数を設定する（フッターとサイドバーのリストに適用されます）",
                 "show_viewlist_label": "最近の閲覧者を表示する",
-                "show_viewlist_text": "",
-                "show_footer_viewlist_label": "",
-                "show_footer_viewlist_text": "",
-                "ignore_crawlers_label": "",
-                "ignore_crawlers_text": ""
+                "show_viewlist_text": "ディスカッションのサイドバーに最新の閲覧者リストを表示する",
+                "show_footer_viewlist_label": "フッターの閲覧者リストを有効にする",
+                "show_footer_viewlist_text": "ディスカッションの最初の投稿のフッターに閲覧者のリストを表示する",
+                "ignore_crawlers_label": "ボット/クローラーを無視",
+                "ignore_crawlers_text": "ボットやクローラーの侵入を防ぎ、閲覧数を増やす"
             }
         }
     }

@@ -9,6 +9,34 @@
                 "s3key": {
                     "label": "Khóa",
                     "help": "trợ giúp"
+                },
+                "s3secret": {
+                    "label": "Khóa bí mật",
+                    "help": "Khóa bí mật truy cập S3"
+                },
+                "s3region": {
+                    "label": "Khu vực",
+                    "help": "Vùng S3"
+                },
+                "s3bucket": {
+                    "label": "Bucket",
+                    "help": "Bucket S3"
+                },
+                "s3acl": {
+                    "label": "ACL",
+                    "help": "Chỉ định ACL cho bucket này"
+                },
+                "s3url": {
+                    "label": "URL",
+                    "help": "Địa chỉ URL S3"
+                },
+                "s3endpoint": {
+                    "label": "Endpoint",
+                    "help": "Endpoint S3"
+                },
+                "s3path-style-endpoint": {
+                    "label": "Endpoint kiểu đường dẫn S3",
+                    "help": "Chuyển sang lưu trữ kiểu đường dẫn"
                 }
             }
         }

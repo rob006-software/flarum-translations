@@ -2,33 +2,33 @@
     "migratetoflarum-fake-data": {
         "lib": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": "",
-                "reset": "",
-                "refresh": ""
+                "bulk-mode": "Bulk-Modus",
+                "bulk-mode-description": "Erzeugt einen einzigen Zufallswert und verwendet ihn für jeden Eintrag erneut",
+                "user-count": "Anzahl der Benutzer, die erstellt werden sollen",
+                "discussion-count": "Anzahl der Diskussionen, die erstellt werden sollen",
+                "discussion-tags": "Themen für neue Diskussionen",
+                "discussion-tags-none": "Keine",
+                "discussion-tags-random": "Zufällig",
+                "post-count": "Anzahl der Beiträge, die erstellt werden sollen",
+                "date": "Datums-Seed",
+                "date-start-placeholder": "Startdatum (Standard: jetzt)",
+                "date-interval-placeholder": "Intervall (Standard: 1 Sekunde)",
+                "send": "Daten generieren",
+                "reset": "Generation abgeschlossen! Klicke um das Formular zurückzusetzen",
+                "refresh": "Seite schließen und aktualisieren"
             }
         },
         "forum": {
             "link": {
-                "generate-replies": ""
+                "generate-replies": "Generiere Fake-Antworten"
             },
             "generator": {
-                "title": ""
+                "title": "Generiere Fake-Antworten"
             }
         },
         "api": {
-            "no-users-matched": "",
-            "no-discussions-matched": ""
+            "no-users-matched": "Keine Benutzer übereinstimmend",
+            "no-discussions-matched": "Keine Diskussionen übereinstimmend"
         }
     }
 }

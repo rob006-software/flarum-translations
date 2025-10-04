@@ -1,0 +1,52 @@
+{
+    "ffans-geetest": {
+        "admin": {
+            "settings": {
+                "product_service_label": "CAPTCHA Ürünü",
+                "product_service_help_text": "Kullanmak istediğiniz GeeTest CAPTCHA sürümü.",
+                "product_service_v4_label": "Uyumlu CAPTCHA (v4)",
+                "product_service_v3_label": "CAPTCHA (v3)",
+                "context_event_label": "Olay Bağlamı",
+                "context_event_help_text": "Farklı bağlam olayları veya iş türlerinde GeeTest CAPTCHA kullanmayı etkinleştirin, her bağlam için bağımsız bir yapılandırma ayarlayabilirsiniz.",
+                "context_event_login_label": "=> core.ref.log_in",
+                "context_event_signup_label": "=> core.ref.sign_up",
+                "context_event_forgot_label": "=> core.forum.forgot_password.title",
+                "config": {
+                    "title": "{context} Yapılandırması",
+                    "standalone_label": "Bağımsız",
+                    "standalone_help_text": "Bu senaryo için bağımsız bir yapılandırma kullanmayı etkinleştir.",
+                    "product_label": "Animasyon Biçimi",
+                    "product_help_text": "Doğrulama panelinin sunumunu seçin.",
+                    "product_float_label": "Süzülen",
+                    "product_float_help_text": "Doğrulama butonundan doğrulama paneline geçin.",
+                    "product_popup_label": "Açılır",
+                    "product_popup_help_text": "Doğrulama panelini ortala",
+                    "product_bind_label": "Düğmeye bağla",
+                    "product_bind_help_text": "Doğrulama panelini bir düğmeye basmaya bağlayın.",
+                    "product_learn_more_link": "Bileşen biçimi hakkında daha fazla bilgi",
+                    "id_label": "Doğrulama ID",
+                    "id_help_text": "<a>GeeTest kontrol paneli</a> üzerinde, uyguladığınız bağlam olayının doğrulama ID'si.",
+                    "key_label": "Doğrulama Anahtarı",
+                    "key_help_text": "<a>GeeTest kontrol paneli</a> üzerinde, uyguladığınız bağlam olayının doğrulama anahtarı."
+                }
+            },
+            "test": {
+                "title": "CAPTCHA Testi",
+                "help_text": "CAPTCHA'yı test etmek için yukarıdaki genel yapılandırmayı kullanın.",
+                "submit_button": "Gönder",
+                "load_button": "Yükle",
+                "reload_button": "Yenile"
+            }
+        },
+        "lib": {
+            "verify": {
+                "success_message": "Doğrulama başarılı.",
+                "error_message": "Doğrulama başarısız.",
+                "error_retry_message": "Doğrulama başarısız, tekrar deneyin.",
+                "init_error_message": "Başlatma doğrulaması başarısız oldu.",
+                "required_message": "Lütfen CAPTCHA'yı tamamlayın.",
+                "not_pass_message": "Doğrulama başarısız oldu."
+            }
+        }
+    }
+}

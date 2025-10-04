@@ -1,21 +1,37 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
-            "public_cache_ttl_label": "TTL por defeito do cache público",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "drop_qs_label": "",
-            "drop_qs_help": "",
-            "purge_all": "",
-            "purge_all_success": ""
+            "cache_enabled_label": "Ativar LSCache",
+            "cache_enabled_help": "Consulta a <a>página de informações</a> para saber como testar a cache. NOTA: Ao desativar a cache, todas as entradas em cache deste site serão limpas.",
+            "public_cache_ttl_label": "TTL por defeito da cache público",
+            "public_cache_ttl_help": "Define durante quanto tempo, em segundos, as páginas públicas devem ser armazenadas em cache. O valor por defeito é 604800 segundos (uma semana).",
+            "clearing_cache_listener_label": "Limpar LSCache quando a cache do Flarum é limpa",
+            "serve_stale_label": "Servir conteúdo expirado",
+            "serve_stale_help": "Se ativado, uma versão desatualizada de uma página em cache será apresentada aos visitantes até que seja gerada uma nova cópia em cache. Isto reduz a carga no servidor. Se desativado, a página será gerada dinamicamente durante a atualização da cache, o que pode aumentar o tempo de espera. Por design, esta opção pode apresentar conteúdo desatualizado. Não atives esta opção se considerares isso inaceitável.",
+            "purge_on_discussion_update_label": "Limpar URLs ou Tags de cache ao atualizar uma discussão",
+            "purge_on_discussion_update_help": "Introduz os URLs ou Tags de cache que queres limpar quando uma discussão é atualizada, um por linha. O URL deve começar com <code>/</code>, por exemplo <code>/rankings</code>, e a Tag de cache deve começar com <code>tag=</code>, por exemplo <code>tag=rankings</code>. Para várias rotas, adicionar uma regra no .htaccess com uma expressão regular que marque as rotas e inserir apenas essa tag aqui é mais rápido. <a>Saber mais</a>. Por defeito, a cache da página inicial e das discussões atualizadas é limpa.",
+            "cache_exclude_label": "Excluir caminhos da cache",
+            "cache_exclude_help": "Caminhos que contenham estas strings não serão armazenados em cache. Para <code>/mypath/mypage?aa=bb</code>, podes usar <code>mypage?aa=</code>. Para corresponder ao início, adiciona <code>^</code> no início. Para corresponder exatamente, adiciona <code>$</code> no final do URL. Um por linha.",
+            "drop_qs_label": "Remover Query Strings",
+            "drop_qs_help": "Utiliza esta funcionalidade para remover query strings específicas, como <code>fbclid</code> ou <code>utm*</code>, ao criar cache. Isto evita a criação redundante de cache para páginas com query strings “lixo”, como códigos UTM usados para rastreamento mas que não afetam o conteúdo da página. Requer LSWS v5.2.3 ou mais recente. Lista as query strings a remover, uma por linha. <a>Sabe mais sobre a remoção de query strings</a>.<br></br>\n⚠️ Esta definição irá modificar o ficheiro .htaccess.\n",
+            "status_codes_cache_label": "TTL por defeito para páginas com código de estado HTTP",
+            "status_codes_cache_help": "Especifica um código de estado HTTP e o número de segundos para armazenar essa página em cache, separados por um espaço. Um por linha.",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
+            "permissions": {
+                "purge": "=> acpl-lscache.ref.purge_cache"
+            }
+        },
+        "forum": {
+            "purge": {
+                "discussion": "=> acpl-lscache.ref.purge_cache"
+            }
+        },
+        "lib": {
+            "purge_success": "Servidor LiteSpeed notificado para limpar as entradas da LSCache.",
+            "purge_all_success": "Servidor LiteSpeed notificado para limpar todas as entradas da LSCache."
+        },
+        "ref": {
+            "purge_cache": "Purgar LSCache"
         }
     }
 }

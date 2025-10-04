@@ -2,36 +2,36 @@
     "kyrne-websocket": {
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {Näita # uuendatud vestlust} other {Näita # uuendatud vestlust}}"
             },
             "discussion_page": {
-                "viewing_title": ""
+                "viewing_title": "Praegu siin:"
             },
             "widget": {
-                "title": "",
-                "empty": "",
-                "guests": ""
+                "title": "Kasutajad saidil",
+                "empty": "Ühtegi kasutajat pole hetkel veebis.",
+                "guests": "{count, plural, one {1 külaline} other {{count} külalist}}"
             }
         },
         "admin": {
             "chart": {
-                "title": ""
+                "title": "Websocket statistika"
             },
             "pusher_settings": {
-                "local_cert_path": "",
-                "local_pk_path": "",
-                "passphrase": "",
-                "cert_self_signed": "",
-                "app_port_label": "",
-                "app_host_label": "",
-                "app_id_label": "",
-                "auto_update": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "stats_label": "",
+                "local_cert_path": "Kohaliku SSL sertifikaadi asukoht",
+                "local_pk_path": "Kohaliku SSL privaatse võtme asukoht",
+                "passphrase": "(Valikuline) SSL võtme parool",
+                "cert_self_signed": "Iseallkirjastatud sertifikaadi tugi",
+                "app_port_label": "Port",
+                "app_host_label": "Host",
+                "app_id_label": "Rakenduse ID",
+                "auto_update": "Automaatsed uuendamise vestlused",
+                "app_key_label": "Rakenduse võti",
+                "app_secret_label": "Rakenduse salasõna",
+                "stats_label": "Statistika intervall",
                 "secure": "",
-                "title": "",
-                "reverse_proxy": "",
+                "title": "Websocket/Pusheri seaded",
+                "reverse_proxy": "Pööratud proksi tugi",
                 "auth_only": ""
             },
             "help": {
@@ -44,10 +44,10 @@
                 "host": "",
                 "reverse_proxy": "",
                 "port": "",
-                "cert_path": "",
-                "pk_path": "",
-                "passphrase": "",
-                "self_signed": "",
+                "cert_path": "Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Asukoht sinu SSL (https) sertifikaadile SERVERIS, milles su websocket on - tavaliselt .crt või .pem fail.",
+                "pk_path": "Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Asukoht sinu SSL (https) privaatvõtmele SERVERIS, milles su websocket on - tavaliselt .key või .pem fail.",
+                "passphrase": "Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Parooli kasutatakse sinu sertifikaati - pole tavaliselt vajalik.",
+                "self_signed": "Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Lülita see sisse, kui sinu SSL (https) sertifikaat on allkirjastatud sinu enda poolt.",
                 "auth_only": ""
             }
         }

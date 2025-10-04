@@ -2,7 +2,7 @@
     "clarkwinkelmann-readonly-profile": {
         "admin": {
             "settings": {
-                "disableLogin": "禁止登錄",
+                "disableLogin": "禁止登入",
                 "disableAccessTokens": "禁用訪問令牌創建",
                 "disableEmailChange": "禁止郵箱變更",
                 "disablePasswordChange": "禁用密碼更改和重置",
@@ -11,7 +11,7 @@
         },
         "api": {
             "blocked_actions": {
-                "login": "登錄端點已禁用",
+                "login": "登入端點已禁用",
                 "accessToken": "禁用訪問令牌創建",
                 "email": "無法在這個頁面中變更郵箱",
                 "password": "無法在這個頁面中變更密碼",

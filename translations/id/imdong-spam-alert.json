@@ -2,28 +2,28 @@
     "imdong-spam-alert": {
         "admin": {
             "permissions": {
-                "set-spam": "",
-                "see-spam-info": ""
+                "set-spam": "atur Spam",
+                "see-spam-info": "Lihat Info Spam"
             },
             "settings": {
-                "btn-name": "",
-                "btn-name-help": "",
-                "to-folding-number": "",
-                "to-folding-number-help": ""
+                "btn-name": "Spam",
+                "btn-name-help": "Nama tombol yang ditampilkan kepada pengguna adalah \"Spam\" secara default.",
+                "to-folding-number": "Ambang Batas Pelipatan Otomatis",
+                "to-folding-number-help": "Secara otomatis melipat konten tersembunyi ketika ditandai oleh berapa banyak orang, atur ke 0 untuk tidak melipat secara otomatis"
             }
         },
         "forum": {
             "post": {
-                "btn-set-spam": "",
-                "btn-unset-spam": "",
-                "spam-hide-tips": ""
+                "btn-set-spam": "Atur Spam",
+                "btn-unset-spam": "Batalkan Pengaturan Spam",
+                "spam-hide-tips": "Spam disembunyikan"
             },
             "notification": {
-                "content": "",
-                "excerpt": ""
+                "content": "Balasan dilipat karena ditandai sebagai sampah beberapa kali",
+                "excerpt": "Harap patuhi peraturan stasiun, seperti sampah yang ditandai berulang kali dapat dikenakan hukuman sistematis."
             },
             "settings": {
-                "notify_post_spam_hide_label": ""
+                "notify_post_spam_hide_label": "Sampah disembunyikan karena tag"
             }
         }
     }

@@ -2,23 +2,23 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": ""
+                "split_discussion_label": "Separar mensagens de discussões"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "",
+                "was_split_to": "{count, plural, one {{count} publicação foi separada para {target}.} other {{count} publicações foram separadas para {target}.}}",
                 "was_split_from": ""
             },
             "split": {
-                "from": "",
-                "to": "",
-                "cancel": ""
+                "from": "Separar a partir daqui",
+                "to": "Separar até aqui",
+                "cancel": "Cancelar a separação"
             },
             "modal": {
-                "title": "",
-                "new_discussion_label": "",
-                "submit_button": ""
+                "title": "Separar a discussão",
+                "new_discussion_label": "Indicar o título da nova discussão",
+                "submit_button": "Separar"
             }
         }
     }

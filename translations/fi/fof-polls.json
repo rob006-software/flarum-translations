@@ -2,19 +2,44 @@
     "fof-polls": {
         "admin": {
             "settings": {
+                "general": {
+                    "heading": "Yleiset asetukset",
+                    "help": "Nämä asetukset hallitsee Kyselyt lisäosan yleisiä ominaisuuksia."
+                },
+                "global_polls": {
+                    "heading": "Yleiset kyselyt",
+                    "help": "Nämä asetukset määrittää yleiset kyselyt ominaisuuden."
+                },
+                "image": {
+                    "heading": "Kuva-asetukset",
+                    "help": "Nämä asetukset hallitsee kyselyiden kuvien asetuksia."
+                },
                 "allow_option_image": "Salli kuvan osoitteen asettaminen jokaiseen kyselyn vaihtoehtoon",
+                "allow_image_uploads": "Salli kuvien siirto kyselyihin ja valintoihin",
+                "allow_image_uploads_help": "Mikäli käytössä, käyttäjät voivat siirtää kuvia antamalla kuvan osoitteen (jos käytössä valinnoille, aina käytössä kyselylle).",
+                "enable_global_polls": "Ota käyttöön yleiset kyselyt",
+                "enable_global_polls_help": "Yleiset kyselyt eivät ole kiinnitettyjä johonkin tiettyyn viestiin ja ne näkyy määritetyllä kyselyt sivulla.",
                 "max_options": "Maksimi määrä vaihtoehtoja per kysely",
                 "options_color_blend": "Värimuunnos teksti viestin vaihtoehdoista",
-                "options_color_blend_help": "Käytä tätä tehdäksesi kyselyn vaihtoehdoista luettavampia. Ota pois käytöstä jos tämä tuottaa ongelmia foorumin ulkoasun kanssa."
+                "options_color_blend_help": "Käytä tätä tehdäksesi kyselyn vaihtoehdoista luettavampia. Ota pois käytöstä jos tämä tuottaa ongelmia foorumin ulkoasun kanssa.",
+                "image_height": "Muuta kuvan korkeutta",
+                "image_width": "Muuta kuvan leveyttä",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": ""
             },
             "permissions": {
                 "view_results_without_voting": "Näytä tulokset ilman vastaamista",
                 "start": "Aloita kysely",
+                "start_global": "Aloita yleinen kysely",
                 "self_edit": "Muokkaa luotuja kyselyitä (vaatii viestin muokkaus oikeuden)",
                 "self_post_edit": "Muokkaa *kaikkia* kyselyitä omissa viesteissä (vaatii viestin muokkaus oikeuden)",
+                "upload_images": "Salli käyttäjien siirtää kuvia kyselyihin",
                 "vote": "Vastata kyselyissä",
                 "change_vote": "Vaihtaa vastausta",
-                "moderate": "Muokata & poistaa kyselyitä"
+                "moderate": "Muokata & poistaa kyselyitä",
+                "view_group": "",
+                "start_group": "",
+                "moderate_group": ""
             }
         },
         "forum": {
@@ -23,14 +48,47 @@
             "poll_ended": "Kysely on loppunut.",
             "public_poll": "Näytä vastaajat",
             "max_votes_allowed": "Kyselyt sallivat äänestyksen {max, plural, one {# vaihtoehdon} other {# vaihtoehtoon}}.",
+            "polls_count": "{count, plural, one { {count} ääni} other {{count} ääntä}}",
+            "poll_never_ends": "Kysely ei pääty koskaan",
+            "answers": "Vastaukset",
             "poll": {
                 "cannot_change_vote": "Et voi vaihtaa ääntäsi äänestämisen jälkeen.",
-                "submit_button": "Äänestä"
+                "submit_button": "Äänestä",
+                "start_poll_button": "Aloita yleinen kysely",
+                "cannot_start_poll_button": "Kyselyä ei voi aloittaa",
+                "total_votes": "{count, plural, one {# ääni annettu} other {# ääntä annettu}}"
+            },
+            "poll_controls": {
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Haluatko varmasti poistaa tämän kyselyn?",
+                "delete_success_message": "Kysely poistettu onnistuneesti.",
+                "delete_error_message": "Jotain meni pieleen, kun poistimme kyselyä."
+            },
+            "poll_form": {
+                "delete": "Poista kysely",
+                "error": "Virhe tallentaessa kyselyä, ota yhteys ylläpitoon."
+            },
+            "polls_page": {
+                "title": "Kyselyt"
+            },
+            "polls_list": {
+                "empty_text": "Näyttää siltä, että ei ole vielä yhtään yleistä kyselyä luotuna.",
+                "load_more_button": "=> core.ref.load_more"
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "Sinulla ei ole oikeuksia aloittaa kyselyä."
+            },
+            "compose": {
+                "add_title": "Lisää kysely",
+                "edit_title": "Muokkaa kyselyä",
+                "polls_manager": "Kyselyiden hallinta",
+                "polls_preview": "Näytä kysely",
+                "continue_editing": "Jatka muokkausta",
+                "success": "Kysely tallennettu onnistuneesti."
             },
             "modal": {
                 "add_title": "Lisää kysely",
@@ -49,9 +107,29 @@
                 "max_votes_label": "Enimmäismäärä ääniä per käyttäjä",
                 "max_votes_help": "Aseta arvoksi 0, jotta voi vastata kaikkiin vaihtoehtoihin.",
                 "hide_votes_label": "Piilota äänet kunnes kysely päättyy",
+                "hide_votes_label_help": "Kyselyn aloittanut käyttäjä näkee aina äänet.",
                 "allow_change_vote_label": "Salli käyttäjän vaihtaa ääntään",
                 "question_placeholder": "Kysymys",
-                "submit": "Lähetä"
+                "subtitle_placeholder": "Otsikko/kuvaus (valinnainen)",
+                "submit": "Lähetä",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
+                "poll_image": {
+                    "label": "Kyselyn kuva",
+                    "help": "Siirrä kuva, joka näytetään kyselyn rinnalla (valinnainen).",
+                    "alt_label": "Kuvan Alt teksti",
+                    "alt_help_text": "Tämä teksti vaaditaan, kun kuva on asetettu. Se näytetään, jos kuvan lataaminen epäonnistuu.",
+                    "later_help": "Voit siirtää kuvan kyselyn luonnin jälkeen."
+                },
+                "poll_option_image": {
+                    "label": "Kyselyn vastauksen kuva",
+                    "help": "Siirrä kuva, joka näytetään vastauksen rinnalla (valinnainen)."
+                },
+                "tooltip": {
+                    "options": {
+                        "add-button": "Lisää vastaus"
+                    }
+                }
             },
             "moderation": {
                 "add": "Lisää kysely",
@@ -59,12 +137,56 @@
                 "delete_confirm": "Haluatko varmasti poistaa tämän kyselyn?",
                 "edit": "Muokkaa kyselyä"
             },
+            "page": {
+                "nav": "Kyselyt",
+                "nav-all": "Kaikki yleiset kyselyt",
+                "nav-groups": ""
+            },
+            "showcase": {
+                "active-polls": "Aktiiviset kyselyt",
+                "ended-polls": "Päättyneet kyselyt",
+                "no-active-polls": "Tällä hetkellä ei ole yhtään aktiivista kyselyä.",
+                "no-recent-polls": "Tällä hetkellä ei ole yhtään päättynyttä kyselyä."
+            },
             "tooltip": {
                 "badge": "Kysely",
                 "votes": "{count, plural, one {# vastaus} other {# vastausta}}"
             },
             "votes_modal": {
                 "title": "Vastaajat"
+            },
+            "upload_image": {
+                "remove_button": "Poista kuva",
+                "upload_button": "Siirrä kuva"
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             }
         }
     }

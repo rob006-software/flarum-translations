@@ -1,16 +1,16 @@
 {
     "justoverclock-theaudiodb-api": {
         "admin": {
-            "langcode": "",
-            "langcode-help": "",
-            "apiKey": "",
-            "apiKeyHelp": ""
+            "langcode": "Keelekood",
+            "langcode-help": "Sisesta keelekood siia (saadaolevad koodid, EN, DE, FR, CN, IT, JP, RU, ES, PT, SE, NL, HU, NO, IL, PL)",
+            "apiKey": "Hangi oma apiKey siit https://www.theaudiodb.com/api_apply.php",
+            "apiKeyHelp": "Päringute tegemiseks ja andmete tõmbamiseks on vaja API võtit."
         },
         "forum": {
-            "genres": "",
-            "intFormedYear": "",
-            "countryart": "",
-            "notAv": ""
+            "genres": "Žanrid",
+            "intFormedYear": "Grupp loodi",
+            "countryart": "Riik",
+            "notAv": "Oih! Näib, et kirjeldus pole sinu keeles kahjuks saadaval...TheAudioDB.com aitamiseks võid lisada info selle esitaja kohta omas keeles...."
         }
     }
 }

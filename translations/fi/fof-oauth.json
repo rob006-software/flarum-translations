@@ -3,15 +3,20 @@
         "admin": {
             "configure_button_label": "Määritä FoF OAuth",
             "settings_accessibility_label": "{name} asetukset",
+            "permissions": {
+                "moderate_user_providers": "Moderoi käyttäjän linkitettyjä tilejä"
+            },
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "Edistynyt",
+                    "log-oauth-errors-label": "Kirjaa OAuth virheet",
+                    "log-oauth-errors-help": "Jos käytössä OAuth virheet kirjataan Flarumin lokeihin. Tämä voi auttaa OAuth ongelmien tutkimisessa, mutta voi sisältää myös arkaluontoista tietoa."
                 },
                 "only_icons_label": "Näytä voin kirjaudu painikkeen ikonit (toissijainen ulkoasu)",
                 "update_email_from_provider_label": "Päivitä sähköpostiosoite toimittajalta",
                 "update_email_from_provider_help": "Jos käytössä, käyttäjän sähköpostiosoite vastaa OAuth toimittajan toimittamaa sähköpostia aina kirjautumisen yhteydessä. Kaikki toimittajat eivät toimita päivitettyä sähköpostia, jolloin niiden toimittajien kohdalla tällä asetuksella ei ole vaikutusta.",
+                "disable_avatars_label": "",
+                "disable_avatars_help": "",
                 "fullscreen_popup_label": "Käytä kokoruudun ponnahdusikkunaa OAuthiin",
                 "fullscreen_popup_help": "Kun käytössä, OAuthin kirjautuminen aukeaa kokoruutuun. Jos tämä on käytössä korkeus ja leveys asetuksia ei huomioida.",
                 "popup_width_label": "OAuth ikkunan leveys",
@@ -20,6 +25,9 @@
                 "popup_height_help": "Aseta OAuth ikkunan korkeus. Tämä asetus ei ole käytössä jos \"Käytä kokoruudun ponnahdusikkunaa OAuthiin\" on käytössä.",
                 "providers": {
                     "callback_url_text": "Jos tarpeen, aseta takaisinkutsu URL osoitteeksi {url}.",
+                    "group_label": "",
+                    "group_help": "",
+                    "no_group_label": "",
                     "discord": {
                         "description": "Luo sovellus osoitteessa {link}. Aseta uudelleenohjaus osoite OAuth2 välilehdellä.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -50,7 +58,7 @@
                         "description": "Luo sovellus osoitteessa {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": ""
+                        "hosted_domain_label": "Ylläpidetyt domainit (G suite/Google Apps for Business, valinnainen)"
                     },
                     "linkedin": {
                         "description": "Luo sovellus osoitteessa {link}.",
@@ -77,6 +85,7 @@
                         "label": "Linkitetyt tilit",
                         "last-used-label": "Viimeksi käytetty",
                         "link-created-label": "Linkki luotu",
+                        "identification-label": "{provider} ID",
                         "orphaned-account": "Olet rekisteröitynyt tämän palvelun kautta, mutta foorumi on poistanut tämän metodin pois käytöstä.",
                         "help": "Nämä linkitetyt tilit sallivat sinun kirjautua sisään foorumille käyttäen muita toimijoita.",
                         "identifier-label": "{provider} ID",

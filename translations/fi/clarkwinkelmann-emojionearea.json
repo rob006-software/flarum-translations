@@ -2,7 +2,19 @@
     "clarkwinkelmann-emojionearea": {
         "forum": {
             "picker_button": "Valitse Hymiö",
-            "search_placeholder": "Etsi.."
+            "search_placeholder": "Etsi..",
+            "filters": {
+                "tones": "Monimuotoisuus",
+                "recent": "Viimeisimmät",
+                "smileys_people": "Hymiöt & Ihmiset",
+                "animals_nature": "Eläimet & Luonto",
+                "food_drink": "Ruoka & Juoma",
+                "activity": "Aktiivisuus",
+                "travel_places": "Matkustus & Paikat",
+                "objects": "Esineet",
+                "symbols": "Symbolit",
+                "flags": "Liput"
+            }
         },
         "admin": {
             "settings": {
@@ -11,6 +23,7 @@
                 "enableTones": "Ota sävyt käyttöön",
                 "filtersPosition": "Siirrä kategoriat alas",
                 "searchPosition": "Siirrä haku ja sävyt alas",
+                "closeOnPick": "Sulje valitsin, kun emoji on valittu",
                 "hideFlarumButton": "Piilota Flarumin hymiö valitsin nappi"
             }
         }

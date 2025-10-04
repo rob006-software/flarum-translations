@@ -43,6 +43,7 @@
                 "about_tags_text": "Теги используются для структурирования дискуссий. Основные теги подобны традиционным категориям форумов и представляют собой двухуровневую иерархию. Дополнительные теги не имеют иерархии и могут быть полезны для структурирования дискуссий на микро-уровне.",
                 "create_primary_tag_button": "Создать основной",
                 "create_secondary_tag_button": "Создать дополнительный",
+                "edit_tag_label": "Править тег {tag}",
                 "primary_heading": "Основные",
                 "secondary_heading": "Дополнительные",
                 "settings_heading": "Настройки"
@@ -79,7 +80,7 @@
                 "added_and_removed_tags_text": "{username} добавил(а) {tagsAdded} и удалил(а) {tagsRemoved} {time}.",
                 "added_tags_text": "{username} добавил(а) {tagsAdded} {time}.",
                 "removed_tags_text": "{username} удалил(а) {tagsRemoved} {time}.",
-                "tags_text": "{count, plural, one {{tags} тег} other {{tags} теги}}"
+                "tags_text": "{count, plural, one {{tags} тег} few {{tags} тега} other {{tags} тегов}}"
             },
             "tag": {
                 "meta_description_text": "Все дискуссии с тегом {tag}"
@@ -89,7 +90,7 @@
             "deleted_tag_text": "Удалено",
             "tag_selection_modal": {
                 "bypass_requirements": "Игнорировать требования для тега",
-                "choose_primary_placeholder": "{count, plural, one {Укажите основной тег} other {Укажите # основных тегов}}",
+                "choose_primary_placeholder": "{count, plural, one {Укажите основной тег} few {Укажите # основных тега} other {Укажите # основных тегов}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -98,9 +99,20 @@
         },
         "ref": {
             "choose_tags": "Выбор тегов",
-            "choose_tags_placeholder": "{count, plural, one {Укажите ещё 1 тег} other {Укажите ещё # тегов}}",
+            "choose_tags_placeholder": "{count, plural, one {Укажите ещё 1 тег} few {Укажите ещё # тега} other {Укажите ещё # тегов}}",
             "name": "Название",
             "tags": "Теги"
+        },
+        "validation": {
+            "attributes": {
+                "name": "имя",
+                "slug": "",
+                "is_hidden": "скрытый",
+                "description": "описание",
+                "color": "цвет",
+                "tag_count_primary": "=> validation.attributes.tag_count_primary",
+                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
+            }
         }
     }
 }

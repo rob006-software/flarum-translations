@@ -2,65 +2,65 @@
     "blomstra-web3": {
         "admin": {
             "settings": {
-                "allow-sign-up": "",
-                "ffi-disabled": "",
-                "infura-project-id": "",
-                "infura-project-id-help": "",
-                "prioritize-web3-auth-modals": "",
-                "signup-with-email": "",
-                "no-email-signup-message": "",
-                "no-email-signup-message-help": ""
+                "allow-sign-up": "Cho phép Đăng ký với web3",
+                "ffi-disabled": "Tiện ích mở rộng PHP FFI chưa được bật. Các ví Dotsama sẽ không hoạt động.\n",
+                "infura-project-id": "ID Dự án Infura",
+                "infura-project-id-help": "ID Dự án Infura của bạn. Bạn có thể lấy một ID từ https://infura.io Cần thiết cho các ví sau: Coinbase, WalletConnect.\n",
+                "prioritize-web3-auth-modals": "Mở Đăng nhập/Đăng ký web3 theo mặc định",
+                "signup-with-email": "Đăng ký với Email",
+                "no-email-signup-message": "Thông báo hiển thị cho người dùng chưa đăng ký bằng địa chỉ email (để trống để tắt).\n",
+                "no-email-signup-message-help": "Sử dụng [link]text[/link] để liên kết đến trang chỉnh sửa email."
             }
         },
         "forum": {
             "connect-wallet-modal": {
-                "could-not-sign": "",
-                "goback": "",
-                "title": "",
-                "polkadot-wallets": "",
-                "evm-wallets": "",
-                "signature-invalid": ""
+                "could-not-sign": "Không thể ký tên người dùng một cách mật mã trên tài khoản đã chọn.",
+                "goback": "Quay lại",
+                "title": "Kết nối Ví",
+                "polkadot-wallets": "=> blomstra-web3.ref.polkadot-wallets",
+                "evm-wallets": "Ví EVM",
+                "signature-invalid": "Chữ ký không hợp lệ."
             },
             "evm-connect-wallet-modal": {
-                "title": "",
-                "bind": "",
-                "disconnect": "",
-                "disconnect-and-unbind": "",
-                "select": ""
+                "title": "Ví EVM",
+                "bind": "=> blomstra-web3.ref.bind",
+                "disconnect": "=> blomstra-web3.ref.disconnect",
+                "disconnect-and-unbind": "Ngắt kết nối & Hủy liên kết",
+                "select": "=> blomstra-web3.ref.select"
             },
             "polkadot-connect-wallet-modal": {
-                "attach_address": "",
-                "connection-request-rejected": "",
-                "disconnect": "",
-                "goback": "",
-                "title": "",
-                "select": "",
-                "unattach_address": ""
+                "attach_address": "=> blomstra-web3.ref.bind",
+                "connection-request-rejected": "Yêu cầu kết nối bị từ chối",
+                "disconnect": "=> blomstra-web3.ref.disconnect",
+                "goback": "Quay lại danh sách ví",
+                "title": "=> blomstra-web3.ref.polkadot-wallets",
+                "select": "=> blomstra-web3.ref.select",
+                "unattach_address": "=> blomstra-web3.ref.unbind"
             },
             "settings": {
-                "wallets_heading": "",
-                "wallet-connect-button": "",
-                "unbind": "",
-                "unbind_confirm": ""
+                "wallets_heading": "Ví",
+                "wallet-connect-button": "Kết nối Ví",
+                "unbind": "=> blomstra-web3.ref.unbind",
+                "unbind_confirm": "Bạn có chắc chắn muốn hủy liên kết địa chỉ này khỏi tài khoản của mình?"
             },
             "log-in": {
-                "basic-login-link": "",
-                "with-wallet": "",
-                "select-wallet-account": ""
+                "basic-login-link": "Chuyển sang Đăng nhập cơ bản",
+                "with-wallet": "Đăng nhập bằng web3",
+                "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             },
             "sign-up": {
-                "basic-signup-link": "",
-                "with-wallet": "",
-                "select-wallet-account": ""
+                "basic-signup-link": "Chuyển sang Đăng ký cơ bản",
+                "with-wallet": "Đăng ký bằng web3",
+                "select-wallet-account": "=> blomstra-web3.ref.select-wallet-account"
             }
         },
         "ref": {
-            "select-wallet-account": "",
-            "select": "",
-            "bind": "",
-            "unbind": "",
-            "disconnect": "",
-            "polkadot-wallets": ""
+            "select-wallet-account": "Chọn tài khoản ví {rightArrow}",
+            "select": "Chọn địa chỉ",
+            "bind": "Liên kết địa chỉ",
+            "unbind": "Hủy liên kết địa chỉ khỏi tài khoản",
+            "disconnect": "Ngắt kết nối",
+            "polkadot-wallets": "Ví Polkadot"
         }
     }
 }

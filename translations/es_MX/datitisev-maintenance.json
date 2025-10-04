@@ -1,0 +1,48 @@
+{
+    "datitisev-maintenance": {
+        "admin": {
+            "dashboard": {
+                "enable_maintenance_mode_button": "",
+                "disable_maintenance_mode_button": ""
+            },
+            "settings": {
+                "title": "",
+                "settings_notice": "",
+                "allow_bypass_label": "",
+                "allow_bypass_hint": "",
+                "prefer_db_label": "",
+                "prefer_db_hint": "",
+                "active_label": "",
+                "disable_admin_label": "",
+                "disable_api_label": "",
+                "title_label": "",
+                "message_label": "",
+                "error_page_file_label": "",
+                "error_page_file_hint": "",
+                "error_page_label": "",
+                "error_page_hint": ""
+            },
+            "permissions": {
+                "allow_bypass_maintenance_label": ""
+            }
+        },
+        "lib": {
+            "maintenance_active_message": "",
+            "maintenance_active_not_db_message": "",
+            "maintenance_active_disabled_api_message": ""
+        },
+        "views": {
+            "error": {
+                "title": "",
+                "message": ""
+            }
+        }
+    },
+    "core": {
+        "lib": {
+            "error": {
+                "maintenance_message": ""
+            }
+        }
+    }
+}

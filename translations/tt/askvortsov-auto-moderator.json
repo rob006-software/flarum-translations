@@ -1,0 +1,89 @@
+{
+    "askvortsov-auto-moderator": {
+        "admin": {
+            "action_drivers": {
+                "activate_email": "",
+                "add_to_group": "",
+                "remove_from_group": "",
+                "suspend": "",
+                "unsuspend": ""
+            },
+            "metric_drivers": {
+                "discussions_entered": "",
+                "discussions_participated": "",
+                "discussions_started": "",
+                "posts_made": "",
+                "likes_given": "",
+                "likes_received": "",
+                "best_answers": "",
+                "moderator_strikes": ""
+            },
+            "requirement_drivers": {
+                "email_confirmed": "",
+                "in_group": "",
+                "suspended": "",
+                "email_matches_regex": ""
+            },
+            "in_group_settings": {
+                "regex": ""
+            },
+            "group_selector": {
+                "placeholder": ""
+            },
+            "suspend_selector": {
+                "days": "",
+                "indefinitely": ""
+            },
+            "criterion_status": {
+                "heading": "",
+                "invalid": "",
+                "no_actions": "",
+                "no_metrics_or_reqs": "",
+                "valid": "",
+                "action_validation_errors": "",
+                "requirement_validation_errors": ""
+            },
+            "criterion_page": {
+                "driver_missing_ext": "",
+                "back": "",
+                "name_label": "",
+                "icon_label": "",
+                "description_label": "",
+                "new_criterion": "",
+                "negated": "",
+                "loading": "",
+                "delete_button": "",
+                "metrics_and_requirements_label": "",
+                "metrics_and_requirements_help": "",
+                "metrics_heading": "",
+                "requirements_heading": "",
+                "add_metric": "",
+                "actions_label": "",
+                "actions_help": "",
+                "actions_on_gain_heading": "",
+                "actions_on_loss_heading": "",
+                "add_action": ""
+            },
+            "undefined_driver_item": {
+                "text": ""
+            },
+            "automoderator_page": {
+                "criterion_invalid": "",
+                "list_heading": "",
+                "create_criterion_button": ""
+            },
+            "automoderator_instructions": {
+                "header": "",
+                "text": ""
+            }
+        },
+        "lib": {
+            "group_id": "",
+            "managed_groups": {
+                "header": "",
+                "group_item": "",
+                "groups_not_editable": ""
+            }
+        }
+    }
+}

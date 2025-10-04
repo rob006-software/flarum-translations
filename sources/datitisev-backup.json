@@ -17,6 +17,9 @@
                 "zip": "Zip Archive"
             },
             "settings_button": "Configure",
+            "delete_button": "Delete",
+            "delete_confirmation": "Are you sure you want to delete \"{name}\" ({adapter})?",
+            "create_button": "Add new adapter",
             "required_package_button": "Set up",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Configure {adapter}",
+                "name_label": "Location Name",
                 "local": {
                     "target": {
                         "label": "Target path",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Key",
-                            "description": "AWS credentials key"
-                        },
-                        "secret": {
-                            "label": "Secret",
-                            "description": "AWS credentials secret"
-                        }
+                    "credentials-key": {
+                        "label": "Key",
+                        "description": "AWS credentials key"
+                    },
+                    "credentials-secret": {
+                        "label": "Secret",
+                        "description": "AWS credentials secret"
                     },
                     "region": {
                         "label": "Region",
@@ -123,15 +125,13 @@
                     }
                 },
                 "gdrive": {
-                    "client": {
-                        "id": {
-                            "label": "Client ID",
-                            "description": "Follow the instructions @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md to create a Google project and retrieve your Client ID & Client Secret.\n"
-                        },
-                        "secret": {
-                            "label": "Client Secret",
-                            "description": " "
-                        }
+                    "client-id": {
+                        "label": "Client ID",
+                        "description": "Follow the instructions @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md to create a Google project and retrieve your Client ID & Client Secret.\n"
+                    },
+                    "client-secret": {
+                        "label": "Client Secret",
+                        "description": " "
                     },
                     "refresh-token": {
                         "label": "Refresh Token",
@@ -140,6 +140,10 @@
                     "folder": {
                         "label": "Folder ID",
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "Successfully connected to Google Drive! Save the changes to store the settings.",
+                        "test_button": "Test connection"
                     }
                 },
                 "ftp": {

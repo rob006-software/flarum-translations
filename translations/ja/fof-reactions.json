@@ -10,7 +10,8 @@
             "reacting-own-post": "自分の投稿に反応することはできません",
             "modal": {
                 "title": "",
-                "anonymous_count": ""
+                "anonymous_count": "",
+                "no_reactions": ""
             },
             "mod_item": "",
             "react_button_label": ""
@@ -18,7 +19,8 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "応答投稿",
-                "see_reactions_label": ""
+                "see_reactions_label": "",
+                "delete_post_reactions_label": ""
             },
             "page": {
                 "cdn": {
@@ -34,7 +36,8 @@
                     "help": {
                         "display": "表示",
                         "identifier": "識別"
-                    }
+                    },
+                    "delete_confirmation": ""
                 },
                 "convert": {
                     "help": "拡張機能を更新したばかりの場合は、反応を変換する必要があります。 この拡張機能をインストールするだけであれば、このメッセージは無視しても問題ありません。",

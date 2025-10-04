@@ -2,45 +2,45 @@
     "jeromegillard-map": {
         "admin": {
             "templates": {
-                "map": "",
-                "file_description": ""
+                "map": "Bản đồ",
+                "file_description": "Hiển thị bản đồ trong Flarum. Tệp gốc sẽ có sẵn để tải xuống. Nhà cung cấp ô bản đồ (tiles) và kiểu hiển thị sẽ được xác định trong phần cài đặt của tiện ích mở rộng. <b>Bạn phải cài đặt và bật flarum/bbcode thì tính năng này mới hoạt động.</b>"
             },
             "settings": {
                 "tiles_provider": {
-                    "label": "",
-                    "help": ""
+                    "label": "Nhà cung cấp lớp ô bản đồ mặc định",
+                    "help": "Chọn nhà cung cấp lớp ô bản đồ sẽ hiển thị ở nền."
                 },
                 "zoom": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mức thu phóng mặc định",
+                    "help": "Số nguyên bất kỳ từ 0 đến 18."
                 },
                 "style": {
-                    "label": "",
-                    "help": ""
+                    "label": "Kiểu bản đồ mặc định cho {provider}",
+                    "help": "Chọn một kiểu bản đồ. <a>Xem danh sách các kiểu tại đây</a>."
                 },
                 "maptiler": {
-                    "label": "",
-                    "help": ""
+                    "label": "Mã MapTiler",
+                    "help": "Đăng ký miễn phí tại <a>maptiler.com</a> để lấy token. Vui lòng tôn trọng <b>bản quyền</b> của họ."
                 },
                 "osm": {
-                    "help": ""
+                    "help": "OpenStreetMap tiles phù hợp cho việc lập trình bản đồ, nhưng hãy đọc <a>Chính sách sử dụng ô bản đồ</a> của OpenStreetMap nếu bạn định dùng chúng trong môi trường sản xuất."
                 },
                 "mapbox": {
-                    "label": "",
-                    "help": ""
+                    "label": "Khóa Mapbox",
+                    "help": "Đăng ký miễn phí tại <a>mapbox.com</a> để lấy token. Vui lòng tôn trọng <b>bản quyền</b> của họ."
                 },
                 "thunderforest": {
-                    "label": "",
-                    "help": ""
+                    "label": "Khóa API Thunderforest",
+                    "help": "Đăng ký miễn phí tại <a>thunderforest.com</a> để lấy API key. Vui lòng tôn trọng <b>điều khoản sử dụng</b> của họ."
                 }
             }
         },
         "forum": {
             "text_editor": {
-                "bbcode_tooltip": "",
-                "location_placeholder": "",
-                "marker_title_placeholder": "",
-                "marker_description_placeholder": ""
+                "bbcode_tooltip": "chèn bản đồ",
+                "location_placeholder": "ĐỊA ĐIỂM",
+                "marker_title_placeholder": "Tiêu đề điểm đánh dấu",
+                "marker_description_placeholder": "Nội dung pop-up của điểm đánh dấu. Để trống cả tiêu đề và mô tả nếu muốn ẩn điểm đánh dấu."
             }
         }
     }

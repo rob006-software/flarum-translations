@@ -1,0 +1,33 @@
+{
+    "michaelbelgium-umami": {
+        "admin": {
+            "widget": {
+                "live": "Live",
+                "views": "頁面瀏覽量",
+                "visits": "訪問量",
+                "visitors": "訪客"
+            },
+            "settings": {
+                "errors": {
+                    "no_connection": "無法取得統計信息，請檢查您的 API 憑證。"
+                },
+                "site_id": {
+                    "label": "網站編號",
+                    "help": "Umami 上此 Flarum 實例的網站 ID。您可以在 Umami 網站設定的詳細資訊中找到這一點。"
+                },
+                "domain": {
+                    "label": "領域",
+                    "help": "Umami所在的網域。"
+                },
+                "username": {
+                    "label": "帳戶用戶名",
+                    "help": "選修的。上述網域中的 umami 帳戶的使用者名稱。 （用於管理儀表板小工具）"
+                },
+                "password": {
+                    "label": "帳戶密碼",
+                    "help": "可選。上面的使用者名稱的密碼。 （用於管理儀表板小工具）"
+                }
+            }
+        }
+    }
+}

@@ -3,6 +3,11 @@
         "admin": {
             "permissions": {
                 "sticky_discussions_label": "Témák kitűzése"
+            },
+            "settings": {
+                "enable_display_excerpt": "Az első bejegyzés kivonatának megjelenítése, ha a kitűzött téma olvasatlan",
+                "only_sticky_unread_discussions_label": "Csak az olvasatlan témák kitűzése",
+                "only_sticky_unread_discussions_help": "Az Összes téma oldalon csak az olvasatlan kitűzött témák jelennek meg felül kitűzve, az olvasott kitűzött témák a szokásos sorrendet követik."
             }
         },
         "forum": {
@@ -20,6 +25,15 @@
         },
         "ref": {
             "sticky": "Kitűzés"
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "sticky": {
+                        "key": "kitűzött"
+                    }
+                }
+            }
         }
     }
 }

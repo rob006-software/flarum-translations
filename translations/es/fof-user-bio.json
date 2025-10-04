@@ -8,14 +8,20 @@
             },
             "setting": {
                 "bioLimit": "Límite de caracteres de la biografía",
-                "maxLines": "",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "maxLines": "Número máximo de líneas para mostrar a la vez",
+                "allowFormatting": "Permitir formato en biografía",
+                "allowFormatting_help": "Por diseño, este formato es independiente del formato de las publicaciones. Si las extensiones BBCode o Markdown están habilitadas, estarán disponibles para dar formato a la biografía. No se permiten imágenes ni incrustaciones. Las extensiones que se añadan al formateador Flarum deben de ser compatibles con el formateador de biografía de manera *explícita*."
             }
         },
         "forum": {
             "userbioPlaceholder": "Escribe algo sobre ti",
-            "userbioPlaceholderOtherUser": "Escribe un biografía para {username}"
+            "userbioPlaceholderOtherUser": "Escribe un biografía para {username}",
+            "profile": {
+                "cancel_confirm": "¿Estás seguro de que deseas cancelar la edición de tu biografía? Perderás todos los cambios que hayas realizado.",
+                "cancel_button": "Cancelar",
+                "save_button": "Guardar",
+                "edit_bio_label": "Editar biografía"
+            }
         }
     }
 }

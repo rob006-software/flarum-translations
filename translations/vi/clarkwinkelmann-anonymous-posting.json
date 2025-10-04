@@ -2,60 +2,60 @@
     "clarkwinkelmann-anonymous-posting": {
         "admin": {
             "settings": {
-                "defaultAnonymity": "",
-                "defaultAnonymityWhenAbleToSwitch": "",
-                "alwaysAnonymiseEdits": "",
-                "alwaysAnonymiseEditsHelp": "",
-                "composerHelpTextPosition": "",
-                "composerHelpTextPositionVisible": "",
-                "composerHelpTextPositionTooltip": "",
-                "composerHelpTextPositionHidden": "",
-                "composerHelpTextPositionHelp": "",
-                "avatars": "",
-                "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "defaultAnonymity": "Nội dung mới ẩn danh theo mặc định",
+                "defaultAnonymityWhenAbleToSwitch": "Nội dung mới ẩn danh theo mặc định cho người dùng có quyền chuyển đổi",
+                "alwaysAnonymiseEdits": "Luôn ẩn danh chỉnh sửa",
+                "alwaysAnonymiseEditsHelp": "Theo mặc định, các chỉnh sửa/ẩn bởi tác giả bài viết ẩn danh sẽ được ẩn danh, nhưng bất kỳ người kiểm duyệt nào chỉnh sửa bài viết hoặc thảo luận vẫn sẽ được hiển thị là người chỉnh sửa/ẩn. Khi tùy chọn này được bật, hành động chỉnh sửa/ẩn trên nội dung ẩn danh sẽ không bao giờ được ghi lại, bất kể đó là ai.\n",
+                "composerHelpTextPosition": "Vị trí văn bản trợ giúp trình soạn thảo",
+                "composerHelpTextPositionVisible": "Hiển thị (dưới nhãn)",
+                "composerHelpTextPositionTooltip": "Chú giải công cụ (sau nhãn)",
+                "composerHelpTextPositionHidden": "Ẩn",
+                "composerHelpTextPositionHelp": "Ô chọn và văn bản này chỉ hiển thị với người dùng có quyền chuyển đổi.",
+                "avatars": "Ảnh đại diện ẩn danh",
+                "avatarsHelp": "Tính năng này yêu cầu tiện ích mở rộng cao cấp <a>Formulaire</a>. Sử dụng tính năng này sẽ làm giảm một chút hiệu năng do cần thêm các truy vấn cơ sở dữ liệu để lấy thông tin thảo luận và bài viết. Xem README để biết thêm chi tiết về định dạng của từng đầu vào.\n",
+                "avatarFormId": "ID biểu mẫu",
+                "avatarFieldKey": "Khóa trường",
+                "avatarFieldValue": "Giá trị trường",
+                "avatarAvatarUrl": "URL ảnh đại diện",
+                "avatarAdd": "Thêm quy tắc ảnh đại diện"
             },
             "permissions": {
-                "use": "",
-                "reveal": "",
-                "moderate": ""
+                "use": "Chuyển đổi tùy chọn ẩn danh khi soạn thảo",
+                "reveal": "Xem tác giả thực sự của các bài viết và thảo luận ẩn danh",
+                "moderate": "Ẩn danh hoặc bỏ ẩn danh bất kỳ thảo luận hoặc bài viết nào"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
-                "anonymizeHelp": ""
+                "anonymize": "Đăng ẩn danh",
+                "anonymizeHelp": "Người kiểm duyệt vẫn sẽ biết bạn là người tạo nội dung này"
             },
             "discussionControls": {
-                "anonymize": "",
-                "anonymizeConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Ẩn danh",
+                "anonymizeConfirmation": "Thao tác này sẽ biến tác giả của thảo luận thành ẩn danh. Bài viết đầu tiên phải được ẩn danh riêng. Tiếp tục?",
+                "deanonymize": "Bỏ ẩn danh",
+                "deanonymizeConfirmation": "Thao tác này sẽ công khai lại tác giả gốc của thảo luận. Tiếp tục?"
             },
             "postControls": {
-                "anonymize": "",
-                "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "Ẩn danh",
+                "firstPostConfirmation": "Thao tác này sẽ biến tác giả của bài viết đầu tiên thành ẩn danh. Thảo luận phải được ẩn danh riêng. Tiếp tục?",
+                "deanonymize": "Bỏ ẩn danh",
+                "deanonymizeConfirmation": "Thao tác này sẽ công khai lại tác giả gốc của bài viết. Tiếp tục?"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "Phản hồi cuối {ago}"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
-                "profileHelp": ""
+                "mine": "Tôi",
+                "mineHelp": "Chỉ bạn mới có thể thấy thông tin này",
+                "profile": "Chỉ hiển thị với bạn",
+                "profileHelp": "Chỉ bạn mới có thể thấy các bài viết ẩn danh của mình trong hồ sơ"
             }
         },
         "lib": {
             "userMeta": {
-                "initials": "",
-                "username": ""
+                "initials": "?",
+                "username": "Ẩn danh"
             }
         }
     }

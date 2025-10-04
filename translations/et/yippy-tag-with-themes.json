@@ -1,0 +1,81 @@
+{
+    "yippy-tag-with-themes": {
+        "admin": {
+            "labels": {
+                "design_default": "Vestluse kujunduse paigutus",
+                "display_themes": "Luba Teema sildiga õigus"
+            },
+            "helps": {
+                "design_default": "Vali vaikimisi kujunduse paigutus",
+                "display_themes": "Luba teemad ainult spetsiifilistele gruppidele"
+            },
+            "options": {
+                "design_options": {
+                    "none": "Pole",
+                    "sticky_note": "",
+                    "sticky_note_tag": "",
+                    "sticky_note_tab": "",
+                    "sticky_note_banner": "",
+                    "sticky_note_outline": "",
+                    "sticky_note_outline_tag": "",
+                    "sticky_note_outline_tab": "",
+                    "sticky_note_outline_banner": "",
+                    "basic": "Lihtne",
+                    "basic_tag": "Lihtne (Peamine silt)",
+                    "basic_tab": "Lihtne (peamine vahekaart)",
+                    "basic_banner": "Lihtne (Peamine bänner)",
+                    "basic_outline": "Lihtne piirjoon",
+                    "basic_outline_tag": "Lihtne piirjoon (peamine silt)",
+                    "basic_outline_tab": "Lihtne piirjoon (peamine vahekaart)",
+                    "basic_outline_banner": "Lihtne piirjoon (peamine bänner)",
+                    "flat": "",
+                    "flat_tag": "",
+                    "flat_tab": "",
+                    "flat_banner": "",
+                    "flat_border": "",
+                    "flat_border_tag": "",
+                    "flat_border_tab": "",
+                    "flat_border_banner": "",
+                    "rounded_flat": "",
+                    "rounded_flat_tag": "",
+                    "rounded_flat_tab": "",
+                    "rounded_flat_banner": "",
+                    "rounded_flat_border": "",
+                    "rounded_flat_border_tag": "",
+                    "rounded_flat_border_tab": "",
+                    "rounded_flat_border_banner": ""
+                }
+            },
+            "designs": {
+                "title": "",
+                "description": "",
+                "add": "Lisa siltidele kujundusi",
+                "banner": "Teema disain {index} - [{isEnabled}]",
+                "is_enabled": {
+                    "enabled": "Lülita sisse",
+                    "disabled": "Välja lülitatud"
+                },
+                "header": {
+                    "theme": "Kohandatud teema",
+                    "color_theme": "Kohanda vaikimisi värviskeemi"
+                },
+                "data": {
+                    "themeName": "Vali teema",
+                    "tags": "Vali peamised sildid",
+                    "tags_help": "Vali selle kohandatud teema jaoks üks või mitu silti",
+                    "primary_background_color": "Vali peamiste siltide taustavärv",
+                    "primary_font_class": "Muuda peamist fonti",
+                    "child_background_color": "Muuda alamkirje taustavärvi",
+                    "child_font_class": "Muuda alamfonti",
+                    "outline_background_color": "Muuda piirjoone värvi",
+                    "secondary_font_class": "Muuda teisejärgulist fonti",
+                    "unread_color": "Muuda lugemata taustavärvi",
+                    "opacity_background": "Tausta läbipaistmatuse tase",
+                    "opacity_footer": "Jaluse läbipaistmatuse tase",
+                    "opacity_outline": "Piirjoone läbipaistmatuse tase",
+                    "is_enabled": "Luba teema disain"
+                }
+            }
+        }
+    }
+}

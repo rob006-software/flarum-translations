@@ -2,157 +2,157 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "Переглянути журнал аудиту",
+                "viewLimited": "Переглянути обмежений журнал аудиту"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Аудит",
+                "free": "Безкоштовно",
+                "pro": "Pro",
+                "upgrade": "Оновити до Pro"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "Налаштування",
+                "title": "Налаштування обмеженого доступу",
+                "introduction": "Налаштуйте, що можуть бачити користувачі з обмеженими правами доступу",
+                "requiresExtension": "Потребує розширення {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Переглянути IP-адресу"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "all-audit": "Журнал аудиту",
+                "discussion-audit": "Журнал аудиту",
+                "user-audit": "Журнал аудиту (редагування облікових записів)",
+                "actor-audit": "Журнал аудиту (користувач як актор)"
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "all-title": "Журнал аудиту",
+                "discussion-title": "Журнал аудиту дискусій",
+                "user-title": "Журнал аудиту користувачів",
+                "actor-title": "Журнал аудиту акторів"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterPlaceholder": "Фільтр журналів",
+                "filterApply": "Застосувати",
+                "empty": "Результати відсутні",
+                "loadMore": "Завантажити більше",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Дискусія #{id}",
+                    "group": "Група #{id}",
+                    "post": "Допис #{id}",
+                    "tag": "Тег #{id}",
+                    "user": "Користувач #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Коментар",
+                    "post": "Допис"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(без значення)",
+                "noReason": "(без причин)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Веб-сесія",
+                    "api_key": "Ключ API",
+                    "access_token": "Токен доступу",
+                    "cli": "Командна стрічка",
+                    "unknown": "Невідомий клієнт"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "Приховати необроблений журнал",
+                    "showRaw": "Показати необроблений журнал",
+                    "filterActor": "Показати журнали цього актора",
+                    "filterIp": "Показати журнали за цим IP",
+                    "filterClient": "Показати журнали за цим типом клієнта",
+                    "filterAction": "Показати журнали тієї самої дії",
+                    "filterUser": "Показати журнали, що стосуються одного користувача",
+                    "filterDiscussion": "Показати журнали, що стосуються однієї дискусії"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
+                "audit_log_cleared": "Видалено записи {deleted_count} з журналів аудиту",
+                "cache_cleared": "Очищення кешу вручну",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
-                    "merged_away": "",
-                    "merged_into": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
-                    "unstickied": "",
-                    "user_changed": ""
+                    "created": "Розпочато дискусію {discussion}",
+                    "create_date_changed": "Змінено дату початку {discussion} з {old_date} на {new_date}",
+                    "deleted": "Видалено дискусію {discussion}",
+                    "hidden": "Прихована дискусія {discussion}",
+                    "locked": "Закрита дискусія {discussion}",
+                    "merged_away": "Об'єднано {discussion} в {new_discussion}",
+                    "merged_into": "Об'єднано {post_count} дописи з {original_discussion_ids_count} в {discussion}",
+                    "renamed": "Перейменовано дискусію з {old_title} на {new_title}",
+                    "restored": "Відновлено дискусію {discussion}",
+                    "split_away": "Розділити {post_count} дописи з {discussion} на {new_discussion}",
+                    "split_into": "Об'єднати {post_count} дописів у нову дискусію {discussion}",
+                    "stickied": "Закріплена дискусія {discussion}",
+                    "tagged": "Оновлено теги {discussion} з {old_tags} на {new_tags}",
+                    "unlocked": "Розблокована дискусія {discussion}",
+                    "unstickied": "Дискусія без приліпки {discussion}",
+                    "user_changed": "Змінено автора {discussion} з {old_user} на {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": ""
+                    "disabled": "Вимкнено розширення {package}",
+                    "enabled": "Увімкнено розширення {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Заборонений ip {ip}",
+                    "unbanned": "Незаборонений IP {ip}"
                 },
-                "permission_changed": "",
+                "permission_changed": "Відредаговано дозвіл {permission} з {old_groups} на {new_groups}",
                 "post": {
-                    "approved": "",
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "dismissed_flags": "",
-                    "edit_date_changed": "",
-                    "flagged": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "approved": "Затверджено {postuser} допису {post} в {discussion}",
+                    "created": "Створено {post} у {discussion}",
+                    "create_date_changed": "Змінено дату створення {post} користувача {postuser} з {old_date} на {new_date}",
+                    "deleted": "Видалено {post} користувача {postuser} в {discussion}",
+                    "dismissed_flags": "Знято прапори з {post} користувача {postuser} в {discussion}",
+                    "edit_date_changed": "Змінено дату редагування {post} користувача {postuser} з {old_date} на {new_date}",
+                    "flagged": "Позначено {post} користувача {postuser} як {reason} в {discussion}",
+                    "hidden": "Приховано {post} користувача {postuser} в {discussion}",
+                    "restored": "Відновлено {post} користувача {postuser} в {discussion}",
+                    "revised": "Переглянуто {post} користувача {postuser} у {discussion}",
+                    "user_changed": "Змінено автора {post} з {old_user} на {new_user}"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "Відредаговано налаштування {key}",
+                "setting_changed_with_values": "Змінено значення параметра {key} з {old_value} на {new_value}",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "Створено тег {tag}",
+                    "deleted": "Видалено тег {tag}",
+                    "updated": "Оновлено тег {tag}"
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "nickname_changed": "",
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "provider_connected": "",
-                    "suspended": "",
-                    "unsuspended": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "activated": "Обліковий запис користувача {username} активовано вручну",
+                    "activated_with_email": "Активував обліковий запис {username} за посиланням для підтвердження",
+                    "avatar_changed": "Змінено аватарку користувача {username}",
+                    "avatar_removed": "Видалено аватарку користувача {username}",
+                    "bio_changed": "Відредаговано біографію {username}",
+                    "created": "Створено обліковий запис {username}",
+                    "deleted": "Видалено {username}",
+                    "email_changed": "Змінено адресу електронної пошти {username} з {old_email} на {new_email}",
+                    "email_change_requested": "Запит на зміну адреси електронної пошти користувача {username} на {new_email}",
+                    "groups_changed": "Змінено групи користувачем {username} з {old_groups} на {new_groups}",
+                    "impersonated": "Видавав себе за {username}",
+                    "logged_in": "Увійшов в обліковий запис {username}",
+                    "logged_in_with_provider": "Увійшов в обліковий запис {username} за допомогою {provider}",
+                    "logged_out": "Вийшов з облікового запису {username}",
+                    "nickname_changed": "Змінено нікнейм користувача {username} з {old_nickname} на {new_nickname}",
+                    "nickname_requested": "Запитано новий нікнейм {new_nickname} для користувача {username}",
+                    "nickname_request_approved": "Затверджено зміну нікнейму {username} з {old_nickname} на {new_nickname}",
+                    "nickname_request_rejected": "Відхилено зміну нікнейму {username}",
+                    "password_changed": "Змінено пароль користувача {username}",
+                    "password_change_requested": "Запит на зміну пароля користувача {username}",
+                    "provider_connected": "Підключено провайдера {provider} до облікового запису {username}",
+                    "suspended": "Призупинено {username} до {until}",
+                    "unsuspended": "Відсторонений {username}",
+                    "username_changed": "Змінено ім'я користувача {username} з {old_username} на {new_username}",
+                    "username_requested": "Запитано нове ім'я користувача {new_username} для користувача {username}",
+                    "username_request_approved": "Затверджено зміну імені користувача {username} з {old_username} на {new_username}",
+                    "username_request_rejected": "Відхилено зміну імені користувача {username}"
                 }
             }
         }

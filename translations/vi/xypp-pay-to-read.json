@@ -1,0 +1,37 @@
+{
+    "xypp-pay-to-read": {
+        "admin": {
+            "permission": {
+                "bypass": "Bỏ qua thanh toán."
+            }
+        },
+        "forum": {
+            "preview": "Xem trước Nội dung Trả phí",
+            "nopaidTip": "Chưa có ai thanh toán",
+            "haspaidTip": "{0} người đã thanh toán",
+            "paymentTip": "Nội dung trả phí",
+            "paymentTipMail": "Nội dung trả phí đã bị ẩn. Vui lòng xem bài viết gốc.",
+            "payment-notfound": "Không tìm thấy thanh toán ID#{0}。Hãy kiểm tra ID trong bài viết hoặc xóa ‘id={0}’.",
+            "payment-req": {
+                "text": "Tác giả đã đặt nội dung này cần trả phí. Giá {0} 量见币",
+                "btn": "Thanh toán"
+            },
+            "payment": {
+                "title": "Xác nhận Thanh toán",
+                "tip": "Thanh toán cho nội dung này sẽ tốn {0} 量见币, bạn hiện có {1} 量见币. Xác nhận?",
+                "btn": "Thanh toán ngay",
+                "loading": "Đang tải thông tin thanh toán"
+            },
+            "error": {
+                "paid": "Bạn đã thanh toán cho nội dung này. Vui lòng tải lại trang.",
+                "missing": "Không có nội dung này.",
+                "no_enough_money": "Bạn không đủ tiền.",
+                "internal_err": "Lỗi hệ thống."
+            },
+            "editor": {
+                "help": "Đặt id là 0 hoặc để trống để tạo một nội dung trả phí mới, không chỉnh sửa id gốc, khi đó những người đã thanh toán vẫn có thể đọc.",
+                "label": "Chèn nội dung trả phí"
+            }
+        }
+    }
+}

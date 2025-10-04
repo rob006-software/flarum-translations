@@ -19,6 +19,9 @@
                     "vertical": "Dikey",
                     "horizontal": "Yatay"
                 },
+                "maxImageCount": "Önizlemedeki maksimum resim sayısı",
+                "maxImageCountHelp": "Opengraph'tan veya geri dönüş ayrıştırıcısından kaç resim gösterilecek. Tüm resim URL'leri her zaman kaydedilir ve bu ayarı daha sonra değiştirmenize olanak tanır.\n",
+                "maxImageCountPlaceholder": "Sınırsız kullanım için boş bırakın",
                 "imageProxy": "OpenGraph Görüntü Proxy'si",
                 "imageProxyHelp": "Tüm OpenGraph ve favicon görüntüleri, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy'ye alınacaktır",
                 "cacheProxy": "Proxy'li görüntüleri önbelleğe alın",
@@ -129,49 +132,49 @@
                         }
                     },
                     "pull": {
-                        "type": "",
+                        "type": "Çekme isteği",
                         "stats": {
-                            "commentCount": "",
-                            "reviewCount": "",
-                            "commitCount": "",
-                            "createdAt": ""
+                            "commentCount": "Yorumlar",
+                            "reviewCount": "İncelemeler",
+                            "commitCount": "Commits",
+                            "createdAt": "Oluşturulma tarihi"
                         }
                     },
                     "repo": {
                         "type": {
-                            "public": "",
-                            "private": ""
+                            "public": "Herkese açık depo",
+                            "private": "Özel depo"
                         },
                         "stats": {
-                            "openIssueCount": "",
-                            "subscriberCount": "",
-                            "stargazerCount": "",
-                            "forkCount": ""
+                            "openIssueCount": "Açık sorunlar",
+                            "subscriberCount": "Gözlemciler",
+                            "stargazerCount": "Yıldızlar",
+                            "forkCount": "Çatallar"
                         }
                     }
                 },
                 "youtube": {
-                    "siteName": "",
+                    "siteName": "Youtube",
                     "video": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "Video",
+                        "thumbnailAlt": "Video küçük resmi",
                         "stats": {
-                            "viewCount": "",
-                            "likeCount": "",
-                            "commentCount": "",
-                            "publishedAt": ""
+                            "viewCount": "Görüntülenmeler",
+                            "likeCount": "Beğeniler",
+                            "commentCount": "Yorumlar",
+                            "publishedAt": "Yayınlanma tarihi"
                         }
                     }
                 },
                 "googledrive": {
-                    "siteName": "",
+                    "siteName": "Google Drive",
                     "file": {
-                        "type": "",
-                        "thumbnailAlt": "",
+                        "type": "Dosya",
+                        "thumbnailAlt": "Google Drive dosya önizlemesi",
                         "stats": {
-                            "size": "",
-                            "createdTime": "",
-                            "modifiedTime": ""
+                            "size": "Dosya boyutu",
+                            "createdTime": "Oluşturulma tarihi",
+                            "modifiedTime": "Düzenlenme tarihi"
                         }
                     }
                 }

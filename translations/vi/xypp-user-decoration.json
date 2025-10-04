@@ -1,0 +1,102 @@
+{
+    "xypp-user-decoration": {
+        "forum": {
+            "decoration-no-available": "Không có trang trí nào",
+            "decorations": "Trang trí",
+            "decoration-box": {
+                "error": "Kiểu không xác định",
+                "avatar": "Kiểu avatar",
+                "name": "Kiểu tên người dùng",
+                "post": "Kiểu bài viết",
+                "card": "Kiểu thẻ người dùng",
+                "loading": "Đang tải",
+                "closed": "Đã đóng",
+                "no-login": "Đăng nhập để xem trước"
+            },
+            "decoration": {
+                "delete_button": "Xóa",
+                "remove_button": "Gỡ bỏ",
+                "change_button": "Thay đổi",
+                "delete_confirm": "Bạn có chắc muốn xóa trang trí này?"
+            },
+            "page": {
+                "show-decorations": "Trang trí"
+            },
+            "modal": {
+                "title": "Tặng trang trí",
+                "tip": "Vui lòng chọn một trang trí",
+                "loading": "Đang tải",
+                "button": "Tặng"
+            },
+            "create": "Tạo",
+            "create-success": "Tạo trang trí thành công",
+            "create-modal": {
+                "edit-title": "Chỉnh sửa trang trí #{0}",
+                "edit-button": "Chỉnh sửa",
+                "title": "Tạo trang trí",
+                "type": {
+                    "title": "Loại",
+                    "avatar": "Avatar",
+                    "username": "Tên người dùng",
+                    "post": "Bài viết",
+                    "usercard": "Thẻ người dùng"
+                },
+                "name": "Tên",
+                "desc": "Mô tả",
+                "style": "Style Sheet",
+                "tip": "Dùng bộ chọn .base để chọn mục tiêu, .element-xxx để thêm phần tử mới",
+                "button": "Tạo",
+                "delete-button": "Xóa"
+            },
+            "delete_confirm": "Bạn có chắc muốn xóa trang trí này?",
+            "delete-success": "Xóa thành công",
+            "user_controls": {
+                "offer": "Tặng trang trí"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_decoration": "Xem trang trí của người khác",
+                "delete_decoration": "Xóa trang trí của người khác",
+                "offer_decoration": "Tặng trang trí",
+                "create_decoration": "Tạo/Chỉnh sửa trang trí",
+                "view-all": "Xem tất cả trang trí"
+            },
+            "settings": {
+                "username_hijack": {
+                    "title": "Chiếm quyền Tên người dùng",
+                    "desc": "Plugin sẽ thử ghi đè phương thức tên người dùng của mô hình user và chèn một số thông tin định danh để nhận diện người dùng. Nếu plugin khác gặp sự cố do việc ghi đè này, bạn có thể tắt chức năng để khắc phục."
+                },
+                "avatar_hijack": {
+                    "title": "Chiếm quyền Avatar",
+                    "desc": "Plugin sẽ thử ghi đè phương thức avatar của mô hình user và chèn một số thông tin định danh để nhận diện người dùng. Nếu plugin khác gặp sự cố do việc ghi đè này, bạn có thể tắt chức năng để khắc phục."
+                },
+                "view-all": {
+                    "title": "Xem tất cả",
+                    "desc": "Bật quyền \"xem tất cả\"?"
+                },
+                "no_decorate_class_filter": {
+                    "title": "Bộ lọc lớp không trang trí",
+                    "desc": "Các tên lớp (class) giúp ngăn avatar/tên người dùng bên trong bị áp dụng trang trí. Mỗi dòng một lớp, không có dấu chấm ở đầu"
+                }
+            }
+        }
+    },
+    "xypp-store": {
+        "forum": {
+            "type": {
+                "decoration": "Trang trí"
+            },
+            "unavailable": {
+                "decoration": {
+                    "dumplicate": "Đã sở hữu"
+                }
+            },
+            "create-modal": {
+                "providers": {
+                    "decoration": "Trang trí"
+                }
+            }
+        }
+    }
+}

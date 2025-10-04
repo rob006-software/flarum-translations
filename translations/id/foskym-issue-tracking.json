@@ -1,0 +1,65 @@
+{
+    "foskym-issue-tracking": {
+        "admin": {
+            "provider_heading": "",
+            "enable_comment_sync_label": "Membuat komentar di pelacak issue saat post dibuat",
+            "enable_create_issue_label": "Izinkan pengguna untuk membuat issue di Flarum",
+            "enable_auto_import_label": "Impor issue secara otomatis ke Flarum saat membaca issue",
+            "enable_import_by_username_label": "Impor issue berdasarkan username",
+            "enable_import_by_display_name_label": "Impor issue berdasarkan nama tampilan",
+            "default_import_by_email_help": "Secara default, issue diimpor melalui email. Anda dapat mengaktifkan impor berdasarkan username atau nama tampilan. Pengaturan impor manual disinkronisasi dengan keduanya. Jika pengguna tidak ada, issue akan diimpor secara manual atau admin.",
+            "action": {
+                "heading": "Tindakan",
+                "test_connection_button": "Uji Koneksi",
+                "test_connection_success": "Koneksi berhasil",
+                "import_issues_button": "Impor Issue",
+                "import_issues_success": "Issue berhasil diimpor",
+                "import_issues_confirmation": "Apakah Anda yakin ingin mengimpor semua issue?",
+                "delete_imported_issues_button": "Hapus Issue yang Diimpor",
+                "delete_imported_issues_success": "Issue yang diimpor berhasil dihapus",
+                "delete_imported_issues_confirmation": "Apakah Anda yakin ingin menghapus semua issue yang diimpor?",
+                "delete_all_issues_button": "Hapus Semua Issue",
+                "delete_all_issues_success": "Semua issue berhasil dihapus",
+                "delete_all_issues_confirmation": "Apakah Anda yakin ingin menghapus semua issue?"
+            }
+        },
+        "forum": {
+            "title": "Pelacakan Issue",
+            "header": {
+                "back_to_issues_tooltip": "Kembali ke Issue"
+            },
+            "last_updated": "Terakhir diperbarui {time}",
+            "issue_opened_by": "Issue dibuka pada {time} oleh {username}",
+            "progress": "Progres",
+            "new_issue": "Issue Baru",
+            "cannot_create_issue": "Hanya Baca",
+            "discussion": {
+                "issue_link": "Lihat"
+            },
+            "composer": {
+                "title": "Buat issue baru",
+                "title_placeholder": "Judul Issue",
+                "body_placeholder": "Deskripsi Issue",
+                "submit_button": "Submit",
+                "discard_confirmation": "Apakah Anda yakin ingin membuang issue ini?"
+            },
+            "sort": {
+                "latest_button": "Terkini",
+                "oldest_button": "Terlama",
+                "newest_button": "Terbaru"
+            },
+            "hero": {
+                "last_updated": "=> foskym-issue-tracking.forum.last_updated",
+                "unresolved": "Belum selesai",
+                "resolved": "Selesai",
+                "tasks_done": "{number} dari {total}",
+                "complete": "{progress} Selesai"
+            },
+            "provider": {
+                "error": {
+                    "title": ""
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "ffans-geetest": {
+        "admin": {
+            "settings": {
+                "product_service_label": "CAPTCHA Product",
+                "product_service_help_text": "The version of GeeTest CAPTCHA you what to use.",
+                "product_service_v4_label": "Adaptive CAPTCHA (v4)",
+                "product_service_v3_label": "CAPTCHA (v3)",
+                "context_event_label": "Context Event",
+                "context_event_help_text": "Enable to use GeeTest CAPTCHA into different context events or business types, you can set a standalone configuration for each context.",
+                "context_event_login_label": "=> core.ref.log_in",
+                "context_event_signup_label": "=> core.ref.sign_up",
+                "context_event_forgot_label": "=> core.forum.forgot_password.title",
+                "config": {
+                    "title": "Config for {context}",
+                    "standalone_label": "Standalone",
+                    "standalone_help_text": "Enable to use a standalone configuration for this scenario.",
+                    "product_label": "Animation Style",
+                    "product_help_text": "Choose the presentation of the verify panel.",
+                    "product_float_label": "Float",
+                    "product_float_help_text": "Switch from validation button to validation panel.",
+                    "product_popup_label": "Popup",
+                    "product_popup_help_text": "Center the validation panel",
+                    "product_bind_label": "Bind to button",
+                    "product_bind_help_text": "Trigger the validation panel with a specified button.",
+                    "product_learn_more_link": "Learn more about widget style",
+                    "id_label": "Verify ID",
+                    "id_help_text": "The verify ID of the context event you applied on the <a>GeeTest dashboard</a>.",
+                    "key_label": "Verify Key",
+                    "key_help_text": "The verify key of the context event you applied on the <a>GeeTest dashboard</a>."
+                }
+            },
+            "test": {
+                "title": "Test CAPTCHA",
+                "help_text": "Use the general configuration above to test the CAPTCHA.",
+                "submit_button": "Submit",
+                "load_button": "Load",
+                "reload_button": "Reload"
+            }
+        },
+        "lib": {
+            "verify": {
+                "success_message": "Validation successful.",
+                "error_message": "Validation failed.",
+                "error_retry_message": "Validation failed, please try again.",
+                "init_error_message": "Initialization validation failed.",
+                "required_message": "Please complete the CAPTCHA.",
+                "not_pass_message": "Validation not passed."
+            }
+        }
+    }
+}

@@ -2,50 +2,50 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "",
-                "ignoring_tooltip": ""
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
             },
             "discussion_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
-                "unignore_button": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "बैंड करे फॉलो",
+                "unignore_button": "अनदेखा न करें"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
-                "following_link": ""
+                "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": ""
+                "new_post_text": "{username} पोस्ट किया गया"
             },
             "settings": {
-                "follow_after_reply_label": "",
-                "notify_for_all_posts_label": "",
-                "notify_new_post_label": ""
+                "follow_after_reply_label": "जिन चर्चाओं का मैं उत्तर देता हूँ उनका स्वचालित रूप से अनुसरण करें",
+                "notify_for_all_posts_label": "चर्चा में केवल अंतिम पोस्ट के बजाय प्रत्येक नई पोस्ट के बारे में सूचित करें",
+                "notify_new_post_label": "मैं जिस चर्चा का अनुसरण कर रहा हूं उसमें कोई व्यक्ति पोस्ट करता है"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "सभी उत्तरों से अवगत रहें।",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "कभी भी सूचित न किया जाए. चर्चा सूची से छिपाएँ।",
+                "not_following_button": "पालन नहीं करते हुए",
+                "not_following_text": "केवल @mentioned होने पर ही सूचित किया जाए।",
+                "notify_alert_tooltip": "नई पोस्ट आने पर फोरम अधिसूचना प्राप्त करें",
+                "notify_email_tooltip": "नई पोस्ट आने पर ईमेल प्राप्त करें"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[नई पोस्ट] {title}",
+                "body": "नमस्ते {recipient_display_name}!\n\n{poster_display_name} ने उस चर्चा में एक पोस्ट किया जिसका आप अनुसरण कर रहे हैं: {title}.\n\nनई गतिविधि देखने के लिए, निम्नलिखित लिंक देखें:\n{url}\n\n---\n\n{content}\n\n---\n\nजब तक आप अद्यतन नहीं हो जाते, आपको इस चर्चा के बारे में कोई और सूचना प्राप्त नहीं होगी।\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "ignoring": ""
+            "follow": "अनुसरण करना",
+            "following": "अगले",
+            "ignoring": "की उपेक्षा"
         }
     }
 }

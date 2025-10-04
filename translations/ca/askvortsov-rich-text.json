@@ -2,49 +2,49 @@
     "askvortsov-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": ""
+                "toggle_on_editor": "Mostrar botó per commutar entre els modes de text ric i de codi markdown?"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Activar/desactivar mode de text ric",
+                "insert_button": "Inserir",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Enllaç",
+                    "title_placeholder": "Títol"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Text",
+                    "href_placeholder": "Adreça web",
+                    "title_placeholder": "Títol (mostra al passar el cursor per sobre)",
+                    "remove_button": "Esborrar"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "Controls addicionals",
+                "bold_tooltip": "Negreta <{modifierKey}-b>",
+                "code_tooltip": "Fragment de codi <{modifierKey}-`>",
+                "code_block_tooltip": "Inserir un bloc de codi",
+                "header_tooltip": "Canviar a Capçalera {level} <Majúscules-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Inserir línia horitzontal",
+                "image_tooltip": "Afegir una imatge",
+                "italic_tooltip": "Cursiva <{modifierKey}-i>",
+                "link_tooltip": "Afegir un enllaç",
+                "ordered_list_tooltip": "Llista numèrica <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Canvia a paràgraf <Majúscules-{modifierKey}-0>",
+                "quote_tooltip": "Inserir una cita textual <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Llista desplegable/Bloc d'espòiler",
+                "spoiler_inline_tooltip": "Espòiler  <{modifierKey}-;>",
+                "strike_tooltip": "Ratllat <alt-shift-5>",
+                "sub_tooltip": "Subíndex <{modifierKey}-,>",
+                "sup_tooltip": "Superíndex <{modifierKey}-.>",
+                "text_type_tooltip": "Triar tipus de text/capçalera",
+                "unordered_list_tooltip": "Llista de punts <Majúscules-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Editor",
+                "use_rich_text_editor_label": "Utilitzar l'editor de text ric?",
+                "rich_text_compact_paragraphs_label": "No separar paràgrafs amb un caràcter de canvi de línia."
             }
         }
     }

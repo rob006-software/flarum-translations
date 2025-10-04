@@ -2,9 +2,9 @@
     "flarum-approval": {
         "admin": {
             "permissions": {
-                "approve_posts_label": "Схвалювати дописи",
-                "reply_without_approval_label": "Відповідати без схвалення",
-                "start_discussions_without_approval_label": "Почати дискусію без схвалення"
+                "approve_posts_label": "Затвердити дописи",
+                "reply_without_approval_label": "Відповідати без затвердження",
+                "start_discussions_without_approval_label": "Почати дискусію без затвердження"
             }
         },
         "forum": {
@@ -15,11 +15,11 @@
                 "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
             },
             "post_controls": {
-                "approve_button": "Схвалити"
+                "approve_button": "Затвердити"
             }
         },
         "ref": {
-            "awaiting_approval": "В очікуванні схвалення"
+            "awaiting_approval": "В очікуванні затвердження"
         }
     }
 }

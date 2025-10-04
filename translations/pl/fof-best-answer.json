@@ -7,14 +7,15 @@
             },
             "settings": {
                 "label": {
-                    "tags": "",
+                    "tags": "Tagi najlepszej odpowiedzi",
                     "general": "Ogólne",
                     "reminders": "Przypomnienia",
+                    "search": "",
                     "advanced": "Zaawansowane",
                     "reminders_notice": "Aby przypomnienia działały, harmonogram zadań Flarum musi być prawidłowo skonfigurowany."
                 },
                 "allow_select_own_post": "Wybieranie własnego posta",
-                "allow_select_own_post_help": "Pozwól autorowi dyskusji wybrać jeden z jego własnych postów jako najlepszą odpowiedź",
+                "allow_select_own_post_help": "Pozwól użytkownikowi wybrać swój własny post jako najlepszą odpowiedź w dyskusji",
                 "show_max_lines_label": "Maksymalna liczba wierszy do wyświetlenia w podglądzie posta",
                 "show_max_lines_help": "Ustaw 0, aby wyłączyć limit. Jeśli post jest dłuższy niż podana liczba wierszy, podgląd posta zostanie przycięty za pomocą efektu zanikania.",
                 "select_best_answer_reminder_days": "Częstotliwość przypominania",
@@ -36,6 +37,14 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
+                "solution_search": "",
+                "solution_search_help": "",
+                "remove_solutions_from_main_search": "",
+                "remove_solutions_from_main_search_help": "",
+                "display_tags": "",
+                "display_tags_help": "",
+                "discussion_sidebar_jump_button": "",
+                "discussion_sidebar_jump_button_help": "",
                 "enable_all_tags_button": "Włącz obsługę najlepszych odpowiedzi we wszystkich tagach",
                 "enable_all_tags_reminder_button": "Włącz przypomnienia o wybraniu najlepszej odpowiedzi we wszystkich tagach",
                 "introduction": "W ustawieniach <code><a>flarum/tags</a></code> wybierz, które tagi mają obsługiwać najlepsze odpowiedzi i, opcjonalnie, które tagi powinny obsługiwać przypomnienia. Gdy tag ma włączoną funkcję najlepszych odpowiedzi, przydziel uprawnienia dla każdej grupy użytkowników, którzy mogą wybierać odpowiedzi (własne dyskusje, cudze dyskusje). Uprawnienia mogą być przypisane globalnie (dla każdego tagu z włączoną opcją najlepszej odpowiedzi), lub dla każdego tagu osobno.\n"
@@ -81,6 +90,13 @@
             },
             "user": {
                 "best-answer-count": "{count, plural, one {{count} najlepsza odpowiedź} few {{count} najlepsze odpowiedzi} other {{count} najlepszych odpowiedzi}}"
+            },
+            "search": {
+                "discussions_solutions_heading": "",
+                "all_discussions_solutions_button": ""
+            },
+            "discussion": {
+                "jump_to_best_answer_button": ""
             }
         },
         "email": {

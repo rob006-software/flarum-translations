@@ -2,32 +2,32 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Kohanda oma e-kirja HTML malle."
             },
             "settings": {
                 "attributes": {
-                    "body": "",
-                    "forumStyle": "",
-                    "url": "",
-                    "settings": "",
-                    "link": ""
+                    "body": "Sisaldab tegelikku kirja sisu",
+                    "forumStyle": "Sisaldab <strong>kogu foorumi CSS-i</strong>",
+                    "url": "Flarum <code>UrlGenerator</code>",
+                    "settings": "Võimaldab sul suhelda SettingsRepositoryInterface-iga",
+                    "link": "Sisaldab e-kirjas linki"
                 },
-                "attributes_label": "",
-                "label": "",
-                "reset": "",
-                "confirm": "",
-                "default": "",
-                "newPost": "",
-                "userMentioned": "",
-                "postMentioned": "",
-                "notifications": "",
-                "notificationHelp": "",
-                "template_help": ""
+                "attributes_label": "Saadaolevad omadused",
+                "label": "E-kirja mallid",
+                "reset": "Taasta vaikeväärtused",
+                "confirm": "Oled sa kindel, et soovid vaikimisi e-kirja malli taas kasutusse võtta",
+                "default": "Vaikimisi mall",
+                "newPost": "Flarumi tellimuse uue postituse e-kiri",
+                "userMentioned": "Flarumi kasutaja mainimise e-kiri",
+                "postMentioned": "Flarumi postituse mainimise e-kiri",
+                "notifications": "Teavituste mallid",
+                "notificationHelp": "Neis kirjades on soovitatav kasutada stiili \"$forumStyle\" kuna neis võidakse kasutada BBCODE-i. Seis võib olla ka omadus \"$user\" milles on kogu kasutaja info.",
+                "template_help": "Vaata igast mallist, kuidas iga omadust kasutada."
             },
             "css_settings": {
-                "label": "",
-                "help": "",
-                "switch_label": ""
+                "label": "CSS-i seaded",
+                "help": "Võid soovi korral kaasata kirja HTML-is foorumi CSS-i. Kui lülitad selle sisse, siis võib sul olla probleeme mõningate e-posti teenuste pakkujatega.",
+                "switch_label": "Kaasa täielik foorumi CSS"
             }
         }
     }

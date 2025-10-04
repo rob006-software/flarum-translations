@@ -2,65 +2,76 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completion-required": "Palun täida allpool nõutud profiili väljad.\n",
+                "profile-completed": "Profiil on loodud! <a>Mine avalehele</a>"
             },
             "buttons": {
-                "view-profile": "",
-                "edit-profile": "",
-                "save-profile": ""
+                "view-profile": "Vaata profiili",
+                "edit-profile": "Muuda profiili",
+                "save-profile": "Salvesta"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Ühtegi valikut pole tehtud (valikuline)",
+                    "none-required": "Palun tee valik (nõutud)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Jah",
+                    "no": "Ei"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "Üldised valikud",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Loo väli",
+                "edit-field": "Salvesta muudatused",
+                "delete-field": "Kustuta väli"
             },
             "permissions": {
-                "edit-others-profile": "",
-                "have-profile": "",
-                "view-profile": ""
+                "edit-others-profile": "Teiste kasutajate profiili muutmine",
+                "have-profile": "Võib omada maskeraadi profiili",
+                "view-profile": "Maskeraadi profiili vaatamine"
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
-                "prefix": "",
-                "prefix-help": "",
-                "icon": "",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "title": "Väljad",
+                "add": "Lisa väli {field}",
+                "edit": "Lisa väli {field}",
+                "name": "Välja nimi",
+                "name-help": "Avalikult nähtav (mittetõlgitav) välja silt.\n",
+                "description": "Välja kirjeldus",
+                "description-help": "Valikuline kirjeldus, mis selgitab, miks seda välja vaja on.\n",
+                "required": "Märgi väli kohustuslikuks",
+                "on_bio": "Näita selle välja vastust kasutaja lühikirjelduses",
+                "type": "Liik",
+                "validation": "Kontrollimine",
+                "validation-help": "Märgi toetatud <a>Laravel kontrollimise reeglid</a>. Nt: \"string|min:5\" või \"url\".\n",
+                "prefix": "Välja eesliide",
+                "prefix-help": "Näitab kasutaja sisestatud väärtuste ees sinu valitud eesliidest.\n",
+                "icon": "Ikoon",
+                "icon-help": "Näita ikoonina kasutaja sisestatud väärtuse ees. Ikoone näed <a>FontAwesome veebisaidilt</a>. Kasuta ikooninimesid eesliitega \"fa-\" näiteks nii \"fas fa-info\".\n",
+                "force-user-to-completion": "Sunni kasutaja profiil täitma",
+                "options": "Valikud",
+                "option-new": "Uus valik",
+                "option-comma-warning": "Valiku sildis ei tohi olla koma (\",\")."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "Lisavalikud",
+                "boolean": "Märkeruut",
+                "email": "E-post",
+                "select": "Rippmenüü",
+                "url": "URL"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masqueradeanswers": {
+                    "export_description": "Ekspordib kasutaja profiili väljade vastused",
+                    "delete_description": "Eemaldab kasutaja kontolt kõik profiili väljade vastused",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
             }
         }
     }

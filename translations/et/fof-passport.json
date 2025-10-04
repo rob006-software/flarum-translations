@@ -3,20 +3,20 @@
         "admin": {
             "popup": {
                 "field": {
-                    "app-auth-url": "",
-                    "app-token-url": "",
-                    "app-user-url": "",
-                    "app-id": "",
-                    "app-secret": "",
-                    "app-scopes": "",
-                    "button-title": "",
-                    "button-title-placeholder": "",
-                    "button-icon": ""
+                    "app-auth-url": "OAuth autoriseerimise URL",
+                    "app-token-url": "OAuth kontrollkoodi URL",
+                    "app-user-url": "API URL, mis annab autentimisel kasutaja üksikasjad",
+                    "app-id": "OAuth rakenduse ID",
+                    "app-secret": "OAuth rakenduse salasõna",
+                    "app-scopes": "OAuth päringu ulatus",
+                    "button-title": "Sisselogimisnupu silt",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "Sisselogimisnupu ikoon"
                 }
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "=> core.ref.log_in"
         }
     }
 }

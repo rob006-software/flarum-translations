@@ -64,7 +64,7 @@
                 "archiveOlds": "存檔舊的修訂版本",
                 "archiveOldsInfo": "如果 <strong>x ≥A</strong>，則這個貼文的前 <strong>y = mx + b</strong> 個修訂版本將被合併壓縮儲存。<strong>x</strong> 為貼文的修訂版本數。浮點值 <strong>y</strong> 將被簡化至下一個最小整數值。",
                 "useCrons": "透過定時任務存檔舊的修訂版本",
-                "useCronsHelp": "您必須將定時任務添加到伺服器中才能使此選項生效，它將於每週日 02:00AM 執行。如果停用此選項並啟用上面的選項，在修訂相關貼文時，將掃描全部貼文的修訂版本以進行存檔。",
+                "useCronsHelp": "您必須將定時任務增加到伺服器中才能使此選項生效，它將於每週日 02:00AM 執行。如果停用此選項並啟用上面的選項，在修訂相關貼文時，將掃描全部貼文的修訂版本以進行存檔。",
                 "archiveInfo": "請注意，您可以同時停用這兩個選項，透過執行 <code>php flarum diff:archive</code> 指令來手動存檔舊的修訂版本。"
             },
             "permissions": {

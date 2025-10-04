@@ -2,7 +2,19 @@
     "clarkwinkelmann-emojionearea": {
         "forum": {
             "picker_button": "Выбор emoji",
-            "search_placeholder": "Поиск..."
+            "search_placeholder": "Поиск...",
+            "filters": {
+                "tones": "",
+                "recent": "Недавние",
+                "smileys_people": "Смайлики и Люди",
+                "animals_nature": "Животные и Природа",
+                "food_drink": "Еда и Напитки",
+                "activity": "Активности",
+                "travel_places": "Путешествия и места",
+                "objects": "Объекты",
+                "symbols": "Символы",
+                "flags": "Флаги"
+            }
         },
         "admin": {
             "settings": {
@@ -11,6 +23,7 @@
                 "enableTones": "Включить тона",
                 "filtersPosition": "Переместить категории вниз",
                 "searchPosition": "Переместить строку поиска и выбор тонов вниз",
+                "closeOnPick": "Закрыть окошко выбора, когда эмодзи выбран",
                 "hideFlarumButton": "Скрыть стандартную кнопку выбора emoji от Flarum"
             }
         }

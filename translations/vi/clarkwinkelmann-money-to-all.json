@@ -2,27 +2,27 @@
     "clarkwinkelmann-money-to-all": {
         "lib": {
             "modal": {
-                "title": "",
-                "amount": "",
-                "notify": "",
-                "message": "",
-                "messagePlaceholder": "",
-                "messageHelp": "",
-                "suspended": "",
-                "lastActivity": "",
-                "preview": "",
-                "submit": "",
-                "success": ""
+                "title": "Chuyển tiền cho tất cả người dùng",
+                "amount": "Số tiền",
+                "notify": "Gửi thông báo trên web cho người dùng",
+                "message": "Tin nhắn",
+                "messagePlaceholder": "Bật thông báo để bao gồm một thông điệp",
+                "messageHelp": "Tùy chọn. Tin nhắn sẽ ghi đè lên văn bản thông báo mặc định. Bạn nên đề cập đến số tiền trong văn bản của mình vì nó sẽ không được hiển thị nữa.",
+                "suspended": "Bao gồm người dùng đã bị đình chỉ",
+                "lastActivity": "Hạn chế cho những người dùng hoạt động sau ngày sau đây",
+                "preview": "Các cài đặt hiện tại phù hợp với {count} người dùng.",
+                "submit": "Gửi",
+                "success": "Đã gửi tiền cho {count} người dùng!"
             }
         },
         "admin": {
             "settings": {
-                "send": ""
+                "send": "Gửi tiền cho tất cả người dùng"
             }
         },
         "forum": {
             "notification": {
-                "moneyReceived": ""
+                "moneyReceived": "Bạn đã nhận được {amount}"
             }
         }
     }

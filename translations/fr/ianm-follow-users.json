@@ -1,10 +1,10 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "Exporte les informations sur les utilisateurs suivis et les utilisateurs qui suivent.",
-                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "export_description": "Exporte les informations sur les utilisateurs suivis et sur les utilisateurs qui suivent.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.followuser.delete_description",
                     "delete_description": "Supprime toutes les données relatives aux utilisateurs suivants."
                 }
             }
@@ -29,7 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
+                "unfollow_button": "=> ianm-follow-users.lib.unfollow",
+                "change_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
                 "notify_new_follower_label": "Quelqu'un me suit",
@@ -82,6 +83,7 @@
             "following_link": "Utilisateurs suivis",
             "follow": "Suivre",
             "change_follow_type": "Modifier le type de suivi",
+            "unfollow": "Ne plus suivre",
             "follow_levels": {
                 "unfollow": {
                     "name": "Ne pas suivre",
@@ -94,6 +96,17 @@
                 "lurk": {
                     "name": "Tout suivre",
                     "description": "Recevoir des notifications lorsque <em>{username}</em> démarre une nouvelle discussion ou publie un message dans une discussion.\n"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "Exporte les informations sur les utilisateurs suivis et les utilisateurs qui suivent.",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Supprime toutes les données relatives aux utilisateurs suivants."
                 }
             }
         }

@@ -11,10 +11,10 @@
         },
         "admin": {
             "settings": {
-                "cache_duration_label": "",
-                "cache_duration_help": "",
-                "flush_cache_on_new_registration_label": "",
-                "flush_cache_on_new_registration_help": "",
+                "cache_duration_label": "Välimuistin kesto",
+                "cache_duration_help": "Määritä kuinka kauan vimpaimen tilastoja pidetään välimuistissa (sekunneissa). <code>0</code> ottaa välimuistin pois käytöstä (ei suositella).",
+                "flush_cache_on_new_registration_label": "Nollaa tilastojen välimuisti uuden käyttäjän rekisteröityessä",
+                "flush_cache_on_new_registration_help": "Jos käytössä niin tilastojen välimuisti nollataan, kun uusi käyttäjä rekisteröityy foorumille.",
                 "widget_ignore_private_discussions_label": "Älä huomioi yksityisiä keskusteluita",
                 "widget_order_label": "Vimpaimen järjestys",
                 "widget_helper_text": "Muokkaa tätä asetusta määrittääksesi vimpaimen sijainnin foorumin sivuvalikossa. Mitä isompi numero, sitä korkeammalla vimpain on sivupalkissa (arvo voi olla positiitinen tai negatiivinen)."

@@ -2,53 +2,53 @@
     "clarkwinkelmann-money-rewards": {
         "admin": {
             "settings": {
-                "preselection": "",
-                "min": "",
-                "max": "",
-                "decimals": ""
+                "preselection": "Các số tiền được chọn trước (phân tách bằng dấu phẩy, tùy chọn)",
+                "min": "Giá trị tối thiểu cho số tiền tùy chỉnh",
+                "max": "Giá trị tối đa cho số tiền tùy chỉnh",
+                "decimals": "Số chữ số thập phân tối đa cho số tiền tùy chỉnh"
             },
             "permissions": {
-                "seeMoneyRewardHistory": "",
-                "rewardWithMoney": "",
-                "customAmounts": "",
-                "createMoney": ""
+                "seeMoneyRewardHistory": "Xem lịch sử phần thưởng của người dùng khác",
+                "rewardWithMoney": "Thưởng tiền cho người dùng khác",
+                "customAmounts": "Chọn số tiền tùy chỉnh cho phần thưởng",
+                "createMoney": "Tạo tiền mới trong phần thưởng"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "target": "",
-                "optionCustom": "",
-                "balance": "",
+                "title": "Thưởng bài viết",
+                "target": "Thưởng cho bài viết #{number} bởi {username}",
+                "optionCustom": "Tùy chỉnh",
+                "balance": "Số dư của bạn: {amount}",
                 "label": {
-                    "custom": "",
-                    "create": "",
-                    "comment": ""
+                    "custom": "Số tiền tùy chỉnh",
+                    "create": "Tạo tiền thay vì trừ vào số dư của tôi",
+                    "comment": "Bình luận (công khai)"
                 },
-                "submit": "",
-                "success": ""
+                "submit": "Gửi",
+                "success": "Phần thưởng đã được gửi đến tác giả bài viết!"
             },
             "profile": {
-                "nav": "",
-                "title": ""
+                "nav": "Phần thưởng",
+                "title": "Phần thưởng"
             },
             "post": {
-                "action": "",
-                "disallowedOwn": "",
-                "disallowedOther": "",
-                "section": ""
+                "action": "Thưởng",
+                "disallowedOwn": "Bạn không thể thưởng cho bài viết của chính mình.",
+                "disallowedOther": "Bạn không thể thưởng cho bài viết này. Nguyên nhân có thể là tác giả ẩn danh hoặc đã xóa tài khoản.",
+                "section": "Phần thưởng"
             },
             "record": {
-                "from": "",
-                "to": "",
-                "post": "",
-                "comment": ""
+                "from": "từ",
+                "to": "đến",
+                "post": "cho <a>bài viết #{number}</a> trong thảo luận \"{title}\"",
+                "comment": "Bình luận:"
             }
         },
         "api": {
             "error": {
-                "decimals": "",
-                "notEnoughFunds": ""
+                "decimals": "Số tiền bị giới hạn ở {decimals} chữ số thập phân.",
+                "notEnoughFunds": "Không đủ tiền."
             }
         }
     }

@@ -12,6 +12,14 @@
             "staffBadgeTextBg": {
                 "label": "Колір фону бейджа",
                 "help": "Колір бейджа (за замовчуванням \"rgb(70, 209, 96)\")"
+            },
+            "permissions": {
+                "canEditStaffBadge": {
+                    "label": "Редагування бейджа співробітника"
+                },
+                "canEditTagList": {
+                    "label": "Можливість редагування списку тегів"
+                }
             }
         },
         "forum": {

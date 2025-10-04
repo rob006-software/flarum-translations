@@ -1,0 +1,81 @@
+{
+    "yippy-tag-with-themes": {
+        "admin": {
+            "labels": {
+                "design_default": "Bố cục thiết kế thảo luận",
+                "display_themes": "Bật quyền sử dụng Chủ đề theo Thẻ"
+            },
+            "helps": {
+                "design_default": "Chọn bố cục thiết kế mặc định",
+                "display_themes": "Chỉ cho phép chủ đề với các nhóm cụ thể"
+            },
+            "options": {
+                "design_options": {
+                    "none": "Không có",
+                    "sticky_note": "Ghi chú dán",
+                    "sticky_note_tag": "Ghi chú dán (Thẻ chính)",
+                    "sticky_note_tab": "Ghi chú dán (Tab chính)",
+                    "sticky_note_banner": "Ghi chú dán (Banner chính)",
+                    "sticky_note_outline": "Viền ghi chú dán",
+                    "sticky_note_outline_tag": "Viền ghi chú dán (Thẻ chính)",
+                    "sticky_note_outline_tab": "Viền ghi chú dán (Tab chính)",
+                    "sticky_note_outline_banner": "Viền ghi chú dán (Banner chính)",
+                    "basic": "Cơ bản",
+                    "basic_tag": "Cơ bản (Thẻ chính)",
+                    "basic_tab": "Cơ bản (Tab chính)",
+                    "basic_banner": "Cơ bản (Banner chính)",
+                    "basic_outline": "Viền cơ bản",
+                    "basic_outline_tag": "Viền cơ bản (Thẻ chính)",
+                    "basic_outline_tab": "Viền cơ bản (Tab chính)",
+                    "basic_outline_banner": "Viền cơ bản (Banner chính)",
+                    "flat": "Phẳng",
+                    "flat_tag": "Phẳng (Thẻ chính)",
+                    "flat_tab": "Phẳng (Tab chính)",
+                    "flat_banner": "Phẳng (Banner chính)",
+                    "flat_border": "Viền phẳng",
+                    "flat_border_tag": "Viền phẳng (Thẻ chính)",
+                    "flat_border_tab": "Viền phẳng (Tab chính)",
+                    "flat_border_banner": "Viền phẳng (Banner chính)",
+                    "rounded_flat": "Phẳng bo tròn",
+                    "rounded_flat_tag": "Phẳng bo tròn (Thẻ chính)",
+                    "rounded_flat_tab": "Phẳng bo tròn (Tab chính)",
+                    "rounded_flat_banner": "Phẳng bo tròn (Banner chính)",
+                    "rounded_flat_border": "Viền phẳng bo tròn",
+                    "rounded_flat_border_tag": "Viền phẳng bo tròn (Thẻ chính)",
+                    "rounded_flat_border_tab": "Viền phẳng bo tròn (Tab chính)",
+                    "rounded_flat_border_banner": "Viền phẳng bo tròn (Banner chính)"
+                }
+            },
+            "designs": {
+                "title": "Chủ đề thiết kế tùy chỉnh cho Thẻ",
+                "description": "Cung cấp danh sách quy tắc để hiển thị các chủ đề khác nhau cho các thẻ cụ thể",
+                "add": "Thêm thiết kế cho Thẻ",
+                "banner": "Chủ đề thiết kế {index} - [{isEnabled}]",
+                "is_enabled": {
+                    "enabled": "Bật",
+                    "disabled": "Tắt"
+                },
+                "header": {
+                    "theme": "Chủ đề tùy chỉnh",
+                    "color_theme": "Tùy chỉnh bảng màu mặc định"
+                },
+                "data": {
+                    "themeName": "Chọn Chủ đề",
+                    "tags": "Thẻ chính đã chọn",
+                    "tags_help": "Chọn một hoặc nhiều thẻ cho chủ đề thiết kế tùy chỉnh này",
+                    "primary_background_color": "Chỉnh màu nền chính",
+                    "primary_font_class": "Chỉnh phông chữ chính",
+                    "child_background_color": "Chỉnh màu nền phụ",
+                    "child_font_class": "Chỉnh phông chữ phụ",
+                    "outline_background_color": "Chỉnh màu viền",
+                    "secondary_font_class": "Chỉnh phông chữ thứ cấp",
+                    "unread_color": "Chỉnh màu nền chưa đọc",
+                    "opacity_background": "Mức độ trong suốt nền",
+                    "opacity_footer": "Mức độ trong suốt chân trang",
+                    "opacity_outline": "Mức độ trong suốt viền",
+                    "is_enabled": "Bật chủ đề thiết kế"
+                }
+            }
+        }
+    }
+}

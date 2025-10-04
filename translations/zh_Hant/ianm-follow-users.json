@@ -1,11 +1,11 @@
 {
-    "blomstra-gdpr": {
+    "flarum-gdpr": {
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "匯出關注的用戶詳細資訊。",
-                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "刪除已追蹤使用者的所有資料。"
+                    "export_description": "匯出關注的用戶和關注的用戶的詳細資訊。",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "刪除與以下使用者相關的所有資料。"
                 }
             }
         }
@@ -29,7 +29,8 @@
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
+                "unfollow_button": "=> ianm-follow-users.lib.unfollow",
+                "change_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
                 "notify_new_follower_label": "有人關注我",
@@ -65,7 +66,7 @@
                     "follow_select_label": "關注類型",
                     "no_user_attr_provided_err": "哎呀，打開彈窗時發生了錯誤。",
                     "no_user_attr_provided_err_debug": "創建選擇關注級別 (SelectFollowUserLevel) 彈窗時 `user` 用戶屬性傳入，因此彈窗生成失敗。",
-                    "save_btn": "保存",
+                    "save_btn": "儲存",
                     "cancel_btn": "取消"
                 }
             }
@@ -82,6 +83,7 @@
             "following_link": "我的關注",
             "follow": "關注",
             "change_follow_type": "修改關注類型",
+            "unfollow": "取消關注",
             "follow_levels": {
                 "unfollow": {
                     "name": "取消關注",
@@ -94,6 +96,17 @@
                 "lurk": {
                     "name": "特別關注",
                     "description": "接收 <em>{username}</em> 發佈新主題和回覆的所有通知。\n"
+                }
+            }
+        }
+    },
+    "blomstra-gdpr": {
+        "lib": {
+            "data": {
+                "followuser": {
+                    "export_description": "匯出關注的用戶詳細資訊。",
+                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "刪除已追蹤使用者的所有資料。"
                 }
             }
         }

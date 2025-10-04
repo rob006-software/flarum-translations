@@ -1,0 +1,76 @@
+{
+    "xypp-invite-user": {
+        "forum": {
+            "page": {
+                "title": "Davet",
+                "code": {
+                    "title": "Kullanıcı Davet Et",
+                    "code": "Davet Kodu",
+                    "url": "Davet bağlantısı"
+                },
+                "my": {
+                    "title": "Davet Eden",
+                    "code": "Davet Kodu Girin",
+                    "inviter": "Kullanıcıyı davet edenin olarak kabul ettiniz.",
+                    "accept": "Kabul Et",
+                    "no-inviter": "Bu kullanıcı herhangi bir davet eden kabul etmedi."
+                },
+                "invite": {
+                    "title": "Davet Ettiklerim",
+                    "username": "Kullanıcı Adı",
+                    "avatar": "Avatar",
+                    "empty": "Henüz kimseyi davet etmediniz.",
+                    "time": "Davet Zamanı"
+                },
+                "no_tip": "Davet eden modalını bana bir daha gösterme"
+            },
+            "confirm": {
+                "title": "Daveti Onayla",
+                "msg": "{username} kullanıcısı sizi foruma davet etti. Bu kullanıcıyı davet edeniniz olarak kabul etmek için aşağıdaki düğmeye tıklayın.",
+                "alert": "Sadece bir kullanıcıyı davet edeniniz olarak seçebilirsiniz. Bu pencereyi profil->davet kısmından kapatabilirsiniz",
+                "accept": "Kabul Et",
+                "success": "Başarılı."
+            },
+            "invite": "Davet Et",
+            "notification": {
+                "user_invited": "{username} davetinizi az önce kabul etti.",
+                "user_invited_label": "Davet Kabul Edildi"
+            },
+            "condition": {
+                "user_invite": "Kullanıcı Davet Et",
+                "user_be_invited": "Davet Edilmek"
+            }
+        },
+        "admin": {
+            "settings": {
+                "reward_invite": {
+                    "title": "Davet Ödülü",
+                    "description": "Davet edene ödül. (antoinefr/flarum-ext-money gerekli)"
+                },
+                "reward_be_invited": {
+                    "title": "Davet Edilme Ödülü",
+                    "description": "Davet edilen kullanıcıya ödül. (antoinefr/flarum-ext-money gerekli)"
+                },
+                "invite_each_other": {
+                    "title": "Birbirini Davet Etme",
+                    "description": "Kullanıcı, kendisini davet eden kullanıcıyı davet edebilir veya edemez."
+                },
+                "invite_new_user_only": {
+                    "title": "Sadece Yeni Kullanıcıları Davet Etmeye İzin Ver",
+                    "description": "Kayıt zamanı kendisinden daha az olan kullanıcıları davet etmeye izin verme."
+                }
+            },
+            "condition": {
+                "user_invite": "Kullanıcı Davet Et",
+                "user_be_invited": "Davet Edildi"
+            }
+        },
+        "api": {
+            "invited_by_user_id_is_self": "Kendinizi davet edemezsiniz.",
+            "has_already_be_invited": "Başka bir davet edeni zaten kabul ettiniz.",
+            "invited_by_user_id_is_empty": "Davet eden kullanıcı kimliği boş.",
+            "invited_each_other": "Davet ettiğiniz kullanıcı tarafından davet edilemezsiniz.",
+            "invited_an_elder_user": "Davet edenin kayıt zamanı sizinkinden daha eski."
+        }
+    }
+}

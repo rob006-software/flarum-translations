@@ -4,14 +4,32 @@
             "settings": {
                 "section_general_intro": "Основните настройки, необходими за работа на разширението.",
                 "api_key": "",
+                "api_key_reset": "",
+                "api_key_reset_confirm": "",
                 "wordpress_url": "",
-                "wordpress_username": "",
+                "default_actor": "",
+                "default_actor_placeholder_invalid": "",
+                "default_actor_placeholder_search": "",
+                "default_actor_help": "",
+                "report_http_errors": "",
+                "report_http_errors_help": "",
                 "section_sso_intro": "",
                 "enable_sso": "",
+                "login_method": "",
+                "login_method_help": "",
+                "login_method_options": {
+                    "cookie": "",
+                    "redirect": "",
+                    "iframe": ""
+                },
                 "cookie_domain": "",
                 "cookie_domain_help": "",
+                "iframe_redirect_delay": "",
+                "iframe_redirect_delay_help": "",
                 "wordpress_login_path": "",
                 "wordpress_login_path_help": "",
+                "wordpress_login_full_page": "",
+                "wordpress_login_full_page_help": "",
                 "username_strategy": "",
                 "username_strategy_options": {
                     "user_login": "",
@@ -32,6 +50,8 @@
                     "suspend": ""
                 },
                 "user_delete_desc": "",
+                "role_group_sync": "",
+                "role_group_sync_help": "",
                 "section_comments_intro": "",
                 "enable_comments": "",
                 "excerpt_html_whitelist": "",
@@ -105,6 +125,26 @@
                 "wordpress_password": "",
                 "wordpress_password_help": "",
                 "install": ""
+            },
+            "role-group-sync": {
+                "head": {
+                    "role": "",
+                    "group": ""
+                },
+                "choose": {
+                    "role": "",
+                    "group": ""
+                },
+                "custom": {
+                    "role": "",
+                    "group": ""
+                },
+                "selected-custom-group": "",
+                "delete": "",
+                "role-loader": {
+                    "loading": "",
+                    "error": ""
+                }
             }
         },
         "forum": {
@@ -114,6 +154,13 @@
                 "username": "",
                 "submit": "",
                 "not_now": ""
+            },
+            "instant-login": {
+                "welcome_known_user": "",
+                "welcome_unknown_user": "",
+                "avatar_alt_text": "",
+                "message": "",
+                "button": ""
             },
             "edit-user-modal": {
                 "warning": "",
@@ -153,13 +200,18 @@
                 "suspend-extension-required": "",
                 "cookie-domain-format": "",
                 "login-only-signup-open": "",
+                "role-group-sync-syntax": "",
+                "role-group-sync-incomplete": "",
+                "role-group-sync-invalid-group": "",
+                "role-group-sync-invalid-role": "",
                 "lock-extension-required": "",
                 "tags-extension-required": "",
                 "tag-not-exist": "",
                 "debug-mode": "",
                 "config-url-trailing-slash": "",
                 "config-url-https": "",
-                "wordpress-username-missing": "",
+                "default-actor-not-set": "",
+                "default-actor-not-found": "",
                 "api-key-missing": "",
                 "wordpress-url-missing": "",
                 "wordpress-url-invalid": "",
@@ -173,7 +225,6 @@
                 "user-id-not-admin": "",
                 "sso-mismatch-flarum": "",
                 "sso-mismatch-wordpress": "",
-                "cookie-domain-mismatch": "",
                 "comments-mismatch-flarum": "",
                 "comments-mismatch-wordpress": "",
                 "api-error-json": "",
@@ -183,11 +234,10 @@
             "wizard": {
                 "already_installed": "",
                 "api_unauthorized": "",
-                "api_error_get": "",
-                "api_error_post": "",
-                "invalid_wordpress_url": "",
-                "plugin_not_installed": ""
-            }
+                "api_error_generic": "",
+                "invalid_wordpress_url": ""
+            },
+            "sync_setting_error": ""
         },
         "views": {
             "error": {

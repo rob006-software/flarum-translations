@@ -2,16 +2,16 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Markera användaren som spammare"
             },
             "settings": {
-                "button": "",
+                "button": "Inställningar",
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
+                    "delete_user_label": "Radera användare",
+                    "delete_user_help": "Detta kommer permanent att radera användaren. När den är inaktiverad kommer användaren istället att bli suspenderad.",
+                    "delete_discussions_label": "Radera diskussioner",
+                    "delete_discussions_help": "Detta kommer permanent att radera alla diskussioner som startats av denna användare. När den är inaktiverad kommer diskussionerna istället att bli mjukraderade.",
+                    "delete_posts_label": "Radera inlägg",
                     "delete_posts_help": "",
                     "heading": "",
                     "introduction": "",

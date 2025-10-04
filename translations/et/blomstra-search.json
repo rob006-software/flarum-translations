@@ -1,18 +1,18 @@
 {
     "blomstra-search": {
         "admin": {
-            "elastic-endpoint": "",
-            "elastic-username": "",
-            "elastic-password": "",
-            "elastic-index": "",
+            "elastic-endpoint": "Elastiku lõpp-punkt",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "Indeks",
             "analyzer": {
-                "label": "",
-                "help": ""
+                "label": "Analüüsi keel",
+                "help": "Analüüside võimaldab otsingul aru saada, millal sõnad lõppevad ning võtab\nindekseerimiseks ette keelepõhised parandamised.\n"
             },
-            "search-discussion-subjects": "",
-            "search-post-bodies": "",
-            "match-sentences": "",
-            "match-words": ""
+            "search-discussion-subjects": "Otsi vestluste pealkirjadest",
+            "search-post-bodies": "Otsi kommentaaridest",
+            "match-sentences": "Otsi ainult täispikka lauset",
+            "match-words": "Otsing otsib ainult täissõnu"
         }
     }
 }

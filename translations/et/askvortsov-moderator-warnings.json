@@ -2,9 +2,9 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Loo ja eemalda moderaatori hoiatusi",
+                "view_warnings": "Vaata moderaatori hoiatusi",
+                "delete_warnings": "Kustuta jäädavalt moderaatori hoiatused"
             }
         },
         "emails": {
@@ -27,43 +27,43 @@
                 "warning_no_strikes": ""
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Hoiata kasutajat"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Moderaatori hoiatused"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Moderaator hoiatas mind"
             },
             "validation": {
-                "public_comment_required": "",
+                "public_comment_required": "Pead sisestama avaliku kommentaari.",
                 "invalid_strike_count": ""
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Eemalda",
+                "restore_button": "Taasta",
+                "delete_forever_button": "Kustuta jäädavalt"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
+                "add_button": "Uus hoiatus",
+                "no_warnings": "Näib, et siin pole mingeid hoiatusi.",
                 "warnings": "",
                 "warnings_no_strikes": ""
             },
             "warning_list_item": {
                 "list_item_heading": "",
                 "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "public_comment": "Hoiatus",
+                "private_comment": "Moderaatorile nähtavad kommentaarid",
+                "linked_post": "Lingitud postitus"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
+                "confirmation_message": "Sinu hoiatus on salvestatud. Selle nägemiseks värskenda lehekülge.",
+                "heading": "Hoiata kasutajat <strong>{username}</strong>",
                 "strikes_heading": "",
                 "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "private_comment_heading": "Miks saab kasutaja <strong>{username}</strong> neid hoiatusi? Need kommentaarid on nähtavad AINULT teistele moderaatoritele.",
+                "submit_button": "Salvesta hoiatus"
             }
         }
     }

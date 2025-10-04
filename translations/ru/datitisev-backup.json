@@ -17,6 +17,9 @@
                 "zip": "Zip архив"
             },
             "settings_button": "Конфигурировать",
+            "delete_button": "",
+            "delete_confirmation": "",
+            "create_button": "",
             "required_package_button": "Установить",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -37,6 +40,7 @@
             },
             "adapter-settings-modal": {
                 "title": "Конфигурировать {adapter}",
+                "name_label": "",
                 "local": {
                     "target": {
                         "label": "Путь назначения",
@@ -76,15 +80,13 @@
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "Ключ",
-                            "description": "Ключ доступа AWS"
-                        },
-                        "secret": {
-                            "label": "",
-                            "description": ""
-                        }
+                    "credentials-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "credentials-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "region": {
                         "label": "",
@@ -101,6 +103,12 @@
                     "path-prefix": {
                         "label": "",
                         "description": ""
+                    },
+                    "credentials": {
+                        "key": {
+                            "label": "Ключ",
+                            "description": "Ключ доступа AWS"
+                        }
                     }
                 },
                 "dropbox": {
@@ -123,15 +131,13 @@
                     }
                 },
                 "gdrive": {
-                    "client": {
-                        "id": {
-                            "label": "",
-                            "description": ""
-                        },
-                        "secret": {
-                            "label": "",
-                            "description": ""
-                        }
+                    "client-id": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "client-secret": {
+                        "label": "",
+                        "description": ""
                     },
                     "refresh-token": {
                         "label": "",
@@ -140,6 +146,10 @@
                     "folder": {
                         "label": "",
                         "description": ""
+                    },
+                    "help": {
+                        "test_success_alert": "",
+                        "test_button": ""
                     }
                 },
                 "ftp": {

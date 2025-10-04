@@ -2,15 +2,15 @@
     "fof-github-sponsors": {
         "admin": {
             "account_types": {
-                "user": "",
-                "organization": ""
+                "user": "Felhasználó",
+                "organization": "Szervezet"
             },
             "settings": {
-                "desc": "",
-                "api_token_label": "",
-                "account_type_label": "",
-                "login_label": "",
-                "group_label": ""
+                "desc": "Szerezze be az API-tokenjét a <a>https://github.com/settings/tokens/new</a> címen. A bővítményhez a <code>user</code> és a <code>read:org</code> hatókörökre van szükség.",
+                "api_token_label": "API-token",
+                "account_type_label": "Fiók típusa",
+                "login_label": "Bejelentkezés",
+                "group_label": "Hozzárendelendő csoport"
             }
         }
     }

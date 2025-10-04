@@ -2,7 +2,19 @@
     "clarkwinkelmann-emojionearea": {
         "forum": {
             "picker_button": "Bộ chọn biểu tượng cảm xúc",
-            "search_placeholder": "Tìm kiếm..."
+            "search_placeholder": "Tìm kiếm...",
+            "filters": {
+                "tones": "Đa dạng",
+                "recent": "Gần đây",
+                "smileys_people": "Biểu tượng mặt cười & Con người",
+                "animals_nature": "Động vật & Thiên nhiên",
+                "food_drink": "Đồ ăn & thức uống",
+                "activity": "Hoạt động",
+                "travel_places": "Du lịch & Địa điểm",
+                "objects": "Đồ vật",
+                "symbols": "Ký hiệu",
+                "flags": "Cờ"
+            }
         },
         "admin": {
             "settings": {
@@ -11,6 +23,7 @@
                 "enableTones": "Cho phép bật âm",
                 "filtersPosition": "Di chuyển danh mục xuống dưới cùng",
                 "searchPosition": "Di chuyển tìm kiếm và âm báo xuống dưới cùng",
+                "closeOnPick": "Đóng trình chọn khi biểu tượng cảm xúc được chọn",
                 "hideFlarumButton": "Ẩn nút chọn biểu tượng cảm xúc Flarum"
             }
         }

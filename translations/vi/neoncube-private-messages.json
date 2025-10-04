@@ -1,0 +1,65 @@
+{
+    "neoncube-private-messages": {
+        "admin": {
+            "settings": {
+                "return_key": "Phím Enter để gửi tin nhắn",
+                "return_key_help": "Cài đặt để khi nhấn phím Enter sẽ gửi tin nhắn. Nếu tắt, nhấn Enter sẽ xuống dòng mới và người dùng cần bấm nút 'Gửi tin nhắn' để gửi.",
+                "show_read_receipts": "Hiển thị trạng thái đã đọc",
+                "show_read_receipts_help": "Hiển thị dấu kiểm bên cạnh tin nhắn khi người nhận đã đọc.",
+                "sender_background_color": "Màu nền cho tin nhắn đã gửi:",
+                "recipient_background_color": "Màu nền cho tin nhắn đã nhận:",
+                "sender_text_color": "Màu chữ cho tin nhắn đã gửi:",
+                "recipient_text_color": "Màu chữ cho tin nhắn đã nhận:",
+                "enable_custom_colors": "Bật màu tùy chỉnh"
+            },
+            "permissions": {
+                "start_label": "Bắt đầu trò chuyện riêng tư",
+                "allow_users_to_receive_email_notifications": "Cho phép người dùng nhận thông báo qua email khi họ nhận được tin nhắn riêng tư"
+            }
+        },
+        "forum": {
+            "dropdown": {
+                "tooltip": "Trò chuyện"
+            },
+            "modal": {
+                "title": "Bắt đầu Trò chuyện",
+                "help": "Nhập tên người dùng để bắt đầu trò chuyện.",
+                "help_start": "Nhập tin nhắn đầu tiên của bạn. Đây sẽ là tin nhắn duy nhất bạn có thể gửi cho đến khi {username} phản hồi. Nhấp vào người dùng để chọn người nhận khác.",
+                "search_recipients": "Nhập tên người dùng...",
+                "submit": "Gửi & Bắt đầu Trò chuyện",
+                "copied": "Tin nhắn của bạn đã được sao chép vào clipboard.",
+                "more_users": "Nếu không thấy người dùng bạn cần tìm, họ chưa bật tính năng nhắn tin riêng tư.",
+                "already": "Bạn đã có cuộc trò chuyện với {username}."
+            },
+            "chat": {
+                "messages_single": "Cuộc trò chuyện mới",
+                "messages_multiple": "Tổng cộng {count} tin nhắn",
+                "chat_with": "Trò chuyện với {username}",
+                "start": "Bắt đầu Trò chuyện",
+                "start_of_conversation": "Bắt đầu cuộc trò chuyện",
+                "read": "Đã đọc",
+                "cant_start": "Không thể bắt đầu cuộc trò chuyện",
+                "text_placeholder": "Nhập tin nhắn của bạn",
+                "send": "Gửi tin nhắn",
+                "message_read": "Tin nhắn đã được đọc"
+            },
+            "notifications": {
+                "message_received": "Tin nhắn thử nghiệm",
+                "new_private_message": "Ai đó đã nhắn cho tôi",
+                "web": {
+                    "new_private_message": {
+                        "body": "Tin nhắn từ {fromUser}"
+                    }
+                },
+                "email": {
+                    "new_private_message": {
+                        "subject": "Tin nhắn từ {user}",
+                        "youHaveReceivedNewMessage": "Bạn vừa nhận được tin nhắn mới từ {user}!",
+                        "viewMessage": "Xem tin nhắn",
+                        "manageEmailSettings": "Quản lý cài đặt email"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -4,7 +4,7 @@
             "buttons": {
                 "signature": "Signature",
                 "save": "Enregistrer la signature",
-                "edit": ""
+                "edit": "Modifier la signature"
             },
             "errors": {
                 "max_char_limit_exceed": "La limite maximale de caractères a été dépassée.",
@@ -13,7 +13,7 @@
                 "max_image_height_exceed": "La limite de hauteur maximale de l'image a été dépassée."
             },
             "profile": {
-                "click": ""
+                "click": "Cliquez ici pour définir votre signature"
             },
             "modal": {
                 "loading": {
@@ -28,19 +28,23 @@
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Modifier les signatures des autres utilisateurs",
+                "allow_signature": "Peut avoir une signature"
             },
             "settings": {
                 "maximum_image_count": {
                     "description": "Maximum d'images insérées.",
-                    "help": "",
+                    "help": "Lorsque l'utilisateur dépasse le nombre maximal d'images dans sa signature, il ne peut plus enregistrer jusqu'à ce que le nombre d'images soit réduit en conséquence.",
                     "placeholder": "5 (par défaut)"
                 },
                 "maximum_char_limit": {
-                    "description": "Limite maximale de caractères de la signature (caractères uniquement, les balises HTML ne sont pas prises en compte).",
-                    "help": "",
+                    "description": "Limite maximale de caractères de la signature.",
+                    "help": "Lorsque l'utilisateur dépasse la limite maximale de caractères dans sa signature, il ne peut plus enregistrer jusqu'à ce que le nombre de caractères soit réduit en conséquence.",
                     "placeholder": "1000 (par défaut)"
+                },
+                "allow_inline_editing": {
+                    "description": "Modification en ligne de la signature.",
+                    "help": "Lorsque cette option est activée, les utilisateurs peuvent modifier leur signature lorsqu'ils consultent un message."
                 },
                 "maximum_image_width": {
                     "description": "Largeur maximale des images sur l'éditeur.",

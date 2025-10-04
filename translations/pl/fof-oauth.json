@@ -3,15 +3,20 @@
         "admin": {
             "configure_button_label": "Skonfiguruj z FoF OAuth",
             "settings_accessibility_label": "Ustawienia {name}",
+            "permissions": {
+                "moderate_user_providers": ""
+            },
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "Zaawansowane",
+                    "log-oauth-errors-label": "Loguj błędy OAuth",
+                    "log-oauth-errors-help": "Jeśli to ustawienie jest włączone, błędy OAuth będą rejestrowane w dzienniku Flarum. Może to pomóc w debugowaniu błędów OAuth, ale może również zawierać poufne informacje."
                 },
                 "only_icons_label": "Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)",
                 "update_email_from_provider_label": "Zaktualizuj adres e-mail od dostawcy",
                 "update_email_from_provider_help": "Jeśli to ustawienie jest włączone, adres e-mail użytkownika zostanie zaktualizowany przy każdym logowaniu na forum, aby pasował do adresu podanego przez dostawcę OAuth. Nie wszyscy dostawcy udostępniają zaktualizowany adres e-mail - ustawienie nie będzie miało żadnego wpływu na tych dostawców.",
+                "disable_avatars_label": "",
+                "disable_avatars_help": "",
                 "fullscreen_popup_label": "",
                 "fullscreen_popup_help": "",
                 "popup_width_label": "",
@@ -20,6 +25,9 @@
                 "popup_height_help": "",
                 "providers": {
                     "callback_url_text": "Jeśli to konieczne, ustaw adres zwrotny (callback URL) na {url}.",
+                    "group_label": "",
+                    "group_help": "",
+                    "no_group_label": "",
                     "discord": {
                         "description": "Utwórz aplikację na {link}. Dodaj URL do przekierowania w zakładce OAuth2.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -77,6 +85,7 @@
                         "label": "Powiązane konta",
                         "last-used-label": "Ostatnio używane",
                         "link-created-label": "Utworzono powiązanie",
+                        "identification-label": "",
                         "orphaned-account": "Zalogowałeś się za pomocą tej usługi w przeszłości, ale obecnie logowanie za pomocą tej metody zostało wyłączone.",
                         "help": "Te powiązane konta pozwalają Ci zalogować się na forum za pomocą zewnętrznych usług.",
                         "identifier-label": "ID {provider}",

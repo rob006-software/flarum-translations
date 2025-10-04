@@ -4,50 +4,50 @@
             "settings": {
                 "client": {
                     "title": "客户端设置",
-                    "subtitle": "在这里添加你的OpenID Connect提供商提供的客户资料。如需进一步帮助，请查看文档.\n",
-                    "id": "客户ID",
-                    "secret": "客户秘密",
-                    "enable_pkce": "启用 PCKE (推荐)",
-                    "enable_nonce": "",
-                    "http_proxy": "",
-                    "cert_path": "",
-                    "verify_ssl": "",
-                    "timeout": "",
-                    "allow_implicit_flow": "",
-                    "skip_email_verified_check": ""
+                    "subtitle": "在此填写 OpenID Connect 服务提供商提供的客户端信息。如需进一步帮助，请查看文档。\n",
+                    "id": "客户端 ID",
+                    "secret": "客户端密钥",
+                    "enable_pkce": "启用 PCKE（推荐）",
+                    "enable_nonce": "启用随机数校验（推荐）",
+                    "http_proxy": "HTTP 代理",
+                    "cert_path": "证书路径（如果是自签证书）",
+                    "verify_ssl": "SSL 证书验证",
+                    "timeout": "请求超时",
+                    "allow_implicit_flow": "使用隐式授权流程（不推荐）",
+                    "skip_email_verified_check": "跳过对电子邮件地址真实性声明的检查（例如 Casdoor 等不完全遵循标准规范的身份验证提供商，没有提供真实性验证）"
                 },
-                "callback_title": "",
-                "callback_subtitle": "",
-                "callback_logout_note": "",
+                "callback_title": "回调 URLs",
+                "callback_subtitle": "相关功能启用后，需要通过这些 URL 获取客户端认证码。请前往服务提供商获取 URL。",
+                "callback_logout_note": "仅在启用通过提供商登出选项时需要（请参见页面底部）",
                 "provider": {
-                    "title": "",
-                    "subtitle": "",
-                    "url": "",
+                    "title": "服务提供商设置",
+                    "subtitle": "在此添加你的服务提供商详情信息。如果你的服务商使用了自动识别网络，端点和其他表单可以不填。详情信息请查阅文档。\n",
+                    "url": "提供商 URL",
                     "endpoints": {
-                        "authorize": "",
-                        "token": "",
-                        "userinfo": "",
-                        "logout": "",
-                        "jwks": ""
+                        "authorize": "身份验证端点 URL",
+                        "token": "令牌端点 URL",
+                        "userinfo": "用户信息端点 URL",
+                        "logout": "退出登录端点 URL",
+                        "jwks": "JWKS 端点 URL"
                     },
-                    "issuer": "",
-                    "code_challenge_method": "",
-                    "response_type": "",
-                    "id_token_signing_alg": "",
-                    "authorization_response_iss_parameter_supported": "",
-                    "token_endpoint_auth_method": ""
+                    "issuer": "Issuer URL",
+                    "code_challenge_method": "Code Challenge 生成方法",
+                    "response_type": "授权响应类型",
+                    "id_token_signing_alg": "ID 令牌签名算法",
+                    "authorization_response_iss_parameter_supported": "授权响应支持 ISS 参数",
+                    "token_endpoint_auth_method": "令牌端点身份验证方法"
                 },
                 "other": {
-                    "title": "",
-                    "provider_name": "",
-                    "linker_claim": "",
-                    "manage_account_url": "",
-                    "manage_account_btn_open_in_new_tab": "",
-                    "sso_mode": "",
-                    "logout_from_provider": "",
-                    "remove_signup_btn": "",
-                    "sync_avatars": "",
-                    "time_drift": ""
+                    "title": "其他设置",
+                    "provider_name": "OIDC 相关按钮上要展示的提供商名称",
+                    "linker_claim": "Linker claim",
+                    "manage_account_url": "账号管理 URL",
+                    "manage_account_btn_open_in_new_tab": "在新标签页中打开账号管理页面",
+                    "sso_mode": "SSO 模式",
+                    "logout_from_provider": "从提供商处登出（开启 SSO 模式时）",
+                    "remove_signup_btn": "移除注册按钮",
+                    "sync_avatars": "同步用户头像",
+                    "time_drift": "JWT 时间漂移"
                 },
                 "provider_name": "OpenID Connect 认证服务提供方",
                 "client_settings_title": "客户设置"
@@ -55,10 +55,10 @@
         },
         "forum": {
             "buttons": {
-                "manage_account": "",
-                "login": "",
-                "connect_account": "",
-                "disconnect_account": ""
+                "manage_account": "管理账号",
+                "login": "登录 {name}",
+                "connect_account": "绑定 {name}",
+                "disconnect_account": "解绑 {name}"
             }
         }
     }

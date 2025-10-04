@@ -2,19 +2,19 @@
     "imdong-visible-to-op-only": {
         "admin": {
             "permissions": {
-                "view-post": "",
-                "view-hide-post": ""
+                "view-post": "Gönderiyi Gör",
+                "view-hide-post": "Gizli içeriği göster"
             },
             "settings": {
-                "allow-view-sticky": "",
-                "allow-view-sticky-text": ""
+                "allow-view-sticky": "Sabit Görünüme İzin ver",
+                "allow-view-sticky-text": "Yanıtı görüntülemeyi engelleyen etiketin altında, en üste gönderilen yanıt içeriğini de görebilirsiniz. Bu özellik, Stickiest & & Sticky uzantısıyla birlikte kullanılmalıdır (önemsiz)"
             }
         },
         "forum": {
-            "button_tooltip_only_op_see": "",
-            "hidden_content_only_op_see": "",
-            "only_op_see": "",
-            "editor_empty_tips": ""
+            "button_tooltip_only_op_see": "Yalnızca Tartışma Sahibine Göster",
+            "hidden_content_only_op_see": "Bu içerik yalnızca tartışma başlatıcısı tarafından görüntülenebilir",
+            "only_op_see": "Yalnızca Tartışma Sahibine Göster",
+            "editor_empty_tips": "[OP][/OP] kodunun ortası boş"
         }
     }
 }

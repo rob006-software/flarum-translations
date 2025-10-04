@@ -22,6 +22,9 @@
             "confirm": {
                 "make_public": "Tem certeza de que deseja remover os destinatários e tornar esta discussão visível para qualquer pessoa que possa visualizar a tag atribuída?"
             },
+            "hero": {
+                "title": ""
+            },
             "labels": {
                 "recipients": "{count, plural, one {{count} Destinatário} other {{count} Destinatários}}"
             },
@@ -92,6 +95,14 @@
                 "view_private_discussions-when-flagged": "Veja as discussões privadas de outros usuários, se sinalizado"
             },
             "settings": {
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "icon": {
+                    "heading": "",
+                    "help": ""
+                },
                 "badge-icon": "Distintivo de Discussão Byobu",
                 "enable-make-public-option": "Habilite a habilidade \"tornar público\"",
                 "enable-make-public-option-help": "Adiciona a capacidade para aqueles com permissão para remover todos os destinatários, atribuir uma nova tag e tornar a discussão publicamente visível (de acordo com as configurações de visibilidade da tag escolhida).",

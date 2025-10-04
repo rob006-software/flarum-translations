@@ -2,21 +2,21 @@
     "geo-weather": {
         "forum": {
             "widget": {
-                "title": ""
+                "title": "Гео погода"
             },
-            "unknown": "",
-            "temp": "",
-            "not-supported": "",
-            "wind": "",
-            "rain": "",
-            "clouds": "",
-            "humidity": ""
+            "unknown": "невідомо",
+            "temp": "0°",
+            "not-supported": "Геолокація не підтримується цим браузером.",
+            "wind": "Швидкість",
+            "rain": "Дощ",
+            "clouds": "Хмарно",
+            "humidity": "Вологість"
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "Api Key",
+            "apiKey-help": "Вставте сюди ваш безкоштовний api ключ, згенерований на https://openweathermap.org/api",
+            "lang": "Оберіть мову виводу (тільки 1 префікс)",
+            "lang-help": "у цьому полі вказується префікс вашої мови (наприклад, it, fr, en), перевірте свій на <strong>https://openweathermap.org/api/one-call-api#multi</strong>"
         }
     }
 }

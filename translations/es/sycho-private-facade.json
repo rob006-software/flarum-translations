@@ -2,28 +2,29 @@
     "sycho-private-facade": {
         "admin": {
             "settings": {
-                "force_redirect": "",
+                "force_redirect": "Forzar la redirección de invitados a la interfaz de inicio de sesión/registro",
                 "header_layout": {
                     "options": {
-                        "show_header": "",
-                        "show_only_logo": "",
-                        "hide_secondary_items": ""
+                        "show_header": "Mostrar cabecera",
+                        "show_only_logo": "Mostrar solo el logo",
+                        "hide_secondary_items": "Ocultar elementos secundarios (enlaces de búsqueda, inicio de sesión y registro)"
                     },
-                    "title": ""
+                    "title": "Diseño de la cabecera"
                 },
-                "illustration_path": "",
-                "primary_color_bg": "",
-                "route_exclusions": "",
-                "screen_banner_description": "",
-                "screen_banner_heading": "",
-                "screen_banner_title": "",
-                "use_welcome_hero_text": ""
+                "illustration_path": "Imagen ilustrativa",
+                "primary_color_bg": "Utilice un fondo de color primario",
+                "route_exclusions": "Rutas a excluir de la redirección a la página de inicio de sesión/registro.",
+                "url_exclusions": "URLs a excluir de la redirección a la página de inicio de sesión/registro.",
+                "screen_banner_description": "Mensaje en pantalla",
+                "screen_banner_heading": "Banner de la pantalla",
+                "screen_banner_title": "Título de la pantalla",
+                "use_welcome_hero_text": "Utilice un texto de bienvenida"
             }
         },
         "forum": {
-            "log_in_label": "",
-            "or_label": "",
-            "sign_up_label": ""
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "o",
+            "sign_up_label": "=> core.ref.sign_up"
         }
     }
 }

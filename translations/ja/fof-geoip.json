@@ -1,8 +1,18 @@
 {
     "fof-geoip": {
         "admin": {
+            "permissions": {
+                "see_country": ""
+            },
             "settings": {
-                "title": "FoF GeoIP",
+                "general": {
+                    "heading": "",
+                    "help": ""
+                },
+                "providers": {
+                    "heading": "",
+                    "help": ""
+                },
                 "service_label": "サービス",
                 "service_ipdata_label": "IPData",
                 "service_ipdata_description": "<b>https://ipdata.co</b>，1 日あたり 1,500 件の無料お問い合わせ。",
@@ -12,8 +22,13 @@
                 "service_ipapi-pro_description": "",
                 "service_iplocation_label": "",
                 "service_iplocation_description": "",
+                "service_ipsevenex_label": "",
+                "service_ipsevenex_description": "",
                 "access_key_label": "Access Key",
                 "quota_label": "",
+                "show_flag_label": "",
+                "show_flag_help": "",
+                "title": "FoF GeoIP",
                 "service_ipstack_label": "IPStack",
                 "service_ipstack_description": "<b>https://ipstack.com</b>，1 か月あたり 10,000 件の無料クエリ。 支払い計画には、接続情報（ISP、組織）および脅威レベルが含まれます。",
                 "security_label": "セキュリティモジュール（professional plus が必要）",
@@ -25,6 +40,7 @@
             "alerts": {
                 "ip_copied": "コピーされた IP アドレス"
             },
+            "copy_ip_label": "",
             "map_button_label": "",
             "map_modal": {
                 "title": "",
@@ -37,7 +53,21 @@
                 "organization": "",
                 "threat_level": "",
                 "threat_types": "",
-                "error": ""
+                "error": "",
+                "not_enough_data": ""
+            },
+            "user": {
+                "settings": {
+                    "ip_country": ""
+                }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "showIPCountry": "",
+                "showIPCountry-help": ""
             }
         }
     }

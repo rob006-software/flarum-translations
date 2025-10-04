@@ -2,13 +2,18 @@
     "afrux-online-users-widget": {
         "admin": {
             "settings": {
-                "max_users": ""
+                "cache_ttl": "",
+                "last_seen_interval": "",
+                "max_users": "Maksimālais rādāmo lietotāju skaits"
+            },
+            "permissions": {
+                "view_online_users_widget": ""
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "Tiešsaistes lietotāji",
+                "empty": "Pašlaik tiešsaistē nav neviena lietotāja."
             }
         }
     }

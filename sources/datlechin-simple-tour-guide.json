@@ -5,7 +5,12 @@
                 "show_progress_label": "Show progress",
                 "show_progress_help": "This will show the current step and total steps at the top of the popover.",
                 "allow_close_label": "Allow close",
-                "allow_close_help": "Allow users closing the popover by click on the backdrop."
+                "allow_close_help": "Allow users closing the popover by click on the backdrop.",
+                "skip_null_elements_label": "Skip null elements",
+                "skip_null_elements_help": "Skip steps whose target matches no HTML element. You can use this to target languages with 'html[lang=\"es\"] my-selector'. This also hides Prev button for coherence, and you should hide progress."
+            },
+            "permissions": {
+                "reset_tour_guide": "Reset tour guide"
             },
             "edit_modal": {
                 "edit_step": "Edit {title}",
@@ -13,18 +18,26 @@
                 "delete_step": "Delete step",
                 "delete_step_confirmation": "Are you sure you want to delete this step?"
             },
+            "add_step": "Add new step",
             "title": "Title",
             "title_placeholder": "The title of the step.",
             "description": "Description",
             "description_placeholder": "The description of the step.",
             "target": "Target",
-            "target_placeholder": "The target element of the step (e.g. #element-id)."
+            "target_placeholder": "The target element of the step (e.g. #element-id).",
+            "trigger_click": "Trigger click",
+            "yes": "Yes",
+            "no": "No"
         },
         "forum": {
             "progress_text": "{current} of {total}",
             "next_btn_text": "Next",
             "prev_btn_text": "Prev",
-            "done_btn_text": "Done"
+            "done_btn_text": "Done",
+            "user_controls": {
+                "reset_tour_guide": "Start tour again",
+                "reset_tour_guide_confirmation": "Are you sure you want to force this user to start the tour again?"
+            }
         }
     }
 }

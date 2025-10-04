@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "Karogu ziņas",
+                "view_flags_label": "Skatīt atzīmētās ziņas"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "Ļaujiet lietotājiem atzīmēt savas ziņas",
+                "guidelines_url_label": "Kopienas vadlīniju URL",
+                "title": "Karogu iestatījumi"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
-                "submit_button": "",
-                "title": ""
+                "confirmation_message": "Paldies, ka atzīmējāt šo ziņu kā nepiemērotu. Mūsu moderatori to izskatīs.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Papildinformācija (pēc izvēles)",
+                "reason_inappropriate_label": "Nepiemērots",
+                "reason_inappropriate_text": "Šī ziņa ir aizskaroša, aizskaroša vai pārkāpj mūsu <a>kopienas vadlīnijas</a>.",
+                "reason_missing_message": "Lūdzu, sniedziet mūsu moderatoriem sīkāku informāciju.",
+                "reason_off_topic_label": "Ne par tēmu",
+                "reason_off_topic_text": "Šis ieraksts neattiecas uz pašreizējo diskusiju, un tas ir jāpārvieto citur.",
+                "reason_other_label": "Cita (lūdzu, norādiet)",
+                "reason_spam_label": "Spams",
+                "reason_spam_text": "Šis ieraksts ir reklāma.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
-                "title": "",
-                "tooltip": ""
+                "empty_text": "Nav karogu",
+                "item_text": "{username} sadaļā <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "Noraidīt karogu",
+                "flagged_by_text": "Atzīmēja ar karodziņu: {username}",
+                "flagged_by_with_reason_text": "{username} atzīmēja kā {reason}"
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "Karogs"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "Karoga ziņa",
+            "flagged_posts": "Atzīmētās ziņas"
         }
     }
 }

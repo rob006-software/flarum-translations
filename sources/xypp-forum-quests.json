@@ -1,0 +1,73 @@
+{
+    "xypp-forum-quests": {
+        "forum": {
+            "reward_not_found": "Reward {reward} not found",
+            "condition_not_found": "Condition {condition} not found",
+            "notification": {
+                "quest_done": "You have just done quest {name}!",
+                "quest_done_label": "Quest Done"
+            },
+            "quest": {
+                "quest": "Quest",
+                "load_more": "Load More",
+                "done": "[Done]"
+            },
+            "re_available": {
+                "none": "Only Once",
+                "day": "Re-Available pre {value} days",
+                "hour": "Re-Available after {value} hours"
+            },
+            "condition_view": {
+                "button": "View Condition",
+                "title": "Condition View",
+                "name": "Name",
+                "value": "Value",
+                "span": "In Span",
+                "set_span": "Set Span"
+            },
+            "quest_done": {
+                "all": "All",
+                "true": "Done",
+                "false": "Not"
+            }
+        },
+        "admin": {
+            "settings": "Settings",
+            "timezone": "Timezone",
+            "allow_update": "Allow user update manually",
+            "data": "Data",
+            "table": {
+                "id": "#",
+                "name": "Name",
+                "description": "Description",
+                "operation": "Operate",
+                "load_more": "Load More",
+                "remove_confirm": "Are you sure to remove this quest?",
+                "create": "Create"
+            },
+            "create-modal": {
+                "title": "Create Quest",
+                "edit": "Edit Quest",
+                "name": "Name",
+                "description": "Description",
+                "icon": "Icon",
+                "hidden": "Hidden",
+                "condition": "Condition",
+                "reward": "Reward",
+                "button": "Create",
+                "button-edit": "Edit",
+                "new_item": "New Item",
+                "re_available": "Re-available"
+            },
+            "re_available": {
+                "none": "Once",
+                "day": "Pre X days",
+                "hour": "After X hours"
+            }
+        },
+        "api": {
+            "no_manual_update": "No manual update needed",
+            "manual_condition_cannot_hidden": "Manual condition cannot be used in hidden tasks:{condition}"
+        }
+    }
+}

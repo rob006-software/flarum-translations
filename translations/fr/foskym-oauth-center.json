@@ -7,13 +7,17 @@
             "page": {
                 "index": "accueil",
                 "clients": "Gérer les clients",
-                "scopes": "Gérer les champs d'application"
+                "scopes": "Gérer les champs d'application",
+                "tokens": "Gérer les jetons"
             },
             "settings": {
+                "display_mode": "Mode d'affichage",
                 "access_lifetime": "Durée de vie du jeton d'accès (en secondes)",
                 "allow_implicit": "Autoriser l'octroi implicite (response_type=token)",
                 "enforce_state": "Renforcer la validation de l'état (paramètre d'état)",
-                "require_exact_redirect_uri": "Exiger un URI de redirection exact"
+                "require_exact_redirect_uri": "Exiger un URI de redirection exact",
+                "authorization_method_fetch": "Méthode d'autorisation de Fetch (ne redirige pas directement vers ce service)",
+                "allow_delete_records": "Autoriser la suppression des enregistrements d'autorisation"
             },
             "clients": {
                 "client_id": "Identifiant du client",
@@ -25,7 +29,8 @@
                 "client_desc": "Description",
                 "client_icon": "Icône",
                 "client_home": "Page d'accueil",
-                "add_button": "Ajouter un client"
+                "add_button": "Ajouter un client",
+                "edit_client": "Modifier le client"
             },
             "scopes": {
                 "scope": "Champ d'application",
@@ -35,7 +40,18 @@
                 "scope_name": "Nom",
                 "scope_icon": "Icône",
                 "scope_desc": "Description",
-                "add_button": "Ajouter un champ d'application"
+                "visible_fields": "Champs visibles",
+                "add_button": "Ajouter un champ d'application",
+                "edit_scope": "Modifier le champ d'application"
+            },
+            "tokens": {
+                "add_token": "Ajouter un jeton",
+                "delete_token": "Supprimer le jeton"
+            },
+            "action": {
+                "delete_all_records_button": "Supprimer tous les enregistrements",
+                "delete_all_records_confirm": "Confirmer la suppression de tous les enregistrements",
+                "delete_all_records_success": "Suppression de tous les enregistrements"
             }
         },
         "forum": {
@@ -48,9 +64,18 @@
                 }
             },
             "authorize": {
+                "require_these_scopes": "Rendre obligatoire ces champs d'application",
                 "access": "Accès à",
                 "agree": "Accorder",
                 "deny": "Refuser"
+            },
+            "authorized": {
+                "no_records": "Aucun enregistrement",
+                "no_more_records": "Il n'y a plus d'enregistrements",
+                "load_more": "Charger plus",
+                "delete_button": "Supprimer ce journal",
+                "delete_all_button": "Supprimer tous les journaux",
+                "delete_all_confirm": "Confirmer la suppression de tous les journaux"
             }
         }
     }

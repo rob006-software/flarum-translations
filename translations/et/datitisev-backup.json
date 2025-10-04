@@ -2,188 +2,192 @@
     "datitisev-backup": {
         "admin": {
             "adapters": {
-                "local": "",
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": "",
-                "zip": ""
+                "local": "Kohalik salvestusruum",
+                "aliyun": "Alibaba Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "ZIP-arhiiv"
             },
-            "settings_button": "",
-            "required_package_button": "",
+            "settings_button": "Seadista",
+            "delete_button": "Kustuta",
+            "delete_confirmation": "Oled sa kindel, et soovid kustutada \"{name}\" ({adapter})?",
+            "create_button": "Lisa uus adapter",
+            "required_package_button": "Seadista",
             "you-need-for": {
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "copy": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
-                "content": ""
+                "title": "{adapter} jaoks on vaja pakki",
+                "content": "Selle draiveri kasutamiseks pead installima ühe konkreetse paketi. Saad seda teha käivitades oma Flarumi peakaustas järgneva composeri käsu: <code>composer require {package}</code>.\n"
             },
             "adapter-settings-modal": {
-                "title": "",
+                "title": "Seadista {adapter}",
+                "name_label": "Asukoha nimi",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "Sihtkoht",
+                        "description": "Määra kohalik kaust, kuhu varukoopiad salvestada."
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Lõpp-punkt",
+                        "description": "Sinu salvestuskoha URL-i lõpp-punkt."
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Ligipääsu ID",
+                        "description": "Sinu autentimise ligipääsukoodi ID"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Ligipääsu võti",
+                        "description": "Sinu autentimise ligipääsukoodi võti"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Korv",
+                        "description": "Säilituskorv on kasutuses."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Asukoha eesliide",
+                        "description": "Valikuline vaikimisi failide eesliide."
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Lõpp-punkt",
+                        "description": "Sinu salvestuskoha lõpp-punkti URL."
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Konteiner",
+                        "description": "Azure konteiner"
                     }
                 },
                 "aws": {
-                    "credentials": {
-                        "key": {
-                            "label": "",
-                            "description": ""
-                        },
-                        "secret": {
-                            "label": "",
-                            "description": ""
-                        }
+                    "credentials-key": {
+                        "label": "Võti",
+                        "description": "AWS kasutajaandmete võti"
+                    },
+                    "credentials-secret": {
+                        "label": "Salasõna",
+                        "description": "AWS kasutajaandmete salasõna"
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "Piirkond",
+                        "description": "Sinu korvi piirkond."
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "Versioon",
+                        "description": "Määra versioon või jäta tühjaks, et kasutada kõige viimast."
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Korv",
+                        "description": "S3 korv, kuhu üles laadida."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Asukoha eesliide",
+                        "description": "Failide asukoha vaikimisi eesliide."
                     }
                 },
                 "dropbox": {
                     "key": {
-                        "label": ""
+                        "label": "Rakenduse võti"
                     },
                     "secret": {
-                        "label": ""
+                        "label": "Rakenduse salasõna"
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Värskenda kontrollkoodi",
+                        "description": "Kasuta allolevaid väljasid, et hankida värskendamise kood või tee seda käsitsi järgides juhendeid lingil https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
-                        "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
-                        "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
-                        "obtain-refresh-token-success": ""
+                        "obtain-access-code-label": "Hangi ligipääsukood (nõuab rakenduse võtit)",
+                        "obtain-access-code-button": "Ava Dropbox",
+                        "obtain-refresh-token-label": "Kasuta ligipääsukoodi, et hankida värskendamise kood (nõuab rakenduse võtit ja salasõna)",
+                        "obtain-refresh-token-button": "Kasuta koodi",
+                        "obtain-refresh-token-success": "Värskendamise kood on hangitud ja uuendatud! Salvesta, et info jääks alles."
                     }
                 },
                 "gdrive": {
-                    "client": {
-                        "id": {
-                            "label": "",
-                            "description": ""
-                        },
-                        "secret": {
-                            "label": "",
-                            "description": ""
-                        }
+                    "client-id": {
+                        "label": "Kliendi ID",
+                        "description": "Järgi juhendeid lingil https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md et luua Google projekt ja saada oma kliendi ID ja kliendi salasõna.\n"
+                    },
+                    "client-secret": {
+                        "label": "Kliendi salasõna",
+                        "description": " "
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Värskenda kontrollkoodi",
+                        "description": "Järgi juhendeid lingil https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md et saada ligipääsukood oma Google oAuth rakenduse jaoks.\n"
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kausta ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "help": {
+                        "test_success_alert": "Ühendus Google Drive-iga on loodud. Salvesta muudatused, et näha salvestamise seadeid.",
+                        "test_button": "Kontrolli ühendust"
                     }
                 },
                 "ftp": {
                     "host": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kaugarvuti nimi",
+                        "description": "FTP hostinimi, nt: <em>ftp.sinudomeen.ee</em>."
                     },
                     "username": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kasutajanimi",
+                        "description": "FTP serveri kasutajanimi."
                     },
                     "password": {
-                        "label": "",
-                        "description": ""
+                        "label": "Parool",
+                        "description": "FTP serveri parool."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Privaatne võti",
+                        "description": "Privaatse võtme asukoht (eelistatavalt täispikkuses). Seda kasutatakse FTP ühenduse autentimisel."
                     },
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Port",
+                        "description": "FTP port (vaikeväärtus on 21)."
                     },
                     "root": {
-                        "label": "",
-                        "description": ""
+                        "label": "Peakaust",
+                        "description": "Kaugkausta peakaust (alamkaust), kuhu varukoopiaid salvestada."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Passiivne ühendus",
+                        "description": "Kas kasutada passiivset FTP ühendust serveriga."
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "Kas kasutada krüpteeritud SSL ühendust serveriga."
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "Aegumine",
+                        "description": "Mitu sekundit oodata FTP serveriga ühenduse loomiseks."
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "Varukoopia",
+                "description": "Säilita koopiaid oma foorumist."
             }
         }
     }

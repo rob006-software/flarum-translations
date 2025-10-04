@@ -3,7 +3,7 @@
         "admin": {
             "permission": {
                 "view": "",
-                "editOwn": "",
+                "editOwn": "Editar a sua própria biografia",
                 "editAny": ""
             },
             "setting": {
@@ -15,7 +15,13 @@
         },
         "forum": {
             "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": ""
+            "userbioPlaceholderOtherUser": "",
+            "profile": {
+                "cancel_confirm": "",
+                "cancel_button": "",
+                "save_button": "",
+                "edit_bio_label": ""
+            }
         }
     }
 }

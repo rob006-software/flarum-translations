@@ -61,5 +61,15 @@
                 }
             }
         }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "drafts": {
+                    "export_description": "Kaikki käyttäjän luomat luonnokset.",
+                    "delete_description": "Poista kaikki käyttäjän luomat luonnokset."
+                }
+            }
+        }
     }
 }

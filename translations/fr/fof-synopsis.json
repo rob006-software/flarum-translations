@@ -1,0 +1,36 @@
+{
+    "fof-synopsis": {
+        "admin": {
+            "settings": {
+                "disable-when-searching": {
+                    "label": "Désactiver le synopsis lors de la recherche",
+                    "help": "Lorsque cette option est activée, l'extrait du message le plus pertinent par défaut est utilisé à la place du synopsis"
+                },
+                "excerpt-length": {
+                    "label": "Longueur de l'extrait de résumé en nombre de caractères",
+                    "help": "Combien de caractères doivent être affichés dans le message."
+                },
+                "rich-excerpts": {
+                    "label": "Afficher des extraits à l'aide d'un contenu riche",
+                    "help": "Lorsque cette option est activée, des images, des éléments intégrés et d'autres éléments non textuels peuvent être inclus dans le synopsis"
+                },
+                "excerpt-type": {
+                    "label": "Quel message doit être affiché comme extrait ?",
+                    "help": "Sélectionnez si le premier ou le dernier message doit être utilisé pour le contenu du synopsis"
+                },
+                "first-label": "Premier message",
+                "last-label": "Dernier message",
+                "tags-enabled": "Vous avez activé <code>flarum/tags</code>. Ces paramètres deviendront ceux par défaut, à moins que les étiquettes individuelles n'aient leur propre paramètre."
+            }
+        },
+        "forum": {
+            "user": {
+                "settings": {
+                    "summaries-heading": "Synopsis",
+                    "show-summaries": "Afficher un extrait de chaque discussion dans les listes des discussions (ordinateur de bureau et tablette)",
+                    "show-summaries-mobile": "Afficher un extrait de chaque discussion dans les listes des discussions (mobile)"
+                }
+            }
+        }
+    }
+}

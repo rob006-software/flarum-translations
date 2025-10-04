@@ -2,24 +2,26 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "Estolista",
-                "blacklist_help": "Syötä pilkuilla eroteltu lista domaineista tai osoitteista, jotka estetään linkin esikatselusta.",
-                "blacklist_placeholder": "esim. facebook.com,https://domain.fi/polku",
-                "whitelist_label": "Sallittujen lista",
-                "whitelist_help": "yötä pilkuilla eroteltu lista domaineista tai osoitteista, jotka sallitaan linkin esikatselussa.",
-                "whitelist_placeholder": "esim. facebook.com,https://domain.fi/polku",
-                "convert_media_urls_label": "Muunna mediat osoitteiksi",
-                "convert_media_urls_help": "Jos käytössä niin tämä muuntaa median osoitteet linkin esikatseluiksi.",
-                "use_google_favicons_label": "Käytä Google Favicon rajapintaa",
-                "use_google_favicons_help": "Jos käytössä käyttää Googlen palveluita hakeakseen sivuston kuvakkeen.",
-                "cache_time_label": "Välimuistin aika",
-                "cache_time_help": "Aika miten pitkään haetut linkit pysyvät välimuistissa ennen kuin ne haetaan uudelleen. Aseta 0 ottaaksesi pois käytöstä. Oletuksena 60 minuuttia ellei ole muuta asetettuna.",
+                "enable_batch_requests_label": "Ota eräajojen käsittely käyttöön",
+                "enable_batch_requests_help": "Paranna suorituskykyä käsittelemällä useita linkin esikatseluja samanaikaisesti. Kun tämä on poistettu käytöstä, linkit käsitellään yksi kerrallaan.",
+                "blacklist_label": "Domainien estolista",
+                "blacklist_help": "Määritä verkkotunnukset tai URL-osoitteet, jotka eivät saa luoda linkin esikatseluja. Käytä pilkkuja erottamaan useita merkintöjä.",
+                "blacklist_placeholder": "Esimerkkejä: facebook.com,twitter.com/sivu",
+                "whitelist_label": "Domainien sallittujen lista",
+                "whitelist_help": "Luo esikatseluja vain näille verkkotunnuksille tai URL-osoitteille. Jätä tyhjäksi, jos haluat sallia kaikki ei-mustalistatut verkkotunnukset.",
+                "whitelist_placeholder": "Esimerkkejä: luotettu-sivu.com,tietty-domain.org/polku",
+                "convert_media_urls_label": "Esikatele medioiden URLit",
+                "convert_media_urls_help": "Luo esikatseluja URL-osoitteille, jotka viittaavat mediasisältöihin (kuvat, videot jne.).",
+                "use_google_favicons_label": "Näytä sivuston ikonit",
+                "use_google_favicons_help": "Näytä verkkosivuston faviconit käyttäen Googlen Favicon-palvelua parantaaksesi visuaalista tunnistettavuutta.",
+                "cache_time_label": "Välimuistin kesto (minuutteina)",
+                "cache_time_help": "Kuinka kauan linkin esikatseluja säilytetään ennen päivitystä. Aseta arvoksi 0 poistaaksesi välimuistin käytön. Oletus: 60 minuuttia.",
                 "open_links_in_new_tab_label": "Avaa linkit uuteen välilehteen",
-                "open_links_in_new_tab_help": "Jos käytössä, linkit avataan uuteen välilehteen."
+                "open_links_in_new_tab_help": "Avaa aina linkit uuteen selaimen välilehteen."
             }
         },
         "forum": {
-            "site_cannot_be_reached": "Sivustoa ei saavutettu."
+            "site_cannot_be_reached": "Esikatselua ei saatu ladattua. Tarkista osoite ja yritä uudelleen."
         }
     }
 }

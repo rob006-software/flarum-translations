@@ -6,29 +6,30 @@
                 "secret_key_label": "Mã khoá bí mật",
                 "site_key_label": "Mã khoá trang",
                 "type_label": "Loại reCAPTCHA",
-                "type_help": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "type_help": "Tiện ích mở rộng này chỉ hỗ trợ reCAPTCHA v2. Loại được chọn phải phù hợp với loại thông tin đăng nhập reCAPTCHA của bạn.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "Kiểm tra reCAPTCHA",
+                "help_text": "Bài kiểm tra này sẽ sử dụng các giá trị hiện tại đã nhập ở trên. Hãy chắc chắn tải lại bài kiểm tra sau khi thay đổi cài đặt, và đừng quên lưu sau khi bài kiểm tra thành công!\nBên dưới có thể không phản ánh các cài đặt đã lưu.\n",
+                "success_message": "Thành công! reCAPTCHA đã được cấu hình chính xác.",
+                "load_test_button": "Tải",
+                "submit_button": "Đồng ý",
+                "reload_button": "Tải lại"
             },
             "permissions": {
                 "post_without_captcha": "Tạo bài viết và cuộc thảo luận không có captcha"
             }
         },
         "forum": {
-            "error": "Đã xảy ra lỗi khi gửi reCAPTCHA. Thử lại."
+            "error": "Đã xảy ra lỗi khi gửi reCAPTCHA. Thử lại.",
+            "unknown_error": "Đã xảy ra lỗi không xác định. Kiểm tra captcha và thử lại."
         }
     },
     "validation": {
         "recaptcha": "Xác thực reCAPTCHA không thành công.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "Đã xảy ra lỗi không xác định khi xác thực reCAPTCHA ({errors})."
     }
 }

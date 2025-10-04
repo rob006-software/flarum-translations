@@ -5,15 +5,15 @@
                 "can_bypass_like": "Beğenmeden görebilir",
                 "can_bypass_reply": "Yanıtlamadan görebilir",
                 "can_bypass_login": "Giriş yapmadan geçebilir",
-                "can_use_bbcode": ""
+                "can_use_bbcode": "BB Kodunu kullanabilir"
             },
             "settings": {
-                "enabled": "",
+                "enabled": "Etkinleştirilmiş",
                 "hide_only_first_post": "Yalnızca ilk gönderiyi gizle",
                 "require_like": "Beğenmesi gerekir",
                 "require_reply": "Yanıtlaması gerekir",
                 "fof_upload": {
-                    "enabled": "",
+                    "enabled": "Etkinleştirilmiş",
                     "section_title": "FoF Upload",
                     "require_reply": "Cevap gerektirir",
                     "require_like": "Beğeni gerektirir",
@@ -27,23 +27,23 @@
         },
         "forum": {
             "post": {
-                "login_tooltip": "",
-                "reply_tooltip": "",
-                "like_tooltip": "",
+                "login_tooltip": "İçeriği görmek için giriş yapmalısınız",
+                "reply_tooltip": "İçeriği görmek için tartışmaya cevap vermelisiniz",
+                "like_tooltip": "İçeriği görmek için gönderiyi beğenmelisiniz",
                 "fof_upload": {
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "login_text": "Dosyayı görmek için giriş yapmalısınız",
+                    "reply_text": "Dosyayı görmek için tartışmaya cevap vermelisiniz",
+                    "like_text": "Dosyayı görmek için gönderiyi beğenmelisiniz"
                 },
                 "bbcode": {
-                    "hidden_content": "",
-                    "login_text": "",
-                    "reply_text": "",
-                    "like_text": ""
+                    "hidden_content": "Gizli İçerik",
+                    "login_text": "Bu içeriği görmek için giriş yapmalısınız",
+                    "reply_text": "Bu içeriği görmek için tartışmaya cevap vermelisiniz",
+                    "like_text": "Bu içeriği görmek için gönderiyi beğenmeniz gerekir"
                 }
             },
             "composer": {
-                "dsts_tooltip": ""
+                "dsts_tooltip": "DSTS"
             },
             "like": "İçeriği görebilmek için gönderiyi beğenmelisin.",
             "login": "İçeriği görebilmek için giriş yapmalısın.",

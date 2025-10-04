@@ -3,7 +3,7 @@
         "admin": {
             "cache_not_writable_warning": "Cache saat ini tidak dapat ditulis, ini akan mencegah widget tertentu bekerja. Harap perbaiki izin direktori penyimpanan Anda.",
             "settings": {
-                "prefer_data_with_initial_load": "Mengutamakan untuk menampilkan semua data widget dengan respons halaman awal.",
+                "prefer_data_with_initial_load": "Mengutamakan pemuatan semua data widget dengan respons halaman awal.",
                 "prefer_data_with_initial_load_help": "Alih-alih menampilkan data widget setelah pemuatan halaman awal dengan mengirimkan API request, data akan dimuat (jika memungkinkan) dengan pemuatan halaman awal."
             }
         }

@@ -2,67 +2,67 @@
     "fof-webhooks": {
         "actions": {
             "poll": {
-                "voted": "",
-                "created": ""
+                "voted": "Проголосували в опитуванні `{1}`",
+                "created": "Створено опитування `{1}`"
             },
             "post": {
-                "reacted": "",
-                "unreacted": "",
-                "upvoted": "",
-                "downvoted": ""
+                "reacted": "Відреагували на повідомлення з `{1}`",
+                "unreacted": "Видалили їхню реакцію з допису",
+                "upvoted": "Проголосував за допис",
+                "downvoted": "Проголосували проти допису"
             },
             "user": {
-                "enabled2fa": ""
+                "enabled2fa": "Увімкнено 2FA"
             },
             "extension": {
-                "installed": "",
-                "updated": ""
+                "installed": "Встановлено розширення `{1}`",
+                "updated": "Оновлене розширення `{1}`"
             },
             "ip": {
-                "banned": "",
-                "unbanned": ""
+                "banned": "IP заборонено `{1}`",
+                "unbanned": "IP розблоковано `{1}`"
             }
         },
         "admin": {
             "settings": {
                 "services": {
-                    "custom": ""
+                    "custom": "Користувацький"
                 },
                 "actions": {
                     "extiverse": {
                         "bazaar": {
-                            "title": "",
-                            "extensionwasinstalled": "",
-                            "extensionwasupdated": ""
+                            "title": "Extiverse Bazaar",
+                            "extensionwasinstalled": "Розширення встановлено",
+                            "extensionwasupdated": "Розширення оновлено"
                         }
                     },
                     "fof": {
                         "banips": {
-                            "title": "",
-                            "ipwasbanned": "",
-                            "ipwasunbanned": ""
+                            "title": "FriendsOfFlarum Ban IPs",
+                            "ipwasbanned": "Заборонено",
+                            "ipwasunbanned": "Дозволено"
                         },
                         "byobu": {
-                            "title": "",
-                            "discussionmadepublic": ""
+                            "title": "FriendsOfFlarum Byobu",
+                            "discussionmadepublic": "Дискусію оприлюднено"
                         },
                         "gamification": {
-                            "title": "",
-                            "postwasvoted": ""
+                            "title": "FriendsOfFlarum Gamification",
+                            "postwasvoted": "Проголосували/не проголосували за допис"
                         },
                         "polls": {
-                            "title": "",
-                            "pollwasvoted": "",
-                            "pollwascreated": ""
+                            "title": "FriendsOfFlarum Polls",
+                            "pollwasvoted": "Проголосували",
+                            "pollwascreated": "Створено"
                         },
                         "reactions": {
-                            "title": "",
-                            "postwasreacted": "",
-                            "postwasunreacted": ""
+                            "title": "FriendsOfFlarum Reactions",
+                            "postwasreacted": "Відреагували на допис",
+                            "postwasunreacted": "Допис без реакції"
                         },
                         "twofactor": {
-                            "title": "",
-                            "userenabledtwofactor": ""
+                            "title": "FriendsOfFlarum Two Factor",
+                            "userenabledtwofactor": "Користувач дозволив 2FA"
                         }
                     }
                 }

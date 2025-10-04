@@ -26,10 +26,10 @@
                 "meilisearchHost": "Meilisearch Host",
                 "meilisearchKey": "Meilisearch Key",
                 "tntsearchMaxDocs": "TNT Search Max Docs (opsional, jumlah hasil maksimum)",
-                "tntsearchFuzziness": "",
-                "tntsearchFuzzyDistance": "",
-                "tntsearchFuzzyPrefixLength": "",
-                "tntsearchFuzzyMaxExpansions": ""
+                "tntsearchFuzziness": "TNT Search Fuzziness (kesalahan pengetikan/variasi pencocokan)",
+                "tntsearchFuzzyDistance": "TNT Search Fuzziness Levenshtein Distance (opsional)",
+                "tntsearchFuzzyPrefixLength": "TNT Search Fuzziness Prefix Length (opsional)",
+                "tntsearchFuzzyMaxExpansions": "TNT Search Fuzziness Max Expansions (opsional)"
             }
         }
     }

@@ -1,0 +1,30 @@
+{
+    "nearata-maintenance-mode": {
+        "admin": {
+            "dashboard": {
+                "maintenance_widget": {
+                    "title": "Huoltotila aktiivinen",
+                    "detail": "Huollon ollessa käynnissä vain sallitut käyttäjät pääsee foorumille."
+                }
+            },
+            "permissions": {
+                "bypass": "Voi ohittaa huoltotilan"
+            },
+            "settings": {
+                "maintenance_mode_enabled": {
+                    "label": "Huoltotila"
+                }
+            }
+        },
+        "views": {
+            "default": {
+                "title": "Huolto",
+                "header": "Sivustoa huolletaan parhaillaan.",
+                "body": "<p>Suoritamme parhaillaan huolto toimenpiteitä. Tule takaisin hieman myöhemmin.</p>\n"
+            }
+        },
+        "api": {
+            "title": "Huolto käynnissä. Tule takaisin myöhemmin."
+        }
+    }
+}

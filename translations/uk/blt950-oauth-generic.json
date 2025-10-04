@@ -1,0 +1,38 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "generic": {
+                        "description": "Налаштуйте логін на основі вашого власного провайдера OAuth2.",
+                        "client_id_label": "ID клієнта",
+                        "client_secret_label": "Секретний код клієнта",
+                        "scopes_label": "Область застосування",
+                        "authorization_endpoint_label": "Кінцева точка авторизації",
+                        "token_endpoint_label": "Токен кінцевої точки",
+                        "user_information_endpoint_label": "Кінцева точка з інформацією про користувача",
+                        "id_parameter_label": "Параметр ідентифікатора користувача",
+                        "display_name_parameter_label": "Параметр відображення імені",
+                        "email_address_parameter_label": "Параметр адреси електронної пошти",
+                        "force_userid_label": "Примусовий ідентифікатор користувача (0 = ні, 1 = так)",
+                        "force_name_label": "Примусово відображати ім'я (0 = ні, 1 = так)",
+                        "force_email_label": "Примусова адреса електронної пошти (0 = ні, 1 = так)"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_generic_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "generic": "=> fof-oauth.lib.providers.generic"
+            }
+        },
+        "lib": {
+            "providers": {
+                "generic": "Загальне"
+            }
+        }
+    }
+}

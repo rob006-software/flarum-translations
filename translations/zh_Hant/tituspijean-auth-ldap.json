@@ -1,28 +1,28 @@
 {
     "tituspijean-auth-ldap": {
         "forum": {
-            "log_in_with": "以 {server} 登錄",
+            "log_in_with": "以 {server} 登入",
             "log_out": "=> core.ref.log_out"
         },
         "admin": {
             "settings": {
                 "title": "LDAP 設置",
-                "method_name": "LDAP 服務名（xxx 賬號登陸）",
-                "hosts": "LDAP 域或服務器 IP 地址（以逗號分隔）",
+                "method_name": "LDAP 服務名（xxx 帳號登陸）",
+                "hosts": "LDAP 域或伺服器 IP 地址（以逗號分隔）",
                 "base_dn": "Base DNs（分號分隔）",
                 "filter": "過濾器(可選)",
                 "port": "端口",
-                "account_prefix": "賬號前綴",
-                "account_suffix": "賬號後綴",
+                "account_prefix": "帳號前綴",
+                "account_suffix": "帳號後綴",
                 "admin_dn": "LDAP 管理員識別名稱（匿名綁定時留空）",
                 "admin_password": "LDAP 管理員密碼（匿名綁定時留空）",
-                "search_user_fields": "LDAP 用戶搜索字段（以逗號分隔）",
+                "search_user_fields": "LDAP 用戶搜尋字段（以逗號分隔）",
                 "user_mail": "LDAP 用戶郵件字段",
                 "user_username": "LDAP 用戶名字段",
                 "follow_referrals": "關注推薦",
                 "use_ssl": "使用 SSL",
                 "use_tls": "使用 TLS",
-                "onlyUse": "禁用 Flarum 登錄，僅使用 LDAP 身份認證"
+                "onlyUse": "禁用 Flarum 登入，僅使用 LDAP 身份認證"
             }
         }
     }

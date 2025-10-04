@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "aizvērt diskusijas"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "aizvērts"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "aizvērt",
+                "unlock_button": "atvērt"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} aizvēra"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} aizvēra diskusiju {time}.",
+                "discussion_unlocked_text": "{username} atvēra diskusiju {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Kāds aizvēra manis sākto diskusiju"
             }
         }
     }

@@ -2,239 +2,239 @@
     "kilowhat-cimaise": {
         "forum": {
             "nav": {
-                "albums": "",
-                "pictures": "",
-                "user-pictures": ""
+                "albums": "=> kilowhat-cimaise.ref.albums",
+                "pictures": "=> kilowhat-cimaise.ref.pictures",
+                "user-pictures": "=> kilowhat-cimaise.ref.pictures"
             },
             "album-list": {
-                "title": "",
-                "new": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "=> kilowhat-cimaise.ref.albums",
+                "new": "Створити новий альбом",
+                "empty": "Альбоми відсутні",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "picture-list": {
-                "title": "",
-                "empty": "",
-                "loading": "",
-                "load-more": ""
+                "title": "Всі зображення",
+                "empty": "Зображення відсутні",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "load-more": "=> kilowhat-cimaise.ref.load-more"
             },
             "album-show": {
-                "upload": "",
-                "empty": "",
-                "loading": "",
-                "personal": "",
-                "community": "",
-                "discussion": ""
+                "upload": "Завантажити зображення",
+                "empty": "Зображення відсутні",
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "personal": "Персональний альбом користувача <a>{username}</a>",
+                "community": "Альбом спільноти",
+                "discussion": "Перейти в дискусію"
             },
             "picture-show": {
-                "loading": "",
-                "back-album": "",
-                "download": "",
-                "previous": "",
-                "next": "",
-                "download-cropped": "",
-                "download-original": "",
-                "show-exif": "",
-                "taken-at": "",
-                "published-at": ""
+                "loading": "=> kilowhat-cimaise.ref.loading",
+                "back-album": "Повернутися до альбому",
+                "download": "Завантажити",
+                "previous": "Попереднє зображення",
+                "next": "Наступне зображення",
+                "download-cropped": "Обрізано {size}",
+                "download-original": "Завантажити оригінал",
+                "show-exif": "Всі дані EXIF",
+                "taken-at": "Взято {ago}",
+                "published-at": "Опубліковано {ago}"
             },
             "upload-modal": {
-                "title": "",
-                "titleInComposer": "",
-                "uploading": "",
-                "processing": "",
-                "select-file": "",
-                "drop-file": "",
-                "publishSilently": "",
-                "submit": "",
-                "submitInComposer": "",
-                "reload": ""
+                "title": "Завантажити зображення в альбом «{title}»",
+                "titleInComposer": "Редагувати зображення",
+                "uploading": "Завантаження",
+                "processing": "Обробка",
+                "select-file": "Обрати файл",
+                "drop-file": "або перетягніть сюди",
+                "publishSilently": "Публікуйте тихо",
+                "submit": "Надіслатт",
+                "submitInComposer": "Продовжити",
+                "reload": "Перезавантажити список чернеток"
             },
             "new-album-modal": {
-                "title": ""
+                "title": "Новий альбом"
             },
             "edit-album-modal": {
-                "title": ""
+                "title": "Редагувати альбом «{title}»"
             },
             "attach-album-modal": {
-                "title": "",
-                "selected": "",
-                "none-selected": "",
-                "search": "",
-                "no-results": "",
-                "select": "",
-                "unselect": "",
-                "submit": ""
+                "title": "Прикріпити альбом до «{title}»",
+                "selected": "Обрано:",
+                "none-selected": "Жоден",
+                "search": "Пошук",
+                "no-results": "Результати відсутні",
+                "select": "Обрати",
+                "unselect": "Не обрано",
+                "submit": "Надіслати"
             },
             "edit-album": {
-                "title": "",
-                "description": "",
-                "isCommunity": "",
-                "create": "",
-                "save": ""
+                "title": "Заголовок",
+                "description": "Опис",
+                "isCommunity": "Альбом спільноти (кожен може зробити свій внесок)",
+                "create": "Створити альбом",
+                "save": "Зберегти альбом"
             },
             "edit-picture": {
-                "title": "",
-                "description": ""
+                "title": "Заголовок",
+                "description": "Опис"
             },
             "album-thumbnail": {
-                "controls": "",
-                "edit": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "by-user": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "edit": "Редагувати",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Видалити альбом «{title}»?",
+                "by-user": "=> kilowhat-cimaise.ref.by-user"
             },
             "picture-thumbnail": {
-                "by-user": "",
-                "in-album": ""
+                "by-user": "=> kilowhat-cimaise.ref.by-user",
+                "in-album": "В"
             },
             "picture-controls": {
-                "controls": "",
-                "editor": "",
-                "approve": "",
-                "remove-favorite": "",
-                "set-favorite": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "controls": "=> kilowhat-cimaise.ref.controls",
+                "editor": "Редагувати обрізання та маску",
+                "approve": "Схвалити",
+                "remove-favorite": "Видалити обране",
+                "set-favorite": "Додати до обраного",
+                "restore": "=> kilowhat-cimaise.ref.restore",
+                "hide": "=> kilowhat-cimaise.ref.hide",
+                "delete": "=> kilowhat-cimaise.ref.delete",
+                "delete-confirmation": "Видалити зображення «{title}»?"
             },
             "editable-attribute": {
-                "title": "",
-                "description": "",
-                "author": ""
+                "title": "Натисніть, щоб додати назву",
+                "description": "Натисніть, щоб додати опис",
+                "author": "Натисніть, щоб додати автора"
             },
             "badge": {
-                "hidden": "",
-                "awaiting-approval": "",
-                "favorite": ""
+                "hidden": "Приховано",
+                "awaiting-approval": "Очікує схвалення",
+                "favorite": "Обоане"
             },
             "picture-sort": {
-                "latest": "",
-                "oldest": "",
-                "latestTake": "",
-                "oldestTake": ""
+                "latest": "Останнє завантаження",
+                "oldest": "Найстаріше завантаження",
+                "latestTake": "Остання спроба",
+                "oldestTake": "Стара спроба"
             },
             "album-search": {
-                "title": ""
+                "title": "=> kilowhat-cimaise.ref.albums"
             },
             "post-stream": {
-                "uploaded": ""
+                "uploaded": "Користувач {username} завантажив {count} зображень"
             },
             "discussion-controls": {
-                "attach-album": ""
+                "attach-album": "Прикріпити або від'єднати альбом"
             },
             "license-label": {
-                "not-specified": "",
-                "not-specified-help": ""
+                "not-specified": "Не вказано",
+                "not-specified-help": "Перевірте умови використання сайту на наявність авторських прав за налаштуванням"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "viewExif": "",
-                "createPersonalAlbums": "",
-                "createCommunityAlbums": "",
-                "editOwnAlbum": "",
-                "hideOwnAlbum": "",
-                "uploadPictures": "",
-                "uploadPersonalPicturesWithoutApproval": "",
-                "uploadCommunityPicturesWithoutApproval": "",
-                "editOwnImage": "",
-                "editOwnPublishedImage": "",
-                "licenseOwnPublishedPicture": "",
-                "renameOwnPublishedPicture": "",
-                "hideOwnPicture": "",
-                "publishSilently": "",
-                "attachCimaiseAlbum": "",
-                "moderate": ""
+                "view": "Перегляд",
+                "viewExif": "Перегляд Exif-даних (включно з геолокацією)",
+                "createPersonalAlbums": "Створення особистих альбомів",
+                "createCommunityAlbums": "Створення альбомів спільноти",
+                "editOwnAlbum": "Змінити назву та опис власного альбому",
+                "hideOwnAlbum": "Приховати власний альбом",
+                "uploadPictures": "Завантаження фотографій",
+                "uploadPersonalPicturesWithoutApproval": "Завантаження фотографій без дозволу в особисті альбоми",
+                "uploadCommunityPicturesWithoutApproval": "Завантаження фотографій без дозволу в альбоми спільноти",
+                "editOwnImage": "Використовувати графічний редактор на власному зображенні (обрізка, маска та наклейки)",
+                "editOwnPublishedImage": "Використовувати графічний редактор для власних зображень після публікації",
+                "licenseOwnPublishedPicture": "Змінити ліцензію на власне зображення після публікації",
+                "renameOwnPublishedPicture": "Змінювати назву та опис власного зображення після публікації",
+                "hideOwnPicture": "Приховати власну фотографію",
+                "publishSilently": "Публікуйте тихі фотографії (без постів про події)",
+                "attachCimaiseAlbum": "Вручну прикріплюйте альбоми до дискусій",
+                "moderate": "Модероване"
             },
             "settings": {
-                "watermarkFile": "",
-                "watermarkFileHelp": "",
-                "watermarkPlacement": "",
+                "watermarkFile": "Водяний знак",
+                "watermarkFileHelp": "Надане зображення буде накладено в масштабі 1:1 на кожне завантаження, окрім найменших превью.",
+                "watermarkPlacement": "Розташування водяного знаку",
                 "watermarkPlacementOptions": {
-                    "topLeft": "",
-                    "bottomLeft": "",
-                    "topRight": "",
-                    "bottomRight": ""
+                    "topLeft": "Вгорі ліворуч",
+                    "bottomLeft": "Внизу ліворуч",
+                    "topRight": "Вгорі праворуч",
+                    "bottomRight": "Внизу праворуч"
                 },
-                "autoCreateDiscussionAlbum": "",
-                "autoCreateDiscussionAlbumHelp": "",
-                "neverSyncDiscussionAlbumTitles": "",
-                "neverSyncDiscussionAlbumTitlesHelp": "",
-                "columnTheme": "",
-                "columnThemeHelp": "",
-                "mapboxToken": "",
-                "mapboxTokenHelp": "",
-                "requireLicense": "",
-                "requireLicenseHelp": "",
-                "licenses": "",
-                "license-key": "",
-                "license-label": "",
-                "license-description": "",
-                "license-add": "",
-                "stickers": "",
-                "sticker-key": "",
-                "sticker-label": "",
-                "sticker-url": "",
-                "sticker-add": ""
+                "autoCreateDiscussionAlbum": "Автоматично створювати альбом для кожної нової дискусії",
+                "autoCreateDiscussionAlbumHelp": "Автоматично створювати новий альбом з тією ж назвою, що і в обговоренні, і з тим же автором, що і у власника. Ця функція обходить дозвіл на створення альбому і застосовується до всіх тегів.\n",
+                "neverSyncDiscussionAlbumTitles": "Ніколи не синхронізуйте дискусії та назви альбомів",
+                "neverSyncDiscussionAlbumTitlesHelp": "За налаштуванням пов'язані альбоми, які мають таку саму назву, що й дискусії, будуть перейменовані при зміні назви дискусії. Якщо альбом перейменовано вручну, його ніколи не буде синхронізовано з дискусіями.\n",
+                "columnTheme": "Тема колонки",
+                "columnThemeHelp": "Використовуйте стиль бічної панелі для відображення зображень замість нижньої панелі.",
+                "mapboxToken": "Токен Mapbox",
+                "mapboxTokenHelp": "Заповніть дійсний токен, щоб показати карту геолокації під мета-мета зображення.",
+                "requireLicense": "Вимагається вибір ліцензії зі списку нижче",
+                "requireLicenseHelp": "За налаштуванням користувачі можуть пропустити встановлення ліцензії. Переконайтеся, що умови використання вашого веб-сайту охоплюють те, що можна робити з медіа, де ліцензія не вказана.\n",
+                "licenses": "Ліцензії",
+                "license-key": "Ключ",
+                "license-label": "Ярлик",
+                "license-description": "Опис",
+                "license-add": "Додати ліцензію",
+                "stickers": "Наклейки",
+                "sticker-key": "Ключ",
+                "sticker-label": "Ярлик",
+                "sticker-url": "URL-адреса",
+                "sticker-add": "Додати наклейку"
             },
             "status": {
                 "pictures": {
-                    "section": "",
-                    "drafts": ""
+                    "section": "Фотографії",
+                    "drafts": "(чернеток {count})"
                 },
                 "storage": {
-                    "section": "",
-                    "originals": "",
-                    "conversions": ""
+                    "section": "Зберігання (орієнтовно)",
+                    "originals": "Оригінали: {size}",
+                    "conversions": "Перетворені: {size}"
                 },
-                "refresh": "",
-                "loading": ""
+                "refresh": "Оновити",
+                "loading": "Завантаження..."
             }
         },
         "api": {
             "post-edit": {
-                "cannotAttachToNonComment": "",
-                "cannotFindPicturesFromRelation": "",
-                "cannotAttachHasNoAlbum": "",
-                "cannotAttachAlreadySubmitted": "",
-                "cannotAttachFromExternalAlbum": "",
-                "cannotAttachUnauthorized": ""
+                "cannotAttachToNonComment": "Зображення не можуть бути прикріплені вручну до постів без коментарів",
+                "cannotFindPicturesFromRelation": "Не вдалося знайти всі запитувані зображення в базі даних",
+                "cannotAttachHasNoAlbum": "Дискусія не має прикріпленого альбому",
+                "cannotAttachAlreadySubmitted": "Неможливо прикріпити зображення {id}, оскільки воно вже було надіслано",
+                "cannotAttachFromExternalAlbum": "Неможливо вкласти зображення {id}, оскільки воно належить до зовнішнього альбому",
+                "cannotAttachUnauthorized": "Неможливо прикріпити зображення {id}, оскільки воно вам не належить"
             },
             "picture-edit": {
                 "unauthorized": {
-                    "title": "",
-                    "description": "",
-                    "license": "",
-                    "author": "",
-                    "takenAt": "",
-                    "isDraftUnSubmit": "",
-                    "isDraftSubmit": "",
-                    "isApprovedUnApprove": "",
-                    "isApprovedApprove": "",
-                    "isHiddenRestore": "",
-                    "isHiddenHide": "",
-                    "isFavorite": "",
-                    "stickers": "",
-                    "crop": ""
+                    "title": "Неправильна назва, редагування не дозволено",
+                    "description": "Неправильний опис, редагування не дозволено",
+                    "license": "Недійсна ліцензія, редагування не дозволено",
+                    "author": "Недійсний автор, редагування не дозволено",
+                    "takenAt": "Невірна дата зйомки, редагування не дозволено",
+                    "isDraftUnSubmit": "Неправильний стан чернетки, не дозволено відкликати",
+                    "isDraftSubmit": "Недійсний стан чернетки, не допускається до подачі",
+                    "isApprovedUnApprove": "Недійсний стан схвалення, не дозволяється скасовувати схвалення",
+                    "isApprovedApprove": "Недійсний стан затвердження, не дозволяється затверджувати",
+                    "isHiddenRestore": "Недійсний стан приховування, який не можна відновити",
+                    "isHiddenHide": "Неправильний стан приховування, не дозволено приховувати",
+                    "isFavorite": "Неправильний обраний стан, редагування не авторизовано",
+                    "stickers": "Неправильні наклейки, редагування не дозволено",
+                    "crop": "Неправильна обрізка, редагування не дозволено"
                 }
             }
         },
         "ref": {
-            "albums": "",
-            "pictures": "",
-            "loading": "",
-            "load-more": "",
-            "controls": "",
-            "restore": "",
-            "hide": "",
-            "delete": "",
-            "by-user": ""
+            "albums": "Альбоми",
+            "pictures": "Фотографії",
+            "loading": "Завантаження...",
+            "load-more": "Читати далі",
+            "controls": "Керування",
+            "restore": "Відновлення",
+            "hide": "Приховати",
+            "delete": "Видалити",
+            "by-user": "Від"
         }
     }
 }

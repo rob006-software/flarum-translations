@@ -30,13 +30,22 @@
                     "reset_vapid_confirm": "Resetting VAPID keys will remove any subscriptions using the existing keys, so users won't receive any notifications until the next time they visit your site. This should only be done when setting up push notifications for the first time, or if push notifications aren't working at all and there's a warning about missing VAPID keys above.",
                     "reset_vapid_success": "Successfully reset VAPID keys. {count} subscriptions were reset. Reload the page to see an updated status check report."
                 },
+                "firebase_config": {
+                    "heading": "Firebase",
+                    "help_text": "To add support for push notifications when publishing your app in the Apple app store, you need to use Firebase to add push notifications to your application. Please generate your Firebase Service Config and upload it here.",
+                    "see_documentation_here": "See documentatation here",
+                    "upload_successful": "Your firebase config has been uploaded successfully",
+                    "upload_file": "Upload file"
+                },
                 "other": {
                     "heading": "Other",
                     "force_portrait_text": "Force portait orientation?",
                     "push_notif_preference_default_to_email_label": "Default Push Preferences to Email?",
                     "push_notif_preference_default_to_email_text": "If true, users will have push notifications enabled by default for all notification types where email notifications are enabled by default. If false, users will have push notifications disabled by default.",
                     "user_max_subscriptions_label": "Max Push Subscriptions Per User",
-                    "user_max_subscriptions_text": "How many push subscriptions should each user be able to have at a time? When a user receives a push notification, each subscription will result in an API call. Each subscription typically corresponds to a browser the user has used."
+                    "user_max_subscriptions_text": "How many push subscriptions should each user be able to have at a time? When a user receives a push notification, each subscription will result in an API call. Each subscription typically corresponds to a browser the user has used.",
+                    "window_controls_overlay_label": "Enable Window Controls Overlay?",
+                    "window_controls_overlay_text": "If true, users will be able to get an more immersive, native-like experience by hiding the native titlebar. Window Controls Overlay enables or not depends on user's preference and browser's compatibility. You must customize your titlebar by adding some CSS/JS after enabled, or the controls will overlay some elements of your forum's top navbar and the window almost can't drag, resulting a bad experience.\n\nSee also: <compatibilitylink>The compatibility of Window Controls Overlay</compatibilitylink> & <learnlink>About Window Controls Overlay in Microsoft Learn</learnlink>\n"
                 },
                 "heading": "Progressive Web App Configuration",
                 "text": "Configure your Flarum site to run as a progressive web app! Please note that this doesn't automatically put your site in the app store. Instead, this means that users have an 'Add to Homescreen' option for your site. We provide some status checks, however, the best way to test this is to try and install it (search on google for instructions on how to install progressive web apps). Also, please keep in mind that 'install this PWA' popups are controlled by browsers, and cannot be triggered by developers/admins/programs. I recommend including instructions for how to install a PWA in your site's documentation.",

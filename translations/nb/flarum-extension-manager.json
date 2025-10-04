@@ -1,0 +1,190 @@
+{
+    "flarum-extension-manager": {
+        "admin": {
+            "auth_config": {
+                "add_label": "Ny autentiseringsmetode",
+                "add_modal": {
+                    "host_label": "Vert",
+                    "host_placeholder": "eksempel: extiverse.com",
+                    "submit_button": "Send inn",
+                    "token_label": "Token",
+                    "type_label": "Type",
+                    "unchanged_token_placeholder": "(uendret)"
+                },
+                "delete_confirmation": "Er du sikker på at du ønsker å slette denne autentiseringsmetoden?",
+                "delete_label": "Slett autentiseringsmetode",
+                "edit_label": "Endre autentiseringsmetode",
+                "fields": {
+                    "host": "Vert",
+                    "token": "Token"
+                },
+                "no_auth_methods_configured": "Ingen konfigurerte autentiseringsmetoder. Dette er en valgfri avansert funksjon for å installere fra private reservoar.",
+                "remove_button_label": "Fjern autentiseringsmetode",
+                "title": "Autentiseringsmetoder",
+                "types": {
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bærer"
+                }
+            },
+            "composer": {
+                "add_repository_label": "Legg til reservoar",
+                "delete_repository_confirmation": "Er du sikker på at du vil slette dette reservoaret? Alle utvidelser installert fra dette reservoaret vil bli fjernet.",
+                "delete_repository_label": "Slett reservoar",
+                "edit_repository_label": "Endre reservoar",
+                "title": "Composer",
+                "minimum_stability": {
+                    "label": "Minimum stabilitet",
+                    "help": "Typen pakker som kan installeres. Ikke endre dette om du ikke vet hva du gjør.",
+                    "options": {
+                        "stable": "Stabil (Anbefales)",
+                        "rc": "Lanseringskandidat",
+                        "beta": "Beta",
+                        "alpha": "Alfa",
+                        "dev": "Dev"
+                    }
+                },
+                "repositories": {
+                    "label": "Reservoarer",
+                    "help": "",
+                    "types": {
+                        "composer": "",
+                        "vcs": "",
+                        "path": ""
+                    },
+                    "add_modal": {
+                        "name_label": "",
+                        "type_label": "",
+                        "url": "",
+                        "submit_button": ""
+                    }
+                }
+            },
+            "exceptions": {
+                "composer_command_failure": "",
+                "extension_already_installed": "",
+                "extension_not_directly_dependency": "",
+                "extension_not_installed": "",
+                "guessed_cause": {
+                    "extension_incompatible_with_instance": "",
+                    "extension_not_found": "",
+                    "extensions_incompatible_with_new_major": ""
+                }
+            },
+            "extensions": {
+                "check_why_it_failed_updating": "",
+                "install": "",
+                "install_help": "",
+                "proceed": "",
+                "remove": "",
+                "successful_install": "",
+                "successful_remove": "",
+                "successful_update": "",
+                "update": "",
+                "update_soft_label": "",
+                "update_hard_label": ""
+            },
+            "file_permissions": "",
+            "major_updater": {
+                "description": "",
+                "dry_run": "",
+                "dry_run_help": "",
+                "failure": {
+                    "desc": "",
+                    "why": ""
+                },
+                "title": "",
+                "update": ""
+            },
+            "minor_update_confirmation": {
+                "content": ""
+            },
+            "sections": {
+                "control": {
+                    "title": ""
+                },
+                "queue": {
+                    "columns": {
+                        "details": "",
+                        "elapsed_time": "",
+                        "peak_memory_used": "",
+                        "operation": "",
+                        "package": "",
+                        "status": ""
+                    },
+                    "none": "",
+                    "operations": {
+                        "extension_install": "",
+                        "extension_remove": "",
+                        "extension_update": "",
+                        "update_check": "",
+                        "update_global": "",
+                        "update_major": "",
+                        "update_minor": "",
+                        "why_not": ""
+                    },
+                    "output_modal": {
+                        "cause_unknown": "",
+                        "command": "",
+                        "guessed_cause": "",
+                        "output": ""
+                    },
+                    "refresh": "",
+                    "statuses": {
+                        "success": "",
+                        "failure": "",
+                        "pending": "",
+                        "running": ""
+                    },
+                    "task_just_started": "",
+                    "title": ""
+                }
+            },
+            "settings": {
+                "title": "",
+                "access_warning": "",
+                "debug_mode_warning": "",
+                "queue_jobs": "",
+                "queue_jobs_help": "",
+                "task_retention_days": "",
+                "task_retention_days_help": ""
+            },
+            "updater": {
+                "up_to_date": "",
+                "check_for_updates": "",
+                "flarum": "",
+                "global_update_successful": "",
+                "last_update_checked_at": "",
+                "run_global_update": "",
+                "updater_title": "",
+                "updater_help": ""
+            },
+            "update_successful": "",
+            "why_not_modal": {
+                "title": ""
+            }
+        },
+        "validation": {
+            "attributes": {
+                "minimum_stability": "",
+                "repositories": "",
+                "repositories.*": "",
+                "repositories.*.type": "",
+                "repositories.*.url": "",
+                "extension_id": "",
+                "update_mode": "",
+                "package": "",
+                "version": "",
+                "github_oauth": "",
+                "github_oauth.*": "",
+                "gitlab_oauth": "",
+                "gitlab_oauth.*": "",
+                "gitlab_token": "",
+                "gitlab_token.*": "",
+                "bearer": "",
+                "bearer.*": ""
+            }
+        }
+    }
+}

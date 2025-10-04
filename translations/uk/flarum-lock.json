@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": "Закривати дискусії"
+                "lock_discussions_label": "Заблокувати дискусії"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": "Закрито"
+                "locked_tooltip": "Заблоковано"
             },
             "discussion_controls": {
-                "lock_button": "Закрити",
-                "unlock_button": "Відкрити"
+                "lock_button": "Заблокувати",
+                "unlock_button": "Розблокувати"
             },
             "notifications": {
-                "discussion_locked_text": "Користувач {username} заблокував"
+                "discussion_locked_text": "Користувача {username} заблоковано"
             },
             "post_stream": {
-                "discussion_locked_text": "Користувач {username} закрив дискусію {time}.",
-                "discussion_unlocked_text": "Користувач {username} відкрив дискусію {time}."
+                "discussion_locked_text": "Користувач {username} заблокував дискусію {time}.",
+                "discussion_unlocked_text": "Користувач {username} розблокував дискусію {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": "Хтось закрив мою дискусію"
+                "notify_discussion_locked_label": "Хтось блокує розпочату мною дискусію"
             }
         }
     }

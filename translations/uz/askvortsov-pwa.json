@@ -30,13 +30,22 @@
                     "reset_vapid_confirm": "VAPID kalitlarini qayta o'rnatish mavjud kalitlar yordamida obunalarni o'chirib tashlaydi, shuning uchun foydalanuvchilar keyingi safar saytingizga tashrif buyurishlariga qadar hech qanday bildirishnomalarni olmaydilar. Buni faqat push-bildirishnomalarni birinchi marta o'rnatishda yoki push-bildirishnomalar umuman ishlamasa va yuqorida VAPID tugmalari etishmayotganligi haqida ogohlantirish mavjud bo'lganda amalga oshirilishi kerak.",
                     "reset_vapid_success": "VAPID kalitlari qayta tiklandi. {count} ta obuna qayta tiklandi. Yangilangan holat tekshiruvi hisobotini koʻrish uchun sahifani qayta yuklang."
                 },
+                "firebase_config": {
+                    "heading": "",
+                    "help_text": "",
+                    "see_documentation_here": "",
+                    "upload_successful": "",
+                    "upload_file": ""
+                },
                 "other": {
                     "heading": "Boshqa",
                     "force_portrait_text": "Portret orientatsiyasi majburlansinmi?",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
                     "user_max_subscriptions_label": "",
-                    "user_max_subscriptions_text": ""
+                    "user_max_subscriptions_text": "",
+                    "window_controls_overlay_label": "",
+                    "window_controls_overlay_text": ""
                 },
                 "heading": "Progressiv veb-ilova konfiguratsiyasi",
                 "text": "Flarum saytingizni progressiv veb-ilova sifatida ishlash uchun sozlang! Shuni esda tutingki, bu sizning saytingizni ilovalar do'koniga avtomatik ravishda joylashtirmaydi. Buning o'rniga, bu foydalanuvchilarda saytingiz uchun \"Bosh ekranga qo'shish\" tanlovi mavjudligini anglatadi. Biz ba'zi holat tekshiruvlarini taqdim etamiz, ammo buni sinab ko'rishning eng yaxshi usuli uni sinab ko'rish va o'rnatishdir (progressiv veb-ilovalarni o'rnatish bo'yicha ko'rsatmalarni Google-dan qidiring). Shuni ham yodda tutingki, \"ushbu PWA o'rnatish\" qalqib chiquvchi oynalari brauzerlar tomonidan boshqariladi va ularni ishlab chiquvchilar/administratorlar/dasturlar ishga tushirib bo'lmaydi. Saytingiz hujjatlariga PWA-ni qanday o'rnatish bo'yicha ko'rsatmalarni qo'shishni tavsiya qilaman.",

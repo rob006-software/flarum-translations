@@ -17,7 +17,7 @@
         "admin": {
             "permissions": {
                 "edit_signature_others": "Edit other users' signatures",
-                "allow_signature": "Allow users to use signatures"
+                "allow_signature": "Can have a signature"
             },
             "settings": {
                 "maximum_image_count": {
@@ -27,6 +27,10 @@
                 "maximum_char_limit": {
                     "description": "Maximum character limit of signature.",
                     "help": "When the user exceeds the maximum character limit in their signature, they will be prevented from saving until the character count is accordingly."
+                },
+                "allow_inline_editing": {
+                    "description": "Inline editing of signature.",
+                    "help": "When enabled, users can edit their signature while viewing a post."
                 }
             }
         }

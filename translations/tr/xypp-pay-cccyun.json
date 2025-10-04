@@ -1,0 +1,102 @@
+{
+    "xypp-pay-cccyun": {
+        "forum": {
+            "add_money": {
+                "button": "Yeniden yükle",
+                "title": "Para yükle",
+                "amount": "Tutar",
+                "cost": "{cost}₺ (TRY) Gerekli",
+                "confirm": "Öde"
+            },
+            "history": {
+                "title": "Yükleme Geçmişi",
+                "pay": "Öde",
+                "status_pending": "Bekliyor",
+                "status_success": "Başarılı",
+                "status_expired": "Süresi doldu",
+                "amount": "₺ {amount}",
+                "create": "Oluştur",
+                "expire": "Son kullanma tarihi"
+            },
+            "recharge-modal": {
+                "title": "Yükle",
+                "amount": "Tutar",
+                "money": "Tutar ₺{amount}",
+                "confirm": "Öde"
+            },
+            "pay-modal": {
+                "title": "Öde",
+                "amount": "₺{amount}",
+                "tip": "{u} kullanıcısına {money} yükleyeceksiniz",
+                "qr": "Ödemeyi tamamlamak için QR kodunu tarayın",
+                "qr-fail": "QR Kodu yüklenemedi",
+                "window": "Lütfen yeni pencerede ödemeyi tamamlayın",
+                "open_window": "Pop-up pencere açılmazsa, buraya tıklayın.",
+                "wechat": "WeChat aracılığıyla ödeme yap",
+                "open_wechat": "Ödeme görünmüyorsa, buraya tıklayın.",
+                "back": "Geri",
+                "done": "Tamamlandı",
+                "invalid-amount": "Geçersiz tutar ({min} ile {max} arasında olabilir)",
+                "no-limit": "[ya da]"
+            },
+            "pay-done": "Ödeme tamamlandı",
+            "pay-done-btn": "Geçmişe git"
+        },
+        "admin": {
+            "permissions": {
+                "can-pay": "Yüklenebilir"
+            },
+            "settings": {
+                "pay-wxpay": "WeChat Pay'i Etkinleşir",
+                "pay-qqpay": "QQ Pay'i Etkinleştir",
+                "pay-alipay": "Alipay'i Etkinleştir",
+                "ignore_ssl": "SSL hatalarını yok say",
+                "money-rate": "Para Oranı: 1 TRY -> X Para",
+                "amount-max": "Maksimum tutar",
+                "amount-min": "Minimum tutar",
+                "expired_minutes": "Süre dolma zamanı (dakika)",
+                "ua-wechat": "WeChat UA",
+                "ua-alipay": "Alipay UA",
+                "ua-qq": "QQ UA",
+                "ua-mobile": "Mobile UA",
+                "use_proxy": "Proxy kullan (x-forwarded-for başlığından IP adresini alır)",
+                "key": "(V1) MD5 Anahtarı",
+                "public-key": "(V2) Platform Açık Anahtarı",
+                "private-key": "(V2) Partner Gizli Anahtarı",
+                "use-v2": "v2 API kullan (RSA Ver)",
+                "pid": "Partner ID",
+                "base_url": "Temel URL (/ ile biter)"
+            },
+            "other": {
+                "confirm-delete": "Bu kaydı silmek istediğinizden emin misiniz?",
+                "add-row": "Satır Ekle",
+                "delete-row": "Satır Sil",
+                "pay-type": "Ödeme Türü",
+                "display": "Görünen isim",
+                "color": "Renk",
+                "icon": "Simge"
+            }
+        },
+        "lib": {
+            "alipay": "Alipay",
+            "wxpay": "Wechat Pay",
+            "qqpay": "QQ Pay",
+            "status": {
+                "pending": "Bekliyor",
+                "done": "Tamamlandı",
+                "expire": "Süresi doldu"
+            }
+        },
+        "api": {
+            "unknown_error": "Bilinmeyen hata",
+            "invalid_pay_type": "Geçersiz ödeme türü",
+            "pay_type_disabled": "Seçilen ödeme türü devre dışı bırakıldı",
+            "pay_item_name": "{u}'ya {money} yükle",
+            "payment_is_done": "Ödeme tamamlandı",
+            "payment_is_expired": "Ödemenin süresi doldu",
+            "invalid_amount": "Geçersiz tutar",
+            "verify_failed": "Doğrulama başarısız",
+            "unknown_pay_type": "Bilinmeyen ödeme türü"
+        }
+    }
+}

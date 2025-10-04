@@ -2,7 +2,7 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": ""
+                "sticky_discussions_label": "Izpostavljene razprave"
             }
         },
         "forum": {
@@ -11,7 +11,7 @@
             },
             "discussion_controls": {
                 "sticky_button": "",
-                "unsticky_button": ""
+                "unsticky_button": "Odlepi"
             },
             "post_stream": {
                 "discussion_stickied_text": "",
@@ -19,7 +19,7 @@
             }
         },
         "ref": {
-            "sticky": ""
+            "sticky": "Izpostavi"
         }
     }
 }

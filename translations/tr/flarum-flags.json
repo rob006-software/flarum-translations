@@ -2,7 +2,7 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "Bildirilmiş gönderiler",
+                "flag_posts_label": "Gönderileri bildir",
                 "view_flags_label": "Bildirilen gönderileri gör"
             },
             "settings": {
@@ -28,7 +28,7 @@
                 "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "Bildirilmiş gönderi bulunmuyor.",
+                "empty_text": "Şikayet Yok",
                 "item_text": "<em> {discussion} </em> içinde {username}",
                 "title": "=> flarum-flags.ref.flagged_posts",
                 "tooltip": "=> flarum-flags.ref.flagged_posts"

@@ -2,40 +2,40 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": ""
+                "mostBacked_button": "Meest gesteund"
             }
         }
     },
     "blomstra-payments": {
         "forum": {
             "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
+                "accept_label": "Ik heb de <link>betaalvoorwaarden</link> gelezen en accepteer deze.",
+                "continue_button": "Ga door met betalen",
+                "title": "Accepteer voorwaarden"
             },
             "stripe": {
-                "interval_once": ""
+                "interval_once": "eenmalig"
             },
             "subscription-card": {
                 "bounty": "",
-                "ptv": "",
+                "ptv": "Betaald om te kijken",
                 "pta": "",
                 "ptb": "",
                 "ptp": "",
-                "cancel-control": "",
-                "none": ""
+                "cancel-control": "Annuleer",
+                "none": "Geen betalingen of actief abonnement"
             },
             "post_stream": {
                 "bounty_added_text": ""
             },
             "pay-to-view": {
-                "purchase-control": "Betaal om te Bekijken",
-                "purchase-log-in": "Log In & Betaal om te Bekijken",
+                "purchase-control": "Betaal om te bekijken",
+                "purchase-log-in": "Log in & betaal om te bekijken",
                 "purchase-completed": "Ontsloten",
-                "description": "Vervolgberichten zijn vergrendeld achter een betalingsmuur, je kan ze ontsluiten door een betaling te voldoen via onze betalingsprovider Stripe.\n"
+                "description": "Vervolgberichten zijn vergrendeld achter een betaalmuur, je kunt ze ontsluiten door een betaling te doen via onze betalingsprovider Stripe.\n"
             },
             "pay-to-post": {
-                "purchase-control": "Betaal om te Publiceren",
+                "purchase-control": "Betaal om te publiceren",
                 "purchase": "Betaal om te Publiceren",
                 "purchase_required": "Deze discussie zal gepubliceerd worden wanneer betaling via onze betalingsprovider Stripe voldaan is. Klik om de kosten en betaalopties in te zien.\n"
             },

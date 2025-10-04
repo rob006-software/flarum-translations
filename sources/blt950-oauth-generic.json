@@ -1,0 +1,38 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "generic": {
+                        "description": "Set up login based on your custom OAuth2 provider.",
+                        "client_id_label": "Client ID",
+                        "client_secret_label": "Client secret",
+                        "scopes_label": "Scope",
+                        "authorization_endpoint_label": "Authorization Endpoint",
+                        "token_endpoint_label": "Token Endpoint",
+                        "user_information_endpoint_label": "User Information Endpoint",
+                        "id_parameter_label": "User ID Parameter",
+                        "display_name_parameter_label": "Display Name Parameter",
+                        "email_address_parameter_label": "Email Address Parameter",
+                        "force_userid_label": "Force User ID (0 = no, 1 = yes)",
+                        "force_name_label": "Force Display Name (0 = no, 1 = yes)",
+                        "force_email_label": "Force Email Address (0 = no, 1 = yes)"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_generic_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "generic": "=> fof-oauth.lib.providers.generic"
+            }
+        },
+        "lib": {
+            "providers": {
+                "generic": "Generic"
+            }
+        }
+    }
+}

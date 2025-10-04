@@ -19,8 +19,8 @@
                 "lurking_tag_tooltip": "Väijytään"
             },
             "sub_controls": {
-                "header": "",
-                "subscription_label": "",
+                "header": "Avainsanan {tagName} tilaus",
+                "subscription_label": "Valitse tilaustasosi avainsanalle {tagName}",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Ilmoita kaikista uusista keskusteluista.",
@@ -34,7 +34,10 @@
                 "not_following_text": "Ilmoita vain kun sinut @mainitaan.",
                 "notify_alert_tooltip": "Saa foorumin ilmoitus, kun on uusia keskusteluita tai viestejä",
                 "notify_email_tooltip": "Saa sähköposti , kun on uusia keskusteluita tai viestejä",
-                "submit_button": ""
+                "submit_button": "Vahvista tilaus"
+            },
+            "hero": {
+                "title": "=> flarum-subscriptions.forum.index.following_link"
             },
             "notifications": {
                 "new_discussion_text": "{username} aloitti",
@@ -79,12 +82,22 @@
             }
         }
     },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "tagsubscription": {
+                    "export_description": "Vie tiedot avainsanan tilaus tiedoista, jos saatavilla.",
+                    "anonymize_description": "Poistaa käyttäjän tilauksen avainsanaan."
+                }
+            }
+        }
+    },
     "blomstra-gdpr": {
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Vie tiedot avainsanan tilauksen tasoista, jos on olemassa.",
+                    "anonymize_description": "Poistaa käyttäjän avainsanan tilauksen."
                 }
             }
         }

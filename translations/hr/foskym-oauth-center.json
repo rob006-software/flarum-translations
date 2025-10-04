@@ -7,13 +7,17 @@
             "page": {
                 "index": "",
                 "clients": "",
-                "scopes": ""
+                "scopes": "",
+                "tokens": ""
             },
             "settings": {
+                "display_mode": "",
                 "access_lifetime": "",
                 "allow_implicit": "",
                 "enforce_state": "",
-                "require_exact_redirect_uri": ""
+                "require_exact_redirect_uri": "",
+                "authorization_method_fetch": "",
+                "allow_delete_records": ""
             },
             "clients": {
                 "client_id": "",
@@ -25,7 +29,8 @@
                 "client_desc": "",
                 "client_icon": "",
                 "client_home": "",
-                "add_button": ""
+                "add_button": "",
+                "edit_client": ""
             },
             "scopes": {
                 "scope": "",
@@ -35,7 +40,18 @@
                 "scope_name": "",
                 "scope_icon": "",
                 "scope_desc": "",
-                "add_button": ""
+                "visible_fields": "",
+                "add_button": "",
+                "edit_scope": ""
+            },
+            "tokens": {
+                "add_token": "",
+                "delete_token": ""
+            },
+            "action": {
+                "delete_all_records_button": "",
+                "delete_all_records_confirm": "",
+                "delete_all_records_success": ""
             }
         },
         "forum": {
@@ -48,9 +64,18 @@
                 }
             },
             "authorize": {
+                "require_these_scopes": "",
                 "access": "",
                 "agree": "",
                 "deny": ""
+            },
+            "authorized": {
+                "no_records": "",
+                "no_more_records": "",
+                "load_more": "",
+                "delete_button": "",
+                "delete_all_button": "",
+                "delete_all_confirm": ""
             }
         }
     }

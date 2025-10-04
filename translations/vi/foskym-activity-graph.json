@@ -1,0 +1,66 @@
+{
+    "foskym-activity-graph": {
+        "admin": {
+            "settings": {
+                "count_comments": "Đếm Bình luận",
+                "count_discussions": "Đếm Thảo luận",
+                "count_likes": "Đếm Lượt thích",
+                "count_custom_levels_exp_logs": "Đếm Nhật ký Kinh nghiệm Tùy chỉnh (yêu cầu foskym/flarum-custom-levels)",
+                "count_invite_user_invites": "Đếm Lời mời Người dùng (yêu cầu xypp/flarum-invite-user)",
+                "count_store_purchases": "Đếm Lượt mua trong Cửa hàng (yêu cầu xypp/store)",
+                "count_polls_create_polls": "Đếm Số cuộc thăm dò được Tạo (yêu cầu fof/polls)",
+                "count_polls_votes": "Đếm Phiếu bầu trong Thăm dò (yêu cầu fof/polls)",
+                "count_username_requests_username": "Đếm Yêu cầu Đổi Tên đăng nhập (yêu cầu fof/username-requests)",
+                "count_username_requests_nickname": "Đếm Yêu cầu Đổi Biệt danh (yêu cầu fof/username-requests và flarum-nicknames)",
+                "count_best_answer_marked": "Đếm Câu trả lời hay nhất được đánh dấu (yêu cầu fof/best-answer)",
+                "count_badges_assigned": "Đếm Huy hiệu được gán (yêu cầu v17development/flarum-user-badges)",
+                "count_achievements_achieved": "Đếm Thành tựu đạt được (yêu cầu malago/achievements)",
+                "count_quest_done": "Đếm Nhiệm vụ đã hoàn thành (yêu cầu xypp/forum-quests)",
+                "tooltip_position": "Vị trí Chú thích",
+                "tooltip_position_options": {
+                    "top": "Trên",
+                    "right": "Phải",
+                    "bottom": "Dưới",
+                    "left": "Trái"
+                },
+                "times_display_format": "Định dạng Hiển thị Số lần",
+                "times_display_format_help": "Dùng để hiển thị số lần trong biểu đồ hoạt động, ví dụ: \"lần\", \"[count] lần\"",
+                "from_year": "Từ năm",
+                "from_year_help": "Năm bắt đầu của biểu đồ hoạt động"
+            },
+            "permissons": {
+                "query-others-activity-graph": "Truy vấn Biểu đồ Hoạt động của người khác"
+            }
+        },
+        "forum": {
+            "label": {
+                "activity_graph": "Biểu đồ Hoạt động",
+                "total_times": "Tổng cộng {total} trong năm nay",
+                "name_map": "vi",
+                "categories": {
+                    "comments": "Bình luận",
+                    "discussions": "Thảo luận",
+                    "likes": "Lượt thích",
+                    "custom_levels_exp_logs": "Thay đổi Kinh nghiệm",
+                    "invite_user_invites": "Lời mời",
+                    "store_purchases": "Lượt mua trong Cửa hàng",
+                    "polls_create_polls": "Cuộc thăm dò đã Tạo",
+                    "polls_votes": "Phiếu bầu trong Thăm dò",
+                    "username_requests_username": "Yêu cầu Đổi Tên đăng nhập",
+                    "username_requests_nickname": "Yêu cầu Đổi Biệt danh",
+                    "best_answer_marked": "Câu trả lời hay nhất được đánh dấu",
+                    "badges_assigned": "Huy hiệu được gán",
+                    "achievements_achieved": "Thành tựu đạt được",
+                    "quest_done": "Nhiệm vụ đã hoàn thành"
+                }
+            }
+        },
+        "lib": {
+            "defaults": {
+                "times_display_format": [
+                    "lần"
+                ]
+            }
+        }
+    }
+}
