@@ -1081,6 +1081,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-oauth-line`](https://weblate.rob006.net/projects/flarum/ianm-oauth-line) | [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line) |
 | [`ianm-oauth-reddit`](https://weblate.rob006.net/projects/flarum/ianm-oauth-reddit) | [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit) |
 | [`ianm-oauth-twitch`](https://weblate.rob006.net/projects/flarum/ianm-oauth-twitch) | [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch) |
+| [`ianm-online-guests`](https://weblate.rob006.net/projects/flarum/ianm-online-guests) | [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget) |
 | [`ianm-syndication`](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication) |
 | [`ianm-twofactor`](https://weblate.rob006.net/projects/flarum/ianm-twofactor) | [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) |
 | [`imdong-spam-alert`](https://weblate.rob006.net/projects/flarum/imdong-spam-alert) | [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert) |
@@ -1258,6 +1259,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`xelson-chat`](https://weblate.rob006.net/projects/flarum/xelson-chat) | [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) |
 | [`xrh0905-oauth-microsoft`](https://weblate.rob006.net/projects/flarum/xrh0905-oauth-microsoft) | [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft) |
 | [`xsoft-ict-mason-tag`](https://weblate.rob006.net/projects/flarum/xsoft-ict-mason-tag) | [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag) |
+| [`xypp-collector`](https://weblate.rob006.net/projects/flarum/xypp-collector) | [`xypp/collector`](https://github.com/zxy19/flarum-collector) |
 | [`xypp-answer-bounty`](https://weblate.rob006.net/projects/flarum/xypp-answer-bounty) | [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty) |
 | [`xypp-invite-user`](https://weblate.rob006.net/projects/flarum/xypp-invite-user) | [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user) |
 | [`xypp-forum-quests`](https://weblate.rob006.net/projects/flarum/xypp-forum-quests) | [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests) |
