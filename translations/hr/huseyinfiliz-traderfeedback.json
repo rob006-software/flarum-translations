@@ -2,134 +2,134 @@
     "huseyinfiliz-traderfeedback": {
         "api": {
             "validation": {
-                "negative_not_allowed": "",
-                "self_feedback": "",
-                "min_days": "",
-                "min_posts": "",
-                "already_given": "",
-                "discussion_not_found": "",
-                "discussion_required": "",
-                "already_reported": "",
-                "rate_limit_feedback": "",
-                "rate_limit_report": ""
+                "negative_not_allowed": "Negativne ocjene nisu dopuštene.",
+                "self_feedback": "Ne možete ocijeniti samoga sebe.",
+                "min_days": "Morate biti član najmanje {days} dana da biste mogli ostavljati ocjene.",
+                "min_posts": "Da biste ostavili ocjenu, morate imati najmanje {posts} poruka.",
+                "already_given": "Već ste dali ocjenu za ovu raspravu.",
+                "discussion_not_found": "Tražena rasprava ne postoji.",
+                "discussion_required": "Za povratnu informaciju, obavezan je URL ili ID teme.",
+                "already_reported": "Ovu povratnu informaciju ste već prijavili.",
+                "rate_limit_feedback": "Pričekajte {seconds} sekundi prije nego što ostavite novu ocjenu.",
+                "rate_limit_report": "Pričekajte {seconds} sekundi prije nego što ponovno ocijenite."
             }
         },
         "forum": {
             "nav": {
-                "feedback_link": ""
+                "feedback_link": "Ocjene prodavača"
             },
             "form": {
-                "title": "",
-                "type_label": "",
-                "type_positive": "",
-                "type_neutral": "",
-                "type_negative": "",
-                "role_label": "",
-                "role_buyer": "",
-                "role_seller": "",
-                "role_trader": "",
-                "discussion_label": "",
-                "discussion_placeholder": "",
-                "discussion_help": "",
-                "comment_label": "",
-                "comment_placeholder": "",
-                "submit_button": "",
-                "error_too_short": "",
-                "error_too_long": "",
-                "error_discussion_required": "",
-                "error_submit": "",
-                "success": ""
+                "title": "Ocijeni korisnika {username}",
+                "type_label": "Vrsta ocjene",
+                "type_positive": "Pozitivno",
+                "type_neutral": "Neutralno",
+                "type_negative": "Negativno",
+                "role_label": "Vaša uloga",
+                "role_buyer": "Kupac",
+                "role_seller": "Prodavač",
+                "role_trader": "Trgovac",
+                "discussion_label": "URL/ID teme",
+                "discussion_placeholder": "npr., https://forum.com/d/155 ili 155",
+                "discussion_help": "Unesite URL ili ID teme vezane za ovu kupoprodaju",
+                "comment_label": "Opis",
+                "comment_placeholder": "Opišite svoje iskustvo trgovanja s korisnikom",
+                "submit_button": "Pošalji povratnu informaciju",
+                "error_too_short": "Komentar mora sadržavati najmanje {min} znakova",
+                "error_too_long": "Komentar smije sadržavati najviše {max} znakova",
+                "error_discussion_required": "Potreban je URL ili ID teme",
+                "error_submit": "Greška pri slanju ocjene",
+                "success": "Ocjena uspješno poslana"
             },
             "user_card": {
-                "score_tooltip": "",
-                "positive_tooltip": "",
-                "neutral_tooltip": "",
-                "negative_tooltip": ""
+                "score_tooltip": "Ocjena kupoprodaje",
+                "positive_tooltip": "Pozitivne ocjene",
+                "neutral_tooltip": "Neutralne ocjene",
+                "negative_tooltip": "Negativne ocjene"
             },
             "feedback_page": {
                 "stats": {
-                    "score": "",
-                    "total": "",
-                    "positive": "",
-                    "neutral": "",
-                    "negative": ""
+                    "score": "Ocjena",
+                    "total": "Ukupan broj ocjena",
+                    "positive": "Pozitivno",
+                    "neutral": "Neutralno",
+                    "negative": "Negativno"
                 },
-                "no_feedback": "",
-                "give_feedback_button": "",
-                "give_feedback_button_short": "",
+                "no_feedback": "Ovaj korisnik još nije primio nijednu ocjenu",
+                "give_feedback_button": "Ocijeni",
+                "give_feedback_button_short": "Ocijeni",
                 "filter": {
-                    "all": "",
-                    "positive": "",
-                    "neutral": "",
-                    "negative": "",
-                    "as_buyer": "",
-                    "as_seller": "",
-                    "as_trader": ""
+                    "all": "Sve ocjene",
+                    "positive": "Samo pozitivno",
+                    "neutral": "Samo neutralno",
+                    "negative": "Samo negativno",
+                    "as_buyer": "Kao kupac",
+                    "as_seller": "Kao prodavač",
+                    "as_trader": "Kao trgovac"
                 },
                 "sort": {
-                    "newest": "",
-                    "oldest": ""
+                    "newest": "Najnovije prvo",
+                    "oldest": "Najstarije prvo"
                 }
             },
             "feedback_item": {
-                "as_buyer": "",
-                "as_seller": "",
-                "as_trader": "",
-                "report_button": "",
-                "delete_button": "",
-                "edit_button": "",
-                "confirm_delete": "",
-                "delete_success": "",
-                "delete_error": "",
-                "discussion_link": "",
-                "discussion_link_short": "",
-                "discussion_deleted": "",
-                "discussion_locked": "",
-                "no_comment": "",
-                "no_permission_report": "",
-                "unknown_user": "",
-                "user_id_format": ""
+                "as_buyer": "kao kupac",
+                "as_seller": "kao prodavač",
+                "as_trader": "kao trgovac",
+                "report_button": "Izvješće",
+                "delete_button": "Obriši",
+                "edit_button": "Uredi",
+                "confirm_delete": "Jeste li sigurni da želite obrisati ovu ocjenu?",
+                "delete_success": "Ocjena uspješno obrisana",
+                "delete_error": "Brisanje ocjene nije uspjelo",
+                "discussion_link": "Pogledaj temu",
+                "discussion_link_short": "Pogledaj",
+                "discussion_deleted": "Tema obrisana",
+                "discussion_locked": "Tema zaključana",
+                "no_comment": "Komentar nije unesen",
+                "no_permission_report": "Nemate dopuštenje za izvršavanje ove radnje",
+                "unknown_user": "Nepoznati korisnik",
+                "user_id_format": "Korisnik #{id}"
             },
             "report_modal": {
-                "title": "",
-                "reason_label": "",
-                "reason_placeholder": "",
-                "submit_button": "",
-                "success": "",
-                "error": ""
+                "title": "Prijavi ocjenu",
+                "reason_label": "Razlog",
+                "reason_placeholder": "Molimo, navedite razlog za prijavu ove ocjene",
+                "submit_button": "Pošalji prijavu",
+                "success": "Prijava ocjene uspješna",
+                "error": "Slanje prijave ocjene nije uspjelo"
             },
             "notifications": {
-                "new_feedback_title": "",
-                "feedback_approved_title": "",
-                "feedback_rejected_title": ""
+                "new_feedback_title": "Korisnik {username} vam je ostavio {type} ocjenu",
+                "feedback_approved_title": "Vaša ocjena za korisnika {username} je odobrena",
+                "feedback_rejected_title": "Vaša ocjena za korisnika {username} je odbijena"
             },
             "settings": {
-                "notify_new_feedback_label": "",
-                "notify_feedback_approved_label": "",
-                "notify_feedback_rejected_label": ""
+                "notify_new_feedback_label": "Netko Vam je ostavio ocjenu",
+                "notify_feedback_approved_label": "Moja ocjena je odobrena",
+                "notify_feedback_rejected_label": "Moja ocjena je odbijena"
             }
         },
         "admin": {
             "permissions": {
-                "give_feedback": "",
-                "moderate_feedback": "",
-                "report_feedback": "",
-                "delete_feedback": ""
+                "give_feedback": "Ocijeni kupoprodaju",
+                "moderate_feedback": "Moderiranje ocjena korisnika",
+                "report_feedback": "Prijavi ocjenu",
+                "delete_feedback": "Obriši ocjenu"
             },
             "tabs": {
-                "settings": "",
-                "approvals": "",
-                "reports": ""
+                "settings": "Postavke",
+                "approvals": "Na čekanju za odobrenje",
+                "reports": "Izvješća"
             },
             "settings": {
-                "title": "",
-                "help_text": "",
-                "section_general": "",
-                "section_discussion": "",
-                "section_comment": "",
-                "section_requirements": "",
-                "allow_negative_label": "",
-                "require_approval_label": "",
+                "title": "Postavke ocjena korisnika",
+                "help_text": "Konfiguriraj sustav ocjena korisnika",
+                "section_general": "Opće postavke",
+                "section_discussion": "Postavke teme",
+                "section_comment": "Postavke opisa",
+                "section_requirements": "Korisnički zahtjevi",
+                "allow_negative_label": "Dopusti negativne ocjene",
+                "require_approval_label": "Zahtijevaj odobrenje za ocjene",
                 "require_discussion_label": "",
                 "require_discussion_help": "",
                 "one_per_discussion_label": "",
