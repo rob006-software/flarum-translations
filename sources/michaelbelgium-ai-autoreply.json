@@ -3,11 +3,11 @@
         "admin": {
             "settings": {
                 "platform_label": "Platform",
-                "platform_help": "Select the AI platform to use (default: <code>OpenAI</code>).",
+                "platform_help": "Select the AI platform to use.",
                 "api_key_label": "API Key",
-                "api_key_help": "Get the API key from chosen platform.",
+                "api_key_help": "Get the API key from <a>{platform}</a>.",
                 "model_label": "Model",
-                "model_help": "Learn more about {openai}, {anthropic} (default: <code>gpt-5-mini</code>).",
+                "model_help": "Learn more about <a>{platform} models</a> (default: <code>{model}</code>)..",
                 "max_tokens_label": "Max Tokens",
                 "max_tokens_help": "<a>What are tokens and how to count them?</a>",
                 "user_prompt_label": "User Prompt",
