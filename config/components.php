@@ -1439,6 +1439,9 @@ return [
 	'wolfgang-demeter-bbcode-5star-rating' => [
 		'tag' => 'https://raw.githubusercontent.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating/v0.1.8/locale/en.yml',
 	],
+	'wszdb-ai-deepseek' => [
+		'tag' => 'https://raw.githubusercontent.com/wszdb/flarum-ai-deepseek/v0.1/locale/en.yml',
+	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.5/resources/locale/en.yaml',
 	],
