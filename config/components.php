@@ -791,6 +791,9 @@ return [
 	'huoxin-auto-follow-discussion' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-follow-discussion/0.0.2/locale/en.yml',
 	],
+	'huseyinfiliz-custom-profile-page' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/custom-profile-page/0.1.1/locale/en.yml',
+	],
 	'huseyinfiliz-flagify' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/flagify/0.1/locale/en.yml',
 	],
