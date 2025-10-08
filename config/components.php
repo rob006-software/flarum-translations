@@ -810,7 +810,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sort-changer/v1/locale/en.yml',
 	],
 	'huseyinfiliz-sticky-title' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/v1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/v1.8/locale/en.yml',
 	],
 	'huseyinfiliz-traderfeedback' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/traderfeedback/v1/resources/locale/en.yml',
