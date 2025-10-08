@@ -592,7 +592,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/2.0.0-beta.2/resources/locale/en.yml',
 	],
 	'fof-drafts' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/1.2.12/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/1.2.13/resources/locale/en.yml',
 	],
 	'fof-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/filter/1.2.2/resources/locale/en.yml',
