@@ -2,48 +2,48 @@
     "huseyinfiliz-custom-profile-page": {
         "admin": {
             "settings": {
-                "tab_title": "",
-                "tab_icon": "",
-                "tab_icon_help": "",
-                "url_slug": "",
-                "url_slug_help": "",
-                "content_format": "",
-                "format_markdown": "",
-                "format_html": "",
-                "format_text": "",
-                "allowed_html_tags": "",
-                "allowed_html_tags_help": "",
-                "enable_media_embeds": "",
-                "enable_media_embeds_help": ""
+                "tab_title": "Naslov kartice profila",
+                "tab_icon": "Ikona kartice (FontAwesome klasa)",
+                "tab_icon_help": "Primjer: fas fa-file-alt, fas fa-user, fas fa-star",
+                "url_slug": "URL-adresa (skraćeno ime)",
+                "url_slug_help": "URL putanja za prilagođenu stranicu (npr. 'customPage' stvara /u/korisničkoime/customPage). Koristite samo slova, brojeve, crtice i podvlake.",
+                "content_format": "Format sadržaja",
+                "format_markdown": "Markdown",
+                "format_html": "HTML",
+                "format_text": "Običan tekst",
+                "allowed_html_tags": "Dopuštene HTML oznake",
+                "allowed_html_tags_help": "Popis dopuštenih HTML oznaka odvojen zarezima (npr. b,i,u,strong,em,a). Samo će se te oznake prikazivati korisnicima.",
+                "enable_media_embeds": "Omogući ugradnju medija",
+                "enable_media_embeds_help": "Automatski pretvori YouTube poveznice u ugrađene video playere. Ako je isključeno, poveznice će se prikazivati kao obične tekstualne poveznice."
             },
             "permissions": {
-                "edit_own": "",
-                "view": "",
-                "moderate": ""
+                "edit_own": "Uredi vlastitu prilagođenu stranicu profila",
+                "view": "Pregledaj prilagođene stranice profila",
+                "moderate": "Uređivanje prilagođenih stranica profila (uredi stranicu bilo kojeg korisnika)"
             }
         },
         "forum": {
             "profile_tab": {
-                "loading": "",
-                "empty_own": "",
-                "empty_other": "",
-                "edit_button": "",
-                "save_button": "",
-                "cancel_button": ""
+                "loading": "Učitavanje...",
+                "empty_own": "Izgleda da još niste izradili svoju prilagođenu stranicu.",
+                "empty_other": "Izgleda da ovdje nema sadržaja.",
+                "edit_button": "Uredi stranicu",
+                "save_button": "Spremi",
+                "cancel_button": "Poništi"
             },
             "edit_modal": {
-                "title": "",
-                "content_label": "",
-                "content_placeholder": "",
-                "submit_button": "",
-                "error": "",
-                "markdown_help": "",
-                "html_help": "",
-                "text_help": ""
+                "title": "Uredi prilagođenu stranicu profila",
+                "content_label": "Sadržaj",
+                "content_placeholder": "Unesi svoj sadržaj ovdje...",
+                "submit_button": "Spremi promjene",
+                "error": "Spremanje promjena nije uspjelo. Pokušajte ponovno.",
+                "markdown_help": "Možete koristiti Markdown formatiranje: podebljano, kurziv, poveznica, kod itd.",
+                "html_help": "Možete koristiti sljedeće HTML oznake: {tags}",
+                "text_help": "Samo običan tekst. HTML ili Markdown formatiranje nije dopušteno."
             },
             "errors": {
-                "permission_denied": "",
-                "load_failed": ""
+                "permission_denied": "Nemate dopuštenje za pregled ove stranice",
+                "load_failed": "Učitavanje prilagođene stranice nije uspjelo"
             }
         }
     }
