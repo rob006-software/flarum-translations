@@ -34,11 +34,11 @@
                 "comment_label": "Yorum",
                 "comment_placeholder": "Bu kullanıcıyla ticaret deneyiminizi açıklayın",
                 "submit_button": "Geri Bildirim Gönder",
-                "error_too_short": "Yorum en az {min} karakter olmalıdır.",
-                "error_too_long": "Yorum en fazla {max} karakter olmalıdır.",
-                "error_discussion_required": "Tartışma bağlantısı veya kimliği gereklidir.",
-                "error_submit": "Geri bildirim gönderilirken hata oluştu.",
-                "success": "Geri bildirim başarıyla gönderildi."
+                "error_too_short": "Yorum en az {min} karakter olmalıdır",
+                "error_too_long": "Yorum en fazla {max} karakter olmalıdır",
+                "error_discussion_required": "Tartışma bağlantısı veya kimliği gereklidir",
+                "error_submit": "Geri bildirim gönderilirken hata oluştu",
+                "success": "Geri bildirim başarıyla gönderildi"
             },
             "user_card": {
                 "score_tooltip": "Ticaret Puanı",
@@ -54,9 +54,9 @@
                     "neutral": "Tarafsız",
                     "negative": "Olumsuz"
                 },
-                "no_feedback": "Bu kullanıcı henüz herhangi bir geri bildirim almadı.",
+                "no_feedback": "Bu kullanıcı henüz herhangi bir geri bildirim almadı",
                 "give_feedback_button": "Geri Bildirim Ver",
-                "give_feedback_button_short": "Ver",
+                "give_feedback_button_short": "Gönder",
                 "filter": {
                     "all": "Tüm Geri Bildirimler",
                     "positive": "Sadece Olumlu",
@@ -72,36 +72,36 @@
                 }
             },
             "feedback_item": {
-                "as_buyer": "alıcı olarak",
-                "as_seller": "satıcı olarak",
-                "as_trader": "ticaret olarak",
-                "report_button": "Rapor Et",
+                "as_buyer": "Alıcı olarak",
+                "as_seller": "Satıcı olarak",
+                "as_trader": "Ticaret olarak",
+                "report_button": "Raporla",
                 "delete_button": "Sil",
                 "edit_button": "Düzenle",
                 "confirm_delete": "Bu geri bildirimi silmek istediğinize emin misiniz?",
-                "delete_success": "Geri bildirim başarıyla silindi.",
-                "delete_error": "Geri bildirim silinemedi.",
+                "delete_success": "Geri bildirim başarıyla silindi",
+                "delete_error": "Geri bildirim silinemedi",
                 "discussion_link": "Tartışmayı Görüntüle",
                 "discussion_link_short": "Görüntüle",
-                "discussion_deleted": "Tartışma silinmiş.",
-                "discussion_locked": "Tartışma kilitli.",
-                "no_comment": "Yorum yapılmamış.",
-                "no_permission_report": "Bu işlemi gerçekleştirme izniniz yok.",
+                "discussion_deleted": "Tartışma silinmiş",
+                "discussion_locked": "Tartışma kilitli",
+                "no_comment": "Yorum yapılmamış",
+                "no_permission_report": "Bu işlemi gerçekleştirme izniniz yok",
                 "unknown_user": "Bilinmeyen Kullanıcı",
                 "user_id_format": "Kullanıcı #{id}"
             },
             "report_modal": {
-                "title": "Geri Bildirimi Rapor Et",
+                "title": "Geri Bildirimi Raporla",
                 "reason_label": "Sebep",
-                "reason_placeholder": "Lütfen bu geri bildirimi neden rapor ettiğinizi açıklayın",
+                "reason_placeholder": "Lütfen bu geri bildirimi neden raporladığınızı açıklayın",
                 "submit_button": "Raporu Gönder",
-                "success": "Geri bildirim başarıyla rapor edildi.",
-                "error": "Geri bildirim rapor edilemedi."
+                "success": "Geri bildirim başarıyla rapor edildi",
+                "error": "Geri bildirim rapor edilemedi"
             },
             "notifications": {
-                "new_feedback_title": "{username} size {type} bir geri bildirim verdi.",
-                "feedback_approved_title": "{username} kullanıcısına verdiğiniz geri bildirim onaylandı.",
-                "feedback_rejected_title": "{username} kullanıcısına verdiğiniz geri bildirim reddedildi."
+                "new_feedback_title": "{username} size {type} bir geri bildirim verdi",
+                "feedback_approved_title": "{username} kullanıcısına verdiğiniz geri bildirim onaylandı",
+                "feedback_rejected_title": "{username} kullanıcısına verdiğiniz geri bildirim reddedildi"
             },
             "settings": {
                 "notify_new_feedback_label": "Biri bana geri bildirim verdiğinde",
@@ -113,7 +113,7 @@
             "permissions": {
                 "give_feedback": "Ticaret geri bildirimi ver",
                 "moderate_feedback": "Ticaret geri bildirimlerini yönet",
-                "report_feedback": "Geri bildirimi rapor et",
+                "report_feedback": "Geri bildirimi raporla",
                 "delete_feedback": "Geri bildirimi sil"
             },
             "tabs": {
@@ -130,19 +130,19 @@
                 "section_requirements": "Kullanıcı Gereksinimleri",
                 "allow_negative_label": "Olumsuz geri bildirime izin ver",
                 "require_approval_label": "Geri bildirimler onay gerektirsin",
-                "require_discussion_label": "Tartışma URL’si / Kimliği zorunlu olsun",
-                "require_discussion_help": "Kullanıcılar geri bildirim verirken tartışma bağlantısı girmelidir.",
+                "require_discussion_label": "Tartışma bağlantısı / kimliği zorunlu olsun",
+                "require_discussion_help": "Kullanıcılar geri bildirim verirken tartışma bağlantısı girmelidir",
                 "one_per_discussion_label": "Her tartışma için tek geri bildirim",
-                "one_per_discussion_help": "Aynı kullanıcılar arasındaki her tartışma için yalnızca bir geri bildirim verilmesini sınırla.",
+                "one_per_discussion_help": "Aynı kullanıcılar arasındaki her tartışma için yalnızca bir geri bildirim verilmesini sınırla",
                 "min_length_label": "Minimum yorum uzunluğu",
                 "max_length_label": "Maksimum yorum uzunluğu",
                 "submit_button": "Ayarları Kaydet",
                 "min_days_label": "Minimum üyelik süresi (gün)",
-                "min_days_help": "Kullanıcıların geri bildirim verebilmesi için en az bu kadar gün üye olması gerekir (0 = devre dışı).",
+                "min_days_help": "Kullanıcıların geri bildirim verebilmesi için en az bu kadar gün üye olması gerekir (0 = devre dışı)",
                 "min_posts_label": "Gerekli minimum gönderi sayısı",
-                "min_posts_help": "Kullanıcıların geri bildirim verebilmesi için en az bu kadar gönderisi olmalıdır (0 = devre dışı).",
+                "min_posts_help": "Kullanıcıların geri bildirim verebilmesi için en az bu kadar gönderisi olmalıdır (0 = devre dışı)",
                 "show_badge_in_posts_label": "Gönderilerde ticaret rozeti göster",
-                "show_badge_in_posts_help": "Forum gönderilerinde kullanıcı adının yanında ticaret puanını göster."
+                "show_badge_in_posts_help": "Forum gönderilerinde kullanıcı adının yanında ticaret puanını göster"
             },
             "dashboard": {
                 "title": "Ticaret Geri Bildirim İstatistikleri",
@@ -151,7 +151,7 @@
                 "neutral_feedbacks": "Tarafsız Geri Bildirim",
                 "negative_feedbacks": "Olumsuz Geri Bildirim",
                 "pending_approvals": "Bekleyen Onaylar",
-                "reported_feedbacks": "Rapor Edilen Geri Bildirimler"
+                "reported_feedbacks": "Raporlanan Geri Bildirimler"
             },
             "roles": {
                 "buyer": "Alıcı",
@@ -159,14 +159,14 @@
                 "trader": "Ticaret"
             },
             "reports": {
-                "title": "Rapor Edilen Geri Bildirimler",
-                "no_reports": "Rapor edilen geri bildirim yok.",
-                "load_error": "Raporlar yüklenemedi.",
-                "user_reported": "{username} tarafından rapor edildi.",
+                "title": "Raporlanan Geri Bildirimler",
+                "no_reports": "Raporlanan geri bildirim yok",
+                "load_error": "Raporlar yüklenemedi",
+                "user_reported": "{username} tarafından raporlandı",
                 "unknown_user": "Bilinmeyen",
                 "user_id_format": "Kullanıcı #{id}",
                 "reason_label": "Sebep:",
-                "reported_feedback_label": "Rapor Edilen Geri Bildirim",
+                "reported_feedback_label": "Raporlanan Geri Bildirim",
                 "approve_button": "Onayla",
                 "reject_button": "Reddet",
                 "dismiss_button": "Raporu Kapat",
@@ -175,14 +175,14 @@
                 "confirm_reject": "Bu geri bildirimi reddetmek istediğinize emin misiniz?",
                 "confirm_dismiss": "Bu raporu kapatmak istediğinize emin misiniz?",
                 "confirm_delete": "Bu geri bildirimi silmek istediğinize emin misiniz? Bu işlem geri alınamaz.",
-                "dismissed_success": "Rapor başarıyla kapatıldı.",
-                "dismissed_error": "Rapor kapatılamadı.",
-                "deleted_success": "Geri bildirim başarıyla silindi.",
-                "deleted_error": "Geri bildirim silinemedi."
+                "dismissed_success": "Rapor başarıyla kapatıldı",
+                "dismissed_error": "Rapor kapatılamadı",
+                "deleted_success": "Geri bildirim başarıyla silindi",
+                "deleted_error": "Geri bildirim silinemedi"
             },
             "approvals": {
                 "title": "Bekleyen Onaylar",
-                "no_approvals": "Bekleyen onay yok.",
+                "no_approvals": "Bekleyen onay yok",
                 "unknown_user": "Bilinmeyen",
                 "user_id_format": "Kullanıcı #{id}",
                 "view_discussion": "Tartışmayı Görüntüle",
@@ -190,10 +190,10 @@
                 "reject_button": "Reddet",
                 "confirm_approve": "Bu geri bildirimi onaylamak istediğinize emin misiniz?",
                 "confirm_reject": "Bu geri bildirimi reddetmek istediğinize emin misiniz?",
-                "approved_success": "Geri bildirim başarıyla onaylandı.",
-                "approved_error": "Geri bildirim onaylanamadı.",
-                "rejected_success": "Geri bildirim başarıyla reddedildi.",
-                "rejected_error": "Geri bildirim reddedilemedi."
+                "approved_success": "Geri bildirim başarıyla onaylandı",
+                "approved_error": "Geri bildirim onaylanamadı",
+                "rejected_success": "Geri bildirim başarıyla reddedildi",
+                "rejected_error": "Geri bildirim reddedilemedi"
             }
         }
     }
