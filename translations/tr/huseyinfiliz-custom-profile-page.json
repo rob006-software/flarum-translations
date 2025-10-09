@@ -2,48 +2,48 @@
     "huseyinfiliz-custom-profile-page": {
         "admin": {
             "settings": {
-                "tab_title": "",
-                "tab_icon": "",
-                "tab_icon_help": "",
-                "url_slug": "",
-                "url_slug_help": "",
-                "content_format": "",
-                "format_markdown": "",
-                "format_html": "",
-                "format_text": "",
-                "allowed_html_tags": "",
-                "allowed_html_tags_help": "",
-                "enable_media_embeds": "",
-                "enable_media_embeds_help": ""
+                "tab_title": "Profil Sekmesi Başlığı",
+                "tab_icon": "Sekme İkonu (FontAwesome)",
+                "tab_icon_help": "Örnek: fas fa-file-alt, fas fa-user, fas fa-star",
+                "url_slug": "Bağlantı Yolu",
+                "url_slug_help": "Özel sayfa için bağlantı yolu (örn: 'hakkinda' ile /u/kullaniciadi/hakkinda oluşur). Sadece harf, rakam, tire ve alt çizgi kullanın.",
+                "content_format": "İçerik Formatı",
+                "format_markdown": "Markdown",
+                "format_html": "HTML",
+                "format_text": "Düz Metin",
+                "allowed_html_tags": "İzin Verilen HTML Etiketleri",
+                "allowed_html_tags_help": "Virgülle ayrılmış izin verilen HTML etiketleri (örn: b,i,u,strong,em,a). Sadece bu etiketler kullanıcılara gösterilecektir.",
+                "enable_media_embeds": "Medyaları Etkinleştir",
+                "enable_media_embeds_help": "YouTube bağlantılarını otomatik olarak gömülü video oynatıcılara dönüştür. Devre dışı bırakılırsa, bağlantılar normal metin bağlantıları olarak görüntülenir."
             },
             "permissions": {
-                "edit_own": "",
-                "view": "",
-                "moderate": ""
+                "edit_own": "Kendi özel profil sayfasını düzenle",
+                "view": "Özel profil sayfalarını görüntüle",
+                "moderate": "Özel profil sayfalarını yönet (herhangi bir kullanıcının sayfasını düzenle)"
             }
         },
         "forum": {
             "profile_tab": {
-                "loading": "",
-                "empty_own": "",
-                "empty_other": "",
-                "edit_button": "",
-                "save_button": "",
-                "cancel_button": ""
+                "loading": "Yükleniyor...",
+                "empty_own": "Henüz özel sayfanızı oluşturmadınız.",
+                "empty_other": "Burada görüntülenecek bir içerik yok.",
+                "edit_button": "Sayfayı Düzenle",
+                "save_button": "Kaydet",
+                "cancel_button": "İptal"
             },
             "edit_modal": {
-                "title": "",
-                "content_label": "",
-                "content_placeholder": "",
-                "submit_button": "",
-                "error": "",
-                "markdown_help": "",
-                "html_help": "",
-                "text_help": ""
+                "title": "Özel Profil Sayfasını Düzenle",
+                "content_label": "İçerik",
+                "content_placeholder": "İçeriğinizi buraya yazın...",
+                "submit_button": "Değişiklikleri Kaydet",
+                "error": "Değişiklikler kaydedilemedi. Lütfen tekrar deneyin.",
+                "markdown_help": "Markdown formatlamayı kullanabilirsiniz: **kalın**, *italik*, [metin](bağlantı), `kod`, vb.",
+                "html_help": "Şu HTML etiketlerini kullanabilirsiniz: {tags}",
+                "text_help": "Sadece düz metin. HTML veya Markdown formatına izin verilmez."
             },
             "errors": {
-                "permission_denied": "",
-                "load_failed": ""
+                "permission_denied": "Bu sayfayı görüntüleme yetkiniz yok",
+                "load_failed": "Özel sayfa yüklenemedi"
             }
         }
     }
