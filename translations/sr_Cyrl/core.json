@@ -6,7 +6,7 @@
                 "colors_heading": "Боје",
                 "colors_primary_label": "Основна боја",
                 "colors_secondary_label": "Споредна боја",
-                "colors_text": "Одаберите две боје за тему вашег форума. Прва је боја за истакнути садржај а друга је боја позадинских елемената.",
+                "colors_text": "Одаберите две боје за тему вашег форума. Прва је боја за истакнути садржај а друга је боја за стил позадинских елемената.",
                 "custom_footer_heading": "",
                 "custom_footer_text": "",
                 "custom_header_heading": "",
@@ -116,12 +116,12 @@
                 "mail_mailgun_domain_label": "",
                 "mail_mailgun_region_label": "",
                 "mail_mailgun_secret_label": "",
-                "mail_password_label": "",
+                "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Порт",
-                "mail_username_label": "",
+                "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "",
                 "not_sending_message": "Фларум тренутно не може да шаље мејлове. Узрок може бити у одабраном драјверу, или грешкама у његовој конфигурацији.",
-                "send_test_mail_button": "",
+                "send_test_mail_button": "Пошаљи",
                 "send_test_mail_heading": "",
                 "send_test_mail_success": "",
                 "send_test_mail_text": "",
@@ -136,17 +136,17 @@
                 "enabled": "",
                 "info_links": {
                     "discuss": "",
-                    "documentation": "",
-                    "donate": "",
+                    "documentation": "Документација",
+                    "donate": "Донирајте",
                     "source": "",
-                    "support": "",
+                    "support": "Подршка",
                     "website": ""
                 },
                 "no_permissions": "",
                 "no_settings": "",
-                "open_modal": "",
-                "permissions_title": "",
-                "purge_button": "",
+                "open_modal": "Отвори подешавања",
+                "permissions_title": "Дозволе",
+                "purge_button": "Очисти",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
@@ -158,7 +158,7 @@
                 "log_out_button": ""
             },
             "loading": {
-                "title": ""
+                "title": "Молим сачекајте..."
             },
             "nav": {
                 "appearance_button": "",
@@ -546,7 +546,7 @@
                 "dismiss_a11y_label": ""
             },
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "Скривено"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
@@ -719,7 +719,7 @@
             "icon_text": "",
             "load_more": "Учитај још",
             "loading": "Учитава се...",
-            "log_in": "",
+            "log_in": "Пријавите се",
             "log_out": "",
             "mark_all_as_read": "",
             "never": "",
