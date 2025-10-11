@@ -19,28 +19,28 @@
                 "edit_css_button": "",
                 "edit_footer_button": "",
                 "edit_header_button": "",
-                "enter_hex_message": "",
+                "enter_hex_message": "Унесите хексадецималну вредност за боју.",
                 "favicon_heading": "",
                 "favicon_text": "",
                 "logo_heading": "",
-                "logo_text": "",
-                "title": ""
+                "logo_text": "Пошаљите слику која ће се користити уместо наслова форума.",
+                "title": "Изглед"
             },
             "basics": {
                 "all_discussions_label": "",
-                "default_language_heading": "",
-                "description": "",
-                "display_name_heading": "",
-                "display_name_text": "",
-                "forum_description_heading": "",
+                "default_language_heading": "Подразумевани језик",
+                "description": "Подесите наслов, језик и друга основна подешавања за ваш форум.",
+                "display_name_heading": "Приказ имена корисника",
+                "display_name_text": "Изаберите шта треба приказати као име корисника. Подразумевано подешавање је да се приказује корисничко име.",
+                "forum_description_heading": "Опис форума",
                 "forum_description_text": "",
-                "forum_title_heading": "",
-                "home_page_heading": "",
+                "forum_title_heading": "Наслов форума",
+                "home_page_heading": "Почетна страна",
                 "home_page_text": "",
-                "show_language_selector_label": "",
+                "show_language_selector_label": "Прикажи подешавања за одабир језика",
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
-                "title": "",
+                "title": "Основно",
                 "welcome_banner_heading": "",
                 "welcome_banner_text": ""
             },
@@ -50,12 +50,12 @@
                 "password_placeholder": "",
                 "submit_and_create_another_button": "",
                 "submit_button": "",
-                "title": "",
-                "use_random_password": "",
+                "title": "Нови корисник",
+                "use_random_password": "Генериши насумичну шифру",
                 "username_placeholder": ""
             },
             "dashboard": {
-                "clear_cache_button": "",
+                "clear_cache_button": "Очисти кеш",
                 "description": "",
                 "io_error_message": "",
                 "status": {
@@ -70,8 +70,8 @@
                         "never-run": ""
                     }
                 },
-                "title": "",
-                "tools_button": ""
+                "title": "Контролна табла",
+                "tools_button": "Алати"
             },
             "debug-warning": {
                 "detail": "",
@@ -89,8 +89,8 @@
             },
             "edit_group": {
                 "color_label": "",
-                "delete_button": "",
-                "delete_confirmation": "",
+                "delete_button": "Обриши групу",
+                "delete_confirmation": "Да ли сте сигурни да желите да обришете ову групу? Чланови групе неће бити обрисани.",
                 "hide_label": "",
                 "icon_label": "",
                 "icon_text": "",
@@ -98,7 +98,7 @@
                 "plural_placeholder": "",
                 "singular_placeholder": "",
                 "submit_button": "",
-                "title": ""
+                "title": "Направи групу"
             },
             "edit_header": {
                 "customize_text": "",
@@ -110,17 +110,17 @@
                 "description": "",
                 "driver_heading": "",
                 "driver_label": "",
-                "from_label": "",
-                "mail_encryption_label": "",
-                "mail_host_label": "",
+                "from_label": "Пошиљалац",
+                "mail_encryption_label": "Шифровање",
+                "mail_host_label": "Домаћин",
                 "mail_mailgun_domain_label": "",
                 "mail_mailgun_region_label": "",
                 "mail_mailgun_secret_label": "",
                 "mail_password_label": "",
-                "mail_port_label": "",
+                "mail_port_label": "Порт",
                 "mail_username_label": "",
                 "mailgun_heading": "",
-                "not_sending_message": "",
+                "not_sending_message": "Фларум тренутно не може да шаље мејлове. Узрок може бити у одабраном драјверу, или грешкама у његовој конфигурацији.",
                 "send_test_mail_button": "",
                 "send_test_mail_heading": "",
                 "send_test_mail_success": "",
