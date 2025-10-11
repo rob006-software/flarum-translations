@@ -374,6 +374,9 @@ return [
 	'datlechin-add-like-controls' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-add-like-controls/v1.0.6/locale/en.yml',
 	],
+	'datlechin-ai-summarize' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ai-summarize/v0.1.0/locale/en.yml',
+	],
 	'datlechin-bbcode-hide-content' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v0.1.6/locale/en.yml',
 	],
