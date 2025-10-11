@@ -377,6 +377,9 @@ return [
 	'datlechin-ai' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ai/v0.1.0/locale/en.yml',
 	],
+	'datlechin-ai-summarize' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ai-summarize/v0.1.0/locale/en.yml',
+	],
 	'datlechin-bbcode-hide-content' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v0.1.6/locale/en.yml',
 	],
