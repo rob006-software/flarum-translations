@@ -1,0 +1,35 @@
+{
+    "datlechin-ai": {
+        "admin": {
+            "settings": {
+                "provider_label": "",
+                "provider_openai": "",
+                "provider_gemini": "",
+                "provider_anthropic": "",
+                "api_key_label": "",
+                "api_key_placeholder": "",
+                "base_url_label": "",
+                "base_url_placeholder": "",
+                "text_model_label": "",
+                "embeddings_model_label": "",
+                "moderation_model_label": "",
+                "custom_model_label": "",
+                "custom_model_placeholder": "",
+                "custom_base_url_label": "",
+                "test_text_button": "",
+                "test_embeddings_button": "",
+                "test_moderation_button": "",
+                "test_success": "",
+                "test_failed": ""
+            }
+        },
+        "forum": {
+            "ai_search_placeholder": ""
+        },
+        "permissions": {
+            "generate": "",
+            "embed": "",
+            "moderate": ""
+        }
+    }
+}
