@@ -1004,6 +1004,8 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datitisev-discussion-agree-message`](https://weblate.rob006.net/projects/flarum/datitisev-discussion-agree-message) | [`datitisev/flarum-discussion-agree-message`](https://github.com/dsevillamartin/flarum-discussion-agree-message) |
 | [`datitisev-post-galleries`](https://weblate.rob006.net/projects/flarum/datitisev-post-galleries) | [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) |
 | [`datlechin-add-like-controls`](https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls) | [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls) |
+| [`datlechin-ai`](https://weblate.rob006.net/projects/flarum/datlechin-ai) | [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai) |
+| [`datlechin-ai-summarize`](https://weblate.rob006.net/projects/flarum/datlechin-ai-summarize) | [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize) |
 | [`datlechin-bbcode-hide-content`](https://weblate.rob006.net/projects/flarum/datlechin-bbcode-hide-content) | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) |
 | [`datlechin-birthdays`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays) | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) |
 | [`datlechin-birthdays-widget`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays-widget) | [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget) |
