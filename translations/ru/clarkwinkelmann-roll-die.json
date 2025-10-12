@@ -2,16 +2,16 @@
     "clarkwinkelmann-roll-die": {
         "admin": {
             "settings": {
-                "clearOnEdit": ""
+                "clearOnEdit": "Генерировать новые числа при редактировании сообщения"
             }
         },
         "forum": {
             "tooltip": {
-                "render": "",
-                "preview": ""
+                "render": "Случайное число: {number}",
+                "preview": "Случайный бросок при сохранении"
             },
             "composer": {
-                "rollDie": ""
+                "rollDie": "Бросок кубика"
             }
         }
     }
