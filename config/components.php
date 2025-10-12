@@ -164,6 +164,9 @@ return [
 	'cadiducho-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.2/resources/locale/en.yml',
 	],
+	'capybash-magicbb' => [
+		'tag' => 'https://raw.githubusercontent.com/capybash/magicbb/v3.1.1/resources/locale/en.yml',
+	],
 	'capybash-magicread' => [
 		'tag' => 'https://raw.githubusercontent.com/capybash/magicread/v1.1.1/resources/locale/en.yml',
 	],
@@ -378,10 +381,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-add-like-controls/v1.0.6/locale/en.yml',
 	],
 	'datlechin-ai' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ai/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ai/v0.1.1/locale/en.yml',
 	],
 	'datlechin-ai-summarize' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ai-summarize/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ai-summarize/v0.1.1/locale/en.yml',
 	],
 	'datlechin-bbcode-hide-content' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v0.1.6/locale/en.yml',

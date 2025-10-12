@@ -137,6 +137,8 @@ return [
 	'ro' => getComponents(),
 	'ru' => getComponents([
 		// translations included in extension
+		'!capybash-magicbbt',
+		'!capybash-magicread',
 		'!xelson-chat',
 	]),
 	'sc' => getComponents(),
