@@ -2,40 +2,40 @@
     "huseyinfiliz-custom-profile-page": {
         "admin": {
             "settings": {
-                "tab_title": "",
-                "tab_icon": "",
-                "tab_icon_help": "",
-                "url_slug": "",
-                "url_slug_help": "",
-                "content_format": "",
-                "format_markdown": "",
-                "format_html": "",
-                "format_text": "",
-                "allowed_html_tags": "",
-                "allowed_html_tags_help": "",
-                "default_template": "",
-                "default_template_help": "",
-                "enable_media_embeds": "",
-                "enable_media_embeds_help": ""
+                "tab_title": "Название страницы в профиле",
+                "tab_icon": "Ионка страницы",
+                "tab_icon_help": "Примеры: fas fa-file-alt, fas fa-user, fas fa-star",
+                "url_slug": "Ссылка",
+                "url_slug_help": "URL-путь для пользовательской страницы (например, «customPage» создаст адрес /u/имя_пользователя/customPage). Используйте только буквы, цифры, дефисы и подчёркивание.",
+                "content_format": "Формат контента",
+                "format_markdown": "Markdown",
+                "format_html": "HTML",
+                "format_text": "Обычный текст",
+                "allowed_html_tags": "Разрешённые HTML-теги",
+                "allowed_html_tags_help": "Список разрешённых HTML-тегов, разделённых запятыми (например: b,i,u,strong,em,a). Только эти теги будут доступны пользователям.",
+                "default_template": "Шаблон",
+                "default_template_help": "Это содержимое автоматически появится в редакторе, когда пользователи впервые создадут пользовательскую страницу. Оставьте пустым, чтобы создавалась чистая страница.",
+                "enable_media_embeds": "Включить встраивание медиа",
+                "enable_media_embeds_help": "Автоматически преобразовывать ссылки YouTube во встроенный видеоплеер. Если функция отключена, ссылки будут отображаться как обычный текст."
             },
             "permissions": {
-                "edit_own": "",
-                "view": "",
-                "moderate": ""
+                "edit_own": "Редактирование собственной кастомной страницы",
+                "view": "Просмотр кастомных страниц",
+                "moderate": "Редактирование кастомных страниц"
             }
         },
         "forum": {
             "profile_tab": {
-                "loading": "",
-                "empty_own": "",
-                "empty_other": "",
-                "edit_button": "",
-                "save_button": "",
-                "cancel_button": ""
+                "loading": "Загрузка...",
+                "empty_own": "Вы ещё не создали свою кастомную страницу.",
+                "empty_other": "Пока что ничего нет.",
+                "edit_button": "Редактировать",
+                "save_button": "Сохранить",
+                "cancel_button": "Отменить"
             },
             "edit_modal": {
-                "title": "",
-                "content_label": "",
+                "title": "Редактирование страницы",
+                "content_label": "Контент",
                 "content_placeholder": "",
                 "submit_button": "",
                 "error": "",
