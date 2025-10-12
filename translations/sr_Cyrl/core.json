@@ -187,107 +187,107 @@
                 "search_placeholder": ""
             },
             "permissions": {
-                "allow_hide_own_posts_label": "",
-                "allow_post_editing_label": "",
-                "allow_renaming_label": "",
-                "create_access_token_label": "",
-                "create_heading": "",
-                "delete_discussions_forever_label": "",
-                "delete_discussions_label": "",
-                "delete_posts_forever_label": "",
-                "delete_posts_label": "",
-                "description": "",
-                "edit_posts_label": "",
-                "edit_users_label": "",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
-                "global_heading": "",
-                "moderate_heading": "",
-                "moderate_access_tokens_label": "",
-                "new_group_button": "",
-                "participate_heading": "",
-                "post_without_throttle_label": "",
-                "read_heading": "",
-                "remove_scope_label": "",
-                "rename_discussions_label": "",
-                "reply_to_discussions_label": "",
+                "allow_hide_own_posts_label": "Дозволи брисање сопствених порука",
+                "allow_post_editing_label": "Дозволи уређивање порука",
+                "allow_renaming_label": "Дозволи преименовање",
+                "create_access_token_label": "Направи токен за приступ",
+                "create_heading": "Направи",
+                "delete_discussions_forever_label": "Обриши дискусију заувек",
+                "delete_discussions_label": "Обриши дискусију",
+                "delete_posts_forever_label": "Обриши поруке заувек",
+                "delete_posts_label": "Обриши поруке",
+                "description": "Прилагоди да може да се види ко шта да ради.",
+                "edit_posts_label": "Уреди поуке",
+                "edit_users_label": "Уреди атрибуте корисника",
+                "edit_users_credentials_label": "Уреди акредитиве корисника",
+                "edit_users_groups_label": "Уреди корисничке групе",
+                "global_heading": "Опште",
+                "moderate_heading": "Модериши",
+                "moderate_access_tokens_label": "Модериши токене за приступ",
+                "new_group_button": "Нова група",
+                "participate_heading": "Учествуј",
+                "post_without_throttle_label": "Одговори из више пута без чекања",
+                "read_heading": "Прочитај",
+                "remove_scope_label": "Обриши опсег {scope}",
+                "rename_discussions_label": "Преименуј дискусију",
+                "reply_to_discussions_label": "Одговори у дискусију",
                 "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
-                "title": "",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "",
-                "view_last_seen_at_label": "",
-                "view_post_ips_label": ""
+                "sign_up_label": "Упиши се",
+                "start_discussions_label": "Покрени дискусију",
+                "title": "Дозволе приступа",
+                "view_forum_label": "Погледај форум (дискусију и кориснике)",
+                "view_hidden_groups_label": "Погледај скривене значке групе",
+                "view_last_seen_at_label": "Увек погледај последње време приступа корисника",
+                "view_post_ips_label": "Погледај IP адресу са које је послата порука"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "",
+                "allow_indefinitely_button": "Неодређено",
                 "allow_never_button": "",
                 "allow_some_minutes_button": "",
-                "allow_ten_minutes_button": "",
-                "allow_until_reply_button": "",
-                "everyone_button": "",
+                "allow_ten_minutes_button": "За 10 минута",
+                "allow_until_reply_button": "До следећег одговора",
+                "everyone_button": "Сви",
                 "members_button": "",
-                "signup_closed_button": "",
-                "signup_open_button": ""
+                "signup_closed_button": "Затворено",
+                "signup_open_button": "Отворено"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "Ваше промене су записане.",
                 "submit_button": ""
             },
             "upload_image": {
                 "remove_button": "",
-                "upload_button": ""
+                "upload_button": "Изабери слику..."
             },
             "users": {
-                "create_user_button": "",
-                "description": "",
+                "create_user_button": "Нови корисник",
+                "description": "Пагинирана лиса свих корисника на вашем форуму.",
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
+                            "title": "Име за приказ"
                         },
                         "edit_user": {
                             "button": "",
-                            "tooltip": "",
+                            "tooltip": "Уреди {username}",
                             "title": ""
                         },
                         "email": {
                             "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "visibility_hide": "Сакриј адресу е-поште",
+                            "visibility_show": "Прикажи адресу е-поште"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Ништа",
+                            "title": "Групе"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Придружио се"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "Радње"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "Идентификатор"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
+                            "profile_link_tooltip": "Посети профил {username}",
                             "title": ""
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Неважеће"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Предходна страница",
+                    "first_button": "Иди на прву страницу",
+                    "go_to_page_textbox_a11y_label": "Иди директно на број странице",
+                    "last_button": "Иди на задњу страницу",
+                    "next_button": "Следећа страница",
+                    "page_counter": "Страница број {current} од укупно {total}"
                 },
                 "search_placeholder": "",
                 "title": "",
-                "total_users": ""
+                "total_users": "Укупно корисника: {count}"
             }
         },
         "forum": {
@@ -295,50 +295,50 @@
                 "confirm_password_placeholder": "",
                 "confirmation_message": "",
                 "dismiss_button": "",
-                "incorrect_password_message": "",
+                "incorrect_password_message": "Лозинка коју сте унели није исправна.",
                 "submit_button": "",
                 "title": ""
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
+                "send_button": "Пошаљите поруку за поништавање лозинке е-поштом",
+                "text": "Притисните дугме испод и проверите вашу е-пошту за линк да промените вашу лозинку.",
                 "title": ""
             },
             "composer": {
-                "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "close_tooltip": "Затвори",
+                "exit_full_screen_tooltip": "Изађите из режима преко целог екрана",
+                "full_screen_tooltip": "Режим преко целог екрана",
+                "minimize_tooltip": "Минимизуј",
+                "preview_tooltip": "Преглед"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
+                "body_placeholder": "Напиши поруку...",
+                "discard_confirmation": "Нисте објавили дискусију. Да ли желите да је поништите?",
+                "submit_button": "Објави дискусију",
                 "title": "",
-                "title_placeholder": ""
+                "title_placeholder": "Наслов дискусије"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "edited_message": "",
-                "post_link": "",
+                "discard_confirmation": "Нисте забележили ваше промене. Да ли желите да их поништите?",
+                "edited_message": "Ваша измена је извршена.",
+                "post_link": "Порука #{number} у {discussion}",
                 "submit_button": "",
                 "view_button": ""
             },
             "composer_reply": {
                 "body_placeholder": "",
-                "discard_confirmation": "",
-                "posted_message": "",
-                "submit_button": "",
+                "discard_confirmation": "Нисте објавили вашу поруку. Да ли желите да је поништите?",
+                "posted_message": "Ваша порука је објављена.",
+                "submit_button": "Објави одговор",
                 "view_button": ""
             },
             "discussion_controls": {
-                "cannot_reply_button": "",
-                "cannot_reply_text": "",
+                "cannot_reply_button": "Не можете одговорити",
+                "cannot_reply_text": "Немате дозволу да одговорите у овој дискусији",
                 "delete_button": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "Да ли сте сигурни да желите да избришете ову дискусију?",
                 "delete_forever_button": "",
-                "log_in_to_reply_button": "",
+                "log_in_to_reply_button": "Пријави се да одговориш",
                 "rename_button": "",
                 "reply_button": "",
                 "restore_button": "",
@@ -381,16 +381,16 @@
                 "mark_all_as_read_confirmation": "",
                 "mark_all_as_read_tooltip": "",
                 "meta_title_text": "",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "Освежи",
                 "start_discussion_button": "",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "Укључи/искључи падајућу мени за навигацију"
             },
             "index_sort": {
                 "latest_button": "Последње",
                 "newest_button": "Најновије",
                 "oldest_button": "Најстарије",
                 "relevance_button": "По релевантности",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Промени редослед сортирања дискусија",
                 "top_button": "Врх"
             },
             "log_in": {
@@ -398,95 +398,95 @@
                 "invalid_login_message": "Унесени податци за приступ нису исправни.",
                 "password_placeholder": "",
                 "remember_me_label": "Сачувај",
-                "sign_up_text": "",
+                "sign_up_text": "Немате налог? <a>Придружите се</a>",
                 "submit_button": "",
                 "title": "",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "Корисничко име или адреса е-поште"
             },
             "notifications": {
-                "delete_all_confirm": "",
-                "delete_all_tooltip": "",
-                "discussion_renamed_text": "",
-                "empty_text": "",
+                "delete_all_confirm": "Да ли сте сигурни да хоћете да обришете сва обавештења? Ову радњу није могуће опозвати",
+                "delete_all_tooltip": "Избриши сва обавештења",
+                "discussion_renamed_text": "{username} је променио наслов",
+                "empty_text": "Нема обавештења",
                 "mark_all_as_read_tooltip": "",
-                "mark_as_read_tooltip": "",
+                "mark_as_read_tooltip": "Обележи као прочитано",
                 "title": "",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Погледај обавештења",
                 "tooltip": ""
             },
             "post": {
-                "edited_text": "",
-                "edited_tooltip": "",
-                "number_tooltip": ""
+                "edited_text": "Уређено",
+                "edited_tooltip": "{username} уредио {ago}",
+                "number_tooltip": "Порука #{number}"
             },
             "post_controls": {
                 "delete_button": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "Да ли желите да обришете ову поруку заувек? Ова радња не може бити опозвана.",
                 "delete_forever_button": "",
                 "edit_button": "",
-                "hide_confirmation": "",
+                "hide_confirmation": "Да ли сте сигурни да желите да обришете ову поруку?",
                 "restore_button": "",
                 "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
-                "now_link": "",
-                "original_post_link": "",
-                "unread_text": "",
+                "now_link": "Сада",
+                "original_post_link": "Оригинална порука",
+                "unread_text": "{count} непрочитаних",
                 "viewing_text": ""
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "",
-                "discussion_renamed_text": "",
+                "discussion_renamed_old_tooltip": "Стари наслов је био: \"{old}\"",
+                "discussion_renamed_text": "{username} је променио наслов на {new} {time}.",
                 "load_more_button": "",
                 "reply_placeholder": "",
-                "time_lapsed_text": ""
+                "time_lapsed_text": "{period} касније"
             },
             "rename_discussion": {
                 "submit_button": "",
-                "title": ""
+                "title": "Преименуј дискусију"
             },
             "search": {
-                "all_discussions_button": "",
+                "all_discussions_button": "Претражи све дискусије са \"{query}\"",
                 "discussions_heading": "",
                 "users_heading": ""
             },
             "security": {
                 "browser_on_operating_system": "",
-                "cannot_terminate_current_session": "",
-                "created": "",
-                "current_active_session": "",
+                "cannot_terminate_current_session": "Не можете зауставити тренутно активну сесију. Уместо тога, одјави се.",
+                "created": "Створено",
+                "current_active_session": "Тренутно активна сесија",
                 "developer_tokens_heading": "",
-                "empty_text": "",
+                "empty_text": "Изгледа да нема ништа да се види овде.",
                 "global_logout": {
-                    "heading": "",
+                    "heading": "Одјави се свуда",
                     "help_text": "",
                     "log_out_button": ""
                 },
                 "hide_access_token": "",
-                "last_activity": "",
+                "last_activity": "Последња активност",
                 "never": "",
                 "new_access_token_button": "",
                 "new_access_token_modal": {
                     "submit_button": "",
                     "title": "",
-                    "title_placeholder": ""
+                    "title_placeholder": "Наслов"
                 },
-                "revoke_access_token": "",
+                "revoke_access_token": "Опозови",
                 "revoke_access_token_confirmation": "",
                 "sessions_heading": "",
                 "session_terminated": "",
                 "session_termination_failed": "",
                 "show_access_token": "",
-                "terminate_all_other_sessions": "",
+                "terminate_all_other_sessions": "Заврши све остале сесије",
                 "terminate_all_other_sessions_confirmation": "",
-                "terminate_session": "",
+                "terminate_session": "Заврши",
                 "title": "",
                 "token_revoked": "",
                 "token_item_title": "",
                 "token_title_placeholder": ""
             },
             "settings": {
-                "account_heading": "",
+                "account_heading": "Налог",
                 "change_email_button": "",
                 "change_password_button": "",
                 "notification_checkbox_a11y_label_template": "",
@@ -495,28 +495,28 @@
                 "notify_by_web_heading": "",
                 "notify_discussion_renamed_label": "",
                 "privacy_disclose_online_label": "",
-                "privacy_heading": "",
+                "privacy_heading": "Приватност",
                 "title": ""
             },
             "sign_up": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "log_in_text": "",
+                "log_in_text": "Да ли већ имате налог? <a>Пријавите се</a>",
                 "password_placeholder": "",
                 "submit_button": "",
                 "title": "",
                 "username_placeholder": "",
-                "welcome_text": ""
+                "welcome_text": "Добродошли {username}!"
             },
             "user": {
                 "avatar_remove_button": "",
-                "avatar_upload_button": "",
-                "avatar_upload_tooltip": "",
+                "avatar_upload_button": "Отпреми",
+                "avatar_upload_tooltip": "Отпреми новог аватара",
                 "discussions_link": "",
-                "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
-                "posts_empty_text": "",
+                "in_discussion_text": "У {discussion}",
+                "joined_date_text": "Придружио се {ago}",
+                "online_text": "На мрежи",
+                "posts_empty_text": "Изгледа да овде нема порука.",
                 "posts_link": "",
                 "posts_load_more_button": "",
                 "security_link": "",
@@ -566,7 +566,7 @@
                 "title": "",
                 "username_heading": "",
                 "username_label": "",
-                "nothing_available": "Ви нисте овлашћени да правите промене на овом кориснику"
+                "nothing_available": "Ви нисте овлашћени да правите промене на овом кориснику."
             },
             "error": {
                 "circular_dependencies_message": "",
@@ -616,17 +616,17 @@
             "admin": {
                 "extensions": {
                     "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
+                    "disable": "Онемогући",
+                    "empty": "Нема инсталираних проширења могућности",
+                    "enable": "Омогући",
                     "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "package_name": "Име пакета",
+                    "version": "Верзија"
                 },
                 "info": {
                     "caption": ""
                 },
-                "title": ""
+                "title": "Администрација"
             },
             "confirm_email": {
                 "submit_button": "",
@@ -644,7 +644,7 @@
             },
             "error": {
                 "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
+                "csrf_token_mismatch_return_link": "Иди назад да покушаш поново",
                 "invalid_confirmation_token": "",
                 "not_authenticated": "",
                 "not_found": "",
@@ -659,18 +659,18 @@
             },
             "log_out": {
                 "log_out_button": "",
-                "log_out_confirmation": "",
+                "log_out_confirmation": "Да ли сте сигурни да желите да се одјавите из {forum}?",
                 "title": ""
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
+                "confirm_password_label": "Потврдите нову лозинку",
+                "new_password_label": "Нова лозинка",
                 "submit_button": "",
                 "title": ""
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "Корисничко име може садржати само слова, бројеве и цртице.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "",
                 "must_not_be_array_message": "",
@@ -679,11 +679,11 @@
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "Активирајте ваш нови налог",
+                "body": "Добар дан {username},\n\nНеко (надамо се ви!) је отворио налог на {forum} са овом адресом е-поште.\n\nАко сте то били ви, једноставно кликните на линк испод и ваш налог ће бити активиран.\n{url}\n\nАко се ви нисте пријавили за овај налог, молимо вас да игноришете ову поруку.\n"
             },
             "confirm_email": {
-                "subject": "",
+                "subject": "Потврдите вашу нову адресу за е-пошту",
                 "body": ""
             },
             "reset_password": {
@@ -691,7 +691,7 @@
                 "body": ""
             },
             "send_test": {
-                "subject": "",
+                "subject": "Фларум тест е-поште",
                 "body": ""
             }
         },
@@ -701,50 +701,50 @@
             "change_password": "Пормени лозинку",
             "color": "Боја",
             "confirm_password": "Потврдите лозинку",
-            "confirm_email": "",
-            "confirmation_email_sent": "",
+            "confirm_email": "Потврдите е-пошту",
+            "confirmation_email_sent": "Послали смо вам поруку за потврду е-поште на {email}. Ако не стигне ускоро, проверите фасциклу у коју стиже нежељена е-пошта.",
             "custom_footer_text": "",
             "custom_footer_title": "",
             "custom_header_text": "",
             "custom_header_title": "",
-            "delete": "",
+            "delete": "Избриши",
             "delete_forever": "Избриши заувек",
-            "discussions": "",
-            "edit": "",
-            "edit_user": "",
-            "email": "",
-            "extensions": "",
-            "generic_confirmation_message": "",
-            "icon": "",
+            "discussions": "Доскусије",
+            "edit": "Уреди",
+            "edit_user": "Уреди корисника",
+            "email": "Е-пошта",
+            "extensions": "Проширења",
+            "generic_confirmation_message": "Да ли желите да наставите? Ова радња не може бити опозвана.",
+            "icon": "Икона",
             "icon_text": "",
             "load_more": "Учитај још",
             "loading": "Учитава се...",
             "log_in": "Пријавите се",
             "log_out": "Одјавите се",
-            "mark_all_as_read": "",
-            "never": "",
-            "new_token": "",
+            "mark_all_as_read": "Обележите све као прочитано",
+            "never": "Никада",
+            "new_token": "Нови токен",
             "next_page": "Следећа страница",
-            "notifications": "",
-            "okay": "",
+            "notifications": "Обавештења",
+            "okay": "У реду",
             "password": "Лозинка",
             "posts": "Поруке",
             "previous_page": "Предходна страница",
-            "remove": "",
+            "remove": "Уклони",
             "rename": "Промени име",
             "reply": "Одговори",
             "reset_your_password": "Ресетујте лозинку",
-            "restore": "",
+            "restore": "Врати у предходно стање",
             "save_changes": "Сними промене",
             "search_users": "Претражи кориснике",
             "security": "Безбедност",
             "settings": "Поставке",
-            "sign_up": "",
+            "sign_up": "Пријави се",
             "some_others": "",
             "start_a_discussion": "Почни дискусију",
             "username": "Корисничко име",
             "users": "Корисници",
-            "view": "",
+            "view": "Преглед",
             "write_a_reply": "Напиши одговор",
             "you": "Ти"
         },
