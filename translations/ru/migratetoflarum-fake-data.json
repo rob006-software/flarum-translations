@@ -2,33 +2,33 @@
     "migratetoflarum-fake-data": {
         "lib": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": "",
-                "reset": "",
-                "refresh": ""
+                "bulk-mode": "Массовый режим",
+                "bulk-mode-description": "Создаёт одно случайное значение и использует его повторно для каждой записи",
+                "user-count": "Количество пользователей для создания",
+                "discussion-count": "Количество обсуждений для создания",
+                "discussion-tags": "Теги для новых обсуждений",
+                "discussion-tags-none": "Не выбрано",
+                "discussion-tags-random": "Случайные",
+                "post-count": "Количество сообщений для создания",
+                "date": "Дата",
+                "date-start-placeholder": "Дата начала (по умолчанию: сейчас)",
+                "date-interval-placeholder": "Интервал (по умолчанию: 1 секунда)",
+                "send": "Сгенерировать",
+                "reset": "Генерация завершена! Нажмите для сброса значений",
+                "refresh": "Закрыть и обновить страницу"
             }
         },
         "forum": {
             "link": {
-                "generate-replies": ""
+                "generate-replies": "Сгенерировать фейковые ответы"
             },
             "generator": {
-                "title": ""
+                "title": "Сгенерировать фейковые ответы"
             }
         },
         "api": {
-            "no-users-matched": "",
-            "no-discussions-matched": ""
+            "no-users-matched": "Пользователи не найдены",
+            "no-discussions-matched": "Обсуждения не найдены"
         }
     }
 }
