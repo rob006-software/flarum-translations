@@ -1448,6 +1448,9 @@ return [
 	'wolfgang-demeter-bbcode-5star-rating' => [
 		'tag' => 'https://raw.githubusercontent.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating/v0.1.8/locale/en.yml',
 	],
+	'wszdb-autolock' => [
+		'tag' => 'https://raw.githubusercontent.com/wszdb/flarum-autolock/v2.4/locale/en.yml',
+	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.5/resources/locale/en.yaml',
 	],
