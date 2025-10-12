@@ -167,6 +167,9 @@ return [
 	'capybash-magicbb' => [
 		'tag' => 'https://raw.githubusercontent.com/capybash/magicbb/v3.1.1/resources/locale/en.yml',
 	],
+	'capybash-magicread' => [
+		'tag' => 'https://raw.githubusercontent.com/capybash/magicread/v1.1.1/resources/locale/en.yml',
+	],
 	'cccyun-clogin-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
 	],
