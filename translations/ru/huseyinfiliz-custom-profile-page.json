@@ -39,13 +39,13 @@
                 "content_placeholder": "Начните отсюда...",
                 "submit_button": "Сохранить",
                 "error": "Не удалось сохранить. Попробуйте ещё раз.",
-                "markdown_help": "",
-                "html_help": "",
-                "text_help": ""
+                "markdown_help": "Можно использовать форматирование Markdown: **bold**, *italic*, [link](url), `code` и другие.",
+                "html_help": "Можно использовать следующие HTML-теги: {tags}",
+                "text_help": "Только обычный текст."
             },
             "errors": {
-                "permission_denied": "",
-                "load_failed": ""
+                "permission_denied": "Недостаточно прав для просмотра страницы",
+                "load_failed": "Не удалось загрузить страницу"
             }
         }
     }
