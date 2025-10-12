@@ -375,7 +375,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-add-like-controls/v1.0.6/locale/en.yml',
 	],
 	'datlechin-ai' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ai/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ai/v0.1.1/locale/en.yml',
 	],
 	'datlechin-ai-summarize' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ai-summarize/v0.1.0/locale/en.yml',
