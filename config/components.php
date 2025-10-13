@@ -828,7 +828,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/v1.8/locale/en.yml',
 	],
 	'huseyinfiliz-traderfeedback' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/traderfeedback/v1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/traderfeedback/v2/resources/locale/en.yml',
 	],
 	'ianm-boring-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/1.0.1/locale/en.yml',
