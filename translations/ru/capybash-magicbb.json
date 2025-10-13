@@ -2,39 +2,39 @@
     "capybash-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
+                "bb_center": "По центру",
+                "bb_justify": "По ширине",
+                "bb_color": "Цвет",
+                "bb_spoiler": "Спойлер",
+                "bb_table": "Таблица",
+                "bb_info": "Предупреждения",
+                "bb_image": "\"Умные\" изображения",
+                "bb_image_help": "Большие отцентрированные изображения автоматически масштабируются до 60% ширины сообщения. Изображения, выровненные к сторонам - до 40%. Не влияет на стандартные BBCode изображения.",
+                "bb_iframe": "iframe",
                 "bb_iframe_help": ""
             },
             "sections": {
-                "text": "",
-                "text_help": "",
-                "content": "",
-                "content_help": "",
-                "images": "",
-                "images_help": "",
-                "features": ""
+                "text": "Текст кнопок",
+                "text_help": "Выровнять и форматировать ваш текст",
+                "content": "Кнопки содержимого",
+                "content_help": "Структурировать и выделить информацию",
+                "images": "Изображения кнопок",
+                "images_help": "Переместить и масштабировать изображения",
+                "features": "Особенности"
             },
             "permissions": {
-                "use_iframe": ""
+                "use_iframe": "Разрешить iframe"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "image_button": ""
+                "center_button": "Выровнять по центру",
+                "justify_button": "Выровнять по ширине",
+                "color_button": "Добавить цвет",
+                "spoiler_button": "Добавить спойлер",
+                "table_button": "Добавить таблицу",
+                "info_button": "Добавить предупреждение",
+                "image_button": "Добавить изображение"
             }
         }
     }
