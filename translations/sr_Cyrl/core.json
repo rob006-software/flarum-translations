@@ -2,14 +2,14 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "",
+                "colored_header_label": "Заглавље у боји",
                 "colors_heading": "Боје",
                 "colors_primary_label": "Основна боја",
                 "colors_secondary_label": "Споредна боја",
                 "colors_text": "Одаберите две боје за тему вашег форума. Прва је боја за истакнути садржај а друга је боја за стил позадинских елемената.",
                 "custom_footer_heading": "",
                 "custom_footer_text": "",
-                "custom_header_heading": "",
+                "custom_header_heading": "Прилагођено заглавље",
                 "custom_header_text": "",
                 "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "",
@@ -168,7 +168,7 @@
                 "categories": {
                     "authentication": "",
                     "core": "",
-                    "discussion": "",
+                    "discussion": "Дискусија",
                     "feature": "",
                     "formatting": "",
                     "language": "",
@@ -315,7 +315,7 @@
                 "body_placeholder": "Напиши поруку...",
                 "discard_confirmation": "Нисте објавили дискусију. Да ли желите да је поништите?",
                 "submit_button": "Објави дискусију",
-                "title": "",
+                "title": "Почни нову дискусију",
                 "title_placeholder": "Наслов дискусије"
             },
             "composer_edit": {
@@ -334,7 +334,7 @@
             },
             "discussion_controls": {
                 "cannot_reply_button": "Не можете одговорити",
-                "cannot_reply_text": "Немате дозволу да одговорите у овој дискусији",
+                "cannot_reply_text": "Немате дозволу да одговорите у овој дискусији.",
                 "delete_button": "",
                 "delete_confirmation": "Да ли сте сигурни да желите да избришете ову дискусију?",
                 "delete_forever_button": "",
@@ -386,12 +386,12 @@
                 "toggle_sidenav_dropdown_accessible_label": "Укључи/искључи падајућу мени за навигацију"
             },
             "index_sort": {
-                "latest_button": "Последње",
-                "newest_button": "Најновије",
-                "oldest_button": "Најстарије",
+                "latest_button": "Најновија тема",
+                "newest_button": "Најновије поруке",
+                "oldest_button": "Најстарија тема",
                 "relevance_button": "По релевантности",
                 "toggle_dropdown_accessible_label": "Промени редослед сортирања дискусија",
-                "top_button": "Врх"
+                "top_button": "Највише одговора"
             },
             "log_in": {
                 "forgot_password_link": "Заборавили сте лозинку?",
@@ -696,7 +696,7 @@
             }
         },
         "ref": {
-            "all_discussions": "",
+            "all_discussions": "Све дискусије",
             "change_email": "",
             "change_password": "Пормени лозинку",
             "color": "Боја",
@@ -745,7 +745,7 @@
             "username": "Корисничко име",
             "users": "Корисници",
             "view": "Преглед",
-            "write_a_reply": "Напиши одговор",
+            "write_a_reply": "Напиши одговор...",
             "you": "Ти"
         },
         "group": {
