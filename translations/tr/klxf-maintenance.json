@@ -3,33 +3,33 @@
         "admin": {
             "dashboard": {
                 "maintenance-widget": {
-                    "title": "",
-                    "detail": ""
+                    "title": "Bakım Modu Etkin",
+                    "detail": "Forum şu anda bakım modunda. Yalnızca gerekli izne sahip kullanıcılar foruma erişebilir."
                 }
             },
             "settings": {
                 "maintenance-mode-enabled": {
-                    "label": ""
+                    "label": "Bakım Modunu Etkinleştir"
                 },
                 "maintenance-mode-title": {
-                    "label": ""
+                    "label": "Bakım Sayfası Başlığı"
                 },
                 "maintenance-mode-message": {
-                    "label": ""
+                    "label": "Bakım Sayfası Mesajı"
                 },
                 "maintenance-mode-html-template": {
-                    "label": "",
-                    "help": "",
-                    "reset-btn": "",
-                    "reset-help": ""
+                    "label": "Bakım Sayfası HTML Şablonu",
+                    "help": "<code>$message</code> gibi yer tutucular kullanabilirsiniz. Daha fazla bilgi için BENİOKU dosyasına bakın.",
+                    "reset-btn": "Varsayılanlara Sıfırla",
+                    "reset-help": "Şablon sıfırlama kaydedildikten sonra geçerli olacaktır."
                 },
                 "maintenance-mode-auth": {
-                    "label": "",
-                    "help": ""
+                    "label": "Token Kimlik Doğrulamayı Etkinleştir",
+                    "help": "Geliştirici token'larını <code>/maintenance/auth/$token</code> adresi üzerinden giriş yapmak için kullanabilirsiniz."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Bakım Modunu atlayabilir"
             }
         }
     }
