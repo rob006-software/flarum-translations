@@ -2,27 +2,27 @@
     "mshuo-reply-to-see": {
         "admin": {
             "settings": {
-                "reply-type-lable": "",
-                "reply-type-lable-helpText": "",
-                "theme-type-parse-lable": "",
-                "theme-type-parse-helpText": ""
+                "reply-type-lable": "Yanıt görüntüleme seçenekleri",
+                "reply-type-lable-helpText": "Konuya yanıt ver:Gizli içeriği görmek için tartışmaya katılın,Belirli gönderiye yanıt ver:Gizli içeriği görmek için doğrudan bu gönderiye yanıt verin",
+                "theme-type-parse-lable": "Konuya yanıt verirken gönderi çözümleme modu",
+                "theme-type-parse-helpText": "Yalnızca 'Yanıt görüntüleme seçenekleri' 'Konuya yanıt ver' olarak ayarlandığında geçerlidir"
             },
             "permissions": {
-                "reply-to-see-lable": ""
+                "reply-to-see-lable": "Yanıt vermeden gizli içeriği görüntüle"
             },
             "reply-type": [
-                "",
-                ""
+                "Gizli içeriği görmek için konuya yanıt ver (Varsayılan)",
+                "Gizli içeriği görmek için belirtilen gönderiye yanıt ver"
             ],
             "theme-type-parse": [
-                "",
-                ""
+                "Yalnızca ilk gönderi (Varsayılan, en iyi performans)",
+                "Tüm gönderiler"
             ]
         },
         "forum": {
-            "must-reply-specific": "",
-            "must-reply-theme": "",
-            "insert-reply-to-see": ""
+            "must-reply-specific": "Görmek için yanıt ver",
+            "must-reply-theme": "Görmek için tartışmaya katıl",
+            "insert-reply-to-see": "Gizli içeriği görmek için yanıt ver"
         }
     }
 }
