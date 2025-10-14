@@ -2,46 +2,46 @@
     "xypp-store-virtual-item": {
         "admin": {
             "table": {
-                "all": "",
-                "check": "",
-                "id": "",
-                "name": "",
-                "key": "",
-                "assign": "",
-                "operation": "",
-                "delete": "",
-                "create": "",
-                "delete_batch": "",
-                "load_more": "",
-                "remove_confirm": ""
+                "all": "Tümü",
+                "check": "-",
+                "id": "Kimlik",
+                "name": "Ad",
+                "key": "Anahtar",
+                "assign": "Ata",
+                "operation": "İşlem",
+                "delete": "Sil",
+                "create": "Oluştur",
+                "delete_batch": "Toplu Sil ({count} toplam)",
+                "load_more": "Daha Fazla Yükle",
+                "remove_confirm": "Silmek istediğinize emin misiniz?"
             },
             "create": {
-                "title": "",
-                "name": "",
-                "key": "",
-                "content": "",
-                "fillTip": "",
-                "submit": "",
-                "add": "",
-                "convert": "",
-                "key_required": ""
+                "title": "Sanal öğe oluştur",
+                "name": "Öğe adı",
+                "key": "Anahtar",
+                "content": "İçerik",
+                "fillTip": "Anahtar/içeriği aşağıya girin. ",
+                "submit": "Oluştur",
+                "add": "Ekle",
+                "convert": "Anahtar:İçerik biçimine dönüştür",
+                "key_required": "Boş anahtara izin verilmez"
             }
         },
         "forum": {
             "store": {
-                "name": ""
+                "name": "Sanal Öğe"
             },
             "select": {
-                "title": "",
-                "name": "",
-                "icon": "",
-                "desc": "",
-                "rest": "",
-                "submit": ""
+                "title": "Yapılandır",
+                "name": "Seçili öğe adı: {name}",
+                "icon": "Simge",
+                "desc": "Açıklama",
+                "rest": "Depolamaya göre kalan sayıyı göster.",
+                "submit": "Gönder"
             }
         },
         "api": {
-            "no-available": ""
+            "no-available": "Kullanılabilir öğe yok"
         }
     }
 }
