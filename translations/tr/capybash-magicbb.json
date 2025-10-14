@@ -2,39 +2,39 @@
     "capybash-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
-                "bb_iframe_help": ""
+                "bb_center": "Ortala",
+                "bb_justify": "İki yana yasla",
+                "bb_color": "Renk",
+                "bb_spoiler": "Tatkaçıran",
+                "bb_table": "Tablo",
+                "bb_info": "Uyarılar",
+                "bb_image": "FoF Upload",
+                "bb_image_help": "Büyük, ortalanmış görseller gönderi genişliğinin %60'ına otomatik olarak yeniden boyutlandırılır. Kenara hizalanan görseller ise en fazla %40 olur. Bu ayar standart BBCode görsellerini etkilemez.",
+                "bb_iframe": "iframe",
+                "bb_iframe_help": "Herhangi bir kaynaktan iframe yerleştirilmesine izin verir. Dikkatli kullanın — gömülü içerik harici komut dosyaları içerebilir. 🧹 Bu ayarı değiştirdikten sonra lütfen Flarum önbelleğini temizleyin."
             },
             "sections": {
-                "text": "",
-                "text_help": "",
-                "content": "",
-                "content_help": "",
-                "images": "",
-                "images_help": "",
-                "features": ""
+                "text": "Metin düğmeleri",
+                "text_help": "Metninizi hizalayın ve biçimlendirin",
+                "content": "İçerik düğmeleri",
+                "content_help": "Bilgileri yapılandırın ve vurgulayın",
+                "images": "Görsel düğmeleri",
+                "images_help": "Görselleri konumlandırın ve ölçeklendirin",
+                "features": "Özellikler"
             },
             "permissions": {
-                "use_iframe": ""
+                "use_iframe": "iframe kullanımına izin ver"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "image_button": ""
+                "center_button": "Ortala",
+                "justify_button": "İki yana yasla",
+                "color_button": "Renk ekle",
+                "spoiler_button": "Tatkaçıran ekle",
+                "table_button": "Tablo ekle",
+                "info_button": "Uyarı ekle",
+                "image_button": "Görsel ekle"
             }
         }
     }
