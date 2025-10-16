@@ -2,35 +2,35 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "Допада ми се објава"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Када је укључено, у зависности од привилегија, кориник може кликнути на \"допада ми се\" на сопствене објаве у форуму. Ако желите да предупредите кориснике да клкну \"допада ми се\" на сопственим објавама, искључите ово подешавање.",
+                "like_own_posts_label": "Корисници могу да клинкну на \"допада ми се\" на сопственим објавама"
             }
         },
         "forum": {
             "notifications": {
                 "others_text": "",
-                "post_liked_text": ""
+                "post_liked_text": "{username} се допао ваша објава"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
-                "liked_by_text": "",
+                "like_link": "Допада ми се",
+                "liked_by_self_text": "{users} се ово допада.",
+                "liked_by_text": "{count, plural, one {{users} се ово допада} other {{users} се ово свиђа}}.",
                 "others_link": "",
-                "unlike_link": "",
+                "unlike_link": "Не допада ми се",
                 "you_text": ""
             },
             "post_likes": {
-                "title": "",
+                "title": "Корисници којима се ово допада",
                 "load_more_button": ""
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "Када се некоме допадне моја објава"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Допада ми се"
             }
         }
     }
