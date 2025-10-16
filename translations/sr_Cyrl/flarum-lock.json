@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "Закључај дискусију"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Закључано"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "Закључај",
+                "unlock_button": "Откључај"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} закључао"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} је закључао дискусију {time}.",
+                "discussion_unlocked_text": "{username} је откључао дискусију {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Када неко закључа дискусију коју сам ја започео"
             }
         }
     }
