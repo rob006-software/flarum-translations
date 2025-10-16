@@ -939,6 +939,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`cadiducho-bbcode`](https://weblate.rob006.net/projects/flarum/cadiducho-bbcode) | [`cadiducho/bbcode`](https://github.com/EdorasMinecraft/BBcode) |
 | [`capybash-magicbb`](https://weblate.rob006.net/projects/flarum/capybash-magicbb) | [`capybash/magicbb`](https://github.com/capybash/magicbb) |
 | [`capybash-magicread`](https://weblate.rob006.net/projects/flarum/capybash-magicread) | [`capybash/magicread`](https://github.com/capybash/magicread) |
+| [`capybash-magicslider`](https://weblate.rob006.net/projects/flarum/capybash-magicslider) | [`capybash/magicslider`](https://github.com/capybash/magicslider) |
 | [`cccyun-clogin-oauth`](https://weblate.rob006.net/projects/flarum/cccyun-clogin-oauth) | [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth) |
 | [`clarkwinkelmann-catch-the-fish`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-catch-the-fish) | [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish) |
 | [`clarkwinkelmann-anonymous-posting`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-anonymous-posting) | [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting) |
