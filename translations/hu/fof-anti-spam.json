@@ -19,7 +19,6 @@
                     "move_discussions_to_tags_help": "Ez áthelyezi a felhasználó által indított témákat a megadott címkékhez. Törölje ki a címkék kiválasztását, hogy meghagyja az eredeti címkéit. Nincs hatása, ha a „Témák törlése” beállítás be van kapcsolva."
                 },
                 "stopforumspam": {
-                    "heading": "StopForumSpam",
                     "introduction": "Az új felhasználó regisztrációk ellenőrzése a <a>StopForumSpam</a> adatbázisában. Ha eléri a <code>megbízhatósági</code> vagy <code>gyakorisági</code> határértéket, akkor a felhasználó fórumregisztrációja nem fog sikerülni.\n\nA <code>fof/oauth</code> és a <code>fof/passport</code> által biztosított SSO-s regisztráció is támogatott. Más SSO szolgáltatóknak is működniük kellene, de ezek nincsenek tesztelve..\n",
                     "username_label": "Felhasználónév alapú ellenőrzés",
                     "ip_label": "IP-cím alapú ellenőrzés",
@@ -41,7 +40,8 @@
                     "sfs_lookup_label": "Regisztrációk megkeresése",
                     "sfs_lookup_help": "Ha engedélyezve van, akkor regisztrációkor megkeresésre kerül a felhasználó a StopForumSpam adatbázisában. Ha a felhasználó megtalálható (felhasználónév, IP-cím vagy e-mail alapján), akkor ezek az adatpontok engedélyezve lesznek, és ha elérik a megadott SFS megbízhatósági szintet, akkor nem fogják tudni elvégezni a regisztrációt.",
                     "report_blocked_registrations_label": "Megakadályozott regisztrációk jelentése",
-                    "report_blocked_registrations_help": "Ha a Regisztrációk megkeresése funkció megakadályoz egy felhasználót a regisztrációban, akkor a próbálkozás jelentésre kerül a StopForumSpam számára, így a kéretlen tartalmat küldő tevékenysége jobban megerősíthető. Ehhez a StopForumSpam API-kulcsának beállítása szükséges (lásd alább)."
+                    "report_blocked_registrations_help": "Ha a Regisztrációk megkeresése funkció megakadályoz egy felhasználót a regisztrációban, akkor a próbálkozás jelentésre kerül a StopForumSpam számára, így a kéretlen tartalmat küldő tevékenysége jobban megerősíthető. Ehhez a StopForumSpam API-kulcsának beállítása szükséges (lásd alább).",
+                    "heading": "StopForumSpam"
                 }
             },
             "blocked_registrations": {

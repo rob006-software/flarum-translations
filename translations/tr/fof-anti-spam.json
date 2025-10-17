@@ -19,7 +19,6 @@
                     "move_discussions_to_tags_help": "Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları belirttiğiniz etiketlere taşıyacaktır. Tartışmaları asıl etiketlerinde bırakmak için etiket seçimini temizleyin. 'Tartışmaları sil' seçeneği etkinse hiçbir etkisi olmaz."
                 },
                 "stopforumspam": {
-                    "heading": "StopForumSpam",
                     "introduction": "Yeni kullanıcı kayıtlarını <a>StopForumSpam</a> veritabanına göre kontrol eder. <code>Güven</code> veya <code>sıklık</code> eşiklerinden birine ulaşılırsa kullanıcının forumunuza kayıt işlemini tamamlaması engellenir.\n\n<code>fof/oauth</code> ve <code>fof/passport</code> aracılığıyla SSO kaydı da desteklenir. Diğer SSO sağlayıcılarının çalışması gerekir ancak bunlar test edilmemiştir.\n",
                     "username_label": "Kullanıcı Adı İstenmeyen Kontrolü",
                     "ip_label": "IP Adresi İstenmeyen Kontrolü",
@@ -41,7 +40,8 @@
                     "sfs_lookup_label": "Kayıtlara göz gezdir",
                     "sfs_lookup_help": "Etkinleştirilirse, forumunuza yeni bir kullanıcı kaydolduğunda StopForumSpam veritabanını kontrol edeceğiz. Kullanıcı bulunursa (kullanıcı adı, IP adresi, e-posta) ve bu veri noktası etkinleştirilirse ve SFS güven düzeyi tanımladığınız düzeye ulaşırsa, kayıtlarını tamamlamaları engellenecektir.",
                     "report_blocked_registrations_label": "Engellenen kayıtları bildir",
-                    "report_blocked_registrations_help": "Bir kayıt engellendiğinde, spam göndericisinin etkinliğinin daha iyi doğrulanabilmesi için bu girişimi StopForumSpam'a geri bildireceğiz. Bir StopForumSpam API anahtarının ayarlanmasını gerektirir (aşağıya bakın)."
+                    "report_blocked_registrations_help": "Bir kayıt engellendiğinde, spam göndericisinin etkinliğinin daha iyi doğrulanabilmesi için bu girişimi StopForumSpam'a geri bildireceğiz. Bir StopForumSpam API anahtarının ayarlanmasını gerektirir (aşağıya bakın).",
+                    "heading": "StopForumSpam"
                 }
             },
             "blocked_registrations": {

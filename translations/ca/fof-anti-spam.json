@@ -19,7 +19,6 @@
                     "move_discussions_to_tags_help": "Aquesta acció mourà tots els debats iniciats per aquest usuari a la etiqueta o etiquetes que indiquis. Esborra la selecció d'etiquetes per deixar els debats a les seves etiquetes originals. No té cap efecte si l'opció \"Suprimeix els debats\" està activada."
                 },
                 "stopforumspam": {
-                    "heading": "StopForumSpam",
                     "introduction": "Comprova els registres d'usuaris nous a la base de dades <a>StopForumSpam</a>. Si els llindars <code>confiança</code> o <code>freqüència</code> són ultrapassats, l'usuari no podrà registrar-se al fòrum.\n\nTambé es suporten els registres mitjançant les extensions de SSO <code>fof/oauth</code> i <code>fof/passport</code>. Altres proveïdors d'inici de sessió mitjançant SSO (Single Sign On = Inici de sessió únic), també haurien de funcionar, però no s'han provat.\n",
                     "username_label": "Comprovació de spam del nom d'usuari",
                     "ip_label": "Comprovació de spam de l'adreça IP",
@@ -41,7 +40,8 @@
                     "sfs_lookup_label": "Cerca inscripcions",
                     "sfs_lookup_help": "Si està activat, comprovarem la base de dades StopForumSpam quan un nou usuari es registri al teu fòrum. Si es troba l'usuari (nom d'usuari, adreça IP, correu electrònic) i aquest punt de dades està habilitat juntament amb el nivell de confiança SFS que arriba al teu nivell definit, se li impedirà completar el seu registre.",
                     "report_blocked_registrations_label": "Informar d'inscripcions bloquejades",
-                    "report_blocked_registrations_help": "Quan la funció de cerca d'inscripcions en bloqueja una, informarem de l'intent a StopForumSpam, de manera que l'activitat dels spammers es pugui confirmar millor. Cal establir una clau de l'API StopForumSpam (vegeu més avall)."
+                    "report_blocked_registrations_help": "Quan la funció de cerca d'inscripcions en bloqueja una, informarem de l'intent a StopForumSpam, de manera que l'activitat dels spammers es pugui confirmar millor. Cal establir una clau de l'API StopForumSpam (vegeu més avall).",
+                    "heading": "StopForumSpam"
                 }
             },
             "blocked_registrations": {

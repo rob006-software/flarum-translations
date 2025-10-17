@@ -19,7 +19,6 @@
                     "move_discussions_to_tags_help": "Tämä siirtää kaikki tämän käyttäjän aloittamat keskustelut määrittämiisi avainsanoihin. Tyhjennä avainsanavalinta jättääksesi keskustelut niiden alkuperäisiin avainsanoihin. Ei vaikuta, jos ‘Poista keskustelut’ -vaihtoehto on otettu käyttöön."
                 },
                 "stopforumspam": {
-                    "heading": "StopForumSpam",
                     "introduction": "Tarkistaa uudet rekisteröitymiset <a>StopForumSpam</a> tietokantaa vasten. Jos <code>confidence</code> tai <code>frequency</code> rajat tulee vastaan, käyttäjä ei voi rekisteröityä foorumillesi.\n\nSSO rekisteröinti <code>fof/oauth</code> ja <code>fof/passport</code> kautta on myös tuettu. Muut SSO toimijat voi toimia, mutta niitä ei ole testattu.\n",
                     "username_label": "Käyttäjätunnuksen roskapostitarkistus",
                     "ip_label": "IP osoitteen roskapostitarkistus",
@@ -41,7 +40,8 @@
                     "sfs_lookup_label": "Rekisteröintien haku",
                     "sfs_lookup_help": "Jos otettu käyttöön, tarkistamme StopForumSpam-tietokannan, kun uusi käyttäjä rekisteröityy foorumillesi. Jos käyttäjä löytyy (käyttäjätunnus, IP-osoite, sähköpostiosoite) ja tämä tietopiste on otettu käyttöön yhdessä SFS:n luottamustason saavuttamisen kanssa, käyttäjä estetään viimeistelemästä rekisteröintiään.",
                     "report_blocked_registrations_label": "Raportoi estetyt rekisteröinnit",
-                    "report_blocked_registrations_help": "Kun rekisteröinti estetään Rekisteröintien haku -ominaisuuden avulla, ilmoitamme yrityksestä takaisin StopForumSpam-palveluun, jotta roskapostittajan toiminta voidaan varmemmin vahvistaa. Tämä vaatii StopForumSpam API-avaimen asettamisen (katso alla)."
+                    "report_blocked_registrations_help": "Kun rekisteröinti estetään Rekisteröintien haku -ominaisuuden avulla, ilmoitamme yrityksestä takaisin StopForumSpam-palveluun, jotta roskapostittajan toiminta voidaan varmemmin vahvistaa. Tämä vaatii StopForumSpam API-avaimen asettamisen (katso alla).",
+                    "heading": "StopForumSpam"
                 }
             },
             "blocked_registrations": {

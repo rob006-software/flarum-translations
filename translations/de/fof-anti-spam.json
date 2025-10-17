@@ -19,7 +19,6 @@
                     "move_discussions_to_tags_help": "Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in die von Ihnen angegebenen Themen verschoben. Lösche die Themen-Auswahl, um die Diskussionen in ihren ursprünglichen Themen zu belassen. Hat keinen Effekt, wenn die Option \"Diskussionen löschen\" aktiviert ist."
                 },
                 "stopforumspam": {
-                    "heading": "StopForumSpam",
                     "introduction": "Prüft neue Benutzerregistrierungen anhand der <a>StopForumSpam</a>-Datenbank. Wenn entweder der Schwellenwert für die <code>Zuverlässigkeit</code> oder der Schwellenwert für die <code>Häufigkeit</code> erreicht ist, wird der Benutzer daran gehindert, seine Registrierung in Ihrem Forum abzuschließen.\n\nSSO-Registrierung über <code>fof/oauth</code> und <code>fof/passport</code> wird ebenfalls unterstützt. Andere SSO-Anbieter sollten funktionieren, wurden jedoch nicht getestet.\n",
                     "username_label": "Benutzernamen-Spam-Prüfung",
                     "ip_label": "IP-Adressen-Spam-Prüfung",
@@ -41,7 +40,8 @@
                     "sfs_lookup_label": "Registrierungen überprüfen",
                     "sfs_lookup_help": "Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.",
                     "report_blocked_registrations_label": "Melde blockierte Registrierungen",
-                    "report_blocked_registrations_help": "Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten)."
+                    "report_blocked_registrations_help": "Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten).",
+                    "heading": "StopForumSpam"
                 }
             },
             "blocked_registrations": {

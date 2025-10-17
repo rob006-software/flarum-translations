@@ -14,12 +14,11 @@
                     "delete_posts_label": "Delete posts",
                     "delete_posts_help": "This will permanently delete all posts made by this user. When disabled, posts will be soft deleted instead.",
                     "heading": "Default moderation actions",
-                    "introduction": "When a user is marked as a spammer, moderators are able to choose from various actions on how to deal with the particular use case. These settings allow you to pre-set the actions you'll normally take, to speed up the process, but also allowing for variations as needed.\n",
+                    "introduction": "When a user is marked as a spammer, moderators are able to choose from various actions on how to deal with the particular use case. These settings allow you to pre-set the actions you'll normally take, to speed up the process, but also allowing for variations as needed.",
                     "move_discussions_to_tags_label": "Move discussions to tag(s)",
                     "move_discussions_to_tags_help": "This will move all discussions started by this user to the tag(s) you specified. Clear the tag selection to leave discussions in their original tag(s). Has no effect if the 'Delete discussions' option is enabled."
                 },
                 "stopforumspam": {
-                    "heading": "StopForumSpam",
                     "introduction": "Checks new user registrations against the <a>StopForumSpam</a> database. If either the <code>confidence</code> or <code>frequency</code> thresholds are reached, the user is prevented from completing their registration on your forum.\n\nSSO register via <code>fof/oauth</code> and <code>fof/passport</code> is also supported. Other SSO providers should work, but are untested.\n",
                     "username_label": "Username Spam Check",
                     "ip_label": "IP Address Spam Check",

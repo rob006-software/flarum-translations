@@ -19,7 +19,6 @@
                     "move_discussions_to_tags_help": "這會將該使用者發起的所有討論移至您指定的標籤。 清除標籤選擇以將討論保留在原始標籤中。 如果啟用「刪除討論」選項，則無效。"
                 },
                 "stopforumspam": {
-                    "heading": "停止論壇垃圾郵件",
                     "introduction": "根據 <a>StopForumSpam</a> 資料庫檢查新用戶註冊情況。 如果達到<code>置信度</code>或<code>頻率</code>閾值，用戶將無法在您的論壇上完成註冊。\n\n也支援透過 <code>fof/oauth</code> 和 <code>fof/passport</code> 進行 SSO 註冊。 其他 SSO 提供者應該可以工作，但未經測試。\n",
                     "username_label": "使用者名稱垃圾郵件檢查",
                     "ip_label": "IP位址垃圾郵件檢查",
@@ -41,7 +40,8 @@
                     "sfs_lookup_label": "尋找註冊",
                     "sfs_lookup_help": "如果啟用，當新用戶在您的論壇上註冊時，我們將檢查 StopForumSpam 資料庫。 如果找到使用者（使用者名稱、IP 位址、電子郵件）並且啟用該資料點並且 SFS 置信級別達到您定義的級別，他們將無法完成註冊。",
                     "report_blocked_registrations_label": "報告被阻止的註冊",
-                    "report_blocked_registrations_help": "當「尋找註冊」功能阻止註冊時，我們將向 StopForumSpam 報告該嘗試，以便更好地確認垃圾郵件發送者的活動。 需要設定 StopForumSpam API 金鑰（見下文）。"
+                    "report_blocked_registrations_help": "當「尋找註冊」功能阻止註冊時，我們將向 StopForumSpam 報告該嘗試，以便更好地確認垃圾郵件發送者的活動。 需要設定 StopForumSpam API 金鑰（見下文）。",
+                    "heading": "停止論壇垃圾郵件"
                 }
             },
             "blocked_registrations": {

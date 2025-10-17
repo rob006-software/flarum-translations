@@ -19,7 +19,6 @@
                     "move_discussions_to_tags_help": "Ini akan memindahkan semua diskusi yang dimulai oleh pengguna ini ke tag yang Anda tentukan. Hapus pilihan tag untuk membiarkan diskusi tetap berada di tag aslinya. Tidak berpengaruh jika opsi 'Hapus diskusi' diaktifkan."
                 },
                 "stopforumspam": {
-                    "heading": "StopForumSpam",
                     "introduction": "Periksa pendaftaran pengguna baru terhadap database <a>StopForumSpam</a>. Jika ambang batas <code>confidence</code> atau <code>frequency</code> tercapai, pengguna tidak dapat menyelesaikan pendaftarannya di forum Anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga akan didukung. Penyedia SSO lain seharusnya berjalan, namun belum teruji.\n",
                     "username_label": "Periksa Pengguna Spam",
                     "ip_label": "Periksa Alamat IP Spam",
@@ -41,7 +40,8 @@
                     "sfs_lookup_label": "Mencari pendaftaran",
                     "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database StopForumSpam saat pengguna baru mendaftar di forum Anda. Jika pengguna tersebut terdeteksi (username, alamat IP, email) dan data tersebut diaktifkan bersama dengan tingkat SFS confidence mencapai tingkat yang Anda tentukan, mereka akan dicegah untuk menyelesaikan pendaftaran mereka.",
                     "report_blocked_registrations_label": "Laporkan pendaftaran yang diblokir",
-                    "report_blocked_registrations_help": "Ketika sebuah pendaftaran diblokir oleh fitur Penelusuran Pendaftaran, kami akan melaporkan upaya tersebut ke StopForumSpam, sehingga aktivitas spammer dapat dikonfirmasi dengan lebih baik. Dibutuhkan kunci API StopForumSpam yang telah diatur (lihat di bawah)."
+                    "report_blocked_registrations_help": "Ketika sebuah pendaftaran diblokir oleh fitur Penelusuran Pendaftaran, kami akan melaporkan upaya tersebut ke StopForumSpam, sehingga aktivitas spammer dapat dikonfirmasi dengan lebih baik. Dibutuhkan kunci API StopForumSpam yang telah diatur (lihat di bawah).",
+                    "heading": "StopForumSpam"
                 }
             },
             "blocked_registrations": {

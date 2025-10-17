@@ -19,7 +19,6 @@
                     "move_discussions_to_tags_help": "Sẽ chuyển tất cả thảo luận do người dùng này tạo sang thẻ bạn chỉ định. Xóa lựa chọn thẻ để giữ thảo luận ở thẻ gốc. Không có hiệu lực nếu tùy chọn 'Xóa thảo luận' được bật."
                 },
                 "stopforumspam": {
-                    "heading": "StopForumSpam",
                     "introduction": "Kiểm tra đăng ký người dùng mới với cơ sở dữ liệu <a>StopForumSpam</a>. Nếu đạt ngưỡng <code>confidence</code> hoặc <code>frequency</code>, người dùng sẽ không thể hoàn tất đăng ký trên diễn đàn của bạn.\n\nĐăng ký SSO qua <code>fof/oauth</code> và <code>fof/passport</code> cũng được hỗ trợ. Các nhà cung cấp SSO khác có thể hoạt động nhưng chưa được kiểm thử.\n",
                     "username_label": "Kiểm tra spam theo Tên người dùng",
                     "ip_label": "Kiểm tra spam theo Địa chỉ IP",
@@ -41,7 +40,8 @@
                     "sfs_lookup_label": "Tra cứu đăng ký",
                     "sfs_lookup_help": "Nếu bật, chúng tôi sẽ kiểm tra cơ sở dữ liệu StopForumSpam khi có người dùng mới đăng ký. Nếu tìm thấy người dùng (tên, IP, email) và điểm dữ liệu đó được bật cùng với mức độ tin cậy SFS đạt ngưỡng bạn định nghĩa, họ sẽ không thể hoàn tất đăng ký.",
                     "report_blocked_registrations_label": "Báo cáo các đăng ký bị chặn",
-                    "report_blocked_registrations_help": "Khi đăng ký bị chặn bởi tính năng Tra cứu đăng ký, chúng tôi sẽ báo cáo nỗ lực đó về StopForumSpam để xác thực hoạt động spam tốt hơn. Yêu cầu có API key StopForumSpam (xem bên dưới)."
+                    "report_blocked_registrations_help": "Khi đăng ký bị chặn bởi tính năng Tra cứu đăng ký, chúng tôi sẽ báo cáo nỗ lực đó về StopForumSpam để xác thực hoạt động spam tốt hơn. Yêu cầu có API key StopForumSpam (xem bên dưới).",
+                    "heading": "StopForumSpam"
                 }
             },
             "blocked_registrations": {

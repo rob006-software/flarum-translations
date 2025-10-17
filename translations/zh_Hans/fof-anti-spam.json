@@ -19,7 +19,6 @@
                     "move_discussions_to_tags_help": "移除帖子的所有标签，并统一移动到指定标签旗下，「删除主题贴」禁用时生效。如需保留原始标签，请清空下方标签配置。"
                 },
                 "stopforumspam": {
-                    "heading": "StopForumSpam",
                     "introduction": "使用 <a>StopForumSpam</a> 检查服务，禁止<code>置信度</code>或<code>频率</code>不符合要求的客户端注册账号。\n\n此检查涵盖 <code>fof/oauth</code> 和 <code>fof/passport</code> 的 SSO 注册渠道。其它 SSO 提供程序应该也受支持，但未经测试。\n",
                     "username_label": "用户名滥用检查",
                     "ip_label": "IP 地址滥用检查",
@@ -41,7 +40,8 @@
                     "sfs_lookup_label": "注册时检查",
                     "sfs_lookup_help": "用户注册时，使用 StopForumSpam 服务检查。如果存在注册信息（用户名、IP 地址、电子邮件），且 SFS 置信度不符上面配置的等级，则阻止完成注册。",
                     "report_blocked_registrations_label": "报告拦截信息",
-                    "report_blocked_registrations_help": "「注册时检查」功能成功拦截注册时，向 StopForumSpam 报告检测数据，用于进一步校验。此功能需要配置 StopForumSpam API 密钥。"
+                    "report_blocked_registrations_help": "「注册时检查」功能成功拦截注册时，向 StopForumSpam 报告检测数据，用于进一步校验。此功能需要配置 StopForumSpam API 密钥。",
+                    "heading": "StopForumSpam"
                 }
             },
             "blocked_registrations": {

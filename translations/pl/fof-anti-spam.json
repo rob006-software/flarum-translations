@@ -19,7 +19,6 @@
                     "move_discussions_to_tags_help": "Spowoduje to przeniesienie wszystkich dyskusji rozpoczętych przez tego użytkownika do określonych tagów. Wyczyść wybór tagów, aby pozostawić dyskusje w ich oryginalnych tagach. To nie ma wpływu, jeśli opcja \"Usuń dyskusje\" jest włączona."
                 },
                 "stopforumspam": {
-                    "heading": "StopForumSpam",
                     "introduction": "Sprawdza nowe rejestracje użytkowników w bazie danych <a>StopForumSpam</a>. Jeśli osiągnięte zostaną progi <code>confidence</code> (pewności) lub <code>frequency</code> (częstotliwości), użytkownikowi uniemożliwione zostanie dokończenie rejestracji na twoim forum.\n\nObsługiwane jest także SSO przez <code>fof/oauth</code> i <code>fof/passport</code>. Inni dostawcy SSO powinni działać, ale nie są przetestowani.\n",
                     "username_label": "Kontrola spamu nazwy użytkownika",
                     "ip_label": "Kontrola spamu adresu IP",
@@ -41,7 +40,8 @@
                     "sfs_lookup_label": "Weryfikuj rejestracje",
                     "sfs_lookup_help": "Jeśli ta opcja jest włączona, będziemy sprawdzać bazę danych StopForumSpam, gdy nowy użytkownik zarejestruje się na Twoim forum. Jeśli użytkownik zostanie znaleziony (nazwa użytkownika, adres IP, e-mail) i ten punkt danych jest włączony wraz z poziomem zaufania SFS osiągającym zdefiniowany poziom, uniemożliwimy mu dokończenie rejestracji.",
                     "report_blocked_registrations_label": "Zgłoś blokowane rejestracje",
-                    "report_blocked_registrations_help": "Gdy rejestracja zostanie zablokowana przez funkcję \"Weryfikuj rejestracje\", zgłosimy próbę z powrotem do StopForumSpam, aby aktywność spamerów mogła zostać lepiej potwierdzona. Wymaga ustawienia klucza API StopForumSpam (zobacz poniżej)."
+                    "report_blocked_registrations_help": "Gdy rejestracja zostanie zablokowana przez funkcję \"Weryfikuj rejestracje\", zgłosimy próbę z powrotem do StopForumSpam, aby aktywność spamerów mogła zostać lepiej potwierdzona. Wymaga ustawienia klucza API StopForumSpam (zobacz poniżej).",
+                    "heading": "StopForumSpam"
                 }
             },
             "blocked_registrations": {
