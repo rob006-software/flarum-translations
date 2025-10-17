@@ -7,22 +7,22 @@
                 "colors_primary_label": "Основна боја",
                 "colors_secondary_label": "Споредна боја",
                 "colors_text": "Одаберите две боје за тему вашег форума. Прва је боја за истакнути садржај а друга је боја за стил позадинских елемената.",
-                "custom_footer_heading": "",
+                "custom_footer_heading": "Прилагођено подножије",
                 "custom_footer_text": "",
                 "custom_header_heading": "Прилагођено заглавље",
                 "custom_header_text": "",
                 "custom_styles_cannot_use_less_features": "",
-                "custom_styles_heading": "",
-                "custom_styles_text": "",
+                "custom_styles_heading": "Прилагођени Стилови",
+                "custom_styles_text": "Подесите изглед форума додавањем вашег Less/CSS кода који ће бити примењен преко Фларумовог стандардног стила.",
                 "dark_mode_label": "Затамњени режим",
-                "description": "",
-                "edit_css_button": "",
+                "description": "Подесите боје, лого и друге параметре вашег форума.",
+                "edit_css_button": "Промените ваш додатни CSS",
                 "edit_footer_button": "",
                 "edit_header_button": "",
                 "enter_hex_message": "Унесите хексадецималну вредност за боју.",
                 "favicon_heading": "",
-                "favicon_text": "",
-                "logo_heading": "",
+                "favicon_text": "Пошаљите слику која ће бити коришћена као икона пречице за форум.",
+                "logo_heading": "Лого",
                 "logo_text": "Пошаљите слику која ће се користити уместо наслова форума.",
                 "title": "Изглед"
             },
@@ -33,23 +33,23 @@
                 "display_name_heading": "Приказ имена корисника",
                 "display_name_text": "Изаберите шта треба приказати као име корисника. Подразумевано подешавање је да се приказује корисничко име.",
                 "forum_description_heading": "Опис форума",
-                "forum_description_text": "",
+                "forum_description_text": "Унесите једну или две реченице које описују вашу заједницу. Овај опис ће бити коришћен за мета таг и такође ће се појављивати у веб претраживачима.",
                 "forum_title_heading": "Наслов форума",
                 "home_page_heading": "Почетна страна",
-                "home_page_text": "",
+                "home_page_text": "Одаберите страницу коју ће корисници прво видети када посете фаш форум.",
                 "show_language_selector_label": "Прикажи подешавања за одабир језика",
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
                 "title": "Основно",
-                "welcome_banner_heading": "",
-                "welcome_banner_text": ""
+                "welcome_banner_heading": "Банер за добродошлицу",
+                "welcome_banner_text": "Конфигуришите текс који ће се приказивати на банеру странице са свим дискусијама. Функција текста је да пожелите добродошлицу посетиоцима форума."
             },
             "create_user": {
                 "email_placeholder": "",
-                "email_confirmed_label": "",
+                "email_confirmed_label": "Корисник мора да потврди овај имејл",
                 "password_placeholder": "",
-                "submit_and_create_another_button": "",
-                "submit_button": "",
+                "submit_and_create_another_button": "Направи и додај још један",
+                "submit_button": "Направи корисника",
                 "title": "Нови корисник",
                 "use_random_password": "Генериши насумичну шифру",
                 "username_placeholder": ""
@@ -57,17 +57,17 @@
             "dashboard": {
                 "clear_cache_button": "Очисти кеш",
                 "description": "",
-                "io_error_message": "",
+                "io_error_message": "Није могуће писати по диску. Проверите дозволе и пробајте поново. Такође, можете покушати да извршите операцију из командне линије.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "",
+                        "scheduler-status": "Планер",
                         "queue-driver": "",
                         "session-driver": ""
                     },
                     "scheduler": {
-                        "active": "",
-                        "inactive": "",
-                        "never-run": ""
+                        "active": "Активно",
+                        "inactive": "Неактивно",
+                        "never-run": "Никад не покрећи"
                     }
                 },
                 "title": "Контролна табла",
@@ -75,12 +75,12 @@
             },
             "debug-warning": {
                 "detail": "",
-                "label": ""
+                "label": "Дебаг мод је укључен"
             },
             "edit_css": {
-                "customize_text": "",
+                "customize_text": "Прилагодите изглед форума додавањем вашег Less/CSS кода који ће бити примењен поврх Фларумовог <a>подразумеваног стилс</a>.",
                 "submit_button": "",
-                "title": ""
+                "title": "Промените ваш прилагођени CSS"
             },
             "edit_footer": {
                 "customize_text": "",
@@ -91,10 +91,10 @@
                 "color_label": "",
                 "delete_button": "Обриши групу",
                 "delete_confirmation": "Да ли сте сигурни да желите да обришете ову групу? Чланови групе неће бити обрисани.",
-                "hide_label": "",
+                "hide_label": "Не приказуј на форуму",
                 "icon_label": "",
                 "icon_text": "",
-                "name_label": "",
+                "name_label": "Име",
                 "plural_placeholder": "",
                 "singular_placeholder": "",
                 "submit_button": "",
@@ -106,21 +106,21 @@
                 "title": ""
             },
             "email": {
-                "addresses_heading": "",
-                "description": "",
-                "driver_heading": "",
-                "driver_label": "",
+                "addresses_heading": "Адресе",
+                "description": "Конфигуришите механизам, подешавања и адресу који ће бити коришћени за слање е-поште.",
+                "driver_heading": "Изаберите механизам",
+                "driver_label": "Механизам",
                 "from_label": "Пошиљалац",
                 "mail_encryption_label": "Шифровање",
                 "mail_host_label": "Домаћин",
-                "mail_mailgun_domain_label": "",
-                "mail_mailgun_region_label": "",
-                "mail_mailgun_secret_label": "",
+                "mail_mailgun_domain_label": "Домен",
+                "mail_mailgun_region_label": "Регија",
+                "mail_mailgun_secret_label": "Тајни кључ",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Порт",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "",
-                "not_sending_message": "Фларум тренутно не може да шаље мејлове. Узрок може бити у одабраном драјверу, или грешкама у његовој конфигурацији.",
+                "not_sending_message": "Фларум тренутно не може да шаље мејлове. Узрок може бити у одабраном механизму, или грешкама у његовој конфигурацији.",
                 "send_test_mail_button": "Пошаљи",
                 "send_test_mail_heading": "Пошаљи тест имејл",
                 "send_test_mail_success": "Тест имејл је успешно послат!",
