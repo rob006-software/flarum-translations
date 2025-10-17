@@ -208,7 +208,7 @@
                 "participate_heading": "Sudjelovanje",
                 "post_without_throttle_label": "Uzastopno odgovaranje bez čekanja",
                 "read_heading": "Čitanje",
-                "remove_scope_label": "",
+                "remove_scope_label": "Ukloni opseg {scope}",
                 "rename_discussions_label": "Preimenovanje rasprava",
                 "reply_to_discussions_label": "Odgovaranje na rasprave",
                 "search_users_label": "Pretraživanje korisnika",
@@ -265,7 +265,7 @@
                             "title": "Pridružuje se"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "Radnje"
                         },
                         "user_id": {
                             "title": "ID"
@@ -349,8 +349,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} odgovara {ago}",
                 "started_text": "{username} započinje {ago}",
-                "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
-                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read."
+                "total_replies_a11y_label": "{count, plural, one {# odgovor} other {# odgovora}}",
+                "unread_replies_a11y_label": "{count, plural, one {# nepročitan odgovor} other {# nepročitanih odgovora}}. Označi nepročitano {count, plural, one {odgovor} other {odgovora}} kao pročitano."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -404,7 +404,7 @@
                 "username_or_email_placeholder": "Korisničko ime ili e-mail"
             },
             "notifications": {
-                "delete_all_confirm": "Ali ste prepričani, da želite izbrisati vse obvestila? Ta akcija je nepovratna.",
+                "delete_all_confirm": "Jeste li sigurni da želite obrisati sve obavijesti? Ova radnja nije povratna",
                 "delete_all_tooltip": "Izbriši vsa obvestila",
                 "discussion_renamed_text": "{username} mijenja naslov",
                 "empty_text": "Nema obavijesti",
@@ -436,7 +436,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Prethodni naslov bio je: \"{old}\"",
-                "discussion_renamed_text": "{username} mijenja naslov u {new}.",
+                "discussion_renamed_text": "{username} je promijenio/la naslov u {new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} kasnije"
@@ -474,7 +474,7 @@
                 "revoke_access_token": "Prekliči",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Aktivne seje",
-                "session_terminated": "{count, plural, one {Session terminated} other {# Sessions terminated}}.",
+                "session_terminated": "{count, plural, one {Sesija je prekinuta} other {# Sesija je prekinuto/Sesije su prekinute}}.",
                 "session_termination_failed": "Prišlo je do napake pri prekinitvi sej.",
                 "show_access_token": "Prikaži žeton",
                 "terminate_all_other_sessions": "Prekini vse druge seje",
@@ -585,8 +585,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Stranica # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Stranica # - {forumName}}}"
             },
             "modal": {
                 "close": "Zapri"
@@ -599,9 +599,9 @@
                 "mega_text": "M"
             },
             "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+                "humanTimeShort": "D MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY"
             },
             "series": {
                 "glue_text": ", ",
@@ -659,7 +659,7 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "Jeste li sigurni da se želite odjaviti?",
+                "log_out_confirmation": "Jeste li sigurni da se želite odjaviti s {forum}?",
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
@@ -680,15 +680,15 @@
         "email": {
             "activate_account": {
                 "subject": "Aktivirajte vaš račun",
-                "body": "Hej {username}!\n\nNetko (nadamo se vi!) se pridružio na forum zvan {forum} s ovom e-mail adresom.\n\nAko ste to bili vi, jednostavno kliknite na sljedeću poveznicu i vaš račun bit će aktiviran: {url}\n\nU suprotnom, ignorirajte ovaj e-mail, molimo.\n"
+                "body": "Bok {username}!\n\nNetko (nadamo se Vi!) se prijavio/la na {forum} s ovom adresom e-pošte.\n\nAko ste to bili Vi, jednostavno kliknite sljedeću poveznicu i Vaš račun će biti aktiviran: {url}\n\nAko se niste prijavili, molimo Vas da zanemarite ovu poruku e-pošte.\n"
             },
             "confirm_email": {
-                "subject": "Confirm Your New Email Address",
-                "body": "Hej {username}!\n\nNetko (nadamo se vi!) je promijenio svoju e-mail adresu na forumu zvanom {forum} u ovu.\n\nAko ste to bili vi, jednostavno kliknite na sljedeću poveznicu i vaš e-mail bit će potvrđen: {url}\n\nU suprotnom, ignorirajte ovaj e-mail, molimo.\n"
+                "subject": "Potvrdite Vašu Novu Adresu E-pošte",
+                "body": "Bok {username}!\n\nNetko (nadamo se Vi!) je promijenio/la svoju adresu e-pošte na {forum} u ovu.\n\nAko ste to bili Vi, jednostavno kliknite sljedeću poveznicu i Vaša e-pošta će biti potvrđena: {url}\n\nAko to niste bili Vi, molimo Vas da zanemarite ovu poruku e-pošte.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Hej {username}!\n\nNetko (nadamo se vi!) tvrdi da je zaboravio zaporku računa na forumu zvanom {forum}.\n\nAko ste to bili vi, kliknite na sljedeću poveznicu da biste ponovno postavili zaporku: {url}\n\nAko ne želite promijeniti vašu lozinku, samo ignorirajte ovaj e-mail i ništa se neće dogoditi.\n"
+                "body": "Bok {username}!\n\nNetko (nadamo se Vi!) je zatražio/la zaboravljenu lozinku za Vaš račun na {forum}.\n\nAko ste to bili Vi, kliknite sljedeću poveznicu kako biste resetirali svoju lozinku: {url}\n\nAko ne želite promijeniti lozinku, jednostavno zanemarite ovu poruku e-pošte i ništa se neće dogoditi.\n"
             },
             "send_test": {
                 "subject": "Flarum Email Test",
