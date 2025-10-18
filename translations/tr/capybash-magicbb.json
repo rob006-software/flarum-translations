@@ -11,16 +11,18 @@
                 "bb_image": "FoF Upload",
                 "bb_image_help": "Büyük, ortalanmış görseller gönderi genişliğinin %60'ına otomatik olarak yeniden boyutlandırılır. Kenara hizalanan görseller ise en fazla %40 olur. Bu ayar standart BBCode görsellerini etkilemez.",
                 "bb_iframe": "iframe",
-                "bb_iframe_help": "Herhangi bir kaynaktan iframe yerleştirilmesine izin verir. Dikkatli kullanın — gömülü içerik harici komut dosyaları içerebilir. 🧹 Bu ayarı değiştirdikten sonra lütfen Flarum önbelleğini temizleyin."
+                "bb_iframe_help": "Herhangi bir kaynaktan iframe yerleştirilmesine izin verir. Dikkatli kullanın — gömülü içerik harici komut dosyaları içerebilir. 🧹 Bu ayarı değiştirdikten sonra lütfen Flarum önbelleğini temizleyin.",
+                "toolbar_group": "",
+                "toolbar_group_help": ""
             },
             "sections": {
                 "text": "Metin düğmeleri",
-                "text_help": "Metninizi hizalayın ve biçimlendirin",
                 "content": "İçerik düğmeleri",
-                "content_help": "Bilgileri yapılandırın ve vurgulayın",
                 "images": "Görsel düğmeleri",
-                "images_help": "Görselleri konumlandırın ve ölçeklendirin",
-                "features": "Özellikler"
+                "features": "Özellikler",
+                "text_help": "Metninizi hizalayın ve biçimlendirin",
+                "content_help": "Bilgileri yapılandırın ve vurgulayın",
+                "images_help": "Görselleri konumlandırın ve ölçeklendirin"
             },
             "permissions": {
                 "use_iframe": "iframe kullanımına izin ver"
@@ -34,7 +36,8 @@
                 "spoiler_button": "Tatkaçıran ekle",
                 "table_button": "Tablo ekle",
                 "info_button": "Uyarı ekle",
-                "image_button": "Görsel ekle"
+                "image_button": "Görsel ekle",
+                "more_button": ""
             }
         }
     }
