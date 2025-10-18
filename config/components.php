@@ -165,7 +165,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.2/resources/locale/en.yml',
 	],
 	'capybash-magicbb' => [
-		'tag' => 'https://raw.githubusercontent.com/capybash/magicbb/v5.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/capybash/magicbb/v6.0.0/resources/locale/en.yml',
 	],
 	'capybash-magicread' => [
 		'tag' => 'https://raw.githubusercontent.com/capybash/magicread/v3.0.0/resources/locale/en.yml',
