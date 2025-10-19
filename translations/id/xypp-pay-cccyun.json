@@ -60,11 +60,11 @@
                 "ua-qq": "QQ UA",
                 "ua-mobile": "Mobile UA",
                 "use_proxy": "Gunakan proxy (Akan mengambil IP dari header x-forwarded-for)",
-                "key": "",
-                "public-key": "",
-                "private-key": "",
-                "use-v2": "",
-                "pid": "",
+                "key": "(V1) MD5 Key",
+                "public-key": "(V2) Platform Public Key",
+                "private-key": "(V2) Partner Private Key",
+                "use-v2": "Gunakan API v2 (RSA Ver)",
+                "pid": "ID Partner",
                 "base_url": "URL Dasar (Diakhiri dengan /)"
             },
             "other": {
