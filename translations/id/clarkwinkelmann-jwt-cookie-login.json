@@ -17,7 +17,7 @@
                 "usernameTemplateHelp": "Gunakan sintaks <code>{sub}</code> untuk menggunakan atribut dari JWT",
                 "emailTemplate": "Template Email",
                 "emailTemplateHelp": "Gunakan sintaks <code>{sub}</code> untuk menggunakan atribut dari JWT",
-                "registrationHook": "",
+                "registrationHook": "Registration Hook Endpoint",
                 "registrationHookHelp": "URL yang memenuhi syarat yang akan menerima POST request ketika pengguna mengunjungi forum untuk pertama kalinya. Permintaan tersebut akan mengembalikan JSON:API payload yang akan digunakan untuk membuat pengguna baru di Flarum. Gunakan sintaks <code>{sub}</code> untuk menggunakan atribut dari JWT dalam URL. JWT yang lengkap akan diteruskan ke <code>Authorization</code> header. Username dan Email bersifat opsional jika value untuk template dikonfigurasikan.\n",
                 "authorizationHeader": "",
                 "authorizationHeaderHelp": "Jika kolom ini dibiarkan kosong, <code>Authorization</code> header akan berisi <code>Token <JWT token></code>.",
