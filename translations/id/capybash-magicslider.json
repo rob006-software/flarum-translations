@@ -3,11 +3,12 @@
         "admin": {
             "settings": {
                 "section_display": "Tampilan",
+                "section_desktop": "",
+                "section_mobile": "",
+                "section_behavior": "",
                 "section_slides": "Slide",
-                "height_desktop": "Tinggi slider di desktop",
-                "height_desktop_help": "Tinggi tetap untuk layar dengan lebar lebih dari 768px",
-                "height_mobile": "Tinggi slider di perangkat mobile",
-                "height_mobile_help": "Tinggi tetap untuk layar dengan lebar hingga 768px",
+                "height": "",
+                "height_help": "",
                 "padding": "Jarak luar",
                 "padding_help": "Jarak di sekitar blok slider",
                 "radius": "Border radius",
@@ -16,12 +17,18 @@
                 "autoplay_help": "0 menonaktifkan pemutaran otomatis",
                 "hide_on_tag_pages": "Sembunyikan slider di halaman tag",
                 "hide_on_tag_pages_help": "Tampilkan tag hero default Flarum di halaman tag alih-alih slider",
+                "fit_to_layout": "",
+                "fit_to_layout_help": "",
                 "add_slide": "Tambahkan slide",
                 "image_placeholder": "URL gambar",
                 "link_placeholder": "URL tautan",
                 "new_tab": "Buka di tab baru",
                 "delete": "Hapus",
-                "drag": "Tarik untuk mengatur ulang urutan"
+                "drag": "Tarik untuk mengatur ulang urutan",
+                "height_desktop": "Tinggi slider di desktop",
+                "height_desktop_help": "Tinggi tetap untuk layar dengan lebar lebih dari 768px",
+                "height_mobile": "Tinggi slider di perangkat mobile",
+                "height_mobile_help": "Tinggi tetap untuk layar dengan lebar hingga 768px"
             }
         }
     }

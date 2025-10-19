@@ -3,11 +3,12 @@
         "admin": {
             "settings": {
                 "section_display": "Отображение",
+                "section_desktop": "",
+                "section_mobile": "",
+                "section_behavior": "",
                 "section_slides": "Слайды",
-                "height_desktop": "Высота слайдера на десктопе",
-                "height_desktop_help": "Фиксированная высота для экранов шире 768 px",
-                "height_mobile": "Высота слайдера на мобильных устройствах",
-                "height_mobile_help": "Фиксированная высота для экранов до 768 px",
+                "height": "",
+                "height_help": "",
                 "padding": "Внешний отступ",
                 "padding_help": "Пространство вокруг блока слайдера",
                 "radius": "Радиус скругления",
@@ -16,12 +17,18 @@
                 "autoplay_help": "0 отключает автоматическую прокрутку",
                 "hide_on_tag_pages": "Скрыть слайдер на страницах тегов",
                 "hide_on_tag_pages_help": "Показывать стандартный вариант Flarum на страницах тегов вместо слайдера",
+                "fit_to_layout": "",
+                "fit_to_layout_help": "",
                 "add_slide": "Добавить слайд",
                 "image_placeholder": "URL изображения",
                 "link_placeholder": "URL ссылки",
                 "new_tab": "В новой вкладке",
                 "delete": "Удалить",
-                "drag": "Перетащить"
+                "drag": "Перетащить",
+                "height_desktop": "Высота слайдера на десктопе",
+                "height_desktop_help": "Фиксированная высота для экранов шире 768 px",
+                "height_mobile": "Высота слайдера на мобильных устройствах",
+                "height_mobile_help": "Фиксированная высота для экранов до 768 px"
             }
         }
     }
