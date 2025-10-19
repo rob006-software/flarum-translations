@@ -2,75 +2,75 @@
     "xypp-invite-user": {
         "forum": {
             "page": {
-                "title": "",
+                "title": "Invitar",
                 "code": {
-                    "title": "",
-                    "code": "",
-                    "url": ""
+                    "title": "Invitar usuario",
+                    "code": "Código de invitación",
+                    "url": "URL de invitación"
                 },
                 "my": {
-                    "title": "",
-                    "code": "",
-                    "inviter": "",
-                    "accept": "",
-                    "no-inviter": ""
+                    "title": "Mi usuario invitado",
+                    "code": "Introducir código de invitación",
+                    "inviter": "Has aceptado al usuario como tu usuario invitado.",
+                    "accept": "Aceptar",
+                    "no-inviter": "Este usuario no ha aceptado ninguna invitación de usuario."
                 },
                 "invite": {
-                    "title": "",
-                    "username": "",
-                    "avatar": "",
-                    "empty": "",
-                    "time": ""
+                    "title": "Usuario invitado por mi",
+                    "username": "Nombre de usuario",
+                    "avatar": "Avatar",
+                    "empty": "No has invitado a ningún usuario.",
+                    "time": "Tiempo de invitación"
                 },
-                "no_tip": ""
+                "no_tip": "Nunca mostrarme el modal de invitación"
             },
             "confirm": {
-                "title": "",
-                "msg": "",
-                "alert": "",
-                "accept": "",
-                "success": ""
+                "title": "Confirmar invitación",
+                "msg": "El usuario {username} te invitó al foro. Haz clic en el botón que aparece a continuación para aceptar a este usuario como tu usuario invitado.",
+                "alert": "Solo puedes aceptar un usuario como usuario invitado. Puedes cerrar este modal en perfil->invitar",
+                "accept": "Aceptar",
+                "success": "Éxito."
             },
-            "invite": "",
+            "invite": "Invitar",
             "notification": {
-                "user_invited": "",
-                "user_invited_label": ""
+                "user_invited": "{username} ha aceptado tu invitación.",
+                "user_invited_label": "Invitación aceptada"
             },
             "condition": {
-                "user_invite": "",
-                "user_be_invited": ""
+                "user_invite": "Invitar usuario",
+                "user_be_invited": "Ser invitado"
             }
         },
         "admin": {
             "settings": {
                 "reward_invite": {
-                    "title": "",
-                    "description": ""
+                    "title": "Recompensa de invitación",
+                    "description": "Recompensa para el invitador. (Requiere antoinefr/flarum-ext-money)"
                 },
                 "reward_be_invited": {
-                    "title": "",
-                    "description": ""
+                    "title": "Recompensa por ser invitado",
+                    "description": "Recompensa al usuario invitado. (Requiere antoinefr/flarum-ext-money)"
                 },
                 "invite_each_other": {
-                    "title": "",
-                    "description": ""
+                    "title": "Invitarse entre ellos",
+                    "description": "El usuario puede invitar o no al usuario que lo invitó."
                 },
                 "invite_new_user_only": {
-                    "title": "",
-                    "description": ""
+                    "title": "Permitir invitar solo a nuevos usuarios",
+                    "description": "No permitir invitar a usuarios cuyo tiempo de registro sea menor al suyo."
                 }
             },
             "condition": {
-                "user_invite": "",
-                "user_be_invited": ""
+                "user_invite": "Invitar usuario",
+                "user_be_invited": "Ser invitado"
             }
         },
         "api": {
-            "invited_by_user_id_is_self": "",
-            "has_already_be_invited": "",
-            "invited_by_user_id_is_empty": "",
-            "invited_each_other": "",
-            "invited_an_elder_user": ""
+            "invited_by_user_id_is_self": "No puedes invitarte a ti mismo.",
+            "has_already_be_invited": "Ya has aceptado la invitación de otro usuario.",
+            "invited_by_user_id_is_empty": "Invitado por el Usuario Id está vacío.",
+            "invited_each_other": "No puede ser invitado por el usuario que te invitó.",
+            "invited_an_elder_user": "El tiempo de registro del invitante es mayor que el tuyo."
         }
     }
 }

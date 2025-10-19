@@ -1,81 +1,81 @@
 {
     "fof-ban-ips": {
         "forum": {
-            "ban_ip_button": "",
-            "unban_ip_button": "",
+            "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
+            "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
             "modal": {
-                "ban_options_only_ip": "",
-                "ban_options_all_ip": "",
-                "ban_ip_no_users": ""
+                "ban_options_only_ip": "Expulsar únicamente la IP actual (<code>{ip}</code>)",
+                "ban_options_all_ip": "Expulsar todas las IPs utilizadas por <i>{username}</i>",
+                "ban_ip_no_users": "No se expulsará a nadie más"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "Expulsado"
             },
             "user_controls": {
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "admin": {
             "permissions": {
-                "ban_ip_label": "",
-                "view_banned_ip_list_label": ""
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "view_banned_ip_list_label": "Ver lista de direcciones IP expulsadas"
             },
             "page": {
-                "create_button": "",
-                "creator_label": "",
-                "user_label": "",
-                "address_label": "",
-                "reason_label": "",
-                "date_label": ""
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
+                "creator_label": "Creador",
+                "user_label": "Usuario",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "date_label": "Fecha"
             },
             "modal": {
-                "update_title": "",
-                "ban_ip_no_users": ""
+                "update_title": "Actualizar IP expulsada",
+                "ban_ip_no_users": "Nadie será expulsado"
             },
-            "empty_text": ""
+            "empty_text": "No se encontraron IP expulsadas."
         },
         "error": {
-            "banned_ip_message": "",
-            "no_ips_found_message": ""
+            "banned_ip_message": "Autorización fallida.",
+            "no_ips_found_message": "No se han encontrado IPs para el usuario."
         },
         "lib": {
             "modal": {
-                "title": "",
-                "unban_title": "",
-                "address_label": "",
-                "reason_label": "",
-                "check_button": "",
-                "save_button": "",
-                "ban_ip_confirmation": "",
-                "ban_ip_users": "",
-                "unban_ip_confirmation": "",
-                "unban_options_only_ip": "",
-                "unban_options_all_ip": "",
-                "unban_ip_no_users": "",
-                "unban_ip_users": "",
-                "unbanned_ips": "",
-                "ban_button": "",
-                "unban_button": ""
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "check_button": "Verificar",
+                "save_button": "Guardar",
+                "ban_ip_confirmation": "¿Estás seguro de que quieres bloquear esta dirección IP para que no se pueda usar en el foro? Esto impedirá que los usuarios con estas direcciones IP inicien sesión y se registren.",
+                "ban_ip_users": "{count, plural, one {Usuario {users} será expulsado} other {Usuarios {users} serán expulsado}}",
+                "unban_ip_confirmation": "¿Estás seguro de que quieres desbloquear a este usuario y a todos los demás usuarios no expulsados por otras IPs?",
+                "unban_options_only_ip": "Solo desbloquear la IP actual (<code>{ip}</code>)",
+                "unban_options_all_ip": "Desbloquear todas las IPs utilizadas por <i>{username}</i>",
+                "unban_ip_no_users": "Nadie más será desbloqueado",
+                "unban_ip_users": "{count, plural, one {Se desbloqueará al usuario {users}} other {Se desbloquearán los usuarios {users}}",
+                "unbanned_ips": "Desbloqueados <code>{ips}</code>.",
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
-            "ban_label": "",
-            "ban_ip_addresses": "",
-            "ban_ip_button": "",
-            "unban_label": "",
-            "unban_ip_addresses": "",
-            "unban_ip_button": "",
-            "address_label": "",
-            "reason_label": ""
+            "ban_label": "Expulsar",
+            "ban_ip_addresses": "Expulsar IP(s)",
+            "ban_ip_button": "Expulsar IP",
+            "unban_label": "Desbloquear",
+            "unban_ip_addresses": "Desbloquear IP(s)",
+            "unban_ip_button": "Desbloquear IP",
+            "address_label": "Dirección IP",
+            "reason_label": "Razón"
         }
     },
     "flarum-gdpr": {
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Si un registro de expulsión de IP está asociado a un usuario (es decir, el usuario fue expulsado por IP), la dirección IP del usuario se incluirá en la exportación, junto con el motivo de la expulsión y la fecha de creación.",
+                    "anonymize_description": "Se desvincularán todas las direcciones IP vinculadas al usuario, pero la IP en sí permanecerá expulsada, junto con el motivo. Asegúrate de que no se almacenen datos de identificación personal en el campo \"motivo\"."
                 }
             }
         }

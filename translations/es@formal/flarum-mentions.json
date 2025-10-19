@@ -2,11 +2,11 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "Mencionar grupos"
             },
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Permitir formato de mención de nombre de usuario (@Usuario)",
+                "allow_username_format_text": "El formato actual para las menciones de usuarios es @\"Nombre a mostrar\"#ID.\nEsta configuración permite usar el formato anterior de @Usuario, sin embargo, aún se convertirá al nuevo formato al guardar.\n"
             }
         },
         "forum": {
@@ -15,17 +15,17 @@
                 "reply_to_post_text": "Respuesta a #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "Responde a esta publicación",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{count, plural, one {{username} respondió a su publicación.} other {{username} respondieron a su publicación.}}",
                 "user_mentioned_text": "{username} le mencionó",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} mencionó un grupo del que eres miembro"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "{count} más respuestas.",
                 "mentioned_by_self_text": "{count, plural, one {{users} respondiste a esto} other {{users} respondísteis a esto}}",
                 "mentioned_by_text": "{count, plural, one {{users} respondió a esto} other {{users} respondieron a esto}}",
                 "others_text": "=> core.ref.some_others",
@@ -36,16 +36,16 @@
             "settings": {
                 "notify_post_mentioned_label": "Alguien respondió a su publicación",
                 "notify_user_mentioned_label": "Alguien le mencionó en una publicación",
-                "notify_group_mentioned_label": ""
+                "notify_group_mentioned_label": "Alguien menciona un grupo del que soy miembro en una publicación"
             },
             "user": {
                 "mentions_link": "Menciones"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[desconocido]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[grupo desconocido]"
             }
         },
         "email": {
@@ -58,8 +58,8 @@
                 "body": "Hey {recipient_display_name}!\n\n{mencioner_display_name} le mencionó en una publicación en {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} mencionó un grupo del que eres miembro en {title}",
+                "body": "Hola {recipient_display_name}!\n\n{mentioner_display_name} mencionó un grupo del que eres miembro en {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

@@ -5,7 +5,7 @@
                 "back_to_user_directory_tooltip": "Volver al directorio de usuarios"
             },
             "hero": {
-                "title": ""
+                "title": "=> fof-user-directory.forum.page.nav"
             },
             "search": {
                 "users_heading": "Buscar usuarios por \"{query}\"",
@@ -24,8 +24,8 @@
                 "empty_text": "No hemos podido encontrar ningún usuario que coincida con su búsqueda.",
                 "filter_button": "Filtrar grupos",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} discusión} other {{count} discusiones}}",
+                    "post-count": "{count, plural, one { {count} publicación} other {{count} publicaciones}}"
                 }
             }
         },
@@ -38,7 +38,7 @@
                 "default-sort": "Ordenar por defecto",
                 "use-small-cards": "Utilizar tarjetas de usuario pequeñas",
                 "disable-global-search-source": "No añadir el Directorio de Usuarios al campo de búsqueda global de Flarum",
-                "link-group-mentions": ""
+                "link-group-mentions": "Vincular menciones de grupos en publicaciones al Directorio de usuarios"
             }
         },
         "lib": {

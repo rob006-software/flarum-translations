@@ -5,8 +5,8 @@
                 "like_posts_label": "Gustar publicaciones"
             },
             "settings": {
-                "like_own_posts_help": "",
-                "like_own_posts_label": ""
+                "like_own_posts_help": "Cuando está habilitado, sujeto a permiso, los usuarios pueden \"gustar\" sus propias publicaciones en el foro. Para evitar que los usuarios coloquen un \"me gusta\" en sus propias publicaciones, deshabilita esta configuración.",
+                "like_own_posts_label": "A los usuarios les pueden gustar sus propias publicaciones"
             }
         },
         "forum": {
@@ -24,13 +24,13 @@
             },
             "post_likes": {
                 "title": "Usuarios a quienes les gusta esto",
-                "load_more_button": ""
+                "load_more_button": "=> core.ref.load_more"
             },
             "settings": {
                 "notify_post_liked_label": "A alguien le gusta su publicación"
             },
             "user": {
-                "likes_link": ""
+                "likes_link": "Me gustas"
             }
         }
     }

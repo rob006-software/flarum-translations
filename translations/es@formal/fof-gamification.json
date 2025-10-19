@@ -2,132 +2,132 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "Tendencia",
+                "votes_button": "Votos positivos"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Votos",
+            "vote_title": "Mostrar quién votó",
             "nav": {
-                "name": ""
+                "name": "Clasificación"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Posición",
+                "name": "Usuario",
+                "amount": "Puntos"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} votó positivamente tu publicación",
+                "downvote": "{username} votó negativamente tu publicación",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Cuando una de mis publicaciones ha sido votada positivamente/negativamente"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} punto} other {{count} puntos}}"
                 },
-                "rank": "",
-                "votes_link": ""
+                "rank": "{rank}",
+                "votes_link": "Votaciones"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Votantes negativos:",
+                "title": "Votantes",
+                "upvotes_label": "Votantes positivos:"
             },
-            "mod_item": "",
+            "mod_item": "Ver votantes",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Ningún votante todavía",
+                "label": "Votantes",
+                "label_none": "Sin votantes"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Votar positivamente la publicación",
+                "downvote_button": "Votar negativamente la publicación"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "Votar positivamente/negativamente la publicación",
+                "see_votes_label": "Ver recuento de votos positivos/negativos",
+                "see_voters_label": "Ver quién votó",
+                "see_ranking_page": "Ver página de clasificación",
+                "upvote_notifications": "Recibir notificaciones sobre votos positivos",
+                "downvote_notifications": "Recibir notificaciones sobre votos negativos"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "admin, usuario1, usuario2",
+                        "title": "Usuarios ignorados",
+                        "help": "Estos usuarios no se mostrarán en la página de clasificación. Los nombres de usuarios deben estar separados por una coma seguida de un espacio."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Página de clasificación",
+                    "enable": "Habilitar imágenes personalizadas",
+                    "custom_image_1": "Imagen 1ª posición",
+                    "custom_image_2": "Imagen 2ª posición",
+                    "custom_image_3": "Imagen 3ª posición"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Nombre del icono de diseño alternativo"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
-                    "upvotes_only": "",
-                    "first_post_only": "",
-                    "allow_self_votes": ""
+                    "points_title": "Marcador de posición de Puntos",
+                    "points_placeholder": "Puntos: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Votar automáticamente las publicaciones cuando se publiquen",
+                    "rate_limit": "Forzar un límite de frecuencia de votación (10 segundos)",
+                    "discussion_page": "Mostrar el total de votos de la publicación original en la lista de discusiones",
+                    "alternate_layout": "Utiliza un diseño de votación alternativo en la lista de discusiones",
+                    "alternate_post_layout": "Utiliza un diseño de votación alternativo en las publicaciones",
+                    "title": "Votaciones",
+                    "vote_color": "Color votado",
+                    "icon_name": "Icono de voto positivo/negativo",
+                    "icon_help": "Coloca cualquier icono de Font-Awesome con el sufijo -up y -down. Ejemplos: arrow, thumbs, chevron",
+                    "upvotes_only": "Permitir solo votos positivos",
+                    "first_post_only": "Permitir votos positivos/negativos únicamente en la primera publicación de una discusión",
+                    "allow_self_votes": "Los usuarios pueden votar en sus propias publicaciones"
                 },
-                "save_settings": "",
+                "save_settings": "Guardar configuración",
                 "convert": {
-                    "button": "",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "button": "Convertir Me gustas en votos positivos",
+                    "help": "Convierte tus “Me gusta” anteriores de flarum-ext-likes en votos positivos y calcula el interés de todas las discusiones actuales.",
+                    "converting": "Tus Me gusta se están convirtiendo. Actualiza tu sitio después de unos minutos para ver que el proceso ha finalizado. (El tiempo de conversión puede demorar un poco dependiendo de la cantidad total de Me gusta en tu foro)",
+                    "converted": "Se convirtieron exitosamente todos los {number} Me gusta"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Rangos",
+                    "ranks": "Rangos personalizados",
+                    "number_title": "¿Cuántas insignias de rango se deben mostrar?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "Introduce la cantidad requerida de votos positivos, el nombre del rango y el color hexadecimal del rango",
+                        "points": "Puntos",
+                        "name": "Nombre"
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Grupos asignados automáticamente",
+                    "help": "Los grupos seleccionados se agregarán o eliminarán automáticamente según sea necesario cuando cambie la cantidad de puntos de un usuario. Si realizó cambios en la configuración, debe ejecutar el comando <code>php flarum fof:gamification:assign-groups</code> para actualizar los usuarios existentes. Si desea eliminar una regla y eliminar todos los usuarios del grupo, configura los valores mínimo y máximo en una cadena vacía, guarda la configuración y ejecuta el comando de línea de comandos. Finalmente, puedes eliminar la regla por completo desde la configuración.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Grupo",
+                        "minPoints": "Puntos mínimos (incluidos)",
+                        "maxPoints": "Puntos máximos (incluidos)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Añadir nueva regla",
+                    "delete": "Eliminar regla"
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Ey {recipient_display_name},\n\n{actor_display_name} acaba de votar tu publicación en {discussion_title}.\n\nMírala aquí: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "Tu publicación fue votada por {display_name}"
             }
         }
     }
