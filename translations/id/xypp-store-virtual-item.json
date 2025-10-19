@@ -2,46 +2,46 @@
     "xypp-store-virtual-item": {
         "admin": {
             "table": {
-                "all": "",
-                "check": "",
-                "id": "",
-                "name": "",
-                "key": "",
+                "all": "Semua",
+                "check": "-",
+                "id": "Id",
+                "name": "Nama",
+                "key": "Key",
                 "assign": "",
-                "operation": "",
-                "delete": "",
-                "create": "",
-                "delete_batch": "",
-                "load_more": "",
-                "remove_confirm": ""
+                "operation": "Operasi",
+                "delete": "Hapus",
+                "create": "Buat",
+                "delete_batch": "Hapus massal (total {count})",
+                "load_more": "Muat Lebih Banyak",
+                "remove_confirm": "Apakah Anda yakin ingin menghapus?"
             },
             "create": {
-                "title": "",
-                "name": "",
-                "key": "",
-                "content": "",
-                "fillTip": "",
-                "submit": "",
-                "add": "",
-                "convert": "",
-                "key_required": ""
+                "title": "Buat item virtual",
+                "name": "Nama item",
+                "key": "Key",
+                "content": "Konten",
+                "fillTip": "Masukkan key/konten Anda di bawah ini. ",
+                "submit": "Buat",
+                "add": "Tambahkan",
+                "convert": "Konversi Key:Konten",
+                "key_required": "Empty key tidak diperbolehkan"
             }
         },
         "forum": {
             "store": {
-                "name": ""
+                "name": "Item Virtual"
             },
             "select": {
-                "title": "",
-                "name": "",
-                "icon": "",
-                "desc": "",
-                "rest": "",
-                "submit": ""
+                "title": "Konfigurasi",
+                "name": "Nama item yang dipilih saat ini: {name}",
+                "icon": "Ikon",
+                "desc": "Deskripsi",
+                "rest": "Tampilkan jumlah sisa berdasarkan penyimpanan.",
+                "submit": "Kirim"
             }
         },
         "api": {
-            "no-available": ""
+            "no-available": "Tidak ada item yang tersedia"
         }
     }
 }
