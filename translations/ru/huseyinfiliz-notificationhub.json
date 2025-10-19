@@ -2,64 +2,64 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "Типы уведомлений"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "Отправлять уведомления всем пользователям",
+                "send_user": "Отправлять уведомления отдельным пользователям"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "Добавить тип уведомления",
+                "no_data": "Пока что ничего нет.",
+                "delete_confirm": "Точно удалить этот тип уведомлений и все связанные с ним уведомления?",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
-                    "active": ""
+                    "actions": "Действия",
+                    "name": "Название",
+                    "excerpt_key": "Отрывок по умолчанию",
+                    "description": "Описание типа уведомления",
+                    "icon": "Иконка по умолчанию",
+                    "default_message_key": "Сообщение по умолчанию",
+                    "permission": "Разрешение",
+                    "color": "Цвет",
+                    "default_url": "Ссылка по умолчанию",
+                    "default_recipients": "Получатели по умолчанию",
+                    "sort_order": "Порядок сортировки",
+                    "active": "Активно"
                 },
-                "save": "",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "save": "Сохранить",
+                "edit_notification_type": "Редактировать",
+                "add_notification_type": "Добавить"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "Отправить уведомление",
+                "notification_all": "Отправить уведомление"
             },
             "modal_notification": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": ""
+                "title_text": "Отправить уведомление",
+                "recipients_label": "Получатели",
+                "recipients_placeholder": "Введите имя пользователя или группы…",
+                "message_label": "Сообщение",
+                "url_label": "Сссылка",
+                "url_placeholder": "https://www.пример.com",
+                "submit_button": "Отправить уведомление",
+                "notification_sent_message": "Уведомление отправлено {recipientsCount} пользователям!",
+                "notification_type_label": "Тип уведомления",
+                "no_notification_types": "Нет активных типов уведомлений.",
+                "preview_title": "Превью",
+                "preview_message_placeholder": "Сообщение..."
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "Пользователь",
+                "group": "Группа"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": ""
+            "message_required": "Добавьте сообщение.",
+            "user_ids_required": "Укажите ID пользователей.",
+            "subject_id_required": "Укажите тип уведомления.",
+            "no_valid_recipients": "Нет подходящих получателей."
         }
     }
 }
