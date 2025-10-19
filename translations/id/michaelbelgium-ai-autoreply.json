@@ -2,25 +2,25 @@
     "michaelbelgium-ai-autoreply": {
         "admin": {
             "settings": {
-                "platform_label": "",
-                "platform_help": "",
-                "api_key_label": "",
-                "api_key_help": "",
-                "model_label": "",
-                "model_help": "",
-                "max_tokens_label": "",
-                "max_tokens_help": "",
-                "user_prompt_label": "",
-                "user_prompt_help": "",
-                "user_prompt_badge_label": "",
-                "user_prompt_badge_help": "",
-                "enable_on_discussion_started_label": "",
-                "enable_on_discussion_started_help": "",
-                "enabled_tags_label": "",
-                "enabled_tags_help": ""
+                "platform_label": "Platform",
+                "platform_help": "Pilih platform AI yang akan digunakan.",
+                "api_key_label": "API Key",
+                "api_key_help": "Dapatkan API key dari <a>{platform}</a>.",
+                "model_label": "Model",
+                "model_help": "Pelajari lebih lanjut tentang <a>model {platform}</a> (default: <code>{model}</code>)..",
+                "max_tokens_label": "Jumlah Token Maksimum",
+                "max_tokens_help": "<a>Apa itu token dan bagaimana menghitungnya?</a>",
+                "user_prompt_label": "Prompt Pengguna",
+                "user_prompt_help": "Masukkan ID pengguna yang akan digunakan untuk menghasilkan jawaban. Default adalah pengguna yang memulai diskusi.",
+                "user_prompt_badge_label": "Label Prompt Pengguna",
+                "user_prompt_badge_help": "Teks yang akan ditampilkan di samping prompt pengguna.",
+                "enable_on_discussion_started_label": "Aktifkan saat diskusi dimulai",
+                "enable_on_discussion_started_help": "Diskusi akan menerima jawaban berdasarkan konten posting pertama saat diskusi dimulai.",
+                "enabled_tags_label": "Tag Aktif",
+                "enabled_tags_help": "Pilih tag mana yang akan digunakan untuk menghasilkan jawaban."
             },
             "permissions": {
-                "use_chatgpt_assistant_label": ""
+                "use_chatgpt_assistant_label": "Gunakan Asisten AI"
             }
         }
     }
