@@ -2,12 +2,12 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "Anmelden als andere Nutzer"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "FoF Impersonate",
+                "require_reason": "Eingabe eines Grundes verlangen, bevor man sich als einen anderen Nutzer ausgeben kann.",
+                "no_settings_available": "Derzeit sind keine Einstellungen verfügbar. Versuche fof/moderator-notes zu installieren"
             }
         },
         "lib": {

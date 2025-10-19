@@ -1,34 +1,34 @@
 {
     "clarkwinkelmann-colorful-borders": {
         "forum": {
-            "edit": "",
-            "default": "",
-            "apply": "",
-            "reset": "",
-            "borderColor": "",
-            "backgroundColor": "",
-            "textColor": "",
-            "borderWidth": "",
-            "borderRadius": ""
+            "edit": "Stil bearbeiten",
+            "default": "Standard",
+            "apply": "Übernehmen",
+            "reset": "Benutzerdefinierten Stil entfernen",
+            "borderColor": "Farbe des Rahmens",
+            "backgroundColor": "Hintergrundfarbe",
+            "textColor": "Textfarbe",
+            "borderWidth": "Breite des Rahmens",
+            "borderRadius": "Radius des Rahmens"
         },
         "admin": {
             "permissions": {
-                "editOwnPost": "",
-                "editAnyPost": ""
+                "editOwnPost": "Eigenen Beitragsstil ändern",
+                "editAnyPost": "Jeden Beitragsstil ändern"
             },
             "settings": {
-                "enableBorderColor": "",
-                "enableBackgroundColor": "",
-                "enableTextColor": "",
-                "enableBorderWidth": "",
-                "enableBorderRadius": "",
-                "min": "",
-                "max": "",
+                "enableBorderColor": "Anpassbare Rahmenfarbe",
+                "enableBackgroundColor": "Anpassbare Hintergrundfarbe",
+                "enableTextColor": "Anpassbare Textfarbe",
+                "enableBorderWidth": "Anpassbare Rahmenbreite",
+                "enableBorderRadius": "Anpassbarer Rahmenradius",
+                "min": "Min.",
+                "max": "Max.",
                 "colors": {
-                    "simple": "",
-                    "all": "",
-                    "custom": "",
-                    "custom-help": ""
+                    "simple": "Einfaches Farbset",
+                    "all": "Alle Farben",
+                    "custom": "Benutzerdefinierte Farbauswahl",
+                    "custom-help": "Durch Komma getrennte Liste von #hex oder rgb() Werten"
                 }
             }
         }

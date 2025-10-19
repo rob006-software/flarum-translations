@@ -2,132 +2,132 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "Trends",
+                "votes_button": "Upvotes"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Abstimmungen",
+            "vote_title": "Zeigen, wer gewählt hat",
             "nav": {
-                "name": ""
+                "name": "Ranglisten"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Platz",
+                "name": "Nutzer",
+                "amount": "Punkte"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} hat deinen Beitrag Upgevoted",
+                "downvote": "{username} hat deinen Beitrag Downgevoted",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Wenn einer meiner Beiträge mit Up/Down bewertet wird"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} Punkt} other {{count} Punkte}}"
                 },
-                "rank": "",
-                "votes_link": ""
+                "rank": "{rank}",
+                "votes_link": "Abstimmungen"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Downvoter:",
+                "title": "Wähler",
+                "upvotes_label": "Upvoter:"
             },
-            "mod_item": "",
+            "mod_item": "Wähler anzeigen",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Noch keine Wähler",
+                "label": "Noch keine Wähler",
+                "label_none": "Keine Wähler"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Beitrag positiv bewerten",
+                "downvote_button": "Beitrag negativ bewerten"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "Upvote/Downvote Beiträge",
+                "see_votes_label": "Siehe Up/Down-Stimmenzählung",
+                "see_voters_label": "Sehe, wer abgestimmt hat",
+                "see_ranking_page": "Ranglisten Platz sehen",
+                "upvote_notifications": "Benachrichtigungen über Upvote erhalten",
+                "downvote_notifications": "Benachrichtigungen über Downvote erhalten"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "admin, user1, user2",
+                        "title": "Ignorierte Nutzer",
+                        "help": "Diese Nutzer werden nicht auf der Rangliste angezeigt. Nutzernamen sollten durch ein Komma, gefolgt von einem Leerzeichen, voneinander getrennt werden."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Ranglisten-Seite",
+                    "enable": "Benutzerdefinierte Bilder aktivieren",
+                    "custom_image_1": "Bild für Platz 1",
+                    "custom_image_2": "Bild für Platz 2",
+                    "custom_image_3": "Bild für Platz 3"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Name des Alt-Layout-Symbols"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
-                    "upvotes_only": "",
-                    "first_post_only": "",
-                    "allow_self_votes": ""
+                    "points_title": "Punkte Platzhalter",
+                    "points_placeholder": "Punkte: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Beiträge automatisch upvoten, wenn sie veröffentlicht werden",
+                    "rate_limit": "Erzwinge ein Abstimmungs-Limit (10 Sekunden)",
+                    "discussion_page": "Gesamtzahl der Stimmen des ursprünglichen Beitrags in der Diskussionsliste anzeigen",
+                    "alternate_layout": "Alternatives Abstimmungslayout in der Diskussionsliste verwenden",
+                    "alternate_post_layout": "Alternatives Abstimmungslayout für Beiträge verwenden",
+                    "title": "Stimmen",
+                    "vote_color": "Abgestimmt Farbe",
+                    "icon_name": "Upvote/Downvote Symbol",
+                    "icon_help": "Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron",
+                    "upvotes_only": "Nur Upvoting zulassen",
+                    "first_post_only": "Stimmen nach oben/unten nur im ersten Beitrag einer Diskussion zulassen",
+                    "allow_self_votes": "Nutzer können über ihre eigenen Beiträge abstimmen"
                 },
-                "save_settings": "",
+                "save_settings": "Einstellungen speichern",
                 "convert": {
-                    "button": "",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "button": "Gefällt-mirs in Upvotes konvertieren",
+                    "help": "Konvertiere deine vorherigen flarum-ext-likes Gefällt-mirs in Upvotes und berechne wie sehr im Trend alle aktuellen Diskussionen liegen.",
+                    "converting": "Deine Gefällt-mirs werden nun konvertiert. Aktualisiere die Seite nach ein paar Minuten, um zu sehen, ob der Prozess abgeschlossen ist. (Die Konvertierung kann eine Weile dauern, je nachdem wie viele Gefällt-mirs existieren)",
+                    "converted": "Erfolgreich alle {number} Gefällt-mirs konvertiert"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Ränge",
+                    "ranks": "Benutzerdefinierte Ränge",
+                    "number_title": "Wie viele Rangabzeichen sollen angezeigt werden?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "Gebe die gewünschte Anzahl an Upvotes, den Namen des Ranges und die Hex-Farbe des Ranges ein",
+                        "points": "Punkte",
+                        "name": "Name"
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Automatisch zugewiesene Gruppen",
+                    "help": "Die ausgewählten Gruppen werden bei Bedarf automatisch hinzugefügt oder entfernt, wenn sich die Anzahl der Punkte eines Nutzers ändert. Wenn du Änderungen an der Konfiguration erstellt hast, solltest du den Befehl <code>php flarum fof:gamification:assign-groups</code> ausführen, um existierende Nutzer zu aktualisieren. Wenn du eine Regel löschen und alle Nutzer/innen aus der Gruppe entfernen möchtest, legst du sowohl den Mindest- als auch den Höchstwert auf eine leere Zeichenfolge fest, speicherst die Einstellungen und führst den Befehl in der Befehlszeile aus. Schließlich kannst du die Regel in den Einstellungen komplett löschen.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Gruppe",
+                        "minPoints": "Mindestpunkte (inklusive)",
+                        "maxPoints": "Maximale Punkte (inklsuive)"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Neue Regel hinzufügen",
+                    "delete": "Regel löschen"
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Hallo {recipient_display_name},\n\n{actor_display_name} hat gerade über Deinen Beitrag in {discussion_title} abgestimmt.\n\nHier ansehen: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "Dein Beitrag wurde von {display_name} bewertet"
             }
         }
     }

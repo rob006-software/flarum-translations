@@ -2,16 +2,16 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "Eigenen Spitznamen bearbeiten"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "random_username_label": "",
-                "random_username_help": "",
-                "regex_label": "",
-                "set_on_registration_label": "",
-                "unique_label": ""
+                "max_label": "Maximale Länge für Spitznamen",
+                "min_label": "Minimale Länge für Spitznamen",
+                "random_username_label": "Zufällige Benutzernamen",
+                "random_username_help": "Durch diese Einstellung wird die Eingabe des `Benutzernamens` während der Registrierung ausgeblendet und stattdessen eine Zufallszahl verwendet. Außerdem wird das Feld `Spitzname` obligatorisch. Diese Änderung tritt nur in Kraft, wenn 'Einstellen von Spitznamen bei der Registrierung zulassen' aktiviert ist.",
+                "regex_label": "Regulärer Ausdruck zur Validierung",
+                "set_on_registration_label": "Einstellen von Spitznamen bei der Registrierung zulassen",
+                "unique_label": "Einzigartige Spitznamen erforderlich"
             },
             "wrong_driver": "Sie müssen \"nickname\" als den Anzeigenamen-Treiber in den <a><strong>Grundeinstellungen</strong></a> auswählen, damit diese Erweiterung wirksam wird."
         },
@@ -20,23 +20,23 @@
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
-                "nicknames_text": ""
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
-            "change_nickname": "",
-            "nickname": ""
+            "change_nickname": "Spitznamen ändern",
+            "nickname": "Spitzname"
         }
     }
 }

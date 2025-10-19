@@ -14,9 +14,17 @@ declare(strict_types=1);
 use app\components\inheritors\TranslationsInheritor;
 
 return [
+	'de@formal' => [
+		'class' => TranslationsInheritor::class,
+		'inheritFromLabel' => 'German informal variant',
+		'inheritFromSources' => __DIR__ . '/../sources',
+		'inheritFromTranslations' => __DIR__ . '/../translations/de',
+		'inheritToSources' => __DIR__ . '/../sources',
+		'inheritToTranslations' => __DIR__ . '/../translations/de@formal',
+	],
 	'es@formal' => [
 		'class' => TranslationsInheritor::class,
-		'inheritFromLabel' => 'informal variant',
+		'inheritFromLabel' => 'Spanish informal variant',
 		'inheritFromSources' => __DIR__ . '/../sources',
 		'inheritFromTranslations' => __DIR__ . '/../translations/es',
 		'inheritToSources' => __DIR__ . '/../sources',

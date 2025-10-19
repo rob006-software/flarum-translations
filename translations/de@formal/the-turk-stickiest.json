@@ -2,49 +2,49 @@
     "the-turk-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Super angeheftete Diskussionen",
+                "tag_sticky_discussions_label": "Markiere angeheftete Diskussionen"
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": "",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "badge_icon_label": "Super angeheftetes Abzeichen-Symbol",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "Tag-Stickies in der Liste \"Alle Diskussionen\" anzeigen",
+                "display_tag_sticky_text": "Sie werden wie normale Diskussionen behandelt und bleiben nicht an der Spitze stehen."
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Sticky {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Sticky-Diskussionen bleiben in der Liste \"Alle Diskussionen\" ganz oben, wenn sie ungelesen sind. Wenn du einen bestimmten Tag ansiehst, der zu der Diskussion gehört, bleibt er immer oben.",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+                "super_sticky_text": "Superklebrige Diskussionen bleiben auf jeden Fall an der obersten Stelle hängen.",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Tag-Stickies werden in der Liste \"Alle Diskussionen\" standardmäßig ausgeblendet. Sie werden nur angezeigt und bleiben ganz oben, wenn du ein bestimmtes Tag anschaust, das du hier auswählst. Diese Option kann mit \"Super Sticky\" kombiniert werden.",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} hat die Diskussion als super angeheftet markiert.",
+                "discussion_common_stickied_text": "{username} hat die Markierung der Diskussion als super angeheftet aufgehoben."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Super angeheftet",
+            "tag_sticky": "Anheftung markieren",
+            "super_tag_sticky": "Super Tag Sticky"
         }
     }
 }

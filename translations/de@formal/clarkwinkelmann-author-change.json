@@ -2,30 +2,30 @@
     "clarkwinkelmann-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Autor und Datum bearbeiten"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "title-post": "Bearbeite Betragsautor und -datum",
+                "title-discussion": "Autor und Datum der Diskussion bearbeiten",
+                "user": "Autor",
+                "created_at": "Erstellungszeit",
+                "edited_at": "Zeit bearbeiten",
+                "sync-with-discussion": "Mit Diskussion synchronisieren",
+                "sync-with-post": "Mit erstem Beitrag synchronisieren",
+                "sync-impossible": "Kann den ersten Beitrag nicht finden. Scrolle zum Anfang der Diskussion.",
+                "submit": "Sichern",
+                "cancel": "Abbruch"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Benutzer suchen",
+                "type-more": "Gebe 3 zeichen ein, um die Datanbank zu durchsuchen",
+                "no-results": "Keine Ergebnisse"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Diskussions- und Beitragsautor aktualisieren",
+                "edit-date": "Diskussion und Veröffentlichungsdatum aktualisieren"
             }
         }
     }

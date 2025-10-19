@@ -2,20 +2,20 @@
     "clarkwinkelmann-formatted-banner": {
         "admin": {
             "settings": {
-                "guestContent": "",
-                "guestHtml": "",
-                "memberContent": "",
-                "memberHtml": "",
-                "dismissible": "",
-                "replaceWelcomeHero": "",
-                "hideWelcomeHero": ""
+                "guestContent": "Formatierter Inhalt für Gäste",
+                "guestHtml": "HTML-Inhalt für Gäste",
+                "memberContent": "Formatierter Inhalt Mitglieder",
+                "memberHtml": "HTML-Inhalt für Mitglieder",
+                "dismissible": "Erlaube das Schließen des Banner",
+                "replaceWelcomeHero": "Ersetze die Willkommensnachricht mit dem Banner",
+                "hideWelcomeHero": "Willkommensnachricht verstecken"
             }
         },
         "forum": {
             "alert": {
-                "refresh": "",
-                "login": "",
-                "logout": ""
+                "refresh": "Seite neu laden",
+                "login": "Du wurdest automatisch verbunden.",
+                "logout": "Deine Sitzung ist abgelaufen."
             }
         }
     }

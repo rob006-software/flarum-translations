@@ -2,18 +2,18 @@
     "ianm-online-guests": {
         "admin": {
             "permissions": {
-                "view_online_guests_label": ""
+                "view_online_guests_label": "Online-Gäste anzeigen"
             },
             "settings": {
-                "online_duration_label": "",
-                "cache_duration_label": ""
+                "online_duration_label": "Online-Dauer",
+                "cache_duration_label": "Cache-Dauer"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "description": "",
-                "guests_online": ""
+                "title": "Online-Gäste",
+                "description": "Zeigt die Anzahl der Gäste, die gerade im Forum surfen",
+                "guests_online": "{count, plural, one {Gast online} other {Gäste online}}"
             }
         }
     }

@@ -2,118 +2,118 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Beste Antwort auswählen (eigene Diskussion)",
+                "best_answer_not_own_discussion": "Beste Antwort auswählen (nicht eigene Diskussion)"
             },
             "settings": {
                 "label": {
-                    "tags": "",
-                    "general": "",
-                    "reminders": "",
-                    "search": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "tags": "Tags für beste Antworten",
+                    "general": "Allgemein",
+                    "reminders": "Erinnerungen",
+                    "search": "Durchsuchen",
+                    "advanced": "Erweitert",
+                    "reminders_notice": "Damit Erinnerungen funktionieren, müssen Sie den Flarum-Planer richtig eingerichtet haben."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
-                "select_best_answer_reminder_days": "",
-                "select_best_answer_reminder_days_help": "",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
-                "schedule_log_output": "",
-                "show_filter_label": "",
-                "show_filter_help": "",
-                "use_alt_ui": "",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "enabled_tags_label": "",
-                "enabled_tags_help": "",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": "",
-                "solution_search": "",
-                "solution_search_help": "",
-                "remove_solutions_from_main_search": "",
-                "remove_solutions_from_main_search_help": "",
-                "display_tags": "",
-                "display_tags_help": "",
-                "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "allow_select_own_post": "Eigenen Beitrag auswählen",
+                "allow_select_own_post_help": "Einem Benutzer erlauben, seinen eigenen Beitrag als beste Antwort auf eine Diskussion auszuwählen",
+                "show_max_lines_label": "Maximal anzuzeigende Zeilen in der Postvorschau",
+                "show_max_lines_help": "Zum Deaktivieren auf 0 festlegen. Wenn ein Beitrag länger als die konfigurierte Anzahl von Zeilen ist, wird er in der Beitragsvorschau mit einem Ausblendeffekt abgeschnitten.",
+                "select_best_answer_reminder_days": "Erinnerungshäufigkeit",
+                "select_best_answer_reminder_days_help": "Sende nach der konfigurierbaren Anzahl von Tagen eine Erinnerung an das OP, um eine beste Antwort auszuwählen, 0 = Erinnerungen deaktivieren.",
+                "select_best_answer_tags_label": "Tags für Diskussionen mit Besten Antworten",
+                "select_best_answer_tags_help": "Wähle aus, ob und welche Tags zu Diskussionen hinzugefügt werden sollen, wenn eine Beste Antwort festgelegt wird. Es sind nur sekundäre Tags erlaubt. Diese Tags werden entfernt, wenn die Beste Antwort entfernt wird.",
+                "schedule_on_one_server": "Verwende die Direktive 'onOneServer()' für den Taskplaner",
+                "schedule_on_one_server_help": "Erfordert Redis/Memcache",
+                "schedule_stop_overnight": "Verhindern, dass Erinnerungsbenachrichtigungen während unsozialer Zeiten gesendet werden",
+                "schedule_stop_overnight_help": "21:00 - 08:00 Uhr Serverzeit",
+                "schedule_log_output": "Scheduler-Output an den Log anhängen",
+                "show_filter_label": "Dropdown-Liste für Filter für beste Antwort anzeigen",
+                "show_filter_help": "Wähle für Tags, bei denen die besten Antworten aktiviert sind, die Filteroption gelöst/ungelöst in der Diskussionsliste anzeigen",
+                "use_alt_ui": "Alternatives Layout",
+                "use_alt_ui_help": "Beste Antwortsteuerelemente in der Fußzeile des Beitrags",
+                "documentation": "Dokumentation",
+                "enabled_tags_label": "Aktivierte Tags",
+                "enabled_tags_help": "Wählen Sie aus, für welche Tags (sofern vorhanden) die Option „Beste Antworten“ aktiviert werden soll. Diese Tags werden zu Tags im „Fragen und Antworten“-Format und können die Option „Beste Antworten“ festlegen.",
+                "remind_tags_label": "Erinnerungs-Tags",
+                "remind_tags_help": "Wählen Sie aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.",
+                "tags_info": "Wenn ein Tag „Beste Antwort“ aktiviert ist, weisen Sie jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n",
+                "solution_search": "Lösungssuche",
+                "solution_search_help": "Aktivieren Sie die Möglichkeit, nach Diskussionen mit den besten Antworten zu suchen",
+                "remove_solutions_from_main_search": "Lösungen aus der Hauptsuche entfernen",
+                "remove_solutions_from_main_search_help": "Diskussionen mit den besten Antworten aus den Hauptsuchergebnissen von ‚Alle Diskussionen‘ entfernen",
+                "display_tags": "Tags in Suchergebnissen anzeigen",
+                "display_tags_help": "Tags in Suchergebnissen für Diskussionen mit „Beste Antworten“ anzeigen",
+                "discussion_sidebar_jump_button": "Schaltfläche „Zur besten Antwort springen“ in der Diskussionsseitenleiste anzeigen",
+                "discussion_sidebar_jump_button_help": "Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt."
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Die Option Beste Antworten aktivieren, um in diesem Tag festgelegt zu werden",
+                "reminders": "Sende Erinnerungen, um eine beste Antwort für Diskussionen in diesem Tag festzulegen"
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "Beantwortet",
+            "this_best_answer": "Beste Antwort auswählen",
+            "remove_best_answer": "Beste Antwort abwählen",
+            "best_answer_button": "Beste Antwort",
+            "best_answer_label": "gewählt von <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Der ausgewählte Beitrag existiert nicht in dieser Diskussion."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} hat in dieser Diskussion eine beste Antwort gewählt",
+                "content": "Bitte wähle eine Beste Antwort, wenn deine Frage bereits beantwortet wurde",
+                "awarded": "Dein Beitrag wurde von {username} als beste Antwort ausgewählt",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": "",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "Jemand legt meinen Beitrag als beste Antwort fest",
+                    "best_answer_in_discussion": "Die beste Antwort findet sich in einer Diskussion, an der ich teilgenommen habe",
+                    "select_best_answer": "Eine automatische Erinnerung, um in einer von mir begonnenen Diskussion die beste Antwort auszuwählen"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Eine Frage stellen",
+                "cannot_ask_question": "Kann keine Frage stellen",
+                "solved_link": "Gelöste Diskussionen",
+                "unsolved_link": "Ungelöste Diskussionen"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Alle Fragen",
+                "solved_label": "Gelöste Fragen",
+                "unsolved_label": "Ungelöste Fragen",
+                "accessible_label": "Gelöste/Ungelöste Auswahl"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Titel der Frage"
             },
             "user": {
-                "best-answer-count": ""
+                "best-answer-count": "{count, plural, one { {count} beste Antwort} other {{count} beste Antworten}}"
             },
             "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
+                "discussions_solutions_heading": "Diskussionen mit Lösungen",
+                "all_discussions_solutions_button": "Suche in allen Diskussionen mit Lösungen für \"{query}\""
             },
             "discussion": {
-                "jump_to_best_answer_button": ""
+                "jump_to_best_answer_button": "Beste Antwort anzeigen"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Dein Beitrag wurde von {display_name} als beste Antwort ausgewählt",
+                "ba-set": "{display_name} hat eine beste Antwort gewählt",
+                "select": "Konnten Sie eine Antwort auf Ihre Frage erhalten?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Hallo {recipient_display_name},\n\nGute Arbeit, {actor_display_name} hat soeben deinen Beitrag als die beste Antwort in der Diskussion '{discussion_title}' ausgewählt. Danke fürs Mithelfen.\n\nSchau es dir an: {discussion_url}\n",
+                "ba-set": "Hallo {recipient_display_name},\n\n{actor_display_name} hat soeben eine beste Antwort in der Diskussion '{discussion_title}' gewählt, an der du teilgenommen hast.\n\nSchau es dir an: {discussion_url}\n",
+                "select": "Hallo {recipient_display_name},\n\nNur um sicherzugehen; mittlerweile solltest du jede Menge Antworten auf deine Frage '{discussion_title}' erhalten haben. Hoffentlich hat dir einer von ihnen geholfen, dein Problem zu lösen.\n\nWenn das so ist wäre es sehr hilfreich für zukünftige Mitglieder wenn du eine beste Antwort auf deine Frage auswählen könntest. Es wird Leuten mit dem gleichen Problem helfen, die Antwort zu finden, die sie brauchen, und es ist auch ein großes Dankeschön an die Mitglieder, die dir ausgeholfen haben. Sie geben ihre Zeit freiwillig, also ist es schön sie wissen zu lassen, dass sie hilfreich sind.\n\nÖffne die Diskussion: {discussion_url}, und wähle den passendsten Beitrag als beste Antwort.\n\nVielen Dank!\n"
             }
         }
     },
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Die besten Antworten",
+                "least_best_answers": "Am wenigsten beste Antworten"
             }
         }
     }

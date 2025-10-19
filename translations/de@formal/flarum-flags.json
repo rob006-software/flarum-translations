@@ -14,7 +14,7 @@
         "forum": {
             "flag_post": {
                 "confirmation_message": "Vielen Dank, dass Sie diesen Beitrag gemeldet haben. Unsere Moderatoren werden sich um das Anliegen kümmern.",
-                "dismiss_button": "",
+                "dismiss_button": "=> core.ref.okay",
                 "reason_details_placeholder": "Zusätzliche Informationen (optional)",
                 "reason_inappropriate_label": "Unangebracht",
                 "reason_inappropriate_text": "Dieser Beitrag ist anstößig, beleidigend oder verstößt gegen die <a>Community-Richtlinien</a>.",
@@ -24,14 +24,14 @@
                 "reason_other_label": "Sonstiges",
                 "reason_spam_label": "Spam",
                 "reason_spam_text": "Dieser Beitrag ist Werbung.",
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
                 "empty_text": "Keine Meldungen",
                 "item_text": "{username} in <em>{discussion}</em>",
-                "title": "",
-                "tooltip": ""
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
                 "dismiss_flag_button": "Meldung ablehnen",

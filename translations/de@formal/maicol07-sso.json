@@ -2,7 +2,7 @@
     "maicol07-sso": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "SSO Einstellungen",
                 "provider_mode": "",
                 "client_name": "",
                 "client_name_help": "",
@@ -14,22 +14,22 @@
                 "client_password_token_help": "",
                 "client_verify_ssl": "",
                 "client_verify_ssl_help": "",
-                "signup_url": "",
-                "login_url": "",
-                "logout_url": "",
-                "remove_login_btn": "",
-                "remove_signup_btn": "",
-                "manage_account_url": "",
-                "manage_account_btn_open_in_new_tab": "",
+                "signup_url": "Registrierungs-URL",
+                "login_url": "Login-URL",
+                "logout_url": "Logout-URL",
+                "remove_login_btn": "Login-Button entfernen",
+                "remove_signup_btn": "Registrier-Button entfernen",
+                "manage_account_url": "Konto-Verwaltungs-URL",
+                "manage_account_btn_open_in_new_tab": "Kontoverwaltung in einer neuen Registerkarte öffnen",
                 "cookies_prefix": "",
-                "jwt_section_subtitle": "",
-                "jwt_iss": "",
-                "jwt_signer_key": "",
-                "jwt_signing_algorithm": ""
+                "jwt_section_subtitle": "JWT-Addon Einstellungen",
+                "jwt_iss": "Aussteller-Domäne",
+                "jwt_signer_key": "Signatur-Schlüssel",
+                "jwt_signing_algorithm": "Signaturverfahren"
             }
         },
         "forum": {
-            "manage_account_btn": "",
+            "manage_account_btn": "Account verwalten",
             "no_login_url_error": ""
         }
     }

@@ -13,11 +13,11 @@
                     "heading": "",
                     "help": ""
                 },
-                "service_label": "",
-                "service_ipdata_label": "",
-                "service_ipdata_description": "",
-                "service_ipapi_label": "",
-                "service_ipapi_description": "",
+                "service_label": "Dienstleistung",
+                "service_ipdata_label": "IPData",
+                "service_ipdata_description": "Verwende <b>https://ipdata.co</b>, um täglich bis zu 1.500 kostenlose Auflösungen durchzuführen.",
+                "service_ipapi_label": "IP Api",
+                "service_ipapi_description": "Verwende <b>http://ip-api.com/</b>, um bis zu 150 kostenlose Auflösungen pro Minute durchzuführen. Wenn Du mehr durchführst, wird Deine IP möglicherweise auf die schwarze Liste gesetzt, wonach Du sie unter <b>http://ip-api.com/docs/unban</b> aufheben kannst.",
                 "service_ipapi-pro_label": "",
                 "service_ipapi-pro_description": "",
                 "service_iplocation_label": "",
@@ -26,10 +26,10 @@
                 "service_ipsevenex_description": "",
                 "service_ipinfo-lite_label": "",
                 "service_ipinfo-lite_description": "",
-                "access_key_label": "",
+                "access_key_label": "Zugangsschlüssel",
                 "quota_label": "",
-                "show_flag_label": "",
-                "show_flag_help": "",
+                "show_flag_label": "Länderflagge für jeden Beitrag anzeigen",
+                "show_flag_help": "Zeigen Sie ohne Offenlegung der IP-Adresse die Länderflagge der IP-Adresse des Beitragsautors an.",
                 "test": {
                     "heading": "",
                     "help": ""
@@ -61,27 +61,27 @@
         },
         "forum": {
             "alerts": {
-                "ip_copied": ""
+                "ip_copied": "Kopierte IP-Adresse"
             },
             "copy_ip_label": "",
-            "map_button_label": "",
+            "map_button_label": "IP-Informationen",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "title": "IP-Informationen",
+                "ip_address": "IP-Adresse",
+                "country_code": "Landesvorwahl",
+                "zip_code": "PLZ",
+                "isp": "Internetanbieter",
+                "as": "ASN",
+                "mobile": "Mobilfunknetz",
+                "organization": "Organisation",
+                "threat_level": "Bedrohungsstufe",
+                "threat_types": "Bedrohungsarten",
+                "error": "Fehler",
+                "not_enough_data": "Nicht genügend Daten, um eine Karte zu zeichnen"
             },
             "user": {
                 "settings": {
-                    "ip_country": ""
+                    "ip_country": "Die Flagge des Landes anzeigen, aus dem ich poste, basierend auf meiner IP-Adresse"
                 }
             }
         }
@@ -89,8 +89,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
-                "showIPCountry-help": ""
+                "showIPCountry": "Zeigt die Flagge des Landes, aus dem der Benutzer postet",
+                "showIPCountry-help": "Dies basiert auf ihrer IP-Adresse zum Zeitpunkt der Veröffentlichung. Die Landesflagge (falls aktiviert) ist für alle Benutzer sichtbar. Administratoren und Moderatoren sehen die IP-Adresse im Tooltip."
             }
         }
     }

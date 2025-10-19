@@ -3,96 +3,96 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Private Diskussion"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Empfänger",
+                "submit": "Okay",
+                "edit_recipients": "Empfänger bearbeiten",
+                "send_pd": "{username} eine Nachricht senden",
+                "cancel": "Abbrechen",
+                "make_public": "Diese Diskussion öffentlich machen",
+                "remove_from_discussion": "Diese private Diskussion verlassen"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Erstelle private Diskussion",
+                "title_placeholder": "Private Diskussion Titel"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Dadurch wird diese private Diskussion für alle sichtbar. Überlege, ob dies die richtige Handlung ist, bevor du fortfährst."
             },
             "hero": {
                 "title": ""
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count} Empfänger"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Privat diskutieren",
+                "nav_item": "Private Diskussionen"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Empfänger durch Eingabe der ersten drei Zeichen suchen…"
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Rechtegruppen"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Empfänger von {title} aktualisieren",
+                    "add_recipients": "Empfänger zur Diskussion hinzufügen"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Ausgewählte Benutzer",
+                    "search_field": "Benutzer suchen"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "Diese Diskussion wird nur für die Nutzer sichtbar sein, die du hier auswählst. Mindestens 1 Empfänger (außer dir selbst) ist erforderlich.",
+                    "update_recipients": "Diese Diskussion wird nur für die Nutzer sichtbar sein, die du hier auswählst.",
+                    "selected_users": "Klicke auf den Namen eines Benutzers, um ihn zu entfernen.",
+                    "click_user_to_remove_tooltip": "Zum Entfernen anklicken"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} hat die Empfänger {added} hinzugefügt und {removed} entfernt.",
+                    "added": "{username} hat die Empfänger {added} hinzugefügt.",
+                    "made_public": "{username} hat alle Empfänger entfernt und die Diskussion öffentlich gemacht",
+                    "removed": "{username} hat die Empfänger {removed} entfernt.",
+                    "removed_self": "{username} hat die private Diskussion verlassen."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Private Diskussionen sperren"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Private Diskussionen",
+                "dropdown_label": "Private Diskussionen"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "Jemand nimmt mich in eine neue private Diskussion auf",
+                "pd_reply_label": "Jemand postet in einer privaten Diskussion in der ich Empfänger bin",
+                "pd_reply_text": "{username} hat in einer privaten Diskussion gepostet, an der du beteiligt bist",
+                "pd_text": "{username} hat eine neue private Diskussion mit dir begonnen",
+                "pd_user_left_label": "Ein Empfänger verlässt eine private Diskussion, an der ich teilnehme",
+                "pd_user_left_text": "{username} hat die private Diskussion verlassen",
+                "pd_added_text": "{username} hat dich zu einer privaten Diskussion hinzugefügt",
+                "pd_added_label": "Jemand fügt mich zu einer bestehenden privaten Diskussion hinzu"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "add_more_than_two_user_recipients": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "Private Diskussionen mit Nutzern erstellen",
+                "add_more_than_two_user_recipients": "Mehr als 2 Benutzer-Empfänger zu einer privaten Diskussion hinzufügen",
+                "create_private_discussions_with_groups": "Private Diskussionen mit Gruppen erstellen",
+                "create_private_discussions_with_blocking_users": "Erstelle private Diskussionen mit Nutzern, die du blockierst",
+                "edit_user_recipients": "Nutzer bearbeiten, die an privaten Diskussionen teilnehmen",
+                "edit_group_recipients": "Gruppen bearbeiten, die an privaten Diskussionen teilnehmen",
+                "make_private_into_public": "Eine private Diskussion in eine öffentliche Diskussion umwandeln",
+                "view_private_discussions-when-flagged": "Private Diskussionen anderer Nutzer anzeigen, wenn diese gemeldet sind"
             },
             "settings": {
                 "general": {
@@ -103,28 +103,28 @@
                     "heading": "",
                     "help": ""
                 },
-                "badge-icon": "",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
-                "post-event-icon": "",
-                "delete_on_last_recipient_left": "",
-                "delete_on_last_recipient_left_help": "",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "badge-icon": "Byobu Diskussions Abzeichen",
+                "enable-make-public-option": "\"Öffentlich machen\" Funktion aktivieren",
+                "enable-make-public-option-help": "Fügt die Möglichkeit für diejenigen hinzu, die die Berechtigung haben, alle Empfänger zu entfernen, ein neues Thema zuzuweisen und die Diskussion öffentlich sichtbar zu machen (gemäß den Sichtbarkeitseinstellungen des ausgewählten Themas).",
+                "post-event-icon": "Byobu Post Ereignisse",
+                "delete_on_last_recipient_left": "PDs löschen, wenn der letzte Nutzer geht",
+                "delete_on_last_recipient_left_help": "Wenn diese Option aktiviert ist, werden die PDs dauerhaft aus der Datenbank gelöscht, wenn der letzte Nutzer sie verlässt. Andernfalls wird die PD sanft gelöscht/versteckt.",
+                "hide_from_all_discussions_page": "PDs von der Seite \"Alle Diskussionen\" ausblenden",
+                "hide_from_all_discussions_page_help": "Private Diskussionen sind nur über die Seite \"Private Diskussionen\" oder das Benutzerprofil zugänglich"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Private Diskussion] {display_name} hat eine neue private Diskussion mit dir begonnen",
+                "private_discussion_replied": "[Private Diskussion] {display_name} hat in einer privaten Diskussion gepostet",
+                "recipient_removed": "[Private Diskussion] {display_name} hat die Diskussion verlassen",
+                "private_discussion_added": "[Private Diskussion] {display_name} hat dich zu einer privaten Diskussion hinzugefügt"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Hallo {recipient_display_name},\n\n{actor_display_name} hat eine neue private Diskussion mit dir als Empfänger gestartet, mit dem Titel \\\"{discussion_title}\\\".\n\nBetrachte sie hier:\n{discussion_url}\n\nDu musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.\n",
+                "private_discussion_replied": "Hallo {recipient_display_name},\n\n{actor_display_name} hat in einer privaten Diskussion mit dir als Empfänger gepostet, mit dem Titel \\\"{discussion_title}\\\".\n\nBetrachte sie hier:\n{post_url}\n\nDu musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.\n",
+                "recipient_removed": "Hallo {recipient_display_name},\n\n{actor_display_name} hat die private Diskussion \\\"{discussion_title}\\\" verlassen. Dadurch ist der Nutzer nicht mehr dazu in der Lage, den Inhalt zu sehen.\n\nBetrachte sie hier:\n{discussion_url}\n\nDu musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.\n",
+                "private_discussion_added": "Hallo {recipient_display_name},\n\n{actor_display_name} hat dich zu einer bestehenden privaten Diskussion hinzugefügt, mit dem Titel \\\"{discussion_title}\\\".\n\nBetrachte sie hier:\n{discussion_url}\n\nDu musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.\n"
             }
         }
     }

@@ -2,34 +2,34 @@
     "flagrow-ads": {
         "admin": {
             "buttons": {
-                "save": ""
+                "save": "Einstellungen speichern"
             },
             "positions": {
                 "under-header": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Anzeigenposition unter Navigationskopfzeile",
+                    "placeholder": "Hier deinen Anzeigencode eingeben."
                 },
                 "between-posts": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Anzeigenposition zwischen Posts",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
                 },
                 "under-nav-items": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Anzeigenposition in der linken Spalte unter Tags auf der Startseite",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
                 }
             },
             "settings": {
-                "adsense-title": "",
-                "position-title": "",
-                "adsense-enable": "",
-                "adsense-client-id": "",
-                "start-from-post": "",
-                "between-n-posts": "",
-                "header-only-frontpage": ""
+                "adsense-title": "AdSense-Einstellungen",
+                "position-title": "Anzeigenplatzierungen",
+                "adsense-enable": "AdSense aktiviert",
+                "adsense-client-id": "Deine Publisher-ID angeben",
+                "start-from-post": "Angeben, ab welchem Beitrag eine Anzeige geschaltet werden soll",
+                "between-n-posts": "Angeben, nach wie vielen Beiträgen eine Anzeige geschaltet werden soll",
+                "header-only-frontpage": "Unter der Navigationskopfzeile wird die Anzeige nur auf der Titelseite angezeigt"
             },
             "tab": {
-                "title": "",
-                "description": ""
+                "title": "Werbung",
+                "description": "Anzeigenpräferenzen und -positionen festlegen."
             }
         }
     }

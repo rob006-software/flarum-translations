@@ -1,29 +1,29 @@
 {
     "nearata-embed-twitch": {
         "admin": {
-            "allowfullscreen": "",
-            "autoplay": "",
+            "allowfullscreen": "Vollbild erlauben",
+            "autoplay": "Automatisches Abspielen",
             "permissions": {
-                "create_twitch": ""
+                "create_twitch": "Twitch einbetten"
             }
         },
         "forum": {
             "modal": {
                 "label": {
-                    "collection": "",
-                    "channel": "",
-                    "layout": "",
-                    "type": "",
-                    "video": ""
+                    "collection": "Sammlungs-ID",
+                    "channel": "Kanal Name",
+                    "layout": "Layout",
+                    "type": "Art des Inhalts",
+                    "video": "Video-ID"
                 },
-                "save_changes": "",
+                "save_changes": "Änderungen speichern",
                 "options": {
-                    "channel": "",
-                    "video": "",
-                    "collection": ""
+                    "channel": "Kanal",
+                    "video": "Video",
+                    "collection": "Sammlung"
                 }
             },
-            "button_tooltip_title": ""
+            "button_tooltip_title": "Twitch einbetten"
         }
     }
 }

@@ -3,16 +3,16 @@
         "forum": {
             "user": {
                 "viewlist": {
-                    "title": "",
-                    "guest": ""
+                    "title": "Letzte Besucher",
+                    "guest": "Gast"
                 },
-                "view_count_text": ""
+                "view_count_text": "{viewcount} mal aufgerufen"
             }
         },
         "admin": {
             "settings": {
-                "track_guests_label": "",
-                "max_viewcount_label": ""
+                "track_guests_label": "Gäste mitzählen",
+                "max_viewcount_label": "Maximale Einträge in Besucherliste"
             }
         }
     }

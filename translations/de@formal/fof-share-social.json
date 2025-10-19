@@ -3,35 +3,35 @@
         "admin": {
             "settings": {
                 "canonical-urls": "Kanonische URLs zum Teilen verwenden",
-                "plain-copy": "",
-                "default-option": "",
-                "default-option-help": ""
+                "plain-copy": "Einfache URL-Kopie anzeigen",
+                "default-option": "Standard-Teilen-Option",
+                "default-option-help": "Wenn du eine Standardoption auswählst, wird das Modal in eine Dropdown-Schaltfläche umgewandelt.\nWenn „Native Share“ ausgewählt wird, wird es nur angezeigt, wenn der Browser es unterstützt, andernfalls wird das ursprüngliche Modal wiederhergestellt.\n"
             }
         },
         "forum": {
             "discussion": {
                 "share_button": "Teilen",
-                "share_dropdown_accessible_label": ""
+                "share_dropdown_accessible_label": "Dropdown-Menü zum Teilen der Diskussion umschalten"
             },
             "modal": {
-                "title": "",
-                "copy_button": ""
+                "title": "Teilen",
+                "copy_button": "Kopieren"
             }
         },
         "lib": {
             "networks": {
-                "facebook": "",
-                "twitter": "",
-                "linkedin": "",
-                "reddit": "",
-                "whatsapp": "",
-                "telegram": "",
-                "vkontakte": "",
-                "odnoklassniki": "",
-                "my_mail": "",
-                "qq": "",
-                "qzone": "",
-                "native": ""
+                "facebook": "Facebook",
+                "twitter": "Twitter",
+                "linkedin": "LinkedIn",
+                "reddit": "Reddit",
+                "whatsapp": "WhatsApp",
+                "telegram": "Telegram",
+                "vkontakte": "VKontakte",
+                "odnoklassniki": "Odnoklassniki",
+                "my_mail": "My World",
+                "qq": "QQ",
+                "qzone": "QZone",
+                "native": "Native Freigabe"
             }
         }
     }

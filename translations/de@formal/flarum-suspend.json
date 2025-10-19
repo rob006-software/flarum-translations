@@ -2,7 +2,7 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "Benutzer ausschließen"
             }
         },
         "forum": {
@@ -12,32 +12,32 @@
                 "user_unsuspended_text": "Sie wurden entsperrt"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "Schließen",
+                "indefinite": "Dies ist ein unbefristeter Ausschluss",
+                "limited": "Dieser Ausschluss gilt bis zum {date}",
+                "title": "Dieses Konto ist ausgeschlossen"
             },
             "suspend_user": {
-                "display_message": "",
-                "indefinitely_label": "",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "placeholder_optional": "",
-                "reason": "",
-                "status_heading": "",
-                "submit_button": "",
-                "title": ""
+                "display_message": "Nachricht für den Benutzer anzeigen",
+                "indefinitely_label": "Dauerhaft ausschließen",
+                "limited_time_days_text": " Tage",
+                "limited_time_label": "Temporär ausschließen …",
+                "not_suspended_label": "Nicht ausschließen",
+                "placeholder_optional": "Optional",
+                "reason": "Grund für den Ausschluss",
+                "status_heading": "Ausschluss-Status",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "{username} ausschließen"
             },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "Ausgeschlossen"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "Ausschließen"
             }
         },
         "email": {
-            "no_reason_given": "",
+            "no_reason_given": "Für diesen Ausschluss wurde kein Grund angegeben.",
             "suspended": {
                 "subject": "Ihr Konto wurde ausgeschlossen",
                 "body": "Sehr geehrte/r {recipient_display_name},\n\nSie wurden aus folgendem Grund ausgeschlossen:\n\n---\n{suspension_message}\n---\n",
@@ -61,7 +61,7 @@
         },
         "validation": {
             "attributes": {
-                "suspendedUntil": ""
+                "suspendedUntil": "ausgeschlossen bis"
             }
         }
     }

@@ -2,61 +2,61 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Inhalt der Diskussion (erster Beitrag) verschoben",
+                "moved_first_post_content_help": "Wenn eine Diskussion mit nur einem einzigen Beitrag hast, führt das Verschieben dieses Beitrags dazu, dass der erste Beitrag der ursprünglichen Diskussion so bearbeitet wird, dass er auf die neue Diskussion verweist. Du kannst den Inhalt dieses Beitrags hier bearbeiten.\n",
+                "group_sequential_posts": "Gruppieren Sie sequenzielle Beiträge, die Ereignisbeiträge in einen verschoben haben."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Verschoben"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Vorgangstyp prüfen",
+                "destination": "Zieldiskussion",
+                "discussion_help": "Die Tags der Quelldiskussion werden verwendet und können nach der Erstellung geändert werden.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Neue Diskussion",
+                "selected_posts": "{count, plural, one {Ein Beitrag gewählt} other {{count} Beiträge gewählt}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Wird ein komplexer Schritt sein, Beiträge werden zwischen Beiträgen verschoben, was dazu führt, dass sich auch alte URL-Referenzen der Beiträge der Zieldiskussion ändern.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Wird ein einfacher Schritt sein, Beiträge werden alle am Ende der Diskussion hinzugefügt."
                 },
-                "submit": "",
-                "title": ""
+                "submit": "Fortfahren",
+                "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Mindestens einer Deiner Beiträge wurde nach {targetDiscussionTitle} verschoben."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Zum Verschieben die Auswahl aufheben",
+                "move": "Zum Verschieben auswählen",
+                "moving": "Beitrag verschieben"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} verschob einen Beitrag nach {target_discussion}.} other {{username} verschob {count} Beiträge {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Beiträge verschieben",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Ein alter Beitrag kann nicht in eine neuere Diskussion verschoben werden."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Dieser Beitrag wurde nach **[%DISCUSSION_NAME%](%POST_LINK%)** verschoben.*\n"
                 }
             }
         }

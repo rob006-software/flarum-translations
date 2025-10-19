@@ -2,49 +2,49 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "exclude_users": "",
-                "exclude_users_help": "",
+                "exclude_users": "Nutzerprofile von der Sitemap ausschließen",
+                "exclude_users_help": "Standardmäßig wird jeder Nutzer, der für Gäste sichtbar ist, indiziert",
                 "exclude_tags": "",
                 "exclude_tags_help": "",
-                "mode_label": "",
-                "mode_help": "",
-                "mode_help_runtime_label": "",
-                "mode_help_runtime": "",
-                "mode_help_schedule": "",
-                "mode_help_schedule_setup": "",
-                "mode_help_large": "",
-                "mode_help_multi_label": "",
-                "mode_help_multi": "",
-                "advanced_options_label": "",
-                "frequency_label": "",
-                "risky_performance_improvements": "",
-                "risky_performance_improvements_help": "",
+                "mode_label": "Betriebsmodus",
+                "mode_help": "Die Wahl des richtigen Modus für die Größe deines Forums ist von entscheidender Bedeutung.",
+                "mode_help_runtime_label": "Laufzeitmodus",
+                "mode_help_runtime": "Für kleine Foren, meist auf Shared-Hosting-Umgebungen, mit Diskussionen, Benutzern, Tags und Seiten, die in der Summe weniger als 10.000 Einträge haben. Die Sitemap wird bei jeder Anfrage in Echtzeit generiert.",
+                "mode_help_schedule": "Die folgenden Modi fügen ihre Aufgaben dem Flarum-Scheduler hinzu.",
+                "mode_help_schedule_setup": "Ohne die korrekte Einrichtung des Flarum-Schedulers werden die folgenden Modi nicht ausgeführt. Siehe hier <a>für weitere Informationen</a>.",
+                "mode_help_large": "50.000 ist das technische Limit für Sitemap-Dateien. Wenn du mehr Einträge zu speichern hast, nutze die folgende Option!",
+                "mode_help_multi_label": "Mehrdateien-Modus",
+                "mode_help_multi": "Am besten für größere Foren ab 10.000 Elementen. Mehrteilige, komprimierte Sitemap-Dateien werden generiert und im /public Ordner gespeichert",
+                "advanced_options_label": "Erweiterte Optionen",
+                "frequency_label": "Wie oft sollte der Scheduler die gecachte Sitemap neu aufbauen?",
+                "risky_performance_improvements": "Riskante Leistungsverbesserungen aktivieren",
+                "risky_performance_improvements_help": "Durch diese Verbesserungen wird der CRON-Job bei Datensätzen mit Millionen von Zeilen schneller ausgeführt, aber die Kompatibilität mit einigen Erweiterungen kann beeinträchtigt werden.",
                 "include_priority": "",
                 "include_priority_help": "",
                 "include_changefreq": "",
                 "include_changefreq_help": "",
                 "modes": {
-                    "runtime": "",
-                    "multi_file": ""
+                    "runtime": "Laufzeit",
+                    "multi_file": "Mehrdateien"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "Stündlich",
+                    "twice_daily": "Zweimal täglich",
+                    "daily": "Täglich"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Sanfte 404 Prävention",
+                    "help": "Wenn ein Modell keinen oder nur wenig relevanten Inhalt hat, können Google und andere Crawler diese als \"weiche 404\"-Seiten kennzeichnen. Um dies zu vermeiden, legst du hier eine Mindestanzahl von Datenobjekten fest, die für jedes qualifizierte Datenobjekt erforderlich sind.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Benutzer: Mindestanzahl an Kommentare/Posts",
+                            "minimum_item_threshold_help": "Die Mindestanzahl an Stellungsnahmen/Beiträgen, über die ein Nutzer verfügen muss, damit sein Profil in die Sitemap aufgenommen wird."
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Thema: Mindestanzahl an Diskussionen",
+                            "minimum_item_threshold_help": "Die Mindestanzahl an Diskussionen, über die ein Thema verfügen muss, damit es in die Sitemap aufgenommen wird."
                         }
                     }
                 }

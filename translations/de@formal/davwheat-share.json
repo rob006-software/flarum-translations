@@ -1,25 +1,25 @@
 {
     "davwheat-share": {
         "admin": {
-            "browser_support_notice": "",
+            "browser_support_notice": "Die Option \"Teilen\" wird nur auf Geräten angezeigt, die die Web Share API unterstützen. <a>Überprüfe die Unterstützung für verschiedene Browser.</a>",
             "display_options": {
-                "icon": "",
-                "text": "",
-                "menu": ""
+                "icon": "Nur Symbol",
+                "text": "Nur Text",
+                "menu": "Inneres Aktionsmenü"
             },
-            "display_options_label": "",
-            "button_preview_header": "",
+            "display_options_label": "Anzeigetyp der Share-Schaltfläche",
+            "button_preview_header": "Vorschau",
             "preview": {
-                "reply": "",
+                "reply": "Antworten",
                 "dropdown": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "Bearbeiten",
+                    "delete": "Löschen"
                 }
             }
         },
         "lib": {
-            "share": "",
-            "share_a11y_label": ""
+            "share": "Teilen",
+            "share_a11y_label": "Beitrag teilen"
         }
     }
 }

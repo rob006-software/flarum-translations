@@ -2,40 +2,40 @@
     "flarum-calendar": {
         "forum": {
             "button": {
-                "landing": "",
-                "create": "",
-                "login": ""
+                "landing": "Veranstaltungskalender",
+                "create": "Neues Event",
+                "login": "Füge Deine Veranstaltung hinzu "
             },
             "modal": {
-                "title_create": "",
-                "title_edit": "",
-                "title_label": "",
-                "dates_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "requirement_message": "",
-                "submit": ""
+                "title_create": "Eine neue Veranstaltung erstellen",
+                "title_edit": "Veranstaltungsdetails bearbeiten",
+                "title_label": "Was",
+                "dates_label": "Wann",
+                "description_label": "Details",
+                "description_placeholder": "Veranstaltungsdetails",
+                "requirement_message": "Veranstaltungen benötigen einen Namen und eine Beschreibung",
+                "submit": "Senden"
             },
             "event": {
-                "details": "",
-                "hosted_by": "",
-                "starts": "",
-                "ends": "",
-                "confirm_delete": "",
-                "deleted": ""
+                "details": "Weitere Details zu dieser Veranstaltung",
+                "hosted_by": "Organisiert von:",
+                "starts": "Beginn:",
+                "ends": "Ende:",
+                "confirm_delete": "Bist du sicher, dass du diese Veranstaltung löschen möchtest?",
+                "deleted": "Die Veranstaltung wurde gelöscht"
             }
         },
         "admin": {
             "settings": {
-                "hide_host": ""
+                "hide_host": "Veranstalter verstecken (organisiert von...)"
             },
             "permissions": {
-                "add": "",
-                "moderate": "",
-                "view": ""
+                "add": "Neue Kalenderereignisse erstellen",
+                "moderate": "Kalendertermine entfernen oder bearbeiten (alle Benutzer können ihre eigenen bearbeiten)",
+                "view": "Veranstaltungen anzeigen"
             },
             "basics": {
-                "homepage": ""
+                "homepage": "Aktueller Kalendermonat"
             }
         }
     }

@@ -2,47 +2,47 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "Sprache für {title} bearbeiten",
+                "title": "Sprache bearbeiten",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Sprache"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Sprache einstellen"
             },
             "index_language": {
-                "any": ""
+                "any": "Beliebige Sprache"
             },
             "sub_controls": {
-                "subscription_language_label": "",
-                "subscription_language_help": ""
+                "subscription_language_label": "Sprache für Diskussionen",
+                "subscription_language_help": "Wenn du hier eine Sprache auswählst, wirst du nur bei neuen Aktivitäten in dieser Sprache benachrichtigt."
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
-                "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
-                "tags_page_discussion_locale_label": "",
+                "native_label": "Sprachnamen in Muttersprache anzeigen",
+                "show_flag_label": "Länderflaggen mit Sprachnamen anzeigen",
+                "composer_default_label": "Aktuelle Sprache im Diskussions-Verfasser vorauswählen",
+                "locale_sort_label": "Erkannte Sprache als Standard-Diskussionsfilter verwenden",
+                "show_any_lang_opt_label": "Zeige die Option an, um 'Beliebige Sprache' auszuwählen",
+                "tags_page_discussion_locale_label": "Nur Diskussionen aus dem aktuellen Gebietsschema des Benutzers auf der Tags-Seite anzeigen",
                 "errors": {
-                    "missing_assets": ""
+                    "missing_assets": "Die von dieser Erweiterung benötigten Assets konnten nicht geladen werden. Versuche, <code>php flarum assets:publish</code> auszuführen und prüfe, ob das Problem damit behoben ist."
                 },
                 "config": {
-                    "language_label": "",
-                    "country_label": ""
+                    "language_label": "Sprache",
+                    "country_label": "Land (für Display-Flagge)"
                 }
             },
             "permissions": {
-                "allow_change_language_label": ""
+                "allow_change_language_label": "Sprachbearbeitung erlauben"
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Du musst die Sprache für deine Diskussion auswählen."
             }
         }
     }
