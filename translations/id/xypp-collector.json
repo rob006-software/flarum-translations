@@ -1,84 +1,84 @@
 {
     "xypp-collector": {
         "forum": {
-            "reward_not_found": "",
-            "condition_not_found": "",
+            "reward_not_found": "Reward {reward} tidak ditemukan",
+            "condition_not_found": "Kondisi {condition} tidak ditemukan",
             "condition": {
-                "condition": "",
-                "format": "",
-                "and": "",
-                "span": ""
+                "condition": "Kondisi",
+                "format": "<b>{name}:{calculate}</b> {operator}{value} {span} ",
+                "and": " dan ",
+                "span": "Dalam {span} hari"
             },
             "reward": {
-                "reward": "",
-                "format": "",
-                "and": ""
+                "reward": "Reward",
+                "format": "<b>{name}</b>:{value}",
+                "and": " dan "
             }
         },
         "admin": {
-            "settings": "",
-            "allow_update": "",
-            "max_keep": "",
-            "use_custom": "",
-            "custom_global_update": "",
-            "custom_normal_update": "",
-            "auto_update": "",
-            "auto_update_hour": "",
-            "limited_accumulation_support": "",
+            "settings": "Pengaturan",
+            "allow_update": "Izinkan pengguna memperbarui secara manual",
+            "max_keep": "Jumlah Hari Record Maksimum",
+            "use_custom": "Gunakan Kustom",
+            "custom_global_update": "Pembaruan Kustom dengan Global",
+            "custom_normal_update": "Pembaruan Kustom dengan Kondisi Normal",
+            "auto_update": "Kondisi Pembaruan Otomatis Kustom sebelum hari",
+            "auto_update_hour": "Jam ketika Pembaruan Otomatis terjadi (dalam waktu lokal)",
+            "limited_accumulation_support": "Kondisi ini tidak dapat mendapatkan semua data saat perhitungan ulang. Anda akan diminta saat menjalankan command.",
             "emit_control": {
-                "title": "",
-                "event": "",
-                "update": "",
-                "manual": "",
-                "abs": "",
-                "name": ""
+                "title": "Pembaruan Emitter dan Perhitungan Ulang",
+                "event": "Event",
+                "update": "Command Pembaruan",
+                "manual": "Manual",
+                "abs": "Hitung Ulang",
+                "name": "Nama"
             },
             "list": {
-                "condition": "",
-                "reward": "",
-                "condition-name": "",
-                "condition-operator": "",
-                "condition-value": "",
-                "condition-span": "",
-                "condition-calculate": "",
-                "condition-alter_name": "",
-                "reward-name": "",
-                "reward-value": "",
-                "reward-get_value": "",
-                "reward-alter_name": "",
-                "new_item": ""
+                "condition": "Kondisi",
+                "reward": "Reward",
+                "condition-name": "Nama Kondisi",
+                "condition-operator": "Operator",
+                "condition-value": "Value",
+                "condition-span": "Rentang Waktu",
+                "condition-calculate": "Hitung",
+                "condition-alter_name": "Nama Tampilan",
+                "reward-name": "Nama Reward",
+                "reward-value": "Value",
+                "reward-get_value": "Dapatkan Value",
+                "reward-alter_name": "Tampilkan Nama",
+                "new_item": "Item Baru"
             },
             "custom": {
-                "title": "",
-                "name": "",
-                "add": "",
-                "display_name": "",
-                "evaluation": "",
-                "button-edit": "",
-                "button": "",
-                "delete-confirm": ""
+                "title": "Kondisi Kustom",
+                "name": "Nama",
+                "add": "Baru",
+                "display_name": "Nama Tampilan",
+                "evaluation": "Evaluasi",
+                "button-edit": "Edit",
+                "button": "Buat",
+                "delete-confirm": "Apakah Anda yakin ingin menghapus item ini?"
             },
             "permissions": {
-                "view-condition": ""
+                "view-condition": "Lihat Value Kondisi"
             }
         },
         "api": {
-            "condition_not_allow_frontend": "",
-            "no_manual_update": ""
+            "condition_not_allow_frontend": "Kondisi tidak dapat dipicu di frontend",
+            "no_manual_update": "Tidak diperlukan pembaruan manual"
         },
         "lib": {
             "calculate": {
-                "sum": "",
-                "max": "",
-                "days": ""
+                "sum": "Jumlah",
+                "max": "Maksimum",
+                "days": "Jumlah Hari"
             },
             "operator": {
-                "ge": "",
-                "gt": "",
-                "le": "",
-                "lt": "",
-                "eq": "",
-                "ne": ""
+                "ge": ">=",
+                "gt": ">",
+                "le": "<=",
+                "lt": "<",
+                "eq": "=",
+                "ne": "!="
             }
         }
     }
