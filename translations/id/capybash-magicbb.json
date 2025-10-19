@@ -2,39 +2,39 @@
     "capybash-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
-                "bb_iframe_help": "",
-                "toolbar_group": "",
-                "toolbar_group_help": ""
+                "bb_center": "Center",
+                "bb_justify": "Justify",
+                "bb_color": "Warna",
+                "bb_spoiler": "Spoiler",
+                "bb_table": "Tabel",
+                "bb_info": "Peringatan",
+                "bb_image": "FoF Upload",
+                "bb_image_help": "Gambar besar yang ditempatkan di tengah secara otomatis disesuaikan ukurannya menjadi 60% dari lebar posting, sedangkan gambar yang ditempatkan di sisi — hingga 40%. Tidak memengaruhi BBCode gambar standar.",
+                "bb_iframe": "iframe",
+                "bb_iframe_help": "Memperbolehkan penyisipan iframe dari sumber mana pun. Gunakan dengan hati-hati — konten yang disisipkan mungkin mengandung skrip eksternal. 🧹 Setelah mengubah pengaturan ini, silakan bersihkan cache Flarum.",
+                "toolbar_group": "Grup tombol MagicBB",
+                "toolbar_group_help": "Jika diaktifkan, semua tombol MagicBB akan digabungkan menjadi satu tombol di composer."
             },
             "sections": {
-                "text": "",
-                "content": "",
-                "images": "",
-                "features": ""
+                "text": "Tombol teks",
+                "content": "Tombol konten",
+                "images": "Tombol gambar",
+                "features": "Fitur"
             },
             "permissions": {
-                "use_iframe": ""
+                "use_iframe": "Izinkan iframe"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "image_button": "",
-                "more_button": ""
+                "center_button": "Align center",
+                "justify_button": "Align justify",
+                "color_button": "Tambahkan warna",
+                "spoiler_button": "Tambahkan spoiler",
+                "table_button": "Tambahkan tabel",
+                "info_button": "Tambahkan peringatan",
+                "image_button": "Tambahkan gambar",
+                "more_button": "Lebih banyak"
             }
         }
     }
