@@ -2,88 +2,88 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": ""
+                "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "",
+                "color_label": "=> core.ref.color",
                 "delete_tag_button": "Избриши таг",
                 "delete_tag_confirmation": "Да ли сте сигурни да желите да избришете овај таг? Дискусије под овим тагом НЕЋЕ бити избрисане.",
                 "description_label": "Опис",
                 "hide_label": "Сакриј из свих дискусија",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "name_placeholder": "",
-                "slug_label": "",
-                "submit_button": "",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Назив за URL",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "Направи таг"
             },
             "nav": {
-                "tags_button": "",
-                "tags_text": ""
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Подешавање прилагођених категорија."
             },
             "permissions": {
                 "allow_edit_tags_label": "Дозволи уређивање тага",
-                "bypass_tag_counts_label": "",
-                "restrict_by_tag_heading": "",
-                "tag_discussions_label": ""
+                "bypass_tag_counts_label": "Захтеви за заобилажење категорија",
+                "restrict_by_tag_heading": "Ограничавање по категоријама",
+                "tag_discussions_label": "Категорисање дискусија"
             },
             "settings": {
                 "button_text": ""
             },
             "tag_settings": {
-                "range_separator_text": "",
-                "required_primary_heading": "",
-                "required_primary_text": "",
-                "required_secondary_heading": "",
-                "required_secondary_text": "",
-                "title": ""
+                "range_separator_text": " до ",
+                "required_primary_heading": "Потребан број примарних категорија",
+                "required_primary_text": "Унесите минимални и максимални број примарних категорија које се могу применити на дискусију.",
+                "required_secondary_heading": "Потребан број секундарних категорија",
+                "required_secondary_text": "Унесите минимални и максимални број секундарних категорија које се могу применити на дискусију.",
+                "title": "Подешавање категорија"
             },
             "tags": {
-                "about_tags_text": "",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
+                "about_tags_text": "Категорије се користе за расподелу дискусија. Примарне категорије су попут традиционалних категорија форума: могу се распоредити у хијерархију на два нивоа. Секундарне категорије немају хијерархију или редослед и корисне су за микрорасподелу.",
+                "create_primary_tag_button": "Креирајте примарну категорију",
+                "create_secondary_tag_button": "Креирајте секундарну категорију",
                 "edit_tag_label": "",
-                "primary_heading": "",
-                "secondary_heading": "",
-                "settings_heading": ""
+                "primary_heading": "Примарне категорије",
+                "secondary_heading": "Секундарне категорије",
+                "settings_heading": "Подешавања"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Све категорије",
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "edit_title": "",
-                "title": ""
+                "edit_title": "Измените категорије за дискусију {титле}",
+                "title": "Изаберите категорије за Вашу дискусију"
             },
             "composer_discussion": {
-                "choose_tags_link": ""
+                "choose_tags_link": "Изаберите категорије"
             },
             "discussion_controls": {
-                "edit_tags_button": ""
+                "edit_tags_button": "Измените категорије"
             },
             "header": {
-                "back_to_tags_tooltip": ""
+                "back_to_tags_tooltip": "Повратак на листу категорија"
             },
             "index": {
-                "more_link": "",
-                "tags_link": "",
-                "untagged_link": ""
+                "more_link": "Више..",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Некатегорисано"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "",
-                "added_tags_text": "",
-                "removed_tags_text": "",
-                "tags_text": ""
+                "added_and_removed_tags_text": "{усернаме} је додао/ла {tagsAdded} и уклонио/ла {тагсРемовед} категорију.",
+                "added_tags_text": "{усернаме} је додао/ла {tagsAdded} категорију.",
+                "removed_tags_text": "{усернаме} је уклонио/ла {тагсРемовед} категорију.",
+                "tags_text": "{цоунт, плурал, оне {{тагс} категорија} other {{тагс} категорије}}"
             },
             "tag": {
-                "meta_description_text": ""
+                "meta_description_text": "Све дискусије у {таг} категорији"
             }
         },
         "lib": {
-            "deleted_tag_text": "",
+            "deleted_tag_text": "Избрисано",
             "tag_selection_modal": {
                 "bypass_requirements": "",
                 "choose_primary_placeholder": "",
@@ -96,8 +96,8 @@
         "ref": {
             "choose_tags": "",
             "choose_tags_placeholder": "",
-            "name": "",
-            "tags": ""
+            "name": "Назив",
+            "tags": "Категорије"
         },
         "validation": {
             "attributes": {

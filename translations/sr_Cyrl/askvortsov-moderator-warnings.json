@@ -2,68 +2,68 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Направите и уклоните упозорења модератора",
+                "view_warnings": "Прикажи упозорења модератора",
+                "delete_warnings": "Трајно избришите упозорења модератора"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} те је упозорио/ла са {стрикес, плурал, оне {# стрике} other {# упозорењем}} у дискусији {discussion_title}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} те је упозорио/ла са {стрикес, плурал, оне {# упозорењем} other {# упозерењем}} у дискусији {discussion_title}\n\nDat је следећи razlog:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} те је упозорио/ла {стрикес, плурал, оне {# упозорењем} other {# упозорења}}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} те је упозорио/ла са {стрикес, плурал, оне {# упозорењем} other {# упозорења}}\n\n>Дат је следећи razlog:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{стрикес, плурал, оне {Упозорен/а си са # упозорења од стране {мод_усернаме}} other {Упозорен/а си са # упозорења од стране {мод_усернаме}}}",
+                "warning_no_strikes_text": "Упозорен/а си од стране {мод_усернаме} (но стрикес)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{стрикес, плурал, оне {Упозорен/а са # упозорења од стране {мод_усернаме}} other {Упозорен/а са # упозорења од стране {мод_усернаме}}}",
+                "warning_no_strikes": "Упозорен/а од стране {мод_усернаме}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Упозори члана"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Упозорења модератора"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Упозорава ме модератор"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Морате дати јавни коментар.",
+                "invalid_strike_count": "Број упозорења мора бити цео број (између 0 и 5)."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Уклони",
+                "restore_button": "Поврати",
+                "delete_forever_button": "Трајно уклони"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Ново упозорење",
+                "no_warnings": "Изгледа да овде нема упозорења.",
+                "warnings": "{стрикес, плурал, оне {Упозорења модератора: # упозорење добијено} other {Упозорења модератора: # упозорења добијено}}",
+                "warnings_no_strikes": "Упозорења модератора: Нема добијених упозорења"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "{стрикес, плурал, оне {<strong>#</strong> упозорење, {тиме}} other {<strong>#</strong> упозорења, {тиме}}}",
+                "list_item_heading_hidden": "{стрикес, плурал, оне {<strong>#</strong> упозорење, {тиме} <стронг>(ремовед)</стронг>} other {<strong>#</strong> упозорења, {тиме} <стронг>(уклоњено)</стронг>}}",
+                "public_comment": "Упозорење",
+                "private_comment": "Коментари видљиви само модераторима",
+                "linked_post": "Повезана дискусија"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "Ваше упозорење је сачувано. Можда ћете морати да освежите страницу да бисте га видели.",
+                "heading": "Упозори <стронг>{усернаме}</стронг>",
+                "strikes_heading": "Колико упозорења треба послати?",
+                "public_comment_heading": "Зашто је <стронг>{усернаме}</стронг> добио/ла ова упозорења? Ови коментари ће бити видљиви члану и другим модераторима.",
+                "private_comment_heading": "Зашто је <стронг>{усернаме}</стронг> добио/ла ова упозорења? Ови коментари ће бити видљиви само другим модераторима.",
+                "submit_button": "Сачувај упозорење"
             }
         }
     }
