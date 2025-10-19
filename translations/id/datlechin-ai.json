@@ -2,34 +2,34 @@
     "datlechin-ai": {
         "admin": {
             "settings": {
-                "provider_label": "",
-                "provider_openai": "",
-                "provider_gemini": "",
-                "provider_anthropic": "",
-                "api_key_label": "",
-                "api_key_placeholder": "",
-                "base_url_label": "",
-                "base_url_placeholder": "",
-                "text_model_label": "",
-                "embeddings_model_label": "",
-                "moderation_model_label": "",
-                "custom_model_label": "",
-                "custom_model_placeholder": "",
-                "custom_base_url_label": "",
-                "test_text_button": "",
-                "test_embeddings_button": "",
-                "test_moderation_button": "",
-                "test_success": "",
-                "test_failed": ""
+                "provider_label": "Provider AI",
+                "provider_openai": "OpenAI",
+                "provider_gemini": "Google Gemini",
+                "provider_anthropic": "Anthropic",
+                "api_key_label": "API Key ({provider})",
+                "api_key_placeholder": "Masukkan API key {provider} Anda",
+                "base_url_label": "Base URL (opsional)",
+                "base_url_placeholder": "Biarkan kosong untuk default",
+                "text_model_label": "Model Teks/Chat",
+                "embeddings_model_label": "Model Embeddings",
+                "moderation_model_label": "Model Moderasi",
+                "custom_model_label": "Nama Model Kustom",
+                "custom_model_placeholder": "Masukkan nama model kustom",
+                "custom_base_url_label": "Base URL Kustom",
+                "test_text_button": "Uji Model Teks",
+                "test_embeddings_button": "Uji Embeddings",
+                "test_moderation_button": "Uji Moderasi",
+                "test_success": "Pengujian berhasil!",
+                "test_failed": "Pengujian gagal: {error}"
             }
         },
         "forum": {
-            "ai_search_placeholder": ""
+            "ai_search_placeholder": "Cari dengan AI..."
         },
         "permissions": {
-            "generate": "",
-            "embed": "",
-            "moderate": ""
+            "generate": "Hasilkan teks dengan AI",
+            "embed": "Hasilkan embeddings",
+            "moderate": "Gunakan moderasi AI"
         }
     }
 }
