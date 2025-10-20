@@ -2,34 +2,34 @@
     "datlechin-ai": {
         "admin": {
             "settings": {
-                "provider_label": "",
-                "provider_openai": "",
-                "provider_gemini": "",
-                "provider_anthropic": "",
-                "api_key_label": "",
-                "api_key_placeholder": "",
-                "base_url_label": "",
-                "base_url_placeholder": "",
-                "text_model_label": "",
-                "embeddings_model_label": "",
-                "moderation_model_label": "",
-                "custom_model_label": "",
-                "custom_model_placeholder": "",
-                "custom_base_url_label": "",
-                "test_text_button": "",
-                "test_embeddings_button": "",
-                "test_moderation_button": "",
-                "test_success": "",
-                "test_failed": ""
+                "provider_label": "Nhà cung cấp AI",
+                "provider_openai": "OpenAI",
+                "provider_gemini": "Google Gemini",
+                "provider_anthropic": "Anthropic",
+                "api_key_label": "Khóa API ({provider})",
+                "api_key_placeholder": "Nhập khóa API {provider} của bạn",
+                "base_url_label": "URL gốc (tùy chọn)",
+                "base_url_placeholder": "Để trống để sử dụng mặc định",
+                "text_model_label": "Mô hình văn bản / trò chuyện",
+                "embeddings_model_label": "Mô hình nhúng",
+                "moderation_model_label": "Mô hình kiểm duyệt",
+                "custom_model_label": "Tên mô hình tùy chỉnh",
+                "custom_model_placeholder": "Nhập tên mô hình tùy chỉnh",
+                "custom_base_url_label": "URL gốc tùy chỉnh",
+                "test_text_button": "Kiểm tra mô hình văn bản",
+                "test_embeddings_button": "Kiểm tra mô hình nhúng",
+                "test_moderation_button": "Kiểm tra kiểm duyệt",
+                "test_success": "Kiểm tra thành công!",
+                "test_failed": "Kiểm tra thất bại: {error}"
             }
         },
         "forum": {
-            "ai_search_placeholder": ""
+            "ai_search_placeholder": "Tìm kiếm bằng AI..."
         },
         "permissions": {
-            "generate": "",
-            "embed": "",
-            "moderate": ""
+            "generate": "Tạo nội dung bằng AI",
+            "embed": "Tạo embeddings",
+            "moderate": "Sử dụng AI để kiểm duyệt"
         }
     }
 }
