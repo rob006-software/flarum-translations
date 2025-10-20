@@ -2,33 +2,33 @@
     "datlechin-ai-summarize": {
         "admin": {
             "permissions": {
-                "ai_summarize_label": ""
+                "ai_summarize_label": "Tóm tắt thảo luận bằng AI"
             },
             "settings": {
-                "title": "",
-                "enabled_label": "",
-                "min_posts_label": "",
-                "min_posts_help": "",
-                "max_posts_label": "",
-                "max_posts_help": "",
-                "system_prompt_label": "",
-                "system_prompt_help": ""
+                "title": "Cài đặt tóm tắt bằng AI",
+                "enabled_label": "Bật tính năng tóm tắt bằng AI",
+                "min_posts_label": "Số bài viết tối thiểu",
+                "min_posts_help": "Số lượng bài viết tối thiểu trong một cuộc thảo luận trước khi có thể tạo bản tóm tắt.",
+                "max_posts_label": "Số bài viết tối đa được bao gồm",
+                "max_posts_help": "Số lượng bài viết tối đa sẽ được bao gồm trong quá trình tóm tắt.",
+                "system_prompt_label": "Lời nhắc hệ thống tùy chỉnh",
+                "system_prompt_help": "Lời nhắc tùy chỉnh (nếu có) để AI sử dụng khi tạo bản tóm tắt. Để trống nếu muốn dùng mặc định."
             }
         },
         "forum": {
             "discussion_controls": {
-                "summarize_button": "",
-                "regenerate_button": ""
+                "summarize_button": "Tóm tắt bằng AI",
+                "regenerate_button": "Tạo lại bản tóm tắt"
             },
             "summary": {
-                "title": "",
-                "error": "",
-                "generated_with": "",
-                "generated_at": "",
-                "posts_summarized": "",
-                "regenerate_confirm": "",
-                "not_enough_posts": "",
-                "close": ""
+                "title": "Tóm tắt AI",
+                "error": "Không thể tạo bản tóm tắt. Vui lòng thử lại.",
+                "generated_with": "Được tạo bởi {provider} sử dụng {model}",
+                "generated_at": "Được tạo {time}",
+                "posts_summarized": "Đã tóm tắt {count} bài viết",
+                "regenerate_confirm": "Bạn có chắc chắn muốn tạo lại bản tóm tắt này không? Bản tóm tắt hiện tại sẽ bị thay thế.",
+                "not_enough_posts": "Cuộc thảo luận này chưa có đủ bài viết để tóm tắt.",
+                "close": "Đóng"
             }
         }
     }
