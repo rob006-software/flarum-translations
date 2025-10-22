@@ -171,7 +171,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/capybash/magicread/v4.0.0/resources/locale/en.yml',
 	],
 	'capybash-magicslider' => [
-		'tag' => 'https://raw.githubusercontent.com/capybash/magicslider/v5.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/capybash/magicslider/v6.0.0/resources/locale/en.yml',
 	],
 	'cccyun-clogin-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
