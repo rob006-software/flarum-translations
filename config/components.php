@@ -168,7 +168,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/capybash/magicbb/v7.0.0/resources/locale/en.yml',
 	],
 	'capybash-magicread' => [
-		'tag' => 'https://raw.githubusercontent.com/capybash/magicread/v3.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/capybash/magicread/v4.0.0/resources/locale/en.yml',
 	],
 	'capybash-magicslider' => [
 		'tag' => 'https://raw.githubusercontent.com/capybash/magicslider/v5.0.0/resources/locale/en.yml',
