@@ -2,7 +2,7 @@
     "blazite-turnstile": {
         "admin": {
             "settings": {
-                "help_text": "Сгенерируйте ключи Turnstile в своей учетной записи Cloudflare <a>здесь</a>.",
+                "help_text": "Сгенерируйте ключи Turnstile в своей учётной записи Cloudflare <a>здесь</a>.",
                 "site_key": "Ключ сайта",
                 "secret_key": "Секретный ключ",
                 "signup": "=> core.forum.sign_up.title",
@@ -11,12 +11,12 @@
             }
         },
         "forum": {
-            "not_loaded_error": "Ошибка загрузки Cloudflare Turnstile. Пожалуйста обновите страницу и проверьте, не включен ли блокировщик рекламы.",
+            "not_loaded_error": "Ошибка загрузки Cloudflare Turnstile. Пожалуйста, обновите страницу и проверьте, не включён ли блокировщик рекламы.",
             "validation_error": "Пожалуйста, пройдите проверку Cloudflare Turnstile."
         }
     },
     "validation": {
-        "turnstile": "Мы не можем проверить, не робот ли вы. Пожалуйста, обновите страницу и попробуйте еще раз.",
+        "turnstile": "Не удалось подтвердить, что вы не робот. Пожалуйста, обновите страницу и попробуйте снова.",
         "required": "Пожалуйста, пройдите проверку Cloudflare Turnstile."
     }
 }
