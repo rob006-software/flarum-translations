@@ -2,50 +2,50 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "",
-                "ignoring_tooltip": ""
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
             },
             "discussion_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
-                "unignore_button": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Утишајте",
+                "unignore_button": "Престаните игнорисати"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
-                "following_link": ""
+                "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": ""
+                "new_post_text": "{усернаме} је одговорио/ла"
             },
             "settings": {
-                "follow_after_reply_label": "",
+                "follow_after_reply_label": "Аутоматски запрати дискусије у којима одговорим",
                 "notify_for_all_posts_label": "",
-                "notify_new_post_label": ""
+                "notify_new_post_label": "Ако неко одговори у дискусији коју пратим"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Будите обавештени о свим новим одговорима.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Никад не будите обавештени. Сакривено са листе дискусија.",
+                "not_following_button": "Утишано",
+                "not_following_text": "Будите обавештени само када Вас неко спомене.",
+                "notify_alert_tooltip": "Примајте обавештења на форуму када се појаве нови одговори",
+                "notify_email_tooltip": "Примајте email обавештења када се појаве нови одговори"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "Нови одговор у дискусији {титле}",
+                "body": "Здраво {recipient_display_name}!\n\n{poster_display_name} је одговорио/ла у дискусији коју пратите: {титле}.\n\nДа погледате нови одговор, кликните на следећи линк:\n{урл}\n\n---\n\n{цонтент}\n\n---\n\nНећете више добијати обавештења о овој дискусији док не ажурирате опције праћења.\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "ignoring": ""
+            "follow": "Запратите",
+            "following": "Омиљено",
+            "ignoring": "Игноришете"
         }
     }
 }

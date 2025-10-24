@@ -2,24 +2,24 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": ""
+                "sticky_discussions_label": "Означавање дискусије важном"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": ""
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
             },
             "discussion_controls": {
-                "sticky_button": "",
-                "unsticky_button": ""
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Неважна дискусија"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": ""
+                "discussion_stickied_text": "{усернаме} је означио/ла дискусију важном.",
+                "discussion_unstickied_text": "{усернаме} је означио/ла дискусију неважном."
             }
         },
         "ref": {
-            "sticky": ""
+            "sticky": "Важна дискусија"
         }
     }
 }

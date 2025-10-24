@@ -11,16 +11,16 @@
         },
         "forum": {
             "notifications": {
-                "others_text": "",
+                "others_text": "=> core.ref.some_others",
                 "post_liked_text": "{username} се допао ваша објава"
             },
             "post": {
                 "like_link": "Допада ми се",
                 "liked_by_self_text": "{users} се ово допада.",
                 "liked_by_text": "{count, plural, one {{users} се ово допада} other {{users} се ово свиђа}}.",
-                "others_link": "",
+                "others_link": "=> core.ref.some_others",
                 "unlike_link": "Не допада ми се",
-                "you_text": ""
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
                 "title": "Корисници којима се ово допада",
