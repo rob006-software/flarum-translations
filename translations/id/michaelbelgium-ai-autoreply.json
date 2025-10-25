@@ -10,16 +10,16 @@
                 "model_help": "Pelajari lebih lanjut tentang <a>model {platform}</a> (default: <code>{model}</code>)..",
                 "max_tokens_label": "Jumlah Token Maksimum",
                 "max_tokens_help": "<a>Apa itu token dan bagaimana menghitungnya?</a>",
-                "temperature_label": "",
-                "temperature_help": "",
-                "user_prompt_label": "Prompt Pengguna",
-                "user_prompt_help": "Masukkan ID pengguna yang akan digunakan untuk menghasilkan jawaban. Default adalah pengguna yang memulai diskusi.",
-                "user_prompt_badge_label": "Label Prompt Pengguna",
-                "user_prompt_badge_help": "Teks yang akan ditampilkan di samping prompt pengguna.",
+                "temperature_label": "Suhu",
+                "temperature_help": "Mengontrol keacakan. Rentangnya biasanya antara 0 dan 2, tetapi beberapa platform memiliki rentang lain.",
+                "user_prompt_label": "Asisten pengguna",
+                "user_prompt_help": "Masukkan ID pengguna yang akan digunakan untuk menghasilkan respons AI.",
+                "user_prompt_badge_label": "Badge asisten pengguna",
+                "user_prompt_badge_help": "Teks yang akan ditampilkan di bawah asisten pengguna .",
                 "enable_on_discussion_started_label": "Aktifkan saat diskusi dimulai",
-                "enable_on_discussion_started_help": "Diskusi akan menerima jawaban berdasarkan konten posting pertama saat diskusi dimulai.",
-                "enabled_tags_label": "Tag Aktif",
-                "enabled_tags_help": "Pilih tag mana yang akan digunakan untuk menghasilkan jawaban."
+                "enable_on_discussion_started_help": "Saat diaktifkan, AI hanya membalas saat diskusi dimulai. Saat dinonaktifkan, diskusi menjadi obrolan antara OP dan asisten; asisten membalas setiap postingan OP.",
+                "enabled_tags_label": "Tag",
+                "enabled_tags_help": "Pilih tag yang digunakan asisten untuk menghasilkan respons."
             },
             "permissions": {
                 "use_chatgpt_assistant_label": "Gunakan Asisten AI"
