@@ -20,7 +20,7 @@
                 "bounty": "Bounty",
                 "ptv": "Tampilan Berbayar",
                 "pta": "Akses Berbayar",
-                "ptb": "Promosi Berbayar",
+                "ptb": "Bayar untuk Bump",
                 "ptp": "Publikasi Berbayar",
                 "cancel-control": "Batal",
                 "none": "Tidak ada pembayaran atau langganan aktif"
@@ -40,9 +40,9 @@
                 "purchase_required": "Pembahasan ini akan diterbitkan setelah Anda menyelesaikan pembayaran melalui penyedia pembayaran kami, Stripe. Klik pembelian untuk melihat opsi biaya dan pembayaran.\n"
             },
             "pay-to-bump": {
-                "description": "{count, plural, one {Diskusi telah dipromosikan} other {{count} orang mempromosikan diskusi ini}}.",
-                "purchase-control": "Bayar untuk Promosi",
-                "purchase-log-in": "Login dan membayar promosi"
+                "description": "{count, plural, one {Diskusi ini dibump} other {{count} orang membump diskusi ini}}.",
+                "purchase-control": "Bayar untuk Bump",
+                "purchase-log-in": "Login & Bayar untuk Bump"
             },
             "bounties": {
                 "purchase-control": "Tambahkan Bounty",
@@ -91,9 +91,9 @@
                 "visible-from": "Sembunyikan postingan pada ambang batas ini",
                 "visible-from-description": "Angka yang Anda tentukan di sini menentukan di titik mana postingan akan disembunyikan untuk pengguna yang belum membayar untuk mengakses konten. Gunakan 0 untuk menyembunyikan semuanya, 1 untuk yang setelah Original Poster.\n",
                 "select-ptb-product": "Promosi Berbayar",
-                "select-ptb-product-description": "Memilih produk akan membutuhkan pembayaran produk tersebut sebelum dapat mempromosikan diskusi.\n",
-                "bump-others": "(PTB) Izinkan orang lain mempromosikan diskusi",
-                "bump-others-description": "Aktifkan ini agar orang lain selain penulis juga dapat membayar untuk mempromosikan diskusi\n",
+                "select-ptb-product-description": "Memilih produk akan memerlukan pembayaran produk tersebut sebelum dapat membump diskusi.\n",
+                "bump-others": "(PTB) Izinkan Orang Lain Membump Diskusi",
+                "bump-others-description": "Jika diaktifkan, bukan hanya penulis diskusi yang dapat membump diskusi dengan pembayaran.\n",
                 "select-bounty-product": "Bounty",
                 "select-bounty-product-description": "Pilih produk yang akan disiapkan untuk hadiah. Produk hanya dapat memiliki satu Harga dengan model: \"Harga yang dipilih secara khusus\". Salin ID produk yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"
             },
