@@ -38,7 +38,7 @@
                 "home_page_heading": "Почетна страна",
                 "home_page_text": "Одаберите страницу коју ће корисници прво видети када посете фаш форум.",
                 "show_language_selector_label": "Прикажи подешавања за одабир језика",
-                "slug_driver_heading": "Слуг Дривер: {модел}",
+                "slug_driver_heading": "",
                 "slug_driver_text": "Изаберите управљачки програм који ће се користити за спајање овог модела.",
                 "title": "Основно",
                 "welcome_banner_heading": "Банер за добродошлицу",
@@ -150,7 +150,7 @@
                 "readme": {
                     "button_label": "Сазнај више",
                     "no_readme": "Изгледа да ова екстензија нема више информација",
-                    "title": "{extName} документација"
+                    "title": ""
                 }
             },
             "header": {
@@ -223,7 +223,7 @@
             "permissions_controls": {
                 "allow_indefinitely_button": "Неодређено",
                 "allow_never_button": "",
-                "allow_some_minutes_button": "{цоунт, плурал, оне {На # минут} other {На # минута}}",
+                "allow_some_minutes_button": "",
                 "allow_ten_minutes_button": "За 10 минута",
                 "allow_until_reply_button": "До следећег одговора",
                 "everyone_button": "Сви",
@@ -349,8 +349,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} одговорио {ago}",
                 "started_text": "{username} отпочео {ago}",
-                "total_replies_a11y_label": "{цоунт, плурал, оне {# одговор} other {# одговора}}",
-                "unread_replies_a11y_label": "{цоунт, плурал, оне {# непрочитан одговор} other {# непрочитаних одговора}}. Означи {цоунт, плурал, оне {reply} other {реплиес}} као прочитано."
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -432,7 +432,7 @@
                 "now_link": "Сада",
                 "original_post_link": "Оригинална порука",
                 "unread_text": "{count} непрочитаних",
-                "viewing_text": "{цоунт, плурал, оне {{index} од {formattedCount} одговора} other {{index} од {formattedCount} одговора}}"
+                "viewing_text": ""
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Стари наслов је био: \"{old}\"",
@@ -526,8 +526,8 @@
                 "button": "Контроле",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Да ли сте сигурни да желите да избришете овог корисника? Одговори корисника НЕЋЕ бити избрисани.",
-                "delete_error_message": "Брисање корисника <и>{усернаме} ({емаил})</и> није успело",
-                "delete_success_message": "Корисник <и>{усернаме} ({емаил})</и> је успешно избрисан",
+                "delete_error_message": "",
+                "delete_success_message": "",
                 "edit_button": "=> core.ref.edit",
                 "toggle_dropdown_accessible_label": "Укључите/Искључите падајући мени корисничких контрола"
             },
@@ -570,11 +570,11 @@
             },
             "error": {
                 "circular_dependencies_message": "",
-                "dependent_extensions_message": "Не можете онемогућити {extension} док се не онемогуће следеће зависне екстензије: {extensions}",
+                "dependent_extensions_message": "",
                 "extension_initialiation_failed_message": "",
                 "generic_message": "Упс! Нешто је кренуло наопако. Поново учитајте страницу и покушајте поново.",
                 "generic_cross_origin_message": "",
-                "missing_dependencies_message": "Не можете омогућити {extension} док се не омогући следеће: {extensions}",
+                "missing_dependencies_message": "",
                 "not_found_message": "Тражени ресурс није пронађен.",
                 "payload_too_large_message": "Захтев је превелик.",
                 "permission_denied_message": "Немате дозволу за то.",
@@ -585,8 +585,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "{пагеНумбер, плурал, =1 {{пагеТитле} - {форумНаме}} other {{пагеТитле}: Страница # - {форумНаме}}}",
-                "without_page_title": "{пагеНумбер, плурал, =1 {{форумНаме}} other {Страница # - {форумНаме}}}"
+                "with_page_title": "",
+                "without_page_title": ""
             },
             "modal": {
                 "close": "Затвори"
@@ -605,8 +605,8 @@
             },
             "series": {
                 "glue_text": ", ",
-                "three_text": "{фирст}, {сецонд}, и {third}",
-                "two_text": "{фирст} и {сецонд}"
+                "three_text": "",
+                "two_text": ""
             },
             "username": {
                 "deleted_text": "[обрисан налог]"
@@ -648,7 +648,7 @@
                 "invalid_confirmation_token": "Овај линк за потврду је већ искоришћен или је неважећи.",
                 "not_authenticated": "Немате дозволу за приступ овој страници. Покушајте поново након пријаве.",
                 "not_found": "Није могуће пронаћи страницу коју сте тражили.",
-                "not_found_return_link": "Повратак на {форум}",
+                "not_found_return_link": "",
                 "permission_denied": "Немате дозволу за приступ овој страници.",
                 "unknown": "Дошло је до грешке при покушају учитавања ове странице."
             },
@@ -684,15 +684,15 @@
             },
             "confirm_email": {
                 "subject": "Потврдите вашу нову адресу за е-пошту",
-                "body": "Здраво {усернаме}!\n\nНеко је (надамо се да си ти!) променио своју email адресу на {форум} и навео ову као нову.\n\nАко си ти, једноставно кликни на следећи линк и твоја нова email адреса ће бити потврђена:\n{урл}\n\nАко ниси ти, молимо те да игноришеш ову поруку!\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Ћао {усернаме}!\n\nНеко је (надамо се да си ти!) затражио ресетовање лозинке за твој налог на {форум}.\n\nАко си ти, једноставно кликни на следећи линк и прати даља упутства за ресетовање лозинке:\n{урл}\n\nАко ниси ти, молимо те да игноришеш ову поруку!\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "Фларум тест е-поште",
-                "body": "Ћао {усернаме}!\n\nОво је пробни email којим се потврђује да твоја конфигурација emaila на форуму исправно ради.\n\nАко си ово ти, овај email значи да твоја конфигурација функционише!\n\nАко ниси ти, молимо те да игноришеш ову поруку!\n"
+                "body": ""
             }
         },
         "ref": {
@@ -716,7 +716,7 @@
             "extensions": "Проширења",
             "generic_confirmation_message": "Да ли желите да наставите? Ова радња не може бити опозвана.",
             "icon": "Икона",
-            "icon_text": "Унесите назив било које <a>FontAwesome</a> класе иконице, <ем>укључујући</ем> и <цоде>фас фа-</цоде> префикс.",
+            "icon_text": "",
             "load_more": "Учитај још",
             "loading": "Учитава се...",
             "log_in": "Пријавите се",
@@ -740,7 +740,7 @@
             "security": "Безбедност",
             "settings": "Поставке",
             "sign_up": "Пријави се",
-            "some_others": "{цоунт, плурал, оне {# члан} other {# њих}}",
+            "some_others": "",
             "start_a_discussion": "Почни дискусију",
             "username": "Корисничко име",
             "users": "Корисници",

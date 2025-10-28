@@ -7,14 +7,14 @@
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "Суспендовани сте на {тимеРеадабле}",
+                "user_suspended_text": "",
                 "user_suspended_indefinite_text": "Суспендовани сте на неодређено време",
                 "user_unsuspended_text": "Укинута вам је суспензија"
             },
             "suspension_info": {
                 "dismiss_button": "Одбаци",
                 "indefinite": "Ово је суспензија на неодређено време",
-                "limited": "Ова суспензија ће бити на снази до {дате}",
+                "limited": "",
                 "title": "Овај налог је суспендован"
             },
             "suspend_user": {
@@ -27,7 +27,7 @@
                 "reason": "Разлог за суспензију",
                 "status_heading": "Статус суспензије",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Суспендуј {усернаме}"
+                "title": ""
             },
             "user_badge": {
                 "suspended_tooltip": "Суспендован/а"
@@ -40,11 +40,11 @@
             "no_reason_given": "",
             "suspended": {
                 "subject": "Ваш налог на Грчком Форуму је суспендован",
-                "body": "Здраво {recipient_display_name},\n\nSuspendovani сте из следећег razloga:\n\n---\n{suspension_message}\n---\n"
+                "body": ""
             },
             "unsuspended": {
                 "subject": "За ваш налог на Грчком Форуму је укинута суспензија",
-                "body": "Здраво {recipient_display_name},\n\nZa ваш налог на је укинута суспензија. Можете се вратити на форум кликом на следећи линк:\n\n{форум_урл}\n"
+                "body": ""
             }
         },
         "validation": {

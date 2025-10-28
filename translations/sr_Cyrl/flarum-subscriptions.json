@@ -17,7 +17,7 @@
                 "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": "{усернаме} је одговорио/ла"
+                "new_post_text": ""
             },
             "settings": {
                 "follow_after_reply_label": "Аутоматски запрати дискусије у којима одговорим",
@@ -38,8 +38,8 @@
         },
         "email": {
             "new_post": {
-                "subject": "Нови одговор у дискусији {титле}",
-                "body": "Здраво {recipient_display_name}!\n\n{poster_display_name} је одговорио/ла у дискусији коју пратите: {титле}.\n\nДа погледате нови одговор, кликните на следећи линк:\n{урл}\n\n---\n\n{цонтент}\n\n---\n\nНећете више добијати обавештења о овој дискусији док не ажурирате опције праћења.\n"
+                "subject": "",
+                "body": ""
             }
         },
         "ref": {
