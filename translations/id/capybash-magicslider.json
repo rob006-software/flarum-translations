@@ -3,11 +3,12 @@
         "admin": {
             "settings": {
                 "section_display": "Tampilan",
+                "section_desktop": "Desktop",
+                "section_mobile": "Mobile",
+                "section_behavior": "Perilaku",
                 "section_slides": "Slide",
-                "height_desktop": "Tinggi slider di desktop",
-                "height_desktop_help": "Tinggi tetap untuk layar dengan lebar lebih dari 768px",
-                "height_mobile": "Tinggi slider di perangkat mobile",
-                "height_mobile_help": "Tinggi tetap untuk layar dengan lebar hingga 768px",
+                "height": "Tinggi",
+                "height_help": "Tinggi konstan untuk jenis layar ini",
                 "padding": "Jarak luar",
                 "padding_help": "Jarak di sekitar blok slider",
                 "radius": "Border radius",
@@ -15,13 +16,19 @@
                 "autoplay": "Interval pemutaran otomatis",
                 "autoplay_help": "0 menonaktifkan pemutaran otomatis",
                 "hide_on_tag_pages": "Sembunyikan slider di halaman tag",
-                "hide_on_tag_pages_help": "Tampilkan tag hero default Flarum di halaman tag alih-alih slider",
+                "hide_on_tag_pages_help": "Tampilkan tag hero default Flarum pada halaman tag, bukan pada slider",
+                "fit_to_layout": "Sejajarkan slider dengan lebar tata letak utama",
+                "fit_to_layout_help": "Saat diaktifkan, slider akan membentang tepat sesuai lebar kotak konten utama pada tag atau daftar diskusi",
                 "add_slide": "Tambahkan slide",
                 "image_placeholder": "URL gambar",
                 "link_placeholder": "URL tautan",
                 "new_tab": "Buka di tab baru",
                 "delete": "Hapus",
-                "drag": "Tarik untuk mengatur ulang urutan"
+                "drag": "Tarik untuk mengatur ulang urutan",
+                "height_desktop": "Tinggi slider di desktop",
+                "height_desktop_help": "Tinggi tetap untuk layar dengan lebar lebih dari 768px",
+                "height_mobile": "Tinggi slider di perangkat mobile",
+                "height_mobile_help": "Tinggi tetap untuk layar dengan lebar hingga 768px"
             }
         }
     }

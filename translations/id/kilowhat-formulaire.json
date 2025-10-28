@@ -43,7 +43,7 @@
                     "profileView": "Halaman Tampilan Profil",
                     "signUp": "Jendela Modal Pendaftaran (hanya kolom Formulaire)",
                     "discussionEdit": "Jendela Modal Edit Diskusi",
-                    "discussionView": "Wadah Tampilan Diskusi",
+                    "discussionView": "Kotak Tampilan Diskusi",
                     "discussionComposer": "Area Penulisan Diskusi"
                 },
                 "uniformComposerLayout": "Tata letak penulisan diskusi yang seragam",
@@ -326,16 +326,16 @@
             },
             "form-sort": {
                 "latest": "Formulir baru",
-                "oldest": "Formulir paling lama"
+                "oldest": "Formulir terlama"
             },
             "export": {
-                "title": "Pengajuan ekspor",
+                "title": "Ekspor Pengajuan",
                 "format": "Format",
                 "heading": "Heading / key",
                 "fields": "Kolom",
                 "meta": "Metadata",
                 "more-meta": "Opsi meta lainnya",
-                "option-keys": "Tombol opsi ekspor alih-alih judul untuk kotak centang, radio, dan pilihan",
+                "option-keys": "Ekspor kunci opsi alih-alih judul untuk kotak centang, radio, dan pilihan",
                 "submit": "Download",
                 "preview": "Pratinjau",
                 "format-options": {
@@ -389,8 +389,8 @@
             "cannot-change-form-type": "Anda tidak dapat mengubah jenis formulir yang sudah ada pengajuannya",
             "unknown-form": "Formulir ID {id} tidak dikenal",
             "unauthorized-form": "Anda tidak memiliki izin yang diperlukan untuk mengisi formulir ID {id}",
-            "unauthorized-scoped-form": "Anda tidak dapat mengisi formulir ID {id} dengan kombinasi tag saat ini",
-            "unsupported-discussion-form": "Anda tidak dapat mengisi formulir ID {id} pada jenis diskusi ini",
+            "unauthorized-scoped-form": "Anda tidak dapat mengisi ID formulir {id} dengan kombinasi tag saat ini",
+            "unsupported-discussion-form": "Anda tidak dapat mengisi ID formulir {id} pada jenis diskusi ini",
             "file-already-belongs-form": "File {id} milik formulir lain",
             "file-already-belongs-submission": "File {id} milik pengajuan lain",
             "export": {

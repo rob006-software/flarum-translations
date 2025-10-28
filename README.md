@@ -1066,6 +1066,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`hehongyuanlove-auth-qq`](https://weblate.rob006.net/projects/flarum/hehongyuanlove-auth-qq) | [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq) |
 | [`hikarilan-passkey-login`](https://weblate.rob006.net/projects/flarum/hikarilan-passkey-login) | [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login) |
 | [`huoxin-auto-follow-discussion`](https://weblate.rob006.net/projects/flarum/huoxin-auto-follow-discussion) | [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) |
+| [`huseyinfiliz-bump`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-bump) | [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) |
 | [`huseyinfiliz-custom-profile-page`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-custom-profile-page) | [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) |
 | [`huseyinfiliz-flagify`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-flagify) | [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify) |
 | [`huseyinfiliz-guest`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-guest) | [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest) |

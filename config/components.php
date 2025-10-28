@@ -165,13 +165,13 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.2/resources/locale/en.yml',
 	],
 	'capybash-magicbb' => [
-		'tag' => 'https://raw.githubusercontent.com/capybash/magicbb/v6.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/capybash/magicbb/v7.0.0/resources/locale/en.yml',
 	],
 	'capybash-magicread' => [
-		'tag' => 'https://raw.githubusercontent.com/capybash/magicread/v3.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/capybash/magicread/v4.0.0/resources/locale/en.yml',
 	],
 	'capybash-magicslider' => [
-		'tag' => 'https://raw.githubusercontent.com/capybash/magicslider/v4.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/capybash/magicslider/v6.0.0/resources/locale/en.yml',
 	],
 	'cccyun-clogin-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
@@ -805,6 +805,9 @@ return [
 	'huoxin-auto-follow-discussion' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-follow-discussion/0.0.2/locale/en.yml',
 	],
+	'huseyinfiliz-bump' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/bump/1.1.0/locale/en.yml',
+	],
 	'huseyinfiliz-custom-profile-page' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/custom-profile-page/0.3/locale/en.yml',
 	],
@@ -815,7 +818,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/guest/v2.1/locale/en.yml',
 	],
 	'huseyinfiliz-modern-footer' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/v1.1/resources/locale/en.yml',
 	],
 	'huseyinfiliz-notificationhub' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/notificationhub/v0.3/resources/locale/en.yml',
@@ -1202,7 +1205,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-store-invite/1.3.6/locale/en.yml',
 	],
 	'michaelbelgium-ai-autoreply' => [
-		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-ai-autoreply/v1.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-ai-autoreply/v1.2.0/locale/en.yml',
 	],
 	'michaelbelgium-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v7.4.1/locale/en.yml',

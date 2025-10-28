@@ -1,0 +1,111 @@
+{
+    "huseyinfiliz-bump": {
+        "admin": {
+            "tabs": {
+                "bump": "Manuel Yukarı Taşı",
+                "absorber": "Engelleyici",
+                "group_overrides": "Grup Özelleştirmeleri",
+                "recent_bumps": "Son Etkinlikler"
+            },
+            "stats": {
+                "total_bumps": "Toplam Yukarı Taşıma",
+                "today_bumps": "Bugün Yukarı Taşıma",
+                "week_bumps": "Bu Hafta",
+                "last_bump": "Son Yukarı Taşıma",
+                "no_bumps_yet": "Henüz yukarı taşıma yok",
+                "absorber_status": "Engelleyici Durumu",
+                "active": "Aktif",
+                "inactive": "Pasif"
+            },
+            "settings": {
+                "section_absorber": "Engelleyici Ayarları",
+                "section_manual": "Manuel Yukarı Taşı Ayarları",
+                "section_quota": "Kota Ayarları",
+                "section_bypass": "Sınır Aşma ve Moderasyon Ayarları"
+            },
+            "enable_absorber_label": "Engelleyiciyi Etkinleştir",
+            "enable_absorber_help": "Yanıtlar çok hızlı geldiğinde tartışmaların yukarı taşınmasını otomatik olarak engeller. Gereksiz yanıtları azaltmaya ve forum düzenini korumaya yardımcı olur.",
+            "threshold_hours_label": "Zaman Eşiği (Saat)",
+            "threshold_hours_help": "Bir tartışmanın yukarı taşınabilmesi için yanıtlar arasında olması gereken minimum saat. Örneğin, 2 olarak ayarlarsanız 2 saat içinde yapılan yanıtlar yukarı taşıma yapmaz. 0 yaparak devre dışı bırakabilirsiniz.",
+            "absorber_tags_label": "Uygulanacak Etiketler",
+            "absorber_tags_help": "Engelleyici'nin aktif olacağı etiketleri seçin. Boş bırakılırsa tüm tartışmalarda geçerli olur.",
+            "enable_manual_label": "Manuel Yukarı Taşımayı Etkinleştir",
+            "enable_manual_help": "Tartışma sahiplerinin tartışmalarını manuel olarak üste taşımalarına izin verir. Önemli konuları görünür tutmak için kullanışlıdır.",
+            "manual_bump_tags_label": "Uygulanacak Etiketler",
+            "manual_bump_tags_help": "Manuel yukarı taşımaya izin verilen etiketleri seçin. Boş bırakılırsa tüm tartışmalarda kullanılabilir.",
+            "manual_cooldown_label": "Bekleme Süresi (Saat)",
+            "manual_cooldown_help": "Kullanıcıların aynı tartışmayı yeniden yukarı taşımadan önce beklemesi gereken süre. -1 devre dışı, 0 bekleme yok, pozitif sayı saat olarak bekleme süresini belirtir. Örneğin 24 = günde bir kez.",
+            "moderator_groups_label": "Yukarı Taşımaları Yönetebilen Gruplar",
+            "moderator_groups_help": "Bu gruptaki kullanıcılar TÜM tartışmaları yukarı taşıyabilir ve bekleme/kota kısıtlamalarını aşabilir. Boş bırakılırsa moderasyon özellikleri devre dışı kalır.",
+            "absorber_bypass_groups_label": "Engelleyiciyi Atlayabilen Gruplar",
+            "absorber_bypass_groups_help": "Bu gruplardaki kullanıcılar engelleyiciyi tamamen atlar ve mesajları tartışmayı hemen yukarı taşır. Boş bırakılırsa kimse atlayamaz.",
+            "owner_daily_quota_label": "Günlük Yukarı Taşıma Sınırı",
+            "owner_daily_quota_help": "Tartışma sahiplerinin günde en fazla kaç kez yukarı taşıma yapabileceğini belirler. -1 devre dışı, 0 sınırsız, pozitif sayı günlük sınır.",
+            "owner_weekly_quota_label": "Haftalık Yukarı Taşıma Sınırı",
+            "owner_weekly_quota_help": "Tartışma sahiplerinin haftalık yukarı taşıma sınırını belirler. -1 devre dışı, 0 sınırsız, pozitif sayı haftalık sınır.",
+            "group_overrides": {
+                "description": "Belirli kullanıcı grupları için yukarı taşıma ve engelleyici ayarlarını özelleştirin.",
+                "help": "Alanları boş bırakmak, genel ayarları kullanır. 0 değeri sınırsız veya atlama anlamına gelir.",
+                "add_override": "Grup Geçersiz Kılma Ekle",
+                "no_overrides": "Henüz grup geçersiz kılmaları yok",
+                "get_started": "\"Grup Geçersiz Kılma Ekle\" butonuna tıklayarak özel ayarlar oluşturun",
+                "edit": "Düzenle",
+                "remove": "Kaldır",
+                "confirm_remove": "Bu grup geçersiz kılmasını kaldırmak istediğinizden emin misiniz?",
+                "unlimited": "Sınırsız",
+                "using_global": "(genel ayar kullanılıyor)"
+            },
+            "group_override_modal": {
+                "add_title": "Grup Geçersiz Kılma Ekle",
+                "edit_title": "Grup Geçersiz Kılmayı Düzenle",
+                "select_group": "Grup Seç",
+                "manual_section": "Manuel Yukarı Taşı Ayarları",
+                "absorber_section": "Engelleyici Ayarları",
+                "use_global": "Genel ayarı kullan ({value})",
+                "custom_value": "Özel değer:",
+                "minus_one_disabled_zero_unlimited": "-1 devre dışı, 0 sınırsız, pozitif sayı sınır anlamına gelir",
+                "zero_means_bypass": "0 değeri engelleyiciyi atlamak anlamına gelir (anında yukarı taşıma)",
+                "save": "Kaydet",
+                "cancel": "İptal"
+            },
+            "select_groups_modal": {
+                "title": "Grupları Seç",
+                "select_button": "Grupları Seç",
+                "no_groups": "Kullanılabilir grup yok",
+                "no_groups_selected": "Seçili grup yok",
+                "save": "Kaydet",
+                "cancel": "İptal"
+            },
+            "recent_bumps": {
+                "title": "Son Yukarı Taşıma Etkinlikleri",
+                "loading": "Yükleniyor...",
+                "no_bumps": "Henüz yukarı taşıma etkinliği yok",
+                "showing": "{count} etkinlik gösteriliyor",
+                "untitled": "Başlıksız Tartışma",
+                "system": "Sistem",
+                "view_discussion": "Tartışmayı Görüntüle",
+                "type_manual": "Manuel",
+                "type_auto": "Otomatik",
+                "type_absorber": "Engelleyici"
+            }
+        },
+        "forum": {
+            "bump_button": "Yukarı Taşı",
+            "bump_button_cooldown": "Yukarı Taşı ({time})",
+            "bump_button_quota": "Yukarı Taşı ({count} kaldı)",
+            "bump_disabled": "Devre Dışı",
+            "bump_success": "Tartışma başarıyla üste taşındı!",
+            "bump_error": "Tartışma yukarı taşınamadı.",
+            "bump_cooldown": "{time} sonra kullanılabilir",
+            "bump_quota_exceeded_daily": "Günlük yukarı taşıma sınırı doldu",
+            "bump_quota_exceeded_weekly": "Haftalık yukarı taşıma sınırı doldu",
+            "bump_disabled_for_group": "Kullanıcı grubunuz için manuel yukarı taşıma devre dışı"
+        },
+        "api": {
+            "cooldown_error": "Bu tartışmayı {hours} saat sonra yukarı taşıyabilirsiniz",
+            "daily_quota_error": "Günlük yukarı taşıma sınırı doldu ({limit})",
+            "weekly_quota_error": "Haftalık yukarı taşıma sınırı doldu ({limit})",
+            "bump_disabled": "Kullanıcı grubunuz için manuel yukarı taşıma devre dışı"
+        }
+    }
+}
