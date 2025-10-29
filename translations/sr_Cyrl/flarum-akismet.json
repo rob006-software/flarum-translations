@@ -2,19 +2,19 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "",
-                "title": "",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "api_key_label": "АПИ Key",
+                "title": "Акисмет подешавања",
+                "delete_blatant_spam_label": "Аутоматски избришите очигледну нежељену пошту",
+                "delete_blatant_spam_help": "Ако Акисмет утврди да је коментар очигледан нежељени садржај, уместо означавања, аутоматски избришите одговор"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Заобиђите Акисмет"
             }
         },
         "forum": {
             "post": {
-                "akismet_flagged_text": "",
-                "not_spam_button": ""
+                "akismet_flagged_text": "Акисмет софтвер је означио као непожељно",
+                "not_spam_button": "Није непожељно"
             }
         }
     }

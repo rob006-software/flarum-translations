@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "Пријављивање одговора",
+                "view_flags_label": "Преглед пријављених одговора"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "Омогућите члановима да пријаве властите одговоре",
+                "guidelines_url_label": "URL правила заједнице",
+                "title": "Подешавање пријава"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
-                "submit_button": "",
-                "title": ""
+                "confirmation_message": "Хвала Вам што сте пријавили овај одговор. Наши модератори ће то истражити.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Додатни детаљи (опционално)",
+                "reason_inappropriate_label": "Неприкладно",
+                "reason_inappropriate_text": "Овај одговор је неприкладан, увредљив или крши наша <а>правила заједнице</а>.",
+                "reason_missing_message": "Наведите неке детаље за наше модераторе.",
+                "reason_off_topic_label": "Ван теме",
+                "reason_off_topic_text": "Овај одговор није релевантан за тренутну дискусију и треба га преместити негде другде.",
+                "reason_other_label": "Друго (навести)",
+                "reason_spam_label": "Непожељно",
+                "reason_spam_text": "Овај одговор је оглас.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "",
+                "empty_text": "Нема пријава",
                 "item_text": "",
-                "title": "",
-                "tooltip": ""
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "",
+                "dismiss_flag_button": "Одбаци пријаву",
                 "flagged_by_text": "",
                 "flagged_by_with_reason_text": ""
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "Пријавите"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "Пријавите одговор",
+            "flagged_posts": "Пријављени одговори"
         }
     }
 }

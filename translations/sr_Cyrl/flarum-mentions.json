@@ -11,7 +11,7 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
+                "mention_tooltip": "Спомените члана или одговор",
                 "reply_to_post_text": ""
             },
             "mentioned_by": {
@@ -19,7 +19,7 @@
                 "load_more_button": ""
             },
             "notifications": {
-                "others_text": "",
+                "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "",
                 "user_mentioned_text": "",
                 "group_mentioned_text": ""
@@ -28,21 +28,21 @@
                 "mentioned_by_more_text": "",
                 "mentioned_by_self_text": "",
                 "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Цитирајте",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": "",
+                "notify_post_mentioned_label": "Ако неко одговори на неки од мојих одговора",
+                "notify_user_mentioned_label": "Ако ме неко спомене у свом одговору",
                 "notify_group_mentioned_label": ""
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Спомињања"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[непознато]"
             },
             "group_mention": {
                 "deleted_text": ""

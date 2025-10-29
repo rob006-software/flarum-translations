@@ -2,48 +2,48 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "Суспендовање чланова"
             }
         },
         "forum": {
             "notifications": {
                 "user_suspended_text": "",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_indefinite_text": "Суспендовани сте на неодређено време",
+                "user_unsuspended_text": "Укинута вам је суспензија"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
+                "dismiss_button": "Одбаци",
+                "indefinite": "Ово је суспензија на неодређено време",
                 "limited": "",
-                "title": ""
+                "title": "Овај налог је суспендован"
             },
             "suspend_user": {
-                "display_message": "",
-                "indefinitely_label": "",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "placeholder_optional": "",
-                "reason": "",
-                "status_heading": "",
-                "submit_button": "",
+                "display_message": "Прикажи поруку за корисника",
+                "indefinitely_label": "Суспендован/а на неодређено",
+                "limited_time_days_text": " дана",
+                "limited_time_label": "Суспендован/а на одређено време..",
+                "not_suspended_label": "Није суспендован/а",
+                "placeholder_optional": "Опционално",
+                "reason": "Разлог за суспензију",
+                "status_heading": "Статус суспензије",
+                "submit_button": "=> core.ref.save_changes",
                 "title": ""
             },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "Суспендован/а"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "Суспендуј"
             }
         },
         "email": {
             "no_reason_given": "",
             "suspended": {
-                "subject": "",
+                "subject": "Ваш налог на Грчком Форуму је суспендован",
                 "body": ""
             },
             "unsuspended": {
-                "subject": "",
+                "subject": "За ваш налог на Грчком Форуму је укинута суспензија",
                 "body": ""
             }
         },

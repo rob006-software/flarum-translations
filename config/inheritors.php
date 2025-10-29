@@ -11,6 +11,7 @@
 
 declare(strict_types=1);
 
+use app\components\inheritors\SerbianCyrillicToLatinTranslationsInheritor;
 use app\components\inheritors\TranslationsInheritor;
 
 return [
@@ -29,5 +30,13 @@ return [
 		'inheritFromTranslations' => __DIR__ . '/../translations/es',
 		'inheritToSources' => __DIR__ . '/../sources',
 		'inheritToTranslations' => __DIR__ . '/../translations/es@formal',
+	],
+	'sr_Latn' => [
+		'class' => SerbianCyrillicToLatinTranslationsInheritor::class,
+		'inheritFromLabel' => 'Serbian (Cyrillic)',
+		'inheritFromSources' => __DIR__ . '/../sources',
+		'inheritFromTranslations' => __DIR__ . '/../translations/sr_Cyrl',
+		'inheritToSources' => __DIR__ . '/../sources',
+		'inheritToTranslations' => __DIR__ . '/../translations/sr_Latn',
 	],
 ];

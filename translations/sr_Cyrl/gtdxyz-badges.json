@@ -1,103 +1,103 @@
 {
     "gtdxyz-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
+            "uncategorized": "Некатегоризовано",
+            "new_badge": "Нови беџ",
+            "create_category": "Направи категорију",
+            "update_badge": "Ажурирај беџ",
+            "update_category": "Ажурирај категорију",
+            "edit_category": "Уреди категорију",
+            "nothing_here_yet": "Још нисте направили ниједан беџ или категорију.",
             "show_badges_on_user_card": "",
             "number_of_badges_on_user_card": "",
             "number_of_badges_on_user_card_help": "",
             "permissions": {
-                "badge_detail_users": "",
-                "give_badge": "",
-                "take_badge": "",
+                "badge_detail_users": "Може да види чланове на страници са детаљима о беџевима",
+                "give_badge": "Даје беџ члану",
+                "take_badge": "Одузима беџ члану",
                 "edit_own_card_badges": "",
                 "edit_card_badges": ""
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Потврди",
+                "no": "Не",
+                "yes": "Да"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Да ли сте сигурни да желите да уклоните овај беџ. Уклања се свим члановима и неповратљиво је.",
+                "delete_category": "Да ли сте сигурни да желите да уклоните ову категорију? Уколико постоје беџеви у овој категорији, они ће бити означени као 'некатегоризовано'."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": "",
-                "is_image": "",
-                "is_image_description": "",
-                "image": "",
-                "image_placeholder": "",
-                "icon_color": "",
-                "background_color": "",
-                "label_color": ""
+                "name": "Име беџа",
+                "icon": "Иконица беџа",
+                "description": "Опис беџа",
+                "visible": "Видљиво",
+                "visible_description": "Омогући овај беџ. Када је онемогућен, беџ неће бити видљив.",
+                "is_image": "Беџ је слика",
+                "is_image_description": "Користите слику уместо подразумеваног беџа",
+                "image": "Веза до слике беџа",
+                "image_placeholder": "Унесите везу до слике беџа",
+                "icon_color": "Боја иконице",
+                "background_color": "Боја позадине",
+                "label_color": "Боја текста"
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "blockview": "",
-                "blockview_description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Назив категорије",
+                "description": "Опис категорије",
+                "blockview": "Преглед по блоковима",
+                "blockview_description": "Прикажи категорије беџева по блоковима приказану на прегледу беџева. Уколико је опција онемогућена, сви беџеви ће бити приказани у табели.",
+                "enabled": "Омогућено",
+                "enabled_description": "Омогући ову категорију. Уколико је онемогућена, сви беџеви ће бити онемогућени и категорија ће бити скривена."
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "Аутоматски награди чланове беџевима",
+                    "content": "Овај додатак нуди више функционалности када је <а>Ауто Модератор</а> инсталиран и активиран. Када инсталирате овај додатак, чланови могу бити аутоматски награђени беџевима без интервенције модератора или администратора!",
+                    "install": "Инсталирај",
+                    "dismiss": "Не приказуј поново"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "ИД беџа",
+                    "give_badge": "Дај беџ",
+                    "remove_badge": "Уклони беџ"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Има беџ"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Добијени беџеви"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Одабери беџ",
+                    "loading_badges": "Учитавање беџева"
                 }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
+            "badge_information": "Информације о беџу",
+            "all_badges": "Прикажи све беџеве",
+            "all_users": "Прикажи све чланове",
+            "give_badge": "Дај беџ",
+            "update_badge": "Ажурирај беџ",
+            "select_badge": "Одабери беџ",
+            "user_has_badge": "Члан већ има овај беџ.",
+            "user_no_badges": "Овај члан још нема ниједан беџ.",
             "hidden_badges": "",
-            "no_received": "",
-            "uncategorized": "",
+            "no_received": "Ниједан корисник није заслужио овај беџ.",
+            "uncategorized": "=> gtdxyz-flarum-badges.admin.uncategorized",
             "save_changes": "",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
+                "badge": "Беџ",
+                "badges": "Беџеви",
+                "name": "Име беџа",
+                "description": "Опис беџа",
+                "earning_reason": "Разлог за стицање беџа",
+                "update_earning_reason": "Ажурирај разлог зараде",
+                "no_earning_reason": "Није дат разлог за зараду",
+                "earned_on": "Беџ стечен на",
+                "category": "Категорија беџа",
                 "received_on": "",
-                "badge_details": "",
+                "badge_details": "Детаљи беџа",
                 "earned_count": "",
                 "earned_by_count": "",
                 "others_link": ""
@@ -110,13 +110,13 @@
                 "hit_limit": ""
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "Уклони беџ члану",
+                "remove_badge_confirm": "Да ли сте сигурни да желите да уклоните овај беџ овај члану?",
+                "give_badge": "Дај беџ"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "Добио си нови беџ",
+                "settings": "Добио сам беџ"
             }
         }
     }
