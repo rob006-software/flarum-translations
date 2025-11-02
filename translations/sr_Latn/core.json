@@ -20,7 +20,7 @@
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Unesite heksadecimalni kod boje.",
-                "favicon_heading": "Favicon",
+                "favicon_heading": "Ikonica",
                 "favicon_text": "Otpremite sliku koja će biti prikazana kao ikonica foruma.",
                 "logo_heading": "Logotip",
                 "logo_text": "Otpremite sliku koja će biti prikazana umesto naziva foruma.",
@@ -61,8 +61,8 @@
                 "status": {
                     "headers": {
                         "scheduler-status": "Planer",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "queue-driver": "Mehanizam za red",
+                        "session-driver": "Mehanizam za sesiju"
                     },
                     "scheduler": {
                         "active": "Aktivno",
@@ -451,7 +451,7 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
+                "browser_on_operating_system": "{browser}, {os}",
                 "cannot_terminate_current_session": "Ne možete zaustaviti trenutno aktivnu sesiju. Umesto toga, odjavi se.",
                 "created": "Stvoreno",
                 "current_active_session": "Trenutno aktivna sesija",
@@ -474,7 +474,7 @@
                 "revoke_access_token": "Opozovi",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Aktivne sesije",
-                "session_terminated": "",
+                "session_terminated": "{count, plural, one {Sesija je prekinuta} few {# sesije su prekinute} other {# sesija je prekinuto}}.",
                 "session_termination_failed": "Dogodila se greška prilikom prekidanja vaših sesija.",
                 "show_access_token": "Pogledaj token",
                 "terminate_all_other_sessions": "Završi sve ostale sesije",
@@ -482,8 +482,8 @@
                 "terminate_session": "Završi",
                 "title": "=> core.ref.security",
                 "token_revoked": "Token je opozvan.",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "Nalog",
@@ -492,8 +492,8 @@
                 "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
-                "notify_by_web_heading": "Web",
-                "notify_discussion_renamed_label": "Ako neko preimenuje diskusiju koju sam započeo",
+                "notify_by_web_heading": "Veb",
+                "notify_discussion_renamed_label": "Kad neko preimenuje diskusiju koju sam započeo",
                 "privacy_disclose_online_label": "Dozvoli drugima da vide da sam onlajn",
                 "privacy_heading": "Privatnost",
                 "title": "=> core.ref.settings"
@@ -552,7 +552,7 @@
                 "toggle_dropdown_accessible_label": "Uključite/Isključite padajući meni"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "Aktiviraj člana",
@@ -578,7 +578,7 @@
                 "not_found_message": "Traženi resurs nije pronađen.",
                 "payload_too_large_message": "Tovar zahteva je prevelik.",
                 "permission_denied_message": "Nemate potrebne dozvole da bi ste to uradili.",
-                "rate_limit_exceeded_message": "Prebrzi ste. Pokušajte ponovo za nekoliko sekundi.",
+                "rate_limit_exceeded_message": "Previše ste brzi. Pokušajte ponovo za nekoliko sekundi.",
                 "render_failed_message": "Žao nam je, naišli smo na grešku pri prikazivanju ovog sadržaja. Ako ste korisnik, pokušajte ponovo kasnije. Ako ste administrator, pogledajte svoje Flarum datoteke za evidencije za više informacija."
             },
             "loading_indicator": {
