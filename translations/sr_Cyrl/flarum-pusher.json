@@ -2,16 +2,16 @@
     "flarum-pusher": {
         "admin": {
             "pusher_settings": {
-                "app_cluster_label": "Цлустер",
-                "app_id_label": "App ИД",
+                "app_cluster_label": "Кластер",
+                "app_id_label": "ID апликације",
                 "app_key_label": "App Key",
-                "app_secret_label": "App Сецрет",
-                "title": "Пусхер подешавања"
+                "app_secret_label": "App Secret",
+                "title": "Подешавања Pusher-a"
             }
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {Прикажи # ажурирану дискусију} few {Прикажи # ажуриране дискусије} other {Прикажи # ажурираних дискусија}}"
             }
         }
     }
