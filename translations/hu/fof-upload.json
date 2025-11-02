@@ -97,10 +97,10 @@
                     "toggle": "Képek vízjelezése"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "SVG tisztító",
+                    "allow_animate": "SVG animációk engedélyezése",
+                    "help": "Beállítja az SVG-fájlok feldolgozását és megtisztítását a feltöltés során. Az SVG-fájlok káros parancsfájlokat tartalmazhatnak, így óvatosan kell velük bánni. A feltöltött SVG-k feltöltéskor megtisztításra kerülnek: a káros parancsfájlok és címkék el lesznek távolítva.",
+                    "allow_animate_help": "Az SVG animációk biztonsági sérülékenységeket okozhatnak, mert az animált SVG-k kártékony kódot tartalmazhatnak. A saját felelősségére kapcsolja be ezt a beállítást, és csak akkor, ha megbízik a felhasználókban."
                 },
                 "composer_buttons": {
                     "title": "Szerkesztőgombok",
