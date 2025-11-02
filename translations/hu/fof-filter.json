@@ -8,7 +8,7 @@
             "title": "Szűrő",
             "bad_words_help": "Adja meg a kiszűrendő szöveget vagy szavakat. Ha egy felhasználó bejegyzése szűrendő szöveget tartalmaz, akkor jóváhagyásra lesz jelölve. Ellenálló a leetspeak szövegekkel szemben.",
             "help2": "A percben megadott időköz, mialatt az egy felhasználó által egy témában közzétett bejegyzések automatikusan összevonásra kerülnek.",
-            "email_help": "A megjelölésről szóló e-mail törzse. HTML-t és egyszerű szöveget fogad el.",
+            "email_help": "A megjelölésről szóló e-mail törzse. HTML-t és egyszerű szöveget fogad el. A %USERNAME% változóval szúrhatja be a megjelölt bejegyzést beküldő felhasználó nevét.\n",
             "filter_label": "Szűrendő szövegek",
             "countLabel": "Cenzor küszöbszintje",
             "cooldownLabel": "Bejegyzésösszevonás elévülési ideje",
@@ -17,7 +17,7 @@
                 "placeholder": "Szűrendő szövegek",
                 "filter_title": "Szűrendő szövegek",
                 "email_label": "E-mail-beállítások",
-                "email_help": "",
+                "email_help": "Hagyja üresen, hogy engedélyezze a fordítások használatát. A levél lefordításához használhatja a FoF Linguist bővítményt.",
                 "switch": {
                     "email": "E-mail küldése a felhasználónak, ha a bejegyzése szűrésre kerül",
                     "merge": "Ismételt bejegyzések automatikus összevonása",
@@ -35,7 +35,7 @@
             },
             "email": {
                 "default_subject": "A friss bejegyzésével kapcsolatosan",
-                "default_text": "Köszönjük a bejegyzést! Sajnos a bejegyzése eltávolításra került, mert olyasmit tartalmaz, amit nem szeretnénk a fórumunkon látni.\n\nHa azt gondolja, hogy ez tévedés, akkor szerencséje van, a moderátorok az összes eltávolított bejegyzést átnézik. Ha úgy találják, hogy hibásan lett eltávolítva, akkor vissza fogják állítani.                \n\nKöszönjük a megértését.\n"
+                "default_text": "Köszönjük a bejegyzést! Sajnos a bejegyzése eltávolításra került, mert olyasmit tartalmaz, amit nem szeretnénk a fórumunkon látni.\n\nHa azt gondolja, hogy ez tévedés, akkor szerencséje van, a moderátorok az összes eltávolított bejegyzést átnézik. Ha úgy találják, hogy hibásan lett eltávolítva, akkor vissza fogják állítani.\n\nKöszönjük a megértését.\n"
             }
         }
     }
