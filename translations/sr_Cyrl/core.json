@@ -7,7 +7,7 @@
                 "colors_primary_label": "Основна боја",
                 "colors_secondary_label": "Споредна боја",
                 "colors_text": "Одаберите две боје за тему вашег форума. Прва је боја за истакнути садржај а друга је боја за стил позадинских елемената.",
-                "custom_footer_heading": "Прилагођено подножије",
+                "custom_footer_heading": "Прилагођено подножје",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Прилагођено заглавље",
                 "custom_header_text": "=> core.ref.custom_header_text",
@@ -20,7 +20,7 @@
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Унесите хексадецималну вредност за боју.",
-                "favicon_heading": "Фавицон",
+                "favicon_heading": "Иконица",
                 "favicon_text": "Пошаљите слику која ће бити коришћена као икона пречице за форум.",
                 "logo_heading": "Лого",
                 "logo_text": "Пошаљите слику која ће се користити уместо наслова форума.",
@@ -36,13 +36,13 @@
                 "forum_description_text": "Унесите једну или две реченице које описују вашу заједницу. Овај опис ће бити коришћен за мета таг и такође ће се појављивати у веб претраживачима.",
                 "forum_title_heading": "Наслов форума",
                 "home_page_heading": "Почетна страна",
-                "home_page_text": "Одаберите страницу коју ће корисници прво видети када посете фаш форум.",
-                "show_language_selector_label": "Прикажи подешавања за одабир језика",
-                "slug_driver_heading": "",
+                "home_page_text": "Одаберите страницу коју ће корисници прво видети када посете ваш форум.",
+                "show_language_selector_label": "Прикажи опцију за одабир језика",
+                "slug_driver_heading": "Механизам за slug: {model}",
                 "slug_driver_text": "Изаберите управљачки програм који ће се користити за спајање овог модела.",
                 "title": "Основно",
                 "welcome_banner_heading": "Банер за добродошлицу",
-                "welcome_banner_text": "Конфигуришите текс који ће се приказивати на банеру странице са свим дискусијама. Функција текста је да пожелите добродошлицу посетиоцима форума."
+                "welcome_banner_text": "Конфигуришите текст који ће се приказивати на банеру странице са свим дискусијама. Функција текста је да пожелите добродошлицу посетиоцима форума."
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -61,8 +61,8 @@
                 "status": {
                     "headers": {
                         "scheduler-status": "Планер",
-                        "queue-driver": "",
-                        "session-driver": ""
+                        "queue-driver": "Механизам за ред",
+                        "session-driver": "Механизам за сесију"
                     },
                     "scheduler": {
                         "active": "Активно",
@@ -78,7 +78,7 @@
                 "label": "Дебаг мод је укључен"
             },
             "edit_css": {
-                "customize_text": "Прилагодите изглед форума додавањем вашег Less/CSS кода који ће бити примењен поврх Фларумовог <a>подразумеваног стилс</a>.",
+                "customize_text": "Прилагодите изглед форума додавањем вашег Less/CSS кода који ће бити примењен поврх Фларумових <a>подразумеваних стилова</a>.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Промените ваш прилагођени CSS"
             },
@@ -223,7 +223,7 @@
             "permissions_controls": {
                 "allow_indefinitely_button": "Неодређено",
                 "allow_never_button": "=> core.ref.never",
-                "allow_some_minutes_button": "",
+                "allow_some_minutes_button": "{count, plural, one {На # минут} other {На # минута}}",
                 "allow_ten_minutes_button": "За 10 минута",
                 "allow_until_reply_button": "До следећег одговора",
                 "everyone_button": "Сви",
@@ -349,8 +349,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} одговорио {ago}",
                 "started_text": "{username} отпочео {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "total_replies_a11y_label": "{count, plural, one {# одговор} other {# одговора}}",
+                "unread_replies_a11y_label": "{count, plural, one {# непрочитан одговор} few {# непрочитана одговора} other {# непрочитаних одговора}}. Означите {count, plural, one {непрочитани одговор} other {непрочитане одговоре}} као прочитане."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -432,7 +432,7 @@
                 "now_link": "Сада",
                 "original_post_link": "Оригинална порука",
                 "unread_text": "{count} непрочитаних",
-                "viewing_text": ""
+                "viewing_text": "{count, plural, one {порука {index} од {formattedCount}} other {порука {index} од {formattedCount}}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Стари наслов је био: \"{old}\"",
@@ -451,7 +451,7 @@
                 "users_heading": "=> core.ref.users"
             },
             "security": {
-                "browser_on_operating_system": "",
+                "browser_on_operating_system": "{browser}, {os}",
                 "cannot_terminate_current_session": "Не можете зауставити тренутно активну сесију. Уместо тога, одјави се.",
                 "created": "Створено",
                 "current_active_session": "Тренутно активна сесија",
@@ -474,7 +474,7 @@
                 "revoke_access_token": "Опозови",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Активне сесије",
-                "session_terminated": "",
+                "session_terminated": "{count, plural, one {Сесија је прекинута} few {# сесије су прекинуте} other {# сесија је прекинуто}}.",
                 "session_termination_failed": "Догодила се грешка приликом прекидања ваших сесија.",
                 "show_access_token": "Погледај токен",
                 "terminate_all_other_sessions": "Заврши све остале сесије",
@@ -482,8 +482,8 @@
                 "terminate_session": "Заврши",
                 "title": "=> core.ref.security",
                 "token_revoked": "Токен је опозван.",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "Налог",
@@ -492,8 +492,8 @@
                 "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
-                "notify_by_web_heading": "",
-                "notify_discussion_renamed_label": "",
+                "notify_by_web_heading": "Веб",
+                "notify_discussion_renamed_label": "Кад неко преименује дискусију коју сам започео",
                 "privacy_disclose_online_label": "Дозволи другима да виде да сам онлајн",
                 "privacy_heading": "Приватност",
                 "title": "=> core.ref.settings"
@@ -552,7 +552,7 @@
                 "toggle_dropdown_accessible_label": "Укључи / искључи падајући мени"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "Активирај корисника",
@@ -578,15 +578,15 @@
                 "not_found_message": "Тражени ресурс није пронађен.",
                 "payload_too_large_message": "Товар захтева је превелик.",
                 "permission_denied_message": "Немате потребне дозволе да би сте то урадили.",
-                "rate_limit_exceeded_message": "",
+                "rate_limit_exceeded_message": "Превише сте брзи. Покушајте поново за неколико секунди.",
                 "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: страна # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Страна # - {forumName}}}"
             },
             "modal": {
                 "close": "Затвори"
@@ -605,8 +605,8 @@
             },
             "series": {
                 "glue_text": ", ",
-                "three_text": "",
-                "two_text": ""
+                "three_text": "{first}, {second} и {third}",
+                "two_text": "{first} и {second}"
             },
             "username": {
                 "deleted_text": "[обрисан налог]"
@@ -740,7 +740,7 @@
             "security": "Безбедност",
             "settings": "Поставке",
             "sign_up": "Пријави се",
-            "some_others": "",
+            "some_others": "{count, plural, one {# други} few {# друга} other {# других}}",
             "start_a_discussion": "Почни дискусију",
             "username": "Корисничко име",
             "users": "Корисници",
