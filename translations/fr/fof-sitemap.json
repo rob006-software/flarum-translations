@@ -4,8 +4,8 @@
             "settings": {
                 "exclude_users": "Exclure tous les profils d'utilisateurs du plan du site",
                 "exclude_users_help": "Par défaut, tout utilisateur visible par les invités sera indexé",
-                "exclude_tags": "",
-                "exclude_tags_help": "",
+                "exclude_tags": "Exclure toutes les pages d'étiquettes du plan du site",
+                "exclude_tags_help": "Par défaut, toutes les étiquettes visibles par les invités seront indexées",
                 "mode_label": "Mode de fonctionnement",
                 "mode_help": "Il est essentiel de sélectionner le mode approprié à la taille de votre forum.",
                 "mode_help_runtime_label": "Mode d'exécution",
@@ -19,10 +19,10 @@
                 "frequency_label": "À quelle fréquence le planificateur doit-il reconstruire le plan du site basé sur le cache ?",
                 "risky_performance_improvements": "Activer l'amélioration des performances à risque",
                 "risky_performance_improvements_help": "Ces améliorations accélèrent l'exécution de la tâche CRON sur des ensembles de données de plusieurs millions de lignes, mais peuvent nuire à la compatibilité avec certaines extensions.",
-                "include_priority": "",
-                "include_priority_help": "",
-                "include_changefreq": "",
-                "include_changefreq_help": "",
+                "include_priority": "Inclure les valeurs de priorité dans le plan du site",
+                "include_priority_help": "Les valeurs de priorité sont ignorées par Google, mais peuvent être utilisées par d'autres moteurs de recherche tels que Bing et Yandex",
+                "include_changefreq": "Inclure les valeurs de fréquence de modification dans le plan du site",
+                "include_changefreq_help": "Les valeurs de fréquence de modification sont ignorées par Google, mais peuvent être utilisées par d'autres moteurs de recherche pour planifier l'indexation",
                 "modes": {
                     "runtime": "Durée d'exécution",
                     "multi_file": "Fichiers multiples"
