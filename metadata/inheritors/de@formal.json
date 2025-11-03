@@ -3575,11 +3575,17 @@
                 "page": {
                     "discussion_count": "b375f6d53624d19bcda2a6399b0bf71f b375f6d53624d19bcda2a6399b0bf71f",
                     "post_count": "af1b1d387474fa9beee38d9dd51969a9 af1b1d387474fa9beee38d9dd51969a9"
+                },
+                "sign_up": {
+                    "dob_placeholder": "d41d8cd98f00b204e9800998ecf8427e 186ce936fb553bec5031384460072553"
                 }
             },
             "api": {
                 "invalid_dob_message": "48a18a590cf8bc236b66a9775624d5f7 48a18a590cf8bc236b66a9775624d5f7",
                 "invalid_age_message": "b4fbcd3b66acfeace89790164d79e57f fcc4d11645ee1c77e0fb1f3fc28d07d2"
+            },
+            "ref": {
+                "date_of_birth": "d41d8cd98f00b204e9800998ecf8427e c5c0b38ed571190b92ef2995e27b0bab"
             }
         }
     },
@@ -8709,6 +8715,66 @@
                     "title": "99316e6df1848473b58424fc2412cfdc 99316e6df1848473b58424fc2412cfdc",
                     "description": "1e5ca131dea0a422366184b4fe5dc768 1e5ca131dea0a422366184b4fe5dc768",
                     "guests_online": "cf392693ea25a851e451153a1acd4f08 cf392693ea25a851e451153a1acd4f08"
+                }
+            }
+        }
+    },
+    "ianm-translate.json": {
+        "ianm-translate": {
+            "admin": {
+                "glossary": {
+                    "button": "0d2fc7bf212c3a4373cb3969122263e7 0d2fc7bf212c3a4373cb3969122263e7",
+                    "section": {
+                        "heading": "3aa0399727d35985bff14d25fec1b59b 3aa0399727d35985bff14d25fec1b59b"
+                    }
+                },
+                "settings": {
+                    "general": {
+                        "heading": "02be9999832d9b4f68c22d725bc04789 02be9999832d9b4f68c22d725bc04789"
+                    },
+                    "seo": {
+                        "heading": "b54270288449eff3596bc7dc07326fdc b54270288449eff3596bc7dc07326fdc"
+                    },
+                    "button": "27014dd1bf5fe7e41ced3bedfc4cd2aa 27014dd1bf5fe7e41ced3bedfc4cd2aa",
+                    "seemless": "ff6ff56a68c85163761d93401223f157 ff6ff56a68c85163761d93401223f157",
+                    "deepl": {
+                        "en_choice": {
+                            "label": "e7bf5f8cfb2173eb954826f729151504 e7bf5f8cfb2173eb954826f729151504"
+                        },
+                        "formality": {
+                            "options": {
+                                "default": "eb6d8ae6f20283755b339c0dc273988b eb6d8ae6f20283755b339c0dc273988b",
+                                "prefer_less": "538a60748b5dfc10d16eb887d36d2959 538a60748b5dfc10d16eb887d36d2959",
+                                "prefer_more": "e99c65578ce480632bd93d8dd8da29b7 e99c65578ce480632bd93d8dd8da29b7"
+                            }
+                        }
+                    },
+                    "libre": {
+                        "url": {
+                            "label": "a8fc9c34df737bb9cfd59696f0e1b3ec a8fc9c34df737bb9cfd59696f0e1b3ec"
+                        },
+                        "port": {
+                            "label": "199496d273b9ab1335cf88420fb75ffe 199496d273b9ab1335cf88420fb75ffe"
+                        }
+                    }
+                }
+            },
+            "forum": {
+                "translate-button-label": "c59cefbcfba7b00b96d89f1efaec9aed c59cefbcfba7b00b96d89f1efaec9aed",
+                "manage-translations": {
+                    "poll": {
+                        "subtitle": "b5b672c9d2e6836588978c12d9b534d5 b5b672c9d2e6836588978c12d9b534d5",
+                        "question": "7715636d2deccc6f6edb6ebe342248ec 7715636d2deccc6f6edb6ebe342248ec"
+                    },
+                    "quiz": {
+                        "question": "7715636d2deccc6f6edb6ebe342248ec 7715636d2deccc6f6edb6ebe342248ec",
+                        "subtitle": "b5b672c9d2e6836588978c12d9b534d5 b5b672c9d2e6836588978c12d9b534d5"
+                    }
+                }
+            },
+            "lib": {
+                "providers": {
+                    "deepl": "086b5407f3734e9b5c12a636fc131ba8 086b5407f3734e9b5c12a636fc131ba8"
                 }
             }
         }

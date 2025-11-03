@@ -2,10 +2,10 @@
     "ianm-translate": {
         "admin": {
             "glossary": {
-                "button": "",
+                "button": "Glossar",
                 "create_button": "",
                 "section": {
-                    "heading": "",
+                    "heading": "Glossar Konfiguration",
                     "help": ""
                 }
             },
@@ -17,11 +17,11 @@
             },
             "settings": {
                 "general": {
-                    "heading": "",
+                    "heading": "Allgemeine Einstellungen",
                     "help": ""
                 },
                 "seo": {
-                    "heading": "",
+                    "heading": "SEO-Einstellungen",
                     "help": "",
                     "default-lang": "",
                     "default-lang-help": ""
@@ -30,8 +30,8 @@
                     "heading": "",
                     "help": ""
                 },
-                "button": "",
-                "seemless": "",
+                "button": "Einstellungen",
+                "seemless": "Nahtlose Übersetzung",
                 "seemless-help": "",
                 "multi-lang-search": "",
                 "multi-lang-search-help": "",
@@ -42,7 +42,7 @@
                     },
                     "en_choice": {
                         "help": "",
-                        "label": "",
+                        "label": "Englische Variante",
                         "options": {
                             "en-US": "",
                             "en-GB": ""
@@ -52,9 +52,9 @@
                         "help": "",
                         "label": "",
                         "options": {
-                            "default": "",
-                            "prefer_less": "",
-                            "prefer_more": ""
+                            "default": "Standard",
+                            "prefer_less": "Weniger formell",
+                            "prefer_more": "Formeller"
                         }
                     }
                 },
@@ -67,11 +67,11 @@
                 "libre": {
                     "url": {
                         "help": "",
-                        "label": ""
+                        "label": "Server-URL"
                     },
                     "port": {
                         "help": "",
-                        "label": ""
+                        "label": "Server-Port"
                     },
                     "api_key": {
                         "help": "",
@@ -96,7 +96,7 @@
         "forum": {
             "unknown-language": "",
             "detected-language": "",
-            "translate-button-label": "",
+            "translate-button-label": "Übersetzen",
             "refresh-translation": "",
             "original-content": {
                 "title": "",
@@ -115,16 +115,16 @@
                 "poll": {
                     "image-alt": "",
                     "option": "",
-                    "subtitle": "",
+                    "subtitle": "Untertitel",
                     "title": "",
-                    "question": "",
+                    "question": "Frage",
                     "question-language": ""
                 },
                 "save-changes": "",
                 "quiz": {
                     "title": "",
-                    "question": "",
-                    "subtitle": "",
+                    "question": "Frage",
+                    "subtitle": "Untertitel",
                     "option": "",
                     "answer-additional": ""
                 }
@@ -151,7 +151,7 @@
         },
         "lib": {
             "providers": {
-                "deepl": "",
+                "deepl": "DeepL",
                 "google-free": "",
                 "google-cloud": "",
                 "libre": ""
