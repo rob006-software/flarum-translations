@@ -97,10 +97,10 @@
                     "toggle": "Images en filigrane"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "Nettoyeur de SVG",
+                    "allow_animate": "Autoriser les animations SVG",
+                    "help": "Configurer la manière dont les fichiers SVG sont traités et nettoyés lors de leur téléchargement. Les fichiers SVG peuvent contenir des scripts potentiellement dangereux et doivent être manipulés avec précaution. Les fichiers SVG téléchargés sont nettoyés lors du téléchargement et les scripts et balises dangereux sont supprimés.",
+                    "allow_animate_help": "L'activation des animations SVG peut introduire des failles de sécurité, car les SVG animés peuvent contenir du code malveillant. Activez ce paramètre à vos risques et périls, et uniquement si vous faites pleinement confiance à vos utilisateurs."
                 },
                 "composer_buttons": {
                     "title": "Boutons du compositeur",
