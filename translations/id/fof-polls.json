@@ -19,13 +19,13 @@
                 "allow_image_uploads_help": "Jika diaktifkan, pengguna akan dapat mengupload gambar sekaligus memberikan URL gambar (jika diaktifkan untuk opsi, selalu diaktifkan untuk polling itu sendiri).",
                 "enable_global_polls": "Aktifkan polling global",
                 "enable_global_polls_help": "Polling global tidak terikat pada post tertentu, dan dapat diakses dari halaman polling tersendiri.",
+                "enabled_poll_groups": "Aktifkan grup polling",
+                "enabled_poll_groups_help": "Grup polling memungkinkan Anda mengelompokkan polling global, dan menampilkannya di halaman khusus.",
                 "max_options": "Jumlah opsi maksimum per polling",
                 "options_color_blend": "Perpaduan warna teks dalam opsi polling",
                 "options_color_blend_help": "Gunakan ini untuk menggunakan pencampuran warna untuk membuat opsi polling lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan.",
                 "image_height": "Ubah ukuran tinggi gambar",
-                "image_width": "Ubah ukuran lebar gambar",
-                "enabled_poll_groups": "Aktifkan grup polling",
-                "enabled_poll_groups_help": "Grup polling memungkinkan Anda mengelompokkan polling global, dan menampilkannya di halaman khusus."
+                "image_width": "Ubah ukuran lebar gambar"
             },
             "permissions": {
                 "view_results_without_voting": "Melihat hasil tanpa melakukan voting",
@@ -69,6 +69,35 @@
             "poll_form": {
                 "delete": "Hapus Polling",
                 "error": "Terjadi kesalahan saat menyimpan polling, silakan hubungi administrator."
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "Tambahkan Grup Polling",
+                    "edit_title": "Edit Grup Polling",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Hapus Grup Polling",
+                    "groups_manager": "Pengelola Grup Polling",
+                    "view_group": "Lihat Grup Polling",
+                    "success": "Grup polling berhasil disimpan."
+                },
+                "list_page": {
+                    "title": "Grup Polling",
+                    "start_poll_group_button": "Memulai Grup Polling",
+                    "cannot_start_poll_group_button": "Tidak Dapat Memulai Grup Polling",
+                    "empty_text": "Sepertinya tidak ada grup polling di sini.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Tidak ada polling di grup ini.",
+                    "add_poll_button": "Tambahkan Polling ke Grup"
+                },
+                "controls": {
+                    "add_poll_label": "Tambahkan Polling",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Lihat Grup Polling",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Apakah Anda yakin ingin menghapus grup polling ini?",
+                    "delete_success_message": "Grup polling berhasil dihapus.",
+                    "delete_error_message": "Terjadi kesalahan saat menghapus grup polling."
+                }
             },
             "polls_page": {
                 "title": "Polling"
@@ -158,35 +187,6 @@
             "upload_image": {
                 "remove_button": "Hapus gambar",
                 "upload_button": "Upload gambar"
-            },
-            "poll_groups": {
-                "composer": {
-                    "add_title": "Tambahkan Grup Polling",
-                    "edit_title": "Edit Grup Polling",
-                    "save_changes": "=> core.ref.save_changes",
-                    "delete": "Hapus Grup Polling",
-                    "groups_manager": "Pengelola Grup Polling",
-                    "view_group": "Lihat Grup Polling",
-                    "success": "Grup polling berhasil disimpan."
-                },
-                "list_page": {
-                    "title": "Grup Polling",
-                    "start_poll_group_button": "Memulai Grup Polling",
-                    "cannot_start_poll_group_button": "Tidak Dapat Memulai Grup Polling",
-                    "empty_text": "Sepertinya tidak ada grup polling di sini.",
-                    "load_more_button": "=> core.ref.load_more",
-                    "no_polls": "Tidak ada polling di grup ini.",
-                    "add_poll_button": "Tambahkan Polling ke Grup"
-                },
-                "controls": {
-                    "add_poll_label": "Tambahkan Polling",
-                    "edit_label": "=> core.ref.edit",
-                    "view_label": "Lihat Grup Polling",
-                    "delete_label": "=> core.ref.delete",
-                    "delete_confirmation": "Apakah Anda yakin ingin menghapus grup polling ini?",
-                    "delete_success_message": "Grup polling berhasil dihapus.",
-                    "delete_error_message": "Terjadi kesalahan saat menghapus grup polling."
-                }
             }
         }
     }

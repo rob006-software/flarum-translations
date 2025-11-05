@@ -19,13 +19,13 @@
                 "allow_image_uploads_help": "启用此项以允许上传图片用于头图和选项。",
                 "enable_global_polls": "启用全站投票",
                 "enable_global_polls_help": "全站投票不与任何帖子绑定，可以从专门的投票页面访问。",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": "",
                 "max_options": "每个投票可设置的最大选项数量",
                 "options_color_blend": "混合文本色",
                 "options_color_blend_help": "启用此项，改善选项文本样式的可读性。如果此功能影响论坛样式，请禁用。",
                 "image_height": "调整图片高度",
-                "image_width": "调整图片宽度",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": ""
+                "image_width": "调整图片宽度"
             },
             "permissions": {
                 "view_results_without_voting": "无需参与投票即可查看结果",
@@ -69,6 +69,35 @@
             "poll_form": {
                 "delete": "删除投票",
                 "error": "保存投票时出错，请联系管理员。"
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             },
             "polls_page": {
                 "title": "投票"
@@ -158,35 +187,6 @@
             "upload_image": {
                 "remove_button": "删除图片",
                 "upload_button": "上传图片"
-            },
-            "poll_groups": {
-                "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
-                },
-                "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
-                },
-                "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
-                }
             }
         }
     }

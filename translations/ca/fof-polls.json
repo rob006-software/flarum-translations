@@ -19,13 +19,13 @@
                 "allow_image_uploads_help": "",
                 "enable_global_polls": "Permetre enquestes globals",
                 "enable_global_polls_help": "Les enquestes globals no estan vinculades a cap publicació concreta sinó que són accessibles des d'una pàgina dedicada exclusivament a enquestes.",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": "",
                 "max_options": "Màxim nombre d'opcions per enquesta",
                 "options_color_blend": "Combina colors a les opcions de l'enquesta",
                 "options_color_blend_help": "Activa aquesta funció per permetre la barreja de colors per fer que les opcions de l'enquesta siguin més llegibles. Desactiva-la si causa problemes amb l'aparença del teu fòrum, reduint-ne la llegibilitat.",
                 "image_height": "",
-                "image_width": "",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": ""
+                "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Veure resultats sense votar",
@@ -69,6 +69,35 @@
             "poll_form": {
                 "delete": "Esborrar enquesta",
                 "error": "Hi ha hagut algun error gravant l'enquesta. Si us plau, contacta l'administrador."
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             },
             "polls_page": {
                 "title": ""
@@ -158,35 +187,6 @@
             "upload_image": {
                 "remove_button": "Esborrar imatge",
                 "upload_button": "Escollir imatge"
-            },
-            "poll_groups": {
-                "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
-                },
-                "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
-                },
-                "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
-                }
             }
         }
     }

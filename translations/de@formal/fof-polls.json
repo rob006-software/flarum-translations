@@ -19,13 +19,13 @@
                 "allow_image_uploads_help": "Wenn aktiviert, können Benutzer Bilder hochladen und zusätzlich eine Bild-URL angeben (wenn für Optionen aktiviert, ist dies immer für die Umfrage selbst aktiviert).",
                 "enable_global_polls": "Globale Umfragen aktivieren",
                 "enable_global_polls_help": "Globale Umfragen sind nicht an einen bestimmten Beitrag gebunden und können über eine spezielle Umfragen-Seite aufgerufen werden.",
+                "enabled_poll_groups": "Umfragegruppen aktivieren",
+                "enabled_poll_groups_help": "Umfragegruppen ermöglichen es Ihnen, globale Umfragen zu gruppieren und auf einer speziellen Seite anzuzeigen.",
                 "max_options": "Maximale Anzahl von Optionen pro Umfrage",
                 "options_color_blend": "Textfarbe in Umfrageoptionen für bessere Lesbarkeit anpassen",
                 "options_color_blend_help": "Mit dieser Funktion kannst du durch Farbmischen die Umfrageoptionen besser lesbar machen. Deaktiviere diese Funktion wenn sie dein Forum seltsam aussehen lässt und die Lesbarkeit verringert.",
                 "image_height": "Bildhöhe anpassen",
-                "image_width": "Bildbreite anpassen",
-                "enabled_poll_groups": "Umfragegruppen aktivieren",
-                "enabled_poll_groups_help": "Umfragegruppen ermöglichen es Ihnen, globale Umfragen zu gruppieren und auf einer speziellen Seite anzuzeigen."
+                "image_width": "Bildbreite anpassen"
             },
             "permissions": {
                 "view_results_without_voting": "Ergebnisse anzeigen ohne abzustimmen",
@@ -69,6 +69,35 @@
             "poll_form": {
                 "delete": "Umfrage löschen",
                 "error": "Beim Speichern der Umfrage ist ein Fehler aufgetreten, bitte kontaktieren Sie einen Administrator."
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "Umfrage-Gruppe hinzufügen",
+                    "edit_title": "Umfrage-Gruppe bearbeiten",
+                    "save_changes": "Änderungen speichern",
+                    "delete": "Umfrage-Gruppe löschen",
+                    "groups_manager": "Umfrage-Gruppen-Manager",
+                    "view_group": "Umfrage-Gruppe anzeigen",
+                    "success": "Umfrage-Gruppe erfolgreich gespeichert."
+                },
+                "list_page": {
+                    "title": "Umfrage-Gruppen",
+                    "start_poll_group_button": "Eine Umfrage-Gruppe starten",
+                    "cannot_start_poll_group_button": "Kann keine Umfrage-Gruppe starten",
+                    "empty_text": "Es scheint, als gäbe es hier noch keine Umfrage-Gruppen.",
+                    "load_more_button": "Mehr laden",
+                    "no_polls": "In dieser Gruppe gibt es keine Umfragen.",
+                    "add_poll_button": "Umfrage zur Gruppe hinzufügen"
+                },
+                "controls": {
+                    "add_poll_label": "Umfrage hinzufügen",
+                    "edit_label": "Bearbeiten",
+                    "view_label": "Umfrage-Gruppe anzeigen",
+                    "delete_label": "Löschen",
+                    "delete_confirmation": "Sind Sie sicher, dass Sie diese Umfrage-Gruppe löschen möchten?",
+                    "delete_success_message": "Umfrage-Gruppe erfolgreich gelöscht.",
+                    "delete_error_message": "Beim Löschen der Umfragegruppe ist etwas schiefgelaufen."
+                }
             },
             "polls_page": {
                 "title": "Umfragen"
@@ -158,35 +187,6 @@
             "upload_image": {
                 "remove_button": "Bild löschen",
                 "upload_button": "Bild hochladen"
-            },
-            "poll_groups": {
-                "composer": {
-                    "add_title": "Umfrage-Gruppe hinzufügen",
-                    "edit_title": "Umfrage-Gruppe bearbeiten",
-                    "save_changes": "Änderungen speichern",
-                    "delete": "Umfrage-Gruppe löschen",
-                    "groups_manager": "Umfrage-Gruppen-Manager",
-                    "view_group": "Umfrage-Gruppe anzeigen",
-                    "success": "Umfrage-Gruppe erfolgreich gespeichert."
-                },
-                "list_page": {
-                    "title": "Umfrage-Gruppen",
-                    "start_poll_group_button": "Eine Umfrage-Gruppe starten",
-                    "cannot_start_poll_group_button": "Kann keine Umfrage-Gruppe starten",
-                    "empty_text": "Es scheint, als gäbe es hier noch keine Umfrage-Gruppen.",
-                    "load_more_button": "Mehr laden",
-                    "no_polls": "In dieser Gruppe gibt es keine Umfragen.",
-                    "add_poll_button": "Umfrage zur Gruppe hinzufügen"
-                },
-                "controls": {
-                    "add_poll_label": "Umfrage hinzufügen",
-                    "edit_label": "Bearbeiten",
-                    "view_label": "Umfrage-Gruppe anzeigen",
-                    "delete_label": "Löschen",
-                    "delete_confirmation": "Sind Sie sicher, dass Sie diese Umfrage-Gruppe löschen möchten?",
-                    "delete_success_message": "Umfrage-Gruppe erfolgreich gelöscht.",
-                    "delete_error_message": "Beim Löschen der Umfragegruppe ist etwas schiefgelaufen."
-                }
             }
         }
     }

@@ -19,13 +19,13 @@
                 "allow_image_uploads_help": "Kui see on sisse lülitatud, siis saavad kasutajad laadida üles pildi või lisada URL-i (kui see on valikutes sisse lülitatud, siis küsitlusele endale saab alati pilte lisada).",
                 "enable_global_polls": "Lülita sisse üldiste küsitluste kasutamine",
                 "enable_global_polls_help": "Üldised küsitlused pole seotud ühegi konkreetse postitusega ja neid võib näha eraldi küsitluste leheküljelt.",
+                "enabled_poll_groups": "Lülita vestluste grupid sisse",
+                "enabled_poll_groups_help": "Küsitluste grupid võimaldavad üldiseid küsitlusi grupeerida ja neid koos vastaval lehel näidata.",
                 "max_options": "Maksimaalne vastusevariantide arv küsitluses",
                 "options_color_blend": "Teksti värv küsitluste vastusevalikutes",
                 "options_color_blend_help": "Kasuta seda valikut, et teha küsitluse vastusevariandid paremini loetavaks. Lülita see valik välja, kui see põhjustab mingeid probleeme sinu foorumi välimusega.",
                 "image_height": "Muuda pildi kõrgust",
-                "image_width": "Muuda pildi laiust",
-                "enabled_poll_groups": "Lülita vestluste grupid sisse",
-                "enabled_poll_groups_help": "Küsitluste grupid võimaldavad üldiseid küsitlusi grupeerida ja neid koos vastaval lehel näidata."
+                "image_width": "Muuda pildi laiust"
             },
             "permissions": {
                 "view_results_without_voting": "Vaata tulemusi ilma hääletamata",
@@ -69,6 +69,35 @@
             "poll_form": {
                 "delete": "Kustuta küsitlus",
                 "error": "Küsitluse salvestamisel tekkis tõrge. Võta ühendust mõne administraatoriga."
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "Lisa küsitluse grupp",
+                    "edit_title": "Muuda küsitluse gruppi",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Kustuta küsitluse grupp",
+                    "groups_manager": "Küsitluste gruppide haldamine",
+                    "view_group": "Vaata küsitluste gruppe",
+                    "success": "Küsitluste grupp on salvestatud."
+                },
+                "list_page": {
+                    "title": "Küsitluste grupid",
+                    "start_poll_group_button": "Alusta küsitluste gruppi",
+                    "cannot_start_poll_group_button": "Küsitluste gruppi ei saa alustada",
+                    "empty_text": "Näib, et siin pole küsitluste gruppe.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Selles grupis pole küsitlusi.",
+                    "add_poll_button": "Lisa küsitluste grupp"
+                },
+                "controls": {
+                    "add_poll_label": "Lisa küsitlus",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Vaata küsitluste gruppi",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Oled sa kindel, et soovid selle küsitluste grupi kustutada?",
+                    "delete_success_message": "Küsitluste grupp on kustutatud.",
+                    "delete_error_message": "Küsitluste grupi kustutamisel läks midagi valesti."
+                }
             },
             "polls_page": {
                 "title": "Küsitlused"
@@ -158,35 +187,6 @@
             "upload_image": {
                 "remove_button": "Kustuta pilt",
                 "upload_button": "Laadi pilt üles"
-            },
-            "poll_groups": {
-                "composer": {
-                    "add_title": "Lisa küsitluse grupp",
-                    "edit_title": "Muuda küsitluse gruppi",
-                    "save_changes": "=> core.ref.save_changes",
-                    "delete": "Kustuta küsitluse grupp",
-                    "groups_manager": "Küsitluste gruppide haldamine",
-                    "view_group": "Vaata küsitluste gruppe",
-                    "success": "Küsitluste grupp on salvestatud."
-                },
-                "list_page": {
-                    "title": "Küsitluste grupid",
-                    "start_poll_group_button": "Alusta küsitluste gruppi",
-                    "cannot_start_poll_group_button": "Küsitluste gruppi ei saa alustada",
-                    "empty_text": "Näib, et siin pole küsitluste gruppe.",
-                    "load_more_button": "=> core.ref.load_more",
-                    "no_polls": "Selles grupis pole küsitlusi.",
-                    "add_poll_button": "Lisa küsitluste grupp"
-                },
-                "controls": {
-                    "add_poll_label": "Lisa küsitlus",
-                    "edit_label": "=> core.ref.edit",
-                    "view_label": "Vaata küsitluste gruppi",
-                    "delete_label": "=> core.ref.delete",
-                    "delete_confirmation": "Oled sa kindel, et soovid selle küsitluste grupi kustutada?",
-                    "delete_success_message": "Küsitluste grupp on kustutatud.",
-                    "delete_error_message": "Küsitluste grupi kustutamisel läks midagi valesti."
-                }
             }
         }
     }

@@ -19,13 +19,13 @@
                 "allow_image_uploads_help": "Etkinleştirilirse, kullanıcılar resim yüklemenin yanı sıra bir resim URL'si de sağlayabilirler (seçenekler için etkinleştirilirse, anketin kendisi için her zaman etkinleştirilir).",
                 "enable_global_polls": "Genel anketleri etkinleştir",
                 "enable_global_polls_help": "Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.",
+                "enabled_poll_groups": "Anket gruplarını etkinleştir",
+                "enabled_poll_groups_help": "Anket grupları, genel anketleri bir araya getirmenize ve bunları özel bir sayfada görüntülemenize olanak tanır.",
                 "max_options": "Anket başına maksimum seçenek sayısı",
                 "options_color_blend": "Anket seçeneklerinde renk karışımı metni",
                 "options_color_blend_help": "Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın.",
                 "image_height": "Resim yüksekliğini yeniden boyutlandır",
-                "image_width": "Resim genişliğini yeniden boyutlandır",
-                "enabled_poll_groups": "Anket gruplarını etkinleştir",
-                "enabled_poll_groups_help": "Anket grupları, genel anketleri bir araya getirmenize ve bunları özel bir sayfada görüntülemenize olanak tanır."
+                "image_width": "Resim genişliğini yeniden boyutlandır"
             },
             "permissions": {
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
@@ -69,6 +69,35 @@
             "poll_form": {
                 "delete": "Anketi Sil",
                 "error": "Anket kaydedilirken bir hata oluştu. Lütfen herhangi bir yöneticiyle iletişime geçin."
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "Anket Grubu Ekle",
+                    "edit_title": "Anket Grubunu Düzenle",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Anket Grubunu Sil",
+                    "groups_manager": "Anket Grupları Yöneticisi",
+                    "view_group": "Anket Grubunu Görüntüle",
+                    "success": "Anket grubu başarıyla kaydedildi."
+                },
+                "list_page": {
+                    "title": "Anket Grupları",
+                    "start_poll_group_button": "Bir Anket Grubu Oluşturun",
+                    "cannot_start_poll_group_button": "Anket Grubu Başlatılamıyor",
+                    "empty_text": "Burada anket grubu yok gibi görünüyor.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Bu grupta anket yok.",
+                    "add_poll_button": "Gruba Anket Ekle"
+                },
+                "controls": {
+                    "add_poll_label": "Anket Ekle",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Anket Grubunu Görüntüle",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Bu anket grubunu silmek istediğinizden emin misiniz?",
+                    "delete_success_message": "Anket grubu başarıyla silindi.",
+                    "delete_error_message": "Anket grubunu silerken bir sorun oluştu."
+                }
             },
             "polls_page": {
                 "title": "Anketler"
@@ -158,35 +187,6 @@
             "upload_image": {
                 "remove_button": "Görseli Sil",
                 "upload_button": "Görsel Yükle"
-            },
-            "poll_groups": {
-                "composer": {
-                    "add_title": "Anket Grubu Ekle",
-                    "edit_title": "Anket Grubunu Düzenle",
-                    "save_changes": "=> core.ref.save_changes",
-                    "delete": "Anket Grubunu Sil",
-                    "groups_manager": "Anket Grupları Yöneticisi",
-                    "view_group": "Anket Grubunu Görüntüle",
-                    "success": "Anket grubu başarıyla kaydedildi."
-                },
-                "list_page": {
-                    "title": "Anket Grupları",
-                    "start_poll_group_button": "Bir Anket Grubu Oluşturun",
-                    "cannot_start_poll_group_button": "Anket Grubu Başlatılamıyor",
-                    "empty_text": "Burada anket grubu yok gibi görünüyor.",
-                    "load_more_button": "=> core.ref.load_more",
-                    "no_polls": "Bu grupta anket yok.",
-                    "add_poll_button": "Gruba Anket Ekle"
-                },
-                "controls": {
-                    "add_poll_label": "Anket Ekle",
-                    "edit_label": "=> core.ref.edit",
-                    "view_label": "Anket Grubunu Görüntüle",
-                    "delete_label": "=> core.ref.delete",
-                    "delete_confirmation": "Bu anket grubunu silmek istediğinizden emin misiniz?",
-                    "delete_success_message": "Anket grubu başarıyla silindi.",
-                    "delete_error_message": "Anket grubunu silerken bir sorun oluştu."
-                }
             }
         }
     }

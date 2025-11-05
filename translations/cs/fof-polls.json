@@ -19,13 +19,13 @@
                 "allow_image_uploads_help": "",
                 "enable_global_polls": "",
                 "enable_global_polls_help": "",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": "",
                 "max_options": "Maximální počet možností v jedné anketě",
                 "options_color_blend": "Prolínání barev textu ve volbách hlasování",
                 "options_color_blend_help": "Tuto volbu použijte k míchání barev, zlepšíte tím čitelnost možností hlasování. Pokud tato volba způsobuje problémy se vzhledem fóra a snižuje jeho čitelnost, zakažte ji.",
                 "image_height": "",
-                "image_width": "",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": ""
+                "image_width": ""
             },
             "permissions": {
                 "view_results_without_voting": "Zobrazit výsledky bez hlasování",
@@ -69,6 +69,35 @@
             "poll_form": {
                 "delete": "",
                 "error": ""
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             },
             "polls_page": {
                 "title": ""
@@ -158,35 +187,6 @@
             "upload_image": {
                 "remove_button": "",
                 "upload_button": ""
-            },
-            "poll_groups": {
-                "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
-                },
-                "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
-                },
-                "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
-                }
             }
         }
     }

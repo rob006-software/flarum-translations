@@ -19,13 +19,13 @@
                 "allow_image_uploads_help": "Если этот параметр включен, пользователи смогут загружать изображения, а также указывать URL-адрес изображения (если он включен для параметров, всегда включайте его для самого опроса).",
                 "enable_global_polls": "Включить общие опросы",
                 "enable_global_polls_help": "Общие опросы не привязаны к конкретному сообщению, и доступ к ним можно получить со специальной страницы опросов.",
+                "enabled_poll_groups": "",
+                "enabled_poll_groups_help": "",
                 "max_options": "Максимальное количество вариантов опроса",
                 "options_color_blend": "Цветной текст в вариантах опроса",
                 "options_color_blend_help": "Параметр позволяет улучшить читабельность вариантов опроса. Отключите, если эта функция вызывает проблемы с внешнем видом Вашего форума и ухудшает читабельность.",
                 "image_height": "Изменить высоту изображения",
-                "image_width": "Изменить ширину изображения",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": ""
+                "image_width": "Изменить ширину изображения"
             },
             "permissions": {
                 "view_results_without_voting": "Смотреть результаты без голосования",
@@ -69,6 +69,35 @@
             "poll_form": {
                 "delete": "Удалить опрос",
                 "error": "Произошла ошибка при сохранении опроса, пожалуйста, свяжитесь с администратором."
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "",
+                    "edit_title": "",
+                    "save_changes": "",
+                    "delete": "",
+                    "groups_manager": "",
+                    "view_group": "",
+                    "success": ""
+                },
+                "list_page": {
+                    "title": "",
+                    "start_poll_group_button": "",
+                    "cannot_start_poll_group_button": "",
+                    "empty_text": "",
+                    "load_more_button": "",
+                    "no_polls": "",
+                    "add_poll_button": ""
+                },
+                "controls": {
+                    "add_poll_label": "",
+                    "edit_label": "",
+                    "view_label": "",
+                    "delete_label": "",
+                    "delete_confirmation": "",
+                    "delete_success_message": "",
+                    "delete_error_message": ""
+                }
             },
             "polls_page": {
                 "title": "Опросы"
@@ -158,35 +187,6 @@
             "upload_image": {
                 "remove_button": "Удалить изображение",
                 "upload_button": "Загрузить"
-            },
-            "poll_groups": {
-                "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
-                },
-                "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
-                },
-                "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
-                }
             }
         }
     }

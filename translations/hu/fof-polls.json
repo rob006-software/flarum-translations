@@ -19,13 +19,13 @@
                 "allow_image_uploads_help": "Ha engedélyezve van, a felhasználók képeket tölthetnek fel, valamint képre mutató webcímet adhatnak meg (ha engedélyezve van a lehetőségeknél, magánál a szavazásnál mindig engedélyezve van).",
                 "enable_global_polls": "Globális szavazások engedélyezése",
                 "enable_global_polls_help": "A globális szavazások nem kötődnek egy adott bejegyzéshez, és egy dedikált szavazási oldalon érhetők el.",
+                "enabled_poll_groups": "Szavazáscsoportok engedélyezése",
+                "enabled_poll_groups_help": "A szavazáscsoportok lehetővé teszik a globális szavazások csoportosítását, és egy dedikált oldalon való megjelenítésüket.",
                 "max_options": "A lehetőségek legnagyobb száma szavazásonként",
                 "options_color_blend": "Színkeverés használata a szavazási lehetőségek szövegénél",
                 "options_color_blend_help": "Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.",
                 "image_height": "Kép magasságának átméretezése",
-                "image_width": "Kép szélességének átméretezése",
-                "enabled_poll_groups": "Szavazáscsoportok engedélyezése",
-                "enabled_poll_groups_help": "A szavazáscsoportok lehetővé teszik a globális szavazások csoportosítását, és egy dedikált oldalon való megjelenítésüket."
+                "image_width": "Kép szélességének átméretezése"
             },
             "permissions": {
                 "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
@@ -69,6 +69,35 @@
             "poll_form": {
                 "delete": "Szavazás törlése",
                 "error": "Hiba történt a szavazás mentése során, lépjen kapcsolatba a rendszergazdával."
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "Szavazáscsoport hozzáadása",
+                    "edit_title": "Szavazáscsoport szerkesztése",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Szavazáscsoport törlése",
+                    "groups_manager": "Szavazáscsoport-kezelő",
+                    "view_group": "Szavazáscsoport megtekintése",
+                    "success": "Szavazáscsoport sikeresen mentve."
+                },
+                "list_page": {
+                    "title": "Szavazáscsoportok",
+                    "start_poll_group_button": "Szavazáscsoport indítása",
+                    "cannot_start_poll_group_button": "A szavazáscsoport nem indítható",
+                    "empty_text": "Úgy néz ki, hogy itt nincsenek szavazáscsoportok.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Nincsenek szavazások ebben a csoportban.",
+                    "add_poll_button": "Szavazás hozzáadása a csoporthoz"
+                },
+                "controls": {
+                    "add_poll_label": "Szavazás hozzáadása",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Szavazáscsoport megtekintése",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Biztos, hogy törli ezt a szavazáscsoportot?",
+                    "delete_success_message": "A szavazáscsoport sikeresen törölve.",
+                    "delete_error_message": "Hiba történt a szavazáscsoport törlése során."
+                }
             },
             "polls_page": {
                 "title": "Szavazások"
@@ -158,35 +187,6 @@
             "upload_image": {
                 "remove_button": "Kép törlése",
                 "upload_button": "Kép feltöltése"
-            },
-            "poll_groups": {
-                "composer": {
-                    "add_title": "Szavazáscsoport hozzáadása",
-                    "edit_title": "Szavazáscsoport szerkesztése",
-                    "save_changes": "=> core.ref.save_changes",
-                    "delete": "Szavazáscsoport törlése",
-                    "groups_manager": "Szavazáscsoport-kezelő",
-                    "view_group": "Szavazáscsoport megtekintése",
-                    "success": "Szavazáscsoport sikeresen mentve."
-                },
-                "list_page": {
-                    "title": "Szavazáscsoportok",
-                    "start_poll_group_button": "Szavazáscsoport indítása",
-                    "cannot_start_poll_group_button": "A szavazáscsoport nem indítható",
-                    "empty_text": "Úgy néz ki, hogy itt nincsenek szavazáscsoportok.",
-                    "load_more_button": "=> core.ref.load_more",
-                    "no_polls": "Nincsenek szavazások ebben a csoportban.",
-                    "add_poll_button": "Szavazás hozzáadása a csoporthoz"
-                },
-                "controls": {
-                    "add_poll_label": "Szavazás hozzáadása",
-                    "edit_label": "=> core.ref.edit",
-                    "view_label": "Szavazáscsoport megtekintése",
-                    "delete_label": "=> core.ref.delete",
-                    "delete_confirmation": "Biztos, hogy törli ezt a szavazáscsoportot?",
-                    "delete_success_message": "A szavazáscsoport sikeresen törölve.",
-                    "delete_error_message": "Hiba történt a szavazáscsoport törlése során."
-                }
             }
         }
     }

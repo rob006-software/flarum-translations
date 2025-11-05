@@ -19,13 +19,13 @@
                 "allow_image_uploads_help": "Si cette option est activée, les utilisateurs pourront télécharger des images en fournissant également l'URL de l'image (si cette option est activée pour les options, elle est toujours activée pour le sondage lui-même).",
                 "enable_global_polls": "Activer les sondages globaux",
                 "enable_global_polls_help": "Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d'une page dédiée aux sondages.",
+                "enabled_poll_groups": "Activer les groupes de sondages",
+                "enabled_poll_groups_help": "Les groupes de sondages vous permettent de regrouper des sondages globaux et de les afficher sur une page dédiée.",
                 "max_options": "Nombre maximum d'options par sondage",
                 "options_color_blend": "Mélange de couleurs du texte dans les options de sondage",
                 "options_color_blend_help": "Utilisez cette option pour mélanger les couleurs afin de rendre les options du sondage plus lisibles. Désactivez cette fonction si elle provoque des problèmes d'apparence à votre forum qui pourraient réduire sa lisibilité.",
                 "image_height": "Redimensionner la hauteur de l'image",
-                "image_width": "Redimensionner la largeur de l'image",
-                "enabled_poll_groups": "Activer les groupes de sondages",
-                "enabled_poll_groups_help": "Les groupes de sondages vous permettent de regrouper des sondages globaux et de les afficher sur une page dédiée."
+                "image_width": "Redimensionner la largeur de l'image"
             },
             "permissions": {
                 "view_results_without_voting": "Afficher les résultats sans voter",
@@ -69,6 +69,35 @@
             "poll_form": {
                 "delete": "Supprimer le sondage",
                 "error": "Une erreur est survenue lors de l'enregistrement du sondage, veuillez contacter un administrateur."
+            },
+            "poll_groups": {
+                "composer": {
+                    "add_title": "Ajouter un groupe de sondages",
+                    "edit_title": "Modifier le groupe de sondages",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Supprimer le groupe de sondages",
+                    "groups_manager": "Gestionnaire de groupes de sondages",
+                    "view_group": "Voir le groupe de sondages",
+                    "success": "Le groupe de sondages a été enregistré avec succès."
+                },
+                "list_page": {
+                    "title": "Groupes de sondages",
+                    "start_poll_group_button": "Démarrer un groupe de sondages",
+                    "cannot_start_poll_group_button": "Impossible de démarrer un groupe de sondages",
+                    "empty_text": "Il semble qu'il n'y ait pas de groupe de sondages ici.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Il n'y a pas de sondage dans ce groupe.",
+                    "add_poll_button": "Ajouter un sondage au groupe"
+                },
+                "controls": {
+                    "add_poll_label": "Ajouter un sondage",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Voir le groupe de sondages",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce groupe de sondages ?",
+                    "delete_success_message": "Le groupe de sondages a été supprimé avec succès.",
+                    "delete_error_message": "Un problème est survenu lors de la suppression du groupe de sondages."
+                }
             },
             "polls_page": {
                 "title": "Sondages"
@@ -158,35 +187,6 @@
             "upload_image": {
                 "remove_button": "Supprimer l'image",
                 "upload_button": "Transférer une image"
-            },
-            "poll_groups": {
-                "composer": {
-                    "add_title": "Ajouter un groupe de sondages",
-                    "edit_title": "Modifier le groupe de sondages",
-                    "save_changes": "=> core.ref.save_changes",
-                    "delete": "Supprimer le groupe de sondages",
-                    "groups_manager": "Gestionnaire de groupes de sondages",
-                    "view_group": "Voir le groupe de sondages",
-                    "success": "Le groupe de sondages a été enregistré avec succès."
-                },
-                "list_page": {
-                    "title": "Groupes de sondages",
-                    "start_poll_group_button": "Démarrer un groupe de sondages",
-                    "cannot_start_poll_group_button": "Impossible de démarrer un groupe de sondages",
-                    "empty_text": "Il semble qu'il n'y ait pas de groupe de sondages ici.",
-                    "load_more_button": "=> core.ref.load_more",
-                    "no_polls": "Il n'y a pas de sondage dans ce groupe.",
-                    "add_poll_button": "Ajouter un sondage au groupe"
-                },
-                "controls": {
-                    "add_poll_label": "Ajouter un sondage",
-                    "edit_label": "=> core.ref.edit",
-                    "view_label": "Voir le groupe de sondages",
-                    "delete_label": "=> core.ref.delete",
-                    "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce groupe de sondages ?",
-                    "delete_success_message": "Le groupe de sondages a été supprimé avec succès.",
-                    "delete_error_message": "Un problème est survenu lors de la suppression du groupe de sondages."
-                }
             }
         }
     }
