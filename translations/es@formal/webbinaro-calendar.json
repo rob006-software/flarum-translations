@@ -2,40 +2,40 @@
     "flarum-calendar": {
         "forum": {
             "button": {
-                "landing": "",
-                "create": "",
-                "login": ""
+                "landing": "Calendario de Eventos",
+                "create": "Nuevo evento",
+                "login": "Añade tu evento "
             },
             "modal": {
-                "title_create": "",
-                "title_edit": "",
-                "title_label": "",
-                "dates_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "requirement_message": "",
-                "submit": ""
+                "title_create": "Crea un nuevo evento",
+                "title_edit": "Edita detalles del evento",
+                "title_label": "Que",
+                "dates_label": "Cuando",
+                "description_label": "Detalles",
+                "description_placeholder": "Detalles del evento",
+                "requirement_message": "Se require nombre y descripción del evento",
+                "submit": "Guardar"
             },
             "event": {
-                "details": "",
-                "hosted_by": "",
-                "starts": "",
-                "ends": "",
-                "confirm_delete": "",
-                "deleted": ""
+                "details": "Más detalles sobre este evento",
+                "hosted_by": "Organizado por:",
+                "starts": "Inicio:",
+                "ends": "Final:",
+                "confirm_delete": "¿Seguro que quieres borrar este evento?",
+                "deleted": "Este evento ha sido borrado"
             }
         },
         "admin": {
             "settings": {
-                "hide_host": ""
+                "hide_host": "Ocultar orga (organizado por...)"
             },
             "permissions": {
-                "add": "",
-                "moderate": "",
-                "view": ""
+                "add": "Crear nuevo calendario",
+                "moderate": "Eliminar o editar eventos del calendario (toda cuenta puede editar los suyos)",
+                "view": "Ver eventos"
             },
             "basics": {
-                "homepage": ""
+                "homepage": "Mes actual"
             }
         }
     }
