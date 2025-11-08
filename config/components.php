@@ -1296,6 +1296,9 @@ return [
 	'nyu8-email-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-email-filter/v1.0.7/locale/en.yml',
 	],
+	'olleksi-subtags' => [
+		'tag' => 'https://raw.githubusercontent.com/olleksi/flarum-subtags-display/v0.0.3/locale/en.yml',
+	],
 	'ordinaryjellyfish-automod' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/ordinaryjellyfish-automod.yml',
 	],
