@@ -1,4 +1,25 @@
 {
+    "flectar-turnstile": {
+        "admin": {
+            "settings": {
+                "help_text": "",
+                "site_key": "",
+                "secret_key": "",
+                "signup": "",
+                "signin": "",
+                "forgot": ""
+            }
+        },
+        "forum": {
+            "not_loaded_error": "",
+            "validation_error": "",
+            "error": ""
+        }
+    },
+    "validation": {
+        "turnstile": "Me ei suutnud kinnitada kas sa oled robot või mitte. Palun värskenda lehekülge ja proovi uuesti.",
+        "required": "Palun lõpeta Turnstile väljakutse."
+    },
     "blazite-turnstile": {
         "admin": {
             "settings": {
@@ -14,9 +35,5 @@
             "not_loaded_error": "Cloudflare Turnstile laadimine ebaõnnestus. Palun värskenda lehekülge ja kontrolli oma reklaamide blokeerijat.",
             "validation_error": "Palun lõpeta Turnstile väljakutse."
         }
-    },
-    "validation": {
-        "turnstile": "Me ei suutnud kinnitada kas sa oled robot või mitte. Palun värskenda lehekülge ja proovi uuesti.",
-        "required": "Palun lõpeta Turnstile väljakutse."
     }
 }

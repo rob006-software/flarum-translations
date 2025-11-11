@@ -1,8 +1,8 @@
 {
-    "blazite-turnstile": {
+    "flectar-turnstile": {
         "admin": {
             "settings": {
-                "help_text": "Genereer Turnstile-sleutels op je Cloudflare account <a>hier</a>.",
+                "help_text": "",
                 "site_key": "",
                 "secret_key": "",
                 "signup": "",
@@ -12,11 +12,19 @@
         },
         "forum": {
             "not_loaded_error": "",
-            "validation_error": ""
+            "validation_error": "",
+            "error": ""
         }
     },
     "validation": {
         "turnstile": "",
         "required": ""
+    },
+    "blazite-turnstile": {
+        "admin": {
+            "settings": {
+                "help_text": "Genereer Turnstile-sleutels op je Cloudflare account <a>hier</a>."
+            }
+        }
     }
 }

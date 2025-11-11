@@ -1,4 +1,25 @@
 {
+    "flectar-turnstile": {
+        "admin": {
+            "settings": {
+                "help_text": "",
+                "site_key": "",
+                "secret_key": "",
+                "signup": "",
+                "signin": "",
+                "forgot": ""
+            }
+        },
+        "forum": {
+            "not_loaded_error": "",
+            "validation_error": "",
+            "error": ""
+        }
+    },
+    "validation": {
+        "turnstile": "Robot olup olmadığınızı doğrulayamadık. Lütfen sayfayı yenileyin ve tekrar deneyin.",
+        "required": "Lütfen Turnstile doğrulamasını tamamlayın."
+    },
     "blazite-turnstile": {
         "admin": {
             "settings": {
@@ -14,9 +35,5 @@
             "not_loaded_error": "Cloudflare Turnstile yüklenemedi. Lütfen sayfayı yenileyin veya reklam engelleyicinizi kontrol edin.",
             "validation_error": "Lütfen Turnstile doğrulamasını tamamlayın."
         }
-    },
-    "validation": {
-        "turnstile": "Robot olup olmadığınızı doğrulayamadık. Lütfen sayfayı yenileyin ve tekrar deneyin.",
-        "required": "Lütfen Turnstile doğrulamasını tamamlayın."
     }
 }

@@ -1,4 +1,25 @@
 {
+    "flectar-turnstile": {
+        "admin": {
+            "settings": {
+                "help_text": "",
+                "site_key": "",
+                "secret_key": "",
+                "signup": "",
+                "signin": "",
+                "forgot": ""
+            }
+        },
+        "forum": {
+            "not_loaded_error": "",
+            "validation_error": "",
+            "error": ""
+        }
+    },
+    "validation": {
+        "turnstile": "Не удалось подтвердить, что вы не робот. Пожалуйста, обновите страницу и попробуйте снова.",
+        "required": "Пожалуйста, пройдите проверку Cloudflare Turnstile."
+    },
     "blazite-turnstile": {
         "admin": {
             "settings": {
@@ -14,9 +35,5 @@
             "not_loaded_error": "Ошибка загрузки Cloudflare Turnstile. Пожалуйста, обновите страницу и проверьте, не включён ли блокировщик рекламы.",
             "validation_error": "Пожалуйста, пройдите проверку Cloudflare Turnstile."
         }
-    },
-    "validation": {
-        "turnstile": "Не удалось подтвердить, что вы не робот. Пожалуйста, обновите страницу и попробуйте снова.",
-        "required": "Пожалуйста, пройдите проверку Cloudflare Turnstile."
     }
 }

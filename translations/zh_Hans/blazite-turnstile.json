@@ -1,4 +1,25 @@
 {
+    "flectar-turnstile": {
+        "admin": {
+            "settings": {
+                "help_text": "",
+                "site_key": "",
+                "secret_key": "",
+                "signup": "",
+                "signin": "",
+                "forgot": ""
+            }
+        },
+        "forum": {
+            "not_loaded_error": "",
+            "validation_error": "",
+            "error": ""
+        }
+    },
+    "validation": {
+        "turnstile": "我们无法确认您是否为机器人，请刷新页面并重试。",
+        "required": ""
+    },
     "blazite-turnstile": {
         "admin": {
             "settings": {
@@ -11,12 +32,7 @@
             }
         },
         "forum": {
-            "not_loaded_error": "无法加载 Cloudflare Turnstile 验证服务，请关闭广告拦截器并刷新重试。",
-            "validation_error": ""
+            "not_loaded_error": "无法加载 Cloudflare Turnstile 验证服务，请关闭广告拦截器并刷新重试。"
         }
-    },
-    "validation": {
-        "turnstile": "我们无法确认您是否为机器人，请刷新页面并重试。",
-        "required": ""
     }
 }

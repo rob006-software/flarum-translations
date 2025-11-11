@@ -1,5 +1,5 @@
 {
-    "blazite-turnstile": {
+    "flectar-turnstile": {
         "admin": {
             "settings": {
                 "help_text": "Generate Turnstile keys on your Cloudflare account <a>here</a>.",
@@ -12,7 +12,8 @@
         },
         "forum": {
             "not_loaded_error": "Failed to load Cloudflare Turnstile. Please refresh the page, and check your adblocker.",
-            "validation_error": "Please complete the Turnstile challenge."
+            "validation_error": "Please complete the Turnstile challenge.",
+            "error": "An error occurred while verifying you are human. Please try again."
         }
     },
     "validation": {

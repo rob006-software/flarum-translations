@@ -1,4 +1,25 @@
 {
+    "flectar-turnstile": {
+        "admin": {
+            "settings": {
+                "help_text": "",
+                "site_key": "",
+                "secret_key": "",
+                "signup": "",
+                "signin": "",
+                "forgot": ""
+            }
+        },
+        "forum": {
+            "not_loaded_error": "",
+            "validation_error": "",
+            "error": ""
+        }
+    },
+    "validation": {
+        "turnstile": "我們無法驗證您是否是一個機器人。請重整頁面並重試。",
+        "required": ""
+    },
     "blazite-turnstile": {
         "admin": {
             "settings": {
@@ -11,12 +32,7 @@
             }
         },
         "forum": {
-            "not_loaded_error": "未能正確載入Cloudflare Turnstile，請重整本頁面，並檢查您的廣告攔截程式是否關閉。",
-            "validation_error": ""
+            "not_loaded_error": "未能正確載入Cloudflare Turnstile，請重整本頁面，並檢查您的廣告攔截程式是否關閉。"
         }
-    },
-    "validation": {
-        "turnstile": "我們無法驗證您是否是一個機器人。請重整頁面並重試。",
-        "required": ""
     }
 }
