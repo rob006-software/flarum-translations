@@ -95,7 +95,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.4.0/resources/locale/en.yml',
 	],
 	'blazite-turnstile' => [
-		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/1.1.0/locale/en.yml',
 	],
 	'blessing-oauth-client' => [
 		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.2/locale/en.yml',
