@@ -917,7 +917,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`askvortsov-pwa`](https://weblate.rob006.net/projects/flarum/askvortsov-pwa) | [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) |
 | [`askvortsov-rich-text`](https://weblate.rob006.net/projects/flarum/askvortsov-rich-text) | [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) |
 | [`askvortsov-saml`](https://weblate.rob006.net/projects/flarum/askvortsov-saml) | [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml) |
-| [`blazite-turnstile`](https://weblate.rob006.net/projects/flarum/blazite-turnstile) | [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile) |
+| [`blazite-turnstile`](https://weblate.rob006.net/projects/flarum/blazite-turnstile) | [`blazite/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
 | [`blessing-oauth-client`](https://weblate.rob006.net/projects/flarum/blessing-oauth-client) | [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client) |
 | [`blomstra-conversations`](https://weblate.rob006.net/projects/flarum/blomstra-conversations) | [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations) |
 | [`blomstra-database-queue`](https://weblate.rob006.net/projects/flarum/blomstra-database-queue) | [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue) |
