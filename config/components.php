@@ -557,6 +557,9 @@ return [
 	'flarumite-simple-spoilers' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-spoilers/1.0.0/resources/locale/en.yml',
 	],
+	'flectar-turnstile' => [
+		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/1.0.0/locale/en.yml',
+	],
 	'fof-amazon-affiliation' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/1.1.0/resources/locale/en.yml',
 	],
