@@ -473,6 +473,9 @@ return [
 	'davwheat-virtual-authors' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/davwheat-virtual-authors.yml',
 	],
+	'deltamichael-online' => [
+		'tag' => 'https://raw.githubusercontent.com/DeltaMichael/flarum-ext-online/0.0.1/locale/en.yml',
+	],
 	'dem13n-discussion-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/discussion-cards/0.3.8/locale/en.yml',
 	],
