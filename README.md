@@ -917,7 +917,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`askvortsov-pwa`](https://weblate.rob006.net/projects/flarum/askvortsov-pwa) | [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) |
 | [`askvortsov-rich-text`](https://weblate.rob006.net/projects/flarum/askvortsov-rich-text) | [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) |
 | [`askvortsov-saml`](https://weblate.rob006.net/projects/flarum/askvortsov-saml) | [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml) |
-| [`blazite-turnstile`](https://weblate.rob006.net/projects/flarum/blazite-turnstile) | [`blazite/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
 | [`blessing-oauth-client`](https://weblate.rob006.net/projects/flarum/blessing-oauth-client) | [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client) |
 | [`blomstra-conversations`](https://weblate.rob006.net/projects/flarum/blomstra-conversations) | [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations) |
 | [`blomstra-database-queue`](https://weblate.rob006.net/projects/flarum/blomstra-database-queue) | [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue) |
@@ -1046,6 +1045,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`flamarkt-matomo`](https://weblate.rob006.net/projects/flarum/flamarkt-matomo) | [`flamarkt/matomo`](https://github.com/flamarkt/matomo) |
 | [`flamarkt-taxonomies`](https://weblate.rob006.net/projects/flarum/flamarkt-taxonomies) | [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies) |
 | [`flarumite-simple-spoilers`](https://weblate.rob006.net/projects/flarum/flarumite-simple-spoilers) | [`flarumite/simple-spoilers`](https://github.com/flarumite/simple-spoilers) |
+| [`flectar-turnstile`](https://weblate.rob006.net/projects/flarum/flectar-turnstile) | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
 | [`foskym-activity-graph`](https://weblate.rob006.net/projects/flarum/foskym-activity-graph) | [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph) |
 | [`foskym-better-user-directory`](https://weblate.rob006.net/projects/flarum/foskym-better-user-directory) | [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory) |
 | [`foskym-custom-levels`](https://weblate.rob006.net/projects/flarum/foskym-custom-levels) | [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels) |
