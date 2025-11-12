@@ -745,25 +745,6 @@
             }
         }
     },
-    "flectar-turnstile.json": {
-        "validation": {
-            "turnstile": "ca1a4487d7dd8a8e2dac6fa1a0a77744 ca1a4487d7dd8a8e2dac6fa1a0a77744",
-            "required": "32bde3d8893a9e1078f6d1d197bb3042 32bde3d8893a9e1078f6d1d197bb3042"
-        },
-        "flectar-turnstile": {
-            "admin": {
-                "settings": {
-                    "help_text": "00c9af02c685c70201965085240c4e43 00c9af02c685c70201965085240c4e43",
-                    "site_key": "28c3cda39f25a5a7f3fcd3b9f9b63860 28c3cda39f25a5a7f3fcd3b9f9b63860",
-                    "secret_key": "b6a6f74b9252e4f099dc8c49095e6b23 b6a6f74b9252e4f099dc8c49095e6b23"
-                }
-            },
-            "forum": {
-                "not_loaded_error": "c605e33a71f79489072a824a81d58394 c605e33a71f79489072a824a81d58394",
-                "validation_error": "32bde3d8893a9e1078f6d1d197bb3042 32bde3d8893a9e1078f6d1d197bb3042"
-            }
-        }
-    },
     "blessing-oauth-client.json": {
         "blessing-oauth-client": {
             "admin": {
@@ -5051,6 +5032,25 @@
                     }
                 }
             }
+        }
+    },
+    "flectar-turnstile.json": {
+        "flectar-turnstile": {
+            "admin": {
+                "settings": {
+                    "help_text": "00c9af02c685c70201965085240c4e43 00c9af02c685c70201965085240c4e43",
+                    "site_key": "28c3cda39f25a5a7f3fcd3b9f9b63860 28c3cda39f25a5a7f3fcd3b9f9b63860",
+                    "secret_key": "b6a6f74b9252e4f099dc8c49095e6b23 b6a6f74b9252e4f099dc8c49095e6b23"
+                }
+            },
+            "forum": {
+                "not_loaded_error": "c605e33a71f79489072a824a81d58394 c605e33a71f79489072a824a81d58394",
+                "validation_error": "32bde3d8893a9e1078f6d1d197bb3042 32bde3d8893a9e1078f6d1d197bb3042"
+            }
+        },
+        "validation": {
+            "turnstile": "ca1a4487d7dd8a8e2dac6fa1a0a77744 ca1a4487d7dd8a8e2dac6fa1a0a77744",
+            "required": "32bde3d8893a9e1078f6d1d197bb3042 32bde3d8893a9e1078f6d1d197bb3042"
         }
     },
     "fof-amazon-affiliation.json": {
