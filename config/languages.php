@@ -159,7 +159,6 @@ return [
 		// translations included in extension
 		// '!dem13n-topic-starter-label', https://github.com/Dem13n/topic-starter-label/pull/5
 		'!glowingblue-password-strength',
-		'!huseyinfiliz-modern-footer',
 		'!muhammedsaidckr-chatgpt',
 		'!muhammedsaidckr-gemini',
 		'!the-turk-diff',
