@@ -94,9 +94,6 @@ return [
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.4.0/resources/locale/en.yml',
 	],
-	'blazite-turnstile' => [
-		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/1.1.0/locale/en.yml',
-	],
 	'blessing-oauth-client' => [
 		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.2/locale/en.yml',
 	],
@@ -556,6 +553,9 @@ return [
 	],
 	'flarumite-simple-spoilers' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-spoilers/1.0.0/resources/locale/en.yml',
+	],
+	'flectar-turnstile' => [
+		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/1.1.0/locale/en.yml',
 	],
 	'fof-amazon-affiliation' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/1.1.0/resources/locale/en.yml',
