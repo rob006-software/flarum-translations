@@ -2,7 +2,7 @@
     "flectar-turnstile": {
         "admin": {
             "settings": {
-                "help_text": "",
+                "help_text": "Genereer Turnstile-sleutels op je Cloudflare account <a>hier</a>.",
                 "site_key": "",
                 "secret_key": "",
                 "signup": "",
@@ -19,12 +19,5 @@
     "validation": {
         "turnstile": "",
         "required": ""
-    },
-    "blazite-turnstile": {
-        "admin": {
-            "settings": {
-                "help_text": "Genereer Turnstile-sleutels op je Cloudflare account <a>hier</a>."
-            }
-        }
     }
 }

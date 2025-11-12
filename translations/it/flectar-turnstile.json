@@ -1,0 +1,23 @@
+{
+    "flectar-turnstile": {
+        "admin": {
+            "settings": {
+                "help_text": "",
+                "site_key": "Chiave Sito",
+                "secret_key": "Chiave segreta",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
+            }
+        },
+        "forum": {
+            "not_loaded_error": "Impossibile caricare Cloudflare Turnstile. Aggiorna la pagina e controlla eventuali adblocker.",
+            "validation_error": "",
+            "error": ""
+        }
+    },
+    "validation": {
+        "turnstile": "Non siamo riusciti a verificare se tu sia un robot o meno. Per favore ricarica la pagina e riprova.",
+        "required": ""
+    }
+}
