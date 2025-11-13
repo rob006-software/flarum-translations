@@ -29,14 +29,14 @@
             "permissions": {
                 "process_erasure": "Обработать запросы на удаление",
                 "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "see_anonymized_user_badges": "Посмотреть анонимизированные жетоны пользователей"
             },
             "settings": {
-                "allow_anonymization": "",
+                "allow_anonymization": "Разрешить анонимизацию запросов на удаление",
                 "allow_anonymization_help": "",
-                "allow_deletion": "",
-                "allow_deletion_help": "",
-                "default_anonymous_username": "",
+                "allow_deletion": "Разрешить удаление по запросу",
+                "allow_deletion_help": "Более жесткая опция. В этом режиме все сообщения/комментарии будут удалены и пользователь будет удален из базы. Пользуйтесь осторожно.",
+                "default_anonymous_username": "Имя пользователя по умолчанию для анонимизированных пользователей",
                 "default_anonymous_username_help": "",
                 "default_erasure": "",
                 "default_erasure_help": "",
