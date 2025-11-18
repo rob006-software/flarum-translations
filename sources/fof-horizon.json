@@ -22,6 +22,11 @@
                 "heading": "Queue Overview",
                 "full_dashboard": "Horizon Dashboard",
                 "refresh": "Refresh",
+                "error": {
+                    "title": "Connection Error",
+                    "fetch_failed": "Unable to fetch Horizon statistics. Please check your Redis configuration.",
+                    "setup_docs": "View Redis Setup Documentation"
+                },
                 "data": {
                     "redis-used-memory": "Cache store Used Memory",
                     "redis-peak-memory": "Cache store Peak Memory",
