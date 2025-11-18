@@ -1473,6 +1473,9 @@ return [
 	'xypp-collector' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-collector/v0.3.29/locale/en.yml',
 	],
+	'xypp-copyright-card' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum_copyright_card/v1.0.0/locale/en.yml',
+	],
 	'xypp-forum-quests' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v2.0.4/locale/en.yml',
 	],
