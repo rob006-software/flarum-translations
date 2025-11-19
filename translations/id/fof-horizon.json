@@ -22,26 +22,26 @@
                 "heading": "Gambaran Umum Antrian",
                 "full_dashboard": "Dashboard Horizon",
                 "refresh": "Segarkan",
-                "last_refresh": "",
+                "last_refresh": "Diperbarui {time}",
                 "health": {
-                    "excellent": "",
-                    "good": "",
-                    "poor": "",
-                    "critical": "",
-                    "tooltip": ""
+                    "excellent": "Sangat Baik",
+                    "good": "Baik",
+                    "poor": "Buruk",
+                    "critical": "Kritis",
+                    "tooltip": "Skor kesehatan sistem: {score}/100"
                 },
                 "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
+                    "title": "Koneksi Error",
+                    "fetch_failed": "Tidak dapat mengambil statistik Horizon. Harap periksa konfigurasi Redis Anda.",
+                    "setup_docs": "Lihat Dokumentasi Pengaturan Redis"
                 },
                 "data": {
                     "redis-used-memory": "Redis: Memori Yang Digunakan",
-                    "redis-memory-usage": "",
+                    "redis-memory-usage": "Redis: Penggunaan Memori",
                     "redis-peak-memory": "Redis: Memori Puncak",
                     "redis-max-memory": "Redis: Memori Maksimum",
                     "redis-memory-policy": "Redis: Kebijakan Memori",
-                    "redis-memory-policy-tooltip": "Kebijakan memori adalah cara Redis akan memilih apa yang akan dihapus ketika \nbatas maksimal memori tercapai. Standarnya adalah `noeviction`: Nilai-nilai baru \ntidak akan disimpan ketika batas memori tercapai. Klik untuk melihat dokumentasi.\n",
+                    "redis-memory-policy-tooltip": "Kebijakan memori adalah cara penyimpanan cache memilih apa yang akan dihapus ketika\nbatas memori maksimum tercapai. Default-nya adalah `noeviction`: New values\ntidak akan disimpan ketika batas memori tercapai. Klik untuk melihat dokumentasi.\n",
                     "redis-ops-per-sec": "Ops Per Detik",
                     "redis-connected-clients": "Klien Terhubung",
                     "redis-blocked-clients": "Klien Yang Diblokir",
@@ -55,11 +55,11 @@
                     },
                     "total-processes": "Total Proses",
                     "max-wait-time": "Maksimum Waktu Tunggu",
-                    "max-wait-queue": "",
+                    "max-wait-queue": "Antrean: {queue}",
                     "max-runtime": "Maksimum Waktu Berjalan",
                     "max-throughput": "Hasil Maksimum",
-                    "success-rate": "",
-                    "failure-rate": "",
+                    "success-rate": "Tingkat Keberhasilan",
+                    "failure-rate": "Tingkat Kegagalan",
                     "redis-cpu-user": "Pengguna CPU Redis",
                     "redis-cpu-sys": "Sistem CPU Redis"
                 }
