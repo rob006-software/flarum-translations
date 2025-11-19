@@ -22,6 +22,14 @@
                 "heading": "Gambaran Umum Antrian",
                 "full_dashboard": "Dashboard Horizon",
                 "refresh": "Segarkan",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "Redis: Memori Yang Digunakan",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "Redis: Memori Puncak",
                     "redis-max-memory": "Redis: Memori Maksimum",
                     "redis-memory-policy": "Redis: Kebijakan Memori",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "Total Proses",
                     "max-wait-time": "Maksimum Waktu Tunggu",
+                    "max-wait-queue": "",
                     "max-runtime": "Maksimum Waktu Berjalan",
                     "max-throughput": "Hasil Maksimum",
+                    "success-rate": "",
+                    "failure-rate": "",
                     "redis-cpu-user": "Pengguna CPU Redis",
                     "redis-cpu-sys": "Sistem CPU Redis"
                 }

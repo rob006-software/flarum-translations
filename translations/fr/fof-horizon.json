@@ -22,6 +22,14 @@
                 "heading": "Vue d'ensemble de la file d'attente",
                 "full_dashboard": "Tableau de bord d'Horizon",
                 "refresh": "Actualiser",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "Redistribuer la mémoire utilisée",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "Redistribuer les pics de mémoire",
                     "redis-max-memory": "Redistribuer la mémoire maximale",
                     "redis-memory-policy": "Redistribuer la politique de mémoire",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "Total des processus",
                     "max-wait-time": "Temps d'attente maximal",
+                    "max-wait-queue": "",
                     "max-runtime": "Durée d'exécution maximale",
                     "max-throughput": "Débit maximal",
+                    "success-rate": "",
+                    "failure-rate": "",
                     "redis-cpu-user": "Redistribuer le processeur de l'utilisateur",
                     "redis-cpu-sys": "Redistribuer le processeur du système"
                 }

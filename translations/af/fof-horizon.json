@@ -22,6 +22,14 @@
                 "heading": "Panoramica coda",
                 "full_dashboard": "Pannello di controllo di Horizon",
                 "refresh": "Aggiorna",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "Memoria usata da Redis",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "Memoria usata di picco da Redis",
                     "redis-max-memory": "Memoria massima di Redis",
                     "redis-memory-policy": "Politica della memoria di Redis",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "Processi totali",
                     "max-wait-time": "Tempo attesa max",
+                    "max-wait-queue": "",
                     "max-runtime": "Tempo di esecuzione max",
                     "max-throughput": "Performance max",
+                    "success-rate": "",
+                    "failure-rate": "",
                     "redis-cpu-user": "Utente CPU Redis",
                     "redis-cpu-sys": "Sys CPU Redis"
                 }

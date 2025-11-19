@@ -22,6 +22,14 @@
                 "heading": "",
                 "full_dashboard": "",
                 "refresh": "",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "",
                     "redis-max-memory": "",
                     "redis-memory-policy": "",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "",
                     "max-wait-time": "",
+                    "max-wait-queue": "",
                     "max-runtime": "",
-                    "max-throughput": ""
+                    "max-throughput": "",
+                    "success-rate": "",
+                    "failure-rate": ""
                 }
             }
         }

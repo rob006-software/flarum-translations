@@ -22,6 +22,14 @@
                 "heading": "Огляд черги",
                 "full_dashboard": "Панель Horizon",
                 "refresh": "Оновлення",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "Використана пам'ять Redis",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "Пікове значення пам'яті Redis",
                     "redis-max-memory": "Максимальна пам'ять Redis",
                     "redis-memory-policy": "Політика пам'яті Redis",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "Загалом процесів",
                     "max-wait-time": "Максимальний час очікування",
+                    "max-wait-queue": "",
                     "max-runtime": "Максимальний час роботи",
                     "max-throughput": "Максимальна пропускна здатність",
+                    "success-rate": "",
+                    "failure-rate": "",
                     "redis-cpu-user": "Користувач Redis CPU",
                     "redis-cpu-sys": "Система Redis CPU"
                 }

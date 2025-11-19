@@ -22,6 +22,14 @@
                 "heading": "Tổng quan hàng đợi",
                 "full_dashboard": "Bảng điều khiển Horizon",
                 "refresh": "Làm mới",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "Bộ nhớ đã dùng của bộ nhớ đệm",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "Bộ nhớ đỉnh của bộ nhớ đệm",
                     "redis-max-memory": "Bộ nhớ tối đa của bộ nhớ đệm",
                     "redis-memory-policy": "Chính sách bộ nhớ bộ nhớ đệm",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "Tổng số tiến trình",
                     "max-wait-time": "Thời gian chờ tối đa",
+                    "max-wait-queue": "",
                     "max-runtime": "Thời gian chạy tối đa",
-                    "max-throughput": "Thông lượng tối đa"
+                    "max-throughput": "Thông lượng tối đa",
+                    "success-rate": "",
+                    "failure-rate": ""
                 }
             }
         }

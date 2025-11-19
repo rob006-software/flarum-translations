@@ -22,6 +22,14 @@
                 "heading": "Обзор очереди",
                 "full_dashboard": "Панель мониторинга Horizon",
                 "refresh": "Обновить",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "Используемая память Redis",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "Пиковое значение памяти Redis",
                     "redis-max-memory": "Максимальная память Redis",
                     "redis-memory-policy": "Политика памяти Redis",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "Всего процессов",
                     "max-wait-time": "Макс. время ожидания",
+                    "max-wait-queue": "",
                     "max-runtime": "Макс. время выполнения",
-                    "max-throughput": "Макс. пропускная способность"
+                    "max-throughput": "Макс. пропускная способность",
+                    "success-rate": "",
+                    "failure-rate": ""
                 }
             }
         }

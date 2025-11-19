@@ -22,6 +22,14 @@
                 "heading": "Järjekorra ülevaade",
                 "full_dashboard": "Horizon töölaud",
                 "refresh": "Värskenda",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "Kasutatud Redis mälu",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "Redis mälu kõrgeim kasutus",
                     "redis-max-memory": "Redis maks. mälu",
                     "redis-memory-policy": "Redis mälu poliitika",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "Protsesse kokku",
                     "max-wait-time": "Maks. ootamise aeg",
+                    "max-wait-queue": "",
                     "max-runtime": "Maks. käivitusaeg",
                     "max-throughput": "Maks. läbilaskevõime",
+                    "success-rate": "",
+                    "failure-rate": "",
                     "redis-cpu-user": "Redis Protsessori kasutus",
                     "redis-cpu-sys": "Redis protsessori süsteem"
                 }

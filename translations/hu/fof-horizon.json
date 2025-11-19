@@ -22,6 +22,14 @@
                 "heading": "Feladatsor áttekintése",
                 "full_dashboard": "Horizon vezérlőpult",
                 "refresh": "Frissítés",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "A gyorsítótár memóriahasználata",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "A gyorsítótár legnagyobb memóriahasználata",
                     "redis-max-memory": "A gyorsítótár memóriakorlátja",
                     "redis-memory-policy": "A gyorsítótár memória-házirendje",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "Összes folyamat",
                     "max-wait-time": "Leghosszabb várakozási idő",
+                    "max-wait-queue": "",
                     "max-runtime": "Leghosszabb futásidő",
                     "max-throughput": "Legnagyobb áteresztőképesség",
+                    "success-rate": "",
+                    "failure-rate": "",
                     "redis-cpu-user": "A Redis felhasználói CPU-használata",
                     "redis-cpu-sys": "A Redis rendszerszintű CPU-használata"
                 }

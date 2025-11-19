@@ -22,6 +22,14 @@
                 "heading": "Kuyruğa Genel Bakış",
                 "full_dashboard": "Horizon Kontrol Paneli",
                 "refresh": "Yenile",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "Kullanılan Redis Belleği",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "Redis Bellek Zirvesi",
                     "redis-max-memory": "Redis Maks Bellek",
                     "redis-memory-policy": "Redis Bellek Politikası",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "Toplam Süreç",
                     "max-wait-time": "Maksimum Bekleme Süresi",
+                    "max-wait-queue": "",
                     "max-runtime": "Maksimum Çalışma Süresi",
                     "max-throughput": "Maksimum Verim",
+                    "success-rate": "",
+                    "failure-rate": "",
                     "redis-cpu-user": "Redis CPU Kullanıcı",
                     "redis-cpu-sys": "Redis CPU Sistem"
                 }

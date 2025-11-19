@@ -22,6 +22,14 @@
                 "heading": "Warteschlangenübersicht",
                 "full_dashboard": "Horizon Dashboard",
                 "refresh": "Aktualisieren",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "Redis-Arbeitsspeicherauslastung",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "Redis-Spitzenwert-Arbeitsspeicher",
                     "redis-max-memory": "Maximaler Redis-Arbeitsspeicher",
                     "redis-memory-policy": "Redis-Arbeitsspeicherrichtlinie",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "",
                     "max-wait-time": "",
+                    "max-wait-queue": "",
                     "max-runtime": "",
                     "max-throughput": "",
+                    "success-rate": "",
+                    "failure-rate": "",
                     "redis-cpu-user": "Redis CPU-Nutzer"
                 }
             }

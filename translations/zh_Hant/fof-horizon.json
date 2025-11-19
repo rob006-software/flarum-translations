@@ -22,6 +22,14 @@
                 "heading": "隊列概覽",
                 "full_dashboard": "Horizon 儀表板",
                 "refresh": "重整",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "Redis 使用記憶體",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "Redis 峰值內存",
                     "redis-max-memory": "Redis 最大內存",
                     "redis-memory-policy": "Redis 記憶體策略",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "所有進程",
                     "max-wait-time": "最大等待時間",
+                    "max-wait-queue": "",
                     "max-runtime": "最大執行時間",
                     "max-throughput": "最大吞吐量",
+                    "success-rate": "",
+                    "failure-rate": "",
                     "redis-cpu-user": "Redis CPU 用戶",
                     "redis-cpu-sys": "Redis CPU系統"
                 }

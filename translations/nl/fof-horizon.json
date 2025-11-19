@@ -22,6 +22,14 @@
                 "heading": "Overzicht wachtrijen",
                 "full_dashboard": "Horizon Dashboard",
                 "refresh": "Vernieuw",
+                "last_refresh": "",
+                "health": {
+                    "excellent": "",
+                    "good": "",
+                    "poor": "",
+                    "critical": "",
+                    "tooltip": ""
+                },
                 "error": {
                     "title": "",
                     "fetch_failed": "",
@@ -29,6 +37,7 @@
                 },
                 "data": {
                     "redis-used-memory": "Cache opslag Gebruikt geheugen",
+                    "redis-memory-usage": "",
                     "redis-peak-memory": "Cache opslag Piek geheugen",
                     "redis-max-memory": "Cache opslag Maximaal geheugen",
                     "redis-memory-policy": "Geheugenbeleid voor cacheopslag",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "Totaal aantal processen",
                     "max-wait-time": "Maximale wachttijd",
+                    "max-wait-queue": "",
                     "max-runtime": "Maximale looptijd",
-                    "max-throughput": "Maximale doorvoer"
+                    "max-throughput": "Maximale doorvoer",
+                    "success-rate": "",
+                    "failure-rate": ""
                 }
             }
         }

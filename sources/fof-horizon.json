@@ -22,6 +22,14 @@
                 "heading": "Queue Overview",
                 "full_dashboard": "Horizon Dashboard",
                 "refresh": "Refresh",
+                "last_refresh": "Updated {time}",
+                "health": {
+                    "excellent": "Excellent",
+                    "good": "Good",
+                    "poor": "Poor",
+                    "critical": "Critical",
+                    "tooltip": "System health score: {score}/100"
+                },
                 "error": {
                     "title": "Connection Error",
                     "fetch_failed": "Unable to fetch Horizon statistics. Please check your Redis configuration.",
@@ -29,10 +37,11 @@
                 },
                 "data": {
                     "redis-used-memory": "Cache store Used Memory",
+                    "redis-memory-usage": "Cache store Memory Usage",
                     "redis-peak-memory": "Cache store Peak Memory",
                     "redis-max-memory": "Cache store Max Memory",
                     "redis-memory-policy": "Cache store Memory Policy",
-                    "redis-memory-policy-tooltip": "The memory policy is the way the cache store will select what to remove when\nthe maxmemory limit is reached. The default is `noeviction`: New values\naren’t saved when memory limit is reached. Click to view documentation.\n",
+                    "redis-memory-policy-tooltip": "The memory policy is the way the cache store will select what to remove when\nthe maxmemory limit is reached. The default is `noeviction`: New values\naren't saved when memory limit is reached. Click to view documentation.\n",
                     "redis-ops-per-sec": "Ops Per Second",
                     "redis-connected-clients": "Connected Clients",
                     "redis-blocked-clients": "Blocked Clients",
@@ -46,8 +55,11 @@
                     },
                     "total-processes": "Total Processes",
                     "max-wait-time": "Max Wait Time",
+                    "max-wait-queue": "Queue: {queue}",
                     "max-runtime": "Max Runtime",
-                    "max-throughput": "Max Throughput"
+                    "max-throughput": "Max Throughput",
+                    "success-rate": "Success Rate",
+                    "failure-rate": "Failure Rate"
                 }
             }
         }
