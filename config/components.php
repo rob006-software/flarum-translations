@@ -1461,6 +1461,9 @@ return [
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.5/resources/locale/en.yaml',
 	],
+	'xlt-ipdisplaycn' => [
+		'tag' => 'https://raw.githubusercontent.com/XiaoLuoTian189/ipdisplay-cn/v1.0.0/resources/locale/en.yml',
+	],
 	'xrh0905-oauth-microsoft' => [
 		'tag' => 'https://raw.githubusercontent.com/xrh0905/flarum-ext-oauth-microsoft/v1.0.1/locale/en.yml',
 	],
