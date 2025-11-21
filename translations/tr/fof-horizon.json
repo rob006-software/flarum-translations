@@ -22,22 +22,22 @@
                 "heading": "Kuyruğa Genel Bakış",
                 "full_dashboard": "Horizon Kontrol Paneli",
                 "refresh": "Yenile",
-                "last_refresh": "",
+                "last_refresh": "Güncellendi {time}",
                 "health": {
-                    "excellent": "",
-                    "good": "",
-                    "poor": "",
-                    "critical": "",
-                    "tooltip": ""
+                    "excellent": "Mükemmel",
+                    "good": "İyi",
+                    "poor": "Zayıf",
+                    "critical": "Kritik",
+                    "tooltip": "Sistem sağlık puanı: {score}/100"
                 },
                 "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
+                    "title": "Bağlantı Hatası",
+                    "fetch_failed": "Horizon istatistikleri alınamıyor. Lütfen Redis yapılandırmanızı kontrol edin.",
+                    "setup_docs": "Redis Kurulum Dokümantasyonunu Görüntüle"
                 },
                 "data": {
                     "redis-used-memory": "Kullanılan Redis Belleği",
-                    "redis-memory-usage": "",
+                    "redis-memory-usage": "Önbellek deposu Bellek Kullanımı",
                     "redis-peak-memory": "Redis Bellek Zirvesi",
                     "redis-max-memory": "Redis Maks Bellek",
                     "redis-memory-policy": "Redis Bellek Politikası",
@@ -55,11 +55,11 @@
                     },
                     "total-processes": "Toplam Süreç",
                     "max-wait-time": "Maksimum Bekleme Süresi",
-                    "max-wait-queue": "",
+                    "max-wait-queue": "Kuyruk: {queue}",
                     "max-runtime": "Maksimum Çalışma Süresi",
                     "max-throughput": "Maksimum Verim",
-                    "success-rate": "",
-                    "failure-rate": "",
+                    "success-rate": "Başarı Oranı",
+                    "failure-rate": "Başarısızlık Oranı",
                     "redis-cpu-user": "Redis CPU Kullanıcı",
                     "redis-cpu-sys": "Redis CPU Sistem"
                 }
