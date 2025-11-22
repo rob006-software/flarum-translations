@@ -151,6 +151,7 @@ return [
 	'sv' => getComponents(),
 	'ta' => getComponents(),
 	'te' => getComponents(),
+	'tg' => getComponents(),
 	'th' => getComponents(),
 	'tk' => getComponents(),
 	'tl' => getComponents(),
