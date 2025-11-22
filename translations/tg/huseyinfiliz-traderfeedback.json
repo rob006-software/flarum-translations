@@ -1,0 +1,261 @@
+{
+    "huseyinfiliz-traderfeedback": {
+        "api": {
+            "validation": {
+                "negative_not_allowed": "",
+                "self_feedback": "",
+                "min_days": "",
+                "min_posts": "",
+                "already_given": "",
+                "discussion_not_found": "",
+                "discussion_required": "",
+                "already_reported": "",
+                "rate_limit_feedback": "",
+                "rate_limit_report": ""
+            }
+        },
+        "forum": {
+            "nav": {
+                "feedback_link": ""
+            },
+            "form": {
+                "title": "",
+                "type_label": "",
+                "type_positive": "",
+                "type_neutral": "",
+                "type_negative": "",
+                "role_label": "",
+                "role_buyer": "",
+                "role_seller": "",
+                "role_trader": "",
+                "discussion_label": "",
+                "discussion_placeholder": "",
+                "discussion_help": "",
+                "comment_label": "",
+                "comment_placeholder": "",
+                "submit_button": "",
+                "error_too_short": "",
+                "error_too_long": "",
+                "error_discussion_required": "",
+                "error_submit": "",
+                "success": ""
+            },
+            "user_card": {
+                "score_tooltip": "",
+                "positive_tooltip": "",
+                "neutral_tooltip": "",
+                "negative_tooltip": ""
+            },
+            "feedback_page": {
+                "stats": {
+                    "score": "",
+                    "total": "",
+                    "positive": "",
+                    "neutral": "",
+                    "negative": ""
+                },
+                "no_feedback": "",
+                "give_feedback_button": "",
+                "give_feedback_button_short": "",
+                "filter": {
+                    "all": "",
+                    "positive": "",
+                    "neutral": "",
+                    "negative": "",
+                    "as_buyer": "",
+                    "as_seller": "",
+                    "as_trader": ""
+                },
+                "sort": {
+                    "newest": "",
+                    "oldest": ""
+                }
+            },
+            "feedback_item": {
+                "as_buyer": "",
+                "as_seller": "",
+                "as_trader": "",
+                "report_button": "",
+                "delete_button": "",
+                "edit_button": "",
+                "confirm_delete": "",
+                "delete_success": "",
+                "delete_error": "",
+                "discussion_link": "",
+                "discussion_link_short": "",
+                "discussion_deleted": "",
+                "discussion_locked": "",
+                "no_comment": "",
+                "no_permission_report": "",
+                "unknown_user": "",
+                "user_id_format": ""
+            },
+            "report_modal": {
+                "title": "",
+                "reason_label": "",
+                "reason_placeholder": "",
+                "submit_button": "",
+                "success": "",
+                "error": ""
+            },
+            "notifications": {
+                "new_feedback_title": "",
+                "feedback_approved_title": "",
+                "feedback_rejected_title": ""
+            },
+            "settings": {
+                "notify_new_feedback_label": "",
+                "notify_feedback_approved_label": "",
+                "notify_feedback_rejected_label": ""
+            },
+            "badge": {
+                "format_percentage": "",
+                "format_count_percentage": "",
+                "format_letters": "",
+                "format_symbols": ""
+            },
+            "post_actions": {
+                "give_feedback": "",
+                "give_feedback_short": ""
+            },
+            "discussion_actions": {
+                "give_feedback": "",
+                "select_user_title": "",
+                "select_user_label": "",
+                "no_users_found": "",
+                "continue": "",
+                "search_user_placeholder": "",
+                "showing_limited_users": "",
+                "showing_limited_results": "",
+                "no_matching_users": ""
+            }
+        },
+        "admin": {
+            "permissions": {
+                "give_feedback": "",
+                "moderate_feedback": "",
+                "report_feedback": "",
+                "delete_feedback": ""
+            },
+            "tabs": {
+                "settings": "",
+                "approvals": "",
+                "reports": ""
+            },
+            "settings": {
+                "title": "",
+                "help_text": "",
+                "section_general": "",
+                "section_discussion": "",
+                "section_comment": "",
+                "section_requirements": "",
+                "section_post_feedback_actions": "",
+                "section_badge_display": "",
+                "allow_negative_label": "",
+                "require_approval_label": "",
+                "require_discussion_label": "",
+                "require_discussion_help": "",
+                "one_per_discussion_label": "",
+                "one_per_discussion_help": "",
+                "min_length_label": "",
+                "max_length_label": "",
+                "submit_button": "",
+                "min_days_label": "",
+                "min_days_help": "",
+                "min_posts_label": "",
+                "min_posts_help": "",
+                "show_feedback_in_post_menu_label": "",
+                "show_feedback_in_post_menu_help": "",
+                "show_feedback_below_reply_label": "",
+                "show_feedback_below_reply_help": "",
+                "show_feedback_in_post_footer_label": "",
+                "show_feedback_in_post_footer_help": "",
+                "footer_only_first_post_label": "",
+                "footer_only_first_post_help": "",
+                "feedback_action_tag_filter_label": "",
+                "feedback_action_tag_filter_help": "",
+                "feedback_only_when_locked_label": "",
+                "feedback_only_when_locked_help": "",
+                "show_badge_in_posts_label": "",
+                "show_badge_in_posts_help": "",
+                "badge_custom_prefix_label": "",
+                "badge_custom_prefix_placeholder": "",
+                "badge_custom_prefix_help": "",
+                "badge_format_label": "",
+                "badge_format_help": "",
+                "badge_format_percentage": "",
+                "badge_format_count_percentage": "",
+                "badge_format_letters": "",
+                "badge_format_symbols": "",
+                "badge_format_custom": "",
+                "badge_custom_format_label": "",
+                "badge_custom_format_help": "",
+                "badge_custom_format_invalid": "",
+                "badge_custom_format_invalid_preview": "",
+                "badge_var_total": "",
+                "badge_var_score": "",
+                "badge_var_positive": "",
+                "badge_var_neutral": "",
+                "badge_var_negative": "",
+                "badge_preview_label": "",
+                "badge_preview_sample": "",
+                "badge_tag_filter_label": "",
+                "badge_tag_filter_help": "",
+                "badge_tag_filter_tags_required": "",
+                "badge_only_first_post_label": "",
+                "badge_only_first_post_help": ""
+            },
+            "dashboard": {
+                "title": "",
+                "total_feedbacks": "",
+                "positive_feedbacks": "",
+                "neutral_feedbacks": "",
+                "negative_feedbacks": "",
+                "pending_approvals": "",
+                "reported_feedbacks": ""
+            },
+            "roles": {
+                "buyer": "",
+                "seller": "",
+                "trader": ""
+            },
+            "reports": {
+                "title": "",
+                "no_reports": "",
+                "load_error": "",
+                "user_reported": "",
+                "unknown_user": "",
+                "user_id_format": "",
+                "reason_label": "",
+                "reported_feedback_label": "",
+                "approve_button": "",
+                "reject_button": "",
+                "dismiss_button": "",
+                "delete_button": "",
+                "confirm_approve": "",
+                "confirm_reject": "",
+                "confirm_dismiss": "",
+                "confirm_delete": "",
+                "dismissed_success": "",
+                "dismissed_error": "",
+                "deleted_success": "",
+                "deleted_error": ""
+            },
+            "approvals": {
+                "title": "",
+                "no_approvals": "",
+                "unknown_user": "",
+                "user_id_format": "",
+                "view_discussion": "",
+                "approve_button": "",
+                "reject_button": "",
+                "confirm_approve": "",
+                "confirm_reject": "",
+                "approved_success": "",
+                "approved_error": "",
+                "rejected_success": "",
+                "rejected_error": ""
+            }
+        }
+    }
+}
