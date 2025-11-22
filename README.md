@@ -1081,6 +1081,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huseyinfiliz-guest`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-guest) | [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest) |
 | [`huseyinfiliz-modern-footer`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-modern-footer) | [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) |
 | [`huseyinfiliz-notificationhub`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-notificationhub) | [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) |
+| [`huseyinfiliz-pickem`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-pickem) | [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) |
 | [`huseyinfiliz-private-profile`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-private-profile) | [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) |
 | [`huseyinfiliz-sort-changer`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-sort-changer) | [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer) |
 | [`huseyinfiliz-sticky-title`](https://weblate.rob006.net/projects/flarum/huseyinfiliz-sticky-title) | [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title) |
