@@ -892,6 +892,18 @@ return [
 		],
 		'maintainers' => [],
 	],
+	'tg' => [
+		'type' => 'language',
+		'language' => 'tg',
+		'repository' => 'git@github.com:flarum-lang/tajik.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => [],
+	],
 	'th' => [
 		'type' => 'language',
 		'language' => 'th',
