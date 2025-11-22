@@ -1,0 +1,130 @@
+{
+    "huseyinfiliz-pickem": {
+        "lib": {
+            "common": {
+                "season": "Season",
+                "team": "Team",
+                "week": "Week",
+                "match": "Match",
+                "pick": "Pick",
+                "home": "Home",
+                "away": "Away",
+                "draw": "Draw",
+                "date": "Date",
+                "points": "Points",
+                "status": "Status",
+                "vs": "vs",
+                "result": "Result",
+                "score": "Score"
+            },
+            "nav": {
+                "pickem": "Pick'em",
+                "matches": "Matches",
+                "my_picks": "My Picks",
+                "leaderboard": "Leaderboard",
+                "settings": "Settings",
+                "teams": "Teams",
+                "seasons": "Seasons",
+                "weeks": "Weeks"
+            },
+            "status": {
+                "scheduled": "Scheduled",
+                "closed": "Closed",
+                "finished": "Finished",
+                "pending": "Pending",
+                "correct": "Correct",
+                "incorrect": "Incorrect"
+            },
+            "headers": {
+                "rank": "Rank",
+                "player": "Player",
+                "correct": "Correct",
+                "total": "Total",
+                "accuracy": "Accuracy",
+                "logo": "Logo",
+                "match_date": "Match Date",
+                "cutoff_date": "Cutoff Date",
+                "slug": "Slug",
+                "name": "Name",
+                "week_number": "Week Number"
+            },
+            "form": {
+                "name": "Name",
+                "slug": "Slug",
+                "logo_url": "Logo URL",
+                "start_date": "Start Date",
+                "end_date": "End Date",
+                "week_number": "Week Number",
+                "home_team": "Home Team",
+                "away_team": "Away Team",
+                "select_team": "Select Team",
+                "select_season": "Select Season",
+                "no_week": "No Week",
+                "allow_draw": "Allow Draw",
+                "home_score": "Home Score",
+                "away_score": "Away Score"
+            },
+            "filters": {
+                "sort": "Sort",
+                "newest": "Newest First",
+                "oldest": "Oldest First",
+                "reset": "Reset Filters",
+                "all": "All"
+            },
+            "buttons": {
+                "save": "Save",
+                "edit": "Edit",
+                "delete": "Delete",
+                "create": "Create",
+                "cancel": "Cancel",
+                "load_more": "Load More"
+            },
+            "actions": {
+                "create": "Create",
+                "edit": "Edit",
+                "enter_result": "Enter Result"
+            },
+            "messages": {
+                "delete_confirm": "Are you sure you want to delete this?",
+                "saved": "Saved successfully.",
+                "deleted": "Deleted successfully.",
+                "result_saved": "Result saved successfully.",
+                "in_use": "Cannot delete because this item is in use.",
+                "login_required": "Please login to play.",
+                "invalid_outcome": "Invalid selection.",
+                "scores_required": "Enter both scores.",
+                "slug_unique": "Slug is already taken.",
+                "same_team": "Teams must be different.",
+                "no_matches": "No matches found.",
+                "no_data": "It looks like there is nothing here."
+            },
+            "pagination": {
+                "page_info": "Page {current} of {total}"
+            },
+            "time": {
+                "minutes_remaining": "{minutes}m remaining",
+                "hours_remaining": "{hours}h {minutes}m remaining",
+                "days_remaining": "{days}d remaining"
+            }
+        },
+        "forum": {
+            "picks": {
+                "your_pick": "Your Pick"
+            },
+            "notification": "Result: {home} {hScore} - {aScore} {away}"
+        },
+        "admin": {
+            "permissions": {
+                "manage": "Manage pick'em system",
+                "make_picks": "Make picks",
+                "view_page": "View Pick'em page"
+            },
+            "settings": {
+                "recalc_help": "Recalculates all scores based on match results. Runs in background.",
+                "recalc_btn": "Recalculate Scores",
+                "recalc_confirm": "Are you sure? This process runs in the background.",
+                "recalc_queued": "Recalculation queued."
+            }
+        }
+    }
+}
