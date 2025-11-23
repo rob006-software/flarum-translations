@@ -2,128 +2,128 @@
     "huseyinfiliz-pickem": {
         "lib": {
             "common": {
-                "season": "",
-                "team": "",
-                "week": "",
-                "match": "",
-                "pick": "",
-                "home": "",
-                "away": "",
-                "draw": "",
-                "date": "",
-                "points": "",
-                "status": "",
-                "vs": "",
-                "result": "",
-                "score": ""
+                "season": "Musim",
+                "team": "Tim",
+                "week": "Pekan",
+                "match": "Pertandingan",
+                "pick": "Pilih",
+                "home": "Kandang",
+                "away": "Tandang",
+                "draw": "Seri",
+                "date": "Tanggal",
+                "points": "Poin",
+                "status": "Status",
+                "vs": "vs",
+                "result": "Hasil",
+                "score": "Skor"
             },
             "nav": {
-                "pickem": "",
-                "matches": "",
-                "my_picks": "",
-                "leaderboard": "",
-                "settings": "",
-                "teams": "",
-                "seasons": "",
-                "weeks": ""
+                "pickem": "Pick'em",
+                "matches": "Pertandingan",
+                "my_picks": "Pilihan Saya",
+                "leaderboard": "Klasemen",
+                "settings": "Pengaturan",
+                "teams": "Tim",
+                "seasons": "Musim",
+                "weeks": "Pekan"
             },
             "status": {
-                "scheduled": "",
-                "closed": "",
-                "finished": "",
-                "pending": "",
-                "correct": "",
-                "incorrect": ""
+                "scheduled": "Dijadwalkan",
+                "closed": "Ditutup",
+                "finished": "Selesai",
+                "pending": "Menunggu",
+                "correct": "Benar",
+                "incorrect": "Salah"
             },
             "headers": {
-                "rank": "",
-                "player": "",
-                "correct": "",
-                "total": "",
-                "accuracy": "",
-                "logo": "",
-                "match_date": "",
-                "cutoff_date": "",
-                "slug": "",
-                "name": "",
+                "rank": "Peringkat",
+                "player": "Pemain",
+                "correct": "Benar",
+                "total": "Total",
+                "accuracy": "Akurasi",
+                "logo": "Logo",
+                "match_date": "Tanggal Pertandingan",
+                "cutoff_date": "Batas Waktu",
+                "slug": "Slug",
+                "name": "Nama",
                 "week_number": ""
             },
             "form": {
-                "name": "",
-                "slug": "",
-                "logo_url": "",
-                "start_date": "",
-                "end_date": "",
+                "name": "Nama",
+                "slug": "Slug",
+                "logo_url": "URL Logo",
+                "start_date": "Tanggal Mulai",
+                "end_date": "Tanggal Selesai",
                 "week_number": "",
-                "home_team": "",
-                "away_team": "",
-                "select_team": "",
-                "select_season": "",
+                "home_team": "Tim Kandang",
+                "away_team": "Tim Tandang",
+                "select_team": "Pilih Tim",
+                "select_season": "Pilih Musim",
                 "no_week": "",
-                "allow_draw": "",
-                "home_score": "",
-                "away_score": ""
+                "allow_draw": "Izinkan Seri",
+                "home_score": "Skor Kandang",
+                "away_score": "Skor Tandang"
             },
             "filters": {
-                "sort": "",
-                "newest": "",
-                "oldest": "",
-                "reset": "",
-                "all": ""
+                "sort": "Urutkan",
+                "newest": "Terbaru",
+                "oldest": "Terlama",
+                "reset": "Atur Ulang Filter",
+                "all": "Semua"
             },
             "buttons": {
-                "save": "",
-                "edit": "",
-                "delete": "",
-                "create": "",
-                "cancel": "",
-                "load_more": ""
+                "save": "Simpan",
+                "edit": "Edit",
+                "delete": "Hapus",
+                "create": "Buat",
+                "cancel": "Batal",
+                "load_more": "Muat Lebih Banyak"
             },
             "actions": {
-                "create": "",
-                "edit": "",
-                "enter_result": ""
+                "create": "Buat",
+                "edit": "Edit",
+                "enter_result": "Masukkan Hasil"
             },
             "messages": {
-                "delete_confirm": "",
-                "saved": "",
-                "deleted": "",
-                "result_saved": "",
-                "in_use": "",
-                "login_required": "",
-                "invalid_outcome": "",
-                "scores_required": "",
-                "slug_unique": "",
-                "same_team": "",
-                "no_matches": "",
-                "no_data": ""
+                "delete_confirm": "Apakah Anda yakin ingin menghapus ini?",
+                "saved": "Berhasil disimpan.",
+                "deleted": "Berhasil dihapus.",
+                "result_saved": "Hasil berhasil disimpan.",
+                "in_use": "Tidak dapat dihapus karena item ini sedang digunakan.",
+                "login_required": "Silakan login untuk bermain.",
+                "invalid_outcome": "Pilihan tidak valid.",
+                "scores_required": "Masukkan kedua skor.",
+                "slug_unique": "Slug sudah digunakan.",
+                "same_team": "Tim harus berbeda.",
+                "no_matches": "Tidak ada pertandingan ditemukan.",
+                "no_data": "Sepertinya tidak ada apa-apa di sini."
             },
             "pagination": {
-                "page_info": ""
+                "page_info": "Halaman {current} dari {total}"
             },
             "time": {
-                "minutes_remaining": "",
-                "hours_remaining": "",
-                "days_remaining": ""
+                "minutes_remaining": "tersisa {minutes} menit",
+                "hours_remaining": "tersisa {hours} jam {minutes} menit",
+                "days_remaining": "tersisa {days} hari"
             }
         },
         "forum": {
             "picks": {
-                "your_pick": ""
+                "your_pick": "Pilihan Anda"
             },
-            "notification": ""
+            "notification": "Hasil: {home} {hScore} - {aScore} {away}"
         },
         "admin": {
             "permissions": {
-                "manage": "",
-                "make_picks": "",
-                "view_page": ""
+                "manage": "Kelola sistem pick'em",
+                "make_picks": "Buat pilihan",
+                "view_page": "Lihat halaman Pick'em"
             },
             "settings": {
-                "recalc_help": "",
-                "recalc_btn": "",
-                "recalc_confirm": "",
-                "recalc_queued": ""
+                "recalc_help": "Menghitung ulang semua skor berdasarkan hasil pertandingan. Berjalan di latar belakang.",
+                "recalc_btn": "Hitung Ulang Skor",
+                "recalc_confirm": "Apakah Anda yakin? Proses ini berjalan di latar belakang.",
+                "recalc_queued": "Penghitungan ulang telah masuk antrean."
             }
         }
     }
