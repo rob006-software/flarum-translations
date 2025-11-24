@@ -6,7 +6,7 @@
                 "enable_redis_sessions": "Aktifkan Redis sessions (semua user akan keluar setelah Anda mengubah pengaturan ini)",
                 "enable_queue": "Aktifkan Redis queue",
                 "horizon_config": "Konfigurasi Horizon (format: JSON).",
-                "horizon_help_text": "Ini akan diteruskan ke <code>(new \\Blomstra\\Horizon\\Extend\\Horizon)->config(...))</code>"
+                "horizon_help_text": "Ini akan diteruskan ke <code>(new \\FoF\\Horizon\\Extend\\Horizon)->config(...))</code>"
             }
         }
     }
