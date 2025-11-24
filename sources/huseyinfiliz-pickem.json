@@ -62,7 +62,9 @@
                 "no_week": "No Week",
                 "allow_draw": "Allow Draw",
                 "home_score": "Home Score",
-                "away_score": "Away Score"
+                "away_score": "Away Score",
+                "search_team": "Search Team...",
+                "select_week": "Select Week"
             },
             "filters": {
                 "sort": "Sort",
@@ -120,6 +122,8 @@
                 "view_page": "View Pick'em page"
             },
             "settings": {
+                "reverse_display_label": "Reverse Home/Away Display",
+                "reverse_display_help": "If enabled, Away team will be shown on the left (or top) and Home team on the right (or bottom). Matches US sports format (Away @ Home).",
                 "recalc_help": "Recalculates all scores based on match results. Runs in background.",
                 "recalc_btn": "Recalculate Scores",
                 "recalc_confirm": "Are you sure? This process runs in the background.",
