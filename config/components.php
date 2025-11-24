@@ -823,7 +823,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/notificationhub/v0.3/resources/locale/en.yml',
 	],
 	'huseyinfiliz-pickem' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/pickem/1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/pickem/1.5/resources/locale/en.yml',
 	],
 	'huseyinfiliz-private-profile' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/private-profile/v1.1/locale/en.yml',
