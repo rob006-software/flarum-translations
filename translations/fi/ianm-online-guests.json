@@ -2,18 +2,18 @@
     "ianm-online-guests": {
         "admin": {
             "permissions": {
-                "view_online_guests_label": ""
+                "view_online_guests_label": "Näytä paikalla olevat vieraat"
             },
             "settings": {
-                "online_duration_label": "",
-                "cache_duration_label": ""
+                "online_duration_label": "Paikallaolon kesto",
+                "cache_duration_label": "Välimuistin kesto"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "description": "",
-                "guests_online": ""
+                "title": "Paikalla olevat vieraat",
+                "description": "Näyttää montako vierasta on tällä hetkellä foorumilla",
+                "guests_online": "{count, plural, one {vieras paikalla} other {vierasta paikalla}}"
             }
         }
     }
