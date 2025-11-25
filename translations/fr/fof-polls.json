@@ -104,7 +104,16 @@
             },
             "polls_list": {
                 "empty_text": "Il semble qu'il n'y ait pas de sondage communautaire ici.",
-                "load_more_button": "=> core.ref.load_more"
+                "load_more_button": "=> core.ref.load_more",
+                "sort_dropdown": {
+                    "newest": "",
+                    "oldest": "",
+                    "most_voted": "",
+                    "least_voted": "",
+                    "sort_dropdown": {
+                        "default": ""
+                    }
+                }
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",

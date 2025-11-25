@@ -104,7 +104,16 @@
             },
             "polls_list": {
                 "empty_text": "Parece que aquí no hay encuestas en toda la comunidad.",
-                "load_more_button": "=> core.ref.load_more"
+                "load_more_button": "=> core.ref.load_more",
+                "sort_dropdown": {
+                    "newest": "",
+                    "oldest": "",
+                    "most_voted": "",
+                    "least_voted": "",
+                    "sort_dropdown": {
+                        "default": ""
+                    }
+                }
             },
             "composer_discussion": {
                 "add_poll": "Añadir encuesta",

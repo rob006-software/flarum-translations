@@ -104,7 +104,16 @@
             },
             "polls_list": {
                 "empty_text": "Es sieht so aus, als gäbe es hier keine gemeinschaftsweiten Umfragen.",
-                "load_more_button": "Mehr laden"
+                "load_more_button": "Mehr laden",
+                "sort_dropdown": {
+                    "newest": "",
+                    "oldest": "",
+                    "most_voted": "",
+                    "least_voted": "",
+                    "sort_dropdown": {
+                        "default": ""
+                    }
+                }
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",

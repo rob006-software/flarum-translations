@@ -104,7 +104,16 @@
             },
             "polls_list": {
                 "empty_text": "看起來這裡好像沒有社區範圍內的民調。",
-                "load_more_button": "=> core.ref.load_more"
+                "load_more_button": "=> core.ref.load_more",
+                "sort_dropdown": {
+                    "newest": "",
+                    "oldest": "",
+                    "most_voted": "",
+                    "least_voted": "",
+                    "sort_dropdown": {
+                        "default": ""
+                    }
+                }
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",

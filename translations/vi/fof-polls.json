@@ -104,7 +104,16 @@
             },
             "polls_list": {
                 "empty_text": "Có vẻ như không có cuộc thăm dò ý kiến nào trên toàn cộng đồng ở đây.",
-                "load_more_button": "=> core.ref.load_more"
+                "load_more_button": "=> core.ref.load_more",
+                "sort_dropdown": {
+                    "newest": "",
+                    "oldest": "",
+                    "most_voted": "",
+                    "least_voted": "",
+                    "sort_dropdown": {
+                        "default": ""
+                    }
+                }
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",

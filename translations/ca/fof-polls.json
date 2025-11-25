@@ -104,7 +104,16 @@
             },
             "polls_list": {
                 "empty_text": "Sembla que no hi ha cap enquesta per a tota la comunitat aquí.",
-                "load_more_button": "Carregar més"
+                "load_more_button": "Carregar més",
+                "sort_dropdown": {
+                    "newest": "",
+                    "oldest": "",
+                    "most_voted": "",
+                    "least_voted": "",
+                    "sort_dropdown": {
+                        "default": ""
+                    }
+                }
             },
             "composer_discussion": {
                 "add_poll": "=> fof-polls.forum.moderation.add",
