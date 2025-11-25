@@ -6,7 +6,7 @@
                 "enable_redis_sessions": "Ota käyttöön Redis istunnot (kaikki käyttäjät kirjataan ulos tämän muutoksen jälkeen)",
                 "enable_queue": "Ota käyttöön Redis jono",
                 "horizon_config": "Horizon asetukset (format: JSON).",
-                "horizon_help_text": "Nämä asetukset välitetään <code>(new \\Blomstra\\Horizon\\Extend\\Horizon)->config(...))</code>"
+                "horizon_help_text": "Nämä asetukset välitetään <code>(new \\FoF\\Horizon\\Extend\\Horizon)->config(...))</code>"
             }
         }
     }
