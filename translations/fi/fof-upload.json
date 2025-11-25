@@ -70,7 +70,7 @@
                     "cdn_url": "Sisällönjakoverkon osoite (CDN) (tulee tiedostojen etuliitteeksi)",
                     "title": "Paikallisen tallennustilan asetukset"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "Tallennustilan asetukset on esimääritetty ympäristömuuttujista.",
                 "qiniu": {
                     "title": "Qiniu tallennustilan asetukset",
                     "key": "Avain (key)",
@@ -98,10 +98,10 @@
                     "toggle": "Laita kuviin vesileima"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "SVG sanitoija",
+                    "allow_animate": "Salli SVG animaatiot",
+                    "help": "Määritä, miten SVG-tiedostoja käsitellään ja puhdistetaan latauksen yhteydessä. SVG-tiedostot voivat sisältää potentiaalisesti haitallisia skriptejä, joten niitä tulee käsitellä huolellisesti. Ladatuille SVG-tiedostoille suoritetaan puhdistus latauksen yhteydessä, ja haitalliset skriptit sekä tagit poistetaan.",
+                    "allow_animate_help": "SVG-animaatioiden salliminen voi aiheuttaa tietoturva-aukkoja, sillä animoidut SVG-tiedostot voivat sisältää haitallista koodia. Ota tämä asetus käyttöön omalla vastuullasi ja vain, jos luotat käyttäjiisi."
                 },
                 "composer_buttons": {
                     "title": "Tekstieditorin napit",
