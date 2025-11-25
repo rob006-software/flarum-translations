@@ -109,11 +109,11 @@
         },
         "validation": {
             "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
+                "name": "nama",
+                "slug": "slug",
+                "is_hidden": "tersembunyi",
+                "description": "deskripsi",
+                "color": "warna",
                 "tag_count_primary": "=> validation.attributes.tag_count_primary",
                 "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
             }
