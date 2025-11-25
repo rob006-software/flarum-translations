@@ -19,8 +19,8 @@
                 "allow_image_uploads_help": "Mikäli käytössä, käyttäjät voivat siirtää kuvia antamalla kuvan osoitteen (jos käytössä valinnoille, aina käytössä kyselylle).",
                 "enable_global_polls": "Ota käyttöön yleiset kyselyt",
                 "enable_global_polls_help": "Yleiset kyselyt eivät ole kiinnitettyjä johonkin tiettyyn viestiin ja ne näkyy määritetyllä kyselyt sivulla.",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": "",
+                "enabled_poll_groups": "Ota käyttöön kyselyryhmät",
+                "enabled_poll_groups_help": "Kyselyryhmät sallii ryhmittää yleiset kyselyt yhteen ja näyttää ne määritetyllä sivulla.",
                 "max_options": "Maksimi määrä vaihtoehtoja per kysely",
                 "options_color_blend": "Värimuunnos teksti viestin vaihtoehdoista",
                 "options_color_blend_help": "Käytä tätä tehdäksesi kyselyn vaihtoehdoista luettavampia. Ota pois käytöstä jos tämä tuottaa ongelmia foorumin ulkoasun kanssa.",
@@ -37,9 +37,9 @@
                 "vote": "Vastata kyselyissä",
                 "change_vote": "Vaihtaa vastausta",
                 "moderate": "Muokata & poistaa kyselyitä",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_group": "Näytä kyselyryhmät",
+                "start_group": "Luo kyselyryhmiä",
+                "moderate_group": "Muokkaa ja poista kyselyryhmiä"
             }
         },
         "forum": {
@@ -72,31 +72,31 @@
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "add_title": "Lisää kyselyryhmä",
+                    "edit_title": "Muokkaa kyselyryhmää",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Poista kyselyryhmä",
+                    "groups_manager": "Kyselyryhmän hallitsija",
+                    "view_group": "Näytä kyselyryhmä",
+                    "success": "Kyselyryhmät tallennettu onnistuneesti."
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "Kyselyryhmät",
+                    "start_poll_group_button": "Aloita kyselyryhmä",
+                    "cannot_start_poll_group_button": "Et voi aloittaa kyselyryhmää",
+                    "empty_text": "Näyttää siltä, että täällä ei ole kyselyryhmiä.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Tässä kyselyryhmässä ei ole kyselyitä.",
+                    "add_poll_button": "Lisää kysely ryhmään"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "add_poll_label": "Lisää kysely",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Näytä kyselyryhmä",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Haluatko varmasti poistaa tämän kyselyryhmän?",
+                    "delete_success_message": "Kyselyryhmä poistettu onnistuneesti.",
+                    "delete_error_message": "Jotain meni pieleen, kun kyselyryhmää poistettiin."
                 }
             },
             "polls_page": {
@@ -169,7 +169,7 @@
             "page": {
                 "nav": "Kyselyt",
                 "nav-all": "Kaikki yleiset kyselyt",
-                "nav-groups": ""
+                "nav-groups": "Kyselyryhmät"
             },
             "showcase": {
                 "active-polls": "Aktiiviset kyselyt",
