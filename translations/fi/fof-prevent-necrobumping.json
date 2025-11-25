@@ -5,8 +5,8 @@
                 "warning": {
                     "title": "Tämä keskustelu on yli <b>{time}</b> vanha.",
                     "description": "On todennäköistä, että tämä aihe on käsitelty jo ja ei tarvitse enää lisää keskustelua joten aiheen nostaminen on turhaa.",
-                    "cta": "",
-                    "cta_button": "",
+                    "cta": "Haluaisitko aloittaa uuden keskustelun?",
+                    "cta_button": "=> core.ref.start_a_discussion",
                     "checkbox_label": "Ymmärrän, että keskustelu on suhteellisen vanha, mutta haluan silti vastata.",
                     "error": "Tämä keskustelu on liian vanha uusille vastauksille."
                 }
@@ -14,8 +14,8 @@
         },
         "admin": {
             "settings": {
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
+                "show_discussion_cta_label": "Näytä CTA",
+                "show_discussion_cta_help": "Näytä toimintakehotus vastattaessa keskusteluun, joka on vanhempi kuin määritelty määrä päiviä, eikä siihen ole asetettu mukautettua kuvausta.",
                 "days_label": "Päivät",
                 "days_help": "Keskustelu merkitään vanhaksi kun valittu määrä päiviä on mennyt viimeisimmästä viestistä keskusteluun. Käytä arvoa <code>0</code> ottaaksesi tämän pois käytöstä oletuksena.",
                 "message_title_label": "Muokattu viestin otsikko",
