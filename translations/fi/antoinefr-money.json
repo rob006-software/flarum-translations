@@ -7,16 +7,16 @@
                 "moneyfordiscussion": "Uudesta keskustelusta annettava raha",
                 "moneyname": "Rahan nimi (esim. [money] pisteet)",
                 "postminimumlength": "Viestin minimi pituus, jotta saa rahaa (0 ottaa pois käytöstä)",
-                "ignore_notifying_users": "",
+                "ignore_notifying_users": "Kun lasketaan sanamäärää, keskity vain sisältöosioon",
                 "noshowzero": "Älä näytä arvoa jos se on nolla",
                 "autoremove": "Päivitä raha automaattisesti",
-                "cascaderemove": "",
+                "cascaderemove": "Poista raha viesteistä, kun keskustelu poistetaan",
                 "moneyforlike": "Tykätystä viestistä annettava raha",
                 "helpextensionlikes": "Vaatii <code>flarum/likes</code> lisäosan"
             },
             "permissions": {
                 "edit_money_label": "Muokkaa rahaa",
-                "disable_money_label": ""
+                "disable_money_label": "Ota raha pois käytöstä"
             },
             "autoremove": [
                 "Älä koskaan poista rahaa",
