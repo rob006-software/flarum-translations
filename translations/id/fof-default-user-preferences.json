@@ -2,10 +2,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "discloseOnline": "",
-                "discloseOnline-help": "",
-                "indexProfile": "",
-                "indexProfile-help": "",
+                "discloseOnline": "Tampilkan Status Online",
+                "discloseOnline-help": "Saat diaktifkan, pengguna baru akan mengizinkan orang lain melihat kapan mereka online. Admin dan pengguna lain yang memiliki izin tetap dapat melihat status online meskipun pengaturan ini diaktifkan.",
+                "indexProfile": "Indeks Profil",
+                "indexProfile-help": "Saat diaktifkan, pengguna baru akan mengizinkan mesin pencari mengindeks halaman profil mereka, kecuali diblokir oleh pengaturan situs atau ekstensi lain.",
                 "followAfterReply": "Ikuti setelah membalas",
                 "followAfterReply-help": "Ketika diaktifkan, pengguna baru akan secara otomatis mengikuti diskusi yang mereka balas atau komentari.",
                 "postMentioned": "Email postingan yang disebutkan",
@@ -13,7 +13,7 @@
                 "userMentioned": "Email pengguna yang disebutkan",
                 "userMentioned-help": "Ketika diaktifkan, pengguna baru akan secara otomatis memilih untuk menerima notifikasi email ketika mereka @disebutkan.",
                 "groupMentioned": "Email grup yang disebutkan",
-                "groupMentioned-help": "Ketika diaktifkan, pengguna baru akan secara otomatis memilih untuk menerima pemberitahuan email ketika grup yang mereka ikuti disebutkan."
+                "groupMentioned-help": "Ketika diaktifkan, pengguna baru akan secara otomatis memilih untuk menerima notifikasi email ketika grup yang mereka ikuti disebutkan."
             }
         }
     }
