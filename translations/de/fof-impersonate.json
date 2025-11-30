@@ -2,7 +2,7 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": "Anmelden als andere Nutzer"
+                "login": "Als andere Benutzer anmelden"
             },
             "settings": {
                 "title": "FoF Impersonate",
@@ -12,14 +12,14 @@
         },
         "lib": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Als anderer Benutzer anmelden",
+                "label": "Mit großer Macht kommt große Verantwortung. Wenn du fortfährst, wirst du bis zum Abmelden zu {username}.",
+                "placeholder_optional": "(Optional) Gib einen Grund für den Wechsel zu diesem Benutzer an.",
+                "placeholder_required": "Du musst einen Grund für den Wechsel zu diesem Benutzer angeben, bevor du fortfahren kannst",
+                "impersonate_username": "Als {username} anmelden"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Als Benutzer anmelden"
             }
         },
         "forum": {
