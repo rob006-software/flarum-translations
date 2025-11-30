@@ -32,7 +32,7 @@
                 "title": "Doorman",
                 "doorkey": {
                     "used_times": "{remaining, plural, one {{remaining} Verwendung verbleibend} other {{remaining} Verwendungen verbleibend}}",
-                    "total_uses": "",
+                    "total_uses": "{totalUses, plural, one {{totalUses} Mal verwendet} other {{totalUses} Mal verwendet}}",
                     "title": "Einladungscodes",
                     "help": {
                         "key": "Schlüssel: Code, den der Benutzer bei der Registrierung eingibt.",
@@ -66,12 +66,12 @@
                         "help": "Die Gruppe, zu der Benutzer bei Verwendung dieses Einladungscodes zur Registrierung hinzugefügt wird."
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "Max. Verwendungen",
+                        "help": "Die maximale Anzahl von Verwendungen des Codes. Setze auf 0 für unbegrenzte Verwendungen"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "Aktiviert Benutzer",
+                        "help": "Benutzer wird bei Registrierung automatisch aktiviert."
                     }
                 }
             },
@@ -79,29 +79,29 @@
                 "create_doorkey": {
                     "title": "Neuen Einladungscode erstellen",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
                     "submit_button": "Einladungscode erstellen",
-                    "submit_and_create_another_button": ""
+                    "submit_and_create_another_button": "Erstellen und noch einen hinzufügen"
                 },
                 "edit_doorkey": {
-                    "title": "",
+                    "title": "Einladungscode bearbeiten",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
                         "label": "=> fof-doorman.admin.ref.fields.group.label",
@@ -136,33 +136,33 @@
             },
             "list": {
                 "columns": {
-                    "id": "",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "id": "ID",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Verwalten",
+                    "uses": "Verwendungen",
+                    "created_by": "Erstellt von"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
                     "warning": "",
                     "delete": "Soll der Einladungscode \"{key}\" gelöscht werden?",
                     "uses": {
                         "used_times": "",
                         "total_uses": ""
                     },
-                    "no_created_by": ""
+                    "no_created_by": "Unbekannter Benutzer"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.admin.users.pagination.first_page_button",
+                    "back_button": "=> core.admin.users.pagination.back_button",
+                    "page_counter": "=> core.admin.users.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.admin.users.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.admin.users.pagination.next_button",
+                    "last_page_button": "=> core.admin.users.pagination.last_page_button"
                 }
             }
         },

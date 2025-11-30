@@ -17,11 +17,11 @@
                 "placeholder": "Durch Komma und Leerzeichen getrennte Zeichenfolgen",
                 "filter_title": "=> fof-filter.ref.strings_to_filter",
                 "email_label": "E-Mail Einstellungen",
-                "email_help": "",
+                "email_help": "Leer lassen, um Übersetzungen zu verwenden. Du kannst FoF Linguist verwenden, um die E-Mail zu übersetzen.",
                 "switch": {
                     "email": "Sende E-Mail an Verfasser wenn Beitrag gefiltert wird",
                     "merge": "Doppelte Beiträge automatisch zusammenführen",
-                    "delete": ""
+                    "delete": "Gefilterte Beiträge automatisch löschen"
                 },
                 "email_subject": "Betreff",
                 "email_body": "Inhalt"
@@ -35,7 +35,7 @@
             },
             "email": {
                 "default_subject": "Bezüglich deines letzten Beitrags",
-                "default_text": "Vielen Dank für deinen Beitrag! Leider wurde dein Beitrag entfernt, weil er etwas enthielt, das wir in unseren Foren nicht sehen wollen.\n\nJeder automatisch entfernte Post wird von unseren Moderatoren überprüft. Wenn die Entfernung des Beitrags ein Fehler war wird er vom Moderationsteam wieder hergestellt.\n\nDanke für dein Verständnis."
+                "default_text": "%USERNAME%,\n\nVielen Dank für deinen Beitrag! Leider wurde dein Beitrag entfernt, weil er etwas enthielt, das wir in unseren Foren nicht sehen wollen.\n\nJeder automatisch entfernte Post wird von unseren Moderatoren überprüft. Wenn die Entfernung des Beitrags ein Fehler war, wird er vom Moderationsteam wieder hergestellt.\n\nDanke für dein Verständnis.\n"
             }
         }
     }

@@ -2,43 +2,43 @@
     "kilowhat-formulaire": {
         "admin": {
             "permissions": {
-                "heading": "",
-                "heading-advanced": "",
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "create": "",
-                "moderate": "",
-                "export": "",
-                "exportUserDetails": "",
-                "listForms": "",
-                "listSubmissions": ""
+                "heading": "Formulaire",
+                "heading-advanced": "Formulaire (Optionen für Erweiterungen von Drittanbietern)",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
+                "create": "Formulare erstellen (Beta)",
+                "moderate": "Alle Formulare moderieren",
+                "export": "Eingereichte Daten exportieren",
+                "exportUserDetails": "Auf Private Nutzerdaten in Exporten zugreifen",
+                "listForms": "Liste der nicht gelöschten Formulare anzeigen",
+                "listSubmissions": "Liste der Einreichungen anzeigen"
             },
             "settings": {
-                "title": "",
-                "max-file-size": "",
-                "history-controls": "",
-                "side-nav-on-submission": "",
-                "checkbox-style": "",
-                "radio-style": "",
+                "title": "Globale Formulareinstellungen",
+                "max-file-size": "Maximale Dateigröße (kB)",
+                "history-controls": "Schaltflächen für rückgängig/wiederholen auf der Einreichungsseite anzeigen",
+                "side-nav-on-submission": "Seitennavigation auf der Einreichungsseite anzeigen",
+                "checkbox-style": "Kontrollkästchenstil",
+                "radio-style": "Optionsfeldstil",
                 "style-options": {
-                    "far-square": "",
-                    "fas-square": "",
-                    "far-circle": "",
-                    "fas-circle": "",
-                    "switch": "",
-                    "native": ""
+                    "far-square": "FontAwesome quadratisches Standardsymbol",
+                    "fas-square": "FontAwesome ausgefülltes quadratisches Symbol",
+                    "far-circle": "FontAwesome rundes Standardsymbol",
+                    "fas-circle": "FontAwesome ausgefülltes rundes Symbol",
+                    "switch": "Flarum-Schalter",
+                    "native": "Native Browser-Schaltflächen"
                 },
-                "horizontal-layout": "",
+                "horizontal-layout": "Horizontales Formularlayout verwenden",
                 "horizontal-layout-locations": {
-                    "standaloneEdit": "",
-                    "standaloneView": "",
+                    "standaloneEdit": "Separate Seite zum Ausfüllen/Bearbeiten",
+                    "standaloneView": "Separate Anzeigeseite",
                     "profileEdit": "",
                     "profileView": "",
                     "signUp": "",
@@ -54,92 +54,92 @@
         },
         "forum": {
             "nav": {
-                "forms": ""
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "",
-                    "documentation": "",
-                    "discuss": ""
+                    "title": "=> kilowhat-formulaire.ref.manager",
+                    "documentation": "Vollständige Online-Dokumentation",
+                    "discuss": "Auf Flarum Discuss diskutieren"
                 },
                 "tabs": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "",
-                "load-more": "",
-                "search": "",
-                "new": "",
-                "edit": "",
-                "show": "",
-                "submissions": "",
+                "empty": "Keine Formulare",
+                "load-more": "Mehr laden",
+                "search": "Formulare durchsuchen...",
+                "new": "Neues Formular",
+                "edit": "Bearbeiten",
+                "show": "Anzeigen",
+                "submissions": "Einreichungen",
                 "columns": {
-                    "title": "",
-                    "accept-submissions": "",
+                    "title": "Titel",
+                    "accept-submissions": "Öffnen",
                     "allow-modification": "",
                     "enabled": "",
-                    "submissions": "",
-                    "actions": ""
+                    "submissions": "Einreichungen",
+                    "actions": "Aktionen"
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "Globale Berechtigungen",
+                "admin-only": "Nur Foren-Administratoren können globale Berechtigungen bearbeiten",
                 "permissions": {
-                    "fill": "",
-                    "seeOwnUser": "",
-                    "seeAnyUser": "",
-                    "editOwnUser": "",
-                    "editAnyUser": "",
-                    "seeOwnDiscussion": "",
-                    "seeAnyDiscussion": "",
-                    "editOwnDiscussion": "",
-                    "editAnyDiscussion": ""
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
                 }
             },
             "form-create": {
-                "title": "",
+                "title": "Neues Formular",
                 "field": {
-                    "title": ""
+                    "title": "Titel"
                 },
                 "button": {
-                    "create": ""
+                    "create": "Formular erstellen"
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "Zurück",
                 "category": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
+                    "template": "Vorlage",
                     "placement": "",
-                    "access": "",
+                    "access": "Zugriff",
                     "notifications": "",
                     "submissions": ""
                 },
                 "access-status": {
-                    "closed": "",
+                    "closed": "Geschlossen",
                     "create": "",
                     "edit": "",
                     "both": "",
                     "enabled": "",
-                    "disabled": ""
+                    "disabled": "Entwurf"
                 },
                 "controls": "",
                 "template-export": "",
                 "enable-expert-mode": "",
                 "disable-expert-mode": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
+                "restore": "Wiederherstellen",
+                "hide": "Löschen",
+                "delete": "Dauerhaft löschen",
+                "delete-confirmation": "Das Formular „{title}“ wird dauerhaft gelöscht",
                 "fields": {
-                    "private-title": "",
-                    "slug": ""
+                    "private-title": "Privater Titel",
+                    "slug": "Benutzerdefinierter URL-Slug (optional)"
                 }
             },
             "form-edit": {
@@ -151,18 +151,18 @@
                 },
                 "expert-mode-warning": "",
                 "section": {
-                    "template": "",
-                    "permissions": ""
+                    "template": "Vorlage",
+                    "permissions": "Berechtigungen"
                 },
                 "field": {
-                    "link": "",
-                    "title": "",
+                    "link": "Spezielle Formulartypen",
+                    "title": "Öffentlicher Titel",
                     "show-on-creation": {
                         "discussion": "",
                         "discussionHelp": "",
                         "user": ""
                     },
-                    "automatic-discussion": "",
+                    "automatic-discussion": "Automatisch Diskussion aus Formular-Einreichung erstellen",
                     "automatic-discussion-help": "",
                     "accept-submissions": "",
                     "allow-modification": "",
@@ -325,18 +325,18 @@
                 "oldest": ""
             },
             "form-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Neue Formulare",
+                "oldest": "Älteste Formulare"
             },
             "export": {
                 "title": "",
                 "format": "",
                 "heading": "",
                 "fields": "",
-                "meta": "",
+                "meta": "Metadaten",
                 "more-meta": "",
                 "option-keys": "",
-                "submit": "",
+                "submit": "Herunterladen",
                 "preview": "",
                 "format-options": {
                     "xlsx": "",
@@ -365,20 +365,20 @@
                 },
                 "preview-primitives": {
                     "excel-date": "",
-                    "boolean-true": "",
-                    "boolean-false": ""
+                    "boolean-true": "Wahr",
+                    "boolean-false": "Falsch"
                 }
             },
             "discussion-submission": {
-                "empty": "",
-                "edit": ""
+                "empty": "Noch keine Daten",
+                "edit": "Bearbeiten"
             },
             "discussion-composer": {
                 "field": {
-                    "tags": "",
-                    "poll": "",
-                    "title": "",
-                    "content": ""
+                    "tags": "Tags",
+                    "poll": "Umfrage",
+                    "title": "Titel",
+                    "content": "Nachricht"
                 }
             }
         },
