@@ -634,7 +634,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/1.1.1/resources/locale/en.yml',
 	],
 	'fof-horizon' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/horizon/1.0.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/horizon/1.0.5/resources/locale/en.yml',
 	],
 	'fof-html-errors' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/html-errors/1.1.2/locale/en.yml',
