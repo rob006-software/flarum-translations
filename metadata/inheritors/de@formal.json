@@ -5683,11 +5683,11 @@
             "forum": {
                 "email": {
                     "subject": "f81ccab0a5285c76e056c65793659213 f81ccab0a5285c76e056c65793659213",
-                    "body": "592d12a5f2d7a32b7eb76be6d5ae1dab 592d12a5f2d7a32b7eb76be6d5ae1dab"
+                    "body": "e446ef8054935d2c64fa5b69ee5d4fcf e446ef8054935d2c64fa5b69ee5d4fcf"
                 },
                 "sign_up": {
                     "invalid_doorkey": "ae6199a763c0c9211fa67263f551c2c4 ae6199a763c0c9211fa67263f551c2c4",
-                    "doorkey_required": "8bfc8ac3a007cdd4383cde6771b7db9a 8bfc8ac3a007cdd4383cde6771b7db9a",
+                    "doorkey_required": "9306cd7c4f8fe678adef94f5c1dc85a4 9306cd7c4f8fe678adef94f5c1dc85a4",
                     "doorman_placeholder": "1d7fc62a314d2f565ec9d2e2be1694d5 1d7fc62a314d2f565ec9d2e2be1694d5",
                     "doorman_placeholder_optional": "e1e2ec9983034714a66140635ba4626e e1e2ec9983034714a66140635ba4626e"
                 }
@@ -5925,7 +5925,7 @@
                 "title": "d7778d0c64b6ba21494c97f77a66885a d7778d0c64b6ba21494c97f77a66885a",
                 "bad_words_help": "2d01a824e72df442ebc782af8e3d412b 2d01a824e72df442ebc782af8e3d412b",
                 "help2": "2c77aea3a4199da6504f8cd6a4fbd3ac 2c77aea3a4199da6504f8cd6a4fbd3ac",
-                "email_help": "2f09c23948edc1dd49dc0fc101de681e 2f09c23948edc1dd49dc0fc101de681e",
+                "email_help": "4133f96a5d363ebe51564cc2be3a69b4 4133f96a5d363ebe51564cc2be3a69b4",
                 "filter_label": "303e92321f093f39513aff49be7d5367 303e92321f093f39513aff49be7d5367",
                 "countLabel": "86ca2ed58ec8f7783a515661f2a456b1 86ca2ed58ec8f7783a515661f2a456b1",
                 "cooldownLabel": "59f8fac5324e9e1d17a8fffcc052d488 59f8fac5324e9e1d17a8fffcc052d488",
@@ -6005,14 +6005,14 @@
                 },
                 "user": {
                     "settings": {
-                        "heading": "3fe280e523b1639cb34bf62fb07567e7 3fe280e523b1639cb34bf62fb07567e7",
-                        "filter_label": "278ffe0c6aa661193de1b688e9f6fe43 278ffe0c6aa661193de1b688e9f6fe43"
+                        "heading": "0d872d7b274758433e62fa87d816687b 0d872d7b274758433e62fa87d816687b",
+                        "filter_label": "10e09b1c74341dbbfcc50fb11c49a35a 10e09b1c74341dbbfcc50fb11c49a35a"
                     }
                 }
             },
             "admin": {
                 "settings": {
-                    "following_page_default_label": "0c341e5f63a20fc158fe2cc7cf7bb578 0c341e5f63a20fc158fe2cc7cf7bb578",
+                    "following_page_default_label": "d288cec951f83bcb9931b3376de423b3 d288cec951f83bcb9931b3376de423b3",
                     "following_none_label": "c2b7927faa73f9f639de8389ee34c245 c2b7927faa73f9f639de8389ee34c245",
                     "following_tags_label": "186170da9a7c0ef08f1154991cf808dd 186170da9a7c0ef08f1154991cf808dd"
                 }
@@ -6255,12 +6255,27 @@
     "fof-geoip.json": {
         "fof-geoip": {
             "admin": {
+                "permissions": {
+                    "see_country": "83502ccc7cbc4d05f57efcf66762aa57 83502ccc7cbc4d05f57efcf66762aa57"
+                },
                 "settings": {
-                    "service_label": "ba2ae7aacfa801d4411d8e5be394ba41 ba2ae7aacfa801d4411d8e5be394ba41",
+                    "general": {
+                        "heading": "02be9999832d9b4f68c22d725bc04789 02be9999832d9b4f68c22d725bc04789",
+                        "help": "6d79666691cd1bcf53ecff3f865f5c03 6d79666691cd1bcf53ecff3f865f5c03"
+                    },
+                    "providers": {
+                        "heading": "db0787cbe44944df9c9a3b033dcdade2 db0787cbe44944df9c9a3b033dcdade2"
+                    },
+                    "service_label": "09ed8615f82fe4a6e202bd9a2de6f541 09ed8615f82fe4a6e202bd9a2de6f541",
                     "service_ipdata_label": "bc6e14bfd8041d29d22a77aca2d25b43 bc6e14bfd8041d29d22a77aca2d25b43",
                     "service_ipdata_description": "4e774ba7ad3849e8eb942e7614452a4f 4e774ba7ad3849e8eb942e7614452a4f",
                     "service_ipapi_label": "c250685b1b65f5e2c344711553979fcc c250685b1b65f5e2c344711553979fcc",
-                    "service_ipapi_description": "282abfb7c68dc310f5944613e7d79913 282abfb7c68dc310f5944613e7d79913",
+                    "service_ipapi_description": "1550f84768e4277535b3a49e13bb92e6 1550f84768e4277535b3a49e13bb92e6",
+                    "service_ipapi-pro_label": "b618f0f03cd3a4997ea86b35e26f361b b618f0f03cd3a4997ea86b35e26f361b",
+                    "service_ipapi-pro_description": "7a257f1008200b6e05f2b58458e56b59 7a257f1008200b6e05f2b58458e56b59",
+                    "service_iplocation_label": "853cf441fed13757e7327b53c4bdf2a2 853cf441fed13757e7327b53c4bdf2a2",
+                    "service_ipsevenex_label": "565119aa5b5f8bcd0a4a6d06c564fc6f 565119aa5b5f8bcd0a4a6d06c564fc6f",
+                    "service_ipinfo-lite_label": "b61995cdb1458dbfdf855425fae26f64 b61995cdb1458dbfdf855425fae26f64",
                     "access_key_label": "19ad1e93c00c905a0a13e5c2ecbc796b 19ad1e93c00c905a0a13e5c2ecbc796b",
                     "show_flag_label": "87b941554e01b09a5df755967164fafe 87b941554e01b09a5df755967164fafe",
                     "show_flag_help": "0323e5434dde8059a11f16b3c2cc08be 0323e5434dde8059a11f16b3c2cc08be"

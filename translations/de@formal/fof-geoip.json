@@ -2,29 +2,29 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": ""
+                "see_country": "Land zur IP-Adresse immer anzeigen"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Allgemeine Einstellungen",
+                    "help": "Diese Einstellungen legen das allgemeine Verhalten der Erweiterung fest."
                 },
                 "providers": {
-                    "heading": "",
+                    "heading": "IP-Lookup-Dienst",
                     "help": ""
                 },
-                "service_label": "Dienstleistung",
+                "service_label": "Dienstanbieter",
                 "service_ipdata_label": "IPData",
                 "service_ipdata_description": "Verwende <b>https://ipdata.co</b>, um täglich bis zu 1.500 kostenlose Auflösungen durchzuführen.",
                 "service_ipapi_label": "IP Api",
-                "service_ipapi_description": "Verwende <b>http://ip-api.com/</b>, um bis zu 150 kostenlose Auflösungen pro Minute durchzuführen. Wenn Du mehr durchführst, wird Deine IP möglicherweise auf die schwarze Liste gesetzt, wonach Du sie unter <b>http://ip-api.com/docs/unban</b> aufheben kannst.",
-                "service_ipapi-pro_label": "",
-                "service_ipapi-pro_description": "",
-                "service_iplocation_label": "",
+                "service_ipapi_description": "Verwende <b>http://ip-api.com/</b>, um bis zu 45 kostenlose Auflösungen pro Minute durchzuführen. Wenn Du mehr durchführst, werden deine Anfragen eingereiht und erst nach dem Zurücksetzen des Zeitfensters aufgelöst.",
+                "service_ipapi-pro_label": "IP Api Pro",
+                "service_ipapi-pro_description": "Verwende <b>https://members.ip-api.com/#pricing</b>. Das Pro-Abonnement beinhaltet uneingeschränkte Nutzung.",
+                "service_iplocation_label": "IP Location",
                 "service_iplocation_description": "",
-                "service_ipsevenex_label": "",
+                "service_ipsevenex_label": "7x Geolocation API",
                 "service_ipsevenex_description": "",
-                "service_ipinfo-lite_label": "",
+                "service_ipinfo-lite_label": "IPInfo Lite",
                 "service_ipinfo-lite_description": "",
                 "access_key_label": "Zugangsschlüssel",
                 "quota_label": "",
