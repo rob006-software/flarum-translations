@@ -1162,7 +1162,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-youtube-video-feed`](https://weblate.rob006.net/projects/flarum/justoverclock-youtube-video-feed) | [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed) |
 | [`katosdev-signature`](https://weblate.rob006.net/projects/flarum/katosdev-signature) | [`katosdev/signature`](https://github.com/katosdev/signature) |
 | [`kilowhat-audit-free`](https://weblate.rob006.net/projects/flarum/kilowhat-audit-free) | [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free) |
-| [`kk14569-anti-gmail-alias`](https://weblate.rob006.net/projects/flarum/kk14569-anti-gmail-alias) | [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias) |
 | [`klxf-maintenance`](https://weblate.rob006.net/projects/flarum/klxf-maintenance) | [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance) |
 | [`krombox-oauth-wordpress`](https://weblate.rob006.net/projects/flarum/krombox-oauth-wordpress) | [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress) |
 | [`kyrne-evergreen`](https://weblate.rob006.net/projects/flarum/kyrne-evergreen) | [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen) |
