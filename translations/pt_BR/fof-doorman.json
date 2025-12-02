@@ -1,60 +1,6 @@
 {
     "fof-doorman": {
-        "forum": {
-            "email": {
-                "subject": "Convidar para Participar",
-                "body": "Olá,\n\nVocê foi convidado a se inscrever em {forum}.\n\nQuando estiver pronto para criar sua conta, basta clicar no link a seguir e inserir o código ao se inscrever:\n\nURL: {url}\nCódigo de Convite: {code}\n\nSe você recebeu isso por engano, ignore este e-mail.\n"
-            },
-            "sign_up": {
-                "invalid_doorkey": "O código de convite inserido é inválido.",
-                "doorkey_required": "Insira um código de convite.",
-                "doorman_placeholder": "Código de Convite",
-                "doorman_placeholder_optional": "Código de Convite (opcional)"
-            }
-        },
         "admin": {
-            "modal": {
-                "title": "Enviar Códigos de Convite",
-                "group": "Enviando convites para o grupo {group}",
-                "help": "Aceita uma lista separada por vírgula, espaço. Digite um e-mail individual ou cole uma lista e pressione espaço para adicioná-los.",
-                "placeholder": "Digite e-mails aqui",
-                "invalid_emails": "Os seguintes e-mails são inválidos: {emails}",
-                "max_use_conflict": "O número de e-mails excede o número máximo de usos para este código.",
-                "send": "Enviar Emails",
-                "success": "Emails enviados com sucesso"
-            },
-            "invalid_doorkey": "O código de convite fornecido é inválido.",
-            "doorkey_required": "Você deve fornecer um Código de Convite",
-            "nav": {
-                "desc": "Crie códigos de convite para os usuários se inscreverem e serem atribuídos a um grupo"
-            },
-            "page": {
-                "title": "Doorman",
-                "doorkey": {
-                    "used_times": "{remaining, plural, one {{remaining} Uso Restante} other {{remaining} Usos Restantes}}",
-                    "total_uses": "",
-                    "title": "Códigos de Convite",
-                    "help": {
-                        "key": "Informação: Código que o usuário digitará ao se registrar.",
-                        "group": "Grupo: O grupo ao qual o usuário será adicionado ao se registrar.",
-                        "max": "Uso Máximo: O número máximo de vezes que o código pode ser usado, defina como 0 para usos ilimitados",
-                        "activates": "Ativa Usuário: Ativa automaticamente o usuário quando ele se cadastra."
-                    },
-                    "warning": "Este código de convite foi usado o número máximo de vezes.",
-                    "key": "Informação",
-                    "max_uses": "Uso Máximo",
-                    "heading": {
-                        "key": "Informação",
-                        "group": "Grupo",
-                        "activate": "Ativa Usuário",
-                        "max_uses": "Uso Máximo"
-                    },
-                    "allow-public": {
-                        "title": "Permitir inscrição Pública",
-                        "switch-label": "Torne o código de convite opcional ao se inscrever"
-                    }
-                }
-            },
             "ref": {
                 "fields": {
                     "key": {
@@ -164,6 +110,59 @@
                     "next_button": "",
                     "last_page_button": ""
                 }
+            },
+            "modal": {
+                "title": "Enviar Códigos de Convite",
+                "group": "Enviando convites para o grupo {group}",
+                "help": "Aceita uma lista separada por vírgula, espaço. Digite um e-mail individual ou cole uma lista e pressione espaço para adicioná-los.",
+                "placeholder": "Digite e-mails aqui",
+                "invalid_emails": "Os seguintes e-mails são inválidos: {emails}",
+                "max_use_conflict": "O número de e-mails excede o número máximo de usos para este código.",
+                "send": "Enviar Emails",
+                "success": "Emails enviados com sucesso"
+            },
+            "invalid_doorkey": "O código de convite fornecido é inválido.",
+            "doorkey_required": "Você deve fornecer um Código de Convite",
+            "nav": {
+                "desc": "Crie códigos de convite para os usuários se inscreverem e serem atribuídos a um grupo"
+            },
+            "page": {
+                "title": "Doorman",
+                "doorkey": {
+                    "used_times": "{remaining, plural, one {{remaining} Uso Restante} other {{remaining} Usos Restantes}}",
+                    "title": "Códigos de Convite",
+                    "help": {
+                        "key": "Informação: Código que o usuário digitará ao se registrar.",
+                        "group": "Grupo: O grupo ao qual o usuário será adicionado ao se registrar.",
+                        "max": "Uso Máximo: O número máximo de vezes que o código pode ser usado, defina como 0 para usos ilimitados",
+                        "activates": "Ativa Usuário: Ativa automaticamente o usuário quando ele se cadastra."
+                    },
+                    "warning": "Este código de convite foi usado o número máximo de vezes.",
+                    "key": "Informação",
+                    "max_uses": "Uso Máximo",
+                    "heading": {
+                        "key": "Informação",
+                        "group": "Grupo",
+                        "activate": "Ativa Usuário",
+                        "max_uses": "Uso Máximo"
+                    },
+                    "allow-public": {
+                        "title": "Permitir inscrição Pública",
+                        "switch-label": "Torne o código de convite opcional ao se inscrever"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "sign_up": {
+                "invalid_doorkey": "O código de convite inserido é inválido.",
+                "doorkey_required": "Insira um código de convite.",
+                "doorman_placeholder": "Código de Convite",
+                "doorman_placeholder_optional": "Código de Convite (opcional)"
+            },
+            "email": {
+                "subject": "Convidar para Participar",
+                "body": "Olá,\n\nVocê foi convidado a se inscrever em {forum}.\n\nQuando estiver pronto para criar sua conta, basta clicar no link a seguir e inserir o código ao se inscrever:\n\nURL: {url}\nCódigo de Convite: {code}\n\nSe você recebeu isso por engano, ignore este e-mail.\n"
             }
         },
         "email": {

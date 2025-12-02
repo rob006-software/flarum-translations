@@ -1,60 +1,6 @@
 {
     "fof-doorman": {
-        "forum": {
-            "email": {
-                "subject": "Kutsu liituma",
-                "body": "Tere,\n\nSind on kutsutud liituma foorumiga {forum}.\n\nKui oled valmis oma kontot looma, siis lihtsalt kliki järgneval lingil ja sisesta registreerumisel kood:\n\nLink: {url}\nKutse kood: {code}\n\nKui tundub, et see kiri pole mõeldud sulle, siis lihtsalt ignoreeri seda kirja.\n"
-            },
-            "sign_up": {
-                "invalid_doorkey": "Sinu sisestatud kutse kood on vigane.",
-                "doorkey_required": "Palun sisesta kutse kood.",
-                "doorman_placeholder": "Kutse kood",
-                "doorman_placeholder_optional": "Kutse kood (valikuline)"
-            }
-        },
         "admin": {
-            "modal": {
-                "title": "Saata kutse koodid",
-                "group": "Saada kutsed grupile {group}",
-                "help": "Nimekiri võib olla eraldatud komade, tühikute või koma ja tühikuga. Kirjuta e-posti aadressid ükshaaval või kopeeri siia terve nimekiri ja vajuta tühikule, et need lisada.",
-                "placeholder": "Sisesta e-kirjad siia",
-                "invalid_emails": "Järgnevad e-posi aadressid on vigased: {emails}",
-                "max_use_conflict": "E-posti aadress ületab selle koodi maksimaalse kasutamise arvu.",
-                "send": "Saada kirjad",
-                "success": "Kirjad on saadetud"
-            },
-            "invalid_doorkey": "Sisestatud kutse kood on vigane.",
-            "doorkey_required": "Sa pead sisestama kutse koodi",
-            "nav": {
-                "desc": "Loo kutsete koodid, millega kasutajad saavad liituda ja kes määratakse kindlasse gruppi"
-            },
-            "page": {
-                "title": "Uksehoidja",
-                "doorkey": {
-                    "used_times": "{remaining, plural, =0 {Piiramatu} one {{remaining} kasutus järgi} other {{remaining} kasutust järgi}}",
-                    "total_uses": "{totalUses, plural, one {Kasutatud {totalUses} korda} other {Kasutatud {totalUses} korda}}",
-                    "title": "Kutse koodid",
-                    "help": {
-                        "key": "Võti: Kood, mida kasutaja liitumisel sisestab.",
-                        "group": "Grupp: Grupp, kuhu kasutaja liitumisel sisestatakse.",
-                        "max": "Maks kasutajaid: Mitu korda saab koodi kasutada. Sisesta 0, kui piirangut pole",
-                        "activates": "Aktiveerib kasutaja: Aktiveerib liitunud kasutaja automaatselt."
-                    },
-                    "warning": "Seda kutse koodi on kasutatud juba maksimaalne kasutamiskordade arv.",
-                    "key": "Võti",
-                    "max_uses": "Maks. kasutajaid",
-                    "heading": {
-                        "key": "Võti",
-                        "group": "Grupp",
-                        "activate": "Aktiveerib kasutajad",
-                        "max_uses": "Maks. kasutajaid"
-                    },
-                    "allow-public": {
-                        "title": "Lubab avaliku liitumise",
-                        "switch-label": "Tee kutse koodi kasutamine liitumisel vabatahtlikuks"
-                    }
-                }
-            },
             "ref": {
                 "fields": {
                     "key": {
@@ -164,6 +110,60 @@
                     "next_button": "=> core.admin.users.pagination.next_button",
                     "last_page_button": "=> core.admin.users.pagination.last_page_button"
                 }
+            },
+            "modal": {
+                "title": "Saata kutse koodid",
+                "group": "Saada kutsed grupile {group}",
+                "help": "Nimekiri võib olla eraldatud komade, tühikute või koma ja tühikuga. Kirjuta e-posti aadressid ükshaaval või kopeeri siia terve nimekiri ja vajuta tühikule, et need lisada.",
+                "placeholder": "Sisesta e-kirjad siia",
+                "invalid_emails": "Järgnevad e-posi aadressid on vigased: {emails}",
+                "max_use_conflict": "E-posti aadress ületab selle koodi maksimaalse kasutamise arvu.",
+                "send": "Saada kirjad",
+                "success": "Kirjad on saadetud"
+            },
+            "invalid_doorkey": "Sisestatud kutse kood on vigane.",
+            "doorkey_required": "Sa pead sisestama kutse koodi",
+            "nav": {
+                "desc": "Loo kutsete koodid, millega kasutajad saavad liituda ja kes määratakse kindlasse gruppi"
+            },
+            "page": {
+                "title": "Uksehoidja",
+                "doorkey": {
+                    "used_times": "{remaining, plural, =0 {Piiramatu} one {{remaining} kasutus järgi} other {{remaining} kasutust järgi}}",
+                    "total_uses": "{totalUses, plural, one {Kasutatud {totalUses} korda} other {Kasutatud {totalUses} korda}}",
+                    "title": "Kutse koodid",
+                    "help": {
+                        "key": "Võti: Kood, mida kasutaja liitumisel sisestab.",
+                        "group": "Grupp: Grupp, kuhu kasutaja liitumisel sisestatakse.",
+                        "max": "Maks kasutajaid: Mitu korda saab koodi kasutada. Sisesta 0, kui piirangut pole",
+                        "activates": "Aktiveerib kasutaja: Aktiveerib liitunud kasutaja automaatselt."
+                    },
+                    "warning": "Seda kutse koodi on kasutatud juba maksimaalne kasutamiskordade arv.",
+                    "key": "Võti",
+                    "max_uses": "Maks. kasutajaid",
+                    "heading": {
+                        "key": "Võti",
+                        "group": "Grupp",
+                        "activate": "Aktiveerib kasutajad",
+                        "max_uses": "Maks. kasutajaid"
+                    },
+                    "allow-public": {
+                        "title": "Lubab avaliku liitumise",
+                        "switch-label": "Tee kutse koodi kasutamine liitumisel vabatahtlikuks"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "sign_up": {
+                "invalid_doorkey": "Sinu sisestatud kutse kood on vigane.",
+                "doorkey_required": "Palun sisesta kutse kood.",
+                "doorman_placeholder": "Kutse kood",
+                "doorman_placeholder_optional": "Kutse kood (valikuline)"
+            },
+            "email": {
+                "subject": "Kutsu liituma",
+                "body": "Tere,\n\nSind on kutsutud liituma foorumiga {forum}.\n\nKui oled valmis oma kontot looma, siis lihtsalt kliki järgneval lingil ja sisesta registreerumisel kood:\n\nLink: {url}\nKutse kood: {code}\n\nKui tundub, et see kiri pole mõeldud sulle, siis lihtsalt ignoreeri seda kirja.\n"
             }
         },
         "email": {

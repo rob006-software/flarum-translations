@@ -1,60 +1,6 @@
 {
     "fof-doorman": {
-        "forum": {
-            "email": {
-                "subject": "Ajak untuk Bergabung",
-                "body": "Halo,\n\nAnda telah diundang untuk mendaftar ke {forum}.\n\nJika Anda sudah siap untuk membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:\n\nUrl: {url}\nKode undangan: {code}\n\nJika Anda menerima email ini karena kesalahan, harap abaikan email ini.\n"
-            },
-            "sign_up": {
-                "invalid_doorkey": "Kode undangan yang Anda masukkan tidak valid.",
-                "doorkey_required": "Silakan masukkan kode undangan.",
-                "doorman_placeholder": "Kode Undangan",
-                "doorman_placeholder_optional": "Kode Undangan (opsional)"
-            }
-        },
         "admin": {
-            "modal": {
-                "title": "Kirim Kode Undangan",
-                "group": "Mengirim undangan untuk grup {group}",
-                "help": "Menerima daftar yang dipisahkan koma, spasi, atau koma-spasi. Ketik email satu per satu atau paste list-nya lalu tekan spasi untuk menambahkannya.",
-                "placeholder": "Masukkan email di sini",
-                "invalid_emails": "Email berikut ini tidak valid: {emails}",
-                "max_use_conflict": "Jumlah email melebihi jumlah maksimum penggunaan kode ini.",
-                "send": "Kirim Email",
-                "success": "Email berhasil dikirim"
-            },
-            "invalid_doorkey": "Kode undangan yang Anda berikan tidak valid.",
-            "doorkey_required": "Anda harus memberikan Kode Undangan",
-            "nav": {
-                "desc": "Membuat kode undangan untuk pendaftaran pengguna baru dan dimasukkan ke dalam grup"
-            },
-            "page": {
-                "title": "Doorman",
-                "doorkey": {
-                    "used_times": "{remaining, plural, =0 {Tanpa batas} one {Sisa {remaining}} other {Sisa {remaining}}}",
-                    "total_uses": "{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}",
-                    "title": "Kode Undangan",
-                    "help": {
-                        "key": "Kunci: Kode yang akan digunakan pengguna saat mendaftar.",
-                        "group": "Grup: Grup yang akan ditambahkan ke pengguna saat mereka melakukan pendaftaran.",
-                        "max": "Maks Penggunaan: Jumlah maksimum penggunaan kode, atur ke 0 untuk penggunaan tanpa batas",
-                        "activates": "Aktivasi Pengguna: Secara otomatis mengaktifkan pengguna ketika mereka melakukan pendaftaran."
-                    },
-                    "warning": "Kode undangan ini telah digunakan berkali-kali.",
-                    "key": "Kunci",
-                    "max_uses": "Maks Penggunaan",
-                    "heading": {
-                        "key": "Kunci",
-                        "group": "Grup",
-                        "activate": "Aktivasi Pengguna",
-                        "max_uses": "Maks Penggunaan"
-                    },
-                    "allow-public": {
-                        "title": "Izinkan Pendaftaran Untuk Umum",
-                        "switch-label": "Jadikan kode undangan opsional saat melakukan pendaftaran"
-                    }
-                }
-            },
             "ref": {
                 "fields": {
                     "key": {
@@ -164,6 +110,60 @@
                     "next_button": "=> core.admin.users.pagination.next_button",
                     "last_page_button": "=> core.admin.users.pagination.last_page_button"
                 }
+            },
+            "modal": {
+                "title": "Kirim Kode Undangan",
+                "group": "Mengirim undangan untuk grup {group}",
+                "help": "Menerima daftar yang dipisahkan koma, spasi, atau koma-spasi. Ketik email satu per satu atau paste list-nya lalu tekan spasi untuk menambahkannya.",
+                "placeholder": "Masukkan email di sini",
+                "invalid_emails": "Email berikut ini tidak valid: {emails}",
+                "max_use_conflict": "Jumlah email melebihi jumlah maksimum penggunaan kode ini.",
+                "send": "Kirim Email",
+                "success": "Email berhasil dikirim"
+            },
+            "invalid_doorkey": "Kode undangan yang Anda berikan tidak valid.",
+            "doorkey_required": "Anda harus memberikan Kode Undangan",
+            "nav": {
+                "desc": "Membuat kode undangan untuk pendaftaran pengguna baru dan dimasukkan ke dalam grup"
+            },
+            "page": {
+                "title": "Doorman",
+                "doorkey": {
+                    "used_times": "{remaining, plural, =0 {Tanpa batas} one {Sisa {remaining}} other {Sisa {remaining}}}",
+                    "total_uses": "{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}",
+                    "title": "Kode Undangan",
+                    "help": {
+                        "key": "Kunci: Kode yang akan digunakan pengguna saat mendaftar.",
+                        "group": "Grup: Grup yang akan ditambahkan ke pengguna saat mereka melakukan pendaftaran.",
+                        "max": "Maks Penggunaan: Jumlah maksimum penggunaan kode, atur ke 0 untuk penggunaan tanpa batas",
+                        "activates": "Aktivasi Pengguna: Secara otomatis mengaktifkan pengguna ketika mereka melakukan pendaftaran."
+                    },
+                    "warning": "Kode undangan ini telah digunakan berkali-kali.",
+                    "key": "Kunci",
+                    "max_uses": "Maks Penggunaan",
+                    "heading": {
+                        "key": "Kunci",
+                        "group": "Grup",
+                        "activate": "Aktivasi Pengguna",
+                        "max_uses": "Maks Penggunaan"
+                    },
+                    "allow-public": {
+                        "title": "Izinkan Pendaftaran Untuk Umum",
+                        "switch-label": "Jadikan kode undangan opsional saat melakukan pendaftaran"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "sign_up": {
+                "invalid_doorkey": "Kode undangan yang Anda masukkan tidak valid.",
+                "doorkey_required": "Silakan masukkan kode undangan.",
+                "doorman_placeholder": "Kode Undangan",
+                "doorman_placeholder_optional": "Kode Undangan (opsional)"
+            },
+            "email": {
+                "subject": "Ajak untuk Bergabung",
+                "body": "Halo,\n\nAnda telah diundang untuk mendaftar ke {forum}.\n\nJika Anda sudah siap untuk membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:\n\nUrl: {url}\nKode undangan: {code}\n\nJika Anda menerima email ini karena kesalahan, harap abaikan email ini.\n"
             }
         },
         "email": {
