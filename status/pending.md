@@ -213,8 +213,7 @@
 | --- | --- |
 | `jiushutech-force-password-change` | [![#1426 (open)](https://img.shields.io/badge/PR-%231426-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1426) |
 | `kelaspajak-range-levels` | [![#1363 (open)](https://img.shields.io/badge/PR-%231363-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1363) |
-| `leot-ai-support-widget` | [![#1369 (open)](https://img.shields.io/badge/PR-%231369-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1369) |
-| `ltydi-canbus-settings` | [![#1344 (open)](https://img.shields.io/badge/PR-%231344-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1344) |
-| `wszdb-ai-deepseek` | [![#1398 (open)](https://img.shields.io/badge/PR-%231398-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1398) |
-| `wszdb-ai2autoreply` | [![#1396 (open)](https://img.shields.io/badge/PR-%231396-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1396) |
-| `wszdb-deepseek` | [![#1399 (open)](https://img.shields.io/badge/PR-%231399-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1399) |
+| `leot-ai-support-widget` | [![#1369 (closed)](https://img.shields.io/badge/PR-%231369-red)](https://github.com/rob006-software/flarum-translations/pull/1369) |
+| `ltydi-canbus-settings` | [![#1344 (closed)](https://img.shields.io/badge/PR-%231344-red)](https://github.com/rob006-software/flarum-translations/pull/1344) |
+| `wszdb-ai-deepseek` | [![#1398 (closed)](https://img.shields.io/badge/PR-%231398-red)](https://github.com/rob006-software/flarum-translations/pull/1398) |
+| `wszdb-ai2autoreply` | [![#1396 (closed)](https://img.shields.io/badge/PR-%231396-red)](https://github.com/rob006-software/flarum-translations/pull/1396) |
