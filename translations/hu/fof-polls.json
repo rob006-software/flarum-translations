@@ -106,12 +106,12 @@
                 "empty_text": "Úgy tűnik, hogy itt nincsenek közösségi szintű szavazások.",
                 "load_more_button": "=> core.ref.load_more",
                 "sort_dropdown": {
-                    "newest": "",
-                    "oldest": "",
-                    "most_voted": "",
-                    "least_voted": "",
+                    "newest": "Legújabb",
+                    "oldest": "Legrégebbi",
+                    "most_voted": "Legtöbb szavazat",
+                    "least_voted": "Legkevesebb szavazat",
                     "sort_dropdown": {
-                        "default": ""
+                        "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
                 }
             },
