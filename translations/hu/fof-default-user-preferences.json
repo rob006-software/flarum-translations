@@ -2,10 +2,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "discloseOnline": "",
-                "discloseOnline-help": "",
-                "indexProfile": "",
-                "indexProfile-help": "",
+                "discloseOnline": "Online állapot megosztása",
+                "discloseOnline-help": "Ha engedélyezve van, akkor az új felhasználók megjelenítik másoknak az online állapotukat. Az adminisztrátorok és a jogosultsággal rendelkező más felhasználók ettől a beállítástól függetlenül láthatják az online állapotukat.",
+                "indexProfile": "Profil indexelése",
+                "indexProfile-help": "Ha engedélyezve van, akkor az új felhasználók megengedik a keresőbotoknak, hogy indexeljék a profiloldalukat, hacsak más oldal- vagy kiegészítőbeállítás nem akadályozza ezt meg.",
                 "followAfterReply": "Követés válasz után",
                 "followAfterReply-help": "Ha be van kapcsolva, az új felhasználók automatikusan követik a témákat, amelyekhez hozzászólnak.",
                 "postMentioned": "Bejegyzés megemlítési e-mail",
@@ -13,7 +13,7 @@
                 "userMentioned": "Felhasználó megemlítési e-mail",
                 "userMentioned-help": "Ha be van kapcsolva, akkor az új felhasználók automatikusan e-mail-értesítést kapnak, ha @megemlítik őket.",
                 "groupMentioned": "Csoport megemlítési e-mail",
-                "groupMentioned-help": "Ha engedélyezett, az új felhasználók automatikusan e-mail-értesítést kapnak ha egy olyan csoportot említenek meg, melynek tagjai."
+                "groupMentioned-help": "Ha engedélyezve van, akkor az új felhasználók automatikusan e-mail-értesítést kapnak, ha egy olyan csoportot említenek meg, melynek tagjai."
             }
         }
     }
