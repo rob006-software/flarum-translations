@@ -2,18 +2,18 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": ""
+                "access_logfile_api": "Naplófájladatok elérése az API-n keresztül"
             },
             "settings": {
-                "purge-days": "",
-                "purge-days-help": ""
+                "purge-days": "Naplófájlok törlése adott nap után",
+                "purge-days-help": "A Flarum ütemezőjének működésére támaszkodik. 0 a kikapcsoláshoz."
             },
             "viewer": {
-                "available_logs_heading": "",
-                "file_contents_heading": "",
-                "file_size": "",
-                "last_updated": "",
-                "no_file_selected": ""
+                "available_logs_heading": "Elérhető fájlok",
+                "file_contents_heading": "Fájltartalmak",
+                "file_size": "Méret (bájtban): {size}",
+                "last_updated": "Legutóbb frissítve: {updated}",
+                "no_file_selected": "Válasszon egy naplófájlt a tartalmának megtekintéséhez."
             }
         }
     }
