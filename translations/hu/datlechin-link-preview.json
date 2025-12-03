@@ -13,15 +13,15 @@
                 "convert_media_urls_label": "Médiawebcímek előnézete",
                 "convert_media_urls_help": "Előnézetek előállítása az médiafájlokra (képek, videók, stb.) mutató webcímek esetén.",
                 "use_google_favicons_label": "Oldalikonok megjelenítése",
-                "use_google_favicons_help": "Ha be van kapcsolva, akkor a Google szolgáltatását fogja használni a megfelelő oldal faviconjának lekéréséhez.",
-                "cache_time_label": "Gyorsítótárazás ideje",
-                "cache_time_help": "A percek száma, amíg a felkeresett hivatkozások gyorsítótárazva lesznek az újbóli elérésükig. Állítsa 0-ra, hogy ezt kikapcsolja. Ha nincs beállítva, akkor az alapértelmezés 60 perc.",
+                "use_google_favicons_help": "Webhelyek faviconjainak megjelenítése a Google Favicon szolgáltatásának használatával, a jobb vizuális felismerés érdekében.",
+                "cache_time_label": "Gyorsítótárazás hossza (percben)",
+                "cache_time_help": "Meddig legyenek a hivatkozás-előnézetek tárolva frissítés előtt. A gyorsítótárazás kikapcsolásához állítsa 0-ra. Alapértelmezés: 60 perc.",
                 "open_links_in_new_tab_label": "Hivatkozások megnyitása új lapon",
-                "open_links_in_new_tab_help": "Ha be van kapcsolva, akkor a hivatkozások új lapon nyílnak meg."
+                "open_links_in_new_tab_help": "Előnézettel rendelkező hivatkozások megnyitása mindig új böngészőlapon."
             }
         },
         "forum": {
-            "site_cannot_be_reached": "Ez az oldal nem érhető el."
+            "site_cannot_be_reached": "Az előnézet nem tölthető be. Ellenőrizze a webcímet, és próbálja újra."
         }
     }
 }
