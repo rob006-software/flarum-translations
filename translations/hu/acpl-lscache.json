@@ -1,38 +1,38 @@
 {
     "acpl-lscache": {
         "admin": {
-            "cache_enabled_label": "",
-            "cache_enabled_help": "",
+            "cache_enabled_label": "LSCache engedélyezése",
+            "cache_enabled_help": "A gyorsítótár tesztelésével kapcsolatos információkat az <a>Információk oldalon</a> találja. MEGJEGYZÉS: A gyorsítótár letiltásakor a webhely összes gyorsítótárazott bejegyzése törölve lesz.",
             "public_cache_ttl_label": "Alapértelmezett nyilvános gyorsítótár TTL-je",
-            "public_cache_ttl_help": "Adja meg, hogy hány másodpercig legyenek a nyilvános lapok gyorsítótárazva. Az alapértelmezett érték 300 másodperc.",
-            "clearing_cache_listener_label": "Az LSCache tisztítása a Flarum gyorsítótárának törlésekor",
-            "serve_stale_label": "Elavult lapok kiszolgálása",
-            "serve_stale_help": "Ha BE van kapcsolva, akkor a gyorsítótárazott oldal lesz megjelenítve a látogatók számára, amíg egy új másolat nem lesz elérhető. Csökkenti a kiszolgáló terhelését az egymást követő látogatások esetén. Ha KI van kapcsolva, akkor az oldal dinamikusan elő lesz állítva, míg a látogatók várakoznak. Ez a beállítás tervezetten azt okozhatja, hogy elévült tartalmat fog szolgáltatni. Ha ez nem felel meg Önnek, akkor ne kapcsolja be ezt a beállítást.",
-            "purge_on_discussion_update_label": "Webcímek vagy címkék törlése, ha egy téma vagy bejegyzés frissül",
+            "public_cache_ttl_help": "Adja meg, hogy hány másodpercig legyenek a nyilvános lapok gyorsítótárazva. Az alapértelmezett érték 604800 másodperc (egy hét).",
+            "clearing_cache_listener_label": "Az LSCache törlése a Flarum gyorsítótárának törlésekor",
+            "serve_stale_label": "Elavult tartalom kiszolgálása",
+            "serve_stale_help": "Ha be van kapcsolva, akkor a gyorsítótárazott oldal lesz megjelenítve a látogatók számára, amíg elő nem áll egy új másolat. Csökkenti a kiszolgáló terhelését az egymást követő látogatások esetén. Ha ki van kapcsolva, akkor az oldal dinamikusan elő lesz állítva a gyorsítótár frissítésekor, amely növelheti a várakozási időt. Ez a beállítás tervezetten azt okozhatja, hogy elévült tartalmat fog szolgáltatni. Ha ez nem felel meg Önnek, akkor ne kapcsolja be ezt a beállítást.",
+            "purge_on_discussion_update_label": "Webcímek vagy gyorsítótár-címkék törlése, ha egy téma frissül",
             "purge_on_discussion_update_help": "Soronként adjon meg egy webcímet vagy címkét. A webcímnek <code>/</code> karakterrel kell kezdődnie, például <code>/rankings</code>, a gyorsítórcímkének pedig <code>tag=</code> szöveggel, például <code>tag=rankings</code>. Ez a bővítmény megcímkéz minden elérési utat, így ha sok törlendő útvonala van, akkor jobb ha egy reguláris kifejezéssel leírt szabályt ad meg egy .htaccess fájlban, amely megcímkézi az elérési utakat, és itt a beállításokban csak ezt a címkét adja meg. Ez a módszer sokkal gyorsabb lesz. <a>További tudnivalók</a>. Alapértelmezetten a kezdőlap, valamint a frissített témák gyorsítótára lesz kitisztítva.",
-            "cache_exclude_label": "Ne gyorsítótárazza az útvonalakat",
-            "cache_exclude_help": "Az ezeket a karakterláncokat tartalmazó elérési utak nem lesznek gyorsítótárazva. Például az <code>/mypath/mypage?aa=bb</code> címhez használható a <code>mypage?aa=</code>. Az elejéhez illesztéshez adjon egy <code>^</code> karaktert az elem elé. A pontos egyezéshez adja a <code>$</code> karaktert a webcím végéhez. Soronként egyet adjon meg.",
-            "drop_qs_label": "",
-            "drop_qs_help": "",
-            "status_codes_cache_label": "",
-            "status_codes_cache_help": "",
-            "purge_all": "Az összes LSCache tisztítása",
+            "cache_exclude_label": "Elérési utak kihagyása a gyorsítótárazásból",
+            "cache_exclude_help": "Az ezeket a karakterláncokat tartalmazó elérési utak nem lesznek gyorsítótárazva. Például az <code>/mypath/mypage?aa=bb</code> címhez használható a <code>mypage?aa=</code>. Az elejéhez illesztéshez írjon egy <code>^</code> karaktert a sor elejére. A pontos egyezéshez írja a <code>$</code> karaktert a webcím végéhez. Soronként egy.",
+            "drop_qs_label": "Lekérdezési karakterláncok eldobása",
+            "drop_qs_help": "Ezzel a funkcióval gyorsítótárazáskor eldobhat meghatározott lekérdezési karakterláncokat, például: <code>fbclid</code> vagy <code>utm*</code>. Ezzel megakadályozható a „szemétnek” tekinthető lekérdezési karakterláncokkal rendelkező oldalak redundáns gyorsítótárazása, például a nyomkövetésre szolgáló, de az oldal tartalmát nem befolyásoló UTM-kódokkal ellátott oldalaké. Ehhez az LSWS v5.2.3-as vagy újabb verziója szükséges. Soronként egyesével sorolja fel a törölni kívánt lekérdezési karakterláncokat. <a>További információ a lekérdezési karakterláncok törléséről</a>.<br></br>\n⚠️ Ez a beállítás módosítani fogja a .htaccess fájlt.\n",
+            "status_codes_cache_label": "Alapértelmezett HTTP állapotkód oldal TTL-je",
+            "status_codes_cache_help": "Adjon meg egy HTTP állapotkódot, és az oldal gyorsítótárazása másodperceinek számát, szóközzel elválasztva. Soronként egy-egy.",
+            "purge_all": "=> acpl-lscache.ref.purge_cache",
             "permissions": {
-                "purge": ""
+                "purge": "=> acpl-lscache.ref.purge_cache"
             },
             "purge_all_success": "A LiteSpeed webkiszolgáló értesítve, hogy tisztítsa ki az LSCache összes bejegyzését"
         },
         "forum": {
             "purge": {
-                "discussion": ""
+                "discussion": "=> acpl-lscache.ref.purge_cache"
             }
         },
         "lib": {
-            "purge_success": "",
-            "purge_all_success": ""
+            "purge_success": "Értesítette a LiteSpeed kiszolgálót az LSCache bejegyzések törléséről.",
+            "purge_all_success": "Értesítette a LiteSpeed kiszolgálót, hogy törölje az összes LSCache bejegyzést."
         },
         "ref": {
-            "purge_cache": ""
+            "purge_cache": "LSCache törlése"
         }
     }
 }
