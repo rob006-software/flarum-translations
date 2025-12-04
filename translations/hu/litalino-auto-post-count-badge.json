@@ -2,43 +2,43 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "{tier}. szint: {from}-{to} bejegyzés",
                 "icon-manager": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Ikonkezelő",
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
-                    "title": "",
-                    "help": ""
+                    "title": "Szövegcímke-kezelő",
+                    "help": "Szintnevek testreszabása"
                 },
                 "color": {
-                    "bg1": "",
-                    "bg2": ""
+                    "bg1": "1. háttér",
+                    "bg2": "2. háttér"
                 }
             },
-            "levelOne": "",
-            "levelOne-help": "",
-            "levelTwo": "",
-            "levelTwo-help": "",
-            "levelThree": "",
-            "levelThree-help": "",
-            "levelFour": "",
-            "levelFour-help": "",
-            "levelFive": "",
-            "levelFive-help": "",
-            "levelSix": "",
-            "levelSix-help": ""
+            "levelOne": "Az 1. szint ikonjának módosítása – „Az újszülött”",
+            "levelOne-help": "illessze be az 1. szinthez használandó fontawesome ikont (például „fas fa-square”)",
+            "levelTwo": "A 2. szint ikonjának módosítása – „Az újonc”",
+            "levelTwo-help": "illessze be a 2. szinthez használandó fontawesome ikont (például „fas fa-square”)",
+            "levelThree": "A 3. szint ikonjának módosítása – „A beszélő”",
+            "levelThree-help": "illessze be a 3. szinthez használandó fontawesome ikont (például „fas fa-square”)",
+            "levelFour": "A 4. szint ikonjának módosítása – „A tanár”",
+            "levelFour-help": "illessze be a 4. szinthez használandó fontawesome ikont (például „fas fa-square”)",
+            "levelFive": "Az 5. szint ikonjának módosítása – „A szörny!”",
+            "levelFive-help": "illessze be az 5. szinthez használandó fontawesome ikont (például „fas fa-square”)",
+            "levelSix": "A 6. szint ikonjának módosítása – „A guru!”",
+            "levelSix-help": "illessze be a 6. szinthez használandó fontawesome ikont (például „fas fa-square”)"
         },
         "forum": {
-            "less10post": "",
-            "less50post": "",
-            "less100post": "",
-            "less300post": "",
-            "less600post": "",
-            "less1000post": "",
-            "hasWritten": "",
-            "nextBadge": "",
-            "posts": ""
+            "less10post": "Az újszülött",
+            "less50post": "Az újonc",
+            "less100post": "A beszélő",
+            "less300post": "A tanár",
+            "less600post": "A szörny!",
+            "less1000post": "A guru!",
+            "hasWritten": "{count, plural, one {# bejegyzés írva} other {# bejegyzés írva}}",
+            "nextBadge": "Következő jelvény:",
+            "posts": "bejegyzés múlva"
         }
     }
 }
