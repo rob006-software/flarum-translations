@@ -1,19 +1,19 @@
 {
     "huseyinfiliz-guest": {
         "admin": {
-            "username_label": "",
-            "username_help": "",
-            "max_posts_label": "",
-            "max_posts_help": ""
+            "username_label": "Préfixe du nom d'utilisateur invité",
+            "username_help": "Préfixe pour les noms d'utilisateur invités (par exemple, Invité)",
+            "max_posts_label": "Nombre maximal de messages des invités",
+            "max_posts_help": "Nombre maximal de messages autorisés pour les utilisateurs invités"
         },
         "forum": {
-            "login_button": "",
-            "modal_title": "",
-            "welcome_message": "",
-            "modal_understood": "",
-            "max_posts_reached": "",
-            "login_error": "",
-            "rate_limit_error": ""
+            "login_button": "Connexion invité",
+            "modal_title": "Bienvenue, invité",
+            "welcome_message": "Bienvenue, utilisateur invité ! Les invités sont limités à trois messages.",
+            "modal_understood": "J'ai compris !",
+            "max_posts_reached": "Vous avez atteint le nombre maximal de {max} messages pour les utilisateurs invités. Veuillez créer un compte pour continuer.",
+            "login_error": "Échec de la connexion. Veuillez réessayer.",
+            "rate_limit_error": "Veuillez patienter un instant avant de réessayer."
         }
     }
 }
