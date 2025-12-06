@@ -9,27 +9,27 @@
             },
             "settings": {
                 "maintenance-mode-enabled": {
-                    "label": ""
+                    "label": "Activer le mode maintenance"
                 },
                 "maintenance-mode-title": {
-                    "label": ""
+                    "label": "Titre de la page de maintenance"
                 },
                 "maintenance-mode-message": {
-                    "label": ""
+                    "label": "Message de maintenance de la page"
                 },
                 "maintenance-mode-html-template": {
-                    "label": "",
-                    "help": "",
-                    "reset-btn": "",
-                    "reset-help": ""
+                    "label": "Modèle HTML de page de maintenance",
+                    "help": "Vous pouvez utiliser des paramètres fictifs tels que <code>$message</code>. Pour plus d'informations, consultez le fichier README.",
+                    "reset-btn": "Réinitialiser les paramètres par défaut",
+                    "reset-help": "La réinitialisation du modèle prendra effet après l'enregistrement."
                 },
                 "maintenance-mode-auth": {
-                    "label": "",
-                    "help": ""
+                    "label": "Activer l'authentification par jeton",
+                    "help": "Vous pouvez utiliser les jetons développeur pour vous connecter via <code>/maintenance/auth/$token</code>."
                 }
             },
             "permissions": {
-                "bypass": ""
+                "bypass": "Peut contourner le mode maintenance"
             }
         }
     }
