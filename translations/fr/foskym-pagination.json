@@ -3,29 +3,29 @@
         "admin": {
             "settings": {
                 "pagination": {
-                    "canUserPref": "",
-                    "paginationOnLoading": "",
-                    "paginationOnLoading-Help": "",
-                    "paginationPosition": "",
-                    "perPage": "",
-                    "perLoadMore": "",
-                    "perIndexInit": "",
+                    "canUserPref": "Autoriser les utilisateurs à définir le mode de chargement de DiscussionList",
+                    "paginationOnLoading": "Activer le mode pagination",
+                    "paginationOnLoading-Help": "Le mode de pagination sera appliqué à la fois à la page d'accueil du forum et à la page personnelle de l'utilisateur",
+                    "paginationPosition": "Sélectionner la position de la barre de navigation de pagination",
+                    "perPage": "Mode de pagination : capacité de la liste de discussion par page (1-50)",
+                    "perLoadMore": "Mode LoadMore : nombre de discussions par LoadMore (1-50)",
+                    "perIndexInit": "Mode LoadMore : nombre de discussions sur la première page (1-50)",
                     "position": {
-                        "above": "",
-                        "under": "",
-                        "both": ""
+                        "above": "Au-dessus",
+                        "under": "Au-dessous",
+                        "both": "Les deux"
                     },
-                    "cacheDiscussions": "",
-                    "cacheDiscussions-Help": ""
+                    "cacheDiscussions": "Mettre en cache DiscussionList pour réduire la charge du serveur",
+                    "cacheDiscussions-Help": "Uniquement pour le mode pagination, le mode LoadMore n'est pas affecté. Il est recommandé de l'utiliser avec des plugins de notification en temps réel."
                 }
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "head": "",
-                    "userCustom": "",
-                    "userPaginationOnLoading": ""
+                    "head": "DiscussionList - Mode de chargement",
+                    "userCustom": "Activer la personnalisation (lorsque fermé, charger selon le mode prédéfini du forum)",
+                    "userPaginationOnLoading": "Activer le mode pagination"
                 }
             }
         }
