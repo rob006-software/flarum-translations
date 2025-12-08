@@ -1344,7 +1344,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/Repost/v0.4.0/locale/en.yml',
 	],
 	'songnguxyz-oauth-mediawiki' => [
-		'tag' => 'https://raw.githubusercontent.com/songnguxyz/flarum-ext-oauth-mediawiki/v1.1.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/songnguxyz/flarum-ext-oauth-mediawiki/v1.2/locale/en.yml',
 	],
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.3.0.1/locale/en.yml',
