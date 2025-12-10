@@ -2,47 +2,47 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "تنظیمات شرایط کاربری",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "نوشته افزوده روی فرم نام‌نویسی",
+                    "hide-updated-at": "وقتی یک به‌روز رسانی وجود دارد، تاریخ به‌روز رسانی شرایط کاربری را نشان نده",
+                    "date-format": "قالب‌بندی تاریخ",
+                    "date-format-help": "شما می‌توانید هر قالب‌بندی قابل قبول توسط <a>Day.js</a> را استفاده کنید. برای استفاده از قالب‌بندی پیش‌فرض فیلد را خالی بگذارید."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "سیاست‌ها"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "سیاست جدید",
+                "edit-policy": "ویرایش سیاست",
+                "add-policy": "اضافه کردن سیاست",
+                "save-policy": "درج سیاست",
+                "delete-policy": "پاک کردن سیاست",
+                "set-to-now": "تنظیم به زمان فعلی"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "این دستور سیاست {name} و تاریخ‌های تأیید مرتبط با آن را به صورت دائمی پاک می‌کند. لطفاً در صورتی که برای موارد حقوقی به تاریخ‌ها نیاز خواهید داشت از داشتن نسخه پشتیبان اطمینان حاصل کنید. از پاک کردن این سیاست مطمئن هستید؟\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
-                "export-url": "",
-                "export-url-help": "",
-                "optional": "",
-                "optional-help": ""
+                "name": "نام",
+                "name-help": "این نام در کنار گزینه و به عنوان تیتر نمایه این به روز رسانی نمایش داده خواهد شد.",
+                "url": "URL",
+                "url-help": "آدر URL به صفحه‌ای که می‌توانید شرایط کاربری را بخوانید. وقتی روی آن کلیک شود در یک زبانه جدید باز می‌شود.",
+                "update-message": "پیغام به روز رسانی",
+                "update-message-help": "یک پیغام که به کاربران فعلی‌ای که هنوز آخرین شرایط کاربری را قبول نکرده‌اند نشان داده شود.",
+                "terms-updated-at": "به روز رسانی شده در تاریخ",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "تاریخ آخرین به روز رسانی شرایط کاربری. فعال کردن این مقدار تمام کاربرانی که قبل از این تاریخ قبول کرده‌اند را ملزم می‌کند تا دوباره قبول کنند. باید تاریخ پیش‌تر از حال باشد (در غیر اینصورت کاربران نمی‌توانند بعد از تاریخ قبول کنند و از نمایه عبور کنند).\n",
+                "export-url": "استخراج URL",
+                "export-url-help": "هر کاربری با اجازه «استخراج اطلاعات همه سیاست‌ها» می‌تواند به آن URL ها دسترسی پیدا کند تا لیستی از کاربرانی که این سیاست را پذیرفته‌اند دریافت کند. شما می‌توانید اطلاعات بیشتر درباره گزینه‌های موجود در <a>Wiki این افزونه</a> پیدا کنید.\n",
+                "optional": "سیاست دلبخواهی",
+                "optional-help": "وقتی فعال است، کاربران می‌تواند بدون قبول کردن این سیاست از تالار گفت‌وگو استفاده کنند."
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "دیدن وضعیت سیاست‌های کاربر",
+                "postpone-policies-accept": "می‌تواند قبول کردن سیاست‌های جدید را به تعویق بیاندازد",
+                "export-policies": "اطلاعات تمام کاربران و سیاست‌ها را خروجی بگیرد"
             }
         },
         "forum": {
@@ -66,12 +66,12 @@
             "update-alert": {
                 "must-accept-message": "زمانی که مقررات جدید را بررسی می کنید، به طور موقت دسترسی به حساب شما را محدود کرده ایم.",
                 "can-accept-message": "ما اخیراً مقررات را به روز کردیم. برای ادامه استفاده از این وب سایت باید آنها را بپذیرید.",
-                "can-accept-optional-message": "",
+                "can-accept-optional-message": "ما به تازگی شرایط کاربری را به روز رسانی کرده‌ایم. شما می‌توانید این شرایط را هر زمان که دوست داشتید بررسی کنید.",
                 "review": "برای بررسی و پذیرش مقررات جدید اینجا کلیک کنید",
-                "close": ""
+                "close": "بستن"
             },
             "user_settings": {
-                "optional_policies_label": ""
+                "optional_policies_label": "سیاست‌ها"
             },
             "user_controls": {
                 "state_button": "حالت پذیرش مقررات"
@@ -82,8 +82,8 @@
         "lib": {
             "data": {
                 "userpolicydata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "جزئیات در باره وضعیت قبول کردن سیاست‌ها توسط کاربر",
+                    "delete_description": "قبول کردن سیاست توسط کاربر را پاک می‌کند"
                 }
             }
         }
