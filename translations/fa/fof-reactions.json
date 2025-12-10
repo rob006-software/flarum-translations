@@ -1,70 +1,70 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "در حال حاضر نمی‌توانید از این واکنش استفاده کنید، لطفاً صفحه را مجدداً بارگذاری کنید",
+            "warning": "واکنش شما تبدیل شد",
+            "notification": "{username} به پست شما واکنش {reaction} نشان داد",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "کسی به یکی از ارسالی های من واکنش نشان داد"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "شما نمی‌توانید به ارسالی خودتان واکنش نشان دهید",
             "modal": {
-                "title": "",
-                "anonymous_count": "",
-                "no_reactions": ""
+                "title": "واکنش‌ها",
+                "anonymous_count": "{count, plural, one {# کاربر ناشناس} other {# کاربران ناشناس}}",
+                "no_reactions": "هنوز هیچ واکنش وجود ندارد"
             },
-            "mod_item": "",
-            "react_button_label": ""
+            "mod_item": "دیدن واکنش‌ها",
+            "react_button_label": "واکنش نشان دادن"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "",
-                "see_reactions_label": "",
-                "delete_post_reactions_label": ""
+                "react_posts_label": "واکنش نشان دادن به ارسالی",
+                "see_reactions_label": "ببیند چه کسی روی ارسالی‌ها واکنش نشان داده",
+                "delete_post_reactions_label": "واکنش‌های ارسالی‌ها را پاک کند"
             },
             "page": {
                 "cdn": {
-                    "title": "",
-                    "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "title": "شبکه توزیع محتوا",
+                    "help": "به صورت پیش‌فرض، محتواها را از طریق شبکه توزیع محتوا Cloudflare ارسال می‌کنیم. در صورت لزوم می‌توانید آدرس هر شبکه توزیع محتوا دیگری را نیز مشخص کنید <code>[codepoint]</code> با codepoint ایموجی جایگزین خواهد شد.\n\nبرای مثال، برای تغییر به Noto Emoji از طریق jsdeliver می‌توانید وارد کنید <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. این فیلد هیچوقت نباید خالی بماند.\n",
+                    "label": "URL",
+                    "default-url": "پیش‌فرض: {url}"
                 },
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "وانکش شخصی‌سازی شده",
+                    "reactions": "واکنش‌های فعلی",
+                    "Helptext": "نام (شناسه) یکی از ایموجی‌ها یا شکلک‌های font-awsome را وارد کنید و مدلی که دوست دارید را انتخاب کنید.",
                     "help": {
-                        "display": "",
-                        "identifier": ""
+                        "display": "نمایش",
+                        "identifier": "شناسه"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "مطمئنید می‌خواهید این واکنش را پاک کنید؟ این عمل قابل بازگشت نخواهد بود."
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "اگر به تازگی افزونه را به روز کردید، واکنش‌های شما نیاز به تبدیل شدن دارند. اگر تازه این افزونه را نصب کردید، می‌توانید این پیام را نادیده بگیرید.",
+                    "button": "تبدیل واکنش‌های قدیمی",
+                    "converting": "واکنش‌های شما در حال تبدیل شدن هستند. سایت رو مجدداً بعد از چند دقیقه بارگذاری کنید تا پایان فرآیند را ببینید. (بسته به تعداد واکنش ها، تبدیل ممکن است زمان‌بر شود)",
+                    "converted": "تمام {number} لایک‌ها با موفقیت تبدیل شدند"
                 },
                 "settings": {
-                    "react_own_posts_help": "",
-                    "react_own_posts_label": "",
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": "",
-                    "save_settings": "",
+                    "react_own_posts_help": "وقتی این گزینه فعال باشد، کاربران اجازه دارند به ارسالی‌های خود واکنش نشان دهند. برای جلوگیری از اینکه کاربران به ارسالی‌های خود واکنش نشان دهند، این تنظیم را غیر فعال کنید.",
+                    "react_own_posts_label": "کاربران می‌توانند به ارسالی‌های خود واکنش نشان دهند",
+                    "allow-anonymous": "واکنش ناشناس (به صورت میهمان) مجاز باشد",
+                    "allow-anonymous-help": "اگر فعال شود، میهمانان و کاربران ناشناس می‌توانند به ارسالی‌ها عکس‌العمل نشان دهند. توجه داشته باشید واکنش‌های ناشناس به یک کاربر پیوند داده نمی‌شوند و در لیست واکنش‌ها جمع می‌شوند.",
+                    "save_settings": "درج تنظیمات",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "یکپارچه‌سازی",
+                        "warning": "یک واکنش <strong>نمی‌تواند</strong>هم زمان هم به یک لایک <strong>و</strong> یک رأی مثبت",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "بازی‌وارسازی",
+                            "upvoteLabel": "تبدیل واکنش‌ها به آرأی مثبت",
+                            "upvoteHelptext": "شناسه واکنشی که می‌خواهی به صورت خودکار تبدیل به رأی مثبت شود را وارد کنید",
+                            "downvoteLabel": "تبدیل واکنش به رأی منفی",
+                            "downvoteHelptext": "شناسه واکنشی که می‌خواهید به صورت خودکار به رأی منفی تبدیل شود را وارد کنید"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "لایک‌ها",
+                            "Label": "تبیدل واکنش‌ها به لایک",
+                            "Helptext": "شناسه واکنشی که می‌خواهید به صورت خودکار به لایک تبدیل شود را وارد کنید"
                         }
                     }
                 }
