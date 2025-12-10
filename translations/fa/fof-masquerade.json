@@ -30,8 +30,8 @@
             },
             "permissions": {
                 "edit-others-profile": "ویرایش رخ‌نما کاربران دیگر",
-                "have-profile": "داشتن رخ‌نمای مسکرید",
-                "view-profile": "مشاهده رخ‌نمای مسکرید"
+                "have-profile": "داشتن رخ‌نمای masquerade",
+                "view-profile": "مشاهده رخ‌نمای masquerade"
             },
             "fields": {
                 "title": "فیلدها",
@@ -48,19 +48,19 @@
                 "validation-help": "<a>قوائد قابل پشتیبانیLaravel</a>را بررسی کنید. مثلاً: \"string|min:5\" or \"url\".\n",
                 "prefix": "پیشوند فیلد",
                 "prefix-help": "پیشوندهای شما را برای این فیلد جلوی مقادیر وارد شده توسط کاربر نشان می‌دهد.\n",
-                "icon": "نگاره",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "icon": "شکلک",
+                "icon-help": "یک شکلک جلوی مقادیر وارد شده توسط کاربر نشان می‌دهد. برای بررسی شکل‌های موجود به <a>سایت FontAwesome</a> رجوع کنید. اسم شکلک‌ها را با پیشوند «-fa» مثلاً «fas fa-info» وارد کنید.\n",
+                "force-user-to-completion": "کاربر را مجبور کن فرم را پر کند",
+                "options": "گزینه‌ها",
+                "option-new": "گزینه جدید",
+                "option-comma-warning": "برچسب یک گزینه نمی‌تواند شامل کاما (,) باشد."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "پیشرفته",
+                "boolean": "گزینه‌ای",
+                "email": "پست الکترونیکی",
+                "select": "لیستی",
+                "url": "آدرس URL"
             }
         }
     },
@@ -68,9 +68,9 @@
         "lib": {
             "data": {
                 "masqueradeanswers": {
-                    "export_description": "",
-                    "delete_description": "",
-                    "anonymize_description": ""
+                    "export_description": "پاسخ‌های فیلدهای رخ‌نمای کاربر را خروجی می‌دهد",
+                    "delete_description": "تمام پاسخ‌های فیلدها را از حساب کاربر پاک می‌کند",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
                 }
             }
         }
