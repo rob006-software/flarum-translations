@@ -15,70 +15,70 @@
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "دنبال می‌کند",
+                "lurking_tag_tooltip": "تماشاگر منفعل"
             },
             "sub_controls": {
-                "header": "",
-                "subscription_label": "",
+                "header": "اشتراک برای {tagName}",
+                "subscription_label": "میزان اشتراک خود را برای {tagName} انتخاب کنید",
                 "follow_button": "",
                 "following_button": "",
-                "following_text": "",
+                "following_text": "از همه گفت‌وگوهای جدید باخبرم کن.",
                 "hiding_button": "",
-                "hiding_text": "",
+                "hiding_text": "مخفی کردن گفت‌وگو از صفحه تمام گفت‌وگوها.",
                 "ignoring_button": "",
-                "ignoring_text": "",
+                "ignoring_text": "هیچوقت باخبر نشو.",
                 "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": "",
-                "submit_button": ""
+                "lurking_text": "از همه گفت‌وگوهای جدید و پاسخ‌ها باخبر شو.",
+                "not_following_button": "دنبال نمی‌کند",
+                "not_following_text": "فقط زمانی که با @ به تو اشاره شد باخبر شو.",
+                "notify_alert_tooltip": "دریافت یک آگاهسازی وقتی گفت‌وگوها یا ارسالی جدیدی بود",
+                "notify_email_tooltip": "یک ایمیل دریافت کن وقتی گفت‌وگوها یا ارسالی جدیدی بود",
+                "submit_button": "تأیید اشتراک"
             },
             "hero": {
                 "title": ""
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} شروع کرد",
+                "new_post_text": "{username} ارسال کرد",
+                "new_discussion_tag_text": "{username} برچسب را تغییر داد"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "برچسب‌ها را دنبال کن",
+                    "filter_label": "چیزی که به صورت پیش‌فرض در صفحه دنبال کردن‌ها نشان داده می‌شود"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
+                "following_page_default_label": "محدود کننده پیش‌فرض برای صفحه دنبال‌ کردن‌ها",
                 "following_none_label": "",
                 "following_tags_label": ""
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[برچسب | گفت‌و‌گوی جدید] {title}",
+                "newPostInTag": "[برچسب | ارسالی جدید] {title}",
+                "newDiscussionTag": "[برچسب | برچسب تغییر کرده] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "سلام {recipient_display_name}،\n\n{actor_display_name} یک گفت‌وگو با برچسبی که شما دنبال می‌کنید شروع کرده: {discussion_title}\n\nبرای مشاهده این گفت‌وگوی جدید، لینک زیر را بررسی کنید:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "سلام {recipient_display_name}،\n\n{actor_display_name} یک گفت‌وگوی جدید با برچشبی که شما دنبال می‌کنید ارسال کرده: {discussion_title}\n\nجهت مشاهده فعالیت جدید لینک زیر را بررسی کنید:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nتا زمانی که به روزرسانی نشید، آگاهسازی دیگری در باره این گفت‌وگو دریافت نخواهید کد.\n",
+                "newDiscussionTag": "سلام {recipient_display_name}،\n\n{actor_display_name} برچسب گفت‌وگوی {author_display_name} با عنوان {discussion_title} را به یک برچسب که شما دنبال می‌کنید تغییر داد.\n\nجهت مشاهده گفت‌وگوهای تازه لینک زیر را بررسی کنید:\n{discussion_url}\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "دنبال کردن",
+            "following": "دنبال می‌کند",
+            "hiding": "مخفی می‌کند",
+            "ignoring": "نادیده می‌گیرد",
+            "lurking": "بدون مشارکت دنبال می‌کند",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "گفت‌وگوهای دنبال شده",
+                "tags": "برچسب‌های دنبال شده"
             }
         }
     },
@@ -86,8 +86,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "در صورت وجود، جزئیات سطح اشتراک برای یک برچسب را خروجی می‌دهد.",
+                    "anonymize_description": "اشتراک کاربر برای یک برچسب را پاک می‌کند."
                 }
             }
         }
