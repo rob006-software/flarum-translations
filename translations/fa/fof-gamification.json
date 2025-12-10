@@ -2,115 +2,115 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "پر پازدید",
+                "votes_button": "رای مثبت"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "آرا",
+            "vote_title": "نشان بده چه کسانی رای داده‌اند",
             "nav": {
-                "name": ""
+                "name": "رتبه‌ها"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "مکان",
+                "name": "کاربر",
+                "amount": "امتیازها"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} به ارسالی شما رأی مثبت داد",
+                "downvote": "{username} به ارسالی شما رأی منفی داد",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "زمانی که یکی از ارسالی‌های من رای مثبت/منفی بگیرد"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} امتیاز} other {{count} امتیاز}}"
                 },
-                "rank": "",
-                "votes_link": ""
+                "rank": "{rank}",
+                "votes_link": "آرا"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "مخالفان:",
+                "title": "رأی دهندگان",
+                "upvotes_label": "موافقان:"
             },
-            "mod_item": "",
+            "mod_item": "نمایش رأی دهندگان",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "هنوز کسی رأی نداده",
+                "label": "رأی دهندگان",
+                "label_none": "هیچ رأی دهنده‌ای نیست"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "رأی مثبت دادن",
+                "downvote_button": "رأی منفی دادن"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "رأی مثبت/منفی دادن",
+                "see_votes_label": "دیدن تعداد رأی‌های مثبت/منفی",
+                "see_voters_label": "دیدن افرادی که رأی داده‌اند",
+                "see_ranking_page": "دیدن صفحه رتبه‌ها",
+                "upvote_notifications": "دریافت آگاهسازی از رأی مثبت",
+                "downvote_notifications": "دریافت آگاهسازی از رأی منفی"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "مدیر، کاربر ۱، کاربر۲",
+                        "title": "کاربران نادیده گرفته شده",
+                        "help": "این کاربران در صفحه رتبه‌ها نمایش داده نخواهند شد. نام‌های کاربری باید با یک کاما و بعد از آن فاصله جدا شود."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "صفحه رتبه‌ها",
+                    "enable": "فعال سازی تصاویر دلبخواه",
+                    "custom_image_1": "تصویر برای جایگاه اول",
+                    "custom_image_2": "تصویر برای جایگاه دوم",
+                    "custom_image_3": "تصویر برای جایگاه سوم"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "نام شکلک برای ساختار جایگزین"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
-                    "upvotes_only": "",
-                    "first_post_only": "",
-                    "allow_self_votes": ""
+                    "points_title": "شناسه جا نگه‌دار امتیازها",
+                    "points_placeholder": "امتیاز: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "ثبت رأی مثبت خودکار در زمان ارسال شدن",
+                    "rate_limit": "اجبار به محدود کردن نرخ رای دادن (۱۰ ثانیه)",
+                    "discussion_page": "نمایش تمام رأی‌های ارسالی اصلی بر لیست گفت‌وگوها",
+                    "alternate_layout": "استفاده از ساختار جایگزین رأی دهی روی لیست گفت‌وگوها",
+                    "alternate_post_layout": "استفاده از ساختار جایگزین رأی دهی روی ارسالی‌ها",
+                    "title": "آرا",
+                    "vote_color": "رنگ رأی داده",
+                    "icon_name": "شکلک رأی مثبت/منفی",
+                    "icon_help": "هر شکلک Font-Awesome که پسوند up- یا down- دارد می‌توانید وارد کنید. مثال: arrow, thumbs, chevron",
+                    "upvotes_only": "فقط رأی مثبت مجاز باشد",
+                    "first_post_only": "رأی مثبت/منفی فقط برای ارسالی اول هر گفت‌وگو مجاز باشد",
+                    "allow_self_votes": "کاربران می‌توانند به ارسالی های خود رأی بدهند"
                 },
-                "save_settings": "",
+                "save_settings": "درج کردن تنظیمات",
                 "convert": {
-                    "button": "",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "button": "تبدیل likeها به رأی مثبت",
+                    "help": "تبدیل Likeهای پیشین از flarum-ext-likes به رأی مثبت و محاسبه داغ بود برای تمام گفت‌‌گوهای فعلی.",
+                    "converting": "Likeهای شما در حال تبدیل شدن است. سایت رو مجدداً بعد از چند دقیقه بارگذاری کنید تا اتمام رویه را مشاهده کنید. (بسته به تعداد کل like های تالار گفت‌وگو، زمان تبدیل ممکن است طولانی شود)",
+                    "converted": "تمام {number} like با موفقیت تبدیل شدند"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "رتبه",
+                    "ranks": "رتبه سفارشی شخصی‌سازی شده",
+                    "number_title": "چند نشان رتبه باید نمایش داده شود؟",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "تعداد رأی‌ های مورد نیاز، نام جایگاه، و کد hex رنگ جایگاه را وارد کنید",
+                        "points": "امتیاز",
+                        "name": "نام"
                     }
                 },
                 "groups": {
-                    "title": "",
+                    "title": "گروه‌هایی که به صورت خودکار دریافت می‌کنند",
                     "help": "",
                     "column": {
                         "group": "",
