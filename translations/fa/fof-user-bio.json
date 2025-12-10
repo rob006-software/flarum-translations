@@ -2,25 +2,25 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "نمایش زندگینامه",
+                "editOwn": "ویرایش زندگینامه خود",
+                "editAny": "ویرایش هر زندگینامه‌ای"
             },
             "setting": {
-                "bioLimit": "",
-                "maxLines": "",
-                "allowFormatting": "",
-                "allowFormatting_help": ""
+                "bioLimit": "محدودیت تعداد حروف زندگینامه",
+                "maxLines": "بیشترین تعداد خط‌های قابل نمایش در یک زمان",
+                "allowFormatting": "اجازه قالب‌بندی کردن در زندگینامه",
+                "allowFormatting_help": "قالب‌بندی زندگینامه به صورت مستقل از قالب‌بندی پست‌ها طراحی شده. اگر افزونه‌های BBCode و یا Mardown فعال شده باشند، برای قالب‌بندی زندگینامه قابل استفاده خواهند بود. افزودن عکس مجاز نیست. افزونه‌هایی که به قالب‌بندی Flarum قابلیت اضافه می‌کنند باید *مشخصاً* پشتیبانی از قالب‌بندی زندگی‌نامه را اضافه کنند."
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": "",
+            "userbioPlaceholder": "درباره خودتان بنویسید",
+            "userbioPlaceholderOtherUser": "نوشتن زندگی‌نامه برای {username}",
             "profile": {
-                "cancel_confirm": "",
-                "cancel_button": "",
-                "save_button": "",
-                "edit_bio_label": ""
+                "cancel_confirm": "مطمئنید که می‌خواهید ویرایش زندگی‌نامه را لغو کنید؟ تمام تغییراتی که اعمال کردید از بین می‌رود.",
+                "cancel_button": "لغو کردن",
+                "save_button": "درج کردن",
+                "edit_bio_label": "ویرایش زندگی‌نامه"
             }
         }
     }
