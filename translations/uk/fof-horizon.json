@@ -22,22 +22,22 @@
                 "heading": "Огляд черги",
                 "full_dashboard": "Панель Horizon",
                 "refresh": "Оновлення",
-                "last_refresh": "",
+                "last_refresh": "Оновлено {time}",
                 "health": {
-                    "excellent": "",
-                    "good": "",
-                    "poor": "",
-                    "critical": "",
-                    "tooltip": ""
+                    "excellent": "Відмінно",
+                    "good": "Добре",
+                    "poor": "Погано",
+                    "critical": "Критично",
+                    "tooltip": "Оцінка стану системи: {score}/100"
                 },
                 "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
+                    "title": "Помилка звʼязку",
+                    "fetch_failed": "Неможливо отримати статистику Horizon. Перевірте конфігурацію Redis.",
+                    "setup_docs": "Переглянути документацію щодо налаштування Redis"
                 },
                 "data": {
                     "redis-used-memory": "Використана пам'ять Redis",
-                    "redis-memory-usage": "",
+                    "redis-memory-usage": "Використання пам'яті кеш-сховища",
                     "redis-peak-memory": "Пікове значення пам'яті Redis",
                     "redis-max-memory": "Максимальна пам'ять Redis",
                     "redis-memory-policy": "Політика пам'яті Redis",
@@ -55,11 +55,11 @@
                     },
                     "total-processes": "Загалом процесів",
                     "max-wait-time": "Максимальний час очікування",
-                    "max-wait-queue": "",
+                    "max-wait-queue": "Черга: {queue}",
                     "max-runtime": "Максимальний час роботи",
                     "max-throughput": "Максимальна пропускна здатність",
-                    "success-rate": "",
-                    "failure-rate": "",
+                    "success-rate": "Рівень успішності",
+                    "failure-rate": "Коефіцієнт відмов",
                     "redis-cpu-user": "Користувач Redis CPU",
                     "redis-cpu-sys": "Система Redis CPU"
                 }
