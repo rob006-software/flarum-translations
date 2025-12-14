@@ -25,7 +25,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -37,7 +37,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v0.Major.Minor',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => [], // ['neerugupta'], see https://github.com/flarum-lang/arabic/pull/6#issuecomment-3020290604
 	],
@@ -49,7 +49,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -61,7 +61,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [], // ['khayal011'], see https://github.com/flarum-lang/azerbaijani/pull/1#issuecomment-1311812451
 	],
@@ -73,7 +73,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -85,7 +85,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['nsokoloff'],
 	],
@@ -97,7 +97,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [], // ['mueenulit'], see https://github.com/flarum-lang/bengali/pull/1#issuecomment-1311816335
 	],
@@ -109,7 +109,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -121,7 +121,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -133,7 +133,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['pepoliveras', 'joanaranda'],
 	],
@@ -145,7 +145,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -157,7 +157,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['YelehaUwU'],
 	],
@@ -169,7 +169,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -181,7 +181,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [], // ['DeliciousDanny', 'davwheat'], see https://github.com/flarum-lang/danish/pull/1#issuecomment-1311822729
 	],
@@ -192,7 +192,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['Kakifrucht'],
 		'variants' => [
@@ -216,7 +216,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['futuresound'],
 	],
@@ -228,7 +228,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -240,7 +240,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['iamdarkle', 'jslirola'],
 		'variants' => [
@@ -264,7 +264,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -276,7 +276,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -288,7 +288,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['JoomlaEstonia'],
 	],
@@ -300,7 +300,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -312,7 +312,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['behdanisohrab'],
 	],
@@ -324,7 +324,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['MarkoKaartinen'],
 	],
@@ -336,7 +336,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -348,7 +348,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v4.Minor.Patch',
 		],
 		'maintainers' => ['qiaeru'],
 	],
@@ -360,7 +360,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -372,7 +372,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -384,7 +384,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '2.Minor.Patch',
 		],
 		'maintainers' => ['icecore2'],
 	],
@@ -396,7 +396,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '0.Major.Minor',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['ItsNeil17'],
 	],
@@ -408,7 +408,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -420,7 +420,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v2.Minor.Patch',
 		],
 		'maintainers' => ['meskobalazs', 'Rebootcodesoft'],
 	],
@@ -432,7 +432,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -444,7 +444,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['realodix'],
 	],
@@ -456,7 +456,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -468,7 +468,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['justoverclockl'],
 	],
@@ -480,7 +480,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v3.Minor.Patch',
 		],
 		'maintainers' => ['takumi9942'],
 	],
@@ -492,7 +492,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -504,7 +504,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -516,7 +516,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -528,7 +528,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -540,7 +540,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -552,7 +552,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -564,7 +564,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v0.Major.Minor',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['hahagu'],
 	],
@@ -576,7 +576,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [], // ['tavoweb'], see https://github.com/flarum-lang/lithuanian/pull/1#issuecomment-1311833030
 	],
@@ -588,7 +588,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v0.Major.Minor',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['edevrob'],
 	],
@@ -600,7 +600,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -612,7 +612,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [], // ['meetdilip'], see https://github.com/flarum-lang/malayalam/pull/1#issuecomment-1311837994
 	],
@@ -624,7 +624,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -636,7 +636,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -648,7 +648,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['tormi-github'],
 	],
@@ -660,7 +660,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -672,7 +672,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['jaspervriends', 'MichaelBelgium'],
 	],
@@ -684,7 +684,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -696,7 +696,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -708,7 +708,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -720,7 +720,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => PolishReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['rob006'],
 	],
@@ -732,7 +732,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -744,7 +744,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['ram0ng1'],
 	],
@@ -756,7 +756,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['laurentiu86stan'],
 	],
@@ -768,7 +768,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['KaiKimera'],
 	],
@@ -780,7 +780,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -792,7 +792,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '0.Major.Minor',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['sayuri-gi'],
 	],
@@ -804,7 +804,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['SKevo18'],
 	],
@@ -816,7 +816,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -828,7 +828,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -840,7 +840,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -852,7 +852,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -864,7 +864,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['Dzenan', 'gustjoha'],
 	],
@@ -876,7 +876,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v0.Major.Minor',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => [], // ['eYM3', 'sayuri-gi'], see https://github.com/flarum-lang/tamil/pull/3#issuecomment-1311851703
 	],
@@ -888,7 +888,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -900,7 +900,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['alikhakbaz97'],
 	],
@@ -912,7 +912,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [], // ['kon3ko'], see https://github.com/flarum-lang/thai/pull/2#issuecomment-1311857526
 	],
@@ -924,7 +924,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['NuryagdyMuhyyev'],
 	],
@@ -936,7 +936,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -948,7 +948,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['mazziechai'],
 	],
@@ -960,7 +960,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['tolgaaaltas', 'selmanozturk', 'huseyinfiliz'], // todo: temporary maintainer? https://discuss.flarum.org/d/27519-the-flarum-language-project/235
 	],
@@ -972,7 +972,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['inov8ru'],
 	],
@@ -984,7 +984,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -996,7 +996,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['denysdesign'],
 	],
@@ -1008,7 +1008,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => [],
 	],
@@ -1020,7 +1020,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '0.Major.Minor',
+			'versionTemplate' => '1.Minor.Patch',
 		],
 		'maintainers' => ['JeongJun-Lee'],
 	],
@@ -1032,7 +1032,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['datlechin'],
 	],
@@ -1044,7 +1044,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['thatsgolden'],
 	],
@@ -1056,7 +1056,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'vMajor.Minor.Patch',
+			'versionTemplate' => 'v1.Minor.Patch',
 		],
 		'maintainers' => ['efast1568'],
 	],
