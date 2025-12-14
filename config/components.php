@@ -747,7 +747,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-better-user-directory/v0.1.2/locale/en.yml',
 	],
 	'foskym-custom-levels' => [
-		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-custom-levels/v3.4.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-custom-levels/v3.4.1/locale/en.yml',
 	],
 	'foskym-issue-tracking' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-issue-tracking/v0.4.4/locale/en.yml',
