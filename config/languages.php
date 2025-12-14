@@ -182,6 +182,7 @@ return [
 		'!litalino-geo-weather-widget',
 		'!litalino-more-bbcode',
 		'!litalino-related-discussions',
+		'!songnguxyz-oauth-mediawiki',
 		'!xelson-chat',
 	]),
 	'zh_Hans' => getComponents([
