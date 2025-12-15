@@ -800,6 +800,9 @@ return [
 	'hikarilan-passkey-login' => [
 		'tag' => 'https://raw.githubusercontent.com/shaokeyibb/flarum-passkey-login/0.3/locale/en.yml',
 	],
+	'hiob-oauth-authentik' => [
+		'tag' => 'https://raw.githubusercontent.com/Hiobi/flarum-ext-oauth-authentik/main/locale/en.yml',
+	],
 	'huoxin-auto-follow-discussion' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-follow-discussion/0.0.2/locale/en.yml',
 	],
