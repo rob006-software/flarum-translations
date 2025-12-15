@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "mediawiki": {
-                        "description": "",
-                        "base_url_label": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "user_agent_label": "",
-                        "icon_label": ""
+                        "description": "Konfigurasi aplikasi OAuth2 MediaWiki Anda. Lihat dokumentasi di {link}",
+                        "base_url_label": "URL Dasar MediaWiki",
+                        "client_id_label": "Client Key",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "user_agent_label": "User Agent",
+                        "icon_label": "Penyedia Ikon (FontAwesome)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_mediawiki_button": ""
+                "with_mediawiki_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "error": {
-                "wiki_user_blocked": "",
-                "invalid_email": ""
+                "wiki_user_blocked": "Akun MediaWiki Anda telah diblokir dan Anda tidak dapat masuk ke forum ini.",
+                "invalid_email": "Tidak dapat mengambil alamat email dari akun MediaWiki Anda. Silakan gunakan metode login lainnya."
             },
             "providers": {
-                "mediawiki": ""
+                "mediawiki": "=> fof-oauth.lib.providers.mediawiki"
             }
         },
         "lib": {
             "providers": {
-                "mediawiki": ""
+                "mediawiki": "MediaWiki"
             }
         }
     }
