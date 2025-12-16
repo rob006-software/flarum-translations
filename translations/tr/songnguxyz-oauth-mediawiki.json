@@ -4,31 +4,31 @@
             "settings": {
                 "providers": {
                     "mediawiki": {
-                        "description": "",
-                        "base_url_label": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "user_agent_label": "",
-                        "icon_label": ""
+                        "description": "MediaWiki OAuth2 uygulamanızı yapılandırın. Belgeler için {link} adresine bakın",
+                        "base_url_label": "MediaWiki Ana Adresi",
+                        "client_id_label": "Müşteri Anahtarı",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
+                        "user_agent_label": "Kullanıcı Ajanı",
+                        "icon_label": "Sağlayıcı Simgesi (FontAwesome sınıfı)"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_mediawiki_button": ""
+                "with_mediawiki_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "error": {
-                "wiki_user_blocked": "",
-                "invalid_email": ""
+                "wiki_user_blocked": "MediaWiki hesabınız engellenmiştir ve bu foruma giriş yapamazsınız.",
+                "invalid_email": "MediaWiki hesabınızdan bir e-posta adresi alınamadı. Lütfen başka bir giriş yöntemi kullanın."
             },
             "providers": {
-                "mediawiki": ""
+                "mediawiki": "=> fof-oauth.lib.providers.mediawiki"
             }
         },
         "lib": {
             "providers": {
-                "mediawiki": ""
+                "mediawiki": "MediaWiki"
             }
         }
     }
