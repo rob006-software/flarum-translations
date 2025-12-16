@@ -2,10 +2,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "discloseOnline": "",
-                "discloseOnline-help": "",
-                "indexProfile": "",
-                "indexProfile-help": "",
+                "discloseOnline": "Çevrimiçi Görünürlüğü",
+                "discloseOnline-help": "Etkinleştirildiğinde, yeni kullanıcılar çevrimiçi olduklarında diğerlerinin görmesine izin verecektir. Yöneticiler ve izni olan diğer kullanıcılar, bu ayardan bağımsız olarak çevrimiçi durumunu görmeye devam edebilecektir.",
+                "indexProfile": "Profili Dizine Ekle",
+                "indexProfile-help": "Etkinleştirildiğinde, diğer site veya uzantı ayarları tarafından engellenmedikçe, yeni kullanıcılar arama motorlarının profil sayfalarını dizine eklemesine izin verecektir.",
                 "followAfterReply": "Yanıtladıktan sonra takip et",
                 "followAfterReply-help": "Etkinleştirildiğinde, yeni kullanıcılar yanıtladıkları tartışmaları otomatik olarak takip eder.",
                 "postMentioned": "Bahsedildiğinde e-posta gönder",
@@ -13,7 +13,7 @@
                 "userMentioned": "Kullanıcı bahsedildiğinde e-posta",
                 "userMentioned-help": "Etkinleştirildiğinde, yeni kullanıcılar @bahsetildiklerinde otomatik olarak bir e-posta bildirimi almayı seçerler.",
                 "groupMentioned": "Grup bahsetme e-postaları",
-                "groupMentioned-help": "Etkinleştirildiğinde, yeni kullanıcılar, ait oldukları bir gruptan bahsedildiğinde otomatik olarak bir e-posta bildirimi almayı seçer."
+                "groupMentioned-help": "Etkinleştirildiğinde, yeni kullanıcılar ait oldukları bir gruptan bahsedildiğinde otomatik olarak e-posta bildirimi almayı seçecektir."
             }
         }
     }
