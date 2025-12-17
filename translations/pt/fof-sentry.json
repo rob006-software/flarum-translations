@@ -1,25 +1,54 @@
 {
     "fof-sentry": {
         "admin": {
+            "sentry_settings": "",
+            "sections": {
+                "general": "",
+                "general_help": "",
+                "user_context": "",
+                "user_context_help": "",
+                "backend_performance": "",
+                "backend_performance_help": "",
+                "database_monitoring": "",
+                "database_monitoring_help": "",
+                "frontend_monitoring": "",
+                "frontend_monitoring_help": ""
+            },
             "settings": {
                 "dsn_label": "",
                 "dsn_help": "Se utilizares um DSN alternativo como sendo primário, não deves seleccionar \"User Feedback\" uma vez que não irá funcionar.",
                 "dsn_backend_label": "",
                 "dsn_backend_help": "",
                 "environment_label": "",
+                "environment_help": "",
                 "user_feedback_label": "",
+                "user_feedback_help": "",
                 "send_user_emails_label": "",
+                "send_user_emails_help": "",
                 "monitor_performance_label": "",
+                "monitor_performance_help": "",
                 "profile_rate_label": "",
                 "profile_rate_help": "",
                 "javascript_label": "",
+                "javascript_help": "",
                 "javascript_console_label": "",
+                "javascript_console_help": "",
                 "javascript_trace_sample_rate": "",
                 "javascript_trace_sample_rate_help": "",
                 "javascript_replays_session_sample_rate": "",
                 "javascript_replays_session_sample_rate_help": "",
                 "javascript_replays_error_sample_rate": "",
-                "javascript_replays_error_sample_rate_help": ""
+                "javascript_replays_error_sample_rate_help": "",
+                "db_slow_query_threshold_label": "",
+                "db_slow_query_threshold_help": "",
+                "db_n_plus_one_detection_label": "",
+                "db_n_plus_one_detection_help": "",
+                "db_n_plus_one_threshold_label": "",
+                "db_n_plus_one_threshold_help": "",
+                "db_track_bindings_label": "",
+                "db_track_bindings_help": "",
+                "db_query_sample_rate_label": "",
+                "db_query_sample_rate_help": ""
             }
         }
     }

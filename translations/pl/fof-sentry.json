@@ -1,25 +1,54 @@
 {
     "fof-sentry": {
         "admin": {
+            "sentry_settings": "",
+            "sections": {
+                "general": "",
+                "general_help": "",
+                "user_context": "",
+                "user_context_help": "",
+                "backend_performance": "",
+                "backend_performance_help": "",
+                "database_monitoring": "",
+                "database_monitoring_help": "",
+                "frontend_monitoring": "",
+                "frontend_monitoring_help": ""
+            },
             "settings": {
                 "dsn_label": "Sentry DSN",
                 "dsn_help": "",
                 "dsn_backend_label": "",
                 "dsn_backend_help": "",
                 "environment_label": "Sentry Environment",
+                "environment_help": "",
                 "user_feedback_label": "Feedback od użytkowników",
+                "user_feedback_help": "",
                 "send_user_emails_label": "Wysyłać adresy e-mail użytkowników w raportach Sentry?",
+                "send_user_emails_help": "",
                 "monitor_performance_label": "Procent żądań monitorowanych pod kątem wydajności backendu (0 - 100)",
+                "monitor_performance_help": "",
                 "profile_rate_label": "",
                 "profile_rate_help": "",
                 "javascript_label": "Zgłaszaj błędy JavaScriptu",
+                "javascript_help": "",
                 "javascript_console_label": "Przechwytuj konsolę JavaScriptu",
+                "javascript_console_help": "",
                 "javascript_trace_sample_rate": "Procent żądań monitorowanych pod kątem wydajności frontendu (0 - 100)",
                 "javascript_trace_sample_rate_help": "",
                 "javascript_replays_session_sample_rate": "",
                 "javascript_replays_session_sample_rate_help": "",
                 "javascript_replays_error_sample_rate": "",
-                "javascript_replays_error_sample_rate_help": ""
+                "javascript_replays_error_sample_rate_help": "",
+                "db_slow_query_threshold_label": "",
+                "db_slow_query_threshold_help": "",
+                "db_n_plus_one_detection_label": "",
+                "db_n_plus_one_detection_help": "",
+                "db_n_plus_one_threshold_label": "",
+                "db_n_plus_one_threshold_help": "",
+                "db_track_bindings_label": "",
+                "db_track_bindings_help": "",
+                "db_query_sample_rate_label": "",
+                "db_query_sample_rate_help": ""
             }
         }
     }

@@ -1,25 +1,54 @@
 {
     "fof-sentry": {
         "admin": {
+            "sentry_settings": "",
+            "sections": {
+                "general": "",
+                "general_help": "",
+                "user_context": "",
+                "user_context_help": "",
+                "backend_performance": "",
+                "backend_performance_help": "",
+                "database_monitoring": "",
+                "database_monitoring_help": "",
+                "frontend_monitoring": "",
+                "frontend_monitoring_help": ""
+            },
             "settings": {
                 "dsn_label": "Sentry DSN",
                 "dsn_help": "Jika Anda menggunakan Relay DSN sebagai yang utama, jangan centang \"Umpan Balik Pengguna\" karena tidak akan berfungsi.",
                 "dsn_backend_label": "Sentry DSN (Hanya Backend)",
                 "dsn_backend_help": "DSN ini hanya akan digunakan untuk backend error. Hal ini berguna jika Anda ingin menggunakan project yang berbeda untuk backend error atau ingin menggunakan Relay untuk mengirim backend error ke Sentry (misalnya untuk meningkatkan kinerja).",
                 "environment_label": "Sentry Environment",
+                "environment_help": "",
                 "user_feedback_label": "Umpan Balik Pengguna",
+                "user_feedback_help": "",
                 "send_user_emails_label": "Kirim alamat email pengguna dengan Sentry report?",
+                "send_user_emails_help": "",
                 "monitor_performance_label": "Nilai Pemantauan Kinerja Back-end (0 - 100)",
+                "monitor_performance_help": "",
                 "profile_rate_label": "Nilai Back-end Profiling (0 - 100)",
                 "profile_rate_help": "Ini relatif terhadap tingkat pemantauan kinerja. Pemantauan kinerja harus diaktifkan agar fitur ini berfungsi.\n\n{br}✱ Mengaktifkan fitur ini akan memengaruhi waktu respons karena adanya beban tambahan dari pembuatan profil dan permintaan yang dikirim ke Sentry. Pelajari cara mengimbangi hal ini di @ <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Fitur ini membutuhkan profiler pengambilan sampel Wikipedia, Excimer, yang hanya tersedia untuk Linux.</bold>\n",
                 "javascript_label": "Laporkan Error JavaScript",
+                "javascript_help": "",
                 "javascript_console_label": "Rekam Konsol JavaScript",
+                "javascript_console_help": "",
                 "javascript_trace_sample_rate": "Nilai Pemantauan Kinerja Front-end (0 - 100)",
                 "javascript_trace_sample_rate_help": "Tingkat sampel untuk semua transaksi. {br}✱ Mengaktifkan fitur ini akan meningkatkan ukuran bundel sebesar ~30 KB.",
                 "javascript_replays_session_sample_rate": "Nilai Front-end Session Replay (0 - 100)",
                 "javascript_replays_session_sample_rate_help": "Frekuensi sampel untuk replay yang mulai merekam dengan segera dan berlangsung sepanjang sesi pengguna. {br}✱ Mengaktifkan opsi replay akan meningkatkan ukuran bundel sebesar ~150 KB.",
                 "javascript_replays_error_sample_rate": "Nilai Front-end Error Replay (0 - 100)",
-                "javascript_replays_error_sample_rate_help": "Frekuensi sampel untuk replay yang direkam ketika terjadi error. Hingga 1 menit sebelum error terjadi, akan direkam dan dilanjutkan hingga sesi berakhir. {br}✱ Mengaktifkan opsi replay akan meningkatkan ukuran bundel sebesar ~150 KB."
+                "javascript_replays_error_sample_rate_help": "Frekuensi sampel untuk replay yang direkam ketika terjadi error. Hingga 1 menit sebelum error terjadi, akan direkam dan dilanjutkan hingga sesi berakhir. {br}✱ Mengaktifkan opsi replay akan meningkatkan ukuran bundel sebesar ~150 KB.",
+                "db_slow_query_threshold_label": "",
+                "db_slow_query_threshold_help": "",
+                "db_n_plus_one_detection_label": "",
+                "db_n_plus_one_detection_help": "",
+                "db_n_plus_one_threshold_label": "",
+                "db_n_plus_one_threshold_help": "",
+                "db_track_bindings_label": "",
+                "db_track_bindings_help": "",
+                "db_query_sample_rate_label": "",
+                "db_query_sample_rate_help": ""
             }
         }
     }

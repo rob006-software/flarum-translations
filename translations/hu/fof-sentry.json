@@ -1,25 +1,54 @@
 {
     "fof-sentry": {
         "admin": {
+            "sentry_settings": "",
+            "sections": {
+                "general": "",
+                "general_help": "",
+                "user_context": "",
+                "user_context_help": "",
+                "backend_performance": "",
+                "backend_performance_help": "",
+                "database_monitoring": "",
+                "database_monitoring_help": "",
+                "frontend_monitoring": "",
+                "frontend_monitoring_help": ""
+            },
             "settings": {
                 "dsn_label": "Sentry DSN",
                 "dsn_help": "Ha a Relay DSN-t használ elsődlegesként, akkor nem kapcsolja be a „Felhasználói visszajelzés” lehetőséget, mert nem fog működni.",
                 "dsn_backend_label": "Sentry DSN (csak háttérszolgáltatás)",
                 "dsn_backend_help": "Ez a DSN csak a háttérszolgáltatási hibáihoz lesz használva. Ez akkor hasznos, ha más projektet szeretne használni a háttérszolgáltatás hibáihoz, vagy ha a Relayt arra akarja használni, hogy továbbküldje a hibákat a Sentry felé (például a jobb teljesítmény miatt).",
                 "environment_label": "Sentry környezet",
+                "environment_help": "",
                 "user_feedback_label": "Felhasználói visszajelzés",
+                "user_feedback_help": "",
                 "send_user_emails_label": "Elküldi a felhasználók e-mail-címét a Sentry-jelentésekkel?",
+                "send_user_emails_help": "",
                 "monitor_performance_label": "Háttérszolgáltatás teljesítményfigyelési aránya (0–100)",
+                "monitor_performance_help": "",
                 "profile_rate_label": "Háttérszolgáltatás profilozási aránya (0–100)",
                 "profile_rate_help": "Ez a teljesítményfigyelési arányhoz van viszonyítva. Ahhoz hogy működjön, engedélyezni kell a teljesítményfigyelést.\n\n{br}✱ A funkció engedélyezése a profilozás és a Sentry felé küldött kérések többletköltsége miatt hatással van a válaszidőre. Tudja meg itt, hogy ez hogyan ellensúlyozhatja: <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Ehhez a funkcióhoz a Wikipédia mintavételező profilozója, az Excimer szükséges, amely csak Linuxra érhető el.</bold>\n",
                 "javascript_label": "JavaScript-hibák jelentése",
+                "javascript_help": "",
                 "javascript_console_label": "JavaScript-konzol rögzítése",
+                "javascript_console_help": "",
                 "javascript_trace_sample_rate": "Előtétprogram teljesítményfigyelési aránya (0–100)",
                 "javascript_trace_sample_rate_help": "Az összes tranzakció mintavételi aránya. {br}✱ A funkció engedélyezése ~30 kB-tal növeli a csomagméretet.",
                 "javascript_replays_session_sample_rate": "Előtétprogram munkamenet-visszajátszási aránya (0–100)",
                 "javascript_replays_session_sample_rate_help": "Az azonnal elinduló, és a felhasználó munkamenetének végéig tartó visszajátszások mintavételi aránya. {br}✱ A funkció engedélyezése ~150 kB-tal növeli a csomagméretet.",
                 "javascript_replays_error_sample_rate": "Előtétprogram hibavisszajátszási aránya (0–100)",
-                "javascript_replays_error_sample_rate_help": "A hiba esetén rögzített visszajátszások mintavételi aránya. A hiba rögzítése előtt legfeljebb 1 perccel indul el, és a munkamenet végéig tart. {br}✱ A funkció engedélyezése ~150 kB-tal növeli a csomagméretet."
+                "javascript_replays_error_sample_rate_help": "A hiba esetén rögzített visszajátszások mintavételi aránya. A hiba rögzítése előtt legfeljebb 1 perccel indul el, és a munkamenet végéig tart. {br}✱ A funkció engedélyezése ~150 kB-tal növeli a csomagméretet.",
+                "db_slow_query_threshold_label": "",
+                "db_slow_query_threshold_help": "",
+                "db_n_plus_one_detection_label": "",
+                "db_n_plus_one_detection_help": "",
+                "db_n_plus_one_threshold_label": "",
+                "db_n_plus_one_threshold_help": "",
+                "db_track_bindings_label": "",
+                "db_track_bindings_help": "",
+                "db_query_sample_rate_label": "",
+                "db_query_sample_rate_help": ""
             }
         }
     }

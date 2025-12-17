@@ -1,25 +1,54 @@
 {
     "fof-sentry": {
         "admin": {
+            "sentry_settings": "",
+            "sections": {
+                "general": "",
+                "general_help": "",
+                "user_context": "",
+                "user_context_help": "",
+                "backend_performance": "",
+                "backend_performance_help": "",
+                "database_monitoring": "",
+                "database_monitoring_help": "",
+                "frontend_monitoring": "",
+                "frontend_monitoring_help": ""
+            },
             "settings": {
                 "dsn_label": "Sentry DSN",
                 "dsn_help": "Jos käytät Relay DSN pääasiallisena, älä ota käyttöön \"Käyttäjän palautetta\" sillä se ei toimi.",
                 "dsn_backend_label": "Sentry DSN (vain taustajärjestelmä)",
                 "dsn_backend_help": "Tätä DSN käytetään vain taustajärjestelmän ongelmiin. Tämä on hyödyllinen jos haluat käyttää eri projektit taustan tai haluat käyttää Relaytä lähettääksesi taustan ongelmia Sentryyn (esim. optimoinnin vuoksi).",
                 "environment_label": "Sentry ympäristö (enviroment)",
+                "environment_help": "",
                 "user_feedback_label": "Käyttäjän palaute",
+                "user_feedback_help": "",
                 "send_user_emails_label": "Lähetä käyttäjän sähköpostiosoitteet Sentry raporttien mukana?",
+                "send_user_emails_help": "",
                 "monitor_performance_label": "Taustajärjestelmän suorituskyvyn tarkkailuaste (0-100)",
+                "monitor_performance_help": "",
                 "profile_rate_label": "Taustan profilointi arvo (0 - 100)",
                 "profile_rate_help": "Tämä on relatiivinen suorituskyvyn monitorointi arvoon. Suorituskyvyn monitoroinnin pitää olla päällä, jotta tämä toimii.\n\n{br}✱ Tämän ominaisuuden käyttö vaikuttaa vasteaikoihin. Johtuen pyynnöistä ja profiileista jotka lähetetään Sentryyn. Lue lisää tästä asetuksesta osoitteessa: <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Tämä ominaisuus vaatii Wikipedian Excimer työkalun, joka on vain Linuxille.</bold>\n",
                 "javascript_label": "Raportoi JavaScript virheet",
+                "javascript_help": "",
                 "javascript_console_label": "Tallenna JavaScript konsoli",
+                "javascript_console_help": "",
                 "javascript_trace_sample_rate": "Käyttöliittymän suorituskyvyn tarkkailuaste (0-100)",
                 "javascript_trace_sample_rate_help": "Jokaisen tapahtuman näyte määrä. {br}✱ Tämän käyttöönotto nostaa bundlen kokoa ~30 KB.",
                 "javascript_replays_session_sample_rate": "Julkisen puolen istuntojen uusinta arvo (0 - 100)",
                 "javascript_replays_session_sample_rate_help": "Tämä arvo määrittää uusintojen määrän edellisen jälkeen käyttäjän istunnossa. {br}✱ Tämän uusinnan käyttöönotto nostaa bundlen kokoa ~150 KB.",
                 "javascript_replays_error_sample_rate": "Julkisen puolen virheiden uusinta määrä (0 - 100)",
-                "javascript_replays_error_sample_rate_help": "Määrä jota lähetetään kun virhe tpaahtuu. Yhteen minuuttiin asti kunnes virhe huomataan ja jatkaa istunnon loppuun asti. {br}✱ Tämän käyttöönotto nostaa bundlen kokoa ~150 KB."
+                "javascript_replays_error_sample_rate_help": "Määrä jota lähetetään kun virhe tpaahtuu. Yhteen minuuttiin asti kunnes virhe huomataan ja jatkaa istunnon loppuun asti. {br}✱ Tämän käyttöönotto nostaa bundlen kokoa ~150 KB.",
+                "db_slow_query_threshold_label": "",
+                "db_slow_query_threshold_help": "",
+                "db_n_plus_one_detection_label": "",
+                "db_n_plus_one_detection_help": "",
+                "db_n_plus_one_threshold_label": "",
+                "db_n_plus_one_threshold_help": "",
+                "db_track_bindings_label": "",
+                "db_track_bindings_help": "",
+                "db_query_sample_rate_label": "",
+                "db_query_sample_rate_help": ""
             }
         }
     }
