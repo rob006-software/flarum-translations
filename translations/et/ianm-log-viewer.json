@@ -5,6 +5,8 @@
                 "access_logfile_api": "Ligipääs logifailile läbi API"
             },
             "settings": {
+                "max-file-size": "",
+                "max-file-size-help": "",
                 "purge-days": "Kustuta logifailid nii mitme päeva pärast",
                 "purge-days-help": "Sõltub sellest, kas Flarumi ajastaja on aktiivne. 0 tähendab, et see on välja lülitatud."
             },
@@ -13,7 +15,11 @@
                 "file_contents_heading": "Faili sisu",
                 "file_size": "Suurus (baitides): {size}",
                 "last_updated": "Viimati uuendatud: {updated}",
-                "no_file_selected": "Vali logifail, et selle sisu näha."
+                "no_file_selected": "Vali logifail, et selle sisu näha.",
+                "view_log": "",
+                "download_log": "",
+                "delete_log": "",
+                "confirm_delete": ""
             }
         }
     }

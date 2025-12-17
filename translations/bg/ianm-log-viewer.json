@@ -5,6 +5,8 @@
                 "access_logfile_api": ""
             },
             "settings": {
+                "max-file-size": "",
+                "max-file-size-help": "",
                 "purge-days": "Изчисти регистрационните файлове след дни",
                 "purge-days-help": ""
             },
@@ -13,7 +15,11 @@
                 "file_contents_heading": "Съдържанието на файла",
                 "file_size": "",
                 "last_updated": "Последно актуализиран: {updated}",
-                "no_file_selected": ""
+                "no_file_selected": "",
+                "view_log": "",
+                "download_log": "",
+                "delete_log": "",
+                "confirm_delete": ""
             }
         }
     }

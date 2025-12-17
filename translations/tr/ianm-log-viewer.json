@@ -5,6 +5,8 @@
                 "access_logfile_api": "API aracılığıyla günlük dosyası verilerine erişin"
             },
             "settings": {
+                "max-file-size": "",
+                "max-file-size-help": "",
                 "purge-days": "Günlük dosyalarını günler sonra temizle",
                 "purge-days-help": "Flarum zamanlayıcının etkin olmasına bağlıdır. 0, kapalı kalması içindir."
             },
@@ -13,7 +15,11 @@
                 "file_contents_heading": "Dosya içeriği",
                 "file_size": "Boyut (bayt): {size}",
                 "last_updated": "Son güncelleme: {updated}",
-                "no_file_selected": "İçeriğini görüntülemek için bir günlük dosyası seçin."
+                "no_file_selected": "İçeriğini görüntülemek için bir günlük dosyası seçin.",
+                "view_log": "",
+                "download_log": "",
+                "delete_log": "",
+                "confirm_delete": ""
             }
         }
     }

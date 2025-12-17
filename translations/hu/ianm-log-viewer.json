@@ -5,6 +5,8 @@
                 "access_logfile_api": "Naplófájladatok elérése az API-n keresztül"
             },
             "settings": {
+                "max-file-size": "",
+                "max-file-size-help": "",
                 "purge-days": "Naplófájlok törlése adott nap után",
                 "purge-days-help": "A Flarum ütemezőjének működésére támaszkodik. 0 a kikapcsoláshoz."
             },
@@ -13,7 +15,11 @@
                 "file_contents_heading": "Fájltartalmak",
                 "file_size": "Méret (bájtban): {size}",
                 "last_updated": "Legutóbb frissítve: {updated}",
-                "no_file_selected": "Válasszon egy naplófájlt a tartalmának megtekintéséhez."
+                "no_file_selected": "Válasszon egy naplófájlt a tartalmának megtekintéséhez.",
+                "view_log": "",
+                "download_log": "",
+                "delete_log": "",
+                "confirm_delete": ""
             }
         }
     }

@@ -5,6 +5,8 @@
                 "access_logfile_api": "Access logfile data via the API"
             },
             "settings": {
+                "max-file-size": "Maximum Log File Size (MB)",
+                "max-file-size-help": "If a log file exceeds this size, it will be split into multiple parts. Set to 0 to disable splitting. Default is 1MB. Maximum allowable size is 150MB.",
                 "purge-days": "Purge logfiles after days",
                 "purge-days-help": "Relies on the Flarum scheduler being active. 0 for disabled."
             },
@@ -13,7 +15,11 @@
                 "file_contents_heading": "File contents",
                 "file_size": "Size (bytes): {size}",
                 "last_updated": "Last updated: {updated}",
-                "no_file_selected": "Select a log file to view its content."
+                "no_file_selected": "Select a log file to view its content.",
+                "view_log": "View log file",
+                "download_log": "Download log file",
+                "delete_log": "Delete log file",
+                "confirm_delete": "Are you sure you want to delete this log file? This action cannot be undone."
             }
         }
     }

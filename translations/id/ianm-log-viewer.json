@@ -5,6 +5,8 @@
                 "access_logfile_api": "Mengakses data file log melalui API"
             },
             "settings": {
+                "max-file-size": "",
+                "max-file-size-help": "",
                 "purge-days": "Bersihkan file log setelah beberapa hari",
                 "purge-days-help": "Bergantung pada Flarum scheduler yang aktif. 0 untuk dinonaktifkan."
             },
@@ -13,7 +15,11 @@
                 "file_contents_heading": "Isi file",
                 "file_size": "Ukuran (byte): {size}",
                 "last_updated": "Terakhir diperbarui: {updated}",
-                "no_file_selected": "Pilih file log untuk melihat isinya."
+                "no_file_selected": "Pilih file log untuk melihat isinya.",
+                "view_log": "",
+                "download_log": "",
+                "delete_log": "",
+                "confirm_delete": ""
             }
         }
     }

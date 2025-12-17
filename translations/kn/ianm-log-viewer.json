@@ -5,6 +5,8 @@
                 "access_logfile_api": ""
             },
             "settings": {
+                "max-file-size": "",
+                "max-file-size-help": "",
                 "purge-days": "",
                 "purge-days-help": ""
             },
@@ -13,7 +15,11 @@
                 "file_contents_heading": "",
                 "file_size": "",
                 "last_updated": "",
-                "no_file_selected": ""
+                "no_file_selected": "",
+                "view_log": "",
+                "download_log": "",
+                "delete_log": "",
+                "confirm_delete": ""
             }
         }
     }

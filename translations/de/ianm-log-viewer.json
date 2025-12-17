@@ -5,6 +5,8 @@
                 "access_logfile_api": "Zugriff auf Protokolldateien durch die API"
             },
             "settings": {
+                "max-file-size": "",
+                "max-file-size-help": "",
                 "purge-days": "Protokolldateien nach Tagen bereinigen",
                 "purge-days-help": "Setzt voraus, dass der Flarum Scheduler aktiv ist. 0 zum deaktivieren."
             },
@@ -13,7 +15,11 @@
                 "file_contents_heading": "Dateiinhalte",
                 "file_size": "Größe (bytes): {size}",
                 "last_updated": "Zuletzt aktualisiert: {updated}",
-                "no_file_selected": "Wähle eine Protokolldatei um ihren Inhalt anzusehen."
+                "no_file_selected": "Wähle eine Protokolldatei um ihren Inhalt anzusehen.",
+                "view_log": "",
+                "download_log": "",
+                "delete_log": "",
+                "confirm_delete": ""
             }
         }
     }

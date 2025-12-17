@@ -5,6 +5,8 @@
                 "access_logfile_api": "Truy cập dữ liệu logfile qua API"
             },
             "settings": {
+                "max-file-size": "",
+                "max-file-size-help": "",
                 "purge-days": "Xoá logfile sau nhiều ngày",
                 "purge-days-help": "Dựa vào bộ lập lịch Flarum đang hoạt động, 0 để tắt."
             },
@@ -13,7 +15,11 @@
                 "file_contents_heading": "Nội dung tệp",
                 "file_size": "Kích thước (byte): {size}",
                 "last_updated": "Cập nhật lần cuối: {updated}",
-                "no_file_selected": "Chọn một tệp nhật ký để xem nội dung của nó."
+                "no_file_selected": "Chọn một tệp nhật ký để xem nội dung của nó.",
+                "view_log": "",
+                "download_log": "",
+                "delete_log": "",
+                "confirm_delete": ""
             }
         }
     }

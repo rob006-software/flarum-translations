@@ -5,6 +5,8 @@
                 "access_logfile_api": "透過 API 訪問日誌檔案數據"
             },
             "settings": {
+                "max-file-size": "",
+                "max-file-size-help": "",
                 "purge-days": "幾天後清除日誌檔案",
                 "purge-days-help": "依賴於Flarum 程式排程處於活動狀態。 0 表示停用。"
             },
@@ -13,7 +15,11 @@
                 "file_contents_heading": "檔案內容",
                 "file_size": "大小 (bytes): {size}",
                 "last_updated": "最後更新: {updated}",
-                "no_file_selected": "查看記錄檔。"
+                "no_file_selected": "查看記錄檔。",
+                "view_log": "",
+                "download_log": "",
+                "delete_log": "",
+                "confirm_delete": ""
             }
         }
     }

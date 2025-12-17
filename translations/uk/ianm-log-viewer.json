@@ -5,6 +5,8 @@
                 "access_logfile_api": "Доступ до даних лог-файлу через API"
             },
             "settings": {
+                "max-file-size": "",
+                "max-file-size-help": "",
                 "purge-days": "Очищення файлів журналів через дні",
                 "purge-days-help": "Покладається на активний планувальник Flarum. 0 для вимкненого."
             },
@@ -13,7 +15,11 @@
                 "file_contents_heading": "Вміст файлу",
                 "file_size": "Розмір (байт): {size}",
                 "last_updated": "Останнє оновлення: {updated}",
-                "no_file_selected": "Оберіть файл журналу, щоб переглянути його вміст."
+                "no_file_selected": "Оберіть файл журналу, щоб переглянути його вміст.",
+                "view_log": "",
+                "download_log": "",
+                "delete_log": "",
+                "confirm_delete": ""
             }
         }
     }
