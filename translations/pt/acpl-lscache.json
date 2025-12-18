@@ -17,6 +17,7 @@
             "status_codes_cache_label": "TTL por defeito para páginas com código de estado HTTP",
             "status_codes_cache_help": "Especifica um código de estado HTTP e o número de segundos para armazenar essa página em cache, separados por um espaço. Um por linha.",
             "purge_all": "=> acpl-lscache.ref.purge_cache",
+            "test_failed_alert": "",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
             }

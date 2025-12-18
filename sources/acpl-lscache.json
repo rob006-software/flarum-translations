@@ -17,6 +17,7 @@
             "status_codes_cache_label": "Default HTTP Status Code Page TTL",
             "status_codes_cache_help": "Specify an HTTP status code and the number of seconds to cache that page, separated by a space. One per line.",
             "purge_all": "=> acpl-lscache.ref.purge_cache",
+            "test_failed_alert": "It looks like your server does not support LSCache. Check your server configuration. Detected server: <b>{server}</b>, detected LiteSpeed type: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
             }

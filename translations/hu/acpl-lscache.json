@@ -17,6 +17,7 @@
             "status_codes_cache_label": "Alapértelmezett HTTP állapotkód oldal TTL-je",
             "status_codes_cache_help": "Adjon meg egy HTTP állapotkódot, és az oldal gyorsítótárazása másodperceinek számát, szóközzel elválasztva. Soronként egy-egy.",
             "purge_all": "=> acpl-lscache.ref.purge_cache",
+            "test_failed_alert": "",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
             },

@@ -17,6 +17,7 @@
             "status_codes_cache_label": "Mã trạng thái HTTP mặc định TTL của trang",
             "status_codes_cache_help": "Chỉ định mã trạng thái HTTP và số giây để lưu trang đó vào bộ nhớ đệm, cách nhau bằng dấu cách. Mỗi dòng một mã.",
             "purge_all": "=> acpl-lscache.ref.purge_cache",
+            "test_failed_alert": "",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
             },

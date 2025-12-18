@@ -17,6 +17,7 @@
             "status_codes_cache_label": "หน้ารหัสสถานะ HTTP เริ่มต้น TTL",
             "status_codes_cache_help": "ระบุรหัสสถานะ HTTP และจำนวนวินาทีที่จะแคชหน้านั้น โดยคั่นด้วยช่องว่าง บรรทัดละ 1 รหัส",
             "purge_all": "=> acpl-lscache.ref.purge_cache",
+            "test_failed_alert": "",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
             }
