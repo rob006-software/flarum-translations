@@ -5,8 +5,8 @@
                 "access_logfile_api": "Mengakses data file log melalui API"
             },
             "settings": {
-                "max-file-size": "",
-                "max-file-size-help": "",
+                "max-file-size": "Ukuran Maksimum File Log (MB)",
+                "max-file-size-help": "Jika ukuran file log melebihi batas ini, file tersebut akan dibagi menjadi beberapa bagian. Atur ke 0 untuk menonaktifkan pembagian. Nilai default adalah 1MB. Ukuran maksimum yang diizinkan adalah 150MB.",
                 "purge-days": "Bersihkan file log setelah beberapa hari",
                 "purge-days-help": "Bergantung pada Flarum scheduler yang aktif. 0 untuk dinonaktifkan."
             },
@@ -16,10 +16,10 @@
                 "file_size": "Ukuran (byte): {size}",
                 "last_updated": "Terakhir diperbarui: {updated}",
                 "no_file_selected": "Pilih file log untuk melihat isinya.",
-                "view_log": "",
-                "download_log": "",
-                "delete_log": "",
-                "confirm_delete": ""
+                "view_log": "Lihat file log",
+                "download_log": "Download file log",
+                "delete_log": "Hapus file log",
+                "confirm_delete": "Apakah Anda yakin ingin menghapus file log ini? Tindakan ini tidak dapat dibatalkan."
             }
         }
     }
