@@ -70,7 +70,7 @@
                     "cdn_url": "Inhoud afleverings-URL (voorvoegsels voor bestanden)",
                     "title": "Lokale opslaginstellingen"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "Uw opslaginstellingen zijn vooraf geconfigureerd via omgevingsvariabelen.",
                 "qiniu": {
                     "title": "Qiniu opslaginstellingen",
                     "key": "Sleutel",
@@ -81,7 +81,7 @@
                     "max_file_size": "Maximale bestandsgrootte (in kilobytes)",
                     "mime_types": "Configureer je mime-type, upload adapter mapping",
                     "title": "Generieke voorkeuren",
-                    "php_ini_values": ""
+                    "php_ini_values": "Uw <code>php.ini</code>-waarden zijn <code>post_max_size={post}</code> en <code>upload_max_filesize={upload}</code>. Zorg ervoor dat de hier ingestelde waarde onder deze drempelwaarden ligt, of pas ze dienovereenkomstig aan. Als u <code>Nginx</code> gebruikt, zorg er dan ook voor dat <code>client_max_body_size</code> voldoende groot is voor de door u gekozen maximale limiet."
                 },
                 "resize": {
                     "max_width": "Maximale afbeeldingsbreedte/hoogte",
@@ -98,10 +98,10 @@
                     "toggle": "Afbeeldingen van watermerk voorzien"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "SVG Sanitizer",
+                    "allow_animate": "SVG animaties toestaan",
+                    "help": "Configureer hoe SVG-bestanden worden verwerkt en gesaneerd bij het uploaden. SVG-bestanden kunnen potentieel schadelijke scripts bevatten en moeten daarom met zorg worden behandeld. Geüploade SVG's worden bij het uploaden gesaneerd en schadelijke scripts en tags worden verwijderd.",
+                    "allow_animate_help": "Het inschakelen van SVG-animaties kan beveiligingsrisico's met zich meebrengen, aangezien geanimeerde SVG's kwaadaardige code kunnen bevatten. Schakel deze instelling op eigen risico in en alleen als u uw gebruikers vertrouwt."
                 },
                 "composer_buttons": {
                     "title": "",
