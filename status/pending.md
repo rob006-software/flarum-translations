@@ -212,7 +212,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `hiob-oauth-authentik` | [![#1432 (open)](https://img.shields.io/badge/PR-%231432-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1432) |
-| `xinzore-glass-theme` | [![#1431 (open)](https://img.shields.io/badge/PR-%231431-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1431) |
+There are no dead branches.
