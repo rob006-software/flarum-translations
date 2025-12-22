@@ -205,6 +205,7 @@ return [
 		'!gtdxyz-badges',
 		'!gtdxyz-login',
 		'!huoxin-auto-follow-discussion',
+		'!huoxin-relative-url',
 		'!imdong-spam-alert',
 		'!imdong-visible-to-op-only',
 		'!klxf-maintenance',
