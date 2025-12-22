@@ -1418,6 +1418,9 @@ return [
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.4.8/resources/locale/en.yml',
 	],
+	'tryhackx-magnet-link' => [
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-magnet-link/v1.0.1/resources/locale/en.yml',
+	],
 	'umhelper-oauth-clerk' => [
 		'tag' => 'https://raw.githubusercontent.com/UMHelper/flarum-ext-oauth-clerk/1.0.1/locale/en.yml',
 	],
