@@ -82,9 +82,6 @@ return [
 	'askvortsov-markdown-tables' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-markdown-tables/v1.2.1/resources/locale/en.yml',
 	],
-	'askvortsov-moderator-warnings' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-moderator-warnings/v0.6.3/resources/locale/en.yml',
-	],
 	'askvortsov-pwa' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-pwa/v3.4.1/resources/locale/en.yml',
 	],
@@ -661,6 +658,9 @@ return [
 	],
 	'fof-moderator-notes' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/moderator-notes/1.3.0/resources/locale/en.yml',
+	],
+	'fof-moderator-warnings' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/moderator-warnings/1.0.0/resources/locale/en.yml',
 	],
 	'fof-nightmode' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/1.6.0/resources/locale/en.yml',

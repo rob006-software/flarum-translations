@@ -1,0 +1,70 @@
+{
+    "fof-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "إنشاء وإزالة تحذيرات المشرف",
+                "view_warnings": "",
+                "delete_warnings": ""
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "لقد حذرك {warner_display_name} بـ {strikes, plural, one {# إنذار} other {# إنذارات}} في {discussion_title}",
+                "body": "أهلاً {warnee_display_name}!\n\nحذرك {warner_display_name} بـ {strikes, plural, one {# إنذار} other {# إنذارات}} في {discussion_title}\n\nتم ذكر السبب التالي:\n\n---\n\n{public_comment}"
+            },
+            "user_warned": {
+                "subject": "لقد حذرك {warner_display_name} بـ {strikes, plural, one {# إنذار} other {# إنذارات}}",
+                "body": "أهلاً {warnee_display_name}!\n\n{warner_display_name} حذّرك بـ {strikes, plural, one {# إنذار} other {# إنذارات}}\n\nتمّ ذكر السبب التالي:\n\n---\n\n{public_comment}"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "{strikes, plural, one {لقد تم تحذيرك بـ # إنذار بواسطة {mod_username}} other {لقد تم تحذيرك بـ # إنذارات بواسطة {mod_username}}}",
+                "warning_no_strikes_text": "لقد تم تحذيرك بواسطة {mod_username} (لا توجد إنذارات)"
+            },
+            "post": {
+                "warning": "{strikes, plural, one {تم التحذير بـ # إنذار بواسطة {mod_username}} other {تم التحذير بـ # إنذارات بواسطة {mod_username}}}",
+                "warning_no_strikes": "تم التحذير بدون إنذارات بواسطة {mod_username}"
+            },
+            "post_controls": {
+                "warning_button": "تحذير المستخدم"
+            },
+            "user": {
+                "warnings": "تحذيرات المشرف"
+            },
+            "settings": {
+                "warning_notification_label": "حذرني المشرف"
+            },
+            "validation": {
+                "public_comment_required": "يجب عليك تقديم تعليق عام.",
+                "invalid_strike_count": "يجب أن يكون عدد الإنذارات عددًا صحيحًا بين 0 و5."
+            },
+            "warning_controls": {
+                "delete_button": "حذف",
+                "restore_button": "استعادة",
+                "delete_forever_button": "حذف نهائيًا"
+            },
+            "warning_list": {
+                "add_button": "تحذير جديد",
+                "no_warnings": "يبدو أنه لا يوجد تحذيرات هنا.",
+                "warnings": "{strikes, plural, one {تحذيرات المشرف: # إنذار مستلم} other {تحذيرات المشرف: # إنذارات مستلمة}}",
+                "warnings_no_strikes": "تحذيرات المشرف: لم يتم تلقي أي إنذارات"
+            },
+            "warning_list_item": {
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> إنذار, {time}} other {<strong>#</strong> إنذارات, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> إنذار, {time}} other {<strong>#</strong> إنذارات, {time}}}",
+                "public_comment": "تحذير",
+                "private_comment": "المشرف - التعليقات المرئية",
+                "linked_post": "المنشور المرتبط"
+            },
+            "warning_modal": {
+                "confirmation_message": "تم حفظ تحذيرك. قد تحتاج إلى تحديث الصفحة لرؤيته.",
+                "heading": "تحذير <strong>{username}</strong>",
+                "strikes_heading": "كم عدد الإنذارات التي يجب تطبيقها؟",
+                "public_comment_heading": "لماذا يتلقى <strong>{username}</strong> هذه التحذيرات؟ ستكون هذه التعليقات مرئية للمستخدم والمشرفين الآخرين.",
+                "private_comment_heading": "لماذا يتلقى <strong>{username}</strong> هذه التحذيرات؟ هذه التعليقات ستكون مرئية فقط للمشرفين الآخرين.",
+                "submit_button": "حفظ التحذير"
+            }
+        }
+    }
+}

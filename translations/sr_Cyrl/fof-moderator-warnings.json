@@ -1,0 +1,70 @@
+{
+    "fof-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "Направите и уклоните упозорења модератора",
+                "view_warnings": "Прикажи упозорења модератора",
+                "delete_warnings": "Трајно избришите упозорења модератора"
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "",
+                "body": ""
+            },
+            "user_warned": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "",
+                "warning_no_strikes_text": ""
+            },
+            "post": {
+                "warning": "",
+                "warning_no_strikes": ""
+            },
+            "post_controls": {
+                "warning_button": "Упозори члана"
+            },
+            "user": {
+                "warnings": "Упозорења модератора"
+            },
+            "settings": {
+                "warning_notification_label": "Упозорава ме модератор"
+            },
+            "validation": {
+                "public_comment_required": "Морате дати јавни коментар.",
+                "invalid_strike_count": "Број упозорења мора бити цео број (између 0 и 5)."
+            },
+            "warning_controls": {
+                "delete_button": "Уклони",
+                "restore_button": "Поврати",
+                "delete_forever_button": "Трајно уклони"
+            },
+            "warning_list": {
+                "add_button": "Ново упозорење",
+                "no_warnings": "Изгледа да овде нема упозорења.",
+                "warnings": "",
+                "warnings_no_strikes": "Упозорења модератора: Нема добијених упозорења"
+            },
+            "warning_list_item": {
+                "list_item_heading": "",
+                "list_item_heading_hidden": "",
+                "public_comment": "Упозорење",
+                "private_comment": "Коментари видљиви само модераторима",
+                "linked_post": "Повезана дискусија"
+            },
+            "warning_modal": {
+                "confirmation_message": "Ваше упозорење је сачувано. Можда ћете морати да освежите страницу да бисте га видели.",
+                "heading": "",
+                "strikes_heading": "Колико упозорења треба послати?",
+                "public_comment_heading": "",
+                "private_comment_heading": "",
+                "submit_button": "Сачувај упозорење"
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "fof-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "Uyarı oluştur veya sil",
+                "view_warnings": "Moderatör uyarılarını göster",
+                "delete_warnings": "Moderatör uyarılarını kalıcı olarak sil"
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "{warner_display_name} sizi {discussion_title} tartışması için {strikes, plural, one {# ihtarla} other {# ihtarla}} uyardı",
+                "body": "Merhaba {warnee_display_name}!\n\n{warner_display_name}, sizi {discussion_title} tartışması için {strikes, plural, one {# ihtarla} other {# ihtarla}} uyardı\n\nNeden aşağıda yazmaktadır:\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "{warner_display_name} sizi {strikes, plural, one {# ihtarla} other {# ihtarla}} uyardı",
+                "body": "Merhaba {warnee_display_name}!\n\n{warner_display_name} sizi {strikes, plural, one {# ihtarla} other {# ihtarla}} uyardı\n\nNeden aşağıda yazmaktadır:\n\n---\n\n{public_comment}\n"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "{mod_username} adlı moderatör tarafından {strikes, plural, one {# ihtarla} other {# ihtarla}} uyarıldınız",
+                "warning_no_strikes_text": "{mod_username} sizi uyardı! (Sebep?)"
+            },
+            "post": {
+                "warning": "{mod_username} adlı moderatör tarafından {strikes, plural, one {# ihtarla} other {# ihtarla}} uyarıldınız",
+                "warning_no_strikes": "{mod_username} tarafından uyarıldınız"
+            },
+            "post_controls": {
+                "warning_button": "Kullanıcıyı Uyar"
+            },
+            "user": {
+                "warnings": "Moderatör Uyarıları"
+            },
+            "settings": {
+                "warning_notification_label": "Moderatör tarafından uyarıldığımda"
+            },
+            "validation": {
+                "public_comment_required": "Çoğunlukla herkese açık bir yorum sunuyorsunuz.",
+                "invalid_strike_count": "Uyarı sayısı, 0 ile 5 arasında bir tam sayı olmalıdır."
+            },
+            "warning_controls": {
+                "delete_button": "Sil",
+                "restore_button": "Yenile",
+                "delete_forever_button": "Kalıcı Olarak Sil"
+            },
+            "warning_list": {
+                "add_button": "Yeni Uyarı",
+                "no_warnings": "Burada hiç uyarı yok gibi görünüyor.",
+                "warnings": "{strikes, plural, one {Moderatör Uyarıları: # uyarı aldın} other {Moderatör Uyarıları: # uyarı aldın}}",
+                "warnings_no_strikes": "Moderatör Uyarıları: Hiçbir Uyarı Alınmadı"
+            },
+            "warning_list_item": {
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> ihtar, {time}} other {<strong>#</strong> ihtar, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> ihtar, {time} <strong>(silindi)</strong>} other {<strong>#</strong> ihtar, {time} <strong>(silindi)</strong>}}",
+                "public_comment": "Uyarı",
+                "private_comment": "Moderatörlere Görünür Yorumlar",
+                "linked_post": "Bağlantılı Gönderi"
+            },
+            "warning_modal": {
+                "confirmation_message": "Uyarı verildi. Görmek için sayfayı yenilemeniz gerekebilir.",
+                "heading": "Uyar: <strong>{username}</strong>",
+                "strikes_heading": "Kaç uyarı verilsin?",
+                "public_comment_heading": "Neden <strong>{username}</strong> bu uyarıları aldı? Bu yoruları moderatörler ve diğer kullanıcılara açıktır.",
+                "private_comment_heading": "Neden <strong>{username}</strong> bu uyarıları aldı? Bu yorumları SADECE moderatörler görebilir.",
+                "submit_button": "Uyarıyı kaydet"
+            }
+        }
+    }
+}
