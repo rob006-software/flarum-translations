@@ -803,6 +803,9 @@ return [
 	'huoxin-auto-follow-discussion' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-follow-discussion/0.0.2/locale/en.yml',
 	],
+	'huoxin-relative-url' => [
+		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/1.0.0/locale/en.yml',
+	],
 	'huseyinfiliz-bump' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/bump/1.1.1/locale/en.yml',
 	],
