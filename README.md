@@ -866,6 +866,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-masquerade`](https://weblate.rob006.net/projects/flarum/fof-masquerade) | [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) |
 | [`fof-merge-discussions`](https://weblate.rob006.net/projects/flarum/fof-merge-discussions) | [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) |
 | [`fof-moderator-notes`](https://weblate.rob006.net/projects/flarum/fof-moderator-notes) | [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) |
+| [`fof-moderator-warnings`](https://weblate.rob006.net/projects/flarum/fof-moderator-warnings) | [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) |
 | [`fof-nightmode`](https://weblate.rob006.net/projects/flarum/fof-nightmode) | [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode) |
 | [`fof-oauth`](https://weblate.rob006.net/projects/flarum/fof-oauth) | [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) |
 | [`fof-open-collective`](https://weblate.rob006.net/projects/flarum/fof-open-collective) | [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) |
@@ -922,7 +923,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`askvortsov-discussion-templates`](https://weblate.rob006.net/projects/flarum/askvortsov-discussion-templates) | [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates) |
 | [`askvortsov-help-tags`](https://weblate.rob006.net/projects/flarum/askvortsov-help-tags) | [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags) |
 | [`askvortsov-markdown-tables`](https://weblate.rob006.net/projects/flarum/askvortsov-markdown-tables) | [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables) |
-| [`askvortsov-moderator-warnings`](https://weblate.rob006.net/projects/flarum/askvortsov-moderator-warnings) | [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings) |
 | [`askvortsov-pwa`](https://weblate.rob006.net/projects/flarum/askvortsov-pwa) | [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) |
 | [`askvortsov-rich-text`](https://weblate.rob006.net/projects/flarum/askvortsov-rich-text) | [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) |
 | [`askvortsov-saml`](https://weblate.rob006.net/projects/flarum/askvortsov-saml) | [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml) |
