@@ -1,0 +1,70 @@
+{
+    "fof-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "Tworzenie oraz usuwanie ostrzeżeń",
+                "view_warnings": "Przeglądanie ostrzeżeń",
+                "delete_warnings": "Nieodwracalne usuwanie ostrzeżeń"
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "Dostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name} w {discussion_title}",
+                "body": "Witaj {warnee_display_name},\n\nDostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name} w \"{discussion_title}\" z następującego powodu:\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "Dostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name}",
+                "body": "Witaj {warnee_display_name},\n\nDostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name} z następującego powodu:\n\n---\n\n{public_comment}\n"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "Dostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {mod_username}",
+                "warning_no_strikes_text": "Dostałeś ostrzeżenie bez punktów karnych od {mod_username}"
+            },
+            "post": {
+                "warning": "Ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {mod_username}",
+                "warning_no_strikes": "Ostrzeżenie bez punktów karnych od {mod_username}"
+            },
+            "post_controls": {
+                "warning_button": "Ostrzeż użytkownika"
+            },
+            "user": {
+                "warnings": "Ostrzeżenia"
+            },
+            "settings": {
+                "warning_notification_label": "Moderator dał mi ostrzeżenie"
+            },
+            "validation": {
+                "public_comment_required": "Musisz podać publicznie widoczny komentarz.",
+                "invalid_strike_count": "Liczba punktów karnych powinna być liczbą całkowitą z przedziału od 0 do 5."
+            },
+            "warning_controls": {
+                "delete_button": "Usuń",
+                "restore_button": "Przywróć",
+                "delete_forever_button": "Nieodwracalnie usuń"
+            },
+            "warning_list": {
+                "add_button": "Nowe ostrzeżenie",
+                "no_warnings": "Wygląda na to, że nie ma tutaj żadnych ostrzeżeń.",
+                "warnings": "Ostrzeżenia: {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}}",
+                "warnings_no_strikes": "Ostrzeżenia: bez punktów karnych"
+            },
+            "warning_list_item": {
+                "list_item_heading": "{strikes, plural, one {<strong>{strikes}</strong> punkt karny} few {<strong>{strikes}</strong> punkty karne} other {<strong>{strikes}</strong> punktów karnych}}, {time}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>{strikes}</strong> punkt karny} few {<strong>{strikes}</strong> punkty karne} other {<strong>{strikes}</strong> punktów karnych}}, {time} <strong>(usunięto)</strong>",
+                "public_comment": "Ostrzeżenie",
+                "private_comment": "Komentarz widoczny dla moderatora",
+                "linked_post": "Powiązany post"
+            },
+            "warning_modal": {
+                "confirmation_message": "Twoje ostrzeżenie zostało zapisane. Musisz odświeżyć stronę, aby je zobaczyć.",
+                "heading": "Ostrzeż <strong>{username}</strong>",
+                "strikes_heading": "Ile punktów karnych przydzielić?",
+                "public_comment_heading": "Czemu <strong>{username}</strong> otrzymuje to ostrzeżenie? Ten komentarz będzie widoczny dla użytkownika oraz innych moderatorów.",
+                "private_comment_heading": "Czemu <strong>{username}</strong> otrzymuje to ostrzeżenie? Ten komentarz będzie widoczny tylko dla innych moderatorów.",
+                "submit_button": "Zapisz ostrzeżenie"
+            }
+        }
+    }
+}
