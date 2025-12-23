@@ -2,132 +2,132 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "Populärt",
+                "votes_button": "Röster"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Röster",
+            "vote_title": "Rösta",
             "nav": {
-                "name": ""
+                "name": "Röstning"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Rank",
+                "name": "Namn",
+                "amount": "Poäng"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "Ditt inlägg röstades upp",
+                "downvote": "Ditt inlägg röstades ner",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Någon röstar på mitt inlägg"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "Poäng"
                 },
-                "rank": "",
-                "votes_link": ""
+                "rank": "Rank",
+                "votes_link": "Röster"
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Nedröster",
+                "title": "Röster",
+                "upvotes_label": "Uppröster"
             },
-            "mod_item": "",
+            "mod_item": "Visa röster",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Inga röster ännu",
+                "label": "Väljare",
+                "label_none": "Inga väljare"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Rösta upp",
+                "downvote_button": "Rösta ner"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "Rösta på inlägg",
+                "see_votes_label": "Se röster",
+                "see_voters_label": "Se vilka som röstat",
+                "see_ranking_page": "Se rankningssidan",
+                "upvote_notifications": "Få notiser om uppröster",
+                "downvote_notifications": "Få notiser om nedröster"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "Välj grupper att dölja...",
+                        "title": "Dölj grupper",
+                        "help": "Valda grupper visas inte på rankningssidan."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Rankningar",
+                    "enable": "Aktivera rankningssidan",
+                    "custom_image_1": "Anpassad bild 1",
+                    "custom_image_2": "Anpassad bild 2",
+                    "custom_image_3": "Anpassad bild 3"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Ikonnamn"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
-                    "upvotes_only": "",
-                    "first_post_only": "",
-                    "allow_self_votes": ""
+                    "points_title": "Poäng",
+                    "points_placeholder": "Ange poäng... ",
+                    "color_holder": "Ange en färg (hex)",
+                    "auto_upvote": "Rösta automatiskt upp egna inlägg",
+                    "rate_limit": "Begränsa hur ofta man kan rösta",
+                    "discussion_page": "Visa röster i diskussionslistan",
+                    "alternate_layout": "Använd alternativ layout",
+                    "alternate_post_layout": "Använd alternativ layout i inlägg",
+                    "title": "Röstning",
+                    "vote_color": "Röstningsfärg",
+                    "icon_name": "Ikonnamn",
+                    "icon_help": "Ange ett giltigt Font Awesome-ikon-namn (utan prefix).",
+                    "upvotes_only": "Tillåt endast uppröster",
+                    "first_post_only": "Tillåt bara röstning på första inlägget",
+                    "allow_self_votes": "Tillåt att rösta på egna inlägg"
                 },
-                "save_settings": "",
+                "save_settings": "Spara inställningar",
                 "convert": {
-                    "button": "",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "button": "Konvertera",
+                    "help": "Konverterar befintliga gillningar/röster till poängsystemet (om tillämpligt).",
+                    "converting": "Konverterar...",
+                    "converted": "Konvertering klar"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Ranks",
+                    "ranks": "Ranks",
+                    "number_title": "Antal ranks",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "Färg",
+                        "help": "Ställ in hur ranks och poäng ska visas.",
+                        "points": "Poäng",
+                        "name": "Namn"
                     }
                 },
                 "groups": {
-                    "title": "",
-                    "help": "",
+                    "title": "Grupper",
+                    "help": "Koppla poängintervall till grupper.\n",
                     "column": {
-                        "group": "",
-                        "minPoints": "",
-                        "maxPoints": ""
+                        "group": "Grupp",
+                        "minPoints": "Min poäng",
+                        "maxPoints": "Max poäng"
                     },
-                    "add": "",
-                    "delete": ""
+                    "add": "Lägg till",
+                    "delete": "Ta bort"
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Ditt inlägg har fått en ny röst.\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "Ditt inlägg har fått en ny röst"
             }
         }
     }
