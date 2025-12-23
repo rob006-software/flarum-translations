@@ -48,14 +48,14 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "create_user": {
-                "email_placeholder": "",
+                "email_placeholder": "=> core.ref.email",
                 "email_confirmed_label": "Kräv att användaren bekräftar denna e-post",
-                "password_placeholder": "",
+                "password_placeholder": "=> core.ref.password",
                 "submit_and_create_another_button": "Skapa och lägg till en annan",
                 "submit_button": "Skapa användare",
                 "title": "Skapa ny användare",
                 "use_random_password": "Generera slumpat lösenord",
-                "username_placeholder": ""
+                "username_placeholder": "=> core.ref.username"
             },
             "dashboard": {
                 "clear_cache_button": "Rensa cache",
