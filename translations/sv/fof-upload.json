@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Inkluderar information om dina uppladdade filer (bilagor) i din dataexport.",
+                    "anonymize_description": "Anonymiserar kopplingar till dina uppladdade filer där det är möjligt.",
+                    "delete_description": "Tar bort dina uppladdade filer och kopplingar till dem."
                 }
             }
         }
@@ -13,233 +13,233 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Delade uppladdningar"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Hantera filer som kan delas mellan användare.",
+                "introduction": "Här kan du se och administrera delade uppladdningar.\n",
+                "no-files": "Inga delade filer hittades.",
+                "title": "Delade uppladdningar",
+                "upload-new-button": "Ladda upp ny fil"
             },
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Uppladdning",
+                "description": "Konfigurera lagring, begränsningar och mallar för filuppladdning."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "custom_s3_url": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Stänger av loggning av filnedladdningar.\n",
+                "disable-hotlink-protection": "Stänger av skydd mot hotlinking (direktlänkning).\n",
+                "download_templates": "Mallarna styr hur länkar och inbäddningar genereras när du infogar en fil i ett inlägg.\n",
+                "mime_types": "Lista över tillåtna MIME-typer (kommaseparerat).\n",
+                "resize": "Ändra storlek på uppladdade bilder automatiskt.\n",
+                "client_extension": "Styr hur filändelser hanteras i klienten. Använd med försiktighet.\n",
+                "watermark": "Lägg en vattenstämpel på uppladdade bilder.\n",
+                "s3_compatible_storage": "Använd S3-kompatibel lagring (t.ex. MinIO/Wasabi) genom att ange endpoint.\n",
+                "s3_acl": "Åtkomstnivå (ACL) för uppladdade objekt i S3.\n",
+                "custom_s3_url": "Ange en egen bas-URL för att servera filer (t.ex. via CDN/proxy).\n",
+                "s3_instance_profile": "Använd IAM Instance Profile istället för statiska access keys.\n",
+                "composer_buttons": "Välj vilka knappar som ska visas i kompositorn.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": "",
-                    "custom_url": ""
+                    "bucket": "Bucket",
+                    "key": "Access key",
+                    "region": "Region",
+                    "secret": "Secret key",
+                    "title": "Amazon S3",
+                    "advanced_title": "Avancerat",
+                    "endpoint": "Endpoint",
+                    "use_path_style_endpoint": "Använd path-style endpoint",
+                    "acl": "ACL",
+                    "custom_url": "Anpassad URL"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Inaktivera nedladdningsloggning",
+                    "toggle": "Inaktivera"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Inaktivera hotlink-skydd",
+                    "toggle": "Inaktivera"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": "",
-                    "tos": ""
+                    "client_id": "Client ID",
+                    "title": "Imgur",
+                    "tos": "Genom att aktivera Imgur godkänner du deras användarvillkor."
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "CDN-URL",
+                    "title": "Lokal lagring"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "Konfigureras via miljövariabler",
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Qiniu",
+                    "key": "Access key",
+                    "secret": "Secret key",
+                    "bucket": "Bucket"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "max_file_size": "Max filstorlek",
+                    "mime_types": "Tillåtna MIME-typer",
+                    "title": "Preferenser",
+                    "php_ini_values": "PHP ini-värden"
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Max bredd",
+                    "title": "Ändra storlek på bilder",
+                    "toggle": "Aktivera"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Hantering av filändelser"
                 },
                 "watermark": {
-                    "file": "",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "file": "Vattenstämpelfil",
+                    "position": "Position",
+                    "title": "Vattenstämpel",
+                    "toggle": "Aktivera"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "SVG-säkring",
+                    "allow_animate": "Tillåt animationer",
+                    "help": "Rensar uppladdade SVG-filer för att minska säkerhetsrisker.",
+                    "allow_animate_help": "Om aktiverat tillåts animerade SVG:er (kan innebära högre risk)."
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Kompositorknappar",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Båda",
+                        "upload-btn": "Uppladdning",
+                        "media-btn": "Media"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Inspektera MIME-typ"
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": "",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "download_label": "Ladda ner filer",
+                "upload_label": "Ladda upp filer",
+                "view_user_uploads_label": "Se användares uppladdningar",
+                "delete_uploads_of_others_label": "Ta bort andras uppladdningar",
+                "upload_shared_label": "Ladda upp delade filer",
+                "access_shared_label": "Åtkomst till delade uppladdningar"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": "",
-                "text-preview": "",
-                "text-preview_description": ""
+                "file": "Fil",
+                "file_description": "Infoga en länk till filen.\n",
+                "image": "Bild",
+                "image_description": "Infoga bilden.\n",
+                "image-preview": "Bild (förhandsvisning)",
+                "image-preview_description": "Infoga en bild med förhandsvisning.\n",
+                "markdown-image": "Markdown-bild",
+                "markdown-image_description": "Infoga bild med Markdown.\n",
+                "bbcode-image": "BBCode-bild",
+                "bbcode-image_description": "Infoga bild med BBCode.\n",
+                "just-url": "Endast URL",
+                "just-url_description": "Infoga endast URL:en.\n",
+                "text-preview": "Text (förhandsvisning)",
+                "text-preview_description": "Infoga en textförhandsvisning när det är möjligt.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "awss3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "Amazon S3",
+                "awss3": "Amazon S3",
+                "imgur": "Imgur",
+                "local": "Lokal",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "Qiniu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Inspektera MIME-typ",
+                "description": "Kontrollera vilken MIME-typ som detekteras och om filen passerar validering.\n",
+                "select": "Välj en fil",
+                "laravel-validation": "Laravel-validering",
+                "no-file-selected": "Ingen fil vald",
+                "validation-passed": "Valideringen lyckades",
+                "validation-failed": "Valideringen misslyckades",
+                "mime-detector": "MIME-detektor",
+                "mime-fileinfo": "PHP Fileinfo",
+                "guessed-extension": "Gissad filändelse",
+                "not-available": "Inte tillgängligt"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Mediabibliotek",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "upload_shared": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": "",
-                "shared_media": ""
+                "attach": "Bifoga",
+                "upload": "Ladda upp",
+                "upload_shared": "Ladda upp delad fil",
+                "user_uploads": "Mina uppladdningar",
+                "cancel": "Avbryt",
+                "media": "Media",
+                "shared_media": "Delad media"
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Fel",
+                "loading": "Laddar...",
+                "unauthorized": "Obehörig"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "Filen är för stor. Maxstorlek: {max}."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Visa mer",
+                "collapse": "Visa mindre",
+                "error": "Kunde inte visa förhandsvisning.\n",
+                "no_snippet_preview": "Ingen förhandsvisning tillgänglig.",
+                "no_snippet": "Ingen text hittades."
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": "",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "forbidden_type": "Den här filtypen är inte tillåten.",
+                "unsupported_type": "Den här filtypen stöds inte.",
+                "could_not_detect_mime": "Kunde inte identifiera filens MIME-typ.",
+                "max_upload_file_size_ini": "Filen överskrider gränsen i php.ini (upload_max_filesize).",
+                "max_upload_file_size_form": "Filen överskrider gränsen i formuläret (MAX_FILE_SIZE).",
+                "partial_upload": "Filen laddades bara upp delvis.",
+                "no_file_uploaded": "Ingen fil laddades upp.",
+                "no_upload_tmp_folder": "Temporär uppladdningsmapp saknas.",
+                "cannot_write_to_disk": "Kan inte skriva filen till disk.",
+                "upload_blocked_by_php_extension": "Uppladdningen blockerades av ett PHP-tillägg.",
+                "no_files_made_it_to_upload": "Inga filer kunde laddas upp."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Ladda upp delad fil",
+                "dropzone": "Dra och släpp filer här, eller klicka för att välja.",
+                "hide-from-media-gallery": "Dölj i mediagalleriet",
+                "upload": "Ladda upp"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Laddar filer...",
+                "empty": "Inga filer.",
+                "release_to_upload": "Släpp för att ladda upp",
+                "modal_empty_desktop": "Dra och släpp filer här, eller klicka för att välja.",
+                "modal_empty_phone": "Tryck för att välja filer.",
+                "select_file_a11y_label": "Välj fil",
+                "confirm_selection_btn": "Välj",
+                "load_more_files_btn": "Visa fler filer",
+                "delete_file_a11y_label": "Ta bort fil",
+                "delete_confirmation": "Vill du ta bort den här filen? Detta går inte att ångra.",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Dölj fil",
+                    "btn_a11y_label_show": "Visa fil",
+                    "hide_confirmation": "Vill du dölja den här filen?",
+                    "hide_success": "Filen har dolts.",
+                    "show_confirmation": "Vill du visa den här filen igen?",
+                    "show_success": "Filen visas nu.",
+                    "hide_fail": "Kunde inte dölja filen.",
+                    "show_fail": "Kunde inte visa filen.",
+                    "loading": "Laddar..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Dölj delad fil",
+                    "btn_a11y_label_show": "Visa delad fil",
+                    "hide_confirmation": "Vill du dölja den här delade filen?",
+                    "hide_success": "Den delade filen har dolts.",
+                    "show_confirmation": "Vill du visa den här delade filen igen?",
+                    "show_success": "Den delade filen visas nu.",
+                    "hide_fail": "Kunde inte dölja den delade filen.",
+                    "show_fail": "Kunde inte visa den delade filen.",
+                    "loading": "Laddar..."
                 }
             }
         }
