@@ -3,13 +3,19 @@
         "admin": {
             "settings": {
                 "title": "Open Collective",
-                "desc": "Получите ключ API на странице <a>https://opencollective.com/applications</a>.",
                 "use_legacy_api_key_label": "",
                 "use_legacy_api_key_help": "",
                 "api_key_label": "Ключ API",
+                "api_key_help": "",
                 "personal_token_label": "",
+                "personal_token_help": "",
                 "slug_label": "Путь к Collective",
-                "group_label": "Группа для назначения"
+                "slug_help": "",
+                "group_label": "Группа для назначения",
+                "group_help": "",
+                "onetime_group_label": "",
+                "onetime_group_help": "",
+                "desc": "Получите ключ API на странице <a>https://opencollective.com/applications</a>."
             }
         }
     }

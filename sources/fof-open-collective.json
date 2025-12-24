@@ -3,13 +3,18 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "desc": "Obtain your Personal Token from <a>https://opencollective.com/dashboard</a> under Settings > For Developers. Do not select any additional scopes - keep the default empty selection.\n",
                 "use_legacy_api_key_label": "Use Legacy Application API Key",
                 "use_legacy_api_key_help": "If you have a legacy API key, you may keep using it, but it is recommended to switch to a Personal Token. Currently, personal tokens seem to work in API Key mode (i.e. \"API-Key\" header), but this is not documented.\n",
                 "api_key_label": "Application API Key (deprecated)",
+                "api_key_help": "This authentication method is deprecated. Please consider switching to a Personal Token.",
                 "personal_token_label": "Personal Token",
+                "personal_token_help": "Create a personal token at <a>https://opencollective.com/applications</a>. This token is used to fetch your backer information from Open Collective.",
                 "slug_label": "Collective Slug",
-                "group_label": "Group to Assign"
+                "slug_help": "Enter your Open Collective collective slug (the part after opencollective.com/ in your collective URL).",
+                "group_label": "Recurring Backers Group",
+                "group_help": "Select which Flarum user group recurring backers should be added to. Users will be automatically added when they become recurring backers and moved to the one-time group (if configured) when their subscription ends.",
+                "onetime_group_label": "One-Time Backers Group (Optional)",
+                "onetime_group_help": "Select which Flarum user group one-time backers should be added to. If not set, one-time backers will not be managed. When a recurring backer cancels their subscription, they will be moved to this group."
             }
         }
     }

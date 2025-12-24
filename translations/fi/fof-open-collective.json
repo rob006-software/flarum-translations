@@ -3,13 +3,19 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "desc": "Hanki henkilökohtainen tunnuksesi osoitteesta <a>https://opencollective.com/dashboard</a> kohdasta Asetukset > Kehittäjille. Älä valitse mitään lisäoikeuksia – pidä oletusvalinta tyhjänä.\n",
                 "use_legacy_api_key_label": "Käytä vanhan sovelluksen API-avainta",
                 "use_legacy_api_key_help": "Jos sinulla on vanhan mallin API-avain, voit jatkaa sen käyttöä, mutta suositellaan siirtymistä henkilökohtaiseen tunnukseen. Tällä hetkellä henkilökohtaiset tunnukset näyttävät toimivan API-avaimen tilassa (eli “API-Key” -otsikolla), mutta tätä ei ole dokumentoitu.\n",
                 "api_key_label": "Sovelluksen API avain (vanhentunut)",
+                "api_key_help": "",
                 "personal_token_label": "Henkilökohtainen avain (token)",
+                "personal_token_help": "",
                 "slug_label": "Kollektiivin tunniste (slug)",
-                "group_label": "Määritettävä ryhmä"
+                "slug_help": "",
+                "group_label": "Määritettävä ryhmä",
+                "group_help": "",
+                "onetime_group_label": "",
+                "onetime_group_help": "",
+                "desc": "Hanki henkilökohtainen tunnuksesi osoitteesta <a>https://opencollective.com/dashboard</a> kohdasta Asetukset > Kehittäjille. Älä valitse mitään lisäoikeuksia – pidä oletusvalinta tyhjänä.\n"
             }
         }
     }

@@ -3,13 +3,19 @@
         "admin": {
             "settings": {
                 "title": "FoF Open Collective",
-                "desc": "<a>https://opencollective.com/applications</a> からAPIキーを取得します。",
                 "use_legacy_api_key_label": "",
                 "use_legacy_api_key_help": "",
                 "api_key_label": "API Key",
+                "api_key_help": "",
                 "personal_token_label": "",
+                "personal_token_help": "",
                 "slug_label": "Collective Slug",
-                "group_label": "対象グループ"
+                "slug_help": "",
+                "group_label": "対象グループ",
+                "group_help": "",
+                "onetime_group_label": "",
+                "onetime_group_help": "",
+                "desc": "<a>https://opencollective.com/applications</a> からAPIキーを取得します。"
             }
         }
     }
