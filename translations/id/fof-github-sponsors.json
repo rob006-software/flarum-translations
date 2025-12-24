@@ -6,11 +6,15 @@
                 "organization": "Organisasi"
             },
             "settings": {
-                "desc": "Dapatkan token API Anda di <a>https://github.com/settings/tokens/new</a>. Ekstensi ini membutuhkan cakupan <code>pengguna</code> dan <code>read:org</code>.",
                 "api_token_label": "Token API",
+                "api_token_help": "",
                 "account_type_label": "Jenis Akun",
+                "account_type_help": "",
                 "login_label": "Login",
-                "group_label": "Grup yang Akan Ditugaskan"
+                "login_help": "",
+                "group_label": "Grup yang Akan Ditugaskan",
+                "group_help": "",
+                "desc": "Dapatkan token API Anda di <a>https://github.com/settings/tokens/new</a>. Ekstensi ini membutuhkan cakupan <code>pengguna</code> dan <code>read:org</code>."
             }
         }
     }

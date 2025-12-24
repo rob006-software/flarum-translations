@@ -6,11 +6,15 @@
                 "organization": "组织"
             },
             "settings": {
-                "desc": "从 <a>https://github.com/settings/tokens/new</a> 获取您的 API 令牌。本扩展需要 <code>user</code> 和 <code>read:org</code> 权限。",
                 "api_token_label": "API 令牌",
+                "api_token_help": "",
                 "account_type_label": "账户类型",
+                "account_type_help": "",
                 "login_label": "登录",
-                "group_label": "用户组分配"
+                "login_help": "",
+                "group_label": "用户组分配",
+                "group_help": "",
+                "desc": "从 <a>https://github.com/settings/tokens/new</a> 获取您的 API 令牌。本扩展需要 <code>user</code> 和 <code>read:org</code> 权限。"
             }
         }
     }

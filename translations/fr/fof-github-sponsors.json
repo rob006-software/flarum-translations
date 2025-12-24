@@ -6,11 +6,15 @@
                 "organization": "Organisation"
             },
             "settings": {
-                "desc": "Obtenez votre jeton API sur <a>https://github.com/settings/tokens/new</a>. Cette extension nécessite les portées <code>utilisateur</code> et <code>read:org</code>.",
                 "api_token_label": "Jeton API",
+                "api_token_help": "",
                 "account_type_label": "Type de compte",
+                "account_type_help": "",
                 "login_label": "Identifiant",
-                "group_label": "Groupe à attribuer"
+                "login_help": "",
+                "group_label": "Groupe à attribuer",
+                "group_help": "",
+                "desc": "Obtenez votre jeton API sur <a>https://github.com/settings/tokens/new</a>. Cette extension nécessite les portées <code>utilisateur</code> et <code>read:org</code>."
             }
         }
     }

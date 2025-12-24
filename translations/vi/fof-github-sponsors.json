@@ -6,11 +6,15 @@
                 "organization": "Tổ chức"
             },
             "settings": {
-                "desc": "Nhận mã token API của bạn ở <a>https://github.com/settings/tokens/new</a>. Tiện ích mở rộng này yêu cầu scope <code>user</code> và <code>read:org</code>.",
                 "api_token_label": "Mã Token API",
+                "api_token_help": "",
                 "account_type_label": "Loại tài khoản",
+                "account_type_help": "",
                 "login_label": "Đăng nhập",
-                "group_label": "Nhóm để gán"
+                "login_help": "",
+                "group_label": "Nhóm để gán",
+                "group_help": "",
+                "desc": "Nhận mã token API của bạn ở <a>https://github.com/settings/tokens/new</a>. Tiện ích mở rộng này yêu cầu scope <code>user</code> và <code>read:org</code>."
             }
         }
     }

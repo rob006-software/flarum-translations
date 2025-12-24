@@ -6,11 +6,15 @@
                 "organization": "Организация"
             },
             "settings": {
-                "desc": "Получите токен API на странице <a>https://github.com/settings/tokens/new</a>. Это расширение требует прав доступа <code>user</code> и <code>read:org</code>.",
                 "api_token_label": "Токен API",
+                "api_token_help": "",
                 "account_type_label": "Тип аккаунта",
+                "account_type_help": "",
                 "login_label": "Логин",
-                "group_label": "Группа для назначения"
+                "login_help": "",
+                "group_label": "Группа для назначения",
+                "group_help": "",
+                "desc": "Получите токен API на странице <a>https://github.com/settings/tokens/new</a>. Это расширение требует прав доступа <code>user</code> и <code>read:org</code>."
             }
         }
     }

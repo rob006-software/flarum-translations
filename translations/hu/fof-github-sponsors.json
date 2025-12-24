@@ -6,11 +6,15 @@
                 "organization": "Szervezet"
             },
             "settings": {
-                "desc": "Szerezze be az API-tokenjét a <a>https://github.com/settings/tokens/new</a> címen. A bővítményhez a <code>user</code> és a <code>read:org</code> hatókörökre van szükség.",
                 "api_token_label": "API-token",
+                "api_token_help": "",
                 "account_type_label": "Fiók típusa",
+                "account_type_help": "",
                 "login_label": "Bejelentkezés",
-                "group_label": "Hozzárendelendő csoport"
+                "login_help": "",
+                "group_label": "Hozzárendelendő csoport",
+                "group_help": "",
+                "desc": "Szerezze be az API-tokenjét a <a>https://github.com/settings/tokens/new</a> címen. A bővítményhez a <code>user</code> és a <code>read:org</code> hatókörökre van szükség."
             }
         }
     }

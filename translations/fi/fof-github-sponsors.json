@@ -6,11 +6,15 @@
                 "organization": "Organisaatio"
             },
             "settings": {
-                "desc": "Hanki API avain (API token) osoitteesta: <a>https://github.com/settings/tokens/new</a>. Tämä lisäosa vaatii: <code>user</code> ja <code>read:org</code> määreet (scopes).",
                 "api_token_label": "API avain (API token)",
+                "api_token_help": "",
                 "account_type_label": "Tilin tyyppi",
+                "account_type_help": "",
                 "login_label": "Kirjaudu",
-                "group_label": "Ryhmä joka asetetaan"
+                "login_help": "",
+                "group_label": "Ryhmä joka asetetaan",
+                "group_help": "",
+                "desc": "Hanki API avain (API token) osoitteesta: <a>https://github.com/settings/tokens/new</a>. Tämä lisäosa vaatii: <code>user</code> ja <code>read:org</code> määreet (scopes)."
             }
         }
     }

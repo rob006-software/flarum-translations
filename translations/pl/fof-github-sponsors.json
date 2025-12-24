@@ -6,11 +6,15 @@
                 "organization": "Organizacja"
             },
             "settings": {
-                "desc": "Uzyskaj token API na <a>https://github.com/settings/tokens/new</a>. To rozszerzenie wymaga uprawnień z zakresów (scopes): <code>user</code> oraz <code>read:org</code>.",
                 "api_token_label": "API Token",
+                "api_token_help": "",
                 "account_type_label": "Rodzaj konta",
+                "account_type_help": "",
                 "login_label": "Login",
-                "group_label": "Grupa do przypisania"
+                "login_help": "",
+                "group_label": "Grupa do przypisania",
+                "group_help": "",
+                "desc": "Uzyskaj token API na <a>https://github.com/settings/tokens/new</a>. To rozszerzenie wymaga uprawnień z zakresów (scopes): <code>user</code> oraz <code>read:org</code>."
             }
         }
     }

@@ -6,11 +6,15 @@
                 "organization": "Organizasyon"
             },
             "settings": {
-                "desc": "API jetonunuzu <a>https://github.com/settings/tokens/new</a> adresinden alın. Bu uzantı, <code>user</code> ve <code>read:org</code> kapsamlarını gerektirir.",
                 "api_token_label": "API Jetonu",
+                "api_token_help": "",
                 "account_type_label": "Hesap Tipi",
+                "account_type_help": "",
                 "login_label": "Oturum aç",
-                "group_label": "Atanacak Grup"
+                "login_help": "",
+                "group_label": "Atanacak Grup",
+                "group_help": "",
+                "desc": "API jetonunuzu <a>https://github.com/settings/tokens/new</a> adresinden alın. Bu uzantı, <code>user</code> ve <code>read:org</code> kapsamlarını gerektirir."
             }
         }
     }

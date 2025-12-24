@@ -6,11 +6,15 @@
                 "organization": "Organizzazione"
             },
             "settings": {
-                "desc": "Ottieni il tuo token API da <a>https://github.com/settings/tokens/new</a>. Questa estensione richiede gli ambiti <code>user</code> e <code>read:org</code>.",
                 "api_token_label": "Token API",
+                "api_token_help": "",
                 "account_type_label": "Tipo di Account",
+                "account_type_help": "",
                 "login_label": "Login",
-                "group_label": "Gruppo da Assegnare"
+                "login_help": "",
+                "group_label": "Gruppo da Assegnare",
+                "group_help": "",
+                "desc": "Ottieni il tuo token API da <a>https://github.com/settings/tokens/new</a>. Questa estensione richiede gli ambiti <code>user</code> e <code>read:org</code>."
             }
         }
     }

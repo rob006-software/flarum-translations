@@ -6,11 +6,15 @@
                 "organization": "Organisation"
             },
             "settings": {
-                "desc": "Beziehe Deinen API-Token von <a>https://github.com/settings/tokens/new</a>. Diese Erweiterung erfordert die Bereiche <code>user</code> und <code>read:org</code>.",
                 "api_token_label": "API-Token",
+                "api_token_help": "",
                 "account_type_label": "Konto Typ",
+                "account_type_help": "",
                 "login_label": "Einloggen",
-                "group_label": "Zuzuweisende Gruppe"
+                "login_help": "",
+                "group_label": "Zuzuweisende Gruppe",
+                "group_help": "",
+                "desc": "Beziehe Deinen API-Token von <a>https://github.com/settings/tokens/new</a>. Diese Erweiterung erfordert die Bereiche <code>user</code> und <code>read:org</code>."
             }
         }
     }

@@ -6,11 +6,14 @@
                 "organization": "Organization"
             },
             "settings": {
-                "desc": "Obtain your API token from <a>https://github.com/settings/tokens/new</a>. This extension requires the <code>user</code> and <code>read:org</code> scopes.",
                 "api_token_label": "API Token",
+                "api_token_help": "Create a personal access token at <a>https://github.com/settings/tokens/new</a> with the <code>user</code> and <code>read:org</code> scopes. This token is used to fetch your sponsor information from GitHub.",
                 "account_type_label": "Account Type",
+                "account_type_help": "Select whether you're tracking sponsors for a personal GitHub user account or an organization account.",
                 "login_label": "Login",
-                "group_label": "Group to Assign"
+                "login_help": "Enter your GitHub username (for user accounts) or organization name (for organizations). This is the account whose sponsors will be synchronized.",
+                "group_label": "Group to Assign",
+                "group_help": "Select which Flarum user group sponsors should be added to. Users will be automatically added when they become sponsors and removed when they stop sponsoring."
             }
         }
     }

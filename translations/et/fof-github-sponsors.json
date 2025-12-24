@@ -6,11 +6,15 @@
                 "organization": "Organisatsioon"
             },
             "settings": {
-                "desc": "Oma API kontrolli saad lingilt <a>https://github.com/settings/tokens/new</a>. See lisaprogramm vajab <code>user</code> ja <code>read:org</code> õiguseid.",
                 "api_token_label": "API kontrollkood",
+                "api_token_help": "",
                 "account_type_label": "Konto liik",
+                "account_type_help": "",
                 "login_label": "Logi sisse",
-                "group_label": "Grupp, millesse määrata"
+                "login_help": "",
+                "group_label": "Grupp, millesse määrata",
+                "group_help": "",
+                "desc": "Oma API kontrolli saad lingilt <a>https://github.com/settings/tokens/new</a>. See lisaprogramm vajab <code>user</code> ja <code>read:org</code> õiguseid."
             }
         }
     }
