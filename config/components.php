@@ -590,6 +590,9 @@ return [
 	'fof-discussion-language' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/1.3.7/resources/locale/en.yml',
 	],
+	'fof-discussion-templates' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-templates/1.0.0/resources/locale/en.yml',
+	],
 	'fof-discussion-thumbnail' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-thumbnail/1.1.3/resources/locale/en.yml',
 	],
