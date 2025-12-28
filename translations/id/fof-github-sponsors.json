@@ -7,13 +7,13 @@
             },
             "settings": {
                 "api_token_label": "Token API",
-                "api_token_help": "",
+                "api_token_help": "Buat token akses pribadi di <a>https://github.com/settings/tokens/new</a> dengan ruang lingkup <code>user</code> dan <code>read:org</code>. Token ini digunakan untuk mengambil informasi sponsor Anda dari GitHub.",
                 "account_type_label": "Jenis Akun",
-                "account_type_help": "",
+                "account_type_help": "Pilih apakah Anda ingin melacak sponsor untuk akun pengguna GitHub pribadi atau akun organisasi.",
                 "login_label": "Login",
-                "login_help": "",
+                "login_help": "Masukkan username GitHub Anda (untuk akun pengguna) atau nama organisasi (untuk organisasi). Ini adalah akun yang sponsornya akan disinkronkan.",
                 "group_label": "Grup yang Akan Ditugaskan",
-                "group_help": "",
+                "group_help": "Pilih grup pengguna Flarum mana yang akan ditambahkan sebagai sponsor. Pengguna akan secara otomatis ditambahkan saat mereka menjadi sponsor dan dihapus saat mereka berhenti menjadi sponsor.",
                 "desc": "Dapatkan token API Anda di <a>https://github.com/settings/tokens/new</a>. Ekstensi ini membutuhkan cakupan <code>pengguna</code> dan <code>read:org</code>."
             }
         }
