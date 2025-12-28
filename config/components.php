@@ -1160,6 +1160,9 @@ return [
 	'littlecxm-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/littlecxm/flarum-reply-to-see/1.0.2/resources/locale/en.yml',
 	],
+	'lucas0522-ads' => [
+		'tag' => 'https://raw.githubusercontent.com/lucas0522/flarum-ext-ads/1.2.0/locale/en.yml',
+	],
 	'madeyedeer-avatar-tools' => [
 		'tag' => 'https://raw.githubusercontent.com/MadEyeDeer/avatar-tools/v0.1.1/locale/en.yml',
 	],
