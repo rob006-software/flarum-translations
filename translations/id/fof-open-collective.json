@@ -6,15 +6,15 @@
                 "use_legacy_api_key_label": "Gunakan Application API Key Yang Lama",
                 "use_legacy_api_key_help": "Jika Anda memiliki Kunci API yang lama, Anda dapat terus menggunakannya, tetapi disarankan untuk beralih ke Personal Token. Saat ini, personal token tampaknya berfungsi dalam mode Kunci API (yaitu, \"API-Key\" header), tetapi ini tidak didokumentasikan.\n",
                 "api_key_label": "Application API Key (tidak digunakan lagi)",
-                "api_key_help": "",
+                "api_key_help": "Metode otentikasi ini sudah tidak digunakan lagi. Silakan pertimbangkan untuk beralih ke Personal Token.",
                 "personal_token_label": "Personal Token",
-                "personal_token_help": "",
+                "personal_token_help": "Buat personal token di <a>https://opencollective.com/applications</a>. Token ini digunakan untuk mengambil informasi pendukung Anda dari Open Collective.",
                 "slug_label": "Collective Slug",
-                "slug_help": "",
-                "group_label": "Grup yang Akan Ditugaskan",
-                "group_help": "",
-                "onetime_group_label": "",
-                "onetime_group_help": "",
+                "slug_help": "Masukkan slug Open Collective Anda (bagian setelah opencollective.com/ dalam URL Anda).",
+                "group_label": "Kelompok Pendukung Berlangganan",
+                "group_help": "Pilih kelompok pengguna Flarum mana yang akan ditambahkan untuk pendukung berlangganan. Pengguna akan secara otomatis ditambahkan saat mereka menjadi pendukung berlangganan dan dipindahkan ke kelompok pendukung sekali bayar (jika dikonfigurasi) saat langganan mereka berakhir.",
+                "onetime_group_label": "Kelompok Pendukung Sekali Bayar (Opsional)",
+                "onetime_group_help": "Pilih grup pengguna Flarum mana yang akan ditambahkan untuk pendukung sekali bayar. Jika tidak diatur, pendukung sekali bayar tidak akan dikelola. Saat pendukung berlangganan membatalkan langganan mereka, mereka akan dipindahkan ke grup ini.",
                 "desc": "Dapatkan Personal Token Anda dari <a>https://opencollective.com/dashboard</a> di bawah Settings > For Developers. Jangan pilih cakupan tambahan apa pun - biarkan pilihan default tetap kosong.\n"
             }
         }
