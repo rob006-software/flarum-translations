@@ -798,7 +798,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
 	'hertz-dev-ads' => [
-		'tag' => 'https://raw.githubusercontent.com/lucas0522/flarum-ext-ads/v1.0.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/lucas0522/flarum-ext-ads/v1.1.0/locale/en.yml',
 	],
 	'hikarilan-passkey-login' => [
 		'tag' => 'https://raw.githubusercontent.com/shaokeyibb/flarum-passkey-login/0.3/locale/en.yml',
