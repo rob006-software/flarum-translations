@@ -1331,6 +1331,9 @@ return [
 	'sas_sam-regrole' => [
 		'tag' => 'https://raw.githubusercontent.com/SasSam/flarum-regrole/1.0.5/locale/en.yml',
 	],
+	'richsheep-elasticsearch' => [
+		'tag' => 'https://raw.githubusercontent.com/Richsheep/flarum-elasticsearch/v0.0.3/resources/locale/en.yml',
+	],
 	'serakoi-flarumstaffbadge' => [
 		'tag' => 'https://raw.githubusercontent.com/ThatKoffe/flarumstaffbadge/1.2.2/resources/locale/en.yml',
 	],
