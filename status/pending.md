@@ -214,6 +214,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `lucas0522-ads` | [![#1438 (open)](https://img.shields.io/badge/PR-%231438-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1438) |
+There are no dead branches.
