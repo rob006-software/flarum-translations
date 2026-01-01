@@ -740,6 +740,9 @@ return [
 	'fof-webhooks' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.3.3/resources/locale/en.yml',
 	],
+	'forumaker-magicbb' => [
+		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/1.0.0/resources/locale/en.yml',
+	],
 	'foskym-activity-graph' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-activity-graph/v1.2.1/locale/en.yml',
 	],
