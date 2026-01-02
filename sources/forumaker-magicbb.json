@@ -1,0 +1,41 @@
+{
+    "forumaker-magicbb": {
+        "admin": {
+            "settings": {
+                "bb_center": "Center",
+                "bb_justify": "Justify",
+                "bb_color": "Color",
+                "bb_spoiler": "Spoiler",
+                "bb_table": "Table",
+                "bb_info": "Alerts",
+                "bb_image": "FoF Upload",
+                "bb_image_help": "Large centered images are automatically resized to 60% of the post width, and side-aligned ones — up to 40%",
+                "bb_iframe": "iframe",
+                "bb_iframe_help": "Allows embedding iframes from any source. Use with caution — embedded content may include external scripts. 🧹 After changing this setting, please clear the Flarum cache",
+                "toolbar_group": "Group MagicBB buttons",
+                "toolbar_group_help": "If enabled, all MagicBB buttons will be grouped into a single one in the composer"
+            },
+            "sections": {
+                "text": "Text buttons",
+                "content": "Content buttons",
+                "images": "Image buttons",
+                "features": "Features"
+            },
+            "permissions": {
+                "use_iframe": "Allow iframe"
+            }
+        },
+        "forum": {
+            "composer": {
+                "center_button": "Align center",
+                "justify_button": "Align justify",
+                "color_button": "Add color",
+                "spoiler_button": "Add spoiler",
+                "table_button": "Add table",
+                "info_button": "Add alert",
+                "image_button": "Add image",
+                "more_button": "More"
+            }
+        }
+    }
+}
