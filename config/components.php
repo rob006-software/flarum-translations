@@ -73,9 +73,6 @@ return [
 	'askvortsov-checklist' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-checklist/v1.3.1/resources/locale/en.yml',
 	],
-	'askvortsov-discussion-templates' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-discussion-templates/v0.8.3/resources/locale/en.yml',
-	],
 	'askvortsov-help-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-help-tags/v1.1.0/resources/locale/en.yml',
 	],
@@ -589,6 +586,9 @@ return [
 	],
 	'fof-discussion-language' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/1.3.7/resources/locale/en.yml',
+	],
+	'fof-discussion-templates' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-templates/1.0.0/resources/locale/en.yml',
 	],
 	'fof-discussion-thumbnail' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-thumbnail/1.1.3/resources/locale/en.yml',

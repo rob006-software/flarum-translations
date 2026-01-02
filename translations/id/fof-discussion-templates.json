@@ -1,0 +1,34 @@
+{
+    "fof-discussion-templates": {
+        "admin": {
+            "permissions": {
+                "manage_own_discussion_reply_templates": "Mengelola template balasan untuk diskusi mereka",
+                "manage_all_reply_templates": "Mengelola template balasan untuk semua diskusi"
+            },
+            "settings": {
+                "no_tag_template": "Template default (digunakan ketika diskusi dimulai tanpa ada tag yang dipilih):",
+                "append_template_on_tag_change": "Tambahkan template pada perubahan tag?",
+                "append_template_on_tag_change_help": "Apabila tag diubah, haruskah template tag yang baru ditambahkan meskipun pengguna sudah mulai menulis? Terlepas dari pengaturan ini, jika tag diubah dan pengguna belum melakukan modifikasi, template akan diganti."
+            },
+            "tags": {
+                "tag_template_heading": "Template Diskusi",
+                "tag_template_text": "Kelola template untuk diskusi baru di tag ini.",
+                "tag_template_button": "Edit Template"
+            },
+            "tag_template_modal": {
+                "title": "Template Diskusi",
+                "customize_text": "Mengelola template untuk diskusi baru di tag ini.",
+                "submit_button": "Simpan Template"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "reply_template_button": "Edit Template Balasan"
+            },
+            "reply_template": {
+                "title": "Edit Template Balasan",
+                "submit_button": "Simpan Template Balasan"
+            }
+        }
+    }
+}
