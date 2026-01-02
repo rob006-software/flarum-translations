@@ -352,24 +352,6 @@
             }
         }
     },
-    "fof-discussion-templates.json": {
-        "fof-discussion-templates": {
-            "admin": {
-                "permissions": {
-                    "manage_own_discussion_reply_templates": "5ffb3117faa58947d7643fe01a416533 5ffb3117faa58947d7643fe01a416533"
-                }
-            },
-            "forum": {
-                "discussion_controls": {
-                    "reply_template_button": "2a1afeaa89920695246161204ee8de19 2a1afeaa89920695246161204ee8de19"
-                },
-                "reply_template": {
-                    "title": "2a1afeaa89920695246161204ee8de19 2a1afeaa89920695246161204ee8de19",
-                    "submit_button": "3a638814dedb89941501d99959942c86 3a638814dedb89941501d99959942c86"
-                }
-            }
-        }
-    },
     "askvortsov-help-tags.json": {
         "askvortsov-help-tags": {
             "admin": {
@@ -2835,6 +2817,24 @@
             "api": {
                 "discussion": {
                     "validation_error": "3b682bea35cddab014e5d020e1ef3f5f 3b682bea35cddab014e5d020e1ef3f5f"
+                }
+            }
+        }
+    },
+    "fof-discussion-templates.json": {
+        "fof-discussion-templates": {
+            "admin": {
+                "permissions": {
+                    "manage_own_discussion_reply_templates": "5ffb3117faa58947d7643fe01a416533 5ffb3117faa58947d7643fe01a416533"
+                }
+            },
+            "forum": {
+                "discussion_controls": {
+                    "reply_template_button": "2a1afeaa89920695246161204ee8de19 2a1afeaa89920695246161204ee8de19"
+                },
+                "reply_template": {
+                    "title": "2a1afeaa89920695246161204ee8de19 2a1afeaa89920695246161204ee8de19",
+                    "submit_button": "3a638814dedb89941501d99959942c86 3a638814dedb89941501d99959942c86"
                 }
             }
         }
