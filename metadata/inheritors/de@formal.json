@@ -402,40 +402,6 @@
             }
         }
     },
-    "fof-discussion-templates.json": {
-        "fof-discussion-templates": {
-            "admin": {
-                "permissions": {
-                    "manage_own_discussion_reply_templates": "57d0a09d55b2eb1ac45105f71e1e3d3a 57d0a09d55b2eb1ac45105f71e1e3d3a",
-                    "manage_all_reply_templates": "cdcfe629deed611bc91ba7d2b9614a2c cdcfe629deed611bc91ba7d2b9614a2c"
-                },
-                "settings": {
-                    "no_tag_template": "01e33d8a63d2956ba136707825b9c48d 01e33d8a63d2956ba136707825b9c48d",
-                    "append_template_on_tag_change": "ed042536d8643defb39cfcf03e9e25f6 ed042536d8643defb39cfcf03e9e25f6",
-                    "append_template_on_tag_change_help": "8d8dab1bbf486e629107b4c144217953 8d8dab1bbf486e629107b4c144217953"
-                },
-                "tags": {
-                    "tag_template_heading": "6e60ecec420b81c9d05e722b76c8319e 6e60ecec420b81c9d05e722b76c8319e",
-                    "tag_template_text": "71f489087b0759d145fb6e127194cf21 71f489087b0759d145fb6e127194cf21",
-                    "tag_template_button": "8ae29b514943b8020bad6b449ff63909 8ae29b514943b8020bad6b449ff63909"
-                },
-                "tag_template_modal": {
-                    "title": "6e60ecec420b81c9d05e722b76c8319e 6e60ecec420b81c9d05e722b76c8319e",
-                    "customize_text": "44d8271a4b56852b3e0985379840bf62 44d8271a4b56852b3e0985379840bf62",
-                    "submit_button": "09878e6e14a74e34b3ba5661a3ca8575 09878e6e14a74e34b3ba5661a3ca8575"
-                }
-            },
-            "forum": {
-                "discussion_controls": {
-                    "reply_template_button": "c233af6692e0554383d874daf4e02419 c233af6692e0554383d874daf4e02419"
-                },
-                "reply_template": {
-                    "title": "c233af6692e0554383d874daf4e02419 c233af6692e0554383d874daf4e02419",
-                    "submit_button": "d3f1ee88a9327b814299abad1a43ea84 d3f1ee88a9327b814299abad1a43ea84"
-                }
-            }
-        }
-    },
     "askvortsov-help-tags.json": {
         "askvortsov-help-tags": {
             "admin": {
@@ -5558,6 +5524,40 @@
             "api": {
                 "discussion": {
                     "validation_error": "34a14c0be022de827fbe1ef7dbfb0469 34a14c0be022de827fbe1ef7dbfb0469"
+                }
+            }
+        }
+    },
+    "fof-discussion-templates.json": {
+        "fof-discussion-templates": {
+            "admin": {
+                "permissions": {
+                    "manage_own_discussion_reply_templates": "57d0a09d55b2eb1ac45105f71e1e3d3a 57d0a09d55b2eb1ac45105f71e1e3d3a",
+                    "manage_all_reply_templates": "cdcfe629deed611bc91ba7d2b9614a2c cdcfe629deed611bc91ba7d2b9614a2c"
+                },
+                "settings": {
+                    "no_tag_template": "01e33d8a63d2956ba136707825b9c48d 01e33d8a63d2956ba136707825b9c48d",
+                    "append_template_on_tag_change": "ed042536d8643defb39cfcf03e9e25f6 ed042536d8643defb39cfcf03e9e25f6",
+                    "append_template_on_tag_change_help": "8d8dab1bbf486e629107b4c144217953 8d8dab1bbf486e629107b4c144217953"
+                },
+                "tags": {
+                    "tag_template_heading": "6e60ecec420b81c9d05e722b76c8319e 6e60ecec420b81c9d05e722b76c8319e",
+                    "tag_template_text": "71f489087b0759d145fb6e127194cf21 71f489087b0759d145fb6e127194cf21",
+                    "tag_template_button": "8ae29b514943b8020bad6b449ff63909 8ae29b514943b8020bad6b449ff63909"
+                },
+                "tag_template_modal": {
+                    "title": "6e60ecec420b81c9d05e722b76c8319e 6e60ecec420b81c9d05e722b76c8319e",
+                    "customize_text": "44d8271a4b56852b3e0985379840bf62 44d8271a4b56852b3e0985379840bf62",
+                    "submit_button": "09878e6e14a74e34b3ba5661a3ca8575 09878e6e14a74e34b3ba5661a3ca8575"
+                }
+            },
+            "forum": {
+                "discussion_controls": {
+                    "reply_template_button": "c233af6692e0554383d874daf4e02419 c233af6692e0554383d874daf4e02419"
+                },
+                "reply_template": {
+                    "title": "c233af6692e0554383d874daf4e02419 c233af6692e0554383d874daf4e02419",
+                    "submit_button": "d3f1ee88a9327b814299abad1a43ea84 d3f1ee88a9327b814299abad1a43ea84"
                 }
             }
         }
