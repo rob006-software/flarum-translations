@@ -843,6 +843,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-default-group`](https://weblate.rob006.net/projects/flarum/fof-default-group) | [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) |
 | [`fof-default-user-preferences`](https://weblate.rob006.net/projects/flarum/fof-default-user-preferences) | [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) |
 | [`fof-discussion-language`](https://weblate.rob006.net/projects/flarum/fof-discussion-language) | [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) |
+| [`fof-discussion-templates`](https://weblate.rob006.net/projects/flarum/fof-discussion-templates) | [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates) |
 | [`fof-discussion-thumbnail`](https://weblate.rob006.net/projects/flarum/fof-discussion-thumbnail) | [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail) |
 | [`fof-discussion-views`](https://weblate.rob006.net/projects/flarum/fof-discussion-views) | [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) |
 | [`fof-disposable-emails`](https://weblate.rob006.net/projects/flarum/fof-disposable-emails) | [`fof/disposable-emails`](https://github.com/FriendsOfFlarum/disposable-emails) |
@@ -920,7 +921,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`askvortsov-auto-moderator`](https://weblate.rob006.net/projects/flarum/askvortsov-auto-moderator) | [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod) |
 | [`askvortsov-categories`](https://weblate.rob006.net/projects/flarum/askvortsov-categories) | [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories) |
 | [`askvortsov-checklist`](https://weblate.rob006.net/projects/flarum/askvortsov-checklist) | [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist) |
-| [`askvortsov-discussion-templates`](https://weblate.rob006.net/projects/flarum/askvortsov-discussion-templates) | [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates) |
 | [`askvortsov-help-tags`](https://weblate.rob006.net/projects/flarum/askvortsov-help-tags) | [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags) |
 | [`askvortsov-markdown-tables`](https://weblate.rob006.net/projects/flarum/askvortsov-markdown-tables) | [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables) |
 | [`askvortsov-pwa`](https://weblate.rob006.net/projects/flarum/askvortsov-pwa) | [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) |
