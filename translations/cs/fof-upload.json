@@ -168,7 +168,7 @@
                 "user_uploads": "Nahrané soubory",
                 "cancel": "Zrušit",
                 "media": "Média",
-                "shared_media": ""
+                "shared_media": "Sdílená média"
             },
             "states": {
                 "error": "Chyba",
@@ -220,31 +220,31 @@
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
+                "title": "Nový sdílený soubor",
                 "dropzone": "",
                 "hide-from-media-gallery": "",
-                "upload": ""
+                "upload": "Nahrát"
             },
             "file_list": {
                 "loading": "",
-                "empty": "",
+                "empty": "Nebyly nalezeny žádné soubory.",
                 "release_to_upload": "",
                 "modal_empty_desktop": "",
                 "modal_empty_phone": "",
                 "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nic nevybráno} one {Vybraný soubor} other {Vybrané soubory}}",
+                "load_more_files_btn": "Načíst další soubory",
+                "delete_file_a11y_label": "Smazat soubor \"{fileName}\"",
+                "delete_confirmation": "Opravdu chcete smazat „{fileName}“?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
+                    "btn_a11y_label_hide": "Skrýt \"{fileName}\" ve správci médií",
+                    "btn_a11y_label_show": "Zobrazit \"{fileName}\" ve správci médií",
+                    "hide_confirmation": "Opravdu chcete skrýt \"{fileName}\"? Skrytím ho odeberete ze správce médií a nebude to mít žádný vliv na existující příspěvky.",
                     "hide_success": "",
-                    "show_confirmation": "",
+                    "show_confirmation": "Opravdu chcete zobrazit \"{fileName}\"? Zobrazením souboru se tento soubor zobrazí ve správci médií.",
                     "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
+                    "hide_fail": "Nelze skrýt soubor \"{fileName}\"",
+                    "show_fail": "Nelze zobrazit soubor \"{fileName}\"",
                     "loading": ""
                 },
                 "hide_shared_file": {
