@@ -1274,6 +1274,9 @@ return [
 	'nearata-maintenance-mode' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-maintenance-mode/1.0.0/locale/en.yml',
 	],
+	'nearata-login-notification' => [
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-login-notification/1.0.0/locale/en.yml',
+	],
 	'nearata-minecraft-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-minecraft-avatars/v2.1.1/locale/en.yml',
 	],
