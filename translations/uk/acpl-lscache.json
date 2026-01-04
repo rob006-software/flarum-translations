@@ -17,7 +17,7 @@
             "status_codes_cache_label": "За налаштуванням HTTP код стану Сторінка TTL",
             "status_codes_cache_help": "Вкажіть код стану HTTP і кількість секунд для кешування цієї сторінки, відокремлених пробілом. По одному значенню в рядку.",
             "purge_all": "=> acpl-lscache.ref.purge_cache",
-            "test_failed_alert": "",
+            "test_failed_alert": "Схоже, ваш сервер не підтримує LSCache. Перевірте конфігурацію сервера. Виявлений сервер: <b>{server}</b>, виявлений тип LiteSpeed: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
             },
