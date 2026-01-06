@@ -2,34 +2,34 @@
     "huseyinfiliz-sticky-title": {
         "admin": {
             "settings": {
-                "title": "",
-                "mobile_section_title": "",
-                "mobile_scroll_label": "",
-                "mobile_scroll_help": "",
+                "title": "Einstellungen für Sticky Title",
+                "mobile_section_title": "Einstellungen für Mobilgeräte",
+                "mobile_scroll_label": "Anzeige des Diskussionstitels auf Mobilgeräten",
+                "mobile_scroll_help": "Wähle, wann der Diskussionstitel im Header auf Mobilgeräten angezeigt wird",
                 "mobile_scroll_options": {
-                    "always": "",
-                    "scroll_down": "",
-                    "scroll_up": "",
-                    "never": ""
+                    "always": "Immer anzeigen",
+                    "scroll_down": "Beim Scrollen nach unten anzeigen",
+                    "scroll_up": "Beim Scrollen nach oben anzeigen",
+                    "never": "Nie anzeigen"
                 },
-                "scrubber_section_title": "",
-                "scrubber_replace_original_label": "",
-                "scrubber_replace_original_help": "",
+                "scrubber_section_title": "Einstellungen für Schrubber",
+                "scrubber_replace_original_label": "\"Erster Beitrag\" durch Diskussionstitel ersetzen",
+                "scrubber_replace_original_help": "Wähle, wo der Diskussionstitel anstatt \"Erster Beitrag\" angezeigt wird",
                 "scrubber_replace_options": {
-                    "never": "",
-                    "mobile": "",
-                    "desktop": "",
-                    "both": ""
+                    "never": "Nie ersetzen",
+                    "mobile": "Nur auf Mobilgeräten",
+                    "desktop": "Nur auf Desktop",
+                    "both": "Auf Mobilgeräten & Desktop"
                 },
-                "web_section_title": "",
-                "web_scrubber_title_label": "",
-                "web_scrubber_title_help": "",
-                "fof_pages_section_title": "",
-                "fof_pages_header_label": "",
-                "fof_pages_header_help": "",
-                "blog_header_label": "",
-                "blog_header_help": "",
-                "save_settings": ""
+                "web_section_title": "Einstellungen für Desktop",
+                "web_scrubber_title_label": "Titel oberhalb des Schrubbers anzeigen",
+                "web_scrubber_title_help": "Diskussionstitel oberhalb des Schrubbers auf Desktop anzeigen",
+                "fof_pages_section_title": "Einstellungen für FoF Pages",
+                "fof_pages_header_label": "Seitentitel im Header auf Mobilgeräten anzeigen",
+                "fof_pages_header_help": "Seitentitel im Header für Mobilgeräte anzeigen, wenn FoF Pages betrachtet werden",
+                "blog_header_label": "Blogtitel im Header auf Mobilgeräten anzeigen",
+                "blog_header_help": "Blogtitel im Header für Mobilgeräte anzeigen, wenn Blogartikel betrachtet werden",
+                "save_settings": "Einstellungen speichern"
             }
         }
     }
