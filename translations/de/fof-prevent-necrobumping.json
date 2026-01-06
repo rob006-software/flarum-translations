@@ -5,8 +5,8 @@
                 "warning": {
                     "title": "Diese Diskussion ist mehr als <b>{time}</b> alt.",
                     "description": "Es ist sehr wahrscheinlich, dass es keiner weiteren Diskussion bedarf und daher ist es nicht sinnvoll, die Diskussion wieder zu beleben.",
-                    "cta": "",
-                    "cta_button": "",
+                    "cta": "Möchtest du stattdessen eine neue Diskussion starten?",
+                    "cta_button": "=> core.ref.start_a_discussion",
                     "checkbox_label": "Ich bin mir bewusst, dass diese Diskussion schon ziemlich alt ist, aber ich möchte trotzdem antworten.",
                     "error": "Diese Diskussion ist zu alt, um darauf zu antworten."
                 }
@@ -14,8 +14,8 @@
         },
         "admin": {
             "settings": {
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
+                "show_discussion_cta_label": "Handlungsaufforderung anzeigen",
+                "show_discussion_cta_help": "Handlungsaufforderung anzeigen, wenn auf eine Diskussion geantwortet wird, die älter als die angegebene Anzahl an Tagen ist und keine benutzerdefinierte Nachricht eingerichtet wurde.",
                 "days_label": "Tage",
                 "days_help": "Eine Diskussion wird als alt markiert, wenn die angegebene Anzahl von Tagen seit dem letzten Beitrag zu dieser Diskussion vergangen ist. Verwende <code>0</code>, um dies standardmäßig zu deaktivieren.",
                 "message_title_label": "Benutzerdefinierte Nachricht Titel",
