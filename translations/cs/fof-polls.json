@@ -50,7 +50,7 @@
             "max_votes_allowed": "V anketě můžete hlasovat pro {max, plural, one {# možnost} few {# možnosti} other {# možností}}.",
             "polls_count": "",
             "poll_never_ends": "",
-            "answers": "",
+            "answers": "Odpovědi",
             "poll": {
                 "cannot_change_vote": "Po hlasování nemůžete svůj hlas změnit.",
                 "submit_button": "Hlasovat",
@@ -59,10 +59,10 @@
                 "total_votes": ""
             },
             "poll_controls": {
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Opravdu chcete tuto anketu smazat?",
                 "delete_success_message": "",
                 "delete_error_message": ""
             },
@@ -74,7 +74,7 @@
                 "composer": {
                     "add_title": "",
                     "edit_title": "",
-                    "save_changes": "",
+                    "save_changes": "=> core.ref.save_changes",
                     "delete": "",
                     "groups_manager": "",
                     "view_group": "",
@@ -85,15 +85,15 @@
                     "start_poll_group_button": "",
                     "cannot_start_poll_group_button": "",
                     "empty_text": "",
-                    "load_more_button": "",
+                    "load_more_button": "=> core.ref.load_more",
                     "no_polls": "",
                     "add_poll_button": ""
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
+                    "add_poll_label": "Přidat anketu",
+                    "edit_label": "=> core.ref.edit",
                     "view_label": "",
-                    "delete_label": "",
+                    "delete_label": "=> core.ref.delete",
                     "delete_confirmation": "",
                     "delete_success_message": "",
                     "delete_error_message": ""
@@ -104,14 +104,14 @@
             },
             "polls_list": {
                 "empty_text": "",
-                "load_more_button": "",
+                "load_more_button": "=> core.ref.load_more",
                 "sort_dropdown": {
                     "newest": "",
                     "oldest": "",
                     "most_voted": "",
                     "least_voted": "",
                     "sort_dropdown": {
-                        "default": ""
+                        "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
                 }
             },
@@ -121,8 +121,8 @@
                 "no_permission_alert": "Nemáte oprávnění ke spuštění ankety."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
+                "add_title": "Přidat anketu",
+                "edit_title": "Upravit anketu",
                 "polls_manager": "",
                 "polls_preview": "",
                 "continue_editing": "",
@@ -150,8 +150,8 @@
                 "question_placeholder": "Otázka",
                 "subtitle_placeholder": "",
                 "submit": "Odeslat",
-                "delete": "",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "",
                     "help": "",
@@ -165,7 +165,7 @@
                 },
                 "tooltip": {
                     "options": {
-                        "add-button": ""
+                        "add-button": "Přidat odpověď"
                     }
                 }
             },
@@ -181,7 +181,7 @@
                 "nav-groups": ""
             },
             "showcase": {
-                "active-polls": "",
+                "active-polls": "Aktivní ankety",
                 "ended-polls": "",
                 "no-active-polls": "",
                 "no-recent-polls": ""
