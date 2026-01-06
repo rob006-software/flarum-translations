@@ -36,7 +36,7 @@
             "fields": {
                 "title": "Felder",
                 "add": "Feld {field} hinzufügen",
-                "edit": "Feld '{field}' bearbeiten",
+                "edit": "Feld „{field}“ bearbeiten",
                 "name": "Name des Feldes",
                 "name-help": "Die öffentlich sichtbare (nicht übersetzbare) Feldbezeichnung.\n",
                 "description": "Feld-Beschreibung",
@@ -70,7 +70,7 @@
                 "masqueradeanswers": {
                     "export_description": "",
                     "delete_description": "",
-                    "anonymize_description": ""
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
                 }
             }
         }
