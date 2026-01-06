@@ -11,23 +11,23 @@
             "modal": {
                 "title": "Reaktionen",
                 "anonymous_count": "{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}",
-                "no_reactions": ""
+                "no_reactions": "Noch keine Reaktionen"
             },
-            "mod_item": "Noch keine Reaktionen",
+            "mod_item": "Reaktionen anzeigen",
             "react_button_label": "Reagieren"
         },
         "admin": {
             "permissions": {
                 "react_posts_label": "Auf Beiträge reagieren",
                 "see_reactions_label": "Sehen, wer auf Beiträge reagiert hat",
-                "delete_post_reactions_label": ""
+                "delete_post_reactions_label": "Reaktionen auf Beiträge löschen"
             },
             "page": {
                 "cdn": {
-                    "title": "",
-                    "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "title": "CDN",
+                    "help": "In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit eine andere CDN-Adresse zu verwenden. <code>[codepoint]</code> wird durch den Codepoint des Emojis ersetzt.\n\nUm zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code> verwenden. Dieses Feld darf NIE leer bleiben.\n",
+                    "label": "URL",
+                    "default-url": "Standard: {url}"
                 },
                 "reactions": {
                     "title": "Benutzerdefinierte Reaktionen",
@@ -37,7 +37,7 @@
                         "display": "Anzeige",
                         "identifier": "Bezeichner"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "Soll diese Reaktion wirklich gelöscht werden? Dieser Vorgang kann nicht rückgängig gemacht werden."
                 },
                 "convert": {
                     "help": "Wenn du deine Erweiterung gerade aktualisiert hast, müssen deine Reaktionen konvertiert werden. Wenn du diese Erweiterung gerade erst installiert hast, kannst du diese Nachricht getrost ignorieren.",
