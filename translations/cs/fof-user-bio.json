@@ -2,25 +2,25 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "Zobrazit bio",
-                "editOwn": "Upravit vlastní bio",
-                "editAny": "Upravit jakékoli bio"
+                "view": "Zobrazit profil",
+                "editOwn": "Upravit vlastní profil",
+                "editAny": "Upravit jakýkoli profil"
             },
             "setting": {
-                "bioLimit": "Omezit počet znaků v bio",
-                "maxLines": "",
-                "allowFormatting": "Povolit formátování v bio",
-                "allowFormatting_help": "Toto formátování je podle návrhu záměrně odděleno od formátování příspěvku. Pokud jsou povolena rozšíření BBCode a/nebo Markdown, budou k dispozici pro formátování obsahu bio. Nejsou povoleny žádné obrázky ani vložené soubory. Rozšíření, která přidávají do Flarum další možnosti formátování obsahu, musí *výslovně* přidat podporu pro formátování obsahu bio."
+                "bioLimit": "Omezit počet znaků v profilu",
+                "maxLines": "Maximální počet řádků zobrazených najednou",
+                "allowFormatting": "Povolit formátování v profilu",
+                "allowFormatting_help": "Toto formátování je záměrně oddělené od formátování příspěvků. Pokud jsou povolena rozšíření BBCode/Markdown, budou dostupná i pro formátování profilu. Nejsou povoleny obrázky a vložené soubory. Rozšíření, která přidávají do Flarum další možnosti formátování obsahu, musí *výslovně* přidat podporu pro formátování profilu."
             }
         },
         "forum": {
             "userbioPlaceholder": "Napište něco o sobě",
-            "userbioPlaceholderOtherUser": "Napište bio pro {username}",
+            "userbioPlaceholderOtherUser": "Napsat profil pro {username}",
             "profile": {
-                "cancel_confirm": "",
-                "cancel_button": "",
-                "save_button": "",
-                "edit_bio_label": ""
+                "cancel_confirm": "Opravdu chcete zrušit úpravu svého profilu? Přijdete o všechny provedené změny.",
+                "cancel_button": "Zrušit",
+                "save_button": "Uložit",
+                "edit_bio_label": "Upravit profil"
             }
         }
     }
