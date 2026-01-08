@@ -7535,7 +7535,8 @@
             }
         },
         "validation": {
-            "recaptcha": "b153043a9d3f5c9133792b04d6d7d869 b153043a9d3f5c9133792b04d6d7d869"
+            "recaptcha": "b153043a9d3f5c9133792b04d6d7d869 b153043a9d3f5c9133792b04d6d7d869",
+            "recaptcha-unknown": "6b612e76dd55d6d7f248c7ecdb2830c0 6b612e76dd55d6d7f248c7ecdb2830c0"
         }
     },
     "fof-secure-https.json": {
@@ -7680,7 +7681,8 @@
                     "editAny": "b924d48db1b2705e0e280265936cc4d2 b924d48db1b2705e0e280265936cc4d2"
                 },
                 "settings": {
-                    "allow_external_favicons_label": "45430e3478175239a9825a952d1bb304 45430e3478175239a9825a952d1bb304"
+                    "allow_external_favicons_label": "8cb7dc2d0b9f2f08f2bb7cfe9ec8e8d2 8cb7dc2d0b9f2f08f2bb7cfe9ec8e8d2",
+                    "favicon_provider_label": "85a6488b4a0e549caa82a7bc46e183e3 85a6488b4a0e549caa82a7bc46e183e3"
                 }
             },
             "forum": {
@@ -9019,6 +9021,15 @@
             }
         }
     },
+    "ianm-syndication.json": {
+        "ianm-syndication": {
+            "forum": {
+                "autodiscovery": {
+                    "discussion_last_posts": "48f5af0331026f093e6e3821353884b0 48f5af0331026f093e6e3821353884b0"
+                }
+            }
+        }
+    },
     "ianm-translate.json": {
         "ianm-translate": {
             "admin": {
@@ -9141,6 +9152,18 @@
                     "confirm_disable_2fa_title": "007664c58798baf175a7c2c7080db34e 007664c58798baf175a7c2c7080db34e",
                     "confirm_disable_2fa_text": "a4f327afc08c3abb0fbccf859b60bdbe a4f327afc08c3abb0fbccf859b60bdbe",
                     "confirm_disable_2fa_text_other_user": "2912d9bca0ab6dcbd84679dd58a0a99b 2912d9bca0ab6dcbd84679dd58a0a99b",
+                    "change_device_heading": "1b8d9ac03cbfd729b8bcdd94d7b91151 1b8d9ac03cbfd729b8bcdd94d7b91151",
+                    "change_device_title": "c1b5ac10c15b2a6ae80a1d8ed5e16f0f c1b5ac10c15b2a6ae80a1d8ed5e16f0f",
+                    "change_device_description": "b4d4b91a36040686d2a9b9ad5d9174af b4d4b91a36040686d2a9b9ad5d9174af",
+                    "change_device_button": "c1b5ac10c15b2a6ae80a1d8ed5e16f0f c1b5ac10c15b2a6ae80a1d8ed5e16f0f",
+                    "verify_current_device_message": "d4605ac88865a5b494432d9e3614d58b d4605ac88865a5b494432d9e3614d58b",
+                    "enter_current_token": "fc1ab322541a9dfad28cbcc2633d0dae fc1ab322541a9dfad28cbcc2633d0dae",
+                    "scan_new_device_qr": "f93e9183426d102c8491cee6ada12dd9 f93e9183426d102c8491cee6ada12dd9",
+                    "verify_new_device_message": "2e297e01d020e5427b6844745d736a4a 2e297e01d020e5427b6844745d736a4a",
+                    "enter_new_token": "ed6e5239f9d3fd9948205bf062c8454e ed6e5239f9d3fd9948205bf062c8454e",
+                    "new_backup_codes": "f3e1c7901e54eb0edc4c47378a7d6a6a f3e1c7901e54eb0edc4c47378a7d6a6a",
+                    "device_changed_confirmation": "a469997b68574e93b098df14e0cf9efe a469997b68574e93b098df14e0cf9efe",
+                    "continue_button": "527daf946ecbce65d72213a2bf6460f2 527daf946ecbce65d72213a2bf6460f2",
                     "cannot_disable": "f4f4c672acba53ec128868e9a674bad7 f4f4c672acba53ec128868e9a674bad7",
                     "cannot_disable_tooltip": "6e6a0c8994be3ec5afbe40da2ace39d9 6e6a0c8994be3ec5afbe40da2ace39d9",
                     "cancel_button": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7",
@@ -9150,7 +9173,7 @@
                     "manual_entry_instruction": "05caccc67735333cf5c0b2e9eb03b4b9 05caccc67735333cf5c0b2e9eb03b4b9"
                 },
                 "log_in": {
-                    "two_factor_placeholder": "25461afd1877258694c0e60bcf929be9 25461afd1877258694c0e60bcf929be9",
+                    "two_factor_placeholder": "4b00e460836fe3f8c1b594bcf60b35f3 4b00e460836fe3f8c1b594bcf60b35f3",
                     "two_factor_required_message": "3839da2ce05ebe86cd8574caff562d11 3839da2ce05ebe86cd8574caff562d11"
                 }
             },
