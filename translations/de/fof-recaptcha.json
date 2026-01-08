@@ -6,19 +6,19 @@
                 "secret_key_label": "Geheimer Schlüssel",
                 "site_key_label": "Seiten-Schlüssel (Site Key)",
                 "type_label": "reCAPTCHA Typ",
-                "type_help": "",
+                "type_help": "Diese Erweiterung unterstützt nur reCAPTCHA v2. Der ausgewählte Typ muss mit dem Typ deiner reCAPTCHA-Anmeldeinformationen übereinstimmen.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title",
                 "title": "FriendsOfFlarum reCAPTCHA"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "reCAPTCHA testen",
+                "help_text": "Dieser Test verwendet die oben eingegebenen Werte. Lade den Test nach jeder Änderung der Einstellungen neu und speichere nach erfolgreichem Test!\nDie unten stehenden Einstellungen entsprechen möglicherweise nicht den gespeicherten Werten.\n",
+                "success_message": "Erfolg! reCAPTCHA ist korrekt konfiguriert.",
+                "load_test_button": "Laden",
+                "submit_button": "Absenden",
+                "reload_button": "Neu laden"
             },
             "permissions": {
                 "post_without_captcha": "Beiträge und Diskussionen ohne Captcha erstellen"
@@ -26,7 +26,7 @@
         },
         "forum": {
             "error": "Beim Absenden vom reCAPTCHA ist ein Fehler aufgetreten, bitte versuch es erneut.",
-            "unknown_error": ""
+            "unknown_error": "Ein unbekannter Fehler ist aufgetreten. Überprüfe das Captcha und versuche es erneut."
         }
     },
     "validation": {
