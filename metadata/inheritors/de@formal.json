@@ -7544,6 +7544,14 @@
     "fof-sentry.json": {
         "fof-sentry": {
             "admin": {
+                "sentry_settings": "911a6bd9fd8d56ce02f351f30f5a7198 911a6bd9fd8d56ce02f351f30f5a7198",
+                "sections": {
+                    "general": "02be9999832d9b4f68c22d725bc04789 02be9999832d9b4f68c22d725bc04789",
+                    "general_help": "727961b272a53e0c84b0d426cf0a751f 727961b272a53e0c84b0d426cf0a751f",
+                    "user_context": "97625fca84943ae7ca4a9ece91797c43 97625fca84943ae7ca4a9ece91797c43",
+                    "frontend_monitoring": "430e3750c04fe1cca8d49ca0e9bfdb58 430e3750c04fe1cca8d49ca0e9bfdb58",
+                    "frontend_monitoring_help": "d7d3d26af8107c92ce0cbbf8c6f47851 d7d3d26af8107c92ce0cbbf8c6f47851"
+                },
                 "settings": {
                     "dsn_label": "9e9bf69d39beecef3ebc9c6bf2db0cc9 9e9bf69d39beecef3ebc9c6bf2db0cc9",
                     "dsn_help": "59428c6b347361360987251b3e899f3e 59428c6b347361360987251b3e899f3e",
@@ -10185,6 +10193,76 @@
                         "suspended": "8eaa4de546db66c3d13ea9a61e7f54a1 8eaa4de546db66c3d13ea9a61e7f54a1",
                         "unsuspended": "a52f7420266b32fed8592b97c98f630a a52f7420266b32fed8592b97c98f630a",
                         "username_changed": "ccdd1d029c44ef63f68244ca4f3f374e ccdd1d029c44ef63f68244ca4f3f374e"
+                    }
+                }
+            }
+        }
+    },
+    "kilowhat-audit-pro.json": {
+        "kilowhat-audit": {
+            "admin": {
+                "permissions": {
+                    "view": "2c6f279bc919d38f8aa63c54c3a529cb 2c6f279bc919d38f8aa63c54c3a529cb",
+                    "viewLimited": "b6a656b6cea7b8edcb63a3831ad00bd0 b6a656b6cea7b8edcb63a3831ad00bd0"
+                },
+                "header": {
+                    "title": "eda63b570db82e05c2fd7b5f0c3bb20f eda63b570db82e05c2fd7b5f0c3bb20f",
+                    "free": "b24ce0cd392a5b0b8dedc66c25213594 b24ce0cd392a5b0b8dedc66c25213594",
+                    "pro": "abd900517e55dce0437dac136a8568d7 abd900517e55dce0437dac136a8568d7",
+                    "upgrade": "e15bad8d0e7233745c46285ee4b0e66e e15bad8d0e7233745c46285ee4b0e66e"
+                },
+                "limitedSettings": {
+                    "configure": "c752dbe10c46d4d519740367b77902ae c752dbe10c46d4d519740367b77902ae",
+                    "title": "db35d5a7c9576d33204ae9a2bf0d72b3 db35d5a7c9576d33204ae9a2bf0d72b3"
+                },
+                "settings": {
+                    "limitedIpAddress": "a908023b162e0a83aacd7e9972567bdf a908023b162e0a83aacd7e9972567bdf"
+                }
+            },
+            "forum": {
+                "link": {
+                    "all-audit": "307d7d4a607006cbf31cdf3eb6cab465 307d7d4a607006cbf31cdf3eb6cab465",
+                    "discussion-audit": "307d7d4a607006cbf31cdf3eb6cab465 307d7d4a607006cbf31cdf3eb6cab465"
+                }
+            },
+            "lib": {
+                "browser": {
+                    "filterApply": "c450c636b13b0f65fbdac8486d4bea33 c450c636b13b0f65fbdac8486d4bea33",
+                    "withoutActor": "5e69538747a83484c05287770cfefc61 5e69538747a83484c05287770cfefc61",
+                    "deletedResource": {
+                        "discussion": "20b602dd1726459f21889a4d92d54a56 20b602dd1726459f21889a4d92d54a56",
+                        "group": "30f3a02e08fcdc0832c5621500ecffdb 30f3a02e08fcdc0832c5621500ecffdb",
+                        "post": "b37b82cd5e6a4190e1b3203187ca9dda b37b82cd5e6a4190e1b3203187ca9dda",
+                        "tag": "ab4aa3f0d59a245db47edc0c97233f8f ab4aa3f0d59a245db47edc0c97233f8f",
+                        "user": "29527f90447fe9531213b0196470a407 29527f90447fe9531213b0196470a407"
+                    },
+                    "genericResource": {
+                        "comment": "cd05591e8d0d62d2c11ba7421d80cdba cd05591e8d0d62d2c11ba7421d80cdba",
+                        "post": "9d5d0cda540bbd56e919e37665fd305d 9d5d0cda540bbd56e919e37665fd305d"
+                    },
+                    "permissionGroup": {
+                        "everyone": "084c157fb330e7769a1c742a6122ea1c 084c157fb330e7769a1c742a6122ea1c",
+                        "members": "b411d8eccb7e838d6c2290a5eee01208 b411d8eccb7e838d6c2290a5eee01208"
+                    },
+                    "noValue": "4330dc8fab00b6729672d41e91c11d6b 4330dc8fab00b6729672d41e91c11d6b",
+                    "noReason": "d8d527bbdfd3a587a3e3c2cc2d9b4f23 d8d527bbdfd3a587a3e3c2cc2d9b4f23",
+                    "client": {
+                        "api_key": "d49baca13a52bd681f6da4d6b7f5fd0f d49baca13a52bd681f6da4d6b7f5fd0f",
+                        "access_token": "8f1703a30a116a63e11ffa33bc808394 8f1703a30a116a63e11ffa33bc808394",
+                        "cli": "e19190700596f93273ff7a9d3b598ef6 e19190700596f93273ff7a9d3b598ef6",
+                        "unknown": "8e48346c913626fb40070cf8541d2a96 8e48346c913626fb40070cf8541d2a96"
+                    },
+                    "controls": {
+                        "hideRaw": "e13c4c867a6c9aafc02e4ad20f760b3d e13c4c867a6c9aafc02e4ad20f760b3d",
+                        "showRaw": "084acdcc8ce676557e685be14d3594ff 084acdcc8ce676557e685be14d3594ff",
+                        "filterActor": "347d0412889fa04cbb1e55edd7289513 347d0412889fa04cbb1e55edd7289513",
+                        "filterIp": "90864aa96825287c9e87d2c23f270ef1 90864aa96825287c9e87d2c23f270ef1"
+                    },
+                    "user": {
+                        "logged_in": "9ddfa567f8cd2900af52c652788ea99a 9ddfa567f8cd2900af52c652788ea99a",
+                        "logged_in_with_provider": "7234ed45020d9dd9826339e13cce8f27 7234ed45020d9dd9826339e13cce8f27",
+                        "logged_out": "7260a484076e54c2a05e976f52e7add5 7260a484076e54c2a05e976f52e7add5",
+                        "password_changed": "f872a6bbec6e8b64d6c1596dc16c3dad f872a6bbec6e8b64d6c1596dc16c3dad"
                     }
                 }
             }
