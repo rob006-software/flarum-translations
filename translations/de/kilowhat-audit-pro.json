@@ -2,29 +2,29 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "Audit-Protokoll anzeigen",
+                "viewLimited": "Eingeschränktes Audit-Protokoll anzeigen"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Audit",
+                "free": "Free",
+                "pro": "Pro",
+                "upgrade": "Upgrade auf Pro"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
+                "configure": "Konfigurieren",
+                "title": "Einstellungen für eingeschränkten Zugriff",
                 "introduction": "",
                 "requiresExtension": ""
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "IP-Adresse anzeigen"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
+                "all-audit": "Audit-Protokoll",
+                "discussion-audit": "Audit-Protokoll",
                 "user-audit": "",
                 "actor-audit": ""
             },
@@ -38,39 +38,39 @@
         "lib": {
             "browser": {
                 "filterPlaceholder": "",
-                "filterApply": "",
+                "filterApply": "Anwenden",
                 "empty": "",
                 "loadMore": "",
-                "withoutActor": "",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Diskussion #{id}",
+                    "group": "Gruppe #{id}",
+                    "post": "Beitrag #{id}",
+                    "tag": "Thema #{id}",
+                    "user": "Benutzer #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Kommentar",
+                    "post": "Beitrag"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(kein Wert)",
+                "noReason": "(kein Grund)",
                 "client": {
                     "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "api_key": "API-Schlüssel",
+                    "access_token": "Zugriffstoken",
+                    "cli": "Kommandozeile",
+                    "unknown": "Unbekannter Client"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
+                    "hideRaw": "Rohprotokoll verbergen",
+                    "showRaw": "Rohprotokoll anzeigen",
+                    "filterActor": "Protokolleinträge dieses Akteurs anzeigen",
+                    "filterIp": "Protokolleinträge dieser IP anzeigen",
                     "filterClient": "",
                     "filterAction": "",
                     "filterUser": "",
@@ -137,14 +137,14 @@
                     "email_change_requested": "",
                     "groups_changed": "",
                     "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
+                    "logged_in": "Im Konto von {username} angemeldet",
+                    "logged_in_with_provider": "Im Konto von {username} angemeldet mit {provider}",
+                    "logged_out": "Aus Konto von {username} abgemeldet",
                     "nickname_changed": "",
                     "nickname_requested": "",
                     "nickname_request_approved": "",
                     "nickname_request_rejected": "",
-                    "password_changed": "",
+                    "password_changed": "Hat Passwort von {username} geändert",
                     "password_change_requested": "",
                     "provider_connected": "",
                     "suspended": "",
