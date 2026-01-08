@@ -1,18 +1,18 @@
 {
     "fof-sentry": {
         "admin": {
-            "sentry_settings": "",
+            "sentry_settings": "Sentry-Einstellungen",
             "sections": {
-                "general": "",
-                "general_help": "",
-                "user_context": "",
+                "general": "Allgemeine Einstellungen",
+                "general_help": "Konfiguriere deine Sentry-DSN- und Umgebungseinstellungen.",
+                "user_context": "Benutzerkontext",
                 "user_context_help": "",
                 "backend_performance": "",
                 "backend_performance_help": "",
                 "database_monitoring": "",
                 "database_monitoring_help": "",
-                "frontend_monitoring": "",
-                "frontend_monitoring_help": ""
+                "frontend_monitoring": "Frontend (JavaScript)-Überwachung",
+                "frontend_monitoring_help": "JavaScript-Fehler und Frontend-Leistung überwachen. Beachte, dass die Aktivierung bestimmter Funktionen die Paketgröße erhöht."
             },
             "settings": {
                 "dsn_label": "Sentry DSN",
