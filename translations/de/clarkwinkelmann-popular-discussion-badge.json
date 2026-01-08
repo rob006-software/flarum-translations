@@ -12,7 +12,7 @@
                     "scheduler": "Scheduler (CRON)"
                 },
                 "scheduler_frequency": "Frequenz des Scheduler-Modus",
-                "scheduler_frequency_help": "Die Häufigkeit, in der der Beliebtheitsstatus im Scheduler-Modus aktualisiert wird. (Im Frontend-Modus wird der Status immer sofort aktualisiert)\n",
+                "scheduler_frequency_help": "Die Häufigkeit, mit der der Beliebtheitsstatus im Scheduler-Modus aktualisiert wird. (Im Frontend-Modus wird der Status immer sofort aktualisiert)\n",
                 "scheduler_frequency_options": {
                     "everyFiveMinutes": "Alle 5 Minuten",
                     "everyTenMinutes": "Alle 10 Minuten",
@@ -27,9 +27,9 @@
                 "comments_placeholder": "0",
                 "views": "Aufrufe",
                 "views_placeholder": "0",
-                "within": "",
-                "within_placeholder": "",
-                "hours": "",
+                "within": "innerhalb",
+                "within_placeholder": "alle",
+                "hours": "h",
                 "and": "UND",
                 "or": "ODER"
             }
