@@ -5059,6 +5059,7 @@
                         "ip_label": "2c05bcf71a5a5d25ebe2512962fdbfb3 2c05bcf71a5a5d25ebe2512962fdbfb3",
                         "email_label": "2a73a485ba8efc07cf77be6e98fc07c6 2a73a485ba8efc07cf77be6e98fc07c6",
                         "frequency_label": "407b2c5569e3c30c0d45972dd073f687 407b2c5569e3c30c0d45972dd073f687",
+                        "frequency_help": "3db58059310b7f65848905cbb83f7d9d 3db58059310b7f65848905cbb83f7d9d",
                         "api_key_label": "d49baca13a52bd681f6da4d6b7f5fd0f d49baca13a52bd681f6da4d6b7f5fd0f",
                         "api_key_text": "b7500271d722dbcaa811b75532b1b1e1 b7500271d722dbcaa811b75532b1b1e1",
                         "api_key_instructions_text": "a0db162a794df21071786b3f34fcf72f a0db162a794df21071786b3f34fcf72f",
@@ -6331,17 +6332,48 @@
                     "trim_monitored_help": "ef3ad956d53457b117dfcf6fae6fe7b7 ef3ad956d53457b117dfcf6fae6fe7b7"
                 },
                 "stats": {
+                    "auto_refresh": "c01099ebc123810db6ef429df5dfb132 c01099ebc123810db6ef429df5dfb132",
                     "heading": "2d166171fb14a4bce85a77aea1d61258 2d166171fb14a4bce85a77aea1d61258",
                     "full_dashboard": "5003bafc5fb7e6221b5af1ca989f5447 5003bafc5fb7e6221b5af1ca989f5447",
                     "refresh": "bf3cfcc67443f35738da254ed9c6ef3f bf3cfcc67443f35738da254ed9c6ef3f",
+                    "last_refresh": "f718b69e195b97740ac5607e78adc098 f718b69e195b97740ac5607e78adc098",
+                    "health": {
+                        "excellent": "37677398c4db7bcba9209638a31eed5a 37677398c4db7bcba9209638a31eed5a",
+                        "good": "988d10abb9f42e7053450af19ad64c7f 988d10abb9f42e7053450af19ad64c7f",
+                        "poor": "7d1ca93ec76ef18792547ad78d33f791 7d1ca93ec76ef18792547ad78d33f791",
+                        "critical": "c6fbd094d458d8fc8d7e7328811dd076 c6fbd094d458d8fc8d7e7328811dd076",
+                        "tooltip": "35cd49ba403eee6348fdf5cf49cba9a7 35cd49ba403eee6348fdf5cf49cba9a7"
+                    },
+                    "error": {
+                        "title": "4730e82429b5bce8aac96aa7edd8e142 4730e82429b5bce8aac96aa7edd8e142",
+                        "fetch_failed": "e4868d2ec4206d4a44b4400b13dc9407 e4868d2ec4206d4a44b4400b13dc9407",
+                        "setup_docs": "a6320c65356d96404efa1ff1e4ecd03a a6320c65356d96404efa1ff1e4ecd03a"
+                    },
                     "data": {
                         "redis-used-memory": "240130f5dfe4377c7451924e205cbb59 240130f5dfe4377c7451924e205cbb59",
+                        "redis-memory-usage": "c17b55cbceb009cba53890437a3de9de c17b55cbceb009cba53890437a3de9de",
                         "redis-peak-memory": "b32815fa6606afc419c0d4208492499f b32815fa6606afc419c0d4208492499f",
                         "redis-max-memory": "9ec34057acfc1ed02d4e0f52c05f251b 9ec34057acfc1ed02d4e0f52c05f251b",
                         "redis-memory-policy": "ca355a3b077338df001cfd813d428fc0 ca355a3b077338df001cfd813d428fc0",
                         "redis-memory-policy-tooltip": "acbfaa70197ae00e3aa4c37be33fea1e acbfaa70197ae00e3aa4c37be33fea1e",
+                        "redis-ops-per-sec": "c3f508e46158bcb44037b0e7d6634c1e c3f508e46158bcb44037b0e7d6634c1e",
+                        "redis-connected-clients": "dc50478f7f01eb34c5ed24260a7c8a25 dc50478f7f01eb34c5ed24260a7c8a25",
+                        "redis-blocked-clients": "5c705e9f5abfeac96645de309434cebe 5c705e9f5abfeac96645de309434cebe",
                         "jobs-per-minute": "406df347119b4295bc3a0e751773318d 406df347119b4295bc3a0e751773318d",
-                        "jobs-past-hour": "398d9c0438f940e1678028646c6f93ab 398d9c0438f940e1678028646c6f93ab"
+                        "jobs-past-hour": "398d9c0438f940e1678028646c6f93ab 398d9c0438f940e1678028646c6f93ab",
+                        "failed-last-seconds": "ff2ef2cfdd7e3392eecc6a9b04388db5 ff2ef2cfdd7e3392eecc6a9b04388db5",
+                        "status": {
+                            "label": "ec53a8c4f07baed5d8825072c89799be ec53a8c4f07baed5d8825072c89799be",
+                            "running": "d4a1002630ffa8c1c07b023693145e3d d4a1002630ffa8c1c07b023693145e3d",
+                            "inactive": "2aaad1e130dd23b7195ed5235483cef4 2aaad1e130dd23b7195ed5235483cef4"
+                        },
+                        "total-processes": "91f7c2c3d427dd9db0ae0af7fe733f88 91f7c2c3d427dd9db0ae0af7fe733f88",
+                        "max-wait-time": "9edb2a1fa31124774845fe959921125f 9edb2a1fa31124774845fe959921125f",
+                        "max-wait-queue": "2905fc9037582d72c9caf1dbd6b80d66 2905fc9037582d72c9caf1dbd6b80d66",
+                        "max-runtime": "6f51e2263b79c09ad7d214c9703b904a 6f51e2263b79c09ad7d214c9703b904a",
+                        "max-throughput": "85e8fd94c4e6289880544f59fa268765 85e8fd94c4e6289880544f59fa268765",
+                        "success-rate": "a44aa269ef70ef6dfaf9224b26e7bce5 a44aa269ef70ef6dfaf9224b26e7bce5",
+                        "failure-rate": "1ba0c2fc937b22f2de99bdc916c7bc90 1ba0c2fc937b22f2de99bdc916c7bc90"
                     }
                 }
             }

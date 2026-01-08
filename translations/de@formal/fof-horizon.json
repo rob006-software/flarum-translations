@@ -18,48 +18,48 @@
                 "trim_monitored_help": "Diese Tabelle wird verwendet, um überwachte Jobs im Horizon-Dashboard anzuzeigen.\n"
             },
             "stats": {
-                "auto_refresh": "",
+                "auto_refresh": "Automatische Aktualisierung",
                 "heading": "Warteschlangenübersicht",
                 "full_dashboard": "Horizon Dashboard",
                 "refresh": "Aktualisieren",
-                "last_refresh": "",
+                "last_refresh": "Aktualisiert {time}",
                 "health": {
-                    "excellent": "",
-                    "good": "",
-                    "poor": "",
-                    "critical": "",
-                    "tooltip": ""
+                    "excellent": "Hervorragend",
+                    "good": "Gut",
+                    "poor": "Schlecht",
+                    "critical": "Kritisch",
+                    "tooltip": "Systemgesundheitsbewertung: {score}/100"
                 },
                 "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
+                    "title": "Verbindungsfehler",
+                    "fetch_failed": "Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfe deine Redis-Konfiguration.",
+                    "setup_docs": "Redis-Setup-Dokumentation aufrufen"
                 },
                 "data": {
                     "redis-used-memory": "Redis-Arbeitsspeicherauslastung",
-                    "redis-memory-usage": "",
+                    "redis-memory-usage": "Cache-Store-Speichernutzung",
                     "redis-peak-memory": "Redis-Spitzenwert-Arbeitsspeicher",
                     "redis-max-memory": "Maximaler Redis-Arbeitsspeicher",
                     "redis-memory-policy": "Redis-Arbeitsspeicherrichtlinie",
                     "redis-memory-policy-tooltip": "Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,\nwenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte\nwerden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicke hier, um die Dokumentation anzuzeigen.\n",
-                    "redis-ops-per-sec": "",
-                    "redis-connected-clients": "",
-                    "redis-blocked-clients": "",
+                    "redis-ops-per-sec": "Ops pro Sekunde",
+                    "redis-connected-clients": "Verbundene Clients",
+                    "redis-blocked-clients": "Blockierte Clients",
                     "jobs-per-minute": "Jobs pro Minute",
                     "jobs-past-hour": "Jobs der letzten Stunde",
-                    "failed-last-seconds": "",
+                    "failed-last-seconds": "Kürzlich fehlgeschlagene Jobs",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Status",
+                        "running": "Läuft",
+                        "inactive": "Inaktiv"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-wait-queue": "",
-                    "max-runtime": "",
-                    "max-throughput": "",
-                    "success-rate": "",
-                    "failure-rate": ""
+                    "total-processes": "Prozesse insgesamt",
+                    "max-wait-time": "Maximale Wartezeit",
+                    "max-wait-queue": "Warteschlange: {queue}",
+                    "max-runtime": "Max. Laufzeit",
+                    "max-throughput": "Max. Durchsatz",
+                    "success-rate": "Erfolgsquote",
+                    "failure-rate": "Fehlerquote"
                 }
             }
         }
