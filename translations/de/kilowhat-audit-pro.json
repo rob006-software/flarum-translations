@@ -14,8 +14,8 @@
             "limitedSettings": {
                 "configure": "Konfigurieren",
                 "title": "Einstellungen für eingeschränkten Zugriff",
-                "introduction": "",
-                "requiresExtension": ""
+                "introduction": "Konfiguriere, was Benutzer mit eingeschränkten Zugriffsrechten sehen können",
+                "requiresExtension": "Benötigt die Erweiterung {extension}"
             },
             "settings": {
                 "limitedIpAddress": "IP-Adresse anzeigen"
@@ -29,7 +29,7 @@
                 "actor-audit": ""
             },
             "modal": {
-                "all-title": "",
+                "all-title": "Audit-Protokoll",
                 "discussion-title": "",
                 "user-title": "",
                 "actor-title": ""
@@ -37,10 +37,10 @@
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
+                "filterPlaceholder": "Protokolle filtern",
                 "filterApply": "Anwenden",
-                "empty": "",
-                "loadMore": "",
+                "empty": "Keine Ergebnisse",
+                "loadMore": "Mehr laden",
                 "withoutActor": "=> core.group.guest",
                 "deletedResource": {
                     "discussion": "Diskussion #{id}",
@@ -79,9 +79,9 @@
                 "audit_log_cleared": "",
                 "cache_cleared": "",
                 "discussion": {
-                    "created": "",
+                    "created": "Hat Diskussion {discussion} begonnen",
                     "create_date_changed": "",
-                    "deleted": "",
+                    "deleted": "Hat Diskussion {discussion} gelöscht",
                     "hidden": "",
                     "locked": "",
                     "merged_away": "",
@@ -107,7 +107,7 @@
                 "permission_changed": "",
                 "post": {
                     "approved": "",
-                    "created": "",
+                    "created": "Hat Beitrag {post} in Diskussion {discussion} erstellt",
                     "create_date_changed": "",
                     "deleted": "",
                     "dismissed_flags": "",
@@ -115,24 +115,24 @@
                     "flagged": "",
                     "hidden": "",
                     "restored": "",
-                    "revised": "",
+                    "revised": "Hat den Beitrag {post} von {postuser} in {discussion} überarbeitet",
                     "user_changed": ""
                 },
-                "setting_changed": "",
+                "setting_changed": "Hat Einstellung {key} bearbeitet",
                 "setting_changed_with_values": "",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "Hat Thema {tag} erstellt",
+                    "deleted": "Hat Thema {tag} gelöscht",
+                    "updated": "Hat Thema {tag} aktualisiert"
                 },
                 "user": {
                     "activated": "",
                     "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
+                    "avatar_changed": "Hat Avatar von {username} geändert",
+                    "avatar_removed": "Hat Avatar von {username} entfernt",
                     "bio_changed": "",
                     "created": "",
-                    "deleted": "",
+                    "deleted": "Hat {username} gelöscht",
                     "email_changed": "",
                     "email_change_requested": "",
                     "groups_changed": "",
@@ -146,7 +146,7 @@
                     "nickname_request_rejected": "",
                     "password_changed": "Hat Passwort von {username} geändert",
                     "password_change_requested": "",
-                    "provider_connected": "",
+                    "provider_connected": "Hat Provider {provider} mit Konto {username} verbunden",
                     "suspended": "",
                     "unsuspended": "",
                     "username_changed": "",
