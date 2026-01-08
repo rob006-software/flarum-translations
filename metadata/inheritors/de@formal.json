@@ -130,6 +130,9 @@
                     "cache_ttl": "e763a6c94611a6f7d5a9e66a291f996e e763a6c94611a6f7d5a9e66a291f996e",
                     "last_seen_interval": "ce15225be1c8bb9a0db6c4d9ae7553e1 ce15225be1c8bb9a0db6c4d9ae7553e1",
                     "max_users": "3f2fcca3b6afa0043ec4edf60b45e723 3f2fcca3b6afa0043ec4edf60b45e723"
+                },
+                "permissions": {
+                    "view_online_users_widget": "de54ee1786cc8aebc16421ae79a09cca de54ee1786cc8aebc16421ae79a09cca"
                 }
             },
             "forum": {
@@ -194,7 +197,8 @@
                     "helpextensionlikes": "47422562c49dee1ab95d1298e18c69de 47422562c49dee1ab95d1298e18c69de"
                 },
                 "permissions": {
-                    "edit_money_label": "1c1d062fb05e73931a1eb2e836da1929 1c1d062fb05e73931a1eb2e836da1929"
+                    "edit_money_label": "1c1d062fb05e73931a1eb2e836da1929 1c1d062fb05e73931a1eb2e836da1929",
+                    "disable_money_label": "0fb6b8adbe9d4af1fb75a98c0de6539d 0fb6b8adbe9d4af1fb75a98c0de6539d"
                 },
                 "autoremove": [
                     "6d94bb83a4e4aa80e8f6e01b8414b826 6d94bb83a4e4aa80e8f6e01b8414b826",
@@ -476,6 +480,7 @@
                         "reset_vapid_success": "f3d84d284a9e350f0922d99a50034d1b f3d84d284a9e350f0922d99a50034d1b"
                     },
                     "firebase_config": {
+                        "heading": "035489ff8d092741943e4a83241f5af9 035489ff8d092741943e4a83241f5af9",
                         "help_text": "0e2c4dd2ef8035cd3130876e9ef18b53 0e2c4dd2ef8035cd3130876e9ef18b53",
                         "see_documentation_here": "529a4e9e574a1b35afe17fb2d65858b0 529a4e9e574a1b35afe17fb2d65858b0",
                         "upload_successful": "1b4fd811b3b6701fb8783036301be920 1b4fd811b3b6701fb8783036301be920",
@@ -715,7 +720,7 @@
         "blomstra-fontawesome": {
             "admin": {
                 "settings": {
-                    "type": "bd9a4b77a2e3c5ef897a69c067d25d04 bd9a4b77a2e3c5ef897a69c067d25d04",
+                    "type": "1e40cb757e164390498027d5e9653dc7 1e40cb757e164390498027d5e9653dc7",
                     "kit_url": "193883a7a543b7c26dbb5fefefdd2872 193883a7a543b7c26dbb5fefefdd2872",
                     "kit_url_help": "a70a030fcd368f89d518493ca1b586f7 a70a030fcd368f89d518493ca1b586f7",
                     "test": {
@@ -2046,7 +2051,7 @@
                         "scheduler": "7ecc928a203ab06cac291b31a13469df 7ecc928a203ab06cac291b31a13469df"
                     },
                     "scheduler_frequency": "1247ca3f00280215a4e66f31befec812 1247ca3f00280215a4e66f31befec812",
-                    "scheduler_frequency_help": "d5f5567ade655063f62cda7db0ca2348 d5f5567ade655063f62cda7db0ca2348",
+                    "scheduler_frequency_help": "6920af625d2b4577103af1e6e5b863b1 6920af625d2b4577103af1e6e5b863b1",
                     "scheduler_frequency_options": {
                         "everyFiveMinutes": "24b04b8762d1e2f9e74e58f30a8bce89 24b04b8762d1e2f9e74e58f30a8bce89",
                         "everyTenMinutes": "abdcbeb76a67903af1cdc0809d993271 abdcbeb76a67903af1cdc0809d993271",
@@ -2060,6 +2065,9 @@
                     "comments_placeholder": "cfcd208495d565ef66e7dff9f98764da cfcd208495d565ef66e7dff9f98764da",
                     "views": "c1e949c74c82d88410af27e490d554e9 c1e949c74c82d88410af27e490d554e9",
                     "views_placeholder": "cfcd208495d565ef66e7dff9f98764da cfcd208495d565ef66e7dff9f98764da",
+                    "within": "7fa2dadc722cca3317b2aec973b1a087 7fa2dadc722cca3317b2aec973b1a087",
+                    "within_placeholder": "5d12b75cf29cfd720f323167e0bddad3 5d12b75cf29cfd720f323167e0bddad3",
+                    "hours": "2510c39011c5be704182423e3a695e91 2510c39011c5be704182423e3a695e91",
                     "and": "9cea908cf7489f0419f0479b42115046 9cea908cf7489f0419f0479b42115046",
                     "or": "30aefd8ab1e143c07e31563aa6cdb53f 30aefd8ab1e143c07e31563aa6cdb53f"
                 }
