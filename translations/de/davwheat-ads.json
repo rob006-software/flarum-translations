@@ -8,17 +8,17 @@
                 "settings": {
                     "admin_bypass_warning": "",
                     "enabled_locations": "",
-                    "script_urls": "",
+                    "script_urls": "Benutzerdefinierte Skript-URL(s)",
                     "add_script": "Neu",
                     "script_deletion": "",
-                    "code_input": "",
+                    "code_input": "HTML-Code",
                     "code_input_disabled": "",
-                    "js_input": "",
+                    "js_input": "JavaScript-Code",
                     "js_input_disabled": "",
                     "use_adsense": "AdSense verwenden",
-                    "pub_id": "",
-                    "between_posts_gap": "",
-                    "allow_after_placeholder": "",
+                    "pub_id": "AdSense-Publisher-ID",
+                    "between_posts_gap": "Zwischen Beiträgen: Abstand zwischen Werbeblöcken",
+                    "allow_after_placeholder": "Zwischen Beiträgen: Werbung nach dem Antworten-Platzhalter anzeigen",
                     "save_btn": {
                         "dirty": "Änderungen übernehmen",
                         "saving": "Speichert...",
@@ -26,7 +26,7 @@
                         "fix_errors": "Behebe die Fehler, bevor du speicherst"
                     },
                     "alert": {
-                        "fix_errors": "",
+                        "fix_errors": "Bitte beheben Sie die Fehler oberhalb vor dem Speichern",
                         "code_has_script": ""
                     },
                     "warning": ""
@@ -34,10 +34,10 @@
             },
             "lib": {
                 "locations": {
-                    "discussion_header": "",
-                    "discussion_sidebar": "",
+                    "discussion_header": "Diskussionsseite (unterhalb des Headers)",
+                    "discussion_sidebar": "Diskussions-Seitenleiste [NUR DESKTOP]",
                     "header": "Kopfzeile",
-                    "sidebar": "",
+                    "sidebar": "Seitennavigation [NUR DESKTOP]",
                     "footer": "Fußzeile",
                     "between_posts": "Zwischen Beiträgen"
                 }
