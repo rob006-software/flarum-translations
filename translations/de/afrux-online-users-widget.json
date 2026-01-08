@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "cache_ttl": "Zeit zum Zwischenspeichern der Benutzerliste (in Sekunden)",
-                "last_seen_interval": "",
+                "last_seen_interval": "Zeitintervall, innerhalb dessen ein Benutzer als online betrachtet wird (in Minuten)",
                 "max_users": "Max. anzuzeigende Benutzer"
             },
             "permissions": {
