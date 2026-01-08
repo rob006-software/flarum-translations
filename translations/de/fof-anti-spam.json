@@ -24,7 +24,7 @@
                     "ip_label": "IP-Adressen-Spam-Prüfung",
                     "email_label": "E-Mail-Spam-Prüfung",
                     "frequency_label": "Schwellenwert",
-                    "frequency_help": "",
+                    "frequency_help": "Die Anzahl der Spam-Meldungen aus allen aktivierten Prüfungen, die den Spamfilter auslösen.\nBeispiel: Wenn die E-Mail-Adresse 1 Treffer und die IP-Adresse 2 Treffer liefert, ergibt das insgesamt 3 Treffer. Ist der Schwellenwert auf 3 oder weniger festgelegt, wird die Registrierung abgelehnt.\n",
                     "api_key_label": "API-Schlüssel",
                     "api_key_text": "Du hast die Möglichkeit, Spammer an StopForumSpam zu melden, um die allgemeine Forengemeinschaft spamfrei zu halten.",
                     "api_key_instructions_text": "<register>Registriere dich auf StopForumSpam</register>. Danach musst du deinen <key>API-Schlüssel anfordern</key>.",
