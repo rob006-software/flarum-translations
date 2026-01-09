@@ -94,78 +94,78 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Potvrďte žádost o výmaz účtu",
-                "body": ""
+                "body": "Ahoj {display_name}!\n\nNěkdo (doufejme že vy) právě požádal o výmaz účtu `{display_name}`.\n\nPro potvrzení této akce prosím otevřete následující odkaz. Poté bude vaše žádost zpracována naším týmem.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Mazání účtu dokončeno",
+                    "body": "Ahoj {display_name}!\n\nToto je automatické závěrečné oznámení, že váš účet byl smazán.\n"
                 },
                 "anonymization": {
-                    "subject": "",
-                    "body": ""
+                    "subject": "Anonymizace účtu dokončena",
+                    "body": "Ahoj {display_name}!\n\nToto je automatické závěrečné oznámení, že váš účet byl anonymizován.\n"
                 }
             },
             "erasure_cancelled": {
-                "subject": "",
-                "body": ""
+                "subject": "Žádost o výmaz účtu zrušena",
+                "body": "Ahoj {display_name}!\n\nToto je automatické oznámení, že vaše žádost o zrušení výmazu účtu byla zpracována.\n\nVáš účet již nebude smazán.\n"
             },
             "export_available": {
-                "subject": "",
-                "body": ""
+                "subject": "Export dat je k dispozici",
+                "body": "Ahoj {display_name}!\n\nPožádali jste o export dat účtu uživatele {username}. Tento export byl úspěšně vytvořen a je nyní k dispozici:\n\n{url}\n\nExport zůstane dostupný do {destroys_at}.\n"
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": ""
+                "anonymized_user": "Anonymizovaný uživatel"
             },
             "delete_user": {
-                "title": "",
-                "text": "",
-                "modal_delete_button": "",
-                "delete_button": ""
+                "title": "Vymazat účet uživatele {username}",
+                "text": "Opravdu chcete vymazat účet uživatele {username}?\n\nTato akce je nevratná.\n",
+                "modal_delete_button": "Vymazat pomocí výchozí akce",
+                "delete_button": "Vymazat"
             },
             "erasure_requests": {
-                "empty_text": "",
-                "item_text": "",
-                "tooltip": "",
-                "title": ""
+                "empty_text": "Žádné čekající žádosti o výmaz účtu",
+                "item_text": "{name} požádal o výmaz účtu",
+                "tooltip": "Žádosti o výmaz účtu",
+                "title": "Žádosti o výmaz účtu"
             },
-            "erasure_request_confirmed": "",
+            "erasure_request_confirmed": "Potvrdili jste svou žádost o výmaz účtu. Akce bude provedena do 30 dnů, jak vyžaduje GDPR.",
             "settings": {
                 "data": {
-                    "heading": ""
+                    "heading": "Osobní údaje"
                 },
-                "export_data_button": "",
-                "export_data_help": "",
-                "request_erasure_button": "",
-                "request_erasure_help": ""
+                "export_data_button": "Exportovat data",
+                "export_data_help": "Požádáním o export dat získáte ke stažení kopii všech informací spojených s vaším účtem. Zahrnuje to příspěvky, komentáře i údaje profilu.",
+                "request_erasure_button": "Vymazat účet",
+                "request_erasure_help": "Požádáním o výmaz bude váš účet a všechna související data trvale odstraněna. Tato akce je nevratná. Před pokračováním se ujistěte, že máte uložený veškerý obsah, který si chcete ponechat."
             },
             "process_erasure": {
-                "confirm": "",
-                "title": "",
-                "text": "",
-                "comments_label": "",
-                "anonymization_button": "",
-                "deletion_button": ""
+                "confirm": "Opravdu chcete vymazat účet uživatele {name} v režimu {mode}?",
+                "title": "Zpracovat žádost o výmaz",
+                "text": "{name} požádal o výmaz účtu.",
+                "comments_label": "Komentáře (volitelné)",
+                "anonymization_button": "Anonymizovat uživatele",
+                "deletion_button": "Smazat uživatele"
             },
             "request_erasure": {
-                "title": "",
-                "reason": "",
+                "title": "Požádat o výmaz účtu",
+                "reason": "Uvedli jste následující důvod: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "",
-                    "user_confirmed": ""
+                    "awaiting_user_confirmation": "Měli byste obdržet e‑mail pro potvrzení žádosti o výmaz účtu.\n",
+                    "user_confirmed": "Potvrdili jste svou žádost o výmaz účtu. Akce bude provedena do 30 dnů, jak vyžaduje GDPR.\n"
                 },
-                "text": "",
-                "password_label": "",
-                "reason_label": "",
-                "cancel_button": "",
-                "request_button": ""
+                "text": "Po obdržení a potvrzení bude vaše žádost do 30 dnů posouzena administrátorem, jak vyžaduje GDPR.",
+                "password_label": "Potvrďte heslo",
+                "reason_label": "Důvod (volitelné)",
+                "cancel_button": "Zrušit žádost",
+                "request_button": "Požádat o výmaz"
             },
             "notification": {
-                "export-ready": ""
+                "export-ready": "Export dat uživatele {username} je připraven ke stažení."
             },
-            "export_file": ""
+            "export_file": "Export uživatelských dat pro {username} ({email}) připraven {date} z {forumTitle} ({url})"
         }
     }
 }
