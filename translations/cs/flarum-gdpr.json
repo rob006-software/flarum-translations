@@ -2,57 +2,57 @@
     "flarum-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "",
-                "description": "",
+                "heading": "Přehled údajů GDPR",
+                "description": "Stav jednotlivých akcí a integrací souvisejících s GDPR",
                 "data_types": {
-                    "title": "",
-                    "help_text": "",
-                    "type": "",
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "extension": ""
+                    "title": "Typy dat",
+                    "help_text": "Toto jsou aktuálně registrované typy dat. Každý typ je uveden spolu s příslušnými akcemi pro export, anonymizaci a mazání. Pokud nějaké rozšíření pracuje s daty spadajícími pod GDPR, mělo by své typy dat registrovat u <code>flarum/gdpr</code>.\nData uložená v tabulce <code>user</code> jsou zpracovávána zvlášť — viz údaje v tabulce uživatelů níže.\n",
+                    "type": "Typ",
+                    "export_description": "Akce exportu",
+                    "anonymize_description": "Akce anonymizace",
+                    "delete_description": "Akce mazání",
+                    "extension": "Rozšíření"
                 },
                 "settings": {
-                    "heading": "",
-                    "help_text": "",
-                    "extension_settings_button": ""
+                    "heading": "Nastavení GDPR",
+                    "help_text": "Hledáte nastavení GDPR? Najdete je na stránce rozšíření.",
+                    "extension_settings_button": "Nastavení GDPR"
                 },
                 "user_table_data": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Údaje v tabulce uživatelů",
+                    "help_text": "Většina sloupců přidaných do tabulky <code>user</code> je zpracována automaticky — jak pro export, tak pro výmaz.\nExistují však některé speciální případy, které jsou uvedeny níže.\n"
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "Integrace GDPR"
             },
             "permissions": {
-                "process_erasure": "",
-                "process_export_for_others": "",
-                "see_anonymized_user_badges": ""
+                "process_erasure": "Zpracovávat žádosti o výmaz",
+                "process_export_for_others": "Žádat a přijímat exporty dat pro jiné uživatele",
+                "see_anonymized_user_badges": "Zobrazit odznaky anonymizovaných uživatelů"
             },
             "settings": {
-                "allow_anonymization": "",
-                "allow_anonymization_help": "",
-                "allow_deletion": "",
-                "allow_deletion_help": "",
-                "default_anonymous_username": "",
-                "default_anonymous_username_help": "",
-                "default_erasure": "",
-                "default_erasure_help": "",
+                "allow_anonymization": "Povolit anonymizaci u žádostí o výmaz",
+                "allow_anonymization_help": "Výchozí a doporučená volba pro většinu komunit. V tomto režimu jsou příspěvky a komentáře zachovány v souladu s GDPR, ale veškeré údaje umožňující identifikaci uživatele jsou odstraněny.",
+                "allow_deletion": "Povolit mazání u žádostí o výmaz",
+                "allow_deletion_help": "Mnohem přísnější volba. V tomto režimu jsou všechny příspěvky a komentáře odstraněny a uživatel je z databáze zcela smazán. Používejte opatrně.",
+                "default_anonymous_username": "Výchozí uživatelské jméno pro anonymizované uživatele",
+                "default_anonymous_username_help": "Při anonymizaci je uživatelské jméno nahrazeno touto hodnotou doplněnou o ID žádosti o anonymizaci, například <code>Anonymous123</code>.",
+                "default_erasure": "Výchozí akce pro žádosti o výmaz",
+                "default_erasure_help": "Jaká má být výchozí akce pro žádosti o výmaz?",
                 "default_erasure_options": {
-                    "anonymization": "",
-                    "deletion": ""
+                    "anonymization": "Anonymizace",
+                    "deletion": "Mazání"
                 },
                 "gdpr_page": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Integrace dat a akce",
+                    "help_text": "Před rozhodnutím, které akce na fóru použít, je zásadní porozumět tomu, jaká data jsou integrována a jak jsou zpracovávána při anonymizaci i mazání. Navštivte přehled GDPR, kde zjistíte, jak jsou data zpracovávána a která volitelná rozšíření svá data registrovala pro zpracování tímto rozšířením."
                 }
             },
             "userlist": {
                 "columns": {
                     "gdpr_actions": {
-                        "export": ""
+                        "export": "Exportovat data uživatele {username}"
                     }
                 }
             }
@@ -60,40 +60,40 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Odstraní avatar uživatele ze souborového systému.",
+                    "export_description": "Načte avatar uživatele ze souborového systému a zahrne jej do exportu."
                 },
                 "discussions": {
-                    "export_description": ""
+                    "export_description": "Exportuje všechny diskuze, které uživatel založil. Data jsou omezena na název a datum vytvoření."
                 },
                 "forum": {
-                    "export_description": ""
+                    "export_description": "Exportuje název fóra, URL, uživatelské jméno, e‑mail a aktuální datum."
                 },
-                "no_action": "",
+                "no_action": "Nebyla provedena žádná akce.",
                 "posts": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Odstraní IP adresu ze všech příspěvků uživatele.",
+                    "delete_description": "Odstraní všechny příspěvky uživatele.",
+                    "export_description": "Exportuje všechny příspěvky uživatele. Data jsou omezena na obsah, datum vytvoření, IP adresu a ID diskuze."
                 },
                 "tokens": {
-                    "delete_description": "",
-                    "export_description": ""
+                    "delete_description": "Odstraní všechny tokeny vytvořené uživatelem.",
+                    "export_description": "Exportuje všechny tokeny vytvořené uživatelem. Data jsou omezena na datum vytvoření a typ tokenu."
                 },
                 "user": {
-                    "anonymize_description": "",
-                    "delete_description": "",
-                    "export_description": ""
+                    "anonymize_description": "Nastaví všechny sloupce v tabulce uživatele na hodnotu null. Sloupce, které nemohou být null, jsou nastaveny na výchozí nebo speciální hodnoty. Heslo je změněno, předvolby resetovány a všechny skupiny odstraněny.",
+                    "delete_description": "Odstraní uživatele z databáze.",
+                    "export_description": "Exportuje data z tabulky uživatele. Všechny sloupce kromě ID a hesla."
                 }
             },
             "request_data": {
-                "title": "",
-                "text": "",
-                "request_button": ""
+                "title": "Vyžádat data pro {username}",
+                "text": "Bude pro vás připraven ZIP archiv. Jakmile bude hotový, obdržíte oznámení s odkazem ke stažení. Odkaz zůstane aktivní po dobu jednoho dne.\n",
+                "request_button": "Vyžádat archiv"
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "",
+                "subject": "Potvrďte žádost o výmaz účtu",
                 "body": ""
             },
             "erasure_completed": {
