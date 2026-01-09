@@ -776,6 +776,9 @@ return [
 	'foskym-sorts-for-user-directory' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-sorts-for-user-directory/v0.3.2/locale/en.yml',
 	],
+	'frie-nextcloud-oauth' => [
+		'tag' => 'https://raw.githubusercontent.com/frie/flarum-nextcloud-oauth/0.2/resources/locale/en.yml',
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
