@@ -473,6 +473,9 @@ return [
 	'dem13n-topic-starter-label' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.8/locale/en.yml',
 	],
+	'dshovchko-image-dimensions' => [
+		'tag' => 'https://raw.githubusercontent.com/dshovchko/flarum-image-dimensions/v1.5.1/locale/en.yml',
+	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.2.0/resources/locale/en.yml',
 	],
