@@ -1319,6 +1319,9 @@ return [
 	'peruguitar-user-portrait' => [
 		'tag' => 'https://raw.githubusercontent.com/Anexsoft/peruguitar-flarum-ext-user-portrait/1.0.4/locale/en.yml',
 	],
+	'piwind-diff' => [
+		'tag' => 'https://raw.githubusercontent.com/piwind/flarum-diff/v1.2.1/locale/en.yml',
+	],
 	'ralkage-hcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.0.0/resources/locale/en.yml',
 	],
