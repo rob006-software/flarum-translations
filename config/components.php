@@ -347,6 +347,9 @@ return [
 	'dalez-identityagent' => [
 		'tag' => 'https://raw.githubusercontent.com/zDaleZ/flarum-identityagent/v1.0.0/locale/en.yml',
 	],
+	'cpluscc-oauth-osu' => [
+		'tag' => 'https://raw.githubusercontent.com/cpluscc/flarum-ext-oauth-osu/2.1/locale/en.yml',
+	],
 	'dalez-msemoji' => [
 		'tag' => 'https://raw.githubusercontent.com/zDaleZ/flarum-msemoji/v1.0.1/locale/en.yml',
 	],
