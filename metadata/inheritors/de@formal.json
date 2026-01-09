@@ -7630,6 +7630,8 @@
                 "settings": {
                     "exclude_users": "8ca0dbd6d0c19955f1a8aef5399008b1 8ca0dbd6d0c19955f1a8aef5399008b1",
                     "exclude_users_help": "9ca6ad376daa776b13088f95e60a8498 9ca6ad376daa776b13088f95e60a8498",
+                    "exclude_tags": "1f01920c6134d86174cac13aca31427f 1f01920c6134d86174cac13aca31427f",
+                    "exclude_tags_help": "baaa0f45550247a23262db71bf15be57 baaa0f45550247a23262db71bf15be57",
                     "mode_label": "a932c7a7eb6971cb467855132bb68192 a932c7a7eb6971cb467855132bb68192",
                     "mode_help": "6a1b1a5a546ca33263369487f3b56d3c 6a1b1a5a546ca33263369487f3b56d3c",
                     "mode_help_runtime_label": "6410fd96f1ebaa6a213be2314604a184 6410fd96f1ebaa6a213be2314604a184",
@@ -7643,6 +7645,10 @@
                     "frequency_label": "2589ba6b0daa3c3fcd1c9f62bdaae1f8 2589ba6b0daa3c3fcd1c9f62bdaae1f8",
                     "risky_performance_improvements": "3a497112ae5cae3add7ec0e1bb4c5a1e 3a497112ae5cae3add7ec0e1bb4c5a1e",
                     "risky_performance_improvements_help": "0f955f2a7eaec5223db3a5fc742caed8 0f955f2a7eaec5223db3a5fc742caed8",
+                    "include_priority": "b2666b6f7d8d78f106ab32f8c711c4fa b2666b6f7d8d78f106ab32f8c711c4fa",
+                    "include_priority_help": "8256d9f48f6813b9d5e93252c1a6bda2 8256d9f48f6813b9d5e93252c1a6bda2",
+                    "include_changefreq": "ac8ccad2e75e089f8a2ab7a9f1664226 ac8ccad2e75e089f8a2ab7a9f1664226",
+                    "include_changefreq_help": "ef345e47cfd187e1057d69c4c8fb6794 ef345e47cfd187e1057d69c4c8fb6794",
                     "modes": {
                         "runtime": "77f0ba2861e04af1275059203c75a5b6 77f0ba2861e04af1275059203c75a5b6",
                         "multi_file": "8bc61239d533889fb3eb5ddd76fb8fb0 8bc61239d533889fb3eb5ddd76fb8fb0"
@@ -12818,6 +12824,35 @@
                 "filter_posts": "fae3e1b8f8dc7ebae23b7731adddb424 fae3e1b8f8dc7ebae23b7731adddb424",
                 "chapter_n": "420659ff3e7adafb45d2ba50bc516725 420659ff3e7adafb45d2ba50bc516725",
                 "primary_checkbox": "dbb42266f1b721b03fb37d1e3d3aa8e5 dbb42266f1b721b03fb37d1e3d3aa8e5"
+            }
+        }
+    },
+    "ziiven-daily-check-in.json": {
+        "ziven-checkin": {
+            "forum": {
+                "check-in": "26974d16fd2c60f43571cb0d190e1b04 26974d16fd2c60f43571cb0d190e1b04",
+                "checked-in-day": "846dfea4ce90832e5d55ae15933bdd7b 846dfea4ce90832e5d55ae15933bdd7b",
+                "checked-in-days": "0890d06ea18547339f88212dbd068a3e 0890d06ea18547339f88212dbd068a3e",
+                "check-in-success": "9c7878279c0b5f1c45e16bda3bb31f41 9c7878279c0b5f1c45e16bda3bb31f41",
+                "check-in-failed": "200e34ab8c5bc3389d98f4200a7eb9c5 200e34ab8c5bc3389d98f4200a7eb9c5",
+                "try-again-later": "6282420fa1c09edd8679e83d92e45298 6282420fa1c09edd8679e83d92e45298"
+            },
+            "admin": {
+                "settings": {
+                    "auto-check-in": "1a594822c6ea00f915868d5c31abd0e8 1a594822c6ea00f915868d5c31abd0e8",
+                    "auto-check-in-delay": "543c199d528f5c6e1687de745a8288d4 543c199d528f5c6e1687de745a8288d4",
+                    "timezone": "01f001f10a42f81c99f0b422feb33aa7 01f001f10a42f81c99f0b422feb33aa7",
+                    "reward-money": "ff22859fd317560cfd648a4226d84266 ff22859fd317560cfd648a4226d84266",
+                    "reward-money-requirement": "3493ed6316f942bee2ca4e32fa9dded2 3493ed6316f942bee2ca4e32fa9dded2",
+                    "check-in-success-prompt-type": "9fc9f2c5e4bfc7b4062220fb4da1d681 9fc9f2c5e4bfc7b4062220fb4da1d681",
+                    "check-in-success-prompt-text": "1ea232cc453b98b0cc7db9b54f753845 1ea232cc453b98b0cc7db9b54f753845",
+                    "check-in-success-prompt-reward-text": "d8b86fbdf1107b77dfc2cc70a0ba391a d8b86fbdf1107b77dfc2cc70a0ba391a",
+                    "check-in-success-prompt-example-text": "5b54ed212070f1d149d55143f2407a27 5b54ed212070f1d149d55143f2407a27",
+                    "check-in-success-prompt-example-reward-text": "e3a0a6491f7d2e4766e3a3097b4309fa e3a0a6491f7d2e4766e3a3097b4309fa",
+                    "allow-check-in": "5800a8ab84062a9304ff85d452c5eaba 5800a8ab84062a9304ff85d452c5eaba",
+                    "None": "1b26a8bba6e841f1c375b283db5c1c61 1b26a8bba6e841f1c375b283db5c1c61",
+                    "Modal": "6548eb11230edb5e586dc0e9d7c8833b 6548eb11230edb5e586dc0e9d7c8833b"
+                }
             }
         }
     },

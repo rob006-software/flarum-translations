@@ -4,8 +4,8 @@
             "settings": {
                 "exclude_users": "Nutzerprofile von der Sitemap ausschließen",
                 "exclude_users_help": "Standardmäßig wird jeder Nutzer, der für Gäste sichtbar ist, indiziert",
-                "exclude_tags": "",
-                "exclude_tags_help": "",
+                "exclude_tags": "Alle Themenseiten von Sitemap ausschließen",
+                "exclude_tags_help": "Standardmäßig werden alle Themen, die für Gäste sichtbar ist, indiziert",
                 "mode_label": "Betriebsmodus",
                 "mode_help": "Die Wahl des richtigen Modus für die Größe deines Forums ist von entscheidender Bedeutung.",
                 "mode_help_runtime_label": "Laufzeitmodus",
@@ -19,10 +19,10 @@
                 "frequency_label": "Wie oft sollte der Scheduler die gecachte Sitemap neu aufbauen?",
                 "risky_performance_improvements": "Riskante Leistungsverbesserungen aktivieren",
                 "risky_performance_improvements_help": "Durch diese Verbesserungen wird der CRON-Job bei Datensätzen mit Millionen von Zeilen schneller ausgeführt, aber die Kompatibilität mit einigen Erweiterungen kann beeinträchtigt werden.",
-                "include_priority": "",
-                "include_priority_help": "",
-                "include_changefreq": "",
-                "include_changefreq_help": "",
+                "include_priority": "Werte zur Priorisierung in Sitemap aufnehmen",
+                "include_priority_help": "Angaben zur Priorisierung werden von Google ignoriert, können aber von anderen Suchmaschinen wie Bing und Yandex genutzt werden",
+                "include_changefreq": "Werte zur Änderungshäufigkeit in Sitemap aufnehmen",
+                "include_changefreq_help": "Angaben zur Änderungshäufigkeit werden von Google ignoriert, können aber von anderen Suchmaschinen zur Planung der Crawlerbesuche genutzt werden",
                 "modes": {
                     "runtime": "Laufzeit",
                     "multi_file": "Mehrdateien"
