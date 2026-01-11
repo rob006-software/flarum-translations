@@ -3,7 +3,7 @@
         "forum": {
             "user": {
                 "discussion-count": "{count, plural, one { {count} diskuze} few {{count} diskuze} other {{count} diskuzí}}",
-                "post-count": ""
+                "post-count": "{count, plural, one { {count} komentář} few {{count} komentáře} other {{count} komentářů}}"
             }
         }
     }
