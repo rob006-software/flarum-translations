@@ -213,6 +213,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `vkarchevskyi-fof-passport` | [![#1338 (open)](https://img.shields.io/badge/PR-%231338-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1338) |
+There are no dead branches.
