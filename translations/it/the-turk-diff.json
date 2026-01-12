@@ -3,19 +3,14 @@
         "forum": {
             "revisions": "{revisionCount} revisione | {revisionCount} revisioni",
             "emptyText": "Nessuna Revisione",
-            "editedText": "",
             "deletedText": "(cancellato)",
             "tooltips": {
                 "mostRecent": "più recente",
-                "originalContent": "",
-                "revisionWithNumber": "",
                 "sideBySide": "Affiancate",
                 "inline": "Linea per linea",
-                "combined": "Combinate",
-                "preview": ""
+                "combined": "Combinate"
             },
             "optionsButton": "Opzioni",
-            "deleteButton": "",
             "rollbackButton": "Ripristina Revisione {number}",
             "rollbackToOriginalButton": "Ripristina Originale",
             "revertChangesButton": "Ripristina Modifiche",
@@ -25,21 +20,14 @@
             "deleteErrorMessage": "Eliminazione contenuto della modifica fallito.",
             "rollbackSuccessMessage": "Le modifiche sono state ripristinate.",
             "deleteSuccessMessage": "Il contenuto della modifica è stato cancellato.",
-            "editedInfo": "",
             "deletedInfo": "{username} ha cancellato questa modifica {ago}",
             "createdInfo": "{username} ha creato {ago}",
             "revisionInfo": "Modificato {revisionCount} volta, la più recente in alto|Modificato {revisionCount} volte, le più recenti in alto",
             "noDiff": "Nessuna differenza trovata tra queste due modifiche.",
             "differences": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
                 "sentence": "Stai visualizzando le differenze tra {old} e {new}"
             },
             "previewMode": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
                 "sentence": "Stai visualizzando l'anteprima per"
             }
         },
