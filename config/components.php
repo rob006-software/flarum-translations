@@ -155,9 +155,6 @@ return [
 	'cadiducho-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.2/resources/locale/en.yml',
 	],
-	'capybash-magicread' => [
-		'tag' => 'https://raw.githubusercontent.com/capybash/magicread/v4.0.0/resources/locale/en.yml',
-	],
 	'capybash-magicslider' => [
 		'tag' => 'https://raw.githubusercontent.com/capybash/magicslider/v6.0.0/resources/locale/en.yml',
 	],
