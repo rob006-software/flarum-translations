@@ -1250,12 +1250,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sycho-move-posts`](https://weblate.rob006.net/projects/flarum/sycho-move-posts) | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) |
 | [`sycho-private-facade`](https://weblate.rob006.net/projects/flarum/sycho-private-facade) | [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade) |
 | [`sycho-profile-cover`](https://weblate.rob006.net/projects/flarum/sycho-profile-cover) | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) |
-| [`the-turk-diff`](https://weblate.rob006.net/projects/flarum/the-turk-diff) | [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff) |
-| [`the-turk-flamoji`](https://weblate.rob006.net/projects/flarum/the-turk-flamoji) | [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji) |
 | [`the-turk-mathren`](https://weblate.rob006.net/projects/flarum/the-turk-mathren) | [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren) |
-| [`the-turk-miserable-users`](https://weblate.rob006.net/projects/flarum/the-turk-miserable-users) | [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users) |
-| [`the-turk-nodp`](https://weblate.rob006.net/projects/flarum/the-turk-nodp) | [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp) |
-| [`the-turk-quiet-edits`](https://weblate.rob006.net/projects/flarum/the-turk-quiet-edits) | [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits) |
 | [`the-turk-stickiest`](https://weblate.rob006.net/projects/flarum/the-turk-stickiest) | [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest) |
 | [`therealsujitk-gifs`](https://weblate.rob006.net/projects/flarum/therealsujitk-gifs) | [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs) |
 | [`tituspijean-auth-ldap`](https://weblate.rob006.net/projects/flarum/tituspijean-auth-ldap) | [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap) |
