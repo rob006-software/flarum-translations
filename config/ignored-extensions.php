@@ -17,6 +17,9 @@ return [
 	'capybash/magicbb',
 	'capybash/magicread',
 	'capybash/magicslider',
+	// migrated to `fof/*`
+	'askvortsov/flarum-discussion-templates', // https://github.com/rob006-software/flarum-translations/pull/1443
+	'askvortsov/flarum-moderator-warnings', // https://github.com/rob006-software/flarum-translations/pull/1433
 	/*
 	 * dead/private forks
 	 */
