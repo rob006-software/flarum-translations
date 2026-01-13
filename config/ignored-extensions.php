@@ -20,6 +20,19 @@ return [
 	// migrated to `fof/*`
 	'askvortsov/flarum-discussion-templates', // https://github.com/rob006-software/flarum-translations/pull/1443
 	'askvortsov/flarum-moderator-warnings', // https://github.com/rob006-software/flarum-translations/pull/1433
+	// all abandoned by author - https://github.com/rob006-software/flarum-translations/pull/1383
+	'nodeloc/dislikes',
+	'nodeloc/flarum-auto-moderator',
+	'nodeloc/flarum-ext-bonus',
+	'nodeloc/flarum-ext-essential',
+	'nodeloc/flarum-ext-exchange',
+	'nodeloc/flarum-ext-friend-link',
+	'nodeloc/flarum-ext-leaderboard',
+	'nodeloc/flarum-ext-signature',
+	'nodeloc/flarum-ext-vps',
+	'nodeloc/oauth-telegram',
+	'nodeloc/telegram',
+	'nodeloc/whisper',
 	/*
 	 * dead/private forks
 	 */
