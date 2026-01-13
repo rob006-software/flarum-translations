@@ -212,6 +212,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `the-turk-regrole` | [![#1205 (closed)](https://img.shields.io/badge/PR-%231205-red)](https://github.com/rob006-software/flarum-translations/pull/1205) |
+There are no dead branches.
