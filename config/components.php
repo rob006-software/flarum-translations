@@ -1385,9 +1385,6 @@ return [
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.5/resources/locale/en.yml',
 	],
-	'the-turk-nodp' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-nodp/1.0.1/locale/en.yml',
-	],
 	'the-turk-quiet-edits' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/0.1.3/locale/en.yml',
 	],
