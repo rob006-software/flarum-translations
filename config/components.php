@@ -1385,9 +1385,6 @@ return [
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.5/resources/locale/en.yml',
 	],
-	'the-turk-quiet-edits' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/0.1.3/locale/en.yml',
-	],
 	'therealsujitk-gifs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v4.1.1/resources/locale/en.yml',
 	],
