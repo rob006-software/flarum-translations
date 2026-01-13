@@ -13,7 +13,6 @@ declare(strict_types=1);
 
 return [
 	'zaptech/cookie-consent', // migrated to `fof/cookie-consent`
-	'the-turk/flarum-regrole', // https://github.com/rob006-software/flarum-translations/pull/1205#issuecomment-2038136701
 	/*
 	 * dead/private forks
 	 */
