@@ -155,6 +155,9 @@ return [
 	'cadiducho-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.2/resources/locale/en.yml',
 	],
+	'capybash-magicread' => [
+		'tag' => 'https://raw.githubusercontent.com/capybash/magicread/v4.0.0/resources/locale/en.yml',
+	],
 	'cccyun-clogin-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
 	],
