@@ -57,12 +57,12 @@
             "dashboard": {
                 "clear_cache_button": "Cache leeren",
                 "description": "Dein Forum auf einen Blick.",
-                "info_button": "",
+                "info_button": "Systeminformationen",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Systeminformationen",
+                    "copy_button": "In Zwischenablage kopieren",
+                    "copy_success": "Systeminformationen in Zwischenablage kopiert",
+                    "copy_error": "Kopieren in Zwischenablage fehlgeschlagen"
                 },
                 "io_error_message": "Es konnte nicht in das Dateisystem geschrieben werden. Überprüfe die Berechtigungen deines Dateisystems und versuche es erneut. Oder versuche es über die Kommandozeile auszuführen.",
                 "status": {
@@ -136,11 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Diese Erweiterung wird vom Autor nicht mehr gepflegt und erhält möglicherweise keine Updates mehr.",
+                "abandoned_with_replacement": "Diese Erweiterung wurde durch {replacement} ersetzt. Ziehe in Betracht, zum Ersatzpaket zu wechseln.",
                 "configure_scopes": "Bereiche konfigurieren",
                 "confirm_purge": "Die Bereinigung entfernt sämtliche Datenbankeinträge und Assets, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; dies muss über Composer geschehen. Bist du sicher, dass du fortfahren willst?",
-                "deprecated": "",
+                "deprecated": "Veraltet",
                 "disabled": "Deaktiviert",
                 "enable_to_see": "Aktiviere die Erweiterung, um Einstellungen einsehen und verändern zu können.",
                 "enabled": "Aktiviert",
@@ -162,7 +162,7 @@
                     "no_readme": "Diese Erweiterung scheint keine README-Datei zu haben",
                     "title": "Dokumentation von {extName}"
                 },
-                "replaced": "",
+                "replaced": "Ersetzt",
                 "confirm_uninstall": "Die Deinstallation entfernt alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen. Bist du sicher, dass du fortfahren möchtest?",
                 "uninstall_button": "Deinstallieren"
             },
