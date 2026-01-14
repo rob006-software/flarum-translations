@@ -60,6 +60,13 @@
             "dashboard": {
                 "clear_cache_button": "Limpiar cache",
                 "description": "Su foro de un vistazo.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "No se pudo escribir en el sistema de archivos. Verifica los permisos de su sistema de archivos y vuelve a intentarlo. O intenta ejecutar desde la línea de comandos.",
                 "status": {
                     "headers": {
@@ -137,8 +144,11 @@
                 "text": "Configure el servidor SMTP y las direcciones que su foro usará para enviar correos electrónicos."
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Configurar ámbitos",
                 "confirm_purge": "Al purgar, se eliminarán todas las entradas en la base de datos y datos asociados a la extensión. Este proceso no desinstalará la extensión, pues esto debe completarse mediante Composer ¿Realmente deseas continuar?",
+                "deprecated": "",
                 "disabled": "Desactivada",
                 "enable_to_see": "Habilite la extensión para ver y cambiar la configuración.",
                 "enabled": "Activada",
@@ -160,6 +170,7 @@
                     "no_readme": "Esta extensión no incluye un archivo LÉEME",
                     "title": "Documentación de {extName}"
                 },
+                "replaced": "",
                 "confirm_uninstall": "La desinstalación eliminará todas las entradas de la base de datos y los ficheros relacionados con la extensión. ¿Está seguro de que quiere continuar?",
                 "saved_message": "Se guardaron tus cambios.",
                 "uninstall_button": "Desinstalar"

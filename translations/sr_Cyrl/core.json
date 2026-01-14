@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Очисти кеш",
                 "description": "Преглед вашег форума.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Није могуће писати по диску. Проверите дозволе и пробајте поново. Такође, можете покушати да извршите операцију из командне линије.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Конфигуришите опсеге",
                 "confirm_purge": "Уклањање ће избрисати све уносе базе података и средства у вези са екстензијом. Неће деинсталирати екстензију; то се мора урадити преко Цомпосера. Да ли сте сигурни да желите да наставите?",
+                "deprecated": "",
                 "disabled": "Онемогућено",
                 "enable_to_see": "Омогућите овом додатку да чита и пише подешавања.",
                 "enabled": "Омогућено",
@@ -151,7 +161,8 @@
                     "button_label": "Прочитај ме",
                     "no_readme": "Овај додатак нема прочитај ме датотеку",
                     "title": "{extName} документација"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Тражи помоћ",

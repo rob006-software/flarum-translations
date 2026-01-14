@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "ล้างเเคช",
                 "description": "Your forum at a glance.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "ไม่สามารถเขียนลงระบบไฟล์ได้ โปรดตรวจสอบสิทธิ์ของระบบไฟล์ของคุณแล้วลองอีกครั้ง หรือลองเรียกใช้จากหน้าต่างคำสั่ง",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "กำหนดขอบเขต",
                 "confirm_purge": "การล้างข้อมูลจะลบรายการฐานข้อมูลและทรัพยากรทั้งหมดที่เกี่ยวข้องกับส่วนขยาย แต่จะไม่ถอนการติดตั้งส่วนขยาย ซึ่งต้องทำผ่าน Composer คุณต้องการดำเนินการต่อหรือไม่?",
+                "deprecated": "",
                 "disabled": "ปิดใช้งาน",
                 "enable_to_see": "เปิดใช้งานส่วนเสริมเพื่อดูเเละเเก้ไขการตั้งค่า",
                 "enabled": "เปิดใช้งาน",
@@ -151,7 +161,8 @@
                     "button_label": "README",
                     "no_readme": "ส่วนขยายนี้ไม่มีไฟล์ README",
                     "title": "เอกสารประกอบ {extName}"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "รับความช่วยเหลือ",

@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Ryd cache",
                 "description": "En oversigt over dit forum.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "E-mail"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Indstil scopes",
                 "confirm_purge": "",
+                "deprecated": "",
                 "disabled": "Slået fra",
                 "enable_to_see": "Slå udvidelsen til for at se og ændre i indstillingerne.",
                 "enabled": "Slået til",
@@ -151,7 +161,8 @@
                     "button_label": "README",
                     "no_readme": "Denne udvidelse ser ikke ud til at have en README-fil",
                     "title": "{extName} dokumentation"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Få hjælp",

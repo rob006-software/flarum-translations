@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Önbelleği Temizle",
                 "description": "Bir bakışta forumun.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Dosya sistemine yazılamadı. Dosya sistemi izinlerinizi kontrol edin ve tekrar deneyin veya komut satırından çalıştırmayı deneyin.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Kapsamları Yapılandır",
                 "confirm_purge": "Temizleme, uzantıyla ilgili tüm veritabanı girdilerini ve varlıkları kaldıracaktır. Uzantıyı kaldırmaz; kaldırma işlemi Composer aracılığıyla yapılmalıdır. Devam etmek istediğine emin misin?",
+                "deprecated": "",
                 "disabled": "Etkisizleştirildi",
                 "enable_to_see": "Ayarları görüntülemek ve değiştirmek için uzantıyı etkinleştirin.",
                 "enabled": "Etkin",
@@ -152,6 +162,7 @@
                     "no_readme": "Bu uzantı bir BENİ OKU dosyasına sahip değil",
                     "title": "{extName} belgeleri"
                 },
+                "replaced": "",
                 "confirm_uninstall": "Kaldırma işlemi, uzantı ile ilgili tüm veritabanı girişlerini kaldıracaktır. Devam etmek istediğine emin misin?",
                 "uninstall_button": "Kaldır"
             },

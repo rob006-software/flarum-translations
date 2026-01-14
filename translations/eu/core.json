@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Borratu Cachea",
                 "description": "",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "",
                 "confirm_purge": "",
+                "deprecated": "",
                 "disabled": "Desaktibatuta",
                 "enable_to_see": "Aktibatu extentsioa aukerak ikusi ahal izateko.",
                 "enabled": "Aktibatuta",
@@ -151,7 +161,8 @@
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Lortu laguntza",

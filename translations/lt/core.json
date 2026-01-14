@@ -60,6 +60,13 @@
             "dashboard": {
                 "clear_cache_button": "Išvalyti talpyklą",
                 "description": "Jūsų forumas trumpai.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "",
                 "status": {
                     "headers": {
@@ -133,8 +140,11 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Konfigūravimo sritys",
                 "confirm_purge": "Išvalius bus pašalinti visi su plėtiniu susiję duomenų bazės įrašai ir įkėlimai. Tai nepašalins plėtinio; tai turi būti padaryta naudojant „Composer“. Ar tikrai norite tęsti?",
+                "deprecated": "",
                 "disabled": "Išjungta",
                 "enable_to_see": "Įgalinkite plėtinį, kad galėtumėte peržiūrėti ir keisti nustatymus.",
                 "enabled": "Įjungtas",
@@ -156,6 +166,7 @@
                     "no_readme": "Atrodo, kad šiame plėtinyje nėra PERSKAITYTI MANE failo",
                     "title": "{extName} dokumentacija"
                 },
+                "replaced": "",
                 "confirm_uninstall": "Pašalinus bus pašalinti visi su plėtiniu susiję duomenų bazės įrašai ir įkėlimai. Ar tikrai norite tęsti?",
                 "uninstall_button": "Pašalinkite",
                 "saved_message": "Your changes were saved."

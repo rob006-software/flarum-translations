@@ -60,6 +60,13 @@
             "dashboard": {
                 "clear_cache_button": "Vymazať Vyrovnávaciu Pamäť",
                 "description": "Vaše fórum na dlani.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Nepodarilo sa zapísať do súborového systému. Skontrolujte oprávnenia súborového systému a skúste to znova. Alebo ho skúste spustiť z príkazového riadku.",
                 "status": {
                     "headers": {
@@ -133,8 +140,11 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Nastaviť Rozsahy",
                 "confirm_purge": "Vyčistením sa odstránia všetky položky databázy a súbory súvisiace s doplnkom. Toto neodinštaluje rozšírenie; to treba urobiť cez Composer. Ste si istý, že chcete pokračovať?",
+                "deprecated": "",
                 "disabled": "Deaktivovaný",
                 "enable_to_see": "Aktivujte tento doplnok pre zobrazenie a zmenu jeho nastavení.",
                 "enabled": "Aktivovaný",
@@ -156,6 +166,7 @@
                     "no_readme": "Zdá sa, že toto rozšírenie nemá súbor README",
                     "title": "{extName} dokumentácia"
                 },
+                "replaced": "",
                 "confirm_uninstall": "Odinštalovanie vymaže všetky údaje o tomto doplnku v databáze a jeho súbory. Ste si istý že chcete pokračovať?",
                 "uninstall_button": "Odinštalovať",
                 "saved_message": "Tvoje zmeny boli uložené."

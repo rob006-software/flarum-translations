@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Počisti predpomnilnik",
                 "description": "Vaš forum na prvi pogled.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Ni mogoče zapisati v datotečni sistem. Preverite dovoljenja datotečnega sistema in poskusite znova. Ali pa poskusite zagnati iz ukazne vrstice.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Nastavite obsege",
                 "confirm_purge": "Čiščenje bo odstranilo vse vnose v bazi podatkov in sredstva, povezana z razširitvijo. Ne bo odstranilo razširitve; to je treba storiti prek composerja. Ali ste prepričani, da želite nadaljevati?",
+                "deprecated": "",
                 "disabled": "Onemogočeno",
                 "enable_to_see": "Omogočite razširitev za ogled in spremembo nastavitev.",
                 "enabled": "Omogočeno",
@@ -151,7 +161,8 @@
                     "button_label": "README",
                     "no_readme": "Ta razširitev ne vsebuje README datoteke",
                     "title": "{extName} dokumentacija"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Pridobi pomoč",

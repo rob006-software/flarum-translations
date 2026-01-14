@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Keş arassala",
                 "description": "Forumyň admin paneli.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Faýl systemasyna ýazylmady. Faýl systemanyň rugsatlaryny barlaň we gaýtadan synanyň. Ýa-da command line-den girizip barlaň.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Çäkleri Düzüň",
                 "confirm_purge": "\"Arassalamak\" maglumat bazasyndan şu giňeltme barada ähli ýazgylary we aktiwleri aýyrar. Bu giňeltmäni aýyrmaýar; ol Composer arkaly edilmeli. Dowam etmäge ynamlymy?",
+                "deprecated": "",
                 "disabled": "Öçürilen",
                 "enable_to_see": "Giňeltmäni görmek we sazlamalary düzmek üçin ony çatyň.",
                 "enabled": "Çatylan",
@@ -151,7 +161,8 @@
                     "button_label": "README",
                     "no_readme": "Bu giňeltmede README ýok",
                     "title": "{extName} resminamasy"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Kömek Al",

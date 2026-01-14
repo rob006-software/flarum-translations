@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Cache wissen",
                 "description": "Uw forum in één oogopslag.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Kan niet naar het bestandssysteem schrijven. Controleer de machtigingen van uw bestandssysteem en probeer het opnieuw. Of probeer uit te voeren vanuit de CLI.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Configureer bereiken",
                 "confirm_purge": "Bij het opschonen zullen alle database-items en assets gerelateerd aan deze extensie verwijderd worden. Het zal de extensie niet verwijderen, dat moet via Composer. Weet je zeker dat je door wilt gaan?",
+                "deprecated": "",
                 "disabled": "Uitgeschakeld",
                 "enable_to_see": "Schakel de extensie in om instellingen te bekijken en te wijzigen.",
                 "enabled": "Ingeschakeld",
@@ -152,6 +162,7 @@
                     "no_readme": "Deze extensie lijkt geen README-bestand te hebben",
                     "title": "{extName} documentatie"
                 },
+                "replaced": "",
                 "confirm_uninstall": "Als u de installatie ongedaan maakt, worden alle database-items en assets die betrekking hebben op de extensie verwijderd. Weet je zeker dat je door wilt gaan?",
                 "uninstall_button": "Deïnstalleren"
             },

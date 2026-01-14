@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "ניקוי מטמון",
                 "description": "הפורום במבט מהיר.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "אין אפשרות לכתוב קבצי מערכת. יש צורך בבדיקת הרשאות ולנסות שוב. או לנסות להריץ דרך שורת פקודה.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "קביעת תצורה של טווחים",
                 "confirm_purge": "טיהור יסיר את כל ערכי מסד הנתונים והנכסים הקשורים להרחבה. זה לא יסיר את ההתקנה של התוסף; זה חייב להיעשות דרך Composer. האם ברצונך להמשיך?",
+                "deprecated": "",
                 "disabled": "מבוטל",
                 "enable_to_see": "הפעלת ההרחבה לצפיה בשינויי ההגדרות.",
                 "enabled": "מופעל",
@@ -151,7 +161,8 @@
                     "button_label": "קרא אותי",
                     "no_readme": "הרחבה זו אינה כוללת קובץ README",
                     "title": "מסמכי ההרחבה {extName}"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "השגת עזרה",

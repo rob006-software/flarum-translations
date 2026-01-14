@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Malplenigi kaŝmemoron",
                 "description": "Rapida ekrigardo al forumo.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Ne eblis skribi al dosiersistemo. Kontrolu viajn dosiersistemajn permesojn kaj provu denove. Aŭ provu plenumi per komandlinio.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": ""
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "",
                 "confirm_purge": "",
+                "deprecated": "",
                 "disabled": "",
                 "enable_to_see": "",
                 "enabled": "",
@@ -151,7 +161,8 @@
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "",

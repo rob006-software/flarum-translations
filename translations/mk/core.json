@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Исчисти го cache-от",
                 "description": "",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "",
                 "confirm_purge": "",
+                "deprecated": "",
                 "disabled": "Исклучено",
                 "enable_to_see": "",
                 "enabled": "Вклучено",
@@ -151,7 +161,8 @@
                     "button_label": "README",
                     "no_readme": "Оваа екстензија нема README документ.",
                     "title": "Документација за {extName}"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Добиј помош",

@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Limpar cache",
                 "description": "Seu fórum em uma visão geral.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Não foi possível escrever no sistema de arquivos. Verifique as permissões e tente novamente ou execute pela linha de comando.",
                 "status": {
                     "headers": {
@@ -133,8 +140,11 @@
                 "mail_ses_key_label": "Chave"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Configurações",
                 "confirm_purge": "A limpeza removerá todas as entradas do banco de dados e recursos relacionados à extensão. Ela NÃO desinstalará a extensão; isso deve ser feito via Composer. Tem certeza de que deseja continuar?",
+                "deprecated": "",
                 "disabled": "Desabilitada",
                 "enable_to_see": "Ative a extensão para visualizar e alterar as configurações.",
                 "enabled": "Habilitada",
@@ -156,6 +166,7 @@
                     "no_readme": "Esta extensão não parece ter um arquivo README",
                     "title": "Documentação da extensão {extName}"
                 },
+                "replaced": "",
                 "confirm_uninstall": "A desinstalação removerá todas as entradas e ativos do banco de dados relacionados à extensão. Você tem certeza que quer continuar?",
                 "uninstall_button": "Desinstalar"
             },

@@ -60,6 +60,13 @@
             "dashboard": {
                 "clear_cache_button": "Rensa cache",
                 "description": "Ditt forum vid en anblick.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Kan inte skriva till filsystemet. Kontrollera dina behörigheter till filsystemet och försök igen. Eller försök köra via kommandorad.",
                 "status": {
                     "headers": {
@@ -133,8 +140,11 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Konfigurera scopes",
                 "confirm_purge": "Rensning kommer att radera alla databasposter och inställningar relaterad till den här extensionen. Det kommer inte att avinstallera extensionen, det måste göras via Composer. Är du säker på att du vill fortsätta?",
+                "deprecated": "",
                 "disabled": "Disabled",
                 "enable_to_see": "Enable the extension to view and change settings.",
                 "enabled": "Enabled",
@@ -156,6 +166,7 @@
                     "no_readme": "Den här extensionen verkar inte ha någon README-fil",
                     "title": "{extName} dokumentation"
                 },
+                "replaced": "",
                 "confirm_uninstall": "Uninstalling will remove all database entires and assets related to the extension. Are you sure you want to contiune?",
                 "uninstall_button": "Avinstallera",
                 "saved_message": "Your changes were saved."

@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "清除缓存",
                 "description": "论坛各项数据一览",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "无法写入文件。请检查操作权限，重试或者直接从命令行运行命令。",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "设置范围",
                 "confirm_purge": "重置操作会清除数据库中所有该扩展相关的记录和资源。如要卸载扩展，请通过 Composer 操作。确定要重置扩展吗？",
+                "deprecated": "",
                 "disabled": "关闭",
                 "enable_to_see": "开启扩展程序以查看或修改设置。",
                 "enabled": "开启",
@@ -152,6 +162,7 @@
                     "no_readme": "此扩展未提供自述文件",
                     "title": "{extName} 文档"
                 },
+                "replaced": "",
                 "confirm_uninstall": "此扩展的的数据库条目和文件资源都将被永久性删除，确定要继续吗？",
                 "uninstall_button": "卸载"
             },

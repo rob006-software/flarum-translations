@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "o weka e sona awen pi tenpo lili",
                 "description": "lukin lili la sona suli.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "ilo li ken ala pana e lipu tawa poki lipu insa. o pona e ni: poki lipu li ken e seme. ken la o tawa insa ilo o lukin pali sama kepeken lipu ni ala.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "o lawa e poki ken",
                 "confirm_purge": "sina weka e ale tan ilo namako ni la, sona ale ona li weka. (ilo namako li weka ala – ilo Composer taso li ken pali e ni.) sina awen ala awen wile pali e ni?",
+                "deprecated": "",
                 "disabled": "lon ala",
                 "enable_to_see": "sina wile lukin anu ante e wile la o lon e namako.",
                 "enabled": "lon",
@@ -151,7 +161,8 @@
                     "button_label": "OLUKINEMI",
                     "no_readme": "ilo ni li jo ala e lipu OLUKINEMI",
                     "title": "lipu sona pi ilo {extName}"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "o kama sona",

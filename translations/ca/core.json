@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Netejar la memòria cau",
                 "description": "El teu fòrum d'un cop d'ull.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "No s'ha pogut escriure al sistema de fitxers. Comprova els permisos del teu sistema de fitxers i torna-ho a provar. O prova a executar-ho des de la línia de comandaments.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Configurar àmbits",
                 "confirm_purge": "La purga suprimirà totes les entrades de la base de dades i els actius relacionats amb l'extensió. No desinstal·larà l'extensió; això s'ha de fer mitjançant Composer. Segur que vols continuar?",
+                "deprecated": "",
                 "disabled": "Desactivada",
                 "enable_to_see": "Activa l'extensió per veure i canviar la configuració.",
                 "enabled": "Habilitada",
@@ -151,7 +161,8 @@
                     "button_label": "Llegiu-me",
                     "no_readme": "Aquesta extensió no té fitxer LLEGEIX-ME",
                     "title": "Documentació de {extName}"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Obtenir ajuda",

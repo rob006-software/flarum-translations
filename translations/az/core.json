@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Keşi Təmizlə",
                 "description": "Bir baxışda forumunuz.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Fayl sisteminə yazmaq mümkün olmadı. Fayl sistemi icazələrinizi yoxlayın və yenidən cəhd edin. Və ya komanda sətrindən icra etməyi yoxlayın.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Əhatə dairələrini konfiqurasiya edin",
                 "confirm_purge": "Təmizləmə bütün verilənlər bazası qeydlərini və uzantı ilə əlaqəli varlıqları siləcək. O, uzantını silməyəcək; Bu Composer vasitəsilə edilməlidir. Davam etmək istədiyinizə əminsiniz?",
+                "deprecated": "",
                 "disabled": "Qeyri-aktiv",
                 "enable_to_see": "Parametrləri görmək və dəyişdirmək üçün uzantını aktiv edin.",
                 "enabled": "Aktivdir",
@@ -152,6 +162,7 @@
                     "no_readme": "Bu uzantıda \"OXUYUN (README)\" faylı yoxdur",
                     "title": "{extName} sənədləri"
                 },
+                "replaced": "",
                 "confirm_uninstall": "Silinmə, uzantı ilə əlaqəli bütün verilənlər bazası girişlərini və aktivlərini siləcək. Davam etmək istədiyinizə əminsiniz?",
                 "uninstall_button": "Silin"
             },

@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "ქეშის გასუფთავება",
                 "description": "თქვენი ფორუმი ერთი შეხედვით.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "ვერ მოხერხდა filesystem-ში დაწერა. შეამოწმეთ თქვენი filesystem უფლებები და სცადეთ დავიდან. ან სცადეთ ბრძანების ხაზიდან (command line).",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "",
                 "confirm_purge": "",
+                "deprecated": "",
                 "disabled": "გამორთული",
                 "enable_to_see": "ჩართეთ გაფართოება, რომ ნახოთ და შეცვალოთ პარამეტრები.",
                 "enabled": "ჩართული",
@@ -151,7 +161,8 @@
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "დახმარების მიღება",

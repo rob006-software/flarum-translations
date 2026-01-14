@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Pêşbîrê paqij bike",
                 "description": "Bi awirekî forumat te.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Nekarî li pergala pelan binivîsîne. Destûrên pergala pelê xwe kontrol bikin û dîsa biceribînin an jî biceribînin ku wê ji rêzika fermanê bimeşînin.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Veava kirina vegir",
                 "confirm_purge": "Paqijkirin dê hemî navnîşên databasê û hebûnên bi dirêjkirinê ve girêdayî rake. Ew dirêjkirinê jê nake; Rakirin divê bi rêya Composer were kirin. Ma hûn guman dikin ku hûn dixwazin berdewam bikin?",
+                "deprecated": "",
                 "disabled": "Kûd",
                 "enable_to_see": "Berfirehkirinê çalak bike ku mîhengan bibîne û biguhezîne.",
                 "enabled": "Çalak",
@@ -151,7 +161,8 @@
                     "button_label": "MIN BIXWÎNE",
                     "no_readme": "Êv niçik be xwedî pele MIN BIXWîNE ye",
                     "title": "belgeyên {extName}"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Alîkariyê bistînin",

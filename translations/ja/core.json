@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "キャッシュのクリア",
                 "description": "フォーラムの概況を確認します。",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "ファイルシステムに書き込むことが出来ませんでした。ファイルシステムの権限を確認して再度実行するか、コマンドラインからの実行をお試しください。",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "権限設定",
                 "confirm_purge": "初期化は、この拡張機能に関連するすべてのデータベースとファイルを削除します。拡張機能自体は削除されません。拡張機能の削除はComposerで行う必要があります。本当に続行しますか？",
+                "deprecated": "",
                 "disabled": "無効",
                 "enable_to_see": "設定を確認、変更するには拡張機能を有効化してください。",
                 "enabled": "有効",
@@ -151,7 +161,8 @@
                     "button_label": "README",
                     "no_readme": "この拡張機能には README ファイルがありません",
                     "title": "{extName} 取扱説明書"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "ヘルプを開く",

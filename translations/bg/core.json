@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Изчисти кеша",
                 "description": "Вашият форум в един поглед.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Не може да се записва във файловата система. Проверете правата на файловата система и опитайте отново. Или опитайте да стартирате от командния ред.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Конфигуриране на обхватите (Scopes)",
                 "confirm_purge": "Изчистването ще премахне всички записи в базата данни и активи, свързани с разширението. То няма да деинсталира разширението; това трябва да се направи чрез Composer. Сигурни ли сте, че искате да продължите?",
+                "deprecated": "",
                 "disabled": "Деактивирано",
                 "enable_to_see": "Активирайте разширението, за да видите и промените настройките.",
                 "enabled": "Активирано",
@@ -151,7 +161,8 @@
                     "button_label": "Прочети ме (README)",
                     "no_readme": "Това разширение изглежда няма README файл",
                     "title": "{extName} документация"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Получете помощ",

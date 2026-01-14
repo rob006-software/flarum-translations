@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Limpar cache",
                 "description": "Resumo do seu fórum.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Não é possível escrever no Sistema de Ficheiros. Verifique as permissões do Sistema de Ficheiros. Ou tente executar pela linha de comandos.",
                 "status": {
                     "headers": {
@@ -133,8 +140,11 @@
                 "ses_heading": "Configurações do SES"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Configurações",
                 "confirm_purge": "Limpar irá remover os dados da base de dados e ficheiros relacionados com a extensão. Não irá desinstalar a extensão; isso tem que ser efectuado usando o Composer. Tem a certeza que pretende continuar?",
+                "deprecated": "",
                 "disabled": "Disabilitar",
                 "enable_to_see": "Ative a extensão para visualizar e alterar as configurações.",
                 "enabled": "Ativado",
@@ -156,6 +166,7 @@
                     "no_readme": "Esta extensão não parede ter um ficheiro LEIA ME",
                     "title": "{extName} documentação"
                 },
+                "replaced": "",
                 "confirm_uninstall": "A desinstalação removerá todas as entradas e ativos do banco de dados relacionados à extensão. Você tem certeza que quer continuar?",
                 "uninstall_button": "Desinstalar"
             },

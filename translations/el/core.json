@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Διαγραφή Cache",
                 "description": "Το forum σου με μια ματιά.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Δεν ήταν δυνατή η εγγραφή στο σύστημα αρχείων. Ελέγξτε τα δικαιώματα του συστήματος αρχείων και προσπαθήστε ξανά. Ή δοκιμάστε να το εκτελέσετε από τη γραμμή εντολών.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Ρύθμιση των πεδίων εφαρμογής",
                 "confirm_purge": "Η εκκαθάριση θα αφαιρέσει όλες τις καταχωρήσεις στη βάση δεδομένων και τα στοιχεία που σχετίζονται με την επέκταση. ΔΕΝ θα απεγκαταστήσει την επέκταση, αυτό πρέπει να γίνει μέσω του Composer. Είστε σίγουροι ότι θέλετε να συνεχίσετε;",
+                "deprecated": "",
                 "disabled": "Απενεργοποιημένο",
                 "enable_to_see": "Ενεργοποίησε αυτό το πρόσθετο για να μπορείς να δείς και να αλλάξεις τις ρυθμίσιες του.",
                 "enabled": "Ενεργοποιημένο",
@@ -151,7 +161,8 @@
                     "button_label": "README",
                     "no_readme": "Αυτή η επέκταση δεν φαίνεται να έχει αρχείο README",
                     "title": "{extName} documentation"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Ζήτησε βοήθεια",

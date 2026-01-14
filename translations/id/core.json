@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Hapus Cache",
                 "description": "Sekilas tentang forum Anda.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Tidak dapat menulis ke filesystem. Periksa izin filesystem Anda dan coba lagi. Atau coba jalankan dari command line.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Konfigurasi Cakupan",
                 "confirm_purge": "Pembersihan akan menghapus semua entri database dan aset yang terkait dengan ekstensi. Hal ini tidak akan menghapus ekstensi; serta harus dilakukan melalui Composer. Apakah Anda yakin ingin melanjutkan?",
+                "deprecated": "",
                 "disabled": "Tidak Aktif",
                 "enable_to_see": "Aktifkan ekstensi untuk melihat dan mengubah pengaturan.",
                 "enabled": "Aktif",
@@ -151,7 +161,8 @@
                     "button_label": "README",
                     "no_readme": "Ekstensi ini tampaknya tidak memiliki file README",
                     "title": "Dokumentasi {extName}"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Bantuan",

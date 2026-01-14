@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "കാഷെ മായ്ക്കുക",
                 "description": "നിങ്ങളുടെ ഫോറം ഒറ്റ നോട്ടത്തിൽ.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "വ്യാപ്തി ക്രമീകരിക്കുക",
                 "confirm_purge": "",
+                "deprecated": "",
                 "disabled": "അപ്രാപ്തമാക്കി",
                 "enable_to_see": "ക്രമീകരണങ്ങൾ കാണാനും മാറ്റാനും വിപുലീകരണം പ്രവർത്തനക്ഷമമാക്കുക.",
                 "enabled": "പ്രവർത്തനക്ഷമമാക്കി",
@@ -152,6 +162,7 @@
                     "no_readme": "",
                     "title": ""
                 },
+                "replaced": "",
                 "confirm_uninstall": "അൺഇൻസ്റ്റാൾ ചെയ്യുന്നത് വിപുലീകരണവുമായി ബന്ധപ്പെട്ട എല്ലാ ഡാറ്റാബേസ് എൻട്രികളും അസറ്റുകളും നീക്കം ചെയ്യും. നിങ്ങൾക്ക് തുടരണമെന്ന് ഉറപ്പാണോ?",
                 "uninstall_button": "അൺഇൻസ്റ്റാൾ ചെയ്യുക"
             },

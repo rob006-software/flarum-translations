@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Tøm cache",
                 "description": "Forumet ditt på et øyeblikk.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Kunne ikke skrive til filsystemet. Sjekk filsystemets rettigheter og prøv igjen, eller prøv å kjør fra kommandolinjen.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Konfigurer rammer",
                 "confirm_purge": "Rensing vil fjerne alle databaseinnslag og filer relatert til denne utvidelsen. Det vil ikke avinstallere utvidelsen; det må gjøres via Composer. Er du sikker på at du vil fortsette?",
+                "deprecated": "",
                 "disabled": "Deaktivert",
                 "enable_to_see": "Aktiver utvidelsen for å vise og endre innstillinger.",
                 "enabled": "Aktivert",
@@ -151,7 +161,8 @@
                     "button_label": "LESMEG",
                     "no_readme": "Denne utvidelsen ser ikke ut til å ha en LESMEG-fil",
                     "title": "{extName}-dokumentasjon"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Få hjelp",

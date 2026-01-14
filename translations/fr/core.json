@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Effacer le cache",
                 "description": "Votre forum en un coup d'œil.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Impossible d'écrire dans le système de fichiers. Veuillez vérifier les permissions de votre système de fichiers puis réessayer. Vous pouvez également essayer d'écrire dans le système de fichiers par ligne de commande à partir de la console.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Configurer Scopes",
                 "confirm_purge": "La purge supprime toutes les entrées de la base de données et les ressources liées à l'extension. Elle ne désinstallera pas l'extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?",
+                "deprecated": "",
                 "disabled": "Désactivée",
                 "enable_to_see": "Activez l'extension pour afficher et modifier ses paramètres.",
                 "enabled": "Activée",
@@ -151,7 +161,8 @@
                     "button_label": "Lisez-moi",
                     "no_readme": "Cette extension ne semble pas avoir de fichier « Lisez-moi »",
                     "title": "Documentation de {extName}"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Obtenir de l'aide",

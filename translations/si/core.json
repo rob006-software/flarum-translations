@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "නිහිතය හිස්කරන්න",
                 "description": "",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "",
                 "confirm_purge": "",
+                "deprecated": "",
                 "disabled": "අබල කර ඇත",
                 "enable_to_see": "",
                 "enabled": "සබල කර ඇත",
@@ -152,6 +162,7 @@
                     "no_readme": "",
                     "title": "{extName} ප්‍රලේඛනය"
                 },
+                "replaced": "",
                 "uninstall_button": "අස්ථාපනය"
             },
             "header": {

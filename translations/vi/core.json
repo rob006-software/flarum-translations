@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Xóa bộ nhớ đệm",
                 "description": "Diễn đàn của bạn trong nháy mắt.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Không thể ghi vào hệ thống tệp. Kiểm tra quyền đối với hệ thống tệp của bạn và thử lại. Hoặc thử chạy từ dòng lệnh.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Cấu hình Phạm vi",
                 "confirm_purge": "Dọn dẹp sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Nó sẽ không gỡ tiện ích mở rộng; điều đó phải được thực hiện thông qua Composer. Bạn có chắc chắn muốn tiếp tục không?",
+                "deprecated": "",
                 "disabled": "Đã tắt",
                 "enable_to_see": "Kích hoạt tiện ích mở rộng để xem và thay đổi cài đặt.",
                 "enabled": "Đã bật",
@@ -152,6 +162,7 @@
                     "no_readme": "Tiện ích mở rộng này không có tệp README",
                     "title": "Tài liệu {extName}"
                 },
+                "replaced": "",
                 "confirm_uninstall": "Gỡ cài đặt sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Bạn có chắc chắn muốn tiếp tục không?",
                 "uninstall_button": "Gỡ cài đặt"
             },

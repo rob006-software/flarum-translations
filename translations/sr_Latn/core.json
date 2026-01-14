@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Obriši keš",
                 "description": "Pregled vašeg foruma.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Nije moguće pisati po disku. Proverite dozvole i probajte ponovo. Takođe, možete pokušati da izvršite operaciju iz komandne linije.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Konfigurišite opsege",
                 "confirm_purge": "Uklanjanje će izbrisati sve unose baze podataka i sredstva u vezi sa ekstenzijom. Neće deinstalirati ekstenziju; to se mora uraditi preko Composera. Da li ste sigurni da želite da nastavite?",
+                "deprecated": "",
                 "disabled": "Onemogućeno",
                 "enable_to_see": "Omogućite ekstenziju za pregled i promenu podešavanja.",
                 "enabled": "Omogućeno",
@@ -151,7 +161,8 @@
                     "button_label": "Pročitaj me",
                     "no_readme": "Ovaj dodatak nema pročitaj me datoteku",
                     "title": "{extName} dokumentacija"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Traži pomoć",

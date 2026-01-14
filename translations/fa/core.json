@@ -60,6 +60,13 @@
             "dashboard": {
                 "clear_cache_button": "پاک کردن cache",
                 "description": "انجمن شما در یک نگاه",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "نمی‌توان به دیسک نوشت. لطفاً مجوزهای دیسک خود را بازبینی و دوباره تلاش کنید و یا از طریق خط فرمان اجرا کنید.",
                 "status": {
                     "headers": {
@@ -142,8 +149,11 @@
                 "username_label": "=> core.ref.username"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "پیکربندی محدوده",
                 "confirm_purge": "پاکسازی ، تمام ورودی‌های پایگاه داده و دارایی‌های مربوط به افزودنی را حذف می‌کند . این مورد افزودنی را حذف نصب نمی کند ; این مورد باید توسط Composer انجام شود . آیا اطمینان دارید که می خواهید ادامه دهید ؟",
+                "deprecated": "",
                 "disabled": "غیرفعال شد",
                 "enable_to_see": "افزونه را برای مشاهده و تغییر تنظیمات فعال کنید .",
                 "enabled": "فعال شد",
@@ -165,6 +175,7 @@
                     "no_readme": "به نظر نمی رسد این افزونه فایل README داشته باشد",
                     "title": "مستندات {extName}"
                 },
+                "replaced": "",
                 "confirm_uninstall": "حذف ، تمام ورودی های پایگاه داده و دارایی های مربوط به افزونه را حذف می کند . آیا مطمئن هستید که میخواهید ادامه دهید ؟",
                 "uninstall_button": "حذف"
             },

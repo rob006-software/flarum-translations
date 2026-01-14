@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Cache ক্লিয়ার করুন",
                 "description": "একনজরে আপনার ফোরাম।",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "দুঃখিত! Filesystem এ লিখতে পারিনি। দয়া করে আপনার Filesystem এর Permission গুলো check করুন । অন্যথায় Command Line থেকে চেষ্টা করুন।",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Scopes কনফিগার করুন",
                 "confirm_purge": "Purging এই এক্সটেনশন এর সাথে সম্পর্কিত সকল ডাটাবেজ এন্ট্রি এবং অ্যাসেট রিমুভ করে ফেলবে । এটা এক্সটেনশন টিকে আনইন্সটল করবে না । আপনি কি চালিয়ে যেতে চান?",
+                "deprecated": "",
                 "disabled": "ডিজেবল করা",
                 "enable_to_see": "সেটিংস দেখতে এবং পরিবর্তন করতে এক্সটেনশনটি এনাবল করুন।",
                 "enabled": "চালু আছে",
@@ -151,7 +161,8 @@
                     "button_label": "Readme",
                     "no_readme": "এই এক্সটেনশনের কোন README ফাইল আছে বলে মনে হয় না",
                     "title": "{extName} ডকুমেন্টেশন"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "সাহায্য পান",

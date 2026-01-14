@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "مسح ذاكرة التخزين المؤقت",
                 "description": "المنتدى الخاص بك في لمحة.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "تعذّر الكتابة إلى نظام الملفات. تحقق من أذونات نظام الملفات وحاول مرة أخرى. أو جرب التشغيل من خلال سطر الأوامر.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "البريد الإلكتروني"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "تكوين النّطاقات",
                 "confirm_purge": "ستؤدّي عمليّة التّطهير إلى إزالة جميع إدخالات قاعدة البيانات والأصول المتعلّقة بالامتداد. لن يتم إلغاء تثبيت الامتداد؛ يجب أن يتم ذلك عبر كومبوسر. هل أنت متأكد أنك تريد الاستمرار؟",
+                "deprecated": "",
                 "disabled": "مُعطل",
                 "enable_to_see": "قم بتمكين الإضافة لعرض الإعدادات وتغييرها.",
                 "enabled": "مُمَكَّن",
@@ -151,7 +161,8 @@
                     "button_label": "اقرأنِي",
                     "no_readme": "يبدو أن هذه الإضافة ليس لها ملفّ (اقرأني)",
                     "title": "مستندات {extName}"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "احصل على المساعدة",

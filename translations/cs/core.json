@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "Vymazat mezipaměť",
                 "description": "Základní informace o fóru.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "Do souborového systému nelze zapisovat. Zkontrolujte oprávnění souborového systému a zkuste to znovu. Nebo zkuste akci spustit z příkazového řádku.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "Konfigurace rozsahu",
                 "confirm_purge": "Vyčištění odstraní všechny záznamy z databáze a prostředky související s rozšířením. Rozšíření se neodinstaluje, to je nutné provést prostřednictvím nástroje Composer. Opravdu chcete pokračovat?",
+                "deprecated": "",
                 "disabled": "Zakázáno",
                 "enable_to_see": "Povolte rozšíření pro zobrazení a změnu jeho nastavení.",
                 "enabled": "Povoleno",
@@ -151,7 +161,8 @@
                     "button_label": "README",
                     "no_readme": "Vypadá to, že toto rozšíření nemá soubor README",
                     "title": "{extName} dokumentace"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "Získat pomoc",

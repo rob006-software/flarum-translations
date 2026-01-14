@@ -57,6 +57,13 @@
             "dashboard": {
                 "clear_cache_button": "ۋاقىتلىق ھۆججەتلەرنى ئۆچۈرۈش",
                 "description": "مۇنبىرىڭىزنىڭ بىر قاراشتا.",
+                "info_button": "",
+                "info_modal": {
+                    "title": "",
+                    "copy_button": "",
+                    "copy_success": "",
+                    "copy_error": ""
+                },
                 "io_error_message": "دېسكىغا يازغىلى بولمىدى. يېزىش ھوقۇقىڭىزنى تەكشۈرۈپ ئاندىن قايتا سىناڭ ياكى تېرمىنالدىن بۇيرۇق بېرىپ سىناپ بېقىڭ.",
                 "status": {
                     "headers": {
@@ -129,8 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
+                "abandoned_no_replacement": "",
+                "abandoned_with_replacement": "",
                 "configure_scopes": "ھوقۇقلارنى تەڭشەش",
                 "confirm_purge": "تازىلاش كېڭەيتمە بىلەن باغلىق بولغان بارلىق مەلۇماتلارنى ئۆچۈرۈپ تاشلايدۇ. ئۇ كېڭەيتمىنى ئېلىپ تاشلىمايدۇ؛ ئۇنىڭ ئۈچۈن كېڭەيتمە باشقۇرغۇچىسىنى ئىشىلتىش كېرەك. داۋاملاشتۇرامسىز؟",
+                "deprecated": "",
                 "disabled": "توختىتىلغان",
                 "enable_to_see": "تەڭشەكلەرنى كۆرۈش ۋە ئۆزگەرتىش ئۈچۈن كېڭەيتمىنى ئېچىڭ.",
                 "enabled": "ئوچۇق",
@@ -151,7 +161,8 @@
                     "button_label": "ئوقۇڭ",
                     "no_readme": "بۇ كېڭەيتمىدە چۈشەندۈرۈش ھۆججىتى يوقكەن",
                     "title": "{extName} ھۆججەتلىرى"
-                }
+                },
+                "replaced": ""
             },
             "header": {
                 "get_help": "ياردەم",
