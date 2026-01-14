@@ -215,22 +215,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `askvortsov-discussion-templates` | [![#1443 (closed)](https://img.shields.io/badge/PR-%231443-red)](https://github.com/rob006-software/flarum-translations/pull/1443) |
-| `askvortsov-moderator-warnings` | [![#1436 (closed)](https://img.shields.io/badge/PR-%231436-red)](https://github.com/rob006-software/flarum-translations/pull/1436) |
-| `capybash-magicbb` | [![#1446 (closed)](https://img.shields.io/badge/PR-%231446-red)](https://github.com/rob006-software/flarum-translations/pull/1446) |
-| `capybash-magicread` | [![#1447 (closed)](https://img.shields.io/badge/PR-%231447-red)](https://github.com/rob006-software/flarum-translations/pull/1447) |
-| `capybash-magicslider` | [![#1448 (closed)](https://img.shields.io/badge/PR-%231448-red)](https://github.com/rob006-software/flarum-translations/pull/1448) |
-| `nodeloc-auto-moderator` | [![#1283 (closed)](https://img.shields.io/badge/PR-%231283-red)](https://github.com/rob006-software/flarum-translations/pull/1283) |
-| `nodeloc-bonus` | [![#1328 (closed)](https://img.shields.io/badge/PR-%231328-red)](https://github.com/rob006-software/flarum-translations/pull/1328) |
-| `nodeloc-dislikes` | [![#1384 (closed)](https://img.shields.io/badge/PR-%231384-red)](https://github.com/rob006-software/flarum-translations/pull/1384) |
-| `nodeloc-essential` | [![#1329 (closed)](https://img.shields.io/badge/PR-%231329-red)](https://github.com/rob006-software/flarum-translations/pull/1329) |
-| `nodeloc-exchange` | [![#1319 (closed)](https://img.shields.io/badge/PR-%231319-red)](https://github.com/rob006-software/flarum-translations/pull/1319) |
-| `nodeloc-friend-link` | [![#1325 (closed)](https://img.shields.io/badge/PR-%231325-red)](https://github.com/rob006-software/flarum-translations/pull/1325) |
-| `nodeloc-leaderboard` | [![#1275 (closed)](https://img.shields.io/badge/PR-%231275-red)](https://github.com/rob006-software/flarum-translations/pull/1275) |
-| `nodeloc-oauth-telegram` | [![#1326 (closed)](https://img.shields.io/badge/PR-%231326-red)](https://github.com/rob006-software/flarum-translations/pull/1326) |
-| `nodeloc-signature` | [![#1295 (closed)](https://img.shields.io/badge/PR-%231295-red)](https://github.com/rob006-software/flarum-translations/pull/1295) |
-| `nodeloc-telegram` | [![#1385 (closed)](https://img.shields.io/badge/PR-%231385-red)](https://github.com/rob006-software/flarum-translations/pull/1385) |
-| `nodeloc-vps` | [![#1296 (closed)](https://img.shields.io/badge/PR-%231296-red)](https://github.com/rob006-software/flarum-translations/pull/1296) |
-| `nodeloc-whisper` | [![#1386 (closed)](https://img.shields.io/badge/PR-%231386-red)](https://github.com/rob006-software/flarum-translations/pull/1386) |
+There are no dead branches.
