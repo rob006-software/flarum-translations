@@ -214,6 +214,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `hertz-dev-ads` | [![#1439 (open)](https://img.shields.io/badge/PR-%231439-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/1439) |
+There are no dead branches.
