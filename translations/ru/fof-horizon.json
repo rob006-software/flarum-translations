@@ -24,20 +24,20 @@
                 "refresh": "Обновить",
                 "last_refresh": "Обновлено {time}",
                 "health": {
-                    "excellent": "",
-                    "good": "",
-                    "poor": "",
-                    "critical": "",
-                    "tooltip": ""
+                    "excellent": "Отлично",
+                    "good": "Хорошо",
+                    "poor": "Плохо",
+                    "critical": "Критический",
+                    "tooltip": "Оценка работоспособности системы: {score}/100"
                 },
                 "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
+                    "title": "Ошибка соединения",
+                    "fetch_failed": "Не удается получить статистику Horizon. Пожалуйста, проверьте конфигурацию вашего Redis.",
+                    "setup_docs": "Просмотр документации по настройке Redis"
                 },
                 "data": {
                     "redis-used-memory": "Используемая память Redis",
-                    "redis-memory-usage": "",
+                    "redis-memory-usage": "Использование памяти Redis",
                     "redis-peak-memory": "Пиковое значение памяти Redis",
                     "redis-max-memory": "Максимальная память Redis",
                     "redis-memory-policy": "Политика памяти Redis",
@@ -55,11 +55,11 @@
                     },
                     "total-processes": "Всего процессов",
                     "max-wait-time": "Макс. время ожидания",
-                    "max-wait-queue": "",
+                    "max-wait-queue": "Очередь: {queue}",
                     "max-runtime": "Макс. время выполнения",
                     "max-throughput": "Макс. пропускная способность",
-                    "success-rate": "",
-                    "failure-rate": ""
+                    "success-rate": "Коэффициент успеха",
+                    "failure-rate": "Коэффициент отказа"
                 }
             }
         }
