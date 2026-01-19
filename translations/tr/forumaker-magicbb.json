@@ -2,39 +2,39 @@
     "forumaker-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
-                "bb_iframe_help": "",
-                "toolbar_group": "",
-                "toolbar_group_help": ""
+                "bb_center": "Ortala",
+                "bb_justify": "Yasla",
+                "bb_color": "Renk",
+                "bb_spoiler": "Tatkaçıran",
+                "bb_table": "Tablo",
+                "bb_info": "Uyarılar",
+                "bb_image": "FoF Upload",
+                "bb_image_help": "Büyük ortalanmış görseller otomatik olarak gönderi genişliğinin %60'ına, yan hizalanmış olanlar ise %40'ına kadar yeniden boyutlandırılır",
+                "bb_iframe": "çerçeve",
+                "bb_iframe_help": "Herhangi bir kaynaktan iframe yerleştirilmesine izin verir. Dikkatli kullanın — gömülü içerik harici komut dosyaları içerebilir. 🧹 Bu ayarı değiştirdikten sonra lütfen Flarum önbelleğini temizleyin",
+                "toolbar_group": "MagicBB düğmelerini grupla",
+                "toolbar_group_help": "Etkinleştirildiğinde, düzenleyicideki tüm MagicBB düğmeleri tek bir düğme halinde gruplanacaktır"
             },
             "sections": {
-                "text": "",
-                "content": "",
-                "images": "",
-                "features": ""
+                "text": "Metin düğmeleri",
+                "content": "İçerik düğmeleri",
+                "images": "Görsel düğmeleri",
+                "features": "Özellikler"
             },
             "permissions": {
-                "use_iframe": ""
+                "use_iframe": "iframe'e izin ver"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "image_button": "",
-                "more_button": ""
+                "center_button": "Ortala",
+                "justify_button": "İki yana yasla",
+                "color_button": "Renk ekle",
+                "spoiler_button": "Tatkaçıran ekle",
+                "table_button": "Tablo ekle",
+                "info_button": "Uyarı ekle",
+                "image_button": "Görsel ekle",
+                "more_button": "Devamı"
             }
         }
     }
