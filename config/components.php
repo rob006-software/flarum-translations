@@ -806,6 +806,9 @@ return [
 	'huoxin-relative-url' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/1.0.0/locale/en.yml',
 	],
+	'huseyinfiliz-awards' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/awards/1.0/resources/locale/en.yml',
+	],
 	'huseyinfiliz-bump' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/bump/1.1.1/locale/en.yml',
 	],
