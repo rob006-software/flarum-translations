@@ -5,8 +5,8 @@
                 "access_logfile_api": "API aracılığıyla günlük dosyası verilerine erişin"
             },
             "settings": {
-                "max-file-size": "",
-                "max-file-size-help": "",
+                "max-file-size": "Maksimum Günlük Dosyası Boyutu (MB)",
+                "max-file-size-help": "Bir günlük dosyası bu boyutu aşarsa, birden fazla parçaya bölünecektir. Bölmeyi devre dışı bırakmak için 0 olarak ayarlayın. Varsayılan 1MB'dır. İzin verilen maksimum boyut 150MB'dır.",
                 "purge-days": "Günlük dosyalarını günler sonra temizle",
                 "purge-days-help": "Flarum zamanlayıcının etkin olmasına bağlıdır. 0, kapalı kalması içindir."
             },
@@ -16,10 +16,10 @@
                 "file_size": "Boyut (bayt): {size}",
                 "last_updated": "Son güncelleme: {updated}",
                 "no_file_selected": "İçeriğini görüntülemek için bir günlük dosyası seçin.",
-                "view_log": "",
-                "download_log": "",
-                "delete_log": "",
-                "confirm_delete": ""
+                "view_log": "Günlük dosyasını görüntüle",
+                "download_log": "Günlük dosyasını indir",
+                "delete_log": "Günlük dosyasını sil",
+                "confirm_delete": "Bu günlük dosyasını silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
             }
         }
     }
