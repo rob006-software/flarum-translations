@@ -57,12 +57,12 @@
             "dashboard": {
                 "clear_cache_button": "Önbelleği Temizle",
                 "description": "Bir bakışta forumun.",
-                "info_button": "",
+                "info_button": "Sistem Bilgisi",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Sistem Bilgileri",
+                    "copy_button": "Panoya Kopyala",
+                    "copy_success": "Sistem bilgileri panoya kopyalandı",
+                    "copy_error": "Panoya kopyalanamadı"
                 },
                 "io_error_message": "Dosya sistemine yazılamadı. Dosya sistemi izinlerinizi kontrol edin ve tekrar deneyin veya komut satırından çalıştırmayı deneyin.",
                 "status": {
@@ -136,11 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Bu uzantı artık yazarı tarafından desteklenmiyor ve güncelleme almayabilir.",
+                "abandoned_with_replacement": "Bu uzantı {replacement} ile değiştirildi. Yeni pakete geçiş yapmayı değerlendirin.",
                 "configure_scopes": "Kapsamları Yapılandır",
                 "confirm_purge": "Temizleme, uzantıyla ilgili tüm veritabanı girdilerini ve varlıkları kaldıracaktır. Uzantıyı kaldırmaz; kaldırma işlemi Composer aracılığıyla yapılmalıdır. Devam etmek istediğine emin misin?",
-                "deprecated": "",
+                "deprecated": "Kullanımdan Kaldırıldı",
                 "disabled": "Etkisizleştirildi",
                 "enable_to_see": "Ayarları görüntülemek ve değiştirmek için uzantıyı etkinleştirin.",
                 "enabled": "Etkin",
@@ -162,7 +162,7 @@
                     "no_readme": "Bu uzantı bir BENİ OKU dosyasına sahip değil",
                     "title": "{extName} belgeleri"
                 },
-                "replaced": "",
+                "replaced": "Değiştirildi",
                 "confirm_uninstall": "Kaldırma işlemi, uzantı ile ilgili tüm veritabanı girişlerini kaldıracaktır. Devam etmek istediğine emin misin?",
                 "uninstall_button": "Kaldır"
             },
@@ -734,7 +734,7 @@
             "extensions": "Uzantılar",
             "generic_confirmation_message": "Devam etmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
             "icon": "Simge",
-            "icon_text": "Herhangi bir <a>FontAwesome</a> simgesi adını <code>fas fa-</code> <em>öneki dahil</em> olarak girin.",
+            "icon_text": "<code>fas fa-</code> öneki <em>dahil</em>, herhangi bir <a>FontAwesome</a> ikon sınıfı adını girin.",
             "load_more": "Daha Fazla Yükle",
             "loading": "Yükleniyor...",
             "log_in": "Giriş Yap",
