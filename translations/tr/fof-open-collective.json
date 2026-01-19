@@ -6,15 +6,15 @@
                 "use_legacy_api_key_label": "Eski Uygulama API Anahtarını Kullan",
                 "use_legacy_api_key_help": "Eski bir API anahtarınız varsa, onu kullanmaya devam edebilirsiniz, ancak Kişisel Token'a geçmeniz önerilir. Şu anda, kişisel token'lar API Anahtarı modunda (yani \"API-Key\" başlığı) çalışıyor gibi görünüyor, ancak bu daha belgelenmemiştir.\n",
                 "api_key_label": "Uygulama API Anahtarı (kullanım dışı)",
-                "api_key_help": "",
+                "api_key_help": "Bu kimlik doğrulama yöntemi kullanımdan kaldırıldı. Lütfen Kişisel Belirteç'e geçmeyi değerlendirin.",
                 "personal_token_label": "Kişisel Token",
-                "personal_token_help": "",
+                "personal_token_help": "<a>https://opencollective.com/applications</a> adresinde kişisel bir belirteç oluşturun. Bu belirteç, Open Collective'den destekçi bilgilerinizi çekmek için kullanılır.",
                 "slug_label": "Collective Adres Kısa Adı",
-                "slug_help": "",
-                "group_label": "Atanacak Grup",
-                "group_help": "",
-                "onetime_group_label": "",
-                "onetime_group_help": "",
+                "slug_help": "Open Collective topluluk kısa adını (topluluk URL'nizdeki opencollective.com/ kısmından sonraki bölüm) girin.",
+                "group_label": "Düzenli Destekçiler Grubu",
+                "group_help": "Düzenli destekçilerin hangi Flarum kullanıcı grubuna ekleneceğini seçin. Kullanıcılar düzenli destekçi olduklarında otomatik olarak eklenecek ve abonelikleri sona erdiğinde (yapılandırılmışsa) tek seferlik gruba taşınacaktır.",
+                "onetime_group_label": "Tek Seferlik Destekçiler Grubu (İsteğe Bağlı)",
+                "onetime_group_help": "Tek seferlik destekçilerin hangi Flarum kullanıcı grubuna ekleneceğini seçin. Ayarlanmazsa, tek seferlik destekçiler yönetilmeyecektir. Düzenli bir destekçi aboneliğini iptal ettiğinde bu gruba taşınacaktır.",
                 "desc": "Kişisel Token'ınızı <a>https://opencollective.com/dashboard</a> adresinden Ayarlar > Geliştiriciler İçin bölümünden edinin. Herhangi bir ek kapsam seçmeyin - varsayılan boş seçimi koruyun.\n"
             }
         }
