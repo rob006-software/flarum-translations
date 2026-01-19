@@ -10,6 +10,10 @@
                     "title": "Ganti avatar yang telah diunggah ke Forum",
                     "helptext": "Mengganti avatar yang sudah diunggah ke forum dengan Cravatar"
                 },
+                "allow-user-toggle": {
+                    "title": "",
+                    "helptext": ""
+                },
                 "defaults": {
                     "title": "Default",
                     "helptext": "Apa yang terjadi jika alamat email tidak memiliki gambar Cravatar yang cocok? Cravatar memiliki sejumlah opsi bawaan yang dapat Anda gunakan sebagai default. Sebagian besar opsi ini bekerja dengan mengambil hash email yang diminta dan menggunakannya untuk menghasilkan gambar bertema yang unik untuk alamat email tersebut.",
@@ -36,7 +40,9 @@
         },
         "forum": {
             "settings": {
-                "edit-cravatar": "Kelola avatar di cravatar.cn"
+                "edit-cravatar": "Kelola avatar di cravatar.cn",
+                "use-cravatar": "",
+                "use-uploaded": ""
             }
         }
     }
