@@ -17,7 +17,7 @@
             "status_codes_cache_label": "Varsayılan HTTP Durum Kodu Sayfası TTL",
             "status_codes_cache_help": "Bir HTTP durum kodu ve o sayfanın önbelleğe alınması için gereken saniye sayısını boşlukla ayırarak belirtin. Satır başına bir tane.",
             "purge_all": "=> acpl-lscache.ref.purge_cache",
-            "test_failed_alert": "",
+            "test_failed_alert": "Sunucunuzun LSCache'i desteklemediği görünüyor. Sunucu yapılandırmanızı kontrol edin. Tespit edilen sunucu: <b>{server}</b>, tespit edilen LiteSpeed türü: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
             },
