@@ -7,13 +7,13 @@
             },
             "settings": {
                 "api_token_label": "API Jetonu",
-                "api_token_help": "",
+                "api_token_help": "<a>https://github.com/settings/tokens/new</a> adresinde <code>user</code> ve <code>read:org</code> kapsamlarına sahip kişisel bir erişim belirteci oluşturun. Bu belirteç, GitHub'dan sponsor bilgilerinizi çekmek için kullanılır.",
                 "account_type_label": "Hesap Tipi",
-                "account_type_help": "",
+                "account_type_help": "Kişisel bir GitHub kullanıcı hesabı için mi yoksa bir organizasyon hesabı için mi sponsor takibi yaptığınızı seçin.",
                 "login_label": "Oturum aç",
-                "login_help": "",
+                "login_help": "GitHub kullanıcı adınızı (kullanıcı hesapları için) veya kuruluş adınızı (kuruluşlar için) girin. Bu, sponsorları senkronize edilecek olan hesaptır.",
                 "group_label": "Atanacak Grup",
-                "group_help": "",
+                "group_help": "Sponsorların hangi Flarum kullanıcı grubuna ekleneceğini seçin. Kullanıcılar sponsor olduklarında otomatik olarak eklenecek, sponsorluğu bıraktıklarında ise çıkarılacaktır.",
                 "desc": "API jetonunuzu <a>https://github.com/settings/tokens/new</a> adresinden alın. Bu uzantı, <code>user</code> ve <code>read:org</code> kapsamlarını gerektirir."
             }
         }
