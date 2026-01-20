@@ -834,7 +834,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/private-profile/v1.1/locale/en.yml',
 	],
 	'huseyinfiliz-sort-changer' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sort-changer/v1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sort-changer/v2/locale/en.yml',
 	],
 	'huseyinfiliz-sticky-title' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/v1.8/locale/en.yml',
