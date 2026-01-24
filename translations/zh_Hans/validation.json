@@ -87,7 +87,7 @@
         "present": ":attribute 字段不能为空。",
         "regex": ":attribute 格式错误。",
         "required": ":attribute 不能为空。",
-        "required_array_keys": "",
+        "required_array_keys": ":attribute 数组必须包含 : :values 的条目。",
         "required_if": "当 :other 为 :value 时 :attribute 不能为空。",
         "required_unless": ":attribute 不能为空，除非 :other 是 :values。",
         "required_with": "当 :values 存在时 :attribute 不能为空。",
