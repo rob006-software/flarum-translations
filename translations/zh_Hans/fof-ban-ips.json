@@ -74,8 +74,8 @@
         "lib": {
             "data": {
                 "bannedipdata": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "如果IP封禁记录与用户关联（即该用户被IP封禁），导出时会包含该用户的IP地址、封禁原因和创建日期。",
+                    "anonymize_description": "与用户链接的任何IP地址都是解耦的，但IP本身仍将被禁止，并说明原因。确保“原因”字段中没有存储PII数据。"
                 }
             }
         }
