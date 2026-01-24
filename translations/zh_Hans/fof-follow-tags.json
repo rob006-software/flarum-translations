@@ -37,7 +37,7 @@
                 "submit_button": "确认订阅"
             },
             "hero": {
-                "title": ""
+                "title": "=> flarum-subscriptions.forum.index.following_link"
             },
             "notifications": {
                 "new_discussion_text": "{username} 发布了新主题",
@@ -86,8 +86,8 @@
         "lib": {
             "data": {
                 "tagsubscription": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "如果标签存在，导出订阅级别的详细信息。",
+                    "anonymize_description": "取消用户订阅的标签。"
                 }
             }
         }
