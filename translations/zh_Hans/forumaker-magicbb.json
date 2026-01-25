@@ -13,28 +13,28 @@
                 "bb_iframe": "iframe嵌入式",
                 "bb_iframe_help": "允许嵌入来自任何来源的 iframe。请谨慎使用——嵌入的内容可能包含外部脚本。🧹 更改此设置后，请清除 Flarum 缓存",
                 "toolbar_group": "MagicBB 按钮组",
-                "toolbar_group_help": ""
+                "toolbar_group_help": "如果启用此功能，所有 MagicBB 按钮将在编辑器中合并为一个按钮"
             },
             "sections": {
-                "text": "",
-                "content": "",
-                "images": "",
-                "features": ""
+                "text": "文本按钮",
+                "content": "内容按钮",
+                "images": "图片按钮",
+                "features": "特征"
             },
             "permissions": {
-                "use_iframe": ""
+                "use_iframe": "允许iframe嵌入式"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "image_button": "",
-                "more_button": ""
+                "center_button": "居中对齐",
+                "justify_button": "对齐并两端对齐",
+                "color_button": "添加颜色",
+                "spoiler_button": "添加黑幕",
+                "table_button": "添加标题",
+                "info_button": "添加警报",
+                "image_button": "添加图片",
+                "more_button": "更多"
             }
         }
     }
