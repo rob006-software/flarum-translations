@@ -147,18 +147,18 @@
                 "change": "修改",
                 "remove": "移除",
                 "add_vote": "添加投票",
-                "vote_now": "",
-                "no_votes": "",
-                "categories_remaining": ""
+                "vote_now": "现在投票",
+                "no_votes": "你还没有投票",
+                "categories_remaining": "没有投票的类别"
             },
             "progress": {
-                "voted": "",
-                "complete": "",
-                "prev": "",
-                "next": ""
+                "voted": "已投票类别数：{count}/{total}",
+                "complete": "完成！",
+                "prev": "上一页",
+                "next": "下一个"
             },
             "hero": {
-                "countdown": "",
+                "countdown": "投票结束时间：{days}天 {hours}小时 {minutes}分钟 {seconds}秒",
                 "voting_ended": "",
                 "results_published": "",
                 "draft_preview": "",
