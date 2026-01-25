@@ -168,75 +168,75 @@
                 "admin_only": "Режим предварительного просмотра — только для пользователей"
             },
             "results": {
-                "winner": "",
-                "runner_up": "",
-                "votes": "",
-                "percentage": "",
-                "view_all": "",
-                "full_results": ""
+                "winner": "Победитель",
+                "runner_up": "Призёр",
+                "votes": "{count} голосов",
+                "percentage": "{percent}%",
+                "view_all": "Посмотреть все результаты",
+                "full_results": "Все результаты"
             },
             "prediction": {
-                "title": "",
-                "score": "",
-                "correct": "",
-                "wrong": ""
+                "title": "Ваш результат прогноза",
+                "score": "{correct}/{total} угадано!",
+                "correct": "Верно:",
+                "wrong": "Неверно:"
             },
             "category": {
-                "nominees_count": "",
-                "votes_used": "",
-                "votes_unlimited": ""
+                "nominees_count": "{count} номинантов",
+                "votes_used": "{used}/{limit} голосов",
+                "votes_unlimited": "{count} голосов"
             },
             "other": {
-                "suggest": "",
-                "click_to_suggest": "",
-                "placeholder": "",
-                "submit": "",
-                "success": "",
-                "already_submitted": "",
-                "pending_count": "",
-                "remaining": "",
-                "no_remaining": "",
-                "my_suggestions": "",
-                "no_suggestions": "",
-                "cancel": "",
-                "status_pending": "",
-                "status_approved": "",
-                "status_rejected": "",
-                "status_merged": "",
-                "cancel_confirm": ""
+                "suggest": "Предложить вариант",
+                "click_to_suggest": "Нажмите, чтобы предложить номинанта",
+                "placeholder": "Введите имя номинанта…",
+                "submit": "Отправить предложение",
+                "success": "Предложение отправлено! Оно будет рассмотрено модераторами.",
+                "already_submitted": "Вы уже отправили предложение для этой категории.",
+                "pending_count": "{count} предложений на рассмотрении",
+                "remaining": "{count} предложений осталось",
+                "no_remaining": "Слоты для предложений закончились",
+                "my_suggestions": "Мои предложения",
+                "no_suggestions": "Вы ещё не отправили ни одного предложения.",
+                "cancel": "Отменить",
+                "status_pending": "Ожидает",
+                "status_approved": "Одобрено",
+                "status_rejected": "Отклонено",
+                "status_merged": "Объединено",
+                "cancel_confirm": "Отменить предложение?"
             },
             "empty": {
-                "no_awards": "",
-                "no_awards_description": "",
-                "no_categories": "",
-                "no_nominees": ""
+                "no_awards": "Нет активных наград",
+                "no_awards_description": "Пока что наград нет. Загляните позже!",
+                "no_categories": "В этой награде пока нет категорий.",
+                "no_nominees": "В этой награде пока нет номинантов."
             },
             "notification": {
-                "results_published": ""
+                "results_published": "Результаты для {awardName} опубликованы!"
             },
             "error": {
-                "voting_closed": "",
-                "rate_limit": "",
-                "other_not_allowed": "",
-                "vote_limit_reached": "",
-                "vote_quota_exhausted": "",
-                "cannot_delete_processed_suggestion": "",
-                "not_available": ""
+                "voting_closed": "Голосование закрыто.",
+                "rate_limit": "Слишком много голосов. Немного подождите.",
+                "other_not_allowed": "Эта категория не принимает предложения.",
+                "vote_limit_reached": "В этой категории можно проголосовать только за {limit} номинантов.",
+                "vote_quota_exhausted": "Вы использовали все доступные голоса и предложения для этой категории.",
+                "cannot_delete_processed_suggestion": "Отменить можно только предложения на рассмотрении.",
+                "not_available": "Эта награда пока недоступна."
             }
         },
         "lib": {
-            "success_message": "",
-            "actions": "",
-            "votes": "",
-            "slug": "",
-            "description": "",
-            "sort_order": "",
-            "move_up": "",
-            "move_down": "",
-            "upload_image": "",
-            "upload_success": "",
-            "upload_error": "",
-            "save": ""
+            "success_message": "Изменения сохранены!",
+            "actions": "Действия",
+            "votes": "Голоса",
+            "slug": "Адрес страницы",
+            "description": "Описание",
+            "sort_order": "Сортировка",
+            "move_up": "Поднять",
+            "move_down": "Опустить",
+            "upload_image": "Загрузить изображение",
+            "upload_success": "Изображение загружено",
+            "upload_error": "Не удалось загрузить изображение",
+            "save": "Сохранить"
         }
     }
 }
