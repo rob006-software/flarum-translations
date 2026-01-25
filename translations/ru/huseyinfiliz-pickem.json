@@ -7,127 +7,127 @@
                 "week": "Неделя",
                 "match": "Матч",
                 "pick": "Прогноз",
-                "home": "",
-                "away": "",
-                "draw": "",
-                "date": "",
-                "points": "",
-                "status": "",
-                "vs": "",
-                "result": "",
-                "score": ""
+                "home": "Дома",
+                "away": "В гостях",
+                "draw": "Ничья",
+                "date": "Дата",
+                "points": "Очки",
+                "status": "Статус",
+                "vs": "vs",
+                "result": "Результат",
+                "score": "Счёт"
             },
             "nav": {
-                "pickem": "",
-                "matches": "",
-                "my_picks": "",
-                "leaderboard": "",
-                "settings": "",
-                "teams": "",
-                "seasons": "",
-                "weeks": ""
+                "pickem": "Прогнозы",
+                "matches": "Матчи",
+                "my_picks": "Мои прогнозы",
+                "leaderboard": "Таблица лидеров",
+                "settings": "Настройки",
+                "teams": "Команды",
+                "seasons": "Сезоны",
+                "weeks": "Недели"
             },
             "status": {
-                "scheduled": "",
-                "closed": "",
-                "finished": "",
-                "pending": "",
-                "correct": "",
-                "incorrect": ""
+                "scheduled": "Запланирован",
+                "closed": "Закрыт",
+                "finished": "Завершён",
+                "pending": "Ожидается",
+                "correct": "Верно",
+                "incorrect": "Неверно"
             },
             "headers": {
-                "rank": "",
-                "player": "",
-                "correct": "",
-                "total": "",
-                "accuracy": "",
-                "logo": "",
-                "match_date": "",
-                "cutoff_date": "",
-                "slug": "",
-                "name": "",
-                "week_number": ""
+                "rank": "Место",
+                "player": "Игрок",
+                "correct": "Верно",
+                "total": "Всего",
+                "accuracy": "Точность",
+                "logo": "Логотип",
+                "match_date": "Дата матча",
+                "cutoff_date": "Дата окончания приёма прогнозов",
+                "slug": "Адрес страницы",
+                "name": "Название",
+                "week_number": "Номер недели"
             },
             "form": {
-                "name": "",
-                "slug": "",
-                "logo_url": "",
-                "start_date": "",
-                "end_date": "",
-                "week_number": "",
-                "home_team": "",
-                "away_team": "",
-                "select_team": "",
-                "select_season": "",
-                "no_week": "",
-                "allow_draw": "",
-                "home_score": "",
-                "away_score": "",
-                "search_team": "",
-                "select_week": ""
+                "name": "Название",
+                "slug": "Адрес страницы",
+                "logo_url": "URL логотипа",
+                "start_date": "Дата начала",
+                "end_date": "Дата окончания",
+                "week_number": "Номер недели",
+                "home_team": "Домашняя команда",
+                "away_team": "Гостевая команда",
+                "select_team": "Выбрать команду",
+                "select_season": "Выбрать сезон",
+                "no_week": "Без недели",
+                "allow_draw": "Разрешить ничью",
+                "home_score": "Счёт хозяев",
+                "away_score": "Счёт гостей",
+                "search_team": "Поиск команды…",
+                "select_week": "Выбрать неделю"
             },
             "filters": {
-                "sort": "",
-                "newest": "",
-                "oldest": "",
-                "reset": "",
-                "all": ""
+                "sort": "Сортировка",
+                "newest": "Сначала новые",
+                "oldest": "Сначала старые",
+                "reset": "Сбросить фильтры",
+                "all": "Все"
             },
             "buttons": {
-                "save": "",
-                "edit": "",
-                "delete": "",
-                "create": "",
-                "cancel": "",
-                "load_more": ""
+                "save": "Сохранить",
+                "edit": "Править",
+                "delete": "Удалить",
+                "create": "Создать",
+                "cancel": "Отменить",
+                "load_more": "Загрузить ещё"
             },
             "actions": {
-                "create": "",
-                "edit": "",
-                "enter_result": ""
+                "create": "Создать",
+                "edit": "Править",
+                "enter_result": "Ввести результат"
             },
             "messages": {
-                "delete_confirm": "",
-                "saved": "",
-                "deleted": "",
-                "result_saved": "",
-                "in_use": "",
-                "login_required": "",
-                "invalid_outcome": "",
-                "scores_required": "",
-                "slug_unique": "",
-                "same_team": "",
-                "no_matches": "",
-                "no_data": ""
+                "delete_confirm": "Удалить?",
+                "saved": "Сохранено.",
+                "deleted": "Удалено.",
+                "result_saved": "Результат сохранён.",
+                "in_use": "Невозможно удалить — элемент не используется.",
+                "login_required": "Войдите для участия.",
+                "invalid_outcome": "Неверный выбор.",
+                "scores_required": "Введите счёт обеих команд.",
+                "slug_unique": "Адрес страницы уже занят.",
+                "same_team": "Команды должны отличаться.",
+                "no_matches": "Матчи не найдены.",
+                "no_data": "Похоже, здесь ничего нет."
             },
             "pagination": {
-                "page_info": ""
+                "page_info": "Страница {current} из {total}"
             },
             "time": {
-                "minutes_remaining": "",
-                "hours_remaining": "",
-                "days_remaining": ""
+                "minutes_remaining": "{minutes}м осталось",
+                "hours_remaining": "{hours}ч {minutes}м осталось",
+                "days_remaining": "{days}д осталось"
             }
         },
         "forum": {
             "picks": {
-                "your_pick": ""
+                "your_pick": "Ваш прогноз"
             },
-            "notification": ""
+            "notification": "Результат: {home} {hScore} – {aScore} {away}"
         },
         "admin": {
             "permissions": {
-                "manage": "",
-                "make_picks": "",
-                "view_page": ""
+                "manage": "Управление прогнозами",
+                "make_picks": "Делать прогнозы",
+                "view_page": "Просмотр страницы прогнозов"
             },
             "settings": {
-                "reverse_display_label": "",
-                "reverse_display_help": "",
-                "recalc_help": "",
-                "recalc_btn": "",
-                "recalc_confirm": "",
-                "recalc_queued": ""
+                "reverse_display_label": "Инвертировать отображение хозяев и гостей",
+                "reverse_display_help": "Если включено, гостевая команда будет отображаться слева или сверху, а домашняя — справа или снизу. Соответствует формату американского спорта — гости @ хозяева.",
+                "recalc_help": "Пересчитывает все очки на основе результатов матчей. Выполняется в фоне.",
+                "recalc_btn": "Пересчитать очки",
+                "recalc_confirm": "Запустить пересчёт? Он будет выполнен в фоновом режиме.",
+                "recalc_queued": "Пересчёт добавлен в очередь."
             }
         }
     }
