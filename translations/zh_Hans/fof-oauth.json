@@ -15,8 +15,8 @@
                 "only_icons_label": "登录界面只显示第三方账号图标",
                 "update_email_from_provider_label": "从提供方获取邮箱地址",
                 "update_email_from_provider_help": "启用此项，在用户每次登录论坛时，尝试从 OAuth 提供方获取并更新用户的电子邮箱地址。",
-                "disable_avatars_label": "",
-                "disable_avatars_help": "",
+                "disable_avatars_label": "禁用来自提供商的头像",
+                "disable_avatars_help": "如果启用此选项，用户注册时，其头像将不会自动更新为与提供商的头像一致。请注意，此设置仅影响未来的注册用户，不会更改现有用户的头像。\n",
                 "fullscreen_popup_label": "使用全屏弹出窗口进行 OAuth 认证",
                 "fullscreen_popup_help": "启用此项，忽略宽高设置，打开一个新的全屏弹出窗口进行 OAuth。",
                 "popup_width_label": "OAuth 弹窗宽度",
@@ -25,9 +25,9 @@
                 "popup_height_help": "设置 OAuth 弹窗的高度，此设置对「全屏弹出窗口」无效。",
                 "providers": {
                     "callback_url_text": "根据需要可将回调 URL 设为 {url}。",
-                    "group_label": "",
-                    "group_help": "",
-                    "no_group_label": "",
+                    "group_label": "分配组",
+                    "group_help": "选择一个群组，以便自动分配给使用此提供商注册的用户。",
+                    "no_group_label": "没有群组任务",
                     "discord": {
                         "description": "前往 {link} 创建应用，并在 OAuth2 选项卡中添加重定向 URL。",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
