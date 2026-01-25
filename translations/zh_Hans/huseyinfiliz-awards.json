@@ -159,84 +159,84 @@
             },
             "hero": {
                 "countdown": "投票结束时间：{days}天 {hours}小时 {minutes}分钟 {seconds}秒",
-                "voting_ended": "",
-                "results_published": "",
-                "draft_preview": "",
-                "results_preview": ""
+                "voting_ended": "投票已结束",
+                "results_published": "结果已发布",
+                "draft_preview": "草稿预览",
+                "results_preview": "结果预览"
             },
             "preview": {
-                "admin_only": ""
+                "admin_only": "预览模式 - 仅授权用户可见"
             },
             "results": {
-                "winner": "",
-                "runner_up": "",
-                "votes": "",
-                "percentage": "",
-                "view_all": "",
-                "full_results": ""
+                "winner": "获胜者",
+                "runner_up": "亚军",
+                "votes": "{count} 票",
+                "percentage": "{percent}%",
+                "view_all": "查看所有结果",
+                "full_results": "完整结果"
             },
             "prediction": {
-                "title": "",
-                "score": "",
-                "correct": "",
-                "wrong": ""
+                "title": "您的预测分数",
+                "score": "{correct}/{total} 个预测正确！",
+                "correct": "正确的：",
+                "wrong": "错误的："
             },
             "category": {
-                "nominees_count": "",
-                "votes_used": "",
-                "votes_unlimited": ""
+                "nominees_count": "{count} 位被提名的人",
+                "votes_used": "{used}/{limit} 票",
+                "votes_unlimited": "{count} 票"
             },
             "other": {
-                "suggest": "",
-                "click_to_suggest": "",
-                "placeholder": "",
-                "submit": "",
-                "success": "",
-                "already_submitted": "",
-                "pending_count": "",
-                "remaining": "",
-                "no_remaining": "",
-                "my_suggestions": "",
-                "no_suggestions": "",
-                "cancel": "",
-                "status_pending": "",
-                "status_approved": "",
-                "status_rejected": "",
-                "status_merged": "",
-                "cancel_confirm": ""
+                "suggest": "其他建议选项",
+                "click_to_suggest": "点击此处推荐候选人",
+                "placeholder": "输入要推荐的候选人的名字...",
+                "submit": "提交建议",
+                "success": "建议已提交！将由版主进行审核。",
+                "already_submitted": "您已经为此板块提交过建议。",
+                "pending_count": "{count} 条待处理建议",
+                "remaining": "还剩 {count} 条建议",
+                "no_remaining": "没有剩余的建议次数了",
+                "my_suggestions": "我的建议",
+                "no_suggestions": "您还没有提交任何建议。",
+                "cancel": "取消",
+                "status_pending": "待办",
+                "status_approved": "已被认可",
+                "status_rejected": "被拒绝",
+                "status_merged": "被合并",
+                "cancel_confirm": "取消这个建议？"
             },
             "empty": {
-                "no_awards": "",
-                "no_awards_description": "",
-                "no_categories": "",
-                "no_nominees": ""
+                "no_awards": "没有有效的奖励",
+                "no_awards_description": "目前没有可领取的奖励。请稍后再来看看！",
+                "no_categories": "此奖励目前还没有任何板块。",
+                "no_nominees": "该类别目前还没有提名人选。"
             },
             "notification": {
-                "results_published": ""
+                "results_published": "{awardName}的评选结果已经公布！"
             },
             "error": {
-                "voting_closed": "",
-                "rate_limit": "",
-                "other_not_allowed": "",
-                "vote_limit_reached": "",
-                "vote_quota_exhausted": "",
-                "cannot_delete_processed_suggestion": "",
-                "not_available": ""
+                "voting_closed": "投票已结束。",
+                "rate_limit": "投票人数过多，请稍后。",
+                "other_not_allowed": "此板块不接受建议。",
+                "vote_limit_reached": "您在此板块中只能投票给 {limit} 位候选人。",
+                "vote_quota_exhausted": "您已耗尽此板块下的所有投票/建议次数。",
+                "cannot_delete_processed_suggestion": "只有待处理的建议才能被取消。",
+                "not_available": "该奖励目前尚未开放申请。"
             }
         },
         "lib": {
-            "success_message": "",
-            "actions": "",
-            "votes": "",
-            "slug": "",
-            "description": "",
-            "sort_order": "",
-            "move_up": "",
-            "move_down": "",
-            "upload_image": "",
-            "upload_success": "",
-            "upload_error": "",
-            "save": ""
+            "success_message": "变更已成功保存！",
+            "actions": "行动",
+            "votes": "投票",
+            "slug": "固定链接",
+            "description": "描述",
+            "sort_order": "命令",
+            "move_up": "向上移动",
+            "move_down": "向下移动",
+            "upload_image": "上传图片",
+            "upload_success": "图片上传成功",
+            "upload_error": "上传图片失败",
+            "save": "保存变更"
         }
     }
 }
