@@ -57,12 +57,12 @@
             "dashboard": {
                 "clear_cache_button": "清除快取",
                 "description": "論壇資訊總覽",
-                "info_button": "",
+                "info_button": "系統訊息",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "系統訊息",
+                    "copy_button": "複製到剪貼簿",
+                    "copy_success": "系統資訊已複製到剪貼簿",
+                    "copy_error": "無法複製到剪貼簿"
                 },
                 "io_error_message": "無法寫入檔案。請檢查操作權限，重試或者直接從命令列執行命令。",
                 "status": {
@@ -136,11 +136,11 @@
                 "title": "信箱"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "此擴充功能不再由其作者維護，並且可能不會再收到更新。",
+                "abandoned_with_replacement": "此擴充功能已被{replacement}取代。考慮遷移到替換包。",
                 "configure_scopes": "設置範圍",
                 "confirm_purge": "重置操作會清除資料庫中所有該擴充套件相關的記錄和資源。如要卸載擴充套件，請透過 Composer 操作。確定要重置擴充套件嗎？",
-                "deprecated": "",
+                "deprecated": "已棄用",
                 "disabled": "關閉",
                 "enable_to_see": "開啟擴充套件程式以查看或修改設置。",
                 "enabled": "開啟",
@@ -162,7 +162,7 @@
                     "no_readme": "此擴充套件未提供說明檔",
                     "title": "{extName} 檔案"
                 },
-                "replaced": ""
+                "replaced": "替換"
             },
             "header": {
                 "get_help": "幫助",
