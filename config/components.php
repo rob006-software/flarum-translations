@@ -1526,5 +1526,8 @@ return [
 	'ziiven-view-history' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/view-history/v0.1.7/locale/en.yml',
 	],
+	'zrobot-gitea-org-oauth' => [
+		'tag' => 'https://raw.githubusercontent.com/Nicotinamide/flarum-gitea-org/v0.1.1/locale/en.yml',
+	],
 	/* extensions list end */
 ];
