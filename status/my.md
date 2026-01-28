@@ -1458,7 +1458,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Compatible with recent Flarum">🟢</span><span title="Extension is abandoned">❗</span>
 			<a href="https://github.com/blomstra/flarum-ext-user-filter" title="blomstra/user-filter"><code>blomstra/user-filter</code></a>
 		</td>
 		<td align="center">131<br /><img src="https://img.shields.io/badge/--8-brightgreen" alt="-8" title="Change from last week"></td>
