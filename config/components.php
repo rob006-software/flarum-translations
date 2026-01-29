@@ -464,6 +464,9 @@ return [
 	'dem13n-topic-starter-label' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.8/locale/en.yml',
 	],
+	'devmindslab-link-redirect-confirm' => [
+		'tag' => 'https://raw.githubusercontent.com/DevMindsLab/link-redirect-confirm/v1.0.4/resources/locale/en.yml',
+	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.2.0/resources/locale/en.yml',
 	],
