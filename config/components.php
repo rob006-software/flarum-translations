@@ -767,6 +767,9 @@ return [
 	'foskym-sorts-for-user-directory' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-sorts-for-user-directory/v0.3.2/locale/en.yml',
 	],
+	'foskym-wechat-official' => [
+		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-wechat-official/v0.2.1/locale/en.yml',
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
