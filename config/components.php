@@ -1247,6 +1247,9 @@ return [
 	'muhammedsaidckr-gemini' => [
 		'tag' => 'https://raw.githubusercontent.com/muhammedsaidckr/flarum-gemini/v1.0.4/locale/en.yml',
 	],
+	'nauhyuh-migration-tool' => [
+		'tag' => 'https://raw.githubusercontent.com/nauhyuh/flarum-migration-tool/v2.4.1/locale/en.yml',
+	],
 	'nearata-cakeday' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-cakeday/v2.2.0/locale/en.yml',
 	],
