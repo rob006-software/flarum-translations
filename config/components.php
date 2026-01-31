@@ -137,9 +137,6 @@ return [
 	'blomstra-trello' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-trello/0.3.2/locale/en.yml',
 	],
-	'blomstra-user-filter' => [
-		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-user-filter/0.1.4/locale/en.yml',
-	],
 	'blomstra-usercard-stats' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-usercard-stats/0.1.2/locale/en.yml',
 	],
@@ -778,6 +775,9 @@ return [
 	],
 	'gbcl-userip' => [
 		'tag' => 'https://raw.githubusercontent.com/GBCLStudio/userip/1.1.0/resources/locale/en.yml',
+	],
+	'glowingblue-author-filter' => [
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-author-filter/1.0.0/resources/locale/en.yml',
 	],
 	'glowingblue-localizd' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/bef89cfb5e916b4186d22033e697932f0f51f487/glowingblue-localizd.yml',
