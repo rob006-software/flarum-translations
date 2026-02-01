@@ -49,7 +49,16 @@
                 "uniformComposerLayout": "",
                 "uniformComposerLayoutHelp": "",
                 "noByobuFields": "",
-                "noByobuFieldsHelp": ""
+                "noByobuFieldsHelp": "",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
@@ -116,6 +125,7 @@
                 },
                 "tabs": {
                     "template": "Šablóna",
+                    "translate": "",
                     "placement": "Umiestnenie",
                     "access": "Prístup",
                     "notifications": "Upozornenia",
@@ -133,6 +143,7 @@
                 "template-export": "Import/export šablóny",
                 "enable-expert-mode": "Povoliť režim experta",
                 "disable-expert-mode": "Zakázať režim experta",
+                "show-advanced-attributes": "",
                 "restore": "Obnoviť",
                 "hide": "Zmazať",
                 "delete": "Zmazať navždy",
@@ -190,6 +201,16 @@
                 "preview": "",
                 "save-for-preview": ""
             },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
+            },
             "auto-discussion-options-modal": {
                 "title": "",
                 "introduction": "",
@@ -226,9 +247,12 @@
             "template-editor": {
                 "add-field": "",
                 "title": "",
+                "titleTranslationKey": "",
                 "description": "",
+                "descriptionTranslationKey": "",
                 "key": "",
                 "fill-permission": "",
+                "contentTranslationKey": "",
                 "required": "",
                 "rich": "",
                 "min": "",
@@ -258,6 +282,7 @@
             "options-editor": {
                 "columns": {
                     "title": "",
+                    "titleTranslationKey": "",
                     "key": ""
                 },
                 "remove": "",
@@ -280,6 +305,10 @@
             "choice": {
                 "other-label": "",
                 "other-placeholder": ""
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "",

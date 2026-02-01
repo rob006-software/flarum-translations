@@ -49,7 +49,16 @@
                 "uniformComposerLayout": "Tata letak penulisan diskusi yang seragam",
                 "uniformComposerLayoutHelp": "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n",
                 "noByobuFields": "Jangan mengintegrasikan bidang diskusi dengan diskusi pribadi dari ekstensi Byobu",
-                "noByobuFieldsHelp": "Secara default, bidang diskusi yang tidak diberi tag akan berlaku untuk semua diskusi termasuk diskusi pribadi."
+                "noByobuFieldsHelp": "Secara default, bidang diskusi yang tidak diberi tag akan berlaku untuk semua diskusi termasuk diskusi pribadi.",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
@@ -116,6 +125,7 @@
                 },
                 "tabs": {
                     "template": "Template",
+                    "translate": "",
                     "placement": "Penempatan",
                     "access": "Akses",
                     "notifications": "Notifikasi",
@@ -133,6 +143,7 @@
                 "template-export": "Impor/ekspor template",
                 "enable-expert-mode": "Aktifkan mode expert",
                 "disable-expert-mode": "Matikan mode expert",
+                "show-advanced-attributes": "",
                 "restore": "Pulihkan",
                 "hide": "Hapus",
                 "delete": "Hapus permanen",
@@ -190,6 +201,16 @@
                 "preview": "Pratinjau di tab baru",
                 "save-for-preview": "Simpan untuk pratinjau"
             },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
+            },
             "auto-discussion-options-modal": {
                 "title": "Opsi diskusi otomatis",
                 "introduction": "Pengaturan ini akan berlaku untuk diskusi baru yang telah dibuat secara otomatis dengan mengirimkan formulir yang terhubung dengan tag. Anda dapat menggunakan nilai dari formulir pengajuan menggunakan sintaksis kurung kurawal dengan slug kolom. Secara default, { title } dan { content } akan digunakan secara berurutan.\n",
@@ -226,9 +247,12 @@
             "template-editor": {
                 "add-field": "Tambahkan kolom",
                 "title": "Judul",
+                "titleTranslationKey": "",
                 "description": "Deskripsi",
+                "descriptionTranslationKey": "",
                 "key": "(Expert) Kunci JSON dalam payload pengajuan",
                 "fill-permission": "(Expert) Isi perizinan",
+                "contentTranslationKey": "",
                 "required": "Dibutuhkan",
                 "rich": "Rich text (TextFormatter)",
                 "min": "Minimum",
@@ -258,6 +282,7 @@
             "options-editor": {
                 "columns": {
                     "title": "Judul",
+                    "titleTranslationKey": "",
                     "key": "(Expert) Kunci unik"
                 },
                 "remove": "Hapus opsi",
@@ -280,6 +305,10 @@
             "choice": {
                 "other-label": "Lainnya:",
                 "other-placeholder": "Ketik..."
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "Formulir ini ditutup.",

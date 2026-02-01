@@ -49,7 +49,16 @@
                 "uniformComposerLayout": "",
                 "uniformComposerLayoutHelp": "",
                 "noByobuFields": "",
-                "noByobuFieldsHelp": ""
+                "noByobuFieldsHelp": "",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
@@ -116,6 +125,7 @@
                 },
                 "tabs": {
                     "template": "Shablon",
+                    "translate": "",
                     "placement": "Joylashtirish",
                     "access": "Ruxsat",
                     "notifications": "Xabarlar",
@@ -133,6 +143,7 @@
                 "template-export": "Shablon import/eksport",
                 "enable-expert-mode": "Ekspert holatini yoqish",
                 "disable-expert-mode": "Ekspert holatini o'chirish",
+                "show-advanced-attributes": "",
                 "restore": "TIklash",
                 "hide": "O'chirish",
                 "delete": "Butunlay o'chirish",
@@ -190,6 +201,16 @@
                 "preview": "Yangi varaqda oldindan ko'rish",
                 "save-for-preview": "Oldindan ko'rish uchun saqlang"
             },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
+            },
             "auto-discussion-options-modal": {
                 "title": "Avtomatik muhokama imkoniyatlari",
                 "introduction": "Ushbu sozlamalar teg bilan bog'langan shaklni yuborish orqali avtomatik ravishda yaratilgan yangi muhokamalarga qo'llaniladi. Qavslar sintaksisidan foydalanib, shaklni yuborishdagi qiymatlarni maydon slug'i bilan ishlatishingiz mumkin. Odatiy bo'lib { title } va { content} mos ravishda ishlatiladi.\n",
@@ -226,9 +247,12 @@
             "template-editor": {
                 "add-field": "Maydon qo'shing",
                 "title": "Sarlavha",
+                "titleTranslationKey": "",
                 "description": "Tavsif",
+                "descriptionTranslationKey": "",
                 "key": "(Mutaxassis) JSON kaliti jo'natish yuki",
                 "fill-permission": "(Mutaxassis) Ruxsatlarni toʻldirish",
+                "contentTranslationKey": "",
                 "required": "Majburiy",
                 "rich": "Boy matn (TextFormatter)",
                 "min": "Minimum",
@@ -258,6 +282,7 @@
             "options-editor": {
                 "columns": {
                     "title": "Sarlavha",
+                    "titleTranslationKey": "",
                     "key": "(Ekspert) yagona kalit"
                 },
                 "remove": "Variantni o'chirish",
@@ -280,6 +305,10 @@
             "choice": {
                 "other-label": "Boshqa:",
                 "other-placeholder": "Yozing..."
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "Bu shakl yopilgan.",

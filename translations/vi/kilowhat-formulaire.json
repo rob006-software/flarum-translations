@@ -49,7 +49,16 @@
                 "uniformComposerLayout": "Bố cục trình soạn thảo thảo luận thống nhất",
                 "uniformComposerLayoutHelp": "Thay đổi kiểu dáng của các thẻ, trường tiêu đề và nội dung để phù hợp với Formulaire. Bố cục này sẽ chiếm nhiều dung lượng hơn, vì vậy bạn nên cài đặt và bật tiện ích mở rộng <a>Trang trình soạn thảo/a>.\n",
                 "noByobuFields": "Không tích hợp trường thảo luận với thảo luận riêng Byobu",
-                "noByobuFieldsHelp": "Theo mặc định, các trường thảo luận không được gắn thẻ sẽ áp dụng cho tất cả các thảo luận, bao gồm cả thảo luận riêng tư."
+                "noByobuFieldsHelp": "Theo mặc định, các trường thảo luận không được gắn thẻ sẽ áp dụng cho tất cả các thảo luận, bao gồm cả thảo luận riêng tư.",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
@@ -116,6 +125,7 @@
                 },
                 "tabs": {
                     "template": "Mẫu",
+                    "translate": "",
                     "placement": "Vị trí",
                     "access": "Truy cập",
                     "notifications": "Thông báo",
@@ -133,6 +143,7 @@
                 "template-export": "Nhập/xuất mẫu",
                 "enable-expert-mode": "Bật chế độ chuyên gia",
                 "disable-expert-mode": "Tắt chế độ chuyên gia",
+                "show-advanced-attributes": "",
                 "restore": "Khôi phục",
                 "hide": "Xoá",
                 "delete": "Xóa vĩnh viễn",
@@ -190,6 +201,16 @@
                 "preview": "Xem trước trong tab mới",
                 "save-for-preview": "Lưu để xem trước"
             },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
+            },
             "auto-discussion-options-modal": {
                 "title": "Các tùy chọn thảo luận tự động",
                 "introduction": "Các cài đặt này sẽ áp dụng cho các cuộc thảo luận mới đã được tạo tự động bằng cách gửi biểu mẫu được kết nối với thẻ. Bạn có thể sử dụng các giá trị từ việc gửi biểu mẫu bằng cú pháp dấu ngoặc nhọn với trường slug. Theo mặc định, {title} và {content} sẽ được sử dụng tương ứng.\n",
@@ -226,9 +247,12 @@
             "template-editor": {
                 "add-field": "Thêm trường",
                 "title": "Tiêu đề",
+                "titleTranslationKey": "",
                 "description": "Mô tả",
+                "descriptionTranslationKey": "",
                 "key": "(Chuyên gia) Mã khoá JSON trong tải trọng gửi",
                 "fill-permission": "(Chuyên gia) Điền các quyền",
+                "contentTranslationKey": "",
                 "required": "Yêu cầu",
                 "rich": "Rich text (TextFormatter)",
                 "min": "Tối thiểu",
@@ -258,6 +282,7 @@
             "options-editor": {
                 "columns": {
                     "title": "Tiêu đề",
+                    "titleTranslationKey": "",
                     "key": "(Chuyên gia) Khóa duy nhất"
                 },
                 "remove": "Xoá tuỳ chọn",
@@ -280,6 +305,10 @@
             "choice": {
                 "other-label": "Khác:",
                 "other-placeholder": "Nhập..."
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "Biểu mẫu này đã bị đóng.",

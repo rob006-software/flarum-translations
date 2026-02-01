@@ -49,7 +49,16 @@
                 "uniformComposerLayout": "Yhtenäinen ulkoasu keskustelun luonnin kanssa",
                 "uniformComposerLayoutHelp": "Vaihtaa avainsanan, otsikon ja sisällön tyylittelyä vastaamaan Formulairen tyylittelyä. Tämä ulkoasu ottaa enemmän tilaa joten suosittelemme, että asennat <a>Composer Page</a> lisäosan.\n",
                 "noByobuFields": "Älä integroi keskustelun kenttiä yksityisen keskustelun kenttien kanssa Byobu lisäosassa",
-                "noByobuFieldsHelp": "Oletuksena keskustelun kentät jotka ei ole avainsanassa on käytössä kaikissa viesteissä, myös yksityisissä."
+                "noByobuFieldsHelp": "Oletuksena keskustelun kentät jotka ei ole avainsanassa on käytössä kaikissa viesteissä, myös yksityisissä.",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
@@ -116,6 +125,7 @@
                 },
                 "tabs": {
                     "template": "Pohja",
+                    "translate": "",
                     "placement": "Sijoitus",
                     "access": "Pääsy",
                     "notifications": "Ilmoitukset",
@@ -133,6 +143,7 @@
                 "template-export": "Pohjan tuonti/vienti",
                 "enable-expert-mode": "Ota asiantuntija tila käyttöön",
                 "disable-expert-mode": "Ota asiantuntija tila pois käytöstä",
+                "show-advanced-attributes": "",
                 "restore": "Palauta",
                 "hide": "Poista",
                 "delete": "Poista pysyvästi",
@@ -190,6 +201,16 @@
                 "preview": "Esikatsele uudella välilehdellä",
                 "save-for-preview": "Tallenna esikatselua varten"
             },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
+            },
             "auto-discussion-options-modal": {
                 "title": "Automaattiset keskustelun asetukset",
                 "introduction": "Nämä asetukset ovat uusille keskusteluille, jotka luodaan automaattisesti lomakkeen merkinnästä. Voit käyttää arvoja lomakkeen merkinnästä käyttäen sulku syntaksia kentän tunnisteella. Oletuksena { title } ja { content } on käytössä.\n",
@@ -226,9 +247,12 @@
             "template-editor": {
                 "add-field": "Lisää kenttä",
                 "title": "Otsikko",
+                "titleTranslationKey": "",
                 "description": "Kuvaus",
+                "descriptionTranslationKey": "",
                 "key": "(Asiantuntija) JSON avain merkinnän kuormassa",
                 "fill-permission": "(Asiantuntija) Täytön oikeudet",
+                "contentTranslationKey": "",
                 "required": "Pakollinen",
                 "rich": "Rikastettu teksti (TextFormatter)",
                 "min": "Minimi",
@@ -258,6 +282,7 @@
             "options-editor": {
                 "columns": {
                     "title": "Otsikko",
+                    "titleTranslationKey": "",
                     "key": "(Asiantuntija) Uniikki avain"
                 },
                 "remove": "Poista valinta",
@@ -280,6 +305,10 @@
             "choice": {
                 "other-label": "Muu:",
                 "other-placeholder": "Kirjoita..."
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "Tämä lomake on suljettu.",

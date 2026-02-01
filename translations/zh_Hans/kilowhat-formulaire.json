@@ -49,7 +49,16 @@
                 "uniformComposerLayout": "",
                 "uniformComposerLayoutHelp": "",
                 "noByobuFields": "",
-                "noByobuFieldsHelp": ""
+                "noByobuFieldsHelp": "",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
@@ -116,6 +125,7 @@
                 },
                 "tabs": {
                     "template": "模板",
+                    "translate": "",
                     "placement": "位置",
                     "access": "权限",
                     "notifications": "通知",
@@ -133,6 +143,7 @@
                 "template-export": "模板导入/导出",
                 "enable-expert-mode": "开启专家模式",
                 "disable-expert-mode": "停用专家模式",
+                "show-advanced-attributes": "",
                 "restore": "重置",
                 "hide": "删除",
                 "delete": "永久删除",
@@ -190,6 +201,16 @@
                 "preview": "在新的标签页中预览",
                 "save-for-preview": "保存并预览"
             },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
+            },
             "auto-discussion-options-modal": {
                 "title": "自动主题选项",
                 "introduction": "这些设置将应用于通过提交标签连接的表单自动创建的新讨论。您可以使用一对大括号包裹字段的 slug 来使用表单提交的值。默认情况下，将依次使用 { title } 和 { content }。\n",
@@ -226,9 +247,12 @@
             "template-editor": {
                 "add-field": "添加字段",
                 "title": "标题",
+                "titleTranslationKey": "",
                 "description": "描述",
+                "descriptionTranslationKey": "",
                 "key": "（专家）在提交数据中有效载荷的 JSON 属性名",
                 "fill-permission": "（专家）填写权限",
+                "contentTranslationKey": "",
                 "required": "必填",
                 "rich": "富文本（TextFormatter）",
                 "min": "最小",
@@ -258,6 +282,7 @@
             "options-editor": {
                 "columns": {
                     "title": "",
+                    "titleTranslationKey": "",
                     "key": ""
                 },
                 "remove": "",
@@ -280,6 +305,10 @@
             "choice": {
                 "other-label": "",
                 "other-placeholder": ""
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "此表单已结束。",

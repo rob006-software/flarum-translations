@@ -12,7 +12,7 @@
                 "default_actor_placeholder_search": "Type to search for a user...",
                 "default_actor_help": "This Flarum user will be assigned as the actor of all suspend, lock, delete actions. It will also be used as the owner of discussions and posts unless \"Assign discussion author from SSO\" is enabled.\n",
                 "report_http_errors": "Send WordPress REST API HTTP errors to configured Flarum reporters",
-                "report_http_errors_help": "No matter the value of this setting, requests as always logged as text to the default logger. This option is useful if you want API errors to be sent to Sentry or other monitoring tools as exceptions with stack traces.\n",
+                "report_http_errors_help": "No matter the value of this setting, requests are always logged as text to the default logger. This option is useful if you want API errors to be sent to Sentry or other monitoring tools as exceptions with stack traces.\n",
                 "section_sso_intro": "This feature will seamlessly connects WordPress users with Flarum. An account will automatically be created for them and kept in sync with WordPress. If you have existing accounts in Flarum, they will automatically be matched by their email. If you delete a user in Flarum, it will be created again next time the WordPress account logins. To block a Flarum user, suspend the account in Flarum.\n",
                 "enable_sso": "Enable SSO integration",
                 "login_method": "Global Login Mechanism",

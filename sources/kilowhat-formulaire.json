@@ -49,7 +49,16 @@
                 "uniformComposerLayout": "Uniform discussion composer layout",
                 "uniformComposerLayoutHelp": "Changes the styling of the tags, title and content fields to match with Formulaire. This layout will take even more space so it's recommended you install and enable the <a>Composer Page</a> extension.\n",
                 "noByobuFields": "Do not integrate discussion fields with private discussions from Byobu extension",
-                "noByobuFieldsHelp": "By default, discussion fields that are not tag-scoped will apply to all discussions including private ones."
+                "noByobuFieldsHelp": "By default, discussion fields that are not tag-scoped will apply to all discussions including private ones.",
+                "translateManually": "Enable manual form translation",
+                "translateManuallyHelp": "When this setting is active, field names can be translated in the form manager UI. Multiple languages must be active on the forum.\n",
+                "translateWithTranslator": "Enable form translation with Flarum Translator API",
+                "translateWithTranslatorHelp": "When this setting is active, field names can be customized through local extenders and language packs. See documentation for how to use this feature.\n",
+                "replacementPatternLocale": "Language used when applying a replacement pattern",
+                "replacementPatternLocaleHelp": "The default \"auto\" option means the language of the user who submitted the form will be used when no queue is active. If a queue is active, the default forum language is used. This setting affects both notification emails and automatic discussion creation.\n",
+                "replacementPatternLocaleOptions": {
+                    "auto": "Auto"
+                }
             }
         },
         "forum": {
@@ -116,6 +125,7 @@
                 },
                 "tabs": {
                     "template": "Template",
+                    "translate": "Translate",
                     "placement": "Placement",
                     "access": "Access",
                     "notifications": "Notifications",
@@ -133,6 +143,7 @@
                 "template-export": "Template import/export",
                 "enable-expert-mode": "Enable expert mode",
                 "disable-expert-mode": "Disable expert mode",
+                "show-advanced-attributes": "Show advanced attributes...",
                 "restore": "Restore",
                 "hide": "Delete",
                 "delete": "Delete permanently",
@@ -149,7 +160,7 @@
                     "linked-form-is-draft": "This form is currently in draft mode. Enable under \"Access\" for the fields to appear on the forum.\n",
                     "auto-link-permission-warning": "Forms with \"automatically create discussions\" option use the global fill permission when accessed standalone.\n"
                 },
-                "expert-mode-warning": "Expert mode is enabled. This lets you customize field identifiers and per-field permissions. Make sure you read the documentation about those feature, as you might break things!\n",
+                "expert-mode-warning": "Advanced field attributes are visible. Make sure you read the documentation about those feature, as you might break things!\n",
                 "section": {
                     "template": "Template",
                     "permissions": "Permissions"
@@ -190,6 +201,16 @@
                 "preview": "Preview in new tab",
                 "save-for-preview": "Save for preview"
             },
+            "show-advanced-attributes-modal": {
+                "title": "Show advanced field attributes",
+                "toggle": "Toggle all",
+                "close": "Close",
+                "attribute": {
+                    "key": "Key",
+                    "fillPermission": "Fill permission",
+                    "translationKey": "Translation key"
+                }
+            },
             "auto-discussion-options-modal": {
                 "title": "Automatic discussion options",
                 "introduction": "These settings will apply to new discussions that have been created automatically by submitting a tag-connected form. You can use values from the form submission using a braces syntax with the field slug. By default { title } and { content } will be used respectively.\n",
@@ -226,9 +247,12 @@
             "template-editor": {
                 "add-field": "Add a field",
                 "title": "Title",
+                "titleTranslationKey": "(Expert) Title translation key",
                 "description": "Description",
+                "descriptionTranslationKey": "(Expert) Description translation key",
                 "key": "(Expert) JSON key in the submission payload",
                 "fill-permission": "(Expert) Fill permissions",
+                "contentTranslationKey": "(Expert) Content translation key",
                 "required": "Required",
                 "rich": "Rich text (TextFormatter)",
                 "min": "Minimum",
@@ -258,6 +282,7 @@
             "options-editor": {
                 "columns": {
                     "title": "Title",
+                    "titleTranslationKey": "(Expert) Translation key",
                     "key": "(Expert) Unique Key"
                 },
                 "remove": "Remove option",
@@ -280,6 +305,10 @@
             "choice": {
                 "other-label": "Other:",
                 "other-placeholder": "Type..."
+            },
+            "translate": {
+                "switch-tab-to-edit": "Switch to Template tab to change field configuration",
+                "option-heading": "Option #{number}"
             },
             "submission": {
                 "form-closed": "This form is closed.",

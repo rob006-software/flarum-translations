@@ -49,7 +49,16 @@
                 "uniformComposerLayout": "統一的討論作曲家佈局",
                 "uniformComposerLayoutHelp": "更改標籤、標題和內容字段的樣式以與 Formulaire 相匹配。 此佈局將佔用更多空間，因此建議您安裝並啟用 <a>Composer Page</a> 擴充套件。\n",
                 "noByobuFields": "不要將討論字段與 Byobu 擴充套件的私人討論相結合",
-                "noByobuFieldsHelp": "預設情況下，非標籤範圍的討論字段將應用於所有討論，包括私人討論。"
+                "noByobuFieldsHelp": "預設情況下，非標籤範圍的討論字段將應用於所有討論，包括私人討論。",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
@@ -116,6 +125,7 @@
                 },
                 "tabs": {
                     "template": "模板",
+                    "translate": "",
                     "placement": "放置",
                     "access": "Access",
                     "notifications": "通知",
@@ -133,6 +143,7 @@
                 "template-export": "模板導入/導出",
                 "enable-expert-mode": "啟用專家模式",
                 "disable-expert-mode": "關閉專家模式",
+                "show-advanced-attributes": "",
                 "restore": "復原",
                 "hide": "刪除",
                 "delete": "永久刪除",
@@ -190,6 +201,16 @@
                 "preview": "在新標籤頁中預覽",
                 "save-for-preview": "儲存預覽"
             },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
+            },
             "auto-discussion-options-modal": {
                 "title": "自動討論選項",
                 "introduction": "這些設置將應用於透過提交標籤連接表單自動創建的新討論。您可以使用帶有字段 slug 的大括號語法來使用表單提交中的值。預設情況下，將分別使用 { title } 和 { content }。\n",
@@ -226,9 +247,12 @@
             "template-editor": {
                 "add-field": "增加字段",
                 "title": "名稱",
+                "titleTranslationKey": "",
                 "description": "描述",
+                "descriptionTranslationKey": "",
                 "key": "（專家）提交負載中的 JSON 鍵",
                 "fill-permission": "（專家）填寫權限",
+                "contentTranslationKey": "",
                 "required": "必填",
                 "rich": "富文字 (TextFormatter)",
                 "min": "最小值",
@@ -258,6 +282,7 @@
             "options-editor": {
                 "columns": {
                     "title": "標題",
+                    "titleTranslationKey": "",
                     "key": "（專家）唯一鍵"
                 },
                 "remove": "移除選項",
@@ -280,6 +305,10 @@
             "choice": {
                 "other-label": "其它：",
                 "other-placeholder": "輸入…"
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "此表格已關閉。",

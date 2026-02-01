@@ -49,7 +49,16 @@
                 "uniformComposerLayout": "Tek tip tartışma oluşturucu düzeni",
                 "uniformComposerLayoutHelp": "Etiketlerin, başlık ve içerik alanlarının stilini Formulaire ile eşleşecek şekilde değiştirir. Bu düzen daha da fazla yer kaplayacağından, <a>Composer Page</a> uzantısını yükleyip etkinleştirmeniz önerilir.\n",
                 "noByobuFields": "Byobu eklentisinin özel tartışmalarında, tartışma alanlarını dahil etmeyin",
-                "noByobuFieldsHelp": "Varsayılan olarak; etiketle sınırlandırılmayan tartışma alanları, özel tartışmalar da dahil olmak üzere tüm tartışmalara uygulanacaktır."
+                "noByobuFieldsHelp": "Varsayılan olarak; etiketle sınırlandırılmayan tartışma alanları, özel tartışmalar da dahil olmak üzere tüm tartışmalara uygulanacaktır.",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
@@ -116,6 +125,7 @@
                 },
                 "tabs": {
                     "template": "Şablon",
+                    "translate": "",
                     "placement": "Yerleşim",
                     "access": "Erişim",
                     "notifications": "Bildirimler",
@@ -133,6 +143,7 @@
                 "template-export": "Şablon içe aktar/dışa aktar",
                 "enable-expert-mode": "Uzman modunu etkinleştir",
                 "disable-expert-mode": "Uzman modunu etkisizleştir",
+                "show-advanced-attributes": "",
                 "restore": "Geri al",
                 "hide": "Sil",
                 "delete": "Kalıcı olarak sil",
@@ -190,6 +201,16 @@
                 "preview": "Yeni sekmede önizleme",
                 "save-for-preview": "Önizleme için kaydet"
             },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
+            },
             "auto-discussion-options-modal": {
                 "title": "Otomatik tartışma seçenekleri",
                 "introduction": "Bu ayarlar, etikete bağlı bir form gönderilerek otomatik olarak oluşturulan yeni tartışmalara uygulanacaktır. Alan bilgisiyle bir kaşlı ayraç sözdizimi kullanarak form gönderimindeki değerleri kullanabilirsiniz. Varsayılan olarak { title } ve { content } sırasıyla kullanılacaktır.\n",
@@ -226,9 +247,12 @@
             "template-editor": {
                 "add-field": "Alan ekle",
                 "title": "Başlık",
+                "titleTranslationKey": "",
                 "description": "Açıklama",
+                "descriptionTranslationKey": "",
                 "key": "(Uzman) Gönderim yükündeki JSON anahtarı",
                 "fill-permission": "(Uzman) Doldurma izinleri",
+                "contentTranslationKey": "",
                 "required": "Gerekli",
                 "rich": "Zengin metin (TextFormatter)",
                 "min": "Minimum",
@@ -258,6 +282,7 @@
             "options-editor": {
                 "columns": {
                     "title": "Başlık",
+                    "titleTranslationKey": "",
                     "key": "(Uzman) Benzersiz Anahtar"
                 },
                 "remove": "Kaldır seçeneği",
@@ -280,6 +305,10 @@
             "choice": {
                 "other-label": "Diğer:",
                 "other-placeholder": "Tip..."
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "Bu form kapalı.",
