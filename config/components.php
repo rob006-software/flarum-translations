@@ -899,6 +899,9 @@ return [
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.9/locale/en.yml',
 	],
+	'jiushutech-dingtalk-webhook' => [
+		'tag' => 'https://raw.githubusercontent.com/jiushutech/flarum-dingtalk-webhook/v1.0.0/resources/locale/en.yml',
+	],
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2.1/locale/en.yml',
 	],
