@@ -893,6 +893,9 @@ return [
 	'imdong-visible-to-op-only' => [
 		'tag' => 'https://raw.githubusercontent.com/imdong/flarum-ext-visible-to-op-only/v1.0.6/locale/en.yml',
 	],
+	'import-ai-oauth-passport' => [
+		'tag' => 'https://raw.githubusercontent.com/import-ai/flarum-oauth-passport/v0.1.0/locale/en.yml',
+	],
 	'irmmr-rtl' => [
 		'tag' => 'https://raw.githubusercontent.com/irmmr/flarum-ext-rtl/V0.2.5/locale/en.yml',
 	],
