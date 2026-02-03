@@ -155,6 +155,9 @@ return [
 	'cccyun-clogin-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
 	],
+	'cgu2022-cs-278-extension' => [
+		'tag' => 'https://raw.githubusercontent.com/cgu2022/cs-278-extension/v2.0.2/locale/en.yml',
+	],
 	'clarkwinkelmann-anonymous-posting' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-anonymous-posting/1.1.1/locale/en.yml',
 	],
