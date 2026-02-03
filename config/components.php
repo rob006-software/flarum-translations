@@ -882,7 +882,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/syndication/1.3.4/resources/locale/en.yml',
 	],
 	'ianm-translate' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/1264104bc8a19bc5c990ac47d0789c77e8b705fc/ianm-translate.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/ianm-translate.yml',
 	],
 	'ianm-twofactor' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-twofactor/1.2.1/locale/en.yml',
