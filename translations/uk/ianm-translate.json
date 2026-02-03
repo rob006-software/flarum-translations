@@ -4,25 +4,9 @@
             "glossary": {
                 "button": "Словник",
                 "create_button": "Створити новий термін",
-                "refresh_button": "",
-                "edit_term": "",
-                "delete_term": "",
                 "section": {
                     "heading": "Налаштування словника",
                     "help": "Слова або терміни зі словника визначаються так, щоб служба перекладу не перекладала їх. Це корисно для власних назв, технічних термінів або інших слів, які не слід перекладати."
-                },
-                "terms": {
-                    "current": ""
-                },
-                "no_terms": "",
-                "extender_info": "",
-                "create_not_implemented": "",
-                "edit_not_available": "",
-                "delete_not_available": "",
-                "source": {
-                    "code": "",
-                    "database": "",
-                    "default": ""
                 },
                 "glossary": "Словник"
             },
@@ -41,7 +25,9 @@
                     "heading": "Налаштування SEO",
                     "help": "Ці налаштування керують поведінкою системи перекладу щодо пошукової оптимізації.",
                     "default-lang": "Підібрати мову форуму за налаштуванням",
-                    "default-lang-help": "Якщо увімкнено, мову форуму за замовчуванням буде додано до шляху до тегу hreflang <code>x-default</code>."
+                    "default-lang-help": "Якщо увімкнено, мову форуму за замовчуванням буде додано до шляху до тегу hreflang <code>x-default</code>.",
+                    "canonical-path": "",
+                    "canonical-path-help": ""
                 },
                 "providers": {
                     "heading": "Налаштування постачальника послуг перекладу",
@@ -52,8 +38,6 @@
                 "seemless-help": "Бета-версія функції. Якщо увімкнено, весь вміст користувача буде автоматично перекладено на всі інші доступні мови форуму. Коли користувач переглядає багатомовний вміст, переклад буде відображатися автоматично.",
                 "multi-lang-search": "Багатомовний пошук",
                 "multi-lang-search-help": "Якщо цю опцію увімкнено, пошук буде включати всі переклади вмісту.",
-                "short-content-length": "",
-                "short-content-length-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "Зареєструйтеся за посиланням {link}. Драйвер автоматично визначить тип ключа free/pro.",
@@ -75,23 +59,6 @@
                             "prefer_less": "Менш формальний",
                             "prefer_more": "Більш формальний"
                         }
-                    },
-                    "model_type": {
-                        "help": "",
-                        "label": "",
-                        "options": {
-                            "latency_optimized": "",
-                            "prefer_quality_optimized": ""
-                        }
-                    },
-                    "glossary": {
-                        "options": {
-                            "none": ""
-                        },
-                        "pair": {
-                            "label": "",
-                            "help": ""
-                        }
                     }
                 },
                 "google-cloud": {
@@ -100,65 +67,18 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "openai": {
+                "libre": {
+                    "url": {
+                        "help": "URL-адреса сервера LibreTranslate. Якщо ви використовуєте власний екземпляр, введіть URL тут. Схема має бути `http` або `https`.",
+                        "label": "URL-адреса сервера"
+                    },
+                    "port": {
+                        "help": "Порт сервера LibreTranslate. Якщо ви використовуєте власний екземпляр, введіть порт тут.",
+                        "label": "Порт сервера"
+                    },
                     "api_key": {
-                        "help": "",
-                        "label": ""
-                    },
-                    "translation_model": {
-                        "help": "",
-                        "label": "",
-                        "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
-                            "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
-                            }
-                        }
-                    },
-                    "detection_model": {
-                        "help": "",
-                        "label": "",
-                        "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
-                            "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
-                            }
-                        }
-                    },
-                    "de_variant": {
-                        "help": "",
-                        "label": "",
-                        "options": {
-                            "casual": "",
-                            "swiss": ""
-                        }
-                    },
-                    "en_variant": {
-                        "help": "",
-                        "label": "",
-                        "options": {
-                            "en-GB": "",
-                            "en-US": ""
-                        }
-                    },
-                    "max_tokens": {
-                        "help": "",
-                        "label": "",
-                        "options": {
-                            "1024": "",
-                            "2048": "",
-                            "4096": "",
-                            "6144": "",
-                            "8192": ""
-                        }
-                    },
-                    "timeout": {
-                        "help": "",
-                        "label": ""
+                        "help": "(необов'язково) Якщо ваш сервер LibreTranslate вимагає ключ API, введіть його тут.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
                 "translate-all-enabled": "Увімкніть усі мови перекладу",
@@ -173,27 +93,10 @@
                 "translate-quiz-help": "Якщо цю опцію увімкнено, назва тесту, підзаголовок, пояснення правильної відповіді та варіанти відповідей будуть автоматично перекладені під час створення або редагування тесту.",
                 "provider": "Постачальник послуг перекладу",
                 "readme-info": "Більш детальну інформацію можна знайти в документації README.",
-                "readme-none": "Для цього драйвера не потрібно ніяких додаткових налаштувань.",
-                "libre": {
-                    "url": {
-                        "help": "URL-адреса сервера LibreTranslate. Якщо ви використовуєте власний екземпляр, введіть URL тут. Схема має бути `http` або `https`.",
-                        "label": "URL-адреса сервера"
-                    },
-                    "port": {
-                        "help": "Порт сервера LibreTranslate. Якщо ви використовуєте власний екземпляр, введіть порт тут.",
-                        "label": "Порт сервера"
-                    },
-                    "api_key": {
-                        "help": "(необов'язково) Якщо ваш сервер LibreTranslate вимагає ключ API, введіть його тут.",
-                        "label": "=> ianm-translate.lib.settings.api-key"
-                    }
-                }
+                "readme-none": "Для цього драйвера не потрібно ніяких додаткових налаштувань."
             }
         },
         "forum": {
-            "post": {
-                "translation-error": ""
-            },
             "unknown-language": "[не виявлено]",
             "detected-language": "Ця публікація знаходиться на {postLang}",
             "translate-button-label": "Переклад",
@@ -220,10 +123,6 @@
                     "question": "Питання",
                     "question-language": "Питання опитування ({language})",
                     "original-title": "Мова оригіналу"
-                },
-                "poll-group": {
-                    "title": "",
-                    "name": ""
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
@@ -265,7 +164,6 @@
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
                 "google-cloud": "Google Cloud Translate",
-                "openai": "",
                 "libre": "Libre Translate"
             },
             "settings": {
