@@ -453,7 +453,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/davwheat/flarum-ext-share/v1.1.0/locale/en.yml',
 	],
 	'davwheat-virtual-authors' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/davwheat-virtual-authors.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/davwheat-virtual-authors.yml',
 	],
 	'dem13n-discussion-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/discussion-cards/0.3.8/locale/en.yml',
