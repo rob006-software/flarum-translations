@@ -65,6 +65,10 @@
             "nav": {
                 "forms": "=> kilowhat-formulaire.ref.manager"
             },
+            "require-submission-alert": {
+                "message": "",
+                "action": ""
+            },
             "form-index": {
                 "header": {
                     "title": "=> kilowhat-formulaire.ref.manager",
@@ -157,6 +161,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "Sinulla täytyy asettaa \"näe oma\" ja \"muokkaa omaa\" oikeudet hyväksymättömille käyttäjille, jotta voit käyttää \"näytä rekisteröityessä\" tilaa.\n",
                     "show-on-composer-invalid-permissions": "Pidä huolto, että \"näe oma\" ja \"muokkaa omaa\" oikeudet täsmää niihin, jotka voivat aloittaa keskusteluja valitulla avainsanalla, jotta \"näytä muokkaimessa\" toimii oikein. Aseta \"käyttäjille\" jos epävarma. Tämä ilmoitus näkyy vaikka asetuksesi olisivat oikein.\n",
+                    "require-submission-invalid-permissions": "",
                     "linked-form-is-draft": "Tämä lomake on luonnos. Ota käyttöön \"Pääsy\" välilehdellä, jotta lomake näkyy foorumilla.\n",
                     "auto-link-permission-warning": "Lomakkeet joilla on \"automaattisesti luo keskustelu\" valinta, käytä yleistä täyttö oikeutta, kun käytetään erillisenä.\n"
                 },
@@ -172,6 +177,10 @@
                         "discussion": "Näytä keskustelun muokkaimessa",
                         "discussionHelp": "Flarumin keskustelun muokkain ei ole suunniteltu sisältämään monia kenttiä. Sinun kannattaa asentaa <a>Composer Page</a> lisäosa, jotta kaikki kentät on käytettävissä kaikilla laitteilla.\n",
                         "user": "Näytä rekisteröitymisessä"
+                    },
+                    "require-submission": {
+                        "switch": "",
+                        "warning": ""
                     },
                     "automatic-discussion": "Automaattisesti luo keskustelu lomakkeen lähetyksestä",
                     "automatic-discussion-help": "Kun käytössä, lomake on saatavilla erillisenä. Lomakkeen merkinnät luovat ja yhdistyvät uuteen keskusteluun.\n",
@@ -262,6 +271,7 @@
                 "regex": "Säännöllinen lauseke",
                 "mime": "MIME tyyppi (pilkuilla erotettu, hyväksyy jokerin toiseksi osaksi)",
                 "other": "Salli \"muu\" käyttäjän syötteet",
+                "defaultValue": "",
                 "duplicate": "Kopioi kenttä",
                 "delete": "Poista kenttä",
                 "missing-title": "Kenttä ilman otsikkoa",
@@ -283,7 +293,8 @@
                 "columns": {
                     "title": "Otsikko",
                     "titleTranslationKey": "",
-                    "key": "(Asiantuntija) Uniikki avain"
+                    "key": "(Asiantuntija) Uniikki avain",
+                    "defaultValue": ""
                 },
                 "remove": "Poista valinta",
                 "new-placeholder": "Uusi valinta..."
@@ -386,6 +397,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -430,6 +443,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -471,6 +486,8 @@
                 "user_displayname": "Käyttäjän näyttönimi",
                 "user_email": "Käyttäjän sähköpostiosoite",
                 "user_activated": "Aktivoitu tili",
+                "user_joined_at": "",
+                "user_groups": "",
                 "link_id": "Linkitetyn resurssin ID",
                 "locked_at": "Lukitus päivämäärä",
                 "created_at": "Luonti päivämäärä",

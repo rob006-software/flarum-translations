@@ -65,6 +65,10 @@
             "nav": {
                 "forms": "=> kilowhat-formulaire.ref.manager"
             },
+            "require-submission-alert": {
+                "message": "",
+                "action": ""
+            },
             "form-index": {
                 "header": {
                     "title": "=> kilowhat-formulaire.ref.manager",
@@ -157,6 +161,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "您需要為未批准的成員設置“查看自己的”和“編輯自己的”權限才能使用“在註冊中顯示”。\n",
                     "show-on-composer-invalid-permissions": "確保“查看自己的”和“編輯自己的”權限與可以開始討論所選標籤的人相匹配，以便使用“在作曲家中顯示”。如果不確定，請設置為“成員”。即使您的設置正確，也會出現此消息。\n",
+                    "require-submission-invalid-permissions": "",
                     "linked-form-is-draft": "此表格目前處於草稿模式。在“訪問”下啟用字段以顯示在論壇上。\n",
                     "auto-link-permission-warning": "具有“自動創建討論”選項的表單在單獨訪問時使用全局填充權限。\n"
                 },
@@ -172,6 +177,10 @@
                         "discussion": "在討論編輯器顯示",
                         "discussionHelp": "Flarum 討論編輯器不適合包含很多字段。 您應該安裝並啟用 <a>Composer Page</a> 擴充套件，以確保所有字段在所有設備上都可以訪問。\n",
                         "user": "於註冊時顯示"
+                    },
+                    "require-submission": {
+                        "switch": "",
+                        "warning": ""
                     },
                     "automatic-discussion": "從表單提交自動創建討論",
                     "automatic-discussion-help": "啟用後，表單將繼續像獨立表單一樣可訪問。 提交內容將自動創建並連接到新的討論。\n",
@@ -262,6 +271,7 @@
                 "regex": "正規表示式",
                 "mime": "MIME 類型（逗號分隔，接受通配符作為第二部分）",
                 "other": "允許“其他”用戶值",
+                "defaultValue": "",
                 "duplicate": "重複字段",
                 "delete": "刪除字段",
                 "missing-title": "沒有標題的字段",
@@ -283,7 +293,8 @@
                 "columns": {
                     "title": "標題",
                     "titleTranslationKey": "",
-                    "key": "（專家）唯一鍵"
+                    "key": "（專家）唯一鍵",
+                    "defaultValue": ""
                 },
                 "remove": "移除選項",
                 "new-placeholder": "新增選項…"
@@ -386,6 +397,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -430,6 +443,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -471,6 +486,8 @@
                 "user_displayname": "用戶顯示名",
                 "user_email": "用戶郵箱",
                 "user_activated": "啟用帳戶",
+                "user_joined_at": "",
+                "user_groups": "",
                 "link_id": "連結資源 ID",
                 "locked_at": "鎖定日期",
                 "created_at": "創建日期",
