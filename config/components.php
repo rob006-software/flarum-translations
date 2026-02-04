@@ -1170,7 +1170,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/MadEyeDeer/flarum-pallet-theme/v0.2.5/locale/en.yml',
 	],
 	'maicol07-oidc-client' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/maicol07-oidc-client.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/maicol07-oidc-client.yml',
 	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.11.7/locale/en.yml',
