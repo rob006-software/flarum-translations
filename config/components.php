@@ -1089,7 +1089,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/users-map-location/0.1.6/locale/en.yml',
 	],
 	'justoverclock-website-live-screenshot' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/justoverclock-website-live-screenshot.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/justoverclock-website-live-screenshot.yml',
 	],
 	'justoverclock-welcomebox' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/2.0.2/resources/locale/en.yml',
