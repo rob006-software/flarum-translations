@@ -357,7 +357,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/dsevillamartin/flarum-post-galleries/1.1.1/resources/locale/en.yml',
 	],
 	'datitisev-webhooks-pro' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/datitisev-webhooks-pro.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/datitisev-webhooks-pro.yml',
 	],
 	'datlechin-add-like-controls' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-add-like-controls/v1.0.6/locale/en.yml',
