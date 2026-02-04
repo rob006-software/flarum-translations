@@ -1506,7 +1506,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.7/locale/en.yml',
 	],
 	'ziiven-decoration-store' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/ziiven-decoration-store.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/ziiven-decoration-store.yml',
 	],
 	'ziiven-fireworks' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-fireworks/v0.1.1/locale/en.yml',
