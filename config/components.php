@@ -1065,7 +1065,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/staff-member-widget/0.1.3/locale/en.yml',
 	],
 	'justoverclock-steam-api' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/justoverclock-steam-api.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/justoverclock-steam-api.yml',
 	],
 	'justoverclock-theaudiodb-api' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/theaudiodb-api/0.2.0/locale/en.yml',
