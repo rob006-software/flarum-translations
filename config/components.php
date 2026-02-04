@@ -1110,7 +1110,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/kilowhat-cimaise.yml',
 	],
 	'kilowhat-custom-paths' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/kilowhat-custom-paths.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/kilowhat-custom-paths.yml',
 	],
 	'kilowhat-formulaire' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/kilowhat-formulaire.yml',
