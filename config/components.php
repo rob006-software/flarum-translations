@@ -936,7 +936,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/custom-html-widget/0.1.4/locale/en.yml',
 	],
 	'justoverclock-discord-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/justoverclock-discord-widget.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/justoverclock-discord-widget.yml',
 	],
 	'justoverclock-discussion-hero-showtags' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/discussion-hero-showtags/0.1.2/locale/en.yml',
