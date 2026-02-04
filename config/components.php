@@ -1302,7 +1302,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-email-filter/v1.0.7/locale/en.yml',
 	],
 	'ordinaryjellyfish-automod' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/ordinaryjellyfish-automod.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/ordinaryjellyfish-automod.yml',
 	],
 	'ordinaryjellyfish-dicebear' => [
 		'tag' => 'https://raw.githubusercontent.com/OrdinaryJellyfish/flarum-dicebear/1.1.1/locale/en.yml',
