@@ -1311,7 +1311,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/OrdinaryJellyfish/sentra/0.3.2/locale/en.yml',
 	],
 	'ordinaryjellyfish-sentra-prime' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/2ad4ed84ebf5507666810a66b9195fcdc5288c32/ordinaryjellyfish-sentra-prime.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/ordinaryjellyfish-sentra-prime.yml',
 	],
 	'peruguitar-user-portrait' => [
 		'tag' => 'https://raw.githubusercontent.com/Anexsoft/peruguitar-flarum-ext-user-portrait/1.0.4/locale/en.yml',
