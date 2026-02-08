@@ -994,6 +994,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'import-ai-oauth-passport' => [
+		'tag' => 'https://raw.githubusercontent.com/import-ai/flarum-oauth-passport/v0.1.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'import-ai-webhook' => [
 		'tag' => 'https://raw.githubusercontent.com/import-ai/flarum-webhook/v0.1.2/locale/en.yml',
 		'__builtInLanguages' => [
