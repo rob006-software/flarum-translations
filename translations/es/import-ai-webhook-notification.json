@@ -1,0 +1,31 @@
+{
+    "import-ai-webhook-notification": {
+        "forum": {
+            "settings": {
+                "notify_webhook_label": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "webhook_url_label": "",
+                "webhook_url_help": "",
+                "webhook_token_label": "",
+                "webhook_token_help": "",
+                "timeout_label": "",
+                "timeout_help": "",
+                "retry_count_label": "",
+                "retry_count_help": "",
+                "channel_icon_label": "",
+                "channel_icon_help": "",
+                "channel_label_label": "",
+                "channel_label_help": ""
+            },
+            "validation": {
+                "timeout_invalid": "",
+                "retry_count_invalid": "",
+                "channel_icon_invalid": "",
+                "channel_label_required": ""
+            }
+        }
+    }
+}
