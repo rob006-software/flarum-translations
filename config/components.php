@@ -895,6 +895,9 @@ return [
 	],
 	'import-ai-webhook' => [
 		'tag' => 'https://raw.githubusercontent.com/import-ai/flarum-webhook/v0.1.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'irmmr-rtl' => [
 		'tag' => 'https://raw.githubusercontent.com/irmmr/flarum-ext-rtl/V0.2.5/locale/en.yml',
