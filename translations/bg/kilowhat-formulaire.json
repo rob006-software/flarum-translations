@@ -49,12 +49,25 @@
                 "uniformComposerLayout": "",
                 "uniformComposerLayoutHelp": "",
                 "noByobuFields": "",
-                "noByobuFieldsHelp": ""
+                "noByobuFieldsHelp": "",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
             "nav": {
                 "forms": ""
+            },
+            "require-submission-alert": {
+                "message": "",
+                "action": ""
             },
             "form-index": {
                 "header": {
@@ -116,6 +129,7 @@
                 },
                 "tabs": {
                     "template": "",
+                    "translate": "",
                     "placement": "",
                     "access": "",
                     "notifications": "",
@@ -133,6 +147,7 @@
                 "template-export": "",
                 "enable-expert-mode": "",
                 "disable-expert-mode": "",
+                "show-advanced-attributes": "",
                 "restore": "",
                 "hide": "",
                 "delete": "",
@@ -146,6 +161,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "",
                     "show-on-composer-invalid-permissions": "",
+                    "require-submission-invalid-permissions": "",
                     "linked-form-is-draft": "",
                     "auto-link-permission-warning": ""
                 },
@@ -161,6 +177,10 @@
                         "discussion": "",
                         "discussionHelp": "",
                         "user": ""
+                    },
+                    "require-submission": {
+                        "switch": "",
+                        "warning": ""
                     },
                     "automatic-discussion": "",
                     "automatic-discussion-help": "",
@@ -189,6 +209,16 @@
                 "exiting-with-unsaved-data": "",
                 "preview": "",
                 "save-for-preview": ""
+            },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
             },
             "auto-discussion-options-modal": {
                 "title": "",
@@ -226,9 +256,12 @@
             "template-editor": {
                 "add-field": "",
                 "title": "",
+                "titleTranslationKey": "",
                 "description": "",
+                "descriptionTranslationKey": "",
                 "key": "",
                 "fill-permission": "",
+                "contentTranslationKey": "",
                 "required": "",
                 "rich": "",
                 "min": "",
@@ -238,6 +271,7 @@
                 "regex": "",
                 "mime": "",
                 "other": "",
+                "defaultValue": "",
                 "duplicate": "",
                 "delete": "",
                 "missing-title": "",
@@ -258,7 +292,9 @@
             "options-editor": {
                 "columns": {
                     "title": "",
-                    "key": ""
+                    "titleTranslationKey": "",
+                    "key": "",
+                    "defaultValue": ""
                 },
                 "remove": "",
                 "new-placeholder": ""
@@ -280,6 +316,10 @@
             "choice": {
                 "other-label": "",
                 "other-placeholder": ""
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "",
@@ -357,6 +397,8 @@
                     "user_displayname": "",
                     "user_email": "",
                     "user_activated": "",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "",
                     "locked_at": "",
                     "created_at": "",
@@ -401,6 +443,8 @@
                     "user_displayname": "",
                     "user_email": "",
                     "user_activated": "",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "",
                     "locked_at": "",
                     "created_at": "",
@@ -442,6 +486,8 @@
                 "user_displayname": "",
                 "user_email": "Потребителски имейл",
                 "user_activated": "",
+                "user_joined_at": "",
+                "user_groups": "",
                 "link_id": "",
                 "locked_at": "",
                 "created_at": "Дата на създаване",

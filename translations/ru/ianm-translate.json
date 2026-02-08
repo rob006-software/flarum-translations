@@ -4,9 +4,25 @@
             "glossary": {
                 "button": "",
                 "create_button": "",
+                "refresh_button": "",
+                "edit_term": "",
+                "delete_term": "",
                 "section": {
                     "heading": "",
                     "help": ""
+                },
+                "terms": {
+                    "current": ""
+                },
+                "no_terms": "",
+                "extender_info": "",
+                "create_not_implemented": "",
+                "edit_not_available": "",
+                "delete_not_available": "",
+                "source": {
+                    "code": "",
+                    "database": "",
+                    "default": ""
                 }
             },
             "permission": {
@@ -35,6 +51,8 @@
                 "seemless-help": "",
                 "multi-lang-search": "",
                 "multi-lang-search-help": "",
+                "short-content-length": "",
+                "short-content-length-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "",
@@ -56,6 +74,23 @@
                             "prefer_less": "",
                             "prefer_more": ""
                         }
+                    },
+                    "model_type": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "latency_optimized": "",
+                            "prefer_quality_optimized": ""
+                        }
+                    },
+                    "glossary": {
+                        "options": {
+                            "none": ""
+                        },
+                        "pair": {
+                            "label": "",
+                            "help": ""
+                        }
                     }
                 },
                 "google-cloud": {
@@ -64,16 +99,63 @@
                         "label": "API ключ"
                     }
                 },
-                "libre": {
-                    "url": {
-                        "help": "",
-                        "label": ""
-                    },
-                    "port": {
-                        "help": "",
-                        "label": ""
-                    },
+                "openai": {
                     "api_key": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "translation_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "detection_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "de_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "casual": "",
+                            "swiss": ""
+                        }
+                    },
+                    "en_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "en-GB": "",
+                            "en-US": ""
+                        }
+                    },
+                    "max_tokens": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "1024": "",
+                            "2048": "",
+                            "4096": "",
+                            "6144": "",
+                            "8192": ""
+                        }
+                    },
+                    "timeout": {
                         "help": "",
                         "label": ""
                     }
@@ -94,6 +176,9 @@
             }
         },
         "forum": {
+            "post": {
+                "translation-error": ""
+            },
             "unknown-language": "[не обнаружен]",
             "detected-language": "Это сообщение на {postLang}",
             "translate-button-label": "",
@@ -119,6 +204,10 @@
                     "title": "",
                     "question": "",
                     "question-language": ""
+                },
+                "poll-group": {
+                    "title": "",
+                    "name": ""
                 },
                 "save-changes": "",
                 "quiz": {
@@ -147,6 +236,9 @@
                         "label": "Всегда показывать язык сообщения"
                     }
                 }
+            },
+            "composer_edit": {
+                "language": ""
             }
         },
         "lib": {
@@ -154,7 +246,7 @@
                 "deepl": "",
                 "google-free": "Google (бесплатно)",
                 "google-cloud": "Перевод Google Cloud",
-                "libre": ""
+                "openai": ""
             },
             "settings": {
                 "api-key": ""

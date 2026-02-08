@@ -939,7 +939,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-secondary-tags-toggler`](https://weblate.rob006.net/projects/flarum/blomstra-secondary-tags-toggler) | [`blomstra/secondary-tags-toggler`](https://github.com/blomstra/flarum-ext-secondary-tags-toggler) |
 | [`blomstra-sort-order-toggle`](https://weblate.rob006.net/projects/flarum/blomstra-sort-order-toggle) | [`blomstra/sort-order-toggle`](https://github.com/blomstra/flarum-ext-sort-order-toggle) |
 | [`blomstra-trello`](https://weblate.rob006.net/projects/flarum/blomstra-trello) | [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello) |
-| [`blomstra-user-filter`](https://weblate.rob006.net/projects/flarum/blomstra-user-filter) | [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter) |
 | [`blomstra-usercard-stats`](https://weblate.rob006.net/projects/flarum/blomstra-usercard-stats) | [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats) |
 | [`blomstra-web3`](https://weblate.rob006.net/projects/flarum/blomstra-web3) | [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3) |
 | [`blomstra-welcome-login`](https://weblate.rob006.net/projects/flarum/blomstra-welcome-login) | [`blomstra/welcome-login`](https://github.com/blomstra/flarum-ext-welcome-login) |
@@ -1068,6 +1067,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`gbcl-minecraft-oauth`](https://weblate.rob006.net/projects/flarum/gbcl-minecraft-oauth) | [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth) |
 | [`gbcl-oauth-logto`](https://weblate.rob006.net/projects/flarum/gbcl-oauth-logto) | [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto) |
 | [`gbcl-userip`](https://weblate.rob006.net/projects/flarum/gbcl-userip) | [`gbcl/userip`](https://github.com/GBCLStudio/userip) |
+| [`glowingblue-author-filter`](https://weblate.rob006.net/projects/flarum/glowingblue-author-filter) | [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`glowingblue-redis-setup`](https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup) | [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup) |
 | [`gtdxyz-badges`](https://weblate.rob006.net/projects/flarum/gtdxyz-badges) | [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges) |
@@ -1330,6 +1330,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`kilowhat-wordpress`](https://weblate.rob006.net/projects/flarum/kilowhat-wordpress) | [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress) |
 | [`maicol07-oidc-client`](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client) | [`maicol07/flarum-oidc-client`](https://flarum.org/extension/maicol07/flarum-oidc-client) |
 | [`ordinaryjellyfish-automod`](https://weblate.rob006.net/projects/flarum/ordinaryjellyfish-automod) | [`ordinaryjellyfish/automod`](https://flarum.org/extension/ordinaryjellyfish/automod) |
+| [`ordinaryjellyfish-sentra-prime`](https://weblate.rob006.net/projects/flarum/ordinaryjellyfish-sentra-prime) | [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime) |
 | [`v17development-support`](https://weblate.rob006.net/projects/flarum/v17development-support) | [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support) |
 | [`xypp-pay-cccyun`](https://weblate.rob006.net/projects/flarum/xypp-pay-cccyun) | [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun) |
 | [`ziiven-decoration-store`](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store) | [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store) |

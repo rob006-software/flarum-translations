@@ -49,12 +49,25 @@
                 "uniformComposerLayout": "Єдиний макет композитора дискусії",
                 "uniformComposerLayoutHelp": "Змінює стиль тегів, заголовка та полів вмісту відповідно до Formulaire. Цей макет займатиме ще більше місця, тому рекомендується встановити та увімкнути розширення <a>Composer Page</a>.\n",
                 "noByobuFields": "Не інтегруйте поля обговорення з приватними обговореннями із розширення Byobu",
-                "noByobuFieldsHelp": "За налаштуванням, поля обговорення, не обмежені тегами, застосовуються до всіх обговорень, включаючи приватні."
+                "noByobuFieldsHelp": "За налаштуванням, поля обговорення, не обмежені тегами, застосовуються до всіх обговорень, включаючи приватні.",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
             "nav": {
                 "forms": "=> kilowhat-formulaire.ref.manager"
+            },
+            "require-submission-alert": {
+                "message": "",
+                "action": ""
             },
             "form-index": {
                 "header": {
@@ -116,6 +129,7 @@
                 },
                 "tabs": {
                     "template": "Шаблон",
+                    "translate": "",
                     "placement": "Розміщення",
                     "access": "Доступ",
                     "notifications": "Сповіщення",
@@ -133,6 +147,7 @@
                 "template-export": "Шаблон імпорту/експорту",
                 "enable-expert-mode": "Увімкнути експертний режим",
                 "disable-expert-mode": "Вимкнути експертний режим",
+                "show-advanced-attributes": "",
                 "restore": "Відновити",
                 "hide": "Видалити",
                 "delete": "Видалити назавжди",
@@ -146,6 +161,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "Для того, щоб використовувати функцію «показати свої», вам потрібно встановити права «бачити свої» та «редагувати свої» для непідтверджених користувачів.\n",
                     "show-on-composer-invalid-permissions": "Переконайтеся, що права доступу «бачити свої» і «редагувати свої» збігаються з тими, хто може починати обговорення вибраних тегів, щоб використовувати функцію «показувати в композиторі». Якщо ви не впевнені, встановіть значення «учасники». Це повідомлення може з'явитися, навіть якщо ваші налаштування правильні.\n",
+                    "require-submission-invalid-permissions": "",
                     "linked-form-is-draft": "Наразі ця форма знаходиться в режимі чернетки. Увімкніть у розділі «Доступ», щоб поля з'явилися на форумі.\n",
                     "auto-link-permission-warning": "Форми з опцією «автоматично створювати обговорення» використовують глобальний дозвіл на заповнення при автономному доступі.\n"
                 },
@@ -161,6 +177,10 @@
                         "discussion": "Показати в дискусії композитора",
                         "discussionHelp": "Композитор дискусії Flarum не пристосований для того, щоб містити багато полів. Вам слід встановити та увімкнути розширення <a>Сторінка композитора</a>, щоб усі поля залишалися доступними на всіх пристроях.\n",
                         "user": "Показати у зареєструватися"
+                    },
+                    "require-submission": {
+                        "switch": "",
+                        "warning": ""
                     },
                     "automatic-discussion": "Автоматично створювати дискусії після заповнення форми",
                     "automatic-discussion-help": "Якщо цю опцію увімкнено, форма залишатиметься доступною як окрема форма. Надіслані повідомлення автоматично створюватимуться і приєднуватимуться до нових обговорень.\n",
@@ -189,6 +209,16 @@
                 "exiting-with-unsaved-data": "У вас є незбережені зміни. Ви дійсно хочете покинути сторінку?",
                 "preview": "Перегляд у новій вкладці",
                 "save-for-preview": "Зберегти для попереднього перегляду"
+            },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
             },
             "auto-discussion-options-modal": {
                 "title": "Автоматичні опції дискусії",
@@ -226,9 +256,12 @@
             "template-editor": {
                 "add-field": "Додати поле",
                 "title": "Заголовок",
+                "titleTranslationKey": "",
                 "description": "Опис",
+                "descriptionTranslationKey": "",
                 "key": "(Експерт) JSON-ключ у корисному навантаженні відправлення",
                 "fill-permission": "(Експерт) Заповнити дозволи",
+                "contentTranslationKey": "",
                 "required": "Обов'язково",
                 "rich": "Розширений текст (TextFormatter)",
                 "min": "Мінімум",
@@ -238,6 +271,7 @@
                 "regex": "Регулярний вираз",
                 "mime": "MIME-тип (через кому, приймає символ підстановки як другу частину)",
                 "other": "Дозволити «інше» значення користувача",
+                "defaultValue": "",
                 "duplicate": "Дублікат поля",
                 "delete": "Видалити поле",
                 "missing-title": "Поле без заголовка",
@@ -258,7 +292,9 @@
             "options-editor": {
                 "columns": {
                     "title": "Заголовок",
-                    "key": "(Експерт) Унікальний ключ"
+                    "titleTranslationKey": "",
+                    "key": "(Експерт) Унікальний ключ",
+                    "defaultValue": ""
                 },
                 "remove": "Видалити опцію",
                 "new-placeholder": "Нова опція..."
@@ -280,6 +316,10 @@
             "choice": {
                 "other-label": "Інше:",
                 "other-placeholder": "Тип..."
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "Ця форма закрита.",
@@ -357,6 +397,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -401,6 +443,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -442,6 +486,8 @@
                 "user_displayname": "Відображене ім'я користувача",
                 "user_email": "Електронна пошта користувача",
                 "user_activated": "Активований обліковий запис",
+                "user_joined_at": "",
+                "user_groups": "",
                 "link_id": "Ідентифікатор пов'язаного ресурсу",
                 "locked_at": "Дата блокування",
                 "created_at": "Дата створення",

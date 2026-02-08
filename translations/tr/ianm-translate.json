@@ -4,9 +4,25 @@
             "glossary": {
                 "button": "Sözlük",
                 "create_button": "Yeni terim oluştur",
+                "refresh_button": "",
+                "edit_term": "",
+                "delete_term": "",
                 "section": {
                     "heading": "Sözlük Yapılandırması",
                     "help": "Sözlük kelimeleri veya terimleri, çeviri hizmetinin bunları çevirmemesi için tanımlanır. Bu, özel isimler, teknik terimler veya çevrilmemesi gereken diğer kelimeler için faydalıdır."
+                },
+                "terms": {
+                    "current": ""
+                },
+                "no_terms": "",
+                "extender_info": "",
+                "create_not_implemented": "",
+                "edit_not_available": "",
+                "delete_not_available": "",
+                "source": {
+                    "code": "",
+                    "database": "",
+                    "default": ""
                 }
             },
             "permission": {
@@ -35,6 +51,8 @@
                 "seemless-help": "Beta özelliği. Etkinleştirildiğinde, tüm kullanıcı içeriği otomatik olarak diğer mevcut forum dillerine çevrilecektir. Bir kullanıcı çok dilli içeriği görüntülediğinde, çeviriler otomatik olarak görüntülenecektir.",
                 "multi-lang-search": "Çok dilli çeviri",
                 "multi-lang-search-help": "Etkinleştirildiğinde, arama içeriklerin tüm çevirilerini de içerecektir.",
+                "short-content-length": "",
+                "short-content-length-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "{link} adresinden kaydolun. Sürücü, ücretsiz/pro anahtar tipini otomatik olarak algılayacaktır.",
@@ -56,6 +74,23 @@
                             "prefer_less": "Daha az resmi",
                             "prefer_more": "Çok resmi"
                         }
+                    },
+                    "model_type": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "latency_optimized": "",
+                            "prefer_quality_optimized": ""
+                        }
+                    },
+                    "glossary": {
+                        "options": {
+                            "none": ""
+                        },
+                        "pair": {
+                            "label": "",
+                            "help": ""
+                        }
                     }
                 },
                 "google-cloud": {
@@ -64,18 +99,65 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "libre": {
-                    "url": {
-                        "help": "LibreTranslate sunucusunun URL'si. Kendi örneğinizi çalıştırıyorsanız, URL'yi buraya girin. Şema `http` veya `https` olmalıdır.",
-                        "label": "Sunucu Bağlantısı"
-                    },
-                    "port": {
-                        "help": "LibreTranslate sunucusunun portu. Kendi örneğinizi çalıştırıyorsanız, portu buraya girin.",
-                        "label": "Sunucu Portu"
-                    },
+                "openai": {
                     "api_key": {
-                        "help": "(opsiyonel) Eğer LibreTranslate sunucunuz bir API anahtarı gerektiriyorsa, buraya girin.",
-                        "label": "=> ianm-translate.lib.settings.api-key"
+                        "help": "",
+                        "label": ""
+                    },
+                    "translation_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "detection_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "de_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "casual": "",
+                            "swiss": ""
+                        }
+                    },
+                    "en_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "en-GB": "",
+                            "en-US": ""
+                        }
+                    },
+                    "max_tokens": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "1024": "",
+                            "2048": "",
+                            "4096": "",
+                            "6144": "",
+                            "8192": ""
+                        }
+                    },
+                    "timeout": {
+                        "help": "",
+                        "label": ""
                     }
                 },
                 "translate-all-enabled": "Tüm çeviri dillerini etkinleştir",
@@ -90,10 +172,27 @@
                 "translate-quiz-help": "Etkinleştirildiğinde, test başlığı, alt başlığı, doğru cevap açıklaması ve cevap seçenekleri, bir test oluşturulduğunda veya düzenlendiğinde otomatik olarak çevrilecektir.",
                 "provider": "Çeviri sağlayıcı",
                 "readme-info": "Genişletilmiş bilgi için README belgelerine bakın.",
-                "readme-none": "Bu sürücü için ek ayar gerekmez."
+                "readme-none": "Bu sürücü için ek ayar gerekmez.",
+                "libre": {
+                    "url": {
+                        "help": "LibreTranslate sunucusunun URL'si. Kendi örneğinizi çalıştırıyorsanız, URL'yi buraya girin. Şema `http` veya `https` olmalıdır.",
+                        "label": "Sunucu Bağlantısı"
+                    },
+                    "port": {
+                        "help": "LibreTranslate sunucusunun portu. Kendi örneğinizi çalıştırıyorsanız, portu buraya girin.",
+                        "label": "Sunucu Portu"
+                    },
+                    "api_key": {
+                        "help": "(opsiyonel) Eğer LibreTranslate sunucunuz bir API anahtarı gerektiriyorsa, buraya girin.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                }
             }
         },
         "forum": {
+            "post": {
+                "translation-error": ""
+            },
             "unknown-language": "[algılanmadı]",
             "detected-language": "Bu yayın {postLang} içinde",
             "translate-button-label": "Çeviri",
@@ -119,6 +218,10 @@
                     "title": "Anket çevirilerini yönet",
                     "question": "Test",
                     "question-language": "Anket sorusu ({language})"
+                },
+                "poll-group": {
+                    "title": "",
+                    "name": ""
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
@@ -147,6 +250,9 @@
                         "label": "Dili her zaman göster"
                     }
                 }
+            },
+            "composer_edit": {
+                "language": ""
             }
         },
         "lib": {
@@ -154,6 +260,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
                 "google-cloud": "Google Cloud Translate",
+                "openai": "",
                 "libre": "LibreTranslate"
             },
             "settings": {

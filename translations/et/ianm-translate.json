@@ -4,9 +4,25 @@
             "glossary": {
                 "button": "Sõnastik",
                 "create_button": "Loo uus termin",
+                "refresh_button": "",
+                "edit_term": "",
+                "delete_term": "",
                 "section": {
                     "heading": "Sõnastiku seaded",
                     "help": ""
+                },
+                "terms": {
+                    "current": ""
+                },
+                "no_terms": "",
+                "extender_info": "",
+                "create_not_implemented": "",
+                "edit_not_available": "",
+                "delete_not_available": "",
+                "source": {
+                    "code": "",
+                    "database": "",
+                    "default": ""
                 }
             },
             "permission": {
@@ -35,6 +51,8 @@
                 "seemless-help": "Beeta funktsioon. Kui see on sisse lülitatud, siis kõik kasutajate sisu tõlgitakse automaatselt kõigisse teistesse saadaolevatesse foorumi keeltese. Kui kasutaja vaatab mitmekeelset sisu, siis tõlkeid näidatakse automaatselt.",
                 "multi-lang-search": "Mitmekeelne otsing",
                 "multi-lang-search-help": "Kui see on sisse lülitatud, siis kaasab otsing kogu sisu kõiki tõlkeid.",
+                "short-content-length": "",
+                "short-content-length-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "Registreeru lingil {link}. Draiver tuvastab tasuta/pro võtme liigi.",
@@ -56,6 +74,23 @@
                             "prefer_less": "Vähem ametlik",
                             "prefer_more": "Rohkem ametlik"
                         }
+                    },
+                    "model_type": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "latency_optimized": "",
+                            "prefer_quality_optimized": ""
+                        }
+                    },
+                    "glossary": {
+                        "options": {
+                            "none": ""
+                        },
+                        "pair": {
+                            "label": "",
+                            "help": ""
+                        }
                     }
                 },
                 "google-cloud": {
@@ -64,18 +99,65 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "libre": {
-                    "url": {
-                        "help": "LibreTranslate serveri URL. Kui kasutad omaenda serverit, siis sisesta siia URL. Skeem peaks olema kas 'http' või 'https'.",
-                        "label": "Serveri URL"
-                    },
-                    "port": {
-                        "help": "LibreTranslate serveri port. Kui kasutad omaenda serverit, siis sisesta port siia.",
-                        "label": "Serveri port"
-                    },
+                "openai": {
                     "api_key": {
-                        "help": "(valikuline) Kui sinu LibreTranslate server vajab API võtit, siis sisesta see siia.",
-                        "label": "=> ianm-translate.lib.settings.api-key"
+                        "help": "",
+                        "label": ""
+                    },
+                    "translation_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "detection_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "de_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "casual": "",
+                            "swiss": ""
+                        }
+                    },
+                    "en_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "en-GB": "",
+                            "en-US": ""
+                        }
+                    },
+                    "max_tokens": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "1024": "",
+                            "2048": "",
+                            "4096": "",
+                            "6144": "",
+                            "8192": ""
+                        }
+                    },
+                    "timeout": {
+                        "help": "",
+                        "label": ""
                     }
                 },
                 "translate-all-enabled": "Luba kõik tõlke keeled",
@@ -90,10 +172,27 @@
                 "translate-quiz-help": "",
                 "provider": "Tõlketeenuse pakkuja",
                 "readme-info": "",
-                "readme-none": "See draiver ei nõua mingit lisaseadistamist."
+                "readme-none": "See draiver ei nõua mingit lisaseadistamist.",
+                "libre": {
+                    "url": {
+                        "help": "LibreTranslate serveri URL. Kui kasutad omaenda serverit, siis sisesta siia URL. Skeem peaks olema kas 'http' või 'https'.",
+                        "label": "Serveri URL"
+                    },
+                    "port": {
+                        "help": "LibreTranslate serveri port. Kui kasutad omaenda serverit, siis sisesta port siia.",
+                        "label": "Serveri port"
+                    },
+                    "api_key": {
+                        "help": "(valikuline) Kui sinu LibreTranslate server vajab API võtit, siis sisesta see siia.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                }
             }
         },
         "forum": {
+            "post": {
+                "translation-error": ""
+            },
             "unknown-language": "[pole tuvastatud]",
             "detected-language": "See postitus on {postLang} keeles",
             "translate-button-label": "Tõlgi",
@@ -119,6 +218,10 @@
                     "title": "Halda küsitluste tõlkeid",
                     "question": "Küsimus",
                     "question-language": "Küsitluse küsimus ({language})"
+                },
+                "poll-group": {
+                    "title": "",
+                    "name": ""
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
@@ -147,6 +250,9 @@
                         "label": "Näita alati keelt"
                     }
                 }
+            },
+            "composer_edit": {
+                "language": ""
             }
         },
         "lib": {
@@ -154,6 +260,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
                 "google-cloud": "Google Cloud tõlge",
+                "openai": "",
                 "libre": "Libre Translate"
             },
             "settings": {

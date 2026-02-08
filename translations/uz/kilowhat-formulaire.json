@@ -49,12 +49,25 @@
                 "uniformComposerLayout": "",
                 "uniformComposerLayoutHelp": "",
                 "noByobuFields": "",
-                "noByobuFieldsHelp": ""
+                "noByobuFieldsHelp": "",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
             "nav": {
                 "forms": "=> kilowhat-formulaire.ref.manager"
+            },
+            "require-submission-alert": {
+                "message": "",
+                "action": ""
             },
             "form-index": {
                 "header": {
@@ -116,6 +129,7 @@
                 },
                 "tabs": {
                     "template": "Shablon",
+                    "translate": "",
                     "placement": "Joylashtirish",
                     "access": "Ruxsat",
                     "notifications": "Xabarlar",
@@ -133,6 +147,7 @@
                 "template-export": "Shablon import/eksport",
                 "enable-expert-mode": "Ekspert holatini yoqish",
                 "disable-expert-mode": "Ekspert holatini o'chirish",
+                "show-advanced-attributes": "",
                 "restore": "TIklash",
                 "hide": "O'chirish",
                 "delete": "Butunlay o'chirish",
@@ -146,6 +161,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "“Roʻyxatdan oʻtishni koʻrsatish” funksiyasidan foydalanish uchun tasdiqlanmagan aʼzolar uchun “oʻzini koʻrish” va “oʻzini tahrirlash” ruxsatini oʻrnatishingiz kerak.\n",
                     "show-on-composer-invalid-permissions": "“Show in composer” funksiyasidan foydalanish uchun tanlangan teg(lar) bilan munozaralarni boshlashi mumkin bo‘lgan “o‘zini ko‘rish” va “o‘zini tahrirlash” ruxsati mos kelishiga ishonch hosil qiling. Agar ishonchingiz komil bo'lmasa, \"a'zolar\" ga o'rnating. Sozlamalaringiz to'g'ri bo'lsa ham, bu xabar paydo bo'lishi mumkin.\n",
+                    "require-submission-invalid-permissions": "",
                     "linked-form-is-draft": "Bu shakl hozir qoralama rejimida. Forumda maydonlar paydo bo'lishi uchun \"yangi xabarlarni qabul qilish\" ni yoqing.\n",
                     "auto-link-permission-warning": "“Avtomatik ravishda munozaralar yaratish” opsiyasi boʻlgan shakllar mustaqil kirishda global toʻldirish ruxsatidan foydalanadi.\n"
                 },
@@ -161,6 +177,10 @@
                         "discussion": "Muhokamada ko'rsatish",
                         "discussionHelp": "",
                         "user": "Ro'yxatdan o'tishda ko'rsatish"
+                    },
+                    "require-submission": {
+                        "switch": "",
+                        "warning": ""
                     },
                     "automatic-discussion": "Shaklni yuborishdan avtomatik ravishda muhokamalar yarating",
                     "automatic-discussion-help": "Yoqilganda, shakl mustaqil shakl kabi kirishda davom etadi. Taqdim etilganlar avtomatik ravishda yangi munozaralar yaratadi va ular bilan bog'lanadi.\n",
@@ -189,6 +209,16 @@
                 "exiting-with-unsaved-data": "Sizda saqlanmagan oʻzgarishlar bor. Haqiqatan ham sahifadan chiqmoqchimisiz?",
                 "preview": "Yangi varaqda oldindan ko'rish",
                 "save-for-preview": "Oldindan ko'rish uchun saqlang"
+            },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
             },
             "auto-discussion-options-modal": {
                 "title": "Avtomatik muhokama imkoniyatlari",
@@ -226,9 +256,12 @@
             "template-editor": {
                 "add-field": "Maydon qo'shing",
                 "title": "Sarlavha",
+                "titleTranslationKey": "",
                 "description": "Tavsif",
+                "descriptionTranslationKey": "",
                 "key": "(Mutaxassis) JSON kaliti jo'natish yuki",
                 "fill-permission": "(Mutaxassis) Ruxsatlarni toʻldirish",
+                "contentTranslationKey": "",
                 "required": "Majburiy",
                 "rich": "Boy matn (TextFormatter)",
                 "min": "Minimum",
@@ -238,6 +271,7 @@
                 "regex": "RegEx",
                 "mime": "MIME turi (vergul bilan ajratilgan, belgini ikkinchi qism sifatida qabul qiladi)",
                 "other": "\"Boshqa\" foydalanuvchi qiymatiga ruxsat bering",
+                "defaultValue": "",
                 "duplicate": "Ikki nusxadagi maydon",
                 "delete": "Maydonni o'chirish",
                 "missing-title": "Sarlavhasiz maydon",
@@ -258,7 +292,9 @@
             "options-editor": {
                 "columns": {
                     "title": "Sarlavha",
-                    "key": "(Ekspert) yagona kalit"
+                    "titleTranslationKey": "",
+                    "key": "(Ekspert) yagona kalit",
+                    "defaultValue": ""
                 },
                 "remove": "Variantni o'chirish",
                 "new-placeholder": "Yangi variant..."
@@ -280,6 +316,10 @@
             "choice": {
                 "other-label": "Boshqa:",
                 "other-placeholder": "Yozing..."
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "Bu shakl yopilgan.",
@@ -357,6 +397,8 @@
                     "user_displayname": "",
                     "user_email": "",
                     "user_activated": "",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "",
                     "locked_at": "",
                     "created_at": "",
@@ -401,6 +443,8 @@
                     "user_displayname": "",
                     "user_email": "",
                     "user_activated": "",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "",
                     "locked_at": "",
                     "created_at": "",
@@ -442,6 +486,8 @@
                 "user_displayname": "Foydalanuvchi nomi",
                 "user_email": "Foydalanuvchi elektron pochtasi",
                 "user_activated": "Faollashtirilgan hisob",
+                "user_joined_at": "",
+                "user_groups": "",
                 "link_id": "Bog'langan manba identifikatori",
                 "locked_at": "Bloklash sanasi",
                 "created_at": "Bloklash sanasi",

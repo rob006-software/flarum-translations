@@ -963,31 +963,6 @@
             }
         }
     },
-    "blomstra-user-filter.json": {
-        "blomstra-user-filter": {
-            "admin": {
-                "settings": {
-                    "intro": "ccacb98b31121e3c398a256793d75d5a ccacb98b31121e3c398a256793d75d5a",
-                    "min_length": "782c1462eae5629a69fbc6278c390bd1 782c1462eae5629a69fbc6278c390bd1",
-                    "result_count": "7b96929a111219f79e7ccd7abdfaa6f0 7b96929a111219f79e7ccd7abdfaa6f0"
-                }
-            },
-            "forum": {
-                "index_page": {
-                    "filter_user": {
-                        "accessible_label": "f50a2026bfa2e5e603864ba4a8ae1679 f50a2026bfa2e5e603864ba4a8ae1679",
-                        "all": "2bca61615ad4e3e8c668c33b238a99c8 2bca61615ad4e3e8c668c33b238a99c8",
-                        "label": "5b9b9c230d1ae864e52971e2cc000d60 5b9b9c230d1ae864e52971e2cc000d60",
-                        "search_label": "4084f4c4460ec7d1d31141f1b7b1398c 4084f4c4460ec7d1d31141f1b7b1398c",
-                        "no_results": "db7d2f0b45c10c5bac677d90c4805bc7 db7d2f0b45c10c5bac677d90c4805bc7",
-                        "start_typing": "58d1a13c8da534869dd7cd76b23f56c0 58d1a13c8da534869dd7cd76b23f56c0",
-                        "keep_typing": "2a4eaab2c2799f8de820c9b861863ada 2a4eaab2c2799f8de820c9b861863ada",
-                        "remove_filter": "b9762d60a7b3be21bcc2249325593e80 b9762d60a7b3be21bcc2249325593e80"
-                    }
-                }
-            }
-        }
-    },
     "blomstra-usercard-stats.json": {
         "blomstra-usercard-stats": {
             "forum": {
@@ -8586,6 +8561,31 @@
             }
         }
     },
+    "glowingblue-author-filter.json": {
+        "glowingblue-author-filter": {
+            "admin": {
+                "settings": {
+                    "intro": "ccacb98b31121e3c398a256793d75d5a ccacb98b31121e3c398a256793d75d5a",
+                    "min_length": "782c1462eae5629a69fbc6278c390bd1 782c1462eae5629a69fbc6278c390bd1",
+                    "result_count": "7b96929a111219f79e7ccd7abdfaa6f0 7b96929a111219f79e7ccd7abdfaa6f0"
+                }
+            },
+            "forum": {
+                "index_page": {
+                    "filter_user": {
+                        "accessible_label": "f50a2026bfa2e5e603864ba4a8ae1679 f50a2026bfa2e5e603864ba4a8ae1679",
+                        "all": "2bca61615ad4e3e8c668c33b238a99c8 2bca61615ad4e3e8c668c33b238a99c8",
+                        "label": "5b9b9c230d1ae864e52971e2cc000d60 5b9b9c230d1ae864e52971e2cc000d60",
+                        "search_label": "4084f4c4460ec7d1d31141f1b7b1398c 4084f4c4460ec7d1d31141f1b7b1398c",
+                        "no_results": "db7d2f0b45c10c5bac677d90c4805bc7 db7d2f0b45c10c5bac677d90c4805bc7",
+                        "start_typing": "58d1a13c8da534869dd7cd76b23f56c0 58d1a13c8da534869dd7cd76b23f56c0",
+                        "keep_typing": "2a4eaab2c2799f8de820c9b861863ada 2a4eaab2c2799f8de820c9b861863ada",
+                        "remove_filter": "b9762d60a7b3be21bcc2249325593e80 b9762d60a7b3be21bcc2249325593e80"
+                    }
+                }
+            }
+        }
+    },
     "glowingblue-localizd.json": {
         "glowingblue-localizd": {
             "admin": {
@@ -8825,6 +8825,20 @@
                     "bottom_help": "53d82d1728e751fdee1247928c547202 53d82d1728e751fdee1247928c547202",
                     "custom_js_code": "5014a4826ebb4fa3f013070b08f65611 5014a4826ebb4fa3f013070b08f65611"
                 }
+            }
+        }
+    },
+    "huseyinfiliz-private-profile.json": {
+        "huseyinfiliz-private-profile": {
+            "forum": {
+                "user": {
+                    "settings": {
+                        "private_profile_heading": "427ca4beb83ade42461a2c193ab2a524 427ca4beb83ade42461a2c193ab2a524",
+                        "private_profile_description": "524b0c07875f994b2ed8c2c87287ee30 524b0c07875f994b2ed8c2c87287ee30",
+                        "private_profile_help": "7d22fb0128a658598cf4ecd672611719 7d22fb0128a658598cf4ecd672611719"
+                    }
+                },
+                "profile_is_private": "286498928bdf6b83ed27e21acd5d2e37 286498928bdf6b83ed27e21acd5d2e37"
             }
         }
     },

@@ -4,9 +4,25 @@
             "glossary": {
                 "button": "Từ điển",
                 "create_button": "Tạo thuật ngữ mới",
+                "refresh_button": "",
+                "edit_term": "",
+                "delete_term": "",
                 "section": {
                     "heading": "Cấu hình từ điển",
                     "help": "Các từ hoặc thuật ngữ từ điển được định nghĩa để dịch vụ dịch thuật sẽ không dịch chúng. Điều này hữu ích cho danh từ riêng, thuật ngữ kỹ thuật hoặc các từ khác không nên được dịch."
+                },
+                "terms": {
+                    "current": ""
+                },
+                "no_terms": "",
+                "extender_info": "",
+                "create_not_implemented": "",
+                "edit_not_available": "",
+                "delete_not_available": "",
+                "source": {
+                    "code": "",
+                    "database": "",
+                    "default": ""
                 }
             },
             "permission": {
@@ -35,6 +51,8 @@
                 "seemless-help": "Tính năng Beta. Khi được bật, tất cả nội dung người dùng sẽ được dịch tự động sang tất cả các ngôn ngữ diễn đàn có sẵn khác. Khi người dùng xem nội dung đa ngôn ngữ, bản dịch sẽ được hiển thị tự động.",
                 "multi-lang-search": "Tìm kiếm đa ngôn ngữ",
                 "multi-lang-search-help": "Khi được bật, tìm kiếm sẽ bao gồm tất cả các bản dịch của nội dung.",
+                "short-content-length": "",
+                "short-content-length-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "Đăng ký tại {link}. Trình điều khiển sẽ tự động phát hiện loại khóa miễn phí/pro.",
@@ -56,6 +74,23 @@
                             "prefer_less": "Ít trang trọng hơn",
                             "prefer_more": "Trang trọng hơn"
                         }
+                    },
+                    "model_type": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "latency_optimized": "",
+                            "prefer_quality_optimized": ""
+                        }
+                    },
+                    "glossary": {
+                        "options": {
+                            "none": ""
+                        },
+                        "pair": {
+                            "label": "",
+                            "help": ""
+                        }
                     }
                 },
                 "google-cloud": {
@@ -64,18 +99,65 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "libre": {
-                    "url": {
-                        "help": "URL của máy chủ LibreTranslate. Nếu bạn đang chạy phiên bản riêng, hãy nhập URL ở đây. Schema phải là `http` hoặc `https`.",
-                        "label": "URL máy chủ"
-                    },
-                    "port": {
-                        "help": "Cổng của máy chủ LibreTranslate. Nếu bạn đang chạy phiên bản riêng, hãy nhập cổng ở đây.",
-                        "label": "Cổng máy chủ"
-                    },
+                "openai": {
                     "api_key": {
-                        "help": "(tùy chọn) Nếu máy chủ LibreTranslate của bạn yêu cầu khóa API, hãy nhập nó ở đây.",
-                        "label": "=> ianm-translate.lib.settings.api-key"
+                        "help": "",
+                        "label": ""
+                    },
+                    "translation_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "detection_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "de_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "casual": "",
+                            "swiss": ""
+                        }
+                    },
+                    "en_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "en-GB": "",
+                            "en-US": ""
+                        }
+                    },
+                    "max_tokens": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "1024": "",
+                            "2048": "",
+                            "4096": "",
+                            "6144": "",
+                            "8192": ""
+                        }
+                    },
+                    "timeout": {
+                        "help": "",
+                        "label": ""
                     }
                 },
                 "translate-all-enabled": "Bật tất cả ngôn ngữ dịch thuật",
@@ -90,10 +172,27 @@
                 "translate-quiz-help": "Khi được bật, tiêu đề câu đố, phụ đề, giải thích câu trả lời đúng và các tùy chọn trả lời sẽ được dịch tự động khi câu đố được tạo hoặc chỉnh sửa.",
                 "provider": "Nhà cung cấp dịch thuật",
                 "readme-info": "Xem tài liệu README để biết thông tin mở rộng.",
-                "readme-none": "Không cần cài đặt bổ sung nào cho trình điều khiển này."
+                "readme-none": "Không cần cài đặt bổ sung nào cho trình điều khiển này.",
+                "libre": {
+                    "url": {
+                        "help": "URL của máy chủ LibreTranslate. Nếu bạn đang chạy phiên bản riêng, hãy nhập URL ở đây. Schema phải là `http` hoặc `https`.",
+                        "label": "URL máy chủ"
+                    },
+                    "port": {
+                        "help": "Cổng của máy chủ LibreTranslate. Nếu bạn đang chạy phiên bản riêng, hãy nhập cổng ở đây.",
+                        "label": "Cổng máy chủ"
+                    },
+                    "api_key": {
+                        "help": "(tùy chọn) Nếu máy chủ LibreTranslate của bạn yêu cầu khóa API, hãy nhập nó ở đây.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                }
             }
         },
         "forum": {
+            "post": {
+                "translation-error": ""
+            },
             "unknown-language": "[không phát hiện]",
             "detected-language": "Bài đăng này bằng {postLang}",
             "translate-button-label": "Dịch",
@@ -119,6 +218,10 @@
                     "title": "Quản lý bản dịch thăm dò ý kiến",
                     "question": "Câu hỏi",
                     "question-language": "Câu hỏi thăm dò ý kiến ({language})"
+                },
+                "poll-group": {
+                    "title": "",
+                    "name": ""
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
@@ -147,6 +250,9 @@
                         "label": "Luôn hiển thị ngôn ngữ"
                     }
                 }
+            },
+            "composer_edit": {
+                "language": ""
             }
         },
         "lib": {
@@ -154,6 +260,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
                 "google-cloud": "Google Cloud Translate",
+                "openai": "",
                 "libre": "Libre Translate"
             },
             "settings": {

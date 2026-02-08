@@ -4,9 +4,25 @@
             "glossary": {
                 "button": "術語表",
                 "create_button": "建立新術語",
+                "refresh_button": "",
+                "edit_term": "",
+                "delete_term": "",
                 "section": {
                     "heading": "術語配置",
                     "help": "定義不應該翻譯的詞彙，如專有名詞、技術術語等。"
+                },
+                "terms": {
+                    "current": ""
+                },
+                "no_terms": "",
+                "extender_info": "",
+                "create_not_implemented": "",
+                "edit_not_available": "",
+                "delete_not_available": "",
+                "source": {
+                    "code": "",
+                    "database": "",
+                    "default": ""
                 },
                 "glossary": "詞彙表"
             },
@@ -36,6 +52,8 @@
                 "seemless-help": "測試版功能。 啟用後，所有使用者內容將自動翻譯為所有其他可用的論壇語言。 當使用者查看多語言內容時，會自動顯示翻譯。",
                 "multi-lang-search": "",
                 "multi-lang-search-help": "",
+                "short-content-length": "",
+                "short-content-length-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "在{link}註冊。驅動程式將自動檢測免費/專業密鑰類型。",
@@ -57,6 +75,23 @@
                             "prefer_less": "不正式的",
                             "prefer_more": "更正式"
                         }
+                    },
+                    "model_type": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "latency_optimized": "",
+                            "prefer_quality_optimized": ""
+                        }
+                    },
+                    "glossary": {
+                        "options": {
+                            "none": ""
+                        },
+                        "pair": {
+                            "label": "",
+                            "help": ""
+                        }
                     }
                 },
                 "google-cloud": {
@@ -65,18 +100,65 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "libre": {
-                    "url": {
-                        "help": "LibreTranslate 伺服器的 URL。 如果您正在運行自己的實例，請在此輸入 URL。 架構應該是“http”或“https”。",
-                        "label": "伺服器位址"
-                    },
-                    "port": {
-                        "help": "LibreTranslate 伺服器的連接埠。 如果您正在運行自己的實例，請在此輸入連接埠。",
-                        "label": "伺服器連接埠"
-                    },
+                "openai": {
                     "api_key": {
-                        "help": "（可選）如果您的 LibreTranslate 伺服器需要 API 金鑰，請在此輸入。",
-                        "label": "=> ianm-translate.lib.settings.api-key"
+                        "help": "",
+                        "label": ""
+                    },
+                    "translation_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "detection_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "de_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "casual": "",
+                            "swiss": ""
+                        }
+                    },
+                    "en_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "en-GB": "",
+                            "en-US": ""
+                        }
+                    },
+                    "max_tokens": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "1024": "",
+                            "2048": "",
+                            "4096": "",
+                            "6144": "",
+                            "8192": ""
+                        }
+                    },
+                    "timeout": {
+                        "help": "",
+                        "label": ""
                     }
                 },
                 "translate-all-enabled": "啟用所有翻譯語言",
@@ -91,10 +173,27 @@
                 "translate-quiz-help": "",
                 "provider": "翻譯提供商",
                 "readme-info": "有關擴充套件資訊，請參閱 README 檔案。",
-                "readme-none": "該驅動程式不需要額外的設置。"
+                "readme-none": "該驅動程式不需要額外的設置。",
+                "libre": {
+                    "url": {
+                        "help": "LibreTranslate 伺服器的 URL。 如果您正在運行自己的實例，請在此輸入 URL。 架構應該是“http”或“https”。",
+                        "label": "伺服器位址"
+                    },
+                    "port": {
+                        "help": "LibreTranslate 伺服器的連接埠。 如果您正在運行自己的實例，請在此輸入連接埠。",
+                        "label": "伺服器連接埠"
+                    },
+                    "api_key": {
+                        "help": "（可選）如果您的 LibreTranslate 伺服器需要 API 金鑰，請在此輸入。",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                }
             }
         },
         "forum": {
+            "post": {
+                "translation-error": ""
+            },
             "unknown-language": "（未檢測到）",
             "detected-language": "本帖使用了{postLang}",
             "translate-button-label": "翻譯",
@@ -121,6 +220,10 @@
                     "question": "投票問題",
                     "question-language": "",
                     "original-title": "原始語言"
+                },
+                "poll-group": {
+                    "title": "",
+                    "name": ""
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
@@ -150,6 +253,9 @@
                     }
                 }
             },
+            "composer_edit": {
+                "language": ""
+            },
             "composer": {
                 "multi-languages": "提示：您可以輸入您選擇的語言，論壇將為您翻譯。"
             }
@@ -159,6 +265,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google 翻譯",
                 "google-cloud": "Google Cloud 翻譯",
+                "openai": "",
                 "libre": "自由翻譯"
             },
             "settings": {

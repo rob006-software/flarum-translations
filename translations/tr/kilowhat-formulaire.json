@@ -49,12 +49,25 @@
                 "uniformComposerLayout": "Tek tip tartışma oluşturucu düzeni",
                 "uniformComposerLayoutHelp": "Etiketlerin, başlık ve içerik alanlarının stilini Formulaire ile eşleşecek şekilde değiştirir. Bu düzen daha da fazla yer kaplayacağından, <a>Composer Page</a> uzantısını yükleyip etkinleştirmeniz önerilir.\n",
                 "noByobuFields": "Byobu eklentisinin özel tartışmalarında, tartışma alanlarını dahil etmeyin",
-                "noByobuFieldsHelp": "Varsayılan olarak; etiketle sınırlandırılmayan tartışma alanları, özel tartışmalar da dahil olmak üzere tüm tartışmalara uygulanacaktır."
+                "noByobuFieldsHelp": "Varsayılan olarak; etiketle sınırlandırılmayan tartışma alanları, özel tartışmalar da dahil olmak üzere tüm tartışmalara uygulanacaktır.",
+                "translateManually": "",
+                "translateManuallyHelp": "",
+                "translateWithTranslator": "",
+                "translateWithTranslatorHelp": "",
+                "replacementPatternLocale": "",
+                "replacementPatternLocaleHelp": "",
+                "replacementPatternLocaleOptions": {
+                    "auto": ""
+                }
             }
         },
         "forum": {
             "nav": {
                 "forms": "=> kilowhat-formulaire.ref.manager"
+            },
+            "require-submission-alert": {
+                "message": "",
+                "action": ""
             },
             "form-index": {
                 "header": {
@@ -116,6 +129,7 @@
                 },
                 "tabs": {
                     "template": "Şablon",
+                    "translate": "",
                     "placement": "Yerleşim",
                     "access": "Erişim",
                     "notifications": "Bildirimler",
@@ -133,6 +147,7 @@
                 "template-export": "Şablon içe aktar/dışa aktar",
                 "enable-expert-mode": "Uzman modunu etkinleştir",
                 "disable-expert-mode": "Uzman modunu etkisizleştir",
+                "show-advanced-attributes": "",
                 "restore": "Geri al",
                 "hide": "Sil",
                 "delete": "Kalıcı olarak sil",
@@ -146,6 +161,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "\"Kayıt sırasında göster\" özelliğini kullanmak için onaylanmamış üyelere \"kendini gör\" ve \"kendini düzenle\" iznini ayarlamanız gerekir.\n",
                     "show-on-composer-invalid-permissions": "\"Composer'de göster\"i kullanmak için seçilen etiket(ler)le tartışma başlatabilecek \"kendini gör\" ve \"kendini düzenle\" izinlerinin eşleşmesini sağlayın. Emin değilseniz \"üyeler\" olarak ayarlayın. Ayarlarınız doğru olsa bile bu mesaj görünebilir.\n",
+                    "require-submission-invalid-permissions": "",
                     "linked-form-is-draft": "Bu form şu anda taslak modunda. Alanların forumda görünmesi için \"Erişim\" altında etkinleştirin.\n",
                     "auto-link-permission-warning": "\"Tartışmayı otomatik olarak oluştur\" seçeneğine sahip formlar, bağımsız olarak erişildiğinde genel doldurma iznini kullanır.\n"
                 },
@@ -161,6 +177,10 @@
                         "discussion": "Düzenleyicide göster",
                         "discussionHelp": "Flarum tartışma oluşturucu birçok alanı içermeye uygun değildir. Tüm alanların tüm cihazlarda erişilebilir kalmasını sağlamak için <a>Composer Page</a> uzantısını yüklemeli ve etkinleştirmelisiniz.\n",
                         "user": "Kayıt esnasında göster"
+                    },
+                    "require-submission": {
+                        "switch": "",
+                        "warning": ""
                     },
                     "automatic-discussion": "Form gönderiminden otomatik olarak tartışmalar oluşturun",
                     "automatic-discussion-help": "Etkinleştirildiğinde, form bağımsız bir form gibi erişilebilir olmaya devam eder. Gönderiler otomatik olarak yeni tartışmalar oluşturacak ve bunlara bağlanacaktır.\n",
@@ -189,6 +209,16 @@
                 "exiting-with-unsaved-data": "Kaydedilmemiş değişiklikleriniz mevcut. Sayfayı gerçekten bırakmak istiyor musun?",
                 "preview": "Yeni sekmede önizleme",
                 "save-for-preview": "Önizleme için kaydet"
+            },
+            "show-advanced-attributes-modal": {
+                "title": "",
+                "toggle": "",
+                "close": "",
+                "attribute": {
+                    "key": "",
+                    "fillPermission": "",
+                    "translationKey": ""
+                }
             },
             "auto-discussion-options-modal": {
                 "title": "Otomatik tartışma seçenekleri",
@@ -226,9 +256,12 @@
             "template-editor": {
                 "add-field": "Alan ekle",
                 "title": "Başlık",
+                "titleTranslationKey": "",
                 "description": "Açıklama",
+                "descriptionTranslationKey": "",
                 "key": "(Uzman) Gönderim yükündeki JSON anahtarı",
                 "fill-permission": "(Uzman) Doldurma izinleri",
+                "contentTranslationKey": "",
                 "required": "Gerekli",
                 "rich": "Zengin metin (TextFormatter)",
                 "min": "Minimum",
@@ -238,6 +271,7 @@
                 "regex": "Düzenli ifade",
                 "mime": "MIME türü (virgülle ayrılmış, joker karakteri ikinci bölüm olarak kabul eder)",
                 "other": "\"Diğer\" kullanıcı değerine izin ver",
+                "defaultValue": "",
                 "duplicate": "Yinelenen alan",
                 "delete": "Alanı sil",
                 "missing-title": "Başlıksız alan",
@@ -258,7 +292,9 @@
             "options-editor": {
                 "columns": {
                     "title": "Başlık",
-                    "key": "(Uzman) Benzersiz Anahtar"
+                    "titleTranslationKey": "",
+                    "key": "(Uzman) Benzersiz Anahtar",
+                    "defaultValue": ""
                 },
                 "remove": "Kaldır seçeneği",
                 "new-placeholder": "Yeni seçenek..."
@@ -280,6 +316,10 @@
             "choice": {
                 "other-label": "Diğer:",
                 "other-placeholder": "Tip..."
+            },
+            "translate": {
+                "switch-tab-to-edit": "",
+                "option-heading": ""
             },
             "submission": {
                 "form-closed": "Bu form kapalı.",
@@ -357,6 +397,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -401,6 +443,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -442,6 +486,8 @@
                 "user_displayname": "Kullanıcı Görünen Adı",
                 "user_email": "Kullanıcı e-postası",
                 "user_activated": "Aktif Hesap",
+                "user_joined_at": "",
+                "user_groups": "",
                 "link_id": "Bağlantılı kaynak kimliği (ID)",
                 "locked_at": "Kilit Tarihi",
                 "created_at": "Oluşturulma tarihi",

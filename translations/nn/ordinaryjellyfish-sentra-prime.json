@@ -1,0 +1,44 @@
+{
+    "ordinaryjellyfish-sentra": {
+        "admin": {
+            "permissions": {
+                "undo_post_score": ""
+            },
+            "service_account": "",
+            "services": {
+                "language": "",
+                "language_help": ""
+            },
+            "modules": {
+                "identity_sentinel": "",
+                "identity_sentinel_help": "",
+                "identity_sentinel_settings": {
+                    "action": "",
+                    "action_help": "",
+                    "action_flag": "",
+                    "action_redact": "",
+                    "confidence": "",
+                    "confidence_help": "",
+                    "pii_threshold": "",
+                    "pii_threshold_help": ""
+                }
+            }
+        },
+        "forum": {
+            "undo_post_score": "",
+            "pii": ""
+        },
+        "lib": {
+            "undo_post_score": ""
+        },
+        "email": {
+            "suspend_temporary_reason": "",
+            "suspend_permanent_reason": ""
+        }
+    },
+    "ordinaryjellyfish-sentra-prime": {
+        "admin": {
+            "title": ""
+        }
+    }
+}
