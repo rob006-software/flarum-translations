@@ -1104,6 +1104,9 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-twofactor`](https://weblate.rob006.net/projects/flarum/ianm-twofactor) | [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) |
 | [`imdong-spam-alert`](https://weblate.rob006.net/projects/flarum/imdong-spam-alert) | [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert) |
 | [`imdong-visible-to-op-only`](https://weblate.rob006.net/projects/flarum/imdong-visible-to-op-only) | [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only) |
+| [`import-ai-oauth-passport`](https://weblate.rob006.net/projects/flarum/import-ai-oauth-passport) | [`import-ai/flarum-oauth-passport`](https://github.com/import-ai/flarum-oauth-passport) |
+| [`import-ai-webhook`](https://weblate.rob006.net/projects/flarum/import-ai-webhook) | [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook) |
+| [`import-ai-webhook-notification`](https://weblate.rob006.net/projects/flarum/import-ai-webhook-notification) | [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) |
 | [`irmmr-rtl`](https://weblate.rob006.net/projects/flarum/irmmr-rtl) | [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl) |
 | [`jeromegillard-map`](https://weblate.rob006.net/projects/flarum/jeromegillard-map) | [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
