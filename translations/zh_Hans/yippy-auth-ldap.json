@@ -37,10 +37,10 @@
                     "title": "LDAP 域名",
                     "description": "Flarum 登录可用的 LDAP 域名",
                     "add": "添加域名",
-                    "banner": "域名 {index}",
+                    "banner": "域名 {index} - [{isEnabled}]",
                     "is_enabled": {
-                        "enabled": "",
-                        "disabled": ""
+                        "enabled": "启用",
+                        "disabled": "禁用"
                     },
                     "header": {
                         "server": "LDAP 服务设置",
@@ -75,9 +75,9 @@
                         "user_mail_help": "留空以允许用户在注册时自定义电子邮件地址",
                         "user_nickname_fields": "关联昵称字段",
                         "user_nickname_fields_help": "此功能需启用昵称扩展程序。组合多个 LDAP 字段以生成昵称，例如，选择「givenname,sn」将生成「[名] [姓]」作为用户昵称",
-                        "permission_groups": "",
-                        "permission_groups_help": "",
-                        "is_enabled": ""
+                        "permission_groups": "分配特定的权限",
+                        "permission_groups_help": "这在注册时生效",
+                        "is_enabled": "启用 LDAP 服务"
                     }
                 },
                 "onlyUse": "隐藏 Flarum 原生登录方法",

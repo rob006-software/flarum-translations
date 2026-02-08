@@ -11,8 +11,6 @@
 
 declare(strict_types=1);
 
-require __DIR__ . '/utils/helpers.php';
-
 return [
 	'dir' => __DIR__,
 	'sourcesDir' => __DIR__ . '/sources',

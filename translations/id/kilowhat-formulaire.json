@@ -65,6 +65,10 @@
             "nav": {
                 "forms": "=> kilowhat-formulaire.ref.manager"
             },
+            "require-submission-alert": {
+                "message": "",
+                "action": ""
+            },
             "form-index": {
                 "header": {
                     "title": "=> kilowhat-formulaire.ref.manager",
@@ -157,6 +161,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "Anda perlu menyetel izin \"lihat milik sendiri\" dan \"edit milik sendiri\" kepada anggota yang tidak disetujui untuk menggunakan \"tampilkan saat mendaftar\".\n",
                     "show-on-composer-invalid-permissions": "Pastikan izin \"lihat sendiri\" dan \"edit sendiri\" sesuai dengan siapa yang dapat memulai diskusi dengan tag yang dipilih untuk menggunakan \"tampilkan di area penulisan\". Atur ke \"anggota\" jika tidak yakin. Pesan ini dapat muncul meskipun pengaturan Anda sudah benar.\n",
+                    "require-submission-invalid-permissions": "",
                     "linked-form-is-draft": "Formulir ini saat ini dalam mode konsep. Aktifkan di bawah \"Akses\" agar kolom dapat muncul di forum.\n",
                     "auto-link-permission-warning": "Formulir dengan opsi \"secara otomatis membuat diskusi\" menggunakan izin pengisian global ketika diakses secara mandiri.\n"
                 },
@@ -172,6 +177,10 @@
                         "discussion": "Tampilkan dalam area penulisan diskusi",
                         "discussionHelp": "Area penulisan diskusi Flarum tidak cocok untuk memuat banyak kolom. Anda harus menginstal dan mengaktifkan ekstensi <a>Composer Page</a> untuk memastikan semua kolom tetap dapat diakses di semua perangkat.\n",
                         "user": "Tampilkan dalam pendaftaran"
+                    },
+                    "require-submission": {
+                        "switch": "",
+                        "warning": ""
                     },
                     "automatic-discussion": "Secara otomatis membuat diskusi dari formulir pengajuan",
                     "automatic-discussion-help": "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Pengajuan akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n",
@@ -262,6 +271,7 @@
                 "regex": "Regular expression",
                 "mime": "Jenis MIME (dipisahkan koma, menerima karakter pengganti sebagai bagian kedua)",
                 "other": "Izinkan value pengguna \"lainnya\"",
+                "defaultValue": "",
                 "duplicate": "Duplikat kolom",
                 "delete": "Hapus kolom",
                 "missing-title": "Kolom tanpa judul",
@@ -283,7 +293,8 @@
                 "columns": {
                     "title": "Judul",
                     "titleTranslationKey": "",
-                    "key": "(Expert) Kunci unik"
+                    "key": "(Expert) Kunci unik",
+                    "defaultValue": ""
                 },
                 "remove": "Hapus opsi",
                 "new-placeholder": "Opsi baru..."
@@ -386,6 +397,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -430,6 +443,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -471,6 +486,8 @@
                 "user_displayname": "Nama Tampilan Pengguna",
                 "user_email": "Email Pengguna",
                 "user_activated": "Akun Aktif",
+                "user_joined_at": "",
+                "user_groups": "",
                 "link_id": "ID sumber daya yang ditautkan",
                 "locked_at": "Tanggal Penguncian",
                 "created_at": "Tanggal Pembuatan",

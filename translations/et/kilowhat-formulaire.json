@@ -65,6 +65,10 @@
             "nav": {
                 "forms": "=> kilowhat-formulaire.ref.manager"
             },
+            "require-submission-alert": {
+                "message": "",
+                "action": ""
+            },
             "form-index": {
                 "header": {
                     "title": "=> kilowhat-formulaire.ref.manager",
@@ -157,6 +161,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "Kui soovid kasutada \"näita liitumisel\", siis peab heakskiitmata liikmetel olema õigused \"näe enda oma\" ja \"muuda enda oma\".\n",
                     "show-on-composer-invalid-permissions": "",
+                    "require-submission-invalid-permissions": "",
                     "linked-form-is-draft": "See vorm on praegu veel mustand. Anna kasutajatele \"Ligipääs\" väljadele, et need oleksid foorumis nähtavad.\n",
                     "auto-link-permission-warning": ""
                 },
@@ -172,6 +177,10 @@
                         "discussion": "Näita vestluse koostamisel",
                         "discussionHelp": "",
                         "user": "Näita liitumisel"
+                    },
+                    "require-submission": {
+                        "switch": "",
+                        "warning": ""
                     },
                     "automatic-discussion": "Loo vormist automaatselt vestlus",
                     "automatic-discussion-help": "",
@@ -262,6 +271,7 @@
                 "regex": "Regulaarväljend",
                 "mime": "Failitüüp (komadega eraldatud, teisel poolel võib kasutada kohatäitjaid)",
                 "other": "Luba väärtus \"muu\"",
+                "defaultValue": "",
                 "duplicate": "Tee väljast koopia",
                 "delete": "Kustuta väli",
                 "missing-title": "Ilma pealkirjata väli",
@@ -283,7 +293,8 @@
                 "columns": {
                     "title": "Pealkiri",
                     "titleTranslationKey": "",
-                    "key": "(Eksperdile) unikaalne võti"
+                    "key": "(Eksperdile) unikaalne võti",
+                    "defaultValue": ""
                 },
                 "remove": "Eemalda valik",
                 "new-placeholder": "Uus valik..."
@@ -386,6 +397,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -430,6 +443,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -471,6 +486,8 @@
                 "user_displayname": "Kasutaja näidatav nimi",
                 "user_email": "Kasutaja e-post",
                 "user_activated": "Aktiveeritud konto",
+                "user_joined_at": "",
+                "user_groups": "",
                 "link_id": "Lingitud ressursi ID",
                 "locked_at": "Lukustamise kuupäev",
                 "created_at": "Loomise kuupäev",

@@ -4,9 +4,25 @@
             "glossary": {
                 "button": "Glossaire",
                 "create_button": "Créer un nouveau terme",
+                "refresh_button": "",
+                "edit_term": "",
+                "delete_term": "",
                 "section": {
                     "heading": "Configuration du glossaire",
                     "help": "Les mots ou termes du glossaire sont définis de manière à ce que le service de traduction ne les traduise pas. Ils sont utiles pour les noms propres, les termes techniques ou d'autres mots qui ne doivent pas être traduits."
+                },
+                "terms": {
+                    "current": ""
+                },
+                "no_terms": "",
+                "extender_info": "",
+                "create_not_implemented": "",
+                "edit_not_available": "",
+                "delete_not_available": "",
+                "source": {
+                    "code": "",
+                    "database": "",
+                    "default": ""
                 },
                 "glossary": "Glossaire"
             },
@@ -26,9 +42,7 @@
                     "heading": "Paramètres SEO",
                     "help": "Ces paramètres contrôlent le comportement du système de traduction en ce qui concerne l'optimisation pour les moteurs de recherche.",
                     "default-lang": "Correspondre à la langue par défaut du forum",
-                    "default-lang-help": "Lorsque cette option est activée, la langue par défaut du forum est ajoutée au chemin de la balise hreflang <code>x-default</code>.",
-                    "canonical-path": "",
-                    "canonical-path-help": ""
+                    "default-lang-help": "Lorsque cette option est activée, la langue par défaut du forum est ajoutée au chemin de la balise hreflang <code>x-default</code>."
                 },
                 "providers": {
                     "heading": "Paramètres du fournisseur de traduction",
@@ -39,6 +53,8 @@
                 "seemless-help": "Fonctionnalité bêta. Lorsqu'elle est activée, tout le contenu des utilisateurs est traduit automatiquement dans toutes les autres langues disponibles sur le forum. Lorsqu'un utilisateur consulte un contenu multilingue, les traductions s'affichent automatiquement.",
                 "multi-lang-search": "Recherche multilingue",
                 "multi-lang-search-help": "Si cette option est activée, la recherche inclura toutes les traductions du contenu.",
+                "short-content-length": "",
+                "short-content-length-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "Enregistrez-vous sur {link}. Le pilote détectera automatiquement le type de clé, gratuite ou professionnelle.",
@@ -60,6 +76,23 @@
                             "prefer_less": "Moins formel",
                             "prefer_more": "Plus formel"
                         }
+                    },
+                    "model_type": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "latency_optimized": "",
+                            "prefer_quality_optimized": ""
+                        }
+                    },
+                    "glossary": {
+                        "options": {
+                            "none": ""
+                        },
+                        "pair": {
+                            "label": "",
+                            "help": ""
+                        }
                     }
                 },
                 "google-cloud": {
@@ -68,18 +101,65 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "libre": {
-                    "url": {
-                        "help": "L'URL du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez l'URL ici. Le schéma doit être `http` ou `https`.",
-                        "label": "URL du serveur"
-                    },
-                    "port": {
-                        "help": "Le port du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez le port ici.",
-                        "label": "Port du serveur"
-                    },
+                "openai": {
                     "api_key": {
-                        "help": "(facultatif) Si votre serveur LibreTranslate a besoin d'une clé API, saisissez-la ici.",
-                        "label": "=> ianm-translate.lib.settings.api-key"
+                        "help": "",
+                        "label": ""
+                    },
+                    "translation_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "detection_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "de_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "casual": "",
+                            "swiss": ""
+                        }
+                    },
+                    "en_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "en-GB": "",
+                            "en-US": ""
+                        }
+                    },
+                    "max_tokens": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "1024": "",
+                            "2048": "",
+                            "4096": "",
+                            "6144": "",
+                            "8192": ""
+                        }
+                    },
+                    "timeout": {
+                        "help": "",
+                        "label": ""
                     }
                 },
                 "translate-all-enabled": "Activer toutes les langues de traduction",
@@ -95,11 +175,28 @@
                 "provider": "Fournisseur de services de traduction",
                 "readme-info": "Pour plus d'informations, veuillez consulter la documentation dans le fichier README.",
                 "readme-none": "Aucun paramètre supplémentaire n'est requis pour ce pilote.",
+                "libre": {
+                    "url": {
+                        "help": "L'URL du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez l'URL ici. Le schéma doit être `http` ou `https`.",
+                        "label": "URL du serveur"
+                    },
+                    "port": {
+                        "help": "Le port du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez le port ici.",
+                        "label": "Port du serveur"
+                    },
+                    "api_key": {
+                        "help": "(facultatif) Si votre serveur LibreTranslate a besoin d'une clé API, saisissez-la ici.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
+                    }
+                },
                 "any-language": "Toutes les langues",
                 "any-language-help": "Lorsque cette option est activée, toutes les langues de traduction prises en charge par le fournisseur actuel seront disponibles. Pour limiter les langues de traduction à celles qui sont activées sur votre forum, veuillez laisser cette option désactivée."
             }
         },
         "forum": {
+            "post": {
+                "translation-error": ""
+            },
             "unknown-language": "[non détecté]",
             "detected-language": "Ce message est en {postLang}",
             "translate-button-label": "Traduire",
@@ -126,6 +223,10 @@
                     "question": "Question",
                     "question-language": "Question du sondage ({language})",
                     "original-title": "Langue d'origine"
+                },
+                "poll-group": {
+                    "title": "",
+                    "name": ""
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
@@ -167,6 +268,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google Traduction",
                 "google-cloud": "Google Cloud Translate",
+                "openai": "",
                 "libre": "Libre Translate"
             },
             "settings": {

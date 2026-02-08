@@ -4,9 +4,25 @@
             "glossary": {
                 "button": "Glossar",
                 "create_button": "",
+                "refresh_button": "",
+                "edit_term": "",
+                "delete_term": "",
                 "section": {
                     "heading": "Glossar Konfiguration",
                     "help": ""
+                },
+                "terms": {
+                    "current": ""
+                },
+                "no_terms": "",
+                "extender_info": "",
+                "create_not_implemented": "",
+                "edit_not_available": "",
+                "delete_not_available": "",
+                "source": {
+                    "code": "",
+                    "database": "",
+                    "default": ""
                 }
             },
             "permission": {
@@ -24,9 +40,7 @@
                     "heading": "SEO-Einstellungen",
                     "help": "",
                     "default-lang": "",
-                    "default-lang-help": "",
-                    "canonical-path": "",
-                    "canonical-path-help": ""
+                    "default-lang-help": ""
                 },
                 "providers": {
                     "heading": "",
@@ -37,6 +51,8 @@
                 "seemless-help": "",
                 "multi-lang-search": "",
                 "multi-lang-search-help": "",
+                "short-content-length": "",
+                "short-content-length-help": "",
                 "deepl": {
                     "api_key": {
                         "help": "",
@@ -58,6 +74,23 @@
                             "prefer_less": "Weniger formell",
                             "prefer_more": "Formeller"
                         }
+                    },
+                    "model_type": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "latency_optimized": "",
+                            "prefer_quality_optimized": ""
+                        }
+                    },
+                    "glossary": {
+                        "options": {
+                            "none": ""
+                        },
+                        "pair": {
+                            "label": "",
+                            "help": ""
+                        }
                     }
                 },
                 "google-cloud": {
@@ -66,16 +99,63 @@
                         "label": ""
                     }
                 },
-                "libre": {
-                    "url": {
-                        "help": "",
-                        "label": "Server-URL"
-                    },
-                    "port": {
-                        "help": "",
-                        "label": "Server-Port"
-                    },
+                "openai": {
                     "api_key": {
+                        "help": "",
+                        "label": ""
+                    },
+                    "translation_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "detection_model": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "gpt-4o": "",
+                            "gpt-4o-mini": "",
+                            "gpt-3": {
+                                "5-turbo": "",
+                                "5-turbo-0125": ""
+                            }
+                        }
+                    },
+                    "de_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "casual": "",
+                            "swiss": ""
+                        }
+                    },
+                    "en_variant": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "en-GB": "",
+                            "en-US": ""
+                        }
+                    },
+                    "max_tokens": {
+                        "help": "",
+                        "label": "",
+                        "options": {
+                            "1024": "",
+                            "2048": "",
+                            "4096": "",
+                            "6144": "",
+                            "8192": ""
+                        }
+                    },
+                    "timeout": {
                         "help": "",
                         "label": ""
                     }
@@ -92,10 +172,21 @@
                 "translate-quiz-help": "",
                 "provider": "",
                 "readme-info": "",
-                "readme-none": ""
+                "readme-none": "",
+                "libre": {
+                    "url": {
+                        "label": "Server-URL"
+                    },
+                    "port": {
+                        "label": "Server-Port"
+                    }
+                }
             }
         },
         "forum": {
+            "post": {
+                "translation-error": ""
+            },
             "unknown-language": "",
             "detected-language": "",
             "translate-button-label": "Übersetzen",
@@ -121,6 +212,10 @@
                     "title": "",
                     "question": "Frage",
                     "question-language": ""
+                },
+                "poll-group": {
+                    "title": "",
+                    "name": ""
                 },
                 "save-changes": "",
                 "quiz": {
@@ -159,7 +254,7 @@
                 "deepl": "DeepL",
                 "google-free": "",
                 "google-cloud": "",
-                "libre": ""
+                "openai": ""
             },
             "settings": {
                 "api-key": ""

@@ -4,9 +4,25 @@
             "glossary": {
                 "button": "Glossary",
                 "create_button": "Create new term",
+                "refresh_button": "Refresh",
+                "edit_term": "Edit term",
+                "delete_term": "Delete term",
                 "section": {
                     "heading": "Glossary Configuration",
                     "help": "Glossary words or terms are defined so that the translation service will not translate them. This is useful for proper nouns, technical terms, or other words that should not be translated."
+                },
+                "terms": {
+                    "current": "{count, plural, one {# term} other {# terms}} currently defined"
+                },
+                "no_terms": "No glossary terms are currently defined.",
+                "extender_info": "Glossary terms can be added using the extension's PHP extender in your extend.php file.",
+                "create_not_implemented": "Creating terms via UI is not yet implemented. Use the PHP extender.",
+                "edit_not_available": "This term is defined in code and cannot be edited via UI",
+                "delete_not_available": "This term is defined in code and cannot be deleted via UI",
+                "source": {
+                    "code": "Defined in code",
+                    "database": "Stored in database",
+                    "default": "Built-in default"
                 }
             },
             "permission": {
@@ -24,9 +40,7 @@
                     "heading": "SEO Settings",
                     "help": "These settings control the behavior of the translation system with respect to search engine optimization.",
                     "default-lang": "Match forum default language",
-                    "default-lang-help": "When enabled, the forum default language will be added to the path for the <code>x-default</code> hreflang tag.",
-                    "canonical-path": "Canonical path",
-                    "canonical-path-help": "When enabled, the canonical path will include the forum default language."
+                    "default-lang-help": "When enabled, the forum default language will be added to the path for the <code>x-default</code> hreflang tag."
                 },
                 "providers": {
                     "heading": "Translation Provider Settings",
@@ -37,6 +51,8 @@
                 "seemless-help": "Beta feature. When enabled, all user content will be translated automatically to all other available forum languages. When a user views multi-language content, translations will be displayed automaticlly.",
                 "multi-lang-search": "Multi-language search",
                 "multi-lang-search-help": "When enabled, the search will include all translations of the content.",
+                "short-content-length": "Short Content",
+                "short-content-length-help": "When enabled, content that is shorter than the specified length will be translated and assumed to be written in the current language of the UI. 0 disables this feature.",
                 "deepl": {
                     "api_key": {
                         "help": "Register at {link}. Driver will auto detect free/pro key type.",
@@ -58,6 +74,23 @@
                             "prefer_less": "Less formal",
                             "prefer_more": "More formal"
                         }
+                    },
+                    "model_type": {
+                        "help": "Select which DeepL model to use for translation.",
+                        "label": "Model type",
+                        "options": {
+                            "latency_optimized": "Optimized for speed",
+                            "prefer_quality_optimized": "Prefer quality when available"
+                        }
+                    },
+                    "glossary": {
+                        "options": {
+                            "none": "No glossary"
+                        },
+                        "pair": {
+                            "label": "{source} to {target} Glossary",
+                            "help": "Select a glossary when translating {source} to {target}, or select none if no glossary is needed for this language pair."
+                        }
                     }
                 },
                 "google-cloud": {
@@ -66,18 +99,65 @@
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
-                "libre": {
-                    "url": {
-                        "help": "The URL of the LibreTranslate server. If you are running your own instance, enter the URL here. The schema should be `http` or `https`.",
-                        "label": "Server URL"
-                    },
-                    "port": {
-                        "help": "The port of the LibreTranslate server. If you are running your own instance, enter the port here.",
-                        "label": "Server Port"
-                    },
+                "openai": {
                     "api_key": {
-                        "help": "(optional) If your LibreTranslate server requires an API key, enter it here.",
+                        "help": "Register for an API key at {link}. This driver supports GPT-4o and GPT-4o-mini models.",
                         "label": "=> ianm-translate.lib.settings.api-key"
+                    },
+                    "translation_model": {
+                        "help": "Select which OpenAI model to use for translations. GPT-4o provides the highest quality, GPT-4o-mini offers good balance, and GPT-3.5-turbo is the most cost-effective.",
+                        "label": "Translation model",
+                        "options": {
+                            "gpt-4o": "GPT-4o (Premium)",
+                            "gpt-4o-mini": "GPT-4o Mini (Balanced)",
+                            "gpt-3": {
+                                "5-turbo": "GPT-3.5 Turbo (Budget)",
+                                "5-turbo-0125": "GPT-3.5 Turbo Latest (Budget+)"
+                            }
+                        }
+                    },
+                    "detection_model": {
+                        "help": "Select which OpenAI model to use for language detection. GPT-3.5-turbo is recommended as language detection is a simple task that doesn't require the most powerful model.",
+                        "label": "Language detection model",
+                        "options": {
+                            "gpt-4o": "GPT-4o (Premium)",
+                            "gpt-4o-mini": "GPT-4o Mini (Balanced)",
+                            "gpt-3": {
+                                "5-turbo": "GPT-3.5 Turbo (Budget)",
+                                "5-turbo-0125": "GPT-3.5 Turbo Latest (Budget+)"
+                            }
+                        }
+                    },
+                    "de_variant": {
+                        "help": "When translating to German, select which variant should be used.",
+                        "label": "German variant",
+                        "options": {
+                            "casual": "Casual German",
+                            "swiss": "Swiss German"
+                        }
+                    },
+                    "en_variant": {
+                        "help": "When translating to English, select which variant should be used.",
+                        "label": "English variant",
+                        "options": {
+                            "en-GB": "British English",
+                            "en-US": "American English"
+                        }
+                    },
+                    "max_tokens": {
+                        "help": "Maximum tokens for translation output. Higher values allow longer translations but increase costs. 1024 tokens ≈ 750 words. GPT-4o costs ~$0.03 per 1K output tokens, GPT-4o-mini costs ~$0.0006 per 1K output tokens.",
+                        "label": "Max output tokens",
+                        "options": {
+                            "1024": "1,024 tokens (~750 words)",
+                            "2048": "2,048 tokens (~1,500 words)",
+                            "4096": "4,096 tokens (~3,000 words)",
+                            "6144": "6,144 tokens (~4,500 words)",
+                            "8192": "8,192 tokens (~6,000 words)"
+                        }
+                    },
+                    "timeout": {
+                        "help": "Request timeout in seconds. Increase if you experience timeout errors.",
+                        "label": "Timeout (seconds)"
                     }
                 },
                 "translate-all-enabled": "Enable all translation languages",
@@ -96,6 +176,9 @@
             }
         },
         "forum": {
+            "post": {
+                "translation-error": "There was a problem displaying the translation of this post. The error has been logged with ID {uuid}. Please report this if the problem persists."
+            },
             "unknown-language": "[not detected]",
             "detected-language": "This post is in {postLang}",
             "translate-button-label": "Translate",
@@ -121,6 +204,10 @@
                     "title": "Manage Poll translations",
                     "question": "Question",
                     "question-language": "Poll question ({language})"
+                },
+                "poll-group": {
+                    "title": "Manage Poll Group translations",
+                    "name": "Group name"
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
@@ -159,7 +246,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
                 "google-cloud": "Google Cloud Translate",
-                "libre": "Libre Translate"
+                "openai": "OpenAI"
             },
             "settings": {
                 "api-key": "API Key"

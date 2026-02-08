@@ -65,6 +65,10 @@
             "nav": {
                 "forms": ""
             },
+            "require-submission-alert": {
+                "message": "",
+                "action": ""
+            },
             "form-index": {
                 "header": {
                     "title": "",
@@ -157,6 +161,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "",
                     "show-on-composer-invalid-permissions": "",
+                    "require-submission-invalid-permissions": "",
                     "linked-form-is-draft": "",
                     "auto-link-permission-warning": ""
                 },
@@ -172,6 +177,10 @@
                         "discussion": "",
                         "discussionHelp": "",
                         "user": ""
+                    },
+                    "require-submission": {
+                        "switch": "",
+                        "warning": ""
                     },
                     "automatic-discussion": "",
                     "automatic-discussion-help": "",
@@ -262,6 +271,7 @@
                 "regex": "",
                 "mime": "",
                 "other": "",
+                "defaultValue": "",
                 "duplicate": "",
                 "delete": "",
                 "missing-title": "",
@@ -283,7 +293,8 @@
                 "columns": {
                     "title": "",
                     "titleTranslationKey": "",
-                    "key": ""
+                    "key": "",
+                    "defaultValue": ""
                 },
                 "remove": "",
                 "new-placeholder": ""
@@ -386,6 +397,8 @@
                     "user_displayname": "",
                     "user_email": "",
                     "user_activated": "",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "",
                     "locked_at": "",
                     "created_at": "",
@@ -430,6 +443,8 @@
                     "user_displayname": "",
                     "user_email": "",
                     "user_activated": "",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "",
                     "locked_at": "",
                     "created_at": "",
@@ -471,6 +486,8 @@
                 "user_displayname": "",
                 "user_email": "",
                 "user_activated": "",
+                "user_joined_at": "",
+                "user_groups": "",
                 "link_id": "",
                 "locked_at": "",
                 "created_at": "",

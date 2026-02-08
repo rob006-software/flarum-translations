@@ -1,0 +1,44 @@
+{
+    "ordinaryjellyfish-sentra": {
+        "admin": {
+            "permissions": {
+                "undo_post_score": "=> ordinaryjellyfish-sentra.lib.undo_post_score"
+            },
+            "service_account": "Service Account",
+            "services": {
+                "language": "Azure AI Language",
+                "language_help": "Azure AI Language is a service that uses natural language processing to analyze text."
+            },
+            "modules": {
+                "identity_sentinel": "Identity Sentinel",
+                "identity_sentinel_help": "Identity Sentinel is a module to detect personally identifiable information in posts.",
+                "identity_sentinel_settings": {
+                    "action": "Detection Action",
+                    "action_help": "The action to take when your criteria is met.",
+                    "action_flag": "Flag Post",
+                    "action_redact": "Redact Information",
+                    "confidence": "Confidence Threshold",
+                    "confidence_help": "The confidence threshold to trigger action, as a decimal between 0 and 1.",
+                    "pii_threshold": "Generic PII Threshold",
+                    "pii_threshold_help": "The amount of generic personally identifiable entities to detect before taking action. Sensitive PII will always trigger action, no matter how many times it is detected. Set to 0 if you don't want generic PII to be detected."
+                }
+            }
+        },
+        "forum": {
+            "undo_post_score": "=> ordinaryjellyfish-sentra.lib.undo_post_score",
+            "pii": "Personally Identifiable Information"
+        },
+        "lib": {
+            "undo_post_score": "Undo Post Behavior Score"
+        },
+        "email": {
+            "suspend_temporary_reason": "You have been automatically suspended for consistent negative behavior. This suspension is for {duration, plural, one {1 day} plural {# days}} and will be lifted automatically. If you believe this suspension was made in error, please contact the forum staff.",
+            "suspend_permanent_reason": "You have been automatically suspended for consistent negative behavior. This suspension is permanent. If you believe this suspension was made in error, please contact the forum staff."
+        }
+    },
+    "ordinaryjellyfish-sentra-prime": {
+        "admin": {
+            "title": "The settings for this extension are located within the <a>standard Sentra extension page</a>. Enjoy!"
+        }
+    }
+}

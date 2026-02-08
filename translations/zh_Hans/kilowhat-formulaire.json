@@ -65,6 +65,10 @@
             "nav": {
                 "forms": "=> kilowhat-formulaire.ref.manager"
             },
+            "require-submission-alert": {
+                "message": "",
+                "action": ""
+            },
             "form-index": {
                 "header": {
                     "title": "=> kilowhat-formulaire.ref.manager",
@@ -157,6 +161,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "你需要将 \"查看自己\" 和 \"编辑自己\" 的权限设置为未批准的成员，以便使用 \"在注册时显示\"。\n",
                     "show-on-composer-invalid-permissions": "确保 \"查看自己的\" 和 \"编辑自己的\" 权限与可以用所选标签发起讨论的人相匹配，以便使用 \"在合成器中显示\"。如果不确定，请设置为 \"成员\"。即使你的设置是正确的，也会出现这个信息。\n",
+                    "require-submission-invalid-permissions": "",
                     "linked-form-is-draft": "这个表单目前处于草稿模式。启用 \"接受新的提交 \"以使这些字段出现在论坛上。\n",
                     "auto-link-permission-warning": "带有 \"自动创建讨论 \"选项的表格在独立访问时使用全局填充权限。\n"
                 },
@@ -172,6 +177,10 @@
                         "discussion": "在 discussion composer 展示",
                         "discussionHelp": "",
                         "user": "在注册页面展示"
+                    },
+                    "require-submission": {
+                        "switch": "",
+                        "warning": ""
                     },
                     "automatic-discussion": "根据提交内容自动创建主题帖",
                     "automatic-discussion-help": "启用后，该表单仍像独立表单一样可访问。提交的内容将自动创建并连接新主题帖。\n",
@@ -262,6 +271,7 @@
                 "regex": "正则表达式",
                 "mime": "MIME 类型（半角逗号分隔，可用通配符作为第二部分）",
                 "other": "",
+                "defaultValue": "",
                 "duplicate": "重复字段",
                 "delete": "删除字段",
                 "missing-title": "无标题字段",
@@ -283,7 +293,8 @@
                 "columns": {
                     "title": "",
                     "titleTranslationKey": "",
-                    "key": ""
+                    "key": "",
+                    "defaultValue": ""
                 },
                 "remove": "",
                 "new-placeholder": ""
@@ -386,6 +397,8 @@
                     "user_displayname": "用户外显昵称",
                     "user_email": "",
                     "user_activated": "",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "链接的资源 ID",
                     "locked_at": "锁定日期",
                     "created_at": "创建日期",
@@ -430,6 +443,8 @@
                     "user_displayname": "用户外显昵称",
                     "user_email": "",
                     "user_activated": "",
+                    "user_joined_at": "",
+                    "user_groups": "",
                     "link_id": "链接的资源 ID",
                     "locked_at": "锁定日期",
                     "created_at": "创建日期",
@@ -471,6 +486,8 @@
                 "user_displayname": "",
                 "user_email": "",
                 "user_activated": "",
+                "user_joined_at": "",
+                "user_groups": "",
                 "link_id": "",
                 "locked_at": "",
                 "created_at": "",
