@@ -1694,6 +1694,12 @@ return [
 			'de@formal',
 		],
 	],
+	'wszdb-postalbums' => [
+		'tag' => 'https://raw.githubusercontent.com/wszdb/flarum-postalbums/v1.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.5/resources/locale/en.yaml',
 		'__builtInLanguages' => [
