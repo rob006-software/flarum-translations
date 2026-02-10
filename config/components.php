@@ -857,7 +857,7 @@ return [
 		],
 	],
 	'glowingblue-author-filter' => [
-		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-author-filter/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-author-filter/1.0.1/resources/locale/en.yml',
 	],
 	'glowingblue-localizd' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/glowingblue-localizd.yml',
