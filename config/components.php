@@ -1694,6 +1694,12 @@ return [
 			'de@formal',
 		],
 	],
+	'wszdb-flarumaichat' => [
+		'tag' => 'https://raw.githubusercontent.com/wszdb/flarumaichat/v0.5/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.5/resources/locale/en.yaml',
 		'__builtInLanguages' => [
