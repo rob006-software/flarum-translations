@@ -1399,6 +1399,9 @@ return [
 	],
 	'xypp-custom-user-remarks' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-custom-user-remarks/v1.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'xypp-forum-quests' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-forum-quests/v2.0.4/locale/en.yml',
