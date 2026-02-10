@@ -1007,7 +1007,7 @@ return [
 		],
 	],
 	'import-ai-webhook-notification' => [
-		'tag' => 'https://raw.githubusercontent.com/import-ai/flarum-webhook-notification/v0.1.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/import-ai/flarum-webhook-notification/v0.1.4/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
