@@ -1365,6 +1365,9 @@ return [
 	],
 	'xypp-qqwx-redirect-page' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-qqwx-redirect-page/v1.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'xypp-sticky-card' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-sticky-card/v1.0.4/locale/en.yml',
