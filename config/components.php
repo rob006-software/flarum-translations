@@ -1734,6 +1734,12 @@ return [
 	'xypp-pay-cccyun' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/xypp-pay-cccyun.yml',
 	],
+	'xypp-more-bbcode' => [
+		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-more-bbcode/v2.1.8/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'xypp-pay-to-read' => [
 		'tag' => 'https://raw.githubusercontent.com/zxy19/flarum-pay-to-read/v2.0.0/locale/en.yml',
 		'__builtInLanguages' => [
