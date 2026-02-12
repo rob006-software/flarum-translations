@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "為自己的貼文選取最佳回覆",
-                "best_answer_not_own_discussion": "為他人貼文選取最佳回覆"
+                "best_answer_not_own_discussion": "為他人貼文選取最佳回覆",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "進階",
                     "reminders_notice": "要啟用提醒功能，你必需正確配置Flarum。"
                 },
-                "allow_select_own_post": "允許選取自己的回覆",
-                "allow_select_own_post_help": "允許提問者將自己的貼子設為最佳回覆",
                 "show_max_lines_label": "在帖子預覽中顯示的最大行數",
                 "show_max_lines_help": "將此項設為0以禁用。如果一個帖子長於配置行數，它將在預覽中被截斷，並帶有淡出的效果。",
                 "select_best_answer_reminder_days": "於 n 天後提醒用戶選取最佳回覆",
@@ -45,6 +44,8 @@
                 "display_tags_help": "",
                 "discussion_sidebar_jump_button": "在討論側邊欄中顯示跳轉至最佳答案按鈕",
                 "discussion_sidebar_jump_button_help": "在討論側邊欄新增一個按鈕，可跳到貼文串流中的最佳答案。",
+                "allow_select_own_post": "允許選取自己的回覆",
+                "allow_select_own_post_help": "允許提問者將自己的貼子設為最佳回覆",
                 "enable_all_tags_button": "為所有標籤啟用最佳回覆",
                 "enable_all_tags_reminder_button": "為所有標籤啟用提醒功能",
                 "introduction": "你需要前往 <code><a>flarum/tags</a></code> 為特定標簽開啟最佳回覆和提醒功能。你可以在「權限」頁面為全局或特定標簽設置最佳回覆的操作權限。\n"

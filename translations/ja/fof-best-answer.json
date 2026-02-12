@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "ベストアンサーの選択 (自分のスレッド)",
-                "best_answer_not_own_discussion": "ベストアンサーの選択 (自分以外のスレッド)"
+                "best_answer_not_own_discussion": "ベストアンサーの選択 (自分以外のスレッド)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "詳細設定",
                     "reminders_notice": "リマインダーが正しく動作するためには、Flarumのスケジューラを正しく設定する必要があります。"
                 },
-                "allow_select_own_post": "ユーザーが自分自身の投稿を選ぶことを許可する",
-                "allow_select_own_post_help": "OPが自分の投稿をベストアンサーとして選択できるようにする",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "ベストアンサーを選ぶように、X日後に通知する",
@@ -45,6 +44,8 @@
                 "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
                 "discussion_sidebar_jump_button_help": "",
+                "allow_select_own_post": "ユーザーが自分自身の投稿を選ぶことを許可する",
+                "allow_select_own_post_help": "OPが自分の投稿をベストアンサーとして選択できるようにする",
                 "enable_all_tags_button": "ベストアンサーを全てのタグで有効にする",
                 "enable_all_tags_reminder_button": "ベストアンサーリマインダーを全てのタグで有効にする"
             },

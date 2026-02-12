@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Vybrat nejlepší odpověď (vlastní diskuze)",
-                "best_answer_not_own_discussion": "Vybrat nejlepší odpověď (cizí diskuze)"
+                "best_answer_not_own_discussion": "Vybrat nejlepší odpověď (cizí diskuze)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Pokročilé",
                     "reminders_notice": "Aby připomínky fungovaly, je třeba správně nastavit plánovač (scheduler) Flarum."
                 },
-                "allow_select_own_post": "Vybrat vlastní příspěvek",
-                "allow_select_own_post_help": "Povolit uživateli, aby vybral jeden ze svých příspěvků v diskusi jako nejlepší odpověď",
                 "show_max_lines_label": "Maximální počet řádků, který se zobrazí v náhledu příspěvku",
                 "show_max_lines_help": "Nastavením na 0 vypnete. Pokud je příspěvek delší než nastavený počet řádků, bude v náhledu příspěvku zkrácen s efektem vyblednutí.",
                 "select_best_answer_reminder_days": "Frekvence připomenutí",
@@ -45,6 +44,8 @@
                 "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
                 "discussion_sidebar_jump_button_help": "",
+                "allow_select_own_post": "Vybrat vlastní příspěvek",
+                "allow_select_own_post_help": "Povolit uživateli, aby vybral jeden ze svých příspěvků v diskusi jako nejlepší odpověď",
                 "enable_all_tags_button": "Povolit všechny štítky pro Nejlepší odpovědi",
                 "enable_all_tags_reminder_button": "Povolit všechny štítky pro připomenutí Nejlepší odpovědi",
                 "introduction": "V nastavení <code><a>flarum/tags</a></code> vyberte, které štítky mají podporovat Nejlepší odpovědi, a případně, které štítky mají podporovat připomínky. Pokud je u štítku povolena funkce Nejlepší odpověď, přiřaďte oprávnění každé skupině uživatelů, která může nastavovat odpovědi (vlastní diskuze, libovolná diskuze). Oprávnění lze přidělit globálně (pro každý štítek s povolenou Nejlepší odpovědí) nebo pro každý štítek zvlášť.\n"

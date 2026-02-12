@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Sélectionnez la meilleure réponse (sur sa propre discussion)",
-                "best_answer_not_own_discussion": "Sélectionnez la meilleure réponse (pas sur sa propre discussion)"
+                "best_answer_not_own_discussion": "Sélectionnez la meilleure réponse (pas sur sa propre discussion)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Avancé",
                     "reminders_notice": "Pour que les rappels puissent fonctionner, vous devez configurer correctement le planificateur de Flarum."
                 },
-                "allow_select_own_post": "Sélectionner ses propres publications",
-                "allow_select_own_post_help": "Autoriser un utilisateur de sélectionner son propre message comme meilleure réponse à une discussion",
                 "show_max_lines_label": "Nombre maximal de lignes à afficher dans la prévisualisation du message",
                 "show_max_lines_help": "Réglez cette valeur à 0 pour désactiver cette option. Si un message est plus long que le nombre de lignes configuré, il sera tronqué dans la prévisualisation du message avec un effet de fondu.",
                 "select_best_answer_reminder_days": "Fréquence des rappels",
@@ -45,6 +44,8 @@
                 "display_tags_help": "Afficher le(s) étiquette(s) dans les résultats de recherche pour les discussions ayant des meilleures réponses",
                 "discussion_sidebar_jump_button": "Afficher le bouton « Voir la meilleure réponse » dans la barre latérale de la discussion",
                 "discussion_sidebar_jump_button_help": "Ajoute un bouton à la barre latérale de la discussion qui permet de se rendre directement à la meilleure réponse dans le flux des messages.",
+                "allow_select_own_post": "Sélectionner ses propres publications",
+                "allow_select_own_post_help": "Autoriser un utilisateur de sélectionner son propre message comme meilleure réponse à une discussion",
                 "enable_all_tags_button": "Activer toutes les étiquettes pour les meilleures réponses",
                 "enable_all_tags_reminder_button": "Activer toutes les étiquettes pour les rappels d'une meilleure réponse",
                 "introduction": "Active quelles étiquettes doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les étiquettes qui doivent prendre en charge les rappels. Lorsqu'une étiquette est activée avec l'extension « Best Answer », cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée avec l'extension « Best Answer »), ou sur une base par étiquette.\n"

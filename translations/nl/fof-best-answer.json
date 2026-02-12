@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Kies beste antwoord (eigen Discussie)",
-                "best_answer_not_own_discussion": "Kies beste antwoord (niet eigen Discussie)"
+                "best_answer_not_own_discussion": "Kies beste antwoord (niet eigen Discussie)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Geavanceerd",
                     "reminders_notice": "Herinneringen werken pas wanneer je de Flarum scheduler goed ingesteld hebt."
                 },
-                "allow_select_own_post": "Selecteer je eigen bericht",
-                "allow_select_own_post_help": "Sta een gebruiker toe zijn eigen bericht te selecteren als beste antwoord op een discussie",
                 "show_max_lines_label": "Max. aantal regels dat in berichtvoorbeeld kan worden weergegeven",
                 "show_max_lines_help": "Stel in op 0 om uit te schakelen. Als een bericht langer is dan het geconfigureerde aantal regels, wordt het in het berichtvoorbeeld afgekapt met een fade-outeffect.",
                 "select_best_answer_reminder_days": "Herinneringsfrequentie",
@@ -45,6 +44,8 @@
                 "display_tags_help": "Geef de tag(s) weer in zoekresultaten voor discussies met Beste Antwoorden",
                 "discussion_sidebar_jump_button": "Geef de knop 'Ga naar het beste antwoord' weer in de discussiezijbalk",
                 "discussion_sidebar_jump_button_help": "Voegt een knop toe aan de discussiezijbalk die naar het beste antwoord in de berichten springt.",
+                "allow_select_own_post": "Selecteer je eigen bericht",
+                "allow_select_own_post_help": "Sta een gebruiker toe zijn eigen bericht te selecteren als beste antwoord op een discussie",
                 "enable_all_tags_button": "Beste antwoorden op alle tags inschakelen",
                 "enable_all_tags_reminder_button": "Herinneringen voor beste antwoorden op alle tags inschakelen",
                 "introduction": "Schakel in welke tags de beste antwoorden in <code><a>flarum/tags</a></code> moeten ondersteunen, en optioneel welke tag(s) herinneringen moeten ondersteunen. Wanneer een tag is ingeschakeld voor Beste antwoord, wijst u machtigingen toe aan elke gebruikersgroep die antwoorden mag instellen (eigen discussie, elke discussie). Machtigingen kunnen globaal worden toegewezen (voor elke tag die voor het beste antwoord is ingeschakeld), of per tag.\n"

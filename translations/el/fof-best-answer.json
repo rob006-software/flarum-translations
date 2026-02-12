@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Επιλογή Καλύτερης Απάντησης (δικές μου συζητήσεις)",
-                "best_answer_not_own_discussion": "Επιλογή Καλύτερης Απάντησης (συζητήσεις άλλων)"
+                "best_answer_not_own_discussion": "Επιλογή Καλύτερης Απάντησης (συζητήσεις άλλων)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Προχωρημένο",
                     "reminders_notice": "Για να λειτουργούν σωστά οι υπενθυμίσεις, πρέπει να έχετε ρυθμίσει σωστά τον scheduler Flarum."
                 },
-                "allow_select_own_post": "Επιτρέψτε στους χρήστες να επιλέγουν τις δικές τους δημοσιεύσεις",
-                "allow_select_own_post_help": "",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Υπενθυμίστε στους χρήστες να επιλέξουν την καλύτερη απάντηση μετά από X ημέρες",
@@ -44,7 +43,8 @@
                 "display_tags": "",
                 "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "discussion_sidebar_jump_button_help": "",
+                "allow_select_own_post": "Επιτρέψτε στους χρήστες να επιλέγουν τις δικές τους δημοσιεύσεις"
             },
             "edit_tag": {
                 "qna_label": "",

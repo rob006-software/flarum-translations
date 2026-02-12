@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Vali parim vastus (omaenda arutelu)",
-                "best_answer_not_own_discussion": "Vali parim vastus (mitte omaenda arutelu)"
+                "best_answer_not_own_discussion": "Vali parim vastus (mitte omaenda arutelu)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Lisavalikud",
                     "reminders_notice": "Meeldetuletuste töötamiseks pead sa esmalt seadistama korrektselt Flarumi ajastusprogrammi."
                 },
-                "allow_select_own_post": "Vali omaenda postitus",
-                "allow_select_own_post_help": "Linna kasutajatel valida omaenda vaesust kui parimat vaesust arutelus",
                 "show_max_lines_label": "Maksimaalne ridade arv eelvaates",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Meeldetuletuste sagedus",
@@ -44,7 +43,9 @@
                 "display_tags": "Näita otsingutulemustes siltide",
                 "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "discussion_sidebar_jump_button_help": "",
+                "allow_select_own_post": "Vali omaenda postitus",
+                "allow_select_own_post_help": "Linna kasutajatel valida omaenda vaesust kui parimat vaesust arutelus"
             },
             "edit_tag": {
                 "qna_label": "Luba selle sildi all parima vastuse kasutamine",

@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Memilih Jawaban Terbaik (Diskusi sendiri)",
-                "best_answer_not_own_discussion": "Memilih Jawaban Terbaik (bukan Diskusi sendiri)"
+                "best_answer_not_own_discussion": "Memilih Jawaban Terbaik (bukan Diskusi sendiri)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Tingkat lanjut",
                     "reminders_notice": "Agar pengingat dapat berfungsi, Anda harus mengatur Flarum scheduler dengan benar."
                 },
-                "allow_select_own_post": "Pilih postingan sendiri",
-                "allow_select_own_post_help": "Mengizinkan pengguna untuk memilih postingan mereka sendiri sebagai jawaban terbaik untuk sebuah diskusi",
                 "show_max_lines_label": "Garis maksimum untuk ditampilkan dalam pratinjau post",
                 "show_max_lines_help": "Atur ke 0 untuk menonaktifkan. Jika postingan lebih panjang daripada jumlah baris yang dikonfigurasi, postingan akan terpotong dalam pratinjau postingan dengan efek memudar.",
                 "select_best_answer_reminder_days": "Frekuensi pengingat",
@@ -45,6 +44,8 @@
                 "display_tags_help": "Menampilkan tag dalam hasil pencarian untuk diskusi dengan Jawaban Terbaik",
                 "discussion_sidebar_jump_button": "Tampilkan tombol lompat ke Jawaban Terbaik di sidebar diskusi",
                 "discussion_sidebar_jump_button_help": "Menambahkan tombol ke sidebar diskusi yang akan langsung menuju ke Jawaban Terbaik dalam aliran postingan.",
+                "allow_select_own_post": "Pilih postingan sendiri",
+                "allow_select_own_post_help": "Mengizinkan pengguna untuk memilih postingan mereka sendiri sebagai jawaban terbaik untuk sebuah diskusi",
                 "enable_all_tags_button": "Aktifkan semua tag untuk Jawaban Terbaik",
                 "enable_all_tags_reminder_button": "Aktifkan semua tag untuk pengingat Jawaban Terbaik",
                 "introduction": "Aktifkan tag mana yang akan mendukung Best Answers di <code><a>flarum/tags</a></code>, dan secara opsional tag mana yang akan mendukung pengingat. Ketika sebuah tag diaktifkan oleh Best Answer, aturlah perizinan untuk setiap grup pengguna yang dapat mengatur jawaban (diskusi sendiri, diskusi apa pun). Perizinan dapat diatur secara global (untuk setiap tag Best Answer yang diaktifkan), atau per tag.\n"

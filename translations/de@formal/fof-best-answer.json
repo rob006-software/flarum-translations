@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Beste Antwort auswählen (eigene Diskussion)",
-                "best_answer_not_own_discussion": "Beste Antwort auswählen (nicht eigene Diskussion)"
+                "best_answer_not_own_discussion": "Beste Antwort auswählen (nicht eigene Diskussion)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Erweitert",
                     "reminders_notice": "Damit Erinnerungen funktionieren, müssen Sie den Flarum-Planer richtig eingerichtet haben."
                 },
-                "allow_select_own_post": "Eigenen Beitrag auswählen",
-                "allow_select_own_post_help": "Einem Benutzer erlauben, seinen eigenen Beitrag als beste Antwort auf eine Diskussion auszuwählen",
                 "show_max_lines_label": "Maximal anzuzeigende Zeilen in der Postvorschau",
                 "show_max_lines_help": "Zum Deaktivieren auf 0 festlegen. Wenn ein Beitrag länger als die konfigurierte Anzahl von Zeilen ist, wird er in der Beitragsvorschau mit einem Ausblendeffekt abgeschnitten.",
                 "select_best_answer_reminder_days": "Erinnerungshäufigkeit",
@@ -44,7 +43,9 @@
                 "display_tags": "Tags in Suchergebnissen anzeigen",
                 "display_tags_help": "Tags in Suchergebnissen für Diskussionen mit „Beste Antworten“ anzeigen",
                 "discussion_sidebar_jump_button": "Schaltfläche „Zur besten Antwort springen“ in der Diskussionsseitenleiste anzeigen",
-                "discussion_sidebar_jump_button_help": "Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt."
+                "discussion_sidebar_jump_button_help": "Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt.",
+                "allow_select_own_post": "Eigenen Beitrag auswählen",
+                "allow_select_own_post_help": "Einem Benutzer erlauben, seinen eigenen Beitrag als beste Antwort auf eine Diskussion auszuwählen"
             },
             "edit_tag": {
                 "qna_label": "Die Option Beste Antworten aktivieren, um in diesem Tag festgelegt zu werden",

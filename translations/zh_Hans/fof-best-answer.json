@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "为自己的主题选择最佳回复",
-                "best_answer_not_own_discussion": "为他人的主题选择最佳回复"
+                "best_answer_not_own_discussion": "为他人的主题选择最佳回复",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "高级",
                     "reminders_notice": "要运行提醒功能，你必须正确配置 Flarum 调度器。"
                 },
-                "allow_select_own_post": "允许自选",
-                "allow_select_own_post_help": "允许用户将自己的帖子设为最佳回复",
                 "show_max_lines_label": "最大预览帖行数",
                 "show_max_lines_help": "预览帖超过一定行数时，使用淡出效果截断展示。设为 0 禁用此效果。",
                 "select_best_answer_reminder_days": "提醒计时",
@@ -45,6 +44,8 @@
                 "display_tags_help": "在搜索结果中展示最佳回复主题帖标签",
                 "discussion_sidebar_jump_button": "展示最佳回复跳转按钮",
                 "discussion_sidebar_jump_button_help": "在主题帖侧边栏添加一个可以跳转到最佳回复的按钮。",
+                "allow_select_own_post": "允许自选",
+                "allow_select_own_post_help": "允许用户将自己的帖子设为最佳回复",
                 "enable_all_tags_button": "为所有标签启用最佳回复",
                 "enable_all_tags_reminder_button": "为所有标签启用提醒功能",
                 "introduction": "你需要前往 <code><a>flarum/tags</a></code> 为特定标签开启最佳回复和提醒功能。你可以在「权限」页面为全局或特定标签设置最佳回复的操作权限。\n",

@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Seleccionar la Mejor Respuesta (discusión propia)",
-                "best_answer_not_own_discussion": "Seleccionar la Mejor Respuesta (discusión ajena)"
+                "best_answer_not_own_discussion": "Seleccionar la Mejor Respuesta (discusión ajena)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Avanzado",
                     "reminders_notice": "Para que los recordatorios funcionen, el planificador de Flarum debe estar configurado correctamente."
                 },
-                "allow_select_own_post": "Seleccionar mensaje propio",
-                "allow_select_own_post_help": "Permitir al usuario seleccionar uno de sus propios mensajes como la mejor respuesta",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Frecuencia de recordatorios",
@@ -45,6 +44,8 @@
                 "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
                 "discussion_sidebar_jump_button_help": "",
+                "allow_select_own_post": "Seleccionar mensaje propio",
+                "allow_select_own_post_help": "Permitir al usuario seleccionar uno de sus propios mensajes como la mejor respuesta",
                 "enable_all_tags_button": "Activar mejor respuesta para todas las etiquetas",
                 "enable_all_tags_reminder_button": "Activar recordatorios en todas las etiquetas",
                 "introduction": "Puedes activar cuáles etiquetas permiten Mejor Respuesta en <code><a>flarum/tags</a></code> y así también las que aceptan recordatorios opcionales cuando se encuentren sin resolver. Cuando una etiqueta admite Mejor Respuesta, se deben asignar permisos a cada grupo de usuarios quienes podrán establecer una respuesta (tanto para discusiones propias o cualquier otra discusión). \n\nPuedes asignar los permisos de manera global (para cualquier etiqueta que admita Mejor Respuesta), o de manera individual.\n"

@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Aukeratu erantzun hoberena (Eztabaidaren jabea)",
-                "best_answer_not_own_discussion": "Aukeratu erantzun hoberena (ez jabeak)"
+                "best_answer_not_own_discussion": "Aukeratu erantzun hoberena (ez jabeak)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "",
                     "reminders_notice": "For reminders to function correctly, you must have set up the Flarum scheduler correctly."
                 },
-                "allow_select_own_post": "Baimendu erabiltzaileak haien erantzuna hoberena bezala marketzen",
-                "allow_select_own_post_help": "",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Gogoratu erabiltzaileak X egun ondoren erantzun hoberena markatzeko",
@@ -44,7 +43,8 @@
                 "display_tags": "",
                 "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "discussion_sidebar_jump_button_help": "",
+                "allow_select_own_post": "Baimendu erabiltzaileak haien erantzuna hoberena bezala marketzen"
             },
             "edit_tag": {
                 "qna_label": "",

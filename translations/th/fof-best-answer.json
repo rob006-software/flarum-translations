@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "เลือกคำตอบที่ดีที่สุด (ของตนเอง)",
-                "best_answer_not_own_discussion": "เลือกคำตอบที่ดีที่สุด (ไม่ใช่ของตนเอง)"
+                "best_answer_not_own_discussion": "เลือกคำตอบที่ดีที่สุด (ไม่ใช่ของตนเอง)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "ขั้นสูง",
                     "reminders_notice": "สำหรับเตือนความจำเพื่อให้สามารถใช้งานได้คุณต้องตั้งค่าตรางเวลาของ Flarum ให้ถูกต้อง"
                 },
-                "allow_select_own_post": "เลือกโพสต์ของตนเอง",
-                "allow_select_own_post_help": "อนุญาติให้เลือกโพสต์ของตนเองในการสนทนาเป็นคำตอบที่ดีที่สุด",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "ความถี่ในการเตือน",
@@ -45,6 +44,8 @@
                 "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
                 "discussion_sidebar_jump_button_help": "",
+                "allow_select_own_post": "เลือกโพสต์ของตนเอง",
+                "allow_select_own_post_help": "อนุญาติให้เลือกโพสต์ของตนเองในการสนทนาเป็นคำตอบที่ดีที่สุด",
                 "introduction": "เปิดใช้แท็กที่อนุญาติให้ใช้คำตอบที่ดีที่สุดใน <code>flarum/tags</code> และเลือกว่าแท็กใดอนุญาติการเตือนความจำ เมื่อแท็กเปิดใช้งานคำตอบที่ดีที่สุด ให้กำหนดสิทธิ์ให้กับแต่ละกลุ่มผู้ใช้ที่อาจกำหนดคำตอบ (การสนทนาของตัวเอง การสนทนาใดๆ) สิทธิ์อาจกำหนดได้ทุกคน (สำหรับแท็กที่มีคำตอบที่ดีที่สุด) หรือตามแต่ละแท็ก\n"
             },
             "edit_tag": {

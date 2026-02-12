@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Scegli risposta migliore (propria Discussione)",
-                "best_answer_not_own_discussion": "Scegli risposta migliore (Discussione altrui)"
+                "best_answer_not_own_discussion": "Scegli risposta migliore (Discussione altrui)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Avanzate",
                     "reminders_notice": "Affinché i promemoria funzionino correttamente, è necessario aver impostato correttamente lo scheduler di Flarum."
                 },
-                "allow_select_own_post": "Consenti agli utenti di selezionare i propri post",
-                "allow_select_own_post_help": "Permetti di selezionere il proprio post come risposta migliore",
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
                 "select_best_answer_reminder_days": "Frequenza promemoria",
@@ -45,6 +44,8 @@
                 "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
                 "discussion_sidebar_jump_button_help": "",
+                "allow_select_own_post": "Consenti agli utenti di selezionare i propri post",
+                "allow_select_own_post_help": "Permetti di selezionere il proprio post come risposta migliore",
                 "enable_all_tags_button": "Abilita tutti i tag per Risposta Migliore",
                 "enable_all_tags_reminder_button": "Abilita tutti i tag per i promemoria di Risposta Migliore",
                 "introduction": "Abilita quali tag devono supportare le risposte migliore in <code><a>flarum/tags</a></code> e, facoltativamente, quali tag devono supportare i promemoria. Quando un tag è abilitato per la risposta migliore, assegna le autorizzazioni a ciascun gruppo di utenti che può impostare le risposte (discussione personale, qualsiasi discussione). Le autorizzazioni possono essere assegnate globalmente (per qualsiasi tag abilitato Best Answer) o in base al tag.\n",

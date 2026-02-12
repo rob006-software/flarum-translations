@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Valitse paras vastaus (oma keskustelu)",
-                "best_answer_not_own_discussion": "Valitse paras vastaus (muiden keskustelu)"
+                "best_answer_not_own_discussion": "Valitse paras vastaus (muiden keskustelu)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Lisäasetukset",
                     "reminders_notice": "Muistutuksia käyttääksesi sinun on täytynyt asettaa Flarumin ajastukset oikein."
                 },
-                "allow_select_own_post": "Valitse oma viesti",
-                "allow_select_own_post_help": "Salli käyttäjän valita joku omista viesteistään keskustelun parhaaksi vastaukseksi",
                 "show_max_lines_label": "Viestin esikatselussa näytettävien rivien määrä (max)",
                 "show_max_lines_help": "Aseta arvoon 0 ottaaksesi pois käytöstä. Jos viesti on pidempi kuin asetettu rivimäärä, viestiä lyhennetään esikatselussa.",
                 "select_best_answer_reminder_days": "Muistutuksien väli",
@@ -45,6 +44,8 @@
                 "display_tags_help": "Näyttää avainsana(t) hakutuloksessi Parhaiden vastausten keskusteluissa",
                 "discussion_sidebar_jump_button": "Näytä hyppää parhaaseen vastaukseen nappi keskustelun sivupalkissa",
                 "discussion_sidebar_jump_button_help": "Lisää napin keskustelun sivupalkkiin, josta pääsee parhaaseen vastaukseen.",
+                "allow_select_own_post": "Valitse oma viesti",
+                "allow_select_own_post_help": "Salli käyttäjän valita joku omista viesteistään keskustelun parhaaksi vastaukseksi",
                 "enable_all_tags_button": "Ota käyttöön Parhaat vastaukset kaikille avainsanoille",
                 "enable_all_tags_reminder_button": "Ota käyttöön Parhaiden vastausten muistutukset kaikille avainsanoille",
                 "introduction": "Valitse mitkä avainsanat tukee parhaita vastauksia <code><a>flarum/tags</a></code> osiossa, sekä vaihtoehtoisesti mitkä avainsanat tukeavat muistutuksia. Kun paras vastaus on käytössä, aseta oikeudet ryhmille kuka voi asettaa vastauksen parhaaksi (oma keskustelu, mikä tahansa keskustelu. Oikeudet voi määrittää globaalisti (mihin tahansa parhaan vastauksen hyväksyvään avainsanaan) tai avainsanakohtaisesti.\n"

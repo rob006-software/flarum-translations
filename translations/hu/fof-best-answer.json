@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Legjobb válasz kiválasztása (saját téma)",
-                "best_answer_not_own_discussion": "Legjobb válasz kiválasztása (nem saját téma)"
+                "best_answer_not_own_discussion": "Legjobb válasz kiválasztása (nem saját téma)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Speciális",
                     "reminders_notice": "Ahhoz, hogy az emlékeztető működjön, a Flarum ütemezőjét jól kell beállítani."
                 },
-                "allow_select_own_post": "Saját bejegyzés kiválasztása",
-                "allow_select_own_post_help": "Engedélyezés, hogy a felhasználók a saját bejegyzésüket válasszák a téma legjobb válaszaként",
                 "show_max_lines_label": "Bejegyzés-előnézetekben megjelenítendő sorok legnagyobb száma",
                 "show_max_lines_help": "Állítsa 0-ra a kikapcsoláshoz. Ha egy bejegyzés hosszabb mint a beállított sorok száma, akkor a bejegyzés előnézete le lesz rövidítve egy elhalványítási hatással.",
                 "select_best_answer_reminder_days": "Emlékeztető gyakorisága",
@@ -45,6 +44,8 @@
                 "display_tags_help": "A címkék megjelenítése a legjobb válasszal rendelkező témák keresési találataiban",
                 "discussion_sidebar_jump_button": "A legjobb válaszhoz ugrás gomb megjelenítése a téma oldalsávjában",
                 "discussion_sidebar_jump_button_help": "Hozzáad egy gombot a téma oldalsávjához, mellyel oda lehet ugrani a bejegyzések közé, a legjobb válaszhoz.",
+                "allow_select_own_post": "Saját bejegyzés kiválasztása",
+                "allow_select_own_post_help": "Engedélyezés, hogy a felhasználók a saját bejegyzésüket válasszák a téma legjobb válaszaként",
                 "enable_all_tags_button": "A legjobb válasz bekapcsolása az összes címkénél",
                 "enable_all_tags_reminder_button": "A legjobb válasz emlékeztető bekapcsolása az összes címkénél",
                 "introduction": "Állítsa be a <code><a>flarum/tags</a></code> lapon, hogy mely címkék támogassák a legjobb válaszokat, és mely címkék támogassák az emlékeztetőket. Ha egy címkénél engedélyezettek a legjobb válaszok, akkor állítson be engedélyeket, hogy mely felhasználói csoportok állíthassák be a válaszokat (saját téma, bármely téma). A jogosultságok megadhatók globálisan (bármely olyan címkénél, amely engedélyezi a legjobb választ), vagy címkénként.\n",

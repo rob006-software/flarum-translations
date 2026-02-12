@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "best_answer": "Beste Antwort auswählen (eigene Diskussion)",
-                "best_answer_not_own_discussion": "Beste Antwort auswählen (nicht eigene Diskussion)"
+                "best_answer_not_own_discussion": "Beste Antwort auswählen (nicht eigene Diskussion)",
+                "allow_select_own_post": ""
             },
             "settings": {
                 "label": {
@@ -14,8 +15,6 @@
                     "advanced": "Erweitert",
                     "reminders_notice": "Damit Erinnerungen funktionieren, müssen Sie den Flarum-Planer richtig eingerichtet haben."
                 },
-                "allow_select_own_post": "Eigenen Beitrag auswählen",
-                "allow_select_own_post_help": "Einem Benutzer erlauben, seinen eigenen Beitrag als beste Antwort auf eine Diskussion auszuwählen",
                 "show_max_lines_label": "Maximal anzuzeigende Zeilen in der Postvorschau",
                 "show_max_lines_help": "Zum Deaktivieren auf 0 festlegen. Wenn ein Beitrag länger als die konfigurierte Anzahl von Zeilen ist, wird er in der Beitragsvorschau mit einem Ausblendeffekt abgeschnitten.",
                 "select_best_answer_reminder_days": "Erinnerungshäufigkeit",
@@ -45,6 +44,8 @@
                 "display_tags_help": "Tags in Suchergebnissen für Diskussionen mit „Beste Antworten“ anzeigen",
                 "discussion_sidebar_jump_button": "Schaltfläche „Zur besten Antwort springen“ in der Diskussionsseitenleiste anzeigen",
                 "discussion_sidebar_jump_button_help": "Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt.",
+                "allow_select_own_post": "Eigenen Beitrag auswählen",
+                "allow_select_own_post_help": "Einem Benutzer erlauben, seinen eigenen Beitrag als beste Antwort auf eine Diskussion auszuwählen",
                 "enable_all_tags_button": "Alle Tags für beste Antworten aktivieren",
                 "enable_all_tags_reminder_button": "Alle Tags für Erinnerungen für die beste Antwort aktivieren",
                 "introduction": "Aktiviere in <code><a>flarum/tags</a></code>, welche Tags Beste Antworten unterstützen sollen, und optional welche Tags Erinnerungen unterstützen sollen. Wenn für ein Tag Beste Antwort aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen kann (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für alle Best-Antwort-anabled-Tags) oder pro Tag zugewiesen werden.\n",
