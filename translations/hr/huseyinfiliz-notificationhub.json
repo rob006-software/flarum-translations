@@ -2,64 +2,64 @@
     "huseyinfiliz-notificationhub": {
         "admin": {
             "title": {
-                "page_title": ""
+                "page_title": "Vrste obavijesti"
             },
             "permissions": {
-                "send_all": "",
-                "send_user": ""
+                "send_all": "Pošalji obavijesti svim korisnicima",
+                "send_user": "Slanje obavijesti pojedinačnim korisnicima"
             },
             "settings": {
-                "add_button": "",
-                "no_data": "",
-                "delete_confirm": "",
+                "add_button": "Dodaj vrstu obavijesti",
+                "no_data": "Još nema vrsta obavijesti.",
+                "delete_confirm": "Jeste li sigurni da želite obrisati ovu vrstu obavijesti i sve s njom povezane obavijesti?",
                 "fields": {
-                    "actions": "",
-                    "name": "",
-                    "excerpt_key": "",
-                    "description": "",
-                    "icon": "",
-                    "default_message_key": "",
-                    "permission": "",
-                    "color": "",
-                    "default_url": "",
-                    "default_recipients": "",
-                    "sort_order": "",
-                    "active": ""
+                    "actions": "Radnje",
+                    "name": "Naziv vrste obavijesti",
+                    "excerpt_key": "Zadani izvadak",
+                    "description": "Opis vrste obavijesti",
+                    "icon": "Zadana ikona",
+                    "default_message_key": "Zadana poruka",
+                    "permission": "Dopuštenje za vrstu obavijesti",
+                    "color": "Boja vrste obavijesti",
+                    "default_url": "Zadana poveznica",
+                    "default_recipients": "Zadani primatelji",
+                    "sort_order": "Poredak sortiranja",
+                    "active": "Aktivno"
                 },
-                "save": "",
-                "edit_notification_type": "",
-                "add_notification_type": ""
+                "save": "Spremi",
+                "edit_notification_type": "Uredi vrstu obavijesti",
+                "add_notification_type": "Dodaj vrstu obavijesti"
             }
         },
         "forum": {
             "links": {
-                "notification_individual": "",
-                "notification_all": ""
+                "notification_individual": "Pošalji obavijest",
+                "notification_all": "Pošalji obavijest"
             },
             "modal_notification": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "message_label": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "submit_button": "",
-                "notification_sent_message": "",
-                "notification_type_label": "",
-                "no_notification_types": "",
-                "preview_title": "",
-                "preview_message_placeholder": ""
+                "title_text": "Pošalji obavijest",
+                "recipients_label": "Primatelji",
+                "recipients_placeholder": "Upišite korisničko ime ili naziv grupe...",
+                "message_label": "Poruka",
+                "url_label": "Ciljna poveznica",
+                "url_placeholder": "https://www.example.com",
+                "submit_button": "Pošalji obavijest",
+                "notification_sent_message": "Obavijesti su poslane sljedećem broju korisnika: {recipientsCount}!",
+                "notification_type_label": "Vrsta obavijesti",
+                "no_notification_types": "Nisu pronađene aktivne vrste obavijesti.",
+                "preview_title": "Pretpregled obavijesti",
+                "preview_message_placeholder": "Poruka obavijesti..."
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "Korisnik",
+                "group": "Grupa"
             }
         },
         "api": {
-            "message_required": "",
-            "user_ids_required": "",
-            "subject_id_required": "",
-            "no_valid_recipients": ""
+            "message_required": "Poruka je obvezna.",
+            "user_ids_required": "Korisnički ID-ovi su obvezni.",
+            "subject_id_required": "Vrsta obavijesti je obvezna.",
+            "no_valid_recipients": "Nisu pronađeni valjani primatelji."
         }
     }
 }
