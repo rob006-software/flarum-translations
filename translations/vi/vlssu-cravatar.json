@@ -10,10 +10,6 @@
                     "title": "Thay thế avatar tùy chỉnh đã tải lên diễn đàn",
                     "helptext": "Thay thế avatar tùy chỉnh đã được tải lên diễn đàn bằng Cravatar"
                 },
-                "allow-user-toggle": {
-                    "title": "",
-                    "helptext": ""
-                },
                 "defaults": {
                     "title": "Mặc định",
                     "helptext": "Điều gì xảy ra khi một địa chỉ email không có hình ảnh Cravatar phù hợp? Cravatar có một số tùy chọn tích hợp sẵn mà bạn có thể sử dụng làm mặc định. Hầu hết các tùy chọn này hoạt động bằng cách lấy hash email được yêu cầu và sử dụng nó để tạo hình ảnh theo chủ đề, độc nhất cho địa chỉ email đó.",
@@ -40,9 +36,7 @@
         },
         "forum": {
             "settings": {
-                "edit-cravatar": "Quản lý avatar trên cravatar.cn",
-                "use-cravatar": "",
-                "use-uploaded": ""
+                "edit-cravatar": "Quản lý avatar trên cravatar.cn"
             }
         }
     }

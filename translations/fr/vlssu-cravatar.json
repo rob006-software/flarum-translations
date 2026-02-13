@@ -10,10 +10,6 @@
                     "title": "Remplacer les avatars personnalisés transférés sur le forum",
                     "helptext": "Remplacer les avatars personnalisés déjà transférés sur le forum par un cravatar"
                 },
-                "allow-user-toggle": {
-                    "title": "",
-                    "helptext": ""
-                },
                 "defaults": {
                     "title": "Par défaut",
                     "helptext": "Que se passe-t-il lorsqu'une adresse de courriel n'est pas associée à une image cravatar ? Cravatar dispose d'un certain nombre d'options intégrées que vous pouvez utiliser comme valeurs par défaut. La plupart d'entre elles fonctionnent en prenant le hachage de l'adresse de courriel demandé et en l'utilisant pour générer une image à thème qui est unique à cette adresse de courriel.",
@@ -40,9 +36,7 @@
         },
         "forum": {
             "settings": {
-                "edit-cravatar": "Gérer un avatar sur cravatar.cn",
-                "use-cravatar": "",
-                "use-uploaded": ""
+                "edit-cravatar": "Gérer un avatar sur cravatar.cn"
             }
         }
     }
