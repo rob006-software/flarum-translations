@@ -2,43 +2,43 @@
     "ordinaryjellyfish-sentra": {
         "admin": {
             "permissions": {
-                "undo_post_score": ""
+                "undo_post_score": "=> ordinaryjellyfish-sentra.lib.undo_post_score"
             },
-            "service_account": "",
+            "service_account": "Hizmet Hesabı",
             "services": {
-                "language": "",
-                "language_help": ""
+                "language": "Azure AI Dili",
+                "language_help": "Azure AI Language, metinleri analiz etmek için doğal dil işlemeyi kullanan bir hizmettir."
             },
             "modules": {
-                "identity_sentinel": "",
-                "identity_sentinel_help": "",
+                "identity_sentinel": "Identity Sentinel",
+                "identity_sentinel_help": "Identity Sentinel, gönderilerdeki kişisel olarak tanımlanabilir bilgileri tespit etmek için kullanılan bir modüldür.",
                 "identity_sentinel_settings": {
-                    "action": "",
-                    "action_help": "",
-                    "action_flag": "",
-                    "action_redact": "",
-                    "confidence": "",
-                    "confidence_help": "",
-                    "pii_threshold": "",
-                    "pii_threshold_help": ""
+                    "action": "Algılama Eylemi",
+                    "action_help": "Kriterleriniz karşılandığında alınacak önlem.",
+                    "action_flag": "Gönderiyi İşaretle",
+                    "action_redact": "Bilgileri Düzenle",
+                    "confidence": "Güven Eşiği",
+                    "confidence_help": "Eylemi tetiklemek için gereken güven eşiği, 0 ile 1 arasında bir ondalık sayı olarak.",
+                    "pii_threshold": "Jenerik PII Threshold",
+                    "pii_threshold_help": "Eylem gerçekleştirmeden önce tespit edilecek genel kişisel olarak tanımlanabilir varlıkların sayısı. Hassas PII, kaç kez tespit edilirse edilsin her zaman eylem tetikleyecektir. Jenerik PII'nin tespit edilmesini istemiyorsanız 0 olarak ayarlayın."
                 }
             }
         },
         "forum": {
-            "undo_post_score": "",
-            "pii": ""
+            "undo_post_score": "=> ordinaryjellyfish-sentra.lib.undo_post_score",
+            "pii": "Kişisel Tanımlanabilir Bilgiler"
         },
         "lib": {
-            "undo_post_score": ""
+            "undo_post_score": "Gönderi Davranış Puanını Geri Al"
         },
         "email": {
-            "suspend_temporary_reason": "",
-            "suspend_permanent_reason": ""
+            "suspend_temporary_reason": "Sürekli olumsuz davranışlarınız nedeniyle otomatik olarak uzaklaştırıldınız. Bu uzaklaştırma {duration, plural, one {1 gün} plural {# gün}} sürecek ve otomatik olarak kaldırılacaktır. Bu uzaklaştırmanın hatalı yapıldığını düşünüyorsanız, lütfen forum personeliyle iletişime geçin.",
+            "suspend_permanent_reason": "Sürekli olumsuz davranışlarınız nedeniyle otomatik olarak askıya alındınız. Bu askıya alma işlemi kalıcıdır. Bu askıya alma işleminin hatalı olduğunu düşünüyorsanız, lütfen forum personeli ile iletişime geçin."
         }
     },
     "ordinaryjellyfish-sentra-prime": {
         "admin": {
-            "title": ""
+            "title": "Bu uzantının ayarları <a>standart Sentra uzantı sayfasında</a> bulunur. Keyfini çıkarın!"
         }
     }
 }
