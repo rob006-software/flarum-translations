@@ -12,7 +12,7 @@
                 "default_actor_placeholder_search": "Bir kullanıcıyı aramak için yazın...",
                 "default_actor_help": "Bu Flarum kullanıcısı tüm askıya alma, kilitleme, silme eylemlerinin aktörü olarak atanacaktır. Ayrıca, \"SSO'dan tartışma yazarı ata\" etkinleştirilmediği sürece tartışmaların ve gönderilerin sahibi olarak kullanılacaktır.\n",
                 "report_http_errors": "Yapılandırılmış Flarum muhabirlerine WordPress REST API HTTP hatalarını gönderin",
-                "report_http_errors_help": "Bu ayarın değeri ne olursa olsun, istekler her zaman varsayılan günlükçüye metin olarak kaydedilir. Bu seçenek, API hatalarının yığın izleriyle istisnalar olarak Sentry'ye veya diğer izleme araçlarına gönderilmesini istiyorsanız yararlıdır.\n",
+                "report_http_errors_help": "Bu ayarın değeri ne olursa olsun, istekler her zaman varsayılan günlüğe metin olarak kaydedilir. Bu seçenek, API hatalarının Sentry veya diğer izleme araçlarına istisna olarak yığın izlemeleriyle birlikte gönderilmesini istiyorsanız kullanışlıdır.\n",
                 "section_sso_intro": "Bu özellik, Wordpress kullanıcılarını Flarum ile sorunsuz bir şekilde bağlayacaktır. Onlar için otomatik olarak bir hesap oluşturacak ve Wordpress ile senkronize edecektir. Flarum'da mevcut bir hesap varsa e-posta üzerinden otomatik eşleştirir. Flarum'da bir kullanıcıyı silerseniz, Wordpress üzerinden oturum açarsa tekrar hesap oluşturur. Bu nedenle hesap silmek yerine askıya almayı deneyebilirsiniz.\n",
                 "enable_sso": "SSO Entegrasyonunu Etkinleştir",
                 "login_method": "Küresel Giriş Mekanizması",
