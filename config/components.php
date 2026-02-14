@@ -1396,6 +1396,12 @@ return [
 	'michaelbelgium-ai-autoreply' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-ai-autoreply/v1.3.0/locale/en.yml',
 	],
+	'mattoid-daily-check-in-history' => [
+		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-daily-check-in-history/v1.1.4.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'michaelbelgium-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v7.4.2/locale/en.yml',
 	],
