@@ -1274,6 +1274,12 @@ return [
 	'kyrne-whisper' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/whisper/0.1.4/resources/locale/en.yml',
 	],
+	'liplum-sync-profile-core' => [
+		'tag' => 'https://raw.githubusercontent.com/liplum/flarum-sync-profile-core/v0.2.3/locale/en.yml',
+		'__builtInLanguages' => [
+			'de',
+		],
+	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
 		'__builtInLanguages' => [
