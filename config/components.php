@@ -1469,6 +1469,9 @@ return [
 	],
 	'zhihe-subscriptions' => [
 		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-subscriptions/v2.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'ziiven-daily-check-in' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.7/locale/en.yml',
