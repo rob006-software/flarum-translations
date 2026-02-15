@@ -1466,6 +1466,9 @@ return [
 	],
 	'zhihe-money-system' => [
 		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-money-system/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'zhihe-primary-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-primary-posts/v1.0.3/locale/en.yml',
