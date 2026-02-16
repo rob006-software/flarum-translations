@@ -1103,6 +1103,12 @@ return [
 	'justoverclock-flachat' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flachat/0.1.2/locale/en.yml',
 	],
+	'justoverclock-flachievements' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flachievements/1.1.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'es',
+		],
+	],
 	'justoverclock-frontend-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/justoverclock-frontend-blog.yml',
 	],
