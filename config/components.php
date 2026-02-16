@@ -1276,6 +1276,9 @@ return [
 	],
 	'piwind-oauth-microsoft' => [
 		'tag' => 'https://raw.githubusercontent.com/piwind/flarum-ext-oauth-microsoft/v1.0.4/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'ralkage-hcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.0.0/resources/locale/en.yml',
