@@ -1,0 +1,30 @@
+{
+    "huseyinfiliz-private-profile-plus": {
+        "admin": {
+            "settings": {
+                "default_visibility_label": "Global Default Profile Visibility",
+                "default_visibility_help": "This is the default visibility level for all user profiles. Individual users can override this in their settings.",
+                "option_everyone": "Everyone",
+                "option_members": "Members Only",
+                "option_private": "Private"
+            },
+            "permissions": {
+                "bypass_profile_visibility": "Bypass profile visibility restrictions"
+            }
+        },
+        "forum": {
+            "user": {
+                "settings": {
+                    "profile_visibility_heading": "Profile Visibility",
+                    "profile_visibility_help": "Control who can see your profile posts and discussions.",
+                    "option_default": "Default (Current: {level})",
+                    "option_everyone": "Everyone",
+                    "option_members": "Members Only",
+                    "option_private": "Private"
+                }
+            },
+            "profile_private": "This profile is private.",
+            "profile_members_only": "This profile is visible to members only. Please log in to view."
+        }
+    }
+}
