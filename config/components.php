@@ -462,6 +462,9 @@ return [
 	],
 	'deteh-online-guests' => [
 		'tag' => 'https://raw.githubusercontent.com/deteh/flarum-ext-online-guests/1.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'pl',
+		],
 	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.2.0/resources/locale/en.yml',
