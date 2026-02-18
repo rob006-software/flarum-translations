@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Kategorije"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Zadržati poveznicu na stranicu oznaka u bočnoj navigaciji?",
+                "child_bare_icon": "Prikazati samo ikone podkategorija?",
+                "compact_mobile_mode": "Kompaktni mobilni način rada",
+                "full_page_desktop": "Puna stranica na radnoj površini?",
+                "parent_remove_icon": "Sakrij ikone za oznake prve razine?",
+                "parent_remove_description": "Sakrij opise za oznake prve razine?",
+                "parent_remove_stats": "Sakrij statistiku za oznake prve razine?",
+                "parent_remove_last_discussion": "Sakrij najnovije rasprave za oznake prve razine?",
+                "small_forum_optimized": "Optimizirati za male forume?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Trebaju li se ikone na podkategorijama prikazivati bez kružne pozadine?",
+                "full_page_desktop": "Treba li bočni navigacijski izbornik biti sažet u redak (kao na tradicionalnoj stranici s oznakama)? Ovo će također sakriti dodatke (poput Friends of Flarum statistike foruma) iz navigacijske trake na stranici s kategorijama.",
+                "small_forum_optimized": "Ovo će pružiti točniji broj rasprava/objava, ali će dramatično usporiti srednje i velike forume."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigacija",
+                "layout": "Raspored",
+                "parent_display": "Prikaz nadređene kategorije",
+                "child_display": "Prikaz podkategorije",
+                "performance": "Performanse"
             },
-            "title": ""
+            "title": "Postavke kategorija"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Sve kategorije",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Povratak na kategorije"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Rasprave",
+                "post_label": "Objave"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Nema rasprava (još uvijek!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategorije"
         }
     }
 }
