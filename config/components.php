@@ -1017,6 +1017,9 @@ return [
 	],
 	'litalino-title-content-length' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-title-content-length/1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'vi',
+		],
 	],
 	'littlecxm-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/littlecxm/flarum-reply-to-see/1.0.2/resources/locale/en.yml',
