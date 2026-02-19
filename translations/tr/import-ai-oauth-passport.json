@@ -2,44 +2,44 @@
     "import-ai-oauth-passport": {
         "admin": {
             "settings": {
-                "title": "",
-                "enabled_label": "",
-                "redirect_url_label": "",
-                "redirect_url_help": "",
-                "client_id_label": "",
-                "client_secret_label": "",
-                "scopes_label": "",
-                "authorization_endpoint_label": "",
-                "token_endpoint_label": "",
-                "user_information_endpoint_label": "",
-                "id_parameter_label": "",
-                "display_name_parameter_label": "",
-                "email_address_parameter_label": "",
-                "force_userid_label": "",
-                "force_name_label": "",
-                "force_email_label": "",
-                "update_display_name_label": "",
-                "update_email_label": "",
-                "replace_login_signup_label": "",
-                "button_title_label": "",
-                "button_icon_label": "",
-                "button_color_label": "",
-                "button_text_color_label": "",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": ""
+                "title": "OAuth Passport Ayarları",
+                "enabled_label": "OAuth Passport Girişini Etkinleştir",
+                "redirect_url_label": "Yönlendirme Bağlantısı (OAuth sunucunuza kopyalayın)",
+                "redirect_url_help": "Bu bağlantıyı OAuth sunucunuzun izin verilen yönlendirme bağlantıları listesine kopyalayın",
+                "client_id_label": "Client ID",
+                "client_secret_label": "Client Secret",
+                "scopes_label": "Kapsamlar (virgülle ayırın)",
+                "authorization_endpoint_label": "Yetkilendirme Uç Noktası (Authorization Endpoint) Bağlantısı",
+                "token_endpoint_label": "Belirteç Uç Noktası (Token Endpoint) Bağlantısı",
+                "user_information_endpoint_label": "Kullanıcı Bilgileri Uç Noktası Bağlantısı",
+                "id_parameter_label": "Kullanıcı Kimliği (User ID) Alan Adı",
+                "display_name_parameter_label": "Görüntülenen Ad Alan Adı",
+                "email_address_parameter_label": "E-posta Adresi Alan Adı",
+                "force_userid_label": "Kullanıcı Kimliğini Kullanıcı Adı Olarak Zorla",
+                "force_name_label": "Görüntülenen Adı Zorla",
+                "force_email_label": "E-posta Adresini Zorla (doğrulanmış olarak işaretle)",
+                "update_display_name_label": "Giriş yapıldığında görünen adı güncelle",
+                "update_email_label": "Giriş yapıldığında e-posta adresini güncelle",
+                "replace_login_signup_label": "Giriş/kayıt butonlarını sadece OAuth butonu ile değiştir",
+                "button_title_label": "Giriş Butonu Başlığı",
+                "button_icon_label": "Giriş Butonu Simgesi (FontAwesome sınıfı)",
+                "button_color_label": "Giriş Butonu Arka Plan Rengi",
+                "button_text_color_label": "Giriş Butonu Metin Rengi",
+                "fullscreen_popup_label": "OAuth kimlik doğrulaması için tam ekran pencere kullan",
+                "fullscreen_popup_help": "Etkinleştirildiğinde, OAuth girişi tam ekran bir pencerede açılır. Bu etkinse, genişlik ve yükseklik ayarları yoksayılır.",
+                "popup_width_label": "OAuth Pencere Genişliği",
+                "popup_width_help": "OAuth penceresinin genişliğini ayarlayın. \"OAuth kimlik doğrulaması için tam ekran pencere kullan\" seçeneği etkinse bu ayar yoksayılır.",
+                "popup_height_label": "OAuth Pencere Yüksekliği",
+                "popup_height_help": "OAuth penceresinin yüksekliğini ayarlayın. \"OAuth kimlik doğrulaması için tam ekran pencere kullan\" seçeneği etkinse bu ayar yoksayılır."
             }
         },
         "forum": {
             "log_in": {
-                "with_passport_button": ""
+                "with_passport_button": "Passport ile Giriş Yap"
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "Passport ile Giriş Yap"
         }
     }
 }
