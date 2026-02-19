@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Kategoriler"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Etiketler sayfası bağlantısı gezinme kenar çubuğunda tutulsun mu?",
+                "child_bare_icon": "Küçük simgeler çerçevelensin mi?",
+                "compact_mobile_mode": "Kompakt Mobil Modu",
+                "full_page_desktop": "Masaüstünde tam sayfa gösterilsin mi?",
+                "parent_remove_icon": "Ana kategorilerde etiketlere ait ikonları gösterilsin mi?",
+                "parent_remove_description": "Ana kategorilerde tartışmaları gösterilsin mi?",
+                "parent_remove_stats": "Ana kategorilerde etiketlere ait istatistikleri gösterilsin mi?",
+                "parent_remove_last_discussion": "Ana kategoride etiketteki en güncel tartışma görülsün mü?",
+                "small_forum_optimized": "Küçük topluluklar için optimize edilsin mi?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Alt kategorilerdeki simgeler dairesel bir arka plan olmadan görüntülensin mi?",
+                "full_page_desktop": "Yan menü bir satıra (geleneksel etiketler sayfasındaki gibi) daraltılsın mı? Bu aynı zamanda kategoriler sayfası yan menüdeki araçları da (Frineds of Flarum Forum Statistics gibi) gizleyecektir.",
+                "small_forum_optimized": "Bu, daha doğru tartışma/gönderi sayıları sağlar, ancak orta ve büyük forumları önemli ölçüde yavaşlatır."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigasyon",
+                "layout": "Yerleşim",
+                "parent_display": "Birincil Etiketlerin Görünümü",
+                "child_display": "İkincil Etiketlerin Görünümü",
+                "performance": "Performans"
             },
-            "title": ""
+            "title": "Kategoriler Ayarları"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Tüm Kategoriler",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Kategorilere Geri Dön"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Tartışmalar",
+                "post_label": "Gönderiler"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Hiç Tartışma Yok (Şimdilik!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategoriler"
         }
     }
 }
