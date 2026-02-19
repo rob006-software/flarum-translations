@@ -2,29 +2,29 @@
     "huseyinfiliz-private-profile-plus": {
         "admin": {
             "settings": {
-                "default_visibility_label": "",
-                "default_visibility_help": "",
-                "option_everyone": "",
-                "option_members": "",
-                "option_private": ""
+                "default_visibility_label": "Genel Varsayılan Profil Görünürlüğü",
+                "default_visibility_help": "Bu, tüm kullanıcı profilleri için varsayılan görünürlük seviyesidir. Kullanıcılar bunu kendi ayarlarından geçersiz kılabilir.",
+                "option_everyone": "Herkes",
+                "option_members": "Sadece Üyeler",
+                "option_private": "Gizli"
             },
             "permissions": {
-                "bypass_profile_visibility": ""
+                "bypass_profile_visibility": "Profil görünürlüğü kısıtlamalarını aş"
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "profile_visibility_heading": "",
-                    "profile_visibility_help": "",
-                    "option_default": "",
-                    "option_everyone": "",
-                    "option_members": "",
-                    "option_private": ""
+                    "profile_visibility_heading": "Profil Görünürlüğü",
+                    "profile_visibility_help": "Profil gönderilerinizi ve tartışmalarınızı kimlerin görebileceğini kontrol edin.",
+                    "option_default": "Varsayılan (Mevcut: {level})",
+                    "option_everyone": "Herkes",
+                    "option_members": "Sadece Üyeler",
+                    "option_private": "Gizli"
                 }
             },
             "profile_private": "Bu profil gizli.",
-            "profile_members_only": ""
+            "profile_members_only": "Bu profil sadece üyelere açıktır. Görüntülemek için lütfen giriş yapın."
         }
     }
 }
