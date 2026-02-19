@@ -2,10 +2,10 @@
     "import-ai-webhook": {
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "bearer_token_label": "",
-                "bearer_token_help": ""
+                "webhook_url_label": "Webhook Bağlantısı",
+                "webhook_url_help": "Kullanıcılar gönderi oluşturduğunda veya düzenlediğinde POST isteklerini alacak bağlantıyı girin. Veri paketi; etkinlik türünü ve kullanıcı, gönderi, tartışma ve aktör modeli verilerini içerir.",
+                "bearer_token_label": "Bearer Token",
+                "bearer_token_help": "Yetkilendirme başlığı için isteğe bağlı Bearer token. Token, her webhook isteğiyle birlikte 'Authorization: Bearer <your-token>' olarak gönderilecektir."
             }
         }
     }
