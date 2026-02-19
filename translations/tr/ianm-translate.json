@@ -5,24 +5,24 @@
                 "button": "Sözlük",
                 "create_button": "Yeni terim oluştur",
                 "refresh_button": "Yenile",
-                "edit_term": "",
-                "delete_term": "",
+                "edit_term": "Terimi düzenle",
+                "delete_term": "Terimi sil",
                 "section": {
                     "heading": "Sözlük Yapılandırması",
                     "help": "Sözlük kelimeleri veya terimleri, çeviri hizmetinin bunları çevirmemesi için tanımlanır. Bu, özel isimler, teknik terimler veya çevrilmemesi gereken diğer kelimeler için faydalıdır."
                 },
                 "terms": {
-                    "current": ""
+                    "current": "Şu anda {count, plural, one {# terim} other {# terim}} tanımlı"
                 },
-                "no_terms": "",
-                "extender_info": "",
-                "create_not_implemented": "",
-                "edit_not_available": "",
-                "delete_not_available": "",
+                "no_terms": "Şu anda tanımlanmış bir sözlük terimi bulunmuyor.",
+                "extender_info": "Sözlük terimleri, extend.php dosyanızdaki eklentinin PHP genişleticisi (extender) kullanılarak eklenebilir.",
+                "create_not_implemented": "Arayüz üzerinden terim oluşturma henüz uygulanmadı. PHP genişleticisini kullanın.",
+                "edit_not_available": "Bu terim kod içerisinde tanımlanmıştır ve arayüz üzerinden düzenlenemez",
+                "delete_not_available": "Bu terim kod içerisinde tanımlanmıştır ve arayüz üzerinden silinemez",
                 "source": {
-                    "code": "",
-                    "database": "",
-                    "default": ""
+                    "code": "Kodda tanımlı",
+                    "database": "Veritabanında kayıtlı",
+                    "default": "Yerleşik varsayılan"
                 }
             },
             "permission": {
@@ -51,8 +51,8 @@
                 "seemless-help": "Beta özelliği. Etkinleştirildiğinde, tüm kullanıcı içeriği otomatik olarak diğer mevcut forum dillerine çevrilecektir. Bir kullanıcı çok dilli içeriği görüntülediğinde, çeviriler otomatik olarak görüntülenecektir.",
                 "multi-lang-search": "Çok dilli çeviri",
                 "multi-lang-search-help": "Etkinleştirildiğinde, arama içeriklerin tüm çevirilerini de içerecektir.",
-                "short-content-length": "",
-                "short-content-length-help": "",
+                "short-content-length": "Kısa İçerik",
+                "short-content-length-help": "Etkinleştirildiğinde, belirlenen uzunluktan daha kısa olan içerikler çevrilecek ve mevcut arayüz dilinde yazıldığı varsayılacaktır. 0 bu özelliği devre dışı bırakır.",
                 "deepl": {
                     "api_key": {
                         "help": "{link} adresinden kaydolun. Sürücü, ücretsiz/pro anahtar tipini otomatik olarak algılayacaktır.",
@@ -76,20 +76,20 @@
                         }
                     },
                     "model_type": {
-                        "help": "",
-                        "label": "",
+                        "help": "Çeviri için hangi DeepL modelinin kullanılacağını seçin.",
+                        "label": "Model türü",
                         "options": {
-                            "latency_optimized": "",
-                            "prefer_quality_optimized": ""
+                            "latency_optimized": "Hız için optimize edilmiş",
+                            "prefer_quality_optimized": "Mümkünse kalite odaklı"
                         }
                     },
                     "glossary": {
                         "options": {
-                            "none": ""
+                            "none": "Sözlük yok"
                         },
                         "pair": {
-                            "label": "",
-                            "help": ""
+                            "label": "{source} -> {target} Sözlüğü",
+                            "help": "{source} dilinden {target} diline çeviri yaparken bir sözlük seçin veya bu dil çifti için sözlük gerekmiyorsa 'hiçbiri'ni seçin."
                         }
                     }
                 },
@@ -101,63 +101,63 @@
                 },
                 "openai": {
                     "api_key": {
-                        "help": "",
-                        "label": ""
+                        "help": "{link} adresinden bir API anahtarı alın. Bu sürücü GPT-4o ve GPT-4o-mini modellerini destekler.",
+                        "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "translation_model": {
-                        "help": "",
-                        "label": "",
+                        "help": "Çeviriler için hangi OpenAI modelinin kullanılacağını seçin. GPT-4o en yüksek kaliteyi, GPT-4o-mini iyi bir dengeyi, GPT-3.5-turbo ise en uygun maliyeti sunar.",
+                        "label": "Çeviri modeli",
                         "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
+                            "gpt-4o": "GPT-4o (Premium)",
+                            "gpt-4o-mini": "GPT-4o Mini (Dengeli)",
                             "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
+                                "5-turbo": "GPT-3.5 Turbo (Ekonomik)",
+                                "5-turbo-0125": "GPT-3.5 Turbo Güncel (Ekonomik+)"
                             }
                         }
                     },
                     "detection_model": {
-                        "help": "",
-                        "label": "",
+                        "help": "Dil algılama için hangi OpenAI modelinin kullanılacağını seçin. Dil algılama basit bir görev olduğu için GPT-3.5-turbo önerilir.",
+                        "label": "Dil algılama modeli",
                         "options": {
-                            "gpt-4o": "",
-                            "gpt-4o-mini": "",
+                            "gpt-4o": "GPT-4o (Premium)",
+                            "gpt-4o-mini": "GPT-4o Mini (Dengeli)",
                             "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
+                                "5-turbo": "GPT-3.5 Turbo (Ekonomik)",
+                                "5-turbo-0125": "GPT-3.5 Turbo Güncel (Ekonomik+)"
                             }
                         }
                     },
                     "de_variant": {
-                        "help": "",
-                        "label": "",
+                        "help": "Almancaya çeviri yaparken hangi varyantın kullanılacağını seçin.",
+                        "label": "Almanca varyantı",
                         "options": {
-                            "casual": "",
-                            "swiss": ""
+                            "casual": "Samimi Almanca",
+                            "swiss": "İsviçre Almancası"
                         }
                     },
                     "en_variant": {
-                        "help": "",
-                        "label": "",
+                        "help": "İngilizceye çeviri yaparken hangi varyantın kullanılacağını seçin.",
+                        "label": "İngilizce varyantı",
                         "options": {
-                            "en-GB": "",
-                            "en-US": ""
+                            "en-GB": "İngiliz İngilizcesi",
+                            "en-US": "Amerikan İngilizcesi"
                         }
                     },
                     "max_tokens": {
-                        "help": "",
-                        "label": "",
+                        "help": "Çeviri çıktısı için maksimum token sınırı. Yüksek değerler daha uzun çevirilere izin verir ancak maliyeti artırır. 1024 token ≈ 750 kelime.",
+                        "label": "Maksimum çıktı token'ı",
                         "options": {
-                            "1024": "",
-                            "2048": "",
-                            "4096": "",
-                            "6144": "",
-                            "8192": ""
+                            "1024": "1.024 token (~750 kelime)",
+                            "2048": "2.048 token (~1.500 kelime)",
+                            "4096": "4.096 token (~3.000 kelime)",
+                            "6144": "6.144 token (~4.500 kelime)",
+                            "8192": "8.192 token (~6.000 kelime)"
                         }
                     },
                     "timeout": {
-                        "help": "",
-                        "label": ""
+                        "help": "Saniye cinsinden istek zaman aşımı. Zaman aşımı hataları alıyorsanız bu değeri artırın.",
+                        "label": "Zaman aşımı (saniye)"
                     }
                 },
                 "translate-all-enabled": "Tüm çeviri dillerini etkinleştir",
@@ -191,7 +191,7 @@
         },
         "forum": {
             "post": {
-                "translation-error": ""
+                "translation-error": "Bu gönderinin çevirisi görüntülenirken bir sorun oluştu. Hata {uuid} ID'si ile kaydedildi. Sorun devam ederse lütfen bildirin."
             },
             "unknown-language": "[algılanmadı]",
             "detected-language": "Bu yayın {postLang} içinde",
@@ -220,8 +220,8 @@
                     "question-language": "Anket sorusu ({language})"
                 },
                 "poll-group": {
-                    "title": "",
-                    "name": ""
+                    "title": "Anket Grubu çevirilerini yönet",
+                    "name": "Grup adı"
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
@@ -252,7 +252,7 @@
                 }
             },
             "composer_edit": {
-                "language": ""
+                "language": "{language} dilindeki çevrilmiş içeriği güncelle"
             }
         },
         "lib": {
@@ -260,7 +260,7 @@
                 "deepl": "DeepL",
                 "google-free": "Google Translate",
                 "google-cloud": "Google Cloud Translate",
-                "openai": "",
+                "openai": "OpenAI",
                 "libre": "LibreTranslate"
             },
             "settings": {
