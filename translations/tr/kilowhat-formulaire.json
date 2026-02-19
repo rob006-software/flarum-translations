@@ -50,14 +50,14 @@
                 "uniformComposerLayoutHelp": "Etiketlerin, başlık ve içerik alanlarının stilini Formulaire ile eşleşecek şekilde değiştirir. Bu düzen daha da fazla yer kaplayacağından, <a>Composer Page</a> uzantısını yükleyip etkinleştirmeniz önerilir.\n",
                 "noByobuFields": "Byobu eklentisinin özel tartışmalarında, tartışma alanlarını dahil etmeyin",
                 "noByobuFieldsHelp": "Varsayılan olarak; etiketle sınırlandırılmayan tartışma alanları, özel tartışmalar da dahil olmak üzere tüm tartışmalara uygulanacaktır.",
-                "translateManually": "",
-                "translateManuallyHelp": "",
-                "translateWithTranslator": "",
-                "translateWithTranslatorHelp": "",
-                "replacementPatternLocale": "",
-                "replacementPatternLocaleHelp": "",
+                "translateManually": "Manuel form çevirisini etkinleştir",
+                "translateManuallyHelp": "Bu ayar etkin olduğunda, alan adları form yöneticisi arayüzünde çevrilebilir. Forumda birden fazla dilin etkin olması gerekir.\n",
+                "translateWithTranslator": "Flarum Translator API ile form çevirisini etkinleştir",
+                "translateWithTranslatorHelp": "Bu ayar etkin olduğunda, alan adları yerel genişleticiler (extenders) ve dil paketleri aracılığıyla özelleştirilebilir. Bu özelliğin nasıl kullanılacağını öğrenmek için dokümantasyona bakın.\n",
+                "replacementPatternLocale": "Değiştirme kalıbı uygulanırken kullanılan dil",
+                "replacementPatternLocaleHelp": "Varsayılan \"otomatik\" seçeneği, herhangi bir kuyruk etkin olmadığında formu gönderen kullanıcının dilinin kullanılacağı anlamına gelir. Eğer bir kuyruk etkinse, varsayılan forum dili kullanılır. Bu ayar hem bildirim e-postalarını hem de otomatik tartışma oluşturma işlemini etkiler.\n",
                 "replacementPatternLocaleOptions": {
-                    "auto": ""
+                    "auto": "Otomatik"
                 }
             }
         },
@@ -66,8 +66,8 @@
                 "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "require-submission-alert": {
-                "message": "",
-                "action": ""
+                "message": "\"{title}\" formunu gönderene kadar hesabınıza erişimi geçici olarak kısıtladık.",
+                "action": "Forma Git"
             },
             "form-index": {
                 "header": {
@@ -129,7 +129,7 @@
                 },
                 "tabs": {
                     "template": "Şablon",
-                    "translate": "",
+                    "translate": "Çevir",
                     "placement": "Yerleşim",
                     "access": "Erişim",
                     "notifications": "Bildirimler",
@@ -147,7 +147,7 @@
                 "template-export": "Şablon içe aktar/dışa aktar",
                 "enable-expert-mode": "Uzman modunu etkinleştir",
                 "disable-expert-mode": "Uzman modunu etkisizleştir",
-                "show-advanced-attributes": "",
+                "show-advanced-attributes": "Gelişmiş özellikleri göster...",
                 "restore": "Geri al",
                 "hide": "Sil",
                 "delete": "Kalıcı olarak sil",
@@ -161,11 +161,11 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "\"Kayıt sırasında göster\" özelliğini kullanmak için onaylanmamış üyelere \"kendini gör\" ve \"kendini düzenle\" iznini ayarlamanız gerekir.\n",
                     "show-on-composer-invalid-permissions": "\"Composer'de göster\"i kullanmak için seçilen etiket(ler)le tartışma başlatabilecek \"kendini gör\" ve \"kendini düzenle\" izinlerinin eşleşmesini sağlayın. Emin değilseniz \"üyeler\" olarak ayarlayın. Ayarlarınız doğru olsa bile bu mesaj görünebilir.\n",
-                    "require-submission-invalid-permissions": "",
+                    "require-submission-invalid-permissions": "\"Forumu kullanmak için gönderim zorunluluğu\" özelliğini kullanabilmek için, onaylanmamış üyelere \"kendi verilerini görme\" ve \"kendi verilerini düzenleme\" izinlerini vermeniz gerekir.\n",
                     "linked-form-is-draft": "Bu form şu anda taslak modunda. Alanların forumda görünmesi için \"Erişim\" altında etkinleştirin.\n",
                     "auto-link-permission-warning": "\"Tartışmayı otomatik olarak oluştur\" seçeneğine sahip formlar, bağımsız olarak erişildiğinde genel doldurma iznini kullanır.\n"
                 },
-                "expert-mode-warning": "Uzman modu etkinleştirildi. Bu, alan tanımlayıcılarını ve alan başına izinleri özelleştirmenize olanak tanır. Bir şeyleri bozabileceğiniz için bu özellikle ilgili belgeleri okuduğunuzdan emin olun!\n",
+                "expert-mode-warning": "Gelişmiş alan özellikleri görünür durumda. Bu özellikler hakkındaki dokümantasyonu okuduğunuzdan emin olun, aksi takdirde sistemin işleyişini bozabilirsiniz!\n",
                 "section": {
                     "template": "Şablon",
                     "permissions": "İzinler"
@@ -179,8 +179,8 @@
                         "user": "Kayıt esnasında göster"
                     },
                     "require-submission": {
-                        "switch": "",
-                        "warning": ""
+                        "switch": "Forumu kullanmak için gönderim zorunluluğu",
+                        "warning": "Kaydettikten sonra, eksik formu olan tüm kullanıcılar formu tekrar gönderene kadar forumdan uzaklaştırılacaktır. Devam edilsin mi?"
                     },
                     "automatic-discussion": "Form gönderiminden otomatik olarak tartışmalar oluşturun",
                     "automatic-discussion-help": "Etkinleştirildiğinde, form bağımsız bir form gibi erişilebilir olmaya devam eder. Gönderiler otomatik olarak yeni tartışmalar oluşturacak ve bunlara bağlanacaktır.\n",
@@ -211,13 +211,13 @@
                 "save-for-preview": "Önizleme için kaydet"
             },
             "show-advanced-attributes-modal": {
-                "title": "",
-                "toggle": "",
-                "close": "",
+                "title": "Gelişmiş alan özelliklerini göster",
+                "toggle": "Tümünü aç/kapat",
+                "close": "Kapat",
                 "attribute": {
-                    "key": "",
-                    "fillPermission": "",
-                    "translationKey": ""
+                    "key": "Anahtar",
+                    "fillPermission": "Doldurma izni",
+                    "translationKey": "Çeviri anahtarı"
                 }
             },
             "auto-discussion-options-modal": {
@@ -256,12 +256,12 @@
             "template-editor": {
                 "add-field": "Alan ekle",
                 "title": "Başlık",
-                "titleTranslationKey": "",
+                "titleTranslationKey": "(Uzman) Başlık çeviri anahtarı",
                 "description": "Açıklama",
-                "descriptionTranslationKey": "",
+                "descriptionTranslationKey": "(Uzman) Başlık çeviri anahtarı",
                 "key": "(Uzman) Gönderim yükündeki JSON anahtarı",
                 "fill-permission": "(Uzman) Doldurma izinleri",
-                "contentTranslationKey": "",
+                "contentTranslationKey": "(Uzman) İçerik çeviri anahtarı",
                 "required": "Gerekli",
                 "rich": "Zengin metin (TextFormatter)",
                 "min": "Minimum",
@@ -271,7 +271,7 @@
                 "regex": "Düzenli ifade",
                 "mime": "MIME türü (virgülle ayrılmış, joker karakteri ikinci bölüm olarak kabul eder)",
                 "other": "\"Diğer\" kullanıcı değerine izin ver",
-                "defaultValue": "",
+                "defaultValue": "Varsayılan değer",
                 "duplicate": "Yinelenen alan",
                 "delete": "Alanı sil",
                 "missing-title": "Başlıksız alan",
@@ -292,9 +292,9 @@
             "options-editor": {
                 "columns": {
                     "title": "Başlık",
-                    "titleTranslationKey": "",
+                    "titleTranslationKey": "(Uzman) Çeviri anahtarı",
                     "key": "(Uzman) Benzersiz Anahtar",
-                    "defaultValue": ""
+                    "defaultValue": "Varsayılan olarak"
                 },
                 "remove": "Kaldır seçeneği",
                 "new-placeholder": "Yeni seçenek..."
@@ -318,8 +318,8 @@
                 "other-placeholder": "Tip..."
             },
             "translate": {
-                "switch-tab-to-edit": "",
-                "option-heading": ""
+                "switch-tab-to-edit": "Alan yapılandırmasını değiştirmek için Şablon sekmesine geçin",
+                "option-heading": "Seçenek #{number}"
             },
             "submission": {
                 "form-closed": "Bu form kapalı.",
@@ -397,8 +397,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
-                    "user_joined_at": "",
-                    "user_groups": "",
+                    "user_joined_at": "=> kilowhat-formulaire.ref.submission-meta.user_joined_at",
+                    "user_groups": "=> kilowhat-formulaire.ref.submission-meta.user_groups",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -443,8 +443,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
-                    "user_joined_at": "",
-                    "user_groups": "",
+                    "user_joined_at": "=> kilowhat-formulaire.ref.submission-meta.user_joined_at",
+                    "user_groups": "=> kilowhat-formulaire.ref.submission-meta.user_groups",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -486,8 +486,8 @@
                 "user_displayname": "Kullanıcı Görünen Adı",
                 "user_email": "Kullanıcı e-postası",
                 "user_activated": "Aktif Hesap",
-                "user_joined_at": "",
-                "user_groups": "",
+                "user_joined_at": "Kullanıcı Katılım Tarihi",
+                "user_groups": "Kullanıcı Grupları",
                 "link_id": "Bağlantılı kaynak kimliği (ID)",
                 "locked_at": "Kilit Tarihi",
                 "created_at": "Oluşturulma tarihi",
