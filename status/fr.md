@@ -1667,7 +1667,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Compatible with recent Flarum">🟢</span><span title="Extension is abandoned">❗</span>
 			<a href="https://github.com/huseyinfiliz/sort-changer" title="huseyinfiliz/sort-changer"><code>huseyinfiliz/sort-changer</code></a>
 		</td>
 		<td align="center">150<br /><img src="https://img.shields.io/badge/--16-brightgreen" alt="-16" title="Change from last week"></td>
