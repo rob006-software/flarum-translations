@@ -3,26 +3,26 @@
         "admin": {
             "glossary": {
                 "button": "Glossar",
-                "create_button": "",
-                "refresh_button": "",
-                "edit_term": "",
-                "delete_term": "",
+                "create_button": "Neuen Begriff erstellen",
+                "refresh_button": "Aktualisieren",
+                "edit_term": "Begriff bearbeiten",
+                "delete_term": "Begriff löschen",
                 "section": {
                     "heading": "Glossar Konfiguration",
                     "help": ""
                 },
                 "terms": {
-                    "current": ""
+                    "current": "{count, plural, one {# Begriff} other {# Begriffe}} sind momentan definiert"
                 },
-                "no_terms": "",
+                "no_terms": "Keine Glossarbegriffe sind momentan definiert.",
                 "extender_info": "",
                 "create_not_implemented": "",
                 "edit_not_available": "",
                 "delete_not_available": "",
                 "source": {
-                    "code": "",
-                    "database": "",
-                    "default": ""
+                    "code": "Im Code definiert",
+                    "database": "In der Datenbank hinterlegt",
+                    "default": "Integrierter Standard"
                 }
             },
             "permission": {
@@ -49,9 +49,9 @@
                 "button": "Einstellungen",
                 "seemless": "Nahtlose Übersetzung",
                 "seemless-help": "",
-                "multi-lang-search": "",
+                "multi-lang-search": "Mehrsprachige Suche",
                 "multi-lang-search-help": "",
-                "short-content-length": "",
+                "short-content-length": "Kurze Inhalte",
                 "short-content-length-help": "",
                 "deepl": {
                     "api_key": {
@@ -62,8 +62,8 @@
                         "help": "",
                         "label": "Englische Variante",
                         "options": {
-                            "en-US": "",
-                            "en-GB": ""
+                            "en-US": "Englisch (USA) en-US",
+                            "en-GB": "Englisch (GB) en-GB"
                         }
                     },
                     "formality": {
@@ -85,7 +85,7 @@
                     },
                     "glossary": {
                         "options": {
-                            "none": ""
+                            "none": "Kein Glossar"
                         },
                         "pair": {
                             "label": "",
@@ -106,9 +106,9 @@
                     },
                     "translation_model": {
                         "help": "",
-                        "label": "",
+                        "label": "Übersetzungsmodell",
                         "options": {
-                            "gpt-4o": "",
+                            "gpt-4o": "GPT-4o (Premium)",
                             "gpt-4o-mini": "",
                             "gpt-3": {
                                 "5-turbo": "",
@@ -222,7 +222,7 @@
                     "title": "",
                     "question": "Frage",
                     "subtitle": "Untertitel",
-                    "option": "",
+                    "option": "Antwort {number}",
                     "answer-additional": ""
                 }
             },
@@ -238,7 +238,7 @@
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Übersetzung",
                     "source-language": {
                         "help": "",
                         "label": ""
