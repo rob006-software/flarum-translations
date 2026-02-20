@@ -721,6 +721,9 @@ return [
 	],
 	'imeepo-more-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/imeepo/flarum-more-bbcode/v1.0.3/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.6/locale/en.yml',
