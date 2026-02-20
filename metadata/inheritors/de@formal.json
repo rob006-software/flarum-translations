@@ -9209,31 +9209,52 @@
                     "edit_term": "b9d525b2970cbfae0fbf5bfb1d2cf3d2 b9d525b2970cbfae0fbf5bfb1d2cf3d2",
                     "delete_term": "bcc35262bd8fd6675313008a3fd65796 bcc35262bd8fd6675313008a3fd65796",
                     "section": {
-                        "heading": "3aa0399727d35985bff14d25fec1b59b 3aa0399727d35985bff14d25fec1b59b"
+                        "heading": "3aa0399727d35985bff14d25fec1b59b 3aa0399727d35985bff14d25fec1b59b",
+                        "help": "66370dd196e844d4fc34751ece2d54cb 66370dd196e844d4fc34751ece2d54cb"
                     },
                     "terms": {
                         "current": "30551fcfc69bcd162616146f0022973e 30551fcfc69bcd162616146f0022973e"
                     },
                     "no_terms": "39835fd63c7a9d303c998b48bcdf1b24 39835fd63c7a9d303c998b48bcdf1b24",
+                    "extender_info": "91f8fe9275d65235392bddc00617ef5f 91f8fe9275d65235392bddc00617ef5f",
+                    "create_not_implemented": "7ffacf84039197e1e38df8dcdf129af5 7ffacf84039197e1e38df8dcdf129af5",
+                    "edit_not_available": "fb70b051cee6f00eea81504c1f824065 fb70b051cee6f00eea81504c1f824065",
+                    "delete_not_available": "4772f05edfd7d923779f2446479b98a1 4772f05edfd7d923779f2446479b98a1",
                     "source": {
                         "code": "a3bed27c217a5aee9739b0eb66d5b36e a3bed27c217a5aee9739b0eb66d5b36e",
                         "database": "9680341c586055a643669a7384a38aaa 9680341c586055a643669a7384a38aaa",
                         "default": "ff450c64a4119c3783e83eaab25c843e ff450c64a4119c3783e83eaab25c843e"
                     }
                 },
+                "permission": {
+                    "refresh-translation": "c1693f8bd7efac686b6eed3d2936ba78 c1693f8bd7efac686b6eed3d2936ba78",
+                    "edit-translation": "a7d6bfdaeac892ff04d82e09e66ddb77 a7d6bfdaeac892ff04d82e09e66ddb77"
+                },
                 "settings": {
                     "general": {
-                        "heading": "02be9999832d9b4f68c22d725bc04789 02be9999832d9b4f68c22d725bc04789"
+                        "heading": "02be9999832d9b4f68c22d725bc04789 02be9999832d9b4f68c22d725bc04789",
+                        "help": "b60271b84882b446c1f41844ee18259f b60271b84882b446c1f41844ee18259f"
                     },
                     "seo": {
                         "heading": "b54270288449eff3596bc7dc07326fdc b54270288449eff3596bc7dc07326fdc"
                     },
+                    "providers": {
+                        "heading": "b0d87997085a2b3fc763aa6737b5ac07 b0d87997085a2b3fc763aa6737b5ac07",
+                        "help": "2dfb601b2ace181444f1a4ab4de49e35 2dfb601b2ace181444f1a4ab4de49e35"
+                    },
                     "button": "27014dd1bf5fe7e41ced3bedfc4cd2aa 27014dd1bf5fe7e41ced3bedfc4cd2aa",
                     "seemless": "ff6ff56a68c85163761d93401223f157 ff6ff56a68c85163761d93401223f157",
+                    "seemless-help": "cfd1c1c30ffcea6ea23a626af60b7ba1 cfd1c1c30ffcea6ea23a626af60b7ba1",
                     "multi-lang-search": "1cccf2674cd807458a093faba8e49f4b 1cccf2674cd807458a093faba8e49f4b",
+                    "multi-lang-search-help": "0561c93a59215f0e6a246495397651fc 0561c93a59215f0e6a246495397651fc",
                     "short-content-length": "fec19807f7584ce2c74422019ade4899 fec19807f7584ce2c74422019ade4899",
                     "deepl": {
+                        "api_key": {
+                            "help": "ced1c70c5b4714ada8572225cfb5b062 ced1c70c5b4714ada8572225cfb5b062",
+                            "label": "fed6770ccb643630806c7bb9c93c8897 fed6770ccb643630806c7bb9c93c8897"
+                        },
                         "en_choice": {
+                            "help": "3961b3a626d48ce6065c139d5ac9cf79 3961b3a626d48ce6065c139d5ac9cf79",
                             "label": "e7bf5f8cfb2173eb954826f729151504 e7bf5f8cfb2173eb954826f729151504",
                             "options": {
                                 "en-US": "8f2f181b0f89c0ecd78cea8e21cd68b1 8f2f181b0f89c0ecd78cea8e21cd68b1",
@@ -9241,26 +9262,96 @@
                             }
                         },
                         "formality": {
+                            "help": "a1d95aa43464f84c31e29a999b4bd3dc a1d95aa43464f84c31e29a999b4bd3dc",
+                            "label": "490ed89c13cc9c174e5189a7e6279515 490ed89c13cc9c174e5189a7e6279515",
                             "options": {
                                 "default": "eb6d8ae6f20283755b339c0dc273988b eb6d8ae6f20283755b339c0dc273988b",
                                 "prefer_less": "538a60748b5dfc10d16eb887d36d2959 538a60748b5dfc10d16eb887d36d2959",
                                 "prefer_more": "e99c65578ce480632bd93d8dd8da29b7 e99c65578ce480632bd93d8dd8da29b7"
                             }
                         },
+                        "model_type": {
+                            "help": "894cd79afd5d9f32d4c8e6d009abcb70 894cd79afd5d9f32d4c8e6d009abcb70",
+                            "label": "964c7c2480289d03bae703fcbcdfbf4d 964c7c2480289d03bae703fcbcdfbf4d",
+                            "options": {
+                                "latency_optimized": "85ee9f7a088806c4ec4067ed53b25ef6 85ee9f7a088806c4ec4067ed53b25ef6",
+                                "prefer_quality_optimized": "8045b2eb99043572f86d8ea6b724108f 8045b2eb99043572f86d8ea6b724108f"
+                            }
+                        },
                         "glossary": {
                             "options": {
                                 "none": "a44beb01b7278510675a89ecc7b6fb9a a44beb01b7278510675a89ecc7b6fb9a"
+                            },
+                            "pair": {
+                                "label": "62e04005769e47b7549620c8b8b6249d 62e04005769e47b7549620c8b8b6249d"
                             }
                         }
                     },
+                    "google-cloud": {
+                        "api_key": {
+                            "label": "fed6770ccb643630806c7bb9c93c8897 fed6770ccb643630806c7bb9c93c8897"
+                        }
+                    },
                     "openai": {
+                        "api_key": {
+                            "label": "fed6770ccb643630806c7bb9c93c8897 fed6770ccb643630806c7bb9c93c8897"
+                        },
                         "translation_model": {
                             "label": "ed7a192526c1aafb08a0bd7f4d6c1044 ed7a192526c1aafb08a0bd7f4d6c1044",
                             "options": {
                                 "gpt-4o": "701c63e9b470473a12615caa23d19c1d 701c63e9b470473a12615caa23d19c1d"
                             }
+                        },
+                        "detection_model": {
+                            "label": "66b22f6347764dc8509f984e9f897ade 66b22f6347764dc8509f984e9f897ade",
+                            "options": {
+                                "gpt-4o": "701c63e9b470473a12615caa23d19c1d 701c63e9b470473a12615caa23d19c1d",
+                                "gpt-4o-mini": "1cd58eff2705908844b8a93b4ff3d20b 1cd58eff2705908844b8a93b4ff3d20b",
+                                "gpt-3": {
+                                    "5-turbo": "bb576eef7af7b8069b866e408464e1df bb576eef7af7b8069b866e408464e1df",
+                                    "5-turbo-0125": "eee819288eafa51d0af129d7866d023a eee819288eafa51d0af129d7866d023a"
+                                }
+                            }
+                        },
+                        "de_variant": {
+                            "help": "92bfcdc160ce9bb399172b1ba4e690d9 92bfcdc160ce9bb399172b1ba4e690d9",
+                            "label": "ffc0daf799dfbec6d92d216fe6f6e8fa ffc0daf799dfbec6d92d216fe6f6e8fa",
+                            "options": {
+                                "casual": "f8d729a2eb34a111d7f147e843a0f7a2 f8d729a2eb34a111d7f147e843a0f7a2",
+                                "swiss": "eae9487c58dec8e0a369da1bb9ff3080 eae9487c58dec8e0a369da1bb9ff3080"
+                            }
+                        },
+                        "en_variant": {
+                            "help": "d2c10a4408566a869e9bbe70694dc54d d2c10a4408566a869e9bbe70694dc54d",
+                            "label": "47cde334bbeb0ba4de47cdf5f648a892 47cde334bbeb0ba4de47cdf5f648a892",
+                            "options": {
+                                "en-GB": "4dff45c4f57be21dad2f9193bb333312 4dff45c4f57be21dad2f9193bb333312",
+                                "en-US": "fcd4ae242d446abcdb8fd3f0a7fffb1b fcd4ae242d446abcdb8fd3f0a7fffb1b"
+                            }
+                        },
+                        "max_tokens": {
+                            "help": "d3050c5f9ab8847407dd2037affd23a6 d3050c5f9ab8847407dd2037affd23a6",
+                            "label": "b190adf453cfb5882f4e53c4aa9f7a26 b190adf453cfb5882f4e53c4aa9f7a26",
+                            "options": {
+                                "1024": "fd11830f6be9fb3b6b14a3a874cd0b24 fd11830f6be9fb3b6b14a3a874cd0b24",
+                                "2048": "9f67ddb0f1ebaf732ce83db0d648f643 9f67ddb0f1ebaf732ce83db0d648f643",
+                                "4096": "debff8cd01e0aa5a7d1d9a3cb78f6402 debff8cd01e0aa5a7d1d9a3cb78f6402",
+                                "6144": "0ce65e54c932acda5d51714cd21a6003 0ce65e54c932acda5d51714cd21a6003",
+                                "8192": "8eb93dca31c315568236fadc0e8ebf5e 8eb93dca31c315568236fadc0e8ebf5e"
+                            }
+                        },
+                        "timeout": {
+                            "label": "fe9c9207024e930c54523d612312aabd fe9c9207024e930c54523d612312aabd"
                         }
                     },
+                    "translate-all-enabled": "d00d218e87a0329da9fe43d87134ccec d00d218e87a0329da9fe43d87134ccec",
+                    "bind-browser-language": "344123387b659cf00b119ce2e90091dd 344123387b659cf00b119ce2e90091dd",
+                    "bind-browser-language-help": "4cec4d0761742c50ed5884027d98e1d6 4cec4d0761742c50ed5884027d98e1d6",
+                    "translate-polls": "7ac4cf2139afc5067ce68f30c9490896 7ac4cf2139afc5067ce68f30c9490896",
+                    "translate-polls-help": "18494417c91dbcd4d997404c4a034d07 18494417c91dbcd4d997404c4a034d07",
+                    "provider": "4c67426bfb2072a32d13c3080642a6ad 4c67426bfb2072a32d13c3080642a6ad",
+                    "readme-info": "250f2de5de988eeac6af24fa2f577f93 250f2de5de988eeac6af24fa2f577f93",
+                    "readme-none": "d33f690af4d42f28bcf540e3afaedd44 d33f690af4d42f28bcf540e3afaedd44",
                     "libre": {
                         "url": {
                             "label": "a8fc9c34df737bb9cfd59696f0e1b3ec a8fc9c34df737bb9cfd59696f0e1b3ec"
@@ -9272,27 +9363,63 @@
                 }
             },
             "forum": {
+                "unknown-language": "29ed816508418f0b61c6dc0d955b4261 29ed816508418f0b61c6dc0d955b4261",
+                "detected-language": "935eda124ce489f8f5b783317ee5a85d 935eda124ce489f8f5b783317ee5a85d",
                 "translate-button-label": "c59cefbcfba7b00b96d89f1efaec9aed c59cefbcfba7b00b96d89f1efaec9aed",
+                "refresh-translation": "18c445c51e69f22062658cebff3c2818 18c445c51e69f22062658cebff3c2818",
+                "original-content": {
+                    "title": "cf4bd00706f85c5362354e4d3bad84e0 cf4bd00706f85c5362354e4d3bad84e0",
+                    "view": "c9c10fb82e5f9c5c34b9bbddba59c5dd c9c10fb82e5f9c5c34b9bbddba59c5dd"
+                },
                 "manage-translations": {
+                    "translations-label": "f686f320c3802565876af86f523cdfb6 f686f320c3802565876af86f523cdfb6",
+                    "button-label": "3b3eea596cd0344cd35ee5ec30be9946 3b3eea596cd0344cd35ee5ec30be9946",
+                    "original-language": "cfcfe1938011c14a4651ea6a50c8bc2e cfcfe1938011c14a4651ea6a50c8bc2e",
                     "poll": {
                         "subtitle": "b5b672c9d2e6836588978c12d9b534d5 b5b672c9d2e6836588978c12d9b534d5",
                         "question": "7715636d2deccc6f6edb6ebe342248ec 7715636d2deccc6f6edb6ebe342248ec"
                     },
+                    "poll-group": {
+                        "name": "d7d001377af53f0336a8a6eca47aa1a7 d7d001377af53f0336a8a6eca47aa1a7"
+                    },
+                    "save-changes": "1e382d5477484d2b130acaf315f1fc5d 1e382d5477484d2b130acaf315f1fc5d",
                     "quiz": {
                         "question": "7715636d2deccc6f6edb6ebe342248ec 7715636d2deccc6f6edb6ebe342248ec",
                         "subtitle": "b5b672c9d2e6836588978c12d9b534d5 b5b672c9d2e6836588978c12d9b534d5",
                         "option": "2436ef0bb637bea796e0fef9d3413ce1 2436ef0bb637bea796e0fef9d3413ce1"
                     }
                 },
+                "discussion": {
+                    "post": {
+                        "close-translation": "70a4773636061238d0fbaf210d99d41e 70a4773636061238d0fbaf210d99d41e",
+                        "translated-header": "55267036fb53f1d5038f31f4a975af96 55267036fb53f1d5038f31f4a975af96",
+                        "translated-updated": "11865ba0b75e7acd88c4457ddb99e8a3 11865ba0b75e7acd88c4457ddb99e8a3"
+                    },
+                    "title": {
+                        "detected-language": "e646db28384b4bff6bc28a43457a48e2 e646db28384b4bff6bc28a43457a48e2"
+                    }
+                },
                 "user": {
                     "settings": {
-                        "heading": "f54f3c009e2e066d7007a52d6d32ec34 f54f3c009e2e066d7007a52d6d32ec34"
+                        "heading": "f54f3c009e2e066d7007a52d6d32ec34 f54f3c009e2e066d7007a52d6d32ec34",
+                        "source-language": {
+                            "label": "011438d85fbbf91df21bbc42cd75e27e 011438d85fbbf91df21bbc42cd75e27e"
+                        }
                     }
+                },
+                "composer_edit": {
+                    "language": "88b04399d7b86f5ffa24031f5b81b494 88b04399d7b86f5ffa24031f5b81b494"
                 }
             },
             "lib": {
                 "providers": {
-                    "deepl": "086b5407f3734e9b5c12a636fc131ba8 086b5407f3734e9b5c12a636fc131ba8"
+                    "deepl": "086b5407f3734e9b5c12a636fc131ba8 086b5407f3734e9b5c12a636fc131ba8",
+                    "google-free": "52083338e44cecb061cd4f5be9c4c82a 52083338e44cecb061cd4f5be9c4c82a",
+                    "google-cloud": "7fad6f5b8fd63918dd1d33ff51f04fe1 7fad6f5b8fd63918dd1d33ff51f04fe1",
+                    "openai": "0523b13262b12c215d8009938f5c14f1 0523b13262b12c215d8009938f5c14f1"
+                },
+                "settings": {
+                    "api-key": "d49baca13a52bd681f6da4d6b7f5fd0f d49baca13a52bd681f6da4d6b7f5fd0f"
                 }
             }
         }
