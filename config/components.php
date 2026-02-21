@@ -739,6 +739,9 @@ return [
 	],
 	'gm-fire-passport' => [
 		'tag' => 'https://raw.githubusercontent.com/gm-fire/passport/v1.1.3/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'gtdxyz-login' => [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-login/1.0.2/locale/en.yml',
