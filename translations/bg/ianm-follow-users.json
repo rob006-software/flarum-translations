@@ -24,8 +24,10 @@
             "followed": "Следван",
             "followers": "{count, plural, one {Последовател} other {Последователи}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "followers_link": "",
             "profile_page": {
-                "no_following": "Изглежда, че не следвате никого."
+                "no_following": "Изглежда, че не следвате никого.",
+                "no_followers": ""
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",

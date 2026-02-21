@@ -24,8 +24,10 @@
             "followed": "{count, plural, one {Obserwowany} other {Obserwowanych}}",
             "followers": "{count, plural, one {Obserwujący} other {Obserwujących}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "followers_link": "",
             "profile_page": {
-                "no_following": "Wygląda na to, że nikogo jeszcze nie obserwujesz."
+                "no_following": "Wygląda na to, że nikogo jeszcze nie obserwujesz.",
+                "no_followers": ""
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
