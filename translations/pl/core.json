@@ -57,12 +57,12 @@
             "dashboard": {
                 "clear_cache_button": "Wyczyść cache",
                 "description": "Podstawowe informacje dotyczące forum.",
-                "info_button": "",
+                "info_button": "Informacje systemowe",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Informacje o systemie",
+                    "copy_button": "Skopiuj do schowka",
+                    "copy_success": "Skopiowano informacje systemowe do schowka",
+                    "copy_error": "Kopiowanie do schowka nie powiodło się"
                 },
                 "io_error_message": "Zapis do systemu plików się nie powiódł. Sprawdź uprawnienia systemu plików i spróbuj ponownie, lub spróbuj wykonać tę akcję z poziomu wiersza poleceń.",
                 "status": {
@@ -136,11 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "To rozszerzenie nie jest już rozwijane przez autora i może nie otrzymać aktualizacji.",
+                "abandoned_with_replacement": "To rozszerzenie zostało zastąpione przez {replacement}. Rozważ migrację do pakietu zastępczego.",
                 "configure_scopes": "Konfiguruj zakresy uprawnień",
                 "confirm_purge": "Wszystkie wpisy w bazie oraz zasoby powiązane z tym rozszerzeniem zostaną usunięte. Samo rozszerzenie nie zostanie odinstalowane, to musi być dokonane za pomocą Composera. Czy chcesz kontynuować?",
-                "deprecated": "",
+                "deprecated": "Przestarzałe",
                 "disabled": "Wyłączone",
                 "enable_to_see": "Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.",
                 "enabled": "Włączone",
@@ -162,7 +162,7 @@
                     "no_readme": "Wygląda na to, że to rozszerzenie nie posiada pliku README",
                     "title": "Dokumentacja {extName}"
                 },
-                "replaced": ""
+                "replaced": "Zastąpione"
             },
             "header": {
                 "get_help": "Uzyskaj pomoc",
