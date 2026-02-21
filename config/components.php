@@ -1806,6 +1806,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'zhihe-restricted-posts' => [
+		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-restricted-posts/v1.0.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'ziiven-daily-check-in' => [
 		'tag' => 'https://raw.githubusercontent.com/Ziiven/flarum-daily-check-in/v0.3.7/locale/en.yml',
 	],
