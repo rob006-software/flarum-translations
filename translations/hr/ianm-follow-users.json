@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Izvozi podatke o praćenim korisnicima i korisnicima koji prate.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Briše sve podatke vezane uz praćenje korisnika."
                 }
             }
         }
@@ -13,89 +13,89 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": ""
+                "be_followed_label": "Dozvoli korisnicima praćenje"
             },
             "settings": {
-                "button-on-profile-label": "",
-                "stats-on-profile-label": ""
+                "button-on-profile-label": "Prikaži gumb Prati izravno u zaglavlju profila korisnika",
+                "stats-on-profile-label": "Prikaži broj pratitelja i praćenih na profilima korisnika"
             }
         },
         "forum": {
-            "followed": "",
-            "followers": "",
-            "profile_link": "",
+            "followed": "Praćen",
+            "followers": "{count, plural, one {Pratitelj} other {Pratitelji}}",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
-                "no_following": ""
+                "no_following": "Izgleda da ne pratite nikoga."
             },
             "user_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
-                "change_button": ""
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.unfollow",
+                "change_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
-                "notify_new_follower_label": "",
-                "notify_new_unfollower_label": "",
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "block_follow": ""
+                "notify_new_follower_label": "Netko me prati",
+                "notify_new_unfollower_label": "Netko me je prestao pratiti",
+                "notify_new_discussion_label": "Netko koga pratim pokrenuo je raspravu",
+                "notify_new_post_label": "Netko koga pratim objavio je odgovor u postojećoj raspravi",
+                "block_follow": "Spriječi korisnike da me prate"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_follower_text": "",
-                "new_unfollower_text": ""
+                "new_discussion_text": "{username} je pokrenuo",
+                "new_post_text": "{username} je objavio u temi",
+                "new_follower_text": "{username} vas prati",
+                "new_unfollower_text": "{username} vas je prestao pratiti"
             },
             "badge": {
                 "label": {
-                    "follow": "",
-                    "lurk": ""
+                    "follow": "Praćene teme",
+                    "lurk": "Pratiti sve"
                 }
             },
             "filter": {
-                "following": ""
+                "following": "Praćeni korisnici"
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
-                    "no_user_attr_provided_err_debug": "",
-                    "save_btn": "",
-                    "cancel_btn": ""
+                    "title": "Odaberi razinu praćenja za {username}",
+                    "description": "Odaberi kako želiš pratiti <em>{username}</em>.",
+                    "follow_levels_heading": "Razine praćenja",
+                    "follow_select_label": "Vrsta praćenja",
+                    "no_user_attr_provided_err": "Ups, nešto je pošlo po krivu pri otvaranju ovog prozora.",
+                    "no_user_attr_provided_err_debug": "Atribut `user` nije proslijeđen modalu SelectFollowUserLevel prilikom stvaranja. Modal se ne može prikazati.",
+                    "save_btn": "Spremi",
+                    "cancel_btn": "Odustani"
                 }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
-            "new_follower_subject": "",
-            "new_post_subject": "",
-            "new_discussion_by_user_body": "",
-            "new_follower_body": "",
-            "new_post_body": ""
+            "new_discussion_by_user_subject": "[Prati korisnika] {title}",
+            "new_follower_subject": "[Prati korisnika] Imate novog pratitelja!",
+            "new_post_subject": "[Prati korisnika] Nova objava u temi {title}",
+            "new_discussion_by_user_body": "Bok {recipient_display_name},\n\n{user_display_name} pokrenuo je novu temu: {discussion_title}\n\nZa pregled nove teme, pogledajte sljedeću poveznicu:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Bok {recipient_display_name},\n\n{follower_display_name} vas je počeo pratiti, te će biti obaviješten kada pokrenete novu temu.\n\nZa pregled njihovog profila, pogledajte sljedeću poveznicu:\n\n{profile_url}\n",
+            "new_post_body": "Bok {recipient_display_name},\n\n{user_display_name} je objavio u temi: {discussion_title}\n\nZa pregled nove aktivnosti, pogledajte sljedeću poveznicu:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNećete primati više obavijesti o ovoj temi dok ne budete u tijeku.\n"
         },
         "lib": {
-            "following_link": "",
-            "follow": "",
-            "change_follow_type": "",
-            "unfollow": "",
+            "following_link": "Praćeni korisnici",
+            "follow": "Prati",
+            "change_follow_type": "Promijeni vrstu praćenja",
+            "unfollow": "Prestani pratiti",
             "follow_levels": {
                 "unfollow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Ne prati",
+                    "description": "Ne primaj obavijesti o aktivnosti korisnika <em>{username}</em>.\n"
                 },
                 "follow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Prati teme",
+                    "description": "Primi obavijest kada <em>{username}</em> pokrene novu temu.\n"
                 },
                 "lurk": {
-                    "name": "",
-                    "description": ""
+                    "name": "Prati sve",
+                    "description": "Primi obavijest kada <em>{username}</em> pokrene novu temu ili objavi u bilo kojoj temi.\n"
                 }
             }
         }
