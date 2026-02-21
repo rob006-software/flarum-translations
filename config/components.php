@@ -1463,6 +1463,9 @@ return [
 	],
 	'xlt-ipdisplaycn' => [
 		'tag' => 'https://raw.githubusercontent.com/XiaoLuoTian189/ipdisplay-cn/v1.0.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'xrh0905-oauth-microsoft' => [
 		'tag' => 'https://raw.githubusercontent.com/xrh0905/flarum-ext-oauth-microsoft/v1.0.1/locale/en.yml',
