@@ -24,8 +24,10 @@
             "followed": "Praćen",
             "followers": "{count, plural, one {Pratitelj} other {Pratitelji}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "followers_link": "",
             "profile_page": {
-                "no_following": "Izgleda da ne pratite nikoga."
+                "no_following": "Izgleda da ne pratite nikoga.",
+                "no_followers": ""
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",

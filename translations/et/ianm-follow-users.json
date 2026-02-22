@@ -24,8 +24,10 @@
             "followed": "Jälgitav",
             "followers": "{count, plural, one {jälgija} other {jälgijat}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "followers_link": "",
             "profile_page": {
-                "no_following": "Näib, et sa ei jälgi ühtegi kasutajat."
+                "no_following": "Näib, et sa ei jälgi ühtegi kasutajat.",
+                "no_followers": ""
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",

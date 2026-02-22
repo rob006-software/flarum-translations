@@ -24,8 +24,10 @@
             "followed": "關注",
             "followers": "{count, plural, one {粉絲} other {粉絲}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "followers_link": "",
             "profile_page": {
-                "no_following": "您還沒有關注任何人。"
+                "no_following": "您還沒有關注任何人。",
+                "no_followers": ""
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",

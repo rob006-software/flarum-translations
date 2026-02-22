@@ -24,8 +24,10 @@
             "followed": "Seurattu",
             "followers": "{count, plural, one {Seuraaja} other {Seuraajaa}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "followers_link": "",
             "profile_page": {
-                "no_following": "Näyttää siltä, että et seuraa ketään."
+                "no_following": "Näyttää siltä, että et seuraa ketään.",
+                "no_followers": ""
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",

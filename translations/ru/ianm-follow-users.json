@@ -24,8 +24,10 @@
             "followed": "Подписан",
             "followers": "{count, plural, one {Подписчик} other {Подписчиков}}",
             "profile_link": "Подписки",
+            "followers_link": "",
             "profile_page": {
-                "no_following": "Похоже, вы ни на кого не подписаны."
+                "no_following": "Похоже, вы ни на кого не подписаны.",
+                "no_followers": ""
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",

@@ -24,8 +24,10 @@
             "followed": "Seguidos",
             "followers": "{count, plural, one {Seguidor} other {Seguidores}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "followers_link": "",
             "profile_page": {
-                "no_following": "Parece que no sigues a nadie."
+                "no_following": "Parece que no sigues a nadie.",
+                "no_followers": ""
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
