@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Eksportuje szczegóły dotyczące obserwowanych użytkowników i obserwujących użytkowników.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "Usuwa wszystkie dane związane z obserwowanymi użytkownikami."
                 }
             }
         }
@@ -24,10 +24,10 @@
             "followed": "{count, plural, one {Obserwowany} other {Obserwowanych}}",
             "followers": "{count, plural, one {Obserwujący} other {Obserwujących}}",
             "profile_link": "=> ianm-follow-users.lib.following_link",
-            "followers_link": "",
+            "followers_link": "Obserwujący",
             "profile_page": {
                 "no_following": "Wygląda na to, że nikogo jeszcze nie obserwujesz.",
-                "no_followers": ""
+                "no_followers": "Wygląda na to, że nie masz jeszcze obserwujących."
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
