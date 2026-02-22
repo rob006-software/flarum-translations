@@ -40,16 +40,30 @@
             "no_reason_given": "لم يتم تقديم أي سبب لهذا الإيقاف.",
             "suspended": {
                 "subject": "لقد تم إيقاف حسابك",
-                "body": "أهلاً {recipient_display_name}،\n\nتم إيقاف حسابك للسبب التالي:\n\n---\n{suspension_message}\n---"
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "لقد تم إلغاء إيقاف حسابك",
-                "body": "مرحباً {recipient_display_name}،\n\nتم إلغاء إيقاف حسابك. يمكنك العودة الأن بالضغط على الرابط التالي:\n\n{forum_url}"
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
-        "validation": {
-            "attributes": {
-                "suspendedUntil": ""
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

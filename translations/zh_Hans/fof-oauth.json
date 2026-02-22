@@ -108,7 +108,8 @@
             "unlink": "解除绑定",
             "error": {
                 "bad_verification_code": "无效或过期的验证令牌，请重试。",
-                "invalid_state": "无效状态，请重试。"
+                "invalid_state": "无效状态，请重试。",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "领英"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

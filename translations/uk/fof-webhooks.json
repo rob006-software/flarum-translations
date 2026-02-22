@@ -52,7 +52,12 @@
                 "debug_label": "Налагодження",
                 "debug_help": "Додайте додаткові логи до лог-файлу Flarum, щоб налагодити проблеми з веб-хуками та/або подіями, які не працюють коректно.",
                 "item": {
-                    "tag_any_label": "Будь-який тег"
+                    "tag_any_label": "Будь-який тег",
+                    "edit_tooltip": "",
+                    "delete_tooltip": "",
+                    "delete_confirm_alert": "",
+                    "create_button": "",
+                    "edit_tags_button": ""
                 },
                 "help": {
                     "disabled": "Цей вебхук вимкнено, оскільки для нього не увімкнено жодної події.",

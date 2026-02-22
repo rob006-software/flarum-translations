@@ -74,12 +74,33 @@
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "[Подписаться на пользователя] {title}",
-            "new_follower_subject": "[Подписка на пользователя] У вас новый подписчик!",
-            "new_post_subject": "[Подписка на пользователя] Новое сообщение в теме {title}",
-            "new_discussion_by_user_body": "Привет {recipient_display_name},\n\n{user_display_name} начал новую дискуссию: {discussion_title}\n\nЧтобы посмотреть её, перейдите по следующей ссылке:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
-            "new_follower_body": "Привет {recipient_display_name},\n\n{follower_display_name} подписался на вас, поэтому мы оповестим его если вы откроете новую дискуссию.\n\nЧтобы посмотреть профиль подписчика, перейдите по следующей ссылке:\n\n{profile_url}\n",
-            "new_post_body": "Привет {recipient_display_name},\n\n{user_display_name} разместил сообщение в дискуссии: {discussion_title}\n\nЧтобы просмотреть его, перейдите по ссылке:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы не получите больше уведомлений об этой дискуссии, пока не просмотрите ее обновление.\n"
+            "new_discussion_by_user": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_follower": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_post": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
         },
         "lib": {
             "following_link": "Пользователи, на которых я подписан",
@@ -98,6 +119,11 @@
                 "lurk": {
                     "name": "Подписаться на все",
                     "description": "Получать уведомления, когда <em>{username}</em> открывает новую дискуссию или публикует сообщение в любой дискуссии.\n"
+                }
+            },
+            "gambits": {
+                "followeduser": {
+                    "key": ""
                 }
             }
         }

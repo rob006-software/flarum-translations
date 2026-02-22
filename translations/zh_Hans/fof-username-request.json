@@ -72,6 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "暂无用户名更改申请。",
+                "group_label": "",
                 "nickname_item_text": "{name} 请求更改昵称",
                 "nickname_exerpt": "新昵称：{requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -98,8 +99,8 @@
         "email": {
             "body": {
                 "noReasonProvided": "未说明原因",
-                "approved": "{recipient_display_name}，你好!\n\n「{actor_display_name}」通过了你的用户名更改申请。\n\n你现在可以使用新用户名「{new_username}」登录：{login_url}\n",
-                "rejected": "{recipient_display_name}，你好！\n\n「{actor_display_name}」驳回了你将用户名从「{old_username}」更改为「{requested_username}」的申请。\n\n原因如下：{reason}\n"
+                "approved": "",
+                "rejected": ""
             },
             "subject": {
                 "approved": "用户名更改申请已通过",

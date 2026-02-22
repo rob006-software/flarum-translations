@@ -94,7 +94,8 @@
             },
             "status_type": {
                 "enabled": "已启用",
-                "disabled": "已关闭"
+                "disabled": "已关闭",
+                "device_changed": ""
             }
         },
         "views": {
@@ -113,16 +114,6 @@
                 "twofactordata": {
                     "export_description": "",
                     "delete_description": ""
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "twofactordata": {
-                    "export_description": "导出双重认证状态，以及加密的救援代码。",
-                    "delete_description": "销毁双重认证相关的所有数据。"
                 }
             }
         }

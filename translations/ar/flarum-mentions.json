@@ -51,15 +51,40 @@
         "email": {
             "post_mentioned": {
                 "subject": "رد {replier_display_name} على منشورك في {title}",
-                "body": "أهلاً {recipient_display_name}!\n\nردّ {replier_display_name} على منشورك (#{post_number}) في {title}.\n\n{url}\n\n---\n\n{content}"
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "user_mentioned": {
                 "subject": "أشار إليك {mentioner_display_name} في {title}",
-                "body": "أهلاً {recipient_display_name}!\n\nأشار إليك {mentioner_display_name} في منشور على {title}.\n\n{url}\n\n---\n\n{content}"
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "group_mentioned": {
                 "subject": "ذكر {mentioner_display_name} مجموعة أنت عضو فيها في {title}",
-                "body": "أهلاً {recipient_display_name}!\n\nأشار {mentioner_display_name} إلى مجموعة أنت عضو فيها في {title}.\n\n{url}\n\n---\n\n{content}"
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "posts": {
+                    "mentioned": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
             }
         }
     }

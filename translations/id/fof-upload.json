@@ -30,9 +30,10 @@
                 "disable-download-logging": "Menonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n",
                 "disable-hotlink-protection": "Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.\n",
                 "download_templates": "Template download adalah bagaimana upload ditampilkan di forum Anda, misalnya pratinjau, tombol. Saat ini tersedia:\n",
-                "mime_types": "Silakan konfigurasikan mapping Anda di sini. Setiap regular expression untuk jenis MIME akan ditangani oleh adaptor upload dan template download tertentu.\n",
+                "mime_types": "",
                 "resize": "Pilih apakah Anda ingin mengubah ukuran gambar sebelum diunggah. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses pengubahan ukuran akan mempertahankan aspect ratio gambar.\n",
                 "client_extension": "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan jenis MIME.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, hal ini dapat mengakibatkan ekstensi umum digunakan, alih-alih ekstensi yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan koma yang akan disimpan kata demi kata.\n",
+                "thumbnails": "",
                 "watermark": "Tentukan apakah gambar akan ditambahkan watermark saat di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.\n",
                 "s3_compatible_storage": "Pengaturan berikut ini hanya diperlukan bila menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat mengosongkannya.\n",
                 "s3_acl": "ACL yang harus diterapkan pada objek yang diunggah (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Ukuran maksimum file (dalam kilobyte)",
                     "mime_types": "Konfigurasikan jenis MIME Anda, upload adapter mapping",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Preferensi umum",
                     "php_ini_values": "Value <code>php.ini</code> Anda adalah <code>post_max_size={post}</code> dan <code>upload_max_filesize={upload}</code>. Pastikan value yang ditetapkan di sini berada di bawah ambang batas ini, atau sesuaikan dengan kebutuhan Anda. Jika menggunakan <code>Nginx</code>, pastikan juga bahwa <code>client_max_body_size</code> memiliki ukuran yang cukup untuk batas maksimal yang Anda pilih."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Ekstensi file yang disediakan oleh pengguna"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Upload gambar watermark Anda",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Posisi watermark",
+                    "size_percent": "",
                     "title": "Gambar watermark",
                     "toggle": "Gambar watermark"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Menguji jenis MIME file"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Men-download file",
-                "upload_label": "Meng-upload file",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Melihat unggahan pengguna",
                 "delete_uploads_of_others_label": "Menghapus unggahan pengguna",
                 "upload_shared_label": "Upload file bersama",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3 atau Kompatibel",
-                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",
@@ -181,31 +197,16 @@
             "text_preview": {
                 "expand": "Perluas pratinjau",
                 "collapse": "Perkecil pratinjau",
+                "download": "",
                 "error": "Terjadi kesalahan saat mempratinjau file. File mungkin telah dihapus, atau ID file yang diberikan tidak valid.\n",
                 "no_snippet_preview": "<pratinjau akan muncul di sini setelah posting>",
                 "no_snippet": "<tidak ada cuplikan pratinjau yang tersedia>"
-            },
-            "file_list": {
-                "loading": "Memuat file...",
-                "empty": "Tidak ada file untuk ditampilkan.",
-                "release_to_upload": "Release to upload",
-                "modal_empty_desktop": "Daftar file Anda kosong. Klik tombol atau seret file ke sini untuk meng-upload.",
-                "modal_empty_phone": "Daftar file Anda kosong. Tekan tombol di atas untuk meng-upload file.",
-                "select_file_a11y_label": "Pilih file \"{fileName}\"",
-                "confirm_selection_btn": "{fileCount, plural, =0 {Tidak ada yang dipilih} one {Pilih file} other {Pilih file}}",
-                "load_more_files_btn": "Muat lebih banyak file",
-                "hide_file": {
-                    "btn_a11y_label": "Sembunyikan \"{fileName}\" dari pengelola media",
-                    "hide_confirmation": "Apakah Anda yakin ingin menyembunyikan \"{fileName}\"? Menyembunyikan file hanya akan menghapus file tersebut dari pengelola media Anda dan tidak akan memengaruhi postingan yang ada.",
-                    "hide_success": "File disembunyikan",
-                    "hide_fail": "Tidak dapat menyembunyikan file \"{fileName}\"",
-                    "loading": "Menyembunyikan file..."
-                }
             }
         },
         "api": {
             "upload_errors": {
                 "forbidden_type": "Meng-upload file jenis ini tidak diperbolehkan.",
+                "mime_permission_denied": "",
                 "unsupported_type": "Adaptor upload tidak mendukung jenis MIME yang disediakan: {mime}.",
                 "could_not_detect_mime": "Tidak dapat mendeteksi jenis MIME file ini, harap coba lagi.",
                 "max_upload_file_size_ini": "Batas maksimal ukuran file yang di-upload dari php.ini.",
@@ -257,17 +258,6 @@
                     "hide_fail": "Tidak dapat membuat file \"{fileName}\" menjadi privat",
                     "show_fail": "Tidak dapat membuat file \"{fileName}\" menjadi publik",
                     "loading": "Membuat file menjadi privat..."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "uploads": {
-                    "export_description": "Semua file yang diupload oleh pengguna.",
-                    "anonymize_description": "Menghapus referensi pengguna dari file yang diupload. File-file itu sendiri tetap dapat diakses oleh pengguna yang dapat melihatnya sebelum dianonimkan.",
-                    "delete_description": "Menghapus semua file yang diupload oleh pengguna."
                 }
             }
         }

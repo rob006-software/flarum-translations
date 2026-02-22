@@ -11,7 +11,6 @@
                     "tags": "Tags für beste Antworten",
                     "general": "Allgemein",
                     "reminders": "Erinnerungen",
-                    "search": "Durchsuchen",
                     "advanced": "Erweitert",
                     "reminders_notice": "Damit Erinnerungen funktionieren, müssen Sie den Flarum-Planer richtig eingerichtet haben."
                 },
@@ -36,20 +35,8 @@
                 "remind_tags_label": "Erinnerungs-Tags",
                 "remind_tags_help": "Wählen Sie aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.",
                 "tags_info": "Wenn ein Tag „Beste Antwort“ aktiviert ist, weisen Sie jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n",
-                "solution_search": "Lösungssuche",
-                "solution_search_help": "Aktivieren Sie die Möglichkeit, nach Diskussionen mit den besten Antworten zu suchen",
-                "remove_solutions_from_main_search": "Lösungen aus der Hauptsuche entfernen",
-                "remove_solutions_from_main_search_help": "Diskussionen mit den besten Antworten aus den Hauptsuchergebnissen von ‚Alle Diskussionen‘ entfernen",
-                "display_tags": "Tags in Suchergebnissen anzeigen",
-                "display_tags_help": "Tags in Suchergebnissen für Diskussionen mit „Beste Antworten“ anzeigen",
                 "discussion_sidebar_jump_button": "Schaltfläche „Zur besten Antwort springen“ in der Diskussionsseitenleiste anzeigen",
-                "discussion_sidebar_jump_button_help": "Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt.",
-                "allow_select_own_post": "Eigenen Beitrag auswählen",
-                "allow_select_own_post_help": "Einem Benutzer erlauben, seinen eigenen Beitrag als beste Antwort auf eine Diskussion auszuwählen",
-                "enable_all_tags_button": "Alle Tags für beste Antworten aktivieren",
-                "enable_all_tags_reminder_button": "Alle Tags für Erinnerungen für die beste Antwort aktivieren",
-                "introduction": "Aktiviere in <code><a>flarum/tags</a></code>, welche Tags Beste Antworten unterstützen sollen, und optional welche Tags Erinnerungen unterstützen sollen. Wenn für ein Tag Beste Antwort aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen kann (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für alle Best-Antwort-anabled-Tags) oder pro Tag zugewiesen werden.\n",
-                "remind_tag_ids": "Um Erinnerungen auf bestimmte Themen zu beschränken, gebe die ID's der Themen hier ein (kommagetrennt)"
+                "discussion_sidebar_jump_button_help": "Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt."
             },
             "edit_tag": {
                 "qna_label": "Die Option Beste Antworten aktivieren, um in diesem Tag festgelegt zu werden",
@@ -93,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count, plural, one { {count} beste Antwort} other {{count} beste Antworten}}"
             },
-            "search": {
-                "discussions_solutions_heading": "Diskussionen mit Lösungen",
-                "all_discussions_solutions_button": "Suche in allen Diskussionen mit Lösungen für \"{query}\""
-            },
             "discussion": {
                 "jump_to_best_answer_button": "Beste Antwort anzeigen"
             }
@@ -111,6 +94,13 @@
                 "awarded": "Hallo {recipient_display_name},\n\nGute Arbeit, {actor_display_name} hat soeben deinen Beitrag als die beste Antwort in der Diskussion „{discussion_title}“ ausgewählt. Danke fürs Mithelfen.\n\nSchau es dir an: {discussion_url}\n",
                 "ba-set": "Hallo {recipient_display_name},\n\n{actor_display_name} hat soeben eine beste Antwort in der Diskussion „{discussion_title}“ gewählt, an der du teilgenommen hast.\n\nSchau es dir an: {discussion_url}\n",
                 "select": "Hallo {recipient_display_name},\n\nNur um sicherzugehen; mittlerweile solltest du jede Menge Antworten auf deine Frage „{discussion_title}“ erhalten haben. Hoffentlich hat dir eine davon geholfen, dein Problem zu lösen.\n\nWenn das so ist, wäre es sehr hilfreich für zukünftige Mitglieder, wenn du eine beste Antwort auf deine Frage auswählen könntest. Es wird Leuten mit dem gleichen Problem helfen, die Antwort zu finden, die sie brauchen, und es ist auch ein großes Dankeschön an die Mitglieder, die dir ausgeholfen haben. Sie geben ihre Zeit freiwillig, also ist es schön sie wissen zu lassen, dass sie hilfreich sind.\n\nÖffne die Diskussion: {discussion_url}, und wähle den passendsten Beitrag als beste Antwort.\n\nVielen Dank!\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

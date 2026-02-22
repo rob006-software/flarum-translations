@@ -56,8 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Editatu {title}rako etiketak",
-                "title": "Aukeratu zure eztabaidarako kategoriak",
-                "submit_button": "=> core.ref.okay"
+                "title": "Aukeratu zure eztabaidarako kategoriak"
             },
             "composer_discussion": {
                 "choose_tags_link": ""
@@ -85,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Borratua",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "",
                 "choose_primary_placeholder": "",
@@ -99,17 +106,6 @@
             "choose_tags_placeholder": "",
             "name": "Izena",
             "tags": "Kategoriak"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
         }
     }
 }

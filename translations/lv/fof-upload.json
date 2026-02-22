@@ -30,9 +30,10 @@
                 "disable-download-logging": "Atspējojiet katras jūsu foruma lietotāju veiktās lejupielādes reģistrēšanu. Turot to iespējotu, varat skatīt lejupielāžu skaitu un citus rādītājus tuvākajā nākotnē.\n",
                 "disable-hotlink-protection": "Karstās saites aizsardzība neļauj atvērt lejupielādes no citām vietnēm. Pašreizējai metodei ir nepieciešams csrf marķieris un pasta ID.\n",
                 "download_templates": "Lejupielādes veidnes ir veids, kā augšupielādes tiek rādītas jūsu forumā, piemēram, priekšskatījumi, pogas. Pašlaik pieejams:\n",
-                "mime_types": "Lūdzu, konfigurējiet savu kartēšanu šeit. Katru MIME tipa regulāro izteiksmi apstrādās īpašs augšupielādes adapteris un lejupielādes veidne.\n",
+                "mime_types": "",
                 "resize": "Izvēlieties, vai vēlaties mainīt attēlu izmērus pirms to augšupielādes. Varat izvēlēties maksimālo platumu un augstumu pikseļos. Izmēru maiņas procesā tiek saglabāta attēlu malu attiecība.\n",
                 "client_extension": "Pēc noklusējuma augšupielāde izvēlēsies drošu faila paplašinājumu, pamatojoties uz MIME tipu.\nDažiem failu tipiem, kuru pamatā ir ZIP vai bināri dati, var tikt izmantoti vispārīgi paplašinājumi paredzētā paplašinājuma vietā.\nŠeit varat ievadīt ar komatu atdalītu failu paplašinājumu sarakstu, kas tiks saglabāti burtiski.\n",
+                "thumbnails": "",
                 "watermark": "Izvēlieties, vai attēliem augšupielādes laikā tiks pievienota ūdenszīme. Ūdenszīmes tiek pievienotas attēliem, kas nav GIF, pamatojoties uz tālāk norādītajām vēlmēm.\n",
                 "s3_compatible_storage": "Tālāk norādītie iestatījumi ir nepieciešami tikai tad, ja tiek izmantota ar S3 saderīga krātuve. Ja izmantojat AWS, varat atstāt tos tukšus.\n",
                 "s3_acl": "ACL, kas jāpiemēro augšupielādētajam objektam (noklusējums: privāts). Iespējamās vērtības skatiet vietnē https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Maksimālais faila lielums (kilobaitos)",
                     "mime_types": "Konfigurējiet savu MIME veidu, augšupielādējiet adaptera kartēšanu",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Vispārējās preferences",
                     "php_ini_values": "Jūsu <code>php.ini</code> vērtības ir <code>post_max_size={post}</code> un <code>upload_max_filesize={upload}</code>. Pārliecinieties, vai šeit iestatītā vērtība ir zem šiem sliekšņiem, vai attiecīgi pielāgojiet tos. Ja izmantojat <code>Nginx</code>, pārliecinieties, vai <code>client_max_body_size</code> ir pietiekami liels jūsu izvēlētajam maksimālajam ierobežojumam."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Lietotāja nodrošināti failu paplašinājumi"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Augšupielādējiet savu watermark attēlu",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Watermark pozīcija",
+                    "size_percent": "",
                     "title": "Watermark attēli",
                     "toggle": "Watermark attēli"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Testa faila MIME tips"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Lejupielādēt failus",
-                "upload_label": "Augšupielādējiet failus",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Skatīt lietotāju augšupielādes",
                 "delete_uploads_of_others_label": "Dzēst lietotāju augšupielādes",
                 "upload_shared_label": "Augšupielādējiet koplietotos failus",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
-                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Vietējais",
                 "ovh-svfs": "OVH SVFS",
@@ -181,31 +197,16 @@
             "text_preview": {
                 "expand": "Izvērst priekšskatījumu",
                 "collapse": "Sakļaut priekšskatījumu",
+                "download": "",
                 "error": "Priekšskatot failu, radās kļūda. Iespējams, tas ir dzēsts vai norādītais faila ID nav derīgs.\n",
                 "no_snippet_preview": "<priekšskatījums šeit parādīsies pēc publicēšanas>",
                 "no_snippet": "<nav pieejams priekšskatījuma fragments>"
-            },
-            "file_list": {
-                "loading": "Notiek failu ielāde...",
-                "empty": "Nav failu, ko parādīt.",
-                "release_to_upload": "Atlaid, lai augšupielādētu",
-                "modal_empty_desktop": "Tavs failu saraksts ir tukšs. Lai augšupielādētu, noklikšķini uz pogas vai velc failu šeit.",
-                "modal_empty_phone": "Tavs failu saraksts ir tukšs. Klikšķini pogu augšpusē, lai augšupielādētu failu.",
-                "select_file_a11y_label": "Izvēlies failu \"{fileName}\"",
-                "confirm_selection_btn": "{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}",
-                "load_more_files_btn": "Ielādēt vairāk failus",
-                "hide_file": {
-                    "btn_a11y_label": "Noslēpt \"{fileName}\"",
-                    "hide_confirmation": "Vai esi pārliecināts, ka vēlies noslēpt \"{fileName}\"? Noslēpšana šo failu dzēsīs tikai no galerijas un neietekmēs nevienu ziņojumu.",
-                    "hide_success": "Fails noslēpts",
-                    "hide_fail": "Nevarēja noslēpt failu \"{fileName}\"",
-                    "loading": "Slēpjam failu..."
-                }
             }
         },
         "api": {
             "upload_errors": {
                 "forbidden_type": "Šāda faila tipa augšupielāde nav atļauta.",
+                "mime_permission_denied": "",
                 "unsupported_type": "Augšupielāde neatbalsta šādu 'mime' tipu: {mime}.",
                 "could_not_detect_mime": "Nevarēja noteikt šī faila MIME tipu. Lūdzu, mēģiniet vēlreiz.",
                 "max_upload_file_size_ini": "Sasniegts augšupielādes maksimālā faila lieluma ierobežojums no vietnes php.ini.",
@@ -257,17 +258,6 @@
                     "hide_fail": "Nevarēja padarīt failu \"{fileName}\" privātu",
                     "show_fail": "Nevarēja padarīt failu \"{fileName}\" publisku",
                     "loading": "Faila padarīšana privāta..."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "uploads": {
-                    "export_description": "Visi lietotāja augšupielādētie faili.",
-                    "anonymize_description": "No augšupielādētajiem failiem noņem lietotāja atsauci. Paši faili joprojām ir pieejami lietotājiem, kuri tos var skatīt pirms anonimizācijas.",
-                    "delete_description": "Dzēš visus lietotāja augšupielādētos failus."
                 }
             }
         }

@@ -30,7 +30,7 @@
                 "warning_button": "Warn User"
             },
             "user": {
-                "warnings": "Moderator Warnings"
+                "warnings": "Warnings"
             },
             "settings": {
                 "warning_notification_label": "A moderator warns me"
@@ -51,8 +51,8 @@
                 "warnings_no_strikes": "Moderator Warnings: No Strikes Received"
             },
             "warning_list_item": {
-                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strikes, {time}}}",
-                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> strike, {time} <strong>(removed)</strong>} other {<strong>#</strong> strikes, {time} <strong>(removed)</strong>}}",
+                "list_item_heading": "{strikes, plural, one {# strike, {time}} other {# strikes, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {# strike, {time} (removed)} other {# strikes, {time} (removed)}}",
                 "public_comment": "Warning",
                 "private_comment": "Moderator-Visible Comments",
                 "linked_post": "Linked Post"

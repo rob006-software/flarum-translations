@@ -2,28 +2,26 @@
     "fof-prevent-necrobumping": {
         "forum": {
             "composer": {
-                "warning": {
-                    "title": "Táto diskusia je stará viac ako <b>{time}</b>.",
-                    "description": "Je veľmi pravdepodobné že nepotrebuje žiadnu ďalšiu diskusiu a preto odpovedanie nemá žiadny význam.",
+                "inactive_discussion_alert": {
+                    "title": "",
+                    "description": "",
                     "cta": "",
                     "cta_button": "",
-                    "checkbox_label": "Som si vedomý že táto diskusia je stará, ale aj tak by som rád odpovedal.",
-                    "error": "Táto diskusia je moc stará pre odpoveď."
-                }
+                    "confirmation": ""
+                },
+                "error": ""
             }
         },
         "admin": {
             "settings": {
+                "general_heading": "",
+                "days_label": "",
+                "days_help": "",
                 "show_discussion_cta_label": "",
                 "show_discussion_cta_help": "",
-                "days_label": "Dní",
-                "days_help": "Diskusia bude označená ako stará keď prešlo množstvo špecifikovaných dní od dátumu posledného príspevku v tej diskusii. Použi <code>0</code> pre zakázanie.",
-                "message_title_label": "Vlastný titulok správy",
-                "message_title_help": "Použi <code>[čas]</code> pre text času, napr.: \"14 days\".",
-                "message_description_label": "Vlastná popisná správa",
-                "message_agreement_label": "Vlastná správa pre súhlas (zaškrtávacie políčko)",
-                "tags_title": "Štítky",
-                "tags_help": "Prepísať globálne dni pre konkrétnu značku. Prázdne znamená použiť predvolenú hodnotu. Ak má diskusia viacero značiek s rôznymi hodnotami dní, použije sa najmenší počet nakonfigurovaných dní."
+                "tags_title": "",
+                "tags_help": "",
+                "tags_placeholder": ""
             }
         }
     }

@@ -1,6 +1,11 @@
 {
     "flarum-sticky": {
         "admin": {
+            "settings": {
+                "enable_display_excerpt": "",
+                "only_sticky_unread_discussions_label": "",
+                "only_sticky_unread_discussions_help": ""
+            },
             "permissions": {
                 "sticky_discussions_label": "Klæbrige diskussioner"
             }
@@ -16,6 +21,15 @@
             "post_stream": {
                 "discussion_stickied_text": "{username} gjorde diskussionen klæbrig.",
                 "discussion_unstickied_text": "{username} fjernede klæbrig fra diskussionen."
+            }
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "sticky": {
+                        "key": ""
+                    }
+                }
             }
         },
         "ref": {

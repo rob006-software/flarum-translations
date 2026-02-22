@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "[Tag | Neue Diskussion] {title}",
-                "newPostInTag": "[Tag | Neuer Beitrag] {title}",
-                "newDiscussionTag": "[Tag | Geändertes Tag] {title}"
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "Hallo {recipient_display_name},\n\n{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem Sie folgen: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, besuche den folgenden Link:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "Hallo {recipient_display_name},\n\n{actor_display_name} hat in einer Diskussion zu einem Tag gepostet, dem Sie folgen: {discussion_title}\n\nUm die neue Aktivität anzuzeigen, besuche den folgenden Link:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu erhälst keine weiteren Benachrichtigungen zu dieser Diskussion, bis Du auf dem Laufenden bist.\n",
-                "newDiscussionTag": "Hey {recipient_display_name},\n\n{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem Du folgst {discussion_title}\n\nUm die neue Diskussion anzuzeigen, besuche den folgenden Link:\n{discussion_url}\n"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {

@@ -17,15 +17,15 @@
                 "url_label": "",
                 "url_placeholder": "",
                 "use_rel_me": "",
-                "visibility": "Bağlantı görünmə qabiliyyəti",
-                "visibility.help": "",
-                "visibility.help-disabled": "",
-                "visibility.label": "",
-                "visibility.guest-only.label": "",
-                "visibility.guest-only.help": "",
-                "everyone-label": "Hər kəs",
-                "guests-label": "Qonaqlar",
-                "members-label": "Qeydiyyatlı İstifadəçilər"
+                "visibility": {
+                    "help": "",
+                    "help-disabled": "",
+                    "label": "",
+                    "guest-only": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "links": {
                 "create_button": "",

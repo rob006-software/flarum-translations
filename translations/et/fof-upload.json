@@ -30,9 +30,10 @@
                 "disable-download-logging": "Lülita iga kasutajate poolt tehtud allalaadimiste logimine. Kui lülitad selle sisse, siis näed allalaadimiste arvu ja varsti ka muid andmeid.\n",
                 "disable-hotlink-protection": "Otse linkimise kaitse takistab pildi lisamist teistele saitidele. Praegune meetod nõuab csrf kontrollkoodi ja postituse ID-d.\n",
                 "download_templates": "Allalaadimise mallid, mida kasutatakse üleslaadimiste näitamiseks sinu foorumis, nt eelvaated, nupud. Praegu on saadaval:\n",
-                "mime_types": "Palun seadista oma seosed siin. Iga failitüübi regulaaravaldist käsitleb konkreetne üleslaadimise adapter ja allalaadimise mall.\n",
+                "mime_types": "",
                 "resize": "Vali kas sa soovid enne piltide üleslaadimist nende suurust muuta. Saad valida maksimaalse kõrguse ja laiuse pikslites. Suuruse muutmine säilitab pildi külgede suhte.\n",
                 "client_extension": "Vaikimisi valib lisaprogramm turvalise faililaiendi vastavalt failitüübile.\nMõningate ZIP-il põhinevate failitüüpide puhul võib selle tulemusena kasutada valet faililaiendit.\nSiin saad määrata komadega eraldatud nimekirja faililaienditest, mis säilitatakse nii nagu nad on.\n",
+                "thumbnails": "",
                 "watermark": "Vali kas piltidele lisatakse üleslaadimisel ka vesipilt. Vesipildid lisatakse kõigile piltidele välja arvatud GIF-id.\n",
                 "s3_compatible_storage": "Järgnevad seaded on vajalikud ainult siis, kui kasutad S3-ga ühilduvat säilitusteenust. Kui kasutad AWS-i, siis võid need tühjaks jätta.\n",
                 "s3_acl": "ACL, mida peaks rakendama üleslaaditud objektile (vaikimisi: privaatne). Võimalikke väärtuseid näed lingilt https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Maksimaalne failisuurus (kilobaitides)",
                     "mime_types": "Seadista oma failitüüpi, üleslaadimise tüübi kaardistamine",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Üldised eelistused",
                     "php_ini_values": "Sinu <code>php.ini</code> väärtused on <code>post_max_size={post}</code> ja <code>upload_max_filesize={upload}</code>. Veendu, et siin määratud suurused oleksid väiksemad, kui need suurused või siis kohanda neid seadeid vastavalt oma vajadustele. Kui kasutad <code>Nginx</code>-i, siis veendu, et seade <code>client_max_body_size</code> suurus oleks sinu maksimaalse suurusega kooskõlas ja sinu vajadustele vastav."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Kasutaja lisatud failide laiendid"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Laadi vesipilt üles",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Vesipildi asukoht",
+                    "size_percent": "",
                     "title": "Lisa vesipilt",
                     "toggle": "Lisa vesipilt"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Testi failitüüpi"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Laadi failid alla",
-                "upload_label": "Failide üleslaadimine",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Kasutaja üleslaadimiste vaatamine",
                 "delete_uploads_of_others_label": "Kustuta kasutajate üleslaadimised",
                 "upload_shared_label": "Jagatud failide üleslaadimine",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3 või sellega ühilduv",
-                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Kohalik",
                 "ovh-svfs": "OVH SVFS",
@@ -181,6 +197,7 @@
             "text_preview": {
                 "expand": "Laienda eelvaateid",
                 "collapse": "Sulge eelvaade",
+                "download": "",
                 "error": "Viga faili eelvaate loomisel. See võib olla kustutatud või faili ID on vigane.\n",
                 "no_snippet_preview": "<eelvaadet näidatakse siin pärast postitamist>",
                 "no_snippet": "<eelvaate vidinat pole saadaval>"
@@ -189,6 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Seda tüüpi failide üleslaadimine pole lubatud.",
+                "mime_permission_denied": "",
                 "unsupported_type": "Üleslaadimise adapter ei toeta failitüüpi: {mime}.",
                 "could_not_detect_mime": "Selle failitüübi tuvastamine ebaõnnestus, palun proovi uuesti.",
                 "max_upload_file_size_ini": "Üleslaetava faili maksimaalne suurus on php.ini-s ületatud.",

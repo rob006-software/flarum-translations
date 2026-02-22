@@ -2,28 +2,26 @@
     "fof-prevent-necrobumping": {
         "forum": {
             "composer": {
-                "warning": {
-                    "title": "Cette discussion est âgée de plus de <b>{time}</b>.",
-                    "description": "Il est très probable qu'il n'y ait pas lieu d'en discuter davantage et qu'il ne serve donc à rien de remettre le sujet sur le tapis.",
-                    "cta": "Souhaitez-vous plutôt démarrer une nouvelle discussion ?",
-                    "cta_button": "=> core.ref.start_a_discussion",
-                    "checkbox_label": "Je suis conscient que cette discussion est assez ancienne, mais j'aimerais tout de même y répondre.",
-                    "error": "Cette discussion est trop ancienne pour y répondre."
-                }
+                "inactive_discussion_alert": {
+                    "title": "",
+                    "description": "",
+                    "cta": "",
+                    "cta_button": "",
+                    "confirmation": ""
+                },
+                "error": ""
             }
         },
         "admin": {
             "settings": {
-                "show_discussion_cta_label": "Afficher l'appel à l'action",
-                "show_discussion_cta_help": "Afficher un appel à l'action lorsque l'on répond à une discussion qui date de plus du nombre de jours spécifié et qu'aucune description personnalisée n'est définie.",
-                "days_label": "Jours",
-                "days_help": "Une discussion sera marquée comme ancienne lorsque le nombre de jours spécifié se sera écoulé depuis que le dernier message de cette discussion ait été publié. Saisissez <code>0</code> pour désactiver cette fonctionnalité par défaut.",
-                "message_title_label": "Titre de message personnalisé",
-                "message_title_help": "Utilisez <code>[time]</code> pour saisir du texte temporel, par exemple : « 14 jours ».",
-                "message_description_label": "Description du message personnalisé",
-                "message_agreement_label": "Accord sur les messages personnalisés (case à cocher)",
-                "tags_title": "Étiquettes",
-                "tags_help": "Remplace les jours globaux pour une étiquette spécifique. Vide signifie utiliser la valeur par défaut. Si une discussion comporte plusieurs étiquettes avec des valeurs de jours différentes, elle utilisera le plus petit nombre de jours configurés."
+                "general_heading": "",
+                "days_label": "",
+                "days_help": "",
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
+                "tags_title": "",
+                "tags_help": "",
+                "tags_placeholder": ""
             }
         }
     }

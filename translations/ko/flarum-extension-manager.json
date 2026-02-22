@@ -5,7 +5,7 @@
                 "add_label": "새로운 인증 방법",
                 "add_modal": {
                     "host_label": "호스트",
-                    "host_placeholder": "예시: extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "제출",
                     "token_label": "토큰",
                     "type_label": "유형",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "최신 버전으로 업데이트되지 않은 이유를 보여주세요.",
                 "install": "새로운 확장을 설치합니다",
-                "install_help": "계속하려면 확장 패키지 이름을 입력하세요. <semantic_link>시맨틱 버전</semantic_link>을 지정할 수 있으며, 형식은 <code>vendor/package-name:version</code>입니다. 확장을 둘러보려면 {extiverse}를 방문하세요.\n",
+                "install_help": "",
                 "proceed": "계속하기",
                 "remove": "제거",
                 "successful_install": "{extension}이(가) 성공적으로 설치되었습니다. 리디렉션 중..",
@@ -98,11 +98,44 @@
                 "update": "업데이트"
             },
             "minor_update_confirmation": {
-                "content": "이는 사용 가능한 업데이트가 있는 다른 확장 기능/패키지도 업데이트합니다."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "관리자"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "작업이 시작됨",
                     "title": "큐(Queue)"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "관리자 영역에 액세스를 부여할 때 주의하십시오. 악의적인 사용자들이 확장 관리자를 오용하여 보안 위협을 초래할 수 있는 패키지를 설치할 수 있습니다.",
                 "debug_mode_warning": "디버그 모드에서 실행 중이므로 확장 관리자는 로컬 개발 패키지를 올바르게 설치하고 업데이트할 수 없습니다. 이러한 경우에는 대신 명령 줄 인터페이스를 사용하십시오.",
                 "queue_jobs": "백그라운드 큐에서 작업 실행",
-                "queue_jobs_help": "<a href='{basic_impl_link}'>기본 큐</a> 구현 및 <a href='{adv_impl_link}'>고급</a> 구현에 대해 알아볼 수 있습니다. 큐에 사용되는 PHP 버전이 {php_version}인지 확인하세요. <a href='{folder_perms_link}'>폴더 권한</a>이 올바르게 구성되어 있는지 확인하세요.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "작업 보유 기간 일수",
                 "task_retention_days_help": "데이터베이스에 완료된 작업을 유지할 일 수입니다. 이보다 오래된 작업은 삭제됩니다. 모든 작업을 유지하려면 0으로 설정하세요.\n"
             },
             "updater": {
-                "up_to_date": "모든 것이 최신 상태입니다!",
+                "up_to_date": "",
                 "check_for_updates": "업데이트 확인",
                 "flarum": "Flarum 코어",
                 "global_update_successful": "모든 패키지를 성공적으로 업데이트했습니다.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum 업데이트에 성공했습니다.",
             "why_not_modal": {
                 "title": "업데이트되지 않는 이유"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "",
-                "repositories": "",
-                "repositories.*": "",
-                "repositories.*.type": "",
-                "repositories.*.url": "",
-                "extension_id": "",
-                "update_mode": "",
-                "package": "",
-                "version": "",
-                "github_oauth": "",
-                "github_oauth.*": "",
-                "gitlab_oauth": "",
-                "gitlab_oauth.*": "",
-                "gitlab_token": "",
-                "gitlab_token.*": "",
-                "bearer": "",
-                "bearer.*": ""
             }
         }
     }

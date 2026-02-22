@@ -30,9 +30,10 @@
                 "disable-download-logging": "A fórum felhasználóinak letöltéseinek naplózásának letiltása. Az engedélyezve tartás lehetővé teszi, hogy a közeljövőben megtekintse a letöltések számát, és más metrikákat.\n",
                 "disable-hotlink-protection": "A hivatkozásvédelem megakadályozza a más oldalakon lévő letöltések megnyitását. A jelenlegi módszer CSRF tokent és bejegyzésazonosítót igényel.\n",
                 "download_templates": "A letöltési sablonok kezelik, hogy a feltöltések hogyan jelennek meg a fórumban, például milyen előnézet vagy gombok jelennek meg. Jelenleg elérhető:\n",
-                "mime_types": "Állítsa be a hozzárendeléseket. Minden MIME-típust leíró reguláris kifejezést egy adott feltöltési adapter és egy letöltési sablon kezel.\n",
+                "mime_types": "",
                 "resize": "Válassza ki, hogy átméretezi-e a képeket a feltöltésük előtt. Képpontokban megadhat egy szélesség- és magasságkorlátot. Az átméretezési folyamat megtartja a képek képarányát.\n",
                 "client_extension": "Alapértelmezés szerinte a Feltöltés a MIME-típus alapján választ egy biztonságos fájlkiterjesztést.\nEgyes ZIP vagy bináris adatokat tartalmazó fájltípusoknál ez általános fájlkiterjesztéseket eredményezhet a várt helyett.\nItt megadhatja a fájlkiterjesztések vesszőkkel elválasztott listáját, amelyeknél az eredeti formában marad meg a kiterjesztés.\n",
+                "thumbnails": "",
                 "watermark": "Válasszon, hogy a képek vízjelet kapjanak-e feltöltéskor. A vízjelek a nem GIF képekhez lesznek adva, a lenti beállítások alapján.\n",
                 "s3_compatible_storage": "A következő beállítások csak akkor szükségesek, ha S3-mal kompatibilis tárolót használ. Ha AWS-t használt, akkor üresen hagyhatja.\n",
                 "s3_acl": "A feltöltött objektumra alkalmazandó ACL (alapértelmezett: privát). A lehetséges értékekhez lásd: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Legnagyobb fájlméret (kilobájtban)",
                     "mime_types": "Állítsa be a MIME-típust, és a feltöltési adapter hozzárendelését",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Általános beállítások",
                     "php_ini_values": "A <code>php.ini</code> fájlban a <code>post_max_size={post}</code> és <code>upload_max_filesize={upload}</code> van beállítva. Győződjön meg róla, hogy az itt beállított értékek ezeknél kisebb, vagy állítsa be őket megfelelően. Ha <code>Nginx</code>-et használ, akkor győződjön meg arról is, hogy a <code>client_max_body_size</code> elégséges méretű a választott felső korláthoz képest."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Felhasználó által megadott fájlkiterjesztések"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Töltse fel a vízjelképet",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Vízjel helyzete",
+                    "size_percent": "",
                     "title": "Képek vízjelezése",
                     "toggle": "Képek vízjelezése"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Fájl MIME-típusának tesztelése"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Fájlok letöltése",
-                "upload_label": "Fájlok feltöltése",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Felhasználói feltöltések megtekintése",
                 "delete_uploads_of_others_label": "Felhasználói feltöltések törlése",
                 "upload_shared_label": "Megosztott fájlok feltöltése",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3 vagy kompatibilis",
-                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Helyi",
                 "ovh-svfs": "OVH SVFS",
@@ -181,31 +197,16 @@
             "text_preview": {
                 "expand": "Előnézet kibontása",
                 "collapse": "Előnézet összecsukása",
+                "download": "",
                 "error": "Hiba a fájl előnézetekor. Lehet hogy törölték, vagy a megadott fájlazonosító érvénytelen.\n",
                 "no_snippet_preview": "<az előnézet itt fog megjelenni a közzététel után>",
                 "no_snippet": "<nem érhető el előnézeti kódrészlet>"
-            },
-            "file_list": {
-                "loading": "Fájlok betöltése…",
-                "empty": "Nincsenek megjeleníthető fájlok.",
-                "release_to_upload": "Engedje el a feltöltéshez",
-                "modal_empty_desktop": "A fájllista üres. Kattintson a gombra vagy húzza ide a fájlokat a feltöltéshez.",
-                "modal_empty_phone": "A fájllista üres. Kattintson a gombra a fájlok feltöltéséhez.",
-                "select_file_a11y_label": "Fájl kiválasztása: „{fileName}”",
-                "confirm_selection_btn": "{fileCount, plural, =0 {Nincs kiválasztva} one {Válasszon fájlt} other {Válasszon fájlokat}}",
-                "load_more_files_btn": "További fájlok betöltése",
-                "hide_file": {
-                    "btn_a11y_label": "„{fileName}” elrejtése a médiakezelőben",
-                    "hide_confirmation": "Valóban elrejti ezt a fájlt: „{fileName}”? A fájl elrejtése csak a médiakezelőből rejti el, nem érinti a meglévő bejegyzéseket.",
-                    "hide_success": "Fájl elrejtve",
-                    "hide_fail": "Nem lehet elrejteni ezt a fájlt: „{fileName}”",
-                    "loading": "Fájl elrejtése…"
-                }
             }
         },
         "api": {
             "upload_errors": {
                 "forbidden_type": "Az ilyen típusú fájlok feltöltése nem engedélyezett.",
+                "mime_permission_denied": "",
                 "unsupported_type": "A feltöltési adapter nem támogatja a megadott MIME-típust: {mime}.",
                 "could_not_detect_mime": "A fájl MIME-típusa nem észlelhető, próbálja újra.",
                 "max_upload_file_size_ini": "A php.ini-ben szereplő legnagyobb fájlfeltöltési korlát elérve.",
@@ -257,17 +258,6 @@
                     "hide_fail": "A(z) „{fileName}” nem tehető priváttá",
                     "show_fail": "A(z) „{fileName}” nem tehető nyilvánossá",
                     "loading": "A fájl priváttá tétele…"
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "uploads": {
-                    "export_description": "A felhasználó által feltöltött összes fájl.",
-                    "anonymize_description": "Eltávolítja a felhasználó hivatkozását az összes feltöltött fájlról. A fájlok maguk továbbra is elérhetők lesznek azon felhasználók számára, akik láthatták az anonimizálás előtt.",
-                    "delete_description": "Törli a felhasználó által feltöltött összes fájlt."
                 }
             }
         }

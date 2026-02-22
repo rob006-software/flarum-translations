@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Redaguoti žymes {title} temai",
-                "title": "Pasirinkite etiketes jūsų temai",
-                "bypass_requirements": "Apeiti žymos reikalavimus",
-                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
-                "choose_secondary_placeholder": "{count, plural, one {Pasirinkite dar 1 žymą} other {Pasirinkite dar # žymas}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "Pasirinkite etiketes jūsų temai"
             },
             "composer_discussion": {
                 "choose_tags_link": "Pasirinkti etiketes"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Ištrinta",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "",
                 "choose_primary_placeholder": "",
@@ -102,17 +106,6 @@
             "choose_tags_placeholder": "",
             "name": "Pavadinimas",
             "tags": "Žymės"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
         }
     }
 }

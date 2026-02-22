@@ -30,9 +30,10 @@
                 "disable-download-logging": "Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.\n",
                 "disable-hotlink-protection": "Der Hotlink-Schutz verhindert das Öffnen von Downloads auf anderen Seiten. Die aktuelle Methode erfordert ein csrf-Token und eine Post-ID.\n",
                 "download_templates": "Downloadvorlagen sind die Art und Weise, wie Uploads in deinem Forum angezeigt werden, z.B. als Vorschaubilder oder Buttons. Derzeit verfügbar:\n",
-                "mime_types": "Bitte konfiguriere deine Zuweisungen hier. Jeder reguläre Ausdruck des Mime-Typs wird von einem bestimmten Upload-Adapter und deren Downloadvorlage behandelt.\n",
+                "mime_types": "",
                 "resize": "Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.\n",
                 "client_extension": "Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.\nBei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.\nHier kannst du eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.\n",
+                "thumbnails": "",
                 "watermark": "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n",
                 "s3_compatible_storage": "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n",
                 "s3_acl": "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Maximale Dateigröße (in Kilobytes)",
                     "mime_types": "Konfiguriere deinen MIME-Typ, lade ein Adapter-Mapping hoch",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Allgemeine Einstellungen",
                     "php_ini_values": "Deine <code>php.ini</code>-Werte sind <code>post_max_size={post}</code> und <code>upload_max_filesize={upload}</code>. Stelle sicher, dass der hier eingestellte Wert unter diesen Schwellenwerten liegt, oder passe sie entsprechend an. Wenn Du <code>Nginx</code> verwendest, stelle außerdem sicher, dass <code>client_max_body_size</code> eine ausreichende Größe für Deine gewählte maximale Grenze hat."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Benutzerdefinierte Dateierweiterungen"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Lade dein Wasserzeichen hoch",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Wasserzeichen Position",
+                    "size_percent": "",
                     "title": "Wasserzeichen auf Bildern",
                     "toggle": "Bilder mit Wasserzeichen versehen"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "MIME-Typ der Testdatei"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Dateien herunterladen",
-                "upload_label": "Dateien hochladen",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Benutzer-Uploads anzeigen",
                 "delete_uploads_of_others_label": "Benutzer-Uploads löschen",
                 "upload_shared_label": "Gemeinsame Dateien hochladen",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/Kompatibel",
-                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Lokal",
                 "ovh-svfs": "OVH SVFS",
@@ -181,6 +197,7 @@
             "text_preview": {
                 "expand": "Vorschau erweitern",
                 "collapse": "Vorschau minimieren",
+                "download": "",
                 "error": "Fehler bei der Vorschaudatei. Möglicherweise wurde sie gelöscht oder die angegebene Datei-ID ist ungültig.\n",
                 "no_snippet_preview": "<Vorschau wird hier nach dem Posten erscheinen>",
                 "no_snippet": "<kein Vorschau-Snippet verfügbar>"
@@ -189,6 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Das Hochladen von Dateien dieses Typs ist nicht erlaubt.",
+                "mime_permission_denied": "",
                 "unsupported_type": "Upload-Adapter unterstützt den angegebenen MIME-Type nicht: {mime}.",
                 "could_not_detect_mime": "Der MIME-Typ dieser Datei konnte nicht erkannt werden, bitte versuche es erneut.",
                 "max_upload_file_size_ini": "Die maximale Dateigröße für den Upload wurde in der php.ini erreicht.",

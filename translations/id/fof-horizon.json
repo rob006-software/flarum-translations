@@ -22,7 +22,12 @@
                 "heading": "Gambaran Umum Antrian",
                 "full_dashboard": "Dashboard Horizon",
                 "refresh": "Segarkan",
-                "last_refresh": "Diperbarui {time}",
+                "last_refresh": "",
+                "error": {
+                    "title": "Koneksi Error",
+                    "fetch_failed": "Tidak dapat mengambil statistik Horizon. Harap periksa konfigurasi Redis Anda.",
+                    "setup_docs": "Lihat Dokumentasi Pengaturan Redis"
+                },
                 "health": {
                     "excellent": "Sangat Baik",
                     "good": "Baik",
@@ -30,16 +35,11 @@
                     "critical": "Kritis",
                     "tooltip": "Skor kesehatan sistem: {score}/100"
                 },
-                "error": {
-                    "title": "Koneksi Error",
-                    "fetch_failed": "Tidak dapat mengambil statistik Horizon. Harap periksa konfigurasi Redis Anda.",
-                    "setup_docs": "Lihat Dokumentasi Pengaturan Redis"
-                },
                 "data": {
                     "redis-used-memory": "Redis: Memori Yang Digunakan",
-                    "redis-memory-usage": "Redis: Penggunaan Memori",
                     "redis-peak-memory": "Redis: Memori Puncak",
                     "redis-max-memory": "Redis: Memori Maksimum",
+                    "redis-memory-usage": "Redis: Penggunaan Memori",
                     "redis-memory-policy": "Redis: Kebijakan Memori",
                     "redis-memory-policy-tooltip": "Kebijakan memori adalah cara penyimpanan cache memilih apa yang akan dihapus ketika\nbatas memori maksimum tercapai. Default-nya adalah `noeviction`: New values\ntidak akan disimpan ketika batas memori tercapai. Klik untuk melihat dokumentasi.\n",
                     "redis-ops-per-sec": "Ops Per Detik",
@@ -59,9 +59,7 @@
                     "max-runtime": "Maksimum Waktu Berjalan",
                     "max-throughput": "Hasil Maksimum",
                     "success-rate": "Tingkat Keberhasilan",
-                    "failure-rate": "Tingkat Kegagalan",
-                    "redis-cpu-user": "Pengguna CPU Redis",
-                    "redis-cpu-sys": "Sistem CPU Redis"
+                    "failure-rate": "Tingkat Kegagalan"
                 }
             }
         }

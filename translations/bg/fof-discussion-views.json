@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Популярен",
-                "unpopular_button": "Непопулярен"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Нулирай брой на прегледи за дискусията",
                 "submit": "Публикувай",
-                "label": "Настрой за преглед на брояч"
+                "label": "Настрой за преглед на брояч",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "Настрой брояч за преглед"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Игнориране на посещения от сканери"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

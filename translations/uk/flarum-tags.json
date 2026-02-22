@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Редагування тегів для {title}",
-                "title": "Оберіть теги для вашої дискусії",
-                "bypass_requirements": "Обійти вимоги до міток",
-                "choose_primary_placeholder": "{count, plural, one {Вкажіть основний тег} other {Вкажіть # основних тегів}}",
-                "choose_secondary_placeholder": "{count, plural, one {Вкажіть більше 1 тегу} other {Вкажіть більше # тегів}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "Оберіть теги для вашої дискусії"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Видалено",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Вимоги до обхідних тегів",
                 "choose_primary_placeholder": "{count, plural, one {Оберіть основний тег} other {Оберіть # основні теги}}",
@@ -102,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Оберіть більше 1 тегу} other {Оберіть більше # тегів}}",
             "name": "Назва",
             "tags": "Теги"
-        },
-        "validation": {
-            "attributes": {
-                "name": "назва",
-                "slug": "псевдонім",
-                "is_hidden": "сховати",
-                "description": "опис",
-                "color": "колір",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

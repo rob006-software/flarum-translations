@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Categorieën bijwerken voor {title}",
-                "title": "Categorieën kiezen voor je discussie",
-                "bypass_requirements": "Categorievereisten omzeilen",
-                "choose_primary_placeholder": "{count, plural, one {Kies een primaire categorie} other {Kies # primaire categorieën}}",
-                "choose_secondary_placeholder": "{count, plural, one {Kies 1 extra categorie} other {Kies # extra categorieën}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "Categorieën kiezen voor je discussie"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Verwijderd",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Tagvereisten omzeilen",
                 "choose_primary_placeholder": "{count, plural, one {Kies een primaire tag} other {Kies # primaire tags}}",
@@ -102,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Kies nog 1 tag} other {Kies nog # tags}}",
             "name": "Naam",
             "tags": "Categorieën"
-        },
-        "validation": {
-            "attributes": {
-                "name": "naam",
-                "slug": "slug",
-                "is_hidden": "verborgen",
-                "description": "omschrijving",
-                "color": "kleur",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

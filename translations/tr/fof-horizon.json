@@ -22,7 +22,12 @@
                 "heading": "Kuyruğa Genel Bakış",
                 "full_dashboard": "Horizon Kontrol Paneli",
                 "refresh": "Yenile",
-                "last_refresh": "Güncellendi {time}",
+                "last_refresh": "",
+                "error": {
+                    "title": "Bağlantı Hatası",
+                    "fetch_failed": "Horizon istatistikleri alınamıyor. Lütfen Redis yapılandırmanızı kontrol edin.",
+                    "setup_docs": "Redis Kurulum Dokümantasyonunu Görüntüle"
+                },
                 "health": {
                     "excellent": "Mükemmel",
                     "good": "İyi",
@@ -30,16 +35,11 @@
                     "critical": "Kritik",
                     "tooltip": "Sistem sağlık puanı: {score}/100"
                 },
-                "error": {
-                    "title": "Bağlantı Hatası",
-                    "fetch_failed": "Horizon istatistikleri alınamıyor. Lütfen Redis yapılandırmanızı kontrol edin.",
-                    "setup_docs": "Redis Kurulum Dokümantasyonunu Görüntüle"
-                },
                 "data": {
                     "redis-used-memory": "Kullanılan Redis Belleği",
-                    "redis-memory-usage": "Önbellek deposu Bellek Kullanımı",
                     "redis-peak-memory": "Redis Bellek Zirvesi",
                     "redis-max-memory": "Redis Maks Bellek",
+                    "redis-memory-usage": "Önbellek deposu Bellek Kullanımı",
                     "redis-memory-policy": "Redis Bellek Politikası",
                     "redis-memory-policy-tooltip": "Bellek politikası, Redis'in maxmemory sınırına ulaşıldığında neyi\nkaldıracağına nasıl karar vereceğini belirler. Varsayılanı `noeviction`:\nBellek sınırı aşıldığında yeni değerler kaydedilmez. Belgeler için tıklayın.\n",
                     "redis-ops-per-sec": "Saniye Başına İşlem",
@@ -59,9 +59,7 @@
                     "max-runtime": "Maksimum Çalışma Süresi",
                     "max-throughput": "Maksimum Verim",
                     "success-rate": "Başarı Oranı",
-                    "failure-rate": "Başarısızlık Oranı",
-                    "redis-cpu-user": "Redis CPU Kullanıcı",
-                    "redis-cpu-sys": "Redis CPU Sistem"
+                    "failure-rate": "Başarısızlık Oranı"
                 }
             }
         }

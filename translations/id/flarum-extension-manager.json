@@ -5,7 +5,7 @@
                 "add_label": "Metode autentikasi baru",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "contoh: extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "Submit",
                     "token_label": "Token",
                     "type_label": "Tipe",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Tunjukkan mengapa tidak memperbarui ke versi terbaru.",
                 "install": "Pasang ekstensi baru",
-                "install_help": "Isi nama paket ekstensi untuk melanjutkan. Anda dapat menentukan <semantic_link>versi semantik</semantic_link> menggunakan format <code>vendor/package-name:version</code>. Kunjungi {extiverse} untuk melihat-lihat ekstensi.\n",
+                "install_help": "",
                 "proceed": "Memproses",
                 "remove": "Hapus pemasangan",
                 "successful_install": "{extension} berhasil dipasang, mengalihkan..",
@@ -98,11 +98,44 @@
                 "update": "Update"
             },
             "minor_update_confirmation": {
-                "content": "Ini juga akan memperbarui ekstensi/paket lain dengan pembaruan yang tersedia."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Manajer"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "Task baru saja dimulai",
                     "title": "Antrian"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Harap berhati-hati terhadap siapa yang Anda berikan akses ke area admin, manajer ekstensi dapat disalahgunakan oleh oknum jahat untuk menginstal paket yang dapat menyebabkan pelanggaran keamanan.",
                 "debug_mode_warning": "Anda sedang menjalankan mode debug, manajer ekstensi tidak dapat menginstal dan memperbarui paket local development dengan benar. Silakan gunakan command line interface untuk tujuan tersebut.",
                 "queue_jobs": "Jalankan operasi di antrian latar belakang",
-                "queue_jobs_help": "Anda dapat membaca tentang implementasi <a href='{basic_impl_link}'>basic queue</a> atau yang <a href='{adv_impl_link}'>lebih canggih</a>. Pastikan versi PHP yang digunakan untuk queue adalah {php_version}. Pastikan <a href='{folder_perms_link}'>izin folder (folder permission)</a> telah dikonfigurasi dengan benar.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Jangka waktu retensi task",
                 "task_retention_days_help": "Jumlah hari untuk menyimpan task yang telah selesai di database. Task yang lebih lama dari ini akan dihapus. Atur ke 0 untuk menyimpan semua task.\n"
             },
             "updater": {
-                "up_to_date": "Semuanya sudah diperbarui!",
+                "up_to_date": "",
                 "check_for_updates": "Periksa pembaruan",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Berhasil memperbarui semua paket.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum berhasil diperbarui.",
             "why_not_modal": {
                 "title": "Mengapa Tidak Dapat Diperbarui"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "stabilitas minimum",
-                "repositories": "repositori",
-                "repositories.*": "repositori",
-                "repositories.*.type": "jenis repositori",
-                "repositories.*.url": "URL repositori",
-                "extension_id": "ID ekstensi",
-                "update_mode": "mode pembaruan",
-                "package": "paket",
-                "version": "versi",
-                "github_oauth": "GitHub OAuth",
-                "github_oauth.*": "GitHub OAuth",
-                "gitlab_oauth": "GitLab OAuth",
-                "gitlab_oauth.*": "GitLab OAuth",
-                "gitlab_token": "GitLab Token",
-                "gitlab_token.*": "GitLab Token",
-                "bearer": "HTTP Bearer",
-                "bearer.*": "HTTP Bearer"
             }
         }
     }

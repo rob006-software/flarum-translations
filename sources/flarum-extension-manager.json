@@ -5,7 +5,7 @@
                 "add_label": "New authentication method",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "example: extiverse.com",
+                    "host_placeholder": "example: bearer.flarum.org",
                     "submit_button": "Submit",
                     "token_label": "Token",
                     "type_label": "Type",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Show why it did not update to the latest.",
                 "install": "Install a new extension",
-                "install_help": "Fill in the extension package name to proceed. You can specify a <semantic_link>semantic version</semantic_link> using the format <code>vendor/package-name:version</code>. Visit {extiverse} to browse extensions.\n",
+                "install_help": "Fill in the extension package name to proceed. You can specify a <semantic_link>semantic version</semantic_link> using the format <code>vendor/package-name:version</code>. Visit {link} to browse extensions.\n",
                 "proceed": "Proceed",
                 "remove": "Uninstall",
                 "successful_install": "{extension} was installed successfully, redirecting..",
@@ -98,11 +98,44 @@
                 "update": "Update"
             },
             "minor_update_confirmation": {
-                "content": "This will also update any other extensions/packages with availabe updates."
+                "content": "This will also update any other extensions/packages with available updates."
             },
+            "required_php_functions": "The extension manager requires the following PHP functions to be enabled: <code>{functions}</code>. If you do not have access to the PHP configuration, please contact your hosting provider.\n",
             "sections": {
-                "control": {
-                    "title": "Manager"
+                "discover": {
+                    "description": "Add new features and integrations to your Flarum forum with extensions.",
+                    "empty_results": "Looks like there are no extensions available.",
+                    "extension": {
+                        "badges": {
+                            "compatible": "Compatible",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum",
+                            "incompatible": "Incompatible",
+                            "premium": "Premium",
+                            "unstable": "Unstable"
+                        },
+                        "downloads": "{count, plural, one {{formattedCount} download} other {{formattedCount} downloads}}"
+                    },
+                    "premium_extension_terms": "Premium extension terms",
+                    "search": "Search...",
+                    "server_error": "Service currently unavailable, please try again later.",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "Toggle sort options",
+                        "top": "Most Downloads",
+                        "latest": "Latest"
+                    },
+                    "tabs": {
+                        "discover": "Discover",
+                        "extensions": "Extensions",
+                        "languages": "Languages",
+                        "themes": "Themes"
+                    },
+                    "title": "Extensions",
+                    "party_filter": {
+                        "all": "All",
+                        "premium": "Premium",
+                        "toggle_dropdown_accessible_label": "Toggle party filter"
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "Task just started",
                     "title": "Queue"
+                },
+                "settings": {
+                    "title": "Options and Queue",
+                    "description": "Configure the extension manager and check operations in the queue."
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Please be careful to who you give access to the admin area, the extension manager could be misused by bad actors to install packages that can lead to security breaches.",
                 "debug_mode_warning": "You are running in debug mode, the extension manager cannot properly install and update local development packages. Please use the command line interface instead for such purposes.",
                 "queue_jobs": "Run operations in the background queue",
-                "queue_jobs_help": "You can read about a <a href='{basic_impl_link}'>basic queue</a> implementation or a <a href='{adv_impl_link}'>more advanced</a> one. Make sure the PHP version used for the queue is {php_version}. Make sure <a href='{folder_perms_link}'>folder permissions</a> are correctly configured.\n",
+                "queue_jobs_help": "You can read about a <basic_impl_link>basic queue</basic_impl_link> implementation or a <adv_impl_link>more advanced</adv_impl_link> one. Make sure the PHP version used for the queue is {php_version}. Make sure <folder_perms_link>folder permissions</folder_perms_link> are correctly configured.\n",
                 "task_retention_days": "Task retention days",
                 "task_retention_days_help": "The number of days to keep completed tasks in the database. Tasks older than this will be deleted. Set to 0 to keep all tasks.\n"
             },
             "updater": {
-                "up_to_date": "Everything is up to date!",
+                "up_to_date": "No pending updates.",
                 "check_for_updates": "Check for updates",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Successfully updated all packages.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum successfully updated.",
             "why_not_modal": {
                 "title": "Why Won't it Update"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "minimum stability",
-                "repositories": "repositories",
-                "repositories.*": "repositories",
-                "repositories.*.type": "repository type",
-                "repositories.*.url": "repository URL",
-                "extension_id": "extension ID",
-                "update_mode": "update mode",
-                "package": "package",
-                "version": "version",
-                "github_oauth": "GitHub OAuth",
-                "github_oauth.*": "GitHub OAuth",
-                "gitlab_oauth": "GitLab OAuth",
-                "gitlab_oauth.*": "GitLab OAuth",
-                "gitlab_token": "GitLab Token",
-                "gitlab_token.*": "GitLab Token",
-                "bearer": "HTTP Bearer",
-                "bearer.*": "HTTP Bearer"
             }
         }
     }

@@ -19,12 +19,14 @@
                     "extension_settings_button": "GDPR Instellingen"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Gebruikerstabel gegevens",
                     "help_text": "In de meeste gevallen worden kolommen die zijn toegevoegd aan de <code>user</code> tabel automatisch afgehandeld, zowel voor het exporteren van gegevens als voor het wissen.\nEr zijn echter enkele speciale gevallen, die hieronder worden opgesomd.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "GDPR Integraties"
+                "gdpr_button": "GDPR Integraties",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Verwerk wisverzoeken",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "Exporteer gegevens voor {username}"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Bevestig je account wisverzoek",
-                "body": "Hey {display_name}!\n\nIemand (hopelijk jij) heeft een verzoek ingediend om het account `{display_name}` te wissen.\n\nVolg de link om deze actie te bevestigen, waarna je verzoek door ons team zal worden verwerkt.\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Account verwijderen is voltooid",
-                    "body": "Hey {display_name},\n\nDit is een automatische en definitieve melding dat je account is verwijderd.\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "Accountanonimisering is voltooid",
-                    "body": "Hey {display_name},\n\nDit is een automatische en definitieve melding dat je account is geanonimiseerd.\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "Account wisverzoek is geannuleerd",
-                "body": "Hey {display_name},\n\nDit is een automatische melding dat je de annulering van je account verwijderingsverzoek is verwerkt.\n\nJe account zal niet worden verwijderd.\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "Gegevensexport beschikbaar",
-                "body": "Hey {display_name}!\n\nJe hebt een export aangevraagd van de accountgegevens voor {username}. Deze export is succesvol gegenereerd en is nu beschikbaar.\n\n{url}\n\nDeze export zal beschikbaar blijven tot {destroys_at}.\n"
+                "body": ""
             }
         },
         "forum": {

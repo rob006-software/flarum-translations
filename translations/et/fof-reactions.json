@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Reaktsioonid",
                 "anonymous_count": "{count, plural, one {# anonüümne kasutaja} other {# anonüümset kasutajat}}",
-                "no_reactions": "Ühtegi reaktsiooni pole veel"
+                "no_reactions": "Ühtegi reaktsiooni pole veel",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Vaata reaktsioone",
-            "react_button_label": "Reageeri"
+            "react_button_label": "Reageeri",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Nähtav",
                         "identifier": "Identifikaator"
                     },
-                    "delete_confirmation": "Oled sa kindel, et soovid seda reaktsiooni kustutada? Seda toimingut ei saa tühistada."
+                    "delete_confirmation": "Oled sa kindel, et soovid seda reaktsiooni kustutada? Seda toimingut ei saa tühistada.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Kui sa just uuendasid oma laiendust, siis on vaja sinu reaktsioone teisendada. Kui sa just paigaldasid selle lisaprogrammi, siis ignoreeri seda sõnumit.",

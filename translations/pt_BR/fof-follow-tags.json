@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "[Tag | Nova Discussão {title}",
-                "newPostInTag": "[Tag | Novo Post] {title}",
-                "newDiscussionTag": "[Tag | Alterou Tag] {title}"
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "Olá {recipient_display_name},\n\n{actor_display_name} iniciou uma discussão em uma tag que você está seguindo: {discussion_title}\n\nPara ver a nova discussão, confira o link a seguir:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "Olá {recipient_display_name},\n\n{actor_display_name} postou uma discussão em uma tag que você está seguindo: {discussion_title}\n\nPara ver a nova atividade, confira o link a seguir:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nVocê não irá mais nenhuma notificação sobre está discussão até que você esteja atualizado.\n",
-                "newDiscussionTag": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de alterar a tag em uma discussão criada por {author_display_name} para uma tag que você está seguindo: {discussion_title}\n\nPara ver a nova discussão, confira o link a seguir:\n{discussion_url}\n"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {

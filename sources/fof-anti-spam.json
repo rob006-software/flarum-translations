@@ -6,6 +6,46 @@
             },
             "settings": {
                 "button": "Settings",
+                "content-filter": {
+                    "heading": "Content Filter",
+                    "introduction": "Automatically detect and flag spam content from new users. This system monitors posts and discussions from recently registered users for common spam indicators like phone numbers, email addresses, and suspicious URLs.",
+                    "enabled_label": "Enable content filtering",
+                    "enabled_help": "When enabled, posts and discussions from new users will be analyzed for spam indicators.",
+                    "user_targeting_heading": "User Targeting",
+                    "monitor_post_count_label": "Monitor users up to post count",
+                    "monitor_post_count_help": "Only analyze content from users who have made fewer than this many posts. Set to 0 to disable post count checking.",
+                    "monitor_hours_old_label": "Monitor users up to hours old",
+                    "monitor_hours_old_help": "Only analyze content from users whose accounts are newer than this many hours. Set to 0 to disable age checking.",
+                    "detectors_heading": "Detection Methods",
+                    "detect_phones_label": "Detect phone numbers",
+                    "detect_phones_help": "Flag content containing phone numbers in international format.",
+                    "detect_emails_label": "Detect email addresses",
+                    "detect_emails_help": "Flag content containing email addresses.",
+                    "detect_urls_label": "Detect URLs",
+                    "detect_urls_help": "Flag content containing URLs not in the allowlist.",
+                    "thresholds_heading": "Spam Score Thresholds",
+                    "flag_threshold_label": "Flag threshold (0-100)",
+                    "flag_threshold_help": "Content with a spam score at or above this value will be flagged for moderation (requires flarum/flags extension).",
+                    "spam_threshold_label": "Spam threshold (0-100)",
+                    "spam_threshold_help": "Content with a spam score at or above this value will be automatically unapproved (requires flarum/approval extension).",
+                    "actions_heading": "Automatic Actions",
+                    "auto_unapprove_label": "Auto-unapprove spam content",
+                    "auto_unapprove_help": "When enabled, content that reaches the spam threshold will be sent to the approval queue (requires flarum/approval). Moderators will need to approve the content before it becomes visible.",
+                    "auto_flag_label": "Auto-flag spam content",
+                    "auto_flag_help": "When enabled, content that reaches the flag threshold will be automatically flagged for moderator review (requires flarum/flags). The flag reason will include details about why the content was detected as spam.",
+                    "system_user_id_label": "System user ID for flags",
+                    "system_user_id_help": "The user ID that will be assigned as the creator of automatic spam flags. This should typically be an admin or system account. Defaults to user ID 1 if not configured.",
+                    "no_action_extensions": "Install flarum/approval and/or flarum/flags extensions to enable automatic moderation actions. Detected spam will be managed through Flarum's built-in approval queue and flags system.",
+                    "allowlist_heading": "Domain Allowlist",
+                    "allowed_domains_label": "Allowed domains",
+                    "allowed_domains_help": "URLs from these domains will not be flagged. Enter one domain per line. Your forum's domain is automatically allowlisted.",
+                    "blocked_words_heading": "Blocked Words & Phrases",
+                    "blocked_words_label": "Blocked words or phrases",
+                    "blocked_words_help": "Words or phrases that should be blocked as spam. Enter one per line. Case-insensitive and matches whole words only. For example, \"viagra\" will match \"viagra\" but not \"niagara\".",
+                    "advanced_patterns_heading": "Advanced Block Patterns",
+                    "advanced_block_patterns_label": "Advanced patterns (regex)",
+                    "advanced_block_patterns_help": "Custom regex patterns for power users. Use with caution - invalid patterns will be skipped. Format should be JSON array of objects with \"pattern\" and optional \"description\" keys."
+                },
                 "default-actions": {
                     "delete_user_label": "Delete user",
                     "delete_user_help": "This will permanently delete the user. When disabled, the user will be suspended instead.",
@@ -37,6 +77,8 @@
                     "confidence_help": "The confidence score is a reasonably good indicator that the field under test would result in unwanted activity. Set your confidence level as a percentage. If the field is equal or above this figure, the registration will be blocked, regardless on the 'frequency' test above.",
                     "email_hash_label": "Use hashed email address",
                     "email_hash_help": "Pass a MD5 hash of the email address should you wish to not pass the email address itself. This method bypasses all blacklists, normalisation and obfuscation bypass checks.",
+                    "block_tor_exit_nodes_label": "Block Tor exit nodes",
+                    "block_tor_exit_nodes_help": "When enabled, registrations from known Tor exit nodes will be automatically blocked. This can help prevent anonymous spam registrations, but may also prevent legitimate users who use Tor for privacy.",
                     "sfs_lookup_label": "Lookup registrations",
                     "sfs_lookup_help": "If enabled, we will check the StopForumSpam database when a new user registers on your forum. If the user is found (username, IP address, email) and that data point is enabled along with the SFS confidence level reaching your defined level, they will be prevented from completing their registration.",
                     "report_blocked_registrations_label": "Report blocked registrations",
@@ -59,6 +101,9 @@
             }
         },
         "forum": {
+            "post": {
+                "flagged_as_spam_text": "Automatic Spam Detection - score {score}"
+            },
             "message": {
                 "stopforumspam": {
                     "blocked": "Details of your registration have been found in a spam prevention database, therefore your registration has been blocked."

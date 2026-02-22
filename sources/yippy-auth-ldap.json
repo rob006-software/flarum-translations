@@ -10,6 +10,7 @@
                 "not_authenticated": "Unable to bind {server} due to invalid credential, amend extension settings.",
                 "csrf_token_mismatch": "You have been inactive for too long, please refresh the page and try again",
                 "domains": {
+                    "connection_failed": "Connection failed for Domain {domain_index}, error code `{data}`",
                     "no_domains": "Admin settings has no domains set, amend extension settings.",
                     "empty_host": "Domain {domain_index} has no Domains or server IP addresses set, amend extension settings.",
                     "empty_base_dn": "Domain {domain_index} has no Base DNs set, amend extension settings.",
@@ -54,7 +55,7 @@
                         "host": "Domains or server IP addresses",
                         "host_help": "Comma separated",
                         "base_dn": "Base DNs",
-                        "base_dn_help": "Semicolon separated",
+                        "base_dn_help": "Semicolon separated, for multiple Base DNs.",
                         "filter": "Filter to apply",
                         "filter_help": "Optional, must exclude 'Search fields' into the filter. For example inputting filter as '(objectclass=user)' and selecting 'uid' within 'Search fields' will amend the filter as '(&(objectclass=user)(uid=[User's Input]))\"",
                         "port": "Port",

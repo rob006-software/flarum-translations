@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Discusión privada] {display_name} te agregó a una discusión privada"
             },
             "body": {
-                "private_discussion_created": "Ey {recipient_display_name},\n\n{actor_display_name} inició una nueva discusión privada contigo como destinatario: {discussion_title}.\n\nPuedes verla aquí:\n{discussion_url}\n\nEs posible que tengas que iniciar sesión antes de poder acceder a este enlace.\n",
-                "private_discussion_replied": "Ey {recipient_display_name},\n\n{actor_display_name} publicó una publicación en una discusión privada en la que tú eres el destinatario: {discussion_title}.\n\nPuedes verla aquí:\n{post_url}\n\nEs posible que primero debas iniciar sesión antes de poder acceder a este enlace.\n",
-                "recipient_removed": "Ey {recipient_display_name},\n\n{actor_display_name} abandonó la discusión privada: {discussion_title}. Ya no podrá ver su contenido.\n\nPuedes verla aquí:\n{discussion_url}\n\nEs posible que tengas que iniciar sesión antes de poder acceder a este enlace.\n",
-                "private_discussion_added": "Ey {recipient_display_name},\n\n{actor_display_name} te agregó a una discusión privada existente: {discussion_title}.\n\nMírala aquí:\n{discussion_url}\n\nEs posible que debas iniciar sesión antes de poder acceder a este enlace.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

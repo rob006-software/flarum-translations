@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Reaktionen",
                 "anonymous_count": "{count, plural, one {# anonymer Benutzer} other {# anonyme Benutzer}}",
-                "no_reactions": "Noch keine Reaktionen"
+                "no_reactions": "Noch keine Reaktionen",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Reaktionen anzeigen",
-            "react_button_label": "Reagieren"
+            "react_button_label": "Reagieren",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Anzeige",
                         "identifier": "Bezeichner"
                     },
-                    "delete_confirmation": "Soll diese Reaktion wirklich gelöscht werden? Dieser Vorgang kann nicht rückgängig gemacht werden."
+                    "delete_confirmation": "Soll diese Reaktion wirklich gelöscht werden? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Wenn du deine Erweiterung gerade aktualisiert hast, müssen deine Reaktionen konvertiert werden. Wenn du diese Erweiterung gerade erst installiert hast, kannst du diese Nachricht getrost ignorieren.",

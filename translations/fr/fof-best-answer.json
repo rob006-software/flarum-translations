@@ -11,7 +11,6 @@
                     "tags": "Étiquettes de la meilleure réponse",
                     "general": "Général",
                     "reminders": "Rappels",
-                    "search": "Rechercher",
                     "advanced": "Avancé",
                     "reminders_notice": "Pour que les rappels puissent fonctionner, vous devez configurer correctement le planificateur de Flarum."
                 },
@@ -36,19 +35,8 @@
                 "remind_tags_label": "Étiquettes de rappel",
                 "remind_tags_help": "Sélectionnez, le cas échéant, les étiquettes pour lesquelles vous souhaitez envoyer des rappels. Les rappels ne seront envoyés que pour les discussions sous ces étiquettes.",
                 "tags_info": "Lorsqu'une étiquette est activée pour la meilleure réponse, attribuez des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (sa propre discussion ou toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée pour la meilleure réponse) ou pour chaque étiquette.\n",
-                "solution_search": "Recherche de solution",
-                "solution_search_help": "Activer la possibilité de rechercher des discussions avec les meilleures réponses",
-                "remove_solutions_from_main_search": "Supprimer les solutions de la recherche principale",
-                "remove_solutions_from_main_search_help": "Supprime les discussions avec les meilleures réponses des principaux résultats de recherche de « Toutes les discussions »",
-                "display_tags": "Afficher les étiquettes dans les résultats de recherche",
-                "display_tags_help": "Afficher le(s) étiquette(s) dans les résultats de recherche pour les discussions ayant des meilleures réponses",
                 "discussion_sidebar_jump_button": "Afficher le bouton « Voir la meilleure réponse » dans la barre latérale de la discussion",
-                "discussion_sidebar_jump_button_help": "Ajoute un bouton à la barre latérale de la discussion qui permet de se rendre directement à la meilleure réponse dans le flux des messages.",
-                "allow_select_own_post": "Sélectionner ses propres publications",
-                "allow_select_own_post_help": "Autoriser un utilisateur de sélectionner son propre message comme meilleure réponse à une discussion",
-                "enable_all_tags_button": "Activer toutes les étiquettes pour les meilleures réponses",
-                "enable_all_tags_reminder_button": "Activer toutes les étiquettes pour les rappels d'une meilleure réponse",
-                "introduction": "Active quelles étiquettes doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les étiquettes qui doivent prendre en charge les rappels. Lorsqu'une étiquette est activée avec l'extension « Best Answer », cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée avec l'extension « Best Answer »), ou sur une base par étiquette.\n"
+                "discussion_sidebar_jump_button_help": "Ajoute un bouton à la barre latérale de la discussion qui permet de se rendre directement à la meilleure réponse dans le flux des messages."
             },
             "edit_tag": {
                 "qna_label": "Permettre à l'extension « Best Answers » d'être paramétrée dans cette étiquette",
@@ -92,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count, plural, one { {count} meilleure réponse} other {{count} meilleures réponses}}"
             },
-            "search": {
-                "discussions_solutions_heading": "Discussions avec des solutions",
-                "all_discussions_solutions_button": "Rechercher toutes les discussions avec des solutions concernant « {query} »"
-            },
             "discussion": {
                 "jump_to_best_answer_button": "Voir la meilleure réponse"
             }
@@ -110,6 +94,13 @@
                 "awarded": "Bonjour {recipient_display_name},\n\nBravo, {actor_display_name} vient de définir votre message comme la meilleure réponse pour la discussion : {discussion_title}. Merci pour votre aide.\n\nConsultez-le ici : {discussion_url}\n",
                 "ba-set": "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de définir une meilleure réponse pour la discussion : {discussion_title}, à laquelle vous avez participé.\n\nConsultez-la : {discussion_url}\n",
                 "select": "Bonjour {recipient_display_name},\n\nNous venons juste vérifier ; vous devriez avoir déjà reçu de nombreuses réponses à votre question : {discussion_title}. Nous espérons que l'une d'entre elles vous a aidé à résoudre votre problème.\n\nSi tel était le cas, il serait appréciable pour les futurs membres de définir une meilleure réponse à votre question. Cela aidera les personnes ayant le même problème à trouver la réponse dont elles ont besoin, et c'est aussi une forme de remerciement aux membres qui vous ont aidé. Ils donnent leur temps bénévolement, il est donc encouragé de les inciter à continuer.\n\nVisitez la discussion ici : {discussion_url}, et sélectionnez le message le plus approprié comme meilleure réponse.\n\nMerci !\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Népszerű",
-                "unpopular_button": "Nem népszerű"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Téma megtekintéseinek visszaállítása",
                 "submit": "Elküldés",
-                "label": "Beállítás a megtekintések számához"
+                "label": "Beállítás a megtekintések számához",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "Megtekintések beállítása"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Keresőrobotok figyelmen kívül hagyása"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

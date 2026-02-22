@@ -39,7 +39,22 @@
         "email": {
             "new_post": {
                 "subject": "[Nova publicação] {title}",
-                "body": "Olá {recipient_display_name}!\n\n{poster_display_name} colocou uma publicação numa discussão que estás a seguir: {title}.\n\nPara visualizar a nova atividade, podes visitar o seguinte endereço:\n{url}\n\n---\n\n{content}\n\n---\n\nNão vai receber novas notificações sobre esta discussão até se manter a par.\n"
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
             }
         },
         "ref": {

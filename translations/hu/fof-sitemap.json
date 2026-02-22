@@ -30,9 +30,7 @@
                 "include_changefreq_help": "A Google figyelmen kívül hagyja a változási gyakorisági értékeket, de más keresőmotorok használhatják őket a keresőbotok ütemezéséhez",
                 "modes": {
                     "runtime": "Futásidejű",
-                    "multi_file": "Több fájlos",
-                    "cache": "Gyorsítótár-alapú",
-                    "cache_disk": "Lemezalapú"
+                    "multi_file": "Több fájlos"
                 },
                 "frequency": {
                     "hourly": "Óránként",
@@ -54,10 +52,7 @@
                             "minimum_item_threshold_help": "A témák legkisebb száma, amellyel egy címkének rendelkeznie kell, hogy bekerüljön az oldaltérképbe."
                         }
                     }
-                },
-                "mode_help_cache_disk_label": "Gyorsítótár- vagy lemezalapú mód",
-                "mode_help_cache_disk": "Kis vagy közepes fórumokhoz, melyek a legnagyobb valószínűség szerint cronjobok és a Flarum ütemezőjének (lásd lent) futtatását engedélyező környezeteken futnak, és ahol a bejegyzések, felhasználók, címkék és lapok darabszáma 50 000 elemnél kevesebb.",
-                "title": "FoF Oldaltérkép"
+                }
             }
         }
     }

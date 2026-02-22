@@ -23,6 +23,11 @@
                 "full_dashboard": "Bảng điều khiển Horizon",
                 "refresh": "Làm mới",
                 "last_refresh": "",
+                "error": {
+                    "title": "",
+                    "fetch_failed": "",
+                    "setup_docs": ""
+                },
                 "health": {
                     "excellent": "",
                     "good": "",
@@ -30,16 +35,11 @@
                     "critical": "",
                     "tooltip": ""
                 },
-                "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
-                },
                 "data": {
                     "redis-used-memory": "Bộ nhớ đã dùng của bộ nhớ đệm",
-                    "redis-memory-usage": "",
                     "redis-peak-memory": "Bộ nhớ đỉnh của bộ nhớ đệm",
                     "redis-max-memory": "Bộ nhớ tối đa của bộ nhớ đệm",
+                    "redis-memory-usage": "",
                     "redis-memory-policy": "Chính sách bộ nhớ bộ nhớ đệm",
                     "redis-memory-policy-tooltip": "Chính sách bộ nhớ là cách bộ nhớ đệm chọn mục để loại bỏ khi đạt giới hạn maxmemory. Mặc định là `noeviction`: Giá trị mới sẽ không được lưu khi đạt giới hạn bộ nhớ. Nhấp để xem tài liệu.\n",
                     "redis-ops-per-sec": "Hoạt động mỗi giây",

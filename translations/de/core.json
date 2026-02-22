@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "Kopfzeile einfärben",
                 "colors_heading": "Farbgebung",
                 "colors_primary_label": "Primärfarbe",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "Die Funktionen @import und data-uri sind in benutzerdefiniertem LESS nicht zulässig.",
                 "custom_styles_heading": "Individueller Stil",
                 "custom_styles_text": "Die Erscheinung des Forums durch eigenen Less/CSS-Code anpassen.",
-                "dark_mode_label": "Dunkles Design",
                 "description": "Ändere die Farbe, das Logo und weitere Variablen des Forums.",
                 "edit_css_button": "Individuelles CSS bearbeiten",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "Lade ein Bild hoch, welches als Favicon für das Forum verwendet wird.",
                 "logo_heading": "Logo",
                 "logo_text": "Lade ein Logo hoch, welches anstelle des Forum-Titels angezeigt wird.",
-                "title": "Erscheinungsbild"
+                "title": "Erscheinungsbild",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Standardsprache",
                 "description": "Lege den Forentitel, die Sprache und weitere Grundeinstellungen fest.",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "Anzeigename",
                 "display_name_text": "Wähle den Treiber, der verwendet wird, um den Anzeigenamen der Benutzer zu bestimmen. Standardmäßig wird der Benutzername angezeigt.",
                 "forum_description_heading": "Beschreibung des Forums",
@@ -38,6 +133,16 @@
                 "home_page_heading": "Startseite",
                 "home_page_text": "Wähle die Seite aus, die Benutzer beim Besuch des Forums zuerst sehen.",
                 "show_language_selector_label": "Sprachauswahlmenü zeigen",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "Slug-Treiber: {model}",
                 "slug_driver_text": "Wähle den Treiber, welcher die Foren-URLs mit einem \"Slug\" ausstattet.",
                 "title": "Grundeinstellungen",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "Dashboard",
+                "toggle_advanced_page_button": "",
                 "tools_button": "Werkzeuge"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "Konfiguriere den Mail-Treiber, die Parameter und die zu verwendenden Adressen für den Versand von E-Mails.",
                 "driver_heading": "Treiber auswählen",
                 "driver_label": "Treiber",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "Absenderadresse",
                 "mail_encryption_label": "Verschlüsselung",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domäne",
                 "mail_mailgun_region_label": "Region",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "Test-E-Mail wurde erfolgreich versandt!",
                 "send_test_mail_text": "Versende eine E-Mail mit der gegebenen Konfiguration an deine Adresse, {email}.",
                 "smtp_heading": "SMTP Einstellungen",
+                "smtp_description": "",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "Diese Erweiterung wurde durch {replacement} ersetzt. Ziehe in Betracht, zum Ersatzpaket zu wechseln.",
                 "configure_scopes": "Bereiche konfigurieren",
                 "confirm_purge": "Die Bereinigung entfernt sämtliche Datenbankeinträge und Assets, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; dies muss über Composer geschehen. Bist du sicher, dass du fortfahren willst?",
+                "database_driver_mismatch": "",
                 "deprecated": "Veraltet",
                 "disabled": "Deaktiviert",
                 "enable_to_see": "Aktiviere die Erweiterung, um Einstellungen einsehen und verändern zu können.",
@@ -163,17 +281,25 @@
                     "title": "Dokumentation von {extName}"
                 },
                 "replaced": "Ersetzt",
-                "confirm_uninstall": "Die Deinstallation entfernt alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen. Bist du sicher, dass du fortfahren möchtest?",
-                "uninstall_button": "Deinstallieren"
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "Hilfe erhalten",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "Bitte warten…"
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -222,6 +348,7 @@
                 "post_without_throttle_label": "Mehrfachantworten ohne Wartezeit gestatten",
                 "read_heading": "Lesen",
                 "remove_scope_label": "Geltungsbereich {scope} entfernen",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "Diskussionen umbenennen",
                 "reply_to_discussions_label": "Auf Diskussionen antworten",
                 "search_users_label": "=> core.ref.search_users",
@@ -244,8 +371,14 @@
                 "signup_closed_button": "Geschlossen",
                 "signup_open_button": "Geöffnet"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "Deine Änderungen wurden gespeichert.",
+                "select_dropdown_custom_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -260,11 +393,6 @@
                         "display_name": {
                             "title": "Anzeigename"
                         },
-                        "edit_user": {
-                            "button": "=> core.ref.edit",
-                            "tooltip": "{username} bearbeiten",
-                            "title": "=> core.ref.edit_user"
-                        },
                         "email": {
                             "title": "=> core.ref.email",
                             "visibility_hide": "E-Mail-Adresse verstecken",
@@ -278,7 +406,11 @@
                             "title": "Beitrittsdatum"
                         },
                         "user_actions": {
-                            "title": "Aktionen"
+                            "title": "Aktionen",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "ID"
@@ -289,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "Ungültig"
-                },
-                "pagination": {
-                    "back_button": "Vorherige Seite",
-                    "first_button": "Gehe zur ersten Seite",
-                    "go_to_page_textbox_a11y_label": "Gehe direkt zur Seitenzahl",
-                    "last_button": "Gehe zur letzten Seite",
-                    "next_button": "Nächste Seite",
-                    "page_counter": "Seite {current} von {total}"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
@@ -361,10 +485,10 @@
                 "empty_text": "Es gibt noch keine Diskussionen in diesem Forum.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# Antwort} other {# Antworten}}",
-                "unread_replies_a11y_label": "{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.",
-                "mark_as_read_tooltip": "Als gelesen markieren"
+                "unread_replies_a11y_label": "{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -382,7 +506,6 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
-                "search_clear_button_accessible_label": "Suchanfrage löschen",
                 "search_placeholder": "Suche",
                 "search_role_label": "Suche im Forum",
                 "session_dropdown_accessible_label": "Dropdown-Menü für Sitzungsoptionen umschalten",
@@ -395,30 +518,31 @@
                 "mark_all_as_read_confirmation": "Bist du dir sicher, dass du alle Diskussionen als gelesen markieren willst?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Aktualisieren",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "Dropdown-Menü für die Navigation umschalten"
             },
             "index_sort": {
                 "latest_button": "Zuletzt",
-                "newest_button": "Neueste",
-                "oldest_button": "Älteste",
-                "relevance_button": "Relevanz",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Sortierung der Diskussionsliste ändern",
                 "top_button": "Meist diskutiert"
             },
             "log_in": {
                 "forgot_password_link": "Passwort vergessen?",
-                "invalid_login_message": "Die Anmeldedaten sind nicht korrekt.",
+                "invalid_login_message": "",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "Angemeldet bleiben",
+                "remember_me_label": "",
                 "sign_up_text": "Noch keinen Account? <a>Registrieren</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Benutzername oder E-Mail-Adresse"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
-                "delete_all_confirm": "Bist du sicher, dass du alle Benachrichtigungen löschen willst? Diese Aktion kann nicht rückgängig gemacht werden",
+                "delete_all_confirm": "",
                 "delete_all_tooltip": "Alle Benachrichtigungen löschen",
                 "discussion_renamed_text": "{username} hat den Titel geändert",
                 "empty_text": "Keine neuen Benachrichtigungen",
@@ -442,6 +566,11 @@
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Dropdown-Menü für Beitragsoptionen umschalten"
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "Neuester Beitrag",
                 "original_post_link": "Erster Beitrag",
@@ -455,14 +584,18 @@
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} später"
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
                 "title": "Diskussion umbenennen"
-            },
-            "search": {
-                "all_discussions_button": "Alle Diskussionen durchsuchen nach \"{query}\"",
-                "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "{browser} auf {os}",
@@ -503,6 +636,14 @@
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "Erhalte \"{description}\" Benachrichigungen über {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
@@ -584,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Zirkuläre Abhängigkeiten erkannt: {extensions}. Prozess abgebrochen. Bitte deaktiviere eine der Erweiterungen und versuche es erneut.",
+                "db_error_message": "",
                 "dependent_extensions_message": "Die Erweiterung {extension} kann nicht deaktiviert werden, bis die folgenden abhängigen Erweiterungen deaktiviert wurden: {extensions}",
                 "extension_initialiation_failed_message": "{extension} konnte nicht initialisiert werden, überprüfe die Browser-Konsole für weitere Informationen.",
+                "extension_runtime_failed_message": "",
                 "generic_message": "Ups! Da ist was schief gelaufen. Bitte lade die Seite neu oder versuche es erneut.",
                 "generic_cross_origin_message": "Ups! Bei einer Cross-Origin-Anfrage ist etwas schief gelaufen. Bitte lade die Seite neu und versuche es erneut.",
                 "missing_dependencies_message": "Die Erweiterung {extension} kann nicht aktiviert werden, bis die folgenden abhängigen Erweiterungen aktiviert wurden: {extensions}",
@@ -594,6 +737,48 @@
                 "permission_denied_message": "Du hast keine Berechtigung dies zu tun.",
                 "rate_limit_exceeded_message": "Nicht so schnell. Bitte versuche es in Kürze erneut.",
                 "render_failed_message": "Beim Anzeigen dieses Inhalts ist ein Fehler aufgetreten. Wenn du ein Benutzer bist, versuche es später erneut. Wenn du ein Administrator bist, überprüfe deine Flarum-Protokolldateien, um weitere Informationen zu erhalten."
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -605,25 +790,75 @@
             "modal": {
                 "close": "Schließen"
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": "Navigationsleiste öffnen"
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
-            "datetime_formats": {
-                "humanTimeShort": "D. MMM",
-                "humanTimeLong": "ll",
-                "scrubber": "MMMM YYYY"
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second}, und {third}",
                 "two_text": "{first} und {second}"
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": "[gelöscht]"
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "D. MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -660,6 +895,9 @@
                 "csrf_token_mismatch": "Du warst zu lange inaktiv.",
                 "csrf_token_mismatch_return_link": "Gehe zurück um es erneut zu versuchen",
                 "invalid_confirmation_token": "Der Bestätigungslink wurde bereits verwendet oder ist ungültig.",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "Du hast keine Berechtigung, auf diese Seite zuzugreifen. Versuche dich erneut anzumelden.",
                 "not_found": "Die angeforderte Seite konnte nicht gefunden werden.",
                 "not_found_return_link": "Zurück zu {forum}",
@@ -671,10 +909,21 @@
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "Bist du sicher, dass du dich von {forum} abmelden willst?",
                 "title": "=> core.ref.log_out"
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
+                "title": ""
             },
             "reset_password": {
                 "confirm_password_label": "Neues Passwort bestätigen",
@@ -682,13 +931,18 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
             },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Seite # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Seite # - {forumName}}}"
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
-            "invalid_username_message": "Der Benutzername darf nur Buchstaben, Zahlen und Gedankenstriche enthalten.",
+            "invalid_username_message": "",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Der {filter} Filter muss numerisch sein.",
                 "must_not_be_array_message": "Der {filter} Filter darf kein Array sein.",
@@ -696,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "Aktivierung deines neuen Kontos",
-                "body": "Hallo {username}!\n\njemand (hoffentlich du!) hat sich im Forum {forum} mit dieser E-Mail-Adresse registriert.\n\nWenn du es warst, folge bitte dem Link, um das Konto zu aktivieren:\n{url}\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
+                "body": ""
             },
             "confirm_email": {
                 "subject": "Bestätigung deiner E-Mail-Adresse",
-                "body": "Hallo {username}!\n\njemand (hoffentlich du!) hat die E-Mail-Adresse im Forum {forum} geändert.\n\nWenn du das warst, folge bitte dem Link, um die neue E-Mail-Adresse zu bestätigen:\n{url}\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "Zurücksetzung deines Passwortes",
-                "body": "Hallo {username}!\n\njemand (hoffentlich du!) hat das Zurücksetzen des Passwortes im Forum {forum} beantragt.\n\nWenn du das warst, folge bitte dem Link, um ein neues Passwort festzulegen:\n{url}\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "Flarum E-Mail Test",
-                "body": "Hallo {username}!\n\nDies ist eine Test E-Mail zur Überprüfung, ob deine Flarum E-Mail-Konfiguration richtig funktioniert.\n\nWenn du das warst, dann zeigt diese E-Mail an, dass deine Konfiguration funktioniert.\n\nWenn du das nicht warst, ignoriere diese E-Mail.\n"
+                "body": ""
             }
         },
         "ref": {
@@ -725,6 +997,8 @@
             "custom_footer_title": "Individuelle Fußzeile bearbeiten",
             "custom_header_text": "Füge eigenen HTML-Code hinzu, der über der Flarum-Kopfzeile eingefügt wird.",
             "custom_header_title": "Individuelle Kopfzeile bearbeiten",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "Löschen",
             "delete_forever": "Endgültig löschen",
             "discussions": "Diskussionen",
@@ -735,6 +1009,9 @@
             "generic_confirmation_message": "Bist du sicher, dass du fortfahren willst? Diese Aktion kann nicht rückgängig gemacht werden.",
             "icon": "Symbol",
             "icon_text": "Gebe den Namen des <a>FontAwesome</a>-Symbols ein, aber <em>mit</em> dem Prefix <code>fas fa-</code>.",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "Mehr laden",
             "loading": "Ladevorgang läuft…",
             "log_in": "Anmelden",
@@ -742,15 +1019,20 @@
             "mark_all_as_read": "Alle als gelesen markieren",
             "never": "Nie",
             "new_token": "Neuer Token",
+            "newest": "",
             "next_page": "Nächste Seite",
             "notifications": "Benachrichtigungen",
             "okay": "Okay",
+            "oldest": "",
             "password": "Passwort",
             "posts": "Beiträge",
             "previous_page": "Vorherige Seite",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "Entfernen",
             "rename": "Umbenennen",
             "reply": "Antworten",
+            "refresh": "",
             "reset_your_password": "Dein Passwort zurücksetzen",
             "restore": "Wiederherstellen",
             "save_changes": "Änderungen speichern",
@@ -761,6 +1043,7 @@
             "some_others": "{count, plural, one {# weiterem} other {# weiteren}}",
             "start_a_discussion": "Diskussion starten",
             "username": "Benutzername",
+            "username_or_email_placeholder": "",
             "users": "Benutzer",
             "view": "Anzeigen",
             "write_a_reply": "Eine Antwort schreiben…",

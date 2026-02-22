@@ -11,7 +11,6 @@
                     "tags": "",
                     "general": "Geral",
                     "reminders": "Lembretes",
-                    "search": "",
                     "advanced": "Avançado",
                     "reminders_notice": "Para que os lembretes funcionem, você deve ter configurado o agendador do Flarum corretamente."
                 },
@@ -36,19 +35,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
-                "solution_search": "",
-                "solution_search_help": "",
-                "remove_solutions_from_main_search": "",
-                "remove_solutions_from_main_search_help": "",
-                "display_tags": "",
-                "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
-                "allow_select_own_post": "Selecione a própria postagem",
-                "allow_select_own_post_help": "Permita que o autor selecione uma de suas próprias postagens na discussão como a melhor resposta",
-                "enable_all_tags_button": "Ativar todas as tags para Melhores Respostas",
-                "enable_all_tags_reminder_button": "Habilitar todas as tags para lembretes de Melhor Resposta",
-                "introduction": "Habilite quais tags devem suportar as Melhores Respostas em <code><a>flarum/tags</a></code> e, opcionalmente, quais tags devem suportar lembretes. Quando uma tag estiver habilitada como Melhor Resposta, atribua permissões a cada grupo de usuários que pode definir respostas (própria discussão, qualquer discussão). As permissões podem ser atribuídas globalmente (para qualquer tag habilitada como Melhor Resposta) ou por tag.\n"
+                "discussion_sidebar_jump_button_help": ""
             },
             "edit_tag": {
                 "qna_label": "Permita que as Melhores Respostas sejam definidas nesta tag",
@@ -92,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count, plural, one { {count} melhor resposta} other {{count} melhores respostas}}"
             },
-            "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
-            },
             "discussion": {
                 "jump_to_best_answer_button": ""
             }
@@ -110,6 +94,13 @@
                 "awarded": "Olá, {recipient_display_name},\n\nÓtimo trabalho, {actor_display_name} acabou de definir sua postagem como a melhor resposta na discussão: {discussion_title}. Obrigado por contribuir.\n\nVeja aqui: {discussion_url}\n",
                 "ba-set": "Olá, {recipient_display_name},\n\n{actor_display_name} acabou de definir a melhor resposta na discussão: {discussion_title}, da qual você participou.\n\nConfira: {discussion_url}\n",
                 "select": "Olá, {recipient_display_name},\n\nApenas checando; você deve ter respostas para sua pergunta: {discussion_title}.\nEspero que uma deles tenha ajudado você a resolver seu problema.\n\nNesse caso, seria muito útil para os futuros membros se você pudesse definir a melhor resposta para sua pergunta. Isso ajudará as pessoas com o mesmo problema a encontrar a resposta de que precisam e também é um grande obrigado aos membros que o ajudaram. Eles doam seu tempo voluntariamente, então é bom que saibam que estão indo bem.\n\nVisite a discussão aqui: {discussion_url} e selecione a postagem mais apropriada como a melhor resposta.\n\nObrigado!\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

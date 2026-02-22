@@ -5,7 +5,7 @@
                 "add_label": "Nieuwe authenticatiemethode",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "voorbeeld: extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "Opslaan",
                     "token_label": "Token",
                     "type_label": "Type",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Laat zien waarom de update niet naar de nieuwste versie is uitgevoerd.",
                 "install": "Installeer een nieuwe extensie",
-                "install_help": "Vul de naam van het extensiepakket in om door te gaan. U kunt een <semantic_link>semantische versie</semantic_link> opgeven met de notatie <code>vendor/package-name:version</code>. Bezoek {extiverse} om door extensies te bladeren.\n",
+                "install_help": "",
                 "proceed": "Doorgaan",
                 "remove": "Deînstalleren",
                 "successful_install": "{extension} is succesvol geïnstalleerd, omleiden..",
@@ -98,11 +98,44 @@
                 "update": "Update"
             },
             "minor_update_confirmation": {
-                "content": "Hierdoor worden ook alle andere extensies/pakketten bijgewerkt met beschikbare updates."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Manager"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "Taak is net begonnen",
                     "title": "Wachtrij"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Wees voorzichtig met wie u toegang geeft tot het beheerdersgedeelte. De extensiebeheerder kan door slechte actoren worden misbruikt om pakketten te installeren die tot beveiligingsinbreuken kunnen leiden.",
                 "debug_mode_warning": "U werkt in de debugmodus, de extensiemanager kan lokale ontwikkelingspakketten niet correct installeren en bijwerken. Gebruik voor dergelijke doeleinden in plaats daarvan de opdrachtregelinterface.",
                 "queue_jobs": "Voer bewerkingen uit in de achtergrondwachtrij",
-                "queue_jobs_help": "U kunt lezen over een <a href='{basic_impl_link}'>basis wachtrij</a>-implementatie of een <a href='{adv_impl_link}'>meer geavanceerde</a>-implementatie. Zorg ervoor dat de PHP-versie die voor de wachtrij wordt gebruikt, {php_version} is. Zorg ervoor dat <a href='{folder_perms_link}'>maprechten</a> correct zijn geconfigureerd.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Dagen voor het bewaren van taken",
                 "task_retention_days_help": "Het aantal dagen dat voltooide taken in de database moeten worden bewaard. Taken ouder dan dit worden verwijderd. Stel deze in op 0 om alle taken te behouden.\n"
             },
             "updater": {
-                "up_to_date": "Alles is actueel!",
+                "up_to_date": "",
                 "check_for_updates": "Controleer op updates",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Alle pakketten zijn succesvol bijgewerkt.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum is succesvol bijgewerkt.",
             "why_not_modal": {
                 "title": "Waarom wordt het niet bijgewerkt"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "minimale stabiliteit",
-                "repositories": "repositories",
-                "repositories.*": "repositories",
-                "repositories.*.type": "repositorie type",
-                "repositories.*.url": "repositorie URL",
-                "extension_id": "extensie ID",
-                "update_mode": "update modus",
-                "package": "paket",
-                "version": "versie",
-                "github_oauth": "GitHub OAuth",
-                "github_oauth.*": "GitHub OAuth",
-                "gitlab_oauth": "GitLab OAuth",
-                "gitlab_oauth.*": "GitLab OAuth",
-                "gitlab_token": "GitLab Token",
-                "gitlab_token.*": "GitLab Token",
-                "bearer": "HTTP Bearer",
-                "bearer.*": "HTTP Bearer"
             }
         }
     }

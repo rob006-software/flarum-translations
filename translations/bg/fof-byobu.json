@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Лична Дискусия] {display_name} те добави към лична дискусия"
             },
             "body": {
-                "private_discussion_created": "Здравей {recipient_display_name},\n\n{actor_display_name} започна нова лична дискусия с теб като получател: {discussion_title}.\n\nВиж я тук:\n{discussion_url}\n\nМоже да е необходимо да се впишеш първо преди да имаш достъп до този линк.\n",
-                "private_discussion_replied": "Здравей {recipient_display_name},\n\n{actor_display_name} публикува в лична дискусия с теб като получател: {discussion_title}.\n\nВиж я тук:\n{post_url}\n\nМоже да е необходимо да се впишеш преди да имаш достъп до този линк.\n",
-                "recipient_removed": "Здравей {recipient_display_name},\n\n{actor_display_name} напусна личната дискусия: {discussion_title}. Повече няма да имат възможност да видят съдържанието на дискусията..\n\nВиж тук:\n{discussion_url}\n\nМоже да се налоши да се впишеш преди да имаш достъп до този линк.\n",
-                "private_discussion_added": "Здравей {recipient_display_name},\n\n{actor_display_name} те добави към съществуваща лична дискусия: {discussion_title}.\n\nВиж я тук:\n{discussion_url}\n\nМоже да е необходимо да се впишеш преди да имаш достъп до този линк.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

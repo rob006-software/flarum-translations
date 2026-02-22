@@ -5,7 +5,7 @@
                 "add_label": "Nouvelle méthode d'authentification",
                 "add_modal": {
                     "host_label": "Hôte",
-                    "host_placeholder": "exemple : extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "Envoyer",
                     "token_label": "Jeton",
                     "type_label": "Type",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Montrer pourquoi elle n'a pas été mise à jour.",
                 "install": "Installer une nouvelle extension",
-                "install_help": "Indiquez le nom du paquet d'extension pour continuer. Vous pouvez spécifier une <semantic_link>version sémantique</semantic_link> en utilisant le format <code>vendor/package-name:version</code>. Veuillez visiter {extiverse} pour parcourir les extensions.\n",
+                "install_help": "",
                 "proceed": "Procéder",
                 "remove": "Désinstaller",
                 "successful_install": "L'extension {extension} a été installée, redirection en cours…",
@@ -98,11 +98,44 @@
                 "update": "Mettre à jour"
             },
             "minor_update_confirmation": {
-                "content": "Cela mettra également à jour tous les autres extensions et paquets avec les mises à jour disponibles."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Gestionnaire"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "La tâche vient de commencer",
                     "title": "File d'attente"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Soyez prudent quant aux personnes à qui vous donnez accès à la zone d'administration car le gestionnaire d'extensions peut être utilisé par des acteurs malveillants pour installer des paquets qui peuvent entraîner des failles de sécurité.",
                 "debug_mode_warning": "Vous êtes en mode débogage, le gestionnaire d'extension ne peut pas installer et mettre à jour correctement les paquets de développement local. Veuillez utiliser l'interface de ligne de commande à cet effet.",
                 "queue_jobs": "Exécuter les opérations dans la file d'attente en arrière-plan",
-                "queue_jobs_help": "Vous pouvez vous renseigner sur une <a href='{basic_impl_link}'>file d'attente basique</a> ou une <a href='{adv_impl_link}'>file d'attente plus avancée</a>. Assurez-vous que la version de PHP utilisée pour la file d'attente est {php_version}. Vérifiez que <a href='{folder_perms_link}'>les permissions du dossier</a> sont correctement configurées.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Jours de rétention des tâches",
                 "task_retention_days_help": "Le nombre de jours pendant lesquels les tâches terminées doivent être conservées dans la base de données. Les tâches plus anciennes seront supprimées. La valeur 0 permet de conserver toutes les tâches.\n"
             },
             "updater": {
-                "up_to_date": "Tout est à jour !",
+                "up_to_date": "",
                 "check_for_updates": "Vérifier les mises à jour",
                 "flarum": "Noyau de Flarum",
                 "global_update_successful": "Mise à jour de tous les paquets réussie.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum a été mis à jour.",
             "why_not_modal": {
                 "title": "Pourquoi la mise à jour ne se fait-elle pas ?"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "stabilité minimale",
-                "repositories": "dépôts",
-                "repositories.*": "dépôts",
-                "repositories.*.type": "type de dépôt",
-                "repositories.*.url": "URL du dépôt",
-                "extension_id": "identifiant de l'extension",
-                "update_mode": "mode de mise à jour",
-                "package": "paquet",
-                "version": "version",
-                "github_oauth": "GitHub OAuth",
-                "github_oauth.*": "GitHub OAuth",
-                "gitlab_oauth": "GitLab OAuth",
-                "gitlab_oauth.*": "GitLab OAuth",
-                "gitlab_token": "Jeton GitLab",
-                "gitlab_token.*": "Jeton GitLab",
-                "bearer": "HTTP Bearer",
-                "bearer.*": "HTTP Bearer"
             }
         }
     }

@@ -11,7 +11,6 @@
                     "tags": "",
                     "general": "ทั่วไป",
                     "reminders": "เตือนความจำ",
-                    "search": "",
                     "advanced": "ขั้นสูง",
                     "reminders_notice": "สำหรับเตือนความจำเพื่อให้สามารถใช้งานได้คุณต้องตั้งค่าตรางเวลาของ Flarum ให้ถูกต้อง"
                 },
@@ -36,17 +35,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
-                "solution_search": "",
-                "solution_search_help": "",
-                "remove_solutions_from_main_search": "",
-                "remove_solutions_from_main_search_help": "",
-                "display_tags": "",
-                "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
-                "allow_select_own_post": "เลือกโพสต์ของตนเอง",
-                "allow_select_own_post_help": "อนุญาติให้เลือกโพสต์ของตนเองในการสนทนาเป็นคำตอบที่ดีที่สุด",
-                "introduction": "เปิดใช้แท็กที่อนุญาติให้ใช้คำตอบที่ดีที่สุดใน <code>flarum/tags</code> และเลือกว่าแท็กใดอนุญาติการเตือนความจำ เมื่อแท็กเปิดใช้งานคำตอบที่ดีที่สุด ให้กำหนดสิทธิ์ให้กับแต่ละกลุ่มผู้ใช้ที่อาจกำหนดคำตอบ (การสนทนาของตัวเอง การสนทนาใดๆ) สิทธิ์อาจกำหนดได้ทุกคน (สำหรับแท็กที่มีคำตอบที่ดีที่สุด) หรือตามแต่ละแท็ก\n"
+                "discussion_sidebar_jump_button_help": ""
             },
             "edit_tag": {
                 "qna_label": "เปิดใช้งานการเลือกคำตอยที่ดีที่สุดในเเท็กนี้",
@@ -90,10 +80,6 @@
             "user": {
                 "best-answer-count": ""
             },
-            "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
-            },
             "discussion": {
                 "jump_to_best_answer_button": ""
             }
@@ -108,6 +94,13 @@
                 "awarded": "",
                 "ba-set": "",
                 "select": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

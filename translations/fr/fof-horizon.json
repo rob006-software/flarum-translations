@@ -22,7 +22,12 @@
                 "heading": "Vue d'ensemble de la file d'attente",
                 "full_dashboard": "Tableau de bord d'Horizon",
                 "refresh": "Actualiser",
-                "last_refresh": "Mis à jour à {time}",
+                "last_refresh": "",
+                "error": {
+                    "title": "Erreur de connexion",
+                    "fetch_failed": "Impossible de récupérer les statistiques Horizon. Veuillez vérifier votre configuration Redis.",
+                    "setup_docs": "Consulter la documentation relative à la configuration de Redis"
+                },
                 "health": {
                     "excellent": "Excellent",
                     "good": "Bien",
@@ -30,16 +35,11 @@
                     "critical": "Critique",
                     "tooltip": "Note de santé du système : {score}/100"
                 },
-                "error": {
-                    "title": "Erreur de connexion",
-                    "fetch_failed": "Impossible de récupérer les statistiques Horizon. Veuillez vérifier votre configuration Redis.",
-                    "setup_docs": "Consulter la documentation relative à la configuration de Redis"
-                },
                 "data": {
                     "redis-used-memory": "Redistribuer la mémoire utilisée",
-                    "redis-memory-usage": "Utilisation de la mémoire cache",
                     "redis-peak-memory": "Redistribuer les pics de mémoire",
                     "redis-max-memory": "Redistribuer la mémoire maximale",
+                    "redis-memory-usage": "Utilisation de la mémoire cache",
                     "redis-memory-policy": "Redistribuer la politique de mémoire",
                     "redis-memory-policy-tooltip": "La politique de mémoire est la façon dont Redis sélectionnera ce qui doit être supprimé lorsque\nla limite de mémoire maximale est atteinte. La valeur par défaut est `noeviction` : les nouvelles valeurs \nne sont pas sauvegardées lorsque la limite de mémoire est atteinte. Cliquez ici pour consulter la documentation.\n",
                     "redis-ops-per-sec": "Opérations par seconde",
@@ -59,9 +59,7 @@
                     "max-runtime": "Durée d'exécution maximale",
                     "max-throughput": "Débit maximal",
                     "success-rate": "Taux de réussite",
-                    "failure-rate": "Taux d'échec",
-                    "redis-cpu-user": "Redistribuer le processeur de l'utilisateur",
-                    "redis-cpu-sys": "Redistribuer le processeur du système"
+                    "failure-rate": "Taux d'échec"
                 }
             }
         }

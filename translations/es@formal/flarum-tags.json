@@ -56,10 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Editar las etiquetas para '{title}'",
-                "title": "Elija las etiquetas para su discusión",
-                "choose_primary_placeholder": "{count, plural, one {Elija una etiqueta principal} other {Elija # etiquetas primarias}}",
-                "choose_secondary_placeholder": "{count, plural, one {Elija 1 etiqueta más} other {Elija # más etiquetas}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "Elija las etiquetas para su discusión"
             },
             "composer_discussion": {
                 "choose_tags_link": "Elegir etiquetas"
@@ -87,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Borrada",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Omitir requisitos de etiqueta",
                 "choose_primary_placeholder": "{count, plural, one {Seleccionar una etiqueta principal} other {Seleccionar # etiquetas principales}}",
@@ -101,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Selecciona 1 etiqueta más} other {Selecciona # etiquetas más}}",
             "name": "Nombre",
             "tags": "Etiquetas"
-        },
-        "validation": {
-            "attributes": {
-                "name": "nombre",
-                "slug": "slug",
-                "is_hidden": "oculto",
-                "description": "descripción",
-                "color": "color",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

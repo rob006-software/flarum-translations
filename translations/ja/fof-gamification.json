@@ -87,6 +87,8 @@
                     "vote_color": "投票された色",
                     "icon_name": "好き/嫌いの小さなアイコン",
                     "icon_help": "Font Awesomeアイコンを入力してください。接尾辞は-upおよび-downです。 例：arrow, thumbs, chevron",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "",
                     "first_post_only": "",
                     "allow_self_votes": ""
@@ -94,7 +96,7 @@
                 "save_settings": "設定を保存する",
                 "convert": {
                     "button": "“Likes” をアップ投票に変換する",
-                    "help": "以前のいいねを flarum-ext-likes から upvotes に変換し、現在のすべてのディスカッションの辛さを計算します。",
+                    "help": "",
                     "converting": "あなたの Likes は現在変換中です。 数分後にサイトを更新して、プロセスが完了したことを確認します。 （フォーラムの総評価数によっては、変換に時間がかかる場合があります）",
                     "converted": "すべての {number} Likes を正常に変換しました"
                 },
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": ""
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

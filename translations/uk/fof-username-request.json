@@ -72,6 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "Запитів на зміну назви не знайдено.",
+                "group_label": "",
                 "nickname_item_text": "Користувач {name} попросив змінити своє псевдо",
                 "nickname_exerpt": "Запитуване псевдо: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -98,8 +99,8 @@
         "email": {
             "body": {
                 "noReasonProvided": "Причина не вказана.",
-                "approved": "Вітаємо, {recipient_display_name}!\n\nВаш запит на зміну імені користувача на {new_username} було схвалено {actor_display_name}.\n\nТепер ви можете увійти під своїм новим ім'ям користувача: {login_url}.\n",
-                "rejected": "Вітаємо, {recipient_display_name}!\n\nВаш запит на зміну імені користувача з {old_username} на {requested_username} було відхилено {actor_display_name}.\n\nПричина: {reason}\n"
+                "approved": "",
+                "rejected": ""
             },
             "subject": {
                 "approved": "Користувач {display_name} схвалив зміну вашого імені користувача на {requested_username}",

@@ -84,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Dihapus",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Abaikan persyaratan tag",
                 "choose_primary_placeholder": "{count, plural, one {Pilih sebuah tag primer} other {Pilih # tag primer}}",
@@ -91,14 +99,6 @@
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
                 "title": "=> flarum-tags.ref.choose_tags"
-            },
-            "gambits": {
-                "discussions": {
-                    "tag": {
-                        "key": "tag",
-                        "hint": "nama tag, atau daftar nama tag yang dipisahkan dengan koma, atau “tanpa tag”"
-                    }
-                }
             }
         },
         "ref": {
@@ -106,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Pilih 1 tag lagi} other {Pilih # tag lainnya}}",
             "name": "Nama",
             "tags": "Tag"
-        },
-        "validation": {
-            "attributes": {
-                "name": "nama",
-                "slug": "slug",
-                "is_hidden": "tersembunyi",
-                "description": "deskripsi",
-                "color": "warna",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

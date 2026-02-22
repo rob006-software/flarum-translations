@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Reakce",
                 "anonymous_count": "{count, plural, one {# anonymní uživatel} few {# anonymní uživatelé} other {# anonymních uživatelů}}",
-                "no_reactions": ""
+                "no_reactions": "",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Zobrazit reakce",
-            "react_button_label": "Reagovat"
+            "react_button_label": "Reagovat",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Zobrazit",
                         "identifier": "Identifikátor"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Pokud jste právě toto rozšíření aktualizovali, bude třeba převést vaše reakce. Pokud jste rozšíření právě nainstalovali, můžete tuto zprávu bezpečně ignorovat.",

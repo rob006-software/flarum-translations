@@ -2,28 +2,26 @@
     "fof-prevent-necrobumping": {
         "forum": {
             "composer": {
-                "warning": {
-                    "title": "Diskusi ini berusia lebih dari <b>{time}</b>.",
-                    "description": "Kemungkinan besar hal ini tidak perlu didiskusikan lebih lanjut dan dengan demikian tidak ada gunanya untuk membahasnya.",
-                    "cta": "Apakah Anda ingin memulai diskusi baru?",
-                    "cta_button": "=> core.ref.start_a_discussion",
-                    "checkbox_label": "Saya sadar bahwa diskusi ini sudah agak lama, tetapi saya masih ingin menjawabnya.",
-                    "error": "Diskusi ini sudah terlalu lama untuk dijawab."
-                }
+                "inactive_discussion_alert": {
+                    "title": "",
+                    "description": "",
+                    "cta": "",
+                    "cta_button": "",
+                    "confirmation": ""
+                },
+                "error": ""
             }
         },
         "admin": {
             "settings": {
-                "show_discussion_cta_label": "Tampilkan Anjuran Bertindak",
-                "show_discussion_cta_help": "Tampilkan anjuran bertindak saat membalas diskusi yang lebih lama dari jumlah hari yang ditentukan dan tidak ada deskripsi khusus yang ditetapkan.",
-                "days_label": "Hari",
-                "days_help": "Diskusi akan ditandai sebagai sudah lama ketika jumlah hari yang ditentukan telah terlewati sejak post terakhir pada diskusi tersebut diposting. Gunakan <code>0</code> untuk menonaktifkannya secara default.",
-                "message_title_label": "Judul Pesan",
-                "message_title_help": "Gunakan <code>[time]</code> untuk text waktu, misalkan \"14 hari\".",
-                "message_description_label": "Deskripsi Pesan",
-                "message_agreement_label": "Ketentuan persetujuan (Kotak Centang)",
-                "tags_title": "Tag",
-                "tags_help": "Mengesampingkan hari global untuk tag tertentu. Jika Anda mengosongkan, berarti menggunakan nilai default. Jika sebuah diskusi memiliki beberapa tag dengan nilai hari yang berbeda, diskusi tersebut akan menggunakan jumlah hari terkecil yang dikonfigurasi."
+                "general_heading": "",
+                "days_label": "",
+                "days_help": "",
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
+                "tags_title": "",
+                "tags_help": "",
+                "tags_placeholder": ""
             }
         }
     }

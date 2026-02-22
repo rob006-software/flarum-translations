@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Private Discussion] {display_name} lisäsi sinut yksityiseen keskusteluun"
             },
             "body": {
-                "private_discussion_created": "Hei {recipient_display_name},\n\n{actor_display_name} aloittu uuden yksityisen keskustelun kanssasi: {discussion_title}.\n\nKatso se täällä:\n{discussion_url}\n\nSinun täytyy kirjautua ensin, jotta pääset linkillä eteenpäin.\n",
-                "private_discussion_replied": "Hei {recipient_display_name},\n\n{actor_display_name} lähetti viestin yksityiseen keskusteluun jossa olet osallisena: {discussion_title}.\n\nKatso se täällä:\n{post_url}\n\nSinun täytyy kirjautua ensin, jotta pääset linkillä eteenpäin.\n",
-                "recipient_removed": "Hey {recipient_display_name},\n\n{actor_display_name} lähti yksityisestä keskustelusta: {discussion_title}. Hän ei enää näe sen sisältöä.\n\nKatso se täällä:\n{discussion_url}\n\nSinun täytyy kirjautua ensin, jotta pääset linkillä eteenpäin.\n",
-                "private_discussion_added": "Hey {recipient_display_name},\n\n{actor_display_name} lisäsi sinut olemassa olevaan yksityiseen keskusteluun: {discussion_title}.\n\nKatso se täällä:\n{discussion_url}\n\nSinun täytyy kirjautua ensin, jotta pääset linkillä eteenpäin.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

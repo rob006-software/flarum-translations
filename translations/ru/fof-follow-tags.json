@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "[Тег | Новая дискуссия] {title}",
-                "newPostInTag": "[Тег | Новое сообщение] {title}",
-                "newDiscussionTag": "[Тег | Изменение тега] {title}"
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} создал(а) новую дискуссию: {discussion_title}\n\nЧтобы посмотреть новую дискуссию, перейдите по следующей ссылке:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} ответил(а) в дискуссии: {discussion_title}\n\nЧтобы посмотреть новое сообщение, перейдите по следующей ссылке:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы не будете получать уведомления об этой дискуссии, пока не ознакомитесь с текущей информацией.\n",
-                "newDiscussionTag": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} изменил тег дискуссии, автором которой является {author_display_name} на тег, на который Вы подписаны {discussion_title}\n\nЧтобы посмотреть новую дискуссию, перейдите по следующей ссылке:\n{discussion_url}\n"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
@@ -88,16 +105,6 @@
                 "tagsubscription": {
                     "export_description": "Экспортирует детали уровня подписки на тег, если есть.",
                     "anonymize_description": "Удаляет подписку пользователя на тег."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "tagsubscription": {
-                    "export_description": "Экспортирование данных об уровне подписки для тега, если он существует.",
-                    "anonymize_description": "Удаление подписки пользователя на тег."
                 }
             }
         }

@@ -19,12 +19,14 @@
                     "extension_settings_button": "Paramètres du RGPD"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Données de la table des utilisateurs",
                     "help_text": "Dans la plupart des cas, toutes les colonnes ajoutées à la table <code>user</code> seront traitées automatiquement, tant pour l'exportation des données que pour l'effacement.\nIl existe cependant quelques cas particuliers qui sont énumérés ci-dessous.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "Intégrations RGPD"
+                "gdpr_button": "Intégrations RGPD",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Traiter les demandes d'effacement",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "Exporter les données de {username}"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Confirmer la demande d'effacement de votre compte",
-                "body": "Bonjour {display_name} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à effacer le compte `{display_name}`.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre demande d'effacement :\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Suppression du compte terminée",
-                    "body": "Bonjour {display_name} !\n\nCeci est une notification automatique et définitive indiquant que votre compte a été supprimé.\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "L'anonymisation du compte est terminée",
-                    "body": "Bonjour {display_name} !\n\nCeci est une notification automatique et définitive indiquant que votre compte a été rendu anonyme.\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "Demande d'effacement de compte annulée",
-                "body": "Bonjour {display_name} !\n\nCeci est une notification automatique indiquant que votre demande d'annulation de la suppression de votre compte a été traitée.\n\nVotre compte ne sera plus supprimé.\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "Exportation de données disponible",
-                "body": "Bonjour {display_name} !\n\nVous avez demandé une exportation des données du compte de {username}. Cette exportation a été générée avec succès et est maintenant disponible :\n\n{url}\n\nCette exportation restera disponible jusqu'au {destroys_at}.\n"
+                "body": ""
             }
         },
         "forum": {

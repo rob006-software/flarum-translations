@@ -11,7 +11,6 @@
                     "tags": "",
                     "general": "Obecné",
                     "reminders": "Připomínky",
-                    "search": "",
                     "advanced": "Pokročilé",
                     "reminders_notice": "Aby připomínky fungovaly, je třeba správně nastavit plánovač (scheduler) Flarum."
                 },
@@ -36,19 +35,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
-                "solution_search": "",
-                "solution_search_help": "",
-                "remove_solutions_from_main_search": "",
-                "remove_solutions_from_main_search_help": "",
-                "display_tags": "",
-                "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
-                "allow_select_own_post": "Vybrat vlastní příspěvek",
-                "allow_select_own_post_help": "Povolit uživateli, aby vybral jeden ze svých příspěvků v diskusi jako nejlepší odpověď",
-                "enable_all_tags_button": "Povolit všechny štítky pro Nejlepší odpovědi",
-                "enable_all_tags_reminder_button": "Povolit všechny štítky pro připomenutí Nejlepší odpovědi",
-                "introduction": "V nastavení <code><a>flarum/tags</a></code> vyberte, které štítky mají podporovat Nejlepší odpovědi, a případně, které štítky mají podporovat připomínky. Pokud je u štítku povolena funkce Nejlepší odpověď, přiřaďte oprávnění každé skupině uživatelů, která může nastavovat odpovědi (vlastní diskuze, libovolná diskuze). Oprávnění lze přidělit globálně (pro každý štítek s povolenou Nejlepší odpovědí) nebo pro každý štítek zvlášť.\n"
+                "discussion_sidebar_jump_button_help": ""
             },
             "edit_tag": {
                 "qna_label": "Povolit nastavení Nejlepší odpovědi v tomto štítku",
@@ -92,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count, plural, one {{count} nejlepší odpověď} few {{count} nejlepší odpovědi} other {{count} nejlepších odpovědí}}"
             },
-            "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
-            },
             "discussion": {
                 "jump_to_best_answer_button": ""
             }
@@ -110,6 +94,13 @@
                 "awarded": "Ahoj {recipient_display_name},\n\nskvělá práce, {actor_display_name} právě vybral váš příspěvek jako nejlepší odpověď v diskuzi: {discussion_title}. Děkujeme za pomoc.\n\nPro přístup do diskuze navštivte odkaz: {discussion_url}\n",
                 "ba-set": "Ahoj {recipient_display_name},\n\n{actor_display_name} právě vybral nejlepší odpověď v diskuzi \"{discussion_title}\", které jste se zúčastnil.\n\nPro přístup do diskuze navštivte odkaz: {discussion_url}\n",
                 "select": "Ahoj, {recipient_display_name}\n\nJen pro kontrolu. Na vaši otázku \"{discussion_title}\" byste již měl mít dostatek odpovědí. Doufáme, že vám některá z nich pomohla vyřešit váš problém.\n\nPokud ano, výběr nejlepší odpovědi by byl velmi užitečný pro ostatní uživatele s podobným problémem - usnadnil by jim nalezení hledané odpovědi. Je to také forma poděkování uživatelům, kteří vám pomohli - dobrovolně věnovali svůj čas. Bylo by dobré jim dát najevo, že si vedou dobře.\n\nZapojte se do diskuze a vyberte nejvhodnější příspěvek jako Nejlepší odpověď, kliknutím na následující odkaz: {discussion_url}\n\nDěkujeme!\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

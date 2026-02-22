@@ -11,7 +11,6 @@
                     "tags": "En İyi Yanıt Etiketi",
                     "general": "Genel",
                     "reminders": "Hatırlatıcılar",
-                    "search": "Ara",
                     "advanced": "Gelişmiş",
                     "reminders_notice": "Hatırlatıcıların çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir."
                 },
@@ -36,20 +35,8 @@
                 "remind_tags_label": "Hatırlatma Etiketleri",
                 "remind_tags_help": "Varsa hangi etiketler için hatırlatıcı gönderileceğini seçin. Hatırlatıcılar yalnızca bu etiketlerle yapılan tartışmalar için gönderilecektir.",
                 "tags_info": "Bir etiket En İyi Yanıt etkinleştirildiğinde, her kullanıcı grubuna yanıtları (kendi tartışması, herhangi bir tartışma) ayarlayabilecek izinler atayın. İzinler genel olarak (En İyi Yanıt özellikli etiketler için) veya etiket bazında atanabilir.\n",
-                "solution_search": "Çözüm arama",
-                "solution_search_help": "En İyi Yanıtlarla tartışmaları arama özelliğini etkinleştirin",
-                "remove_solutions_from_main_search": "Çözülenleri ana aramadan kaldır",
-                "remove_solutions_from_main_search_help": "Ana 'tüm tartışmalar' arama sonuçlarından En İyi Yanıtları içeren tartışmaları kaldırın",
-                "display_tags": "Etiketleri arama sonuçlarında görüntüle",
-                "display_tags_help": "En İyi Yanıtlar ile yapılan tartışmalar için arama sonuçlarında etiketi(leri) görüntüle",
                 "discussion_sidebar_jump_button": "Tartışma kenar çubuğunda En İyi Yanıta atla düğmesini görüntüle",
-                "discussion_sidebar_jump_button_help": "Tartışma kenar çubuğuna gönderi akışındaki En İyi Yanıt'a atlayan bir düğme ekler.",
-                "allow_select_own_post": "Kendi gönderini seç",
-                "allow_select_own_post_help": "Kullanıcının bir tartışmaya en iyi yanıt olarak kendi gönderisini seçmesine izin ver",
-                "enable_all_tags_button": "Tüm etiketlerde En İyi Yanıtı etkinleştir",
-                "enable_all_tags_reminder_button": "En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir",
-                "introduction": "<code><a>flarum/tags</a></code> içinde hangi etiketlerin En İyi Yanıtları destekleyeceğini ve isteğe bağlı olarak hangi etiketlerin hatırlatıcıları desteklemesi gerektiğini etkinleştirin. Bir etiket için En İyi Yanıt etkinleştirildiğinde, yanıtları ayarlayabilen her kullanıcı grubuna (kendi tartışması, herhangi bir tartışma) izinler atayın. İzinler genel olarak (En İyi Yanıtın etkinleştirildiği herhangi bir etiket için) veya etiket bazında atanabilir.\n",
-                "remind_tag_ids": "Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)"
+                "discussion_sidebar_jump_button_help": "Tartışma kenar çubuğuna gönderi akışındaki En İyi Yanıt'a atlayan bir düğme ekler."
             },
             "edit_tag": {
                 "qna_label": "Bu etikette En İyi Yanıtların belirlenmesine izin ver",
@@ -93,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count, plural, one { {count} en iyi yanıt} other {{count} en iyi yanıt}}"
             },
-            "search": {
-                "discussions_solutions_heading": "Çözümlü tartışmalar",
-                "all_discussions_solutions_button": "\"{query}\" çözümü içeren tüm tartışmaları arayın"
-            },
             "discussion": {
                 "jump_to_best_answer_button": "En İyi Yanıtı Görüntüle"
             }
@@ -111,6 +94,13 @@
                 "awarded": "Hey {recipient_display_name},\n\nHarika, {actor_display_name} senin {discussion_title} başlıklı tartışmadaki yanıtını en iyi yanıt olarak seçti. Yardımcı olduğun için teşekkürler.\n\nBuradan görüntüle: {discussion_url}\n",
                 "ba-set": "Hey {recipient_display_name},\n\n{actor_display_name} senin de yanıtladığın {discussion_title} tartışması için en iyi yanıtı belirledi.\n\nBuradan görüntüle: {discussion_url}\n",
                 "select": "Hey {recipient_display_name},\n\nSadece kontrol ediyorduk ve {discussion_title} başlıklı tartışmanızın çok sayıda yanıt aldığını gördük. Umarız bu yanıtlardan birisi sorunu çözmene yardımcı olmuştur.\n\nEğer öyleyse sorunuz için en iyi yanıtı belirlemeniz mevcut ve yeni ziyaretçiler için yol gösterici olacaktır. Aynı sorunu yaşayan kullanıcılar için yardımcı olun ve size en iyi yanıtı verene bir teşekkürü çok görmeyin. Kullanıcılarımız zamanlarını gönüllü olarak ayırıyorlar, bu yüzden takdir edildiklerini bilmelerini sağlamak iyi olurdu.\n\nTartışmayı buradan görüntüle: {discussion_url}, ve bir en iyi yanıt belirle.\n\nTeşekkürler!\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

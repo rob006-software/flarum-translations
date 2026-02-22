@@ -72,6 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "Kasutajanime muutmise soovi ei leitud.",
+                "group_label": "",
                 "nickname_item_text": "{name} soovib muuta oma hüüdnime",
                 "nickname_exerpt": "Küsitud kasutajanimi: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -98,8 +99,8 @@
         "email": {
             "body": {
                 "noReasonProvided": "Põhjust pole lisatud.",
-                "approved": "Tere {recipient_display_name},\n\nSinu soov saada oma uueks kasutajanimeks \"{new_username}\" on {actor_display_name} poolt heaks kiidetud.\n\nVõid nüüd logida sisse oma uue kasutajanimega: {login_url}\n",
-                "rejected": "Tere {recipient_display_name},\n\n{actor_display_name} lükkas tagasi sinu soovi saada oma vana kasutajanime \"{old_username}\" asemel uueks kasutajanimeks \"{requested_username}\".\n\nPõhjus: {reason}\n"
+                "approved": "",
+                "rejected": ""
             },
             "subject": {
                 "approved": "{display_name} kiitis heaks sinu kasutajanime muutmise nimeks {requested_username}",

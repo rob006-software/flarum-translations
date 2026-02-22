@@ -11,7 +11,6 @@
                     "tags": "Parimad vastused sildid",
                     "general": "Üldine",
                     "reminders": "Meeldetuletused",
-                    "search": "Otsi",
                     "advanced": "Lisavalikud",
                     "reminders_notice": "Meeldetuletuste töötamiseks pead sa esmalt seadistama korrektselt Flarumi ajastusprogrammi."
                 },
@@ -36,16 +35,8 @@
                 "remind_tags_label": "Meeldetuletused siltides",
                 "remind_tags_help": "Vali, mis siltides meeldetuletusi saadetakse. Meeldetuletusi saadetakse ainult nende vaatluste kohta, millel on valitud sildid.",
                 "tags_info": "",
-                "solution_search": "Lahendused otsimine",
-                "solution_search_help": "Linna otsida parimate vastustega arutelusid",
-                "remove_solutions_from_main_search": "Eemalda lahendused peamisest otsingust",
-                "remove_solutions_from_main_search_help": "",
-                "display_tags": "Näita otsingutulemustes siltide",
-                "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
-                "allow_select_own_post": "Vali omaenda postitus",
-                "allow_select_own_post_help": "Linna kasutajatel valida omaenda vaesust kui parimat vaesust arutelus"
+                "discussion_sidebar_jump_button_help": ""
             },
             "edit_tag": {
                 "qna_label": "Luba selle sildi all parima vastuse kasutamine",
@@ -89,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count, plural, one { {count} parim vastus} other {{count} parimat vastust}}"
             },
-            "search": {
-                "discussions_solutions_heading": "Lahendusega vestlused",
-                "all_discussions_solutions_button": ""
-            },
             "discussion": {
                 "jump_to_best_answer_button": "Vaata parimat vastust"
             }
@@ -107,6 +94,13 @@
                 "awarded": "Hei {recipient_display_name},\n\nSuurepärane töö, {actor_display_name} märkis just sinu postituse vestluses {discussion_title} parimaks vastuseks. Aitäh, et olid abiks.\n\nVaata vestlust: {discussion_url}\n",
                 "ba-set": "Hei {recipient_display_name},\n\n{actor_display_name} märkis just vestluses {discussion_title}, milles sa osaled parima vastuse.\n\nHeida pilk peale: {discussion_url}\n",
                 "select": "Hei {recipient_display_name},\n\nLihtsalt mainime, et su küsimusele {discussion_title} on tulnud juba palju vastuseid. Loodetavasti on mõni neist aidanud sul sinu probleemi lahendada.\n\nSamuti oleks ka teistele kasutajatele abiks kui saaksid märkida selles vestluses parima vastuse. See aitab kasutajaid, kellel on sama küsimus ning väljendab tänu kasutajale, kes su küsimusele vastas. Nad annavad oma aega vabatahtlikult ning on kena neid selle eest tänada.\n\nVaata vestlust siit: {discussion_url} ja vali parim vastus.\n\nAitäh!\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

@@ -2,28 +2,26 @@
     "fof-prevent-necrobumping": {
         "forum": {
             "composer": {
-                "warning": {
-                    "title": "See vestlus on rohkem kui <b>{time}</b> vana.",
-                    "description": "Võimalik, et edasine vestlus pole enam vajalik ning see teema taaselustamine ei ole vajalik.",
-                    "cta": "Kas soovid hoopis uut vestlust alustada?",
-                    "cta_button": "=> core.ref.start_a_discussion",
-                    "checkbox_label": "Olen teadlik, et vestlus on vana, aga sooviksin sellele siiski vastata.",
-                    "error": "See vestlus on liiga vana, et sellele vastata."
-                }
+                "inactive_discussion_alert": {
+                    "title": "",
+                    "description": "",
+                    "cta": "",
+                    "cta_button": "",
+                    "confirmation": ""
+                },
+                "error": ""
             }
         },
         "admin": {
             "settings": {
+                "general_heading": "",
+                "days_label": "",
+                "days_help": "",
                 "show_discussion_cta_label": "",
                 "show_discussion_cta_help": "",
-                "days_label": "Päeva",
-                "days_help": "",
-                "message_title_label": "Kohandatud sõnumi pealkiri",
-                "message_title_help": "Kasuta aja teksti jaoks koodi <code>[time]</code>, nt. \"14 päeva\".",
-                "message_description_label": "Kohandatud sõnumi kirjeldus",
-                "message_agreement_label": "Kohandatud sõnumiga nõusolek (märkekast)",
-                "tags_title": "Sildid",
-                "tags_help": ""
+                "tags_title": "",
+                "tags_help": "",
+                "tags_placeholder": ""
             }
         }
     }

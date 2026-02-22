@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Reakcje",
                 "anonymous_count": "",
-                "no_reactions": ""
+                "no_reactions": "",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Zobacz reakcje",
-            "react_button_label": "Zareaguj"
+            "react_button_label": "Zareaguj",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Wyświetlana nazwa",
                         "identifier": "Identyfikator"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Jeśli jedynie zaktualizowałeś rozszerzenie, Twoje reakcje muszą być przekonwertowane. Jeśli właśnie zainstalowałeś rozszerzenie, możesz bezpiecznie zignorować tę wiadomość.",

@@ -40,16 +40,30 @@
             "no_reason_given": "",
             "suspended": {
                 "subject": "Ваш налог на Грчком Форуму је суспендован",
-                "body": ""
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "За ваш налог на Грчком Форуму је укинута суспензија",
-                "body": ""
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
-        "validation": {
-            "attributes": {
-                "suspendedUntil": ""
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

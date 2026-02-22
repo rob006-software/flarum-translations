@@ -31,8 +31,7 @@
                     "points": ""
                 },
                 "rank": "{rank}",
-                "votes_link": "",
-                "points": "Ballar: {ball}"
+                "votes_link": ""
             },
             "modal": {
                 "downvotes_label": "",
@@ -88,6 +87,8 @@
                     "vote_color": "Ovoz rangi",
                     "icon_name": "Ijobiy/salbiy ovoz belgisi",
                     "icon_help": "-yuqoriga va -pastga qo'shilgan istalgan Font-Awesome belgisini kiriting. Misollar: o'q, bosh barmog'i, chevron",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Faqat ijobiy ovoz berishga ruxsat berish",
                     "first_post_only": "Muhokamadagi faqat birinchi postga ovoz berishga ruxsat berish",
                     "allow_self_votes": ""
@@ -95,7 +96,7 @@
                 "save_settings": "Sozlamalarni saqlash",
                 "convert": {
                     "button": "\"Yoqdi\" larni ijobiy ovozga aylantirish",
-                    "help": "Oldingi yoqtirishlaringizni flarum-ext-layklardan yuqori ovozlarga aylantiring, shuningdek, barcha joriy muhokamalar uchun qizg'inlikni hisoblang.",
+                    "help": "",
                     "converting": "Sizning yoqtirishlaringiz endi aylantirilmoqda. Jarayon tugaganini ko'rish uchun bir necha daqiqadan so'ng saytingizni yangilang. (Forumni yoqtirishlar soniga qarab konversiya vaqti biroz vaqt olishi mumkin)",
                     "converted": "Barcha {number} yoqtirishlar muvaffaqiyatli aylantirildi"
                 },
@@ -129,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "Sizning postingizga {display_name} tomonidan ovoz berildi"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

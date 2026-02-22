@@ -5,7 +5,7 @@
                 "add_label": "添加认证",
                 "add_modal": {
                     "host_label": "主机",
-                    "host_placeholder": "示例：extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "提交",
                     "token_label": "令牌",
                     "type_label": "类型",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "为什么无法更新到最新版本？",
                 "install": "安装扩展程序",
-                "install_help": "填写扩展程序包名，或 <code>提供者/包名:版本</code> 的 <semantic_link>语义化格式</semantic_link> 以安装。欲发现更多扩展程序请前往 {extiverse}。\n",
+                "install_help": "",
                 "proceed": "安装",
                 "remove": "卸载",
                 "successful_install": "{extension} 已成功安装，正在跳转……",
@@ -98,11 +98,44 @@
                 "update": "更新"
             },
             "minor_update_confirmation": {
-                "content": "此操作会同时更新其它可用的扩展程序或依赖包。"
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "管理器"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "任务已刚刚",
                     "title": "队列"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "谨慎分配管理员账号，随意安装扩展程序可能带来安全漏洞。",
                 "debug_mode_warning": "正在使用调试模式。扩展管理器无法正确安装和更新本地开发包，请使用命令行操作。",
                 "queue_jobs": "在后台队列中执行操作",
-                "queue_jobs_help": "请确保用于队列的 PHP 版本为 {php_version}，并正确配置 <a href='{folder_perms_link}'>目录权限</a>。更多内容请参阅 <a href='{basic_impl_link}'>基本队列</a> 和 <a href='{adv_impl_link}'>高级队列</a> 的实现。\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "任务保留天数",
                 "task_retention_days_help": "暂存已完成的任务到数据库。超期一段时间后自动删除，设置为 0 表示永不删除。\n"
             },
             "updater": {
-                "up_to_date": "已全部更新到最新版本！",
+                "up_to_date": "",
                 "check_for_updates": "检查更新",
                 "flarum": "Flarum 核心",
                 "global_update_successful": "成功更新所有包。",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum 已成功更新。",
             "why_not_modal": {
                 "title": "为什么无法更新"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "稳定性约束",
-                "repositories": "仓库",
-                "repositories.*": "仓库",
-                "repositories.*.type": "仓库类型",
-                "repositories.*.url": "仓库 URL",
-                "extension_id": "扩展程序 ID",
-                "update_mode": "更新模式",
-                "package": "包",
-                "version": "版本",
-                "github_oauth": "GitHub 认证",
-                "github_oauth.*": "GitHub 认证",
-                "gitlab_oauth": "GitLab 认证",
-                "gitlab_oauth.*": "GitLab 认证",
-                "gitlab_token": "GitLab 令牌",
-                "gitlab_token.*": "GitLab 令牌",
-                "bearer": "HTTP 令牌认证",
-                "bearer.*": "HTTP 令牌认证"
             }
         }
     }

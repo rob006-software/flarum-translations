@@ -30,9 +30,10 @@
                 "disable-download-logging": "フォーラムのユーザーが行った全てのダウンロードのログを無効化します。有効にしておくと、近い将来ダウンロード数の確認やその他の統計を確認できるようになります。\n",
                 "disable-hotlink-protection": "他のサイトからのダウンロードを防止します。現在の方法では、csrfトークンと投稿IDが必要です。\n",
                 "download_templates": "表示方法は、アップロードされたファイルがフォーラムでどのように表示されるかを指定します（プレビューやボタンなど）。現在利用できる表示方法は以下のとおりです。\n",
-                "mime_types": "ここで振り分けの設定を行ってください。アップロードされたファイルのMIMEタイプに対して、正規表現による振り分けが行われ、対応するアップロード先と表示方法が使用されます。\n",
+                "mime_types": "",
                 "resize": "アップロードされる前に画像サイズを変更するかどうかを選択します。最大の幅と高さをピクセル単位で指定できます。画像サイズを変更しても、アスペクト比は維持されます。\n",
                 "client_extension": "標準の設定では、MINEタイプに応じて安全な拡張子を判別しています。\nそのため、ZIPやバイナリデータといった一部のファイルタイプでは、本来と異なる汎用拡張子として認識される場合があります。\nここでは、コンマ区切りで拡張子を入力することで、拡張子をそのまま解釈するファイルを選択します。\n",
+                "thumbnails": "",
                 "watermark": "アップロード時に電子透かしを追加するかどうかを選択します。電子透かしは以下の設定に基づいてGIF以外に追加されます。\n",
                 "s3_compatible_storage": "S3互換ストレージを使用する場合は、以下の設定が必要です。AWSを使用する場合は、空欄にしてください。\n",
                 "s3_acl": "アップロードされたオブジェクトに適用するACLを選択します(標準：private)。利用可能な値は、以下のURLを確認してください。 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "最大ファイルサイズ (キロバイト)",
                     "mime_types": "MIMEタイプの指定と、アップロード方法の振り分けを行います",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "一般設定",
                     "php_ini_values": "<code>php.ini</code> の値は <code>post_max_size={post}</code> と <code>upload_max_filesize={upload}</code> です。 ここで設定した値がこれらのしきい値を下回っていることを確認するか、それに応じて値を調整してください。 <code>Nginx</code> を使用する場合は、<code>client_max_body_size</code> が選択した最大制限に対して十分なサイズであることも確認してください。"
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "ユーザーが提供するファイル拡張子"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "電子透かしのアップロード　",
+                    "opacity": "",
+                    "padding": "",
                     "position": "透かしの位置",
+                    "size_percent": "",
                     "title": "電子透かし",
                     "toggle": "電子透かしの有効化"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "テストファイルのMIMEタイプ"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "ファイルのダウンロード",
-                "upload_label": "ファイルのアップロード",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "ユーザーのアップロードを表示する",
                 "delete_uploads_of_others_label": "ユーザーのアップロードを削除する",
                 "upload_shared_label": "共有ファイルをアップロードする",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3互換",
-                "awss3": "",
                 "imgur": "Imgur",
                 "local": "ローカル",
                 "ovh-svfs": "OVH SVFS",
@@ -181,6 +197,7 @@
             "text_preview": {
                 "expand": "プレビューを展開する",
                 "collapse": "プレビューを折りたたむ",
+                "download": "",
                 "error": "ファイルのプレビュー中にエラーが発生しました。 削除されたか、指定されたファイル ID が無効である可能性があります。\n",
                 "no_snippet_preview": "<投稿後、ここにプレビューが表示されます>",
                 "no_snippet": "<利用可能なプレビュー スニペットはありません>"
@@ -189,6 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "このタイプのファイルはアップロードできません。",
+                "mime_permission_denied": "",
                 "unsupported_type": "アップロード先のサービスがこのファイルのMINEタイプをサポートしていません: {mime}.",
                 "could_not_detect_mime": "このファイルのMIMEタイプを検出できませんでした。再度お試しください。",
                 "max_upload_file_size_ini": "php.iniのアップロード最大サイズ制限を超えています。",
@@ -240,17 +258,6 @@
                     "hide_fail": "ファイル「{fileName}」を非公開にできませんでした",
                     "show_fail": "ファイル「{fileName}」を公開できませんでした",
                     "loading": "ファイルを非公開にしています..."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "uploads": {
-                    "export_description": "ユーザーによってアップロードされたすべてのファイル。",
-                    "anonymize_description": "アップロードされたファイルからユーザー参照情報を削除します。ファイル閲覧可能なユーザーはアクセス可能なままとなります。",
-                    "delete_description": "ユーザーがアップロードしたすべてのファイルを削除します。"
                 }
             }
         }

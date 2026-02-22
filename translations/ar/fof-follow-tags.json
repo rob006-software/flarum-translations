@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "أهلاً {recipient_display_name}،\n\nبدأ {actor_display_name} موضوع في وسم تتابعه: {discussion_title}\n\nلعرض الموضوع الجديد، يُرجى زيارة الرابط التالي:\n{discussion_url}\n\n---\n\n{post_content}",
-                "newPostInTag": "أهلاً {recipient_display_name}،\n\nشارك {actor_display_name} في نقاش حول وسم تتابعه: {discussion_title}\n\nلعرض النشاط الجديد، يُرجى زيارة الرابط التالي:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nلن تتلقى أي إشعارات أخرى حول هذه المناقشة حتى تُحدّثها.",
-                "newDiscussionTag": "أهلاً {recipient_display_name}،\n\nغيّر {actor_display_name} للتو وسم موضوع {author_display_name} إلى وسم تتابعه {discussion_title}.\n\nلعرض الموضوع الجديد، يُرجى زيارة الرابط التالي:\n{discussion_url}"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {

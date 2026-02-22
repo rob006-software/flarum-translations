@@ -30,9 +30,10 @@
                 "disable-download-logging": "Wyłącz rejestrowanie każdego pobrania przez użytkowników Twojego forum. Pozostawienie tej opcji włączonej pozwoli Ci na zobaczenie ilości pobrań i innych statystyk w niedalekiej przyszłości.\n",
                 "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora posta.\n",
                 "download_templates": "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na Twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n",
-                "mime_types": "Skonfiguruj poniżej mapowanie. Każde wyrażenie regularne dla typu MIME będzie obsłużone przez odpowiedni adapter przesyłania i szablon pobierania.\n",
+                "mime_types": "",
                 "resize": "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
                 "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
+                "thumbnails": "",
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
                 "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Maksymalna wielkość pliku (w kilobajtach)",
                     "mime_types": "Skonfiguruj mapowanie typu MIME i adaptera przesyłania",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Preferencje ogólne",
                     "php_ini_values": "Twoje wartości <code>php.ini</code> to <code>post_max_size={post}</code> i <code>upload_max_filesize={upload}</code>. Upewnij się, że wartość ustawiona tutaj jest poniżej tych progów, lub dostosuj je odpowiednio. Jeśli korzystasz z <code>Nginx</code>, upewnij się również, że <code>client_max_body_size</code> jest odpowiedniej wielkości dla wybranego maksymalnego limitu."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Rozszerzenia pików podane przez użytkownika"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Prześlij swój znak wodny",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Pozycja znaku wodnego",
+                    "size_percent": "",
                     "title": "Oznaczanie obrazków znakiem wodnym",
                     "toggle": "Oznaczaj obrazki znakiem wodnym"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Przetestuj typ MIME pliku"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Pobieranie plików",
-                "upload_label": "Przesyłanie plików",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Przeglądanie plików użytkowników",
                 "delete_uploads_of_others_label": "Usuwanie plików użytkowników",
                 "upload_shared_label": "Prześlij współdzielone pliki",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "Kompatybilne z S3",
-                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Lokalnie",
                 "ovh-svfs": "OVH SVFS",
@@ -181,31 +197,16 @@
             "text_preview": {
                 "expand": "Rozwiń podgląd",
                 "collapse": "Zwiń podgląd",
+                "download": "",
                 "error": "Wystąpił błąd podczas generowania podglądu pliku. Plik mógł zostać usunięty lub podane ID pliku jest nieprawidłowe.\n",
                 "no_snippet_preview": "<podgląd pojawi się tutaj po opublikowaniu posta>",
                 "no_snippet": "<podgląd nie jest dostępny>"
-            },
-            "file_list": {
-                "loading": "Ładowanie plików...",
-                "empty": "Nie ma żadnych plików do pokazania.",
-                "release_to_upload": "Upuść, aby wysłać",
-                "modal_empty_desktop": "Lista Twoich plików jest pusta. Kliknij przycisk lub przeciągnij plik, aby coś wysłać.",
-                "modal_empty_phone": "Lista Twoich plików jest pusta. Wciśnij przycisk powyżej, aby wysłać plik.",
-                "select_file_a11y_label": "Wybierz plik \"{fileName}\"",
-                "confirm_selection_btn": "{fileCount, plural, =0 {Nic nie wybrano} one {Wybierz plik} other {Wybierz pliki}}",
-                "load_more_files_btn": "Załaduj więcej plików",
-                "hide_file": {
-                    "btn_a11y_label": "Ukryj \"{fileName}\" z managera plików",
-                    "hide_confirmation": "Czy jesteś pewien, że chcesz ukryć \"{fileName}\"? Ukrycie pliku jedynie usunie go z Twojego managera plików i nie wpłynie na istniejące posty.",
-                    "hide_success": "Plik ukryty",
-                    "hide_fail": "Nie udało się ukryć pliku \"{fileName}\"",
-                    "loading": "Ukrywanie pliku..."
-                }
             }
         },
         "api": {
             "upload_errors": {
                 "forbidden_type": "Przesyłanie plików tego typu jest niedozwolone.",
+                "mime_permission_denied": "",
                 "unsupported_type": "Adapter przesyłania nie obsługuje podanego typu MIME: {mime}.",
                 "could_not_detect_mime": "Nie można wykryć typu MIME tego pliku, spróbuj ponownie.",
                 "max_upload_file_size_ini": "Osiągnięto limit maksymalnego rozmiaru przesyłanych plików z php.ini.",
@@ -257,17 +258,6 @@
                     "hide_fail": "Nie można ustawić pliku \"{fileName}\" jako prywatnego",
                     "show_fail": "Nie można upublicznić pliku \"{fileName}\"",
                     "loading": "Udostępnianie pliku jako prywatnego..."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "uploads": {
-                    "export_description": "Wszystkie pliki przesłane przez użytkownika.",
-                    "anonymize_description": "Usuwa odniesienie do użytkownika z przesłanych plików. Same pliki pozostają dostępne dla użytkowników, którzy mogli je przeglądać przed anonimizacją.",
-                    "delete_description": "Usuwa wszystkie pliki przesłane przez użytkownika."
                 }
             }
         }

@@ -87,6 +87,8 @@
                     "vote_color": "Röstningsfärg",
                     "icon_name": "Ikonnamn",
                     "icon_help": "Ange ett giltigt Font Awesome-ikon-namn (utan prefix).",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Tillåt endast uppröster",
                     "first_post_only": "Tillåt bara röstning på första inlägget",
                     "allow_self_votes": "Tillåt att rösta på egna inlägg"
@@ -94,7 +96,7 @@
                 "save_settings": "Spara inställningar",
                 "convert": {
                     "button": "Konvertera",
-                    "help": "Konverterar befintliga gillningar/röster till poängsystemet (om tillämpligt).",
+                    "help": "",
                     "converting": "Konverterar...",
                     "converted": "Konvertering klar"
                 },
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "Ditt inlägg har fått en ny röst"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

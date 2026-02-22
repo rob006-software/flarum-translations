@@ -108,7 +108,8 @@
             "unlink": "Usuń powiązanie",
             "error": {
                 "bad_verification_code": "Nieprawidłowy lub wygasły token weryfikacyjny. Spróbuj ponownie.",
-                "invalid_state": "Nieprawidłowy status. Spróbuj ponownie."
+                "invalid_state": "Nieprawidłowy status. Spróbuj ponownie.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

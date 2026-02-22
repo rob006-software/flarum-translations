@@ -87,6 +87,8 @@
                     "vote_color": "Cor de voto",
                     "icon_name": "Ícone para voto a favor/contra",
                     "icon_help": "Indique qualquer ícone Font-Awesome que tem como sufixo -up e -down. Exemplos: arrow, thumbs, chevron",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Permitir apenas votos a favor",
                     "first_post_only": "Permitir apenas votos a favor/contra na primeira publicação da discussão",
                     "allow_self_votes": "Os utilizadores podem votar nas suas próprias publicações"
@@ -94,7 +96,7 @@
                 "save_settings": "Guardar definições",
                 "convert": {
                     "button": "Converter gostos em votos a favor",
-                    "help": "Converter gostos anteriores provenientes do flarum-ext-likes em votos a favor, assim como calcular os votos das discussões actuais.",
+                    "help": "",
                     "converting": "Os seus gostos estão a ser convertidos. Refresca o sitio daqui a alguns minutos para ver se o processo terminou. (O tempo de conversão pode ser elevado dependendo do numero total de gostos do seu forum)",
                     "converted": "Foram convertidos com sucesso {number} gostos"
                 },
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "A sua publicação recebeu um voto de {display_name}"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

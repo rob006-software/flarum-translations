@@ -2,28 +2,26 @@
     "fof-prevent-necrobumping": {
         "forum": {
             "composer": {
-                "warning": {
+                "inactive_discussion_alert": {
                     "title": "",
                     "description": "",
                     "cta": "",
                     "cta_button": "",
-                    "checkbox_label": "",
-                    "error": ""
-                }
+                    "confirmation": ""
+                },
+                "error": ""
             }
         },
         "admin": {
             "settings": {
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
+                "general_heading": "",
                 "days_label": "",
                 "days_help": "",
-                "message_title_label": "",
-                "message_title_help": "",
-                "message_description_label": "",
-                "message_agreement_label": "",
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
                 "tags_title": "",
-                "tags_help": ""
+                "tags_help": "",
+                "tags_placeholder": ""
             }
         }
     }

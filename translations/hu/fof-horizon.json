@@ -22,7 +22,12 @@
                 "heading": "Feladatsor áttekintése",
                 "full_dashboard": "Horizon vezérlőpult",
                 "refresh": "Frissítés",
-                "last_refresh": "Frissítve: {time}",
+                "last_refresh": "",
+                "error": {
+                    "title": "Kapcsolódási hiba",
+                    "fetch_failed": "A Horizon statisztikák nem kérhetők le. Ellenőrizze a Redis konfigurációt.",
+                    "setup_docs": "Redis telepítési dokumentáció megtekintése"
+                },
                 "health": {
                     "excellent": "Kiváló",
                     "good": "Jó",
@@ -30,16 +35,11 @@
                     "critical": "Kritikus",
                     "tooltip": "Rendszer egészségi pontszáma: {score}/100"
                 },
-                "error": {
-                    "title": "Kapcsolódási hiba",
-                    "fetch_failed": "A Horizon statisztikák nem kérhetők le. Ellenőrizze a Redis konfigurációt.",
-                    "setup_docs": "Redis telepítési dokumentáció megtekintése"
-                },
                 "data": {
                     "redis-used-memory": "A gyorsítótár által használt memória",
-                    "redis-memory-usage": "A gyorsítótár memóriahasználata",
                     "redis-peak-memory": "A gyorsítótár legnagyobb memóriahasználata",
                     "redis-max-memory": "A gyorsítótár memóriakorlátja",
+                    "redis-memory-usage": "A gyorsítótár memóriahasználata",
                     "redis-memory-policy": "A gyorsítótár memória-házirendje",
                     "redis-memory-policy-tooltip": "A memória-házirend dönti el, hogy a gyorsítótár minek az eltávolítását választja,\nha eléri a memóriakorlátot. Az alapértelmezett a `noeviction`: Az új értékek\nnem lesznek mentve. Kattintson a dokumentáció megtekintéséhez.\n",
                     "redis-ops-per-sec": "Műveletek száma másodpercenként",
@@ -59,9 +59,7 @@
                     "max-runtime": "Leghosszabb futásidő",
                     "max-throughput": "Legnagyobb áteresztőképesség",
                     "success-rate": "Sikerességi arány",
-                    "failure-rate": "Hibaarány",
-                    "redis-cpu-user": "A Redis felhasználói CPU-használata",
-                    "redis-cpu-sys": "A Redis rendszerszintű CPU-használata"
+                    "failure-rate": "Hibaarány"
                 }
             }
         }

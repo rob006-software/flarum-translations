@@ -108,7 +108,8 @@
             "unlink": "Eemalda link",
             "error": {
                 "bad_verification_code": "Vigane või aegunud kinnituskood. Palun proovi uuesti.",
-                "invalid_state": "Vigane staatus. Palun proovi uuesti."
+                "invalid_state": "Vigane staatus. Palun proovi uuesti.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

@@ -3,6 +3,7 @@
         "forum": {
             "modal": {
                 "title": "Объединить дискуссии",
+                "search_discussions_placeholder": "",
                 "ordering_heading": "Порядок объединения",
                 "ordering_date_label": "Объединить сообщения по дате создания",
                 "ordering_date_help": "Сообщения в итоговой дискуссии будут упорядочены по дате своего создания.",
@@ -10,14 +11,14 @@
                 "ordering_suffix_help": "Сообщения в итоговой дискуссии будут добавлены в конец этой дискуссии.",
                 "type_heading": "Тип объединения",
                 "type_target_label": "Объединить с этой",
-                "type_target_help_text": "Выберите дискуссии для объединения в <b>{title}</b>.",
+                "type_target_help_text": "",
                 "type_from_label": "Объединить эту дискуссию с другой",
-                "type_from_help_text": "Выберите дискуссию для объединения с <b>{title}</b>.",
+                "type_from_help_text": "",
                 "load_preview_button": "Пред-просмотр",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "{username} объединил(а) Вашу дискуссию <b>{oldTitle}</b> с этой.",
+                "discussion_merged": "",
                 "preferences": {
                     "discussion_merged": "Объединение одной из моих дискуссий с другой"
                 }
@@ -26,7 +27,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "{count, plural, one {Перемещено <b>#</b> сообщение из {titles}.} other {Перемещено <b>#</b> сообщений из {titles}.}}"
+                "merged": ""
             }
         },
         "admin": {
@@ -52,7 +53,7 @@
         },
         "email": {
             "merged": {
-                "body": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} объединил(а) Вашу дискуссию \"{merged_discussion_title}\" с \"{merged_discussion_title}\".\n\nПосмотреть:\n{discussion_url}\n",
+                "body": "",
                 "subject": "Ваша дискуссия \"{merged_discussion_title}\" была объединена"
             }
         }

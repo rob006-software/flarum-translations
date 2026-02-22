@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Populair",
-                "unpopular_button": ""
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "",
                 "submit": "",
-                "label": ""
+                "label": "",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": ""
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

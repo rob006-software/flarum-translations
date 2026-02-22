@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Phổ biến",
-                "unpopular_button": "Không phổ biến"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Đặt lại lượt xem cuộc thảo luận",
                 "submit": "Đồng ý",
-                "label": "Đặt để xem số lượng"
+                "label": "Đặt để xem số lượng",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "Đặt lượt xem"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Bỏ qua lượt truy cập của trình thu thập thông tin"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

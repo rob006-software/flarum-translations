@@ -6,6 +6,46 @@
             },
             "settings": {
                 "button": "Asetukset",
+                "content-filter": {
+                    "heading": "",
+                    "introduction": "",
+                    "enabled_label": "",
+                    "enabled_help": "",
+                    "user_targeting_heading": "",
+                    "monitor_post_count_label": "",
+                    "monitor_post_count_help": "",
+                    "monitor_hours_old_label": "",
+                    "monitor_hours_old_help": "",
+                    "detectors_heading": "",
+                    "detect_phones_label": "",
+                    "detect_phones_help": "",
+                    "detect_emails_label": "",
+                    "detect_emails_help": "",
+                    "detect_urls_label": "",
+                    "detect_urls_help": "",
+                    "thresholds_heading": "",
+                    "flag_threshold_label": "",
+                    "flag_threshold_help": "",
+                    "spam_threshold_label": "",
+                    "spam_threshold_help": "",
+                    "actions_heading": "",
+                    "auto_unapprove_label": "",
+                    "auto_unapprove_help": "",
+                    "auto_flag_label": "",
+                    "auto_flag_help": "",
+                    "system_user_id_label": "",
+                    "system_user_id_help": "",
+                    "no_action_extensions": "",
+                    "allowlist_heading": "",
+                    "allowed_domains_label": "",
+                    "allowed_domains_help": "",
+                    "blocked_words_heading": "",
+                    "blocked_words_label": "",
+                    "blocked_words_help": "",
+                    "advanced_patterns_heading": "",
+                    "advanced_block_patterns_label": "",
+                    "advanced_block_patterns_help": ""
+                },
                 "default-actions": {
                     "delete_user_label": "Poista käyttäjä",
                     "delete_user_help": "Käyttäjä poistetaan lopullisesti. Kun pois käytöstä, käyttäjä estetään sen sijaan.",
@@ -37,11 +77,12 @@
                     "confidence_help": "Luottamuspisteet ovat melko hyvä indikaattori siitä, että testattava kenttä saattaa johtaa ei-toivottuun toimintaan. Aseta luottamustasosi prosentteina. Jos kenttä on yhtä suuri tai suurempi kuin tämä luku, rekisteröinti estetään, riippumatta yllä olevasta ‘taajuustestistä’.",
                     "email_hash_label": "Käytä hashattua sähköpostiosoitetta",
                     "email_hash_help": "Välitä sähköpostiosoitteen MD5-hash, jos et halua välittää itse sähköpostiosoitetta. Tämä menetelmä ohittaa kaikki mustalistat, normalisoinnit ja hämäyksen ohitustarkistukset.",
+                    "block_tor_exit_nodes_label": "",
+                    "block_tor_exit_nodes_help": "",
                     "sfs_lookup_label": "Rekisteröintien haku",
                     "sfs_lookup_help": "Jos otettu käyttöön, tarkistamme StopForumSpam-tietokannan, kun uusi käyttäjä rekisteröityy foorumillesi. Jos käyttäjä löytyy (käyttäjätunnus, IP-osoite, sähköpostiosoite) ja tämä tietopiste on otettu käyttöön yhdessä SFS:n luottamustason saavuttamisen kanssa, käyttäjä estetään viimeistelemästä rekisteröintiään.",
                     "report_blocked_registrations_label": "Raportoi estetyt rekisteröinnit",
-                    "report_blocked_registrations_help": "Kun rekisteröinti estetään Rekisteröintien haku -ominaisuuden avulla, ilmoitamme yrityksestä takaisin StopForumSpam-palveluun, jotta roskapostittajan toiminta voidaan varmemmin vahvistaa. Tämä vaatii StopForumSpam API-avaimen asettamisen (katso alla).",
-                    "heading": "StopForumSpam"
+                    "report_blocked_registrations_help": "Kun rekisteröinti estetään Rekisteröintien haku -ominaisuuden avulla, ilmoitamme yrityksestä takaisin StopForumSpam-palveluun, jotta roskapostittajan toiminta voidaan varmemmin vahvistaa. Tämä vaatii StopForumSpam API-avaimen asettamisen (katso alla)."
                 }
             },
             "blocked_registrations": {
@@ -60,6 +101,9 @@
             }
         },
         "forum": {
+            "post": {
+                "flagged_as_spam_text": ""
+            },
             "message": {
                 "stopforumspam": {
                     "blocked": "Rekisteröintisi tiedot on löydetty roskapostin estotietokannasta, joten rekisteröintisi on estetty."

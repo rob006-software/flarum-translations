@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "നിറമുള്ള തലക്കെട്ട്",
                 "colors_heading": "നിറങ്ങൾ",
                 "colors_primary_label": "",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "പ്രത്യേക ഉടുപ്പുകൾ",
                 "custom_styles_text": "ഫ്ലാറത്തിന്റെ സ്ഥിര ശൈലികൾക്ക് മുകളിൽ പ്രയോഗിക്കുന്നതിന് നിങ്ങളുടെ സ്വന്തം Less/CSS കോഡ് ചേർത്ത് നിങ്ങളുടെ ഫോറത്തിന്റെ രൂപം ഇഷ്ടാനുസൃതമാക്കുക.",
-                "dark_mode_label": "ഇരുണ്ട ഉടുപ്പ്",
                 "description": "നിങ്ങളുടെ ഫോറത്തിന്റെ നിറങ്ങളും ലോഗോകളും മറ്റ് വേരിയബിളുകളും ഇഷ്ടാനുസൃതമാക്കുക.",
                 "edit_css_button": "പ്രത്യേക സിഎസ്എസ്  ൽ മാറ്റം വരുത്തുക",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "ഫോറത്തിന്റെ കുറുക്കുവഴി ഐക്കണായി പ്രദർശിപ്പിക്കുന്നതിന് ഒരു ചിത്രം അപ്‌ലോഡ് ചെയ്യുക.",
                 "logo_heading": "ലോഗോ",
                 "logo_text": "ഫോറം ശീർഷകത്തിന്റെ സ്ഥാനത്ത് പ്രദർശിപ്പിക്കുന്നതിന് ഒരു ചിത്രം അപ്‌ലോഡ് ചെയ്യുക.",
-                "title": "രൂപം"
+                "title": "രൂപം",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "പ്രധാന ഭാഷ",
                 "description": "നിങ്ങളുടെ ഫോറം ശീർഷകം, ഭാഷ, മറ്റ് അടിസ്ഥാന ക്രമീകരണങ്ങൾ എന്നിവ സജ്ജമാക്കുക.",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "ഉപയോക്തൃ പ്രദർശന നാമം",
                 "display_name_text": "ഉപയോക്താക്കളുടെ പ്രദർശന നാമങ്ങൾക്ക് ഉപയോഗിക്കേണ്ട ഡ്രൈവർ തിരഞ്ഞെടുക്കുക. സ്ഥിരസ്ഥിതിയായി, ഉപയോക്തൃനാമം കാണിക്കുന്നു.",
                 "forum_description_heading": "ഫോറം വിവരണം",
@@ -38,6 +133,16 @@
                 "home_page_heading": "പൂമുഖ താൾ",
                 "home_page_text": "ഉപയോക്താക്കൾ നിങ്ങളുടെ ഫോറം സന്ദർശിക്കുമ്പോൾ ആദ്യം കാണുന്ന പേജ് തിരഞ്ഞെടുക്കുക.",
                 "show_language_selector_label": "ഭാഷ തിരഞ്ഞെടുക്കൽ കാണിക്കുക",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "സ്ലഗ് ഡ്രൈവർ: {മോഡൽ }",
                 "slug_driver_text": "ഈ മോഡൽ സ്ലഗ്ഗുചെയ്യാൻ ഉപയോഗിക്കുന്ന ഒരു ഡ്രൈവർ തിരഞ്ഞെടുക്കുക.",
                 "title": "അടിസ്ഥന കാര്യങ്ങൾ",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "നിയന്ത്രണ മുഖം",
+                "toggle_advanced_page_button": "",
                 "tools_button": "ഉപകരണങ്ങൾ"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "ഇമെയിൽ അയയ്ക്കാൻ നിങ്ങളുടെ ഫോറം ഉപയോഗിക്കുന്ന ഡ്രൈവറും ക്രമീകരണങ്ങളും വിലാസങ്ങളും ക്രമീകരിക്കുക.",
                 "driver_heading": "ഒരു ഡ്രൈവർ തിരഞ്ഞെടുക്കുക",
                 "driver_label": "ഡ്രൈവർ",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "അയച്ചയാൾ",
                 "mail_encryption_label": "ക്രോഡീകരണം",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "ആതിഥേയൻ",
                 "mail_mailgun_domain_label": "ഡൊമെയ്ൻ",
                 "mail_mailgun_region_label": "പ്രദേശം",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "പരീക്ഷണ മെയിൽ വിജയകരമായി അയച്ചു!",
                 "send_test_mail_text": "മുകളിലുള്ള കോൺഫിഗറേഷൻ ഉപയോഗിച്ച് ഇത് നിങ്ങളുടെ ഇമെയിലിലേക്ക് ഒരു ഇമെയിൽ അയയ്ക്കും, {email}.",
                 "smtp_heading": "എസ്എംടിപി ക്രമീകരണങ്ങൾ",
+                "smtp_description": "",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "",
                 "configure_scopes": "വ്യാപ്തി ക്രമീകരിക്കുക",
                 "confirm_purge": "",
+                "database_driver_mismatch": "",
                 "deprecated": "",
                 "disabled": "അപ്രാപ്തമാക്കി",
                 "enable_to_see": "ക്രമീകരണങ്ങൾ കാണാനും മാറ്റാനും വിപുലീകരണം പ്രവർത്തനക്ഷമമാക്കുക.",
@@ -163,17 +281,25 @@
                     "title": ""
                 },
                 "replaced": "",
-                "confirm_uninstall": "അൺഇൻസ്റ്റാൾ ചെയ്യുന്നത് വിപുലീകരണവുമായി ബന്ധപ്പെട്ട എല്ലാ ഡാറ്റാബേസ് എൻട്രികളും അസറ്റുകളും നീക്കം ചെയ്യും. നിങ്ങൾക്ക് തുടരണമെന്ന് ഉറപ്പാണോ?",
-                "uninstall_button": "അൺഇൻസ്റ്റാൾ ചെയ്യുക"
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "സഹായം തേടു",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "കാത്തിരിക്കൂ..."
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -222,6 +348,7 @@
                 "post_without_throttle_label": "കാത്തിരിക്കാതെ ഒന്നിലധികം തവണ മറുപടി നൽകുക",
                 "read_heading": "വായിക്കുക",
                 "remove_scope_label": "",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "ചർച്ചകളുടെ പേരുമാറ്റുക",
                 "reply_to_discussions_label": "ചർച്ചകൾക്കുള്ള മറുപടി നൽകുക",
                 "search_users_label": "ഉപയോക്താക്കളെ തിരയുക",
@@ -244,8 +371,14 @@
                 "signup_closed_button": "അടച്ചു",
                 "signup_open_button": "തുറന്നിരിക്കുന്നു"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "നിങ്ങളുടെ മാറ്റങ്ങൾ സംരക്ഷിച്ചു.",
+                "select_dropdown_custom_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -260,11 +393,6 @@
                         "display_name": {
                             "title": ""
                         },
-                        "edit_user": {
-                            "button": "=> core.ref.edit",
-                            "tooltip": "{ഉപയോക്തൃനാമം} എഡിറ്റുചെയ്യുക",
-                            "title": "=> core.ref.edit_user"
-                        },
                         "email": {
                             "title": "=> core.ref.email",
                             "visibility_hide": "ഇമെയിൽ വിലാസം മറയ്ക്കുക",
@@ -278,7 +406,11 @@
                             "title": "ചേർന്നു"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "ഐഡി"
@@ -289,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "അസാധുവാണ്"
-                },
-                "pagination": {
-                    "back_button": "മുൻപത്തെ താൾ",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
-                    "next_button": "അടുത്ത പേജ്",
-                    "page_counter": "പേജ് {current} / {total}"
                 },
                 "search_placeholder": "",
                 "title": "=> core.ref.users",
@@ -361,10 +485,10 @@
                 "empty_text": "ഇവിടെ ചർച്ചകളൊന്നുമില്ലെന്ന് തോന്നുന്നു.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} മറുപടി നൽകി {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} ആരംഭിച്ചു {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "വായിച്ചതായി അടയാളപ്പെടുത്തുക"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -382,7 +506,6 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "പ്രൊഫൈൽ",
-                "search_clear_button_accessible_label": "തിരയൽ ചോദ്യം മായ്ക്കുക",
                 "search_placeholder": "ഫോറത്തിൽ തിരയുക",
                 "search_role_label": "ഫോറത്തിൽ തിരയുക",
                 "session_dropdown_accessible_label": "സെഷൻ ഓപ്ഷനുകൾ ഡ്രോപ്പ്ഡൗൺ മെനു ടോഗിൾ ചെയ്യുക",
@@ -395,27 +518,28 @@
                 "mark_all_as_read_confirmation": "എല്ലാ ചർച്ചകളും വായിച്ചതായി അടയാളപ്പെടുത്തണമെന്ന് നിങ്ങൾക്ക് തീർച്ചയാണോ?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "പുതുക്കുക",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "നാവിഗേഷൻ ഡ്രോപ്പ്ഡൗൺ മെനു ടോഗിൾ ചെയ്യുക"
             },
             "index_sort": {
                 "latest_button": "ഏറ്റവും പുതിയ",
-                "newest_button": "പുതിയത്",
-                "oldest_button": "ഏറ്റവും പഴയത്",
-                "relevance_button": "പ്രസക്തി",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "ചർച്ച ലിസ്റ്റ് അടുക്കൽ മാറ്റുക",
                 "top_button": "മുകളിൽ"
             },
             "log_in": {
                 "forgot_password_link": "പാസ്വേഡ് മറന്നോ?",
-                "invalid_login_message": "നിങ്ങളുടെ ലോഗിൻ വിശദാംശങ്ങൾ തെറ്റായിരുന്നു.",
+                "invalid_login_message": "",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "ഓർത്തുവയ്ക്കുക",
+                "remember_me_label": "",
                 "sign_up_text": "ഒരു അക്കൗണ്ട് ഇല്ലേ? <a> ചേരുക</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "ഉപയോക്തൃനാമം അല്ലെങ്കിൽ ഇമെയിൽ"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
                 "delete_all_confirm": "",
@@ -442,6 +566,11 @@
                 "restore_button": "",
                 "toggle_dropdown_accessible_label": ""
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "",
                 "original_post_link": "",
@@ -455,14 +584,18 @@
                 "reply_placeholder": "",
                 "time_lapsed_text": ""
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "",
                 "title": ""
-            },
-            "search": {
-                "all_discussions_button": "",
-                "discussions_heading": "",
-                "users_heading": ""
             },
             "security": {
                 "browser_on_operating_system": "",
@@ -503,6 +636,14 @@
                 "account_heading": "",
                 "change_email_button": "",
                 "change_password_button": "",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
@@ -584,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "",
+                "db_error_message": "",
                 "dependent_extensions_message": "",
                 "extension_initialiation_failed_message": "",
+                "extension_runtime_failed_message": "",
                 "generic_message": "",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
@@ -594,6 +737,48 @@
                 "permission_denied_message": "",
                 "rate_limit_exceeded_message": "",
                 "render_failed_message": ""
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": ""
@@ -605,25 +790,75 @@
             "modal": {
                 "close": ""
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": ""
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "",
                 "mega_text": ""
             },
-            "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": "",
                 "three_text": "",
                 "two_text": ""
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": ""
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": "",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -660,6 +895,9 @@
                 "csrf_token_mismatch": "",
                 "csrf_token_mismatch_return_link": "",
                 "invalid_confirmation_token": "",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "",
                 "not_found": "",
                 "not_found_return_link": "",
@@ -671,9 +909,20 @@
                 "next_page_button": "",
                 "previous_page_button": ""
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "",
                 "log_out_confirmation": "",
+                "title": ""
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
                 "title": ""
             },
             "reset_password": {
@@ -681,6 +930,15 @@
                 "new_password_label": "",
                 "submit_button": "",
                 "title": ""
+            },
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
@@ -692,6 +950,24 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "",
                 "body": ""
@@ -721,6 +997,8 @@
             "custom_footer_title": "",
             "custom_header_text": "",
             "custom_header_title": "",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "",
             "delete_forever": "",
             "discussions": "",
@@ -731,6 +1009,9 @@
             "generic_confirmation_message": "",
             "icon": "",
             "icon_text": "",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "",
             "loading": "",
             "log_in": "",
@@ -738,15 +1019,20 @@
             "mark_all_as_read": "",
             "never": "",
             "new_token": "",
+            "newest": "",
             "next_page": "",
             "notifications": "",
             "okay": "",
+            "oldest": "",
             "password": "",
             "posts": "",
             "previous_page": "",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "",
             "rename": "",
             "reply": "",
+            "refresh": "",
             "reset_your_password": "",
             "restore": "",
             "save_changes": "",
@@ -757,6 +1043,7 @@
             "some_others": "",
             "start_a_discussion": "",
             "username": "",
+            "username_or_email_placeholder": "",
             "users": "",
             "view": "",
             "write_a_reply": "",

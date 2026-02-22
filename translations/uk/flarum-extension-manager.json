@@ -5,7 +5,7 @@
                 "add_label": "Новий метод автентифікації",
                 "add_modal": {
                     "host_label": "Хост",
-                    "host_placeholder": "наприклад: joomla-ua.org",
+                    "host_placeholder": "",
                     "submit_button": "Надіслати",
                     "token_label": "Токен",
                     "type_label": "Тип",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Покажіть, чому не оновлено до останньої версії.",
                 "install": "Встановити нове розширення",
-                "install_help": "Щоб продовжити, введіть назву пакета розширення. Ви можете вказати <semantic_link>семантичну версію</semantic_link> за допомогою формату <code>vendor/package-name:version</code>. Відвідайте {extiverse}, щоб переглянути розширення.\n",
+                "install_help": "",
                 "proceed": "Продовжуйте",
                 "remove": "Видалити",
                 "successful_install": "{extension} було успішно встановлено. Перенаправлення...",
@@ -98,11 +98,44 @@
                 "update": "Оновити"
             },
             "minor_update_confirmation": {
-                "content": "Це також оновить будь-які інші розширення/пакети з наявними оновленнями."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Менеджер"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "Завдання щойно розпочато",
                     "title": "Черга"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Будь ласка, будьте уважні до того, кому ви надаєте доступ до адміністративної частини, менеджер розширень може бути використаний зловмисниками для встановлення пакунків, які можуть призвести до порушень безпеки.",
                 "debug_mode_warning": "Ви працюєте у режимі налагодження, менеджер розширень не може належним чином встановити та оновити локальні пакунки розробки. Будь ласка, використовуйте для цих цілей інтерфейс командного рядка.",
                 "queue_jobs": "Запуск операцій у фоновій черзі",
-                "queue_jobs_help": "Ви можете прочитати про реалізацію <a href='{basic_impl_link}'>базової черги</a> або <a href='{adv_impl_link}'>розширенішої черги</a>. Переконайтеся, що для черги використовується версія PHP {php_version}. Переконайтеся, що <a href='{folder_perms_link}'>дозволи для папок</a> налаштовано правильно.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Дні утримання завдання",
                 "task_retention_days_help": "Кількість днів, протягом яких виконані завдання зберігатимуться в базі даних. Завдання, старші за цей термін, будуть видалені. Встановіть 0, щоб зберігати всі завдання.\n"
             },
             "updater": {
-                "up_to_date": "Все в актуальному стані!",
+                "up_to_date": "",
                 "check_for_updates": "Перевірити оновлення",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Успішно оновлено всі пакунки.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum успішно оновився.",
             "why_not_modal": {
                 "title": "Чому не оновлюється"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "мінімальна стабільність",
-                "repositories": "репозиторії",
-                "repositories.*": "репозиторії",
-                "repositories.*.type": "тип репозиторія",
-                "repositories.*.url": "URL репозиторію",
-                "extension_id": "ID розширення",
-                "update_mode": "режим оновлення",
-                "package": "пакет",
-                "version": "версія",
-                "github_oauth": "GitHub OAuth",
-                "github_oauth.*": "GitHub OAuth",
-                "gitlab_oauth": "GitLab OAuth",
-                "gitlab_oauth.*": "GitLab OAuth",
-                "gitlab_token": "GitLab Token",
-                "gitlab_token.*": "GitLab Token",
-                "bearer": "HTTP Bearer",
-                "bearer.*": "HTTP Bearer"
             }
         }
     }

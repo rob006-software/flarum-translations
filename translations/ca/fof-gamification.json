@@ -87,6 +87,8 @@
                     "vote_color": "Color votat",
                     "icon_name": "Icona de vot positiu o negatiu",
                     "icon_help": "Entrar qualsevol icona de Font-Awesome que acabi amb -up o -down. Per exemple: arrow, thumbs, chevron...",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Només permetre vots positius",
                     "first_post_only": "Només permetre vots positius o negatius en la primera publicació de cada debat",
                     "allow_self_votes": "Els usuaris poden votar les seves pròpies publicacions"
@@ -94,7 +96,7 @@
                 "save_settings": "Desar configuració",
                 "convert": {
                     "button": "Convertir els \"m'agrada\" en vots positius",
-                    "help": "Convertir els \"m'agrada\" de flarum-ext-likes en vots positius, calculant a més com agraden tots els debats actuals.",
+                    "help": "",
                     "converting": "Els \"m'agrada\" s'estan convertint. Refresca el fòrum d'aquí a uns minuts per veure el procés acabat. El temps de conversió pot allargar-se si hi ha molts \"m'agrada\" al fòrum",
                     "converted": "\"M'agrada\" convertits correctament: {number}"
                 },
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "{display_name} ha votat la teva publicació"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

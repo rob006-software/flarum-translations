@@ -94,7 +94,8 @@
             },
             "status_type": {
                 "enabled": "увімкнено",
-                "disabled": "вимкнено"
+                "disabled": "вимкнено",
+                "device_changed": ""
             }
         },
         "views": {
@@ -113,16 +114,6 @@
                 "twofactordata": {
                     "export_description": "Експорт статусу 2FA та зашифрованих резервних кодів.",
                     "delete_description": "Видалені всіх даних, пов'язаних з 2FA."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "twofactordata": {
-                    "export_description": "Експорт статусу 2FA та зашифрованих резервних кодів.",
-                    "delete_description": "Видалити всі дані, пов'язані з 2FA."
                 }
             }
         }

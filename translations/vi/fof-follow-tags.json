@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "[Thẻ | Cuộc thảo luận mới] {title}",
-                "newPostInTag": "[Thẻ | Bài viết mới] {title}",
-                "newDiscussionTag": "[Thẻ | Đã đổi tag] {title}"
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "Chào {recipient_display_name},\n\n{actor_display_name} đã bắt đầu một cuộc thảo luận trong một thẻ mà bạn đang theo dõi: {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy xem liên kết sau:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "Chào {recipient_display_name},\n\n{actor_display_name} đã đăng trong một cuộc thảo luận trên thẻ bạn đang theo dõi: {discussion_title}\n\nĐể xem hoạt động mới, hãy xem liên kết sau:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nBạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi bạn được cập nhật.\n",
-                "newDiscussionTag": "Chào {recipient_display_name},\n\n{actor_display_name} vừa thay đổi thẻ trên cuộc thảo luận của {author_display_name} thành thẻ bạn đang theo dõi {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy xem liên kết sau:\n{discussion_url}\n"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
@@ -88,16 +105,6 @@
                 "tagsubscription": {
                     "export_description": "Xuất thông tin chi tiết về cấp độ đăng ký của thẻ, nếu có.",
                     "anonymize_description": "Xóa bỏ đăng ký của người dùng vào thẻ."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "tagsubscription": {
-                    "export_description": "Xuất chi tiết cấp độ đăng ký của thẻ, nếu có.",
-                    "anonymize_description": "Xóa gói đăng ký của người dùng vào thẻ."
                 }
             }
         }

@@ -5,7 +5,7 @@
                 "add_label": "Neue Authentifizierungsmethode",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "Beispiel: extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "Senden",
                     "token_label": "Token",
                     "type_label": "Typ",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Zeige, warum sie nicht auf die neueste Version aktualisiert wurde.",
                 "install": "Installiere eine neue Erweiterung",
-                "install_help": "Geben sie den Paketnamen der Erweiterung ein, um fortzufahren. Sie können mithilfe des Formats <code>vendor/package-name:version</code> eine <semantic_link>semantische Version</semantic_link> angeben. Besuchen sie {extiverse}, um Erweiterungen zu durchsuchen.\n",
+                "install_help": "",
                 "proceed": "Fortfahren",
                 "remove": "Deinstallieren",
                 "successful_install": "{extension} wurde erfolgreich installiert, leite weiter...",
@@ -98,11 +98,44 @@
                 "update": "Aktualisieren"
             },
             "minor_update_confirmation": {
-                "content": "Dies wird auch alle anderen Erweiterungen/Pakete mit verfügbaren Updates aktualisieren."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Manager"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "Aufgabe hat gerade begonnen",
                     "title": "Warteschlange"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Bitte seien sie vorsichtig, wem sie Zugang zum Admin-Bereich geben, der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.",
                 "debug_mode_warning": "Sie sind im Debug-Modus, der Erweiterungs-Manager kann lokale Entwicklungs-Pakete nicht richtig installieren und aktualisieren. Bitte benutzen sie für solche Zwecke stattdessen die Kommandozeilen-Schnittstelle.",
                 "queue_jobs": "Operationen im Hintergrund ausführen",
-                "queue_jobs_help": "Sie können sich über eine <a href='{basic_impl_link}'>einfache Warteschlangen-Implementierung</a> oder eine <a href='{adv_impl_link}'>fortgeschrittenere</a> informieren. Stellen sie sicher, dass die für die Warteschlange verwendete PHP-Version {php_version} ist. Stellen sie außerdem sicher, dass die <a href='{folder_perms_link}'>Ordnerberechtigungen</a> richtig konfiguriert sind.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Aufbewahrungstage für Aufgaben",
                 "task_retention_days_help": "Die Anzahl der Tage, die abgeschlossene Aufgaben in der Datenbank aufbewahrt werden. Aufgaben, die älter als diese sind, werden gelöscht. Setze auf 0, um alle Aufgaben zu behalten.\n"
             },
             "updater": {
-                "up_to_date": "Alles ist aktuell!",
+                "up_to_date": "",
                 "check_for_updates": "Nach Updates suchen",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Alle Pakete erfolgreich aktualisiert.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum erfolgreich aktualisiert.",
             "why_not_modal": {
                 "title": "Warum wird es nicht aktualisiert"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "minimale Stabilität",
-                "repositories": "repositories",
-                "repositories.*": "repositories",
-                "repositories.*.type": "repository-typ",
-                "repositories.*.url": "repository-URL",
-                "extension_id": "erweiterungs-ID",
-                "update_mode": "update Modus",
-                "package": "paket",
-                "version": "version",
-                "github_oauth": "GitHub-OAuth",
-                "github_oauth.*": "GitHub-OAuth",
-                "gitlab_oauth": "GitLab-OAuth",
-                "gitlab_oauth.*": "GitLab-OAuth",
-                "gitlab_token": "GitLab-Token",
-                "gitlab_token.*": "GitLab-Token",
-                "bearer": "HTTP-Bearer",
-                "bearer.*": "HTTP-Bearer"
             }
         }
     }

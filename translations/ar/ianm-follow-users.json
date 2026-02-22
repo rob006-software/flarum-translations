@@ -74,12 +74,33 @@
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
-            "new_follower_subject": "[Follow User] لديك متابع جديد!",
-            "new_post_subject": "[Follow User] منشور جديد في {title}",
-            "new_discussion_by_user_body": "أهلاً {recipient_display_name}،\n\nبدأ {user_display_name} نقاشًا جديدًا: {discussion_title}\n\nلمشاهدة المناقشة الجديدة، يُرجى زيارة الرابط التالي:\n\n{discussion_url}\n\n---\n\n{post_content}",
-            "new_follower_body": "أهلاً {recipient_display_name}،\n\nبدأ {follower_display_name} بمتابعتك، لذا سيتم إشعاره عندما تبدأ منشور جديد.\n\nلعرض ملفه الشخصي، تفضل بزيارة الرابط التالي:\n\n{profile_url}",
-            "new_post_body": "أهلاً {recipient_display_name}،\n\nشارك {user_display_name} في نقاش: {discussion_title}\n\nلعرض النشاط الجديد، يُرجى زيارة الرابط التالي:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nلن تتلقى أي إشعارات أخرى حول هذه المناقشة حتى تُحدّثها."
+            "new_discussion_by_user": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_follower": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_post": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
         },
         "lib": {
             "following_link": "المستخدمون المتابِعون",
@@ -98,6 +119,11 @@
                 "lurk": {
                     "name": "تابع الكل",
                     "description": "تلقي الإشعارات عندما يبدأ {username} موضوع جديد أو يقوم بالرد داخل أي مناقشة."
+                }
+            },
+            "gambits": {
+                "followeduser": {
+                    "key": ""
                 }
             }
         }

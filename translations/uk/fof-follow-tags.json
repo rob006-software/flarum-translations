@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "Тег | нове обговорення: {title}",
-                "newPostInTag": "Тег | новий допис: {title}",
-                "newDiscussionTag": "Тег | тег змінено: {title}"
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "Привіт, {recipient_display_name}!\n\n{actor_display_name} розпочав обговорення у тегу, за яким ви стежите: {discussion_title}\n\nЩоб переглянути нове обговорення, перейдіть за наступним посиланням:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "Привіт, {recipient_display_name}!\n\n{actor_display_name} опублікував пост у дискусії по тегу, за яким ви стежите: {discussion_title}\n\nЩоб переглянути нову активність, перейдіть за наступним посиланням:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВи більше не будете отримувати сповіщення про цю дискусію, поки не будете в курсі подій.\n",
-                "newDiscussionTag": "Привіт, {recipient_display_name}!\n\n{actor_display_name} щойно змінив тег дискусії {author_display_name} на тег, за яким ви стежите {discussion_title}.\n\nЩоб переглянути нову дискусію, перейдіть за наступним посиланням:\n{discussion_url}\n"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
@@ -88,16 +105,6 @@
                 "tagsubscription": {
                     "export_description": "Експортувати деталі рівня підписки для тегу, якщо він існує.",
                     "anonymize_description": "Видалена підписка користувача на тег."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "tagsubscription": {
-                    "export_description": "Експорт даних про рівень підписки для тегу, якщо такий існує.",
-                    "anonymize_description": "Видалити підписку користувача на тег."
                 }
             }
         }

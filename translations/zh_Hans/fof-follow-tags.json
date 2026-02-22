@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "【标签新主题】{title}",
-                "newPostInTag": "【标签新回复】{title}",
-                "newDiscussionTag": "【标签变更】{title}"
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 发布新主题于你关注的标签：{discussion_title}\n\n点击下方链接查看主题帖：\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 发表回复于你关注的标签：{discussion_title}\n\n点击下方链接查看主题新动态：\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n在您跟上最新进度前，您不会再收到有关此主题的更多通知。\n",
-                "newDiscussionTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 刚刚将 {author_display_name} 的主题标签变更为你关注的标签：{discussion_title}\n\n点击下方链接查看主题帖：\n{discussion_url}\n"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
@@ -88,16 +105,6 @@
                 "tagsubscription": {
                     "export_description": "如果标签存在，导出订阅级别的详细信息。",
                     "anonymize_description": "取消用户订阅的标签。"
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "tagsubscription": {
-                    "export_description": "导出标签的订阅级别（如果存在）。",
-                    "anonymize_description": "移除用户对所有标签的订阅。"
                 }
             }
         }

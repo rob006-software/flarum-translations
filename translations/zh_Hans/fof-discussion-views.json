@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "最多人看",
-                "unpopular_button": "最少人看"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "重置主题浏览量",
                 "submit": "提交",
-                "label": "设为浏览量"
+                "label": "设为浏览量",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "设置浏览量"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "忽略爬虫访问"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

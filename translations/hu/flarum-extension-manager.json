@@ -5,7 +5,7 @@
                 "add_label": "Új hitelesítési módszer",
                 "add_modal": {
                     "host_label": "Kiszolgáló",
-                    "host_placeholder": "például: extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "Beküldés",
                     "token_label": "Token",
                     "type_label": "Típus",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Megjelenítés, hogy miért nem frissült a legújabb verzióra.",
                 "install": "Új bővítmény telepítése",
-                "install_help": "A folytatáshoz adja meg a bővítmény csomagjának nevét. Megadhat egy <semantic_link>szemantikus verziót</semantic_link> a következő formátumban: <code>vendor/package-name:version</code>. Látogassa meg az {extiverse} oldalt a bővítmények böngészéséhez.\n",
+                "install_help": "",
                 "proceed": "Tovább",
                 "remove": "Eltávolítás",
                 "successful_install": "{extension} sikeresen telepítve, átirányítás..",
@@ -98,11 +98,44 @@
                 "update": "Frissítés"
             },
             "minor_update_confirmation": {
-                "content": "Ez minden más bővítményt/csomagot is frissít a rendelkezésre álló frissítésekkel."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Kezelő"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "A feladat épp most indult el",
                     "title": "Várólista"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Legyen óvatos, hogy kinek ad hozzáférést az admin területhez, a bővítménykezelővel visszaélhetnek, és olyan csomagokat telepíthetnek, melyek biztonsági incidensekhez vezethetnek.",
                 "debug_mode_warning": "Hibakeresési módban futtatja, a bővítménykezelő nem tudja megfelelően telepíteni és frissíteni a helyi fejlesztői csomagokat. Ilyen célokra használja inkább a parancssoros felületet.",
                 "queue_jobs": "Műveletek futtatása a háttérben lévő várólistán",
-                "queue_jobs_help": "Olvashat egy <a href='{basic_impl_link}'>alapvető várólista-megvalósításról</a>, vagy egy <a href='{adv_impl_link}'>speciálisabbról</a>. Győződjön meg róla, hogy a várólistához a PHP {php_version} verziót használja, illetve a <a href='{folder_perms_link}'>mappajogosultságok</a> is megfelelően vannak beállítva.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Feladatok megőrzési napjai",
                 "task_retention_days_help": "A befejezett feladatok adatbázisban való tárolásának napjainak száma. Az ennél régebbi feladatok törlésre kerülnek. 0 értékre állítva az összes feladatot megtartja.\n"
             },
             "updater": {
-                "up_to_date": "Minden naprakész!",
+                "up_to_date": "",
                 "check_for_updates": "Frissítések keresése",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Minden csomag sikeresen frissítve.",
@@ -163,27 +200,6 @@
             "update_successful": "A Flarum sikeresen frissítve.",
             "why_not_modal": {
                 "title": "Miért nem frissül?"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "minimális stabilitás",
-                "repositories": "tárolók",
-                "repositories.*": "tárolók",
-                "repositories.*.type": "tároló típusa",
-                "repositories.*.url": "tároló webcíme",
-                "extension_id": "bővítményazonosító",
-                "update_mode": "frissítési mód",
-                "package": "csomag",
-                "version": "verzió",
-                "github_oauth": "GitHub OAuth",
-                "github_oauth.*": "GitHub OAuth",
-                "gitlab_oauth": "GitLab OAuth",
-                "gitlab_oauth.*": "GitLab OAuth",
-                "gitlab_token": "GitLab token",
-                "gitlab_token.*": "GitLab token",
-                "bearer": "HTTP Bearer",
-                "bearer.*": "HTTP Bearer"
             }
         }
     }

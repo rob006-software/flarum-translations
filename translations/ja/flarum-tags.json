@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "{title}のタグを編集",
-                "title": "スレッドに付けるタグを選択",
-                "bypass_requirements": "タグの必要数設定を無視",
-                "choose_primary_placeholder": "{count, plural, one {プライマリタグを選択してください} other {プライマリタグを # つ選択してください}}",
-                "choose_secondary_placeholder": "{count, plural, one {1つ以上のタグを選択してください} other {# つ以上のタグを選択してください}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "スレッドに付けるタグを選択"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "削除済み",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "タグの要件を無視する",
                 "choose_primary_placeholder": "{count, plural, one {プライマリタグを選択} other {# 個のプライマリタグを選択}}",
@@ -102,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {1個以上のタグを選択} other {#個以上のタグを選択}}",
             "name": "名前",
             "tags": "タグ"
-        },
-        "validation": {
-            "attributes": {
-                "name": "名前",
-                "slug": "",
-                "is_hidden": "",
-                "description": "説明",
-                "color": "色",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

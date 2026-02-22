@@ -19,12 +19,14 @@
                     "extension_settings_button": "Pengaturan GDPR"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Data Tabel Pengguna",
                     "help_text": "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. \nNamun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "Integrasi GDPR"
+                "gdpr_button": "Integrasi GDPR",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Memproses permintaan penghapusan",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "Ekspor data untuk {username}"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Konfirmasi permintaan penghapusan akun Anda",
-                "body": "Hai {display_name}!\n\nSeseorang (semoga Anda) baru saja meminta untuk menghapus akun `{display_name}`.\n\nUntuk mengonfirmasi tindakan ini, silakan ikuti link berikut, setelah itu permintaan Anda akan diproses oleh tim kami.\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Penghapusan akun selesai",
-                    "body": "Hai {display_name}!\n\nIni merupakan notifikasi akhir otomatis bahwa akun Anda telah dihapus.\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "Anonimisasi akun selesai",
-                    "body": "Hai {display_name}!\n\nIni merupakan notifikasi akhir otomatis bahwa akun Anda telah dianonimkan.\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "Permintaan penghapusan akun dibatalkan",
-                "body": "Hai {display_name}!\n\nIni adalah notifikasi otomatis bahwa permintaan Anda untuk membatalkan penghapusan akun telah diproses.\n\nAkun Anda tidak akan dihapus.\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "Ekspor data tersedia",
-                "body": "Hai {display_name}!\n\nAnda meminta ekspor data akun untuk {username}. Ekspor ini telah berhasil dibuat dan sekarang tersedia:\n\n{url}\n\nEkspor ini akan tetap tersedia hingga {destroys_at}.\n"
+                "body": ""
             }
         },
         "forum": {

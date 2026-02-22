@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Populaarne",
-                "unpopular_button": "Ebapopulaarne"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Nulli vestluste vaatamiste arv",
                 "submit": "OK",
-                "label": "Määra vaatamiste arv"
+                "label": "Määra vaatamiste arv",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "Määra vaatamiste arv"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Ignoreeri roboteid"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

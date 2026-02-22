@@ -121,10 +121,24 @@
                 "private_discussion_added": "【私密主題】{display_name} 將您加入私密主題"
             },
             "body": {
-                "private_discussion_created": "{recipient_display_name}，你好！\n\n{actor_display_name} 與您創建了一個私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{discussion_url}\n\n您需要登入方可訪問連結。\n",
-                "private_discussion_replied": "{recipient_display_name}，你好！\n\n{actor_display_name} 發表新內容於您參與的私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{post_url}\n\n您需要登入方可訪問連結。\n",
-                "recipient_removed": "{recipient_display_name}，你好！\n\n{actor_display_name} 離開了您參與的私密主題《{discussion_title}》，他們將無法再查看此主題的任何內容。\n\n點此查看主題：\n{discussion_url}\n\n您需要登入方可訪問連結。\n",
-                "private_discussion_added": "{recipient_display_name}，你好！\n\n{actor_display_name} 將您加入私密主題《{discussion_title}》。\n\n點此查看完整內容：\n{discussion_url}\n\n您需要登入方可訪問連結。\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

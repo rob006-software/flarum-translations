@@ -11,7 +11,6 @@
                     "tags": "",
                     "general": "Γενικά",
                     "reminders": "Υπενθυμίσεις",
-                    "search": "",
                     "advanced": "Προχωρημένο",
                     "reminders_notice": "Για να λειτουργούν σωστά οι υπενθυμίσεις, πρέπει να έχετε ρυθμίσει σωστά τον scheduler Flarum."
                 },
@@ -36,15 +35,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
-                "solution_search": "",
-                "solution_search_help": "",
-                "remove_solutions_from_main_search": "",
-                "remove_solutions_from_main_search_help": "",
-                "display_tags": "",
-                "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
-                "allow_select_own_post": "Επιτρέψτε στους χρήστες να επιλέγουν τις δικές τους δημοσιεύσεις"
+                "discussion_sidebar_jump_button_help": ""
             },
             "edit_tag": {
                 "qna_label": "",
@@ -88,10 +80,6 @@
             "user": {
                 "best-answer-count": ""
             },
-            "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
-            },
             "discussion": {
                 "jump_to_best_answer_button": ""
             }
@@ -106,6 +94,13 @@
                 "awarded": "Γειά σου {recipient_display_name},\n\nΕξαιρετική δουλειά, ο χρήστης {actor_display_name} μόλις επέλεξε την απάντηση σου ως την καλύτερη στη συζήτηση '{discussion_title}'. Ευχαριστούμε για τη βοήθεια!\n\nΔές την συζήτηση εδώ: {discussion_url}\n",
                 "ba-set": "Γειά σου {recipient_display_name},\n\nο χρήστης {actor_display_name} μόλις επέλεξε την απάντηση σου ως την καλύτερη απάντηση στη συζήτηση '{discussion_title}', στην οποία συμμετείχες.\n\nΔές την συζήτηση εδώ: {discussion_url}\n",
                 "select": "Γειά σου {recipient_display_name},\n\nΣίγουρα πλέον έχεις πάρει αρκετές απαντήσεις στην ερώτησή σου - '{discussion_title}'. Ελπίζουμε ότι μια από αυτές να σε βοήθησε να λυθεί το πρόβλημά σου.\n\nΘα βοηθούσε πολύ τα μελλοντικά μέλη του forum που θα έχουν την ίδια ερώτηση με σένα να βρούν την απάντηση πιο γρήγορα και εύκολα έαν μπορούσες να επιλέξεις την καλύτερη απάντηση. Θα ήταν και ένα μεγάλο ευχαριστώ για τα μέλη που βοήθησαν. \n\nΔές τη συζήτηση εδώ: {discussion_url}, και επιλέξτε την καταλληλότερη απάντηση ως την καλύτερη.\n\nΕυχαριστούμε πολύ!\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

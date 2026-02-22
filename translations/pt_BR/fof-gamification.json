@@ -87,6 +87,8 @@
                     "vote_color": "Cor votada",
                     "icon_name": "Ícone de upvote/downvote",
                     "icon_help": "Insira qualquer ícone Font-Awesome com o sufixo -up e -down. Exemplos: seta, polegar, chevron",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Permitir apenas votos positivos",
                     "first_post_only": "Permitir apenas votos para cima/para baixo na primeira postagem de uma discussão",
                     "allow_self_votes": "Os usuários podem votar em suas próprias postagens"
@@ -94,7 +96,7 @@
                 "save_settings": "Salvar configurações",
                 "convert": {
                     "button": "Converter likes para upvotes",
-                    "help": "Converta suas curtidas anteriores de flarum-ext-likes em upvotes, bem como calcule o calor de todas as discussões atuais.",
+                    "help": "",
                     "converting": "Suas curtidas estão sendo convertidas. Atualize seu site após alguns minutos para ver o processo concluído. (O tempo de conversão pode demorar um pouco dependendo do total de curtidas no fórum)",
                     "converted": "Todas as {number} curtidas foram convertidas com sucesso"
                 },
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "Sua publicação foi votada por {display_name}"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

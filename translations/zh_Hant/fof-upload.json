@@ -30,9 +30,10 @@
                 "disable-download-logging": "開啟此設定可查看下載量及未來可能的統計數據。\n",
                 "disable-hotlink-protection": "熱鏈保護可防止從其他網站下載。目前的方式需求 csrf token 及貼文 ID。\n",
                 "download_templates": "下載模板是上載的檔案如何在論壇上顯示 比如預覽、按鈕等，目前支援的有：\n",
-                "mime_types": "請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上載接口處理。\n",
+                "mime_types": "",
                 "resize": "您可以選擇是否在上載圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例。\n",
                 "client_extension": "預設情況下，上傳器將根據 MIME 類型選擇一個安全的檔案擴充套件名。\n對於某些基於 ZIP 或二進制數據的檔案類型，這可能導致使用不正確的通用擴充套件名。\n在這裡，您可以輸入一個逗號分隔的檔案擴充套件名列表，該列表將被逐字保留。\n",
+                "thumbnails": "",
                 "watermark": "在圖片上載時新增水印，僅支援非 gif 圖片。\n",
                 "s3_compatible_storage": "僅在使用 S3 兼容存儲時才需要以下設置。 如果您使用 AWS，您可以將它們留空。\n",
                 "s3_acl": "應用於上傳對象的 ACL（預設：私有）。 有關可能的值，請參閱 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "最大檔案大小 (單位 KB)",
                     "mime_types": "設定 MIME 類型以及上載接口",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "偏好設定",
                     "php_ini_values": "目前伺服器 <code>php.ini</code> 配置上限為 <code>post_max_size={post}</code>，<code>upload_max_filesize={upload}</code>。請確保上方設置的值小於上限，否則請提高上限。若您使用 <code>Nginx</code> 伺服器，請確保 <code>client_max_body_size</code> 高於目前設置的值。"
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "用戶自定義檔案擴充套件名"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "上載水印圖片",
+                    "opacity": "",
+                    "padding": "",
                     "position": "水印位置",
+                    "size_percent": "",
                     "title": "圖片水印",
                     "toggle": "圖片水印"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "測試檔案 MIME 類型"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "下載檔案",
-                "upload_label": "上載檔案",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "查看用戶上傳的檔案",
                 "delete_uploads_of_others_label": "刪除用戶上傳的檔案",
                 "upload_shared_label": "上傳共享檔案",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "亞馬遜 S3",
-                "awss3": "",
                 "imgur": "Imgur",
                 "local": "本地",
                 "ovh-svfs": "OVH SVFS",
@@ -181,31 +197,16 @@
             "text_preview": {
                 "expand": "展開全文",
                 "collapse": "收起全文",
+                "download": "",
                 "error": "檔案預覽無法載入。此檔案可能已被刪除，或檔案 ID已失效。\n",
                 "no_snippet_preview": "<本文的預覽將會在此處展示>",
                 "no_snippet": "<暫無可用的預覽代碼片段>"
-            },
-            "file_list": {
-                "loading": "加載文件中……",
-                "empty": "沒有可展示的文件。",
-                "release_to_upload": "鬆開鼠標上傳",
-                "modal_empty_desktop": "你還沒有上傳過文件。點擊按鈕或拖拽文件到這裡開始上傳吧。",
-                "modal_empty_phone": "你還沒有上傳過文件。點擊上方按鈕開始上傳吧。",
-                "select_file_a11y_label": "選擇文件「{fileName}」",
-                "confirm_selection_btn": "{fileCount, plural, =0 {未選擇} one {嵌入} other {嵌入所選文件}}",
-                "load_more_files_btn": "加載更多",
-                "hide_file": {
-                    "btn_a11y_label": "在文件管理器中隱藏「{fileName}」",
-                    "hide_confirmation": "確定要隱藏「{fileName}」嗎？文件只會從你的文件管理器中消失，並不會影響已嵌入文件的帖子。",
-                    "hide_success": "文件隱藏",
-                    "hide_fail": "無法隱藏文件「{fileName}」",
-                    "loading": "正在隱藏文件……"
-                }
             }
         },
         "api": {
             "upload_errors": {
                 "forbidden_type": "不允許上載這個類型的檔案。",
+                "mime_permission_denied": "",
                 "unsupported_type": "上載適配器不支援這個 MIME 類型： {mime}。",
                 "could_not_detect_mime": "無法偵測這個檔案的 MIME 類型，請重新嘗試。",
                 "max_upload_file_size_ini": "已達到 php.ini 上傳最大檔案大小限制。",
@@ -257,17 +258,6 @@
                     "hide_fail": "無法將檔案「{fileName}」設為私有",
                     "show_fail": "無法公開檔案“{fileName}”",
                     "loading": "將檔案設為私有..."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "uploads": {
-                    "export_description": "用戶上傳的所有檔案。",
-                    "anonymize_description": "從上傳的檔案中刪除使用者資訊。 這些檔案本身仍然可以在預匿名狀態下查看它們的使用者存取。",
-                    "delete_description": "刪除用戶上傳的所有檔案。"
                 }
             }
         }

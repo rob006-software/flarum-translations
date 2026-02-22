@@ -10,6 +10,7 @@
                 "not_authenticated": "Impossible de lier {server} en raison d'un identifiant non valide, veuillez modifier les paramètres de l'extension.",
                 "csrf_token_mismatch": "Vous avez été inactif pendant trop longtemps, veuillez rafraîchir la page et réessayer",
                 "domains": {
+                    "connection_failed": "",
                     "no_domains": "Les paramètres d'administration n'ont pas de domaines définis, veuillez modifier les paramètres d'extension.",
                     "empty_host": "Le domaine {domain_index} n'a pas de domaines ou d'adresses IP de serveur définis, veuillez modifier les paramètres d'extension.",
                     "empty_base_dn": "Le domaine {domain_index} n'a pas de DN de base défini, veuillez modifier les paramètres d'extension.",
@@ -54,7 +55,7 @@
                         "host": "Domaines ou adresses IP des serveurs",
                         "host_help": "Séparés par une virgule",
                         "base_dn": "Noms distinctifs de la base",
-                        "base_dn_help": "Séparés par un point-virgule",
+                        "base_dn_help": "",
                         "filter": "Filtre à appliquer",
                         "filter_help": "Facultatif, doit exclure les « Champs de recherche » du filtre. Par exemple, si le filtre est « (objectclass=user) » et que l'on sélectionne « uid » dans « Champs de recherche », le filtre sera modifié comme suit : '(&(objectclass=user)(uid=[User's Input]))\"",
                         "port": "Port",

@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Reações",
                 "anonymous_count": "{count, plural, one {# utilizador anónimo} other {# utilizadores anónimos}}",
-                "no_reactions": "Ainda não há reações"
+                "no_reactions": "Ainda não há reações",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Ver Reações",
-            "react_button_label": "Reagir"
+            "react_button_label": "Reagir",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Mostrar",
                         "identifier": "Identificador"
                     },
-                    "delete_confirmation": "Tens a certeza de que queres eliminar esta reação? Esta ação não pode ser anulada."
+                    "delete_confirmation": "Tens a certeza de que queres eliminar esta reação? Esta ação não pode ser anulada.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Se acabaste de atualizar a extensão, as tuas reações precisam de ser convertidas. Se acabaste de instalar a extensão, podes ignorar esta mensagem.",

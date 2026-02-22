@@ -11,7 +11,6 @@
                     "tags": "",
                     "general": "",
                     "reminders": "",
-                    "search": "",
                     "advanced": "",
                     "reminders_notice": ""
                 },
@@ -36,12 +35,6 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "عند تفعيل وسم \"أفضل إجابة\"، يُمنح صلاحيات لكل مجموعة مستخدمين يمكنها تحديد الإجابات (مناقشة خاصة، أي نقاش). يمكن منح الصلاحيات بشكل عام (لأي وسم مُفعّل)، أو لكل وسم على حدة.",
-                "solution_search": "",
-                "solution_search_help": "",
-                "remove_solutions_from_main_search": "",
-                "remove_solutions_from_main_search_help": "",
-                "display_tags": "",
-                "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
                 "discussion_sidebar_jump_button_help": ""
             },
@@ -87,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count, plural, one { {count} أفضل إجابة} other {{count} أفضل الإجابات}}"
             },
-            "search": {
-                "discussions_solutions_heading": "مناقشات مع الحلول",
-                "all_discussions_solutions_button": "ابحث في جميع المناقشات التي تحتوي على حلول لـ \"{query}\""
-            },
             "discussion": {
                 "jump_to_best_answer_button": "عرض أفضل إجابة"
             }
@@ -105,6 +94,13 @@
                 "awarded": "أهلاً {recipient_display_name}،\n\n أحسنت، عيّن {actor_display_name} مشاركتك كأفضل إجابة في المناقشة: {discussion_title}. شكرًا لمساعدتك.\n\nاطلع عليها هنا: {discussion_url}",
                 "ba-set": "أهلاً {recipient_display_name}،\n\n{actor_display_name} اختار أفضل إجابة في المناقشة: {discussion_title}، التي شاركتَ فيها.\n\nانظر هنا: {discussion_url}",
                 "select": "أهلاً {recipient_display_name}،\n\nأُتابع الأمر فقط؛ من المفترض أن يكون لديك الآن الكثير من الردود على سؤالك: {discussion_title}. نأمل أن يكون أحدهم قد ساعدك في حل مشكلتك.\n\nإذا كان الأمر كذلك، فسيكون من المفيد جدًا للأعضاء المستقبليين تحديد أفضل إجابة لسؤالك. سيساعد ذلك الأشخاص الذين يواجهون نفس المشكلة في العثور على الإجابة التي يحتاجونها، كما نشكر الأعضاء الذين ساعدوك كثيرًا. إنهم يُقدمون وقتهم تطوعاً، لذا من الجيد أن تُخبرهم أنهم بخير.\n\nتفضل بزيارة المناقشة هنا: {discussion_url}، واختر المشاركة الأنسب كأفضل إجابة.\n\nشكرًا!"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

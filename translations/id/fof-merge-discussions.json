@@ -3,6 +3,7 @@
         "forum": {
             "modal": {
                 "title": "Gabungkan Diskusi",
+                "search_discussions_placeholder": "",
                 "ordering_heading": "Urutan penggabungan",
                 "ordering_date_label": "Menggabungkan postingan berdasarkan tanggal pembuatan",
                 "ordering_date_help": "Postingan dalam diskusi yang dihasilkan diurutkan berdasarkan tanggal pembuatannya masing-masing",
@@ -10,14 +11,14 @@
                 "ordering_suffix_help": "Postingan yang digabungkan ke dalam diskusi yang masih aktif akan ditambahkan di akhir diskusi",
                 "type_heading": "Jenis penggabungan",
                 "type_target_label": "Gabungkan ke Saya",
-                "type_target_help_text": "Pilih diskusi untuk digabungkan ke dalam <b>{title}</b>.",
+                "type_target_help_text": "",
                 "type_from_label": "Gabungkan diskusi ini ke diskusi lain",
-                "type_from_help_text": "Pilih diskusi target untuk digabungkan ke dalam <b>{title}</b>.",
+                "type_from_help_text": "",
                 "load_preview_button": "Pratinjau",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "Diskusi Anda <b>{oldTitle}</b> telah digabungkan ke dalam diskusi ini oleh {username}.",
+                "discussion_merged": "",
                 "preferences": {
                     "discussion_merged": "Seseorang telah menggabungkan salah satu diskusi Saya dengan diskusi yang lain"
                 }
@@ -26,7 +27,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "{count, plural, one {Menggabungkan <b>#</b> postingan dari {titles}.} other {Menggabungkan <b>#</b> postingan dari {titles}.}}"
+                "merged": ""
             }
         },
         "admin": {
@@ -52,7 +53,7 @@
         },
         "email": {
             "merged": {
-                "body": "Halo {recipient_display_name},\n\nDiskusi Anda, {merged_discussion_title}, telah digabungkan menjadi {discussion_title} oleh {actor_display_name}.\n\nSilahkan lihat di {discussion_url} .\n",
+                "body": "",
                 "subject": "Diskusi Anda \"{merged_discussion_title}\" telah digabungkan"
             }
         }

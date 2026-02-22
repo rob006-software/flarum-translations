@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Themen für {title} bearbeiten",
-                "title": "Themen für die Diskussion auswählen",
-                "bypass_requirements": "Themen-Anforderungen umgehen",
-                "choose_primary_placeholder": "{count, plural, one {Wähle ein Hauptthema} other {Wähle # Hauptthemen}}",
-                "choose_secondary_placeholder": "{count, plural, one {Wähle ein weiteres Thema} other {Wähle # weitere Themen}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "Themen für die Diskussion auswählen"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Entfernt",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Themen-Bedigungen umgehen",
                 "choose_primary_placeholder": "{count, plural, one {Wähle ein primäres Thema} other {Wähle # primäre Themen}}",
@@ -95,14 +99,6 @@
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
                 "title": "=> flarum-tags.ref.choose_tags"
-            },
-            "gambits": {
-                "discussions": {
-                    "tag": {
-                        "key": "thema",
-                        "hint": "name eines Themas, oder Kommagetrennte Liste aller Themen-Namen, oder \"untagged\""
-                    }
-                }
             }
         },
         "ref": {
@@ -110,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Wähle ein Thema mehr} other {Wähle # mehr Themen}}",
             "name": "Name",
             "tags": "Themen"
-        },
-        "validation": {
-            "attributes": {
-                "name": "name",
-                "slug": "slug",
-                "is_hidden": "versteckt",
-                "description": "beschreibung",
-                "color": "farbe",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

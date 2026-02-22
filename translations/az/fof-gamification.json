@@ -87,6 +87,8 @@
                     "vote_color": "Səs verilmiş rəng",
                     "icon_name": "Müsbət/mənfi səsvermə ikonu",
                     "icon_help": "-up və -down şəkilçisi olan istənilən Font-Awesome işarəsini daxil edin. Nümunələr: arrow, thumbs, chevron",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Yalnız müsbət səs verməyə icazə ver",
                     "first_post_only": "Müzakirələrdə yalnız ilk paylaşımda müsbət/mənfi səslərə icazə ver",
                     "allow_self_votes": "İstifadəçilər öz paylaşımlarına səs verə bilər"
@@ -94,7 +96,7 @@
                 "save_settings": "Parametrləri yadda saxla",
                 "convert": {
                     "button": "Bəyənmələri müsbət səslərə çevir",
-                    "help": "Əvvəlki bəyənmələrinizi flarum-ext-likes - dən müsbət səslərə çevirin, həmçinin bütün cari müzakirələr üçün trendliyi hesablayın.",
+                    "help": "",
                     "converting": "Bəyənmələriniz çevrilir. Prosesin bitdiyini görmək üçün bir neçə dəqiqədən sonra saytı yeniləyin. (Dönüşümün müddəti ümumi forum bəyənmələrinizdən asılı olaraq bir müddət çəkə bilər)",
                     "converted": "Bütün {number} bəyənmə uğurla çevrildi"
                 },
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "{display_name} paylaşımınıza səs verdi"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

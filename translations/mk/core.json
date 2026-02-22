@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "Заглавие во боја",
                 "colors_heading": "Бои",
                 "colors_primary_label": "Примарна боја",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "Функциите @import и data-uri не се дозволени во прилагодениот LESS.",
                 "custom_styles_heading": "Прилагодени стилови",
                 "custom_styles_text": "Прилагодете го изгледот на вашиот форум со додавање на ваш сопствен Less/CSS код што ќе се примени врз стандардните стилови на Flarum.",
-                "dark_mode_label": "Темен Режим",
                 "description": "Прилагодете ги боите, логоата и другите варијабли на вашиот форум.",
                 "edit_css_button": "Уреди прилагодлив CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "Поставете слика што ќе се прикажува како икона за кратенка на форумот.",
                 "logo_heading": "Лого",
                 "logo_text": "Поставете слика што ќе се прикажува наместо насловот на форумот.",
-                "title": "Изглед"
+                "title": "Изглед",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Стандарден јазик",
                 "description": "Поставете го насловот на форумот, јазикот и другите основни поставки.",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "Прикажано корисничко име",
                 "display_name_text": "",
                 "forum_description_heading": "Опис на форумот",
@@ -38,6 +133,16 @@
                 "home_page_heading": "Почетна страна",
                 "home_page_text": "Одберете страна која корисниците ќе ја гледаат при првата посета на форумот.",
                 "show_language_selector_label": "Покажи избор на јазик",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
                 "title": "Основи",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "Преглед",
+                "toggle_advanced_page_button": "",
                 "tools_button": "Алатки"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "",
                 "driver_heading": "",
                 "driver_label": "",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "Испраќач",
                 "mail_encryption_label": "Енкрипција",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "Хост",
                 "mail_mailgun_domain_label": "Домеин",
                 "mail_mailgun_region_label": "Регион",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "Пробната порака е успешно испратена!",
                 "send_test_mail_text": "",
                 "smtp_heading": "Подесувања за SMTP",
+                "smtp_description": "",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "",
                 "configure_scopes": "",
                 "confirm_purge": "",
+                "database_driver_mismatch": "",
                 "deprecated": "",
                 "disabled": "Исклучено",
                 "enable_to_see": "",
@@ -162,16 +280,26 @@
                     "no_readme": "Оваа екстензија нема README документ.",
                     "title": "Документација за {extName}"
                 },
-                "replaced": ""
+                "replaced": "",
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "Добиј помош",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "Почекајте..."
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -220,6 +348,7 @@
                 "post_without_throttle_label": "",
                 "read_heading": "",
                 "remove_scope_label": "",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "",
                 "reply_to_discussions_label": "",
                 "search_users_label": "",
@@ -242,8 +371,14 @@
                 "signup_closed_button": "",
                 "signup_open_button": ""
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "",
+                "select_dropdown_custom_label": "",
                 "submit_button": ""
             },
             "upload_image": {
@@ -256,11 +391,6 @@
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
-                        },
-                        "edit_user": {
-                            "button": "",
-                            "tooltip": "",
                             "title": ""
                         },
                         "email": {
@@ -276,7 +406,11 @@
                             "title": ""
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": ""
@@ -287,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": ""
-                },
-                "pagination": {
-                    "back_button": "",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
-                    "next_button": "",
-                    "page_counter": ""
                 },
                 "search_placeholder": "",
                 "title": "",
@@ -359,6 +485,7 @@
                 "empty_text": "",
                 "load_more_button": "",
                 "replied_text": "",
+                "skip_discussion_list_pane": "",
                 "started_text": "",
                 "total_replies_a11y_label": "",
                 "unread_replies_a11y_label": ""
@@ -379,7 +506,6 @@
                 "log_in_link": "",
                 "log_out_button": "",
                 "profile_button": "",
-                "search_clear_button_accessible_label": "",
                 "search_placeholder": "",
                 "search_role_label": "",
                 "session_dropdown_accessible_label": "",
@@ -394,6 +520,7 @@
                 "meta_title_text": "",
                 "refresh_tooltip": "",
                 "start_discussion_button": "",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
@@ -439,6 +566,11 @@
                 "restore_button": "",
                 "toggle_dropdown_accessible_label": ""
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "",
                 "original_post_link": "",
@@ -452,14 +584,18 @@
                 "reply_placeholder": "",
                 "time_lapsed_text": ""
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "",
                 "title": ""
-            },
-            "search": {
-                "all_discussions_button": "",
-                "discussions_heading": "",
-                "users_heading": ""
             },
             "security": {
                 "browser_on_operating_system": "",
@@ -500,6 +636,14 @@
                 "account_heading": "",
                 "change_email_button": "",
                 "change_password_button": "",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
@@ -581,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "",
+                "db_error_message": "",
                 "dependent_extensions_message": "",
                 "extension_initialiation_failed_message": "",
+                "extension_runtime_failed_message": "",
                 "generic_message": "",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
@@ -591,6 +737,48 @@
                 "permission_denied_message": "",
                 "rate_limit_exceeded_message": "",
                 "render_failed_message": ""
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": ""
@@ -602,25 +790,75 @@
             "modal": {
                 "close": ""
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": ""
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "",
                 "mega_text": ""
             },
-            "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": "",
                 "three_text": "",
                 "two_text": ""
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": ""
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": "",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -657,6 +895,9 @@
                 "csrf_token_mismatch": "",
                 "csrf_token_mismatch_return_link": "",
                 "invalid_confirmation_token": "",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "",
                 "not_found": "",
                 "not_found_return_link": "",
@@ -668,9 +909,20 @@
                 "next_page_button": "",
                 "previous_page_button": ""
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "",
                 "log_out_confirmation": "",
+                "title": ""
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
                 "title": ""
             },
             "reset_password": {
@@ -678,6 +930,15 @@
                 "new_password_label": "",
                 "submit_button": "",
                 "title": ""
+            },
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
@@ -689,6 +950,24 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "",
                 "body": ""
@@ -718,6 +997,8 @@
             "custom_footer_title": "",
             "custom_header_text": "",
             "custom_header_title": "",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "",
             "delete_forever": "",
             "discussions": "",
@@ -728,6 +1009,9 @@
             "generic_confirmation_message": "",
             "icon": "",
             "icon_text": "",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "",
             "loading": "",
             "log_in": "",
@@ -735,15 +1019,20 @@
             "mark_all_as_read": "",
             "never": "",
             "new_token": "",
+            "newest": "",
             "next_page": "",
             "notifications": "",
             "okay": "",
+            "oldest": "",
             "password": "",
             "posts": "",
             "previous_page": "",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "",
             "rename": "",
             "reply": "",
+            "refresh": "",
             "reset_your_password": "",
             "restore": "",
             "save_changes": "",
@@ -754,6 +1043,7 @@
             "some_others": "",
             "start_a_discussion": "",
             "username": "",
+            "username_or_email_placeholder": "",
             "users": "",
             "view": "",
             "write_a_reply": "",

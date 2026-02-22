@@ -6,6 +6,46 @@
             },
             "settings": {
                 "button": "Seaded",
+                "content-filter": {
+                    "heading": "",
+                    "introduction": "",
+                    "enabled_label": "",
+                    "enabled_help": "",
+                    "user_targeting_heading": "",
+                    "monitor_post_count_label": "",
+                    "monitor_post_count_help": "",
+                    "monitor_hours_old_label": "",
+                    "monitor_hours_old_help": "",
+                    "detectors_heading": "",
+                    "detect_phones_label": "",
+                    "detect_phones_help": "",
+                    "detect_emails_label": "",
+                    "detect_emails_help": "",
+                    "detect_urls_label": "",
+                    "detect_urls_help": "",
+                    "thresholds_heading": "",
+                    "flag_threshold_label": "",
+                    "flag_threshold_help": "",
+                    "spam_threshold_label": "",
+                    "spam_threshold_help": "",
+                    "actions_heading": "",
+                    "auto_unapprove_label": "",
+                    "auto_unapprove_help": "",
+                    "auto_flag_label": "",
+                    "auto_flag_help": "",
+                    "system_user_id_label": "",
+                    "system_user_id_help": "",
+                    "no_action_extensions": "",
+                    "allowlist_heading": "",
+                    "allowed_domains_label": "",
+                    "allowed_domains_help": "",
+                    "blocked_words_heading": "",
+                    "blocked_words_label": "",
+                    "blocked_words_help": "",
+                    "advanced_patterns_heading": "",
+                    "advanced_block_patterns_label": "",
+                    "advanced_block_patterns_help": ""
+                },
                 "default-actions": {
                     "delete_user_label": "Kustuta kasutaja",
                     "delete_user_help": "See kustutab jäädavalt selle kasutaja. Kui see on välja lülitatud, siis kasutaja konto külmutatakse.",
@@ -37,11 +77,12 @@
                     "confidence_help": "Kindluse skoor on mõistlikul tasemel hea indikaator, see väli vajaks tähelepanu soovimatu tegevuse vältimiseks. Määra oma kindluse tase protsentides. Kui see väli on võrdne või kõrgem kui see number, siis liitumine blokeeritakse vaatamata ülalolevatele 'sageduse' testi tulemustele.",
                     "email_hash_label": "Kasuta räsitud e-posti aadressi",
                     "email_hash_help": "Kui sa ei soovi e-postiaadressi ennast saata, siis saada e-posti aadressi MD5 räsi. See meetod läheb mööda kõigist mustadest nimekirjadest normaliseerimine peitmise kannete kontrollimisest.",
+                    "block_tor_exit_nodes_label": "",
+                    "block_tor_exit_nodes_help": "",
                     "sfs_lookup_label": "Kontrolli liitumisi",
                     "sfs_lookup_help": "Kui see on sisse lülitatud, siis kontrollitakse sinu foorumisse uute liitunud kasutajate puhul StopForumSpam andmebaasi. Kui kasutajat ei leitud (kasutajanimi, IP aadress, e-post) ja see andmepunkt on sisse lülitatud koos sinu poolt soovitud SFS kindluse tasemega, siis blokeeritakse kasutaja liitumine.",
                     "report_blocked_registrations_label": "Teavita blokeeritud registreerumistest",
-                    "report_blocked_registrations_help": "Kui kasutaja blokeeritakse registreerumisel, siis edastatakse info selle katse kohta ka StopForumSpam andmebaasi, et spämmijate tegevust saaks paremini kinnitada. Selle kasutamise jaoks peab olema StopForumSpam API võti sisestatud (vaata allpool).",
-                    "heading": "StopForumSpam"
+                    "report_blocked_registrations_help": "Kui kasutaja blokeeritakse registreerumisel, siis edastatakse info selle katse kohta ka StopForumSpam andmebaasi, et spämmijate tegevust saaks paremini kinnitada. Selle kasutamise jaoks peab olema StopForumSpam API võti sisestatud (vaata allpool)."
                 }
             },
             "blocked_registrations": {
@@ -60,6 +101,9 @@
             }
         },
         "forum": {
+            "post": {
+                "flagged_as_spam_text": ""
+            },
             "message": {
                 "stopforumspam": {
                     "blocked": "Sinu liitumise üksikasjad on leitud spämmi ennetamise andmebaasist ning seetõttu on sinu liitumine blokeeritud."

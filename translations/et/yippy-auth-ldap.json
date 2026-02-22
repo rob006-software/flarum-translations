@@ -10,6 +10,7 @@
                 "not_authenticated": "Sidumise serverit {server} ei leitud valede kasutajaandmete tõttu. Muuda lisaprogrammi seadeid.",
                 "csrf_token_mismatch": "Oled liiga kaua aega mitteaktiivne olnud. Palun värskenda lehekülge ja proovi siis uuesti",
                 "domains": {
+                    "connection_failed": "",
                     "no_domains": "Admini seadetes pole domeeni määratud. Muuda lisaprogrammi seadeid.",
                     "empty_host": "Domeenil {domain_index} pole domeene või IP-aadresse määratud. Muuda rakenduse seadeid.",
                     "empty_base_dn": "",
@@ -54,7 +55,7 @@
                         "host": "Domeenis või serveri IP-aadressid",
                         "host_help": "Komadega eraldatud",
                         "base_dn": "Baas DN-id",
-                        "base_dn_help": "Semikooloniga eraldatud",
+                        "base_dn_help": "",
                         "filter": "Filter, mida rakendada",
                         "filter_help": "",
                         "port": "Port",

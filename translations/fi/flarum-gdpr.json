@@ -19,12 +19,14 @@
                     "extension_settings_button": "GDPR asetukset"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Käyttäjä taulun tiedot",
                     "help_text": "Enimmäkseen kaikki <code>user</code>-tauluun lisätyt sarakkeet käsitellään automaattisesti, sekä tietojen vientiä että poistamista varten.\nKuitenkin on joitain erityistapauksia, jotka on lueteltu alla.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "GDPR integraatiot"
+                "gdpr_button": "GDPR integraatiot",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Käsittele tyhjennys pyynnöt",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "Vie data tunnukselle {username}"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Vahvista tilisi tyhjennys pyyntö",
-                "body": "Hei {display_name}!\n\nJoku (toivottavasti sinä) on juuri pyytänyt poistaa tilin `{display_name}`.\n\nVahvistaaksesi tämän toimenpiteen, seuraa alla olevaa linkkiä, jonka jälkeen pyyntösi käsitellään tiimimme toimesta.\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Tilin poisto suoritettu",
-                    "body": "Hei {display_name}!\n\nTämä on automaattinen ja viimeinen ilmoitus siitä, että tilisi on poistettu.\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "Tilin anonymisointi suoritettu",
-                    "body": "Hei {display_name}!\n\nTämä on automaattinen ja viimeinen ilmoitus siitä, että tilisi on anonymisoitu.\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "Tilin tyhjennyspyyntö peruttu",
-                "body": "Hei {display_name}!\n\nTämä on automaattinen ilmoitus siitä, että sinun pyyntösi peruuttaa tilin poisto on käsitelty.\n\nTiliäsi ei poisteta.\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "Datan vienti on saatavilla",
-                "body": "Hei {display_name}!\n\nPyysit tilin tiedon viennin käyttäjälle {username}. Tämä vienti on luotu onnistuneesti ja on nyt saatavilla:\n\n{url}\n\nTämä vienti pysyy saatavilla kunnes {destroys_at}.\n"
+                "body": ""
             }
         },
         "forum": {

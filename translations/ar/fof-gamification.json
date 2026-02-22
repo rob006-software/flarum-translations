@@ -87,6 +87,8 @@
                     "vote_color": "",
                     "icon_name": "",
                     "icon_help": "",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "",
                     "first_post_only": "",
                     "allow_self_votes": ""
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "تم التصويت على مشاركتك بواسطة {display_name}"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

@@ -87,6 +87,8 @@
                     "vote_color": "Äänten väri",
                     "icon_name": "Plus/miinus äänen ikoni",
                     "icon_help": "Syötä mikä tahansa Font-Awesome ikoni mikä loppuu -up ja down. Esimerkiksi: arrow, thumbs, chevron",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Salli vain plus äänet",
                     "first_post_only": "Salli vain plus/miinus äänet keskustelun ensimmäisessä viestissä",
                     "allow_self_votes": "Käyttäjät voivat äänestää omia viestejään"
@@ -94,7 +96,7 @@
                 "save_settings": "Tallenna asetukset",
                 "convert": {
                     "button": "Muunna tykkäykset plus ääniksi",
-                    "help": "Muunna entiset tykkäykset flarumin omasta tykkäykset lisäosasta plus ääniksi sekä laske nykyisen keskustelujen suosio.",
+                    "help": "",
                     "converting": "Tykkäyksiä muunnetaan. Päivitä sivu muutaman minuutin päästä nähdäksesi prosessin loppuneen. (Muunnos voi kestää jonkin aikaa riippuen foorumisi. tykkäyksien määrästä)",
                     "converted": "Onnistuneesti muunnettiin kaikki {number} tykkäystä"
                 },
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "Viestiäsi äänesti {display_name}"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

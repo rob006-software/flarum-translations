@@ -30,9 +30,10 @@
                 "disable-download-logging": "Forum kullanıcıları tarafından yapılan her indirme işleminin kaydını etkisizleştir. Etkinleştirilmesi, gelecekte indirenlerin sayısını ve diğer ölçümleri görmenizi sağlar.\n",
                 "disable-hotlink-protection": "Hotlink koruması, diğer sitelerden indirme yapılmasına engel olur. Geçerli bir csrf token ve post id'si gereklidir.\n",
                 "download_templates": "İndirme şablonları, dosyaların forumunuzda nasıl görüneceğini ayarlamanızı sağlar, örneğin önizleme veya düğme gibi. Mevcut olanlar:\n",
-                "mime_types": "Lütfen eşlemenizi burada yapılandırın. Her mime tipi normal ifade, belirli bir yükleme bağdaştırıcısı ve indirme şablonu tarafından işlenecektir.\n",
+                "mime_types": "",
                 "resize": "Resimlerin yüklenmeden önce yeniden boyulandırılıp boyutlandırılmayacağını seçin. Piksel cinsinden maksimum genişlik ve yükseklik belirtebilirsiniz. Yeniden boyutlandırma işlemi görüntülerin enini ve boyunu korur.\n",
                 "client_extension": "Varsayılan olarak Yükle, MIME türüne göre güvenli bir dosya uzantısı seçecektir.\nZIP veya ikili verilere dayalı bazı dosya türleri için bu, beklenen uzantıların yerine genel uzantıların kullanılmasına neden olabilir.\nBurada, aynen tutulacak dosya uzantılarının virgülle ayrılmış bir listesini girebilirsiniz.\n",
+                "thumbnails": "",
                 "watermark": "Yükleme sırasında resimlere filigran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n",
                 "s3_compatible_storage": "Aşağıdaki ayarlar yalnızca S3 uyumlu depolama kullanılırken gereklidir. AWS kullanıyorsanız, bunları boş bırakabilirsiniz.\n",
                 "s3_acl": "Yüklenen nesneye uygulanması gereken ACL (varsayılan: özel). Olası değerler için bkz. https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Maksimum dosya boyutu (kilobyte cinsinden)",
                     "mime_types": "Mime türünüzü yapılandırın, uyarlayıcı eşlemesini yükleyin",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Genel tercihler",
                     "php_ini_values": "<code>php.ini</code> değerleriniz <code>post_max_size={post}</code> ve <code>upload_max_filesize={upload}</code> şeklindedir. Burada ayarlanan değerin bu eşiklerin altında olduğundan emin olun veya uygun şekilde ayarlayın. <code>Nginx</code> kullanıyorsanız, <code>client_max_body_size</code> öğesinin seçtiğiniz maksimum limit için yeterli boyutta olduğundan emin olun."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Kullanıcı tarafından sağlanan dosya uzantıları"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Filigran yükleyin",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Filigran konumu",
+                    "size_percent": "",
                     "title": "Filigran görseli",
                     "toggle": "Filigran görseli"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Test dosyası MIME türü"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Dosya indirme",
-                "upload_label": "Dosya yükleme",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Kullanıcı yüklemelerini göster",
                 "delete_uploads_of_others_label": "Kullanıcı yüklemelerini silin",
                 "upload_shared_label": "Paylaşılan dosyaları yükle",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3 ya da Compatible",
-                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Yerel",
                 "ovh-svfs": "OVH SVFS",
@@ -157,9 +173,6 @@
                 "mime-fileinfo": "PHP Fileinfo (yedek)",
                 "guessed-extension": "Varsayılan dosya uzantısı (orijinal beyaz listede değilse)",
                 "not-available": "Sonuç yok"
-            },
-            "buttons": {
-                "save": "Ayarları kaydet"
             }
         },
         "forum": {
@@ -184,31 +197,16 @@
             "text_preview": {
                 "expand": "Önizlemeyi genişlet",
                 "collapse": "Önizlemeyi daralt",
+                "download": "",
                 "error": "Dosya önizlenirken hata oluştu. Silinmiş olabilir veya sağlanan dosya kimliği geçersiz.\n",
                 "no_snippet_preview": "<Önizleme yayınlandıktan sonra burada görünecek>",
                 "no_snippet": "<önizleme snippet'i yok>"
-            },
-            "file_list": {
-                "loading": "Dosyalar yükleniyor...",
-                "empty": "Gösterilecek dosya bulunmuyor.",
-                "release_to_upload": "Yüklemek için bırakın",
-                "modal_empty_desktop": "Dosya listeniz boş. Yüklemek için düğmeye tıklayın veya buraya bir dosya sürükleyin.",
-                "modal_empty_phone": "Dosya listeniz boş. Bir dosya yüklemek için yukarıdaki düğmeye dokunun.",
-                "select_file_a11y_label": "\"{fileName}\" dosyasını seçin",
-                "confirm_selection_btn": "{fileCount, plural, =0 {Seçilmedi} one {Dosya seçin} other {Dosyaları seçin}}",
-                "load_more_files_btn": "Daha fazla dosya yükle",
-                "hide_file": {
-                    "btn_a11y_label": "\"{fileName}\" dosyasını medya yöneticisinden gizle",
-                    "hide_confirmation": "\"{fileName}\" dosyasını gizlemek istediğinizden emin misiniz? Bir dosyayı gizlemek, onu yalnızca medya yöneticinizden kaldırır ve mevcut gönderileri etkilemez.",
-                    "hide_success": "Dosya gizlendi",
-                    "hide_fail": "\"{fileName}\" dosyası gizlenemedi",
-                    "loading": "Dosya gizleniyor..."
-                }
             }
         },
         "api": {
             "upload_errors": {
                 "forbidden_type": "Bu türdeki dosyaların yüklenmesine izin verilmiyor.",
+                "mime_permission_denied": "",
                 "unsupported_type": "Yükleyici bu tür dosya tipini desteklemiyor: {mime}.",
                 "could_not_detect_mime": "Bu dosyanın türü algılanamadı, lütfen tekrar deneyin.",
                 "max_upload_file_size_ini": "Php.ini'den yükleme maksimum dosya boyutu sınırına ulaşıldı.",
@@ -260,17 +258,6 @@
                     "hide_fail": "\"{fileName}\" dosyası özel yapılamadı",
                     "show_fail": "\"{fileName}\" dosyası herkese açık hale getirilemedi",
                     "loading": "Dosya özel hale getiriliyor..."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "uploads": {
-                    "export_description": "Kullanıcı tarafından yüklenen tüm dosyalar.",
-                    "anonymize_description": "Yüklenen dosyalardan kullanıcı referansını kaldırır. Dosyaların kendisi, onları önceden anonimleştirmeden görüntüleyebilen kullanıcılar tarafından erişilebilir durumda kalır.",
-                    "delete_description": "Kullanıcı tarafından yüklenen tüm dosyaları siler."
                 }
             }
         }

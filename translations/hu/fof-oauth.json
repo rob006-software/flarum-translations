@@ -108,7 +108,8 @@
             "unlink": "Összekapcsolás eltávolítása",
             "error": {
                 "bad_verification_code": "Hibás vagy lejárt ellenőrzőtoken. Próbálja újra.",
-                "invalid_state": "Érvénytelen állapot. Próbálja újra."
+                "invalid_state": "Érvénytelen állapot. Próbálja újra.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

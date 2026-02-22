@@ -1,6 +1,11 @@
 {
     "flarum-sticky": {
         "admin": {
+            "settings": {
+                "enable_display_excerpt": "",
+                "only_sticky_unread_discussions_label": "",
+                "only_sticky_unread_discussions_help": ""
+            },
             "permissions": {
                 "sticky_discussions_label": "Закріплені дискусії"
             }
@@ -16,6 +21,15 @@
             "post_stream": {
                 "discussion_stickied_text": "Користувач {username} закріпив дискусію {time}.",
                 "discussion_unstickied_text": "Користувач {username} скасував закріплення дискусії {time}."
+            }
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "sticky": {
+                        "key": ""
+                    }
+                }
             }
         },
         "ref": {

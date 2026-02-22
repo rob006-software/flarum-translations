@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "כתיבת תגיות ל{title}",
-                "title": "בחירת תגיות לדיון שלך",
-                "bypass_requirements": "עקיפת דרישת תגיות",
-                "choose_primary_placeholder": "בחירת תגית משנית|בחירת {count} תגיות משניות",
-                "choose_secondary_placeholder": "בחירת 1 או יותר תגיות|בחירת {count} תגיות נוספות",
-                "submit_button": "=> core.ref.okay"
+                "title": "בחירת תגיות לדיון שלך"
             },
             "composer_discussion": {
                 "choose_tags_link": "בחירת תגיות"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "הוסרו",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "",
                 "choose_primary_placeholder": "",
@@ -102,17 +106,6 @@
             "choose_tags_placeholder": "",
             "name": "שם",
             "tags": "תגיות"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
         }
     }
 }

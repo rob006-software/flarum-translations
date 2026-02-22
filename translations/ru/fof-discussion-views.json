@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Популярное",
-                "unpopular_button": "Непопулярное"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Сбросить счетчик просмотров дискуссии",
                 "submit": "Отправить",
-                "label": "Установить на счетчик просмотров"
+                "label": "Установить на счетчик просмотров",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "Установить счетчик просмотров"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Игнорировать посещения роботов"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

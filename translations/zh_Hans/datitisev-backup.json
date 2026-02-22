@@ -1,39 +1,25 @@
 {
     "datitisev-backup": {
         "admin": {
+            "settings": {
+                "database_bin_path_label": "",
+                "database_bin_path_help": ""
+            },
             "adapters": {
                 "local": "本地存储",
                 "aliyun": "阿里云",
                 "azure": "微软 Azure",
                 "aws": "亚马逊 AWS S3",
-                "dospaces": "Digital Ocean Spaces",
                 "dropbox": "Dropbox",
                 "gdrive": "Google Drive",
                 "ftp": "FTP",
-                "gridfs": "GridFS",
-                "rackspace": "Rackspace",
-                "sftp": "SFTP",
-                "webdav": "Webdav",
-                "zip": "Zip Archive"
+                "sftp": "SFTP"
             },
             "settings_button": "配置",
             "delete_button": "删除",
             "delete_confirmation": "确定要删除「{name}」（{adapter}）",
             "create_button": "新建适配器",
             "required_package_button": "安装",
-            "you-need-for": {
-                "aliyun": "aliyuncs/aliyun-oss-flysystem",
-                "azure": "league/flysystem-azure",
-                "aws": "league/flysystem-aws-s3-v3",
-                "copy": "league/flysystem-copy",
-                "dospaces": "league/flysystem-aws-s3-v3",
-                "dropbox": "spatie/flysystem-dropbox",
-                "gdrive": "nao-pon/flysystem-google-drive",
-                "gridfs": "league/flysystem-gridfs",
-                "rackspace": "league/flysystem-rackspace",
-                "sftp": "league/flysystem-sftp",
-                "webdav": "league/flysystem-webdav"
-            },
             "required-package-modal": {
                 "title": "{adapter} 所需的软件包",
                 "content": "为了使用这个驱动程序，您需要安装一个特定的软件包。您可以通过 Flarum 安装目录下运行 <code>composer require {package}</code> 命令来安装。\n"
@@ -41,6 +27,8 @@
             "adapter-settings-modal": {
                 "title": "配置 {adapter}",
                 "name_label": "Location 名称",
+                "timestamp_label": "",
+                "timestamp_help": "",
                 "local": {
                     "target": {
                         "label": "目标路径",
@@ -71,12 +59,16 @@
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "终端",
-                        "description": "存储终端的 URL。"
+                        "label": "",
+                        "description": ""
                     },
                     "container": {
                         "label": "容器",
                         "description": "Azure 容器"
+                    },
+                    "path-prefix": {
+                        "label": "",
+                        "description": ""
                     }
                 },
                 "aws": {
@@ -103,16 +95,6 @@
                     "path-prefix": {
                         "label": "路径前缀",
                         "description": "可选的默认文件路径前缀。"
-                    },
-                    "credentials": {
-                        "key": {
-                            "label": "Key",
-                            "description": "AWS credentials key"
-                        },
-                        "secret": {
-                            "label": "Secret",
-                            "description": "AWS credentials secret"
-                        }
                     }
                 },
                 "dropbox": {
@@ -132,10 +114,6 @@
                         "obtain-refresh-token-label": "使用访问代码获取刷新令牌（需要 App Key 和 Secret）",
                         "obtain-refresh-token-button": "使用代码",
                         "obtain-refresh-token-success": "刷新令牌获取成功，请保存。"
-                    },
-                    "access-token": {
-                        "label": "Access Token",
-                        "description": "生成一个 oAuth 2 访问令牌 @ https://www.dropbox.com/developers/apps."
                     }
                 },
                 "gdrive": {
@@ -158,16 +136,6 @@
                     "help": {
                         "test_success_alert": "成功连接 Google Drive，请保存设置。",
                         "test_button": "测试连接"
-                    },
-                    "client": {
-                        "id": {
-                            "label": "Client ID",
-                            "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 的指示，创建一个 Google 项目，并取回您的 Client ID 和 Client Secret。\n"
-                        },
-                        "secret": {
-                            "label": "Client Secret",
-                            "description": " "
-                        }
                     }
                 },
                 "ftp": {
@@ -183,9 +151,9 @@
                         "label": "密码",
                         "description": "要在 FTP 服务器上进行身份验证的密码。"
                     },
-                    "private-key": {
-                        "label": "私钥",
-                        "description": "FTP 连接认证时使用的私钥的路径（最好是绝对路径）。"
+                    "passive": {
+                        "toggle": "",
+                        "description": ""
                     },
                     "port": {
                         "label": "端口",
@@ -195,10 +163,6 @@
                         "label": "根路径",
                         "description": "存储备份的远程根路径（子目录）。"
                     },
-                    "passive": {
-                        "toggle": "被动连接",
-                        "description": "是否使用被动 FTP 连接到服务器。"
-                    },
                     "ssl": {
                         "toggle": "SSL",
                         "description": "是否使用加密 SSL 连接到服务器。"
@@ -206,6 +170,29 @@
                     "timeout": {
                         "label": "超时时间",
                         "description": "等待与 FTP 服务器连接的秒数。"
+                    }
+                },
+                "sftp": {
+                    "host": "",
+                    "username": "",
+                    "password": "",
+                    "root": "",
+                    "timeout": "",
+                    "port": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "private-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "passphrase": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "use-agent": {
+                        "toggle": "",
+                        "description": ""
                     }
                 }
             },

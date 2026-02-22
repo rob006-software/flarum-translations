@@ -17,15 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "新增 <code>rel=\"me\"</code> 屬性，用於其他網站上的身份驗證",
-                "visibility": "連結可見範圍",
-                "visibility.help": "",
-                "visibility.help-disabled": "",
-                "visibility.label": "",
-                "visibility.guest-only.label": "",
-                "visibility.guest-only.help": "",
-                "everyone-label": "所有人",
-                "guests-label": "訪客",
-                "members-label": "註冊用戶"
+                "visibility": {
+                    "help": "",
+                    "help-disabled": "",
+                    "label": "",
+                    "guest-only": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
@@ -33,8 +33,7 @@
                 "preconfigured": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "在平板上僅顯示圖示",
-                "show_icons_only_on_mobile": "在手機上只顯示圖示"
+                "show_icons_only_on_tablet": "在平板上僅顯示圖示"
             }
         },
         "ref": {

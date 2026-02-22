@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Populyar",
-                "unpopular_button": "Populyar olmayanlar"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Mövzuya baxış sayını sıfırlayın",
                 "submit": "Göndər",
-                "label": "Sayına baxmaq üçün ayarlayın"
+                "label": "Sayına baxmaq üçün ayarlayın",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "Baxış sayını təyin edin"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Tarayıcı ziyarətlərinə məhəl qoymayın"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

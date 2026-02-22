@@ -56,10 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "{title} uchun teglarni tahrirlash",
-                "title": "Muhokamangiz uchun teglarni tanlang",
-                "choose_primary_placeholder": "{hisoblash, koʻplik, bitta {Asosiy tegni tanlang} other {# ta asosiy tegni tanlang}}",
-                "choose_secondary_placeholder": "{hisoblash, koʻplik, bitta {Yana 1 ta tegni tanlang} other {Yana # tegni tanlang}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "Muhokamangiz uchun teglarni tanlang"
             },
             "composer_discussion": {
                 "choose_tags_link": "Teglarni tanlang"
@@ -87,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "O'chirilgan",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "",
                 "choose_primary_placeholder": "",
@@ -101,17 +106,6 @@
             "choose_tags_placeholder": "",
             "name": "Nomi",
             "tags": "Teglar"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
         }
     }
 }

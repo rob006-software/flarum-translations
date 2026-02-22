@@ -74,12 +74,33 @@
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "[Стежити за користувачем] {title}",
-            "new_follower_subject": "[Підписатись на користувача] У вас з'явився новий підписник!",
-            "new_post_subject": "[Стежити за користувачем] Нове повідомлення в {title}",
-            "new_discussion_by_user_body": "Привіт, {recipient_display_name}!\n\n{user_display_name} розпочав нову дискусію: {discussion_title}\n\nЩоб переглянути нову дискусію, перейдіть за наступним посиланням:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
-            "new_follower_body": "Привіт, {recipient_display_name},\n\n{follower_display_name} почав відслідковувати вас, тому він отримає сповіщення, коли ви почнете нову дискусію.\n\nЩоб переглянути його профіль, перейдіть за наступним посиланням:\n\n{profile_url}\n",
-            "new_post_body": "Привіт, {recipient_display_name},\n\n{user_display_name} долучився до обговорення: {discussion_title}\n\nЩоб переглянути нову активність, перейдіть за наступним посиланням:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВи більше не отримуватимете сповіщень про цю дискусію, доки не будете в курсі подій.\n"
+            "new_discussion_by_user": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_follower": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_post": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
         },
         "lib": {
             "following_link": "Підписані користувачі",
@@ -99,16 +120,10 @@
                     "name": "Слідкуйте за усіма",
                     "description": "Отримувати сповіщення, коли <em>{username}</em> починає нове обговорення або пише в будь-якому обговоренні.\n"
                 }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "followuser": {
-                    "export_description": "Експорт інформації про користувачів, за якими слідкують, і користувачів, які слідкують за ними.",
-                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "Видалити всі дані, пов'язані з користувачами, які підписалися."
+            },
+            "gambits": {
+                "followeduser": {
+                    "key": ""
                 }
             }
         }

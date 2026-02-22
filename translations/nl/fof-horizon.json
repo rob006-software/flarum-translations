@@ -23,6 +23,11 @@
                 "full_dashboard": "Horizon Dashboard",
                 "refresh": "Vernieuw",
                 "last_refresh": "",
+                "error": {
+                    "title": "",
+                    "fetch_failed": "",
+                    "setup_docs": ""
+                },
                 "health": {
                     "excellent": "",
                     "good": "",
@@ -30,16 +35,11 @@
                     "critical": "",
                     "tooltip": ""
                 },
-                "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
-                },
                 "data": {
                     "redis-used-memory": "Cache opslag Gebruikt geheugen",
-                    "redis-memory-usage": "",
                     "redis-peak-memory": "Cache opslag Piek geheugen",
                     "redis-max-memory": "Cache opslag Maximaal geheugen",
+                    "redis-memory-usage": "",
                     "redis-memory-policy": "Geheugenbeleid voor cacheopslag",
                     "redis-memory-policy-tooltip": "Het geheugenbeleid is de manier waarop de cacheopslag wordt geselecteerd wat er verwijderd moet worden\nwanneer de maximale geheugenlimiet is bereikt. De standaardwaarde is `noeviction`: Nieuwe waarden\nworden niet opgeslagen als het geheugenlimiet is bereikt. Klik om de notificatie te bekijken.\n",
                     "redis-ops-per-sec": "Operaties per seconde",

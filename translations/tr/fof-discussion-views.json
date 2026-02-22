@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Görüntülenen",
-                "unpopular_button": "Görüntülenmeyen"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Tartışma görüntülenme sayısını sıfırla",
                 "submit": "Onayla",
-                "label": "Görüntülenme sayısını ayarla"
+                "label": "Görüntülenme sayısını ayarla",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "Görüntülenme sayısını ayarla"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Tarayıcı ziyaretlerini yok say"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

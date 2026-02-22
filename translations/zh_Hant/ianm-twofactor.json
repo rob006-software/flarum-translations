@@ -94,7 +94,8 @@
             },
             "status_type": {
                 "enabled": "啟用",
-                "disabled": "禁用"
+                "disabled": "禁用",
+                "device_changed": ""
             }
         },
         "views": {
@@ -113,16 +114,6 @@
                 "twofactordata": {
                     "export_description": "",
                     "delete_description": ""
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "twofactordata": {
-                    "export_description": "匯出 2FA 狀態和加密的備份代碼。",
-                    "delete_description": "刪除與 2FA 相關的所有資料。"
                 }
             }
         }

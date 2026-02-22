@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Reaccions",
                 "anonymous_count": "{count, plural, one {# usuari anònim} other {# usuaris anònims}}",
-                "no_reactions": "Sense reaccions encara"
+                "no_reactions": "Sense reaccions encara",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Veure reaccions",
-            "react_button_label": "Reaccionar"
+            "react_button_label": "Reaccionar",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Mostrar",
                         "identifier": "Identificador"
                     },
-                    "delete_confirmation": "Segur que vols esborrar aquesta reacció? Aquesta acció no es pot desfer."
+                    "delete_confirmation": "Segur que vols esborrar aquesta reacció? Aquesta acció no es pot desfer.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Si acabes d'actualitzar la teva extensió, caldrà convertir les teves reaccions. Si acabes d'instal·lar l'extensió, pots ignorar aquest missatge.",

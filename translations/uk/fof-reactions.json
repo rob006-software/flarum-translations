@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Реакції",
                 "anonymous_count": "{count, plural, one {# анонімний користувач} other {# анонімні користувачі}}",
-                "no_reactions": "Поки що немає реакцій"
+                "no_reactions": "Поки що немає реакцій",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Перегляд реакцій",
-            "react_button_label": "Реагувати"
+            "react_button_label": "Реагувати",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Показати",
                         "identifier": "Ідентифікатор"
                     },
-                    "delete_confirmation": "Ви впевнені, що хочете видалити цю реакцію? Ця дія не може бути скасована."
+                    "delete_confirmation": "Ви впевнені, що хочете видалити цю реакцію? Ця дія не може бути скасована.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Якщо ви щойно оновили своє розширення, ваші реакції повинні бути перетворені. Якщо ви щойно встановили це розширення, можете сміливо ігнорувати це повідомлення.",

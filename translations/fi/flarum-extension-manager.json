@@ -5,7 +5,7 @@
                 "add_label": "Uusi autentikointi tapa",
                 "add_modal": {
                     "host_label": "Isäntä",
-                    "host_placeholder": "esimerkki: extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "Lähetä",
                     "token_label": "Tunniste (token)",
                     "type_label": "Tyyppi",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Näytä miksi sitä ei päivitetty viimeisimpään.",
                 "install": "Asenna uusi lisäosa",
-                "install_help": "Syötä lisäosan paketin nimi jatkaaksesi. Voit määrittää <semantic_link>semanttisen version</semantic_link> käyttäen muotoa <code>vendor/package-name:version</code>. Vieraile {extiverse} selataksesi lisäosia.\n",
+                "install_help": "",
                 "proceed": "Jatka",
                 "remove": "Poista lisäosa",
                 "successful_install": "{extension} asennettiin onnistuneesti, ohjataan..",
@@ -98,11 +98,44 @@
                 "update": "Päivitä"
             },
             "minor_update_confirmation": {
-                "content": "Tämä päivittää myös muut lisäosat/paketit joihin on saatavilla päivityksiä."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Hallinta"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "Tehtävä alkoi juuri",
                     "title": "Jono"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Ole varovainen, kenelle myönnät pääsyn ylläpitoalueelle. Lisäosahallintaa voivat väärinkäyttää huonot tahot asentaakseen paketteja, jotka voivat johtaa turvallisuusongelmiin.",
                 "debug_mode_warning": "Ajaessasi debug-tilassa, lisäosahallinta ei voi oikein asentaa tai päivittää paikallisia kehityspaketteja. Käytä sen sijaan komentoriviliittymää tällaisten tehtävien suorittamiseen.",
                 "queue_jobs": "Suorita toimintoja taustajonoa käyttäen",
-                "queue_jobs_help": "Voit lukea lisää <a href='{basic_impl_link}'>perus jonon</a> toteutuksesta tai <a href='{adv_impl_link}'>kehittyneemmän jonon</a> toteutuksesta. Pidä huolta, että jonon PHP versio on {php_version}. Pidä myös huolta että <a href='{folder_perms_link}'>kansion oikeudet</a> on määritetty oikein.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Tehtävien säilytyspäivät",
                 "task_retention_days_help": "Päivien määrä, jonka aikana suoritettuja tehtäviä säilytetään tietokannassa. Tätä vanhemmat tehtävät poistetaan. Aseta arvoksi 0 säilyttääksesi kaikki tehtävät.\n"
             },
             "updater": {
-                "up_to_date": "Kaikki on ajantasalla!",
+                "up_to_date": "",
                 "check_for_updates": "Tarkista päivitykset",
                 "flarum": "Flarum ydin",
                 "global_update_successful": "Kaikki paketit päivitettiin onnistuneesti.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum onnistuneesti päivitetty.",
             "why_not_modal": {
                 "title": "Miksi se ei päivittynyt"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "Vähimmäistabiliteetti",
-                "repositories": "varastot",
-                "repositories.*": "varastot",
-                "repositories.*.type": "varasto tyyppi",
-                "repositories.*.url": "varaston URL",
-                "extension_id": "lisäosan ID",
-                "update_mode": "päivitystila",
-                "package": "paketti",
-                "version": "versio",
-                "github_oauth": "GitHub OAuth",
-                "github_oauth.*": "GitHub OAuth",
-                "gitlab_oauth": "GitLab OAuth",
-                "gitlab_oauth.*": "GitLab OAuth",
-                "gitlab_token": "GitLab Token",
-                "gitlab_token.*": "GitLab Token",
-                "bearer": "HTTP Bearer",
-                "bearer.*": "HTTP Bearer"
             }
         }
     }

@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Bereaksi",
                 "anonymous_count": "{count, plural, one {# pengguna anonim} other {# pengguna anonim}}",
-                "no_reactions": "Belum ada reaksi"
+                "no_reactions": "Belum ada reaksi",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Lihat Reaksi",
-            "react_button_label": "Bereaksi"
+            "react_button_label": "Bereaksi",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Tampilan",
                         "identifier": "Pengidentifikasi"
                     },
-                    "delete_confirmation": "Apakah Anda yakin ingin menghapus reaksi ini? Tindakan ini tidak dapat dibatalkan."
+                    "delete_confirmation": "Apakah Anda yakin ingin menghapus reaksi ini? Tindakan ini tidak dapat dibatalkan.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Jika Anda baru saja memperbarui ekstensi Anda, reaksi Anda harus dikonversi. Jika Anda baru saja menginstal ekstensi ini, Anda bisa mengabaikan pesan ini.",

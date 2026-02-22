@@ -5,7 +5,7 @@
                 "add_label": "Yeni kimlik doğrulama yöntemi",
                 "add_modal": {
                     "host_label": "Sunucu",
-                    "host_placeholder": "örnek: extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "Gönder",
                     "token_label": "Jeton",
                     "type_label": "Tür",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Neden en son sürüme güncellenmediğini gösterin.",
                 "install": "Yeni bir uzantı yükleyin",
-                "install_help": "Devam etmek için uzantı paketi adını girin. <code>geliştirici/paket-adı:sürüm</code> biçimini kullanarak bir <semantic_link>belirli sürüm</semantic_link> yükleyebilirsiniz. Uzantılara göz atmak için {extiverse} adresini ziyaret edin.\n",
+                "install_help": "",
                 "proceed": "İlerle",
                 "remove": "Kaldır",
                 "successful_install": "{extension} başarıyla kuruldu, yönlendiriliyorsunuz...",
@@ -98,11 +98,44 @@
                 "update": "Güncelle"
             },
             "minor_update_confirmation": {
-                "content": "Bu aynı zamanda diğer uzantıları/paketleri de mevcut güncellemelerle güncelleyecektir."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Yönetici"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "Görev yeni başladı",
                     "title": "Sıra"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Lütfen yönetici alanına erişim izni verdiğiniz kişilere dikkat edin; uzantı yöneticisi, kötü kişiler tarafından güvenlik ihlallerine yol açabilecek paketler yüklemek amacıyla kötüye kullanılabilir.",
                 "debug_mode_warning": "Hata ayıklama modunda çalışıyorsunuz, uzantı yöneticisi yerel geliştirme paketlerini düzgün şekilde kurup güncelleyemiyor. Lütfen bu tür amaçlar için komut satırı arayüzünü kullanın.",
                 "queue_jobs": "İşlemleri arka planda çalıştır",
-                "queue_jobs_help": "<a href='{basic_impl_link}'>Temel kuyruk</a> veya <a href='{adv_impl_link}'>daha gelişmiş</a> uygulaması hakkında bilgi edinebilirsiniz. Kuyruk için kullanılan PHP sürümünün {php_version} olduğundan emin olun. <a href='{folder_perms_link}'>klasör izinlerinin</a> doğru şekilde yapılandırıldığından emin olun.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Görev saklama günleri",
                 "task_retention_days_help": "Tamamlanan görevlerin veritabanında tutulacağı gün sayısı. Bundan daha eski olan görevler silinecektir. Tüm görevleri korumak için 0'a ayarlayın.\n"
             },
             "updater": {
-                "up_to_date": "Her şey güncel!",
+                "up_to_date": "",
                 "check_for_updates": "Güncellemeleri kontrol et",
                 "flarum": "Flarum Çekirdeği",
                 "global_update_successful": "Tüm paketler başarıyla güncellendi.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum başarıyla güncellendi.",
             "why_not_modal": {
                 "title": "Neden Güncellenmiyor"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "minimum kararlılık",
-                "repositories": "depolar",
-                "repositories.*": "depolar",
-                "repositories.*.type": "depo türü",
-                "repositories.*.url": "depo bağlantısı",
-                "extension_id": "uzantı ID'si",
-                "update_mode": "güncelleme modu",
-                "package": "paket",
-                "version": "sürüm",
-                "github_oauth": "GitHub OAuth",
-                "github_oauth.*": "GitHub OAuth",
-                "gitlab_oauth": "GitLab OAuth",
-                "gitlab_oauth.*": "GitLab OAuth",
-                "gitlab_token": "GitLab Erişim Anahtarı",
-                "gitlab_token.*": "GitLab Erişim Anahtarı",
-                "bearer": "HTTP Taşıyıcısı",
-                "bearer.*": "HTTP Taşıyıcısı"
             }
         }
     }

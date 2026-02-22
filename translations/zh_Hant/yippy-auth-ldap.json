@@ -10,6 +10,7 @@
                 "not_authenticated": "由於憑證無效，無法綁定 {server}，請修改擴充設定。",
                 "csrf_token_mismatch": "您已經太長時間不活動，請刷新頁面並重試",
                 "domains": {
+                    "connection_failed": "",
                     "no_domains": "管理設定未設定域，請修改擴充設定。",
                     "empty_host": "網域 {domain_index} 沒有設定網域或伺服器 IP 位址，請修改擴充設定。",
                     "empty_base_dn": "域 {domain_index} 未設定基本 DNS，請修改擴充設定。",
@@ -54,7 +55,7 @@
                         "host": "網域名稱或伺服器IP位址",
                         "host_help": "逗號分隔",
                         "base_dn": "基本 DNS",
-                        "base_dn_help": "以分號分隔",
+                        "base_dn_help": "",
                         "filter": "過濾器應用",
                         "filter_help": "可選，必須將“搜尋字段”排除在過濾器中。 例如，輸入過濾器為“(objectclass=user)”並在“搜尋欄位”中選擇“uid”會將過濾器修改為“(&(objectclass=user)(uid=[User's Input]))”",
                         "port": "Port",

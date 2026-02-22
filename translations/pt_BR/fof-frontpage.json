@@ -5,16 +5,25 @@
                 "front_button": "Página Inicial"
             },
             "badge": {
-                "frontpage_tooltip": "Marcado como Página Inicial"
+                "frontpage_tooltip": ""
             },
             "post_controls": {
-                "push_to_front_button": "Enviar para Página Inicial",
-                "pull_from_front_button": "Remover da Página Inicial"
+                "push_to_front_button": "",
+                "pull_from_front_button": ""
             }
-        },
+        }
+    },
+    "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": "Pode enviar para Página Inicial"
+                "can_push_to_frontpage_label": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "frontpage": {
+                    "key": ""
+                }
             }
         }
     }

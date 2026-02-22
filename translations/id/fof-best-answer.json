@@ -11,7 +11,6 @@
                     "tags": "Tag Best Answer",
                     "general": "Umum",
                     "reminders": "Pengingat",
-                    "search": "Pencarian",
                     "advanced": "Tingkat lanjut",
                     "reminders_notice": "Agar pengingat dapat berfungsi, Anda harus mengatur Flarum scheduler dengan benar."
                 },
@@ -36,19 +35,8 @@
                 "remind_tags_label": "Tag Pengingat",
                 "remind_tags_help": "Pilih tag mana, jika ada, untuk mengirim pengingat. Pengingat hanya akan dikirim untuk diskusi dengan tag ini.",
                 "tags_info": "Ketika sebuah tag diaktifkan sebagai “Best Answer”, berikan izin kepada setiap grup pengguna yang dapat menetapkan jawaban (diskusi sendiri, diskusi apa pun). Izin dapat diberikan secara global (untuk semua tag yang diaktifkan sebagai “Best Answer”) atau secara per tag.\n",
-                "solution_search": "Pencarian solusi",
-                "solution_search_help": "Mengaktifkan kemampuan untuk mencari diskusi dengan Best Answers",
-                "remove_solutions_from_main_search": "Menghapus solusi dari pencarian utama",
-                "remove_solutions_from_main_search_help": "Menghapus diskusi dengan Jawaban Terbaik dari hasil pencarian utama 'semua diskusi'",
-                "display_tags": "Menampilkan tag dalam hasil pencarian",
-                "display_tags_help": "Menampilkan tag dalam hasil pencarian untuk diskusi dengan Jawaban Terbaik",
                 "discussion_sidebar_jump_button": "Tampilkan tombol lompat ke Jawaban Terbaik di sidebar diskusi",
-                "discussion_sidebar_jump_button_help": "Menambahkan tombol ke sidebar diskusi yang akan langsung menuju ke Jawaban Terbaik dalam aliran postingan.",
-                "allow_select_own_post": "Pilih postingan sendiri",
-                "allow_select_own_post_help": "Mengizinkan pengguna untuk memilih postingan mereka sendiri sebagai jawaban terbaik untuk sebuah diskusi",
-                "enable_all_tags_button": "Aktifkan semua tag untuk Jawaban Terbaik",
-                "enable_all_tags_reminder_button": "Aktifkan semua tag untuk pengingat Jawaban Terbaik",
-                "introduction": "Aktifkan tag mana yang akan mendukung Best Answers di <code><a>flarum/tags</a></code>, dan secara opsional tag mana yang akan mendukung pengingat. Ketika sebuah tag diaktifkan oleh Best Answer, aturlah perizinan untuk setiap grup pengguna yang dapat mengatur jawaban (diskusi sendiri, diskusi apa pun). Perizinan dapat diatur secara global (untuk setiap tag Best Answer yang diaktifkan), atau per tag.\n"
+                "discussion_sidebar_jump_button_help": "Menambahkan tombol ke sidebar diskusi yang akan langsung menuju ke Jawaban Terbaik dalam aliran postingan."
             },
             "edit_tag": {
                 "qna_label": "Aktifkan Best Answers untuk diatur dalam tag ini",
@@ -92,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count, plural, one { {count} jawaban terbaik} other {{count} jawaban terbaik}}"
             },
-            "search": {
-                "discussions_solutions_heading": "Diskusi dengan solusi",
-                "all_discussions_solutions_button": "Cari semua diskusi dengan solusi untuk “{query}”"
-            },
             "discussion": {
                 "jump_to_best_answer_button": "Lihat Jawaban Terbaik"
             }
@@ -110,6 +94,13 @@
                 "awarded": "Hai {recipient_display_name},\n\nKerja bagus, {actor_display_name} baru saja menetapkan postingan Anda sebagai jawaban terbaik dalam diskusi: {discussion_title}. Terima kasih telah membantu.\n\nLihat di sini: {discussion_url}\n",
                 "ba-set": "Hai {recipient_display_name},\n\n{actor_display_name} baru saja menetapkan jawaban terbaik dalam diskusi: {discussion_title}, yang Anda ikuti.\n\nLihatlah: {discussion_url}\n",
                 "select": "Hai {recipient_display_name},\n\nHanya ingin memastikan; saat ini Anda seharusnya sudah mendapatkan banyak balasan atas pertanyaan Anda: {discussion_title}. Semoga salah satu dari mereka telah membantu Anda memecahkan masalah Anda.\n\nJika demikian, akan sangat membantu bagi anggota lain di masa mendatang jika Anda dapat menetapkan jawaban terbaik untuk pertanyaan Anda. Ini akan membantu orang-orang dengan masalah yang sama untuk menemukan jawaban yang mereka butuhkan, dan juga sebagai ucapan terima kasih yang sebesar-besarnya kepada anggota yang telah membantu Anda. Mereka memberikan waktu mereka secara sukarela, jadi sangat menyenangkan untuk memberi tahu mereka bahwa mereka melakukannya dengan baik.\n\nKunjungi diskusi di sini: {discussion_url}, dan pilih postingan yang paling tepat sebagai jawaban terbaik.\n\nTerima kasih!\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

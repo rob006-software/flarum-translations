@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "تعديل العلامات لـ {title}",
-                "title": "اختر قسم لموضوعك",
-                "bypass_requirements": "السّماح بتجاوز العلامة",
-                "choose_primary_placeholder": "{count, plural, one {تمّ اختيار علامة أساسيّة} other {تمّ اختيار # من العلامات الأساسيّة}}",
-                "choose_secondary_placeholder": "{count, plural, one {اختر علامة أساسية إضافيّة} other {اختر # من العلامات الأساسيّة}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "اختر قسم لموضوعك"
             },
             "composer_discussion": {
                 "choose_tags_link": "اختر قسم"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "تم الحذف",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "تجاوز متطلبات العلامات",
                 "choose_primary_placeholder": "{count, plural, one {اختر قسم} other {اختر # اقسام}}",
@@ -102,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {اختر علامة واحدة أخرى} other {اختر # علامات أخرى}}",
             "name": "الاسم",
             "tags": "الأقسام"
-        },
-        "validation": {
-            "attributes": {
-                "name": "الاسم",
-                "slug": "",
-                "is_hidden": "مخفي",
-                "description": "الوصف",
-                "color": "اللون",
-                "tag_count_primary": "عدد الأقسام الرئيسية",
-                "tag_count_secondary": "عدد الأقسام الثانوية"
-            }
         }
     }
 }

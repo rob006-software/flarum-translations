@@ -6,6 +6,46 @@
             },
             "settings": {
                 "button": "Beállítások",
+                "content-filter": {
+                    "heading": "",
+                    "introduction": "",
+                    "enabled_label": "",
+                    "enabled_help": "",
+                    "user_targeting_heading": "",
+                    "monitor_post_count_label": "",
+                    "monitor_post_count_help": "",
+                    "monitor_hours_old_label": "",
+                    "monitor_hours_old_help": "",
+                    "detectors_heading": "",
+                    "detect_phones_label": "",
+                    "detect_phones_help": "",
+                    "detect_emails_label": "",
+                    "detect_emails_help": "",
+                    "detect_urls_label": "",
+                    "detect_urls_help": "",
+                    "thresholds_heading": "",
+                    "flag_threshold_label": "",
+                    "flag_threshold_help": "",
+                    "spam_threshold_label": "",
+                    "spam_threshold_help": "",
+                    "actions_heading": "",
+                    "auto_unapprove_label": "",
+                    "auto_unapprove_help": "",
+                    "auto_flag_label": "",
+                    "auto_flag_help": "",
+                    "system_user_id_label": "",
+                    "system_user_id_help": "",
+                    "no_action_extensions": "",
+                    "allowlist_heading": "",
+                    "allowed_domains_label": "",
+                    "allowed_domains_help": "",
+                    "blocked_words_heading": "",
+                    "blocked_words_label": "",
+                    "blocked_words_help": "",
+                    "advanced_patterns_heading": "",
+                    "advanced_block_patterns_label": "",
+                    "advanced_block_patterns_help": ""
+                },
                 "default-actions": {
                     "delete_user_label": "Felhasználó törlése",
                     "delete_user_help": "Ez végleg törli a felhasználót. Ha ki van kapcsolva, akkor a felhasználó fel lesz függesztve.",
@@ -37,11 +77,12 @@
                     "confidence_help": "A megbízhatósági pontszám meglehetősen jó mérőszáma annak, hogy a tesztelt mező kéretlen tevékenységet eredményezne. Százalékként állítsa be. Ha a mező ennél az értéknél nagyobb, vagy vele egyenlő, akkor a regisztráció meg lesz akadályozva, függetlenül a fenti „gyakorisági” teszttől.",
                     "email_hash_label": "Az e-mail-cím ujjlenyomatának használata",
                     "email_hash_help": "Az e-mail-cím MD5 ujjlenyomatának átadása, ha nem akarja magát az e-mail-címet átadni. Ez a módszer megkerüli az összes feketelistázást, normalizálási és obfuszkációmegkerülési ellenőrzést.",
+                    "block_tor_exit_nodes_label": "",
+                    "block_tor_exit_nodes_help": "",
                     "sfs_lookup_label": "Regisztrációk megkeresése",
                     "sfs_lookup_help": "Ha engedélyezve van, akkor regisztrációkor megkeresésre kerül a felhasználó a StopForumSpam adatbázisában. Ha a felhasználó megtalálható (felhasználónév, IP-cím vagy e-mail alapján), akkor ezek az adatpontok engedélyezve lesznek, és ha elérik a megadott SFS megbízhatósági szintet, akkor nem fogják tudni elvégezni a regisztrációt.",
                     "report_blocked_registrations_label": "Megakadályozott regisztrációk jelentése",
-                    "report_blocked_registrations_help": "Ha a Regisztrációk megkeresése funkció megakadályoz egy felhasználót a regisztrációban, akkor a próbálkozás jelentésre kerül a StopForumSpam számára, így a kéretlen tartalmat küldő tevékenysége jobban megerősíthető. Ehhez a StopForumSpam API-kulcsának beállítása szükséges (lásd alább).",
-                    "heading": "StopForumSpam"
+                    "report_blocked_registrations_help": "Ha a Regisztrációk megkeresése funkció megakadályoz egy felhasználót a regisztrációban, akkor a próbálkozás jelentésre kerül a StopForumSpam számára, így a kéretlen tartalmat küldő tevékenysége jobban megerősíthető. Ehhez a StopForumSpam API-kulcsának beállítása szükséges (lásd alább)."
                 }
             },
             "blocked_registrations": {
@@ -60,6 +101,9 @@
             }
         },
         "forum": {
+            "post": {
+                "flagged_as_spam_text": ""
+            },
             "message": {
                 "stopforumspam": {
                     "blocked": "A regisztráció részletei megtalálhatók a kéretlen tartalmakat megelőző adatbázisban, így a regisztráció meg lett akadályozva."

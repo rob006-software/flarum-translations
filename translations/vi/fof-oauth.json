@@ -108,7 +108,8 @@
             "unlink": "Xoá liên kết",
             "error": {
                 "bad_verification_code": "Mã thông báo xác minh không hợp lệ hoặc đã hết hạn. Vui lòng thử lại.",
-                "invalid_state": "State không hợp lệ. Vui lòng thử lại."
+                "invalid_state": "State không hợp lệ. Vui lòng thử lại.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

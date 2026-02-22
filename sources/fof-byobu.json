@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Private Discussion] {display_name} added you to a private discussion"
             },
             "body": {
-                "private_discussion_created": "Hey {recipient_display_name},\n\n{actor_display_name} started a new private discussion with you as a recipient: {discussion_title}.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
-                "private_discussion_replied": "Hey {recipient_display_name},\n\n{actor_display_name} posted in a private discussion with you as a recipient: {discussion_title}.\n\nView it here:\n{post_url}\n\nYou may need to login first before being able to access this link.\n",
-                "recipient_removed": "Hey {recipient_display_name},\n\n{actor_display_name} left the private discussion: {discussion_title}. They'll no longer be able to view any of it's content.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
-                "private_discussion_added": "Hey {recipient_display_name},\n\n{actor_display_name} added you to an existing private discussion: {discussion_title}.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n"
+                "private_discussion_created": "{actor_display_name} started a new private discussion with you as a recipient: {discussion_title}.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
+                "private_discussion_replied": "{actor_display_name} posted in a private discussion with you as a recipient: {discussion_title}.\n\nView it here:\n{post_url}\n\nYou may need to login first before being able to access this link.\n",
+                "recipient_removed": "{actor_display_name} left the private discussion: {discussion_title}. They'll no longer be able to view any of it's content.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
+                "private_discussion_added": "{actor_display_name} added you to an existing private discussion: {discussion_title}.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
+                "made_public": "{actor_display_name} removed all recipients and made the discussion public: {discussion_title}.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": "byobu"
+                },
+                "private": {
+                    "key": "private"
+                },
+                "allows-pd": {
+                    "key": "allows-pd"
+                }
             }
         }
     }

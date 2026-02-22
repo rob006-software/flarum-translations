@@ -19,12 +19,14 @@
                     "extension_settings_button": "Настройки ОРЗД (GDPR)"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Табличные данные пользователя",
                     "help_text": "По большей части все столбцы, добавленные в таблицу <code>пользователь</code> , обрабатываются автоматически - для экспорта данных и для удаления.\nТем не менее, есть несколько особых случаев, перечисленных далее.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "Интеграции ОРЗД (GDPR)"
+                "gdpr_button": "Интеграции ОРЗД (GDPR)",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Обработать запросы на удаление",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": ""
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }

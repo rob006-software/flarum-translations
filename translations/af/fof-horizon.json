@@ -23,6 +23,11 @@
                 "full_dashboard": "Pannello di controllo di Horizon",
                 "refresh": "Aggiorna",
                 "last_refresh": "",
+                "error": {
+                    "title": "",
+                    "fetch_failed": "",
+                    "setup_docs": ""
+                },
                 "health": {
                     "excellent": "",
                     "good": "",
@@ -30,16 +35,11 @@
                     "critical": "",
                     "tooltip": ""
                 },
-                "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
-                },
                 "data": {
                     "redis-used-memory": "Memoria usata da Redis",
-                    "redis-memory-usage": "",
                     "redis-peak-memory": "Memoria usata di picco da Redis",
                     "redis-max-memory": "Memoria massima di Redis",
+                    "redis-memory-usage": "",
                     "redis-memory-policy": "Politica della memoria di Redis",
                     "redis-memory-policy-tooltip": "La politica di memoria è il modo in cui Redis selezionerà cosa rimuovere quando viene\nraggiunto il limite massimo di memoria. Il valore predefinito è `noeviction`: i nuovi valori\nnon vengono salvati quando viene raggiunto il limite di memoria. Fai clic per visualizzare la documentazione.\n",
                     "redis-ops-per-sec": "",
@@ -59,9 +59,7 @@
                     "max-runtime": "Tempo di esecuzione max",
                     "max-throughput": "Performance max",
                     "success-rate": "",
-                    "failure-rate": "",
-                    "redis-cpu-user": "Utente CPU Redis",
-                    "redis-cpu-sys": "Sys CPU Redis"
+                    "failure-rate": ""
                 }
             }
         }

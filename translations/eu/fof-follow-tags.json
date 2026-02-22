@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "[Tag | Eztabaida berria] {title}",
-                "newPostInTag": "[Tag | Post Berria] {title}",
-                "newDiscussionTag": "[Tag | Tag aldatua] {title}"
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "Aupa {recipient_display_name},\n\n{actor_display_name} eztabaida berraia sortu du jarraitzena ari duzun tag batean: {discussion_title}\n\nEztabaida berria ikusteko jarraitu link hau:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "Aupa {recipient_display_name},\n\n{actor_display_name} posted posteatu du jarraitzen ari zaren tag bateko eztabaida batean: {discussion_title}\n\nAktibitate berria ikusteko, jarraitu hurrengo linka:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nEz dituzu eztabaida honetako berrirk izango egunera egon arte.\n",
-                "newDiscussionTag": "Aupa {recipient_display_name},\n\n{actor_display_name} aldatu du {author_display_name} jarraitzen ari duzun batera {discussion_title} eztabaidan\n\nEztabaida berri bat ikusteko, jarraitu linka:\n{discussion_url}\n"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {

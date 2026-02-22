@@ -6,6 +6,46 @@
             },
             "settings": {
                 "button": "Einstellungen",
+                "content-filter": {
+                    "heading": "",
+                    "introduction": "",
+                    "enabled_label": "",
+                    "enabled_help": "",
+                    "user_targeting_heading": "",
+                    "monitor_post_count_label": "",
+                    "monitor_post_count_help": "",
+                    "monitor_hours_old_label": "",
+                    "monitor_hours_old_help": "",
+                    "detectors_heading": "",
+                    "detect_phones_label": "",
+                    "detect_phones_help": "",
+                    "detect_emails_label": "",
+                    "detect_emails_help": "",
+                    "detect_urls_label": "",
+                    "detect_urls_help": "",
+                    "thresholds_heading": "",
+                    "flag_threshold_label": "",
+                    "flag_threshold_help": "",
+                    "spam_threshold_label": "",
+                    "spam_threshold_help": "",
+                    "actions_heading": "",
+                    "auto_unapprove_label": "",
+                    "auto_unapprove_help": "",
+                    "auto_flag_label": "",
+                    "auto_flag_help": "",
+                    "system_user_id_label": "",
+                    "system_user_id_help": "",
+                    "no_action_extensions": "",
+                    "allowlist_heading": "",
+                    "allowed_domains_label": "",
+                    "allowed_domains_help": "",
+                    "blocked_words_heading": "",
+                    "blocked_words_label": "",
+                    "blocked_words_help": "",
+                    "advanced_patterns_heading": "",
+                    "advanced_block_patterns_label": "",
+                    "advanced_block_patterns_help": ""
+                },
                 "default-actions": {
                     "delete_user_label": "Benutzer löschen",
                     "delete_user_help": "Dadurch wird der Benutzer endgültig gelöscht. Wenn deaktiviert, wird der Benutzer stattdessen gesperrt.",
@@ -37,11 +77,12 @@
                     "confidence_help": "Der Konfidenzwert ist ein recht guter Indikator dafür, dass das untersuchte Feld zu unerwünschten Aktivitäten führen würde. Lege den Konfidenz-Schwellwert als Prozentwert fest. Wenn das Feld gleich oder über diesem Wert liegt, wird die Registrierung blockiert, unabhängig vom „Frequenz“-Test weiter oben.",
                     "email_hash_label": "Gehashte E-Mail-Adresse verwenden",
                     "email_hash_help": "Es wird ein MD5-Hash der E-Mail-Adresse weiter gegeben, wenn du nicht die E-Mail-Adresse weitergeben möchtest. Diese Methode umgeht alle Tests auf Blockierlisten, Normalisierung und Verschleierungsprüfungen.",
+                    "block_tor_exit_nodes_label": "",
+                    "block_tor_exit_nodes_help": "",
                     "sfs_lookup_label": "Registrierungen überprüfen",
                     "sfs_lookup_help": "Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.",
                     "report_blocked_registrations_label": "Melde blockierte Registrierungen",
-                    "report_blocked_registrations_help": "Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten).",
-                    "heading": "StopForumSpam"
+                    "report_blocked_registrations_help": "Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten)."
                 }
             },
             "blocked_registrations": {
@@ -60,6 +101,9 @@
             }
         },
         "forum": {
+            "post": {
+                "flagged_as_spam_text": ""
+            },
             "message": {
                 "stopforumspam": {
                     "blocked": "Details deiner Registrierung wurden ein einer Datenbank zur Spamvermeidung gefunden, daher haben wir deine Registrierung abgelehnt."

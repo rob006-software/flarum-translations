@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Reakciók",
                 "anonymous_count": "{count} névtelen felhasználó",
-                "no_reactions": "Még nincsenek reakciók"
+                "no_reactions": "Még nincsenek reakciók",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Reakciók megtekintése",
-            "react_button_label": "Reagálás"
+            "react_button_label": "Reagálás",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Megjelenítés",
                         "identifier": "Azonosító"
                     },
-                    "delete_confirmation": "Biztos, hogy törli ezt a reakciót? Ez a művelet nem vonható vissza."
+                    "delete_confirmation": "Biztos, hogy törli ezt a reakciót? Ez a művelet nem vonható vissza.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Ha most frissítette a bővítményt, akkor a át kell alakítani a reakcióit. Ha most telepítette a bővítményt, akkor biztonságosan figyelmen kívül hagyhatja ezt az üzenetet.",

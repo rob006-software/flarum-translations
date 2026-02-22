@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "彩色导航栏",
                 "colors_heading": "颜色",
                 "colors_primary_label": "主色调",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "自定义 LESS 不支持使用 @import 与 data-uri 特性。",
                 "custom_styles_heading": "自定义样式",
                 "custom_styles_text": "添加 Less/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum 默认样式。",
-                "dark_mode_label": "夜间模式",
                 "description": "自定义论坛配色、图标以及其他元素",
                 "edit_css_button": "编辑自定义 CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "上传图片做为论坛的站点图标，该图标会显示在浏览器标签页、搜索引擎结果条目及书签等多个地方。",
                 "logo_heading": "标志",
                 "logo_text": "上传图片代替论坛名称，并展示在导航栏左侧。",
-                "title": "外观"
+                "title": "外观",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "默认语言",
                 "description": "设置论坛名称、语言以及其他基础设置",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "用户外显名称",
                 "display_name_text": "选择外显名称的类型，默认为用户名。",
                 "forum_description_heading": "论坛描述",
@@ -38,6 +133,16 @@
                 "home_page_heading": "论坛首页",
                 "home_page_text": "选择一种页面作为论坛首页。",
                 "show_language_selector_label": "显示语言选择器",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "固定链接驱动：{model}",
                 "slug_driver_text": "选择此模块的 URL 驱动。",
                 "title": "常规",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "仪表盘",
+                "toggle_advanced_page_button": "",
                 "tools_button": "工具"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "配置论坛邮件服务",
                 "driver_heading": "驱动",
                 "driver_label": "邮件驱动",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "发件地址",
                 "mail_encryption_label": "加密协议（小写 ssl 或 tls）",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "主机",
                 "mail_mailgun_domain_label": "域名",
                 "mail_mailgun_region_label": "区域",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "测试邮件发送成功！",
                 "send_test_mail_text": "使用上述设置发送测试邮件到您的邮箱：{email}",
                 "smtp_heading": "SMTP 设置",
+                "smtp_description": "",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "此扩展程序已被{replacement}替换。考虑迁移到替换包。",
                 "configure_scopes": "设置范围",
                 "confirm_purge": "重置操作会清除数据库中所有该扩展相关的记录和资源。如要卸载扩展，请通过 Composer 操作。确定要重置扩展吗？",
+                "database_driver_mismatch": "",
                 "deprecated": "已弃用",
                 "disabled": "关闭",
                 "enable_to_see": "开启扩展程序以查看或修改设置。",
@@ -163,17 +281,25 @@
                     "title": "{extName} 文档"
                 },
                 "replaced": "替换",
-                "confirm_uninstall": "此扩展的的数据库条目和文件资源都将被永久性删除，确定要继续吗？",
-                "uninstall_button": "卸载"
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "帮助",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "请稍后……"
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -222,6 +348,7 @@
                 "post_without_throttle_label": "发帖频率无限制",
                 "read_heading": "访问相关",
                 "remove_scope_label": "移除{scope}的作用域",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "更改主题标题",
                 "reply_to_discussions_label": "回复",
                 "search_users_label": "=> core.ref.search_users",
@@ -244,8 +371,14 @@
                 "signup_closed_button": "关闭注册",
                 "signup_open_button": "开放注册"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "您的修改已保存。",
+                "select_dropdown_custom_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -260,11 +393,6 @@
                         "display_name": {
                             "title": "外显昵称"
                         },
-                        "edit_user": {
-                            "button": "=> core.ref.edit",
-                            "tooltip": "编辑 {username}",
-                            "title": "=> core.ref.edit_user"
-                        },
                         "email": {
                             "title": "=> core.ref.email",
                             "visibility_hide": "隐藏邮箱地址",
@@ -278,7 +406,11 @@
                             "title": "注册时间"
                         },
                         "user_actions": {
-                            "title": "操作"
+                            "title": "操作",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "ID"
@@ -289,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "非法"
-                },
-                "pagination": {
-                    "back_button": "上一页",
-                    "first_button": "返回首页",
-                    "go_to_page_textbox_a11y_label": "翻页到页码",
-                    "last_button": "前往最后一页",
-                    "next_button": "下一页",
-                    "page_counter": "第 {current} 页 / 共 {total} 页"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
@@ -361,10 +485,10 @@
                 "empty_text": "这里空空如也...",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} 回复于 {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} 发布于 {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# 条回复} other {# 条回复}}",
-                "unread_replies_a11y_label": "{count, plural, one {# 条未读} other {# 条未读}}，全部标记为已读。",
-                "mark_as_read_tooltip": "标记为已读"
+                "unread_replies_a11y_label": "{count, plural, one {# 条未读} other {# 条未读}}，全部标记为已读。"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -382,7 +506,6 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "个人主页",
-                "search_clear_button_accessible_label": "清空搜索",
                 "search_placeholder": "搜索",
                 "search_role_label": "搜索论坛",
                 "session_dropdown_accessible_label": "会话下拉菜单开关",
@@ -395,30 +518,31 @@
                 "mark_all_as_read_confirmation": "确定要标记所有帖子为已读吗？",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "刷新",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "导航栏下拉菜单开关"
             },
             "index_sort": {
                 "latest_button": "最新回复",
-                "newest_button": "新鲜出炉",
-                "oldest_button": "陈年旧贴",
-                "relevance_button": "相关推荐",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "更改「全部主题」排序",
                 "top_button": "热门主题"
             },
             "log_in": {
                 "forgot_password_link": "忘记密码？",
-                "invalid_login_message": "登录信息有误",
+                "invalid_login_message": "",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "记住我的登录状态",
+                "remember_me_label": "",
                 "sign_up_text": "还没有帐户？ <a>立即注册</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "用户名或邮箱"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
-                "delete_all_confirm": "确定要删除所有通知吗？此操作不可撤销",
+                "delete_all_confirm": "",
                 "delete_all_tooltip": "删除所有通知",
                 "discussion_renamed_text": "{username} 更改了标题",
                 "empty_text": "没有新通知",
@@ -442,6 +566,11 @@
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "帖子下拉菜单开关"
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "最新回复",
                 "original_post_link": "最早内容",
@@ -455,14 +584,18 @@
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} 后"
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
                 "title": "更改主题标题"
-            },
-            "search": {
-                "all_discussions_button": "搜索“{query}”",
-                "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "{browser}（{os} 平台）",
@@ -503,6 +636,14 @@
                 "account_heading": "帐户设置",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "通过 {method} 接收「{description}」通知",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
@@ -584,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "检测到循环依赖关系：{extensions}。正在中止操作。请禁用其中一个扩展，然后重试。",
+                "db_error_message": "",
                 "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
                 "extension_initialiation_failed_message": "初始化「{extension}」失败，详情信息请查看控制台。",
+                "extension_runtime_failed_message": "",
                 "generic_message": "糟糕，出错啦！请刷新页面重试。",
                 "generic_cross_origin_message": "跨域请求时出现问题，请刷新页面后重试。",
                 "missing_dependencies_message": "无法启用「{extension}」，请先启用依赖扩展「{extensions}」",
@@ -594,6 +737,48 @@
                 "permission_denied_message": "您没有权限进行此操作。",
                 "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。",
                 "render_failed_message": "抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看论坛日志文件查看详情。"
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -605,25 +790,75 @@
             "modal": {
                 "close": "关闭"
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": "打开导航抽屉"
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "千",
                 "mega_text": "百万"
             },
-            "datetime_formats": {
-                "humanTimeShort": "MMMD日",
-                "humanTimeLong": "ll",
-                "scrubber": "YYYY年MMM"
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": "， ",
                 "three_text": "{first}、{second} 与 {third}",
                 "two_text": "{first} 和 {second}"
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": "[已注销]"
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "MMMD日",
+                "humanTimeLong": "ll",
+                "scrubber": "YYYY年MMM",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -660,6 +895,9 @@
                 "csrf_token_mismatch": "您已经发呆很长时间了。",
                 "csrf_token_mismatch_return_link": "请返回再试一次",
                 "invalid_confirmation_token": "验证链接已使用或无效。",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "您没有权限访问此页面，请登录后再试。",
                 "not_found": "您访问的页面不存在。",
                 "not_found_return_link": "返回 {forum}",
@@ -671,10 +909,21 @@
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "确定要退出登录 {forum}?",
                 "title": "=> core.ref.log_out"
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
+                "title": ""
             },
             "reset_password": {
                 "confirm_password_label": "=> core.ref.confirm_password",
@@ -682,13 +931,18 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
             },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} - 第 # 页 - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {第 # 页 - {forumName}}}"
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
-            "invalid_username_message": "用户名只能由字母、数字及连字符 (-) 组成",
+            "invalid_username_message": "",
             "invalid_filter_type": {
                 "must_be_numeric_message": "{filter} 查询条件必须是数值。",
                 "must_not_be_array_message": "{filter} 查询条件不能是数组。",
@@ -696,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "账号激活",
-                "body": "{username}，您好！\n\n您刚刚注册了 {forum}。\n\n若是您本人所为，请点击下方链接激活账号：\n{url}\n\n若非您本人注册，请忽略此邮件。\n"
+                "body": ""
             },
             "confirm_email": {
                 "subject": "确认邮箱地址",
-                "body": "{username}，您好!\n\n您更改了 {forum} 的账号邮箱。\n\n若是您本人所为，请点击下方链接确认更改：\n{url}\n\n若非您本人操作，请忽略这封邮件。\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "{username}，您好！\n\n您请求重置 {forum} 的密码。\n\n若是您本人所为，请点击下方链接重置密码：\n{url}\n\n如非您本人操作，请忽略这封邮件，我们不会受理重置操作。\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "Flarum 邮件测试",
-                "body": "{username}，恭喜您！\n\n您的论坛邮箱服务可用。\n\n本邮件用于测试邮箱服务配置是否正确。\n\n若非本人发送测试邮件，请忽略。\n"
+                "body": ""
             }
         },
         "ref": {
@@ -725,6 +997,8 @@
             "custom_footer_title": "编辑自定义页脚",
             "custom_header_text": "添加显示于页面顶部、位于 Flarum 默认页眉上方的 HTML 代码。",
             "custom_header_title": "编辑自定义页眉",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "删除",
             "delete_forever": "永久删除",
             "discussions": "主题",
@@ -735,6 +1009,9 @@
             "generic_confirmation_message": "此操作无法撤销，确定要继续吗？",
             "icon": "图标",
             "icon_text": "输入任意一个 <a>Font Awesome</a> 图标名称。<em>包括</em>前缀，例如 <code>fas fa-</code>",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "加载更多",
             "loading": "正在加载…",
             "log_in": "登录",
@@ -742,15 +1019,20 @@
             "mark_all_as_read": "全部已读",
             "never": "无",
             "new_token": "创建令牌",
+            "newest": "",
             "next_page": "下一页",
             "notifications": "通知中心",
             "okay": "确定",
+            "oldest": "",
             "password": "密码",
             "posts": "回复",
             "previous_page": "上一页",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "移除",
             "rename": "重命名",
             "reply": "回复",
+            "refresh": "",
             "reset_your_password": "重置密码",
             "restore": "还原",
             "save_changes": "保存",
@@ -761,6 +1043,7 @@
             "some_others": "{count, plural, one {# 人} other {# 人}}",
             "start_a_discussion": "发布主题",
             "username": "用户名",
+            "username_or_email_placeholder": "",
             "users": "用户",
             "view": "查看",
             "write_a_reply": "说点什么吧...",

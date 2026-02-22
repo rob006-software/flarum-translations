@@ -23,6 +23,11 @@
                 "full_dashboard": "Horizon 面板",
                 "refresh": "刷新",
                 "last_refresh": "",
+                "error": {
+                    "title": "",
+                    "fetch_failed": "",
+                    "setup_docs": ""
+                },
                 "health": {
                     "excellent": "",
                     "good": "",
@@ -30,16 +35,11 @@
                     "critical": "",
                     "tooltip": ""
                 },
-                "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
-                },
                 "data": {
                     "redis-used-memory": "Redis 已用内存",
-                    "redis-memory-usage": "",
                     "redis-peak-memory": "Redis 峰值内存",
                     "redis-max-memory": "Redis 最大内存",
+                    "redis-memory-usage": "",
                     "redis-memory-policy": "Redis 内存策略",
                     "redis-memory-policy-tooltip": "内存策略是指 Redis 在达到最大内存限制时应当选择哪些数据来移除。\n默认为 `noeviction`：内存使用达到上限时不再保存新的数据。\n点击查看文档。\n",
                     "redis-ops-per-sec": "",
@@ -59,9 +59,7 @@
                     "max-runtime": "最长执行时间",
                     "max-throughput": "最大吞吐量",
                     "success-rate": "",
-                    "failure-rate": "",
-                    "redis-cpu-user": "Redis CPU 用户态消耗",
-                    "redis-cpu-sys": "Redis CPU 主进程消耗"
+                    "failure-rate": ""
                 }
             }
         }

@@ -2,28 +2,26 @@
     "fof-prevent-necrobumping": {
         "forum": {
             "composer": {
-                "warning": {
-                    "title": "Tämä keskustelu on yli <b>{time}</b> vanha.",
-                    "description": "On todennäköistä, että tämä aihe on käsitelty jo ja ei tarvitse enää lisää keskustelua joten aiheen nostaminen on turhaa.",
-                    "cta": "Haluaisitko aloittaa uuden keskustelun?",
-                    "cta_button": "=> core.ref.start_a_discussion",
-                    "checkbox_label": "Ymmärrän, että keskustelu on suhteellisen vanha, mutta haluan silti vastata.",
-                    "error": "Tämä keskustelu on liian vanha uusille vastauksille."
-                }
+                "inactive_discussion_alert": {
+                    "title": "",
+                    "description": "",
+                    "cta": "",
+                    "cta_button": "",
+                    "confirmation": ""
+                },
+                "error": ""
             }
         },
         "admin": {
             "settings": {
-                "show_discussion_cta_label": "Näytä CTA",
-                "show_discussion_cta_help": "Näytä toimintakehotus vastattaessa keskusteluun, joka on vanhempi kuin määritelty määrä päiviä, eikä siihen ole asetettu mukautettua kuvausta.",
-                "days_label": "Päivät",
-                "days_help": "Keskustelu merkitään vanhaksi kun valittu määrä päiviä on mennyt viimeisimmästä viestistä keskusteluun. Käytä arvoa <code>0</code> ottaaksesi tämän pois käytöstä oletuksena.",
-                "message_title_label": "Muokattu viestin otsikko",
-                "message_title_help": "Käytä <code>[time]</code> ajan määreeksi, esim. \"14 päivää\".",
-                "message_description_label": "Muokatun viestin kuvaus",
-                "message_agreement_label": "Muokatun viestin hyväksyntä (valintalaatikko)",
-                "tags_title": "Avainsanat",
-                "tags_help": "Ohita yleinen määritys päivien määrästä tietylle avainsanalla. Tyhjä arvo tarkoittaa, että käytetään oletusarvoa. Jos keskustelulla on useampi avainsana eri päivä arvoilla, käytetään pienintä määritettyä päivä arvoa."
+                "general_heading": "",
+                "days_label": "",
+                "days_help": "",
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
+                "tags_title": "",
+                "tags_help": "",
+                "tags_placeholder": ""
             }
         }
     }

@@ -1,13 +1,42 @@
 {
     "acpl-mobile-tab": {
-        "forum": {
-            "home": "首頁",
-            "all_discussions": "討論",
-            "tags": "標籤",
-            "categories": "類別",
-            "notifications": "通知",
-            "log_in": "登入",
-            "profile": "簡介"
+        "admin": {
+            "available_items": "",
+            "active_items": "",
+            "create_new_item_button": "",
+            "edit_item": {
+                "modal_title": "",
+                "label": "",
+                "label_placeholder": "",
+                "path": "",
+                "url": "",
+                "icon": "",
+                "icon_help": "",
+                "is_internal_checkbox": "",
+                "open_new_tab_checkbox": "",
+                "submit_button": "",
+                "delete_button": "",
+                "delete_item_confirmation": ""
+            },
+            "scroll_settings": {
+                "toggle_label": "",
+                "threshold_label": "",
+                "threshold_help": ""
+            }
+        },
+        "lib": {
+            "item": {
+                "home": "",
+                "all_discussions": "",
+                "categories": "",
+                "notifications": "",
+                "session": "",
+                "search": "",
+                "log_in": "",
+                "profile": "",
+                "tags": "",
+                "messages": ""
+            }
         }
     }
 }

@@ -1,39 +1,25 @@
 {
     "datitisev-backup": {
         "admin": {
+            "settings": {
+                "database_bin_path_label": "(Optional) Path to database binaries",
+                "database_bin_path_help": "If your database binaries (e.g. mysqldump, pg_dump) are not in your system's PATH, you can specify the directory where they are located here. Make sure to include the trailing slash (e.g. <code>/usr/local/mysql/bin/</code>).\n"
+            },
             "adapters": {
                 "local": "Local storage",
                 "aliyun": "Alibaba Cloud (Aliyun)",
                 "azure": "Microsoft Azure",
                 "aws": "Amazon AWS S3",
-                "dospaces": "Digital Ocean Spaces",
                 "dropbox": "Dropbox",
                 "gdrive": "Google Drive",
                 "ftp": "FTP",
-                "gridfs": "GridFS",
-                "rackspace": "Rackspace",
-                "sftp": "SFTP",
-                "webdav": "Webdav",
-                "zip": "Zip Archive"
+                "sftp": "SFTP"
             },
             "settings_button": "Configure",
             "delete_button": "Delete",
             "delete_confirmation": "Are you sure you want to delete \"{name}\" ({adapter})?",
             "create_button": "Add new adapter",
             "required_package_button": "Set up",
-            "you-need-for": {
-                "aliyun": "aliyuncs/aliyun-oss-flysystem",
-                "azure": "league/flysystem-azure",
-                "aws": "league/flysystem-aws-s3-v3",
-                "copy": "league/flysystem-copy",
-                "dospaces": "league/flysystem-aws-s3-v3",
-                "dropbox": "spatie/flysystem-dropbox",
-                "gdrive": "nao-pon/flysystem-google-drive",
-                "gridfs": "league/flysystem-gridfs",
-                "rackspace": "league/flysystem-rackspace",
-                "sftp": "league/flysystem-sftp",
-                "webdav": "league/flysystem-webdav"
-            },
             "required-package-modal": {
                 "title": "A package is needed for {adapter}",
                 "content": "In order to use this driver you'll need to install a specific package. You can do so by running the following composer command: <code>composer require {package}</code> in your Flarum installation directory.\n"
@@ -41,6 +27,8 @@
             "adapter-settings-modal": {
                 "title": "Configure {adapter}",
                 "name_label": "Location Name",
+                "timestamp_label": "Filename Timestamp Format",
+                "timestamp_help": "Specify the format for timestamps in backup filenames. The default is <code>U</code> (Unix timestamp). Uses <a>PHP date formatting</a>. Unsafe filename characters will be sanitized. The filename will be in the format <code>{forum}-[formatted timestamp].zip</code>.\n",
                 "local": {
                     "target": {
                         "label": "Target path",
@@ -71,12 +59,16 @@
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "Endpoint",
-                        "description": "The URL to your storage endpoint."
+                        "label": "Connection String",
+                        "description": "The connection string for your Azure storage."
                     },
                     "container": {
                         "label": "Container",
                         "description": "Azure container"
+                    },
+                    "path-prefix": {
+                        "label": "Path prefix",
+                        "description": "Optional default path prefix for the files."
                     }
                 },
                 "aws": {
@@ -159,9 +151,9 @@
                         "label": "Password",
                         "description": "The user password to authenticate with on the FTP server."
                     },
-                    "private-key": {
-                        "label": "Private Key",
-                        "description": "Path (preferably absolute) to a private key to use when authenticating the FTP connection."
+                    "passive": {
+                        "toggle": "Passive mode",
+                        "description": "Whether to use passive mode for the FTP connection."
                     },
                     "port": {
                         "label": "Port",
@@ -171,10 +163,6 @@
                         "label": "Root path",
                         "description": "The remote root path (subdirectory) to store backups in."
                     },
-                    "passive": {
-                        "toggle": "Passive connection",
-                        "description": "Whether to use a passive FTP connection to the server."
-                    },
                     "ssl": {
                         "toggle": "SSL",
                         "description": "Whether to use an encrypted SSL connection to the server."
@@ -182,6 +170,29 @@
                     "timeout": {
                         "label": "Timeout",
                         "description": "The number of seconds to wait for a connection with the FTP server."
+                    }
+                },
+                "sftp": {
+                    "host": "=> datitisev-backup.admin.adapter-settings-modal.ftp.host",
+                    "username": "=> datitisev-backup.admin.adapter-settings-modal.ftp.username",
+                    "password": "=> datitisev-backup.admin.adapter-settings-modal.ftp.password",
+                    "root": "=> datitisev-backup.admin.adapter-settings-modal.ftp.root",
+                    "timeout": "=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout",
+                    "port": {
+                        "label": "Port",
+                        "description": "The SFTP port (defaults to 22)."
+                    },
+                    "private-key": {
+                        "label": "Private Key",
+                        "description": "Path (preferably absolute) to a private key to use when authenticating the SFTP connection."
+                    },
+                    "passphrase": {
+                        "label": "Passphrase",
+                        "description": "The passphrase for the private key, if applicable."
+                    },
+                    "use-agent": {
+                        "toggle": "Use agent",
+                        "description": "Whether to use the SSH agent to authenticate the connection (default false)."
                     }
                 }
             },

@@ -52,7 +52,12 @@
                 "debug_label": "Отладка",
                 "debug_help": "Добавление дополнительной информации в журналы Flarum для обнаружения и исправления проблем, связанных с webhook'ами и событиями.",
                 "item": {
-                    "tag_any_label": "Любой"
+                    "tag_any_label": "Любой",
+                    "edit_tooltip": "",
+                    "delete_tooltip": "",
+                    "delete_confirm_alert": "",
+                    "create_button": "",
+                    "edit_tags_button": ""
                 },
                 "help": {
                     "disabled": "Этот webhook выключен, так как для него отсутствуют активные события.",

@@ -108,7 +108,8 @@
             "unlink": "解除綁定",
             "error": {
                 "bad_verification_code": "無效或過期的驗證令牌，請重試。",
-                "invalid_state": "無效狀態，請重試。"
+                "invalid_state": "無效狀態，請重試。",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

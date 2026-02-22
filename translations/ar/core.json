@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "ترويسة ملونة",
                 "colors_heading": "الألوان",
                 "colors_primary_label": "اللّون الأوّلي",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "ميزة @import وdata-uri غير مسموح بهما في LESS المخصص.",
                 "custom_styles_heading": "استايلات مخصصة",
                 "custom_styles_text": "قم بتخصيص منتداك عن طريق اضافة ملفات CSS/LESS خاصة ليتم تطبيقها على استايل فلارم الافتراضى.",
-                "dark_mode_label": "الوضع المظلم",
                 "description": "قم بتخصيص ألوان المنتدى والشعارات والمتغيرات الأخرى الخاصة بالمنتدى.",
                 "edit_css_button": "تعديل css مخصص",
                 "edit_footer_button": "تحرير التّذييل المخصّص للصّفحة",
@@ -24,12 +108,23 @@
                 "favicon_text": "قم بتحميل صورة لعرضها كأيقونة اختصار للمنتدى.",
                 "logo_heading": "شعار",
                 "logo_text": "قم بتحميل صورة لعرضها مكان عنوان المنتدى.",
-                "title": "المظهر"
+                "title": "المظهر",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "الرئيسية",
                 "default_language_heading": "اللغة الافتراضية",
                 "description": "قم بتعيين عنوان المنتدى، اللّغة والإعدادات الأساسية الأخرى.",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "‏‏اسم العرض للمستخدم",
                 "display_name_text": "حدد برنامج التشغيل الذي يجب استخدامه لأسماء المعروضة للمستخدمين. يتم عرض اسم المستخدم بشكل افتراضي.",
                 "forum_description_heading": "وصف المنتدى",
@@ -38,6 +133,16 @@
                 "home_page_heading": "الصفحة الرئيسية",
                 "home_page_text": "اختر أوّل صفحة سيشاهدها المستخدمون عندما يزورون منتداك.",
                 "show_language_selector_label": "إظهار محدد اللّغة",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "",
                 "slug_driver_text": "حدد برنامج تشغيل لاستخدامه في تباطؤ هذا النموذج.",
                 "title": "الأساسيّات",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "لوحة المعلومات",
+                "toggle_advanced_page_button": "",
                 "tools_button": "أدوات"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "قم بتكوين برنامج التشغيل والإعدادات والعناوين التي سيستخدمها منتداك لإرسال البريد الإلكتروني.",
                 "driver_heading": "",
                 "driver_label": "",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "‏‏المرسل",
                 "mail_encryption_label": "التشفير",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "مضيف",
                 "mail_mailgun_domain_label": "‏‏مجال",
                 "mail_mailgun_region_label": "المنطقة",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "تمّ إرسال البريد الإلكتروني التّجريبي بنجاح !",
                 "send_test_mail_text": "سيؤدي هذا إلى إرسال بريد إلكتروني باستخدام التكوين أعلاه إلى بريدك الإلكتروني، {email}.",
                 "smtp_heading": "SMTP إعدادات",
+                "smtp_description": "",
                 "title": "البريد الإلكتروني"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "",
                 "configure_scopes": "تكوين النّطاقات",
                 "confirm_purge": "ستؤدّي عمليّة التّطهير إلى إزالة جميع إدخالات قاعدة البيانات والأصول المتعلّقة بالامتداد. لن يتم إلغاء تثبيت الامتداد؛ يجب أن يتم ذلك عبر كومبوسر. هل أنت متأكد أنك تريد الاستمرار؟",
+                "database_driver_mismatch": "",
                 "deprecated": "",
                 "disabled": "مُعطل",
                 "enable_to_see": "قم بتمكين الإضافة لعرض الإعدادات وتغييرها.",
@@ -162,16 +280,26 @@
                     "no_readme": "يبدو أن هذه الإضافة ليس لها ملفّ (اقرأني)",
                     "title": "مستندات {extName}"
                 },
-                "replaced": ""
+                "replaced": "",
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "احصل على المساعدة",
-                "log_out_button": "تسجيل خروج"
+                "log_out_button": "تسجيل خروج",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "أرجو الإنتظار..."
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "المظهر",
                 "appearance_title": "قم بتخصيص ألوان المنتدى والشعارات والمتغيرات الأخرى الخاصة بالمنتدى.",
                 "basics_button": "الأساسيّات",
@@ -220,6 +348,7 @@
                 "post_without_throttle_label": "الرّدّ عدّة مرّات دون انتظار",
                 "read_heading": "القراءة",
                 "remove_scope_label": "",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "إعادة تسمية المواضيع",
                 "reply_to_discussions_label": "الرد على المواضيع",
                 "search_users_label": "البحث في الأعضاء",
@@ -242,8 +371,14 @@
                 "signup_closed_button": "مُغلق",
                 "signup_open_button": "فتح"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "تم حفظ التغييرات الخاصة بك.",
+                "select_dropdown_custom_label": "",
                 "submit_button": "حفظ التغييرات"
             },
             "upload_image": {
@@ -256,11 +391,6 @@
                 "grid": {
                     "columns": {
                         "display_name": {
-                            "title": ""
-                        },
-                        "edit_user": {
-                            "button": "",
-                            "tooltip": "تعديل {username}",
                             "title": ""
                         },
                         "email": {
@@ -276,7 +406,11 @@
                             "title": "انضمّ"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "ID"
@@ -287,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "غير صالح"
-                },
-                "pagination": {
-                    "back_button": "الصّفحة السّابقة",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
-                    "next_button": "الصّفحة التّالية",
-                    "page_counter": "الصّفحة {current} مِن أصل {total}"
                 },
                 "search_placeholder": "",
                 "title": "",
@@ -359,6 +485,7 @@
                 "empty_text": "يبدو أنه لا توجد مناقشات هنا في الوقت الحالي.",
                 "load_more_button": "تحميل المزيد",
                 "replied_text": "{username} رد {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} أنشأ {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# ردّ} other {# ردود}}",
                 "unread_replies_a11y_label": "{count, plural, one {# ردّ غير مقروء} other {# ردود غير مقروءة}}. تحديد كغير مقروءة {count, plural, one {ردّ} other {ردود}} كمقروءة."
@@ -379,7 +506,6 @@
                 "log_in_link": "تسجيل الدخول",
                 "log_out_button": "تسجيل خروج",
                 "profile_button": "الملفّ الشّخصيّ",
-                "search_clear_button_accessible_label": "مسح عبارة البحث",
                 "search_placeholder": "البحث",
                 "search_role_label": "البحث",
                 "session_dropdown_accessible_label": "تبديل القائمة المنسدلة لخيارات الجلسة",
@@ -392,32 +518,31 @@
                 "mark_all_as_read_confirmation": "هل أنت متأكد من وضع علامة \"مقروءة\" على كافّة المناقشات؟",
                 "mark_all_as_read_tooltip": "وضع علامة على الكل كمقروء",
                 "meta_title_text": "الرئيسية",
-                "refresh_tooltip": "إعادة التّحميل",
+                "refresh_tooltip": "",
                 "start_discussion_button": "أنشئ موضوع",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "تبديل قائمة التّنقّل المنسدلة"
             },
             "index_sort": {
                 "latest_button": "الاخير",
-                "newest_button": "الاحدث",
-                "oldest_button": "الاقدم",
-                "relevance_button": "ذات صلة",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "تغيير فرز قائمة المناقشات",
-                "top_button": "الاعلى",
-                "hot_button": "رائج",
-                "votes_button": "التصويتات الإيجابية"
+                "top_button": "الاعلى"
             },
             "log_in": {
                 "forgot_password_link": "نسيت كلمة السر ؟",
-                "invalid_login_message": "معلومات تسجيل دخولك غير صحيحة.",
+                "invalid_login_message": "",
                 "password_placeholder": "كلمة المرور",
-                "remember_me_label": "تذكر بياناتي",
+                "remember_me_label": "",
                 "sign_up_text": "أليس لديك حساب؟ <a>إنشاء حساب!</a>",
                 "submit_button": "تسجيل الدخول",
                 "title": "تسجيل الدخول",
-                "username_or_email_placeholder": "اسم المستخدم او البريد الالكترونى"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
-                "delete_all_confirm": "هل أنت متأكد أنك تريد حذف جميع الإشعارات؟ هذا إجراء لا يمكن التراجع عنه",
+                "delete_all_confirm": "",
                 "delete_all_tooltip": "حذف جميع الإشعارات",
                 "discussion_renamed_text": "{username} غيّر العنوان",
                 "empty_text": "لا توجد إشعارات",
@@ -441,6 +566,11 @@
                 "restore_button": "استعادة",
                 "toggle_dropdown_accessible_label": "تبديل القائمة المنسدلة للتحكم في المنشور"
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "الآن",
                 "original_post_link": "المنشور الأساسي",
@@ -454,14 +584,18 @@
                 "reply_placeholder": "كتابة ردّ...",
                 "time_lapsed_text": "{period} لاحقا"
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "إعادة تسمية",
                 "title": "إعادة تسمية الموضوع"
-            },
-            "search": {
-                "all_discussions_button": "البحث عن \"{query}\" في جميع المواضيع",
-                "discussions_heading": "مواضيع",
-                "users_heading": "المستخدمون"
             },
             "security": {
                 "browser_on_operating_system": "",
@@ -502,6 +636,14 @@
                 "account_heading": "الحساب",
                 "change_email_button": "تغيير البريد الإلكتروني",
                 "change_password_button": "تغيير كلمة المرور",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "تلقّي إشعارات \"{description}\" عبر {method}",
                 "notifications_heading": "الإشعارات",
                 "notify_by_email_heading": "البريد الإلكتروني",
@@ -583,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "تم اكتشاف تبعيات دائرية: {extensions}. جاري الإلغاء. يُرجى تعطيل أحد الامتدادات والمحاولة مرة أخرى.",
+                "db_error_message": "",
                 "dependent_extensions_message": "لا يُمكن تعطيل {extension} حتى يتمّ تعطيل الملحقات التّالية: {extensions}",
                 "extension_initialiation_failed_message": "فشل تهيئة {extension}، تحقّق من وحدة تحكّم المتصفّح للحصول على مزيد من المعلومات.",
+                "extension_runtime_failed_message": "",
                 "generic_message": "أُووبس! هناك خطأ ما. يرجى إعادة تحميل الصّفحة والمحاولة مرّة أخرى.",
                 "generic_cross_origin_message": "عفواً! حدث خطأ أثناء طلب متعدد المصادر. يُرجى إعادة تحميل الصفحة والمحاولة مرة أخرى.",
                 "missing_dependencies_message": "لا يُمكن تمكين {extension} حتى يتمّ تمكين التّبعات التّالية: {extensions}",
@@ -593,6 +737,48 @@
                 "permission_denied_message": "ليس لديك إذن من الإدارة للقيام بذلك.",
                 "rate_limit_exceeded_message": "أنت تسير بسرعة كبيرة قليلا. يرجى المحاولة مرّة أخرى بعد بضع ثوان.",
                 "render_failed_message": "عذرا، لقد واجهنا خطأ أثناء عرض هذا المحتوى. إذا كنت مستخدِما، يرجى المحاولة مرّة أخرى في وقت لاحق. إذا كنت مسؤولاً، فألق نظرة على ملفات سجل فلاروم للحصول على مزيد من المعلومات."
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": "تحميل..."
@@ -604,25 +790,75 @@
             "modal": {
                 "close": "إغلاق"
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": "فتح مربّع التّنقّل"
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "كلغ",
                 "mega_text": "ميغا"
             },
-            "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": "، ",
                 "three_text": "{first}، {second} و{third}",
                 "two_text": "{first} و{second}"
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": "[محذوف]"
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": "",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -659,6 +895,9 @@
                 "csrf_token_mismatch": "لقد كنت غير نشط لفترة طويلة.",
                 "csrf_token_mismatch_return_link": "العودة إلى الوراء، والمحاولة مرّة أخرى",
                 "invalid_confirmation_token": "تم استخدام رابط التّأكيد هذا بالفعل أو أنّه غير صالح.",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "ليست لديك الصّلاحية لدخول هذه الصفحة. حاول مرّة أخرى بعد تسجيل الدّخول.",
                 "not_found": "لا يُمكن العثور على الصّفحة المطلوبة.",
                 "not_found_return_link": "العودة إلى {forum}",
@@ -670,20 +909,40 @@
                 "next_page_button": "الصفحة التالية",
                 "previous_page_button": "الصفحة السابقة"
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "تسجيل خروج",
                 "log_out_confirmation": "هل أنت متأكّد من أنك تريد مغادرة {forum}؟",
                 "title": "تسجيل خروج"
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
+                "title": ""
             },
             "reset_password": {
                 "confirm_password_label": "تأكيد كلمة المرور الجديدة",
                 "new_password_label": "كلمة المرور الجديدة",
                 "submit_button": "حفظ التغييرات",
                 "title": "إعادة تعيين كلمة المرور الخاصة بك"
+            },
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
-            "invalid_username_message": "لا يمكن أن يحتوي اسم المستخدم إلا على أحرف وأرقام وشرطات.",
+            "invalid_username_message": "",
             "invalid_filter_type": {
                 "must_be_numeric_message": "يجب أن يكون الفلتر {filter} رقميًا.",
                 "must_not_be_array_message": "لا يجب أن يكون الفلتر {filter} عبارة عن مصفوفة.",
@@ -691,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "تفعيل حسابك الجديد",
-                "body": "مرحبا{username} ! \n \nقام شخص ما بالتّسجيل في {forum} بعنوان البريد الإلكتروني هذا. \n \nإذا كان هذا أنت، فما عليك سوى النّقر فوق الارتباط التالي وسيتمّ تنشيط حسابك: \n{url}\n \nإذا لم يكن هذا أنت، يرجى تجاهل هذا البريد الإلكتروني.\n"
+                "body": ""
             },
             "confirm_email": {
                 "subject": "يجب تأكيد عنوان بريدك الإلكتروني الجديد",
-                "body": "مرحبا {username} ! \n \nقام شخص ما بتغيير عنوان البريد الإلكتروني في {forum} بعنوان البريد الإلكتروني هذا. \n \nإذا كان هذا أنت، فما عليك سوى النّقر فوق الارتباط الآتي وسيتمّ تأكيد عنوان البريد الإلكتروني الخاصّ بك: \n{url}\n \nإذا لم يكن هذا أنت، يرجى تجاهل هذا البريد الإلكتروني.\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "إعادة تعيين كلمة المرور الخاصة بك",
-                "body": "مرحبا {username} ! \n \nقام شخص ما بإرسال طلب لتغيير كلمة المرور لحسابك على {forum}. \n \nإذا كان هذا أنت، فما عليك سوى النقر فوق الارتباط التالي وسيتم إعادة تعيين كلمة المرور الخاصّة بك: \n{url} \n \nإذا كنت لا ترغب في تغيير كلمة المرور الخاصة بك، فما عليك إلا تجاهل هذا البريد الإلكتروني.\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "اختبار البريد الإلكتروني الخاص بفلاروم",
-                "body": "مرحبا {username} ! \n \nهذا بريد إلكتروني تجريبي للتأكد من أن إعدادات فلاروم تعمل بشكل صحيح. \n \nإذا كنت أنت، فهذا البريد الإلكتروني يعني أن الإعداد الخاص بك يعمل بنجاح. \n \nإذا لم تكن أنت، يرجى تجاهل هذا البريد الإلكتروني.\n"
+                "body": ""
             }
         },
         "ref": {
@@ -720,6 +997,8 @@
             "custom_footer_title": "تحرير التّذييل المخصّص للصّفحة",
             "custom_header_text": "أضف رمز HTML ليتم عرضه في أعلى الصفحة، فوق رأس فلاروم الخاص.",
             "custom_header_title": "تحرير الرّأس المخصّص للصّفحة",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "حذف",
             "delete_forever": "الحذف نهائيّا",
             "discussions": "المواضيع",
@@ -730,6 +1009,9 @@
             "generic_confirmation_message": "هل أنت متأكد من رغبتك في المتابعة؟ لا يمكن التراجع عن هذا الإجراء.",
             "icon": "الأيقونة",
             "icon_text": "أدخل اسم أيّ أيقونة من أيقونات <a>FontAwesome</a>، مع <em>إضافة</em> الرّمز <code>fas fa-</code> في البادئة.",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "تحميل المزيد",
             "loading": "جارٍ التّحميل...",
             "log_in": "تسجيل الدخول",
@@ -737,15 +1019,20 @@
             "mark_all_as_read": "تحديد الكلّ كمقروءة",
             "never": "أبداً",
             "new_token": "رمز جديد",
+            "newest": "",
             "next_page": "الصفحة التالية",
             "notifications": "الإشعارات",
             "okay": "موافق",
+            "oldest": "",
             "password": "كلمة المرور",
             "posts": "الردود",
             "previous_page": "الصفحة السابقة",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "إزالة",
             "rename": "إعادة التّسمية",
             "reply": "ردّ",
+            "refresh": "",
             "reset_your_password": "إعادة تعيين كلمة المرور الخاصة بك",
             "restore": "استعادة",
             "save_changes": "حفظ التغييرات",
@@ -756,6 +1043,7 @@
             "some_others": "{count, plural, one {# آخر} other {# آخرون}}",
             "start_a_discussion": "أنشئ موضوع",
             "username": "اسم المستخدِم",
+            "username_or_email_placeholder": "",
             "users": "المستخدمون",
             "view": "عرض",
             "write_a_reply": "كتابة ردّ...",

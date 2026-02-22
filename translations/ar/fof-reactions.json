@@ -11,10 +11,14 @@
             "modal": {
                 "title": "التفاعلات",
                 "anonymous_count": "{count, plural, one {# مستخدم مجهول} other {# مستخدمين مجهولين}}",
-                "no_reactions": "لا توجد تفاعلات حتى الآن"
+                "no_reactions": "لا توجد تفاعلات حتى الآن",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "عرض التفاعلات",
-            "react_button_label": "تفاعل"
+            "react_button_label": "تفاعل",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "",
                         "identifier": ""
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "",

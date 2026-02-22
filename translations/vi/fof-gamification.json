@@ -31,8 +31,7 @@
                     "points": "{count, plural, one { {count} điểm} other {{count} điểm}}"
                 },
                 "rank": "{rank}",
-                "votes_link": "Bình chọn",
-                "points": "Điểm: {points}"
+                "votes_link": "Bình chọn"
             },
             "modal": {
                 "downvotes_label": "Lượt phản đối:",
@@ -88,6 +87,8 @@
                     "vote_color": "Màu bình chọn",
                     "icon_name": "Biểu tượng tán thành/phản đối",
                     "icon_help": "Nhập bất kỳ biểu tượng Font-Awesome nào đi kèm với -up và -down. Ví dụ: mũi tên, ngón tay cái",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Chỉ cho phép ủng hộ",
                     "first_post_only": "Chỉ cho phép bình chọn cho bài viết đầu tiên trong cuộc thảo luận",
                     "allow_self_votes": "Người dùng có thể bình chọn cho bài viết của họ"
@@ -95,7 +96,7 @@
                 "save_settings": "Lưu thiết lập",
                 "convert": {
                     "button": "Chuyển đổi lượt thích thành lượt tán thành",
-                    "help": "Chuyển đổi lượt thích trước đây của bạn từ lượt thích ngoài flarum thành lượt tán thành, cũng như tính toán mức độ hot cho tất cả các cuộc thảo luận hiện tại.",
+                    "help": "",
                     "converting": "Lượt thích của bạn hiện đang được chuyển đổi. Làm mới trang web của bạn sau vài phút để xem quá trình kết thúc. (Thời gian chuyển đổi có thể mất một lúc tùy thuộc vào tổng số lượt thích diễn đàn của bạn)",
                     "converted": "Đã chuyển đổi thành công tất cả {number} lượt thích"
                 },
@@ -129,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "Bài viết của bạn được bình chọn bởi {display_name}"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

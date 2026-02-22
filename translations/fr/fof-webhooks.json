@@ -52,7 +52,12 @@
                 "debug_label": "Débogage",
                 "debug_help": "Ajoute des journaux d'événements supplémentaires au fichier journal de Flarum pour déboguer les problèmes avec les webhooks et/ou les événements qui ne fonctionnent pas correctement.",
                 "item": {
-                    "tag_any_label": "N'importe quelle étiquette"
+                    "tag_any_label": "N'importe quelle étiquette",
+                    "edit_tooltip": "",
+                    "delete_tooltip": "",
+                    "delete_confirm_alert": "",
+                    "create_button": "",
+                    "edit_tags_button": ""
                 },
                 "help": {
                     "disabled": "Ce webhook est désactivé car il n'a aucun événement activé.",

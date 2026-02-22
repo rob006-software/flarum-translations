@@ -30,9 +30,7 @@
                 "include_changefreq_help": "",
                 "modes": {
                     "runtime": "Runtime",
-                    "multi_file": "Multi file",
-                    "cache": "Cache",
-                    "cache_disk": "Disco"
+                    "multi_file": "Multi file"
                 },
                 "frequency": {
                     "hourly": "Ogni ora",
@@ -54,10 +52,7 @@
                             "minimum_item_threshold_help": ""
                         }
                     }
-                },
-                "mode_help_cache_disk_label": "Cache Mode/Disk Mode",
-                "mode_help_cache_disk": "Scelta migliore per piccoli o medi forum, soprattuto quelli in ambienti di hosting con permesso di cronjobs che hanno abilitato la pianificazione di Flarum (vedi sotto), e con un numero di discussioni, utenti, categorie e pagine che in totale è inferiore a 50.000 oggetti.",
-                "title": "FoF Sitemap"
+                }
             }
         }
     }

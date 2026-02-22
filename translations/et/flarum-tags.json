@@ -56,10 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Muuda {title} silte",
-                "title": "Vali oma vestluse jaoks sildid",
-                "choose_primary_placeholder": "{count, plural, one {Vali põhisilt} other {Vali # põhisilti}}",
-                "choose_secondary_placeholder": "{count, plural, one {Vali veel üks silt} other {Vali veel # silti}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "Vali oma vestluse jaoks sildid"
             },
             "composer_discussion": {
                 "choose_tags_link": "Vali sildid"
@@ -87,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Kustutatud",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Sildi mitte kasutamise nõuded",
                 "choose_primary_placeholder": "{count, plural, one {Vali peamine silt} other {Vali # peamist silti}}",
@@ -101,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Vali veel 1 silt} other {Vali veel # silti}}",
             "name": "Nimi",
             "tags": "Sildid"
-        },
-        "validation": {
-            "attributes": {
-                "name": "nimi",
-                "slug": "slug",
-                "is_hidden": "peidetud",
-                "description": "kirjeldus",
-                "color": "värv",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

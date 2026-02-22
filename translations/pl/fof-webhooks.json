@@ -52,7 +52,12 @@
                 "debug_label": "Debug",
                 "debug_help": "Dodaj dodatkowe logi do pliku logów Flarum, aby ułatwić debugowanie problemów z webhookami i/lub zdarzeniami, które nie działają prawidłowo.",
                 "item": {
-                    "tag_any_label": "Dowolny tag"
+                    "tag_any_label": "Dowolny tag",
+                    "edit_tooltip": "",
+                    "delete_tooltip": "",
+                    "delete_confirm_alert": "",
+                    "create_button": "",
+                    "edit_tags_button": ""
                 },
                 "help": {
                     "disabled": "Ten webhook jest wyłączony, ponieważ nie ma żadnych aktywnych zdarzeń.",

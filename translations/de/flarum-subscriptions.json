@@ -39,12 +39,21 @@
         "email": {
             "new_post": {
                 "subject": "[Neuer Beitrag] {title}",
-                "body": "Hallo {recipient_display_name}!\n\n{poster_display_name} hat einen Beitrag in einer Diskussion verfasst, der du folgst: {title}.\n\nFolge dem untenstehenden Link, um die neue Aktivität zu sehen:\n{url}\n\n---\n\n{content}\n\n---\n\nDu wirst keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis du wieder auf dem Laufenden bist.\n",
                 "plain": {
-                    "body": "{poster_display_name} hat gerade in einer von dir verfolgten Diskussion geschrieben: {title}.\n\nUm die neue Aktivität einzusehen, klicke bitte auf diesen Link:\n{url}\n\n---\n\n{content}\n\n---\n\nDu erhältst keine weiteren Benachrichtigungen zu dieser Diskussion, bis du die neuesten Beiträge gelesen hast.\n"
+                    "body": ""
                 },
                 "html": {
-                    "body": "{poster_display_name} hat soeben in einer von dir verfolgten Diskussion geschrieben: [{title}]({url}).\n\nDu erhältst keine weiteren Benachrichtigungen zu dieser Diskussion, bis du die neuesten Beiträge gelesen hast.\n"
+                    "body": ""
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
                 }
             }
         },
@@ -52,16 +61,6 @@
             "follow": "Folgen",
             "following": "Gefolgt",
             "ignoring": "Ignorieren"
-        },
-        "lib": {
-            "gambits": {
-                "discussions": {
-                    "subscription": {
-                        "following_key": "gefolgt",
-                        "ignoring_key": "ignoriert"
-                    }
-                }
-            }
         }
     }
 }

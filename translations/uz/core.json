@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "Rangli Sarlavha",
                 "colors_heading": "Ranglar",
                 "colors_primary_label": "",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Custom Stillar",
                 "custom_styles_text": "Flarum standart uslublari ustiga qo'llanilishi uchun o'zingizning Less/CSS kodingizni qo'shish orqali forumingiz ko'rinishini moslashtiring.",
-                "dark_mode_label": "Qorong'i rejim",
                 "description": "Forumingiz ranglarini, logotiplarini va boshqa o'zgaruvchilarni moslashtiring.",
                 "edit_css_button": "Custom CSS ni tahrirlash",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "Forumning yorliq belgisi sifatida ko'rsatiladigan rasmni yuklang.",
                 "logo_heading": "Logotip",
                 "logo_text": "Forum sarlavhasi o'rniga ko'rsatiladigan rasmni yuklang.",
-                "title": "Ko'rinish"
+                "title": "Ko'rinish",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Standart til",
                 "description": "Forum nomi, til va boshqa asosiy sozlamalarni o'rnating.",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "Foydalanuvchi displey nomi",
                 "display_name_text": "Foydalanuvchilarning ekran nomlari uchun ishlatilishi kerak bo'lgan drayverni tanlang. Odatda foydalanuvchi nomi ko'rsatiladi.",
                 "forum_description_heading": "Forum tavsifi",
@@ -38,6 +133,16 @@
                 "home_page_heading": "Bosh sahifa",
                 "home_page_text": "Sizning forumingizga tashrif buyurgan foydalanuvchilar birinchi marta ko'radigan sahifani tanlang.",
                 "show_language_selector_label": "Til selektorini ko'rsatish",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "Yo'llar drayveri: {model}",
                 "slug_driver_text": "Ushbu modelni siljitish uchun ishlatiladigan drayverni tanlang.",
                 "title": "Asoslari",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "Boshqaruv paneli",
+                "toggle_advanced_page_button": "",
                 "tools_button": "Asboblar"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "Forumingiz elektron pochta xabarlarini yuborish uchun foydalanadigan drayver, sozlamalar va manzillarni sozlang.",
                 "driver_heading": "Drayverni tanlang",
                 "driver_label": "Drayver",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "Jo'natuvchi",
                 "mail_encryption_label": "Shifrlash",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "Xost",
                 "mail_mailgun_domain_label": "Domen",
                 "mail_mailgun_region_label": "Hudud",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "Sinov xati muvaffaqiyatli yuborildi!",
                 "send_test_mail_text": "Bu sizning {email} manzilingizga yuqoridagi konfiguratsiyadan foydalangan holda xat yuboradi.",
                 "smtp_heading": "SMTP sozlamalar",
+                "smtp_description": "",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "",
                 "configure_scopes": "Qamrovlarni sozlash",
                 "confirm_purge": "Tozalash kengaytma bilan bog'liq barcha ma'lumotlar bazasi yozuvlari va aktivlarini o'chirib tashlaydi. U kengaytmani olib tashlamaydi; Bu Composer orqali amalga oshirilishi kerak. Davom etishni xohlaysizmi?",
+                "database_driver_mismatch": "",
                 "deprecated": "",
                 "disabled": "Oʻchirilgan",
                 "enable_to_see": "Sozlamalarni ko'rish va o'zgartirish uchun kengaytmani yoqing.",
@@ -163,17 +281,25 @@
                     "title": "{extName} hujjatlari"
                 },
                 "replaced": "",
-                "confirm_uninstall": "O'chirib tashlash butun ma'lumotlar bazasi va uning resurslarini yo'qotilishiga olib keladi. Davom ettirishni xohlaysizmi?",
-                "uninstall_button": "O'chirish"
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "Yordam",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "Iltimos kuting..."
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -222,6 +348,7 @@
                 "post_without_throttle_label": "Kutmasdan ko'p marta javob berish",
                 "read_heading": "O'qish",
                 "remove_scope_label": "",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "Muhokama nomini o'zgartirish",
                 "reply_to_discussions_label": "Muhokamalarga javob berish",
                 "search_users_label": "Foydalanuvchilarni qidirish",
@@ -244,8 +371,14 @@
                 "signup_closed_button": "Yopiq",
                 "signup_open_button": "Ochiq"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "O'zgartirishlar saqlandi.",
+                "select_dropdown_custom_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -260,11 +393,6 @@
                         "display_name": {
                             "title": ""
                         },
-                        "edit_user": {
-                            "button": "=> core.ref.edit",
-                            "tooltip": "O'zgartirish {username}",
-                            "title": "=> core.ref.edit_user"
-                        },
                         "email": {
                             "title": "=> core.ref.email",
                             "visibility_hide": "Emailni yashirish",
@@ -278,7 +406,11 @@
                             "title": "Qo'shildi"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "ID"
@@ -289,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "Yaroqsiz"
-                },
-                "pagination": {
-                    "back_button": "Oldingi sahifa",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
-                    "next_button": "Keyingi sahifa",
-                    "page_counter": "{current} bet {total} dan"
                 },
                 "search_placeholder": "",
                 "title": "=> core.ref.users",
@@ -361,10 +485,10 @@
                 "empty_text": "Muhokamalar mavjud emas.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} javob berdi {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} yaratdi {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# javob} other {# javoblar}}",
-                "unread_replies_a11y_label": "{count, plural, one {# o'qilmagan javob} other {# o'qilmagan javoblar}}. O'qilmgan deb belgilash {count, plural, one {javob} other {javoblar}} as read.",
-                "mark_as_read_tooltip": "O'qildi deb belgilash"
+                "unread_replies_a11y_label": "{count, plural, one {# o'qilmagan javob} other {# o'qilmagan javoblar}}. O'qilmgan deb belgilash {count, plural, one {javob} other {javoblar}} as read."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -382,7 +506,6 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
-                "search_clear_button_accessible_label": "Qidiruv tarixini o'chirish",
                 "search_placeholder": "Qidiruv...",
                 "search_role_label": "Forumda qidirish",
                 "session_dropdown_accessible_label": "Sessiyalar menyusi",
@@ -395,27 +518,28 @@
                 "mark_all_as_read_confirmation": "Barcha muhokamalarni o'qildi deb belgilashga ishonchingiz komilmi?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Yangilash",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "Navigatsiya menyusi"
             },
             "index_sort": {
                 "latest_button": "Oxirgilari",
-                "newest_button": "Yangilari",
-                "oldest_button": "Eskilari",
-                "relevance_button": "Muhimligi",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Muhokama ro'yxatini saralash",
                 "top_button": "Top"
             },
             "log_in": {
                 "forgot_password_link": "Parolni unutdingizmi?",
-                "invalid_login_message": "Kirish ma'lumotlaringiz xato.",
+                "invalid_login_message": "",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "Eslab qol",
+                "remember_me_label": "",
                 "sign_up_text": "Akkauntingiz yo'qmi? <a>Ro'yxatdan o'tish</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Username yoki email"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
                 "delete_all_confirm": "",
@@ -442,6 +566,11 @@
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Postni sozlash menyusini tushirish"
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "Hozir",
                 "original_post_link": "Boshiga",
@@ -455,14 +584,18 @@
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} o'tgandan keyin"
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
                 "title": "Muhokamani nomini o'zgartirish"
-            },
-            "search": {
-                "all_discussions_button": "\"{query}\" bo'yicha qidirish",
-                "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "",
@@ -503,6 +636,14 @@
                 "account_heading": "Akkaunt",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
@@ -584,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "",
+                "db_error_message": "",
                 "dependent_extensions_message": "{extensions} larni o'chirmaguncha {extension} ni o'chirib bo'lmaydi",
                 "extension_initialiation_failed_message": "",
+                "extension_runtime_failed_message": "",
                 "generic_message": "Voy! Nimadir noto'g'ri bajarildi. Sahifani qayta yuklang va qaytadan urining.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "{extensions} lar yoqilmaguncha {extension} yoqib bo'lmaydi",
@@ -594,6 +737,48 @@
                 "permission_denied_message": "Sizda bunga ruxsat yo'q.",
                 "rate_limit_exceeded_message": "Siz juda ham tez harakat qilyapsiz. Keyinroq urinib ko'ring.",
                 "render_failed_message": "Kechirasiz, bu kontentni ko'rsatishda muammo yuzaga keldi. Agar foydalanuvchi bo'lsangiz, qaytadan urinib ko'ring. Agar adminirstarator bo'lsangiz, Flarum log fayllariga qarang."
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -605,25 +790,75 @@
             "modal": {
                 "close": "Yopish"
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": "Navigatsiya oynasini ochish"
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
-            "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second}, va {third}",
                 "two_text": "{first} va {second}"
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": "[o'chirildi]"
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": "",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -660,6 +895,9 @@
                 "csrf_token_mismatch": "Anchadan beri faol emassiz.",
                 "csrf_token_mismatch_return_link": "Qaytadan urinib ko'ring",
                 "invalid_confirmation_token": "Tasdiqlash havolasining muddati o'tgan.",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "Bu sahifaga o'tishga sizda ruxsat yo'q. Saytga kirib qaytadan urinib ko'ring.",
                 "not_found": "Siz so'ragan sahifa topilmadi.",
                 "not_found_return_link": "{forum} ga qaytish",
@@ -671,20 +909,40 @@
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "{forum} dan chiqishga ishonchingiz komilmi?",
                 "title": "=> core.ref.log_out"
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
+                "title": ""
             },
             "reset_password": {
                 "confirm_password_label": "Yangi parolni tasdiqlang",
                 "new_password_label": "Yangi parol",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
-            "invalid_username_message": "Foydalanuvchi nomida faqat harflar, raqamlar va tire ishlatilishi mumkin.",
+            "invalid_username_message": "",
             "invalid_filter_type": {
                 "must_be_numeric_message": "",
                 "must_not_be_array_message": "",
@@ -692,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "Yangi akkauntni faollashtiring",
-                "body": "Salom {username}!\n\nKimdir (umid qilamizki bu siz!) {forum} ga mana shu email bilan ro'yxatdan o'tdi.\n\nAgar bu siz bo'lsangiz, quyidagi havolani bosib akkauntingizni faollashtiring:\n{url}\n\nAgar siz ro'yxatdan o'tmagan bo'lsangiz, shunchaki e'tibor bermang.\n"
+                "body": ""
             },
             "confirm_email": {
                 "subject": "Yangi emailingizni tasdiqlang",
-                "body": "Salom {username}!\n\nKimdir (umid qilamizki bu siz!) {forum} dagi emailini bunisiga o'zgartirdi.\n\nAgar bu siz bo'lsangiz, quyidagi havolani bosib emailingizni tasdiqlang:\n{url}\n\nAgar bu siz bo'lmasangiz, iltimos e'tibor bermang.\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Salom {username}!\n\nKimdir (umid qilamizki bu siz!) {forum} ga parolni esdan chiqarganlik so'rovini jo'natdi.\n\nAgar bu siz bo'lsangiz, parolni o'zgartirish uchun quyidagi havolani bosing:\n{url}\n\nAgar parolingizni o'zgartirishni istamasangiz, bu emailga e'tibor bermang.\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "Flarum email testi",
-                "body": "Salom {username}!\n\nBu sizning Flarum emailingzi sozlamalari to'g'ri ishlayotganini tekshirish uchun jo'natilgan xabar.\n\nAgar bu siz bo'lsangiz, bu email sozlamalar to'g'ri ishlayotganini bildiradi!\n\nAgar siz bo'lmasangiz, e'tibor bermang.\n"
+                "body": ""
             }
         },
         "ref": {
@@ -721,6 +997,8 @@
             "custom_footer_title": "Pastgi kolontitulni o'zgartirish",
             "custom_header_text": "Sahifani eng tepasida ko'rinadigan HTML ni qo'shish, Flarum sarlavhasidan tepada.",
             "custom_header_title": "Yuqoridagi kolontitulni o'zgartirish",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "O'chirish",
             "delete_forever": "Butunlay o'chirish",
             "discussions": "Muhokamalar",
@@ -731,6 +1009,9 @@
             "generic_confirmation_message": "",
             "icon": "Yorliq",
             "icon_text": "Har qanday <a>FontAwesome</a> klass yorlig'ini kiriting,<code>fas fa-</code>prefiksini <em>o'z ichiga olgan holda</em>.",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "Ko'proq yuklash",
             "loading": "Yuklanmoqda...",
             "log_in": "Kirish",
@@ -738,15 +1019,20 @@
             "mark_all_as_read": "Barchasini o'qildi deb belgilash",
             "never": "",
             "new_token": "",
+            "newest": "",
             "next_page": "Keyingi sahifa",
             "notifications": "Xabarlar",
             "okay": "OK",
+            "oldest": "",
             "password": "Parol",
             "posts": "Postlar",
             "previous_page": "Oldingi sahifa",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "O'chirish",
             "rename": "Nomini o'zgartirish",
             "reply": "Javob yozish",
+            "refresh": "",
             "reset_your_password": "Parolni o'chirish",
             "restore": "Qayta tiklash",
             "save_changes": "Saqlash",
@@ -757,6 +1043,7 @@
             "some_others": "{count, plural, one {# boshqa} other {# boshqalar}}",
             "start_a_discussion": "Muhokama boshlash",
             "username": "Foydalanuvchi nomi",
+            "username_or_email_placeholder": "",
             "users": "Foydalanuvchilar",
             "view": "Ko'rish",
             "write_a_reply": "Javob yozish...",

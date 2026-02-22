@@ -19,12 +19,14 @@
                     "extension_settings_button": "GDPR 設置"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "使用者表數據",
                     "help_text": "大多數情況下，新增至 <code>user</code> 表中的任何欄位都會自動處理，以匯出資料和刪除資料。\n但是，也有一些特殊情況，如下圖所示。\n"
                 }
             },
             "nav": {
-                "gdpr_button": "GDPR 集成"
+                "gdpr_button": "GDPR 集成",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "處理刪除請求",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "導出{username}的數據"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "確認您的帳戶刪除請求",
-                "body": "嘿{display_name}!\n\n有人（希望您）剛剛要求刪除該帳戶”{display_name}`.\n\n要確認此操作，請點擊以下鏈接，之後我們的團隊將處理您的請求。\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "帳戶刪除已完成",
-                    "body": "嘿{display_name}!\n\n這是一條自動的最終通知，表明您的帳戶已被刪除。\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "帳戶匿名化完成",
-                    "body": "嘿{display_name}!\n\n這是自動的最終通知，表明您的帳戶已被匿名化。\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "帳戶刪除請求已取消",
-                "body": "嘿{display_name}!\n\n這是一條自動通知，表明您取消帳戶刪除的請求已得到處理。\n\n您的帳戶將不再被刪除。\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "支援數據匯出",
-                "body": "嘿{display_name}!\n\n您請求匯出以下項的帳戶數據{username}.此匯出已成功產生，現在可用：\n\n{url}\n\n此匯出將一直可用，直到{destroys_at}.\n"
+                "body": ""
             }
         },
         "forum": {

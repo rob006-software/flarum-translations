@@ -108,7 +108,8 @@
             "unlink": "Rimuovi link",
             "error": {
                 "bad_verification_code": "Token di verifica scaduto o non valido. Riprova.",
-                "invalid_state": "Stato non valido. Riprova."
+                "invalid_state": "Stato non valido. Riprova.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

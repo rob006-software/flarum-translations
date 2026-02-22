@@ -6,6 +6,46 @@
             },
             "settings": {
                 "button": "Pengaturan",
+                "content-filter": {
+                    "heading": "",
+                    "introduction": "",
+                    "enabled_label": "",
+                    "enabled_help": "",
+                    "user_targeting_heading": "",
+                    "monitor_post_count_label": "",
+                    "monitor_post_count_help": "",
+                    "monitor_hours_old_label": "",
+                    "monitor_hours_old_help": "",
+                    "detectors_heading": "",
+                    "detect_phones_label": "",
+                    "detect_phones_help": "",
+                    "detect_emails_label": "",
+                    "detect_emails_help": "",
+                    "detect_urls_label": "",
+                    "detect_urls_help": "",
+                    "thresholds_heading": "",
+                    "flag_threshold_label": "",
+                    "flag_threshold_help": "",
+                    "spam_threshold_label": "",
+                    "spam_threshold_help": "",
+                    "actions_heading": "",
+                    "auto_unapprove_label": "",
+                    "auto_unapprove_help": "",
+                    "auto_flag_label": "",
+                    "auto_flag_help": "",
+                    "system_user_id_label": "",
+                    "system_user_id_help": "",
+                    "no_action_extensions": "",
+                    "allowlist_heading": "",
+                    "allowed_domains_label": "",
+                    "allowed_domains_help": "",
+                    "blocked_words_heading": "",
+                    "blocked_words_label": "",
+                    "blocked_words_help": "",
+                    "advanced_patterns_heading": "",
+                    "advanced_block_patterns_label": "",
+                    "advanced_block_patterns_help": ""
+                },
                 "default-actions": {
                     "delete_user_label": "Hapus pengguna",
                     "delete_user_help": "Ini akan menghapus pengguna secara permanen. Ketika dinonaktifkan, pengguna akan ditangguhkan.",
@@ -37,11 +77,12 @@
                     "confidence_help": "Nilai confidence merupakan indikator yang cukup baik untuk menunjukkan bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Atur tingkat confidence Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari hasil uji ‘frekuensi’ di atas.",
                     "email_hash_label": "Gunakan alamat email yang di-hash",
                     "email_hash_help": "Masukkan hash MD5 dari alamat email jika Anda tidak ingin menyertakan alamat email secara langsung. Metode ini akan melewati semua daftar hitam, normalisasi, dan obfuscation check.",
+                    "block_tor_exit_nodes_label": "",
+                    "block_tor_exit_nodes_help": "",
                     "sfs_lookup_label": "Mencari pendaftaran",
                     "sfs_lookup_help": "Jika diaktifkan, kami akan memeriksa database StopForumSpam saat pengguna baru mendaftar di forum Anda. Jika pengguna tersebut terdeteksi (username, alamat IP, email) dan data tersebut diaktifkan bersama dengan tingkat SFS confidence mencapai tingkat yang Anda tentukan, mereka akan dicegah untuk menyelesaikan pendaftaran mereka.",
                     "report_blocked_registrations_label": "Laporkan pendaftaran yang diblokir",
-                    "report_blocked_registrations_help": "Ketika sebuah pendaftaran diblokir oleh fitur Penelusuran Pendaftaran, kami akan melaporkan upaya tersebut ke StopForumSpam, sehingga aktivitas spammer dapat dikonfirmasi dengan lebih baik. Dibutuhkan kunci API StopForumSpam yang telah diatur (lihat di bawah).",
-                    "heading": "StopForumSpam"
+                    "report_blocked_registrations_help": "Ketika sebuah pendaftaran diblokir oleh fitur Penelusuran Pendaftaran, kami akan melaporkan upaya tersebut ke StopForumSpam, sehingga aktivitas spammer dapat dikonfirmasi dengan lebih baik. Dibutuhkan kunci API StopForumSpam yang telah diatur (lihat di bawah)."
                 }
             },
             "blocked_registrations": {
@@ -60,6 +101,9 @@
             }
         },
         "forum": {
+            "post": {
+                "flagged_as_spam_text": ""
+            },
             "message": {
                 "stopforumspam": {
                     "blocked": "Detail pendaftaran Anda telah ditemukan dalam database pencegahan spam, oleh karena itu pendaftaran Anda telah diblokir."

@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Reações",
                 "anonymous_count": "",
-                "no_reactions": ""
+                "no_reactions": "",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Ver Reações",
-            "react_button_label": "Reagir"
+            "react_button_label": "Reagir",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Exibição",
                         "identifier": "Identificador"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Se você acabou de atualizar sua extensão, suas reações terão que ser convertidas. Se você acabou de instalar esta extensão, pode ignorar esta mensagem.",

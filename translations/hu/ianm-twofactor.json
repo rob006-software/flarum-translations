@@ -94,7 +94,8 @@
             },
             "status_type": {
                 "enabled": "be lett kapcsolva",
-                "disabled": "ki lett kapcsolva"
+                "disabled": "ki lett kapcsolva",
+                "device_changed": ""
             }
         },
         "views": {
@@ -113,16 +114,6 @@
                 "twofactordata": {
                     "export_description": "Exportálja a 2FA állapotát, és a titkosított tartalék biztonsági kódokat.",
                     "delete_description": "Törli az összes 2FA-val kapcsolatos adatot."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "twofactordata": {
-                    "export_description": "Exportálja a 2FA állapotát és a titkosított biztonsági kódokat.",
-                    "delete_description": "Törli az összes, 2FA-val kapcsolatos adatot."
                 }
             }
         }

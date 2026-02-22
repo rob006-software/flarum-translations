@@ -84,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Obrisana oznaka",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "",
                 "choose_primary_placeholder": "",
@@ -98,17 +106,6 @@
             "choose_tags_placeholder": "",
             "name": "Naziv",
             "tags": "Oznake"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
         }
     }
 }

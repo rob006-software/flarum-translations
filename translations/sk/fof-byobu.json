@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Súkromná Diskusia] Používateľ {display_name} Vás pridal do súkromnej diskusie"
             },
             "body": {
-                "private_discussion_created": "Ahoj {recipient_display_name},\n\nPoužívateľ {actor_display_name} s Vami (ako s príjemcom) začal novú súkromnú diskusiu: {discussion_title}.\n\nPrezrite si ju tu:\n{discussion_url}\n\nMožno sa predtým budete musieť prihlásiť.\n",
-                "private_discussion_replied": "Ahoj {recipient_display_name},\n\nPoužívateľ {actor_display_name} zverejnil príspevok v súkromnej diskusií s Vami ako s príjemcom: {discussion_title}.\n\nPrezrite si ju tu:\n{post_url}\n\nMožno sa predtým budete musieť prihlásiť.\n",
-                "recipient_removed": "Ahoj {recipient_display_name},\n\nPoužívateľ {actor_display_name} opustil diskusiu: {discussion_title}. Už si nebude môcť prezerať akýkoľvek jej obsah.\n\nPrezrite si ju tu:\n{discussion_url}\n\nMožno sa predtým budete musieť prihlásiť.\n",
-                "private_discussion_added": "Ahoj {recipient_display_name},\n\nPoužívateľ {actor_display_name} Vás pridal do existujúcej súkromnej diskusie: {discussion_title}.\n\nPrezrite si ju tu:\n{discussion_url}\n\nMožno sa predtým budete musieť prihlásiť.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

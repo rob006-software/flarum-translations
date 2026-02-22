@@ -31,8 +31,7 @@
                     "points": "{count, plural, one { {count} puan} other {{count} puan}}"
                 },
                 "rank": "{rank}",
-                "votes_link": "Oylar",
-                "points": "Puan: {points}"
+                "votes_link": "Oylar"
             },
             "modal": {
                 "downvotes_label": "Olumsuz oy verenler:",
@@ -88,6 +87,8 @@
                     "vote_color": "Oylandığındaki renk",
                     "icon_name": "Yukarı oy/aşağı oy simgesi",
                     "icon_help": "İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Yalnızca yukarı oya izin ver",
                     "first_post_only": "Bir tartışmada yalnızca ilk gönderinin yukarı/aşağı oylanmasına izin verin",
                     "allow_self_votes": "Kullanıcılar kendi gönderilerine oy verebilir"
@@ -95,7 +96,7 @@
                 "save_settings": "Ayarları Kaydet",
                 "convert": {
                     "button": "Beğenileri yukarı oya çevir",
-                    "help": "flarum-ext-likes eklentisindeki beğenilerinizi yukarı oya çevirin, ve şuanki tüm konularınız için aktifliğini hesaplayın.",
+                    "help": "",
                     "converting": "Beğenileriniz dönüştürülüyor. Sonucu görmek için sayfayı birkaç dakika sonra yenileyin. (Dönüşüm forum beğenilerinize bağlı olarak zaman alabilir)",
                     "converted": "{number} beğeni başarıyla dönüştürüldü"
                 },
@@ -129,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "Gönderiniz {display_name} tarafından oylandı"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

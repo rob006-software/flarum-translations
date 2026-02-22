@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Populaire",
-                "unpopular_button": "Impopulaire"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Réinitialiser le nombre de vues de la discussion",
                 "submit": "Envoyer",
-                "label": "Définir le nombre de vues"
+                "label": "Définir le nombre de vues",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "Définir le nombre de vues"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Ignorer les visites des robots"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

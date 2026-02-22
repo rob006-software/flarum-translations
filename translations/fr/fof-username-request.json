@@ -72,6 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "Aucune demande de modification de nom n'a été trouvée.",
+                "group_label": "",
                 "nickname_item_text": "{name} a demandé une modification de pseudonyme",
                 "nickname_exerpt": "Pseudonyme demandé : {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -98,8 +99,8 @@
         "email": {
             "body": {
                 "noReasonProvided": "Aucun motif n'a été fourni.",
-                "approved": "Bonjour {recipient_display_name},\n\nVotre demande de modification du nom d'utilisateur en « {new_username} » a été approuvée par {actor_display_name}.\n\nVous pouvez dès à présent vous connecter avec votre nouveau nom d'utilisateur : {login_url}\n",
-                "rejected": "Bonjour {recipient_display_name},\n\nVotre demande de modification du nom d'utilisateur de « {old_username} » à « {requested_username} » a été rejetée par {actor_display_name}.\n\nMotif : {reason}\n"
+                "approved": "",
+                "rejected": ""
             },
             "subject": {
                 "approved": "{display_name} a approuvé la modification de votre nom d'utilisateur en {requested_username}",

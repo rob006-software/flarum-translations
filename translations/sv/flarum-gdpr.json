@@ -19,12 +19,14 @@
                     "extension_settings_button": ""
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "",
                     "help_text": ""
                 }
             },
             "nav": {
-                "gdpr_button": ""
+                "gdpr_button": "",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": ""
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }

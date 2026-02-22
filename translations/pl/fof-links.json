@@ -17,15 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "",
-                "visibility": "Widoczność linka",
-                "visibility.help": "",
-                "visibility.help-disabled": "",
-                "visibility.label": "",
-                "visibility.guest-only.label": "",
-                "visibility.guest-only.help": "",
-                "everyone-label": "Wszyscy",
-                "guests-label": "Goście",
-                "members-label": "Zarejestrowani użytkownicy"
+                "visibility": {
+                    "help": "",
+                    "help-disabled": "",
+                    "label": "",
+                    "guest-only": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
@@ -33,8 +33,7 @@
                 "preconfigured": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Wyświetlaj tylko ikonki na tabletowych rozdzielczościach",
-                "show_icons_only_on_mobile": "Wyświetlaj tylko ikonki w widoku mobilnym"
+                "show_icons_only_on_tablet": "Wyświetlaj tylko ikonki na tabletowych rozdzielczościach"
             }
         },
         "ref": {

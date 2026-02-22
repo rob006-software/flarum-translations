@@ -72,6 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "Nimen vaihtopyyntöjä ei löytynyt.",
+                "group_label": "",
                 "nickname_item_text": "{name} pyysi nimimerkin vaihtoa",
                 "nickname_exerpt": "Pyydetty nimimerkki: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -98,8 +99,8 @@
         "email": {
             "body": {
                 "noReasonProvided": "Syytä ei annettu.",
-                "approved": "Hei {recipient_display_name},\n\nPyysit käyttäjätunnuksen vaihtoa. Uuden käyttäjätunnuksen \"{new_username}\" hyväksyi {actor_display_name}.\n\nVoit nyt kirjautua sisään käyttäen uutta käyttäjätunnustasi: {login_url}\n",
-                "rejected": "Hei {recipient_display_name},\n\nKäyttäjätunnuksen vaihto tunnuksesta \"{old_username}\" tunnukseen \"{requested_username}\" on hylätty käyttäjän {actor_display_name} toimesta.\n\nSyy: {reason}\n"
+                "approved": "",
+                "rejected": ""
             },
             "subject": {
                 "approved": "{display_name} hyväksyi käyttäjätunnuksen vaihdon tunnukseksi {requested_username}",

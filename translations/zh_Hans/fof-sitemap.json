@@ -30,9 +30,7 @@
                 "include_changefreq_help": "Google会忽略修改频率值，但其他搜索引擎可能会使用这些值来安排抓取时间",
                 "modes": {
                     "runtime": "运行时",
-                    "multi_file": "多文件",
-                    "cache": "缓存",
-                    "cache_disk": "磁盘"
+                    "multi_file": "多文件"
                 },
                 "frequency": {
                     "hourly": "每小时一次",
@@ -54,10 +52,7 @@
                             "minimum_item_threshold_help": "一个标签旗下至少要有多少个主题帖，才能在站点地图中被索引。"
                         }
                     }
-                },
-                "mode_help_cache_disk_label": "缓存模式/磁盘模式",
-                "mode_help_cache_disk": "适用于中小型论坛，比如允许 cronjobs（计划任务） 和启用了 Flarum 调度器的主机环境下（见下文），主题数、用户数、标签数和页面数总和少于 5 万（最终生成的对应链接数小于 5 万）。",
-                "title": "FoF 站点地图"
+                }
             }
         }
     }

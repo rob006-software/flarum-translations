@@ -11,10 +11,14 @@
             "modal": {
                 "title": "İfadeler",
                 "anonymous_count": "{count, plural, one {# bilinmeyen kullanıcı} other {# bilinmeyen kullanıcılar}}",
-                "no_reactions": "Henüz tepki yok"
+                "no_reactions": "Henüz tepki yok",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "İfadeleri Göster",
-            "react_button_label": "Tepki"
+            "react_button_label": "Tepki",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Görünüm",
                         "identifier": "İfade"
                     },
-                    "delete_confirmation": "Bu reaksiyonu silmek istediğinizden emin misiniz? Bu eylem geri alınamaz."
+                    "delete_confirmation": "Bu reaksiyonu silmek istediğinizden emin misiniz? Bu eylem geri alınamaz.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Uzantıyı güncellediyseniz, ifadelerin dönüştürülmesi gerekmektedir. Eğer yeni yüklediyseniz bu mesajı görmezden gelebilirsiniz.",

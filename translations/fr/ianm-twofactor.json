@@ -94,7 +94,8 @@
             },
             "status_type": {
                 "enabled": "activé",
-                "disabled": "désactivé"
+                "disabled": "désactivé",
+                "device_changed": ""
             }
         },
         "views": {
@@ -112,16 +113,6 @@
             "data": {
                 "twofactordata": {
                     "export_description": "Exporte le statut A2F et les codes de sauvegarde chiffrés.",
-                    "delete_description": "Supprime toutes les données relatives à l'A2F."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "twofactordata": {
-                    "export_description": "Exporte le statut de l'A2F et les codes de sauvegarde chiffrés.",
                     "delete_description": "Supprime toutes les données relatives à l'A2F."
                 }
             }

@@ -1,6 +1,11 @@
 {
     "flarum-nicknames": {
         "admin": {
+            "basics": {
+                "display_name_driver_options": {
+                    "nickname": ""
+                }
+            },
             "permissions": {
                 "edit_own_nickname_label": "Saját becenév szerkesztése"
             },
@@ -13,12 +18,7 @@
                 "set_on_registration_label": "Becenevek beállításának engedélyezése a regisztráció során",
                 "unique_label": "Egyedi becenevek megkövetése"
             },
-            "wrong_driver": "A bővítmény életbe léptetéséhez a „becenevet” kell választania a megjelenítendő név meghajtójaként az <a><strong>Alapok oldalon</strong></a>.",
-            "basics": {
-                "display_name_driver_options": {
-                    "nickname": "Becenév"
-                }
-            }
+            "wrong_driver": "A bővítmény életbe léptetéséhez a „becenevet” kell választania a megjelenítendő név meghajtójaként az <a><strong>Alapok oldalon</strong></a>."
         },
         "api": {
             "invalid_nickname_message": "A becenév érvénytelen. Lépjen kapcsolatban a fórum rendszergazdájával, hogy megtudja a becenevek szabályait."

@@ -11,7 +11,6 @@
                     "tags": "",
                     "general": "Ümumi",
                     "reminders": "Xatırlatmalar",
-                    "search": "",
                     "advanced": "Qabaqcıl",
                     "reminders_notice": "Xatırlatmaların işləməsi üçün Flarum planlayıcısını düzgün qurmalısınız."
                 },
@@ -36,17 +35,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
-                "solution_search": "",
-                "solution_search_help": "",
-                "remove_solutions_from_main_search": "",
-                "remove_solutions_from_main_search_help": "",
-                "display_tags": "",
-                "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
-                "allow_select_own_post": "Öz yazını seç",
-                "allow_select_own_post_help": "OP -nin müzakirədə öz yazılarından birini ən yaxşı cavab olaraq seçməsinə icazə verin",
-                "introduction": "<code> flarum/tags </code> -də Ən Yaxşı Cavabları dəstəkləmək üçün hansı etiketləri aktivləşdirin və isteğe bağlı olaraq hansı etiketlərin xatırlatıcıları dəstəkləməsi lazımdır. Bir etiket Ən Yaxşı Cavab aktiv olduqda, cavabları təyin edə biləcək hər bir istifadəçi qrupuna icazə verin (öz müzakirəsi, hər hansı bir müzakirə). İcazələr qlobal olaraq təyin edilə bilər (hər hansı bir Ən Yaxşı Cavab verilə bilən etiket üçün) və ya hər etiketə görə.\n"
+                "discussion_sidebar_jump_button_help": ""
             },
             "edit_tag": {
                 "qna_label": "Bu etiketdə ən yaxşı cavabları təyin edin",
@@ -90,10 +80,6 @@
             "user": {
                 "best-answer-count": ""
             },
-            "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
-            },
             "discussion": {
                 "jump_to_best_answer_button": ""
             }
@@ -108,6 +94,13 @@
                 "awarded": "",
                 "ba-set": "",
                 "select": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

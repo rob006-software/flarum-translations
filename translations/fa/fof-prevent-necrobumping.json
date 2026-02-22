@@ -2,28 +2,26 @@
     "fof-prevent-necrobumping": {
         "forum": {
             "composer": {
-                "warning": {
-                    "title": "این بحث برای بیشتر از <b>{time}</b> قبل است.",
-                    "description": "بسیار محتمل است که نیازی به بحث بیشتر نداشته باشد و بنابراین ضربه زدن به آن هیچ هدفی ندارد.",
+                "inactive_discussion_alert": {
+                    "title": "",
+                    "description": "",
                     "cta": "",
                     "cta_button": "",
-                    "checkbox_label": "من می دانم که این بحث نسبتا قدیمی است، اما هنوز هم می خواهم پاسخ بدهم.",
-                    "error": "این بحث برای پاسخ دادن به آن خیلی قدیمی است."
-                }
+                    "confirmation": ""
+                },
+                "error": ""
             }
         },
         "admin": {
             "settings": {
+                "general_heading": "",
+                "days_label": "",
+                "days_help": "",
                 "show_discussion_cta_label": "",
                 "show_discussion_cta_help": "",
-                "days_label": "روزها",
-                "days_help": "",
-                "message_title_label": "",
-                "message_title_help": "",
-                "message_description_label": "",
-                "message_agreement_label": "",
                 "tags_title": "",
-                "tags_help": ""
+                "tags_help": "",
+                "tags_placeholder": ""
             }
         }
     }

@@ -30,9 +30,10 @@
                 "disable-download-logging": "Onemogoči beleženje vseh prenosov, ki jih izvajajo uporabniki foruma. Če je omogočeno, lahko v prihodnosti vidite število prenosov in druge statistične podatke.\n",
                 "disable-hotlink-protection": "Zaščita pred hotlinkom preprečuje odpiranje prenosov z drugih strani. Trenutna metoda zahteva csrf žeton in id objave.\n",
                 "download_templates": "Predloge za prenos določajo, kako so naložene datoteke prikazane na vašem forumu, na primer kot predogledi, gumbi. Trenutno so na voljo:\n",
-                "mime_types": "Tukaj konfigurirajte svojo preslikavo. Vsaka regularna izraza mime tipa bo obdelal določen nalagalni adapter in predloga za prenos.\n",
+                "mime_types": "",
                 "resize": "Izberite, ali želite slike zmanjšati, preden jih naložite. Izberete lahko največjo širino in višino v slikovnih pikah. Postopek zmanjševanja ohrani razmerje stranic slik.\n",
                 "client_extension": "Privzeto bo nalagalna razširitev izbrala varno končnico datoteke glede na MIME tip.\nZa nekatere vrste datotek, ki temeljijo na ZIP ali binarnih podatkih, lahko to povzroči uporabo generičnih končnic namesto pričakovane.\nTukaj lahko vnesete seznam končnic datotek, ki bodo ohranjene nespremenjene.\n",
+                "thumbnails": "",
                 "watermark": "Izberite, ali bodo slikam med nalaganjem dodane vodne oznake. Vodne oznake se dodajo za datoteke, ki niso GIF, glede na vaše nastavitve spodaj.\n",
                 "s3_compatible_storage": "Naslednje nastavitve so potrebne le pri uporabi shranjevanja, združljivega z S3. Če uporabljate AWS, jih lahko pustite prazne.\n",
                 "s3_acl": "ACL, ki se uporablja za naložene predmete (privzeto: zasebno). Za možne vrednosti glejte https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Največja velikost datoteke (v kilobajtih)",
                     "mime_types": "Konfigurirajte mime tipe, preslikavo nalagalnega adapterja",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Splošne nastavitve",
                     "php_ini_values": "Vaše <code>php.ini</code> vrednosti so <code>post_max_size={post}</code> in <code>upload_max_filesize={upload}</code>. Prepričajte se, da je tukaj nastavljena vrednost nižja od teh mej, ali jih ustrezno prilagodite. Če uporabljate <code>Nginx</code>, poskrbite, da je <code>client_max_body_size</code> ustrezne velikosti za vašo izbrano največjo omejitev."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Razširitve datotek, ki jih poda uporabnik"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Naloži svojo vodno oznako",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Položaj vodne oznake",
+                    "size_percent": "",
                     "title": "Vodne oznake na slikah",
                     "toggle": "Vodne oznake na slikah"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Preveri MIME tip datoteke"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Prenos datotek",
-                "upload_label": "Nalaganje datotek",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Ogled uporabniških naloženih datotek",
                 "delete_uploads_of_others_label": "Izbris naloženih datotek drugih uporabnikov",
                 "upload_shared_label": "Nalaganje skupnih datotek",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/združljivo",
-                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Lokalno",
                 "ovh-svfs": "OVH SVFS",
@@ -181,6 +197,7 @@
             "text_preview": {
                 "expand": "Razširi predogled",
                 "collapse": "Strni predogled",
+                "download": "",
                 "error": "Napaka pri prikazu predogleda datoteke. Morda je bila izbrisana ali pa je ID datoteke neveljaven.\n",
                 "no_snippet_preview": "<predogled se bo prikazal tukaj po objavi>",
                 "no_snippet": "<predogledna koda ni na voljo>"
@@ -189,6 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Nalaganje datotek te vrste ni dovoljeno.",
+                "mime_permission_denied": "",
                 "unsupported_type": "Nalagalni adapter ne podpira podanega mime tipa: {mime}.",
                 "could_not_detect_mime": "MIME tip te datoteke ni bilo mogoče zaznati, poskusite znova.",
                 "max_upload_file_size_ini": "Dosežena omejitev največje velikosti datoteke iz php.ini.",
@@ -240,17 +258,6 @@
                     "hide_fail": "Ni bilo mogoče narediti datoteke \"{fileName}\" zasebne",
                     "show_fail": "Ni bilo mogoče narediti datoteke \"{fileName}\" javne",
                     "loading": "Naredim datoteko zasebno..."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "uploads": {
-                    "export_description": "Vse datoteke, ki jih je naložil uporabnik.",
-                    "anonymize_description": "Odstrani sklic na uporabnika iz naloženih datotek. Datoteke ostanejo dostopne uporabnikom, ki so jih videli pred anonimizacijo.",
-                    "delete_description": "Izbriše vse datoteke, ki jih je naložil uporabnik."
                 }
             }
         }

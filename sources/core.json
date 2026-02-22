@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "Configure advanced settings for your forum.",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "Begin Bisect",
+                        "continue_button_text": "Continue Bisect",
+                        "label": "Extension Bisect",
+                        "help": "Helps to identify the extension causing some issue you observed. This automatically puts the forum in maintenance mode (low) until the process is over."
+                    },
+                    "bisect_modal": {
+                        "description": "This puts the forum in maintenance mode (low) until the process is over. In each step some extensions will be disabled until we find the one causing the issue. So do not be surprised to see missing features or different theme design. Keep this page open, and try to reproduce the issue after each step in a separate page. You can always come back to this page if you mistakenly close it.\n",
+                        "end_button": "Close and go to extension page",
+                        "issue_question": "Does the issue still occur?",
+                        "issue_question_help": "Try reproducing the issue in a separate page and answer based on the result.",
+                        "no_button": "No",
+                        "result_description": "Forum is no longer in maintenance mode. Extension bisect is over. Based on your responses to each step, the cause of the issue is the following extension:\n",
+                        "start_button": "Start bisect",
+                        "stop_button": "Stop bisect",
+                        "steps_left": "Steps left: {steps}",
+                        "total_steps": "This will take around {steps} steps.",
+                        "title": "Extension Bisect",
+                        "yes_button": "Yes"
+                    },
+                    "config_override": {
+                        "label": "Your <code>config.php</code> file is overriding these settings.",
+                        "help": "You can still change these settings here, but they will not take effect until you set <code>offline</code> to <code>0</code> in your <code>config.php</code> file."
+                    },
+                    "help": "Put your forum in maintenance mode to prevent users from accessing it.",
+                    "options": {
+                        "none": "No maintenance.",
+                        "high": "High maintenance mode. No one can access the forum (can only be enabled through config.php)",
+                        "low": "Low maintenance mode. Admins can access the forum.",
+                        "safe": "Safe mode. No extensions are booted and only admins can access the forum."
+                    },
+                    "safe_mode_extensions": "Extensions allowed to boot during safe mode",
+                    "safe_mode_extensions_override_help": "This setting is overridden by the <code>safe_mode_extensions</code> key in your <code>config.php</code> file. (<b>{extensions}</b>)",
+                    "section_label": "Maintenance"
+                },
+                "fontawesome": {
+                    "section_label": "FontAwesome Icons",
+                    "source_label": "Icon Source",
+                    "source_help": "Choose how FontAwesome icons are loaded. Local uses bundled fonts, CDN loads from a CDN, and Kit uses FontAwesome Kits with custom icons.",
+                    "source_local": "Local (Bundled)",
+                    "source_cdn": "CDN",
+                    "source_kit": "FontAwesome Kit",
+                    "cdn_url_label": "CDN URL",
+                    "cdn_url_help": "Full URL to the FontAwesome CSS file on a CDN",
+                    "kit_url_label": "Kit URL",
+                    "kit_url_help": "Your FontAwesome Kit script URL (from kit.fontawesome.com)",
+                    "config_override": {
+                        "label": "Config Override",
+                        "help": "FontAwesome settings are currently set in your config.php file and cannot be changed here."
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": "Search configuration to use"
+                },
+                "queue": {
+                    "section_label": "Queue",
+                    "sync_info": "Your forum is using the synchronous queue driver. Jobs are processed immediately in the main process thread.",
+                    "sync_help": "For better performance and user experience, consider using the database queue driver. Learn more in the documentation.",
+                    "custom_driver": "Your forum is using the {driver} queue driver, which is provided by an extension.",
+                    "retries_label": "Job Retries",
+                    "retries_help": "Maximum number of times to attempt a job before marking it as failed. Default is 1.",
+                    "memory_label": "Memory Limit (MB)",
+                    "memory_help": "Maximum memory the queue worker can use before restarting. Default is 128 MB.",
+                    "timeout_label": "Job Timeout (seconds)",
+                    "timeout_help": "Maximum time a single job can run before timing out. Default is 60 seconds.",
+                    "rest_label": "Rest Time (seconds)",
+                    "rest_help": "Time to wait between processing jobs. Default is 0 seconds.",
+                    "backoff_label": "Backoff (seconds)",
+                    "backoff_help": "Time to wait before retrying a failed job. Default is 0 seconds."
+                },
+                "search": {
+                    "section_label": "Search Drivers",
+                    "driver_heading": "Search Driver: {model}",
+                    "driver_text": "Select a driver to be used for searching this model.",
+                    "driver_options": {
+                        "default": "Default database search"
+                    },
+                    "no_other_drivers": "No search drivers are available yet. Install a search driver extension to be able to configure it."
+                },
+                "title": "Advanced"
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "Allow users to choose their own color scheme",
                 "colored_header_label": "Colored Header",
                 "colors_heading": "Colors",
                 "colors_primary_label": "Primary Color",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "The @import and data-uri features are not allowed in custom LESS.",
                 "custom_styles_heading": "Custom Styles",
                 "custom_styles_text": "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's default styles.",
-                "dark_mode_label": "Dark Mode",
                 "description": "Customize your forum's colors, logos, and other variables.",
                 "edit_css_button": "Edit Custom CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "Upload an image to be displayed as the forum's shortcut icon.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload an image to be displayed in place of the forum title.",
-                "title": "Appearance"
+                "title": "Appearance",
+                "color_scheme_label": "Color Scheme (default)",
+                "color_schemes": {
+                    "auto_mode_label": "User system or configured preference",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Default Language",
                 "description": "Set your forum title, language, and other basic settings.",
+                "display_name_driver_options": {
+                    "username": "Username"
+                },
                 "display_name_heading": "User Display Name",
                 "display_name_text": "Select the driver that should be used for users' display names. By default, the username is shown.",
                 "forum_description_heading": "Forum Description",
@@ -38,6 +133,16 @@
                 "home_page_heading": "Home Page",
                 "home_page_text": "Choose the page which users will first see when they visit your forum.",
                 "show_language_selector_label": "Show language selector",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "ID with slug",
+                        "utf8": "ID with UTF-8 slug"
+                    },
+                    "users": {
+                        "default": "Username",
+                        "id": "ID"
+                    }
+                },
                 "slug_driver_heading": "Slug Driver: {model}",
                 "slug_driver_text": "Select a driver to be used for slugging this model.",
                 "title": "Basics",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "Dashboard",
+                "toggle_advanced_page_button": "Toggle Advanced Page",
                 "tools_button": "Tools"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "Configure the driver, settings and addresses your forum will use to send email.",
                 "driver_heading": "Choose a Driver",
                 "driver_label": "Driver",
+                "format": {
+                    "multipart_option": "Multipart (recommended)",
+                    "plain_option": "Plain Text",
+                    "html_option": "HTML"
+                },
+                "format_heading": "Outgoing Email Format",
+                "format_help": "Choose the format that outgoing emails will be sent in. The recommended option is <code>multipart</code>, as this will allow your user's email client to display the most appropriate format.",
                 "from_label": "Sender",
                 "mail_encryption_label": "Encryption",
+                "mail_encryption_tls_help": "Connection starts unencrypted and upgrades to TLS (STARTTLS). Typically used with port 587 or 25.",
+                "mail_encryption_ssl_help": "Connection is encrypted from the start (Implicit TLS). Typically used with port 465.",
+                "mail_encryption_none_help": "No encryption. Not recommended for production use.",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domain",
                 "mail_mailgun_region_label": "Region",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "Test mail sent successfully!",
                 "send_test_mail_text": "This will send an email using the above configuration to your email, {email}.",
                 "smtp_heading": "SMTP Settings",
+                "smtp_description": "Configure SMTP connection settings. Common configurations: Port 587 with TLS, or Port 465 with SSL.",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "This extension has been replaced by {replacement}. Consider migrating to the replacement package.",
                 "configure_scopes": "Configure Scopes",
                 "confirm_purge": "Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?",
+                "database_driver_mismatch": "This extension does not support your configured database driver.",
                 "deprecated": "Deprecated",
                 "disabled": "Disabled",
                 "enable_to_see": "Enable the extension to view and change settings.",
@@ -162,16 +280,26 @@
                     "no_readme": "This extension does not appear to have a README file",
                     "title": "{extName} documentation"
                 },
-                "replaced": "Replaced"
+                "replaced": "Replaced",
+                "safe_mode_warning": "Safe mode is currently enabled. Extensions are not booted and their settings are therefore inaccessible."
             },
             "header": {
                 "get_help": "Get Help",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "Search...",
+                "search_role_label": "Search"
             },
             "loading": {
                 "title": "Please Wait..."
             },
+            "models": {
+                "discussions": "=> core.ref.discussions",
+                "posts": "=> core.ref.posts",
+                "users": "=> core.ref.users"
+            },
             "nav": {
+                "advanced_button": "=> core.admin.advanced.title",
+                "advanced_title": "=> core.admin.advanced.description",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -220,6 +348,7 @@
                 "post_without_throttle_label": "Reply multiple times without waiting",
                 "read_heading": "Read",
                 "remove_scope_label": "Remove scope of {scope}",
+                "remove_scope_confirmation": "Are you sure you want to remove the {scope} scope?",
                 "rename_discussions_label": "Rename discussions",
                 "reply_to_discussions_label": "Reply to discussions",
                 "search_users_label": "=> core.ref.search_users",
@@ -242,8 +371,14 @@
                 "signup_closed_button": "Closed",
                 "signup_open_button": "Open"
             },
+            "search_source": {
+                "general": {
+                    "heading": "General"
+                }
+            },
             "settings": {
                 "saved_message": "Your changes were saved.",
+                "select_dropdown_custom_label": "Custom",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -258,11 +393,6 @@
                         "display_name": {
                             "title": "Display name"
                         },
-                        "edit_user": {
-                            "button": "=> core.ref.edit",
-                            "tooltip": "Edit {username}",
-                            "title": "=> core.ref.edit_user"
-                        },
                         "email": {
                             "title": "=> core.ref.email",
                             "visibility_hide": "Hide email address",
@@ -276,7 +406,11 @@
                             "title": "Joined"
                         },
                         "user_actions": {
-                            "title": "Actions"
+                            "title": "Actions",
+                            "edit_user": {
+                                "button": "=> core.ref.edit",
+                                "tooltip": "Edit {username}"
+                            }
                         },
                         "user_id": {
                             "title": "ID"
@@ -287,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "Invalid"
-                },
-                "pagination": {
-                    "back_button": "Previous page",
-                    "first_button": "Go to first page",
-                    "go_to_page_textbox_a11y_label": "Go directly to page number",
-                    "last_button": "Go to last page",
-                    "next_button": "Next page",
-                    "page_counter": "Page {current} of {total}"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
@@ -359,6 +485,7 @@
                 "empty_text": "It looks as though there are no discussions here.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} replied {ago}",
+                "skip_discussion_list_pane": "Skip the discussion list pane",
                 "started_text": "{username} started {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
                 "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read."
@@ -379,7 +506,6 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profile",
-                "search_clear_button_accessible_label": "Clear search query",
                 "search_placeholder": "Search Forum",
                 "search_role_label": "Search Forum",
                 "session_dropdown_accessible_label": "Toggle session options dropdown menu",
@@ -392,30 +518,31 @@
                 "mark_all_as_read_confirmation": "Are you sure you want to mark all discussions as read?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Refresh",
+                "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "Skip to main content",
                 "toggle_sidenav_dropdown_accessible_label": "Toggle navigation dropdown menu"
             },
             "index_sort": {
                 "latest_button": "Latest",
-                "newest_button": "Newest",
-                "oldest_button": "Oldest",
-                "relevance_button": "Relevance",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Change discussion list sorting",
                 "top_button": "Top"
             },
             "log_in": {
                 "forgot_password_link": "Forgot password?",
-                "invalid_login_message": "Your login details were incorrect.",
+                "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "Remember Me",
+                "remember_me_label": "=> core.ref.remember_me_label",
                 "sign_up_text": "Don't have an account? <a>Sign Up</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Username or Email"
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "Are you sure you want to delete all notifications? This action is not reversable",
+                "delete_all_confirm": "Are you sure you want to delete all notifications? This action is not reversible",
                 "delete_all_tooltip": "Delete all notifications",
                 "discussion_renamed_text": "{username} changed the title",
                 "empty_text": "No Notifications",
@@ -439,6 +566,11 @@
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Toggle post controls dropdown menu"
             },
+            "post_list": {
+                "empty_text": "It looks as though there are no posts here.",
+                "in_discussion_text": "In {discussion}",
+                "load_more_button": "=> core.ref.load_more"
+            },
             "post_scrubber": {
                 "now_link": "Now",
                 "original_post_link": "Original Post",
@@ -452,14 +584,18 @@
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} later"
             },
+            "posts_sort": {
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance"
+            },
+            "posts": {
+                "meta_title_text": "Post search results",
+                "refresh_tooltip": "=> core.ref.refresh"
+            },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
                 "title": "Rename Discussion"
-            },
-            "search": {
-                "all_discussions_button": "Search all discussions for \"{query}\"",
-                "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "{browser} on {os}",
@@ -500,6 +636,14 @@
                 "account_heading": "Account",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "color_scheme_heading": "Color Scheme",
+                "color_schemes": {
+                    "auto_mode_label": "System preference",
+                    "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
+                    "dark_mode_label": "=> core.ref.dark_mode_label",
+                    "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
+                    "light_mode_label": "=> core.ref.light_mode_label"
+                },
                 "notification_checkbox_a11y_label_template": "Receive \"{description}\" notifications via {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
@@ -581,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Circular dependencies detected: {extensions}. Aborting. Please disable one of the extensions and try again.",
+                "db_error_message": "Database query failed. This may be caused by an incompatibility between an extension and your database driver.",
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
                 "extension_initialiation_failed_message": "{extension} failed to initialize, check the browser console for further information.",
+                "extension_runtime_failed_message": "{extension} encountered an error while running. Check the browser console for further information.",
                 "generic_message": "Oops! Something went wrong. Please reload the page and try again.",
                 "generic_cross_origin_message": "Oops! Something went wrong during a cross-origin request. Please reload the page and try again.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
@@ -591,6 +737,48 @@
                 "permission_denied_message": "You do not have permission to do that.",
                 "rate_limit_exceeded_message": "You're going a little too quickly. Please try again in a few seconds.",
                 "render_failed_message": "Sorry, we encountered an error while displaying this content. If you're a user, please try again later. If you're an administrator, take a look in your Flarum log files for more information."
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "allows",
+                    "has": "has",
+                    "is": "is"
+                },
+                "discussions": {
+                    "author": {
+                        "key": "author",
+                        "hint": "username or comma-separated list of usernames"
+                    },
+                    "created": {
+                        "key": "created",
+                        "hint": "2020-12-31 or 2020-12-31..2021-09-30"
+                    },
+                    "hidden": {
+                        "key": "hidden"
+                    },
+                    "unread": {
+                        "key": "unread"
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "discussion",
+                        "hint": "the ID of the discussion"
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "email",
+                        "hint": "example@machine.local"
+                    },
+                    "group": {
+                        "key": "group",
+                        "hint": "singular or plural group names"
+                    }
+                }
+            },
+            "input": {
+                "clear_button": "Clear input"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -602,25 +790,75 @@
             "modal": {
                 "close": "Close"
             },
+            "multi_select": {
+                "placeholder": "Select multiple options"
+            },
             "nav": {
                 "drawer_button": "Open Navigation Drawer"
+            },
+            "notices": {
+                "bisecting": "Running an extension bisect process to determine which extension is causing an issue.",
+                "bisecting_continue": "Continue bisecting",
+                "maintenance_mode_low": "Down for maintenance. Only administrators can access the forum.",
+                "maintenance_mode_safe": "Down for maintenance with safe mode. Only administrators can access the forum and no extensions are booted."
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
-            "datetime_formats": {
-                "humanTimeShort": "D MMM",
-                "humanTimeLong": "ll",
-                "scrubber": "MMMM YYYY"
+            "pagination": {
+                "back_button": "Previous page",
+                "first_button": "Go to first page",
+                "go_to_page_textbox_a11y_label": "Go directly to page number",
+                "last_button": "Go to last page",
+                "next_button": "Next page",
+                "page_counter": "Page {current} of {total}"
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "Add a positive filter",
+                "gambit_minus_button_a11y_label": "Add a negative filter",
+                "title": "Search",
+                "no_results_text": "It looks like there are no results here.",
+                "no_search_text": "You have not searched for anything yet.",
+                "options_heading": "Search options",
+                "placeholder": "Search...",
+                "preview_heading": "Search preview",
+                "search_clear_button_accessible_label": "Clear search query"
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "Search all discussions for \"{query}\"",
+                    "heading": "=> core.ref.discussions"
+                },
+                "posts": {
+                    "all_button": "Search all posts for \"{query}\"",
+                    "heading": "=> core.ref.posts"
+                },
+                "users": {
+                    "heading": "=> core.ref.users"
+                }
             },
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second}, and {third}",
                 "two_text": "{first} and {second}"
             },
+            "user_selection_modal": {
+                "empty_results": "No users found matching your search.",
+                "max_items_to_select": "{count, plural, one {Select up to # user} other {Select up to # users}}",
+                "search_placeholder": "=> core.ref.search_users",
+                "submit_button": "=> core.ref.okay",
+                "title": "Select relevant users"
+            },
             "username": {
                 "deleted_text": "[deleted]"
+            },
+            "datetime_formats": {
+                "fullTime": "LLLL",
+                "humanTimeShort": "D MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY",
+                "userListJoinDate": "LLL"
             }
         },
         "views": {
@@ -657,6 +895,9 @@
                 "csrf_token_mismatch": "You have been inactive for too long.",
                 "csrf_token_mismatch_return_link": "Go back, to try again",
                 "invalid_confirmation_token": "This confirmation link has already been used or is invalid.",
+                "maintenance_mode_link": "Administrator login",
+                "maintenance_mode_message": "This forum is currently down for maintenance. Please check back later.",
+                "maintenance_mode_title": "Maintenance",
                 "not_authenticated": "You do not have permission to access this page. Try again after logging in.",
                 "not_found": "The page you requested could not be found.",
                 "not_found_return_link": "Return to {forum}",
@@ -668,20 +909,40 @@
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
+            "layout": {
+                "skip_to_content": "Skip to content"
+            },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "Are you sure you want to log out of {forum}?",
                 "title": "=> core.ref.log_out"
+            },
+            "log_in": {
+                "invalid_login_message": "=> core.ref.invalid_login_message",
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "=> core.ref.remember_me_label",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in"
             },
             "reset_password": {
                 "confirm_password_label": "Confirm New Password",
                 "new_password_label": "New Password",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "unsubscribe_email": {
+                "title": "Unsubscribe Confirmation",
+                "return_to_forum": "Back to {forumTitle}",
+                "confirm_button": "Confirm",
+                "immediate_helptext": "You will be immediately unsubscribed once you confirm.",
+                "confirm_message": "You have requested to unsubscribe from \"{type}\" email notifications from {forumTitle}.",
+                "success_message": "You have successfully unsubscribed from \"{type}\" notification from {forumTitle}. If you wish to receive them again, please [update your settings]({settingsLink}).",
+                "invalid_message": "This unsubscribe link is invalid or has already been used. For any changes in your email notifications from {forumTitle}, please [check your settings]({settingsLink})."
             }
         },
         "api": {
-            "invalid_username_message": "The username may only contain letters, numbers, and dashes.",
+            "invalid_username_message": "The username may only contain letters, numbers, and dashes. With at least one letter.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "The {filter} filter must be numeric.",
                 "must_not_be_array_message": "The {filter} filter must not be an array.",
@@ -689,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "Hey {displayName},",
+            "signoff": "The {forumTitle} team",
+            "informational": {
+                "default_title": "Information",
+                "footer": "This email was sent to {userEmail} as an informational service related to your account on [{forumTitle}]({forumUrl}).",
+                "footer_plain": "This email was sent to {userEmail} as an informational service related to your account on {forumTitle}."
+            },
+            "notification": {
+                "default_title": "Notification",
+                "footer": {
+                    "main_text": "This email was sent to {email} because you are subscribed to \"{type}\" notifications on [{forumTitle}]({forumUrl}).",
+                    "main_text_plain": "This email was sent to {email} because you are subscribed to \"{type}\" notifications on {forumTitle}.",
+                    "unsubscribe_text": "If you'd like to stop receiving this type of notification, [unsubscribe here]({unsubscribeLink}).",
+                    "unsubscribe_text_plain": "If you'd like to stop receiving this type of notification, unsubscribe here: {unsubscribeLink}",
+                    "settings_text": "Manage your notification settings [here]({settingsLink}).",
+                    "settings_text_plain": "Manage your notification settings here: {settingsLink}"
+                }
+            },
             "activate_account": {
                 "subject": "Activate Your New Account",
-                "body": "Hey {username}!\n\nSomeone (hopefully you!) has signed up to {forum} with this email address.\n\nIf this was you, simply click the following link and your account will be activated:\n{url}\n\nIf you did not sign up, please ignore this email.\n"
+                "body": "Someone (hopefully you!) has signed up to {forum} with this email address.\n\nIf this was you, simply click the following link and your account will be activated:\n{url}\n\nIf you did not sign up, please ignore this email.\n"
             },
             "confirm_email": {
                 "subject": "Confirm Your New Email Address",
-                "body": "Hey {username}!\n\nSomeone (hopefully you!) has changed their email address on {forum} to this one.\n\nIf this was you, simply click the following link and your email will be confirmed:\n{url}\n\nIf this was not you, please ignore this email.\n"
+                "body": "Someone (hopefully you!) has changed their email address on {forum} to this one.\n\nIf this was you, simply click the following link and your email will be confirmed:\n{url}\n\nIf this was not you, please ignore this email.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Hey {username}!\n\nSomeone (hopefully you!) has submitted a forgotten password request for your account on {forum}.\n\nIf this was you, click the following link to reset your password:\n{url}\n\nIf you do not wish to change your password, just ignore this email and nothing will happen.\n"
+                "body": "Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.\n\nIf this was you, click the following link to reset your password:\n{url}\n\nIf you do not wish to change your password, just ignore this email and nothing will happen.\n"
             },
             "send_test": {
                 "subject": "Flarum Email Test",
-                "body": "Hey {username}!\n\nThis is a test email to confirm that your Flarum email configuration is working properly.\n\nIf this was you, this email means that your configuration works!\n\nIf this was not you, please ignore this email.\n"
+                "body": "This is a test email to confirm that your Flarum email configuration is working properly.\n\nIf this was you, this email means that your configuration works!\n\nIf this was not you, please ignore this email.\n"
             }
         },
         "ref": {
@@ -718,6 +997,8 @@
             "custom_footer_title": "Edit Custom Footer",
             "custom_header_text": "Add HTML to be displayed at the very top of the page, above Flarum's own header.",
             "custom_header_title": "Edit Custom Header",
+            "dark_hc_mode_label": "Dark High Contrast Mode",
+            "dark_mode_label": "Dark Mode",
             "delete": "Delete",
             "delete_forever": "Delete Forever",
             "discussions": "Discussions",
@@ -728,6 +1009,9 @@
             "generic_confirmation_message": "Are you sure you want to proceed? This action cannot be undone.",
             "icon": "Icon",
             "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
+            "invalid_login_message": "Your login details were incorrect.",
+            "light_hc_mode_label": "Light High Contrast Mode",
+            "light_mode_label": "Light Mode",
             "load_more": "Load More",
             "loading": "Loading...",
             "log_in": "Log In",
@@ -735,15 +1019,20 @@
             "mark_all_as_read": "Mark All as Read",
             "never": "Never",
             "new_token": "New Token",
+            "newest": "Newest",
             "next_page": "Next Page",
             "notifications": "Notifications",
             "okay": "OK",
+            "oldest": "Oldest",
             "password": "Password",
             "posts": "Posts",
             "previous_page": "Previous Page",
+            "relevance": "Relevance",
+            "remember_me_label": "Remember Me",
             "remove": "Remove",
             "rename": "Rename",
             "reply": "Reply",
+            "refresh": "Refresh",
             "reset_your_password": "Reset Your Password",
             "restore": "Restore",
             "save_changes": "Save Changes",
@@ -754,6 +1043,7 @@
             "some_others": "{count, plural, one {# other} other {# others}}",
             "start_a_discussion": "Start a Discussion",
             "username": "Username",
+            "username_or_email_placeholder": "Username or Email",
             "users": "Users",
             "view": "View",
             "write_a_reply": "Write a Reply...",

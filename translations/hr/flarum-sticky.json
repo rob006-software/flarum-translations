@@ -1,6 +1,11 @@
 {
     "flarum-sticky": {
         "admin": {
+            "settings": {
+                "enable_display_excerpt": "",
+                "only_sticky_unread_discussions_label": "",
+                "only_sticky_unread_discussions_help": ""
+            },
             "permissions": {
                 "sticky_discussions_label": "Priljepljuj rasprave"
             }
@@ -16,6 +21,15 @@
             "post_stream": {
                 "discussion_stickied_text": "{username} je pričvrstio/la temu {time}.",
                 "discussion_unstickied_text": "{username} je odljepio/la temu {time}."
+            }
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "sticky": {
+                        "key": ""
+                    }
+                }
             }
         },
         "ref": {

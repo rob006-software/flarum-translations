@@ -22,7 +22,12 @@
                 "heading": "Огляд черги",
                 "full_dashboard": "Панель Horizon",
                 "refresh": "Оновлення",
-                "last_refresh": "Оновлено {time}",
+                "last_refresh": "",
+                "error": {
+                    "title": "Помилка звʼязку",
+                    "fetch_failed": "Неможливо отримати статистику Horizon. Перевірте конфігурацію Redis.",
+                    "setup_docs": "Переглянути документацію щодо налаштування Redis"
+                },
                 "health": {
                     "excellent": "Відмінно",
                     "good": "Добре",
@@ -30,16 +35,11 @@
                     "critical": "Критично",
                     "tooltip": "Оцінка стану системи: {score}/100"
                 },
-                "error": {
-                    "title": "Помилка звʼязку",
-                    "fetch_failed": "Неможливо отримати статистику Horizon. Перевірте конфігурацію Redis.",
-                    "setup_docs": "Переглянути документацію щодо налаштування Redis"
-                },
                 "data": {
                     "redis-used-memory": "Використана пам'ять Redis",
-                    "redis-memory-usage": "Використання пам'яті кеш-сховища",
                     "redis-peak-memory": "Пікове значення пам'яті Redis",
                     "redis-max-memory": "Максимальна пам'ять Redis",
+                    "redis-memory-usage": "Використання пам'яті кеш-сховища",
                     "redis-memory-policy": "Політика пам'яті Redis",
                     "redis-memory-policy-tooltip": "Політика пам'яті - це спосіб, за допомогою якого Redis вибирає, що видаляти, коли\nдосягнуто ліміту пам'яті maxmemory. За налаштуванням встановлено значення `noeviction`: Нові значення \nне зберігаються при досягненні ліміту пам'яті. Натисніть, щоб переглянути документацію.\n",
                     "redis-ops-per-sec": "Операцій в секунду",
@@ -59,9 +59,7 @@
                     "max-runtime": "Максимальний час роботи",
                     "max-throughput": "Максимальна пропускна здатність",
                     "success-rate": "Рівень успішності",
-                    "failure-rate": "Коефіцієнт відмов",
-                    "redis-cpu-user": "Користувач Redis CPU",
-                    "redis-cpu-sys": "Система Redis CPU"
+                    "failure-rate": "Коефіцієнт відмов"
                 }
             }
         }

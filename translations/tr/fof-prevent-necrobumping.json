@@ -2,28 +2,26 @@
     "fof-prevent-necrobumping": {
         "forum": {
             "composer": {
-                "warning": {
-                    "title": "Bu tartışma <b>{time}</b>'den eski.",
-                    "description": "Bu tartışma oldukça eskimiş ve muhtemelen daha fazla tartışılmaya uygun değil.",
-                    "cta": "Yeni bir tartışma başlatmak ister misiniz?",
-                    "cta_button": "=> core.ref.start_a_discussion",
-                    "checkbox_label": "Bu tartışmanın oldukça eski olduğunu ancak yine de yanıt vermek istediğimi onaylıyorum.",
-                    "error": "Bu tartışma yanıtlayamayacağınız kadar eski."
-                }
+                "inactive_discussion_alert": {
+                    "title": "",
+                    "description": "",
+                    "cta": "",
+                    "cta_button": "",
+                    "confirmation": ""
+                },
+                "error": ""
             }
         },
         "admin": {
             "settings": {
-                "show_discussion_cta_label": "Eylem Çağrısını Göster",
-                "show_discussion_cta_help": "Belirlenen süreden daha eski tartışmalara yanıt verilirken, özel bir açıklama tanımlanmadıysa; kullanıcıya eylem çağrısını göster.",
-                "days_label": "Gün",
-                "days_help": "Bir tartışma, söz konusu tartışmadaki son gönderiden bu yana belirtilen gün sayısı geçtiğinde eski olarak işaretlenir. Varsayılan olarak etkisizleştirmek için <code>0</code> değerini kullanın.",
-                "message_title_label": "Özel Mesaj Başlığı",
-                "message_title_help": "<code>[time]</code> alanına örneğin \"14 gün\" yazın.",
-                "message_description_label": "Mesaj Açıklaması",
-                "message_agreement_label": "Mesaj Onay (Onay Kutusu)",
-                "tags_title": "Etiketler",
-                "tags_help": "Belirli bir etiket için yanıtlamaları geçersiz kıl. Bu alanı boş bırakırsanız varsayılan değer geçerli sayılır. Bir tartışma için farklı etiketlerde alt limit varsa en küçük değer temel alınır."
+                "general_heading": "",
+                "days_label": "",
+                "days_help": "",
+                "show_discussion_cta_label": "",
+                "show_discussion_cta_help": "",
+                "tags_title": "",
+                "tags_help": "",
+                "tags_placeholder": ""
             }
         }
     }

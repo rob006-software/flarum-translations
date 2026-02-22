@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "[برچسب | گفت‌و‌گوی جدید] {title}",
-                "newPostInTag": "[برچسب | ارسالی جدید] {title}",
-                "newDiscussionTag": "[برچسب | برچسب تغییر کرده] {title}"
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "سلام {recipient_display_name}،\n\n{actor_display_name} یک گفت‌وگو با برچسبی که شما دنبال می‌کنید شروع کرده: {discussion_title}\n\nبرای مشاهده این گفت‌وگوی جدید، لینک زیر را بررسی کنید:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "سلام {recipient_display_name}،\n\n{actor_display_name} یک گفت‌وگوی جدید با برچشبی که شما دنبال می‌کنید ارسال کرده: {discussion_title}\n\nجهت مشاهده فعالیت جدید لینک زیر را بررسی کنید:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nتا زمانی که به روزرسانی نشید، آگاهسازی دیگری در باره این گفت‌وگو دریافت نخواهید کد.\n",
-                "newDiscussionTag": "سلام {recipient_display_name}،\n\n{actor_display_name} برچسب گفت‌وگوی {author_display_name} با عنوان {discussion_title} را به یک برچسب که شما دنبال می‌کنید تغییر داد.\n\nجهت مشاهده گفت‌وگوهای تازه لینک زیر را بررسی کنید:\n{discussion_url}\n"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {

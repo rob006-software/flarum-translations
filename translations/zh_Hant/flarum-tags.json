@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "更改「{title}」的標籤",
-                "title": "選擇標籤",
-                "bypass_requirements": "忽略標籤要求",
-                "choose_primary_placeholder": "{count, plural, one {選擇主標籤} other {最多選擇 # 個主標籤}}",
-                "choose_secondary_placeholder": "{count, plural, one {選擇一個次標籤} other {最多選擇 # 個次標籤}}",
-                "submit_button": "好"
+                "title": "選擇標籤"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "已刪除",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "略過標籤要求",
                 "choose_primary_placeholder": "{count, plural, one {選擇一個主標籤} other {選擇#個主標籤}}",
@@ -102,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {再選擇 1 個標籤} other {再選擇 # 個標籤}}",
             "name": "標籤名稱",
             "tags": "標籤"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
         }
     }
 }

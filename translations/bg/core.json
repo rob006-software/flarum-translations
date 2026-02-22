@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "Оцветен заглавен блок",
                 "colors_heading": "Цветове",
                 "colors_primary_label": "Основен цвят",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "В custom LESS не са разрешени @import и data-uri функции.",
                 "custom_styles_heading": "Персонализирани стилове",
                 "custom_styles_text": "Персонализирайте външния вид на вашия форум, като добавите свой собствен код на Less/CSS, който да се прилага върху стиловете по подразбиране на Flarum.",
-                "dark_mode_label": "Тъмен режим",
                 "description": "Персонализирайте цветовете, логата и други променливи на вашия форум.",
                 "edit_css_button": "Редакция на персонализирания CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "Качете изображение, което да бъде показвано като иконка на бърз достъп за форума.",
                 "logo_heading": "Лого",
                 "logo_text": "Качете изображение, което да бъде показвано вместо заглавието на форума.",
-                "title": "Външен вид"
+                "title": "Външен вид",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Език по подразбиране",
                 "description": "Задайте заглавие на форума, език и други основни настройки.",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "Име на потребителя за показване",
                 "display_name_text": "Изберете драйвъра, който трябва да се използва за показване на имената на потребителите. По подразбиране се показва потребителското име.",
                 "forum_description_heading": "Описание на форума",
@@ -38,6 +133,16 @@
                 "home_page_heading": "Начална страница",
                 "home_page_text": "Изберете страницата, която потребителите ще видят първо, когато посетят вашия форум.",
                 "show_language_selector_label": "Показване на избор на език",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "Slug Драйвър: {model}",
                 "slug_driver_text": "Изберете драйвър, който да се използва за създаване на Slug за този модел.",
                 "title": "Основни настройки",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "Табло",
+                "toggle_advanced_page_button": "",
                 "tools_button": "Инструменти"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "Конфигурирайте драйвъра, настройките и адресите, които вашият форум ще използва за изпращане на електронни писма.",
                 "driver_heading": "Изберете Драйвър",
                 "driver_label": "Драйвър",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "Изпращач",
                 "mail_encryption_label": "Криптиране",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "Хост",
                 "mail_mailgun_domain_label": "Домейн",
                 "mail_mailgun_region_label": "Регион",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "Тестовият имейл е изпратен успешно!",
                 "send_test_mail_text": "Това ще изпрати имейл, използвайки горната конфигурация, до вашия имейл {email}.",
                 "smtp_heading": "SMTP настройки",
+                "smtp_description": "",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "",
                 "configure_scopes": "Конфигуриране на обхватите (Scopes)",
                 "confirm_purge": "Изчистването ще премахне всички записи в базата данни и активи, свързани с разширението. То няма да деинсталира разширението; това трябва да се направи чрез Composer. Сигурни ли сте, че искате да продължите?",
+                "database_driver_mismatch": "",
                 "deprecated": "",
                 "disabled": "Деактивирано",
                 "enable_to_see": "Активирайте разширението, за да видите и промените настройките.",
@@ -162,16 +280,26 @@
                     "no_readme": "Това разширение изглежда няма README файл",
                     "title": "{extName} документация"
                 },
-                "replaced": ""
+                "replaced": "",
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "Получете помощ",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "Моля, изчакайте..."
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -220,6 +348,7 @@
                 "post_without_throttle_label": "Отговори множество пъти без да чакаш",
                 "read_heading": "Прочети",
                 "remove_scope_label": "",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "Преименувай дискусиите",
                 "reply_to_discussions_label": "Отговори на дискусии",
                 "search_users_label": "=> core.ref.search_users",
@@ -242,8 +371,14 @@
                 "signup_closed_button": "Затворено",
                 "signup_open_button": "Отворено"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "Вашите промени бяха запазени.",
+                "select_dropdown_custom_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -258,11 +393,6 @@
                         "display_name": {
                             "title": "Показвано име"
                         },
-                        "edit_user": {
-                            "button": "=> core.ref.edit",
-                            "tooltip": "Редактирай {username}",
-                            "title": "=> core.ref.edit_user"
-                        },
                         "email": {
                             "title": "=> core.ref.email",
                             "visibility_hide": "Скриване на имейл адреса",
@@ -276,7 +406,11 @@
                             "title": "Присъединен"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "ID"
@@ -287,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "Невалидно"
-                },
-                "pagination": {
-                    "back_button": "Предишна страница",
-                    "first_button": "Към първата страница",
-                    "go_to_page_textbox_a11y_label": "Отиди директно на страница номер",
-                    "last_button": "Отиди на последна страница",
-                    "next_button": "Следваща страница",
-                    "page_counter": "Страница {current} от {total}"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
@@ -359,6 +485,7 @@
                 "empty_text": "Изглежда няма дискусии тук.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} отговори преди {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} започна дискусията преди {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# отговор} other {# отговори}}",
                 "unread_replies_a11y_label": "{count, plural, one {# непрочетен отговор} other {# непрочетени отговора}}. Отбележете {count, plural, one {отговор} other {отговори}} като прочетени."
@@ -379,7 +506,6 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Профил",
-                "search_clear_button_accessible_label": "Изчистване на заявките за търсене",
                 "search_placeholder": "Търсене във форума",
                 "search_role_label": "Търсене във форума",
                 "session_dropdown_accessible_label": "Превключване на падащото меню с опции за сесията",
@@ -392,30 +518,31 @@
                 "mark_all_as_read_confirmation": "Сигурни ли сте, че искате да отбележите всички дискусии като прочетени?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Опресни",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "Превключете падащото меню за навигация"
             },
             "index_sort": {
                 "latest_button": "Последни",
-                "newest_button": "Най-нови",
-                "oldest_button": "Най-стари",
-                "relevance_button": "Значимост",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Промяна на сортирането на списъка с дискусии",
                 "top_button": "Най-популярни"
             },
             "log_in": {
                 "forgot_password_link": "Забравена парола?",
-                "invalid_login_message": "Данните за вход са невалидни.",
+                "invalid_login_message": "",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "Запомни Ме",
+                "remember_me_label": "",
                 "sign_up_text": "Нямате профил? <a>Регистрирайте се</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Потребителско име или имейл"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
-                "delete_all_confirm": "Сигурни ли сте, че искате да изтриете всички уведомления? Това действие не може да бъде отменено",
+                "delete_all_confirm": "",
                 "delete_all_tooltip": "Изтриване на всички уведомления",
                 "discussion_renamed_text": "{username} промени заглавието",
                 "empty_text": "Няма уведомления",
@@ -439,6 +566,11 @@
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Превключване на падащото меню за контрол на публикацията"
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "Сега",
                 "original_post_link": "Оригинална публикация",
@@ -452,14 +584,18 @@
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} по-късно"
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
                 "title": "Преименувай дискусията"
-            },
-            "search": {
-                "all_discussions_button": "Търсене на всички дискусии за \"{query}\"",
-                "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "{browser} на {os}",
@@ -500,6 +636,14 @@
                 "account_heading": "Профил",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "Получавайте уведомления \"{description}\" чрез {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
@@ -581,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Засечени са циклични зависимости: {extensions}. Прекратяване. Моля, деактивирайте едно от разширенията и опитайте отново.",
+                "db_error_message": "",
                 "dependent_extensions_message": "Не може да се деактивира {extension} докато следните зависими разширения са деактивирани: {extensions}",
                 "extension_initialiation_failed_message": "{extension} не успя да се инициализира, проверете конзолата на браузъра за допълнителна информация.",
+                "extension_runtime_failed_message": "",
                 "generic_message": "Опа! Нещо се обърка. Моля, презаредете страницата и опитайте отново.",
                 "generic_cross_origin_message": "Опа! Нещо се обърка по време на заявка между различни произходи. Моля, презаредете страницата и опитайте отново.",
                 "missing_dependencies_message": "{extension} не може да бъде активирано, докато следните зависимости са активирани: {extensions}",
@@ -591,6 +737,48 @@
                 "permission_denied_message": "Нямате права да направите това.",
                 "rate_limit_exceeded_message": "Вие се движите твърде бързо. Моля, опитайте отново след няколко секунди.",
                 "render_failed_message": "Съжаляваме, но срещнахме грешка при показването на това съдържание. Ако сте потребител, моля, опитайте отново по-късно. Ако сте администратор, проверете вашите Flarum лог файлове за повече информация."
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -602,25 +790,75 @@
             "modal": {
                 "close": "Затвори"
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": "Отвори плъзгача за навигация"
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "К",
                 "mega_text": "М"
             },
-            "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second}, и {third}",
                 "two_text": "{first} и {second}"
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": "[изтрито]"
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": "",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -657,6 +895,9 @@
                 "csrf_token_mismatch": "Изглежда бяхте неактивни твърде дълго време.",
                 "csrf_token_mismatch_return_link": "Моля, върнете се назад, за да опитате отново",
                 "invalid_confirmation_token": "Този линк за потвърждение вече е използван или е невалиден.",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "Нямате права да достъпите тази страница. Опитайте отново след като влезете в профила си.",
                 "not_found": "Страницата, която търсите, не може да бъде намерена.",
                 "not_found_return_link": "Върнете се към {forum}",
@@ -668,20 +909,40 @@
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "Сигурни ли сте, че искате да излезете от {forum}?",
                 "title": "=> core.ref.log_out"
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
+                "title": ""
             },
             "reset_password": {
                 "confirm_password_label": "Потвърдете новата парола",
                 "new_password_label": "Нова парола",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
-            "invalid_username_message": "Потребителското име може да съдържа само букви, цифри и тирета.",
+            "invalid_username_message": "",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Филтърът {filter} трябва да бъде само числа.",
                 "must_not_be_array_message": "Филтърът {filter} не трябва да бъде масив.",
@@ -689,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "Активирайте новия си профил",
-                "body": "Здравейте {username}!\n\nНякой (надявам се, че сте вие!) се е регистрирал в {forum} с този имейл адрес.\n\nАко това сте вие, просто кликнете на следния линк и вашият профил ще бъде активиран:\n{url}\n\nАко не сте се регистрирали, моля, игнорирайте този имейл.\n"
+                "body": ""
             },
             "confirm_email": {
                 "subject": "Потвърдете своя нов имейл адрес",
-                "body": "Здравей {username}!\n\nНякой (надявам се, че това си ти!) е променил своя имейл адрес в {forum} на този.\n\nАко това сте вие, просто кликнете на следния линк и вашият имейл адрес ще бъде потвърден:\n{url}\n\nАко това не сте вие, моля, игнорирайте този имейл.\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Здравей {username}!\n\nНякой (надявам се, че това си ти!) е изпратил заявка за забравена парола за вашия профил в {forum}.\n\nАко това сте вие, кликнете на следния линк, за да възстановите вашата парола:\n{url}\n\nАко не желаете да променяте вашата парола, просто игнорирайте този имейл и нищо няма да се случи.\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "Flarum имейл тест",
-                "body": "Здравейте {username}!\n\nТова е тестово писмо, за да потвърдим, че конфигурацията на вашия Flarum имейл работи правилно.\n\nАко това сте вие, това писмо означава, че вашата конфигурация работи!\n\nАко това не сте вие, моля, игнорирайте това писмо.\n"
+                "body": ""
             }
         },
         "ref": {
@@ -718,6 +997,8 @@
             "custom_footer_title": "Редактирайте персонализираният футър",
             "custom_header_text": "Добавете HTML код, който да се показва в горната част на страницата, над собствения хедър на Flarum.",
             "custom_header_title": "Редактиране на персонализирания хедър",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "Изтриване",
             "delete_forever": "Изтриване завинаги",
             "discussions": "Дискусии",
@@ -728,6 +1009,9 @@
             "generic_confirmation_message": "Сигурни ли сте, че искате да продължите? Това действие не може да бъде отменено.",
             "icon": "Иконка",
             "icon_text": "Въведете името на който и да е <a>FontAwesome</a>, <em>включително</em> префикса <code>fas fa-</code>.",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "Зареждане на още",
             "loading": "Зареждане...",
             "log_in": "Вход",
@@ -735,15 +1019,20 @@
             "mark_all_as_read": "Макрирай всички като прочетени",
             "never": "Никога",
             "new_token": "Нов токен",
+            "newest": "",
             "next_page": "Следваща страница",
             "notifications": "Известия",
             "okay": "ОК",
+            "oldest": "",
             "password": "Парола",
             "posts": "Публикации",
             "previous_page": "Предишна страница",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "Премахни",
             "rename": "Преименуване",
             "reply": "Отговор",
+            "refresh": "",
             "reset_your_password": "Нулирай своята парола",
             "restore": "Възстанови",
             "save_changes": "Запази промените",
@@ -754,6 +1043,7 @@
             "some_others": "{count, plural, one {# друг} other {# други}}",
             "start_a_discussion": "Започни дискусия",
             "username": "Потребителско име",
+            "username_or_email_placeholder": "",
             "users": "Потребители",
             "view": "Преглед",
             "write_a_reply": "Напиши отговор...",

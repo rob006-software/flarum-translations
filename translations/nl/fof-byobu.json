@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Privégesprek] {display_name} heeft je toegevoegd aan een privégesprek"
             },
             "body": {
-                "private_discussion_created": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft een nieuw privégesprek gestart met jou als ontvanger: {discussion_title}.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet je eerst inloggen voordat je toegang kunt krijgen tot deze link.\n",
-                "private_discussion_replied": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft gepost in een privégesprek met jou als ontvanger: {discussion_title}.\n\nBekijk het hier:\n{post_url}\n\nMogelijk moet je eerst inloggen voordat je toegang kunt krijgen tot deze link.\n",
-                "recipient_removed": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft het privégesprek verlaten: {discussion_title} en kan de inhoud ervan niet meer bekijken.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet je eerst inloggen voordat je toegang kunt krijgen tot deze link.\n",
-                "private_discussion_added": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft je toegevoegd aan een bestaand privégesprek: {discussion_title}.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet je eerst inloggen voordat je toegang kunt krijgen tot deze link.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

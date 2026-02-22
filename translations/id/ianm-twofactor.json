@@ -94,7 +94,8 @@
             },
             "status_type": {
                 "enabled": "aktif",
-                "disabled": "tidak aktif"
+                "disabled": "tidak aktif",
+                "device_changed": ""
             }
         },
         "views": {
@@ -108,16 +109,6 @@
         }
     },
     "flarum-gdpr": {
-        "lib": {
-            "data": {
-                "twofactordata": {
-                    "export_description": "Mengekspor status 2FA dan kode cadangan terenkripsi.",
-                    "delete_description": "Menghapus semua data yang terkait dengan 2FA."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
         "lib": {
             "data": {
                 "twofactordata": {

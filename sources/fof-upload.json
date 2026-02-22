@@ -30,9 +30,10 @@
                 "disable-download-logging": "Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.\n",
                 "disable-hotlink-protection": "Hotlink protection prevents opening downloads from other sites. Current method requires a csrf token and post id.\n",
                 "download_templates": "Download templates are how uploads are shown on your forum, eg like previews, buttons. Currently available:\n",
-                "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\n",
+                "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\nOptionally, give each entry a permission label (e.g. \"Images\", \"Videos\") to create a dedicated permission in the permission grid.\nThis lets you restrict which groups may upload specific file types — in addition to the base \"Upload files\" permission which is always required.\n",
                 "resize": "Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.\n",
                 "client_extension": "By default Upload will choose a safe file extension based on the MIME type.\nFor some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.\nHere you can enter a comma-separated list of file extensions that will be kept verbatim.\n",
+                "thumbnails": "Generate a downscaled thumbnail for images at upload time. The thumbnail is shown inline;\nclicking it opens the original full-resolution file in a new tab. Thumbnails significantly\nreduce bandwidth and page weight for forums with many large images.\n",
                 "watermark": "Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.\n",
                 "s3_compatible_storage": "The following settings are only required when using S3 compatible storage. If you use AWS, you can leave them blank.\n",
                 "s3_acl": "The ACL that should be applied to the uploaded object (default: private). For possible values, see https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Maximum file size (in kilobytes)",
                     "mime_types": "Configure your mime type, upload adapter mapping",
+                    "mime_type_regex_placeholder": "e.g. ^image/(jpeg|png|gif)$",
+                    "mime_type_regex_invalid": "Invalid regex (e.g. empty alternatives like ||)",
+                    "mime_type_permission_placeholder": "Permission label (optional, e.g. Images)",
                     "title": "General preferences",
                     "php_ini_values": "Your <code>php.ini</code> values are <code>post_max_size={post}</code> and <code>upload_max_filesize={upload}</code>. Ensure the value set here is below these thresholds, or adjust them accordingly. If using <code>Nginx</code>, also ensure that <code>client_max_body_size</code> is of sufficient size for your chosen max limit."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "User-provided file extensions"
                 },
+                "thumbnails": {
+                    "title": "Image thumbnails",
+                    "toggle": "Generate thumbnails on upload",
+                    "webp_toggle": "Encode thumbnails as WebP (recommended, ~30% smaller)",
+                    "max_width": "Thumbnail max width (px)"
+                },
                 "watermark": {
                     "file": "Upload your watermark image",
+                    "opacity": "Watermark opacity (0–100)",
+                    "padding": "Padding from edge (px)",
                     "position": "Watermark position",
+                    "size_percent": "Watermark size (% of image width)",
                     "title": "Watermark images",
                     "toggle": "Watermark images"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Test file MIME type"
             },
+            "warnings": {
+                "fileinfo_missing": "The PHP <strong>fileinfo</strong> extension is not loaded on this server. FoF Upload will still work, but MIME type cross-validation is disabled, which reduces protection against spoofed file types. Enable the extension in your PHP configuration for best security.\n"
+            },
             "permissions": {
                 "download_label": "Download files",
-                "upload_label": "Upload files",
+                "upload_label": "Upload files (base permission, required for all uploads)",
+                "upload_mime_label": "Upload {label}",
                 "view_user_uploads_label": "View user uploads",
                 "delete_uploads_of_others_label": "Delete user uploads",
                 "upload_shared_label": "Upload shared files",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3 or Compatible",
-                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",
@@ -181,6 +197,7 @@
             "text_preview": {
                 "expand": "Expand preview",
                 "collapse": "Collapse preview",
+                "download": "Download file",
                 "error": "Error previewing file. It may have been deleted, or the provided file ID is invalid.\n",
                 "no_snippet_preview": "<preview will appear here after posting>",
                 "no_snippet": "<no preview snippet available>"
@@ -189,6 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Uploading files of this type is not allowed.",
+                "mime_permission_denied": "You don't have permission to upload this file type.",
                 "unsupported_type": "Upload adapter does not support the provided mime type: {mime}.",
                 "could_not_detect_mime": "Could not detect the MIME type of this file, please try again.",
                 "max_upload_file_size_ini": "Upload max filesize limit reached from php.ini.",

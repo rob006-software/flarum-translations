@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "پربازدید",
-                "unpopular_button": "کم‌بازدید"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "بازنشانی تعداد بازدیدهای گفت‌وگو",
                 "submit": "ثبت",
-                "label": "تنظیم تعداد بازدید به"
+                "label": "تنظیم تعداد بازدید به",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "تنظیم تعداد بازدید"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "نادیده گرفتن بازدیدهای خزنده‌های موتورهای جست و جو"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

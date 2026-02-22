@@ -108,7 +108,8 @@
             "unlink": "",
             "error": {
                 "bad_verification_code": "",
-                "invalid_state": ""
+                "invalid_state": "",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "ට්විටර්",
                 "google": "ගූගල්",
                 "linkedin": "ලින්ක්ඩ්ඉන්"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

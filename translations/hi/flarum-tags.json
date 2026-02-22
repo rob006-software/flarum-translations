@@ -84,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "हटाए गए",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "टैग आवश्यकताओं को बाईपास करें",
                 "choose_primary_placeholder": "{count, plural, one {एक प्राथमिक टैग चुनें} other {# प्राथमिक टैग चुनें}}",
@@ -98,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {एक और टैग चुनें} other {# और टैग चुनें}}",
             "name": "नाम",
             "tags": "टैग"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
         }
     }
 }

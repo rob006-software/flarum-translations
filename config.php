@@ -25,8 +25,7 @@ return [
 		'0.1.0-beta.16',
 	],
 	'supportedVersions' => [
-		'1.7.0',
-		'1.8.0',
-		'1.99.99', // automatically support minor and patch releases
+		'2.0.0-beta.7',
+		'2.99.99', // automatically support minor and patch releases
 	],
 ];

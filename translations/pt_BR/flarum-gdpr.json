@@ -19,12 +19,14 @@
                     "extension_settings_button": "Configurações do GDPR"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Dados da Tabela de Usuários",
                     "help_text": "Na maioria das vezes, quaisquer colunas adicionadas à tabela <code>user</code> serão tratadas automaticamente, tanto para exportação de dados quanto para exclusão.\nNo entanto, existem alguns casos especiais, que estão listados abaixo.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "Integrações GDPR"
+                "gdpr_button": "Integrações GDPR",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Processar solicitações de exclusão",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "Exportar dados para {username}"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Confirme sua solicitação de exclusão de conta",
-                "body": "Olá {display_name}!\n\nAlguém (esperamos que você) acabou de solicitar a exclusão da conta `{display_name}`.\n\nPara confirmar esta ação, siga o link abaixo, após o qual sua solicitação será processada por nossa equipe.\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Exclusão de conta concluída",
-                    "body": "Olá {display_name}!\n\nEsta é uma notificação automática e final de que sua conta foi excluída.\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "Anonimização de conta concluída",
-                    "body": "Olá {display_name}!\n\nEsta é uma notificação automática e final de que sua conta foi anonimizada.\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "Solicitação de exclusão de conta cancelada",
-                "body": "Olá {display_name}!\n\nEsta é uma notificação automática de que sua solicitação para cancelar a exclusão da conta foi processada.\n\nSua conta não será mais excluída.\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "Exportação de dados disponível",
-                "body": "Olá {display_name}!\n\nVocê solicitou uma exportação dos dados da conta para {username}. Esta exportação foi gerada com sucesso e agora está disponível:\n\n{url}\n\nEsta exportação permanecerá disponível até {destroys_at}.\n"
+                "body": ""
             }
         },
         "forum": {

@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Настройка тегов: {title}",
-                "title": "Укажите теги для Вашей дискуссии",
-                "bypass_requirements": "Игнорировать требования для тега",
-                "choose_primary_placeholder": "{count, plural, one {Укажите основной тег} other {Укажите # основных тегов}}",
-                "choose_secondary_placeholder": "{count, plural, one {Укажите больше 1 тега} other {Укажите больше # тегов}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "Укажите теги для Вашей дискуссии"
             },
             "composer_discussion": {
                 "choose_tags_link": "Выбрать теги"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Удалено",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Игнорировать требования для тега",
                 "choose_primary_placeholder": "{count, plural, one {Укажите основной тег} few {Укажите # основных тега} other {Укажите # основных тегов}}",
@@ -102,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Укажите ещё 1 тег} few {Укажите ещё # тега} other {Укажите ещё # тегов}}",
             "name": "Название",
             "tags": "Теги"
-        },
-        "validation": {
-            "attributes": {
-                "name": "имя",
-                "slug": "",
-                "is_hidden": "скрытый",
-                "description": "описание",
-                "color": "цвет",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

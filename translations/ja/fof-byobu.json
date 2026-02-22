@@ -121,10 +121,24 @@
                 "private_discussion_added": "[プライベートスレッド] {display_name}があなたをプライベートスレッドに追加しました"
             },
             "body": {
-                "private_discussion_created": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんがあなたとのプライベートスレッド '{discussion_title}' を開始しました。\n以下のリンクから確認してください。\n{discussion_url}\nこのリンクにアクセスするにはログインが必要です。\n",
-                "private_discussion_replied": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、あなたの参加しているプライベートスレッド '{discussion_title}' に投稿しました。\n以下のリンクから確認してください。\n{discussion_url}\nこのリンクにアクセスするにはログインが必要です。\n",
-                "recipient_removed": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、プライベートスレッド '{discussion_title}' から退出しました。退出したユーザーはプライベートスレッドの内容を確認できなくなります。\n以下のリンクから確認してください。\n{discussion_url}\nこのリンクにアクセスするにはログインが必要です。\n",
-                "private_discussion_added": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、あなたを既存のプライベートスレッド '{discussion_title}' に追加しました。\n以下のリンクから確認してください。\n{discussion_url}\nこのリンクにアクセスするにはログインが必要です。\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Privat Diskussion] {display_name} lade till dig i en privat diskussion"
             },
             "body": {
-                "private_discussion_created": "Hej {recipient_display_name},\n\n{actor_display_name} startade en ny privat diskussion med dig som mottagare: {discussion_title}.\n\nSe det här:\n{discussion_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n",
-                "private_discussion_replied": "Hej {recipient_display_name},\n\n{actor_display_name} postade i en privat diskussion med dig som mottagare: {discussion_title}.\n\nSe det här:\n{post_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n",
-                "recipient_removed": "Hej {recipient_display_name},\n\n{actor_display_name} lämnade den privata diskussionen: {discussion_title}. De kommer inte längre att kunna se något av dess innehåll.\n\nSe det här:\n{discussion_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n",
-                "private_discussion_added": "Hej {recipient_display_name},\n\n{actor_display_name} la till dig i en existerande privat diskussion: {discussion_title}.\n\nSe det här:\n{discussion_url}\n\nDu kan behöva logga in först innan du kan komma åt den här länken.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

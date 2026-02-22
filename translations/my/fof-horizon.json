@@ -23,6 +23,11 @@
                 "full_dashboard": "",
                 "refresh": "",
                 "last_refresh": "",
+                "error": {
+                    "title": "",
+                    "fetch_failed": "",
+                    "setup_docs": ""
+                },
                 "health": {
                     "excellent": "",
                     "good": "",
@@ -30,16 +35,11 @@
                     "critical": "",
                     "tooltip": ""
                 },
-                "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
-                },
                 "data": {
                     "redis-used-memory": "",
-                    "redis-memory-usage": "",
                     "redis-peak-memory": "",
                     "redis-max-memory": "",
+                    "redis-memory-usage": "",
                     "redis-memory-policy": "",
                     "redis-memory-policy-tooltip": "",
                     "redis-ops-per-sec": "",

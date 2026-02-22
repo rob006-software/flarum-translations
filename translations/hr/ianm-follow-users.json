@@ -74,12 +74,33 @@
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "[Prati korisnika] {title}",
-            "new_follower_subject": "[Prati korisnika] Imate novog pratitelja!",
-            "new_post_subject": "[Prati korisnika] Nova objava u temi {title}",
-            "new_discussion_by_user_body": "Bok {recipient_display_name},\n\n{user_display_name} pokrenuo je novu temu: {discussion_title}\n\nZa pregled nove teme, pogledajte sljedeću poveznicu:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
-            "new_follower_body": "Bok {recipient_display_name},\n\n{follower_display_name} vas je počeo pratiti, te će biti obaviješten kada pokrenete novu temu.\n\nZa pregled njihovog profila, pogledajte sljedeću poveznicu:\n\n{profile_url}\n",
-            "new_post_body": "Bok {recipient_display_name},\n\n{user_display_name} je objavio u temi: {discussion_title}\n\nZa pregled nove aktivnosti, pogledajte sljedeću poveznicu:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNećete primati više obavijesti o ovoj temi dok ne budete u tijeku.\n"
+            "new_discussion_by_user": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_follower": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_post": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
         },
         "lib": {
             "following_link": "Praćeni korisnici",
@@ -98,6 +119,11 @@
                 "lurk": {
                     "name": "Prati sve",
                     "description": "Primi obavijest kada <em>{username}</em> pokrene novu temu ili objavi u bilo kojoj temi.\n"
+                }
+            },
+            "gambits": {
+                "followeduser": {
+                    "key": ""
                 }
             }
         }

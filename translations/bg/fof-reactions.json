@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Реакции",
                 "anonymous_count": "{count, plural, one {# анонимен потребител} other {# анонимни потребители}}",
-                "no_reactions": ""
+                "no_reactions": "",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Виж Реакции",
-            "react_button_label": "Реагирай"
+            "react_button_label": "Реагирай",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Покажи",
                         "identifier": "Идентификатор"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Ако току-що сте актуализирали вашето разширение вашата реакция ще трябва да бъде преобразувана. Ако току-що сте инсталирали това разширение, можете да игнорирате това съобщение.",

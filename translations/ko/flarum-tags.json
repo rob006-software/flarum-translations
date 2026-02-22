@@ -46,9 +46,7 @@
                 "edit_tag_label": "",
                 "primary_heading": "기본 태그",
                 "secondary_heading": "보조 태그",
-                "settings_heading": "설정",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
-                "settings_button": "설정"
+                "settings_heading": "설정"
             }
         },
         "forum": {
@@ -58,10 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "{title}에 대한 태그 편집",
-                "title": "게시물에 사용할 태그를 선택합니다",
-                "choose_primary_placeholder": "기본 태그 선택|{count}개의 기본 태그 선택",
-                "choose_secondary_placeholder": "1개 태그 추가 선택|{count}개 태그 추가 선택",
-                "submit_button": "=> core.ref.okay"
+                "title": "게시물에 사용할 태그를 선택합니다"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -89,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "삭제됨",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "태그 요구 사항 우회",
                 "choose_primary_placeholder": "{count, plural, one {기본 태그를 선택하세요} other {기본 태그 #개를 선택하세요}}",
@@ -102,19 +105,7 @@
             "choose_tags": "태그 선택",
             "choose_tags_placeholder": "{count, plural, one {1개의 태그를 더 선택하세요} other {#개의 태그를 더 선택하세요}}",
             "name": "이름",
-            "tags": "태그",
-            "create_tag": "태그 생성"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
+            "tags": "태그"
         }
     }
 }

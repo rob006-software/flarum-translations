@@ -6,6 +6,46 @@
             },
             "settings": {
                 "button": "Configuració",
+                "content-filter": {
+                    "heading": "",
+                    "introduction": "",
+                    "enabled_label": "",
+                    "enabled_help": "",
+                    "user_targeting_heading": "",
+                    "monitor_post_count_label": "",
+                    "monitor_post_count_help": "",
+                    "monitor_hours_old_label": "",
+                    "monitor_hours_old_help": "",
+                    "detectors_heading": "",
+                    "detect_phones_label": "",
+                    "detect_phones_help": "",
+                    "detect_emails_label": "",
+                    "detect_emails_help": "",
+                    "detect_urls_label": "",
+                    "detect_urls_help": "",
+                    "thresholds_heading": "",
+                    "flag_threshold_label": "",
+                    "flag_threshold_help": "",
+                    "spam_threshold_label": "",
+                    "spam_threshold_help": "",
+                    "actions_heading": "",
+                    "auto_unapprove_label": "",
+                    "auto_unapprove_help": "",
+                    "auto_flag_label": "",
+                    "auto_flag_help": "",
+                    "system_user_id_label": "",
+                    "system_user_id_help": "",
+                    "no_action_extensions": "",
+                    "allowlist_heading": "",
+                    "allowed_domains_label": "",
+                    "allowed_domains_help": "",
+                    "blocked_words_heading": "",
+                    "blocked_words_label": "",
+                    "blocked_words_help": "",
+                    "advanced_patterns_heading": "",
+                    "advanced_block_patterns_label": "",
+                    "advanced_block_patterns_help": ""
+                },
                 "default-actions": {
                     "delete_user_label": "Esborrar usuari",
                     "delete_user_help": "Aquesta acció esborrarà el compte d'usuari definitivament. Quan estigui desactivada, només se suspendrà.",
@@ -37,11 +77,12 @@
                     "confidence_help": "La puntuació de confiança és un indicador raonablement bo de que el contingut que es comprova donaria lloc a una activitat no desitjada. Estableix el teu nivell de confiança com a percentatge. Si el camp és igual o superior a aquesta xifra, el registre es bloquejarà, independentment de la prova de \"freqüència\" anterior.",
                     "email_hash_label": "Utilitza l'adreça de correu, com a cadena encriptada hash",
                     "email_hash_help": "Passa un valor codificat hash MD5 de l'adreça de correu electrònic, si no vols passar l'adreça de correu electrònic en si. Aquest mètode evita totes les comprovacions de llistes negres, normalització i ofuscació.",
+                    "block_tor_exit_nodes_label": "",
+                    "block_tor_exit_nodes_help": "",
                     "sfs_lookup_label": "Cerca inscripcions",
                     "sfs_lookup_help": "Si està activat, comprovarem la base de dades StopForumSpam quan un nou usuari es registri al teu fòrum. Si es troba l'usuari (nom d'usuari, adreça IP, correu electrònic) i aquest punt de dades està habilitat juntament amb el nivell de confiança SFS que arriba al teu nivell definit, se li impedirà completar el seu registre.",
                     "report_blocked_registrations_label": "Informar d'inscripcions bloquejades",
-                    "report_blocked_registrations_help": "Quan la funció de cerca d'inscripcions en bloqueja una, informarem de l'intent a StopForumSpam, de manera que l'activitat dels spammers es pugui confirmar millor. Cal establir una clau de l'API StopForumSpam (vegeu més avall).",
-                    "heading": "StopForumSpam"
+                    "report_blocked_registrations_help": "Quan la funció de cerca d'inscripcions en bloqueja una, informarem de l'intent a StopForumSpam, de manera que l'activitat dels spammers es pugui confirmar millor. Cal establir una clau de l'API StopForumSpam (vegeu més avall)."
                 }
             },
             "blocked_registrations": {
@@ -60,6 +101,9 @@
             }
         },
         "forum": {
+            "post": {
+                "flagged_as_spam_text": ""
+            },
             "message": {
                 "stopforumspam": {
                     "blocked": "La teva inscripció ha estat bloquejada perquè s'han trobat detalls de les teves dades a una base de dades de prevenció de correu brossa."

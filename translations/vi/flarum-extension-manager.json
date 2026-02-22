@@ -5,7 +5,7 @@
                 "add_label": "Phương thức xác thực mới",
                 "add_modal": {
                     "host_label": "Máy chủ",
-                    "host_placeholder": "ví dụ: extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "Gửi",
                     "token_label": "Mã token",
                     "type_label": "Kiểu",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Xem lý do tại sao nó không cập nhật lên phiên bản mới nhất.",
                 "install": "Cài tiện ích mở rộng mới",
-                "install_help": "Điền tên gói tiện ích mở rộng để tiếp tục. Bạn có thể nhập <semantic_link>semantic version</semantic_link> bằng định dạng <code>vendor/package-name:version</code>. Truy cập {extiverse} để xem các tiện ích mở rộng.\n",
+                "install_help": "",
                 "proceed": "Thực hiện",
                 "remove": "Gỡ cài đặt",
                 "successful_install": "{extension} đã được cài đặt thành công, đang chuyển hướng..",
@@ -98,11 +98,44 @@
                 "update": "Cập nhật"
             },
             "minor_update_confirmation": {
-                "content": "Điều này cũng sẽ cập nhật mọi tiện ích mở rộng/gói khác có bản cập nhật sẵn có."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Trình quản lý"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "Nhiệm vụ vừa được bắt đầu",
                     "title": "Hàng đợi"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Hãy cẩn thận với người mà bạn cấp quyền truy cập vào khu vực quản trị, trình quản lý tiện ích mở rộng có thể bị kẻ xấu lạm dụng để cài đặt các gói có thể dẫn đến vi phạm bảo mật.",
                 "debug_mode_warning": "Bạn đang chạy ở chế độ gỡ lỗi, trình quản lý tiện ích mở rộng không thể cài đặt và cập nhật các gói phát triển cục bộ đúng cách. Vui lòng sử dụng giao diện dòng lệnh thay thế cho các mục đích như vậy.",
                 "queue_jobs": "Chạy các hành động trong hàng đợi nền",
-                "queue_jobs_help": "Bạn có thể đọc về cách triển khai <a href='{basic_impl_link}'>hàng đợi cơ bản</a> hoặc cách triển khai <a href='{adv_impl_link}'>nâng cao hơn</a>. Đảm bảo phiên bản PHP được sử dụng cho hàng đợi là {php_version}. Đảm bảo <a href='{folder_perms_link}'>quyền đối với thư mục</a> được định cấu hình chính xác.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Số ngày lưu giữ nhiệm vụ",
                 "task_retention_days_help": "Số ngày lưu giữ các nhiệm vụ đã hoàn thành trong cơ sở dữ liệu. Nhiệm vụ cũ hơn này sẽ bị xóa. Đặt thành 0 để giữ tất cả các nhiệm vụ.\n"
             },
             "updater": {
-                "up_to_date": "Mọi thứ đều đã được cập nhật!",
+                "up_to_date": "",
                 "check_for_updates": "Kiểm tra cập nhật",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Đã cập nhật thành công tất cả các gói.",
@@ -163,27 +200,6 @@
             "update_successful": "Cập nhật Flarum thành công.",
             "why_not_modal": {
                 "title": "Tại sao nó không cập nhật"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "độ ổn định tối thiểu",
-                "repositories": "kho lưu trữ",
-                "repositories.*": "kho lưu trữ",
-                "repositories.*.type": "loại kho lưu trữ",
-                "repositories.*.url": "URL kho lưu trữ",
-                "extension_id": "ID tiện ích mở rộng",
-                "update_mode": "chế độ cập nhật",
-                "package": "gói",
-                "version": "phiên bản",
-                "github_oauth": "GitHub OAuth",
-                "github_oauth.*": "GitHub OAuth",
-                "gitlab_oauth": "GitLab OAuth",
-                "gitlab_oauth.*": "GitLab OAuth",
-                "gitlab_token": "GitLab Token",
-                "gitlab_token.*": "GitLab Token",
-                "bearer": "HTTP Bearer",
-                "bearer.*": "HTTP Bearer"
             }
         }
     }

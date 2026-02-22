@@ -3,6 +3,7 @@
         "forum": {
             "modal": {
                 "title": "Sloučit diskuze",
+                "search_discussions_placeholder": "",
                 "ordering_heading": "Pořadí sloučení",
                 "ordering_date_label": "Sloučit příspěvky podle data vytvoření",
                 "ordering_date_help": "Příspěvky ve výsledné diskuzi jsou seřazeny podle data vytvoření",
@@ -17,7 +18,7 @@
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "Vaše diskuze <b>{oldTitle}</b> byla sloučena s touto diskuzí uživatelem {username}.",
+                "discussion_merged": "",
                 "preferences": {
                     "discussion_merged": "Někdo sloučí jednu z mých diskuzí s jinou"
                 }
@@ -52,7 +53,7 @@
         },
         "email": {
             "merged": {
-                "body": "Ahoj {recipient_display_name},\n\nVaše diskuze \"{merged_discussion_title}\" byla sloučena do diskuze \"{discussion_title}\" od uživatele {actor_display_name}.\n\nPro přístup k diskuzi klikněte na následující odkaz:\n{discussion_url}\n",
+                "body": "",
                 "subject": "Vaše diskuze \"{merged_discussion_title}\" byla sloučena"
             }
         }

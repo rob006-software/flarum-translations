@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Réactions",
                 "anonymous_count": "{count, plural, one {# utilisateur anonyme} other {# utilisateurs anonymes}}",
-                "no_reactions": "Il n'y a aucune réaction pour le moment"
+                "no_reactions": "Il n'y a aucune réaction pour le moment",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Voir les réactions",
-            "react_button_label": "Réagir"
+            "react_button_label": "Réagir",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Afficher",
                         "identifier": "Identifiant"
                     },
-                    "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cette réaction ? Cette action ne peut pas être annulée."
+                    "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cette réaction ? Cette action ne peut pas être annulée.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Si vous venez de mettre à jour votre extension, vos réactions devront être converties. Si vous venez d'installer cette extension, vous pouvez ignorer ce message en toute sécurité.",

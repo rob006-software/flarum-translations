@@ -11,7 +11,6 @@
                     "tags": "Parhaan vastauksen avainsanat",
                     "general": "Yleinen",
                     "reminders": "Muistutukset",
-                    "search": "Etsi",
                     "advanced": "Lisäasetukset",
                     "reminders_notice": "Muistutuksia käyttääksesi sinun on täytynyt asettaa Flarumin ajastukset oikein."
                 },
@@ -36,19 +35,8 @@
                 "remind_tags_label": "Muistutettavat avainsanat",
                 "remind_tags_help": "Valitse mistä avainsanoista, jos mistään, lähetetään muistutuksia. Muistutukset lähetetään vain näistä avainsanoista.",
                 "tags_info": "Kun avainsanalla on Parhaat vastaukset käytössä, aseta oikeudet joka ryhmälle, jotka voivat asettaa parhaita vastauksia (omat keskustelut, mitkä tahansa keskustelut). Oikeudet voidaan asettaa yleisesti (mille tahansa Parhaat vastaukset avainsanalle) tai avainsanakohtaisesti.\n",
-                "solution_search": "Vastausten haku",
-                "solution_search_help": "Ota käyttöön mahdollisuus hakea keskustelusta Best Answers lisäosan avulla",
-                "remove_solutions_from_main_search": "Poista kaikki ratkaisut ensisijaisesta hausta",
-                "remove_solutions_from_main_search_help": "Poistaa Parhaiden vastausten keskustelut ensisijaisesta 'kaikki keskustelut' hakutuloksista",
-                "display_tags": "Näytä avainsanat hakutuloksissa",
-                "display_tags_help": "Näyttää avainsana(t) hakutuloksessi Parhaiden vastausten keskusteluissa",
                 "discussion_sidebar_jump_button": "Näytä hyppää parhaaseen vastaukseen nappi keskustelun sivupalkissa",
-                "discussion_sidebar_jump_button_help": "Lisää napin keskustelun sivupalkkiin, josta pääsee parhaaseen vastaukseen.",
-                "allow_select_own_post": "Valitse oma viesti",
-                "allow_select_own_post_help": "Salli käyttäjän valita joku omista viesteistään keskustelun parhaaksi vastaukseksi",
-                "enable_all_tags_button": "Ota käyttöön Parhaat vastaukset kaikille avainsanoille",
-                "enable_all_tags_reminder_button": "Ota käyttöön Parhaiden vastausten muistutukset kaikille avainsanoille",
-                "introduction": "Valitse mitkä avainsanat tukee parhaita vastauksia <code><a>flarum/tags</a></code> osiossa, sekä vaihtoehtoisesti mitkä avainsanat tukeavat muistutuksia. Kun paras vastaus on käytössä, aseta oikeudet ryhmille kuka voi asettaa vastauksen parhaaksi (oma keskustelu, mikä tahansa keskustelu. Oikeudet voi määrittää globaalisti (mihin tahansa parhaan vastauksen hyväksyvään avainsanaan) tai avainsanakohtaisesti.\n"
+                "discussion_sidebar_jump_button_help": "Lisää napin keskustelun sivupalkkiin, josta pääsee parhaaseen vastaukseen."
             },
             "edit_tag": {
                 "qna_label": "Ota parhaat vastaukset käyttöön tälle avainsanalla",
@@ -92,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count, plural, one { {count} paras vastaus} other {{count} parasta vastausta}}"
             },
-            "search": {
-                "discussions_solutions_heading": "Keskustelu, jossa on vastauksia",
-                "all_discussions_solutions_button": "Hae kaikkia keskusteluja vastauksella \"{query}\""
-            },
             "discussion": {
                 "jump_to_best_answer_button": "Näytä paras vastaus"
             }
@@ -110,6 +94,13 @@
                 "awarded": "Hei {recipient_display_name},\n\nHienoa työtä, {actor_display_name} asetti viestisi parhaaksi vastaukseksi keskustelussa: {discussion_title}. Kiitos avustasi!\n\nKatso se täällä: {discussion_url}\n",
                 "ba-set": "Hei {recipient_display_name},\n\n{actor_display_name} asetti parhaan vastauksen keskustelussa: {discussion_title}, jossa olet osallisena.\n\nKatso se täällä: {discussion_url}\n",
                 "select": "Hei {recipient_display_name},\n\nTarkastelemme vain. Sinulla pitäisi jo olla useampi vastaus kysymykseesi keskustelussa: {discussion_title}. Toivottavasti joku niistä vastaa kysymykseesi.\n\nOlisi hyödyllistä muita jäseniä varten, jotta merkitsisit parhaan vastauksen. Se auttaa muita löytämään vastauksen kysymykseen ja se kiittää myös käyttäjää joka auttoi sinua. \n\nKatso keskustelu täällä: {discussion_url} ja valitse paras vastaus (mikäli sellaista on)\n\nKiitos!\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

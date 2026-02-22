@@ -11,10 +11,17 @@
 
 declare(strict_types=1);
 
+use app\components\inheritors\MergeInheritor;
 use app\components\inheritors\SerbianCyrillicToLatinTranslationsInheritor;
 use app\components\inheritors\TranslationsInheritor;
 
 return [
+	'1.x' => [
+		'class' => MergeInheritor::class,
+		'inheritFromLabel' => 'Flarum 1.x',
+		'inheritFromBranch' => 'master',
+		'inheritFromRepositoryPath' => __DIR__ . '/../translations/1.x',
+	],
 	'de@formal' => [
 		'class' => TranslationsInheritor::class,
 		'inheritFromLabel' => 'German informal variant',

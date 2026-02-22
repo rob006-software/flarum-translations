@@ -87,6 +87,8 @@
                     "vote_color": "Color votado",
                     "icon_name": "Icono de voto positivo/negativo",
                     "icon_help": "Coloca cualquier icono de Font-Awesome con el sufijo -up y -down. Ejemplos: arrow, thumbs, chevron",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Permitir solo votos positivos",
                     "first_post_only": "Permitir votos positivos/negativos únicamente en la primera publicación de una discusión",
                     "allow_self_votes": "Los usuarios pueden votar en sus propias publicaciones"
@@ -94,7 +96,7 @@
                 "save_settings": "Guardar configuración",
                 "convert": {
                     "button": "Convertir Me gustas en votos positivos",
-                    "help": "Convierte tus “Me gusta” anteriores de flarum-ext-likes en votos positivos y calcula el interés de todas las discusiones actuales.",
+                    "help": "",
                     "converting": "Tus Me gusta se están convirtiendo. Actualiza tu sitio después de unos minutos para ver que el proceso ha finalizado. (El tiempo de conversión puede demorar un poco dependiendo de la cantidad total de Me gusta en tu foro)",
                     "converted": "Se convirtieron exitosamente todos los {number} Me gusta"
                 },
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "Tu publicación fue votada por {display_name}"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

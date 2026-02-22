@@ -108,7 +108,8 @@
             "unlink": "Poista linkki",
             "error": {
                 "bad_verification_code": "Virheellinen tai vanhentunut token. Yritä uudelleen.",
-                "invalid_state": "Virhellinen tila. Yritä uudelleen."
+                "invalid_state": "Virhellinen tila. Yritä uudelleen.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

@@ -56,10 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Úprava štítků diskuze {title}",
-                "title": "Vyberte štítky pro diskuzi",
-                "choose_primary_placeholder": "{count, plural, one {Zvol hlavní štítek} other {Zvol # hlavních štítků}}",
-                "choose_secondary_placeholder": "{count, plural, one {Přidej ještě jeden štítek} other {Přidej ještě # štítků}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "Vyberte štítky pro diskuzi"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -87,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Smazaný štítek",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Obejít požadavky na štítky",
                 "choose_primary_placeholder": "{count, plural, one {Vyberte hlavní štítek} other {Vyberte # hlavních štítků}}",
@@ -101,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Vyberte ještě 1 štítek} other {Vyberte ještě # štítků}}",
             "name": "Název",
             "tags": "Štítky"
-        },
-        "validation": {
-            "attributes": {
-                "name": "název",
-                "slug": "slug",
-                "is_hidden": "skryté",
-                "description": "popis",
-                "color": "barva",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

@@ -5,7 +5,7 @@
                 "add_label": "Nuovo metodo di autenticazione",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "esempio: extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "Invia",
                     "token_label": "Token",
                     "type_label": "Tipo",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Mostra perché non è stato aggiornato all'ultima versione.",
                 "install": "Installa nuova estensione",
-                "install_help": "Inserisci il nome del pacchetto di estensione per procedere. Puoi specificare una <semantic_link>versione semantica</semantic_link> utilizzando il formato <code>venditore/nome-pacchetto:versione</code>. Visita {extiverse} per sfogliare le estensioni.\n",
+                "install_help": "",
                 "proceed": "Procedi",
                 "remove": "Disinstalla",
                 "successful_install": "{extension} è stata installata correttamente, reindirizzamento..",
@@ -98,11 +98,44 @@
                 "update": "Aggiorna"
             },
             "minor_update_confirmation": {
-                "content": "Ciò aggiornerà anche eventuali altre estensioni/pacchetti con aggiornamenti disponibili."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Gestore"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "Attività appena iniziata",
                     "title": "Coda"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Fai attenzione a chi dai accesso all'area di amministrazione, il gestore delle estensioni potrebbe essere utilizzato in modo improprio da malintenzionati per installare pacchetti che possono portare a violazioni della sicurezza.",
                 "debug_mode_warning": "Stai eseguendo la modalità debug, il gestore estensioni non può installare e aggiornare correttamente i pacchetti di sviluppo locale. Per tali scopi utilizzare invece l'interfaccia della riga di comando.",
                 "queue_jobs": "Esegui operazioni nella coda in background",
-                "queue_jobs_help": "Puoi leggere informazioni sull'implementazione della <a href='{basic_impl_link}'>coda di base</a> o su una <a href='{adv_impl_link}'>più avanzata</a>. Assicurati che la versione PHP utilizzata per la coda sia {php_version}. Assicurati che le <a href='{folder_perms_link}'>autorizzazioni cartella</a> siano configurate correttamente.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Giorni di conservazione attività",
                 "task_retention_days_help": "Il numero di giorni per cui conservare le attività completate nel database. Le attività più vecchie di questa verranno eliminate. Impostato su 0 per mantenere tutte le attività.\n"
             },
             "updater": {
-                "up_to_date": "Tutto è aggiornato!",
+                "up_to_date": "",
                 "check_for_updates": "Controlla aggiornamenti",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Aggiornati con successo tutti i pacchetti.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum aggiornato con successo.",
             "why_not_modal": {
                 "title": "Perché non si aggiorna"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "stabilità minima",
-                "repositories": "repository",
-                "repositories.*": "repository",
-                "repositories.*.type": "tipo repository",
-                "repositories.*.url": "URL repository",
-                "extension_id": "ID estensione",
-                "update_mode": "modalità aggiornamento",
-                "package": "pacchetto",
-                "version": "versione",
-                "github_oauth": "OAuth GitHub",
-                "github_oauth.*": "OAuth GitHub",
-                "gitlab_oauth": "OAuth GitLab",
-                "gitlab_oauth.*": "OAuth GitLab",
-                "gitlab_token": "Token GitLab",
-                "gitlab_token.*": "Token GitLab",
-                "bearer": "Bearer HTTP",
-                "bearer.*": "Bearer HTTP"
             }
         }
     }

@@ -10,6 +10,7 @@
                 "not_authenticated": "Tidak dapat melakukan bind {server} karena kredensial yang tidak valid, ubah pengaturan ekstensi.",
                 "csrf_token_mismatch": "Anda sudah terlalu lama tidak aktif, silakan refresh halaman dan coba lagi",
                 "domains": {
+                    "connection_failed": "",
                     "no_domains": "Pengaturan admin tidak memiliki domain yang ditetapkan, ubah pengaturan ekstensi.",
                     "empty_host": "Domain {domain_index} tidak memiliki alamat IP Domain atau server yang disetel, ubah pengaturan ekstensi.",
                     "empty_base_dn": "Domain {domain_index} tidak memiliki pengaturan Base DNs, ubah pengaturan ekstensi.",
@@ -54,7 +55,7 @@
                         "host": "Domain atau alamat IP server",
                         "host_help": "Dipisahkan dengan koma",
                         "base_dn": "Base DNs",
-                        "base_dn_help": "Dipisahkan dengan titik koma",
+                        "base_dn_help": "",
                         "filter": "Filter untuk diterapkan",
                         "filter_help": "Opsional, harus mengecualikan 'Kolom pencarian' ke dalam filter. Sebagai contoh, memasukkan filter sebagai '(objectclass=user)' dan memilih 'uid' dalam 'Kolom pencarian' akan mengubah filter menjadi '(&(objectclass=user)(uid=[User's Input]))\"",
                         "port": "Port",

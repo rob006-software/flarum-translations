@@ -19,12 +19,14 @@
                     "extension_settings_button": "Nastavení GDPR"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Údaje v tabulce uživatelů",
                     "help_text": "Většina sloupců přidaných do tabulky <code>user</code> je zpracována automaticky — jak pro export, tak pro výmaz.\nExistují však některé speciální případy, které jsou uvedeny níže.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "Integrace GDPR"
+                "gdpr_button": "Integrace GDPR",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Zpracovávat žádosti o výmaz",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "Exportovat data uživatele {username}"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Potvrďte žádost o výmaz účtu",
-                "body": "Ahoj {display_name}!\n\nNěkdo (doufejme že vy) právě požádal o výmaz účtu `{display_name}`.\n\nPro potvrzení této akce prosím otevřete následující odkaz. Poté bude vaše žádost zpracována naším týmem.\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Mazání účtu dokončeno",
-                    "body": "Ahoj {display_name}!\n\nToto je automatické závěrečné oznámení, že váš účet byl smazán.\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "Anonymizace účtu dokončena",
-                    "body": "Ahoj {display_name}!\n\nToto je automatické závěrečné oznámení, že váš účet byl anonymizován.\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "Žádost o výmaz účtu zrušena",
-                "body": "Ahoj {display_name}!\n\nToto je automatické oznámení, že vaše žádost o zrušení výmazu účtu byla zpracována.\n\nVáš účet již nebude smazán.\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "Export dat je k dispozici",
-                "body": "Ahoj {display_name}!\n\nPožádali jste o export dat účtu uživatele {username}. Tento export byl úspěšně vytvořen a je nyní k dispozici:\n\n{url}\n\nExport zůstane dostupný do {destroys_at}.\n"
+                "body": ""
             }
         },
         "forum": {

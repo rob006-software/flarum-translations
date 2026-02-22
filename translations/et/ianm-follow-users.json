@@ -74,12 +74,33 @@
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "[Kasutaja jälgimine] {title}",
-            "new_follower_subject": "[Kasutaja jälgimine] Sul on uus jälgija!",
-            "new_post_subject": "[Kasutaja jälgimine] Uus postitus vestluses {title}",
-            "new_discussion_by_user_body": "Hei {recipient_display_name},\n\n{user_display_name} alustas uut vestlust: {discussion_title}\n\nUut vestlust näed sellelt lingilt:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
-            "new_follower_body": "Hei {recipient_display_name},\n\n{follower_display_name} hakkas sind jälgima, mis tähendab, et talle antakse teada, kui alustad uut vestlust.\n\nNende kasutajaprofiili näed järgnevalt lingilt:\n\n{profile_url}\n",
-            "new_post_body": "Hei {recipient_display_name},\n\n{user_display_name} postitas vestlusesse: {discussion_title}\n\nUue tegevuse vaatamiseks vaata järgnevat linki:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nSa ei saa uusi teavitusi enne, kui oled viimaseid postitusi vaadanud.\n"
+            "new_discussion_by_user": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_follower": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_post": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
         },
         "lib": {
             "following_link": "Jälgitavad kasutajad",
@@ -98,6 +119,11 @@
                 "lurk": {
                     "name": "Jälgi kõiki",
                     "description": "Saa teavitus, kui kasutaja <em>{username}</em> alustab uue vestluse või postitab ükskõik millisesse vestlusesse.\n"
+                }
+            },
+            "gambits": {
+                "followeduser": {
+                    "key": ""
                 }
             }
         }

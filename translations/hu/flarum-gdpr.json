@@ -19,12 +19,14 @@
                     "extension_settings_button": "GDPR beállítások"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Felhasználói adatok táblája",
                     "help_text": "A legtöbb esetben a <code>user</code> táblához adott oszlopok automatikusan kezelve lesznek, az adatok exportálása és törlése esetén is.\nViszont vannak speciális esetek, amelyeket alább soroltunk fel.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "GDPR integrációk"
+                "gdpr_button": "GDPR integrációk",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Törlési kérések feldolgozása",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "{username} adatainak exportálása"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Erősítse meg a fióktörlési kérését",
-                "body": "Kedves {display_name}!\n\nValaki (remélhetőleg Ön) a(z) `{display_name}` fiókja törlését kérte.\n\nA művelet megerősítéséhez kövesse a következő hivatkozást, majd ezután fel fogja dolgozni a csapatunk.\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "A fiók törlése befejeződött",
-                    "body": "Kedves {display_name}!\n\nEz egy automatikus, végső értesítés arról, hogy a fiókja törlésre került.\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "A fiók anonimizálása befejeződött",
-                    "body": "Kedves {display_name}!\n\nEz egy automatikus, végső értesítés arról, hogy a fiókja anonimizálásra került.\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "A fióktörlési kérés lemondva",
-                "body": "Kedves {display_name}!\n\nEz agy automatikus értesítés arról, hogy a fióktörlési kérésének lemondása feldolgozásra került.\n\nA fiókja nem lesz törölve.\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "Az adatexport elérhető",
-                "body": "Kedves {display_name}!\n\nA(z) {username} fiók exportálását kérte. Az export sikeresen előállításra került, és itt érhető el:\n\n{url}\n\nEz az export eddig érhető el: {destroys_at}.\n"
+                "body": ""
             }
         },
         "forum": {

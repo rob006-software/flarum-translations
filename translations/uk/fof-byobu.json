@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Приватне обговорення] {display_name} додав вас до приватної дискусії"
             },
             "body": {
-                "private_discussion_created": "Привіт, {recipient_display_name}!\n\nКористувач {actor_display_name} розпочав нову приватну дискусію з вами як одержувачем: {discussion_title}.\n\nПереглянути тут:\n{discussion_url}\n\nМожливо, вам доведеться спочатку увійти в систему, щоб отримати доступ до цього посилання.\n",
-                "private_discussion_replied": "Привіт, {recipient_display_name}\n\nКористувач {actor_display_name} опублікував у приватній дискусії з вами як одержувачем: {discussion_title}.\n\nПерегляньте тут:\n{post_url}\n\nМожливо, вам доведеться спочатку увійти в систему, щоб отримати доступ до цього посилання.\n",
-                "recipient_removed": "Привіт, {recipient_display_name}!\n\nКористувач {actor_display_name} покинув приватну дискусію: {discussion_title}. Вони більше не зможуть переглядати її вміст.\n\nПереглянути тут:\n{discussion_url}\n\nМожливо, вам доведеться спочатку увійти в систему, щоб отримати доступ до цього посилання.\n",
-                "private_discussion_added": "Привіт, {recipient_display_name}!\n\nКористувач {actor_display_name} додав вас до існуючої приватної дискусії: {discussion_title}.\n\nПереглянути тут:\n{discussion_url}\n\nМожливо, вам доведеться спочатку увійти в систему, щоб отримати доступ до цього посилання.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

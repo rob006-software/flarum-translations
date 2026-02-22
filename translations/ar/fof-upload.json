@@ -33,6 +33,7 @@
                 "mime_types": "",
                 "resize": "",
                 "client_extension": "",
+                "thumbnails": "",
                 "watermark": "",
                 "s3_compatible_storage": "",
                 "s3_acl": "",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "",
                     "mime_types": "",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "",
                     "php_ini_values": ""
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": ""
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "",
+                    "opacity": "",
+                    "padding": "",
                     "position": "",
+                    "size_percent": "",
                     "title": "",
                     "toggle": ""
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": ""
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "",
                 "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "عرض تحميلات المستخدم",
                 "delete_uploads_of_others_label": "حذف تحميلات المستخدم",
                 "upload_shared_label": "",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "",
-                "awss3": "",
                 "imgur": "",
                 "local": "",
                 "ovh-svfs": "",
@@ -181,6 +197,7 @@
             "text_preview": {
                 "expand": "توسيع المعاينة",
                 "collapse": "إخفاء المعاينة",
+                "download": "",
                 "error": "حدث خطأ أثناء معاينة الملف. ربما تم حذفه، أو أن معرف الملف المُدخل غير صالح.",
                 "no_snippet_preview": "",
                 "no_snippet": ""
@@ -189,6 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "لا يسمح برفع ملفات من هذا النوع.",
+                "mime_permission_denied": "",
                 "unsupported_type": "محول التحميل لا يدعم نوع MIME المقدم: {mime}.",
                 "could_not_detect_mime": "تعذر تحديد نوع MIME لهذا الملف، يُرجى إعادة المحاولة.",
                 "max_upload_file_size_ini": "تم الوصول إلى الحد الأقصى لحجم الملف المرفوع من php.ini.",

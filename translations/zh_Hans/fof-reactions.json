@@ -11,10 +11,14 @@
             "modal": {
                 "title": "表情",
                 "anonymous_count": "{count} 位匿名用户",
-                "no_reactions": "暂无反应"
+                "no_reactions": "暂无反应",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "查看表情",
-            "react_button_label": "戳表情"
+            "react_button_label": "戳表情",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "描述",
                         "identifier": "标识名"
                     },
-                    "delete_confirmation": "确定要删除此反应吗？此操作无法撤销。"
+                    "delete_confirmation": "确定要删除此反应吗？此操作无法撤销。",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "如果您刚刚更新本扩展，此操作将转换所有帖子的戳一戳表情。如果您刚刚安装本插件，请忽略本条消息。",

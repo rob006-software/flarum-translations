@@ -11,7 +11,6 @@
                     "tags": "Best Answer Tags",
                     "general": "General",
                     "reminders": "Reminders",
-                    "search": "Search",
                     "advanced": "Advanced",
                     "reminders_notice": "For reminders to function, you must have set up the Flarum scheduler correctly."
                 },
@@ -36,12 +35,6 @@
                 "remind_tags_label": "Reminder Tags",
                 "remind_tags_help": "Select which tags, if any, to send reminders for. Reminders will only be sent for discussions with these tags.",
                 "tags_info": "When a tag is Best Answer enabled, assign permissions to each user group that may set answers (own discussion, any discussion). Permissions may be assigned globally (for any Best Answer anabled tag), or on a per tag basis.\n",
-                "solution_search": "Solution search",
-                "solution_search_help": "Enable the ability to search for discussions with Best Answers",
-                "remove_solutions_from_main_search": "Remove solutions from main search",
-                "remove_solutions_from_main_search_help": "Remove discussions with Best Answers from the main 'all discussions' search results",
-                "display_tags": "Display tags in search results",
-                "display_tags_help": "Display the tag(s) in search results for discussions with Best Answers",
                 "discussion_sidebar_jump_button": "Display jump to Best Answer button in discussion sidebar",
                 "discussion_sidebar_jump_button_help": "Adds a button to the discussion sidebar which jumps to the Best Answer in the stream of posts."
             },
@@ -87,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count, plural, one { {count} best answer} other {{count} best answers}}"
             },
-            "search": {
-                "discussions_solutions_heading": "Discussions with solutions",
-                "all_discussions_solutions_button": "Search all discussions with solutions for \"{query}\""
-            },
             "discussion": {
                 "jump_to_best_answer_button": "View Best Answer"
             }
@@ -105,6 +94,13 @@
                 "awarded": "Hey {recipient_display_name},\n\nGreat job, {actor_display_name} just set your post as the best answer in the discussion: {discussion_title}. Thanks for helping out.\n\nView it here: {discussion_url}\n",
                 "ba-set": "Hey {recipient_display_name},\n\n{actor_display_name} just set a best answer in the discussion: {discussion_title}, which you participated in.\n\nCheck it out: {discussion_url}\n",
                 "select": "Hey {recipient_display_name},\n\nJust checking in; by now you should have plenty of replies to your question: {discussion_title}. Hopefully one of them has helped you solve your problem.\n\nIf so, it would be really helpful for future members if you could set a best answer to your question. It'll help people with the same problem find the answer they need, and it's also a big thank you to the members who helped you out. They give their time voluntarily, so it's nice to let them know that they're doing well.\n\nVisit the discussion here: {discussion_url}, and select the most appropriate post as the best answer.\n\nThanks!\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": "solved"
+                }
             }
         }
     },

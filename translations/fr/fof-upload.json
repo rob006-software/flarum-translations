@@ -30,9 +30,10 @@
                 "disable-download-logging": "Désactivez la journalisation de chaque téléchargement effectué par les utilisateurs de votre forum. En gardant cette option activée, vous pourrez visualiser le nombre de téléchargements en plus d'autres statistiques dans un avenir proche.\n",
                 "disable-hotlink-protection": "La protection contre les liens hypertextes automatiques empêche l'ouverture des téléchargements à partir d'autres sites. La méthode actuelle nécessite un jeton CSRF et un identifiant de publication.\n",
                 "download_templates": "Les modèles de téléchargement indiquent comment les téléchargements sont affichés sur votre forum, comme par exemple des prévisualisations ou des boutons. Actuellement disponible :\n",
-                "mime_types": "Veuillez configurer ici votre mappage. Chaque expression régulière de type MIME sera traitée par un adaptateur de téléchargement et un modèle de téléchargement spécifiques.\n",
+                "mime_types": "",
                 "resize": "Décidez si vous souhaitez redimensionner vos images avant qu'elles ne soient téléchargées. Vous pouvez indiquer une largeur et une hauteur maximales, en pixels. Le processus de redimensionnement conserve le rapport hauteur/largeur des images.\n",
                 "client_extension": "Par défaut, l'extension Upload sélectionnera une extension de fichier sûre en fonction du type MIME.\nPour certains types de fichiers basés sur des données ZIP ou binaires, cela peut entraîner l'utilisation d'extensions génériques au lieu de l'extension attendue.\nVous pouvez saisir ici une liste d'extensions de fichiers, séparées par des virgules, qui seront conservées mot pour mot.\n",
+                "thumbnails": "",
                 "watermark": "Décidez si un filigrane sera ajouté aux images lors du téléchargement. Les filigranes sont ajoutés aux images qui ne sont pas des GIFS en fonction de vos préférences définies ci-dessous.\n",
                 "s3_compatible_storage": "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n",
                 "s3_acl": "L'ACL qui doit être appliquée à l'objet téléchargé (par défaut : privé). Pour les valeurs possibles, veuillez consulter https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Taille maximale du fichier (en kilo-octets)",
                     "mime_types": "Configurez votre type MIME (téléversez la cartographie de téléchargement)",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Préférences générales",
                     "php_ini_values": "Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d'une taille suffisante pour la limite maximale choisie."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Extensions de fichiers fournies par l'utilisateur"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Transférer votre image de filigrane",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Position du filigrane",
+                    "size_percent": "",
                     "title": "Images en filigrane",
                     "toggle": "Images en filigrane"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Type MIME du fichier de test"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Télécharger les fichiers",
-                "upload_label": "Transférer les fichiers",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Afficher les transferts des utilisateurs",
                 "delete_uploads_of_others_label": "Supprimer les transferts des utilisateurs",
                 "upload_shared_label": "Transférer des fichiers partagés",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3 ou compatible",
-                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",
@@ -181,31 +197,16 @@
             "text_preview": {
                 "expand": "Développer l'aperçu",
                 "collapse": "Réduire l'aperçu",
+                "download": "",
                 "error": "Erreur lors de la prévisualisation du fichier. Il a peut-être été supprimé ou l'ID de fichier fourni n'est pas valide.\n",
                 "no_snippet_preview": "<l'aperçu apparaîtra ici après la publication>",
                 "no_snippet": "<aucun extrait d'aperçu disponible>"
-            },
-            "file_list": {
-                "loading": "Chargement des fichiers...",
-                "empty": "Il n'y a aucun fichier à afficher.",
-                "release_to_upload": "Publiez pour transférer",
-                "modal_empty_desktop": "Votre liste de fichiers est vide. Cliquez sur le bouton ou faites glisser un fichier ici pour le transférer.",
-                "modal_empty_phone": "Votre liste de fichiers est vide. Appuyez sur le bouton ci-dessus pour transférer un fichier.",
-                "select_file_a11y_label": "Sélectionnez le fichier « {fileName} »",
-                "confirm_selection_btn": "{fileCount, plural, =0 {Aucun fichier sélectionné} one {Sélectionnez un fichier} other {Sélectionnez des fichiers}}",
-                "load_more_files_btn": "Charger plus de fichiers",
-                "hide_file": {
-                    "btn_a11y_label": "Masquer « {fileName} » du gestionnaire de médias",
-                    "hide_confirmation": "Êtes-vous sûr de vouloir masquer « {fileName} » ? Le fait de masquer un fichier le supprimera uniquement de votre gestionnaire de médias et n'affectera pas les messages existants.",
-                    "hide_success": "Fichier masqué",
-                    "hide_fail": "Impossible de masquer le fichier « {fileName} »",
-                    "loading": "Masquage du fichier..."
-                }
             }
         },
         "api": {
             "upload_errors": {
                 "forbidden_type": "Le transfert de fichiers de ce type n'est pas autorisé.",
+                "mime_permission_denied": "",
                 "unsupported_type": "L'adaptateur de transfert ne prend pas en charge le type MIME fourni : {mime}.",
                 "could_not_detect_mime": "Impossible de détecter le type MIME de ce fichier, veuillez réessayer.",
                 "max_upload_file_size_ini": "La limite de taille maximale des fichiers transférés a été atteinte dans le fichier php.ini.",
@@ -257,17 +258,6 @@
                     "hide_fail": "Impossible de rendre le fichier « {fileName} » privé",
                     "show_fail": "Impossible de rendre le fichier « {fileName} » public",
                     "loading": "En train de rendre le fichier privé…"
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "uploads": {
-                    "export_description": "Tous les fichiers transférés par l'utilisateur.",
-                    "anonymize_description": "Supprime la référence de l'utilisateur des fichiers transférés. Les fichiers eux-mêmes restent accessibles aux utilisateurs qui pouvaient les consulter avant l'anonymisation.",
-                    "delete_description": "Supprime tous les fichiers transférés par l'utilisateur."
                 }
             }
         }

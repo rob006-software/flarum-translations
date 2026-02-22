@@ -72,6 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "No hi ha peticions de canvi de nom.",
+                "group_label": "",
                 "nickname_item_text": "{name} ha demanat un canvi de sobrenom",
                 "nickname_exerpt": "Sobrenom demanat: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -98,8 +99,8 @@
         "email": {
             "body": {
                 "noReasonProvided": "No s'ha especificat cap motiu.",
-                "approved": "Hola, {recipient_display_name}:\n\n{actor_display_name} ha aprovat la teva sol·licitud per canviar el teu nom d'usuari a \"{new_username}\".\n\nAra pots iniciar sessió amb el nou nom d'usuari: {login_url}\n",
-                "rejected": "Hola, {recipient_display_name}:\n\n{actor_display_name} ha rebutjat la teva sol·licitud per canviar el teu nom d'usuari de \"{old_username}\" a \"{requested_username}\".\n\nMotiu: {reason}\n"
+                "approved": "",
+                "rejected": ""
             },
             "subject": {
                 "approved": "{display_name} ha aprovat el teu canvi de nom d'usuari a {requested_username}",

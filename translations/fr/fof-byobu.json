@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Discussion privée] {display_name} vous a ajouté à une discussion privée"
             },
             "body": {
-                "private_discussion_created": "Bonjour {recipient_display_name},\n\n{actor_display_name} a démarré une nouvelle discussion privée avec vous en tant que destinataire : {discussion_title}.\n\nVous pouvez la consulter ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
-                "private_discussion_replied": "Bonjour {recipient_display_name},\n\n{actor_display_name} a publié un message dans une discussion privée dans laquelle vous êtes destinataire : {discussion_title}.\n\nVous pouvez la consulter ici :\n{post_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
-                "recipient_removed": "Bonjour {recipient_display_name},\n\n{actor_display_name} ont quitté la discussion privée : {discussion_title}. Ils ne pourront plus consulter son contenu.\n\nVous pouvez la consulter ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
-                "private_discussion_added": "Bonjour {recipient_display_name},\n\n{actor_display_name} vous a ajouté à une discussion privée existante : {discussion_title}.\n\nVous pouvez la consulter ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

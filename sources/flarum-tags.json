@@ -84,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Deleted",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "tag",
+                        "hint": "name of a tag, or comma-separated list of tag names, or \"untagged\""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Bypass tag requirements",
                 "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
@@ -98,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
             "name": "Name",
             "tags": "Tags"
-        },
-        "validation": {
-            "attributes": {
-                "name": "name",
-                "slug": "slug",
-                "is_hidden": "hidden",
-                "description": "description",
-                "color": "color",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

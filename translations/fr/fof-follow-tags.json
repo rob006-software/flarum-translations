@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "[Étiquette | Nouvelle discussion] {title}",
-                "newPostInTag": "[Étiquette | Nouveau message] {title}",
-                "newDiscussionTag": "[Étiquette | Étiquette modifiée] {title}"
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "Bonjour {recipient_display_name},\n\n{actor_display_name} a démarré une discussion sous une étiquette que vous suivez : {discussion_title}\n\nPour consulter la nouvelle discussion, cliquez sur le lien suivant :\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "Bonjour {recipient_display_name},\n\n{actor_display_name} a publié un message dans une discussion sous une étiquette que vous suivez : {discussion_title}\n\nPour voir cette nouvelle publication, cliquez sur le lien suivant :\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nVous ne recevrez plus de notifications concernant cette discussion jusqu'à ce que vous soyez à jour.\n",
-                "newDiscussionTag": "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de modifier l'étiquette d'une discussion de {author_display_name} par une étiquette que vous suivez {discussion_title}.\n\nPour voir la nouvelle discussion, cliquez sur le lien suivant :\n{discussion_url}\n"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {
@@ -88,16 +105,6 @@
                 "tagsubscription": {
                     "export_description": "Exporte les informations du niveau d'abonnement pour une étiquette, si elle existe.",
                     "anonymize_description": "Supprime l'abonnement de l'utilisateur sur l'étiquette."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "tagsubscription": {
-                    "export_description": "Exporte les informations du niveau d'abonnement pour une étiquette, si elle existe.",
-                    "anonymize_description": "Supprime l'abonnement de l'utilisateur pour l'étiquette."
                 }
             }
         }

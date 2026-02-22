@@ -23,6 +23,15 @@
             "settings": {
                 "notify_discussion_locked_label": "Someone locks a discussion I started"
             }
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "locked": {
+                        "key": "locked"
+                    }
+                }
+            }
         }
     }
 }

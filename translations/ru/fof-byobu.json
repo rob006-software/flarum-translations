@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Переписка] {display_name} добавил(а) Вас в переписку"
             },
             "body": {
-                "private_discussion_created": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} начал(а) новую переписку с Вами. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
-                "private_discussion_replied": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} ответил(а) в переписке, участником которой Вы являетесь. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{post_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
-                "recipient_removed": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} покинул(а) переписку '{discussion_title}'. Этот участник больше не сможет читать сообщения переписки.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
-                "private_discussion_added": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} добавил(а) Вас в существующую переписку. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

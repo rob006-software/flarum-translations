@@ -30,9 +30,7 @@
                 "include_changefreq_help": "Päivitysvälien arvot jätetään huomiotta Googlessa, mutta ne saattavat olla käytössä muiden hakukoneiden indeksoinnin aikataulutuksessa",
                 "modes": {
                     "runtime": "Ajonaikainen",
-                    "multi_file": "Monitiedosto",
-                    "cache": "Välimuisti",
-                    "cache_disk": "Levy"
+                    "multi_file": "Monitiedosto"
                 },
                 "frequency": {
                     "hourly": "Tunneittain",
@@ -54,10 +52,7 @@
                             "minimum_item_threshold_help": "Minimimäärä käyttäjiä keskusteluita jotta se näytetään sivukartasta."
                         }
                     }
-                },
-                "mode_help_cache_disk_label": "Välimuisti/levy tila",
-                "mode_help_cache_disk": "Paras pienille tai keskisuurille foorumeille. Todennäköisesti webhotelleissa, jotka sallii ajastetut tehtävät ja Flarumin (alhaalla lisää) ja jossa on keskusteluita, käyttäjiä, avainsanoja sekä sivuja alle 50 000.",
-                "title": "FoF Sivukartta"
+                }
             }
         }
     }

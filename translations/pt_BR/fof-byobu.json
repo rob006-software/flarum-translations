@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Display Privado] {display_name} adicionou você a uma discussão privada"
             },
             "body": {
-                "private_discussion_created": "Hey, {recipient_display_name},\n\n{actor_display_name} iniciou uma nova discussão privada com você como destinatário: {discussion_title}.\n\nVeja aqui:\n{discussion_url}\n\nTalvez seja necessário fazer login antes de poder acessar este link.\n",
-                "private_discussion_replied": "Hey, {recipient_display_name},\n\n{actor_display_name} postou em uma discussão privada com você como destinatário: {discussion_title}.\n\nVeja aqui:\n{post_url}\n\nTalvez seja necessário fazer login antes de poder acessar este link.\n",
-                "recipient_removed": "Hey, {recipient_display_name},\n\n{actor_display_name} saiu da discussão privada: {discussion_title}. Eles não poderão mais visualizar nenhum conteúdo.\n\nVeja aqui:\n{discussion_url}\n\nTalvez seja necessário fazer login antes de poder acessar este link.\n",
-                "private_discussion_added": "Hey, {recipient_display_name},\n\n{actor_display_name} adicionou você a uma discussão privada existente: {discussion_title}.\n\nVeja aqui:\n{discussion_url}\n\nTalvez seja necessário fazer login antes de poder acessar este link.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

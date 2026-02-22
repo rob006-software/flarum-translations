@@ -1,6 +1,11 @@
 {
     "flarum-sticky": {
         "admin": {
+            "settings": {
+                "enable_display_excerpt": "",
+                "only_sticky_unread_discussions_label": "",
+                "only_sticky_unread_discussions_help": ""
+            },
             "permissions": {
                 "sticky_discussions_label": "דיונים נעוצים"
             }
@@ -16,6 +21,15 @@
             "post_stream": {
                 "discussion_stickied_text": "{username} הנושא ננעץ על ידי.",
                 "discussion_unstickied_text": "{username} הנושא הורד מנעיצה על ידי."
+            }
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "sticky": {
+                        "key": ""
+                    }
+                }
             }
         },
         "ref": {

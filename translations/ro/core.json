@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "Antet Colorat",
                 "colors_heading": "Culori",
                 "colors_primary_label": "Culoarea Principală",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Stiluri Personalizate",
                 "custom_styles_text": "Personalizați aspectul forumului Dvs. adăugând propriul cod LESS/CSS, care se va aplica peste stilurile implicite ale Flarum.",
-                "dark_mode_label": "Mod Întunecat",
                 "description": "Personalizează culorile forumului dvs., logo-urile și alte variabile.",
                 "edit_css_button": "Editează CSS Personalizat",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "Încărcați o imagine care va fi afișată ca și pictograma paginii în navigator.",
                 "logo_heading": "Logo",
                 "logo_text": "Încărcați o imagine care va înlocui titlul forumului.",
-                "title": "Aspect"
+                "title": "Aspect",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Limba Implicită",
                 "description": "Setați titlul, limba și alte setări de bază ale forumului Dvs.",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "Numele de Afișare",
                 "display_name_text": "Selectați driver-ul care trebuie utilizat pentru numele de afișare al utilizatorului. Implicit, este afișat numele utilizatorului.",
                 "forum_description_heading": "Descrierea Forumului",
@@ -38,6 +133,16 @@
                 "home_page_heading": "Pagină de start",
                 "home_page_text": "Alegeți care este prima pagină pe care utilizatorii o vor vedea când vor intra pe forum.",
                 "show_language_selector_label": "Afișarea selectorul de limbă",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "Driver-ul de slug pentru {model}",
                 "slug_driver_text": "Selectați driver-ul pentru slug-ul acestui model.",
                 "title": "Setări de bază",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "Tablou de bord",
+                "toggle_advanced_page_button": "",
                 "tools_button": "Instrumente"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "Configurați driver-ul, setările și adresele pe care forumul Dvs. le va folosi pentru a trimite e-mailuri.",
                 "driver_heading": "Alegeți un driver de e-mail",
                 "driver_label": "Driver de e-mail",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "Expeditor",
                 "mail_encryption_label": "Criptare",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domeniu",
                 "mail_mailgun_region_label": "Regiune",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "E-mailul de testare a fost trimis cu succes!",
                 "send_test_mail_text": "Aceasta va trimite un e-mail utilizând configurația de mai sus către e-mailul Dvs., {email}.",
                 "smtp_heading": "Setări SMTP",
+                "smtp_description": "",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "",
                 "configure_scopes": "Configurați domeniile de aplicare",
                 "confirm_purge": "Curățirea va elimina toate înscrierile din baza de date și activele legate de extensie. Aceasta nu va dezinstala extensia! Dezinstalarea trebuie făcută prin Composer! Sunteți sigur că doriți să continuați?",
+                "database_driver_mismatch": "",
                 "deprecated": "",
                 "disabled": "Dezactivat",
                 "enable_to_see": "Activați extensia pentru a vizualiza și modifica setările.",
@@ -162,16 +280,26 @@
                     "no_readme": "Această extensie nu are setat fișierul README",
                     "title": "Documentația {extName}"
                 },
-                "replaced": ""
+                "replaced": "",
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "Ajutor",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "Vă rugăm, aștepați…"
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -220,6 +348,7 @@
                 "post_without_throttle_label": "Răspunsuri consecutive fără așteptare",
                 "read_heading": "Citire",
                 "remove_scope_label": "",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "Redenumirea discuțiilor",
                 "reply_to_discussions_label": "Răspundere la discuții",
                 "search_users_label": "Căutarea utilizatorilor",
@@ -242,8 +371,14 @@
                 "signup_closed_button": "Închisă",
                 "signup_open_button": "Deschisă"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "Modificările Dvs. au fost salvate.",
+                "select_dropdown_custom_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -258,11 +393,6 @@
                         "display_name": {
                             "title": ""
                         },
-                        "edit_user": {
-                            "button": "=> core.ref.edit",
-                            "tooltip": "Editare {username}",
-                            "title": "=> core.ref.edit_user"
-                        },
                         "email": {
                             "title": "=> core.ref.email",
                             "visibility_hide": "Ascundere adresă de e-mail",
@@ -276,7 +406,11 @@
                             "title": "Înregistrat"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "ID"
@@ -287,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "Nevalid"
-                },
-                "pagination": {
-                    "back_button": "=> core.ref.previous_page",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
-                    "next_button": "=> core.ref.next_page",
-                    "page_counter": "Pagina {current} din {total}"
                 },
                 "search_placeholder": "",
                 "title": "=> core.ref.users",
@@ -359,6 +485,7 @@
                 "empty_text": "Se pare că nu sunt discuții aici.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} a răspuns {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} a publicat {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# răspuns} other {# răspunsuri}}",
                 "unread_replies_a11y_label": "{count, plural, one {# răspuns necitit} other {# răspunsuri necitite}}. Marcați ca necitit/e {count, plural, one {răspuns} other {răspunsuri}} ca citit/e."
@@ -379,7 +506,6 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
-                "search_clear_button_accessible_label": "Ștergere căutare",
                 "search_placeholder": "Căutare Forum",
                 "search_role_label": "Căutare Forum",
                 "session_dropdown_accessible_label": "Comutare meniul derulant cu opțiunile sesiunii",
@@ -392,30 +518,31 @@
                 "mark_all_as_read_confirmation": "Sigur doriți ca toate discuțiile să fie marcate ca citite?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Actualizare",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "Comutare meniul derulant de navigare"
             },
             "index_sort": {
                 "latest_button": "Cele mai actuale",
-                "newest_button": "Cele mai noi",
-                "oldest_button": "Cele mai vechi",
-                "relevance_button": "Cele mai relevante",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Modificare sortarea listei de discuții",
                 "top_button": "Cele mai citite"
             },
             "log_in": {
                 "forgot_password_link": "Ați uitat parola?",
-                "invalid_login_message": "Date de acces incorecte.",
+                "invalid_login_message": "",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "Păstrează-mă conectat",
+                "remember_me_label": "",
                 "sign_up_text": "Nu aveți cont? <a>Înregistrare</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Nume de utilizator sau adresă de e-mail"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
-                "delete_all_confirm": "Sigur dorești să ștergi toate notificările? Această acțiune este permanentă",
+                "delete_all_confirm": "",
                 "delete_all_tooltip": "Șterge toate notificările",
                 "discussion_renamed_text": "{username} a modificat titlul discuției",
                 "empty_text": "Nicio notificare",
@@ -439,6 +566,11 @@
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Comutare meniul derulant cu opțiunile postării"
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "Acum",
                 "original_post_link": "Postarea originală",
@@ -452,14 +584,18 @@
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} mai târziu"
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
                 "title": "Redenumirea discuției"
-            },
-            "search": {
-                "all_discussions_button": "Căutați «{query}» în toate discuțiile",
-                "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "",
@@ -500,6 +636,14 @@
                 "account_heading": "Cont",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "Primește notificări \"{description}\" via {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
@@ -581,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "",
+                "db_error_message": "",
                 "dependent_extensions_message": "Extensia {extension} nu poate fi dezactivată până când următoarele extensii dependente sunt activate: {extensions}",
                 "extension_initialiation_failed_message": "{extension} a eșuat să se inițializeze, verifică consola navigatorului pentru mai multe informații.",
+                "extension_runtime_failed_message": "",
                 "generic_message": "Hopa! Ceva nu a mers. Vă rugăm, încărcați pagina din nou (F5) și încercați din nou.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Extensia {extension} nu poate fi activată până când următoarele dependențe sunt dezactivate: {extensions}",
@@ -591,6 +737,48 @@
                 "permission_denied_message": "Nu aveți permisiunea de a face acest lucru.",
                 "rate_limit_exceeded_message": "Faceți totul prea rapid. Vă rugăm, încercați din nou peste câteva secunde.",
                 "render_failed_message": "Ne pare rău, am întâmpinat o eroare la afișarea conținutului. Dacă sunteți utilizator, vă rugăm să incercați din nou mai târziu. Dacă sunteți administrator, aruncați o privire în fișierele de jurnal pentru mai multe informații."
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -602,25 +790,75 @@
             "modal": {
                 "close": "Închide"
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": "Deschide panoul de navigare"
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
-            "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second} și {third}",
                 "two_text": "{first} și {second}"
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": "[șters]"
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": "",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -657,6 +895,9 @@
                 "csrf_token_mismatch": "Ați fost inactiv de prea mult timp.",
                 "csrf_token_mismatch_return_link": "Mergeți înapoi, pentru a încerca din nou",
                 "invalid_confirmation_token": "Acest link de confirmare a fost deja utilizat sau este nevalid.",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "Nu aveți permisiunea de a accesa această pagină. Încercați din nou după conectare.",
                 "not_found": "Pagina pe care ați solicitat-o nu a putut fi găsită.",
                 "not_found_return_link": "Întoarceți-vă la {forum}",
@@ -668,20 +909,40 @@
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "Sunteți sigur că doriți să vă deconectați de la {forum}?",
                 "title": "=> core.ref.log_out"
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
+                "title": ""
             },
             "reset_password": {
                 "confirm_password_label": "Confirmare parolă nouă",
                 "new_password_label": "Parolă nouă",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
-            "invalid_username_message": "Numele de utilizator poate conține doar litere, cifre, și liniuțe.",
+            "invalid_username_message": "",
             "invalid_filter_type": {
                 "must_be_numeric_message": "",
                 "must_not_be_array_message": "",
@@ -689,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "Activare cont nou",
-                "body": "Salut, {username}!\n\nAceastă adresă de e-mail a fost utilizată pentru înregistrarea pe {forum}.\n\nDacă ați fost Dvs., accesați următorul link pentru activarea contului:\n{url}\n\nDacă nu ați fost Dvs., vă rugăm să ignorați acest e-mail.\n"
+                "body": ""
             },
             "confirm_email": {
                 "subject": "Modificare adresă de e-mail",
-                "body": "Salut, {username}!\n\nAdresa de e-mail asociată contului de pe {forum} a fost modificată cu adresa Dvs.\n\nDacă ați fost Dvs., accesați următorul link pentru confirmarea acesteia:\n{url}\n\nDacă nu ați fost Dvs., vă rugăm să ignorați acest e-mail.\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "=> core.lib.reset_password.title",
-                "body": "Salut, {username}!\n\nA fost solicitată resetarea parolei asociate contului de pe {forum}.\n\nDacă ați fost Dvs., accesați următorul link pentru resetarea parolei:\n{url}\n\nDacă nu ați fost Dvs., vă rugăm să ignorați acest e-mail.\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "E-mail de testare Flarum",
-                "body": "Salut, {username}!\n\nAcesta este un e-mail de testare pentru confirmare că configurațiile adresei de e-mail funcționează corect.\n\nDacă ați fost Dvs., aceasta înseamnă că configurațiile Dvs. funcționează!\n\nDacă nu ați fost Dvs., vă rugăm să ignorați acest e-mail.\n"
+                "body": ""
             }
         },
         "ref": {
@@ -718,6 +997,8 @@
             "custom_footer_title": "Redactare subsol",
             "custom_header_text": "HTML personalizat care va fi afișat în partea de sus a paginii.",
             "custom_header_title": "Redactare antet",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "Ștergere",
             "delete_forever": "Ștergere definitivă",
             "discussions": "Discuții",
@@ -728,6 +1009,9 @@
             "generic_confirmation_message": "",
             "icon": "Iconiță",
             "icon_text": "Introduceți numele iconiței <a>Font Awesome</a> <em>împreună</em> cu prefixul <code>fas fa-</code>.",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "Încarcă Mai Multe",
             "loading": "Se încarcă...",
             "log_in": "Conectare",
@@ -735,15 +1019,20 @@
             "mark_all_as_read": "Marcare toate ca citite",
             "never": "",
             "new_token": "",
+            "newest": "",
             "next_page": "Pagina următoare",
             "notifications": "Notificări",
             "okay": "OK",
+            "oldest": "",
             "password": "Parolă",
             "posts": "Postări",
             "previous_page": "Pagina anterioară",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "Ștergere",
             "rename": "Redenumire",
             "reply": "Răspunde",
+            "refresh": "",
             "reset_your_password": "Restabilire parolă de access",
             "restore": "Restabilire",
             "save_changes": "Salvare",
@@ -754,6 +1043,7 @@
             "some_others": "{count, plural, one {# altul} other {# altele}}",
             "start_a_discussion": "Discuție nouă",
             "username": "Nume utilizator",
+            "username_or_email_placeholder": "",
             "users": "Utilizatori",
             "view": "Vizualizare",
             "write_a_reply": "Scrieți un răspuns…",

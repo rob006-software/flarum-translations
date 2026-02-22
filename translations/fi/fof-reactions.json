@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Reaktiot",
                 "anonymous_count": "{count, plural, one {# tuntematon käyttäjä} other {# tuntematonta käyttäjää}}",
-                "no_reactions": "Ei vielä reaktioita"
+                "no_reactions": "Ei vielä reaktioita",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Näytä reaktiot",
-            "react_button_label": "Reagoi"
+            "react_button_label": "Reagoi",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Näytä",
                         "identifier": "Tunniste"
                     },
-                    "delete_confirmation": "Haluatko varmasti poistaa tämän reaktion? Tätä ei voi peruuttaa."
+                    "delete_confirmation": "Haluatko varmasti poistaa tämän reaktion? Tätä ei voi peruuttaa.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Jos päivitit juuri lisäosan niin reaktiot pitää muuntaa. Jos vasta asensit tämän lisäosan voit olla huomioimatta tätä viestiä.",

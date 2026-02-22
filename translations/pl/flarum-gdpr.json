@@ -19,12 +19,14 @@
                     "extension_settings_button": "Ustawienia GDPR"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Dane tabeli użytkowników",
                     "help_text": "W większości przypadków każda kolumna dodana do tabeli <code>user</code> będzie obsługiwana automatycznie, zarówno pod kątem eksportowania danych, jak i usuwania.\nIstnieją jednak pewne specjalne przypadki, które są wymienione poniżej.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "Integracje GDPR"
+                "gdpr_button": "Integracje GDPR",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Przetwarzanie żądań usunięcia",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "Eksportuj dane dla {username}"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Potwierdź swoje żądanie usunięcia konta",
-                "body": "Cześć {display_name}!\n\nKtoś (mamy nadzieję, że Ty) właśnie zażądał usunięcia konta `{display_name}`.\n\nAby potwierdzić tę akcję, proszę kliknąć poniższy link, po czym Twoje żądanie zostanie przetworzone przez nasz zespół.\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Usuwanie konta zakończone",
-                    "body": "Cześć {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało usunięte.\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "Anonimizacja konta zakończona",
-                    "body": "Cześć {display_name}!\n\nTo jest automatyczne, ostatnie powiadomienie, że Twoje konto zostało zanonimizowane.\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "Żądanie usunięcia konta anulowane",
-                "body": "Cześć {display_name}!\n\nTo jest automatyczne powiadomienie, że Twoje żądanie anulowania usunięcia konta zostało przetworzone.\n\nTwoje konto nie zostanie usunięte.\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "Eksport danych dostępny",
-                "body": "Cześć {display_name}!\n\nZażądałeś eksportu danych konta dla {username}. Ten eksport został pomyślnie wygenerowany i jest teraz dostępny:\n\n{url}\n\nTen eksport będzie dostępny do {destroys_at}.\n"
+                "body": ""
             }
         },
         "forum": {

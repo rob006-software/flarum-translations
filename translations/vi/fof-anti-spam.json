@@ -6,6 +6,46 @@
             },
             "settings": {
                 "button": "Cài đặt",
+                "content-filter": {
+                    "heading": "",
+                    "introduction": "",
+                    "enabled_label": "",
+                    "enabled_help": "",
+                    "user_targeting_heading": "",
+                    "monitor_post_count_label": "",
+                    "monitor_post_count_help": "",
+                    "monitor_hours_old_label": "",
+                    "monitor_hours_old_help": "",
+                    "detectors_heading": "",
+                    "detect_phones_label": "",
+                    "detect_phones_help": "",
+                    "detect_emails_label": "",
+                    "detect_emails_help": "",
+                    "detect_urls_label": "",
+                    "detect_urls_help": "",
+                    "thresholds_heading": "",
+                    "flag_threshold_label": "",
+                    "flag_threshold_help": "",
+                    "spam_threshold_label": "",
+                    "spam_threshold_help": "",
+                    "actions_heading": "",
+                    "auto_unapprove_label": "",
+                    "auto_unapprove_help": "",
+                    "auto_flag_label": "",
+                    "auto_flag_help": "",
+                    "system_user_id_label": "",
+                    "system_user_id_help": "",
+                    "no_action_extensions": "",
+                    "allowlist_heading": "",
+                    "allowed_domains_label": "",
+                    "allowed_domains_help": "",
+                    "blocked_words_heading": "",
+                    "blocked_words_label": "",
+                    "blocked_words_help": "",
+                    "advanced_patterns_heading": "",
+                    "advanced_block_patterns_label": "",
+                    "advanced_block_patterns_help": ""
+                },
                 "default-actions": {
                     "delete_user_label": "Xóa người dùng",
                     "delete_user_help": "Thao tác này sẽ xóa vĩnh viễn người dùng. Khi tắt, người dùng sẽ bị tạm ngưng thay vì xóa.",
@@ -37,11 +77,12 @@
                     "confidence_help": "Điểm độ tin cậy là chỉ báo khá tốt cho thấy trường đang kiểm tra có thể dẫn tới hoạt động không mong muốn. Đặt mức độ tin cậy theo phần trăm. Nếu trường đạt hoặc vượt mức này, đăng ký sẽ bị chặn bất kể bài kiểm tra 'frequency' ở trên.",
                     "email_hash_label": "Dùng email đã băm",
                     "email_hash_help": "Gửi giá trị băm MD5 của địa chỉ email nếu bạn không muốn gửi email thô. Cách này bỏ qua tất cả blacklist, chuẩn hóa và các kiểm tra vượt che giấu.",
+                    "block_tor_exit_nodes_label": "",
+                    "block_tor_exit_nodes_help": "",
                     "sfs_lookup_label": "Tra cứu đăng ký",
                     "sfs_lookup_help": "Nếu bật, chúng tôi sẽ kiểm tra cơ sở dữ liệu StopForumSpam khi có người dùng mới đăng ký. Nếu tìm thấy người dùng (tên, IP, email) và điểm dữ liệu đó được bật cùng với mức độ tin cậy SFS đạt ngưỡng bạn định nghĩa, họ sẽ không thể hoàn tất đăng ký.",
                     "report_blocked_registrations_label": "Báo cáo các đăng ký bị chặn",
-                    "report_blocked_registrations_help": "Khi đăng ký bị chặn bởi tính năng Tra cứu đăng ký, chúng tôi sẽ báo cáo nỗ lực đó về StopForumSpam để xác thực hoạt động spam tốt hơn. Yêu cầu có API key StopForumSpam (xem bên dưới).",
-                    "heading": "StopForumSpam"
+                    "report_blocked_registrations_help": "Khi đăng ký bị chặn bởi tính năng Tra cứu đăng ký, chúng tôi sẽ báo cáo nỗ lực đó về StopForumSpam để xác thực hoạt động spam tốt hơn. Yêu cầu có API key StopForumSpam (xem bên dưới)."
                 }
             },
             "blocked_registrations": {
@@ -60,6 +101,9 @@
             }
         },
         "forum": {
+            "post": {
+                "flagged_as_spam_text": ""
+            },
             "message": {
                 "stopforumspam": {
                     "blocked": "Chi tiết đăng ký của bạn đã được tìm thấy trong cơ sở dữ liệu ngăn chặn spam, vì vậy đăng ký đã bị chặn."

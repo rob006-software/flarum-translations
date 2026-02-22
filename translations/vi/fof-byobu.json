@@ -62,8 +62,7 @@
                     "added": "{username} đã thêm người nhận {added}.",
                     "made_public": "{username} đã xóa tất cả người nhận và đặt cuộc thảo luận ở chế độ công khai",
                     "removed": "{username} đã gỡ người nhận {removed}.",
-                    "removed_self": "{username} đã rời khỏi cuộc thảo luận riêng tư.",
-                    "redmove": "{username} đã loại bỏ người nhận {remove}."
+                    "removed_self": "{username} đã rời khỏi cuộc thảo luận riêng tư."
                 }
             },
             "user": {
@@ -122,10 +121,24 @@
                 "private_discussion_added": "[Thảo luận riêng tư] {display_name} đã thêm bạn vào cuộc thảo luận riêng tư"
             },
             "body": {
-                "private_discussion_created": "Chào {recipient_display_name},\n\n{actor_display_name} đã tạo cuộc thảo luận riêng tư mới với bạn với tư cách là người nhận: {discussion_title}.\n\nXem nó ở đây\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n",
-                "private_discussion_replied": "Chào {recipient_display_name},\n\n{actor_display_name} đã đăng bài trong cuộc thảo luận riêng tư với bạn với tư cách là người nhận: {discussion_title}.\n\nXem nó ở đây\n{post_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n",
-                "recipient_removed": "Chào {recipient_display_name},\n\n{actor_display_name} đã rời khỏi cuộc thảo luận riêng tư: {discussion_title}. Họ sẽ không thể xem bất kỳ nội dung nào trong đó nữa.\n\nXem nó ở đây:\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n",
-                "private_discussion_added": "Chào {recipient_display_name},\n\n{actor_display_name} đã thêm bạn vào một cuộc thảo luận riêng tư có sẵn: {discussion_title}.\n\nXem nó ở đây\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

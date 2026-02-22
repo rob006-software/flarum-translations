@@ -5,16 +5,25 @@
                 "front_button": "Заглавна Страница"
             },
             "badge": {
-                "frontpage_tooltip": "Отбелязано като Заглавна Страница"
+                "frontpage_tooltip": ""
             },
             "post_controls": {
-                "push_to_front_button": "Премести към Заглавна Страница",
-                "pull_from_front_button": "Премахни от Заглавна Страница"
+                "push_to_front_button": "",
+                "pull_from_front_button": ""
             }
-        },
+        }
+    },
+    "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": "Може да премести към Заглавна Страница"
+                "can_push_to_frontpage_label": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "frontpage": {
+                    "key": ""
+                }
             }
         }
     }

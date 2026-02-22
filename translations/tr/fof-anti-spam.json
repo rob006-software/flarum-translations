@@ -6,6 +6,46 @@
             },
             "settings": {
                 "button": "Ayarlar",
+                "content-filter": {
+                    "heading": "",
+                    "introduction": "",
+                    "enabled_label": "",
+                    "enabled_help": "",
+                    "user_targeting_heading": "",
+                    "monitor_post_count_label": "",
+                    "monitor_post_count_help": "",
+                    "monitor_hours_old_label": "",
+                    "monitor_hours_old_help": "",
+                    "detectors_heading": "",
+                    "detect_phones_label": "",
+                    "detect_phones_help": "",
+                    "detect_emails_label": "",
+                    "detect_emails_help": "",
+                    "detect_urls_label": "",
+                    "detect_urls_help": "",
+                    "thresholds_heading": "",
+                    "flag_threshold_label": "",
+                    "flag_threshold_help": "",
+                    "spam_threshold_label": "",
+                    "spam_threshold_help": "",
+                    "actions_heading": "",
+                    "auto_unapprove_label": "",
+                    "auto_unapprove_help": "",
+                    "auto_flag_label": "",
+                    "auto_flag_help": "",
+                    "system_user_id_label": "",
+                    "system_user_id_help": "",
+                    "no_action_extensions": "",
+                    "allowlist_heading": "",
+                    "allowed_domains_label": "",
+                    "allowed_domains_help": "",
+                    "blocked_words_heading": "",
+                    "blocked_words_label": "",
+                    "blocked_words_help": "",
+                    "advanced_patterns_heading": "",
+                    "advanced_block_patterns_label": "",
+                    "advanced_block_patterns_help": ""
+                },
                 "default-actions": {
                     "delete_user_label": "Kullanıcıyı sil",
                     "delete_user_help": "Bu, kullanıcıyı kalıcı olarak silecektir. Devre dışı bırakıldığında kullanıcı askıya alınır.",
@@ -37,11 +77,12 @@
                     "confidence_help": "Güven puanı, test edilen alanın istenmeyen aktiviteye yol açacağının makul derecede iyi bir göstergesidir. Güven düzeyinizi yüzde olarak ayarlayın. Alan bu rakama eşit veya üstündeyse, yukarıdaki 'frekans' testine bakılmaksızın kayıt engellenecektir.",
                     "email_hash_label": "Karma (hashed) e-posta adresi kullan",
                     "email_hash_help": "E-posta adresinin kendisini geçirmek istemiyorsanız e-posta adresinin MD5 karmasını geçirin. Bu yöntem tüm kara listeleri, normalleştirme ve karartma atlama kontrollerini atlatır.",
+                    "block_tor_exit_nodes_label": "",
+                    "block_tor_exit_nodes_help": "",
                     "sfs_lookup_label": "Kayıtlara göz gezdir",
                     "sfs_lookup_help": "Etkinleştirilirse, forumunuza yeni bir kullanıcı kaydolduğunda StopForumSpam veritabanını kontrol edeceğiz. Kullanıcı bulunursa (kullanıcı adı, IP adresi, e-posta) ve bu veri noktası etkinleştirilirse ve SFS güven düzeyi tanımladığınız düzeye ulaşırsa, kayıtlarını tamamlamaları engellenecektir.",
                     "report_blocked_registrations_label": "Engellenen kayıtları bildir",
-                    "report_blocked_registrations_help": "Bir kayıt engellendiğinde, spam göndericisinin etkinliğinin daha iyi doğrulanabilmesi için bu girişimi StopForumSpam'a geri bildireceğiz. Bir StopForumSpam API anahtarının ayarlanmasını gerektirir (aşağıya bakın).",
-                    "heading": "StopForumSpam"
+                    "report_blocked_registrations_help": "Bir kayıt engellendiğinde, spam göndericisinin etkinliğinin daha iyi doğrulanabilmesi için bu girişimi StopForumSpam'a geri bildireceğiz. Bir StopForumSpam API anahtarının ayarlanmasını gerektirir (aşağıya bakın)."
                 }
             },
             "blocked_registrations": {
@@ -60,6 +101,9 @@
             }
         },
         "forum": {
+            "post": {
+                "flagged_as_spam_text": ""
+            },
             "message": {
                 "stopforumspam": {
                     "blocked": "Kayıt bilgileriniz spam otomasyonu veritabanında bulunduğundan kaydınız engellenmiştir."

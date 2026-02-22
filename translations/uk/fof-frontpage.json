@@ -5,16 +5,25 @@
                 "front_button": "FrontPage"
             },
             "badge": {
-                "frontpage_tooltip": "Позначено як FrontPage"
+                "frontpage_tooltip": ""
             },
             "post_controls": {
-                "push_to_front_button": "Додати на FrontPage",
-                "pull_from_front_button": "Витягнути з FrontPage"
+                "push_to_front_button": "",
+                "pull_from_front_button": ""
             }
-        },
+        }
+    },
+    "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": "Можна додати до FrontPage"
+                "can_push_to_frontpage_label": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "frontpage": {
+                    "key": ""
+                }
             }
         }
     }

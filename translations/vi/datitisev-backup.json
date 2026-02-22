@@ -1,39 +1,25 @@
 {
     "datitisev-backup": {
         "admin": {
+            "settings": {
+                "database_bin_path_label": "",
+                "database_bin_path_help": ""
+            },
             "adapters": {
                 "local": "Lưu trữ cục bộ",
                 "aliyun": "Alibaba Cloud (Aliyun)",
                 "azure": "Microsoft Azure",
                 "aws": "Amazon AWS S3",
-                "dospaces": "Digital Ocean Spaces",
                 "dropbox": "Dropbox",
                 "gdrive": "Google Drive",
                 "ftp": "FTP",
-                "gridfs": "GridFS",
-                "rackspace": "Rackspace",
-                "sftp": "SFTP",
-                "webdav": "Webdav",
-                "zip": "Lưu trữ Zip"
+                "sftp": "SFTP"
             },
             "settings_button": "Cấu hình",
             "delete_button": "Xóa",
             "delete_confirmation": "Bạn có chắc chắn muốn xóa “{name}” ({adapter}) không?",
             "create_button": "Thêm adapter mới",
             "required_package_button": "Thiết lập",
-            "you-need-for": {
-                "aliyun": "aliyuncs/aliyun-oss-flysystem",
-                "azure": "league/flysystem-azure",
-                "aws": "league/flysystem-aws-s3-v3",
-                "copy": "league/flysystem-copy",
-                "dospaces": "league/flysystem-aws-s3-v3",
-                "dropbox": "spatie/flysystem-dropbox",
-                "gdrive": "nao-pon/flysystem-google-drive",
-                "gridfs": "league/flysystem-gridfs",
-                "rackspace": "league/flysystem-rackspace",
-                "sftp": "league/flysystem-sftp",
-                "webdav": "league/flysystem-webdav"
-            },
             "required-package-modal": {
                 "title": "Gói cần thiết cho {adapter}",
                 "content": "Để sử dụng trình điều khiển này, bạn cần cài đặt một gói cụ thể. Bạn có thể làm như vậy bằng cách chạy lệnh composer sau: <code>composer request {package}</code> trong thư mục cài đặt Flarum của bạn.\n"
@@ -41,6 +27,8 @@
             "adapter-settings-modal": {
                 "title": "Cấu hình {adapter}",
                 "name_label": "Tên vị trí",
+                "timestamp_label": "",
+                "timestamp_help": "",
                 "local": {
                     "target": {
                         "label": "Đường dẫn",
@@ -71,12 +59,16 @@
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "Điểm cuối",
-                        "description": "URL đến điểm cuối lưu trữ của bạn."
+                        "label": "",
+                        "description": ""
                     },
                     "container": {
                         "label": "Vùng chứa",
                         "description": "Vùng chứa Azure"
+                    },
+                    "path-prefix": {
+                        "label": "",
+                        "description": ""
                     }
                 },
                 "aws": {
@@ -103,26 +95,14 @@
                     "path-prefix": {
                         "label": "Tiền tố đường dẫn",
                         "description": "Tiền tố đường dẫn mặc định tùy chọn cho các tệp."
-                    },
-                    "credentials": {
-                        "key": {
-                            "label": "Mã khoá",
-                            "description": "Mã khoá đăng nhập AWS"
-                        },
-                        "secret": {
-                            "label": "Mã bí mật",
-                            "description": "Mã bí mật đăng nhập AWS"
-                        }
                     }
                 },
                 "dropbox": {
                     "key": {
-                        "label": "Mã key ứng dụng",
-                        "description": "Mã key của ứng dụng Dropbox."
+                        "label": "Mã key ứng dụng"
                     },
                     "secret": {
-                        "label": "Mã bí mật ứng dụng",
-                        "description": "Mã bí mật của ứng dụng Dropbox."
+                        "label": "Mã bí mật ứng dụng"
                     },
                     "refresh-token": {
                         "label": "Làm mới token",
@@ -134,10 +114,6 @@
                         "obtain-refresh-token-label": "Sử dụng mã access token để nhận mã refresh token(yêu cầu key ứng dụng & bí mật)",
                         "obtain-refresh-token-button": "Sử dụng code",
                         "obtain-refresh-token-success": "Lấy mã refresh token thành công & được cập nhật ở trên! Lưu các thay đổi để lưu trữ nó."
-                    },
-                    "access-token": {
-                        "label": "Mã Access Token OAuth2",
-                        "description": "Tạo mã token truy cập oAuth 2 @ https://www.dropbox.com/developers/apps. Yêu cầu quyền \"files.metadata.write\" trước khi tạo mã token."
                     }
                 },
                 "gdrive": {
@@ -160,16 +136,6 @@
                     "help": {
                         "test_success_alert": "Đã kết nối thành công với Google Drive! Lưu các thay đổi để lưu trữ cài đặt.",
                         "test_button": "Kiểm tra kết nối"
-                    },
-                    "client": {
-                        "id": {
-                            "label": "ID khách hàng",
-                            "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và lấy ID khách hàng & mã bí mật khách hàng của bạn.\n"
-                        },
-                        "secret": {
-                            "label": "Mã bí mật khách hàng",
-                            "description": " "
-                        }
                     }
                 },
                 "ftp": {
@@ -185,9 +151,9 @@
                         "label": "Mật khẩu",
                         "description": "Mật khẩu người dùng để xác thực trên máy chủ FTP."
                     },
-                    "private-key": {
-                        "label": "Mã khoá riêng tư",
-                        "description": "Đường dẫn (nên là tuyệt đối) đến mã khóa riêng tư để sử dụng khi xác thực kết nối FTP."
+                    "passive": {
+                        "toggle": "",
+                        "description": ""
                     },
                     "port": {
                         "label": "Cổng",
@@ -197,10 +163,6 @@
                         "label": "Đường dẫn gốc",
                         "description": "Đường dẫn gốc từ xa (thư mục con) để lưu trữ các bản sao lưu."
                     },
-                    "passive": {
-                        "toggle": "Kết nối bị động",
-                        "description": "Có sử dụng kết nối FTP bị động với máy chủ hay không."
-                    },
                     "ssl": {
                         "toggle": "SSL",
                         "description": "Có sử dụng kết nối SSL được mã hóa với máy chủ hay không."
@@ -208,6 +170,29 @@
                     "timeout": {
                         "label": "Timeout",
                         "description": "Số giây chờ kết nối với máy chủ FTP."
+                    }
+                },
+                "sftp": {
+                    "host": "",
+                    "username": "",
+                    "password": "",
+                    "root": "",
+                    "timeout": "",
+                    "port": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "private-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "passphrase": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "use-agent": {
+                        "toggle": "",
+                        "description": ""
                     }
                 }
             },

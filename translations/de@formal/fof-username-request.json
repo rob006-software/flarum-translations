@@ -72,6 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "Aktuell gibt es keine offenen Anfragen, Namen zu ändern.",
+                "group_label": "",
                 "nickname_item_text": "{name} hat die Änderung des Spitznamens angefordert",
                 "nickname_exerpt": "Angeforderter Spitzname: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -98,8 +99,8 @@
         "email": {
             "body": {
                 "noReasonProvided": "Kein Grund angegeben.",
-                "approved": "Hallo {recipient_display_name},\n\nDein Antrag, deinen Benutzernamen zu \"{new_username}\" zu ändern, wurde von {actor_display_name} genehmigt.\n\nDu kannst dich jetzt mit deinem neuen Benutzernamen einloggen: {login_url}\n",
-                "rejected": "Hallo {recipient_display_name},\n\nDein Antrag, deinen Benutzernamen von \"{old_username}\" auf \"{requested_username}\" zu ändern, wurde von {actor_display_name} abgelehnt.\n\nGrund: {reason}\n"
+                "approved": "",
+                "rejected": ""
             },
             "subject": {
                 "approved": "{display_name} hat deine Namensänderung zu {requested_username} genehmigt",

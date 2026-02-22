@@ -46,9 +46,7 @@
                 "edit_tag_label": "Az) {tag} címke szerkesztése",
                 "primary_heading": "Elsődleges címkék",
                 "secondary_heading": "Másodlagos címkék",
-                "settings_heading": "Beállítások",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
-                "settings_button": "Beállítások"
+                "settings_heading": "Beállítások"
             }
         },
         "forum": {
@@ -58,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "A(z) {title} címkéinek szerkesztése",
-                "title": "Válasszon címkéket a témájához",
-                "bypass_requirements": "Címke követelményeinek megkerülése",
-                "choose_primary_placeholder": "{count, plural, one {Válasszon egy elsődleges címkét} other {Válasszon # elsődleges címkét}}",
-                "choose_secondary_placeholder": "Válasszon {count, plural, one {1} other {#}} további címkét",
-                "submit_button": "=> core.ref.okay"
+                "title": "Válasszon címkéket a témájához"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -90,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Törölve",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Címke követelményeinek megkerülése",
                 "choose_primary_placeholder": "{count, plural, one {Válasszon egy elsődleges címkét} other {Válasszon # elsődleges címkét}}",
@@ -97,33 +99,13 @@
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
                 "title": "=> flarum-tags.ref.choose_tags"
-            },
-            "gambits": {
-                "discussions": {
-                    "tag": {
-                        "key": "címke",
-                        "hint": "címkenév, címkék vesszőkkel elválasztott listája vagy „untagged”"
-                    }
-                }
             }
         },
         "ref": {
             "choose_tags": "Válasszon címkéket",
             "choose_tags_placeholder": "{count, plural, one {Válasszon még egy címkét} other {Válasszon még # címkét}}",
             "name": "Név",
-            "tags": "Címkék",
-            "create_tag": "Tag létrehozása"
-        },
-        "validation": {
-            "attributes": {
-                "name": "név",
-                "slug": "keresőbarát webcím",
-                "is_hidden": "elrejtés",
-                "description": "leírás",
-                "color": "szín",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
+            "tags": "Címkék"
         }
     }
 }

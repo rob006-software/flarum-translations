@@ -2,28 +2,26 @@
     "fof-prevent-necrobumping": {
         "forum": {
             "composer": {
-                "warning": {
-                    "title": "Ta dyskusja jest starsza niż <b>{time}</b>.",
-                    "description": "Jest bardzo prawdopodobne, że nie jest potrzebna dalsza dyskusja na ten temat i podbijanie go jest bezcelowe.",
+                "inactive_discussion_alert": {
+                    "title": "",
+                    "description": "",
                     "cta": "",
                     "cta_button": "",
-                    "checkbox_label": "Jestem świadomy, że ta dyskusja jest dość stara, ale chcę w niej odpowiedzieć pomimo to.",
-                    "error": "Ta dyskusja jest zbyt stara, aby w niej odpowiedzieć."
-                }
+                    "confirmation": ""
+                },
+                "error": ""
             }
         },
         "admin": {
             "settings": {
+                "general_heading": "",
+                "days_label": "",
+                "days_help": "",
                 "show_discussion_cta_label": "",
                 "show_discussion_cta_help": "",
-                "days_label": "Dni",
-                "days_help": "Dyskusja zostanie oznaczona jako stara, jeśli podana liczba dni minie od czasu opublikowania ostatniej odpowiedzi w tej dyskusji. Użyj <code>0</code>, aby domyślnie wyłączyć.",
-                "message_title_label": "Niestandardowy tytuł wiadomości",
-                "message_title_help": "Użyj <code>[time]</code> dla podania czasu tekstowo, np. \"14 dni\".",
-                "message_description_label": "Niestandardowa treść wiadomości",
-                "message_agreement_label": "Niestandardowa treść potwierdzenia (checkbox)",
-                "tags_title": "Tagi",
-                "tags_help": "Nadpisz globalne ustawienia dla konkretnego tagu. Zostaw puste, aby użyć domyślnej wartości. Jeśli dyskusja ma wiele tagów z różną liczbą dni, zostanie użyta najniższa wartość."
+                "tags_title": "",
+                "tags_help": "",
+                "tags_placeholder": ""
             }
         }
     }

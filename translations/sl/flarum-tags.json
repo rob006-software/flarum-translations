@@ -84,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Izbrisano",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Obidite zahteve za oznake",
                 "choose_primary_placeholder": "{count, plural, one {Izberi primarno oznako} other {Izberi # primarnih oznak}}",
@@ -98,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Izberi še 1 oznako} other {Izberi še # oznak}}",
             "name": "Ime",
             "tags": "Oznake"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
         }
     }
 }

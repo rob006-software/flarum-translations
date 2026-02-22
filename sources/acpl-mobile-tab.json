@@ -1,13 +1,42 @@
 {
     "acpl-mobile-tab": {
-        "forum": {
-            "home": "Home",
-            "all_discussions": "Discussions",
-            "tags": "Tags",
-            "categories": "Categories",
-            "notifications": "Notifications",
-            "log_in": "Log In",
-            "profile": "Profile"
+        "admin": {
+            "available_items": "Available items",
+            "active_items": "Active items",
+            "create_new_item_button": "Create new item",
+            "edit_item": {
+                "modal_title": "Edit item",
+                "label": "Label",
+                "label_placeholder": "My custom item",
+                "path": "Path",
+                "url": "Url",
+                "icon": "Icon",
+                "icon_help": "Enter the name of any <a>FontAwesome</a> icon class, including the <code>fas fa-</code> prefix.",
+                "is_internal_checkbox": "Is it an internal link?",
+                "open_new_tab_checkbox": "Open link in new tab",
+                "submit_button": "Save",
+                "delete_button": "Delete",
+                "delete_item_confirmation": "Are you sure you want to delete this item?"
+            },
+            "scroll_settings": {
+                "toggle_label": "Toggle visibility on scroll",
+                "threshold_label": "Scroll threshold (px)",
+                "threshold_help": "Distance to scroll from the current position to toggle visibility."
+            }
+        },
+        "lib": {
+            "item": {
+                "home": "Home",
+                "all_discussions": "Discussions",
+                "categories": "Categories",
+                "notifications": "Notifications",
+                "session": "Session",
+                "search": "Search",
+                "log_in": "Log In",
+                "profile": "Profile",
+                "tags": "Tags",
+                "messages": "Messages"
+            }
         }
     }
 }

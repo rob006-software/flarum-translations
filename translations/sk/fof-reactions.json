@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Reakcie",
                 "anonymous_count": "",
-                "no_reactions": ""
+                "no_reactions": "",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Zobraziť reakcie",
-            "react_button_label": ""
+            "react_button_label": "",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Zobraziť",
                         "identifier": "Identifikátor"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Ak ste práve aktualizovali Vaše rozšírenia, vaše reakcie bude potrebné konvertovať. Ak ste si práve nainštalovali toto rozšírenie, môžete túto správu bezpečne ignorovať.",

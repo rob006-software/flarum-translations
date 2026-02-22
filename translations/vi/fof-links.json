@@ -17,15 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Thêm thuộc tính <code>rel=\"me\"</code> để xác minh danh tính trên các trang web khác",
-                "visibility": "Khả năng hiển thị liên kết",
-                "visibility.help": "Theo mặc định, liên kết chỉ hiển thị với người dùng <code>{admin}</code>. Điều chỉnh quyền để chỉ định ai có thể xem liên kết này.",
-                "visibility.help-disabled": "Lưu liên kết trước khi thay đổi cài đặt hiển thị.",
-                "visibility.label": "Hiển thị liên kết",
-                "visibility.guest-only.label": "Chỉ {guest}?",
-                "visibility.guest-only.help": "Chỉ {guest} mới có thể thấy liên kết này. Quyền ở trên phải được đặt thành '{everyone}'.",
-                "everyone-label": "Tất cả mọi người",
-                "guests-label": "Khách",
-                "members-label": "Người dùng đã đăng ký"
+                "visibility": {
+                    "help": "Theo mặc định, liên kết chỉ hiển thị với người dùng <code>{admin}</code>. Điều chỉnh quyền để chỉ định ai có thể xem liên kết này.",
+                    "help-disabled": "Lưu liên kết trước khi thay đổi cài đặt hiển thị.",
+                    "label": "Hiển thị liên kết",
+                    "guest-only": {
+                        "label": "Chỉ {guest}?",
+                        "help": "Chỉ {guest} mới có thể thấy liên kết này. Quyền ở trên phải được đặt thành '{everyone}'."
+                    }
+                }
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
@@ -33,8 +33,7 @@
                 "preconfigured": "Các liên kết trên diễn đàn này đã được cấu hình sẵn và không thể chỉnh sửa ở đây."
             },
             "settings": {
-                "show_icons_only_on_tablet": "Chỉ hiển thị biểu tượng trên màn hình máy tính bảng",
-                "show_icons_only_on_mobile": "Chỉ hiển thị icon trên điện thoại"
+                "show_icons_only_on_tablet": "Chỉ hiển thị biểu tượng trên màn hình máy tính bảng"
             }
         },
         "ref": {

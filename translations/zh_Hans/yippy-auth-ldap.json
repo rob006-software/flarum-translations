@@ -10,6 +10,7 @@
                 "not_authenticated": "无效的凭据，无法绑定 {server}，请修改扩展程序设置。",
                 "csrf_token_mismatch": "您已经长时间未活动，请刷新页面并重试。",
                 "domains": {
+                    "connection_failed": "",
                     "no_domains": "未设置域名，请修改扩展程序设置。",
                     "empty_host": "域名 {domain_index} 未设置任何域名或服务器 IP 地址，请修改扩展程序设置。",
                     "empty_base_dn": "域名 {domain_index} 未设置基本辨识名称（DNs），请修改扩展程序设置。",
@@ -54,7 +55,7 @@
                         "host": "域名或服务器 IP 地址",
                         "host_help": "英文逗号分隔",
                         "base_dn": "基本辨识名称（DNs）",
-                        "base_dn_help": "英文分号分隔",
+                        "base_dn_help": "",
                         "filter": "要应用的过滤器",
                         "filter_help": "可选，不可填写「搜索字段」，搜索字段必须由用户端提供，不可定义在过滤器中。过滤器为 (objectclass=user) 时，选择 UID 后，最终使用时自动添加为 (&(objectclass=user)(uid=[User's Input]))",
                         "port": "端口",

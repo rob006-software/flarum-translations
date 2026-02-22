@@ -10,6 +10,7 @@
                 "not_authenticated": "Không thể bind {server} do thông tin xác thực không hợp lệ, hãy chỉnh lại cài đặt tiện ích.",
                 "csrf_token_mismatch": "Bạn đã không hoạt động quá lâu, vui lòng làm mới trang và thử lại",
                 "domains": {
+                    "connection_failed": "",
                     "no_domains": "Thiết lập quản trị chưa đặt tên miền nào, hãy chỉnh lại cài đặt tiện ích.",
                     "empty_host": "Tên miền {domain_index} chưa đặt Tên miền hoặc địa chỉ IP máy chủ, hãy chỉnh lại cài đặt tiện ích.",
                     "empty_base_dn": "Tên miền {domain_index} chưa đặt Base DN, hãy chỉnh lại cài đặt tiện ích.",
@@ -54,7 +55,7 @@
                         "host": "Tên miền hoặc địa chỉ IP máy chủ",
                         "host_help": "Phân tách bằng dấu phẩy",
                         "base_dn": "Base DN",
-                        "base_dn_help": "Phân tách bằng dấu chấm phẩy",
+                        "base_dn_help": "",
                         "filter": "Bộ lọc áp dụng",
                         "filter_help": "Tùy chọn, phải loại trừ 'Trường tìm kiếm' trong bộ lọc. Ví dụ nhập bộ lọc '(objectclass=user)' và chọn 'uid' trong 'Trường tìm kiếm' sẽ sửa bộ lọc thành '(&(objectclass=user)(uid=[User's Input]))\"",
                         "port": "Cổng",

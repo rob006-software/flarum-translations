@@ -30,9 +30,10 @@
                 "disable-download-logging": "Disattiva la registrazione di ogni download effettuato dagli utenti del tuo forum. Lasciandolo attivo ti permette di visualizzare il numero di download e altre metriche in futuro.\n",
                 "disable-hotlink-protection": "La protezione da hotlink impedisce l'apertura dei dowload da altri siti. Il metodo attuale richiede un token csrf e id del post.\n",
                 "download_templates": "I modelli di scaricamento servono per cambiare il modo di come i file vengono mostrati sul tuo forum, es come le anteprime e bottoni. Attualmente sono disponibili:\n",
-                "mime_types": "Configura la mappatura qui. Ogni singolo tipo di mime sarà gestito da un adattatore di caricamento specifico.\n",
+                "mime_types": "",
                 "resize": "Qui puoi decidere se ridimensionare le tue immagini prima che vengano caricate. Puoi impostare le dimensioni massime per larghezza e altezza, in pixel. Il processo di ridimensionamento manterrà il corretto rapporto tra i due lati.\n",
                 "client_extension": "Per impostazione predefinita, il caricamento sceglierà un'estensione di file sicura in base al tipo MIME.\nPer alcuni tipi di file basati su ZIP o dati binari, ciò può comportare l'utilizzo di estensioni generiche invece di quelle previste.\nQui puoi inserire un elenco separato da virgole di estensioni di file che verranno mantenute alla lettera.\n",
+                "thumbnails": "",
                 "watermark": "Qui puoi decidere se aggiungere un Watermark alle tue immagini. Il Watermark sarà aggiunto a tutte le immagini non GIF seguendo le impostazioni che inserirai qui sotto\n",
                 "s3_compatible_storage": "Le seguenti impostazioni sono necessarie solo quando si utilizza l'archiviazione compatibile S3. Se utilizzi AWS, puoi lasciarli vuoti.\n",
                 "s3_acl": "L'ACL da applicare all'oggetto caricato (predefinito: privato). Per i valori possibili, vedere https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Dimensione massima dei file (in kb)",
                     "mime_types": "Configura il mimetype, formato dei file",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Preferenze generali",
                     "php_ini_values": "I tuoi valori <code>php.ini</code> sono <code>post_max_size={post}</code> e <code>upload_max_filesize={upload}</code>. Assicurarsi che il valore impostato qui sia inferiore a queste soglie o regolarle di conseguenza. Se utilizzi <code>Nginx</code>, assicurati anche che <code>client_max_body_size</code> sia di dimensioni sufficienti per il limite massimo scelto."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Estensioni di file fornite dall'utente"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Carica filigrana (watermark)",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Posizione filigrana (watermark)",
+                    "size_percent": "",
                     "title": "Filigrana (watermark) sulle immagini",
                     "toggle": "Attiva filigrana (watermark)"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Test file MIME type"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Scarica file",
-                "upload_label": "Carica file",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Visualizza i caricamenti degli utenti",
                 "delete_uploads_of_others_label": "Cancella caricamenti degli utenti",
                 "upload_shared_label": "",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",
-                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Locale",
                 "ovh-svfs": "OVH SVFS",
@@ -157,9 +173,6 @@
                 "mime-fileinfo": "PHP Fileinfo (fallback)",
                 "guessed-extension": "Estensione file predefinita (se l'originale non è nella whitelist)",
                 "not-available": "Nessun risultato"
-            },
-            "buttons": {
-                "save": "Salva impostazioni"
             }
         },
         "forum": {
@@ -184,31 +197,16 @@
             "text_preview": {
                 "expand": "Espandi anteprima",
                 "collapse": "Comprimi anteprima",
+                "download": "",
                 "error": "Errore durante l'anteprima del file. Potrebbe essere stato eliminato o l'ID file fornito non è valido.\n",
                 "no_snippet_preview": "<l'anteprima apparirà qui dopo la pubblicazione>",
                 "no_snippet": "<nessun anteprima disponibile>"
-            },
-            "file_list": {
-                "loading": "Caricamento file...",
-                "empty": "Non ci sono file da mostrare.",
-                "release_to_upload": "Rilascia per caricare",
-                "modal_empty_desktop": "Il tuo elenco di file è vuoto. Fare clic sul pulsante o trascinare un file qui per caricarlo.",
-                "modal_empty_phone": "Il tuo elenco di file è vuoto. Tocca il pulsante in alto per caricare un file.",
-                "select_file_a11y_label": "Scegli file \"{fileName}\"",
-                "confirm_selection_btn": "{fileCount, plural, =0 {Nessuno selezionato} one {Scegli file} other {Scegli file}}",
-                "load_more_files_btn": "Carica più file",
-                "hide_file": {
-                    "btn_a11y_label": "Nascondi \"{fileName}\" dal media manager",
-                    "hide_confirmation": "Sei sicuro di voler nascondere \"{fileName}\"? Nascondere un file lo rimuoverà solo dal tuo gestore multimediale e non influirà sui post esistenti.",
-                    "hide_success": "File nascosti",
-                    "hide_fail": "Impossibile nascondere il file \"{fileName}\"",
-                    "loading": "Nascondo file..."
-                }
             }
         },
         "api": {
             "upload_errors": {
                 "forbidden_type": "Il caricamento di file di questo tipo non è consentito.",
+                "mime_permission_denied": "",
                 "unsupported_type": "L'adattatore di caricamento non supporta il tipo MIME fornito: {mime}.",
                 "could_not_detect_mime": "Impossibile rilevare il tipo MIME di questo file, riprova.",
                 "max_upload_file_size_ini": "",

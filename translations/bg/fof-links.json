@@ -17,15 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "",
-                "visibility": "Видимост на връзката",
-                "visibility.help": "",
-                "visibility.help-disabled": "",
-                "visibility.label": "",
-                "visibility.guest-only.label": "",
-                "visibility.guest-only.help": "",
-                "everyone-label": "Всеки",
-                "guests-label": "Гости",
-                "members-label": "Регистрирани потребители"
+                "visibility": {
+                    "help": "",
+                    "help-disabled": "",
+                    "label": "",
+                    "guest-only": {
+                        "label": "",
+                        "help": ""
+                    }
+                }
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

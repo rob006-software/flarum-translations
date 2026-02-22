@@ -11,7 +11,6 @@
                     "tags": "最佳回复标签",
                     "general": "常规",
                     "reminders": "提醒事项",
-                    "search": "搜索",
                     "advanced": "高级",
                     "reminders_notice": "要运行提醒功能，你必须正确配置 Flarum 调度器。"
                 },
@@ -36,20 +35,8 @@
                 "remind_tags_label": "提醒标签",
                 "remind_tags_help": "如有需要，请选择要发送提醒的标签（如果有）。",
                 "tags_info": "为标签启用最佳回复功能后，请按需配置「设置最佳回复」的全局或标签权限。\n",
-                "solution_search": "问答搜索",
-                "solution_search_help": "允许搜索包含最佳回复的主题帖",
-                "remove_solutions_from_main_search": "在主搜索中隐藏",
-                "remove_solutions_from_main_search_help": "在「全部主题」搜索结果中不展示最佳回复主题帖",
-                "display_tags": "在搜索结果中展示标签",
-                "display_tags_help": "在搜索结果中展示最佳回复主题帖标签",
                 "discussion_sidebar_jump_button": "展示最佳回复跳转按钮",
-                "discussion_sidebar_jump_button_help": "在主题帖侧边栏添加一个可以跳转到最佳回复的按钮。",
-                "allow_select_own_post": "允许自选",
-                "allow_select_own_post_help": "允许用户将自己的帖子设为最佳回复",
-                "enable_all_tags_button": "为所有标签启用最佳回复",
-                "enable_all_tags_reminder_button": "为所有标签启用提醒功能",
-                "introduction": "你需要前往 <code><a>flarum/tags</a></code> 为特定标签开启最佳回复和提醒功能。你可以在「权限」页面为全局或特定标签设置最佳回复的操作权限。\n",
-                "remind_tag_ids": "若要将提醒功能仅用于特定标签，请在此输入标签 ID （英文逗号分隔）"
+                "discussion_sidebar_jump_button_help": "在主题帖侧边栏添加一个可以跳转到最佳回复的按钮。"
             },
             "edit_tag": {
                 "qna_label": "启用最佳回复",
@@ -93,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count} 次助人"
             },
-            "search": {
-                "discussions_solutions_heading": "已解决",
-                "all_discussions_solutions_button": "搜索已解决主题帖「{query}」"
-            },
             "discussion": {
                 "jump_to_best_answer_button": "查看最佳回复"
             }
@@ -111,6 +94,13 @@
                 "awarded": "{recipient_display_name}，你好！\n\n干得漂亮，您在【{discussion_title}】发表的回复刚刚被 {actor_display_name} 选为最佳回复。感谢你的耐心帮助。\n\n点击此处查看回复：{discussion_url}\n",
                 "ba-set": "{recipient_display_name}，你好！\n\n{actor_display_name} 刚刚为你参与讨论的主题【{discussion_title}】选择了最佳回复。\n\n去看看吧：{discussion_url}\n",
                 "select": "{recipient_display_name}，你好！\n\n你的主题「{discussion_title}」已经有了很多回复。\n\n如果其中有可以帮助你解决问题的，你可以把他选为最佳回复，这样不仅能让后来者快速找到解决问题的办法，也可以激励帮助你的人。\n\n点击此处查看主题：{discussion_url}，并选择最佳回复。\n\n此致\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

@@ -52,7 +52,12 @@
                 "debug_label": "Hibakeresés",
                 "debug_help": "További naplók hozzáadása a Flarum naplófájljához a webhookok és az események helytelen működésének hibakeresése érdekében.",
                 "item": {
-                    "tag_any_label": "Bármely címke"
+                    "tag_any_label": "Bármely címke",
+                    "edit_tooltip": "",
+                    "delete_tooltip": "",
+                    "delete_confirm_alert": "",
+                    "create_button": "",
+                    "edit_tags_button": ""
                 },
                 "help": {
                     "disabled": "Ez a webhook le van tiltva, mert egyetlen eseménye sincs engedélyezve.",

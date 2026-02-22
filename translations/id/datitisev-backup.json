@@ -1,39 +1,25 @@
 {
     "datitisev-backup": {
         "admin": {
+            "settings": {
+                "database_bin_path_label": "",
+                "database_bin_path_help": ""
+            },
             "adapters": {
                 "local": "Penyimpanan lokal",
                 "aliyun": "Alibaba Cloud (Aliyun)",
                 "azure": "Microsoft Azure",
                 "aws": "Amazon AWS S3",
-                "dospaces": "Digital Ocean Spaces",
                 "dropbox": "Dropbox",
                 "gdrive": "Google Drive",
                 "ftp": "FTP",
-                "gridfs": "GridFS",
-                "rackspace": "Rackspace",
-                "sftp": "SFTP",
-                "webdav": "Webdav",
-                "zip": "Arsip Zip"
+                "sftp": "SFTP"
             },
             "settings_button": "Mengkonfigurasi",
             "delete_button": "Hapus",
             "delete_confirmation": "Apakah Anda yakin ingin menghapus “{name}” ({adapter})?",
             "create_button": "Tambah adapter baru",
             "required_package_button": "Menyiapkan",
-            "you-need-for": {
-                "aliyun": "aliyuncs/aliyun-oss-flysystem",
-                "azure": "league/flysystem-azure",
-                "aws": "league/flysystem-aws-s3-v3",
-                "copy": "league/flysystem-copy",
-                "dospaces": "league/flysystem-aws-s3-v3",
-                "dropbox": "spatie/flysystem-dropbox",
-                "gdrive": "nao-pon/flysystem-google-drive",
-                "gridfs": "league/flysystem-gridfs",
-                "rackspace": "league/flysystem-rackspace",
-                "sftp": "league/flysystem-sftp",
-                "webdav": "league/flysystem-webdav"
-            },
             "required-package-modal": {
                 "title": "Sebuah paket diperlukan untuk {adapter}",
                 "content": "Untuk menggunakan driver ini, Anda harus menginstal paket tertentu. Anda dapat melakukannya dengan menjalankan perintah composer berikut ini: <code>composer require {package}</code> pada direktori instalasi Flarum Anda.\n"
@@ -41,6 +27,8 @@
             "adapter-settings-modal": {
                 "title": "Mengkonfigurasi {adapter}",
                 "name_label": "Nama Lokasi",
+                "timestamp_label": "",
+                "timestamp_help": "",
                 "local": {
                     "target": {
                         "label": "Target path",
@@ -71,12 +59,16 @@
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "Endpoint",
-                        "description": "URL ke storage endpoint Anda."
+                        "label": "",
+                        "description": ""
                     },
                     "container": {
                         "label": "Container",
                         "description": "Azure container"
+                    },
+                    "path-prefix": {
+                        "label": "",
+                        "description": ""
                     }
                 },
                 "aws": {
@@ -103,16 +95,6 @@
                     "path-prefix": {
                         "label": "Path prefix",
                         "description": "Path prefix default opsional untuk file."
-                    },
-                    "credentials": {
-                        "key": {
-                            "label": "Key",
-                            "description": "AWS credentials key"
-                        },
-                        "secret": {
-                            "label": "Secret",
-                            "description": "AWS credentials secret"
-                        }
                     }
                 },
                 "dropbox": {
@@ -154,11 +136,6 @@
                     "help": {
                         "test_success_alert": "Berhasil terhubung ke Google Drive! Simpan perubahan untuk menyimpan pengaturan.",
                         "test_button": "Tes koneksi"
-                    },
-                    "client": {
-                        "id": {
-                            "description": "Ikuti petunjuk di @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md untuk membuat Google project dan mengambil Client ID & Client Secret Anda.\n"
-                        }
                     }
                 },
                 "ftp": {
@@ -174,9 +151,9 @@
                         "label": "Password",
                         "description": "Password pengguna untuk mengautentikasi pada server FTP."
                     },
-                    "private-key": {
-                        "label": "Private Key",
-                        "description": "Path (sebaiknya yang absolut) ke private key untuk digunakan saat mengautentikasi koneksi FTP."
+                    "passive": {
+                        "toggle": "",
+                        "description": ""
                     },
                     "port": {
                         "label": "Port",
@@ -186,10 +163,6 @@
                         "label": "Root path",
                         "description": "Root path (subdirektori) jarak jauh untuk menyimpan backup."
                     },
-                    "passive": {
-                        "toggle": "Koneksi pasif",
-                        "description": "Apakah akan menggunakan koneksi FTP pasif ke server."
-                    },
                     "ssl": {
                         "toggle": "SSL",
                         "description": "Apakah akan menggunakan koneksi SSL terenkripsi ke server."
@@ -197,6 +170,29 @@
                     "timeout": {
                         "label": "Batas waktu",
                         "description": "Jumlah detik untuk menunggu koneksi dengan server FTP."
+                    }
+                },
+                "sftp": {
+                    "host": "",
+                    "username": "",
+                    "password": "",
+                    "root": "",
+                    "timeout": "",
+                    "port": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "private-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "passphrase": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "use-agent": {
+                        "toggle": "",
+                        "description": ""
                     }
                 }
             },

@@ -19,12 +19,14 @@
                     "extension_settings_button": "Definições do RGPD"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Dados da tabela de utilizadores",
                     "help_text": "Na maioria dos casos, quaisquer colunas adicionadas à tabela <code>user</code> serão tratados automaticamente, quer na exportação ou remoção de dados.\nPorém, existem alguns casos especiais, que se encontram listados abaixo.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "Integrações do RGPD"
+                "gdpr_button": "Integrações do RGPD",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Processar pedidos de remoção",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": ""
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }

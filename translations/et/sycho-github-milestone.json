@@ -2,7 +2,6 @@
     "sycho-github-milestone": {
         "admin": {
             "repository": "GitHubi hoidla",
-            "repository_example": "näidis: flarum/core",
             "milestone": "Eesmärgi ID",
             "default_filter": "Vaikimisi filter",
             "closed": "=> sycho-github-milestone.ref.closed",
@@ -10,12 +9,13 @@
             "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
+            "empty_list": "",
             "title": "Eesmärk",
             "last_updated": "Viimati uuendatud {time}",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all",
-            "complete": "{progress} valmis",
+            "complete": "",
             "load_more": "=> core.forum.discussion_list.load_more_button",
             "tasks_done": "{number} / {total}"
         },

@@ -108,7 +108,8 @@
             "unlink": "Odpojiť",
             "error": {
                 "bad_verification_code": "Neplatný alebo vypršaný overovací token. Skúste to prosím znova.",
-                "invalid_state": "Neplatný stav. Skúste to prosím znova."
+                "invalid_state": "Neplatný stav. Skúste to prosím znova.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

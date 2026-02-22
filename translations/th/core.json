@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "สีของส่วนหัว",
                 "colors_heading": "สี",
                 "colors_primary_label": "สีหลัก",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "คุณสมบัติ @import และ data-uri ไม่อนุญาตให้ใช้ใน LESS แบบกำหนดเอง",
                 "custom_styles_heading": "กำหนดสไตล์เอง",
                 "custom_styles_text": "ปรับเเต่งฟอรั่มของคุณเองโดยการใช้ CSS/Less เพื่อปรากฎทับค่าเริ่มต้น",
-                "dark_mode_label": "ธีมมืด",
                 "description": "ปรับเเต่งสี, โลโก้, เเละส่วนอื่นๆ สำหรับฟอรั่มขอบคุณ",
                 "edit_css_button": "เเก้ไข CSS ที่กำหนดเอง",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "อัพโหลดภาพขอบคุณเพื่อจะเเสดงในส่วนไอคอนลัด",
                 "logo_heading": "โลโก้",
                 "logo_text": "อัพโหลดภาพที่จะเเสดงในส่วนชื่อของฟอรั่ม",
-                "title": "การเเสดงผล"
+                "title": "การเเสดงผล",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "ภาษาเริ่มต้น",
                 "description": "ตั้งค่าชื่อ, ภาษา, เเละตั้งพื้นฐานอื่นๆ สำหรับพอรั่มของคุณ",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "ชื่อเล่นผู้ใช้",
                 "display_name_text": "เลือกสิ่งที่จะใช้เเสดงสำหรับชื่อเล่นของผู้ใช้เป็นค่าเริ่มต้นหรือ ชื่อผู้ใช้ที่เเสดง",
                 "forum_description_heading": "คำอธิบายของฟอรั่ม",
@@ -38,6 +133,16 @@
                 "home_page_heading": "หน้าหลัก",
                 "home_page_text": "เลือกหน้าที่คุณต้องพารให้ผู้ใช้งานเห็นเป็นหน้าเเรกเมื่อเข้าฟอรั่มของคุณ",
                 "show_language_selector_label": "โชว์ที่เลือกภาษา",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "ชุดสแลง: {model}",
                 "slug_driver_text": "กรุณาเลือกชุดปฏิบัติงานเพื่อจะใช้คำเเสลงสำหรับโมดูลนี้",
                 "title": "พื้นฐาน",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "Dashboard",
+                "toggle_advanced_page_button": "",
                 "tools_button": "Tools"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "กำหนดค่าไดร์ฟที่ต้องการใช้ส่ง, ตั้งค่าเเละที่อยู่อีเมล์สำหรับฟอรั่มเพิ่งใช้ในการส่งอีเมล์ของคุณ",
                 "driver_heading": "เลือกไดร์ฟ",
                 "driver_label": "ไดร์ฟ",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "ผู้ส่ง",
                 "mail_encryption_label": "การเข้าหรัส",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "โฮสต์",
                 "mail_mailgun_domain_label": "โดเมน",
                 "mail_mailgun_region_label": "ภูมิภาค",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "ส่งเมล์ทดสอบเรียบร้อยเเล้ว",
                 "send_test_mail_text": "เราจะใช้การกำหนดค่าตามข้างต้นสำหรับอีเมล์ฟอรั่มของคุณ {email}",
                 "smtp_heading": "ตั้งค่า SMTP",
+                "smtp_description": "",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "",
                 "configure_scopes": "กำหนดขอบเขต",
                 "confirm_purge": "การล้างข้อมูลจะลบรายการฐานข้อมูลและทรัพยากรทั้งหมดที่เกี่ยวข้องกับส่วนขยาย แต่จะไม่ถอนการติดตั้งส่วนขยาย ซึ่งต้องทำผ่าน Composer คุณต้องการดำเนินการต่อหรือไม่?",
+                "database_driver_mismatch": "",
                 "deprecated": "",
                 "disabled": "ปิดใช้งาน",
                 "enable_to_see": "เปิดใช้งานส่วนเสริมเพื่อดูเเละเเก้ไขการตั้งค่า",
@@ -162,16 +280,26 @@
                     "no_readme": "ส่วนขยายนี้ไม่มีไฟล์ README",
                     "title": "เอกสารประกอบ {extName}"
                 },
-                "replaced": ""
+                "replaced": "",
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "รับความช่วยเหลือ",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "กรุณารอสักครู่…"
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -220,6 +348,7 @@
                 "post_without_throttle_label": "ตอบกลับกี่ครั้งก็ได้โดยไม่ต้องรอ",
                 "read_heading": "อ่าน",
                 "remove_scope_label": "",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "เปลี่ยนชื่อกระทู้",
                 "reply_to_discussions_label": "ตอบกลับกระทู้",
                 "search_users_label": "ค้นหาผู้ใช้",
@@ -242,8 +371,14 @@
                 "signup_closed_button": "ปิด",
                 "signup_open_button": "เปิด"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "การเปลี่ยนเเปลงของคุณได้ถูกบันทึกเเล้ว",
+                "select_dropdown_custom_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -258,11 +393,6 @@
                         "display_name": {
                             "title": "ชื่อที่แสดง"
                         },
-                        "edit_user": {
-                            "button": "=> core.ref.edit",
-                            "tooltip": "เเก้ไข {username}",
-                            "title": "=> core.ref.edit_user"
-                        },
                         "email": {
                             "title": "=> core.ref.email",
                             "visibility_hide": "ซ่อนที่อยู่อีเมล์",
@@ -276,7 +406,11 @@
                             "title": "เข้าร่วมเมื่อ"
                         },
                         "user_actions": {
-                            "title": "การกระทำ"
+                            "title": "การกระทำ",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "ไอดี"
@@ -287,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "ไม่ถูกต้อง"
-                },
-                "pagination": {
-                    "back_button": "หน้าก่อนหน้า",
-                    "first_button": "ไปที่หน้าแรก",
-                    "go_to_page_textbox_a11y_label": "ไปที่เลขหน้าโดยตรง",
-                    "last_button": "ไปยังหน้าสุดท้าย",
-                    "next_button": "หน้าถัดไป",
-                    "page_counter": "หน้าที่ {current} จาก {total}"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
@@ -359,6 +485,7 @@
                 "empty_text": "ดูเหมือนว่าไม่มีกระทู้ที่นี่",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} ตอบกลับเมื่อ {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} ตั้งกระทู้เมื่อ {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
                 "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}} ทำเครื่องหมาย {count, plural, one {reply} other {replies}} ที่ยังไม่อ่านเป็นอ่านแล้ว"
@@ -379,7 +506,6 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "โปรไฟล์",
-                "search_clear_button_accessible_label": "ล้างคำค้นหา",
                 "search_placeholder": "ค้นหา",
                 "search_role_label": "ค้นหาฟอรั่ม",
                 "session_dropdown_accessible_label": "Toggle session options dropdown menu",
@@ -392,30 +518,31 @@
                 "mark_all_as_read_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการทำเครื่องหมายว่าอ่านแล้วทั้งหมดทุกกระทู้ ?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "โหลดใหม่อีกครั้ง",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "Toggle navigation dropdown menu"
             },
             "index_sort": {
                 "latest_button": "อัปเดตล่าสุด",
-                "newest_button": "ใหม่ล่าสุด",
-                "oldest_button": "เก่าที่สุด",
-                "relevance_button": "สัมพันธ์กัน",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Change discussion list sorting",
                 "top_button": "ตอบกลับมากที่สุด"
             },
             "log_in": {
                 "forgot_password_link": "ลืมรหัสผ่าน ?",
-                "invalid_login_message": "รายละเอียดการเข้าสู่ระบบของคุณไม่ถูกต้อง",
+                "invalid_login_message": "",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "จดจำฉัน",
+                "remember_me_label": "",
                 "sign_up_text": "ยังไม่มีบัญชี ? <a>สมัครสมาชิก</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "ชื่อผู้ใช้หรืออีเมล"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
-                "delete_all_confirm": "คุณต้องการลบการแจ้งเตือนทั้งหมดหรือไม่? การกระทำนี้ย้อนกลับไม่ได้",
+                "delete_all_confirm": "",
                 "delete_all_tooltip": "ลบการแจ้งเตือนทั้งหมด",
                 "discussion_renamed_text": "{username} ได้ทำการเปลี่ยนชื่อ",
                 "empty_text": "ไม่มีการแจ้งเตือน",
@@ -439,6 +566,11 @@
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Toggle post controls dropdown menu"
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "ล่าสุด",
                 "original_post_link": "โพสต์ต้นฉบับ",
@@ -452,14 +584,18 @@
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period}ที่แล้ว"
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
                 "title": "เปลี่ยนชื่อกระทู้"
-            },
-            "search": {
-                "all_discussions_button": "ค้นหาทุกกระทู้ด้วย \"{query}\"",
-                "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "{browser} บน {os}",
@@ -500,6 +636,14 @@
                 "account_heading": "บัญชี",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
@@ -581,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "",
+                "db_error_message": "",
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
                 "extension_initialiation_failed_message": "",
+                "extension_runtime_failed_message": "",
                 "generic_message": "อ๊ะ! บางอย่างผิดพลาด โปรดโหลดหน้าเว็บและลองอีกครั้ง",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
@@ -591,6 +737,48 @@
                 "permission_denied_message": "คุณไม่ได้รับอนุญาตให้ทำเช่นนั้น",
                 "rate_limit_exceeded_message": "คุณกำลังทำการอย่างรวดเร็วเกินไป โปรดลองอีกครั้งหลังจากนี้สักครู่",
                 "render_failed_message": ""
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -602,25 +790,75 @@
             "modal": {
                 "close": ""
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": ""
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
-            "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second} เเละ {third}",
                 "two_text": "{first} เเละ {second}"
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": "[deleted]"
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": "",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -657,6 +895,9 @@
                 "csrf_token_mismatch": "คุณไม่ได้ใช้งานนานเกินไป",
                 "csrf_token_mismatch_return_link": "กลับไปเเละลองอีกครั้ง",
                 "invalid_confirmation_token": "ลิ้งสำหรับยืนยันนี้ถูกใช้ไปเเล้วหรือหมดอายุ",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "คุณไม่ได้รับอนุญาติในการเข้าถึงนี้นี้ โปรดลองอีกครั้งหลังจากล็อคอิน",
                 "not_found": "ไม่พบหน้าที่คุณร้องขอ",
                 "not_found_return_link": "กลับไปยัง {forum}",
@@ -668,20 +909,40 @@
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "คุณต้องการช็อคเอ้าออกจาก {forum} นี้ไหม?",
                 "title": "=> core.ref.log_out"
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
+                "title": ""
             },
             "reset_password": {
                 "confirm_password_label": "ยืนยันหรัสผ่านใหม่",
                 "new_password_label": "หรัสผ่านใหม่",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
-            "invalid_username_message": "ชื่อผู้ใช้จะต้องประกอบด้วยตัวอักษรตัวเลขและขีดกลางเท่านั้น",
+            "invalid_username_message": "",
             "invalid_filter_type": {
                 "must_be_numeric_message": "",
                 "must_not_be_array_message": "",
@@ -689,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "เปิดใช้งานบัญชีใหม่ของคุณ",
-                "body": "สวัสดี {username}!\n\nบางคน (หวังว่าจะเป็นคุณ!) ได้สมัครสมาชิกเพื่อใช้งาน {forum} ด้วยที่อยู่อีเมลนี้\n\nถ้าเป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และบัญชีของคุณจะถูกเปิดใช้งาน\n{url}\n\nหากคุณไม่ได้สมัครสมาชิกเพื่อใช้งานเว็บไซต์นี้โปรดไม่ต้องสนใจอีเมลนี้\n"
+                "body": ""
             },
             "confirm_email": {
                 "subject": "ยืนยันที่อยู่อีเมลใหม่ของคุณ",
-                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้เปลี่ยนที่อยู่อีเมลของเขาใน {forum} เป็นที่อยู่อีเมลนี้\n\nถ้านี่เป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และอีเมลของคุณจะได้รับการยืนยัน\n{url}\n\nหากคุณไม่ใช่คุณโปรดไม่ต้องสนใจอีเมลนี้\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้ส่งคำขอรีเซ็ตรหัสผ่านสำหรับบัญชีของคุณบน {forum}\n\nถ้าเป็นคุณให้คลิกลิงก์ต่อไปนี้เพื่อรีเซ็ตรหัสผ่านของคุณ\n{url}\n\nหากคุณไม่ต้องการเปลี่ยนรหัสผ่าน ไม่ต้องสนใจอีเมลนี้และจะไม่มีอะไรเกิดขึ้น\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "การทดสอบอีเมล์ของ Flarum",
-                "body": "สวัสดี {username}!\n\nนี้คือข้อความที่จะเเจ้งคุณว่าการตั้งค่าอีเมล์ของคุณนั้นสามารถใช้งานได้!\n\nถ้านี้เป็นอีเมล์ของคุณนั้นหมายความว่ามันใช้งานได้!\n\nเเต้ถ้านี่ไม่ใช่คุณโปรดอย่าสนใจอีเมล์นี้\n"
+                "body": ""
             }
         },
         "ref": {
@@ -718,6 +997,8 @@
             "custom_footer_title": "เเก้ไขส่วนล่างเอง",
             "custom_header_text": "เพิ่ม ลโค้ด HTML เพื่อเเสดงที่บนสุดของหน้าเหนือส่วนหัวของ Flarum",
             "custom_header_title": "เเก้ไขส่วนหัวที่กำหนดเอง",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "ลบ",
             "delete_forever": "ลบอย่างถาวร",
             "discussions": "กระทู้",
@@ -728,6 +1009,9 @@
             "generic_confirmation_message": "",
             "icon": "ไอคอน",
             "icon_text": "ใส่ชื่ออะไรก็ได้ของ <a>FontAwesome</a> icon class, <em>ที่ประกอบไปด้วย</em> <code>fas fa-</code> ข้างหน้า",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "แสดงเพิ่มเติม",
             "loading": "กำลังโหลด...",
             "log_in": "เข้าสู่ระบบ",
@@ -735,15 +1019,20 @@
             "mark_all_as_read": "ทำเครื่องหมายว่าอ่านแล้วทั้งหมด",
             "never": "",
             "new_token": "",
+            "newest": "",
             "next_page": "หน้าถัดไป",
             "notifications": "การแจ้งเตือน",
             "okay": "ตกลง",
+            "oldest": "",
             "password": "รหัสผ่าน",
             "posts": "โพสต์",
             "previous_page": "หน้าก่อนหน้า",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "ลบ",
             "rename": "เปลี่ยนชื่อ",
             "reply": "ตอบกลับ",
+            "refresh": "",
             "reset_your_password": "รีเซ็ตรหัสผ่านของคุณ",
             "restore": "กู้คืน",
             "save_changes": "บันทึกการเปลี่ยนแปลง",
@@ -754,6 +1043,7 @@
             "some_others": "{count, plural, one {# other} other {# others}}",
             "start_a_discussion": "ตั้งกระทู้ใหม่",
             "username": "ชื่อผู้ใช้",
+            "username_or_email_placeholder": "",
             "users": "ผู้ใช้",
             "view": "ดู",
             "write_a_reply": "เขียนข้อความตอบกลับ...",

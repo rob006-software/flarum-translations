@@ -22,7 +22,12 @@
                 "heading": "Warteschlangenübersicht",
                 "full_dashboard": "Horizon Dashboard",
                 "refresh": "Aktualisieren",
-                "last_refresh": "Aktualisiert {time}",
+                "last_refresh": "",
+                "error": {
+                    "title": "Verbindungsfehler",
+                    "fetch_failed": "Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfe deine Redis-Konfiguration.",
+                    "setup_docs": "Redis-Setup-Dokumentation aufrufen"
+                },
                 "health": {
                     "excellent": "Hervorragend",
                     "good": "Gut",
@@ -30,16 +35,11 @@
                     "critical": "Kritisch",
                     "tooltip": "Systemgesundheitsbewertung: {score}/100"
                 },
-                "error": {
-                    "title": "Verbindungsfehler",
-                    "fetch_failed": "Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfe deine Redis-Konfiguration.",
-                    "setup_docs": "Redis-Setup-Dokumentation aufrufen"
-                },
                 "data": {
                     "redis-used-memory": "Redis-Arbeitsspeicherauslastung",
-                    "redis-memory-usage": "Cache-Store-Speichernutzung",
                     "redis-peak-memory": "Redis-Spitzenwert-Arbeitsspeicher",
                     "redis-max-memory": "Maximaler Redis-Arbeitsspeicher",
+                    "redis-memory-usage": "Cache-Store-Speichernutzung",
                     "redis-memory-policy": "Redis-Arbeitsspeicherrichtlinie",
                     "redis-memory-policy-tooltip": "Die Speicherrichtlinie ist die Art und Weise, wie Redis auswählt, was entfernt werden soll,\nwenn das maximale Speicherlimit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte\nwerden nicht gespeichert, wenn das Speicherlimit erreicht ist. Klicke hier, um die Dokumentation anzuzeigen.\n",
                     "redis-ops-per-sec": "Ops pro Sekunde",
@@ -59,8 +59,7 @@
                     "max-runtime": "Max. Laufzeit",
                     "max-throughput": "Max. Durchsatz",
                     "success-rate": "Erfolgsquote",
-                    "failure-rate": "Fehlerquote",
-                    "redis-cpu-user": "Redis CPU-Nutzer"
+                    "failure-rate": "Fehlerquote"
                 }
             }
         }

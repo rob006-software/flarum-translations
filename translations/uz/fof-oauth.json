@@ -108,7 +108,8 @@
             "unlink": "",
             "error": {
                 "bad_verification_code": "Tasdiqlash tokeni yaroqsiz yoki muddati oʻtgan. Iltimos, yana bir bor urinib ko'ring.",
-                "invalid_state": "Yaroqsiz holat. Iltimos, yana bir bor urinib ko'ring."
+                "invalid_state": "Yaroqsiz holat. Iltimos, yana bir bor urinib ko'ring.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

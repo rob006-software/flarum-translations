@@ -108,7 +108,8 @@
             "unlink": "Видалити посилання",
             "error": {
                 "bad_verification_code": "Недійсний або прострочений токен підтвердження. Будь ласка, спробуйте ще раз.",
-                "invalid_state": "Недійсний стан. Будь ласка, спробуйте ще раз."
+                "invalid_state": "Недійсний стан. Будь ласка, спробуйте ще раз.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

@@ -56,10 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Επεξεργασία κατηγοριών για {title}",
-                "title": "Επιλέξτε κατηγορίες για τη συζήτησή σας",
-                "choose_primary_placeholder": "Επιλογή μίας κατηγορίας|Επιλογή {count} κατηγοριών",
-                "choose_secondary_placeholder": "Επιλέξτε μία ακόμη κατηγορία|Επιλέξτε {count} ακόμη κατηγορίες",
-                "submit_button": "=> core.ref.okay"
+                "title": "Επιλέξτε κατηγορίες για τη συζήτησή σας"
             },
             "composer_discussion": {
                 "choose_tags_link": "Επιλέξτε κατηγορίες"
@@ -87,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Διαγράφηκε",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "",
                 "choose_primary_placeholder": "",
@@ -101,17 +106,6 @@
             "choose_tags_placeholder": "",
             "name": "Όνομα",
             "tags": "Κατηγορίες"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
         }
     }
 }

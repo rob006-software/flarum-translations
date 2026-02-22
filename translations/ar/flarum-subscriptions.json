@@ -39,7 +39,22 @@
         "email": {
             "new_post": {
                 "subject": "[منشور جديد] {title}",
-                "body": "أهلاً {recipient_display_name}!\n\nنشر {poster_display_name} منشورًا في موضوع تتابعه: {title}.\n\nلعرض النشاط الجديد، يُرجى زيارة الرابط التالي:\n{url}\n\n---\n\n{content}\n\n---\n\nلن تتلقى أي إشعارات أخرى حول هذا الموضوع حتى تُحدّثها."
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "subscription": {
+                        "following_key": "",
+                        "ignoring_key": ""
+                    }
+                }
             }
         },
         "ref": {

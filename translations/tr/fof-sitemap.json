@@ -30,9 +30,7 @@
                 "include_changefreq_help": "Değişiklik sıklığı değerleri Google tarafından göz ardı edilir, ancak diğer arama motorları tarafından tarama zamanlaması için kullanılabilir",
                 "modes": {
                     "runtime": "Çalışma yöntemi",
-                    "multi_file": "Çoklu dosya",
-                    "cache": "Önbellek",
-                    "cache_disk": "Dosya"
+                    "multi_file": "Çoklu dosya"
                 },
                 "frequency": {
                     "hourly": "Saatlik",
@@ -54,10 +52,7 @@
                             "minimum_item_threshold_help": "Bir etiketin site haritasına dahil edilmesi için sahip olması gereken minimum tartışma sayısı."
                         }
                     }
-                },
-                "mode_help_cache_disk_label": "Önbellek Modu/Disk Modu",
-                "mode_help_cache_disk": "Küçük veya orta ölçekli forumlar için en iyisi, büyük olasılıkla cronjob'lara izin veren ve Flarum zamanlayıcıyı etkinleştiren barındırma ortamlarında (aşağıya bakın) ve 50.000'den az öğe olarak özetlenen tartışmalar, kullanıcılar, etiketler ve sayfalar.",
-                "title": "FoF Site Haritası"
+                }
             }
         }
     }

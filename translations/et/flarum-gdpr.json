@@ -19,12 +19,14 @@
                     "extension_settings_button": "GDPR-i seaded"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Kasutaja tabeli andmed",
                     "help_text": "Enamasti tabeli <code>kasutaja</code> lisatud veerge hallatakse automaatselt ning andmete eksportimisel kui ka kustutamisel.\nAga on ka erandeid, mis on loetletud all.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "GDPR-i integreerimised"
+                "gdpr_button": "GDPR-i integreerimised",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Protsessi kustutamise nõuded",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "Ekspordi kasutaja {username} andmed"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Kinnita oma konto kustutamise nõue",
-                "body": "Tere {display_name}!\n\nKeegi (loodetavasti sina) palusid kustutada konto `{display_name}`.\n\nSelle toimingu kinnitamiseks kliki palun järgnevale lingile ning seejärel meie meeskond tegeleb sinu päringuga.\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Konto kustutamine on lõpetatud",
-                    "body": "Tere {display_name}!\n\nSee on automaatne ja viimane teade, et sinu konto on kustutatud.\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "Konto anonümiseerimine on lõpetatud",
-                    "body": "Tere {display_name}!\n\nSee on automaatne ja viimane teade, et sinu konto on anonümiseeritud.\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "Konto tühistamise päring on tühistatud",
-                "body": "Tere {display_name}!\n\nSee on automaatne teavitus, et sinu soov konto kustutamine katkestada on töödeldud.\n\nSinu konto kustutamine pole enam töös.\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "Andmete eksport on saadaval",
-                "body": "Tere {display_name}!\n\nPalusid eksportida oma kasutajakontoga {username} seotud andmed. Andmed on eksporditud ning need on nüüd saadaval:\n\n{url}\n\nSee eksport on saadaval kuni {destroys_at}.\n"
+                "body": ""
             }
         },
         "forum": {

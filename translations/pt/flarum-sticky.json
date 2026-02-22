@@ -1,6 +1,11 @@
 {
     "flarum-sticky": {
         "admin": {
+            "settings": {
+                "enable_display_excerpt": "",
+                "only_sticky_unread_discussions_label": "",
+                "only_sticky_unread_discussions_help": ""
+            },
             "permissions": {
                 "sticky_discussions_label": "Discussões fixadas"
             }
@@ -16,6 +21,15 @@
             "post_stream": {
                 "discussion_stickied_text": "{username} destacou a discussão {time}.",
                 "discussion_unstickied_text": "{username} retirou o destaque da discussão {time}."
+            }
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "sticky": {
+                        "key": ""
+                    }
+                }
             }
         },
         "ref": {

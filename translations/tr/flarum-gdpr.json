@@ -19,12 +19,14 @@
                     "extension_settings_button": "GDPR Ayarları"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Kullanıcı Tablo Verisi",
                     "help_text": "Çoğunlukla, <code>kullanıcı</code> tablosuna eklenen tüm sütunlar hem verileri dışa aktarmak hem de silmek amacıyla otomatik olarak işlenecektir.\nAncak aşağıda sıralanan bazı özel durumlar vardır.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "GDPR Entegrasyonları"
+                "gdpr_button": "GDPR Entegrasyonları",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Silme isteklerini işleyin",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "{username} için verileri dışa aktar"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Hesap silme isteğinizi onaylayın",
-                "body": "Hey {display_name}!\n\nBirisi (umarım sizsinizdir) az önce `{display_name}` hesabını silmeyi talep etti.\n\nBu işlemi onaylamak için lütfen aşağıdaki bağlantıyı takip edin, ardından talebiniz ekibimiz tarafından işleme alınacaktır.\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Hesap silme işlemi tamamlandı",
-                    "body": "Hey {display_name}!\n\nBu, hesabınızın silindiğine dair otomatik ve son bir bildirimdir.\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "Hesap anonimleştirme tamamlandı",
-                    "body": "Hey {display_name}!\n\nBu, hesabınızın anonimleştirildiğine dair otomatik ve son bir bildirimdir.\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "Hesap silme talebi iptal edildi",
-                "body": "Merhaba {display_name}!\n\nBu, hesap silme talebinizin iptal edildiğine dair otomatik bir bildirimdir.\n\nHesabınız artık silinmeyecek.\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "Veri aktarımı mevcut",
-                "body": "Hey {display_name}!\n\n{username} için hesap verilerinin dışa aktarılmasını istediniz. Bu dışa aktarma başarıyla oluşturuldu ve artık kullanılabilir:\n\n{url}\n\nBu dışa aktarma {destroys_at} tarihine kadar kullanılabilir kalacaktır.\n"
+                "body": ""
             }
         },
         "forum": {

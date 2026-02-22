@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Private Diskussion] {display_name} hat dich zu einer privaten Diskussion hinzugefügt"
             },
             "body": {
-                "private_discussion_created": "Hallo {recipient_display_name},\n\n{actor_display_name} hat eine neue private Diskussion mit dir als Empfänger gestartet, mit dem Titel \\\"{discussion_title}\\\".\n\nBetrachte sie hier:\n{discussion_url}\n\nDu musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.\n",
-                "private_discussion_replied": "Hallo {recipient_display_name},\n\n{actor_display_name} hat in einer privaten Diskussion mit dir als Empfänger gepostet, mit dem Titel \\\"{discussion_title}\\\".\n\nBetrachte sie hier:\n{post_url}\n\nDu musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.\n",
-                "recipient_removed": "Hallo {recipient_display_name},\n\n{actor_display_name} hat die private Diskussion \\\"{discussion_title}\\\" verlassen. Dadurch ist der Nutzer nicht mehr dazu in der Lage, den Inhalt zu sehen.\n\nBetrachte sie hier:\n{discussion_url}\n\nDu musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.\n",
-                "private_discussion_added": "Hallo {recipient_display_name},\n\n{actor_display_name} hat dich zu einer bestehenden privaten Diskussion hinzugefügt, mit dem Titel \\\"{discussion_title}\\\".\n\nBetrachte sie hier:\n{discussion_url}\n\nDu musst dich eventuell erst einloggen, bevor du auf diesen Link zugreifen kannst.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

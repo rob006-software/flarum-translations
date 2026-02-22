@@ -1,6 +1,11 @@
 {
     "flarum-sticky": {
         "admin": {
+            "settings": {
+                "enable_display_excerpt": "Show an excerpt of the first post when a sticky discussion is unread",
+                "only_sticky_unread_discussions_label": "Only sticky unread discussions",
+                "only_sticky_unread_discussions_help": "On the All Discussions page, unread sticky discussions pin to the top, while read sticky discussions follow the regular order."
+            },
             "permissions": {
                 "sticky_discussions_label": "Sticky discussions"
             }
@@ -16,6 +21,15 @@
             "post_stream": {
                 "discussion_stickied_text": "{username} stickied the discussion {time}.",
                 "discussion_unstickied_text": "{username} unstickied the discussion {time}."
+            }
+        },
+        "lib": {
+            "gambits": {
+                "discussions": {
+                    "sticky": {
+                        "key": "sticky"
+                    }
+                }
             }
         },
         "ref": {

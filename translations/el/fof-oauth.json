@@ -108,7 +108,8 @@
             "unlink": "",
             "error": {
                 "bad_verification_code": "Μη έγκυρος ή ληγμένος κωδικός επαλήθευσης. Δοκιμάστε ξανά.",
-                "invalid_state": "Σφάλμα. Δοκιμάστε ξανά ή επικοινωνήστε μαζί μας."
+                "invalid_state": "Σφάλμα. Δοκιμάστε ξανά ή επικοινωνήστε μαζί μας.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

@@ -19,12 +19,14 @@
                     "extension_settings_button": "GDPR Settings"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "Not yet implemented",
                     "title": "User Table Data",
                     "help_text": "On the most part, any columns added to the <code>user</code> table will be handled automatically, both for exporting data and for erasure.\nHowever, there are some special cases, which are listed below.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "GDPR Integrations"
+                "gdpr_button": "GDPR Integrations",
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
                 "process_erasure": "Process erasure requests",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "Export data for {username}"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "Export",
+                            "tooltip": "Export data for {username}"
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Confirm your account erasure request",
-                "body": "Hey {display_name}!\n\nSomeone (hopefully you) just requested to erase the account `{display_name}`.\n\nTo confirm this action, please follow the following link, after which your request will be processed by our team.\n\n{erasure_confirm_url}\n"
+                "body": "Someone (hopefully you) just requested to erase the account `{display_name}`.\n\nTo confirm this action, please follow the following link, after which your request will be processed by our team.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Account deletion completed",
-                    "body": "Hey {display_name}!\n\nThis is an automatic, final notification that your account has been deleted.\n"
+                    "body": "This is an automatic, final notification that your account has been deleted.\n"
                 },
                 "anonymization": {
                     "subject": "Account anonymization completed",
-                    "body": "Hey {display_name}!\n\nThis is an automatic, final notification that your account has been anonymized.\n"
+                    "body": "This is an automatic, final notification that your account has been anonymized.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "Account erasure request cancelled",
-                "body": "Hey {display_name}!\n\nThis is an automatic notification that your request to cancel account deletion has been processed.\n\nYour account will no longer be deleted.\n"
+                "body": "This is an automatic notification that your request to cancel account deletion has been processed.\n\nYour account will no longer be deleted.\n"
             },
             "export_available": {
                 "subject": "Data export available",
-                "body": "Hey {display_name}!\n\nYou requested an export of the account data for {username}. This export has successfully been generated and is now available:\n\n{url}\n\nThis export will remain available until {destroys_at}.\n"
+                "body": "You requested an export of the account data for {username}. This export has successfully been generated and is now available:\n\n{url}\n\nThis export will remain available until {destroys_at}.\n"
             }
         },
         "forum": {

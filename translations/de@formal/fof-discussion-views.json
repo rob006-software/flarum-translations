@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Beliebt",
-                "unpopular_button": "Unbeliebt"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Anzahl der Diskussionsaufrufe zurücksetzen",
                 "submit": "Senden",
-                "label": "Auf Anzeigeanzahl einstellen"
+                "label": "Auf Anzeigeanzahl einstellen",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "Anzahl der Aufrufe festlegen"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Crawler-Besuche ignorieren"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

@@ -87,6 +87,8 @@
                     "vote_color": "按讚貼顏色",
                     "icon_name": "讚/噓小圖示",
                     "icon_help": "輸入任何 Font-Awesome 圖示，後綴為 -up 和 -down。 示例：箭頭，拇指，人字紋",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "禁用反對",
                     "first_post_only": "僅首帖開放投票功能",
                     "allow_self_votes": "允許用戶投票自己的貼文"
@@ -94,7 +96,7 @@
                 "save_settings": "儲存設定",
                 "convert": {
                     "button": "轉換「喜歡」為「讚」",
-                    "help": "將 flarum-ext-like 產生的「喜歡」轉換成「讚」，並計算所有目前討論的熱度。",
+                    "help": "",
                     "converting": "您的喜好正在被轉換，稍後幾分鐘重整頁面查看轉換結果。（轉換可能需要一段時間，具體取決於您的論壇）",
                     "converted": "成功轉換 {number} 個喜歡"
                 },
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "{display_name} 投票了你的貼文"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

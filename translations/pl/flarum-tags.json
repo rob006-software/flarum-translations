@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Edytuj tagi dla {title}",
-                "title": "Wybierz tagi dla swojej dyskusji",
-                "bypass_requirements": "Pomiń wymóg podania tagów",
-                "choose_primary_placeholder": "{count, plural, one {Wybierz główny tag} few {Wybierz # główne tagi} other {Wybierz # głównych tagów}}",
-                "choose_secondary_placeholder": "{count, plural, one {Wybierz 1 dodatkowy tag} few {Wybierz # dodatkowe tagi} other {Wybierz # dodatkowych tagów}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "Wybierz tagi dla swojej dyskusji"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Usunięty",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Pomiń wymóg podania tagów",
                 "choose_primary_placeholder": "{count, plural, one {Wybierz główny tag} few {Wybierz # główne tagi} other {Wybierz # głównych tagów}}",
@@ -102,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Wybierz 1 dodatkowy tag} few {Wybierz # dodatkowe tagi} other {Wybierz # dodatkowych tagów}}",
             "name": "Nazwa",
             "tags": "Tagi"
-        },
-        "validation": {
-            "attributes": {
-                "name": "nazwa",
-                "slug": "slug",
-                "is_hidden": "ukryty",
-                "description": "opis",
-                "color": "kolor",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

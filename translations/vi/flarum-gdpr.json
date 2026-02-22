@@ -19,12 +19,14 @@
                     "extension_settings_button": "Cài đặt GDPR"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "Dữ liệu bảng người dùng",
                     "help_text": "Phần lớn, bất kỳ cột nào được thêm vào bảng <code>user</code> sẽ được xử lý tự động, cho cả việc xuất dữ liệu và xóa.\nTuy nhiên, có một số trường hợp đặc biệt được liệt kê bên dưới.\n"
                 }
             },
             "nav": {
-                "gdpr_button": "Tích hợp GDPR"
+                "gdpr_button": "Tích hợp GDPR",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "Xử lý yêu cầu xóa",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "Yêu cầu dữ liệu cho {username}"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Xác nhận yêu cầu xóa tài khoản của bạn",
-                "body": "Xin chào {display_name}!\n\nCó người (hy vọng là bạn) vừa yêu cầu xóa tài khoản `{display_name}`.\n\nĐể xác nhận hành động này, vui lòng theo liên kết sau, sau đó yêu cầu của bạn sẽ được nhóm của chúng tôi xử lý.\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Đã xóa tài khoản hoàn tất",
-                    "body": "Xin chào {display_name}!\n\nĐây là thông báo tự động, cuối cùng rằng tài khoản của bạn đã bị xóa.\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "Đã hoàn tất việc ẩn danh tài khoản",
-                    "body": "Xin chào {display_name}!\n\nĐây là thông báo tự động, cuối cùng rằng tài khoản của bạn đã được ẩn danh.\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "Yêu cầu xóa tài khoản đã bị hủy",
-                "body": "Xin chào {display_name}!\n\nĐây là thông báo tự động rằng yêu cầu hủy xóa tài khoản của bạn đã được xử lý.\n\nTài khoản của bạn sẽ không còn bị xóa nữa.\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "Có thể xuất dữ liệu",
-                "body": "Xin chào {display_name}!\n\nBạn đã yêu cầu xuất dữ liệu tài khoản cho {username}. Bản xuất này đã được tạo thành công và hiện đã sẵn sàng:\n\n{url}\n\nBản xuất này sẽ còn khả dụng cho đến {destroys_at}.\n"
+                "body": ""
             }
         },
         "forum": {

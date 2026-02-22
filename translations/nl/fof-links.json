@@ -17,15 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Voeg het <code>rel=\"me\"</code> attribuut toe voor identiteitsverificatie op andere sites",
-                "visibility": "Link zichtbaarheid",
-                "visibility.help": "Links zijn standaard alleen zichtbaar voor <code>{admin}</code>-gebruikers. Pas de rechten aan om te bepalen wie deze link mag zien.",
-                "visibility.help-disabled": "Sla de koppeling op voordat u de zichtbaarheidsinstellingen wijzigt.",
-                "visibility.label": "Zichtbaarheid van koppelingen",
-                "visibility.guest-only.label": "alleen {guest} ?",
-                "visibility.guest-only.help": "Alleen {guest} kan deze link zien. De bovenstaande rechten moeten worden ingesteld op '{everyone}'.",
-                "everyone-label": "Iedereen",
-                "guests-label": "Gasten",
-                "members-label": "Geregistreerde gebruikers"
+                "visibility": {
+                    "help": "Links zijn standaard alleen zichtbaar voor <code>{admin}</code>-gebruikers. Pas de rechten aan om te bepalen wie deze link mag zien.",
+                    "help-disabled": "Sla de koppeling op voordat u de zichtbaarheidsinstellingen wijzigt.",
+                    "label": "Zichtbaarheid van koppelingen",
+                    "guest-only": {
+                        "label": "alleen {guest} ?",
+                        "help": "Alleen {guest} kan deze link zien. De bovenstaande rechten moeten worden ingesteld op '{everyone}'."
+                    }
+                }
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

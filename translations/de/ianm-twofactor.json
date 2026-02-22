@@ -94,7 +94,8 @@
             },
             "status_type": {
                 "enabled": "aktiviert",
-                "disabled": "deaktiviert"
+                "disabled": "deaktiviert",
+                "device_changed": ""
             }
         },
         "views": {
@@ -113,16 +114,6 @@
                 "twofactordata": {
                     "export_description": "Exportiert 2FA-Status und verschlüsselte Backup-Codes.",
                     "delete_description": "Löscht alle mit 2FA verbundenen Daten."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "twofactordata": {
-                    "export_description": "Exportiert den 2FA-Status und verschlüsselte Backup-Codes.",
-                    "delete_description": "Löscht alle Daten in Bezug auf die Zwei-Faktor-Authentifizierung."
                 }
             }
         }

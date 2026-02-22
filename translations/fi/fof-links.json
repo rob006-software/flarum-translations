@@ -17,15 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Lisää <code>rel=\"me\"</code> attribuutti, muiden sivujen verifiointia varten",
-                "visibility": "Linkin näkyvyys",
-                "visibility.help": "Oletuksena linkit ovat näkyvillä vain <code>{admin}</code> käyttäjille. Säädä oikeuksia määrittääksesi kuka näkee tämän linkin.",
-                "visibility.help-disabled": "Tallenna linkki ennen, kuin muutat näkyvyysasetuksia.",
-                "visibility.label": "Linkin näkyvyys",
-                "visibility.guest-only.label": "Vain {guest}?",
-                "visibility.guest-only.help": "Vain {guest} voivat nähdä tämän linkin. Oikeus yllä pitäisi olla asetettu kohtaan '{everyone}'.",
-                "everyone-label": "Kaikki",
-                "guests-label": "Vieraat",
-                "members-label": "Rekisteröidyt käyttäjät"
+                "visibility": {
+                    "help": "Oletuksena linkit ovat näkyvillä vain <code>{admin}</code> käyttäjille. Säädä oikeuksia määrittääksesi kuka näkee tämän linkin.",
+                    "help-disabled": "Tallenna linkki ennen, kuin muutat näkyvyysasetuksia.",
+                    "label": "Linkin näkyvyys",
+                    "guest-only": {
+                        "label": "Vain {guest}?",
+                        "help": "Vain {guest} voivat nähdä tämän linkin. Oikeus yllä pitäisi olla asetettu kohtaan '{everyone}'."
+                    }
+                }
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
@@ -33,8 +33,7 @@
                 "preconfigured": "Foorumin linkit on esimääritetty, eikä niitä voi muokata täällä."
             },
             "settings": {
-                "show_icons_only_on_tablet": "Näytä ikonit vain tabletti näkymällä",
-                "show_icons_only_on_mobile": "Näytä ikonit vain mobiilissa"
+                "show_icons_only_on_tablet": "Näytä ikonit vain tabletti näkymällä"
             }
         },
         "ref": {

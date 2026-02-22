@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "sernavê rengîn",
                 "colors_heading": "rengên",
                 "colors_primary_label": "Rengê bingehîn",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "Taybetmendiyên @import û data-uri di LESS-a xwerû de destûr nayê dayîn.",
                 "custom_styles_heading": "şêwaza taybet",
                 "custom_styles_text": "Bi lêzêdekirina koda xweya Kêm/CSS-ê ku li ser şêwazên xwerû yên Flarum were sepandin, dîmenê forûmê xweş bikin.",
-                "dark_mode_label": "moda tarî",
                 "description": "Reng, logo û guherbarên din ên foruma xwe xweş bikin.",
                 "edit_css_button": "saz kirina CSS-ya taybet",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "Wêneyek barbikin ku wekî îkona kurteya forumê were xuyang kirin.",
                 "logo_heading": "Logo",
                 "logo_text": "Wêneyek barbikin ku li şûna sernavê forumê were xuyang kirin.",
-                "title": "Xuyanî"
+                "title": "Xuyanî",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Zimanê jixweber",
                 "description": "Sernav, ziman, û mîhengên din ên bingehîn ên forûmê saz bikin.",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "Navê bikarhêner ê dîmender",
                 "display_name_text": "Vebijêrka ku divê ji bo navên xuyangkirî yên bikarhêneran were bikar anîn hilbijêrin. Bi xwerû navê bikarhêner tê xuyang kirin.",
                 "forum_description_heading": "Danasîna Forumê",
@@ -38,6 +133,16 @@
                 "home_page_heading": "Destpêk",
                 "home_page_text": "Dema ku ew serdana foruma we bikin rûpela ku bikarhêner yekem dibînin hilbijêrin.",
                 "show_language_selector_label": "Hilbijêrê ziman nîşan bide",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "Navnîşana Şofêr Navê Kurte: {model}",
                 "slug_driver_text": "Vebijêrkek hilbijêre ku ji bo slugging li ser vê modelê bikar bînin.",
                 "title": "zanîna bingehîn",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "Destgeh",
+                "toggle_advanced_page_button": "",
                 "tools_button": "Amûr"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "Ajokar, mîheng û navnîşanên ku dê foruma we ji bo şandina e-nameyê bikar bîne mîheng bikin.",
                 "driver_heading": "Ajokarek hilbijêre",
                 "driver_label": "Ajoker",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "Şandyar",
                 "mail_encryption_label": "Şîfrekirin",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "Hewandin",
                 "mail_mailgun_domain_label": "Navper",
                 "mail_mailgun_region_label": "Cih û War",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "Nameya testê bi serkeftî hate şandin!",
                 "send_test_mail_text": "Ev ê e-nameyek ji navnîşana e-nameyê ya {email} re bi karanîna veavakirina jorîn bişîne.",
                 "smtp_heading": "Rastkirina SMTP-ê",
+                "smtp_description": "",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "",
                 "configure_scopes": "Veava kirina vegir",
                 "confirm_purge": "Paqijkirin dê hemî navnîşên databasê û hebûnên bi dirêjkirinê ve girêdayî rake. Ew dirêjkirinê jê nake; Rakirin divê bi rêya Composer were kirin. Ma hûn guman dikin ku hûn dixwazin berdewam bikin?",
+                "database_driver_mismatch": "",
                 "deprecated": "",
                 "disabled": "Kûd",
                 "enable_to_see": "Berfirehkirinê çalak bike ku mîhengan bibîne û biguhezîne.",
@@ -162,16 +280,26 @@
                     "no_readme": "Êv niçik be xwedî pele MIN BIXWîNE ye",
                     "title": "belgeyên {extName}"
                 },
-                "replaced": ""
+                "replaced": "",
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "Alîkariyê bistînin",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "Ji Kerema Xwe Bisekine..."
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -220,6 +348,7 @@
                 "post_without_throttle_label": "Bêyî li bendê çend caran bersiv bidin",
                 "read_heading": "Bixwîne",
                 "remove_scope_label": "",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "Navê niqaşan biguhere",
                 "reply_to_discussions_label": "Ji nîqaşan re bersiv bide",
                 "search_users_label": "=> core.ref.search_users",
@@ -242,8 +371,14 @@
                 "signup_closed_button": "Girtî",
                 "signup_open_button": "Vekirî"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "Guhertinên te hatin tomarkirin.",
+                "select_dropdown_custom_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -258,11 +393,6 @@
                         "display_name": {
                             "title": "Navê nîşan bide"
                         },
-                        "edit_user": {
-                            "button": "=> core.ref.edit",
-                            "tooltip": "Biguherîne {username}",
-                            "title": "=> core.ref.edit_user"
-                        },
                         "email": {
                             "title": "=> core.ref.email",
                             "visibility_hide": "Navnîşana e-nameyê veşêre",
@@ -276,7 +406,11 @@
                             "title": "Tevlî bûn"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "Nasname"
@@ -287,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "Seqet"
-                },
-                "pagination": {
-                    "back_button": "Rûpelê berê",
-                    "first_button": "Biçe rûpela yekem",
-                    "go_to_page_textbox_a11y_label": "Rasterast biçin hejmara rûpelê",
-                    "last_button": "Biçe rûpela dawî",
-                    "next_button": "Rûpelê din",
-                    "page_counter": "Rûpela {current} ji {total} -ê"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
@@ -359,6 +485,7 @@
                 "empty_text": "Wusa dixuye ku li vir nîqaş tune.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} bersiv da {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} dest pê kir {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# bersiv} other {# bersiv}}",
                 "unread_replies_a11y_label": "{count, plural, one {# bersivên nexwendî} other {# bersivên nexwendî}}. {count, plural, one {bersiv} other {bersiv}}  wekî xwendî nîşan bidin."
@@ -379,7 +506,6 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "profîl",
-                "search_clear_button_accessible_label": "Pirsa lêgerînê paqij bike",
                 "search_placeholder": "Lêgerîn",
                 "search_role_label": "Lêgerîn",
                 "session_dropdown_accessible_label": "Vebijarkên danişînê menuya dakêşanê biguhezînin",
@@ -392,30 +518,31 @@
                 "mark_all_as_read_confirmation": "Ma hûn pê bawer in ku hûn dixwazin hemî nîqaşan wekî xwendin nîşan bikin?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Hênikkirin",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "Menûya dakêşana navîgasyonê biguherînin"
             },
             "index_sort": {
                 "latest_button": "Dawîtirîn",
-                "newest_button": "Dawîtirîn",
-                "oldest_button": "ya herî kevn",
-                "relevance_button": "mûnasibî",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Rêzkirina lîsteya nîqaşê biguherînin",
                 "top_button": "Lûtke"
             },
             "log_in": {
                 "forgot_password_link": "Te şîfre ji bîr kir?",
-                "invalid_login_message": "Agahiyên têketina we nerast bûn.",
+                "invalid_login_message": "",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "Min bîne bîra xwe",
+                "remember_me_label": "",
                 "sign_up_text": "Hesabê te tune? <a>Bibe Endam</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Navê bikarhêner an E-name"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
-                "delete_all_confirm": "Ma hûn guman dikin ku hûn dixwazin hemî agahdariyan jêbirin? Ev çalakî nayê vegerandin",
+                "delete_all_confirm": "",
                 "delete_all_tooltip": "Hemî agahdariyan jêbirin",
                 "discussion_renamed_text": "{username} sernav guhert",
                 "empty_text": "Danezan tune",
@@ -439,6 +566,11 @@
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Menûya dakêşana kontrolên postê biguhezînin"
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "Niha",
                 "original_post_link": "posta orîjînal",
@@ -452,14 +584,18 @@
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period}  pişt re"
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
                 "title": "Guhertina Navnîşan"
-            },
-            "search": {
-                "all_discussions_button": "Li hemî gotûbêjan ji bo \"{query}\" bigerin",
-                "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "{browser} di {os}",
@@ -500,6 +636,14 @@
                 "account_heading": "hesab",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "Agahiyên \"{description}\" bi rêya {method} bistînin",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
@@ -581,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Girêdanên dorhêl hatin tespît kirin: {dirêjkirin}. Aborting. Ji kerema xwe yek ji pêvekan neçalak bike û dîsa biceribîne.{extensions}{extensions}{extensions}{extensions}",
+                "db_error_message": "",
                 "dependent_extensions_message": "Nekare {extension} neçalak bike heya ku pêvekên girêdayî jêrîn neçalak bibin: {extensions}",
                 "extension_initialiation_failed_message": "Destpêkirina {extension} bi ser neket, ji bo bêtir agahdarî konsolê gerokê kontrol bikin.",
+                "extension_runtime_failed_message": "",
                 "generic_message": "Oops! Tiştek xelet derket. Ji kerema xwe rûpelê nû bar bike û dîsa biceribîne.",
                 "generic_cross_origin_message": "Oops! Di dema daxwazek xaçepirsînê de tiştek xelet derket. Ji kerema xwe rûpelê nû bar bike û dîsa biceribîne.",
                 "missing_dependencies_message": "Nekare {extension} çalak bike heya ku girêdayîbûna jêrîn neyên çalak kirin: {extensions}",
@@ -591,6 +737,48 @@
                 "permission_denied_message": "Destûra we tune ku hûn vê bikin.",
                 "rate_limit_exceeded_message": "Hûn hinekî bi lez diçin. Ji kerema xwe di çend saniyan de dîsa biceribîne.",
                 "render_failed_message": "Bibore, dema nîşandana vê naverokê me rastî xeletiyek hat. Heke hûn bikarhêner in, ji kerema xwe paşê dîsa biceribînin. Heke hûn rêveber in, ji bo bêtir agahdarî li pelên têketinê yên Flarum binêrin."
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -602,25 +790,75 @@
             "modal": {
                 "close": "Girtin"
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": "Berkêşka Navîgasyonê vekin"
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
-            "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second}, û {third}",
                 "two_text": "{first} û {second}"
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": "[ jêbirin]"
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": "",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -657,6 +895,9 @@
                 "csrf_token_mismatch": "Tu pir dirêj neçalak bûyî.",
                 "csrf_token_mismatch_return_link": "Vegere, dîsa biceribîne",
                 "invalid_confirmation_token": "Ev girêdana erêkirinê berê hatiye bikaranîn an jî nederbasdar e.",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "Destûra we tune ku hûn bigihîjin vê rûpelê. Piştî têketinê dîsa biceribîne.",
                 "not_found": "Rûpela ku te daxwaz kir nehat dîtin.",
                 "not_found_return_link": "Vegere {forum}",
@@ -668,20 +909,40 @@
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "Ma tu bi rastî dixwazî ji {forum} derkevî?",
                 "title": "=> core.ref.log_out"
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
+                "title": ""
             },
             "reset_password": {
                 "confirm_password_label": "Şîfreya Nû piştrast bikin",
                 "new_password_label": "Şîfreya Nû",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
-            "invalid_username_message": "The username may only contain letters, numbers, and dashes.",
+            "invalid_username_message": "",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Parzûna {filter} divê hejmarî be.",
                 "must_not_be_array_message": "Parzûna {filter} divê ne rêzek be.",
@@ -689,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "Hesabê Xweya Nû Çalak bikin",
-                "body": "Hey {username}!\n\nKesek (hêvîdarim ku hûn!) bi vê navnîşana e-nameyê xwe li {forum} qeyd kir.\n\nGer ev we bû, bi tenê lînka jêrîn bikirtînin û hesabê we dê were çalak kirin:\n{url}\n\nGer we qeyd nekiriye, ji kerema xwe vê e-nameyê paşguh nekin.\n"
+                "body": ""
             },
             "confirm_email": {
                 "subject": "Navnîşana E-nameya xweya Nû piştrast bikin",
-                "body": "Hey {username}!\n\nKesek (hêvîdarim ku hûn!) navnîşana e-nameya xwe ya li ser {forum} guhertiye vê yekê.\n\nGer ev hûn bûn, bi tenê lînka jêrîn bikirtînin û e-nameya we dê were pejirandin:\n{url}\n\nGer ev ne hûn bûn, ji kerema xwe vê e-nameyê paşguh nekin.\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Hey {username}!\n\nKesek (hêvîdarim ku hûn!) ji bo hesabê we li ser {forum} daxwazek şîfreya jibîrkirî pêşkêş kir.\n\nGer ev hûn bûn, lînka jêrîn bikirtînin da ku şîfreya xwe sifir bikin:\n{url}\n\nHeke hûn nexwazin şîfreya xwe biguherînin, tenê vê e-nameyê guh nedin û tiştek nabe.\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "Testa E-nameyê Flarum",
-                "body": "Hey {username}!\n\nEv e-nameyek ceribandinê ye ku piştrast bike ku veavakirina e-nameya Flarum we bi rêkûpêk dixebite.\n\nGer ev hûn bûn, ev e-name tê vê wateyê ku veavakirina we dixebite!\n\nGer ev ne hûn bûn, ji kerema xwe vê e-nameyê paşguh nekin.\n"
+                "body": ""
             }
         },
         "ref": {
@@ -718,6 +997,8 @@
             "custom_footer_title": "Binmalperê Bi Taybetî Biguherîne",
             "custom_header_text": "HTML-ê lê zêde bikin ku li jorê rûpelê, li jorê sernivîsa xwe ya Flarum were xuyang kirin.",
             "custom_header_title": "Sermalperê Bi Taybetî Biguherîne",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "Jêbirin",
             "delete_forever": "Herheyî jêbirin",
             "discussions": "Nîqaş",
@@ -728,6 +1009,9 @@
             "generic_confirmation_message": "Ma tu bi rastî dixwazî bidomînî? Ev kiryar nayê betal kirin.",
             "icon": "Nîşanek",
             "icon_text": "Navê her çîna îkonê ya <a>FontAwesome</a> binivîse, <em>tevî</em> pêşgira <code>fas fa-</code>.",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "Zêdetir Barkirin",
             "loading": "Barkirin...",
             "log_in": "Têkeve",
@@ -735,15 +1019,20 @@
             "mark_all_as_read": "Hemî wekî Xwendin nîşan bikin",
             "never": "tew",
             "new_token": "Tokenekî nû",
+            "newest": "",
             "next_page": "Rûpela din",
             "notifications": "danezan",
             "okay": "TM",
+            "oldest": "",
             "password": "Şîfre",
             "posts": "post",
             "previous_page": "Rûpelê Berê",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "Dûrxistin",
             "rename": "Dîsa binavbike",
             "reply": "Bersiv",
+            "refresh": "",
             "reset_your_password": "Şîfreya xwe nûsazbike",
             "restore": "hênandin",
             "save_changes": "Cûdayiyan qeyd bike",
@@ -754,6 +1043,7 @@
             "some_others": "{count, plural, one {# din} other {# yên din}}",
             "start_a_discussion": "Dest pê nîqaşekê  bike",
             "username": "Navê bikarhêner",
+            "username_or_email_placeholder": "",
             "users": "bikarhêneran",
             "view": "dîtinî",
             "write_a_reply": "Bersivekê binivîse...",

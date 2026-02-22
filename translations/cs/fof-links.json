@@ -17,15 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Přidat atribut <code>rel=\"me\"</code> pro ověření identity na jiných webech",
-                "visibility": "Viditelnost odkazů",
-                "visibility.help": "Odkazy jsou ve výchozím nastavení viditelné pouze pro uživatele <code>{admin}</code>. Upravte oprávnění a určete, kdo může tento odkaz vidět.",
-                "visibility.help-disabled": "Uložte odkaz před změnou nastavení viditelnosti.",
-                "visibility.label": "Viditelnost odkazu",
-                "visibility.guest-only.label": "Pouze {guest}?",
-                "visibility.guest-only.help": "Tento odkaz můžou vidět pouze {guest}. Výše uvedené oprávnění by mělo být nastaveno na '{everyone}'.",
-                "everyone-label": "Všichni",
-                "guests-label": "Hosté",
-                "members-label": "Registrovaní uživatelé"
+                "visibility": {
+                    "help": "Odkazy jsou ve výchozím nastavení viditelné pouze pro uživatele <code>{admin}</code>. Upravte oprávnění a určete, kdo může tento odkaz vidět.",
+                    "help-disabled": "Uložte odkaz před změnou nastavení viditelnosti.",
+                    "label": "Viditelnost odkazu",
+                    "guest-only": {
+                        "label": "Pouze {guest}?",
+                        "help": "Tento odkaz můžou vidět pouze {guest}. Výše uvedené oprávnění by mělo být nastaveno na '{everyone}'."
+                    }
+                }
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

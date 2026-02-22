@@ -46,9 +46,7 @@
                 "edit_tag_label": "",
                 "primary_heading": "Primära taggar",
                 "secondary_heading": "Sekundära taggar",
-                "settings_heading": "",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
-                "settings_button": "Inställningar"
+                "settings_heading": ""
             }
         },
         "forum": {
@@ -58,10 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Redigera taggar för {title}",
-                "title": "Välj taggar för din tråd",
-                "choose_primary_placeholder": "Välj en primär tagg|Välj {count} primära taggar",
-                "choose_secondary_placeholder": "Välj 1 tagg till|Välj {count} taggar till",
-                "submit_button": "=> core.ref.okay"
+                "title": "Välj taggar för din tråd"
             },
             "composer_discussion": {
                 "choose_tags_link": "Välj taggar"
@@ -89,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Raderad",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "",
                 "choose_primary_placeholder": "",
@@ -102,19 +105,7 @@
             "choose_tags": "",
             "choose_tags_placeholder": "",
             "name": "Namn",
-            "tags": "Taggar",
-            "create_tag": "Skapa tagg"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
+            "tags": "Taggar"
         }
     }
 }

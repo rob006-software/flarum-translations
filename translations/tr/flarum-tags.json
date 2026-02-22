@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "{title} için Etiketleri Düzenle",
-                "title": "Tartışmanız için Etiket Seçin",
-                "bypass_requirements": "Atlama etiketi gereksinimleri",
-                "choose_primary_placeholder": "{count, plural, one {Bir birincil etiket seçin} other {# birincil etiket seçin}}",
-                "choose_secondary_placeholder": "{count, plural, one {1 tane daha etiket seçin} other {# tane daha etiket seçin}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "Tartışmanız için Etiket Seçin"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Silindi",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Etiket gereksinimlerini atla",
                 "choose_primary_placeholder": "{count, plural, one {Birincil etiket seçin} other {# birincil etiket seçin}}",
@@ -102,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {1 etiket daha seçin} other {# etiket daha seçin}}",
             "name": "İsim",
             "tags": "Etiketler"
-        },
-        "validation": {
-            "attributes": {
-                "name": "isim",
-                "slug": "adres kısa adı",
-                "is_hidden": "gizli",
-                "description": "açıklama",
-                "color": "renk",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

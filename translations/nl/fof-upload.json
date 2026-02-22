@@ -30,9 +30,10 @@
                 "disable-download-logging": "Schakel het loggen van elke download door gebruikers van je forum uit. Als je dit ingeschakeld laat, kun je het aantal downloads en andere statistieken in de toekomst bekijken.\n",
                 "disable-hotlink-protection": "Hotlinkbeveiliging voorkomt het openen van downloads van andere websites. De huidige methode vereist een csrf-token en bericht-id.\n",
                 "download_templates": "Download templates geven aan hoe uploads worden weergegeven op je forum, zoals voorbeeld, knoppen. Momenteel beschikbaar:\n",
-                "mime_types": "Configureer hier je mogelijkheden. Elke reguliere mime-expressie wordt verwerkt door een specifieke uploadadapter en downloadtemplate.\n",
+                "mime_types": "",
                 "resize": "Kies of je afbeeldingsformaat wilt wijzigen voordat deze worden geüpload. Je kan een maximale breedte en hoogte instellen in pixels. De afbeelding behoud de verhouding na het schalen.\n",
                 "client_extension": "Standaard kiest Upload een veilige bestandsextensie op basis van het MIME-type.\nVoor sommige bestandstypen gebaseerd op ZIP of binaire gegevens kan dit betekenen dat een algemene extensies worden gebruikt in plaats van de verwachte extensie.\nHier kun je een door komma gescheiden lijst van bestandextensies invoeren die letterlijk behouden blijven.\n",
+                "thumbnails": "",
                 "watermark": "Kies of afbeeldingen een watermerk moeten krijgen tijdens het uploaden. Watermerken worden, behalve bij GIFs, toegevoegd op basis van je voorkeur hieronder.\n",
                 "s3_compatible_storage": "De volgende optie is enkel verplicht wanneer er een S3-compatibele opslag wordt gebruikt. Als je AWS gebruikt kun je deze leeglaten.\n",
                 "s3_acl": "De ACL die zal worden toegepast op het geüploade object (standaard: privé). Voor mogelijke waarden, bekijk https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Maximale bestandsgrootte (in kilobytes)",
                     "mime_types": "Configureer je mime-type, upload adapter mapping",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Generieke voorkeuren",
                     "php_ini_values": "Uw <code>php.ini</code>-waarden zijn <code>post_max_size={post}</code> en <code>upload_max_filesize={upload}</code>. Zorg ervoor dat de hier ingestelde waarde onder deze drempelwaarden ligt, of pas ze dienovereenkomstig aan. Als u <code>Nginx</code> gebruikt, zorg er dan ook voor dat <code>client_max_body_size</code> voldoende groot is voor de door u gekozen maximale limiet."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Door gebruiker opgegeven bestandsextensies"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Upload je watermerk-afbeelding",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Watermerk positie",
+                    "size_percent": "",
                     "title": "Watermerk afbeeldingen",
                     "toggle": "Afbeeldingen van watermerk voorzien"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Test bestand MIME-type"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Download bestanden",
-                "upload_label": "Upload bestanden",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Bekijk gebruikersuploads",
                 "delete_uploads_of_others_label": "Verwijder gebruikersuploads",
                 "upload_shared_label": "Upload gedeelde bestanden",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3 of compatibel",
-                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Lokaal",
                 "ovh-svfs": "",
@@ -181,6 +197,7 @@
             "text_preview": {
                 "expand": "Voorbeeld uitklappen",
                 "collapse": "Voorbeeld inklappen",
+                "download": "",
                 "error": "",
                 "no_snippet_preview": "<voorbeeld zal hier worden weergegeven na plaatsen>",
                 "no_snippet": "<geen voorbeeldfragment beschikbaar>"
@@ -189,6 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Het uploaden van bestanden van dit type is niet toegestaan.",
+                "mime_permission_denied": "",
                 "unsupported_type": "",
                 "could_not_detect_mime": "",
                 "max_upload_file_size_ini": "",

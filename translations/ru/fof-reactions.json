@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Реакции",
                 "anonymous_count": "{count, plural, one {# анонимный пользователь} other {# анонимных пользователей}}",
-                "no_reactions": "Пока нет реакций"
+                "no_reactions": "Пока нет реакций",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Смотреть реакции",
-            "react_button_label": "Реакция"
+            "react_button_label": "Реакция",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Отображение",
                         "identifier": "Идентификатор"
                     },
-                    "delete_confirmation": "Вы уверены, что хотите удалить эту реакцию? Это действие нельзя отменить."
+                    "delete_confirmation": "Вы уверены, что хотите удалить эту реакцию? Это действие нельзя отменить.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Если Вы обновили расширение, то Ваши реакции следует конвертировать. Если Вы установили расширение впервые, проигнорируйте это предупреждение.",

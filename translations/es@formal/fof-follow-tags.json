@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "[Etiqueta | Nueva discusión] {title}",
-                "newPostInTag": "[Etiqueta | Nueva publicación] {title}",
-                "newDiscussionTag": "[Etiqueta | Etiqueta modificada] {title}"
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "Ey {recipient_display_name},\n\n{actor_display_name} inició una discusión en una etiqueta que estás siguiendo: {discussion_title}\n\nPara ver la nueva discusión, consulta el siguiente enlace:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "Ey {recipient_display_name},\n\n{actor_display_name} publicó una publicación en una discusión sobre una etiqueta que estás siguiendo: {discussion_title}\n\nPara ver la nueva actividad, consulta el siguiente enlace:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNo recibirás más notificaciones sobre esta discusión hasta que estés al día.\n",
-                "newDiscussionTag": "Ey {recipient_display_name},\n\n{actor_display_name} acaba de cambiar la etiqueta de una discusión de {author_display_name} a una etiqueta que estás siguiendo {discussion_title}\n\nPara ver la nueva discusión, consulta el siguiente enlace:\n{discussion_url}\n"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {

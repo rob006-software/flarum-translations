@@ -56,8 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Editar as etiquetas de {title}",
-                "title": "Escoller as etiquetas para a túa conversa",
-                "submit_button": "=> core.ref.okay"
+                "title": "Escoller as etiquetas para a túa conversa"
             },
             "composer_discussion": {
                 "choose_tags_link": "Escoller etiquetas"
@@ -85,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Eliminar",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "",
                 "choose_primary_placeholder": "",
@@ -99,17 +106,6 @@
             "choose_tags_placeholder": "",
             "name": "Nome",
             "tags": "Etiquetas"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
         }
     }
 }

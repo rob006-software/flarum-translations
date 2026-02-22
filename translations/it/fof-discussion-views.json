@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Popolari",
-                "unpopular_button": "Impopolari"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Reimposta conteggio visualizzazioni",
                 "submit": "Invia",
-                "label": "Imposta conteggio visualizzazioni"
+                "label": "Imposta conteggio visualizzazioni",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "Imposta visualizzazioni"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Ignora visite crawler"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

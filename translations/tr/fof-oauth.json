@@ -108,7 +108,8 @@
             "unlink": "Bağlantıyı kaldır",
             "error": {
                 "bad_verification_code": "Geçersiz veya süresi dolmuş doğrulama jetonu. Lütfen tekrar deneyin.",
-                "invalid_state": "Geçersiz durum. Lütfen tekrar deneyin."
+                "invalid_state": "Geçersiz durum. Lütfen tekrar deneyin.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

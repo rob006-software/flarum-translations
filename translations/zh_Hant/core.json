@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "導航欄上色",
                 "colors_heading": "顏色",
                 "colors_primary_label": "主色調",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "@import 和 data-uri 特性在自定義 LESS 中是不允許的。",
                 "custom_styles_heading": "自定義樣式",
                 "custom_styles_text": "增加 Less/CSS 程式碼以自定義論壇外觀，此設置將覆蓋 Flarum 預設樣式。",
-                "dark_mode_label": "暗黑模式",
                 "description": "自訂論壇風格、圖示及其他元素。",
                 "edit_css_button": "編輯自定義 CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "上傳圖片作為論壇的網站圖示，該圖示將顯示在瀏覽器標籤頁、搜尋引擎結果列表和書籤等多個位置。",
                 "logo_heading": "網站標誌",
                 "logo_text": "上傳圖片代替論壇名稱，將顯示在導航欄的左側。",
-                "title": "外觀"
+                "title": "外觀",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "全部主題",
                 "default_language_heading": "預設語言",
                 "description": "設置論壇名稱、語言以及其它基本設定。",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "使用者顯示名稱",
                 "display_name_text": "選擇外顯名稱的類型，預設為用戶名。",
                 "forum_description_heading": "論壇說明",
@@ -38,6 +133,16 @@
                 "home_page_heading": "論壇首頁",
                 "home_page_text": "選擇一個頁面作為論壇首頁。",
                 "show_language_selector_label": "顯示語言選擇選單",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "固定連結驅動：{model}",
                 "slug_driver_text": "選擇此模組的 URL 驅動。",
                 "title": "一般",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "儀表板",
+                "toggle_advanced_page_button": "",
                 "tools_button": "工具"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "配置論壇郵件服務",
                 "driver_heading": "驅動模式",
                 "driver_label": "驅動",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "發信人",
                 "mail_encryption_label": "加密協議 (小寫ssl或tls)",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "主機",
                 "mail_mailgun_domain_label": "域名",
                 "mail_mailgun_region_label": "區域",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "測試郵件發送成功！",
                 "send_test_mail_text": "使用上述設置發送測試郵件到您的郵箱：{email}",
                 "smtp_heading": "SMTP 設定",
+                "smtp_description": "",
                 "title": "信箱"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "此擴充功能已被{replacement}取代。考慮遷移到替換包。",
                 "configure_scopes": "設置範圍",
                 "confirm_purge": "重置操作會清除資料庫中所有該擴充套件相關的記錄和資源。如要卸載擴充套件，請透過 Composer 操作。確定要重置擴充套件嗎？",
+                "database_driver_mismatch": "",
                 "deprecated": "已棄用",
                 "disabled": "關閉",
                 "enable_to_see": "開啟擴充套件程式以查看或修改設置。",
@@ -162,16 +280,26 @@
                     "no_readme": "此擴充套件未提供說明檔",
                     "title": "{extName} 檔案"
                 },
-                "replaced": "替換"
+                "replaced": "替換",
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "幫助",
-                "log_out_button": "登出"
+                "log_out_button": "登出",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "請稍候..."
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "外觀設定",
                 "appearance_title": "自定義論壇色調、圖示以及其他元素",
                 "basics_button": "基本設定",
@@ -220,6 +348,7 @@
                 "post_without_throttle_label": "頻繁回覆無需等待間隔",
                 "read_heading": "訪問",
                 "remove_scope_label": "移除 {scope} 的範圍",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "更改主題",
                 "reply_to_discussions_label": "新增回覆",
                 "search_users_label": "=> core.ref.search_users",
@@ -242,8 +371,14 @@
                 "signup_closed_button": "關閉註冊",
                 "signup_open_button": "開放註冊"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "您的修改已儲存。",
+                "select_dropdown_custom_label": "",
                 "submit_button": "儲存更改"
             },
             "upload_image": {
@@ -258,11 +393,6 @@
                         "display_name": {
                             "title": "顯示名稱"
                         },
-                        "edit_user": {
-                            "button": "編輯",
-                            "tooltip": "編輯 {username}",
-                            "title": "編輯用戶"
-                        },
                         "email": {
                             "title": "郵箱",
                             "visibility_hide": "隱藏郵箱地址",
@@ -276,7 +406,11 @@
                             "title": "註冊時間"
                         },
                         "user_actions": {
-                            "title": "行動"
+                            "title": "行動",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "ID"
@@ -287,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "無效"
-                },
-                "pagination": {
-                    "back_button": "上一頁",
-                    "first_button": "前往首頁",
-                    "go_to_page_textbox_a11y_label": "前往指定頁面",
-                    "last_button": "前往最末頁",
-                    "next_button": "下一頁",
-                    "page_counter": "第 {current} 頁 / 共 {total} 頁"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "用戶",
@@ -359,6 +485,7 @@
                 "empty_text": "因為什麼都沒有，所以什麼都做得到",
                 "load_more_button": "載入更多",
                 "replied_text": "{username} 回覆於 {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} 發佈於 {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# 條回覆} other {# 條回覆}}",
                 "unread_replies_a11y_label": "{count, plural, one {# 條未讀} other {# 條未讀}}，全部標記為已讀。"
@@ -379,7 +506,6 @@
                 "log_in_link": "登入",
                 "log_out_button": "登出",
                 "profile_button": "個人主頁",
-                "search_clear_button_accessible_label": "清空搜尋",
                 "search_placeholder": "搜尋",
                 "search_role_label": "搜尋論壇",
                 "session_dropdown_accessible_label": "對話下拉選單開關",
@@ -392,30 +518,31 @@
                 "mark_all_as_read_confirmation": "你確定要標記所有貼文為已讀嗎？",
                 "mark_all_as_read_tooltip": "標記所有為已讀",
                 "meta_title_text": "全部主題",
-                "refresh_tooltip": "重新載入",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "導航欄下拉選單開關"
             },
             "index_sort": {
                 "latest_button": "最新回覆",
-                "newest_button": "最近主題",
-                "oldest_button": "最舊主題",
-                "relevance_button": "相關推薦",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "更改「全部主題」排序",
                 "top_button": "熱門討論"
             },
             "log_in": {
                 "forgot_password_link": "忘記密碼？",
-                "invalid_login_message": "登入資訊有誤。",
+                "invalid_login_message": "",
                 "password_placeholder": "密碼",
-                "remember_me_label": "記住我",
+                "remember_me_label": "",
                 "sign_up_text": "還沒有帳戶？ <a>立即註冊</a>",
                 "submit_button": "登入",
                 "title": "登入",
-                "username_or_email_placeholder": "會員名稱或郵箱"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
-                "delete_all_confirm": "確定要刪除所有通知嗎？此操作不可撤銷",
+                "delete_all_confirm": "",
                 "delete_all_tooltip": "刪除所有通知",
                 "discussion_renamed_text": "{username} 更改了主題",
                 "empty_text": "暫無通知",
@@ -439,6 +566,11 @@
                 "restore_button": "還原",
                 "toggle_dropdown_accessible_label": "貼文下拉選單開關"
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "最新回覆",
                 "original_post_link": "最早文章",
@@ -452,14 +584,18 @@
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period}後"
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
                 "title": "更改貼文主題"
-            },
-            "search": {
-                "all_discussions_button": "搜尋「{query}」",
-                "discussions_heading": "貼文",
-                "users_heading": "會員"
             },
             "security": {
                 "browser_on_operating_system": "{browser} 於 {os}",
@@ -500,6 +636,14 @@
                 "account_heading": "帳戶",
                 "change_email_button": "更改郵箱",
                 "change_password_button": "更改密碼",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "透過 {method} 接收「{description}」通知",
                 "notifications_heading": "通知",
                 "notify_by_email_heading": "郵箱",
@@ -581,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "檢測到循環依賴項：{extensions}。 中止。 請禁用其中一個擴充套件，然後重試。",
+                "db_error_message": "",
                 "dependent_extensions_message": "無法停用「{extension}」，請先停用依賴擴充套件「{extensions}」",
                 "extension_initialiation_failed_message": "初始化「{extension}」失敗，詳細資訊請查看瀏覽器控制台。",
+                "extension_runtime_failed_message": "",
                 "generic_message": "糟糕，出錯啦！請重新整理頁面再試一次。",
                 "generic_cross_origin_message": "哎呀！跨來源請求時出現問題；請重新整理頁面，然後再試一次。",
                 "missing_dependencies_message": "無法啟用「{extension}」，請先啟用依賴擴充套件「{extensions}」",
@@ -591,6 +737,48 @@
                 "permission_denied_message": "沒有權限執行此操作。",
                 "rate_limit_exceeded_message": "操作太頻繁，請稍後再試。",
                 "render_failed_message": "抱歉，載入此內容時出錯。如果您是使用者，請稍後再試。如果您是管理員，請查看 Flarum 記錄檔以取得更多資訊。"
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -602,25 +790,75 @@
             "modal": {
                 "close": "關閉"
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": "打開導航抽屜"
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
-            "datetime_formats": {
-                "humanTimeShort": "MMM D日",
-                "humanTimeLong": "ll",
-                "scrubber": "YYYY年 MMM"
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second} 以及 {third}",
                 "two_text": "{first} 及 {second}"
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": "[已註銷]"
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "MMM D日",
+                "humanTimeLong": "ll",
+                "scrubber": "YYYY年 MMM",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -657,6 +895,9 @@
                 "csrf_token_mismatch": "您已長時間沒有動作。",
                 "csrf_token_mismatch_return_link": "返回並再試一下",
                 "invalid_confirmation_token": "驗證連結已使用或無效。",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "您沒有權限訪問此頁面。請登入後再試。",
                 "not_found": "頁面未找到。",
                 "not_found_return_link": "返回 {forum}",
@@ -668,20 +909,40 @@
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "您確定要登出 {forum}？",
                 "title": "=> core.ref.log_out"
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
+                "title": ""
             },
             "reset_password": {
                 "confirm_password_label": "確認密碼",
                 "new_password_label": "新密碼",
                 "submit_button": "儲存更改",
                 "title": "重設密碼"
+            },
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
-            "invalid_username_message": "使用者名稱僅能包含字母、數字及連接符號 (-)。",
+            "invalid_username_message": "",
             "invalid_filter_type": {
                 "must_be_numeric_message": "{filter} 過濾器必須是數字。",
                 "must_not_be_array_message": "{filter} 過濾器不能是數組。",
@@ -689,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "啟用帳號",
-                "body": "您好，{username}！\n\n此郵箱被用於註冊 {forum}，若確定是由您本人所操作的，請點擊下方連結以啟用您的帳戶：\n\n{url}\n\n若非您本人註冊，請忽略此郵件。\n"
+                "body": ""
             },
             "confirm_email": {
                 "subject": "郵箱位址驗證",
-                "body": "您好，{username}!\n\n您更改了在 {forum} 的郵箱地址，若確定是您本人進行的操作，請點擊下方連結，即可完成郵箱驗證：\n\n{url}\n\n若非您本人行為，請忽略此郵件。\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "重設密碼",
-                "body": "您好，{username}！\n\n收到來自 {forum} 的密碼重置請求，若確定是您本人進行的操作，請點擊下面的連結重設密碼：\n\n{url}\n\n若非您本人行為或不想重設密碼，請忽略此郵件。\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "Flarum 郵件測試",
-                "body": "{username}，您好！\n\n這是一個測試郵件，用於測試您的郵箱設置是否正確。\n\n若是您本人發送了測試郵件，那麼恭喜，這代表您的設置有正常運作！\n\n若非您本人發送測試郵件，請忽略此內容。\n"
+                "body": ""
             }
         },
         "ref": {
@@ -718,6 +997,8 @@
             "custom_footer_title": "編輯客製化頁腳",
             "custom_header_text": "新增要顯示在頁面頂部，位於 Flarum 預設頁首之上的 HTML 原始碼。",
             "custom_header_title": "編輯客製化頁首",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "刪除",
             "delete_forever": "永久刪除",
             "discussions": "主題",
@@ -728,6 +1009,9 @@
             "generic_confirmation_message": "您確定要繼續嗎？ 此操作無法撤銷。",
             "icon": "圖示",
             "icon_text": "輸入任意一個 <a>FontAwesome</a> 圖示名稱，<em>需要包含</em>前綴 ，例如 <code>fas fa-</code>。",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "載入更多",
             "loading": "正在載入…",
             "log_in": "登入",
@@ -735,15 +1019,20 @@
             "mark_all_as_read": "全部已讀",
             "never": "從不",
             "new_token": "新令牌",
+            "newest": "",
             "next_page": "下一頁",
             "notifications": "通知",
             "okay": "確認",
+            "oldest": "",
             "password": "密碼",
             "posts": "貼文",
             "previous_page": "上一頁",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "移除",
             "rename": "重新命名",
             "reply": "回覆",
+            "refresh": "",
             "reset_your_password": "重設密碼",
             "restore": "還原",
             "save_changes": "儲存更改",
@@ -754,6 +1043,7 @@
             "some_others": "{count, plural, one {# 人} other {# 人}}",
             "start_a_discussion": "發表文章",
             "username": "使用者名稱",
+            "username_or_email_placeholder": "",
             "users": "使用者",
             "view": "查看",
             "write_a_reply": "撰寫回覆...",

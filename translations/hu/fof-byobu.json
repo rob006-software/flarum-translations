@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Privát téma] {display_name} hozzáadta egy privát témához"
             },
             "body": {
-                "private_discussion_created": "Kedves {recipient_display_name}!\n\n{actor_display_name} privát témát indított Önnel: {discussion_title}.\n\nItt megtekintheti:\n{discussion_url}\n\nValószínűleg be kell jelentkeznie a hivatkozás eléréséhez.\n",
-                "private_discussion_replied": "Kedves {recipient_display_name}!\n\n{actor_display_name} bejegyzést tett közzé egy privát témában, ahol Ön címzett: {discussion_title}.\n\nItt megtekintheti:\n{post_url}\n\nValószínűleg be kell jelentkeznie a hivatkozás eléréséhez.\n",
-                "recipient_removed": "Kedves {recipient_display_name}!\n\n{actor_display_name} elhagyta a privát témát: {discussion_title}. Többé nem fogja látni a tartalmát.\n\nItt megtekintheti:\n{discussion_url}\n\nValószínűleg be kell jelentkeznie a hivatkozás eléréséhez.\n",
-                "private_discussion_added": "Kedves {recipient_display_name}!\n\n{actor_display_name} hozzáadta egy meglévő privát témához: {discussion_title}.\n\nItt megtekintheti:\n{discussion_url}\n\nValószínűleg be kell jelentkeznie a hivatkozás eléréséhez.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

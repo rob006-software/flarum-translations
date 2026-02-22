@@ -56,10 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "แก้ไขแท็กสำหรับ {title}",
-                "title": "เลือกแท็กสำหรับกระทู้ของคุณ",
-                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
-                "choose_secondary_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "เลือกแท็กสำหรับกระทู้ของคุณ"
             },
             "composer_discussion": {
                 "choose_tags_link": "เลือกแท็ก"
@@ -87,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "ถูกลบแล้ว",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "",
                 "choose_primary_placeholder": "",
@@ -101,17 +106,6 @@
             "choose_tags_placeholder": "",
             "name": "ชื่อแท็ก",
             "tags": "แท็ก"
-        },
-        "validation": {
-            "attributes": {
-                "name": "",
-                "slug": "",
-                "is_hidden": "",
-                "description": "",
-                "color": "",
-                "tag_count_primary": "",
-                "tag_count_secondary": ""
-            }
         }
     }
 }

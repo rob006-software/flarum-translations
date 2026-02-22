@@ -121,10 +121,24 @@
                 "private_discussion_added": "[بحث خصوصی] {display_name} شما را به یک بحث خصوصی اضافه کرد"
             },
             "body": {
-                "private_discussion_created": "سلام {recipient_display_name}،\n\n{actor_display_name} یک بحث خصوصی جدید با شما به عنوان گیرنده شروع کرد: {discussion_title}.\n\nآن را اینجا ببینید:\n{discussion_url}\n\nقبل از اینکه بتوانید به این پیوند دسترسی پیدا کنید، ممکن است لازم باشد ابتدا وارد شوید.\n",
-                "private_discussion_replied": "سلام {recipient_display_name}،\n\n{actor_display_name} در یک بحث خصوصی با شما به عنوان گیرنده پستی ارسال کرد: {discussion_title}.\n\nآن را اینجا ببینید:\n{post_url}\n\nقبل از اینکه بتوانید به این پیوند دسترسی پیدا کنید، ممکن است لازم باشد ابتدا وارد شوید.\n",
-                "recipient_removed": "سلام {recipient_display_name}،\n\n{actor_display_name} بحث خصوصی را ترک کرد: {discussion_title}. آنها دیگر نمی توانند هیچ یک از محتوای آن را مشاهده کنند.\n\nآن را اینجا ببینید:\n{discussion_url}\n\nقبل از اینکه بتوانید به این پیوند دسترسی پیدا کنید، ممکن است لازم باشد ابتدا وارد شوید.\n",
-                "private_discussion_added": "سلام {recipient_display_name}،\n\n{actor_display_name} شما را به یک بحث خصوصی موجود اضافه کرد: {discussion_title}.\n\nآن را اینجا ببینید:\n{discussion_url}\n\nقبل از اینکه بتوانید به این پیوند دسترسی پیدا کنید، ممکن است لازم باشد ابتدا وارد شوید.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

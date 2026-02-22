@@ -52,7 +52,12 @@
                 "debug_label": "调试",
                 "debug_help": "当 Webhook 或事件工作不正常时，你可以启用此项。更多日志信息会输出到 Flarum 日志文件，以帮助你调试问题。",
                 "item": {
-                    "tag_any_label": "任一标签"
+                    "tag_any_label": "任一标签",
+                    "edit_tooltip": "",
+                    "delete_tooltip": "",
+                    "delete_confirm_alert": "",
+                    "create_button": "",
+                    "edit_tags_button": ""
                 },
                 "help": {
                     "disabled": "此 Webhook 已被禁用，因为它没有启用事件。",

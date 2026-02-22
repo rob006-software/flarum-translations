@@ -5,7 +5,7 @@
                 "add_label": "新的認證方式",
                 "add_modal": {
                     "host_label": "主機",
-                    "host_placeholder": "範例： extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "送出",
                     "token_label": "金鑰",
                     "type_label": "類型",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "說明為什麼沒有更新到最新版本。",
                 "install": "安裝新擴充套件",
-                "install_help": "填寫擴充套件名稱以繼續。你可以指定 <semantic_link>semantic version</semantic_link> 使用以下格式<code>vendor/package-name:version</code>。造訪 {extiverse} 瀏覽擴充功能。\n",
+                "install_help": "",
                 "proceed": "繼續",
                 "remove": "解除安裝",
                 "successful_install": "{extension} 已成功安裝，正在重定向..",
@@ -98,11 +98,44 @@
                 "update": "更新"
             },
             "minor_update_confirmation": {
-                "content": "這也將使用可用更新更新任何其他擴充功能/套件。"
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "管理員"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "任務剛開始",
                     "title": "佇列"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "請小心您授予管理區域存取權限的人員，擴充管理員可能會被不良行為者濫用來安裝可能導致安全漏洞的軟體包。",
                 "debug_mode_warning": "您正在調試模式下運行，擴充功能管理器無法正確安裝和更新本機開發套件。 為此，請改用命令列介面。",
                 "queue_jobs": "在後台佇列中運行操作",
-                "queue_jobs_help": "您可以閱讀<a href='{basic_impl_link}'>基本佇列</a>實作或<a href='{adv_impl_link}'>進階設置</a>實作。 確保用於佇列的 PHP 版本是 {php_version}。 確保<a href='{folder_perms_link}'>資料夾權限</a>配置正確。\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "任務保留天數",
                 "task_retention_days_help": "在資料庫中保留已完成任務的天數。 早於此的任務將被刪除。 設定為 0 以保留所有任務。\n"
             },
             "updater": {
-                "up_to_date": "所有版本都是最新的！",
+                "up_to_date": "",
                 "check_for_updates": "檢查更新",
                 "flarum": "Flarum Core",
                 "global_update_successful": "已成功更新所有套件。",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum 已成功更新。",
             "why_not_modal": {
                 "title": "為何無法更新"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "穩定性約束",
-                "repositories": "倉庫",
-                "repositories.*": "倉庫",
-                "repositories.*.type": "倉庫類型",
-                "repositories.*.url": "倉庫 URL",
-                "extension_id": "擴展程序 ID",
-                "update_mode": "更新模式",
-                "package": "包",
-                "version": "版本",
-                "github_oauth": "GitHub 認証",
-                "github_oauth.*": "GitHub 認証",
-                "gitlab_oauth": "GitLab 認証",
-                "gitlab_oauth.*": "GitLab 認証",
-                "gitlab_token": "GitLab 令牌",
-                "gitlab_token.*": "GitLab 令牌",
-                "bearer": "HTTP 令牌認証",
-                "bearer.*": "HTTP 令牌認証"
             }
         }
     }

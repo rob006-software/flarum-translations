@@ -121,10 +121,24 @@
                 "private_discussion_added": "[Privatne vestlus] {display_name} lisas sind privaatsesse vestlusesse"
             },
             "body": {
-                "private_discussion_created": "Tere {recipient_display_name},\n\n{actor_display_name} alustas sinuga privaatset vestlust: {discussion_title}.\n\nVaata seda siit:\n{discussion_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima.\n",
-                "private_discussion_replied": "Tere {recipient_display_name},\n\n{actor_display_name} postitas privaatses vestluses, milles sa osaled: {discussion_title}.\n\nVaata seda siit:\n{post_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima{actor_display_name}.\n",
-                "recipient_removed": "Tere {recipient_display_name},\n\n{actor_display_name} lahkus privaatsest vestlusest; {discussion_title}. Nad ei näe enam selle vestluse sisu.\n\nVaata seda siit:\n{discussion_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima.\n",
-                "private_discussion_added": "Tere {recipient_display_name},\n\n{actor_display_name} lisas sind olemasolevasse privaatsesse vestlusesse: {discussion_title}.\n\nVaata seda siit:\n{discussion_url}\n\nVõimalik, et enne lingile ligipääsemist pead sisse logima.\n"
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": "",
+                "made_public": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "byobu": {
+                    "key": ""
+                },
+                "private": {
+                    "key": ""
+                },
+                "allows-pd": {
+                    "key": ""
+                }
             }
         }
     }

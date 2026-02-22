@@ -11,10 +11,14 @@
             "modal": {
                 "title": "واکنش‌ها",
                 "anonymous_count": "{count, plural, one {# کاربر ناشناس} other {# کاربران ناشناس}}",
-                "no_reactions": "هنوز هیچ واکنش وجود ندارد"
+                "no_reactions": "هنوز هیچ واکنش وجود ندارد",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "دیدن واکنش‌ها",
-            "react_button_label": "واکنش نشان دادن"
+            "react_button_label": "واکنش نشان دادن",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "نمایش",
                         "identifier": "شناسه"
                     },
-                    "delete_confirmation": "مطمئنید می‌خواهید این واکنش را پاک کنید؟ این عمل قابل بازگشت نخواهد بود."
+                    "delete_confirmation": "مطمئنید می‌خواهید این واکنش را پاک کنید؟ این عمل قابل بازگشت نخواهد بود.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "اگر به تازگی افزونه را به روز کردید، واکنش‌های شما نیاز به تبدیل شدن دارند. اگر تازه این افزونه را نصب کردید، می‌توانید این پیام را نادیده بگیرید.",

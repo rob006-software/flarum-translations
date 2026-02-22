@@ -19,12 +19,14 @@
                     "extension_settings_button": "GDPR 设置"
                 },
                 "user_table_data": {
+                    "not_yet_implemented": "",
                     "title": "用户表数据",
                     "help_text": "多数情况下，我们会自动处理导出和抹除时的 <code>用户</code>表数据。\n然而，会存在一些特殊情况，如下。\n"
                 }
             },
             "nav": {
-                "gdpr_button": "GDP 集成"
+                "gdpr_button": "GDP 集成",
+                "gdpr_title": ""
             },
             "permissions": {
                 "process_erasure": "处理账号抹除请求",
@@ -51,8 +53,11 @@
             },
             "userlist": {
                 "columns": {
-                    "gdpr_actions": {
-                        "export": "导出 {username} 的数据"
+                    "user_actions": {
+                        "data_export": {
+                            "button": "",
+                            "tooltip": ""
+                        }
                     }
                 }
             }
@@ -94,25 +99,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "确认抹除你的账号",
-                "body": "{display_name}，您好！\n\n有人（希望是你）刚刚请求抹除帐号 `{display_name}`。\n\n要确认执行这个操作，请点击下方链接。\n\n{erasure_confirm_url}\n"
+                "body": ""
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "帐号已删除",
-                    "body": "{display_name}，您好！\n\n您的账号已被删除。感谢您的使用，再见。\n"
+                    "body": ""
                 },
                 "anonymization": {
                     "subject": "帐号匿名化已完成",
-                    "body": "{display_name}，您好！\n\n我们已经匿名化了您的账号。感谢您的使用，再见。\n"
+                    "body": ""
                 }
             },
             "erasure_cancelled": {
                 "subject": "帐号抹除请求已取消",
-                "body": "{display_name}，您好！\n\n我们已经终止了您删除账号的请求。\n\n您现在可以正常使用了。\n"
+                "body": ""
             },
             "export_available": {
                 "subject": "数据导出已就绪",
-                "body": "{display_name}，您好！\n\n您请求导出账号 {username} 的数据，相关内容已准备就绪，您可以点击下方链接下载：\n\n{url}\n\n本次导出的数据将在 {destroys_at} 失效。\n"
+                "body": ""
             }
         },
         "forum": {

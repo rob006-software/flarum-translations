@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "Kolorowy nagłówek",
                 "colors_heading": "Kolory",
                 "colors_primary_label": "Kolor główny",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "Niestandardowe style nie obsługują funkcji @import i data-uri.",
                 "custom_styles_heading": "Niestandardowe style",
                 "custom_styles_text": "Edytuj wygląd swojego forum poprzez dodawanie swojego własnego kodu Less/CSS, który będzie dodany nad domyślnymi stylami Flarum.",
-                "dark_mode_label": "Ciemny motyw",
                 "description": "Dostosuj kolory, logo oraz inne ustawienia swojego forum.",
                 "edit_css_button": "Edytuj niestandardowy CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "Wyślij obrazek, który będzie wyświetlany jako ikona forum.",
                 "logo_heading": "Logo",
                 "logo_text": "Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
-                "title": "Wygląd forum"
+                "title": "Wygląd forum",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Domyślny język",
                 "description": "Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "Wyświetlana nazwa użytkownika",
                 "display_name_text": "Wybierz sterownik, który powinien być używany do wyświetlania nazw użytkowników. Domyślnie wyświetlana jest nazwa użytkownika.",
                 "forum_description_heading": "Opis forum",
@@ -38,6 +133,16 @@
                 "home_page_heading": "Strona domowa",
                 "home_page_text": "Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.",
                 "show_language_selector_label": "Pokazuj menu wyboru języka",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "Generator slugów: {model}",
                 "slug_driver_text": "Wybierz generator slugów dla tego modelu.",
                 "title": "Podstawowe",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "Kokpit",
+                "toggle_advanced_page_button": "",
                 "tools_button": "Narzędzia"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.",
                 "driver_heading": "Wybierz sterownik (driver)",
                 "driver_label": "Sterownik (driver)",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "Nadawca",
                 "mail_encryption_label": "Szyfrowanie (encryption)",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domena",
                 "mail_mailgun_region_label": "Region",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "Testowa wiadomość e-mail została pomyślnie wysłana!",
                 "send_test_mail_text": "Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na Twój adres e-mail, {email}.",
                 "smtp_heading": "Ustawienia SMTP",
+                "smtp_description": "",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "To rozszerzenie zostało zastąpione przez {replacement}. Rozważ migrację do pakietu zastępczego.",
                 "configure_scopes": "Konfiguruj zakresy uprawnień",
                 "confirm_purge": "Wszystkie wpisy w bazie oraz zasoby powiązane z tym rozszerzeniem zostaną usunięte. Samo rozszerzenie nie zostanie odinstalowane, to musi być dokonane za pomocą Composera. Czy chcesz kontynuować?",
+                "database_driver_mismatch": "",
                 "deprecated": "Przestarzałe",
                 "disabled": "Wyłączone",
                 "enable_to_see": "Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.",
@@ -162,16 +280,26 @@
                     "no_readme": "Wygląda na to, że to rozszerzenie nie posiada pliku README",
                     "title": "Dokumentacja {extName}"
                 },
-                "replaced": "Zastąpione"
+                "replaced": "Zastąpione",
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "Uzyskaj pomoc",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "Proszę czekać..."
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -220,6 +348,7 @@
                 "post_without_throttle_label": "Odpowiadanie w dyskusjach z pominięciem limitu szybkości",
                 "read_heading": "Czytanie",
                 "remove_scope_label": "Usuń zakres uprawnień dla {scope}",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "Zmiana tytułu dyskusji",
                 "reply_to_discussions_label": "Odpowiadanie w dyskusji",
                 "search_users_label": "Wyszukiwanie użytkowników",
@@ -242,8 +371,14 @@
                 "signup_closed_button": "Zamknięta",
                 "signup_open_button": "Otwarta"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "Twoje zmiany zostały zapisane.",
+                "select_dropdown_custom_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -258,11 +393,6 @@
                         "display_name": {
                             "title": "Wyświetlana nazwa"
                         },
-                        "edit_user": {
-                            "button": "=> core.ref.edit",
-                            "tooltip": "Edytuj {username}",
-                            "title": "=> core.ref.edit_user"
-                        },
                         "email": {
                             "title": "=> core.ref.email",
                             "visibility_hide": "Ukryj adres e-mail",
@@ -276,7 +406,11 @@
                             "title": "Dołączył"
                         },
                         "user_actions": {
-                            "title": "Akcje"
+                            "title": "Akcje",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "ID"
@@ -287,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "Nieprawidłowe"
-                },
-                "pagination": {
-                    "back_button": "Poprzednia strona",
-                    "first_button": "Przejdź do pierwszej strony",
-                    "go_to_page_textbox_a11y_label": "Przejdź do strony z numerem",
-                    "last_button": "Przejdź do ostatniej strony",
-                    "next_button": "Następna strona",
-                    "page_counter": "Strona {current} z {total}"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
@@ -359,6 +485,7 @@
                 "empty_text": "Wygląda na to, że nie ma tutaj żadnych dyskusji.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} odpowiedział {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} rozpoczął {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odpowiedź} other {# odpowiedzi}}",
                 "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}."
@@ -379,7 +506,6 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
-                "search_clear_button_accessible_label": "Wyczyść wyszukiwaną frazę",
                 "search_placeholder": "Przeszukaj forum",
                 "search_role_label": "Przeszukaj forum",
                 "session_dropdown_accessible_label": "Przełącz menu rozwijane z opcjami dla aktualnej sesji",
@@ -392,30 +518,31 @@
                 "mark_all_as_read_confirmation": "Czy jesteś pewien, że chcesz oznaczyć wszystkie dyskusje jako odczytane?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Odśwież",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "Przełącz menu rozwijane z nawigacją"
             },
             "index_sort": {
                 "latest_button": "Ostatnio aktywne",
-                "newest_button": "Najnowsze dyskusje",
-                "oldest_button": "Najstarsze dyskusje",
-                "relevance_button": "Najtrafniejsze wyniki",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Zmień sortowanie listy dyskusji",
                 "top_button": "Najbardziej aktywne"
             },
             "log_in": {
                 "forgot_password_link": "Zapomniałeś hasła?",
-                "invalid_login_message": "Podane dane logowania są nieprawidłowe.",
+                "invalid_login_message": "",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "Zapamiętaj mnie",
+                "remember_me_label": "",
                 "sign_up_text": "Nie masz jeszcze konta? <a>Zarejestruj się</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Nazwa użytkownika lub e-mail"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
-                "delete_all_confirm": "Czy jesteś pewien, że chcesz usunąć wszystkie powiadomienia? Tej operacji nie da się cofnąć.",
+                "delete_all_confirm": "",
                 "delete_all_tooltip": "Usuń wszystkie powiadomienia",
                 "discussion_renamed_text": "{username} zmienił tytuł dyskusji",
                 "empty_text": "Brak powiadomień",
@@ -439,6 +566,11 @@
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Przełącz menu rozwijane z opcjami posta"
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "Teraz",
                 "original_post_link": "Początek dyskusji",
@@ -452,14 +584,18 @@
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} później"
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
                 "title": "Zmień tytuł dyskusji"
-            },
-            "search": {
-                "all_discussions_button": "Przeszukaj wszystkie dyskusje dla \"{query}\"",
-                "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "{browser} na {os}",
@@ -500,6 +636,14 @@
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "Otrzymuj powiadomienia typu \"{description}\" za pomocą {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
@@ -581,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "Wykryto cykliczne zależności: {extensions}. Operacja została przerwana. Proszę wyłączyć jedno z rozszerzeń i spróbować ponownie.",
+                "db_error_message": "",
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
                 "extension_initialiation_failed_message": "Nie udało się zainicjować rozszerzenia {extension}. Aby uzyskać więcej informacji, sprawdź konsolę przeglądarki.",
+                "extension_runtime_failed_message": "",
                 "generic_message": "Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.",
                 "generic_cross_origin_message": "Ups! Coś poszło nie tak podczas obsługi żądania typu cross-origin. Odśwież stronę i spróbuj ponownie.",
                 "missing_dependencies_message": "Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}",
@@ -591,6 +737,48 @@
                 "permission_denied_message": "Nie masz uprawnień, aby to zrobić.",
                 "rate_limit_exceeded_message": "Nie bądź taki hop do przodu! Spróbuj ponownie za kilka sekund.",
                 "render_failed_message": "Wystąpił błąd podczas wyświetlania tej treści. Jeśli jesteś użytkownikiem, spróbuj ponownie później. Jeśli jesteś administratorem, sprawdź logi Flarum, aby uzyskać więcej informacji."
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -602,25 +790,75 @@
             "modal": {
                 "close": "Zamknij"
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": "Otwórz nawigację"
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
-            "datetime_formats": {
-                "humanTimeShort": "LL",
-                "humanTimeLong": "LL",
-                "scrubber": "MMMM YYYY"
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second} i {third}",
                 "two_text": "{first} i {second}"
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": "[usunięty]"
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "LL",
+                "humanTimeLong": "LL",
+                "scrubber": "MMMM YYYY",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -657,6 +895,9 @@
                 "csrf_token_mismatch": "Zbyt długo byłeś nieaktywny.",
                 "csrf_token_mismatch_return_link": "Cofnij się, aby spróbować ponownie",
                 "invalid_confirmation_token": "Ten link aktywacyjny został już użyty lub jest nieprawidłowy.",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "Nie masz uprawnień, aby przeglądać tę stronę. Spróbuj ponownie po zalogowaniu.",
                 "not_found": "Podana strona nie istnieje.",
                 "not_found_return_link": "Wróć na {forum}",
@@ -668,20 +909,40 @@
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "Czy jesteś pewien, że chcesz się wylogować z {forum}?",
                 "title": "=> core.ref.log_out"
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
+                "title": ""
             },
             "reset_password": {
                 "confirm_password_label": "Potwierdź nowe hasło",
                 "new_password_label": "Nowe hasło",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
-            "invalid_username_message": "Nazwa użytkownika może zawierać jedynie litery, cyfry i myślniki.",
+            "invalid_username_message": "",
             "invalid_filter_type": {
                 "must_be_numeric_message": "Filtr {filter} musi być liczbą.",
                 "must_not_be_array_message": "Filtr {filter} nie może być tablicą.",
@@ -689,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "Aktywuj swoje nowe konto",
-                "body": "Witaj {username},\n\nKtoś (mamy nadzieję, że Ty!) zarejestrował się na {forum} używając tego adresu e-mail.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej i Twoje konto zostanie aktywowane:\n{url}\n\nJeśli się nie rejestrowałeś, zignoruj tę wiadomość.\n"
+                "body": ""
             },
             "confirm_email": {
                 "subject": "Potwierdź swój adres e-mail",
-                "body": "Witaj {username},\n\nKtoś (mamy nadzieję, że Ty!) zmienił swój adres e-mail na {forum} na ten.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej, a Twój e-mail zostanie zatwierdzony:\n{url}\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Witaj {username},\n\nKtoś (mamy nadzieję, że Ty!) poprosił o zresetowanie hasła do swojego konta na {forum}.\n\nJeśli byłeś to Ty, kliknij link poniżej, aby zresetować swoje hasło:\n{url}\n\nJeśli nie chcesz zmieniać hasła, po prostu zignoruj tę wiadomość, a nic się nie stanie.\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "Testowa wiadomość z Flarum",
-                "body": "Witaj {username},\n\nTo jest testowa wiadomość wysłana przez Flarum, aby potwierdzić, że konfiguracja wysyłki e-mail na Twoim forum działa prawidłowo.\n\nJeśli to Ty poprosiłeś o wysłanie tej wiadomości, wszystko działa w porządku!\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
+                "body": ""
             }
         },
         "ref": {
@@ -718,6 +997,8 @@
             "custom_footer_title": "Edytuj stopkę",
             "custom_header_text": "Dodaj własny kod HTML, który będzie wyświetlany na samej górze forum.",
             "custom_header_title": "Edytuj nagłówek",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "Usuń",
             "delete_forever": "Usuń nieodwracalnie",
             "discussions": "Dyskusje",
@@ -728,6 +1009,9 @@
             "generic_confirmation_message": "Czy jesteś pewien, że chcesz kontynuować? Ta operacje nie może zostać cofnięta.",
             "icon": "Ikona",
             "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "Wczytaj więcej",
             "loading": "Ładowanie...",
             "log_in": "Zaloguj się",
@@ -735,15 +1019,20 @@
             "mark_all_as_read": "Oznacz wszystko jako odczytane",
             "never": "Nigdy",
             "new_token": "Nowy token",
+            "newest": "",
             "next_page": "Następna strona",
             "notifications": "Powiadomienia",
             "okay": "OK",
+            "oldest": "",
             "password": "Hasło",
             "posts": "Posty",
             "previous_page": "Poprzednia strona",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "Usuń",
             "rename": "Zmień tytuł",
             "reply": "Odpowiedz",
+            "refresh": "",
             "reset_your_password": "Zresetuj swoje hasło",
             "restore": "Przywróć",
             "save_changes": "Zapisz zmiany",
@@ -754,6 +1043,7 @@
             "some_others": "{count, plural, one {# inny} other {# innych}}",
             "start_a_discussion": "Rozpocznij dyskusję",
             "username": "Nazwa użytkownika",
+            "username_or_email_placeholder": "",
             "users": "Użytkownicy",
             "view": "Zobacz",
             "write_a_reply": "Napisz odpowiedź...",

@@ -17,15 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Aggiungere l'attributo <code>rel=\"me\"</code> per la verifica dell'identità su altri siti",
-                "visibility": "Visibilità link",
-                "visibility.help": "Per impostazione predefinita, i link sono visibili solo agli utenti <code>{admin}</code>. Modifica i permessi per specificare chi può vedere questo link.",
-                "visibility.help-disabled": "Salvare il collegamento prima di modificare le impostazioni di visibilità.",
-                "visibility.label": "Visibilità link",
-                "visibility.guest-only.label": "Solo {guest}?",
-                "visibility.guest-only.help": "Solo {guest} può vedere questo link. Il permesso sopra dovrebbe essere impostato su '{everyone}'.",
-                "everyone-label": "Tutti",
-                "guests-label": "Ospiti",
-                "members-label": "Utenti registrati"
+                "visibility": {
+                    "help": "Per impostazione predefinita, i link sono visibili solo agli utenti <code>{admin}</code>. Modifica i permessi per specificare chi può vedere questo link.",
+                    "help-disabled": "Salvare il collegamento prima di modificare le impostazioni di visibilità.",
+                    "label": "Visibilità link",
+                    "guest-only": {
+                        "label": "Solo {guest}?",
+                        "help": "Solo {guest} può vedere questo link. Il permesso sopra dovrebbe essere impostato su '{everyone}'."
+                    }
+                }
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

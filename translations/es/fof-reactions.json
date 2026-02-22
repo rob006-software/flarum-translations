@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Reacciones",
                 "anonymous_count": "",
-                "no_reactions": "Aún no hay reacciones"
+                "no_reactions": "Aún no hay reacciones",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Ver Reacciones",
-            "react_button_label": "Reaccionar"
+            "react_button_label": "Reaccionar",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Texto a mostrar",
                         "identifier": "Identificador"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Si actualizaste la extensión, tus reacciones deberán ser convertidas. Si instalaste esta extensión por primera vez, puedes ignorar este mensaje.",

@@ -5,7 +5,7 @@
                 "add_label": "Uus autentimisviis",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "näidis: extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "Saada",
                     "token_label": "Kontrollkood",
                     "type_label": "Liik",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Näita, miks see ei uuenda viimasele versioonile.",
                 "install": "Paigalda uus laiendus",
-                "install_help": "Enne jätkamist sisesta lisaprogrammi paketi nimi. Võid sisestada <semantic_link>semantilise versiooni</semantic_link> kasutades vormingut <code>arendaja/paketi nimi:versioon</code>. Lisaprogramme võid vaadata siit: {extiverse}.\n",
+                "install_help": "",
                 "proceed": "Jätka",
                 "remove": "Eemalda",
                 "successful_install": "{extension} paigaldati edukalt, ümbersuunamine..",
@@ -98,11 +98,44 @@
                 "update": "Uuenda"
             },
             "minor_update_confirmation": {
-                "content": "See uuendab ka teised lisaprogrammid ja pakid uusimate saadaolevate versioonidega."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Haldaja"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "Ülesanne just algas",
                     "title": "Järjekord"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Palun ole ettevaatlik, kui annad ligipääsu adminiliidesele, kuna lisaprogrammide haldurit on võimalik kasutada ka pahatahtlikult ning see võib viia turvaprobleemideni.",
                 "debug_mode_warning": "Sa töötad veatuvastusrežiimis. Lisaprogrammide haldur ei saa kohalikke pakke korrektselt paigaldada ja uuendada. Palun kasuta selle asemel käsurida.",
                 "queue_jobs": "Käivita toimingud järjekorras taustal",
-                "queue_jobs_help": "Võid lugeda lisainfot <a href='{basic_impl_link}'>lihtjärjekorra</a> või <a href='{adv_impl_link}'>lisavõimalustega järjekorra</a> kasutamise kohta. Veendu, et järjekorra jaoks kasutatav PHP versioon oleks {php_version}. Veendu, et <a href='{folder_perms_link}'>kaustade õigused</a> oleks korrektselt seadistatud.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Ülesande säilitamise aeg päevades",
                 "task_retention_days_help": "Päevade arv, mil lõpetatud ülesandeid hoitakse andmebaasis alles. Vanemad ülesanded kustutatakse. Kõikide ülesannete alleshoidmiseks sisesta 0.\n"
             },
             "updater": {
-                "up_to_date": "Kõik on ajakohane!",
+                "up_to_date": "",
                 "check_for_updates": "Kontrolli uuendusi",
                 "flarum": "Flarumi tuum",
                 "global_update_successful": "Kõik paketid on uuendatud.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum on uuendatud.",
             "why_not_modal": {
                 "title": "Mis see ei uuenda"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "minimaalne stabiilsus",
-                "repositories": "hoidlad",
-                "repositories.*": "hoidlad",
-                "repositories.*.type": "hoidla liik",
-                "repositories.*.url": "hoidla URL",
-                "extension_id": "laienduse ID",
-                "update_mode": "uuendamise režiim",
-                "package": "pakett",
-                "version": "versioon",
-                "github_oauth": "GitHub OAuth",
-                "github_oauth.*": "GitHub OAuth",
-                "gitlab_oauth": "GitLab OAuth",
-                "gitlab_oauth.*": "GitLab OAuth",
-                "gitlab_token": "GitLab Token",
-                "gitlab_token.*": "GitLab Token",
-                "bearer": "HTTP Bearer",
-                "bearer.*": "HTTP Bearer"
             }
         }
     }

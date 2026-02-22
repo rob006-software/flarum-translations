@@ -40,16 +40,30 @@
             "no_reason_given": "Selleks sulgemiseks pole mingit põhjust antud.",
             "suspended": {
                 "subject": "Sinu konto on suletud",
-                "body": "Hei {recipient_display_name},\n\nSinu konto on järgneval põhjusel suletud:\n\n---\n{suspension_message}\n---\n"
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
             "unsuspended": {
                 "subject": "Sinu konto on taas avatud",
-                "body": "Hei {recipient_display_name},\n\nSinu konto on taas avatud. Tagasi foorumisse saad järgnevalt lingilt:\n\n{forum_url}\n"
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
-        "validation": {
-            "attributes": {
-                "suspendedUntil": "keelatud kuni"
+        "lib": {
+            "gambits": {
+                "users": {
+                    "suspended": {
+                        "key": ""
+                    }
+                }
             }
         }
     }

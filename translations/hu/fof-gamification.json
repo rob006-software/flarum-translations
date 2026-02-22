@@ -87,6 +87,8 @@
                     "vote_color": "Leadott szavazat jelzőszíne",
                     "icon_name": "Fel- és leszavazási ikon",
                     "icon_help": "Adja meg bármelyik Font-Awesome ikont, amelyik -up és -down utótaggal rendelkezik. Példák: arrow, thumbs, chevron.",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Csak felszavazás engedélyezése",
                     "first_post_only": "A fel- és leszavazás engedélyezése csak a téma első bejegyzésénél",
                     "allow_self_votes": "A felhasználók szavazhatnak a saját bejegyzésükre"
@@ -94,7 +96,7 @@
                 "save_settings": "Beállítások mentése",
                 "convert": {
                     "button": "Kedvelések átalakítása felszavazásokká",
-                    "help": "Átalakítja a flarum-ext-likes bővítményből származó kedvelések felszavazásokká, valamit kiszámítja az összes jelenlegi téma népszerűségét.",
+                    "help": "",
                     "converting": "A kedvelései most kerülnek átalakításra. Frissítse az oldalt pár perc múlva, hogy lássa a folyamat végét. (Az átalakítás eltarthat egy ideig, az összes kedvelés számától függően)",
                     "converted": "Mind a(z) {number} kedvelés sikeresen átalakítva"
                 },
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "Szavaztak a bejegyzésére itt: {display_name}"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

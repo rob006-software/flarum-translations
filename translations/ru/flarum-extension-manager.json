@@ -5,7 +5,7 @@
                 "add_label": "Новый метод аутентификации",
                 "add_modal": {
                     "host_label": "Хост",
-                    "host_placeholder": "пример: extiverse.com",
+                    "host_placeholder": "",
                     "submit_button": "Отправить",
                     "token_label": "Токен",
                     "type_label": "Тип",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Показать, почему обновление до актуальной версии не выполнено.",
                 "install": "Установить новое расширение",
-                "install_help": "Введите название пакета расширения. Вы можете указать <semantic_link>семантическую версию</semantic_link>, используя формат <code>vendor/package-name:version</code>. Посетите {extiverse} для обзора расширений.\n",
+                "install_help": "",
                 "proceed": "Продолжить",
                 "remove": "Удалить",
                 "successful_install": "{extension} установлено, переадресация...",
@@ -98,11 +98,44 @@
                 "update": "Обновить"
             },
             "minor_update_confirmation": {
-                "content": "Это действие также обновит любые другие расширения / пакеты с доступными обновлениями."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Менеджер"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "Задача запущена",
                     "title": "Очередь"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Пожалуйста, будьте внимательны в отношении лиц, имеющих доступ к администрированию. Менеджер расширений может быть использован злоумышленниками для установки вредоносных пакетов, что может привести к нарушениям безопасности.",
                 "debug_mode_warning": "Вы работаете в режиме отладки. Менеджер расширений не может корректно устанавливать и обновлять локальные пакеты разработки. Для этой цели используйте интерфейс командной строки.",
                 "queue_jobs": "Запуск операций в фоне",
-                "queue_jobs_help": "Ознакомиться с базовой реализацией очереди можно <a href='{basic_impl_link}'>здесь</a>, или с более продвинутой <a href='{adv_impl_link}'>здесь</a>. Убедитесь, что используется версия PHP {php_version} и <a href='{folder_perms_link}'>права доступа</a> настроены правильно.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Дни хранения задачи",
                 "task_retention_days_help": "Число дней, в течение которых выполненная задача хранится в базе данных. По истечении этого срока, задачи удаляются. Укажите 0 для сохранения всех задач.\n"
             },
             "updater": {
-                "up_to_date": "У Вас актуальные версии пакетов!",
+                "up_to_date": "",
                 "check_for_updates": "Проверить обновления",
                 "flarum": "Ядро Flarum",
                 "global_update_successful": "Все пакеты успешно обновлены",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum успешно обновлён.",
             "why_not_modal": {
                 "title": "Почему не обновляется?"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "минимальная стабильность",
-                "repositories": "репозитории",
-                "repositories.*": "репозитории",
-                "repositories.*.type": "тип репозитория",
-                "repositories.*.url": "URL репозитория",
-                "extension_id": "ID расширения",
-                "update_mode": "Режим обновления",
-                "package": "пакет",
-                "version": "версия",
-                "github_oauth": "Открытая авторизация через GitHub",
-                "github_oauth.*": "Открытая авторизация через GitHub",
-                "gitlab_oauth": "Открытая авторизация через GitLab",
-                "gitlab_oauth.*": "Открытая авторизация через GitLab",
-                "gitlab_token": "Ключ GitLab",
-                "gitlab_token.*": "Ключ GitLab",
-                "bearer": "Ключевые данные HTTP",
-                "bearer.*": "Ключевые данные HTTP"
             }
         }
     }

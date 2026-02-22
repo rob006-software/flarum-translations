@@ -40,35 +40,28 @@
             "no_reason_given": "Für diesen Ausschluss wurde kein Grund angegeben.",
             "suspended": {
                 "subject": "Dein Konto wurde ausgeschlossen",
-                "body": "Hallo {recipient_display_name},\n\nDu wurdest aus folgendem Grund ausgeschlossen:\n\n---\n{suspension_message}\n---\n",
                 "plain": {
-                    "body": "Dein Konto wurde aus folgendem Grund gesperrt:\n\n---\n{suspension_message}\n---\n"
+                    "body": ""
                 },
                 "html": {
-                    "body": "Dein Konto wurde aus folgendem Grund von {forumTitle} gesperrt:"
+                    "body": ""
                 }
             },
             "unsuspended": {
                 "subject": "Der Ausschluss deines Kontos wurde aufgehoben",
-                "body": "Hallo {recipient_display_name},\n\nDein Ausschluss wurde aufgehoben. Du kannst zum Forum zurückkehren, indem Du auf den folgenden Link klickst:\n\n{forum_url}\n",
                 "plain": {
-                    "body": "Die Sperre deines Kontos wurde aufgehoben. Du kannst zum Forum zurückkehren, indem du auf folgenden Link klickst:\n\n{forum_url}\n"
+                    "body": ""
                 },
                 "html": {
-                    "body": "Dein Konto wurde wieder freigeschaltet. Du kannst jederzeit zu [{forumTitle}]({forum_url}) zurückkehren."
+                    "body": ""
                 }
-            }
-        },
-        "validation": {
-            "attributes": {
-                "suspendedUntil": "ausgeschlossen bis"
             }
         },
         "lib": {
             "gambits": {
                 "users": {
                     "suspended": {
-                        "key": "ausgeschlossen"
+                        "key": ""
                     }
                 }
             }

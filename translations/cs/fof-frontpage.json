@@ -5,16 +5,25 @@
                 "front_button": "Hlavní stránka"
             },
             "badge": {
-                "frontpage_tooltip": "Na hlavní stránce"
+                "frontpage_tooltip": ""
             },
             "post_controls": {
-                "push_to_front_button": "Připnout na hlavní stránku",
-                "pull_from_front_button": "Odepnout z hlavní stránky"
+                "push_to_front_button": "",
+                "pull_from_front_button": ""
             }
-        },
+        }
+    },
+    "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": "Může připnout na hlavní stránku"
+                "can_push_to_frontpage_label": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "frontpage": {
+                    "key": ""
+                }
             }
         }
     }

@@ -108,7 +108,8 @@
             "unlink": "Remover",
             "error": {
                 "bad_verification_code": "Token de verificação inválido ou expirado. Por favor, tente novamente.",
-                "invalid_state": "Estado inválido. Por favor, tente novamente."
+                "invalid_state": "Estado inválido. Por favor, tente novamente.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

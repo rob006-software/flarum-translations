@@ -52,7 +52,12 @@
                 "debug_label": "Debuggen",
                 "debug_help": "Fügt der Flarum-Protokolldatei zusätzliche Protokolle hinzu, um Probleme mit Webhooks und/oder Ereignissen zu beheben, die nicht richtig funktionieren.",
                 "item": {
-                    "tag_any_label": "Beliebiger Tag"
+                    "tag_any_label": "Beliebiger Tag",
+                    "edit_tooltip": "",
+                    "delete_tooltip": "",
+                    "delete_confirm_alert": "",
+                    "create_button": "",
+                    "edit_tags_button": ""
                 },
                 "help": {
                     "disabled": "Dieser Webhook ist deaktiviert, weil keine Ereignisse für ihn aktiviert sind.",

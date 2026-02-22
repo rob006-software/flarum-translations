@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Popular",
-                "unpopular_button": "Unpopular"
+                "most_viewed_button": "Most Viewed",
+                "least_viewed_button": "Least Viewed"
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Reset discussion view count",
                 "submit": "Submit",
-                "label": "Set to view count"
+                "label": "Set to view count",
+                "invalid": "Please enter a valid number greater than or equal to 0"
             },
             "discussion_controls": {
                 "resetviews_button": "Set view count"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Ignore crawler visits"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": "popular"
+                }
             }
         }
     }

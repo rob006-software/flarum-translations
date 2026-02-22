@@ -11,10 +11,14 @@
             "modal": {
                 "title": "Bày tỏ cảm xúc",
                 "anonymous_count": "{count, plural, one {# người dùng ẩn danh} other {# người dùng ẩn danh}}",
-                "no_reactions": "Chưa có lượt bày tỏ cảm xúc nào"
+                "no_reactions": "Chưa có lượt bày tỏ cảm xúc nào",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "Xem bày tỏ cảm xúc",
-            "react_button_label": "Cảm xúc"
+            "react_button_label": "Cảm xúc",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "Hiển thị",
                         "identifier": "Số nhận dạng"
                     },
-                    "delete_confirmation": "Bạn có chắc chắn muốn xóa phản ứng này không? Thao tác này không thể hoàn tác."
+                    "delete_confirmation": "Bạn có chắc chắn muốn xóa phản ứng này không? Thao tác này không thể hoàn tác.",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "Nếu bạn vừa cập nhật tiện ích mở rộng của mình, biểu cảm của bạn sẽ phải được chuyển đổi. Nếu bạn vừa cài đặt tiện ích mở rộng này, bạn có thể bỏ qua thông báo này một cách an toàn.",

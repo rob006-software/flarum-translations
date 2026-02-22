@@ -5,16 +5,25 @@
                 "front_button": "Page d'accueil"
             },
             "badge": {
-                "frontpage_tooltip": "Marquée comme page d'accueil"
+                "frontpage_tooltip": ""
             },
             "post_controls": {
-                "push_to_front_button": "Ajouter à la page d'accueil",
-                "pull_from_front_button": "Retirer de la page d'accueil"
+                "push_to_front_button": "",
+                "pull_from_front_button": ""
             }
-        },
+        }
+    },
+    "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": "Peut ajouter du contenu à la page d'accueil"
+                "can_push_to_frontpage_label": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "frontpage": {
+                    "key": ""
+                }
             }
         }
     }

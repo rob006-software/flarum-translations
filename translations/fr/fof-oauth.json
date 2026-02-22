@@ -108,7 +108,8 @@
             "unlink": "Supprimer le lien",
             "error": {
                 "bad_verification_code": "Jeton de vérification invalide ou expiré. Veuillez réessayer.",
-                "invalid_state": "État invalide. Veuillez réessayer."
+                "invalid_state": "État invalide. Veuillez réessayer.",
+                "already_linked": ""
             }
         },
         "lib": {
@@ -120,6 +121,12 @@
                 "twitter": "Twitter",
                 "google": "Google",
                 "linkedin": "LinkedIn"
+            },
+            "gambits": {
+                "sso": {
+                    "key": "",
+                    "hint": ""
+                }
             }
         },
         "ref": {

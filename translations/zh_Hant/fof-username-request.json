@@ -72,6 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "暫無申請。",
+                "group_label": "",
                 "nickname_item_text": "{name} 申請更改暱稱",
                 "nickname_exerpt": "申請暱稱：{requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -98,8 +99,8 @@
         "email": {
             "body": {
                 "noReasonProvided": "沒有提供理由。",
-                "approved": "您好{recipient_display_name}，\n\n您將使用者名稱變更為「{new_username}」的請求已獲得 {actor_display_name} 的批准。\n\n現在您可以使用新使用者名稱登入：{login_url}\n",
-                "rejected": "您好{recipient_display_name}，\n\n您將使用者名稱從「{old_username}」變更為「{requested_username}」的請求已被{actor_display_name}拒絕。\n\n原因：{reason}\n"
+                "approved": "",
+                "rejected": ""
             },
             "subject": {
                 "approved": "{display_name} 已核准您將使用者名稱變更為 {requested_username}",

@@ -23,6 +23,11 @@
                 "full_dashboard": "Horizon töölaud",
                 "refresh": "Värskenda",
                 "last_refresh": "",
+                "error": {
+                    "title": "",
+                    "fetch_failed": "",
+                    "setup_docs": ""
+                },
                 "health": {
                     "excellent": "",
                     "good": "",
@@ -30,16 +35,11 @@
                     "critical": "",
                     "tooltip": ""
                 },
-                "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
-                },
                 "data": {
                     "redis-used-memory": "Kasutatud Redis mälu",
-                    "redis-memory-usage": "",
                     "redis-peak-memory": "Redis mälu kõrgeim kasutus",
                     "redis-max-memory": "Redis maks. mälu",
+                    "redis-memory-usage": "",
                     "redis-memory-policy": "Redis mälu poliitika",
                     "redis-memory-policy-tooltip": "Mälu poliitika määrab kuidas Redis valib mida eemaldada kui\nmälulimiit (maxmemory) on täis. Vaikeväärtus on `noeviction`: Uusi väärtuseid \nei salvestata, kui mälulimiit on täis. Kliki dokumentatsiooni vaatamiseks.\n",
                     "redis-ops-per-sec": "Toimingud sekundis",
@@ -59,9 +59,7 @@
                     "max-runtime": "Maks. käivitusaeg",
                     "max-throughput": "Maks. läbilaskevõime",
                     "success-rate": "",
-                    "failure-rate": "",
-                    "redis-cpu-user": "Redis Protsessori kasutus",
-                    "redis-cpu-sys": "Redis protsessori süsteem"
+                    "failure-rate": ""
                 }
             }
         }

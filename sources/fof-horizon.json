@@ -22,7 +22,12 @@
                 "heading": "Queue Overview",
                 "full_dashboard": "Horizon Dashboard",
                 "refresh": "Refresh",
-                "last_refresh": "Updated {time}",
+                "last_refresh": "Last refresh: {time}",
+                "error": {
+                    "title": "Connection Error",
+                    "fetch_failed": "Unable to fetch Horizon statistics. Please check your Redis configuration.",
+                    "setup_docs": "View Redis Setup Documentation"
+                },
                 "health": {
                     "excellent": "Excellent",
                     "good": "Good",
@@ -30,16 +35,11 @@
                     "critical": "Critical",
                     "tooltip": "System health score: {score}/100"
                 },
-                "error": {
-                    "title": "Connection Error",
-                    "fetch_failed": "Unable to fetch Horizon statistics. Please check your Redis configuration.",
-                    "setup_docs": "View Redis Setup Documentation"
-                },
                 "data": {
                     "redis-used-memory": "Cache store Used Memory",
-                    "redis-memory-usage": "Cache store Memory Usage",
                     "redis-peak-memory": "Cache store Peak Memory",
                     "redis-max-memory": "Cache store Max Memory",
+                    "redis-memory-usage": "Cache store Memory Usage",
                     "redis-memory-policy": "Cache store Memory Policy",
                     "redis-memory-policy-tooltip": "The memory policy is the way the cache store will select what to remove when\nthe maxmemory limit is reached. The default is `noeviction`: New values\naren't saved when memory limit is reached. Click to view documentation.\n",
                     "redis-ops-per-sec": "Ops Per Second",

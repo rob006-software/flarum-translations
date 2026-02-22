@@ -56,9 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Themen für {title} bearbeiten",
-                "title": "Themen für die Diskussion auswählen",
-                "choose_primary_placeholder": "{count, plural, one {Wählen Sie ein Hauptthema} other {Wählen Sie # Hauptthemen}}",
-                "choose_secondary_placeholder": "{count, plural, one {Wählen Sie ein weiteres Thema} other {Wählen Sie # weitere Themen}}"
+                "title": "Themen für die Diskussion auswählen"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -86,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Entfernt",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Themen-Bedigungen umgehen",
                 "choose_primary_placeholder": "{count, plural, one {Wählen Sie ein primäres Thema} other {Wählen Sie # primäre Themen}}",
@@ -100,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Wählen Sie ein Thema mehr} other {Wählen Sie # mehr Themen}}",
             "name": "Name",
             "tags": "Themen"
-        },
-        "validation": {
-            "attributes": {
-                "name": "name",
-                "slug": "slug",
-                "is_hidden": "versteckt",
-                "description": "beschreibung",
-                "color": "farbe",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

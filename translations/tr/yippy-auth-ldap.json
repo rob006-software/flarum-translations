@@ -10,6 +10,7 @@
                 "not_authenticated": "Geçersiz kimlik bilgisi nedeniyle {server} bağlanılamıyor, uzantı ayarlarını düzeltin.",
                 "csrf_token_mismatch": "Çok uzun süredir etkin değilsiniz, lütfen sayfayı yenileyin ve tekrar deneyin",
                 "domains": {
+                    "connection_failed": "",
                     "no_domains": "Yönetici ayarlarında hiçbir alan adı ayarlanmamış, uzantı ayarlarını düzeltin.",
                     "empty_host": "{domain_index} alanında hiçbir Alan Adı veya sunucu IP adresi ayarlanmamış, uzantı ayarlarını düzeltin.",
                     "empty_base_dn": "{domain_index} alanında hiçbir Temel DN ayarlanmamış, uzantı ayarlarını düzeltin.",
@@ -54,7 +55,7 @@
                         "host": "Alanlar veya sunucu IP adresleri",
                         "host_help": "Virgülle ayrılmış",
                         "base_dn": "Base DN'ler",
-                        "base_dn_help": "Noktalı virgülle ayrılmış",
+                        "base_dn_help": "",
                         "filter": "Uygulanacak filtre",
                         "filter_help": "Tercihe bağlı, 'Arama alanları' filtreden hariç tutulmalıdır. Örneğin, filtreyi '(objectclass=user)' olarak girmek ve 'Arama alanları' içinde 'uid' seçmek, filtreyi şu şekilde değiştirecektir: '(&(objectclass=user)(uid=[Kullanıcı Girdisi]))\"",
                         "port": "Bağlantı Noktası",

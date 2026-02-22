@@ -56,11 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "更改「{title}」的节点标签",
-                "title": "添加标签",
-                "bypass_requirements": "跳过标签选择",
-                "choose_primary_placeholder": "{count, plural, one {选择主标签    } other {最多选择 # 个主标签}}",
-                "choose_secondary_placeholder": "{count, plural, one {选择一个次标签} other {最多选择 # 个次标签}}",
-                "submit_button": "=> core.ref.okay"
+                "title": "添加标签"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -88,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "已删除",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "忽略标签选择",
                 "choose_primary_placeholder": "{count, plural, one {请选择一个主标签} other {请选择 # 个主标签}}",
@@ -102,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {请再选择一个标签} other {请再选择 # 个标签}}",
             "name": "标签名称",
             "tags": "标签"
-        },
-        "validation": {
-            "attributes": {
-                "name": "名称",
-                "slug": "英文名",
-                "is_hidden": "隐藏",
-                "description": "描述",
-                "color": "颜色",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

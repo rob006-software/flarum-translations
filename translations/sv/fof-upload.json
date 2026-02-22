@@ -30,9 +30,10 @@
                 "disable-download-logging": "Stänger av loggning av filnedladdningar.\n",
                 "disable-hotlink-protection": "Stänger av skydd mot hotlinking (direktlänkning).\n",
                 "download_templates": "Mallarna styr hur länkar och inbäddningar genereras när du infogar en fil i ett inlägg.\n",
-                "mime_types": "Lista över tillåtna MIME-typer (kommaseparerat).\n",
+                "mime_types": "",
                 "resize": "Ändra storlek på uppladdade bilder automatiskt.\n",
                 "client_extension": "Styr hur filändelser hanteras i klienten. Använd med försiktighet.\n",
+                "thumbnails": "",
                 "watermark": "Lägg en vattenstämpel på uppladdade bilder.\n",
                 "s3_compatible_storage": "Använd S3-kompatibel lagring (t.ex. MinIO/Wasabi) genom att ange endpoint.\n",
                 "s3_acl": "Åtkomstnivå (ACL) för uppladdade objekt i S3.\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Max filstorlek",
                     "mime_types": "Tillåtna MIME-typer",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Preferenser",
                     "php_ini_values": "PHP ini-värden"
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Hantering av filändelser"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Vattenstämpelfil",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Position",
+                    "size_percent": "",
                     "title": "Vattenstämpel",
                     "toggle": "Aktivera"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Inspektera MIME-typ"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Ladda ner filer",
-                "upload_label": "Ladda upp filer",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Se användares uppladdningar",
                 "delete_uploads_of_others_label": "Ta bort andras uppladdningar",
                 "upload_shared_label": "Ladda upp delade filer",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",
-                "awss3": "Amazon S3",
                 "imgur": "Imgur",
                 "local": "Lokal",
                 "ovh-svfs": "OVH SVFS",
@@ -181,6 +197,7 @@
             "text_preview": {
                 "expand": "Visa mer",
                 "collapse": "Visa mindre",
+                "download": "",
                 "error": "Kunde inte visa förhandsvisning.\n",
                 "no_snippet_preview": "Ingen förhandsvisning tillgänglig.",
                 "no_snippet": "Ingen text hittades."
@@ -189,6 +206,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Den här filtypen är inte tillåten.",
+                "mime_permission_denied": "",
                 "unsupported_type": "Den här filtypen stöds inte.",
                 "could_not_detect_mime": "Kunde inte identifiera filens MIME-typ.",
                 "max_upload_file_size_ini": "Filen överskrider gränsen i php.ini (upload_max_filesize).",

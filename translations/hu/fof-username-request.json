@@ -72,6 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "Nem található névmódosítási kérés.",
+                "group_label": "",
                 "nickname_item_text": "{name} becenév-módosítást kért",
                 "nickname_exerpt": "Kért becenév: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -98,8 +99,8 @@
         "email": {
             "body": {
                 "noReasonProvided": "Nincs ok megadva.",
-                "approved": "Kedves {recipient_display_name}!\n\n{actor_display_name} engedélyezte a kérését, hogy a következő legyen a felhasználóneve: „{new_username}”.\n\nMost már bejelentkezhet az új felhasználónevével: {login_url}\n",
-                "rejected": "Kedves {recipient_display_name}!\n\n{actor_display_name} elutasította a kérését, hogy a(z) „{old_username}” felhasználónevét erre módosítja: „{requested_username}”.\n\nOk: {reason}\n"
+                "approved": "",
+                "rejected": ""
             },
             "subject": {
                 "approved": "{display_name} engedélyezte a kérését, hogy a következő legyen a felhasználóneve: „{requested_username}”",

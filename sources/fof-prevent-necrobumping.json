@@ -2,28 +2,26 @@
     "fof-prevent-necrobumping": {
         "forum": {
             "composer": {
-                "warning": {
-                    "title": "This discussion is more than <b>{time}</b> old.",
-                    "description": "It is very likely that it does not need any further discussion and thus bumping it serves no purpose.",
-                    "cta": "Would you like to start a new discussion instead?",
+                "inactive_discussion_alert": {
+                    "title": "The last reply to this discussion was {time}.",
+                    "description": "Consider whether your reply adds new value or if the topic has already been resolved.",
+                    "cta": "Consider starting a fresh discussion if you have a new question or perspective.",
                     "cta_button": "=> core.ref.start_a_discussion",
-                    "checkbox_label": "I am aware that this discussion is rather old but would still like to reply.",
-                    "error": "This discussion is too old to reply to."
-                }
+                    "confirmation": "I understand this discussion is inactive, but my reply is relevant."
+                },
+                "error": "This discussion is too old to reply to."
             }
         },
         "admin": {
             "settings": {
-                "show_discussion_cta_label": "Show Call to Action",
-                "show_discussion_cta_help": "Show a call to action when replying to a discussion that is older than the specified amount of days and no custom description is set.",
-                "days_label": "Days",
-                "days_help": "A discussion will be marked as old when the amount of days specified has passed since the last post on that discussion was posted. Use <code>0</code> to disable it by default.",
-                "message_title_label": "Custom Message Title",
-                "message_title_help": "Use <code>[time]</code> for the time text, e.g. \"14 days\".",
-                "message_description_label": "Custom Message Description",
-                "message_agreement_label": "Custom Message Agreement (Checkbox)",
-                "tags_title": "Tags",
-                "tags_help": "Override the global days for a specific tag. Empty means use default value. If a discussion has multiple tags with different day values, it will use the smallest amount of days configured."
+                "general_heading": "General Settings",
+                "days_label": "Days Until Discussion Considered Inactive",
+                "days_help": "Mark discussions as inactive after this many days since the last post. Set to <code>0</code> to disable by default.",
+                "show_discussion_cta_label": "Show \"Start New Discussion\" Prompt",
+                "show_discussion_cta_help": "Display a suggestion to start a new discussion when users attempt to reply to inactive discussions.",
+                "tags_title": "Tag-Specific Settings",
+                "tags_help": "Override the global inactivity threshold for specific tags. Leave empty to use the default. When multiple tags have different values, the shortest period applies.",
+                "tags_placeholder": "Default"
             }
         }
     }

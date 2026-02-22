@@ -87,6 +87,8 @@
                     "vote_color": "Warna yang terpilih",
                     "icon_name": "Ikon Dukung Naik/Turun",
                     "icon_help": "Masukkan ikon Font-Awesome apa pun yang diakhiri dengan -up dan -down. Contoh: arrow, thumbs, chevron",
+                    "icon_preview_upvote": "",
+                    "icon_preview_downvote": "",
                     "upvotes_only": "Hanya diizinkan untuk memberikan Dukung Naik",
                     "first_post_only": "Hanya diizinkan untuk memberikan Dukungan Naik/Turun pada postingan awal dalam sebuah diskusi",
                     "allow_self_votes": "Pengguna dapat melakukan voting pada postingan mereka sendiri"
@@ -94,7 +96,7 @@
                 "save_settings": "Simpan pengaturan",
                 "convert": {
                     "button": "Mengonversi \"Suka\" menjadi Dukung Naik",
-                    "help": "Mengkonversi \"Suka\" Anda yang sebelumnya dari flarum-ext-likes menjadi Dukung Naik, serta menghitung tingkat kepopuleran untuk semua diskusi saat ini.",
+                    "help": "",
                     "converting": "Jumlah \"Suka\" Anda sekarang sedang dikonversi. Refresh situs Anda setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memerlukan waktu agak lama, tergantung pada total \"Suka\" di forum Anda)",
                     "converted": "Berhasil mengkonversi semua ({number} suka)"
                 },
@@ -128,6 +130,13 @@
             },
             "subject": {
                 "postVoted": "Post Anda telah mendapatkan vote dari {display_name}"
+            }
+        }
+    },
+    "lib": {
+        "gambits": {
+            "hot": {
+                "key": ""
             }
         }
     }

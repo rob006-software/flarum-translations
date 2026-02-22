@@ -74,12 +74,33 @@
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "[Felhasználó követése] {title}",
-            "new_follower_subject": "[Felhasználó követése] Új követője van!",
-            "new_post_subject": "[Felhasználó követése] Új bejegyzés itt: {title}",
-            "new_discussion_by_user_body": "Kedves {recipient_display_name}!\n\n{user_display_name} új témát nyitott: {discussion_title}\n\nA téma megtekintéséhez kattintson a következő hivatkozásra:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
-            "new_follower_body": "Kedves {recipient_display_name}!\n\n{follower_display_name} követni kezdte Önt, így értesülni fog, ha új témát indít.\n\nA profilja megtekintéséhez kattintson a következő hivatkozásra:\n\n{profile_url}\n",
-            "new_post_body": "Kedves {recipient_display_name}!\n\n{user_display_name} bejegyzést tett közzé a témában: {discussion_title}\n\nAz új tevékenysége megtekintéséhez nézze meg a következő hivatkozást:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNem fog több értesítést kapni erről a témáról, amíg naprakész nem lesz.\n"
+            "new_discussion_by_user": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_follower": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "new_post": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
         },
         "lib": {
             "following_link": "Követett felhasználók",
@@ -99,16 +120,10 @@
                     "name": "Minden követése",
                     "description": "Értesítések fogadása, ha <em>{username}</em> új témát indít, vagy bejegyzést tesz közzé bármely témában.\n"
                 }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "followuser": {
-                    "export_description": "Exportálja a követett és a követő felhasználók részleteit.",
-                    "anonymize_description": "=> blomstra-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "Törli a követő felhasználókkal kapcsolatos összes adatot."
+            },
+            "gambits": {
+                "followeduser": {
+                    "key": ""
                 }
             }
         }

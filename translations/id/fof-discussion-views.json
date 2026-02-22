@@ -2,8 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Populer",
-                "unpopular_button": "Tidak populer"
+                "most_viewed_button": "",
+                "least_viewed_button": ""
             }
         }
     },
@@ -12,7 +12,8 @@
             "modal_resetviews": {
                 "title": "Reset jumlah tampilan diskusi",
                 "submit": "Submit",
-                "label": "Pengaturan untuk jumlah tampilan"
+                "label": "Pengaturan untuk jumlah tampilan",
+                "invalid": ""
             },
             "discussion_controls": {
                 "resetviews_button": "Atur jumlah tampilan"
@@ -24,6 +25,13 @@
             },
             "settings": {
                 "ignore_crawlers": "Abaikan kunjungan dari crawler (bot)"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "popular": {
+                    "key": ""
+                }
             }
         }
     }

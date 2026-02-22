@@ -59,15 +59,32 @@
             }
         },
         "email": {
-            "subject": {
-                "newDiscussionInTag": "[Silt | Uus vestlus] {title}",
-                "newPostInTag": "[Silt | Uus postitus] {title}",
-                "newDiscussionTag": "[Silt | Muudetud silt] {title}"
+            "newDiscussionInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             },
-            "body": {
-                "newDiscussionInTag": "Tere {recipient_display_name},\n\n{actor_display_name} alustas vestlust sildiga, mida sa jälgid. Vestluse pealkiri: {discussion_title}\n\nUut vestlust näed sellelt lingilt:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "Tere {recipient_display_name},\n\n{actor_display_name} postitas vestlusesse, mille silti sa jälgid: {discussion_title}\n\nUue tegevuse vaatamiseks kliki sellele lingile:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nYou won't receive any more notifications about this discussion until you're up to date.\n",
-                "newDiscussionTag": "Tere {recipient_display_name},\n\n{actor_display_name} muutis just silti vestluses, mille alustas {author_display_name} sildi vastu, mida sa jälgid. Vestluse pealkiri: {discussion_title}\n\nUut vestlust saad vaadata sellelt lingilt:\n{discussion_url}\n"
+            "newPostInTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            },
+            "newDiscussionTag": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
             }
         },
         "ref": {

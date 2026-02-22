@@ -72,6 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "Запросы на изменение имени отсутствуют.",
+                "group_label": "",
                 "nickname_item_text": "{name} запросил(а) изменение псевдонима",
                 "nickname_exerpt": "Новый псевдоним: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -98,8 +99,8 @@
         "email": {
             "body": {
                 "noReasonProvided": "Не указана причина.",
-                "approved": "Привет {recipient_display_name},\n\nВаш запрос на изменение вашего имени пользователя на \"{new_username}\" был одобрен {actor_display_name}.\n\nТеперь вы можете заходить на форум под новым именем : {login_url}\n",
-                "rejected": "Привет {recipient_display_name},\n\nВаш запрос на изменение вашего имени пользователя с \"{old_username}\" на \"{requested_username}\" был отклонен {actor_display_name}.\n\nПричина: {reason}\n"
+                "approved": "",
+                "rejected": ""
             },
             "subject": {
                 "approved": "{display_name} одобрил изменение вашего имени пользователя на {requested_username}",

@@ -11,10 +11,14 @@
             "modal": {
                 "title": "การเเสดงความรู้สึก",
                 "anonymous_count": "",
-                "no_reactions": ""
+                "no_reactions": "",
+                "remove_all_reaction_type": "",
+                "remove_user_reaction": ""
             },
             "mod_item": "ดูการเเสดงความรู้สึก",
-            "react_button_label": "ตอบโต้"
+            "react_button_label": "ตอบโต้",
+            "reaction_button_label": "",
+            "reacted_with_label": ""
         },
         "admin": {
             "permissions": {
@@ -37,7 +41,9 @@
                         "display": "การเเสดงผล",
                         "identifier": "ตัวบงบอก"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "",
+                    "delete_reaction_button": "",
+                    "add_reaction_button": ""
                 },
                 "convert": {
                     "help": "หากคุณเพิ่งอัพเดทส่วนเสริมนี้ ตัวการเเสดงความรู้สึกของคุณจะถูกเปลี่ยน หากคุณเพิ่งติดตั้งส่วนเสริมนี้ เเค่ไม่ต้องสนใจข้อความนี้",

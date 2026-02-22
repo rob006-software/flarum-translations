@@ -11,7 +11,6 @@
                     "tags": "Beste antwoordtags",
                     "general": "Algemeen",
                     "reminders": "Herinneringen",
-                    "search": "Zoeken",
                     "advanced": "Geavanceerd",
                     "reminders_notice": "Herinneringen werken pas wanneer je de Flarum scheduler goed ingesteld hebt."
                 },
@@ -36,19 +35,8 @@
                 "remind_tags_label": "Herinneringstags",
                 "remind_tags_help": "Selecteer voor welke tags u eventueel herinneringen wilt verzenden. Herinneringen worden alleen verzonden voor discussies met deze tags.",
                 "tags_info": "Wanneer voor een tag Beste antwoord is ingeschakeld, wijst u machtigingen toe aan elke gebruikersgroep die antwoorden mag instellen (eigen discussie, elke discussie). Machtigingen kunnen globaal worden toegewezen (voor elke Best Antwoord-tag) of per tag.\n",
-                "solution_search": "Oplossing zoeken",
-                "solution_search_help": "Schakel de mogelijkheid in om naar discussies met Beste antwoorden te zoeken",
-                "remove_solutions_from_main_search": "Oplossingen uit hoofdzoekopdracht verwijderen",
-                "remove_solutions_from_main_search_help": "Verwijder discussies met Beste Antwoorden uit de belangrijkste zoekresultaten van 'alle discussies'",
-                "display_tags": "Toon tags in zoekresultaten",
-                "display_tags_help": "Geef de tag(s) weer in zoekresultaten voor discussies met Beste Antwoorden",
                 "discussion_sidebar_jump_button": "Geef de knop 'Ga naar het beste antwoord' weer in de discussiezijbalk",
-                "discussion_sidebar_jump_button_help": "Voegt een knop toe aan de discussiezijbalk die naar het beste antwoord in de berichten springt.",
-                "allow_select_own_post": "Selecteer je eigen bericht",
-                "allow_select_own_post_help": "Sta een gebruiker toe zijn eigen bericht te selecteren als beste antwoord op een discussie",
-                "enable_all_tags_button": "Beste antwoorden op alle tags inschakelen",
-                "enable_all_tags_reminder_button": "Herinneringen voor beste antwoorden op alle tags inschakelen",
-                "introduction": "Schakel in welke tags de beste antwoorden in <code><a>flarum/tags</a></code> moeten ondersteunen, en optioneel welke tag(s) herinneringen moeten ondersteunen. Wanneer een tag is ingeschakeld voor Beste antwoord, wijst u machtigingen toe aan elke gebruikersgroep die antwoorden mag instellen (eigen discussie, elke discussie). Machtigingen kunnen globaal worden toegewezen (voor elke tag die voor het beste antwoord is ingeschakeld), of per tag.\n"
+                "discussion_sidebar_jump_button_help": "Voegt een knop toe aan de discussiezijbalk die naar het beste antwoord in de berichten springt."
             },
             "edit_tag": {
                 "qna_label": "Sta het toe om een Beste Antwoord te selecteren in deze tag",
@@ -92,10 +80,6 @@
             "user": {
                 "best-answer-count": "{count, plural, one { {count} best antwoord} other {{count} beste antwoorden}}"
             },
-            "search": {
-                "discussions_solutions_heading": "Discussies met oplossingen",
-                "all_discussions_solutions_button": "Doorzoek alle discussies met oplossingen voor \"{query}\""
-            },
             "discussion": {
                 "jump_to_best_answer_button": "Bekijk Beste antwoord"
             }
@@ -110,6 +94,13 @@
                 "awarded": "Hoi {recipient_display_name},\n\nGoed gedaan, {actor_display_name} heeft je bericht als beste antwoord gemarkeerd in de discussie: {discussion_title}. Bedankt voor het helpen.\n\nBekijk het hier: {discussion_url}\n",
                 "ba-set": "Hoi {recipient_display_name},\n\n{actor_display_name} heeft zojuist een bericht als beste antwoord gemarkeerd in een discussie waaraan je hebt deelgenomen: {discussion_title}.\n\nBekijk het hier: {discussion_url}\n",
                 "select": "Hoi {recipient_display_name},\n\nEven checken; nu zou je genoeg antwoorden moeten hebben gekregen op je vraag: {discussion_title}. Hopelijk heeft een van hen je geholpen om je probleem op te lossen.\n\nMocht dat zo zijn, dan zou het voor toekomstige leden erg handig zijn om een beste antwoord te selecteren. Het zal mensen met hetzelfde probleem helpen om sneller het juiste antwoord te vinden die ze nodig hebben, daarnaast is het ook een bedankje voor de gebruikers die je hebben geholpen. Zij reageren vrijwillig in hun eigen tijd, dus het is leuk om hen te laten weten dat ze het goed doen.\n\nBezoek de discussie hier: {discussion_url}, en selecteer geschikte bericht als het beste antwoord.\n\nBedankt!\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

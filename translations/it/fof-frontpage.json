@@ -5,16 +5,25 @@
                 "front_button": "Prima Pagina"
             },
             "badge": {
-                "frontpage_tooltip": "Messo in Prima Pagina"
+                "frontpage_tooltip": ""
             },
             "post_controls": {
-                "push_to_front_button": "Metti in Prima Pagina",
-                "pull_from_front_button": "Rimuovi dalla Prima Pagina"
+                "push_to_front_button": "",
+                "pull_from_front_button": ""
             }
-        },
+        }
+    },
+    "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": "Metti in Prima Pagina"
+                "can_push_to_frontpage_label": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "frontpage": {
+                    "key": ""
+                }
             }
         }
     }

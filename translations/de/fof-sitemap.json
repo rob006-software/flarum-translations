@@ -30,9 +30,7 @@
                 "include_changefreq_help": "Angaben zur Änderungshäufigkeit werden von Google ignoriert, können aber von anderen Suchmaschinen zur Planung der Crawlerbesuche genutzt werden",
                 "modes": {
                     "runtime": "Laufzeit",
-                    "multi_file": "Mehrdateien",
-                    "cache": "Cache",
-                    "cache_disk": "Disk"
+                    "multi_file": "Mehrdateien"
                 },
                 "frequency": {
                     "hourly": "Stündlich",
@@ -54,10 +52,7 @@
                             "minimum_item_threshold_help": "Die Mindestanzahl an Diskussionen, über die ein Thema verfügen muss, damit es in die Sitemap aufgenommen wird."
                         }
                     }
-                },
-                "mode_help_cache_disk_label": "Cache-Modus/Disk-Modus",
-                "mode_help_cache_disk": "Am besten geeignet für kleine oder mittelgroße Foren, am ehesten auf Hosting-Umgebungen, die Cronjobs zulassen und den Flarum-Scheduler aktivieren (siehe unten), und mit Diskussionen, Benutzern, Tags und Seiten, die in Summe weniger als 50.000 Einträge umfassen.",
-                "title": "FoF-Sitemap"
+                }
             }
         }
     }

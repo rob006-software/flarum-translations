@@ -100,9 +100,42 @@
             "minor_update_confirmation": {
                 "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": ""
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "",
                     "title": ""
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -163,27 +200,6 @@
             "update_successful": "",
             "why_not_modal": {
                 "title": ""
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "",
-                "repositories": "",
-                "repositories.*": "",
-                "repositories.*.type": "",
-                "repositories.*.url": "",
-                "extension_id": "",
-                "update_mode": "",
-                "package": "",
-                "version": "",
-                "github_oauth": "",
-                "github_oauth.*": "",
-                "gitlab_oauth": "",
-                "gitlab_oauth.*": "",
-                "gitlab_token": "",
-                "gitlab_token.*": "",
-                "bearer": "",
-                "bearer.*": ""
             }
         }
     }

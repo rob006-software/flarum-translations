@@ -5,7 +5,7 @@
                 "add_label": "Nuevo método de autenticación",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "Ejemplo: flarum.org",
+                    "host_placeholder": "",
                     "submit_button": "Enviar",
                     "token_label": "Token",
                     "type_label": "Tipo",
@@ -75,7 +75,7 @@
             "extensions": {
                 "check_why_it_failed_updating": "Mostrar por qué no se actualizó a la última.",
                 "install": "Instalar una nueva extensión",
-                "install_help": "Complete el nombre del paquete de extensión para continuar. Puede especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visite {extiverse} para explorar extensiones.\n",
+                "install_help": "",
                 "proceed": "Proceder",
                 "remove": "Desinstalar",
                 "successful_install": "{extension} fue instalada con éxito, redirigiendo..",
@@ -98,11 +98,44 @@
                 "update": "Actualizar"
             },
             "minor_update_confirmation": {
-                "content": "Esto también actualizará cualquier otra extensión/paquete con actualizaciones disponibles."
+                "content": ""
             },
+            "required_php_functions": "",
             "sections": {
-                "control": {
-                    "title": "Administrador"
+                "discover": {
+                    "description": "",
+                    "empty_results": "",
+                    "extension": {
+                        "badges": {
+                            "compatible": "",
+                            "fof": "",
+                            "flarum": "",
+                            "incompatible": "",
+                            "premium": "",
+                            "unstable": ""
+                        },
+                        "downloads": ""
+                    },
+                    "premium_extension_terms": "",
+                    "search": "",
+                    "server_error": "",
+                    "sort": {
+                        "toggle_dropdown_accessible_label": "",
+                        "top": "",
+                        "latest": ""
+                    },
+                    "tabs": {
+                        "discover": "",
+                        "extensions": "",
+                        "languages": "",
+                        "themes": ""
+                    },
+                    "title": "",
+                    "party_filter": {
+                        "all": "",
+                        "premium": "",
+                        "toggle_dropdown_accessible_label": ""
+                    }
                 },
                 "queue": {
                     "columns": {
@@ -139,6 +172,10 @@
                     },
                     "task_just_started": "La tarea acaba de empezar",
                     "title": "Cola"
+                },
+                "settings": {
+                    "title": "",
+                    "description": ""
                 }
             },
             "settings": {
@@ -146,12 +183,12 @@
                 "access_warning": "Por favor, tenga cuidado a quién le da acceso al área de administración, el gestor de extensiones podría ser mal utilizado por personas malintencionadas para instalar paquetes que pueden conducir a brechas de seguridad.",
                 "debug_mode_warning": "Está ejecutando en modo de depuración, el gestor de extensiones no puede instalar y actualizar correctamente los paquetes de desarrollo locales. Para ello, utilice la interfaz de línea de comandos.",
                 "queue_jobs": "Ejecutar operaciones en la cola de fondo",
-                "queue_jobs_help": "Puede leer sobre una <a href='{basic_impl_link}'>implementación básica</a> de una cola o una <a href='{adv_impl_link}'>más avanzada</a>. Asegúrese de que la versión de PHP utilizada para la cola sea {php_version}. Asegúrese de que los <a href='{folder_perms_link}'>permisos de las carpetas</a> estén configurados correctamente.\n",
+                "queue_jobs_help": "",
                 "task_retention_days": "Días de retención de la tarea",
                 "task_retention_days_help": "El número de días para mantener las tareas completadas en la base de datos. Las tareas más antiguas se eliminarán. Establezca 0 para mantener todas las tareas.\n"
             },
             "updater": {
-                "up_to_date": "¡Todo está al día!",
+                "up_to_date": "",
                 "check_for_updates": "Buscar actualizaciones",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Actualizados correctamente todos los paquetes.",
@@ -163,27 +200,6 @@
             "update_successful": "Flarum actualizado con éxito.",
             "why_not_modal": {
                 "title": "¿Por qué no se actualiza?"
-            }
-        },
-        "validation": {
-            "attributes": {
-                "minimum_stability": "estabilidad mínima",
-                "repositories": "repositorios",
-                "repositories.*": "repositorios",
-                "repositories.*.type": "tipo de repositorio",
-                "repositories.*.url": "URL del repositorio",
-                "extension_id": "ID de extensión",
-                "update_mode": "modo de actualización",
-                "package": "paquete",
-                "version": "versión",
-                "github_oauth": "GitHub OAuth",
-                "github_oauth.*": "GitHub OAuth",
-                "gitlab_oauth": "GitLab OAuth",
-                "gitlab_oauth.*": "GitLab OAuth",
-                "gitlab_token": "GitLab Token",
-                "gitlab_token.*": "GitLab Token",
-                "bearer": "HTTP Bearer",
-                "bearer.*": "HTTP Bearer"
             }
         }
     }

@@ -5,16 +5,25 @@
                 "front_button": "首頁"
             },
             "badge": {
-                "frontpage_tooltip": "標記為首頁貼文"
+                "frontpage_tooltip": ""
             },
             "post_controls": {
-                "push_to_front_button": "推至首頁",
-                "pull_from_front_button": "從首頁撤下"
+                "push_to_front_button": "",
+                "pull_from_front_button": ""
             }
-        },
+        }
+    },
+    "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": "可推至首頁"
+                "can_push_to_frontpage_label": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "frontpage": {
+                    "key": ""
+                }
             }
         }
     }

@@ -30,9 +30,10 @@
                 "disable-download-logging": "Tắt ghi nhật ký tải xuống do người dùng diễn đàn của bạn thực hiện. Giữ nó được bật cho phép bạn xem số lượt tải xuống và các chỉ số khác trong tương lai gần.\n",
                 "disable-hotlink-protection": "Bảo vệ hotlink ngăn chặn việc mở các bản tải xuống từ các trang khác. Phương pháp hiện tại yêu cầu mã thông báo csrf và id bài đăng.\n",
                 "download_templates": "Các mẫu tải xuống là cách các nội dung tải lên được hiển thị trên diễn đàn của bạn, ví dụ như các bản xem trước, các nút. Hiện đang có sẵn:\n",
-                "mime_types": "Vui lòng cấu hình mine của bạn tại đây. Mỗi biểu thức chính quy loại mime sẽ được xử lý bởi một bộ điều hợp tải lên và mẫu tải xuống cụ thể.\n",
+                "mime_types": "",
                 "resize": "Chọn xem bạn có muốn thay đổi kích thước hình ảnh của mình trước khi tải lên hay không. Bạn có thể chọn chiều rộng và chiều cao tối đa, tính bằng pixel. Quá trình thay đổi kích thước giữ nguyên tỷ lệ khung hình của hình ảnh.\n",
                 "client_extension": "Theo mặc định, Tải lên sẽ chọn một phần mở rộng tệp an toàn dựa trên loại MIME.\nĐối với một số loại tệp dựa trên dữ liệu ZIP hoặc nhị phân, điều này có thể dẫn đến việc sử dụng các phần mở rộng chung thay vì phần mở rộng như mong đợi.\nTại đây, bạn có thể nhập danh sách các phần mở rộng tệp được phân tách bằng dấu phẩy sẽ được giữ nguyên văn.\n",
+                "thumbnails": "",
                 "watermark": "Chọn xem hình ảnh có được thêm hình mờ trong quá trình tải lên hay không. Hình mờ được thêm vào không phải gif dựa trên tùy chọn của bạn bên dưới.\n",
                 "s3_compatible_storage": "Các cài đặt sau chỉ được yêu cầu khi sử dụng bộ lưu trữ tương thích S3. Nếu bạn sử dụng AWS, bạn có thể để trống chúng.\n",
                 "s3_acl": "ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Kích thước tối đa (kilobyte)",
                     "mime_types": "Cấu hình mine",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "Cài đặt chung",
                     "php_ini_values": "Các giá trị trong <code>php.ini</code> của bạn là <code>post_max_size={post}</code> và <code>upload_max_filesize={upload}</code>. Đảm bảo giá trị được đặt ở đây thấp hơn các ngưỡng này hoặc điều chỉnh chúng cho phù hợp. Nếu sử dụng <code>Nginx</code>, thì cũng đảm bảo <code>client_max_body_size</code> có đủ kích thước cho giới hạn tối đa bạn đã nhập."
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "Phần mở rộng tệp do người dùng cung cấp"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Tải lên hình ảnh đóng dấu của bạn",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Vị trí đóng dấu",
+                    "size_percent": "",
                     "title": "Hình đóng dấu",
                     "toggle": "Hình đóng dấu"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": "Test kiểu tệp MIME"
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Tải xuống tập tin",
-                "upload_label": "Tải lên tập tin",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "Xem tệp của người dùng",
                 "delete_uploads_of_others_label": "Xóa tệp của người dùng",
                 "upload_shared_label": "Tải lên các tệp được chia sẻ",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3 hoặc tương thích",
-                "awss3": "AWS S3",
                 "imgur": "Imgur",
                 "local": "Cục bộ",
                 "ovh-svfs": "OVH SVFS",
@@ -181,31 +197,16 @@
             "text_preview": {
                 "expand": "Mở rộng bản xem trước",
                 "collapse": "Thu gọn bản xem trước",
+                "download": "",
                 "error": "Lỗi khi xem trước tệp. Nó có thể đã bị xóa hoặc ID tệp được cung cấp không hợp lệ.\n",
                 "no_snippet_preview": "<bản xem trước sẽ xuất hiện ở đây sau khi đăng>",
                 "no_snippet": "<không có sẵn đoạn mã xem trước>"
-            },
-            "file_list": {
-                "loading": "Đang tải tệp...",
-                "empty": "Không có tệp nào để hiển thị.",
-                "release_to_upload": "Phát hành để tải lên",
-                "modal_empty_desktop": "Danh sách tệp của bạn trống. Nhấp vào nút hoặc kéo tệp vào đây để tải lên.",
-                "modal_empty_phone": "Danh sách tệp của bạn trống. Nhấn vào nút ở trên để tải tệp lên.",
-                "select_file_a11y_label": "Chọn tập tin \"{fileName}\"",
-                "confirm_selection_btn": "{fileCount, plural, =0 {Chưa chọn} one {Chọn tệp tin} other {Chọn tệp tin}}",
-                "load_more_files_btn": "Tải thêm tệp tin",
-                "hide_file": {
-                    "btn_a11y_label": "Xoá \"{fileName}\" khỏi tệp của bạn",
-                    "hide_confirmation": "Bạn có chắc chắn muốn xoá \"{fileName}\" không? Việc xoá tệp sẽ chỉ xóa tệp khỏi trình quản lý tệp và sẽ không ảnh hưởng đến các bài viết hiện có.",
-                    "hide_success": "Tệp đã được xoá khỏi quản lý tệp",
-                    "hide_fail": "Không thể xoá tệp \"{fileName}\"",
-                    "loading": "Đang xoá tệp ..."
-                }
             }
         },
         "api": {
             "upload_errors": {
                 "forbidden_type": "Các loại tệp này không được phép tải lên.",
+                "mime_permission_denied": "",
                 "unsupported_type": "Bộ điều hợp tải lên không hỗ trợ loại mime được cung cấp: {mime}.",
                 "could_not_detect_mime": "Không thể phát hiện loại MIME của tệp này, vui lòng thử lại.",
                 "max_upload_file_size_ini": "Bạn đã đạt đến giới hạn kích thước tệp tối đa được cấu hình trong tệp php.ini.",
@@ -257,17 +258,6 @@
                     "hide_fail": "Không thể đặt tệp \"{fileName}\" ở chế độ riêng tư",
                     "show_fail": "Không thể đặt tệp \"{fileName}\" ở chế độ công khai",
                     "loading": "Đang đặt tập tin ở chế độ riêng tư..."
-                }
-            }
-        }
-    },
-    "blomstra-gdpr": {
-        "lib": {
-            "data": {
-                "uploads": {
-                    "export_description": "Tất cả các tệp được tải lên bởi người dùng.",
-                    "anonymize_description": "Loại bỏ tham chiếu người dùng từ các tệp đã tải lên. Các tệp vẫn có thể được truy cập bởi những người dùng đã có thể xem chúng trước khi ẩn danh.",
-                    "delete_description": "Xóa tất cả các tệp đã được người dùng tải lên."
                 }
             }
         }

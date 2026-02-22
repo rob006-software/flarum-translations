@@ -56,10 +56,7 @@
             },
             "choose_tags": {
                 "edit_title": "Edite as Tags de {title}",
-                "title": "Escolha Tags para Sua Discussão",
-                "choose_primary_placeholder": "Escolha uma tag primária|Escolha {count} tags primárias",
-                "choose_secondary_placeholder": "Escolha mais 1 tag|Escolha mais {count} tags",
-                "submit_button": "=> core.ref.okay"
+                "title": "Escolha Tags para Sua Discussão"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
@@ -87,6 +84,14 @@
         },
         "lib": {
             "deleted_tag_text": "Apagada",
+            "gambits": {
+                "discussions": {
+                    "tag": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
             "tag_selection_modal": {
                 "bypass_requirements": "Ultrapassar Tag necessária",
                 "choose_primary_placeholder": "{count, plural, one {Escolhe a Tag primária} other {Escolhe # Tags primarias}}",
@@ -101,17 +106,6 @@
             "choose_tags_placeholder": "{count, plural, one {Escolhe mais 1 tag} other {Escolhe mais # tags}}",
             "name": "Nome",
             "tags": "Tags"
-        },
-        "validation": {
-            "attributes": {
-                "name": "nome",
-                "slug": "slug",
-                "is_hidden": "oculta",
-                "description": "descrição",
-                "color": "cor",
-                "tag_count_primary": "=> validation.attributes.tag_count_primary",
-                "tag_count_secondary": "=> validation.attributes.tag_count_secondary"
-            }
         }
     }
 }

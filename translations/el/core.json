@@ -1,7 +1,92 @@
 {
     "core": {
         "admin": {
+            "advanced": {
+                "description": "",
+                "maintenance": {
+                    "bisect": {
+                        "begin_button_text": "",
+                        "continue_button_text": "",
+                        "label": "",
+                        "help": ""
+                    },
+                    "bisect_modal": {
+                        "description": "",
+                        "end_button": "",
+                        "issue_question": "",
+                        "issue_question_help": "",
+                        "no_button": "",
+                        "result_description": "",
+                        "start_button": "",
+                        "stop_button": "",
+                        "steps_left": "",
+                        "total_steps": "",
+                        "title": "",
+                        "yes_button": ""
+                    },
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "help": "",
+                    "options": {
+                        "none": "",
+                        "high": "",
+                        "low": "",
+                        "safe": ""
+                    },
+                    "safe_mode_extensions": "",
+                    "safe_mode_extensions_override_help": "",
+                    "section_label": ""
+                },
+                "fontawesome": {
+                    "section_label": "",
+                    "source_label": "",
+                    "source_help": "",
+                    "source_local": "",
+                    "source_cdn": "",
+                    "source_kit": "",
+                    "cdn_url_label": "",
+                    "cdn_url_help": "",
+                    "kit_url_label": "",
+                    "kit_url_help": "",
+                    "config_override": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
+                "pgsql": {
+                    "search_configuration": ""
+                },
+                "queue": {
+                    "section_label": "",
+                    "sync_info": "",
+                    "sync_help": "",
+                    "custom_driver": "",
+                    "retries_label": "",
+                    "retries_help": "",
+                    "memory_label": "",
+                    "memory_help": "",
+                    "timeout_label": "",
+                    "timeout_help": "",
+                    "rest_label": "",
+                    "rest_help": "",
+                    "backoff_label": "",
+                    "backoff_help": ""
+                },
+                "search": {
+                    "section_label": "",
+                    "driver_heading": "",
+                    "driver_text": "",
+                    "driver_options": {
+                        "default": ""
+                    },
+                    "no_other_drivers": ""
+                },
+                "title": ""
+            },
             "appearance": {
+                "allow_user_color_scheme_label": "",
                 "colored_header_label": "Χρωματιστή κεφαλίδα",
                 "colors_heading": "Χρώματα",
                 "colors_primary_label": "Κύριο χρώμα",
@@ -14,7 +99,6 @@
                 "custom_styles_cannot_use_less_features": "",
                 "custom_styles_heading": "Προσαρμοσμένα Styles",
                 "custom_styles_text": "Προσάρμοσε την εμφάνιση του forum σου, χρησιμοποιώντας τον δικό σου LESS/CSS κώδικα που θα αντικαταστήσει τον προκαθορισμένο.",
-                "dark_mode_label": "Σκοτεινή λειτουργία",
                 "description": "Προσάρμοσε τα χρώματα, λογότυπα, και άλλες μεταβλητές του forum σου.",
                 "edit_css_button": "Επεξεργασία προσαρμοσμένου CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -24,12 +108,23 @@
                 "favicon_text": "Ανέβασε μια εικόνα που θα χρησημοποιηθεί σαν εικονίδιο του forum.",
                 "logo_heading": "Λογότυπο",
                 "logo_text": "Ανέβασε μια εικόνα που θα εμφανίζεται στην θέση του τίτλου.",
-                "title": "Εμφάνιση"
+                "title": "Εμφάνιση",
+                "color_scheme_label": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                }
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Προεπιλεγμένη γλώσσα",
                 "description": "Ορίστε τον τίτλο του forum, τη γλώσσα και άλλες βασικές ρυθμίσεις.",
+                "display_name_driver_options": {
+                    "username": ""
+                },
                 "display_name_heading": "Εμφάνιση ονόματος του χρήστη",
                 "display_name_text": "Επίλεξε το πρόγραμμα οδήγησης που θα χρησιμοποηθεί για την εμφάνιση των ονομάτων των χρηστών του forum. Προεπιλογή είναι η εμφάνιση του Username.",
                 "forum_description_heading": "Περιγραφή forum",
@@ -38,6 +133,16 @@
                 "home_page_heading": "Αρχική σελίδα",
                 "home_page_text": "Επίλεξε την σελίδα που θα βλέπουν οι χρήστες όταν επισκεφτούν το forum σου.",
                 "show_language_selector_label": "Εμφάνιση του επιλογέα της γλώσσας",
+                "slug_driver_options": {
+                    "discussions": {
+                        "default": "",
+                        "utf8": ""
+                    },
+                    "users": {
+                        "default": "",
+                        "id": ""
+                    }
+                },
                 "slug_driver_heading": "Πρόγραμμα οδήγησης Slug: {model}",
                 "slug_driver_text": "Επίλεξε ένα πρόγραμμα οδήγησης για τα Slugs αυτού του Model.",
                 "title": "Βασικές ρυθμίσεις",
@@ -78,6 +183,7 @@
                     }
                 },
                 "title": "Πίνακας ελέγχου",
+                "toggle_advanced_page_button": "",
                 "tools_button": "Εργαλεία"
             },
             "debug-warning": {
@@ -117,8 +223,18 @@
                 "description": "Διαμόρφωση του προγράμματος οδήγησης, ρυθμίσεις και διευθύνσεις που θα χρησιμοποιηθούν από το forum για την αποστολή e-mail.",
                 "driver_heading": "Επιλογή προγράμματος οδήγησης",
                 "driver_label": "Πρόγραμμα οδήγησης",
+                "format": {
+                    "multipart_option": "",
+                    "plain_option": "",
+                    "html_option": ""
+                },
+                "format_heading": "",
+                "format_help": "",
                 "from_label": "Αποστολέας",
                 "mail_encryption_label": "Κρυπτογράφηση",
+                "mail_encryption_tls_help": "",
+                "mail_encryption_ssl_help": "",
+                "mail_encryption_none_help": "",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domain",
                 "mail_mailgun_region_label": "Περιοχή",
@@ -133,6 +249,7 @@
                 "send_test_mail_success": "Η αποστολή δοκιμαστικού e-mail ήταν επιτυχής!",
                 "send_test_mail_text": "Αυτό θα στείλει ένα e-mail με τη χρήση της παραπάνω ρύθμισης στο email σας, {email}.",
                 "smtp_heading": "Ρυθμίσεις SMTP",
+                "smtp_description": "",
                 "title": "=> core.ref.email"
             },
             "extension": {
@@ -140,6 +257,7 @@
                 "abandoned_with_replacement": "",
                 "configure_scopes": "Ρύθμιση των πεδίων εφαρμογής",
                 "confirm_purge": "Η εκκαθάριση θα αφαιρέσει όλες τις καταχωρήσεις στη βάση δεδομένων και τα στοιχεία που σχετίζονται με την επέκταση. ΔΕΝ θα απεγκαταστήσει την επέκταση, αυτό πρέπει να γίνει μέσω του Composer. Είστε σίγουροι ότι θέλετε να συνεχίσετε;",
+                "database_driver_mismatch": "",
                 "deprecated": "",
                 "disabled": "Απενεργοποιημένο",
                 "enable_to_see": "Ενεργοποίησε αυτό το πρόσθετο για να μπορείς να δείς και να αλλάξεις τις ρυθμίσιες του.",
@@ -162,16 +280,26 @@
                     "no_readme": "Αυτή η επέκταση δεν φαίνεται να έχει αρχείο README",
                     "title": "{extName} documentation"
                 },
-                "replaced": ""
+                "replaced": "",
+                "safe_mode_warning": ""
             },
             "header": {
                 "get_help": "Ζήτησε βοήθεια",
-                "log_out_button": "=> core.ref.log_out"
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "",
+                "search_role_label": ""
             },
             "loading": {
                 "title": "Φορτώνει..."
             },
+            "models": {
+                "discussions": "",
+                "posts": "",
+                "users": ""
+            },
             "nav": {
+                "advanced_button": "",
+                "advanced_title": "",
                 "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
                 "basics_button": "=> core.admin.basics.title",
@@ -220,6 +348,7 @@
                 "post_without_throttle_label": "Απάντηση πολλές φορές χωρίς αναμονή",
                 "read_heading": "Ανάγνωση",
                 "remove_scope_label": "",
+                "remove_scope_confirmation": "",
                 "rename_discussions_label": "Μετονομασία συζητήσεων",
                 "reply_to_discussions_label": "Απάντηση σε μια συζήτηση",
                 "search_users_label": "Αναζήτηση χρηστών",
@@ -242,8 +371,14 @@
                 "signup_closed_button": "Κλειστό",
                 "signup_open_button": "Ανοιχτό"
             },
+            "search_source": {
+                "general": {
+                    "heading": ""
+                }
+            },
             "settings": {
                 "saved_message": "Οι αλλαγές αποθηκεύτηκαν.",
+                "select_dropdown_custom_label": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -258,11 +393,6 @@
                         "display_name": {
                             "title": ""
                         },
-                        "edit_user": {
-                            "button": "=> core.ref.edit",
-                            "tooltip": "Επεξεργασία {username}",
-                            "title": "=> core.ref.edit_user"
-                        },
                         "email": {
                             "title": "=> core.ref.email",
                             "visibility_hide": "Απόκρυψη διεύθυνσης email",
@@ -276,7 +406,11 @@
                             "title": ""
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "",
+                            "edit_user": {
+                                "button": "",
+                                "tooltip": ""
+                            }
                         },
                         "user_id": {
                             "title": "ID"
@@ -287,14 +421,6 @@
                         }
                     },
                     "invalid_column_content": "Μη έγκυρο"
-                },
-                "pagination": {
-                    "back_button": "Προηγούμενη σελίδα",
-                    "first_button": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "last_button": "",
-                    "next_button": "Επόμενη σελίδα",
-                    "page_counter": "Σελιδα {current} από {total}"
                 },
                 "search_placeholder": "",
                 "title": "=> core.ref.users",
@@ -359,6 +485,7 @@
                 "empty_text": "Απ'ότι φαίνεται, δεν υπάρχουν συζητήσεις εδώ.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} απάντησε {ago}",
+                "skip_discussion_list_pane": "",
                 "started_text": "{username} ξεκίνησε {ago}",
                 "total_replies_a11y_label": "",
                 "unread_replies_a11y_label": ""
@@ -379,7 +506,6 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Προφίλ",
-                "search_clear_button_accessible_label": "Εκκαθάριση ερωτήματος αναζήτησης",
                 "search_placeholder": "Αναζήτηση στο Forum",
                 "search_role_label": "Αναζήτηση στο forum",
                 "session_dropdown_accessible_label": "Εναλλαγή πτυσσόμενου μενού επιλογών session",
@@ -392,30 +518,31 @@
                 "mark_all_as_read_confirmation": "Είστε βέβαιοι ότι θέλετε να επισημάνετε όλες τις συζητήσεις ως αναγνωσμένες;",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Ανανέωση",
+                "refresh_tooltip": "",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
+                "skip_to_main_content": "",
                 "toggle_sidenav_dropdown_accessible_label": "Εναλλαγή πτυσσόμενου μενού πλοήγησης"
             },
             "index_sort": {
                 "latest_button": "Τα πιο πρόσφατα",
-                "newest_button": "Τα νεότερα",
-                "oldest_button": "Τα παλιότερα",
-                "relevance_button": "Τα πιο σχετικά",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Αλλαγή ταξινόμησης λίστας συζητήσεων",
                 "top_button": "Τα πιο δημοφιλή"
             },
             "log_in": {
                 "forgot_password_link": "Ξεχάσατε τον κωδικό σας;",
-                "invalid_login_message": "Τα στοιχεία εισόδου δεν είναι σωστά.",
+                "invalid_login_message": "",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "Να με θυμάσαι",
+                "remember_me_label": "",
                 "sign_up_text": "Δεν έχετε λογαριασμό; <a>Εγγραφή</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": "Όνομα χρήστη ή e-mail"
+                "username_or_email_placeholder": ""
             },
             "notifications": {
-                "delete_all_confirm": "Είστε σίγουροι ότι θέλετε να διαγράψετε όλες τις ειδοποιήσεις; Αυτή η ενέργεια δεν μπορεί να αντιστραφεί",
+                "delete_all_confirm": "",
                 "delete_all_tooltip": "Διαγραφή όλων των ειδοποιήσεων",
                 "discussion_renamed_text": "{username} άλλαξε αυτόν τον τίτλο",
                 "empty_text": "Καμία ειδοποίηση",
@@ -439,6 +566,11 @@
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Εναλλαγή του πτυσσόμενου μενού ελέγχου δημοσιεύσεων"
             },
+            "post_list": {
+                "empty_text": "",
+                "in_discussion_text": "",
+                "load_more_button": ""
+            },
             "post_scrubber": {
                 "now_link": "Τώρα",
                 "original_post_link": "Αρχική δημοσίευση",
@@ -452,14 +584,18 @@
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} αργότερα"
             },
+            "posts_sort": {
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": ""
+            },
+            "posts": {
+                "meta_title_text": "",
+                "refresh_tooltip": ""
+            },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
                 "title": "Μετονομασία συζήτησης"
-            },
-            "search": {
-                "all_discussions_button": "Αναζήτηση όλων τον συζητήσεων για \"{query}\"",
-                "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "=> core.ref.users"
             },
             "security": {
                 "browser_on_operating_system": "",
@@ -500,6 +636,14 @@
                 "account_heading": "Λογαριασμός",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
+                "color_scheme_heading": "",
+                "color_schemes": {
+                    "auto_mode_label": "",
+                    "dark_hc_mode_label": "",
+                    "dark_mode_label": "",
+                    "light_hc_mode_label": "",
+                    "light_mode_label": ""
+                },
                 "notification_checkbox_a11y_label_template": "",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
@@ -581,8 +725,10 @@
             },
             "error": {
                 "circular_dependencies_message": "",
+                "db_error_message": "",
                 "dependent_extensions_message": "Δεν είναι δυνατή η απενεργοποίηση του πρόσθετου {extension} έως ότου απενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}",
                 "extension_initialiation_failed_message": "",
+                "extension_runtime_failed_message": "",
                 "generic_message": "Ωχ! Κάτι πήγε στραβά. Ανανεώστε τη σελίδα και δοκιμάστε ξανά.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Δεν είναι δυνατή η ενεργοποίηση του πρόσθετου {extension} έως ότου ενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}",
@@ -591,6 +737,48 @@
                 "permission_denied_message": "Δυστυχώς δεν έχετε τα απαραίτητα δικαώματα για να το κάνετε αυτό.",
                 "rate_limit_exceeded_message": "Δοκιμάσατε αρκετές φορές. Για λόγους ασφαλείας, ξαναδοκιμάστε σε λίγα λεπτά.",
                 "render_failed_message": ""
+            },
+            "gambits": {
+                "group_keys": {
+                    "allows": "",
+                    "has": "",
+                    "is": ""
+                },
+                "discussions": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "created": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "hidden": {
+                        "key": ""
+                    },
+                    "unread": {
+                        "key": ""
+                    }
+                },
+                "posts": {
+                    "discussion": {
+                        "key": "",
+                        "hint": ""
+                    }
+                },
+                "users": {
+                    "email": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "group": {
+                        "key": "",
+                        "hint": ""
+                    }
+                }
+            },
+            "input": {
+                "clear_button": ""
             },
             "loading_indicator": {
                 "accessible_label": ""
@@ -602,25 +790,75 @@
             "modal": {
                 "close": ""
             },
+            "multi_select": {
+                "placeholder": ""
+            },
             "nav": {
                 "drawer_button": ""
+            },
+            "notices": {
+                "bisecting": "",
+                "bisecting_continue": "",
+                "maintenance_mode_low": "",
+                "maintenance_mode_safe": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
-            "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+            "pagination": {
+                "back_button": "",
+                "first_button": "",
+                "go_to_page_textbox_a11y_label": "",
+                "last_button": "",
+                "next_button": "",
+                "page_counter": ""
+            },
+            "search": {
+                "gambit_plus_button_a11y_label": "",
+                "gambit_minus_button_a11y_label": "",
+                "title": "",
+                "no_results_text": "",
+                "no_search_text": "",
+                "options_heading": "",
+                "placeholder": "",
+                "preview_heading": "",
+                "search_clear_button_accessible_label": ""
+            },
+            "search_source": {
+                "discussions": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "posts": {
+                    "all_button": "",
+                    "heading": ""
+                },
+                "users": {
+                    "heading": ""
+                }
             },
             "series": {
                 "glue_text": ", ",
                 "three_text": "{first}, {second}, και {third}",
                 "two_text": "{first} και {second}"
             },
+            "user_selection_modal": {
+                "empty_results": "",
+                "max_items_to_select": "",
+                "search_placeholder": "",
+                "submit_button": "",
+                "title": ""
+            },
             "username": {
                 "deleted_text": "[deleted]"
+            },
+            "datetime_formats": {
+                "fullTime": "",
+                "humanTimeShort": "",
+                "humanTimeLong": "",
+                "scrubber": "",
+                "userListJoinDate": ""
             }
         },
         "views": {
@@ -657,6 +895,9 @@
                 "csrf_token_mismatch": "Είσασταν ανενεργός για πολύ ώρα.",
                 "csrf_token_mismatch_return_link": "Πηγαίντε πίσω, για να ξαναδοκιμάσετε",
                 "invalid_confirmation_token": "Αυτός ο σύνδεσμος επιβεβαίωσης χρησιμοποίηθηκε ήδη ή είναι λάθος.",
+                "maintenance_mode_link": "",
+                "maintenance_mode_message": "",
+                "maintenance_mode_title": "",
                 "not_authenticated": "Δεν έχετε πρόσβαση σε αυτή την σελίδα. Παρακαλώ συνδεθείτε και ξαναδοκιμάστε.",
                 "not_found": "Δεν ήταν δυνατή η εύρεση της σελίδας που ζητήσατε.",
                 "not_found_return_link": "Επιστροφή στο {forum}",
@@ -668,20 +909,40 @@
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
+            "layout": {
+                "skip_to_content": ""
+            },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "Είστε βέβαιοι ότι θέλετε να αποσυνδεθείτε από το {forum};",
                 "title": "=> core.ref.log_out"
+            },
+            "log_in": {
+                "invalid_login_message": "",
+                "username_or_email_placeholder": "",
+                "password_placeholder": "",
+                "remember_me_label": "",
+                "submit_button": "",
+                "title": ""
             },
             "reset_password": {
                 "confirm_password_label": "Επιβεβαίωση του κωδικού πρόσβασης",
                 "new_password_label": "Νέος κωδικός πρόσβασης",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "unsubscribe_email": {
+                "title": "",
+                "return_to_forum": "",
+                "confirm_button": "",
+                "immediate_helptext": "",
+                "confirm_message": "",
+                "success_message": "",
+                "invalid_message": ""
             }
         },
         "api": {
-            "invalid_username_message": "Το όνομα χρήστη πρέπει περιέχει μόνο γράμματα, αριθμούς και παύλες.",
+            "invalid_username_message": "",
             "invalid_filter_type": {
                 "must_be_numeric_message": "",
                 "must_not_be_array_message": "",
@@ -689,21 +950,39 @@
             }
         },
         "email": {
+            "greeting": "",
+            "signoff": "",
+            "informational": {
+                "default_title": "",
+                "footer": "",
+                "footer_plain": ""
+            },
+            "notification": {
+                "default_title": "",
+                "footer": {
+                    "main_text": "",
+                    "main_text_plain": "",
+                    "unsubscribe_text": "",
+                    "unsubscribe_text_plain": "",
+                    "settings_text": "",
+                    "settings_text_plain": ""
+                }
+            },
             "activate_account": {
                 "subject": "Ενεργοποίηση του νέου σας λογαριασμού",
-                "body": "Γειά σας {username}!\nΚάποιος (ελπίζουμε εσείς!) έχει εγγραφεί στο {forum} με αυτό το e-mail.\nΕάν ήσασταν εσείς, απλώς κάντε κλικ στον παρακάτω σύνδεσμο και ο λογαριασμός σας θα ενεργοποιηθεί:\n{url}\nΕάν δεν ήσασταν εσείς, αγνοήστε αυτό το email.\n"
+                "body": ""
             },
             "confirm_email": {
                 "subject": "Επιβεβαίωση της νέας σας διεύθυνση e-mail",
-                "body": "Γειά σας {username}!\nΚάποιος (ελπίζουμε εσείς!) έχει ζητήσει την αλλαγή της διεύθυνσης e-mail στο {forum} με αυτήν.\nΕάν ήσασταν εσείς, απλώς κάντε κλικ στον παρακάτω σύνδεσμο και ο αλλαγή θα επιβεβαιωθεί:\n{url}\nΕάν δεν ήσασταν εσείς, αγνοήστε αυτό το email.\n"
+                "body": ""
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Γειά σας {username}!\nΚάποιος (ελπίζουμε εσείς!) ζήτησε την ανάκτηση του κωδικού πρόσβασης στο {forum}.\nΕάν ήσασταν εσείς, απλώς κάντε κλικ στον παρακάτω σύνδεσμο για να επαναφέρετε τον κωδικό πρόσβασής σας:\n{url}\nΈαν δεν επιθυμείτε την επαναφορά του κωδικού πρόσβασης σας, αγνοήστε αυτό το e-mail και τίποτα δεν θα αλλάξει.\n"
+                "body": ""
             },
             "send_test": {
                 "subject": "Flarum Email Test",
-                "body": "Γειά σας {username}!\nΑυτό είναι ένα δοκιμαστικό email που επιβεβαιώνει ότι η ρυθμίσεις e-mail του Flarum λειτουργούν σωστά.\nΕάν ήσασταν εσείς, η λήψη αυτού του e-mail δείχνει ότι όλα λειτουργούν.\nΕάν δεν ήσασταν εσείς, αγνοήστε αυτό το email.\n"
+                "body": ""
             }
         },
         "ref": {
@@ -718,6 +997,8 @@
             "custom_footer_title": "Επεξεργασία προσαρμοσμένου υποσελίδου (Footer)",
             "custom_header_text": "Πρόσθεση HTML κώδικα που θα εμφανιστεί στο πάνω μέρος της σελίδας, πάνω απο το Header του Flarum.",
             "custom_header_title": "Επεξεργασία προσαρμοσμένης κεφαλίδας (Header)",
+            "dark_hc_mode_label": "",
+            "dark_mode_label": "",
             "delete": "Διαγραφή",
             "delete_forever": "Οριστική διαγραφή",
             "discussions": "Συζητήσεις",
@@ -728,6 +1009,9 @@
             "generic_confirmation_message": "",
             "icon": "Εικονίδιο",
             "icon_text": "Εισάγετε το όνομα οποιασδήποτε κλάσης εικονιδίου <a>FontAwesome</a>, <em>εισάγοντας</em> επίσης <code>fas fa-</code> μπροστά. Π.χ. <code>fas fa-envelope</code>",
+            "invalid_login_message": "",
+            "light_hc_mode_label": "",
+            "light_mode_label": "",
             "load_more": "Φώρτωσε περισσότερα",
             "loading": "",
             "log_in": "Σύνδεση",
@@ -735,15 +1019,20 @@
             "mark_all_as_read": "Επισήμανση όλων ως αναγνωσμένα",
             "never": "",
             "new_token": "",
+            "newest": "",
             "next_page": "Επόμενη σελίδα",
             "notifications": "Ειδοποιήσεις",
             "okay": "Εντάξει",
+            "oldest": "",
             "password": "Κωδικός",
             "posts": "Δημοσιεύσεις",
             "previous_page": "Προηγούμενη σελίδα",
+            "relevance": "",
+            "remember_me_label": "",
             "remove": "Αφαίρεση",
             "rename": "Μετονομασία",
             "reply": "Απάντηση",
+            "refresh": "",
             "reset_your_password": "Επαναφορά κωδικού πρόσβασης",
             "restore": "Επαναφορά",
             "save_changes": "Αποθήκευση αλλαγών",
@@ -754,6 +1043,7 @@
             "some_others": "{count} άλλος|{count} άλλοι",
             "start_a_discussion": "Νέα συζήτηση",
             "username": "Username",
+            "username_or_email_placeholder": "",
             "users": "Χρήστες",
             "view": "Προβολή",
             "write_a_reply": "Γράψτε μία απάντηση...",

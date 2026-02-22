@@ -30,9 +30,10 @@
                 "disable-download-logging": "Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.\n",
                 "disable-hotlink-protection": "Hotlink protection prevents opening downloads from other sites. Current method requires a csrf token and post id.\n",
                 "download_templates": "Download templates are how uploads are shown on your forum, eg like previews, buttons. Currently available:\n",
-                "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\n",
+                "mime_types": "",
                 "resize": "Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.\n",
                 "client_extension": "By default Upload will choose a safe file extension based on the MIME type.\nFor some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.\nHere you can enter a comma-separated list of file extensions that will be kept verbatim.\n",
+                "thumbnails": "",
                 "watermark": "Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.\n",
                 "s3_compatible_storage": "The following settings are only required when using S3 compatible storage. If you use AWS, you can leave them blank.\n",
                 "s3_acl": "The ACL that should be applied to the uploaded object (default: private). For possible values, see https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
@@ -80,6 +81,9 @@
                 "preferences": {
                     "max_file_size": "Maximum file size (in kilobytes)",
                     "mime_types": "Configure your mime type, upload adapter mapping",
+                    "mime_type_regex_placeholder": "",
+                    "mime_type_regex_invalid": "",
+                    "mime_type_permission_placeholder": "",
                     "title": "General preferences",
                     "php_ini_values": ""
                 },
@@ -91,9 +95,18 @@
                 "client_extension": {
                     "title": "User-provided file extensions"
                 },
+                "thumbnails": {
+                    "title": "",
+                    "toggle": "",
+                    "webp_toggle": "",
+                    "max_width": ""
+                },
                 "watermark": {
                     "file": "Upload your watermark image",
+                    "opacity": "",
+                    "padding": "",
                     "position": "Watermark position",
+                    "size_percent": "",
                     "title": "Watermark images",
                     "toggle": "Watermark images"
                 },
@@ -113,9 +126,13 @@
                 },
                 "inspect-mime": ""
             },
+            "warnings": {
+                "fileinfo_missing": ""
+            },
             "permissions": {
                 "download_label": "Download files",
-                "upload_label": "Upload files",
+                "upload_label": "",
+                "upload_mime_label": "",
                 "view_user_uploads_label": "View user uploads",
                 "delete_uploads_of_others_label": "Delete user uploads",
                 "upload_shared_label": "",
@@ -139,7 +156,6 @@
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
-                "awss3": "",
                 "imgur": "Imgur",
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",
@@ -181,31 +197,16 @@
             "text_preview": {
                 "expand": "",
                 "collapse": "",
+                "download": "",
                 "error": "",
                 "no_snippet_preview": "",
                 "no_snippet": ""
-            },
-            "file_list": {
-                "loading": "Φόρτωση αρχείων...",
-                "empty": "Δεν υπάρχουν αρχεία",
-                "release_to_upload": "Μετακινήστε το αρχείο εδώ για μεταφόρτωση",
-                "modal_empty_desktop": "Η λίστα των αρχείων σας είναι κενή. Κάντε κλικ στο κουμπί ή σύρετε ένα αρχείο εδώ για μεταφόρτωση.",
-                "modal_empty_phone": "Η λίστα αρχείων σας είναι κενή. Πατήστε το παραπάνω κουμπί για να ανεβάσετε ένα αρχείο.",
-                "select_file_a11y_label": "Επιλογή αρχείου \"{fileName}\"",
-                "confirm_selection_btn": "Επιλέξτε το αρχείο|Επιλέξτε τα αρχεία",
-                "load_more_files_btn": "Φόρτωση περισσοτέρων αρχείων",
-                "hide_file": {
-                    "btn_a11y_label": "Απόκρυψη \"{fileName}\" από την διαχείριση πολυμέσων",
-                    "hide_confirmation": "Είστε σίγουρος ότι θέλετε να αποκρύψετε το αρχείο \"{fileName}\"? Η απόκρυψη ενός αρχείου θα το καταργήσει μόνο από την διαχείριση πολυμέσων και δεν θα επηρεάσει τις υπάρχουσες αναρτήσεις.",
-                    "hide_success": "Η απόκρυψη του αρχείου ήταν επιτυχής",
-                    "hide_fail": "Η απόκρυψη του αρχείου \"{fileName}\" δεν ήταν δυνατή",
-                    "loading": "Απόκρυψη αρχείου..."
-                }
             }
         },
         "api": {
             "upload_errors": {
                 "forbidden_type": "Uploading files of this type is not allowed.",
+                "mime_permission_denied": "",
                 "unsupported_type": "Upload adapter does not support the provided mime type: {mime}.",
                 "could_not_detect_mime": "Could not detect the MIME type of this file, please try again.",
                 "max_upload_file_size_ini": "",

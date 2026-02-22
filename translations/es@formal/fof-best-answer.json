@@ -11,7 +11,6 @@
                     "tags": "",
                     "general": "General",
                     "reminders": "Recordatorios",
-                    "search": "",
                     "advanced": "Avanzado",
                     "reminders_notice": "Para que los recordatorios funcionen, el planificador de Flarum debe estar configurado correctamente."
                 },
@@ -36,19 +35,8 @@
                 "remind_tags_label": "",
                 "remind_tags_help": "",
                 "tags_info": "",
-                "solution_search": "",
-                "solution_search_help": "",
-                "remove_solutions_from_main_search": "",
-                "remove_solutions_from_main_search_help": "",
-                "display_tags": "",
-                "display_tags_help": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
-                "allow_select_own_post": "Seleccionar mensaje propio",
-                "allow_select_own_post_help": "Permitir al usuario seleccionar uno de sus propios mensajes como la mejor respuesta",
-                "enable_all_tags_button": "Activar mejor respuesta para todas las etiquetas",
-                "enable_all_tags_reminder_button": "Activar recordatorios en todas las etiquetas",
-                "introduction": "Puedes activar cuáles etiquetas permiten Mejor Respuesta en <code><a>flarum/tags</a></code> y así también las que aceptan recordatorios opcionales cuando se encuentren sin resolver. Cuando una etiqueta admite Mejor Respuesta, se deben asignar permisos a cada grupo de usuarios quienes podrán establecer una respuesta (tanto para discusiones propias o cualquier otra discusión). \n\nPuedes asignar los permisos de manera global (para cualquier etiqueta que admita Mejor Respuesta), o de manera individual.\n"
+                "discussion_sidebar_jump_button_help": ""
             },
             "edit_tag": {
                 "qna_label": "Permitir escoger la mejor respuesta en esta etiqueta",
@@ -92,10 +80,6 @@
             "user": {
                 "best-answer-count": ""
             },
-            "search": {
-                "discussions_solutions_heading": "",
-                "all_discussions_solutions_button": ""
-            },
             "discussion": {
                 "jump_to_best_answer_button": ""
             }
@@ -110,6 +94,13 @@
                 "awarded": "Hola {recipient_display_name},\n\nHiciste un gran trabajo. {actor_display_name} asignó tu mensaje como la mejor respuesta en la discusión: {discussion_title}. Gracias por tu ayuda.\n\nRevísalo aquí: {discussion_url}\n",
                 "ba-set": "Hola {recipient_display_name},\n\n{actor_display_name} asignó la mejor respuesta en la discusión: {discussion_title}, donde tú participaste.\n\nRevísalo aquí: {discussion_url}\n",
                 "select": "Hola {recipient_display_name},\n\nQueremos decirte que ha pasado un buen tiempo y han llegado diversas respuestas a tu pregunta en {discussion_title}. Es probable de que alguna de ellas resuelva tu consulta.\n\nSi es así, sería de mucha ayuda para futuros miembros si escoges la mejor respuesta a tu pregunta. Ayudará a las personas con el mismo problema a encontrar la respuesta que necesita, además de ser gratificante para los miembros quienes voluntariamente tomaron su tiempo para ayudarte, así que, es bueno hacerles saber que están haciendo lo correcto.\n\nVisita la discusión aquí: {discussion_url} y escoge la respuesta que consideres más apropiada.\n\n¡Gracias!\n"
+            }
+        },
+        "lib": {
+            "gambits": {
+                "solved-discussions": {
+                    "key": ""
+                }
             }
         }
     },

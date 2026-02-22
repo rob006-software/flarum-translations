@@ -5,16 +5,25 @@
                 "front_button": "ÖnSayfa"
             },
             "badge": {
-                "frontpage_tooltip": "ÖnSayfa olarak işaretle"
+                "frontpage_tooltip": ""
             },
             "post_controls": {
-                "push_to_front_button": "ÖnSayfa'ya ekle",
-                "pull_from_front_button": "ÖnSayfa'dan kaldır"
+                "push_to_front_button": "",
+                "pull_from_front_button": ""
             }
-        },
+        }
+    },
+    "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": "ÖnSayfa'ya ekleyebilir"
+                "can_push_to_frontpage_label": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "frontpage": {
+                    "key": ""
+                }
             }
         }
     }

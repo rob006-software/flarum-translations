@@ -17,15 +17,15 @@
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "use_rel_me": "Атрибут <code>rel=\"me\"</code> позволяет подтвердить личность на других сайтах",
-                "visibility": "Видимость ссылки",
-                "visibility.help": "По умолчанию ссылки видны только <code>{admin}</code> пользователям. Настройте разрешения, указав, кто может видеть эту ссылку.",
-                "visibility.help-disabled": "Сохранить ссылку до изменения настроек видимости.",
-                "visibility.label": "Видимость ссылки",
-                "visibility.guest-only.label": "Только {guest} ?",
-                "visibility.guest-only.help": "Эту ссылку может видеть только {guest}. Разрешение выше должно быть установлено в '{everyone}'.",
-                "everyone-label": "Все",
-                "guests-label": "Гости",
-                "members-label": "Пользователи"
+                "visibility": {
+                    "help": "По умолчанию ссылки видны только <code>{admin}</code> пользователям. Настройте разрешения, указав, кто может видеть эту ссылку.",
+                    "help-disabled": "Сохранить ссылку до изменения настроек видимости.",
+                    "label": "Видимость ссылки",
+                    "guest-only": {
+                        "label": "Только {guest} ?",
+                        "help": "Эту ссылку может видеть только {guest}. Разрешение выше должно быть установлено в '{everyone}'."
+                    }
+                }
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
