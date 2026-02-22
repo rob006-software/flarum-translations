@@ -1468,7 +1468,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-primary-posts/v1.0.3/locale/en.yml',
 	],
 	'zhihe-subscriptions' => [
-		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-subscriptions/v2.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-subscriptions/v2.0.3/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
