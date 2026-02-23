@@ -57,12 +57,12 @@
             "dashboard": {
                 "clear_cache_button": "Очистить кэш",
                 "description": "Панель управления форумом.",
-                "info_button": "",
+                "info_button": "Сведения о системе",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Сведения о системе",
+                    "copy_button": "Копировать",
+                    "copy_success": "Скопировано в буфер обмена",
+                    "copy_error": "Не удалось скопировать"
                 },
                 "io_error_message": "Не удалось записать в файловую систему. Проверьте права доступа к файловой системе и попробуйте ещё раз. Или попробуйте запустить из командной строки.",
                 "status": {
@@ -136,11 +136,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Это расширение больше не поддерживается автором — обновления не гарантируются.",
+                "abandoned_with_replacement": "Это расширение заменено на {replacement}. Рекомендуем перейти на новую версию.",
                 "configure_scopes": "Настройка областей",
                 "confirm_purge": "Это действие удалит записи в базе данных и ресурсы, связанные с расширением; расширение полностью не удаляется. Полное удаление расширения должно быть выполнено при помощи Composer. Вы уверены, что хотите продолжить?",
-                "deprecated": "",
+                "deprecated": "Устарело",
                 "disabled": "Отключено",
                 "enable_to_see": "Включите расширение для отображения и изменения его настроек.",
                 "enabled": "Включено",
@@ -162,7 +162,7 @@
                     "no_readme": "Расширение не имеет файл README",
                     "title": "Документация {extName}"
                 },
-                "replaced": "",
+                "replaced": "Заменено",
                 "confirm_uninstall": "При удалении будут удалены все записи базы данных и ресурсы, связанные с расширением. Вы уверены, что хотите продолжить?",
                 "uninstall_button": "Удалить"
             },
@@ -221,7 +221,7 @@
                 "participate_heading": "Участие",
                 "post_without_throttle_label": "Отвечать подряд без ожидания",
                 "read_heading": "Чтение",
-                "remove_scope_label": "",
+                "remove_scope_label": "Удалить разрешение {scope}",
                 "rename_discussions_label": "Изменять название дискуссий",
                 "reply_to_discussions_label": "Отвечать в дискуссии",
                 "search_users_label": "Искать пользователей",
