@@ -27,8 +27,8 @@
             },
             "permission": {
                 "refresh-translation": "Neuübersetzung einer zwischengespeicherten Übersetzung erzwingen",
-                "translate-to-locale": "",
-                "translate-to-all-locales": "",
+                "translate-to-locale": "Übersetzung in aktuellen Forensprache anzeigen",
+                "translate-to-all-locales": "Übersetzung in allen Forensprachen anzeigen",
                 "edit-translation": "Manuelles Bearbeiten einer Übersetzung"
             },
             "settings": {
@@ -38,9 +38,9 @@
                 },
                 "seo": {
                     "heading": "SEO-Einstellungen",
-                    "help": "",
-                    "default-lang": "",
-                    "default-lang-help": ""
+                    "help": "Diese Einstellungen legen das Verhalten der Übersetzungsfunktion in Bezug auf SEO fest.",
+                    "default-lang": "Standardsprache des Forums verwenden",
+                    "default-lang-help": "Wenn aktiviert, wird die Standardsprache des Forums zum Pfad für das hreflang-Tag <code>x-default</code> hinzugefügt."
                 },
                 "providers": {
                     "heading": "Einstellungen des Übersetzungsanbieters",
@@ -89,13 +89,13 @@
                         },
                         "pair": {
                             "label": "{source} nach {target} Glossar",
-                            "help": ""
+                            "help": "Wählen Sie ein Glossar bei der Übersetzung von {source} zu {target} aus, oder wählen Sie „Kein Glossar“, wenn für dieses Sprachpaar kein Glossar benötigt wird."
                         }
                     }
                 },
                 "google-cloud": {
                     "api_key": {
-                        "help": "",
+                        "help": "Registrieren Sie sich unter {link} für einen API-Schlüssel. Dieser Treiber unterstützt die V2 API - Basic.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     }
                 },
