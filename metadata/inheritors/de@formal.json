@@ -9301,12 +9301,18 @@
                     },
                     "openai": {
                         "api_key": {
+                            "help": "ff483b32dc1841d37f4681a915adb61d ff483b32dc1841d37f4681a915adb61d",
                             "label": "fed6770ccb643630806c7bb9c93c8897 fed6770ccb643630806c7bb9c93c8897"
                         },
                         "translation_model": {
                             "label": "ed7a192526c1aafb08a0bd7f4d6c1044 ed7a192526c1aafb08a0bd7f4d6c1044",
                             "options": {
-                                "gpt-4o": "701c63e9b470473a12615caa23d19c1d 701c63e9b470473a12615caa23d19c1d"
+                                "gpt-4o": "701c63e9b470473a12615caa23d19c1d 701c63e9b470473a12615caa23d19c1d",
+                                "gpt-4o-mini": "1cd58eff2705908844b8a93b4ff3d20b 1cd58eff2705908844b8a93b4ff3d20b",
+                                "gpt-3": {
+                                    "5-turbo": "bb576eef7af7b8069b866e408464e1df bb576eef7af7b8069b866e408464e1df",
+                                    "5-turbo-0125": "eee819288eafa51d0af129d7866d023a eee819288eafa51d0af129d7866d023a"
+                                }
                             }
                         },
                         "detection_model": {
@@ -9354,6 +9360,7 @@
                     "translate-all-enabled": "d00d218e87a0329da9fe43d87134ccec d00d218e87a0329da9fe43d87134ccec",
                     "bind-browser-language": "344123387b659cf00b119ce2e90091dd 344123387b659cf00b119ce2e90091dd",
                     "bind-browser-language-help": "4cec4d0761742c50ed5884027d98e1d6 4cec4d0761742c50ed5884027d98e1d6",
+                    "use-native-locale-names": "a7add226f7b4d854b59f38ba8ca37438 a7add226f7b4d854b59f38ba8ca37438",
                     "translate-polls": "7ac4cf2139afc5067ce68f30c9490896 7ac4cf2139afc5067ce68f30c9490896",
                     "translate-polls-help": "18494417c91dbcd4d997404c4a034d07 18494417c91dbcd4d997404c4a034d07",
                     "provider": "4c67426bfb2072a32d13c3080642a6ad 4c67426bfb2072a32d13c3080642a6ad",
@@ -9382,15 +9389,23 @@
                     "translations-label": "f686f320c3802565876af86f523cdfb6 f686f320c3802565876af86f523cdfb6",
                     "button-label": "3b3eea596cd0344cd35ee5ec30be9946 3b3eea596cd0344cd35ee5ec30be9946",
                     "original-language": "cfcfe1938011c14a4651ea6a50c8bc2e cfcfe1938011c14a4651ea6a50c8bc2e",
+                    "discussion": {
+                        "title": "869848522d2779c29e9f8d9a557ec017 869848522d2779c29e9f8d9a557ec017"
+                    },
                     "poll": {
+                        "image-alt": "dec81bcc6da5135ecb6905c0ed2ce917 dec81bcc6da5135ecb6905c0ed2ce917",
+                        "option": "e79f5802897c11c8cba7c0e26744edbb e79f5802897c11c8cba7c0e26744edbb",
                         "subtitle": "b5b672c9d2e6836588978c12d9b534d5 b5b672c9d2e6836588978c12d9b534d5",
-                        "question": "7715636d2deccc6f6edb6ebe342248ec 7715636d2deccc6f6edb6ebe342248ec"
+                        "title": "eea626c353d1d00837ea54ee34a1455d eea626c353d1d00837ea54ee34a1455d",
+                        "question": "7715636d2deccc6f6edb6ebe342248ec 7715636d2deccc6f6edb6ebe342248ec",
+                        "question-language": "9b7a2d79968c7ed11006fec84d270d3d 9b7a2d79968c7ed11006fec84d270d3d"
                     },
                     "poll-group": {
                         "name": "d7d001377af53f0336a8a6eca47aa1a7 d7d001377af53f0336a8a6eca47aa1a7"
                     },
                     "save-changes": "1e382d5477484d2b130acaf315f1fc5d 1e382d5477484d2b130acaf315f1fc5d",
                     "quiz": {
+                        "title": "b1d3a078201c812a945c0577a2cb9a99 b1d3a078201c812a945c0577a2cb9a99",
                         "question": "7715636d2deccc6f6edb6ebe342248ec 7715636d2deccc6f6edb6ebe342248ec",
                         "subtitle": "b5b672c9d2e6836588978c12d9b534d5 b5b672c9d2e6836588978c12d9b534d5",
                         "option": "2436ef0bb637bea796e0fef9d3413ce1 2436ef0bb637bea796e0fef9d3413ce1"

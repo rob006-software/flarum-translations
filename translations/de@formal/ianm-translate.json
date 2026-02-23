@@ -101,7 +101,7 @@
                 },
                 "openai": {
                     "api_key": {
-                        "help": "",
+                        "help": "Registrieren Sie sich unter {link} für einen API-Schlüssel. Dieser Treiber unterstützt die Modelle GPT-4o und GPT-4o-mini.",
                         "label": "=> ianm-translate.lib.settings.api-key"
                     },
                     "translation_model": {
@@ -109,10 +109,10 @@
                         "label": "Übersetzungsmodell",
                         "options": {
                             "gpt-4o": "GPT-4o (Premium)",
-                            "gpt-4o-mini": "",
+                            "gpt-4o-mini": "GPT-4o Mini (Ausgewogen)",
                             "gpt-3": {
-                                "5-turbo": "",
-                                "5-turbo-0125": ""
+                                "5-turbo": "GPT-3.5 Turbo (Budget)",
+                                "5-turbo-0125": "GPT-3.5 Turbo Neuestes (Budget+)"
                             }
                         }
                     },
@@ -164,7 +164,7 @@
                 "translate-all-help": "",
                 "bind-browser-language": "Browsersprache hinzufügen",
                 "bind-browser-language-help": "Wenn aktiviert, werden die Browsersprache(n) des Benutzers zur Liste der für die Übersetzung verfügbaren Sprachen hinzugefügt.",
-                "use-native-locale-names": "",
+                "use-native-locale-names": "Spracheigennamen verwenden",
                 "use-native-locale-names-help": "",
                 "translate-polls": "Umfragen übersetzen",
                 "translate-polls-help": "Wenn aktiviert, werden Umfragetitel, Untertitel, Alternativtexte von Bildern und Antwortoptionen beim Erstellen oder Bearbeiten einer Umfrage automatisch übersetzt.",
@@ -200,18 +200,18 @@
                 "button-label": "Übersetzungen verwalten",
                 "original-language": "Originalsprache ({detectedLang})",
                 "discussion": {
-                    "title": ""
+                    "title": "Übersetzungen von Diskussionstiteln verwalten"
                 },
                 "post": {
                     "title": ""
                 },
                 "poll": {
-                    "image-alt": "",
-                    "option": "",
+                    "image-alt": "Alternative Bildbeschreibung (sofern vorhanden)",
+                    "option": "Option {number}",
                     "subtitle": "Untertitel",
-                    "title": "",
+                    "title": "Umfrageübersetzungen verwalten",
                     "question": "Frage",
-                    "question-language": ""
+                    "question-language": "Frage einer Umfrage ({language})"
                 },
                 "poll-group": {
                     "title": "",
@@ -219,7 +219,7 @@
                 },
                 "save-changes": "=> core.ref.save_changes",
                 "quiz": {
-                    "title": "",
+                    "title": "Quizübersetzungen verwalten",
                     "question": "Frage",
                     "subtitle": "Untertitel",
                     "option": "Antwort {number}",
