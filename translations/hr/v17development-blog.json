@@ -1,121 +1,121 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Blog",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "Pisanje i uređivanje blog članaka",
+                "auto_approve_posts": "Objavi članke bez odobrenja",
+                "approve_posts": "Može odobriti blog članke"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "featured_count_label": "",
-                "featured_count_text": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
-                "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
-                "add_sidebar_nav_text": "",
-                "categories_heading": "",
-                "hide_tags_in_taglist_label": "",
-                "hide_tags_in_taglist_text": "",
-                "show_tag_hierarchy_label": "",
-                "show_tag_hierarchy_text": "",
-                "redirects_heading": "",
-                "redirect_articles_label": "",
-                "redirect_articles_text": "",
-                "redirect_tags_label": "",
-                "redirect_tags_text": "",
-                "default_article_image_label": "",
-                "default_article_image_text": "",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "no_categories_selected": "Nisu odabrane kategorije",
+                "selected_category_count": "{count, plural, one {Imate # odabranu kategoriju} other {Imate # odabranih kategorija}}",
+                "select_categories_button": "Odaberi kategorije bloga",
+                "blog_heading": "Blog",
+                "featured_count_label": "Maksimalan broj istaknutih objava",
+                "featured_count_text": "Koliko objava treba biti prikazano u velikom rasporedu na vrhu stranice bloga?",
+                "allow_comments_label": "Dozvoli komentare",
+                "allow_comments_text": "Prema zadanim postavkama, dozvoli komentare na blog objavama. Kada je onemogućeno, može se omogućiti pojedinačno za svaku blog objavu. <b>Napomena:</b> Promjena ove postavke neće utjecati na postojeće blog objave.",
+                "require_review_label": "Blog objave zahtijevaju pregled",
+                "require_review_text": "Kada se objavi članak, neće biti vidljiv odmah i mora ga pregledati moderator.",
+                "hide_on_discussion_list_label": "Ne prikazuj na popisu rasprava",
+                "hide_on_discussion_list_text": "Sakrij blog objave s popisa rasprava.",
+                "add_sidebar_nav_label": "Dodaj u bočnu navigaciju",
+                "add_sidebar_nav_text": "Uključi poveznicu na blog u bočni navigacijski izbornik.",
+                "categories_heading": "Kategorije",
+                "hide_tags_in_taglist_label": "Sakrij kategorije u popisu kategorija",
+                "hide_tags_in_taglist_text": "Kada je omogućeno, ovo proširenje će sakriti kategorije bloga s vaše početne stranice.",
+                "show_tag_hierarchy_label": "Prikaži hijerarhiju kategorija",
+                "show_tag_hierarchy_text": "Dodaj uvlaku podkategorijama i daj popisu kategorija hijerarhijski prikaz.",
+                "redirects_heading": "Preusmjeravanja",
+                "redirect_articles_label": "Preusmjeri blog članke",
+                "redirect_articles_text": "Kada je omogućeno, ovo proširenje će preusmjeriti izvorne URL adrese rasprava na njihove blog URL adrese.",
+                "redirect_tags_label": "Preusmjeri kategorije bloga",
+                "redirect_tags_text": "Kada je omogućeno, ovo proširenje preusmjerava URL adrese kategorija bloga na URL adrese blog kategorija.",
+                "default_article_image_label": "Zadana slika članka",
+                "default_article_image_text": "Odaberi zadanu sliku članka za prikaz kada nije postavljena nijedna slika.",
+                "add_hero_label": "Prikaži pozdravni banner",
+                "add_hero_text": "Prikaži pozdravni banner na stranicama bloga ako još nije zatvoren."
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
-            "forum_nav": "",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "blog": "Blog",
+            "read_more": "Pročitaj više",
+            "hidden": "Skriveno",
+            "recent_posts": "Nedavne blog objave",
+            "categories": "Kategorije",
+            "forum_nav": "Navigacija foruma",
+            "return_to_overview": "Povratak na pregled bloga ",
+            "no_more_posts": "Nema više blog objava.",
+            "category_empty": "Nema blog objava u ovoj kategoriji.",
             "compose": {
-                "write_article": ""
+                "write_article": "Napiši članak"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Nedostaje ID"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "Naslov",
+                "slug": "Slug",
+                "summary": "Sažetak"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "Komentari",
+                "locked": "Odjeljak za komentare je onemogućen za ovaj članak"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review_title": "Čeka pregled",
+                "pending_review": "Ovaj članak čeka pregled i još nije objavljen",
+                "approve_article": "Odobri članak",
+                "approve_article_approved": "Članak je odobren i objavljen"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Preimenuj članak",
+                "edit_article": "Uredi članak",
+                "update_category": "Ažuriraj kategorije",
+                "article_settings": "Postavke članka",
+                "approve_article": "Odobri članak",
+                "hide_article": "Sakrij članak",
+                "recover_article": "Obnovi članak",
+                "delete_forever": "Izbriši zauvijek",
+                "enable_comments": "Omogući komentare",
+                "disable_comments": "Onemogući komentare"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Preusmjeravamo vas na naš blog članak...",
+                    "link": "<a>Kliknite ovdje</a> ako vas stranica ne preusmjeri"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "Bez naslova",
+                "enter_message_here": "Unesite svoju poruku ovdje",
+                "post_article": "Objavi članak",
+                "select_category": "Odaberi kategoriju",
+                "edit_categories": "Uredi kategorije",
+                "update_settings": "Ažuriraj postavke bloga",
+                "write": "Piši",
+                "view": "Pregledaj",
+                "nothing_to_preview": "Nema ništa za pregled",
+                "comment_section": "Odjeljak za komentare nije dostupan prilikom pisanja članka.",
+                "no_blog_tags_selected": "Nijedna od odabranih oznaka nije blog kategorija. Molimo odaberite barem jednu.",
+                "post_without_blog_info": "Jeste li sigurni da želite objaviti ovaj blog post? Još niste unijeli sažetak bloga ili sliku."
             },
             "article_settings": {
-                "title": "",
+                "title": "Postavke blog objave",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "Sažetak članka",
+                        "placeholder": "Molimo unesite sažetak",
+                        "helper_text": "Ovaj sažetak bit će vidljiv na stranici pregleda bloga i koristit će se u SEO svrhe."
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Slika članka",
+                        "helper_text": "Najbolja rezolucija slike za društvene mreže: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Istaknuta objava",
+                        "helper_text": "Daj ovoj objavi veliku sliku na stranici pregleda bloga."
                     }
                 }
             }

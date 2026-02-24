@@ -8,8 +8,8 @@
                 "exclude_tags_help": "Standardmäßig werden alle Themen, die für Gäste sichtbar ist, indiziert",
                 "build_button": "Sitemaps jetzt neu erstellen",
                 "build_button_help": "Löst eine sofortige Neuerstellung aller Sitemaps-Dateien aus. Der Auftrag wird in die Warteschlange eingereiht, sofern diese konfiguriert ist, andernfalls wird er sofort ausgeführt.",
-                "build_success": "",
-                "build_error": "",
+                "build_success": "Neuerstellung der Sitemap wurde erfolgreich in die Warteschlange eingereiht. Du kannst den Fortschritt in den Logs verfolgen.",
+                "build_error": "Neuerstellung der Sitemap konnte nicht in die Warteschlange eingereiht werden. Überprüfe die Logs und Konfiguration der Warteschlange.",
                 "last_build_time": "Letzte Erstellungszeit",
                 "mode_label": "Betriebsmodus",
                 "mode_help": "Die Wahl des richtigen Modus für die Größe deines Forums ist von entscheidender Bedeutung.",
@@ -44,8 +44,8 @@
                     "help": "Wenn ein Modell keinen oder nur wenig relevanten Inhalt hat, können Google und andere Crawler diese als \"weiche 404\"-Seiten kennzeichnen. Um dies zu vermeiden, legst du hier eine Mindestanzahl von Datenobjekten fest, die für jedes qualifizierte Datenobjekt erforderlich sind.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "Benutzer: Mindestanzahl an Kommentare/Posts",
-                            "minimum_item_threshold_help": "Die Mindestanzahl an Stellungsnahmen/Beiträgen, über die ein Nutzer verfügen muss, damit sein Profil in die Sitemap aufgenommen wird."
+                            "minimum_item_threshold_label": "Benutzer: Mindestanzahl an Kommentaren / Beiträgen",
+                            "minimum_item_threshold_help": "Die Mindestanzahl an Kommentaren / Beiträgen, über die ein Nutzer verfügen muss, damit sein Profil in die Sitemap aufgenommen wird."
                         }
                     },
                     "tags": {
