@@ -60,12 +60,12 @@
             "dashboard": {
                 "clear_cache_button": "Gyorsítótár törlése",
                 "description": "Fórum összefoglalása.",
-                "info_button": "",
+                "info_button": "Rendszer-információk",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Rendszer-információk",
+                    "copy_button": "Másolás a vágólapra",
+                    "copy_success": "Rendszer-információk vágólapra másolva",
+                    "copy_error": "Nem sikerült a vágólapra másolás"
                 },
                 "io_error_message": "Nem sikerült a fájlrendszerre írni. Ellenőrizze a fájlrendszer jogosultságait, és próbálja újra. Vagy futtassa a parancssorból.",
                 "status": {
@@ -148,11 +148,11 @@
                 "text": "Állítsd be a megfelelő driver-t, a beállításokat és a címeket, hogy a fórumod emaileket tudjon küldeni."
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "A bővítmény már nincs karban tartva, és lehet, hogy nem fog frissítéseket kapni.",
+                "abandoned_with_replacement": "A bővítményt a következő váltja: {replacement}. Fontolja meg, hogy helyette erre a cserecsomagra vált.",
                 "configure_scopes": "Célok beállítása",
                 "confirm_purge": "A tisztítás eltávolítja az összes, a bővítményhez tartozó adatbázis-bejegyzést és erőforrást. Nem távolítja el a bővítményt; azt a Composer segítségével kell megtenni. Valóban folytatja?",
-                "deprecated": "",
+                "deprecated": "Elavult",
                 "disabled": "Tiltva",
                 "enable_to_see": "Engedélyezze a bővítményt, hogy hozzáférjen a beállításaihoz.",
                 "enabled": "Engedélyezve",
@@ -174,7 +174,7 @@
                     "no_readme": "Úgy tűnik, hogy ehhez a bővítményhez nem tartozik README fájl",
                     "title": "{extName} dokumentáció"
                 },
-                "replaced": "",
+                "replaced": "Leváltották",
                 "confirm_uninstall": "A bővítmény eltávolítása törli az összes bővítménnyel kapcsolatos adatbázis-bejegyzést és beállítást. Valóban folytatja?",
                 "uninstall_button": "Eltávolítás"
             },
