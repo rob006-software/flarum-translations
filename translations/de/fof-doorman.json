@@ -75,10 +75,10 @@
                 }
             },
             "settings": {
-                "search": "",
-                "total_doorkeys": "",
+                "search": "Schlüssel durchsuchen",
+                "total_doorkeys": "Schlüssel insgesamt: {count}",
                 "create_doorkey_button": "Einladungscode erstellen",
-                "optional_usage": ""
+                "optional_usage": "Einladungscode bei der Registrierung optional machen"
             },
             "list": {
                 "columns": {
@@ -94,11 +94,11 @@
                 "content": {
                     "invalid_column": "=> core.admin.users.grid.invalid_column_content",
                     "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
-                    "warning": "",
+                    "warning": "Dieser Einladungscode wurde bereits die maximal erlaubt Anzahl verwendet.",
                     "delete": "Soll der Einladungscode \"{key}\" gelöscht werden?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {Unbegrenzte Verwendungen} one {{remainingUses} Verwendung verbleibend} other {{remainingUses} Verwendungen verbleibend}}",
+                        "total_uses": "{totalUses, plural, one {{totalUses} Mal verwendet} other {{totalUses} Mal verwendet}}"
                     },
                     "no_created_by": "Unbekannter Benutzer"
                 },
@@ -167,8 +167,8 @@
             }
         },
         "email": {
-            "subject": "",
-            "body": ""
+            "subject": "Einladen zum Beitreten",
+            "body": "Hallo,\n\nDu wurdest zum Beitreten eingeladen für {forum}.\n\nWenn du bereit bist, dein Konto zu erstellen, klicke einfach auf den folgenden Link und gib den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nSolltest du diese E-Mail irrtümlich erhalten haben, ignoriere sie bitte.\n"
         }
     }
 }
