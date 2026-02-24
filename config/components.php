@@ -919,6 +919,9 @@ return [
 	'huseyinfiliz-custom-profile-page' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/custom-profile-page/1.0/locale/en.yml',
 	],
+	'huseyinfiliz-diff' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/flarum-diff/1.0.0/locale/en.yml',
+	],
 	'huseyinfiliz-flagify' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/flagify/0.1/locale/en.yml',
 	],
