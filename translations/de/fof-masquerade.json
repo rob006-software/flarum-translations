@@ -49,7 +49,7 @@
                 "prefix": "Feld-Prefix",
                 "prefix-help": "Zeigt dein Präfix vor den Werten, die der Nutzer für dieses Feld eingegeben hat.\n",
                 "icon": "Symbol",
-                "icon-help": "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbol Namen mit dem \"fa-\" Prefix, zum Beispiel \"fas fa-info\".\n",
+                "icon-help": "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbolnamen mit dem „fa-“ Prefix, zum Beispiel „fas fa-info“.\n",
                 "force-user-to-completion": "Ausfüllen des Profils verpflichtend machen",
                 "options": "Optionen",
                 "option-new": "Neue Option",
@@ -68,8 +68,8 @@
         "lib": {
             "data": {
                 "masqueradeanswers": {
-                    "export_description": "",
-                    "delete_description": "",
+                    "export_description": "Exportiert die Antworten auf Felder im Nutzerprofil",
+                    "delete_description": "Entfernt alle Antworten auf Felder im Nutzerprofil",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
                 }
             }
