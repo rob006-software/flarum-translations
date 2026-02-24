@@ -1283,6 +1283,12 @@ return [
 	'kyrne-whisper' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/whisper/0.1.4/resources/locale/en.yml',
 	],
+	'liplum-trends-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/liplum/flarum-trends-widget/v0.2.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
 		'__builtInLanguages' => [
