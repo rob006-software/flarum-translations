@@ -9,7 +9,7 @@
             "serve_stale_label": "Elavult tartalom kiszolgálása",
             "serve_stale_help": "Ha be van kapcsolva, akkor a gyorsítótárazott oldal lesz megjelenítve a látogatók számára, amíg elő nem áll egy új másolat. Csökkenti a kiszolgáló terhelését az egymást követő látogatások esetén. Ha ki van kapcsolva, akkor az oldal dinamikusan elő lesz állítva a gyorsítótár frissítésekor, amely növelheti a várakozási időt. Ez a beállítás tervezetten azt okozhatja, hogy elévült tartalmat fog szolgáltatni. Ha ez nem felel meg Önnek, akkor ne kapcsolja be ezt a beállítást.",
             "purge_on_discussion_update_label": "Webcímek vagy gyorsítótár-címkék törlése, ha egy téma frissül",
-            "purge_on_discussion_update_help": "Soronként adjon meg egy webcímet vagy címkét. A webcímnek <code>/</code> karakterrel kell kezdődnie, például <code>/rankings</code>, a gyorsítórcímkének pedig <code>tag=</code> szöveggel, például <code>tag=rankings</code>. Ez a bővítmény megcímkéz minden elérési utat, így ha sok törlendő útvonala van, akkor jobb ha egy reguláris kifejezéssel leírt szabályt ad meg egy .htaccess fájlban, amely megcímkézi az elérési utakat, és itt a beállításokban csak ezt a címkét adja meg. Ez a módszer sokkal gyorsabb lesz. <a>További tudnivalók</a>. Alapértelmezetten a kezdőlap, valamint a frissített témák gyorsítótára lesz kitisztítva.",
+            "purge_on_discussion_update_help": "Soronként adja meg a téma frissítésekor törlendő webcímet vagy gyorsítótárcímkét. A webcímnek <code>/</code> karakterrel kell kezdődnie, például <code>/rankings</code>, a gyorsítótárcímkének pedig <code>tag=</code> szöveggel, például <code>tag=rankings</code>. Ha több törlendő útvonala van, akkor jobb, ha egy reguláris kifejezéssel leírt szabályt ad meg egy .htaccess fájlban, amely megcímkézi az elérési utakat, és itt csak ezt a címkét adja meg. Ez a módszer gyorsabb lesz. <a>További tudnivalók</a>. Alapértelmezetten a kezdőlap, valamint a frissített témák gyorsítótára lesz kitisztítva.",
             "cache_exclude_label": "Elérési utak kihagyása a gyorsítótárazásból",
             "cache_exclude_help": "Az ezeket a karakterláncokat tartalmazó elérési utak nem lesznek gyorsítótárazva. Például az <code>/mypath/mypage?aa=bb</code> címhez használható a <code>mypage?aa=</code>. Az elejéhez illesztéshez írjon egy <code>^</code> karaktert a sor elejére. A pontos egyezéshez írja a <code>$</code> karaktert a webcím végéhez. Soronként egy.",
             "drop_qs_label": "Lekérdezési karakterláncok eldobása",
@@ -17,7 +17,7 @@
             "status_codes_cache_label": "Alapértelmezett HTTP állapotkód oldal TTL-je",
             "status_codes_cache_help": "Adjon meg egy HTTP állapotkódot, és az oldal gyorsítótárazása másodperceinek számát, szóközzel elválasztva. Soronként egy-egy.",
             "purge_all": "=> acpl-lscache.ref.purge_cache",
-            "test_failed_alert": "",
+            "test_failed_alert": "Úgy tűnik, hogy a kiszolgáló nem támogatja az LSCache-t. Ellenőrizze a kiszolgáló konfigurációját. Észlelt kiszolgáló: <b>{server}</b>, észlelt LiteSpeed típusa: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
             },
