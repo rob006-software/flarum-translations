@@ -785,7 +785,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/1.0.0/resources/locale/en.yml',
 	],
 	'forumaker-magicread' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/magicread/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/magicread/1.1.0/resources/locale/en.yml',
 	],
 	'forumaker-magicslider' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicslider/1.1.0/resources/locale/en.yml',
