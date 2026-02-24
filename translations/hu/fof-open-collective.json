@@ -6,15 +6,15 @@
                 "use_legacy_api_key_label": "API örökölt alkalmazáskulcsának használata",
                 "use_legacy_api_key_help": "Ha örökölt API-kulcsa van, akkor továbbra is használhatja, de ajánlatos a személyes tokenre váltás. Jelenleg úgy tűnik, hogy a személyes tokenek csak API-kulcs módban (azaz „API-Key” fejléccel) működnek, de ez nincs dokumentálva.\n",
                 "api_key_label": "API alkalmazáskulcsa (elavult)",
-                "api_key_help": "",
+                "api_key_help": "Ez a hitelesítési mód elavult. Fontolja meg a személyes tokenre váltást.",
                 "personal_token_label": "Személyes token",
-                "personal_token_help": "",
-                "slug_label": "Collective keresőbarát URL",
-                "slug_help": "",
-                "group_label": "Hozzárendelendő csoport",
-                "group_help": "",
-                "onetime_group_label": "",
-                "onetime_group_help": "",
+                "personal_token_help": "Hozzon létre egy személyes tokent itt: <a>https://opencollective.com/applications</a>. Ez a token az Open Collective támogatói információinak lekérésére lesz használva.",
+                "slug_label": "Kollektíva keresőbarát webcíme",
+                "slug_help": "Adja meg az Open Collective kollektíva keresőbarát nevét (az opencollective.com/ utáni részt a webcímből).",
+                "group_label": "Rendszeres támogatók csoportja",
+                "group_help": "Válassza ki, hogy mely Flarum csoporthoz legyenek hozzáadva a rendszeres támogatók. A felhasználók automatikusan hozzá lesznek adva, ha rendszeres támogatókká válnak, az előfizetésük végén pedig át lesznek helyezve az egyszeri támogatók csoportjába (ha az be van állítva).",
+                "onetime_group_label": "Egyszeri támogatók csoportja (nem kötelező)",
+                "onetime_group_help": "Válassza ki, hogy mely Flarum csoporthoz legyenek hozzáadva az egyszeri támogatók. Ha nincs beállítva, az egyszeri támogatók nem lesznek kezelve. Ha egy rendszeres támogató lemondja az előfizetését, ebbe a csoportba lesz áthelyezve.",
                 "desc": "Szerezze be a személyes tokenjét a <a>https://opencollective.com/dashboard</a> oldalon, a Beállítások > Fejlesztőknek rész alatt. Ne válasszon ki további hatóköröket – tartsa meg az alapértelmezett üres kiválasztást.\n"
             }
         }
