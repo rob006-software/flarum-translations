@@ -3826,7 +3826,8 @@
     "datlechin-who-replied.json": {
         "datlechin-who-replied": {
             "admin": {
-                "limit_label": "954836c6ad42b0268955224ff7e1b794 954836c6ad42b0268955224ff7e1b794"
+                "limit_label": "954836c6ad42b0268955224ff7e1b794 954836c6ad42b0268955224ff7e1b794",
+                "limit_help": "995ba2953679cf747782150260ecf11e 995ba2953679cf747782150260ecf11e"
             },
             "forum": {
                 "button_label": "87152ca1c98b5047d6bb7dcee8f65be6 87152ca1c98b5047d6bb7dcee8f65be6",
@@ -7785,6 +7786,50 @@
         "validation": {
             "recaptcha": "b153043a9d3f5c9133792b04d6d7d869 b153043a9d3f5c9133792b04d6d7d869",
             "recaptcha-unknown": "6b612e76dd55d6d7f248c7ecdb2830c0 6b612e76dd55d6d7f248c7ecdb2830c0"
+        }
+    },
+    "fof-rich-text.json": {
+        "fof-rich-text": {
+            "admin": {
+                "settings": {
+                    "toggle_on_editor": "39dd7d6c4cdd8abb386b60cb81aa400e 39dd7d6c4cdd8abb386b60cb81aa400e"
+                }
+            },
+            "lib": {
+                "composer": {
+                    "toggle_button": "af86084f2ad4d3a97869471c549e3632 af86084f2ad4d3a97869471c549e3632",
+                    "insert_button": "67cc72f690b22fc61bf7c34280ecf040 67cc72f690b22fc61bf7c34280ecf040",
+                    "insert_image": {
+                        "src_placeholder": "97e7c9a7d06eac006a28bf05467fcc8b 97e7c9a7d06eac006a28bf05467fcc8b",
+                        "title_placeholder": "18a8022569d6ced829f833aa855530ce 18a8022569d6ced829f833aa855530ce"
+                    },
+                    "insert_link": {
+                        "text_placeholder": "9dffbf69ffba8bc38bc4e01abf4b1675 9dffbf69ffba8bc38bc4e01abf4b1675",
+                        "href_placeholder": "e6b391a8d2c4d45902a23a8b6585703d e6b391a8d2c4d45902a23a8b6585703d",
+                        "title_placeholder": "46ae3eec2e9c6f3fb396c0f646269a53 46ae3eec2e9c6f3fb396c0f646269a53",
+                        "remove_button": "513d306cc83aa63d5a3801c0cac5f739 513d306cc83aa63d5a3801c0cac5f739"
+                    },
+                    "additional_items_tooltip": "345c181c86bdf6ccf9cae098a1d6341e 345c181c86bdf6ccf9cae098a1d6341e",
+                    "bold_tooltip": "def3bd44d1c4e804885602a973ffdfe9 def3bd44d1c4e804885602a973ffdfe9",
+                    "code_tooltip": "b81939eb2574546b92aea7618ed69487 b81939eb2574546b92aea7618ed69487",
+                    "code_block_tooltip": "eef2da3f0be3476c6f43dc07097f0bff eef2da3f0be3476c6f43dc07097f0bff",
+                    "header_tooltip": "d6c8451f46a2c0437e80b00c5ade1662 d6c8451f46a2c0437e80b00c5ade1662",
+                    "horizontal_rule_tooltip": "4de330dcb1ee1b8b4dcd26f420080b1e 4de330dcb1ee1b8b4dcd26f420080b1e",
+                    "image_tooltip": "ef452d9e3857bd2c90ca6dba79c5012b ef452d9e3857bd2c90ca6dba79c5012b",
+                    "italic_tooltip": "52bfda1e43c099e1fcd7905a19c4dbde 52bfda1e43c099e1fcd7905a19c4dbde",
+                    "link_tooltip": "4fbd7ebee0b5c50eb74095f1eb14ebe5 4fbd7ebee0b5c50eb74095f1eb14ebe5",
+                    "ordered_list_tooltip": "8cad0734e2c14fd7621d762abbbd6184 8cad0734e2c14fd7621d762abbbd6184",
+                    "paragraph_tooltip": "b6037806b3047b00b0c9ab5e413cb68e b6037806b3047b00b0c9ab5e413cb68e",
+                    "quote_tooltip": "e038162839641dd14d6bb3cc8cb709bf e038162839641dd14d6bb3cc8cb709bf",
+                    "spoiler_block_tooltip": "5869bbb9370240aea2cba85aa5ca779a 5869bbb9370240aea2cba85aa5ca779a",
+                    "spoiler_inline_tooltip": "03cdad12e71144e2c7975a464b187ee9 03cdad12e71144e2c7975a464b187ee9",
+                    "strike_tooltip": "a64cf3d76264d2af2fdf598732b93328 a64cf3d76264d2af2fdf598732b93328",
+                    "sub_tooltip": "30bfbe38f9feb991b826b08ed4c3a02c 30bfbe38f9feb991b826b08ed4c3a02c",
+                    "sup_tooltip": "028f31356223465e7c578f59464fe618 028f31356223465e7c578f59464fe618",
+                    "text_type_tooltip": "453769c8184e19eecc4493d4cd26cebf 453769c8184e19eecc4493d4cd26cebf",
+                    "unordered_list_tooltip": "ac82e34b59ad72b10d8b3acae572b75c ac82e34b59ad72b10d8b3acae572b75c"
+                }
+            }
         }
     },
     "fof-secure-https.json": {
