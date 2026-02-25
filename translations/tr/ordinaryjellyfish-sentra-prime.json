@@ -10,7 +10,7 @@
                 "language_help": "Azure AI Language, metinleri analiz etmek için doğal dil işlemeyi kullanan bir hizmettir."
             },
             "modules": {
-                "identity_sentinel": "Identity Sentinel",
+                "identity_sentinel": "Kimlik Koruyucu",
                 "identity_sentinel_help": "Identity Sentinel, gönderilerdeki kişisel olarak tanımlanabilir bilgileri tespit etmek için kullanılan bir modüldür.",
                 "identity_sentinel_settings": {
                     "action": "Algılama Eylemi",
@@ -32,7 +32,7 @@
             "undo_post_score": "Gönderi Davranış Puanını Geri Al"
         },
         "email": {
-            "suspend_temporary_reason": "Sürekli olumsuz davranışlarınız nedeniyle otomatik olarak uzaklaştırıldınız. Bu uzaklaştırma {duration, plural, one {1 gün} plural {# gün}} sürecek ve otomatik olarak kaldırılacaktır. Bu uzaklaştırmanın hatalı yapıldığını düşünüyorsanız, lütfen forum personeliyle iletişime geçin.",
+            "suspend_temporary_reason": "Sürekli olumsuz davranışlarınız nedeniyle otomatik olarak uzaklaştırıldınız. Bu uzaklaştırma {duration, plural, one {1 gün} other {# gün}} sürecek ve otomatik olarak kaldırılacaktır. Eğer bu işlemin hatalı yapıldığını düşünüyorsanız, lütfen forum ekibiyle iletişime geçin.",
             "suspend_permanent_reason": "Sürekli olumsuz davranışlarınız nedeniyle otomatik olarak askıya alındınız. Bu askıya alma işlemi kalıcıdır. Bu askıya alma işleminin hatalı olduğunu düşünüyorsanız, lütfen forum personeli ile iletişime geçin."
         }
     },
