@@ -2,56 +2,56 @@
     "ianm-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
+                "forum_activity": "Forenaktivität",
+                "forum_new_discussions": "Neue Diskussionen im Forum",
+                "tag_activity": "Aktivität für das Thema {tag}",
+                "tag_new_discussions": "Diskussionen im Thema {tag}",
                 "discussion_last_posts": "Diese Diskussion",
-                "user_last_posts": ""
+                "user_last_posts": "Beiträge & Kommentare dieses Benutzers"
             },
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": ""
+                        "title_reply": "Re: {discussion}"
                     }
                 },
                 "titles": {
-                    "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": "",
-                    "user_title": "",
-                    "user_subtitle": ""
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Neueste Beiträge im Forum",
+                    "main_d_title": "Neue Diskussionen in {forum_name}",
+                    "main_d_subtitle": "Die neuesten Diskussionen im Forum",
+                    "tag_title": "Aktivität im Thema {tag}",
+                    "tag_subtitle": "Neueste Beiträge im Thema {tag}",
+                    "tag_d_title": "Neue Diskussionen im Thema {tag}",
+                    "tag_d_subtitle": "Die neuesten Diskussionen im Thema {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Letzte Nachricht in dieser Diskussion",
+                    "user_title": "{username}",
+                    "user_subtitle": "Neueste Beiträge & Kommentare dieses Benutzers."
                 }
             },
             "discussion": {
-                "feed_link": ""
+                "feed_link": "Feed"
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
-                    "label": "",
+                    "label": "Volltext-Feeds",
                     "help": ""
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Formatierte Feeds",
+                    "help": "Wenn aktiviert, enthalten die Feeds HTML. Ansonsten sind die Feeds in unformatiertem Klartext."
                 },
-                "entries-count": "",
+                "entries-count": "Wie viele Einträge pro Feed?",
                 "forum-icons": {
-                    "label": "",
-                    "help": ""
+                    "label": "Atom / RSS Feed-Links im Forum anzeigen",
+                    "help": "Symbole in Alle Diskussionen, Themen und Diskussionen für einfachen Zugriff auf die Feeds anzeigen."
                 },
                 "forum-link-format": {
-                    "label": "",
-                    "help": ""
+                    "label": "Forumfeed-Format",
+                    "help": "Wähle aus, welches Format (Atom oder RSS) für die im Forum angezeigten Links verwendet werden soll."
                 }
             }
         }
