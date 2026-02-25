@@ -2,12 +2,12 @@
     "club-1-cross-references": {
         "admin": {
             "show_discussion_id": {
-                "label": "",
-                "help": ""
+                "label": "Diskussions-ID anzeigen",
+                "help": "Diskussions-ID überall dort hinzufügen, wo eine Diskussion angezeigt wird."
             },
             "enable_short_references": {
-                "label": "",
-                "help": ""
+                "label": "Kurze Referenzen aktivieren",
+                "help": "#<ID> Texte in Nachrichten (z.B. #42) in Links zur dazugehörigen Diskussion konvertieren."
             },
             "retrofit_links_in_frontend": {
                 "label": "",
@@ -19,8 +19,8 @@
                 "discussion_referenced_text": "",
                 "discussion_referenced_multiple_text": ""
             },
-            "unknown_discussion": "",
-            "comment": ""
+            "unknown_discussion": "[unbekannte Diskussion]",
+            "comment": "Kommentar"
         }
     }
 }
