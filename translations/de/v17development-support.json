@@ -2,20 +2,20 @@
     "v17development-flarum-support": {
         "forum": {
             "knowledge_base": "Wissensdatenbank",
-            "ask_a_question_on_forums": "Stellen Sie eine Frage im Forum",
-            "return_to_home": "Züruck zur Wissensdatenbank",
-            "ask_your_question_on_forum": "Stellen Sie Ihre Frage im Forum",
+            "ask_a_question_on_forums": "Stelle eine Frage im Forum",
+            "return_to_home": "Zurück zur Wissensdatenbank",
+            "ask_your_question_on_forum": "Stelle deine Frage im Forum",
             "or": "oder",
             "settings": "=> core.ref.settings",
             "send": "Senden",
             "create": "Erstellen",
             "discard": "Verwerfen",
             "reopen": "Wieder öffnen",
-            "support_tickets": "Support Tickets",
+            "support_tickets": "Support-Tickets",
             "admin_overview": "Öffne Admin-Übersicht",
             "hero": {
                 "help_question": "Wie können wir Ihnen helfen?",
-                "check_forum": "Sie können nicht finden, wonach Sie suchen? <a>Besuchen Sie unser Forum</a>"
+                "check_forum": "Du kannst nicht finden, wonach du suchst? <a>Besuche unser Forum</a>"
             },
             "overview": {
                 "knowledge_base_overview": "Wissensdatenbank Überblick",
@@ -42,11 +42,11 @@
             "search": {
                 "title": "Suchen",
                 "back_to_search_results": "Zurück zu den Suchergebnissen",
-                "search_knowledge_base": "Durchsuchen Sie unsere Wissensdatenbank",
+                "search_knowledge_base": "Durchsuche unsere Wissensdatenbank",
                 "searching": "Suchen",
                 "searching_for": "Auf der Suche nach {searchterm}",
-                "searched_for": "Sie haben nach {searchterm} gesucht und es gab {results} Ergebnisse.",
-                "use_searchbox_below": "Verwenden Sie das Suchfeld, um in unserer Wissensdatenbank zu suchen.",
+                "searched_for": "Du hast nach {searchterm} gesucht und es gab {results} Ergebnisse.",
+                "use_searchbox_below": "Verwende das Suchfeld, um in unserer Wissensdatenbank zu suchen.",
                 "no_results": "Wir konnten nichts für {searchterm} finden."
             },
             "not_found": {
@@ -81,16 +81,16 @@
             "support_ratings": {
                 "score": "Punktzahl",
                 "helful_article": "War dieser Artikel hilfreich?",
-                "helful_support": "Sind Sie zufrieden damit, wie wir mit Ihrem Support-Ticket umgehen?",
-                "feedback": "Vielen Dank für Ihre Bewertung. Haben Sie Feedback?",
-                "feedback_not_helpful": "Es tut uns leid, dass dieser Artikel Ihnen nicht geholfen hat. Was haben Sie gesucht?",
-                "enter_feedback": "Geben Sie hier Ihr Feedback ein",
+                "helful_support": "Bist du zufrieden damit, wie mit deinem Support-Ticket umgegangen wurde?",
+                "feedback": "Vielen Dank für deine Bewertung. Hast du noch Feedback?",
+                "feedback_not_helpful": "Es tut uns leid, dass dieser Artikel dir nicht geholfen hat. Wonach hast du gesucht?",
+                "enter_feedback": "Gib hier dein Feedback ein",
                 "finished": "Danke! Ihre Bewertung wurde gespeichert.",
                 "validation": {
-                    "invalid_discussion": "Oh nein! Etwas ist schief gelaufen. Sie können diesen Artikel/dieses Support-Ticket nicht bewerten.",
-                    "guest": "Bitte melden Sie sich an, bevor Sie diesen Artikel bewerten.",
+                    "invalid_discussion": "Oh nein! Etwas ist schief gelaufen. Du kannst diesen Artikel/dieses Support-Ticket nicht bewerten.",
+                    "guest": "Bitte melde dich an, um diesen Artikel zu bewerten.",
                     "invalid_points": "Ungültige Bewertung. Bitte versuche es erneut.",
-                    "cannot_rate_article": "Sie können diesen Artikel nicht bewerten.",
+                    "cannot_rate_article": "Du kannst diesen Artikel nicht bewerten.",
                     "neutral_emoji_disabled": "Das neutrale Emoji wurde deaktiviert.",
                     "missing_article_id": "Fehlende oder ungültige Artikel-ID"
                 },
@@ -111,7 +111,7 @@
                     "loading_ratings": "Bewertungen laden",
                     "no_ratings_found": "Es wurden keine Bewertungen gefunden, die Ihren Suchkriterien entsprechen",
                     "article_not_rated": "Dieser Artikel wurde noch nicht bewertet.",
-                    "confirm_delete_rating": "Möchten Sie diese Bewertung wirklich löschen?",
+                    "confirm_delete_rating": "Möchtest du diese Bewertung wirklich löschen?",
                     "feedback": "Feedback",
                     "rating": "Bewertung",
                     "username": "=> core.ref.username",
@@ -120,22 +120,22 @@
             },
             "utils": {
                 "redirect": {
-                    "title": "Wir leiten Sie weiter...",
-                    "link": "<a>Klicken Sie hier</a>, wenn die Seite Sie nicht weiterleitet"
+                    "title": "Wir leiten dich zu unserem Artikel weiter…",
+                    "link": "<a>Klicke hier</a>, wenn die Seite dich nicht weiterleitet"
                 }
             },
             "composer": {
                 "compose_article": "Artikel verfassen",
                 "compose_ticket": "Ticket verfassen",
                 "new_article_title": "Neuer Artikeltitel",
-                "enter_message_here": "Geben Sie hier Ihre Nachricht ein",
+                "enter_message_here": "Gib hier deine Nachricht ein",
                 "publish_article": "Artikel veröffentlichen",
                 "publish_article_hint": "Artikel sofort veröffentlichen.",
                 "manage_tags": "Tags verwalten",
                 "write": "Schreiben",
                 "view": "Anschauen",
                 "nothing_to_preview": "Keine Vorschau möglich",
-                "warning_save_changes": "UNG: Sie haben Ihre Änderungen nicht gespeichert. Möchten Sie Ihre Änderungen vor dem Verlassen speichern?\n\n[OK] = Ja [CANCEL] = Nein\n",
+                "warning_save_changes": "ACHTUNG: Du bist dabei diese Seite zu verlassen und hast deine Änderungen nicht gespeichert. Möchtest du deine Änderungen vor dem Verlassen speichern?\n\n[OK] = Ja [CANCEL] = Nein\n",
                 "article_saved": "Artikel wurde gespeichert"
             },
             "tickets": {
@@ -169,12 +169,12 @@
                     "pending": {
                         "title": "Steht aus",
                         "description": "Dieses Ticket wartet auf die Antwort des Benutzers.",
-                        "description_user": "Wir warten darauf, dass Sie antworten oder dieses Ticket als gelöst markieren."
+                        "description_user": "Wir warten darauf, dass du antwortest oder dieses Ticket als gelöst markierst."
                     },
                     "closed": {
                         "title": "Geschlossen",
                         "description": "Dieses Ticket wurde geschlossen.",
-                        "is_closed": "Dieses Ticket ist geschlossen, wenn Sie antworten, wird es wieder geöffnet. Wir empfehlen, ein Ticket nur dann erneut zu öffnen, wenn das Problem nicht behoben wurde. Wenn es sich um ein neues Problem handelt, öffnen Sie bitte ein neues Ticket.",
+                        "is_closed": "Dieses Ticket ist geschlossen. Wenn du antwortest, wird es wieder geöffnet. Wir empfehlen, ein Ticket nur dann erneut zu öffnen, wenn das Problem nicht behoben wurde. Wenn es sich um ein neues Problem handelt, öffne bitte ein neues Ticket.",
                         "close_after_posting": "Ticket nach dem Posten schließen",
                         "is_auto_closed": "Dieses Ticket wurde wegen Inaktivität geschlossen."
                     },
@@ -189,13 +189,13 @@
                     "solved": {
                         "title": "Gelöst",
                         "description": "Dieses Ticket ist als gelöst markiert",
-                        "mark_as_solved": "Markieren Sie dieses Ticket als gelöst"
+                        "mark_as_solved": "Dieses Ticket als gelöst markieren"
                     }
                 },
                 "tools": {
                     "view_ticket": "Ticket anzeigen",
                     "update_subject": "Betreff aktualisieren",
-                    "assign_me": "Weisen Sie mir zu",
+                    "assign_me": "Mir zuweisen",
                     "remove_me": "Entferne mich",
                     "update_status": "Ticketstatus aktualisieren",
                     "close_ticket": "Ticket schließen",
@@ -217,11 +217,11 @@
                     "subject": {
                         "title": "Betreff",
                         "placeholder": "Ticket Betreff",
-                        "description": "Versuchen Sie, Ihre Frage in einem kurzen Satz zu beschreiben."
+                        "description": "Versuche, deine Frage in einem kurzen Satz zu beschreiben."
                     },
                     "information": {
                         "title": "Ticketinformation",
-                        "placeholder": "Sagen Sie uns, wie wir Ihnen helfen können"
+                        "placeholder": "Sag uns, wie wir dir helfen können"
                     },
                     "status": {
                         "title": "Status",
@@ -241,16 +241,16 @@
                 },
                 "compose_ticket": {
                     "title": "Erstelle ein neues Ticket",
-                    "private_support": "Für den privaten Support können Sie dieses Formular verwenden, um ein neues Ticket in unserer Support-Plattform zu erstellen. Informationen zu nicht privaten Supportfragen finden Sie in <a>unseren öffentlichen Foren </a>.",
-                    "not_allowed": "Sie können jetzt kein neues Support-Ticket öffnen"
+                    "private_support": "Für den privaten Support kannst du dieses Formular verwenden, um ein neues Ticket in unserer Support-Plattform zu erstellen. Informationen zu nicht privaten Supportfragen findest du in <a>unseren öffentlichen Foren </a>.",
+                    "not_allowed": "Du kannst jetzt kein neues Support-Ticket öffnen"
                 },
                 "load_more": {
-                    "title": "Laden Sie weitere Tickets"
+                    "title": "Weitere Tickets laden"
                 },
                 "my_tickets": {
                     "title": "Meine Tickets",
-                    "description": "Auf dieser Seite finden Sie alle Ihre privaten Tickets.",
-                    "no_tickets": "Sie haben noch keine Tickets."
+                    "description": "Auf dieser Seite findest du alle deine privaten Tickets.",
+                    "no_tickets": "Du hast noch keine Tickets."
                 },
                 "overview": {
                     "title": "Ticketübersicht",
