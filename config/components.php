@@ -1490,7 +1490,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v1.0.1/resources/locale/en.yml',
 	],
 	'nopj-attachments' => [
-		'tag' => 'https://raw.githubusercontent.com/chao2hang/flarum-ext-attachments/v0.1.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/chao2hang/flarum-ext-attachments/v0.1.5/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
