@@ -2,11 +2,11 @@
     "ianm-log-viewer": {
         "admin": {
             "permissions": {
-                "access_logfile_api": "Pääsy lokitiedoston tietoihin rajapinnan kautta"
+                "access_logfile_api": "Näytä ja hallitse lokitiedostoja"
             },
             "settings": {
-                "max-file-size": "",
-                "max-file-size-help": "",
+                "max-file-size": "Lokitiedoston enimmäiskoko (MB)",
+                "max-file-size-help": "Jos lokitiedosto ylittää tämän koon, se jaetaan useampaan osaan. Aseta arvoksi 0 poistaaksesi jakamisen käytöstä. Oletusarvo on 1 Mt. Suurin sallittu koko on 150 Mt.",
                 "purge-days": "Tyhjennä lokitiedostot jälkeen päivien",
                 "purge-days-help": "Tarvitsee Flarumin oman ajastuksen toiminnan. 0 ottaa pois käytöstä."
             },
@@ -16,10 +16,10 @@
                 "file_size": "Koko (bittiä): {size}",
                 "last_updated": "Viimeksi päivitetty: {updated}",
                 "no_file_selected": "Valitse lokitiedosto nähdäksesi sen sisältö.",
-                "view_log": "",
-                "download_log": "",
-                "delete_log": "",
-                "confirm_delete": ""
+                "view_log": "Näytä lokitiedosto",
+                "download_log": "Lataa lokitiedosto",
+                "delete_log": "Poista lokitiedosto",
+                "confirm_delete": "Haluatko varmasti poistaa tämän lokitiedoston? Tätä ei voi peruuttaa."
             }
         }
     }
