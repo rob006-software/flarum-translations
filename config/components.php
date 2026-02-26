@@ -1276,6 +1276,9 @@ return [
 	],
 	'piwind-checklist' => [
 		'tag' => 'https://raw.githubusercontent.com/piwind/flarum-checklist/v1.4.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'ralkage-hcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.0.0/resources/locale/en.yml',
