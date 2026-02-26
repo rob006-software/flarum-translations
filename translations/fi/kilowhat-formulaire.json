@@ -50,14 +50,14 @@
                 "uniformComposerLayoutHelp": "Vaihtaa avainsanan, otsikon ja sisällön tyylittelyä vastaamaan Formulairen tyylittelyä. Tämä ulkoasu ottaa enemmän tilaa joten suosittelemme, että asennat <a>Composer Page</a> lisäosan.\n",
                 "noByobuFields": "Älä integroi keskustelun kenttiä yksityisen keskustelun kenttien kanssa Byobu lisäosassa",
                 "noByobuFieldsHelp": "Oletuksena keskustelun kentät jotka ei ole avainsanassa on käytössä kaikissa viesteissä, myös yksityisissä.",
-                "translateManually": "",
-                "translateManuallyHelp": "",
-                "translateWithTranslator": "",
-                "translateWithTranslatorHelp": "",
-                "replacementPatternLocale": "",
-                "replacementPatternLocaleHelp": "",
+                "translateManually": "Ota käyttöön manuaalinen lomakkeen käännös",
+                "translateManuallyHelp": "Kun tämä asetus on käytössä, kenttien nimet voidaan kääntää lomakehallinnan käyttöliittymässä. Foorumilla on oltava useita kieliä käytössä.\n",
+                "translateWithTranslator": "Ota käyttöön lomakkeen käännökset Flarum Translator APIn kautta",
+                "translateWithTranslatorHelp": "Kun tämä asetus on käytössä, kenttien nimet voidaan mukauttaa paikallisten laajentajien ja kielipakettien kautta. Katso dokumentaatiosta, miten tätä ominaisuutta käytetään.\n",
+                "replacementPatternLocale": "Kieli, jota käytetään korvausmallin soveltamiseen",
+                "replacementPatternLocaleHelp": "Oletusarvoinen \"auto\"-vaihtoehto tarkoittaa, että lomakkeen lähettäneen käyttäjän kieli käytetään, kun jono ei ole aktiivinen. Jos jono on aktiivinen, käytetään foorumin oletuskieltä. Tämä asetus vaikuttaa sekä ilmoitussähköposteihin että automaattiseen keskustelun luomiseen.\n",
                 "replacementPatternLocaleOptions": {
-                    "auto": ""
+                    "auto": "Auto"
                 }
             }
         },
@@ -66,8 +66,8 @@
                 "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "require-submission-alert": {
-                "message": "",
-                "action": ""
+                "message": "Olemme tilapäisesti rajoittaneet tilisi käyttöä, kunnes lähetät lomakkeen \"{title}\".",
+                "action": "Mene lomakkeelle"
             },
             "form-index": {
                 "header": {
@@ -129,7 +129,7 @@
                 },
                 "tabs": {
                     "template": "Pohja",
-                    "translate": "",
+                    "translate": "Käännä",
                     "placement": "Sijoitus",
                     "access": "Pääsy",
                     "notifications": "Ilmoitukset",
@@ -147,7 +147,7 @@
                 "template-export": "Pohjan tuonti/vienti",
                 "enable-expert-mode": "Ota asiantuntija tila käyttöön",
                 "disable-expert-mode": "Ota asiantuntija tila pois käytöstä",
-                "show-advanced-attributes": "",
+                "show-advanced-attributes": "Näytä lisämääritykset...",
                 "restore": "Palauta",
                 "hide": "Poista",
                 "delete": "Poista pysyvästi",
@@ -161,11 +161,11 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "Sinulla täytyy asettaa \"näe oma\" ja \"muokkaa omaa\" oikeudet hyväksymättömille käyttäjille, jotta voit käyttää \"näytä rekisteröityessä\" tilaa.\n",
                     "show-on-composer-invalid-permissions": "Pidä huolto, että \"näe oma\" ja \"muokkaa omaa\" oikeudet täsmää niihin, jotka voivat aloittaa keskusteluja valitulla avainsanalla, jotta \"näytä muokkaimessa\" toimii oikein. Aseta \"käyttäjille\" jos epävarma. Tämä ilmoitus näkyy vaikka asetuksesi olisivat oikein.\n",
-                    "require-submission-invalid-permissions": "",
+                    "require-submission-invalid-permissions": "Jotta voit käyttää \"require submission to use forum\" -asetusta, sinun täytyy myöntää hyväksymättömille jäsenille \"see own\" ja \"edit own\" -oikeudet.\n",
                     "linked-form-is-draft": "Tämä lomake on luonnos. Ota käyttöön \"Pääsy\" välilehdellä, jotta lomake näkyy foorumilla.\n",
                     "auto-link-permission-warning": "Lomakkeet joilla on \"automaattisesti luo keskustelu\" valinta, käytä yleistä täyttö oikeutta, kun käytetään erillisenä.\n"
                 },
-                "expert-mode-warning": "Asiantuntija tila on päällä. Tämä antaa sinun muokata kentän tunnisteita ja per-kenttä kohtaisia oikeuksia. Luethan ohjeet näistä toiminnoista, sillä nämä voi rikkoa asioita!\n",
+                "expert-mode-warning": "Kehittyneet kenttäattribuutit ovat näkyvissä. Lue näistä ominaisuuksista kertova dokumentaatio huolellisesti — muuten saatat rikkoa jotain!\n",
                 "section": {
                     "template": "Pohja",
                     "permissions": "Oikeudet"
@@ -179,8 +179,8 @@
                         "user": "Näytä rekisteröitymisessä"
                     },
                     "require-submission": {
-                        "switch": "",
-                        "warning": ""
+                        "switch": "Vaadi täyttö foorumin käyttöä varten",
+                        "warning": "Tallennuksen jälkeen kaikki käyttäjät, joilla on keskeneräinen lomake, estetään pääsemästä foorumille, kunnes he lähettävät sen uudelleen. Jatketaanko?"
                     },
                     "automatic-discussion": "Automaattisesti luo keskustelu lomakkeen lähetyksestä",
                     "automatic-discussion-help": "Kun käytössä, lomake on saatavilla erillisenä. Lomakkeen merkinnät luovat ja yhdistyvät uuteen keskusteluun.\n",
@@ -211,13 +211,13 @@
                 "save-for-preview": "Tallenna esikatselua varten"
             },
             "show-advanced-attributes-modal": {
-                "title": "",
-                "toggle": "",
-                "close": "",
+                "title": "Näytä kenttien lisämääreet",
+                "toggle": "Vaihda kaikkien valintaa",
+                "close": "Sulje",
                 "attribute": {
-                    "key": "",
-                    "fillPermission": "",
-                    "translationKey": ""
+                    "key": "Avain",
+                    "fillPermission": "Täytä oikeudet",
+                    "translationKey": "Käännösavain"
                 }
             },
             "auto-discussion-options-modal": {
@@ -256,12 +256,12 @@
             "template-editor": {
                 "add-field": "Lisää kenttä",
                 "title": "Otsikko",
-                "titleTranslationKey": "",
+                "titleTranslationKey": "(Expert) Otsikon käännösavain",
                 "description": "Kuvaus",
-                "descriptionTranslationKey": "",
+                "descriptionTranslationKey": "(Expert) Kuvauksen käännös avain",
                 "key": "(Asiantuntija) JSON avain merkinnän kuormassa",
                 "fill-permission": "(Asiantuntija) Täytön oikeudet",
-                "contentTranslationKey": "",
+                "contentTranslationKey": "(Expert) Sisällön käännösavain",
                 "required": "Pakollinen",
                 "rich": "Rikastettu teksti (TextFormatter)",
                 "min": "Minimi",
@@ -271,7 +271,7 @@
                 "regex": "Säännöllinen lauseke",
                 "mime": "MIME tyyppi (pilkuilla erotettu, hyväksyy jokerin toiseksi osaksi)",
                 "other": "Salli \"muu\" käyttäjän syötteet",
-                "defaultValue": "",
+                "defaultValue": "Oletusarvo",
                 "duplicate": "Kopioi kenttä",
                 "delete": "Poista kenttä",
                 "missing-title": "Kenttä ilman otsikkoa",
@@ -292,9 +292,9 @@
             "options-editor": {
                 "columns": {
                     "title": "Otsikko",
-                    "titleTranslationKey": "",
+                    "titleTranslationKey": "(Expert) Käännösavain",
                     "key": "(Asiantuntija) Uniikki avain",
-                    "defaultValue": ""
+                    "defaultValue": "Oletuksena"
                 },
                 "remove": "Poista valinta",
                 "new-placeholder": "Uusi valinta..."
@@ -318,8 +318,8 @@
                 "other-placeholder": "Kirjoita..."
             },
             "translate": {
-                "switch-tab-to-edit": "",
-                "option-heading": ""
+                "switch-tab-to-edit": "Siirry Template-välilehdelle muuttaaksesi kenttien asetuksia",
+                "option-heading": "Valinta #{number}"
             },
             "submission": {
                 "form-closed": "Tämä lomake on suljettu.",
@@ -397,8 +397,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
-                    "user_joined_at": "",
-                    "user_groups": "",
+                    "user_joined_at": "=> kilowhat-formulaire.ref.submission-meta.user_joined_at",
+                    "user_groups": "=> kilowhat-formulaire.ref.submission-meta.user_groups",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -443,8 +443,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
-                    "user_joined_at": "",
-                    "user_groups": "",
+                    "user_joined_at": "=> kilowhat-formulaire.ref.submission-meta.user_joined_at",
+                    "user_groups": "=> kilowhat-formulaire.ref.submission-meta.user_groups",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -486,8 +486,8 @@
                 "user_displayname": "Käyttäjän näyttönimi",
                 "user_email": "Käyttäjän sähköpostiosoite",
                 "user_activated": "Aktivoitu tili",
-                "user_joined_at": "",
-                "user_groups": "",
+                "user_joined_at": "Käyttäjän liittymispäivä",
+                "user_groups": "Käyttäjän ryhmät",
                 "link_id": "Linkitetyn resurssin ID",
                 "locked_at": "Lukitus päivämäärä",
                 "created_at": "Luonti päivämäärä",
