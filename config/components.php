@@ -1504,6 +1504,12 @@ return [
 	'nomiscz-auth-wechat' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v1.0.1/resources/locale/en.yml',
 	],
+	'nopj-attachments' => [
+		'tag' => 'https://raw.githubusercontent.com/chao2hang/flarum-ext-attachments/v0.1.6/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'nosun-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/nosun/flarum-ext-reply2see/v1.03/resources/locale/en.yml',
 	],
