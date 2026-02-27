@@ -6,7 +6,7 @@
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(gelöscht)",
             "tooltips": {
-                "mostRecent": "",
+                "mostRecent": "Aktuellste",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
                 "revisionWithNumber": "=> huseyinfiliz-diff.ref.revisionWithNumber",
                 "sideBySide": "Nebeneinander",
@@ -21,15 +21,15 @@
             "revertChangesButton": "Änderungen rückgängig machen",
             "confirmRollback": "",
             "confirmDelete": "",
-            "rollbackErrorMessage": "",
-            "deleteErrorMessage": "",
+            "rollbackErrorMessage": "Rückgängig machen der Änderungen fehlgeschlagen.",
+            "deleteErrorMessage": "Löschen der Inhalte der Bearbeitung fehlgeschlagen.",
             "rollbackSuccessMessage": "Deine Änderungen wurden rückgängig gemacht.",
             "deleteSuccessMessage": "Die Inhalte der Bearbeitung wurden gelöscht.",
             "editedInfo": "=> core.forum.post.edited_tooltip",
             "deletedInfo": "{username} hat diesen Inhalt {ago} gelöscht",
             "createdInfo": "{username} hat {ago} erstellt",
-            "revisionInfo": "",
-            "noDiff": "",
+            "revisionInfo": "{revisionCount, plural, one {{revisionCount} Mal} other {{revisionCount} Mal}} bearbeitet, Neueste oben",
+            "noDiff": "Keine Unterschiede zwischen beiden Inhalten gefunden.",
             "differences": {
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
                 "currentContent": "=> huseyinfiliz-diff.ref.currentContent",
@@ -46,31 +46,31 @@
         "admin": {
             "settings": {
                 "title": "Diff-Einstellungen",
-                "onlyUnsigned": "",
-                "usePoint": "",
-                "separateBlock": "",
-                "mainPostOnly": "",
-                "textFormatting": "",
-                "detailLevel": "",
-                "noneLevel": "",
-                "lineLevel": "",
-                "wordLevel": "",
-                "charLevel": "",
-                "neighborLines": "",
-                "neighborLinesHelp": "",
+                "onlyUnsigned": "Es sind nur <strong>unvorzeichenbehaftete Ganzzahlen</strong> zulässig!",
+                "usePoint": "Verwenden Sie <strong>Punkt</strong> als Dezimaltrennzeichen für Fließkommawerte.",
+                "separateBlock": "Trennzeichen zwischen verschiedenen Diff-Hunks in HTML-Renderern anzeigen",
+                "mainPostOnly": "Nur Überarbeitungen des Hauptbeitrags speichern",
+                "textFormatting": "Textformatierung für die Vorschau aktivieren",
+                "detailLevel": "Detailgrad",
+                "noneLevel": "Ohne-Ebene",
+                "lineLevel": "Zeilen-Ebene",
+                "wordLevel": "Wort-Ebene",
+                "charLevel": "Zeichen-Ebene",
+                "neighborLines": "Nachbarzeilen",
+                "neighborLinesHelp": "Gib die Anzahl der Nachbarzeilen an, die angezeigt werden sollen.",
                 "mergeThreshold": "",
                 "mergeThresholdHelp": "",
-                "dbOptimisation": "",
-                "archiveOlds": "",
+                "dbOptimisation": "Datenbank-Optimierung",
+                "archiveOlds": "Alte Überarbeitungen archivieren",
                 "archiveOldsInfo": "",
                 "useCrons": "",
                 "useCronsHelp": "",
                 "archiveInfo": ""
             },
             "permissions": {
-                "viewEditHistory": "",
-                "deleteEditHistory": "",
-                "selfDeleteEditHistory": "",
+                "viewEditHistory": "Bearbeitungsverlauf ansehen",
+                "deleteEditHistory": "Bearbeitungsverlauf von anderen löschen",
+                "selfDeleteEditHistory": "Eigenen Bearbeitungsverlauf löschen",
                 "rollbackEditHistory": "",
                 "selfRollbackEditHistory": ""
             }
@@ -78,7 +78,7 @@
         "ref": {
             "originalContent": "",
             "currentContent": "",
-            "revisionWithNumber": ""
+            "revisionWithNumber": "Überarbeitung {number}"
         }
     }
 }
