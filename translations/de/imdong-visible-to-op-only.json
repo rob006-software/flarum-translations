@@ -2,8 +2,8 @@
     "imdong-visible-to-op-only": {
         "admin": {
             "permissions": {
-                "view-post": "",
-                "view-hide-post": ""
+                "view-post": "Beitrag ansehen",
+                "view-hide-post": "Verborgenen Inhalt ansehen"
             },
             "settings": {
                 "allow-view-sticky": "",
@@ -11,10 +11,10 @@
             }
         },
         "forum": {
-            "button_tooltip_only_op_see": "",
-            "hidden_content_only_op_see": "",
-            "only_op_see": "",
-            "editor_empty_tips": ""
+            "button_tooltip_only_op_see": "Kann nur der Diskussionsstarter sehen",
+            "hidden_content_only_op_see": "Dieser Inhalt ist nur für den Diskussionsstarter sichtbar",
+            "only_op_see": "Kann nur der Diskussionsstarter sehen",
+            "editor_empty_tips": "Code [OP][/OP] ist in der Mitte leer"
         }
     }
 }
