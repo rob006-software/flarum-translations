@@ -1,51 +1,51 @@
 {
     "huseyinfiliz-diff": {
         "forum": {
-            "revisions": "",
-            "emptyText": "",
+            "revisions": "{revisionCount, plural, one {{revisionCount} Überarbeitung} other {{revisionCount} Überarbeitungen}}",
+            "emptyText": "Keine Überarbeitungen",
             "editedText": "=> core.forum.post.edited_text",
-            "deletedText": "",
+            "deletedText": "(gelöscht)",
             "tooltips": {
                 "mostRecent": "",
-                "originalContent": "",
-                "revisionWithNumber": "",
-                "sideBySide": "",
-                "inline": "",
-                "combined": "",
-                "preview": ""
+                "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
+                "revisionWithNumber": "=> huseyinfiliz-diff.ref.revisionWithNumber",
+                "sideBySide": "Nebeneinander",
+                "inline": "Zeilenweise",
+                "combined": "Kombiniert",
+                "preview": "=> core.forum.composer.preview_tooltip"
             },
-            "optionsButton": "",
-            "deleteButton": "",
-            "rollbackButton": "",
-            "rollbackToOriginalButton": "",
-            "revertChangesButton": "",
+            "optionsButton": "Optionen",
+            "deleteButton": "=> core.forum.post_controls.delete_button",
+            "rollbackButton": "Auf Überarbeitung {number} zurücksetzen",
+            "rollbackToOriginalButton": "Auf Original zurücksetzen",
+            "revertChangesButton": "Änderungen rückgängig machen",
             "confirmRollback": "",
             "confirmDelete": "",
             "rollbackErrorMessage": "",
             "deleteErrorMessage": "",
-            "rollbackSuccessMessage": "",
-            "deleteSuccessMessage": "",
-            "editedInfo": "",
-            "deletedInfo": "",
-            "createdInfo": "",
+            "rollbackSuccessMessage": "Deine Änderungen wurden rückgängig gemacht.",
+            "deleteSuccessMessage": "Die Inhalte der Bearbeitung wurden gelöscht.",
+            "editedInfo": "=> core.forum.post.edited_tooltip",
+            "deletedInfo": "{username} hat diesen Inhalt {ago} gelöscht",
+            "createdInfo": "{username} hat {ago} erstellt",
             "revisionInfo": "",
             "noDiff": "",
             "differences": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
-                "sentence": ""
+                "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
+                "currentContent": "=> huseyinfiliz-diff.ref.currentContent",
+                "revisionWithNumber": "=> huseyinfiliz-diff.ref.revisionWithNumber",
+                "sentence": "Du siehst die Änderungen zwischen {old} und {new}"
             },
             "previewMode": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
-                "sentence": ""
+                "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
+                "currentContent": "=> huseyinfiliz-diff.ref.currentContent",
+                "revisionWithNumber": "=> huseyinfiliz-diff.ref.revisionWithNumber",
+                "sentence": "Du siehst die Vorschau für {content}"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Diff-Einstellungen",
                 "onlyUnsigned": "",
                 "usePoint": "",
                 "separateBlock": "",
