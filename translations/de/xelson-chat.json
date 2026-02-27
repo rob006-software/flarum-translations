@@ -3,78 +3,78 @@
         "forum": {
             "pusher_not_found": "",
             "index": {
-                "chat_link": ""
+                "chat_link": "Chat"
             },
             "toolbar": {
-                "title": "",
-                "enable_sounds": "",
-                "disable_sounds": "",
-                "enable_notifications": "",
-                "disable_notifications": "",
-                "minimize": "",
-                "maximize": "",
+                "title": "Chat",
+                "enable_sounds": "Klänge aktivieren",
+                "disable_sounds": "Klänge deaktivieren",
+                "enable_notifications": "Benachrichtigungen aktivieren",
+                "disable_notifications": "Benachrichtigungen deaktivieren",
+                "minimize": "Minimieren",
+                "maximize": "Maximieren",
                 "chat": {
-                    "settings": ""
+                    "settings": "Chat-Einstellungen"
                 }
             },
             "chat": {
                 "welcome": {
-                    "header": "",
+                    "header": "Willkommen bei Neon Chat!",
                     "subheader": ""
                 },
-                "moder": "",
+                "moder": "Moderator",
                 "kick": "",
-                "leave": "",
-                "rejoin": "",
+                "leave": "Verlassen",
+                "rejoin": "Erneut beitreten",
                 "edit_modal": {
-                    "title": "",
+                    "title": "Chat-Einstellungen",
                     "moderator": {
                         "got": "",
                         "lost": ""
                     },
                     "form": {
                         "title": {
-                            "label": "",
+                            "label": "Chatname",
                             "validator": ""
                         },
                         "color": {
-                            "label": "",
-                            "validator": ""
+                            "label": "Farbe",
+                            "validator": "Im Hex-Format"
                         },
                         "icon": {
-                            "label": "",
-                            "validator": ""
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
                         },
                         "users": {
                             "edit": ""
                         },
-                        "leave": "",
+                        "leave": "Chat verlassen",
                         "return": "",
                         "delete": {
                             "title": "",
                             "desc": "",
-                            "placeholder": "",
-                            "button": ""
+                            "placeholder": "Chatname",
+                            "button": "Chat löschen"
                         }
                     },
                     "search": {
-                        "placeholder": "",
-                        "failed": "",
-                        "invited": ""
+                        "placeholder": "Benutzer suchen",
+                        "failed": "Keine Benutzer gefunden",
+                        "invited": "Eingeladen"
                     },
-                    "save_button": ""
+                    "save_button": "=> core.ref.save_changes"
                 },
                 "list": {
                     "pin": "",
                     "unpin": "",
-                    "placeholder": "",
+                    "placeholder": "Chats filtern",
                     "preview": {
-                        "empty": ""
+                        "empty": "Keine Nachrichten"
                     },
                     "add_modal": {
                         "title": "",
-                        "chat": "",
-                        "channel": "",
+                        "chat": "Chat",
+                        "channel": "Kanal",
                         "create": {
                             "chat": "",
                             "channel": ""
@@ -84,42 +84,42 @@
                         },
                         "form": {
                             "title": {
-                                "chat": "",
-                                "channel": "",
-                                "validator": ""
+                                "chat": "Chatname",
+                                "channel": "Kanalname",
+                                "validator": "Mindestens 1 Zeichen"
                             },
                             "icon": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
                             },
                             "color": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
                             },
-                            "users": ""
+                            "users": "Ausgewählte Benutzer"
                         },
                         "search": {
-                            "placeholder": "",
+                            "placeholder": "Benutzer suchen",
                             "failed": "",
-                            "invited": "",
-                            "more_results": ""
+                            "invited": "Eingeladen",
+                            "more_results": "Und {more_results} weitere..."
                         }
                     }
                 },
-                "placeholder": "",
+                "placeholder": "Nachricht eingeben...",
                 "message": {
                     "actions": {
-                        "hide": "",
-                        "resend": ""
+                        "hide": "Verbergen",
+                        "resend": "Erneut senden"
                     },
                     "censored": "",
                     "deleted": "",
                     "deleted_forever": "",
                     "you": "",
                     "type": {
-                        "url": "",
+                        "url": "URL",
                         "event": "",
-                        "code": ""
+                        "code": "<Code />"
                     },
                     "events": {
                         "chat": {
@@ -146,8 +146,8 @@
                             "invited_kicked": ""
                         },
                         "self": {
-                            "leaved": "",
-                            "entered": ""
+                            "leaved": "{username} hat den Chat verlassen",
+                            "entered": "{username} ist dem Chat beigetreten"
                         }
                     }
                 }
@@ -163,7 +163,7 @@
                 "post": "",
                 "edit": "",
                 "delete": "",
-                "enabled": "",
+                "enabled": "Chat aktivieren",
                 "create": {
                     "chat": "",
                     "channel": ""
@@ -174,7 +174,7 @@
                 }
             },
             "settings": {
-                "title": "",
+                "title": "Chat-Einstellungen",
                 "charlimit": "",
                 "floodgate": {
                     "title": "",
@@ -182,7 +182,7 @@
                     "time": ""
                 },
                 "display": {
-                    "title": "",
+                    "title": "Darstellung",
                     "minimize": "",
                     "censor": ""
                 }
