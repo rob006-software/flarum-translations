@@ -484,6 +484,9 @@ return [
 	],
 	'dshovchko-image-dimensions' => [
 		'tag' => 'https://raw.githubusercontent.com/dshovchko/flarum-image-dimensions/v1.5.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'uk',
+		],
 	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.2.0/resources/locale/en.yml',
