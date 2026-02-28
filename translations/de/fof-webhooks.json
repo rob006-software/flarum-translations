@@ -66,7 +66,7 @@
                     "url": "Der Endpunkt des Webhooks, der ausgeführt werden soll"
                 },
                 "modal": {
-                    "title": "Webhook Einstellungen",
+                    "title": "Webhook-Einstellungen",
                     "description": "Hier änderst du, bei welchen Ereignissen der Webhook ausgeführt wird.",
                     "use_plain_text_label": "Reduziere die Menge an Formatierungen im Beitrag",
                     "max_post_content_length_label": "Maximale Beitrags-Länge",
@@ -75,10 +75,10 @@
                     "extra_text_help": "Zusätzlicher Text, der im gesendeten Webhook enthalten sein soll.",
                     "group_label": "Gruppe",
                     "group_help": "Ressourcen senden, die von dieser Gruppe gesehen werden können",
-                    "name_label": "",
-                    "name_help": "",
+                    "name_label": "Name",
+                    "name_help": "Der Name des Webhooks. Dieser wird für Dinge wie den Discord-Benutzernamen, Slack-Botnamen u.Ä. verwendet.",
                     "events_label": "Ereignisse",
-                    "include_matching_tags_label": ""
+                    "include_matching_tags_label": "Zutreffende Themen einschliessen — Für Webhooks, die auf bestimmte Themen beschränkt sind, wird angezeigt, welche Themen das Ereignis auslösen"
                 },
                 "services": {
                     "discord": "Discord",

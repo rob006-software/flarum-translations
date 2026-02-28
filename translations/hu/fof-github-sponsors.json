@@ -7,13 +7,13 @@
             },
             "settings": {
                 "api_token_label": "API-token",
-                "api_token_help": "",
+                "api_token_help": "Hozzon létre személyes hozzáférési tokent a <a>https://github.com/settings/tokens/new</a> oldalon <code>user</code> és <code>read:org</code> hatókörökkel. Ez a token a szponzorinformációk GitHubról való letöltéséhez lesz használva.",
                 "account_type_label": "Fiók típusa",
-                "account_type_help": "",
+                "account_type_help": "Válassza ki, hogy személyes vagy szervezeti GitHub-fiók szponzorait követi.",
                 "login_label": "Bejelentkezés",
-                "login_help": "",
+                "login_help": "Adja meg a GitHubon használt felhasználónevét (felhasználói fiókokhoz) vagy a szervezeti nevét (szervezetek számára). Ez az a fiók, melynek a szponzorai szinkronizálva lesznek.",
                 "group_label": "Hozzárendelendő csoport",
-                "group_help": ""
+                "group_help": "Válassza ki a Flarum felhasználói csoportot, amelyhez a szponzorok hozzá lesznek adva. A felhasználók automatikusan hozzá lesznek adva, ha szponzorok lesznek, és el lesznek távolítva, ha leállítják a szponzorációt."
             }
         }
     }

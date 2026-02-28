@@ -4,7 +4,7 @@
             "permissions": {
                 "best_answer": "Beste Antwort auswählen (eigene Diskussion)",
                 "best_answer_not_own_discussion": "Beste Antwort auswählen (nicht eigene Diskussion)",
-                "allow_select_own_post": ""
+                "allow_select_own_post": "Eigenen Beitrag als Beste Antwort auswählen"
             },
             "settings": {
                 "label": {
@@ -12,22 +12,22 @@
                     "general": "Allgemein",
                     "reminders": "Erinnerungen",
                     "advanced": "Erweitert",
-                    "reminders_notice": "Damit Erinnerungen funktionieren, müssen Sie den Flarum-Planer richtig eingerichtet haben."
+                    "reminders_notice": "Damit Erinnerungen funktionieren, musst du den Flarum-Planer richtig eingerichtet haben."
                 },
                 "show_max_lines_label": "Maximal anzuzeigende Zeilen in der Postvorschau",
                 "show_max_lines_help": "Zum Deaktivieren auf 0 festlegen. Wenn ein Beitrag länger als die konfigurierte Anzahl von Zeilen ist, wird er in der Beitragsvorschau mit einem Ausblendeffekt abgeschnitten.",
                 "select_best_answer_reminder_days": "Erinnerungshäufigkeit",
-                "select_best_answer_reminder_days_help": "Sende nach der konfigurierbaren Anzahl von Tagen eine Erinnerung an das OP, um eine beste Antwort auszuwählen, 0 = Erinnerungen deaktivieren.",
+                "select_best_answer_reminder_days_help": "Sende nach der konfigurierbaren Anzahl von Tagen eine Erinnerung an den Diskussionsstarter, um eine beste Antwort auszuwählen, 0 = Erinnerungen deaktivieren.",
                 "select_best_answer_tags_label": "Tags für Diskussionen mit Besten Antworten",
                 "select_best_answer_tags_help": "Wähle aus, ob und welche Tags zu Diskussionen hinzugefügt werden sollen, wenn eine Beste Antwort festgelegt wird. Es sind nur sekundäre Tags erlaubt. Diese Tags werden entfernt, wenn die Beste Antwort entfernt wird.",
-                "schedule_on_one_server": "Verwende die Direktive 'onOneServer()' für den Taskplaner",
+                "schedule_on_one_server": "Direktive 'onOneServer()' für den Taskplaner verwenden",
                 "schedule_on_one_server_help": "Erfordert Redis/Memcache",
                 "schedule_stop_overnight": "Verhindern, dass Erinnerungsbenachrichtigungen während unsozialer Zeiten gesendet werden",
                 "schedule_stop_overnight_help": "21:00 - 08:00 Uhr Serverzeit",
                 "schedule_log_output": "Scheduler-Output an den Log anhängen",
                 "show_filter_label": "Dropdown-Liste für Filter für beste Antwort anzeigen",
                 "show_filter_help": "Wähle für Tags, bei denen die besten Antworten aktiviert sind, die Filteroption gelöst/ungelöst in der Diskussionsliste anzeigen",
-                "use_alt_ui": "Alternatives Layout",
+                "use_alt_ui": "Alternatives Layout verwenden",
                 "use_alt_ui_help": "Beste Antwortsteuerelemente in der Fußzeile des Beitrags",
                 "documentation": "Dokumentation",
                 "enabled_tags_label": "Aktivierte Tags",

@@ -162,12 +162,12 @@
             "dashboard": {
                 "clear_cache_button": "Tyhjennä välimuisti",
                 "description": "Foorumisi yhdellä silmäyksellä.",
-                "info_button": "",
+                "info_button": "Järjestelmän tiedot",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Järjestelmän tiedot",
+                    "copy_button": "Kopioi leikepöydälle",
+                    "copy_success": "Järjestelmän tiedot kopioitu leikepöydälle",
+                    "copy_error": "Leikepöydälle kopiointi epäonnistui"
                 },
                 "io_error_message": "Tiedostoihin ei voitu kirjoittaa. Tarkista tiedostojen ja kansioiden oikeudet ja yritä uudelleen. Tai voit yrittää ajaa komentoriviltä.",
                 "status": {
@@ -253,12 +253,12 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Tätä laajennusta ei enää ylläpidä sen tekijä, eikä se välttämättä saa päivityksiä.",
+                "abandoned_with_replacement": "Tämä laajennus on korvattu paketilla {replacement}. Harkitse siirtymistä korvaavaan pakettiin.",
                 "configure_scopes": "Määritä laajuudet (scopes)",
                 "confirm_purge": "Puhdistus poistaa kaikki tietokantamerkinnät ja liittyvät tiedostot tähän lisäosaan liittyen. Se ei poista lisäosan asennusta; se pitää tehdä Composerin kautta. Haluatko varmasti jatkaa?",
                 "database_driver_mismatch": "",
-                "deprecated": "",
+                "deprecated": "Käytöstä poistettu",
                 "disabled": "Poistettu käytöstä",
                 "enable_to_see": "Ota tämä lisäosa käyttää nähdäksesi ja muuttaaksesi asetuksia.",
                 "enabled": "Käytössä",
@@ -280,7 +280,7 @@
                     "no_readme": "Tällä lisäosalla ei näytä olevan README tiedostoa",
                     "title": "{extName} dokumentaatio"
                 },
-                "replaced": "",
+                "replaced": "Korvattu",
                 "safe_mode_warning": ""
             },
             "header": {
