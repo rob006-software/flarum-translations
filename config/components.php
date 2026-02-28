@@ -1419,7 +1419,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.4.8/resources/locale/en.yml',
 	],
 	'tryhackx-magnet-link' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-magnet-link/1.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-magnet-link/1.0.5/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
