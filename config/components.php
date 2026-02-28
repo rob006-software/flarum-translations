@@ -189,7 +189,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/2.0.0-beta.5/resources/locale/en.yml',
 	],
 	'fof-upload' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/2.0.0-beta.1/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/2.0.0-beta.2/resources/locale/en.yml',
 	],
 	'fof-user-bio' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/2.0.0-beta.2/resources/locale/en.yml',
