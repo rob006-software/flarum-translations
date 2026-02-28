@@ -207,7 +207,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/2.0.0/resources/locale/en.yml',
 	],
 	'forumaker-magicread' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/magicread/2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/magicread/2.1.0/resources/locale/en.yml',
 	],
 	'forumaker-magicslider' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicslider/2.0.0/resources/locale/en.yml',
