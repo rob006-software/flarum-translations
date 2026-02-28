@@ -1712,6 +1712,12 @@ return [
 			'de@formal',
 		],
 	],
+	'wszdb-shareurl' => [
+		'tag' => 'https://raw.githubusercontent.com/wszdb/flarum-shareurl/v0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.5/resources/locale/en.yaml',
 		'__builtInLanguages' => [
