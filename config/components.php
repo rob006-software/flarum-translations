@@ -171,7 +171,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/2.0.0-beta.2/resources/locale/en.yml',
 	],
 	'fof-sentry' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/2.0.0-beta.2/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/2.0.0-beta.3/resources/locale/en.yml',
 	],
 	'fof-sitemap' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/3.0.0-beta.5/resources/locale/en.yml',
