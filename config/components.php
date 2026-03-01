@@ -212,6 +212,12 @@ return [
 	'forumaker-magicslider' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicslider/2.1.0/resources/locale/en.yml',
 	],
+	'hamcq-mathren' => [
+		'tag' => 'https://raw.githubusercontent.com/HamCQ/flarum-mathren/1.0.10/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'huoxin-relative-url' => [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/2.0.0-beta.1/locale/en.yml',
 	],
