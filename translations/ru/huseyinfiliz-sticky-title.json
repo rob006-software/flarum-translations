@@ -2,34 +2,34 @@
     "huseyinfiliz-sticky-title": {
         "admin": {
             "settings": {
-                "title": "",
-                "mobile_section_title": "",
-                "mobile_scroll_label": "",
-                "mobile_scroll_help": "",
+                "title": "Настройки закреплённого заголовка",
+                "mobile_section_title": "Настройки для мобильных устройств",
+                "mobile_scroll_label": "Отображение заголовка дискуссии на мобильных устройствах",
+                "mobile_scroll_help": "Выберите, когда показывать заголовок обсуждения в мобильной шапке",
                 "mobile_scroll_options": {
-                    "always": "",
-                    "scroll_down": "",
-                    "scroll_up": "",
-                    "never": ""
+                    "always": "Показывать всегда",
+                    "scroll_down": "Показывать при прокрутке вниз",
+                    "scroll_up": "Показывать при прокрутке вверх",
+                    "never": "Никогда не показывать"
                 },
-                "scrubber_section_title": "",
-                "scrubber_replace_original_label": "",
-                "scrubber_replace_original_help": "",
+                "scrubber_section_title": "Настройки панели навигации",
+                "scrubber_replace_original_label": "Заменить «Original Post» на заголовок обсуждения",
+                "scrubber_replace_original_help": "Выберите, где отображать заголовок обсуждения вместо «Original Post»",
                 "scrubber_replace_options": {
-                    "never": "",
-                    "mobile": "",
-                    "desktop": "",
-                    "both": ""
+                    "never": "Никогда не заменять",
+                    "mobile": "Только на мобильных",
+                    "desktop": "Только на десктопе",
+                    "both": "На мобильных и десктопе"
                 },
-                "web_section_title": "",
-                "web_scrubber_title_label": "",
-                "web_scrubber_title_help": "",
-                "fof_pages_section_title": "",
-                "fof_pages_header_label": "",
-                "fof_pages_header_help": "",
-                "blog_header_label": "",
-                "blog_header_help": "",
-                "save_settings": ""
+                "web_section_title": "Настройки десктопа",
+                "web_scrubber_title_label": "Показывать заголовок над панелью навигации",
+                "web_scrubber_title_help": "Отображает заголовок обсуждения над панелью навигации на десктопе",
+                "fof_pages_section_title": "Настройки FoF Pages",
+                "fof_pages_header_label": "Показывать заголовок страницы в мобильной шапке",
+                "fof_pages_header_help": "Отображает заголовок страницы в мобильной шапке при просмотре FoF Pages",
+                "blog_header_label": "Показывать заголовок блога в мобильной шапке",
+                "blog_header_help": "Отображает заголовок статьи в мобильной шапке при просмотре записей блога",
+                "save_settings": "Сохранить настройки"
             }
         }
     }
