@@ -738,6 +738,9 @@ return [
 	],
 	'gtdxyz-ui-links' => [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ui-links/1.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
 	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
