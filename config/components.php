@@ -110,6 +110,9 @@ return [
 	'flarum-pusher' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/pusher/v2.0.0-beta.7/locale/en.yml',
 	],
+	'flarum-realtime' => [
+		'beta' => 'https://raw.githubusercontent.com/flarum/realtime/v2.0.0-beta.7/resources/locale/en.yml',
+	],
 	'flarum-statistics' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/statistics/v2.0.0-beta.7/locale/en.yml',
 	],
