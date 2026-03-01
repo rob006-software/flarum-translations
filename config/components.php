@@ -466,6 +466,9 @@ return [
 	],
 	'devmindslab-link-redirect-confirm' => [
 		'tag' => 'https://raw.githubusercontent.com/DevMindsLab/link-redirect-confirm/v1.0.4/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'de',
+		],
 	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.2.0/resources/locale/en.yml',
