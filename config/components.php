@@ -32,6 +32,9 @@ return [
 	'datitisev-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/main/datitisev-backup.yml',
 	],
+	'datlechin-bbcode-hide-content' => [
+		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v2.0.0-beta.1/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.7/locale/en.yml',
 	],
