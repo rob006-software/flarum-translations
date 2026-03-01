@@ -38,6 +38,9 @@ return [
 	'datlechin-birthdays' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays/v3.0.0-beta.1/locale/en.yml',
 	],
+	'datlechin-copy-links' => [
+		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-copy-links/v2.0.0-beta.1/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.7/locale/en.yml',
 	],
