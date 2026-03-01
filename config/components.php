@@ -487,6 +487,9 @@ return [
 	'davwheat-ads' => [
 		'tag' => 'https://raw.githubusercontent.com/davwheat/flarum-ext-ads/1.2.0/locale/en.yml',
 	],
+	'davwheat-blog-featured-widget' => [
+		'beta' => 'https://raw.githubusercontent.com/davwheat/flarum-ext-blog-featured-widget/0.1.0-beta.3/locale/en.yml',
+	],
 	'davwheat-custom-sidenav-links' => [
 		'tag' => 'https://raw.githubusercontent.com/davwheat/flarum-ext-custom-sidenav-links/1.0.1/locale/en.yml',
 	],
