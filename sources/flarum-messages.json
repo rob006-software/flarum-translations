@@ -1,0 +1,100 @@
+{
+    "flarum-messages": {
+        "admin": {
+            "permissions": {
+                "send_messages_label": "Send private messages",
+                "delete_own_messages_label": "Delete own messages"
+            }
+        },
+        "forum": {
+            "composer": {
+                "discard_confirmation": "You have not sent your message. Are you sure you want to discard it?",
+                "placeholder": "Write a message...",
+                "recipients": "Recipients",
+                "submit_button": "Send message",
+                "to": "To:"
+            },
+            "dialog_list": {
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Mark as read",
+                "title": "Messages",
+                "view_all": "View all messages"
+            },
+            "dialog_section": {
+                "back_label": "Go back",
+                "cannot_reply_text": "This user cannot reply",
+                "controls": {
+                    "details_button": "Details"
+                },
+                "controls_toggle_label": "Dialog control actions",
+                "details_modal": {
+                    "created_at": "Creation date",
+                    "recipients": "Participants",
+                    "title": "Conversation details"
+                }
+            },
+            "header": {
+                "dropdown_tooltip": "Messages"
+            },
+            "index": {
+                "messages_link": "Messages"
+            },
+            "index_sort": {
+                "latest_button": "Latest",
+                "newest_button": "Newest",
+                "oldest_button": "Oldest"
+            },
+            "message_controls": {
+                "delete_button": "Delete",
+                "delete_confirmation": "Are you sure you want to delete this message? This action cannot be undone."
+            },
+            "messages_page": {
+                "cannot_send_message_button": "Can't Send a Message",
+                "empty_text": "No new messages",
+                "hero": {
+                    "title": "Messages",
+                    "subtitle": "Your private conversations with other users"
+                },
+                "mark_all_as_read_tooltip": "Mark all as read",
+                "refresh_tooltip": "Refresh",
+                "send_message_button": "Send a Message",
+                "stream": {
+                    "load_previous_button": "Load previous messages",
+                    "load_next_button": "Load next messages",
+                    "start_of_the_conversation": "Start of the conversation",
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
+                },
+                "title": "Messages"
+            },
+            "recipient_selection_modal": {
+                "title": "Select the recipients of this message"
+            },
+            "settings": {
+                "notify_message_received_label": "Someone sends me a message"
+            },
+            "user_controls": {
+                "send_message_button": "Send a message",
+                "cannot_reply_text": "This user cannot reply"
+            },
+            "notifications": {
+                "message_received_text": "Message Received notification from {user}"
+            }
+        },
+        "email": {
+            "message_received": {
+                "subject": "{user_display_name} sent you a message",
+                "plain": {
+                    "body": "{user_display_name} sent you a new message.\n\n{url}\n\n---\n\n{content}\n"
+                },
+                "html": {
+                    "body": "{user_display_name} sent you a [new message]({url})."
+                }
+            }
+        },
+        "lib": {
+            "dialog": {
+                "title": "Messaging {username}"
+            }
+        }
+    }
+}

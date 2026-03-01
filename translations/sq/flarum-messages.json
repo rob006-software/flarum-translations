@@ -1,0 +1,100 @@
+{
+    "flarum-messages": {
+        "admin": {
+            "permissions": {
+                "send_messages_label": "",
+                "delete_own_messages_label": ""
+            }
+        },
+        "forum": {
+            "composer": {
+                "discard_confirmation": "",
+                "placeholder": "",
+                "recipients": "",
+                "submit_button": "",
+                "to": ""
+            },
+            "dialog_list": {
+                "load_more_button": "",
+                "mark_as_read_tooltip": "",
+                "title": "",
+                "view_all": ""
+            },
+            "dialog_section": {
+                "back_label": "",
+                "cannot_reply_text": "",
+                "controls": {
+                    "details_button": ""
+                },
+                "controls_toggle_label": "",
+                "details_modal": {
+                    "created_at": "",
+                    "recipients": "",
+                    "title": ""
+                }
+            },
+            "header": {
+                "dropdown_tooltip": ""
+            },
+            "index": {
+                "messages_link": ""
+            },
+            "index_sort": {
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": ""
+            },
+            "message_controls": {
+                "delete_button": "",
+                "delete_confirmation": ""
+            },
+            "messages_page": {
+                "cannot_send_message_button": "",
+                "empty_text": "",
+                "hero": {
+                    "title": "",
+                    "subtitle": ""
+                },
+                "mark_all_as_read_tooltip": "",
+                "refresh_tooltip": "",
+                "send_message_button": "",
+                "stream": {
+                    "load_previous_button": "",
+                    "load_next_button": "",
+                    "start_of_the_conversation": "",
+                    "time_lapsed_text": ""
+                },
+                "title": ""
+            },
+            "recipient_selection_modal": {
+                "title": ""
+            },
+            "settings": {
+                "notify_message_received_label": ""
+            },
+            "user_controls": {
+                "send_message_button": "",
+                "cannot_reply_text": ""
+            },
+            "notifications": {
+                "message_received_text": ""
+            }
+        },
+        "email": {
+            "message_received": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
+        },
+        "lib": {
+            "dialog": {
+                "title": ""
+            }
+        }
+    }
+}
