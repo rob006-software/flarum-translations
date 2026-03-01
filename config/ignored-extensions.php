@@ -15,6 +15,7 @@ return [
 	'zaptech/cookie-consent', // migrated to `fof/cookie-consent`
 	// migrated to `forumaker/*` - https://github.com/rob006-software/flarum-translations/pull/1445
 	'capybash/magicbb',
+	'capybash/magicdice',
 	'capybash/magicread',
 	'capybash/magicslider',
 	// migrated to `fof/*`
