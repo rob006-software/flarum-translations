@@ -50,14 +50,14 @@
                 "uniformComposerLayoutHelp": "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n",
                 "noByobuFields": "Jangan mengintegrasikan bidang diskusi dengan diskusi pribadi dari ekstensi Byobu",
                 "noByobuFieldsHelp": "Secara default, bidang diskusi yang tidak diberi tag akan berlaku untuk semua diskusi termasuk diskusi pribadi.",
-                "translateManually": "",
-                "translateManuallyHelp": "",
-                "translateWithTranslator": "",
-                "translateWithTranslatorHelp": "",
-                "replacementPatternLocale": "",
-                "replacementPatternLocaleHelp": "",
+                "translateManually": "Aktifkan terjemahan formulir secara manual",
+                "translateManuallyHelp": "Ketika pengaturan ini aktif, nama field dapat diterjemahkan langsung di antarmuka pengelola formulir (Form Manager UI). Beberapa bahasa harus sudah diaktifkan di forum Anda.\n",
+                "translateWithTranslator": "Aktifkan terjemahan formulir menggunakan Flarum Translator API",
+                "translateWithTranslatorHelp": "Ketika pengaturan ini aktif, nama field dapat disesuaikan melalui local extenders dan paket bahasa. Lihat dokumentasi untuk cara menggunakan fitur ini.\n",
+                "replacementPatternLocale": "Bahasa yang digunakan saat menerapkan pola penggantian (replacement pattern)",
+                "replacementPatternLocaleHelp": "Opsi default \"auto\" berarti bahasa pengguna yang mengirimkan formulir akan digunakan jika tidak ada antrean aktif. Jika ada antrean aktif, maka bahasa default forum yang digunakan. Pengaturan ini memengaruhi email notifikasi dan pembuatan diskusi otomatis.\n",
                 "replacementPatternLocaleOptions": {
-                    "auto": ""
+                    "auto": "Otomatis"
                 }
             }
         },
@@ -66,8 +66,8 @@
                 "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "require-submission-alert": {
-                "message": "",
-                "action": ""
+                "message": "Kami telah membatasi akses ke akun Anda untuk sementara waktu sampai Anda mengisi formulir “{title}”.",
+                "action": "Buka Formulir"
             },
             "form-index": {
                 "header": {
@@ -129,7 +129,7 @@
                 },
                 "tabs": {
                     "template": "Template",
-                    "translate": "",
+                    "translate": "Terjemahkan",
                     "placement": "Penempatan",
                     "access": "Akses",
                     "notifications": "Notifikasi",
@@ -147,7 +147,7 @@
                 "template-export": "Impor/ekspor template",
                 "enable-expert-mode": "Aktifkan mode expert",
                 "disable-expert-mode": "Matikan mode expert",
-                "show-advanced-attributes": "",
+                "show-advanced-attributes": "Tampilkan atribut lanjutan...",
                 "restore": "Pulihkan",
                 "hide": "Hapus",
                 "delete": "Hapus permanen",
@@ -161,11 +161,11 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "Anda perlu menyetel izin \"lihat milik sendiri\" dan \"edit milik sendiri\" kepada anggota yang tidak disetujui untuk menggunakan \"tampilkan saat mendaftar\".\n",
                     "show-on-composer-invalid-permissions": "Pastikan izin \"lihat sendiri\" dan \"edit sendiri\" sesuai dengan siapa yang dapat memulai diskusi dengan tag yang dipilih untuk menggunakan \"tampilkan di area penulisan\". Atur ke \"anggota\" jika tidak yakin. Pesan ini dapat muncul meskipun pengaturan Anda sudah benar.\n",
-                    "require-submission-invalid-permissions": "",
+                    "require-submission-invalid-permissions": "Anda perlu mengatur izin “lihat sendiri” dan “edit sendiri” untuk anggota yang belum disetujui agar dapat menggunakan fitur “harus mengirimkan formulir untuk menggunakan forum”.\n",
                     "linked-form-is-draft": "Formulir ini saat ini dalam mode konsep. Aktifkan di bawah \"Akses\" agar kolom dapat muncul di forum.\n",
                     "auto-link-permission-warning": "Formulir dengan opsi \"secara otomatis membuat diskusi\" menggunakan izin pengisian global ketika diakses secara mandiri.\n"
                 },
-                "expert-mode-warning": "Mode expert diaktifkan. Hal ini memungkinkan Anda untuk menyesuaikan pengenal kolom dan izin per kolom. Pastikan Anda membaca dokumentasi tentang fitur-fitur tersebut, karena Anda mungkin akan merusaknya!\n",
+                "expert-mode-warning": "Atribut bidang lanjutan terlihat. Pastikan Anda membaca dokumentasi tentang fitur-fitur tersebut, karena Anda mungkin dapat merusak sesuatu!\n",
                 "section": {
                     "template": "Template",
                     "permissions": "Perizinan"
@@ -179,8 +179,8 @@
                         "user": "Tampilkan dalam pendaftaran"
                     },
                     "require-submission": {
-                        "switch": "",
-                        "warning": ""
+                        "switch": "Harus mengirimkan formulir untuk menggunakan forum",
+                        "warning": "Setelah menyimpan, pengguna dengan formulir yang belum lengkap akan diblokir dari forum hingga mereka mengirimkan kembali. Lanjutkan?"
                     },
                     "automatic-discussion": "Secara otomatis membuat diskusi dari formulir pengajuan",
                     "automatic-discussion-help": "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Pengajuan akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n",
@@ -211,12 +211,12 @@
                 "save-for-preview": "Simpan untuk pratinjau"
             },
             "show-advanced-attributes-modal": {
-                "title": "",
+                "title": "Tampilkan atribut field lanjutan",
                 "toggle": "",
-                "close": "",
+                "close": "Tutup",
                 "attribute": {
                     "key": "",
-                    "fillPermission": "",
+                    "fillPermission": "Izin pengisian",
                     "translationKey": ""
                 }
             },
@@ -271,7 +271,7 @@
                 "regex": "Regular expression",
                 "mime": "Jenis MIME (dipisahkan koma, menerima karakter pengganti sebagai bagian kedua)",
                 "other": "Izinkan value pengguna \"lainnya\"",
-                "defaultValue": "",
+                "defaultValue": "Nilai default",
                 "duplicate": "Duplikat kolom",
                 "delete": "Hapus kolom",
                 "missing-title": "Kolom tanpa judul",
@@ -294,7 +294,7 @@
                     "title": "Judul",
                     "titleTranslationKey": "",
                     "key": "(Expert) Kunci unik",
-                    "defaultValue": ""
+                    "defaultValue": "Secara default"
                 },
                 "remove": "Hapus opsi",
                 "new-placeholder": "Opsi baru..."
@@ -318,8 +318,8 @@
                 "other-placeholder": "Ketik..."
             },
             "translate": {
-                "switch-tab-to-edit": "",
-                "option-heading": ""
+                "switch-tab-to-edit": "Beralih ke tab Template untuk mengubah konfigurasi field",
+                "option-heading": "Opsi #{number}"
             },
             "submission": {
                 "form-closed": "Formulir ini ditutup.",
@@ -397,8 +397,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
-                    "user_joined_at": "",
-                    "user_groups": "",
+                    "user_joined_at": "=> kilowhat-formulaire.ref.submission-meta.user_joined_at",
+                    "user_groups": "=> kilowhat-formulaire.ref.submission-meta.user_groups",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -443,8 +443,8 @@
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
                     "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
                     "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
-                    "user_joined_at": "",
-                    "user_groups": "",
+                    "user_joined_at": "=> kilowhat-formulaire.ref.submission-meta.user_joined_at",
+                    "user_groups": "=> kilowhat-formulaire.ref.submission-meta.user_groups",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -486,8 +486,8 @@
                 "user_displayname": "Nama Tampilan Pengguna",
                 "user_email": "Email Pengguna",
                 "user_activated": "Akun Aktif",
-                "user_joined_at": "",
-                "user_groups": "",
+                "user_joined_at": "Tanggal Pendaftaran Pengguna",
+                "user_groups": "Grup Pengguna",
                 "link_id": "ID sumber daya yang ditautkan",
                 "locked_at": "Tanggal Penguncian",
                 "created_at": "Tanggal Pembuatan",
