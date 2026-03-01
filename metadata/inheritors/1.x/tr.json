@@ -4614,6 +4614,37 @@
             }
         }
     },
+    "import-ai-webhook-notification.json": {
+        "import-ai-webhook-notification": {
+            "admin": {
+                "settings": {
+                    "channel_icon_help": "4b9296b616dccda21af7bc964cf5ce70 4b9296b616dccda21af7bc964cf5ce70",
+                    "channel_icon_label": "a7d89955c8f683eb8db8fa7037b81d02 a7d89955c8f683eb8db8fa7037b81d02",
+                    "channel_label_help": "ec1336ac4c11a8efe727daead5e3c0d1 ec1336ac4c11a8efe727daead5e3c0d1",
+                    "channel_label_label": "fecf43af47aaffbd8ad71569ab582a54 fecf43af47aaffbd8ad71569ab582a54",
+                    "retry_count_help": "f0f1bd9c84eead7332db6d411f5a0683 f0f1bd9c84eead7332db6d411f5a0683",
+                    "retry_count_label": "ab797d4136ec3253187c61f4f37fb77e ab797d4136ec3253187c61f4f37fb77e",
+                    "timeout_help": "22c1453c42d4039d09d4861fb3c3cf7a 22c1453c42d4039d09d4861fb3c3cf7a",
+                    "timeout_label": "350a2a8e9e8dba34939e89547b712a0e 350a2a8e9e8dba34939e89547b712a0e",
+                    "webhook_token_help": "7278edb284206b69ff892581f9d47c2d 7278edb284206b69ff892581f9d47c2d",
+                    "webhook_token_label": "f341a60aced6ddcab2728bc352af3fb9 f341a60aced6ddcab2728bc352af3fb9",
+                    "webhook_url_help": "8141f9e02bbb30632be61e7477900a03 8141f9e02bbb30632be61e7477900a03",
+                    "webhook_url_label": "6c8e5545aa31e6c8ccc0b703a9460383 6c8e5545aa31e6c8ccc0b703a9460383"
+                },
+                "validation": {
+                    "channel_icon_invalid": "8b162457a2fc47f5d0d103e3154c2b30 8b162457a2fc47f5d0d103e3154c2b30",
+                    "channel_label_required": "b83fa3fea789af62d37a015139e6672d b83fa3fea789af62d37a015139e6672d",
+                    "retry_count_invalid": "2e70dad6f4c6bb2ad106bf39791b4942 2e70dad6f4c6bb2ad106bf39791b4942",
+                    "timeout_invalid": "94eabc0fb23f012c45b46d2e32a71a14 94eabc0fb23f012c45b46d2e32a71a14"
+                }
+            },
+            "forum": {
+                "settings": {
+                    "notify_webhook_label": "150c7abfca6c489fee5cb82fbb7a9bc4 150c7abfca6c489fee5cb82fbb7a9bc4"
+                }
+            }
+        }
+    },
     "justoverclock-related-discussions.json": {
         "justoverclock-related-discussions": {
             "admin": {
