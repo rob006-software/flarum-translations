@@ -270,6 +270,12 @@ return [
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v2.0.0/resources/locale/en.yml',
 	],
+	'tryhackx-magnet-link' => [
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-magnet-link/2.0.5/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'pl',
+		],
+	],
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.0/locale/en.yml',
 	],
