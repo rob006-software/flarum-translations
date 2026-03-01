@@ -739,6 +739,9 @@ return [
 	'fof-rich-text' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/rich-text/1.0.0/resources/locale/en.yml',
 	],
+	'fof-s3-assets' => [
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/s3-assets/1.0.0-beta.4/locale/en.yml',
+	],
 	'fof-secure-https' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/1.1.3/resources/locale/en.yml',
 	],
