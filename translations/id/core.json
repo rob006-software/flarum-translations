@@ -162,12 +162,12 @@
             "dashboard": {
                 "clear_cache_button": "Hapus Cache",
                 "description": "Sekilas tentang forum Anda.",
-                "info_button": "",
+                "info_button": "Info Sistem",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Informasi Sistem",
+                    "copy_button": "Salin ke Clipboard",
+                    "copy_success": "Informasi sistem telah disalin ke clipboard",
+                    "copy_error": "Gagal menyalin ke clipboard"
                 },
                 "io_error_message": "Tidak dapat menulis ke filesystem. Periksa izin filesystem Anda dan coba lagi. Atau coba jalankan dari command line.",
                 "status": {
