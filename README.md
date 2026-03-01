@@ -814,8 +814,10 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`flarum-lock`](https://weblate.rob006.net/projects/flarum2/flarum-lock) | [`flarum/lock`](https://github.com/flarum/lock) |
 | [`flarum-markdown`](https://weblate.rob006.net/projects/flarum2/flarum-markdown) | [`flarum/markdown`](https://github.com/flarum/markdown) |
 | [`flarum-mentions`](https://weblate.rob006.net/projects/flarum2/flarum-mentions) | [`flarum/mentions`](https://github.com/flarum/mentions) |
+| [`flarum-messages`](https://weblate.rob006.net/projects/flarum2/flarum-messages) | [`flarum/messages`](https://github.com/flarum/messages) |
 | [`flarum-nicknames`](https://weblate.rob006.net/projects/flarum2/flarum-nicknames) | [`flarum/nicknames`](https://github.com/flarum/nicknames) |
 | [`flarum-pusher`](https://weblate.rob006.net/projects/flarum2/flarum-pusher) | [`flarum/pusher`](https://github.com/flarum/pusher) |
+| [`flarum-realtime`](https://weblate.rob006.net/projects/flarum2/flarum-realtime) | [`flarum/realtime`](https://github.com/flarum/realtime) |
 | [`flarum-statistics`](https://weblate.rob006.net/projects/flarum2/flarum-statistics) | [`flarum/statistics`](https://github.com/flarum/statistics) |
 | [`flarum-sticky`](https://weblate.rob006.net/projects/flarum2/flarum-sticky) | [`flarum/sticky`](https://github.com/flarum/sticky) |
 | [`flarum-subscriptions`](https://weblate.rob006.net/projects/flarum2/flarum-subscriptions) | [`flarum/subscriptions`](https://github.com/flarum/subscriptions) |
@@ -892,6 +894,9 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-posted-on`](https://weblate.rob006.net/projects/flarum2/datlechin-posted-on) | [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on) |
 | [`datlechin-scroll-buttons`](https://weblate.rob006.net/projects/flarum2/datlechin-scroll-buttons) | [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons) |
 | [`datlechin-signup-button`](https://weblate.rob006.net/projects/flarum2/datlechin-signup-button) | [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button) |
+| [`datlechin-silent-edit`](https://weblate.rob006.net/projects/flarum2/datlechin-silent-edit) | [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit) |
+| [`datlechin-tag-passwords`](https://weblate.rob006.net/projects/flarum2/datlechin-tag-passwords) | [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords) |
+| [`flarum-com-database-queue`](https://weblate.rob006.net/projects/flarum2/flarum-com-database-queue) | [`flarum-com/database-queue`](https://github.com/flarum-com/database-queue) |
 | [`flectar-turnstile`](https://weblate.rob006.net/projects/flarum2/flectar-turnstile) | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
 | [`forumaker-magicbb`](https://weblate.rob006.net/projects/flarum2/forumaker-magicbb) | [`forumaker/magicbb`](https://github.com/forumaker/magicbb) |
 | [`forumaker-magicdice`](https://weblate.rob006.net/projects/flarum2/forumaker-magicdice) | [`forumaker/magicdice`](https://github.com/forumaker/magicdice) |
