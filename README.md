@@ -889,11 +889,13 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`forumaker-magicslider`](https://weblate.rob006.net/projects/flarum2/forumaker-magicslider) | [`forumaker/magicslider`](https://github.com/forumaker/magicslider) |
 | [`huoxin-relative-url`](https://weblate.rob006.net/projects/flarum2/huoxin-relative-url) | [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) |
 | [`huseyinfiliz-modern-footer`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-modern-footer) | [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) |
+| [`huseyinfiliz-stickiest`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-stickiest) | [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) |
 | [`ianm-boring-avatars`](https://weblate.rob006.net/projects/flarum2/ianm-boring-avatars) | [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars) |
 | [`ianm-follow-users`](https://weblate.rob006.net/projects/flarum2/ianm-follow-users) | [`ianm/follow-users`](https://github.com/imorland/follow-users) |
 | [`ianm-html-head`](https://weblate.rob006.net/projects/flarum2/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head) |
 | [`ianm-log-viewer`](https://weblate.rob006.net/projects/flarum2/ianm-log-viewer) | [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer) |
 | [`ianm-twofactor`](https://weblate.rob006.net/projects/flarum2/ianm-twofactor) | [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) |
+| [`import-ai-webhook-notification`](https://weblate.rob006.net/projects/flarum2/import-ai-webhook-notification) | [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) |
 | [`justoverclock-welcomebox`](https://weblate.rob006.net/projects/flarum2/justoverclock-welcomebox) | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) |
 | [`migratetoflarum-fake-data`](https://weblate.rob006.net/projects/flarum2/migratetoflarum-fake-data) | [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data) |
 | [`sycho-advanced-extension-categories`](https://weblate.rob006.net/projects/flarum2/sycho-advanced-extension-categories) | [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories) |
