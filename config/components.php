@@ -270,6 +270,12 @@ return [
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v2.0.0/resources/locale/en.yml',
 	],
+	'vadkuz-flarum2-tag-favicon-and-file' => [
+		'tag' => 'https://raw.githubusercontent.com/vadkuz/flarum2-tag-favicon-and-file/v0.1.14/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.0/locale/en.yml',
 	],
