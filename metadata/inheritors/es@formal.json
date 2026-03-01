@@ -2014,6 +2014,21 @@
             }
         }
     },
+    "fof-formatting.json": {
+        "fof-formatting": {
+            "admin": {
+                "plugins": {
+                    "Autoimage": "799b1d76c302bf63db6dac5f8e75c663 799b1d76c302bf63db6dac5f8e75c663",
+                    "Autovideo": "1b8d22809b22193de40556a42fc57fec 1b8d22809b22193de40556a42fc57fec",
+                    "FancyPants": "ea8cf8650ceaeff09a908326d742cbb0 ea8cf8650ceaeff09a908326d742cbb0",
+                    "HTMLEntities": "8cedb97576fb442734c32d8d8f5e8bab 8cedb97576fb442734c32d8d8f5e8bab",
+                    "MediaEmbed": "ce86ca2147c33bc0edd0089fc394dcc7 ce86ca2147c33bc0edd0089fc394dcc7",
+                    "PipeTables": "59c4500af5034372fba632daa74ce2a2 59c4500af5034372fba632daa74ce2a2",
+                    "TaskLists": "bfc1b8f4ac1401f7809d7f5dd6320946 bfc1b8f4ac1401f7809d7f5dd6320946"
+                }
+            }
+        }
+    },
     "fof-gamification.json": {
         "core": {
             "forum": {
@@ -2476,6 +2491,44 @@
                     "notify_post_reacted_label": "6c50a6d30fa7fdf41e5b16a4bf20e1a3 6c50a6d30fa7fdf41e5b16a4bf20e1a3"
                 },
                 "warning": "46af284ae30ba293194a9aef19bf6ac6 46af284ae30ba293194a9aef19bf6ac6"
+            }
+        }
+    },
+    "fof-share-social.json": {
+        "fof-share-social": {
+            "admin": {
+                "settings": {
+                    "canonical-urls": "38c773e878b8862d4d5ffd4fa774dd55 38c773e878b8862d4d5ffd4fa774dd55",
+                    "default-option": "0d14f98c973c7362f482d9a272507bea 0d14f98c973c7362f482d9a272507bea",
+                    "default-option-help": "0847a6ba3a9e2451b489d91a517de8e6 0847a6ba3a9e2451b489d91a517de8e6",
+                    "plain-copy": "f1f415b27d165278432fbc5dbc602975 f1f415b27d165278432fbc5dbc602975"
+                }
+            },
+            "forum": {
+                "discussion": {
+                    "share_button": "fba5ba0a6d7e102d0e5f1714479b97f4 fba5ba0a6d7e102d0e5f1714479b97f4",
+                    "share_dropdown_accessible_label": "d32b5d6314652ab01040d4661cc9d241 d32b5d6314652ab01040d4661cc9d241"
+                },
+                "modal": {
+                    "copy_button": "0816bda2dff55df50c17a48bb83dc377 0816bda2dff55df50c17a48bb83dc377",
+                    "title": "fba5ba0a6d7e102d0e5f1714479b97f4 fba5ba0a6d7e102d0e5f1714479b97f4"
+                }
+            },
+            "lib": {
+                "networks": {
+                    "facebook": "d85544fce402c7a2a96a48078edaf203 d85544fce402c7a2a96a48078edaf203",
+                    "linkedin": "e884c507c5198a4578a84498f7a323e2 e884c507c5198a4578a84498f7a323e2",
+                    "my_mail": "77d11992fb965d26c2899808fe3ef958 77d11992fb965d26c2899808fe3ef958",
+                    "native": "64ea9348f15c465ad7c14c941f51794e 64ea9348f15c465ad7c14c941f51794e",
+                    "odnoklassniki": "ffe9335f911b49bea94407d148af3f48 ffe9335f911b49bea94407d148af3f48",
+                    "qq": "7e56035a736d269ad670f312496a0846 7e56035a736d269ad670f312496a0846",
+                    "qzone": "5635afd662403a7346cc45e67e91c932 5635afd662403a7346cc45e67e91c932",
+                    "reddit": "b632c55a33530d1433e29ffc09ba1151 b632c55a33530d1433e29ffc09ba1151",
+                    "telegram": "c915683f3ec888b8edcc7b06bd1428ec c915683f3ec888b8edcc7b06bd1428ec",
+                    "twitter": "2491bc9c7d8731e1ae33124093bc7026 2491bc9c7d8731e1ae33124093bc7026",
+                    "vkontakte": "c39fa7a81ade77a3863d9082401b777c c39fa7a81ade77a3863d9082401b777c",
+                    "whatsapp": "8b777ebcc5034ce0fe96dd154bcb370e 8b777ebcc5034ce0fe96dd154bcb370e"
+                }
             }
         }
     },
