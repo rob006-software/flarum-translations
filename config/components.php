@@ -47,6 +47,9 @@ return [
 	'datlechin-link-preview' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v2.0.0-beta.2/locale/en.yml',
 	],
+	'datlechin-more-discussions' => [
+		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-more-discussions/v2.0.0-beta.1/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.7/locale/en.yml',
 	],
