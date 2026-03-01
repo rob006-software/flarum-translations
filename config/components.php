@@ -62,6 +62,9 @@ return [
 	'datlechin-silent-edit' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-silent-edit/v2.0.0-beta.1/locale/en.yml',
 	],
+	'datlechin-tag-passwords' => [
+		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-tag-passwords/v2.0.0-beta.1/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-beta.7/locale/en.yml',
 	],
