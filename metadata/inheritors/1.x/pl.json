@@ -2153,6 +2153,15 @@
             }
         }
     },
+    "fof-discussion-thumbnail.json": {
+        "fof-discussion-thumbnail": {
+            "admin": {
+                "settings": {
+                    "link_to_discussion_label": "718e4cd72cab6e78f43ddad391cedc6e 718e4cd72cab6e78f43ddad391cedc6e"
+                }
+            }
+        }
+    },
     "fof-discussion-views.json": {
         "fof-discussion-views": {
             "admin": {
@@ -2327,6 +2336,21 @@
                 "hiding": "c4b21e79dbbb48b7a4679aeed4e02379 c4b21e79dbbb48b7a4679aeed4e02379",
                 "ignoring": "923fccd125cc426d97f5f40a129c09c0 923fccd125cc426d97f5f40a129c09c0",
                 "lurking": "a1a6decd0d1ff8f7470929c7ae6e2bfe a1a6decd0d1ff8f7470929c7ae6e2bfe"
+            }
+        }
+    },
+    "fof-formatting.json": {
+        "fof-formatting": {
+            "admin": {
+                "plugins": {
+                    "Autoimage": "09c49092e8baee3a4047bb50bc0851c1 09c49092e8baee3a4047bb50bc0851c1",
+                    "Autovideo": "68d9c57c3bc1cd8d5a27a3e2e0b4d52d 68d9c57c3bc1cd8d5a27a3e2e0b4d52d",
+                    "FancyPants": "13ce423cef58f920651525426223dcc9 13ce423cef58f920651525426223dcc9",
+                    "HTMLEntities": "5b6124b41fad1c069e69aa98cce2cddf 5b6124b41fad1c069e69aa98cce2cddf",
+                    "MediaEmbed": "9f55e31afed7b3cc76a2094e39a99b12 9f55e31afed7b3cc76a2094e39a99b12",
+                    "PipeTables": "593dfae0b606591adb7ffd66d53bbf51 593dfae0b606591adb7ffd66d53bbf51",
+                    "TaskLists": "a604322c0f61c264ea1ba2a10552c87d a604322c0f61c264ea1ba2a10552c87d"
+                }
             }
         }
     },
@@ -2990,6 +3014,45 @@
             }
         }
     },
+    "fof-rich-text.json": {
+        "fof-rich-text": {
+            "admin": {
+                "settings": {
+                    "toggle_on_editor": "49adee0174dcb598d9ae36829df825ac 49adee0174dcb598d9ae36829df825ac"
+                }
+            },
+            "forum": {
+                "settings": {
+                    "composer_heading": "3ae73a9c943d3fd910d3aead4bdef996 3ae73a9c943d3fd910d3aead4bdef996",
+                    "rich_text_compact_paragraphs_label": "085bdc402009dc81ef2da62052102867 085bdc402009dc81ef2da62052102867",
+                    "use_rich_text_editor_label": "52aa48568075b55b85f4dd7fc5f29df9 52aa48568075b55b85f4dd7fc5f29df9"
+                }
+            },
+            "lib": {
+                "composer": {
+                    "additional_items_tooltip": "8778143b9f1d19ce527bd503de64fca0 8778143b9f1d19ce527bd503de64fca0",
+                    "code_block_tooltip": "0aad7b54504e93b6f3e6f9bc9163529d 0aad7b54504e93b6f3e6f9bc9163529d",
+                    "horizontal_rule_tooltip": "a07ffd21ec86f6385ef9dbf289c4ad54 a07ffd21ec86f6385ef9dbf289c4ad54",
+                    "image_tooltip": "6bab22e704565b6ab977ed5f52f28983 6bab22e704565b6ab977ed5f52f28983",
+                    "insert_button": "c05094a1a83cd087d1972bc023d130d1 c05094a1a83cd087d1972bc023d130d1",
+                    "insert_image": {
+                        "src_placeholder": "97e7c9a7d06eac006a28bf05467fcc8b 97e7c9a7d06eac006a28bf05467fcc8b",
+                        "title_placeholder": "c16feb6af8a0c3fd3d7f09af854eb374 c16feb6af8a0c3fd3d7f09af854eb374"
+                    },
+                    "insert_link": {
+                        "href_placeholder": "e6b391a8d2c4d45902a23a8b6585703d e6b391a8d2c4d45902a23a8b6585703d",
+                        "remove_button": "4c36464e1f2bcd4f7753e618342df40f 4c36464e1f2bcd4f7753e618342df40f",
+                        "text_placeholder": "016bd7e1bf6f7b6c84afcdf3e047948f 016bd7e1bf6f7b6c84afcdf3e047948f",
+                        "title_placeholder": "1ff03e81749ffd33577645057036f3f6 1ff03e81749ffd33577645057036f3f6"
+                    },
+                    "link_tooltip": "5184bf9ab7bfcd0ffb62352bf0d5fadc 5184bf9ab7bfcd0ffb62352bf0d5fadc",
+                    "spoiler_block_tooltip": "5ba9460cc7d30ce54245086b431df711 5ba9460cc7d30ce54245086b431df711",
+                    "text_type_tooltip": "b422aa4d60d965d7a88e5f44c8dc6d70 b422aa4d60d965d7a88e5f44c8dc6d70",
+                    "toggle_button": "847fdc671a8f1166333b4a7c29dfbc12 847fdc671a8f1166333b4a7c29dfbc12"
+                }
+            }
+        }
+    },
     "fof-sentry.json": {
         "fof-sentry": {
             "admin": {
@@ -3001,6 +3064,41 @@
                     "monitor_performance_label": "eec3a529c2ff00c9f900f7b7a08d3d6d eec3a529c2ff00c9f900f7b7a08d3d6d",
                     "send_user_emails_label": "a9fb6bf9fca2d61e176117dd800878cd a9fb6bf9fca2d61e176117dd800878cd",
                     "user_feedback_label": "6bdf81e5bed143b3bbd9885839f4e60c 6bdf81e5bed143b3bbd9885839f4e60c"
+                }
+            }
+        }
+    },
+    "fof-share-social.json": {
+        "fof-share-social": {
+            "admin": {
+                "settings": {
+                    "canonical-urls": "a7661c1ba32f2b6ead7b8b29dc49a46d a7661c1ba32f2b6ead7b8b29dc49a46d",
+                    "plain-copy": "156cf28da9b6a5c9cc6330e729e22fc1 156cf28da9b6a5c9cc6330e729e22fc1"
+                }
+            },
+            "forum": {
+                "discussion": {
+                    "share_button": "9d43fd54060375d798b773bfb1f96766 9d43fd54060375d798b773bfb1f96766"
+                },
+                "modal": {
+                    "copy_button": "557fe2224054a4d1e8dd1771fd5db0fc 557fe2224054a4d1e8dd1771fd5db0fc",
+                    "title": "9d43fd54060375d798b773bfb1f96766 9d43fd54060375d798b773bfb1f96766"
+                }
+            },
+            "lib": {
+                "networks": {
+                    "facebook": "d85544fce402c7a2a96a48078edaf203 d85544fce402c7a2a96a48078edaf203",
+                    "linkedin": "e884c507c5198a4578a84498f7a323e2 e884c507c5198a4578a84498f7a323e2",
+                    "my_mail": "77d11992fb965d26c2899808fe3ef958 77d11992fb965d26c2899808fe3ef958",
+                    "native": "a81a68c09c6daf3680c5106d7f900aec a81a68c09c6daf3680c5106d7f900aec",
+                    "odnoklassniki": "ffe9335f911b49bea94407d148af3f48 ffe9335f911b49bea94407d148af3f48",
+                    "qq": "7e56035a736d269ad670f312496a0846 7e56035a736d269ad670f312496a0846",
+                    "qzone": "5635afd662403a7346cc45e67e91c932 5635afd662403a7346cc45e67e91c932",
+                    "reddit": "b632c55a33530d1433e29ffc09ba1151 b632c55a33530d1433e29ffc09ba1151",
+                    "telegram": "c915683f3ec888b8edcc7b06bd1428ec c915683f3ec888b8edcc7b06bd1428ec",
+                    "twitter": "97ee8354082dd7076a5455fe6d128abe 97ee8354082dd7076a5455fe6d128abe",
+                    "vkontakte": "c39fa7a81ade77a3863d9082401b777c c39fa7a81ade77a3863d9082401b777c",
+                    "whatsapp": "8b777ebcc5034ce0fe96dd154bcb370e 8b777ebcc5034ce0fe96dd154bcb370e"
                 }
             }
         }

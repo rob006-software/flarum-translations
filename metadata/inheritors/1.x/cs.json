@@ -1912,6 +1912,15 @@
             }
         }
     },
+    "fof-discussion-thumbnail.json": {
+        "fof-discussion-thumbnail": {
+            "admin": {
+                "settings": {
+                    "link_to_discussion_label": "cddeaea956bf24d1c2b0fac98b5b0996 cddeaea956bf24d1c2b0fac98b5b0996"
+                }
+            }
+        }
+    },
     "fof-disposable-emails.json": {
         "fof-email-checker": {
             "error": {
@@ -2048,6 +2057,21 @@
                 "hiding": "6ebc280d8630679a37ed96283dce35af 6ebc280d8630679a37ed96283dce35af",
                 "ignoring": "81b2e6d19be98396d88950ea40a7b9ee 81b2e6d19be98396d88950ea40a7b9ee",
                 "lurking": "dd6ad1f67b6ee31e69fe0e775948ea4f dd6ad1f67b6ee31e69fe0e775948ea4f"
+            }
+        }
+    },
+    "fof-formatting.json": {
+        "fof-formatting": {
+            "admin": {
+                "plugins": {
+                    "Autoimage": "7c075f6eb170b3eb5b301090b98214dd 7c075f6eb170b3eb5b301090b98214dd",
+                    "Autovideo": "18d277eec6bdcce7ba6511b03091d4a1 18d277eec6bdcce7ba6511b03091d4a1",
+                    "FancyPants": "7253d2391f2ebcde244bdc7e1911b9dd 7253d2391f2ebcde244bdc7e1911b9dd",
+                    "HTMLEntities": "6400b528d412d9ad70ab926993327a76 6400b528d412d9ad70ab926993327a76",
+                    "MediaEmbed": "4a39f22368288241c05170c1d976771d 4a39f22368288241c05170c1d976771d",
+                    "PipeTables": "fb454d92ef5c012641d126960b5b9e4e fb454d92ef5c012641d126960b5b9e4e",
+                    "TaskLists": "0e73b02c259aaed76073df4daacf6a58 0e73b02c259aaed76073df4daacf6a58"
+                }
             }
         }
     },
@@ -2326,6 +2350,41 @@
                     "notify_post_reacted_label": "965df6f0cc886ddbbb9b1adcd026ab24 965df6f0cc886ddbbb9b1adcd026ab24"
                 },
                 "warning": "acb808fc54d64920c0313f06d8e10ce9 acb808fc54d64920c0313f06d8e10ce9"
+            }
+        }
+    },
+    "fof-share-social.json": {
+        "fof-share-social": {
+            "admin": {
+                "settings": {
+                    "canonical-urls": "04c755b2624c4b423d38571a77fc85f4 04c755b2624c4b423d38571a77fc85f4",
+                    "plain-copy": "ae086c9250f488ca4e22a9c7acf96da2 ae086c9250f488ca4e22a9c7acf96da2"
+                }
+            },
+            "forum": {
+                "discussion": {
+                    "share_button": "4bc0293226a09a48a57e967fbde1c89d 4bc0293226a09a48a57e967fbde1c89d"
+                },
+                "modal": {
+                    "copy_button": "de462939c0e87cb44f71ace9f551764b de462939c0e87cb44f71ace9f551764b",
+                    "title": "4bc0293226a09a48a57e967fbde1c89d 4bc0293226a09a48a57e967fbde1c89d"
+                }
+            },
+            "lib": {
+                "networks": {
+                    "facebook": "d85544fce402c7a2a96a48078edaf203 d85544fce402c7a2a96a48078edaf203",
+                    "linkedin": "e884c507c5198a4578a84498f7a323e2 e884c507c5198a4578a84498f7a323e2",
+                    "my_mail": "77d11992fb965d26c2899808fe3ef958 77d11992fb965d26c2899808fe3ef958",
+                    "native": "64ea9348f15c465ad7c14c941f51794e 64ea9348f15c465ad7c14c941f51794e",
+                    "odnoklassniki": "ffe9335f911b49bea94407d148af3f48 ffe9335f911b49bea94407d148af3f48",
+                    "qq": "7e56035a736d269ad670f312496a0846 7e56035a736d269ad670f312496a0846",
+                    "qzone": "5635afd662403a7346cc45e67e91c932 5635afd662403a7346cc45e67e91c932",
+                    "reddit": "b632c55a33530d1433e29ffc09ba1151 b632c55a33530d1433e29ffc09ba1151",
+                    "telegram": "c915683f3ec888b8edcc7b06bd1428ec c915683f3ec888b8edcc7b06bd1428ec",
+                    "twitter": "2491bc9c7d8731e1ae33124093bc7026 2491bc9c7d8731e1ae33124093bc7026",
+                    "vkontakte": "c39fa7a81ade77a3863d9082401b777c c39fa7a81ade77a3863d9082401b777c",
+                    "whatsapp": "8b777ebcc5034ce0fe96dd154bcb370e 8b777ebcc5034ce0fe96dd154bcb370e"
+                }
             }
         }
     },

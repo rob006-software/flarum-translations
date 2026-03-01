@@ -2,36 +2,36 @@
     "fof-share-social": {
         "admin": {
             "settings": {
-                "canonical-urls": "",
-                "plain-copy": "",
-                "default-option": "",
-                "default-option-help": ""
+                "canonical-urls": "Käytä canonical osoitetta jakamiseen",
+                "plain-copy": "Näytä osoite kopioinnissa",
+                "default-option": "Oletus jako valinta",
+                "default-option-help": "Valitsemalla oletus jako valinnan, muuntaa modaali ikkunan alasvetovalikoksi.\nJos \"Oletus valinta\" on valittuna, näyttää sen jos selain tukee, muuten käytetään alkuperäistä modaalia.\n"
             }
         },
         "forum": {
             "discussion": {
-                "share_button": "",
-                "share_dropdown_accessible_label": ""
+                "share_button": "Jaa",
+                "share_dropdown_accessible_label": "Vaihda keskustelun jako alasvetovalikoksi"
             },
             "modal": {
-                "title": "",
-                "copy_button": ""
+                "title": "Jaa",
+                "copy_button": "Kopioi"
             }
         },
         "lib": {
             "networks": {
-                "facebook": "",
-                "twitter": "",
-                "linkedin": "",
-                "reddit": "",
-                "whatsapp": "",
-                "telegram": "",
-                "vkontakte": "",
-                "odnoklassniki": "",
-                "my_mail": "",
-                "qq": "",
-                "qzone": "",
-                "native": ""
+                "facebook": "Facebook",
+                "twitter": "X (entinen Twitter)",
+                "linkedin": "LinkedIn",
+                "reddit": "Reddit",
+                "whatsapp": "WhatsApp",
+                "telegram": "Telegram",
+                "vkontakte": "VKontakte",
+                "odnoklassniki": "Odnoklassniki",
+                "my_mail": "My World",
+                "qq": "QQ",
+                "qzone": "QZone",
+                "native": "Natiivi jako"
             }
         }
     }

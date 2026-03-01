@@ -2,18 +2,18 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Kategorien"
             },
             "labels": {
-                "keep_tags_nav": "",
+                "keep_tags_nav": "Link zur Themenseite in der Navigations-Seitenleiste behalten?",
                 "child_bare_icon": "",
-                "compact_mobile_mode": "",
+                "compact_mobile_mode": "Kompakter Mobilmodus",
                 "full_page_desktop": "",
                 "parent_remove_icon": "",
                 "parent_remove_description": "",
                 "parent_remove_stats": "",
                 "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "small_forum_optimized": "Für kleine Foren optimieren?"
             },
             "help": {
                 "child_bare_icon": "",
@@ -21,8 +21,8 @@
                 "small_forum_optimized": ""
             },
             "headings": {
-                "nav": "",
-                "layout": "",
+                "nav": "Navigation",
+                "layout": "Anordnung",
                 "parent_display": "",
                 "child_display": "",
                 "performance": ""
@@ -32,24 +32,24 @@
         "forum": {
             "all_categories": {
                 "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
                 "back_to_categories_tooltip": ""
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Diskussionen",
+                "post_label": "Beiträge"
             },
             "last_discussion_widget": {
                 "no_discussions": ""
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategorien"
         }
     }
 }

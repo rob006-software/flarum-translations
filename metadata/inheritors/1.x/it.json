@@ -2207,6 +2207,15 @@
             }
         }
     },
+    "fof-discussion-thumbnail.json": {
+        "fof-discussion-thumbnail": {
+            "admin": {
+                "settings": {
+                    "link_to_discussion_label": "c66605af4247ba4f816958658d000583 c66605af4247ba4f816958658d000583"
+                }
+            }
+        }
+    },
     "fof-discussion-views.json": {
         "fof-discussion-views": {
             "admin": {
@@ -2365,6 +2374,21 @@
                 "hiding": "c270204e3ca1b80773805e9b97e5bd03 c270204e3ca1b80773805e9b97e5bd03",
                 "ignoring": "3f402e3a3c81c1ba26b5e3c35bc17679 3f402e3a3c81c1ba26b5e3c35bc17679",
                 "lurking": "21de6e08e8a8256e3d3376d1cf56bf61 21de6e08e8a8256e3d3376d1cf56bf61"
+            }
+        }
+    },
+    "fof-formatting.json": {
+        "fof-formatting": {
+            "admin": {
+                "plugins": {
+                    "Autoimage": "466e215d6e4792004d2fc8d74a35abf5 466e215d6e4792004d2fc8d74a35abf5",
+                    "Autovideo": "f2c0effaaa31f8db623a05cf6a82edc2 f2c0effaaa31f8db623a05cf6a82edc2",
+                    "FancyPants": "6eef40c481212c59061a85cab81e6d29 6eef40c481212c59061a85cab81e6d29",
+                    "HTMLEntities": "502aecc8918cca2ac178158489222cd9 502aecc8918cca2ac178158489222cd9",
+                    "MediaEmbed": "88d9fc61f031637c4f362af120c7e8cd 88d9fc61f031637c4f362af120c7e8cd",
+                    "PipeTables": "b09145c35f21dc8d5d5494cd1309d846 b09145c35f21dc8d5d5494cd1309d846",
+                    "TaskLists": "0ca96a03b6a5737259dd1ba1f8d27e93 0ca96a03b6a5737259dd1ba1f8d27e93"
+                }
             }
         }
     },
@@ -3091,6 +3115,41 @@
                     "monitor_performance_label": "52bc774d1f0e2b3cf404c935f3f1a066 52bc774d1f0e2b3cf404c935f3f1a066",
                     "send_user_emails_label": "52d2e4da2b0872b6fa2ec5bc7b16cc16 52d2e4da2b0872b6fa2ec5bc7b16cc16",
                     "user_feedback_label": "a7da8cae48ee562cd8fec6e9387f0746 a7da8cae48ee562cd8fec6e9387f0746"
+                }
+            }
+        }
+    },
+    "fof-share-social.json": {
+        "fof-share-social": {
+            "admin": {
+                "settings": {
+                    "canonical-urls": "2250f035feb0009c0efebacc926d151e 2250f035feb0009c0efebacc926d151e",
+                    "plain-copy": "cbab7d07009db1697c0be60816ceefac cbab7d07009db1697c0be60816ceefac"
+                }
+            },
+            "forum": {
+                "discussion": {
+                    "share_button": "e37a5bc5255a509a8a2e643db40ee713 e37a5bc5255a509a8a2e643db40ee713"
+                },
+                "modal": {
+                    "copy_button": "e5875df840b162ae679fffb92535135e e5875df840b162ae679fffb92535135e",
+                    "title": "e37a5bc5255a509a8a2e643db40ee713 e37a5bc5255a509a8a2e643db40ee713"
+                }
+            },
+            "lib": {
+                "networks": {
+                    "facebook": "d85544fce402c7a2a96a48078edaf203 d85544fce402c7a2a96a48078edaf203",
+                    "linkedin": "e884c507c5198a4578a84498f7a323e2 e884c507c5198a4578a84498f7a323e2",
+                    "my_mail": "77d11992fb965d26c2899808fe3ef958 77d11992fb965d26c2899808fe3ef958",
+                    "native": "dd613d600a7a00a44e1da6805266713c dd613d600a7a00a44e1da6805266713c",
+                    "odnoklassniki": "ffe9335f911b49bea94407d148af3f48 ffe9335f911b49bea94407d148af3f48",
+                    "qq": "7e56035a736d269ad670f312496a0846 7e56035a736d269ad670f312496a0846",
+                    "qzone": "5635afd662403a7346cc45e67e91c932 5635afd662403a7346cc45e67e91c932",
+                    "reddit": "b632c55a33530d1433e29ffc09ba1151 b632c55a33530d1433e29ffc09ba1151",
+                    "telegram": "c915683f3ec888b8edcc7b06bd1428ec c915683f3ec888b8edcc7b06bd1428ec",
+                    "twitter": "2491bc9c7d8731e1ae33124093bc7026 2491bc9c7d8731e1ae33124093bc7026",
+                    "vkontakte": "c39fa7a81ade77a3863d9082401b777c c39fa7a81ade77a3863d9082401b777c",
+                    "whatsapp": "8b777ebcc5034ce0fe96dd154bcb370e 8b777ebcc5034ce0fe96dd154bcb370e"
                 }
             }
         }

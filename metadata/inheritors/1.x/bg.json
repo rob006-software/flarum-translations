@@ -1876,6 +1876,15 @@
             }
         }
     },
+    "fof-discussion-thumbnail.json": {
+        "fof-discussion-thumbnail": {
+            "admin": {
+                "settings": {
+                    "link_to_discussion_label": "01c0f4fbde1f8ca10cdd89c5798f6844 01c0f4fbde1f8ca10cdd89c5798f6844"
+                }
+            }
+        }
+    },
     "fof-discussion-views.json": {
         "fof-discussion-views": {
             "admin": {
@@ -2037,6 +2046,21 @@
                 "hiding": "6b0fcf823b589ccf4a7f3e86d1d81b6a 6b0fcf823b589ccf4a7f3e86d1d81b6a",
                 "ignoring": "ede9107e8aa88cb6506deb6eefb148d6 ede9107e8aa88cb6506deb6eefb148d6",
                 "lurking": "db88f43402c4598fbbc642fd929dfa5d db88f43402c4598fbbc642fd929dfa5d"
+            }
+        }
+    },
+    "fof-formatting.json": {
+        "fof-formatting": {
+            "admin": {
+                "plugins": {
+                    "Autoimage": "ca1cb21aa50c15cdd38fec807abba7bf ca1cb21aa50c15cdd38fec807abba7bf",
+                    "Autovideo": "09462b7ed92ef3bd6578b13e5fb4804b 09462b7ed92ef3bd6578b13e5fb4804b",
+                    "FancyPants": "aaca4d2363f25508789e52fa47e4a494 aaca4d2363f25508789e52fa47e4a494",
+                    "HTMLEntities": "7cfbfac63f7c5853b5bcb86c511ad494 7cfbfac63f7c5853b5bcb86c511ad494",
+                    "MediaEmbed": "f810f73c0a7a4e4a068b964ab9acd6f5 f810f73c0a7a4e4a068b964ab9acd6f5",
+                    "PipeTables": "dfb69e635852c65aeca8a894f3b44569 dfb69e635852c65aeca8a894f3b44569",
+                    "TaskLists": "1fdd3088700c803780e5e9918a6b8e71 1fdd3088700c803780e5e9918a6b8e71"
+                }
             }
         }
     },
@@ -2573,6 +2597,24 @@
                 "settings": {
                     "dsn_backend_label": "327d3cf6385d6cb4202e9bab85433719 327d3cf6385d6cb4202e9bab85433719",
                     "dsn_label": "e397758a004d1bf83f417e010b1c28a0 e397758a004d1bf83f417e010b1c28a0"
+                }
+            }
+        }
+    },
+    "fof-share-social.json": {
+        "fof-share-social": {
+            "forum": {
+                "discussion": {
+                    "share_button": "58c61d4aa7df492087c330fd34cf6a6d 58c61d4aa7df492087c330fd34cf6a6d"
+                },
+                "modal": {
+                    "copy_button": "39cac5a0fe9e287db75983fe38415922 39cac5a0fe9e287db75983fe38415922",
+                    "title": "58c61d4aa7df492087c330fd34cf6a6d 58c61d4aa7df492087c330fd34cf6a6d"
+                }
+            },
+            "lib": {
+                "networks": {
+                    "twitter": "2491bc9c7d8731e1ae33124093bc7026 2491bc9c7d8731e1ae33124093bc7026"
                 }
             }
         }

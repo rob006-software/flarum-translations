@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Kategoriat"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Pidetäänkö tunnistesivun linkki navigaation sivupalkissa?",
+                "child_bare_icon": "Näytetäänkö pelkät alikuvakkeet?",
+                "compact_mobile_mode": "Kompakti mobiilitila",
+                "full_page_desktop": "Koko sivun näkymä työpöydällä?",
+                "parent_remove_icon": "Piilotetaanko kuvakkeet ylätason tunnisteilta?",
+                "parent_remove_description": "Piilota kuvaukset ylätason tunnisteilla?",
+                "parent_remove_stats": "Piilota tilastot ylätason tunnisteilla?",
+                "parent_remove_last_discussion": "Piilota tuoreimmat keskustelut ylätason tunnisteilla?",
+                "small_forum_optimized": "Optimoi pienille foorumeille?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Näytetäänkö alikategorioiden kuvakkeet ilman pyöreää taustaa?",
+                "full_page_desktop": "Tiivistetäänkö sivupalkin navigaatiovalikko riviksi (kuten perinteisellä tunnistesivulla)? Tämä piilottaa myös widgetit (esim. Friends of Flarum Forum Statistics) kategoriasivun navigaatiopalkista.",
+                "small_forum_optimized": "Tämä antaa tarkemmat keskustelu-/viestimäärät, mutta hidastaa keskisuuria ja suuria foorumeita huomattavasti."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigaatio",
+                "layout": "Ulkoasu",
+                "parent_display": "Pääkategorian näyttö",
+                "child_display": "Alikategorian näyttö",
+                "performance": "Suorituskyky"
             },
-            "title": ""
+            "title": "Kategorian asetukset"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Kaikki kategoriat",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Takaisin kategorioihin"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Keskustelut",
+                "post_label": "Viestit"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Ei keskusteluita (vielä!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategoriat"
         }
     }
 }

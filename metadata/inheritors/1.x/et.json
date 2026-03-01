@@ -2528,6 +2528,15 @@
             }
         }
     },
+    "fof-discussion-thumbnail.json": {
+        "fof-discussion-thumbnail": {
+            "admin": {
+                "settings": {
+                    "link_to_discussion_label": "c9cb22ae0e6f4a7870dd2c9a7d8ac853 c9cb22ae0e6f4a7870dd2c9a7d8ac853"
+                }
+            }
+        }
+    },
     "fof-discussion-views.json": {
         "fof-discussion-views": {
             "admin": {
@@ -2712,6 +2721,21 @@
                 "hiding": "b4d2cd86cfb00f6c425892e4a923c2d3 b4d2cd86cfb00f6c425892e4a923c2d3",
                 "ignoring": "0f75bb72a72c0b5dba51310cf792d72e 0f75bb72a72c0b5dba51310cf792d72e",
                 "lurking": "a4460fb3a6856f871dca547a24a96ed8 a4460fb3a6856f871dca547a24a96ed8"
+            }
+        }
+    },
+    "fof-formatting.json": {
+        "fof-formatting": {
+            "admin": {
+                "plugins": {
+                    "Autoimage": "05ae4cafe669ccc06f4803643798a729 05ae4cafe669ccc06f4803643798a729",
+                    "Autovideo": "f92aea5f7641c7e88be09070b977c7c4 f92aea5f7641c7e88be09070b977c7c4",
+                    "FancyPants": "5b1b75062b1501b59c1e1195e6408917 5b1b75062b1501b59c1e1195e6408917",
+                    "HTMLEntities": "b2e6bace91e1846a0a332728bfe09e10 b2e6bace91e1846a0a332728bfe09e10",
+                    "MediaEmbed": "1e6aa32fda3fa94dd9f03839c7a82b28 1e6aa32fda3fa94dd9f03839c7a82b28",
+                    "PipeTables": "6f64a8e290f7d14ffcc6ba4965a6bed3 6f64a8e290f7d14ffcc6ba4965a6bed3",
+                    "TaskLists": "0e7dde94faa3cd7fdf3c1c6c6f0ef408 0e7dde94faa3cd7fdf3c1c6c6f0ef408"
+                }
             }
         }
     },
@@ -3503,6 +3527,44 @@
                     "monitor_performance_label": "168649af727c3149f6dea8cdad205f07 168649af727c3149f6dea8cdad205f07",
                     "send_user_emails_label": "599fef274612cbc69393e62e675c1ddf 599fef274612cbc69393e62e675c1ddf",
                     "user_feedback_label": "7a3ca4d9439f4ee9ad8e0eb2da2e8d89 7a3ca4d9439f4ee9ad8e0eb2da2e8d89"
+                }
+            }
+        }
+    },
+    "fof-share-social.json": {
+        "fof-share-social": {
+            "admin": {
+                "settings": {
+                    "canonical-urls": "ec39dba6cca522efa8fe43899f9241fe ec39dba6cca522efa8fe43899f9241fe",
+                    "default-option": "9d11552f817896081a332798b7421624 9d11552f817896081a332798b7421624",
+                    "default-option-help": "80edf0aff0500db3eb60da158d628db6 80edf0aff0500db3eb60da158d628db6",
+                    "plain-copy": "b03f59d6d731933b3de7b76da7850b99 b03f59d6d731933b3de7b76da7850b99"
+                }
+            },
+            "forum": {
+                "discussion": {
+                    "share_button": "b45b6e816c4fa521c6535625f4d07bae b45b6e816c4fa521c6535625f4d07bae",
+                    "share_dropdown_accessible_label": "d9ae3ff859dc4e88a8d4756e60e8e4ea d9ae3ff859dc4e88a8d4756e60e8e4ea"
+                },
+                "modal": {
+                    "copy_button": "272bd2af8ed082bf51e73d0fb943c383 272bd2af8ed082bf51e73d0fb943c383",
+                    "title": "b45b6e816c4fa521c6535625f4d07bae b45b6e816c4fa521c6535625f4d07bae"
+                }
+            },
+            "lib": {
+                "networks": {
+                    "facebook": "d85544fce402c7a2a96a48078edaf203 d85544fce402c7a2a96a48078edaf203",
+                    "linkedin": "e884c507c5198a4578a84498f7a323e2 e884c507c5198a4578a84498f7a323e2",
+                    "my_mail": "77d11992fb965d26c2899808fe3ef958 77d11992fb965d26c2899808fe3ef958",
+                    "native": "ed9865eaaf5b464c9cc0d7955f192ad4 ed9865eaaf5b464c9cc0d7955f192ad4",
+                    "odnoklassniki": "ffe9335f911b49bea94407d148af3f48 ffe9335f911b49bea94407d148af3f48",
+                    "qq": "7e56035a736d269ad670f312496a0846 7e56035a736d269ad670f312496a0846",
+                    "qzone": "5635afd662403a7346cc45e67e91c932 5635afd662403a7346cc45e67e91c932",
+                    "reddit": "b632c55a33530d1433e29ffc09ba1151 b632c55a33530d1433e29ffc09ba1151",
+                    "telegram": "c915683f3ec888b8edcc7b06bd1428ec c915683f3ec888b8edcc7b06bd1428ec",
+                    "twitter": "2491bc9c7d8731e1ae33124093bc7026 2491bc9c7d8731e1ae33124093bc7026",
+                    "vkontakte": "c39fa7a81ade77a3863d9082401b777c c39fa7a81ade77a3863d9082401b777c",
+                    "whatsapp": "8b777ebcc5034ce0fe96dd154bcb370e 8b777ebcc5034ce0fe96dd154bcb370e"
                 }
             }
         }
