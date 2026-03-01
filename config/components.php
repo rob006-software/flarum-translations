@@ -44,6 +44,9 @@ return [
 	'datlechin-discussion-overview' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-discussion-overview/v2.0.0-beta.1/locale/en.yml',
 	],
+	'datlechin-link-preview' => [
+		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v2.0.0-beta.2/locale/en.yml',
+	],
 	'datlechin-more-discussions' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-more-discussions/v2.0.0-beta.1/locale/en.yml',
 	],
